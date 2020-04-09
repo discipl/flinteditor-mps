@@ -1,9 +1,13 @@
 buildscript {
     repositories {
+        maven {
+            url = uri("https://projects.itemis.de/nexus/content/repositories/mbeddr")
+        }
         mavenCentral()
         mavenLocal()
     }
     dependencies {
+        classpath 'de.itemis.mps:mps-gradle-plugin:1.3.+'
     }
 }
 
@@ -18,15 +22,26 @@ ext {
     libDir = new File(rootDir, "libs")
     platformLibDir = new File(rootDir, "platform-libs")
     artifactDir = new File(rootDir, "artifacts")
-    javafx_version = "14"
-    mbeddr_version = "2019.3+"
+    mpsDir = new File(buildDir, "mps")
+    resourcesDir = new File(rootDir, "static-resources")
+    generatedResourcesDir = new File(resourcesDir, "generated")
+
     platforms = ["linux", "mac", "win"]
+    JDK_HOME = "${System.getProperty("java.home")}/.."
+
+    javafx_version = "14"
+    mbeddr_version = "2019.3.+"
+    mps_version = "2019.3.+"
+    node_version = "13.6.0"
+    npm_version = "6.13.4"
 }
 
 configurations {
     mpslib
     mpsplatformlib
     artifact
+    mps
+    antLib
 }
 
 repositories {
@@ -49,14 +64,22 @@ dependencies {
     mpslib 'org.reflections:reflections:0.9.12'
     mpslib project("code:java:FlintParser")
     artifact "com.mbeddr:platform:$mbeddr_version"
+    mps("com.jetbrains:mps:$mps_version")
+    antLib("org.apache.ant:ant-junit:1.10.1")
 }
+
+// "-Dexample.home=$projectDir".toString()
+// "-Dmps_home=$mpsDir.path".toString(),
+ext["itemis.mps.gradle.ant.defaultScriptArgs"] = ["-Dmps_home=$mpsDir.path".toString()]
+ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = project.configurations.antLib.fileCollection({true}) + project.files("$JDK_HOME/lib/tools.jar")
+
 
 node {
     // Version of node to use.
-    version = '13.6.0'
+    version =  node_version
 
     // Version of npm to use.
-    npmVersion = '6.13.4'
+    npmVersion = npm_version
 
     // Base URL for fetching node distributions (change if you have a mirror).
     distBaseUrl = 'https://nodejs.org/dist'
@@ -105,14 +128,13 @@ task resolveLibs(type: Copy) {
 }
 
 task cleanResources(type: Delete) {
-    delete(rootDir.path + "/resources/generated/")
+    delete(generatedResourcesDir)
 }
-
 
 task fetchComplianceByDesign(type: Copy) {
     dependsOn npmInstall
-    from rootDir.path + "/node_modules/@discipl/compliance-by-design/build"
-    into rootDir.path + "/resources/generated/compliance-by-design"
+    from "$rootDir.path/node_modules/@discipl/compliance-by-design/build"
+    into "${generatedResourcesDir.path}/compliance-by-design"
 }
 
 task fetchResources() {
@@ -185,4 +207,13 @@ task startLinux(type: Exec) {
     group "flintide"
     workingDir "$rootDir/code/build/artifacts/FlintDistribution/linux/bin"
     commandLine "./flint.sh"
+}
+
+task resolveMps(type: Copy) {
+    from configurations.mps.resolve().collect { zipTree(it) }
+    into mpsDir
+}
+
+task buildPlugin(type: de.itemis.mps.gradle.RunAntScript) {
+    script = file("$rootDir/code/buildIde.xml")
 }
