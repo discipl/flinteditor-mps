@@ -1,0 +1,188 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        mavenLocal()
+    }
+    dependencies {
+    }
+}
+
+plugins {
+    id "com.github.node-gradle.node" version "2.2.3"
+}
+
+group 'com.discpl'
+version '1.0-SNAPSHOT'
+
+ext {
+    libDir = new File(rootDir, "libs")
+    platformLibDir = new File(rootDir, "platform-libs")
+    artifactDir = new File(rootDir, "artifacts")
+    javafx_version = "14"
+    mbeddr_version = "2019.3+"
+    platforms = ["linux", "mac", "win"]
+}
+
+configurations {
+    mpslib
+    mpsplatformlib
+    artifact
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    maven {
+        url = uri("https://projects.itemis.de/nexus/content/repositories/mbeddr")
+    }
+}
+
+dependencies {
+    platforms.each { platform ->
+        mpsplatformlib "org.openjfx:javafx-base:$javafx_version:$platform"
+        mpsplatformlib "org.openjfx:javafx-controls:$javafx_version:$platform"
+        mpsplatformlib "org.openjfx:javafx-graphics:$javafx_version:$platform"
+        mpsplatformlib "org.openjfx:javafx-media:$javafx_version:$platform"
+        mpsplatformlib "org.openjfx:javafx-swing:$javafx_version:$platform"
+        mpsplatformlib "org.openjfx:javafx-web:$javafx_version:$platform"
+    }
+    mpslib 'org.reflections:reflections:0.9.12'
+    mpslib project("code:java:FlintParser")
+    artifact "com.mbeddr:platform:$mbeddr_version"
+}
+
+node {
+    // Version of node to use.
+    version = '13.6.0'
+
+    // Version of npm to use.
+    npmVersion = '6.13.4'
+
+    // Base URL for fetching node distributions (change if you have a mirror).
+    distBaseUrl = 'https://nodejs.org/dist'
+
+    // If true, it will download node using above parameters.
+    // If false, it will try to use globally installed node.
+    download = true
+
+    // Set the work directory for unpacking node
+    workDir = file("${project.buildDir}/nodejs")
+
+    // Set the work directory for NPM
+    npmWorkDir = file("${project.buildDir}/npm")
+
+    // Set the work directory where node_modules should be located
+    nodeModulesDir = file("${project.projectDir}")
+}
+
+task copyProjectLibs(type: Copy) {
+    subprojects.forEach { sub ->
+        from {
+            new File(sub.buildDir, "libs")
+        }
+    }
+    into libDir
+    rename '(.*)-[0-9]+\\..*', '$1.jar'
+}
+
+subprojects.forEach {
+    copyProjectLibs.dependsOn it.getTasksByName("build", false)
+}
+
+task cleanLibs(type: Delete) {
+    delete(libDir)
+}
+
+task resolveLibs(type: Copy) {
+    group "dependancies"
+    dependsOn cleanLibs
+    from {
+        configurations.mpslib.resolve()
+    }
+    into libDir
+    finalizedBy copyProjectLibs
+    rename '(.*)-[0-9]+\\..*.', '$1.jar'
+}
+
+task cleanResources(type: Delete) {
+    delete(rootDir.path + "/resources/generated/")
+}
+
+
+task fetchComplianceByDesign(type: Copy) {
+    dependsOn npmInstall
+    from rootDir.path + "/node_modules/@discipl/compliance-by-design/build"
+    into rootDir.path + "/resources/generated/compliance-by-design"
+}
+
+task fetchResources() {
+    group "dependancies"
+    dependsOn cleanResources
+    finalizedBy fetchComplianceByDesign
+}
+
+task cleanPlatformLibs(type: Delete) {
+    delete(platformLibDir)
+}
+
+task resolvePlatformLibs(type: Copy) {
+    group "dependancies"
+    dependsOn cleanPlatformLibs
+    from {
+        configurations.mpsplatformlib.resolve()
+    }
+    into platformLibDir
+    rename '(.*)-[0-9]+\\..*.', '$1.jar'
+}
+
+task unzipArtifacts() {
+    doFirst {
+        copy {
+            artifactDir.eachFile {
+                if (it.name.matches("(.*)\\.zip")) {
+                    from zipTree(it)
+                }
+            }
+            into artifactDir
+        }
+    }
+}
+
+task cleanArtifacts(type: Delete) {
+    delete(artifactDir)
+}
+
+task resolveArtifacts(type: Copy) {
+    group "dependancies"
+    dependsOn cleanArtifacts
+    from {
+        configurations.artifact.resolve()
+    }
+    into artifactDir
+    finalizedBy unzipArtifacts
+}
+
+task cleanIdeTar(type: Delete) {
+    delete("$rootDir/code/build/artifacts/FlintDistribution/linux")
+}
+
+task extractIdeTar() {
+    dependsOn cleanIdeTar
+    doFirst {
+        new File("$rootDir/code/build/artifacts/FlintDistribution/").eachFile { file ->
+            if (file.name.matches("Flint-(.*)\\.tar\\.gz")) {
+                copy {
+                    from tarTree(file)
+                    into "$rootDir/code/build/artifacts/FlintDistribution/linux"
+                }
+            }
+        }
+    }
+}
+
+task startLinux(type: Exec) {
+    dependsOn(extractIdeTar)
+    group "flintide"
+    workingDir "$rootDir/code/build/artifacts/FlintDistribution/linux/bin"
+    commandLine "./flint.sh"
+}

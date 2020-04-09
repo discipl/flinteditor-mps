@@ -1,0 +1,2 @@
+rootProject.name = 'Flint'
+include "code:java:FlintParser"
