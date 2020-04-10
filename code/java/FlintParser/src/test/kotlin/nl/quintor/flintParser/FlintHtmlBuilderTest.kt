@@ -1,5 +1,6 @@
 package nl.quintor.flintParser
 
+import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.Test
 import java.nio.file.Files
 import java.nio.file.Paths
@@ -7,10 +8,11 @@ import java.nio.file.Paths
 internal class FlintHtmlBuilderTest {
 
     @Test
+    @Disabled
     fun getHtml() {
         val pathToAssetFile =
-            "/home/dbrison/MPSProjects/Flint/lib/node_modules/@discipl/compliance-by-design/build/asset-manifest.json"
-        val flintHtmlBuilder = FlintHtmlBuilder(pathToAssetFile)
+            "/node_modules/@discipl/compliance-by-design/build/asset-manifest.json"
+        val flintHtmlBuilder = FlintHtmlBuilder(Paths.get(pathToAssetFile))
 
         val html = flintHtmlBuilder.getHtml(null,null)
         println(html)

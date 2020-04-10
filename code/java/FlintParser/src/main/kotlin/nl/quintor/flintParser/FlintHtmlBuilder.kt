@@ -2,11 +2,11 @@ package nl.quintor.flintParser
 
 import com.google.gson.Gson
 import java.io.FileReader
+import java.nio.file.Path
 import java.nio.file.Paths
 
-class FlintHtmlBuilder(private val pathToAssetFile: String) {
+class FlintHtmlBuilder(private val assetFilePath: Path) {
     fun getHtml(model: String?, flintConfig: String?): String {
-        val assetFilePath = Paths.get(pathToAssetFile)
         val manifest = Gson().fromJson(FileReader(assetFilePath.toFile()), Manifest::class.java)
         val basePath = assetFilePath.parent.toAbsolutePath()
 

@@ -6,7 +6,6 @@
     </modelRoot>
     <modelRoot contentPath="/home/dbrison/Projects/discipl/Flint/libs" type="java_classes">
       <sourceRoot location="FlintParser.jar" />
-      <sourceRoot location="reflections.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -23,7 +22,6 @@
     <stubModelEntry path="/home/dbrison/Projects/discipl/Flint/libs/kotlin-stdlib-jdk7.jar" />
     <stubModelEntry path="/home/dbrison/Projects/discipl/Flint/libs/kotlin-stdlib-jdk8.jar" />
     <stubModelEntry path="/home/dbrison/Projects/discipl/Flint/libs/kotlin-stdlib.jar" />
-    <stubModelEntry path="/home/dbrison/Projects/discipl/Flint/libs/reflections.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

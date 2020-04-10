@@ -366,14 +366,6 @@
           <language id="l:c7fb639f-be78-4307-89b0-b5959c3fa8c8:jetbrains.mps.lang.text" />
           <language id="l:696c1165-4a59-463b-bc5d-902caab85dd0:jetbrains.mps.make.facet" />
         </uses>
-        <library jar="../libs/annotations.jar" />
-        <library jar="../libs/FlintParser.jar" />
-        <library jar="../libs/gson-fire.jar" />
-        <library jar="../libs/gson.jar" />
-        <library jar="../libs/kotlin-stdlib-common.jar" />
-        <library jar="../libs/kotlin-stdlib-jdk7.jar" />
-        <library jar="../libs/kotlin-stdlib-jdk8.jar" />
-        <library jar="../libs/kotlin-stdlib.jar" />
         <classpath>
           <entry path="." />
         </classpath>
@@ -423,7 +415,6 @@
           <language id="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" />
         </uses>
         <library jar="../libs/annotations.jar" />
-        <library jar="../libs/commons-io.jar" />
         <library jar="../libs/FlintParser.jar" />
         <library jar="../libs/gson-fire.jar" />
         <library jar="../libs/gson.jar" />
@@ -968,7 +959,6 @@
         <fileset file="${libs}/kotlin-stdlib-jdk7.jar" />
         <fileset file="${libs}/kotlin-stdlib-jdk8.jar" />
         <fileset file="${libs}/kotlin-stdlib.jar" />
-        <fileset file="${libs}/commons-io.jar" />
         <fileset file="${libs}/reflections.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
@@ -1014,7 +1004,6 @@
         <fileset file="${artifacts.mpsStandalone}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-textgen.jar" />
         <fileset file="${libs}/annotations.jar" />
-        <fileset file="${libs}/commons-io.jar" />
         <fileset file="${libs}/FlintParser.jar" />
         <fileset file="${libs}/gson-fire.jar" />
         <fileset file="${libs}/gson.jar" />
