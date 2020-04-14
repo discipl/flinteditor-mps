@@ -12,6 +12,7 @@ buildscript {
 }
 plugins {
     id "com.github.node-gradle.node" version "2.2.3"
+    id "java"
 }
 apply plugin: 'generate-models'
 
@@ -97,17 +98,29 @@ node {
     nodeModulesDir = file("${project.projectDir}")
 }
 
-// TODO make buildPlugin task require generate
-generateTask = generate {
+de.itemis.mps.gradle.Plugin getPlugin(pluginPath, rootPluginlocation) {
+    if (!new File(pluginPath, "META-INF/plugin.xml").exists()) return null
+    def metaInf = new XmlParser().parse(new File(pluginPath, "META-INF/plugin.xml"))
+    def pluginId = metaInf.id[0].value()[0]
+    def reducedPluginPath = pluginPath.substring(rootPluginlocation.toString().size() + 1)
+    return new de.itemis.mps.gradle.Plugin(pluginId, reducedPluginPath)
+}
+
+de.itemis.mps.gradle.Plugin[] getPlugins(xmlFile, pluginslocation) {
+    def buildIde = new XmlParser().parse(xmlFile)
+    def pluginPaths = buildIde.target.find { it.attribute("name") == "generate" }
+            .collect { it.plugin }
+            .flatten()
+            .findAll { it.attribute("path").contains("artifacts.com.mbeddr.platform") }
+            .collect { it.attribute("path").replace("\${artifacts.com.mbeddr.platform}", pluginslocation.toString()) }
+    def mbeddrBuild = getPlugin(new File(pluginslocation, "com.mbeddr.platform.build").toString(), pluginslocation)
+    return (pluginPaths.collect { getPlugin(it, pluginslocation) } + mbeddrBuild).findAll { it != null }
+}
+
+generate {
     mpsLocation = mpsDir
     projectLocation = project("code").projectDir
-    plugins = [
-            new de.itemis.mps.gradle.Plugin("com.mbeddr.mpsutil.plantuml", "com.mbeddr.mpsutil.plantuml"),
-            new de.itemis.mps.gradle.Plugin("de.slisson.mps.editor.multiline", "mps-multiline"),
-            new de.itemis.mps.gradle.Plugin("com.mbeddr.mpsutil.refactoring", "mpsutil.refactoring"),
-            new de.itemis.mps.gradle.Plugin("com.mbeddr.platform", ""),
-            new de.itemis.mps.gradle.Plugin("com.mbeddr.platform.build", "com.mbeddr.platform.build")
-    ]
+    plugins = getPlugins(new File(project(":code").projectDir, "buildIde.xml"), new File(mpsDir, "plugins"))
     mpsConfig = configurations.mps
     pluginLocation = new File(mpsDir, "plugins")
 }
@@ -198,6 +211,7 @@ task cleanIdeTar(type: Delete) {
 }
 
 task extractIdeTar() {
+    dependsOn "buildFlintIde"
     dependsOn cleanIdeTar
     doFirst {
         new File("$rootDir/code/build/artifacts/FlintDistribution/").eachFile { file ->
@@ -211,7 +225,7 @@ task extractIdeTar() {
     }
 }
 
-task startLinux(type: Exec) {
+task startFlintLinuxIde(type: Exec) {
     dependsOn(extractIdeTar)
     group "flintide"
     workingDir "$rootDir/code/build/artifacts/FlintDistribution/linux/bin"
