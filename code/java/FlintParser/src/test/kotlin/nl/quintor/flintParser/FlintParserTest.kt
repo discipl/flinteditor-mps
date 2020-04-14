@@ -29,7 +29,20 @@ internal class FlintParserTest {
                 val flintParser = FlintParser(text)
                 val baseSources = flintParser.getFunctions()
                 baseSources.forEach { println(it) }
-                assertThat(baseSources.size, `is`(equalTo(18)))
+                assertThat(baseSources.size, `is`(equalTo(20)))
+            }
+        }
+    }
+
+    @Test
+    fun getPreconditions() {
+        this::class.java.classLoader.getResourceAsStream("Vreemdelingenwet.flint.json").use {
+            InputStreamReader(it).use {
+                val text = it.readText()
+                val flintParser = FlintParser(text)
+                val baseSources = flintParser.getPreconditions()
+                baseSources.forEach { println(it) }
+                assertThat(baseSources.size, `is`(equalTo(4)))
             }
         }
     }
@@ -41,8 +54,21 @@ internal class FlintParserTest {
                 val text = it.readText()
                 val flintParser = FlintParser(text)
                 val baseSources = flintParser.getFacts()
-                baseSources.forEach { println(it.fact) }
+                baseSources.forEach { println(it.fact.name) }
                 assertThat(baseSources.size, `is`(equalTo(110)))
+            }
+        }
+    }
+
+    @Test
+    fun getActs() {
+        this::class.java.classLoader.getResourceAsStream("Vreemdelingenwet.flint.json").use {
+            InputStreamReader(it).use {
+                val text = it.readText()
+                val flintParser = FlintParser(text)
+                val baseSources = flintParser.getActs()
+                baseSources.forEach { println(it) }
+                assertThat(baseSources.size, `is`(equalTo(4)))
             }
         }
     }
@@ -54,8 +80,8 @@ internal class FlintParserTest {
                 val text = it.readText()
                 val flintParser = FlintParser(text)
                 val baseSources = flintParser.getFunctions()
-                baseSources.forEach { println(it.value.allOperands) }
-                assertThat(baseSources.size, `is`(equalTo(18)))
+                baseSources.filter { it.value is Function }.forEach { println((it.value as Function).allOperands) }
+                assertThat(baseSources.size, `is`(equalTo(20)))
             }
         }
     }

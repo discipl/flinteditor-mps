@@ -2,38 +2,27 @@ package nl.quintor.flintParser
 
 import com.google.gson.annotations.SerializedName
 
-data class FlintModel(val facts: List<Fact>) {
-    val cleanedFacts: List<Fact>
-        get() = facts.map { fact ->
-            fact.copy(
-                fact.fact.substringAfter("[").substringBeforeLast("]")
-            )
-        }
-}
+data class FlintModel(val facts: List<Fact>, val acts: List<Act>)
 
-sealed class Fact(
-    val fact: String,
+data class Act(
+    val act: ActReference,
     val sources: List<Source>?,
+    val actor: FactReference,
+    val action: FactReference,
+    val `object`: FactReference,
+    val recipient: FactReference,
+    val create: List<Createable>,
+    val terminate: List<FactReference>,
+    val preconditions: Resolvable?,
     override val explanation: String
-) : Explainable, Copyable<Fact> {
-    class SimpleFact(fact: String, sources: List<Source>?, explanation: String, val function: String) :
-        Fact(fact, sources, explanation) {
-        override fun copy(fact: String): Fact {
-            return SimpleFact(fact, sources, explanation, function)
-        }
-    }
+) : Explainable
 
-    class ComplexFact(fact: String, sources: List<Source>?, explanation: String, val function: Function) :
-        Fact(fact, sources, explanation) {
-        override fun copy(fact: String): Fact {
-            return ComplexFact(fact, sources, explanation, function)
-        }
-    }
-}
-
-interface Copyable<T> {
-    fun copy(fact: String): T
-}
+data class Fact(
+    val fact: FactReference,
+    val sources: List<Source>?,
+    val function: Resolvable?,
+    override val explanation: String
+) : Explainable
 
 data class Source(
     val citation: String,
@@ -53,7 +42,7 @@ data class BaseSource(
     val juriconnect: String
 )
 
-data class Function(val expression: String, val operands: List<Operand>?, val operand: Operand?) : Operand {
+data class Function(val expression: String, val operands: List<Operand>?, val operand: Operand?) : Operand, Resolvable {
     val allOperands: List<Operand>
         get() = mutableListOf<Operand>().apply {
             operands?.let { this.addAll(it) }
@@ -63,7 +52,16 @@ data class Function(val expression: String, val operands: List<Operand>?, val op
 
 interface Operand
 
-data class FactReference(val factName: String) : Operand
+interface Nameable {
+    val name: String
+}
+
+interface Createable : Nameable
+interface Resolvable
+
+data class FactReference(override val name: String) : Operand, Nameable, Createable, Resolvable
+data class DutyReference(override val name: String) : Nameable, Createable
+data class ActReference(override val name: String) : Nameable
 
 interface Explainable {
     val explanation: String

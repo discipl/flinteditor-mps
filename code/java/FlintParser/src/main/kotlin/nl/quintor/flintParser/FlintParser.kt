@@ -1,6 +1,8 @@
 package nl.quintor.flintParser
 
 import com.google.gson.JsonElement
+import com.google.gson.JsonObject
+import com.google.gson.JsonPrimitive
 import io.gsonfire.GsonFireBuilder
 import io.gsonfire.TypeSelector
 import kotlin.streams.toList
@@ -8,16 +10,31 @@ import kotlin.streams.toList
 
 class FlintParser(private val json: String) {
     private val flintModel: FlintModel = GsonFireBuilder()
-        .registerTypeSelector(Fact::class.java, TypeSelector { readElement ->
-            return@TypeSelector if (readElement.asJsonObject.get("function").isJsonPrimitive) {
-                Fact.SimpleFact::class.java
-            } else {
-                Fact.ComplexFact::class.java
+        .registerTypeSelector<Resolvable>(Resolvable::class.java, TypeSelector<Resolvable> { readElement ->
+            return@TypeSelector when (readElement) {
+                is JsonPrimitive -> FactReference::class.java
+                is JsonObject -> Function::class.java
+                else -> {
+                    throw IllegalArgumentException("Element $readElement is not a resolveable.")
+                }
+            }
+        })
+        .registerTypeSelector(Createable::class.java, TypeSelector { readElement ->
+            return@TypeSelector when {
+                readElement.asString.startsWith("<") -> DutyReference::class.java
+                readElement.asString.startsWith("[") -> FactReference::class.java
+                else -> {
+                    throw IllegalArgumentException("Element $readElement is not a createable.")
+                }
             }
         })
         .createGsonBuilder()
         .registerTypeAdapter(Operand::class.java, OperandDeserializer())
-        .create().fromJson(json, FlintModel::class.java)
+        .registerTypeAdapter(DutyReference::class.java, DutyReferenceDeserializer())
+        .registerTypeAdapter(ActReference::class.java, ActReferenceDeserializer())
+        .registerTypeAdapter(FactReference::class.java, FactReferenceDeserializer())
+        .create()
+        .fromJson(json, FlintModel::class.java)
 
     private fun isSimpleFunction(jsonElement: JsonElement): Boolean {
         var operandsCheck: Boolean? = null
@@ -31,21 +48,35 @@ class FlintParser(private val json: String) {
     }
 
     fun getBaseSources(): Set<BaseSource> {
-        return flintModel.cleanedFacts
+        val factSources = flintModel.facts
             .flatMap { fact -> fact.sources?.map { source -> source.baseSource } ?: emptyList() }
+        val actSources = flintModel.acts
+            .flatMap { fact -> fact.sources?.map { source -> source.baseSource } ?: emptyList() }
+        return listOf(factSources, actSources)
+            .flatMap { it }
             .groupBy { it.juriconnect }
             .map { reduce(it.value) }
             .toSet()
     }
 
     fun getFacts(): Set<Fact> {
-        return flintModel.cleanedFacts.toSet()
+        return flintModel.facts.toSet()
     }
 
-    fun getFunctions(): Map<String, Function> {
-        return this.flintModel.cleanedFacts
-            .filter { it is Fact.ComplexFact }
-            .map { it.fact to (it as Fact.ComplexFact).function }.toMap()
+    fun getActs(): Set<Act> {
+        return flintModel.acts.toSet()
+    }
+
+    fun getFunctions(): Map<String, Resolvable> {
+        return this.flintModel.facts
+            .filter { it.function != null }
+            .map { it.fact.name to it.function!! }.toMap()
+    }
+
+    fun getPreconditions(): Map<String, Resolvable> {
+        return this.flintModel.acts
+            .filter { it.preconditions != null }
+            .map { it.act.name to it.preconditions!! }.toMap()
     }
 
     private fun reduce(sources: List<BaseSource>): BaseSource {

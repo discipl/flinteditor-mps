@@ -8,6 +8,7 @@
   <imports>
     <import index="lnwe" ref="r:d268844f-2c2c-4250-a969-3a23a8a2bb02(Flint.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="3lmi" ref="r:a950900f-47ea-4287-adc8-88f839ab614a(Flint.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -40,6 +41,7 @@
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
+      <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -55,6 +57,9 @@
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
       </concept>
@@ -113,6 +118,7 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
+      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
@@ -266,6 +272,71 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="18kY7G" id="3NRSSGKO818">
+    <property role="TrG5h" value="GeneratedFact" />
+    <node concept="3clFbS" id="3NRSSGKO819" role="18ibNy">
+      <node concept="3clFbJ" id="3NRSSGKO81k" role="3cqZAp">
+        <node concept="3clFbS" id="3NRSSGKO81m" role="3clFbx">
+          <node concept="a7r0C" id="3NRSSGKOccm" role="3cqZAp">
+            <node concept="1YBJjd" id="3NRSSGKOcdi" role="1urrMF">
+              <ref role="1YBMHb" node="3NRSSGKO81b" resolve="fact" />
+            </node>
+            <node concept="Xl_RD" id="3NRSSGKOcd4" role="a7wSD">
+              <property role="Xl_RC" value="This fact was generated remove or change explanation to disable warning" />
+            </node>
+          </node>
+        </node>
+        <node concept="17R0WA" id="3NRSSGKO9ZH" role="3clFbw">
+          <node concept="2OqwBi" id="3NRSSGKO9jm" role="3uHU7B">
+            <node concept="1YBJjd" id="3NRSSGKO96w" role="2Oq$k0">
+              <ref role="1YBMHb" node="3NRSSGKO81b" resolve="fact" />
+            </node>
+            <node concept="3TrcHB" id="3NRSSGKO9yl" role="2OqNvi">
+              <ref role="3TsBF5" to="lnwe:FdnnrG0XRj" resolve="explanation" />
+            </node>
+          </node>
+          <node concept="Xl_RD" id="3NRSSGKO0YZ" role="3uHU7w">
+            <property role="Xl_RC" value="This fact was generated during the 'Import From Json Action'" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3NRSSGKO81b" role="1YuTPh">
+      <property role="TrG5h" value="fact" />
+      <ref role="1YaFvo" to="lnwe:5XjenljaN1U" resolve="Fact" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="3NRSSGKTxVJ">
+    <property role="TrG5h" value="UnusedFact" />
+    <node concept="3clFbS" id="3NRSSGKTxVK" role="18ibNy">
+      <node concept="3clFbJ" id="3NRSSGKTxVV" role="3cqZAp">
+        <node concept="3fqX7Q" id="3NRSSGKTyrK" role="3clFbw">
+          <node concept="2OqwBi" id="3NRSSGKTyrM" role="3fr31v">
+            <node concept="1YBJjd" id="3NRSSGKTyrN" role="2Oq$k0">
+              <ref role="1YBMHb" node="3NRSSGKTxVM" resolve="fact" />
+            </node>
+            <node concept="2qgKlT" id="3NRSSGKTyrO" role="2OqNvi">
+              <ref role="37wK5l" to="3lmi:3NRSSGKSBqh" resolve="hasUsages" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="3NRSSGKTxVX" role="3clFbx">
+          <node concept="a7r0C" id="3NRSSGKTysh" role="3cqZAp">
+            <node concept="Xl_RD" id="3NRSSGKTysz" role="a7wSD">
+              <property role="Xl_RC" value="Unused fact" />
+            </node>
+            <node concept="1YBJjd" id="3NRSSGKTytl" role="1urrMF">
+              <ref role="1YBMHb" node="3NRSSGKTxVM" resolve="fact" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3NRSSGKTxVM" role="1YuTPh">
+      <property role="TrG5h" value="fact" />
+      <ref role="1YaFvo" to="lnwe:5XjenljaN1U" resolve="Fact" />
     </node>
   </node>
 </model>

@@ -97,7 +97,7 @@
       <property role="IQ2ns" value="6868897032739751036" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="function" />
-      <ref role="20lvS9" node="5XjenljbCcP" resolve="Function" />
+      <ref role="20lvS9" node="5HFvLoKI8pW" resolve="Resolvable" />
     </node>
     <node concept="1TJgyj" id="5XjenljcHEm" role="1TKVEi">
       <property role="IQ2ns" value="6868897032739936918" />
@@ -219,7 +219,7 @@
       <ref role="PrY4T" node="5HFvLoKI8pW" resolve="Resolvable" />
     </node>
     <node concept="PrWs8" id="7PeSHTFdOjb" role="PzmwI">
-      <ref role="PrY4T" node="7PeSHTFdOj4" resolve="FactOrDuty" />
+      <ref role="PrY4T" node="7PeSHTFdOj4" resolve="Createable" />
     </node>
   </node>
   <node concept="PlHQZ" id="5HFvLoKI8pW">
@@ -286,7 +286,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="create" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="7PeSHTFdOj4" resolve="FactOrDuty" />
+      <ref role="20lvS9" node="7PeSHTFdOj4" resolve="Createable" />
     </node>
     <node concept="1TJgyj" id="7PeSHTFdJ7p" role="1TKVEi">
       <property role="IQ2ns" value="9029403747833803225" />
@@ -298,7 +298,7 @@
   </node>
   <node concept="PlHQZ" id="7PeSHTFdOj4">
     <property role="EcuMT" value="9029403747833824452" />
-    <property role="TrG5h" value="FactOrDuty" />
+    <property role="TrG5h" value="Createable" />
     <node concept="PrWs8" id="7PeSHTFdOjf" role="PrDN$">
       <ref role="PrY4T" to="kwxp:2N1CSrzPN_8" resolve="IVisualizable" />
     </node>
