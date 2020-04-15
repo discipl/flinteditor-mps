@@ -19,12 +19,21 @@ class FlintParser(private val json: String) {
                 }
             }
         })
-        .registerTypeSelector(Createable::class.java, TypeSelector { readElement ->
+        .registerTypeSelector(ActCreateableAndTerminateable::class.java, TypeSelector { readElement ->
             return@TypeSelector when {
                 readElement.asString.startsWith("<") -> DutyReference::class.java
                 readElement.asString.startsWith("[") -> FactReference::class.java
                 else -> {
-                    throw IllegalArgumentException("Element $readElement is not a createable.")
+                    InvalidCreateableAndTerminateable::class.java
+                }
+            }
+        })
+        .registerTypeSelector(DutyCreateableAndTerminateable::class.java, TypeSelector { readElement ->
+            return@TypeSelector when {
+                readElement.asString.startsWith("<<") -> ActReference::class.java
+                readElement.asString.startsWith("<") -> DutyReference::class.java
+                else -> {
+                    InvalidCreateableAndTerminateable::class.java
                 }
             }
         })
@@ -33,6 +42,11 @@ class FlintParser(private val json: String) {
         .registerTypeAdapter(DutyReference::class.java, DutyReferenceDeserializer())
         .registerTypeAdapter(ActReference::class.java, ActReferenceDeserializer())
         .registerTypeAdapter(FactReference::class.java, FactReferenceDeserializer())
+        .registerTypeAdapter(DutyComponents::class.java, DutyComponentsDeserializer())
+        .registerTypeAdapter(
+            InvalidCreateableAndTerminateable::class.java,
+            InvalidCreatableAndTerminateableDeserializer()
+        )
         .create()
         .fromJson(json, FlintModel::class.java)
 
@@ -47,20 +61,30 @@ class FlintParser(private val json: String) {
         return jsonElement.asJsonObject.get("operand").isJsonPrimitive
     }
 
-    fun getBaseSources(): Set<BaseSource> {
+    fun getSources(): Set<Source> {
         val factSources = flintModel.facts
-            .flatMap { fact -> fact.sources?.map { source -> source.baseSource } ?: emptyList() }
+            .flatMap { fact -> fact.sources ?: emptyList() }
         val actSources = flintModel.acts
-            .flatMap { fact -> fact.sources?.map { source -> source.baseSource } ?: emptyList() }
-        return listOf(factSources, actSources)
-            .flatMap { it }
-            .groupBy { it.juriconnect }
-            .map { reduce(it.value) }
+            .flatMap { fact -> fact.sources ?: emptyList() }
+        val dutySources = flintModel.duties
+            .flatMap { fact -> fact.sources ?: emptyList() }
+        return listOf(factSources, actSources, dutySources).flatMap { it }.toSet()
+    }
+
+    fun getBaseSources(): Set<BaseSource> {
+        return getSources()
+            .map { source -> source.baseSource }
+            .groupBy { it.name }
+            .map { it.value[0] }
             .toSet()
     }
 
     fun getFacts(): Set<Fact> {
         return flintModel.facts.toSet()
+    }
+
+    fun getDuties(): Set<Duty> {
+        return flintModel.duties.toSet()
     }
 
     fun getActs(): Set<Act> {

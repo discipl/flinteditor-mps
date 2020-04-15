@@ -854,6 +854,11 @@
             <ref role="1Busuk" to="al5i:2N1CSrzSKpi" resolve="com.mbeddr.mpsutil.plantuml.node" />
           </node>
         </node>
+        <node concept="1SiIV0" id="27H3E6HGGHI" role="3bR37C">
+          <node concept="3bR9La" id="27H3E6HGGHJ" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:2eDSGe9d1q1" resolve="MPS.Workbench" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="QLMwktTkqF" role="2G$12L">
         <property role="BnDLt" value="true" />

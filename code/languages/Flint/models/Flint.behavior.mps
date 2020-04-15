@@ -1089,7 +1089,7 @@
       <node concept="37vLTG" id="cIw2dGywDU" role="3clF46">
         <property role="TrG5h" value="node" />
         <node concept="3Tqbb2" id="cIw2dGywHu" role="1tU5fm">
-          <ref role="ehGHo" to="lnwe:5HFvLoKI8pW" resolve="Resolvable" />
+          <ref role="ehGHo" to="lnwe:5HFvLoKI8pW" resolve="IResolvable" />
         </node>
       </node>
       <node concept="37vLTG" id="cIw2dGywPJ" role="3clF46">
@@ -1330,7 +1330,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="cIw2dGxfrA">
-    <ref role="13h7C2" to="lnwe:5HFvLoKI8pW" resolve="Resolvable" />
+    <ref role="13h7C2" to="lnwe:5HFvLoKI8pW" resolve="IResolvable" />
     <node concept="13hLZK" id="cIw2dGxfrB" role="13h7CW">
       <node concept="3clFbS" id="cIw2dGxfrC" role="2VODD2" />
     </node>
@@ -1370,7 +1370,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="7PeSHTFdOjh">
-    <ref role="13h7C2" to="lnwe:7PeSHTFdOj4" resolve="Createable" />
+    <ref role="13h7C2" to="lnwe:7PeSHTFdOj4" resolve="IActCreateableAndTerminateable" />
     <node concept="13hLZK" id="7PeSHTFdOji" role="13h7CW">
       <node concept="3clFbS" id="7PeSHTFdOjj" role="2VODD2" />
     </node>

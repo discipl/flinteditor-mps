@@ -3,6 +3,7 @@ package nl.quintor.flintParser
 import org.hamcrest.MatcherAssert.assertThat
 import org.hamcrest.Matchers.`is`
 import org.hamcrest.Matchers.equalTo
+import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 import java.io.InputStreamReader
 
@@ -10,20 +11,46 @@ internal class FlintParserTest {
 
     @Test
     fun getBaseSources() {
-        this::class.java.classLoader.getResourceAsStream("Vreemdelingenwet.flint.json").use {
+        this::class.java.classLoader.getResourceAsStream("test-Vreemdelingenwet.flint.json").use {
             InputStreamReader(it).use {
                 val text = it.readText()
                 val flintParser = FlintParser(text)
                 val baseSources = flintParser.getBaseSources()
                 baseSources.forEach { println(it) }
-                assertThat(baseSources.size, `is`(equalTo(34)))
+                assertThat(baseSources.size, `is`(equalTo(69)))
+            }
+        }
+    }
+
+    @Test
+    fun getBaseSourcesANLb() {
+        this::class.java.classLoader.getResourceAsStream("test-ANLb.flint.json").use {
+            InputStreamReader(it).use {
+                val text = it.readText()
+                val flintParser = FlintParser(text)
+                val baseSources = flintParser.getBaseSources()
+                baseSources.forEach { println(it) }
+                assertThat(baseSources.size, `is`(equalTo(5)))
+            }
+        }
+    }
+
+    @Test
+    fun getSourcesANLb() {
+        this::class.java.classLoader.getResourceAsStream("test-ANLb.flint.json").use {
+            InputStreamReader(it).use {
+                val text = it.readText()
+                val flintParser = FlintParser(text)
+                val baseSources = flintParser.getSources()
+                baseSources.forEach { println(it) }
+                assertThat(baseSources.size, `is`(equalTo(5)))
             }
         }
     }
 
     @Test
     fun getFunctions() {
-        this::class.java.classLoader.getResourceAsStream("Vreemdelingenwet.flint.json").use {
+        this::class.java.classLoader.getResourceAsStream("test-Vreemdelingenwet.flint.json").use {
             InputStreamReader(it).use {
                 val text = it.readText()
                 val flintParser = FlintParser(text)
@@ -36,7 +63,7 @@ internal class FlintParserTest {
 
     @Test
     fun getPreconditions() {
-        this::class.java.classLoader.getResourceAsStream("Vreemdelingenwet.flint.json").use {
+        this::class.java.classLoader.getResourceAsStream("test-Vreemdelingenwet.flint.json").use {
             InputStreamReader(it).use {
                 val text = it.readText()
                 val flintParser = FlintParser(text)
@@ -49,7 +76,7 @@ internal class FlintParserTest {
 
     @Test
     fun getFacts() {
-        this::class.java.classLoader.getResourceAsStream("Vreemdelingenwet.flint.json").use {
+        this::class.java.classLoader.getResourceAsStream("test-Vreemdelingenwet.flint.json").use {
             InputStreamReader(it).use {
                 val text = it.readText()
                 val flintParser = FlintParser(text)
@@ -61,8 +88,21 @@ internal class FlintParserTest {
     }
 
     @Test
+    fun getDuties() {
+        this::class.java.classLoader.getResourceAsStream("test-lerarenbeurs.flint.json").use {
+            InputStreamReader(it).use {
+                val text = it.readText()
+                val flintParser = FlintParser(text)
+                val baseSources = flintParser.getDuties()
+                assertThat(baseSources.size, `is`(equalTo(23)))
+                assertTrue(baseSources.any { it.dutyComponents.components.isNotEmpty() })
+            }
+        }
+    }
+
+    @Test
     fun getActs() {
-        this::class.java.classLoader.getResourceAsStream("Vreemdelingenwet.flint.json").use {
+        this::class.java.classLoader.getResourceAsStream("test-Vreemdelingenwet.flint.json").use {
             InputStreamReader(it).use {
                 val text = it.readText()
                 val flintParser = FlintParser(text)
@@ -75,7 +115,7 @@ internal class FlintParserTest {
 
     @Test
     fun getAllOperands() {
-        this::class.java.classLoader.getResourceAsStream("Vreemdelingenwet.flint.json").use {
+        this::class.java.classLoader.getResourceAsStream("test-Vreemdelingenwet.flint.json").use {
             InputStreamReader(it).use {
                 val text = it.readText()
                 val flintParser = FlintParser(text)
