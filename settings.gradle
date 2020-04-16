@@ -1,2 +1,13 @@
+pluginManagement {
+    repositories {
+        maven {
+            url = uri("https://projects.itemis.de/nexus/content/repositories/mbeddr")
+        }
+        gradlePluginPortal()
+    }
+    plugins {
+        id 'generate-models' version "${mps_gradle_plugin_version}"
+    }
+}
 rootProject.name = 'Flint'
 include "code:java:FlintParser"

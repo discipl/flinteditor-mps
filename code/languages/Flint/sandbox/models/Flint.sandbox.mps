@@ -37,7 +37,9 @@
         <reference id="2444626260293394861" name="dutyHolder" index="2cz2Wc" />
         <reference id="2444626260293394863" name="claimant" index="2cz2We" />
         <reference id="2444626260294520794" name="create" index="2cBO5V" />
+        <reference id="2444626260294520798" name="terminate" index="2cBO5Z" />
         <child id="2444626260294520803" name="sources" index="2cBO52" />
+        <child id="2444626260294521210" name="dutyComponents" index="2cBPZr" />
       </concept>
       <concept id="2444626260293394822" name="Flint.structure.DutyReference" flags="ng" index="2cz2WB">
         <reference id="2444626260293394823" name="duty" index="2cz2WA" />
@@ -46,7 +48,6 @@
       <concept id="4393230148472920046" name="Flint.structure.SUM" flags="ng" index="cH3h_" />
       <concept id="4393230148472920045" name="Flint.structure.PRODUCT" flags="ng" index="cH3hA" />
       <concept id="4393230148472920044" name="Flint.structure.OR" flags="ng" index="cH3hB" />
-      <concept id="4393230148472920039" name="Flint.structure.LIST" flags="ng" index="cH3hG" />
       <concept id="4393230148472920038" name="Flint.structure.LESS_THAN" flags="ng" index="cH3hH" />
       <concept id="4393230148472920036" name="Flint.structure.AND" flags="ng" index="cH3hJ" />
       <concept id="9029403747833789403" name="Flint.structure.Act" flags="ng" index="mu5$5">
@@ -69,2418 +70,4427 @@
       </concept>
     </language>
   </registry>
-  <node concept="cu0$2" id="27H3E6IuN6r">
-    <property role="TrG5h" value="ANLb" />
-    <node concept="cog_a" id="27H3E6IuN6s" role="cogAT">
-      <property role="TrG5h" value="KADER JAARLIJKS BEHEER, BETALINGSAANVRAAG EN VERANTWOORDING ANLb VOOR BEHEERJAAR 2019" />
-      <property role="cog$t" value="" />
-      <property role="cog$m" value="05-02-2019" />
+  <node concept="cu0$2" id="6qUJKUPIdek">
+    <property role="TrG5h" value="lerarenbeurs" />
+    <node concept="cu0$f" id="6qUJKUPIdel" role="cu0BP">
+      <property role="TrG5h" value="Regering" />
+      <property role="3ANC2_" value="als fact benoemd omdat Regering op enkele plaatsen als interested party benoemd is" />
     </node>
-    <node concept="cog_a" id="27H3E6IuN6t" role="cogAT">
-      <property role="TrG5h" value="art. 72, lid 1 Vo (EU) 1306/2013 en art 3.11, onder g SVNL 2016" />
-      <property role="cog$t" value="" />
-      <property role="cog$m" value="30-01-2020" />
-    </node>
-    <node concept="cog_a" id="27H3E6IuN6u" role="cogAT">
-      <property role="TrG5h" value="art. 11, lid 4 Vo (EU) 809/2014" />
-      <property role="cog$t" value="" />
-      <property role="cog$m" value="30-01-2020" />
-    </node>
-    <node concept="cog_a" id="27H3E6IuN6v" role="cogAT">
-      <property role="TrG5h" value="artikel 13 Vo (EU) 640/2014 en artikel 11 lid 4 en artikel 15 lid 2a Vo (EU) 809/2014" />
-      <property role="cog$t" value="" />
-      <property role="cog$m" value="20-01-2020" />
-    </node>
-    <node concept="cog_a" id="27H3E6IuN6w" role="cogAT">
-      <property role="TrG5h" value="art. 3.11 h SVNL" />
-      <property role="cog$t" value="" />
-      <property role="cog$m" value="20-01-2020" />
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN6x" role="cu0BP">
-      <property role="TrG5h" value="aanvraag" />
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN6B" role="cu0BP">
-      <property role="TrG5h" value="staan de opgegeven leefgebieden/deelgebieden ook in de beschikking tot subsidieverlening genoemd" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN6D" role="cu0BP">
-      <property role="TrG5h" value="staan de opgegeven beheerfuncties in het betreffende leefgebied/deelgebied ook vermeld in de beschikking tot subsidieverlening" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN6F" role="cu0BP">
-      <property role="TrG5h" value="ligt het perceel binnen het leefgebied/deelgebied zoals dit bepaald is op de kaart bij de beschikking van de gebiedsaanvraag" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN6H" role="cu0BP">
-      <property role="TrG5h" value="indien er nadere voorwaarden in de beschikking tot subsidieverlening van de gebiedsaanvraag zijn opgenomen: wordt daar aan voldaan" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN6N" role="cu0BP">
-      <property role="TrG5h" value="de subsidieverlening is door de provincie verstrekt" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN6y" role="cu0BP">
-      <property role="TrG5h" value="controles op de beschikking tot subsidieverlening" />
-      <node concept="cog_b" id="27H3E6IuN6z" role="coufz">
-        <property role="1FEjNx" value="" />
-        <ref role="cog$q" node="27H3E6IuN6s" resolve="KADER JAARLIJKS BEHEER, BETALINGSAANVRAAG EN VERANTWOORDING ANLb VOOR BEHEERJAAR 2019" />
-      </node>
-      <node concept="cvrD0" id="27H3E6IuN6$" role="coNO9">
-        <node concept="cH3hJ" id="27H3E6IuN6_" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IuN6A" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN6B" resolve="staan de opgegeven leefgebieden/deelgebieden ook in de beschikking tot subsidieverlening genoemd" />
+    <node concept="cu0$f" id="6qUJKUPIdem" role="cu0BP">
+      <property role="TrG5h" value="bestuursorgaan" />
+      <node concept="cvrD0" id="6qUJKUPIden" role="coNO9">
+        <node concept="cH3hB" id="6qUJKUPIdeo" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdep" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdeq" resolve="orgaan van een rechtspersoon die krachtens publiekrecht is ingesteld" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IuN6C" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN6D" resolve="staan de opgegeven beheerfuncties in het betreffende leefgebied/deelgebied ook vermeld in de beschikking tot subsidieverlening" />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN6E" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN6F" resolve="ligt het perceel binnen het leefgebied/deelgebied zoals dit bepaald is op de kaart bij de beschikking van de gebiedsaanvraag" />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN6G" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN6H" resolve="indien er nadere voorwaarden in de beschikking tot subsidieverlening van de gebiedsaanvraag zijn opgenomen: wordt daar aan voldaan" />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN6I" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN6J" resolve="controle of de totale (netto) oppervlakte van de percelen per leefgebied (of deelgebied) binnen het minimum en maximum aantal hectares blijft, zoals vermeld in de beschikking tot subsidieverlening van de gebiedsaanvraag" />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN6K" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN6L" resolve="controle of het maximale subsidiebedrag per jaar per leefgebied of (indien van toepassing) deelgebied niet wordt overschreden" />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN6M" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN6N" resolve="de subsidieverlening is door de provincie verstrekt" />
-        </node>
-      </node>
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN6L" role="cu0BP">
-      <property role="TrG5h" value="controle of het maximale subsidiebedrag per jaar per leefgebied of (indien van toepassing) deelgebied niet wordt overschreden" />
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN6O" role="cu0BP">
-      <property role="TrG5h" value="subsidie ANLb" />
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN6J" role="cu0BP">
-      <property role="TrG5h" value="controle of de totale (netto) oppervlakte van de percelen per leefgebied (of deelgebied) binnen het minimum en maximum aantal hectares blijft, zoals vermeld in de beschikking tot subsidieverlening van de gebiedsaanvraag" />
-      <node concept="cvrD0" id="27H3E6IuN6P" role="coNO9">
-        <node concept="cH3hH" id="27H3E6IuN6Q" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IuN6R" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN6S" resolve="De totale omvang in hectares in 2 decimalen per leefgebied/deelgebied waarvoor betaling wordt gevraagd" />
-        </node>
-        <node concept="cvrD0" id="27H3E6IuN6T" role="1FQA6S">
-          <node concept="cH3h_" id="27H3E6IuN6U" role="1FQA6W" />
-          <node concept="cvrD0" id="27H3E6IuN6V" role="1FQA6S">
-            <node concept="cH3hG" id="27H3E6IuN6W" role="1FQA6W" />
+        <node concept="cvrD0" id="6qUJKUPIder" role="1FQA6S">
+          <node concept="cH3hJ" id="6qUJKUPIdes" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdet" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdeu" resolve="persoon of college, met enig openbaar gezag bekleed" />
+          </node>
+          <node concept="cvrD0" id="6qUJKUPIdev" role="1FQA6S">
+            <node concept="cH3hw" id="6qUJKUPIdew" role="1FQA6W" />
+            <node concept="1FQA6B" id="6qUJKUPIdex" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIdey" resolve="organen, personen en colleges die niet als bestuursorgaan worden aangemerkt" />
+            </node>
           </node>
         </node>
-        <node concept="1FQA6B" id="27H3E6IuN6X" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN6Y" resolve="maximale totale oppervlakte van de percelen" />
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdeq" role="cu0BP">
+      <property role="TrG5h" value="orgaan van een rechtspersoon die krachtens publiekrecht is ingesteld" />
+      <node concept="cvrD0" id="6qUJKUPIdez" role="coNO9">
+        <node concept="cH3hJ" id="6qUJKUPIde$" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIde_" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdeA" resolve="orgaan" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdeB" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdeC" resolve="rechtspersoon die krachtens publiekrecht is ingesteld" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IuN6Y" role="cu0BP">
-      <property role="TrG5h" value="maximale totale oppervlakte van de percelen" />
-      <node concept="cvrD0" id="27H3E6IuN6Z" role="coNO9">
-        <node concept="cH3hA" id="27H3E6IuN70" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IuN71" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN6S" resolve="De totale omvang in hectares in 2 decimalen per leefgebied/deelgebied waarvoor betaling wordt gevraagd" />
+    <node concept="cu0$f" id="6qUJKUPIdeu" role="cu0BP">
+      <property role="TrG5h" value="persoon of college, met enig openbaar gezag bekleed" />
+      <node concept="cvrD0" id="6qUJKUPIdeD" role="coNO9">
+        <node concept="cH3hJ" id="6qUJKUPIdeE" role="1FQA6W" />
+        <node concept="cvrD0" id="6qUJKUPIdeF" role="1FQA6S">
+          <node concept="cH3hB" id="6qUJKUPIdeG" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdeH" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdeI" resolve="persoon" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdeJ" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdeK" resolve="college" />
+          </node>
         </node>
-        <node concept="1FQA6B" id="27H3E6IuN72" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN73" resolve="1,15" />
-        </node>
-      </node>
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN74" role="cu0BP">
-      <property role="TrG5h" value="aanvraagformulier betalingsaanvraag" />
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN73" role="cu0BP">
-      <property role="TrG5h" value="1,15" />
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN75" role="cu0BP">
-      <property role="TrG5h" value="Omvang van de beheerde oppervlakte (in hectares in 2 decimalen voor landbouwgrond, die exact past bij de geometrie (uit eerste punt)." />
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN76" role="cu0BP">
-      <property role="TrG5h" value="agrarisch collectief" />
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN77" role="cu0BP">
-      <property role="TrG5h" value="betalingsaanvraag" />
-      <node concept="cvrD0" id="27H3E6IuN78" role="coNO9">
-        <node concept="cH3hJ" id="27H3E6IuN79" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IuN7a" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN7b" resolve="goedgekeurde gebiedsaanvraag" />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN7c" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN7d" resolve="identiteit van de begunstigde" />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN7e" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN7f" resolve="De naam van de regeling" />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN7g" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN6S" resolve="De totale omvang in hectares in 2 decimalen per leefgebied/deelgebied waarvoor betaling wordt gevraagd" />
-        </node>
-        <node concept="cvrD0" id="27H3E6IuN7h" role="1FQA6S">
-          <node concept="cH3hG" id="27H3E6IuN7i" role="1FQA6W" />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN7j" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN7k" resolve="De identificatie van niet-landbouwgrond die voor steun in aanmerking komt (subsidiabele landschapselementen (met uitzondering van hoogstamboomgaard, natuurvriendelijke oever en solitaire boom) en water)." />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN7l" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN7m" resolve="Verklaring van het agrarisch collectief dat de individuele deelnemers weten wat de verplichtingen en consequenties zijn" />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN7n" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN7o" resolve="De unieke identificatie van iedere deelnemer van het agrarisch collectief" />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN7p" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN7q" resolve="Aanvraagnummer gebiedsaanvraag (provincie) als bewijsstuk om te bepalen of de begunstigde voor betaling in aanmerking komt." />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN7r" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN7s" resolve="De bewijsstukken die nodig zijn om te bepalen of de aanspraak op de steun/bijstand kan worden gemaakt. Hier moet worden gedacht aan stukken die de inhoud van de betalingsaanvraag onderbouwen" />
+        <node concept="1FQA6B" id="6qUJKUPIdeL" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdeM" resolve="met enig openbaar gezag bekleed" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IuN7t" role="cu0BP">
-      <property role="TrG5h" value="betaalverzoek is tussen 1 maart en 15 mei ingediend" />
+    <node concept="cu0$f" id="6qUJKUPIdeK" role="cu0BP">
+      <property role="TrG5h" value="college" />
+      <property role="3ANC2_" value="als fact benoemd omndat dit bij fact persoon of college als operands benoemd is" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN7u" role="cu0BP">
-      <property role="TrG5h" value="RVO" />
+    <node concept="cu0$f" id="6qUJKUPIdey" role="cu0BP">
+      <property role="TrG5h" value="organen, personen en colleges die niet als bestuursorgaan worden aangemerkt" />
+      <property role="3ANC2_" value="Functio aangepast qua layout (met alt-enter) gewerkt, omdat de wetgeving is aangepast. Als je hier met opsomming werkt, zie je dat ook eerder. Wijziging is verwijzing naar nieuwe  wetgeving" />
+      <node concept="cvrD0" id="6qUJKUPIdeN" role="coNO9">
+        <node concept="cH3hB" id="6qUJKUPIdeO" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdeP" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdeQ" resolve="wetgevende macht" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdeR" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdeS" resolve="de kamers en de verenigde vergadering der Staten-Generaal" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdeT" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdeU" resolve="onafhankelijke, bij de wet ingestelde organen die met rechtspraak zijn belast, alsmede de Raad voor de rechtspraak en het College van afgevaardigden" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdeV" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdeW" resolve="Raad van State en zijn afdelingen" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdeX" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdeY" resolve="Algemene Rekenkamer" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdeZ" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdf0" resolve="Nationale ombudsman en de substituut-ombudsmannen als bedoeld in artikel 9, eerste lid, van de Wet Nationale ombudsman, en ombudsmannen en ombudscommissies als bedoeld in artikel 9:17, onderdeel b" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdf1" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdf2" resolve="voorzitters, leden, griffiers en secretarissen van de in de onderdelen b tot en met f bedoelde organen, de procureur-generaal, de plaatsvervangend procureur-generaal en de advocaten-generaal bij de Hoge Raad, de besturen van de in onderdeel c bedoelde organen alsmede de voorzitters van die besturen, alsmede de commissies uit het midden van de in de onderdelen b tot en met f bedoelde organen" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdf3" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdf4" resolve="commissie van toezicht betreffende de inlichtingen- en veiligheidsdiensten, bedoeld in artikel 97 van de Wet op de inlichtingen- en veiligheidsdiensten 2017" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdf5" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdf6" resolve="de toetsingscommissie inzet bevoegdheden, bedoeld in artikel 32 van de Wet op de inlichtingen- en veiligheidsdiensten 2017" />
+        </node>
+      </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IuN7v" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIdeQ" role="cu0BP">
+      <property role="TrG5h" value="wetgevende macht" />
+      <property role="3ANC2_" value="als fact benoemd, omdat dit bij fact organen, personen en colleges als operands benoemd is" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdeS" role="cu0BP">
+      <property role="TrG5h" value="de kamers en de verenigde vergadering der Staten-Generaal" />
+      <property role="3ANC2_" value="als fact benoemd, omdat dit bij fact organen, personen en colleges als operands benoemd is" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdeU" role="cu0BP">
+      <property role="TrG5h" value="onafhankelijke, bij de wet ingestelde organen die met rechtspraak zijn belast, alsmede de Raad voor de rechtspraak en het College van afgevaardigden" />
+      <property role="3ANC2_" value="als fact benoemd, omdat dit bij fact organen, personen en colleges als operands benoemd is" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdeW" role="cu0BP">
+      <property role="TrG5h" value="Raad van State en zijn afdelingen" />
+      <property role="3ANC2_" value="als fact benoemd, omdat dit bij fact organen, personen en colleges als operands benoemd is" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdeY" role="cu0BP">
+      <property role="TrG5h" value="Algemene Rekenkamer" />
+      <property role="3ANC2_" value="als fact benoemd, omdat dit bij fact organen, personen en colleges als operands benoemd is" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdf0" role="cu0BP">
+      <property role="TrG5h" value="Nationale ombudsman en de substituut-ombudsmannen als bedoeld in artikel 9, eerste lid, van de Wet Nationale ombudsman, en ombudsmannen en ombudscommissies als bedoeld in artikel 9:17, onderdeel b" />
+      <property role="3ANC2_" value="als fact benoemd, omdat dit bij fact organen, personen en colleges als operands benoemd is" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdf2" role="cu0BP">
+      <property role="TrG5h" value="voorzitters, leden, griffiers en secretarissen van de in de onderdelen b tot en met f bedoelde organen, de procureur-generaal, de plaatsvervangend procureur-generaal en de advocaten-generaal bij de Hoge Raad, de besturen van de in onderdeel c bedoelde organen alsmede de voorzitters van die besturen, alsmede de commissies uit het midden van de in de onderdelen b tot en met f bedoelde organen" />
+      <property role="3ANC2_" value="als fact benoemd, omdat dit bij fact organen, personen en colleges als operands benoemd is" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdf4" role="cu0BP">
+      <property role="TrG5h" value="commissie van toezicht betreffende de inlichtingen- en veiligheidsdiensten, bedoeld in artikel 97 van de Wet op de inlichtingen- en veiligheidsdiensten 2017" />
+      <property role="3ANC2_" value="als fact benoemd, omdat dit bij fact organen, personen en colleges als operands benoemd is" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdf6" role="cu0BP">
+      <property role="TrG5h" value="de toetsingscommissie inzet bevoegdheden, bedoeld in artikel 32 van de Wet op de inlichtingen- en veiligheidsdiensten 2017" />
+      <property role="3ANC2_" value="als fact benoemd, omdat dit bij fact organen, personen en colleges als operands benoemd is" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdf7" role="cu0BP">
+      <property role="TrG5h" value="belanghebbende" />
+      <node concept="1FQA6B" id="6qUJKUPIdf8" role="coNO9">
+        <ref role="1FQA6$" node="6qUJKUPIdf9" resolve="persoon wiens belang rechtstreeks bij een besluit is betrokken" />
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdf9" role="cu0BP">
+      <property role="TrG5h" value="persoon wiens belang rechtstreeks bij een besluit is betrokken" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfa" role="cu0BP">
+      <property role="TrG5h" value="besluit" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfb" role="cu0BP">
+      <property role="TrG5h" value="verstrekte gegevens en bescheiden zijn onvoldoende voor de beoordeling van de aanvraag of voor de voorbereiding van de beschikking" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfc" role="cu0BP">
+      <property role="TrG5h" value="besluit tot niet in behandeling nemen aanvraag" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfk" role="cu0BP">
+      <property role="TrG5h" value="besluit dat van algemene strekking is" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfd" role="cu0BP">
+      <property role="TrG5h" value="beschikking" />
+      <property role="3ANC2_" value="De passage &quot;met inbegrip van de afwijzing van een aanvraag daarvan&quot; is niet in de interpretatie opgenomen. Het is niet duidelijk wat deze passage toevoegd aan de interpretatie. Als het nodig het afwijzen expliciet te benoemen, dan is het bij het definiÃ«ren van het concept [besluit]." />
+      <node concept="cvrD0" id="6qUJKUPIdfe" role="coNO9">
+        <node concept="cH3hJ" id="6qUJKUPIdff" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdfg" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdfa" resolve="besluit" />
+        </node>
+        <node concept="cvrD0" id="6qUJKUPIdfh" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIdfi" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdfj" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdfk" resolve="besluit dat van algemene strekking is" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfl" role="cu0BP">
+      <property role="TrG5h" value="besluit treedt in werking" />
+      <property role="3ANC2_" value="Toegevoegd, om fact besluit treedt in werking te definiëren" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfm" role="cu0BP">
+      <property role="TrG5h" value="verzoek een besluit te nemen" />
+      <property role="3ANC2_" value="Dit concept beschrijft het verzoek voordat het is ingediend bij een bestuursorgaan." />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfn" role="cu0BP">
+      <property role="TrG5h" value="formulier" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfo" role="cu0BP">
+      <property role="TrG5h" value="formulier voor het verstrekken van gegevens" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfp" role="cu0BP">
+      <property role="TrG5h" value="de aanvraag is binnen de afgelopen 4 weken aangevuld" />
+      <property role="3ANC2_" value="Toegevoegd, omdat buitenbehandelingstelling aan een termijn is verbonden" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfq" role="cu0BP">
+      <property role="TrG5h" value="gestelde termijn voor aanvulling is ongebruikt verstreken" />
+      <property role="3ANC2_" value="Toegevoegd, omdat buitenbehandelingstelling aan een termijn is verbonden" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfz" role="cu0BP">
+      <property role="TrG5h" value="algemeen verbindend voorschrift, omtrent de afweging van belangen, de vaststelling van feiten of de uitleg van wettelijke voorschriften bij het gebruik van een bevoegdheid van een bestuursorgaan" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfr" role="cu0BP">
+      <property role="TrG5h" value="beleidsregel" />
+      <node concept="cvrD0" id="6qUJKUPIdfs" role="coNO9">
+        <node concept="cH3hJ" id="6qUJKUPIdft" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdfu" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdfv" resolve="bij besluit vastgestelde algemene regel" />
+        </node>
+        <node concept="cvrD0" id="6qUJKUPIdfw" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIdfx" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdfy" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdfz" resolve="algemeen verbindend voorschrift, omtrent de afweging van belangen, de vaststelling van feiten of de uitleg van wettelijke voorschriften bij het gebruik van een bevoegdheid van een bestuursorgaan" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdf$" role="cu0BP">
+      <property role="TrG5h" value="aanvraag" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfv" role="cu0BP">
+      <property role="TrG5h" value="bij besluit vastgestelde algemene regel" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdf_" role="cu0BP">
+      <property role="TrG5h" value="aanvraag subsidieverlening" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfA" role="cu0BP">
+      <property role="TrG5h" value="aanvraag subsidie voor studiekosten" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfB" role="cu0BP">
+      <property role="TrG5h" value="aanvraag subsidie voor studieverlof" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfC" role="cu0BP">
+      <property role="TrG5h" value="aanvraagformulieren studiekosten op de website van de Dienst Uitvoering Onderwijs" />
+      <property role="3ANC2_" value="Pim en ik gaan aanvraagformulieren voor studiekosten en studieverlof als 1 modelleren. Vandaar in deze regel ook 1 'aanvraagformulieren Nog even bewust niets gedaan met source tekst enz." />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfD" role="cu0BP">
+      <property role="TrG5h" value="template voor aanvraagformulieren studiekosten" />
+      <property role="3ANC2_" value="Als fact benoemd omdat dit een object bij aanvraagformulieren verstrekken is" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfE" role="cu0BP">
+      <property role="TrG5h" value="template voor aanvraagformulieren studieverlof" />
+      <property role="3ANC2_" value="Als fact benoemd omdat dit een object bij aanvraagformulieren verstrellen is" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfF" role="cu0BP">
+      <property role="TrG5h" value="aanvraagformulieren studieverlof op de website van de Dienst Uitvoering Onderwijs" />
+      <property role="3ANC2_" value="Pim en ik gaan aanvraagformulieren voor studiekosten en studieverlof als 1 modelleren. Vandaar in deze regel ook 1 'aanvraagformulieren Nog even bewust niets gedaan met source tekst enz." />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfG" role="cu0BP">
+      <property role="TrG5h" value="aanvrager" />
+      <property role="3ANC2_" value="Toegevoegd, want miste in de excel. Onderwerp van gesprek of dit de juiste term moet zijn. Heb een issue aangemaakt." />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfH" role="cu0BP">
+      <property role="TrG5h" value="indienen 1 april tot en met 30 juni, voorafgaand aan het studiejaar waarvoor subsidie wordt aangevraagd" />
+      <property role="3ANC2_" value="Fact toegevoegd, omdat dit een warning gaf" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfI" role="cu0BP">
+      <property role="TrG5h" value="subsidieontvanger studiekosten" />
+      <property role="3ANC2_" value="Toegevoegd, want miste in de excel. Toch keuze om ontvanger wel te splitsen in studiekosten en studeverlof, omdat de bedragen een andere interested party kunnen hebben. Subsidieontvanger na overleg met Pim weer toegevoegd, incl reference en soucetekst" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfJ" role="cu0BP">
+      <property role="TrG5h" value="subsidieontvanger studieverlof" />
+      <property role="3ANC2_" value="Toegevoegd, want miste in de excel. Toch keuze om ontvanger wel te splitsen in studiekosten en studeverlof, omdat de bedragen een andere interested party kunnen hebben. Subsidieontvanger na overleg met Pim weer toegevoegd, incl reference en soucetekst" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfK" role="cu0BP">
+      <property role="TrG5h" value="formulier voor het indienen van aanvragen en het verstrekken van gegevens is vastgesteld door bestuursorgaan" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfL" role="cu0BP">
+      <property role="TrG5h" value="ingevuld aanvraagformulier studiekosten op de website van de Dienst Uitvoering Onderwijs" />
+      <property role="3ANC2_" value="Toevoegd, omdat dit fact nog niet als fact was opgenomen" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfM" role="cu0BP">
+      <property role="TrG5h" value="ingevuld aanvraagformulier studieverlof op de website van de Dienst Uitvoering Onderwijs" />
+      <property role="3ANC2_" value="Fact toegevoegd, omdat dit fact nog niet als fact was opgenomen en het een warning gaf" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfN" role="cu0BP">
+      <property role="TrG5h" value="besluit berust op deugdelijke motivering" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfO" role="cu0BP">
+      <property role="TrG5h" value="nadelige gevolgen van een besluit zijn onevenredig in verhouding tot de met het besluit te dienen doelen" />
+      <property role="3ANC2_" value="Hetgeen nu in de fact staat, is een situatie die volgens art. 3:4 lid 2 niet voor mag komen. Waarom is dit dan nu wel een fact?" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfP" role="cu0BP">
+      <property role="TrG5h" value="aanvraag geheel of gedeeltelijk is geweigerd op grond van artikel 2:15 Awb" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfQ" role="cu0BP">
+      <property role="TrG5h" value="aanvrager heeft de gelegenheid gehad de aanvraag aan te vullen" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfR" role="cu0BP">
+      <property role="TrG5h" value="aanvrager heeft voldaan aan enig wettelijk voorschrift voor het in behandeling nemen van de aanvraag" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfS" role="cu0BP">
+      <property role="TrG5h" value="besluit om de aanvraag niet te behandelen wordt aan de aanvrager bekendgemaakt binnen vier weken nadat de aanvraag is aangevuld of nadat de daarvoor gestelde termijn ongebruikt is verstreken" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfT" role="cu0BP">
+      <property role="TrG5h" value="bestuursorgaan is bevoegd op de aanvraag te beslissen" />
+      <property role="3ANC2_" value="Is artikel 1:3, eerste lid Awb niet hier ook relevant? Onder besluit wordt verstaan: een schriftelijke beslissing van een bestuursorgaan, inhoudende een publiekrechtelijke rechtshandeling." />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfU" role="cu0BP">
+      <property role="TrG5h" value="bij wettelijk voorschrift is anders bepaald" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfV" role="cu0BP">
+      <property role="TrG5h" value="formulier is bij wettelijk voorschrift voorzien" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfW" role="cu0BP">
+      <property role="TrG5h" value="besluit tot weigeren subsidie" />
+      <property role="3ANC2_" value="als fact opgenomen omdat dit bij de act bestuursorgaan weigert subsidieverlening aan belanghebbende bij create als fact benoemd is" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfX" role="cu0BP">
+      <property role="TrG5h" value="subsidie aangevraagd door leraar voor bevoegd gezag" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfY" role="cu0BP">
+      <property role="TrG5h" value="subsidieaanvraag is ingediend van 1 april tot en met 30 juni, voorafgaand aan het studiejaar waarvoor subsidie wordt aangevraagd" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdfZ" role="cu0BP">
+      <property role="TrG5h" value="leraar behaalt in de subsidieperiode minder dan vijftien studiepunten" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdg0" role="cu0BP">
+      <property role="TrG5h" value="subsidie voor voor studiekosten in verband met het volgen van een opleiding" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdg1" role="cu0BP">
+      <property role="TrG5h" value="subsidie voor kosten in verband met het verlenen van studieverlof aan de leraar" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdg2" role="cu0BP">
+      <property role="TrG5h" value="de leraar is in dienst bij het bevoegd gezag" />
+      <property role="3ANC2_" value="Fact toegevoegd, omdat dit een preconditie is bij de act verlenen subsidie studieverlof" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdg3" role="cu0BP">
+      <property role="TrG5h" value="aan de leraar is subsidie voor studiekosten verleend tenzij voor een opleiding geen collegegeld verschuldigd is" />
+      <property role="3ANC2_" value="Fact toegevoegd, omdat dit een preconditie is bij de act verlenen subsidie studieverlof" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdg4" role="cu0BP">
+      <property role="TrG5h" value="subsidie voor bacheloropleiding leraar" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdg5" role="cu0BP">
+      <property role="TrG5h" value="subsidie voor masteropleiding leraar" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdg6" role="cu0BP">
+      <property role="TrG5h" value="subsidie voor deficiëntieopleidingen leraar" />
+      <property role="3ANC2_" value="Omdat ik niet wist wat een deficiëntie-opleiding is: Heb je een havo-, vwo- of een 'oud' mbo-lang-diploma waarmee je niet toelaatbaar bent omdat één of meer verplichte eindexamenvakken ontbreken? Dan heb je (een) deficiëntie(s). Deze deficiëntie(s) moet je opheffen vóórdat je met de opleiding start.  Bron: https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/deficienties/ &#13;&#10;In artikel 1 van de regeling wordt deficiëntie-opleiding gedefiniteerd" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdg7" role="cu0BP">
+      <property role="TrG5h" value="subsidie voor studiekosten" />
+      <property role="3ANC2_" value="Fact toegevoegd vanwege warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdg8" role="cu0BP">
+      <property role="TrG5h" value="subsidie voor studieverlof" />
+      <property role="3ANC2_" value="Fact toegevoegd vanwege warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdg9" role="cu0BP">
+      <property role="TrG5h" value="subsidie wordt verstrekt voor één studiejaar en voor één opleiding" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdga" role="cu0BP">
+      <property role="TrG5h" value="vergoeding kosten collegegeld" />
+      <property role="3ANC2_" value="MIN ([verschuldigde collegegeld], [maximaal 7.000] Moet nog gedaan worden" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgb" role="cu0BP">
+      <property role="TrG5h" value="vergoeding studiemiddelen" />
+      <property role="3ANC2_" value="MIN (PRODUCT ([10%],[verschuldigde collegegeld]), [â‚¬ 350]) Moet nog gedaan worden" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgc" role="cu0BP">
+      <property role="TrG5h" value="vergoeding reiskosten" />
+      <property role="3ANC2_" value="MIN (PRODUCT ([verschuldigde collegegeld], [10%)], [â‚¬ 350]) Moet nog gedaan worden" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgd" role="cu0BP">
+      <property role="TrG5h" value="vergoeding studieverlof" />
+      <property role="3ANC2_" value="berekening voor [aantal uur] x [bedrag per uur] met varianten voor:&#13;&#10;- voltijd- en deeltijdaanstelling;&#13;&#10;- bachelor en master;&#13;&#10;- basisonderwijs, voortgezet onderwijs, beroepsonderwijs, hoger beroepsonderwijs &#13;&#10;&#13;&#10;Dit moet nog gedaan worden" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgy" role="cu0BP">
+      <property role="TrG5h" value="leraar is aangesteld als ambulant begeleider" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgA" role="cu0BP">
+      <property role="TrG5h" value="leraar is aangesteld als zorgcoördinator" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgE" role="cu0BP">
+      <property role="TrG5h" value="leraar is aangesteld als intern begeleider" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgI" role="cu0BP">
+      <property role="TrG5h" value="leraar is aangesteld als remedial teacher" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdge" role="cu0BP">
+      <property role="TrG5h" value="leraar voldoet aan de subsidiecriteria" />
+      <property role="3ANC2_" value="Wat betekent werkt, of werkte in de twaalf maanden voorafgaand aan de subsidieaanvraag. Betekent dat , dat de leraar op het moment van de subsidieaanvraag niet meer bij de werkgever hoeft te werken. En zo ja, hoe lang geleden mag het dan zijn dat de leraar twaalf maanden in het onderwijs heeft gewerkt? &#13;&#10;Er is geen art 20, lid 1. Er is artikel 20, sub a en b Slb. En je moet aan beide vereisten voldoen, dus volstaat hier, naar mijn mening,  een verwijzing naar het gehele artikel 20 Slb., zonder nadere aanduiding." />
+      <node concept="cvrD0" id="6qUJKUPIdgf" role="coNO9">
+        <node concept="cH3hJ" id="6qUJKUPIdgg" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdgh" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdgi" resolve="leraar die bij aanvang van het studiejaar waarvoor de subsidie bestemd de graad Bachelor mag voeren" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdgj" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdgk" resolve="leraar die op het moment van de subsidieaanvraag in dienst is bij een werkgever" />
+        </node>
+        <node concept="cvrD0" id="6qUJKUPIdgl" role="1FQA6S">
+          <node concept="cH3hB" id="6qUJKUPIdgm" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdgn" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdgo" resolve="leraar werkt bij een of meer bekostigde onderwijsinstellingen" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdgp" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdgq" resolve="leraar werkt in een of meer orthopedagogisch-didactische centra" />
+          </node>
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdgr" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdgs" resolve="leraar die voor minimaal twintig procent van zijn werktijd is belast met lesgebonden taken" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdgt" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdgu" resolve="leraar die pedagogisch-didactisch verantwoordelijk is voor het onderwijs" />
+        </node>
+        <node concept="cvrD0" id="6qUJKUPIdgv" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIdgw" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdgx" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdgy" resolve="leraar is aangesteld als ambulant begeleider" />
+          </node>
+        </node>
+        <node concept="cvrD0" id="6qUJKUPIdgz" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIdg$" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdg_" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdgA" resolve="leraar is aangesteld als zorgcoördinator" />
+          </node>
+        </node>
+        <node concept="cvrD0" id="6qUJKUPIdgB" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIdgC" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdgD" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdgE" resolve="leraar is aangesteld als intern begeleider" />
+          </node>
+        </node>
+        <node concept="cvrD0" id="6qUJKUPIdgF" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIdgG" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdgH" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdgI" resolve="leraar is aangesteld als remedial teacher" />
+          </node>
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdgJ" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdgK" resolve="leraar die ingeschreven staat in registerleraar.nl" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgi" role="cu0BP">
+      <property role="TrG5h" value="leraar die bij aanvang van het studiejaar waarvoor de subsidie bestemd de graad Bachelor mag voeren" />
+      <property role="3ANC2_" value="fact toegevoegd, omdat in fact leraar voldoet aan subsidiecriteria dit als operand is benoemd" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgk" role="cu0BP">
+      <property role="TrG5h" value="leraar die op het moment van de subsidieaanvraag in dienst is bij een werkgever" />
+      <property role="3ANC2_" value="fact toegevoegd, omdat in fact leraar voldoet aan subsidiecriteria dit als operand is benoemd" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgo" role="cu0BP">
+      <property role="TrG5h" value="leraar werkt bij een of meer bekostigde onderwijsinstellingen" />
+      <property role="3ANC2_" value="fact toegevoegd, omdat in fact leraar voldoet aan subsidiecriteria dit als operand is benoemd" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgq" role="cu0BP">
+      <property role="TrG5h" value="leraar werkt in een of meer orthopedagogisch-didactische centra" />
+      <property role="3ANC2_" value="fact toegevoegd, omdat in fact leraar voldoet aan subsidiecriteria dit als operand is benoemd" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgs" role="cu0BP">
+      <property role="TrG5h" value="leraar die voor minimaal twintig procent van zijn werktijd is belast met lesgebonden taken" />
+      <property role="3ANC2_" value="fact toegevoegd, omdat in fact leraar voldoet aan subsidiecriteria dit als operand is benoemd" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgu" role="cu0BP">
+      <property role="TrG5h" value="leraar die pedagogisch-didactisch verantwoordelijk is voor het onderwijs" />
+      <property role="3ANC2_" value="fact toegevoegd, omdat in fact leraar voldoet aan subsidiecriteria dit als operand is benoemd" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgK" role="cu0BP">
+      <property role="TrG5h" value="leraar die ingeschreven staat in registerleraar.nl" />
+      <property role="3ANC2_" value="fact toegevoegd, omdat in fact leraar voldoet aan subsidiecriteria dit als operand is benoemd" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgL" role="cu0BP">
+      <property role="TrG5h" value="uitzondering waarbij subsidie wordt verstrekt voor tweede opleiding" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgM" role="cu0BP">
+      <property role="TrG5h" value="opleiding met studielast van 60 studiepunten waarvoor ten hoogste twee maal subsidie wordt verstrekt" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgN" role="cu0BP">
+      <property role="TrG5h" value="opleiding met studielast van meer dan 60 studiepunten waarvoor ten hoogste drie maal subsidie wordt verstrekt" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgO" role="cu0BP">
+      <property role="TrG5h" value="leraar ontvangt van de minister een tegemoetkoming in de studiekosten voor het volgen van de opleiding" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgP" role="cu0BP">
+      <property role="TrG5h" value="minister verdeelt het beschikbare bedrag per doelgroep over de aanvragen" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgQ" role="cu0BP">
+      <property role="TrG5h" value="beschikbare bedrag voor de subsidieregeling lerarenbeurs" />
+      <property role="3ANC2_" value="Als fact toegevoegd omdat dit bij act Minister OCW verdeelt beschikbare bedrag voor subsidieregeling lerarenbeurs per doelgroep als object benoemd is" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgR" role="cu0BP">
+      <property role="TrG5h" value="concrete verdeling van het beschikbare budget in een studiejaar per soort onderwijs" />
+      <property role="3ANC2_" value="In deze afleiding is het een beetje schipperen tussen letterlijk opnemen van bronteksten en het maken van een helder gestructureerde interpretatie&#13;&#10;Wijziging: Concrete verdeling van het beschikbare budget in een studiejaar per soort onderwijs. Originele tekst van fact: budget volledig benut&#13;&#10;artikel 6, vierde lid Slb:&#13;&#10;De verdeling van het beschikbare bedrag voor het studiejaar 2018–2019 over de verschillende doelgroepen geschiedt als volgt: &#13;&#10;a. € 27.800.000 is beschikbaar voor opleidingen van leraren werkzaam in het basisonderwijs, het speciaal onderwijs en het voortgezet speciaal onderwijs;&#13;&#10;&#13;&#10; b. € 39.000.000 is beschikbaar voor opleidingen van leraren werkzaam in het voortgezet onderwijs;&#13;&#10;&#13;&#10; c. € 11.375.000 is beschikbaar voor opleidingen van leraren werkzaam in het beroepsonderwijs en educatie; en&#13;&#10;&#13;&#10; d. € 16.125.000 is beschikbaar voor opleidingen van leraren werkzaam in het hoger beroepsonderwijs." />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgS" role="cu0BP">
+      <property role="TrG5h" value="hoogte van de subsidie voor studiekosten" />
+      <property role="3ANC2_" value="Fact benoemd omdat in act minister verdeelt het beschikbare bedrag benoemd is" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgT" role="cu0BP">
+      <property role="TrG5h" value="hoogte van de subsidie voor studieverlof" />
+      <property role="3ANC2_" value="Als fact benoemd omdat in act minister verdeelt het beschikbare bedrag benoemd is" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgU" role="cu0BP">
+      <property role="TrG5h" value="budget volledig benut" />
+      <property role="3ANC2_" value="Budget volledig benut toegevoegd. Deze wordt in de preconditie van minister verstrekt subsidie lerarenbeurs aan leraar gebruikt. Preconditie is negatief geformuleerd. Wat hier bedoeld wordt is dat er nog wel budget moet zijn. De minister stelt periodoek vast hoeveel budget hij per doelgroep beschikbaar stelt. Als dat geld op is, kan hij geen sbusdie meer verstrekken" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgV" role="cu0BP">
+      <property role="TrG5h" value="studiejaar waarop subsidie betrekking heeft is voorbij" />
+      <property role="3ANC2_" value="Impliciete beleidsregel bij vragen om beleidsstukken." />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgW" role="cu0BP">
+      <property role="TrG5h" value="subsidieverplichting voor subsidie voor studieverlof" />
+      <property role="3ANC2_" value="Fact toegevoegd vanwege warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgX" role="cu0BP">
+      <property role="TrG5h" value="leraar is in dienst bij het bevoegd gezag" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgY" role="cu0BP">
+      <property role="TrG5h" value="bevoegd gezag heeft studieverlof verleend aan de leraar" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdgZ" role="cu0BP">
+      <property role="TrG5h" value="aan deze leraar is subsidie voor studiekosten verleend tenzij voor een opleiding geen collegegeld verschuldigd is" />
+      <property role="3ANC2_" value="Fact toegevoegd, vanwege warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdh0" role="cu0BP">
+      <property role="TrG5h" value="minister verstrekt subsidie lerarenbeurs aan bevoegd gezag" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdh1" role="cu0BP">
+      <property role="TrG5h" value="uit de administratie van het bevoegd gezag blijkt dat het studieverlof daadwerkelijk is verleend" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdh2" role="cu0BP">
+      <property role="TrG5h" value="subsidie lerarenbeurs" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdh3" role="cu0BP">
+      <property role="TrG5h" value="subsidieverlening aan een leraar" />
+      <property role="3ANC2_" value="Als fact toegevoegd omdat dit bij act bestuursorgaan weigert subsidievrelening aan belanghebbende als object benoend is" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdeA" role="cu0BP">
+      <property role="TrG5h" value="orgaan" />
+      <property role="3ANC2_" value="Added, because it was missing in excel. Dit is een tekstgedeelte uit de definitie van bestuursorgaan (artikel 1:1 Awb)" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdeI" role="cu0BP">
+      <property role="TrG5h" value="persoon" />
+      <property role="3ANC2_" value="Added, because it was missing in excel" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdh4" role="cu0BP">
+      <property role="TrG5h" value="binnen twee maanden na het verstrekken van de subsidie" />
+      <property role="3ANC2_" value="Fact toegevoegd vanwege warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdh5" role="cu0BP">
+      <property role="TrG5h" value="niet, niet tijdig of niet geheel aan de subsidieverplichtingen zal worden voldaan" />
+      <property role="3ANC2_" value="Fact toegevoegd, vanwege warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdh6" role="cu0BP">
+      <property role="TrG5h" value="een gegronde reden bestaat om aan te nemen dat de activiteiten niet of niet geheel zullen plaatsvinden" />
+      <property role="3ANC2_" value="Fact toegevoegd vanwege warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdh7" role="cu0BP">
+      <property role="TrG5h" value="een gegronde reden bestaat om aan te nemen dat de aanvrager niet zal voldoen aan de aan de subsidie verbonden verplichtingen" />
+      <property role="3ANC2_" value="Fact toegevoegd vanwege warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdh8" role="cu0BP">
+      <property role="TrG5h" value="een gegronde reden bestaat om aan te nemen dat de aanvrager niet op een behoorlijke wijze rekening en verantwoording zal afleggen omtrent de verrichte activiteiten en de daaraan verbonden uitgaven en inkomsten, voor zover deze voor de vaststelling van de subsidie van belang zijn" />
+      <property role="3ANC2_" value="Fact toegevoegd vanwege warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdh9" role="cu0BP">
+      <property role="TrG5h" value="aanvrager heeft in het kader van de aanvraag onjuiste of onvolledige gegevens verstrekt" />
+      <property role="3ANC2_" value="Fact toegevoegd vanwege warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdha" role="cu0BP">
+      <property role="TrG5h" value="de verstrekking van deze gegevens tot een onjuiste beschikking op de aanvraag zou hebben geleid" />
+      <property role="3ANC2_" value="Fact toegevoegd vanwege een warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdhb" role="cu0BP">
+      <property role="TrG5h" value="aanvrager is failliet verklaard" />
+      <property role="3ANC2_" value="Fact toegevoegd vanwege warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdhc" role="cu0BP">
+      <property role="TrG5h" value="aan aanvrager is surséance van betaling verleend" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdhd" role="cu0BP">
+      <property role="TrG5h" value="ten aanzien de aanvrager is de schuldsaneringsregeling natuurlijke personen van toepassing verklaard of een verzoek daartoe bij de rechtbank is ingediend" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdhe" role="cu0BP">
+      <property role="TrG5h" value="naar het oordeel van het bestuursorgaan is verstrekking van de subsidie niet verenigbaar met het bepaalde in de artikelen 107 en 108 van het Verdrag betreffende de werking van de Europese Unie." />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdhf" role="cu0BP">
+      <property role="TrG5h" value="bevoegd gezag" />
+      <property role="3ANC2_" value="Deze definitie is bewust ontkoppeld van de onderliggende definities. De hier gebruikte facts zijn als [] gedefinieerd en worden door een ssid ingevuld" />
+      <node concept="cvrD0" id="6qUJKUPIdhg" role="coNO9">
+        <node concept="cH3hB" id="6qUJKUPIdhh" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdhi" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdhj" resolve="artikel 1 van de Wet op het primair onderwijs" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdhk" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdhl" resolve="artikel 1 van de Wet op de expertisecentra" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdhm" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdhn" resolve="artikel 1 van de Wet op het voortgezet onderwijs" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdho" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdhp" resolve="artikel 1.1.1., onderdeel w, van de Wet educatie en beroepsonderwijs" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdhq" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdhr" resolve="artikel 1 van de Wet primair onderwijs BES" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdhs" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdht" resolve="artikel 1 van de Wet voortgezet onderwijs BES" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdhu" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdhv" resolve="artikel 1.1.1, van de Wet educatie en beroepsonderwijs BES" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdhw" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdhx" resolve="instellingsbestuur bedoeld in artikel 1.1, onderdeel j, van de Wet op het hoger onderwijs en wetenschappelijk onderzoek" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdhy" role="cu0BP">
+      <property role="TrG5h" value="bevoegd gezag van door Wet primair onderwijs bekostigde scholen" />
+      <node concept="cvrD0" id="6qUJKUPIdhz" role="coNO9">
+        <node concept="cH3hB" id="6qUJKUPIdh$" role="1FQA6W" />
+        <node concept="cvrD0" id="6qUJKUPIdh_" role="1FQA6S">
+          <node concept="cH3hJ" id="6qUJKUPIdhA" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdhB" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdhC" resolve="een openbare school" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdhD" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdhE" resolve="burgemeester en wethouders, voor zover de raad niet anders bepaalt, en, indien de raad dit besluit, met inachtneming van door hem te stellen regelen" />
+          </node>
+        </node>
+        <node concept="cvrD0" id="6qUJKUPIdhF" role="1FQA6S">
+          <node concept="cH3hJ" id="6qUJKUPIdhG" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdhH" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdhI" resolve="het krachtens de desbetreffende gemeenschappelijke regeling bevoegde orgaan" />
+          </node>
+          <node concept="cvrD0" id="6qUJKUPIdhJ" role="1FQA6S">
+            <node concept="cH3hB" id="6qUJKUPIdhK" role="1FQA6W" />
+            <node concept="1FQA6B" id="6qUJKUPIdhL" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIdhM" resolve="de openbare rechtspersoon, bedoeld in artikel 47" />
+            </node>
+            <node concept="1FQA6B" id="6qUJKUPIdhN" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIdhO" resolve="de stichting, bedoeld in artikel 17 of artikel 48" />
+            </node>
+          </node>
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdhP" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdhQ" resolve="een bijzondere school: de rechtspersoon bedoeld in artikel 55" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdhR" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdhS" resolve="een samenwerkingsschool: de stichting, bedoeld in artikel 17d" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdhC" role="cu0BP">
+      <property role="TrG5h" value="een openbare school" />
+      <property role="3ANC2_" value="als fact opgenomen omdat het in fact bevoegd gezag Wet Primair onderwijs als operand is benoemd" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdhE" role="cu0BP">
+      <property role="TrG5h" value="burgemeester en wethouders, voor zover de raad niet anders bepaalt, en, indien de raad dit besluit, met inachtneming van door hem te stellen regelen" />
+      <property role="3ANC2_" value="fact toegevoegd, omdat in het in fact bevoegd gezag Wet primair onderwijs als operand is benoemd" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdhI" role="cu0BP">
+      <property role="TrG5h" value="het krachtens de desbetreffende gemeenschappelijke regeling bevoegde orgaan" />
+      <property role="3ANC2_" value="fact toegevoegd, omdat in het in fact bevoegd gezag Wet primair onderwijs als operand is benoemd" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdhM" role="cu0BP">
+      <property role="TrG5h" value="de openbare rechtspersoon, bedoeld in artikel 47" />
+      <property role="3ANC2_" value="fact toegevoegd, omdat in het in fact bevoegd gezag Wet primair onderwijs als operand is benoemd" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdhO" role="cu0BP">
+      <property role="TrG5h" value="de stichting, bedoeld in artikel 17 of artikel 48" />
+      <property role="3ANC2_" value="fact toegevoegd, omdat in het in fact bevoegd gezag Wet primair onderwijs als operand is benoemd" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdhQ" role="cu0BP">
+      <property role="TrG5h" value="een bijzondere school: de rechtspersoon bedoeld in artikel 55" />
+      <property role="3ANC2_" value="fact toegevoegd, omdat in het in fact bevoegd gezag Wet primair onderwijs als operand is benoemd" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdhS" role="cu0BP">
+      <property role="TrG5h" value="een samenwerkingsschool: de stichting, bedoeld in artikel 17d" />
+      <property role="3ANC2_" value="fact toegevoegd, omdat in het in fact bevoegd gezag Wet primair onderwijs als operand is benoemd" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdhT" role="cu0BP">
+      <property role="TrG5h" value="bevoegd gezag van door Wet expertisecentra bekostigde scholen" />
+      <node concept="cvrD0" id="6qUJKUPIdhU" role="coNO9">
+        <node concept="cH3hB" id="6qUJKUPIdhV" role="1FQA6W" />
+        <node concept="cvrD0" id="6qUJKUPIdhW" role="1FQA6S">
+          <node concept="cH3hJ" id="6qUJKUPIdhX" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdhY" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdhC" resolve="een openbare school" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdhZ" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdhE" resolve="burgemeester en wethouders, voor zover de raad niet anders bepaalt, en, indien de raad dit besluit, met inachtneming van door hem te stellen regelen" />
+          </node>
+        </node>
+        <node concept="cvrD0" id="6qUJKUPIdi0" role="1FQA6S">
+          <node concept="cH3hJ" id="6qUJKUPIdi1" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdi2" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdhI" resolve="het krachtens de desbetreffende gemeenschappelijke regeling bevoegde orgaan" />
+          </node>
+          <node concept="cvrD0" id="6qUJKUPIdi3" role="1FQA6S">
+            <node concept="cH3hB" id="6qUJKUPIdi4" role="1FQA6W" />
+            <node concept="1FQA6B" id="6qUJKUPIdi5" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIdi6" resolve="de openbare rechtspersoon, bedoeld in artikel 50" />
+            </node>
+            <node concept="1FQA6B" id="6qUJKUPIdi7" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIdi8" resolve="de stichting, bedoeld in artikel 28 of artikel 51" />
+            </node>
+          </node>
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdi9" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdia" resolve="een bijzondere school: de rechtspersoon bedoeld in artikel 57" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdib" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdic" resolve="een samenwerkingsschool: de stichting, bedoeld in artikel 28j" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdi6" role="cu0BP">
+      <property role="TrG5h" value="de openbare rechtspersoon, bedoeld in artikel 50" />
+      <property role="3ANC2_" value="als fact benoemd, omdat dit als operand in fact bevoegd gezag van door Wet expertisecentra bekostigde scholen is benoemd" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdi8" role="cu0BP">
+      <property role="TrG5h" value="de stichting, bedoeld in artikel 28 of artikel 51" />
+      <property role="3ANC2_" value="als fact benoemd omdat dit als operand  in fact bevoegd gezag van door Wet expertisecentra bekostigde scholen is benoemd" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdia" role="cu0BP">
+      <property role="TrG5h" value="een bijzondere school: de rechtspersoon bedoeld in artikel 57" />
+      <property role="3ANC2_" value="als fact benoemd omdat dit als operand  in fact bevoegd gezag van door Wet expertisecentra bekostigde scholen is benoemd" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdic" role="cu0BP">
+      <property role="TrG5h" value="een samenwerkingsschool: de stichting, bedoeld in artikel 28j" />
+      <property role="3ANC2_" value="als fact benoemd omdat dit als operand  in fact bevoegd gezag van door Wet expertisecentra bekostigde scholen is benoemd" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdid" role="cu0BP">
+      <property role="TrG5h" value="bevoegd gezag Wet op het voorgezet onderwijs" />
+      <node concept="cvrD0" id="6qUJKUPIdie" role="coNO9">
+        <node concept="cH3hB" id="6qUJKUPIdif" role="1FQA6W" />
+        <node concept="cvrD0" id="6qUJKUPIdig" role="1FQA6S">
+          <node concept="cH3hJ" id="6qUJKUPIdih" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdii" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdhC" resolve="een openbare school" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdij" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdhE" resolve="burgemeester en wethouders, voor zover de raad niet anders bepaalt, en, indien de raad dit besluit, met inachtneming van door hem te stellen regelen" />
+          </node>
+        </node>
+        <node concept="cvrD0" id="6qUJKUPIdik" role="1FQA6S">
+          <node concept="cH3hJ" id="6qUJKUPIdil" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdim" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdhI" resolve="het krachtens de desbetreffende gemeenschappelijke regeling bevoegde orgaan" />
+          </node>
+          <node concept="cvrD0" id="6qUJKUPIdin" role="1FQA6S">
+            <node concept="cH3hB" id="6qUJKUPIdio" role="1FQA6W" />
+            <node concept="1FQA6B" id="6qUJKUPIdip" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIdiq" resolve="de openbare rechtspersoon, bedoeld in artikel 42a" />
+            </node>
+            <node concept="1FQA6B" id="6qUJKUPIdir" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIdis" resolve="de stichting, bedoeld in artikel 42b of artikel 53c" />
+            </node>
+          </node>
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdit" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdiu" resolve="een bijzondere school: de rechtspersoon, bedoeld in artikel 49, eerste lid" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdiv" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdiw" resolve="een samenwerkingsschool: de stichting, bedoeld in artikel 53d" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdiq" role="cu0BP">
+      <property role="TrG5h" value="de openbare rechtspersoon, bedoeld in artikel 42a" />
+      <property role="3ANC2_" value="benoemd omdat het beoemd wordt in fact bevoegd gezag Wet voortgezet onderwijs" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdis" role="cu0BP">
+      <property role="TrG5h" value="de stichting, bedoeld in artikel 42b of artikel 53c" />
+      <property role="3ANC2_" value="benoemd omdat het benoemd wordt in fact bevoegd gezag Wet voortgezet onderwijs" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdiu" role="cu0BP">
+      <property role="TrG5h" value="een bijzondere school: de rechtspersoon, bedoeld in artikel 49, eerste lid" />
+      <property role="3ANC2_" value="benoemd omdat het benoemd wordt in fact bevoegd gezag Wet voortgezet onderwijs" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdiw" role="cu0BP">
+      <property role="TrG5h" value="een samenwerkingsschool: de stichting, bedoeld in artikel 53d" />
+      <property role="3ANC2_" value="benoemd omdat het benoemd wordt in fact bevoegd gezag Wet voortgezet onderwijs" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdix" role="cu0BP">
+      <property role="TrG5h" value="bevoegd gezag Wet educatie en beroepsonderwijs" />
+      <node concept="cvrD0" id="6qUJKUPIdiy" role="coNO9">
+        <node concept="cH3hB" id="6qUJKUPIdiz" role="1FQA6W" />
+        <node concept="cvrD0" id="6qUJKUPIdi$" role="1FQA6S">
+          <node concept="cH3hJ" id="6qUJKUPIdi_" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdiA" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdiB" resolve="wat een openbare instelling betreft" />
+          </node>
+          <node concept="cvrD0" id="6qUJKUPIdiC" role="1FQA6S">
+            <node concept="cH3hB" id="6qUJKUPIdiD" role="1FQA6W" />
+            <node concept="1FQA6B" id="6qUJKUPIdiE" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIdiF" resolve="het college van burgemeester en wethouders, voor zover de raad niet anders bepaalt, en, indien de raad dit wenselijk oordeelt, met inachtneming van door hem te stellen regelen" />
+            </node>
+            <node concept="1FQA6B" id="6qUJKUPIdiG" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIdiH" resolve="dan wel het krachtens de desbetreffende gemeenschappelijke regeling bevoegde orgaan" />
+            </node>
+          </node>
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdiI" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdiJ" resolve="wat een bijzondere instelling betreft: het college van bestuur, of indien artikel 9.1.8 is toegepast, het bestuur van de rechtspersoon waarvan de instelling uitgaat" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdiK" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdiL" resolve="wat een instelling als bedoeld in de artikelen 1.4.1 dan wel 1.4a.1 betreft: het bestuur van de rechtspersoon waarvan de instelling uitgaat, dan wel de natuurlijke persoon die de instelling in stand houdt" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdiM" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdiN" resolve="wat een exameninstelling als bedoeld in artikel 1.6.1 betreft: het bestuur van de rechtspersoon waarvan de instelling uitgaat" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdiF" role="cu0BP">
+      <property role="TrG5h" value="het college van burgemeester en wethouders, voor zover de raad niet anders bepaalt, en, indien de raad dit wenselijk oordeelt, met inachtneming van door hem te stellen regelen" />
+      <property role="3ANC2_" value="Als fact benoemd, want operand in fact bevoegd gezeg wet educatie en beroepsonderwijs" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdiH" role="cu0BP">
+      <property role="TrG5h" value="dan wel het krachtens de desbetreffende gemeenschappelijke regeling bevoegde orgaan" />
+      <property role="3ANC2_" value="Als fact benoemd, want operand in fact bevoegd gezeg wet educatie en beroepsonderwijs" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdiJ" role="cu0BP">
+      <property role="TrG5h" value="wat een bijzondere instelling betreft: het college van bestuur, of indien artikel 9.1.8 is toegepast, het bestuur van de rechtspersoon waarvan de instelling uitgaat" />
+      <property role="3ANC2_" value="Als fact benoemd, want operand in fact bevoegd gezeg wet educatie en beroepsonderwijs" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdiL" role="cu0BP">
+      <property role="TrG5h" value="wat een instelling als bedoeld in de artikelen 1.4.1 dan wel 1.4a.1 betreft: het bestuur van de rechtspersoon waarvan de instelling uitgaat, dan wel de natuurlijke persoon die de instelling in stand houdt" />
+      <property role="3ANC2_" value="Als fact benoemd, want operand in fact bevoegd gezeg wet educatie en beroepsonderwijs" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdiN" role="cu0BP">
+      <property role="TrG5h" value="wat een exameninstelling als bedoeld in artikel 1.6.1 betreft: het bestuur van de rechtspersoon waarvan de instelling uitgaat" />
+      <property role="3ANC2_" value="Als fact benoemd, want operand in fact bevoegd gezeg wet educatie en beroepsonderwijs" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdiO" role="cu0BP">
+      <property role="TrG5h" value="bevoegd gezag Wet primair onderwijs BES" />
+      <node concept="cvrD0" id="6qUJKUPIdiP" role="coNO9">
+        <node concept="cH3hB" id="6qUJKUPIdiQ" role="1FQA6W" />
+        <node concept="cvrD0" id="6qUJKUPIdiR" role="1FQA6S">
+          <node concept="cH3hJ" id="6qUJKUPIdiS" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdiT" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdhC" resolve="een openbare school" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdiU" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdiV" resolve="het bestuurscollege van het betreffende openbaar lichaam, voor zover de eilandsraad niet anders bepaalt, en, indien de eilandsraad dit besluit, met inachtneming van door hem te stellen regelen" />
+          </node>
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdiW" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdiX" resolve="de openbare rechtspersoon, bedoeld in artikel 53" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdiY" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdiZ" resolve="de stichting, bedoeld in artikel 54" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdj0" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdj1" resolve="een bijzondere school: de rechtspersoon, bedoeld in artikel 60" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdiV" role="cu0BP">
+      <property role="TrG5h" value="het bestuurscollege van het betreffende openbaar lichaam, voor zover de eilandsraad niet anders bepaalt, en, indien de eilandsraad dit besluit, met inachtneming van door hem te stellen regelen" />
+      <property role="3ANC2_" value="als fact benoemd, want in fact bevoegd gezag  Wet primair onderwijs BES opgenomen als operand" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdiX" role="cu0BP">
+      <property role="TrG5h" value="de openbare rechtspersoon, bedoeld in artikel 53" />
+      <property role="3ANC2_" value="als fact benoemd, want in fact bevoegd gezag  Wet primair onderwijs BES opgenomen als operand" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdiZ" role="cu0BP">
+      <property role="TrG5h" value="de stichting, bedoeld in artikel 54" />
+      <property role="3ANC2_" value="als fact benoemd, want in fact bevoegd Wet primair onderwijs BES opgenomen als operand" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdj1" role="cu0BP">
+      <property role="TrG5h" value="een bijzondere school: de rechtspersoon, bedoeld in artikel 60" />
+      <property role="3ANC2_" value="als fact benoemd, want in fact bevoegd Wet primair onderwijs BES opgenomen als operand" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdj2" role="cu0BP">
+      <property role="TrG5h" value="bevoegd gezag Wet op het voorgezet onderwijs BES" />
+      <node concept="cvrD0" id="6qUJKUPIdj3" role="coNO9">
+        <node concept="cH3hB" id="6qUJKUPIdj4" role="1FQA6W" />
+        <node concept="cvrD0" id="6qUJKUPIdj5" role="1FQA6S">
+          <node concept="cH3hJ" id="6qUJKUPIdj6" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdj7" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdhC" resolve="een openbare school" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdj8" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdiV" resolve="het bestuurscollege van het betreffende openbaar lichaam, voor zover de eilandsraad niet anders bepaalt, en, indien de eilandsraad dit besluit, met inachtneming van door hem te stellen regelen" />
+          </node>
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdj9" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdja" resolve="de openbare rechtspersoon, bedoeld in artikel 97" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdjb" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdjc" resolve="de stichting, bedoeld in artikel 98 of artikel 109" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdjd" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdje" resolve="een bijzondere school: de rechtspersoon, bedoeld in artikel 105, eerste lid" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdja" role="cu0BP">
+      <property role="TrG5h" value="de openbare rechtspersoon, bedoeld in artikel 97" />
+      <property role="3ANC2_" value="opgenenomen vanwege warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdjc" role="cu0BP">
+      <property role="TrG5h" value="de stichting, bedoeld in artikel 98 of artikel 109" />
+      <property role="3ANC2_" value="opgenomen vanwege warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdje" role="cu0BP">
+      <property role="TrG5h" value="een bijzondere school: de rechtspersoon, bedoeld in artikel 105, eerste lid" />
+      <property role="3ANC2_" value="opgenomen vanwege warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdjf" role="cu0BP">
+      <property role="TrG5h" value="bevoegd gezag Wet educatie en beroepsonderwijs BES" />
+      <node concept="cvrD0" id="6qUJKUPIdjg" role="coNO9">
+        <node concept="cH3hB" id="6qUJKUPIdjh" role="1FQA6W" />
+        <node concept="cvrD0" id="6qUJKUPIdji" role="1FQA6S">
+          <node concept="cH3hJ" id="6qUJKUPIdjj" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdjk" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdiB" resolve="wat een openbare instelling betreft" />
+          </node>
+          <node concept="cvrD0" id="6qUJKUPIdjl" role="1FQA6S">
+            <node concept="cH3hB" id="6qUJKUPIdjm" role="1FQA6W" />
+            <node concept="1FQA6B" id="6qUJKUPIdjn" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIdjo" resolve="het bestuurscollege, voor zover de eilandsraad niet anders bepaalt, en, indien de eilandsraad dit wenselijk oordeelt, met inachtneming van door hem te stellen regelen" />
+            </node>
+            <node concept="1FQA6B" id="6qUJKUPIdjp" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIdhI" resolve="het krachtens de desbetreffende gemeenschappelijke regeling bevoegde orgaan" />
+            </node>
+          </node>
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdjq" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdjr" resolve="wat een bijzondere instelling betreft: de natuurlijke persoon of het bestuur" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdjs" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdiN" resolve="wat een exameninstelling als bedoeld in artikel 1.6.1 betreft: het bestuur van de rechtspersoon waarvan de instelling uitgaat" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdiB" role="cu0BP">
+      <property role="TrG5h" value="wat een openbare instelling betreft" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdjo" role="cu0BP">
+      <property role="TrG5h" value="het bestuurscollege, voor zover de eilandsraad niet anders bepaalt, en, indien de eilandsraad dit wenselijk oordeelt, met inachtneming van door hem te stellen regelen" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdjr" role="cu0BP">
+      <property role="TrG5h" value="wat een bijzondere instelling betreft: de natuurlijke persoon of het bestuur" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdjt" role="cu0BP">
+      <property role="TrG5h" value="bevoegd gezag, instellingbestuur Wet op het hoger onderwijs en wetenschappelijk onderzoek" />
+      <property role="3ANC2_" value="Dit kan mogelijk verder uitgewerkt worden. Heb me niet helemaal aan de wettekst gehouden." />
+      <node concept="cvrD0" id="6qUJKUPIdju" role="coNO9">
+        <node concept="cH3hB" id="6qUJKUPIdjv" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdjw" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdjx" resolve="het college van bestuur, tenzij anders bepaald" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdjy" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdjz" resolve="het orgaan dat als zodanig in de statuten is aangewezen" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdjz" role="cu0BP">
+      <property role="TrG5h" value="het orgaan dat als zodanig in de statuten is aangewezen" />
+      <property role="3ANC2_" value="als fact opgenomen vanwege fact bevoegd gezag hoger onderwijs en wetenschappelijk onderzoek" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdjx" role="cu0BP">
+      <property role="TrG5h" value="het college van bestuur, tenzij anders bepaald" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdj$" role="cu0BP">
+      <property role="TrG5h" value="leraar" />
+      <property role="3ANC2_" value="artikel XI van de Wet op de beroepen in het onderwijs. Dit is overgangsrecht en modelleer ik hier niet. Artikel zegt zoveel als dat bestaande bevoegdheden blijven. Verder heb ik ook de leraren lichamelijke opvoeding nog niet meegenomen. Deze definitie is bewust ontkoppeld van de onderliggende definities. De hier gebruikte facts zijn als [] gedefinieerd en worden door een ssid ingevuld" />
+      <node concept="cvrD0" id="6qUJKUPIdj_" role="coNO9">
+        <node concept="cH3hB" id="6qUJKUPIdjA" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdjB" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdjC" resolve="degene die voldoet aan bevoegdheidseisen gesteld in" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdjD" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdjE" resolve="artikel 3 van de Wet op het primair onderwijs" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdjF" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdjG" resolve="artikel 3 van de Wet op de expertisecentra" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdjH" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdjI" resolve="artikel XI van de Wet op de beroepen in het onderwijs" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdjJ" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdjK" resolve="artikel 3 van de Wet primair onderwijs BES" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdjL" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdjM" resolve="is benoemd of tewerkgesteld zonder benoeming als bedoeld in artikel 33 van de Wet op het voortgezet onderwijs" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdjN" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdjO" resolve="artikel 4.2.1. van de Wet educatie en beroepsonderwijs" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdjP" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdjQ" resolve="artikel 80 van de Wet voortgezet onderwijs BES" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdjR" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdjS" resolve="artikel 4.2.1 van de Wet educatie beroepsonderwijs BES" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdjT" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdjU" resolve="die lesgeeft in het hoger onderwijs" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdjV" role="cu0BP">
+      <property role="TrG5h" value="leraar primair onderwijs" />
+      <property role="3ANC2_" value="Ik heb er voor gekozen om alleen de verschillende subleden van het artikel te scheiden met 'of'. Als er binnen een artikelsublid nog een onderverdeling is gemaakt, heb ik die niet gemodelleerd, omdat die ten tijde van modelleren (190806) niet relevant is. Voor de definitie van leraar is alleen relevant welk soort leraren je hebt. De rest van artikel 3 heb ik niet gemodelleerd, omdat ik de hoofdregel wil modelleren en niet de uitzonderingen op dit moment" />
+      <node concept="cvrD0" id="6qUJKUPIdjW" role="coNO9">
+        <node concept="cH3hJ" id="6qUJKUPIdjX" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdjY" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdjZ" resolve="in het bezit is van een verklaring omtrent het gedrag, afgegeven volgens de Wet justitiële en strafvorderlijke gegevens" />
+        </node>
+        <node concept="cvrD0" id="6qUJKUPIdk0" role="1FQA6S">
+          <node concept="cH3hB" id="6qUJKUPIdk1" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdk2" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdk3" resolve="in het bezit is van:" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdk4" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdk5" resolve="een getuigschrift, afgegeven krachtens de Wet op het hoger onderwijs en wetenschappelijk onderzoek" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdk6" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdk7" resolve="een erkenning van beroepskwalificaties als bedoeld in artikel 5 van de Algemene wet erkenning EU-beroepskwalificaties, verleend ten aanzien van het onderwijs dat betrokkene zal geven" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdk8" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdk9" resolve="een geschiktheidsverklaring als bedoeld in artikel 176b" />
+          </node>
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdka" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdkb" resolve="niet krachtens rechterlijke uitspraak van het geven van onderwijs is uitgesloten" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdjZ" role="cu0BP">
+      <property role="TrG5h" value="in het bezit is van een verklaring omtrent het gedrag, afgegeven volgens de Wet justitiële en strafvorderlijke gegevens" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdk3" role="cu0BP">
+      <property role="TrG5h" value="in het bezit is van:" />
+      <property role="3ANC2_" value="oplossing warning. Wel de vraag of dit soort facts zinvol zijn" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdk5" role="cu0BP">
+      <property role="TrG5h" value="een getuigschrift, afgegeven krachtens de Wet op het hoger onderwijs en wetenschappelijk onderzoek" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdk9" role="cu0BP">
+      <property role="TrG5h" value="een geschiktheidsverklaring als bedoeld in artikel 176b" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdk7" role="cu0BP">
+      <property role="TrG5h" value="een erkenning van beroepskwalificaties als bedoeld in artikel 5 van de Algemene wet erkenning EU-beroepskwalificaties, verleend ten aanzien van het onderwijs dat betrokkene zal geven" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdkb" role="cu0BP">
+      <property role="TrG5h" value="niet krachtens rechterlijke uitspraak van het geven van onderwijs is uitgesloten" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdkc" role="cu0BP">
+      <property role="TrG5h" value="leraar speciaal en voortgezet onderwijs" />
+      <property role="3ANC2_" value="Ik heb er voor gekozen om alleen de verschillende subleden van het artikel te scheiden met 'of'. Als er binnen een artikelsublid nog een onderverdeling is gemaakt, heb ik die niet gemodelleerd, omdat die ten tijde van modelleren (190806) niet relevant is. Voor de definitie van leraar is alleen relevant welk soort leraren je hebt. &#13;&#10;De rest van artikel 3 heb ik niet gemodelleerd, omdat ik de hoofdregel wil modelleren en niet de uitzonderingen op dit moment" />
+      <node concept="cvrD0" id="6qUJKUPIdkd" role="coNO9">
+        <node concept="cH3hJ" id="6qUJKUPIdke" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdkf" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdjZ" resolve="in het bezit is van een verklaring omtrent het gedrag, afgegeven volgens de Wet justitiële en strafvorderlijke gegevens" />
+        </node>
+        <node concept="cvrD0" id="6qUJKUPIdkg" role="1FQA6S">
+          <node concept="cH3hB" id="6qUJKUPIdkh" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdki" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdk3" resolve="in het bezit is van:" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdkj" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdk5" resolve="een getuigschrift, afgegeven krachtens de Wet op het hoger onderwijs en wetenschappelijk onderzoek" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdkk" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdkl" resolve="een erkenning van beroepskwalificaties" />
+          </node>
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdkm" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdkb" resolve="niet krachtens rechterlijke uitspraak van het geven van onderwijs is uitgesloten" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdkn" role="cu0BP">
+      <property role="TrG5h" value="een getuigschrift, afgegeven krachtens de Wet op het hoger onderwijs en wetenschappelijk onderzoek, waaruit blijkt dat is voldaan aan de bekwaamheidseisen die zijn vastgesteld krachtens artikel 86, eerste lid" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdkl" role="cu0BP">
+      <property role="TrG5h" value="een erkenning van beroepskwalificaties" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdko" role="cu0BP">
+      <property role="TrG5h" value="leraar primair onderwijs BES" />
+      <property role="3ANC2_" value="Ik heb er voor gekozen om alleen de verschillende subleden van het artikel te scheiden met 'of'. Als er binnen een artikelsublid nog een onderverdeling is gemaakt, heb ik die niet gemodelleerd, omdat die ten tijde van modelleren (190806) niet relevant is. Voor de definitie van leraar is alleen relevant welk soort leraren je hebt. &#13;&#10;De rest van artikel 3 heb ik niet gemodelleerd, omdat ik de hoofdregel wil modelleren en niet de uitzonderingen op dit moment" />
+      <node concept="cvrD0" id="6qUJKUPIdkp" role="coNO9">
+        <node concept="cH3hJ" id="6qUJKUPIdkq" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdkr" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdks" resolve="in het bezit is van een verklaring omtrent het gedrag, afgegeven volgens de Wet op de justitiële documentatie en op de verklaringen omtrent het gedrag BES, die op het tijdstip van overlegging aan het bevoegd gezag niet ouder is dan zes maanden" />
+        </node>
+        <node concept="cvrD0" id="6qUJKUPIdkt" role="1FQA6S">
+          <node concept="cH3hB" id="6qUJKUPIdku" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdkv" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdkw" resolve="een getuigschrift, afgegeven krachtens de Wet op het hoger onderwijs en wetenschappelijk onderzoek, waaruit blijkt dat ten aanzien van dat onderwijs of ten aanzien van een of meer bij algemene maatregel van bestuur aan te wijzen daartoe behorende onderwijsactiviteiten als bedoeld in de artikelen 11 of 12 is voldaan aan de bekwaamheidseisen die zijn vastgesteld krachtens artikel 35, eerste lid, van deze wet, of krachtens artikel 86, eerste lid, van de Wet voortgezet onderwijs BES" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdkx" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdk7" resolve="een erkenning van beroepskwalificaties als bedoeld in artikel 5 van de Algemene wet erkenning EU-beroepskwalificaties, verleend ten aanzien van het onderwijs dat betrokkene zal geven" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdky" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdkz" resolve="een geschiktheidsverklaring als bedoeld in artikel 137" />
+          </node>
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdk$" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdkb" resolve="niet krachtens rechterlijke uitspraak van het geven van onderwijs is uitgesloten" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdks" role="cu0BP">
+      <property role="TrG5h" value="in het bezit is van een verklaring omtrent het gedrag, afgegeven volgens de Wet op de justitiële documentatie en op de verklaringen omtrent het gedrag BES, die op het tijdstip van overlegging aan het bevoegd gezag niet ouder is dan zes maanden" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdkw" role="cu0BP">
+      <property role="TrG5h" value="een getuigschrift, afgegeven krachtens de Wet op het hoger onderwijs en wetenschappelijk onderzoek, waaruit blijkt dat ten aanzien van dat onderwijs of ten aanzien van een of meer bij algemene maatregel van bestuur aan te wijzen daartoe behorende onderwijsactiviteiten als bedoeld in de artikelen 11 of 12 is voldaan aan de bekwaamheidseisen die zijn vastgesteld krachtens artikel 35, eerste lid, van deze wet, of krachtens artikel 86, eerste lid, van de Wet voortgezet onderwijs BES" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdkz" role="cu0BP">
+      <property role="TrG5h" value="een geschiktheidsverklaring als bedoeld in artikel 137" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdk_" role="cu0BP">
+      <property role="TrG5h" value="Leraar voortgezet onderwijs, zonder benoeming" />
+      <property role="3ANC2_" value="Ik weet nog niet hoe ik dit ga modelleren" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdkA" role="cu0BP">
+      <property role="TrG5h" value="Leraar educatie en beroepsonderwijs" />
+      <node concept="cvrD0" id="6qUJKUPIdkB" role="coNO9">
+        <node concept="cH3hJ" id="6qUJKUPIdkC" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdkD" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdks" resolve="in het bezit is van een verklaring omtrent het gedrag, afgegeven volgens de Wet op de justitiële documentatie en op de verklaringen omtrent het gedrag BES, die op het tijdstip van overlegging aan het bevoegd gezag niet ouder is dan zes maanden" />
+        </node>
+        <node concept="cvrD0" id="6qUJKUPIdkE" role="1FQA6S">
+          <node concept="cH3hB" id="6qUJKUPIdkF" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdkG" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdk3" resolve="in het bezit is van:" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdkH" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdkI" resolve="een getuigschrift als bedoeld in artikel 7.11, eerste lid, van de Wet op het hoger onderwijs en wetenschappelijk onderzoek van een met goed gevolg afgelegd afsluitend examen van een aan een hogeschool verbonden opleiding gericht op het beroep van leraar in het voortgezet onderwijs" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdkJ" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdkK" resolve="een getuigschrift als bedoeld in artikel 175 van de Wet op het hoger beroepsonderwijs van een met goed gevolg afgelegd staatsexamen, voor zover overeenkomend met een getuigschrift als bedoeld onder 1°" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdkL" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdkM" resolve="een getuigschrift als bedoeld in artikel 7.11, eerste lid, van de Wet op het hoger onderwijs en wetenschappelijk onderzoek van een met goed gevolg afgelegd afsluitend examen van een universitaire lerarenopleiding" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdkN" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdkO" resolve="een getuigschrift of diploma van een opleiding die vóór 1 augustus 1991 was gericht op het beroep van leraar in het voortgezet onderwijs" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdkP" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdkQ" resolve="een ten aanzien van het door hem te geven onderwijs verleende erkenning van beroepskwalificaties als bedoeld in artikel 5 van de Algemene wet erkenning EU-beroepskwalificaties" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdkR" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdkS" resolve="een gelijkwaardig buitenlands getuigschrift of diploma, behaald in een land dat niet behoort tot de Lid-Staten van de EU, dan wel een gelijkwaardig Nederlands-Antilliaans of Arubaans getuigschrift of diploma" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdkT" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdkU" resolve="in het bezit is van een door het bevoegd gezag afgegeven geschiktheidsverklaring als bedoeld in artikel 4.2.4" />
+          </node>
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdkV" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdkb" resolve="niet krachtens rechterlijke uitspraak van het geven van onderwijs is uitgesloten" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdkI" role="cu0BP">
+      <property role="TrG5h" value="een getuigschrift als bedoeld in artikel 7.11, eerste lid, van de Wet op het hoger onderwijs en wetenschappelijk onderzoek van een met goed gevolg afgelegd afsluitend examen van een aan een hogeschool verbonden opleiding gericht op het beroep van leraar in het voortgezet onderwijs" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdkK" role="cu0BP">
+      <property role="TrG5h" value="een getuigschrift als bedoeld in artikel 175 van de Wet op het hoger beroepsonderwijs van een met goed gevolg afgelegd staatsexamen, voor zover overeenkomend met een getuigschrift als bedoeld onder 1°" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdkM" role="cu0BP">
+      <property role="TrG5h" value="een getuigschrift als bedoeld in artikel 7.11, eerste lid, van de Wet op het hoger onderwijs en wetenschappelijk onderzoek van een met goed gevolg afgelegd afsluitend examen van een universitaire lerarenopleiding" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdkO" role="cu0BP">
+      <property role="TrG5h" value="een getuigschrift of diploma van een opleiding die vóór 1 augustus 1991 was gericht op het beroep van leraar in het voortgezet onderwijs" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdkQ" role="cu0BP">
+      <property role="TrG5h" value="een ten aanzien van het door hem te geven onderwijs verleende erkenning van beroepskwalificaties als bedoeld in artikel 5 van de Algemene wet erkenning EU-beroepskwalificaties" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdkS" role="cu0BP">
+      <property role="TrG5h" value="een gelijkwaardig buitenlands getuigschrift of diploma, behaald in een land dat niet behoort tot de Lid-Staten van de EU, dan wel een gelijkwaardig Nederlands-Antilliaans of Arubaans getuigschrift of diploma" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdkU" role="cu0BP">
+      <property role="TrG5h" value="in het bezit is van een door het bevoegd gezag afgegeven geschiktheidsverklaring als bedoeld in artikel 4.2.4" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdkW" role="cu0BP">
+      <property role="TrG5h" value="Leraar voortgezet onderwijs BES" />
+      <node concept="cvrD0" id="6qUJKUPIdkX" role="coNO9">
+        <node concept="cH3hJ" id="6qUJKUPIdkY" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdkZ" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdks" resolve="in het bezit is van een verklaring omtrent het gedrag, afgegeven volgens de Wet op de justitiële documentatie en op de verklaringen omtrent het gedrag BES, die op het tijdstip van overlegging aan het bevoegd gezag niet ouder is dan zes maanden" />
+        </node>
+        <node concept="cvrD0" id="6qUJKUPIdl0" role="1FQA6S">
+          <node concept="cH3hB" id="6qUJKUPIdl1" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdl2" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdk3" resolve="in het bezit is van:" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdl3" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdkn" resolve="een getuigschrift, afgegeven krachtens de Wet op het hoger onderwijs en wetenschappelijk onderzoek, waaruit blijkt dat is voldaan aan de bekwaamheidseisen die zijn vastgesteld krachtens artikel 86, eerste lid" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdl4" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdk7" resolve="een erkenning van beroepskwalificaties als bedoeld in artikel 5 van de Algemene wet erkenning EU-beroepskwalificaties, verleend ten aanzien van het onderwijs dat betrokkene zal geven" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdl5" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdl6" resolve="een geschiktheidsverklaring als bedoeld in artikel 197" />
+          </node>
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdl7" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdkb" resolve="niet krachtens rechterlijke uitspraak van het geven van onderwijs is uitgesloten" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdl6" role="cu0BP">
+      <property role="TrG5h" value="een geschiktheidsverklaring als bedoeld in artikel 197" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdl8" role="cu0BP">
+      <property role="TrG5h" value="Leraar educatie en beroepsonderwijs BES" />
+      <node concept="cvrD0" id="6qUJKUPIdl9" role="coNO9">
+        <node concept="cH3hJ" id="6qUJKUPIdla" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdlb" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdks" resolve="in het bezit is van een verklaring omtrent het gedrag, afgegeven volgens de Wet op de justitiële documentatie en op de verklaringen omtrent het gedrag BES, die op het tijdstip van overlegging aan het bevoegd gezag niet ouder is dan zes maanden" />
+        </node>
+        <node concept="cvrD0" id="6qUJKUPIdlc" role="1FQA6S">
+          <node concept="cH3hB" id="6qUJKUPIdld" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdle" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdlf" resolve="voldoet aan bekwaamheidseisen blijkend uit het bezit van" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdlg" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdkI" resolve="een getuigschrift als bedoeld in artikel 7.11, eerste lid, van de Wet op het hoger onderwijs en wetenschappelijk onderzoek van een met goed gevolg afgelegd afsluitend examen van een aan een hogeschool verbonden opleiding gericht op het beroep van leraar in het voortgezet onderwijs" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdlh" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdkK" resolve="een getuigschrift als bedoeld in artikel 175 van de Wet op het hoger beroepsonderwijs van een met goed gevolg afgelegd staatsexamen, voor zover overeenkomend met een getuigschrift als bedoeld onder 1°" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdli" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdkM" resolve="een getuigschrift als bedoeld in artikel 7.11, eerste lid, van de Wet op het hoger onderwijs en wetenschappelijk onderzoek van een met goed gevolg afgelegd afsluitend examen van een universitaire lerarenopleiding" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdlj" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdkO" resolve="een getuigschrift of diploma van een opleiding die vóór 1 augustus 1991 was gericht op het beroep van leraar in het voortgezet onderwijs" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdlk" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdkQ" resolve="een ten aanzien van het door hem te geven onderwijs verleende erkenning van beroepskwalificaties als bedoeld in artikel 5 van de Algemene wet erkenning EU-beroepskwalificaties" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdll" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdlm" resolve="een gelijkwaardig buitenlands getuigschrift of diploma, behaald in een land dat niet behoort tot de Lid-Staten van de EU, dan wel een gelijkwaardig diploma of getuigschrift behaald in Aruba, Curaçao, Sint Maarten, Bonaire, Sint Eustatius of Saba" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdln" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdlo" resolve="in het bezit is van een door het bevoegd gezag afgegeven geschiktheidsverklaring als bedoeld in artikel 4.2.5" />
+          </node>
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdlp" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdkb" resolve="niet krachtens rechterlijke uitspraak van het geven van onderwijs is uitgesloten" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdlo" role="cu0BP">
+      <property role="TrG5h" value="in het bezit is van een door het bevoegd gezag afgegeven geschiktheidsverklaring als bedoeld in artikel 4.2.5" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdlf" role="cu0BP">
+      <property role="TrG5h" value="voldoet aan bekwaamheidseisen blijkend uit het bezit van" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdlm" role="cu0BP">
+      <property role="TrG5h" value="een gelijkwaardig buitenlands getuigschrift of diploma, behaald in een land dat niet behoort tot de Lid-Staten van de EU, dan wel een gelijkwaardig diploma of getuigschrift behaald in Aruba, Curaçao, Sint Maarten, Bonaire, Sint Eustatius of Saba" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdlq" role="cu0BP">
+      <property role="TrG5h" value="minister van Onderwijs, Cultuur en Wetenschap" />
+      <property role="3ANC2_" value="Added, because it was missing in excel" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdeC" role="cu0BP">
+      <property role="TrG5h" value="rechtspersoon die krachtens publiekrecht is ingesteld" />
+      <property role="3ANC2_" value="Added, because it was missing in excel" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdeM" role="cu0BP">
+      <property role="TrG5h" value="met enig openbaar gezag bekleed" />
+      <property role="3ANC2_" value="Added, because it was missing in excel" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdlr" role="cu0BP">
+      <property role="TrG5h" value="besluit tot verlenen subsidie voor kosten in verband met het verlenen van studieverlof aan de leraar" />
+      <property role="3ANC2_" value="Added, because it was missing in excel. &#13;&#10;Artikel 20 Slb regelt het verlenen van subsidie voor studieverlof aan het bevoegd gezag. Artikel 24, eerste lid Slb regelt het verlenen van studieverlof aan de leraar door het bevoegd gezag." />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdls" role="cu0BP">
+      <property role="TrG5h" value="besluit tot verlenen subsidie voor studiekosten van een leraar in verband met het volgen van een opleiding" />
+      <property role="3ANC2_" value="Added, because it was missing in excel. &#13;&#10;Ik zie wel dat de Minister van alles doet/mag doen, beslissen binnen een termijn, hoogte subsidie bepalen enz. Weet bij dit specifieke fact niet zo snel ene wetsverwijzing. Heb nu volstaan met de algemene bevoegdheid uit de Awb." />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdlt" role="cu0BP">
+      <property role="TrG5h" value="verzoek tot bewijs van het behalen van ten minste vijftien studiepunten" />
+      <property role="3ANC2_" value="Added, because it was missing in excel" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdlu" role="cu0BP">
+      <property role="TrG5h" value="bewijsstuk waaruit blijkt dat hij ten minste vijftien studiepunten heeft gehaald" />
+      <property role="3ANC2_" value="Fact teoegevoegd vanwege warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdlv" role="cu0BP">
+      <property role="TrG5h" value="verzoek tot bewijs van betaling van collegegeld" />
+      <property role="3ANC2_" value="Added, because it was missing in excel" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdlw" role="cu0BP">
+      <property role="TrG5h" value="bewijsstuk waaruit blijkt dat hij collegegeld heeft betaald" />
+      <property role="3ANC2_" value="Fact toegevoegd vanwege warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdlx" role="cu0BP">
+      <property role="TrG5h" value="subsidiebedrag is uitbetaald aan subsidieontvanger voordat de opleiding waar de subsidie betrekking op heeft aanvangt" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdly" role="cu0BP">
+      <property role="TrG5h" value="terugvordering" />
+      <property role="3ANC2_" value="Added, because it was missing in excel." />
+      <node concept="cvrD0" id="6qUJKUPIdlz" role="coNO9">
+        <node concept="cH3hB" id="6qUJKUPIdl$" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdl_" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdlA" resolve="leraar heeft minder dan 15 studiepunten gehaald" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdlB" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdlC" resolve="leraar heeft binnen 2 maanden na verstrekking van de subsidie de aanvraag voor subsidie ingetrokken" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdlD" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdlE" resolve="bevoegd gezag heeft geen studieverlof verleend" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdlA" role="cu0BP">
+      <property role="TrG5h" value="leraar heeft minder dan 15 studiepunten gehaald" />
+      <property role="3ANC2_" value="Toegevoegd, want is preconditie voor het terugvorderen van subsidie studiekosten" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdlC" role="cu0BP">
+      <property role="TrG5h" value="leraar heeft binnen 2 maanden na verstrekking van de subsidie de aanvraag voor subsidie ingetrokken" />
+      <property role="3ANC2_" value="Toegevoegd, want is preconditie voor het terugvorderen van subsidie studiekosten" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdlF" role="cu0BP">
+      <property role="TrG5h" value="terugvordering subsidie studieverlof" />
+      <property role="3ANC2_" value="Toegevoegd, want is preconditie voor het terugvorderen van subsidie studieverlof" />
+      <node concept="cvrD0" id="6qUJKUPIdlG" role="coNO9">
+        <node concept="cH3hB" id="6qUJKUPIdlH" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdlI" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdlC" resolve="leraar heeft binnen 2 maanden na verstrekking van de subsidie de aanvraag voor subsidie ingetrokken" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdlJ" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdlE" resolve="bevoegd gezag heeft geen studieverlof verleend" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdlK" role="cu0BP">
+      <property role="TrG5h" value="bevoegd gezag weigert studieverlof" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdlE" role="cu0BP">
+      <property role="TrG5h" value="bevoegd gezag heeft geen studieverlof verleend" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdlL" role="cu0BP">
+      <property role="TrG5h" value="betalingsregeling voor het terugbetalen van de subsidie studiekosten" />
+      <property role="3ANC2_" value="Toegevoegd, want is preconditie voor het terugvorderen van subsidie studiekosten" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdlM" role="cu0BP">
+      <property role="TrG5h" value="terugvordering van collegegeld" />
+      <node concept="1FQA6B" id="6qUJKUPIdlN" role="coNO9">
+        <ref role="1FQA6$" node="6qUJKUPIdlO" resolve="studiekosten zijn lager dan de toegekende subsidie" />
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdlO" role="cu0BP">
+      <property role="TrG5h" value="studiekosten zijn lager dan de toegekende subsidie" />
+      <property role="3ANC2_" value="oplossing warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdlP" role="cu0BP">
+      <property role="TrG5h" value="kosten van collegegeld, studiemiddelen en reiskosten" />
+      <property role="3ANC2_" value="Fact toegevoegd vanwege warning" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdlQ" role="cu0BP">
       <property role="TrG5h" value="subsidieontvanger" />
-      <property role="3ANC2_" value="subisidieontvanger is in dit deze context het agrarisch collectief" />
+      <property role="3ANC2_" value="Toegevoegd, omdat deze bepaling uit de Kaderregeling ook regels bevat voor de Slb. Had deze er in eerste instantie uitgehaald" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN7d" role="cu0BP">
-      <property role="TrG5h" value="identiteit van de begunstigde" />
+    <node concept="cu0$f" id="6qUJKUPIdlR" role="cu0BP">
+      <property role="TrG5h" value="een of meer bepalingen van de subsidieregeling lerarenbeurs" />
+      <property role="3ANC2_" value="Fact toegevoegd vanwege warning" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN7f" role="cu0BP">
-      <property role="TrG5h" value="De naam van de regeling" />
+    <node concept="cu0$f" id="6qUJKUPIdlS" role="cu0BP">
+      <property role="TrG5h" value="minister OCW heeft een of meer bepalingen van de subsidieregeling lerarenbeurs buiten toepassing gelaten" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN6S" role="cu0BP">
-      <property role="TrG5h" value="De totale omvang in hectares in 2 decimalen per leefgebied/deelgebied waarvoor betaling wordt gevraagd" />
+    <node concept="cu0$f" id="6qUJKUPIdlT" role="cu0BP">
+      <property role="TrG5h" value="minister OCW is afgeweken van een of meer bepalingen van de subsidieregeling lerarenbeurs" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN7k" role="cu0BP">
-      <property role="TrG5h" value="De identificatie van niet-landbouwgrond die voor steun in aanmerking komt (subsidiabele landschapselementen (met uitzondering van hoogstamboomgaard, natuurvriendelijke oever en solitaire boom) en water)." />
+    <node concept="cu0$f" id="6qUJKUPIdhj" role="cu0BP">
+      <property role="TrG5h" value="artikel 1 van de Wet op het primair onderwijs" />
+      <property role="3ANC2_" value="Toegevoegd, omdat deze dan gekoppeld kan worden aan een ssid" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN7m" role="cu0BP">
-      <property role="TrG5h" value="Verklaring van het agrarisch collectief dat de individuele deelnemers weten wat de verplichtingen en consequenties zijn" />
+    <node concept="cu0$f" id="6qUJKUPIdhl" role="cu0BP">
+      <property role="TrG5h" value="artikel 1 van de Wet op de expertisecentra" />
+      <property role="3ANC2_" value="Toegevoegd, omdat deze dan gekoppeld kan worden aan een ssid" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN7o" role="cu0BP">
-      <property role="TrG5h" value="De unieke identificatie van iedere deelnemer van het agrarisch collectief" />
+    <node concept="cu0$f" id="6qUJKUPIdhn" role="cu0BP">
+      <property role="TrG5h" value="artikel 1 van de Wet op het voortgezet onderwijs" />
+      <property role="3ANC2_" value="Toegevoegd, omdat deze dan gekoppeld kan worden aan een ssid" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN7q" role="cu0BP">
-      <property role="TrG5h" value="Aanvraagnummer gebiedsaanvraag (provincie) als bewijsstuk om te bepalen of de begunstigde voor betaling in aanmerking komt." />
+    <node concept="cu0$f" id="6qUJKUPIdhp" role="cu0BP">
+      <property role="TrG5h" value="artikel 1.1.1., onderdeel w, van de Wet educatie en beroepsonderwijs" />
+      <property role="3ANC2_" value="Toegevoegd, omdat deze dan gekoppeld kan worden aan een ssid" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN7s" role="cu0BP">
-      <property role="TrG5h" value="De bewijsstukken die nodig zijn om te bepalen of de aanspraak op de steun/bijstand kan worden gemaakt. Hier moet worden gedacht aan stukken die de inhoud van de betalingsaanvraag onderbouwen" />
+    <node concept="cu0$f" id="6qUJKUPIdhr" role="cu0BP">
+      <property role="TrG5h" value="artikel 1 van de Wet primair onderwijs BES" />
+      <property role="3ANC2_" value="Toegevoegd, omdat deze dan gekoppeld kan worden aan een ssid" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN7b" role="cu0BP">
-      <property role="TrG5h" value="goedgekeurde gebiedsaanvraag" />
+    <node concept="cu0$f" id="6qUJKUPIdht" role="cu0BP">
+      <property role="TrG5h" value="artikel 1 van de Wet voortgezet onderwijs BES" />
+      <property role="3ANC2_" value="Toegevoegd, omdat deze dan gekoppeld kan worden aan een ssid" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN7w" role="cu0BP">
-      <property role="TrG5h" value="voorafgaande controles" />
+    <node concept="cu0$f" id="6qUJKUPIdhv" role="cu0BP">
+      <property role="TrG5h" value="artikel 1.1.1, van de Wet educatie en beroepsonderwijs BES" />
+      <property role="3ANC2_" value="Toegevoegd, omdat deze dan gekoppeld kan worden aan een ssid" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN7x" role="cu0BP">
-      <property role="TrG5h" value="voorafgaand controleren" />
-      <property role="3ANC2_" value="dit is een fact om het model kloppend te maken" />
+    <node concept="cu0$f" id="6qUJKUPIdhx" role="cu0BP">
+      <property role="TrG5h" value="instellingsbestuur bedoeld in artikel 1.1, onderdeel j, van de Wet op het hoger onderwijs en wetenschappelijk onderzoek" />
+      <property role="3ANC2_" value="Toegevoegd, omdat deze dan gekoppeld kan worden aan een ssid" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN7y" role="cu0BP">
-      <property role="TrG5h" value="fouten" />
+    <node concept="cu0$f" id="6qUJKUPIdjE" role="cu0BP">
+      <property role="TrG5h" value="artikel 3 van de Wet op het primair onderwijs" />
+      <property role="3ANC2_" value="Toegevoegd, omdat deze dan gekoppeld kan worden aan een ssid" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN7z" role="cu0BP">
-      <property role="TrG5h" value="geconstateerde fout" />
+    <node concept="cu0$f" id="6qUJKUPIdjG" role="cu0BP">
+      <property role="TrG5h" value="artikel 3 van de Wet op de expertisecentra" />
+      <property role="3ANC2_" value="Toegevoegd, omdat deze dan gekoppeld kan worden aan een ssid" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN7D" role="cu0BP">
-      <property role="TrG5h" value="kenmerk van de bijbehorende beschikking tot subsidieverlening van de gebiedsaanvraag" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    <node concept="cu0$f" id="6qUJKUPIdjI" role="cu0BP">
+      <property role="TrG5h" value="artikel XI van de Wet op de beroepen in het onderwijs" />
+      <property role="3ANC2_" value="Toegevoegd, omdat deze dan gekoppeld kan worden aan een ssid" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN7F" role="cu0BP">
-      <property role="TrG5h" value="De wijzigingen (ten opzichte van jaarlijks beheer) die doorgevoerd zijn op de beheeractiviteiten met reden van wijzigen en per welke datum (indien van toepassing)." />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    <node concept="cu0$f" id="6qUJKUPIdjK" role="cu0BP">
+      <property role="TrG5h" value="artikel 3 van de Wet primair onderwijs BES" />
+      <property role="3ANC2_" value="Toegevoegd, omdat deze dan gekoppeld kan worden aan een ssid" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN7J" role="cu0BP">
-      <property role="TrG5h" value="Digitale handtekening van de verantwoording" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    <node concept="cu0$f" id="6qUJKUPIdjM" role="cu0BP">
+      <property role="TrG5h" value="is benoemd of tewerkgesteld zonder benoeming als bedoeld in artikel 33 van de Wet op het voortgezet onderwijs" />
+      <property role="3ANC2_" value="Toegevoegd, omdat deze dan gekoppeld kan worden aan een ssid" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN7$" role="cu0BP">
-      <property role="TrG5h" value="begroting" />
-      <node concept="cvrD0" id="27H3E6IuN7_" role="coNO9">
-        <node concept="cH3hJ" id="27H3E6IuN7A" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IuN7B" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN7d" resolve="identiteit van de begunstigde" />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN7C" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN7D" resolve="kenmerk van de bijbehorende beschikking tot subsidieverlening van de gebiedsaanvraag" />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN7E" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN7F" resolve="De wijzigingen (ten opzichte van jaarlijks beheer) die doorgevoerd zijn op de beheeractiviteiten met reden van wijzigen en per welke datum (indien van toepassing)." />
-        </node>
-        <node concept="cvrD0" id="27H3E6IuN7G" role="1FQA6S">
-          <node concept="cH3hG" id="27H3E6IuN7H" role="1FQA6W" />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN7I" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN7J" resolve="Digitale handtekening van de verantwoording" />
-        </node>
-      </node>
+    <node concept="cu0$f" id="6qUJKUPIdjO" role="cu0BP">
+      <property role="TrG5h" value="artikel 4.2.1. van de Wet educatie en beroepsonderwijs" />
+      <property role="3ANC2_" value="Toegevoegd, omdat deze dan gekoppeld kan worden aan een ssid" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN7K" role="cu0BP">
-      <property role="TrG5h" value="Correctie" />
+    <node concept="cu0$f" id="6qUJKUPIdjQ" role="cu0BP">
+      <property role="TrG5h" value="artikel 80 van de Wet voortgezet onderwijs BES" />
+      <property role="3ANC2_" value="Toegevoegd, omdat deze dan gekoppeld kan worden aan een ssid" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN7L" role="cu0BP">
-      <property role="TrG5h" value="teruglegging geconstateerde fouten" />
+    <node concept="cu0$f" id="6qUJKUPIdjS" role="cu0BP">
+      <property role="TrG5h" value="artikel 4.2.1 van de Wet educatie beroepsonderwijs BES" />
+      <property role="3ANC2_" value="Toegevoegd, omdat deze dan gekoppeld kan worden aan een ssid" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN7M" role="cu0BP">
-      <property role="TrG5h" value="verantwoording" />
-      <property role="3ANC2_" value="TODO: controle op juistheid" />
-      <node concept="1FQA6B" id="27H3E6IuN7N" role="coNO9">
-        <ref role="1FQA6$" node="27H3E6IuN7$" resolve="begroting" />
-      </node>
+    <node concept="cu0$f" id="6qUJKUPIdjU" role="cu0BP">
+      <property role="TrG5h" value="die lesgeeft in het hoger onderwijs" />
+      <property role="3ANC2_" value="Toegevoegd, omdat deze dan gekoppeld kan worden aan een ssid" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN7P" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIdjC" role="cu0BP">
+      <property role="TrG5h" value="degene die voldoet aan bevoegdheidseisen gesteld in" />
+      <property role="3ANC2_" value="Toegevoegd, omdat deze dan gekoppeld kan worden aan een ssid" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdlV" role="cu0BP">
       <property role="TrG5h" value="indienen" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="mu5$5" id="27H3E6IuN7O" role="m3s6u">
-      <property role="TrG5h" value="indienen betalingsaanvraag" />
-      <property role="3ANC2_" value="Zowel de Europese Vo als de provinciale vo regelt dat je een betaalverzoek/aanvraag moet doen. Om de de Europese Vo het recht creëert, heb ik alleen de sourcetekst van de Europese Vo opgenomen." />
-      <ref role="mu3Ux" node="27H3E6IuN7P" resolve="indienen" />
-      <ref role="mu5$L" node="27H3E6IuN76" resolve="agrarisch collectief" />
-      <ref role="mu3Ts" node="27H3E6IuN77" resolve="betalingsaanvraag" />
-      <ref role="mu3To" node="27H3E6IuN7u" resolve="RVO" />
-      <node concept="1FQA6B" id="27H3E6IuN7Q" role="mu1c7">
-        <ref role="1FQA6$" node="27H3E6IuN74" resolve="aanvraagformulier betalingsaanvraag" />
-      </node>
-      <node concept="1FQA6B" id="27H3E6IuN7R" role="mu1cf">
-        <ref role="1FQA6$" node="27H3E6IuN6x" resolve="aanvraag" />
-      </node>
-      <node concept="cog_b" id="27H3E6IuN7S" role="mu1ck">
-        <property role="1FEjNx" value="Een begunstigde van de in artikel 67, lid 2, bedoelde steun dient elk jaar een aanvraag voor rechtstreekse betalingen of een betalingsaanvraag in" />
-        <ref role="cog$q" node="27H3E6IuN6t" resolve="art. 72, lid 1 Vo (EU) 1306/2013 en art 3.11, onder g SVNL 2016" />
-      </node>
-      <node concept="1FQA6B" id="27H3E6IuN7T" role="mu3T0">
-        <ref role="1FQA6$" node="27H3E6IuN7t" resolve="betaalverzoek is tussen 1 maart en 15 mei ingediend" />
-      </node>
+    <node concept="2cz0EU" id="6qUJKUPIdlY" role="2cADMD">
+      <property role="TrG5h" value="schriftelijk indienen aanvraag" />
+      <property role="3ANC2_" value="Bekendmaken beschikking" />
+      <ref role="2cBO5V" node="6qUJKUPIdpX" resolve="indienen aanvraag" />
+      <ref role="2cz2Wc" node="6qUJKUPIdfG" resolve="aanvrager" />
+      <ref role="2cz2We" node="6qUJKUPIdem" resolve="bestuursorgaan" />
+      <ref role="2cBO5Z" node="6qUJKUPIdpY" resolve="bekendmaken besluit" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN7V" role="cu0BP">
-      <property role="TrG5h" value="controleren" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    <node concept="2cz0EU" id="6qUJKUPIdm0" role="2cADMD">
+      <property role="TrG5h" value="aanvraag indienen bij bevoegd bestuursorgaan" />
+      <property role="3ANC2_" value="Bekendmaken beschikking" />
+      <ref role="2cBO5V" node="6qUJKUPIdpX" resolve="indienen aanvraag" />
+      <ref role="2cz2Wc" node="6qUJKUPIdfG" resolve="aanvrager" />
+      <ref role="2cz2We" node="6qUJKUPIdem" resolve="bestuursorgaan" />
+      <ref role="2cBO5Z" node="6qUJKUPIdpY" resolve="bekendmaken besluit" />
     </node>
-    <node concept="mu5$5" id="27H3E6IuN7U" role="m3s6u">
-      <property role="TrG5h" value="voorafgaand controleren" />
-      <property role="3ANC2_" value="de vervolgacties van de voorcontroles is voor een aangegeven aantal controles teruglegging, zodat de fouten nog gecorrigeerd kunnen worden. Er worden meer (voor)controles uitgevoerd, waar deze dienstverlening niet geleverd wordt" />
-      <ref role="mu3Ux" node="27H3E6IuN7V" resolve="controleren" />
-      <ref role="mu5$L" node="27H3E6IuN7u" resolve="RVO" />
-      <ref role="mu3Ts" node="27H3E6IuN77" resolve="betalingsaanvraag" />
-      <ref role="mu3To" node="27H3E6IuN76" resolve="agrarisch collectief" />
-      <node concept="1FQA6B" id="27H3E6IuN7W" role="mu1c7">
-        <ref role="1FQA6$" node="27H3E6IuN7w" resolve="voorafgaande controles" />
+    <node concept="2cz0EU" id="6qUJKUPIdm2" role="2cADMD">
+      <property role="TrG5h" value="aanvraag ondertekenen en naam aanvrager, adres, dagtekening en aanduiding doen bevatten" />
+      <property role="3ANC2_" value="Bekendmaken beschikking" />
+      <ref role="2cBO5V" node="6qUJKUPIdpX" resolve="indienen aanvraag" />
+      <ref role="2cz2Wc" node="6qUJKUPIdfG" resolve="aanvrager" />
+      <ref role="2cz2We" node="6qUJKUPIdem" resolve="bestuursorgaan" />
+      <ref role="2cBO5Z" node="6qUJKUPIdpY" resolve="bekendmaken besluit" />
+      <node concept="2cz2WB" id="6qUJKUPIdpZ" role="2cBPZr">
+        <ref role="2cz2WA" node="6qUJKUPIdq0" resolve="aanvraag ondertekenen" />
       </node>
-      <node concept="1FQA6B" id="27H3E6IuN7X" role="mu1cf">
-        <ref role="1FQA6$" node="27H3E6IuN7L" resolve="teruglegging geconstateerde fouten" />
+      <node concept="2cz2WB" id="6qUJKUPIdq1" role="2cBPZr">
+        <ref role="2cz2WA" node="6qUJKUPIdq2" resolve="aanvraag bevat de naam" />
       </node>
-      <node concept="cog_b" id="27H3E6IuN7Y" role="mu1ck">
-        <property role="1FEjNx" value="Wanneer in het kader van het geïntegreerde systeem het vooraf opgestelde formulier en het bijbehorende grafische materiaal als bedoeld in artikel 72, lid 3, van Verordening (EU) nr. 1306/2013 worden verstrekt via een GIS-gebaseerde interface die de verwerking van de ruimtelijke en alfanumerieke gegevens van de aangegeven percelen mogelijk maakt (hierna „geospatiaal steunaanvraagformulier” genoemd), kunnen de lidstaten besluiten een systeem van voorafgaande kruiscontroles (hierna „voorafgaande controles” genoemd) in te voeren dat ten minste de in artikel 29, lid 1, eerste alinea, onder a), b) en c), van deze verordening bedoelde kruiscontroles omvat." />
-        <ref role="cog$q" node="27H3E6IuN6u" resolve="art. 11, lid 4 Vo (EU) 809/2014" />
+      <node concept="2cz2WB" id="6qUJKUPIdq3" role="2cBPZr">
+        <ref role="2cz2WA" node="6qUJKUPIdq4" resolve="aanvraag bevat adres van de aanvrager" />
       </node>
-      <node concept="cvrD0" id="27H3E6IuN7Z" role="mu3T0">
-        <node concept="cH3hJ" id="27H3E6IuN80" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IuN81" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN77" resolve="betalingsaanvraag" />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN82" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN7b" resolve="goedgekeurde gebiedsaanvraag" />
-        </node>
+      <node concept="2cz2WB" id="6qUJKUPIdq5" role="2cBPZr">
+        <ref role="2cz2WA" node="6qUJKUPIdq6" resolve="aanvraag bevat dagtekening" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdq7" role="2cBPZr">
+        <ref role="2cz2WA" node="6qUJKUPIdq8" resolve="aanvraag bevat aanduiding van de beschikking die wordt gevraagd" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IuN84" role="cu0BP">
-      <property role="TrG5h" value="teruglegging" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    <node concept="2cz0EU" id="6qUJKUPIdm4" role="2cADMD">
+      <property role="TrG5h" value="verschaffen gegevens nodig om besluit te nemen" />
+      <property role="3ANC2_" value="De [aanvrager] [verschaft] [voorts] de [gegevens en bescheiden] [die voor] de [beslissing op de aanvraag] [nodig zijn] [en] [waarover hij redelijkerwijs de beschikking kan krijgen]." />
+      <ref role="2cBO5V" node="6qUJKUPIdpX" resolve="indienen aanvraag" />
+      <ref role="2cz2Wc" node="6qUJKUPIdfG" resolve="aanvrager" />
+      <ref role="2cz2We" node="6qUJKUPIdem" resolve="bestuursorgaan" />
+      <ref role="2cBO5Z" node="6qUJKUPIdpY" resolve="bekendmaken besluit" />
     </node>
-    <node concept="mu5$5" id="27H3E6IuN83" role="m3s6u">
-      <property role="TrG5h" value="terugleggen geconstateerde fouten" />
-      <ref role="mu3Ux" node="27H3E6IuN84" resolve="teruglegging" />
-      <ref role="mu5$L" node="27H3E6IuN7u" resolve="RVO" />
-      <ref role="mu3Ts" node="27H3E6IuN7y" resolve="fouten" />
-      <ref role="mu3To" node="27H3E6IuN76" resolve="agrarisch collectief" />
-      <node concept="1FQA6B" id="27H3E6IuN85" role="mu1c7">
-        <ref role="1FQA6$" node="27H3E6IuN7w" resolve="voorafgaande controles" />
+    <node concept="2cz0EU" id="6qUJKUPIdm6" role="2cADMD">
+      <property role="TrG5h" value="vergaren nodige kennis" />
+      <property role="3ANC2_" value="Bekendmaken beschikking" />
+      <ref role="2cBO5V" node="6qUJKUPIdpX" resolve="indienen aanvraag" />
+      <ref role="2cz2Wc" node="6qUJKUPIdem" resolve="bestuursorgaan" />
+      <ref role="2cz2We" node="6qUJKUPIdf7" resolve="belanghebbende" />
+      <ref role="2cBO5Z" node="6qUJKUPIdpY" resolve="bekendmaken besluit" />
+      <node concept="2cz2WB" id="6qUJKUPIdq9" role="2cBPZr">
+        <ref role="2cz2WA" node="6qUJKUPIdqa" resolve="vergaren nodige kennis omtrent de relevante feiten" />
       </node>
-      <node concept="1FQA6B" id="27H3E6IuN86" role="mu1cf">
-        <ref role="1FQA6$" node="27H3E6IuN7K" resolve="Correctie" />
-      </node>
-      <node concept="1FQA6B" id="27H3E6IuN87" role="mu3T0">
-        <ref role="1FQA6$" node="27H3E6IuN7x" resolve="voorafgaand controleren" />
-      </node>
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN89" role="cu0BP">
-      <property role="TrG5h" value="correctie" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
-    <node concept="mu5$5" id="27H3E6IuN88" role="m3s6u">
-      <property role="TrG5h" value="corrigeren door RVO geconstateerde fout" />
-      <ref role="mu3Ux" node="27H3E6IuN89" resolve="correctie" />
-      <ref role="mu5$L" node="27H3E6IuN76" resolve="agrarisch collectief" />
-      <ref role="mu3Ts" node="27H3E6IuN7z" resolve="geconstateerde fout" />
-      <ref role="mu3To" node="27H3E6IuN7u" resolve="RVO" />
-      <node concept="cog_b" id="27H3E6IuN8a" role="mu1ck">
-        <property role="1FEjNx" value="" />
-        <ref role="cog$q" node="27H3E6IuN6v" resolve="artikel 13 Vo (EU) 640/2014 en artikel 11 lid 4 en artikel 15 lid 2a Vo (EU) 809/2014" />
+      <node concept="2cz2WB" id="6qUJKUPIdqb" role="2cBPZr">
+        <ref role="2cz2WA" node="6qUJKUPIdqc" resolve="vergaren nodige kennis omtrent  de af te wegen belangen" />
       </node>
     </node>
-    <node concept="2cz0EU" id="27H3E6IuN8d" role="2cADMD">
-      <property role="TrG5h" value="vaststellen voldoen aan alle voorwaarden" />
-      <property role="3ANC2_" value="GENERATED: This duty was generated during the 'Import From Json Action'" />
+    <node concept="2cz0EU" id="6qUJKUPIdm8" role="2cADMD">
+      <property role="TrG5h" value="besluit berust op deugdelijke motivering" />
+      <property role="3ANC2_" value="Bekendmaken beschikking" />
+      <ref role="2cBO5V" node="6qUJKUPIdpX" resolve="indienen aanvraag" />
+      <ref role="2cz2Wc" node="6qUJKUPIdem" resolve="bestuursorgaan" />
+      <ref role="2cz2We" node="6qUJKUPIdf7" resolve="belanghebbende" />
+      <ref role="2cBO5Z" node="6qUJKUPIdpY" resolve="bekendmaken besluit" />
     </node>
-    <node concept="2cz0EU" id="27H3E6IuN8f" role="2cADMD">
-      <property role="TrG5h" value="bepalen hoogte betaling" />
-      <property role="3ANC2_" value="GENERATED: This duty was generated during the 'Import From Json Action'" />
+    <node concept="2cz0EU" id="6qUJKUPIdma" role="2cADMD">
+      <property role="TrG5h" value="beschikking geven binnen termijn" />
+      <property role="3ANC2_" value="Bekendmaken beschikking" />
+      <ref role="2cBO5V" node="6qUJKUPIdpX" resolve="indienen aanvraag" />
+      <ref role="2cz2Wc" node="6qUJKUPIdem" resolve="bestuursorgaan" />
+      <ref role="2cz2We" node="6qUJKUPIdf7" resolve="belanghebbende" />
+      <ref role="2cBO5Z" node="6qUJKUPIdpY" resolve="bekendmaken besluit" />
     </node>
-    <node concept="mu5$5" id="27H3E6IuN8b" role="m3s6u">
-      <property role="TrG5h" value="verantwoorden beheeractiviteiten en wijzigingen" />
-      <ref role="mu3Ux" node="27H3E6IuN7M" resolve="verantwoording" />
-      <ref role="mu5$L" node="27H3E6IuN76" resolve="agrarisch collectief" />
-      <ref role="mu3Ts" node="27H3E6IuN7$" resolve="begroting" />
-      <ref role="mu3To" node="27H3E6IuN7u" resolve="RVO" />
-      <node concept="2cz2WB" id="27H3E6IuN8c" role="mu1cf">
-        <ref role="2cz2WA" node="27H3E6IuN8d" resolve="vaststellen voldoen aan alle voorwaarden" />
+    <node concept="mu5$5" id="6qUJKUPIdlU" role="m3s6u">
+      <property role="TrG5h" value="indienen verzoek een besluit te nemen" />
+      <property role="3ANC2_" value="{De ontvanger [bestuursorgaan] kan worden afgeleid van de definitie van â€˜besluitâ€™ in artikel 1:3 lid 1 Awb.}&#13;&#10;&#13;&#10;Aanvrager wordt als term wel gebruikt in de Awb. In de Awb is er geen definitie gegeven. Ik heb hier dus ook geen verwijzing voor. Ik heb wel een reden gevonden waarom de Awb het in een aantal artikelen wel over aanvrager heeft. Dat is omdat een aanvrager niet altijd de belanghebbende is. Zie T&amp;C Awb, commentaar op art. 3:13 Awb, J. Verbeek." />
+      <ref role="mu3Ux" node="6qUJKUPIdlV" resolve="indienen" />
+      <ref role="mu5$L" node="6qUJKUPIdf7" resolve="belanghebbende" />
+      <ref role="mu3Ts" node="6qUJKUPIdfm" resolve="verzoek een besluit te nemen" />
+      <ref role="mu3To" node="6qUJKUPIdem" resolve="bestuursorgaan" />
+      <node concept="1FQA6B" id="6qUJKUPIdlW" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdf$" resolve="aanvraag" />
       </node>
-      <node concept="2cz2WB" id="27H3E6IuN8e" role="mu1cf">
-        <ref role="2cz2WA" node="27H3E6IuN8f" resolve="bepalen hoogte betaling" />
+      <node concept="2cz2WB" id="6qUJKUPIdlX" role="mu1cf">
+        <ref role="2cz2WA" node="6qUJKUPIdlY" resolve="schriftelijk indienen aanvraag" />
       </node>
-      <node concept="cog_b" id="27H3E6IuN8g" role="mu1ck">
-        <property role="1FEjNx" value="de subsidieontvanger dient uiterlijk 1 oktober van ieder kalenderjaar een verantwoording in waarin is beschreven: 1. welke activiteiten als bedoeld onder b, daadwerkelijk zijn uitgevoerd; 2.welke wijzigingen als bedoeld onder d, e en f hebben plaatsgevonden en waarom;" />
-        <ref role="cog$q" node="27H3E6IuN6w" resolve="art. 3.11 h SVNL" />
+      <node concept="2cz2WB" id="6qUJKUPIdlZ" role="mu1cf">
+        <ref role="2cz2WA" node="6qUJKUPIdm0" resolve="aanvraag indienen bij bevoegd bestuursorgaan" />
       </node>
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN8i" role="cu0BP">
-      <property role="TrG5h" value="beoordelen" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN8n" role="cu0BP">
-      <property role="TrG5h" value="agrarisch collectief heeft subsidie ANLb ontvangen in betreffende provincie" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN8p" role="cu0BP">
-      <property role="TrG5h" value="agrarisch collectief heeft een certificaat collectief agrarisch natuurbeheer verkregen van de Stichting certificering SNL voor de gehele subsidieperiode" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN8r" role="cu0BP">
-      <property role="TrG5h" value="Er is een beheerplan" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN8t" role="cu0BP">
-      <property role="TrG5h" value="Wijzigingen zijn ingediend voor 1 oktober van het betreffende jaar" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN8v" role="cu0BP">
-      <property role="TrG5h" value="Meldingen zijn gedaan uiterlijk op 20 september van het lopende jaar" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN8x" role="cu0BP">
-      <property role="TrG5h" value="Gecontroleerd is dat het minimale percentage dat genoemd is, is gehaald in de betreffende beheeractiviteit qua oppervlakte" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN8z" role="cu0BP">
-      <property role="TrG5h" value="Vastgesteld is dat de reden van de wijziging van de beheeractiviteit geoorloofd is" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
-    <node concept="cu0$f" id="27H3E6IuN8_" role="cu0BP">
-      <property role="TrG5h" value="Vastgesteld is dat de wijziging of melding is toegestaan" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
-    <node concept="mu5$5" id="27H3E6IuN8h" role="m3s6u">
-      <property role="TrG5h" value="beoordelen betalingsaanvraag" />
-      <ref role="mu3Ux" node="27H3E6IuN8i" resolve="beoordelen" />
-      <ref role="mu5$L" node="27H3E6IuN7u" resolve="RVO" />
-      <ref role="mu3Ts" node="27H3E6IuN77" resolve="betalingsaanvraag" />
-      <ref role="mu3To" node="27H3E6IuN76" resolve="agrarisch collectief" />
-      <node concept="cvrD0" id="27H3E6IuN8j" role="mu3T0">
-        <node concept="cH3hJ" id="27H3E6IuN8k" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IuN8l" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN7M" resolve="verantwoording" />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN8m" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN8n" resolve="agrarisch collectief heeft subsidie ANLb ontvangen in betreffende provincie" />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN8o" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN8p" resolve="agrarisch collectief heeft een certificaat collectief agrarisch natuurbeheer verkregen van de Stichting certificering SNL voor de gehele subsidieperiode" />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN8q" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN8r" resolve="Er is een beheerplan" />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN8s" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN8t" resolve="Wijzigingen zijn ingediend voor 1 oktober van het betreffende jaar" />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN8u" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN8v" resolve="Meldingen zijn gedaan uiterlijk op 20 september van het lopende jaar" />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN8w" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN8x" resolve="Gecontroleerd is dat het minimale percentage dat genoemd is, is gehaald in de betreffende beheeractiviteit qua oppervlakte" />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN8y" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN8z" resolve="Vastgesteld is dat de reden van de wijziging van de beheeractiviteit geoorloofd is" />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN8$" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN8_" resolve="Vastgesteld is dat de wijziging of melding is toegestaan" />
-        </node>
-        <node concept="1FQA6B" id="27H3E6IuN8A" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IuN6y" resolve="controles op de beschikking tot subsidieverlening" />
+      <node concept="2cz2WB" id="6qUJKUPIdm1" role="mu1cf">
+        <ref role="2cz2WA" node="6qUJKUPIdm2" resolve="aanvraag ondertekenen en naam aanvrager, adres, dagtekening en aanduiding doen bevatten" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdm3" role="mu1cf">
+        <ref role="2cz2WA" node="6qUJKUPIdm4" resolve="verschaffen gegevens nodig om besluit te nemen" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdm5" role="mu1cf">
+        <ref role="2cz2WA" node="6qUJKUPIdm6" resolve="vergaren nodige kennis" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdm7" role="mu1cf">
+        <ref role="2cz2WA" node="6qUJKUPIdm8" resolve="besluit berust op deugdelijke motivering" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdm9" role="mu1cf">
+        <ref role="2cz2WA" node="6qUJKUPIdma" resolve="beschikking geven binnen termijn" />
+      </node>
+      <node concept="cvrD0" id="6qUJKUPIdmb" role="mu3T0">
+        <node concept="cH3hw" id="6qUJKUPIdmc" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdmd" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdfU" resolve="bij wettelijk voorschrift is anders bepaald" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IuN8C" role="cu0BP">
-      <property role="TrG5h" value="uitbetalen" />
+    <node concept="cu0$f" id="6qUJKUPIdmf" role="cu0BP">
+      <property role="TrG5h" value="bekendmaken" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="mu5$5" id="27H3E6IuN8B" role="m3s6u">
-      <property role="TrG5h" value="Uitbetalen subsidie ANLb" />
-      <ref role="mu3Ux" node="27H3E6IuN8C" resolve="uitbetalen" />
-      <ref role="mu5$L" node="27H3E6IuN7u" resolve="RVO" />
-      <ref role="mu3Ts" node="27H3E6IuN6O" resolve="subsidie ANLb" />
-      <ref role="mu3To" node="27H3E6IuN76" resolve="agrarisch collectief" />
+    <node concept="2cz0EU" id="6qUJKUPIdmp" role="2cADMD">
+      <property role="TrG5h" value="besluit om de aanvraag niet te behandelen wordt bekendgemaakt binnen vier weken nadat de aanvraag is aangevuld of nadat de daarvoor gestelde termijn ongebruikt is verstreken" />
+      <ref role="2cBO5V" node="6qUJKUPIdms" resolve="besluiten de aanvraag niet te behandelen" />
+      <ref role="2cz2Wc" node="6qUJKUPIdem" resolve="bestuursorgaan" />
+      <ref role="2cz2We" node="6qUJKUPIdfG" resolve="aanvrager" />
+      <ref role="2cBO5Z" node="6qUJKUPIdpY" resolve="bekendmaken besluit" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN8E" role="cu0BP">
+    <node concept="mu5$5" id="6qUJKUPIdme" role="m3s6u">
+      <property role="TrG5h" value="bekendmaken van een besluit" />
+      <property role="3ANC2_" value="Artikel 3.40 Awb impliceert dat het bestuursorgaan dat bevoegd is een besluit te nemen, ook bevoegd is het besluit bekend maken. Ook al staat dat er niet expliciet, dat is de interpretatie die hier gekozen is.&#13;&#10;&#13;&#10;Het kan natuurlijk altijd dat er regels zijn die andere(n) (bestuursorga(a)n(en)) toestaan om een besluit bekend te maken, of regels die de bevoegdheid om besluiten bekend te maken beperken. Die regels hebben we nog niet gevonden.&#13;&#10;Artikel 3.41 Awb gaat over de wijze waarop het bekendmaken gebeurt." />
+      <ref role="mu3Ux" node="6qUJKUPIdmf" resolve="bekendmaken" />
+      <ref role="mu5$L" node="6qUJKUPIdem" resolve="bestuursorgaan" />
+      <ref role="mu3Ts" node="6qUJKUPIdfa" resolve="besluit" />
+      <ref role="mu3To" node="6qUJKUPIdf7" resolve="belanghebbende" />
+      <node concept="1FQA6B" id="6qUJKUPIdmg" role="mu1c7">
+        <ref role="1FQA6$" node="6qUJKUPIdf$" resolve="aanvraag" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdmh" role="mu1c7">
+        <ref role="2cz2WA" node="6qUJKUPIdlY" resolve="schriftelijk indienen aanvraag" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdmi" role="mu1c7">
+        <ref role="2cz2WA" node="6qUJKUPIdm0" resolve="aanvraag indienen bij bevoegd bestuursorgaan" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdmj" role="mu1c7">
+        <ref role="2cz2WA" node="6qUJKUPIdm2" resolve="aanvraag ondertekenen en naam aanvrager, adres, dagtekening en aanduiding doen bevatten" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdmk" role="mu1c7">
+        <ref role="2cz2WA" node="6qUJKUPIdm4" resolve="verschaffen gegevens nodig om besluit te nemen" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdml" role="mu1c7">
+        <ref role="2cz2WA" node="6qUJKUPIdm6" resolve="vergaren nodige kennis" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdmm" role="mu1c7">
+        <ref role="2cz2WA" node="6qUJKUPIdm8" resolve="besluit berust op deugdelijke motivering" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdmn" role="mu1c7">
+        <ref role="2cz2WA" node="6qUJKUPIdma" resolve="beschikking geven binnen termijn" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdmo" role="mu1c7">
+        <ref role="2cz2WA" node="6qUJKUPIdmp" resolve="besluit om de aanvraag niet te behandelen wordt bekendgemaakt binnen vier weken nadat de aanvraag is aangevuld of nadat de daarvoor gestelde termijn ongebruikt is verstreken" />
+      </node>
+      <node concept="1FQA6B" id="6qUJKUPIdmq" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdfl" resolve="besluit treedt in werking" />
+      </node>
+      <node concept="1FQA6B" id="6qUJKUPIdmr" role="mu3T0">
+        <ref role="1FQA6$" node="6qUJKUPIdf$" resolve="aanvraag" />
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdmt" role="cu0BP">
+      <property role="TrG5h" value="besluiten niet te behandelen" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdms" role="m3s6u">
+      <property role="TrG5h" value="besluiten de aanvraag niet te behandelen" />
+      <property role="3ANC2_" value="Hoe omgaan met voorwaarde [besluit om de aanvraag niet te behandelen wordt aan de aanvrager bekendgemaakt binnen vier weken nadat de aanvraag is aangevuld of nadat de daarvoor gestelde termijn ongebruikt is verstreken]?&#13;&#10;&#13;&#10;Het besluit is nog niet bekendgemaakt op het moment dat het wordt genomen. Kan dat dan wel als voorwaarde voor het nemen van een besluit worden gesteld?&#13;&#10;(Ik zou zeggen dat dat wel kan. Bij het nemen van het besluit wordt ervan uitgegaan dat het besluit binnen de termijn wordt bekendgemaakt. Als later blijkt dat dat toch niet is gebeurd, kunnen belanghebbenden immuniteit tegen het besluit claimen.)&#13;&#10;&#13;&#10;Nav vraag of je wel aanvrager moet egbruiken als deze term niet wordt gedefinieerd in de Awb.&#13;&#10;Aanvrager wordt als term wel gebruikt in de Awb. In de Awb is er geen definitie gegeven. Ik heb hier dus ook geen verwijzing voor. Ik heb wel een reden gevonden waarom de Awb het in een aantal artikelen wel over aanvrager heeft. Dat is omdat een aanvrager niet altijd de belanghebbende is. Zie T&amp;C Awb, commentaar op art. 3:13 Awb, J. Verbeek." />
+      <ref role="mu3Ux" node="6qUJKUPIdmt" resolve="besluiten niet te behandelen" />
+      <ref role="mu5$L" node="6qUJKUPIdem" resolve="bestuursorgaan" />
+      <ref role="mu3Ts" node="6qUJKUPIdf$" resolve="aanvraag" />
+      <ref role="mu3To" node="6qUJKUPIdf7" resolve="belanghebbende" />
+      <node concept="1FQA6B" id="6qUJKUPIdmu" role="mu1c7">
+        <ref role="1FQA6$" node="6qUJKUPIdf$" resolve="aanvraag" />
+      </node>
+      <node concept="1FQA6B" id="6qUJKUPIdmv" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdfc" resolve="besluit tot niet in behandeling nemen aanvraag" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdmw" role="mu1cf">
+        <ref role="2cz2WA" node="6qUJKUPIdmp" resolve="besluit om de aanvraag niet te behandelen wordt bekendgemaakt binnen vier weken nadat de aanvraag is aangevuld of nadat de daarvoor gestelde termijn ongebruikt is verstreken" />
+      </node>
+      <node concept="cvrD0" id="6qUJKUPIdmx" role="mu3T0">
+        <node concept="cH3hJ" id="6qUJKUPIdmy" role="1FQA6W" />
+        <node concept="cvrD0" id="6qUJKUPIdmz" role="1FQA6S">
+          <node concept="cH3hB" id="6qUJKUPIdm$" role="1FQA6W" />
+          <node concept="cvrD0" id="6qUJKUPIdm_" role="1FQA6S">
+            <node concept="cH3hw" id="6qUJKUPIdmA" role="1FQA6W" />
+            <node concept="1FQA6B" id="6qUJKUPIdmB" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIdfR" resolve="aanvrager heeft voldaan aan enig wettelijk voorschrift voor het in behandeling nemen van de aanvraag" />
+            </node>
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdmC" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdfP" resolve="aanvraag geheel of gedeeltelijk is geweigerd op grond van artikel 2:15 Awb" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdmD" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdfb" resolve="verstrekte gegevens en bescheiden zijn onvoldoende voor de beoordeling van de aanvraag of voor de voorbereiding van de beschikking" />
+          </node>
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdmE" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdfQ" resolve="aanvrager heeft de gelegenheid gehad de aanvraag aan te vullen" />
+        </node>
+        <node concept="cvrD0" id="6qUJKUPIdmF" role="1FQA6S">
+          <node concept="cH3hB" id="6qUJKUPIdmG" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdmH" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdfp" resolve="de aanvraag is binnen de afgelopen 4 weken aangevuld" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdmI" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdfq" resolve="gestelde termijn voor aanvulling is ongebruikt verstreken" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdmK" role="cu0BP">
       <property role="TrG5h" value="vaststellen" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN8F" role="cu0BP">
-      <property role="TrG5h" value="provincie" />
+    <node concept="mu5$5" id="6qUJKUPIdmJ" role="m3s6u">
+      <property role="TrG5h" value="vaststellen formulier voor verstrekken van gegevens" />
+      <property role="3ANC2_" value="Heeft het expliciet beschrijven van deze handeling een functie? (Zo ja, welke?)" />
+      <ref role="mu3Ux" node="6qUJKUPIdmK" resolve="vaststellen" />
+      <ref role="mu5$L" node="6qUJKUPIdem" resolve="bestuursorgaan" />
+      <ref role="mu3Ts" node="6qUJKUPIdfn" resolve="formulier" />
+      <ref role="mu3To" node="6qUJKUPIdfG" resolve="aanvrager" />
+      <node concept="1FQA6B" id="6qUJKUPIdmL" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdfo" resolve="formulier voor het verstrekken van gegevens" />
+      </node>
+      <node concept="cvrD0" id="6qUJKUPIdmM" role="mu3T0">
+        <node concept="cH3hJ" id="6qUJKUPIdmN" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdmO" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdfT" resolve="bestuursorgaan is bevoegd op de aanvraag te beslissen" />
+        </node>
+        <node concept="cvrD0" id="6qUJKUPIdmP" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIdmQ" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdmR" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdfV" resolve="formulier is bij wettelijk voorschrift voorzien" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdmT" role="cu0BP">
+      <property role="TrG5h" value="verstrekken" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="cu0$f" id="27H3E6IuN8G" role="cu0BP">
-      <property role="TrG5h" value="natuurbeheerplan" />
+    <node concept="2cz0EU" id="6qUJKUPIdmW" role="2cADMD">
+      <property role="TrG5h" value="minister van OCW besluit binnen acht weken na het sluiten van de aanvraagtermijn" />
+      <ref role="2cz2Wc" node="6qUJKUPIdkA" resolve="Leraar educatie en beroepsonderwijs" />
+      <ref role="2cBO5V" node="6qUJKUPIdq4" resolve="aanvraag bevat adres van de aanvrager" />
+    </node>
+    <node concept="2cz0EU" id="6qUJKUPIdn0" role="2cADMD">
+      <property role="TrG5h" value="minister van OCW berekent de hoogte van de subsidie voor studiekosten" />
+      <ref role="2cz2Wc" node="6qUJKUPIAfe" resolve="Het minimumloon bedraagt € 1653,60 per maand" />
+      <ref role="2cBO5V" node="6qUJKUPIdlY" resolve="schriftelijk indienen aanvraag" />
+    </node>
+    <node concept="2cz0EU" id="6qUJKUPIdn2" role="2cADMD">
+      <property role="TrG5h" value="subsidiebedrag wordt uitbetaald aan subsidieontvanger voordat de opleiding waar de subsidie betrekking op heeft aanvangt" />
+      <ref role="2cz2Wc" node="6qUJKUPIdkW" resolve="Leraar voortgezet onderwijs BES" />
+      <ref role="2cBO5V" node="6qUJKUPIdq4" resolve="aanvraag bevat adres van de aanvrager" />
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdmS" role="m3s6u">
+      <property role="TrG5h" value="minister verstrekt subsidie lerarenbeurs aan leraar" />
+      <property role="3ANC2_" value="Definitie bachelor en masteropleidingen in art. 1 definities stellen eisen aan land en status/erkenning opleiding.&#13;&#10;&#13;&#10;Bevat het besluit ook de hoogte van het subsidiebedrag? In de beschikking staat dit bedrag wel, de vraag is of we het modelleren als een aparte handeling.&#13;&#10;&#13;&#10;Dit is een lastig punt:&#13;&#10;- om te kunnen besluiten de subsidie te verlenen moet je weten hoe hoog het bedrag is (om vast te stellen of er nog budget is*)&#13;&#10;- waarom zou je berekenen hoe hoog de subsidie is als je nog niet weet of iemand in aanmerking komt voor subsidie&#13;&#10;- de berekening van de hoogte van het bedrag is in een apart artikel geregeld&#13;&#10;- de subsidie voor studieverlof aan bevoegd gezag wordt apart verstrekt, maar dit bedrag is wel nodig om te kunnen vaststellen of er nog budget is.&#13;&#10;&#13;&#10;Er zijn geen aparte gronden voor afwijzing en buiten behandeling stellen. Impliceert dat, dat wordt afgewezen als niet wordt voldaan aan een voorwaarde voor verstrekken, en alleen buiten behandeling wordt gesteld op grond van art. 4:5 Awb?&#13;&#10;Antwoord 10 juli 2019: &#13;&#10;Rani: Ja, zie artikel 4:31 Awb (In Github de verkeerde verwijzing. Dit moet art 4:35 zijn, want hier staan de algemene afwijzingsgronden)&#13;&#10;na overleg met Robert: Dit zijn 2 besluiten die je bekent maakt in 1 document. Vgl. meeromvattende beschikking Vw 2000. &#13;&#10;Nav deze vraag en antwoord is artikel 4:35 Awb gemodelleerd&#13;&#10;&#13;&#10;Als de leraar geen subsidie voor studiekosten ontvangt omdat deze al op andere wijze van de minister een tegemoetkoming in de studiekosten ontvangt, wordt dan ook de subsidie op de kosten van studieverlof geweigerd (art. 10 Slb)?&#13;&#10;Antwoord 29 augustus 2019:&#13;&#10;Rani: Uit de toelichting bij artikel 10 Sls haal ik dat de wet studiefinanciering 200 en de wet Wet Tegemoetkoming Onderwijsbijdrage en Studiekosten de wetten zijn waar artikel 10 het over heeft. In die wetten zie ik geen mogelijkheden om studieverlof toe te kennen. Op basis hiervan meen ik dat de aanvraag van subsidie voor studieverlof niet afgewezen hoeft te worden als de subsidie voor studiekosten wordt afgewezen.&#13;&#10;&#13;&#10;*)  Het bepalen of er nog budget is, doe je in de praktijk alleen als het budget bijna op is. En alleen als het budget bijna op is, is de volgorde van indienen relevant." />
+      <ref role="mu3Ux" node="6qUJKUPIdmT" resolve="verstrekken" />
+      <ref role="mu5$L" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <ref role="mu3Ts" node="6qUJKUPIdh2" resolve="subsidie lerarenbeurs" />
+      <ref role="mu3To" node="6qUJKUPIdj$" resolve="leraar" />
+      <node concept="1FQA6B" id="6qUJKUPIdmU" role="mu1c7">
+        <ref role="1FQA6$" node="6qUJKUPIdf$" resolve="aanvraag" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdmV" role="mu1c7">
+        <ref role="2cz2WA" node="6qUJKUPIdmW" resolve="minister van OCW besluit binnen acht weken na het sluiten van de aanvraagtermijn" />
+      </node>
+      <node concept="1FQA6B" id="6qUJKUPIdmX" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdfa" resolve="besluit" />
+      </node>
+      <node concept="1FQA6B" id="6qUJKUPIdmY" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdls" resolve="besluit tot verlenen subsidie voor studiekosten van een leraar in verband met het volgen van een opleiding" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdmZ" role="mu1cf">
+        <ref role="2cz2WA" node="6qUJKUPIdn0" resolve="minister van OCW berekent de hoogte van de subsidie voor studiekosten" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdn1" role="mu1cf">
+        <ref role="2cz2WA" node="6qUJKUPIdn2" resolve="subsidiebedrag wordt uitbetaald aan subsidieontvanger voordat de opleiding waar de subsidie betrekking op heeft aanvangt" />
+      </node>
+      <node concept="1FQA6B" id="6qUJKUPIdn3" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdh0" resolve="minister verstrekt subsidie lerarenbeurs aan bevoegd gezag" />
+      </node>
+      <node concept="cvrD0" id="6qUJKUPIdn4" role="mu3T0">
+        <node concept="cH3hJ" id="6qUJKUPIdn5" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdn6" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdf$" resolve="aanvraag" />
+        </node>
+        <node concept="cvrD0" id="6qUJKUPIdn7" role="1FQA6S">
+          <node concept="cH3hJ" id="6qUJKUPIdn8" role="1FQA6W" />
+          <node concept="cvrD0" id="6qUJKUPIdn9" role="1FQA6S">
+            <node concept="cH3hB" id="6qUJKUPIdna" role="1FQA6W" />
+            <node concept="1FQA6B" id="6qUJKUPIdnb" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIdg4" resolve="subsidie voor bacheloropleiding leraar" />
+            </node>
+            <node concept="1FQA6B" id="6qUJKUPIdnc" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIdg5" resolve="subsidie voor masteropleiding leraar" />
+            </node>
+            <node concept="1FQA6B" id="6qUJKUPIdnd" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIdg6" resolve="subsidie voor deficiëntieopleidingen leraar" />
+            </node>
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdne" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdge" resolve="leraar voldoet aan de subsidiecriteria" />
+          </node>
+          <node concept="cvrD0" id="6qUJKUPIdnf" role="1FQA6S">
+            <node concept="cH3hB" id="6qUJKUPIdng" role="1FQA6W" />
+            <node concept="1FQA6B" id="6qUJKUPIdnh" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIdg9" resolve="subsidie wordt verstrekt voor één studiejaar en voor één opleiding" />
+            </node>
+            <node concept="1FQA6B" id="6qUJKUPIdni" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIdgL" resolve="uitzondering waarbij subsidie wordt verstrekt voor tweede opleiding" />
+            </node>
+            <node concept="1FQA6B" id="6qUJKUPIdnj" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIdgM" resolve="opleiding met studielast van 60 studiepunten waarvoor ten hoogste twee maal subsidie wordt verstrekt" />
+            </node>
+            <node concept="1FQA6B" id="6qUJKUPIdnk" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIdgN" resolve="opleiding met studielast van meer dan 60 studiepunten waarvoor ten hoogste drie maal subsidie wordt verstrekt" />
+            </node>
+          </node>
+          <node concept="cvrD0" id="6qUJKUPIdnl" role="1FQA6S">
+            <node concept="cH3hw" id="6qUJKUPIdnm" role="1FQA6W" />
+            <node concept="1FQA6B" id="6qUJKUPIdnn" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIdgO" resolve="leraar ontvangt van de minister een tegemoetkoming in de studiekosten voor het volgen van de opleiding" />
+            </node>
+          </node>
+          <node concept="cvrD0" id="6qUJKUPIdno" role="1FQA6S">
+            <node concept="cH3hJ" id="6qUJKUPIdnp" role="1FQA6W" />
+            <node concept="1FQA6B" id="6qUJKUPIdnq" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIdgP" resolve="minister verdeelt het beschikbare bedrag per doelgroep over de aanvragen" />
+            </node>
+            <node concept="cvrD0" id="6qUJKUPIdnr" role="1FQA6S">
+              <node concept="cH3hw" id="6qUJKUPIdns" role="1FQA6W" />
+              <node concept="1FQA6B" id="6qUJKUPIdnt" role="1FQA6S">
+                <ref role="1FQA6$" node="6qUJKUPIdgU" resolve="budget volledig benut" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2cz0EU" id="6qUJKUPIdnx" role="2cADMD">
+      <property role="TrG5h" value="minister van OCW berekent de hoogte van de subsidie voor studieverlof" />
+      <ref role="2cz2Wc" node="6qUJKUPIdl8" resolve="Leraar educatie en beroepsonderwijs BES" />
+      <ref role="2cBO5V" node="6qUJKUPIdqk" resolve="Regeling BWBR0039319 wordt aangehaald als Subsidieregeling lerarenbeurs" />
+    </node>
+    <node concept="2cz0EU" id="6qUJKUPIdn_" role="2cADMD">
+      <property role="TrG5h" value="bekend maken besluit" />
+      <ref role="2cz2Wc" node="6qUJKUPIdkA" resolve="Leraar educatie en beroepsonderwijs" />
+      <ref role="2cBO5V" node="6qUJKUPIdqk" resolve="Regeling BWBR0039319 wordt aangehaald als Subsidieregeling lerarenbeurs" />
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdnu" role="m3s6u">
+      <property role="TrG5h" value="minister verstrekt subsidie lerarenbeurs aan bevoegd gezag" />
+      <ref role="mu3Ux" node="6qUJKUPIdmT" resolve="verstrekken" />
+      <ref role="mu5$L" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <ref role="mu3Ts" node="6qUJKUPIdh2" resolve="subsidie lerarenbeurs" />
+      <ref role="mu3To" node="6qUJKUPIdhf" resolve="bevoegd gezag" />
+      <node concept="1FQA6B" id="6qUJKUPIdnv" role="mu1c7">
+        <ref role="1FQA6$" node="6qUJKUPIdf$" resolve="aanvraag" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdnw" role="mu1c7">
+        <ref role="2cz2WA" node="6qUJKUPIdnx" resolve="minister van OCW berekent de hoogte van de subsidie voor studieverlof" />
+      </node>
+      <node concept="1FQA6B" id="6qUJKUPIdny" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdlr" resolve="besluit tot verlenen subsidie voor kosten in verband met het verlenen van studieverlof aan de leraar" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdnz" role="mu1cf">
+        <ref role="2cz2WA" node="6qUJKUPIdn2" resolve="subsidiebedrag wordt uitbetaald aan subsidieontvanger voordat de opleiding waar de subsidie betrekking op heeft aanvangt" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdn$" role="mu1cf">
+        <ref role="2cz2WA" node="6qUJKUPIdn_" resolve="bekend maken besluit" />
+      </node>
+      <node concept="cvrD0" id="6qUJKUPIdnA" role="mu3T0">
+        <node concept="cH3hJ" id="6qUJKUPIdnB" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdnC" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdf$" resolve="aanvraag" />
+        </node>
+        <node concept="cvrD0" id="6qUJKUPIdnD" role="1FQA6S">
+          <node concept="cH3hJ" id="6qUJKUPIdnE" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdnF" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdls" resolve="besluit tot verlenen subsidie voor studiekosten van een leraar in verband met het volgen van een opleiding" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdnG" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdgX" resolve="leraar is in dienst bij het bevoegd gezag" />
+          </node>
+          <node concept="cvrD0" id="6qUJKUPIdnH" role="1FQA6S">
+            <node concept="cH3hJ" id="6qUJKUPIdnI" role="1FQA6W" />
+            <node concept="1FQA6B" id="6qUJKUPIdnJ" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIdgP" resolve="minister verdeelt het beschikbare bedrag per doelgroep over de aanvragen" />
+            </node>
+            <node concept="cvrD0" id="6qUJKUPIdnK" role="1FQA6S">
+              <node concept="cH3hw" id="6qUJKUPIdnL" role="1FQA6W" />
+              <node concept="1FQA6B" id="6qUJKUPIdnM" role="1FQA6S">
+                <ref role="1FQA6$" node="6qUJKUPIdgU" resolve="budget volledig benut" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdnO" role="cu0BP">
+      <property role="TrG5h" value="vragen" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="mu5$5" id="27H3E6IuN8D" role="m3s6u">
-      <property role="TrG5h" value="Vaststellen natuurbeheerplan" />
-      <ref role="mu3Ux" node="27H3E6IuN8E" resolve="vaststellen" />
-      <ref role="mu5$L" node="27H3E6IuN8F" resolve="provincie" />
-      <ref role="mu3Ts" node="27H3E6IuN8G" resolve="natuurbeheerplan" />
+    <node concept="mu5$5" id="6qUJKUPIdnN" role="m3s6u">
+      <property role="TrG5h" value="leraar vraagt subsidie voor studiekosten aan" />
+      <ref role="mu3Ux" node="6qUJKUPIdnO" resolve="vragen" />
+      <ref role="mu5$L" node="6qUJKUPIdj$" resolve="leraar" />
+      <ref role="mu3Ts" node="6qUJKUPIdfL" resolve="ingevuld aanvraagformulier studiekosten op de website van de Dienst Uitvoering Onderwijs" />
+      <ref role="mu3To" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <node concept="1FQA6B" id="6qUJKUPIdnP" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdf$" resolve="aanvraag" />
+      </node>
+      <node concept="1FQA6B" id="6qUJKUPIdnQ" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdf_" resolve="aanvraag subsidieverlening" />
+      </node>
+      <node concept="1FQA6B" id="6qUJKUPIdnR" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdfA" resolve="aanvraag subsidie voor studiekosten" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdnS" role="mu1cf">
+        <ref role="2cz2WA" node="6qUJKUPIdmW" resolve="minister van OCW besluit binnen acht weken na het sluiten van de aanvraagtermijn" />
+      </node>
+      <node concept="cvrD0" id="6qUJKUPIdnT" role="mu3T0">
+        <node concept="cH3hJ" id="6qUJKUPIdnU" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdnV" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdfC" resolve="aanvraagformulieren studiekosten op de website van de Dienst Uitvoering Onderwijs" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdnW" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdfH" resolve="indienen 1 april tot en met 30 juni, voorafgaand aan het studiejaar waarvoor subsidie wordt aangevraagd" />
+        </node>
+      </node>
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdnX" role="m3s6u">
+      <property role="TrG5h" value="leraar vraagt subsidie voor studieverlof voor het bevoegd gezag" />
+      <ref role="mu3Ux" node="6qUJKUPIdnO" resolve="vragen" />
+      <ref role="mu5$L" node="6qUJKUPIdj$" resolve="leraar" />
+      <ref role="mu3Ts" node="6qUJKUPIdfM" resolve="ingevuld aanvraagformulier studieverlof op de website van de Dienst Uitvoering Onderwijs" />
+      <ref role="mu3To" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <node concept="1FQA6B" id="6qUJKUPIdnY" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdf$" resolve="aanvraag" />
+      </node>
+      <node concept="1FQA6B" id="6qUJKUPIdnZ" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdf_" resolve="aanvraag subsidieverlening" />
+      </node>
+      <node concept="1FQA6B" id="6qUJKUPIdo0" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdfB" resolve="aanvraag subsidie voor studieverlof" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdo1" role="mu1cf">
+        <ref role="2cz2WA" node="6qUJKUPIdmW" resolve="minister van OCW besluit binnen acht weken na het sluiten van de aanvraagtermijn" />
+      </node>
+      <node concept="cvrD0" id="6qUJKUPIdo2" role="mu3T0">
+        <node concept="cH3hJ" id="6qUJKUPIdo3" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdo4" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdfF" resolve="aanvraagformulieren studieverlof op de website van de Dienst Uitvoering Onderwijs" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdo5" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdfH" resolve="indienen 1 april tot en met 30 juni, voorafgaand aan het studiejaar waarvoor subsidie wordt aangevraagd" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdo7" role="cu0BP">
+      <property role="TrG5h" value="terugvorderen" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdo6" role="m3s6u">
+      <property role="TrG5h" value="De minister van OCW kan de subsidie voor studiekosten terugvorderen indien de leraar in de subsidieperiode minder dan vijftien studiepunten behaalt" />
+      <ref role="mu3Ux" node="6qUJKUPIdo7" resolve="terugvorderen" />
+      <ref role="mu5$L" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <ref role="mu3Ts" node="6qUJKUPIdg7" resolve="subsidie voor studiekosten" />
+      <ref role="mu3To" node="6qUJKUPIdj$" resolve="leraar" />
+      <node concept="1FQA6B" id="6qUJKUPIdo8" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdly" resolve="terugvordering" />
+      </node>
+      <node concept="cvrD0" id="6qUJKUPIdo9" role="mu3T0">
+        <node concept="cH3hJ" id="6qUJKUPIdoa" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdob" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdls" resolve="besluit tot verlenen subsidie voor studiekosten van een leraar in verband met het volgen van een opleiding" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdoc" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdlA" resolve="leraar heeft minder dan 15 studiepunten gehaald" />
+        </node>
+      </node>
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdod" role="m3s6u">
+      <property role="TrG5h" value="De minister van OCW kan de subsidie voor studiekosten terugvorderen indien de leraar binnen twee maanden na het verstrekken van de subsidie de aanvraag voor studieverlof of de aanvraag voor studiekosten intrekt" />
+      <property role="3ANC2_" value="[leraar heeft binnen 2 maanden na verstrekking van de subsidie de aanvraag voor subsidie ingetrokken]  is naar mijn mening ook een preconditie. Als de leraar zijn aanvraag niet intrekt binnen 2 maanden, kan de minister geen subsidie terugvorderen." />
+      <ref role="mu3Ux" node="6qUJKUPIdo7" resolve="terugvorderen" />
+      <ref role="mu5$L" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <ref role="mu3Ts" node="6qUJKUPIdg7" resolve="subsidie voor studiekosten" />
+      <ref role="mu3To" node="6qUJKUPIdj$" resolve="leraar" />
+      <node concept="1FQA6B" id="6qUJKUPIdoe" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdly" resolve="terugvordering" />
+      </node>
+      <node concept="cvrD0" id="6qUJKUPIdof" role="mu3T0">
+        <node concept="cH3hJ" id="6qUJKUPIdog" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdoh" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdls" resolve="besluit tot verlenen subsidie voor studiekosten van een leraar in verband met het volgen van een opleiding" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdoi" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdlC" resolve="leraar heeft binnen 2 maanden na verstrekking van de subsidie de aanvraag voor subsidie ingetrokken" />
+        </node>
+      </node>
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdoj" role="m3s6u">
+      <property role="TrG5h" value="minister vordert subsidie voor studieverlof terug" />
+      <ref role="mu3Ux" node="6qUJKUPIdo7" resolve="terugvorderen" />
+      <ref role="mu5$L" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <ref role="mu3Ts" node="6qUJKUPIdg8" resolve="subsidie voor studieverlof" />
+      <ref role="mu3To" node="6qUJKUPIdhf" resolve="bevoegd gezag" />
+      <node concept="1FQA6B" id="6qUJKUPIdok" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdly" resolve="terugvordering" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdol" role="mu1cf">
+        <ref role="2cz2WA" node="6qUJKUPIdn_" resolve="bekend maken besluit" />
+      </node>
+      <node concept="1FQA6B" id="6qUJKUPIdom" role="mu3T0">
+        <ref role="1FQA6$" node="6qUJKUPIdlr" resolve="besluit tot verlenen subsidie voor kosten in verband met het verlenen van studieverlof aan de leraar" />
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdoo" role="cu0BP">
+      <property role="TrG5h" value="treffen" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdon" role="m3s6u">
+      <property role="TrG5h" value="minister treft betalingsregeling voor het terugbetalen van de subsidie voor studiekosten" />
+      <ref role="mu3Ux" node="6qUJKUPIdoo" resolve="treffen" />
+      <ref role="mu5$L" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <ref role="mu3Ts" node="6qUJKUPIdlL" resolve="betalingsregeling voor het terugbetalen van de subsidie studiekosten" />
+      <ref role="mu3To" node="6qUJKUPIdj$" resolve="leraar" />
+      <node concept="1FQA6B" id="6qUJKUPIdop" role="mu3T0">
+        <ref role="1FQA6$" node="6qUJKUPIdly" resolve="terugvordering" />
+      </node>
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdoq" role="m3s6u">
+      <property role="TrG5h" value="minister vordert kosten van collegegeld, studiemiddelen en reiskosten terug" />
+      <ref role="mu3Ux" node="6qUJKUPIdo7" resolve="terugvorderen" />
+      <ref role="mu5$L" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <ref role="mu3Ts" node="6qUJKUPIdlP" resolve="kosten van collegegeld, studiemiddelen en reiskosten" />
+      <ref role="mu3To" node="6qUJKUPIdj$" resolve="leraar" />
+      <node concept="1FQA6B" id="6qUJKUPIdor" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdly" resolve="terugvordering" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdos" role="mu1cf">
+        <ref role="2cz2WA" node="6qUJKUPIdn_" resolve="bekend maken besluit" />
+      </node>
+      <node concept="1FQA6B" id="6qUJKUPIdot" role="mu3T0">
+        <ref role="1FQA6$" node="6qUJKUPIdls" resolve="besluit tot verlenen subsidie voor studiekosten van een leraar in verband met het volgen van een opleiding" />
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdov" role="cu0BP">
+      <property role="TrG5h" value="verzoeken" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdou" role="m3s6u">
+      <property role="TrG5h" value="minister verzoekt bewijs van betaling van collegegeld" />
+      <property role="3ANC2_" value="Added by Pim" />
+      <ref role="mu3Ux" node="6qUJKUPIdov" resolve="verzoeken" />
+      <ref role="mu5$L" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <ref role="mu3Ts" node="6qUJKUPIdlv" resolve="verzoek tot bewijs van betaling van collegegeld" />
+      <ref role="mu3To" node="6qUJKUPIdj$" resolve="leraar" />
+      <node concept="1FQA6B" id="6qUJKUPIdow" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdlv" resolve="verzoek tot bewijs van betaling van collegegeld" />
+      </node>
+      <node concept="1FQA6B" id="6qUJKUPIdox" role="mu3T0">
+        <ref role="1FQA6$" node="6qUJKUPIdls" resolve="besluit tot verlenen subsidie voor studiekosten van een leraar in verband met het volgen van een opleiding" />
+      </node>
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdoy" role="m3s6u">
+      <property role="TrG5h" value="minister verzoekt bewijs van het behalen van ten minste vijftien studiepunten" />
+      <property role="3ANC2_" value="Added by Pim" />
+      <ref role="mu3Ux" node="6qUJKUPIdov" resolve="verzoeken" />
+      <ref role="mu5$L" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <ref role="mu3Ts" node="6qUJKUPIdlt" resolve="verzoek tot bewijs van het behalen van ten minste vijftien studiepunten" />
+      <ref role="mu3To" node="6qUJKUPIdj$" resolve="leraar" />
+      <node concept="1FQA6B" id="6qUJKUPIdoz" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdlt" resolve="verzoek tot bewijs van het behalen van ten minste vijftien studiepunten" />
+      </node>
+      <node concept="1FQA6B" id="6qUJKUPIdo$" role="mu3T0">
+        <ref role="1FQA6$" node="6qUJKUPIdls" resolve="besluit tot verlenen subsidie voor studiekosten van een leraar in verband met het volgen van een opleiding" />
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdoA" role="cu0BP">
+      <property role="TrG5h" value="overleggen" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdo_" role="m3s6u">
+      <property role="TrG5h" value="leraar overlegt bewijsstuk waaruit blijkt dat hij ten minste vijftien studiepunten heeft gehaald" />
+      <ref role="mu3Ux" node="6qUJKUPIdoA" resolve="overleggen" />
+      <ref role="mu5$L" node="6qUJKUPIdj$" resolve="leraar" />
+      <ref role="mu3Ts" node="6qUJKUPIdlu" resolve="bewijsstuk waaruit blijkt dat hij ten minste vijftien studiepunten heeft gehaald" />
+      <ref role="mu3To" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <node concept="cvrD0" id="6qUJKUPIdoB" role="mu3T0">
+        <node concept="cH3hJ" id="6qUJKUPIdoC" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdoD" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdlt" resolve="verzoek tot bewijs van het behalen van ten minste vijftien studiepunten" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdoE" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdlx" resolve="subsidiebedrag is uitbetaald aan subsidieontvanger voordat de opleiding waar de subsidie betrekking op heeft aanvangt" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdoF" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdgV" resolve="studiejaar waarop subsidie betrekking heeft is voorbij" />
+        </node>
+      </node>
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdoG" role="m3s6u">
+      <property role="TrG5h" value="leraar overlegt bewijsstuk waaruit blijkt dat hij collegegeld heeft betaald" />
+      <ref role="mu3Ux" node="6qUJKUPIdoA" resolve="overleggen" />
+      <ref role="mu5$L" node="6qUJKUPIdj$" resolve="leraar" />
+      <ref role="mu3Ts" node="6qUJKUPIdlw" resolve="bewijsstuk waaruit blijkt dat hij collegegeld heeft betaald" />
+      <ref role="mu3To" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <node concept="cvrD0" id="6qUJKUPIdoH" role="mu3T0">
+        <node concept="cH3hJ" id="6qUJKUPIdoI" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdoJ" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdlv" resolve="verzoek tot bewijs van betaling van collegegeld" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdoK" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdlx" resolve="subsidiebedrag is uitbetaald aan subsidieontvanger voordat de opleiding waar de subsidie betrekking op heeft aanvangt" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdoL" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdgV" resolve="studiejaar waarop subsidie betrekking heeft is voorbij" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdoN" role="cu0BP">
+      <property role="TrG5h" value="intrekken" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdoM" role="m3s6u">
+      <property role="TrG5h" value="leraar trekt aanvraag subsidie voor studieverlof in" />
+      <ref role="mu3Ux" node="6qUJKUPIdoN" resolve="intrekken" />
+      <ref role="mu5$L" node="6qUJKUPIdj$" resolve="leraar" />
+      <ref role="mu3Ts" node="6qUJKUPIdfB" resolve="aanvraag subsidie voor studieverlof" />
+      <ref role="mu3To" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <node concept="1FQA6B" id="6qUJKUPIdoO" role="mu3T0">
+        <ref role="1FQA6$" node="6qUJKUPIdh4" resolve="binnen twee maanden na het verstrekken van de subsidie" />
+      </node>
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdoP" role="m3s6u">
+      <property role="TrG5h" value="leraar trekt aanvraag subsidie voor studiekosten in" />
+      <ref role="mu3Ux" node="6qUJKUPIdoN" resolve="intrekken" />
+      <ref role="mu5$L" node="6qUJKUPIdj$" resolve="leraar" />
+      <ref role="mu3Ts" node="6qUJKUPIdfA" resolve="aanvraag subsidie voor studiekosten" />
+      <ref role="mu3To" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <node concept="1FQA6B" id="6qUJKUPIdoQ" role="mu3T0">
+        <ref role="1FQA6$" node="6qUJKUPIdh4" resolve="binnen twee maanden na het verstrekken van de subsidie" />
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdoS" role="cu0BP">
+      <property role="TrG5h" value="melden" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdoW" role="cu0BP">
+      <property role="TrG5h" value="aan de subsidie verbonden verplichtingen zal worden voldaan" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdoR" role="m3s6u">
+      <property role="TrG5h" value="subsidieontvanger meldt dat niet aan de subsidieverplichtingen zal worden voldaan" />
+      <ref role="mu3Ux" node="6qUJKUPIdoS" resolve="melden" />
+      <ref role="mu5$L" node="6qUJKUPIdlQ" resolve="subsidieontvanger" />
+      <ref role="mu3Ts" node="6qUJKUPIdh5" resolve="niet, niet tijdig of niet geheel aan de subsidieverplichtingen zal worden voldaan" />
+      <ref role="mu3To" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <node concept="cvrD0" id="6qUJKUPIdoT" role="mu3T0">
+        <node concept="cH3hw" id="6qUJKUPIdoU" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdoV" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdoW" resolve="aan de subsidie verbonden verplichtingen zal worden voldaan" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdoY" role="cu0BP">
+      <property role="TrG5h" value="verlenen" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdoX" role="m3s6u">
+      <property role="TrG5h" value="bevoegd gezag verleent studieverlof aan de leraar" />
+      <ref role="mu3Ux" node="6qUJKUPIdoY" resolve="verlenen" />
+      <ref role="mu5$L" node="6qUJKUPIdhf" resolve="bevoegd gezag" />
+      <ref role="mu3Ts" node="6qUJKUPIdf$" resolve="aanvraag" />
+      <ref role="mu3To" node="6qUJKUPIdj$" resolve="leraar" />
+      <node concept="cvrD0" id="6qUJKUPIdoZ" role="mu3T0">
+        <node concept="cH3hJ" id="6qUJKUPIdp0" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdp1" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdg2" resolve="de leraar is in dienst bij het bevoegd gezag" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdp2" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdgZ" resolve="aan deze leraar is subsidie voor studiekosten verleend tenzij voor een opleiding geen collegegeld verschuldigd is" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdp4" role="cu0BP">
+      <property role="TrG5h" value="voldoen aan" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="2cz0EU" id="6qUJKUPIdp6" role="2cADMD">
+      <property role="TrG5h" value="subsidieverplichting voor subsidie voor studieverlof" />
+      <ref role="2cz2Wc" node="6qUJKUPIdl8" resolve="Leraar educatie en beroepsonderwijs BES" />
+      <ref role="2cBO5V" node="6qUJKUPIdq8" resolve="aanvraag bevat aanduiding van de beschikking die wordt gevraagd" />
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdp3" role="m3s6u">
+      <property role="TrG5h" value="bevoegd gezag voldoet aan subsidieverplichting voor subsidie voor studieverlof" />
+      <property role="3ANC2_" value="Hoe zit het met de mogelijkheid om middelen voor subsidieverlof aan andere activiteiten te besteden (art. 24 lid 2 Slb)?" />
+      <ref role="mu3Ux" node="6qUJKUPIdp4" resolve="voldoen aan" />
+      <ref role="mu5$L" node="6qUJKUPIdhf" resolve="bevoegd gezag" />
+      <ref role="mu3Ts" node="6qUJKUPIdgW" resolve="subsidieverplichting voor subsidie voor studieverlof" />
+      <ref role="mu3To" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <node concept="2cz2WB" id="6qUJKUPIdp5" role="mu1c7">
+        <ref role="2cz2WA" node="6qUJKUPIdp6" resolve="subsidieverplichting voor subsidie voor studieverlof" />
+      </node>
+      <node concept="cvrD0" id="6qUJKUPIdp7" role="mu3T0">
+        <node concept="cH3hJ" id="6qUJKUPIdp8" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdp9" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdgY" resolve="bevoegd gezag heeft studieverlof verleend aan de leraar" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdpa" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdh1" resolve="uit de administratie van het bevoegd gezag blijkt dat het studieverlof daadwerkelijk is verleend" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdpc" role="cu0BP">
+      <property role="TrG5h" value="buiten toepassing laten" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdpb" role="m3s6u">
+      <property role="TrG5h" value="minister laat een of meer bepalingen van de subsidieregeling lerarenbeurs buiten toepassing" />
+      <property role="3ANC2_" value="Heb de tekst in de preconditie gelijkgetrokken met de tekst in de facts" />
+      <ref role="mu3Ux" node="6qUJKUPIdpc" resolve="buiten toepassing laten" />
+      <ref role="mu5$L" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <ref role="mu3Ts" node="6qUJKUPIdlR" resolve="een of meer bepalingen van de subsidieregeling lerarenbeurs" />
+      <ref role="mu3To" node="6qUJKUPIdj$" resolve="leraar" />
+      <node concept="1FQA6B" id="6qUJKUPIdpd" role="mu1c7">
+        <ref role="1FQA6$" node="6qUJKUPIdf$" resolve="aanvraag" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdpe" role="mu1cf">
+        <ref role="2cz2WA" node="6qUJKUPIdn_" resolve="bekend maken besluit" />
+      </node>
+      <node concept="1FQA6B" id="6qUJKUPIdpf" role="mu3T0">
+        <ref role="1FQA6$" node="6qUJKUPIdfO" resolve="nadelige gevolgen van een besluit zijn onevenredig in verhouding tot de met het besluit te dienen doelen" />
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdph" role="cu0BP">
+      <property role="TrG5h" value="afwijken van" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdpg" role="m3s6u">
+      <property role="TrG5h" value="minister wijkt af van een of meer bepalingen van de subsidieregeling lerarenbeurs" />
+      <property role="3ANC2_" value="Heb de tekst in de preconditie gelijkgetrokken met de tekst in de facts" />
+      <ref role="mu3Ux" node="6qUJKUPIdph" resolve="afwijken van" />
+      <ref role="mu5$L" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <ref role="mu3Ts" node="6qUJKUPIdlR" resolve="een of meer bepalingen van de subsidieregeling lerarenbeurs" />
+      <ref role="mu3To" node="6qUJKUPIdj$" resolve="leraar" />
+      <node concept="1FQA6B" id="6qUJKUPIdpi" role="mu1c7">
+        <ref role="1FQA6$" node="6qUJKUPIdf$" resolve="aanvraag" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdpj" role="mu1cf">
+        <ref role="2cz2WA" node="6qUJKUPIdn_" resolve="bekend maken besluit" />
+      </node>
+      <node concept="1FQA6B" id="6qUJKUPIdpk" role="mu3T0">
+        <ref role="1FQA6$" node="6qUJKUPIdfO" resolve="nadelige gevolgen van een besluit zijn onevenredig in verhouding tot de met het besluit te dienen doelen" />
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdpm" role="cu0BP">
+      <property role="TrG5h" value="weigeren" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdpl" role="m3s6u">
+      <property role="TrG5h" value="bestuursorgaan weigert subsidieverlening aan belanghebbende" />
+      <property role="3ANC2_" value="Omdat in artikel 10 Sbl ook de weigeringsgronden van artikel 4:35 Awb genoemd worden als weigeringsgronden, hebben we  artikel 4:35 Awb toegevoegd. Hierbij heb je dus ook een andere actor en geïnteresseerde partij. &#13;&#10;19-7 Bij kolom interested party aanvrager gewijzigd in belanghebbende, omdat belanghebbende de wettelijke term is. Er bestaat in de Awb niet zoiets als een aanvrager. De belanghebbende doet een aanvraag" />
+      <ref role="mu3Ux" node="6qUJKUPIdpm" resolve="weigeren" />
+      <ref role="mu5$L" node="6qUJKUPIdem" resolve="bestuursorgaan" />
+      <ref role="mu3Ts" node="6qUJKUPIdf_" resolve="aanvraag subsidieverlening" />
+      <ref role="mu3To" node="6qUJKUPIdf7" resolve="belanghebbende" />
+      <node concept="1FQA6B" id="6qUJKUPIdpn" role="mu1c7">
+        <ref role="1FQA6$" node="6qUJKUPIdf$" resolve="aanvraag" />
+      </node>
+      <node concept="1FQA6B" id="6qUJKUPIdpo" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdfa" resolve="besluit" />
+      </node>
+      <node concept="1FQA6B" id="6qUJKUPIdpp" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdfW" resolve="besluit tot weigeren subsidie" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdpq" role="mu1cf">
+        <ref role="2cz2WA" node="6qUJKUPIdn_" resolve="bekend maken besluit" />
+      </node>
+      <node concept="cvrD0" id="6qUJKUPIdpr" role="mu3T0">
+        <node concept="cH3hB" id="6qUJKUPIdps" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIdpt" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdh6" resolve="een gegronde reden bestaat om aan te nemen dat de activiteiten niet of niet geheel zullen plaatsvinden" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdpu" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdh7" resolve="een gegronde reden bestaat om aan te nemen dat de aanvrager niet zal voldoen aan de aan de subsidie verbonden verplichtingen" />
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdpv" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdh8" resolve="een gegronde reden bestaat om aan te nemen dat de aanvrager niet op een behoorlijke wijze rekening en verantwoording zal afleggen omtrent de verrichte activiteiten en de daaraan verbonden uitgaven en inkomsten, voor zover deze voor de vaststelling van de subsidie van belang zijn" />
+        </node>
+        <node concept="cvrD0" id="6qUJKUPIdpw" role="1FQA6S">
+          <node concept="cH3hJ" id="6qUJKUPIdpx" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdpy" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdh9" resolve="aanvrager heeft in het kader van de aanvraag onjuiste of onvolledige gegevens verstrekt" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdpz" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdha" resolve="de verstrekking van deze gegevens tot een onjuiste beschikking op de aanvraag zou hebben geleid" />
+          </node>
+        </node>
+        <node concept="cvrD0" id="6qUJKUPIdp$" role="1FQA6S">
+          <node concept="cH3hB" id="6qUJKUPIdp_" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIdpA" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdhb" resolve="aanvrager is failliet verklaard" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdpB" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdhc" resolve="aan aanvrager is surséance van betaling verleend" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIdpC" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIdhd" resolve="ten aanzien de aanvrager is de schuldsaneringsregeling natuurlijke personen van toepassing verklaard of een verzoek daartoe bij de rechtbank is ingediend" />
+          </node>
+        </node>
+        <node concept="1FQA6B" id="6qUJKUPIdpD" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIdhe" resolve="naar het oordeel van het bestuursorgaan is verstrekking van de subsidie niet verenigbaar met het bepaalde in de artikelen 107 en 108 van het Verdrag betreffende de werking van de Europese Unie." />
+        </node>
+      </node>
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdpE" role="m3s6u">
+      <property role="TrG5h" value="minister van OCW weigert subsidieverlening aan een leraar" />
+      <property role="3ANC2_" value="Als niet aan 1 van de andere voorwaarden voor het verlenen van de subsidie wordt voldaan, moet er ook worden afgewezen, neem ik aan." />
+      <ref role="mu3Ux" node="6qUJKUPIdpm" resolve="weigeren" />
+      <ref role="mu5$L" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <ref role="mu3Ts" node="6qUJKUPIdh3" resolve="subsidieverlening aan een leraar" />
+      <ref role="mu3To" node="6qUJKUPIdj$" resolve="leraar" />
+      <node concept="1FQA6B" id="6qUJKUPIdpF" role="mu1c7">
+        <ref role="1FQA6$" node="6qUJKUPIdf$" resolve="aanvraag" />
+      </node>
+      <node concept="2cz2WB" id="6qUJKUPIdpG" role="mu1cf">
+        <ref role="2cz2WA" node="6qUJKUPIdn_" resolve="bekend maken besluit" />
+      </node>
+      <node concept="1FQA6B" id="6qUJKUPIdpH" role="mu3T0">
+        <ref role="1FQA6$" node="6qUJKUPIdls" resolve="besluit tot verlenen subsidie voor studiekosten van een leraar in verband met het volgen van een opleiding" />
+      </node>
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdpJ" role="cu0BP">
+      <property role="TrG5h" value="verdelen" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdpI" role="m3s6u">
+      <property role="TrG5h" value="minister van OCW verdeelt het beschikbare bedrag voor de subsidieregeling lerarenbeurs per doelgroep" />
+      <property role="3ANC2_" value="De minister in artikel 6, eerste lid Slb is ten aanzien van de uitvoering hiervan verantwoording schuldig aan de wetgevende macht. De wetgevende macht is hier regering. Dit aanpassen in de excel. Regering is interesed party." />
+      <ref role="mu3Ux" node="6qUJKUPIdpJ" resolve="verdelen" />
+      <ref role="mu5$L" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <ref role="mu3Ts" node="6qUJKUPIdgQ" resolve="beschikbare bedrag voor de subsidieregeling lerarenbeurs" />
+      <ref role="mu3To" node="6qUJKUPIdel" resolve="Regering" />
+      <node concept="2cz2WB" id="6qUJKUPIdpK" role="mu1cf">
+        <ref role="2cz2WA" node="6qUJKUPIdn_" resolve="bekend maken besluit" />
+      </node>
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdpL" role="m3s6u">
+      <property role="TrG5h" value="minister van OCW verdeelt concreet het beschikbare budget in een studiejaar per soort onderwijs" />
+      <property role="3ANC2_" value="De minister in artikel 6, eerste lid Slb is ten aanzien van de uitvoering hiervan verantwoording schuldig aan de wetgevende macht. De wetgevende macht is hier regering. Dit aanpassen in de excel. Regering is interesed party." />
+      <ref role="mu3Ux" node="6qUJKUPIdpJ" resolve="verdelen" />
+      <ref role="mu5$L" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <ref role="mu3Ts" node="6qUJKUPIdgR" resolve="concrete verdeling van het beschikbare budget in een studiejaar per soort onderwijs" />
+      <ref role="mu3To" node="6qUJKUPIdel" resolve="Regering" />
+    </node>
+    <node concept="cu0$f" id="6qUJKUPIdpN" role="cu0BP">
+      <property role="TrG5h" value="berekenen" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdpM" role="m3s6u">
+      <property role="TrG5h" value="minister van OCW berekent de hoogte van de subsidie voor studiekosten" />
+      <ref role="mu3Ux" node="6qUJKUPIdpN" resolve="berekenen" />
+      <ref role="mu5$L" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <ref role="mu3Ts" node="6qUJKUPIdgS" resolve="hoogte van de subsidie voor studiekosten" />
+      <ref role="mu3To" node="6qUJKUPIdj$" resolve="leraar" />
+      <node concept="1FQA6B" id="6qUJKUPIdpO" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdga" resolve="vergoeding kosten collegegeld" />
+      </node>
+      <node concept="1FQA6B" id="6qUJKUPIdpP" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdgb" resolve="vergoeding studiemiddelen" />
+      </node>
+      <node concept="1FQA6B" id="6qUJKUPIdpQ" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdgc" resolve="vergoeding reiskosten" />
+      </node>
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdpR" role="m3s6u">
+      <property role="TrG5h" value="minister van OCW berekent de hoogte van de subsidie voor studieverlof" />
+      <ref role="mu3Ux" node="6qUJKUPIdpN" resolve="berekenen" />
+      <ref role="mu5$L" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <ref role="mu3Ts" node="6qUJKUPIdgT" resolve="hoogte van de subsidie voor studieverlof" />
+      <ref role="mu3To" node="6qUJKUPIdhf" resolve="bevoegd gezag" />
+      <node concept="1FQA6B" id="6qUJKUPIdpS" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdgd" resolve="vergoeding studieverlof" />
+      </node>
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdpT" role="m3s6u">
+      <property role="TrG5h" value="aanvraagformulieren verstrekken voor subsidie studiekosten op de website van de DUO" />
+      <ref role="mu3Ux" node="6qUJKUPIdmT" resolve="verstrekken" />
+      <ref role="mu5$L" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <ref role="mu3Ts" node="6qUJKUPIdfD" resolve="template voor aanvraagformulieren studiekosten" />
+      <ref role="mu3To" node="6qUJKUPIdj$" resolve="leraar" />
+      <node concept="1FQA6B" id="6qUJKUPIdpU" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdfC" resolve="aanvraagformulieren studiekosten op de website van de Dienst Uitvoering Onderwijs" />
+      </node>
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdpV" role="m3s6u">
+      <property role="TrG5h" value="aanvraagformulieren verstrekken voor subsidie studieverlof op de website van de DUO" />
+      <ref role="mu3Ux" node="6qUJKUPIdmT" resolve="verstrekken" />
+      <ref role="mu5$L" node="6qUJKUPIdlq" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      <ref role="mu3Ts" node="6qUJKUPIdfE" resolve="template voor aanvraagformulieren studieverlof" />
+      <ref role="mu3To" node="6qUJKUPIdj$" resolve="leraar" />
+      <node concept="1FQA6B" id="6qUJKUPIdpW" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIdfF" resolve="aanvraagformulieren studieverlof op de website van de Dienst Uitvoering Onderwijs" />
+      </node>
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdpX" role="m3s6u">
+      <property role="TrG5h" value="indienen aanvraag" />
+      <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="mu5$5" id="6qUJKUPIdpY" role="m3s6u">
+      <property role="TrG5h" value="bekendmaken besluit" />
+      <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="2cz0EU" id="6qUJKUPIdq0" role="2cADMD">
+      <property role="TrG5h" value="aanvraag ondertekenen" />
+      <property role="3ANC2_" value="GENERATED: This duty was generated during the 'Import From Json Action'" />
+      <ref role="2cz2Wc" node="6qUJKUPIdk_" resolve="Leraar voortgezet onderwijs, zonder benoeming" />
+      <ref role="2cBO5V" node="6qUJKUPIdm0" resolve="aanvraag indienen bij bevoegd bestuursorgaan" />
+    </node>
+    <node concept="2cz0EU" id="6qUJKUPIdq2" role="2cADMD">
+      <property role="TrG5h" value="aanvraag bevat de naam" />
+      <property role="3ANC2_" value="GENERATED: This duty was generated during the 'Import From Json Action'" />
+      <ref role="2cz2Wc" node="6qUJKUPIdkW" resolve="Leraar voortgezet onderwijs BES" />
+      <ref role="2cBO5V" node="6qUJKUPIdq4" resolve="aanvraag bevat adres van de aanvrager" />
+    </node>
+    <node concept="2cz0EU" id="6qUJKUPIdq4" role="2cADMD">
+      <property role="TrG5h" value="aanvraag bevat adres van de aanvrager" />
+      <property role="3ANC2_" value="GENERATED: This duty was generated during the 'Import From Json Action'" />
+      <ref role="2cz2Wc" node="6qUJKUPIdk_" resolve="Leraar voortgezet onderwijs, zonder benoeming" />
+      <ref role="2cBO5V" node="6qUJKUPIdq4" resolve="aanvraag bevat adres van de aanvrager" />
+    </node>
+    <node concept="2cz0EU" id="6qUJKUPIdq6" role="2cADMD">
+      <property role="TrG5h" value="aanvraag bevat dagtekening" />
+      <property role="3ANC2_" value="GENERATED: This duty was generated during the 'Import From Json Action'" />
+      <ref role="2cz2Wc" node="6qUJKUPIdl8" resolve="Leraar educatie en beroepsonderwijs BES" />
+      <ref role="2cBO5V" node="6qUJKUPIdqk" resolve="Regeling BWBR0039319 wordt aangehaald als Subsidieregeling lerarenbeurs" />
+    </node>
+    <node concept="2cz0EU" id="6qUJKUPIdq8" role="2cADMD">
+      <property role="TrG5h" value="aanvraag bevat aanduiding van de beschikking die wordt gevraagd" />
+      <property role="3ANC2_" value="GENERATED: This duty was generated during the 'Import From Json Action'" />
+      <ref role="2cz2Wc" node="6qUJKUPIdkA" resolve="Leraar educatie en beroepsonderwijs" />
+      <ref role="2cBO5V" node="6qUJKUPIdo6" resolve="De minister van OCW kan de subsidie voor studiekosten terugvorderen indien de leraar in de subsidieperiode minder dan vijftien studiepunten behaalt" />
+    </node>
+    <node concept="2cz0EU" id="6qUJKUPIdqa" role="2cADMD">
+      <property role="TrG5h" value="vergaren nodige kennis omtrent de relevante feiten" />
+      <property role="3ANC2_" value="GENERATED: This duty was generated during the 'Import From Json Action'" />
+      <ref role="2cz2Wc" node="6qUJKUPIdk_" resolve="Leraar voortgezet onderwijs, zonder benoeming" />
+      <ref role="2cBO5V" node="6qUJKUPIdqk" resolve="Regeling BWBR0039319 wordt aangehaald als Subsidieregeling lerarenbeurs" />
+    </node>
+    <node concept="2cz0EU" id="6qUJKUPIdqc" role="2cADMD">
+      <property role="TrG5h" value="vergaren nodige kennis omtrent  de af te wegen belangen" />
+      <property role="3ANC2_" value="GENERATED: This duty was generated during the 'Import From Json Action'" />
+      <ref role="2cz2Wc" node="6qUJKUPIdl8" resolve="Leraar educatie en beroepsonderwijs BES" />
+      <ref role="2cBO5V" node="6qUJKUPIdqk" resolve="Regeling BWBR0039319 wordt aangehaald als Subsidieregeling lerarenbeurs" />
+    </node>
+    <node concept="2cz0EU" id="6qUJKUPIdqd" role="2cADMD">
+      <property role="TrG5h" value="subsidie voor studieverlof wordt aangevraagd door de leraar voor het bevoegd gezag" />
+      <ref role="2cz2Wc" node="6qUJKUPIdl8" resolve="Leraar educatie en beroepsonderwijs BES" />
+      <ref role="2cBO5V" node="6qUJKUPIdqk" resolve="Regeling BWBR0039319 wordt aangehaald als Subsidieregeling lerarenbeurs" />
+    </node>
+    <node concept="2cz0EU" id="6qUJKUPIdqe" role="2cADMD">
+      <property role="TrG5h" value="leraar voldoet aan subsidiecriteria" />
+      <ref role="2cz2Wc" node="6qUJKUPIdl8" resolve="Leraar educatie en beroepsonderwijs BES" />
+      <ref role="2cBO5V" node="6qUJKUPIdq4" resolve="aanvraag bevat adres van de aanvrager" />
+    </node>
+    <node concept="2cz0EU" id="6qUJKUPIdqf" role="2cADMD">
+      <property role="TrG5h" value="leraar voldoet aan subsidieverplichtingen" />
+      <ref role="2cz2Wc" node="6qUJKUPIdf0" resolve="Nationale ombudsman en de substituut-ombudsmannen als bedoeld in artikel 9, eerste lid, van de Wet Nationale ombudsman, en ombudsmannen en ombudscommissies als bedoeld in artikel 9:17, onderdeel b" />
+      <ref role="2cBO5V" node="6qUJKUPIdq4" resolve="aanvraag bevat adres van de aanvrager" />
+    </node>
+    <node concept="2cz0EU" id="6qUJKUPIdqg" role="2cADMD">
+      <property role="TrG5h" value="minister van OCW betaalt subsidie studiekosten aan leraar" />
+      <property role="3ANC2_" value="verplichting tot behalen 15 studiepunten bij create is strikt genomen een verplichting van de leraar. Ik vind em voor het uitwerken van de duty bestuursorgaan betaalt subsidie wel wat ver gaan." />
+      <ref role="2cBO5V" node="6qUJKUPIdqh" resolve="verplichting behalen 15 studiepunten" />
+      <ref role="2cz2Wc" node="6qUJKUPIdem" resolve="bestuursorgaan" />
+      <ref role="2cz2We" node="6qUJKUPIdj$" resolve="leraar" />
+      <ref role="2cBO5Z" node="6qUJKUPIdqi" resolve="betalingsverplichting" />
+    </node>
+    <node concept="2cz0EU" id="6qUJKUPIdqh" role="2cADMD">
+      <property role="TrG5h" value="verplichting behalen 15 studiepunten" />
+      <property role="3ANC2_" value="GENERATED: This duty was generated during the 'Import From Json Action'" />
+      <ref role="2cz2Wc" node="6qUJKUPIdkA" resolve="Leraar educatie en beroepsonderwijs" />
+      <ref role="2cBO5V" node="6qUJKUPIdq4" resolve="aanvraag bevat adres van de aanvrager" />
+    </node>
+    <node concept="2cz0EU" id="6qUJKUPIdqi" role="2cADMD">
+      <property role="TrG5h" value="betalingsverplichting" />
+      <property role="3ANC2_" value="GENERATED: This duty was generated during the 'Import From Json Action'" />
+      <ref role="2cz2Wc" node="6qUJKUPIdkA" resolve="Leraar educatie en beroepsonderwijs" />
+      <ref role="2cBO5V" node="6qUJKUPIdq8" resolve="aanvraag bevat aanduiding van de beschikking die wordt gevraagd" />
+    </node>
+    <node concept="2cz0EU" id="6qUJKUPIdqj" role="2cADMD">
+      <property role="TrG5h" value="minister trek Tijdelijke regeling lerarenbeurs in" />
+      <ref role="2cz2Wc" node="6qUJKUPIdk_" resolve="Leraar voortgezet onderwijs, zonder benoeming" />
+      <ref role="2cBO5V" node="6qUJKUPIdq8" resolve="aanvraag bevat aanduiding van de beschikking die wordt gevraagd" />
+    </node>
+    <node concept="2cz0EU" id="6qUJKUPIdqk" role="2cADMD">
+      <property role="TrG5h" value="Regeling BWBR0039319 wordt aangehaald als Subsidieregeling lerarenbeurs" />
+      <ref role="2cz2Wc" node="6qUJKUPIdkA" resolve="Leraar educatie en beroepsonderwijs" />
+      <ref role="2cBO5V" node="6qUJKUPIdq6" resolve="aanvraag bevat dagtekening" />
+    </node>
+    <node concept="2cz0EU" id="6qUJKUPIdql" role="2cADMD">
+      <property role="TrG5h" value="de Subsidieregeling lerarenberus wordt met toelichting in de Staatscourant geplaatst" />
+      <ref role="2cz2Wc" node="6qUJKUPIdkA" resolve="Leraar educatie en beroepsonderwijs" />
+      <ref role="2cBO5V" node="6qUJKUPIdq4" resolve="aanvraag bevat adres van de aanvrager" />
+    </node>
+    <node concept="2cz0EU" id="6qUJKUPIdqm" role="2cADMD">
+      <property role="TrG5h" value="minister van OCW neemt verzoek om een besluit te nemen niet in behandeling" />
+      <ref role="2cz2Wc" node="6qUJKUPIdl8" resolve="Leraar educatie en beroepsonderwijs BES" />
+      <ref role="2cBO5V" node="6qUJKUPIdq4" resolve="aanvraag bevat adres van de aanvrager" />
+    </node>
+    <node concept="2cz0EU" id="6qUJKUPIdqn" role="2cADMD">
+      <property role="TrG5h" value="minister van OCW weigert de aanvraag" />
+      <ref role="2cz2Wc" node="6qUJKUPIdk_" resolve="Leraar voortgezet onderwijs, zonder benoeming" />
+      <ref role="2cBO5V" node="6qUJKUPIdq8" resolve="aanvraag bevat aanduiding van de beschikking die wordt gevraagd" />
     </node>
   </node>
-  <node concept="cu0$2" id="27H3E6IyiQk">
+  <node concept="cu0$2" id="6qUJKUPIAaB">
     <property role="TrG5h" value="Vreemdelingenwet" />
-    <node concept="cog_a" id="27H3E6IyiQl" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAaC" role="cogAT">
       <property role="TrG5h" value="art. 1 Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=1&amp;afdeling=1&amp;artikel=1&amp;z=2017-01-01&amp;g=2017-01-01" />
       <property role="cog$m" value="01-01-2017" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQm" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAaD" role="cogAT">
       <property role="TrG5h" value="art. 2k, aanhef en onder a, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=1a&amp;afdeling=1&amp;paragraaf=3&amp;artikel=2k&amp;z=2013-06-01&amp;g=2013-06-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQn" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAaE" role="cogAT">
       <property role="TrG5h" value="art. 2n lid 1, onder a, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=1a&amp;afdeling=1&amp;paragraaf=5&amp;artikel=2n&amp;lid=1&amp;z=2013-06-01&amp;g=2013-06-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQo" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAaF" role="cogAT">
       <property role="TrG5h" value="art. 2n lid 1, onder b, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=1a&amp;afdeling=1&amp;paragraaf=5&amp;artikel=2n&amp;lid=1&amp;z=2013-06-01&amp;g=2013-06-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQp" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAaG" role="cogAT">
       <property role="TrG5h" value="art. 2n lid 1, onder c, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=1a&amp;afdeling=1&amp;paragraaf=5&amp;artikel=2n&amp;lid=1&amp;z=2013-06-01&amp;g=2013-06-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQq" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAaH" role="cogAT">
       <property role="TrG5h" value="art. 2n lid 1, onder d, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=1a&amp;afdeling=1&amp;paragraaf=5&amp;artikel=2n&amp;lid=1&amp;z=2013-06-01&amp;g=2013-06-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQr" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAaI" role="cogAT">
       <property role="TrG5h" value="art. 2p lid 1 Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=1a&amp;afdeling=2&amp;paragraaf=1&amp;artikel=2p&amp;lid=1&amp;z=2013-06-01&amp;g=2013-06-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQs" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAaJ" role="cogAT">
       <property role="TrG5h" value="art. 2p lid 2 Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=1a&amp;afdeling=2&amp;paragraaf=1&amp;artikel=2p&amp;lid=2&amp;z=2013-06-01&amp;g=2013-06-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQt" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAaK" role="cogAT">
       <property role="TrG5h" value="art. 14 lid 1, onder a, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=14&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQu" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAaL" role="cogAT">
       <property role="TrG5h" value="art. 14 lid 3 Vw (zin 1) {vanaf 01-06-2013}, art. 14 lid 2 Vw (zin 1) {van 01-04-2001 tot 01-06-2013}" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=14&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQv" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAaM" role="cogAT">
       <property role="TrG5h" value="art. 16 lid 1, onder a, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=16&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQw" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAaN" role="cogAT">
       <property role="TrG5h" value="art. 16 lid 1, onder b, Vw, and art. 18 lid 1, onder b, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=16&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01/jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=18&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQx" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAaO" role="cogAT">
       <property role="TrG5h" value="art. 16 lid 1, onder c, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=16&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQy" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAaP" role="cogAT">
       <property role="TrG5h" value="Art. 3.74 lid 1, onder a, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.74&amp;lid=1&amp;z=2013-01-01&amp;g=2013-01-01" />
       <property role="cog$m" value="31-07-2010" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQz" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAaQ" role="cogAT">
       <property role="TrG5h" value="Art. 3.74 lid 1, onder b, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.74&amp;lid=1&amp;z=2013-01-01&amp;g=2013-01-01" />
       <property role="cog$m" value="31-07-2010" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQ$" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAaR" role="cogAT">
       <property role="TrG5h" value="art. 16 lid 1, onder d, Vw, en art. 18 lid 1, onder e, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=16&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01/jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=18&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQ_" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAaS" role="cogAT">
       <property role="TrG5h" value="art. 16 lid 1, onder e, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=16&amp;lid=1&amp;z=2017-01-01&amp;g=2017-01-01" />
       <property role="cog$m" value="01-01-2017" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQA" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAaT" role="cogAT">
       <property role="TrG5h" value="art. 16 lid 1, onder f, Vw en art. 18 lid 1, onder g, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=16&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01/jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=18&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQB" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAaU" role="cogAT">
       <property role="TrG5h" value="art. 16 lid 1, onder g, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=16&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQC" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAaV" role="cogAT">
       <property role="TrG5h" value="art. 16 lid 1, onder h, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=16&amp;z=2007-01-01&amp;g=2007-01-01" />
       <property role="cog$m" value="01-01-2007" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQD" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAaW" role="cogAT">
       <property role="TrG5h" value="art. 16 lid 1, onder i, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=16&amp;z=2013-06-01&amp;g=2013-06-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQE" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAaX" role="cogAT">
       <property role="TrG5h" value="art. 16 lid 1, onder j, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=16&amp;z=2013-06-01&amp;g=2013-06-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQF" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAaY" role="cogAT">
       <property role="TrG5h" value="art. 16 lid 1, onder k, Vw {vanaf 21-09-2013}; art. 16 lid 1, onder i, Vw {van 01-06-2013 tot 21-09-2013}; art. 18 lid 1, onder h, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=16&amp;z=2013-06-01&amp;g=2013-06-01/jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=18&amp;lid=1&amp;z=2017-07-01&amp;g=2017-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQG" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAaZ" role="cogAT">
       <property role="TrG5h" value="art. 18 lid 1, onder a, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=18&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQH" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAb0" role="cogAT">
       <property role="TrG5h" value="art. 18 lid 1, onder c, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=18&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQI" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAb1" role="cogAT">
       <property role="TrG5h" value="art. 18 lid 1, onder f, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=18&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQJ" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAb2" role="cogAT">
       <property role="TrG5h" value="art. 18 lid 1, onder i, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=18&amp;lid=1&amp;z=2017-10-01&amp;g=2017-10-01" />
       <property role="cog$m" value="01-10-2017" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQK" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAb3" role="cogAT">
       <property role="TrG5h" value="art. 24 lid 1 Vw (zin 1)" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=3&amp;artikel=24&amp;z=2012-01-01&amp;g=2012-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQL" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAb4" role="cogAT">
       <property role="TrG5h" value="art. 24 lid 1 Vw (zin 3)" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=3&amp;artikel=24&amp;lid=2&amp;z=2012-07-07&amp;g=2012-07-07" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQM" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAb5" role="cogAT">
       <property role="TrG5h" value="art. 26 lid 1 Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=5&amp;artikel=26&amp;z=2002-01-01&amp;g=2002-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQN" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAb6" role="cogAT">
       <property role="TrG5h" value="art. 66a lid 6 Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=6&amp;afdeling=3&amp;artikel=66a&amp;lid=6&amp;z=2011-12-31&amp;g=2011-12-31" />
       <property role="cog$m" value="31-12-2011" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQO" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAb7" role="cogAT">
       <property role="TrG5h" value="art. 67 lid 3 Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=6&amp;afdeling=4&amp;artikel=67&amp;lid=3&amp;z=2011-12-31&amp;g=2011-12-31" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQP" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAb8" role="cogAT">
       <property role="TrG5h" value="art. 106a lid 1 Vw (eerste zin)" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=8&amp;paragraaf=1&amp;artikel=106a&amp;z=2014-03-01&amp;g=2014-03-01" />
       <property role="cog$m" value="01-03-2014" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQQ" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAb9" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder a, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQR" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAba" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder aa, Vb {vanaf 01-06-2013} en art. 3.4 lid 1, onder aa, Vb {vanaf 01-12-2006 tot 01-06-2013}" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2008-03-26&amp;g=2007-09-01" />
       <property role="cog$m" value="01-12-2006" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQS" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbb" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder c, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQT" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbc" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder d, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQU" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbd" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder e, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2012-08-01&amp;g=2012-08-01" />
       <property role="cog$m" value="19-06-2011" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQV" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbe" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder f, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQW" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbf" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder g, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="20-11-2016" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQX" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbg" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder h, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQY" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbh" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder i, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiQZ" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbi" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder j, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="23-05-2018" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiR0" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbj" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder k, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiR1" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbk" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder l, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiR2" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbl" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder m, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiR3" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbm" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder n, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2002-07-17&amp;g=2002-07-17" />
       <property role="cog$m" value="01-04-2004" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiR4" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbn" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder o, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiR5" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbo" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder p, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiR6" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbp" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder q, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiR7" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbq" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder r, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2002-07-17&amp;g=2002-07-17" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiR8" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbr" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder s, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiR9" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbs" role="cogAT">
       <property role="TrG5h" value="art. 3.73 lid 1, onder a, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.73&amp;lid=1&amp;z=2001-04-01&amp;g=2001-04-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiRa" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbt" role="cogAT">
       <property role="TrG5h" value="art. 3.73 lid 1, onder b, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.73&amp;lid=1&amp;z=2001-04-01&amp;g=2001-04-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiRb" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbu" role="cogAT">
       <property role="TrG5h" value="art. 3.73 lid 1, onder c, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.73&amp;lid=1&amp;z=2001-04-01&amp;g=2001-04-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiRc" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbv" role="cogAT">
       <property role="TrG5h" value="art. 3.73 lid 1, onder d, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.73&amp;lid=1&amp;z=2010-07-31&amp;g=2010-07-31" />
       <property role="cog$m" value="31-07-2010" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiRd" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbw" role="cogAT">
       <property role="TrG5h" value="art. 3.73 lid 1, onder a, Vb; art. 3.73 lid 1, onder b, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.73&amp;lid=1&amp;z=2001-04-01&amp;g=2001-04-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiRe" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbx" role="cogAT">
       <property role="TrG5h" value="art. 3.73 lid 1, onder a, Vb; art. 3.73 lid 1, onder b, Vb; art. 3.73 lid 1, onder c; Vb, art. 3.73 lid 1, onder d, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.73&amp;lid=1&amp;z=2001-04-01&amp;g=2001-04-01/jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.73&amp;lid=1&amp;z=2010-07-13&amp;g=2010-07-13" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiRf" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAby" role="cogAT">
       <property role="TrG5h" value="art. 3.73 lid 1, onder a, Vb; art. 3.73 lid 1, onder b, Vb; art. 3.73 lid 1, onder d, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.73&amp;lid=1&amp;z=2001-04-01&amp;g=2001-04-01/jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.73&amp;lid=1&amp;z=2010-07-13&amp;g=2010-07-13" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiRg" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbz" role="cogAT">
       <property role="TrG5h" value="art. 3.73 lid 1, onder e, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.73&amp;lid=1&amp;z=2018-05-23&amp;g=2018-05-23" />
       <property role="cog$m" value="23-05-2018" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiRh" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAb$" role="cogAT">
       <property role="TrG5h" value="art. 3.74 lid 1, onder a, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.74&amp;lid=1&amp;z=2010-07-31&amp;g=2010-07-31" />
       <property role="cog$m" value="31-07-2010" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiRi" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAb_" role="cogAT">
       <property role="TrG5h" value="art. 3.74 lid 1, onder b, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.74&amp;lid=1&amp;z=2010-07-31&amp;g=2010-07-31" />
       <property role="cog$m" value="31-07-2010" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiRj" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbA" role="cogAT">
       <property role="TrG5h" value="art. 3.74 lid 2 Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.74&amp;lid=2&amp;z=2013-06-01&amp;g=2013-06-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiRk" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbB" role="cogAT">
       <property role="TrG5h" value="art. 3.75 lid 1 Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.75&amp;lid=1&amp;z=2019-07-01&amp;g=2019-07-01" />
       <property role="cog$m" value="19-06-2011" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiRl" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbC" role="cogAT">
       <property role="TrG5h" value="art. 3.75 lid 2 Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.75&amp;lid=1&amp;z=2001-04-01&amp;g=2001-04-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiRm" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbD" role="cogAT">
       <property role="TrG5h" value="art. 3.75 lid 3 Vb (zin 1)" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.75&amp;lid=3&amp;z=2007-11-14&amp;g=2007-11-14" />
       <property role="cog$m" value="14-11-2007" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiRn" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbE" role="cogAT">
       <property role="TrG5h" value="art. 14 lid 4 Vw (eerste zin) {vanaf 01-06-2013}; art. 14 lid 3 Vw (eerste zin) {van 01-04-2001 tor 01-06-2013}" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=14&amp;lid=4&amp;z=2014-03-29&amp;g=2014-03-29" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiRo" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbF" role="cogAT">
       <property role="TrG5h" value="art. 14 lid 3 Vw (eerste zin)" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=14&amp;z=2014-03-29&amp;g=2014-03-29" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="27H3E6IyiRp" role="cogAT">
+    <node concept="cog_a" id="6qUJKUPIAbG" role="cogAT">
       <property role="TrG5h" value="art. 9 lid 1 Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=1&amp;artikel=9&amp;lid=1&amp;z=2020-01-01&amp;g=2020-01-01" />
       <property role="cog$m" value="01-01-2017" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cu0$f" id="27H3E6IyiRq" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAbH" role="cu0BP">
       <property role="TrG5h" value="Onze Minister van Justitie en Veiligheid" />
-      <node concept="cog_b" id="27H3E6IyiRr" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAbI" role="coufz">
         <property role="3ANC2_" value="NOTABLE: Lijst met definities (geen detailverwijzing mogelijk). ERROR: Inmiddels is het eigenlijk de minister van Justitie en Veiligheid (sinds Rutte III beëdigd op 26 oktober 2017), maar dit is nog niet in de Vw vastgelegd." />
         <property role="1FEjNx" value="Onze Minister: Onze Minister van Veiligheid en Justitie" />
-        <ref role="cog$q" node="27H3E6IyiQl" resolve="art. 1 Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaC" resolve="art. 1 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiRs" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAbJ" role="cu0BP">
       <property role="TrG5h" value="vreemdeling" />
-      <node concept="cog_b" id="27H3E6IyiRt" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAbK" role="coufz">
         <property role="3ANC2_" value="NOTABLE: De structuur van dit artikel is meerdere keren veranderd sinds april 2001. Ook de plaats van dit fragment in het artikel verandert nogal eens. Maar de tekst zelf is vanaf de eerste versie niet veranderd. De juriconnect referentie verwijst naar de versie van 2002-01-01 omdat dat de eerste versie is waarvoor een link bestaat." />
         <property role="1FEjNx" value="vreemdeling: ieder die de Nederlandse nationaliteit niet bezit en niet op grond van een wettelijke bepaling als Nederlander moet worden behandeld" />
-        <ref role="cog$q" node="27H3E6IyiQl" resolve="art. 1 Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaC" resolve="art. 1 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiRu" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAbL" role="cu0BP">
       <property role="TrG5h" value="aanvraag tot verlenen machtiging tot voorlopig verblijf" />
       <property role="3ANC2_" value="NOTABLE: Act frame indienen aanvraag moet nog worden toegevoegd. Hoe gaan we met het vastleggen van de aanduiding van het gevraagde besluit?" />
-      <node concept="cog_b" id="27H3E6IyiRv" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAbM" role="coufz">
         <property role="1FEjNx" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een machtiging tot voorlopig verblijf dan wel terugkeervisum in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
-        <ref role="cog$q" node="27H3E6IyiQm" resolve="art. 2k, aanhef en onder a, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaD" resolve="art. 2k, aanhef en onder a, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiRw" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAbN" role="cu0BP">
       <property role="TrG5h" value="besluit tot inwilligen aanvraag tot verlenen machtiging tot voorlopig verblijf" />
       <property role="3ANC2_" value="[] moet zijn &lt;&lt;&gt;&gt;" />
-      <node concept="cog_b" id="27H3E6IyiRx" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAbO" role="coufz">
         <property role="1FEjNx" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een machtiging tot voorlopig verblijf dan wel terugkeervisum in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
-        <ref role="cog$q" node="27H3E6IyiQm" resolve="art. 2k, aanhef en onder a, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaD" resolve="art. 2k, aanhef en onder a, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiRy" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAbP" role="cu0BP">
       <property role="TrG5h" value="aanvraag is door de vreemdeling in persoon ingediend" />
-      <node concept="cog_b" id="27H3E6IyiRz" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAbQ" role="coufz">
         <property role="1FEjNx" value="de door de vreemdeling ingediende aanvraag niet door de vreemdeling in persoon is ingediend" />
-        <ref role="cog$q" node="27H3E6IyiQn" resolve="art. 2n lid 1, onder a, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaE" resolve="art. 2n lid 1, onder a, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiR$" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAbR" role="cu0BP">
       <property role="TrG5h" value="voor de aanvraag is gebruik gemaakt van een voorgeschreven formulier dat volledig is ingevuld en ondertekend" />
-      <node concept="cog_b" id="27H3E6IyiR_" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAbS" role="coufz">
         <property role="1FEjNx" value="voor de aanvraag in voorkomend geval geen gebruik is gemaakt van een daartoe voorgeschreven formulier dat volledig is ingevuld en ondertekend" />
-        <ref role="cog$q" node="27H3E6IyiQo" resolve="art. 2n lid 1, onder b, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaF" resolve="art. 2n lid 1, onder b, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiRA" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAbT" role="cu0BP">
       <property role="TrG5h" value="aanvraag is gesteld in de Nederlandse, Franse of Engelse taal" />
-      <node concept="cog_b" id="27H3E6IyiRB" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAbU" role="coufz">
         <property role="1FEjNx" value="de aanvraag niet is gesteld in de Nederlandse, Franse of Engelse taal; of" />
-        <ref role="cog$q" node="27H3E6IyiQp" resolve="art. 2n lid 1, onder c, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaG" resolve="art. 2n lid 1, onder c, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiRC" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAbV" role="cu0BP">
       <property role="TrG5h" value="ter afdoening van de aanvraag verschuldigde leges zijn betaald" />
-      <node concept="cog_b" id="27H3E6IyiRD" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAbW" role="coufz">
         <property role="1FEjNx" value="de ter afdoening van de aanvraag verschuldigde leges niet zijn betaald" />
-        <ref role="cog$q" node="27H3E6IyiQq" resolve="art. 2n lid 1, onder d, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaH" resolve="art. 2n lid 1, onder d, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiRE" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAbX" role="cu0BP">
       <property role="TrG5h" value="vreemdeling voldoet aan de vereisten voor toegang en verlening van een verblijfsvergunning" />
-      <node concept="cog_b" id="27H3E6IyiRF" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAbY" role="coufz">
         <property role="1FEjNx" value="Onze Minister kan een machtiging tot voorlopig verblijf verlenen aan de vreemdeling ten aanzien van wie is aangetoond dat hij voldoet aan de vereisten voor toegang en verlening van een verblijfsvergunning." />
-        <ref role="cog$q" node="27H3E6IyiQr" resolve="art. 2p lid 1 Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaI" resolve="art. 2p lid 1 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiRG" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAbZ" role="cu0BP">
       <property role="TrG5h" value="wezenlijk Nederlands belang gediend met verlenen machtiging tot voorlopig verblijf" />
-      <node concept="cog_b" id="27H3E6IyiRH" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAc0" role="coufz">
         <property role="1FEjNx" value="Onze Minister kan in afwijking van het eerste lid een machtiging tot voorlopig verblijf verlenen indien daarmee een wezenlijk Nederlands belang is gediend of klemmende redenen van humanitaire aard daartoe nopen dan wel het belang van de internationale betrekkingen de verlening van een machtiging tot voorlopig verblijf vordert." />
-        <ref role="cog$q" node="27H3E6IyiQs" resolve="art. 2p lid 2 Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaJ" resolve="art. 2p lid 2 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiRI" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAc1" role="cu0BP">
       <property role="TrG5h" value="klemmende redenen van humanitaire aard nopen tot verlenen machtiging tot voorlopig verblijf" />
-      <node concept="cog_b" id="27H3E6IyiRJ" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAc2" role="coufz">
         <property role="1FEjNx" value="Onze Minister kan in afwijking van het eerste lid een machtiging tot voorlopig verblijf verlenen indien daarmee een wezenlijk Nederlands belang is gediend of klemmende redenen van humanitaire aard daartoe nopen dan wel het belang van de internationale betrekkingen de verlening van een machtiging tot voorlopig verblijf vordert." />
-        <ref role="cog$q" node="27H3E6IyiQs" resolve="art. 2p lid 2 Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaJ" resolve="art. 2p lid 2 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiRK" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAc3" role="cu0BP">
       <property role="TrG5h" value="belang van de internationale betrekkingen vordert verlenen machtiging tot voorlopig verblijf" />
-      <node concept="cog_b" id="27H3E6IyiRL" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAc4" role="coufz">
         <property role="1FEjNx" value="Onze Minister kan in afwijking van het eerste lid een machtiging tot voorlopig verblijf verlenen indien daarmee een wezenlijk Nederlands belang is gediend of klemmende redenen van humanitaire aard daartoe nopen dan wel het belang van de internationale betrekkingen de verlening van een machtiging tot voorlopig verblijf vordert." />
-        <ref role="cog$q" node="27H3E6IyiQs" resolve="art. 2p lid 2 Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaJ" resolve="art. 2p lid 2 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiRM" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAc5" role="cu0BP">
       <property role="TrG5h" value="aanvraag tot het verlenen van een vvr-bep" />
       <property role="3ANC2_" value="QUESTION: Gebruiken we hier de afkorting 'vvr-bep', een andere afkorting, of een volledige aanduiding (: 'verblijfsvergunning regulier voor bepaalde tijd'). Is het [] of &lt;&lt;&gt;&gt;?" />
-      <node concept="cog_b" id="27H3E6IyiRN" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAc6" role="coufz">
         <property role="1FEjNx" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
-        <ref role="cog$q" node="27H3E6IyiQt" resolve="art. 14 lid 1, onder a, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaK" resolve="art. 14 lid 1, onder a, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiRO" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAc7" role="cu0BP">
       <property role="TrG5h" value="besluit tot afwijzen aanvraag tot het verlenen van een vvr-bep" />
       <property role="3ANC2_" value="[] moet zijn &lt;&lt;&gt;&gt;" />
-      <node concept="cog_b" id="27H3E6IyiRP" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAc8" role="coufz">
         <property role="1FEjNx" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
-        <ref role="cog$q" node="27H3E6IyiQt" resolve="art. 14 lid 1, onder a, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaK" resolve="art. 14 lid 1, onder a, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiRQ" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAc9" role="cu0BP">
       <property role="TrG5h" value="besluit tot inwilligen aanvraag tot het verlenen van een vvr-bep" />
       <property role="3ANC2_" value="[] moet zijn &lt;&lt;&gt;&gt;" />
-      <node concept="cog_b" id="27H3E6IyiRR" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAca" role="coufz">
         <property role="1FEjNx" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
-        <ref role="cog$q" node="27H3E6IyiQt" resolve="art. 14 lid 1, onder a, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaK" resolve="art. 14 lid 1, onder a, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiRS" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAcb" role="cu0BP">
       <property role="TrG5h" value="besluit tot niet in behandeling nemen aanvraag tot het verlenen van een vvr-bep" />
       <property role="3ANC2_" value="[] moet zijn &lt;&lt;&gt;&gt;" />
-      <node concept="cog_b" id="27H3E6IyiRT" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAcc" role="coufz">
         <property role="1FEjNx" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
-        <ref role="cog$q" node="27H3E6IyiQt" resolve="art. 14 lid 1, onder a, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaK" resolve="art. 14 lid 1, onder a, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiRU" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAcd" role="cu0BP">
       <property role="TrG5h" value="inwilligen" />
       <property role="3ANC2_" value="QUESTION: Vervoegingen van 'inwilligen' worden op veel plaatsen binnen en buiten de Vw gebruikt. Hoe gaan we daar mee om?" />
-      <node concept="cog_b" id="27H3E6IyiRV" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAce" role="coufz">
         <property role="1FEjNx" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
-        <ref role="cog$q" node="27H3E6IyiQt" resolve="art. 14 lid 1, onder a, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaK" resolve="art. 14 lid 1, onder a, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiRW" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAcf" role="cu0BP">
       <property role="TrG5h" value="vvr-bep wordt verleend onder beperkingen, verband houdende met het doel waarvoor het verblijf is toegestaan" />
       <property role="3ANC2_" value="NOTABLE: Het onderscheid tussen 'beperking' en 'doel' is niet duidelijk. In art. 3.4 Vb wordt in lid 1 een lijst gecreeerd van doelen die verband houden met beperkingen. In lid drie worden die doelen aangeduid met de term 'beperkingen'. In lid 2 is niet helemaal duidelijk waar de term 'De beperkingen, bedoeld in het eerste lid' naar verwijst. Wij interpreteren 'doel' als de reden van verblijf, en 'beperking' als de omschrijving op de verblijfsvergunning. ISSUE: hoe omgaan met hernummering in citation?" />
-      <node concept="cog_b" id="27H3E6IyiRX" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAcg" role="coufz">
         <property role="1FEjNx" value="Een verblijfsvergunning voor bepaalde tijd wordt verleend onder beperkingen, verband houdende met het doel waarvoor het verblijf is toegestaan." />
-        <ref role="cog$q" node="27H3E6IyiQu" resolve="art. 14 lid 3 Vw (zin 1) {vanaf 01-06-2013}, art. 14 lid 2 Vw (zin 1) {van 01-04-2001 tot 01-06-2013}" />
+        <ref role="cog$q" node="6qUJKUPIAaL" resolve="art. 14 lid 3 Vw (zin 1) {vanaf 01-06-2013}, art. 14 lid 2 Vw (zin 1) {van 01-04-2001 tot 01-06-2013}" />
       </node>
-      <node concept="cvrD0" id="27H3E6IyiRY" role="coNO9">
-        <node concept="cH3hJ" id="27H3E6IyiRZ" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IyiS0" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiS1" resolve="vvr-bep wordt verleend onder beperkingen" />
+      <node concept="cvrD0" id="6qUJKUPIAch" role="coNO9">
+        <node concept="cH3hJ" id="6qUJKUPIAci" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIAcj" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAck" resolve="vvr-bep wordt verleend onder beperkingen" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiS2" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiS3" resolve="doel waarvoor het verblijf is toegestaan" />
+        <node concept="1FQA6B" id="6qUJKUPIAcl" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAcm" resolve="doel waarvoor het verblijf is toegestaan" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiS1" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAck" role="cu0BP">
       <property role="TrG5h" value="vvr-bep wordt verleend onder beperkingen" />
       <property role="3ANC2_" value="NOTABLE: Bij het nemen van het besluit is de beperking nog niet vastgesteld, er wordt de verplichting (duty) gecreeerd om de beperking vast te stellen. Hiervoor bestaat een 'act' die is beschreven in het Vreemdelingenbesluit (Vb), niet in de Vreemdelingenwet (Vw)." />
-      <node concept="cog_b" id="27H3E6IyiS4" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAcn" role="coufz">
         <property role="1FEjNx" value="Een verblijfsvergunning voor bepaalde tijd wordt verleend onder beperkingen, verband houdende met het doel waarvoor het verblijf is toegestaan." />
-        <ref role="cog$q" node="27H3E6IyiQu" resolve="art. 14 lid 3 Vw (zin 1) {vanaf 01-06-2013}, art. 14 lid 2 Vw (zin 1) {van 01-04-2001 tot 01-06-2013}" />
+        <ref role="cog$q" node="6qUJKUPIAaL" resolve="art. 14 lid 3 Vw (zin 1) {vanaf 01-06-2013}, art. 14 lid 2 Vw (zin 1) {van 01-04-2001 tot 01-06-2013}" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiS3" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAcm" role="cu0BP">
       <property role="TrG5h" value="doel waarvoor het verblijf is toegestaan" />
       <property role="3ANC2_" value="ISSUE: Eigenlijk hoort hier een 'XOR' expression." />
-      <node concept="cog_b" id="27H3E6IyiS5" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAco" role="coufz">
         <property role="1FEjNx" value="Een verblijfsvergunning voor bepaalde tijd wordt verleend onder beperkingen, verband houdende met het doel waarvoor het verblijf is toegestaan." />
-        <ref role="cog$q" node="27H3E6IyiQu" resolve="art. 14 lid 3 Vw (zin 1) {vanaf 01-06-2013}, art. 14 lid 2 Vw (zin 1) {van 01-04-2001 tot 01-06-2013}" />
+        <ref role="cog$q" node="6qUJKUPIAaL" resolve="art. 14 lid 3 Vw (zin 1) {vanaf 01-06-2013}, art. 14 lid 2 Vw (zin 1) {van 01-04-2001 tot 01-06-2013}" />
       </node>
-      <node concept="cvrD0" id="27H3E6IyiS6" role="coNO9">
-        <node concept="cH3hB" id="27H3E6IyiS7" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IyiS8" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiS9" resolve="verblijf als familie- of gezinslid" />
+      <node concept="cvrD0" id="6qUJKUPIAcp" role="coNO9">
+        <node concept="cH3hB" id="6qUJKUPIAcq" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIAcr" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAcs" resolve="verblijf als familie- of gezinslid" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiSa" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiSb" resolve="verblijf als economisch niet-actieve langdurig ingezetene of vermogende vreemdeling" />
+        <node concept="1FQA6B" id="6qUJKUPIAct" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAcu" resolve="verblijf als economisch niet-actieve langdurig ingezetene of vermogende vreemdeling" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiSc" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiSd" resolve="arbeid als zelfstandige" />
+        <node concept="1FQA6B" id="6qUJKUPIAcv" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAcw" resolve="arbeid als zelfstandige" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiSe" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiSf" resolve="arbeid als kennismigrant" />
+        <node concept="1FQA6B" id="6qUJKUPIAcx" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAcy" resolve="arbeid als kennismigrant" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiSg" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiSh" resolve="verblijf als houder van de Europese blauwe kaart" />
+        <node concept="1FQA6B" id="6qUJKUPIAcz" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAc$" resolve="verblijf als houder van de Europese blauwe kaart" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiSi" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiSj" resolve="seizoenarbeid" />
+        <node concept="1FQA6B" id="6qUJKUPIAc_" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAcA" resolve="seizoenarbeid" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiSk" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiSl" resolve="overplaatsing binnen een onderneming" />
+        <node concept="1FQA6B" id="6qUJKUPIAcB" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAcC" resolve="overplaatsing binnen een onderneming" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiSm" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiSn" resolve="arbeid in loondienst" />
+        <node concept="1FQA6B" id="6qUJKUPIAcD" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAcE" resolve="arbeid in loondienst" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiSo" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiSp" resolve="grensoverschrijdende dienstverlening" />
+        <node concept="1FQA6B" id="6qUJKUPIAcF" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAcG" resolve="grensoverschrijdende dienstverlening" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiSq" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiSr" resolve="onderzoek in de zin van richtlijn (EU) 2016/801" />
+        <node concept="1FQA6B" id="6qUJKUPIAcH" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAcI" resolve="onderzoek in de zin van richtlijn (EU) 2016/801" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiSs" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiSt" resolve="lerend werken" />
+        <node concept="1FQA6B" id="6qUJKUPIAcJ" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAcK" resolve="lerend werken" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiSu" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiSv" resolve="arbeid als niet-geprivilegieerd militair of niet-geprivilegieerd burgerpersoneel" />
+        <node concept="1FQA6B" id="6qUJKUPIAcL" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAcM" resolve="arbeid als niet-geprivilegieerd militair of niet-geprivilegieerd burgerpersoneel" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiSw" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiSx" resolve="studie" />
+        <node concept="1FQA6B" id="6qUJKUPIAcN" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAcO" resolve="studie" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiSy" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiSz" resolve="het zoeken naar en verrichten van arbeid al dan niet in loondienst" />
+        <node concept="1FQA6B" id="6qUJKUPIAcP" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAcQ" resolve="het zoeken naar en verrichten van arbeid al dan niet in loondienst" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiS$" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiS_" resolve="uitwisseling" />
+        <node concept="1FQA6B" id="6qUJKUPIAcR" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAcS" resolve="uitwisseling" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiSA" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiSB" resolve="medische behandeling" />
+        <node concept="1FQA6B" id="6qUJKUPIAcT" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAcU" resolve="medische behandeling" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiSC" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiSD" resolve="tijdelijke humanitaire gronden" />
+        <node concept="1FQA6B" id="6qUJKUPIAcV" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAcW" resolve="tijdelijke humanitaire gronden" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiSE" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiSF" resolve="het afwachten van een verzoek op grond van art. 17 RWN" />
+        <node concept="1FQA6B" id="6qUJKUPIAcX" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAcY" resolve="het afwachten van een verzoek op grond van art. 17 RWN" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiSG" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiSH" resolve="niet-tijdelijke humanitaire gronden" />
+        <node concept="1FQA6B" id="6qUJKUPIAcZ" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAd0" resolve="niet-tijdelijke humanitaire gronden" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiSI" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAd1" role="cu0BP">
       <property role="TrG5h" value="vreemdeling beschikt over een geldige machtiging tot voorlopig verblijf" />
-      <node concept="cog_b" id="27H3E6IyiSJ" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAd2" role="coufz">
         <property role="1FEjNx" value="de vreemdeling niet beschikt over een geldige machtiging tot voorlopig verblijf die overeenkomt met het verblijfsdoel waarvoor de verblijfsvergunning is aangevraagd" />
-        <ref role="cog$q" node="27H3E6IyiQv" resolve="art. 16 lid 1, onder a, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaM" resolve="art. 16 lid 1, onder a, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiSK" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAd3" role="cu0BP">
       <property role="TrG5h" value="vreemdeling beschikt over een geldig document voor grensoverschrijding" />
       <property role="3ANC2_" value="NOTABLE: Deze tekst staat zowel in art. 16 als art. 18 lid 1 Vw" />
-      <node concept="cog_b" id="27H3E6IyiSL" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAd4" role="coufz">
         <property role="1FEjNx" value="de vreemdeling niet beschikt over een geldig document voor grensoverschrijding" />
-        <ref role="cog$q" node="27H3E6IyiQw" resolve="art. 16 lid 1, onder b, Vw, and art. 18 lid 1, onder b, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaN" resolve="art. 16 lid 1, onder b, Vw, and art. 18 lid 1, onder b, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiSM" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAd5" role="cu0BP">
       <property role="TrG5h" value="vreemdeling dan wel, de persoon bij wie de vreemdeling wil verblijven, beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
       <property role="3ANC2_" value="QUESTION: Er zijn mensen binnen de IND die vinden dat er een 'XOR' expressie in de functie hoort. Eén van beiden moet duurzaam en zelfstandig beschikken over voldoende middelen van bestaan. De middelen van de vreemdeling en zijn verblijfgever mogen niet bij elkaar worden opgeteld. In de komende week ga ik deze voorwaarde verder uitwerken." />
-      <node concept="cog_b" id="27H3E6IyiSN" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAd6" role="coufz">
         <property role="1FEjNx" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
-        <ref role="cog$q" node="27H3E6IyiQx" resolve="art. 16 lid 1, onder c, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaO" resolve="art. 16 lid 1, onder c, Vw" />
       </node>
-      <node concept="cvrD0" id="27H3E6IyiSO" role="coNO9">
-        <node concept="cH3hB" id="27H3E6IyiSP" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IyiSQ" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiSR" resolve="vreemdeling beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
+      <node concept="cvrD0" id="6qUJKUPIAd7" role="coNO9">
+        <node concept="cH3hB" id="6qUJKUPIAd8" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIAd9" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAda" resolve="vreemdeling beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiSS" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiST" resolve="persoon bij wie de vreemdeling wil verblijven beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
+        <node concept="1FQA6B" id="6qUJKUPIAdb" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAdc" resolve="persoon bij wie de vreemdeling wil verblijven beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiSR" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAda" role="cu0BP">
       <property role="TrG5h" value="vreemdeling beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
-      <node concept="cog_b" id="27H3E6IyiSU" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAdd" role="coufz">
         <property role="1FEjNx" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
-        <ref role="cog$q" node="27H3E6IyiQx" resolve="art. 16 lid 1, onder c, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaO" resolve="art. 16 lid 1, onder c, Vw" />
       </node>
-      <node concept="cvrD0" id="27H3E6IyiSV" role="coNO9">
-        <node concept="cH3hJ" id="27H3E6IyiSW" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IyiSX" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiSY" resolve="vreemdeling beschikt over middelen van bestaan" />
+      <node concept="cvrD0" id="6qUJKUPIAde" role="coNO9">
+        <node concept="cH3hJ" id="6qUJKUPIAdf" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIAdg" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAdh" resolve="vreemdeling beschikt over middelen van bestaan" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiSZ" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiT0" resolve="middelen van bestaan zijn zelfstandig" />
+        <node concept="1FQA6B" id="6qUJKUPIAdi" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAdj" resolve="middelen van bestaan zijn zelfstandig" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiT1" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiT2" resolve="middelen van bestaan zijn duurzaam" />
+        <node concept="1FQA6B" id="6qUJKUPIAdk" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAdl" resolve="middelen van bestaan zijn duurzaam" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiT3" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiT4" resolve="middelen van bestaan zijn voldoende" />
+        <node concept="1FQA6B" id="6qUJKUPIAdm" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAdn" resolve="middelen van bestaan zijn voldoende" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiST" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAdc" role="cu0BP">
       <property role="TrG5h" value="persoon bij wie de vreemdeling wil verblijven beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
-      <node concept="cog_b" id="27H3E6IyiT5" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAdo" role="coufz">
         <property role="1FEjNx" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
-        <ref role="cog$q" node="27H3E6IyiQx" resolve="art. 16 lid 1, onder c, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaO" resolve="art. 16 lid 1, onder c, Vw" />
       </node>
-      <node concept="cvrD0" id="27H3E6IyiT6" role="coNO9">
-        <node concept="cH3hJ" id="27H3E6IyiT7" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IyiT8" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiT9" resolve="persoon bij wie de vreemdeling wil verblijven beschikt over middelen van bestaan" />
+      <node concept="cvrD0" id="6qUJKUPIAdp" role="coNO9">
+        <node concept="cH3hJ" id="6qUJKUPIAdq" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIAdr" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAds" resolve="persoon bij wie de vreemdeling wil verblijven beschikt over middelen van bestaan" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiTa" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiT0" resolve="middelen van bestaan zijn zelfstandig" />
+        <node concept="1FQA6B" id="6qUJKUPIAdt" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAdj" resolve="middelen van bestaan zijn zelfstandig" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiTb" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiT2" resolve="middelen van bestaan zijn duurzaam" />
+        <node concept="1FQA6B" id="6qUJKUPIAdu" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAdl" resolve="middelen van bestaan zijn duurzaam" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiTc" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiT4" resolve="middelen van bestaan zijn voldoende" />
+        <node concept="1FQA6B" id="6qUJKUPIAdv" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAdn" resolve="middelen van bestaan zijn voldoende" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiSY" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAdh" role="cu0BP">
       <property role="TrG5h" value="vreemdeling beschikt over middelen van bestaan" />
-      <node concept="cog_b" id="27H3E6IyiTd" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAdw" role="coufz">
         <property role="1FEjNx" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
-        <ref role="cog$q" node="27H3E6IyiQx" resolve="art. 16 lid 1, onder c, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaO" resolve="art. 16 lid 1, onder c, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiT9" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAds" role="cu0BP">
       <property role="TrG5h" value="persoon bij wie de vreemdeling wil verblijven beschikt over middelen van bestaan" />
-      <node concept="cog_b" id="27H3E6IyiTe" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAdx" role="coufz">
         <property role="1FEjNx" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
-        <ref role="cog$q" node="27H3E6IyiQx" resolve="art. 16 lid 1, onder c, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaO" resolve="art. 16 lid 1, onder c, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiTE" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAdX" role="cu0BP">
       <property role="TrG5h" value="bron van de inkomsten verworven uit eigen vermogen wordt aangetast" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="cu0$f" id="27H3E6IyiT0" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAdj" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn zelfstandig" />
       <property role="3ANC2_" value="QUESTION: In art. 3.73 lid 1 onder e, Vb gaat het over 'voor onderzoek in de zin van richtlijn (EU) 2016/801, studie, lerend werken of uitwisseling', maar in art. 3.4 lid 1 Vb ontbreekt 'verblijf voor' in combinatie met deze verblijfsdoelen. Hoe gaan we hier mee om?" />
-      <node concept="cog_b" id="27H3E6IyiTf" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAdy" role="coufz">
         <property role="1FEjNx" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
-        <ref role="cog$q" node="27H3E6IyiQx" resolve="art. 16 lid 1, onder c, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaO" resolve="art. 16 lid 1, onder c, Vw" />
       </node>
-      <node concept="cvrD0" id="27H3E6IyiTg" role="coNO9">
-        <node concept="cH3hB" id="27H3E6IyiTh" role="1FQA6W" />
-        <node concept="cvrD0" id="27H3E6IyiTi" role="1FQA6S">
-          <node concept="cH3hJ" id="27H3E6IyiTj" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiTk" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiTl" resolve="middelen van bestaan zijn verworven uit wettelijk toegestane arbeid in loondienst" />
+      <node concept="cvrD0" id="6qUJKUPIAdz" role="coNO9">
+        <node concept="cH3hB" id="6qUJKUPIAd$" role="1FQA6W" />
+        <node concept="cvrD0" id="6qUJKUPIAd_" role="1FQA6S">
+          <node concept="cH3hJ" id="6qUJKUPIAdA" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAdB" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAdC" resolve="middelen van bestaan zijn verworven uit wettelijk toegestane arbeid in loondienst" />
           </node>
-          <node concept="1FQA6B" id="27H3E6IyiTm" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiTn" resolve="vereiste premies en belastingen zijn afgedragen" />
-          </node>
-        </node>
-        <node concept="cvrD0" id="27H3E6IyiTo" role="1FQA6S">
-          <node concept="cH3hJ" id="27H3E6IyiTp" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiTq" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiTr" resolve="middelen van bestaan zijn verworven uit wettelijk toegestane arbeid als zelfstandige" />
-          </node>
-          <node concept="1FQA6B" id="27H3E6IyiTs" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiTn" resolve="vereiste premies en belastingen zijn afgedragen" />
+          <node concept="1FQA6B" id="6qUJKUPIAdD" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAdE" resolve="vereiste premies en belastingen zijn afgedragen" />
           </node>
         </node>
-        <node concept="cvrD0" id="27H3E6IyiTt" role="1FQA6S">
-          <node concept="cH3hJ" id="27H3E6IyiTu" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiTv" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiTw" resolve="middelen van bestaan zijn verworven uit inkomensvervangende uitkeringen krachtens een sociale verzekeringswet" />
+        <node concept="cvrD0" id="6qUJKUPIAdF" role="1FQA6S">
+          <node concept="cH3hJ" id="6qUJKUPIAdG" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAdH" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAdI" resolve="middelen van bestaan zijn verworven uit wettelijk toegestane arbeid als zelfstandige" />
           </node>
-          <node concept="1FQA6B" id="27H3E6IyiTx" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiTy" resolve="vereiste premies zijn afgedragen" />
-          </node>
-        </node>
-        <node concept="cvrD0" id="27H3E6IyiTz" role="1FQA6S">
-          <node concept="cH3hJ" id="27H3E6IyiT$" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiT_" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiTA" resolve="middelen van bestaan zijn verworven uit eigen vermogen" />
-          </node>
-          <node concept="cvrD0" id="27H3E6IyiTB" role="1FQA6S">
-            <node concept="cH3hw" id="27H3E6IyiTC" role="1FQA6W" />
-            <node concept="1FQA6B" id="27H3E6IyiTD" role="1FQA6S">
-              <ref role="1FQA6$" node="27H3E6IyiTE" resolve="bron van de inkomsten verworven uit eigen vermogen wordt aangetast" />
-            </node>
-          </node>
-          <node concept="1FQA6B" id="27H3E6IyiTF" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiTG" resolve="vereiste belastingen zijn afgedragen" />
+          <node concept="1FQA6B" id="6qUJKUPIAdJ" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAdE" resolve="vereiste premies en belastingen zijn afgedragen" />
           </node>
         </node>
-        <node concept="cvrD0" id="27H3E6IyiTH" role="1FQA6S">
-          <node concept="cH3hJ" id="27H3E6IyiTI" role="1FQA6W" />
-          <node concept="cvrD0" id="27H3E6IyiTJ" role="1FQA6S">
-            <node concept="cH3hB" id="27H3E6IyiTK" role="1FQA6W" />
-            <node concept="1FQA6B" id="27H3E6IyiTL" role="1FQA6S">
-              <ref role="1FQA6$" node="27H3E6IyiSr" resolve="onderzoek in de zin van richtlijn (EU) 2016/801" />
-            </node>
-            <node concept="1FQA6B" id="27H3E6IyiTM" role="1FQA6S">
-              <ref role="1FQA6$" node="27H3E6IyiSx" resolve="studie" />
-            </node>
-            <node concept="1FQA6B" id="27H3E6IyiTN" role="1FQA6S">
-              <ref role="1FQA6$" node="27H3E6IyiSt" resolve="lerend werken" />
-            </node>
-            <node concept="1FQA6B" id="27H3E6IyiTO" role="1FQA6S">
-              <ref role="1FQA6$" node="27H3E6IyiS_" resolve="uitwisseling" />
+        <node concept="cvrD0" id="6qUJKUPIAdK" role="1FQA6S">
+          <node concept="cH3hJ" id="6qUJKUPIAdL" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAdM" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAdN" resolve="middelen van bestaan zijn verworven uit inkomensvervangende uitkeringen krachtens een sociale verzekeringswet" />
+          </node>
+          <node concept="1FQA6B" id="6qUJKUPIAdO" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAdP" resolve="vereiste premies zijn afgedragen" />
+          </node>
+        </node>
+        <node concept="cvrD0" id="6qUJKUPIAdQ" role="1FQA6S">
+          <node concept="cH3hJ" id="6qUJKUPIAdR" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAdS" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAdT" resolve="middelen van bestaan zijn verworven uit eigen vermogen" />
+          </node>
+          <node concept="cvrD0" id="6qUJKUPIAdU" role="1FQA6S">
+            <node concept="cH3hw" id="6qUJKUPIAdV" role="1FQA6W" />
+            <node concept="1FQA6B" id="6qUJKUPIAdW" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIAdX" resolve="bron van de inkomsten verworven uit eigen vermogen wordt aangetast" />
             </node>
           </node>
-          <node concept="cvrD0" id="27H3E6IyiTP" role="1FQA6S">
-            <node concept="cH3hB" id="27H3E6IyiTQ" role="1FQA6W" />
-            <node concept="1FQA6B" id="27H3E6IyiTR" role="1FQA6S">
-              <ref role="1FQA6$" node="27H3E6IyiTS" resolve="middelen van bestaan zijn verworven uit financiële ondersteuning van de referent" />
+          <node concept="1FQA6B" id="6qUJKUPIAdY" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAdZ" resolve="vereiste belastingen zijn afgedragen" />
+          </node>
+        </node>
+        <node concept="cvrD0" id="6qUJKUPIAe0" role="1FQA6S">
+          <node concept="cH3hJ" id="6qUJKUPIAe1" role="1FQA6W" />
+          <node concept="cvrD0" id="6qUJKUPIAe2" role="1FQA6S">
+            <node concept="cH3hB" id="6qUJKUPIAe3" role="1FQA6W" />
+            <node concept="1FQA6B" id="6qUJKUPIAe4" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIAcI" resolve="onderzoek in de zin van richtlijn (EU) 2016/801" />
             </node>
-            <node concept="1FQA6B" id="27H3E6IyiTT" role="1FQA6S">
-              <ref role="1FQA6$" node="27H3E6IyiTU" resolve="middelen van bestaan zijn verworven uit een subsidie" />
+            <node concept="1FQA6B" id="6qUJKUPIAe5" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIAcO" resolve="studie" />
             </node>
-            <node concept="1FQA6B" id="27H3E6IyiTV" role="1FQA6S">
-              <ref role="1FQA6$" node="27H3E6IyiTW" resolve="middelen van bestaan zijn verworven uit een beurs" />
+            <node concept="1FQA6B" id="6qUJKUPIAe6" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIAcK" resolve="lerend werken" />
             </node>
-            <node concept="1FQA6B" id="27H3E6IyiTX" role="1FQA6S">
-              <ref role="1FQA6$" node="27H3E6IyiTY" resolve="middelen van bestaan zijn verworven uit een toelage" />
+            <node concept="1FQA6B" id="6qUJKUPIAe7" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIAcS" resolve="uitwisseling" />
+            </node>
+          </node>
+          <node concept="cvrD0" id="6qUJKUPIAe8" role="1FQA6S">
+            <node concept="cH3hB" id="6qUJKUPIAe9" role="1FQA6W" />
+            <node concept="1FQA6B" id="6qUJKUPIAea" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIAeb" resolve="middelen van bestaan zijn verworven uit financiële ondersteuning van de referent" />
+            </node>
+            <node concept="1FQA6B" id="6qUJKUPIAec" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIAed" resolve="middelen van bestaan zijn verworven uit een subsidie" />
+            </node>
+            <node concept="1FQA6B" id="6qUJKUPIAee" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIAef" resolve="middelen van bestaan zijn verworven uit een beurs" />
+            </node>
+            <node concept="1FQA6B" id="6qUJKUPIAeg" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIAeh" resolve="middelen van bestaan zijn verworven uit een toelage" />
             </node>
           </node>
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiT2" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAdl" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn duurzaam" />
       <property role="3ANC2_" value="CHECK: wat zegt de wet over de volgorde eigen vermogen en arbeid en loondienst" />
-      <node concept="cog_b" id="27H3E6IyiTZ" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAei" role="coufz">
         <property role="1FEjNx" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
-        <ref role="cog$q" node="27H3E6IyiQx" resolve="art. 16 lid 1, onder c, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaO" resolve="art. 16 lid 1, onder c, Vw" />
       </node>
-      <node concept="cvrD0" id="27H3E6IyiU0" role="coNO9">
-        <node concept="cH3hB" id="27H3E6IyiU1" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IyiU2" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiU3" resolve="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen" />
+      <node concept="cvrD0" id="6qUJKUPIAej" role="coNO9">
+        <node concept="cH3hB" id="6qUJKUPIAek" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIAel" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAem" resolve="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiU4" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiU5" resolve="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de beschikking wordt gegeven" />
+        <node concept="1FQA6B" id="6qUJKUPIAen" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAeo" resolve="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de beschikking wordt gegeven" />
         </node>
-        <node concept="cvrD0" id="27H3E6IyiU6" role="1FQA6S">
-          <node concept="cH3hJ" id="27H3E6IyiU7" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiU8" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiU9" resolve="middelen van bestaan verkregen uit arbeid in loondienst" />
+        <node concept="cvrD0" id="6qUJKUPIAep" role="1FQA6S">
+          <node concept="cH3hJ" id="6qUJKUPIAeq" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAer" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAes" resolve="middelen van bestaan verkregen uit arbeid in loondienst" />
           </node>
-          <node concept="cvrD0" id="27H3E6IyiUa" role="1FQA6S">
-            <node concept="cH3hB" id="27H3E6IyiUb" role="1FQA6W" />
-            <node concept="cvrD0" id="27H3E6IyiUc" role="1FQA6S">
-              <node concept="cH3hJ" id="27H3E6IyiUd" role="1FQA6W" />
-              <node concept="1FQA6B" id="27H3E6IyiUe" role="1FQA6S">
-                <ref role="1FQA6$" node="27H3E6IyiUf" resolve="op het tijdstip waarop de aanvraag is ontvangen zijn gedurende een ononderbroken periode van drie jaren voldoende middelen van bestaan uit arbeid in loondienst verworven" />
+          <node concept="cvrD0" id="6qUJKUPIAet" role="1FQA6S">
+            <node concept="cH3hB" id="6qUJKUPIAeu" role="1FQA6W" />
+            <node concept="cvrD0" id="6qUJKUPIAev" role="1FQA6S">
+              <node concept="cH3hJ" id="6qUJKUPIAew" role="1FQA6W" />
+              <node concept="1FQA6B" id="6qUJKUPIAex" role="1FQA6S">
+                <ref role="1FQA6$" node="6qUJKUPIAey" resolve="op het tijdstip waarop de aanvraag is ontvangen zijn gedurende een ononderbroken periode van drie jaren voldoende middelen van bestaan uit arbeid in loondienst verworven" />
               </node>
-              <node concept="1FQA6B" id="27H3E6IyiUg" role="1FQA6S">
-                <ref role="1FQA6$" node="27H3E6IyiUh" resolve="op het tijdstip waarop de aanvraag is ontvangen zijn de middelen van bestaan gedurende nog zes maanden beschikbaar" />
+              <node concept="1FQA6B" id="6qUJKUPIAez" role="1FQA6S">
+                <ref role="1FQA6$" node="6qUJKUPIAe$" resolve="op het tijdstip waarop de aanvraag is ontvangen zijn de middelen van bestaan gedurende nog zes maanden beschikbaar" />
               </node>
             </node>
-            <node concept="cvrD0" id="27H3E6IyiUi" role="1FQA6S">
-              <node concept="cH3hJ" id="27H3E6IyiUj" role="1FQA6W" />
-              <node concept="1FQA6B" id="27H3E6IyiUk" role="1FQA6S">
-                <ref role="1FQA6$" node="27H3E6IyiUl" resolve="op het tijdstip waarop de beschikking wordt gegeven zijn gedurende een ononderbroken periode van drie jaren voldoende middelen van bestaan uit arbeid in loondienst verworven" />
+            <node concept="cvrD0" id="6qUJKUPIAe_" role="1FQA6S">
+              <node concept="cH3hJ" id="6qUJKUPIAeA" role="1FQA6W" />
+              <node concept="1FQA6B" id="6qUJKUPIAeB" role="1FQA6S">
+                <ref role="1FQA6$" node="6qUJKUPIAeC" resolve="op het tijdstip waarop de beschikking wordt gegeven zijn gedurende een ononderbroken periode van drie jaren voldoende middelen van bestaan uit arbeid in loondienst verworven" />
               </node>
-              <node concept="1FQA6B" id="27H3E6IyiUm" role="1FQA6S">
-                <ref role="1FQA6$" node="27H3E6IyiUn" resolve="op het tijdstip waarop de beschikking wordt gegeven zijn de middelen van bestaan gedurende nog zes maanden beschikbaar" />
+              <node concept="1FQA6B" id="6qUJKUPIAeD" role="1FQA6S">
+                <ref role="1FQA6$" node="6qUJKUPIAeE" resolve="op het tijdstip waarop de beschikking wordt gegeven zijn de middelen van bestaan gedurende nog zes maanden beschikbaar" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="cvrD0" id="27H3E6IyiUo" role="1FQA6S">
-          <node concept="cH3hJ" id="27H3E6IyiUp" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiUq" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiUr" resolve="middelen van bestaan verkregen uit eigen vermogen" />
+        <node concept="cvrD0" id="6qUJKUPIAeF" role="1FQA6S">
+          <node concept="cH3hJ" id="6qUJKUPIAeG" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAeH" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAeI" resolve="middelen van bestaan verkregen uit eigen vermogen" />
           </node>
-          <node concept="1FQA6B" id="27H3E6IyiUs" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiUt" resolve="middelen van bestaan zijn gedurende een aaneengesloten periode van een jaar beschikbaar geweest" />
+          <node concept="1FQA6B" id="6qUJKUPIAeJ" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAeK" resolve="middelen van bestaan zijn gedurende een aaneengesloten periode van een jaar beschikbaar geweest" />
           </node>
-          <node concept="cvrD0" id="27H3E6IyiUu" role="1FQA6S">
-            <node concept="cH3hB" id="27H3E6IyiUv" role="1FQA6W" />
-            <node concept="1FQA6B" id="27H3E6IyiUw" role="1FQA6S">
-              <ref role="1FQA6$" node="27H3E6IyiU3" resolve="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen" />
+          <node concept="cvrD0" id="6qUJKUPIAeL" role="1FQA6S">
+            <node concept="cH3hB" id="6qUJKUPIAeM" role="1FQA6W" />
+            <node concept="1FQA6B" id="6qUJKUPIAeN" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIAem" resolve="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen" />
             </node>
-            <node concept="1FQA6B" id="27H3E6IyiUx" role="1FQA6S">
-              <ref role="1FQA6$" node="27H3E6IyiU5" resolve="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de beschikking wordt gegeven" />
+            <node concept="1FQA6B" id="6qUJKUPIAeO" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIAeo" resolve="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de beschikking wordt gegeven" />
             </node>
           </node>
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiT4" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAdn" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn voldoende" />
       <property role="3ANC2_" value="NOTABLE: Zie art. 3.75 lid 3 Vb voor werkloosheidsuitkering die meetelt voor berekening voldoede inkomen." />
-      <node concept="cog_b" id="27H3E6IyiUy" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAeP" role="coufz">
         <property role="1FEjNx" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
-        <ref role="cog$q" node="27H3E6IyiQx" resolve="art. 16 lid 1, onder c, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaO" resolve="art. 16 lid 1, onder c, Vw" />
       </node>
-      <node concept="cvrD0" id="27H3E6IyiUz" role="coNO9">
-        <node concept="cH3hB" id="27H3E6IyiU$" role="1FQA6W" />
-        <node concept="cvrD0" id="27H3E6IyiU_" role="1FQA6S">
-          <node concept="cH3hJ" id="27H3E6IyiUA" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiUB" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiUC" resolve="middelen van bestaan zijn ten minste gelijk is aan het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
+      <node concept="cvrD0" id="6qUJKUPIAeQ" role="coNO9">
+        <node concept="cH3hB" id="6qUJKUPIAeR" role="1FQA6W" />
+        <node concept="cvrD0" id="6qUJKUPIAeS" role="1FQA6S">
+          <node concept="cH3hJ" id="6qUJKUPIAeT" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAeU" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAeV" resolve="middelen van bestaan zijn ten minste gelijk is aan het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
           </node>
-          <node concept="1FQA6B" id="27H3E6IyiUD" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiUE" resolve="in bij ministeriële regeling aangewezen gevallen zijn middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
+          <node concept="1FQA6B" id="6qUJKUPIAeW" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAeX" resolve="in bij ministeriële regeling aangewezen gevallen zijn middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
           </node>
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiUF" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiUG" resolve="middelen van bestaan zijn voldoende, indien het netto-inkomen ten minste gelijk is aan het normbedrag voor uitwonende studenten, bedoeld in de WSF, indien de vreemdeling in Nederland verblijft of wil verblijven voor studie" />
+        <node concept="1FQA6B" id="6qUJKUPIAeY" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAeZ" resolve="middelen van bestaan zijn voldoende, indien het netto-inkomen ten minste gelijk is aan het normbedrag voor uitwonende studenten, bedoeld in de WSF, indien de vreemdeling in Nederland verblijft of wil verblijven voor studie" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiUC" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAeV" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn ten minste gelijk is aan het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
       <property role="3ANC2_" value="TEMP, no function GREATER THEN OR EQUAL available (rekenkundige functie)" />
-      <node concept="cog_b" id="27H3E6IyiUH" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAf0" role="coufz">
         <property role="1FEjNx" value="het minimumloon, bedoeld in de artikelen 8, eerste lid, onder a, en 14, van de Wet minimumloon en minimumvakantiebijslag, met inbegrip van de vakantiebijslag, bedoeld in artikel 15 van die wet;" />
-        <ref role="cog$q" node="27H3E6IyiQy" resolve="Art. 3.74 lid 1, onder a, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAaP" resolve="Art. 3.74 lid 1, onder a, Vb" />
       </node>
-      <node concept="cvrD0" id="27H3E6IyiUI" role="coNO9">
-        <node concept="cH3hH" id="27H3E6IyiUJ" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IyiUK" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiUL" resolve="minimumloon bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
+      <node concept="cvrD0" id="6qUJKUPIAf1" role="coNO9">
+        <node concept="cH3hH" id="6qUJKUPIAf2" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIAf3" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAf4" resolve="minimumloon bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiUM" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiUN" resolve="middelen van bestaan" />
+        <node concept="1FQA6B" id="6qUJKUPIAf5" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAf6" resolve="middelen van bestaan" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiUN" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAf6" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan" />
       <property role="3ANC2_" value="UITWERKEN sources" />
     </node>
-    <node concept="cu0$f" id="27H3E6IyiUL" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAf4" role="cu0BP">
       <property role="TrG5h" value="minimumloon bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
-      <node concept="cvrD0" id="27H3E6IyiUO" role="coNO9">
-        <node concept="cH3h_" id="27H3E6IyiUP" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IyiUQ" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiUR" resolve="minimumloon bedoeld in de art. 8 lid 1 Wml" />
+      <node concept="cvrD0" id="6qUJKUPIAf7" role="coNO9">
+        <node concept="cH3h_" id="6qUJKUPIAf8" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIAf9" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAfa" resolve="minimumloon bedoeld in de art. 8 lid 1 Wml" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiUS" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiUT" resolve="vakantiebijslag minimum, bedoeld in art. 15 Wml" />
+        <node concept="1FQA6B" id="6qUJKUPIAfb" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAfc" resolve="vakantiebijslag minimum, bedoeld in art. 15 Wml" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiUV" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAfe" role="cu0BP">
       <property role="TrG5h" value="Het minimumloon bedraagt € 1653,60 per maand" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="cu0$f" id="27H3E6IyiUR" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAfa" role="cu0BP">
       <property role="TrG5h" value="minimumloon bedoeld in de art. 8 lid 1 Wml" />
-      <node concept="1FQA6B" id="27H3E6IyiUU" role="coNO9">
-        <ref role="1FQA6$" node="27H3E6IyiUV" resolve="Het minimumloon bedraagt € 1653,60 per maand" />
+      <node concept="1FQA6B" id="6qUJKUPIAfd" role="coNO9">
+        <ref role="1FQA6$" node="6qUJKUPIAfe" resolve="Het minimumloon bedraagt € 1653,60 per maand" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiUT" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAfc" role="cu0BP">
       <property role="TrG5h" value="vakantiebijslag minimum, bedoeld in art. 15 Wml" />
     </node>
-    <node concept="cu0$f" id="27H3E6IyiUE" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAeX" role="cu0BP">
       <property role="TrG5h" value="in bij ministeriële regeling aangewezen gevallen zijn middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
       <property role="3ANC2_" value="TEMP, no function GREATER THEN OR EQUAL available (rekenkundige functie)" />
-      <node concept="cog_b" id="27H3E6IyiUW" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAff" role="coufz">
         <property role="1FEjNx" value="in bij regeling van Onze Minister aangewezen gevallen: 150 procent van het minimumloon, bedoeld in onderdeel a." />
-        <ref role="cog$q" node="27H3E6IyiQz" resolve="Art. 3.74 lid 1, onder b, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAaQ" resolve="Art. 3.74 lid 1, onder b, Vb" />
       </node>
-      <node concept="cvrD0" id="27H3E6IyiUX" role="coNO9">
-        <node concept="cH3hB" id="27H3E6IyiUY" role="1FQA6W" />
-        <node concept="cvrD0" id="27H3E6IyiUZ" role="1FQA6S">
-          <node concept="cH3hH" id="27H3E6IyiV0" role="1FQA6W" />
-          <node concept="cvrD0" id="27H3E6IyiV1" role="1FQA6S">
-            <node concept="cH3hA" id="27H3E6IyiV2" role="1FQA6W" />
-            <node concept="1FQA6B" id="27H3E6IyiV3" role="1FQA6S">
-              <ref role="1FQA6$" node="27H3E6IyiUL" resolve="minimumloon bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
+      <node concept="cvrD0" id="6qUJKUPIAfg" role="coNO9">
+        <node concept="cH3hB" id="6qUJKUPIAfh" role="1FQA6W" />
+        <node concept="cvrD0" id="6qUJKUPIAfi" role="1FQA6S">
+          <node concept="cH3hH" id="6qUJKUPIAfj" role="1FQA6W" />
+          <node concept="cvrD0" id="6qUJKUPIAfk" role="1FQA6S">
+            <node concept="cH3hA" id="6qUJKUPIAfl" role="1FQA6W" />
+            <node concept="1FQA6B" id="6qUJKUPIAfm" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIAf4" resolve="minimumloon bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
             </node>
-            <node concept="1FQA6B" id="27H3E6IyiV4" role="1FQA6S">
-              <ref role="1FQA6$" node="27H3E6IyiV5" resolve="Vul in 1.5 voor factor 150%" />
+            <node concept="1FQA6B" id="6qUJKUPIAfn" role="1FQA6S">
+              <ref role="1FQA6$" node="6qUJKUPIAfo" resolve="Vul in 1.5 voor factor 150%" />
             </node>
           </node>
-          <node concept="1FQA6B" id="27H3E6IyiV6" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiUN" resolve="middelen van bestaan" />
+          <node concept="1FQA6B" id="6qUJKUPIAfp" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAf6" resolve="middelen van bestaan" />
           </node>
         </node>
-        <node concept="cvrD0" id="27H3E6IyiV7" role="1FQA6S">
-          <node concept="cH3hw" id="27H3E6IyiV8" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiV9" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiVa" resolve="in bij ministeriële regeling aangewezen gevallen waarbij middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
+        <node concept="cvrD0" id="6qUJKUPIAfq" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIAfr" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAfs" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAft" resolve="in bij ministeriële regeling aangewezen gevallen waarbij middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiVa" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAft" role="cu0BP">
       <property role="TrG5h" value="in bij ministeriële regeling aangewezen gevallen waarbij middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
       <property role="3ANC2_" value="UITWERKEN: Vullen met au pair en eventuele andere verblijfsdoelen." />
     </node>
-    <node concept="cu0$f" id="27H3E6IyiV5" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAfo" role="cu0BP">
       <property role="TrG5h" value="Vul in 1.5 voor factor 150%" />
     </node>
-    <node concept="cu0$f" id="27H3E6IyiVb" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAfu" role="cu0BP">
       <property role="TrG5h" value="vreemdeling vormt een gevaar voor de openbare orde of nationale veiligheid" />
       <property role="3ANC2_" value="NOTABLE: Deze tekst staat zowel in art. 16 als art. 18 lid 1 Vw" />
-      <node concept="cog_b" id="27H3E6IyiVc" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAfv" role="coufz">
         <property role="1FEjNx" value="de vreemdeling een gevaar vormt voor de openbare orde of nationale veiligheid" />
-        <ref role="cog$q" node="27H3E6IyiQ$" resolve="art. 16 lid 1, onder d, Vw, en art. 18 lid 1, onder e, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaR" resolve="art. 16 lid 1, onder d, Vw, en art. 18 lid 1, onder e, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiVd" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAfw" role="cu0BP">
       <property role="TrG5h" value="vreemdeling is bereid om medewerking te verlenen aan een medisch onderzoek naar een ziekte aangewezen bij of krachtens de Wpg of een medische behandeling tegen een dergelijke ziekte te ondergaan" />
-      <node concept="cog_b" id="27H3E6IyiVe" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAfx" role="coufz">
         <property role="1FEjNx" value="de vreemdeling niet bereid is om medewerking te verlenen aan een medisch onderzoek naar een ziekte aangewezen bij of krachtens de Infectieziektewet, ter bescherming van de volksgezondheid of een medische behandeling tegen een dergelijke ziekte te ondergaan;" />
-        <ref role="cog$q" node="27H3E6IyiQ_" resolve="art. 16 lid 1, onder e, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaS" resolve="art. 16 lid 1, onder e, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiVf" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAfy" role="cu0BP">
       <property role="TrG5h" value="vreemdeling voor een werkgever arbeid heeft verricht, zonder dat aan de Wet arbeid vreemdelingen is voldaan" />
       <property role="3ANC2_" value="ISSUE: deze tekst komt voor in 2 artikelen." />
-      <node concept="cog_b" id="27H3E6IyiVg" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAfz" role="coufz">
         <property role="1FEjNx" value="de vreemdeling voor een werkgever arbeid verricht, zonder dat aan deWet arbeid vreemdelingenis voldaan" />
-        <ref role="cog$q" node="27H3E6IyiQA" resolve="art. 16 lid 1, onder f, Vw en art. 18 lid 1, onder g, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaT" resolve="art. 16 lid 1, onder f, Vw en art. 18 lid 1, onder g, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiVh" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAf$" role="cu0BP">
       <property role="TrG5h" value="vreemdeling voldoet aan de beperking, verband houdende met het doel waarvoor hij wil verblijven" />
-      <node concept="cog_b" id="27H3E6IyiVi" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAf_" role="coufz">
         <property role="1FEjNx" value="de vreemdeling niet voldoet aan de beperking, verband houdende met het doel waarvoor hij wil verblijven" />
-        <ref role="cog$q" node="27H3E6IyiQB" resolve="art. 16 lid 1, onder g, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaU" resolve="art. 16 lid 1, onder g, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiVj" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAfA" role="cu0BP">
       <property role="TrG5h" value="vreemdeling beschikt over kennis op basisniveau van de Nederlandse taal en de Nederlandse maatschappij" />
-      <node concept="cog_b" id="27H3E6IyiVk" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAfB" role="coufz">
         <property role="1FEjNx" value="de vreemdeling, die niet behoort tot een der categorieën, bedoeld in artikel 17, eerste lid, na verkrijging van rechtmatig verblijf in Nederland inburgeringsplichtig zou zijn op grond van de artikel en 3 en 5 van de Wet inburgering en niet beschikt over kennis op basisniveau van de Nederlandse taal en de Nederlandse maatschappij" />
-        <ref role="cog$q" node="27H3E6IyiQC" resolve="art. 16 lid 1, onder h, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaV" resolve="art. 16 lid 1, onder h, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiVl" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAfC" role="cu0BP">
       <property role="TrG5h" value="vreemdeling heeft onjuiste gegevens verstrekt dan wel gegevens achtergehouden" />
       <property role="3ANC2_" value="NOTABLE: Van 01-06-2013 tot 21-09-2013 zijn er twee onderdelen 'i' in art. 16 lid 1 Vw." />
-      <node concept="cog_b" id="27H3E6IyiVm" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAfD" role="coufz">
         <property role="1FEjNx" value="de vreemdeling onjuiste gegevens heeft verstrekt dan wel gegevens heeft achtergehouden terwijl die gegevens tot afwijzing van een eerdere aanvraag tot het verlenen, verlengen of wijzigen van een visum of een verblijfsvergunning hebben geleid of zouden hebben geleid" />
-        <ref role="cog$q" node="27H3E6IyiQD" resolve="art. 16 lid 1, onder i, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaW" resolve="art. 16 lid 1, onder i, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiVn" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAfE" role="cu0BP">
       <property role="TrG5h" value="vreemdeling heeft in Nederland verblijf gehouden, anders dan op grond van art. 8 Vw" />
       <property role="3ANC2_" value="ERROR: in de 'source text' eindigt dit zinsdeel ten onrechte met een '.'." />
-      <node concept="cog_b" id="27H3E6IyiVo" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAfF" role="coufz">
         <property role="1FEjNx" value="de vreemdeling in Nederland verblijf heeft gehouden, anders dan op grond van artikel 8" />
-        <ref role="cog$q" node="27H3E6IyiQE" resolve="art. 16 lid 1, onder j, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaX" resolve="art. 16 lid 1, onder j, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiVp" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAfG" role="cu0BP">
       <property role="TrG5h" value="ten behoeve van het verblijf van de vreemdeling is een verklaring van een referent overgelegd als bedoeld in art. 2a lid 1 Vw" />
       <property role="3ANC2_" value="NOTABLE: Dit onderdeel van art. 16 lid 1 Vw is hernummerd. Van 01-06-2013 tot 21-09-2013 zijn er twee onderdelen 'i' in art. 16 lid 1 Vw." />
-      <node concept="cog_b" id="27H3E6IyiVq" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAfH" role="coufz">
         <property role="1FEjNx" value="ten behoeve van het verblijf van de vreemdeling geen verklaring van een referent is overgelegd als bedoeld in artikel 2a, eerste lid" />
-        <ref role="cog$q" node="27H3E6IyiQF" resolve="art. 16 lid 1, onder k, Vw {vanaf 21-09-2013}; art. 16 lid 1, onder i, Vw {van 01-06-2013 tot 21-09-2013}; art. 18 lid 1, onder h, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaY" resolve="art. 16 lid 1, onder k, Vw {vanaf 21-09-2013}; art. 16 lid 1, onder i, Vw {van 01-06-2013 tot 21-09-2013}; art. 18 lid 1, onder h, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiVr" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAfI" role="cu0BP">
       <property role="TrG5h" value="houder van een vvr-bep zijn hoofdverblijf buiten Nederland heeft gevestigd" />
-      <node concept="cog_b" id="27H3E6IyiVs" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAfJ" role="coufz">
         <property role="1FEjNx" value="de houder daarvan zijn hoofdverblijf buiten Nederland heeft gevestigd" />
-        <ref role="cog$q" node="27H3E6IyiQG" resolve="art. 18 lid 1, onder a, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaZ" resolve="art. 18 lid 1, onder a, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiVt" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAfK" role="cu0BP">
       <property role="TrG5h" value="vreemdeling heeft onjuiste gegevens verstrekt dan wel gegevens heeft achtergehouden" />
       <property role="3ANC2_" value="QUESTION: 'fact frame' is hetzelfde als bij art. 16 lid 1, onder i, Vw, maar de 'source text' is niet gelijk. Hoe gaan we w=daar mee om?" />
-      <node concept="cog_b" id="27H3E6IyiVu" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAfL" role="coufz">
         <property role="1FEjNx" value="de vreemdeling onjuiste gegevens heeft verstrekt dan wel gegevens heeft achtergehouden terwijl die gegevens tot afwijzing van de oorspronkelijke aanvraag tot het verlenen of verlengen zouden hebben geleid" />
-        <ref role="cog$q" node="27H3E6IyiQH" resolve="art. 18 lid 1, onder c, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAb0" resolve="art. 18 lid 1, onder c, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiVv" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAfM" role="cu0BP">
       <property role="TrG5h" value="voldaan wordt aan de beperking waaronder de vergunning is verleend of een voorschrift dat aan de vergunning is verbonden" />
       <property role="3ANC2_" value="NOTABLE: Dit fragment lijkt erg op art. 16 lid 1, onder g, Vw maar is niet hetzelfde." />
-      <node concept="cog_b" id="27H3E6IyiVw" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAfN" role="coufz">
         <property role="1FEjNx" value="niet wordt voldaan aan de beperking waaronder de vergunning is verleend of een voorschrift dat aan de vergunning is verbonden;" />
-        <ref role="cog$q" node="27H3E6IyiQI" resolve="art. 18 lid 1, onder f, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAb1" resolve="art. 18 lid 1, onder f, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiVx" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAfO" role="cu0BP">
       <property role="TrG5h" value="vreemdeling heeft voldaan aan de inburgeringsplicht, bedoeld in art. 7 lid 1 Wib" />
-      <node concept="cog_b" id="27H3E6IyiVy" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAfP" role="coufz">
         <property role="1FEjNx" value="de vreemdeling niet heeft voldaan aan de inburgeringsplicht, bedoeld inartikel 7, eerste lid, van de Wet inburgering" />
-        <ref role="cog$q" node="27H3E6IyiQJ" resolve="art. 18 lid 1, onder i, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAb2" resolve="art. 18 lid 1, onder i, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiVz" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAfQ" role="cu0BP">
       <property role="TrG5h" value="vreemdeling is leges verschuldigd terzake van de afdoening van een aanvraag" />
-      <node concept="cog_b" id="27H3E6IyiV$" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAfR" role="coufz">
         <property role="1FEjNx" value="De vreemdeling is, in door Onze Minister te bepalen gevallen en volgens door Onze Minister te geven regels, leges verschuldigd terzake van de afdoening van een aanvraag." />
-        <ref role="cog$q" node="27H3E6IyiQK" resolve="art. 24 lid 1 Vw (zin 1)" />
+        <ref role="cog$q" node="6qUJKUPIAb3" resolve="art. 24 lid 1 Vw (zin 1)" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiV_" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAfS" role="cu0BP">
       <property role="TrG5h" value="betaling verschuldigde leges is achterwege gebleven" />
-      <node concept="cog_b" id="27H3E6IyiVA" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAfT" role="coufz">
         <property role="1FEjNx" value="Als betaling achterwege blijft, wordt de aanvraag niet in behandeling genomen dan wel het document niet afgegeven." />
-        <ref role="cog$q" node="27H3E6IyiQL" resolve="art. 24 lid 1 Vw (zin 3)" />
+        <ref role="cog$q" node="6qUJKUPIAb4" resolve="art. 24 lid 1 Vw (zin 3)" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiVB" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAfU" role="cu0BP">
       <property role="TrG5h" value="verblijfsvergunning verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet" />
-      <node concept="cog_b" id="27H3E6IyiVC" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAfV" role="coufz">
         <property role="1FEjNx" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
-        <ref role="cog$q" node="27H3E6IyiQM" resolve="art. 26 lid 1 Vw" />
+        <ref role="cog$q" node="6qUJKUPIAb5" resolve="art. 26 lid 1 Vw" />
       </node>
-      <node concept="cvrD0" id="27H3E6IyiVD" role="coNO9">
-        <node concept="cH3hJ" id="27H3E6IyiVE" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IyiVF" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiVG" resolve="vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet" />
+      <node concept="cvrD0" id="6qUJKUPIAfW" role="coNO9">
+        <node concept="cH3hJ" id="6qUJKUPIAfX" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIAfY" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAfZ" resolve="vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiVH" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiVI" resolve="dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet" />
+        <node concept="1FQA6B" id="6qUJKUPIAg0" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAg1" resolve="dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet" />
         </node>
-        <node concept="cvrD0" id="27H3E6IyiVJ" role="1FQA6S">
-          <node concept="cH3hw" id="27H3E6IyiVK" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiVL" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiVM" resolve="dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet ligt voor de dag waarop de aanvraag is ontvangen" />
+        <node concept="cvrD0" id="6qUJKUPIAg2" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIAg3" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAg4" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAg5" resolve="dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet ligt voor de dag waarop de aanvraag is ontvangen" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiVG" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAfZ" role="cu0BP">
       <property role="TrG5h" value="vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet" />
-      <node concept="cog_b" id="27H3E6IyiVN" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAg6" role="coufz">
         <property role="1FEjNx" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
-        <ref role="cog$q" node="27H3E6IyiQM" resolve="art. 26 lid 1 Vw" />
+        <ref role="cog$q" node="6qUJKUPIAb5" resolve="art. 26 lid 1 Vw" />
       </node>
-      <node concept="cvrD0" id="27H3E6IyiVO" role="coNO9">
-        <node concept="cH3hJ" id="27H3E6IyiVP" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IyiVQ" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiVR" resolve="vreemdeling laat een gezichtsopname en tien vingerafdrukken afnemen" />
+      <node concept="cvrD0" id="6qUJKUPIAg7" role="coNO9">
+        <node concept="cH3hJ" id="6qUJKUPIAg8" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIAg9" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAga" resolve="vreemdeling laat een gezichtsopname en tien vingerafdrukken afnemen" />
         </node>
-        <node concept="cvrD0" id="27H3E6IyiVS" role="1FQA6S">
-          <node concept="cH3hB" id="27H3E6IyiVT" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiVU" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiVV" resolve="vreemdeling voldoet aan voorwaarden voor het verlenen van een vvr-bep" />
+        <node concept="cvrD0" id="6qUJKUPIAgb" role="1FQA6S">
+          <node concept="cH3hB" id="6qUJKUPIAgc" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAgd" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAge" resolve="vreemdeling voldoet aan voorwaarden voor het verlenen van een vvr-bep" />
           </node>
-          <node concept="1FQA6B" id="27H3E6IyiVW" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiVX" resolve="vreemdeling voldoet aan voorwaarden voor het verlengen van een vvr-bep" />
+          <node concept="1FQA6B" id="6qUJKUPIAgf" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAgg" resolve="vreemdeling voldoet aan voorwaarden voor het verlengen van een vvr-bep" />
           </node>
-          <node concept="1FQA6B" id="27H3E6IyiVY" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiVZ" resolve="vreemdeling voldoet aan voorwaarden voor het wijzigen van een vvr-bep" />
+          <node concept="1FQA6B" id="6qUJKUPIAgh" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAgi" resolve="vreemdeling voldoet aan voorwaarden voor het wijzigen van een vvr-bep" />
           </node>
-          <node concept="1FQA6B" id="27H3E6IyiW0" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiW1" resolve="vreemdeling voldoet aan voorwaarden voor het verlenen van een vvr-onbep" />
+          <node concept="1FQA6B" id="6qUJKUPIAgj" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAgk" resolve="vreemdeling voldoet aan voorwaarden voor het verlenen van een vvr-onbep" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiVV" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAge" role="cu0BP">
       <property role="TrG5h" value="vreemdeling voldoet aan voorwaarden voor het verlenen van een vvr-bep" />
       <property role="3ANC2_" value="QUESTION: Hoe omgaan met het gebruik van 'de' en 'een' in FLINT. Bijvoorbeeld is [vreemdeling is leges verschuldigd terzake van de afdoening van een aanvraag]: 'de' of 'een' aanvraag?" />
-      <node concept="cog_b" id="27H3E6IyiW2" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAgl" role="coufz">
         <property role="1FEjNx" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
-        <ref role="cog$q" node="27H3E6IyiQM" resolve="art. 26 lid 1 Vw" />
+        <ref role="cog$q" node="6qUJKUPIAb5" resolve="art. 26 lid 1 Vw" />
       </node>
-      <node concept="cvrD0" id="27H3E6IyiW3" role="coNO9">
-        <node concept="cH3hJ" id="27H3E6IyiW4" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IyiW5" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiS3" resolve="doel waarvoor het verblijf is toegestaan" />
+      <node concept="cvrD0" id="6qUJKUPIAgm" role="coNO9">
+        <node concept="cH3hJ" id="6qUJKUPIAgn" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIAgo" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAcm" resolve="doel waarvoor het verblijf is toegestaan" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiW6" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiSI" resolve="vreemdeling beschikt over een geldige machtiging tot voorlopig verblijf" />
+        <node concept="1FQA6B" id="6qUJKUPIAgp" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAd1" resolve="vreemdeling beschikt over een geldige machtiging tot voorlopig verblijf" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiW7" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiSK" resolve="vreemdeling beschikt over een geldig document voor grensoverschrijding" />
+        <node concept="1FQA6B" id="6qUJKUPIAgq" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAd3" resolve="vreemdeling beschikt over een geldig document voor grensoverschrijding" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiW8" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiSM" resolve="vreemdeling dan wel, de persoon bij wie de vreemdeling wil verblijven, beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
+        <node concept="1FQA6B" id="6qUJKUPIAgr" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAd5" resolve="vreemdeling dan wel, de persoon bij wie de vreemdeling wil verblijven, beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
         </node>
-        <node concept="cvrD0" id="27H3E6IyiW9" role="1FQA6S">
-          <node concept="cH3hw" id="27H3E6IyiWa" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiWb" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiVb" resolve="vreemdeling vormt een gevaar voor de openbare orde of nationale veiligheid" />
+        <node concept="cvrD0" id="6qUJKUPIAgs" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIAgt" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAgu" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAfu" resolve="vreemdeling vormt een gevaar voor de openbare orde of nationale veiligheid" />
           </node>
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiWc" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiVd" resolve="vreemdeling is bereid om medewerking te verlenen aan een medisch onderzoek naar een ziekte aangewezen bij of krachtens de Wpg of een medische behandeling tegen een dergelijke ziekte te ondergaan" />
+        <node concept="1FQA6B" id="6qUJKUPIAgv" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAfw" resolve="vreemdeling is bereid om medewerking te verlenen aan een medisch onderzoek naar een ziekte aangewezen bij of krachtens de Wpg of een medische behandeling tegen een dergelijke ziekte te ondergaan" />
         </node>
-        <node concept="cvrD0" id="27H3E6IyiWd" role="1FQA6S">
-          <node concept="cH3hw" id="27H3E6IyiWe" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiWf" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiVf" resolve="vreemdeling voor een werkgever arbeid heeft verricht, zonder dat aan de Wet arbeid vreemdelingen is voldaan" />
+        <node concept="cvrD0" id="6qUJKUPIAgw" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIAgx" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAgy" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAfy" resolve="vreemdeling voor een werkgever arbeid heeft verricht, zonder dat aan de Wet arbeid vreemdelingen is voldaan" />
           </node>
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiWg" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiVh" resolve="vreemdeling voldoet aan de beperking, verband houdende met het doel waarvoor hij wil verblijven" />
+        <node concept="1FQA6B" id="6qUJKUPIAgz" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAf$" resolve="vreemdeling voldoet aan de beperking, verband houdende met het doel waarvoor hij wil verblijven" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiWh" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiVj" resolve="vreemdeling beschikt over kennis op basisniveau van de Nederlandse taal en de Nederlandse maatschappij" />
+        <node concept="1FQA6B" id="6qUJKUPIAg$" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAfA" resolve="vreemdeling beschikt over kennis op basisniveau van de Nederlandse taal en de Nederlandse maatschappij" />
         </node>
-        <node concept="cvrD0" id="27H3E6IyiWi" role="1FQA6S">
-          <node concept="cH3hw" id="27H3E6IyiWj" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiWk" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiVl" resolve="vreemdeling heeft onjuiste gegevens verstrekt dan wel gegevens achtergehouden" />
+        <node concept="cvrD0" id="6qUJKUPIAg_" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIAgA" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAgB" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAfC" resolve="vreemdeling heeft onjuiste gegevens verstrekt dan wel gegevens achtergehouden" />
           </node>
         </node>
-        <node concept="cvrD0" id="27H3E6IyiWl" role="1FQA6S">
-          <node concept="cH3hw" id="27H3E6IyiWm" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiWn" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiVn" resolve="vreemdeling heeft in Nederland verblijf gehouden, anders dan op grond van art. 8 Vw" />
+        <node concept="cvrD0" id="6qUJKUPIAgC" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIAgD" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAgE" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAfE" resolve="vreemdeling heeft in Nederland verblijf gehouden, anders dan op grond van art. 8 Vw" />
           </node>
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiWo" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiVp" resolve="ten behoeve van het verblijf van de vreemdeling is een verklaring van een referent overgelegd als bedoeld in art. 2a lid 1 Vw" />
+        <node concept="1FQA6B" id="6qUJKUPIAgF" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAfG" resolve="ten behoeve van het verblijf van de vreemdeling is een verklaring van een referent overgelegd als bedoeld in art. 2a lid 1 Vw" />
         </node>
-        <node concept="cvrD0" id="27H3E6IyiWp" role="1FQA6S">
-          <node concept="cH3hw" id="27H3E6IyiWq" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiWr" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiVz" resolve="vreemdeling is leges verschuldigd terzake van de afdoening van een aanvraag" />
+        <node concept="cvrD0" id="6qUJKUPIAgG" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIAgH" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAgI" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAfQ" resolve="vreemdeling is leges verschuldigd terzake van de afdoening van een aanvraag" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiVX" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAgg" role="cu0BP">
       <property role="TrG5h" value="vreemdeling voldoet aan voorwaarden voor het verlengen van een vvr-bep" />
-      <node concept="cog_b" id="27H3E6IyiWs" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAgJ" role="coufz">
         <property role="1FEjNx" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
-        <ref role="cog$q" node="27H3E6IyiQM" resolve="art. 26 lid 1 Vw" />
+        <ref role="cog$q" node="6qUJKUPIAb5" resolve="art. 26 lid 1 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiVZ" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAgi" role="cu0BP">
       <property role="TrG5h" value="vreemdeling voldoet aan voorwaarden voor het wijzigen van een vvr-bep" />
-      <node concept="cog_b" id="27H3E6IyiWt" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAgK" role="coufz">
         <property role="1FEjNx" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
-        <ref role="cog$q" node="27H3E6IyiQM" resolve="art. 26 lid 1 Vw" />
+        <ref role="cog$q" node="6qUJKUPIAb5" resolve="art. 26 lid 1 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiW1" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAgk" role="cu0BP">
       <property role="TrG5h" value="vreemdeling voldoet aan voorwaarden voor het verlenen van een vvr-onbep" />
-      <node concept="cog_b" id="27H3E6IyiWu" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAgL" role="coufz">
         <property role="1FEjNx" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
-        <ref role="cog$q" node="27H3E6IyiQM" resolve="art. 26 lid 1 Vw" />
+        <ref role="cog$q" node="6qUJKUPIAb5" resolve="art. 26 lid 1 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiVI" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAg1" role="cu0BP">
       <property role="TrG5h" value="dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet" />
       <property role="3ANC2_" value="QUESTION: Dit 'fact' vereist een 'datum' om waar te kunnen zijn." />
-      <node concept="cog_b" id="27H3E6IyiWv" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAgM" role="coufz">
         <property role="1FEjNx" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
-        <ref role="cog$q" node="27H3E6IyiQM" resolve="art. 26 lid 1 Vw" />
+        <ref role="cog$q" node="6qUJKUPIAb5" resolve="art. 26 lid 1 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiVM" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAg5" role="cu0BP">
       <property role="TrG5h" value="dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet ligt voor de dag waarop de aanvraag is ontvangen" />
       <property role="3ANC2_" value="QUESTION: Is het niet beter om dit 'fact' te vervangen door een berekening. Zoals: [dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet()] ≥ [dag waarop de aanvraag is ontvangen()]. Of is dit meer iets voor eFLINT?" />
-      <node concept="cog_b" id="27H3E6IyiWw" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAgN" role="coufz">
         <property role="1FEjNx" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
-        <ref role="cog$q" node="27H3E6IyiQM" resolve="art. 26 lid 1 Vw" />
+        <ref role="cog$q" node="6qUJKUPIAb5" resolve="art. 26 lid 1 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiWx" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAgO" role="cu0BP">
       <property role="TrG5h" value="vreemdeling heeft inreisverbod of is gesignaleerd ter fine van weigering van de toegang" />
       <property role="3ANC2_" value="NOTABLE: Dit 'fact' verwijst alleen naar de termen 'inreisverbod' en 'gesignaleerd'. De uitzonderingen die volgen na de dubbele punt zijn daarvoor niet relevant." />
-      <node concept="cog_b" id="27H3E6IyiWy" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAgP" role="coufz">
         <property role="1FEjNx" value="In afwijking van artikel 8 kan de vreemdeling jegens wie een inreisverbod geldt of die is gesignaleerd ter fine van weigering van de toegang geen rechtmatig verblijf hebben, met uitzondering van het rechtmatig verblijf:" />
-        <ref role="cog$q" node="27H3E6IyiQN" resolve="art. 66a lid 6 Vw" />
+        <ref role="cog$q" node="6qUJKUPIAb6" resolve="art. 66a lid 6 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiWz" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAgQ" role="cu0BP">
       <property role="TrG5h" value="ongewenst verklaarde vreemdeling" />
       <property role="3ANC2_" value="ISSUE: &lt;&lt;&gt;&gt; geeft foutmelding" />
-      <node concept="cog_b" id="27H3E6IyiW$" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAgR" role="coufz">
         <property role="1FEjNx" value="In afwijking van artikel 8 kan de ongewenst verklaarde vreemdeling geen rechtmatig verblijf hebben." />
-        <ref role="cog$q" node="27H3E6IyiQO" resolve="art. 67 lid 3 Vw" />
+        <ref role="cog$q" node="6qUJKUPIAb7" resolve="art. 67 lid 3 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiVR" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAga" role="cu0BP">
       <property role="TrG5h" value="vreemdeling laat een gezichtsopname en tien vingerafdrukken afnemen" />
       <property role="3ANC2_" value="NOTABLE: art.' 106a lid Vw is geschreven als een 'kan-bepaling'. Het meewerken hieraan is geïnterpreteerd als een voorwaarde voor de vvr." />
-      <node concept="cog_b" id="27H3E6IyiW_" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAgS" role="coufz">
         <property role="1FEjNx" value="Voor zover op grond van de Europese verordeningen die betrekking hebben op biometrische gegevens geen gezichtsopname of vingerafdrukken kunnen worden afgenomen en verwerkt, kunnen van een vreemdeling een gezichtsopname en tien vingerafdrukken worden afgenomen en verwerkt voor het vaststellen van de identiteit met het oog op de uitvoering van deze wet." />
-        <ref role="cog$q" node="27H3E6IyiQP" resolve="art. 106a lid 1 Vw (eerste zin)" />
+        <ref role="cog$q" node="6qUJKUPIAb8" resolve="art. 106a lid 1 Vw (eerste zin)" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiS9" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAcs" role="cu0BP">
       <property role="TrG5h" value="verblijf als familie- of gezinslid" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="27H3E6IyiWA" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAgT" role="coufz">
         <property role="1FEjNx" value="verblijf als familie- of gezinslid" />
-        <ref role="cog$q" node="27H3E6IyiQQ" resolve="art. 3.4 lid 1, onder a, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAb9" resolve="art. 3.4 lid 1, onder a, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiSb" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAcu" role="cu0BP">
       <property role="TrG5h" value="verblijf als economisch niet-actieve langdurig ingezetene of vermogende vreemdeling" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-12-2006 (in ieder geval voor de geldigheid)? ISSUE: dit artikel is hernummerd." />
-      <node concept="cog_b" id="27H3E6IyiWB" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAgU" role="coufz">
         <property role="1FEjNx" value="verblijf als economisch niet-actieve langdurig ingezetene of vermogende vreemdeling" />
-        <ref role="cog$q" node="27H3E6IyiQR" resolve="art. 3.4 lid 1, onder aa, Vb {vanaf 01-06-2013} en art. 3.4 lid 1, onder aa, Vb {vanaf 01-12-2006 tot 01-06-2013}" />
+        <ref role="cog$q" node="6qUJKUPIAba" resolve="art. 3.4 lid 1, onder aa, Vb {vanaf 01-06-2013} en art. 3.4 lid 1, onder aa, Vb {vanaf 01-12-2006 tot 01-06-2013}" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiSd" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAcw" role="cu0BP">
       <property role="TrG5h" value="arbeid als zelfstandige" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="27H3E6IyiWC" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAgV" role="coufz">
         <property role="1FEjNx" value="arbeid als zelfstandige" />
-        <ref role="cog$q" node="27H3E6IyiQS" resolve="art. 3.4 lid 1, onder c, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbb" resolve="art. 3.4 lid 1, onder c, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiSf" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAcy" role="cu0BP">
       <property role="TrG5h" value="arbeid als kennismigrant" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="27H3E6IyiWD" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAgW" role="coufz">
         <property role="1FEjNx" value="arbeid als kennismigrant" />
-        <ref role="cog$q" node="27H3E6IyiQT" resolve="art. 3.4 lid 1, onder d, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbc" resolve="art. 3.4 lid 1, onder d, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiSh" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAc$" role="cu0BP">
       <property role="TrG5h" value="verblijf als houder van de Europese blauwe kaart" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 19-06-2011 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="27H3E6IyiWE" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAgX" role="coufz">
         <property role="1FEjNx" value="verblijf als houder van de Europese blauwe kaart" />
-        <ref role="cog$q" node="27H3E6IyiQU" resolve="art. 3.4 lid 1, onder e, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbd" resolve="art. 3.4 lid 1, onder e, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiSj" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAcA" role="cu0BP">
       <property role="TrG5h" value="seizoenarbeid" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="27H3E6IyiWF" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAgY" role="coufz">
         <property role="1FEjNx" value="seizoensarbeid" />
-        <ref role="cog$q" node="27H3E6IyiQV" resolve="art. 3.4 lid 1, onder f, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbe" resolve="art. 3.4 lid 1, onder f, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiSl" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAcC" role="cu0BP">
       <property role="TrG5h" value="overplaatsing binnen een onderneming" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 29-11-2016 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="27H3E6IyiWG" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAgZ" role="coufz">
         <property role="1FEjNx" value="overplaatsing binnen een onderneming" />
-        <ref role="cog$q" node="27H3E6IyiQW" resolve="art. 3.4 lid 1, onder g, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbf" resolve="art. 3.4 lid 1, onder g, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiSn" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAcE" role="cu0BP">
       <property role="TrG5h" value="arbeid in loondienst" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="27H3E6IyiWH" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAh0" role="coufz">
         <property role="1FEjNx" value="arbeid in loondienst" />
-        <ref role="cog$q" node="27H3E6IyiQX" resolve="art. 3.4 lid 1, onder h, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbg" resolve="art. 3.4 lid 1, onder h, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiSp" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAcG" role="cu0BP">
       <property role="TrG5h" value="grensoverschrijdende dienstverlening" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="27H3E6IyiWI" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAh1" role="coufz">
         <property role="1FEjNx" value="grensoverschrijdende dienstverlening" />
-        <ref role="cog$q" node="27H3E6IyiQY" resolve="art. 3.4 lid 1, onder i, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbh" resolve="art. 3.4 lid 1, onder i, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiSr" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAcI" role="cu0BP">
       <property role="TrG5h" value="onderzoek in de zin van richtlijn (EU) 2016/801" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert niet naar datum 23-05-2018 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="27H3E6IyiWJ" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAh2" role="coufz">
         <property role="1FEjNx" value="onderzoek in de zin van richtlijn (EU) 2016/801" />
-        <ref role="cog$q" node="27H3E6IyiQZ" resolve="art. 3.4 lid 1, onder j, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbi" resolve="art. 3.4 lid 1, onder j, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiSt" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAcK" role="cu0BP">
       <property role="TrG5h" value="lerend werken" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="27H3E6IyiWK" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAh3" role="coufz">
         <property role="1FEjNx" value="lerend werken" />
-        <ref role="cog$q" node="27H3E6IyiR0" resolve="art. 3.4 lid 1, onder k, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbj" resolve="art. 3.4 lid 1, onder k, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiSv" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAcM" role="cu0BP">
       <property role="TrG5h" value="arbeid als niet-geprivilegieerd militair of niet-geprivilegieerd burgerpersoneel" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="27H3E6IyiWL" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAh4" role="coufz">
         <property role="1FEjNx" value="arbeid als niet-geprivilegieerd militair of niet-geprivilegieerd burgerpersoneel" />
-        <ref role="cog$q" node="27H3E6IyiR1" resolve="art. 3.4 lid 1, onder l, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbk" resolve="art. 3.4 lid 1, onder l, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiSx" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAcO" role="cu0BP">
       <property role="TrG5h" value="studie" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="27H3E6IyiWM" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAh5" role="coufz">
         <property role="1FEjNx" value="studie" />
-        <ref role="cog$q" node="27H3E6IyiR2" resolve="art. 3.4 lid 1, onder m, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbl" resolve="art. 3.4 lid 1, onder m, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiSz" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAcQ" role="cu0BP">
       <property role="TrG5h" value="het zoeken naar en verrichten van arbeid al dan niet in loondienst" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 2001-04-01, of in ieder geval naar de eerste versie van de digitale versie van de Vb van 2002-01-01 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="27H3E6IyiWN" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAh6" role="coufz">
         <property role="1FEjNx" value="het zoeken naar en verrichten van arbeid al dan niet in loondienst" />
-        <ref role="cog$q" node="27H3E6IyiR3" resolve="art. 3.4 lid 1, onder n, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbm" resolve="art. 3.4 lid 1, onder n, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiS_" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAcS" role="cu0BP">
       <property role="TrG5h" value="uitwisseling" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="27H3E6IyiWO" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAh7" role="coufz">
         <property role="1FEjNx" value="uitwisseling, al dan niet in het kader van een verdrag" />
-        <ref role="cog$q" node="27H3E6IyiR4" resolve="art. 3.4 lid 1, onder o, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbn" resolve="art. 3.4 lid 1, onder o, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiSB" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAcU" role="cu0BP">
       <property role="TrG5h" value="medische behandeling" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="27H3E6IyiWP" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAh8" role="coufz">
         <property role="1FEjNx" value="medische behandeling" />
-        <ref role="cog$q" node="27H3E6IyiR5" resolve="art. 3.4 lid 1, onder p, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbo" resolve="art. 3.4 lid 1, onder p, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiSD" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAcW" role="cu0BP">
       <property role="TrG5h" value="tijdelijke humanitaire gronden" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="27H3E6IyiWQ" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAh9" role="coufz">
         <property role="1FEjNx" value="tijdelijke humanitaire gronden" />
-        <ref role="cog$q" node="27H3E6IyiR6" resolve="art. 3.4 lid 1, onder q, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbp" resolve="art. 3.4 lid 1, onder q, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiSF" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAcY" role="cu0BP">
       <property role="TrG5h" value="het afwachten van een verzoek op grond van art. 17 RWN" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 2001-04-01, of in ieder geval naar de eerste versie van de digitale versie van de Vb van 2002-01-01 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="27H3E6IyiWR" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAha" role="coufz">
         <property role="1FEjNx" value="het afwachten van een verzoek op grond vanartikel 17 van de Rijkswet op het Nederlanderschap" />
-        <ref role="cog$q" node="27H3E6IyiR7" resolve="art. 3.4 lid 1, onder r, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbq" resolve="art. 3.4 lid 1, onder r, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiSH" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAd0" role="cu0BP">
       <property role="TrG5h" value="niet-tijdelijke humanitaire gronden" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="27H3E6IyiWS" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhb" role="coufz">
         <property role="1FEjNx" value="niet-tijdelijke humanitaire gronden" />
-        <ref role="cog$q" node="27H3E6IyiR8" resolve="art. 3.4 lid 1, onder s, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbr" resolve="art. 3.4 lid 1, onder s, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiTl" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAdC" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn verworven uit wettelijk toegestane arbeid in loondienst" />
-      <node concept="cog_b" id="27H3E6IyiWT" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhc" role="coufz">
         <property role="1FEjNx" value="wettelijk toegestane arbeid in loondienst, voorzover de vereiste premies en belastingen zijn afgedragen" />
-        <ref role="cog$q" node="27H3E6IyiR9" resolve="art. 3.73 lid 1, onder a, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbs" resolve="art. 3.73 lid 1, onder a, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiTr" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAdI" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn verworven uit wettelijk toegestane arbeid als zelfstandige" />
-      <node concept="cog_b" id="27H3E6IyiWU" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhd" role="coufz">
         <property role="1FEjNx" value="wettelijk toegestane arbeid als zelfstandige, voorzover de vereiste premies en belastingen zijn afgedragen" />
-        <ref role="cog$q" node="27H3E6IyiRa" resolve="art. 3.73 lid 1, onder b, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbt" resolve="art. 3.73 lid 1, onder b, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiTw" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAdN" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn verworven uit inkomensvervangende uitkeringen krachtens een sociale verzekeringswet" />
-      <node concept="cog_b" id="27H3E6IyiWV" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhe" role="coufz">
         <property role="1FEjNx" value="inkomensvervangende uitkeringen krachtens een sociale verzekeringswet waarvoor premies zijn afgedragen, of" />
-        <ref role="cog$q" node="27H3E6IyiRb" resolve="art. 3.73 lid 1, onder c, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbu" resolve="art. 3.73 lid 1, onder c, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiTA" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAdT" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn verworven uit eigen vermogen" />
-      <node concept="cog_b" id="27H3E6IyiWW" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhf" role="coufz">
         <property role="1FEjNx" value="eigen vermogen, voorzover de bron van de inkomsten niet wordt aangetast en de vereiste premies en belastingen zijn afgedragen" />
-        <ref role="cog$q" node="27H3E6IyiRc" resolve="art. 3.73 lid 1, onder d, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbv" resolve="art. 3.73 lid 1, onder d, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiTn" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAdE" role="cu0BP">
       <property role="TrG5h" value="vereiste premies en belastingen zijn afgedragen" />
-      <node concept="cog_b" id="27H3E6IyiWX" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhg" role="coufz">
         <property role="1FEjNx" value="wettelijk toegestane arbeid in loondienst, voorzover de vereiste premies en belastingen zijn afgedragen/wettelijk toegestane arbeid als zelfstandige, voorzover de vereiste premies en belastingen zijn afgedragen" />
-        <ref role="cog$q" node="27H3E6IyiRd" resolve="art. 3.73 lid 1, onder a, Vb; art. 3.73 lid 1, onder b, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbw" resolve="art. 3.73 lid 1, onder a, Vb; art. 3.73 lid 1, onder b, Vb" />
       </node>
-      <node concept="cvrD0" id="27H3E6IyiWY" role="coNO9">
-        <node concept="cH3hJ" id="27H3E6IyiWZ" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IyiX0" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiTy" resolve="vereiste premies zijn afgedragen" />
+      <node concept="cvrD0" id="6qUJKUPIAhh" role="coNO9">
+        <node concept="cH3hJ" id="6qUJKUPIAhi" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIAhj" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAdP" resolve="vereiste premies zijn afgedragen" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiX1" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiTG" resolve="vereiste belastingen zijn afgedragen" />
+        <node concept="1FQA6B" id="6qUJKUPIAhk" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAdZ" resolve="vereiste belastingen zijn afgedragen" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiTy" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAdP" role="cu0BP">
       <property role="TrG5h" value="vereiste premies zijn afgedragen" />
       <property role="3ANC2_" value="ISSUE: Meerdere onderdelen van het Vb vereisen het afdragen van belastingen. Het feit is hetzelfde, de context verschilt. Beste oplossing: mogelijk maken verwijzen naar verschillende bronnen, context vastleggen in functie. Aan iedere bron hoort (liefst 1) referentie te worden gekopppeld. (zie ook 01-04-2001; 13-07-2010)" />
-      <node concept="cog_b" id="27H3E6IyiX2" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhl" role="coufz">
         <property role="1FEjNx" value="wettelijk toegestane arbeid in loondienst, voorzover de vereiste premies en belastingen zijn afgedragen/wettelijk toegestane arbeid als zelfstandige, voorzover de vereiste premies en belastingen zijn afgedragen/inkomensvervangende uitkeringen krachtens een sociale verzekeringswet waarvoor premies zijn afgedragen/eigen vermogen, voorzover de bron van de inkomsten niet wordt aangetast en de vereiste belastingen zijn afgedragen" />
-        <ref role="cog$q" node="27H3E6IyiRe" resolve="art. 3.73 lid 1, onder a, Vb; art. 3.73 lid 1, onder b, Vb; art. 3.73 lid 1, onder c; Vb, art. 3.73 lid 1, onder d, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbx" resolve="art. 3.73 lid 1, onder a, Vb; art. 3.73 lid 1, onder b, Vb; art. 3.73 lid 1, onder c; Vb, art. 3.73 lid 1, onder d, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiTG" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAdZ" role="cu0BP">
       <property role="TrG5h" value="vereiste belastingen zijn afgedragen" />
       <property role="3ANC2_" value="ISSUE: Meerdere onderdelen van het Vb vereisen het afdragen van belastingen. Het feit is hetzelfde, de context verschilt. Beste oplossing: mogelijk maken verwijzen naar verschillende bronnen, context vastleggen in functie. Aan iedere bron hoort (liefst 1) referentie te worden gekopppeld. (1-[20010401]-[jjjjmmdd]; 2-[20100713]-[jjjjmmdd])" />
-      <node concept="cog_b" id="27H3E6IyiX3" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhm" role="coufz">
         <property role="1FEjNx" value="wettelijk toegestane arbeid in loondienst, voorzover de vereiste premies en belastingen zijn afgedragen/wettelijk toegestane arbeid als zelfstandige, voorzover de vereiste premies en belastingen zijn afgedragen/eigen vermogen, voorzover de bron van de inkomsten niet wordt aangetast en de vereiste belastingen zijn afgedragen" />
-        <ref role="cog$q" node="27H3E6IyiRf" resolve="art. 3.73 lid 1, onder a, Vb; art. 3.73 lid 1, onder b, Vb; art. 3.73 lid 1, onder d, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAby" resolve="art. 3.73 lid 1, onder a, Vb; art. 3.73 lid 1, onder b, Vb; art. 3.73 lid 1, onder d, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiTS" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAeb" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn verworven uit financiële ondersteuning van de referent" />
-      <node concept="cog_b" id="27H3E6IyiX4" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhn" role="coufz">
         <property role="1FEjNx" value="in geval van verblijf voor onderzoek in de zin van richtlijn (EU) 2016/801, studie, lerend werken of uitwisseling in het kader van Europees vrijwilligerswerk: financiële ondersteuning van de referent, een subsidie, een beurs of een toelage" />
-        <ref role="cog$q" node="27H3E6IyiRg" resolve="art. 3.73 lid 1, onder e, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbz" resolve="art. 3.73 lid 1, onder e, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiTU" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAed" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn verworven uit een subsidie" />
-      <node concept="cog_b" id="27H3E6IyiX5" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAho" role="coufz">
         <property role="1FEjNx" value="in geval van verblijf voor onderzoek in de zin van richtlijn (EU) 2016/801, studie, lerend werken of uitwisseling in het kader van Europees vrijwilligerswerk: financiële ondersteuning van de referent, een subsidie, een beurs of een toelage" />
-        <ref role="cog$q" node="27H3E6IyiRg" resolve="art. 3.73 lid 1, onder e, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbz" resolve="art. 3.73 lid 1, onder e, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiTW" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAef" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn verworven uit een beurs" />
       <property role="3ANC2_" value="NOTABLE: Wijziging art. 3.73 Vb nadat FLINT analyse had aangetoond dat de zelfstandigheid van de studiebeurs geen goede wettelijke grondslag had. De Vc verwees naar art. 3.22 Vv dat gaat over duurzaamheid van inkomen, niet over zelfstandigheid." />
-      <node concept="cog_b" id="27H3E6IyiX6" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhp" role="coufz">
         <property role="1FEjNx" value="in geval van verblijf voor onderzoek in de zin van richtlijn (EU) 2016/801, studie, lerend werken of uitwisseling in het kader van Europees vrijwilligerswerk: financiële ondersteuning van de referent, een subsidie, een beurs of een toelage" />
-        <ref role="cog$q" node="27H3E6IyiRg" resolve="art. 3.73 lid 1, onder e, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbz" resolve="art. 3.73 lid 1, onder e, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiTY" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAeh" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn verworven uit een toelage" />
-      <node concept="cog_b" id="27H3E6IyiX7" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhq" role="coufz">
         <property role="1FEjNx" value="in geval van verblijf voor onderzoek in de zin van richtlijn (EU) 2016/801, studie, lerend werken of uitwisseling in het kader van Europees vrijwilligerswerk: financiële ondersteuning van de referent, een subsidie, een beurs of een toelage" />
-        <ref role="cog$q" node="27H3E6IyiRg" resolve="art. 3.73 lid 1, onder e, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbz" resolve="art. 3.73 lid 1, onder e, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiX8" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAhr" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn ten minste gelijk is aan het minimumloon" />
       <property role="3ANC2_" value="ISSUE: expressions: SUM, GREATER THEN OR EQUAL." />
-      <node concept="cog_b" id="27H3E6IyiX9" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhs" role="coufz">
         <property role="1FEjNx" value="het minimumloon, bedoeld in de artikelen 8, eerste lid, onder a, en 14, van de Wet minimumloon en minimumvakantiebijslag, met inbegrip van de vakantiebijslag, bedoeld in artikel 15 van die wet" />
-        <ref role="cog$q" node="27H3E6IyiRh" resolve="art. 3.74 lid 1, onder a, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAb$" resolve="art. 3.74 lid 1, onder a, Vb" />
       </node>
-      <node concept="cvrD0" id="27H3E6IyiXa" role="coNO9">
-        <node concept="cH3hJ" id="27H3E6IyiXb" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IyiXc" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiXd" resolve="functie waar middelen van bestaan zijn groter of gelijk aan minimumloon wordt berekend" />
+      <node concept="cvrD0" id="6qUJKUPIAht" role="coNO9">
+        <node concept="cH3hJ" id="6qUJKUPIAhu" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIAhv" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAhw" resolve="functie waar middelen van bestaan zijn groter of gelijk aan minimumloon wordt berekend" />
         </node>
-        <node concept="cvrD0" id="27H3E6IyiXe" role="1FQA6S">
-          <node concept="cH3hw" id="27H3E6IyiXf" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiXg" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiXh" resolve="in bij ministeriële regeling aangewezen gevallen zijn middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon" />
+        <node concept="cvrD0" id="6qUJKUPIAhx" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIAhy" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAhz" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAh$" resolve="in bij ministeriële regeling aangewezen gevallen zijn middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiXd" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAhw" role="cu0BP">
       <property role="TrG5h" value="functie waar middelen van bestaan zijn groter of gelijk aan minimumloon wordt berekend" />
       <property role="3ANC2_" value="TEMP, no function GREATER THEN OR EQUAL available (rekenkundige functie)" />
     </node>
-    <node concept="cu0$f" id="27H3E6IyiXi" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAh_" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn ten minste gelijk aan 150 procent van het minimumloon" />
       <property role="3ANC2_" value="ISSUE: expressions: SUM, PRODUCT, GREATER THEN OR EQUAL. (rekenkundige functie)" />
-      <node concept="cog_b" id="27H3E6IyiXj" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhA" role="coufz">
         <property role="1FEjNx" value="in bij ministeriële regeling aangewezen gevallen: 150 procent van het minimumloon, bedoeld in onderdeel a" />
-        <ref role="cog$q" node="27H3E6IyiRi" resolve="art. 3.74 lid 1, onder b, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAb_" resolve="art. 3.74 lid 1, onder b, Vb" />
       </node>
-      <node concept="cvrD0" id="27H3E6IyiXk" role="coNO9">
-        <node concept="cH3hJ" id="27H3E6IyiXl" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IyiXm" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiXh" resolve="in bij ministeriële regeling aangewezen gevallen zijn middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon" />
+      <node concept="cvrD0" id="6qUJKUPIAhB" role="coNO9">
+        <node concept="cH3hJ" id="6qUJKUPIAhC" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIAhD" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAh$" resolve="in bij ministeriële regeling aangewezen gevallen zijn middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiXn" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiXo" resolve="functie aaar middelen van bestaan zijn groter of gelijk aan 150% minimumloon wordt berekenc" />
+        <node concept="1FQA6B" id="6qUJKUPIAhE" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAhF" resolve="functie aaar middelen van bestaan zijn groter of gelijk aan 150% minimumloon wordt berekenc" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiXh" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAh$" role="cu0BP">
       <property role="TrG5h" value="in bij ministeriële regeling aangewezen gevallen zijn middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon" />
       <property role="3ANC2_" value="Nader invullen. Dit is het geval bij Au Pairs, en wellicht nog bij enkele andere verblijfsdoelen." />
-      <node concept="cog_b" id="27H3E6IyiXp" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhG" role="coufz">
         <property role="1FEjNx" value="in bij regeling van Onze Minister aangewezen gevallen: 150 procent van het minimumloon, bedoeld in onderdeel a." />
-        <ref role="cog$q" node="27H3E6IyiRi" resolve="art. 3.74 lid 1, onder b, Vb" />
+        <ref role="cog$q" node="6qUJKUPIAb_" resolve="art. 3.74 lid 1, onder b, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiXo" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAhF" role="cu0BP">
       <property role="TrG5h" value="functie aaar middelen van bestaan zijn groter of gelijk aan 150% minimumloon wordt berekenc" />
       <property role="3ANC2_" value="TEMP, no function GREATER THEN OR EQUAL, and no function PRODUCT available" />
     </node>
-    <node concept="cu0$f" id="27H3E6IyiUG" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAeZ" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn voldoende, indien het netto-inkomen ten minste gelijk is aan het normbedrag voor uitwonende studenten, bedoeld in de WSF, indien de vreemdeling in Nederland verblijft of wil verblijven voor studie" />
       <property role="3ANC2_" value="ISSUE: expressions: GREATER THEN OR EQUAL. Met [studie] wordt verblijfsdoel studie bedoeld. (rekenkundige functie)" />
-      <node concept="cog_b" id="27H3E6IyiXq" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhH" role="coufz">
         <property role="1FEjNx" value="De in artikel 16, eerste lid, onder c, van de Wet bedoelde middelen van bestaan zijn eveneens voldoende, indien het netto-inkomen ten minste gelijk is aan het normbedrag voor uitwonende studenten, bedoeld in de Wet op de Studiefinanciering 2000, indien de vreemdeling in Nederland verblijft of wil verblijven voor studie." />
-        <ref role="cog$q" node="27H3E6IyiRj" resolve="art. 3.74 lid 2 Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbA" resolve="art. 3.74 lid 2 Vb" />
       </node>
-      <node concept="cvrD0" id="27H3E6IyiXr" role="coNO9">
-        <node concept="cH3hJ" id="27H3E6IyiXs" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IyiXt" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiXu" resolve="functie waar normbedrag voor uitwonende studenten, bedoeld in de WSF wordt berekend" />
+      <node concept="cvrD0" id="6qUJKUPIAhI" role="coNO9">
+        <node concept="cH3hJ" id="6qUJKUPIAhJ" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIAhK" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAhL" resolve="functie waar normbedrag voor uitwonende studenten, bedoeld in de WSF wordt berekend" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiXv" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiSx" resolve="studie" />
+        <node concept="1FQA6B" id="6qUJKUPIAhM" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAcO" resolve="studie" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiXu" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAhL" role="cu0BP">
       <property role="TrG5h" value="functie waar normbedrag voor uitwonende studenten, bedoeld in de WSF wordt berekend" />
       <property role="3ANC2_" value="functie waar normbedrag voor uitwonende studenten, bedoeld in de WSF wordt berekend" />
     </node>
-    <node concept="cu0$f" id="27H3E6IyiXw" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAhN" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn nog één jaar beschikbaar op het tijdstip waarop de aanvraag is ontvangen" />
-      <node concept="cog_b" id="27H3E6IyiXx" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhO" role="coufz">
         <property role="1FEjNx" value="De in artikel 16, eerste lid, onder c, van de Wet bedoelde middelen van bestaan zijn in ieder geval duurzaam, indien zij nog één jaar beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven." />
-        <ref role="cog$q" node="27H3E6IyiRk" resolve="art. 3.75 lid 1 Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbB" resolve="art. 3.75 lid 1 Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiUr" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAeI" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan verkregen uit eigen vermogen" />
       <property role="3ANC2_" value="ISSUE: Substitutie mogelijk maken voor 'fact' [middelen van bestaan zijn verworven uit eigen vermogen]" />
-      <node concept="cog_b" id="27H3E6IyiXy" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhP" role="coufz">
         <property role="1FEjNx" value="Middelen van bestaan verkregen uit eigen vermogen zijn duurzaam, indien zij gedurende een aaneengesloten periode van een jaar beschikbaar zijn geweest en nog beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven." />
-        <ref role="cog$q" node="27H3E6IyiRl" resolve="art. 3.75 lid 2 Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbC" resolve="art. 3.75 lid 2 Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiUt" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAeK" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn gedurende een aaneengesloten periode van een jaar beschikbaar geweest" />
-      <node concept="cog_b" id="27H3E6IyiXz" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhQ" role="coufz">
         <property role="1FEjNx" value="Middelen van bestaan verkregen uit eigen vermogen zijn duurzaam, indien zij gedurende een aaneengesloten periode van een jaar beschikbaar zijn geweest en nog beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven." />
-        <ref role="cog$q" node="27H3E6IyiRl" resolve="art. 3.75 lid 2 Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbC" resolve="art. 3.75 lid 2 Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiU3" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAem" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen" />
-      <node concept="cog_b" id="27H3E6IyiX$" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhR" role="coufz">
         <property role="1FEjNx" value="Middelen van bestaan verkregen uit eigen vermogen zijn duurzaam, indien zij gedurende een aaneengesloten periode van een jaar beschikbaar zijn geweest en nog beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven." />
-        <ref role="cog$q" node="27H3E6IyiRl" resolve="art. 3.75 lid 2 Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbC" resolve="art. 3.75 lid 2 Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiU5" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAeo" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de beschikking wordt gegeven" />
-      <node concept="cog_b" id="27H3E6IyiX_" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhS" role="coufz">
         <property role="1FEjNx" value="Middelen van bestaan verkregen uit eigen vermogen zijn duurzaam, indien zij gedurende een aaneengesloten periode van een jaar beschikbaar zijn geweest en nog beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven." />
-        <ref role="cog$q" node="27H3E6IyiRl" resolve="art. 3.75 lid 2 Vb" />
+        <ref role="cog$q" node="6qUJKUPIAbC" resolve="art. 3.75 lid 2 Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiU9" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAes" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan verkregen uit arbeid in loondienst" />
       <property role="3ANC2_" value="ISSUE: Substitutie mogelijk maken voor 'fact' [middelen van bestaan zijn verworven uit wettelijk toegestane arbeid in loondienst]" />
-      <node concept="cog_b" id="27H3E6IyiXA" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhT" role="coufz">
         <property role="1FEjNx" value="In afwijking van het eerste lid, zijn middelen van bestaan verkregen uit arbeid in loondienst eveneens duurzaam, indien op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven gedurende een aaneengesloten periode van drie jaren jaarlijks voldoende middelen van bestaan uit arbeid in loondienst zijn verworven en de middelen van bestaan nog beschikbaar zijn." />
-        <ref role="cog$q" node="27H3E6IyiRm" resolve="art. 3.75 lid 3 Vb (zin 1)" />
+        <ref role="cog$q" node="6qUJKUPIAbD" resolve="art. 3.75 lid 3 Vb (zin 1)" />
       </node>
-      <node concept="1FQA6B" id="27H3E6IyiXB" role="coNO9">
-        <ref role="1FQA6$" node="27H3E6IyiTl" resolve="middelen van bestaan zijn verworven uit wettelijk toegestane arbeid in loondienst" />
+      <node concept="1FQA6B" id="6qUJKUPIAhU" role="coNO9">
+        <ref role="1FQA6$" node="6qUJKUPIAdC" resolve="middelen van bestaan zijn verworven uit wettelijk toegestane arbeid in loondienst" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiUf" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAey" role="cu0BP">
       <property role="TrG5h" value="op het tijdstip waarop de aanvraag is ontvangen zijn gedurende een ononderbroken periode van drie jaren voldoende middelen van bestaan uit arbeid in loondienst verworven" />
-      <node concept="cog_b" id="27H3E6IyiXC" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhV" role="coufz">
         <property role="1FEjNx" value="In afwijking van het eerste lid, zijn middelen van bestaan verkregen uit arbeid in loondienst eveneens duurzaam, indien op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven gedurende een aaneengesloten periode van drie jaren jaarlijks voldoende middelen van bestaan uit arbeid in loondienst zijn verworven en de middelen van bestaan nog beschikbaar zijn." />
-        <ref role="cog$q" node="27H3E6IyiRm" resolve="art. 3.75 lid 3 Vb (zin 1)" />
+        <ref role="cog$q" node="6qUJKUPIAbD" resolve="art. 3.75 lid 3 Vb (zin 1)" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiUh" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAe$" role="cu0BP">
       <property role="TrG5h" value="op het tijdstip waarop de aanvraag is ontvangen zijn de middelen van bestaan gedurende nog zes maanden beschikbaar" />
-      <node concept="cog_b" id="27H3E6IyiXD" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhW" role="coufz">
         <property role="1FEjNx" value="In afwijking van het eerste lid, zijn middelen van bestaan verkregen uit arbeid in loondienst eveneens duurzaam, indien op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven gedurende een aaneengesloten periode van drie jaren jaarlijks voldoende middelen van bestaan uit arbeid in loondienst zijn verworven en de middelen van bestaan nog beschikbaar zijn." />
-        <ref role="cog$q" node="27H3E6IyiRm" resolve="art. 3.75 lid 3 Vb (zin 1)" />
+        <ref role="cog$q" node="6qUJKUPIAbD" resolve="art. 3.75 lid 3 Vb (zin 1)" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiUl" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAeC" role="cu0BP">
       <property role="TrG5h" value="op het tijdstip waarop de beschikking wordt gegeven zijn gedurende een ononderbroken periode van drie jaren voldoende middelen van bestaan uit arbeid in loondienst verworven" />
-      <node concept="cog_b" id="27H3E6IyiXE" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhX" role="coufz">
         <property role="1FEjNx" value="In afwijking van het eerste lid, zijn middelen van bestaan verkregen uit arbeid in loondienst eveneens duurzaam, indien op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven gedurende een aaneengesloten periode van drie jaren jaarlijks voldoende middelen van bestaan uit arbeid in loondienst zijn verworven en de middelen van bestaan nog beschikbaar zijn." />
-        <ref role="cog$q" node="27H3E6IyiRm" resolve="art. 3.75 lid 3 Vb (zin 1)" />
+        <ref role="cog$q" node="6qUJKUPIAbD" resolve="art. 3.75 lid 3 Vb (zin 1)" />
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiUn" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAeE" role="cu0BP">
       <property role="TrG5h" value="op het tijdstip waarop de beschikking wordt gegeven zijn de middelen van bestaan gedurende nog zes maanden beschikbaar" />
-      <node concept="cog_b" id="27H3E6IyiXF" role="coufz">
+      <node concept="cog_b" id="6qUJKUPIAhY" role="coufz">
         <property role="1FEjNx" value="In afwijking van het eerste lid, zijn middelen van bestaan verkregen uit arbeid in loondienst eveneens duurzaam, indien op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven gedurende een aaneengesloten periode van drie jaren jaarlijks voldoende middelen van bestaan uit arbeid in loondienst zijn verworven en de middelen van bestaan nog beschikbaar zijn." />
-        <ref role="cog$q" node="27H3E6IyiRm" resolve="art. 3.75 lid 3 Vb (zin 1)" />
+        <ref role="cog$q" node="6qUJKUPIAbD" resolve="art. 3.75 lid 3 Vb (zin 1)" />
       </node>
     </node>
-    <node concept="mu5$5" id="27H3E6IyiXG" role="m3s6u">
+    <node concept="mu5$5" id="6qUJKUPIAhZ" role="m3s6u">
       <property role="TrG5h" value="inwilligen aanvraag tot verlenen machtiging tot voorlopig verblijf" />
-      <ref role="mu3Ux" node="27H3E6IyiRU" resolve="inwilligen" />
-      <ref role="mu5$L" node="27H3E6IyiRq" resolve="Onze Minister van Justitie en Veiligheid" />
-      <ref role="mu3Ts" node="27H3E6IyiRu" resolve="aanvraag tot verlenen machtiging tot voorlopig verblijf" />
-      <ref role="mu3To" node="27H3E6IyiRs" resolve="vreemdeling" />
-      <node concept="1FQA6B" id="27H3E6IyiXH" role="mu1c7">
-        <ref role="1FQA6$" node="27H3E6IyiRu" resolve="aanvraag tot verlenen machtiging tot voorlopig verblijf" />
+      <ref role="mu3Ux" node="6qUJKUPIAcd" resolve="inwilligen" />
+      <ref role="mu5$L" node="6qUJKUPIAbH" resolve="Onze Minister van Justitie en Veiligheid" />
+      <ref role="mu3Ts" node="6qUJKUPIAbL" resolve="aanvraag tot verlenen machtiging tot voorlopig verblijf" />
+      <ref role="mu3To" node="6qUJKUPIAbJ" resolve="vreemdeling" />
+      <node concept="1FQA6B" id="6qUJKUPIAi0" role="mu1c7">
+        <ref role="1FQA6$" node="6qUJKUPIAbL" resolve="aanvraag tot verlenen machtiging tot voorlopig verblijf" />
       </node>
-      <node concept="1FQA6B" id="27H3E6IyiXI" role="mu1cf">
-        <ref role="1FQA6$" node="27H3E6IyiRw" resolve="besluit tot inwilligen aanvraag tot verlenen machtiging tot voorlopig verblijf" />
+      <node concept="1FQA6B" id="6qUJKUPIAi1" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIAbN" resolve="besluit tot inwilligen aanvraag tot verlenen machtiging tot voorlopig verblijf" />
       </node>
-      <node concept="cog_b" id="27H3E6IyiXJ" role="mu1ck">
+      <node concept="cog_b" id="6qUJKUPIAi2" role="mu1ck">
         <property role="3ANC2_" value="NOTABLE: Deze clause is op 11-08-2008 gepubliceerd als art. 2c Vw en trad op 01-06-2013 in werking als art. 2k." />
         <property role="1FEjNx" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een machtiging tot voorlopig verblijf dan wel terugkeervisum in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
-        <ref role="cog$q" node="27H3E6IyiQm" resolve="art. 2k, aanhef en onder a, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaD" resolve="art. 2k, aanhef en onder a, Vw" />
       </node>
-      <node concept="cvrD0" id="27H3E6IyiXK" role="mu3T0">
-        <node concept="cH3hJ" id="27H3E6IyiXL" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IyiXM" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiRy" resolve="aanvraag is door de vreemdeling in persoon ingediend" />
+      <node concept="cvrD0" id="6qUJKUPIAi3" role="mu3T0">
+        <node concept="cH3hJ" id="6qUJKUPIAi4" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIAi5" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAbP" resolve="aanvraag is door de vreemdeling in persoon ingediend" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiXN" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiR$" resolve="voor de aanvraag is gebruik gemaakt van een voorgeschreven formulier dat volledig is ingevuld en ondertekend" />
+        <node concept="1FQA6B" id="6qUJKUPIAi6" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAbR" resolve="voor de aanvraag is gebruik gemaakt van een voorgeschreven formulier dat volledig is ingevuld en ondertekend" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiXO" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiRA" resolve="aanvraag is gesteld in de Nederlandse, Franse of Engelse taal" />
+        <node concept="1FQA6B" id="6qUJKUPIAi7" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAbT" resolve="aanvraag is gesteld in de Nederlandse, Franse of Engelse taal" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiXP" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiRC" resolve="ter afdoening van de aanvraag verschuldigde leges zijn betaald" />
+        <node concept="1FQA6B" id="6qUJKUPIAi8" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAbV" resolve="ter afdoening van de aanvraag verschuldigde leges zijn betaald" />
         </node>
-        <node concept="cvrD0" id="27H3E6IyiXQ" role="1FQA6S">
-          <node concept="cH3hB" id="27H3E6IyiXR" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiXS" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiRE" resolve="vreemdeling voldoet aan de vereisten voor toegang en verlening van een verblijfsvergunning" />
+        <node concept="cvrD0" id="6qUJKUPIAi9" role="1FQA6S">
+          <node concept="cH3hB" id="6qUJKUPIAia" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAib" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAbX" resolve="vreemdeling voldoet aan de vereisten voor toegang en verlening van een verblijfsvergunning" />
           </node>
-          <node concept="1FQA6B" id="27H3E6IyiXT" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiRG" resolve="wezenlijk Nederlands belang gediend met verlenen machtiging tot voorlopig verblijf" />
+          <node concept="1FQA6B" id="6qUJKUPIAic" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAbZ" resolve="wezenlijk Nederlands belang gediend met verlenen machtiging tot voorlopig verblijf" />
           </node>
-          <node concept="1FQA6B" id="27H3E6IyiXU" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiRI" resolve="klemmende redenen van humanitaire aard nopen tot verlenen machtiging tot voorlopig verblijf" />
+          <node concept="1FQA6B" id="6qUJKUPIAid" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAc1" resolve="klemmende redenen van humanitaire aard nopen tot verlenen machtiging tot voorlopig verblijf" />
           </node>
-          <node concept="1FQA6B" id="27H3E6IyiXV" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiRK" resolve="belang van de internationale betrekkingen vordert verlenen machtiging tot voorlopig verblijf" />
+          <node concept="1FQA6B" id="6qUJKUPIAie" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAc3" resolve="belang van de internationale betrekkingen vordert verlenen machtiging tot voorlopig verblijf" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiXX" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAig" role="cu0BP">
       <property role="TrG5h" value="afwijzen" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="cu0$f" id="27H3E6IyiYe" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAix" role="cu0BP">
       <property role="TrG5h" value="belanghebbende beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="cu0$f" id="27H3E6IyiYj" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAiA" role="cu0BP">
       <property role="TrG5h" value="vreemdeling is bereid medewerking te verlenen aan een medisch onderzoek naar een bij Wpg aangewezen ziekte of medische behandeling tegen een dergelijke ziekte te ondergaan" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="cu0$f" id="27H3E6IyiYn" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAiE" role="cu0BP">
       <property role="TrG5h" value="vreemdeling heeft geen arbeid verricht in strijd met Wav" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="cu0$f" id="27H3E6IyiYr" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAiI" role="cu0BP">
       <property role="TrG5h" value="vreemdeling voldoet aan de beperking, verband houdende met verblijfsdoel" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="cu0$f" id="27H3E6IyiYv" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAiM" role="cu0BP">
       <property role="TrG5h" value="vreemdeling beschikt over voldoende kennis van de Nederlandse taal en maatschappij" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="cu0$f" id="27H3E6IyiYz" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAiQ" role="cu0BP">
       <property role="TrG5h" value="vreemdeling heeft onjuiste gegevens verstrekt of gegevens achtergehouden" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="cu0$f" id="27H3E6IyiYB" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAiU" role="cu0BP">
       <property role="TrG5h" value="vreemdeling heeft alleen in Nederland verblijf gehouden op grond van artikel 8 Vw" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="cu0$f" id="27H3E6IyiYF" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAiY" role="cu0BP">
       <property role="TrG5h" value="referent heeft verklaring overlegd  ten behoeve van het voorgenomen verblijf van de vreemdeling" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="mu5$5" id="27H3E6IyiXW" role="m3s6u">
+    <node concept="mu5$5" id="6qUJKUPIAif" role="m3s6u">
       <property role="TrG5h" value="afwijzen aanvraag tot het verlenen van een vvr-bep" />
-      <ref role="mu3Ux" node="27H3E6IyiXX" resolve="afwijzen" />
-      <ref role="mu5$L" node="27H3E6IyiRq" resolve="Onze Minister van Justitie en Veiligheid" />
-      <ref role="mu3Ts" node="27H3E6IyiRM" resolve="aanvraag tot het verlenen van een vvr-bep" />
-      <ref role="mu3To" node="27H3E6IyiRs" resolve="vreemdeling" />
-      <node concept="1FQA6B" id="27H3E6IyiXY" role="mu1c7">
-        <ref role="1FQA6$" node="27H3E6IyiRM" resolve="aanvraag tot het verlenen van een vvr-bep" />
+      <ref role="mu3Ux" node="6qUJKUPIAig" resolve="afwijzen" />
+      <ref role="mu5$L" node="6qUJKUPIAbH" resolve="Onze Minister van Justitie en Veiligheid" />
+      <ref role="mu3Ts" node="6qUJKUPIAc5" resolve="aanvraag tot het verlenen van een vvr-bep" />
+      <ref role="mu3To" node="6qUJKUPIAbJ" resolve="vreemdeling" />
+      <node concept="1FQA6B" id="6qUJKUPIAih" role="mu1c7">
+        <ref role="1FQA6$" node="6qUJKUPIAc5" resolve="aanvraag tot het verlenen van een vvr-bep" />
       </node>
-      <node concept="1FQA6B" id="27H3E6IyiXZ" role="mu1cf">
-        <ref role="1FQA6$" node="27H3E6IyiRO" resolve="besluit tot afwijzen aanvraag tot het verlenen van een vvr-bep" />
+      <node concept="1FQA6B" id="6qUJKUPIAii" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIAc7" resolve="besluit tot afwijzen aanvraag tot het verlenen van een vvr-bep" />
       </node>
-      <node concept="cog_b" id="27H3E6IyiY0" role="mu1ck">
+      <node concept="cog_b" id="6qUJKUPIAij" role="mu1ck">
         <property role="1FEjNx" value="Onze Minister is bevoegd: a. de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen;" />
-        <ref role="cog$q" node="27H3E6IyiQt" resolve="art. 14 lid 1, onder a, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaK" resolve="art. 14 lid 1, onder a, Vw" />
       </node>
-      <node concept="cvrD0" id="27H3E6IyiY1" role="mu3T0">
-        <node concept="cH3hB" id="27H3E6IyiY2" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IyiY3" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiWx" resolve="vreemdeling heeft inreisverbod of is gesignaleerd ter fine van weigering van de toegang" />
+      <node concept="cvrD0" id="6qUJKUPIAik" role="mu3T0">
+        <node concept="cH3hB" id="6qUJKUPIAil" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIAim" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAgO" resolve="vreemdeling heeft inreisverbod of is gesignaleerd ter fine van weigering van de toegang" />
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiY4" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiWz" resolve="ongewenst verklaarde vreemdeling" />
+        <node concept="1FQA6B" id="6qUJKUPIAin" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAgQ" resolve="ongewenst verklaarde vreemdeling" />
         </node>
-        <node concept="cvrD0" id="27H3E6IyiY5" role="1FQA6S">
-          <node concept="cH3hw" id="27H3E6IyiY6" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiY7" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiSI" resolve="vreemdeling beschikt over een geldige machtiging tot voorlopig verblijf" />
+        <node concept="cvrD0" id="6qUJKUPIAio" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIAip" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAiq" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAd1" resolve="vreemdeling beschikt over een geldige machtiging tot voorlopig verblijf" />
           </node>
         </node>
-        <node concept="cvrD0" id="27H3E6IyiY8" role="1FQA6S">
-          <node concept="cH3hw" id="27H3E6IyiY9" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiYa" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiSK" resolve="vreemdeling beschikt over een geldig document voor grensoverschrijding" />
+        <node concept="cvrD0" id="6qUJKUPIAir" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIAis" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAit" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAd3" resolve="vreemdeling beschikt over een geldig document voor grensoverschrijding" />
           </node>
         </node>
-        <node concept="cvrD0" id="27H3E6IyiYb" role="1FQA6S">
-          <node concept="cH3hw" id="27H3E6IyiYc" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiYd" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiYe" resolve="belanghebbende beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
+        <node concept="cvrD0" id="6qUJKUPIAiu" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIAiv" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAiw" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAix" resolve="belanghebbende beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
           </node>
         </node>
-        <node concept="1FQA6B" id="27H3E6IyiYf" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiVb" resolve="vreemdeling vormt een gevaar voor de openbare orde of nationale veiligheid" />
+        <node concept="1FQA6B" id="6qUJKUPIAiy" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAfu" resolve="vreemdeling vormt een gevaar voor de openbare orde of nationale veiligheid" />
         </node>
-        <node concept="cvrD0" id="27H3E6IyiYg" role="1FQA6S">
-          <node concept="cH3hw" id="27H3E6IyiYh" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiYi" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiYj" resolve="vreemdeling is bereid medewerking te verlenen aan een medisch onderzoek naar een bij Wpg aangewezen ziekte of medische behandeling tegen een dergelijke ziekte te ondergaan" />
+        <node concept="cvrD0" id="6qUJKUPIAiz" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIAi$" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAi_" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAiA" resolve="vreemdeling is bereid medewerking te verlenen aan een medisch onderzoek naar een bij Wpg aangewezen ziekte of medische behandeling tegen een dergelijke ziekte te ondergaan" />
           </node>
         </node>
-        <node concept="cvrD0" id="27H3E6IyiYk" role="1FQA6S">
-          <node concept="cH3hw" id="27H3E6IyiYl" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiYm" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiYn" resolve="vreemdeling heeft geen arbeid verricht in strijd met Wav" />
+        <node concept="cvrD0" id="6qUJKUPIAiB" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIAiC" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAiD" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAiE" resolve="vreemdeling heeft geen arbeid verricht in strijd met Wav" />
           </node>
         </node>
-        <node concept="cvrD0" id="27H3E6IyiYo" role="1FQA6S">
-          <node concept="cH3hw" id="27H3E6IyiYp" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiYq" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiYr" resolve="vreemdeling voldoet aan de beperking, verband houdende met verblijfsdoel" />
+        <node concept="cvrD0" id="6qUJKUPIAiF" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIAiG" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAiH" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAiI" resolve="vreemdeling voldoet aan de beperking, verband houdende met verblijfsdoel" />
           </node>
         </node>
-        <node concept="cvrD0" id="27H3E6IyiYs" role="1FQA6S">
-          <node concept="cH3hw" id="27H3E6IyiYt" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiYu" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiYv" resolve="vreemdeling beschikt over voldoende kennis van de Nederlandse taal en maatschappij" />
+        <node concept="cvrD0" id="6qUJKUPIAiJ" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIAiK" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAiL" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAiM" resolve="vreemdeling beschikt over voldoende kennis van de Nederlandse taal en maatschappij" />
           </node>
         </node>
-        <node concept="cvrD0" id="27H3E6IyiYw" role="1FQA6S">
-          <node concept="cH3hw" id="27H3E6IyiYx" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiYy" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiYz" resolve="vreemdeling heeft onjuiste gegevens verstrekt of gegevens achtergehouden" />
+        <node concept="cvrD0" id="6qUJKUPIAiN" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIAiO" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAiP" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAiQ" resolve="vreemdeling heeft onjuiste gegevens verstrekt of gegevens achtergehouden" />
           </node>
         </node>
-        <node concept="cvrD0" id="27H3E6IyiY$" role="1FQA6S">
-          <node concept="cH3hw" id="27H3E6IyiY_" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiYA" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiYB" resolve="vreemdeling heeft alleen in Nederland verblijf gehouden op grond van artikel 8 Vw" />
+        <node concept="cvrD0" id="6qUJKUPIAiR" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIAiS" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAiT" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAiU" resolve="vreemdeling heeft alleen in Nederland verblijf gehouden op grond van artikel 8 Vw" />
           </node>
         </node>
-        <node concept="cvrD0" id="27H3E6IyiYC" role="1FQA6S">
-          <node concept="cH3hw" id="27H3E6IyiYD" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiYE" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiYF" resolve="referent heeft verklaring overlegd  ten behoeve van het voorgenomen verblijf van de vreemdeling" />
+        <node concept="cvrD0" id="6qUJKUPIAiV" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIAiW" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAiX" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAiY" resolve="referent heeft verklaring overlegd  ten behoeve van het voorgenomen verblijf van de vreemdeling" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="2cz0EU" id="27H3E6IyiYK" role="2cADMD">
+    <node concept="2cz0EU" id="6qUJKUPIAj3" role="2cADMD">
       <property role="TrG5h" value="verlenen vvr-bep onder beperkingen" />
       <property role="3ANC2_" value="VERDER UITWERKEN" />
-      <ref role="2cBO5V" node="27H3E6IyiYG" resolve="inwilligen aanvraag tot het verlenen van een vvr-bep" />
-      <ref role="2cz2Wc" node="27H3E6IyiRq" resolve="Onze Minister van Justitie en Veiligheid" />
-      <ref role="2cz2We" node="27H3E6IyiRs" resolve="vreemdeling" />
-      <node concept="cog_b" id="27H3E6IyiZ6" role="2cBO52">
+      <ref role="2cBO5V" node="6qUJKUPIAiZ" resolve="inwilligen aanvraag tot het verlenen van een vvr-bep" />
+      <ref role="2cz2Wc" node="6qUJKUPIAbH" resolve="Onze Minister van Justitie en Veiligheid" />
+      <ref role="2cz2We" node="6qUJKUPIAbJ" resolve="vreemdeling" />
+      <node concept="cog_b" id="6qUJKUPIAjp" role="2cBO52">
         <property role="1FEjNx" value="Een verblijfsvergunning voor bepaalde tijd wordt verleend onder beperkingen, verband houdende met het doel waarvoor het verblijf is toegestaan." />
-        <ref role="cog$q" node="27H3E6IyiRo" resolve="art. 14 lid 3 Vw (eerste zin)" />
+        <ref role="cog$q" node="6qUJKUPIAbF" resolve="art. 14 lid 3 Vw (eerste zin)" />
       </node>
     </node>
-    <node concept="2cz0EU" id="27H3E6IyiYM" role="2cADMD">
+    <node concept="2cz0EU" id="6qUJKUPIAj5" role="2cADMD">
       <property role="TrG5h" value="bepalen geldigheidsduur van de vvr-bep" />
       <property role="3ANC2_" value="VERDER UITWERKEN" />
-      <ref role="2cBO5V" node="27H3E6IyiYG" resolve="inwilligen aanvraag tot het verlenen van een vvr-bep" />
-      <ref role="2cz2Wc" node="27H3E6IyiRq" resolve="Onze Minister van Justitie en Veiligheid" />
-      <node concept="cog_b" id="27H3E6IyiZ5" role="2cBO52">
+      <ref role="2cBO5V" node="6qUJKUPIAiZ" resolve="inwilligen aanvraag tot het verlenen van een vvr-bep" />
+      <ref role="2cz2Wc" node="6qUJKUPIAbH" resolve="Onze Minister van Justitie en Veiligheid" />
+      <node concept="cog_b" id="6qUJKUPIAjo" role="2cBO52">
         <property role="1FEjNx" value="De verblijfsvergunning voor bepaalde tijd wordt verleend voor ten hoogste vijf achtereenvolgende jaren. " />
-        <ref role="cog$q" node="27H3E6IyiRn" resolve="art. 14 lid 4 Vw (eerste zin) {vanaf 01-06-2013}; art. 14 lid 3 Vw (eerste zin) {van 01-04-2001 tor 01-06-2013}" />
+        <ref role="cog$q" node="6qUJKUPIAbE" resolve="art. 14 lid 4 Vw (eerste zin) {vanaf 01-06-2013}; art. 14 lid 3 Vw (eerste zin) {van 01-04-2001 tor 01-06-2013}" />
       </node>
     </node>
-    <node concept="2cz0EU" id="27H3E6IyiYO" role="2cADMD">
+    <node concept="2cz0EU" id="6qUJKUPIAj7" role="2cADMD">
       <property role="TrG5h" value="verschaffen vreemdeling document waaruit het rechtmatig verblijf blijkt" />
       <property role="3ANC2_" value="UITWERKEN" />
-      <ref role="2cBO5V" node="27H3E6IyiYG" resolve="inwilligen aanvraag tot het verlenen van een vvr-bep" />
-      <ref role="2cz2Wc" node="27H3E6IyiRq" resolve="Onze Minister van Justitie en Veiligheid" />
-      <ref role="2cz2We" node="27H3E6IyiRs" resolve="vreemdeling" />
-      <node concept="cog_b" id="27H3E6IyiZ7" role="2cBO52">
+      <ref role="2cBO5V" node="6qUJKUPIAiZ" resolve="inwilligen aanvraag tot het verlenen van een vvr-bep" />
+      <ref role="2cz2Wc" node="6qUJKUPIAbH" resolve="Onze Minister van Justitie en Veiligheid" />
+      <ref role="2cz2We" node="6qUJKUPIAbJ" resolve="vreemdeling" />
+      <node concept="cog_b" id="6qUJKUPIAjq" role="2cBO52">
         <property role="1FEjNx" value="Onze Minister verschaft aan de vreemdeling, die rechtmatig verblijf heeft op grond van artikel 8, onder a tot en met d, f tot en met h en j tot en met m, en aan de vreemdeling die rechtmatig verblijf heeft op grond van artikel 8, onder e, en gemeenschapsonderdaan is als bedoeld in artikel 1, sub 2°, 4° en 6°, een document of schriftelijke verklaring, waaruit het rechtmatig verblijf blijkt." />
-        <ref role="cog$q" node="27H3E6IyiRp" resolve="art. 9 lid 1 Vw" />
+        <ref role="cog$q" node="6qUJKUPIAbG" resolve="art. 9 lid 1 Vw" />
       </node>
     </node>
-    <node concept="mu5$5" id="27H3E6IyiYG" role="m3s6u">
+    <node concept="mu5$5" id="6qUJKUPIAiZ" role="m3s6u">
       <property role="TrG5h" value="inwilligen aanvraag tot het verlenen van een vvr-bep" />
-      <ref role="mu3Ux" node="27H3E6IyiRU" resolve="inwilligen" />
-      <ref role="mu5$L" node="27H3E6IyiRq" resolve="Onze Minister van Justitie en Veiligheid" />
-      <ref role="mu3Ts" node="27H3E6IyiRM" resolve="aanvraag tot het verlenen van een vvr-bep" />
-      <ref role="mu3To" node="27H3E6IyiRs" resolve="vreemdeling" />
-      <node concept="1FQA6B" id="27H3E6IyiYH" role="mu1c7">
-        <ref role="1FQA6$" node="27H3E6IyiRM" resolve="aanvraag tot het verlenen van een vvr-bep" />
+      <ref role="mu3Ux" node="6qUJKUPIAcd" resolve="inwilligen" />
+      <ref role="mu5$L" node="6qUJKUPIAbH" resolve="Onze Minister van Justitie en Veiligheid" />
+      <ref role="mu3Ts" node="6qUJKUPIAc5" resolve="aanvraag tot het verlenen van een vvr-bep" />
+      <ref role="mu3To" node="6qUJKUPIAbJ" resolve="vreemdeling" />
+      <node concept="1FQA6B" id="6qUJKUPIAj0" role="mu1c7">
+        <ref role="1FQA6$" node="6qUJKUPIAc5" resolve="aanvraag tot het verlenen van een vvr-bep" />
       </node>
-      <node concept="1FQA6B" id="27H3E6IyiYI" role="mu1cf">
-        <ref role="1FQA6$" node="27H3E6IyiRQ" resolve="besluit tot inwilligen aanvraag tot het verlenen van een vvr-bep" />
+      <node concept="1FQA6B" id="6qUJKUPIAj1" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIAc9" resolve="besluit tot inwilligen aanvraag tot het verlenen van een vvr-bep" />
       </node>
-      <node concept="2cz2WB" id="27H3E6IyiYJ" role="mu1cf">
-        <ref role="2cz2WA" node="27H3E6IyiYK" resolve="verlenen vvr-bep onder beperkingen" />
+      <node concept="2cz2WB" id="6qUJKUPIAj2" role="mu1cf">
+        <ref role="2cz2WA" node="6qUJKUPIAj3" resolve="verlenen vvr-bep onder beperkingen" />
       </node>
-      <node concept="2cz2WB" id="27H3E6IyiYL" role="mu1cf">
-        <ref role="2cz2WA" node="27H3E6IyiYM" resolve="bepalen geldigheidsduur van de vvr-bep" />
+      <node concept="2cz2WB" id="6qUJKUPIAj4" role="mu1cf">
+        <ref role="2cz2WA" node="6qUJKUPIAj5" resolve="bepalen geldigheidsduur van de vvr-bep" />
       </node>
-      <node concept="2cz2WB" id="27H3E6IyiYN" role="mu1cf">
-        <ref role="2cz2WA" node="27H3E6IyiYO" resolve="verschaffen vreemdeling document waaruit het rechtmatig verblijf blijkt" />
+      <node concept="2cz2WB" id="6qUJKUPIAj6" role="mu1cf">
+        <ref role="2cz2WA" node="6qUJKUPIAj7" resolve="verschaffen vreemdeling document waaruit het rechtmatig verblijf blijkt" />
       </node>
-      <node concept="cog_b" id="27H3E6IyiYP" role="mu1ck">
+      <node concept="cog_b" id="6qUJKUPIAj8" role="mu1ck">
         <property role="1FEjNx" value="Onze Minister is bevoegd: a. de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen;" />
-        <ref role="cog$q" node="27H3E6IyiQt" resolve="art. 14 lid 1, onder a, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaK" resolve="art. 14 lid 1, onder a, Vw" />
       </node>
-      <node concept="cvrD0" id="27H3E6IyiYQ" role="mu3T0">
-        <node concept="cH3hJ" id="27H3E6IyiYR" role="1FQA6W" />
-        <node concept="1FQA6B" id="27H3E6IyiYS" role="1FQA6S">
-          <ref role="1FQA6$" node="27H3E6IyiVB" resolve="verblijfsvergunning verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet" />
+      <node concept="cvrD0" id="6qUJKUPIAj9" role="mu3T0">
+        <node concept="cH3hJ" id="6qUJKUPIAja" role="1FQA6W" />
+        <node concept="1FQA6B" id="6qUJKUPIAjb" role="1FQA6S">
+          <ref role="1FQA6$" node="6qUJKUPIAfU" resolve="verblijfsvergunning verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet" />
         </node>
-        <node concept="cvrD0" id="27H3E6IyiYT" role="1FQA6S">
-          <node concept="cH3hw" id="27H3E6IyiYU" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiYV" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiWx" resolve="vreemdeling heeft inreisverbod of is gesignaleerd ter fine van weigering van de toegang" />
+        <node concept="cvrD0" id="6qUJKUPIAjc" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIAjd" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAje" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAgO" resolve="vreemdeling heeft inreisverbod of is gesignaleerd ter fine van weigering van de toegang" />
           </node>
         </node>
-        <node concept="cvrD0" id="27H3E6IyiYW" role="1FQA6S">
-          <node concept="cH3hw" id="27H3E6IyiYX" role="1FQA6W" />
-          <node concept="1FQA6B" id="27H3E6IyiYY" role="1FQA6S">
-            <ref role="1FQA6$" node="27H3E6IyiWz" resolve="ongewenst verklaarde vreemdeling" />
+        <node concept="cvrD0" id="6qUJKUPIAjf" role="1FQA6S">
+          <node concept="cH3hw" id="6qUJKUPIAjg" role="1FQA6W" />
+          <node concept="1FQA6B" id="6qUJKUPIAjh" role="1FQA6S">
+            <ref role="1FQA6$" node="6qUJKUPIAgQ" resolve="ongewenst verklaarde vreemdeling" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="27H3E6IyiZ0" role="cu0BP">
+    <node concept="cu0$f" id="6qUJKUPIAjj" role="cu0BP">
       <property role="TrG5h" value="niet in behandeling nemen" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="mu5$5" id="27H3E6IyiYZ" role="m3s6u">
+    <node concept="mu5$5" id="6qUJKUPIAji" role="m3s6u">
       <property role="TrG5h" value="niet in behandeling nemen aanvraag tot het verlenen van een vvr-bep" />
-      <ref role="mu3Ux" node="27H3E6IyiZ0" resolve="niet in behandeling nemen" />
-      <ref role="mu5$L" node="27H3E6IyiRq" resolve="Onze Minister van Justitie en Veiligheid" />
-      <ref role="mu3Ts" node="27H3E6IyiRM" resolve="aanvraag tot het verlenen van een vvr-bep" />
-      <ref role="mu3To" node="27H3E6IyiRs" resolve="vreemdeling" />
-      <node concept="1FQA6B" id="27H3E6IyiZ1" role="mu1c7">
-        <ref role="1FQA6$" node="27H3E6IyiRM" resolve="aanvraag tot het verlenen van een vvr-bep" />
+      <ref role="mu3Ux" node="6qUJKUPIAjj" resolve="niet in behandeling nemen" />
+      <ref role="mu5$L" node="6qUJKUPIAbH" resolve="Onze Minister van Justitie en Veiligheid" />
+      <ref role="mu3Ts" node="6qUJKUPIAc5" resolve="aanvraag tot het verlenen van een vvr-bep" />
+      <ref role="mu3To" node="6qUJKUPIAbJ" resolve="vreemdeling" />
+      <node concept="1FQA6B" id="6qUJKUPIAjk" role="mu1c7">
+        <ref role="1FQA6$" node="6qUJKUPIAc5" resolve="aanvraag tot het verlenen van een vvr-bep" />
       </node>
-      <node concept="1FQA6B" id="27H3E6IyiZ2" role="mu1cf">
-        <ref role="1FQA6$" node="27H3E6IyiRS" resolve="besluit tot niet in behandeling nemen aanvraag tot het verlenen van een vvr-bep" />
+      <node concept="1FQA6B" id="6qUJKUPIAjl" role="mu1cf">
+        <ref role="1FQA6$" node="6qUJKUPIAcb" resolve="besluit tot niet in behandeling nemen aanvraag tot het verlenen van een vvr-bep" />
       </node>
-      <node concept="cog_b" id="27H3E6IyiZ3" role="mu1ck">
+      <node concept="cog_b" id="6qUJKUPIAjm" role="mu1ck">
         <property role="1FEjNx" value="Onze Minister is bevoegd: a. de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen;" />
-        <ref role="cog$q" node="27H3E6IyiQt" resolve="art. 14 lid 1, onder a, Vw" />
+        <ref role="cog$q" node="6qUJKUPIAaK" resolve="art. 14 lid 1, onder a, Vw" />
       </node>
-      <node concept="1FQA6B" id="27H3E6IyiZ4" role="mu3T0">
-        <ref role="1FQA6$" node="27H3E6IyiV_" resolve="betaling verschuldigde leges is achterwege gebleven" />
+      <node concept="1FQA6B" id="6qUJKUPIAjn" role="mu3T0">
+        <ref role="1FQA6$" node="6qUJKUPIAfS" resolve="betaling verschuldigde leges is achterwege gebleven" />
       </node>
     </node>
   </node>

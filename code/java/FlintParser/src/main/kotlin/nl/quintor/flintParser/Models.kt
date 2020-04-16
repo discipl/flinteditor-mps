@@ -73,7 +73,9 @@ interface ActCreateableAndTerminateable : Nameable
 interface DutyCreateableAndTerminateable : Nameable
 interface Resolvable
 
-data class InvalidCreateableAndTerminateable(override val name: String) : ActCreateableAndTerminateable, DutyCreateableAndTerminateable
+data class InvalidCreateableAndTerminateable(override val name: String) : ActCreateableAndTerminateable,
+    DutyCreateableAndTerminateable
+
 data class FactReference(override val name: String) : Operand, ActCreateableAndTerminateable, Resolvable
 data class DutyReference(override val name: String) : ActCreateableAndTerminateable, DutyCreateableAndTerminateable
 data class ActReference(override val name: String) : DutyCreateableAndTerminateable
