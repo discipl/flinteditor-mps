@@ -1669,7 +1669,7 @@
     </node>
     <node concept="2cz0EU" id="6qUJKUPIdmp" role="2cADMD">
       <property role="TrG5h" value="besluit om de aanvraag niet te behandelen wordt bekendgemaakt binnen vier weken nadat de aanvraag is aangevuld of nadat de daarvoor gestelde termijn ongebruikt is verstreken" />
-      <ref role="2cBO5V" node="6qUJKUPIdms" resolve="besluiten de aanvraag niet te behandelen" />
+      <ref role="2cBO5V" node="6qUJKUPIdms" resolve="5besluiten de aanvraag niet te behandelen" />
       <ref role="2cz2Wc" node="6qUJKUPIdem" resolve="bestuursorgaan" />
       <ref role="2cz2We" node="6qUJKUPIdfG" resolve="aanvrager" />
       <ref role="2cBO5Z" node="6qUJKUPIdpY" resolve="bekendmaken besluit" />
@@ -1720,7 +1720,7 @@
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
     <node concept="mu5$5" id="6qUJKUPIdms" role="m3s6u">
-      <property role="TrG5h" value="besluiten de aanvraag niet te behandelen" />
+      <property role="TrG5h" value="5besluiten de aanvraag niet te behandelen" />
       <property role="3ANC2_" value="Hoe omgaan met voorwaarde [besluit om de aanvraag niet te behandelen wordt aan de aanvrager bekendgemaakt binnen vier weken nadat de aanvraag is aangevuld of nadat de daarvoor gestelde termijn ongebruikt is verstreken]?&#13;&#10;&#13;&#10;Het besluit is nog niet bekendgemaakt op het moment dat het wordt genomen. Kan dat dan wel als voorwaarde voor het nemen van een besluit worden gesteld?&#13;&#10;(Ik zou zeggen dat dat wel kan. Bij het nemen van het besluit wordt ervan uitgegaan dat het besluit binnen de termijn wordt bekendgemaakt. Als later blijkt dat dat toch niet is gebeurd, kunnen belanghebbenden immuniteit tegen het besluit claimen.)&#13;&#10;&#13;&#10;Nav vraag of je wel aanvrager moet egbruiken als deze term niet wordt gedefinieerd in de Awb.&#13;&#10;Aanvrager wordt als term wel gebruikt in de Awb. In de Awb is er geen definitie gegeven. Ik heb hier dus ook geen verwijzing voor. Ik heb wel een reden gevonden waarom de Awb het in een aantal artikelen wel over aanvrager heeft. Dat is omdat een aanvrager niet altijd de belanghebbende is. Zie T&amp;C Awb, commentaar op art. 3:13 Awb, J. Verbeek." />
       <ref role="mu3Ux" node="6qUJKUPIdmt" resolve="besluiten niet te behandelen" />
       <ref role="mu5$L" node="6qUJKUPIdem" resolve="bestuursorgaan" />
