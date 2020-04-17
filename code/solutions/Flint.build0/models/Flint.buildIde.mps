@@ -859,6 +859,16 @@
             <ref role="3bR37D" to="ffeo:2eDSGe9d1q1" resolve="MPS.Workbench" />
           </node>
         </node>
+        <node concept="1SiIV0" id="10jIHujLVKH" role="3bR37C">
+          <node concept="3bR9La" id="10jIHujLVKI" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="10jIHukbUJN" role="3bR37C">
+          <node concept="3bR9La" id="10jIHukbUJO" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="QLMwktTkqF" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -970,11 +980,6 @@
         <node concept="1SiIV0" id="2eNuKY4JOj" role="3bR37C">
           <node concept="3bR9La" id="2eNuKY4JOk" role="1SiIV1">
             <ref role="3bR37D" node="2eNuKY4JD2" resolve="Flint.runtime" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3NRSSGKwhnw" role="3bR37C">
-          <node concept="3bR9La" id="3NRSSGKwhnx" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
           </node>
         </node>
       </node>
@@ -1190,11 +1195,6 @@
         <node concept="1SiIV0" id="5EQtPi4EYya" role="3bR37C">
           <node concept="1Busua" id="5EQtPi4EYyb" role="1SiIV1">
             <ref role="1Busuk" to="ffeo:14x5$qAUbkv" resolve="jetbrains.mps.lang.resources" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="5EQtPi4JFUN" role="3bR37C">
-          <node concept="3bR9La" id="5EQtPi4JFUO" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
           </node>
         </node>
       </node>

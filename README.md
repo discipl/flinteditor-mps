@@ -20,4 +20,6 @@ Then run executable from the bin directory. If you're using linux you can simply
 5. Create a Flint model. (Tip: Use control space to get suggestions)
 6. To view the activity diagram of a fact. Right click on a Fact select Visualize Activity diagram.
 7. To preview the generated json right click in the Flint model and select preview generated text. The file is located at `/solutions/{solution-name}/source_gen/{solution-name}/{model-name]/{flint-model-name}.flint.json`.
-8. To open the Compliance By Design demo right in the Flint model and select Run FlintModel.
+8. Right click on the created model and select `New > FlintModelRunner`
+9. Configure the runner.
+9. To open the Compliance By Design demo right click in the FlintModelRunner and select Run FlintModel.

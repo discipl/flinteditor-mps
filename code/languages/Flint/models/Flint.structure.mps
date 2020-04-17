@@ -90,6 +90,9 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5Xjenljcz0Z" resolve="Source" />
     </node>
+    <node concept="PrWs8" id="10jIHukdr24" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5XjenljaN1U">
     <property role="EcuMT" value="6868897032739434618" />
@@ -502,6 +505,79 @@
       <property role="20kJfa" value="act" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7PeSHTFdFJr" resolve="Act" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="10jIHuj5o15">
+    <property role="EcuMT" value="1158474964212744261" />
+    <property role="TrG5h" value="FlintModelRunnerConfiguration" />
+    <property role="34LRSv" value="FlintModelRunner" />
+    <property role="19KtqR" value="true" />
+    <property role="3GE5qa" value="flintmodelrunner" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="10jIHuj5o16" role="1TKVEi">
+      <property role="IQ2ns" value="1158474964212744262" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="actors" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="10jIHuj5o1a" resolve="FlintModelActor" />
+    </node>
+    <node concept="1TJgyj" id="10jIHuj5o1l" role="1TKVEi">
+      <property role="IQ2ns" value="1158474964212744277" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="activeActors" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="10jIHuj5o1o" resolve="FlintModelActorReference" />
+    </node>
+    <node concept="1TJgyj" id="10jIHukr7eE" role="1TKVEi">
+      <property role="IQ2ns" value="1158474964235219882" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="generalFacts" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5HFvLoKGhUL" resolve="FactReference" />
+    </node>
+    <node concept="PrWs8" id="10jIHuj5o18" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="10jIHuk9LgL" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+    <node concept="1TJgyj" id="10jIHuj5o1r" role="1TKVEi">
+      <property role="IQ2ns" value="1158474964212744283" />
+      <property role="20kJfa" value="flintModel" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5XjenljaN1R" resolve="FlintModel" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="10jIHuj5o1a">
+    <property role="EcuMT" value="1158474964212744266" />
+    <property role="3GE5qa" value="flintmodelrunner" />
+    <property role="TrG5h" value="FlintModelActor" />
+    <property role="34LRSv" value="actor" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="10jIHuj5o1f" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="10jIHuluKt4" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+    <node concept="1TJgyj" id="10jIHuj5o1h" role="1TKVEi">
+      <property role="IQ2ns" value="1158474964212744273" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="facts" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5HFvLoKGhUL" resolve="FactReference" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="10jIHuj5o1o">
+    <property role="EcuMT" value="1158474964212744280" />
+    <property role="3GE5qa" value="flintmodelrunner" />
+    <property role="TrG5h" value="FlintModelActorReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="10jIHuj5o1p" role="1TKVEi">
+      <property role="IQ2ns" value="1158474964212744281" />
+      <property role="20kJfa" value="actor" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="10jIHuj5o1a" resolve="FlintModelActor" />
     </node>
   </node>
 </model>

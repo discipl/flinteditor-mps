@@ -59,11 +59,15 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -87,6 +91,9 @@
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
       <concept id="1207055528241" name="jetbrains.mps.lang.typesystem.structure.WarningStatement" flags="nn" index="a7r0C">
         <child id="1207055552304" name="warningText" index="a7wSD" />
+      </concept>
+      <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
+        <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
       <concept id="1216383170661" name="jetbrains.mps.lang.typesystem.structure.TypesystemQuickFix" flags="ng" index="Q5z_Y">
         <child id="1216383424566" name="executeBlock" index="Q6x$H" />
@@ -131,11 +138,18 @@
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
+      <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
+        <reference id="1138056546658" name="link" index="3TtcxE" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
+      <concept id="1165595910856" name="jetbrains.mps.baseLanguage.collections.structure.GetLastOperation" flags="nn" index="1yVyf7" />
     </language>
   </registry>
   <node concept="18kY7G" id="6aGEImzzlb">
@@ -428,6 +442,51 @@
     <node concept="1YaCAy" id="3NRSSGKTxVM" role="1YuTPh">
       <property role="TrG5h" value="iUsable" />
       <ref role="1YaFvo" to="lnwe:27H3E6HBJi1" resolve="IUsable" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="10jIHuly7dL">
+    <property role="TrG5h" value="ActiveActorsRule" />
+    <node concept="3clFbS" id="10jIHuly7dM" role="18ibNy">
+      <node concept="3clFbJ" id="10jIHuly7dX" role="3cqZAp">
+        <node concept="3eOSWO" id="10jIHul$II9" role="3clFbw">
+          <node concept="2OqwBi" id="10jIHulyiwx" role="3uHU7B">
+            <node concept="2OqwBi" id="10jIHuly7pG" role="2Oq$k0">
+              <node concept="1YBJjd" id="10jIHuly7e9" role="2Oq$k0">
+                <ref role="1YBMHb" node="10jIHuly7dO" resolve="flintModelRunnerConfiguration" />
+              </node>
+              <node concept="3Tsc0h" id="10jIHuly7A2" role="2OqNvi">
+                <ref role="3TtcxE" to="lnwe:10jIHuj5o1l" resolve="activeActors" />
+              </node>
+            </node>
+            <node concept="34oBXx" id="10jIHulyk9v" role="2OqNvi" />
+          </node>
+          <node concept="3cmrfG" id="10jIHulym0B" role="3uHU7w">
+            <property role="3cmrfH" value="2" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="10jIHuly7dZ" role="3clFbx">
+          <node concept="2MkqsV" id="10jIHulym6d" role="3cqZAp">
+            <node concept="Xl_RD" id="10jIHulym6p" role="2MkJ7o">
+              <property role="Xl_RC" value="The max active actors is 2" />
+            </node>
+            <node concept="2OqwBi" id="10jIHuly_aE" role="1urrMF">
+              <node concept="2OqwBi" id="10jIHulyq0m" role="2Oq$k0">
+                <node concept="1YBJjd" id="10jIHulym6T" role="2Oq$k0">
+                  <ref role="1YBMHb" node="10jIHuly7dO" resolve="flintModelRunnerConfiguration" />
+                </node>
+                <node concept="3Tsc0h" id="10jIHulyql0" role="2OqNvi">
+                  <ref role="3TtcxE" to="lnwe:10jIHuj5o1l" resolve="activeActors" />
+                </node>
+              </node>
+              <node concept="1yVyf7" id="10jIHulyAsT" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="10jIHuly7dO" role="1YuTPh">
+      <property role="TrG5h" value="flintModelRunnerConfiguration" />
+      <ref role="1YaFvo" to="lnwe:10jIHuj5o15" resolve="FlintModelRunnerConfiguration" />
     </node>
   </node>
 </model>

@@ -98,6 +98,9 @@
         <reference id="1168619429071" name="applicableConcept" index="n9lRv" />
       </concept>
       <concept id="1095672379244" name="jetbrains.mps.lang.generator.structure.TemplateFragment" flags="ng" index="raruj" />
+      <concept id="5005282049925926521" name="jetbrains.mps.lang.generator.structure.TemplateArgumentParameterExpression" flags="nn" index="v3LJS">
+        <reference id="5005282049925926522" name="parameter" index="v3LJV" />
+      </concept>
       <concept id="1722980698497626400" name="jetbrains.mps.lang.generator.structure.ITemplateCall" flags="ng" index="v9R3L">
         <reference id="1722980698497626483" name="template" index="v9R2y" />
         <child id="1722980698497626405" name="actualArgument" index="v9R3O" />
@@ -133,6 +136,9 @@
         <child id="1194989344771" name="alternativeConsequence" index="UU_$l" />
         <child id="1167945861827" name="conditionFunction" index="3IZSJc" />
       </concept>
+      <concept id="1118786554307" name="jetbrains.mps.lang.generator.structure.LoopMacro" flags="ln" index="1WS0z7">
+        <child id="1167952069335" name="sourceNodesQuery" index="3Jn$fo" />
+      </concept>
     </language>
     <language id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext">
       <concept id="5190093307972723402" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_ParameterRef" flags="nn" index="3cR$yn">
@@ -161,9 +167,16 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
+      <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
+        <child id="1144104376918" name="parameter" index="1xVPHs" />
+      </concept>
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
+      <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
+      </concept>
+      <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
+        <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
         <child id="1180636770616" name="createdType" index="3zrR0E" />
@@ -183,6 +196,7 @@
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
@@ -203,6 +217,10 @@
     <node concept="3lhOvk" id="1ThkPncJ$nn" role="3lj3bC">
       <ref role="30HIoZ" to="lnwe:5XjenljaN1R" resolve="FlintModel" />
       <ref role="3lhOvi" node="1ThkPncLw1E" resolve="map_FlintModel" />
+    </node>
+    <node concept="3lhOvk" id="10jIHuksBke" role="3lj3bC">
+      <ref role="30HIoZ" to="lnwe:10jIHuj5o15" resolve="FlintModelRunnerConfiguration" />
+      <ref role="3lhOvi" node="10jIHuksBkh" resolve="map_FlintModelRunnerConfiguration" />
     </node>
     <node concept="3aamgX" id="5o_8ft54deQ" role="3acgRq">
       <ref role="30HIoZ" to="lnwe:5XjenljaN1U" resolve="Fact" />
@@ -250,6 +268,18 @@
       <ref role="30HIoZ" to="lnwe:27H3E6Hoi66" resolve="DutyReference" />
       <node concept="j$656" id="6qUJKUP$C0O" role="1lVwrX">
         <ref role="v9R2y" node="6qUJKUP$C0M" resolve="reduce_DutyReference" />
+      </node>
+    </node>
+    <node concept="3aamgX" id="10jIHukul1T" role="3acgRq">
+      <ref role="30HIoZ" to="lnwe:10jIHuj5o1a" resolve="FlintModelActor" />
+      <node concept="j$656" id="10jIHukul2L" role="1lVwrX">
+        <ref role="v9R2y" node="10jIHukul2J" resolve="reduce_FlintModelActor" />
+      </node>
+    </node>
+    <node concept="3aamgX" id="10jIHukurpa" role="3acgRq">
+      <ref role="30HIoZ" to="lnwe:10jIHuj5o1o" resolve="FlintModelActorReference" />
+      <node concept="j$656" id="10jIHukurpy" role="1lVwrX">
+        <ref role="v9R2y" node="10jIHukurpw" resolve="reduce_FlintModelActorReference" />
       </node>
     </node>
   </node>
@@ -1460,6 +1490,285 @@
                       <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                     </node>
                   </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3YXoiq" id="10jIHuksBkh">
+    <property role="TrG5h" value="map_FlintModelRunnerConfiguration" />
+    <property role="3GE5qa" value="flintmodelrunner" />
+    <node concept="3YX88f" id="10jIHuksBki" role="3YXoi7">
+      <node concept="3YX88e" id="10jIHuksBkp" role="3YX86K">
+        <property role="TrG5h" value="actors" />
+        <node concept="3YX8am" id="10jIHuksBkv" role="3YX8ah">
+          <node concept="3YX86M" id="10jIHuksBk$" role="3YX8ab">
+            <node concept="2b32R4" id="10jIHuksBkB" role="lGtFl">
+              <node concept="3JmXsc" id="10jIHuksBkE" role="2P8S$">
+                <node concept="3clFbS" id="10jIHuksBkF" role="2VODD2">
+                  <node concept="3clFbF" id="10jIHuksBkL" role="3cqZAp">
+                    <node concept="2OqwBi" id="10jIHuksBkG" role="3clFbG">
+                      <node concept="3Tsc0h" id="10jIHuksBkJ" role="2OqNvi">
+                        <ref role="3TtcxE" to="lnwe:10jIHuj5o16" resolve="actors" />
+                      </node>
+                      <node concept="30H73N" id="10jIHuksBkK" role="2Oq$k0" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3YX88e" id="10jIHuksBrM" role="3YX86K">
+        <property role="TrG5h" value="activeActors" />
+        <node concept="3YX8am" id="10jIHuksBsX" role="3YX8ah">
+          <node concept="3YX86M" id="10jIHuksBCe" role="3YX8ab">
+            <node concept="2b32R4" id="10jIHuksBCi" role="lGtFl">
+              <node concept="3JmXsc" id="10jIHuksBCl" role="2P8S$">
+                <node concept="3clFbS" id="10jIHuksBCm" role="2VODD2">
+                  <node concept="3clFbF" id="10jIHuksBCs" role="3cqZAp">
+                    <node concept="2OqwBi" id="10jIHuksBCn" role="3clFbG">
+                      <node concept="3Tsc0h" id="10jIHuksBCq" role="2OqNvi">
+                        <ref role="3TtcxE" to="lnwe:10jIHuj5o1l" resolve="activeActors" />
+                      </node>
+                      <node concept="30H73N" id="10jIHuksBCr" role="2Oq$k0" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3YX88e" id="10jIHuksBDJ" role="3YX86K">
+        <property role="TrG5h" value="factFunctionSpec" />
+        <node concept="3YX88f" id="10jIHuksDcu" role="3YX8ah">
+          <node concept="5jKBG" id="10jIHuksDcz" role="lGtFl">
+            <ref role="v9R2y" node="10jIHuksCy3" resolve="reduce_FactFunctionSpec" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="n94m4" id="10jIHuksBkj" role="lGtFl">
+      <ref role="n9lRv" to="lnwe:10jIHuj5o15" resolve="FlintModelRunnerConfiguration" />
+    </node>
+  </node>
+  <node concept="13MO4I" id="10jIHuksCy3">
+    <property role="3GE5qa" value="flintmodelrunner" />
+    <property role="TrG5h" value="reduce_FactFunctionSpec" />
+    <ref role="3gUMe" to="lnwe:10jIHuj5o15" resolve="FlintModelRunnerConfiguration" />
+    <node concept="3YX88f" id="10jIHuksDcA" role="13RCb5">
+      <node concept="3YX88e" id="10jIHuksDcE" role="3YX86K">
+        <property role="TrG5h" value="fact" />
+        <node concept="3YX86M" id="10jIHuksEVq" role="3YX8ah">
+          <property role="3YX86R" value="actor" />
+        </node>
+        <node concept="1WS0z7" id="10jIHuksLVV" role="lGtFl">
+          <node concept="3JmXsc" id="10jIHuksLVY" role="3Jn$fo">
+            <node concept="3clFbS" id="10jIHuksLVZ" role="2VODD2">
+              <node concept="3clFbF" id="10jIHuksLW5" role="3cqZAp">
+                <node concept="2OqwBi" id="10jIHuksLW0" role="3clFbG">
+                  <node concept="3Tsc0h" id="10jIHuksLW3" role="2OqNvi">
+                    <ref role="3TtcxE" to="lnwe:10jIHuj5o16" resolve="actors" />
+                  </node>
+                  <node concept="30H73N" id="10jIHuksLW4" role="2Oq$k0" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1WS0z7" id="10jIHuksEVu" role="lGtFl">
+          <node concept="3JmXsc" id="10jIHuksEVx" role="3Jn$fo">
+            <node concept="3clFbS" id="10jIHuksEVy" role="2VODD2">
+              <node concept="3clFbF" id="10jIHuksEVC" role="3cqZAp">
+                <node concept="2OqwBi" id="10jIHuksEVz" role="3clFbG">
+                  <node concept="3Tsc0h" id="10jIHuksEVA" role="2OqNvi">
+                    <ref role="3TtcxE" to="lnwe:10jIHuj5o1h" resolve="facts" />
+                  </node>
+                  <node concept="30H73N" id="10jIHuksEVB" role="2Oq$k0" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="5jKBG" id="10jIHuksFa4" role="lGtFl">
+          <ref role="v9R2y" node="10jIHuksDcI" resolve="reduce_FlintModelActorFunctionSpec" />
+          <node concept="2OqwBi" id="10jIHuksGrE" role="v9R3O">
+            <node concept="2OqwBi" id="10jIHuksFpA" role="2Oq$k0">
+              <node concept="30H73N" id="10jIHuksFce" role="2Oq$k0" />
+              <node concept="3TrEf2" id="10jIHuksFG$" role="2OqNvi">
+                <ref role="3Tt5mk" to="lnwe:5HFvLoKGhUM" resolve="fact" />
+              </node>
+            </node>
+            <node concept="3TrcHB" id="10jIHuksGtA" role="2OqNvi">
+              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="10jIHuksHla" role="v9R3O">
+            <node concept="2OqwBi" id="10jIHuksGH9" role="2Oq$k0">
+              <node concept="30H73N" id="10jIHuksGvB" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="10jIHuksH6$" role="2OqNvi">
+                <node concept="1xMEDy" id="10jIHuksH6A" role="1xVPHs">
+                  <node concept="chp4Y" id="10jIHuksH9a" role="ri$Ld">
+                    <ref role="cht4Q" to="lnwe:10jIHuj5o1a" resolve="FlintModelActor" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3TrcHB" id="10jIHuksHyo" role="2OqNvi">
+              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="raruj" id="10jIHuksDcC" role="lGtFl" />
+      <node concept="3YX88e" id="10jIHuksI2j" role="3YX86K">
+        <property role="TrG5h" value="generalFact" />
+        <node concept="3YX86M" id="10jIHuksI5o" role="3YX8ah">
+          <property role="3YX86R" value="name" />
+        </node>
+        <node concept="1WS0z7" id="10jIHuksI5s" role="lGtFl">
+          <node concept="3JmXsc" id="10jIHuksI5v" role="3Jn$fo">
+            <node concept="3clFbS" id="10jIHuksI5w" role="2VODD2">
+              <node concept="3clFbF" id="10jIHuksMuS" role="3cqZAp">
+                <node concept="2OqwBi" id="10jIHuksMJa" role="3clFbG">
+                  <node concept="30H73N" id="10jIHuksMuR" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="10jIHuksN8K" role="2OqNvi">
+                    <ref role="3TtcxE" to="lnwe:10jIHukr7eE" resolve="generalFacts" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="5jKBG" id="10jIHuksK2f" role="lGtFl">
+          <ref role="v9R2y" node="10jIHuksDcI" resolve="reduce_FlintModelActorFunctionSpec" />
+          <node concept="2OqwBi" id="10jIHuksKNp" role="v9R3O">
+            <node concept="2OqwBi" id="10jIHuksKg7" role="2Oq$k0">
+              <node concept="30H73N" id="10jIHuksK59" role="2Oq$k0" />
+              <node concept="3TrEf2" id="10jIHuksKz5" role="2OqNvi">
+                <ref role="3Tt5mk" to="lnwe:5HFvLoKGhUM" resolve="fact" />
+              </node>
+            </node>
+            <node concept="3TrcHB" id="10jIHuksL6c" role="2OqNvi">
+              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+          <node concept="Xl_RD" id="10jIHuksL6n" role="v9R3O">
+            <property role="Xl_RC" value="ANYONE" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13MO4I" id="10jIHuksDcI">
+    <property role="3GE5qa" value="flintmodelrunner" />
+    <property role="TrG5h" value="reduce_FlintModelActorFunctionSpec" />
+    <node concept="3YX88f" id="10jIHuksDdn" role="13RCb5">
+      <node concept="3YX88e" id="10jIHuksDdp" role="3YX86K">
+        <property role="TrG5h" value="fact" />
+        <node concept="3YX86M" id="10jIHuksEfN" role="3YX8ah">
+          <property role="3YX86R" value="actor" />
+          <node concept="17Uvod" id="10jIHuksEpS" role="lGtFl">
+            <property role="2qtEX9" value="value" />
+            <property role="P4ACc" value="b5c0bb04-c583-4b2a-a66e-1eab92d33c68/4342692121161029323/4342692121161029326" />
+            <node concept="3zFVjK" id="10jIHuksEpT" role="3zH0cK">
+              <node concept="3clFbS" id="10jIHuksEpU" role="2VODD2">
+                <node concept="3clFbF" id="10jIHuksEqk" role="3cqZAp">
+                  <node concept="v3LJS" id="10jIHuksED1" role="3clFbG">
+                    <ref role="v3LJV" node="10jIHuksDcZ" resolve="actor" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="10jIHuksDd_" role="lGtFl" />
+        <node concept="17Uvod" id="10jIHuksDdB" role="lGtFl">
+          <property role="2qtEX9" value="name" />
+          <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+          <node concept="3zFVjK" id="10jIHuksDdC" role="3zH0cK">
+            <node concept="3clFbS" id="10jIHuksDdD" role="2VODD2">
+              <node concept="3clFbF" id="10jIHuksDih" role="3cqZAp">
+                <node concept="3cpWs3" id="10jIHuksEcq" role="3clFbG">
+                  <node concept="Xl_RD" id="10jIHuksEdg" role="3uHU7w">
+                    <property role="Xl_RC" value="]" />
+                  </node>
+                  <node concept="3cpWs3" id="10jIHuksDK8" role="3uHU7B">
+                    <node concept="Xl_RD" id="10jIHuksDOW" role="3uHU7B">
+                      <property role="Xl_RC" value="[" />
+                    </node>
+                    <node concept="v3LJS" id="10jIHuksDB2" role="3uHU7w">
+                      <ref role="v3LJV" node="10jIHuksDcK" resolve="fact" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1N15co" id="10jIHuksDcK" role="1s_3oS">
+      <property role="TrG5h" value="fact" />
+      <node concept="17QB3L" id="10jIHuksDdb" role="1N15GL" />
+    </node>
+    <node concept="1N15co" id="10jIHuksDcZ" role="1s_3oS">
+      <property role="TrG5h" value="actor" />
+      <node concept="17QB3L" id="10jIHuksDdi" role="1N15GL" />
+    </node>
+  </node>
+  <node concept="13MO4I" id="10jIHukul2J">
+    <property role="TrG5h" value="reduce_FlintModelActor" />
+    <property role="3GE5qa" value="flintmodelrunner" />
+    <ref role="3gUMe" to="lnwe:10jIHuj5o1a" resolve="FlintModelActor" />
+    <node concept="3YX86M" id="10jIHukuljQ" role="13RCb5">
+      <property role="3YX86R" value="name" />
+      <node concept="raruj" id="10jIHukuljS" role="lGtFl" />
+      <node concept="17Uvod" id="10jIHukuljT" role="lGtFl">
+        <property role="2qtEX9" value="value" />
+        <property role="P4ACc" value="b5c0bb04-c583-4b2a-a66e-1eab92d33c68/4342692121161029323/4342692121161029326" />
+        <node concept="3zFVjK" id="10jIHukuljU" role="3zH0cK">
+          <node concept="3clFbS" id="10jIHukuljV" role="2VODD2">
+            <node concept="3clFbF" id="10jIHukulti" role="3cqZAp">
+              <node concept="2OqwBi" id="10jIHukurcl" role="3clFbG">
+                <node concept="30H73N" id="10jIHukulth" role="2Oq$k0" />
+                <node concept="3TrcHB" id="10jIHukurdi" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13MO4I" id="10jIHukurpw">
+    <property role="TrG5h" value="reduce_FlintModelActorReference" />
+    <property role="3GE5qa" value="flintmodelrunner" />
+    <ref role="3gUMe" to="lnwe:10jIHuj5o1o" resolve="FlintModelActorReference" />
+    <node concept="3YX86M" id="10jIHukurp_" role="13RCb5">
+      <property role="3YX86R" value="name" />
+      <node concept="raruj" id="10jIHukurpB" role="lGtFl" />
+      <node concept="17Uvod" id="10jIHukurpC" role="lGtFl">
+        <property role="2qtEX9" value="value" />
+        <property role="P4ACc" value="b5c0bb04-c583-4b2a-a66e-1eab92d33c68/4342692121161029323/4342692121161029326" />
+        <node concept="3zFVjK" id="10jIHukurpD" role="3zH0cK">
+          <node concept="3clFbS" id="10jIHukurpE" role="2VODD2">
+            <node concept="3clFbF" id="10jIHukurui" role="3cqZAp">
+              <node concept="2OqwBi" id="10jIHukurWz" role="3clFbG">
+                <node concept="2OqwBi" id="10jIHukurEy" role="2Oq$k0">
+                  <node concept="30H73N" id="10jIHukuruh" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="10jIHukurNh" role="2OqNvi">
+                    <ref role="3Tt5mk" to="lnwe:10jIHuj5o1p" resolve="actor" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="10jIHukusaS" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                 </node>
               </node>
             </node>
