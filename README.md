@@ -22,6 +22,6 @@ Then run executable from the bin directory. If you're using linux you can simply
 7. To preview the generated json right click in the Flint model and select preview generated text. The file is located at `/solutions/{solution-name}/source_gen/{solution-name}/{model-name]/{flint-model-name}.flint.json`.
 8. Right click on the created model and select `New > FlintModelRunner`
 9. Configure the runner.
-10. To open the Compliance By Design demo right click in the FlintModelRunner and select Run FlintModel.
+10. To open the Compliance By Design demo generate de model (ctrl + F9),  right click on the FlintModelRunner and select Run FlintModel.
 
 ## Plugin Description

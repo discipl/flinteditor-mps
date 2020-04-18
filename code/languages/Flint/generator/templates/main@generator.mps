@@ -196,7 +196,6 @@
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
@@ -1500,7 +1499,6 @@
   </node>
   <node concept="3YXoiq" id="10jIHuksBkh">
     <property role="TrG5h" value="map_FlintModelRunnerConfiguration" />
-    <property role="3GE5qa" value="flintmodelrunner" />
     <node concept="3YX88f" id="10jIHuksBki" role="3YXoi7">
       <node concept="3YX88e" id="10jIHuksBkp" role="3YX86K">
         <property role="TrG5h" value="actors" />
@@ -1556,9 +1554,24 @@
     <node concept="n94m4" id="10jIHuksBkj" role="lGtFl">
       <ref role="n9lRv" to="lnwe:10jIHuj5o15" resolve="FlintModelRunnerConfiguration" />
     </node>
+    <node concept="17Uvod" id="10jIHulMyd6" role="lGtFl">
+      <property role="2qtEX9" value="name" />
+      <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+      <node concept="3zFVjK" id="10jIHulMyd7" role="3zH0cK">
+        <node concept="3clFbS" id="10jIHulMyd8" role="2VODD2">
+          <node concept="3clFbF" id="10jIHulMyqq" role="3cqZAp">
+            <node concept="2OqwBi" id="10jIHulMyCo" role="3clFbG">
+              <node concept="30H73N" id="10jIHulMyqp" role="2Oq$k0" />
+              <node concept="3TrcHB" id="10jIHulMyOX" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13MO4I" id="10jIHuksCy3">
-    <property role="3GE5qa" value="flintmodelrunner" />
     <property role="TrG5h" value="reduce_FactFunctionSpec" />
     <ref role="3gUMe" to="lnwe:10jIHuj5o15" resolve="FlintModelRunnerConfiguration" />
     <node concept="3YX88f" id="10jIHuksDcA" role="13RCb5">
@@ -1666,7 +1679,6 @@
     </node>
   </node>
   <node concept="13MO4I" id="10jIHuksDcI">
-    <property role="3GE5qa" value="flintmodelrunner" />
     <property role="TrG5h" value="reduce_FlintModelActorFunctionSpec" />
     <node concept="3YX88f" id="10jIHuksDdn" role="13RCb5">
       <node concept="3YX88e" id="10jIHuksDdp" role="3YX86K">
@@ -1724,7 +1736,6 @@
   </node>
   <node concept="13MO4I" id="10jIHukul2J">
     <property role="TrG5h" value="reduce_FlintModelActor" />
-    <property role="3GE5qa" value="flintmodelrunner" />
     <ref role="3gUMe" to="lnwe:10jIHuj5o1a" resolve="FlintModelActor" />
     <node concept="3YX86M" id="10jIHukuljQ" role="13RCb5">
       <property role="3YX86R" value="name" />
@@ -1749,7 +1760,6 @@
   </node>
   <node concept="13MO4I" id="10jIHukurpw">
     <property role="TrG5h" value="reduce_FlintModelActorReference" />
-    <property role="3GE5qa" value="flintmodelrunner" />
     <ref role="3gUMe" to="lnwe:10jIHuj5o1o" resolve="FlintModelActorReference" />
     <node concept="3YX86M" id="10jIHukurp_" role="13RCb5">
       <property role="3YX86R" value="name" />
