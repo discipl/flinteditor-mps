@@ -55,11 +55,19 @@ data class BaseSource(
     val juriconnect: String
 )
 
-data class Function(val expression: String, val operands: List<Operand>?, val operand: Operand?) : Operand, Resolvable {
+data class Function(
+    val expression: String,
+    val operands: List<Operand>?,
+    val operand: Operand?,
+    val items: Operand?,
+    val name: FactReference?
+) :
+    Operand, Resolvable {
     val allOperands: List<Operand>
         get() = mutableListOf<Operand>().apply {
             operands?.let { this.addAll(it) }
             operand?.let { this.add(it) }
+            items?.let { this.add(it) }
         }
 }
 

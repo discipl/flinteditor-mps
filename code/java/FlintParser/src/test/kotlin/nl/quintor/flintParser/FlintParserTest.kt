@@ -125,4 +125,24 @@ internal class FlintParserTest {
             }
         }
     }
+
+    @Test
+    fun listOperandFunctions() {
+        fun Function.flatten(): List<Function> {
+            val children = this.allOperands.flatMap { (it as? Function)?.flatten() ?: emptyList() }
+            return listOf(children, listOf(this)).flatten()
+        }
+        this::class.java.classLoader.getResourceAsStream("test-ANLb.flint.json").use {
+            InputStreamReader(it).use {
+                val text = it.readText()
+                val flintParser = FlintParser(text)
+                val allFunctions =
+                    flintParser.getFacts().flatMap { (it.function as? Function)?.flatten() ?: emptyList() }
+                assertThat(allFunctions.size, `is`(equalTo(11)))
+                val listFunctions = allFunctions.filter { it.expression == "LIST" }
+                assertThat(listFunctions.size, `is`(equalTo(3)))
+                assertThat(listFunctions.filter { it.name != null }.size, `is`(equalTo(listFunctions.size)))
+            }
+        }
+    }
 }
