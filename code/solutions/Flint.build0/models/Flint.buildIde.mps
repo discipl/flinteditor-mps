@@ -94,6 +94,7 @@
       <concept id="5617550519002745363" name="jetbrains.mps.build.structure.BuildProject" flags="ng" index="1l3spW">
         <property id="4915877860348071612" name="fileName" index="turDy" />
         <property id="5204048710541015587" name="internalBaseDirectory" index="2DA0ip" />
+        <child id="4796668409958418110" name="scriptsDir" index="auvoZ" />
         <child id="6647099934206700656" name="plugins" index="10PD9s" />
         <child id="7389400916848080626" name="parts" index="3989C9" />
         <child id="5617550519002745381" name="dependencies" index="1l3spa" />
@@ -246,9 +247,9 @@
     </language>
   </registry>
   <node concept="1l3spW" id="2WP7dhE1eqn">
-    <property role="TrG5h" value="FlintForIde" />
+    <property role="TrG5h" value="Flint" />
     <property role="2DA0ip" value="../.." />
-    <property role="turDy" value="buildIde.xml" />
+    <property role="turDy" value="buildFlint.xml" />
     <node concept="10PD9b" id="2WP7dhE1eqo" role="10PD9s" />
     <node concept="3b7kt6" id="2WP7dhE1eqp" role="10PD9s" />
     <node concept="1zClus" id="2WP7dhE1eqD" role="3989C9">
@@ -1201,11 +1202,11 @@
     </node>
   </node>
   <node concept="1l3spW" id="2WP7dhE1esB">
-    <property role="TrG5h" value="FlintDistribution" />
-    <property role="turDy" value="buildDistribution.xml" />
+    <property role="TrG5h" value="FlintIdeDistribution" />
+    <property role="turDy" value="buildIdeDistribution.xml" />
     <property role="2DA0ip" value="../.." />
     <node concept="2sgV4H" id="2WP7dhE1esC" role="1l3spa">
-      <ref role="1l3spb" node="2WP7dhE1eqn" resolve="FlintForIde" />
+      <ref role="1l3spb" node="2WP7dhE1eqn" resolve="Flint" />
     </node>
     <node concept="1l3spV" id="2WP7dhE1esD" role="1l3spN">
       <node concept="1tmT9g" id="2WP7dhE1etz" role="39821P">
@@ -1840,6 +1841,47 @@
     </node>
     <node concept="26EafG" id="2WP7dhE1ewK" role="26Ea7d">
       <property role="26EafJ" value="lib/jna.jar" />
+    </node>
+  </node>
+  <node concept="1l3spW" id="4aWSgWwhSy0">
+    <property role="2DA0ip" value="../.." />
+    <property role="TrG5h" value="FlintPluginDistribution" />
+    <property role="turDy" value="buildPluginDistribution.xml" />
+    <node concept="398rNT" id="4aWSgWwjCWz" role="1l3spd">
+      <property role="TrG5h" value="mps_home" />
+    </node>
+    <node concept="2kB4xC" id="4aWSgWwjCW$" role="1l3spd">
+      <property role="TrG5h" value="version" />
+      <node concept="aVJcg" id="4aWSgWwjCW_" role="aVJcv">
+        <node concept="NbPM2" id="4aWSgWwjCWA" role="aVJcq">
+          <node concept="3Mxwew" id="4aWSgWwjCWB" role="3MwsjC">
+            <property role="3MwjfP" value="1.0" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="55IIr" id="4aWSgWwhSy1" role="auvoZ" />
+    <node concept="1l3spV" id="4aWSgWwhSy2" role="1l3spN">
+      <node concept="3981dG" id="4aWSgWwhSy5" role="39821P">
+        <node concept="398223" id="4aWSgWwlpQS" role="39821P">
+          <node concept="3ygNvl" id="4aWSgWwhSyh" role="39821P">
+            <ref role="3ygNvj" node="2WP7dhE1es7" resolve="Flint" />
+          </node>
+          <node concept="3_J27D" id="4aWSgWwlpQU" role="Nbhlr">
+            <node concept="3Mxwew" id="4aWSgWwlpQZ" role="3MwsjC">
+              <property role="3MwjfP" value="Flint" />
+            </node>
+          </node>
+        </node>
+        <node concept="3_J27D" id="4aWSgWwhSy6" role="Nbhlr">
+          <node concept="3Mxwew" id="4aWSgWwhSy9" role="3MwsjC">
+            <property role="3MwjfP" value="Flint.zip" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2sgV4H" id="4aWSgWwhSy3" role="1l3spa">
+      <ref role="1l3spb" node="2WP7dhE1eqn" resolve="Flint" />
     </node>
   </node>
 </model>

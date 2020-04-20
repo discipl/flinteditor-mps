@@ -120,7 +120,7 @@ de.itemis.mps.gradle.Plugin[] getPlugins(xmlFile, pluginslocation) {
 generate {
     mpsLocation = mpsDir
     projectLocation = project("code").projectDir
-    plugins = getPlugins(new File(project(":code").projectDir, "buildIde.xml"), new File(mpsDir, "plugins"))
+    plugins = getPlugins(new File(project(":code").projectDir, "buildFlint.xml"), new File(mpsDir, "plugins"))
     mpsConfig = configurations.mps
     pluginLocation = new File(mpsDir, "plugins")
 }
@@ -258,15 +258,21 @@ task resolveMpsPlugins(type: Copy) {
     finalizedBy(copyJavaFxLibs)
 }
 
-task buildFlintPlugin(type: de.itemis.mps.gradle.RunAntScript) {
+task buildFlint(type: de.itemis.mps.gradle.RunAntScript) {
     group "build"
-    script = file("$rootDir/code/buildIde.xml")
+    script = file("$rootDir/code/buildFlint.xml")
 }
 
 task buildFlintIde(type: de.itemis.mps.gradle.RunAntScript) {
     group "build"
-    dependsOn(buildFlintPlugin)
-    script = file("$rootDir/code/buildDistribution.xml")
+    dependsOn(buildFlint)
+    script = file("$rootDir/code/buildIdeDistribution.xml")
+}
+
+task buildFlintPlugin(type: de.itemis.mps.gradle.RunAntScript) {
+    group "build"
+    dependsOn(buildFlint)
+    script = file("$rootDir/code/buildPluginDistribution.xml")
 }
 
 task cleanProject(type: Delete) {
