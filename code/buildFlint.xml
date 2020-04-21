@@ -163,6 +163,7 @@
         <version>1.0</version>
         <depends>jetbrains.mps.ide.make</depends>
         <depends>com.mbeddr.mpsutil.json</depends>
+        <depends>com.mbeddr.mpsutil</depends>
         <depends>com.mbeddr.mpsutil.plantuml</depends>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.ide.httpsupport</depends>
@@ -187,6 +188,7 @@
           <module ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" kind="rt" />
           <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" kind="rt" />
           <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" kind="rt" />
+          <module ref="98a7bbe2-0ea1-4503-9fc1-9efb7b48c6ea(com.mbeddr.mpsutil.datepicker.runtime)" kind="rt" />
           <module ref="dc038ceb-b7ea-4fea-ac12-55f7400e97ba(de.slisson.mps.editor.multiline.runtime)" kind="rt" />
           <module ref="af19274f-5f89-42dd-8f3c-c9932448f7f2(jetbrains.mps.analyzers.runtime)" kind="rt" />
           <module ref="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" kind="rt" />
@@ -203,11 +205,13 @@
           <module ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" kind="cl" />
           <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" kind="cl" />
           <module ref="86441d7a-e194-42da-81a5-2161ec62a379(MPS.Workbench)" kind="cl" />
+          <module ref="98a7bbe2-0ea1-4503-9fc1-9efb7b48c6ea(com.mbeddr.mpsutil.datepicker.runtime)" kind="cl" />
           <module ref="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" kind="cl" />
           <module ref="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" kind="cl" />
           <module ref="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" kind="cl" />
         </dependencies>
         <uses>
+          <language id="l:fb1561dd-216d-4cd5-9cd8-5d1dc9d20bcf:com.mbeddr.mpsutil.datepicker" />
           <language id="l:31c91def-a131-41a1-9018-102874f49a12:de.slisson.mps.editor.multiline" />
           <language id="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" />
           <language id="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" />
@@ -620,19 +624,54 @@
   <target name="generate" depends="declare-mps-tasks, fetchDependencies">
     <echo message="generating" />
     <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" createStaticRefs="true" fork="true" skipUnmodifiedModels="${mps.generator.skipUnmodifiedModels}">
+      <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.common" />
+      <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.contextactions" />
+      <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.editorsupport" />
+      <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.filepicker" />
+      <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.genreview" />
+      <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.gensupport" />
+      <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.incrementalcomputation" />
+      <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.infrastructure.misc" />
+      <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.interpreter" />
+      <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.jfreechart" />
       <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.json" />
+      <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.jung" />
+      <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.margincell_review" />
       <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.plantuml" />
+      <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.projectview" />
+      <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.spreferences" />
+      <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.suppresswarning" />
+      <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.treenotations" />
+      <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.uisupport" />
+      <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.userstyles" />
+      <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.varscope" />
       <plugin path="${artifacts.com.mbeddr.platform}/de-itemis-mps-selection" />
+      <plugin path="${artifacts.com.mbeddr.platform}/de.itemis.mps.blutil" />
       <plugin path="${artifacts.com.mbeddr.platform}/de.itemis.mps.celllayout" />
+      <plugin path="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram" />
+      <plugin path="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.widgets" />
+      <plugin path="${artifacts.com.mbeddr.platform}/de.itemis.mps.tooltips" />
       <plugin path="${artifacts.com.mbeddr.platform}/de.itemis.mps.utils" />
+      <plugin path="${artifacts.com.mbeddr.platform}/de.slisson.mps.conditionalEditor" />
       <plugin path="${artifacts.com.mbeddr.platform}/de.slisson.mps.hacks" />
+      <plugin path="${artifacts.com.mbeddr.platform}/mbeddr.mpsutil" />
+      <plugin path="${artifacts.com.mbeddr.platform}/mbeddr.platform" />
+      <plugin path="${artifacts.com.mbeddr.platform}/mps-apache-commons" />
       <plugin path="${artifacts.com.mbeddr.platform}/mps-multiline" />
+      <plugin path="${artifacts.com.mbeddr.platform}/mps-richtext" />
+      <plugin path="${artifacts.com.mbeddr.platform}/mpsutil.editingGuide" />
+      <plugin path="${artifacts.com.mbeddr.platform}/mpsutil.refactoring" />
       <plugin path="${artifacts.mpsBuild}/mps-build" />
+      <plugin path="${artifacts.mpsDebuggerPlugin}/mps-debugger-api" />
+      <plugin path="${artifacts.mpsDebuggerPlugin}/mps-execution-api" />
       <plugin path="${artifacts.mpsHttpSupportPlugin}/mps-httpsupport" />
       <plugin path="${artifacts.mpsMakePlugin}/mps-make" />
       <plugin path="${artifacts.mpsStandalone}/lib/mps-workbench.jar" />
       <plugin path="${artifacts.mpsStandalone}/plugins/mps-core" />
       <plugin path="${artifacts.mpsTesting}/mps-testing" />
+      <plugin path="${artifacts.mpsVcs}/git4idea" />
+      <plugin path="${artifacts.mpsVcs}/mps-vcs" />
+      <plugin path="${artifacts.mpsVcs}/svn4idea" />
       <library file="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.json/languages/group.json/com.mbeddr.mpsutil.json.jar" />
       <library file="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.plantuml/languages/group.plantuml/com.mbeddr.mpsutil.plantuml.node.jar" />
       <library file="${artifacts.com.mbeddr.platform}/de-itemis-mps-selection/languages/de.itemis.mps.selection/de.itemis.mps.selection.runtime.jar" />
@@ -640,6 +679,8 @@
       <library file="${artifacts.com.mbeddr.platform}/de.itemis.mps.celllayout/languages/de.itemis.mps.celllayout/de.itemis.mps.editor.celllayout.styles.jar" />
       <library file="${artifacts.com.mbeddr.platform}/de.slisson.mps.hacks/languages/de.slisson.mps.hacks/de.slisson.mps.hacks.editor.jar" />
       <library file="${artifacts.com.mbeddr.platform}/de.slisson.mps.hacks/languages/de.slisson.mps.hacks/de.slisson.mps.reflection.runtime.jar" />
+      <library file="${artifacts.com.mbeddr.platform}/mbeddr.mpsutil/languages/group.datepicker/com.mbeddr.mpsutil.datepicker.jar" />
+      <library file="${artifacts.com.mbeddr.platform}/mbeddr.mpsutil/languages/group.datepicker/com.mbeddr.mpsutil.datepicker.runtime.jar" />
       <library file="${artifacts.com.mbeddr.platform}/mps-multiline/languages/mps-multiline/de.slisson.mps.editor.multiline.jar" />
       <library file="${artifacts.com.mbeddr.platform}/mps-multiline/languages/mps-multiline/de.slisson.mps.editor.multiline.runtime.jar" />
       <library file="${artifacts.mpsHttpSupportPlugin}/mps-httpsupport/languages/jetbrains.mps.ide.httpsupport.jar" />
@@ -835,6 +876,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/ecj-4.10.jar" />
+        <fileset file="${artifacts.com.mbeddr.platform}/mbeddr.mpsutil/languages/group.datepicker/com.mbeddr.mpsutil.datepicker.runtime.jar" />
         <fileset file="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.plantuml/languages/group.plantuml/com.mbeddr.mpsutil.plantuml.node.jar" />
         <fileset file="${artifacts.com.mbeddr.platform}/de.itemis.mps.celllayout/languages/de.itemis.mps.celllayout/de.itemis.mps.editor.celllayout.runtime.jar" />
         <fileset file="${artifacts.com.mbeddr.platform}/de.itemis.mps.celllayout/languages/de.itemis.mps.celllayout/de.itemis.mps.editor.celllayout.styles.jar" />
@@ -846,6 +888,7 @@
         <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.descriptor.aspects.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
+        <fileset dir="${artifacts.com.mbeddr.platform}/mbeddr.mpsutil/lib/datepicker" includes="microba-0.4.4.jar" />
         <fileset dir="${artifacts.com.mbeddr.platform}/mps-multiline/lib" includes="diff_match_patch.jar" />
       </classpath>
     </javac>

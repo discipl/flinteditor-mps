@@ -207,18 +207,18 @@ task resolveArtifacts(type: Copy) {
 }
 
 task cleanIdeTar(type: Delete) {
-    delete("$rootDir/code/build/artifacts/FlintDistribution/linux")
+    delete("$rootDir/code/build/artifacts/FlintIdeDistribution/linux")
 }
 
 task extractIdeTar() {
     dependsOn "buildFlintIde"
     dependsOn cleanIdeTar
     doFirst {
-        new File("$rootDir/code/build/artifacts/FlintDistribution/").eachFile { file ->
+        new File("$rootDir/code/build/artifacts/FlintIdeDistribution/").eachFile { file ->
             if (file.name.matches("Flint-(.*)\\.tar\\.gz")) {
                 copy {
                     from tarTree(file)
-                    into "$rootDir/code/build/artifacts/FlintDistribution/linux"
+                    into "$rootDir/code/build/artifacts/FlintIdeDistribution/linux"
                 }
             }
         }
@@ -228,7 +228,7 @@ task extractIdeTar() {
 task startFlintLinuxIde(type: Exec) {
     dependsOn(extractIdeTar)
     group "flintide"
-    workingDir "$rootDir/code/build/artifacts/FlintDistribution/linux/bin"
+    workingDir "$rootDir/code/build/artifacts/FlintIdeDistribution/linux/bin"
     commandLine "./flint.sh"
 }
 
@@ -314,6 +314,6 @@ tasks.whenTaskAdded {
         initProject.dependsOn(it)
     }
     if (it.getName() == "generate") {
-        buildFlintPlugin.dependsOn(it)
+        buildFlint.dependsOn(it)
     }
 }

@@ -725,6 +725,9 @@
       <node concept="m$_yC" id="2WP7dhE1exF" role="m$_yJ">
         <ref role="m$_y1" to="al5i:NMVW79y25x" resolve="com.mbeddr.mpsutil.json" />
       </node>
+      <node concept="m$_yC" id="2vpCevmZNWp" role="m$_yJ">
+        <ref role="m$_y1" to="al5i:7uZw0yZ2_Jq" resolve="com.mbeddr.mpsutil" />
+      </node>
       <node concept="m$_yC" id="2WP7dhE1exN" role="m$_yJ">
         <ref role="m$_y1" to="al5i:64SK4bcJmGP" resolve="com.mbeddr.mpsutil.plantuml" />
       </node>
@@ -868,6 +871,11 @@
         <node concept="1SiIV0" id="10jIHukbUJN" role="3bR37C">
           <node concept="3bR9La" id="10jIHukbUJO" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2vpCevmY6aW" role="3bR37C">
+          <node concept="3bR9La" id="2vpCevmY6aX" role="1SiIV1">
+            <ref role="3bR37D" to="al5i:35WzcHe4_iF" resolve="com.mbeddr.mpsutil.datepicker.runtime" />
           </node>
         </node>
       </node>
