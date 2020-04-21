@@ -29,9 +29,6 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
-        <child id="1081516765348" name="expression" index="3fr31v" />
-      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -71,29 +68,6 @@
   </registry>
   <node concept="1M2fIO" id="27H3E6IvXMs">
     <ref role="1M2myG" to="lnwe:5Xjenljcz0Z" resolve="Source" />
-    <node concept="EnEH3" id="27H3E6Ix7nK" role="1MhHOB">
-      <ref role="EomxK" to="lnwe:5Xjenljcz1C" resolve="juriconnect" />
-      <node concept="QB0g5" id="27H3E6Ix7nM" role="QCWH9">
-        <node concept="3clFbS" id="27H3E6Ix7nN" role="2VODD2">
-          <node concept="3clFbF" id="27H3E6Ix7rB" role="3cqZAp">
-            <node concept="1Wc70l" id="27H3E6Ix7IA" role="3clFbG">
-              <node concept="3y3z36" id="27H3E6Ix814" role="3uHU7B">
-                <node concept="10Nm6u" id="27H3E6Ix825" role="3uHU7w" />
-                <node concept="1Wqviy" id="27H3E6Ix7Nq" role="3uHU7B" />
-              </node>
-              <node concept="3fqX7Q" id="27H3E6Izvam" role="3uHU7w">
-                <node concept="2OqwBi" id="27H3E6Izvao" role="3fr31v">
-                  <node concept="1Wqviy" id="27H3E6Izvap" role="2Oq$k0" />
-                  <node concept="liA8E" id="27H3E6Izvaq" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.isBlank()" resolve="isBlank" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="EnEH3" id="27H3E6I$EJZ" role="1MhHOB">
       <ref role="EomxK" to="lnwe:5Xjenljcz1z" resolve="validFrom" />
       <node concept="QB0g5" id="27H3E6I$EKh" role="QCWH9">

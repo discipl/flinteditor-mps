@@ -1,4 +1,4 @@
-package nl.quintor.flintParser
+package nl.discpl.flintParser
 
 import javafx.application.Platform
 import javafx.embed.swing.JFXPanel

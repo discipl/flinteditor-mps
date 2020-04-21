@@ -1,4 +1,4 @@
-package nl.quintor.flintParser
+package nl.discpl.flintParser
 
 import com.google.gson.JsonDeserializationContext
 import com.google.gson.JsonDeserializer

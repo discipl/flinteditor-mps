@@ -1,11 +1,12 @@
-package nl.quintor.flintParser
+package nl.discpl.flintParser
 
 import java.awt.BorderLayout
 import java.nio.file.Path
 import javax.swing.JPanel
 
 class FlintWebView(assetFilePath: Path) : JPanel() {
-    private val jfxPanel: FlintWebViewJfxPanel = FlintWebViewJfxPanel(assetFilePath)
+    private val jfxPanel: FlintWebViewJfxPanel =
+        FlintWebViewJfxPanel(assetFilePath)
 
     init {
         this.setLayout(BorderLayout())

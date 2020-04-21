@@ -1,48 +1,37 @@
-package nl.quintor.flintParser
+package nl.discpl.flintParser
 
 import com.google.gson.JsonElement
-import com.google.gson.JsonObject
-import com.google.gson.JsonPrimitive
 import io.gsonfire.GsonFireBuilder
-import io.gsonfire.TypeSelector
+import nl.discpl.flintParser.typeselector.*
 import kotlin.streams.toList
 
 
 class FlintParser(private val json: String) {
     private val flintModel: FlintModel = GsonFireBuilder()
-        .registerTypeSelector<Resolvable>(Resolvable::class.java, TypeSelector<Resolvable> { readElement ->
-            return@TypeSelector when (readElement) {
-                is JsonPrimitive -> FactReference::class.java
-                is JsonObject -> Function::class.java
-                else -> {
-                    throw IllegalArgumentException("Element $readElement is not a resolveable.")
-                }
-            }
-        })
-        .registerTypeSelector(ActCreateableAndTerminateable::class.java, TypeSelector { readElement ->
-            return@TypeSelector when {
-                readElement.asString.startsWith("<") -> DutyReference::class.java
-                readElement.asString.startsWith("[") -> FactReference::class.java
-                else -> {
-                    InvalidCreateableAndTerminateable::class.java
-                }
-            }
-        })
-        .registerTypeSelector(DutyCreateableAndTerminateable::class.java, TypeSelector { readElement ->
-            return@TypeSelector when {
-                readElement.asString.startsWith("<<") -> ActReference::class.java
-                readElement.asString.startsWith("<") -> DutyReference::class.java
-                else -> {
-                    InvalidCreateableAndTerminateable::class.java
-                }
-            }
-        })
+        .registerTypeSelector(Resolvable::class.java, ResolvableTypeSelector())
+        .registerTypeSelector(ActCreateableAndTerminateable::class.java, ActCreateableAndTerminateableTypeSelector())
+        .registerTypeSelector(DutyCreateableAndTerminateable::class.java, DutyCreateableAndTerminateableTypeSelector())
         .createGsonBuilder()
-        .registerTypeAdapter(Operand::class.java, OperandDeserializer())
-        .registerTypeAdapter(DutyReference::class.java, DutyReferenceDeserializer())
-        .registerTypeAdapter(ActReference::class.java, ActReferenceDeserializer())
-        .registerTypeAdapter(FactReference::class.java, FactReferenceDeserializer())
-        .registerTypeAdapter(DutyComponents::class.java, DutyComponentsDeserializer())
+//        .registerTypeAdapter(
+//            Operand::class.java,
+//            OperandDeserializer()
+//        )
+        .registerTypeAdapter(
+            DutyReference::class.java,
+            DutyReferenceDeserializer()
+        )
+        .registerTypeAdapter(
+            ActReference::class.java,
+            ActReferenceDeserializer()
+        )
+        .registerTypeAdapter(
+            FactReference::class.java,
+            FactReferenceDeserializer()
+        )
+        .registerTypeAdapter(
+            DutyComponents::class.java,
+            DutyComponentsDeserializer()
+        )
         .registerTypeAdapter(
             InvalidCreateableAndTerminateable::class.java,
             InvalidCreatableAndTerminateableDeserializer()
@@ -108,7 +97,12 @@ class FlintParser(private val json: String) {
         if (sources.size <= 1) {
             return first
         }
-        return BaseSource(resolveName(sources), first.validFrom, first.validTo, first.juriconnect)
+        return BaseSource(
+            resolveName(sources),
+            first.validFrom,
+            first.validTo,
+            first.juriconnect
+        )
     }
 
     private fun resolveName(sources: List<BaseSource>): String {

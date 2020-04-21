@@ -1,4 +1,4 @@
-package nl.quintor.flintParser
+package nl.discpl.flintParser
 
 import com.google.gson.JsonDeserializationContext
 import com.google.gson.JsonDeserializer
@@ -9,7 +9,9 @@ class FactReferenceDeserializer : JsonDeserializer<FactReference> {
     override fun deserialize(json: JsonElement, typeOfT: Type, context: JsonDeserializationContext): FactReference? {
         if (json.asString.equals("<<>>")) return null
         if (json.asString.length <= 2) return null
-        val factReference = FactReference(json.asString.substring(1, json.asString.length - 1).trim())
+        val factReference = FactReference(
+            json.asString.substring(1, json.asString.length - 1).trim()
+        )
         if (factReference.name.isBlank()) return null
         return factReference
     }

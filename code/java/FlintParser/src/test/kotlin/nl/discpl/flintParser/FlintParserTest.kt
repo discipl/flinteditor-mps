@@ -1,4 +1,4 @@
-package nl.quintor.flintParser
+package nl.discpl.flintParser
 
 import org.hamcrest.MatcherAssert.assertThat
 import org.hamcrest.Matchers.`is`
@@ -120,7 +120,8 @@ internal class FlintParserTest {
                 val text = it.readText()
                 val flintParser = FlintParser(text)
                 val baseSources = flintParser.getFunctions()
-                baseSources.filter { it.value is Function }.forEach { println((it.value as Function).allOperands) }
+                baseSources.filter { it.value is Expression }
+                    .forEach { println((it.value as Expression).allResolvables) }
                 assertThat(baseSources.size, `is`(equalTo(20)))
             }
         }
@@ -128,20 +129,35 @@ internal class FlintParserTest {
 
     @Test
     fun listOperandFunctions() {
-        fun Function.flatten(): List<Function> {
-            val children = this.allOperands.flatMap { (it as? Function)?.flatten() ?: emptyList() }
-            return listOf(children, listOf(this)).flatten()
-        }
         this::class.java.classLoader.getResourceAsStream("test-ANLb.flint.json").use {
             InputStreamReader(it).use {
                 val text = it.readText()
                 val flintParser = FlintParser(text)
-                val allFunctions =
-                    flintParser.getFacts().flatMap { (it.function as? Function)?.flatten() ?: emptyList() }
-                assertThat(allFunctions.size, `is`(equalTo(11)))
-                val listFunctions = allFunctions.filter { it.expression == "LIST" }
+                val allExpressions =
+                    flintParser.getFacts().flatMap { (it.function as? Expression)?.flatten() ?: emptyList() }
+                assertThat(allExpressions.size, `is`(equalTo(11)))
+                val listFunctions = allExpressions.filter { it is ListExpression }
                 assertThat(listFunctions.size, `is`(equalTo(3)))
-                assertThat(listFunctions.filter { it.name != null }.size, `is`(equalTo(listFunctions.size)))
+            }
+        }
+    }
+
+    private fun Expression.flatten(): List<Expression> {
+        val children = this.allResolvables.flatMap { (it as? Expression)?.flatten() ?: emptyList() }
+        return listOf(children, listOf(this)).flatten()
+    }
+
+    @Test
+    fun literalExpressions() {
+        this::class.java.classLoader.getResourceAsStream("test-covid19.flint.json").use {
+            InputStreamReader(it).use {
+                val text = it.readText()
+                val flintParser = FlintParser(text)
+                val allExpressions =
+                    flintParser.getFacts().flatMap { (it.function as? Expression)?.flatten() ?: emptyList() }
+                val literalExpressions = allExpressions.mapNotNull { it as? LiteralExpression<*> }
+                assertThat(literalExpressions.size, `is`(equalTo(318)))
+                literalExpressions.forEach { println(it.operand?.javaClass) }
             }
         }
     }

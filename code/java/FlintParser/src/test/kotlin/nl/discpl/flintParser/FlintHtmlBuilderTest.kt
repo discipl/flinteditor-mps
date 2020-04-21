@@ -1,4 +1,4 @@
-package nl.quintor.flintParser
+package nl.discpl.flintParser
 
 import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.Test
