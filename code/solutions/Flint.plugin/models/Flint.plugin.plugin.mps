@@ -58,6 +58,7 @@
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="fnpx" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.notification(MPS.IDEA/)" />
     <import index="bzsr" ref="acf1b507-e791-4de3-b55f-a3880c36d5bb/java:nl.discpl.flintParser(Flint.runtime/)" />
+    <import index="9y07" ref="acf1b507-e791-4de3-b55f-a3880c36d5bb/java:nl.discpl.flintParser.ui(Flint.runtime/)" />
     <import index="71xd" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.tools(MPS.Platform/)" implicit="true" />
     <import index="1m72" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.components(MPS.IDEA/)" implicit="true" />
     <import index="v23q" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi(MPS.IDEA/)" implicit="true" />
@@ -3954,8 +3955,8 @@
     <node concept="2BZ0e9" id="3sUPWfAhExb" role="2XNbBz">
       <property role="TrG5h" value="flintWebView" />
       <node concept="3Tm6S6" id="3sUPWfAhExc" role="1B3o_S" />
-      <node concept="3uibUv" id="35H3ae$Rq8D" role="1tU5fm">
-        <ref role="3uigEE" to="bzsr:~FlintWebView" resolve="FlintWebView" />
+      <node concept="3uibUv" id="2vpCevmpD1_" role="1tU5fm">
+        <ref role="3uigEE" to="9y07:~FlintWebView" resolve="FlintWebView" />
       </node>
     </node>
     <node concept="2UmK3q" id="1sQdk50QQ_f" role="2Um5zG">
@@ -3964,7 +3965,7 @@
           <node concept="37vLTI" id="3sUPWfAhHuE" role="3clFbG">
             <node concept="2ShNRf" id="3sUPWfAhHGE" role="37vLTx">
               <node concept="1pGfFk" id="3sUPWfAhHGC" role="2ShVmc">
-                <ref role="37wK5l" to="bzsr:~FlintWebView.&lt;init&gt;(java.nio.file.Path)" resolve="FlintWebView" />
+                <ref role="37wK5l" to="9y07:~FlintWebView.&lt;init&gt;(java.nio.file.Path)" resolve="FlintWebView" />
                 <node concept="2OqwBi" id="3sUPWfAhHHs" role="37wK5m">
                   <node concept="2OqwBi" id="3sUPWfAhHHt" role="2Oq$k0">
                     <node concept="10M0yZ" id="3sUPWfAhHHu" role="2Oq$k0">
@@ -4100,7 +4101,7 @@
                                             </node>
                                           </node>
                                           <node concept="liA8E" id="10jIHukxFLs" role="2OqNvi">
-                                            <ref role="37wK5l" to="bzsr:~FlintWebView.load(java.lang.String,java.lang.String)" resolve="load" />
+                                            <ref role="37wK5l" to="9y07:~FlintWebView.load(java.lang.String,java.lang.String)" resolve="load" />
                                             <node concept="37vLTw" id="10jIHukxGqX" role="37wK5m">
                                               <ref role="3cqZAo" node="10jIHukx__b" resolve="flintModel" />
                                             </node>

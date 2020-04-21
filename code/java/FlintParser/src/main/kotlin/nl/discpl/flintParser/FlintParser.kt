@@ -2,6 +2,7 @@ package nl.discpl.flintParser
 
 import com.google.gson.JsonElement
 import io.gsonfire.GsonFireBuilder
+import nl.discpl.flintParser.deserialize.*
 import nl.discpl.flintParser.typeselector.*
 import kotlin.streams.toList
 
@@ -12,10 +13,6 @@ class FlintParser(private val json: String) {
         .registerTypeSelector(ActCreateableAndTerminateable::class.java, ActCreateableAndTerminateableTypeSelector())
         .registerTypeSelector(DutyCreateableAndTerminateable::class.java, DutyCreateableAndTerminateableTypeSelector())
         .createGsonBuilder()
-//        .registerTypeAdapter(
-//            Operand::class.java,
-//            OperandDeserializer()
-//        )
         .registerTypeAdapter(
             DutyReference::class.java,
             DutyReferenceDeserializer()

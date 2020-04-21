@@ -1,9 +1,9 @@
-package nl.discpl.flintParser
+package nl.discpl.flintParser.ui
 
 import com.google.gson.Gson
+import nl.discpl.flintParser.Manifest
 import java.io.FileReader
 import java.nio.file.Path
-import java.nio.file.Paths
 
 class FlintHtmlBuilder(private val assetFilePath: Path) {
     fun getHtml(model: String?, flintConfig: String?): String {

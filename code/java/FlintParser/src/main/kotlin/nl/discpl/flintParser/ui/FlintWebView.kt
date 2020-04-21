@@ -1,5 +1,6 @@
-package nl.discpl.flintParser
+package nl.discpl.flintParser.ui
 
+import nl.discpl.flintParser.ui.FlintWebViewJfxPanel
 import java.awt.BorderLayout
 import java.nio.file.Path
 import javax.swing.JPanel

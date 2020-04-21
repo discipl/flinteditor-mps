@@ -1,8 +1,9 @@
-package nl.discpl.flintParser
+package nl.discpl.flintParser.deserialize
 
 import com.google.gson.JsonDeserializationContext
 import com.google.gson.JsonDeserializer
 import com.google.gson.JsonElement
+import nl.discpl.flintParser.DutyReference
 import java.lang.reflect.Type
 
 class DutyReferenceDeserializer : JsonDeserializer<DutyReference> {
