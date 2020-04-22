@@ -2194,7 +2194,7 @@
     <node concept="2XrIbr" id="3NRSSGKK8CI" role="32lrUH">
       <property role="TrG5h" value="toResolvableNode" />
       <node concept="3Tqbb2" id="3NRSSGKKcby" role="3clF45">
-        <ref role="ehGHo" to="lnwe:5HFvLoKI8pW" resolve="IResolvable" />
+        <ref role="ehGHo" to="lnwe:4OBWPp15Tuc" resolve="Resolvable" />
       </node>
       <node concept="3clFbS" id="3NRSSGKK8CK" role="3clF47">
         <node concept="3clFbJ" id="3NRSSGKKcX9" role="3cqZAp">
@@ -2639,14 +2639,14 @@
     <node concept="2XrIbr" id="QLMwktmMvd" role="32lrUH">
       <property role="TrG5h" value="toExpressionNode" />
       <node concept="3Tqbb2" id="QLMwktmN$v" role="3clF45">
-        <ref role="ehGHo" to="lnwe:4aWSgWx472B" resolve="IExpression" />
+        <ref role="ehGHo" to="lnwe:4OBWPp16YlS" resolve="Expression" />
       </node>
       <node concept="3clFbS" id="QLMwktmMvf" role="3clF47">
         <node concept="3cpWs8" id="35H3ae$Pvbm" role="3cqZAp">
           <node concept="3cpWsn" id="35H3ae$Pvbn" role="3cpWs9">
             <property role="TrG5h" value="expressionNode" />
             <node concept="3Tqbb2" id="35H3ae$Pugh" role="1tU5fm">
-              <ref role="ehGHo" to="lnwe:4aWSgWx472B" resolve="IExpression" />
+              <ref role="ehGHo" to="lnwe:4OBWPp16YlS" resolve="Expression" />
             </node>
             <node concept="2OqwBi" id="35H3ae$Pvbo" role="33vP2m">
               <node concept="2WthIp" id="35H3ae$Pvbp" role="2Oq$k0" />
@@ -2688,14 +2688,14 @@
               <node concept="3cpWsn" id="35H3ae$P9o0" role="3cpWs9">
                 <property role="TrG5h" value="singleExpressionNode" />
                 <node concept="3Tqbb2" id="35H3ae$P9nV" role="1tU5fm">
-                  <ref role="ehGHo" to="lnwe:4aWSgWx48WJ" resolve="ISingleExpression" />
+                  <ref role="ehGHo" to="lnwe:4OBWPp16Ymm" resolve="SingleExpression" />
                 </node>
                 <node concept="10QFUN" id="35H3ae$Pz_e" role="33vP2m">
                   <node concept="37vLTw" id="35H3ae$PzyI" role="10QFUP">
                     <ref role="3cqZAo" node="35H3ae$Pvbn" resolve="expressionNode" />
                   </node>
                   <node concept="3Tqbb2" id="35H3ae$Pz_f" role="10QFUM">
-                    <ref role="ehGHo" to="lnwe:4aWSgWx48WJ" resolve="ISingleExpression" />
+                    <ref role="ehGHo" to="lnwe:4OBWPp16Ymm" resolve="SingleExpression" />
                   </node>
                 </node>
               </node>
@@ -2723,7 +2723,7 @@
                   <node concept="37vLTw" id="35H3ae$PzKa" role="2Oq$k0">
                     <ref role="3cqZAo" node="35H3ae$P9o0" resolve="singleExpressionNode" />
                   </node>
-                  <node concept="3TrEf2" id="35H3ae$P$7t" role="2OqNvi">
+                  <node concept="3TrEf2" id="4OBWPp19EO8" role="2OqNvi">
                     <ref role="3Tt5mk" to="lnwe:4aWSgWx472D" resolve="operand" />
                   </node>
                 </node>
@@ -2763,14 +2763,14 @@
               <node concept="3cpWsn" id="35H3ae$PZhM" role="3cpWs9">
                 <property role="TrG5h" value="listExpressionNode" />
                 <node concept="3Tqbb2" id="35H3ae$PZhN" role="1tU5fm">
-                  <ref role="ehGHo" to="lnwe:4aWSgWx48WL" resolve="IListExpression" />
+                  <ref role="ehGHo" to="lnwe:4OBWPp16YlU" resolve="ListExpression" />
                 </node>
                 <node concept="10QFUN" id="35H3ae$PZhO" role="33vP2m">
                   <node concept="37vLTw" id="35H3ae$PZhP" role="10QFUP">
                     <ref role="3cqZAo" node="35H3ae$Pvbn" resolve="expressionNode" />
                   </node>
                   <node concept="3Tqbb2" id="35H3ae$PZhQ" role="10QFUM">
-                    <ref role="ehGHo" to="lnwe:4aWSgWx48WL" resolve="IListExpression" />
+                    <ref role="ehGHo" to="lnwe:4OBWPp16YlU" resolve="ListExpression" />
                   </node>
                 </node>
               </node>
@@ -2789,7 +2789,7 @@
                   <node concept="37vLTw" id="35H3ae$Q2Hu" role="2Oq$k0">
                     <ref role="3cqZAo" node="35H3ae$PZhM" resolve="listExpressionNode" />
                   </node>
-                  <node concept="3TrcHB" id="35H3ae$Q386" role="2OqNvi">
+                  <node concept="3TrcHB" id="4OBWPp19Fcg" role="2OqNvi">
                     <ref role="3TsBF5" to="lnwe:4aWSgWx48aa" resolve="name" />
                   </node>
                 </node>
@@ -2818,7 +2818,7 @@
                   <node concept="37vLTw" id="35H3ae$PZi1" role="2Oq$k0">
                     <ref role="3cqZAo" node="35H3ae$PZhM" resolve="listExpressionNode" />
                   </node>
-                  <node concept="3TrEf2" id="35H3ae$Q1X9" role="2OqNvi">
+                  <node concept="3TrEf2" id="4OBWPp19Fik" role="2OqNvi">
                     <ref role="3Tt5mk" to="lnwe:4aWSgWx48ac" resolve="items" />
                   </node>
                 </node>
@@ -2858,14 +2858,14 @@
               <node concept="3cpWsn" id="35H3ae$QaJh" role="3cpWs9">
                 <property role="TrG5h" value="multiExpressionNode" />
                 <node concept="3Tqbb2" id="35H3ae$QaJi" role="1tU5fm">
-                  <ref role="ehGHo" to="lnwe:4aWSgWx4me3" resolve="IMultiExpression" />
+                  <ref role="ehGHo" to="lnwe:4OBWPp16Ymv" resolve="MultiExpression" />
                 </node>
                 <node concept="10QFUN" id="35H3ae$QaJj" role="33vP2m">
                   <node concept="37vLTw" id="35H3ae$QaJk" role="10QFUP">
                     <ref role="3cqZAo" node="35H3ae$Pvbn" resolve="expressionNode" />
                   </node>
                   <node concept="3Tqbb2" id="35H3ae$QaJl" role="10QFUM">
-                    <ref role="ehGHo" to="lnwe:4aWSgWx4me3" resolve="IMultiExpression" />
+                    <ref role="ehGHo" to="lnwe:4OBWPp16Ymv" resolve="MultiExpression" />
                   </node>
                 </node>
               </node>
@@ -2890,7 +2890,7 @@
                             <node concept="37vLTw" id="35H3ae$QfO8" role="2Oq$k0">
                               <ref role="3cqZAo" node="35H3ae$QaJh" resolve="multiExpressionNode" />
                             </node>
-                            <node concept="3Tsc0h" id="35H3ae$Qghi" role="2OqNvi">
+                            <node concept="3Tsc0h" id="4OBWPp19FC2" role="2OqNvi">
                               <ref role="3TtcxE" to="lnwe:4aWSgWx472H" resolve="operands" />
                             </node>
                           </node>
@@ -3412,14 +3412,14 @@
         <node concept="17QB3L" id="3NRSSGKvK4k" role="1tU5fm" />
       </node>
       <node concept="3Tqbb2" id="3NRSSGKvJKv" role="3clF45">
-        <ref role="ehGHo" to="lnwe:4aWSgWx472B" resolve="IExpression" />
+        <ref role="ehGHo" to="lnwe:4OBWPp16YlS" resolve="Expression" />
       </node>
       <node concept="3clFbS" id="3NRSSGKvHVo" role="3clF47">
         <node concept="3cpWs8" id="3NRSSGKxwji" role="3cqZAp">
           <node concept="3cpWsn" id="3NRSSGKxwjl" role="3cpWs9">
             <property role="TrG5h" value="concept" />
             <node concept="3bZ5Sz" id="3NRSSGKxwjm" role="1tU5fm">
-              <ref role="3bZ5Sy" to="lnwe:4aWSgWx472B" resolve="IExpression" />
+              <ref role="3bZ5Sy" to="lnwe:4OBWPp16YlS" resolve="Expression" />
             </node>
           </node>
         </node>
@@ -3453,7 +3453,7 @@
                       <node concept="2OqwBi" id="3NRSSGKvVMk" role="37vLTx">
                         <node concept="2OqwBi" id="3NRSSGKvVMl" role="2Oq$k0">
                           <node concept="35c_gC" id="3NRSSGKvVMm" role="2Oq$k0">
-                            <ref role="35c_gD" to="lnwe:4aWSgWx472B" resolve="IExpression" />
+                            <ref role="35c_gD" to="lnwe:4OBWPp16YlS" resolve="Expression" />
                           </node>
                           <node concept="LSoRf" id="27H3E6HqARg" role="2OqNvi">
                             <node concept="2OqwBi" id="27H3E6HqBFT" role="1iTxcG">

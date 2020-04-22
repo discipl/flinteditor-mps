@@ -161,6 +161,7 @@
         <id>Flint</id>
         <name>Flint</name>
         <version>1.0</version>
+        <depends>de.itemis.mps.editor.diagram</depends>
         <depends>jetbrains.mps.ide.make</depends>
         <depends>com.mbeddr.mpsutil.json</depends>
         <depends>com.mbeddr.mpsutil</depends>
@@ -189,6 +190,7 @@
           <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" kind="rt" />
           <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" kind="rt" />
           <module ref="98a7bbe2-0ea1-4503-9fc1-9efb7b48c6ea(com.mbeddr.mpsutil.datepicker.runtime)" kind="rt" />
+          <module ref="1144260c-e9a5-49a2-9add-39a1a1a7077e(de.itemis.mps.editor.diagram.runtime)" kind="rt" />
           <module ref="dc038ceb-b7ea-4fea-ac12-55f7400e97ba(de.slisson.mps.editor.multiline.runtime)" kind="rt" />
           <module ref="af19274f-5f89-42dd-8f3c-c9932448f7f2(jetbrains.mps.analyzers.runtime)" kind="rt" />
           <module ref="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" kind="rt" />
@@ -206,12 +208,14 @@
           <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" kind="cl" />
           <module ref="86441d7a-e194-42da-81a5-2161ec62a379(MPS.Workbench)" kind="cl" />
           <module ref="98a7bbe2-0ea1-4503-9fc1-9efb7b48c6ea(com.mbeddr.mpsutil.datepicker.runtime)" kind="cl" />
+          <module ref="1144260c-e9a5-49a2-9add-39a1a1a7077e(de.itemis.mps.editor.diagram.runtime)" kind="cl" />
           <module ref="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" kind="cl" />
           <module ref="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" kind="cl" />
           <module ref="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" kind="cl" />
         </dependencies>
         <uses>
           <language id="l:fb1561dd-216d-4cd5-9cd8-5d1dc9d20bcf:com.mbeddr.mpsutil.datepicker" />
+          <language id="l:fa13cc63-c476-4d46-9c96-d53670abe7bc:de.itemis.mps.editor.diagram" />
           <language id="l:31c91def-a131-41a1-9018-102874f49a12:de.slisson.mps.editor.multiline" />
           <language id="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" />
           <language id="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" />
@@ -231,6 +235,7 @@
           <language id="l:d4615e3b-d671-4ba9-af01-2b78369b0ba7:jetbrains.mps.lang.pattern" />
           <language id="l:3a13115c-633c-4c5c-bbcc-75c4219e9555:jetbrains.mps.lang.quotation" />
           <language id="l:d8f591ec-4d86-4af2-9f92-a9e93c803ffa:jetbrains.mps.lang.scopes" />
+          <language id="l:13744753-c81f-424a-9c1b-cf8943bf4e86:jetbrains.mps.lang.sharedConcepts" />
           <language id="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" />
           <language id="l:1a8554c4-eb84-43ba-8c34-6f0d90c6e75a:jetbrains.mps.lang.smodel.query" />
           <language id="l:c72da2b9-7cce-4447-8389-f407dc1158b7:jetbrains.mps.lang.structure" />
@@ -628,7 +633,6 @@
       <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.contextactions" />
       <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.editorsupport" />
       <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.filepicker" />
-      <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.genreview" />
       <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.gensupport" />
       <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.incrementalcomputation" />
       <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.infrastructure.misc" />
@@ -677,10 +681,19 @@
       <library file="${artifacts.com.mbeddr.platform}/de-itemis-mps-selection/languages/de.itemis.mps.selection/de.itemis.mps.selection.runtime.jar" />
       <library file="${artifacts.com.mbeddr.platform}/de.itemis.mps.celllayout/languages/de.itemis.mps.celllayout/de.itemis.mps.editor.celllayout.runtime.jar" />
       <library file="${artifacts.com.mbeddr.platform}/de.itemis.mps.celllayout/languages/de.itemis.mps.celllayout/de.itemis.mps.editor.celllayout.styles.jar" />
+      <library file="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/languages/de.itemis.mps.editor.diagram/de.itemis.mps.editor.diagram.jar" />
+      <library file="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/languages/de.itemis.mps.editor.diagram/de.itemis.mps.editor.diagram.layout.jar" />
+      <library file="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/languages/de.itemis.mps.editor.diagram/de.itemis.mps.editor.diagram.runtime.jar" />
+      <library file="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/languages/de.itemis.mps.editor.diagram/de.itemis.mps.editor.diagram.styles.jar" />
+      <library file="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.widgets/languages/de.itemis.mps.editor.widgets/de.itemis.mps.editor.collapsible.runtime.jar" />
+      <library file="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.widgets/languages/de.itemis.mps.editor.widgets/de.itemis.mps.mouselistener.runtime.jar" />
+      <library file="${artifacts.com.mbeddr.platform}/de.itemis.mps.tooltips/languages/de.itemis.mps.tooltips/de.itemis.mps.tooltips.jar" />
+      <library file="${artifacts.com.mbeddr.platform}/de.itemis.mps.tooltips/languages/de.itemis.mps.tooltips/de.itemis.mps.tooltips.runtime.jar" />
       <library file="${artifacts.com.mbeddr.platform}/de.slisson.mps.hacks/languages/de.slisson.mps.hacks/de.slisson.mps.hacks.editor.jar" />
       <library file="${artifacts.com.mbeddr.platform}/de.slisson.mps.hacks/languages/de.slisson.mps.hacks/de.slisson.mps.reflection.runtime.jar" />
       <library file="${artifacts.com.mbeddr.platform}/mbeddr.mpsutil/languages/group.datepicker/com.mbeddr.mpsutil.datepicker.jar" />
       <library file="${artifacts.com.mbeddr.platform}/mbeddr.mpsutil/languages/group.datepicker/com.mbeddr.mpsutil.datepicker.runtime.jar" />
+      <library file="${artifacts.com.mbeddr.platform}/mps-apache-commons/languages/mps-apache-commons-math/org.apache.commons.jar" />
       <library file="${artifacts.com.mbeddr.platform}/mps-multiline/languages/mps-multiline/de.slisson.mps.editor.multiline.jar" />
       <library file="${artifacts.com.mbeddr.platform}/mps-multiline/languages/mps-multiline/de.slisson.mps.editor.multiline.runtime.jar" />
       <library file="${artifacts.mpsHttpSupportPlugin}/mps-httpsupport/languages/jetbrains.mps.ide.httpsupport.jar" />
@@ -880,6 +893,11 @@
         <fileset file="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.plantuml/languages/group.plantuml/com.mbeddr.mpsutil.plantuml.node.jar" />
         <fileset file="${artifacts.com.mbeddr.platform}/de.itemis.mps.celllayout/languages/de.itemis.mps.celllayout/de.itemis.mps.editor.celllayout.runtime.jar" />
         <fileset file="${artifacts.com.mbeddr.platform}/de.itemis.mps.celllayout/languages/de.itemis.mps.celllayout/de.itemis.mps.editor.celllayout.styles.jar" />
+        <fileset file="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.widgets/languages/de.itemis.mps.editor.widgets/de.itemis.mps.editor.collapsible.runtime.jar" />
+        <fileset file="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/languages/de.itemis.mps.editor.diagram/de.itemis.mps.editor.diagram.runtime.jar" />
+        <fileset file="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/languages/de.itemis.mps.editor.diagram/de.itemis.mps.editor.diagram.styles.jar" />
+        <fileset file="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.widgets/languages/de.itemis.mps.editor.widgets/de.itemis.mps.mouselistener.runtime.jar" />
+        <fileset file="${artifacts.com.mbeddr.platform}/de.itemis.mps.tooltips/languages/de.itemis.mps.tooltips/de.itemis.mps.tooltips.runtime.jar" />
         <fileset file="${artifacts.com.mbeddr.platform}/mps-multiline/languages/mps-multiline/de.slisson.mps.editor.multiline.runtime.jar" />
         <fileset file="${artifacts.com.mbeddr.platform}/de.slisson.mps.hacks/languages/de.slisson.mps.hacks/de.slisson.mps.hacks.editor.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -889,6 +907,25 @@
         <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.descriptor.aspects.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
         <fileset dir="${artifacts.com.mbeddr.platform}/mbeddr.mpsutil/lib/datepicker" includes="microba-0.4.4.jar" />
+        <fileset dir="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/lib" includes="jgraphx.jar" />
+        <fileset dir="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/lib" includes="org.eclipse.emf.ecore-2.15.0.jar" />
+        <fileset dir="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/lib" includes="org.eclipse.emf.common-2.15.0.jar" />
+        <fileset dir="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/lib" includes="org.eclipse.elk.alg.common-0.4.0.jar" />
+        <fileset dir="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/lib" includes="org.eclipse.elk.alg.disco-0.4.0.jar" />
+        <fileset dir="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/lib" includes="org.eclipse.elk.alg.force-0.4.0.jar" />
+        <fileset dir="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/lib" includes="org.eclipse.elk.alg.graphviz.dot-0.4.0.jar" />
+        <fileset dir="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/lib" includes="org.eclipse.elk.alg.graphviz.layouter-0.4.0.jar" />
+        <fileset dir="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/lib" includes="org.eclipse.elk.alg.layered-0.4.0.jar" />
+        <fileset dir="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/lib" includes="org.eclipse.elk.alg.mrtree-0.4.0.jar" />
+        <fileset dir="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/lib" includes="org.eclipse.elk.alg.radial-0.4.0.jar" />
+        <fileset dir="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/lib" includes="org.eclipse.elk.alg.spore-0.4.0.jar" />
+        <fileset dir="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/lib" includes="org.eclipse.elk.core-0.4.0.jar" />
+        <fileset dir="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/lib" includes="org.eclipse.elk.core.meta-0.4.0.jar" />
+        <fileset dir="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/lib" includes="org.eclipse.elk.graph-0.4.0.jar" />
+        <fileset dir="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/lib" includes="org.eclipse.elk.graph.json-0.4.0.jar" />
+        <fileset dir="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/lib" includes="org.eclipse.elk.graph.text-0.4.0.jar" />
+        <fileset dir="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/lib" includes="org.eclipse.elk.graph.text.ide-0.4.0.jar" />
+        <fileset dir="${artifacts.com.mbeddr.platform}/de.itemis.mps.editor.diagram/lib" includes="org.eclipse.elk.alg.common.compaction-0.3.0.jar" />
         <fileset dir="${artifacts.com.mbeddr.platform}/mps-multiline/lib" includes="diff_match_patch.jar" />
       </classpath>
     </javac>

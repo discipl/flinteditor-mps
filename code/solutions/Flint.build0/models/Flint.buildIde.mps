@@ -9,6 +9,7 @@
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
     <import index="al5i" ref="r:742f344d-4dc4-4862-992c-4bc94b094870(com.mbeddr.mpsutil.dev.build)" />
+    <import index="90a9" ref="r:fb24ac52-5985-4947-bba9-25be6fd32c1a(de.itemis.mps.extensions.build)" implicit="true" />
   </imports>
   <registry>
     <language id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml">
@@ -719,6 +720,9 @@
     </node>
     <node concept="m$_wf" id="2WP7dhE1erk" role="3989C9">
       <property role="m$_wk" value="Flint" />
+      <node concept="m$_yC" id="4OBWPp1Mhhj" role="m$_yJ">
+        <ref role="m$_y1" to="90a9:4be$WTb1MZD" resolve="de.itemis.mps.editor.diagram" />
+      </node>
       <node concept="m$_yC" id="6J7WCuJ14eB" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:6EN03E8oSte" resolve="jetbrains.mps.ide.make" />
       </node>
@@ -876,6 +880,11 @@
         <node concept="1SiIV0" id="2vpCevmY6aW" role="3bR37C">
           <node concept="3bR9La" id="2vpCevmY6aX" role="1SiIV1">
             <ref role="3bR37D" to="al5i:35WzcHe4_iF" resolve="com.mbeddr.mpsutil.datepicker.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4OBWPp1HpdE" role="3bR37C">
+          <node concept="3bR9La" id="4OBWPp1HpdF" role="1SiIV1">
+            <ref role="3bR37D" to="90a9:4be$WTb1AQa" resolve="de.itemis.mps.editor.diagram.runtime" />
           </node>
         </node>
       </node>

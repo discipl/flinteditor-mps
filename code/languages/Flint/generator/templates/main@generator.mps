@@ -1751,7 +1751,7 @@
   </node>
   <node concept="13MO4I" id="35H3ae$XMND">
     <property role="TrG5h" value="reduce_IMultiExpression" />
-    <ref role="3gUMe" to="lnwe:4aWSgWx4me3" resolve="IMultiExpression" />
+    <ref role="3gUMe" to="lnwe:4OBWPp16Ymv" resolve="MultiExpression" />
     <node concept="3YX88f" id="35H3ae$XMNL" role="13RCb5">
       <node concept="3YX88e" id="35H3ae$XMNP" role="3YX86K">
         <property role="TrG5h" value="expression" />
@@ -1804,7 +1804,7 @@
   </node>
   <node concept="13MO4I" id="35H3ae$Z_4v">
     <property role="TrG5h" value="reduce_IListExpression" />
-    <ref role="3gUMe" to="lnwe:4aWSgWx48WL" resolve="IListExpression" />
+    <ref role="3gUMe" to="lnwe:4OBWPp16YlU" resolve="ListExpression" />
     <node concept="3YX88f" id="35H3ae$Z_4$" role="13RCb5">
       <node concept="3YX88e" id="35H3ae$Z_4C" role="3YX86K">
         <property role="TrG5h" value="expression" />
@@ -1887,7 +1887,7 @@
   </node>
   <node concept="13MO4I" id="35H3ae$ZBv2">
     <property role="TrG5h" value="reduce_ISingleExpression" />
-    <ref role="3gUMe" to="lnwe:4aWSgWx48WJ" resolve="ISingleExpression" />
+    <ref role="3gUMe" to="lnwe:4OBWPp16Ymm" resolve="SingleExpression" />
     <node concept="3YX88f" id="35H3ae$ZBJj" role="13RCb5">
       <node concept="3YX88e" id="35H3ae$ZBJk" role="3YX86K">
         <property role="TrG5h" value="expression" />
