@@ -4,7 +4,7 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
-    <modelRoot contentPath="/home/dbrison/Projects/discipl/Flint/libs" type="java_classes">
+    <modelRoot contentPath="${module}/libs" type="java_classes">
       <sourceRoot location="FlintParser.jar" />
     </modelRoot>
   </models>
@@ -14,14 +14,14 @@
     </facet>
   </facets>
   <stubModelEntries>
-    <stubModelEntry path="/home/dbrison/Projects/discipl/Flint/libs/annotations.jar" />
-    <stubModelEntry path="/home/dbrison/Projects/discipl/Flint/libs/FlintParser.jar" />
-    <stubModelEntry path="/home/dbrison/Projects/discipl/Flint/libs/gson-fire.jar" />
-    <stubModelEntry path="/home/dbrison/Projects/discipl/Flint/libs/gson.jar" />
-    <stubModelEntry path="/home/dbrison/Projects/discipl/Flint/libs/kotlin-stdlib-common.jar" />
-    <stubModelEntry path="/home/dbrison/Projects/discipl/Flint/libs/kotlin-stdlib-jdk7.jar" />
-    <stubModelEntry path="/home/dbrison/Projects/discipl/Flint/libs/kotlin-stdlib-jdk8.jar" />
-    <stubModelEntry path="/home/dbrison/Projects/discipl/Flint/libs/kotlin-stdlib.jar" />
+    <stubModelEntry path="${module}/libs/annotations.jar" />
+    <stubModelEntry path="${module}/libs/FlintParser.jar" />
+    <stubModelEntry path="${module}/libs/gson-fire.jar" />
+    <stubModelEntry path="${module}/libs/gson.jar" />
+    <stubModelEntry path="${module}/libs/kotlin-stdlib-common.jar" />
+    <stubModelEntry path="${module}/libs/kotlin-stdlib-jdk7.jar" />
+    <stubModelEntry path="${module}/libs/kotlin-stdlib-jdk8.jar" />
+    <stubModelEntry path="${module}/libs/kotlin-stdlib.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

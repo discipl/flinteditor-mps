@@ -378,9 +378,15 @@
     <node concept="398rNT" id="2WP7dhE1exg" role="1l3spd">
       <property role="TrG5h" value="libs" />
       <node concept="398BVA" id="B35UKsMXrY" role="398pKh">
-        <ref role="398BVh" node="B35UKsMXq5" resolve="project_dir" />
-        <node concept="2Ry0Ak" id="B35UKsMXw0" role="iGT6I">
-          <property role="2Ry0Am" value="libs" />
+        <ref role="398BVh" node="QLMwktT2H8" resolve="basedir" />
+        <node concept="2Ry0Ak" id="5rXerjicsYI" role="iGT6I">
+          <property role="2Ry0Am" value="solutions" />
+          <node concept="2Ry0Ak" id="5rXerjict0N" role="2Ry0An">
+            <property role="2Ry0Am" value="Flint.runtime" />
+            <node concept="2Ry0Ak" id="5rXerjict5g" role="2Ry0An">
+              <property role="2Ry0Am" value="libs" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -1043,89 +1049,89 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="e8hxMwvZ$v" role="3bR37C">
-          <node concept="1BurEX" id="e8hxMwvZ$w" role="1SiIV1">
-            <node concept="398BVA" id="e8hxMwvZ$q" role="1BurEY">
+        <node concept="1SiIV0" id="e8hxMwYeoH" role="3bR37C">
+          <node concept="3bR9La" id="e8hxMwYeoI" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5rXerjict8u" role="3bR37C">
+          <node concept="1BurEX" id="5rXerjict8v" role="1SiIV1">
+            <node concept="398BVA" id="5rXerjict8c" role="1BurEY">
               <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
-              <node concept="2Ry0Ak" id="e8hxMwvZ$r" role="iGT6I">
+              <node concept="2Ry0Ak" id="5rXerjict8d" role="iGT6I">
                 <property role="2Ry0Am" value="annotations.jar" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="e8hxMwvZ$H" role="3bR37C">
-          <node concept="1BurEX" id="e8hxMwvZ$I" role="1SiIV1">
-            <node concept="398BVA" id="e8hxMwvZ$C" role="1BurEY">
+        <node concept="1SiIV0" id="5rXerjict8M" role="3bR37C">
+          <node concept="1BurEX" id="5rXerjict8N" role="1SiIV1">
+            <node concept="398BVA" id="5rXerjict8w" role="1BurEY">
               <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
-              <node concept="2Ry0Ak" id="e8hxMwvZ$D" role="iGT6I">
+              <node concept="2Ry0Ak" id="5rXerjict8x" role="iGT6I">
                 <property role="2Ry0Am" value="FlintParser.jar" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="e8hxMwvZ$O" role="3bR37C">
-          <node concept="1BurEX" id="e8hxMwvZ$P" role="1SiIV1">
-            <node concept="398BVA" id="e8hxMwvZ$J" role="1BurEY">
+        <node concept="1SiIV0" id="5rXerjict96" role="3bR37C">
+          <node concept="1BurEX" id="5rXerjict97" role="1SiIV1">
+            <node concept="398BVA" id="5rXerjict8O" role="1BurEY">
               <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
-              <node concept="2Ry0Ak" id="e8hxMwvZ$K" role="iGT6I">
+              <node concept="2Ry0Ak" id="5rXerjict8P" role="iGT6I">
                 <property role="2Ry0Am" value="gson-fire.jar" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="e8hxMwvZ$V" role="3bR37C">
-          <node concept="1BurEX" id="e8hxMwvZ$W" role="1SiIV1">
-            <node concept="398BVA" id="e8hxMwvZ$Q" role="1BurEY">
+        <node concept="1SiIV0" id="5rXerjict9q" role="3bR37C">
+          <node concept="1BurEX" id="5rXerjict9r" role="1SiIV1">
+            <node concept="398BVA" id="5rXerjict98" role="1BurEY">
               <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
-              <node concept="2Ry0Ak" id="e8hxMwvZ$R" role="iGT6I">
+              <node concept="2Ry0Ak" id="5rXerjict99" role="iGT6I">
                 <property role="2Ry0Am" value="gson.jar" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="e8hxMwvZ_2" role="3bR37C">
-          <node concept="1BurEX" id="e8hxMwvZ_3" role="1SiIV1">
-            <node concept="398BVA" id="e8hxMwvZ$X" role="1BurEY">
+        <node concept="1SiIV0" id="5rXerjict9I" role="3bR37C">
+          <node concept="1BurEX" id="5rXerjict9J" role="1SiIV1">
+            <node concept="398BVA" id="5rXerjict9s" role="1BurEY">
               <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
-              <node concept="2Ry0Ak" id="e8hxMwvZ$Y" role="iGT6I">
+              <node concept="2Ry0Ak" id="5rXerjict9t" role="iGT6I">
                 <property role="2Ry0Am" value="kotlin-stdlib-common.jar" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="e8hxMwvZ_9" role="3bR37C">
-          <node concept="1BurEX" id="e8hxMwvZ_a" role="1SiIV1">
-            <node concept="398BVA" id="e8hxMwvZ_4" role="1BurEY">
+        <node concept="1SiIV0" id="5rXerjicta2" role="3bR37C">
+          <node concept="1BurEX" id="5rXerjicta3" role="1SiIV1">
+            <node concept="398BVA" id="5rXerjict9K" role="1BurEY">
               <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
-              <node concept="2Ry0Ak" id="e8hxMwvZ_5" role="iGT6I">
+              <node concept="2Ry0Ak" id="5rXerjict9L" role="iGT6I">
                 <property role="2Ry0Am" value="kotlin-stdlib-jdk7.jar" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="e8hxMwvZ_g" role="3bR37C">
-          <node concept="1BurEX" id="e8hxMwvZ_h" role="1SiIV1">
-            <node concept="398BVA" id="e8hxMwvZ_b" role="1BurEY">
+        <node concept="1SiIV0" id="5rXerjictam" role="3bR37C">
+          <node concept="1BurEX" id="5rXerjictan" role="1SiIV1">
+            <node concept="398BVA" id="5rXerjicta4" role="1BurEY">
               <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
-              <node concept="2Ry0Ak" id="e8hxMwvZ_c" role="iGT6I">
+              <node concept="2Ry0Ak" id="5rXerjicta5" role="iGT6I">
                 <property role="2Ry0Am" value="kotlin-stdlib-jdk8.jar" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="e8hxMwvZ_n" role="3bR37C">
-          <node concept="1BurEX" id="e8hxMwvZ_o" role="1SiIV1">
-            <node concept="398BVA" id="e8hxMwvZ_i" role="1BurEY">
+        <node concept="1SiIV0" id="5rXerjictaE" role="3bR37C">
+          <node concept="1BurEX" id="5rXerjictaF" role="1SiIV1">
+            <node concept="398BVA" id="5rXerjictao" role="1BurEY">
               <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
-              <node concept="2Ry0Ak" id="e8hxMwvZ_j" role="iGT6I">
+              <node concept="2Ry0Ak" id="5rXerjictap" role="iGT6I">
                 <property role="2Ry0Am" value="kotlin-stdlib.jar" />
               </node>
             </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="e8hxMwYeoH" role="3bR37C">
-          <node concept="3bR9La" id="e8hxMwYeoI" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
       </node>
