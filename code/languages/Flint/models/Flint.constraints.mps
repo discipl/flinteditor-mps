@@ -222,5 +222,10 @@
     <ref role="1M2myG" to="lnwe:4OBWPp15Tuc" resolve="Resolvable" />
     <ref role="1MND4H" to="lnwe:5HFvLoKGhUL" resolve="FactReference" />
   </node>
+  <node concept="1M2fIO" id="4NVq1Wbdgc0">
+    <property role="3GE5qa" value="expressions.literals" />
+    <ref role="1M2myG" to="lnwe:4NVq1Wbc09Y" resolve="LiteralOperand" />
+    <ref role="1MND4H" to="lnwe:4aWSgWx5NMK" resolve="StringOperand" />
+  </node>
 </model>
 
