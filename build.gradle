@@ -20,7 +20,7 @@ group 'com.discpl'
 version '1.0-SNAPSHOT'
 
 ext {
-    libDir = new File(rootDir, "libs")
+    libDir = new File(project("code").projectDir, "solutions/Flint.runtime/libs")
     platformLibDir = new File(rootDir, "platform-libs")
     artifactDir = new File(rootDir, "artifacts")
     mpsDir = new File(buildDir, "mps")

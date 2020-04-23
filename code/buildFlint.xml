@@ -10,7 +10,7 @@
   <property name="basedir" location="${basedir}" />
   <property name="mps_home" location="" />
   <property name="project_dir" location="${basedir}/.." />
-  <property name="libs" location="${project_dir}/libs" />
+  <property name="libs" location="${basedir}/solutions/Flint.runtime/libs" />
   <property name="artifacts" location="${project_dir}/artifacts" />
   <property name="node_modules" location="${project_dir}/node_modules" />
   <property name="artifacts.mpsStandalone" location="${mps_home}" />
