@@ -471,7 +471,7 @@
         </node>
       </node>
       <node concept="3YX88e" id="4_o0O4BPdYe" role="3YX86K">
-        <property role="TrG5h" value="explination" />
+        <property role="TrG5h" value="explanation" />
         <node concept="3YX86M" id="4_o0O4BPe5_" role="3YX8ah">
           <property role="3YX86R" value="explination" />
           <node concept="17Uvod" id="4_o0O4BPe5C" role="lGtFl">
@@ -668,7 +668,7 @@
         </node>
       </node>
       <node concept="3YX88e" id="4_o0O4BPpW1" role="3YX86K">
-        <property role="TrG5h" value="explination" />
+        <property role="TrG5h" value="explanation" />
         <node concept="3YX86M" id="4_o0O4BPpWh" role="3YX8ah">
           <property role="3YX86R" value="explination" />
           <node concept="17Uvod" id="4_o0O4BPso9" role="lGtFl">
@@ -926,7 +926,7 @@
         </node>
       </node>
       <node concept="3YX88e" id="6qUJKUP3VXv" role="3YX86K">
-        <property role="TrG5h" value="teerminate" />
+        <property role="TrG5h" value="terminate" />
         <node concept="3YX8am" id="6qUJKUP3VXN" role="3YX8ah">
           <node concept="3YX88f" id="6qUJKUPzdKS" role="3YX8ab">
             <node concept="2b32R4" id="6qUJKUPzdKW" role="lGtFl">
@@ -968,7 +968,7 @@
         </node>
       </node>
       <node concept="3YX88e" id="6qUJKUP3VYf" role="3YX86K">
-        <property role="TrG5h" value="explination" />
+        <property role="TrG5h" value="explanation" />
         <node concept="3YX86M" id="6qUJKUP3VZj" role="3YX8ah">
           <property role="3YX86R" value="explination" />
           <node concept="17Uvod" id="6qUJKUPgZU7" role="lGtFl">
@@ -1396,7 +1396,7 @@
         </node>
       </node>
       <node concept="3YX88e" id="6qUJKUPD4EH" role="3YX86K">
-        <property role="TrG5h" value="explination" />
+        <property role="TrG5h" value="explanation" />
         <node concept="3YX86M" id="6qUJKUPD4EI" role="3YX8ah">
           <property role="3YX86R" value="explination" />
           <node concept="17Uvod" id="6qUJKUPD4EJ" role="lGtFl">
