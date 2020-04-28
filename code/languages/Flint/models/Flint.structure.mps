@@ -165,8 +165,8 @@
       <property role="TrG5h" value="juriconnect" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="PrWs8" id="5XjenljcSPc" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <node concept="PrWs8" id="1$A6n3M4kOG" role="PzmwI">
+      <ref role="PrY4T" node="2vpCevmrg7e" resolve="IUniquelyName" />
     </node>
     <node concept="PrWs8" id="27H3E6HPv0P" role="PzmwI">
       <ref role="PrY4T" node="27H3E6HBJi1" resolve="IUsable" />
@@ -283,6 +283,9 @@
     </node>
     <node concept="PrWs8" id="27H3E6Hoggx" role="PzmwI">
       <ref role="PrY4T" node="5Xjenljcz12" resolve="IExplainable" />
+    </node>
+    <node concept="PrWs8" id="1$A6n3M4AEB" role="PzmwI">
+      <ref role="PrY4T" node="27H3E6HBJi1" resolve="IUsable" />
     </node>
     <node concept="PrWs8" id="6qUJKUPGMNn" role="PzmwI">
       <ref role="PrY4T" node="27H3E6Ib1yR" resolve="IDutyCreatableAndTerminateable" />
