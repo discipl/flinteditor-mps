@@ -136,7 +136,7 @@ task copyProjectLibs(type: Copy) {
 }
 
 subprojects.forEach {
-    copyProjectLibs.dependsOn it.getTasksByName("build", false)
+    copyProjectLibs.dependsOn "build"
 }
 
 task cleanLibs(type: Delete) {

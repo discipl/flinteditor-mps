@@ -5,7 +5,6 @@
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
   </languages>
   <imports>
-    <import index="kwxp" ref="b4d28e19-7d2d-47e9-943e-3a41f97a0e52/r:4903509f-5416-46ff-9a8b-44b5a178b568(com.mbeddr.mpsutil.plantuml.node/com.mbeddr.mpsutil.plantuml.node.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -119,9 +118,6 @@
     <node concept="PrWs8" id="5Xjenljcz1f" role="PzmwI">
       <ref role="PrY4T" node="5Xjenljcz12" resolve="IExplainable" />
     </node>
-    <node concept="PrWs8" id="cIw2dGkUOl" role="PzmwI">
-      <ref role="PrY4T" to="kwxp:2N1CSrzPN_8" resolve="IVisualizable" />
-    </node>
     <node concept="PrWs8" id="27H3E6HEThC" role="PzmwI">
       <ref role="PrY4T" node="27H3E6HBJi1" resolve="IUsable" />
     </node>
@@ -215,9 +211,6 @@
     <node concept="PrWs8" id="7PeSHTFdFJy" role="PzmwI">
       <ref role="PrY4T" node="5Xjenljcz12" resolve="IExplainable" />
     </node>
-    <node concept="PrWs8" id="7PeSHTFdFJE" role="PzmwI">
-      <ref role="PrY4T" to="kwxp:2N1CSrzPN_8" resolve="IVisualizable" />
-    </node>
     <node concept="PrWs8" id="27H3E6Ib1yX" role="PzmwI">
       <ref role="PrY4T" node="27H3E6Ib1yR" resolve="IDutyCreatableAndTerminateable" />
     </node>
@@ -279,9 +272,6 @@
   <node concept="PlHQZ" id="7PeSHTFdOj4">
     <property role="EcuMT" value="9029403747833824452" />
     <property role="TrG5h" value="IActCreateableAndTerminateable" />
-    <node concept="PrWs8" id="7PeSHTFdOjf" role="PrDN$">
-      <ref role="PrY4T" to="kwxp:2N1CSrzPN_8" resolve="IVisualizable" />
-    </node>
   </node>
   <node concept="1TIwiD" id="27H3E6Hoggr">
     <property role="EcuMT" value="2444626260293387291" />
@@ -568,9 +558,6 @@
     <property role="EcuMT" value="6587498613242889852" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="cIw2dGmWJ8" role="PzmwI">
-      <ref role="PrY4T" to="kwxp:2N1CSrzPN_8" resolve="IVisualizable" />
-    </node>
   </node>
   <node concept="1TIwiD" id="4OBWPp16YlS">
     <property role="TrG5h" value="Expression" />

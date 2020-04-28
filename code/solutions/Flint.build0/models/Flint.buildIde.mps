@@ -738,9 +738,6 @@
       <node concept="m$_yC" id="2vpCevmZNWp" role="m$_yJ">
         <ref role="m$_y1" to="al5i:7uZw0yZ2_Jq" resolve="com.mbeddr.mpsutil" />
       </node>
-      <node concept="m$_yC" id="2WP7dhE1exN" role="m$_yJ">
-        <ref role="m$_y1" to="al5i:64SK4bcJmGP" resolve="com.mbeddr.mpsutil.plantuml" />
-      </node>
       <node concept="3_J27D" id="2WP7dhE1erl" role="m$_yQ">
         <node concept="3Mxwew" id="2WP7dhE1erm" role="3MwsjC">
           <property role="3MwjfP" value="Flint" />
@@ -863,11 +860,6 @@
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
           </node>
         </node>
-        <node concept="1SiIV0" id="6TdMXac7Z20" role="3bR37C">
-          <node concept="1Busua" id="6TdMXac7Z21" role="1SiIV1">
-            <ref role="1Busuk" to="al5i:2N1CSrzSKpi" resolve="com.mbeddr.mpsutil.plantuml.node" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="27H3E6HGGHI" role="3bR37C">
           <node concept="3bR9La" id="27H3E6HGGHJ" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:2eDSGe9d1q1" resolve="MPS.Workbench" />
@@ -891,6 +883,11 @@
         <node concept="1SiIV0" id="4OBWPp1HpdE" role="3bR37C">
           <node concept="3bR9La" id="4OBWPp1HpdF" role="1SiIV1">
             <ref role="3bR37D" to="90a9:4be$WTb1AQa" resolve="de.itemis.mps.editor.diagram.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2d$eyOB4Sf" role="3bR37C">
+          <node concept="1Busua" id="2d$eyOB4Sg" role="1SiIV1">
+            <ref role="1Busuk" to="90a9:56Tfdun3uan" resolve="de.itemis.mps.editor.diagram.layout" />
           </node>
         </node>
       </node>
