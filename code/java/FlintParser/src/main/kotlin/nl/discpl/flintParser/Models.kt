@@ -2,11 +2,11 @@ package nl.discpl.flintParser
 
 import com.google.gson.annotations.SerializedName
 
-data class FlintModel(val facts: List<Fact>, val acts: List<Act>, val duties: List<Duty>)
+data class FlintModel(val facts: List<Fact> = emptyList(), val acts: List<Act> = emptyList(), val duties: List<Duty> = emptyList())
 
 data class Act(
     val act: ActReference,
-    val sources: List<Source>?,
+    override val sources: List<Source>?,
     val actor: FactReference,
     val action: FactReference,
     val `object`: FactReference,
@@ -15,14 +15,14 @@ data class Act(
     val terminate: List<ActCreateableAndTerminateable>,
     val preconditions: Resolvable?,
     override val explanation: String
-) : Explainable
+) : Explainable, HasSources
 
 data class Fact(
     val fact: FactReference,
-    val sources: List<Source>?,
+    override val sources: List<Source>?,
     val function: Resolvable?,
     override val explanation: String
-) : Explainable
+) : Explainable, HasSources
 
 data class Duty(
     val duty: DutyReference,
@@ -33,9 +33,9 @@ data class Duty(
     val claimant: FactReference?,
     val create: DutyCreateableAndTerminateable?,
     val terminate: DutyCreateableAndTerminateable?,
-    val sources: List<Source>?,
+    override val sources: List<Source>?,
     override val explanation: String
-) : Explainable
+) : Explainable, HasSources
 
 data class Source(
     val citation: String,
@@ -76,6 +76,10 @@ data class BaseSource(
 //            items?.let { this.add(it) }
 //        }
 //}
+
+interface HasSources {
+    val sources: List<Source>?
+}
 
 interface Expression : Resolvable {
     val expression: String

@@ -3,7 +3,9 @@ package nl.discpl.flintParser
 import com.google.gson.JsonElement
 import io.gsonfire.GsonFireBuilder
 import nl.discpl.flintParser.deserialize.*
-import nl.discpl.flintParser.typeselector.*
+import nl.discpl.flintParser.typeselector.ActCreateableAndTerminateableTypeSelector
+import nl.discpl.flintParser.typeselector.DutyCreateableAndTerminateableTypeSelector
+import nl.discpl.flintParser.typeselector.ResolvableTypeSelector
 import kotlin.streams.toList
 
 
@@ -48,13 +50,11 @@ class FlintParser(private val json: String) {
     }
 
     fun getSources(): Set<Source> {
-        val factSources = flintModel.facts
-            .flatMap { fact -> fact.sources ?: emptyList() }
-        val actSources = flintModel.acts
-            .flatMap { fact -> fact.sources ?: emptyList() }
-        val dutySources = flintModel.duties
-            .flatMap { fact -> fact.sources ?: emptyList() }
-        return listOf(factSources, actSources, dutySources).flatMap { it }.toSet()
+        val list: List<HasSources> = listOf(flintModel.facts, flintModel.acts, flintModel.duties)
+            .flatMap { it }.mapNotNull { it as? HasSources }
+        val sources = list
+            .flatMap { it.sources ?: emptyList() }
+        return sources.toSet()
     }
 
     fun getBaseSources(): Set<BaseSource> {

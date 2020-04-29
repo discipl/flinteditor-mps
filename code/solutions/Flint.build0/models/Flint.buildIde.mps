@@ -5,6 +5,7 @@
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
     <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="7" />
     <use id="d5033cee-f632-44b6-b308-89d4fbde34ff" name="jetbrains.mps.build.startup" version="0" />
+    <use id="3600cb0a-44dd-4a5b-9968-22924406419e" name="jetbrains.mps.build.mps.tests" version="1" />
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
@@ -20,6 +21,19 @@
       <concept id="1622293396948952339" name="jetbrains.mps.core.xml.structure.XmlText" flags="nn" index="3o6iSG">
         <property id="1622293396948953704" name="value" index="3o6i5n" />
       </concept>
+    </language>
+    <language id="3600cb0a-44dd-4a5b-9968-22924406419e" name="jetbrains.mps.build.mps.tests">
+      <concept id="4560297596904469357" name="jetbrains.mps.build.mps.tests.structure.BuildMpsLayout_TestModules" flags="nn" index="22LTRH">
+        <child id="4560297596904469360" name="modules" index="22LTRK" />
+        <child id="6593674873639474544" name="options" index="24cAkG" />
+      </concept>
+      <concept id="4560297596904469362" name="jetbrains.mps.build.mps.tests.structure.BuildMpsLayout_TestModule" flags="nn" index="22LTRM">
+        <reference id="4560297596904469363" name="module" index="22LTRN" />
+      </concept>
+      <concept id="6593674873639474400" name="jetbrains.mps.build.mps.tests.structure.BuildMpsLayout_TestModules_Options" flags="ng" index="24cAiW">
+        <child id="6593674873639478221" name="haltonfailure" index="24c_eh" />
+      </concept>
+      <concept id="4005526075820600484" name="jetbrains.mps.build.mps.tests.structure.BuildModuleTestsPlugin" flags="ng" index="1gjT0q" />
     </language>
     <language id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build">
       <concept id="5481553824944787378" name="jetbrains.mps.build.structure.BuildSourceProjectRelativePath" flags="ng" index="55IIr" />
@@ -98,6 +112,7 @@
         <child id="4796668409958418110" name="scriptsDir" index="auvoZ" />
         <child id="6647099934206700656" name="plugins" index="10PD9s" />
         <child id="7389400916848080626" name="parts" index="3989C9" />
+        <child id="3542413272732620719" name="aspects" index="1hWBAP" />
         <child id="5617550519002745381" name="dependencies" index="1l3spa" />
         <child id="5617550519002745378" name="macros" index="1l3spd" />
         <child id="5617550519002745372" name="layout" index="1l3spN" />
@@ -167,6 +182,9 @@
       <concept id="6818892319992984815" name="jetbrains.mps.build.mps.structure.BuildMps_TipsPackage" flags="ng" index="20sUq0">
         <reference id="7323166234190549907" name="tips" index="21GgXK" />
       </concept>
+      <concept id="6503355885715333289" name="jetbrains.mps.build.mps.structure.BuildMpsAspect" flags="ng" index="2igEWh">
+        <property id="1787667533297081791" name="testGeneration" index="1MpcYp" />
+      </concept>
       <concept id="6592112598314586625" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginGroup" flags="ng" index="m$f5U">
         <reference id="6592112598314586626" name="group" index="m$f5T" />
       </concept>
@@ -189,6 +207,9 @@
       <concept id="3570488090019868065" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_AutoPluginLayoutType" flags="ng" index="pUk6x" />
       <concept id="1500819558095907805" name="jetbrains.mps.build.mps.structure.BuildMps_Group" flags="ng" index="2G$12M">
         <child id="1500819558095907806" name="modules" index="2G$12L" />
+      </concept>
+      <concept id="1265949165890536423" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_ModuleJars" flags="ng" index="L2wRC">
+        <reference id="1265949165890536425" name="module" index="L2wRA" />
       </concept>
       <concept id="868032131020265945" name="jetbrains.mps.build.mps.structure.BuildMPSPlugin" flags="ng" index="3b7kt6" />
       <concept id="5253498789149381388" name="jetbrains.mps.build.mps.structure.BuildMps_Module" flags="ng" index="3bQrTs">
@@ -233,7 +254,9 @@
       <concept id="4278635856200794926" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyExtendLanguage" flags="ng" index="1Busua">
         <reference id="4278635856200794928" name="language" index="1Busuk" />
       </concept>
-      <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA" />
+      <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA">
+        <property id="269707337715731330" name="sourcesKind" index="aoJFB" />
+      </concept>
       <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD">
         <child id="9200313594498201639" name="generator" index="1TViLv" />
       </concept>
@@ -1907,6 +1930,119 @@
     </node>
     <node concept="2sgV4H" id="4aWSgWwhSy3" role="1l3spa">
       <ref role="1l3spb" node="2WP7dhE1eqn" resolve="Flint" />
+    </node>
+  </node>
+  <node concept="1l3spW" id="63E5y3SREGU">
+    <property role="TrG5h" value="FlintTest" />
+    <property role="2DA0ip" value="../.." />
+    <property role="turDy" value="testFlint.xml" />
+    <node concept="2igEWh" id="63E5y3SV3$L" role="1hWBAP">
+      <property role="1MpcYp" value="true" />
+    </node>
+    <node concept="10PD9b" id="63E5y3SREGV" role="10PD9s" />
+    <node concept="3b7kt6" id="63E5y3SREGW" role="10PD9s" />
+    <node concept="1gjT0q" id="63E5y3SREIl" role="10PD9s" />
+    <node concept="398rNT" id="63E5y3SREGX" role="1l3spd">
+      <property role="TrG5h" value="mps_home" />
+    </node>
+    <node concept="398rNT" id="63E5y3SUMqC" role="1l3spd">
+      <property role="TrG5h" value="idea_home" />
+      <node concept="398BVA" id="63E5y3SUMqJ" role="398pKh">
+        <ref role="398BVh" node="63E5y3SREGX" resolve="mps_home" />
+      </node>
+    </node>
+    <node concept="398rNT" id="63E5y3SREH0" role="1l3spd">
+      <property role="TrG5h" value="KOTLIN_BUNDLED" />
+    </node>
+    <node concept="398rNT" id="63E5y3SREH1" role="1l3spd">
+      <property role="TrG5h" value="MAVEN_REPOSITORY" />
+    </node>
+    <node concept="398rNT" id="63E5y3SREH2" role="1l3spd">
+      <property role="TrG5h" value="project_path" />
+    </node>
+    <node concept="398rNT" id="63E5y3SXYsg" role="1l3spd">
+      <property role="TrG5h" value="mps.macro.project_path" />
+      <node concept="398BVA" id="63E5y3SXYsp" role="398pKh">
+        <ref role="398BVh" node="63E5y3SREH2" resolve="project_path" />
+      </node>
+    </node>
+    <node concept="2sgV4H" id="63E5y3SREGY" role="1l3spa">
+      <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
+      <node concept="398BVA" id="63E5y3SREGZ" role="2JcizS">
+        <ref role="398BVh" node="63E5y3SREGX" resolve="mps_home" />
+      </node>
+    </node>
+    <node concept="2sgV4H" id="63E5y3SREIy" role="1l3spa">
+      <ref role="1l3spb" node="2WP7dhE1eqn" resolve="Flint" />
+    </node>
+    <node concept="1l3spV" id="63E5y3SREHn" role="1l3spN">
+      <node concept="L2wRC" id="63E5y3SREIf" role="39821P">
+        <ref role="L2wRA" node="63E5y3SREH8" resolve="Flint.test" />
+      </node>
+    </node>
+    <node concept="2G$12M" id="63E5y3SREH9" role="3989C9">
+      <property role="TrG5h" value="Flint.test" />
+      <node concept="1E1JtA" id="63E5y3SREH8" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="Flint.test" />
+        <property role="3LESm3" value="b39b469c-da14-4677-a46e-17a70ccf0be8" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
+        <node concept="55IIr" id="63E5y3SREH3" role="3LF7KH">
+          <node concept="2Ry0Ak" id="63E5y3SREH4" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="63E5y3SREH5" role="2Ry0An">
+              <property role="2Ry0Am" value="Flint.test" />
+              <node concept="2Ry0Ak" id="63E5y3SREH6" role="2Ry0An">
+                <property role="2Ry0Am" value="Flint.test.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BupzO" id="63E5y3SREHx" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="63E5y3SREHy" role="1HemKq">
+            <node concept="55IIr" id="63E5y3SREHt" role="3LXTmr">
+              <node concept="2Ry0Ak" id="63E5y3SREHu" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="63E5y3SREHv" role="2Ry0An">
+                  <property role="2Ry0Am" value="Flint.test" />
+                  <node concept="2Ry0Ak" id="63E5y3SREHw" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="63E5y3SREHz" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="63E5y3SREIB" role="3bR37C">
+          <node concept="3bR9La" id="63E5y3SREIC" role="1SiIV1">
+            <ref role="3bR37D" node="2WP7dhE1eri" resolve="Flint" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="63E5y3U5Ycr" role="3bR37C">
+          <node concept="3bR9La" id="63E5y3U5Ycs" role="1SiIV1">
+            <ref role="3bR37D" node="QLMwktTkqF" resolve="Flint.plugin" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="22LTRH" id="63E5y3SREIq" role="1hWBAP">
+      <property role="TrG5h" value="Tests" />
+      <node concept="22LTRM" id="63E5y3SREIs" role="22LTRK">
+        <ref role="22LTRN" node="63E5y3SREH8" resolve="Flint.test" />
+      </node>
+      <node concept="24cAiW" id="63E5y3SXpO9" role="24cAkG">
+        <node concept="NbPM2" id="63E5y3SXpOh" role="24c_eh">
+          <node concept="3Mxwew" id="63E5y3SXpOk" role="3MwsjC">
+            <property role="3MwjfP" value="true" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
