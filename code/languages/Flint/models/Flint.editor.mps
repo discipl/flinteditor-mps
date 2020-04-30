@@ -642,6 +642,7 @@
           <property role="3F0ifm" value="text:" />
         </node>
         <node concept="2v7bAL" id="5k7NceCbJfc" role="3EZMnx">
+          <property role="1O74Pk" value="true" />
           <ref role="1NtTu8" to="lnwe:5HFvLoKK$fR" resolve="text" />
           <ref role="1k5W1q" node="5k7NceCcyJe" resolve="MutliLineText" />
         </node>

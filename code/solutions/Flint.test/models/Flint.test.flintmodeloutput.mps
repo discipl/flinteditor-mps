@@ -486,7 +486,7 @@
             <node concept="3YX88e" id="63E5y3ToiAd" role="3YX86K">
               <property role="TrG5h" value="terminate" />
               <node concept="3YX86M" id="63E5y3ToiAe" role="3YX8ah">
-                <property role="3YX86R" value="&lt;&lt;&gt;&gt;" />
+                <property role="3YX86R" value="&lt;&lt;act1&gt;&gt;" />
               </node>
             </node>
             <node concept="3YX88e" id="63E5y3ToiAf" role="3YX86K">

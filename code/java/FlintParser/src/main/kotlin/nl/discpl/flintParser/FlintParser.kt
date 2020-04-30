@@ -1,15 +1,13 @@
 package nl.discpl.flintParser
 
-import com.google.gson.JsonElement
 import io.gsonfire.GsonFireBuilder
 import nl.discpl.flintParser.deserialize.*
 import nl.discpl.flintParser.typeselector.ActCreateableAndTerminateableTypeSelector
 import nl.discpl.flintParser.typeselector.DutyCreateableAndTerminateableTypeSelector
 import nl.discpl.flintParser.typeselector.ResolvableTypeSelector
-import kotlin.streams.toList
 
 
-class FlintParser(private val json: String) {
+class FlintParser(json: String) {
     private val flintModel: FlintModel = GsonFireBuilder()
         .registerTypeSelector(Resolvable::class.java, ResolvableTypeSelector())
         .registerTypeSelector(ActCreateableAndTerminateable::class.java, ActCreateableAndTerminateableTypeSelector())
@@ -38,20 +36,9 @@ class FlintParser(private val json: String) {
         .create()
         .fromJson(json, FlintModel::class.java)
 
-    private fun isSimpleFunction(jsonElement: JsonElement): Boolean {
-        var operandsCheck: Boolean? = null
-        try {
-            operandsCheck = jsonElement.asJsonObject.get("operands").asJsonArray.first().isJsonPrimitive
-        } catch (e: Exception) {
-            operandsCheck = null
-        }
-        operandsCheck?.let { return it }
-        return jsonElement.asJsonObject.get("operand").isJsonPrimitive
-    }
-
     fun getSources(): Set<Source> {
-        val list: List<HasSources> = listOf(flintModel.facts, flintModel.acts, flintModel.duties)
-            .flatMap { it }.mapNotNull { it as? HasSources }
+        val list: List<HasSources> = listOf<List<HasSources>>(flintModel.facts, flintModel.acts, flintModel.duties)
+            .flatten()
         val sources = list
             .flatMap { it.sources ?: emptyList() }
         return sources.toSet()
@@ -87,40 +74,6 @@ class FlintParser(private val json: String) {
         return this.flintModel.acts
             .filter { it.preconditions != null }
             .map { it.act.name to it.preconditions!! }.toMap()
-    }
-
-    private fun reduce(sources: List<BaseSource>): BaseSource {
-        val first = sources.first()
-        if (sources.size <= 1) {
-            return first
-        }
-        return BaseSource(
-            resolveName(sources),
-            first.validFrom,
-            first.validTo,
-            first.juriconnect
-        )
-    }
-
-    private fun resolveName(sources: List<BaseSource>): String {
-        var name: String? = null
-        sources.map { it.name }.forEach {
-            if (name == null) {
-                name = it
-            }
-            name = name?.matching(it)
-        }
-        return name!!
-    }
-
-    private fun String.matching(it: String): String {
-        val matchingList: List<Char> = this.chars().toList().mapIndexedNotNull { index, aChar ->
-            if (index < it.length) {
-                return@mapIndexedNotNull if (it.get(index) == aChar.toChar()) aChar.toChar() else null
-            }
-            return@mapIndexedNotNull null
-        }
-        return matchingList.map { it.toString() }.joinToString(separator = "") { it }
     }
 }
 

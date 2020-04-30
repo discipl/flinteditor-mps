@@ -622,6 +622,21 @@
         </node>
         <node concept="m$_wl" id="2WP7dhE1es7" role="39821P">
           <ref role="m_rDy" node="2WP7dhE1erk" resolve="Flint" />
+          <node concept="398223" id="7FNYdkaUtBC" role="39821P">
+            <node concept="3_J27D" id="7FNYdkaUtBE" role="Nbhlr">
+              <node concept="3Mxwew" id="7FNYdkaUtEx" role="3MwsjC">
+                <property role="3MwjfP" value="test-resources" />
+              </node>
+            </node>
+            <node concept="2HvfSZ" id="7FNYdkaUtEz" role="39821P">
+              <node concept="398BVA" id="7FNYdkaUtGR" role="2HvfZ0">
+                <ref role="398BVh" node="QLMwktT2H8" resolve="basedir" />
+                <node concept="2Ry0Ak" id="7FNYdkaUtL_" role="iGT6I">
+                  <property role="2Ry0Am" value="test-resources" />
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="398223" id="e8hxMxobZF" role="39821P">
             <node concept="3_J27D" id="e8hxMxobZH" role="Nbhlr">
               <node concept="3Mxwew" id="e8hxMxoc0W" role="3MwsjC">
@@ -2027,6 +2042,21 @@
         <node concept="1SiIV0" id="63E5y3U5Ycr" role="3bR37C">
           <node concept="3bR9La" id="63E5y3U5Ycs" role="1SiIV1">
             <ref role="3bR37D" node="QLMwktTkqF" resolve="Flint.plugin" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7FNYdkaDJrp" role="3bR37C">
+          <node concept="3bR9La" id="7FNYdkaDJrq" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7FNYdkaDJrr" role="3bR37C">
+          <node concept="3bR9La" id="7FNYdkaDJrs" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7FNYdkaIWcf" role="3bR37C">
+          <node concept="3bR9La" id="7FNYdkaIWcg" role="1SiIV1">
+            <ref role="3bR37D" node="2eNuKY4JD2" resolve="Flint.runtime" />
           </node>
         </node>
       </node>

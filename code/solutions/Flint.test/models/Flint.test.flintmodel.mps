@@ -28,7 +28,9 @@
       <concept id="6868897032739434618" name="Flint.structure.Fact" flags="ng" index="cu0$f">
         <child id="6868897032739751036" name="function" index="coNO9" />
       </concept>
-      <concept id="2444626260293387291" name="Flint.structure.Duty" flags="ng" index="2cz0EU" />
+      <concept id="2444626260293387291" name="Flint.structure.Duty" flags="ng" index="2cz0EU">
+        <reference id="2444626260294520798" name="terminate" index="2cBO5Z" />
+      </concept>
       <concept id="2444626260293394822" name="Flint.structure.DutyReference" flags="ng" index="2cz2WB">
         <reference id="2444626260293394823" name="duty" index="2cz2WA" />
       </concept>
@@ -145,6 +147,7 @@
     </node>
     <node concept="2cz0EU" id="63E5y3TohTX" role="2cADMD">
       <property role="TrG5h" value="duty2" />
+      <ref role="2cBO5Z" node="63E5y3TohTT" resolve="act1" />
     </node>
     <node concept="cog_a" id="63E5y3TohUE" role="cogAT">
       <property role="TrG5h" value="Source1" />
