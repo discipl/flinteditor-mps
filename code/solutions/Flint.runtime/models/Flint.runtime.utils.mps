@@ -67,6 +67,7 @@
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
+      <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
@@ -74,6 +75,7 @@
       </concept>
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <child id="1068580123133" name="returnType" index="3clF45" />
+        <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
       <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
@@ -178,7 +180,23 @@
               <ref role="338YkT" node="2eNuKY2R2z" resolve="resourcesFolder" />
             </node>
             <node concept="1rXfSq" id="e8hxMwXyAE" role="37vLTx">
-              <ref role="37wK5l" node="e8hxMwX4E4" resolve="getResourcesFolderPath" />
+              <ref role="37wK5l" node="e8hxMwX4E4" resolve="getPath" />
+              <node concept="Xl_RD" id="7FNYdkaI2Nt" role="37wK5m">
+                <property role="Xl_RC" value="resources-path" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7FNYdkaI3vf" role="3cqZAp">
+          <node concept="37vLTI" id="7FNYdkaI3vg" role="3clFbG">
+            <node concept="338YkY" id="7FNYdkaI49h" role="37vLTJ">
+              <ref role="338YkT" node="7FNYdkaI3HX" resolve="testResourcesFolder" />
+            </node>
+            <node concept="1rXfSq" id="7FNYdkaI3vi" role="37vLTx">
+              <ref role="37wK5l" node="e8hxMwX4E4" resolve="getPath" />
+              <node concept="Xl_RD" id="7FNYdkaI3vj" role="37wK5m">
+                <property role="Xl_RC" value="test-resources-path" />
+              </node>
             </node>
           </node>
         </node>
@@ -195,6 +213,19 @@
         </node>
       </node>
       <node concept="3uibUv" id="2eNuKY2R37" role="2RkE6I">
+        <ref role="3uigEE" to="eoo2:~Path" resolve="Path" />
+      </node>
+    </node>
+    <node concept="2RhdJD" id="7FNYdkaI3HX" role="jymVt">
+      <property role="2RkwnN" value="testResourcesFolder" />
+      <node concept="3Tm1VV" id="7FNYdkaI3HY" role="1B3o_S" />
+      <node concept="2RoN1w" id="7FNYdkaI3HZ" role="2RnVtd">
+        <node concept="3wEZqW" id="7FNYdkaI3I0" role="3wFrgM" />
+        <node concept="3xqBd$" id="7FNYdkaI3I1" role="3xrYvX">
+          <node concept="3Tm6S6" id="7FNYdkaI3I2" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7FNYdkaI3I3" role="2RkE6I">
         <ref role="3uigEE" to="eoo2:~Path" resolve="Path" />
       </node>
     </node>
@@ -336,7 +367,11 @@
     </node>
     <node concept="2tJIrI" id="e8hxMwX3bn" role="jymVt" />
     <node concept="3clFb_" id="e8hxMwX4E4" role="jymVt">
-      <property role="TrG5h" value="getResourcesFolderPath" />
+      <property role="TrG5h" value="getPath" />
+      <node concept="37vLTG" id="7FNYdkaI2r5" role="3clF46">
+        <property role="TrG5h" value="propertyName" />
+        <node concept="17QB3L" id="7FNYdkaI2Ho" role="1tU5fm" />
+      </node>
       <node concept="3clFbS" id="e8hxMwX4E7" role="3clF47">
         <node concept="3cpWs8" id="e8hxMwX9MI" role="3cqZAp">
           <node concept="3cpWsn" id="e8hxMwX9MJ" role="3cpWs9">
@@ -358,8 +393,8 @@
                   </node>
                   <node concept="liA8E" id="e8hxMwX9MQ" role="2OqNvi">
                     <ref role="37wK5l" to="33ny:~Properties.getProperty(java.lang.String)" resolve="getProperty" />
-                    <node concept="Xl_RD" id="e8hxMwX9MR" role="37wK5m">
-                      <property role="Xl_RC" value="resources-path" />
+                    <node concept="37vLTw" id="7FNYdkaI3av" role="37wK5m">
+                      <ref role="3cqZAo" node="7FNYdkaI2r5" resolve="propertyName" />
                     </node>
                   </node>
                 </node>

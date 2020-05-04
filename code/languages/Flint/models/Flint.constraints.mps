@@ -51,6 +51,7 @@
       </concept>
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
+        <reference id="1213106917431" name="defaultConcreteConcept" index="1MND4H" />
         <child id="1213098023997" name="property" index="1MhHOB" />
         <child id="1213100494875" name="referent" index="1Mr941" />
       </concept>
@@ -216,6 +217,15 @@
         <ref role="1dDu$A" to="lnwe:27H3E6Ib1yR" resolve="IDutyCreatableAndTerminateable" />
       </node>
     </node>
+  </node>
+  <node concept="1M2fIO" id="4OBWPp15Tu9">
+    <ref role="1M2myG" to="lnwe:4OBWPp15Tuc" resolve="Resolvable" />
+    <ref role="1MND4H" to="lnwe:5HFvLoKGhUL" resolve="FactReference" />
+  </node>
+  <node concept="1M2fIO" id="4NVq1Wbdgc0">
+    <property role="3GE5qa" value="expressions.literals" />
+    <ref role="1M2myG" to="lnwe:4NVq1Wbc09Y" resolve="LiteralOperand" />
+    <ref role="1MND4H" to="lnwe:4aWSgWx5NMK" resolve="StringOperand" />
   </node>
 </model>
 

@@ -1,8 +1,7 @@
 package nl.discpl.flintParser
 
 import org.hamcrest.MatcherAssert.assertThat
-import org.hamcrest.Matchers.`is`
-import org.hamcrest.Matchers.equalTo
+import org.hamcrest.Matchers.*
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 import java.io.InputStreamReader
@@ -160,5 +159,14 @@ internal class FlintParserTest {
                 literalExpressions.forEach { println(it.operand?.javaClass) }
             }
         }
+    }
+
+    @Test
+    fun model() {
+        val model: String =
+            "{\r\n  \"acts\": [\r\n  ],\r\n  \"facts\": [\r\n    {\r\n      \"fact\": \"[Fact1]\",\r\n      \"explanation\": \"\",\r\n      \"function\": \"[]\",\r\n      \"sources\": []\r\n    }\r\n  ],\r\n  \"duties\": [\r\n  ]\r\n}"
+        val flintParser = FlintParser(model)
+
+        flintParser.getFacts().forEach { assertThat(it, `is`(notNullValue())) }
     }
 }

@@ -38,7 +38,6 @@
         <child id="9029403747834602304" name="acts" index="m3s6u" />
       </concept>
       <concept id="6868897032739434618" name="Flint.structure.Fact" flags="ng" index="cu0$f">
-        <child id="6868897032739936918" name="sources" index="coufz" />
         <child id="6868897032739751036" name="function" index="coNO9" />
       </concept>
       <concept id="2444626260293387291" name="Flint.structure.Duty" flags="ng" index="2cz0EU">
@@ -46,7 +45,6 @@
         <reference id="2444626260293394863" name="claimant" index="2cz2We" />
         <reference id="2444626260294520794" name="create" index="2cBO5V" />
         <reference id="2444626260294520798" name="terminate" index="2cBO5Z" />
-        <child id="2444626260294520803" name="sources" index="2cBO52" />
         <child id="2444626260294521210" name="dutyComponents" index="2cBPZr" />
       </concept>
       <concept id="2444626260293394822" name="Flint.structure.DutyReference" flags="ng" index="2cz2WB">
@@ -59,14 +57,16 @@
         <reference id="9029403747833789423" name="actor" index="mu5$L" />
         <child id="9029403747833803225" name="terminate" index="mu1c7" />
         <child id="9029403747833803217" name="create" index="mu1cf" />
-        <child id="9029403747833803210" name="sources" index="mu1ck" />
         <child id="9029403747833797790" name="preconditions" index="mu3T0" />
+      </concept>
+      <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
+        <child id="6983418503075280678" name="sources" index="2pmM46" />
       </concept>
       <concept id="4808965957220771074" name="Flint.structure.AND" flags="ng" index="1zEWgd" />
       <concept id="4808965957220776510" name="Flint.structure.LESS_THAN" flags="ng" index="1zEXGL" />
-      <concept id="4808965957220776504" name="Flint.structure.EQUAL" flags="ng" index="1zEXGR" />
       <concept id="4808965957220776525" name="Flint.structure.OR" flags="ng" index="1zEXH2" />
       <concept id="4808965957220776522" name="Flint.structure.NOT" flags="ng" index="1zEXH5" />
+      <concept id="4808965957220776513" name="Flint.structure.LIST" flags="ng" index="1zEXHe" />
       <concept id="4808965957220776534" name="Flint.structure.LITERAL" flags="ng" index="1zEXHp">
         <child id="4808965957220776594" name="operand" index="1zEXIt" />
       </concept>
@@ -75,13 +75,18 @@
       <concept id="4808965957220777138" name="Flint.structure.NumberOperand" flags="ng" index="1zEXQX">
         <property id="4808965957220777139" name="value" index="1zEXQW" />
       </concept>
+      <concept id="4808965957220777137" name="Flint.structure.BooleanOperand" flags="ng" index="1zEXQY" />
       <concept id="4808965957220777136" name="Flint.structure.StringOperand" flags="ng" index="1zEXQZ">
         <property id="4808965957220777148" name="value" index="1zEXQN" />
       </concept>
-      <concept id="4808965957220331692" name="Flint.structure.IMultiExpression" flags="ng" index="1zF96z">
+      <concept id="4808965957220331692" name="Flint.structure.MultiExpression" flags="ng" index="1zF96z">
         <child id="4808965957220331693" name="operands" index="1zF96y" />
       </concept>
-      <concept id="4808965957220331688" name="Flint.structure.ISingleExpression" flags="ng" index="1zF96B">
+      <concept id="4808965957220331691" name="Flint.structure.ListExpression" flags="ng" index="1zF96$">
+        <property id="4808965957220336266" name="name" index="1zF6e5" />
+        <child id="4808965957220336268" name="items" index="1zF6e3" />
+      </concept>
+      <concept id="4808965957220331688" name="Flint.structure.SingleExpression" flags="ng" index="1zF96B">
         <child id="4808965957220331689" name="operand" index="1zF96A" />
       </concept>
       <concept id="6587498613242404529" name="Flint.structure.FactReference" flags="ng" index="1FQA6B">
@@ -91,26 +96,59 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="8ca79d43-eb45-4791-bdd4-0d6130ff895b" name="de.itemis.mps.editor.diagram.layout">
+      <concept id="6720495385597071406" name="de.itemis.mps.editor.diagram.layout.structure.Layout_Box" flags="ng" index="gqqVs">
+        <property id="6720495385597071504" name="bounds_height" index="gqqTy" />
+        <property id="6720495385597071502" name="bounds_y" index="gqqTW" />
+        <property id="6720495385597071503" name="bounds_width" index="gqqTX" />
+        <property id="6720495385597071501" name="bounds_x" index="gqqTZ" />
+        <property id="4583510071007917016" name="transform" index="TgtnS" />
+      </concept>
+      <concept id="2319506556913310852" name="de.itemis.mps.editor.diagram.layout.structure.Layout_Connection" flags="ng" index="2VclpC">
+        <child id="2319506556913311101" name="anchors" index="2Vcluh" />
+        <child id="4767615435799372763" name="labels" index="3ul5Gx" />
+      </concept>
+      <concept id="2319506556913310727" name="de.itemis.mps.editor.diagram.layout.structure.Point" flags="ng" index="2VclrF">
+        <property id="2319506556913310861" name="x" index="2Vclpx" />
+        <property id="2319506556913310863" name="y" index="2Vclpz" />
+      </concept>
+      <concept id="8963411245960991886" name="de.itemis.mps.editor.diagram.layout.structure.LayoutMap" flags="ng" index="37mRI7">
+        <child id="8963411245960991904" name="entries" index="37mRID" />
+      </concept>
+      <concept id="8963411245960991903" name="de.itemis.mps.editor.diagram.layout.structure.LayoutMapEntry" flags="ng" index="37mRIm">
+        <property id="8963411245960998400" name="key" index="37mO49" />
+        <child id="8963411245960998404" name="value" index="37mO4d" />
+      </concept>
+      <concept id="4767615435799372731" name="de.itemis.mps.editor.diagram.layout.structure.Layout_EdgeLabel" flags="ng" index="3ul5H1">
+        <property id="4767615435799372759" name="type" index="3ul5GH" />
+        <child id="4767615435799372761" name="position" index="3ul5Gz" />
+      </concept>
+      <concept id="3253043142928125505" name="de.itemis.mps.editor.diagram.layout.structure.RelativePosition" flags="ng" index="3wpmZ1">
+        <child id="3253043142928125557" name="referencePoint" index="3wpmZP" />
+        <child id="3253043142928125559" name="offset" index="3wpmZR" />
       </concept>
     </language>
   </registry>
   <node concept="231zEi" id="10jIHuj6P_K">
     <property role="TrG5h" value="VreemdelingenwetRunner" />
     <property role="3GE5qa" value="Runners" />
-    <ref role="231zEc" node="2vpCevmJ1t$" resolve="Vreemdelingenwet" />
+    <ref role="231zEc" node="63E5y3U1TlZ" resolve="Vreemdelingenwet" />
     <node concept="231zEt" id="10jIHuj6P_L" role="231zEh">
       <property role="TrG5h" value="IND" />
-      <node concept="1FQA6B" id="2vpCevmJ1_s" role="231zE6">
-        <ref role="1FQA6$" node="2vpCevmJ1uE" resolve="Onze Minister van Justitie en Veiligheid" />
+      <node concept="1FQA6B" id="63E5y3U1TtR" role="231zE6">
+        <ref role="1FQA6$" node="63E5y3U1Tn5" resolve="Onze Minister van Justitie en Veiligheid" />
       </node>
     </node>
     <node concept="231zEt" id="10jIHuj6P_P" role="231zEh">
       <property role="TrG5h" value="Vreemdeling" />
-      <node concept="1FQA6B" id="2vpCevmJ1_v" role="231zE6">
-        <ref role="1FQA6$" node="2vpCevmJ1uG" resolve="vreemdeling" />
+      <node concept="1FQA6B" id="63E5y3U1TtU" role="231zE6">
+        <ref role="1FQA6$" node="63E5y3U1Tn7" resolve="vreemdeling" />
       </node>
     </node>
     <node concept="231zEt" id="10jIHuko3mM" role="231zEh">
@@ -2593,5568 +2631,2559 @@
       <property role="TrG5h" value="minister van OCW weigert de aanvraag" />
     </node>
   </node>
-  <node concept="cu0$2" id="35H3ae$V0zl">
-    <property role="TrG5h" value="covid19" />
-    <node concept="cog_a" id="35H3ae$V0zm" role="cogAT">
-      <property role="TrG5h" value="art. 1 van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=1&amp;z=2020-03-31&amp;g=2020-03-31" />
-      <property role="cog$m" value="27-03-2020" />
-      <property role="cog$g" value="01-01-2021" />
-    </node>
-    <node concept="cog_a" id="35H3ae$V0zn" role="cogAT">
-      <property role="TrG5h" value="art. 2 lid 1 aanhef en onder a, van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=2&amp;lid=1&amp;z=2020-03-31&amp;g=2020-03-31" />
-      <property role="cog$m" value="27-03-2020" />
-      <property role="cog$g" value="01-01-2021" />
-    </node>
-    <node concept="cog_a" id="35H3ae$V0zo" role="cogAT">
-      <property role="TrG5h" value="art. 2 lid 1 aanhef en onder b, van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=2&amp;lid=1&amp;z=2020-03-31&amp;g=2020-03-31" />
-      <property role="cog$m" value="27-03-2020" />
-      <property role="cog$g" value="01-01-2021" />
-    </node>
-    <node concept="cog_a" id="35H3ae$V0zp" role="cogAT">
-      <property role="TrG5h" value="art. 3 aanhef en onder b, van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=3&amp;z=2020-03-31&amp;g=2020-03-31" />
-      <property role="cog$m" value="27-03-2020" />
-      <property role="cog$g" value="01-01-2021" />
-    </node>
-    <node concept="cog_a" id="35H3ae$V0zq" role="cogAT">
-      <property role="TrG5h" value="art 3, lid 2, van de Algemene de-minimisverordening" />
-      <property role="cog$t" value="" />
-      <property role="cog$m" value="18-12-2013" />
-      <property role="cog$g" value="31-12-9999" />
-    </node>
-    <node concept="cog_a" id="35H3ae$V0zr" role="cogAT">
-      <property role="TrG5h" value="art. 4 lid 2 aanhef en onder a, van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=4&amp;lid=2&amp;z=2020-03-31&amp;g=2020-03-31" />
-      <property role="cog$m" value="27-03-2020" />
-      <property role="cog$g" value="01-01-2021" />
-    </node>
-    <node concept="cog_a" id="35H3ae$V0zs" role="cogAT">
-      <property role="TrG5h" value="art. 4 lid 2 aanhef en onder b, van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=4&amp;lid=2&amp;z=2020-03-31&amp;g=2020-03-31" />
-      <property role="cog$m" value="27-03-2020" />
-      <property role="cog$g" value="01-01-2021" />
-    </node>
-    <node concept="cog_a" id="35H3ae$V0zt" role="cogAT">
-      <property role="TrG5h" value="art. 4 lid 3 van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=4&amp;lid=2&amp;z=2020-03-31&amp;g=2020-03-31" />
-      <property role="cog$m" value="27-03-2020" />
-      <property role="cog$g" value="01-01-2021" />
-    </node>
-    <node concept="cog_a" id="35H3ae$V0zu" role="cogAT">
-      <property role="TrG5h" value="art. 2 lid 1 van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=2&amp;lid=1&amp;z=2020-03-31&amp;g=2020-03-31" />
-      <property role="cog$m" value="27-03-2020" />
-      <property role="cog$g" value="01-01-2021" />
-    </node>
-    <node concept="cog_a" id="35H3ae$V0zv" role="cogAT">
-      <property role="TrG5h" value="https://www.rvo.nl/subsidie-en-financieringswijzer/tegemoetkoming-schade-covid-19/vastgestelde-sbi-codes-0" />
-      <property role="cog$t" value="" />
-      <property role="cog$m" value="07-04-2020" />
-      <property role="cog$g" value="31-12-9999" />
-    </node>
-    <node concept="cog_a" id="35H3ae$V0zw" role="cogAT">
-      <property role="TrG5h" value="Brief staatssecretaris SZW van 27 maart 2020: https://zoek.officielebekendmakingen.nl/kst-35420-11.html (voorlopige bron)" />
-      <property role="cog$t" value="" />
-      <property role="cog$m" value="27-03-2020" />
-      <property role="cog$g" value="31-05-2020" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0zx" role="cu0BP">
-      <property role="TrG5h" value="verzoek tegemoetkoming in de schade geleden door de maatregelen ter bestrijding van de verdere verspreiding van COVID-19" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0zy" role="cu0BP">
-      <property role="TrG5h" value="verzoek om aanvullende uitkering voor levensonderhoud op grond van de Tozo" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0zz" role="cu0BP">
-      <property role="TrG5h" value="zelfstandige" />
-      <node concept="1zEXH2" id="35H3ae$V0z$" role="coNO9">
-        <node concept="1FQA6B" id="35H3ae$V0z_" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0zA" resolve="eenmansbedrijf" />
-        </node>
-        <node concept="1zEWgd" id="35H3ae$V0zB" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0zC" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0zD" resolve="directeur-grootaandeelhouder (DGA) van een besloten vennootschap" />
-          </node>
-          <node concept="1FQA6B" id="35H3ae$V0zE" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0zF" resolve="er moet sprake zijn van volledige zeggenschap over de besloten vennootschap" />
-          </node>
-          <node concept="1FQA6B" id="35H3ae$V0zG" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0zH" resolve="er moet sprake zijn van het van dragen van de financiële risico’s" />
-          </node>
-          <node concept="1FQA6B" id="35H3ae$V0zI" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0zJ" resolve="de DGA heeft naar waarheid verklaard en aannemelijk gemaakt dat zijn/haar B.V. nu geen salaris kan uitbetalen" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0zA" role="cu0BP">
-      <property role="TrG5h" value="eenmansbedrijf" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0zD" role="cu0BP">
-      <property role="TrG5h" value="directeur-grootaandeelhouder (DGA) van een besloten vennootschap" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0zF" role="cu0BP">
-      <property role="TrG5h" value="er moet sprake zijn van volledige zeggenschap over de besloten vennootschap" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0zH" role="cu0BP">
-      <property role="TrG5h" value="er moet sprake zijn van het van dragen van de financiële risico’s" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0zJ" role="cu0BP">
-      <property role="TrG5h" value="de DGA heeft naar waarheid verklaard en aannemelijk gemaakt dat zijn/haar B.V. nu geen salaris kan uitbetalen" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0zK" role="cu0BP">
-      <property role="TrG5h" value="Minister van Economische Zaken en Klimaat" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0zL" role="cu0BP">
-      <property role="TrG5h" value="gedupeerde onderneming" />
-      <node concept="cog_b" id="35H3ae$V0zM" role="coufz">
-        <property role="1FEjNx" value="gedupeerde onderneming: in Nederland gevestigde onderneming als bedoeld in artikel 5 van de Handelsregisterwet 2007, niet zijnde een overheidsbedrijf:" />
-        <ref role="cog$q" node="35H3ae$V0zm" resolve="art. 1 van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0zN" role="cu0BP">
-      <property role="TrG5h" value="onderneming die op 15 maart 2020 in het handelsregister stond ingeschreven die op 15 maart 2020 in het handelsregister stond ingeschreven onder een hoofdactiviteit die in bijlage 1 is opgenomen, met de daarbij behorende code van de Standaard Bedrijfsindeling" />
-      <node concept="1zEWgd" id="35H3ae$V0zO" role="coNO9">
-        <node concept="1FQA6B" id="35H3ae$V0zP" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0zQ" resolve="onderneming is voor 15 maart 2020 ingeschreven in het KVK Handelsregister" />
-        </node>
-        <node concept="1FQA6B" id="35H3ae$V0zR" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0zS" resolve="ingeschreven onder een hoofdactiviteit die in bijlage 1 is opgenomen, met de daarbij behorende code van de Standaard Bedrijfsindeling" />
-        </node>
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0zT" role="cu0BP">
-      <property role="TrG5h" value="gedupeerde onderneming verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020 ten minste € 4000,- aan omzetverlies te lijden als gevolg van de maatregelen ter bestrijding van de verdere verspreiding van COVID-19" />
-      <node concept="cog_b" id="35H3ae$V0zU" role="coufz">
-        <property role="1FEjNx" value="De minister verstrekt op aanvraag een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020: a.ten minste € 4000,– aan omzetverlies te lijden als gevolg van de maatregelen ter bestrijding van de verdere verspreiding van COVID-19;" />
-        <ref role="cog$q" node="35H3ae$V0zn" resolve="art. 2 lid 1 aanhef en onder a, van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0zV" role="cu0BP">
-      <property role="TrG5h" value="gedupeerde onderneming verwacht ten minste € 4.000,- aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19" />
-      <node concept="cog_b" id="35H3ae$V0zW" role="coufz">
-        <property role="1FEjNx" value="De minister verstrekt op aanvraag een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020: b.ten minste € 4000,– aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19." />
-        <ref role="cog$q" node="35H3ae$V0zo" resolve="art. 2 lid 1 aanhef en onder b, van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0zX" role="cu0BP">
-      <property role="TrG5h" value="gedupeerde onderneming verkeert in staat van faillissement dan wel bij de rechtbank is een verzoek tot verlening van surseance van betaling aan de onderneming ingediend" />
-      <node concept="cog_b" id="35H3ae$V0zY" role="coufz">
-        <property role="1FEjNx" value="De minister beslist afwijzend op een aanvraag indien: b.de gedupeerde onderneming in staat van faillissement verkeert dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming is ingediend;" />
-        <ref role="cog$q" node="35H3ae$V0zp" resolve="art. 3 aanhef en onder b, van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      </node>
-      <node concept="1zEXH2" id="35H3ae$V0zZ" role="coNO9">
-        <node concept="1FQA6B" id="35H3ae$V0$0" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0$1" resolve="gedupeerde onderneming verkeert in staat van faillissement" />
-        </node>
-        <node concept="1FQA6B" id="35H3ae$V0$2" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0$3" resolve="bij de rechtbank is een verzoek tot verlening van surseance van betaling aan de gedupeerde onderneming ingediend" />
-        </node>
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$1" role="cu0BP">
-      <property role="TrG5h" value="gedupeerde onderneming verkeert in staat van faillissement" />
-      <node concept="cog_b" id="35H3ae$V0$4" role="coufz">
-        <property role="1FEjNx" value="De minister beslist afwijzend op een aanvraag indien: b.de gedupeerde onderneming in staat van faillissement verkeert dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming is ingediend;" />
-        <ref role="cog$q" node="35H3ae$V0zp" resolve="art. 3 aanhef en onder b, van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$3" role="cu0BP">
-      <property role="TrG5h" value="bij de rechtbank is een verzoek tot verlening van surseance van betaling aan de gedupeerde onderneming ingediend" />
-      <node concept="cog_b" id="35H3ae$V0$5" role="coufz">
-        <property role="1FEjNx" value="De minister beslist afwijzend op een aanvraag indien: b.de gedupeerde onderneming in staat van faillissement verkeert dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming is ingediend;" />
-        <ref role="cog$q" node="35H3ae$V0zp" resolve="art. 3 aanhef en onder b, van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$6" role="cu0BP">
-      <property role="TrG5h" value="tegemoetkoming kan worden verstrekt op grond van de algemene de-minimisverordening" />
-      <property role="3ANC2_" value="ISSUE: (1) De definitie van de 'verklaring de-minimissteun' impliceert dat de tegemoetkoming wel wordt verstrekt als het de-minimisplafond al overschreden was. In de FLINT interpretatie gebruiken we art. 3 lid 2 van de algemene de-minimisverordening als bron. Daar speelt dit probleem niet. (2) Hier wordt een voorwaarde gesteld in de lijst met definities." />
-      <node concept="cog_b" id="35H3ae$V0$7" role="coufz">
-        <property role="1FEjNx" value="verklaring de-minimissteun: verklaring van de gedupeerde onderneming waarin deze bevestigt dat de tegemoetkoming niet zal leiden tot een overschrijding van het de-minimisplafond, bedoeld in artikel 3, tweede lid, van de algemene de-minimisverordening;" />
-        <ref role="cog$q" node="35H3ae$V0zm" resolve="art. 1 van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      </node>
-      <node concept="1zEXH5" id="35H3ae$V0$8" role="coNO9">
-        <node concept="1FQA6B" id="35H3ae$V0$9" role="1zF96A">
-          <ref role="1FQA6$" node="35H3ae$V0$a" resolve="het totale bedrag aan de-minimissteun dat per lidstaat aan één onderneming wordt verleend, ligt hoger dan 200 000 EUR over een periode van drie belastingjaren" />
-        </node>
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$a" role="cu0BP">
-      <property role="TrG5h" value="het totale bedrag aan de-minimissteun dat per lidstaat aan één onderneming wordt verleend, ligt hoger dan 200 000 EUR over een periode van drie belastingjaren" />
-      <property role="3ANC2_" value="ISSUE: Waarom wordt deze informatie aan de gedupeerde onderneming gevraagd? EZK moet de verleende staatssteun toch zelf registreren?" />
-      <node concept="cog_b" id="35H3ae$V0$b" role="coufz">
-        <property role="1FEjNx" value="Het totale bedrag aan de-minimissteun dat per lidstaat aan één onderneming wordt verleend, ligt niet hoger dan 200 000 EUR over een periode van drie belastingjaren." />
-        <ref role="cog$q" node="35H3ae$V0zq" resolve="art 3, lid 2, van de Algemene de-minimisverordening" />
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$c" role="cu0BP">
-      <property role="TrG5h" value="aanvraag omvat het nummer waarmee de gedupeerde onderneming geregistreerd is bij de Kamer van Koophandel" />
-      <node concept="cog_b" id="35H3ae$V0$d" role="coufz">
-        <property role="1FEjNx" value="Een aanvraag omvat in ieder geval: gegevens over de gedupeerde onderneming, waaronder het nummer waarmee de gedupeerde onderneming geregistreerd is bij de Kamer van Koophandel, het post- en bezoekadres en het rekeningnummer dat op naam van de gedupeerde onderneming staat;" />
-        <ref role="cog$q" node="35H3ae$V0zr" resolve="art. 4 lid 2 aanhef en onder a, van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$f" role="cu0BP">
-      <property role="TrG5h" value="aanvraag omvat het post- en bezoekadres en het rekeningnummer dat op naam van de gedupeerde onderneming staat" />
-      <node concept="cog_b" id="35H3ae$V0$g" role="coufz">
-        <property role="1FEjNx" value="Een aanvraag omvat in ieder geval: gegevens over de gedupeerde onderneming, waaronder het nummer waarmee de gedupeerde onderneming geregistreerd is bij de Kamer van Koophandel, het post- en bezoekadres en het rekeningnummer dat op naam van de gedupeerde onderneming staat;" />
-        <ref role="cog$q" node="35H3ae$V0zr" resolve="art. 4 lid 2 aanhef en onder a, van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      </node>
-      <node concept="1zEWgd" id="35H3ae$V0$h" role="coNO9">
-        <node concept="1FQA6B" id="35H3ae$V0$i" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0$j" resolve="aanvraag omvat het postadres van de gedupeerde onderneming" />
-        </node>
-        <node concept="1FQA6B" id="35H3ae$V0$k" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0$l" resolve="aanvraag omvat het bezoekadres van de gedupeerde onderneming" />
-        </node>
-        <node concept="1FQA6B" id="35H3ae$V0$m" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0$n" resolve="aanvraag omvat het rekeningnummer dat op naam van de gedupeerde onderneming staat" />
-        </node>
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$j" role="cu0BP">
-      <property role="TrG5h" value="aanvraag omvat het postadres van de gedupeerde onderneming" />
-      <node concept="cog_b" id="35H3ae$V0$o" role="coufz">
-        <property role="1FEjNx" value="Een aanvraag omvat in ieder geval: gegevens over de gedupeerde onderneming, waaronder het nummer waarmee de gedupeerde onderneming geregistreerd is bij de Kamer van Koophandel, het post- en bezoekadres en het rekeningnummer dat op naam van de gedupeerde onderneming staat;" />
-        <ref role="cog$q" node="35H3ae$V0zr" resolve="art. 4 lid 2 aanhef en onder a, van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$l" role="cu0BP">
-      <property role="TrG5h" value="aanvraag omvat het bezoekadres van de gedupeerde onderneming" />
-      <node concept="cog_b" id="35H3ae$V0$p" role="coufz">
-        <property role="1FEjNx" value="Een aanvraag omvat in ieder geval: gegevens over de gedupeerde onderneming, waaronder het nummer waarmee de gedupeerde onderneming geregistreerd is bij de Kamer van Koophandel, het post- en bezoekadres en het rekeningnummer dat op naam van de gedupeerde onderneming staat;" />
-        <ref role="cog$q" node="35H3ae$V0zr" resolve="art. 4 lid 2 aanhef en onder a, van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$n" role="cu0BP">
-      <property role="TrG5h" value="aanvraag omvat het rekeningnummer dat op naam van de gedupeerde onderneming staat" />
-      <node concept="cog_b" id="35H3ae$V0$q" role="coufz">
-        <property role="1FEjNx" value="Een aanvraag omvat in ieder geval: gegevens over de gedupeerde onderneming, waaronder het nummer waarmee de gedupeerde onderneming geregistreerd is bij de Kamer van Koophandel, het post- en bezoekadres en het rekeningnummer dat op naam van de gedupeerde onderneming staat;" />
-        <ref role="cog$q" node="35H3ae$V0zr" resolve="art. 4 lid 2 aanhef en onder a, van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$r" role="cu0BP">
-      <property role="TrG5h" value="aanvraag omvat gegevens over de contactpersoon bij de gedupeerde onderneming" />
-      <property role="3ANC2_" value="VRAAG: De uitwerking van deze voorwaarde is nu dat alleen de minimaal benodigde gegevens van de contactpersoon worden gevraagd. Is dit de bedoeling?" />
-      <node concept="cog_b" id="35H3ae$V0$s" role="coufz">
-        <property role="1FEjNx" value="Een aanvraag omvat in ieder geval: gegevens over de contactpersoon bij de gedupeerde onderneming, waaronder de naam, het telefoonnummer en het e-mailadres;" />
-        <ref role="cog$q" node="35H3ae$V0zs" resolve="art. 4 lid 2 aanhef en onder b, van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      </node>
-      <node concept="1zEWgd" id="35H3ae$V0$t" role="coNO9">
-        <node concept="1FQA6B" id="35H3ae$V0$u" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0$v" resolve="naam contactpersoon bij de gedupeerde onderneming" />
-        </node>
-        <node concept="1FQA6B" id="35H3ae$V0$w" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0$x" resolve="telefoonnummer contactpersoon bij de gedupeerde onderneming" />
-        </node>
-        <node concept="1FQA6B" id="35H3ae$V0$y" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0$z" resolve="e-mailadres contactpersoon bij de gedupeerde onderneming" />
-        </node>
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$v" role="cu0BP">
-      <property role="TrG5h" value="naam contactpersoon bij de gedupeerde onderneming" />
-      <node concept="cog_b" id="35H3ae$V0$$" role="coufz">
-        <property role="1FEjNx" value="Een aanvraag omvat in ieder geval: gegevens over de contactpersoon bij de gedupeerde onderneming, waaronder de naam, het telefoonnummer en het e-mailadres;" />
-        <ref role="cog$q" node="35H3ae$V0zs" resolve="art. 4 lid 2 aanhef en onder b, van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$x" role="cu0BP">
-      <property role="TrG5h" value="telefoonnummer contactpersoon bij de gedupeerde onderneming" />
-      <node concept="cog_b" id="35H3ae$V0$_" role="coufz">
-        <property role="1FEjNx" value="Een aanvraag omvat in ieder geval: gegevens over de contactpersoon bij de gedupeerde onderneming, waaronder de naam, het telefoonnummer en het e-mailadres;" />
-        <ref role="cog$q" node="35H3ae$V0zs" resolve="art. 4 lid 2 aanhef en onder b, van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$z" role="cu0BP">
-      <property role="TrG5h" value="e-mailadres contactpersoon bij de gedupeerde onderneming" />
-      <node concept="cog_b" id="35H3ae$V0$A" role="coufz">
-        <property role="1FEjNx" value="Een aanvraag omvat in ieder geval: gegevens over de contactpersoon bij de gedupeerde onderneming, waaronder de naam, het telefoonnummer en het e-mailadres;" />
-        <ref role="cog$q" node="35H3ae$V0zs" resolve="art. 4 lid 2 aanhef en onder b, van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$B" role="cu0BP">
-      <property role="TrG5h" value="onderneming is een overheidsbedrijf" />
-      <node concept="cog_b" id="35H3ae$V0$C" role="coufz">
-        <property role="1FEjNx" value="gedupeerde onderneming: in Nederland gevestigde onderneming als bedoeld in artikel 5 van de Handelsregisterwet 2007, niet zijnde een overheidsbedrijf:" />
-        <ref role="cog$q" node="35H3ae$V0zm" resolve="art. 1 van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$D" role="cu0BP">
-      <property role="TrG5h" value="aanvraag aanvraag is ingediend in de periode van 27 maart 2020 tot en met 26 juni 2020" />
-      <node concept="cog_b" id="35H3ae$V0$E" role="coufz">
-        <property role="1FEjNx" value="Een aanvraag kan worden ingediend in de periode van 27 maart 2020 tot en met 26 juni 2020." />
-        <ref role="cog$q" node="35H3ae$V0zt" resolve="art. 4 lid 3 van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$F" role="cu0BP">
-      <property role="TrG5h" value="aanvraag tegemoetkoming in de schade geleden door de maatregelen ter bestrijding van de verdere verspreiding van COVID-19" />
-      <node concept="cog_b" id="35H3ae$V0$G" role="coufz">
-        <property role="1FEjNx" value="De minister verstrekt op aanvraag een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020:" />
-        <ref role="cog$q" node="35H3ae$V0zu" resolve="art. 2 lid 1 van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$I" role="cu0BP">
-      <property role="TrG5h" value="zelfstandige moet in Nederland woonachtig zijn" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$J" role="cu0BP">
-      <property role="TrG5h" value="bedrijf van zelfstandige is in Nederland gevestigd" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$K" role="cu0BP">
-      <property role="TrG5h" value="de hoofdzakelijke werkzaamheden van zelfstandige vinden plaats in Nederland" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$L" role="cu0BP">
-      <property role="TrG5h" value="zelfstandige voldoet aan het urencriterium" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$M" role="cu0BP">
-      <property role="TrG5h" value="zelfstandige is bedrijfsmatig actief geweest, waaronder ingeschreven zijn bij de Kamer van Koophandel, voordat deze regeling is aangekondigd, dus voor 17 maart 2020" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$N" role="cu0BP">
-      <property role="TrG5h" value="zelfstandige heeft naar waarheid verklaard dat het inkomen naar verwachting in de periode van ondersteuning minder zal bedragen dan het toepasselijke sociaal minimum als gevolg van de coronacrisis" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$O" role="cu0BP">
-      <property role="TrG5h" value="aanvraag aanvullende uitkering voor levensonderhoud op grond van de Tozo" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$P" role="cu0BP">
-      <property role="TrG5h" value="verzoek om lening voor bedrijfskapitaal op grond van de Tozo" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$Q" role="cu0BP">
-      <property role="TrG5h" value="zelfstandige heeft naar waarheid te verklaard en aannemelijk gemaakt dat er sprake is van liquiditeitsprobleem als gevolg van de coronacrisis" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$R" role="cu0BP">
-      <property role="TrG5h" value="aanvraag lening voor bedrijfskapitaal op grond van de Tozo" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$S" role="cu0BP">
-      <property role="TrG5h" value="in Nederland gevestigde onderneming als bedoeld in artikel 5 van de Handelsregisterwet 2007" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$T" role="cu0BP">
-      <property role="TrG5h" value="gedupeerde onderneming is een horecaonderneming" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$U" role="cu0BP">
-      <property role="TrG5h" value="gedupeerde onderneming heeft ten minste één vestiging met een ander adres dan het privéadres van de eigenaar van de onderneming" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$V" role="cu0BP">
-      <property role="TrG5h" value="gedupeerde onderneming heeft ten minste één vestiging met een ander adres dan het privéadres van de eigenaren van de onderneming" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0$Y" role="cu0BP">
-      <property role="TrG5h" value="gedupeerde onderneming heeft ten minste één horecagelegenheid in eigendom" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0_2" role="cu0BP">
-      <property role="TrG5h" value="gemeente" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0zQ" role="cu0BP">
-      <property role="TrG5h" value="onderneming is voor 15 maart 2020 ingeschreven in het KVK Handelsregister" />
-      <node concept="1zEXGL" id="35H3ae$V0_f" role="coNO9">
-        <node concept="1FQA6B" id="35H3ae$V0_g" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0_h" resolve="datum van inschrijving van onderneming in het KVK Handelsregister" />
-        </node>
-        <node concept="1zEXHp" id="35H3ae$V0_i" role="1zF96y">
-          <node concept="1zEXQX" id="35H3ae$V0_j" role="1zEXIt">
-            <property role="1zEXQW" value="20200315" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0_h" role="cu0BP">
-      <property role="TrG5h" value="datum van inschrijving van onderneming in het KVK Handelsregister" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0_k" role="cu0BP">
-      <property role="TrG5h" value="onderneming waar ten hoogste 250 personen werkzaam zijn, blijkend uit de inschrijving in het handelsregister op 15 maart 2020" />
-      <node concept="1zEXGL" id="35H3ae$V0_l" role="coNO9">
-        <node concept="1FQA6B" id="35H3ae$V0_m" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0_n" resolve="aantal personen dat werkt bij onderneming blijkend uit de inschrijving in het handelsregister op 15 maart 2020" />
-        </node>
-        <node concept="1zEXHp" id="35H3ae$V0_o" role="1zF96y">
-          <node concept="1zEXQX" id="35H3ae$V0_p" role="1zEXIt">
-            <property role="1zEXQW" value="251" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0_n" role="cu0BP">
-      <property role="TrG5h" value="aantal personen dat werkt bij onderneming blijkend uit de inschrijving in het handelsregister op 15 maart 2020" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0_q" role="cu0BP">
-      <property role="TrG5h" value="SBI-code hoofdactiviteit onderneming" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0zS" role="cu0BP">
-      <property role="TrG5h" value="ingeschreven onder een hoofdactiviteit die in bijlage 1 is opgenomen, met de daarbij behorende code van de Standaard Bedrijfsindeling" />
-      <node concept="cog_b" id="35H3ae$V0_Q" role="coufz">
-        <property role="1FEjNx" value="" />
-        <ref role="cog$q" node="35H3ae$V0zv" resolve="https://www.rvo.nl/subsidie-en-financieringswijzer/tegemoetkoming-schade-covid-19/vastgestelde-sbi-codes-0" />
-      </node>
-      <node concept="1zEXH2" id="35H3ae$V0_R" role="coNO9">
-        <node concept="1zEXGR" id="35H3ae$V0_S" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0_T" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0_U" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0_V" role="1zEXIt">
-              <property role="1zEXQN" value="0111" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0_W" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0_X" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0_Y" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0_Z" role="1zEXIt">
-              <property role="1zEXQN" value="0113" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0A0" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0A1" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0A2" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0A3" role="1zEXIt">
-              <property role="1zEXQN" value="01131" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0A4" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0A5" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0A6" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0A7" role="1zEXIt">
-              <property role="1zEXQN" value="01132" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0A8" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0A9" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Aa" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Ab" role="1zEXIt">
-              <property role="1zEXQN" value="01133" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Ac" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Ad" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ae" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Af" role="1zEXIt">
-              <property role="1zEXQN" value="01134" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Ag" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Ah" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ai" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Aj" role="1zEXIt">
-              <property role="1zEXQN" value="0116" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Ak" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Al" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Am" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0An" role="1zEXIt">
-              <property role="1zEXQN" value="0119" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Ao" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Ap" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Aq" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Ar" role="1zEXIt">
-              <property role="1zEXQN" value="01191" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0As" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0At" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Au" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Av" role="1zEXIt">
-              <property role="1zEXQN" value="01192" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Aw" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Ax" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ay" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Az" role="1zEXIt">
-              <property role="1zEXQN" value="01193" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0A$" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0A_" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0AA" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0AB" role="1zEXIt">
-              <property role="1zEXQN" value="01199" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0AC" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0AD" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0AE" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0AF" role="1zEXIt">
-              <property role="1zEXQN" value="0121" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0AG" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0AH" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0AI" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0AJ" role="1zEXIt">
-              <property role="1zEXQN" value="0124" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0AK" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0AL" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0AM" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0AN" role="1zEXIt">
-              <property role="1zEXQN" value="01241" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0AO" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0AP" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0AQ" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0AR" role="1zEXIt">
-              <property role="1zEXQN" value="01242" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0AS" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0AT" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0AU" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0AV" role="1zEXIt">
-              <property role="1zEXQN" value="0125" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0AW" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0AX" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0AY" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0AZ" role="1zEXIt">
-              <property role="1zEXQN" value="01251" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0B0" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0B1" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0B2" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0B3" role="1zEXIt">
-              <property role="1zEXQN" value="01252" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0B4" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0B5" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0B6" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0B7" role="1zEXIt">
-              <property role="1zEXQN" value="01253" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0B8" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0B9" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ba" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Bb" role="1zEXIt">
-              <property role="1zEXQN" value="01254" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Bc" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Bd" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Be" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Bf" role="1zEXIt">
-              <property role="1zEXQN" value="0127" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Bg" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Bh" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Bi" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Bj" role="1zEXIt">
-              <property role="1zEXQN" value="0128" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Bk" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Bl" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Bm" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Bn" role="1zEXIt">
-              <property role="1zEXQN" value="0129" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Bo" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Bp" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Bq" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Br" role="1zEXIt">
-              <property role="1zEXQN" value="0130" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Bs" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Bt" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Bu" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Bv" role="1zEXIt">
-              <property role="1zEXQN" value="01301" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Bw" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Bx" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0By" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Bz" role="1zEXIt">
-              <property role="1zEXQN" value="01302" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0B$" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0B_" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0BA" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0BB" role="1zEXIt">
-              <property role="1zEXQN" value="01303" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0BC" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0BD" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0BE" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0BF" role="1zEXIt">
-              <property role="1zEXQN" value="01304" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0BG" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0BH" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0BI" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0BJ" role="1zEXIt">
-              <property role="1zEXQN" value="01305" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0BK" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0BL" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0BM" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0BN" role="1zEXIt">
-              <property role="1zEXQN" value="01309" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0BO" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0BP" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0BQ" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0BR" role="1zEXIt">
-              <property role="1zEXQN" value="0141" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0BS" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0BT" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0BU" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0BV" role="1zEXIt">
-              <property role="1zEXQN" value="01411" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0BW" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0BX" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0BY" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0BZ" role="1zEXIt">
-              <property role="1zEXQN" value="01412" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0C0" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0C1" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0C2" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0C3" role="1zEXIt">
-              <property role="1zEXQN" value="0142" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0C4" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0C5" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0C6" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0C7" role="1zEXIt">
-              <property role="1zEXQN" value="01421" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0C8" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0C9" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ca" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Cb" role="1zEXIt">
-              <property role="1zEXQN" value="01422" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Cc" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Cd" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ce" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Cf" role="1zEXIt">
-              <property role="1zEXQN" value="0143" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Cg" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Ch" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ci" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Cj" role="1zEXIt">
-              <property role="1zEXQN" value="0145" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Ck" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Cl" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Cm" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Cn" role="1zEXIt">
-              <property role="1zEXQN" value="01451" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Co" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Cp" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Cq" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Cr" role="1zEXIt">
-              <property role="1zEXQN" value="01452" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Cs" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Ct" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Cu" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Cv" role="1zEXIt">
-              <property role="1zEXQN" value="0146" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Cw" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Cx" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Cy" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Cz" role="1zEXIt">
-              <property role="1zEXQN" value="01461" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0C$" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0C_" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0CA" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0CB" role="1zEXIt">
-              <property role="1zEXQN" value="01462" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0CC" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0CD" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0CE" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0CF" role="1zEXIt">
-              <property role="1zEXQN" value="01463" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0CG" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0CH" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0CI" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0CJ" role="1zEXIt">
-              <property role="1zEXQN" value="0147" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0CK" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0CL" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0CM" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0CN" role="1zEXIt">
-              <property role="1zEXQN" value="01471" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0CO" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0CP" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0CQ" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0CR" role="1zEXIt">
-              <property role="1zEXQN" value="01472" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0CS" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0CT" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0CU" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0CV" role="1zEXIt">
-              <property role="1zEXQN" value="01473" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0CW" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0CX" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0CY" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0CZ" role="1zEXIt">
-              <property role="1zEXQN" value="01479" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0D0" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0D1" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0D2" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0D3" role="1zEXIt">
-              <property role="1zEXQN" value="0149" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0D4" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0D5" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0D6" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0D7" role="1zEXIt">
-              <property role="1zEXQN" value="01491" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0D8" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0D9" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Da" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Db" role="1zEXIt">
-              <property role="1zEXQN" value="01499" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Dc" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Dd" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0De" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Df" role="1zEXIt">
-              <property role="1zEXQN" value="0150" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Dg" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Dh" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Di" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Dj" role="1zEXIt">
-              <property role="1zEXQN" value="0161" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Dk" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Dl" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Dm" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Dn" role="1zEXIt">
-              <property role="1zEXQN" value="0162" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Do" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Dp" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Dq" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Dr" role="1zEXIt">
-              <property role="1zEXQN" value="0163" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Ds" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Dt" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Du" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Dv" role="1zEXIt">
-              <property role="1zEXQN" value="0164" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Dw" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Dx" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Dy" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Dz" role="1zEXIt">
-              <property role="1zEXQN" value="0170" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0D$" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0D_" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0DA" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0DB" role="1zEXIt">
-              <property role="1zEXQN" value="4622" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0DC" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0DD" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0DE" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0DF" role="1zEXIt">
-              <property role="1zEXQN" value="46232" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0DG" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0DH" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0DI" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0DJ" role="1zEXIt">
-              <property role="1zEXQN" value="46241" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0DK" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0DL" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0DM" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0DN" role="1zEXIt">
-              <property role="1zEXQN" value="46242" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0DO" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0DP" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0DQ" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0DR" role="1zEXIt">
-              <property role="1zEXQN" value="46311" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0DS" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0DT" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0DU" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0DV" role="1zEXIt">
-              <property role="1zEXQN" value="46312" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0DW" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0DX" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0DY" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0DZ" role="1zEXIt">
-              <property role="1zEXQN" value="4632" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0E0" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0E1" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0E2" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0E3" role="1zEXIt">
-              <property role="1zEXQN" value="46331" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0E4" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0E5" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0E6" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0E7" role="1zEXIt">
-              <property role="1zEXQN" value="46332" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0E8" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0E9" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ea" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Eb" role="1zEXIt">
-              <property role="1zEXQN" value="4634" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Ec" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Ed" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ee" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Ef" role="1zEXIt">
-              <property role="1zEXQN" value="4636" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Eg" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Eh" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ei" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Ej" role="1zEXIt">
-              <property role="1zEXQN" value="4637" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Ek" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0El" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Em" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0En" role="1zEXIt">
-              <property role="1zEXQN" value="46381" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Eo" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Ep" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Eq" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Er" role="1zEXIt">
-              <property role="1zEXQN" value="46382" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Es" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Et" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Eu" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Ev" role="1zEXIt">
-              <property role="1zEXQN" value="46383" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Ew" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Ex" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ey" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Ez" role="1zEXIt">
-              <property role="1zEXQN" value="46384" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0E$" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0E_" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0EA" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0EB" role="1zEXIt">
-              <property role="1zEXQN" value="46389" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0EC" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0ED" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0EE" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0EF" role="1zEXIt">
-              <property role="1zEXQN" value="4639" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0EG" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0EH" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0EI" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0EJ" role="1zEXIt">
-              <property role="1zEXQN" value="46411" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0EK" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0EL" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0EM" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0EN" role="1zEXIt">
-              <property role="1zEXQN" value="46412" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0EO" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0EP" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0EQ" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0ER" role="1zEXIt">
-              <property role="1zEXQN" value="46421" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0ES" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0ET" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0EU" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0EV" role="1zEXIt">
-              <property role="1zEXQN" value="46422" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0EW" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0EX" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0EY" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0EZ" role="1zEXIt">
-              <property role="1zEXQN" value="46423" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0F0" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0F1" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0F2" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0F3" role="1zEXIt">
-              <property role="1zEXQN" value="46424" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0F4" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0F5" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0F6" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0F7" role="1zEXIt">
-              <property role="1zEXQN" value="46425" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0F8" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0F9" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Fa" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Fb" role="1zEXIt">
-              <property role="1zEXQN" value="46429" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Fc" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Fd" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Fe" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Ff" role="1zEXIt">
-              <property role="1zEXQN" value="46431" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Fg" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Fh" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Fi" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Fj" role="1zEXIt">
-              <property role="1zEXQN" value="46432" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Fk" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Fl" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Fm" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Fn" role="1zEXIt">
-              <property role="1zEXQN" value="46433" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Fo" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Fp" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Fq" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Fr" role="1zEXIt">
-              <property role="1zEXQN" value="46434" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Fs" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Ft" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Fu" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Fv" role="1zEXIt">
-              <property role="1zEXQN" value="46435" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Fw" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Fx" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Fy" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Fz" role="1zEXIt">
-              <property role="1zEXQN" value="46436" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0F$" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0F_" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0FA" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0FB" role="1zEXIt">
-              <property role="1zEXQN" value="46441" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0FC" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0FD" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0FE" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0FF" role="1zEXIt">
-              <property role="1zEXQN" value="46471" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0FG" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0FH" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0FI" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0FJ" role="1zEXIt">
-              <property role="1zEXQN" value="46472" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0FK" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0FL" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0FM" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0FN" role="1zEXIt">
-              <property role="1zEXQN" value="46473" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0FO" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0FP" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0FQ" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0FR" role="1zEXIt">
-              <property role="1zEXQN" value="4648" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0FS" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0FT" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0FU" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0FV" role="1zEXIt">
-              <property role="1zEXQN" value="46491" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0FW" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0FX" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0FY" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0FZ" role="1zEXIt">
-              <property role="1zEXQN" value="46492" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0G0" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0G1" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0G2" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0G3" role="1zEXIt">
-              <property role="1zEXQN" value="46493" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0G4" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0G5" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0G6" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0G7" role="1zEXIt">
-              <property role="1zEXQN" value="46494" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0G8" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0G9" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ga" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Gb" role="1zEXIt">
-              <property role="1zEXQN" value="46495" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Gc" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Gd" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ge" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Gf" role="1zEXIt">
-              <property role="1zEXQN" value="46496" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Gg" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Gh" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Gi" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Gj" role="1zEXIt">
-              <property role="1zEXQN" value="46497" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Gk" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Gl" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Gm" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Gn" role="1zEXIt">
-              <property role="1zEXQN" value="46498" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Go" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Gp" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Gq" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Gr" role="1zEXIt">
-              <property role="1zEXQN" value="46499" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Gs" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Gt" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Gu" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Gv" role="1zEXIt">
-              <property role="1zEXQN" value="4651" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Gw" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Gx" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Gy" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Gz" role="1zEXIt">
-              <property role="1zEXQN" value="4652" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0G$" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0G_" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0GA" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0GB" role="1zEXIt">
-              <property role="1zEXQN" value="4665" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0GC" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0GD" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0GE" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0GF" role="1zEXIt">
-              <property role="1zEXQN" value="4666" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0GG" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0GH" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0GI" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0GJ" role="1zEXIt">
-              <property role="1zEXQN" value="46901" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0GK" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0GL" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0GM" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0GN" role="1zEXIt">
-              <property role="1zEXQN" value="47191" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0GO" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0GP" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0GQ" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0GR" role="1zEXIt">
-              <property role="1zEXQN" value="47192" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0GS" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0GT" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0GU" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0GV" role="1zEXIt">
-              <property role="1zEXQN" value="4721" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0GW" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0GX" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0GY" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0GZ" role="1zEXIt">
-              <property role="1zEXQN" value="47221" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0H0" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0H1" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0H2" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0H3" role="1zEXIt">
-              <property role="1zEXQN" value="47222" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0H4" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0H5" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0H6" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0H7" role="1zEXIt">
-              <property role="1zEXQN" value="4723" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0H8" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0H9" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ha" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Hb" role="1zEXIt">
-              <property role="1zEXQN" value="47241" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Hc" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Hd" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0He" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Hf" role="1zEXIt">
-              <property role="1zEXQN" value="47242" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Hg" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Hh" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Hi" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Hj" role="1zEXIt">
-              <property role="1zEXQN" value="4725" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Hk" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Hl" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Hm" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Hn" role="1zEXIt">
-              <property role="1zEXQN" value="4726" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Ho" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Hp" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Hq" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Hr" role="1zEXIt">
-              <property role="1zEXQN" value="47291" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Hs" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Ht" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Hu" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Hv" role="1zEXIt">
-              <property role="1zEXQN" value="47292" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Hw" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Hx" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Hy" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Hz" role="1zEXIt">
-              <property role="1zEXQN" value="47293" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0H$" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0H_" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0HA" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0HB" role="1zEXIt">
-              <property role="1zEXQN" value="47299" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0HC" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0HD" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0HE" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0HF" role="1zEXIt">
-              <property role="1zEXQN" value="4730" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0HG" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0HH" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0HI" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0HJ" role="1zEXIt">
-              <property role="1zEXQN" value="4741" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0HK" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0HL" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0HM" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0HN" role="1zEXIt">
-              <property role="1zEXQN" value="4742" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0HO" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0HP" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0HQ" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0HR" role="1zEXIt">
-              <property role="1zEXQN" value="47431" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0HS" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0HT" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0HU" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0HV" role="1zEXIt">
-              <property role="1zEXQN" value="47432" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0HW" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0HX" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0HY" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0HZ" role="1zEXIt">
-              <property role="1zEXQN" value="47511" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0I0" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0I1" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0I2" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0I3" role="1zEXIt">
-              <property role="1zEXQN" value="47512" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0I4" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0I5" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0I6" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0I7" role="1zEXIt">
-              <property role="1zEXQN" value="47513" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0I8" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0I9" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ia" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Ib" role="1zEXIt">
-              <property role="1zEXQN" value="47521" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Ic" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Id" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ie" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0If" role="1zEXIt">
-              <property role="1zEXQN" value="47522" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Ig" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Ih" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ii" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Ij" role="1zEXIt">
-              <property role="1zEXQN" value="47523" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Ik" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Il" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Im" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0In" role="1zEXIt">
-              <property role="1zEXQN" value="47524" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Io" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Ip" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Iq" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Ir" role="1zEXIt">
-              <property role="1zEXQN" value="47525" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Is" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0It" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Iu" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Iv" role="1zEXIt">
-              <property role="1zEXQN" value="47526" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Iw" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Ix" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Iy" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Iz" role="1zEXIt">
-              <property role="1zEXQN" value="47527" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0I$" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0I_" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0IA" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0IB" role="1zEXIt">
-              <property role="1zEXQN" value="4753" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0IC" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0ID" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0IE" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0IF" role="1zEXIt">
-              <property role="1zEXQN" value="47541" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0IG" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0IH" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0II" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0IJ" role="1zEXIt">
-              <property role="1zEXQN" value="47542" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0IK" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0IL" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0IM" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0IN" role="1zEXIt">
-              <property role="1zEXQN" value="47543" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0IO" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0IP" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0IQ" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0IR" role="1zEXIt">
-              <property role="1zEXQN" value="47544" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0IS" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0IT" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0IU" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0IV" role="1zEXIt">
-              <property role="1zEXQN" value="47591" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0IW" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0IX" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0IY" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0IZ" role="1zEXIt">
-              <property role="1zEXQN" value="47592" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0J0" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0J1" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0J2" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0J3" role="1zEXIt">
-              <property role="1zEXQN" value="47593" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0J4" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0J5" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0J6" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0J7" role="1zEXIt">
-              <property role="1zEXQN" value="47594" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0J8" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0J9" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ja" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Jb" role="1zEXIt">
-              <property role="1zEXQN" value="47595" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Jc" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Jd" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Je" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Jf" role="1zEXIt">
-              <property role="1zEXQN" value="47596" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Jg" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Jh" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ji" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Jj" role="1zEXIt">
-              <property role="1zEXQN" value="47597" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Jk" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Jl" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Jm" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Jn" role="1zEXIt">
-              <property role="1zEXQN" value="4761" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Jo" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Jp" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Jq" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Jr" role="1zEXIt">
-              <property role="1zEXQN" value="4762" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Js" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Jt" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ju" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Jv" role="1zEXIt">
-              <property role="1zEXQN" value="4763" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Jw" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Jx" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Jy" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Jz" role="1zEXIt">
-              <property role="1zEXQN" value="47641" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0J$" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0J_" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0JA" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0JB" role="1zEXIt">
-              <property role="1zEXQN" value="47642" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0JC" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0JD" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0JE" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0JF" role="1zEXIt">
-              <property role="1zEXQN" value="47643" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0JG" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0JH" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0JI" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0JJ" role="1zEXIt">
-              <property role="1zEXQN" value="47644" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0JK" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0JL" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0JM" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0JN" role="1zEXIt">
-              <property role="1zEXQN" value="4765" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0JO" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0JP" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0JQ" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0JR" role="1zEXIt">
-              <property role="1zEXQN" value="47711" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0JS" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0JT" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0JU" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0JV" role="1zEXIt">
-              <property role="1zEXQN" value="47712" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0JW" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0JX" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0JY" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0JZ" role="1zEXIt">
-              <property role="1zEXQN" value="47713" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0K0" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0K1" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0K2" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0K3" role="1zEXIt">
-              <property role="1zEXQN" value="47714" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0K4" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0K5" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0K6" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0K7" role="1zEXIt">
-              <property role="1zEXQN" value="47715" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0K8" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0K9" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ka" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Kb" role="1zEXIt">
-              <property role="1zEXQN" value="47716" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Kc" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Kd" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ke" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Kf" role="1zEXIt">
-              <property role="1zEXQN" value="47717" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Kg" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Kh" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ki" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Kj" role="1zEXIt">
-              <property role="1zEXQN" value="47718" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Kk" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Kl" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Km" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Kn" role="1zEXIt">
-              <property role="1zEXQN" value="47721" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Ko" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Kp" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Kq" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Kr" role="1zEXIt">
-              <property role="1zEXQN" value="47722" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Ks" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Kt" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ku" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Kv" role="1zEXIt">
-              <property role="1zEXQN" value="47742" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Kw" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Kx" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ky" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Kz" role="1zEXIt">
-              <property role="1zEXQN" value="4775" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0K$" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0K_" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0KA" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0KB" role="1zEXIt">
-              <property role="1zEXQN" value="47761" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0KC" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0KD" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0KE" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0KF" role="1zEXIt">
-              <property role="1zEXQN" value="47762" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0KG" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0KH" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0KI" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0KJ" role="1zEXIt">
-              <property role="1zEXQN" value="47763" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0KK" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0KL" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0KM" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0KN" role="1zEXIt">
-              <property role="1zEXQN" value="4777" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0KO" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0KP" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0KQ" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0KR" role="1zEXIt">
-              <property role="1zEXQN" value="47781" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0KS" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0KT" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0KU" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0KV" role="1zEXIt">
-              <property role="1zEXQN" value="47782" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0KW" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0KX" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0KY" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0KZ" role="1zEXIt">
-              <property role="1zEXQN" value="47783" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0L0" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0L1" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0L2" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0L3" role="1zEXIt">
-              <property role="1zEXQN" value="47789" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0L4" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0L5" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0L6" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0L7" role="1zEXIt">
-              <property role="1zEXQN" value="47791" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0L8" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0L9" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0La" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Lb" role="1zEXIt">
-              <property role="1zEXQN" value="47792" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Lc" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Ld" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Le" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Lf" role="1zEXIt">
-              <property role="1zEXQN" value="47793" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Lg" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Lh" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Li" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Lj" role="1zEXIt">
-              <property role="1zEXQN" value="47811" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Lk" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Ll" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Lm" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Ln" role="1zEXIt">
-              <property role="1zEXQN" value="47819" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Lo" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Lp" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Lq" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Lr" role="1zEXIt">
-              <property role="1zEXQN" value="4782" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Ls" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Lt" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Lu" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Lv" role="1zEXIt">
-              <property role="1zEXQN" value="47891" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Lw" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Lx" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ly" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Lz" role="1zEXIt">
-              <property role="1zEXQN" value="47892" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0L$" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0L_" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0LA" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0LB" role="1zEXIt">
-              <property role="1zEXQN" value="47899" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0LC" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0LD" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0LE" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0LF" role="1zEXIt">
-              <property role="1zEXQN" value="4932" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0LG" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0LH" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0LI" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0LJ" role="1zEXIt">
-              <property role="1zEXQN" value="49391" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0LK" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0LL" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0LM" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0LN" role="1zEXIt">
-              <property role="1zEXQN" value="5030" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0LO" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0LP" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0LQ" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0LR" role="1zEXIt">
-              <property role="1zEXQN" value="5221" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0LS" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0LT" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0LU" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0LV" role="1zEXIt">
-              <property role="1zEXQN" value="5222" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0LW" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0LX" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0LY" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0LZ" role="1zEXIt">
-              <property role="1zEXQN" value="5223" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0M0" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0M1" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0M2" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0M3" role="1zEXIt">
-              <property role="1zEXQN" value="55101" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0M4" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0M5" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0M6" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0M7" role="1zEXIt">
-              <property role="1zEXQN" value="55102" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0M8" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0M9" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ma" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Mb" role="1zEXIt">
-              <property role="1zEXQN" value="56101" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Mc" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Md" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Me" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Mf" role="1zEXIt">
-              <property role="1zEXQN" value="56102" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Mg" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Mh" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Mi" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Mj" role="1zEXIt">
-              <property role="1zEXQN" value="55201" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Mk" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Ml" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Mm" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Mn" role="1zEXIt">
-              <property role="1zEXQN" value="55202" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Mo" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Mp" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Mq" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Mr" role="1zEXIt">
-              <property role="1zEXQN" value="5530" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Ms" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Mt" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Mu" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Mv" role="1zEXIt">
-              <property role="1zEXQN" value="5621" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Mw" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Mx" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0My" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Mz" role="1zEXIt">
-              <property role="1zEXQN" value="5629" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0M$" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0M_" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0MA" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0MB" role="1zEXIt">
-              <property role="1zEXQN" value="5630" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0MC" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0MD" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0ME" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0MF" role="1zEXIt">
-              <property role="1zEXQN" value="59111" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0MG" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0MH" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0MI" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0MJ" role="1zEXIt">
-              <property role="1zEXQN" value="59112" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0MK" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0ML" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0MM" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0MN" role="1zEXIt">
-              <property role="1zEXQN" value="5912" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0MO" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0MP" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0MQ" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0MR" role="1zEXIt">
-              <property role="1zEXQN" value="5913" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0MS" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0MT" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0MU" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0MV" role="1zEXIt">
-              <property role="1zEXQN" value="5914" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0MW" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0MX" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0MY" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0MZ" role="1zEXIt">
-              <property role="1zEXQN" value="5920" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0N0" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0N1" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0N2" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0N3" role="1zEXIt">
-              <property role="1zEXQN" value="74201" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0N4" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0N5" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0N6" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0N7" role="1zEXIt">
-              <property role="1zEXQN" value="74202" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0N8" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0N9" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Na" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Nb" role="1zEXIt">
-              <property role="1zEXQN" value="74203" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Nc" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Nd" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ne" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Nf" role="1zEXIt">
-              <property role="1zEXQN" value="7430" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Ng" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Nh" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ni" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Nj" role="1zEXIt">
-              <property role="1zEXQN" value="77111" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Nk" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Nl" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Nm" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Nn" role="1zEXIt">
-              <property role="1zEXQN" value="7712" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0No" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Np" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Nq" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Nr" role="1zEXIt">
-              <property role="1zEXQN" value="7721" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Ns" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Nt" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Nu" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Nv" role="1zEXIt">
-              <property role="1zEXQN" value="7722" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Nw" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Nx" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ny" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Nz" role="1zEXIt">
-              <property role="1zEXQN" value="77291" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0N$" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0N_" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0NA" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0NB" role="1zEXIt">
-              <property role="1zEXQN" value="77292" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0NC" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0ND" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0NE" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0NF" role="1zEXIt">
-              <property role="1zEXQN" value="77299" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0NG" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0NH" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0NI" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0NJ" role="1zEXIt">
-              <property role="1zEXQN" value="7733" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0NK" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0NL" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0NM" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0NN" role="1zEXIt">
-              <property role="1zEXQN" value="7734" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0NO" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0NP" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0NQ" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0NR" role="1zEXIt">
-              <property role="1zEXQN" value="7735" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0NS" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0NT" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0NU" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0NV" role="1zEXIt">
-              <property role="1zEXQN" value="77391" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0NW" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0NX" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0NY" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0NZ" role="1zEXIt">
-              <property role="1zEXQN" value="77399" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0O0" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0O1" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0O2" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0O3" role="1zEXIt">
-              <property role="1zEXQN" value="78201" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0O4" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0O5" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0O6" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0O7" role="1zEXIt">
-              <property role="1zEXQN" value="78202" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0O8" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0O9" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Oa" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Ob" role="1zEXIt">
-              <property role="1zEXQN" value="7911" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Oc" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Od" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Oe" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Of" role="1zEXIt">
-              <property role="1zEXQN" value="7912" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Og" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Oh" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Oi" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Oj" role="1zEXIt">
-              <property role="1zEXQN" value="7990" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Ok" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Ol" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Om" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0On" role="1zEXIt">
-              <property role="1zEXQN" value="8010" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Oo" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Op" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Oq" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Or" role="1zEXIt">
-              <property role="1zEXQN" value="8110" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Os" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Ot" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ou" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Ov" role="1zEXIt">
-              <property role="1zEXQN" value="8230" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Ow" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Ox" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Oy" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Oz" role="1zEXIt">
-              <property role="1zEXQN" value="85511" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0O$" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0O_" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0OA" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0OB" role="1zEXIt">
-              <property role="1zEXQN" value="85519" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0OC" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0OD" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0OE" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0OF" role="1zEXIt">
-              <property role="1zEXQN" value="85521" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0OG" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0OH" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0OI" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0OJ" role="1zEXIt">
-              <property role="1zEXQN" value="85522" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0OK" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0OL" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0OM" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0ON" role="1zEXIt">
-              <property role="1zEXQN" value="8553" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0OO" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0OP" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0OQ" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0OR" role="1zEXIt">
-              <property role="1zEXQN" value="85592" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0OS" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0OT" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0OU" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0OV" role="1zEXIt">
-              <property role="1zEXQN" value="8560" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0OW" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0OX" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0OY" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0OZ" role="1zEXIt">
-              <property role="1zEXQN" value="86104" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0P0" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0P1" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0P2" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0P3" role="1zEXIt">
-              <property role="1zEXQN" value="86222" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0P4" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0P5" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0P6" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0P7" role="1zEXIt">
-              <property role="1zEXQN" value="86231" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0P8" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0P9" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Pa" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Pb" role="1zEXIt">
-              <property role="1zEXQN" value="86232" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Pc" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Pd" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Pe" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Pf" role="1zEXIt">
-              <property role="1zEXQN" value="86911" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Pg" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Ph" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Pi" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Pj" role="1zEXIt">
-              <property role="1zEXQN" value="86912" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Pk" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Pl" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Pm" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Pn" role="1zEXIt">
-              <property role="1zEXQN" value="86913" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Po" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Pp" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Pq" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Pr" role="1zEXIt">
-              <property role="1zEXQN" value="86919" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Ps" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Pt" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Pu" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Pv" role="1zEXIt">
-              <property role="1zEXQN" value="90011" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Pw" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Px" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Py" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Pz" role="1zEXIt">
-              <property role="1zEXQN" value="90012" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0P$" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0P_" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0PA" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0PB" role="1zEXIt">
-              <property role="1zEXQN" value="90013" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0PC" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0PD" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0PE" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0PF" role="1zEXIt">
-              <property role="1zEXQN" value="9002" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0PG" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0PH" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0PI" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0PJ" role="1zEXIt">
-              <property role="1zEXQN" value="90041" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0PK" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0PL" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0PM" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0PN" role="1zEXIt">
-              <property role="1zEXQN" value="90042" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0PO" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0PP" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0PQ" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0PR" role="1zEXIt">
-              <property role="1zEXQN" value="91011" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0PS" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0PT" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0PU" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0PV" role="1zEXIt">
-              <property role="1zEXQN" value="91012" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0PW" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0PX" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0PY" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0PZ" role="1zEXIt">
-              <property role="1zEXQN" value="91019" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Q0" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Q1" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Q2" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Q3" role="1zEXIt">
-              <property role="1zEXQN" value="91021" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Q4" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Q5" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Q6" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Q7" role="1zEXIt">
-              <property role="1zEXQN" value="91022" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Q8" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Q9" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Qa" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Qb" role="1zEXIt">
-              <property role="1zEXQN" value="9103" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Qc" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Qd" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Qe" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Qf" role="1zEXIt">
-              <property role="1zEXQN" value="91041" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Qg" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Qh" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Qi" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Qj" role="1zEXIt">
-              <property role="1zEXQN" value="91042" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Qk" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Ql" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Qm" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Qn" role="1zEXIt">
-              <property role="1zEXQN" value="92001" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Qo" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Qp" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Qq" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Qr" role="1zEXIt">
-              <property role="1zEXQN" value="92009" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Qs" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Qt" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Qu" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Qv" role="1zEXIt">
-              <property role="1zEXQN" value="93111" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Qw" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Qx" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Qy" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Qz" role="1zEXIt">
-              <property role="1zEXQN" value="93112" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Q$" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Q_" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0QA" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0QB" role="1zEXIt">
-              <property role="1zEXQN" value="93113" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0QC" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0QD" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0QE" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0QF" role="1zEXIt">
-              <property role="1zEXQN" value="93119" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0QG" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0QH" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0QI" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0QJ" role="1zEXIt">
-              <property role="1zEXQN" value="93121" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0QK" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0QL" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0QM" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0QN" role="1zEXIt">
-              <property role="1zEXQN" value="93122" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0QO" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0QP" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0QQ" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0QR" role="1zEXIt">
-              <property role="1zEXQN" value="93123" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0QS" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0QT" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0QU" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0QV" role="1zEXIt">
-              <property role="1zEXQN" value="93124" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0QW" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0QX" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0QY" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0QZ" role="1zEXIt">
-              <property role="1zEXQN" value="93125" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0R0" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0R1" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0R2" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0R3" role="1zEXIt">
-              <property role="1zEXQN" value="93126" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0R4" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0R5" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0R6" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0R7" role="1zEXIt">
-              <property role="1zEXQN" value="93127" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0R8" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0R9" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ra" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Rb" role="1zEXIt">
-              <property role="1zEXQN" value="93128" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Rc" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Rd" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Re" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Rf" role="1zEXIt">
-              <property role="1zEXQN" value="93129" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Rg" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Rh" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ri" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Rj" role="1zEXIt">
-              <property role="1zEXQN" value="9313" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Rk" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Rl" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Rm" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Rn" role="1zEXIt">
-              <property role="1zEXQN" value="93141" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Ro" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Rp" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Rq" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Rr" role="1zEXIt">
-              <property role="1zEXQN" value="93142" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Rs" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Rt" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ru" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Rv" role="1zEXIt">
-              <property role="1zEXQN" value="93143" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Rw" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Rx" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ry" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Rz" role="1zEXIt">
-              <property role="1zEXQN" value="93144" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0R$" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0R_" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0RA" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0RB" role="1zEXIt">
-              <property role="1zEXQN" value="93145" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0RC" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0RD" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0RE" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0RF" role="1zEXIt">
-              <property role="1zEXQN" value="93146" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0RG" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0RH" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0RI" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0RJ" role="1zEXIt">
-              <property role="1zEXQN" value="93149" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0RK" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0RL" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0RM" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0RN" role="1zEXIt">
-              <property role="1zEXQN" value="93151" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0RO" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0RP" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0RQ" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0RR" role="1zEXIt">
-              <property role="1zEXQN" value="93152" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0RS" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0RT" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0RU" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0RV" role="1zEXIt">
-              <property role="1zEXQN" value="93192" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0RW" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0RX" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0RY" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0RZ" role="1zEXIt">
-              <property role="1zEXQN" value="93193" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0S0" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0S1" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0S2" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0S3" role="1zEXIt">
-              <property role="1zEXQN" value="93195" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0S4" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0S5" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0S6" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0S7" role="1zEXIt">
-              <property role="1zEXQN" value="93199" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0S8" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0S9" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Sa" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Sb" role="1zEXIt">
-              <property role="1zEXQN" value="93211" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Sc" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Sd" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Se" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Sf" role="1zEXIt">
-              <property role="1zEXQN" value="93212" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Sg" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Sh" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Si" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Sj" role="1zEXIt">
-              <property role="1zEXQN" value="93291" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Sk" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Sl" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Sm" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Sn" role="1zEXIt">
-              <property role="1zEXQN" value="93299" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0So" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Sp" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Sq" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Sr" role="1zEXIt">
-              <property role="1zEXQN" value="9511" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Ss" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0St" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Su" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Sv" role="1zEXIt">
-              <property role="1zEXQN" value="9512" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Sw" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Sx" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Sy" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Sz" role="1zEXIt">
-              <property role="1zEXQN" value="9521" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0S$" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0S_" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0SA" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0SB" role="1zEXIt">
-              <property role="1zEXQN" value="9522" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0SC" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0SD" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0SE" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0SF" role="1zEXIt">
-              <property role="1zEXQN" value="9523" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0SG" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0SH" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0SI" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0SJ" role="1zEXIt">
-              <property role="1zEXQN" value="9524" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0SK" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0SL" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0SM" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0SN" role="1zEXIt">
-              <property role="1zEXQN" value="9525" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0SO" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0SP" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0SQ" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0SR" role="1zEXIt">
-              <property role="1zEXQN" value="9529" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0SS" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0ST" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0SU" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0SV" role="1zEXIt">
-              <property role="1zEXQN" value="96011" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0SW" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0SX" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0SY" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0SZ" role="1zEXIt">
-              <property role="1zEXQN" value="96012" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0T0" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0T1" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0T2" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0T3" role="1zEXIt">
-              <property role="1zEXQN" value="96013" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0T4" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0T5" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0T6" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0T7" role="1zEXIt">
-              <property role="1zEXQN" value="96021" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0T8" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0T9" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ta" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Tb" role="1zEXIt">
-              <property role="1zEXQN" value="96022" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Tc" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Td" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Te" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Tf" role="1zEXIt">
-              <property role="1zEXQN" value="9604" />
-            </node>
-          </node>
-        </node>
-        <node concept="1zEXGR" id="35H3ae$V0Tg" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Th" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0_q" resolve="SBI-code hoofdactiviteit onderneming" />
-          </node>
-          <node concept="1zEXHp" id="35H3ae$V0Ti" role="1zF96y">
-            <node concept="1zEXQZ" id="35H3ae$V0Tj" role="1zEXIt">
-              <property role="1zEXQN" value="9609" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0Tl" role="cu0BP">
-      <property role="TrG5h" value="indienen" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0TC" role="cu0BP">
-      <property role="TrG5h" value="gedupeerde onderneming huurt ten minste één horecagelegenheid" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
-    <node concept="cu0$f" id="35H3ae$V0TE" role="cu0BP">
-      <property role="TrG5h" value="gedupeerde onderneming pacht ten minste één horecagelegenheid" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
-    <node concept="mu5$5" id="35H3ae$V0Tk" role="m3s6u">
-      <property role="TrG5h" value="indienen aanvraag tegemoetkoming in de schade geleden door de maatregelen ter bestrijding van de verdere verspreiding van COVID-19" />
-      <property role="3ANC2_" value="Deze act ondersteunt het indienen van een aanvraag die automatisch ingewilligd kan worden, de vraag is wat er moet gebeuren met aanvragen die onvolledig zijn of niet aan alle voorwaarden voldoen." />
-      <ref role="mu3Ux" node="35H3ae$V0Tl" resolve="indienen" />
-      <ref role="mu5$L" node="35H3ae$V0zL" resolve="gedupeerde onderneming" />
-      <ref role="mu3Ts" node="35H3ae$V0zx" resolve="verzoek tegemoetkoming in de schade geleden door de maatregelen ter bestrijding van de verdere verspreiding van COVID-19" />
-      <ref role="mu3To" node="35H3ae$V0zK" resolve="Minister van Economische Zaken en Klimaat" />
-      <node concept="1FQA6B" id="35H3ae$V0Tm" role="mu1cf">
-        <ref role="1FQA6$" node="35H3ae$V0$F" resolve="aanvraag tegemoetkoming in de schade geleden door de maatregelen ter bestrijding van de verdere verspreiding van COVID-19" />
-      </node>
-      <node concept="cog_b" id="35H3ae$V0Tn" role="mu1ck">
-        <property role="1FEjNx" value="De minister verstrekt op aanvraag een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020:" />
-        <ref role="cog$q" node="35H3ae$V0zu" resolve="art. 2 lid 1 van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-      </node>
-      <node concept="1zEWgd" id="35H3ae$V0To" role="mu3T0">
-        <node concept="1zEXH5" id="35H3ae$V0Tp" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Tq" role="1zF96A">
-            <ref role="1FQA6$" node="35H3ae$V0zX" resolve="gedupeerde onderneming verkeert in staat van faillissement dan wel bij de rechtbank is een verzoek tot verlening van surseance van betaling aan de onderneming ingediend" />
-          </node>
-        </node>
-        <node concept="1FQA6B" id="35H3ae$V0Tr" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0$c" resolve="aanvraag omvat het nummer waarmee de gedupeerde onderneming geregistreerd is bij de Kamer van Koophandel" />
-        </node>
-        <node concept="1FQA6B" id="35H3ae$V0Ts" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0$r" resolve="aanvraag omvat gegevens over de contactpersoon bij de gedupeerde onderneming" />
-        </node>
-        <node concept="1FQA6B" id="35H3ae$V0Tt" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0$f" resolve="aanvraag omvat het post- en bezoekadres en het rekeningnummer dat op naam van de gedupeerde onderneming staat" />
-        </node>
-        <node concept="1zEXH5" id="35H3ae$V0Tu" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0Tv" role="1zF96A">
-            <ref role="1FQA6$" node="35H3ae$V0$B" resolve="onderneming is een overheidsbedrijf" />
-          </node>
-        </node>
-        <node concept="1FQA6B" id="35H3ae$V0Tw" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0$S" resolve="in Nederland gevestigde onderneming als bedoeld in artikel 5 van de Handelsregisterwet 2007" />
-        </node>
-        <node concept="1FQA6B" id="35H3ae$V0Tx" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0zN" resolve="onderneming die op 15 maart 2020 in het handelsregister stond ingeschreven die op 15 maart 2020 in het handelsregister stond ingeschreven onder een hoofdactiviteit die in bijlage 1 is opgenomen, met de daarbij behorende code van de Standaard Bedrijfsindeling" />
-        </node>
-        <node concept="1FQA6B" id="35H3ae$V0Ty" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0_k" resolve="onderneming waar ten hoogste 250 personen werkzaam zijn, blijkend uit de inschrijving in het handelsregister op 15 maart 2020" />
-        </node>
-        <node concept="1zEXH2" id="35H3ae$V0Tz" role="1zF96y">
-          <node concept="1zEWgd" id="35H3ae$V0T$" role="1zF96y">
-            <node concept="1FQA6B" id="35H3ae$V0T_" role="1zF96y">
-              <ref role="1FQA6$" node="35H3ae$V0$T" resolve="gedupeerde onderneming is een horecaonderneming" />
-            </node>
-            <node concept="1zEXH2" id="35H3ae$V0TA" role="1zF96y">
-              <node concept="1FQA6B" id="35H3ae$V0TB" role="1zF96y">
-                <ref role="1FQA6$" node="35H3ae$V0TC" resolve="gedupeerde onderneming huurt ten minste één horecagelegenheid" />
-              </node>
-              <node concept="1FQA6B" id="35H3ae$V0TD" role="1zF96y">
-                <ref role="1FQA6$" node="35H3ae$V0TE" resolve="gedupeerde onderneming pacht ten minste één horecagelegenheid" />
-              </node>
-              <node concept="1FQA6B" id="35H3ae$V0TF" role="1zF96y">
-                <ref role="1FQA6$" node="35H3ae$V0$Y" resolve="gedupeerde onderneming heeft ten minste één horecagelegenheid in eigendom" />
-              </node>
-            </node>
-          </node>
-          <node concept="1zEWgd" id="35H3ae$V0TG" role="1zF96y">
-            <node concept="1zEXH5" id="35H3ae$V0TH" role="1zF96y">
-              <node concept="1FQA6B" id="35H3ae$V0TI" role="1zF96A">
-                <ref role="1FQA6$" node="35H3ae$V0$T" resolve="gedupeerde onderneming is een horecaonderneming" />
-              </node>
-            </node>
-            <node concept="1zEXH2" id="35H3ae$V0TJ" role="1zF96y">
-              <node concept="1FQA6B" id="35H3ae$V0TK" role="1zF96y">
-                <ref role="1FQA6$" node="35H3ae$V0$U" resolve="gedupeerde onderneming heeft ten minste één vestiging met een ander adres dan het privéadres van de eigenaar van de onderneming" />
-              </node>
-              <node concept="1FQA6B" id="35H3ae$V0TL" role="1zF96y">
-                <ref role="1FQA6$" node="35H3ae$V0$V" resolve="gedupeerde onderneming heeft ten minste één vestiging met een ander adres dan het privéadres van de eigenaren van de onderneming" />
+  <node concept="cu0$2" id="5f_6pyWMzHf">
+    <property role="TrG5h" value="Test" />
+    <node concept="cu0$f" id="7FNYdkaPTc3" role="cu0BP">
+      <property role="TrG5h" value="Person" />
+      <property role="3ANC2_" value="Person Explanation" />
+      <node concept="37mRI7" id="7FNYdkaPTc4" role="lGtFl">
+        <node concept="37mRIm" id="7FNYdkaPTc5" role="37mRID">
+          <property role="37mO49" value="6045266218612401772" />
+          <node concept="gqqVs" id="7FNYdkaPTc6" role="37mO4d">
+            <property role="gqqTZ" value="0.0" />
+            <property role="gqqTW" value="0.0" />
+            <property role="gqqTX" value="36.0" />
+            <property role="gqqTy" value="29.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTc7" role="37mRID">
+          <property role="37mO49" value="6045266218612401774" />
+          <node concept="gqqVs" id="7FNYdkaPTc8" role="37mO4d">
+            <property role="gqqTZ" value="0.0" />
+            <property role="gqqTW" value="0.0" />
+            <property role="gqqTX" value="44.0" />
+            <property role="gqqTy" value="29.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTc9" role="37mRID">
+          <property role="37mO49" value="6045266218612408423" />
+          <node concept="gqqVs" id="7FNYdkaPTca" role="37mO4d">
+            <property role="gqqTZ" value="12.000100000000003" />
+            <property role="gqqTW" value="12.0" />
+            <property role="gqqTX" value="36.0" />
+            <property role="gqqTy" value="29.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTcb" role="37mRID">
+          <property role="37mO49" value="6045266218612408448" />
+          <node concept="gqqVs" id="7FNYdkaPTcc" role="37mO4d">
+            <property role="gqqTZ" value="12.000100000000003" />
+            <property role="gqqTW" value="59.0" />
+            <property role="gqqTX" value="76.0" />
+            <property role="gqqTy" value="29.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTcd" role="37mRID">
+          <property role="37mO49" value="6045266218613298631" />
+          <node concept="gqqVs" id="7FNYdkaPTce" role="37mO4d">
+            <property role="gqqTZ" value="204.0004967285156" />
+            <property role="gqqTW" value="200.0" />
+            <property role="gqqTX" value="36.0" />
+            <property role="gqqTy" value="29.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTcf" role="37mRID">
+          <property role="37mO49" value="6045266218613298671" />
+          <node concept="gqqVs" id="7FNYdkaPTcg" role="37mO4d">
+            <property role="gqqTZ" value="120.00049672851563" />
+            <property role="gqqTW" value="12.0" />
+            <property role="gqqTX" value="74.0" />
+            <property role="gqqTy" value="27.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTch" role="37mRID">
+          <property role="37mO49" value="6045266218614365118" />
+          <node concept="gqqVs" id="7FNYdkaPTci" role="37mO4d">
+            <property role="gqqTZ" value="106.00029836425782" />
+            <property role="gqqTW" value="106.0" />
+            <property role="gqqTX" value="36.0" />
+            <property role="gqqTy" value="29.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTcj" role="37mRID">
+          <property role="37mO49" value="6045266218615070021" />
+          <node concept="gqqVs" id="7FNYdkaPTck" role="37mO4d">
+            <property role="gqqTZ" value="86.00029836425782" />
+            <property role="gqqTW" value="59.0" />
+            <property role="gqqTX" value="84.0" />
+            <property role="gqqTy" value="29.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTcl" role="37mRID">
+          <property role="37mO49" value="6045266218615070026" />
+          <node concept="gqqVs" id="7FNYdkaPTcm" role="37mO4d">
+            <property role="gqqTZ" value="302.0007103515625" />
+            <property role="gqqTW" value="12.0" />
+            <property role="gqqTX" value="84.0" />
+            <property role="gqqTy" value="29.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTcn" role="37mRID">
+          <property role="37mO49" value="6045266218613298631PARENT_REL" />
+          <node concept="2VclpC" id="7FNYdkaPTco" role="37mO4d">
+            <node concept="2VclrF" id="7FNYdkaPTcp" role="2Vcluh">
+              <property role="2Vclpx" value="66.00019836425781" />
+              <property role="2Vclpz" value="120.50005" />
+            </node>
+            <node concept="2VclrF" id="7FNYdkaPTcq" role="2Vcluh">
+              <property role="2Vclpx" value="66.00019836425781" />
+              <property role="2Vclpz" value="26.50005" />
+            </node>
+            <node concept="3ul5H1" id="7FNYdkaPTcr" role="3ul5Gx">
+              <property role="3ul5GH" value="endRole" />
+              <node concept="3wpmZ1" id="7FNYdkaPTcs" role="3ul5Gz">
+                <node concept="2VclrF" id="7FNYdkaPTct" role="3wpmZR">
+                  <property role="2Vclpx" value="79.00019918212891" />
+                  <property role="2Vclpz" value="73.5" />
+                </node>
+                <node concept="2VclrF" id="7FNYdkaPTcu" role="3wpmZP">
+                  <property role="2Vclpx" value="0.0" />
+                  <property role="2Vclpz" value="0.0" />
+                </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="1FQA6B" id="35H3ae$V0TM" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0$6" resolve="tegemoetkoming kan worden verstrekt op grond van de algemene de-minimisverordening" />
-        </node>
-        <node concept="1FQA6B" id="35H3ae$V0TN" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0zT" resolve="gedupeerde onderneming verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020 ten minste € 4000,- aan omzetverlies te lijden als gevolg van de maatregelen ter bestrijding van de verdere verspreiding van COVID-19" />
-        </node>
-        <node concept="1FQA6B" id="35H3ae$V0TO" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0zV" resolve="gedupeerde onderneming verwacht ten minste € 4.000,- aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19" />
-        </node>
-        <node concept="1FQA6B" id="35H3ae$V0TP" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0$D" resolve="aanvraag aanvraag is ingediend in de periode van 27 maart 2020 tot en met 26 juni 2020" />
-        </node>
-      </node>
-    </node>
-    <node concept="2cz0EU" id="35H3ae$V0TT" role="2cADMD">
-      <property role="TrG5h" value="zelfstandige heeft inlichtingenplicht op grond van art. 17 Participatiewet" />
-      <property role="3ANC2_" value="Deze duty wordt ook gecreëerd door &lt;&lt;indienen verzoek om lening voor bedrijfskapitaal op grond van de Tozo&gt;&gt;, het is nu niet mogelijk meer dan één creating acts te registreren." />
-      <ref role="2cBO5V" node="35H3ae$V0TQ" resolve="indienen verzoek om aanvullende uitkering voor levensonderhoud op grond van de Tozo" />
-      <ref role="2cz2Wc" node="35H3ae$V0zz" resolve="zelfstandige" />
-      <ref role="2cz2We" node="35H3ae$V0_2" resolve="gemeente" />
-    </node>
-    <node concept="mu5$5" id="35H3ae$V0TQ" role="m3s6u">
-      <property role="TrG5h" value="indienen verzoek om aanvullende uitkering voor levensonderhoud op grond van de Tozo" />
-      <ref role="mu3Ux" node="35H3ae$V0Tl" resolve="indienen" />
-      <ref role="mu5$L" node="35H3ae$V0zz" resolve="zelfstandige" />
-      <ref role="mu3Ts" node="35H3ae$V0zy" resolve="verzoek om aanvullende uitkering voor levensonderhoud op grond van de Tozo" />
-      <ref role="mu3To" node="35H3ae$V0_2" resolve="gemeente" />
-      <node concept="1FQA6B" id="35H3ae$V0TR" role="mu1cf">
-        <ref role="1FQA6$" node="35H3ae$V0$O" resolve="aanvraag aanvullende uitkering voor levensonderhoud op grond van de Tozo" />
-      </node>
-      <node concept="2cz2WB" id="35H3ae$V0TS" role="mu1cf">
-        <ref role="2cz2WA" node="35H3ae$V0TT" resolve="zelfstandige heeft inlichtingenplicht op grond van art. 17 Participatiewet" />
-      </node>
-      <node concept="cog_b" id="35H3ae$V0TU" role="mu1ck">
-        <property role="1FEjNx" value="Ondersteuning op grond van de Tozo kan worden aangevraagd in de vorm van een bijstandsuitkering voor levensonderhoud én in de vorm van een lening voor bedrijfskapitaal." />
-        <ref role="cog$q" node="35H3ae$V0zw" resolve="Brief staatssecretaris SZW van 27 maart 2020: https://zoek.officielebekendmakingen.nl/kst-35420-11.html (voorlopige bron)" />
-      </node>
-      <node concept="1zEWgd" id="35H3ae$V0TV" role="mu3T0">
-        <node concept="1FQA6B" id="35H3ae$V0TW" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0$I" resolve="zelfstandige moet in Nederland woonachtig zijn" />
-        </node>
-        <node concept="1zEXH2" id="35H3ae$V0TX" role="1zF96y">
-          <node concept="1FQA6B" id="35H3ae$V0TY" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0$J" resolve="bedrijf van zelfstandige is in Nederland gevestigd" />
-          </node>
-          <node concept="1FQA6B" id="35H3ae$V0TZ" role="1zF96y">
-            <ref role="1FQA6$" node="35H3ae$V0$K" resolve="de hoofdzakelijke werkzaamheden van zelfstandige vinden plaats in Nederland" />
+        <node concept="37mRIm" id="7FNYdkaPTcv" role="37mRID">
+          <property role="37mO49" value="6045266218615175378" />
+          <node concept="gqqVs" id="7FNYdkaPTcw" role="37mO4d">
+            <property role="gqqTZ" value="208.0004967285156" />
+            <property role="gqqTW" value="59.0" />
+            <property role="gqqTX" value="28.0" />
+            <property role="gqqTy" value="29.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
           </node>
         </node>
-        <node concept="1FQA6B" id="35H3ae$V0U0" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0$L" resolve="zelfstandige voldoet aan het urencriterium" />
+        <node concept="37mRIm" id="7FNYdkaPTcx" role="37mRID">
+          <property role="37mO49" value="6045266218615175391" />
+          <node concept="gqqVs" id="7FNYdkaPTcy" role="37mO4d">
+            <property role="gqqTZ" value="302.0007103515625" />
+            <property role="gqqTW" value="59.0" />
+            <property role="gqqTX" value="84.0" />
+            <property role="gqqTy" value="29.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
         </node>
-        <node concept="1FQA6B" id="35H3ae$V0U1" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0$M" resolve="zelfstandige is bedrijfsmatig actief geweest, waaronder ingeschreven zijn bij de Kamer van Koophandel, voordat deze regeling is aangekondigd, dus voor 17 maart 2020" />
+        <node concept="37mRIm" id="7FNYdkaPTcz" role="37mRID">
+          <property role="37mO49" value="6045266218615175397" />
+          <node concept="gqqVs" id="7FNYdkaPTc$" role="37mO4d">
+            <property role="gqqTZ" value="302.0007103515625" />
+            <property role="gqqTW" value="153.0" />
+            <property role="gqqTX" value="84.0" />
+            <property role="gqqTy" value="29.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
         </node>
-        <node concept="1FQA6B" id="35H3ae$V0U2" role="1zF96y">
-          <ref role="1FQA6$" node="35H3ae$V0$N" resolve="zelfstandige heeft naar waarheid verklaard dat het inkomen naar verwachting in de periode van ondersteuning minder zal bedragen dan het toepasselijke sociaal minimum als gevolg van de coronacrisis" />
+        <node concept="37mRIm" id="7FNYdkaPTc_" role="37mRID">
+          <property role="37mO49" value="TestFact2" />
+          <node concept="2VclpC" id="7FNYdkaPTcA" role="37mO4d">
+            <node concept="2VclrF" id="7FNYdkaPTcB" role="2Vcluh">
+              <property role="2Vclpx" value="66.00019836425781" />
+              <property role="2Vclpz" value="120.50005" />
+            </node>
+            <node concept="2VclrF" id="7FNYdkaPTcC" role="2Vcluh">
+              <property role="2Vclpx" value="66.00019836425781" />
+              <property role="2Vclpz" value="73.50005" />
+            </node>
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTcD" role="37mRID">
+          <property role="37mO49" value="TestFact5" />
+          <node concept="2VclpC" id="7FNYdkaPTcE" role="37mO4d" />
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTcF" role="37mRID">
+          <property role="37mO49" value="6045266218615175378PARENT_REL" />
+          <node concept="2VclpC" id="7FNYdkaPTcG" role="37mO4d">
+            <node concept="3ul5H1" id="7FNYdkaPTcH" role="3ul5Gx">
+              <property role="3ul5GH" value="endRole" />
+              <node concept="3wpmZ1" id="7FNYdkaPTcI" role="3ul5Gz">
+                <node concept="2VclrF" id="7FNYdkaPTcJ" role="3wpmZR">
+                  <property role="2Vclpx" value="79.00019918212891" />
+                  <property role="2Vclpz" value="120.5" />
+                </node>
+                <node concept="2VclrF" id="7FNYdkaPTcK" role="3wpmZP">
+                  <property role="2Vclpx" value="0.0" />
+                  <property role="2Vclpz" value="0.0" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTcL" role="37mRID">
+          <property role="37mO49" value="5559679816793701917" />
+          <node concept="gqqVs" id="7FNYdkaPTcM" role="37mO4d">
+            <property role="gqqTZ" value="86.00029836425782" />
+            <property role="gqqTW" value="59.0" />
+            <property role="gqqTX" value="84.0" />
+            <property role="gqqTy" value="29.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTcN" role="37mRID">
+          <property role="37mO49" value="TestFact4" />
+          <node concept="2VclpC" id="7FNYdkaPTcO" role="37mO4d">
+            <node concept="2VclrF" id="7FNYdkaPTcP" role="2Vcluh">
+              <property role="2Vclpx" value="188.00039672851562" />
+              <property role="2Vclpz" value="120.50005" />
+            </node>
+            <node concept="2VclrF" id="7FNYdkaPTcQ" role="2Vcluh">
+              <property role="2Vclpx" value="188.00039672851562" />
+              <property role="2Vclpz" value="73.50005" />
+            </node>
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTcR" role="37mRID">
+          <property role="37mO49" value="5559679816793701917_ID" />
+          <node concept="2VclpC" id="7FNYdkaPTcS" role="37mO4d">
+            <node concept="2VclrF" id="7FNYdkaPTcT" role="2Vcluh">
+              <property role="2Vclpx" value="66.00019836425781" />
+              <property role="2Vclpz" value="120.50005" />
+            </node>
+            <node concept="2VclrF" id="7FNYdkaPTcU" role="2Vcluh">
+              <property role="2Vclpx" value="66.00019836425781" />
+              <property role="2Vclpz" value="73.50005" />
+            </node>
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTcV" role="37mRID">
+          <property role="37mO49" value="6045266218613298631_REL_AND" />
+          <node concept="2VclpC" id="7FNYdkaPTcW" role="37mO4d">
+            <node concept="2VclrF" id="7FNYdkaPTcX" role="2Vcluh">
+              <property role="2Vclpx" value="160.00039672851562" />
+              <property role="2Vclpz" value="120.50005" />
+            </node>
+            <node concept="2VclrF" id="7FNYdkaPTcY" role="2Vcluh">
+              <property role="2Vclpx" value="160.00039672851562" />
+              <property role="2Vclpz" value="214.50005" />
+            </node>
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTcZ" role="37mRID">
+          <property role="37mO49" value="6045266218615175391_ID" />
+          <node concept="2VclpC" id="7FNYdkaPTd0" role="37mO4d">
+            <node concept="2VclrF" id="7FNYdkaPTd1" role="2Vcluh">
+              <property role="2Vclpx" value="188.00039672851562" />
+              <property role="2Vclpz" value="120.50005" />
+            </node>
+            <node concept="2VclrF" id="7FNYdkaPTd2" role="2Vcluh">
+              <property role="2Vclpx" value="188.00039672851562" />
+              <property role="2Vclpz" value="73.50005" />
+            </node>
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTd3" role="37mRID">
+          <property role="37mO49" value="6579192767711018352" />
+          <node concept="gqqVs" id="7FNYdkaPTd4" role="37mO4d">
+            <property role="gqqTZ" value="180.00049672851563" />
+            <property role="gqqTW" value="247.0" />
+            <property role="gqqTX" value="84.0" />
+            <property role="gqqTy" value="29.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTd5" role="37mRID">
+          <property role="37mO49" value="6579192767711018352_REL_6045266218614365118" />
+          <node concept="2VclpC" id="7FNYdkaPTd6" role="37mO4d">
+            <node concept="2VclrF" id="7FNYdkaPTd7" role="2Vcluh">
+              <property role="2Vclpx" value="160.00039672851562" />
+              <property role="2Vclpz" value="120.50005" />
+            </node>
+            <node concept="2VclrF" id="7FNYdkaPTd8" role="2Vcluh">
+              <property role="2Vclpx" value="160.00039672851562" />
+              <property role="2Vclpz" value="261.50005" />
+            </node>
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTd9" role="37mRID">
+          <property role="37mO49" value="6045266218615175397_REL_6045266218615175378" />
+          <node concept="2VclpC" id="7FNYdkaPTda" role="37mO4d">
+            <node concept="2VclrF" id="7FNYdkaPTdb" role="2Vcluh">
+              <property role="2Vclpx" value="282.00059509277344" />
+              <property role="2Vclpz" value="73.50005" />
+            </node>
+            <node concept="2VclrF" id="7FNYdkaPTdc" role="2Vcluh">
+              <property role="2Vclpx" value="282.00059509277344" />
+              <property role="2Vclpz" value="167.50005" />
+            </node>
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTdd" role="37mRID">
+          <property role="37mO49" value="6045266218612401755" />
+          <node concept="gqqVs" id="7FNYdkaPTde" role="37mO4d">
+            <property role="gqqTZ" value="12.000100000000003" />
+            <property role="gqqTW" value="97.5" />
+            <property role="gqqTX" value="76.0" />
+            <property role="gqqTy" value="46.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTdf" role="37mRID">
+          <property role="37mO49" value="6045266218615175391_REL_6045266218615175378" />
+          <node concept="2VclpC" id="7FNYdkaPTdg" role="37mO4d" />
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTdh" role="37mRID">
+          <property role="37mO49" value="6045266218615175378_REL_AND" />
+          <node concept="2VclpC" id="7FNYdkaPTdi" role="37mO4d">
+            <node concept="2VclrF" id="7FNYdkaPTdj" role="2Vcluh">
+              <property role="2Vclpx" value="160.00039672851562" />
+              <property role="2Vclpz" value="120.50005" />
+            </node>
+            <node concept="2VclrF" id="7FNYdkaPTdk" role="2Vcluh">
+              <property role="2Vclpx" value="160.00039672851562" />
+              <property role="2Vclpz" value="73.50005" />
+            </node>
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTdl" role="37mRID">
+          <property role="37mO49" value="583469213989732219" />
+          <node concept="gqqVs" id="7FNYdkaPTdm" role="37mO4d">
+            <property role="gqqTZ" value="302.0007103515625" />
+            <property role="gqqTW" value="200.0" />
+            <property role="gqqTX" value="84.0" />
+            <property role="gqqTy" value="29.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTdn" role="37mRID">
+          <property role="37mO49" value="583469213989732308" />
+          <node concept="gqqVs" id="7FNYdkaPTdo" role="37mO4d">
+            <property role="gqqTZ" value="180.00049672851563" />
+            <property role="gqqTW" value="106.0" />
+            <property role="gqqTX" value="84.0" />
+            <property role="gqqTy" value="29.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTdp" role="37mRID">
+          <property role="37mO49" value="583469213989732403" />
+          <node concept="gqqVs" id="7FNYdkaPTdq" role="37mO4d">
+            <property role="gqqTZ" value="302.0007103515625" />
+            <property role="gqqTW" value="12.0" />
+            <property role="gqqTX" value="84.0" />
+            <property role="gqqTy" value="29.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTdr" role="37mRID">
+          <property role="37mO49" value="583469213989732500" />
+          <node concept="gqqVs" id="7FNYdkaPTds" role="37mO4d">
+            <property role="gqqTZ" value="310.0007103515625" />
+            <property role="gqqTW" value="106.0" />
+            <property role="gqqTX" value="68.0" />
+            <property role="gqqTy" value="29.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTdt" role="37mRID">
+          <property role="37mO49" value="583469213989732501" />
+          <node concept="gqqVs" id="7FNYdkaPTdu" role="37mO4d">
+            <property role="gqqTZ" value="367.0" />
+            <property role="gqqTW" value="165.0" />
+            <property role="gqqTX" value="92.0" />
+            <property role="gqqTy" value="30.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTdv" role="37mRID">
+          <property role="37mO49" value="583469213989732605" />
+          <node concept="gqqVs" id="7FNYdkaPTdw" role="37mO4d">
+            <property role="gqqTZ" value="398.0" />
+            <property role="gqqTW" value="146.0" />
+            <property role="gqqTX" value="80.0" />
+            <property role="gqqTy" value="30.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTdx" role="37mRID">
+          <property role="37mO49" value="583469213989732703" />
+          <node concept="gqqVs" id="7FNYdkaPTdy" role="37mO4d">
+            <property role="gqqTZ" value="404.00092397460935" />
+            <property role="gqqTW" value="106.0" />
+            <property role="gqqTX" value="44.0" />
+            <property role="gqqTy" value="29.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTdz" role="37mRID">
+          <property role="37mO49" value="583469213989732403_REL_6045266218615175378" />
+          <node concept="2VclpC" id="7FNYdkaPTd$" role="37mO4d">
+            <node concept="2VclrF" id="7FNYdkaPTd_" role="2Vcluh">
+              <property role="2Vclpx" value="282.00059509277344" />
+              <property role="2Vclpz" value="73.50005" />
+            </node>
+            <node concept="2VclrF" id="7FNYdkaPTdA" role="2Vcluh">
+              <property role="2Vclpx" value="282.00059509277344" />
+              <property role="2Vclpz" value="26.50005" />
+            </node>
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTdB" role="37mRID">
+          <property role="37mO49" value="583469213989732500_REL_OR" />
+          <node concept="2VclpC" id="7FNYdkaPTdC" role="37mO4d">
+            <node concept="2VclrF" id="7FNYdkaPTdD" role="2Vcluh">
+              <property role="2Vclpx" value="282.00059509277344" />
+              <property role="2Vclpz" value="73.50005" />
+            </node>
+            <node concept="2VclrF" id="7FNYdkaPTdE" role="2Vcluh">
+              <property role="2Vclpx" value="282.00059509277344" />
+              <property role="2Vclpz" value="120.50005" />
+            </node>
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTdF" role="37mRID">
+          <property role="37mO49" value="583469213989732308_REL_6045266218614365118" />
+          <node concept="2VclpC" id="7FNYdkaPTdG" role="37mO4d" />
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTdH" role="37mRID">
+          <property role="37mO49" value="583469213989732949" />
+          <node concept="gqqVs" id="7FNYdkaPTdI" role="37mO4d">
+            <property role="gqqTZ" value="368.0" />
+            <property role="gqqTW" value="185.0" />
+            <property role="gqqTX" value="84.0" />
+            <property role="gqqTy" value="30.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTdJ" role="37mRID">
+          <property role="37mO49" value="6983418503066080599" />
+          <node concept="gqqVs" id="7FNYdkaPTdK" role="37mO4d">
+            <property role="gqqTZ" value="422.0" />
+            <property role="gqqTW" value="105.0" />
+            <property role="gqqTX" value="80.0" />
+            <property role="gqqTy" value="30.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTdL" role="37mRID">
+          <property role="37mO49" value="6983418503066080716" />
+          <node concept="gqqVs" id="7FNYdkaPTdM" role="37mO4d">
+            <property role="gqqTZ" value="393.0" />
+            <property role="gqqTW" value="205.0" />
+            <property role="gqqTX" value="84.0" />
+            <property role="gqqTy" value="30.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="7FNYdkaPTdN" role="37mRID">
+          <property role="37mO49" value="6983418503066080834" />
+          <node concept="gqqVs" id="7FNYdkaPTdO" role="37mO4d">
+            <property role="gqqTZ" value="154.0" />
+            <property role="gqqTW" value="299.0" />
+            <property role="gqqTX" value="84.0" />
+            <property role="gqqTy" value="30.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+      </node>
+      <node concept="cog_b" id="7FNYdkaPTdP" role="2pmM46">
+        <property role="1FEjNx" value="Person Text" />
+        <ref role="cog$q" node="7FNYdkaEB_Z" resolve="TestSource" />
+      </node>
+    </node>
+    <node concept="cu0$f" id="7FNYdkaEBxb" role="cu0BP">
+      <property role="TrG5h" value="Literals" />
+      <node concept="1zEWgd" id="7FNYdkaEByZ" role="coNO9">
+        <node concept="1zEXHp" id="7FNYdkaEBz3" role="1zF96y">
+          <node concept="1zEXQY" id="7FNYdkaEBz9" role="1zEXIt" />
+        </node>
+        <node concept="1zEXHp" id="7FNYdkaEBzo" role="1zF96y">
+          <node concept="1zEXQX" id="7FNYdkaEBzw" role="1zEXIt">
+            <property role="1zEXQW" value="1.2345" />
+          </node>
+        </node>
+        <node concept="1zEXHp" id="7FNYdkaEBzD" role="1zF96y">
+          <node concept="1zEXQZ" id="7FNYdkaEBzR" role="1zEXIt">
+            <property role="1zEXQN" value="TestString" />
+          </node>
         </node>
       </node>
     </node>
-    <node concept="2cz0EU" id="35H3ae$V0U6" role="2cADMD">
-      <property role="TrG5h" value="zelfstandige kan bij gemeente een lening afsluiten van maximaal € 10.157 tegen een rente van 2%" />
-      <ref role="2cBO5V" node="35H3ae$V0U3" resolve="indienen verzoek om lening voor bedrijfskapitaal op grond van de Tozo" />
-      <ref role="2cz2Wc" node="35H3ae$V0_2" resolve="gemeente" />
-      <ref role="2cz2We" node="35H3ae$V0zz" resolve="zelfstandige" />
+    <node concept="cu0$f" id="7FNYdkaEBzU" role="cu0BP">
+      <property role="TrG5h" value="Reference" />
+      <node concept="1zEXH5" id="7FNYdkaEB_S" role="coNO9">
+        <node concept="1FQA6B" id="7FNYdkaEB_W" role="1zF96A">
+          <ref role="1FQA6$" node="7FNYdkaEBxb" resolve="Literals" />
+        </node>
+      </node>
+      <node concept="cog_b" id="7FNYdkaEBA1" role="2pmM46">
+        <property role="1FEjNx" value="Reference Text" />
+        <ref role="cog$q" node="7FNYdkaEB_Z" resolve="TestSource" />
+      </node>
     </node>
-    <node concept="2cz0EU" id="35H3ae$V0U8" role="2cADMD">
-      <property role="TrG5h" value="zelfstandige hoeft tot 1 januari niet af te lossen" />
-      <ref role="2cBO5V" node="35H3ae$V0U3" resolve="indienen verzoek om lening voor bedrijfskapitaal op grond van de Tozo" />
-      <ref role="2cz2Wc" node="35H3ae$V0_2" resolve="gemeente" />
-      <ref role="2cz2We" node="35H3ae$V0zz" resolve="zelfstandige" />
+    <node concept="cu0$f" id="7FNYdkaEBB0" role="cu0BP">
+      <property role="TrG5h" value="List" />
+      <node concept="1zEXHe" id="7FNYdkaEBD1" role="coNO9">
+        <property role="1zF6e5" value="ListName" />
+        <node concept="1FQA6B" id="7FNYdkaPTn9" role="1zF6e3">
+          <ref role="1FQA6$" node="7FNYdkaPTc3" resolve="Person" />
+        </node>
+      </node>
     </node>
-    <node concept="mu5$5" id="35H3ae$V0U3" role="m3s6u">
-      <property role="TrG5h" value="indienen verzoek om lening voor bedrijfskapitaal op grond van de Tozo" />
-      <property role="3ANC2_" value="Deze act ondersteunt het indienen van een aanvraag die automatisch ingewilligd kan worden, de vraag is wat er moet gebeuren met aanvragen die onvolledig zijn of niet aan alle voorwaarden voldoen" />
-      <ref role="mu3Ux" node="35H3ae$V0Tl" resolve="indienen" />
-      <ref role="mu5$L" node="35H3ae$V0zz" resolve="zelfstandige" />
-      <ref role="mu3Ts" node="35H3ae$V0$P" resolve="verzoek om lening voor bedrijfskapitaal op grond van de Tozo" />
-      <ref role="mu3To" node="35H3ae$V0_2" resolve="gemeente" />
-      <node concept="1FQA6B" id="35H3ae$V0U4" role="mu1cf">
-        <ref role="1FQA6$" node="35H3ae$V0$R" resolve="aanvraag lening voor bedrijfskapitaal op grond van de Tozo" />
+    <node concept="mu5$5" id="woTyy$OiVc" role="m3s6u">
+      <property role="TrG5h" value="Act1" />
+      <ref role="mu5$L" node="7FNYdkaPTc3" resolve="Person" />
+      <ref role="mu3Ux" node="7FNYdkaPTc3" resolve="Person" />
+      <ref role="mu3Ts" node="7FNYdkaPTc3" resolve="Person" />
+      <ref role="mu3To" node="7FNYdkaPTc3" resolve="Person" />
+      <node concept="37mRI7" id="woTyy$OjIN" role="lGtFl">
+        <node concept="37mRIm" id="woTyy$OjIO" role="37mRID">
+          <property role="37mO49" value="583469213982731980" />
+          <node concept="gqqVs" id="woTyy$OjIM" role="37mO4d">
+            <property role="gqqTZ" value="12.000100000000003" />
+            <property role="gqqTW" value="50.5" />
+            <property role="gqqTX" value="76.0" />
+            <property role="gqqTy" value="46.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="woTyy$OjJ2" role="37mRID">
+          <property role="37mO49" value="583469213982735292" />
+          <node concept="gqqVs" id="woTyy$OjJ1" role="37mO4d">
+            <property role="gqqTZ" value="106.00029836425782" />
+            <property role="gqqTW" value="59.0" />
+            <property role="gqqTX" value="68.0" />
+            <property role="gqqTy" value="29.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="woTyy$OjJ4" role="37mRID">
+          <property role="37mO49" value="583469213982735293" />
+          <node concept="gqqVs" id="woTyy$OjJ3" role="37mO4d">
+            <property role="gqqTZ" value="244.0" />
+            <property role="gqqTW" value="6.0" />
+            <property role="gqqTX" value="84.0" />
+            <property role="gqqTy" value="30.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="woTyy$OjJo" role="37mRID">
+          <property role="37mO49" value="583469213982735312" />
+          <node concept="gqqVs" id="woTyy$OjJn" role="37mO4d">
+            <property role="gqqTZ" value="240.0" />
+            <property role="gqqTW" value="113.0" />
+            <property role="gqqTX" value="80.0" />
+            <property role="gqqTy" value="30.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="woTyy$OjJq" role="37mRID">
+          <property role="37mO49" value="583469213982735314" />
+          <node concept="gqqVs" id="woTyy$OjJp" role="37mO4d">
+            <property role="gqqTZ" value="240.0" />
+            <property role="gqqTW" value="46.0" />
+            <property role="gqqTX" value="84.0" />
+            <property role="gqqTy" value="30.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="woTyy$OjJL" role="37mRID">
+          <property role="37mO49" value="583469213982735339" />
+          <node concept="gqqVs" id="woTyy$OjJK" role="37mO4d">
+            <property role="gqqTZ" value="165.0" />
+            <property role="gqqTW" value="159.0" />
+            <property role="gqqTX" value="84.0" />
+            <property role="gqqTy" value="30.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="woTyy$OjK6" role="37mRID">
+          <property role="37mO49" value="583469213982735361" />
+          <node concept="gqqVs" id="woTyy$OjK5" role="37mO4d">
+            <property role="gqqTZ" value="212.00049672851563" />
+            <property role="gqqTW" value="59.0" />
+            <property role="gqqTX" value="82.0" />
+            <property role="gqqTy" value="27.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="woTyy$QQFI" role="37mRID">
+          <property role="37mO49" value="583469213983402729" />
+          <node concept="gqqVs" id="woTyy$QQFH" role="37mO4d">
+            <property role="gqqTZ" value="212.00049672851563" />
+            <property role="gqqTW" value="12.0" />
+            <property role="gqqTX" value="82.0" />
+            <property role="gqqTy" value="27.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="woTyy$QQGa" role="37mRID">
+          <property role="37mO49" value="583469213983402754" />
+          <node concept="gqqVs" id="woTyy$QQG9" role="37mO4d">
+            <property role="gqqTZ" value="236.0004967285156" />
+            <property role="gqqTW" value="106.0" />
+            <property role="gqqTX" value="34.0" />
+            <property role="gqqTy" value="27.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="woTyy$QQGc" role="37mRID">
+          <property role="37mO49" value="583469213983402755" />
+          <node concept="gqqVs" id="woTyy$QQGb" role="37mO4d">
+            <property role="gqqTZ" value="344.0" />
+            <property role="gqqTW" value="5.0" />
+            <property role="gqqTX" value="84.0" />
+            <property role="gqqTy" value="30.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="woTyy$QQGE" role="37mRID">
+          <property role="37mO49" value="583469213983402789" />
+          <node concept="gqqVs" id="woTyy$QQGD" role="37mO4d">
+            <property role="gqqTZ" value="314.0007103515625" />
+            <property role="gqqTW" value="106.0" />
+            <property role="gqqTX" value="82.0" />
+            <property role="gqqTy" value="27.0" />
+            <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+          </node>
+        </node>
+        <node concept="37mRIm" id="woTyy$QQH4" role="37mRID">
+          <property role="37mO49" value="583469213983402729_REL_583469213982735292" />
+          <node concept="2VclpC" id="woTyy$QQH3" role="37mO4d">
+            <node concept="2VclrF" id="woTyy$QQH5" role="2Vcluh">
+              <property role="2Vclpx" value="192.00039672851562" />
+              <property role="2Vclpz" value="73.50005" />
+            </node>
+            <node concept="2VclrF" id="woTyy$QQH6" role="2Vcluh">
+              <property role="2Vclpx" value="192.00039672851562" />
+              <property role="2Vclpz" value="26.50005" />
+            </node>
+          </node>
+        </node>
+        <node concept="37mRIm" id="woTyy$QQH8" role="37mRID">
+          <property role="37mO49" value="583469213983402754_REL_PRODUCT" />
+          <node concept="2VclpC" id="woTyy$QQH7" role="37mO4d">
+            <node concept="2VclrF" id="woTyy$QQH9" role="2Vcluh">
+              <property role="2Vclpx" value="192.00039672851562" />
+              <property role="2Vclpz" value="73.50005" />
+            </node>
+            <node concept="2VclrF" id="woTyy$QQHa" role="2Vcluh">
+              <property role="2Vclpx" value="192.00039672851562" />
+              <property role="2Vclpz" value="120.50005" />
+            </node>
+          </node>
+        </node>
       </node>
-      <node concept="2cz2WB" id="35H3ae$V0U5" role="mu1cf">
-        <ref role="2cz2WA" node="35H3ae$V0U6" resolve="zelfstandige kan bij gemeente een lening afsluiten van maximaal € 10.157 tegen een rente van 2%" />
+      <node concept="cog_b" id="7FNYdkaEBA5" role="2pmM46">
+        <ref role="cog$q" node="7FNYdkaEB_Z" resolve="TestSource" />
       </node>
-      <node concept="2cz2WB" id="35H3ae$V0U7" role="mu1cf">
-        <ref role="2cz2WA" node="35H3ae$V0U8" resolve="zelfstandige hoeft tot 1 januari niet af te lossen" />
+      <node concept="1FQA6B" id="7FNYdkaEBA7" role="mu3T0">
+        <ref role="1FQA6$" node="7FNYdkaEBzU" resolve="Reference" />
       </node>
-      <node concept="2cz2WB" id="35H3ae$V0U9" role="mu1cf">
-        <ref role="2cz2WA" node="35H3ae$V0TT" resolve="zelfstandige heeft inlichtingenplicht op grond van art. 17 Participatiewet" />
+    </node>
+    <node concept="mu5$5" id="7FNYdkaEBA9" role="m3s6u">
+      <property role="TrG5h" value="Act2" />
+      <property role="3ANC2_" value="Test Explananation" />
+      <ref role="mu5$L" node="7FNYdkaEBxb" resolve="Literals" />
+      <ref role="mu3Ux" node="7FNYdkaEBxb" resolve="Literals" />
+      <ref role="mu3Ts" node="7FNYdkaEBxb" resolve="Literals" />
+      <ref role="mu3To" node="7FNYdkaEBxb" resolve="Literals" />
+      <node concept="1FQA6B" id="7FNYdkaPTlY" role="mu1cf">
+        <ref role="1FQA6$" node="7FNYdkaPTc3" resolve="Person" />
       </node>
-      <node concept="cog_b" id="35H3ae$V0Ua" role="mu1ck">
-        <property role="1FEjNx" value="Ondersteuning op grond van de Tozo kan worden aangevraagd in de vorm van een bijstandsuitkering voor levensonderhoud én in de vorm van een lening voor bedrijfskapitaal." />
-        <ref role="cog$q" node="35H3ae$V0zw" resolve="Brief staatssecretaris SZW van 27 maart 2020: https://zoek.officielebekendmakingen.nl/kst-35420-11.html (voorlopige bron)" />
+      <node concept="1FQA6B" id="7FNYdkaPTlU" role="mu1c7">
+        <ref role="1FQA6$" node="7FNYdkaPTc3" resolve="Person" />
       </node>
-      <node concept="1FQA6B" id="35H3ae$V0Ub" role="mu3T0">
-        <ref role="1FQA6$" node="35H3ae$V0$Q" resolve="zelfstandige heeft naar waarheid te verklaard en aannemelijk gemaakt dat er sprake is van liquiditeitsprobleem als gevolg van de coronacrisis" />
+      <node concept="2cz2WB" id="7FNYdkaEBAW" role="mu1c7">
+        <ref role="2cz2WA" node="7FNYdkaEBAN" resolve="Duty1" />
+      </node>
+    </node>
+    <node concept="cog_a" id="7FNYdkaEB_Z" role="cogAT">
+      <property role="TrG5h" value="TestSource" />
+      <property role="cog$t" value="test123" />
+      <property role="cog$m" value="28-04-2020" />
+      <property role="cog$g" value="30-04-2020" />
+    </node>
+    <node concept="2cz0EU" id="7FNYdkaEBAN" role="2cADMD">
+      <property role="TrG5h" value="Duty1" />
+      <property role="3ANC2_" value="Duty Explanation" />
+      <ref role="2cBO5V" node="7FNYdkaEBA9" resolve="Act2" />
+      <ref role="2cBO5Z" node="woTyy$OiVc" resolve="Act1" />
+      <ref role="2cz2Wc" node="7FNYdkaPTc3" resolve="Person" />
+      <ref role="2cz2We" node="7FNYdkaPTc3" resolve="Person" />
+      <node concept="cog_b" id="7FNYdkaEBAP" role="2pmM46">
+        <property role="1FEjNx" value="Text" />
+        <ref role="cog$q" node="7FNYdkaEB_Z" resolve="TestSource" />
       </node>
     </node>
   </node>
-  <node concept="cu0$2" id="2vpCevmJ1t$">
+  <node concept="cu0$2" id="63E5y3U1TlZ">
     <property role="TrG5h" value="Vreemdelingenwet" />
-    <node concept="cog_a" id="2vpCevmJ1t_" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tm0" role="cogAT">
       <property role="TrG5h" value="art. 1 Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=1&amp;afdeling=1&amp;artikel=1&amp;z=2017-01-01&amp;g=2017-01-01" />
       <property role="cog$m" value="01-01-2017" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tA" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tm1" role="cogAT">
       <property role="TrG5h" value="art. 2k, aanhef en onder a, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=1a&amp;afdeling=1&amp;paragraaf=3&amp;artikel=2k&amp;z=2013-06-01&amp;g=2013-06-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tB" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tm2" role="cogAT">
       <property role="TrG5h" value="art. 2n lid 1, onder a, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=1a&amp;afdeling=1&amp;paragraaf=5&amp;artikel=2n&amp;lid=1&amp;z=2013-06-01&amp;g=2013-06-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tC" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tm3" role="cogAT">
       <property role="TrG5h" value="art. 2n lid 1, onder b, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=1a&amp;afdeling=1&amp;paragraaf=5&amp;artikel=2n&amp;lid=1&amp;z=2013-06-01&amp;g=2013-06-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tD" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tm4" role="cogAT">
       <property role="TrG5h" value="art. 2n lid 1, onder c, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=1a&amp;afdeling=1&amp;paragraaf=5&amp;artikel=2n&amp;lid=1&amp;z=2013-06-01&amp;g=2013-06-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tE" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tm5" role="cogAT">
       <property role="TrG5h" value="art. 2n lid 1, onder d, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=1a&amp;afdeling=1&amp;paragraaf=5&amp;artikel=2n&amp;lid=1&amp;z=2013-06-01&amp;g=2013-06-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tF" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tm6" role="cogAT">
       <property role="TrG5h" value="art. 2p lid 1 Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=1a&amp;afdeling=2&amp;paragraaf=1&amp;artikel=2p&amp;lid=1&amp;z=2013-06-01&amp;g=2013-06-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tG" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tm7" role="cogAT">
       <property role="TrG5h" value="art. 2p lid 2 Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=1a&amp;afdeling=2&amp;paragraaf=1&amp;artikel=2p&amp;lid=2&amp;z=2013-06-01&amp;g=2013-06-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tH" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tm8" role="cogAT">
       <property role="TrG5h" value="art. 14 lid 1, onder a, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=14&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tI" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tm9" role="cogAT">
       <property role="TrG5h" value="art. 14 lid 3 Vw (zin 1) {vanaf 01-06-2013}, art. 14 lid 2 Vw (zin 1) {van 01-04-2001 tot 01-06-2013}" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=14&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tJ" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tma" role="cogAT">
       <property role="TrG5h" value="art. 16 lid 1, onder a, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=16&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tK" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tmb" role="cogAT">
       <property role="TrG5h" value="art. 16 lid 1, onder b, Vw, and art. 18 lid 1, onder b, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=16&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01/jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=18&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tL" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tmc" role="cogAT">
       <property role="TrG5h" value="art. 16 lid 1, onder c, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=16&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tM" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tmd" role="cogAT">
       <property role="TrG5h" value="Art. 3.74 lid 1, onder a, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.74&amp;lid=1&amp;z=2013-01-01&amp;g=2013-01-01" />
       <property role="cog$m" value="31-07-2010" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tN" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tme" role="cogAT">
       <property role="TrG5h" value="Art. 3.74 lid 1, onder b, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.74&amp;lid=1&amp;z=2013-01-01&amp;g=2013-01-01" />
       <property role="cog$m" value="31-07-2010" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tO" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tmf" role="cogAT">
       <property role="TrG5h" value="art. 16 lid 1, onder d, Vw, en art. 18 lid 1, onder e, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=16&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01/jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=18&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tP" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tmg" role="cogAT">
       <property role="TrG5h" value="art. 16 lid 1, onder e, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=16&amp;lid=1&amp;z=2017-01-01&amp;g=2017-01-01" />
       <property role="cog$m" value="01-01-2017" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tQ" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tmh" role="cogAT">
       <property role="TrG5h" value="art. 16 lid 1, onder f, Vw en art. 18 lid 1, onder g, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=16&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01/jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=18&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tR" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tmi" role="cogAT">
       <property role="TrG5h" value="art. 16 lid 1, onder g, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=16&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tS" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tmj" role="cogAT">
       <property role="TrG5h" value="art. 16 lid 1, onder h, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=16&amp;z=2007-01-01&amp;g=2007-01-01" />
       <property role="cog$m" value="01-01-2007" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tT" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tmk" role="cogAT">
       <property role="TrG5h" value="art. 16 lid 1, onder i, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=16&amp;z=2013-06-01&amp;g=2013-06-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tU" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tml" role="cogAT">
       <property role="TrG5h" value="art. 16 lid 1, onder j, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=16&amp;z=2013-06-01&amp;g=2013-06-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tV" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tmm" role="cogAT">
       <property role="TrG5h" value="art. 16 lid 1, onder k, Vw {vanaf 21-09-2013}; art. 16 lid 1, onder i, Vw {van 01-06-2013 tot 21-09-2013}; art. 18 lid 1, onder h, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=16&amp;z=2013-06-01&amp;g=2013-06-01/jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=18&amp;lid=1&amp;z=2017-07-01&amp;g=2017-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tW" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tmn" role="cogAT">
       <property role="TrG5h" value="art. 18 lid 1, onder a, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=18&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tX" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tmo" role="cogAT">
       <property role="TrG5h" value="art. 18 lid 1, onder c, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=18&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tY" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tmp" role="cogAT">
       <property role="TrG5h" value="art. 18 lid 1, onder f, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=18&amp;lid=1&amp;z=2002-01-01&amp;g=2002-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1tZ" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tmq" role="cogAT">
       <property role="TrG5h" value="art. 18 lid 1, onder i, Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=18&amp;lid=1&amp;z=2017-10-01&amp;g=2017-10-01" />
       <property role="cog$m" value="01-10-2017" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1u0" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tmr" role="cogAT">
       <property role="TrG5h" value="art. 24 lid 1 Vw (zin 1)" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=3&amp;artikel=24&amp;z=2012-01-01&amp;g=2012-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1u1" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tms" role="cogAT">
       <property role="TrG5h" value="art. 24 lid 1 Vw (zin 3)" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=3&amp;artikel=24&amp;lid=2&amp;z=2012-07-07&amp;g=2012-07-07" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1u2" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tmt" role="cogAT">
       <property role="TrG5h" value="art. 26 lid 1 Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=5&amp;artikel=26&amp;z=2002-01-01&amp;g=2002-01-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1u3" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tmu" role="cogAT">
       <property role="TrG5h" value="art. 66a lid 6 Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=6&amp;afdeling=3&amp;artikel=66a&amp;lid=6&amp;z=2011-12-31&amp;g=2011-12-31" />
       <property role="cog$m" value="31-12-2011" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1u4" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tmv" role="cogAT">
       <property role="TrG5h" value="art. 67 lid 3 Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=6&amp;afdeling=4&amp;artikel=67&amp;lid=3&amp;z=2011-12-31&amp;g=2011-12-31" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1u5" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tmw" role="cogAT">
       <property role="TrG5h" value="art. 106a lid 1 Vw (eerste zin)" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=8&amp;paragraaf=1&amp;artikel=106a&amp;z=2014-03-01&amp;g=2014-03-01" />
       <property role="cog$m" value="01-03-2014" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1u6" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tmx" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder a, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1u7" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tmy" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder aa, Vb {vanaf 01-06-2013} en art. 3.4 lid 1, onder aa, Vb {vanaf 01-12-2006 tot 01-06-2013}" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2008-03-26&amp;g=2007-09-01" />
       <property role="cog$m" value="01-12-2006" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1u8" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tmz" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder c, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1u9" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tm$" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder d, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1ua" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tm_" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder e, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2012-08-01&amp;g=2012-08-01" />
       <property role="cog$m" value="19-06-2011" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1ub" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmA" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder f, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1uc" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmB" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder g, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="20-11-2016" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1ud" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmC" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder h, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1ue" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmD" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder i, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1uf" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmE" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder j, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="23-05-2018" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1ug" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmF" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder k, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1uh" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmG" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder l, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1ui" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmH" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder m, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1uj" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmI" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder n, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2002-07-17&amp;g=2002-07-17" />
       <property role="cog$m" value="01-04-2004" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1uk" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmJ" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder o, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1ul" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmK" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder p, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1um" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmL" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder q, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1un" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmM" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder r, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2002-07-17&amp;g=2002-07-17" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1uo" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmN" role="cogAT">
       <property role="TrG5h" value="art. 3.4 lid 1, onder s, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=1&amp;sub-paragraaf=1&amp;artikel=3.4&amp;lid=1&amp;z=2014-03-21&amp;g=2013-07-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1up" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmO" role="cogAT">
       <property role="TrG5h" value="art. 3.73 lid 1, onder a, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.73&amp;lid=1&amp;z=2001-04-01&amp;g=2001-04-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1uq" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmP" role="cogAT">
       <property role="TrG5h" value="art. 3.73 lid 1, onder b, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.73&amp;lid=1&amp;z=2001-04-01&amp;g=2001-04-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1ur" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmQ" role="cogAT">
       <property role="TrG5h" value="art. 3.73 lid 1, onder c, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.73&amp;lid=1&amp;z=2001-04-01&amp;g=2001-04-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1us" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmR" role="cogAT">
       <property role="TrG5h" value="art. 3.73 lid 1, onder d, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.73&amp;lid=1&amp;z=2010-07-31&amp;g=2010-07-31" />
       <property role="cog$m" value="31-07-2010" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1ut" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmS" role="cogAT">
       <property role="TrG5h" value="art. 3.73 lid 1, onder a, Vb; art. 3.73 lid 1, onder b, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.73&amp;lid=1&amp;z=2001-04-01&amp;g=2001-04-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1uu" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmT" role="cogAT">
       <property role="TrG5h" value="art. 3.73 lid 1, onder a, Vb; art. 3.73 lid 1, onder b, Vb; art. 3.73 lid 1, onder c; Vb, art. 3.73 lid 1, onder d, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.73&amp;lid=1&amp;z=2001-04-01&amp;g=2001-04-01/jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.73&amp;lid=1&amp;z=2010-07-13&amp;g=2010-07-13" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1uv" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmU" role="cogAT">
       <property role="TrG5h" value="art. 3.73 lid 1, onder a, Vb; art. 3.73 lid 1, onder b, Vb; art. 3.73 lid 1, onder d, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.73&amp;lid=1&amp;z=2001-04-01&amp;g=2001-04-01/jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.73&amp;lid=1&amp;z=2010-07-13&amp;g=2010-07-13" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1uw" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmV" role="cogAT">
       <property role="TrG5h" value="art. 3.73 lid 1, onder e, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.73&amp;lid=1&amp;z=2018-05-23&amp;g=2018-05-23" />
       <property role="cog$m" value="23-05-2018" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1ux" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmW" role="cogAT">
       <property role="TrG5h" value="art. 3.74 lid 1, onder a, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.74&amp;lid=1&amp;z=2010-07-31&amp;g=2010-07-31" />
       <property role="cog$m" value="31-07-2010" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1uy" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmX" role="cogAT">
       <property role="TrG5h" value="art. 3.74 lid 1, onder b, Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.74&amp;lid=1&amp;z=2010-07-31&amp;g=2010-07-31" />
       <property role="cog$m" value="31-07-2010" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1uz" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmY" role="cogAT">
       <property role="TrG5h" value="art. 3.74 lid 2 Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.74&amp;lid=2&amp;z=2013-06-01&amp;g=2013-06-01" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1u$" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1TmZ" role="cogAT">
       <property role="TrG5h" value="art. 3.75 lid 1 Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.75&amp;lid=1&amp;z=2019-07-01&amp;g=2019-07-01" />
       <property role="cog$m" value="19-06-2011" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1u_" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tn0" role="cogAT">
       <property role="TrG5h" value="art. 3.75 lid 2 Vb" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.75&amp;lid=1&amp;z=2001-04-01&amp;g=2001-04-01" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1uA" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tn1" role="cogAT">
       <property role="TrG5h" value="art. 3.75 lid 3 Vb (zin 1)" />
       <property role="cog$t" value="jci1.3:c:BWBR0011825&amp;hoofdstuk=3&amp;afdeling=2&amp;paragraaf=3&amp;artikel=3.75&amp;lid=3&amp;z=2007-11-14&amp;g=2007-11-14" />
       <property role="cog$m" value="14-11-2007" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1uB" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tn2" role="cogAT">
       <property role="TrG5h" value="art. 14 lid 4 Vw (eerste zin) {vanaf 01-06-2013}; art. 14 lid 3 Vw (eerste zin) {van 01-04-2001 tor 01-06-2013}" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=14&amp;lid=4&amp;z=2014-03-29&amp;g=2014-03-29" />
       <property role="cog$m" value="01-04-2001" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1uC" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tn3" role="cogAT">
       <property role="TrG5h" value="art. 14 lid 3 Vw (eerste zin)" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=3&amp;paragraaf=1&amp;artikel=14&amp;z=2014-03-29&amp;g=2014-03-29" />
       <property role="cog$m" value="01-06-2013" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cog_a" id="2vpCevmJ1uD" role="cogAT">
+    <node concept="cog_a" id="63E5y3U1Tn4" role="cogAT">
       <property role="TrG5h" value="art. 9 lid 1 Vw" />
       <property role="cog$t" value="jci1.3:c:BWBR0011823&amp;hoofdstuk=3&amp;afdeling=1&amp;artikel=9&amp;lid=1&amp;z=2020-01-01&amp;g=2020-01-01" />
       <property role="cog$m" value="01-01-2017" />
       <property role="cog$g" value="31-12-9999" />
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1uE" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tn5" role="cu0BP">
       <property role="TrG5h" value="Onze Minister van Justitie en Veiligheid" />
-      <node concept="cog_b" id="2vpCevmJ1uF" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tn6" role="2pmM46">
         <property role="3ANC2_" value="NOTABLE: Lijst met definities (geen detailverwijzing mogelijk). ERROR: Inmiddels is het eigenlijk de minister van Justitie en Veiligheid (sinds Rutte III beëdigd op 26 oktober 2017), maar dit is nog niet in de Vw vastgelegd." />
         <property role="1FEjNx" value="Onze Minister: Onze Minister van Veiligheid en Justitie" />
-        <ref role="cog$q" node="2vpCevmJ1t_" resolve="art. 1 Vw" />
+        <ref role="cog$q" node="63E5y3U1Tm0" resolve="art. 1 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1uG" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tn7" role="cu0BP">
       <property role="TrG5h" value="vreemdeling" />
-      <node concept="cog_b" id="2vpCevmJ1uH" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tn8" role="2pmM46">
         <property role="3ANC2_" value="NOTABLE: De structuur van dit artikel is meerdere keren veranderd sinds april 2001. Ook de plaats van dit fragment in het artikel verandert nogal eens. Maar de tekst zelf is vanaf de eerste versie niet veranderd. De juriconnect referentie verwijst naar de versie van 2002-01-01 omdat dat de eerste versie is waarvoor een link bestaat." />
         <property role="1FEjNx" value="vreemdeling: ieder die de Nederlandse nationaliteit niet bezit en niet op grond van een wettelijke bepaling als Nederlander moet worden behandeld" />
-        <ref role="cog$q" node="2vpCevmJ1t_" resolve="art. 1 Vw" />
+        <ref role="cog$q" node="63E5y3U1Tm0" resolve="art. 1 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1uI" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tn9" role="cu0BP">
       <property role="TrG5h" value="aanvraag tot verlenen machtiging tot voorlopig verblijf" />
       <property role="3ANC2_" value="NOTABLE: Act frame indienen aanvraag moet nog worden toegevoegd. Hoe gaan we met het vastleggen van de aanduiding van het gevraagde besluit?" />
-      <node concept="cog_b" id="2vpCevmJ1uJ" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tna" role="2pmM46">
         <property role="1FEjNx" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een machtiging tot voorlopig verblijf dan wel terugkeervisum in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
-        <ref role="cog$q" node="2vpCevmJ1tA" resolve="art. 2k, aanhef en onder a, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tm1" resolve="art. 2k, aanhef en onder a, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1uK" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tnb" role="cu0BP">
       <property role="TrG5h" value="besluit tot inwilligen aanvraag tot verlenen machtiging tot voorlopig verblijf" />
       <property role="3ANC2_" value="[] moet zijn &lt;&lt;&gt;&gt;" />
-      <node concept="cog_b" id="2vpCevmJ1uL" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tnc" role="2pmM46">
         <property role="1FEjNx" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een machtiging tot voorlopig verblijf dan wel terugkeervisum in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
-        <ref role="cog$q" node="2vpCevmJ1tA" resolve="art. 2k, aanhef en onder a, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tm1" resolve="art. 2k, aanhef en onder a, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1uM" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tnd" role="cu0BP">
       <property role="TrG5h" value="aanvraag is door de vreemdeling in persoon ingediend" />
-      <node concept="cog_b" id="2vpCevmJ1uN" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tne" role="2pmM46">
         <property role="1FEjNx" value="de door de vreemdeling ingediende aanvraag niet door de vreemdeling in persoon is ingediend" />
-        <ref role="cog$q" node="2vpCevmJ1tB" resolve="art. 2n lid 1, onder a, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tm2" resolve="art. 2n lid 1, onder a, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1uO" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tnf" role="cu0BP">
       <property role="TrG5h" value="voor de aanvraag is gebruik gemaakt van een voorgeschreven formulier dat volledig is ingevuld en ondertekend" />
-      <node concept="cog_b" id="2vpCevmJ1uP" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tng" role="2pmM46">
         <property role="1FEjNx" value="voor de aanvraag in voorkomend geval geen gebruik is gemaakt van een daartoe voorgeschreven formulier dat volledig is ingevuld en ondertekend" />
-        <ref role="cog$q" node="2vpCevmJ1tC" resolve="art. 2n lid 1, onder b, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tm3" resolve="art. 2n lid 1, onder b, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1uQ" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tnh" role="cu0BP">
       <property role="TrG5h" value="aanvraag is gesteld in de Nederlandse, Franse of Engelse taal" />
-      <node concept="cog_b" id="2vpCevmJ1uR" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tni" role="2pmM46">
         <property role="1FEjNx" value="de aanvraag niet is gesteld in de Nederlandse, Franse of Engelse taal; of" />
-        <ref role="cog$q" node="2vpCevmJ1tD" resolve="art. 2n lid 1, onder c, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tm4" resolve="art. 2n lid 1, onder c, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1uS" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tnj" role="cu0BP">
       <property role="TrG5h" value="ter afdoening van de aanvraag verschuldigde leges zijn betaald" />
-      <node concept="cog_b" id="2vpCevmJ1uT" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tnk" role="2pmM46">
         <property role="1FEjNx" value="de ter afdoening van de aanvraag verschuldigde leges niet zijn betaald" />
-        <ref role="cog$q" node="2vpCevmJ1tE" resolve="art. 2n lid 1, onder d, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tm5" resolve="art. 2n lid 1, onder d, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1uU" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tnl" role="cu0BP">
       <property role="TrG5h" value="vreemdeling voldoet aan de vereisten voor toegang en verlening van een verblijfsvergunning" />
-      <node concept="cog_b" id="2vpCevmJ1uV" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tnm" role="2pmM46">
         <property role="1FEjNx" value="Onze Minister kan een machtiging tot voorlopig verblijf verlenen aan de vreemdeling ten aanzien van wie is aangetoond dat hij voldoet aan de vereisten voor toegang en verlening van een verblijfsvergunning." />
-        <ref role="cog$q" node="2vpCevmJ1tF" resolve="art. 2p lid 1 Vw" />
+        <ref role="cog$q" node="63E5y3U1Tm6" resolve="art. 2p lid 1 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1uW" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tnn" role="cu0BP">
       <property role="TrG5h" value="wezenlijk Nederlands belang gediend met verlenen machtiging tot voorlopig verblijf" />
-      <node concept="cog_b" id="2vpCevmJ1uX" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tno" role="2pmM46">
         <property role="1FEjNx" value="Onze Minister kan in afwijking van het eerste lid een machtiging tot voorlopig verblijf verlenen indien daarmee een wezenlijk Nederlands belang is gediend of klemmende redenen van humanitaire aard daartoe nopen dan wel het belang van de internationale betrekkingen de verlening van een machtiging tot voorlopig verblijf vordert." />
-        <ref role="cog$q" node="2vpCevmJ1tG" resolve="art. 2p lid 2 Vw" />
+        <ref role="cog$q" node="63E5y3U1Tm7" resolve="art. 2p lid 2 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1uY" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tnp" role="cu0BP">
       <property role="TrG5h" value="klemmende redenen van humanitaire aard nopen tot verlenen machtiging tot voorlopig verblijf" />
-      <node concept="cog_b" id="2vpCevmJ1uZ" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tnq" role="2pmM46">
         <property role="1FEjNx" value="Onze Minister kan in afwijking van het eerste lid een machtiging tot voorlopig verblijf verlenen indien daarmee een wezenlijk Nederlands belang is gediend of klemmende redenen van humanitaire aard daartoe nopen dan wel het belang van de internationale betrekkingen de verlening van een machtiging tot voorlopig verblijf vordert." />
-        <ref role="cog$q" node="2vpCevmJ1tG" resolve="art. 2p lid 2 Vw" />
+        <ref role="cog$q" node="63E5y3U1Tm7" resolve="art. 2p lid 2 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1v0" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tnr" role="cu0BP">
       <property role="TrG5h" value="belang van de internationale betrekkingen vordert verlenen machtiging tot voorlopig verblijf" />
-      <node concept="cog_b" id="2vpCevmJ1v1" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tns" role="2pmM46">
         <property role="1FEjNx" value="Onze Minister kan in afwijking van het eerste lid een machtiging tot voorlopig verblijf verlenen indien daarmee een wezenlijk Nederlands belang is gediend of klemmende redenen van humanitaire aard daartoe nopen dan wel het belang van de internationale betrekkingen de verlening van een machtiging tot voorlopig verblijf vordert." />
-        <ref role="cog$q" node="2vpCevmJ1tG" resolve="art. 2p lid 2 Vw" />
+        <ref role="cog$q" node="63E5y3U1Tm7" resolve="art. 2p lid 2 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1v2" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tnt" role="cu0BP">
       <property role="TrG5h" value="aanvraag tot het verlenen van een vvr-bep" />
       <property role="3ANC2_" value="QUESTION: Gebruiken we hier de afkorting 'vvr-bep', een andere afkorting, of een volledige aanduiding (: 'verblijfsvergunning regulier voor bepaalde tijd'). Is het [] of &lt;&lt;&gt;&gt;?" />
-      <node concept="cog_b" id="2vpCevmJ1v3" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tnu" role="2pmM46">
         <property role="1FEjNx" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
-        <ref role="cog$q" node="2vpCevmJ1tH" resolve="art. 14 lid 1, onder a, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tm8" resolve="art. 14 lid 1, onder a, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1v4" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tnv" role="cu0BP">
       <property role="TrG5h" value="besluit tot afwijzen aanvraag tot het verlenen van een vvr-bep" />
       <property role="3ANC2_" value="[] moet zijn &lt;&lt;&gt;&gt;" />
-      <node concept="cog_b" id="2vpCevmJ1v5" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tnw" role="2pmM46">
         <property role="1FEjNx" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
-        <ref role="cog$q" node="2vpCevmJ1tH" resolve="art. 14 lid 1, onder a, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tm8" resolve="art. 14 lid 1, onder a, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1v6" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tnx" role="cu0BP">
       <property role="TrG5h" value="besluit tot inwilligen aanvraag tot het verlenen van een vvr-bep" />
       <property role="3ANC2_" value="[] moet zijn &lt;&lt;&gt;&gt;" />
-      <node concept="cog_b" id="2vpCevmJ1v7" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tny" role="2pmM46">
         <property role="1FEjNx" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
-        <ref role="cog$q" node="2vpCevmJ1tH" resolve="art. 14 lid 1, onder a, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tm8" resolve="art. 14 lid 1, onder a, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1v8" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tnz" role="cu0BP">
       <property role="TrG5h" value="besluit tot niet in behandeling nemen aanvraag tot het verlenen van een vvr-bep" />
       <property role="3ANC2_" value="[] moet zijn &lt;&lt;&gt;&gt;" />
-      <node concept="cog_b" id="2vpCevmJ1v9" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tn$" role="2pmM46">
         <property role="1FEjNx" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
-        <ref role="cog$q" node="2vpCevmJ1tH" resolve="art. 14 lid 1, onder a, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tm8" resolve="art. 14 lid 1, onder a, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1va" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tn_" role="cu0BP">
       <property role="TrG5h" value="inwilligen" />
       <property role="3ANC2_" value="QUESTION: Vervoegingen van 'inwilligen' worden op veel plaatsen binnen en buiten de Vw gebruikt. Hoe gaan we daar mee om?" />
-      <node concept="cog_b" id="2vpCevmJ1vb" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TnA" role="2pmM46">
         <property role="1FEjNx" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
-        <ref role="cog$q" node="2vpCevmJ1tH" resolve="art. 14 lid 1, onder a, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tm8" resolve="art. 14 lid 1, onder a, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1vc" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TnB" role="cu0BP">
       <property role="TrG5h" value="vvr-bep wordt verleend onder beperkingen, verband houdende met het doel waarvoor het verblijf is toegestaan" />
       <property role="3ANC2_" value="NOTABLE: Het onderscheid tussen 'beperking' en 'doel' is niet duidelijk. In art. 3.4 Vb wordt in lid 1 een lijst gecreeerd van doelen die verband houden met beperkingen. In lid drie worden die doelen aangeduid met de term 'beperkingen'. In lid 2 is niet helemaal duidelijk waar de term 'De beperkingen, bedoeld in het eerste lid' naar verwijst. Wij interpreteren 'doel' als de reden van verblijf, en 'beperking' als de omschrijving op de verblijfsvergunning. ISSUE: hoe omgaan met hernummering in citation?" />
-      <node concept="cog_b" id="2vpCevmJ1vd" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TnC" role="2pmM46">
         <property role="1FEjNx" value="Een verblijfsvergunning voor bepaalde tijd wordt verleend onder beperkingen, verband houdende met het doel waarvoor het verblijf is toegestaan." />
-        <ref role="cog$q" node="2vpCevmJ1tI" resolve="art. 14 lid 3 Vw (zin 1) {vanaf 01-06-2013}, art. 14 lid 2 Vw (zin 1) {van 01-04-2001 tot 01-06-2013}" />
+        <ref role="cog$q" node="63E5y3U1Tm9" resolve="art. 14 lid 3 Vw (zin 1) {vanaf 01-06-2013}, art. 14 lid 2 Vw (zin 1) {van 01-04-2001 tot 01-06-2013}" />
       </node>
-      <node concept="1zEWgd" id="2vpCevmJ1ve" role="coNO9">
-        <node concept="1FQA6B" id="2vpCevmJ1vf" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1vg" resolve="vvr-bep wordt verleend onder beperkingen" />
+      <node concept="1zEWgd" id="63E5y3U1TnD" role="coNO9">
+        <node concept="1FQA6B" id="63E5y3U1TnE" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1TnF" resolve="vvr-bep wordt verleend onder beperkingen" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1vh" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1vi" resolve="doel waarvoor het verblijf is toegestaan" />
+        <node concept="1FQA6B" id="63E5y3U1TnG" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1TnH" resolve="doel waarvoor het verblijf is toegestaan" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1vg" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TnF" role="cu0BP">
       <property role="TrG5h" value="vvr-bep wordt verleend onder beperkingen" />
       <property role="3ANC2_" value="NOTABLE: Bij het nemen van het besluit is de beperking nog niet vastgesteld, er wordt de verplichting (duty) gecreeerd om de beperking vast te stellen. Hiervoor bestaat een 'act' die is beschreven in het Vreemdelingenbesluit (Vb), niet in de Vreemdelingenwet (Vw)." />
-      <node concept="cog_b" id="2vpCevmJ1vj" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TnI" role="2pmM46">
         <property role="1FEjNx" value="Een verblijfsvergunning voor bepaalde tijd wordt verleend onder beperkingen, verband houdende met het doel waarvoor het verblijf is toegestaan." />
-        <ref role="cog$q" node="2vpCevmJ1tI" resolve="art. 14 lid 3 Vw (zin 1) {vanaf 01-06-2013}, art. 14 lid 2 Vw (zin 1) {van 01-04-2001 tot 01-06-2013}" />
+        <ref role="cog$q" node="63E5y3U1Tm9" resolve="art. 14 lid 3 Vw (zin 1) {vanaf 01-06-2013}, art. 14 lid 2 Vw (zin 1) {van 01-04-2001 tot 01-06-2013}" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1vi" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TnH" role="cu0BP">
       <property role="TrG5h" value="doel waarvoor het verblijf is toegestaan" />
       <property role="3ANC2_" value="ISSUE: Eigenlijk hoort hier een 'XOR' expression." />
-      <node concept="cog_b" id="2vpCevmJ1vk" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TnJ" role="2pmM46">
         <property role="1FEjNx" value="Een verblijfsvergunning voor bepaalde tijd wordt verleend onder beperkingen, verband houdende met het doel waarvoor het verblijf is toegestaan." />
-        <ref role="cog$q" node="2vpCevmJ1tI" resolve="art. 14 lid 3 Vw (zin 1) {vanaf 01-06-2013}, art. 14 lid 2 Vw (zin 1) {van 01-04-2001 tot 01-06-2013}" />
+        <ref role="cog$q" node="63E5y3U1Tm9" resolve="art. 14 lid 3 Vw (zin 1) {vanaf 01-06-2013}, art. 14 lid 2 Vw (zin 1) {van 01-04-2001 tot 01-06-2013}" />
       </node>
-      <node concept="1zEXH2" id="2vpCevmJ1vl" role="coNO9">
-        <node concept="1FQA6B" id="2vpCevmJ1vm" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1vn" resolve="verblijf als familie- of gezinslid" />
+      <node concept="1zEXH2" id="63E5y3U1TnK" role="coNO9">
+        <node concept="1FQA6B" id="63E5y3U1TnL" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1TnM" resolve="verblijf als familie- of gezinslid" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1vo" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1vp" resolve="verblijf als economisch niet-actieve langdurig ingezetene of vermogende vreemdeling" />
+        <node concept="1FQA6B" id="63E5y3U1TnN" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1TnO" resolve="verblijf als economisch niet-actieve langdurig ingezetene of vermogende vreemdeling" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1vq" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1vr" resolve="arbeid als zelfstandige" />
+        <node concept="1FQA6B" id="63E5y3U1TnP" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1TnQ" resolve="arbeid als zelfstandige" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1vs" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1vt" resolve="arbeid als kennismigrant" />
+        <node concept="1FQA6B" id="63E5y3U1TnR" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1TnS" resolve="arbeid als kennismigrant" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1vu" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1vv" resolve="verblijf als houder van de Europese blauwe kaart" />
+        <node concept="1FQA6B" id="63E5y3U1TnT" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1TnU" resolve="verblijf als houder van de Europese blauwe kaart" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1vw" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1vx" resolve="seizoenarbeid" />
+        <node concept="1FQA6B" id="63E5y3U1TnV" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1TnW" resolve="seizoenarbeid" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1vy" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1vz" resolve="overplaatsing binnen een onderneming" />
+        <node concept="1FQA6B" id="63E5y3U1TnX" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1TnY" resolve="overplaatsing binnen een onderneming" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1v$" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1v_" resolve="arbeid in loondienst" />
+        <node concept="1FQA6B" id="63E5y3U1TnZ" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1To0" resolve="arbeid in loondienst" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1vA" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1vB" resolve="grensoverschrijdende dienstverlening" />
+        <node concept="1FQA6B" id="63E5y3U1To1" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1To2" resolve="grensoverschrijdende dienstverlening" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1vC" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1vD" resolve="onderzoek in de zin van richtlijn (EU) 2016/801" />
+        <node concept="1FQA6B" id="63E5y3U1To3" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1To4" resolve="onderzoek in de zin van richtlijn (EU) 2016/801" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1vE" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1vF" resolve="lerend werken" />
+        <node concept="1FQA6B" id="63E5y3U1To5" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1To6" resolve="lerend werken" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1vG" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1vH" resolve="arbeid als niet-geprivilegieerd militair of niet-geprivilegieerd burgerpersoneel" />
+        <node concept="1FQA6B" id="63E5y3U1To7" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1To8" resolve="arbeid als niet-geprivilegieerd militair of niet-geprivilegieerd burgerpersoneel" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1vI" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1vJ" resolve="studie" />
+        <node concept="1FQA6B" id="63E5y3U1To9" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Toa" resolve="studie" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1vK" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1vL" resolve="het zoeken naar en verrichten van arbeid al dan niet in loondienst" />
+        <node concept="1FQA6B" id="63E5y3U1Tob" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Toc" resolve="het zoeken naar en verrichten van arbeid al dan niet in loondienst" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1vM" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1vN" resolve="uitwisseling" />
+        <node concept="1FQA6B" id="63E5y3U1Tod" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Toe" resolve="uitwisseling" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1vO" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1vP" resolve="medische behandeling" />
+        <node concept="1FQA6B" id="63E5y3U1Tof" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tog" resolve="medische behandeling" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1vQ" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1vR" resolve="tijdelijke humanitaire gronden" />
+        <node concept="1FQA6B" id="63E5y3U1Toh" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Toi" resolve="tijdelijke humanitaire gronden" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1vS" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1vT" resolve="het afwachten van een verzoek op grond van art. 17 RWN" />
+        <node concept="1FQA6B" id="63E5y3U1Toj" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tok" resolve="het afwachten van een verzoek op grond van art. 17 RWN" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1vU" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1vV" resolve="niet-tijdelijke humanitaire gronden" />
+        <node concept="1FQA6B" id="63E5y3U1Tol" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tom" resolve="niet-tijdelijke humanitaire gronden" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1vW" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Ton" role="cu0BP">
       <property role="TrG5h" value="vreemdeling beschikt over een geldige machtiging tot voorlopig verblijf" />
-      <node concept="cog_b" id="2vpCevmJ1vX" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Too" role="2pmM46">
         <property role="1FEjNx" value="de vreemdeling niet beschikt over een geldige machtiging tot voorlopig verblijf die overeenkomt met het verblijfsdoel waarvoor de verblijfsvergunning is aangevraagd" />
-        <ref role="cog$q" node="2vpCevmJ1tJ" resolve="art. 16 lid 1, onder a, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tma" resolve="art. 16 lid 1, onder a, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1vY" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Top" role="cu0BP">
       <property role="TrG5h" value="vreemdeling beschikt over een geldig document voor grensoverschrijding" />
       <property role="3ANC2_" value="NOTABLE: Deze tekst staat zowel in art. 16 als art. 18 lid 1 Vw" />
-      <node concept="cog_b" id="2vpCevmJ1vZ" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Toq" role="2pmM46">
         <property role="1FEjNx" value="de vreemdeling niet beschikt over een geldig document voor grensoverschrijding" />
-        <ref role="cog$q" node="2vpCevmJ1tK" resolve="art. 16 lid 1, onder b, Vw, and art. 18 lid 1, onder b, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmb" resolve="art. 16 lid 1, onder b, Vw, and art. 18 lid 1, onder b, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1w0" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tor" role="cu0BP">
       <property role="TrG5h" value="vreemdeling dan wel, de persoon bij wie de vreemdeling wil verblijven, beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
       <property role="3ANC2_" value="QUESTION: Er zijn mensen binnen de IND die vinden dat er een 'XOR' expressie in de functie hoort. Eén van beiden moet duurzaam en zelfstandig beschikken over voldoende middelen van bestaan. De middelen van de vreemdeling en zijn verblijfgever mogen niet bij elkaar worden opgeteld. In de komende week ga ik deze voorwaarde verder uitwerken." />
-      <node concept="cog_b" id="2vpCevmJ1w1" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tos" role="2pmM46">
         <property role="1FEjNx" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
-        <ref role="cog$q" node="2vpCevmJ1tL" resolve="art. 16 lid 1, onder c, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmc" resolve="art. 16 lid 1, onder c, Vw" />
       </node>
-      <node concept="1zEXH2" id="2vpCevmJ1w2" role="coNO9">
-        <node concept="1FQA6B" id="2vpCevmJ1w3" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1w4" resolve="vreemdeling beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
+      <node concept="1zEXH2" id="63E5y3U1Tot" role="coNO9">
+        <node concept="1FQA6B" id="63E5y3U1Tou" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tov" resolve="vreemdeling beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1w5" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1w6" resolve="persoon bij wie de vreemdeling wil verblijven beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
+        <node concept="1FQA6B" id="63E5y3U1Tow" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tox" resolve="persoon bij wie de vreemdeling wil verblijven beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1w4" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tov" role="cu0BP">
       <property role="TrG5h" value="vreemdeling beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
-      <node concept="cog_b" id="2vpCevmJ1w7" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Toy" role="2pmM46">
         <property role="1FEjNx" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
-        <ref role="cog$q" node="2vpCevmJ1tL" resolve="art. 16 lid 1, onder c, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmc" resolve="art. 16 lid 1, onder c, Vw" />
       </node>
-      <node concept="1zEWgd" id="2vpCevmJ1w8" role="coNO9">
-        <node concept="1FQA6B" id="2vpCevmJ1w9" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1wa" resolve="vreemdeling beschikt over middelen van bestaan" />
+      <node concept="1zEWgd" id="63E5y3U1Toz" role="coNO9">
+        <node concept="1FQA6B" id="63E5y3U1To$" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1To_" resolve="vreemdeling beschikt over middelen van bestaan" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1wb" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1wc" resolve="middelen van bestaan zijn zelfstandig" />
+        <node concept="1FQA6B" id="63E5y3U1ToA" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1ToB" resolve="middelen van bestaan zijn zelfstandig" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1wd" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1we" resolve="middelen van bestaan zijn duurzaam" />
+        <node concept="1FQA6B" id="63E5y3U1ToC" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1ToD" resolve="middelen van bestaan zijn duurzaam" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1wf" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1wg" resolve="middelen van bestaan zijn voldoende" />
+        <node concept="1FQA6B" id="63E5y3U1ToE" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1ToF" resolve="middelen van bestaan zijn voldoende" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1w6" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tox" role="cu0BP">
       <property role="TrG5h" value="persoon bij wie de vreemdeling wil verblijven beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
-      <node concept="cog_b" id="2vpCevmJ1wh" role="coufz">
+      <node concept="cog_b" id="63E5y3U1ToG" role="2pmM46">
         <property role="1FEjNx" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
-        <ref role="cog$q" node="2vpCevmJ1tL" resolve="art. 16 lid 1, onder c, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmc" resolve="art. 16 lid 1, onder c, Vw" />
       </node>
-      <node concept="1zEWgd" id="2vpCevmJ1wi" role="coNO9">
-        <node concept="1FQA6B" id="2vpCevmJ1wj" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1wk" resolve="persoon bij wie de vreemdeling wil verblijven beschikt over middelen van bestaan" />
+      <node concept="1zEWgd" id="63E5y3U1ToH" role="coNO9">
+        <node concept="1FQA6B" id="63E5y3U1ToI" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1ToJ" resolve="persoon bij wie de vreemdeling wil verblijven beschikt over middelen van bestaan" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1wl" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1wc" resolve="middelen van bestaan zijn zelfstandig" />
+        <node concept="1FQA6B" id="63E5y3U1ToK" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1ToB" resolve="middelen van bestaan zijn zelfstandig" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1wm" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1we" resolve="middelen van bestaan zijn duurzaam" />
+        <node concept="1FQA6B" id="63E5y3U1ToL" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1ToD" resolve="middelen van bestaan zijn duurzaam" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1wn" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1wg" resolve="middelen van bestaan zijn voldoende" />
+        <node concept="1FQA6B" id="63E5y3U1ToM" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1ToF" resolve="middelen van bestaan zijn voldoende" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1wa" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1To_" role="cu0BP">
       <property role="TrG5h" value="vreemdeling beschikt over middelen van bestaan" />
-      <node concept="cog_b" id="2vpCevmJ1wo" role="coufz">
+      <node concept="cog_b" id="63E5y3U1ToN" role="2pmM46">
         <property role="1FEjNx" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
-        <ref role="cog$q" node="2vpCevmJ1tL" resolve="art. 16 lid 1, onder c, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmc" resolve="art. 16 lid 1, onder c, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1wk" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1ToJ" role="cu0BP">
       <property role="TrG5h" value="persoon bij wie de vreemdeling wil verblijven beschikt over middelen van bestaan" />
-      <node concept="cog_b" id="2vpCevmJ1wp" role="coufz">
+      <node concept="cog_b" id="63E5y3U1ToO" role="2pmM46">
         <property role="1FEjNx" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
-        <ref role="cog$q" node="2vpCevmJ1tL" resolve="art. 16 lid 1, onder c, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmc" resolve="art. 16 lid 1, onder c, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1wJ" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tpa" role="cu0BP">
       <property role="TrG5h" value="bron van de inkomsten verworven uit eigen vermogen wordt aangetast" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1wc" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1ToB" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn zelfstandig" />
       <property role="3ANC2_" value="QUESTION: In art. 3.73 lid 1 onder e, Vb gaat het over 'voor onderzoek in de zin van richtlijn (EU) 2016/801, studie, lerend werken of uitwisseling', maar in art. 3.4 lid 1 Vb ontbreekt 'verblijf voor' in combinatie met deze verblijfsdoelen. Hoe gaan we hier mee om?" />
-      <node concept="cog_b" id="2vpCevmJ1wq" role="coufz">
+      <node concept="cog_b" id="63E5y3U1ToP" role="2pmM46">
         <property role="1FEjNx" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
-        <ref role="cog$q" node="2vpCevmJ1tL" resolve="art. 16 lid 1, onder c, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmc" resolve="art. 16 lid 1, onder c, Vw" />
       </node>
-      <node concept="1zEXH2" id="2vpCevmJ1wr" role="coNO9">
-        <node concept="1zEWgd" id="2vpCevmJ1ws" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1wt" role="1zF96y">
-            <ref role="1FQA6$" node="2vpCevmJ1wu" resolve="middelen van bestaan zijn verworven uit wettelijk toegestane arbeid in loondienst" />
+      <node concept="1zEXH2" id="63E5y3U1ToQ" role="coNO9">
+        <node concept="1zEWgd" id="63E5y3U1ToR" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1ToS" role="1zF96y">
+            <ref role="1FQA6$" node="63E5y3U1ToT" resolve="middelen van bestaan zijn verworven uit wettelijk toegestane arbeid in loondienst" />
           </node>
-          <node concept="1FQA6B" id="2vpCevmJ1wv" role="1zF96y">
-            <ref role="1FQA6$" node="2vpCevmJ1ww" resolve="vereiste premies en belastingen zijn afgedragen" />
-          </node>
-        </node>
-        <node concept="1zEWgd" id="2vpCevmJ1wx" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1wy" role="1zF96y">
-            <ref role="1FQA6$" node="2vpCevmJ1wz" resolve="middelen van bestaan zijn verworven uit wettelijk toegestane arbeid als zelfstandige" />
-          </node>
-          <node concept="1FQA6B" id="2vpCevmJ1w$" role="1zF96y">
-            <ref role="1FQA6$" node="2vpCevmJ1ww" resolve="vereiste premies en belastingen zijn afgedragen" />
+          <node concept="1FQA6B" id="63E5y3U1ToU" role="1zF96y">
+            <ref role="1FQA6$" node="63E5y3U1ToV" resolve="vereiste premies en belastingen zijn afgedragen" />
           </node>
         </node>
-        <node concept="1zEWgd" id="2vpCevmJ1w_" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1wA" role="1zF96y">
-            <ref role="1FQA6$" node="2vpCevmJ1wB" resolve="middelen van bestaan zijn verworven uit inkomensvervangende uitkeringen krachtens een sociale verzekeringswet" />
+        <node concept="1zEWgd" id="63E5y3U1ToW" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1ToX" role="1zF96y">
+            <ref role="1FQA6$" node="63E5y3U1ToY" resolve="middelen van bestaan zijn verworven uit wettelijk toegestane arbeid als zelfstandige" />
           </node>
-          <node concept="1FQA6B" id="2vpCevmJ1wC" role="1zF96y">
-            <ref role="1FQA6$" node="2vpCevmJ1wD" resolve="vereiste premies zijn afgedragen" />
-          </node>
-        </node>
-        <node concept="1zEWgd" id="2vpCevmJ1wE" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1wF" role="1zF96y">
-            <ref role="1FQA6$" node="2vpCevmJ1wG" resolve="middelen van bestaan zijn verworven uit eigen vermogen" />
-          </node>
-          <node concept="1zEXH5" id="2vpCevmJ1wH" role="1zF96y">
-            <node concept="1FQA6B" id="2vpCevmJ1wI" role="1zF96A">
-              <ref role="1FQA6$" node="2vpCevmJ1wJ" resolve="bron van de inkomsten verworven uit eigen vermogen wordt aangetast" />
-            </node>
-          </node>
-          <node concept="1FQA6B" id="2vpCevmJ1wK" role="1zF96y">
-            <ref role="1FQA6$" node="2vpCevmJ1wL" resolve="vereiste belastingen zijn afgedragen" />
+          <node concept="1FQA6B" id="63E5y3U1ToZ" role="1zF96y">
+            <ref role="1FQA6$" node="63E5y3U1ToV" resolve="vereiste premies en belastingen zijn afgedragen" />
           </node>
         </node>
-        <node concept="1zEWgd" id="2vpCevmJ1wM" role="1zF96y">
-          <node concept="1zEXH2" id="2vpCevmJ1wN" role="1zF96y">
-            <node concept="1FQA6B" id="2vpCevmJ1wO" role="1zF96y">
-              <ref role="1FQA6$" node="2vpCevmJ1vD" resolve="onderzoek in de zin van richtlijn (EU) 2016/801" />
-            </node>
-            <node concept="1FQA6B" id="2vpCevmJ1wP" role="1zF96y">
-              <ref role="1FQA6$" node="2vpCevmJ1vJ" resolve="studie" />
-            </node>
-            <node concept="1FQA6B" id="2vpCevmJ1wQ" role="1zF96y">
-              <ref role="1FQA6$" node="2vpCevmJ1vF" resolve="lerend werken" />
-            </node>
-            <node concept="1FQA6B" id="2vpCevmJ1wR" role="1zF96y">
-              <ref role="1FQA6$" node="2vpCevmJ1vN" resolve="uitwisseling" />
+        <node concept="1zEWgd" id="63E5y3U1Tp0" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1Tp1" role="1zF96y">
+            <ref role="1FQA6$" node="63E5y3U1Tp2" resolve="middelen van bestaan zijn verworven uit inkomensvervangende uitkeringen krachtens een sociale verzekeringswet" />
+          </node>
+          <node concept="1FQA6B" id="63E5y3U1Tp3" role="1zF96y">
+            <ref role="1FQA6$" node="63E5y3U1Tp4" resolve="vereiste premies zijn afgedragen" />
+          </node>
+        </node>
+        <node concept="1zEWgd" id="63E5y3U1Tp5" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1Tp6" role="1zF96y">
+            <ref role="1FQA6$" node="63E5y3U1Tp7" resolve="middelen van bestaan zijn verworven uit eigen vermogen" />
+          </node>
+          <node concept="1zEXH5" id="63E5y3U1Tp8" role="1zF96y">
+            <node concept="1FQA6B" id="63E5y3U1Tp9" role="1zF96A">
+              <ref role="1FQA6$" node="63E5y3U1Tpa" resolve="bron van de inkomsten verworven uit eigen vermogen wordt aangetast" />
             </node>
           </node>
-          <node concept="1zEXH2" id="2vpCevmJ1wS" role="1zF96y">
-            <node concept="1FQA6B" id="2vpCevmJ1wT" role="1zF96y">
-              <ref role="1FQA6$" node="2vpCevmJ1wU" resolve="middelen van bestaan zijn verworven uit financiële ondersteuning van de referent" />
+          <node concept="1FQA6B" id="63E5y3U1Tpb" role="1zF96y">
+            <ref role="1FQA6$" node="63E5y3U1Tpc" resolve="vereiste belastingen zijn afgedragen" />
+          </node>
+        </node>
+        <node concept="1zEWgd" id="63E5y3U1Tpd" role="1zF96y">
+          <node concept="1zEXH2" id="63E5y3U1Tpe" role="1zF96y">
+            <node concept="1FQA6B" id="63E5y3U1Tpf" role="1zF96y">
+              <ref role="1FQA6$" node="63E5y3U1To4" resolve="onderzoek in de zin van richtlijn (EU) 2016/801" />
             </node>
-            <node concept="1FQA6B" id="2vpCevmJ1wV" role="1zF96y">
-              <ref role="1FQA6$" node="2vpCevmJ1wW" resolve="middelen van bestaan zijn verworven uit een subsidie" />
+            <node concept="1FQA6B" id="63E5y3U1Tpg" role="1zF96y">
+              <ref role="1FQA6$" node="63E5y3U1Toa" resolve="studie" />
             </node>
-            <node concept="1FQA6B" id="2vpCevmJ1wX" role="1zF96y">
-              <ref role="1FQA6$" node="2vpCevmJ1wY" resolve="middelen van bestaan zijn verworven uit een beurs" />
+            <node concept="1FQA6B" id="63E5y3U1Tph" role="1zF96y">
+              <ref role="1FQA6$" node="63E5y3U1To6" resolve="lerend werken" />
             </node>
-            <node concept="1FQA6B" id="2vpCevmJ1wZ" role="1zF96y">
-              <ref role="1FQA6$" node="2vpCevmJ1x0" resolve="middelen van bestaan zijn verworven uit een toelage" />
+            <node concept="1FQA6B" id="63E5y3U1Tpi" role="1zF96y">
+              <ref role="1FQA6$" node="63E5y3U1Toe" resolve="uitwisseling" />
+            </node>
+          </node>
+          <node concept="1zEXH2" id="63E5y3U1Tpj" role="1zF96y">
+            <node concept="1FQA6B" id="63E5y3U1Tpk" role="1zF96y">
+              <ref role="1FQA6$" node="63E5y3U1Tpl" resolve="middelen van bestaan zijn verworven uit financiële ondersteuning van de referent" />
+            </node>
+            <node concept="1FQA6B" id="63E5y3U1Tpm" role="1zF96y">
+              <ref role="1FQA6$" node="63E5y3U1Tpn" resolve="middelen van bestaan zijn verworven uit een subsidie" />
+            </node>
+            <node concept="1FQA6B" id="63E5y3U1Tpo" role="1zF96y">
+              <ref role="1FQA6$" node="63E5y3U1Tpp" resolve="middelen van bestaan zijn verworven uit een beurs" />
+            </node>
+            <node concept="1FQA6B" id="63E5y3U1Tpq" role="1zF96y">
+              <ref role="1FQA6$" node="63E5y3U1Tpr" resolve="middelen van bestaan zijn verworven uit een toelage" />
             </node>
           </node>
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1we" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1ToD" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn duurzaam" />
       <property role="3ANC2_" value="CHECK: wat zegt de wet over de volgorde eigen vermogen en arbeid en loondienst" />
-      <node concept="cog_b" id="2vpCevmJ1x1" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tps" role="2pmM46">
         <property role="1FEjNx" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
-        <ref role="cog$q" node="2vpCevmJ1tL" resolve="art. 16 lid 1, onder c, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmc" resolve="art. 16 lid 1, onder c, Vw" />
       </node>
-      <node concept="1zEXH2" id="2vpCevmJ1x2" role="coNO9">
-        <node concept="1FQA6B" id="2vpCevmJ1x3" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1x4" resolve="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen" />
+      <node concept="1zEXH2" id="63E5y3U1Tpt" role="coNO9">
+        <node concept="1FQA6B" id="63E5y3U1Tpu" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tpv" resolve="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1x5" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1x6" resolve="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de beschikking wordt gegeven" />
+        <node concept="1FQA6B" id="63E5y3U1Tpw" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tpx" resolve="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de beschikking wordt gegeven" />
         </node>
-        <node concept="1zEWgd" id="2vpCevmJ1x7" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1x8" role="1zF96y">
-            <ref role="1FQA6$" node="2vpCevmJ1x9" resolve="middelen van bestaan verkregen uit arbeid in loondienst" />
+        <node concept="1zEWgd" id="63E5y3U1Tpy" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1Tpz" role="1zF96y">
+            <ref role="1FQA6$" node="63E5y3U1Tp$" resolve="middelen van bestaan verkregen uit arbeid in loondienst" />
           </node>
-          <node concept="1zEXH2" id="2vpCevmJ1xa" role="1zF96y">
-            <node concept="1zEWgd" id="2vpCevmJ1xb" role="1zF96y">
-              <node concept="1FQA6B" id="2vpCevmJ1xc" role="1zF96y">
-                <ref role="1FQA6$" node="2vpCevmJ1xd" resolve="op het tijdstip waarop de aanvraag is ontvangen zijn gedurende een ononderbroken periode van drie jaren voldoende middelen van bestaan uit arbeid in loondienst verworven" />
+          <node concept="1zEXH2" id="63E5y3U1Tp_" role="1zF96y">
+            <node concept="1zEWgd" id="63E5y3U1TpA" role="1zF96y">
+              <node concept="1FQA6B" id="63E5y3U1TpB" role="1zF96y">
+                <ref role="1FQA6$" node="63E5y3U1TpC" resolve="op het tijdstip waarop de aanvraag is ontvangen zijn gedurende een ononderbroken periode van drie jaren voldoende middelen van bestaan uit arbeid in loondienst verworven" />
               </node>
-              <node concept="1FQA6B" id="2vpCevmJ1xe" role="1zF96y">
-                <ref role="1FQA6$" node="2vpCevmJ1xf" resolve="op het tijdstip waarop de aanvraag is ontvangen zijn de middelen van bestaan gedurende nog zes maanden beschikbaar" />
+              <node concept="1FQA6B" id="63E5y3U1TpD" role="1zF96y">
+                <ref role="1FQA6$" node="63E5y3U1TpE" resolve="op het tijdstip waarop de aanvraag is ontvangen zijn de middelen van bestaan gedurende nog zes maanden beschikbaar" />
               </node>
             </node>
-            <node concept="1zEWgd" id="2vpCevmJ1xg" role="1zF96y">
-              <node concept="1FQA6B" id="2vpCevmJ1xh" role="1zF96y">
-                <ref role="1FQA6$" node="2vpCevmJ1xi" resolve="op het tijdstip waarop de beschikking wordt gegeven zijn gedurende een ononderbroken periode van drie jaren voldoende middelen van bestaan uit arbeid in loondienst verworven" />
+            <node concept="1zEWgd" id="63E5y3U1TpF" role="1zF96y">
+              <node concept="1FQA6B" id="63E5y3U1TpG" role="1zF96y">
+                <ref role="1FQA6$" node="63E5y3U1TpH" resolve="op het tijdstip waarop de beschikking wordt gegeven zijn gedurende een ononderbroken periode van drie jaren voldoende middelen van bestaan uit arbeid in loondienst verworven" />
               </node>
-              <node concept="1FQA6B" id="2vpCevmJ1xj" role="1zF96y">
-                <ref role="1FQA6$" node="2vpCevmJ1xk" resolve="op het tijdstip waarop de beschikking wordt gegeven zijn de middelen van bestaan gedurende nog zes maanden beschikbaar" />
+              <node concept="1FQA6B" id="63E5y3U1TpI" role="1zF96y">
+                <ref role="1FQA6$" node="63E5y3U1TpJ" resolve="op het tijdstip waarop de beschikking wordt gegeven zijn de middelen van bestaan gedurende nog zes maanden beschikbaar" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="1zEWgd" id="2vpCevmJ1xl" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1xm" role="1zF96y">
-            <ref role="1FQA6$" node="2vpCevmJ1xn" resolve="middelen van bestaan verkregen uit eigen vermogen" />
+        <node concept="1zEWgd" id="63E5y3U1TpK" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1TpL" role="1zF96y">
+            <ref role="1FQA6$" node="63E5y3U1TpM" resolve="middelen van bestaan verkregen uit eigen vermogen" />
           </node>
-          <node concept="1FQA6B" id="2vpCevmJ1xo" role="1zF96y">
-            <ref role="1FQA6$" node="2vpCevmJ1xp" resolve="middelen van bestaan zijn gedurende een aaneengesloten periode van een jaar beschikbaar geweest" />
+          <node concept="1FQA6B" id="63E5y3U1TpN" role="1zF96y">
+            <ref role="1FQA6$" node="63E5y3U1TpO" resolve="middelen van bestaan zijn gedurende een aaneengesloten periode van een jaar beschikbaar geweest" />
           </node>
-          <node concept="1zEXH2" id="2vpCevmJ1xq" role="1zF96y">
-            <node concept="1FQA6B" id="2vpCevmJ1xr" role="1zF96y">
-              <ref role="1FQA6$" node="2vpCevmJ1x4" resolve="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen" />
+          <node concept="1zEXH2" id="63E5y3U1TpP" role="1zF96y">
+            <node concept="1FQA6B" id="63E5y3U1TpQ" role="1zF96y">
+              <ref role="1FQA6$" node="63E5y3U1Tpv" resolve="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen" />
             </node>
-            <node concept="1FQA6B" id="2vpCevmJ1xs" role="1zF96y">
-              <ref role="1FQA6$" node="2vpCevmJ1x6" resolve="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de beschikking wordt gegeven" />
+            <node concept="1FQA6B" id="63E5y3U1TpR" role="1zF96y">
+              <ref role="1FQA6$" node="63E5y3U1Tpx" resolve="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de beschikking wordt gegeven" />
             </node>
           </node>
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1wg" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1ToF" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn voldoende" />
       <property role="3ANC2_" value="NOTABLE: Zie art. 3.75 lid 3 Vb voor werkloosheidsuitkering die meetelt voor berekening voldoede inkomen." />
-      <node concept="cog_b" id="2vpCevmJ1xt" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TpS" role="2pmM46">
         <property role="1FEjNx" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
-        <ref role="cog$q" node="2vpCevmJ1tL" resolve="art. 16 lid 1, onder c, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmc" resolve="art. 16 lid 1, onder c, Vw" />
       </node>
-      <node concept="1zEXH2" id="2vpCevmJ1xu" role="coNO9">
-        <node concept="1zEWgd" id="2vpCevmJ1xv" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1xw" role="1zF96y">
-            <ref role="1FQA6$" node="2vpCevmJ1xx" resolve="middelen van bestaan zijn ten minste gelijk is aan het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
+      <node concept="1zEXH2" id="63E5y3U1TpT" role="coNO9">
+        <node concept="1zEWgd" id="63E5y3U1TpU" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1TpV" role="1zF96y">
+            <ref role="1FQA6$" node="63E5y3U1TpW" resolve="middelen van bestaan zijn ten minste gelijk is aan het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
           </node>
-          <node concept="1FQA6B" id="2vpCevmJ1xy" role="1zF96y">
-            <ref role="1FQA6$" node="2vpCevmJ1xz" resolve="in bij ministeriële regeling aangewezen gevallen zijn middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
+          <node concept="1FQA6B" id="63E5y3U1TpX" role="1zF96y">
+            <ref role="1FQA6$" node="63E5y3U1TpY" resolve="in bij ministeriële regeling aangewezen gevallen zijn middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
           </node>
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1x$" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1x_" resolve="middelen van bestaan zijn voldoende, indien het netto-inkomen ten minste gelijk is aan het normbedrag voor uitwonende studenten, bedoeld in de WSF, indien de vreemdeling in Nederland verblijft of wil verblijven voor studie" />
+        <node concept="1FQA6B" id="63E5y3U1TpZ" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tq0" resolve="middelen van bestaan zijn voldoende, indien het netto-inkomen ten minste gelijk is aan het normbedrag voor uitwonende studenten, bedoeld in de WSF, indien de vreemdeling in Nederland verblijft of wil verblijven voor studie" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1xx" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TpW" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn ten minste gelijk is aan het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
       <property role="3ANC2_" value="TEMP, no function GREATER THEN OR EQUAL available (rekenkundige functie)" />
-      <node concept="cog_b" id="2vpCevmJ1xA" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tq1" role="2pmM46">
         <property role="1FEjNx" value="het minimumloon, bedoeld in de artikelen 8, eerste lid, onder a, en 14, van de Wet minimumloon en minimumvakantiebijslag, met inbegrip van de vakantiebijslag, bedoeld in artikel 15 van die wet;" />
-        <ref role="cog$q" node="2vpCevmJ1tM" resolve="Art. 3.74 lid 1, onder a, Vb" />
+        <ref role="cog$q" node="63E5y3U1Tmd" resolve="Art. 3.74 lid 1, onder a, Vb" />
       </node>
-      <node concept="1zEXGL" id="2vpCevmJ1xB" role="coNO9">
-        <node concept="1FQA6B" id="2vpCevmJ1xC" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1xD" resolve="minimumloon bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
+      <node concept="1zEXGL" id="63E5y3U1Tq2" role="coNO9">
+        <node concept="1FQA6B" id="63E5y3U1Tq3" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tq4" resolve="minimumloon bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1xE" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1xF" resolve="middelen van bestaan" />
+        <node concept="1FQA6B" id="63E5y3U1Tq5" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tq6" resolve="middelen van bestaan" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1xF" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tq6" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan" />
       <property role="3ANC2_" value="UITWERKEN sources" />
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1xD" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tq4" role="cu0BP">
       <property role="TrG5h" value="minimumloon bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
-      <node concept="1zEXHs" id="2vpCevmJ1xG" role="coNO9">
-        <node concept="1FQA6B" id="2vpCevmJ1xH" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1xI" resolve="minimumloon bedoeld in de art. 8 lid 1 Wml" />
+      <node concept="1zEXHs" id="63E5y3U1Tq7" role="coNO9">
+        <node concept="1FQA6B" id="63E5y3U1Tq8" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tq9" resolve="minimumloon bedoeld in de art. 8 lid 1 Wml" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1xJ" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1xK" resolve="vakantiebijslag minimum, bedoeld in art. 15 Wml" />
+        <node concept="1FQA6B" id="63E5y3U1Tqa" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tqb" resolve="vakantiebijslag minimum, bedoeld in art. 15 Wml" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1xM" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tqd" role="cu0BP">
       <property role="TrG5h" value="Het minimumloon bedraagt € 1653,60 per maand" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1xI" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tq9" role="cu0BP">
       <property role="TrG5h" value="minimumloon bedoeld in de art. 8 lid 1 Wml" />
-      <node concept="1FQA6B" id="2vpCevmJ1xL" role="coNO9">
-        <ref role="1FQA6$" node="2vpCevmJ1xM" resolve="Het minimumloon bedraagt € 1653,60 per maand" />
+      <node concept="1FQA6B" id="63E5y3U1Tqc" role="coNO9">
+        <ref role="1FQA6$" node="63E5y3U1Tqd" resolve="Het minimumloon bedraagt € 1653,60 per maand" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1xK" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tqb" role="cu0BP">
       <property role="TrG5h" value="vakantiebijslag minimum, bedoeld in art. 15 Wml" />
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1xz" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TpY" role="cu0BP">
       <property role="TrG5h" value="in bij ministeriële regeling aangewezen gevallen zijn middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
       <property role="3ANC2_" value="TEMP, no function GREATER THEN OR EQUAL available (rekenkundige functie)" />
-      <node concept="cog_b" id="2vpCevmJ1xN" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tqe" role="2pmM46">
         <property role="1FEjNx" value="in bij regeling van Onze Minister aangewezen gevallen: 150 procent van het minimumloon, bedoeld in onderdeel a." />
-        <ref role="cog$q" node="2vpCevmJ1tN" resolve="Art. 3.74 lid 1, onder b, Vb" />
+        <ref role="cog$q" node="63E5y3U1Tme" resolve="Art. 3.74 lid 1, onder b, Vb" />
       </node>
-      <node concept="1zEXH2" id="2vpCevmJ1xO" role="coNO9">
-        <node concept="1zEXGL" id="2vpCevmJ1xP" role="1zF96y">
-          <node concept="1zEXHv" id="2vpCevmJ1xQ" role="1zF96y">
-            <node concept="1FQA6B" id="2vpCevmJ1xR" role="1zF96y">
-              <ref role="1FQA6$" node="2vpCevmJ1xD" resolve="minimumloon bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
+      <node concept="1zEXH2" id="63E5y3U1Tqf" role="coNO9">
+        <node concept="1zEXGL" id="63E5y3U1Tqg" role="1zF96y">
+          <node concept="1zEXHv" id="63E5y3U1Tqh" role="1zF96y">
+            <node concept="1FQA6B" id="63E5y3U1Tqi" role="1zF96y">
+              <ref role="1FQA6$" node="63E5y3U1Tq4" resolve="minimumloon bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
             </node>
-            <node concept="1FQA6B" id="2vpCevmJ1xS" role="1zF96y">
-              <ref role="1FQA6$" node="2vpCevmJ1xT" resolve="Vul in 1.5 voor factor 150%" />
+            <node concept="1FQA6B" id="63E5y3U1Tqj" role="1zF96y">
+              <ref role="1FQA6$" node="63E5y3U1Tqk" resolve="Vul in 1.5 voor factor 150%" />
             </node>
           </node>
-          <node concept="1FQA6B" id="2vpCevmJ1xU" role="1zF96y">
-            <ref role="1FQA6$" node="2vpCevmJ1xF" resolve="middelen van bestaan" />
+          <node concept="1FQA6B" id="63E5y3U1Tql" role="1zF96y">
+            <ref role="1FQA6$" node="63E5y3U1Tq6" resolve="middelen van bestaan" />
           </node>
         </node>
-        <node concept="1zEXH5" id="2vpCevmJ1xV" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1xW" role="1zF96A">
-            <ref role="1FQA6$" node="2vpCevmJ1xX" resolve="in bij ministeriële regeling aangewezen gevallen waarbij middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
+        <node concept="1zEXH5" id="63E5y3U1Tqm" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1Tqn" role="1zF96A">
+            <ref role="1FQA6$" node="63E5y3U1Tqo" resolve="in bij ministeriële regeling aangewezen gevallen waarbij middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1xX" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tqo" role="cu0BP">
       <property role="TrG5h" value="in bij ministeriële regeling aangewezen gevallen waarbij middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
       <property role="3ANC2_" value="UITWERKEN: Vullen met au pair en eventuele andere verblijfsdoelen." />
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1xT" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tqk" role="cu0BP">
       <property role="TrG5h" value="Vul in 1.5 voor factor 150%" />
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1xY" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tqp" role="cu0BP">
       <property role="TrG5h" value="vreemdeling vormt een gevaar voor de openbare orde of nationale veiligheid" />
       <property role="3ANC2_" value="NOTABLE: Deze tekst staat zowel in art. 16 als art. 18 lid 1 Vw" />
-      <node concept="cog_b" id="2vpCevmJ1xZ" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tqq" role="2pmM46">
         <property role="1FEjNx" value="de vreemdeling een gevaar vormt voor de openbare orde of nationale veiligheid" />
-        <ref role="cog$q" node="2vpCevmJ1tO" resolve="art. 16 lid 1, onder d, Vw, en art. 18 lid 1, onder e, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmf" resolve="art. 16 lid 1, onder d, Vw, en art. 18 lid 1, onder e, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1y0" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tqr" role="cu0BP">
       <property role="TrG5h" value="vreemdeling is bereid om medewerking te verlenen aan een medisch onderzoek naar een ziekte aangewezen bij of krachtens de Wpg of een medische behandeling tegen een dergelijke ziekte te ondergaan" />
-      <node concept="cog_b" id="2vpCevmJ1y1" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tqs" role="2pmM46">
         <property role="1FEjNx" value="de vreemdeling niet bereid is om medewerking te verlenen aan een medisch onderzoek naar een ziekte aangewezen bij of krachtens de Infectieziektewet, ter bescherming van de volksgezondheid of een medische behandeling tegen een dergelijke ziekte te ondergaan;" />
-        <ref role="cog$q" node="2vpCevmJ1tP" resolve="art. 16 lid 1, onder e, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmg" resolve="art. 16 lid 1, onder e, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1y2" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tqt" role="cu0BP">
       <property role="TrG5h" value="vreemdeling voor een werkgever arbeid heeft verricht, zonder dat aan de Wet arbeid vreemdelingen is voldaan" />
       <property role="3ANC2_" value="ISSUE: deze tekst komt voor in 2 artikelen." />
-      <node concept="cog_b" id="2vpCevmJ1y3" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tqu" role="2pmM46">
         <property role="1FEjNx" value="de vreemdeling voor een werkgever arbeid verricht, zonder dat aan deWet arbeid vreemdelingenis voldaan" />
-        <ref role="cog$q" node="2vpCevmJ1tQ" resolve="art. 16 lid 1, onder f, Vw en art. 18 lid 1, onder g, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmh" resolve="art. 16 lid 1, onder f, Vw en art. 18 lid 1, onder g, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1y4" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tqv" role="cu0BP">
       <property role="TrG5h" value="vreemdeling voldoet aan de beperking, verband houdende met het doel waarvoor hij wil verblijven" />
-      <node concept="cog_b" id="2vpCevmJ1y5" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tqw" role="2pmM46">
         <property role="1FEjNx" value="de vreemdeling niet voldoet aan de beperking, verband houdende met het doel waarvoor hij wil verblijven" />
-        <ref role="cog$q" node="2vpCevmJ1tR" resolve="art. 16 lid 1, onder g, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmi" resolve="art. 16 lid 1, onder g, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1y6" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tqx" role="cu0BP">
       <property role="TrG5h" value="vreemdeling beschikt over kennis op basisniveau van de Nederlandse taal en de Nederlandse maatschappij" />
-      <node concept="cog_b" id="2vpCevmJ1y7" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tqy" role="2pmM46">
         <property role="1FEjNx" value="de vreemdeling, die niet behoort tot een der categorieën, bedoeld in artikel 17, eerste lid, na verkrijging van rechtmatig verblijf in Nederland inburgeringsplichtig zou zijn op grond van de artikel en 3 en 5 van de Wet inburgering en niet beschikt over kennis op basisniveau van de Nederlandse taal en de Nederlandse maatschappij" />
-        <ref role="cog$q" node="2vpCevmJ1tS" resolve="art. 16 lid 1, onder h, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmj" resolve="art. 16 lid 1, onder h, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1y8" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tqz" role="cu0BP">
       <property role="TrG5h" value="vreemdeling heeft onjuiste gegevens verstrekt dan wel gegevens achtergehouden" />
       <property role="3ANC2_" value="NOTABLE: Van 01-06-2013 tot 21-09-2013 zijn er twee onderdelen 'i' in art. 16 lid 1 Vw." />
-      <node concept="cog_b" id="2vpCevmJ1y9" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tq$" role="2pmM46">
         <property role="1FEjNx" value="de vreemdeling onjuiste gegevens heeft verstrekt dan wel gegevens heeft achtergehouden terwijl die gegevens tot afwijzing van een eerdere aanvraag tot het verlenen, verlengen of wijzigen van een visum of een verblijfsvergunning hebben geleid of zouden hebben geleid" />
-        <ref role="cog$q" node="2vpCevmJ1tT" resolve="art. 16 lid 1, onder i, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmk" resolve="art. 16 lid 1, onder i, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1ya" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tq_" role="cu0BP">
       <property role="TrG5h" value="vreemdeling heeft in Nederland verblijf gehouden, anders dan op grond van art. 8 Vw" />
       <property role="3ANC2_" value="ERROR: in de 'source text' eindigt dit zinsdeel ten onrechte met een '.'." />
-      <node concept="cog_b" id="2vpCevmJ1yb" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TqA" role="2pmM46">
         <property role="1FEjNx" value="de vreemdeling in Nederland verblijf heeft gehouden, anders dan op grond van artikel 8" />
-        <ref role="cog$q" node="2vpCevmJ1tU" resolve="art. 16 lid 1, onder j, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tml" resolve="art. 16 lid 1, onder j, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1yc" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TqB" role="cu0BP">
       <property role="TrG5h" value="ten behoeve van het verblijf van de vreemdeling is een verklaring van een referent overgelegd als bedoeld in art. 2a lid 1 Vw" />
       <property role="3ANC2_" value="NOTABLE: Dit onderdeel van art. 16 lid 1 Vw is hernummerd. Van 01-06-2013 tot 21-09-2013 zijn er twee onderdelen 'i' in art. 16 lid 1 Vw." />
-      <node concept="cog_b" id="2vpCevmJ1yd" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TqC" role="2pmM46">
         <property role="1FEjNx" value="ten behoeve van het verblijf van de vreemdeling geen verklaring van een referent is overgelegd als bedoeld in artikel 2a, eerste lid" />
-        <ref role="cog$q" node="2vpCevmJ1tV" resolve="art. 16 lid 1, onder k, Vw {vanaf 21-09-2013}; art. 16 lid 1, onder i, Vw {van 01-06-2013 tot 21-09-2013}; art. 18 lid 1, onder h, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmm" resolve="art. 16 lid 1, onder k, Vw {vanaf 21-09-2013}; art. 16 lid 1, onder i, Vw {van 01-06-2013 tot 21-09-2013}; art. 18 lid 1, onder h, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1ye" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TqD" role="cu0BP">
       <property role="TrG5h" value="houder van een vvr-bep zijn hoofdverblijf buiten Nederland heeft gevestigd" />
-      <node concept="cog_b" id="2vpCevmJ1yf" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TqE" role="2pmM46">
         <property role="1FEjNx" value="de houder daarvan zijn hoofdverblijf buiten Nederland heeft gevestigd" />
-        <ref role="cog$q" node="2vpCevmJ1tW" resolve="art. 18 lid 1, onder a, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmn" resolve="art. 18 lid 1, onder a, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1yg" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TqF" role="cu0BP">
       <property role="TrG5h" value="vreemdeling heeft onjuiste gegevens verstrekt dan wel gegevens heeft achtergehouden" />
       <property role="3ANC2_" value="QUESTION: 'fact frame' is hetzelfde als bij art. 16 lid 1, onder i, Vw, maar de 'source text' is niet gelijk. Hoe gaan we w=daar mee om?" />
-      <node concept="cog_b" id="2vpCevmJ1yh" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TqG" role="2pmM46">
         <property role="1FEjNx" value="de vreemdeling onjuiste gegevens heeft verstrekt dan wel gegevens heeft achtergehouden terwijl die gegevens tot afwijzing van de oorspronkelijke aanvraag tot het verlenen of verlengen zouden hebben geleid" />
-        <ref role="cog$q" node="2vpCevmJ1tX" resolve="art. 18 lid 1, onder c, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmo" resolve="art. 18 lid 1, onder c, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1yi" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TqH" role="cu0BP">
       <property role="TrG5h" value="voldaan wordt aan de beperking waaronder de vergunning is verleend of een voorschrift dat aan de vergunning is verbonden" />
       <property role="3ANC2_" value="NOTABLE: Dit fragment lijkt erg op art. 16 lid 1, onder g, Vw maar is niet hetzelfde." />
-      <node concept="cog_b" id="2vpCevmJ1yj" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TqI" role="2pmM46">
         <property role="1FEjNx" value="niet wordt voldaan aan de beperking waaronder de vergunning is verleend of een voorschrift dat aan de vergunning is verbonden;" />
-        <ref role="cog$q" node="2vpCevmJ1tY" resolve="art. 18 lid 1, onder f, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmp" resolve="art. 18 lid 1, onder f, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1yk" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TqJ" role="cu0BP">
       <property role="TrG5h" value="vreemdeling heeft voldaan aan de inburgeringsplicht, bedoeld in art. 7 lid 1 Wib" />
-      <node concept="cog_b" id="2vpCevmJ1yl" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TqK" role="2pmM46">
         <property role="1FEjNx" value="de vreemdeling niet heeft voldaan aan de inburgeringsplicht, bedoeld inartikel 7, eerste lid, van de Wet inburgering" />
-        <ref role="cog$q" node="2vpCevmJ1tZ" resolve="art. 18 lid 1, onder i, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmq" resolve="art. 18 lid 1, onder i, Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1ym" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TqL" role="cu0BP">
       <property role="TrG5h" value="vreemdeling is leges verschuldigd terzake van de afdoening van een aanvraag" />
-      <node concept="cog_b" id="2vpCevmJ1yn" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TqM" role="2pmM46">
         <property role="1FEjNx" value="De vreemdeling is, in door Onze Minister te bepalen gevallen en volgens door Onze Minister te geven regels, leges verschuldigd terzake van de afdoening van een aanvraag." />
-        <ref role="cog$q" node="2vpCevmJ1u0" resolve="art. 24 lid 1 Vw (zin 1)" />
+        <ref role="cog$q" node="63E5y3U1Tmr" resolve="art. 24 lid 1 Vw (zin 1)" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1yo" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TqN" role="cu0BP">
       <property role="TrG5h" value="betaling verschuldigde leges is achterwege gebleven" />
-      <node concept="cog_b" id="2vpCevmJ1yp" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TqO" role="2pmM46">
         <property role="1FEjNx" value="Als betaling achterwege blijft, wordt de aanvraag niet in behandeling genomen dan wel het document niet afgegeven." />
-        <ref role="cog$q" node="2vpCevmJ1u1" resolve="art. 24 lid 1 Vw (zin 3)" />
+        <ref role="cog$q" node="63E5y3U1Tms" resolve="art. 24 lid 1 Vw (zin 3)" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1yq" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TqP" role="cu0BP">
       <property role="TrG5h" value="verblijfsvergunning verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet" />
-      <node concept="cog_b" id="2vpCevmJ1yr" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TqQ" role="2pmM46">
         <property role="1FEjNx" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
-        <ref role="cog$q" node="2vpCevmJ1u2" resolve="art. 26 lid 1 Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmt" resolve="art. 26 lid 1 Vw" />
       </node>
-      <node concept="1zEWgd" id="2vpCevmJ1ys" role="coNO9">
-        <node concept="1FQA6B" id="2vpCevmJ1yt" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1yu" resolve="vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet" />
+      <node concept="1zEWgd" id="63E5y3U1TqR" role="coNO9">
+        <node concept="1FQA6B" id="63E5y3U1TqS" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1TqT" resolve="vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1yv" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1yw" resolve="dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet" />
+        <node concept="1FQA6B" id="63E5y3U1TqU" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1TqV" resolve="dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet" />
         </node>
-        <node concept="1zEXH5" id="2vpCevmJ1yx" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1yy" role="1zF96A">
-            <ref role="1FQA6$" node="2vpCevmJ1yz" resolve="dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet ligt voor de dag waarop de aanvraag is ontvangen" />
+        <node concept="1zEXH5" id="63E5y3U1TqW" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1TqX" role="1zF96A">
+            <ref role="1FQA6$" node="63E5y3U1TqY" resolve="dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet ligt voor de dag waarop de aanvraag is ontvangen" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1yu" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TqT" role="cu0BP">
       <property role="TrG5h" value="vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet" />
-      <node concept="cog_b" id="2vpCevmJ1y$" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TqZ" role="2pmM46">
         <property role="1FEjNx" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
-        <ref role="cog$q" node="2vpCevmJ1u2" resolve="art. 26 lid 1 Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmt" resolve="art. 26 lid 1 Vw" />
       </node>
-      <node concept="1zEWgd" id="2vpCevmJ1y_" role="coNO9">
-        <node concept="1FQA6B" id="2vpCevmJ1yA" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1yB" resolve="vreemdeling laat een gezichtsopname en tien vingerafdrukken afnemen" />
+      <node concept="1zEWgd" id="63E5y3U1Tr0" role="coNO9">
+        <node concept="1FQA6B" id="63E5y3U1Tr1" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tr2" resolve="vreemdeling laat een gezichtsopname en tien vingerafdrukken afnemen" />
         </node>
-        <node concept="1zEXH2" id="2vpCevmJ1yC" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1yD" role="1zF96y">
-            <ref role="1FQA6$" node="2vpCevmJ1yE" resolve="vreemdeling voldoet aan voorwaarden voor het verlenen van een vvr-bep" />
+        <node concept="1zEXH2" id="63E5y3U1Tr3" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1Tr4" role="1zF96y">
+            <ref role="1FQA6$" node="63E5y3U1Tr5" resolve="vreemdeling voldoet aan voorwaarden voor het verlenen van een vvr-bep" />
           </node>
-          <node concept="1FQA6B" id="2vpCevmJ1yF" role="1zF96y">
-            <ref role="1FQA6$" node="2vpCevmJ1yG" resolve="vreemdeling voldoet aan voorwaarden voor het verlengen van een vvr-bep" />
+          <node concept="1FQA6B" id="63E5y3U1Tr6" role="1zF96y">
+            <ref role="1FQA6$" node="63E5y3U1Tr7" resolve="vreemdeling voldoet aan voorwaarden voor het verlengen van een vvr-bep" />
           </node>
-          <node concept="1FQA6B" id="2vpCevmJ1yH" role="1zF96y">
-            <ref role="1FQA6$" node="2vpCevmJ1yI" resolve="vreemdeling voldoet aan voorwaarden voor het wijzigen van een vvr-bep" />
+          <node concept="1FQA6B" id="63E5y3U1Tr8" role="1zF96y">
+            <ref role="1FQA6$" node="63E5y3U1Tr9" resolve="vreemdeling voldoet aan voorwaarden voor het wijzigen van een vvr-bep" />
           </node>
-          <node concept="1FQA6B" id="2vpCevmJ1yJ" role="1zF96y">
-            <ref role="1FQA6$" node="2vpCevmJ1yK" resolve="vreemdeling voldoet aan voorwaarden voor het verlenen van een vvr-onbep" />
+          <node concept="1FQA6B" id="63E5y3U1Tra" role="1zF96y">
+            <ref role="1FQA6$" node="63E5y3U1Trb" resolve="vreemdeling voldoet aan voorwaarden voor het verlenen van een vvr-onbep" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1yE" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tr5" role="cu0BP">
       <property role="TrG5h" value="vreemdeling voldoet aan voorwaarden voor het verlenen van een vvr-bep" />
       <property role="3ANC2_" value="QUESTION: Hoe omgaan met het gebruik van 'de' en 'een' in FLINT. Bijvoorbeeld is [vreemdeling is leges verschuldigd terzake van de afdoening van een aanvraag]: 'de' of 'een' aanvraag?" />
-      <node concept="cog_b" id="2vpCevmJ1yL" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Trc" role="2pmM46">
         <property role="1FEjNx" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
-        <ref role="cog$q" node="2vpCevmJ1u2" resolve="art. 26 lid 1 Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmt" resolve="art. 26 lid 1 Vw" />
       </node>
-      <node concept="1zEWgd" id="2vpCevmJ1yM" role="coNO9">
-        <node concept="1FQA6B" id="2vpCevmJ1yN" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1vi" resolve="doel waarvoor het verblijf is toegestaan" />
+      <node concept="1zEWgd" id="63E5y3U1Trd" role="coNO9">
+        <node concept="1FQA6B" id="63E5y3U1Tre" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1TnH" resolve="doel waarvoor het verblijf is toegestaan" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1yO" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1vW" resolve="vreemdeling beschikt over een geldige machtiging tot voorlopig verblijf" />
+        <node concept="1FQA6B" id="63E5y3U1Trf" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Ton" resolve="vreemdeling beschikt over een geldige machtiging tot voorlopig verblijf" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1yP" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1vY" resolve="vreemdeling beschikt over een geldig document voor grensoverschrijding" />
+        <node concept="1FQA6B" id="63E5y3U1Trg" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Top" resolve="vreemdeling beschikt over een geldig document voor grensoverschrijding" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1yQ" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1w0" resolve="vreemdeling dan wel, de persoon bij wie de vreemdeling wil verblijven, beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
+        <node concept="1FQA6B" id="63E5y3U1Trh" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tor" resolve="vreemdeling dan wel, de persoon bij wie de vreemdeling wil verblijven, beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
         </node>
-        <node concept="1zEXH5" id="2vpCevmJ1yR" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1yS" role="1zF96A">
-            <ref role="1FQA6$" node="2vpCevmJ1xY" resolve="vreemdeling vormt een gevaar voor de openbare orde of nationale veiligheid" />
+        <node concept="1zEXH5" id="63E5y3U1Tri" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1Trj" role="1zF96A">
+            <ref role="1FQA6$" node="63E5y3U1Tqp" resolve="vreemdeling vormt een gevaar voor de openbare orde of nationale veiligheid" />
           </node>
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1yT" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1y0" resolve="vreemdeling is bereid om medewerking te verlenen aan een medisch onderzoek naar een ziekte aangewezen bij of krachtens de Wpg of een medische behandeling tegen een dergelijke ziekte te ondergaan" />
+        <node concept="1FQA6B" id="63E5y3U1Trk" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tqr" resolve="vreemdeling is bereid om medewerking te verlenen aan een medisch onderzoek naar een ziekte aangewezen bij of krachtens de Wpg of een medische behandeling tegen een dergelijke ziekte te ondergaan" />
         </node>
-        <node concept="1zEXH5" id="2vpCevmJ1yU" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1yV" role="1zF96A">
-            <ref role="1FQA6$" node="2vpCevmJ1y2" resolve="vreemdeling voor een werkgever arbeid heeft verricht, zonder dat aan de Wet arbeid vreemdelingen is voldaan" />
+        <node concept="1zEXH5" id="63E5y3U1Trl" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1Trm" role="1zF96A">
+            <ref role="1FQA6$" node="63E5y3U1Tqt" resolve="vreemdeling voor een werkgever arbeid heeft verricht, zonder dat aan de Wet arbeid vreemdelingen is voldaan" />
           </node>
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1yW" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1y4" resolve="vreemdeling voldoet aan de beperking, verband houdende met het doel waarvoor hij wil verblijven" />
+        <node concept="1FQA6B" id="63E5y3U1Trn" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tqv" resolve="vreemdeling voldoet aan de beperking, verband houdende met het doel waarvoor hij wil verblijven" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1yX" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1y6" resolve="vreemdeling beschikt over kennis op basisniveau van de Nederlandse taal en de Nederlandse maatschappij" />
+        <node concept="1FQA6B" id="63E5y3U1Tro" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tqx" resolve="vreemdeling beschikt over kennis op basisniveau van de Nederlandse taal en de Nederlandse maatschappij" />
         </node>
-        <node concept="1zEXH5" id="2vpCevmJ1yY" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1yZ" role="1zF96A">
-            <ref role="1FQA6$" node="2vpCevmJ1y8" resolve="vreemdeling heeft onjuiste gegevens verstrekt dan wel gegevens achtergehouden" />
+        <node concept="1zEXH5" id="63E5y3U1Trp" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1Trq" role="1zF96A">
+            <ref role="1FQA6$" node="63E5y3U1Tqz" resolve="vreemdeling heeft onjuiste gegevens verstrekt dan wel gegevens achtergehouden" />
           </node>
         </node>
-        <node concept="1zEXH5" id="2vpCevmJ1z0" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1z1" role="1zF96A">
-            <ref role="1FQA6$" node="2vpCevmJ1ya" resolve="vreemdeling heeft in Nederland verblijf gehouden, anders dan op grond van art. 8 Vw" />
+        <node concept="1zEXH5" id="63E5y3U1Trr" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1Trs" role="1zF96A">
+            <ref role="1FQA6$" node="63E5y3U1Tq_" resolve="vreemdeling heeft in Nederland verblijf gehouden, anders dan op grond van art. 8 Vw" />
           </node>
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1z2" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1yc" resolve="ten behoeve van het verblijf van de vreemdeling is een verklaring van een referent overgelegd als bedoeld in art. 2a lid 1 Vw" />
+        <node concept="1FQA6B" id="63E5y3U1Trt" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1TqB" resolve="ten behoeve van het verblijf van de vreemdeling is een verklaring van een referent overgelegd als bedoeld in art. 2a lid 1 Vw" />
         </node>
-        <node concept="1zEXH5" id="2vpCevmJ1z3" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1z4" role="1zF96A">
-            <ref role="1FQA6$" node="2vpCevmJ1ym" resolve="vreemdeling is leges verschuldigd terzake van de afdoening van een aanvraag" />
+        <node concept="1zEXH5" id="63E5y3U1Tru" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1Trv" role="1zF96A">
+            <ref role="1FQA6$" node="63E5y3U1TqL" resolve="vreemdeling is leges verschuldigd terzake van de afdoening van een aanvraag" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1yG" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tr7" role="cu0BP">
       <property role="TrG5h" value="vreemdeling voldoet aan voorwaarden voor het verlengen van een vvr-bep" />
-      <node concept="cog_b" id="2vpCevmJ1z5" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Trw" role="2pmM46">
         <property role="1FEjNx" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
-        <ref role="cog$q" node="2vpCevmJ1u2" resolve="art. 26 lid 1 Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmt" resolve="art. 26 lid 1 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1yI" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tr9" role="cu0BP">
       <property role="TrG5h" value="vreemdeling voldoet aan voorwaarden voor het wijzigen van een vvr-bep" />
-      <node concept="cog_b" id="2vpCevmJ1z6" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Trx" role="2pmM46">
         <property role="1FEjNx" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
-        <ref role="cog$q" node="2vpCevmJ1u2" resolve="art. 26 lid 1 Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmt" resolve="art. 26 lid 1 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1yK" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Trb" role="cu0BP">
       <property role="TrG5h" value="vreemdeling voldoet aan voorwaarden voor het verlenen van een vvr-onbep" />
-      <node concept="cog_b" id="2vpCevmJ1z7" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Try" role="2pmM46">
         <property role="1FEjNx" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
-        <ref role="cog$q" node="2vpCevmJ1u2" resolve="art. 26 lid 1 Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmt" resolve="art. 26 lid 1 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1yw" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TqV" role="cu0BP">
       <property role="TrG5h" value="dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet" />
       <property role="3ANC2_" value="QUESTION: Dit 'fact' vereist een 'datum' om waar te kunnen zijn." />
-      <node concept="cog_b" id="2vpCevmJ1z8" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Trz" role="2pmM46">
         <property role="1FEjNx" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
-        <ref role="cog$q" node="2vpCevmJ1u2" resolve="art. 26 lid 1 Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmt" resolve="art. 26 lid 1 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1yz" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TqY" role="cu0BP">
       <property role="TrG5h" value="dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet ligt voor de dag waarop de aanvraag is ontvangen" />
       <property role="3ANC2_" value="QUESTION: Is het niet beter om dit 'fact' te vervangen door een berekening. Zoals: [dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet()] ≥ [dag waarop de aanvraag is ontvangen()]. Of is dit meer iets voor eFLINT?" />
-      <node concept="cog_b" id="2vpCevmJ1z9" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tr$" role="2pmM46">
         <property role="1FEjNx" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
-        <ref role="cog$q" node="2vpCevmJ1u2" resolve="art. 26 lid 1 Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmt" resolve="art. 26 lid 1 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1za" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tr_" role="cu0BP">
       <property role="TrG5h" value="vreemdeling heeft inreisverbod of is gesignaleerd ter fine van weigering van de toegang" />
       <property role="3ANC2_" value="NOTABLE: Dit 'fact' verwijst alleen naar de termen 'inreisverbod' en 'gesignaleerd'. De uitzonderingen die volgen na de dubbele punt zijn daarvoor niet relevant." />
-      <node concept="cog_b" id="2vpCevmJ1zb" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrA" role="2pmM46">
         <property role="1FEjNx" value="In afwijking van artikel 8 kan de vreemdeling jegens wie een inreisverbod geldt of die is gesignaleerd ter fine van weigering van de toegang geen rechtmatig verblijf hebben, met uitzondering van het rechtmatig verblijf:" />
-        <ref role="cog$q" node="2vpCevmJ1u3" resolve="art. 66a lid 6 Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmu" resolve="art. 66a lid 6 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1zc" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TrB" role="cu0BP">
       <property role="TrG5h" value="ongewenst verklaarde vreemdeling" />
       <property role="3ANC2_" value="ISSUE: &lt;&lt;&gt;&gt; geeft foutmelding" />
-      <node concept="cog_b" id="2vpCevmJ1zd" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrC" role="2pmM46">
         <property role="1FEjNx" value="In afwijking van artikel 8 kan de ongewenst verklaarde vreemdeling geen rechtmatig verblijf hebben." />
-        <ref role="cog$q" node="2vpCevmJ1u4" resolve="art. 67 lid 3 Vw" />
+        <ref role="cog$q" node="63E5y3U1Tmv" resolve="art. 67 lid 3 Vw" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1yB" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tr2" role="cu0BP">
       <property role="TrG5h" value="vreemdeling laat een gezichtsopname en tien vingerafdrukken afnemen" />
       <property role="3ANC2_" value="NOTABLE: art.' 106a lid Vw is geschreven als een 'kan-bepaling'. Het meewerken hieraan is geïnterpreteerd als een voorwaarde voor de vvr." />
-      <node concept="cog_b" id="2vpCevmJ1ze" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrD" role="2pmM46">
         <property role="1FEjNx" value="Voor zover op grond van de Europese verordeningen die betrekking hebben op biometrische gegevens geen gezichtsopname of vingerafdrukken kunnen worden afgenomen en verwerkt, kunnen van een vreemdeling een gezichtsopname en tien vingerafdrukken worden afgenomen en verwerkt voor het vaststellen van de identiteit met het oog op de uitvoering van deze wet." />
-        <ref role="cog$q" node="2vpCevmJ1u5" resolve="art. 106a lid 1 Vw (eerste zin)" />
+        <ref role="cog$q" node="63E5y3U1Tmw" resolve="art. 106a lid 1 Vw (eerste zin)" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1vn" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TnM" role="cu0BP">
       <property role="TrG5h" value="verblijf als familie- of gezinslid" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="2vpCevmJ1zf" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrE" role="2pmM46">
         <property role="1FEjNx" value="verblijf als familie- of gezinslid" />
-        <ref role="cog$q" node="2vpCevmJ1u6" resolve="art. 3.4 lid 1, onder a, Vb" />
+        <ref role="cog$q" node="63E5y3U1Tmx" resolve="art. 3.4 lid 1, onder a, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1vp" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TnO" role="cu0BP">
       <property role="TrG5h" value="verblijf als economisch niet-actieve langdurig ingezetene of vermogende vreemdeling" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-12-2006 (in ieder geval voor de geldigheid)? ISSUE: dit artikel is hernummerd." />
-      <node concept="cog_b" id="2vpCevmJ1zg" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrF" role="2pmM46">
         <property role="1FEjNx" value="verblijf als economisch niet-actieve langdurig ingezetene of vermogende vreemdeling" />
-        <ref role="cog$q" node="2vpCevmJ1u7" resolve="art. 3.4 lid 1, onder aa, Vb {vanaf 01-06-2013} en art. 3.4 lid 1, onder aa, Vb {vanaf 01-12-2006 tot 01-06-2013}" />
+        <ref role="cog$q" node="63E5y3U1Tmy" resolve="art. 3.4 lid 1, onder aa, Vb {vanaf 01-06-2013} en art. 3.4 lid 1, onder aa, Vb {vanaf 01-12-2006 tot 01-06-2013}" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1vr" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TnQ" role="cu0BP">
       <property role="TrG5h" value="arbeid als zelfstandige" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="2vpCevmJ1zh" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrG" role="2pmM46">
         <property role="1FEjNx" value="arbeid als zelfstandige" />
-        <ref role="cog$q" node="2vpCevmJ1u8" resolve="art. 3.4 lid 1, onder c, Vb" />
+        <ref role="cog$q" node="63E5y3U1Tmz" resolve="art. 3.4 lid 1, onder c, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1vt" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TnS" role="cu0BP">
       <property role="TrG5h" value="arbeid als kennismigrant" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="2vpCevmJ1zi" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrH" role="2pmM46">
         <property role="1FEjNx" value="arbeid als kennismigrant" />
-        <ref role="cog$q" node="2vpCevmJ1u9" resolve="art. 3.4 lid 1, onder d, Vb" />
+        <ref role="cog$q" node="63E5y3U1Tm$" resolve="art. 3.4 lid 1, onder d, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1vv" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TnU" role="cu0BP">
       <property role="TrG5h" value="verblijf als houder van de Europese blauwe kaart" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 19-06-2011 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="2vpCevmJ1zj" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrI" role="2pmM46">
         <property role="1FEjNx" value="verblijf als houder van de Europese blauwe kaart" />
-        <ref role="cog$q" node="2vpCevmJ1ua" resolve="art. 3.4 lid 1, onder e, Vb" />
+        <ref role="cog$q" node="63E5y3U1Tm_" resolve="art. 3.4 lid 1, onder e, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1vx" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TnW" role="cu0BP">
       <property role="TrG5h" value="seizoenarbeid" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="2vpCevmJ1zk" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrJ" role="2pmM46">
         <property role="1FEjNx" value="seizoensarbeid" />
-        <ref role="cog$q" node="2vpCevmJ1ub" resolve="art. 3.4 lid 1, onder f, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmA" resolve="art. 3.4 lid 1, onder f, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1vz" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TnY" role="cu0BP">
       <property role="TrG5h" value="overplaatsing binnen een onderneming" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 29-11-2016 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="2vpCevmJ1zl" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrK" role="2pmM46">
         <property role="1FEjNx" value="overplaatsing binnen een onderneming" />
-        <ref role="cog$q" node="2vpCevmJ1uc" resolve="art. 3.4 lid 1, onder g, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmB" resolve="art. 3.4 lid 1, onder g, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1v_" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1To0" role="cu0BP">
       <property role="TrG5h" value="arbeid in loondienst" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="2vpCevmJ1zm" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrL" role="2pmM46">
         <property role="1FEjNx" value="arbeid in loondienst" />
-        <ref role="cog$q" node="2vpCevmJ1ud" resolve="art. 3.4 lid 1, onder h, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmC" resolve="art. 3.4 lid 1, onder h, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1vB" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1To2" role="cu0BP">
       <property role="TrG5h" value="grensoverschrijdende dienstverlening" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="2vpCevmJ1zn" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrM" role="2pmM46">
         <property role="1FEjNx" value="grensoverschrijdende dienstverlening" />
-        <ref role="cog$q" node="2vpCevmJ1ue" resolve="art. 3.4 lid 1, onder i, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmD" resolve="art. 3.4 lid 1, onder i, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1vD" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1To4" role="cu0BP">
       <property role="TrG5h" value="onderzoek in de zin van richtlijn (EU) 2016/801" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert niet naar datum 23-05-2018 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="2vpCevmJ1zo" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrN" role="2pmM46">
         <property role="1FEjNx" value="onderzoek in de zin van richtlijn (EU) 2016/801" />
-        <ref role="cog$q" node="2vpCevmJ1uf" resolve="art. 3.4 lid 1, onder j, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmE" resolve="art. 3.4 lid 1, onder j, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1vF" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1To6" role="cu0BP">
       <property role="TrG5h" value="lerend werken" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="2vpCevmJ1zp" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrO" role="2pmM46">
         <property role="1FEjNx" value="lerend werken" />
-        <ref role="cog$q" node="2vpCevmJ1ug" resolve="art. 3.4 lid 1, onder k, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmF" resolve="art. 3.4 lid 1, onder k, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1vH" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1To8" role="cu0BP">
       <property role="TrG5h" value="arbeid als niet-geprivilegieerd militair of niet-geprivilegieerd burgerpersoneel" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="2vpCevmJ1zq" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrP" role="2pmM46">
         <property role="1FEjNx" value="arbeid als niet-geprivilegieerd militair of niet-geprivilegieerd burgerpersoneel" />
-        <ref role="cog$q" node="2vpCevmJ1uh" resolve="art. 3.4 lid 1, onder l, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmG" resolve="art. 3.4 lid 1, onder l, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1vJ" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Toa" role="cu0BP">
       <property role="TrG5h" value="studie" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="2vpCevmJ1zr" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrQ" role="2pmM46">
         <property role="1FEjNx" value="studie" />
-        <ref role="cog$q" node="2vpCevmJ1ui" resolve="art. 3.4 lid 1, onder m, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmH" resolve="art. 3.4 lid 1, onder m, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1vL" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Toc" role="cu0BP">
       <property role="TrG5h" value="het zoeken naar en verrichten van arbeid al dan niet in loondienst" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 2001-04-01, of in ieder geval naar de eerste versie van de digitale versie van de Vb van 2002-01-01 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="2vpCevmJ1zs" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrR" role="2pmM46">
         <property role="1FEjNx" value="het zoeken naar en verrichten van arbeid al dan niet in loondienst" />
-        <ref role="cog$q" node="2vpCevmJ1uj" resolve="art. 3.4 lid 1, onder n, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmI" resolve="art. 3.4 lid 1, onder n, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1vN" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Toe" role="cu0BP">
       <property role="TrG5h" value="uitwisseling" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="2vpCevmJ1zt" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrS" role="2pmM46">
         <property role="1FEjNx" value="uitwisseling, al dan niet in het kader van een verdrag" />
-        <ref role="cog$q" node="2vpCevmJ1uk" resolve="art. 3.4 lid 1, onder o, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmJ" resolve="art. 3.4 lid 1, onder o, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1vP" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tog" role="cu0BP">
       <property role="TrG5h" value="medische behandeling" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="2vpCevmJ1zu" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrT" role="2pmM46">
         <property role="1FEjNx" value="medische behandeling" />
-        <ref role="cog$q" node="2vpCevmJ1ul" resolve="art. 3.4 lid 1, onder p, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmK" resolve="art. 3.4 lid 1, onder p, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1vR" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Toi" role="cu0BP">
       <property role="TrG5h" value="tijdelijke humanitaire gronden" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="2vpCevmJ1zv" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrU" role="2pmM46">
         <property role="1FEjNx" value="tijdelijke humanitaire gronden" />
-        <ref role="cog$q" node="2vpCevmJ1um" resolve="art. 3.4 lid 1, onder q, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmL" resolve="art. 3.4 lid 1, onder q, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1vT" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tok" role="cu0BP">
       <property role="TrG5h" value="het afwachten van een verzoek op grond van art. 17 RWN" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 2001-04-01, of in ieder geval naar de eerste versie van de digitale versie van de Vb van 2002-01-01 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="2vpCevmJ1zw" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrV" role="2pmM46">
         <property role="1FEjNx" value="het afwachten van een verzoek op grond vanartikel 17 van de Rijkswet op het Nederlanderschap" />
-        <ref role="cog$q" node="2vpCevmJ1un" resolve="art. 3.4 lid 1, onder r, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmM" resolve="art. 3.4 lid 1, onder r, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1vV" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tom" role="cu0BP">
       <property role="TrG5h" value="niet-tijdelijke humanitaire gronden" />
       <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
-      <node concept="cog_b" id="2vpCevmJ1zx" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrW" role="2pmM46">
         <property role="1FEjNx" value="niet-tijdelijke humanitaire gronden" />
-        <ref role="cog$q" node="2vpCevmJ1uo" resolve="art. 3.4 lid 1, onder s, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmN" resolve="art. 3.4 lid 1, onder s, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1wu" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1ToT" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn verworven uit wettelijk toegestane arbeid in loondienst" />
-      <node concept="cog_b" id="2vpCevmJ1zy" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrX" role="2pmM46">
         <property role="1FEjNx" value="wettelijk toegestane arbeid in loondienst, voorzover de vereiste premies en belastingen zijn afgedragen" />
-        <ref role="cog$q" node="2vpCevmJ1up" resolve="art. 3.73 lid 1, onder a, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmO" resolve="art. 3.73 lid 1, onder a, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1wz" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1ToY" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn verworven uit wettelijk toegestane arbeid als zelfstandige" />
-      <node concept="cog_b" id="2vpCevmJ1zz" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrY" role="2pmM46">
         <property role="1FEjNx" value="wettelijk toegestane arbeid als zelfstandige, voorzover de vereiste premies en belastingen zijn afgedragen" />
-        <ref role="cog$q" node="2vpCevmJ1uq" resolve="art. 3.73 lid 1, onder b, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmP" resolve="art. 3.73 lid 1, onder b, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1wB" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tp2" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn verworven uit inkomensvervangende uitkeringen krachtens een sociale verzekeringswet" />
-      <node concept="cog_b" id="2vpCevmJ1z$" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TrZ" role="2pmM46">
         <property role="1FEjNx" value="inkomensvervangende uitkeringen krachtens een sociale verzekeringswet waarvoor premies zijn afgedragen, of" />
-        <ref role="cog$q" node="2vpCevmJ1ur" resolve="art. 3.73 lid 1, onder c, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmQ" resolve="art. 3.73 lid 1, onder c, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1wG" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tp7" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn verworven uit eigen vermogen" />
-      <node concept="cog_b" id="2vpCevmJ1z_" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Ts0" role="2pmM46">
         <property role="1FEjNx" value="eigen vermogen, voorzover de bron van de inkomsten niet wordt aangetast en de vereiste premies en belastingen zijn afgedragen" />
-        <ref role="cog$q" node="2vpCevmJ1us" resolve="art. 3.73 lid 1, onder d, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmR" resolve="art. 3.73 lid 1, onder d, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1ww" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1ToV" role="cu0BP">
       <property role="TrG5h" value="vereiste premies en belastingen zijn afgedragen" />
-      <node concept="cog_b" id="2vpCevmJ1zA" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Ts1" role="2pmM46">
         <property role="1FEjNx" value="wettelijk toegestane arbeid in loondienst, voorzover de vereiste premies en belastingen zijn afgedragen/wettelijk toegestane arbeid als zelfstandige, voorzover de vereiste premies en belastingen zijn afgedragen" />
-        <ref role="cog$q" node="2vpCevmJ1ut" resolve="art. 3.73 lid 1, onder a, Vb; art. 3.73 lid 1, onder b, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmS" resolve="art. 3.73 lid 1, onder a, Vb; art. 3.73 lid 1, onder b, Vb" />
       </node>
-      <node concept="1zEWgd" id="2vpCevmJ1zB" role="coNO9">
-        <node concept="1FQA6B" id="2vpCevmJ1zC" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1wD" resolve="vereiste premies zijn afgedragen" />
+      <node concept="1zEWgd" id="63E5y3U1Ts2" role="coNO9">
+        <node concept="1FQA6B" id="63E5y3U1Ts3" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tp4" resolve="vereiste premies zijn afgedragen" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1zD" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1wL" resolve="vereiste belastingen zijn afgedragen" />
+        <node concept="1FQA6B" id="63E5y3U1Ts4" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tpc" resolve="vereiste belastingen zijn afgedragen" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1wD" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tp4" role="cu0BP">
       <property role="TrG5h" value="vereiste premies zijn afgedragen" />
       <property role="3ANC2_" value="ISSUE: Meerdere onderdelen van het Vb vereisen het afdragen van belastingen. Het feit is hetzelfde, de context verschilt. Beste oplossing: mogelijk maken verwijzen naar verschillende bronnen, context vastleggen in functie. Aan iedere bron hoort (liefst 1) referentie te worden gekopppeld. (zie ook 01-04-2001; 13-07-2010)" />
-      <node concept="cog_b" id="2vpCevmJ1zE" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Ts5" role="2pmM46">
         <property role="1FEjNx" value="wettelijk toegestane arbeid in loondienst, voorzover de vereiste premies en belastingen zijn afgedragen/wettelijk toegestane arbeid als zelfstandige, voorzover de vereiste premies en belastingen zijn afgedragen/inkomensvervangende uitkeringen krachtens een sociale verzekeringswet waarvoor premies zijn afgedragen/eigen vermogen, voorzover de bron van de inkomsten niet wordt aangetast en de vereiste belastingen zijn afgedragen" />
-        <ref role="cog$q" node="2vpCevmJ1uu" resolve="art. 3.73 lid 1, onder a, Vb; art. 3.73 lid 1, onder b, Vb; art. 3.73 lid 1, onder c; Vb, art. 3.73 lid 1, onder d, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmT" resolve="art. 3.73 lid 1, onder a, Vb; art. 3.73 lid 1, onder b, Vb; art. 3.73 lid 1, onder c; Vb, art. 3.73 lid 1, onder d, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1wL" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tpc" role="cu0BP">
       <property role="TrG5h" value="vereiste belastingen zijn afgedragen" />
       <property role="3ANC2_" value="ISSUE: Meerdere onderdelen van het Vb vereisen het afdragen van belastingen. Het feit is hetzelfde, de context verschilt. Beste oplossing: mogelijk maken verwijzen naar verschillende bronnen, context vastleggen in functie. Aan iedere bron hoort (liefst 1) referentie te worden gekopppeld. (1-[20010401]-[jjjjmmdd]; 2-[20100713]-[jjjjmmdd])" />
-      <node concept="cog_b" id="2vpCevmJ1zF" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Ts6" role="2pmM46">
         <property role="1FEjNx" value="wettelijk toegestane arbeid in loondienst, voorzover de vereiste premies en belastingen zijn afgedragen/wettelijk toegestane arbeid als zelfstandige, voorzover de vereiste premies en belastingen zijn afgedragen/eigen vermogen, voorzover de bron van de inkomsten niet wordt aangetast en de vereiste belastingen zijn afgedragen" />
-        <ref role="cog$q" node="2vpCevmJ1uv" resolve="art. 3.73 lid 1, onder a, Vb; art. 3.73 lid 1, onder b, Vb; art. 3.73 lid 1, onder d, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmU" resolve="art. 3.73 lid 1, onder a, Vb; art. 3.73 lid 1, onder b, Vb; art. 3.73 lid 1, onder d, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1wU" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tpl" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn verworven uit financiële ondersteuning van de referent" />
-      <node concept="cog_b" id="2vpCevmJ1zG" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Ts7" role="2pmM46">
         <property role="1FEjNx" value="in geval van verblijf voor onderzoek in de zin van richtlijn (EU) 2016/801, studie, lerend werken of uitwisseling in het kader van Europees vrijwilligerswerk: financiële ondersteuning van de referent, een subsidie, een beurs of een toelage" />
-        <ref role="cog$q" node="2vpCevmJ1uw" resolve="art. 3.73 lid 1, onder e, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmV" resolve="art. 3.73 lid 1, onder e, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1wW" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tpn" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn verworven uit een subsidie" />
-      <node concept="cog_b" id="2vpCevmJ1zH" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Ts8" role="2pmM46">
         <property role="1FEjNx" value="in geval van verblijf voor onderzoek in de zin van richtlijn (EU) 2016/801, studie, lerend werken of uitwisseling in het kader van Europees vrijwilligerswerk: financiële ondersteuning van de referent, een subsidie, een beurs of een toelage" />
-        <ref role="cog$q" node="2vpCevmJ1uw" resolve="art. 3.73 lid 1, onder e, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmV" resolve="art. 3.73 lid 1, onder e, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1wY" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tpp" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn verworven uit een beurs" />
       <property role="3ANC2_" value="NOTABLE: Wijziging art. 3.73 Vb nadat FLINT analyse had aangetoond dat de zelfstandigheid van de studiebeurs geen goede wettelijke grondslag had. De Vc verwees naar art. 3.22 Vv dat gaat over duurzaamheid van inkomen, niet over zelfstandigheid." />
-      <node concept="cog_b" id="2vpCevmJ1zI" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Ts9" role="2pmM46">
         <property role="1FEjNx" value="in geval van verblijf voor onderzoek in de zin van richtlijn (EU) 2016/801, studie, lerend werken of uitwisseling in het kader van Europees vrijwilligerswerk: financiële ondersteuning van de referent, een subsidie, een beurs of een toelage" />
-        <ref role="cog$q" node="2vpCevmJ1uw" resolve="art. 3.73 lid 1, onder e, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmV" resolve="art. 3.73 lid 1, onder e, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1x0" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tpr" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn verworven uit een toelage" />
-      <node concept="cog_b" id="2vpCevmJ1zJ" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tsa" role="2pmM46">
         <property role="1FEjNx" value="in geval van verblijf voor onderzoek in de zin van richtlijn (EU) 2016/801, studie, lerend werken of uitwisseling in het kader van Europees vrijwilligerswerk: financiële ondersteuning van de referent, een subsidie, een beurs of een toelage" />
-        <ref role="cog$q" node="2vpCevmJ1uw" resolve="art. 3.73 lid 1, onder e, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmV" resolve="art. 3.73 lid 1, onder e, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1zK" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tsb" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn ten minste gelijk is aan het minimumloon" />
       <property role="3ANC2_" value="ISSUE: expressions: SUM, GREATER THEN OR EQUAL." />
-      <node concept="cog_b" id="2vpCevmJ1zL" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tsc" role="2pmM46">
         <property role="1FEjNx" value="het minimumloon, bedoeld in de artikelen 8, eerste lid, onder a, en 14, van de Wet minimumloon en minimumvakantiebijslag, met inbegrip van de vakantiebijslag, bedoeld in artikel 15 van die wet" />
-        <ref role="cog$q" node="2vpCevmJ1ux" resolve="art. 3.74 lid 1, onder a, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmW" resolve="art. 3.74 lid 1, onder a, Vb" />
       </node>
-      <node concept="1zEWgd" id="2vpCevmJ1zM" role="coNO9">
-        <node concept="1FQA6B" id="2vpCevmJ1zN" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1zO" resolve="functie waar middelen van bestaan zijn groter of gelijk aan minimumloon wordt berekend" />
+      <node concept="1zEWgd" id="63E5y3U1Tsd" role="coNO9">
+        <node concept="1FQA6B" id="63E5y3U1Tse" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tsf" resolve="functie waar middelen van bestaan zijn groter of gelijk aan minimumloon wordt berekend" />
         </node>
-        <node concept="1zEXH5" id="2vpCevmJ1zP" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1zQ" role="1zF96A">
-            <ref role="1FQA6$" node="2vpCevmJ1zR" resolve="in bij ministeriële regeling aangewezen gevallen zijn middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon" />
+        <node concept="1zEXH5" id="63E5y3U1Tsg" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1Tsh" role="1zF96A">
+            <ref role="1FQA6$" node="63E5y3U1Tsi" resolve="in bij ministeriële regeling aangewezen gevallen zijn middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1zO" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tsf" role="cu0BP">
       <property role="TrG5h" value="functie waar middelen van bestaan zijn groter of gelijk aan minimumloon wordt berekend" />
       <property role="3ANC2_" value="TEMP, no function GREATER THEN OR EQUAL available (rekenkundige functie)" />
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1zS" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tsj" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn ten minste gelijk aan 150 procent van het minimumloon" />
       <property role="3ANC2_" value="ISSUE: expressions: SUM, PRODUCT, GREATER THEN OR EQUAL. (rekenkundige functie)" />
-      <node concept="cog_b" id="2vpCevmJ1zT" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tsk" role="2pmM46">
         <property role="1FEjNx" value="in bij ministeriële regeling aangewezen gevallen: 150 procent van het minimumloon, bedoeld in onderdeel a" />
-        <ref role="cog$q" node="2vpCevmJ1uy" resolve="art. 3.74 lid 1, onder b, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmX" resolve="art. 3.74 lid 1, onder b, Vb" />
       </node>
-      <node concept="1zEWgd" id="2vpCevmJ1zU" role="coNO9">
-        <node concept="1FQA6B" id="2vpCevmJ1zV" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1zR" resolve="in bij ministeriële regeling aangewezen gevallen zijn middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon" />
+      <node concept="1zEWgd" id="63E5y3U1Tsl" role="coNO9">
+        <node concept="1FQA6B" id="63E5y3U1Tsm" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tsi" resolve="in bij ministeriële regeling aangewezen gevallen zijn middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1zW" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1zX" resolve="functie aaar middelen van bestaan zijn groter of gelijk aan 150% minimumloon wordt berekenc" />
+        <node concept="1FQA6B" id="63E5y3U1Tsn" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tso" resolve="functie aaar middelen van bestaan zijn groter of gelijk aan 150% minimumloon wordt berekenc" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1zR" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tsi" role="cu0BP">
       <property role="TrG5h" value="in bij ministeriële regeling aangewezen gevallen zijn middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon" />
       <property role="3ANC2_" value="Nader invullen. Dit is het geval bij Au Pairs, en wellicht nog bij enkele andere verblijfsdoelen." />
-      <node concept="cog_b" id="2vpCevmJ1zY" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tsp" role="2pmM46">
         <property role="1FEjNx" value="in bij regeling van Onze Minister aangewezen gevallen: 150 procent van het minimumloon, bedoeld in onderdeel a." />
-        <ref role="cog$q" node="2vpCevmJ1uy" resolve="art. 3.74 lid 1, onder b, Vb" />
+        <ref role="cog$q" node="63E5y3U1TmX" resolve="art. 3.74 lid 1, onder b, Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1zX" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tso" role="cu0BP">
       <property role="TrG5h" value="functie aaar middelen van bestaan zijn groter of gelijk aan 150% minimumloon wordt berekenc" />
       <property role="3ANC2_" value="TEMP, no function GREATER THEN OR EQUAL, and no function PRODUCT available" />
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1x_" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tq0" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn voldoende, indien het netto-inkomen ten minste gelijk is aan het normbedrag voor uitwonende studenten, bedoeld in de WSF, indien de vreemdeling in Nederland verblijft of wil verblijven voor studie" />
       <property role="3ANC2_" value="ISSUE: expressions: GREATER THEN OR EQUAL. Met [studie] wordt verblijfsdoel studie bedoeld. (rekenkundige functie)" />
-      <node concept="cog_b" id="2vpCevmJ1zZ" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tsq" role="2pmM46">
         <property role="1FEjNx" value="De in artikel 16, eerste lid, onder c, van de Wet bedoelde middelen van bestaan zijn eveneens voldoende, indien het netto-inkomen ten minste gelijk is aan het normbedrag voor uitwonende studenten, bedoeld in de Wet op de Studiefinanciering 2000, indien de vreemdeling in Nederland verblijft of wil verblijven voor studie." />
-        <ref role="cog$q" node="2vpCevmJ1uz" resolve="art. 3.74 lid 2 Vb" />
+        <ref role="cog$q" node="63E5y3U1TmY" resolve="art. 3.74 lid 2 Vb" />
       </node>
-      <node concept="1zEWgd" id="2vpCevmJ1$0" role="coNO9">
-        <node concept="1FQA6B" id="2vpCevmJ1$1" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1$2" resolve="functie waar normbedrag voor uitwonende studenten, bedoeld in de WSF wordt berekend" />
+      <node concept="1zEWgd" id="63E5y3U1Tsr" role="coNO9">
+        <node concept="1FQA6B" id="63E5y3U1Tss" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tst" resolve="functie waar normbedrag voor uitwonende studenten, bedoeld in de WSF wordt berekend" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1$3" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1vJ" resolve="studie" />
+        <node concept="1FQA6B" id="63E5y3U1Tsu" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Toa" resolve="studie" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1$2" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tst" role="cu0BP">
       <property role="TrG5h" value="functie waar normbedrag voor uitwonende studenten, bedoeld in de WSF wordt berekend" />
       <property role="3ANC2_" value="functie waar normbedrag voor uitwonende studenten, bedoeld in de WSF wordt berekend" />
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1$4" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tsv" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn nog één jaar beschikbaar op het tijdstip waarop de aanvraag is ontvangen" />
-      <node concept="cog_b" id="2vpCevmJ1$5" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tsw" role="2pmM46">
         <property role="1FEjNx" value="De in artikel 16, eerste lid, onder c, van de Wet bedoelde middelen van bestaan zijn in ieder geval duurzaam, indien zij nog één jaar beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven." />
-        <ref role="cog$q" node="2vpCevmJ1u$" resolve="art. 3.75 lid 1 Vb" />
+        <ref role="cog$q" node="63E5y3U1TmZ" resolve="art. 3.75 lid 1 Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1xn" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TpM" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan verkregen uit eigen vermogen" />
       <property role="3ANC2_" value="ISSUE: Substitutie mogelijk maken voor 'fact' [middelen van bestaan zijn verworven uit eigen vermogen]" />
-      <node concept="cog_b" id="2vpCevmJ1$6" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tsx" role="2pmM46">
         <property role="1FEjNx" value="Middelen van bestaan verkregen uit eigen vermogen zijn duurzaam, indien zij gedurende een aaneengesloten periode van een jaar beschikbaar zijn geweest en nog beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven." />
-        <ref role="cog$q" node="2vpCevmJ1u_" resolve="art. 3.75 lid 2 Vb" />
+        <ref role="cog$q" node="63E5y3U1Tn0" resolve="art. 3.75 lid 2 Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1xp" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TpO" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn gedurende een aaneengesloten periode van een jaar beschikbaar geweest" />
-      <node concept="cog_b" id="2vpCevmJ1$7" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tsy" role="2pmM46">
         <property role="1FEjNx" value="Middelen van bestaan verkregen uit eigen vermogen zijn duurzaam, indien zij gedurende een aaneengesloten periode van een jaar beschikbaar zijn geweest en nog beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven." />
-        <ref role="cog$q" node="2vpCevmJ1u_" resolve="art. 3.75 lid 2 Vb" />
+        <ref role="cog$q" node="63E5y3U1Tn0" resolve="art. 3.75 lid 2 Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1x4" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tpv" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen" />
-      <node concept="cog_b" id="2vpCevmJ1$8" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Tsz" role="2pmM46">
         <property role="1FEjNx" value="Middelen van bestaan verkregen uit eigen vermogen zijn duurzaam, indien zij gedurende een aaneengesloten periode van een jaar beschikbaar zijn geweest en nog beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven." />
-        <ref role="cog$q" node="2vpCevmJ1u_" resolve="art. 3.75 lid 2 Vb" />
+        <ref role="cog$q" node="63E5y3U1Tn0" resolve="art. 3.75 lid 2 Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1x6" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tpx" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de beschikking wordt gegeven" />
-      <node concept="cog_b" id="2vpCevmJ1$9" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Ts$" role="2pmM46">
         <property role="1FEjNx" value="Middelen van bestaan verkregen uit eigen vermogen zijn duurzaam, indien zij gedurende een aaneengesloten periode van een jaar beschikbaar zijn geweest en nog beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven." />
-        <ref role="cog$q" node="2vpCevmJ1u_" resolve="art. 3.75 lid 2 Vb" />
+        <ref role="cog$q" node="63E5y3U1Tn0" resolve="art. 3.75 lid 2 Vb" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1x9" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tp$" role="cu0BP">
       <property role="TrG5h" value="middelen van bestaan verkregen uit arbeid in loondienst" />
       <property role="3ANC2_" value="ISSUE: Substitutie mogelijk maken voor 'fact' [middelen van bestaan zijn verworven uit wettelijk toegestane arbeid in loondienst]" />
-      <node concept="cog_b" id="2vpCevmJ1$a" role="coufz">
+      <node concept="cog_b" id="63E5y3U1Ts_" role="2pmM46">
         <property role="1FEjNx" value="In afwijking van het eerste lid, zijn middelen van bestaan verkregen uit arbeid in loondienst eveneens duurzaam, indien op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven gedurende een aaneengesloten periode van drie jaren jaarlijks voldoende middelen van bestaan uit arbeid in loondienst zijn verworven en de middelen van bestaan nog beschikbaar zijn." />
-        <ref role="cog$q" node="2vpCevmJ1uA" resolve="art. 3.75 lid 3 Vb (zin 1)" />
+        <ref role="cog$q" node="63E5y3U1Tn1" resolve="art. 3.75 lid 3 Vb (zin 1)" />
       </node>
-      <node concept="1FQA6B" id="2vpCevmJ1$b" role="coNO9">
-        <ref role="1FQA6$" node="2vpCevmJ1wu" resolve="middelen van bestaan zijn verworven uit wettelijk toegestane arbeid in loondienst" />
+      <node concept="1FQA6B" id="63E5y3U1TsA" role="coNO9">
+        <ref role="1FQA6$" node="63E5y3U1ToT" resolve="middelen van bestaan zijn verworven uit wettelijk toegestane arbeid in loondienst" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1xd" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TpC" role="cu0BP">
       <property role="TrG5h" value="op het tijdstip waarop de aanvraag is ontvangen zijn gedurende een ononderbroken periode van drie jaren voldoende middelen van bestaan uit arbeid in loondienst verworven" />
-      <node concept="cog_b" id="2vpCevmJ1$c" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TsB" role="2pmM46">
         <property role="1FEjNx" value="In afwijking van het eerste lid, zijn middelen van bestaan verkregen uit arbeid in loondienst eveneens duurzaam, indien op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven gedurende een aaneengesloten periode van drie jaren jaarlijks voldoende middelen van bestaan uit arbeid in loondienst zijn verworven en de middelen van bestaan nog beschikbaar zijn." />
-        <ref role="cog$q" node="2vpCevmJ1uA" resolve="art. 3.75 lid 3 Vb (zin 1)" />
+        <ref role="cog$q" node="63E5y3U1Tn1" resolve="art. 3.75 lid 3 Vb (zin 1)" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1xf" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TpE" role="cu0BP">
       <property role="TrG5h" value="op het tijdstip waarop de aanvraag is ontvangen zijn de middelen van bestaan gedurende nog zes maanden beschikbaar" />
-      <node concept="cog_b" id="2vpCevmJ1$d" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TsC" role="2pmM46">
         <property role="1FEjNx" value="In afwijking van het eerste lid, zijn middelen van bestaan verkregen uit arbeid in loondienst eveneens duurzaam, indien op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven gedurende een aaneengesloten periode van drie jaren jaarlijks voldoende middelen van bestaan uit arbeid in loondienst zijn verworven en de middelen van bestaan nog beschikbaar zijn." />
-        <ref role="cog$q" node="2vpCevmJ1uA" resolve="art. 3.75 lid 3 Vb (zin 1)" />
+        <ref role="cog$q" node="63E5y3U1Tn1" resolve="art. 3.75 lid 3 Vb (zin 1)" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1xi" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TpH" role="cu0BP">
       <property role="TrG5h" value="op het tijdstip waarop de beschikking wordt gegeven zijn gedurende een ononderbroken periode van drie jaren voldoende middelen van bestaan uit arbeid in loondienst verworven" />
-      <node concept="cog_b" id="2vpCevmJ1$e" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TsD" role="2pmM46">
         <property role="1FEjNx" value="In afwijking van het eerste lid, zijn middelen van bestaan verkregen uit arbeid in loondienst eveneens duurzaam, indien op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven gedurende een aaneengesloten periode van drie jaren jaarlijks voldoende middelen van bestaan uit arbeid in loondienst zijn verworven en de middelen van bestaan nog beschikbaar zijn." />
-        <ref role="cog$q" node="2vpCevmJ1uA" resolve="art. 3.75 lid 3 Vb (zin 1)" />
+        <ref role="cog$q" node="63E5y3U1Tn1" resolve="art. 3.75 lid 3 Vb (zin 1)" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1xk" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TpJ" role="cu0BP">
       <property role="TrG5h" value="op het tijdstip waarop de beschikking wordt gegeven zijn de middelen van bestaan gedurende nog zes maanden beschikbaar" />
-      <node concept="cog_b" id="2vpCevmJ1$f" role="coufz">
+      <node concept="cog_b" id="63E5y3U1TsE" role="2pmM46">
         <property role="1FEjNx" value="In afwijking van het eerste lid, zijn middelen van bestaan verkregen uit arbeid in loondienst eveneens duurzaam, indien op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven gedurende een aaneengesloten periode van drie jaren jaarlijks voldoende middelen van bestaan uit arbeid in loondienst zijn verworven en de middelen van bestaan nog beschikbaar zijn." />
-        <ref role="cog$q" node="2vpCevmJ1uA" resolve="art. 3.75 lid 3 Vb (zin 1)" />
+        <ref role="cog$q" node="63E5y3U1Tn1" resolve="art. 3.75 lid 3 Vb (zin 1)" />
       </node>
     </node>
-    <node concept="mu5$5" id="2vpCevmJ1$g" role="m3s6u">
+    <node concept="mu5$5" id="63E5y3U1TsF" role="m3s6u">
       <property role="TrG5h" value="inwilligen aanvraag tot verlenen machtiging tot voorlopig verblijf" />
-      <ref role="mu3Ux" node="2vpCevmJ1va" resolve="inwilligen" />
-      <ref role="mu5$L" node="2vpCevmJ1uE" resolve="Onze Minister van Justitie en Veiligheid" />
-      <ref role="mu3Ts" node="2vpCevmJ1uI" resolve="aanvraag tot verlenen machtiging tot voorlopig verblijf" />
-      <ref role="mu3To" node="2vpCevmJ1uG" resolve="vreemdeling" />
-      <node concept="1FQA6B" id="2vpCevmJ1$h" role="mu1c7">
-        <ref role="1FQA6$" node="2vpCevmJ1uI" resolve="aanvraag tot verlenen machtiging tot voorlopig verblijf" />
-      </node>
-      <node concept="1FQA6B" id="2vpCevmJ1$i" role="mu1cf">
-        <ref role="1FQA6$" node="2vpCevmJ1uK" resolve="besluit tot inwilligen aanvraag tot verlenen machtiging tot voorlopig verblijf" />
-      </node>
-      <node concept="cog_b" id="2vpCevmJ1$j" role="mu1ck">
+      <ref role="mu3Ux" node="63E5y3U1Tn_" resolve="inwilligen" />
+      <ref role="mu5$L" node="63E5y3U1Tn5" resolve="Onze Minister van Justitie en Veiligheid" />
+      <ref role="mu3Ts" node="63E5y3U1Tn9" resolve="aanvraag tot verlenen machtiging tot voorlopig verblijf" />
+      <ref role="mu3To" node="63E5y3U1Tn7" resolve="vreemdeling" />
+      <node concept="cog_b" id="63E5y3U1TsG" role="2pmM46">
         <property role="3ANC2_" value="NOTABLE: Deze clause is op 11-08-2008 gepubliceerd als art. 2c Vw en trad op 01-06-2013 in werking als art. 2k." />
         <property role="1FEjNx" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een machtiging tot voorlopig verblijf dan wel terugkeervisum in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
-        <ref role="cog$q" node="2vpCevmJ1tA" resolve="art. 2k, aanhef en onder a, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tm1" resolve="art. 2k, aanhef en onder a, Vw" />
       </node>
-      <node concept="1zEWgd" id="2vpCevmJ1$k" role="mu3T0">
-        <node concept="1FQA6B" id="2vpCevmJ1$l" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1uM" resolve="aanvraag is door de vreemdeling in persoon ingediend" />
+      <node concept="1zEWgd" id="63E5y3U1TsH" role="mu3T0">
+        <node concept="1FQA6B" id="63E5y3U1TsI" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tnd" resolve="aanvraag is door de vreemdeling in persoon ingediend" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1$m" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1uO" resolve="voor de aanvraag is gebruik gemaakt van een voorgeschreven formulier dat volledig is ingevuld en ondertekend" />
+        <node concept="1FQA6B" id="63E5y3U1TsJ" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tnf" resolve="voor de aanvraag is gebruik gemaakt van een voorgeschreven formulier dat volledig is ingevuld en ondertekend" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1$n" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1uQ" resolve="aanvraag is gesteld in de Nederlandse, Franse of Engelse taal" />
+        <node concept="1FQA6B" id="63E5y3U1TsK" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tnh" resolve="aanvraag is gesteld in de Nederlandse, Franse of Engelse taal" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1$o" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1uS" resolve="ter afdoening van de aanvraag verschuldigde leges zijn betaald" />
+        <node concept="1FQA6B" id="63E5y3U1TsL" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tnj" resolve="ter afdoening van de aanvraag verschuldigde leges zijn betaald" />
         </node>
-        <node concept="1zEXH2" id="2vpCevmJ1$p" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1$q" role="1zF96y">
-            <ref role="1FQA6$" node="2vpCevmJ1uU" resolve="vreemdeling voldoet aan de vereisten voor toegang en verlening van een verblijfsvergunning" />
+        <node concept="1zEXH2" id="63E5y3U1TsM" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1TsN" role="1zF96y">
+            <ref role="1FQA6$" node="63E5y3U1Tnl" resolve="vreemdeling voldoet aan de vereisten voor toegang en verlening van een verblijfsvergunning" />
           </node>
-          <node concept="1FQA6B" id="2vpCevmJ1$r" role="1zF96y">
-            <ref role="1FQA6$" node="2vpCevmJ1uW" resolve="wezenlijk Nederlands belang gediend met verlenen machtiging tot voorlopig verblijf" />
+          <node concept="1FQA6B" id="63E5y3U1TsO" role="1zF96y">
+            <ref role="1FQA6$" node="63E5y3U1Tnn" resolve="wezenlijk Nederlands belang gediend met verlenen machtiging tot voorlopig verblijf" />
           </node>
-          <node concept="1FQA6B" id="2vpCevmJ1$s" role="1zF96y">
-            <ref role="1FQA6$" node="2vpCevmJ1uY" resolve="klemmende redenen van humanitaire aard nopen tot verlenen machtiging tot voorlopig verblijf" />
+          <node concept="1FQA6B" id="63E5y3U1TsP" role="1zF96y">
+            <ref role="1FQA6$" node="63E5y3U1Tnp" resolve="klemmende redenen van humanitaire aard nopen tot verlenen machtiging tot voorlopig verblijf" />
           </node>
-          <node concept="1FQA6B" id="2vpCevmJ1$t" role="1zF96y">
-            <ref role="1FQA6$" node="2vpCevmJ1v0" resolve="belang van de internationale betrekkingen vordert verlenen machtiging tot voorlopig verblijf" />
+          <node concept="1FQA6B" id="63E5y3U1TsQ" role="1zF96y">
+            <ref role="1FQA6$" node="63E5y3U1Tnr" resolve="belang van de internationale betrekkingen vordert verlenen machtiging tot voorlopig verblijf" />
           </node>
         </node>
+      </node>
+      <node concept="1FQA6B" id="63E5y3U1TsR" role="mu1c7">
+        <ref role="1FQA6$" node="63E5y3U1Tn9" resolve="aanvraag tot verlenen machtiging tot voorlopig verblijf" />
+      </node>
+      <node concept="1FQA6B" id="63E5y3U1TsS" role="mu1cf">
+        <ref role="1FQA6$" node="63E5y3U1Tnb" resolve="besluit tot inwilligen aanvraag tot verlenen machtiging tot voorlopig verblijf" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1$v" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TsV" role="cu0BP">
       <property role="TrG5h" value="afwijzen" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1$G" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tt5" role="cu0BP">
       <property role="TrG5h" value="belanghebbende beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1$K" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tt9" role="cu0BP">
       <property role="TrG5h" value="vreemdeling is bereid medewerking te verlenen aan een medisch onderzoek naar een bij Wpg aangewezen ziekte of medische behandeling tegen een dergelijke ziekte te ondergaan" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1$N" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Ttc" role="cu0BP">
       <property role="TrG5h" value="vreemdeling heeft geen arbeid verricht in strijd met Wav" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1$Q" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Ttf" role="cu0BP">
       <property role="TrG5h" value="vreemdeling voldoet aan de beperking, verband houdende met verblijfsdoel" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1$T" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tti" role="cu0BP">
       <property role="TrG5h" value="vreemdeling beschikt over voldoende kennis van de Nederlandse taal en maatschappij" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1$W" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Ttl" role="cu0BP">
       <property role="TrG5h" value="vreemdeling heeft onjuiste gegevens verstrekt of gegevens achtergehouden" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1$Z" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Tto" role="cu0BP">
       <property role="TrG5h" value="vreemdeling heeft alleen in Nederland verblijf gehouden op grond van artikel 8 Vw" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1_2" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1Ttr" role="cu0BP">
       <property role="TrG5h" value="referent heeft verklaring overlegd  ten behoeve van het voorgenomen verblijf van de vreemdeling" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="mu5$5" id="2vpCevmJ1$u" role="m3s6u">
+    <node concept="mu5$5" id="63E5y3U1TsT" role="m3s6u">
       <property role="TrG5h" value="afwijzen aanvraag tot het verlenen van een vvr-bep" />
-      <ref role="mu3Ux" node="2vpCevmJ1$v" resolve="afwijzen" />
-      <ref role="mu5$L" node="2vpCevmJ1uE" resolve="Onze Minister van Justitie en Veiligheid" />
-      <ref role="mu3Ts" node="2vpCevmJ1v2" resolve="aanvraag tot het verlenen van een vvr-bep" />
-      <ref role="mu3To" node="2vpCevmJ1uG" resolve="vreemdeling" />
-      <node concept="1FQA6B" id="2vpCevmJ1$w" role="mu1c7">
-        <ref role="1FQA6$" node="2vpCevmJ1v2" resolve="aanvraag tot het verlenen van een vvr-bep" />
-      </node>
-      <node concept="1FQA6B" id="2vpCevmJ1$x" role="mu1cf">
-        <ref role="1FQA6$" node="2vpCevmJ1v4" resolve="besluit tot afwijzen aanvraag tot het verlenen van een vvr-bep" />
-      </node>
-      <node concept="cog_b" id="2vpCevmJ1$y" role="mu1ck">
+      <ref role="mu3Ux" node="63E5y3U1TsV" resolve="afwijzen" />
+      <ref role="mu5$L" node="63E5y3U1Tn5" resolve="Onze Minister van Justitie en Veiligheid" />
+      <ref role="mu3Ts" node="63E5y3U1Tnt" resolve="aanvraag tot het verlenen van een vvr-bep" />
+      <ref role="mu3To" node="63E5y3U1Tn7" resolve="vreemdeling" />
+      <node concept="cog_b" id="63E5y3U1TsU" role="2pmM46">
         <property role="1FEjNx" value="Onze Minister is bevoegd: a. de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen;" />
-        <ref role="cog$q" node="2vpCevmJ1tH" resolve="art. 14 lid 1, onder a, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tm8" resolve="art. 14 lid 1, onder a, Vw" />
       </node>
-      <node concept="1zEXH2" id="2vpCevmJ1$z" role="mu3T0">
-        <node concept="1FQA6B" id="2vpCevmJ1$$" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1za" resolve="vreemdeling heeft inreisverbod of is gesignaleerd ter fine van weigering van de toegang" />
+      <node concept="1zEXH2" id="63E5y3U1TsW" role="mu3T0">
+        <node concept="1FQA6B" id="63E5y3U1TsX" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tr_" resolve="vreemdeling heeft inreisverbod of is gesignaleerd ter fine van weigering van de toegang" />
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1$_" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1zc" resolve="ongewenst verklaarde vreemdeling" />
+        <node concept="1FQA6B" id="63E5y3U1TsY" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1TrB" resolve="ongewenst verklaarde vreemdeling" />
         </node>
-        <node concept="1zEXH5" id="2vpCevmJ1$A" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1$B" role="1zF96A">
-            <ref role="1FQA6$" node="2vpCevmJ1vW" resolve="vreemdeling beschikt over een geldige machtiging tot voorlopig verblijf" />
+        <node concept="1zEXH5" id="63E5y3U1TsZ" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1Tt0" role="1zF96A">
+            <ref role="1FQA6$" node="63E5y3U1Ton" resolve="vreemdeling beschikt over een geldige machtiging tot voorlopig verblijf" />
           </node>
         </node>
-        <node concept="1zEXH5" id="2vpCevmJ1$C" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1$D" role="1zF96A">
-            <ref role="1FQA6$" node="2vpCevmJ1vY" resolve="vreemdeling beschikt over een geldig document voor grensoverschrijding" />
+        <node concept="1zEXH5" id="63E5y3U1Tt1" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1Tt2" role="1zF96A">
+            <ref role="1FQA6$" node="63E5y3U1Top" resolve="vreemdeling beschikt over een geldig document voor grensoverschrijding" />
           </node>
         </node>
-        <node concept="1zEXH5" id="2vpCevmJ1$E" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1$F" role="1zF96A">
-            <ref role="1FQA6$" node="2vpCevmJ1$G" resolve="belanghebbende beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
+        <node concept="1zEXH5" id="63E5y3U1Tt3" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1Tt4" role="1zF96A">
+            <ref role="1FQA6$" node="63E5y3U1Tt5" resolve="belanghebbende beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
           </node>
         </node>
-        <node concept="1FQA6B" id="2vpCevmJ1$H" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1xY" resolve="vreemdeling vormt een gevaar voor de openbare orde of nationale veiligheid" />
+        <node concept="1FQA6B" id="63E5y3U1Tt6" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1Tqp" resolve="vreemdeling vormt een gevaar voor de openbare orde of nationale veiligheid" />
         </node>
-        <node concept="1zEXH5" id="2vpCevmJ1$I" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1$J" role="1zF96A">
-            <ref role="1FQA6$" node="2vpCevmJ1$K" resolve="vreemdeling is bereid medewerking te verlenen aan een medisch onderzoek naar een bij Wpg aangewezen ziekte of medische behandeling tegen een dergelijke ziekte te ondergaan" />
+        <node concept="1zEXH5" id="63E5y3U1Tt7" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1Tt8" role="1zF96A">
+            <ref role="1FQA6$" node="63E5y3U1Tt9" resolve="vreemdeling is bereid medewerking te verlenen aan een medisch onderzoek naar een bij Wpg aangewezen ziekte of medische behandeling tegen een dergelijke ziekte te ondergaan" />
           </node>
         </node>
-        <node concept="1zEXH5" id="2vpCevmJ1$L" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1$M" role="1zF96A">
-            <ref role="1FQA6$" node="2vpCevmJ1$N" resolve="vreemdeling heeft geen arbeid verricht in strijd met Wav" />
+        <node concept="1zEXH5" id="63E5y3U1Tta" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1Ttb" role="1zF96A">
+            <ref role="1FQA6$" node="63E5y3U1Ttc" resolve="vreemdeling heeft geen arbeid verricht in strijd met Wav" />
           </node>
         </node>
-        <node concept="1zEXH5" id="2vpCevmJ1$O" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1$P" role="1zF96A">
-            <ref role="1FQA6$" node="2vpCevmJ1$Q" resolve="vreemdeling voldoet aan de beperking, verband houdende met verblijfsdoel" />
+        <node concept="1zEXH5" id="63E5y3U1Ttd" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1Tte" role="1zF96A">
+            <ref role="1FQA6$" node="63E5y3U1Ttf" resolve="vreemdeling voldoet aan de beperking, verband houdende met verblijfsdoel" />
           </node>
         </node>
-        <node concept="1zEXH5" id="2vpCevmJ1$R" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1$S" role="1zF96A">
-            <ref role="1FQA6$" node="2vpCevmJ1$T" resolve="vreemdeling beschikt over voldoende kennis van de Nederlandse taal en maatschappij" />
+        <node concept="1zEXH5" id="63E5y3U1Ttg" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1Tth" role="1zF96A">
+            <ref role="1FQA6$" node="63E5y3U1Tti" resolve="vreemdeling beschikt over voldoende kennis van de Nederlandse taal en maatschappij" />
           </node>
         </node>
-        <node concept="1zEXH5" id="2vpCevmJ1$U" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1$V" role="1zF96A">
-            <ref role="1FQA6$" node="2vpCevmJ1$W" resolve="vreemdeling heeft onjuiste gegevens verstrekt of gegevens achtergehouden" />
+        <node concept="1zEXH5" id="63E5y3U1Ttj" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1Ttk" role="1zF96A">
+            <ref role="1FQA6$" node="63E5y3U1Ttl" resolve="vreemdeling heeft onjuiste gegevens verstrekt of gegevens achtergehouden" />
           </node>
         </node>
-        <node concept="1zEXH5" id="2vpCevmJ1$X" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1$Y" role="1zF96A">
-            <ref role="1FQA6$" node="2vpCevmJ1$Z" resolve="vreemdeling heeft alleen in Nederland verblijf gehouden op grond van artikel 8 Vw" />
+        <node concept="1zEXH5" id="63E5y3U1Ttm" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1Ttn" role="1zF96A">
+            <ref role="1FQA6$" node="63E5y3U1Tto" resolve="vreemdeling heeft alleen in Nederland verblijf gehouden op grond van artikel 8 Vw" />
           </node>
         </node>
-        <node concept="1zEXH5" id="2vpCevmJ1_0" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1_1" role="1zF96A">
-            <ref role="1FQA6$" node="2vpCevmJ1_2" resolve="referent heeft verklaring overlegd  ten behoeve van het voorgenomen verblijf van de vreemdeling" />
+        <node concept="1zEXH5" id="63E5y3U1Ttp" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1Ttq" role="1zF96A">
+            <ref role="1FQA6$" node="63E5y3U1Ttr" resolve="referent heeft verklaring overlegd  ten behoeve van het voorgenomen verblijf van de vreemdeling" />
           </node>
         </node>
+      </node>
+      <node concept="1FQA6B" id="63E5y3U1Tts" role="mu1c7">
+        <ref role="1FQA6$" node="63E5y3U1Tnt" resolve="aanvraag tot het verlenen van een vvr-bep" />
+      </node>
+      <node concept="1FQA6B" id="63E5y3U1Ttt" role="mu1cf">
+        <ref role="1FQA6$" node="63E5y3U1Tnv" resolve="besluit tot afwijzen aanvraag tot het verlenen van een vvr-bep" />
       </node>
     </node>
-    <node concept="2cz0EU" id="2vpCevmJ1_7" role="2cADMD">
+    <node concept="2cz0EU" id="63E5y3U1TtD" role="2cADMD">
       <property role="TrG5h" value="verlenen vvr-bep onder beperkingen" />
       <property role="3ANC2_" value="VERDER UITWERKEN" />
-      <ref role="2cBO5V" node="2vpCevmJ1_3" resolve="inwilligen aanvraag tot het verlenen van een vvr-bep" />
-      <ref role="2cz2Wc" node="2vpCevmJ1uE" resolve="Onze Minister van Justitie en Veiligheid" />
-      <ref role="2cz2We" node="2vpCevmJ1uG" resolve="vreemdeling" />
-      <node concept="cog_b" id="2vpCevmJ1_q" role="2cBO52">
+      <ref role="2cBO5V" node="63E5y3U1Ttu" resolve="inwilligen aanvraag tot het verlenen van een vvr-bep" />
+      <ref role="2cz2Wc" node="63E5y3U1Tn5" resolve="Onze Minister van Justitie en Veiligheid" />
+      <ref role="2cz2We" node="63E5y3U1Tn7" resolve="vreemdeling" />
+      <node concept="cog_b" id="63E5y3U1TtP" role="2pmM46">
         <property role="1FEjNx" value="Een verblijfsvergunning voor bepaalde tijd wordt verleend onder beperkingen, verband houdende met het doel waarvoor het verblijf is toegestaan." />
-        <ref role="cog$q" node="2vpCevmJ1uC" resolve="art. 14 lid 3 Vw (eerste zin)" />
+        <ref role="cog$q" node="63E5y3U1Tn3" resolve="art. 14 lid 3 Vw (eerste zin)" />
       </node>
     </node>
-    <node concept="2cz0EU" id="2vpCevmJ1_9" role="2cADMD">
+    <node concept="2cz0EU" id="63E5y3U1TtF" role="2cADMD">
       <property role="TrG5h" value="bepalen geldigheidsduur van de vvr-bep" />
       <property role="3ANC2_" value="VERDER UITWERKEN" />
-      <ref role="2cBO5V" node="2vpCevmJ1_3" resolve="inwilligen aanvraag tot het verlenen van een vvr-bep" />
-      <ref role="2cz2Wc" node="2vpCevmJ1uE" resolve="Onze Minister van Justitie en Veiligheid" />
-      <node concept="cog_b" id="2vpCevmJ1_p" role="2cBO52">
+      <ref role="2cBO5V" node="63E5y3U1Ttu" resolve="inwilligen aanvraag tot het verlenen van een vvr-bep" />
+      <ref role="2cz2Wc" node="63E5y3U1Tn5" resolve="Onze Minister van Justitie en Veiligheid" />
+      <node concept="cog_b" id="63E5y3U1TtO" role="2pmM46">
         <property role="1FEjNx" value="De verblijfsvergunning voor bepaalde tijd wordt verleend voor ten hoogste vijf achtereenvolgende jaren. " />
-        <ref role="cog$q" node="2vpCevmJ1uB" resolve="art. 14 lid 4 Vw (eerste zin) {vanaf 01-06-2013}; art. 14 lid 3 Vw (eerste zin) {van 01-04-2001 tor 01-06-2013}" />
+        <ref role="cog$q" node="63E5y3U1Tn2" resolve="art. 14 lid 4 Vw (eerste zin) {vanaf 01-06-2013}; art. 14 lid 3 Vw (eerste zin) {van 01-04-2001 tor 01-06-2013}" />
       </node>
     </node>
-    <node concept="2cz0EU" id="2vpCevmJ1_b" role="2cADMD">
+    <node concept="2cz0EU" id="63E5y3U1TtH" role="2cADMD">
       <property role="TrG5h" value="verschaffen vreemdeling document waaruit het rechtmatig verblijf blijkt" />
       <property role="3ANC2_" value="UITWERKEN" />
-      <ref role="2cBO5V" node="2vpCevmJ1_3" resolve="inwilligen aanvraag tot het verlenen van een vvr-bep" />
-      <ref role="2cz2Wc" node="2vpCevmJ1uE" resolve="Onze Minister van Justitie en Veiligheid" />
-      <ref role="2cz2We" node="2vpCevmJ1uG" resolve="vreemdeling" />
-      <node concept="cog_b" id="2vpCevmJ1_r" role="2cBO52">
+      <ref role="2cBO5V" node="63E5y3U1Ttu" resolve="inwilligen aanvraag tot het verlenen van een vvr-bep" />
+      <ref role="2cz2Wc" node="63E5y3U1Tn5" resolve="Onze Minister van Justitie en Veiligheid" />
+      <ref role="2cz2We" node="63E5y3U1Tn7" resolve="vreemdeling" />
+      <node concept="cog_b" id="63E5y3U1TtQ" role="2pmM46">
         <property role="1FEjNx" value="Onze Minister verschaft aan de vreemdeling, die rechtmatig verblijf heeft op grond van artikel 8, onder a tot en met d, f tot en met h en j tot en met m, en aan de vreemdeling die rechtmatig verblijf heeft op grond van artikel 8, onder e, en gemeenschapsonderdaan is als bedoeld in artikel 1, sub 2°, 4° en 6°, een document of schriftelijke verklaring, waaruit het rechtmatig verblijf blijkt." />
-        <ref role="cog$q" node="2vpCevmJ1uD" resolve="art. 9 lid 1 Vw" />
+        <ref role="cog$q" node="63E5y3U1Tn4" resolve="art. 9 lid 1 Vw" />
       </node>
     </node>
-    <node concept="mu5$5" id="2vpCevmJ1_3" role="m3s6u">
+    <node concept="mu5$5" id="63E5y3U1Ttu" role="m3s6u">
       <property role="TrG5h" value="inwilligen aanvraag tot het verlenen van een vvr-bep" />
-      <ref role="mu3Ux" node="2vpCevmJ1va" resolve="inwilligen" />
-      <ref role="mu5$L" node="2vpCevmJ1uE" resolve="Onze Minister van Justitie en Veiligheid" />
-      <ref role="mu3Ts" node="2vpCevmJ1v2" resolve="aanvraag tot het verlenen van een vvr-bep" />
-      <ref role="mu3To" node="2vpCevmJ1uG" resolve="vreemdeling" />
-      <node concept="1FQA6B" id="2vpCevmJ1_4" role="mu1c7">
-        <ref role="1FQA6$" node="2vpCevmJ1v2" resolve="aanvraag tot het verlenen van een vvr-bep" />
-      </node>
-      <node concept="1FQA6B" id="2vpCevmJ1_5" role="mu1cf">
-        <ref role="1FQA6$" node="2vpCevmJ1v6" resolve="besluit tot inwilligen aanvraag tot het verlenen van een vvr-bep" />
-      </node>
-      <node concept="2cz2WB" id="2vpCevmJ1_6" role="mu1cf">
-        <ref role="2cz2WA" node="2vpCevmJ1_7" resolve="verlenen vvr-bep onder beperkingen" />
-      </node>
-      <node concept="2cz2WB" id="2vpCevmJ1_8" role="mu1cf">
-        <ref role="2cz2WA" node="2vpCevmJ1_9" resolve="bepalen geldigheidsduur van de vvr-bep" />
-      </node>
-      <node concept="2cz2WB" id="2vpCevmJ1_a" role="mu1cf">
-        <ref role="2cz2WA" node="2vpCevmJ1_b" resolve="verschaffen vreemdeling document waaruit het rechtmatig verblijf blijkt" />
-      </node>
-      <node concept="cog_b" id="2vpCevmJ1_c" role="mu1ck">
+      <ref role="mu3Ux" node="63E5y3U1Tn_" resolve="inwilligen" />
+      <ref role="mu5$L" node="63E5y3U1Tn5" resolve="Onze Minister van Justitie en Veiligheid" />
+      <ref role="mu3Ts" node="63E5y3U1Tnt" resolve="aanvraag tot het verlenen van een vvr-bep" />
+      <ref role="mu3To" node="63E5y3U1Tn7" resolve="vreemdeling" />
+      <node concept="cog_b" id="63E5y3U1Ttv" role="2pmM46">
         <property role="1FEjNx" value="Onze Minister is bevoegd: a. de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen;" />
-        <ref role="cog$q" node="2vpCevmJ1tH" resolve="art. 14 lid 1, onder a, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tm8" resolve="art. 14 lid 1, onder a, Vw" />
       </node>
-      <node concept="1zEWgd" id="2vpCevmJ1_d" role="mu3T0">
-        <node concept="1FQA6B" id="2vpCevmJ1_e" role="1zF96y">
-          <ref role="1FQA6$" node="2vpCevmJ1yq" resolve="verblijfsvergunning verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet" />
+      <node concept="1zEWgd" id="63E5y3U1Ttw" role="mu3T0">
+        <node concept="1FQA6B" id="63E5y3U1Ttx" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3U1TqP" resolve="verblijfsvergunning verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet" />
         </node>
-        <node concept="1zEXH5" id="2vpCevmJ1_f" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1_g" role="1zF96A">
-            <ref role="1FQA6$" node="2vpCevmJ1za" resolve="vreemdeling heeft inreisverbod of is gesignaleerd ter fine van weigering van de toegang" />
+        <node concept="1zEXH5" id="63E5y3U1Tty" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1Ttz" role="1zF96A">
+            <ref role="1FQA6$" node="63E5y3U1Tr_" resolve="vreemdeling heeft inreisverbod of is gesignaleerd ter fine van weigering van de toegang" />
           </node>
         </node>
-        <node concept="1zEXH5" id="2vpCevmJ1_h" role="1zF96y">
-          <node concept="1FQA6B" id="2vpCevmJ1_i" role="1zF96A">
-            <ref role="1FQA6$" node="2vpCevmJ1zc" resolve="ongewenst verklaarde vreemdeling" />
+        <node concept="1zEXH5" id="63E5y3U1Tt$" role="1zF96y">
+          <node concept="1FQA6B" id="63E5y3U1Tt_" role="1zF96A">
+            <ref role="1FQA6$" node="63E5y3U1TrB" resolve="ongewenst verklaarde vreemdeling" />
           </node>
         </node>
+      </node>
+      <node concept="1FQA6B" id="63E5y3U1TtA" role="mu1c7">
+        <ref role="1FQA6$" node="63E5y3U1Tnt" resolve="aanvraag tot het verlenen van een vvr-bep" />
+      </node>
+      <node concept="1FQA6B" id="63E5y3U1TtB" role="mu1cf">
+        <ref role="1FQA6$" node="63E5y3U1Tnx" resolve="besluit tot inwilligen aanvraag tot het verlenen van een vvr-bep" />
+      </node>
+      <node concept="2cz2WB" id="63E5y3U1TtC" role="mu1cf">
+        <ref role="2cz2WA" node="63E5y3U1TtD" resolve="verlenen vvr-bep onder beperkingen" />
+      </node>
+      <node concept="2cz2WB" id="63E5y3U1TtE" role="mu1cf">
+        <ref role="2cz2WA" node="63E5y3U1TtF" resolve="bepalen geldigheidsduur van de vvr-bep" />
+      </node>
+      <node concept="2cz2WB" id="63E5y3U1TtG" role="mu1cf">
+        <ref role="2cz2WA" node="63E5y3U1TtH" resolve="verschaffen vreemdeling document waaruit het rechtmatig verblijf blijkt" />
       </node>
     </node>
-    <node concept="cu0$f" id="2vpCevmJ1_k" role="cu0BP">
+    <node concept="cu0$f" id="63E5y3U1TtK" role="cu0BP">
       <property role="TrG5h" value="niet in behandeling nemen" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="mu5$5" id="2vpCevmJ1_j" role="m3s6u">
+    <node concept="mu5$5" id="63E5y3U1TtI" role="m3s6u">
       <property role="TrG5h" value="niet in behandeling nemen aanvraag tot het verlenen van een vvr-bep" />
-      <ref role="mu3Ux" node="2vpCevmJ1_k" resolve="niet in behandeling nemen" />
-      <ref role="mu5$L" node="2vpCevmJ1uE" resolve="Onze Minister van Justitie en Veiligheid" />
-      <ref role="mu3Ts" node="2vpCevmJ1v2" resolve="aanvraag tot het verlenen van een vvr-bep" />
-      <ref role="mu3To" node="2vpCevmJ1uG" resolve="vreemdeling" />
-      <node concept="1FQA6B" id="2vpCevmJ1_l" role="mu1c7">
-        <ref role="1FQA6$" node="2vpCevmJ1v2" resolve="aanvraag tot het verlenen van een vvr-bep" />
-      </node>
-      <node concept="1FQA6B" id="2vpCevmJ1_m" role="mu1cf">
-        <ref role="1FQA6$" node="2vpCevmJ1v8" resolve="besluit tot niet in behandeling nemen aanvraag tot het verlenen van een vvr-bep" />
-      </node>
-      <node concept="cog_b" id="2vpCevmJ1_n" role="mu1ck">
+      <ref role="mu3Ux" node="63E5y3U1TtK" resolve="niet in behandeling nemen" />
+      <ref role="mu5$L" node="63E5y3U1Tn5" resolve="Onze Minister van Justitie en Veiligheid" />
+      <ref role="mu3Ts" node="63E5y3U1Tnt" resolve="aanvraag tot het verlenen van een vvr-bep" />
+      <ref role="mu3To" node="63E5y3U1Tn7" resolve="vreemdeling" />
+      <node concept="cog_b" id="63E5y3U1TtJ" role="2pmM46">
         <property role="1FEjNx" value="Onze Minister is bevoegd: a. de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen;" />
-        <ref role="cog$q" node="2vpCevmJ1tH" resolve="art. 14 lid 1, onder a, Vw" />
+        <ref role="cog$q" node="63E5y3U1Tm8" resolve="art. 14 lid 1, onder a, Vw" />
       </node>
-      <node concept="1FQA6B" id="2vpCevmJ1_o" role="mu3T0">
-        <ref role="1FQA6$" node="2vpCevmJ1yo" resolve="betaling verschuldigde leges is achterwege gebleven" />
+      <node concept="1FQA6B" id="63E5y3U1TtL" role="mu3T0">
+        <ref role="1FQA6$" node="63E5y3U1TqN" resolve="betaling verschuldigde leges is achterwege gebleven" />
+      </node>
+      <node concept="1FQA6B" id="63E5y3U1TtM" role="mu1c7">
+        <ref role="1FQA6$" node="63E5y3U1Tnt" resolve="aanvraag tot het verlenen van een vvr-bep" />
+      </node>
+      <node concept="1FQA6B" id="63E5y3U1TtN" role="mu1cf">
+        <ref role="1FQA6$" node="63E5y3U1Tnz" resolve="besluit tot niet in behandeling nemen aanvraag tot het verlenen van een vvr-bep" />
       </node>
     </node>
   </node>
