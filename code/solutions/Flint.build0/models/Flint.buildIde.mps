@@ -387,7 +387,7 @@
       <node concept="aVJcg" id="elgu9R90ia" role="aVJcv">
         <node concept="NbPM2" id="elgu9R90i9" role="aVJcq">
           <node concept="3Mxwew" id="elgu9R90i8" role="3MwsjC">
-            <property role="3MwjfP" value="01" />
+            <property role="3MwjfP" value="02" />
           </node>
         </node>
       </node>
@@ -455,15 +455,6 @@
         <ref role="398BVh" node="B35UKsMXq5" resolve="project_dir" />
         <node concept="2Ry0Ak" id="B35UKsS6wz" role="iGT6I">
           <property role="2Ry0Am" value="artifacts" />
-        </node>
-      </node>
-    </node>
-    <node concept="398rNT" id="B35UKt1XGp" role="1l3spd">
-      <property role="TrG5h" value="node_modules" />
-      <node concept="398BVA" id="B35UKt1XK0" role="398pKh">
-        <ref role="398BVh" node="B35UKsMXq5" resolve="project_dir" />
-        <node concept="2Ry0Ak" id="B35UKt1XOF" role="iGT6I">
-          <property role="2Ry0Am" value="node_modules" />
         </node>
       </node>
     </node>

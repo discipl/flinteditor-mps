@@ -134,7 +134,6 @@
       <plugin path="${artifacts.Flint}/plugins/com.mbeddr.mpsutil.contextactions" />
       <plugin path="${artifacts.Flint}/plugins/com.mbeddr.mpsutil.editorsupport" />
       <plugin path="${artifacts.Flint}/plugins/com.mbeddr.mpsutil.filepicker" />
-      <plugin path="${artifacts.Flint}/plugins/com.mbeddr.mpsutil.genreview" />
       <plugin path="${artifacts.Flint}/plugins/com.mbeddr.mpsutil.gensupport" />
       <plugin path="${artifacts.Flint}/plugins/com.mbeddr.mpsutil.incrementalcomputation" />
       <plugin path="${artifacts.Flint}/plugins/com.mbeddr.mpsutil.infrastructure.misc" />
@@ -327,7 +326,6 @@
       <plugin path="${artifacts.Flint}/plugins/com.mbeddr.mpsutil.contextactions" />
       <plugin path="${artifacts.Flint}/plugins/com.mbeddr.mpsutil.editorsupport" />
       <plugin path="${artifacts.Flint}/plugins/com.mbeddr.mpsutil.filepicker" />
-      <plugin path="${artifacts.Flint}/plugins/com.mbeddr.mpsutil.genreview" />
       <plugin path="${artifacts.Flint}/plugins/com.mbeddr.mpsutil.gensupport" />
       <plugin path="${artifacts.Flint}/plugins/com.mbeddr.mpsutil.incrementalcomputation" />
       <plugin path="${artifacts.Flint}/plugins/com.mbeddr.mpsutil.infrastructure.misc" />
@@ -733,7 +731,6 @@
       <pathelement location="${artifacts.Flint}/plugins/com.mbeddr.mpsutil.contextactions" />
       <pathelement location="${artifacts.Flint}/plugins/com.mbeddr.mpsutil.editorsupport" />
       <pathelement location="${artifacts.Flint}/plugins/com.mbeddr.mpsutil.filepicker" />
-      <pathelement location="${artifacts.Flint}/plugins/com.mbeddr.mpsutil.genreview" />
       <pathelement location="${artifacts.Flint}/plugins/com.mbeddr.mpsutil.gensupport" />
       <pathelement location="${artifacts.Flint}/plugins/com.mbeddr.mpsutil.incrementalcomputation" />
       <pathelement location="${artifacts.Flint}/plugins/com.mbeddr.mpsutil.infrastructure.misc" />
