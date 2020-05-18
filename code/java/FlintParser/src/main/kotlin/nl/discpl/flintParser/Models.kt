@@ -27,7 +27,7 @@ data class Fact(
 data class Duty(
     val duty: DutyReference,
     @SerializedName("duty-components")
-    val dutyComponents: DutyComponents,
+    val dutyComponents: DutyComponents?,
     @SerializedName("duty-holder")
     val dutyHolder: FactReference?,
     val claimant: FactReference?,
@@ -35,7 +35,9 @@ data class Duty(
     val terminate: DutyCreateableAndTerminateable?,
     override val sources: List<Source>?,
     override val explanation: String
-) : Explainable, HasSources
+) : Explainable, HasSources {
+    val allDutyComponents: List<DutyReference> get() = dutyComponents?.components ?: emptyList()
+}
 
 data class Source(
     val citation: String,

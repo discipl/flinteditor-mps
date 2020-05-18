@@ -28,11 +28,16 @@ To build the FlintIDE run `gradlew buildFlintPlugin`. This will generate a zip i
 4. Extract the Flint plugin from Flint.zip to the plugins folder in your mps installation.
 
 ## Using Flint-mps
-1. Click create a new project. Name the project and solution whatever you want.
-2. Right click on the solution and create a new model. Name it whatever you like.
-3. In the used languages tab select Flint and press OK.
-4. Right click on the created model and select `New > FlintModel` or select `Import FlintModel from json`.
-5. Create a Flint model. (Tip: Use control space to get suggestions)
+1. Click create a new project.
+2. Select the `Flint` project template.
+3. Input project settings and press OK.
+    - Project name - The name of the project
+    - Project location - The folder of the project
+    - Solution name - The name of the solution(virtual folder the model is placed in)
+    - Model name - The name of the model
+4. If a window pops up click Migrate and then Finish.
+5. In the project viewer you'll find a your model under `{project_name}/{solution_name}/{model_name}/{model_name}`
+5. Fill your Flint model. (Tip: Use control space to get suggestions)
 6. To use the block editor press `alt+enter` while focused on a fact or act and select `Show Block Diagram Editor`.
 7. To preview the generated json right click in the Flint model and select preview generated text. The file is located at `{project-location}/solutions/{solution-name}/source_gen/{solution-name}/{model-name]/{flint-model-name}.flint.json`.
 8. Right click on the created model and select `New > FlintModelRunner`

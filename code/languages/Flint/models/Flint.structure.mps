@@ -93,6 +93,11 @@
     <node concept="PrWs8" id="10jIHukdr24" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
+    <node concept="1TJgyi" id="2aFPUQisFfh" role="1TKVEl">
+      <property role="IQ2nx" value="2498327558793376721" />
+      <property role="TrG5h" value="unfoldChildrenByDefault" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5XjenljaN1U">
     <property role="EcuMT" value="6868897032739434618" />
@@ -119,6 +124,9 @@
     </node>
     <node concept="PrWs8" id="woTyy$Ex1Y" role="PzmwI">
       <ref role="PrY4T" node="woTyy$Etl9" resolve="IHasResolvableRoot" />
+    </node>
+    <node concept="PrWs8" id="2aFPUQirYuA" role="PzmwI">
+      <ref role="PrY4T" node="2aFPUQir_Y6" resolve="Foldable" />
     </node>
   </node>
   <node concept="1TIwiD" id="5Xjenljcz0Y">
@@ -166,6 +174,9 @@
     </node>
     <node concept="PrWs8" id="27H3E6HPv0P" role="PzmwI">
       <ref role="PrY4T" node="27H3E6HBJi1" resolve="IUsable" />
+    </node>
+    <node concept="PrWs8" id="2aFPUQit7Ht" role="PzmwI">
+      <ref role="PrY4T" node="2aFPUQir_Y6" resolve="Foldable" />
     </node>
   </node>
   <node concept="PlHQZ" id="5Xjenljcz12">
@@ -215,6 +226,9 @@
     </node>
     <node concept="PrWs8" id="63E5y3TGjsP" role="PzmwI">
       <ref role="PrY4T" node="63E5y3TGjs_" resolve="IHasSources" />
+    </node>
+    <node concept="PrWs8" id="2aFPUQit721" role="PzmwI">
+      <ref role="PrY4T" node="2aFPUQir_Y6" resolve="Foldable" />
     </node>
     <node concept="1TJgyj" id="7PeSHTFdFJJ" role="1TKVEi">
       <property role="IQ2ns" value="9029403747833789423" />
@@ -284,6 +298,9 @@
     </node>
     <node concept="PrWs8" id="63E5y3TGjtg" role="PzmwI">
       <ref role="PrY4T" node="63E5y3TGjs_" resolve="IHasSources" />
+    </node>
+    <node concept="PrWs8" id="2aFPUQit8ss" role="PzmwI">
+      <ref role="PrY4T" node="2aFPUQir_Y6" resolve="Foldable" />
     </node>
     <node concept="1TJgyj" id="27H3E6Hoi6H" role="1TKVEi">
       <property role="IQ2ns" value="2444626260293394861" />
@@ -643,6 +660,15 @@
       <property role="20kJfa" value="sources" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5Xjenljcz0Y" resolve="SourceReference" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2aFPUQir_Y6">
+    <property role="EcuMT" value="2498327558793092998" />
+    <property role="TrG5h" value="Foldable" />
+    <node concept="1TJgyi" id="2aFPUQiwsDL" role="1TKVEl">
+      <property role="IQ2nx" value="2498327558794365553" />
+      <property role="TrG5h" value="unfoldByDefault" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
 </model>

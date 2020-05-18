@@ -94,7 +94,7 @@ internal class FlintParserTest {
                 val flintParser = FlintParser(text)
                 val baseSources = flintParser.getDuties()
                 assertThat(baseSources.size, `is`(equalTo(23)))
-                assertTrue(baseSources.any { it.dutyComponents.components.isNotEmpty() })
+                assertTrue(baseSources.any { it.allDutyComponents.isNotEmpty() })
             }
         }
     }

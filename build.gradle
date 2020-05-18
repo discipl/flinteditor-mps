@@ -217,7 +217,7 @@ task extractIdeTar() {
     dependsOn "buildFlintIde"
     dependsOn cleanIdeTar
     doFirst {
-        new File(linuxIdeDir).eachFile { file ->
+        ideDir.eachFile { file ->
             if (file.name.matches("Flint-(.*)\\.tar\\.gz")) {
                 copy {
                     from tarTree(file)

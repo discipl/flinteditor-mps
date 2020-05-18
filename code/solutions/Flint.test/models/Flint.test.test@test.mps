@@ -163,6 +163,7 @@
         <reference id="6868897032739893359" name="baseSource" index="cog$q" />
       </concept>
       <concept id="6868897032739434615" name="Flint.structure.FlintModel" flags="ng" index="cu0$2">
+        <property id="2498327558793376721" name="unfoldChildrenByDefault" index="2KQmhW" />
         <child id="6868897032739893452" name="sources" index="cogAT" />
         <child id="6868897032739434624" name="facts" index="cu0BP" />
         <child id="2444626260294865416" name="duties" index="2cADMD" />
@@ -191,6 +192,9 @@
       </concept>
       <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
         <child id="6983418503075280678" name="sources" index="2pmM46" />
+      </concept>
+      <concept id="2498327558793092998" name="Flint.structure.Foldable" flags="ng" index="2KLowF">
+        <property id="2498327558794365553" name="unfoldByDefault" index="2KaxRs" />
       </concept>
       <concept id="4808965957220771074" name="Flint.structure.AND" flags="ng" index="1zEWgd" />
       <concept id="4808965957220776525" name="Flint.structure.OR" flags="ng" index="1zEXH2" />
@@ -293,6 +297,7 @@
     <node concept="1qefOq" id="1$A6n3M4kbF" role="1SKRRt">
       <node concept="cu0$2" id="1$A6n3M4kbE" role="1qenE9">
         <property role="TrG5h" value="Test" />
+        <property role="2KQmhW" value="true" />
         <node concept="cog_a" id="1$A6n3M4kOp" role="cogAT">
           <property role="TrG5h" value="source1" />
           <property role="cog$m" value="22-04-2020" />
@@ -396,6 +401,7 @@
     <node concept="1qefOq" id="1$A6n3M4AEp" role="1SKRRt">
       <node concept="cu0$2" id="1$A6n3M4AEo" role="1qenE9">
         <property role="TrG5h" value="Test" />
+        <property role="2KQmhW" value="true" />
         <node concept="cu0$f" id="1$A6n3M4AEs" role="cu0BP">
           <property role="TrG5h" value="Fact1" />
           <node concept="7CXmI" id="1$A6n3M4BVZ" role="lGtFl">
@@ -441,6 +447,7 @@
     <node concept="1qefOq" id="1h5_OQXaU0l" role="25YQCW">
       <node concept="cu0$2" id="1h5_OQX3CXO" role="1qenE9">
         <property role="TrG5h" value="Test" />
+        <property role="2KQmhW" value="true" />
         <node concept="cu0$f" id="1h5_OQX3D1h" role="cu0BP">
           <property role="TrG5h" value="Fact1" />
           <node concept="1zEXH5" id="1h5_OQX3D1m" role="coNO9">
@@ -464,6 +471,7 @@
     <node concept="1qefOq" id="1h5_OQXezlw" role="25YQFr">
       <node concept="cu0$2" id="1h5_OQXezl_" role="1qenE9">
         <property role="TrG5h" value="Test" />
+        <property role="2KQmhW" value="true" />
         <node concept="cu0$f" id="1h5_OQXezlA" role="cu0BP">
           <property role="TrG5h" value="Fact1" />
           <node concept="1zEXH5" id="1h5_OQXezlB" role="coNO9">
@@ -485,6 +493,7 @@
     <node concept="1qefOq" id="1h5_OQWVP3E" role="25YQCW">
       <node concept="cu0$f" id="1h5_OQWW8s3" role="1qenE9">
         <property role="TrG5h" value="test" />
+        <property role="2KaxRs" value="true" />
         <node concept="LIFWc" id="63E5y3T2nBy" role="lGtFl">
           <property role="LIFWa" value="0" />
           <property role="OXtK3" value="true" />
@@ -572,6 +581,7 @@
     <node concept="1qefOq" id="7FNYdkaCM5p" role="25YQCW">
       <node concept="cu0$2" id="7FNYdkaCM5o" role="1qenE9">
         <property role="TrG5h" value="Test" />
+        <property role="2KQmhW" value="true" />
         <node concept="LIFWc" id="7FNYdkaCM5s" role="lGtFl">
           <property role="ZRATv" value="true" />
           <property role="OXtK3" value="true" />
@@ -726,6 +736,7 @@
     <node concept="1qefOq" id="7FNYdkaEjab" role="25YQFr">
       <node concept="cu0$2" id="7FNYdkaEjaa" role="1qenE9">
         <property role="TrG5h" value="Test" />
+        <property role="2KQmhW" value="true" />
         <node concept="2cz0EU" id="7FNYdkaEBAN" role="2cADMD">
           <property role="TrG5h" value="Duty1" />
           <property role="3ANC2_" value="Duty Explanation" />
@@ -919,6 +930,7 @@
     <node concept="1qefOq" id="1CBWOUEr26u" role="25YQCW">
       <node concept="cu0$f" id="1CBWOUEr26t" role="1qenE9">
         <property role="TrG5h" value="TestFact" />
+        <property role="2KaxRs" value="true" />
         <node concept="1zEWgd" id="1CBWOUEr26x" role="coNO9">
           <node concept="1zEXHp" id="1CBWOUEr26_" role="1zF96y">
             <node concept="1zEXQY" id="1CBWOUEr26F" role="1zEXIt" />
@@ -943,6 +955,7 @@
     <node concept="1qefOq" id="1CBWOUEr277" role="25YQFr">
       <node concept="cu0$f" id="1CBWOUEr27c" role="1qenE9">
         <property role="TrG5h" value="TestFact" />
+        <property role="2KaxRs" value="true" />
         <node concept="1zEXH2" id="1CBWOUEr5cU" role="coNO9">
           <node concept="1zEXHp" id="1CBWOUEr27e" role="1zF96y">
             <node concept="1zEXQY" id="1CBWOUEr27f" role="1zEXIt" />
@@ -976,6 +989,7 @@
     <node concept="1qefOq" id="1CBWOUErvhA" role="25YQCW">
       <node concept="cu0$f" id="1CBWOUErvhB" role="1qenE9">
         <property role="TrG5h" value="TestFact" />
+        <property role="2KaxRs" value="true" />
         <node concept="1zEWgd" id="1CBWOUErvhC" role="coNO9">
           <node concept="1zEXHp" id="1CBWOUErvhD" role="1zF96y">
             <node concept="1zEXQZ" id="1CBWOUErvtn" role="1zEXIt">
@@ -1002,6 +1016,7 @@
     <node concept="1qefOq" id="1CBWOUErvhJ" role="25YQFr">
       <node concept="cu0$f" id="1CBWOUErvhK" role="1qenE9">
         <property role="TrG5h" value="TestFact" />
+        <property role="2KaxRs" value="true" />
         <node concept="1zEWgd" id="1CBWOUErvkg" role="coNO9">
           <node concept="1zEXHp" id="1CBWOUErvhM" role="1zF96y">
             <node concept="1zEXQY" id="1CBWOUErvhN" role="1zEXIt" />
