@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JsonSchemaMappingsProjectConfiguration">
+    <state>
+      <map>
+        <entry key="flint.schema">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="flint.schema" />
+              <option name="relativePathToSchema" value="../flinteditor-vscode/schemas/flint.schema.json" />
+              <option name="schemaVersion" value="JSON Schema version 7" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="flint_models/lerarenbeurs.flint.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="flint_models/Vreemdelingenwet.flint.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="code/java/FlintParser/src/test/resources/test-lerarenbeurs.flint.json" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+      </map>
+    </state>
+  </component>
+</project>

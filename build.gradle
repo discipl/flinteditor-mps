@@ -1,0 +1,351 @@
+buildscript {
+    repositories {
+        maven {
+            url = uri("https://projects.itemis.de/nexus/content/repositories/mbeddr")
+        }
+        mavenCentral()
+        mavenLocal()
+    }
+    dependencies {
+        classpath "de.itemis.mps:mps-gradle-plugin:$mps_gradle_plugin_version"
+    }
+}
+plugins {
+    id "com.github.node-gradle.node" version "2.2.3"
+    id "java"
+    id "generate-models"
+}
+
+group 'com.discpl'
+version '1.0-SNAPSHOT'
+
+ext {
+    codeDir = project("code").projectDir
+    ideDir = new File(project("code").buildDir, "artifacts/FlintIdeDistribution")
+    linuxIdeDir = new File(ideDir, "linux")
+    libDir = new File(codeDir, "solutions/Flint.runtime/libs")
+    reportsDir = new File(project("code").buildDir, "reports")
+    platformLibDir = new File(rootDir, "platform-libs")
+    artifactDir = new File(rootDir, "artifacts")
+    mpsDir = new File(buildDir, "mps")
+    resourcesDir = new File(rootDir, "static-resources")
+    generatedResourcesDir = new File(resourcesDir, "generated")
+    platforms = ["linux", "mac", "win"]
+    current_platform = currentPlatform()
+    generateTask = null
+
+    javafx_version = "14"
+    mbeddr_version = "2019.3.+"
+    mps_version = "2019.3.4"
+    node_version = "13.6.0"
+    npm_version = "6.13.4"
+}
+
+configurations {
+    mpslib
+    mpsplatformlib
+    artifact
+    mps
+    antLib
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    maven {
+        url = uri("https://projects.itemis.de/nexus/content/repositories/mbeddr")
+    }
+}
+
+dependencies {
+    platforms.each { platform ->
+        mpsplatformlib "org.openjfx:javafx-base:$javafx_version:$platform"
+        mpsplatformlib "org.openjfx:javafx-controls:$javafx_version:$platform"
+        mpsplatformlib "org.openjfx:javafx-graphics:$javafx_version:$platform"
+        mpsplatformlib "org.openjfx:javafx-media:$javafx_version:$platform"
+        mpsplatformlib "org.openjfx:javafx-swing:$javafx_version:$platform"
+        mpsplatformlib "org.openjfx:javafx-web:$javafx_version:$platform"
+    }
+    mpslib(project("code:java:FlintParser")) {
+        exclude group: 'org.openjfx'
+    }
+    artifact "com.mbeddr:platform:$mbeddr_version"
+    mps("com.jetbrains:mps:$mps_version")
+    antLib("org.apache.ant:ant-junit:1.10.1")
+}
+
+ext["itemis.mps.gradle.ant.defaultScriptArgs"] = ["-Dmps_home=$mpsDir.path".toString()]
+ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = project.configurations.antLib.fileCollection({ true })
+
+node {
+    // Version of node to use.
+    version = node_version
+
+    // Version of npm to use.
+    npmVersion = npm_version
+
+    // Base URL for fetching node distributions (change if you have a mirror).
+    distBaseUrl = 'https://nodejs.org/dist'
+
+    // If true, it will download node using above parameters.
+    // If false, it will try to use globally installed node.
+    download = true
+
+    // Set the work directory for unpacking node
+    workDir = file("${project.buildDir}/nodejs")
+
+    // Set the work directory for NPM
+    npmWorkDir = file("${project.buildDir}/npm")
+
+    // Set the work directory where node_modules should be located
+    nodeModulesDir = file("${project.projectDir}")
+}
+
+de.itemis.mps.gradle.Plugin getPlugin(pluginPath, rootPluginlocation) {
+    if (!new File(pluginPath, "META-INF/plugin.xml").exists()) return null
+    def metaInf = new XmlParser().parse(new File(pluginPath, "META-INF/plugin.xml"))
+    def pluginId = metaInf.id[0].value()[0]
+    def reducedPluginPath = pluginPath.substring(rootPluginlocation.toString().size() + 1)
+    return new de.itemis.mps.gradle.Plugin(pluginId, reducedPluginPath)
+}
+
+de.itemis.mps.gradle.Plugin[] getPlugins(xmlFile, pluginslocation) {
+    def buildIde = new XmlParser().parse(xmlFile)
+    def pluginPaths = buildIde.target.find { it.attribute("name") == "generate" }
+            .collect { it.plugin }
+            .flatten()
+            .findAll { it.attribute("path").contains("artifacts.com.mbeddr.platform") }
+            .collect { it.attribute("path").replace("\${artifacts.com.mbeddr.platform}", pluginslocation.toString()) }
+    def mbeddrBuild = getPlugin(new File(pluginslocation, "com.mbeddr.platform.build").toString(), pluginslocation)
+    return (pluginPaths.collect { getPlugin(it, pluginslocation) } + mbeddrBuild).findAll { it != null }
+}
+
+generate {
+    mpsLocation = mpsDir
+    projectLocation = codeDir
+    plugins = getPlugins(new File(codeDir, "buildFlint.xml"), new File(mpsDir, "plugins"))
+    mpsConfig = configurations.mps
+    pluginLocation = new File(mpsDir, "plugins")
+}
+
+task copyProjectLibs(type: Copy) {
+    subprojects.forEach { sub ->
+        from {
+            new File(sub.buildDir, "libs")
+        }
+    }
+    into libDir
+    rename '(.*)-[0-9]+\\..*', '$1.jar'
+}
+
+subprojects.forEach {
+    copyProjectLibs.dependsOn it.getTasksByName("build", false)
+}
+
+task cleanLibs(type: Delete) {
+    delete(libDir)
+}
+
+task resolveLibs(type: Copy) {
+    group "dependancies"
+    dependsOn cleanLibs
+    from {
+        configurations.mpslib.resolve()
+    }
+    into libDir
+    finalizedBy copyProjectLibs
+    rename '(.*)-[0-9]+\\..*.', '$1.jar'
+}
+
+task cleanResources(type: Delete) {
+    delete(generatedResourcesDir)
+}
+
+task fetchComplianceByDesign(type: Copy) {
+    dependsOn npmInstall
+    from "$rootDir.path/node_modules/@discipl/compliance-by-design/build"
+    into "${generatedResourcesDir.path}/compliance-by-design"
+}
+
+task fetchResources() {
+    group "dependancies"
+    dependsOn cleanResources
+    finalizedBy fetchComplianceByDesign
+}
+
+task cleanPlatformLibs(type: Delete) {
+    delete(platformLibDir)
+}
+
+task resolvePlatformLibs(type: Copy) {
+    group "dependancies"
+    dependsOn cleanPlatformLibs
+    from configurations.mpsplatformlib.resolve()
+    into platformLibDir
+    rename '(.*)-[0-9]+\\..*.', '$1.jar'
+}
+
+task unzipArtifacts() {
+    doFirst {
+        copy {
+            artifactDir.eachFile {
+                if (it.name.matches("(.*)\\.zip")) {
+                    from zipTree(it)
+                }
+            }
+            into artifactDir
+        }
+    }
+}
+
+task cleanArtifacts(type: Delete) {
+    delete(artifactDir)
+}
+
+task resolveArtifacts(type: Copy) {
+    group "dependancies"
+    dependsOn cleanArtifacts
+    from configurations.artifact.resolve().collect { zipTree(it) }
+    into artifactDir
+}
+
+task cleanIdeTar(type: Delete) {
+    delete(linuxIdeDir)
+}
+
+task extractIdeTar() {
+    dependsOn "buildFlintIde"
+    dependsOn cleanIdeTar
+    doFirst {
+        ideDir.eachFile { file ->
+            if (file.name.matches("Flint-(.*)\\.tar\\.gz")) {
+                copy {
+                    from tarTree(file)
+                    into linuxIdeDir
+                }
+            }
+        }
+    }
+}
+
+task startFlintLinuxIde(type: Exec) {
+    dependsOn(extractIdeTar)
+    group "flintide"
+    workingDir "$linuxIdeDir/bin"
+    commandLine "./flint.sh"
+}
+
+task copyMbeddrPlugins(type: Copy) {
+    dependsOn(resolveArtifacts)
+    from "${artifactDir}/com.mbeddr.platform"
+    into "${mpsDir}/plugins"
+}
+
+
+import org.gradle.internal.os.OperatingSystem
+
+task copyJavaFxLibs(type: Copy) {
+    dependsOn(resolvePlatformLibs)
+    from(fileTree(platformLibDir).files) { // flattening
+        include {
+            it.file.name ==~ "javafx.*-$current_platform\\.jar\$"
+        }
+    }
+    into "${mpsDir}/lib"
+}
+
+task resolveMpsPlugins(type: Copy) {
+    from configurations.mps.resolve().collect { zipTree(it) }
+    into mpsDir
+    finalizedBy(copyMbeddrPlugins)
+    finalizedBy(copyJavaFxLibs)
+}
+
+task buildFlint(type: de.itemis.mps.gradle.RunAntScript) {
+    group "build"
+    script = file("$codeDir/buildFlint.xml")
+}
+
+task buildFlintIde(type: de.itemis.mps.gradle.RunAntScript) {
+    group "build"
+    dependsOn(buildFlint)
+    script = file("$codeDir/buildIdeDistribution.xml")
+}
+
+task buildFlintPlugin(type: de.itemis.mps.gradle.RunAntScript) {
+    group "build"
+    dependsOn(buildFlint)
+    script = file("$codeDir/buildPluginDistribution.xml")
+}
+
+task cleanProject(type: Delete) {
+    group "project"
+    dependsOn(cleanResources)
+    dependsOn(cleanArtifacts)
+    dependsOn(cleanIdeTar)
+    dependsOn(cleanLibs)
+    dependsOn(cleanPlatformLibs)
+    getTasksByName("clean", true).each {
+        dependsOn(it)
+    }
+    delete(project("code").buildDir)
+    delete(buildDir)
+    delete("$projectDir/node_modules")
+}
+
+def currentPlatform() {
+    if (OperatingSystem.current().isWindows()) {
+        return platforms[2]
+    }
+    if (OperatingSystem.current().isMacOsX()) {
+        return platforms[1]
+    }
+    return platforms[0]
+}
+
+task initProject() {
+    group "project"
+    dependsOn(resolveLibs)
+    dependsOn(resolveArtifacts)
+    dependsOn(resolvePlatformLibs)
+    dependsOn(fetchResources)
+}
+
+tasks.whenTaskAdded {
+    if (it.getName() == "resolveMpsForGeneration") {
+        it.finalizedBy(resolveMpsPlugins)
+        initProject.dependsOn(it)
+    }
+    if (it.getName() == "generate") {
+        buildFlint.dependsOn(it)
+    }
+}
+
+test.finalizedBy("mpsTests")
+
+task mpsTests(type: de.itemis.mps.gradle.TestLanguages, dependsOn: buildFlint) {
+    group "verification"
+    script = file("$codeDir/testFlint.xml")
+    finalizedBy "htmlReport"
+}
+
+task collectXmlReports() {
+    doLast {
+        delete(reportsDir)
+        copy {
+            from {
+                new File(project("code:java:FlintParser").buildDir, "test-results")
+            }
+            from {
+                new File(codeDir, "TEST-jetbrains.mps.testbench.junit.suites.AntModuleTestSuite0-Tests.xml")
+            }
+            into "$reportsDir/sources"
+        }
+        delete(new File(codeDir, "TEST-jetbrains.mps.testbench.junit.suites.AntModuleTestSuite0-Tests.xml"))
+    }
+}
+
+task htmlReport(type: de.itemis.mps.gradle.RunAntScript, dependsOn: collectXmlReports) {
+    group "verification"
+    script = file("$codeDir/html-report.xml")
+}
