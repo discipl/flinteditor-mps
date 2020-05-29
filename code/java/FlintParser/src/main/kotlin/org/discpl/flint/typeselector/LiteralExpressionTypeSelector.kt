@@ -1,13 +1,13 @@
-package nl.discpl.flintParser.typeselector
+package org.discpl.flint.typeselector
 
 import com.google.gson.JsonElement
 import com.google.gson.JsonObject
 import com.google.gson.JsonPrimitive
 import io.gsonfire.TypeSelector
-import nl.discpl.flintParser.BooleanLiteralExpression
-import nl.discpl.flintParser.LiteralExpression
-import nl.discpl.flintParser.NumberLiteralExpression
-import nl.discpl.flintParser.StringLiteralExpression
+import org.discpl.flint.BooleanLiteralExpression
+import org.discpl.flint.LiteralExpression
+import org.discpl.flint.NumberLiteralExpression
+import org.discpl.flint.StringLiteralExpression
 
 class LiteralExpressionTypeSelector : TypeSelector<LiteralExpression<*>> {
     override fun getClassForElement(readElement: JsonElement): Class<out LiteralExpression<*>> {

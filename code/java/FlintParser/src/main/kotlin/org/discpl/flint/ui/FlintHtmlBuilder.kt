@@ -1,7 +1,7 @@
-package nl.discpl.flintParser.ui
+package org.discpl.flint.ui
 
 import com.google.gson.Gson
-import nl.discpl.flintParser.Manifest
+import org.discpl.flint.Manifest
 import java.io.FileReader
 import java.nio.file.Path
 

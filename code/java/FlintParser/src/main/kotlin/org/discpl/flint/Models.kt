@@ -1,4 +1,4 @@
-package nl.discpl.flintParser
+package org.discpl.flint
 
 import com.google.gson.annotations.SerializedName
 
@@ -72,17 +72,20 @@ interface Expression : Resolvable {
     val allResolvables: List<Resolvable>
 }
 
-data class SingleExpression(override val expression: String, val operand: Resolvable) : Expression {
+data class SingleExpression(override val expression: String, val operand: Resolvable) :
+    Expression {
     override val allResolvables: List<Resolvable>
         get() = listOf(operand)
 }
 
-data class MultiExpression(override val expression: String, val operands: List<Resolvable>) : Expression {
+data class MultiExpression(override val expression: String, val operands: List<Resolvable>) :
+    Expression {
     override val allResolvables: List<Resolvable>
         get() = operands
 }
 
-data class ListExpression(override val expression: String, val items: Resolvable, val name: String) : Expression {
+data class ListExpression(override val expression: String, val items: Resolvable, val name: String) :
+    Expression {
     override val allResolvables: List<Resolvable>
         get() = listOf(items)
 }

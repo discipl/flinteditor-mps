@@ -1,10 +1,10 @@
-package nl.discpl.flintParser.typeselector
+package org.discpl.flint.typeselector
 
 import com.google.gson.JsonElement
 import com.google.gson.JsonObject
 import com.google.gson.JsonPrimitive
 import io.gsonfire.TypeSelector
-import nl.discpl.flintParser.*
+import org.discpl.flint.*
 
 class ExpressionTypeSelector : TypeSelector<Expression> {
     override fun getClassForElement(readElement: JsonElement): Class<out Expression> {

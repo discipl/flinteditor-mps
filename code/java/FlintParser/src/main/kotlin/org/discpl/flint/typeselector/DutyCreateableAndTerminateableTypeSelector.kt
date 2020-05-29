@@ -1,8 +1,8 @@
-package nl.discpl.flintParser.typeselector
+package org.discpl.flint.typeselector
 
 import com.google.gson.JsonElement
 import io.gsonfire.TypeSelector
-import nl.discpl.flintParser.*
+import org.discpl.flint.*
 
 class DutyCreateableAndTerminateableTypeSelector : TypeSelector<DutyCreateableAndTerminateable> {
     override fun getClassForElement(readElement: JsonElement): Class<out DutyCreateableAndTerminateable> {

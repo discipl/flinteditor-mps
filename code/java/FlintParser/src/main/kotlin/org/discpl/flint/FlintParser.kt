@@ -1,17 +1,26 @@
-package nl.discpl.flintParser
+package org.discpl.flint
 
 import io.gsonfire.GsonFireBuilder
-import nl.discpl.flintParser.deserialize.*
-import nl.discpl.flintParser.typeselector.ActCreateableAndTerminateableTypeSelector
-import nl.discpl.flintParser.typeselector.DutyCreateableAndTerminateableTypeSelector
-import nl.discpl.flintParser.typeselector.ResolvableTypeSelector
+import org.discpl.flint.deserialize.*
+import org.discpl.flint.typeselector.ActCreateableAndTerminateableTypeSelector
+import org.discpl.flint.typeselector.DutyCreateableAndTerminateableTypeSelector
+import org.discpl.flint.typeselector.ResolvableTypeSelector
 
 
 class FlintParser(json: String) {
     private val flintModel: FlintModel = GsonFireBuilder()
-        .registerTypeSelector(Resolvable::class.java, ResolvableTypeSelector())
-        .registerTypeSelector(ActCreateableAndTerminateable::class.java, ActCreateableAndTerminateableTypeSelector())
-        .registerTypeSelector(DutyCreateableAndTerminateable::class.java, DutyCreateableAndTerminateableTypeSelector())
+        .registerTypeSelector(
+            Resolvable::class.java,
+            ResolvableTypeSelector()
+        )
+        .registerTypeSelector(
+            ActCreateableAndTerminateable::class.java,
+            ActCreateableAndTerminateableTypeSelector()
+        )
+        .registerTypeSelector(
+            DutyCreateableAndTerminateable::class.java,
+            DutyCreateableAndTerminateableTypeSelector()
+        )
         .createGsonBuilder()
         .registerTypeAdapter(
             DutyReference::class.java,

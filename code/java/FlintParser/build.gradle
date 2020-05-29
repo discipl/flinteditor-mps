@@ -3,7 +3,7 @@ plugins {
     id 'com.github.johnrengelman.shadow' version '5.2.0'
 }
 
-group 'nl.quintor'
+group 'org.discipl'
 version '1.0-SNAPSHOT'
 
 repositories {

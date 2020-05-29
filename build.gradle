@@ -16,7 +16,7 @@ plugins {
     id "generate-models"
 }
 
-group 'com.discpl'
+group 'org.discipl'
 version '1.0-SNAPSHOT'
 
 ext {

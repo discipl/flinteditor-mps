@@ -1,9 +1,9 @@
-package nl.discpl.flintParser.deserialize
+package org.discpl.flint.deserialize
 
 import com.google.gson.JsonDeserializationContext
 import com.google.gson.JsonDeserializer
 import com.google.gson.JsonElement
-import nl.discpl.flintParser.InvalidCreateableAndTerminateable
+import org.discpl.flint.InvalidCreateableAndTerminateable
 import java.lang.reflect.Type
 
 class InvalidCreatableAndTerminateableDeserializer : JsonDeserializer<InvalidCreateableAndTerminateable> {

@@ -1,11 +1,11 @@
-package nl.discpl.flintParser.typeselector
+package org.discpl.flint.typeselector
 
 import com.google.gson.JsonElement
 import io.gsonfire.TypeSelector
-import nl.discpl.flintParser.ActCreateableAndTerminateable
-import nl.discpl.flintParser.DutyReference
-import nl.discpl.flintParser.FactReference
-import nl.discpl.flintParser.InvalidCreateableAndTerminateable
+import org.discpl.flint.ActCreateableAndTerminateable
+import org.discpl.flint.DutyReference
+import org.discpl.flint.FactReference
+import org.discpl.flint.InvalidCreateableAndTerminateable
 
 class ActCreateableAndTerminateableTypeSelector : TypeSelector<ActCreateableAndTerminateable> {
     override fun getClassForElement(readElement: JsonElement): Class<out ActCreateableAndTerminateable> {
