@@ -1,10 +1,10 @@
-package org.discpl.flint
+package org.discipl.flint
 
 import io.gsonfire.GsonFireBuilder
-import org.discpl.flint.deserialize.*
-import org.discpl.flint.typeselector.ActCreateableAndTerminateableTypeSelector
-import org.discpl.flint.typeselector.DutyCreateableAndTerminateableTypeSelector
-import org.discpl.flint.typeselector.ResolvableTypeSelector
+import org.discipl.flint.deserialize.*
+import org.discipl.flint.typeselector.ActCreateableAndTerminateableTypeSelector
+import org.discipl.flint.typeselector.DutyCreateableAndTerminateableTypeSelector
+import org.discipl.flint.typeselector.ResolvableTypeSelector
 
 
 class FlintParser(json: String) {

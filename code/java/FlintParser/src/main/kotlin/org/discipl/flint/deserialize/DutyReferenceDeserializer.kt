@@ -1,9 +1,9 @@
-package org.discpl.flint.deserialize
+package org.discipl.flint.deserialize
 
 import com.google.gson.JsonDeserializationContext
 import com.google.gson.JsonDeserializer
 import com.google.gson.JsonElement
-import org.discpl.flint.DutyReference
+import org.discipl.flint.DutyReference
 import java.lang.reflect.Type
 
 class DutyReferenceDeserializer : JsonDeserializer<DutyReference> {

@@ -1,4 +1,4 @@
-package org.discpl.flint.ui
+package org.discipl.flint.ui
 
 import javafx.application.Platform
 import javafx.embed.swing.JFXPanel
@@ -6,7 +6,6 @@ import javafx.scene.Scene
 import javafx.scene.layout.StackPane
 import javafx.scene.web.WebEngine
 import javafx.scene.web.WebView
-import org.discpl.flint.ui.FlintHtmlBuilder
 import java.nio.file.Path
 
 

@@ -1,12 +1,11 @@
-package org.discpl.flint.typeselector
+package org.discipl.flint.typeselector
 
 import com.google.gson.JsonElement
 import com.google.gson.JsonObject
 import com.google.gson.JsonPrimitive
 import io.gsonfire.TypeSelector
-import org.discpl.flint.Expression
-import org.discpl.flint.FactReference
-import org.discpl.flint.Resolvable
+import org.discipl.flint.FactReference
+import org.discipl.flint.Resolvable
 
 class ResolvableTypeSelector : TypeSelector<Resolvable> {
     override fun getClassForElement(readElement: JsonElement): Class<out Resolvable> {

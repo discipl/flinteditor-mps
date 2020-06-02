@@ -1,4 +1,4 @@
-package org.discpl.flint
+package org.discipl.flint
 
 import org.hamcrest.MatcherAssert.assertThat
 import org.hamcrest.Matchers.*

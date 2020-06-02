@@ -1,7 +1,7 @@
-package org.discpl.flint.ui
+package org.discipl.flint.ui
 
 import com.google.gson.Gson
-import org.discpl.flint.Manifest
+import org.discipl.flint.Manifest
 import java.io.FileReader
 import java.nio.file.Path
 

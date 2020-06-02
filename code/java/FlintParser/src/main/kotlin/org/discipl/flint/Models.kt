@@ -1,4 +1,4 @@
-package org.discpl.flint
+package org.discipl.flint
 
 import com.google.gson.annotations.SerializedName
 

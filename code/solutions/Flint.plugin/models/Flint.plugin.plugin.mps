@@ -66,8 +66,8 @@
     <import index="dush" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.persistence(MPS.OpenAPI/)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="g1qu" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.util.ui(MPS.IDEA/)" />
-    <import index="y0k6" ref="acf1b507-e791-4de3-b55f-a3880c36d5bb/java:org.discpl.flint(Flint.runtime/)" />
-    <import index="h0s" ref="acf1b507-e791-4de3-b55f-a3880c36d5bb/java:org.discpl.flint.ui(Flint.runtime/)" />
+    <import index="y0k6" ref="acf1b507-e791-4de3-b55f-a3880c36d5bb/java:org.discipl.flint(Flint.runtime/)" />
+    <import index="h0s" ref="acf1b507-e791-4de3-b55f-a3880c36d5bb/java:org.discipl.flint.ui(Flint.runtime/)" />
     <import index="71xd" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.tools(MPS.Platform/)" implicit="true" />
     <import index="1m72" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.components(MPS.IDEA/)" implicit="true" />
     <import index="v23q" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi(MPS.IDEA/)" implicit="true" />
