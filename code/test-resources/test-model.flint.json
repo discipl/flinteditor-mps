@@ -1,0 +1,130 @@
+{
+  "acts": [
+    {
+      "act": "<<Act1>>",
+      "actor": "[Person]",
+      "action": "[Person]",
+      "object": "[Person]",
+      "recipient": "[Person]",
+      "preconditions": "[Reference]",
+      "create": [],
+      "terminate": [],
+      "sources": [
+        {
+          "validFrom": "28-04-2020",
+          "validTo": "30-04-2020",
+          "juriconnect": "test123",
+          "citation": "TestSource",
+          "text": "",
+          "explanation": ""
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "act": "<<Act2>>",
+      "actor": "[Literals]",
+      "action": "[Literals]",
+      "object": "[Literals]",
+      "recipient": "[Literals]",
+      "preconditions": "[]",
+      "create": [
+        "[Person]"
+      ],
+      "terminate": [
+        "[Person]",
+        "<Duty1>"
+      ],
+      "sources": [],
+      "explanation": "Test Explananation"
+    }
+  ],
+  "facts": [
+    {
+      "fact": "[Person]",
+      "explanation": "Person Explanation",
+      "function": "[]",
+      "sources": [
+        {
+          "validFrom": "28-04-2020",
+          "validTo": "30-04-2020",
+          "juriconnect": "test123",
+          "citation": "TestSource",
+          "text": "Person Text",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "fact": "[Literals]",
+      "explanation": "",
+      "function": {
+        "expression": "AND",
+        "operands": [
+          {
+            "expression": "LITERAL",
+            "operand": false
+          },
+          {
+            "expression": "LITERAL",
+            "operand": 1.2345
+          },
+          {
+            "expression": "LITERAL",
+            "operand": "TestString"
+          }
+        ]
+      },
+      "sources": []
+    },
+    {
+      "fact": "[Reference]",
+      "explanation": "",
+      "function": {
+        "expression": "NOT",
+        "operand": "[Literals]"
+      },
+      "sources": [
+        {
+          "validFrom": "28-04-2020",
+          "validTo": "30-04-2020",
+          "juriconnect": "test123",
+          "citation": "TestSource",
+          "text": "Reference Text",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "fact": "[List]",
+      "explanation": "",
+      "function": {
+        "expression": "LIST",
+        "name": "ListName",
+        "items": "[Person]"
+      },
+      "sources": []
+    }
+  ],
+  "duties": [
+    {
+      "duty": "<Duty1>",
+      "duty-components": "",
+      "duty-holder": "[Person]",
+      "claimant": "[Person]",
+      "create": "<<Act2>>",
+      "terminate": "<<Act1>>",
+      "sources": [
+        {
+          "validFrom": "28-04-2020",
+          "validTo": "30-04-2020",
+          "juriconnect": "test123",
+          "citation": "TestSource",
+          "text": "Text",
+          "explanation": ""
+        }
+      ],
+      "explanation": "Duty Explanation"
+    }
+  ]
+}

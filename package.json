@@ -1,0 +1,5 @@
+{
+	"dependencies": {
+		"@discipl/compliance-by-design": "^0.2.1"
+	}
+}
