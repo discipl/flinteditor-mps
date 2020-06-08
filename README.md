@@ -43,3 +43,5 @@ To build the FlintIDE run `gradlew buildFlintPlugin`. This will generate a zip i
 8. Right click on the created model and select `New > FlintModelRunner`
 9. Configure the runner.
 10. To open the Compliance By Design demo generate de model (ctrl + F9),  right click on the FlintModelRunner and select Run FlintModel.
+
+Let's see if travis works!!
