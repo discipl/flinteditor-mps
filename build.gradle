@@ -126,6 +126,7 @@ generate {
     plugins = getPlugins(new File(codeDir, "buildFlint.xml"), new File(mpsDir, "plugins"))
     mpsConfig = configurations.mps
     pluginLocation = new File(mpsDir, "plugins")
+    models=["Flint.buildIde"]
 }
 
 task copyProjectLibs(type: Copy) {
@@ -261,7 +262,7 @@ task resolveMpsPlugins(type: Copy) {
     finalizedBy(copyJavaFxLibs)
 }
 
-task buildFlint(type: de.itemis.mps.gradle.RunAntScript) {
+task buildFlint(type: de.itemis.mps.gradle.RunAntScript, dependsOn: "generate") {
     group "build"
     script = file("$codeDir/buildFlint.xml")
 }
@@ -305,6 +306,7 @@ def currentPlatform() {
 
 task initProject() {
     group "project"
+    dependsOn("resolveMpsForGeneration")
     dependsOn(resolveLibs)
     dependsOn(resolveArtifacts)
     dependsOn(resolvePlatformLibs)
@@ -314,16 +316,12 @@ task initProject() {
 tasks.whenTaskAdded {
     if (it.getName() == "resolveMpsForGeneration") {
         it.finalizedBy(resolveMpsPlugins)
-        initProject.dependsOn(it)
-    }
-    if (it.getName() == "generate") {
-        buildFlint.dependsOn(it)
     }
 }
 
 test.finalizedBy("mpsTests")
 
-task mpsTests(type: de.itemis.mps.gradle.TestLanguages, dependsOn: buildFlint) {
+task mpsTests(type: de.itemis.mps.gradle.TestLanguages, dependsOn: "buildLanguages") {
     group "verification"
     script = file("$codeDir/testFlint.xml")
     finalizedBy "htmlReport"
@@ -348,4 +346,9 @@ task collectXmlReports() {
 task htmlReport(type: de.itemis.mps.gradle.RunAntScript, dependsOn: collectXmlReports) {
     group "verification"
     script = file("$codeDir/html-report.xml")
+}
+
+task buildLanguages(type: de.itemis.mps.gradle.BuildLanguages, dependsOn: "generate") {
+    group "verification"
+    script = file("$codeDir/buildFlint.xml")
 }
