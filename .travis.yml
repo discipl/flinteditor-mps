@@ -3,6 +3,10 @@ install: true
 
 jdk: oraclejdk11
 
+dist: bionic
+services:
+  - xvfb
+
 script:
   - ./gradlew initProject
   - ./gradlew test
