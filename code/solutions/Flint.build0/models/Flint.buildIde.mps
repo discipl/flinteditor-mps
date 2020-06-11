@@ -1448,12 +1448,6 @@
           <node concept="3Mxwew" id="2WP7dhE1etR" role="3MwsjC">
             <property role="3MwjfP" value="Flint" />
           </node>
-          <node concept="3Mxwew" id="2WP7dhE1etS" role="3MwsjC">
-            <property role="3MwjfP" value="-" />
-          </node>
-          <node concept="3Mxwey" id="2WP7dhE1etT" role="3MwsjC">
-            <ref role="3Mxwex" node="2WP7dhE1eqs" resolve="build.number" />
-          </node>
           <node concept="3Mxwew" id="2WP7dhE1etU" role="3MwsjC">
             <property role="3MwjfP" value=".tar.gz" />
           </node>
@@ -1615,12 +1609,6 @@
           <node concept="3Mxwew" id="2WP7dhE1euN" role="3MwsjC">
             <property role="3MwjfP" value="Flint" />
           </node>
-          <node concept="3Mxwew" id="2WP7dhE1euO" role="3MwsjC">
-            <property role="3MwjfP" value="-" />
-          </node>
-          <node concept="3Mxwey" id="2WP7dhE1euP" role="3MwsjC">
-            <ref role="3Mxwex" node="2WP7dhE1eqs" resolve="build.number" />
-          </node>
           <node concept="3Mxwew" id="2WP7dhE1euQ" role="3MwsjC">
             <property role="3MwjfP" value=".win.zip" />
           </node>
@@ -1630,12 +1618,6 @@
         <node concept="3_J27D" id="2WP7dhE1evy" role="Nbhlr">
           <node concept="3Mxwew" id="2WP7dhE1evz" role="3MwsjC">
             <property role="3MwjfP" value="Flint" />
-          </node>
-          <node concept="3Mxwew" id="2WP7dhE1ev$" role="3MwsjC">
-            <property role="3MwjfP" value="-" />
-          </node>
-          <node concept="3Mxwey" id="2WP7dhE1ev_" role="3MwsjC">
-            <ref role="3Mxwex" node="2WP7dhE1eqs" resolve="build.number" />
           </node>
           <node concept="3Mxwew" id="2WP7dhE1evA" role="3MwsjC">
             <property role="3MwjfP" value=".macos.zip" />
