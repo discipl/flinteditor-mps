@@ -808,8 +808,7 @@
     </jar>
     <junit showoutput="true" fork="true" haltonfailure="true" dir="${basedir}">
       <jvmarg value="-ea" />
-      <jvmarg value="-Xss2048k" />
-      <jvmarg value="-Xmx1024m" />
+      <jvmarg line="" />
       <jvmarg value="-XX:+HeapDumpOnOutOfMemoryError" />
       <jvmarg value="-Didea.config.path=${build.mps.config.path}" />
       <jvmarg value="-Didea.system.path=${build.mps.system.path}" />

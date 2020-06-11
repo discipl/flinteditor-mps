@@ -32,6 +32,7 @@
       </concept>
       <concept id="6593674873639474400" name="jetbrains.mps.build.mps.tests.structure.BuildMpsLayout_TestModules_Options" flags="ng" index="24cAiW">
         <child id="6593674873639478221" name="haltonfailure" index="24c_eh" />
+        <child id="3609768169816292377" name="jvmArgs" index="1psgkv" />
       </concept>
       <concept id="4005526075820600484" name="jetbrains.mps.build.mps.tests.structure.BuildModuleTestsPlugin" flags="ng" index="1gjT0q" />
     </language>
@@ -2089,6 +2090,7 @@
             <property role="3MwjfP" value="true" />
           </node>
         </node>
+        <node concept="NbPM2" id="26_FOf0$LUr" role="1psgkv" />
       </node>
     </node>
   </node>
