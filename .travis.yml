@@ -5,6 +5,9 @@ jdk: openjdk11
 
 dist: trusty
 
+env:
+  - GRADLE_OPTS=-Dorg.gradle.daemon=false
+
 addons:
   apt:
     packages:
@@ -16,8 +19,6 @@ before_script:
   - sleep 3 # give xvfb some time to start
 
 after_failure:
-  - ls
-  - echo $HOME
   - if [ -f ./code/build/reports/html/junit-noframes.html ]; then lynx -dump ./code/build/reports/html/junit-noframes.html; fi
 
 script:
