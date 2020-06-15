@@ -14,13 +14,21 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Fetch Tags
-        run: git fetch --tags -all -f || true
-      - name: Test
-        run: ./commitlogs.sh
-      - name: Test2
-        run: git describe --tags --abbrev=0 $(git rev-list --tags --max-count=1 --skip=1 --no-walk)
-      - name: Test3
-        run: git describe --tags --abbrev=0 $(git rev-list --tags --max-count=1 --skip=0 --no-walk)
+        run: git fetch --prune --unshallow --tags -f
+      - name: Setup Java 11
+        uses: actions/setup-java@v1
+        with:
+          java-version: '11'
+      - name: Build Plugin
+        run: ./gradlew initProject buildFlintPlugin
+        env:
+          GRADLE_OPTS: -Dorg.gradle.daemon=false
+      - name: Build IDE
+        uses: GabrielBB/xvfb-action@v1.2
+        with:
+          run: ./gradlew buildFlintIde
+        env:
+          GRADLE_OPTS: -Dorg.gradle.daemon=false
       - name: Get Release Logs
         id: get_release_logs
         run: |
@@ -44,20 +52,6 @@ jobs:
               ${{ steps.get_release_logs.outputs.logs }}
           draft: true
           prerelease: true
-      - name: Setup Java 11
-        uses: actions/setup-java@v1
-        with:
-          java-version: '11'
-      - name: Build Plugin
-        run: ./gradlew initProject buildFlintPlugin
-        env:
-          GRADLE_OPTS: -Dorg.gradle.daemon=false
-      - name: Build IDE
-        uses: GabrielBB/xvfb-action@v1.2
-        with:
-          run: ./gradlew buildFlintIde
-        env:
-          GRADLE_OPTS: -Dorg.gradle.daemon=false
       - name: Upload Plugin
         id: upload_plugin
         uses: actions/upload-release-asset@v1
