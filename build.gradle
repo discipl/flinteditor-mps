@@ -219,7 +219,7 @@ task extractIdeTar() {
     dependsOn cleanIdeTar
     doFirst {
         ideDir.eachFile { file ->
-            if (file.name.matches("Flint-(.*)\\.tar\\.gz")) {
+            if (file.name.matches("Flint\\.tar\\.gz")) {
                 copy {
                     from tarTree(file)
                     into linuxIdeDir
@@ -269,11 +269,12 @@ task buildFlint(type: de.itemis.mps.gradle.RunAntScript) {
 
 task buildFlintIde(type: de.itemis.mps.gradle.RunAntScript) {
     group "build"
-    dependsOn(buildFlint)
+    dependsOn("generate")
+    dependsOn("buildFlint")
     script = file("$codeDir/buildIdeDistribution.xml")
 }
 
-task buildFlintPlugin(type: de.itemis.mps.gradle.RunAntScript, dependsOn: "generate") {
+task buildFlintPlugin(type: de.itemis.mps.gradle.RunAntScript) {
     group "build"
     dependsOn(buildFlint)
     script = file("$codeDir/buildPluginDistribution.xml")

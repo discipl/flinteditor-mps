@@ -26,60 +26,60 @@
   
   <target name="assemble" depends="fetchDependencies">
     <mkdir dir="${build.layout}" />
-    <mkdir dir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.tar.gz" />
-    <mkdir dir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.tar.gz/bin" />
-    <copy todir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.tar.gz/bin">
+    <mkdir dir="${build.tmp}/default/Flint.tar.gz" />
+    <mkdir dir="${build.tmp}/default/Flint.tar.gz/bin" />
+    <copy todir="${build.tmp}/default/Flint.tar.gz/bin">
       <fileset file="${basedir}/solutions/Flint.build0/source_gen/Flint/buildIde/flint.vmoptions" />
       <filterchain>
         <fixcrlf eol="lf" eof="remove" />
       </filterchain>
     </copy>
-    <copy todir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.tar.gz/bin">
+    <copy todir="${build.tmp}/default/Flint.tar.gz/bin">
       <fileset file="${basedir}/solutions/Flint.build0/source_gen/Flint/buildIde/flint64.vmoptions" />
       <filterchain>
         <fixcrlf eol="lf" eof="remove" />
       </filterchain>
     </copy>
-    <mkdir dir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.tar.gz_f755" />
-    <copy todir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.tar.gz_f755">
+    <mkdir dir="${build.tmp}/default/Flint.tar.gz_f755" />
+    <copy todir="${build.tmp}/default/Flint.tar.gz_f755">
       <fileset file="${basedir}/solutions/Flint.build0/source_gen/Flint/buildIde/flint.sh" />
       <filterchain>
         <fixcrlf eol="lf" eof="remove" />
       </filterchain>
     </copy>
-    <tar destfile="${build.layout}/Flint-${Flint.build.number}.tar.gz" compression="gzip" longfile="gnu">
+    <tar destfile="${build.layout}/Flint.tar.gz" compression="gzip" longfile="gnu">
       <fileset dir="${artifacts.Flint}" />
       <tarfileset dir="${basedir}/../platform-libs" prefix="lib">
         <include name="*-linux.jar" />
       </tarfileset>
       <tarfileset dir="${mps_home}/bin/linux" prefix="bin" filemode="755" />
-      <tarfileset dir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.tar.gz_f755" filemode="755" prefix="bin" />
-      <tarfileset dir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.tar.gz" />
+      <tarfileset dir="${build.tmp}/default/Flint.tar.gz_f755" filemode="755" prefix="bin" />
+      <tarfileset dir="${build.tmp}/default/Flint.tar.gz" />
     </tar>
-    <mkdir dir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.win.zip" />
-    <mkdir dir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.win.zip/bin" />
-    <copy todir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.win.zip/bin">
+    <mkdir dir="${build.tmp}/default/Flint.win.zip" />
+    <mkdir dir="${build.tmp}/default/Flint.win.zip/bin" />
+    <copy todir="${build.tmp}/default/Flint.win.zip/bin">
       <fileset file="${basedir}/solutions/Flint.build0/source_gen/Flint/buildIde/flint.vmoptions" />
       <filterchain>
         <fixcrlf eol="crlf" />
       </filterchain>
       <globmapper from="*" to="flint.exe.vmoptions" />
     </copy>
-    <copy todir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.win.zip/bin">
+    <copy todir="${build.tmp}/default/Flint.win.zip/bin">
       <fileset file="${basedir}/solutions/Flint.build0/source_gen/Flint/buildIde/flint64.vmoptions" />
       <filterchain>
         <fixcrlf eol="crlf" />
       </filterchain>
       <globmapper from="*" to="flint64.exe.vmoptions" />
     </copy>
-    <mkdir dir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.win.zip_f755" />
-    <copy todir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.win.zip_f755">
+    <mkdir dir="${build.tmp}/default/Flint.win.zip_f755" />
+    <copy todir="${build.tmp}/default/Flint.win.zip_f755">
       <fileset file="${basedir}/solutions/Flint.build0/source_gen/Flint/buildIde/flint.bat" />
       <filterchain>
         <fixcrlf eol="crlf" />
       </filterchain>
     </copy>
-    <zip destfile="${build.layout}/Flint-${Flint.build.number}.win.zip">
+    <zip destfile="${build.layout}/Flint.win.zip">
       <fileset dir="${artifacts.Flint}" />
       <zipfileset dir="${mps_home}/bin/win" prefix="bin">
         <exclude name="**/*.exe" />
@@ -89,18 +89,18 @@
         <include name="**/*.exe" />
         <include name="**/append.bat" />
       </zipfileset>
-      <zipfileset dir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.win.zip_f755" filemode="755" prefix="bin" />
-      <fileset dir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.win.zip" />
+      <zipfileset dir="${build.tmp}/default/Flint.win.zip_f755" filemode="755" prefix="bin" />
+      <fileset dir="${build.tmp}/default/Flint.win.zip" />
     </zip>
-    <mkdir dir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.macos.zip" />
-    <mkdir dir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.macos.zip/Flint ${Flint.version}.app" />
-    <mkdir dir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.macos.zip/Flint ${Flint.version}.app/Contents" />
-    <mkdir dir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.macos.zip_f755" />
-    <copy todir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.macos.zip_f755">
+    <mkdir dir="${build.tmp}/default/Flint.macos.zip" />
+    <mkdir dir="${build.tmp}/default/Flint.macos.zip/Flint ${Flint.version}.app" />
+    <mkdir dir="${build.tmp}/default/Flint.macos.zip/Flint ${Flint.version}.app/Contents" />
+    <mkdir dir="${build.tmp}/default/Flint.macos.zip_f755" />
+    <copy todir="${build.tmp}/default/Flint.macos.zip_f755">
       <fileset file="${mps_home}/bin/mac/Contents/MacOS/mps" />
       <globmapper from="*" to="flint" />
     </copy>
-    <copy todir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.macos.zip/Flint ${Flint.version}.app/Contents">
+    <copy todir="${build.tmp}/default/Flint.macos.zip/Flint ${Flint.version}.app/Contents">
       <fileset file="${basedir}/solutions/Flint.build0/source_gen/Flint/buildIde/Info.plist.xml" />
       <filterchain>
         <tokenfilter>
@@ -113,9 +113,9 @@
       </filterchain>
       <globmapper from="*" to="Info.plist" />
     </copy>
-    <mkdir dir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.macos.zip/Flint ${Flint.version}.app/Contents/bin" />
-    <mkdir dir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.macos.zip_f7551" />
-    <copy todir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.macos.zip_f7551">
+    <mkdir dir="${build.tmp}/default/Flint.macos.zip/Flint ${Flint.version}.app/Contents/bin" />
+    <mkdir dir="${build.tmp}/default/Flint.macos.zip_f7551" />
+    <copy todir="${build.tmp}/default/Flint.macos.zip_f7551">
       <fileset dir="${mps_home}/bin/mac">
         <include name="**/*.py" />
       </fileset>
@@ -123,14 +123,14 @@
         <fixcrlf eol="lf" eof="remove" />
       </filterchain>
     </copy>
-    <copy todir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.macos.zip/Flint ${Flint.version}.app/Contents/bin">
+    <copy todir="${build.tmp}/default/Flint.macos.zip/Flint ${Flint.version}.app/Contents/bin">
       <fileset file="${basedir}/solutions/Flint.build0/source_gen/Flint/buildIde/flint64.vmoptions" />
       <filterchain>
         <fixcrlf eol="lf" eof="remove" />
       </filterchain>
       <regexpmapper from="flint64.vmoptions" to="flint.vmoptions" />
     </copy>
-    <zip destfile="${build.layout}/Flint-${Flint.build.number}.macos.zip">
+    <zip destfile="${build.layout}/Flint.macos.zip">
       <zipfileset dir="${artifacts.Flint}" prefix="Flint ${Flint.version}.app/Contents" />
       <zipfileset file="${mps_home}/bin/mac/Contents/Resources/mps.icns" prefix="Flint ${Flint.version}.app/Contents/Resources" />
       <zipfileset dir="${mps_home}/bin/mac" prefix="Flint ${Flint.version}.app/Contents/bin" filemode="755">
@@ -140,9 +140,9 @@
       <zipfileset dir="${mps_home}/bin/mac" prefix="Flint ${Flint.version}.app/Contents/bin">
         <include name="**/*.dylib" />
       </zipfileset>
-      <zipfileset dir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.macos.zip_f755" filemode="755" prefix="Flint ${Flint.version}.app/Contents/MacOS" />
-      <zipfileset dir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.macos.zip_f7551" filemode="755" prefix="Flint ${Flint.version}.app/Contents/bin" />
-      <fileset dir="${build.tmp}/default/Flint-_dl__lbrace_build.number_rbrace_.macos.zip" />
+      <zipfileset dir="${build.tmp}/default/Flint.macos.zip_f755" filemode="755" prefix="Flint ${Flint.version}.app/Contents/MacOS" />
+      <zipfileset dir="${build.tmp}/default/Flint.macos.zip_f7551" filemode="755" prefix="Flint ${Flint.version}.app/Contents/bin" />
+      <fileset dir="${build.tmp}/default/Flint.macos.zip" />
     </zip>
     <echo file="${build.layout}/build.properties">Flint.date=${Flint.date}${line.separator}Flint.build.number=${Flint.build.number}${line.separator}Flint.minor=${Flint.minor}${line.separator}Flint.major=${Flint.major}${line.separator}Flint.version=${Flint.version}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}com.mbeddr.platform.major.version=${com.mbeddr.platform.major.version}${line.separator}com.mbeddr.platform.minor.version=${com.mbeddr.platform.minor.version}${line.separator}com.mbeddr.platform.build=${com.mbeddr.platform.build}${line.separator}com.mbeddr.platform.mbeddr.version=${com.mbeddr.platform.mbeddr.version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mps.mps.build.counter=${mps.mps.build.counter}${line.separator}de.itemis.mps.extensions.versionNumber=${de.itemis.mps.extensions.versionNumber}</echo>
   </target>
