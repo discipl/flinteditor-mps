@@ -96,3 +96,6 @@ junit*.properties
 
 # npm modules
 node_modules
+
+.scripts/
+code/build-*.xml
