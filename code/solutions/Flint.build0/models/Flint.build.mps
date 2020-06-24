@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:ca16c513-51b2-4f72-a80c-624c77fa5d47(Flint.buildIde)">
+<model ref="r:ca16c513-51b2-4f72-a80c-624c77fa5d47(Flint.build)">
   <persistence version="9" />
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
@@ -255,10 +255,14 @@
       <concept id="4278635856200794926" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyExtendLanguage" flags="ng" index="1Busua">
         <reference id="4278635856200794928" name="language" index="1Busuk" />
       </concept>
+      <concept id="3189788309731981027" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleSolutionRuntime" flags="ng" index="1E0d5M">
+        <reference id="3189788309731981028" name="solution" index="1E0d5P" />
+      </concept>
       <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA">
         <property id="269707337715731330" name="sourcesKind" index="aoJFB" />
       </concept>
       <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD">
+        <child id="3189788309731917348" name="runtime" index="1E1XAP" />
         <child id="9200313594498201639" name="generator" index="1TViLv" />
       </concept>
       <concept id="322010710375871467" name="jetbrains.mps.build.mps.structure.BuildMps_AbstractModule" flags="ng" index="3LEN3z">
@@ -274,7 +278,7 @@
   <node concept="1l3spW" id="2WP7dhE1eqn">
     <property role="TrG5h" value="Flint" />
     <property role="2DA0ip" value="../.." />
-    <property role="turDy" value="buildFlint.xml" />
+    <property role="turDy" value="build-Flint.xml" />
     <node concept="10PD9b" id="2WP7dhE1eqo" role="10PD9s" />
     <node concept="3b7kt6" id="2WP7dhE1eqp" role="10PD9s" />
     <node concept="1zClus" id="2WP7dhE1eqD" role="3989C9">
@@ -419,31 +423,25 @@
         </node>
       </node>
     </node>
-    <node concept="398rNT" id="QLMwktT2H8" role="1l3spd">
-      <property role="TrG5h" value="basedir" />
-      <node concept="55IIr" id="B35UKt1XDQ" role="398pKh" />
-    </node>
     <node concept="398rNT" id="2WP7dhE1eqw" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
     </node>
     <node concept="398rNT" id="B35UKsMXq5" role="1l3spd">
       <property role="TrG5h" value="project_dir" />
-      <node concept="398BVA" id="B35UKsMXql" role="398pKh">
-        <ref role="398BVh" node="QLMwktT2H8" resolve="basedir" />
-        <node concept="2Ry0Ak" id="B35UKsMXqo" role="iGT6I">
+      <node concept="55IIr" id="7sZHFRf1AUF" role="398pKh">
+        <node concept="2Ry0Ak" id="7sZHFRf1AUI" role="iGT6I">
           <property role="2Ry0Am" value=".." />
         </node>
       </node>
     </node>
     <node concept="398rNT" id="2WP7dhE1exg" role="1l3spd">
       <property role="TrG5h" value="libs" />
-      <node concept="398BVA" id="B35UKsMXrY" role="398pKh">
-        <ref role="398BVh" node="QLMwktT2H8" resolve="basedir" />
-        <node concept="2Ry0Ak" id="5rXerjicsYI" role="iGT6I">
+      <node concept="55IIr" id="7sZHFRf1B3g" role="398pKh">
+        <node concept="2Ry0Ak" id="7sZHFRf1B5l" role="iGT6I">
           <property role="2Ry0Am" value="solutions" />
-          <node concept="2Ry0Ak" id="5rXerjict0N" role="2Ry0An">
+          <node concept="2Ry0Ak" id="7sZHFRf1Bet" role="2Ry0An">
             <property role="2Ry0Am" value="Flint.runtime" />
-            <node concept="2Ry0Ak" id="5rXerjict5g" role="2Ry0An">
+            <node concept="2Ry0Ak" id="7sZHFRf1Bji" role="2Ry0An">
               <property role="2Ry0Am" value="libs" />
             </node>
           </node>
@@ -657,9 +655,8 @@
               </node>
             </node>
             <node concept="2HvfSZ" id="7FNYdkaUtEz" role="39821P">
-              <node concept="398BVA" id="7FNYdkaUtGR" role="2HvfZ0">
-                <ref role="398BVh" node="QLMwktT2H8" resolve="basedir" />
-                <node concept="2Ry0Ak" id="7FNYdkaUtL_" role="iGT6I">
+              <node concept="55IIr" id="7sZHFRf1UXv" role="2HvfZ0">
+                <node concept="2Ry0Ak" id="7sZHFRf1UZc" role="iGT6I">
                   <property role="2Ry0Am" value="test-resources" />
                 </node>
               </node>
@@ -700,9 +697,8 @@
                           </node>
                         </node>
                       </node>
-                      <node concept="398BVA" id="e8hxMxqclo" role="28jJRO">
-                        <ref role="398BVh" node="QLMwktT2H8" resolve="basedir" />
-                        <node concept="2Ry0Ak" id="e8hxMxqcmS" role="iGT6I">
+                      <node concept="55IIr" id="7sZHFRf1V2w" role="28jJRO">
+                        <node concept="2Ry0Ak" id="7sZHFRf1V4e" role="iGT6I">
                           <property role="2Ry0Am" value="runtime-prod.properties" />
                         </node>
                       </node>
@@ -961,6 +957,9 @@
             <ref role="3bR37D" to="ffeo:ymnOULAU0H" resolve="jetbrains.mps.lang.test" />
           </node>
         </node>
+        <node concept="1E0d5M" id="1RFKF2GktCw" role="1E1XAP">
+          <ref role="1E0d5P" node="2eNuKY4JD2" resolve="Flint.runtime" />
+        </node>
       </node>
       <node concept="1E1JtA" id="QLMwktTkqF" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1007,20 +1006,19 @@
           <property role="1Hdu6h" value="true" />
           <property role="1HemKv" value="true" />
           <node concept="3LXTmp" id="QLMwktTksi" role="1HemKq">
-            <node concept="398BVA" id="QLMwktTks9" role="3LXTmr">
-              <ref role="398BVh" node="QLMwktT2H8" resolve="basedir" />
-              <node concept="2Ry0Ak" id="QLMwktTksa" role="iGT6I">
+            <node concept="3qWCbU" id="QLMwktTksj" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+            <node concept="55IIr" id="7sZHFRf1Uq7" role="3LXTmr">
+              <node concept="2Ry0Ak" id="7sZHFRf1UrP" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="QLMwktTksb" role="2Ry0An">
+                <node concept="2Ry0Ak" id="7sZHFRf1Uty" role="2Ry0An">
                   <property role="2Ry0Am" value="Flint.plugin" />
-                  <node concept="2Ry0Ak" id="QLMwktTksc" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="7sZHFRf1UtB" role="2Ry0An">
                     <property role="2Ry0Am" value="models" />
                   </node>
                 </node>
               </node>
-            </node>
-            <node concept="3qWCbU" id="QLMwktTksj" role="3LXTna">
-              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
         </node>
@@ -1110,20 +1108,19 @@
           <property role="1Hdu6h" value="true" />
           <property role="1HemKv" value="true" />
           <node concept="3LXTmp" id="2eNuKY4JLW" role="1HemKq">
-            <node concept="398BVA" id="2eNuKY4JLI" role="3LXTmr">
-              <ref role="398BVh" node="QLMwktT2H8" resolve="basedir" />
-              <node concept="2Ry0Ak" id="2eNuKY4JLJ" role="iGT6I">
+            <node concept="3qWCbU" id="2eNuKY4JLX" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+            <node concept="55IIr" id="7sZHFRf1UwT" role="3LXTmr">
+              <node concept="2Ry0Ak" id="7sZHFRf1U$e" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="2eNuKY4JLK" role="2Ry0An">
-                  <property role="2Ry0Am" value="Flint.runtime" />
-                  <node concept="2Ry0Ak" id="2eNuKY4JLL" role="2Ry0An">
+                <node concept="2Ry0Ak" id="7sZHFRf1U_V" role="2Ry0An">
+                  <property role="2Ry0Am" value="Flint.plugin" />
+                  <node concept="2Ry0Ak" id="7sZHFRf1UBC" role="2Ry0An">
                     <property role="2Ry0Am" value="models" />
                   </node>
                 </node>
               </node>
-            </node>
-            <node concept="3qWCbU" id="2eNuKY4JLX" role="3LXTna">
-              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
         </node>
@@ -1243,20 +1240,19 @@
           <property role="1Hdu6h" value="true" />
           <property role="1HemKv" value="true" />
           <node concept="3LXTmp" id="e8hxMw1W3O" role="1HemKq">
-            <node concept="398BVA" id="e8hxMw1W3A" role="3LXTmr">
-              <ref role="398BVh" node="QLMwktT2H8" resolve="basedir" />
-              <node concept="2Ry0Ak" id="e8hxMw1W3B" role="iGT6I">
+            <node concept="3qWCbU" id="e8hxMw1W3P" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+            <node concept="55IIr" id="7sZHFRf1UDk" role="3LXTmr">
+              <node concept="2Ry0Ak" id="7sZHFRf1UF2" role="iGT6I">
                 <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="e8hxMw1W3C" role="2Ry0An">
+                <node concept="2Ry0Ak" id="7sZHFRf1UGJ" role="2Ry0An">
                   <property role="2Ry0Am" value="Resources" />
-                  <node concept="2Ry0Ak" id="e8hxMw1W3D" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="7sZHFRf1UGO" role="2Ry0An">
                     <property role="2Ry0Am" value="models" />
                   </node>
                 </node>
               </node>
-            </node>
-            <node concept="3qWCbU" id="e8hxMw1W3P" role="3LXTna">
-              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
         </node>
@@ -1268,23 +1264,22 @@
             <property role="1Hdu6h" value="true" />
             <property role="1HemKv" value="true" />
             <node concept="3LXTmp" id="e8hxMw1W48" role="1HemKq">
-              <node concept="398BVA" id="e8hxMw1W3R" role="3LXTmr">
-                <ref role="398BVh" node="QLMwktT2H8" resolve="basedir" />
-                <node concept="2Ry0Ak" id="e8hxMw1W3S" role="iGT6I">
+              <node concept="3qWCbU" id="e8hxMw1W49" role="3LXTna">
+                <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+              </node>
+              <node concept="55IIr" id="7sZHFRf1UIw" role="3LXTmr">
+                <node concept="2Ry0Ak" id="7sZHFRf1ULQ" role="iGT6I">
                   <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="e8hxMw1W3T" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="7sZHFRf1UNz" role="2Ry0An">
                     <property role="2Ry0Am" value="Resources" />
-                    <node concept="2Ry0Ak" id="e8hxMw1W3U" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="7sZHFRf1UPg" role="2Ry0An">
                       <property role="2Ry0Am" value="generator" />
-                      <node concept="2Ry0Ak" id="e8hxMw1W3V" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="7sZHFRf1UQX" role="2Ry0An">
                         <property role="2Ry0Am" value="templates" />
                       </node>
                     </node>
                   </node>
                 </node>
-              </node>
-              <node concept="3qWCbU" id="e8hxMw1W49" role="3LXTna">
-                <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
               </node>
             </node>
           </node>
@@ -1304,7 +1299,7 @@
   </node>
   <node concept="1l3spW" id="2WP7dhE1esB">
     <property role="TrG5h" value="FlintIdeDistribution" />
-    <property role="turDy" value="buildIdeDistribution.xml" />
+    <property role="turDy" value="build-IdeDistribution.xml" />
     <property role="2DA0ip" value="../.." />
     <node concept="2sgV4H" id="2WP7dhE1esC" role="1l3spa">
       <ref role="1l3spb" node="2WP7dhE1eqn" resolve="Flint" />
@@ -1376,7 +1371,7 @@
                     <node concept="2Ry0Ak" id="2WP7dhE1et2" role="2Ry0An">
                       <property role="2Ry0Am" value="Flint" />
                       <node concept="2Ry0Ak" id="2WP7dhE1et3" role="2Ry0An">
-                        <property role="2Ry0Am" value="buildIde" />
+                        <property role="2Ry0Am" value="build" />
                         <node concept="2Ry0Ak" id="2WP7dhE1et4" role="2Ry0An">
                           <property role="2Ry0Am" value="flint.vmoptions" />
                         </node>
@@ -1402,7 +1397,7 @@
                     <node concept="2Ry0Ak" id="2WP7dhE1et8" role="2Ry0An">
                       <property role="2Ry0Am" value="Flint" />
                       <node concept="2Ry0Ak" id="2WP7dhE1et9" role="2Ry0An">
-                        <property role="2Ry0Am" value="buildIde" />
+                        <property role="2Ry0Am" value="build" />
                         <node concept="2Ry0Ak" id="2WP7dhE1eta" role="2Ry0An">
                           <property role="2Ry0Am" value="flint64.vmoptions" />
                         </node>
@@ -1432,7 +1427,7 @@
                     <node concept="2Ry0Ak" id="2WP7dhE1ete" role="2Ry0An">
                       <property role="2Ry0Am" value="Flint" />
                       <node concept="2Ry0Ak" id="2WP7dhE1etf" role="2Ry0An">
-                        <property role="2Ry0Am" value="buildIde" />
+                        <property role="2Ry0Am" value="build" />
                         <node concept="2Ry0Ak" id="2WP7dhE1etg" role="2Ry0An">
                           <property role="2Ry0Am" value="flint.sh" />
                         </node>
@@ -1488,7 +1483,7 @@
                     <node concept="2Ry0Ak" id="2WP7dhE1eum" role="2Ry0An">
                       <property role="2Ry0Am" value="Flint" />
                       <node concept="2Ry0Ak" id="2WP7dhE1eun" role="2Ry0An">
-                        <property role="2Ry0Am" value="buildIde" />
+                        <property role="2Ry0Am" value="build" />
                         <node concept="2Ry0Ak" id="2WP7dhE1euo" role="2Ry0An">
                           <property role="2Ry0Am" value="flint.vmoptions" />
                         </node>
@@ -1521,7 +1516,7 @@
                     <node concept="2Ry0Ak" id="2WP7dhE1euy" role="2Ry0An">
                       <property role="2Ry0Am" value="Flint" />
                       <node concept="2Ry0Ak" id="2WP7dhE1euz" role="2Ry0An">
-                        <property role="2Ry0Am" value="buildIde" />
+                        <property role="2Ry0Am" value="build" />
                         <node concept="2Ry0Ak" id="2WP7dhE1eu$" role="2Ry0An">
                           <property role="2Ry0Am" value="flint64.vmoptions" />
                         </node>
@@ -1593,7 +1588,7 @@
                     <node concept="2Ry0Ak" id="2WP7dhE1etk" role="2Ry0An">
                       <property role="2Ry0Am" value="Flint" />
                       <node concept="2Ry0Ak" id="2WP7dhE1etl" role="2Ry0An">
-                        <property role="2Ry0Am" value="buildIde" />
+                        <property role="2Ry0Am" value="build" />
                         <node concept="2Ry0Ak" id="2WP7dhE1etm" role="2Ry0An">
                           <property role="2Ry0Am" value="flint.bat" />
                         </node>
@@ -1716,7 +1711,7 @@
                       <node concept="2Ry0Ak" id="2WP7dhE1etq" role="2Ry0An">
                         <property role="2Ry0Am" value="Flint" />
                         <node concept="2Ry0Ak" id="2WP7dhE1etr" role="2Ry0An">
-                          <property role="2Ry0Am" value="buildIde" />
+                          <property role="2Ry0Am" value="build" />
                           <node concept="2Ry0Ak" id="2WP7dhE1ets" role="2Ry0An">
                             <property role="2Ry0Am" value="Info.plist.xml" />
                           </node>
@@ -1845,7 +1840,7 @@
                         <node concept="2Ry0Ak" id="2WP7dhE1ewu" role="2Ry0An">
                           <property role="2Ry0Am" value="Flint" />
                           <node concept="2Ry0Ak" id="2WP7dhE1ewv" role="2Ry0An">
-                            <property role="2Ry0Am" value="buildIde" />
+                            <property role="2Ry0Am" value="build" />
                             <node concept="2Ry0Ak" id="2WP7dhE1eww" role="2Ry0An">
                               <property role="2Ry0Am" value="flint64.vmoptions" />
                             </node>
@@ -1919,7 +1914,7 @@
   <node concept="1l3spW" id="4aWSgWwhSy0">
     <property role="2DA0ip" value="../.." />
     <property role="TrG5h" value="FlintPluginDistribution" />
-    <property role="turDy" value="buildPluginDistribution.xml" />
+    <property role="turDy" value="build-PluginDistribution.xml" />
     <node concept="398rNT" id="4aWSgWwjCWz" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
     </node>
@@ -1950,7 +1945,7 @@
   <node concept="1l3spW" id="63E5y3SREGU">
     <property role="TrG5h" value="FlintTest" />
     <property role="2DA0ip" value="../.." />
-    <property role="turDy" value="testFlint.xml" />
+    <property role="turDy" value="build-testFlint.xml" />
     <node concept="2igEWh" id="63E5y3SV3$L" role="1hWBAP">
       <property role="1MpcYp" value="true" />
     </node>

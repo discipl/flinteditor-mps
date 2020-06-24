@@ -10,10 +10,10 @@ buildscript {
         classpath "de.itemis.mps:mps-gradle-plugin:$mps_gradle_plugin_version"
     }
 }
+
 plugins {
     id "com.github.node-gradle.node" version "2.2.3"
     id "java"
-    id "generate-models"
 }
 
 group 'org.discipl'
@@ -99,34 +99,6 @@ node {
 
     // Set the work directory where node_modules should be located
     nodeModulesDir = file("${project.projectDir}")
-}
-
-de.itemis.mps.gradle.Plugin getPlugin(pluginPath, rootPluginlocation) {
-    if (!new File(pluginPath, "META-INF/plugin.xml").exists()) return null
-    def metaInf = new XmlParser().parse(new File(pluginPath, "META-INF/plugin.xml"))
-    def pluginId = metaInf.id[0].value()[0]
-    def reducedPluginPath = pluginPath.substring(rootPluginlocation.toString().size() + 1)
-    return new de.itemis.mps.gradle.Plugin(pluginId, reducedPluginPath)
-}
-
-de.itemis.mps.gradle.Plugin[] getPlugins(xmlFile, pluginslocation) {
-    def buildIde = new XmlParser().parse(xmlFile)
-    def pluginPaths = buildIde.target.find { it.attribute("name") == "generate" }
-            .collect { it.plugin }
-            .flatten()
-            .findAll { it.attribute("path").contains("artifacts.com.mbeddr.platform") }
-            .collect { it.attribute("path").replace("\${artifacts.com.mbeddr.platform}", pluginslocation.toString()) }
-    def mbeddrBuild = getPlugin(new File(pluginslocation, "com.mbeddr.platform.build").toString(), pluginslocation)
-    return (pluginPaths.collect { getPlugin(it, pluginslocation) } + mbeddrBuild).findAll { it != null }
-}
-
-generate {
-    mpsLocation = mpsDir
-    projectLocation = codeDir
-    plugins = getPlugins(new File(codeDir, "buildFlint.xml"), new File(mpsDir, "plugins"))
-    mpsConfig = configurations.mps
-    pluginLocation = new File(mpsDir, "plugins")
-    models=["Flint.buildIde"]
 }
 
 task copyProjectLibs(type: Copy) {
@@ -218,13 +190,9 @@ task extractIdeTar() {
     dependsOn "buildFlintIde"
     dependsOn cleanIdeTar
     doFirst {
-        ideDir.eachFile { file ->
-            if (file.name.matches("Flint\\.tar\\.gz")) {
-                copy {
-                    from tarTree(file)
-                    into linuxIdeDir
-                }
-            }
+        copy {
+            from tarTree("$ideDir/Flint.tar.gz")
+            into linuxIdeDir
         }
     }
 }
@@ -255,29 +223,11 @@ task copyJavaFxLibs(type: Copy) {
     into "${mpsDir}/lib"
 }
 
-task resolveMpsPlugins(type: Copy) {
+task resolveMps(type: Copy) {
     from configurations.mps.resolve().collect { zipTree(it) }
     into mpsDir
     finalizedBy(copyMbeddrPlugins)
     finalizedBy(copyJavaFxLibs)
-}
-
-task buildFlint(type: de.itemis.mps.gradle.RunAntScript) {
-    group "build"
-    script = file("$codeDir/buildFlint.xml")
-}
-
-task buildFlintIde(type: de.itemis.mps.gradle.RunAntScript) {
-    group "build"
-    dependsOn("generate")
-    dependsOn("buildFlint")
-    script = file("$codeDir/buildIdeDistribution.xml")
-}
-
-task buildFlintPlugin(type: de.itemis.mps.gradle.RunAntScript) {
-    group "build"
-    dependsOn(buildFlint)
-    script = file("$codeDir/buildPluginDistribution.xml")
 }
 
 task cleanProject(type: Delete) {
@@ -307,25 +257,39 @@ def currentPlatform() {
 
 task initProject() {
     group "project"
-    dependsOn("resolveMpsForGeneration")
+    dependsOn(resolveMps)
     dependsOn(resolveLibs)
     dependsOn(resolveArtifacts)
     dependsOn(resolvePlatformLibs)
     dependsOn(fetchResources)
 }
 
-tasks.whenTaskAdded {
-    if (it.getName() == "resolveMpsForGeneration") {
-        it.finalizedBy(resolveMpsPlugins)
-    }
+// Build Scripts
+task generateScripts(type: de.itemis.mps.gradle.RunAntScript) {
+    script = file("$codeDir/mainBuild.xml")
+    targets = ["generate"]
 }
 
-test.finalizedBy("mpsTests")
+task buildFlint(type: de.itemis.mps.gradle.RunAntScript, dependsOn: generateScripts) {
+    script = file("$codeDir/build-Flint.xml")
+    targets = ["generate", "build"]
+}
 
-task mpsTests(type: de.itemis.mps.gradle.TestLanguages, dependsOn: "buildLanguages") {
-    group "verification"
-    script = file("$codeDir/testFlint.xml")
-    finalizedBy "htmlReport"
+task buildFlintIde(type: de.itemis.mps.gradle.RunAntScript, dependsOn: buildFlint) {
+    script = file("$codeDir/build-IdeDistribution.xml")
+    targets = ["build"]
+}
+
+task buildFlintPlugin(type: de.itemis.mps.gradle.RunAntScript, dependsOn: buildFlint) {
+    script = file("$codeDir/build-PluginDistribution.xml")
+    targets = ["build"]
+}
+
+task mpsTest(type: de.itemis.mps.gradle.RunAntScript, dependsOn: buildFlint) {
+    script = file("$codeDir/build-testFlint.xml")
+    targets = ["generate", "test"]
+    test.finalizedBy("mpsTest")
+    finalizedBy("htmlReport")
 }
 
 task collectXmlReports() {
@@ -347,9 +311,4 @@ task collectXmlReports() {
 task htmlReport(type: de.itemis.mps.gradle.RunAntScript, dependsOn: collectXmlReports) {
     group "verification"
     script = file("$codeDir/html-report.xml")
-}
-
-task buildLanguages(type: de.itemis.mps.gradle.BuildLanguages, dependsOn: "buildFlint") {
-    group "verification"
-    script = file("$codeDir/buildFlint.xml")
 }
