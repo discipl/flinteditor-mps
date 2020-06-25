@@ -826,8 +826,8 @@
             <ref role="v9R2y" node="6qUJKUPmK6_" resolve="reduce_reference_nullable_Node" />
             <node concept="2OqwBi" id="6qUJKUPgY_9" role="v9R3O">
               <node concept="30H73N" id="6qUJKUPgYpS" role="2Oq$k0" />
-              <node concept="3TrEf2" id="6qUJKUPgYPz" role="2OqNvi">
-                <ref role="3Tt5mk" to="lnwe:7PeSHTFdFJJ" resolve="actor" />
+              <node concept="3TrEf2" id="5osFsyVwTLU" role="2OqNvi">
+                <ref role="3Tt5mk" to="lnwe:5osFsyV4cxO" resolve="actorRef" />
               </node>
             </node>
             <node concept="Xl_RD" id="6qUJKUPgYSN" role="v9R3O">
@@ -843,8 +843,8 @@
             <ref role="v9R2y" node="6qUJKUPmK6_" resolve="reduce_reference_nullable_Node" />
             <node concept="2OqwBi" id="6qUJKUPgYU6" role="v9R3O">
               <node concept="30H73N" id="6qUJKUPgYU7" role="2Oq$k0" />
-              <node concept="3TrEf2" id="6qUJKUPgZNn" role="2OqNvi">
-                <ref role="3Tt5mk" to="lnwe:7PeSHTFdHLZ" resolve="action" />
+              <node concept="3TrEf2" id="5osFsyVtvsL" role="2OqNvi">
+                <ref role="3Tt5mk" to="lnwe:5osFsyV4cy1" resolve="actionRef" />
               </node>
             </node>
             <node concept="Xl_RD" id="6qUJKUPgYU9" role="v9R3O">
@@ -860,8 +860,8 @@
             <ref role="v9R2y" node="6qUJKUPmK6_" resolve="reduce_reference_nullable_Node" />
             <node concept="2OqwBi" id="6qUJKUPgZ01" role="v9R3O">
               <node concept="30H73N" id="6qUJKUPgZ02" role="2Oq$k0" />
-              <node concept="3TrEf2" id="6qUJKUPgZOM" role="2OqNvi">
-                <ref role="3Tt5mk" to="lnwe:7PeSHTFdHM2" resolve="object" />
+              <node concept="3TrEf2" id="5osFsyVtvwJ" role="2OqNvi">
+                <ref role="3Tt5mk" to="lnwe:5osFsyV4cyf" resolve="objectRef" />
               </node>
             </node>
             <node concept="Xl_RD" id="6qUJKUPgZ04" role="v9R3O">
@@ -877,8 +877,8 @@
             <ref role="v9R2y" node="6qUJKUPmK6_" resolve="reduce_reference_nullable_Node" />
             <node concept="2OqwBi" id="6qUJKUPgZ22" role="v9R3O">
               <node concept="30H73N" id="6qUJKUPgZ23" role="2Oq$k0" />
-              <node concept="3TrEf2" id="6qUJKUPgZPD" role="2OqNvi">
-                <ref role="3Tt5mk" to="lnwe:7PeSHTFdHM6" resolve="recipient" />
+              <node concept="3TrEf2" id="5osFsyVtvxj" role="2OqNvi">
+                <ref role="3Tt5mk" to="lnwe:5osFsyV4cyu" resolve="recipientRef" />
               </node>
             </node>
             <node concept="Xl_RD" id="6qUJKUPgZ25" role="v9R3O">
@@ -1313,8 +1313,8 @@
             <ref role="v9R2y" node="6qUJKUPmK6_" resolve="reduce_reference_nullable_Node" />
             <node concept="2OqwBi" id="6qUJKUPD4DQ" role="v9R3O">
               <node concept="30H73N" id="6qUJKUPD4DR" role="2Oq$k0" />
-              <node concept="3TrEf2" id="6qUJKUPD5nz" role="2OqNvi">
-                <ref role="3Tt5mk" to="lnwe:27H3E6Hoi6H" resolve="dutyHolder" />
+              <node concept="3TrEf2" id="5osFsyVtwa2" role="2OqNvi">
+                <ref role="3Tt5mk" to="lnwe:5osFsyV4dSK" resolve="dutyHolderRef" />
               </node>
             </node>
             <node concept="Xl_RD" id="6qUJKUPD4DT" role="v9R3O">
@@ -1330,8 +1330,8 @@
             <ref role="v9R2y" node="6qUJKUPmK6_" resolve="reduce_reference_nullable_Node" />
             <node concept="2OqwBi" id="6qUJKUPD4DX" role="v9R3O">
               <node concept="30H73N" id="6qUJKUPD4DY" role="2Oq$k0" />
-              <node concept="3TrEf2" id="6qUJKUPD5Ie" role="2OqNvi">
-                <ref role="3Tt5mk" to="lnwe:27H3E6Hoi6J" resolve="claimant" />
+              <node concept="3TrEf2" id="5osFsyVtw90" role="2OqNvi">
+                <ref role="3Tt5mk" to="lnwe:5osFsyV4dST" resolve="claimantRef" />
               </node>
             </node>
             <node concept="Xl_RD" id="6qUJKUPD4E0" role="v9R3O">

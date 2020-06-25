@@ -4,7 +4,7 @@
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="0" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="1" />
     <use id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi" version="0" />
     <use id="68015e26-cc4d-49db-8715-b643faea1769" name="jetbrains.mps.lang.test.generator" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
@@ -18,6 +18,7 @@
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="eoo2" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.file(JDK/)" />
     <import index="91gc" ref="r:57850d6b-985b-4a3f-af65-25f1fdeb3739(Flint.runtime.utils)" />
+    <import index="kzwd" ref="r:62d0f175-4940-4d4d-8e46-0c1a0171719f(Flint.migration)" />
     <import index="lnwe" ref="r:d268844f-2c2c-4250-a969-3a23a8a2bb02(Flint.structure)" implicit="true" />
   </imports>
   <registry>
@@ -33,6 +34,11 @@
       </concept>
       <concept id="592868908271422361" name="jetbrains.mps.lang.test.structure.IsIntentionApplicableExpression" flags="ng" index="2bRw2S">
         <reference id="592868908271422362" name="intention" index="2bRw2V" />
+      </concept>
+      <concept id="5476670926298696679" name="jetbrains.mps.lang.test.structure.MigrationTestCase" flags="lg" index="2lJO3n">
+        <child id="5476670926298696680" name="inputNodes" index="2lJO3o" />
+        <child id="5476670926298698900" name="outputNodes" index="2lJPY$" />
+        <child id="6626913010124294914" name="migration" index="3ea0P7" />
       </concept>
       <concept id="7691029917083872157" name="jetbrains.mps.lang.test.structure.IRuleReference" flags="ng" index="2u4UPC">
         <reference id="8333855927540250453" name="declaration" index="39XzEq" />
@@ -56,6 +62,9 @@
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
       <concept id="5773579205429866751" name="jetbrains.mps.lang.test.structure.EditorComponentExpression" flags="nn" index="369mXd" />
+      <concept id="6626913010124185481" name="jetbrains.mps.lang.test.structure.MigrationReference" flags="ng" index="3ea_Bc">
+        <reference id="6626913010124185482" name="migration" index="3ea_Bf" />
+      </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
       </concept>
@@ -91,9 +100,6 @@
       </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
-      </concept>
-      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
-        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
@@ -177,6 +183,8 @@
         <reference id="2444626260293394863" name="claimant" index="2cz2We" />
         <reference id="2444626260294520794" name="create" index="2cBO5V" />
         <reference id="2444626260294520798" name="terminate" index="2cBO5Z" />
+        <child id="6205025464253210169" name="claimantRef" index="3H37fL" />
+        <child id="6205025464253210160" name="dutyHolderRef" index="3H37fS" />
       </concept>
       <concept id="2444626260293394822" name="Flint.structure.DutyReference" flags="ng" index="2cz2WB">
         <reference id="2444626260293394823" name="duty" index="2cz2WA" />
@@ -189,6 +197,10 @@
         <child id="9029403747833803225" name="terminate" index="mu1c7" />
         <child id="9029403747833803217" name="create" index="mu1cf" />
         <child id="9029403747833797790" name="preconditions" index="mu3T0" />
+        <child id="6205025464253204623" name="objectRef" index="3H36l7" />
+        <child id="6205025464253204609" name="actionRef" index="3H36l9" />
+        <child id="6205025464253204638" name="recipientRef" index="3H36lm" />
+        <child id="6205025464253204596" name="actorRef" index="3H36mW" />
       </concept>
       <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
         <child id="6983418503075280678" name="sources" index="2pmM46" />
@@ -290,6 +302,10 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
+        <property id="8575328350543493365" name="message" index="huDt6" />
+        <property id="2423417345669755629" name="filter" index="1eyWvh" />
+      </concept>
     </language>
   </registry>
   <node concept="1lH9Xt" id="1$A6n3M4kb_">
@@ -344,10 +360,6 @@
         </node>
         <node concept="mu5$5" id="1$A6n3M4kbI" role="m3s6u">
           <property role="TrG5h" value="act1" />
-          <ref role="mu5$L" node="1$A6n3M4kbK" resolve="fact1" />
-          <ref role="mu3Ux" node="1$A6n3M4kbK" resolve="fact1" />
-          <ref role="mu3Ts" node="1$A6n3M4kbK" resolve="fact1" />
-          <ref role="mu3To" node="1$A6n3M4kbK" resolve="fact1" />
           <node concept="7CXmI" id="1$A6n3M4kNZ" role="lGtFl">
             <node concept="1TM$A" id="1$A6n3M4kO0" role="7EUXB">
               <node concept="2PYRI3" id="1$A6n3M4kO4" role="3lydEf">
@@ -355,19 +367,39 @@
               </node>
             </node>
           </node>
+          <node concept="1FQA6B" id="5osFsyVlLT1" role="3H36l9">
+            <ref role="1FQA6$" node="1$A6n3M4kbK" resolve="fact1" />
+          </node>
+          <node concept="1FQA6B" id="5osFsyVlLT2" role="3H36mW">
+            <ref role="1FQA6$" node="1$A6n3M4kbK" resolve="fact1" />
+          </node>
+          <node concept="1FQA6B" id="5osFsyVlLT3" role="3H36l7">
+            <ref role="1FQA6$" node="1$A6n3M4kbK" resolve="fact1" />
+          </node>
+          <node concept="1FQA6B" id="5osFsyVlLT4" role="3H36lm">
+            <ref role="1FQA6$" node="1$A6n3M4kbK" resolve="fact1" />
+          </node>
         </node>
         <node concept="mu5$5" id="1$A6n3M4kM5" role="m3s6u">
           <property role="TrG5h" value="act1" />
-          <ref role="mu5$L" node="1$A6n3M4kbK" resolve="fact1" />
-          <ref role="mu3Ux" node="1$A6n3M4kbK" resolve="fact1" />
-          <ref role="mu3Ts" node="1$A6n3M4kbK" resolve="fact1" />
-          <ref role="mu3To" node="1$A6n3M4kbK" resolve="fact1" />
           <node concept="7CXmI" id="1$A6n3M4kNS" role="lGtFl">
             <node concept="1TM$A" id="1$A6n3M4kNT" role="7EUXB">
               <node concept="2PYRI3" id="1$A6n3M4kNX" role="3lydEf">
                 <ref role="39XzEq" to="19bf:1$A6n3LTaXq" />
               </node>
             </node>
+          </node>
+          <node concept="1FQA6B" id="5osFsyVlLT5" role="3H36l9">
+            <ref role="1FQA6$" node="1$A6n3M4kbK" resolve="fact1" />
+          </node>
+          <node concept="1FQA6B" id="5osFsyVlLT6" role="3H36mW">
+            <ref role="1FQA6$" node="1$A6n3M4kbK" resolve="fact1" />
+          </node>
+          <node concept="1FQA6B" id="5osFsyVlLT7" role="3H36l7">
+            <ref role="1FQA6$" node="1$A6n3M4kbK" resolve="fact1" />
+          </node>
+          <node concept="1FQA6B" id="5osFsyVlLT8" role="3H36lm">
+            <ref role="1FQA6$" node="1$A6n3M4kbK" resolve="fact1" />
           </node>
         </node>
         <node concept="2cz0EU" id="1$A6n3M4kO6" role="2cADMD">
@@ -624,9 +656,9 @@
           </node>
           <node concept="2OqwBi" id="7FNYdkaLdyQ" role="33vP2m">
             <node concept="2OqwBi" id="7FNYdkaLcG4" role="2Oq$k0">
-              <node concept="10M0yZ" id="7FNYdkaLcG5" role="2Oq$k0">
-                <ref role="3cqZAo" to="91gc:e8hxMx56PI" resolve="INSTANCE" />
-                <ref role="1PxDUh" to="91gc:2eNuKY2QKZ" resolve="FlintProperties" />
+              <node concept="2YIFZM" id="WMRUM2SA3O" role="2Oq$k0">
+                <ref role="1Pybhc" to="91gc:2eNuKY2QKZ" resolve="FlintProperties" />
+                <ref role="37wK5l" to="91gc:7ALI6YWYmu7" resolve="getInstance" />
               </node>
               <node concept="2S8uIT" id="7FNYdkaLcG6" role="2OqNvi">
                 <ref role="2S8YL0" to="91gc:7FNYdkaI3HX" resolve="testResourcesFolder" />
@@ -741,34 +773,42 @@
           <property role="TrG5h" value="Duty1" />
           <property role="3ANC2_" value="Duty Explanation" />
           <ref role="2cBO5V" node="7FNYdkaEBA9" resolve="Act2" />
-          <ref role="2cz2Wc" node="7FNYdkaPUVp" resolve="Person" />
-          <ref role="2cz2We" node="7FNYdkaPUVp" resolve="Person" />
           <ref role="2cBO5Z" node="7FNYdkaSbIs" resolve="Act1" />
           <node concept="cog_b" id="7FNYdkaEBAP" role="2pmM46">
             <property role="1FEjNx" value="Text" />
             <ref role="cog$q" node="7FNYdkaEB_Z" resolve="TestSource" />
           </node>
+          <node concept="1FQA6B" id="5osFsyVlLTl" role="3H37fS">
+            <ref role="1FQA6$" node="7FNYdkaPUVp" resolve="Person" />
+          </node>
+          <node concept="1FQA6B" id="5osFsyVlLTm" role="3H37fL">
+            <ref role="1FQA6$" node="7FNYdkaPUVp" resolve="Person" />
+          </node>
         </node>
         <node concept="mu5$5" id="7FNYdkaSbIs" role="m3s6u">
           <property role="TrG5h" value="Act1" />
-          <ref role="mu5$L" node="7FNYdkaPUVp" resolve="Person" />
-          <ref role="mu3Ux" node="7FNYdkaPUVp" resolve="Person" />
-          <ref role="mu3Ts" node="7FNYdkaPUVp" resolve="Person" />
-          <ref role="mu3To" node="7FNYdkaPUVp" resolve="Person" />
           <node concept="1FQA6B" id="7FNYdkaSbII" role="mu3T0">
             <ref role="1FQA6$" node="7FNYdkaEBzU" resolve="Reference" />
           </node>
           <node concept="cog_b" id="7FNYdkaSbIK" role="2pmM46">
             <ref role="cog$q" node="7FNYdkaEB_Z" resolve="TestSource" />
           </node>
+          <node concept="1FQA6B" id="5osFsyVlLT9" role="3H36l9">
+            <ref role="1FQA6$" node="7FNYdkaPUVp" resolve="Person" />
+          </node>
+          <node concept="1FQA6B" id="5osFsyVlLTa" role="3H36mW">
+            <ref role="1FQA6$" node="7FNYdkaPUVp" resolve="Person" />
+          </node>
+          <node concept="1FQA6B" id="5osFsyVlLTb" role="3H36l7">
+            <ref role="1FQA6$" node="7FNYdkaPUVp" resolve="Person" />
+          </node>
+          <node concept="1FQA6B" id="5osFsyVlLTc" role="3H36lm">
+            <ref role="1FQA6$" node="7FNYdkaPUVp" resolve="Person" />
+          </node>
         </node>
         <node concept="mu5$5" id="7FNYdkaEBA9" role="m3s6u">
           <property role="TrG5h" value="Act2" />
           <property role="3ANC2_" value="Test Explananation" />
-          <ref role="mu3Ux" node="7FNYdkaEBxb" resolve="Literals" />
-          <ref role="mu5$L" node="7FNYdkaEBxb" resolve="Literals" />
-          <ref role="mu3Ts" node="7FNYdkaEBxb" resolve="Literals" />
-          <ref role="mu3To" node="7FNYdkaEBxb" resolve="Literals" />
           <node concept="1FQA6B" id="7FNYdkaPV1W" role="mu1cf">
             <ref role="1FQA6$" node="7FNYdkaPUVp" resolve="Person" />
           </node>
@@ -777,6 +817,18 @@
           </node>
           <node concept="2cz2WB" id="7FNYdkaPTne" role="mu1c7">
             <ref role="2cz2WA" node="7FNYdkaEBAN" resolve="Duty1" />
+          </node>
+          <node concept="1FQA6B" id="5osFsyVlLTd" role="3H36l9">
+            <ref role="1FQA6$" node="7FNYdkaEBxb" resolve="Literals" />
+          </node>
+          <node concept="1FQA6B" id="5osFsyVlLTe" role="3H36mW">
+            <ref role="1FQA6$" node="7FNYdkaEBxb" resolve="Literals" />
+          </node>
+          <node concept="1FQA6B" id="5osFsyVlLTf" role="3H36l7">
+            <ref role="1FQA6$" node="7FNYdkaEBxb" resolve="Literals" />
+          </node>
+          <node concept="1FQA6B" id="5osFsyVlLTg" role="3H36lm">
+            <ref role="1FQA6$" node="7FNYdkaEBxb" resolve="Literals" />
           </node>
         </node>
         <node concept="cu0$f" id="7FNYdkaPUVp" role="cu0BP">
@@ -913,9 +965,9 @@
       <node concept="3clFbS" id="7FNYdkaUKTn" role="2VODD2">
         <node concept="3clFbF" id="7FNYdkaUKUk" role="3cqZAp">
           <node concept="37vLTI" id="7FNYdkaUKZt" role="3clFbG">
-            <node concept="10M0yZ" id="7FNYdkaUL31" role="37vLTx">
-              <ref role="3cqZAo" to="91gc:e8hxMx56PI" resolve="INSTANCE" />
-              <ref role="1PxDUh" to="91gc:2eNuKY2QKZ" resolve="FlintProperties" />
+            <node concept="2YIFZM" id="WMRUM2S_NH" role="37vLTx">
+              <ref role="1Pybhc" to="91gc:2eNuKY2QKZ" resolve="FlintProperties" />
+              <ref role="37wK5l" to="91gc:7ALI6YWYmu7" resolve="getInstance" />
             </node>
             <node concept="37vLTw" id="7FNYdkaUKUj" role="37vLTJ">
               <ref role="3cqZAo" node="7FNYdkaUKT4" resolve="flintProperties" />
@@ -1041,6 +1093,96 @@
         <ref role="1MFYO6" to="ktnu:1DR3H24CEOR" resolve="LitterOperandReplacements" />
         <node concept="35c_gC" id="1CBWOUErvhV" role="1v$tAf">
           <ref role="35c_gD" to="lnwe:4aWSgWx5NML" resolve="BooleanOperand" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2lJO3n" id="5osFsyV4fHM">
+    <property role="TrG5h" value="ChangeToFactReferences" />
+    <node concept="1qefOq" id="5osFsyV4fLE" role="2lJPY$">
+      <node concept="15s5l7" id="7ua6Tt2O0Xm" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No reference in the obligatory role 'fact'&quot;;FLAVOUR_NODE_FEATURE=&quot;fact&quot;;" />
+        <property role="huDt6" value="No reference in the obligatory role 'fact'" />
+      </node>
+      <node concept="cu0$2" id="7ua6Tt2GHLJ" role="1qenE9">
+        <property role="TrG5h" value="Test" />
+        <property role="2KQmhW" value="true" />
+        <node concept="cu0$f" id="7ua6Tt2GHLK" role="cu0BP">
+          <property role="TrG5h" value="Fact1" />
+        </node>
+        <node concept="mu5$5" id="7ua6Tt2GHLL" role="m3s6u">
+          <property role="TrG5h" value="Act1" />
+          <node concept="1FQA6B" id="7ua6Tt2GHM6" role="3H36l9">
+            <ref role="1FQA6$" node="7ua6Tt2GHLK" resolve="Fact1" />
+          </node>
+          <node concept="1FQA6B" id="7ua6Tt2GHM3" role="3H36mW">
+            <ref role="1FQA6$" node="7ua6Tt2GHLK" resolve="Fact1" />
+          </node>
+          <node concept="1FQA6B" id="7ua6Tt2GHM9" role="3H36l7">
+            <ref role="1FQA6$" node="7ua6Tt2GHLK" resolve="Fact1" />
+          </node>
+          <node concept="1FQA6B" id="7ua6Tt2GHMc" role="3H36lm">
+            <ref role="1FQA6$" node="7ua6Tt2GHLK" resolve="Fact1" />
+          </node>
+        </node>
+        <node concept="mu5$5" id="7ua6Tt2H0KM" role="m3s6u">
+          <property role="TrG5h" value="Act2" />
+          <node concept="1FQA6B" id="7ua6Tt2H0KN" role="3H36mW" />
+          <node concept="1FQA6B" id="7ua6Tt2H0KO" role="3H36l9" />
+          <node concept="1FQA6B" id="7ua6Tt2H0KP" role="3H36l7" />
+          <node concept="1FQA6B" id="7ua6Tt2H0KQ" role="3H36lm" />
+        </node>
+        <node concept="2cz0EU" id="7ua6Tt2GHLQ" role="2cADMD">
+          <property role="TrG5h" value="Duty1" />
+          <node concept="1FQA6B" id="7ua6Tt2GHMf" role="3H37fS">
+            <ref role="1FQA6$" node="7ua6Tt2GHLK" resolve="Fact1" />
+          </node>
+          <node concept="1FQA6B" id="7ua6Tt2GHMi" role="3H37fL">
+            <ref role="1FQA6$" node="7ua6Tt2GHLK" resolve="Fact1" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3ea_Bc" id="5osFsyV4fHO" role="3ea0P7">
+      <ref role="3ea_Bf" to="kzwd:5osFsyV4fon" resolve="ChangeToFactReferences" />
+    </node>
+    <node concept="1qefOq" id="5osFsyV4fHS" role="2lJO3o">
+      <node concept="15s5l7" id="7ua6Tt2NbxK" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No child in the obligatory role 'recipientRef'&quot;;FLAVOUR_NODE_FEATURE=&quot;recipientRef&quot;;" />
+        <property role="huDt6" value="No child in the obligatory role 'recipientRef'" />
+      </node>
+      <node concept="15s5l7" id="7ua6Tt2NbxG" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No child in the obligatory role 'objectRef'&quot;;FLAVOUR_NODE_FEATURE=&quot;objectRef&quot;;" />
+        <property role="huDt6" value="No child in the obligatory role 'objectRef'" />
+      </node>
+      <node concept="15s5l7" id="7ua6Tt2NbxD" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No child in the obligatory role 'actorRef'&quot;;FLAVOUR_NODE_FEATURE=&quot;actorRef&quot;;" />
+        <property role="huDt6" value="No child in the obligatory role 'actorRef'" />
+      </node>
+      <node concept="15s5l7" id="7ua6Tt2NbxB" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No child in the obligatory role 'actionRef'&quot;;FLAVOUR_NODE_FEATURE=&quot;actionRef&quot;;" />
+        <property role="huDt6" value="No child in the obligatory role 'actionRef'" />
+      </node>
+      <node concept="cu0$2" id="5osFsyV4fHR" role="1qenE9">
+        <property role="TrG5h" value="Test" />
+        <property role="2KQmhW" value="true" />
+        <node concept="cu0$f" id="5osFsyV4fHV" role="cu0BP">
+          <property role="TrG5h" value="Fact1" />
+        </node>
+        <node concept="mu5$5" id="5osFsyV4fHX" role="m3s6u">
+          <property role="TrG5h" value="Act1" />
+          <ref role="mu5$L" node="5osFsyV4fHV" resolve="Fact1" />
+          <ref role="mu3Ux" node="7ua6Tt2GHLK" resolve="Fact1" />
+          <ref role="mu3Ts" node="7ua6Tt2GHLK" resolve="Fact1" />
+          <ref role="mu3To" node="7ua6Tt2GHLK" resolve="Fact1" />
+        </node>
+        <node concept="mu5$5" id="7ua6Tt2H0KB" role="m3s6u">
+          <property role="TrG5h" value="Act2" />
+        </node>
+        <node concept="2cz0EU" id="5osFsyV4fLC" role="2cADMD">
+          <property role="TrG5h" value="Duty1" />
+          <ref role="2cz2We" node="7ua6Tt2GHLK" resolve="Fact1" />
+          <ref role="2cz2Wc" node="7ua6Tt2GHLK" resolve="Fact1" />
         </node>
       </node>
     </node>

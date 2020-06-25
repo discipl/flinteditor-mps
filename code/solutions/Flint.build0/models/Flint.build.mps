@@ -392,7 +392,7 @@
       <node concept="aVJcg" id="elgu9R90ia" role="aVJcv">
         <node concept="NbPM2" id="elgu9R90i9" role="aVJcq">
           <node concept="3Mxwew" id="elgu9R90i8" role="3MwsjC">
-            <property role="3MwjfP" value="03" />
+            <property role="3MwjfP" value="3" />
           </node>
         </node>
       </node>
@@ -403,6 +403,16 @@
         <node concept="NbPM2" id="elgu9R90uy" role="aVJcq">
           <node concept="3Mxwew" id="elgu9R90ux" role="3MwsjC">
             <property role="3MwjfP" value="0" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2kB4xC" id="7ua6Tt2QOgq" role="1l3spd">
+      <property role="TrG5h" value="patch" />
+      <node concept="aVJcg" id="7ua6Tt2QOlx" role="aVJcv">
+        <node concept="NbPM2" id="7ua6Tt2QOlw" role="aVJcq">
+          <node concept="3Mxwew" id="7ua6Tt2QOlv" role="3MwsjC">
+            <property role="3MwjfP" value="1" />
           </node>
         </node>
       </node>
@@ -419,6 +429,12 @@
           </node>
           <node concept="3Mxwey" id="elgu9R90Gj" role="3MwsjC">
             <ref role="3Mxwex" node="elgu9R90da" resolve="minor" />
+          </node>
+          <node concept="3Mxwew" id="7ua6Tt2QOnQ" role="3MwsjC">
+            <property role="3MwjfP" value="." />
+          </node>
+          <node concept="3Mxwey" id="7ua6Tt2QOqb" role="3MwsjC">
+            <ref role="3Mxwex" node="7ua6Tt2QOgq" resolve="patch" />
           </node>
         </node>
       </node>
@@ -952,11 +968,6 @@
             <ref role="1Busuk" to="90a9:56Tfdun3uan" resolve="de.itemis.mps.editor.diagram.layout" />
           </node>
         </node>
-        <node concept="1SiIV0" id="1h5_OQXaFvl" role="3bR37C">
-          <node concept="3bR9La" id="1h5_OQXaFvm" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:ymnOULAU0H" resolve="jetbrains.mps.lang.test" />
-          </node>
-        </node>
         <node concept="1E0d5M" id="1RFKF2GktCw" role="1E1XAP">
           <ref role="1E0d5P" node="2eNuKY4JD2" resolve="Flint.runtime" />
         </node>
@@ -1372,7 +1383,7 @@
                       <property role="2Ry0Am" value="Flint" />
                       <node concept="2Ry0Ak" id="2WP7dhE1et3" role="2Ry0An">
                         <property role="2Ry0Am" value="build" />
-                        <node concept="2Ry0Ak" id="2WP7dhE1et4" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="1hKveEhEpDF" role="2Ry0An">
                           <property role="2Ry0Am" value="flint.vmoptions" />
                         </node>
                       </node>
@@ -1398,7 +1409,7 @@
                       <property role="2Ry0Am" value="Flint" />
                       <node concept="2Ry0Ak" id="2WP7dhE1et9" role="2Ry0An">
                         <property role="2Ry0Am" value="build" />
-                        <node concept="2Ry0Ak" id="2WP7dhE1eta" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="1hKveEhEpDH" role="2Ry0An">
                           <property role="2Ry0Am" value="flint64.vmoptions" />
                         </node>
                       </node>
@@ -1428,7 +1439,7 @@
                       <property role="2Ry0Am" value="Flint" />
                       <node concept="2Ry0Ak" id="2WP7dhE1etf" role="2Ry0An">
                         <property role="2Ry0Am" value="build" />
-                        <node concept="2Ry0Ak" id="2WP7dhE1etg" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="1hKveEhEpDJ" role="2Ry0An">
                           <property role="2Ry0Am" value="flint.sh" />
                         </node>
                       </node>

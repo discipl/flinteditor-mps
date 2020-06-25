@@ -52,9 +52,11 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
@@ -79,8 +81,13 @@
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
       <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
+      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
+      </concept>
+      <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1068580123160" name="condition" index="3clFbw" />
+        <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
@@ -108,6 +115,10 @@
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
+      </concept>
+      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
+        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
+        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1202065242027" name="jetbrains.mps.baseLanguage.structure.DefaultGetAccessor" flags="ng" index="3wEZqW" />
       <concept id="1202077725299" name="jetbrains.mps.baseLanguage.structure.DefaultSetAccessor" flags="ng" index="3xqBd$">
@@ -149,17 +160,49 @@
     <property role="TrG5h" value="FlintProperties" />
     <node concept="Wx3nA" id="e8hxMx56PI" role="jymVt">
       <property role="TrG5h" value="INSTANCE" />
-      <node concept="3Tm1VV" id="e8hxMx5xwH" role="1B3o_S" />
+      <node concept="3Tm6S6" id="7ALI6YWYlq1" role="1B3o_S" />
       <node concept="3uibUv" id="e8hxMx57wG" role="1tU5fm">
         <ref role="3uigEE" node="2eNuKY2QKZ" resolve="FlintProperties" />
       </node>
-      <node concept="2ShNRf" id="e8hxMx58ro" role="33vP2m">
-        <node concept="1pGfFk" id="e8hxMx58Om" role="2ShVmc">
-          <ref role="37wK5l" node="2eNuKY2R8S" resolve="FlintProperties" />
-        </node>
-      </node>
     </node>
     <node concept="2tJIrI" id="e8hxMx58Xx" role="jymVt" />
+    <node concept="2YIFZL" id="7ALI6YWYmu7" role="jymVt">
+      <property role="TrG5h" value="getInstance" />
+      <node concept="3clFbS" id="7ALI6YWYmua" role="3clF47">
+        <node concept="3clFbJ" id="7ALI6YWYmZd" role="3cqZAp">
+          <node concept="3clFbC" id="7ALI6YWYn9O" role="3clFbw">
+            <node concept="10Nm6u" id="7ALI6YWYne1" role="3uHU7w" />
+            <node concept="37vLTw" id="7ALI6YWYn85" role="3uHU7B">
+              <ref role="3cqZAo" node="e8hxMx56PI" resolve="INSTANCE" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="7ALI6YWYmZf" role="3clFbx">
+            <node concept="3clFbF" id="7ALI6YWYneQ" role="3cqZAp">
+              <node concept="37vLTI" id="7ALI6YWYnkm" role="3clFbG">
+                <node concept="37vLTw" id="7ALI6YWYneP" role="37vLTJ">
+                  <ref role="3cqZAo" node="e8hxMx56PI" resolve="INSTANCE" />
+                </node>
+                <node concept="2ShNRf" id="e8hxMx58ro" role="37vLTx">
+                  <node concept="1pGfFk" id="e8hxMx58Om" role="2ShVmc">
+                    <ref role="37wK5l" node="2eNuKY2R8S" resolve="FlintProperties" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7ALI6YWYnnH" role="3cqZAp">
+          <node concept="37vLTw" id="7ALI6YWYnoF" role="3cqZAk">
+            <ref role="3cqZAo" node="e8hxMx56PI" resolve="INSTANCE" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7ALI6YWYlRr" role="1B3o_S" />
+      <node concept="3uibUv" id="7ALI6YWYmhg" role="3clF45">
+        <ref role="3uigEE" node="2eNuKY2QKZ" resolve="FlintProperties" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7ALI6YWYnq0" role="jymVt" />
     <node concept="3clFbW" id="2eNuKY2R8S" role="jymVt">
       <node concept="3cqZAl" id="2eNuKY2R8U" role="3clF45" />
       <node concept="3Tm6S6" id="e8hxMx58Pd" role="1B3o_S" />
