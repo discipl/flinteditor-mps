@@ -166,45 +166,9 @@
   </node>
   <node concept="1M2fIO" id="10jIHukaQEv">
     <ref role="1M2myG" to="lnwe:7PeSHTFdFJr" resolve="Act" />
-    <node concept="1N5Pfh" id="10jIHukaQEw" role="1Mr941">
-      <ref role="1N5Vy1" to="lnwe:7PeSHTFdHLZ" resolve="action" />
-      <node concept="1dDu$B" id="10jIHukaQEy" role="1N6uqs">
-        <ref role="1dDu$A" to="lnwe:5XjenljaN1U" resolve="Fact" />
-      </node>
-    </node>
-    <node concept="1N5Pfh" id="10jIHukaQE$" role="1Mr941">
-      <ref role="1N5Vy1" to="lnwe:7PeSHTFdFJJ" resolve="actor" />
-      <node concept="1dDu$B" id="10jIHukaQEK" role="1N6uqs">
-        <ref role="1dDu$A" to="lnwe:5XjenljaN1U" resolve="Fact" />
-      </node>
-    </node>
-    <node concept="1N5Pfh" id="10jIHukaQEE" role="1Mr941">
-      <ref role="1N5Vy1" to="lnwe:7PeSHTFdHM2" resolve="object" />
-      <node concept="1dDu$B" id="10jIHukaQEN" role="1N6uqs">
-        <ref role="1dDu$A" to="lnwe:5XjenljaN1U" resolve="Fact" />
-      </node>
-    </node>
-    <node concept="1N5Pfh" id="10jIHukaQEP" role="1Mr941">
-      <ref role="1N5Vy1" to="lnwe:7PeSHTFdHM6" resolve="recipient" />
-      <node concept="1dDu$B" id="10jIHukaQEX" role="1N6uqs">
-        <ref role="1dDu$A" to="lnwe:5XjenljaN1U" resolve="Fact" />
-      </node>
-    </node>
   </node>
   <node concept="1M2fIO" id="10jIHukaQFc">
     <ref role="1M2myG" to="lnwe:27H3E6Hoggr" resolve="Duty" />
-    <node concept="1N5Pfh" id="10jIHukaQFd" role="1Mr941">
-      <ref role="1N5Vy1" to="lnwe:27H3E6Hoi6J" resolve="claimant" />
-      <node concept="1dDu$B" id="10jIHukaQK1" role="1N6uqs">
-        <ref role="1dDu$A" to="lnwe:5XjenljaN1U" resolve="Fact" />
-      </node>
-    </node>
-    <node concept="1N5Pfh" id="10jIHukaQJS" role="1Mr941">
-      <ref role="1N5Vy1" to="lnwe:27H3E6Hoi6H" resolve="dutyHolder" />
-      <node concept="1dDu$B" id="10jIHukaQK7" role="1N6uqs">
-        <ref role="1dDu$A" to="lnwe:5XjenljaN1U" resolve="Fact" />
-      </node>
-    </node>
     <node concept="1N5Pfh" id="10jIHukaQJP" role="1Mr941">
       <ref role="1N5Vy1" to="lnwe:27H3E6Hs$Zq" resolve="create" />
       <node concept="1dDu$B" id="10jIHukaQK3" role="1N6uqs">

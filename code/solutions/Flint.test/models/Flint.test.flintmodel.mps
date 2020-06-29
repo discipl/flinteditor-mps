@@ -2,7 +2,7 @@
 <model ref="r:e1c4157a-470b-45c3-b6a9-e224efe13d0d(Flint.test.flintmodel)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="0" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="1" />
   </languages>
   <imports />
   <registry>
@@ -35,13 +35,13 @@
         <reference id="2444626260293394823" name="duty" index="2cz2WA" />
       </concept>
       <concept id="9029403747833789403" name="Flint.structure.Act" flags="ng" index="mu5$5">
-        <reference id="9029403747833797766" name="recipient" index="mu3To" />
-        <reference id="9029403747833797762" name="object" index="mu3Ts" />
-        <reference id="9029403747833797759" name="action" index="mu3Ux" />
-        <reference id="9029403747833789423" name="actor" index="mu5$L" />
         <child id="9029403747833803225" name="terminate" index="mu1c7" />
         <child id="9029403747833803217" name="create" index="mu1cf" />
         <child id="9029403747833797790" name="preconditions" index="mu3T0" />
+        <child id="6205025464253204623" name="objectRef" index="3H36l7" />
+        <child id="6205025464253204609" name="actionRef" index="3H36l9" />
+        <child id="6205025464253204638" name="recipientRef" index="3H36lm" />
+        <child id="6205025464253204596" name="actorRef" index="3H36mW" />
       </concept>
       <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
         <child id="6983418503075280678" name="sources" index="2pmM46" />
@@ -103,10 +103,6 @@
     <node concept="mu5$5" id="63E5y3TohTT" role="m3s6u">
       <property role="TrG5h" value="act1" />
       <property role="3ANC2_" value="Example explanation" />
-      <ref role="mu5$L" node="63E5y3Tohyt" resolve="Fact1" />
-      <ref role="mu3Ux" node="63E5y3Tohyv" resolve="Fact2" />
-      <ref role="mu3Ts" node="63E5y3Tohyy" resolve="Fact3" />
-      <ref role="mu3To" node="63E5y3TohyA" resolve="Fact4" />
       <node concept="cog_b" id="63E5y3U12vz" role="2pmM46">
         <property role="1FEjNx" value="example source text" />
         <ref role="cog$q" node="63E5y3TohUE" resolve="Source1" />
@@ -134,13 +130,33 @@
       <node concept="2cz2WB" id="63E5y3TohUA" role="mu1c7">
         <ref role="2cz2WA" node="63E5y3TohTX" resolve="duty2" />
       </node>
+      <node concept="1FQA6B" id="5osFsyVlLST" role="3H36l9">
+        <ref role="1FQA6$" node="63E5y3Tohyv" resolve="Fact2" />
+      </node>
+      <node concept="1FQA6B" id="5osFsyVlLSU" role="3H36mW">
+        <ref role="1FQA6$" node="63E5y3Tohyt" resolve="Fact1" />
+      </node>
+      <node concept="1FQA6B" id="5osFsyVlLSV" role="3H36l7">
+        <ref role="1FQA6$" node="63E5y3Tohyy" resolve="Fact3" />
+      </node>
+      <node concept="1FQA6B" id="5osFsyVlLSW" role="3H36lm">
+        <ref role="1FQA6$" node="63E5y3TohyA" resolve="Fact4" />
+      </node>
     </node>
     <node concept="mu5$5" id="63E5y3TohU0" role="m3s6u">
       <property role="TrG5h" value="act2" />
-      <ref role="mu5$L" node="63E5y3Tohyt" resolve="Fact1" />
-      <ref role="mu3Ux" node="63E5y3Tohyt" resolve="Fact1" />
-      <ref role="mu3Ts" node="63E5y3Tohyt" resolve="Fact1" />
-      <ref role="mu3To" node="63E5y3Tohyt" resolve="Fact1" />
+      <node concept="1FQA6B" id="5osFsyVlLSX" role="3H36l9">
+        <ref role="1FQA6$" node="63E5y3Tohyt" resolve="Fact1" />
+      </node>
+      <node concept="1FQA6B" id="5osFsyVlLSY" role="3H36mW">
+        <ref role="1FQA6$" node="63E5y3Tohyt" resolve="Fact1" />
+      </node>
+      <node concept="1FQA6B" id="5osFsyVlLSZ" role="3H36l7">
+        <ref role="1FQA6$" node="63E5y3Tohyt" resolve="Fact1" />
+      </node>
+      <node concept="1FQA6B" id="5osFsyVlLT0" role="3H36lm">
+        <ref role="1FQA6$" node="63E5y3Tohyt" resolve="Fact1" />
+      </node>
     </node>
     <node concept="2cz0EU" id="63E5y3TohTV" role="2cADMD">
       <property role="TrG5h" value="duty1" />
