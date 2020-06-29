@@ -1,0 +1,173 @@
+# Flint IDE User Guide  
+This is the MPS Flint IDE user guide. The Guide covers the following topics.
+- [Creating a Flint project](#creating-a-flint-project)
+- [Import existing flint model](#optional-import-existing-flint-model)
+- [Creating a Flint project](#creating-a-flint-project)
+- [Editing a FlintModel](#editing-a-flintModel)
+- [Creating a FlintRunner](#creating-a-flintRunner)
+
+## Creating a Flint project
+1. Open MPS.
+1. Click on Create new project.
+1. Select Flint from the menu and fill in the project, solution and model names and hit OK.    
+![Flint Project Window](images/newproject.png)
+
+## [Optional] Import existing flint model
+1. Right click on the model folder under your flint solution and select "Import FlintModel from Json".  
+![Import From Flint Model](images/importfromjson.png)
+1. Select the flint model json file and hit ok.
+1. If the model folder says generation required. In the top bar click `Build > Make Project`. If you get a menu asking you to review errors select the `Ignore Errors` option.  
+![Make Project](images/makeproject.png)
+
+## Editing a FlintModel
+1. Open the created FlintModel using the navigation menu.  
+![Created Flint Model](images/openmodel.png)
+
+### Acts
+1. To create an act click on the area with << ... >> and hit `Ctrl+Space` and select act or select the empty space under an existing act and hit `Enter`.  
+![Create Act](images/createact.png)
+1. Replace the first <no name> with the name of the act.
+
+#### Create new fact
+1. Click on the area with <no name> and enter the name of the fact.
+1. Hit `Ctrl+Space` and select Create Fact: (factname).  
+![Create Fact](images/createfact.png)
+
+#### Select existing fact
+1. Click on the area with <no name>.
+1. Hit `Ctrl+Space`  and start typing the name of the fact until it's visible in the list.
+1. Select the fact.
+![Select Fact](images/selectfact.png)
+
+#### Preconditions
+See [expressions](#expressions).
+
+#### Create & Terminate
+For create and terminate you can select a fact or a duty the same way you [selected a fact](#select-existing-fact).
+
+#### Act Sources
+1. Create a source. See [sources](#sources).
+1. To create a source reference click on the area with << ... >> and hit `Ctrl+Space` and select source or select the empty space under an existing source reference and hit `Enter`.  
+1. Under name select the name of the source you would like to reference.
+1. Under text enter the text from the source.
+
+### Facts
+1. To create a fact click on the area with << ... >> and hit `Ctrl+Space` and select fact or select the empty space under an existing fact and hit `Enter`.  
+![Create Fact](images/createnewfact.png)
+1. Replace the first <no name> with the name of the fact.
+
+#### Function
+See [expressions](#expressions).
+
+#### Fact Sources
+1. Create a source. See [sources](#sources).
+1. To create a source reference click on the area with << ... >> and hit `Ctrl+Space` and select source or select the empty space under an existing source reference and hit `Enter`.  
+1. Under name select the name of the source you would like to reference.
+1. Under text enter the text from the source.
+
+### Duties
+1. To create a duty click on the area with << ... >> and hit `Ctrl+Space` and select duty or select the empty space under an existing duty and hit `Enter`.  
+![Create Duty](images/createnewduty.png)
+1. Replace the first <no name> with the name of the duty.
+1. You can create and select facts and acts just like in [acts](#acts)
+
+### Sources
+1. To create a source click on the area with << ... >> and hit `Ctrl+Space` and select basesource or select the empty space under an existing source and hit `Enter`.  
+![Create Source](images/createsource.png)
+1. Replace the first <no name> with the name of the source.
+1. Enter the juriconnect URI.
+1. Enter the valid from and valid to dates. These can be entered manually in the dd-mm-yyyy format or by using the date picker by clicking the calendar icon.
+
+![Example source](images/source.png)
+
+### Expressions
+There are different types of expressions. Creating these expressions with be explained below. To replace an expression hit `Alt+Enter` and select replace (expression x) with (expression y). To nest an expression hit `Alt+Enter` and select wrap (expression x) with new expression. 
+
+![Replace or Wrap](images/replaceorwrap.png)
+
+#### Fact reference
+This is just a reference to a fact. You can [create](#create-new-fact) and [select](#select-existing-fact) these just like in acts and duties.
+  
+![Fact Reference](images/factreference.png)
+
+#### Multi expression
+A multi expression has a list of expressions called operands. A multi expression cannot be converted to a single expression if it has more than one operand.
+The following expressions are multi expressions:
+- AND
+- EQUAL 
+- OR 
+- MIN 
+- MAX
+- LESS_THAN
+- SUM
+- PRODUCT
+
+To create a multi expression:
+1. Hit `Ctrl+Space` and select the multi expression from the list.
+1. Select the <no fact> area and input a operand which is also an expression.
+1.  To add an extra operand you can use one of the following methods: 
+    - To add an extra operand to the current multi expression select the expression's keyword (for example AND) and hit `Enter`.
+    - To add an extra operand to the parent expression of the currently selected expression hit `Ctrl+Enter`.
+
+![Multi expression](images/multiexpression.png)
+
+#### Single expression 
+A single expression has a single expression called operand. NOT is a single expression.
+
+To create a single expression:
+1. Hit `Ctrl+Space` and select a single expression from the list.
+1. Select the <no name> area and enter the operand which is also an expression.
+
+![Single Expression](images/singleexpression.png)
+
+#### LITERAL expression
+A LITERAL expression has a literal value called operand.
+The value can be one of the following types:
+- Boolean (true/false)
+- String (text)
+- Number  
+
+To create a LITERAL expression:
+1. Hit `Ctrl+Space` and select LITERAL from the list.
+1. Select the <no value> area.
+1. Hit `Ctrl+Space` and select the literal type.
+1. Input the value.
+
+![Literal Expression](images/literalexpression.png)
+
+To switch literal move the cursor to the literal value and hit `Alt+Enter` and select replace (type x) value with (type y).
+
+![Switch Literal Expression](images/switchliteralexpression.png)
+
+#### LIST expression  
+A LIST expression has a single expression called items and has a name property.
+To create a LIST expression:
+1. Hit `Ctrl+Space` and select LIST from the list.
+1. Select the first <no name> area and enter the name of the list.
+1. Select the second <no name> area and enter the items which is also an expression.
+
+![List Expression](images/listexpression.png)
+
+## Creating a FlintRunner
+To create a FlintRunner:
+1. right click on the flint folder with an `M` symbol and select `New > FlintModelRunner`.
+![New FlintRunner](images/newflintrunner.png)
+1. Replace the first <no name> are with the name of the FlintRunner.
+1. Select the area with <no flintModel>.
+1. Hit `Ctrl+Space` and select the flint model you would like to run from the list.
+1. Create actors as specified in [Actor](#actor).
+1. Select the activeActors. These are the one or two actors the will be active by default in the runner menu.
+1. Select the generalFacts. These are facts that apply to all actors.
+
+![Example FlintModelRunner](images/exampleflintmodelrunner.png)
+
+To run the FlintModelRunner. 
+1. Ensure the project has been built without errors. On the top bar select `Build > Make Project`.
+1. Right click somewhere in the FlintModelRunner and select `Run FlintModel` from the list. A Window will open up on the right side where you can test your flint model.
+
+![Compliance By Design example](images/runningflintmodel.png)
+
+### Actor
+1. Create an actor by selecting the <<...>> area under actors:, hitting `Ctrl+Space` and selecting actor.
+![Create actor](images/actor.png)
+1. Under facts: you specify the facts that apply to this actor.
