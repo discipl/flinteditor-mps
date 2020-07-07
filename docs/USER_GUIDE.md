@@ -5,6 +5,7 @@ This is the MPS Flint IDE user guide. The Guide covers the following topics.
 - [Creating a Flint project](#creating-a-flint-project)
 - [Editing a FlintModel](#editing-a-flintModel)
 - [Creating a FlintRunner](#creating-a-flintRunner)
+- [Useful Shortcuts](#useful-shortcuts)
 
 ## Creating a Flint project
 1. Open MPS.
@@ -84,6 +85,9 @@ See [expressions](#expressions).
 There are different types of expressions. Creating these expressions with be explained below. To replace an expression hit `Alt+Enter` and select replace (expression x) with (expression y). To nest an expression hit `Alt+Enter` and select wrap (expression x) with new expression. 
 
 ![Replace or Wrap](images/replaceorwrap.png)
+
+### Explanation
+You can add or remove an explanation from a act, duty, fact or source usage by hitting `Alt+Enter` and selecting Add or Remove Explanation`.
 
 #### Fact reference
 This is just a reference to a fact. You can [create](#create-new-fact) and [select](#select-existing-fact) these just like in acts and duties.
@@ -171,3 +175,9 @@ To run the FlintModelRunner.
 1. Create an actor by selecting the <<...>> area under actors:, hitting `Ctrl+Space` and selecting actor.
 ![Create actor](images/actor.png)
 1. Under facts: you specify the facts that apply to this actor.
+
+## Useful Shortcuts and
+- `Ctrl+B` or `Ctrl+Click` will take you to the source of a reference.
+- `Ctrl+F9` will rebuild the current solution.
+- `Alt+Shift+7` or `Right Click > Find Usages` will allow you to see where a fact / act / duty or source is used.
+![Find Usages](images/findusages.png)
