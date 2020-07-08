@@ -4,7 +4,7 @@ This is the MPS Flint IDE user guide. The Guide covers the following topics.
 - [Import existing flint model](#optional-import-existing-flint-model)
 - [Creating a Flint project](#creating-a-flint-project)
 - [Editing a FlintModel](#editing-a-flintModel)
-- [Creating a FlintRunner](#creating-a-flintRunner)
+- [Creating a FlintRunner](#creating-a-flintrunner)
 - [Useful Shortcuts](#useful-shortcuts)
 
 ## Creating a Flint project
