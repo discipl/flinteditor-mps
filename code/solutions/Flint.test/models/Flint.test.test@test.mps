@@ -183,6 +183,8 @@
         <reference id="2444626260293394863" name="claimant" index="2cz2We" />
         <reference id="2444626260294520794" name="create" index="2cBO5V" />
         <reference id="2444626260294520798" name="terminate" index="2cBO5Z" />
+        <child id="898982168832817003" name="createRef" index="cMmjI" />
+        <child id="898982168832817017" name="terminateRef" index="cMmjW" />
         <child id="6205025464253210169" name="claimantRef" index="3H37fL" />
         <child id="6205025464253210160" name="dutyHolderRef" index="3H37fS" />
       </concept>
@@ -207,6 +209,9 @@
       </concept>
       <concept id="2498327558793092998" name="Flint.structure.Foldable" flags="ng" index="2KLowF">
         <property id="2498327558794365553" name="unfoldByDefault" index="2KaxRs" />
+      </concept>
+      <concept id="7402439007429942662" name="Flint.structure.ActReference" flags="ng" index="3jSua8">
+        <reference id="7402439007429942663" name="act" index="3jSua9" />
       </concept>
       <concept id="4808965957220771074" name="Flint.structure.AND" flags="ng" index="1zEWgd" />
       <concept id="4808965957220776525" name="Flint.structure.OR" flags="ng" index="1zEXH2" />
@@ -1183,6 +1188,98 @@
           <property role="TrG5h" value="Duty1" />
           <ref role="2cz2We" node="7ua6Tt2GHLK" resolve="Fact1" />
           <ref role="2cz2Wc" node="7ua6Tt2GHLK" resolve="Fact1" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2lJO3n" id="qfyMBWUDiH">
+    <property role="TrG5h" value="ChangeDutyCreateableAndTerminateable" />
+    <node concept="3ea_Bc" id="qfyMBWUDiJ" role="3ea0P7">
+      <ref role="3ea_Bf" to="kzwd:LTOSk10_jU" resolve="ChangeDutyCreateableAndTerminateable" />
+    </node>
+    <node concept="1qefOq" id="qfyMBWUDiR" role="2lJO3o">
+      <node concept="cu0$2" id="qfyMBWUDiQ" role="1qenE9">
+        <property role="2KQmhW" value="true" />
+        <property role="TrG5h" value="TestModel" />
+        <node concept="mu5$5" id="qfyMBWUDiU" role="m3s6u">
+          <property role="TrG5h" value="Act1" />
+          <node concept="1FQA6B" id="qfyMBWUDj6" role="3H36mW">
+            <ref role="1FQA6$" node="qfyMBWUDj4" resolve="PLACE_HOLDER" />
+          </node>
+          <node concept="1FQA6B" id="qfyMBWUDj9" role="3H36l9">
+            <ref role="1FQA6$" node="qfyMBWUDj4" resolve="PLACE_HOLDER" />
+          </node>
+          <node concept="1FQA6B" id="qfyMBWUDjc" role="3H36l7">
+            <ref role="1FQA6$" node="qfyMBWUDj4" resolve="PLACE_HOLDER" />
+          </node>
+          <node concept="1FQA6B" id="qfyMBWUDjf" role="3H36lm">
+            <ref role="1FQA6$" node="qfyMBWUDj4" resolve="PLACE_HOLDER" />
+          </node>
+        </node>
+        <node concept="cu0$f" id="qfyMBWUDj4" role="cu0BP">
+          <property role="TrG5h" value="PLACE_HOLDER" />
+        </node>
+        <node concept="2cz0EU" id="qfyMBWUDji" role="2cADMD">
+          <property role="TrG5h" value="Duty1" />
+          <ref role="2cBO5V" node="qfyMBWUDiU" resolve="Act1" />
+          <ref role="2cBO5Z" node="qfyMBWUDiU" resolve="Act1" />
+          <ref role="2cz2Wc" node="qfyMBWUDj4" resolve="PLACE_HOLDER" />
+        </node>
+        <node concept="2cz0EU" id="qfyMBWUDjk" role="2cADMD">
+          <property role="TrG5h" value="Duty2" />
+          <ref role="2cBO5V" node="qfyMBWUDjn" resolve="Duty3" />
+          <ref role="2cBO5Z" node="qfyMBWUDjn" resolve="Duty3" />
+          <ref role="2cz2Wc" node="qfyMBWUDj4" resolve="PLACE_HOLDER" />
+        </node>
+        <node concept="2cz0EU" id="qfyMBWUDjn" role="2cADMD">
+          <property role="TrG5h" value="Duty3" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="qfyMBWUDDp" role="2lJPY$">
+      <node concept="cu0$2" id="qfyMBWUDDb" role="1qenE9">
+        <property role="2KQmhW" value="true" />
+        <property role="TrG5h" value="TestModel" />
+        <node concept="mu5$5" id="qfyMBWUDDc" role="m3s6u">
+          <property role="TrG5h" value="Act1" />
+          <node concept="1FQA6B" id="qfyMBWUDDd" role="3H36mW">
+            <ref role="1FQA6$" node="qfyMBWUDDh" resolve="PLACE_HOLDER" />
+          </node>
+          <node concept="1FQA6B" id="qfyMBWUDDe" role="3H36l9">
+            <ref role="1FQA6$" node="qfyMBWUDDh" resolve="PLACE_HOLDER" />
+          </node>
+          <node concept="1FQA6B" id="qfyMBWUDDf" role="3H36l7">
+            <ref role="1FQA6$" node="qfyMBWUDDh" resolve="PLACE_HOLDER" />
+          </node>
+          <node concept="1FQA6B" id="qfyMBWUDDg" role="3H36lm">
+            <ref role="1FQA6$" node="qfyMBWUDDh" resolve="PLACE_HOLDER" />
+          </node>
+        </node>
+        <node concept="cu0$f" id="qfyMBWUDDh" role="cu0BP">
+          <property role="TrG5h" value="PLACE_HOLDER" />
+        </node>
+        <node concept="2cz0EU" id="qfyMBWUDDi" role="2cADMD">
+          <property role="TrG5h" value="Duty1" />
+          <ref role="2cz2Wc" node="qfyMBWUDDh" resolve="PLACE_HOLDER" />
+          <node concept="3jSua8" id="qfyMBWUDDj" role="cMmjI">
+            <ref role="3jSua9" node="qfyMBWUDDc" resolve="Act1" />
+          </node>
+          <node concept="3jSua8" id="qfyMBWUDDk" role="cMmjW">
+            <ref role="3jSua9" node="qfyMBWUDDc" resolve="Act1" />
+          </node>
+        </node>
+        <node concept="2cz0EU" id="qfyMBWUDDl" role="2cADMD">
+          <property role="TrG5h" value="Duty2" />
+          <ref role="2cz2Wc" node="qfyMBWUDDh" resolve="PLACE_HOLDER" />
+          <node concept="2cz2WB" id="qfyMBWUDDm" role="cMmjI">
+            <ref role="2cz2WA" node="qfyMBWUDDo" resolve="Duty3" />
+          </node>
+          <node concept="2cz2WB" id="qfyMBWUDDn" role="cMmjW">
+            <ref role="2cz2WA" node="qfyMBWUDDo" resolve="Duty3" />
+          </node>
+        </node>
+        <node concept="2cz0EU" id="qfyMBWUDDo" role="2cADMD">
+          <property role="TrG5h" value="Duty3" />
         </node>
       </node>
     </node>

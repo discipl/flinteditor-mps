@@ -87,6 +87,11 @@
       <concept id="6587498613242404529" name="Flint.structure.FactReference" flags="ng" index="1FQA6B">
         <reference id="6587498613242404530" name="fact" index="1FQA6$" />
       </concept>
+      <concept id="491685697582699846" name="Flint.structure.PROJECTION" flags="ng" index="1Rn4jf">
+        <child id="491685697582722527" name="context" index="1Rn3Lm" />
+        <child id="491685697582722529" name="fact" index="1Rn3LC" />
+      </concept>
+      <concept id="491685697582670580" name="Flint.structure.CREATE" flags="ng" index="1RnfdX" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -3628,18 +3633,15 @@
       <node concept="1FQA6B" id="5osFsyVlLPi" role="3H36lm">
         <ref role="1FQA6$" node="7FNYdkaPTc3" resolve="Person" />
       </node>
+      <node concept="2cz2WB" id="LTOSk13F2c" role="mu1cf">
+        <ref role="2cz2WA" node="7FNYdkaEBAN" resolve="Duty1" />
+      </node>
     </node>
     <node concept="mu5$5" id="7FNYdkaEBA9" role="m3s6u">
       <property role="TrG5h" value="Act2" />
       <property role="3ANC2_" value="Test Explananation" />
       <node concept="1FQA6B" id="7FNYdkaPTlY" role="mu1cf">
         <ref role="1FQA6$" node="7FNYdkaPTc3" resolve="Person" />
-      </node>
-      <node concept="1FQA6B" id="7FNYdkaPTlU" role="mu1c7">
-        <ref role="1FQA6$" node="7FNYdkaPTc3" resolve="Person" />
-      </node>
-      <node concept="2cz2WB" id="7FNYdkaEBAW" role="mu1c7">
-        <ref role="2cz2WA" node="7FNYdkaEBAN" resolve="Duty1" />
       </node>
       <node concept="1FQA6B" id="5osFsyVlLPj" role="3H36l9">
         <ref role="1FQA6$" node="7FNYdkaEBxb" resolve="Literals" />
@@ -3650,7 +3652,7 @@
       <node concept="1FQA6B" id="5osFsyVlLPl" role="3H36l7">
         <ref role="1FQA6$" node="7FNYdkaEBxb" resolve="Literals" />
       </node>
-      <node concept="1FQA6B" id="5osFsyVlLPm" role="3H36lm">
+      <node concept="1FQA6B" id="LTOSk1MSBG" role="3H36lm">
         <ref role="1FQA6$" node="7FNYdkaEBxb" resolve="Literals" />
       </node>
     </node>
@@ -3684,6 +3686,39 @@
     </node>
     <node concept="cu0$f" id="2aFPUQi7H9U" role="cu0BP">
       <property role="TrG5h" value="FactOR" />
+    </node>
+    <node concept="cu0$f" id="riOo_L_qEh" role="cu0BP">
+      <property role="TrG5h" value="Test32" />
+      <node concept="1RnfdX" id="riOo_L_qGl" role="coNO9">
+        <node concept="1FQA6B" id="LTOSk081ef" role="1zF96y">
+          <ref role="1FQA6$" node="2aFPUQi7H9U" resolve="FactOR" />
+        </node>
+        <node concept="1FQA6B" id="riOo_L_qGU" role="1zF96y">
+          <ref role="1FQA6$" node="2aFPUQi7H7z" resolve="TestOneThis is" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="riOo_L_qH4" role="cu0BP">
+      <property role="TrG5h" value="Test2" />
+      <node concept="1Rn4jf" id="LTOSk0xxmj" role="coNO9">
+        <node concept="1FQA6B" id="LTOSk0xxmp" role="1Rn3Lm">
+          <ref role="1FQA6$" node="riOo_L_qEh" resolve="Test32" />
+        </node>
+        <node concept="1FQA6B" id="LTOSk0xxoT" role="1Rn3LC">
+          <ref role="1FQA6$" node="7FNYdkaPTc3" resolve="Person" />
+        </node>
+        <node concept="1FQA6B" id="LTOSk0xxmy" role="1Rn3Lm">
+          <ref role="1FQA6$" node="LTOSk0xxmz" resolve="Test231" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="LTOSk0xxmz" role="cu0BP">
+      <property role="TrG5h" value="Test231" />
+      <node concept="1RnfdX" id="LTOSk0xxoM" role="coNO9">
+        <node concept="1FQA6B" id="LTOSk0xxoQ" role="1zF96y">
+          <ref role="1FQA6$" node="7FNYdkaPTc3" resolve="Person" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="cu0$2" id="63E5y3U1TlZ">
