@@ -2,7 +2,7 @@
 <model ref="r:8da1cb8b-6012-42db-a9f8-f7995e254849(Flint.test.flintrunner)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="1" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="2" />
   </languages>
   <imports>
     <import index="atn4" ref="r:e1c4157a-470b-45c3-b6a9-e224efe13d0d(Flint.test.flintmodel)" />

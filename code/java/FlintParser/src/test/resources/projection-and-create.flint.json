@@ -1,0 +1,57 @@
+{
+  "acts": [
+    {
+      "act": "<<subsidie aanvragen>>",
+      "actor": "[burger]",
+      "recipient": "[ambtenaar]",
+      "object": "[verzoek]",
+      "preconditions": {
+        "expression": "AND",
+        "operands": [
+          "[bedrag]"
+        ]
+      },
+      "create": [
+        "[aanvraag]"
+      ]
+    },
+    {
+      "act": "<<subsidie aanvraag toekennen>>",
+      "actor": "[ambtenaar]",
+      "object": "[aanvraag]",
+      "preconditions": {
+        "expression": "LESS_THAN",
+        "operands": [
+          "[bedrag projection]",
+          {
+            "expression": "LITERAL",
+            "operand": 500
+          }
+        ]
+      },
+      "recipient": "[burger]"
+    }
+  ],
+  "facts": [
+    {
+      "fact": "[aanvraag]",
+      "function": {
+        "expression": "CREATE",
+        "operands": [
+          "[bedrag]"
+        ]
+      }
+    },
+    {
+      "fact": "[bedrag projection]",
+      "function": {
+        "expression": "PROJECTION",
+        "context": [
+          "[aanvraag]"
+        ],
+        "fact": "[bedrag]"
+      }
+    }
+  ],
+  "duties": []
+}

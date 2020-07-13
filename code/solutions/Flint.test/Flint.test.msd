@@ -19,7 +19,7 @@
     <dependency reexport="false">acf1b507-e791-4de3-b55f-a3880c36d5bb(Flint.runtime)</dependency>
   </dependencies>
   <languageVersions>
-    <language slang="l:69940819-10c1-4a38-ac44-700b63f993ba:Flint" version="1" />
+    <language slang="l:69940819-10c1-4a38-ac44-700b63f993ba:Flint" version="2" />
     <language slang="l:b5c0bb04-c583-4b2a-a66e-1eab92d33c68:com.mbeddr.mpsutil.json" version="0" />
     <language slang="l:8ca79d43-eb45-4791-bdd4-0d6130ff895b:de.itemis.mps.editor.diagram.layout" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="9" />

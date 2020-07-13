@@ -4,7 +4,7 @@
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="1" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="2" />
     <use id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi" version="0" />
     <use id="68015e26-cc4d-49db-8715-b643faea1769" name="jetbrains.mps.lang.test.generator" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
@@ -777,8 +777,6 @@
         <node concept="2cz0EU" id="7FNYdkaEBAN" role="2cADMD">
           <property role="TrG5h" value="Duty1" />
           <property role="3ANC2_" value="Duty Explanation" />
-          <ref role="2cBO5V" node="7FNYdkaEBA9" resolve="Act2" />
-          <ref role="2cBO5Z" node="7FNYdkaSbIs" resolve="Act1" />
           <node concept="cog_b" id="7FNYdkaEBAP" role="2pmM46">
             <property role="1FEjNx" value="Text" />
             <ref role="cog$q" node="7FNYdkaEB_Z" resolve="TestSource" />
@@ -788,6 +786,12 @@
           </node>
           <node concept="1FQA6B" id="5osFsyVlLTm" role="3H37fL">
             <ref role="1FQA6$" node="7FNYdkaPUVp" resolve="Person" />
+          </node>
+          <node concept="3jSua8" id="qfyMBWUFGB" role="cMmjI">
+            <ref role="3jSua9" node="7FNYdkaEBA9" resolve="Act2" />
+          </node>
+          <node concept="3jSua8" id="qfyMBWUFGC" role="cMmjW">
+            <ref role="3jSua9" node="7FNYdkaSbIs" resolve="Act1" />
           </node>
         </node>
         <node concept="mu5$5" id="7FNYdkaSbIs" role="m3s6u">
