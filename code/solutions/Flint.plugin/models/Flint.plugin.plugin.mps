@@ -528,53 +528,53 @@
       <property role="TrG5h" value="save" />
       <node concept="3cqZAl" id="QLMwkt3V8$" role="3clF45" />
       <node concept="3clFbS" id="QLMwkt3UFB" role="3clF47">
-        <node concept="3clFbF" id="QLMwkt6LCE" role="3cqZAp">
-          <node concept="2OqwBi" id="QLMwkt6N9A" role="3clFbG">
-            <node concept="2OqwBi" id="QLMwkt6MKg" role="2Oq$k0">
-              <node concept="2OqwBi" id="QLMwkt6Mrg" role="2Oq$k0">
-                <node concept="2OqwBi" id="QLMwkt6LUe" role="2Oq$k0">
-                  <node concept="2WthIp" id="QLMwkt6LCC" role="2Oq$k0" />
-                  <node concept="1DTwFV" id="QLMwkt6MkT" role="2OqNvi">
-                    <ref role="2WH_rO" node="4IsoFPcf1gC" resolve="model" />
+        <node concept="3clFbF" id="7wFBj$Xk7qI" role="3cqZAp">
+          <node concept="2OqwBi" id="7wFBj$Xkb2Z" role="3clFbG">
+            <node concept="2OqwBi" id="7wFBj$XkaCQ" role="2Oq$k0">
+              <node concept="2OqwBi" id="7wFBj$Xk9uI" role="2Oq$k0">
+                <node concept="2OqwBi" id="7wFBj$Xk7YT" role="2Oq$k0">
+                  <node concept="2WthIp" id="7wFBj$Xk7qG" role="2Oq$k0" />
+                  <node concept="1DTwFV" id="7wFBj$Xk8V7" role="2OqNvi">
+                    <ref role="2WH_rO" node="7wFBj$Xk5Ix" resolve="mpsProject" />
                   </node>
                 </node>
-                <node concept="liA8E" id="QLMwkt6MF3" role="2OqNvi">
-                  <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                <node concept="liA8E" id="7wFBj$XkayQ" role="2OqNvi">
+                  <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
                 </node>
               </node>
-              <node concept="liA8E" id="QLMwkt6MW4" role="2OqNvi">
+              <node concept="liA8E" id="7wFBj$Xkb0N" role="2OqNvi">
                 <ref role="37wK5l" to="lui2:~SRepository.getModelAccess()" resolve="getModelAccess" />
               </node>
             </node>
-            <node concept="liA8E" id="QLMwkt6NrP" role="2OqNvi">
-              <ref role="37wK5l" to="lui2:~ModelAccess.runWriteAction(java.lang.Runnable)" resolve="runWriteAction" />
-              <node concept="1bVj0M" id="27H3E6HTW1K" role="37wK5m">
-                <node concept="3clFbS" id="27H3E6HTW1L" role="1bW5cS">
-                  <node concept="3clFbF" id="QLMwkt52Zb" role="3cqZAp">
-                    <node concept="2OqwBi" id="QLMwkt52Zc" role="3clFbG">
-                      <node concept="2OqwBi" id="QLMwkt52Zd" role="2Oq$k0">
-                        <node concept="2WthIp" id="QLMwkt52Ze" role="2Oq$k0" />
-                        <node concept="1DTwFV" id="QLMwkt52Zf" role="2OqNvi">
+            <node concept="liA8E" id="7wFBj$XkbMX" role="2OqNvi">
+              <ref role="37wK5l" to="lui2:~ModelAccess.executeCommand(java.lang.Runnable)" resolve="executeCommand" />
+              <node concept="1bVj0M" id="7wFBj$XkbQ8" role="37wK5m">
+                <node concept="3clFbS" id="7wFBj$XkbQ9" role="1bW5cS">
+                  <node concept="3clFbF" id="7wFBj$Xkc3N" role="3cqZAp">
+                    <node concept="2OqwBi" id="7wFBj$XkcN7" role="3clFbG">
+                      <node concept="2OqwBi" id="7wFBj$Xkck7" role="2Oq$k0">
+                        <node concept="2WthIp" id="7wFBj$Xkc3L" role="2Oq$k0" />
+                        <node concept="1DTwFV" id="7wFBj$XkcCR" role="2OqNvi">
                           <ref role="2WH_rO" node="4IsoFPcf1gC" resolve="model" />
                         </node>
                       </node>
-                      <node concept="liA8E" id="QLMwkt52Zg" role="2OqNvi">
+                      <node concept="liA8E" id="7wFBj$XkdHH" role="2OqNvi">
                         <ref role="37wK5l" to="mhbf:~SModel.addRootNode(org.jetbrains.mps.openapi.model.SNode)" resolve="addRootNode" />
-                        <node concept="37vLTw" id="QLMwkt52Zh" role="37wK5m">
+                        <node concept="37vLTw" id="7wFBj$XkdMd" role="37wK5m">
                           <ref role="3cqZAo" node="QLMwkt3Vgq" resolve="model" />
                         </node>
                       </node>
                     </node>
                   </node>
-                  <node concept="3clFbF" id="QLMwktiv0H" role="3cqZAp">
-                    <node concept="2OqwBi" id="QLMwktivVa" role="3clFbG">
-                      <node concept="2OqwBi" id="QLMwktiv0J" role="2Oq$k0">
-                        <node concept="2WthIp" id="QLMwktiv0K" role="2Oq$k0" />
-                        <node concept="1DTwFV" id="QLMwktiv0L" role="2OqNvi">
+                  <node concept="3clFbF" id="7wFBj$Xke0B" role="3cqZAp">
+                    <node concept="2OqwBi" id="7wFBj$Xkf0D" role="3clFbG">
+                      <node concept="2OqwBi" id="7wFBj$XkehG" role="2Oq$k0">
+                        <node concept="2WthIp" id="7wFBj$Xke0_" role="2Oq$k0" />
+                        <node concept="1DTwFV" id="7wFBj$Xke_5" role="2OqNvi">
                           <ref role="2WH_rO" node="4IsoFPcf1gC" resolve="model" />
                         </node>
                       </node>
-                      <node concept="liA8E" id="QLMwktiwiB" role="2OqNvi">
+                      <node concept="liA8E" id="7wFBj$XkfPh" role="2OqNvi">
                         <ref role="37wK5l" to="mhbf:~SModel.load()" resolve="load" />
                       </node>
                     </node>
@@ -923,6 +923,11 @@
       <property role="TrG5h" value="model" />
       <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MODEL" resolve="MODEL" />
       <node concept="1oajcY" id="4IsoFPcf1gD" role="1oa70y" />
+    </node>
+    <node concept="1DS2jV" id="7wFBj$Xk5Ix" role="1NuT2Z">
+      <property role="TrG5h" value="mpsProject" />
+      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
+      <node concept="1oajcY" id="7wFBj$Xk5Iy" role="1oa70y" />
     </node>
   </node>
   <node concept="tC5Ba" id="4IsoFPc4L12">
