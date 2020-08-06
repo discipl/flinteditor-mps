@@ -1,0 +1,72 @@
+plugins {
+    id 'java'
+}
+
+group 'org.discipl'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+import org.apache.tools.ant.taskdefs.condition.Os
+
+ext {
+    python_version = "python36_64"
+    bootstap_dir = new File(parent.buildDir, 'bootstrap')
+    python_bin = new File(bootstap_dir, python_version + '/bin')
+    python = new File(python_bin, "python")
+    flint_filler_dir = new File(parent.buildDir, "flint-filler")
+    flint_filler_repo = "https://gitlab.com/calculemus-flint/flintfiller.git"
+    python_v_env = new File(flint_filler_dir, ".venv/bin/python")
+}
+
+envs {
+    bootstrapDirectory = bootstap_dir
+    envsDirectory = new File(parent.buildDir, 'envs')
+
+    // Download python zips when Windows is used from https://repository.net/%archieveName%,
+    // where {archieveName} is python-{version}-{architecture}.zip.
+    // For example, for the 64 bit version of Python 3.7.2 the archive name will be python-3.7.2-64.zip
+    zipRepository = new URL("https://repository.net/")
+    shouldUseZipsFromRepository = Os.isFamily(Os.FAMILY_WINDOWS)
+
+    // by default pipInstallOptions equals to "--trusted-host pypi.python.org"
+    // to fix CERTIFICATE_VERIFY_FAILED ssl error
+    // pipInstallOptions = "--trusted-host pypi.python.org"
+
+    python "${python_version}", "3.6.2", ["poetry", "pex==2.1.6"]
+}
+
+task cleanFlintFiller(type: Delete) {
+    delete(flint_filler_dir)
+}
+
+task cloneFlintFiller(dependsOn: cleanFlintFiller) {
+    doLast {
+        org.ajoberstar.grgit.Grgit.clone(dir: "$flint_filler_dir", uri: "$flint_filler_repo")
+    }
+}
+
+task poetryConfig(type: Exec, dependsOn: cloneFlintFiller) {
+    workingDir "$flint_filler_dir"
+    commandLine "$python", "-m", "poetry", "config", "virtualenvs.in-project", "true"
+}
+
+task poetryInstall(type: Exec, dependsOn: poetryConfig) {
+    workingDir "$flint_filler_dir"
+    commandLine "$python", "-m", "poetry", "install"
+}
+
+task poetryExport(type: Exec, dependsOn: poetryInstall) {
+    workingDir "$flint_filler_dir"
+    commandLine "$python", "-m", "poetry", "export", "-f", "requirements.txt", "-o", "requirements.txt", "--without-hashes"
+}
+
+// sudo apt-get install libxml2-dev libxslt-dev python-dev
+// sudo apt-get build-dep python3-lxml
+task pexFlintFiller(type: Exec, dependsOn: poetryExport) {
+    workingDir "$flint_filler_dir"
+    commandLine "$python", "-m", "pex", "-v", "--requirement=requirements.txt", "--sources-directory=flintfiller/", "--output=flintfiller.pex", "--disable-cache", "-m=flintfiller"
+//    commandLine "$python", "-m", "pex", "--help"
+}

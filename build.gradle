@@ -8,12 +8,15 @@ buildscript {
     }
     dependencies {
         classpath "de.itemis.mps:mps-gradle-plugin:$mps_gradle_plugin_version"
+        classpath 'com.palominolabs.gradle.task:gradle-git-clone-task:0.0.2'
     }
 }
 
 plugins {
     id "com.github.node-gradle.node" version "2.2.3"
     id "java"
+    id "com.jetbrains.python.envs" version "0.0.30"
+    id "org.ajoberstar.grgit" version "4.0.2"
 }
 
 group 'org.discipl'
