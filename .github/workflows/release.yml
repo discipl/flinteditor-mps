@@ -2,93 +2,161 @@ name: Release
 
 on:
   push:
+    branches:
+      - filler
     # Sequence of patterns matched against refs/tags
     tags:
       - 'v*.*.*' # Matches tags like v0.4.0
 
 jobs:
-  build:
-    name: Create Release
-    runs-on: ubuntu-latest
+  build-flint-filler-linux:
+    name: Build Flint Filler Linux Artifact
+    runs-on: [ubuntu-latest]
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Fetch Tags
-        run: git fetch --prune --unshallow --tags -f
       - name: Setup Java 11
         uses: actions/setup-java@v1
         with:
           java-version: '11'
-      - name: Build Plugin
-        run: ./gradlew initProject buildFlintPlugin
+      - name: Install dependancies
+        run: sudo apt-get install libsqlite3-dev libbz2-dev liblzma-dev
+      - name: Build Flint Runner
+        run: ./gradlew :flint-filler:pyinstallerFlintFiller
         env:
           GRADLE_OPTS: -Dorg.gradle.daemon=false
-      - name: Build IDE
-        uses: GabrielBB/xvfb-action@v1.2
+      - uses: actions/upload-artifact@v2
         with:
-          run: ./gradlew buildFlintIde
+          name: flintfiller-linux
+          path: build/flint-filler/flintfiller/dist/flintfiller
+  build-flint-filler-mac:
+    name: Build Flint Filler MacOS Artifact
+    runs-on: [macos-latest]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Setup Java 11
+        uses: actions/setup-java@v1
+        with:
+          java-version: '11'
+      - name: Install Python
+        run: brew install python
+      - name: Install MySQL
+        run: brew install mysql
+      - name: Install MySQL-Connector
+        run: brew install mysql-connector-c
+      - name: Build Flint Runner
+        run: ./gradlew :flint-filler:pyinstallerFlintFiller
         env:
           GRADLE_OPTS: -Dorg.gradle.daemon=false
-      - name: Get Release Logs
-        id: get_release_logs
-        run: |
-          LOGS=$(./commitlogs.sh)
-          echo "$LOGS"
-          LOGS="${LOGS//'%'/'%25'}"
-          LOGS="${LOGS//$'\n'/'%0A'}"
-          LOGS="${LOGS//$'\r'/'%0D'}"
-          echo "$LOGS"
-          echo "::set-output name=logs::$LOGS"
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+      - name: Check
+        run: ls build/flint-filler/flintfiller/dist/
+      - uses: actions/upload-artifact@v2
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-          body: |
-            Changes in this Release
-              ${{ steps.get_release_logs.outputs.logs }}
-          draft: true
-          prerelease: true
-      - name: Upload Plugin
-        id: upload_plugin
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          name: flintfiller-macos
+          path: build/flint-filler/flintfiller/dist/flintfiller
+  build-flint-filler-windows:
+    name: Build Flint Filler Windows Artifact
+    runs-on: [windows-latest]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Setup Java 11
+        uses: actions/setup-java@v1
         with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./code/build/artifacts/FlintPluginDistribution/Flint.zip
-          asset_name: flint-plugin.zip
-          asset_content_type: application/zip
-      - name: Upload MacOS IDE
-        id: upload_macos_ide
-        uses: actions/upload-release-asset@v1
+          java-version: '11'
+      - name: Build Flint Runner
+        run: ./gradlew :flint-filler:pyinstallerFlintFiller
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GRADLE_OPTS: -Dorg.gradle.daemon=false
+      - name: Check
+        run: ls build/flint-filler/flintfiller/dist/
+      - uses: actions/upload-artifact@v2
         with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./code/build/artifacts/FlintIdeDistribution/Flint.macos.zip
-          asset_name: flint-macos-ide.zip
-          asset_content_type: application/zip
-      - name: Upload Windows IDE
-        id: upload_win_ide
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./code/build/artifacts/FlintIdeDistribution/Flint.win.zip
-          asset_name: flint-win-ide.zip
-          asset_content_type: application/zip
-      - name: Upload Linux IDE
-        id: upload_linux_ide
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./code/build/artifacts/FlintIdeDistribution/Flint.tar.gz
-          asset_name: flint-linux-ide.tar.gz
-          asset_content_type: application/gzip
+          name: flintfiller-windows
+          path: build/flint-filler/flintfiller/dist/flintfiller
+#  build:
+#    name: Create Release
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Checkout code
+#        uses: actions/checkout@v2
+#      - name: Fetch Tags
+#        run: git fetch --prune --unshallow --tags -f
+#      - name: Setup Java 11
+#        uses: actions/setup-java@v1
+#        with:
+#          java-version: '11'
+#      - name: Build Plugin
+#        run: ./gradlew initProject buildFlintPlugin
+#        env:
+#          GRADLE_OPTS: -Dorg.gradle.daemon=false
+#      - name: Build IDE
+#        uses: GabrielBB/xvfb-action@v1.2
+#        with:
+#          run: ./gradlew buildFlintIde
+#        env:
+#          GRADLE_OPTS: -Dorg.gradle.daemon=false
+#      - name: Get Release Logs
+#        id: get_release_logs
+#        run: |
+#          LOGS=$(./commitlogs.sh)
+#          echo "$LOGS"
+#          LOGS="${LOGS//'%'/'%25'}"
+#          LOGS="${LOGS//$'\n'/'%0A'}"
+#          LOGS="${LOGS//$'\r'/'%0D'}"
+#          echo "$LOGS"
+#          echo "::set-output name=logs::$LOGS"
+#      - name: Create Release
+#        id: create_release
+#        uses: actions/create-release@v1
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+#        with:
+#          tag_name: ${{ github.ref }}
+#          release_name: Release ${{ github.ref }}
+#          body: |
+#            Changes in this Release
+#              ${{ steps.get_release_logs.outputs.logs }}
+#          draft: true
+#          prerelease: true
+#      - name: Upload Plugin
+#        id: upload_plugin
+#        uses: actions/upload-release-asset@v1
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        with:
+#          upload_url: ${{ steps.create_release.outputs.upload_url }}
+#          asset_path: ./code/build/artifacts/FlintPluginDistribution/Flint.zip
+#          asset_name: flint-plugin.zip
+#          asset_content_type: application/zip
+#      - name: Upload MacOS IDE
+#        id: upload_macos_ide
+#        uses: actions/upload-release-asset@v1
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        with:
+#          upload_url: ${{ steps.create_release.outputs.upload_url }}
+#          asset_path: ./code/build/artifacts/FlintIdeDistribution/Flint.macos.zip
+#          asset_name: flint-macos-ide.zip
+#          asset_content_type: application/zip
+#      - name: Upload Windows IDE
+#        id: upload_win_ide
+#        uses: actions/upload-release-asset@v1
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        with:
+#          upload_url: ${{ steps.create_release.outputs.upload_url }}
+#          asset_path: ./code/build/artifacts/FlintIdeDistribution/Flint.win.zip
+#          asset_name: flint-win-ide.zip
+#          asset_content_type: application/zip
+#      - name: Upload Linux IDE
+#        id: upload_linux_ide
+#        uses: actions/upload-release-asset@v1
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        with:
+#          upload_url: ${{ steps.create_release.outputs.upload_url }}
+#          asset_path: ./code/build/artifacts/FlintIdeDistribution/Flint.tar.gz
+#          asset_name: flint-linux-ide.tar.gz
+#          asset_content_type: application/gzip

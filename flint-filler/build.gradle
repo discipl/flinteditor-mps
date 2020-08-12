@@ -18,7 +18,20 @@ ext {
     python = new File(python_bin, "python")
     flint_filler_dir = new File(parent.buildDir, "flint-filler")
     flint_filler_repo = "https://gitlab.com/calculemus-flint/flintfiller.git"
-    python_v_env = new File(flint_filler_dir, ".venv/bin/python")
+    build_env_name = "build_env"
+    conda_env_name = "conda_env"
+    python_v_dir = new File(parent.buildDir, "envs/$build_env_name")
+    python_v = new File(python_v_dir, "bin/python")
+}
+
+def isWindows = Os.isFamily(Os.FAMILY_WINDOWS)
+
+if (isWindows) {
+    ext.pyenv = new File(projectDir, "pyenv.bat")
+    ext.python_v = new File(python_v_dir, "Scripts/python.exe")
+} else {
+    ext.python_v = new File(python_v_dir, "bin/python")
+    ext.pyenv = new File(projectDir, "pyenv.sh")
 }
 
 envs {
@@ -28,14 +41,20 @@ envs {
     // Download python zips when Windows is used from https://repository.net/%archieveName%,
     // where {archieveName} is python-{version}-{architecture}.zip.
     // For example, for the 64 bit version of Python 3.7.2 the archive name will be python-3.7.2-64.zip
-    zipRepository = new URL("https://repository.net/")
-    shouldUseZipsFromRepository = Os.isFamily(Os.FAMILY_WINDOWS)
+    zipRepository = new URL("https://github.com/Quintor/flinteditor-mps/raw/filler/flint-filler/")
+    shouldUseZipsFromRepository = isWindows
 
     // by default pipInstallOptions equals to "--trusted-host pypi.python.org"
     // to fix CERTIFICATE_VERIFY_FAILED ssl error
     // pipInstallOptions = "--trusted-host pypi.python.org"
 
-    python "${python_version}", "3.6.2", ["poetry", "pex==2.1.6"]
+    if (isWindows) {
+        conda "${conda_env_name}", "Miniconda3-latest", "64"
+        condaenv "${build_env_name}", "3.6.2", "${conda_env_name}", ["poetry"]
+    } else {
+        python "${python_version}", "3.6.2", []
+        virtualenv "${build_env_name}", "$python_version", ["poetry"]
+    }
 }
 
 task cleanFlintFiller(type: Delete) {
@@ -48,25 +67,27 @@ task cloneFlintFiller(dependsOn: cleanFlintFiller) {
     }
 }
 
-task poetryConfig(type: Exec, dependsOn: cloneFlintFiller) {
+task poetryConfig(type: Exec, dependsOn: [cloneFlintFiller, ":build_envs"]) {
     workingDir "$flint_filler_dir"
-    commandLine "$python", "-m", "poetry", "config", "virtualenvs.in-project", "true"
+    commandLine "$python_v", "-m", "poetry", "config", "virtualenvs.in-project", "true"
 }
 
 task poetryInstall(type: Exec, dependsOn: poetryConfig) {
     workingDir "$flint_filler_dir"
-    commandLine "$python", "-m", "poetry", "install"
+    commandLine "$python_v", "-m", "poetry", "install"
 }
 
-task poetryExport(type: Exec, dependsOn: poetryInstall) {
+task updateSetup(type: Exec, dependsOn: poetryInstall) {
     workingDir "$flint_filler_dir"
-    commandLine "$python", "-m", "poetry", "export", "-f", "requirements.txt", "-o", "requirements.txt", "--without-hashes"
+    commandLine "$pyenv", "${flint_filler_dir}/.venv", "pip3", "install", "setuptools", "--upgrade"
 }
 
-// sudo apt-get install libxml2-dev libxslt-dev python-dev
-// sudo apt-get build-dep python3-lxml
-task pexFlintFiller(type: Exec, dependsOn: poetryExport) {
+task installPyInstaller(type: Exec, dependsOn: updateSetup) {
     workingDir "$flint_filler_dir"
-    commandLine "$python", "-m", "pex", "-v", "--requirement=requirements.txt", "--sources-directory=flintfiller/", "--output=flintfiller.pex", "--disable-cache", "-m=flintfiller"
-//    commandLine "$python", "-m", "pex", "--help"
+    commandLine "$pyenv", "${flint_filler_dir}/.venv", "pip3", "install", "pyinstaller"
+}
+
+task pyinstallerFlintFiller(type: Exec, dependsOn: installPyInstaller) {
+    workingDir "$flint_filler_dir/flintfiller"
+    commandLine "$pyenv", "${flint_filler_dir}/.venv", "pyinstaller", "flintfiller.py", "--add-data", "../.venv/lib/python3.6/site-packages/pattern/text/nl/*.txt:pattern/text/nl", "--onefile"
 }
