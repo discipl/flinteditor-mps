@@ -8,7 +8,6 @@ buildscript {
     }
     dependencies {
         classpath "de.itemis.mps:mps-gradle-plugin:$mps_gradle_plugin_version"
-        classpath 'com.palominolabs.gradle.task:gradle-git-clone-task:0.0.2'
     }
 }
 

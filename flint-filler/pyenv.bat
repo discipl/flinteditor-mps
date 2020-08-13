@@ -10,5 +10,5 @@ shift
 goto loop1
 
 :after_loop
-%RESTVAR
+%RESTVAR%
 deactivate

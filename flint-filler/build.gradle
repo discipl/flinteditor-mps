@@ -21,7 +21,6 @@ ext {
     build_env_name = "build_env"
     conda_env_name = "conda_env"
     python_v_dir = new File(parent.buildDir, "envs/$build_env_name")
-    python_v = new File(python_v_dir, "bin/python")
 }
 
 def isWindows = Os.isFamily(Os.FAMILY_WINDOWS)
@@ -41,20 +40,15 @@ envs {
     // Download python zips when Windows is used from https://repository.net/%archieveName%,
     // where {archieveName} is python-{version}-{architecture}.zip.
     // For example, for the 64 bit version of Python 3.7.2 the archive name will be python-3.7.2-64.zip
-    zipRepository = new URL("https://github.com/Quintor/flinteditor-mps/raw/filler/flint-filler/")
-    shouldUseZipsFromRepository = isWindows
+    //    zipRepository = new URL("https://github.com/Quintor/flinteditor-mps/raw/filler/flint-filler/")
+    //    shouldUseZipsFromRepository = isWindows
 
     // by default pipInstallOptions equals to "--trusted-host pypi.python.org"
     // to fix CERTIFICATE_VERIFY_FAILED ssl error
     // pipInstallOptions = "--trusted-host pypi.python.org"
 
-    if (isWindows) {
-        conda "${conda_env_name}", "Miniconda3-latest", "64"
-        condaenv "${build_env_name}", "3.6.2", "${conda_env_name}", ["poetry"]
-    } else {
-        python "${python_version}", "3.6.2", []
-        virtualenv "${build_env_name}", "$python_version", ["poetry"]
-    }
+    python "${python_version}", "3.6.2", []
+    virtualenv "${build_env_name}", "$python_version", ["poetry"]
 }
 
 task cleanFlintFiller(type: Delete) {
@@ -65,6 +59,23 @@ task cloneFlintFiller(dependsOn: cleanFlintFiller) {
     doLast {
         org.ajoberstar.grgit.Grgit.clone(dir: "$flint_filler_dir", uri: "$flint_filler_repo")
     }
+}
+
+rootProject.afterEvaluate {
+    parent.tasks.findAll {
+        if (it.name == "Create_conda_env_'build_env'") {
+            println "$it depends on copy Libs"
+            it.dependsOn(copyLibs)
+        }
+    }
+}
+
+task copyLibs(type: Copy) {
+    from("$bootstap_dir/$conda_env_name/Library/Bin") {
+        include 'libcrypto-1_1-x64.*'
+        include 'libssl-1_1-x64.*'
+    }
+    into("$bootstap_dir/$conda_env_name/DLLs")
 }
 
 task poetryConfig(type: Exec, dependsOn: [cloneFlintFiller, ":build_envs"]) {
