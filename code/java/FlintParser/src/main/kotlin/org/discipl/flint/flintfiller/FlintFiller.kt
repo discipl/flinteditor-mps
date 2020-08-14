@@ -22,12 +22,10 @@ class FlintFiller(private val pathToFillerDir: String, private val outputDir: St
         try {
             val exitCode = executor.execute(cmdLine)
             if (exitCode != 0) throw Exception("Bad exit code")
-            println(outputStream.value())
-            val resolve = Path.of(outputDir).resolve("flintFrame.json")
-            println(resolve)
-            return Files.readString(resolve)
+            println("command output:\\n${outputStream.value()}\"")
+            return Files.readString(Path.of(outputDir).resolve("flintFrame.json"))
         } catch (e: Exception) {
-            throw Exception("Something went wrong while running flint filler ${outputStream.value()}", e)
+            throw Exception("Something went wrong while running flint filler\ncommand output:\n${outputStream.value()}", e)
         }
     }
 

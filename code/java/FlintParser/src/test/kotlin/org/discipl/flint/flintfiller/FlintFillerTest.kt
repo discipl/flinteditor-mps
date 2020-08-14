@@ -6,6 +6,7 @@ import org.hamcrest.Matchers.notNullValue
 import org.junit.jupiter.api.Test
 import java.nio.file.Path
 
+// TODO fix this
 internal class FlintFillerTest {
     private val projectPath = Path.of("../../..").toRealPath()
     private val filler: FlintFiller = FlintFiller(
@@ -16,12 +17,10 @@ internal class FlintFillerTest {
     @Test
     fun run() {
         val flintModel = filler.run(
-            projectPath.resolve("build/flint-filler/data/xml_files/BWBR0011823_2019-02-27_Vreemdelingenwet.xml")
+            projectPath.resolve("flint-filler/subsidieregeling.xml")
                 .toString()
         )
-//        flintModel.split("\n").forEach {
-//            println(it)
-//        }
+        println(flintModel.substring(0..400))
         assertThat(flintModel, `is`(notNullValue()))
     }
 }

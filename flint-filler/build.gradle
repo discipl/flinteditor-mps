@@ -88,6 +88,10 @@ task buildMacEnv() {
     onlyIf { isMacOs }
     doLast {
         exec {
+            environment("PYTHON_CONFIGURE_OPTS", "--enable-framework")
+            commandLine "$buildDir/bin/python-build", "$python_version", "$bootstap_dir/$python_version"
+        }
+        exec {
             commandLine "$python", "-m", "venv", "$python_v_dir"
         }
         exec {
