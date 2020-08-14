@@ -13,6 +13,7 @@ import org.apache.tools.ant.taskdefs.condition.Os
 
 ext {
     python_version = "python36_64"
+    python_version_long = "3.6.2"
     bootstap_dir = new File(parent.buildDir, 'bootstrap')
     python_bin = new File(bootstap_dir, python_version + '/bin')
     python = new File(python_bin, "python")
@@ -50,7 +51,7 @@ envs {
     // to fix CERTIFICATE_VERIFY_FAILED ssl error
     // pipInstallOptions = "--trusted-host pypi.python.org"
 
-    python "${python_version}", "3.6.2", []
+    python "${python_version}", "${python_version_long}", []
     if (!isMacOs) {
         virtualenv "${build_env_name}", "$python_version", ["poetry"]
     }
@@ -84,12 +85,15 @@ task copyLibs(type: Copy) {
 }
 
 task buildMacEnv() {
-    mustRunAfter ":build_envs"
+    dependsOn ":install_python_build"
     onlyIf { isMacOs }
     doLast {
         exec {
             environment("PYTHON_CONFIGURE_OPTS", "--enable-framework")
-            commandLine "$buildDir/bin/python-build", "$python_version", "$bootstap_dir/$python_version"
+            commandLine "${rootProject.buildDir}/python-build/bin/python-build", "${python_version_long}", "$bootstap_dir/$python_version"
+        }
+        exec {
+            commandLine "ls", "$bootstap_dir/$python_version"
         }
         exec {
             commandLine "$python", "-m", "venv", "$python_v_dir"
@@ -103,7 +107,12 @@ task buildMacEnv() {
     }
 }
 
-task poetryConfig(type: Exec, dependsOn: [cloneFlintFiller, ":build_envs", buildMacEnv]) {
+task poetryConfig(type: Exec, dependsOn: [cloneFlintFiller]) {
+    if (isMacOs) {
+        dependsOn(buildMacEnv)
+    } else {
+        dependsOn(":build_envs")
+    }
     workingDir "$flint_filler_dir"
     commandLine "$python_v", "-m", "poetry", "config", "virtualenvs.in-project", "true"
 }
