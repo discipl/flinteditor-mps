@@ -11,7 +11,6 @@ on:
 jobs:
   build-flint-filler-linux:
     name: Build Flint Filler Linux Artifact
-    needs: [build-flint-filler-mac]
     runs-on: [ubuntu-latest]
     steps:
       - name: Checkout code
@@ -26,6 +25,9 @@ jobs:
         run: ./gradlew :flint-filler:pyinstallerFlintFiller
         env:
           GRADLE_OPTS: -Dorg.gradle.daemon=false
+      - name: Test
+        working-directory: build/flint-filler
+        run: ./flintfiller/dist/flintfiller -x data/xml_files/BWBR0011823_2019-02-27_Vreemdelingenwet.xml -d data/json_files/BWBR0011823_2019-02-27_Vreemdelingenwet.json -df data/csv_files/BWBR0011823_2019-02-27_Vreemdelingenwet.csv -pt data/csv_files/BWBR0011823_2019-02-27_Vreemdelingenwet_postagged.csv -fo data/flint_frames_BWBR0011823_2019-02-27_Vreemdelingenwet.json
       - uses: actions/upload-artifact@v2
         with:
           name: flintfiller-linux
@@ -50,8 +52,9 @@ jobs:
         run: ./gradlew :flint-filler:pyinstallerFlintFiller
         env:
           GRADLE_OPTS: -Dorg.gradle.daemon=false
-      - name: Check
-        run: ls build/flint-filler/flintfiller/dist/
+      - name: Test
+        working-directory: build/flint-filler
+        run: ./flintfiller/dist/flintfiller -x data/xml_files/BWBR0011823_2019-02-27_Vreemdelingenwet.xml -d data/json_files/BWBR0011823_2019-02-27_Vreemdelingenwet.json -df data/csv_files/BWBR0011823_2019-02-27_Vreemdelingenwet.csv -pt data/csv_files/BWBR0011823_2019-02-27_Vreemdelingenwet_postagged.csv -fo data/flint_frames_BWBR0011823_2019-02-27_Vreemdelingenwet.json
       - uses: actions/upload-artifact@v2
         with:
           name: flintfiller-macos
@@ -59,7 +62,6 @@ jobs:
   build-flint-filler-windows:
     name: Build Flint Filler Windows Artifact
     runs-on: [windows-latest]
-    needs: [build-flint-filler-mac]
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -71,6 +73,9 @@ jobs:
         run: ./gradlew :flint-filler:pyinstallerFlintFiller
         env:
           GRADLE_OPTS: -Dorg.gradle.daemon=false
+      - name: Test
+        working-directory: build/flint-filler
+        run: flintfiller/dist/flintfiller.exe -x data/xml_files/BWBR0011823_2019-02-27_Vreemdelingenwet.xml -d data/json_files/BWBR0011823_2019-02-27_Vreemdelingenwet.json -df data/csv_files/BWBR0011823_2019-02-27_Vreemdelingenwet.csv -pt data/csv_files/BWBR0011823_2019-02-27_Vreemdelingenwet_postagged.csv -fo data/flint_frames_BWBR0011823_2019-02-27_Vreemdelingenwet.json
       - uses: actions/upload-artifact@v2
         with:
           name: flintfiller-windows.exe

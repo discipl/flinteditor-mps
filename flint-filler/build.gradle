@@ -93,13 +93,10 @@ task buildMacEnv() {
             commandLine "${rootProject.buildDir}/python-build/bin/python-build", "${python_version_long}", "$bootstap_dir/$python_version"
         }
         exec {
-            commandLine "ls", "$bootstap_dir/$python_version"
+            commandLine "$python", "-m", "pip", "install", "--upgrade", "pip"
         }
         exec {
             commandLine "$python", "-m", "venv", "$python_v_dir"
-        }
-        exec {
-            commandLine "ls", "$python_v_dir"
         }
         exec {
             commandLine "$python_v", "-m", "pip", "install", "poetry"
