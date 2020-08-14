@@ -69,12 +69,10 @@ jobs:
         run: ./gradlew :flint-filler:pyinstallerFlintFiller
         env:
           GRADLE_OPTS: -Dorg.gradle.daemon=false
-      - name: Check
-        run: ls build/flint-filler/flintfiller/dist/
       - uses: actions/upload-artifact@v2
         with:
-          name: flintfiller-windows
-          path: build/flint-filler/flintfiller/dist/flintfiller
+          name: flintfiller-windows.exe
+          path: build/flint-filler/flintfiller/dist/flintfiller.exe
 #  build:
 #    name: Create Release
 #    runs-on: ubuntu-latest

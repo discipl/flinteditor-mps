@@ -1,5 +1,5 @@
 @echo off
-%1\Scripts\activate
+CALL %1\Scripts\activate.bat
 
 set RESTVAR=
 shift
@@ -10,5 +10,17 @@ shift
 goto loop1
 
 :after_loop
+
+:deaster
+FOR /f "tokens=1* delims=^" %%i IN ("%RESTVAR%") DO (
+   SET RESTVAR=%%j
+   IF DEFINED RESTVAR (
+      SET RESTVAR=%%i%%j
+      GOTO deaster
+   ) ELSE (
+      SET RESTVAR=%%i
+   )
+)
+
 %RESTVAR%
 deactivate
