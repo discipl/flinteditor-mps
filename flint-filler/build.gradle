@@ -24,6 +24,7 @@ ext {
 }
 
 def isWindows = Os.isFamily(Os.FAMILY_WINDOWS)
+def isMacOs = Os.isFamily(Os.FAMILY_MAC)
 
 if (isWindows) {
     ext.pyenv = new File(projectDir, "pyenv.bat")
@@ -50,7 +51,9 @@ envs {
     // pipInstallOptions = "--trusted-host pypi.python.org"
 
     python "${python_version}", "3.6.2", []
-    virtualenv "${build_env_name}", "$python_version", ["poetry"]
+    if (!isMacOs) {
+        virtualenv "${build_env_name}", "$python_version", ["poetry"]
+    }
 }
 
 task cleanFlintFiller(type: Delete) {
@@ -80,7 +83,23 @@ task copyLibs(type: Copy) {
     into("$bootstap_dir/$conda_env_name/DLLs")
 }
 
-task poetryConfig(type: Exec, dependsOn: [cloneFlintFiller, ":build_envs"]) {
+task buildMacEnv() {
+    mustRunAfter ":build_envs"
+    onlyIf { isMacOs }
+    doLast {
+        exec {
+            commandLine "$python", "-m", "venv", "$python_v_dir"
+        }
+        exec {
+            commandLine "ls", "$python_v_dir"
+        }
+        exec {
+            commandLine "$python_v", "-m", "pip", "install", "poetry"
+        }
+    }
+}
+
+task poetryConfig(type: Exec, dependsOn: [cloneFlintFiller, ":build_envs", buildMacEnv]) {
     workingDir "$flint_filler_dir"
     commandLine "$python_v", "-m", "poetry", "config", "virtualenvs.in-project", "true"
 }
