@@ -264,6 +264,7 @@ task initProject() {
     dependsOn(resolveArtifacts)
     dependsOn(resolvePlatformLibs)
     dependsOn(fetchResources)
+    dependsOn(":flint-filler:addToStaticResources")
 }
 
 // Build Scripts

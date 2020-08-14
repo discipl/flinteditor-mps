@@ -6,18 +6,17 @@ import org.hamcrest.Matchers.notNullValue
 import org.junit.jupiter.api.Test
 import java.nio.file.Path
 
-// TODO fix this
 internal class FlintFillerTest {
     private val projectPath = Path.of("../../..").toRealPath()
     private val filler: FlintFiller = FlintFiller(
-        projectPath.resolve("build/flint-filler/flintfiller/dist").toString(),
+        projectPath.resolve("static-resources/generated/flintfiller").toString(),
         projectPath.resolve("build/temp").toString()
     )
 
     @Test
     fun run() {
         val flintModel = filler.run(
-            projectPath.resolve("flint-filler/subsidieregeling.xml")
+            projectPath.resolve("flint-filler/flint-filler-test-file.xml")
                 .toString()
         )
         println(flintModel.substring(0..400))

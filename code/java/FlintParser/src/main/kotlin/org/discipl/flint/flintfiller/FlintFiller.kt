@@ -10,6 +10,7 @@ import java.nio.file.Path
 
 class FlintFiller(private val pathToFillerDir: String, private val outputDir: String) {
     fun run(file: String): String {
+        Files.createDirectories(Path.of(outputDir))
         val command = "${pathToFillerDir}/${osSpecificFlintFiller()} ${fillerArgs(file, outputDir)}"
         val cmdLine: CommandLine = CommandLine.parse(command)
 
@@ -22,10 +23,13 @@ class FlintFiller(private val pathToFillerDir: String, private val outputDir: St
         try {
             val exitCode = executor.execute(cmdLine)
             if (exitCode != 0) throw Exception("Bad exit code")
-            println("command output:\\n${outputStream.value()}\"")
+            println("command output:\n${outputStream.value()}\"")
             return Files.readString(Path.of(outputDir).resolve("flintFrame.json"))
         } catch (e: Exception) {
-            throw Exception("Something went wrong while running flint filler\ncommand output:\n${outputStream.value()}", e)
+            throw Exception(
+                "Something went wrong while running flint filler\ncommand output:\n${outputStream.value()}",
+                e
+            )
         }
     }
 

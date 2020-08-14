@@ -133,3 +133,25 @@ task pyinstallerFlintFiller(type: Exec, dependsOn: installPyInstaller) {
     workingDir "$flint_filler_dir/flintfiller"
     commandLine "$pyenv", "${flint_filler_dir}/.venv", "pyinstaller", "--add-data", "$datas", "--onefile", "flintfiller.py"
 }
+
+task addToStaticResources(type: Copy) {
+    def outname = "flintfiller"
+    if (isWindows) {
+        outname = outname + "-windows.exe"
+    } else if (isMacOs) {
+        outname = outname + "-macos"
+    } else {
+        outname = outname + "-linux"
+    }
+
+    def shouldRun = !file("${generatedResourcesDir}/flintfiller/$outname").exists()
+    if (shouldRun) {
+        dependsOn pyinstallerFlintFiller
+    }
+
+    onlyIf { shouldRun }
+    from "$flint_filler_dir/flintfiller/dist/"
+    into "${generatedResourcesDir}/flintfiller"
+    include "*"
+    rename { String filename -> outname }
+}
