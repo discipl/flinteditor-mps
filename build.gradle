@@ -133,7 +133,7 @@ task resolveLibs(type: Copy) {
 }
 
 task cleanResources(type: Delete) {
-    delete(generatedResourcesDir)
+    delete fileTree(dir: "$generatedResourcesDir", exclude: "**/flintfiller/*")
 }
 
 task fetchComplianceByDesign(type: Copy) {

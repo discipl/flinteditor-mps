@@ -27,11 +27,11 @@ jobs:
           GRADLE_OPTS: -Dorg.gradle.daemon=false
       - name: Test
         working-directory: build/flint-filler
-        run: ./flintfiller/dist/flintfiller -x data/xml_files/BWBR0011823_2019-02-27_Vreemdelingenwet.xml -d data/json_files/BWBR0011823_2019-02-27_Vreemdelingenwet.json -df data/csv_files/BWBR0011823_2019-02-27_Vreemdelingenwet.csv -pt data/csv_files/BWBR0011823_2019-02-27_Vreemdelingenwet_postagged.csv -fo data/flint_frames_BWBR0011823_2019-02-27_Vreemdelingenwet.json
+        run: ./flintfiller/dist/flintfiller-linux -x data/xml_files/BWBR0011823_2019-02-27_Vreemdelingenwet.xml -d data/json_files/BWBR0011823_2019-02-27_Vreemdelingenwet.json -df data/csv_files/BWBR0011823_2019-02-27_Vreemdelingenwet.csv -pt data/csv_files/BWBR0011823_2019-02-27_Vreemdelingenwet_postagged.csv -fo data/flint_frames_BWBR0011823_2019-02-27_Vreemdelingenwet.json
       - uses: actions/upload-artifact@v2
         with:
           name: flintfiller-linux
-          path: build/flint-filler/flintfiller/dist/flintfiller
+          path: build/flint-filler/flintfiller/dist/flintfiller-linux
   build-flint-filler-mac:
     name: Build Flint Filler MacOS Artifact
     runs-on: [macos-latest]
@@ -54,11 +54,11 @@ jobs:
           GRADLE_OPTS: -Dorg.gradle.daemon=false
       - name: Test
         working-directory: build/flint-filler
-        run: ./flintfiller/dist/flintfiller -x data/xml_files/BWBR0011823_2019-02-27_Vreemdelingenwet.xml -d data/json_files/BWBR0011823_2019-02-27_Vreemdelingenwet.json -df data/csv_files/BWBR0011823_2019-02-27_Vreemdelingenwet.csv -pt data/csv_files/BWBR0011823_2019-02-27_Vreemdelingenwet_postagged.csv -fo data/flint_frames_BWBR0011823_2019-02-27_Vreemdelingenwet.json
+        run: ./flintfiller/dist/flintfiller-macos -x data/xml_files/BWBR0011823_2019-02-27_Vreemdelingenwet.xml -d data/json_files/BWBR0011823_2019-02-27_Vreemdelingenwet.json -df data/csv_files/BWBR0011823_2019-02-27_Vreemdelingenwet.csv -pt data/csv_files/BWBR0011823_2019-02-27_Vreemdelingenwet_postagged.csv -fo data/flint_frames_BWBR0011823_2019-02-27_Vreemdelingenwet.json
       - uses: actions/upload-artifact@v2
         with:
           name: flintfiller-macos
-          path: build/flint-filler/flintfiller/dist/flintfiller
+          path: build/flint-filler/flintfiller/dist/flintfiller-macos
   build-flint-filler-windows:
     name: Build Flint Filler Windows Artifact
     runs-on: [windows-latest]
@@ -75,11 +75,11 @@ jobs:
           GRADLE_OPTS: -Dorg.gradle.daemon=false
       - name: Test
         working-directory: build/flint-filler
-        run: flintfiller/dist/flintfiller.exe -x data/xml_files/BWBR0011823_2019-02-27_Vreemdelingenwet.xml -d data/json_files/BWBR0011823_2019-02-27_Vreemdelingenwet.json -df data/csv_files/BWBR0011823_2019-02-27_Vreemdelingenwet.csv -pt data/csv_files/BWBR0011823_2019-02-27_Vreemdelingenwet_postagged.csv -fo data/flint_frames_BWBR0011823_2019-02-27_Vreemdelingenwet.json
+        run: flintfiller/dist/flintfiller-windows.exe -x data/xml_files/BWBR0011823_2019-02-27_Vreemdelingenwet.xml -d data/json_files/BWBR0011823_2019-02-27_Vreemdelingenwet.json -df data/csv_files/BWBR0011823_2019-02-27_Vreemdelingenwet.csv -pt data/csv_files/BWBR0011823_2019-02-27_Vreemdelingenwet_postagged.csv -fo data/flint_frames_BWBR0011823_2019-02-27_Vreemdelingenwet.json
       - uses: actions/upload-artifact@v2
         with:
           name: flintfiller-windows.exe
-          path: build/flint-filler/flintfiller/dist/flintfiller.exe
+          path: build/flint-filler/flintfiller/dist/flintfiller-windows.exe
   build:
     name: Create Release
     runs-on: ubuntu-latest
@@ -105,7 +105,7 @@ jobs:
           name: flintfiller-windows.exe
           path: static-resources/generated/flintfiller
       - name: Check
-        run: ls static-resources/generated/flintfiller
+        run: ls -d $PWD/static-resources/generated/flintfiller/*
       - name: Make FlintRunner executable
         run: chmod +x static-resources/generated/flintfiller/flintfiller-linux
       - name: Setup Java 11
@@ -122,6 +122,12 @@ jobs:
           run: ./gradlew buildFlintIde
         env:
           GRADLE_OPTS: -Dorg.gradle.daemon=false
+      - name: Upload Test Results
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v2
+        with:
+          name: test-results
+          path: code/java/FlintParser/build/reports/tests/test
       - name: Get Release Logs
         id: get_release_logs
         run: |

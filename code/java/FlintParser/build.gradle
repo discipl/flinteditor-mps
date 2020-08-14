@@ -40,3 +40,5 @@ compileTestKotlin {
 test {
     useJUnitPlatform()
 }
+
+tasks.getByName("test").dependsOn  ":flint-filler:addToStaticResources"
