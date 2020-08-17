@@ -2,6 +2,7 @@ name: Release
 
 on:
   push:
+    # TODO remove this before merge to master
     branches:
       - filler
     # Sequence of patterns matched against refs/tags

@@ -6,6 +6,7 @@
     </modelRoot>
     <modelRoot contentPath="${module}/libs" type="java_classes">
       <sourceRoot location="FlintParser.jar" />
+      <sourceRoot location="commons-io.jar" />
     </modelRoot>
   </models>
   <facets>

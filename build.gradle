@@ -71,6 +71,9 @@ dependencies {
     mpslib(project("code:java:FlintParser")) {
         exclude group: 'org.openjfx'
     }
+
+    mpslib 'commons-io:commons-io:2.7'
+
     artifact "com.mbeddr:platform:$mbeddr_version"
     mps("com.jetbrains:mps:$mps_version")
     antLib("org.apache.ant:ant-junit:1.10.1")
@@ -114,7 +117,7 @@ task copyProjectLibs(type: Copy) {
 }
 
 subprojects.forEach {
-    copyProjectLibs.dependsOn it.getTasksByName("build", false)
+    copyProjectLibs.dependsOn it.getTasksByName("shadowJar", false)
 }
 
 task cleanLibs(type: Delete) {

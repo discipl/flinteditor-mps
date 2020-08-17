@@ -12,7 +12,7 @@ import org.discipl.flint.StringLiteralExpression
 class LiteralExpressionTypeSelector : TypeSelector<LiteralExpression<*>> {
     override fun getClassForElement(readElement: JsonElement): Class<out LiteralExpression<*>> {
         val operand: JsonPrimitive = (readElement as? JsonObject)?.get("operand") as? JsonPrimitive
-            ?: throw IllegalArgumentException("Not an literal expression")
+            ?: throw IllegalArgumentException("Not an literal expression: $readElement")
         return when {
             operand.isBoolean -> BooleanLiteralExpression::class.java
             operand.isNumber -> NumberLiteralExpression::class.java

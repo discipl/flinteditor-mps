@@ -9,7 +9,7 @@ import java.nio.file.Path
 
 
 class FlintFiller(private val pathToFillerDir: String, private val outputDir: String) {
-    fun run(file: String): String {
+    fun run(file: String, onCommandOutput: (String) -> Unit = {}): String {
         Files.createDirectories(Path.of(outputDir))
         val command = "${pathToFillerDir}/${osSpecificFlintFiller()} ${fillerArgs(file, outputDir)}"
         val cmdLine: CommandLine = CommandLine.parse(command)
@@ -23,7 +23,7 @@ class FlintFiller(private val pathToFillerDir: String, private val outputDir: St
         try {
             val exitCode = executor.execute(cmdLine)
             if (exitCode != 0) throw Exception("Bad exit code")
-            println("command output:\n${outputStream.value()}\"")
+            onCommandOutput("command output:\n${outputStream.value()}")
             return Files.readString(Path.of(outputDir).resolve("flintFrame.json"))
         } catch (e: Exception) {
             throw Exception(
@@ -33,7 +33,7 @@ class FlintFiller(private val pathToFillerDir: String, private val outputDir: St
         }
     }
 
-    fun osSpecificFlintFiller(): String {
+    private fun osSpecificFlintFiller(): String {
         return when {
             SystemUtils.IS_OS_WINDOWS -> "flintfiller-windows.exe"
             SystemUtils.IS_OS_LINUX -> "flintfiller-linux"
@@ -42,12 +42,12 @@ class FlintFiller(private val pathToFillerDir: String, private val outputDir: St
         }
     }
 
-    fun fillerArgs(inputFile: String, outputDir: String): String {
+    private fun fillerArgs(inputFile: String, outputDir: String): String {
         val inputFileLine = "-x ${inputFile}"
         val dictFile = "-d ${outputDir}/dict.json"
         val dataFrameFile = "-df ${outputDir}/dataFrame.csv"
-        val postTaggedDataFrameFile = "-pt ${outputDir}/postTaggedDataFrame.csv"
-        val flintFrame = "-fo  ${outputDir}/flintFrame.json"
+        val postTaggedDataFrameFile = "-pt ${outputDir}/postTaggedDataFrame_.csv"
+        val flintFrame = "-fo ${outputDir}/flintFrame.json"
         return "$inputFileLine $dictFile $dataFrameFile $postTaggedDataFrameFile $flintFrame"
     }
 }
