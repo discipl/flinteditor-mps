@@ -18,7 +18,8 @@ ext {
     python_bin = new File(bootstap_dir, python_version + '/bin')
     python = new File(python_bin, "python")
     flint_filler_dir = new File(parent.buildDir, "flint-filler")
-    flint_filler_repo = "https://gitlab.com/calculemus-flint/flintfiller.git"
+    flint_filler_repo = "https://gitlab.com/blackstardlb/flintfiller.git"
+    flint_filler_branch = "origin/act-frame-fix"
     build_env_name = "build_env"
     conda_env_name = "conda_env"
     python_v_dir = new File(parent.buildDir, "envs/$build_env_name")
@@ -63,7 +64,11 @@ task cleanFlintFiller(type: Delete) {
 
 task cloneFlintFiller(dependsOn: cleanFlintFiller) {
     doLast {
-        org.ajoberstar.grgit.Grgit.clone(dir: "$flint_filler_dir", uri: "$flint_filler_repo")
+        def gr = org.ajoberstar.grgit.Grgit.clone(dir: "$flint_filler_dir", uri: "$flint_filler_repo")
+        gr.branch.list().findAll {
+            println "$it"
+        }
+        gr.checkout(branch: "$flint_filler_branch")
     }
 }
 
