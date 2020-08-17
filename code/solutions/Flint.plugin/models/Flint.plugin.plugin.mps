@@ -323,6 +323,7 @@
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="1171903607971" name="jetbrains.mps.baseLanguage.structure.WildCardType" flags="in" index="3qTvmN" />
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
@@ -7375,6 +7376,66 @@
           </node>
         </node>
         <node concept="3clFbH" id="6e6T56sAfqe" role="3cqZAp" />
+        <node concept="3cpWs8" id="6e6T56sFFbC" role="3cqZAp">
+          <node concept="3cpWsn" id="6e6T56sFFbD" role="3cpWs9">
+            <property role="TrG5h" value="function" />
+            <node concept="1bVj0M" id="6e6T56sFFbE" role="33vP2m">
+              <node concept="3clFbS" id="6e6T56sFFbF" role="1bW5cS">
+                <node concept="3clFbF" id="6e6T56sFFbG" role="3cqZAp">
+                  <node concept="2ShNRf" id="6e6T56sFFbH" role="3clFbG">
+                    <node concept="1pGfFk" id="6e6T56sFFbI" role="2ShVmc">
+                      <ref role="37wK5l" to="33ny:~HashMap.&lt;init&gt;()" resolve="HashMap" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3uibUv" id="6e6T56sFHQO" role="1tU5fm">
+              <ref role="3uigEE" to="82uw:~Supplier" resolve="Supplier" />
+              <node concept="3uibUv" id="6e6T56sFKFN" role="11_B2D">
+                <ref role="3uigEE" to="33ny:~HashMap" resolve="HashMap" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6e6T56sFLDq" role="3cqZAp" />
+        <node concept="3cpWs8" id="6e6T56sGF7V" role="3cqZAp">
+          <node concept="3cpWsn" id="6e6T56sGF7W" role="3cpWs9">
+            <property role="TrG5h" value="groupingBy" />
+            <node concept="3uibUv" id="6e6T56sGEvJ" role="1tU5fm">
+              <ref role="3uigEE" to="1ctc:~Collector" resolve="Collector" />
+              <node concept="3uibUv" id="6e6T56sGEvR" role="11_B2D">
+                <ref role="3uigEE" to="33ny:~AbstractMap$SimpleImmutableEntry" resolve="AbstractMap.SimpleImmutableEntry" />
+              </node>
+              <node concept="3qTvmN" id="6e6T56sGEvQ" role="11_B2D" />
+              <node concept="3uibUv" id="6e6T56sGEvS" role="11_B2D">
+                <ref role="3uigEE" to="33ny:~HashMap" resolve="HashMap" />
+              </node>
+            </node>
+            <node concept="2YIFZM" id="6e6T56sGF7X" role="33vP2m">
+              <ref role="1Pybhc" to="1ctc:~Collectors" resolve="Collectors" />
+              <ref role="37wK5l" to="1ctc:~Collectors.groupingBy(java.util.function.Function,java.util.function.Supplier,java.util.stream.Collector)" resolve="groupingBy" />
+              <node concept="37vLTw" id="6e6T56sGF7Y" role="37wK5m">
+                <ref role="3cqZAo" node="6e6T56s_RN4" resolve="keyFunction" />
+              </node>
+              <node concept="37vLTw" id="6e6T56sGF7Z" role="37wK5m">
+                <ref role="3cqZAo" node="6e6T56sFFbD" resolve="function" />
+              </node>
+              <node concept="2YIFZM" id="6e6T56sGF80" role="37wK5m">
+                <ref role="1Pybhc" to="1ctc:~Collectors" resolve="Collectors" />
+                <ref role="37wK5l" to="1ctc:~Collectors.mapping(java.util.function.Function,java.util.stream.Collector)" resolve="mapping" />
+                <node concept="37vLTw" id="6e6T56sGF81" role="37wK5m">
+                  <ref role="3cqZAo" node="6e6T56sAgly" resolve="valueFunction" />
+                </node>
+                <node concept="2YIFZM" id="6e6T56sGF82" role="37wK5m">
+                  <ref role="1Pybhc" to="1ctc:~Collectors" resolve="Collectors" />
+                  <ref role="37wK5l" to="1ctc:~Collectors.toList()" resolve="toList" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6e6T56sGGgU" role="3cqZAp" />
         <node concept="3cpWs8" id="6e6T56snIGD" role="3cqZAp">
           <node concept="3cpWsn" id="6e6T56snIGE" role="3cpWs9">
             <property role="TrG5h" value="map" />
@@ -7417,34 +7478,8 @@
               </node>
               <node concept="liA8E" id="6e6T56sn1Gy" role="2OqNvi">
                 <ref role="37wK5l" to="1ctc:~Stream.collect(java.util.stream.Collector)" resolve="collect" />
-                <node concept="2YIFZM" id="6e6T56sn46m" role="37wK5m">
-                  <ref role="37wK5l" to="1ctc:~Collectors.groupingBy(java.util.function.Function,java.util.function.Supplier,java.util.stream.Collector)" resolve="groupingBy" />
-                  <ref role="1Pybhc" to="1ctc:~Collectors" resolve="Collectors" />
-                  <node concept="37vLTw" id="6e6T56s_RNd" role="37wK5m">
-                    <ref role="3cqZAo" node="6e6T56s_RN4" resolve="keyFunction" />
-                  </node>
-                  <node concept="1bVj0M" id="6e6T56sndo3" role="37wK5m">
-                    <node concept="3clFbS" id="6e6T56sndo5" role="1bW5cS">
-                      <node concept="3clFbF" id="6e6T56sne3Y" role="3cqZAp">
-                        <node concept="2ShNRf" id="6e6T56sne3W" role="3clFbG">
-                          <node concept="1pGfFk" id="6e6T56sng5m" role="2ShVmc">
-                            <ref role="37wK5l" to="33ny:~HashMap.&lt;init&gt;()" resolve="HashMap" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="2YIFZM" id="6e6T56snhNm" role="37wK5m">
-                    <ref role="1Pybhc" to="1ctc:~Collectors" resolve="Collectors" />
-                    <ref role="37wK5l" to="1ctc:~Collectors.mapping(java.util.function.Function,java.util.stream.Collector)" resolve="mapping" />
-                    <node concept="37vLTw" id="6e6T56sAmkK" role="37wK5m">
-                      <ref role="3cqZAo" node="6e6T56sAgly" resolve="valueFunction" />
-                    </node>
-                    <node concept="2YIFZM" id="6e6T56snpzB" role="37wK5m">
-                      <ref role="1Pybhc" to="1ctc:~Collectors" resolve="Collectors" />
-                      <ref role="37wK5l" to="1ctc:~Collectors.toList()" resolve="toList" />
-                    </node>
-                  </node>
+                <node concept="37vLTw" id="6e6T56sGF83" role="37wK5m">
+                  <ref role="3cqZAo" node="6e6T56sGF7W" resolve="groupingBy" />
                 </node>
               </node>
             </node>

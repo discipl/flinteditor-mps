@@ -65,9 +65,6 @@ task cleanFlintFiller(type: Delete) {
 task cloneFlintFiller(dependsOn: cleanFlintFiller) {
     doLast {
         def gr = org.ajoberstar.grgit.Grgit.clone(dir: "$flint_filler_dir", uri: "$flint_filler_repo")
-        gr.branch.list().findAll {
-            println "$it"
-        }
         gr.checkout(branch: "$flint_filler_branch")
     }
 }
