@@ -105,8 +105,6 @@ jobs:
         with:
           name: flintfiller-windows.exe
           path: static-resources/generated/flintfiller
-      - name: Check
-        run: ls -d $PWD/static-resources/generated/flintfiller/*
       - name: Make FlintRunner executable
         run: chmod +x static-resources/generated/flintfiller/flintfiller-linux
       - name: Setup Java 11

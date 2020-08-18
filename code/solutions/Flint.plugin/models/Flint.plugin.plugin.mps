@@ -7118,6 +7118,23 @@
       <node concept="17QB3L" id="6e6T56s7eSb" role="3clF45" />
       <node concept="3Tm1VV" id="2p4aUJVrZHh" role="1B3o_S" />
       <node concept="3clFbS" id="2p4aUJVrZHi" role="3clF47">
+        <node concept="2xdQw9" id="7_MRUlHZs8o" role="3cqZAp">
+          <property role="2xdLsb" value="h1akgim/info" />
+          <node concept="3cpWs3" id="7_MRUlHZx0C" role="9lYJi">
+            <node concept="Xl_RD" id="7_MRUlHZs8q" role="3uHU7B">
+              <property role="Xl_RC" value="path: " />
+            </node>
+            <node concept="2OqwBi" id="7_MRUlHZytI" role="3uHU7w">
+              <node concept="2YIFZM" id="7_MRUlHZytJ" role="2Oq$k0">
+                <ref role="1Pybhc" to="91gc:2eNuKY2QKZ" resolve="FlintProperties" />
+                <ref role="37wK5l" to="91gc:7ALI6YWYmu7" resolve="getInstance" />
+              </node>
+              <node concept="2S8uIT" id="7_MRUlHZytK" role="2OqNvi">
+                <ref role="2S8YL0" to="91gc:2eNuKY2R2z" resolve="resourcesFolder" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="6e6T56s7enA" role="3cqZAp">
           <node concept="2OqwBi" id="6e6T56s72LU" role="3cqZAk">
             <node concept="37vLTw" id="6e6T56s72Ak" role="2Oq$k0">

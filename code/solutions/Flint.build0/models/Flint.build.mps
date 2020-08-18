@@ -1474,8 +1474,41 @@
             </node>
           </node>
         </node>
-        <node concept="3ygNvl" id="2WP7dhE1et$" role="39821P">
+        <node concept="3ygNvl" id="7_MRUlInvxg" role="39821P">
           <ref role="3ygNvj" node="2WP7dhE1erx" />
+          <node concept="3LWZYq" id="7_MRUlInvxh" role="1juEy9">
+            <property role="3LWZYl" value="**/flintfiller/flintfiller-*" />
+          </node>
+        </node>
+        <node concept="398223" id="7_MRUlIqp_L" role="39821P">
+          <node concept="398223" id="7_MRUlInvxi" role="39821P">
+            <node concept="398223" id="7_MRUlInvxj" role="39821P">
+              <node concept="yKbIv" id="7_MRUlInvxk" role="39821P">
+                <property role="yKbIr" value="755" />
+                <node concept="3ygNvl" id="7_MRUlInvxl" role="39821P">
+                  <ref role="3ygNvj" node="e8hxMxobZF" resolve="static-resources" />
+                  <node concept="3LWZYx" id="7_MRUlInvxm" role="1juEy9">
+                    <property role="3LWZYw" value="**/flintfiller/flintfiller-*" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3_J27D" id="7_MRUlInvxn" role="Nbhlr">
+                <node concept="3Mxwew" id="7_MRUlInvxo" role="3MwsjC">
+                  <property role="3MwjfP" value="static-resources" />
+                </node>
+              </node>
+            </node>
+            <node concept="3_J27D" id="7_MRUlInvxp" role="Nbhlr">
+              <node concept="3Mxwew" id="7_MRUlInvxq" role="3MwsjC">
+                <property role="3MwjfP" value="Flint" />
+              </node>
+            </node>
+          </node>
+          <node concept="3_J27D" id="7_MRUlIqp_N" role="Nbhlr">
+            <node concept="3Mxwew" id="7_MRUlIqpAK" role="3MwsjC">
+              <property role="3MwjfP" value="plugins" />
+            </node>
+          </node>
         </node>
         <node concept="398223" id="2WP7dhE1et_" role="39821P">
           <node concept="3_J27D" id="2WP7dhE1etA" role="Nbhlr">
@@ -1598,6 +1631,39 @@
       <node concept="3981dG" id="2WP7dhE1eu7" role="39821P">
         <node concept="3ygNvl" id="2WP7dhE1eu8" role="39821P">
           <ref role="3ygNvj" node="2WP7dhE1erx" />
+          <node concept="3LWZYq" id="7_MRUlInvmW" role="1juEy9">
+            <property role="3LWZYl" value="**/flintfiller/flintfiller-*" />
+          </node>
+        </node>
+        <node concept="398223" id="7_MRUlIqpBI" role="39821P">
+          <node concept="398223" id="7_MRUlIqpBJ" role="39821P">
+            <node concept="398223" id="7_MRUlIqpBK" role="39821P">
+              <node concept="yKbIv" id="7_MRUlIqpBL" role="39821P">
+                <property role="yKbIr" value="755" />
+                <node concept="3ygNvl" id="7_MRUlIqpBM" role="39821P">
+                  <ref role="3ygNvj" node="e8hxMxobZF" resolve="static-resources" />
+                  <node concept="3LWZYx" id="7_MRUlIqpBN" role="1juEy9">
+                    <property role="3LWZYw" value="**/flintfiller/flintfiller-*" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3_J27D" id="7_MRUlIqpBO" role="Nbhlr">
+                <node concept="3Mxwew" id="7_MRUlIqpBP" role="3MwsjC">
+                  <property role="3MwjfP" value="static-resources" />
+                </node>
+              </node>
+            </node>
+            <node concept="3_J27D" id="7_MRUlIqpBQ" role="Nbhlr">
+              <node concept="3Mxwew" id="7_MRUlIqpBR" role="3MwsjC">
+                <property role="3MwjfP" value="Flint" />
+              </node>
+            </node>
+          </node>
+          <node concept="3_J27D" id="7_MRUlIqpBS" role="Nbhlr">
+            <node concept="3Mxwew" id="7_MRUlIqpBT" role="3MwsjC">
+              <property role="3MwjfP" value="plugins" />
+            </node>
+          </node>
         </node>
         <node concept="398223" id="2WP7dhE1eu9" role="39821P">
           <node concept="28u9K_" id="2WP7dhE1eua" role="39821P">
@@ -1767,8 +1833,41 @@
         </node>
         <node concept="398223" id="2WP7dhE1evB" role="39821P">
           <node concept="398223" id="2WP7dhE1evC" role="39821P">
-            <node concept="3ygNvl" id="2WP7dhE1evD" role="39821P">
+            <node concept="3ygNvl" id="7_MRUlInvBI" role="39821P">
               <ref role="3ygNvj" node="2WP7dhE1erx" />
+              <node concept="3LWZYq" id="7_MRUlInvBJ" role="1juEy9">
+                <property role="3LWZYl" value="**/flintfiller/flintfiller-*" />
+              </node>
+            </node>
+            <node concept="398223" id="7_MRUlIqpCX" role="39821P">
+              <node concept="398223" id="7_MRUlIqpCY" role="39821P">
+                <node concept="398223" id="7_MRUlIqpCZ" role="39821P">
+                  <node concept="yKbIv" id="7_MRUlIqpD0" role="39821P">
+                    <property role="yKbIr" value="755" />
+                    <node concept="3ygNvl" id="7_MRUlIqpD1" role="39821P">
+                      <ref role="3ygNvj" node="e8hxMxobZF" resolve="static-resources" />
+                      <node concept="3LWZYx" id="7_MRUlIqpD2" role="1juEy9">
+                        <property role="3LWZYw" value="**/flintfiller/flintfiller-*" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3_J27D" id="7_MRUlIqpD3" role="Nbhlr">
+                    <node concept="3Mxwew" id="7_MRUlIqpD4" role="3MwsjC">
+                      <property role="3MwjfP" value="static-resources" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3_J27D" id="7_MRUlIqpD5" role="Nbhlr">
+                  <node concept="3Mxwew" id="7_MRUlIqpD6" role="3MwsjC">
+                    <property role="3MwjfP" value="Flint" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3_J27D" id="7_MRUlIqpD7" role="Nbhlr">
+                <node concept="3Mxwew" id="7_MRUlIqpD8" role="3MwsjC">
+                  <property role="3MwjfP" value="plugins" />
+                </node>
+              </node>
             </node>
             <node concept="3_J27D" id="2WP7dhE1evE" role="Nbhlr">
               <node concept="3Mxwew" id="2WP7dhE1evF" role="3MwsjC">
@@ -2071,6 +2170,25 @@
         <node concept="398223" id="4aWSgWwlpQS" role="39821P">
           <node concept="3ygNvl" id="4aWSgWwhSyh" role="39821P">
             <ref role="3ygNvj" node="2WP7dhE1es7" resolve="Flint" />
+            <node concept="3LWZYq" id="7_MRUlIn9R5" role="1juEy9">
+              <property role="3LWZYl" value="**/flintfiller/flintfiller-*" />
+            </node>
+          </node>
+          <node concept="398223" id="7_MRUlIkhnG" role="39821P">
+            <node concept="yKbIv" id="7_MRUlIkhnS" role="39821P">
+              <property role="yKbIr" value="755" />
+              <node concept="3ygNvl" id="7_MRUlIkho0" role="39821P">
+                <ref role="3ygNvj" node="e8hxMxobZF" resolve="static-resources" />
+                <node concept="3LWZYx" id="7_MRUlIkho2" role="1juEy9">
+                  <property role="3LWZYw" value="**/flintfiller/flintfiller-*" />
+                </node>
+              </node>
+            </node>
+            <node concept="3_J27D" id="7_MRUlIkhnI" role="Nbhlr">
+              <node concept="3Mxwew" id="7_MRUlIkhnQ" role="3MwsjC">
+                <property role="3MwjfP" value="static-resources" />
+              </node>
+            </node>
           </node>
           <node concept="3_J27D" id="4aWSgWwlpQU" role="Nbhlr">
             <node concept="3Mxwew" id="4aWSgWwlpQZ" role="3MwsjC">
