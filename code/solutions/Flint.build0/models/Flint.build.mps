@@ -1029,6 +1029,11 @@
             <ref role="3bR37D" to="ffeo:ymnOULAU0H" resolve="jetbrains.mps.lang.test" />
           </node>
         </node>
+        <node concept="1SiIV0" id="2gsSwmL4evY" role="3bR37C">
+          <node concept="3bR9La" id="2gsSwmL4evZ" role="1SiIV1">
+            <ref role="3bR37D" node="2eNuKY4JD2" resolve="Flint.runtime" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="QLMwktTkqF" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1314,6 +1319,16 @@
               <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
               <node concept="2Ry0Ak" id="5rXerjictap" role="iGT6I">
                 <property role="2Ry0Am" value="kotlin-stdlib.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2gsSwmLeXEA" role="3bR37C">
+          <node concept="1BurEX" id="2gsSwmLeXEB" role="1SiIV1">
+            <node concept="398BVA" id="2gsSwmLeXEp" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2gsSwmLeXEq" role="iGT6I">
+                <property role="2Ry0Am" value="json-simple.jar" />
               </node>
             </node>
           </node>

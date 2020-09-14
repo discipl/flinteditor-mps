@@ -15,6 +15,7 @@
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
+    <import index="zwj2" ref="acf1b507-e791-4de3-b55f-a3880c36d5bb/java:org.json.simple(Flint.runtime/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -127,6 +128,7 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
+      <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615" />
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
@@ -470,6 +472,43 @@
   <node concept="2zyDoC" id="e8hxMw3HMk">
     <property role="TrG5h" value="RuntimeProperties" />
     <property role="2zyR4n" value="${module}/../../runtime.properties" />
+  </node>
+  <node concept="3HP615" id="2gsSwmLhR5x">
+    <property role="TrG5h" value="JSONUtils" />
+    <node concept="2YIFZL" id="2gsSwmKTVTw" role="jymVt">
+      <property role="TrG5h" value="jsonSafeString" />
+      <node concept="3clFbS" id="2gsSwmKTVTz" role="3clF47">
+        <node concept="3clFbJ" id="2gsSwmKUzgE" role="3cqZAp">
+          <node concept="3clFbS" id="2gsSwmKUzgG" role="3clFbx">
+            <node concept="3cpWs6" id="2gsSwmKUzS_" role="3cqZAp">
+              <node concept="10Nm6u" id="2gsSwmKUzTX" role="3cqZAk" />
+            </node>
+          </node>
+          <node concept="3clFbC" id="2gsSwmKUzDS" role="3clFbw">
+            <node concept="10Nm6u" id="2gsSwmKUzRU" role="3uHU7w" />
+            <node concept="37vLTw" id="2gsSwmKUzi8" role="3uHU7B">
+              <ref role="3cqZAo" node="2gsSwmKTVUf" resolve="aString" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="2gsSwmL36O9" role="3cqZAp">
+          <node concept="2YIFZM" id="2gsSwmL36xO" role="3cqZAk">
+            <ref role="1Pybhc" to="zwj2:~JSONValue" resolve="JSONValue" />
+            <ref role="37wK5l" to="zwj2:~JSONValue.escape(java.lang.String)" resolve="escape" />
+            <node concept="37vLTw" id="2gsSwmL36zu" role="37wK5m">
+              <ref role="3cqZAo" node="2gsSwmKTVUf" resolve="aString" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="2gsSwmKTVT$" role="1B3o_S" />
+      <node concept="17QB3L" id="2gsSwmKTVTm" role="3clF45" />
+      <node concept="37vLTG" id="2gsSwmKTVUf" role="3clF46">
+        <property role="TrG5h" value="aString" />
+        <node concept="17QB3L" id="2gsSwmKTVUe" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="2gsSwmLhR5y" role="1B3o_S" />
   </node>
 </model>
 
