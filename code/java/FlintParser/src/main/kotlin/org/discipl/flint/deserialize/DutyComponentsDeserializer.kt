@@ -10,14 +10,16 @@ import java.lang.reflect.Type
 
 class DutyComponentsDeserializer : JsonDeserializer<DutyComponents> {
     override fun deserialize(json: JsonElement, typeOfT: Type, context: JsonDeserializationContext): DutyComponents {
-        val dutyComponents =
-            json.asString.split("EN")
-                .filter { it.isNotBlank() }
-                .mapNotNull {
-                    val reference: DutyReference? =
-                        context.deserialize(JsonPrimitive(it.trim()), DutyReference::class.java)
-                    reference
-                }.toList()
+        val dutyComponentStrings = if (json.isJsonArray) {
+            json.asJsonArray.toList().map { it.asString }
+        } else {
+            json.asString.split("EN").filter { it.isNotBlank() }
+        }
+        val dutyComponents = dutyComponentStrings.mapNotNull {
+            val reference: DutyReference? =
+                context.deserialize(JsonPrimitive(it.trim()), DutyReference::class.java)
+            reference
+        }.toList()
         return DutyComponents(dutyComponents)
     }
 }

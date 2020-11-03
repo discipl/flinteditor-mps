@@ -784,5 +784,24 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1YpZTwqsS7q">
+    <property role="EcuMT" value="2277132115356385754" />
+    <property role="3GE5qa" value="flintmodelrunner" />
+    <property role="TrG5h" value="FlintRunnerFact" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1YpZTwqsS7r" role="1TKVEi">
+      <property role="IQ2ns" value="2277132115356385755" />
+      <property role="20kJfa" value="fact" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5XjenljaN1U" resolve="Fact" />
+    </node>
+    <node concept="1TJgyj" id="1YpZTwqsS7t" role="1TKVEi">
+      <property role="IQ2ns" value="2277132115356385757" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="actors" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="10jIHuj5o1o" resolve="FlintModelActorReference" />
+    </node>
+  </node>
 </model>
 
