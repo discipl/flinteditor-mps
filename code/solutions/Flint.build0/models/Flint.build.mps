@@ -218,6 +218,7 @@
         <child id="5253498789149547704" name="dependencies" index="3bR37C" />
       </concept>
       <concept id="5253498789149585690" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyOnModule" flags="ng" index="3bR9La">
+        <property id="5253498789149547713" name="reexport" index="3bR36h" />
         <reference id="5253498789149547705" name="module" index="3bR37D" />
       </concept>
       <concept id="8174907532631382425" name="jetbrains.mps.build.mps.structure.BuildMps_TipsMps" flags="ng" index="3jmSaf" />
@@ -931,6 +932,29 @@
                 <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
               </node>
             </node>
+            <node concept="3LXTmp" id="4JbMoI4RFHt" role="1HemKq">
+              <node concept="398BVA" id="4JbMoI4RFHi" role="3LXTmr">
+                <ref role="398BVh" node="B35UKsMXq5" resolve="project_dir" />
+                <node concept="2Ry0Ak" id="4JbMoI4RFHj" role="iGT6I">
+                  <property role="2Ry0Am" value="code" />
+                  <node concept="2Ry0Ak" id="4JbMoI4RFHk" role="2Ry0An">
+                    <property role="2Ry0Am" value="languages" />
+                    <node concept="2Ry0Ak" id="4JbMoI4RFHl" role="2Ry0An">
+                      <property role="2Ry0Am" value="Flint" />
+                      <node concept="2Ry0Ak" id="4JbMoI4RFHm" role="2Ry0An">
+                        <property role="2Ry0Am" value="generator" />
+                        <node concept="2Ry0Ak" id="4JbMoI4RFHn" role="2Ry0An">
+                          <property role="2Ry0Am" value="templates" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3qWCbU" id="4JbMoI4RFHu" role="3LXTna">
+                <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+              </node>
+            </node>
             <node concept="3LXTmp" id="75s6MxeqoWj" role="1HemKq">
               <node concept="398BVA" id="75s6MxeqoW8" role="3LXTmr">
                 <ref role="398BVh" node="B35UKsMXq5" resolve="project_dir" />
@@ -1037,6 +1061,15 @@
         <node concept="1SiIV0" id="2gsSwmL4evY" role="3bR37C">
           <node concept="3bR9La" id="2gsSwmL4evZ" role="1SiIV1">
             <ref role="3bR37D" node="2eNuKY4JD2" resolve="Flint.runtime" />
+          </node>
+        </node>
+        <node concept="1E0d5M" id="4JbMoI4RFHh" role="1E1XAP">
+          <ref role="1E0d5P" to="ffeo:4WGKd_KIwrs" resolve="jetbrains.mps.vcs.mergehints.runtime" />
+        </node>
+        <node concept="1SiIV0" id="4JbMoI4RFH4" role="3bR37C">
+          <node concept="3bR9La" id="4JbMoI4RFH5" role="1SiIV1">
+            <property role="3bR36h" value="true" />
+            <ref role="3bR37D" to="ffeo:4WGKd_KIwrs" resolve="jetbrains.mps.vcs.mergehints.runtime" />
           </node>
         </node>
       </node>
