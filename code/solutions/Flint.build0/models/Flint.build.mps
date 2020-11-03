@@ -970,6 +970,11 @@
               <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
             </node>
           </node>
+          <node concept="1SiIV0" id="Ftn0l7281Y" role="3bR37C">
+            <node concept="3bR9La" id="Ftn0l7281Z" role="1SiIV1">
+              <ref role="3bR37D" node="2eNuKY4JD2" resolve="Flint.runtime" />
+            </node>
+          </node>
         </node>
         <node concept="1SiIV0" id="7PeSHTFvnEf" role="3bR37C">
           <node concept="3bR9La" id="7PeSHTFvnEg" role="1SiIV1">

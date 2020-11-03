@@ -28,6 +28,7 @@
         <dependency reexport="false">69940819-10c1-4a38-ac44-700b63f993ba(Flint)</dependency>
         <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
         <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+        <dependency reexport="false">acf1b507-e791-4de3-b55f-a3880c36d5bb(Flint.runtime)</dependency>
       </dependencies>
       <languageVersions>
         <language slang="l:1cf48bab-db69-4c23-b803-7d48198982a7:Json" version="0" />

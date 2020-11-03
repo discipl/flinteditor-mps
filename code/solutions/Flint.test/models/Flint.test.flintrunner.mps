@@ -57,6 +57,12 @@
     </node>
     <node concept="231zEt" id="63E5y3TmdBR" role="231zEh">
       <property role="TrG5h" value="Actor3" />
+      <node concept="1FQA6B" id="Ftn0l75NhR" role="231zE6">
+        <ref role="1FQA6$" to="atn4:63E5y3Tohyt" resolve="Fact1" />
+      </node>
+    </node>
+    <node concept="231zEt" id="Ftn0l75Niu" role="231zEh">
+      <property role="TrG5h" value="Actor4" />
     </node>
     <node concept="1FQA6B" id="63E5y3TohyQ" role="24vW_X">
       <ref role="1FQA6$" to="atn4:63E5y3TohyA" resolve="Fact4" />
