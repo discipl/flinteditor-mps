@@ -218,7 +218,6 @@
         <child id="5253498789149547704" name="dependencies" index="3bR37C" />
       </concept>
       <concept id="5253498789149585690" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyOnModule" flags="ng" index="3bR9La">
-        <property id="5253498789149547713" name="reexport" index="3bR36h" />
         <reference id="5253498789149547705" name="module" index="3bR37D" />
       </concept>
       <concept id="8174907532631382425" name="jetbrains.mps.build.mps.structure.BuildMps_TipsMps" flags="ng" index="3jmSaf" />
@@ -1066,10 +1065,9 @@
         <node concept="1E0d5M" id="4JbMoI4RFHh" role="1E1XAP">
           <ref role="1E0d5P" to="ffeo:4WGKd_KIwrs" resolve="jetbrains.mps.vcs.mergehints.runtime" />
         </node>
-        <node concept="1SiIV0" id="4JbMoI4RFH4" role="3bR37C">
-          <node concept="3bR9La" id="4JbMoI4RFH5" role="1SiIV1">
-            <property role="3bR36h" value="true" />
-            <ref role="3bR37D" to="ffeo:4WGKd_KIwrs" resolve="jetbrains.mps.vcs.mergehints.runtime" />
+        <node concept="1SiIV0" id="5xrYknosH6N" role="3bR37C">
+          <node concept="3bR9La" id="5xrYknosH6O" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
       </node>
@@ -1152,11 +1150,6 @@
             <node concept="3qWCbU" id="75s6MxeqoWv" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6J7WCuJ14cQ" role="3bR37C">
-          <node concept="3bR9La" id="6J7WCuJ14cR" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1ZViq9oppal" resolve="jetbrains.mps.make.facets" />
           </node>
         </node>
         <node concept="1SiIV0" id="6J7WCuJ14cS" role="3bR37C">

@@ -55,7 +55,7 @@
             <node concept="3YX88e" id="63E5y3Toik_" role="3YX86K">
               <property role="TrG5h" value="action" />
               <node concept="3YX86M" id="63E5y3ToikA" role="3YX8ah">
-                <property role="3YX86R" value="[Fact2]" />
+                <property role="3YX86R" value="Action1" />
               </node>
             </node>
             <node concept="3YX88e" id="63E5y3ToikH" role="3YX86K">
@@ -224,7 +224,7 @@
             <node concept="3YX88e" id="63E5y3Toiqu" role="3YX86K">
               <property role="TrG5h" value="action" />
               <node concept="3YX86M" id="63E5y3Toiqv" role="3YX8ah">
-                <property role="3YX86R" value="[Fact1]" />
+                <property role="3YX86R" value="Action2" />
               </node>
             </node>
             <node concept="3YX88e" id="63E5y3Toiqw" role="3YX86K">

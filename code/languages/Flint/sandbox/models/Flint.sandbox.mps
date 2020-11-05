@@ -2,7 +2,7 @@
 <model ref="r:b207ec80-01d0-4c9c-9fef-433a23863ae1(Flint.sandbox)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="2" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="3" />
   </languages>
   <imports />
   <registry>
@@ -51,11 +51,11 @@
         <reference id="2444626260293394823" name="duty" index="2cz2WA" />
       </concept>
       <concept id="9029403747833789403" name="Flint.structure.Act" flags="ng" index="mu5$5">
+        <property id="6366956576594804508" name="action" index="207Gpp" />
         <child id="9029403747833803225" name="terminate" index="mu1c7" />
         <child id="9029403747833803217" name="create" index="mu1cf" />
         <child id="9029403747833797790" name="preconditions" index="mu3T0" />
         <child id="6205025464253204623" name="objectRef" index="3H36l7" />
-        <child id="6205025464253204609" name="actionRef" index="3H36l9" />
         <child id="6205025464253204638" name="recipientRef" index="3H36lm" />
         <child id="6205025464253204596" name="actorRef" index="3H36mW" />
       </concept>
@@ -69,6 +69,7 @@
       <concept id="4808965957220776510" name="Flint.structure.LESS_THAN" flags="ng" index="1zEXGL" />
       <concept id="4808965957220776525" name="Flint.structure.OR" flags="ng" index="1zEXH2" />
       <concept id="4808965957220776522" name="Flint.structure.NOT" flags="ng" index="1zEXH5" />
+      <concept id="4808965957220776513" name="Flint.structure.LIST" flags="ng" index="1zEXHe" />
       <concept id="4808965957220776534" name="Flint.structure.LITERAL" flags="ng" index="1zEXHp">
         <child id="4808965957220776594" name="operand" index="1zEXIt" />
       </concept>
@@ -76,8 +77,15 @@
         <property id="4808965957220777139" name="value" index="1zEXQW" />
       </concept>
       <concept id="4808965957220777137" name="Flint.structure.BooleanOperand" flags="ng" index="1zEXQY" />
+      <concept id="4808965957220777136" name="Flint.structure.StringOperand" flags="ng" index="1zEXQZ">
+        <property id="4808965957220777148" name="value" index="1zEXQN" />
+      </concept>
       <concept id="4808965957220331692" name="Flint.structure.MultiExpression" flags="ng" index="1zF96z">
         <child id="4808965957220331693" name="operands" index="1zF96y" />
+      </concept>
+      <concept id="4808965957220331691" name="Flint.structure.ListExpression" flags="ng" index="1zF96$">
+        <property id="4808965957220336266" name="name" index="1zF6e5" />
+        <child id="4808965957220336268" name="items" index="1zF6e3" />
       </concept>
       <concept id="4808965957220331688" name="Flint.structure.SingleExpression" flags="ng" index="1zF96B">
         <child id="4808965957220331689" name="operand" index="1zF96A" />
@@ -137,14 +145,9 @@
       <property role="TrG5h" value="ambtenaar" />
       <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
-    <node concept="cu0$f" id="qfyMBXgjHX" role="cu0BP">
-      <property role="TrG5h" value="aanvragen" />
-    </node>
-    <node concept="cu0$f" id="qfyMBXgjIa" role="cu0BP">
-      <property role="TrG5h" value="toekennen" />
-    </node>
     <node concept="mu5$5" id="qfyMBXf4LI" role="m3s6u">
       <property role="TrG5h" value="subsidie aanvragen" />
+      <property role="207Gpp" value="aanvragen" />
       <node concept="1FQA6B" id="qfyMBXf4LJ" role="3H36mW">
         <ref role="1FQA6$" node="qfyMBXf4LK" resolve="burger" />
       </node>
@@ -157,9 +160,6 @@
       <node concept="1FQA6B" id="qfyMBXf4LR" role="mu1cf">
         <ref role="1FQA6$" node="qfyMBXf4LA" resolve="aanvraag" />
       </node>
-      <node concept="1FQA6B" id="qfyMBXgjIo" role="3H36l9">
-        <ref role="1FQA6$" node="qfyMBXgjHX" resolve="aanvragen" />
-      </node>
       <node concept="1zEWgd" id="1YpZTwqr5HB" role="mu3T0">
         <node concept="1FQA6B" id="qfyMBXlKYT" role="1zF96y">
           <ref role="1FQA6$" node="qfyMBXf4LD" resolve="bedrag" />
@@ -168,6 +168,7 @@
     </node>
     <node concept="mu5$5" id="qfyMBXf4LS" role="m3s6u">
       <property role="TrG5h" value="subsidie aanvraag toekennen" />
+      <property role="207Gpp" value="toekennen" />
       <node concept="1FQA6B" id="qfyMBXf4LT" role="3H36mW">
         <ref role="1FQA6$" node="qfyMBXf4LO" resolve="ambtenaar" />
       </node>
@@ -187,20 +188,15 @@
           </node>
         </node>
       </node>
-      <node concept="1FQA6B" id="qfyMBXgjIq" role="3H36l9">
-        <ref role="1FQA6$" node="qfyMBXgjIa" resolve="toekennen" />
-      </node>
       <node concept="1FQA6B" id="3irudGozqss" role="mu1c7">
         <ref role="1FQA6$" node="qfyMBXf4LA" resolve="aanvraag" />
       </node>
     </node>
     <node concept="mu5$5" id="1YpZTwqrdYn" role="m3s6u">
       <property role="TrG5h" value="subsidie intrekken" />
+      <property role="207Gpp" value="intrekken" />
       <node concept="1FQA6B" id="1YhrGssD_z4" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssD_yx" resolve="burger met aanvraag" />
-      </node>
-      <node concept="1FQA6B" id="1YpZTwqrdYR" role="3H36l9">
-        <ref role="1FQA6$" node="1YpZTwqrdYS" resolve="intrekken" />
       </node>
       <node concept="1FQA6B" id="1YpZTwqrdZa" role="3H36l7">
         <ref role="1FQA6$" node="qfyMBXf4LA" resolve="aanvraag" />
@@ -211,9 +207,6 @@
       <node concept="1FQA6B" id="1YpZTwqrdZg" role="mu1c7">
         <ref role="1FQA6$" node="qfyMBXf4LA" resolve="aanvraag" />
       </node>
-    </node>
-    <node concept="cu0$f" id="1YpZTwqrdYS" role="cu0BP">
-      <property role="TrG5h" value="intrekken" />
     </node>
     <node concept="cu0$f" id="1YhrGssD_yx" role="cu0BP">
       <property role="TrG5h" value="burger met aanvraag" />
@@ -1934,8 +1927,8 @@
     <node concept="cu0$f" id="1YhrGssDLlt" role="cu0BP">
       <property role="TrG5h" value="created terugvordering" />
       <node concept="1RnfdX" id="1YhrGssDLsV" role="coNO9">
-        <node concept="1FQA6B" id="1YhrGssDLsX" role="1zF96y">
-          <ref role="1FQA6$" node="1YhrGssDJnh" resolve="terugvorderen" />
+        <node concept="1FQA6B" id="5xrYknorlII" role="1zF96y">
+          <ref role="1FQA6$" node="5xrYknorlIJ" resolve="terugvorderen" />
         </node>
       </node>
     </node>
@@ -2072,10 +2065,6 @@
     <node concept="cu0$f" id="1YhrGssDJiu" role="cu0BP">
       <property role="TrG5h" value="degene die voldoet aan bevoegdheidseisen gesteld in" />
       <property role="3ANC2_" value="Toegevoegd, omdat deze dan gekoppeld kan worden aan een ssid" />
-    </node>
-    <node concept="cu0$f" id="1YhrGssDJkK" role="cu0BP">
-      <property role="TrG5h" value="indienen" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
     </node>
     <node concept="2cz0EU" id="1YhrGssDJkS" role="2cADMD">
       <property role="TrG5h" value="schriftelijk indienen aanvraag" />
@@ -2229,11 +2218,9 @@
     <node concept="mu5$5" id="1YhrGssDJkH" role="m3s6u">
       <property role="TrG5h" value="indienen verzoek een besluit te nemen" />
       <property role="3ANC2_" value="{De ontvanger [bestuursorgaan] kan worden afgeleid van de definitie van â€˜besluitâ€™ in artikel 1:3 lid 1 Awb.}&#13;&#10;&#13;&#10;Aanvrager wordt als term wel gebruikt in de Awb. In de Awb is er geen definitie gegeven. Ik heb hier dus ook geen verwijzing voor. Ik heb wel een reden gevonden waarom de Awb het in een aantal artikelen wel over aanvrager heeft. Dat is omdat een aanvrager niet altijd de belanghebbende is. Zie T&amp;C Awb, commentaar op art. 3:13 Awb, J. Verbeek." />
+      <property role="207Gpp" value="indienen" />
       <node concept="cog_b" id="1YhrGssDJkI" role="2pmM46">
         <ref role="cog$q" node="1YhrGssDJda" resolve="art. 1:3 lid 3 Awb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJkJ" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJkK" resolve="indienen" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJkL" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJek" resolve="belanghebbende" />
@@ -2274,10 +2261,6 @@
         <ref role="2cz2WA" node="1YhrGssDJl4" resolve="beschikking geven binnen termijn" />
       </node>
     </node>
-    <node concept="cu0$f" id="1YhrGssDJl8" role="cu0BP">
-      <property role="TrG5h" value="bekendmaken" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
     <node concept="2cz0EU" id="1YhrGssDJlm" role="2cADMD">
       <property role="TrG5h" value="besluit om de aanvraag niet te behandelen wordt bekendgemaakt binnen vier weken nadat de aanvraag is aangevuld of nadat de daarvoor gestelde termijn ongebruikt is verstreken" />
       <node concept="cog_b" id="1YhrGssDJra" role="2pmM46">
@@ -2300,12 +2283,10 @@
     <node concept="mu5$5" id="1YhrGssDJl5" role="m3s6u">
       <property role="TrG5h" value="bekendmaken van een besluit" />
       <property role="3ANC2_" value="Artikel 3.40 Awb impliceert dat het bestuursorgaan dat bevoegd is een besluit te nemen, ook bevoegd is het besluit bekend maken. Ook al staat dat er niet expliciet, dat is de interpretatie die hier gekozen is.&#13;&#10;&#13;&#10;Het kan natuurlijk altijd dat er regels zijn die andere(n) (bestuursorga(a)n(en)) toestaan om een besluit bekend te maken, of regels die de bevoegdheid om besluiten bekend te maken beperken. Die regels hebben we nog niet gevonden.&#13;&#10;Artikel 3.41 Awb gaat over de wijze waarop het bekendmaken gebeurt." />
+      <property role="207Gpp" value="bekendmaken" />
       <node concept="cog_b" id="1YhrGssDJl6" role="2pmM46">
         <property role="1FEjNx" value="{Een besluit treedt niet in werking voordat het is bekendgemaakt.}" />
         <ref role="cog$q" node="1YhrGssDJdb" resolve="art. 3:40 Awb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJl7" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJl8" resolve="bekendmaken" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJl9" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJdE" resolve="bestuursorgaan" />
@@ -2350,19 +2331,13 @@
         <ref role="1FQA6$" node="1YhrGssDJex" resolve="besluit treedt in werking" />
       </node>
     </node>
-    <node concept="cu0$f" id="1YhrGssDJlr" role="cu0BP">
-      <property role="TrG5h" value="besluiten niet te behandelen" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
     <node concept="mu5$5" id="1YhrGssDJlo" role="m3s6u">
       <property role="TrG5h" value="besluiten de aanvraag niet te behandelen" />
       <property role="3ANC2_" value="Hoe omgaan met voorwaarde [besluit om de aanvraag niet te behandelen wordt aan de aanvrager bekendgemaakt binnen vier weken nadat de aanvraag is aangevuld of nadat de daarvoor gestelde termijn ongebruikt is verstreken]?&#13;&#10;&#13;&#10;Het besluit is nog niet bekendgemaakt op het moment dat het wordt genomen. Kan dat dan wel als voorwaarde voor het nemen van een besluit worden gesteld?&#13;&#10;(Ik zou zeggen dat dat wel kan. Bij het nemen van het besluit wordt ervan uitgegaan dat het besluit binnen de termijn wordt bekendgemaakt. Als later blijkt dat dat toch niet is gebeurd, kunnen belanghebbenden immuniteit tegen het besluit claimen.)&#13;&#10;&#13;&#10;Nav vraag of je wel aanvrager moet egbruiken als deze term niet wordt gedefinieerd in de Awb.&#13;&#10;Aanvrager wordt als term wel gebruikt in de Awb. In de Awb is er geen definitie gegeven. Ik heb hier dus ook geen verwijzing voor. Ik heb wel een reden gevonden waarom de Awb het in een aantal artikelen wel over aanvrager heeft. Dat is omdat een aanvrager niet altijd de belanghebbende is. Zie T&amp;C Awb, commentaar op art. 3:13 Awb, J. Verbeek." />
+      <property role="207Gpp" value="besluiten niet te behandelen" />
       <node concept="cog_b" id="1YhrGssDJlp" role="2pmM46">
         <property role="1FEjNx" value="{Het bestuursorgaan kan besluiten de aanvraag niet te behandelen, indien:&#13;&#10;a. de aanvrager niet heeft voldaan aan enig wettelijk voorschrift voor het in behandeling nemen van de aanvraag, of&#13;&#10;b. de aanvraag geheel of gedeeltelijk is geweigerd op grond van artikel 2:15, of&#13;&#10;c. de verstrekte gegevens en bescheiden onvoldoende zijn voor de beoordeling van de aanvraag of voor de voorbereiding van de beschikking,&#13;&#10;mits de aanvrager de gelegenheid heeft gehad de aanvraag binnen een door het bestuursorgaan gestelde termijn aan te vullen.&#13;&#10;(...)&#13;&#10;4 Een besluit om de aanvraag niet te behandelen wordt aan de aanvrager bekendgemaakt binnen vier weken nadat de aanvraag is aangevuld of nadat de daarvoor gestelde termijn ongebruikt is verstreken.}" />
         <ref role="cog$q" node="1YhrGssDJdc" resolve="art. 4:5 Awb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJlq" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJlr" resolve="besluiten niet te behandelen" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJls" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJdE" resolve="bestuursorgaan" />
@@ -2409,19 +2384,13 @@
         <ref role="2cz2WA" node="1YhrGssDJlm" resolve="besluit om de aanvraag niet te behandelen wordt bekendgemaakt binnen vier weken nadat de aanvraag is aangevuld of nadat de daarvoor gestelde termijn ongebruikt is verstreken" />
       </node>
     </node>
-    <node concept="cu0$f" id="1YhrGssDJlJ" role="cu0BP">
-      <property role="TrG5h" value="vaststellen" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
     <node concept="mu5$5" id="1YhrGssDJlG" role="m3s6u">
       <property role="TrG5h" value="vaststellen formulier voor verstrekken van gegevens" />
       <property role="3ANC2_" value="Heeft het expliciet beschrijven van deze handeling een functie? (Zo ja, welke?)" />
+      <property role="207Gpp" value="vaststellen" />
       <node concept="cog_b" id="1YhrGssDJlH" role="2pmM46">
         <property role="1FEjNx" value="{Het bestuursorgaan dat bevoegd is op de aanvraag te beslissen, kan voor het indienen van aanvragen en het verstrekken van gegevens een formulier vaststellen, voor zover daarin niet is voorzien bij wettelijk voorschrift.}" />
         <ref role="cog$q" node="1YhrGssDJdd" resolve="art. 4:4 Awb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJlI" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJlJ" resolve="vaststellen" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJlK" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJdE" resolve="bestuursorgaan" />
@@ -2446,10 +2415,6 @@
         <ref role="1FQA6$" node="1YhrGssDJe$" resolve="formulier voor het verstrekken van gegevens" />
       </node>
     </node>
-    <node concept="cu0$f" id="1YhrGssDJlV" role="cu0BP">
-      <property role="TrG5h" value="verstrekken" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
     <node concept="2cz0EU" id="1YhrGssDJmk" role="2cADMD">
       <property role="TrG5h" value="minister van OCW besluit binnen acht weken na het sluiten van de aanvraagtermijn" />
     </node>
@@ -2462,11 +2427,9 @@
     <node concept="mu5$5" id="1YhrGssDJlS" role="m3s6u">
       <property role="TrG5h" value="minister verstrekt subsidie lerarenbeurs aan leraar" />
       <property role="3ANC2_" value="Definitie bachelor en masteropleidingen in art. 1 definities stellen eisen aan land en status/erkenning opleiding.&#13;&#10;&#13;&#10;Bevat het besluit ook de hoogte van het subsidiebedrag? In de beschikking staat dit bedrag wel, de vraag is of we het modelleren als een aparte handeling.&#13;&#10;&#13;&#10;Dit is een lastig punt:&#13;&#10;- om te kunnen besluiten de subsidie te verlenen moet je weten hoe hoog het bedrag is (om vast te stellen of er nog budget is*)&#13;&#10;- waarom zou je berekenen hoe hoog de subsidie is als je nog niet weet of iemand in aanmerking komt voor subsidie&#13;&#10;- de berekening van de hoogte van het bedrag is in een apart artikel geregeld&#13;&#10;- de subsidie voor studieverlof aan bevoegd gezag wordt apart verstrekt, maar dit bedrag is wel nodig om te kunnen vaststellen of er nog budget is.&#13;&#10;&#13;&#10;Er zijn geen aparte gronden voor afwijzing en buiten behandeling stellen. Impliceert dat, dat wordt afgewezen als niet wordt voldaan aan een voorwaarde voor verstrekken, en alleen buiten behandeling wordt gesteld op grond van art. 4:5 Awb?&#13;&#10;Antwoord 10 juli 2019: &#13;&#10;Rani: Ja, zie artikel 4:31 Awb (In Github de verkeerde verwijzing. Dit moet art 4:35 zijn, want hier staan de algemene afwijzingsgronden)&#13;&#10;na overleg met Robert: Dit zijn 2 besluiten die je bekent maakt in 1 document. Vgl. meeromvattende beschikking Vw 2000. &#13;&#10;Nav deze vraag en antwoord is artikel 4:35 Awb gemodelleerd&#13;&#10;&#13;&#10;Als de leraar geen subsidie voor studiekosten ontvangt omdat deze al op andere wijze van de minister een tegemoetkoming in de studiekosten ontvangt, wordt dan ook de subsidie op de kosten van studieverlof geweigerd (art. 10 Slb)?&#13;&#10;Antwoord 29 augustus 2019:&#13;&#10;Rani: Uit de toelichting bij artikel 10 Sls haal ik dat de wet studiefinanciering 200 en de wet Wet Tegemoetkoming Onderwijsbijdrage en Studiekosten de wetten zijn waar artikel 10 het over heeft. In die wetten zie ik geen mogelijkheden om studieverlof toe te kennen. Op basis hiervan meen ik dat de aanvraag van subsidie voor studieverlof niet afgewezen hoeft te worden als de subsidie voor studiekosten wordt afgewezen.&#13;&#10;&#13;&#10;*)  Het bepalen of er nog budget is, doe je in de praktijk alleen als het budget bijna op is. En alleen als het budget bijna op is, is de volgorde van indienen relevant." />
+      <property role="207Gpp" value="verstrekken" />
       <node concept="cog_b" id="1YhrGssDJlT" role="2pmM46">
         <ref role="cog$q" node="1YhrGssDJde" resolve="art. 3 lid 1, aanhef en onder a, Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJlU" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJlV" resolve="verstrekken" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJlW" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJk8" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
@@ -2557,11 +2520,9 @@
     </node>
     <node concept="mu5$5" id="1YhrGssDJms" role="m3s6u">
       <property role="TrG5h" value="minister verstrekt subsidie lerarenbeurs aan bevoegd gezag" />
+      <property role="207Gpp" value="verstrekken" />
       <node concept="cog_b" id="1YhrGssDJmt" role="2pmM46">
         <ref role="cog$q" node="1YhrGssDJdf" resolve="art. 3.1 lid 1, aanhef en onder b, Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJmu" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJlV" resolve="verstrekken" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJmv" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJk8" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
@@ -2611,18 +2572,12 @@
         <ref role="2cz2WA" node="1YhrGssDJmL" resolve="bekend maken besluit" />
       </node>
     </node>
-    <node concept="cu0$f" id="1YhrGssDJmP" role="cu0BP">
-      <property role="TrG5h" value="vragen" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
     <node concept="mu5$5" id="1YhrGssDJmM" role="m3s6u">
       <property role="TrG5h" value="leraar vraagt subsidie voor studiekosten aan" />
+      <property role="207Gpp" value="vragen" />
       <node concept="cog_b" id="1YhrGssDJmN" role="2pmM46">
         <property role="1FEjNx" value="{De subsidie voor studiekosten wordt aangevraagd door de leraar.}" />
         <ref role="cog$q" node="1YhrGssDJdg" resolve="art. 7 lid 1 Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJmO" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJmP" resolve="vragen" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJmQ" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJiq" resolve="leraar" />
@@ -2656,12 +2611,10 @@
     </node>
     <node concept="mu5$5" id="1YhrGssDJn1" role="m3s6u">
       <property role="TrG5h" value="leraar vraagt subsidie voor studieverlof voor het bevoegd gezag" />
+      <property role="207Gpp" value="vragen" />
       <node concept="cog_b" id="1YhrGssDJn2" role="2pmM46">
         <property role="1FEjNx" value="{De subsidie voor studieverlof wordt door de leraar aangevraagd voor het bevoegd gezag.}" />
         <ref role="cog$q" node="1YhrGssDJdh" resolve="art. 8 lid 1 Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJn3" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJmP" resolve="vragen" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJn4" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJiq" resolve="leraar" />
@@ -2693,18 +2646,12 @@
         <ref role="2cz2WA" node="1YhrGssDJmk" resolve="minister van OCW besluit binnen acht weken na het sluiten van de aanvraagtermijn" />
       </node>
     </node>
-    <node concept="cu0$f" id="1YhrGssDJnh" role="cu0BP">
-      <property role="TrG5h" value="terugvorderen" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
     <node concept="mu5$5" id="1YhrGssDJne" role="m3s6u">
       <property role="TrG5h" value="De minister van OCW kan de subsidie voor studiekosten terugvorderen indien de leraar in de subsidieperiode minder dan vijftien studiepunten behaalt" />
+      <property role="207Gpp" value="terugvorderen" />
       <node concept="cog_b" id="1YhrGssDJnf" role="2pmM46">
         <property role="1FEjNx" value="{De minister kan de subsidie voor studiekosten terugvorderen indien de leraar in de subsidieperiode minder dan vijftien studiepunten behaalt}" />
         <ref role="cog$q" node="1YhrGssDJdi" resolve="art. 13 lid 1 Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJng" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJnh" resolve="terugvorderen" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJni" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJk8" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
@@ -2730,11 +2677,9 @@
     <node concept="mu5$5" id="1YhrGssDJnp" role="m3s6u">
       <property role="TrG5h" value="De minister van OCW kan de subsidie voor studiekosten terugvorderen indien de leraar binnen twee maanden na het verstrekken van de subsidie de aanvraag voor studieverlof of de aanvraag voor studiekosten intrekt" />
       <property role="3ANC2_" value="[leraar heeft binnen 2 maanden na verstrekking van de subsidie de aanvraag voor subsidie ingetrokken]  is naar mijn mening ook een preconditie. Als de leraar zijn aanvraag niet intrekt binnen 2 maanden, kan de minister geen subsidie terugvorderen." />
+      <property role="207Gpp" value="terugvorderen" />
       <node concept="cog_b" id="1YhrGssDJnq" role="2pmM46">
         <ref role="cog$q" node="1YhrGssDJdj" resolve="art. 13 lid 2 Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJnr" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJnh" resolve="terugvorderen" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJns" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJk8" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
@@ -2759,11 +2704,9 @@
     </node>
     <node concept="mu5$5" id="1YhrGssDJnz" role="m3s6u">
       <property role="TrG5h" value="minister vordert subsidie voor studieverlof terug" />
+      <property role="207Gpp" value="terugvorderen" />
       <node concept="cog_b" id="1YhrGssDJn$" role="2pmM46">
         <ref role="cog$q" node="1YhrGssDJdj" resolve="art. 13 lid 2 Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJn_" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJnh" resolve="terugvorderen" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJnA" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJk8" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
@@ -2784,17 +2727,11 @@
         <ref role="2cz2WA" node="1YhrGssDJmL" resolve="bekend maken besluit" />
       </node>
     </node>
-    <node concept="cu0$f" id="1YhrGssDJnJ" role="cu0BP">
-      <property role="TrG5h" value="treffen" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
     <node concept="mu5$5" id="1YhrGssDJnG" role="m3s6u">
       <property role="TrG5h" value="minister treft betalingsregeling voor het terugbetalen van de subsidie voor studiekosten" />
+      <property role="207Gpp" value="treffen" />
       <node concept="cog_b" id="1YhrGssDJnH" role="2pmM46">
         <ref role="cog$q" node="1YhrGssDJdk" resolve="art. 13 lid 3 Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJnI" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJnJ" resolve="treffen" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJnK" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJk8" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
@@ -2811,11 +2748,9 @@
     </node>
     <node concept="mu5$5" id="1YhrGssDJnO" role="m3s6u">
       <property role="TrG5h" value="minister vordert kosten van collegegeld, studiemiddelen en reiskosten terug" />
+      <property role="207Gpp" value="terugvorderen" />
       <node concept="cog_b" id="1YhrGssDJnP" role="2pmM46">
         <ref role="cog$q" node="1YhrGssDJdl" resolve="art. 16 Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJnQ" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJnh" resolve="terugvorderen" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJnR" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJk8" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
@@ -2836,17 +2771,11 @@
         <ref role="2cz2WA" node="1YhrGssDJmL" resolve="bekend maken besluit" />
       </node>
     </node>
-    <node concept="cu0$f" id="1YhrGssDJo0" role="cu0BP">
-      <property role="TrG5h" value="verzoeken" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
     <node concept="mu5$5" id="1YhrGssDJnX" role="m3s6u">
       <property role="TrG5h" value="minister verzoekt bewijs van betaling van collegegeld" />
+      <property role="207Gpp" value="verzoeken" />
       <node concept="cog_b" id="1YhrGssDJnY" role="2pmM46">
         <ref role="cog$q" node="1YhrGssDJdm" resolve="art. 19 Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJnZ" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJo0" resolve="verzoeken" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJo1" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJk8" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
@@ -2866,11 +2795,9 @@
     </node>
     <node concept="mu5$5" id="1YhrGssDJo6" role="m3s6u">
       <property role="TrG5h" value="minister verzoekt bewijs van het behalen van ten minste vijftien studiepunten" />
+      <property role="207Gpp" value="verzoeken" />
       <node concept="cog_b" id="1YhrGssDJo7" role="2pmM46">
         <ref role="cog$q" node="1YhrGssDJdm" resolve="art. 19 Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJo8" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJo0" resolve="verzoeken" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJo9" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJk8" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
@@ -2888,17 +2815,11 @@
         <ref role="1FQA6$" node="1YhrGssDJkd" resolve="verzoek tot bewijs van het behalen van ten minste vijftien studiepunten" />
       </node>
     </node>
-    <node concept="cu0$f" id="1YhrGssDJoh" role="cu0BP">
-      <property role="TrG5h" value="overleggen" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
     <node concept="mu5$5" id="1YhrGssDJoe" role="m3s6u">
       <property role="TrG5h" value="leraar overlegt bewijsstuk waaruit blijkt dat hij ten minste vijftien studiepunten heeft gehaald" />
+      <property role="207Gpp" value="overleggen" />
       <node concept="cog_b" id="1YhrGssDJof" role="2pmM46">
         <ref role="cog$q" node="1YhrGssDJdm" resolve="art. 19 Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJog" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJoh" resolve="overleggen" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJoi" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJiq" resolve="leraar" />
@@ -2923,11 +2844,9 @@
     </node>
     <node concept="mu5$5" id="1YhrGssDJop" role="m3s6u">
       <property role="TrG5h" value="leraar overlegt bewijsstuk waaruit blijkt dat hij collegegeld heeft betaald" />
+      <property role="207Gpp" value="overleggen" />
       <node concept="cog_b" id="1YhrGssDJoq" role="2pmM46">
         <ref role="cog$q" node="1YhrGssDJdm" resolve="art. 19 Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJor" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJoh" resolve="overleggen" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJos" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJiq" resolve="leraar" />
@@ -2950,17 +2869,11 @@
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="1YhrGssDJoA" role="cu0BP">
-      <property role="TrG5h" value="intrekken" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
     <node concept="mu5$5" id="1YhrGssDJoz" role="m3s6u">
       <property role="TrG5h" value="leraar trekt aanvraag subsidie voor studieverlof in" />
+      <property role="207Gpp" value="intrekken" />
       <node concept="cog_b" id="1YhrGssDJo$" role="2pmM46">
         <ref role="cog$q" node="1YhrGssDJdn" resolve="art. 13 lid 2, onder b. Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJo_" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJoA" resolve="intrekken" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJoB" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJiq" resolve="leraar" />
@@ -2977,11 +2890,9 @@
     </node>
     <node concept="mu5$5" id="1YhrGssDJoF" role="m3s6u">
       <property role="TrG5h" value="leraar trekt aanvraag subsidie voor studiekosten in" />
+      <property role="207Gpp" value="intrekken" />
       <node concept="cog_b" id="1YhrGssDJoG" role="2pmM46">
         <ref role="cog$q" node="1YhrGssDJdn" resolve="art. 13 lid 2, onder b. Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJoH" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJoA" resolve="intrekken" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDNhK" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJiL" resolve="leraar met aanvraag" />
@@ -3002,17 +2913,11 @@
         <ref role="1FQA6$" node="1YhrGssDJeM" resolve="aanvraag subsidie voor studiekosten" />
       </node>
     </node>
-    <node concept="cu0$f" id="1YhrGssDJoP" role="cu0BP">
-      <property role="TrG5h" value="melden" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
     <node concept="mu5$5" id="1YhrGssDJoM" role="m3s6u">
       <property role="TrG5h" value="subsidieontvanger meldt dat niet aan de subsidieverplichtingen zal worden voldaan" />
+      <property role="207Gpp" value="melden" />
       <node concept="cog_b" id="1YhrGssDJoN" role="2pmM46">
         <ref role="cog$q" node="1YhrGssDJdo" resolve="art. 5.7 lid 1, aanhef en onder b. Kaderregeling subsidies OCW, SZW en VWS" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJoO" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJoP" resolve="melden" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJoQ" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJkC" resolve="subsidieontvanger" />
@@ -3029,17 +2934,11 @@
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="1YhrGssDJoY" role="cu0BP">
-      <property role="TrG5h" value="verlenen" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
     <node concept="mu5$5" id="1YhrGssDJoV" role="m3s6u">
       <property role="TrG5h" value="bevoegd gezag verleent studieverlof aan de leraar" />
+      <property role="207Gpp" value="verlenen" />
       <node concept="cog_b" id="1YhrGssDJoW" role="2pmM46">
         <ref role="cog$q" node="1YhrGssDJdo" resolve="art. 5.7 lid 1, aanhef en onder b. Kaderregeling subsidies OCW, SZW en VWS" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJoX" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJoY" resolve="verlenen" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJoZ" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJgt" resolve="bevoegd gezag" />
@@ -3065,21 +2964,15 @@
         <ref role="1FQA6$" node="1YhrGssDJeO" resolve="aanvraag subsidie voor studieverlof" />
       </node>
     </node>
-    <node concept="cu0$f" id="1YhrGssDJp8" role="cu0BP">
-      <property role="TrG5h" value="voldoen aan" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
     <node concept="2cz0EU" id="1YhrGssDJpg" role="2cADMD">
       <property role="TrG5h" value="subsidieverplichting voor subsidie voor studieverlof" />
     </node>
     <node concept="mu5$5" id="1YhrGssDJp5" role="m3s6u">
       <property role="TrG5h" value="bevoegd gezag voldoet aan subsidieverplichting voor subsidie voor studieverlof" />
       <property role="3ANC2_" value="Hoe zit het met de mogelijkheid om middelen voor subsidieverlof aan andere activiteiten te besteden (art. 24 lid 2 Slb)?" />
+      <property role="207Gpp" value="voldoen aan" />
       <node concept="cog_b" id="1YhrGssDJp6" role="2pmM46">
         <ref role="cog$q" node="1YhrGssDJdp" resolve="art. 24 lid 2 Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJp7" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJp8" resolve="voldoen aan" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJp9" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJgt" resolve="bevoegd gezag" />
@@ -3102,19 +2995,13 @@
         <ref role="2cz2WA" node="1YhrGssDJpg" resolve="subsidieverplichting voor subsidie voor studieverlof" />
       </node>
     </node>
-    <node concept="cu0$f" id="1YhrGssDJpk" role="cu0BP">
-      <property role="TrG5h" value="buiten toepassing laten" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
     <node concept="mu5$5" id="1YhrGssDJph" role="m3s6u">
       <property role="TrG5h" value="minister laat een of meer bepalingen van de subsidieregeling lerarenbeurs buiten toepassing" />
       <property role="3ANC2_" value="Heb de tekst in de preconditie gelijkgetrokken met de tekst in de facts" />
+      <property role="207Gpp" value="buiten toepassing laten" />
       <node concept="cog_b" id="1YhrGssDJpi" role="2pmM46">
         <property role="1FEjNx" value="{De minister kan een of meer bepalingen van deze regeling buiten toepassing laten of daarvan afwijken voor zover deze toepassing, gelet op het belang dat deze regeling beoogt te beschermen, zal leiden tot onbillijkheid van overwegende aard.}" />
         <ref role="cog$q" node="1YhrGssDJdq" resolve="art. 26 Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJpj" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJpk" resolve="buiten toepassing laten" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJpl" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJk8" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
@@ -3135,19 +3022,13 @@
         <ref role="2cz2WA" node="1YhrGssDJmL" resolve="bekend maken besluit" />
       </node>
     </node>
-    <node concept="cu0$f" id="1YhrGssDJpu" role="cu0BP">
-      <property role="TrG5h" value="afwijken van" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
     <node concept="mu5$5" id="1YhrGssDJpr" role="m3s6u">
       <property role="TrG5h" value="minister wijkt af van een of meer bepalingen van de subsidieregeling lerarenbeurs" />
       <property role="3ANC2_" value="Heb de tekst in de preconditie gelijkgetrokken met de tekst in de facts" />
+      <property role="207Gpp" value="afwijken van" />
       <node concept="cog_b" id="1YhrGssDJps" role="2pmM46">
         <property role="1FEjNx" value="{De minister kan een of meer bepalingen van deze regeling buiten toepassing laten of daarvan afwijken voor zover deze toepassing, gelet op het belang dat deze regeling beoogt te beschermen, zal leiden tot onbillijkheid van overwegende aard.}" />
         <ref role="cog$q" node="1YhrGssDJdq" resolve="art. 26 Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJpt" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJpu" resolve="afwijken van" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJpv" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJk8" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
@@ -3168,19 +3049,13 @@
         <ref role="2cz2WA" node="1YhrGssDJmL" resolve="bekend maken besluit" />
       </node>
     </node>
-    <node concept="cu0$f" id="1YhrGssDJpC" role="cu0BP">
-      <property role="TrG5h" value="weigeren" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
     <node concept="mu5$5" id="1YhrGssDJp_" role="m3s6u">
       <property role="TrG5h" value="bestuursorgaan weigert subsidieverlening aan belanghebbende" />
       <property role="3ANC2_" value="Omdat in artikel 10 Sbl ook de weigeringsgronden van artikel 4:35 Awb genoemd worden als weigeringsgronden, hebben we  artikel 4:35 Awb toegevoegd. Hierbij heb je dus ook een andere actor en geïnteresseerde partij. &#13;&#10;19-7 Bij kolom interested party aanvrager gewijzigd in belanghebbende, omdat belanghebbende de wettelijke term is. Er bestaat in de Awb niet zoiets als een aanvrager. De belanghebbende doet een aanvraag" />
+      <property role="207Gpp" value="weigeren" />
       <node concept="cog_b" id="1YhrGssDJpA" role="2pmM46">
         <property role="1FEjNx" value="{1 De subsidieverlening kan in ieder geval worden geweigerd indien een gegronde reden bestaat om aan te nemen dat:&#13;&#10;&#13;&#10;a. de activiteiten niet of niet geheel zullen plaatsvinden;&#13;&#10;&#13;&#10;b. de aanvrager niet zal voldoen aan de aan de subsidie verbonden verplichtingen;&#13;&#10;&#13;&#10;c. de aanvrager niet op een behoorlijke wijze rekening en verantwoording zal afleggen omtrent de verrichte activiteiten en de daaraan verbonden uitgaven en inkomsten, voor zover deze voor de vaststelling van de subsidie van belang zijn.&#13;&#10;&#13;&#10;2 De subsidieverlening kan voorts in ieder geval worden geweigerd indien de aanvrager:&#13;&#10;&#13;&#10;a. in het kader van de aanvraag onjuiste of onvolledige gegevens heeft verstrekt en de verstrekking van deze gegevens tot een onjuiste beschikking op de aanvraag zou hebben geleid, of&#13;&#10;&#13;&#10;b. failliet is verklaard of aan hem surséance van betaling is verleend of ten aanzien van hem de schuldsaneringsregeling natuurlijke personen van toepassing is verklaard, dan wel een verzoek daartoe bij de rechtbank is ingediend.&#13;&#10;&#13;&#10;3 De subsidieverlening wordt voorts geweigerd indien de verstrekking van subsidie naar het oordeel van het bestuursorgaan niet verenigbaar is met het bepaalde in de artikelen 107 en 108 van het Verdrag betreffende de werking van de Europese Unie.}" />
         <ref role="cog$q" node="1YhrGssDJdr" resolve="art.4:35 Awb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJpB" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJpC" resolve="weigeren" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJpD" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJdE" resolve="bestuursorgaan" />
@@ -3240,11 +3115,9 @@
     <node concept="mu5$5" id="1YhrGssDJpW" role="m3s6u">
       <property role="TrG5h" value="minister van OCW weigert subsidieverlening aan een leraar" />
       <property role="3ANC2_" value="Als niet aan 1 van de andere voorwaarden voor het verlenen van de subsidie wordt voldaan, moet er ook worden afgewezen, neem ik aan." />
+      <property role="207Gpp" value="weigeren" />
       <node concept="cog_b" id="1YhrGssDJpX" role="2pmM46">
         <ref role="cog$q" node="1YhrGssDJds" resolve="art. 10 Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJpY" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJpC" resolve="weigeren" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJpZ" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJk8" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
@@ -3265,18 +3138,12 @@
         <ref role="2cz2WA" node="1YhrGssDJmL" resolve="bekend maken besluit" />
       </node>
     </node>
-    <node concept="cu0$f" id="1YhrGssDJq8" role="cu0BP">
-      <property role="TrG5h" value="verdelen" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
     <node concept="mu5$5" id="1YhrGssDJq5" role="m3s6u">
       <property role="TrG5h" value="minister van OCW verdeelt het beschikbare bedrag voor de subsidieregeling lerarenbeurs per doelgroep" />
       <property role="3ANC2_" value="De minister in artikel 6, eerste lid Slb is ten aanzien van de uitvoering hiervan verantwoording schuldig aan de wetgevende macht. De wetgevende macht is hier regering. Dit aanpassen in de excel. Regering is interesed party." />
+      <property role="207Gpp" value="verdelen" />
       <node concept="cog_b" id="1YhrGssDJq6" role="2pmM46">
         <ref role="cog$q" node="1YhrGssDJdt" resolve="art. 6 lid 1 Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJq7" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJq8" resolve="verdelen" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJq9" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJk8" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
@@ -3294,11 +3161,9 @@
     <node concept="mu5$5" id="1YhrGssDJqd" role="m3s6u">
       <property role="TrG5h" value="minister van OCW verdeelt concreet het beschikbare budget in een studiejaar per soort onderwijs" />
       <property role="3ANC2_" value="De minister in artikel 6, eerste lid Slb is ten aanzien van de uitvoering hiervan verantwoording schuldig aan de wetgevende macht. De wetgevende macht is hier regering. Dit aanpassen in de excel. Regering is interesed party." />
+      <property role="207Gpp" value="verdelen" />
       <node concept="cog_b" id="1YhrGssDJqe" role="2pmM46">
         <ref role="cog$q" node="1YhrGssDJdu" resolve="art. 22 Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJqf" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJq8" resolve="verdelen" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJqg" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJk8" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
@@ -3310,17 +3175,11 @@
         <ref role="1FQA6$" node="1YhrGssDJdD" resolve="Regering" />
       </node>
     </node>
-    <node concept="cu0$f" id="1YhrGssDJqm" role="cu0BP">
-      <property role="TrG5h" value="berekenen" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
     <node concept="mu5$5" id="1YhrGssDJqj" role="m3s6u">
       <property role="TrG5h" value="minister van OCW berekent de hoogte van de subsidie voor studiekosten" />
+      <property role="207Gpp" value="berekenen" />
       <node concept="cog_b" id="1YhrGssDJqk" role="2pmM46">
         <ref role="cog$q" node="1YhrGssDJdv" resolve="art. 15 Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJql" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJqm" resolve="berekenen" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJqn" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJk8" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
@@ -3343,12 +3202,10 @@
     </node>
     <node concept="mu5$5" id="1YhrGssDJqt" role="m3s6u">
       <property role="TrG5h" value="minister van OCW berekent de hoogte van de subsidie voor studieverlof" />
+      <property role="207Gpp" value="berekenen" />
       <node concept="cog_b" id="1YhrGssDJqu" role="2pmM46">
         <property role="1FEjNx" value="{De aanvraag geschiedt door invulling en inlevering of elektronische verzending van daartoe bestemde door de minister te verstrekken formulieren op de website van de Dienst Uitvoering Onderwijs.}" />
         <ref role="cog$q" node="1YhrGssDJdw" resolve="Art. 21 Slb  &#13;&#10;Art. 22 Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJqv" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJqm" resolve="berekenen" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJqw" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJk8" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
@@ -3365,12 +3222,10 @@
     </node>
     <node concept="mu5$5" id="1YhrGssDJq$" role="m3s6u">
       <property role="TrG5h" value="aanvraagformulieren verstrekken voor subsidie studiekosten op de website van de DUO" />
+      <property role="207Gpp" value="verstrekken" />
       <node concept="cog_b" id="1YhrGssDJq_" role="2pmM46">
         <property role="1FEjNx" value="{De aanvraag geschiedt door invulling en inlevering of elektronische verzending van daartoe bestemde door de minister te verstrekken formulieren op de website van de Dienst Uitvoering Onderwijs.}" />
         <ref role="cog$q" node="1YhrGssDJdx" resolve="art. 7 lid 2 Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJqA" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJlV" resolve="verstrekken" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJqB" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJk8" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
@@ -3387,12 +3242,10 @@
     </node>
     <node concept="mu5$5" id="1YhrGssDJqF" role="m3s6u">
       <property role="TrG5h" value="aanvraagformulieren verstrekken voor subsidie studieverlof op de website van de DUO" />
+      <property role="207Gpp" value="verstrekken" />
       <node concept="cog_b" id="1YhrGssDJqG" role="2pmM46">
         <property role="1FEjNx" value="{De aanvraag geschiedt door invulling en inlevering of elektronische verzending van daartoe bestemde door de minister te verstrekken formulieren op de website van de Dienst Uitvoering Onderwijs.}" />
         <ref role="cog$q" node="1YhrGssDJdy" resolve="art. 8 lid 2 Slb" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDJqH" role="3H36l9">
-        <ref role="1FQA6$" node="1YhrGssDJlV" resolve="verstrekken" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDJqI" role="3H36mW">
         <ref role="1FQA6$" node="1YhrGssDJk8" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
@@ -3410,10 +3263,8 @@
     <node concept="mu5$5" id="1YhrGssDJqN" role="m3s6u">
       <property role="TrG5h" value="indienen aanvraag" />
       <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+      <property role="207Gpp" value="placeholder" />
       <node concept="1FQA6B" id="1YhrGssDLNF" role="3H36mW">
-        <ref role="1FQA6$" node="1YhrGssDLNG" resolve="placeholder" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDLVj" role="3H36l9">
         <ref role="1FQA6$" node="1YhrGssDLNG" resolve="placeholder" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDLVl" role="3H36l7">
@@ -3426,10 +3277,8 @@
     <node concept="mu5$5" id="1YhrGssDJqP" role="m3s6u">
       <property role="TrG5h" value="bekendmaken besluit" />
       <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+      <property role="207Gpp" value="placeholder" />
       <node concept="1FQA6B" id="1YhrGssDLVp" role="3H36mW">
-        <ref role="1FQA6$" node="1YhrGssDLNG" resolve="placeholder" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDLVr" role="3H36l9">
         <ref role="1FQA6$" node="1YhrGssDLNG" resolve="placeholder" />
       </node>
       <node concept="1FQA6B" id="1YhrGssDLVt" role="3H36l7">
@@ -3523,6 +3372,128 @@
       <property role="TrG5h" value="placeholder" />
       <node concept="1zEXHp" id="1YhrGssL0Y1" role="coNO9">
         <node concept="1zEXQY" id="1YhrGssL0Y5" role="1zEXIt" />
+      </node>
+    </node>
+    <node concept="cu0$f" id="5xrYknorlIJ" role="cu0BP">
+      <property role="TrG5h" value="terugvorderen" />
+    </node>
+  </node>
+  <node concept="cu0$2" id="5xrYknoFTMi">
+    <property role="TrG5h" value="test-model" />
+    <node concept="cog_a" id="5xrYknoFTMj" role="cogAT">
+      <property role="TrG5h" value="TestSource" />
+      <property role="cog$t" value="test123" />
+      <property role="cog$m" value="28-04-2020" />
+      <property role="cog$g" value="30-04-2020" />
+    </node>
+    <node concept="cu0$f" id="5xrYknoFTMk" role="cu0BP">
+      <property role="TrG5h" value="Person" />
+      <property role="3ANC2_" value="Person Explanation" />
+      <node concept="cog_b" id="5xrYknoFTMl" role="2pmM46">
+        <property role="1FEjNx" value="Person Text" />
+        <ref role="cog$q" node="5xrYknoFTMj" resolve="TestSource" />
+      </node>
+      <node concept="1RnfdX" id="5xrYknoFTMS" role="coNO9" />
+    </node>
+    <node concept="cu0$f" id="5xrYknoFTMm" role="cu0BP">
+      <property role="TrG5h" value="Literals" />
+      <node concept="1zEWgd" id="5xrYknoFTMn" role="coNO9">
+        <node concept="1zEXHp" id="5xrYknoFTMo" role="1zF96y">
+          <node concept="1zEXQY" id="5xrYknoFTMp" role="1zEXIt" />
+        </node>
+        <node concept="1zEXHp" id="5xrYknoFTMq" role="1zF96y">
+          <node concept="1zEXQX" id="5xrYknoFTMr" role="1zEXIt">
+            <property role="1zEXQW" value="1.2345" />
+          </node>
+        </node>
+        <node concept="1zEXHp" id="5xrYknoFTMs" role="1zF96y">
+          <node concept="1zEXQZ" id="5xrYknoFTMt" role="1zEXIt">
+            <property role="1zEXQN" value="TestString" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="5xrYknoFTMu" role="cu0BP">
+      <property role="TrG5h" value="Reference" />
+      <node concept="cog_b" id="5xrYknoFTMv" role="2pmM46">
+        <property role="1FEjNx" value="Reference Text" />
+        <ref role="cog$q" node="5xrYknoFTMj" resolve="TestSource" />
+      </node>
+      <node concept="1zEXH5" id="5xrYknoFTMw" role="coNO9">
+        <node concept="1FQA6B" id="5xrYknoFTMx" role="1zF96A">
+          <ref role="1FQA6$" node="5xrYknoFTMm" resolve="Literals" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="5xrYknoFTMy" role="cu0BP">
+      <property role="TrG5h" value="List" />
+      <node concept="1zEXHe" id="5xrYknoFTMz" role="coNO9">
+        <property role="1zF6e5" value="ListName" />
+        <node concept="1FQA6B" id="5xrYknoFTM$" role="1zF6e3">
+          <ref role="1FQA6$" node="5xrYknoFTMk" resolve="Person" />
+        </node>
+      </node>
+    </node>
+    <node concept="mu5$5" id="5xrYknoFTM_" role="m3s6u">
+      <property role="TrG5h" value="Act1" />
+      <property role="207Gpp" value="[Person]" />
+      <node concept="cog_b" id="5xrYknoFTMA" role="2pmM46">
+        <ref role="cog$q" node="5xrYknoFTMj" resolve="TestSource" />
+      </node>
+      <node concept="1FQA6B" id="5xrYknoFTMB" role="3H36mW">
+        <ref role="1FQA6$" node="5xrYknoFTMk" resolve="Person" />
+      </node>
+      <node concept="1FQA6B" id="5xrYknoFTMC" role="3H36l7">
+        <ref role="1FQA6$" node="5xrYknoFTMk" resolve="Person" />
+      </node>
+      <node concept="1FQA6B" id="5xrYknoFTMD" role="3H36lm">
+        <ref role="1FQA6$" node="5xrYknoFTMk" resolve="Person" />
+      </node>
+      <node concept="1FQA6B" id="5xrYknoFTME" role="mu3T0">
+        <ref role="1FQA6$" node="5xrYknoFTMu" resolve="Reference" />
+      </node>
+    </node>
+    <node concept="2cz0EU" id="5xrYknoFTML" role="2cADMD">
+      <property role="TrG5h" value="Duty1" />
+      <property role="3ANC2_" value="Duty Explanation" />
+      <node concept="cog_b" id="5xrYknoFTMN" role="2pmM46">
+        <property role="1FEjNx" value="Text" />
+        <ref role="cog$q" node="5xrYknoFTMj" resolve="TestSource" />
+      </node>
+      <node concept="3jSua8" id="5xrYknoFTMO" role="cMmjI">
+        <ref role="3jSua9" node="5xrYknoFTMF" resolve="Act2" />
+      </node>
+      <node concept="3jSua8" id="5xrYknoFTMP" role="cMmjW">
+        <ref role="3jSua9" node="5xrYknoFTM_" resolve="Act1" />
+      </node>
+      <node concept="1FQA6B" id="5xrYknoFTMQ" role="3H37fS">
+        <ref role="1FQA6$" node="5xrYknoFTMk" resolve="Person" />
+      </node>
+      <node concept="1FQA6B" id="5xrYknoFTMR" role="3H37fL">
+        <ref role="1FQA6$" node="5xrYknoFTMk" resolve="Person" />
+      </node>
+    </node>
+    <node concept="mu5$5" id="5xrYknoFTMF" role="m3s6u">
+      <property role="TrG5h" value="Act2" />
+      <property role="3ANC2_" value="Test Explananation" />
+      <property role="207Gpp" value="[Literals]" />
+      <node concept="1FQA6B" id="5xrYknoFTMG" role="3H36mW">
+        <ref role="1FQA6$" node="5xrYknoFTMm" resolve="Literals" />
+      </node>
+      <node concept="1FQA6B" id="5xrYknoFTMH" role="3H36l7">
+        <ref role="1FQA6$" node="5xrYknoFTMm" resolve="Literals" />
+      </node>
+      <node concept="1FQA6B" id="5xrYknoFTMI" role="3H36lm">
+        <ref role="1FQA6$" node="5xrYknoFTMm" resolve="Literals" />
+      </node>
+      <node concept="1FQA6B" id="5xrYknoFTMJ" role="mu1c7">
+        <ref role="1FQA6$" node="5xrYknoFTMk" resolve="Person" />
+      </node>
+      <node concept="2cz2WB" id="5xrYknoFTMK" role="mu1c7">
+        <ref role="2cz2WA" node="5xrYknoFTML" resolve="Duty1" />
+      </node>
+      <node concept="1FQA6B" id="5xrYknoFTMM" role="mu1cf">
+        <ref role="1FQA6$" node="5xrYknoFTMk" resolve="Person" />
       </node>
     </node>
   </node>
