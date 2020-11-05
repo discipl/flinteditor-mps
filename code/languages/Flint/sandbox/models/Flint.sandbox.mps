@@ -217,12 +217,12 @@
     </node>
     <node concept="cu0$f" id="1YhrGssD_yx" role="cu0BP">
       <property role="TrG5h" value="burger met aanvraag" />
-      <node concept="1Rn4jf" id="1YhrGssD_yN" role="coNO9">
-        <node concept="1FQA6B" id="1YhrGssD_yT" role="1Rn3Lm">
+      <node concept="1Rn4jf" id="5xrYknnsmw7" role="coNO9">
+        <node concept="1FQA6B" id="5xrYknnsmwd" role="1Rn3Lm">
           <ref role="1FQA6$" node="qfyMBXf4LA" resolve="aanvraag" />
         </node>
-        <node concept="1FQA6B" id="1YhrGssD_z0" role="1Rn3LC">
-          <ref role="1FQA6$" node="qfyMBXf4LK" resolve="burger" />
+        <node concept="1FQA6B" id="5xrYknnsmwg" role="1Rn3LC">
+          <ref role="1FQA6$" node="qfyMBXf4LD" resolve="bedrag" />
         </node>
       </node>
     </node>
@@ -3523,6 +3523,31 @@
       <property role="TrG5h" value="placeholder" />
       <node concept="1zEXHp" id="1YhrGssL0Y1" role="coNO9">
         <node concept="1zEXQY" id="1YhrGssL0Y5" role="1zEXIt" />
+      </node>
+    </node>
+  </node>
+  <node concept="cu0$2" id="5xrYknnsmwj">
+    <property role="TrG5h" value="Test" />
+    <node concept="cu0$f" id="5xrYknnsmws" role="cu0BP">
+      <property role="TrG5h" value="bedrag" />
+    </node>
+    <node concept="cu0$f" id="5xrYknnsmwk" role="cu0BP">
+      <property role="TrG5h" value="aanvraag" />
+      <node concept="1RnfdX" id="5xrYknnsmwp" role="coNO9">
+        <node concept="1FQA6B" id="5xrYknnsmwr" role="1zF96y">
+          <ref role="1FQA6$" node="5xrYknnsmws" resolve="bedrag" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="5xrYknnsmwm" role="cu0BP">
+      <property role="TrG5h" value="bedrag projection" />
+      <node concept="1Rn4jf" id="5xrYknnsmwz" role="coNO9">
+        <node concept="1FQA6B" id="5xrYknnsmwD" role="1Rn3Lm">
+          <ref role="1FQA6$" node="5xrYknnsmwk" resolve="aanvraag" />
+        </node>
+        <node concept="1FQA6B" id="5xrYknnsmwG" role="1Rn3LC">
+          <ref role="1FQA6$" node="5xrYknnsmws" resolve="bedrag" />
+        </node>
       </node>
     </node>
   </node>
