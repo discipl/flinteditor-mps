@@ -3526,30 +3526,5 @@
       </node>
     </node>
   </node>
-  <node concept="cu0$2" id="5xrYknnsmwj">
-    <property role="TrG5h" value="Test" />
-    <node concept="cu0$f" id="5xrYknnsmws" role="cu0BP">
-      <property role="TrG5h" value="bedrag" />
-    </node>
-    <node concept="cu0$f" id="5xrYknnsmwk" role="cu0BP">
-      <property role="TrG5h" value="aanvraag" />
-      <node concept="1RnfdX" id="5xrYknnsmwp" role="coNO9">
-        <node concept="1FQA6B" id="5xrYknnsmwr" role="1zF96y">
-          <ref role="1FQA6$" node="5xrYknnsmws" resolve="bedrag" />
-        </node>
-      </node>
-    </node>
-    <node concept="cu0$f" id="5xrYknnsmwm" role="cu0BP">
-      <property role="TrG5h" value="bedrag projection" />
-      <node concept="1Rn4jf" id="5xrYknnsmwz" role="coNO9">
-        <node concept="1FQA6B" id="5xrYknnsmwD" role="1Rn3Lm">
-          <ref role="1FQA6$" node="5xrYknnsmwk" resolve="aanvraag" />
-        </node>
-        <node concept="1FQA6B" id="5xrYknnsmwG" role="1Rn3LC">
-          <ref role="1FQA6$" node="5xrYknnsmws" resolve="bedrag" />
-        </node>
-      </node>
-    </node>
-  </node>
 </model>
 
