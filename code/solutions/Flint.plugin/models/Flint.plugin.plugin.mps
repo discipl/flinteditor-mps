@@ -2671,30 +2671,22 @@
                     </node>
                   </node>
                   <node concept="3clFbH" id="63E5y3TK2qO" role="3cqZAp" />
-                  <node concept="3clFbF" id="63E5y3ToNR_" role="3cqZAp">
-                    <node concept="37vLTI" id="63E5y3ToNRA" role="3clFbG">
-                      <node concept="2OqwBi" id="63E5y3ToNRJ" role="37vLTJ">
-                        <node concept="37vLTw" id="63E5y3TvVP6" role="2Oq$k0">
-                          <ref role="3cqZAo" node="63E5y3TvEWu" resolve="actNode" />
+                  <node concept="3clFbF" id="5xrYknoi_R8" role="3cqZAp">
+                    <node concept="37vLTI" id="5xrYknoiJs5" role="3clFbG">
+                      <node concept="2OqwBi" id="5xrYknoiPC8" role="37vLTx">
+                        <node concept="37vLTw" id="5xrYknoiMre" role="2Oq$k0">
+                          <ref role="3cqZAo" node="63E5y3ToNU1" resolve="act" />
                         </node>
-                        <node concept="3TrEf2" id="5osFsyVtELq" role="2OqNvi">
-                          <ref role="3Tt5mk" to="lnwe:5osFsyV4cy1" resolve="actionRef" />
+                        <node concept="liA8E" id="5xrYknoiT9T" role="2OqNvi">
+                          <ref role="37wK5l" to="5qsh:~Act.getAction()" resolve="getAction" />
                         </node>
                       </node>
-                      <node concept="1PxgMI" id="63E5y3Twxm1" role="37vLTx">
-                        <node concept="chp4Y" id="5osFsyVu0mL" role="3oSUPX">
-                          <ref role="cht4Q" to="lnwe:5HFvLoKGhUL" resolve="FactReference" />
+                      <node concept="2OqwBi" id="5xrYknoiE$v" role="37vLTJ">
+                        <node concept="37vLTw" id="5xrYknoiDiS" role="2Oq$k0">
+                          <ref role="3cqZAo" node="63E5y3TvEWu" resolve="actNode" />
                         </node>
-                        <node concept="1rXfSq" id="63E5y3TwpU5" role="1m5AlR">
-                          <ref role="37wK5l" node="63E5y3ToNZQ" resolve="getNodeReferenceFromName" />
-                          <node concept="2OqwBi" id="63E5y3TwskV" role="37wK5m">
-                            <node concept="37vLTw" id="63E5y3TwrkY" role="2Oq$k0">
-                              <ref role="3cqZAo" node="63E5y3ToNU1" resolve="act" />
-                            </node>
-                            <node concept="liA8E" id="63E5y3TwvY0" role="2OqNvi">
-                              <ref role="37wK5l" to="5qsh:~Act.getAction()" resolve="getAction" />
-                            </node>
-                          </node>
+                        <node concept="3TrcHB" id="5xrYknoiHhT" role="2OqNvi">
+                          <ref role="3TsBF5" to="lnwe:5xrYknohjWs" resolve="action" />
                         </node>
                       </node>
                     </node>
@@ -4450,18 +4442,40 @@
           <node concept="3clFbS" id="63E5y3ToO4g" role="3clFbx">
             <node concept="3clFbF" id="63E5y3ToO4u" role="3cqZAp">
               <node concept="37vLTI" id="63E5y3ToO4v" role="3clFbG">
-                <node concept="2OqwBi" id="63E5y3ToO4w" role="37vLTx">
-                  <node concept="liA8E" id="63E5y3ToO4y" role="2OqNvi">
-                    <ref role="37wK5l" to="5qsh:~ListExpression.getName()" resolve="getName" />
+                <node concept="2OqwBi" id="5xrYknoJDWf" role="37vLTx">
+                  <node concept="2OqwBi" id="5xrYknoJB0q" role="2Oq$k0">
+                    <node concept="2OqwBi" id="63E5y3ToO4w" role="2Oq$k0">
+                      <node concept="liA8E" id="63E5y3ToO4y" role="2OqNvi">
+                        <ref role="37wK5l" to="5qsh:~ListExpression.getName()" resolve="getName" />
+                      </node>
+                      <node concept="1eOMI4" id="63E5y3ToO4k" role="2Oq$k0">
+                        <node concept="10QFUN" id="63E5y3ToO4l" role="1eOMHV">
+                          <node concept="3uibUv" id="1sTUmGwD7IT" role="10QFUM">
+                            <ref role="3uigEE" to="5qsh:~ListExpression" resolve="ListExpression" />
+                          </node>
+                          <node concept="37vLTw" id="63E5y3ToO4n" role="10QFUP">
+                            <ref role="3cqZAo" node="63E5y3ToO3$" resolve="expression" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="5xrYknoJC05" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence)" resolve="replace" />
+                      <node concept="Xl_RD" id="5xrYknoJDgj" role="37wK5m">
+                        <property role="Xl_RC" value="[" />
+                      </node>
+                      <node concept="Xl_RD" id="5xrYknoJD$J" role="37wK5m">
+                        <property role="Xl_RC" value="" />
+                      </node>
+                    </node>
                   </node>
-                  <node concept="1eOMI4" id="63E5y3ToO4k" role="2Oq$k0">
-                    <node concept="10QFUN" id="63E5y3ToO4l" role="1eOMHV">
-                      <node concept="3uibUv" id="1sTUmGwD7IT" role="10QFUM">
-                        <ref role="3uigEE" to="5qsh:~ListExpression" resolve="ListExpression" />
-                      </node>
-                      <node concept="37vLTw" id="63E5y3ToO4n" role="10QFUP">
-                        <ref role="3cqZAo" node="63E5y3ToO3$" resolve="expression" />
-                      </node>
+                  <node concept="liA8E" id="5xrYknoJEYi" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence)" resolve="replace" />
+                    <node concept="Xl_RD" id="5xrYknoJFjk" role="37wK5m">
+                      <property role="Xl_RC" value="]" />
+                    </node>
+                    <node concept="Xl_RD" id="5xrYknoJF_b" role="37wK5m">
+                      <property role="Xl_RC" value="" />
                     </node>
                   </node>
                 </node>

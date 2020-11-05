@@ -8,7 +8,7 @@ data class Act(
     val act: ActReference,
     override val sources: List<Source>?,
     val actor: FactReference,
-    val action: FactReference,
+    val action: String,
     val `object`: FactReference,
     val recipient: FactReference,
     val create: List<ActCreateableAndTerminateable>,

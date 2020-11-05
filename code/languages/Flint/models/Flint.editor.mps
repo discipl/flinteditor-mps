@@ -1209,8 +1209,8 @@
           <node concept="3F0ifn" id="7PeSHTFdOgw" role="3EZMnx">
             <property role="3F0ifm" value="action:" />
           </node>
-          <node concept="3F1sOY" id="5osFsyVsxiu" role="3EZMnx">
-            <ref role="1NtTu8" to="lnwe:5osFsyV4cy1" resolve="actionRef" />
+          <node concept="3F0A7n" id="5xrYknohkjF" role="3EZMnx">
+            <ref role="1NtTu8" to="lnwe:5xrYknohjWs" resolve="action" />
           </node>
           <node concept="l2Vlx" id="7PeSHTFdOfM" role="2iSdaV" />
         </node>

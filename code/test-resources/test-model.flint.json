@@ -43,7 +43,10 @@
     {
       "fact": "[Person]",
       "explanation": "Person Explanation",
-      "function": "[]",
+      "function": {
+        "expression": "CREATE",
+        "operands": []
+      },
       "sources": [
         {
           "validFrom": "28-04-2020",
@@ -100,7 +103,7 @@
       "explanation": "",
       "function": {
         "expression": "LIST",
-        "name": "ListName",
+        "name": "[ListName]",
         "items": "[Person]"
       },
       "sources": []
@@ -109,7 +112,7 @@
   "duties": [
     {
       "duty": "<Duty1>",
-      "duty-components": "",
+      "duty-components": [],
       "duty-holder": "[Person]",
       "claimant": "[Person]",
       "create": "<<Act2>>",
