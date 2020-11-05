@@ -6,6 +6,7 @@
     </modelRoot>
     <modelRoot contentPath="${module}/libs" type="java_classes">
       <sourceRoot location="FlintParser.jar" />
+      <sourceRoot location="json-simple.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -22,6 +23,7 @@
     <stubModelEntry path="${module}/libs/kotlin-stdlib-jdk7.jar" />
     <stubModelEntry path="${module}/libs/kotlin-stdlib-jdk8.jar" />
     <stubModelEntry path="${module}/libs/kotlin-stdlib.jar" />
+    <stubModelEntry path="${module}/libs/json-simple.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

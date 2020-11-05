@@ -2,7 +2,7 @@
 <model ref="r:e1c4157a-470b-45c3-b6a9-e224efe13d0d(Flint.test.flintmodel)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="1" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="2" />
   </languages>
   <imports />
   <registry>
@@ -29,7 +29,8 @@
         <child id="6868897032739751036" name="function" index="coNO9" />
       </concept>
       <concept id="2444626260293387291" name="Flint.structure.Duty" flags="ng" index="2cz0EU">
-        <reference id="2444626260294520798" name="terminate" index="2cBO5Z" />
+        <child id="898982168832817003" name="createRef" index="cMmjI" />
+        <child id="898982168832817017" name="terminateRef" index="cMmjW" />
       </concept>
       <concept id="2444626260293394822" name="Flint.structure.DutyReference" flags="ng" index="2cz2WB">
         <reference id="2444626260293394823" name="duty" index="2cz2WA" />
@@ -45,6 +46,9 @@
       </concept>
       <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
         <child id="6983418503075280678" name="sources" index="2pmM46" />
+      </concept>
+      <concept id="7402439007429942662" name="Flint.structure.ActReference" flags="ng" index="3jSua8">
+        <reference id="7402439007429942663" name="act" index="3jSua9" />
       </concept>
       <concept id="4808965957220771074" name="Flint.structure.AND" flags="ng" index="1zEWgd" />
       <concept id="4808965957220776525" name="Flint.structure.OR" flags="ng" index="1zEXH2" />
@@ -64,6 +68,11 @@
       <concept id="6587498613242404529" name="Flint.structure.FactReference" flags="ng" index="1FQA6B">
         <reference id="6587498613242404530" name="fact" index="1FQA6$" />
       </concept>
+      <concept id="491685697582699846" name="Flint.structure.PROJECTION" flags="ng" index="1Rn4jf">
+        <child id="491685697582722527" name="context" index="1Rn3Lm" />
+        <child id="491685697582722529" name="fact" index="1Rn3LC" />
+      </concept>
+      <concept id="491685697582670580" name="Flint.structure.CREATE" flags="ng" index="1RnfdX" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -100,6 +109,25 @@
     <node concept="cu0$f" id="63E5y3TohyA" role="cu0BP">
       <property role="TrG5h" value="Fact4" />
     </node>
+    <node concept="cu0$f" id="qfyMBX1NMZ" role="cu0BP">
+      <property role="TrG5h" value="CreateFact" />
+      <node concept="1RnfdX" id="qfyMBX1NNc" role="coNO9">
+        <node concept="1FQA6B" id="qfyMBX1NNg" role="1zF96y">
+          <ref role="1FQA6$" node="63E5y3TohyA" resolve="Fact4" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="qfyMBX1NNj" role="cu0BP">
+      <property role="TrG5h" value="ProjectionFact" />
+      <node concept="1Rn4jf" id="qfyMBX1NNz" role="coNO9">
+        <node concept="1FQA6B" id="qfyMBX1NND" role="1Rn3Lm">
+          <ref role="1FQA6$" node="qfyMBX1NMZ" resolve="CreateFact" />
+        </node>
+        <node concept="1FQA6B" id="qfyMBX1NNG" role="1Rn3LC">
+          <ref role="1FQA6$" node="63E5y3TohyA" resolve="Fact4" />
+        </node>
+      </node>
+    </node>
     <node concept="mu5$5" id="63E5y3TohTT" role="m3s6u">
       <property role="TrG5h" value="act1" />
       <property role="3ANC2_" value="Example explanation" />
@@ -121,11 +149,11 @@
           </node>
         </node>
       </node>
-      <node concept="1FQA6B" id="63E5y3TohUn" role="mu1cf">
-        <ref role="1FQA6$" node="63E5y3Tohyy" resolve="Fact3" />
+      <node concept="1FQA6B" id="qfyMBX6WzD" role="mu1cf">
+        <ref role="1FQA6$" node="qfyMBX1NMZ" resolve="CreateFact" />
       </node>
-      <node concept="1FQA6B" id="63E5y3TohUw" role="mu1c7">
-        <ref role="1FQA6$" node="63E5y3Tohyv" resolve="Fact2" />
+      <node concept="1FQA6B" id="qfyMBX6WzG" role="mu1c7">
+        <ref role="1FQA6$" node="qfyMBX1NMZ" resolve="CreateFact" />
       </node>
       <node concept="2cz2WB" id="63E5y3TohUA" role="mu1c7">
         <ref role="2cz2WA" node="63E5y3TohTX" resolve="duty2" />
@@ -163,7 +191,12 @@
     </node>
     <node concept="2cz0EU" id="63E5y3TohTX" role="2cADMD">
       <property role="TrG5h" value="duty2" />
-      <ref role="2cBO5Z" node="63E5y3TohTT" resolve="act1" />
+      <node concept="3jSua8" id="qfyMBWUFGA" role="cMmjW">
+        <ref role="3jSua9" node="63E5y3TohTT" resolve="act1" />
+      </node>
+      <node concept="2cz2WB" id="qfyMBWZ16b" role="cMmjI">
+        <ref role="2cz2WA" node="63E5y3TohTV" resolve="duty1" />
+      </node>
     </node>
     <node concept="cog_a" id="63E5y3TohUE" role="cogAT">
       <property role="TrG5h" value="Source1" />

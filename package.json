@@ -1,5 +1,5 @@
 {
 	"dependencies": {
-		"@discipl/compliance-by-design": "^0.2.1"
+		"@discipl/compliance-by-design": "^0.4.0"
 	}
 }

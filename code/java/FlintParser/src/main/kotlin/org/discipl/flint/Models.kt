@@ -90,6 +90,12 @@ data class ListExpression(override val expression: String, val items: Resolvable
         get() = listOf(items)
 }
 
+data class ProjectionExpression(override val expression: String, val context: List<Resolvable>, val fact: Resolvable) :
+    Expression {
+    override val allResolvables: List<Resolvable>
+        get() = context
+}
+
 data class BooleanLiteralExpression(override val expression: String, override val operand: Boolean) :
     LiteralExpression<Boolean> {
     override val allResolvables: List<Resolvable>

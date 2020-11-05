@@ -169,4 +169,27 @@ internal class FlintParserTest {
 
         flintParser.getFacts().forEach { assertThat(it, `is`(notNullValue())) }
     }
+
+    @Test
+    fun projectionAndCreate() {
+        this::class.java.classLoader.getResourceAsStream("projection-and-create.flint.json").use {
+            InputStreamReader(it).use {
+                val text = it.readText()
+                val flintParser = FlintParser(text)
+                val allExpressions =
+                    flintParser.getFacts().flatMap { (it.function as? Expression)?.flatten() ?: emptyList() }
+
+                val createExpressions =
+                    allExpressions.mapNotNull { it as? MultiExpression }.filter { it.expression == "CREATE" }
+                assertThat(createExpressions.size, `is`(equalTo(1)))
+
+                val projectionExpressions = allExpressions.mapNotNull { it as? ProjectionExpression }
+                assertThat(projectionExpressions.size, `is`(equalTo(1)))
+
+                val fact = projectionExpressions.first().fact
+                val factReference = FactReference("bedrag")
+                assertThat(fact, `is`(equalTo(factReference as Resolvable)))
+            }
+        }
+    }
 }

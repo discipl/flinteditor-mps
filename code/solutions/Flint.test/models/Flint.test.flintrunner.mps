@@ -2,7 +2,7 @@
 <model ref="r:8da1cb8b-6012-42db-a9f8-f7995e254849(Flint.test.flintrunner)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="1" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="2" />
   </languages>
   <imports>
     <import index="atn4" ref="r:e1c4157a-470b-45c3-b6a9-e224efe13d0d(Flint.test.flintmodel)" />
@@ -57,6 +57,12 @@
     </node>
     <node concept="231zEt" id="63E5y3TmdBR" role="231zEh">
       <property role="TrG5h" value="Actor3" />
+      <node concept="1FQA6B" id="Ftn0l75NhR" role="231zE6">
+        <ref role="1FQA6$" to="atn4:63E5y3Tohyt" resolve="Fact1" />
+      </node>
+    </node>
+    <node concept="231zEt" id="Ftn0l75Niu" role="231zEh">
+      <property role="TrG5h" value="Actor4" />
     </node>
     <node concept="1FQA6B" id="63E5y3TohyQ" role="24vW_X">
       <ref role="1FQA6$" to="atn4:63E5y3TohyA" resolve="Fact4" />

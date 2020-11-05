@@ -105,6 +105,7 @@ The following expressions are multi expressions:
 - LESS_THAN
 - SUM
 - PRODUCT
+- CREATE
 
 To create a multi expression:
 1. Hit `Ctrl+Space` and select the multi expression from the list.
@@ -151,6 +152,15 @@ To create a LIST expression:
 1. Select the second <no name> area and enter the items which is also an expression.
 
 ![List Expression](images/listexpression.png)
+
+#### PROJECTION expression  
+A PROJECTION expression has a reference to a fact with a CREATE expression called context and a reference to one of the operands of the CREATE expression that you want the value of called fact.
+To create a PROJECTION expression:
+1. Hit `Ctrl+Space` and select PROJECTION from the list.
+1. Select the first <no fact> area, hit `Ctrl+Space` and select the CREATE expression fact.
+1. Select the second <no fact> area, hit `Ctrl+Space` and select the operand of the CREATE expression that you want to project.
+
+![Projection Expression](images/projectionexpression.png)
 
 ## Creating a FlintRunner
 To create a FlintRunner:
