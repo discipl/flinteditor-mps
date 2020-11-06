@@ -38,6 +38,9 @@ compileTestKotlin {
 }
 
 test {
+    environment "FLINT_FILLER_DIR", flint_filler_executables_dir.path
+    environment "FLINT_FILLER_OUTPUT_DIR", new File(buildDir, "tmp").path
+    environment "FLINT_FILLER_TEST_FILE", new File(projectDir, "src/test/resources/flint-filler-test-file.xml").path
     useJUnitPlatform()
 }
 
