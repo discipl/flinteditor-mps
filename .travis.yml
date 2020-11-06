@@ -19,12 +19,13 @@ before_script:
   - sleep 3 # give xvfb some time to start
 
 after_failure:
+  - find "static-resources/generated/flintfiller/flintfiller-linux" -type f -executable
   - if [ -f ./code/build/reports/html/junit-noframes.html ]; then lynx -dump ./code/build/reports/html/junit-noframes.html; fi
   - if [ -f ./code/java/FlintParser/build/reports/tests/test/index.html ]; then lynx -dump ./code/java/FlintParser/build/reports/tests/test/index.html; fi
+  - if [ -f ./code/java/FlintParser/build/reports/tests/test/classes/org.discipl.flint.flintfiller.FlintFillerTest.html ]; then lynx -dump ./code/java/FlintParser/build/reports/tests/test/classes/org.discipl.flint.flintfiller.FlintFillerTest.html; fi
 
 script:
-  - ./gradlew initProject
-  - ./gradlew test
+  - ./gradlew initProject test
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
