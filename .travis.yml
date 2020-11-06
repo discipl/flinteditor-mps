@@ -20,6 +20,7 @@ before_script:
 
 after_failure:
   - if [ -f ./code/build/reports/html/junit-noframes.html ]; then lynx -dump ./code/build/reports/html/junit-noframes.html; fi
+  - if [ -f ./code/java/FlintParser/build/reports/tests/test/index.html ]; then lynx -dump ./code/java/FlintParser/build/reports/tests/test/index.html; fi
 
 script:
   - ./gradlew initProject
