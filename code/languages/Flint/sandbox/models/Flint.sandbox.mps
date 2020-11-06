@@ -69,7 +69,6 @@
       <concept id="4808965957220776510" name="Flint.structure.LESS_THAN" flags="ng" index="1zEXGL" />
       <concept id="4808965957220776525" name="Flint.structure.OR" flags="ng" index="1zEXH2" />
       <concept id="4808965957220776522" name="Flint.structure.NOT" flags="ng" index="1zEXH5" />
-      <concept id="4808965957220776513" name="Flint.structure.LIST" flags="ng" index="1zEXHe" />
       <concept id="4808965957220776534" name="Flint.structure.LITERAL" flags="ng" index="1zEXHp">
         <child id="4808965957220776594" name="operand" index="1zEXIt" />
       </concept>
@@ -77,15 +76,8 @@
         <property id="4808965957220777139" name="value" index="1zEXQW" />
       </concept>
       <concept id="4808965957220777137" name="Flint.structure.BooleanOperand" flags="ng" index="1zEXQY" />
-      <concept id="4808965957220777136" name="Flint.structure.StringOperand" flags="ng" index="1zEXQZ">
-        <property id="4808965957220777148" name="value" index="1zEXQN" />
-      </concept>
       <concept id="4808965957220331692" name="Flint.structure.MultiExpression" flags="ng" index="1zF96z">
         <child id="4808965957220331693" name="operands" index="1zF96y" />
-      </concept>
-      <concept id="4808965957220331691" name="Flint.structure.ListExpression" flags="ng" index="1zF96$">
-        <property id="4808965957220336266" name="name" index="1zF6e5" />
-        <child id="4808965957220336268" name="items" index="1zF6e3" />
       </concept>
       <concept id="4808965957220331688" name="Flint.structure.SingleExpression" flags="ng" index="1zF96B">
         <child id="4808965957220331689" name="operand" index="1zF96A" />
@@ -105,125 +97,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="cu0$2" id="5xrYknoFTMi">
-    <property role="TrG5h" value="test-model" />
-    <node concept="cog_a" id="5xrYknoFTMj" role="cogAT">
-      <property role="TrG5h" value="TestSource" />
-      <property role="cog$t" value="test123" />
-      <property role="cog$m" value="28-04-2020" />
-      <property role="cog$g" value="30-04-2020" />
-    </node>
-    <node concept="cu0$f" id="5xrYknoFTMk" role="cu0BP">
-      <property role="TrG5h" value="Person" />
-      <property role="3ANC2_" value="Person Explanation" />
-      <node concept="cog_b" id="5xrYknoFTMl" role="2pmM46">
-        <property role="1FEjNx" value="Person Text" />
-        <ref role="cog$q" node="5xrYknoFTMj" resolve="TestSource" />
-      </node>
-      <node concept="1RnfdX" id="5xrYknoFTMS" role="coNO9" />
-    </node>
-    <node concept="cu0$f" id="5xrYknoFTMm" role="cu0BP">
-      <property role="TrG5h" value="Literals" />
-      <node concept="1zEWgd" id="5xrYknoFTMn" role="coNO9">
-        <node concept="1zEXHp" id="5xrYknoFTMo" role="1zF96y">
-          <node concept="1zEXQY" id="5xrYknoFTMp" role="1zEXIt" />
-        </node>
-        <node concept="1zEXHp" id="5xrYknoFTMq" role="1zF96y">
-          <node concept="1zEXQX" id="5xrYknoFTMr" role="1zEXIt">
-            <property role="1zEXQW" value="1.2345" />
-          </node>
-        </node>
-        <node concept="1zEXHp" id="5xrYknoFTMs" role="1zF96y">
-          <node concept="1zEXQZ" id="5xrYknoFTMt" role="1zEXIt">
-            <property role="1zEXQN" value="TestString" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="cu0$f" id="5xrYknoFTMu" role="cu0BP">
-      <property role="TrG5h" value="Reference" />
-      <node concept="cog_b" id="5xrYknoFTMv" role="2pmM46">
-        <property role="1FEjNx" value="Reference Text" />
-        <ref role="cog$q" node="5xrYknoFTMj" resolve="TestSource" />
-      </node>
-      <node concept="1zEXH5" id="5xrYknoFTMw" role="coNO9">
-        <node concept="1FQA6B" id="5xrYknoFTMx" role="1zF96A">
-          <ref role="1FQA6$" node="5xrYknoFTMm" resolve="Literals" />
-        </node>
-      </node>
-    </node>
-    <node concept="cu0$f" id="5xrYknoFTMy" role="cu0BP">
-      <property role="TrG5h" value="List" />
-      <node concept="1zEXHe" id="5xrYknoFTMz" role="coNO9">
-        <property role="1zF6e5" value="ListName" />
-        <node concept="1FQA6B" id="5xrYknoFTM$" role="1zF6e3">
-          <ref role="1FQA6$" node="5xrYknoFTMk" resolve="Person" />
-        </node>
-      </node>
-    </node>
-    <node concept="mu5$5" id="5xrYknoFTM_" role="m3s6u">
-      <property role="TrG5h" value="Act1" />
-      <property role="207Gpp" value="[Person]" />
-      <node concept="cog_b" id="5xrYknoFTMA" role="2pmM46">
-        <ref role="cog$q" node="5xrYknoFTMj" resolve="TestSource" />
-      </node>
-      <node concept="1FQA6B" id="5xrYknoFTMB" role="3H36mW">
-        <ref role="1FQA6$" node="5xrYknoFTMk" resolve="Person" />
-      </node>
-      <node concept="1FQA6B" id="5xrYknoFTMC" role="3H36l7">
-        <ref role="1FQA6$" node="5xrYknoFTMk" resolve="Person" />
-      </node>
-      <node concept="1FQA6B" id="5xrYknoFTMD" role="3H36lm">
-        <ref role="1FQA6$" node="5xrYknoFTMk" resolve="Person" />
-      </node>
-      <node concept="1FQA6B" id="5xrYknoFTME" role="mu3T0">
-        <ref role="1FQA6$" node="5xrYknoFTMu" resolve="Reference" />
-      </node>
-    </node>
-    <node concept="2cz0EU" id="5xrYknoFTML" role="2cADMD">
-      <property role="TrG5h" value="Duty1" />
-      <property role="3ANC2_" value="Duty Explanation" />
-      <node concept="cog_b" id="5xrYknoFTMN" role="2pmM46">
-        <property role="1FEjNx" value="Text" />
-        <ref role="cog$q" node="5xrYknoFTMj" resolve="TestSource" />
-      </node>
-      <node concept="3jSua8" id="5xrYknoFTMO" role="cMmjI">
-        <ref role="3jSua9" node="5xrYknoFTMF" resolve="Act2" />
-      </node>
-      <node concept="3jSua8" id="5xrYknoFTMP" role="cMmjW">
-        <ref role="3jSua9" node="5xrYknoFTM_" resolve="Act1" />
-      </node>
-      <node concept="1FQA6B" id="5xrYknoFTMQ" role="3H37fS">
-        <ref role="1FQA6$" node="5xrYknoFTMk" resolve="Person" />
-      </node>
-      <node concept="1FQA6B" id="5xrYknoFTMR" role="3H37fL">
-        <ref role="1FQA6$" node="5xrYknoFTMk" resolve="Person" />
-      </node>
-    </node>
-    <node concept="mu5$5" id="5xrYknoFTMF" role="m3s6u">
-      <property role="TrG5h" value="Act2" />
-      <property role="3ANC2_" value="Test Explananation" />
-      <property role="207Gpp" value="[Literals]" />
-      <node concept="1FQA6B" id="5xrYknoFTMG" role="3H36mW">
-        <ref role="1FQA6$" node="5xrYknoFTMm" resolve="Literals" />
-      </node>
-      <node concept="1FQA6B" id="5xrYknoFTMH" role="3H36l7">
-        <ref role="1FQA6$" node="5xrYknoFTMm" resolve="Literals" />
-      </node>
-      <node concept="1FQA6B" id="5xrYknoFTMI" role="3H36lm">
-        <ref role="1FQA6$" node="5xrYknoFTMm" resolve="Literals" />
-      </node>
-      <node concept="1FQA6B" id="5xrYknoFTMJ" role="mu1c7">
-        <ref role="1FQA6$" node="5xrYknoFTMk" resolve="Person" />
-      </node>
-      <node concept="2cz2WB" id="5xrYknoFTMK" role="mu1c7">
-        <ref role="2cz2WA" node="5xrYknoFTML" resolve="Duty1" />
-      </node>
-      <node concept="1FQA6B" id="5xrYknoFTMM" role="mu1cf">
-        <ref role="1FQA6$" node="5xrYknoFTMk" resolve="Person" />
-      </node>
-    </node>
-  </node>
   <node concept="231zEi" id="qfyMBXj0DG">
     <property role="TrG5h" value="SubsidieRunner" />
     <ref role="231zEc" node="qfyMBXf4L_" resolve="Subsidie" />

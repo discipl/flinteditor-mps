@@ -1134,11 +1134,6 @@
             <ref role="3bR37D" to="ffeo:71aLKqdKvPp" resolve="jetbrains.mps.ide.make" />
           </node>
         </node>
-        <node concept="1SiIV0" id="6J7WCuJ14cW" role="3bR37C">
-          <node concept="3bR9La" id="6J7WCuJ14cX" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6Lg2" resolve="jetbrains.mps.smodel.resources" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="6J7WCuJ14cY" role="3bR37C">
           <node concept="3bR9La" id="6J7WCuJ14cZ" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
@@ -1182,11 +1177,6 @@
         <node concept="1SiIV0" id="2yDZpUvTnyo" role="3bR37C">
           <node concept="3bR9La" id="2yDZpUvTnyp" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6e6T56swkXE" role="3bR37C">
-          <node concept="3bR9La" id="6e6T56swkXF" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:2eDSGe9d1qo" resolve="jetbrains.mps.execution.api" />
           </node>
         </node>
         <node concept="1SiIV0" id="6e6T56swkXG" role="3bR37C">
@@ -1347,6 +1337,36 @@
               <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
               <node concept="2Ry0Ak" id="2gsSwmLeXEq" role="iGT6I">
                 <property role="2Ry0Am" value="json-simple.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4Y4T$M$U6Ee" role="3bR37C">
+          <node concept="1BurEX" id="4Y4T$M$U6Ef" role="1SiIV1">
+            <node concept="398BVA" id="4Y4T$M$U6E1" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="4Y4T$M$U6E2" role="iGT6I">
+                <property role="2Ry0Am" value="commons-exec.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4Y4T$M$U6Et" role="3bR37C">
+          <node concept="1BurEX" id="4Y4T$M$U6Eu" role="1SiIV1">
+            <node concept="398BVA" id="4Y4T$M$U6Eg" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="4Y4T$M$U6Eh" role="iGT6I">
+                <property role="2Ry0Am" value="commons-io.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4Y4T$M$U6EG" role="3bR37C">
+          <node concept="1BurEX" id="4Y4T$M$U6EH" role="1SiIV1">
+            <node concept="398BVA" id="4Y4T$M$U6Ev" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="4Y4T$M$U6Ew" role="iGT6I">
+                <property role="2Ry0Am" value="commons-lang3.jar" />
               </node>
             </node>
           </node>

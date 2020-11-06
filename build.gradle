@@ -4,7 +4,6 @@ buildscript {
             url = uri("https://projects.itemis.de/nexus/content/repositories/mbeddr")
         }
         mavenCentral()
-        mavenLocal()
     }
     dependencies {
         classpath "de.itemis.mps:mps-gradle-plugin:$mps_gradle_plugin_version"

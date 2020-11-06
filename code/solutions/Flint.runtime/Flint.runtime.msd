@@ -7,6 +7,9 @@
     <modelRoot contentPath="${module}/libs" type="java_classes">
       <sourceRoot location="FlintParser.jar" />
       <sourceRoot location="commons-io.jar" />
+      <sourceRoot location="json-simple.jar" />
+      <sourceRoot location="kotlin-stdlib-common.jar" />
+      <sourceRoot location="kotlin-stdlib.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -16,9 +19,13 @@
   </facets>
   <stubModelEntries>
     <stubModelEntry path="${module}/libs/annotations.jar" />
+    <stubModelEntry path="${module}/libs/commons-exec.jar" />
+    <stubModelEntry path="${module}/libs/commons-io.jar" />
+    <stubModelEntry path="${module}/libs/commons-lang3.jar" />
     <stubModelEntry path="${module}/libs/FlintParser.jar" />
     <stubModelEntry path="${module}/libs/gson-fire.jar" />
     <stubModelEntry path="${module}/libs/gson.jar" />
+    <stubModelEntry path="${module}/libs/json-simple.jar" />
     <stubModelEntry path="${module}/libs/kotlin-stdlib-common.jar" />
     <stubModelEntry path="${module}/libs/kotlin-stdlib-jdk7.jar" />
     <stubModelEntry path="${module}/libs/kotlin-stdlib-jdk8.jar" />
