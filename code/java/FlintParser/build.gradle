@@ -41,4 +41,6 @@ test {
     useJUnitPlatform()
 }
 
-tasks.getByName("test").dependsOn  ":flint-filler:addToStaticResources"
+if (!new File(flint_filler_executables_dir, "flintfiller-linux").exists()) {
+    tasks.getByName("test").dependsOn  ":fetchFlintFillerExecutables"
+}

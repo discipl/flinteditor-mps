@@ -14,8 +14,6 @@ buildscript {
 plugins {
     id "com.github.node-gradle.node" version "2.2.3"
     id "java"
-    id "com.jetbrains.python.envs" version "0.0.30"
-    id "org.ajoberstar.grgit" version "4.0.2"
 }
 
 group 'org.discipl'
@@ -35,6 +33,9 @@ ext {
     platforms = ["linux", "mac", "win"]
     current_platform = currentPlatform()
     generateTask = null
+
+    flint_filler_release_version = "v0.0.1"
+    flint_filler_executables_dir = new File(generatedResourcesDir, "flintfiller")
 
     javafx_version = "14"
     mbeddr_version = "2019.3.+"
@@ -149,6 +150,7 @@ task fetchResources() {
     group "dependancies"
     dependsOn cleanResources
     finalizedBy fetchComplianceByDesign
+    finalizedBy "fetchFlintFillerExecutables"
 }
 
 task cleanPlatformLibs(type: Delete) {
@@ -267,7 +269,6 @@ task initProject() {
     dependsOn(resolveArtifacts)
     dependsOn(resolvePlatformLibs)
     dependsOn(fetchResources)
-    dependsOn(":flint-filler:addToStaticResources")
 }
 
 // Build Scripts
@@ -317,4 +318,31 @@ task collectXmlReports() {
 task htmlReport(type: de.itemis.mps.gradle.RunAntScript, dependsOn: collectXmlReports) {
     group "verification"
     script = file("$codeDir/html-report.xml")
+}
+
+def downloadFillerFile(name) {
+    def f = new File(flint_filler_executables_dir, name)
+    f.getParentFile().mkdirs();
+    if (f.exists()) {
+        f.delete()
+    }
+    new URL("https://github.com/discipl/flintfiller/releases/download/${flint_filler_release_version}/${name}").withInputStream{ i -> f.withOutputStream{ it << i }}
+    return f
+}
+
+
+task fetchFlintFillerExecutables() {
+    doLast {
+        def files = []
+        files.add(downloadFillerFile("flintfiller-linux"))
+        files.add(downloadFillerFile("flintfiller-macos"))
+        files.add(downloadFillerFile("flintfiller-windows.exe"))
+        if (!OperatingSystem.current().isWindows()) {
+            files.each { file ->
+                exec {
+                    commandLine "chmod", "+x", file.path
+                }
+            }
+        }
+    }
 }

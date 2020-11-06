@@ -11,5 +11,3 @@ pluginManagement {
 }
 rootProject.name = 'Flint'
 include "code:java:FlintParser"
-include 'flint-filler'
-

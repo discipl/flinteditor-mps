@@ -16,7 +16,7 @@ internal class FlintFillerTest {
     @Test
     fun run() {
         val flintModel = filler.run(
-            projectPath.resolve("flint-filler/flint-filler-test-file.xml")
+            projectPath.resolve("code/java/FlintParser/src/test/resources/flint-filler-test-file.xml")
                 .toString()
         )
         println(flintModel.substring(0..400))
