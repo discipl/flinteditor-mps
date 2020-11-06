@@ -9,6 +9,7 @@ jobs:
     strategy:
       matrix:
         os: [ ubuntu-16.04, macos-latest, windows-latest ]
+        runLynx: [failure(), failure(), false]
     name: Run Tests
     runs-on: ${{ matrix.os }}
     steps:
@@ -24,11 +25,11 @@ jobs:
         env:
           GRADLE_OPTS: -Dorg.gradle.daemon=false
       - name: Tests failed
-        if: ${{ failure() }}
+        if: ${{ matrix.runLynx }}
         run: sudo apt-get install lynx && if [ -f ./code/build/reports/html/junit-noframes.html ]; then lynx -dump ./code/build/reports/html/junit-noframes.html; fi && if [ -f ./code/java/FlintParser/build/reports/tests/test/index.html ]; then lynx -dump ./code/java/FlintParser/build/reports/tests/test/index.html; fi && if [ -f ./code/java/FlintParser/build/reports/tests/test/classes/org.discipl.flint.flintfiller.FlintFillerTest.html ]; then lynx -dump ./code/java/FlintParser/build/reports/tests/test/classes/org.discipl.flint.flintfiller.FlintFillerTest.html; fi
       - name: Upload Test Results
         if: ${{ always() }}
         uses: actions/upload-artifact@v2
         with:
-          name: test-results
+          name: test-results-${{ matrix.os }}
           path: code/java/FlintParser/build/reports/tests/test
