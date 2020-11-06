@@ -1,0 +1,22 @@
+name: Tests
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Run Tests
+    runs-on: ubuntu-16.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Test
+        uses: GabrielBB/xvfb-action@v1.2
+        with:
+          run: ./gradlew test
+        env:
+          GRADLE_OPTS: -Dorg.gradle.daemon=false
+      - name: Tests failed
+        if: ${{ failure() }}
+        run: sudo apt-get install lynx && if [ -f ./code/build/reports/html/junit-noframes.html ]; then lynx -dump ./code/build/reports/html/junit-noframes.html; fi && if [ -f ./code/java/FlintParser/build/reports/tests/test/index.html ]; then lynx -dump ./code/java/FlintParser/build/reports/tests/test/index.html; fi && if [ -f ./code/java/FlintParser/build/reports/tests/test/classes/org.discipl.flint.flintfiller.FlintFillerTest.html ]; then lynx -dump ./code/java/FlintParser/build/reports/tests/test/classes/org.discipl.flint.flintfiller.FlintFillerTest.html; fi
