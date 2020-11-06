@@ -3,7 +3,7 @@ install: true
 
 jdk: openjdk11
 
-dist: bionic
+dist: trusty
 
 env:
   - GRADLE_OPTS=-Dorg.gradle.daemon=false
@@ -25,6 +25,7 @@ after_failure:
   - if [ -f ./code/java/FlintParser/build/reports/tests/test/classes/org.discipl.flint.flintfiller.FlintFillerTest.html ]; then lynx -dump ./code/java/FlintParser/build/reports/tests/test/classes/org.discipl.flint.flintfiller.FlintFillerTest.html; fi
 
 script:
+  - ldd --version
   - ./gradlew initProject test
 
 before_cache:
