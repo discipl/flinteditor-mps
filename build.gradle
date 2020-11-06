@@ -33,7 +33,7 @@ ext {
     current_platform = currentPlatform()
     generateTask = null
 
-    flint_filler_release_version = "v0.0.2"
+    flint_filler_release_version = "v0.0.3"
     flint_filler_executables_dir = new File(generatedResourcesDir, "flintfiller")
 
     javafx_version = "14"
