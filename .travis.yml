@@ -3,7 +3,7 @@ install: true
 
 jdk: openjdk11
 
-dist: trusty
+dist: bionic
 
 env:
   - GRADLE_OPTS=-Dorg.gradle.daemon=false
