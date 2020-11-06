@@ -4,9 +4,9 @@ import java.awt.BorderLayout
 import java.nio.file.Path
 import javax.swing.JPanel
 
-class FlintWebView(assetFilePath: Path) : JPanel() {
+class FlintWebView(assetFilePath: Path, logger: JSLogger) : JPanel() {
     private val jfxPanel: FlintWebViewJfxPanel =
-        FlintWebViewJfxPanel(assetFilePath)
+        FlintWebViewJfxPanel(assetFilePath, logger)
 
     init {
         this.setLayout(BorderLayout())

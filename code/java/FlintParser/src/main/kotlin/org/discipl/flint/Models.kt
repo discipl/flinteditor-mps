@@ -8,7 +8,7 @@ data class Act(
     val act: ActReference,
     override val sources: List<Source>?,
     val actor: FactReference,
-    val action: FactReference,
+    val action: String,
     val `object`: FactReference,
     val recipient: FactReference,
     val create: List<ActCreateableAndTerminateable>,
@@ -88,6 +88,12 @@ data class ListExpression(override val expression: String, val items: Resolvable
     Expression {
     override val allResolvables: List<Resolvable>
         get() = listOf(items)
+}
+
+data class ProjectionExpression(override val expression: String, val context: List<Resolvable>, val fact: Resolvable) :
+    Expression {
+    override val allResolvables: List<Resolvable>
+        get() = context
 }
 
 data class BooleanLiteralExpression(override val expression: String, override val operand: Boolean) :

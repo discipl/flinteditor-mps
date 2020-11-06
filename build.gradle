@@ -47,6 +47,7 @@ ext {
 configurations {
     mpslib
     mpsplatformlib
+    mpsGenLib
     artifact
     mps
     antLib
@@ -69,15 +70,23 @@ dependencies {
         mpsplatformlib "org.openjfx:javafx-swing:$javafx_version:$platform"
         mpsplatformlib "org.openjfx:javafx-web:$javafx_version:$platform"
     }
+
     mpslib(project("code:java:FlintParser")) {
         exclude group: 'org.openjfx'
     }
-
+    mpslib 'com.googlecode.json-simple:json-simple:1.1.1'
     mpslib 'commons-io:commons-io:2.7'
 
     artifact "com.mbeddr:platform:$mbeddr_version"
     mps("com.jetbrains:mps:$mps_version")
     antLib("org.apache.ant:ant-junit:1.10.1")
+
+    mpsGenLib "org.openjfx:javafx-base:$javafx_version:$current_platform"
+    mpsGenLib "org.openjfx:javafx-controls:$javafx_version:$current_platform"
+    mpsGenLib "org.openjfx:javafx-graphics:$javafx_version:$current_platform"
+    mpsGenLib "org.openjfx:javafx-media:$javafx_version:$current_platform"
+    mpsGenLib "org.openjfx:javafx-swing:$javafx_version:$current_platform"
+    mpsGenLib "org.openjfx:javafx-web:$javafx_version:$current_platform"
 }
 
 ext["itemis.mps.gradle.ant.defaultScriptArgs"] = ["-Dmps_home=$mpsDir.path".toString()]
@@ -118,7 +127,7 @@ task copyProjectLibs(type: Copy) {
 }
 
 subprojects.forEach {
-    copyProjectLibs.dependsOn it.getTasksByName("shadowJar", false)
+    copyProjectLibs.dependsOn it.getTasksByName("build", false)
 }
 
 task cleanLibs(type: Delete) {
@@ -220,21 +229,11 @@ task copyMbeddrPlugins(type: Copy) {
 
 import org.gradle.internal.os.OperatingSystem
 
-task copyJavaFxLibs(type: Copy) {
-    dependsOn(resolvePlatformLibs)
-    from(fileTree(platformLibDir).files) { // flattening
-        include {
-            it.file.name ==~ "javafx.*-$current_platform\\.jar\$"
-        }
-    }
-    into "${mpsDir}/lib"
-}
-
 task resolveMps(type: Copy) {
     from configurations.mps.resolve().collect { zipTree(it) }
     into mpsDir
     finalizedBy(copyMbeddrPlugins)
-    finalizedBy(copyJavaFxLibs)
+    finalizedBy("addFxLibs")
 }
 
 task cleanProject(type: Delete) {
@@ -290,6 +289,11 @@ task buildFlintIde(type: de.itemis.mps.gradle.RunAntScript, dependsOn: buildFlin
 task buildFlintPlugin(type: de.itemis.mps.gradle.RunAntScript, dependsOn: buildFlint) {
     script = file("$codeDir/build-PluginDistribution.xml")
     targets = ["build"]
+}
+
+task addFxLibs(type: Copy) {
+    from configurations.mpsGenLib.resolve()
+    into "${mpsDir}/lib"
 }
 
 task mpsTest(type: de.itemis.mps.gradle.RunAntScript, dependsOn: buildFlint) {
