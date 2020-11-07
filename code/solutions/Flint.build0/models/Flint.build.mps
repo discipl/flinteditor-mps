@@ -183,9 +183,7 @@
       <concept id="6818892319992984815" name="jetbrains.mps.build.mps.structure.BuildMps_TipsPackage" flags="ng" index="20sUq0">
         <reference id="7323166234190549907" name="tips" index="21GgXK" />
       </concept>
-      <concept id="6503355885715333289" name="jetbrains.mps.build.mps.structure.BuildMpsAspect" flags="ng" index="2igEWh">
-        <property id="1787667533297081791" name="testGeneration" index="1MpcYp" />
-      </concept>
+      <concept id="6503355885715333289" name="jetbrains.mps.build.mps.structure.BuildMpsAspect" flags="ng" index="2igEWh" />
       <concept id="6592112598314586625" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginGroup" flags="ng" index="m$f5U">
         <reference id="6592112598314586626" name="group" index="m$f5T" />
       </concept>
@@ -2269,9 +2267,7 @@
     <property role="TrG5h" value="FlintTest" />
     <property role="2DA0ip" value="../.." />
     <property role="turDy" value="build-testFlint.xml" />
-    <node concept="2igEWh" id="63E5y3SV3$L" role="1hWBAP">
-      <property role="1MpcYp" value="true" />
-    </node>
+    <node concept="2igEWh" id="63E5y3SV3$L" role="1hWBAP" />
     <node concept="10PD9b" id="63E5y3SREGV" role="10PD9s" />
     <node concept="3b7kt6" id="63E5y3SREGW" role="10PD9s" />
     <node concept="1gjT0q" id="63E5y3SREIl" role="10PD9s" />

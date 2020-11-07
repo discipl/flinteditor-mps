@@ -45,7 +45,6 @@ console.error = function(message, e) {
             val children = root.children
             children.add(this.webView)
             this.scene = scene
-            load(null, null)
         }
     }
 
