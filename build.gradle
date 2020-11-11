@@ -4,7 +4,6 @@ buildscript {
             url = uri("https://projects.itemis.de/nexus/content/repositories/mbeddr")
         }
         mavenCentral()
-        mavenLocal()
     }
     dependencies {
         classpath "de.itemis.mps:mps-gradle-plugin:$mps_gradle_plugin_version"
@@ -33,6 +32,9 @@ ext {
     platforms = ["linux", "mac", "win"]
     current_platform = currentPlatform()
     generateTask = null
+
+    flint_filler_release_version = "v0.0.3"
+    flint_filler_executables_dir = new File(generatedResourcesDir, "flintfiller")
 
     javafx_version = "14"
     mbeddr_version = "2019.3.+"
@@ -67,13 +69,17 @@ dependencies {
         mpsplatformlib "org.openjfx:javafx-swing:$javafx_version:$platform"
         mpsplatformlib "org.openjfx:javafx-web:$javafx_version:$platform"
     }
+
     mpslib(project("code:java:FlintParser")) {
         exclude group: 'org.openjfx'
     }
     mpslib 'com.googlecode.json-simple:json-simple:1.1.1'
+    mpslib 'commons-io:commons-io:2.7'
+
     artifact "com.mbeddr:platform:$mbeddr_version"
     mps("com.jetbrains:mps:$mps_version")
     antLib("org.apache.ant:ant-junit:1.10.1")
+
     mpsGenLib "org.openjfx:javafx-base:$javafx_version:$current_platform"
     mpsGenLib "org.openjfx:javafx-controls:$javafx_version:$current_platform"
     mpsGenLib "org.openjfx:javafx-graphics:$javafx_version:$current_platform"
@@ -84,8 +90,6 @@ dependencies {
 
 ext["itemis.mps.gradle.ant.defaultScriptArgs"] = ["-Dmps_home=$mpsDir.path".toString()]
 ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = project.configurations.antLib.fileCollection({ true })
-
-project.configurations.antLib.fileCollection({ true }).forEach { println it }
 
 node {
     // Version of node to use.
@@ -141,7 +145,7 @@ task resolveLibs(type: Copy) {
 }
 
 task cleanResources(type: Delete) {
-    delete(generatedResourcesDir)
+    delete fileTree(dir: "$generatedResourcesDir", exclude: "**/flintfiller/*")
 }
 
 task fetchComplianceByDesign(type: Copy) {
@@ -154,6 +158,7 @@ task fetchResources() {
     group "dependancies"
     dependsOn cleanResources
     finalizedBy fetchComplianceByDesign
+    finalizedBy "fetchFlintFillerExecutables"
 }
 
 task cleanPlatformLibs(type: Delete) {
@@ -316,4 +321,31 @@ task collectXmlReports() {
 task htmlReport(type: de.itemis.mps.gradle.RunAntScript, dependsOn: collectXmlReports) {
     group "verification"
     script = file("$codeDir/html-report.xml")
+}
+
+def downloadFillerFile(name) {
+    def f = new File(flint_filler_executables_dir, name)
+    f.getParentFile().mkdirs();
+    if (f.exists()) {
+        f.delete()
+    }
+    new URL("https://github.com/discipl/flintfiller/releases/download/${flint_filler_release_version}/${name}").withInputStream{ i -> f.withOutputStream{ it << i }}
+    return f
+}
+
+
+task fetchFlintFillerExecutables() {
+    doLast {
+        def files = []
+        files.add(downloadFillerFile("flintfiller-linux"))
+        files.add(downloadFillerFile("flintfiller-macos"))
+        files.add(downloadFillerFile("flintfiller-windows.exe"))
+        if (!OperatingSystem.current().isWindows()) {
+            files.each { file ->
+                exec {
+                    commandLine "chmod", "+x", file.path
+                }
+            }
+        }
+    }
 }

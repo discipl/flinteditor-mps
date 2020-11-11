@@ -20,6 +20,13 @@ This is the MPS Flint IDE user guide. The Guide covers the following topics.
 1. If the model folder says generation required. In the top bar click `Build > Make Project`. If you get a menu asking you to review errors select the `Ignore Errors` option.  
 ![Make Project](images/makeproject.png)
 
+## [Optional] Import from Wetten.nl
+1. Right click on the model folder under your flint solution and select "Import FlintModel from Wetten.nl". 
+![Import From Wetten.nl](images/importfromwettennl.png)
+1. Enter a juriconnect (for example jci1.3:c:BWBR0011823&hoofdstuk=3&afdeling=4&paragraaf=1&artikel=30b&lid=1&o=k&z=2019-02-27&g=2019-02-27
+)  in the dialog and hit OK.
+![Import From Wetten.nl Dialog](images/importfromwettennldialog.png)
+
 ## Editing a FlintModel
 1. Open the created FlintModel using the navigation menu.  
 ![Created Flint Model](images/openmodel.png)

@@ -26,7 +26,7 @@ class FlintWebViewJfxPanel(assetFilePath: Path, private val logger: JSLogger) : 
             val scene = Scene(root)
 
             webEngine.loadWorker.stateProperty()
-                .addListener { observable: ObservableValue<out Worker.State?>?, oldValue: Worker.State?, newValue: Worker.State? ->
+                .addListener { _: ObservableValue<out Worker.State?>?, _: Worker.State?, _: Worker.State? ->
                     val window: JSObject = webEngine.executeScript("window") as JSObject
                     window.setMember("java", logger)
                     webEngine.executeScript(
@@ -45,7 +45,6 @@ console.error = function(message, e) {
             val children = root.children
             children.add(this.webView)
             this.scene = scene
-            load(null, null)
         }
     }
 

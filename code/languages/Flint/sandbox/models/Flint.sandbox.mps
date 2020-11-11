@@ -69,7 +69,6 @@
       <concept id="4808965957220776510" name="Flint.structure.LESS_THAN" flags="ng" index="1zEXGL" />
       <concept id="4808965957220776525" name="Flint.structure.OR" flags="ng" index="1zEXH2" />
       <concept id="4808965957220776522" name="Flint.structure.NOT" flags="ng" index="1zEXH5" />
-      <concept id="4808965957220776513" name="Flint.structure.LIST" flags="ng" index="1zEXHe" />
       <concept id="4808965957220776534" name="Flint.structure.LITERAL" flags="ng" index="1zEXHp">
         <child id="4808965957220776594" name="operand" index="1zEXIt" />
       </concept>
@@ -77,15 +76,8 @@
         <property id="4808965957220777139" name="value" index="1zEXQW" />
       </concept>
       <concept id="4808965957220777137" name="Flint.structure.BooleanOperand" flags="ng" index="1zEXQY" />
-      <concept id="4808965957220777136" name="Flint.structure.StringOperand" flags="ng" index="1zEXQZ">
-        <property id="4808965957220777148" name="value" index="1zEXQN" />
-      </concept>
       <concept id="4808965957220331692" name="Flint.structure.MultiExpression" flags="ng" index="1zF96z">
         <child id="4808965957220331693" name="operands" index="1zF96y" />
-      </concept>
-      <concept id="4808965957220331691" name="Flint.structure.ListExpression" flags="ng" index="1zF96$">
-        <property id="4808965957220336266" name="name" index="1zF6e5" />
-        <child id="4808965957220336268" name="items" index="1zF6e3" />
       </concept>
       <concept id="4808965957220331688" name="Flint.structure.SingleExpression" flags="ng" index="1zF96B">
         <child id="4808965957220331689" name="operand" index="1zF96A" />
@@ -105,124 +97,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="cu0$2" id="qfyMBXf4L_">
-    <property role="TrG5h" value="Subsidie" />
-    <node concept="cu0$f" id="qfyMBXf4LD" role="cu0BP">
-      <property role="TrG5h" value="bedrag" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
-    <node concept="cu0$f" id="qfyMBXf4LA" role="cu0BP">
-      <property role="TrG5h" value="aanvraag" />
-      <node concept="1RnfdX" id="qfyMBXf4LB" role="coNO9">
-        <node concept="1FQA6B" id="qfyMBXf4LC" role="1zF96y">
-          <ref role="1FQA6$" node="qfyMBXf4LD" resolve="bedrag" />
-        </node>
-        <node concept="1FQA6B" id="1YhrGssD_yW" role="1zF96y">
-          <ref role="1FQA6$" node="qfyMBXf4LK" resolve="burger" />
-        </node>
-      </node>
-    </node>
-    <node concept="cu0$f" id="qfyMBXf4LE" role="cu0BP">
-      <property role="TrG5h" value="bedrag projection" />
-      <node concept="1Rn4jf" id="qfyMBXf4LF" role="coNO9">
-        <node concept="1FQA6B" id="qfyMBXf4LG" role="1Rn3Lm">
-          <ref role="1FQA6$" node="qfyMBXf4LA" resolve="aanvraag" />
-        </node>
-        <node concept="1FQA6B" id="qfyMBXCRmd" role="1Rn3LC">
-          <ref role="1FQA6$" node="qfyMBXf4LD" resolve="bedrag" />
-        </node>
-      </node>
-    </node>
-    <node concept="cu0$f" id="qfyMBXf4LK" role="cu0BP">
-      <property role="TrG5h" value="burger" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
-    <node concept="cu0$f" id="qfyMBXf4LM" role="cu0BP">
-      <property role="TrG5h" value="verzoek" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
-    <node concept="cu0$f" id="qfyMBXf4LO" role="cu0BP">
-      <property role="TrG5h" value="ambtenaar" />
-      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
-    </node>
-    <node concept="mu5$5" id="qfyMBXf4LI" role="m3s6u">
-      <property role="TrG5h" value="subsidie aanvragen" />
-      <property role="207Gpp" value="aanvragen" />
-      <node concept="1FQA6B" id="qfyMBXf4LJ" role="3H36mW">
-        <ref role="1FQA6$" node="qfyMBXf4LK" resolve="burger" />
-      </node>
-      <node concept="1FQA6B" id="qfyMBXf4LL" role="3H36l7">
-        <ref role="1FQA6$" node="qfyMBXf4LM" resolve="verzoek" />
-      </node>
-      <node concept="1FQA6B" id="qfyMBXf4LN" role="3H36lm">
-        <ref role="1FQA6$" node="qfyMBXf4LO" resolve="ambtenaar" />
-      </node>
-      <node concept="1FQA6B" id="qfyMBXf4LR" role="mu1cf">
-        <ref role="1FQA6$" node="qfyMBXf4LA" resolve="aanvraag" />
-      </node>
-      <node concept="1zEWgd" id="1YpZTwqr5HB" role="mu3T0">
-        <node concept="1FQA6B" id="qfyMBXlKYT" role="1zF96y">
-          <ref role="1FQA6$" node="qfyMBXf4LD" resolve="bedrag" />
-        </node>
-      </node>
-    </node>
-    <node concept="mu5$5" id="qfyMBXf4LS" role="m3s6u">
-      <property role="TrG5h" value="subsidie aanvraag toekennen" />
-      <property role="207Gpp" value="toekennen" />
-      <node concept="1FQA6B" id="qfyMBXf4LT" role="3H36mW">
-        <ref role="1FQA6$" node="qfyMBXf4LO" resolve="ambtenaar" />
-      </node>
-      <node concept="1FQA6B" id="qfyMBXf4LU" role="3H36l7">
-        <ref role="1FQA6$" node="qfyMBXf4LA" resolve="aanvraag" />
-      </node>
-      <node concept="1FQA6B" id="qfyMBXf4LV" role="3H36lm">
-        <ref role="1FQA6$" node="qfyMBXf4LK" resolve="burger" />
-      </node>
-      <node concept="1zEXGL" id="qfyMBXf4LW" role="mu3T0">
-        <node concept="1FQA6B" id="qfyMBXf4LX" role="1zF96y">
-          <ref role="1FQA6$" node="qfyMBXf4LE" resolve="bedrag projection" />
-        </node>
-        <node concept="1zEXHp" id="qfyMBXf4LY" role="1zF96y">
-          <node concept="1zEXQX" id="qfyMBXf4LZ" role="1zEXIt">
-            <property role="1zEXQW" value="500" />
-          </node>
-        </node>
-      </node>
-      <node concept="1FQA6B" id="3irudGozqss" role="mu1c7">
-        <ref role="1FQA6$" node="qfyMBXf4LA" resolve="aanvraag" />
-      </node>
-    </node>
-    <node concept="mu5$5" id="1YpZTwqrdYn" role="m3s6u">
-      <property role="TrG5h" value="subsidie intrekken" />
-      <property role="207Gpp" value="intrekken" />
-      <node concept="1FQA6B" id="1YhrGssD_z4" role="3H36mW">
-        <ref role="1FQA6$" node="1YhrGssD_yx" resolve="burger met aanvraag" />
-      </node>
-      <node concept="1FQA6B" id="1YpZTwqrdZa" role="3H36l7">
-        <ref role="1FQA6$" node="qfyMBXf4LA" resolve="aanvraag" />
-      </node>
-      <node concept="1FQA6B" id="1YpZTwqrdZd" role="3H36lm">
-        <ref role="1FQA6$" node="qfyMBXf4LO" resolve="ambtenaar" />
-      </node>
-      <node concept="1FQA6B" id="1YpZTwqrdZg" role="mu1c7">
-        <ref role="1FQA6$" node="qfyMBXf4LA" resolve="aanvraag" />
-      </node>
-    </node>
-    <node concept="cu0$f" id="1YhrGssD_yx" role="cu0BP">
-      <property role="TrG5h" value="burger met aanvraag" />
-      <node concept="1Rn4jf" id="5xrYknnsmw7" role="coNO9">
-        <node concept="1FQA6B" id="5xrYknnsmwd" role="1Rn3Lm">
-          <ref role="1FQA6$" node="qfyMBXf4LA" resolve="aanvraag" />
-        </node>
-        <node concept="1FQA6B" id="5xrYknnsmwg" role="1Rn3LC">
-          <ref role="1FQA6$" node="qfyMBXf4LD" resolve="bedrag" />
-        </node>
-      </node>
-    </node>
-    <node concept="cu0$f" id="1YpZTwqy7Y3" role="cu0BP">
-      <property role="TrG5h" value="person" />
-    </node>
-  </node>
   <node concept="231zEi" id="qfyMBXj0DG">
     <property role="TrG5h" value="SubsidieRunner" />
     <ref role="231zEc" node="qfyMBXf4L_" resolve="Subsidie" />
@@ -252,163 +126,6 @@
     </node>
     <node concept="1FQA6B" id="1YpZTwqy8ax" role="24vW_X">
       <ref role="1FQA6$" node="1YpZTwqy7Y3" resolve="person" />
-    </node>
-  </node>
-  <node concept="231zEi" id="2gsSwmLvelr">
-    <property role="TrG5h" value="lerarenbeurs runner" />
-    <ref role="231zEc" node="1YhrGssDJd8" resolve="flint-example-lerarenbeurs" />
-    <node concept="231zEt" id="2gsSwmLvelt" role="231zEh">
-      <property role="TrG5h" value="Belanghebbende" />
-      <node concept="1FQA6B" id="1YhrGssDLVx" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJem" resolve="persoon wiens belang rechtstreeks bij een besluit is betrokken" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKKf" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiu" resolve="degene die voldoet aan bevoegdheidseisen gesteld in" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKK2" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiw" resolve="artikel 3 van de Wet op het primair onderwijs" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKKs" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiy" resolve="artikel 3 van de Wet op de expertisecentra" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKL3" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJi$" resolve="artikel XI van de Wet op de beroepen in het onderwijs" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKKD" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiA" resolve="artikel 3 van de Wet primair onderwijs BES" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKLg" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiC" resolve="is benoemd of tewerkgesteld zonder benoeming als bedoeld in artikel 33 van de Wet op het voortgezet onderwijs" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKKQ" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiE" resolve="artikel 4.2.1. van de Wet educatie en beroepsonderwijs" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKLt" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiG" resolve="artikel 80 van de Wet voortgezet onderwijs BES" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKLE" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiI" resolve="artikel 4.2.1 van de Wet educatie beroepsonderwijs BES" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKLR" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiK" resolve="die lesgeeft in het hoger onderwijs" />
-      </node>
-    </node>
-    <node concept="231zEt" id="1YpZTwqiz_u" role="231zEh">
-      <property role="TrG5h" value="Leraar1" />
-      <node concept="1FQA6B" id="1YhrGssDKM4" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJem" resolve="persoon wiens belang rechtstreeks bij een besluit is betrokken" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKMh" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiu" resolve="degene die voldoet aan bevoegdheidseisen gesteld in" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKMS" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiw" resolve="artikel 3 van de Wet op het primair onderwijs" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKMu" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiy" resolve="artikel 3 van de Wet op de expertisecentra" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKN5" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJi$" resolve="artikel XI van de Wet op de beroepen in het onderwijs" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKMF" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiA" resolve="artikel 3 van de Wet primair onderwijs BES" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKNi" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiC" resolve="is benoemd of tewerkgesteld zonder benoeming als bedoeld in artikel 33 van de Wet op het voortgezet onderwijs" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKNv" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiE" resolve="artikel 4.2.1. van de Wet educatie en beroepsonderwijs" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKNG" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiG" resolve="artikel 80 van de Wet voortgezet onderwijs BES" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKNT" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiI" resolve="artikel 4.2.1 van de Wet educatie beroepsonderwijs BES" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKO6" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiK" resolve="die lesgeeft in het hoger onderwijs" />
-      </node>
-    </node>
-    <node concept="231zEt" id="1YpZTwqmoIb" role="231zEh">
-      <property role="TrG5h" value="Leraar2" />
-      <node concept="1FQA6B" id="1YhrGssDKOj" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJem" resolve="persoon wiens belang rechtstreeks bij een besluit is betrokken" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKOw" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiu" resolve="degene die voldoet aan bevoegdheidseisen gesteld in" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKP7" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiw" resolve="artikel 3 van de Wet op het primair onderwijs" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKOH" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiy" resolve="artikel 3 van de Wet op de expertisecentra" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKPk" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJi$" resolve="artikel XI van de Wet op de beroepen in het onderwijs" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKOU" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiA" resolve="artikel 3 van de Wet primair onderwijs BES" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKPx" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiC" resolve="is benoemd of tewerkgesteld zonder benoeming als bedoeld in artikel 33 van de Wet op het voortgezet onderwijs" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKPI" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiE" resolve="artikel 4.2.1. van de Wet educatie en beroepsonderwijs" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKPV" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiG" resolve="artikel 80 van de Wet voortgezet onderwijs BES" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKQ8" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiI" resolve="artikel 4.2.1 van de Wet educatie beroepsonderwijs BES" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKQl" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJiK" resolve="die lesgeeft in het hoger onderwijs" />
-      </node>
-    </node>
-    <node concept="231zEt" id="2gsSwmLveot" role="231zEh">
-      <property role="TrG5h" value="Bestuursorgaan" />
-      <node concept="1FQA6B" id="1YhrGssDKQC" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJdQ" resolve="orgaan" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKQy" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJdS" resolve="rechtspersoon die krachtens publiekrecht is ingesteld" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKQI" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJe0" resolve="met enig openbaar gezag bekleed" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKQO" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJdE" resolve="bestuursorgaan" />
-      </node>
-    </node>
-    <node concept="231zEt" id="2gsSwmLvep9" role="231zEh">
-      <property role="TrG5h" value="Bevoegd Gezag" />
-      <node concept="1FQA6B" id="1YhrGssDKQU" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJgw" resolve="artikel 1 van de Wet op het primair onderwijs" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKR2" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJgy" resolve="artikel 1 van de Wet op de expertisecentra" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKRq" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJg$" resolve="artikel 1 van de Wet op het voortgezet onderwijs" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKRa" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJgG" resolve="artikel 1.1.1, van de Wet educatie en beroepsonderwijs BES" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKRi" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJgI" resolve="instellingsbestuur bedoeld in artikel 1.1, onderdeel j, van de Wet op het hoger onderwijs en wetenschappelijk onderzoek" />
-      </node>
-      <node concept="1FQA6B" id="1YhrGssDKRy" role="231zE6">
-        <ref role="1FQA6$" node="1YhrGssDJk8" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
-      </node>
-    </node>
-    <node concept="231zEf" id="1YpZTwqmq0E" role="231zE2">
-      <ref role="231zEe" node="1YpZTwqiz_u" resolve="Leraar1" />
-    </node>
-    <node concept="231zEf" id="1YpZTwqmq0I" role="231zE2">
-      <ref role="231zEe" node="1YpZTwqmoIb" resolve="Leraar2" />
-    </node>
-    <node concept="1FQA6B" id="1YhrGssDKRE" role="24vW_X">
-      <ref role="1FQA6$" node="1YhrGssDJdW" resolve="persoon" />
     </node>
   </node>
   <node concept="cu0$2" id="1YhrGssDJd8">
@@ -3378,123 +3095,279 @@
       <property role="TrG5h" value="terugvorderen" />
     </node>
   </node>
-  <node concept="cu0$2" id="5xrYknoFTMi">
-    <property role="TrG5h" value="test-model" />
-    <node concept="cog_a" id="5xrYknoFTMj" role="cogAT">
-      <property role="TrG5h" value="TestSource" />
-      <property role="cog$t" value="test123" />
-      <property role="cog$m" value="28-04-2020" />
-      <property role="cog$g" value="30-04-2020" />
-    </node>
-    <node concept="cu0$f" id="5xrYknoFTMk" role="cu0BP">
-      <property role="TrG5h" value="Person" />
-      <property role="3ANC2_" value="Person Explanation" />
-      <node concept="cog_b" id="5xrYknoFTMl" role="2pmM46">
-        <property role="1FEjNx" value="Person Text" />
-        <ref role="cog$q" node="5xrYknoFTMj" resolve="TestSource" />
+  <node concept="231zEi" id="2gsSwmLvelr">
+    <property role="TrG5h" value="lerarenbeurs runner" />
+    <ref role="231zEc" node="1YhrGssDJd8" resolve="flint-example-lerarenbeurs" />
+    <node concept="231zEt" id="2gsSwmLvelt" role="231zEh">
+      <property role="TrG5h" value="Belanghebbende" />
+      <node concept="1FQA6B" id="1YhrGssDLVx" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJem" resolve="persoon wiens belang rechtstreeks bij een besluit is betrokken" />
       </node>
-      <node concept="1RnfdX" id="5xrYknoFTMS" role="coNO9" />
+      <node concept="1FQA6B" id="1YhrGssDKKf" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiu" resolve="degene die voldoet aan bevoegdheidseisen gesteld in" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKK2" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiw" resolve="artikel 3 van de Wet op het primair onderwijs" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKKs" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiy" resolve="artikel 3 van de Wet op de expertisecentra" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKL3" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJi$" resolve="artikel XI van de Wet op de beroepen in het onderwijs" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKKD" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiA" resolve="artikel 3 van de Wet primair onderwijs BES" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKLg" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiC" resolve="is benoemd of tewerkgesteld zonder benoeming als bedoeld in artikel 33 van de Wet op het voortgezet onderwijs" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKKQ" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiE" resolve="artikel 4.2.1. van de Wet educatie en beroepsonderwijs" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKLt" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiG" resolve="artikel 80 van de Wet voortgezet onderwijs BES" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKLE" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiI" resolve="artikel 4.2.1 van de Wet educatie beroepsonderwijs BES" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKLR" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiK" resolve="die lesgeeft in het hoger onderwijs" />
+      </node>
     </node>
-    <node concept="cu0$f" id="5xrYknoFTMm" role="cu0BP">
-      <property role="TrG5h" value="Literals" />
-      <node concept="1zEWgd" id="5xrYknoFTMn" role="coNO9">
-        <node concept="1zEXHp" id="5xrYknoFTMo" role="1zF96y">
-          <node concept="1zEXQY" id="5xrYknoFTMp" role="1zEXIt" />
+    <node concept="231zEt" id="1YpZTwqiz_u" role="231zEh">
+      <property role="TrG5h" value="Leraar1" />
+      <node concept="1FQA6B" id="1YhrGssDKM4" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJem" resolve="persoon wiens belang rechtstreeks bij een besluit is betrokken" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKMh" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiu" resolve="degene die voldoet aan bevoegdheidseisen gesteld in" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKMS" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiw" resolve="artikel 3 van de Wet op het primair onderwijs" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKMu" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiy" resolve="artikel 3 van de Wet op de expertisecentra" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKN5" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJi$" resolve="artikel XI van de Wet op de beroepen in het onderwijs" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKMF" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiA" resolve="artikel 3 van de Wet primair onderwijs BES" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKNi" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiC" resolve="is benoemd of tewerkgesteld zonder benoeming als bedoeld in artikel 33 van de Wet op het voortgezet onderwijs" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKNv" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiE" resolve="artikel 4.2.1. van de Wet educatie en beroepsonderwijs" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKNG" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiG" resolve="artikel 80 van de Wet voortgezet onderwijs BES" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKNT" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiI" resolve="artikel 4.2.1 van de Wet educatie beroepsonderwijs BES" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKO6" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiK" resolve="die lesgeeft in het hoger onderwijs" />
+      </node>
+    </node>
+    <node concept="231zEt" id="1YpZTwqmoIb" role="231zEh">
+      <property role="TrG5h" value="Leraar2" />
+      <node concept="1FQA6B" id="1YhrGssDKOj" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJem" resolve="persoon wiens belang rechtstreeks bij een besluit is betrokken" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKOw" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiu" resolve="degene die voldoet aan bevoegdheidseisen gesteld in" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKP7" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiw" resolve="artikel 3 van de Wet op het primair onderwijs" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKOH" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiy" resolve="artikel 3 van de Wet op de expertisecentra" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKPk" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJi$" resolve="artikel XI van de Wet op de beroepen in het onderwijs" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKOU" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiA" resolve="artikel 3 van de Wet primair onderwijs BES" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKPx" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiC" resolve="is benoemd of tewerkgesteld zonder benoeming als bedoeld in artikel 33 van de Wet op het voortgezet onderwijs" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKPI" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiE" resolve="artikel 4.2.1. van de Wet educatie en beroepsonderwijs" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKPV" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiG" resolve="artikel 80 van de Wet voortgezet onderwijs BES" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKQ8" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiI" resolve="artikel 4.2.1 van de Wet educatie beroepsonderwijs BES" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKQl" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJiK" resolve="die lesgeeft in het hoger onderwijs" />
+      </node>
+    </node>
+    <node concept="231zEt" id="2gsSwmLveot" role="231zEh">
+      <property role="TrG5h" value="Bestuursorgaan" />
+      <node concept="1FQA6B" id="1YhrGssDKQC" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJdQ" resolve="orgaan" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKQy" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJdS" resolve="rechtspersoon die krachtens publiekrecht is ingesteld" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKQI" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJe0" resolve="met enig openbaar gezag bekleed" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKQO" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJdE" resolve="bestuursorgaan" />
+      </node>
+    </node>
+    <node concept="231zEt" id="2gsSwmLvep9" role="231zEh">
+      <property role="TrG5h" value="Bevoegd Gezag" />
+      <node concept="1FQA6B" id="1YhrGssDKQU" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJgw" resolve="artikel 1 van de Wet op het primair onderwijs" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKR2" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJgy" resolve="artikel 1 van de Wet op de expertisecentra" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKRq" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJg$" resolve="artikel 1 van de Wet op het voortgezet onderwijs" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKRa" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJgG" resolve="artikel 1.1.1, van de Wet educatie en beroepsonderwijs BES" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKRi" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJgI" resolve="instellingsbestuur bedoeld in artikel 1.1, onderdeel j, van de Wet op het hoger onderwijs en wetenschappelijk onderzoek" />
+      </node>
+      <node concept="1FQA6B" id="1YhrGssDKRy" role="231zE6">
+        <ref role="1FQA6$" node="1YhrGssDJk8" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
+      </node>
+    </node>
+    <node concept="231zEf" id="1YpZTwqmq0E" role="231zE2">
+      <ref role="231zEe" node="1YpZTwqiz_u" resolve="Leraar1" />
+    </node>
+    <node concept="231zEf" id="1YpZTwqmq0I" role="231zE2">
+      <ref role="231zEe" node="1YpZTwqmoIb" resolve="Leraar2" />
+    </node>
+    <node concept="1FQA6B" id="1YhrGssDKRE" role="24vW_X">
+      <ref role="1FQA6$" node="1YhrGssDJdW" resolve="persoon" />
+    </node>
+  </node>
+  <node concept="cu0$2" id="qfyMBXf4L_">
+    <property role="TrG5h" value="Subsidie" />
+    <node concept="cu0$f" id="qfyMBXf4LD" role="cu0BP">
+      <property role="TrG5h" value="bedrag" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="cu0$f" id="qfyMBXf4LA" role="cu0BP">
+      <property role="TrG5h" value="aanvraag" />
+      <node concept="1RnfdX" id="qfyMBXf4LB" role="coNO9">
+        <node concept="1FQA6B" id="qfyMBXf4LC" role="1zF96y">
+          <ref role="1FQA6$" node="qfyMBXf4LD" resolve="bedrag" />
         </node>
-        <node concept="1zEXHp" id="5xrYknoFTMq" role="1zF96y">
-          <node concept="1zEXQX" id="5xrYknoFTMr" role="1zEXIt">
-            <property role="1zEXQW" value="1.2345" />
+        <node concept="1FQA6B" id="1YhrGssD_yW" role="1zF96y">
+          <ref role="1FQA6$" node="qfyMBXf4LK" resolve="burger" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="qfyMBXf4LE" role="cu0BP">
+      <property role="TrG5h" value="bedrag projection" />
+      <node concept="1Rn4jf" id="qfyMBXf4LF" role="coNO9">
+        <node concept="1FQA6B" id="qfyMBXf4LG" role="1Rn3Lm">
+          <ref role="1FQA6$" node="qfyMBXf4LA" resolve="aanvraag" />
+        </node>
+        <node concept="1FQA6B" id="qfyMBXCRmd" role="1Rn3LC">
+          <ref role="1FQA6$" node="qfyMBXf4LD" resolve="bedrag" />
+        </node>
+      </node>
+    </node>
+    <node concept="cu0$f" id="qfyMBXf4LK" role="cu0BP">
+      <property role="TrG5h" value="burger" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="cu0$f" id="qfyMBXf4LM" role="cu0BP">
+      <property role="TrG5h" value="verzoek" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="cu0$f" id="qfyMBXf4LO" role="cu0BP">
+      <property role="TrG5h" value="ambtenaar" />
+      <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    </node>
+    <node concept="mu5$5" id="qfyMBXf4LI" role="m3s6u">
+      <property role="TrG5h" value="subsidie aanvragen" />
+      <property role="207Gpp" value="aanvragen" />
+      <node concept="1FQA6B" id="qfyMBXf4LJ" role="3H36mW">
+        <ref role="1FQA6$" node="qfyMBXf4LK" resolve="burger" />
+      </node>
+      <node concept="1FQA6B" id="qfyMBXf4LL" role="3H36l7">
+        <ref role="1FQA6$" node="qfyMBXf4LM" resolve="verzoek" />
+      </node>
+      <node concept="1FQA6B" id="qfyMBXf4LN" role="3H36lm">
+        <ref role="1FQA6$" node="qfyMBXf4LO" resolve="ambtenaar" />
+      </node>
+      <node concept="1FQA6B" id="qfyMBXf4LR" role="mu1cf">
+        <ref role="1FQA6$" node="qfyMBXf4LA" resolve="aanvraag" />
+      </node>
+      <node concept="1zEWgd" id="1YpZTwqr5HB" role="mu3T0">
+        <node concept="1FQA6B" id="qfyMBXlKYT" role="1zF96y">
+          <ref role="1FQA6$" node="qfyMBXf4LD" resolve="bedrag" />
+        </node>
+      </node>
+    </node>
+    <node concept="mu5$5" id="qfyMBXf4LS" role="m3s6u">
+      <property role="TrG5h" value="subsidie aanvraag toekennen" />
+      <property role="207Gpp" value="toekennen" />
+      <node concept="1FQA6B" id="qfyMBXf4LT" role="3H36mW">
+        <ref role="1FQA6$" node="qfyMBXf4LO" resolve="ambtenaar" />
+      </node>
+      <node concept="1FQA6B" id="qfyMBXf4LU" role="3H36l7">
+        <ref role="1FQA6$" node="qfyMBXf4LA" resolve="aanvraag" />
+      </node>
+      <node concept="1FQA6B" id="qfyMBXf4LV" role="3H36lm">
+        <ref role="1FQA6$" node="qfyMBXf4LK" resolve="burger" />
+      </node>
+      <node concept="1zEXGL" id="qfyMBXf4LW" role="mu3T0">
+        <node concept="1FQA6B" id="qfyMBXf4LX" role="1zF96y">
+          <ref role="1FQA6$" node="qfyMBXf4LE" resolve="bedrag projection" />
+        </node>
+        <node concept="1zEXHp" id="qfyMBXf4LY" role="1zF96y">
+          <node concept="1zEXQX" id="qfyMBXf4LZ" role="1zEXIt">
+            <property role="1zEXQW" value="500" />
           </node>
         </node>
-        <node concept="1zEXHp" id="5xrYknoFTMs" role="1zF96y">
-          <node concept="1zEXQZ" id="5xrYknoFTMt" role="1zEXIt">
-            <property role="1zEXQN" value="TestString" />
-          </node>
+      </node>
+      <node concept="1FQA6B" id="3irudGozqss" role="mu1c7">
+        <ref role="1FQA6$" node="qfyMBXf4LA" resolve="aanvraag" />
+      </node>
+    </node>
+    <node concept="mu5$5" id="1YpZTwqrdYn" role="m3s6u">
+      <property role="TrG5h" value="subsidie intrekken" />
+      <property role="207Gpp" value="intrekken" />
+      <node concept="1FQA6B" id="1YhrGssD_z4" role="3H36mW">
+        <ref role="1FQA6$" node="1YhrGssD_yx" resolve="burger met aanvraag" />
+      </node>
+      <node concept="1FQA6B" id="1YpZTwqrdZa" role="3H36l7">
+        <ref role="1FQA6$" node="qfyMBXf4LA" resolve="aanvraag" />
+      </node>
+      <node concept="1FQA6B" id="1YpZTwqrdZd" role="3H36lm">
+        <ref role="1FQA6$" node="qfyMBXf4LO" resolve="ambtenaar" />
+      </node>
+      <node concept="1FQA6B" id="1YpZTwqrdZg" role="mu1c7">
+        <ref role="1FQA6$" node="qfyMBXf4LA" resolve="aanvraag" />
+      </node>
+    </node>
+    <node concept="cu0$f" id="1YhrGssD_yx" role="cu0BP">
+      <property role="TrG5h" value="burger met aanvraag" />
+      <node concept="1Rn4jf" id="5xrYknnsmw7" role="coNO9">
+        <node concept="1FQA6B" id="5xrYknnsmwd" role="1Rn3Lm">
+          <ref role="1FQA6$" node="qfyMBXf4LA" resolve="aanvraag" />
+        </node>
+        <node concept="1FQA6B" id="5xrYknnsmwg" role="1Rn3LC">
+          <ref role="1FQA6$" node="qfyMBXf4LD" resolve="bedrag" />
         </node>
       </node>
     </node>
-    <node concept="cu0$f" id="5xrYknoFTMu" role="cu0BP">
-      <property role="TrG5h" value="Reference" />
-      <node concept="cog_b" id="5xrYknoFTMv" role="2pmM46">
-        <property role="1FEjNx" value="Reference Text" />
-        <ref role="cog$q" node="5xrYknoFTMj" resolve="TestSource" />
-      </node>
-      <node concept="1zEXH5" id="5xrYknoFTMw" role="coNO9">
-        <node concept="1FQA6B" id="5xrYknoFTMx" role="1zF96A">
-          <ref role="1FQA6$" node="5xrYknoFTMm" resolve="Literals" />
-        </node>
-      </node>
-    </node>
-    <node concept="cu0$f" id="5xrYknoFTMy" role="cu0BP">
-      <property role="TrG5h" value="List" />
-      <node concept="1zEXHe" id="5xrYknoFTMz" role="coNO9">
-        <property role="1zF6e5" value="ListName" />
-        <node concept="1FQA6B" id="5xrYknoFTM$" role="1zF6e3">
-          <ref role="1FQA6$" node="5xrYknoFTMk" resolve="Person" />
-        </node>
-      </node>
-    </node>
-    <node concept="mu5$5" id="5xrYknoFTM_" role="m3s6u">
-      <property role="TrG5h" value="Act1" />
-      <property role="207Gpp" value="[Person]" />
-      <node concept="cog_b" id="5xrYknoFTMA" role="2pmM46">
-        <ref role="cog$q" node="5xrYknoFTMj" resolve="TestSource" />
-      </node>
-      <node concept="1FQA6B" id="5xrYknoFTMB" role="3H36mW">
-        <ref role="1FQA6$" node="5xrYknoFTMk" resolve="Person" />
-      </node>
-      <node concept="1FQA6B" id="5xrYknoFTMC" role="3H36l7">
-        <ref role="1FQA6$" node="5xrYknoFTMk" resolve="Person" />
-      </node>
-      <node concept="1FQA6B" id="5xrYknoFTMD" role="3H36lm">
-        <ref role="1FQA6$" node="5xrYknoFTMk" resolve="Person" />
-      </node>
-      <node concept="1FQA6B" id="5xrYknoFTME" role="mu3T0">
-        <ref role="1FQA6$" node="5xrYknoFTMu" resolve="Reference" />
-      </node>
-    </node>
-    <node concept="2cz0EU" id="5xrYknoFTML" role="2cADMD">
-      <property role="TrG5h" value="Duty1" />
-      <property role="3ANC2_" value="Duty Explanation" />
-      <node concept="cog_b" id="5xrYknoFTMN" role="2pmM46">
-        <property role="1FEjNx" value="Text" />
-        <ref role="cog$q" node="5xrYknoFTMj" resolve="TestSource" />
-      </node>
-      <node concept="3jSua8" id="5xrYknoFTMO" role="cMmjI">
-        <ref role="3jSua9" node="5xrYknoFTMF" resolve="Act2" />
-      </node>
-      <node concept="3jSua8" id="5xrYknoFTMP" role="cMmjW">
-        <ref role="3jSua9" node="5xrYknoFTM_" resolve="Act1" />
-      </node>
-      <node concept="1FQA6B" id="5xrYknoFTMQ" role="3H37fS">
-        <ref role="1FQA6$" node="5xrYknoFTMk" resolve="Person" />
-      </node>
-      <node concept="1FQA6B" id="5xrYknoFTMR" role="3H37fL">
-        <ref role="1FQA6$" node="5xrYknoFTMk" resolve="Person" />
-      </node>
-    </node>
-    <node concept="mu5$5" id="5xrYknoFTMF" role="m3s6u">
-      <property role="TrG5h" value="Act2" />
-      <property role="3ANC2_" value="Test Explananation" />
-      <property role="207Gpp" value="[Literals]" />
-      <node concept="1FQA6B" id="5xrYknoFTMG" role="3H36mW">
-        <ref role="1FQA6$" node="5xrYknoFTMm" resolve="Literals" />
-      </node>
-      <node concept="1FQA6B" id="5xrYknoFTMH" role="3H36l7">
-        <ref role="1FQA6$" node="5xrYknoFTMm" resolve="Literals" />
-      </node>
-      <node concept="1FQA6B" id="5xrYknoFTMI" role="3H36lm">
-        <ref role="1FQA6$" node="5xrYknoFTMm" resolve="Literals" />
-      </node>
-      <node concept="1FQA6B" id="5xrYknoFTMJ" role="mu1c7">
-        <ref role="1FQA6$" node="5xrYknoFTMk" resolve="Person" />
-      </node>
-      <node concept="2cz2WB" id="5xrYknoFTMK" role="mu1c7">
-        <ref role="2cz2WA" node="5xrYknoFTML" resolve="Duty1" />
-      </node>
-      <node concept="1FQA6B" id="5xrYknoFTMM" role="mu1cf">
-        <ref role="1FQA6$" node="5xrYknoFTMk" resolve="Person" />
-      </node>
+    <node concept="cu0$f" id="1YpZTwqy7Y3" role="cu0BP">
+      <property role="TrG5h" value="person" />
     </node>
   </node>
 </model>

@@ -76,6 +76,7 @@ libs
 platform-libs
 artifacts
 static-resources/generated
+static-resources/temp
 
 workspace.xml
 junitvmwatcher*.properties
