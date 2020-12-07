@@ -295,7 +295,26 @@ task addFxLibs(type: Copy) {
     into "${mpsDir}/lib"
 }
 
-task mpsTest(type: de.itemis.mps.gradle.RunAntScript, dependsOn: buildFlint) {
+task makeExecutable() {
+    mustRunAfter(buildFlint)
+    doLast {
+        def dir = new File(project(":code").buildDir, "artifacts/Flint/plugins/Flint/static-resources/generated/flintfiller")
+        def files = [
+                new File(dir, "flintfiller-linux"),
+                new File(dir, "flintfiller-macos"),
+                new File(dir, "flintfiller-windows.exe")
+        ]
+        if (!OperatingSystem.current().isWindows()) {
+            files.each { file ->
+                exec {
+                    commandLine "chmod", "+x", file.path
+                }
+            }
+        }
+    }
+}
+
+task mpsTest(type: de.itemis.mps.gradle.RunAntScript, dependsOn: [buildFlint,makeExecutable]) {
     script = file("$codeDir/build-testFlint.xml")
     targets = ["generate", "test"]
     test.finalizedBy("mpsTest")

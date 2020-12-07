@@ -10,6 +10,7 @@ import java.nio.file.Path
 
 class FlintFiller(private val pathToFillerDir: String, private val outputDir: String) {
     fun run(file: String, onCommandOutput: (String) -> Unit = {}): String {
+        makeExecutable("${pathToFillerDir}/${osSpecificFlintFiller()}")
         Files.createDirectories(Path.of(outputDir))
         val command = "${pathToFillerDir}/${osSpecificFlintFiller()} ${fillerArgs(file, outputDir)}"
         val cmdLine: CommandLine = CommandLine.parse(command)
@@ -30,6 +31,15 @@ class FlintFiller(private val pathToFillerDir: String, private val outputDir: St
                 "Something went wrong while running flint filler\ncommand output:\n${outputStream.value()}",
                 e
             )
+        }
+    }
+
+    private fun makeExecutable(file: String) {
+        if (!SystemUtils.IS_OS_WINDOWS) {
+            val command = "chmod +x $file"
+            val cmdLine: CommandLine = CommandLine.parse(command)
+            val executor = DefaultExecutor()
+            executor.execute(cmdLine)
         }
     }
 
