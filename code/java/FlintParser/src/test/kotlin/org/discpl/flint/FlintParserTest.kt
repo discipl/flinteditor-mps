@@ -156,7 +156,6 @@ internal class FlintParserTest {
                     flintParser.getFacts().flatMap { (it.function as? Expression)?.flatten() ?: emptyList() }
                 val literalExpressions = allExpressions.mapNotNull { it as? LiteralExpression<*> }
                 assertThat(literalExpressions.size, `is`(equalTo(318)))
-                literalExpressions.forEach { println(it.operand?.javaClass) }
             }
         }
     }

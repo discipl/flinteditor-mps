@@ -25,7 +25,10 @@ To build the FlintIDE run `gradlew buildFlintPlugin`. This will generate a zip i
 ### Install
 1. Download and install mps 2019.3.4 from [here](https://www.jetbrains.com/mps/download/previous.html)
 2. Download the [mbeddr platform distribution plugins zip](https://projects.itemis.de/nexus/content/repositories/mbeddr/com/mbeddr/platform/2019.3.22227.6f9f955/platform-2019.3.22227.6f9f955.zip)	
-3. Extract the files and folders from the com.mbeddr.platform directory in mbeddr platform-distribution.zip file to the plugins folder (`{mps-installation-dir}/plugins`) in your mps installation.
+3. Extract the files and folders from the com.mbeddr.platform directory in mbeddr platform-distribution.zip file to the plugins folder in your mps installation.
+   - On linux  (`~/.MPS2019.3/config/plugins`)
+   - On macos  (`~/Library/Application Support/IntelliJIDEA60/`)
+   - On windows  (`C:\Users\%USER%\.MPS2019.3\config\plugins`)
 4. Extract the Flint plugin from Flint.zip to the plugins folder in your mps installation.
 
 ## Using Flint-mps

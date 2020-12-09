@@ -295,7 +295,7 @@ task addFxLibs(type: Copy) {
     into "${mpsDir}/lib"
 }
 
-task mpsTest(type: de.itemis.mps.gradle.RunAntScript, dependsOn: buildFlint) {
+task mpsTest(type: de.itemis.mps.gradle.RunAntScript, dependsOn: [buildFlint]) {
     script = file("$codeDir/build-testFlint.xml")
     targets = ["generate", "test"]
     test.finalizedBy("mpsTest")
@@ -340,12 +340,5 @@ task fetchFlintFillerExecutables() {
         files.add(downloadFillerFile("flintfiller-linux"))
         files.add(downloadFillerFile("flintfiller-macos"))
         files.add(downloadFillerFile("flintfiller-windows.exe"))
-        if (!OperatingSystem.current().isWindows()) {
-            files.each { file ->
-                exec {
-                    commandLine "chmod", "+x", file.path
-                }
-            }
-        }
     }
 }

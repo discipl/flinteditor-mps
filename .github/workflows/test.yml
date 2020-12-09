@@ -17,6 +17,8 @@ jobs:
       - uses: actions/setup-java@v1
         with:
           java-version: 11
+      - name: Check java
+        run: java --version
       - name: Test
         uses: GabrielBB/xvfb-action@v1
         with:

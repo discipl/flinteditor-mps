@@ -1,35 +1,47 @@
 package org.discipl.flint.flintfiller
 
-import org.apache.commons.exec.CommandLine
-import org.apache.commons.exec.DefaultExecutor
-import org.apache.commons.exec.PumpStreamHandler
 import org.apache.commons.lang3.SystemUtils
 import java.nio.file.Files
 import java.nio.file.Path
+import java.nio.file.Paths
 
 
-class FlintFiller(private val pathToFillerDir: String, private val outputDir: String) {
-    fun run(file: String, onCommandOutput: (String) -> Unit = {}): String {
-        Files.createDirectories(Path.of(outputDir))
-        val command = "${pathToFillerDir}/${osSpecificFlintFiller()} ${fillerArgs(file, outputDir)}"
-        val cmdLine: CommandLine = CommandLine.parse(command)
-
-        val outputStream = StringOutputStream()
-        val streamHandler = PumpStreamHandler(outputStream)
-
-        val executor = DefaultExecutor()
-        executor.streamHandler = streamHandler
+class FlintFiller(private val pathToFillerDirString: String, private val outputDirString: String) {
+    fun run(fileString: String, onCommandOutput: (String) -> Unit = {}): String {
+        val flintFillerExecutable = Paths.get("${pathToFillerDirString}/${osSpecificFlintFiller()}")
+        val outputDir = Paths.get(outputDirString)
+        val file = Paths.get(fileString)
+        makeExecutable(flintFillerExecutable)
+        Files.createDirectories(outputDir)
+        val proc = fillerProc(flintFillerExecutable, file, outputDir)
 
         try {
-            val exitCode = executor.execute(cmdLine)
+            val exitCode = proc.waitFor()
             if (exitCode != 0) throw Exception("Bad exit code")
-            onCommandOutput("command output:\n${outputStream.value()}")
-            return Files.readString(Path.of(outputDir).resolve("flintFrame.json"))
+            val output = proc.inputStream.bufferedReader().readLines().joinToString("\n")
+            onCommandOutput("command output:\n${output}")
+            return Files.readString(outputDir.resolve("flintFrame.json"))
         } catch (e: Exception) {
+            val output = proc.inputStream.bufferedReader().readLines().joinToString("\n")
+            val errorOutput = proc.errorStream.bufferedReader().readLines().joinToString("\n")
             throw Exception(
-                "Something went wrong while running flint filler\ncommand output:\n${outputStream.value()}",
+                "Something went wrong while running flint filler\ncommand output:\n${output}${errorOutput}",
                 e
             )
+        }
+    }
+
+    private fun makeExecutable(file: Path) {
+        if (!SystemUtils.IS_OS_WINDOWS) {
+            val commands = arrayOf(
+                "chmod",
+                "+x",
+                file.toString()
+            )
+            val rt = Runtime.getRuntime()
+            println("Executing command: ${commands.contentToString()}")
+            val proc = rt.exec(commands)
+            proc.waitFor()
         }
     }
 
@@ -42,12 +54,31 @@ class FlintFiller(private val pathToFillerDir: String, private val outputDir: St
         }
     }
 
-    private fun fillerArgs(inputFile: String, outputDir: String): String {
-        val inputFileLine = "-x ${inputFile}"
-        val dictFile = "-d ${outputDir}/dict.json"
-        val dataFrameFile = "-df ${outputDir}/dataFrame.csv"
-        val postTaggedDataFrameFile = "-pt ${outputDir}/postTaggedDataFrame_.csv"
-        val flintFrame = "-fo ${outputDir}/flintFrame.json"
-        return "$inputFileLine $dictFile $dataFrameFile $postTaggedDataFrameFile $flintFrame"
+    private fun fillerProc(flintFillerExecutable: Path, inputFile: Path, outputDir: Path): Process {
+        val commands = arrayOf(
+            flintFillerExecutable.toString(),
+            "-x",
+            inputFile.toString(),
+            "-d",
+            outputDir.resolve("dict.json").toString(),
+            "-df",
+            outputDir.resolve("dataFrame.cvs").toString(),
+            "-pt",
+            outputDir.resolve("postTaggedDataFrame_.csv").toString(),
+            "-fo",
+            outputDir.resolve("flintFrame.json").toString()
+        )
+        val rt = Runtime.getRuntime()
+        println("Executing command: ${commands.contentToString()}")
+        return rt.exec(commands)
+    }
+
+    private fun Path.escaped(): String {
+        return when {
+            SystemUtils.IS_OS_WINDOWS -> this.toString().replace(" ", "\\\\ ");
+            SystemUtils.IS_OS_LINUX -> this.toString().replace(" ", "\\ ");
+            SystemUtils.IS_OS_MAC_OSX -> "flintfiller-macos"
+            else -> throw NotImplementedError("Os ${SystemUtils.OS_NAME} is not supported")
+        }
     }
 }

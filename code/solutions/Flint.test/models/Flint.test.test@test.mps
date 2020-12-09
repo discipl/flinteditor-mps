@@ -269,6 +269,11 @@
       <concept id="1171931858461" name="jetbrains.mps.baseLanguage.unitTest.structure.TestMethodList" flags="ng" index="3s_gsd">
         <child id="1171931858462" name="testMethod" index="3s_gse" />
       </concept>
+      <concept id="8427750732757990717" name="jetbrains.mps.baseLanguage.unitTest.structure.BinaryAssert" flags="nn" index="3tpDYu">
+        <child id="8427750732757990725" name="actual" index="3tpDZA" />
+        <child id="8427750732757990724" name="expected" index="3tpDZB" />
+      </concept>
+      <concept id="1171978097730" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" flags="nn" index="3vlDli" />
       <concept id="1171981022339" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertTrue" flags="nn" index="3vwNmj">
         <child id="1171981057159" name="condition" index="3vwVQn" />
       </concept>
@@ -1402,6 +1407,124 @@
         </node>
         <node concept="cu0$f" id="5xrYknoO01u" role="cu0BP">
           <property role="TrG5h" value="ShouldNotBeDeleted" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3s_ewN" id="65WHNMBsbnZ">
+    <property role="3s_ewP" value="WettenNLImporter" />
+    <node concept="3Tm1VV" id="65WHNMBsbo0" role="1B3o_S" />
+    <node concept="3s_gsd" id="65WHNMBsbo1" role="3s_ewO">
+      <node concept="3s$Bmu" id="65WHNMBsbH5" role="3s_gse">
+        <property role="3s$Bm0" value="canConvertXMLtoJson" />
+        <node concept="3cqZAl" id="65WHNMBsbH6" role="3clF45" />
+        <node concept="3Tm1VV" id="65WHNMBsbH7" role="1B3o_S" />
+        <node concept="3clFbS" id="65WHNMBsbH8" role="3clF47">
+          <node concept="3cpWs8" id="65WHNMBsbW8" role="3cqZAp">
+            <node concept="3cpWsn" id="65WHNMBsbW9" role="3cpWs9">
+              <property role="TrG5h" value="filePath" />
+              <node concept="3uibUv" id="65WHNMBsbWa" role="1tU5fm">
+                <ref role="3uigEE" to="eoo2:~Path" resolve="Path" />
+              </node>
+              <node concept="2OqwBi" id="65WHNMBsbWb" role="33vP2m">
+                <node concept="2OqwBi" id="65WHNMBsbWc" role="2Oq$k0">
+                  <node concept="2YIFZM" id="65WHNMBsbWd" role="2Oq$k0">
+                    <ref role="1Pybhc" to="91gc:2eNuKY2QKZ" resolve="FlintProperties" />
+                    <ref role="37wK5l" to="91gc:7ALI6YWYmu7" resolve="getInstance" />
+                  </node>
+                  <node concept="2S8uIT" id="65WHNMBsbWe" role="2OqNvi">
+                    <ref role="2S8YL0" to="91gc:7FNYdkaI3HX" resolve="testResourcesFolder" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="65WHNMBsbWf" role="2OqNvi">
+                  <ref role="37wK5l" to="eoo2:~Path.resolve(java.lang.String)" resolve="resolve" />
+                  <node concept="Xl_RD" id="65WHNMBsbWg" role="37wK5m">
+                    <property role="Xl_RC" value="flint-filler-test-file.xml" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWs8" id="65WHNMBsg$d" role="3cqZAp">
+            <node concept="3cpWsn" id="65WHNMBsg$e" role="3cpWs9">
+              <property role="TrG5h" value="result" />
+              <node concept="17QB3L" id="65WHNMBsf9h" role="1tU5fm" />
+              <node concept="2OqwBi" id="65WHNMBsg$f" role="33vP2m">
+                <node concept="37vLTw" id="65WHNMBsg$g" role="2Oq$k0">
+                  <ref role="3cqZAo" node="65WHNMBsbq$" resolve="wettenNlImporter" />
+                </node>
+                <node concept="liA8E" id="65WHNMBsg$h" role="2OqNvi">
+                  <ref role="37wK5l" to="472r:65WHNMBr8bu" resolve="importFlintModelFromFile" />
+                  <node concept="2OqwBi" id="65WHNMBsg$i" role="37wK5m">
+                    <node concept="37vLTw" id="65WHNMBsg$j" role="2Oq$k0">
+                      <ref role="3cqZAo" node="65WHNMBsbW9" resolve="filePath" />
+                    </node>
+                    <node concept="liA8E" id="65WHNMBsg$k" role="2OqNvi">
+                      <ref role="37wK5l" to="eoo2:~Path.toString()" resolve="toString" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWs8" id="65WHNMBskf1" role="3cqZAp">
+            <node concept="3cpWsn" id="65WHNMBskf4" role="3cpWs9">
+              <property role="TrG5h" value="expected" />
+              <node concept="17QB3L" id="65WHNMBskeZ" role="1tU5fm" />
+              <node concept="2YIFZM" id="65WHNMBskjE" role="33vP2m">
+                <ref role="37wK5l" to="eoo2:~Files.readString(java.nio.file.Path)" resolve="readString" />
+                <ref role="1Pybhc" to="eoo2:~Files" resolve="Files" />
+                <node concept="2OqwBi" id="65WHNMBskkN" role="37wK5m">
+                  <node concept="2OqwBi" id="65WHNMBskkO" role="2Oq$k0">
+                    <node concept="2YIFZM" id="65WHNMBskkP" role="2Oq$k0">
+                      <ref role="1Pybhc" to="91gc:2eNuKY2QKZ" resolve="FlintProperties" />
+                      <ref role="37wK5l" to="91gc:7ALI6YWYmu7" resolve="getInstance" />
+                    </node>
+                    <node concept="2S8uIT" id="65WHNMBskkQ" role="2OqNvi">
+                      <ref role="2S8YL0" to="91gc:7FNYdkaI3HX" resolve="testResourcesFolder" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="65WHNMBskkR" role="2OqNvi">
+                    <ref role="37wK5l" to="eoo2:~Path.resolve(java.lang.String)" resolve="resolve" />
+                    <node concept="Xl_RD" id="65WHNMBskkS" role="37wK5m">
+                      <property role="Xl_RC" value="flint-filler-result.json" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3vlDli" id="65WHNMBslkA" role="3cqZAp">
+            <node concept="37vLTw" id="65WHNMBslq1" role="3tpDZB">
+              <ref role="3cqZAo" node="65WHNMBskf4" resolve="expected" />
+            </node>
+            <node concept="37vLTw" id="65WHNMBst9G" role="3tpDZA">
+              <ref role="3cqZAo" node="65WHNMBsg$e" resolve="result" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="312cEg" id="65WHNMBsbq$" role="jymVt">
+      <property role="TrG5h" value="wettenNlImporter" />
+      <node concept="3Tm6S6" id="65WHNMBsbpO" role="1B3o_S" />
+      <node concept="3uibUv" id="65WHNMBsbqo" role="1tU5fm">
+        <ref role="3uigEE" to="472r:2p4aUJVrHKR" resolve="WettenNLImporter" />
+      </node>
+    </node>
+    <node concept="1KhYhu" id="65WHNMBsbrk" role="1KhZu4">
+      <node concept="3clFbS" id="65WHNMBsbrl" role="2VODD2">
+        <node concept="3clFbF" id="65WHNMBsbsg" role="3cqZAp">
+          <node concept="37vLTI" id="65WHNMBsbxB" role="3clFbG">
+            <node concept="2ShNRf" id="65WHNMBsbyv" role="37vLTx">
+              <node concept="1pGfFk" id="65WHNMBsbym" role="2ShVmc">
+                <ref role="37wK5l" to="472r:6e6T56s6W1p" resolve="WettenNLImporter" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="65WHNMBsbsf" role="37vLTJ">
+              <ref role="3cqZAo" node="65WHNMBsbq$" resolve="wettenNlImporter" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
