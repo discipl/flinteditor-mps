@@ -53,17 +53,21 @@ if (!new File(flint_filler_executables_dir, "flintfiller-linux").exists()) {
     tasks.getByName("test").dependsOn ":fetchFlintFillerExecutables"
 }
 
-task copyToPathWithSpace(type: Copy) {
+task copyToPathWithSpace() {
     tasks.getByName("test").dependsOn "copyToPathWithSpace"
     mustRunAfter(":fetchFlintFillerExecutables")
     flint_filler_executables_dir.mkdirs()
     path_with_space.mkdirs()
-    flint_filler_executables_dir.eachFile {
-        if (it.isFile()) {
-            from it
+    doLast {
+        copy {
+            flint_filler_executables_dir.eachFile {
+                if (it.isFile()) {
+                    from it
+                }
+            }
+            into path_with_space
         }
     }
-    into path_with_space
 }
 
 // TODO add this back maybe

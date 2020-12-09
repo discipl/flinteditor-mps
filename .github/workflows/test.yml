@@ -8,7 +8,8 @@ jobs:
   build:
     strategy:
       matrix:
-        os: [ ubuntu-16.04, macos-latest, windows-latest ]
+#        os: [ ubuntu-16.04, macos-latest, windows-latest ]
+        os: [ ubuntu-16.04 ]
     name: Run Tests
     runs-on: ${{ matrix.os }}
     steps:
@@ -32,9 +33,9 @@ jobs:
         if: ${{ always() && matrix.os == 'ubuntu-16.04' }}
         run: ls /home/runner/work/flinteditor-mps/flinteditor-mps/code/java/FlintParser/build
       - name: Check2
-        if: ${{ always() && matrix.os == 'ubuntu-16.04'  }}
+        if: ${{ always() && matrix.os == 'ubuntu-16.04' }}
         working-directory: /home/runner/work/flinteditor-mps/flinteditor-mps/code/java/FlintParser/build
-        run: ls -d -1 "$PWD/"**/*
+        run: find "$(pwd)" -type f
       - name: Upload Test Results
         if: ${{ always() }}
         uses: actions/upload-artifact@v2
