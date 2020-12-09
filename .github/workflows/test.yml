@@ -17,6 +17,8 @@ jobs:
       - uses: actions/setup-java@v1
         with:
           java-version: 11
+      - name: Check java
+        run: java --version
       - name: Test
         uses: GabrielBB/xvfb-action@v1
         with:
@@ -26,6 +28,13 @@ jobs:
       - name: Tests failed
         if: ${{ matrix.os == 'ubuntu-16.04' && failure() }}
         run: sudo apt-get install lynx && if [ -f ./code/build/reports/html/junit-noframes.html ]; then lynx -dump ./code/build/reports/html/junit-noframes.html; fi && if [ -f ./code/java/FlintParser/build/reports/tests/test/index.html ]; then lynx -dump ./code/java/FlintParser/build/reports/tests/test/index.html; fi && if [ -f ./code/java/FlintParser/build/reports/tests/test/classes/org.discipl.flint.flintfiller.FlintFillerTest.html ]; then lynx -dump ./code/java/FlintParser/build/reports/tests/test/classes/org.discipl.flint.flintfiller.FlintFillerTest.html; fi
+      - name: Check
+        if: ${{ always() && matrix.os == 'ubuntu-16.04' }}
+        run: ls /home/runner/work/flinteditor-mps/flinteditor-mps/code/java/FlintParser/build
+      - name: Check2
+        if: ${{ always() && matrix.os == 'ubuntu-16.04'  }}
+        working-directory: /home/runner/work/flinteditor-mps/flinteditor-mps/code/java/FlintParser/build
+        run: ls -d -1 "$PWD/"**/*
       - name: Upload Test Results
         if: ${{ always() }}
         uses: actions/upload-artifact@v2

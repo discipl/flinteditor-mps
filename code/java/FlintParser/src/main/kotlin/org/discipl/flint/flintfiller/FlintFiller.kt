@@ -18,12 +18,12 @@ class FlintFiller(private val pathToFillerDirString: String, private val outputD
         try {
             val exitCode = proc.waitFor()
             if (exitCode != 0) throw Exception("Bad exit code")
-            val output = proc.inputStream.bufferedReader().readLine()
+            val output = proc.inputStream.bufferedReader().readLines().joinToString("\n")
             onCommandOutput("command output:\n${output}")
             return Files.readString(outputDir.resolve("flintFrame.json"))
         } catch (e: Exception) {
-            val output = proc.inputStream.bufferedReader().readLine()
-            val errorOutput = proc.errorStream.bufferedReader().readLine()
+            val output = proc.inputStream.bufferedReader().readLines().joinToString("\n")
+            val errorOutput = proc.errorStream.bufferedReader().readLines().joinToString("\n")
             throw Exception(
                 "Something went wrong while running flint filler\ncommand output:\n${output}${errorOutput}",
                 e
