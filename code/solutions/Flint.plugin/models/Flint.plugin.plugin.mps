@@ -7347,22 +7347,14 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="65WHNMBsw$7" role="3cqZAp">
-          <node concept="2OqwBi" id="65WHNMBsw$4" role="3clFbG">
-            <node concept="10M0yZ" id="65WHNMBsw$5" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+        <node concept="2xdQw9" id="5AMZhMOnuhX" role="3cqZAp">
+          <property role="2xdLsb" value="h1akgim/info" />
+          <node concept="3cpWs3" id="5AMZhMOnuhY" role="9lYJi">
+            <node concept="37vLTw" id="5AMZhMOnuhZ" role="3uHU7w">
+              <ref role="3cqZAo" node="6e6T56s6Z3J" resolve="fillerPath" />
             </node>
-            <node concept="liA8E" id="65WHNMBsw$6" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-              <node concept="3cpWs3" id="65WHNMBsxJ3" role="37wK5m">
-                <node concept="37vLTw" id="65WHNMBsxT1" role="3uHU7w">
-                  <ref role="3cqZAo" node="6e6T56s6Z3J" resolve="fillerPath" />
-                </node>
-                <node concept="Xl_RD" id="65WHNMBsxiP" role="3uHU7B">
-                  <property role="Xl_RC" value="Filler Path: " />
-                </node>
-              </node>
+            <node concept="Xl_RD" id="5AMZhMOnui0" role="3uHU7B">
+              <property role="Xl_RC" value="FlintFillerPath: " />
             </node>
           </node>
         </node>
@@ -7434,23 +7426,6 @@
       <node concept="17QB3L" id="65WHNMBr8bv" role="3clF45" />
       <node concept="3Tm1VV" id="65WHNMBr8bw" role="1B3o_S" />
       <node concept="3clFbS" id="65WHNMBr8bx" role="3clF47">
-        <node concept="2xdQw9" id="65WHNMBr8by" role="3cqZAp">
-          <property role="2xdLsb" value="h1akgim/info" />
-          <node concept="3cpWs3" id="65WHNMBr8bz" role="9lYJi">
-            <node concept="Xl_RD" id="65WHNMBr8b$" role="3uHU7B">
-              <property role="Xl_RC" value="path: " />
-            </node>
-            <node concept="2OqwBi" id="65WHNMBr8b_" role="3uHU7w">
-              <node concept="2YIFZM" id="65WHNMBr8bA" role="2Oq$k0">
-                <ref role="1Pybhc" to="91gc:2eNuKY2QKZ" resolve="FlintProperties" />
-                <ref role="37wK5l" to="91gc:7ALI6YWYmu7" resolve="getInstance" />
-              </node>
-              <node concept="2S8uIT" id="65WHNMBr8bB" role="2OqNvi">
-                <ref role="2S8YL0" to="91gc:2eNuKY2R2z" resolve="resourcesFolder" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs6" id="65WHNMBr8bC" role="3cqZAp">
           <node concept="2OqwBi" id="65WHNMBr8bD" role="3cqZAk">
             <node concept="37vLTw" id="65WHNMBr8bE" role="2Oq$k0">

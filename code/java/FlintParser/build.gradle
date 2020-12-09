@@ -37,13 +37,36 @@ compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
 
+ext {
+    path_with_space = new File(buildDir, "path with space")
+}
+
 test {
     environment "FLINT_FILLER_DIR", flint_filler_executables_dir.path
+    environment "FLINT_FILLER_WITH_SPACE", path_with_space.path
     environment "FLINT_FILLER_OUTPUT_DIR", new File(buildDir, "tmp").path
     environment "FLINT_FILLER_TEST_FILE", new File(projectDir, "src/test/resources/flint-filler-test-file.xml").path
     useJUnitPlatform()
 }
 
 if (!new File(flint_filler_executables_dir, "flintfiller-linux").exists()) {
-    tasks.getByName("test").dependsOn  ":fetchFlintFillerExecutables"
+    tasks.getByName("test").dependsOn ":fetchFlintFillerExecutables"
+}
+
+task copyToPathWithSpace(type: Copy) {
+    tasks.getByName("test").dependsOn "copyToPathWithSpace"
+    mustRunAfter(":fetchFlintFillerExecutables")
+    flint_filler_executables_dir.mkdirs()
+    path_with_space.mkdirs()
+    flint_filler_executables_dir.eachFile {
+        if (it.isFile()) {
+            from it
+        }
+    }
+    into path_with_space
+}
+
+task deletePathWithSpace(type: Delete) {
+    tasks.getByName("test").finalizedBy "deletePathWithSpace"
+    delete(path_with_space)
 }
