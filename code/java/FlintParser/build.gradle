@@ -69,9 +69,3 @@ task copyToPathWithSpace() {
         }
     }
 }
-
-// TODO add this back maybe
-//task deletePathWithSpace(type: Delete) {
-//    tasks.getByName("test").finalizedBy "deletePathWithSpace"
-//    delete(path_with_space)
-//}
