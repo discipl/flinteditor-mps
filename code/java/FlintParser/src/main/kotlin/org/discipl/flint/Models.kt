@@ -2,7 +2,11 @@ package org.discipl.flint
 
 import com.google.gson.annotations.SerializedName
 
-data class FlintModel(val facts: List<Fact> = emptyList(), val acts: List<Act> = emptyList(), val duties: List<Duty> = emptyList())
+data class FlintModel(
+    val facts: List<Fact> = emptyList(),
+    val acts: List<Act> = emptyList(),
+    val duties: List<Duty> = emptyList()
+)
 
 data class Act(
     val act: ActReference,

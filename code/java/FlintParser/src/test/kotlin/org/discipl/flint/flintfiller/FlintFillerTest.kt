@@ -3,15 +3,13 @@ package org.discipl.flint.flintfiller
 import org.hamcrest.MatcherAssert.assertThat
 import org.hamcrest.Matchers.`is`
 import org.hamcrest.Matchers.notNullValue
-import org.junit.jupiter.api.AfterAll
 import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.Test
+import java.io.File
 import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.Paths
-import java.io.File
-
-import java.util.Comparator
+import java.util.*
 
 
 internal class FlintFillerTest {

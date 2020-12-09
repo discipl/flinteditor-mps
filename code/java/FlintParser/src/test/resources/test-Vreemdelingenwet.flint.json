@@ -1499,7 +1499,8 @@
       "fact": "[tijdelijke humanitaire gronden]",
       "function": "[]",
       "sources": [
-        {"validFrom": "01-06-2013",
+        {
+          "validFrom": "01-06-2013",
           "validTo": "31-12-9999",
           "citation": "art. 3.4 lid 1, onder q, Vb",
           "juriconnect": "jci1.3:c:BWBR0011825&hoofdstuk=3&afdeling=2&paragraaf=1&sub-paragraaf=1&artikel=3.4&lid=1&z=2014-03-21&g=2013-07-01",
