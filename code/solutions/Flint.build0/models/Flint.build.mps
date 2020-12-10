@@ -385,16 +385,6 @@
         </node>
       </node>
     </node>
-    <node concept="2kB4xC" id="elgu9R90da" role="1l3spd">
-      <property role="TrG5h" value="minor" />
-      <node concept="aVJcg" id="elgu9R90ia" role="aVJcv">
-        <node concept="NbPM2" id="elgu9R90i9" role="aVJcq">
-          <node concept="3Mxwew" id="elgu9R90i8" role="3MwsjC">
-            <property role="3MwjfP" value="4" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="2kB4xC" id="elgu9R90rJ" role="1l3spd">
       <property role="TrG5h" value="major" />
       <node concept="aVJcg" id="elgu9R90uz" role="aVJcv">
@@ -405,12 +395,22 @@
         </node>
       </node>
     </node>
+    <node concept="2kB4xC" id="elgu9R90da" role="1l3spd">
+      <property role="TrG5h" value="minor" />
+      <node concept="aVJcg" id="elgu9R90ia" role="aVJcv">
+        <node concept="NbPM2" id="elgu9R90i9" role="aVJcq">
+          <node concept="3Mxwew" id="elgu9R90i8" role="3MwsjC">
+            <property role="3MwjfP" value="4" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2kB4xC" id="7ua6Tt2QOgq" role="1l3spd">
       <property role="TrG5h" value="patch" />
       <node concept="aVJcg" id="7ua6Tt2QOlx" role="aVJcv">
         <node concept="NbPM2" id="7ua6Tt2QOlw" role="aVJcq">
           <node concept="3Mxwew" id="7ua6Tt2QOlv" role="3MwsjC">
-            <property role="3MwjfP" value="0" />
+            <property role="3MwjfP" value="1" />
           </node>
         </node>
       </node>
