@@ -21,6 +21,7 @@
   </dependencies>
   <languageVersions>
     <language slang="l:69940819-10c1-4a38-ac44-700b63f993ba:Flint" version="3" />
+    <language slang="l:0bfae715-f669-4a10-999a-ba0ca94a1c3c:FlintTests" version="0" />
     <language slang="l:b5c0bb04-c583-4b2a-a66e-1eab92d33c68:com.mbeddr.mpsutil.json" version="0" />
     <language slang="l:8ca79d43-eb45-4791-bdd4-0d6130ff895b:de.itemis.mps.editor.diagram.layout" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="9" />

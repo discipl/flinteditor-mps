@@ -76,6 +76,9 @@
         <property id="4808965957220777139" name="value" index="1zEXQW" />
       </concept>
       <concept id="4808965957220777137" name="Flint.structure.BooleanOperand" flags="ng" index="1zEXQY" />
+      <concept id="4808965957220777136" name="Flint.structure.StringOperand" flags="ng" index="1zEXQZ">
+        <property id="4808965957220777148" name="value" index="1zEXQN" />
+      </concept>
       <concept id="4808965957220331692" name="Flint.structure.MultiExpression" flags="ng" index="1zF96z">
         <child id="4808965957220331693" name="operands" index="1zF96y" />
       </concept>
@@ -3352,6 +3355,32 @@
         <ref role="1FQA6$" node="qfyMBXf4LO" resolve="ambtenaar" />
       </node>
       <node concept="1FQA6B" id="1YpZTwqrdZg" role="mu1c7">
+        <ref role="1FQA6$" node="qfyMBXf4LA" resolve="aanvraag" />
+      </node>
+    </node>
+    <node concept="mu5$5" id="1msgdkhOf0c" role="m3s6u">
+      <property role="TrG5h" value="subsidie aanvraag afwijzen" />
+      <property role="207Gpp" value="afwijzen" />
+      <node concept="1FQA6B" id="1msgdkhOf0D" role="3H36mW">
+        <ref role="1FQA6$" node="qfyMBXf4LO" resolve="ambtenaar" />
+      </node>
+      <node concept="1FQA6B" id="1msgdkhOf0G" role="3H36l7">
+        <ref role="1FQA6$" node="qfyMBXf4LA" resolve="aanvraag" />
+      </node>
+      <node concept="1FQA6B" id="1msgdkhOf0J" role="3H36lm">
+        <ref role="1FQA6$" node="qfyMBXf4LK" resolve="burger" />
+      </node>
+      <node concept="1zEXGL" id="1msgdkhOf0O" role="mu3T0">
+        <node concept="1zEXHp" id="1msgdkhOf0V" role="1zF96y">
+          <node concept="1zEXQZ" id="1msgdkhOf0X" role="1zEXIt">
+            <property role="1zEXQN" value="500" />
+          </node>
+        </node>
+        <node concept="1FQA6B" id="1msgdkhOf0Q" role="1zF96y">
+          <ref role="1FQA6$" node="qfyMBXf4LE" resolve="bedrag projection" />
+        </node>
+      </node>
+      <node concept="1FQA6B" id="1msgdkhOf15" role="mu1c7">
         <ref role="1FQA6$" node="qfyMBXf4LA" resolve="aanvraag" />
       </node>
     </node>

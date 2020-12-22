@@ -5,7 +5,7 @@
     <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="3" />
   </languages>
   <imports>
-    <import index="atn4" ref="r:e1c4157a-470b-45c3-b6a9-e224efe13d0d(Flint.test.flintmodel)" />
+    <import index="atn4" ref="r:e1c4157a-470b-45c3-b6a9-e224efe13d0d(Flint.test.flintmodel)" implicit="true" />
   </imports>
   <registry>
     <language id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint">
