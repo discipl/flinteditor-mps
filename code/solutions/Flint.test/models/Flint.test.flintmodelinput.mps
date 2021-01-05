@@ -7,6 +7,18 @@
   <imports />
   <registry>
     <language id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint">
+      <concept id="1158474964212744280" name="Flint.structure.FlintModelActorReference" flags="ng" index="231zEf">
+        <reference id="1158474964212744281" name="actor" index="231zEe" />
+      </concept>
+      <concept id="1158474964212744261" name="Flint.structure.FlintModelRunnerConfiguration" flags="ng" index="231zEi">
+        <reference id="1158474964212744283" name="flintModel" index="231zEc" />
+        <child id="1158474964212744277" name="activeActors" index="231zE2" />
+        <child id="1158474964212744262" name="actors" index="231zEh" />
+        <child id="1158474964235219882" name="generalFacts" index="24vW_X" />
+      </concept>
+      <concept id="1158474964212744266" name="Flint.structure.FlintModelActor" flags="ng" index="231zEt">
+        <child id="1158474964212744273" name="facts" index="231zE6" />
+      </concept>
       <concept id="6868897032739893314" name="Flint.structure.IExplainable" flags="ng" index="cog$R">
         <property id="778381075952164307" name="explanation" index="3ANC2_" />
       </concept>
@@ -216,6 +228,44 @@
   </node>
   <node concept="cu0$2" id="74VLc6kV4G$">
     <property role="TrG5h" value="testmodel" />
+  </node>
+  <node concept="231zEi" id="4X4Qp53xR2a">
+    <property role="TrG5h" value="testrunner" />
+    <property role="3GE5qa" value="configuration" />
+    <ref role="231zEc" node="74VLc6kV4G$" resolve="testmodel" />
+    <node concept="231zEt" id="4X4Qp53xR2c" role="231zEh">
+      <property role="TrG5h" value="Actor1" />
+      <node concept="1FQA6B" id="4X4Qp53xR2q" role="231zE6">
+        <ref role="1FQA6$" node="74VLc6kV4GB" resolve="Fact1" />
+      </node>
+    </node>
+    <node concept="231zEt" id="4X4Qp53xR2e" role="231zEh">
+      <property role="TrG5h" value="Actor2" />
+      <node concept="1FQA6B" id="4X4Qp53xR2s" role="231zE6">
+        <ref role="1FQA6$" node="74VLc6kV4GJ" resolve="Fact2" />
+      </node>
+      <node concept="1FQA6B" id="4X4Qp53xR2x" role="231zE6">
+        <ref role="1FQA6$" node="74VLc6kV4GK" resolve="Fact3" />
+      </node>
+    </node>
+    <node concept="231zEt" id="4X4Qp53xR2h" role="231zEh">
+      <property role="TrG5h" value="Actor3" />
+      <node concept="1FQA6B" id="4X4Qp53xR2_" role="231zE6">
+        <ref role="1FQA6$" node="74VLc6kV4GB" resolve="Fact1" />
+      </node>
+    </node>
+    <node concept="231zEt" id="4X4Qp53xR2l" role="231zEh">
+      <property role="TrG5h" value="Actor4" />
+    </node>
+    <node concept="231zEf" id="4X4Qp53xR2D" role="231zE2">
+      <ref role="231zEe" node="4X4Qp53xR2c" resolve="Actor1" />
+    </node>
+    <node concept="231zEf" id="4X4Qp53xR2J" role="231zE2">
+      <ref role="231zEe" node="4X4Qp53xR2e" resolve="Actor2" />
+    </node>
+    <node concept="1FQA6B" id="4X4Qp53xR2B" role="24vW_X">
+      <ref role="1FQA6$" node="74VLc6kV4GL" resolve="Fact4" />
+    </node>
   </node>
 </model>
 

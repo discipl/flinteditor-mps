@@ -1267,5 +1267,79 @@
       </node>
     </node>
   </node>
+  <node concept="3YXoiq" id="63E5y3TmdA4">
+    <property role="TrG5h" value="testrunner" />
+    <property role="3GE5qa" value="configuration" />
+    <node concept="3YX88f" id="63E5y3TmdA5" role="3YXoi7">
+      <node concept="3YX88e" id="63E5y3TmdBi" role="3YX86K">
+        <property role="TrG5h" value="actors" />
+        <node concept="3YX8am" id="63E5y3TmdBm" role="3YX8ah">
+          <node concept="3YX86M" id="63E5y3TmdBt" role="3YX8ab">
+            <property role="3YX86R" value="Actor1" />
+          </node>
+          <node concept="3YX86M" id="63E5y3TmdB_" role="3YX8ab">
+            <property role="3YX86R" value="Actor2" />
+          </node>
+          <node concept="3YX86M" id="63E5y3TmdC4" role="3YX8ab">
+            <property role="3YX86R" value="Actor3" />
+          </node>
+          <node concept="3YX86M" id="6eTjOKdYbRc" role="3YX8ab">
+            <property role="3YX86R" value="Actor4" />
+          </node>
+        </node>
+      </node>
+      <node concept="3YX88e" id="63E5y3TmdBD" role="3YX86K">
+        <property role="TrG5h" value="activeActors" />
+        <node concept="3YX8am" id="63E5y3TmdBL" role="3YX8ah">
+          <node concept="3YX86M" id="63E5y3TmdBM" role="3YX8ab">
+            <property role="3YX86R" value="Actor1" />
+          </node>
+          <node concept="3YX86M" id="63E5y3TmdBN" role="3YX8ab">
+            <property role="3YX86R" value="Actor2" />
+          </node>
+        </node>
+      </node>
+      <node concept="3YX88e" id="63E5y3Tohvi" role="3YX86K">
+        <property role="TrG5h" value="factFunctionSpec" />
+        <node concept="3YX88f" id="63E5y3TohvP" role="3YX8ah">
+          <node concept="3YX88e" id="63E5y3TohvS" role="3YX86K">
+            <property role="TrG5h" value="[Fact1]" />
+            <node concept="3YX8am" id="Ftn0l75Nj$" role="3YX8ah">
+              <node concept="3YX86M" id="63E5y3TohvY" role="3YX8ab">
+                <property role="3YX86R" value="Actor1" />
+              </node>
+              <node concept="3YX86M" id="Ftn0l75NjT" role="3YX8ab">
+                <property role="3YX86R" value="Actor3" />
+              </node>
+            </node>
+          </node>
+          <node concept="3YX88e" id="63E5y3Tohw1" role="3YX86K">
+            <property role="TrG5h" value="[Fact2]" />
+            <node concept="3YX8am" id="Ftn0l75NjD" role="3YX8ah">
+              <node concept="3YX86M" id="63E5y3Tohw2" role="3YX8ab">
+                <property role="3YX86R" value="Actor2" />
+              </node>
+            </node>
+          </node>
+          <node concept="3YX88e" id="63E5y3Tohw7" role="3YX86K">
+            <property role="TrG5h" value="[Fact3]" />
+            <node concept="3YX8am" id="Ftn0l75NjI" role="3YX8ah">
+              <node concept="3YX86M" id="63E5y3Tohw8" role="3YX8ab">
+                <property role="3YX86R" value="Actor2" />
+              </node>
+            </node>
+          </node>
+          <node concept="3YX88e" id="63E5y3Tohwf" role="3YX86K">
+            <property role="TrG5h" value="[Fact4]" />
+            <node concept="3YX8am" id="Ftn0l75NjN" role="3YX8ah">
+              <node concept="3YX86M" id="63E5y3Tohwg" role="3YX8ab">
+                <property role="3YX86R" value="ANYONE" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
