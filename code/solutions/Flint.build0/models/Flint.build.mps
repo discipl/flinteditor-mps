@@ -222,6 +222,9 @@
       <concept id="8174907532628842428" name="jetbrains.mps.build.mps.structure.BuildMps_Tips" flags="ng" index="3jsGME">
         <child id="8174907532631382423" name="imports" index="3jmSa1" />
       </concept>
+      <concept id="763829979718664966" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleResources" flags="ng" index="3rtmxn">
+        <child id="763829979718664967" name="files" index="3rtmxm" />
+      </concept>
       <concept id="5507251971038816436" name="jetbrains.mps.build.mps.structure.BuildMps_Generator" flags="ng" index="1yeLz9" />
       <concept id="7753544965996377997" name="jetbrains.mps.build.mps.structure.BuildMps_Branding" flags="ng" index="1zClus">
         <property id="3497141547781541445" name="minor" index="2OjLBK" />
@@ -691,7 +694,6 @@
               </node>
             </node>
           </node>
-          <node concept="pUk6x" id="2WP7dhE1es8" role="pUk7w" />
           <node concept="398223" id="e8hxMxgqom" role="39821P">
             <node concept="398223" id="e8hxMxikKj" role="39821P">
               <node concept="398223" id="e8hxMxjjkS" role="39821P">
@@ -761,6 +763,7 @@
               </node>
             </node>
           </node>
+          <node concept="pUk6x" id="5DWs9m4PBGs" role="pUk7w" />
         </node>
         <node concept="3_J27D" id="2WP7dhE1es9" role="Nbhlr">
           <node concept="3Mxwew" id="2WP7dhE1esa" role="3MwsjC">
@@ -1050,6 +1053,21 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
           </node>
         </node>
+        <node concept="3rtmxn" id="5DWs9m4PBG7" role="3bR31x">
+          <node concept="3LXTmp" id="5DWs9m4PBG8" role="3rtmxm">
+            <node concept="3qWCbU" id="5DWs9m4PBG9" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="55IIr" id="5DWs9m4PBGa" role="3LXTmr">
+              <node concept="2Ry0Ak" id="5DWs9m4PBGb" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="5DWs9m4PBGc" role="2Ry0An">
+                  <property role="2Ry0Am" value="Flint" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="QLMwktTkqF" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1185,6 +1203,21 @@
         <node concept="1SiIV0" id="6e6T56swkXG" role="3bR37C">
           <node concept="3bR9La" id="6e6T56swkXH" role="1SiIV1">
             <ref role="3bR37D" to="90a9:PE3B26QCrP" resolve="org.apache.commons" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="5DWs9m4PBFM" role="3bR31x">
+          <node concept="3LXTmp" id="5DWs9m4PBFN" role="3rtmxm">
+            <node concept="3qWCbU" id="5DWs9m4PBFO" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="55IIr" id="5DWs9m4PBFP" role="3LXTmr">
+              <node concept="2Ry0Ak" id="5DWs9m4PBFQ" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="5DWs9m4PBFR" role="2Ry0An">
+                  <property role="2Ry0Am" value="Flint.plugin" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -1374,6 +1407,21 @@
             </node>
           </node>
         </node>
+        <node concept="3rtmxn" id="5DWs9m4PBFT" role="3bR31x">
+          <node concept="3LXTmp" id="5DWs9m4PBFU" role="3rtmxm">
+            <node concept="3qWCbU" id="5DWs9m4PBFV" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="55IIr" id="5DWs9m4PBFW" role="3LXTmr">
+              <node concept="2Ry0Ak" id="5DWs9m4PBFX" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="5DWs9m4PBFY" role="2Ry0An">
+                  <property role="2Ry0Am" value="Flint.runtime" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="e8hxMw1VLZ" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1500,6 +1548,21 @@
         <node concept="1SiIV0" id="5EQtPi4EYya" role="3bR37C">
           <node concept="1Busua" id="5EQtPi4EYyb" role="1SiIV1">
             <ref role="1Busuk" to="ffeo:14x5$qAUbkv" resolve="jetbrains.mps.lang.resources" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="5DWs9m4PBGe" role="3bR31x">
+          <node concept="3LXTmp" id="5DWs9m4PBGf" role="3rtmxm">
+            <node concept="3qWCbU" id="5DWs9m4PBGg" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="55IIr" id="5DWs9m4PBGh" role="3LXTmr">
+              <node concept="2Ry0Ak" id="5DWs9m4PBGi" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="5DWs9m4PBGj" role="2Ry0An">
+                  <property role="2Ry0Am" value="Resources" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -2381,6 +2444,21 @@
             <ref role="3bR37D" node="5DWs9m4HZrV" resolve="FlintTests" />
           </node>
         </node>
+        <node concept="3rtmxn" id="5DWs9m4PBG0" role="3bR31x">
+          <node concept="3LXTmp" id="5DWs9m4PBG1" role="3rtmxm">
+            <node concept="3qWCbU" id="5DWs9m4PBG2" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="55IIr" id="5DWs9m4PBG3" role="3LXTmr">
+              <node concept="2Ry0Ak" id="5DWs9m4PBG4" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="5DWs9m4PBG5" role="2Ry0An">
+                  <property role="2Ry0Am" value="Flint.test" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="22LTRH" id="63E5y3SREIq" role="1hWBAP">
@@ -2561,7 +2639,7 @@
     <node concept="1l3spV" id="5DWs9m4HZmn" role="1l3spN">
       <node concept="m$_wl" id="5DWs9m4I1hk" role="39821P">
         <ref role="m_rDy" node="5DWs9m4I0I5" resolve="FlintTestLanguage" />
-        <node concept="pUk6x" id="5DWs9m4I1hx" role="pUk7w" />
+        <node concept="pUk6x" id="5DWs9m4PBGt" role="pUk7w" />
       </node>
     </node>
     <node concept="2G$12M" id="5DWs9m4HZoa" role="3989C9">
@@ -2686,6 +2764,21 @@
         <node concept="1SiIV0" id="5DWs9m4HZP9" role="3bR37C">
           <node concept="1Busua" id="5DWs9m4HZPa" role="1SiIV1">
             <ref role="1Busuk" node="2WP7dhE1eri" resolve="Flint" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="5DWs9m4PBGl" role="3bR31x">
+          <node concept="3LXTmp" id="5DWs9m4PBGm" role="3rtmxm">
+            <node concept="3qWCbU" id="5DWs9m4PBGn" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="55IIr" id="5DWs9m4PBGo" role="3LXTmr">
+              <node concept="2Ry0Ak" id="5DWs9m4PBGp" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="5DWs9m4PBGq" role="2Ry0An">
+                  <property role="2Ry0Am" value="FlintTests" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>

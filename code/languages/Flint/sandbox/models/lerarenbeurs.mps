@@ -2,7 +2,7 @@
 <model ref="r:0e32c965-1c48-4f1c-81b8-80ac9be20944(lerarenbeurs)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="3" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="4" />
   </languages>
   <imports>
     <import index="9znr" ref="r:b207ec80-01d0-4c9c-9fef-433a23863ae1(Flint.sandbox)" />

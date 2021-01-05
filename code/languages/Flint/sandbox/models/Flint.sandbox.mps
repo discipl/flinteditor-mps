@@ -2,7 +2,7 @@
 <model ref="r:b207ec80-01d0-4c9c-9fef-433a23863ae1(Flint.sandbox)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="3" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="4" />
   </languages>
   <imports />
   <registry>
@@ -42,10 +42,10 @@
       </concept>
       <concept id="2444626260293387291" name="Flint.structure.Duty" flags="ng" index="2cz0EU">
         <child id="2444626260294521210" name="dutyComponents" index="2cBPZr" />
-        <child id="898982168832817003" name="createRef" index="cMmjI" />
-        <child id="898982168832817017" name="terminateRef" index="cMmjW" />
-        <child id="6205025464253210169" name="claimantRef" index="3H37fL" />
-        <child id="6205025464253210160" name="dutyHolderRef" index="3H37fS" />
+        <child id="898982168832817003" name="create" index="cMmjI" />
+        <child id="898982168832817017" name="terminate" index="cMmjW" />
+        <child id="6205025464253210169" name="claimant" index="3H37fL" />
+        <child id="6205025464253210160" name="dutyHolder" index="3H37fS" />
       </concept>
       <concept id="2444626260293394822" name="Flint.structure.DutyReference" flags="ng" index="2cz2WB">
         <reference id="2444626260293394823" name="duty" index="2cz2WA" />
@@ -55,9 +55,9 @@
         <child id="9029403747833803225" name="terminate" index="mu1c7" />
         <child id="9029403747833803217" name="create" index="mu1cf" />
         <child id="9029403747833797790" name="preconditions" index="mu3T0" />
-        <child id="6205025464253204623" name="objectRef" index="3H36l7" />
-        <child id="6205025464253204638" name="recipientRef" index="3H36lm" />
-        <child id="6205025464253204596" name="actorRef" index="3H36mW" />
+        <child id="6205025464253204623" name="object" index="3H36l7" />
+        <child id="6205025464253204638" name="recipient" index="3H36lm" />
+        <child id="6205025464253204596" name="actor" index="3H36mW" />
       </concept>
       <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
         <child id="6983418503075280678" name="sources" index="2pmM46" />
@@ -324,28 +324,6 @@
       <property role="cog$t" value="jci1.3:c:BWBR0039319&amp;hoofdstuk=1&amp;artikel=12" />
       <property role="cog$m" value="24-06-2020" />
       <property role="cog$g" value="01-01-9999" />
-    </node>
-    <node concept="cu0$f" id="1YhrGssDJdD" role="cu0BP">
-      <property role="TrG5h" value="Regering" />
-      <property role="3ANC2_" value="als fact benoemd omdat Regering op enkele plaatsen als interested party benoemd is" />
-    </node>
-    <node concept="cu0$f" id="1YhrGssDJdE" role="cu0BP">
-      <property role="TrG5h" value="bestuursorgaan" />
-      <node concept="1zEXH2" id="1YhrGssDJdF" role="coNO9">
-        <node concept="1FQA6B" id="1YhrGssDJdG" role="1zF96y">
-          <ref role="1FQA6$" node="1YhrGssDJdH" resolve="orgaan van een rechtspersoon die krachtens publiekrecht is ingesteld" />
-        </node>
-        <node concept="1zEWgd" id="1YhrGssDJdI" role="1zF96y">
-          <node concept="1FQA6B" id="1YhrGssDJdJ" role="1zF96y">
-            <ref role="1FQA6$" node="1YhrGssDJdK" resolve="persoon of college, met enig openbaar gezag bekleed" />
-          </node>
-          <node concept="1zEXH5" id="1YhrGssDJdL" role="1zF96y">
-            <node concept="1FQA6B" id="1YhrGssDJdM" role="1zF96A">
-              <ref role="1FQA6$" node="1YhrGssDJdN" resolve="organen, personen en colleges die niet als bestuursorgaan worden aangemerkt" />
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
     <node concept="cu0$f" id="1YhrGssDJdH" role="cu0BP">
       <property role="TrG5h" value="orgaan van een rechtspersoon die krachtens publiekrecht is ingesteld" />

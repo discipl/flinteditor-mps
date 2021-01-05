@@ -2,7 +2,8 @@
 <model ref="r:d268844f-2c2c-4250-a969-3a23a8a2bb02(Flint.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
+    <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -147,6 +148,9 @@
     <node concept="PrWs8" id="5XjenljcHGp" role="PzmwI">
       <ref role="PrY4T" node="5Xjenljcz12" resolve="IExplainable" />
     </node>
+    <node concept="PrWs8" id="1DVZuk_n_MO" role="PzmwI">
+      <ref role="PrY4T" node="1DVZuk_n$Nm" resolve="IReference" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5Xjenljcz0Z">
     <property role="EcuMT" value="6868897032739893311" />
@@ -202,6 +206,9 @@
     </node>
     <node concept="PrWs8" id="7PeSHTFdOjb" role="PzmwI">
       <ref role="PrY4T" node="7PeSHTFdOj4" resolve="IActCreateableAndTerminateable" />
+    </node>
+    <node concept="PrWs8" id="1DVZuk_n_MH" role="PzmwI">
+      <ref role="PrY4T" node="1DVZuk_n$Nm" resolve="IReference" />
     </node>
   </node>
   <node concept="1TIwiD" id="7PeSHTFdFJr">
@@ -342,6 +349,9 @@
     <node concept="PrWs8" id="LTOSk0HPl8" role="PzmwI">
       <ref role="PrY4T" node="LTOSk0HPkX" resolve="IDutyCreatableAndTerminateable" />
     </node>
+    <node concept="PrWs8" id="1DVZuk_n_M_" role="PzmwI">
+      <ref role="PrY4T" node="1DVZuk_n$Nm" resolve="IReference" />
+    </node>
   </node>
   <node concept="PlHQZ" id="27H3E6HBJi1">
     <property role="TrG5h" value="IUsable" />
@@ -359,6 +369,9 @@
     </node>
     <node concept="PrWs8" id="LTOSk0HPlf" role="PzmwI">
       <ref role="PrY4T" node="LTOSk0HPkX" resolve="IDutyCreatableAndTerminateable" />
+    </node>
+    <node concept="PrWs8" id="1DVZuk_n_Mt" role="PzmwI">
+      <ref role="PrY4T" node="1DVZuk_n$Nm" resolve="IReference" />
     </node>
   </node>
   <node concept="1TIwiD" id="10jIHuj5o15">
@@ -728,6 +741,10 @@
   <node concept="PlHQZ" id="74VLc6kEIu3">
     <property role="EcuMT" value="8159331485613746051" />
     <property role="TrG5h" value="ITestScopeProvider" />
+  </node>
+  <node concept="PlHQZ" id="1DVZuk_n$Nm">
+    <property role="EcuMT" value="1908398027737812182" />
+    <property role="TrG5h" value="IReference" />
   </node>
 </model>
 
