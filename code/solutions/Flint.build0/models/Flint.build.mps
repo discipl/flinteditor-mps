@@ -1048,11 +1048,6 @@
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
-        <node concept="1SiIV0" id="2PKbJs1Dujd" role="3bR37C">
-          <node concept="3bR9La" id="2PKbJs1Duje" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
-          </node>
-        </node>
         <node concept="3rtmxn" id="5DWs9m4PBG7" role="3bR31x">
           <node concept="3LXTmp" id="5DWs9m4PBG8" role="3rtmxm">
             <node concept="3qWCbU" id="5DWs9m4PBG9" role="3LXTna">
@@ -1418,6 +1413,16 @@
                 <node concept="2Ry0Ak" id="5DWs9m4PBFY" role="2Ry0An">
                   <property role="2Ry0Am" value="Flint.runtime" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="l30HV2NjuS" role="3bR37C">
+          <node concept="1BurEX" id="l30HV2NjuT" role="1SiIV1">
+            <node concept="398BVA" id="l30HV2NjuF" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="l30HV2NjuG" role="iGT6I">
+                <property role="2Ry0Am" value="commons-codec.jar" />
               </node>
             </node>
           </node>

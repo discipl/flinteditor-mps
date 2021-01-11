@@ -10,7 +10,7 @@
     <import index="lnwe" ref="r:d268844f-2c2c-4250-a969-3a23a8a2bb02(Flint.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="91gc" ref="r:57850d6b-985b-4a3f-af65-25f1fdeb3739(Flint.runtime.utils)" />
-    <import index="3lmi" ref="r:a950900f-47ea-4287-adc8-88f839ab614a(Flint.behavior)" implicit="true" />
+    <import index="3lmi" ref="r:a950900f-47ea-4287-adc8-88f839ab614a(Flint.behavior)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
@@ -2213,16 +2213,10 @@
               <node concept="Xl_RD" id="74VLc6kV6Dx" role="3uHU7w">
                 <property role="Xl_RC" value=".flint.fact" />
               </node>
-              <node concept="2OqwBi" id="74VLc6kV6Dy" role="3uHU7B">
-                <node concept="2OqwBi" id="74VLc6kV6Dz" role="2Oq$k0">
-                  <node concept="3TrcHB" id="74VLc6kV6D$" role="2OqNvi">
-                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                  </node>
-                  <node concept="30H73N" id="74VLc6kV6D_" role="2Oq$k0" />
-                </node>
-                <node concept="liA8E" id="74VLc6kV6DA" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
-                </node>
+              <node concept="2YIFZM" id="6t6$KA9NuxQ" role="3uHU7B">
+                <ref role="37wK5l" to="3lmi:6t6$KA9N6dv" resolve="safeName" />
+                <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
+                <node concept="30H73N" id="74VLc6kV6D_" role="37wK5m" />
               </node>
             </node>
           </node>
@@ -2261,16 +2255,10 @@
               <node concept="Xl_RD" id="74VLc6kWIm$" role="3uHU7w">
                 <property role="Xl_RC" value=".flint.duty" />
               </node>
-              <node concept="2OqwBi" id="74VLc6kWIm_" role="3uHU7B">
-                <node concept="2OqwBi" id="74VLc6kWImA" role="2Oq$k0">
-                  <node concept="3TrcHB" id="74VLc6kWImB" role="2OqNvi">
-                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                  </node>
-                  <node concept="30H73N" id="74VLc6kWImC" role="2Oq$k0" />
-                </node>
-                <node concept="liA8E" id="74VLc6kWImD" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
-                </node>
+              <node concept="2YIFZM" id="6t6$KA9Osy$" role="3uHU7B">
+                <ref role="37wK5l" to="3lmi:6t6$KA9N6dv" resolve="safeName" />
+                <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
+                <node concept="30H73N" id="6t6$KA9Osy_" role="37wK5m" />
               </node>
             </node>
           </node>
@@ -2309,16 +2297,10 @@
               <node concept="Xl_RD" id="74VLc6kWNXh" role="3uHU7w">
                 <property role="Xl_RC" value=".flint.act" />
               </node>
-              <node concept="2OqwBi" id="74VLc6kWNXi" role="3uHU7B">
-                <node concept="2OqwBi" id="74VLc6kWNXj" role="2Oq$k0">
-                  <node concept="3TrcHB" id="74VLc6kWNXk" role="2OqNvi">
-                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                  </node>
-                  <node concept="30H73N" id="74VLc6kWNXl" role="2Oq$k0" />
-                </node>
-                <node concept="liA8E" id="74VLc6kWNXm" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
-                </node>
+              <node concept="2YIFZM" id="6t6$KA9Os4H" role="3uHU7B">
+                <ref role="37wK5l" to="3lmi:6t6$KA9N6dv" resolve="safeName" />
+                <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
+                <node concept="30H73N" id="6t6$KA9Os5W" role="37wK5m" />
               </node>
             </node>
           </node>
@@ -2436,16 +2418,10 @@
               <node concept="Xl_RD" id="74VLc6kWTog" role="3uHU7w">
                 <property role="Xl_RC" value=".flint.source" />
               </node>
-              <node concept="2OqwBi" id="74VLc6kWToh" role="3uHU7B">
-                <node concept="2OqwBi" id="74VLc6kWToi" role="2Oq$k0">
-                  <node concept="3TrcHB" id="74VLc6kWToj" role="2OqNvi">
-                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                  </node>
-                  <node concept="30H73N" id="74VLc6kWTok" role="2Oq$k0" />
-                </node>
-                <node concept="liA8E" id="74VLc6kWTol" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
-                </node>
+              <node concept="2YIFZM" id="6t6$KA9OsUM" role="3uHU7B">
+                <ref role="37wK5l" to="3lmi:6t6$KA9N6dv" resolve="safeName" />
+                <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
+                <node concept="30H73N" id="6t6$KA9OsUN" role="37wK5m" />
               </node>
             </node>
           </node>

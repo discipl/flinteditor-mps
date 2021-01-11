@@ -4,9 +4,7 @@
   <languages>
     <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="4" />
   </languages>
-  <imports>
-    <import index="9znr" ref="r:b207ec80-01d0-4c9c-9fef-433a23863ae1(Flint.sandbox)" />
-  </imports>
+  <imports />
   <registry>
     <language id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint">
       <concept id="1158474964212744280" name="Flint.structure.FlintModelActorReference" flags="ng" index="231zEf">

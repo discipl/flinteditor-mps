@@ -75,6 +75,7 @@ dependencies {
     }
     mpslib 'com.googlecode.json-simple:json-simple:1.1.1'
     mpslib 'commons-io:commons-io:2.7'
+    mpslib 'commons-codec:commons-codec:1.11'
 
     artifact "com.mbeddr:platform:$mbeddr_version"
     mps("com.jetbrains:mps:$mps_version")

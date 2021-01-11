@@ -6,9 +6,6 @@
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <use id="1a8554c4-eb84-43ba-8c34-6f0d90c6e75a" name="jetbrains.mps.lang.smodel.query" version="3" />
     <use id="d8f591ec-4d86-4af2-9f92-a9e93c803ffa" name="jetbrains.mps.lang.scopes" version="0" />
-    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="4" />
-    <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -33,9 +30,8 @@
     <import index="nkm5" ref="r:095345ad-6627-42ca-9d3f-fc1b2d9fbd61(de.itemis.mps.editor.diagram.runtime.model)" />
     <import index="tc27" ref="r:92d28f3c-6acc-431a-94ba-30cd184d2da4(de.itemis.mps.editor.diagram.runtime.substitute)" />
     <import index="o3n2" ref="r:26eadcf0-f275-4e90-be37-e4432772a74d(jetbrains.mps.build.util)" />
-    <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
-    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="1ctc" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.stream(JDK/)" />
+    <import index="wxa0" ref="acf1b507-e791-4de3-b55f-a3880c36d5bb/java:org.apache.commons.codec.digest(Flint.runtime/)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -5601,6 +5597,39 @@
       <node concept="37vLTG" id="3oX$uxICyjY" role="3clF46">
         <property role="TrG5h" value="name" />
         <node concept="17QB3L" id="3oX$uxICyjZ" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6t6$KA9N3ds" role="jymVt" />
+    <node concept="2YIFZL" id="6t6$KA9N6dv" role="jymVt">
+      <property role="TrG5h" value="safeName" />
+      <node concept="3clFbS" id="6t6$KA9N6dy" role="3clF47">
+        <node concept="3clFbF" id="6t6$KA9VEXt" role="3cqZAp">
+          <node concept="2YIFZM" id="6t6$KA9VE_R" role="3clFbG">
+            <ref role="1Pybhc" to="wxa0:~DigestUtils" resolve="DigestUtils" />
+            <ref role="37wK5l" to="wxa0:~DigestUtils.sha256Hex(java.lang.String)" resolve="sha256Hex" />
+            <node concept="2OqwBi" id="6t6$KA9VGbO" role="37wK5m">
+              <node concept="2OqwBi" id="6t6$KA9VFkK" role="2Oq$k0">
+                <node concept="37vLTw" id="6t6$KA9VF9z" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6t6$KA9N6T9" resolve="node" />
+                </node>
+                <node concept="3TrcHB" id="6t6$KA9VFDk" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+              <node concept="liA8E" id="6t6$KA9VGN8" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="6t6$KA9N6dz" role="1B3o_S" />
+      <node concept="17QB3L" id="6t6$KA9N6ay" role="3clF45" />
+      <node concept="37vLTG" id="6t6$KA9N6T9" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="6t6$KA9N6T8" role="1tU5fm">
+          <ref role="ehGHo" to="tpck:h0TrEE$" resolve="INamedConcept" />
+        </node>
       </node>
     </node>
     <node concept="3Tm1VV" id="3oX$uxIyT1L" role="1B3o_S" />

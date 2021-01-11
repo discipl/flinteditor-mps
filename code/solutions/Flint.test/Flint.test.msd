@@ -16,7 +16,6 @@
     <dependency reexport="false">fa1d9284-6f2c-4199-ba86-19ab8b12cf3e(Flint.plugin)</dependency>
     <dependency reexport="false">acf1b507-e791-4de3-b55f-a3880c36d5bb(Flint.runtime)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-    <dependency reexport="false">0bfae715-f669-4a10-999a-ba0ca94a1c3c(FlintTests)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:69940819-10c1-4a38-ac44-700b63f993ba:Flint" version="4" />
@@ -43,7 +42,6 @@
     <module reference="fa1d9284-6f2c-4199-ba86-19ab8b12cf3e(Flint.plugin)" version="0" />
     <module reference="acf1b507-e791-4de3-b55f-a3880c36d5bb(Flint.runtime)" version="0" />
     <module reference="b39b469c-da14-4677-a46e-17a70ccf0be8(Flint.test)" version="0" />
-    <module reference="0bfae715-f669-4a10-999a-ba0ca94a1c3c(FlintTests)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />

@@ -10,6 +10,7 @@
       <sourceRoot location="json-simple.jar" />
       <sourceRoot location="kotlin-stdlib-common.jar" />
       <sourceRoot location="kotlin-stdlib.jar" />
+      <sourceRoot location="commons-codec.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -30,6 +31,7 @@
     <stubModelEntry path="${module}/libs/kotlin-stdlib-jdk7.jar" />
     <stubModelEntry path="${module}/libs/kotlin-stdlib-jdk8.jar" />
     <stubModelEntry path="${module}/libs/kotlin-stdlib.jar" />
+    <stubModelEntry path="${module}/libs/commons-codec.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
