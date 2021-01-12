@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:b356de6c-2a1e-4b60-9be7-dd1224b32e39(flintmodel3)">
+<model ref="r:b356de6c-2a1e-4b60-9be7-dd1224b32e39(lerarenbeurs)">
   <persistence version="9" />
   <languages>
     <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="4" />
