@@ -127,6 +127,9 @@
     <node concept="PrWs8" id="woTyy$Ex1Y" role="PzmwI">
       <ref role="PrY4T" node="woTyy$Etl9" resolve="IHasResolvableRoot" />
     </node>
+    <node concept="PrWs8" id="5REjpykwy8i" role="PzmwI">
+      <ref role="PrY4T" node="5REjpykwy73" resolve="IShouldBeInVirtualPackage" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5Xjenljcz0Y">
     <property role="EcuMT" value="6868897032739893310" />
@@ -178,6 +181,9 @@
     <node concept="PrWs8" id="27H3E6HPv0P" role="PzmwI">
       <ref role="PrY4T" node="27H3E6HBJi1" resolve="IUsable" />
     </node>
+    <node concept="PrWs8" id="5REjpykwy8u" role="PzmwI">
+      <ref role="PrY4T" node="5REjpykwy73" resolve="IShouldBeInVirtualPackage" />
+    </node>
   </node>
   <node concept="PlHQZ" id="5Xjenljcz12">
     <property role="EcuMT" value="6868897032739893314" />
@@ -196,6 +202,7 @@
   <node concept="1TIwiD" id="5HFvLoKGhUL">
     <property role="EcuMT" value="6587498613242404529" />
     <property role="TrG5h" value="FactReference" />
+    <property role="34LRSv" value="fact" />
     <ref role="1TJDcQ" node="4OBWPp15Tuc" resolve="Resolvable" />
     <node concept="1TJgyj" id="5HFvLoKGhUM" role="1TKVEi">
       <property role="IQ2ns" value="6587498613242404530" />
@@ -227,6 +234,9 @@
     </node>
     <node concept="PrWs8" id="63E5y3TGjsP" role="PzmwI">
       <ref role="PrY4T" node="63E5y3TGjs_" resolve="IHasSources" />
+    </node>
+    <node concept="PrWs8" id="5REjpykwy7R" role="PzmwI">
+      <ref role="PrY4T" node="5REjpykwy73" resolve="IShouldBeInVirtualPackage" />
     </node>
     <node concept="1TJgyj" id="7PeSHTFdHMu" role="1TKVEi">
       <property role="IQ2ns" value="9029403747833797790" />
@@ -300,6 +310,9 @@
     <node concept="PrWs8" id="63E5y3TGjtg" role="PzmwI">
       <ref role="PrY4T" node="63E5y3TGjs_" resolve="IHasSources" />
     </node>
+    <node concept="PrWs8" id="5REjpykwy84" role="PzmwI">
+      <ref role="PrY4T" node="5REjpykwy73" resolve="IShouldBeInVirtualPackage" />
+    </node>
     <node concept="1TJgyj" id="27H3E6Hs_5U" role="1TKVEi">
       <property role="IQ2ns" value="2444626260294521210" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -335,6 +348,7 @@
   <node concept="1TIwiD" id="27H3E6Hoi66">
     <property role="EcuMT" value="2444626260293394822" />
     <property role="TrG5h" value="DutyReference" />
+    <property role="34LRSv" value="duty" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="27H3E6Hoi67" role="1TKVEi">
       <property role="IQ2ns" value="2444626260293394823" />
@@ -359,6 +373,7 @@
   <node concept="1TIwiD" id="6qUJKUPmPQ6">
     <property role="EcuMT" value="7402439007429942662" />
     <property role="TrG5h" value="ActReference" />
+    <property role="34LRSv" value="act" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6qUJKUPmPQ7" role="1TKVEi">
       <property role="IQ2ns" value="7402439007429942663" />
@@ -744,6 +759,10 @@
   <node concept="PlHQZ" id="1DVZuk_n$Nm">
     <property role="EcuMT" value="1908398027737812182" />
     <property role="TrG5h" value="IReference" />
+  </node>
+  <node concept="PlHQZ" id="5REjpykwy73">
+    <property role="EcuMT" value="6767306707799515587" />
+    <property role="TrG5h" value="IShouldBeInVirtualPackage" />
   </node>
 </model>
 

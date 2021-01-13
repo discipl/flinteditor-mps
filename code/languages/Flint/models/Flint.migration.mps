@@ -55,9 +55,6 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
-      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
-        <reference id="1144433057691" name="classifier" index="1PxDUh" />
-      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
@@ -2179,19 +2176,13 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="5DWs9m5foxM" role="3cqZAp">
-          <node concept="37vLTI" id="5DWs9m5foxN" role="3clFbG">
-            <node concept="10M0yZ" id="5DWs9m5foxO" role="37vLTx">
-              <ref role="3cqZAo" to="3lmi:3oX$uxICsF5" resolve="factsDir" />
-              <ref role="1PxDUh" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
+        <node concept="3clFbF" id="5REjpykyCEx" role="3cqZAp">
+          <node concept="2OqwBi" id="5REjpykyCME" role="3clFbG">
+            <node concept="37vLTw" id="5REjpykyCEv" role="2Oq$k0">
+              <ref role="3cqZAo" node="5DWs9m5foxv" resolve="newFact" />
             </node>
-            <node concept="2OqwBi" id="5DWs9m5foxP" role="37vLTJ">
-              <node concept="37vLTw" id="1DVZuk_mEqV" role="2Oq$k0">
-                <ref role="3cqZAo" node="5DWs9m5foxv" resolve="newFact" />
-              </node>
-              <node concept="3TrcHB" id="5DWs9m5foxR" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:hnGE5uv" resolve="virtualPackage" />
-              </node>
+            <node concept="2qgKlT" id="5REjpykyCV$" role="2OqNvi">
+              <ref role="37wK5l" to="3lmi:5REjpykwPKC" resolve="moveToRequiredPackage" />
             </node>
           </node>
         </node>
@@ -2707,19 +2698,13 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="5DWs9m5foy6" role="3cqZAp">
-          <node concept="37vLTI" id="5DWs9m5foy7" role="3clFbG">
-            <node concept="10M0yZ" id="5DWs9m5foy8" role="37vLTx">
-              <ref role="1PxDUh" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
-              <ref role="3cqZAo" to="3lmi:3oX$uxICpG6" resolve="actsDir" />
+        <node concept="3clFbF" id="5REjpyky$j4" role="3cqZAp">
+          <node concept="2OqwBi" id="5REjpyky$Ut" role="3clFbG">
+            <node concept="37vLTw" id="5REjpyky$j2" role="2Oq$k0">
+              <ref role="3cqZAo" node="1DVZuk__3RS" resolve="newAct" />
             </node>
-            <node concept="2OqwBi" id="5DWs9m5foy9" role="37vLTJ">
-              <node concept="37vLTw" id="1DVZuk_B1kz" role="2Oq$k0">
-                <ref role="3cqZAo" node="1DVZuk__3RS" resolve="newAct" />
-              </node>
-              <node concept="3TrcHB" id="5DWs9m5foyb" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:hnGE5uv" resolve="virtualPackage" />
-              </node>
+            <node concept="2qgKlT" id="5REjpyky_mN" role="2OqNvi">
+              <ref role="37wK5l" to="3lmi:5REjpykwPKC" resolve="moveToRequiredPackage" />
             </node>
           </node>
         </node>
@@ -3086,19 +3071,13 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="1DVZuk__EQ2" role="3cqZAp">
-          <node concept="37vLTI" id="1DVZuk__EQ3" role="3clFbG">
-            <node concept="10M0yZ" id="1DVZuk__JWz" role="37vLTx">
-              <ref role="3cqZAo" to="3lmi:3oX$uxICrdL" resolve="dutiesDir" />
-              <ref role="1PxDUh" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
+        <node concept="3clFbF" id="5REjpykyA1G" role="3cqZAp">
+          <node concept="2OqwBi" id="5REjpykyAov" role="3clFbG">
+            <node concept="37vLTw" id="5REjpykyA1E" role="2Oq$k0">
+              <ref role="3cqZAo" node="1DVZuk__EPS" resolve="newDuty" />
             </node>
-            <node concept="2OqwBi" id="1DVZuk__EQ5" role="37vLTJ">
-              <node concept="37vLTw" id="1DVZuk__JrE" role="2Oq$k0">
-                <ref role="3cqZAo" node="1DVZuk__EPS" resolve="newDuty" />
-              </node>
-              <node concept="3TrcHB" id="1DVZuk__EQ7" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:hnGE5uv" resolve="virtualPackage" />
-              </node>
+            <node concept="2qgKlT" id="5REjpykyB5U" role="2OqNvi">
+              <ref role="37wK5l" to="3lmi:5REjpykwPKC" resolve="moveToRequiredPackage" />
             </node>
           </node>
         </node>
@@ -3400,19 +3379,13 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="5DWs9m5foz6" role="3cqZAp">
-          <node concept="37vLTI" id="5DWs9m5foz7" role="3clFbG">
-            <node concept="10M0yZ" id="5DWs9m5foz8" role="37vLTx">
-              <ref role="3cqZAo" to="3lmi:3oX$uxICrWp" resolve="sourcesDir" />
-              <ref role="1PxDUh" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
+        <node concept="3clFbF" id="5REjpykyBAF" role="3cqZAp">
+          <node concept="2OqwBi" id="5REjpykyBPr" role="3clFbG">
+            <node concept="37vLTw" id="5REjpykyBAD" role="2Oq$k0">
+              <ref role="3cqZAo" node="1DVZuk_jwLH" resolve="newSource" />
             </node>
-            <node concept="2OqwBi" id="5DWs9m5foz9" role="37vLTJ">
-              <node concept="37vLTw" id="1DVZuk_jxsc" role="2Oq$k0">
-                <ref role="3cqZAo" node="1DVZuk_jwLH" resolve="newSource" />
-              </node>
-              <node concept="3TrcHB" id="5DWs9m5fozb" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:hnGE5uv" resolve="virtualPackage" />
-              </node>
+            <node concept="2qgKlT" id="5REjpykyCa3" role="2OqNvi">
+              <ref role="37wK5l" to="3lmi:5REjpykwPKC" resolve="moveToRequiredPackage" />
             </node>
           </node>
         </node>

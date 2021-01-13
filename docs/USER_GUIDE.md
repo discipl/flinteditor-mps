@@ -5,7 +5,7 @@ This is the MPS Flint IDE user guide. The Guide covers the following topics.
 - [Creating a Flint project](#creating-a-flint-project)
 - [Editing a FlintModel](#editing-a-flintModel)
 - [Creating a FlintRunner](#creating-a-flintrunner)
-- [Useful Shortcuts](#useful-shortcuts)
+- [Useful Shortcuts, Tips And Tricks](#useful-shortcuts-tips-and-tricks)
 
 ## Creating a Flint project
 1. Open MPS.
@@ -14,14 +14,14 @@ This is the MPS Flint IDE user guide. The Guide covers the following topics.
 ![Flint Project Window](images/newproject.png)
 
 ## [Optional] Import existing flint model
-1. Right click on the model folder under your flint solution and select "Import FlintModel from Json".  
+1. Right click on the solution folder solution and select "Import FlintModel from Json".  
 ![Import From Flint Model](images/importfromjson.png)
 1. Select the flint model json file and hit ok.
 1. If the model folder says generation required. In the top bar click `Build > Make Project`. If you get a menu asking you to review errors select the `Ignore Errors` option.  
 ![Make Project](images/makeproject.png)
 
 ## [Optional] Import from Wetten.nl
-1. Right click on the model folder under your flint solution and select "Import FlintModel from Wetten.nl". 
+1. Right click on the solution folder and select "Import FlintModel from Wetten.nl". 
 ![Import From Wetten.nl](images/importfromwettennl.png)
 1. Enter a juriconnect (for example jci1.3:c:BWBR0011823&hoofdstuk=3&afdeling=4&paragraaf=1&artikel=30b&lid=1&o=k&z=2019-02-27&g=2019-02-27
 )  in the dialog and hit OK.
@@ -32,19 +32,19 @@ This is the MPS Flint IDE user guide. The Guide covers the following topics.
 ![Created Flint Model](images/openmodel.png)
 
 ### Acts
-1. To create an act click on the area with << ... >> and hit `Ctrl+Space` and select act or select the empty space under an existing act and hit `Enter`.  
+1. To create an act right click on the acts or model folder and select Act.   
 ![Create Act](images/createact.png)
 1. Replace the first <no name> with the name of the act.
 
-#### Create new fact
-1. Click on the area with <no name> and enter the name of the fact.
+#### Quick create new fact
+1. Click on the area with <no fact> and enter the name of the fact.
 1. Hit `Ctrl+Space` and select Create Fact: (factname).  
-![Create Fact](images/createfact.png)
+![Create Fact](images/quickCreateFact.png)
 
 #### Select existing fact
 1. Click on the area with <no name>.
 1. Hit `Ctrl+Space`  and start typing the name of the fact until it's visible in the list.
-1. Select the fact.
+1. Select the fact.   
 ![Select Fact](images/selectfact.png)
 
 #### Preconditions
@@ -60,7 +60,7 @@ For create and terminate you can select a fact or a duty the same way you [selec
 1. Under text enter the text from the source.
 
 ### Facts
-1. To create a fact click on the area with << ... >> and hit `Ctrl+Space` and select fact or select the empty space under an existing fact and hit `Enter`.  
+1. To create a fact right click on the facts or model folder and select Fact.
 ![Create Fact](images/createnewfact.png)
 1. Replace the first <no name> with the name of the fact.
 
@@ -74,19 +74,20 @@ See [expressions](#expressions).
 1. Under text enter the text from the source.
 
 ### Duties
-1. To create a duty click on the area with << ... >> and hit `Ctrl+Space` and select duty or select the empty space under an existing duty and hit `Enter`.  
+1. To create a duties right click on the acts or model folder and select Duty.
 ![Create Duty](images/createnewduty.png)
 1. Replace the first <no name> with the name of the duty.
 1. You can create and select facts and acts just like in [acts](#acts)
 
 ### Sources
-1. To create a source click on the area with << ... >> and hit `Ctrl+Space` and select basesource or select the empty space under an existing source and hit `Enter`.  
+1. To create a source right click on the sources or model folder and select Source.
 ![Create Source](images/createsource.png)
 1. Replace the first <no name> with the name of the source.
 1. Enter the juriconnect URI.
 1. Enter the valid from and valid to dates. These can be entered manually in the dd-mm-yyyy format or by using the date picker by clicking the calendar icon.
 
-![Example source](images/source.png)
+You can open the juriconnect on wetten.nl by `Ctrl+Clicking` on the juriconnect.
+![Open juriconnect](images/openjuriconnect.png)
 
 ### Expressions
 There are different types of expressions. Creating these expressions with be explained below. To replace an expression hit `Alt+Enter` and select replace (expression x) with (expression y). To nest an expression hit `Alt+Enter` and select wrap (expression x) with new expression. 
@@ -193,8 +194,14 @@ To run the FlintModelRunner.
 ![Create actor](images/actor.png)
 1. Under facts: you specify the facts that apply to this actor.
 
-## Useful Shortcuts and
+## Useful Shortcuts, Tips And Tricks
 - `Ctrl+B` or `Ctrl+Click` will take you to the source of a reference.
 - `Ctrl+F9` will rebuild the current solution.
 - `Alt+Shift+7` or `Right Click > Find Usages` will allow you to see where a fact / act / duty or source is used.
 ![Find Usages](images/findusages.png)
+- Most warnings have quick fixes hit `Alt+Enter` to see them.
+- To see all errors / warnings in a model right click on the model and select check model.   
+![Check Model](images/checkmodel1.png)   
+  You can also perform all quick fixed by hitting the `Perform Quick Fixes` button.   
+![Perform Quick Fixes](images/checkmodel2.png)
+- You can jump to any act/source/duty by hitting `Ctrl+N` and typing it's name.
