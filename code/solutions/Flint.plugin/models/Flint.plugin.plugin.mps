@@ -1002,24 +1002,51 @@
                                             </node>
                                             <node concept="3clFbJ" id="69gSqIzHfus" role="3cqZAp">
                                               <node concept="3clFbS" id="69gSqIzHfut" role="3clFbx">
-                                                <node concept="3clFbF" id="69gSqIzHfuu" role="3cqZAp">
-                                                  <node concept="2YIFZM" id="69gSqIzHfuv" role="3clFbG">
-                                                    <ref role="37wK5l" node="qKaVF7jjti" resolve="renameModel" />
-                                                    <ref role="1Pybhc" node="4Y4T$M$Yhm8" resolve="Utils" />
-                                                    <node concept="37vLTw" id="69gSqIzHfuw" role="37wK5m">
-                                                      <ref role="3cqZAo" node="2PKbJs23FS3" resolve="model" />
-                                                    </node>
-                                                    <node concept="2OqwBi" id="69gSqIzHfux" role="37wK5m">
-                                                      <node concept="37vLTw" id="69gSqIzHfuy" role="2Oq$k0">
-                                                        <ref role="3cqZAo" node="69gSqIzHftJ" resolve="modelName" />
-                                                      </node>
-                                                      <node concept="liA8E" id="69gSqIzHfuz" role="2OqNvi">
-                                                        <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence)" resolve="replace" />
-                                                        <node concept="Xl_RD" id="69gSqIzHfu$" role="37wK5m">
-                                                          <property role="Xl_RC" value="." />
+                                                <node concept="3clFbF" id="4l3mHrwA3Ys" role="3cqZAp">
+                                                  <node concept="2OqwBi" id="4l3mHrwA598" role="3clFbG">
+                                                    <node concept="2OqwBi" id="4l3mHrwA3Yu" role="2Oq$k0">
+                                                      <node concept="2OqwBi" id="4l3mHrwA3Yv" role="2Oq$k0">
+                                                        <node concept="liA8E" id="4l3mHrwA3Yw" role="2OqNvi">
+                                                          <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
                                                         </node>
-                                                        <node concept="Xl_RD" id="69gSqIzHfu_" role="37wK5m">
-                                                          <property role="Xl_RC" value="_" />
+                                                        <node concept="2OqwBi" id="4l3mHrwA3Yx" role="2Oq$k0">
+                                                          <node concept="2WthIp" id="4l3mHrwA3Yy" role="2Oq$k0" />
+                                                          <node concept="1DTwFV" id="4l3mHrwA3Yz" role="2OqNvi">
+                                                            <ref role="2WH_rO" node="7wFBj$Xk5Ix" resolve="mpsProject" />
+                                                          </node>
+                                                        </node>
+                                                      </node>
+                                                      <node concept="liA8E" id="4l3mHrwA3Y$" role="2OqNvi">
+                                                        <ref role="37wK5l" to="lui2:~SRepository.getModelAccess()" resolve="getModelAccess" />
+                                                      </node>
+                                                    </node>
+                                                    <node concept="liA8E" id="4l3mHrwA65W" role="2OqNvi">
+                                                      <ref role="37wK5l" to="lui2:~ModelAccess.executeCommandInEDT(java.lang.Runnable)" resolve="executeCommandInEDT" />
+                                                      <node concept="1bVj0M" id="4l3mHrwA6vY" role="37wK5m">
+                                                        <node concept="3clFbS" id="4l3mHrwA6vZ" role="1bW5cS">
+                                                          <node concept="3clFbF" id="69gSqIzHfuu" role="3cqZAp">
+                                                            <node concept="2YIFZM" id="69gSqIzHfuv" role="3clFbG">
+                                                              <ref role="37wK5l" node="qKaVF7jjti" resolve="renameModel" />
+                                                              <ref role="1Pybhc" node="4Y4T$M$Yhm8" resolve="Utils" />
+                                                              <node concept="37vLTw" id="69gSqIzHfuw" role="37wK5m">
+                                                                <ref role="3cqZAo" node="2PKbJs23FS3" resolve="model" />
+                                                              </node>
+                                                              <node concept="2OqwBi" id="69gSqIzHfux" role="37wK5m">
+                                                                <node concept="37vLTw" id="69gSqIzHfuy" role="2Oq$k0">
+                                                                  <ref role="3cqZAo" node="69gSqIzHftJ" resolve="modelName" />
+                                                                </node>
+                                                                <node concept="liA8E" id="69gSqIzHfuz" role="2OqNvi">
+                                                                  <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence)" resolve="replace" />
+                                                                  <node concept="Xl_RD" id="69gSqIzHfu$" role="37wK5m">
+                                                                    <property role="Xl_RC" value="." />
+                                                                  </node>
+                                                                  <node concept="Xl_RD" id="69gSqIzHfu_" role="37wK5m">
+                                                                    <property role="Xl_RC" value="_" />
+                                                                  </node>
+                                                                </node>
+                                                              </node>
+                                                            </node>
+                                                          </node>
                                                         </node>
                                                       </node>
                                                     </node>
