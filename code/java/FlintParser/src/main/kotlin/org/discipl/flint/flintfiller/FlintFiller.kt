@@ -62,7 +62,7 @@ class FlintFiller(private val pathToFillerDirString: String, private val outputD
             "-d",
             outputDir.resolve("dict.json").toString(),
             "-df",
-            outputDir.resolve("dataFrame.cvs").toString(),
+            outputDir.resolve("dataFrame.csv").toString(),
             "-pt",
             outputDir.resolve("postTaggedDataFrame_.csv").toString(),
             "-fo",

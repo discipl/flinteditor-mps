@@ -75,6 +75,7 @@ dependencies {
     }
     mpslib 'com.googlecode.json-simple:json-simple:1.1.1'
     mpslib 'commons-io:commons-io:2.7'
+    mpslib 'commons-codec:commons-codec:1.11'
 
     artifact "com.mbeddr:platform:$mbeddr_version"
     mps("com.jetbrains:mps:$mps_version")
@@ -280,6 +281,11 @@ task buildFlint(type: de.itemis.mps.gradle.RunAntScript, dependsOn: generateScri
     targets = ["generate", "build"]
 }
 
+task buildFlintTestLanguage(type: de.itemis.mps.gradle.RunAntScript, dependsOn: buildFlint) {
+    script = file("$codeDir/build-Flint-Test-Language.xml")
+    targets = ["generate", "build"]
+}
+
 task buildFlintIde(type: de.itemis.mps.gradle.RunAntScript, dependsOn: buildFlint) {
     script = file("$codeDir/build-IdeDistribution.xml")
     targets = ["build"]
@@ -295,7 +301,7 @@ task addFxLibs(type: Copy) {
     into "${mpsDir}/lib"
 }
 
-task mpsTest(type: de.itemis.mps.gradle.RunAntScript, dependsOn: [buildFlint]) {
+task mpsTest(type: de.itemis.mps.gradle.RunAntScript, dependsOn: [buildFlintTestLanguage]) {
     script = file("$codeDir/build-testFlint.xml")
     targets = ["generate", "test"]
     test.finalizedBy("mpsTest")

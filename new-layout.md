@@ -1,0 +1,13 @@
+- FlintModel Name
+    - Acts
+        - Act 1
+        - Act 2
+    - Facts
+        - Fact 1
+        - Fact 2
+    - Duties
+        - Duty 1
+        - Duty 2
+    - Sources
+        - Source 1
+        - Source 2

@@ -14,13 +14,12 @@
   <dependencies>
     <dependency reexport="false">69940819-10c1-4a38-ac44-700b63f993ba(Flint)</dependency>
     <dependency reexport="false">fa1d9284-6f2c-4199-ba86-19ab8b12cf3e(Flint.plugin)</dependency>
-    <dependency reexport="false">1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)</dependency>
-    <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
     <dependency reexport="false">acf1b507-e791-4de3-b55f-a3880c36d5bb(Flint.runtime)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </dependencies>
   <languageVersions>
-    <language slang="l:69940819-10c1-4a38-ac44-700b63f993ba:Flint" version="3" />
+    <language slang="l:69940819-10c1-4a38-ac44-700b63f993ba:Flint" version="4" />
+    <language slang="l:0bfae715-f669-4a10-999a-ba0ca94a1c3c:FlintTests" version="0" />
     <language slang="l:b5c0bb04-c583-4b2a-a66e-1eab92d33c68:com.mbeddr.mpsutil.json" version="0" />
     <language slang="l:8ca79d43-eb45-4791-bdd4-0d6130ff895b:de.itemis.mps.editor.diagram.layout" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="9" />
@@ -45,10 +44,7 @@
     <module reference="b39b469c-da14-4677-a46e-17a70ccf0be8(Flint.test)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
-    <module reference="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" version="0" />
-    <module reference="498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
-    <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
     <module reference="8ca79d43-eb45-4791-bdd4-0d6130ff895b(de.itemis.mps.editor.diagram.layout)" version="0" />
     <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
     <module reference="443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)" version="0" />
