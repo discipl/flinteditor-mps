@@ -6,6 +6,14 @@
   </languages>
   <imports />
   <registry>
+    <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
+      <concept id="2557074442922380897" name="de.slisson.mps.richtext.structure.Text" flags="ng" index="19SGf9">
+        <child id="2557074442922392302" name="words" index="19SJt6" />
+      </concept>
+      <concept id="2557074442922438156" name="de.slisson.mps.richtext.structure.Word" flags="ng" index="19SUe$">
+        <property id="2557074442922438158" name="escapedValue" index="19SUeA" />
+      </concept>
+    </language>
     <language id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint">
       <concept id="1158474964212744280" name="Flint.structure.FlintModelActorReference" flags="ng" index="231zEf">
         <reference id="1158474964212744281" name="actor" index="231zEe" />
@@ -19,8 +27,17 @@
       <concept id="1158474964212744266" name="Flint.structure.FlintModelActor" flags="ng" index="231zEt">
         <child id="1158474964212744273" name="facts" index="231zE6" />
       </concept>
+      <concept id="5309275763118590480" name="Flint.structure.TaggedWord" flags="ng" index="aU1KX">
+        <property id="5309275763120703337" name="role" index="aMd54" />
+        <property id="5309275763119607854" name="word" index="aYSo3" />
+      </concept>
       <concept id="6868897032739893314" name="Flint.structure.IExplainable" flags="ng" index="cog$R">
         <property id="778381075952164307" name="explanation" index="3ANC2_" />
+      </concept>
+      <concept id="6868897032739893311" name="Flint.structure.Source" flags="ng" index="cog_a" />
+      <concept id="6868897032739893310" name="Flint.structure.SourceReference" flags="ng" index="cog_b">
+        <reference id="6868897032739893359" name="baseSource" index="cog$q" />
+        <child id="5309275763118294786" name="textParts" index="aVT4J" />
       </concept>
       <concept id="6868897032739434615" name="Flint.structure.FlintModel" flags="ng" index="cu0$2" />
       <concept id="6868897032739434618" name="Flint.structure.Fact" flags="ng" index="cu0$f">
@@ -32,6 +49,9 @@
         <child id="6205025464253204623" name="object" index="3H36l7" />
         <child id="6205025464253204638" name="recipient" index="3H36lm" />
         <child id="6205025464253204596" name="actor" index="3H36mW" />
+      </concept>
+      <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
+        <child id="6983418503075280678" name="sources" index="2pmM46" />
       </concept>
       <concept id="4808965957220771074" name="Flint.structure.AND" flags="ng" index="1zEWgd" />
       <concept id="4808965957220776510" name="Flint.structure.LESS_THAN" flags="ng" index="1zEXGL" />
@@ -145,6 +165,22 @@
     <node concept="1FQA6B" id="l30HV33nM_" role="3H36lm">
       <ref role="1FQA6$" node="l30HV33nM1" resolve="burger" />
     </node>
+    <node concept="cog_b" id="4AIlyP3d$BM" role="2pmM46">
+      <property role="3ANC2_" value="" />
+      <ref role="cog$q" node="4AIlyP2$YN3" resolve="Source3" />
+      <node concept="19SGf9" id="4AIlyP3jdSf" role="aVT4J">
+        <node concept="19SUe$" id="4AIlyP3jdSp" role="19SJt6">
+          <property role="19SUeA" value="Derp 34231 " />
+        </node>
+        <node concept="aU1KX" id="4AIlyP3majI" role="19SJt6">
+          <property role="aYSo3" value="tagged" />
+          <property role="aMd54" value="4AIlyP2wQBx/Recipient" />
+        </node>
+        <node concept="19SUe$" id="4AIlyP3majJ" role="19SJt6">
+          <property role="19SUeA" value=" derp321 if you need some Gril content while she is offline" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="mu5$5" id="l30HV33nMA">
     <property role="TrG5h" value="subsidie intrekken" />
@@ -208,6 +244,18 @@
     <node concept="1FQA6B" id="1YpZTwqy8ax" role="24vW_X">
       <ref role="1FQA6$" node="l30HV33nMg" resolve="person" />
     </node>
+  </node>
+  <node concept="cog_a" id="4AIlyP2$ILV">
+    <property role="TrG5h" value="TestSource" />
+    <property role="3GE5qa" value="sources" />
+  </node>
+  <node concept="cog_a" id="4AIlyP2$ILW">
+    <property role="TrG5h" value="TestSource2" />
+    <property role="3GE5qa" value="sources" />
+  </node>
+  <node concept="cog_a" id="4AIlyP2$YN3">
+    <property role="3GE5qa" value="sources" />
+    <property role="TrG5h" value="Source3" />
   </node>
 </model>
 
