@@ -2,10 +2,18 @@
 <model ref="r:b356de6c-2a1e-4b60-9be7-dd1224b32e39(lerarenbeurs)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="4" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="5" />
   </languages>
   <imports />
   <registry>
+    <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
+      <concept id="2557074442922380897" name="de.slisson.mps.richtext.structure.Text" flags="ng" index="19SGf9">
+        <child id="2557074442922392302" name="words" index="19SJt6" />
+      </concept>
+      <concept id="2557074442922438156" name="de.slisson.mps.richtext.structure.Word" flags="ng" index="19SUe$">
+        <property id="2557074442922438158" name="escapedValue" index="19SUeA" />
+      </concept>
+    </language>
     <language id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint">
       <concept id="1158474964212744280" name="Flint.structure.FlintModelActorReference" flags="ng" index="231zEf">
         <reference id="1158474964212744281" name="actor" index="231zEe" />
@@ -30,6 +38,7 @@
       <concept id="6868897032739893310" name="Flint.structure.SourceReference" flags="ng" index="cog_b">
         <property id="6587498613243528183" name="text" index="1FEjNx" />
         <reference id="6868897032739893359" name="baseSource" index="cog$q" />
+        <child id="5309275763118294786" name="textParts" index="aVT4J" />
       </concept>
       <concept id="6868897032739434615" name="Flint.structure.FlintModel" flags="ng" index="cu0$2" />
       <concept id="6868897032739434618" name="Flint.structure.Fact" flags="ng" index="cu0$f">
@@ -488,6 +497,11 @@
     <node concept="cog_b" id="l30HV33nCq" role="2pmM46">
       <property role="1FEjNx" value="{leraar:degene die voldoet aan bevoegdheidseisen gesteld in artikel 3 van de Wet op het primair onderwijs,artikel 3 van de Wet op de expertisecentra,artikel XI van de Wet op de beroepen in het onderwijsofartikel 3 van de Wet primair onderwijs BES, dan wel kan worden benoemd of tewerk kan worden gesteld zonder benoeming als bedoeld inartikel 33 van de Wet op het voortgezet onderwijs,artikel 4.2.1. van de Wet educatie en beroepsonderwijs,artikel 80 van de Wet voortgezet onderwijs BESofartikel 4.2.1 van de Wet educatie beroepsonderwijs BES, of die lesgeeft in het hoger onderwijs}" />
       <ref role="cog$q" node="l30HV33nyZ" resolve="Art. 1, tiende gedachtenstreepje Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkPt" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkPv" role="19SJt6">
+          <property role="19SUeA" value="{leraar:degene die voldoet aan bevoegdheidseisen gesteld in artikel 3 van de Wet op het primair onderwijs,artikel 3 van de Wet op de expertisecentra,artikel XI van de Wet op de beroepen in het onderwijsofartikel 3 van de Wet primair onderwijs BES, dan wel kan worden benoemd of tewerk kan worden gesteld zonder benoeming als bedoeld inartikel 33 van de Wet op het voortgezet onderwijs,artikel 4.2.1. van de Wet educatie en beroepsonderwijs,artikel 80 van de Wet voortgezet onderwijs BESofartikel 4.2.1 van de Wet educatie beroepsonderwijs BES, of die lesgeeft in het hoger onderwijs}" />
+        </node>
+      </node>
     </node>
     <node concept="1zEXH2" id="l30HV33nCr" role="coNO9" />
   </node>
@@ -1491,6 +1505,9 @@
     <property role="207Gpp" value="indienen" />
     <node concept="cog_b" id="l30HV33nEU" role="2pmM46">
       <ref role="cog$q" node="l30HV33nz0" resolve="art. 1:3 lid 3 Awb" />
+      <node concept="19SGf9" id="5hB3R5$YkNF" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkNH" role="19SJt6" />
+      </node>
     </node>
     <node concept="1zEXH5" id="l30HV33nEV" role="mu3T0">
       <node concept="1FQA6B" id="l30HV33nEX" role="1zF96A">
@@ -1513,6 +1530,11 @@
     <node concept="cog_b" id="l30HV33nF5" role="2pmM46">
       <property role="1FEjNx" value="{Een besluit treedt niet in werking voordat het is bekendgemaakt.}" />
       <ref role="cog$q" node="l30HV33nz1" resolve="art. 3:40 Awb" />
+      <node concept="19SGf9" id="5hB3R5$YkNI" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkNK" role="19SJt6">
+          <property role="19SUeA" value="{Een besluit treedt niet in werking voordat het is bekendgemaakt.}" />
+        </node>
+      </node>
     </node>
     <node concept="1FQA6B" id="l30HV33nF6" role="mu3T0">
       <ref role="1FQA6$" node="l30HV33n$x" resolve="aanvraag" />
@@ -1533,6 +1555,11 @@
     <node concept="cog_b" id="l30HV33nFe" role="2pmM46">
       <property role="1FEjNx" value="{Het bestuursorgaan kan besluiten de aanvraag niet te behandelen, indien:&#13;&#10;a. de aanvrager niet heeft voldaan aan enig wettelijk voorschrift voor het in behandeling nemen van de aanvraag, of&#13;&#10;b. de aanvraag geheel of gedeeltelijk is geweigerd op grond van artikel 2:15, of&#13;&#10;c. de verstrekte gegevens en bescheiden onvoldoende zijn voor de beoordeling van de aanvraag of voor de voorbereiding van de beschikking,&#13;&#10;mits de aanvrager de gelegenheid heeft gehad de aanvraag binnen een door het bestuursorgaan gestelde termijn aan te vullen.&#13;&#10;(...)&#13;&#10;4 Een besluit om de aanvraag niet te behandelen wordt aan de aanvrager bekendgemaakt binnen vier weken nadat de aanvraag is aangevuld of nadat de daarvoor gestelde termijn ongebruikt is verstreken.}" />
       <ref role="cog$q" node="l30HV33nz2" resolve="art. 4:5 Awb" />
+      <node concept="19SGf9" id="5hB3R5$YkNL" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkNN" role="19SJt6">
+          <property role="19SUeA" value="{Het bestuursorgaan kan besluiten de aanvraag niet te behandelen, indien:&#13;&#10;a. de aanvrager niet heeft voldaan aan enig wettelijk voorschrift voor het in behandeling nemen van de aanvraag, of&#13;&#10;b. de aanvraag geheel of gedeeltelijk is geweigerd op grond van artikel 2:15, of&#13;&#10;c. de verstrekte gegevens en bescheiden onvoldoende zijn voor de beoordeling van de aanvraag of voor de voorbereiding van de beschikking,&#13;&#10;mits de aanvrager de gelegenheid heeft gehad de aanvraag binnen een door het bestuursorgaan gestelde termijn aan te vullen.&#13;&#10;(...)&#13;&#10;4 Een besluit om de aanvraag niet te behandelen wordt aan de aanvrager bekendgemaakt binnen vier weken nadat de aanvraag is aangevuld of nadat de daarvoor gestelde termijn ongebruikt is verstreken.}" />
+        </node>
+      </node>
     </node>
     <node concept="1zEWgd" id="l30HV33nFf" role="mu3T0" />
     <node concept="1FQA6B" id="l30HV33nFq" role="3H36mW" />
@@ -1551,6 +1578,11 @@
     <node concept="cog_b" id="l30HV33nFx" role="2pmM46">
       <property role="1FEjNx" value="{Het bestuursorgaan dat bevoegd is op de aanvraag te beslissen, kan voor het indienen van aanvragen en het verstrekken van gegevens een formulier vaststellen, voor zover daarin niet is voorzien bij wettelijk voorschrift.}" />
       <ref role="cog$q" node="l30HV33nz3" resolve="art. 4:4 Awb" />
+      <node concept="19SGf9" id="5hB3R5$YkNO" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkNQ" role="19SJt6">
+          <property role="19SUeA" value="{Het bestuursorgaan dat bevoegd is op de aanvraag te beslissen, kan voor het indienen van aanvragen en het verstrekken van gegevens een formulier vaststellen, voor zover daarin niet is voorzien bij wettelijk voorschrift.}" />
+        </node>
+      </node>
     </node>
     <node concept="1zEWgd" id="l30HV33nFy" role="mu3T0" />
     <node concept="1FQA6B" id="l30HV33nFB" role="3H36mW" />
@@ -1568,6 +1600,9 @@
     <property role="207Gpp" value="verstrekken" />
     <node concept="cog_b" id="l30HV33nFI" role="2pmM46">
       <ref role="cog$q" node="l30HV33nz4" resolve="art. 3 lid 1, aanhef en onder a, Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkNR" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkNT" role="19SJt6" />
+      </node>
     </node>
     <node concept="1zEWgd" id="l30HV33nFJ" role="mu3T0" />
     <node concept="1FQA6B" id="l30HV33nG4" role="3H36mW">
@@ -1586,6 +1621,9 @@
     <property role="207Gpp" value="verstrekken" />
     <node concept="cog_b" id="l30HV33nGb" role="2pmM46">
       <ref role="cog$q" node="l30HV33nz5" resolve="art. 3.1 lid 1, aanhef en onder b, Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkNU" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkNW" role="19SJt6" />
+      </node>
     </node>
     <node concept="1zEWgd" id="l30HV33nGc" role="mu3T0" />
     <node concept="1FQA6B" id="l30HV33nGm" role="3H36mW">
@@ -1605,6 +1643,11 @@
     <node concept="cog_b" id="l30HV33nGt" role="2pmM46">
       <property role="1FEjNx" value="{De subsidie voor studiekosten wordt aangevraagd door de leraar.}" />
       <ref role="cog$q" node="l30HV33nz6" resolve="art. 7 lid 1 Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkNX" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkNZ" role="19SJt6">
+          <property role="19SUeA" value="{De subsidie voor studiekosten wordt aangevraagd door de leraar.}" />
+        </node>
+      </node>
     </node>
     <node concept="1zEWgd" id="l30HV33nGu" role="mu3T0" />
     <node concept="1FQA6B" id="l30HV33nGx" role="3H36mW">
@@ -1624,6 +1667,11 @@
     <node concept="cog_b" id="l30HV33nGC" role="2pmM46">
       <property role="1FEjNx" value="{De subsidie voor studieverlof wordt door de leraar aangevraagd voor het bevoegd gezag.}" />
       <ref role="cog$q" node="l30HV33nz7" resolve="art. 8 lid 1 Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkO0" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkO2" role="19SJt6">
+          <property role="19SUeA" value="{De subsidie voor studieverlof wordt door de leraar aangevraagd voor het bevoegd gezag.}" />
+        </node>
+      </node>
     </node>
     <node concept="1zEWgd" id="l30HV33nGD" role="mu3T0" />
     <node concept="1FQA6B" id="l30HV33nGG" role="3H36mW">
@@ -1643,6 +1691,11 @@
     <node concept="cog_b" id="l30HV33nGN" role="2pmM46">
       <property role="1FEjNx" value="{De minister kan de subsidie voor studiekosten terugvorderen indien de leraar in de subsidieperiode minder dan vijftien studiepunten behaalt}" />
       <ref role="cog$q" node="l30HV33nz8" resolve="art. 13 lid 1 Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkO3" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkO5" role="19SJt6">
+          <property role="19SUeA" value="{De minister kan de subsidie voor studiekosten terugvorderen indien de leraar in de subsidieperiode minder dan vijftien studiepunten behaalt}" />
+        </node>
+      </node>
     </node>
     <node concept="1zEWgd" id="l30HV33nGO" role="mu3T0" />
     <node concept="1FQA6B" id="l30HV33nGR" role="3H36mW">
@@ -1662,6 +1715,9 @@
     <property role="207Gpp" value="terugvorderen" />
     <node concept="cog_b" id="l30HV33nGY" role="2pmM46">
       <ref role="cog$q" node="l30HV33nz9" resolve="art. 13 lid 2 Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkO6" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkO8" role="19SJt6" />
+      </node>
     </node>
     <node concept="1zEWgd" id="l30HV33nGZ" role="mu3T0" />
     <node concept="1FQA6B" id="l30HV33nH2" role="3H36mW">
@@ -1680,6 +1736,9 @@
     <property role="207Gpp" value="terugvorderen" />
     <node concept="cog_b" id="l30HV33nH9" role="2pmM46">
       <ref role="cog$q" node="l30HV33nz9" resolve="art. 13 lid 2 Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkO9" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkOb" role="19SJt6" />
+      </node>
     </node>
     <node concept="1FQA6B" id="l30HV33nHa" role="mu3T0">
       <ref role="1FQA6$" node="l30HV33nEa" resolve="besluit tot verlenen subsidie voor kosten in verband met het verlenen van studieverlof aan de leraar" />
@@ -1700,6 +1759,9 @@
     <property role="207Gpp" value="treffen" />
     <node concept="cog_b" id="l30HV33nHi" role="2pmM46">
       <ref role="cog$q" node="l30HV33nza" resolve="art. 13 lid 3 Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkOc" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkOe" role="19SJt6" />
+      </node>
     </node>
     <node concept="1FQA6B" id="l30HV33nHj" role="mu3T0">
       <ref role="1FQA6$" node="l30HV33nEl" resolve="terugvordering" />
@@ -1720,6 +1782,9 @@
     <property role="207Gpp" value="terugvorderen" />
     <node concept="cog_b" id="l30HV33nHr" role="2pmM46">
       <ref role="cog$q" node="l30HV33nzb" resolve="art. 16 Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkOf" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkOh" role="19SJt6" />
+      </node>
     </node>
     <node concept="1FQA6B" id="l30HV33nHs" role="mu3T0">
       <ref role="1FQA6$" node="l30HV33nEc" resolve="besluit tot verlenen subsidie voor studiekosten van een leraar in verband met het volgen van een opleiding" />
@@ -1740,6 +1805,9 @@
     <property role="207Gpp" value="verzoeken" />
     <node concept="cog_b" id="l30HV33nH$" role="2pmM46">
       <ref role="cog$q" node="l30HV33nzc" resolve="art. 19 Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkOi" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkOk" role="19SJt6" />
+      </node>
     </node>
     <node concept="1FQA6B" id="l30HV33nH_" role="mu3T0">
       <ref role="1FQA6$" node="l30HV33nEc" resolve="besluit tot verlenen subsidie voor studiekosten van een leraar in verband met het volgen van een opleiding" />
@@ -1760,6 +1828,9 @@
     <property role="207Gpp" value="verzoeken" />
     <node concept="cog_b" id="l30HV33nHH" role="2pmM46">
       <ref role="cog$q" node="l30HV33nzc" resolve="art. 19 Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkOl" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkOn" role="19SJt6" />
+      </node>
     </node>
     <node concept="1FQA6B" id="l30HV33nHI" role="mu3T0">
       <ref role="1FQA6$" node="l30HV33nEc" resolve="besluit tot verlenen subsidie voor studiekosten van een leraar in verband met het volgen van een opleiding" />
@@ -1780,6 +1851,9 @@
     <property role="207Gpp" value="overleggen" />
     <node concept="cog_b" id="l30HV33nHQ" role="2pmM46">
       <ref role="cog$q" node="l30HV33nzc" resolve="art. 19 Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkOo" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkOq" role="19SJt6" />
+      </node>
     </node>
     <node concept="1zEWgd" id="l30HV33nHR" role="mu3T0" />
     <node concept="1FQA6B" id="l30HV33nHV" role="3H36mW">
@@ -1798,6 +1872,9 @@
     <property role="207Gpp" value="overleggen" />
     <node concept="cog_b" id="l30HV33nI2" role="2pmM46">
       <ref role="cog$q" node="l30HV33nzc" resolve="art. 19 Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkOr" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkOt" role="19SJt6" />
+      </node>
     </node>
     <node concept="1zEWgd" id="l30HV33nI3" role="mu3T0" />
     <node concept="1FQA6B" id="l30HV33nI7" role="3H36mW">
@@ -1816,6 +1893,9 @@
     <property role="207Gpp" value="intrekken" />
     <node concept="cog_b" id="l30HV33nIe" role="2pmM46">
       <ref role="cog$q" node="l30HV33nzd" resolve="art. 13 lid 2, onder b. Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkOu" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkOw" role="19SJt6" />
+      </node>
     </node>
     <node concept="1FQA6B" id="l30HV33nIf" role="mu3T0">
       <ref role="1FQA6$" node="l30HV33nAh" resolve="binnen twee maanden na het verstrekken van de subsidie" />
@@ -1836,6 +1916,9 @@
     <property role="207Gpp" value="intrekken" />
     <node concept="cog_b" id="l30HV33nIn" role="2pmM46">
       <ref role="cog$q" node="l30HV33nzd" resolve="art. 13 lid 2, onder b. Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkOx" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkOz" role="19SJt6" />
+      </node>
     </node>
     <node concept="1FQA6B" id="l30HV33nIo" role="mu3T0">
       <ref role="1FQA6$" node="l30HV33nAh" resolve="binnen twee maanden na het verstrekken van de subsidie" />
@@ -1856,6 +1939,9 @@
     <property role="207Gpp" value="melden" />
     <node concept="cog_b" id="l30HV33nIw" role="2pmM46">
       <ref role="cog$q" node="l30HV33nze" resolve="art. 5.7 lid 1, aanhef en onder b. Kaderregeling subsidies OCW, SZW en VWS" />
+      <node concept="19SGf9" id="5hB3R5$YkO$" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkOA" role="19SJt6" />
+      </node>
     </node>
     <node concept="1zEXH5" id="l30HV33nIx" role="mu3T0">
       <node concept="1FQA6B" id="l30HV33nIz" role="1zF96A">
@@ -1878,6 +1964,9 @@
     <property role="207Gpp" value="verlenen" />
     <node concept="cog_b" id="l30HV33nIF" role="2pmM46">
       <ref role="cog$q" node="l30HV33nze" resolve="art. 5.7 lid 1, aanhef en onder b. Kaderregeling subsidies OCW, SZW en VWS" />
+      <node concept="19SGf9" id="5hB3R5$YkOB" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkOD" role="19SJt6" />
+      </node>
     </node>
     <node concept="1zEWgd" id="l30HV33nIG" role="mu3T0" />
     <node concept="1FQA6B" id="l30HV33nIJ" role="3H36mW">
@@ -1897,6 +1986,9 @@
     <property role="207Gpp" value="voldoen aan" />
     <node concept="cog_b" id="l30HV33nIQ" role="2pmM46">
       <ref role="cog$q" node="l30HV33nzf" resolve="art. 24 lid 2 Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkOE" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkOG" role="19SJt6" />
+      </node>
     </node>
     <node concept="1zEWgd" id="l30HV33nIR" role="mu3T0" />
     <node concept="1FQA6B" id="l30HV33nIU" role="3H36mW">
@@ -1917,6 +2009,11 @@
     <node concept="cog_b" id="l30HV33nJ1" role="2pmM46">
       <property role="1FEjNx" value="{De minister kan een of meer bepalingen van deze regeling buiten toepassing laten of daarvan afwijken voor zover deze toepassing, gelet op het belang dat deze regeling beoogt te beschermen, zal leiden tot onbillijkheid van overwegende aard.}" />
       <ref role="cog$q" node="l30HV33nzg" resolve="art. 26 Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkOH" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkOJ" role="19SJt6">
+          <property role="19SUeA" value="{De minister kan een of meer bepalingen van deze regeling buiten toepassing laten of daarvan afwijken voor zover deze toepassing, gelet op het belang dat deze regeling beoogt te beschermen, zal leiden tot onbillijkheid van overwegende aard.}" />
+        </node>
+      </node>
     </node>
     <node concept="1FQA6B" id="l30HV33nJ2" role="mu3T0">
       <ref role="1FQA6$" node="l30HV33n$W" resolve="nadelige gevolgen van een besluit zijn onevenredig in verhouding tot de met het besluit te dienen doelen" />
@@ -1939,6 +2036,11 @@
     <node concept="cog_b" id="l30HV33nJa" role="2pmM46">
       <property role="1FEjNx" value="{De minister kan een of meer bepalingen van deze regeling buiten toepassing laten of daarvan afwijken voor zover deze toepassing, gelet op het belang dat deze regeling beoogt te beschermen, zal leiden tot onbillijkheid van overwegende aard.}" />
       <ref role="cog$q" node="l30HV33nzg" resolve="art. 26 Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkOK" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkOM" role="19SJt6">
+          <property role="19SUeA" value="{De minister kan een of meer bepalingen van deze regeling buiten toepassing laten of daarvan afwijken voor zover deze toepassing, gelet op het belang dat deze regeling beoogt te beschermen, zal leiden tot onbillijkheid van overwegende aard.}" />
+        </node>
+      </node>
     </node>
     <node concept="1FQA6B" id="l30HV33nJb" role="mu3T0">
       <ref role="1FQA6$" node="l30HV33n$W" resolve="nadelige gevolgen van een besluit zijn onevenredig in verhouding tot de met het besluit te dienen doelen" />
@@ -1961,6 +2063,11 @@
     <node concept="cog_b" id="l30HV33nJj" role="2pmM46">
       <property role="1FEjNx" value="{1 De subsidieverlening kan in ieder geval worden geweigerd indien een gegronde reden bestaat om aan te nemen dat:&#13;&#10;&#13;&#10;a. de activiteiten niet of niet geheel zullen plaatsvinden;&#13;&#10;&#13;&#10;b. de aanvrager niet zal voldoen aan de aan de subsidie verbonden verplichtingen;&#13;&#10;&#13;&#10;c. de aanvrager niet op een behoorlijke wijze rekening en verantwoording zal afleggen omtrent de verrichte activiteiten en de daaraan verbonden uitgaven en inkomsten, voor zover deze voor de vaststelling van de subsidie van belang zijn.&#13;&#10;&#13;&#10;2 De subsidieverlening kan voorts in ieder geval worden geweigerd indien de aanvrager:&#13;&#10;&#13;&#10;a. in het kader van de aanvraag onjuiste of onvolledige gegevens heeft verstrekt en de verstrekking van deze gegevens tot een onjuiste beschikking op de aanvraag zou hebben geleid, of&#13;&#10;&#13;&#10;b. failliet is verklaard of aan hem surséance van betaling is verleend of ten aanzien van hem de schuldsaneringsregeling natuurlijke personen van toepassing is verklaard, dan wel een verzoek daartoe bij de rechtbank is ingediend.&#13;&#10;&#13;&#10;3 De subsidieverlening wordt voorts geweigerd indien de verstrekking van subsidie naar het oordeel van het bestuursorgaan niet verenigbaar is met het bepaalde in de artikelen 107 en 108 van het Verdrag betreffende de werking van de Europese Unie.}" />
       <ref role="cog$q" node="l30HV33nzh" resolve="art.4:35 Awb" />
+      <node concept="19SGf9" id="5hB3R5$YkON" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkOP" role="19SJt6">
+          <property role="19SUeA" value="{1 De subsidieverlening kan in ieder geval worden geweigerd indien een gegronde reden bestaat om aan te nemen dat:&#13;&#10;&#13;&#10;a. de activiteiten niet of niet geheel zullen plaatsvinden;&#13;&#10;&#13;&#10;b. de aanvrager niet zal voldoen aan de aan de subsidie verbonden verplichtingen;&#13;&#10;&#13;&#10;c. de aanvrager niet op een behoorlijke wijze rekening en verantwoording zal afleggen omtrent de verrichte activiteiten en de daaraan verbonden uitgaven en inkomsten, voor zover deze voor de vaststelling van de subsidie van belang zijn.&#13;&#10;&#13;&#10;2 De subsidieverlening kan voorts in ieder geval worden geweigerd indien de aanvrager:&#13;&#10;&#13;&#10;a. in het kader van de aanvraag onjuiste of onvolledige gegevens heeft verstrekt en de verstrekking van deze gegevens tot een onjuiste beschikking op de aanvraag zou hebben geleid, of&#13;&#10;&#13;&#10;b. failliet is verklaard of aan hem surséance van betaling is verleend of ten aanzien van hem de schuldsaneringsregeling natuurlijke personen van toepassing is verklaard, dan wel een verzoek daartoe bij de rechtbank is ingediend.&#13;&#10;&#13;&#10;3 De subsidieverlening wordt voorts geweigerd indien de verstrekking van subsidie naar het oordeel van het bestuursorgaan niet verenigbaar is met het bepaalde in de artikelen 107 en 108 van het Verdrag betreffende de werking van de Europese Unie.}" />
+        </node>
+      </node>
     </node>
     <node concept="1zEXH2" id="l30HV33nJk" role="mu3T0" />
     <node concept="1FQA6B" id="l30HV33nJw" role="3H36mW" />
@@ -1978,6 +2085,9 @@
     <property role="207Gpp" value="weigeren" />
     <node concept="cog_b" id="l30HV33nJB" role="2pmM46">
       <ref role="cog$q" node="l30HV33nzi" resolve="art. 10 Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkOQ" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkOS" role="19SJt6" />
+      </node>
     </node>
     <node concept="1FQA6B" id="l30HV33nJC" role="mu3T0">
       <ref role="1FQA6$" node="l30HV33nEc" resolve="besluit tot verlenen subsidie voor studiekosten van een leraar in verband met het volgen van een opleiding" />
@@ -1999,6 +2109,9 @@
     <property role="207Gpp" value="verdelen" />
     <node concept="cog_b" id="l30HV33nJK" role="2pmM46">
       <ref role="cog$q" node="l30HV33nzj" resolve="art. 6 lid 1 Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkOT" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkOV" role="19SJt6" />
+      </node>
     </node>
     <node concept="1FQA6B" id="l30HV33nJL" role="3H36mW">
       <ref role="1FQA6$" node="l30HV33nE9" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
@@ -2015,6 +2128,9 @@
     <property role="207Gpp" value="verdelen" />
     <node concept="cog_b" id="l30HV33nJS" role="2pmM46">
       <ref role="cog$q" node="l30HV33nzk" resolve="art. 22 Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkOW" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkOY" role="19SJt6" />
+      </node>
     </node>
     <node concept="1FQA6B" id="l30HV33nJT" role="3H36mW">
       <ref role="1FQA6$" node="l30HV33nE9" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
@@ -2030,6 +2146,9 @@
     <property role="207Gpp" value="berekenen" />
     <node concept="cog_b" id="l30HV33nK0" role="2pmM46">
       <ref role="cog$q" node="l30HV33nzl" resolve="art. 15 Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkOZ" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkP1" role="19SJt6" />
+      </node>
     </node>
     <node concept="1FQA6B" id="l30HV33nK1" role="3H36mW">
       <ref role="1FQA6$" node="l30HV33nE9" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
@@ -2048,6 +2167,11 @@
     <node concept="cog_b" id="l30HV33nK8" role="2pmM46">
       <property role="1FEjNx" value="{De aanvraag geschiedt door invulling en inlevering of elektronische verzending van daartoe bestemde door de minister te verstrekken formulieren op de website van de Dienst Uitvoering Onderwijs.}" />
       <ref role="cog$q" node="l30HV33nzm" resolve="Art. 21 Slb  &#13;&#10;Art. 22 Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkP2" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkP4" role="19SJt6">
+          <property role="19SUeA" value="{De aanvraag geschiedt door invulling en inlevering of elektronische verzending van daartoe bestemde door de minister te verstrekken formulieren op de website van de Dienst Uitvoering Onderwijs.}" />
+        </node>
+      </node>
     </node>
     <node concept="1FQA6B" id="l30HV33nK9" role="3H36mW">
       <ref role="1FQA6$" node="l30HV33nE9" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
@@ -2066,6 +2190,11 @@
     <node concept="cog_b" id="l30HV33nKg" role="2pmM46">
       <property role="1FEjNx" value="{De aanvraag geschiedt door invulling en inlevering of elektronische verzending van daartoe bestemde door de minister te verstrekken formulieren op de website van de Dienst Uitvoering Onderwijs.}" />
       <ref role="cog$q" node="l30HV33nzn" resolve="art. 7 lid 2 Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkP5" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkP7" role="19SJt6">
+          <property role="19SUeA" value="{De aanvraag geschiedt door invulling en inlevering of elektronische verzending van daartoe bestemde door de minister te verstrekken formulieren op de website van de Dienst Uitvoering Onderwijs.}" />
+        </node>
+      </node>
     </node>
     <node concept="1FQA6B" id="l30HV33nKh" role="3H36mW">
       <ref role="1FQA6$" node="l30HV33nE9" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
@@ -2084,6 +2213,11 @@
     <node concept="cog_b" id="l30HV33nKo" role="2pmM46">
       <property role="1FEjNx" value="{De aanvraag geschiedt door invulling en inlevering of elektronische verzending van daartoe bestemde door de minister te verstrekken formulieren op de website van de Dienst Uitvoering Onderwijs.}" />
       <ref role="cog$q" node="l30HV33nzo" resolve="art. 8 lid 2 Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkP8" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkPa" role="19SJt6">
+          <property role="19SUeA" value="{De aanvraag geschiedt door invulling en inlevering of elektronische verzending van daartoe bestemde door de minister te verstrekken formulieren op de website van de Dienst Uitvoering Onderwijs.}" />
+        </node>
+      </node>
     </node>
     <node concept="1FQA6B" id="l30HV33nKp" role="3H36mW">
       <ref role="1FQA6$" node="l30HV33nE9" resolve="minister van Onderwijs, Cultuur en Wetenschap" />
@@ -2217,6 +2351,11 @@
     <node concept="cog_b" id="l30HV33nL4" role="2pmM46">
       <property role="1FEjNx" value="De aanvrager verschaft voorts de gegevens en bescheiden die voor de beslissing op de aanvraag nodig zijn en waarover hij redelijkerwijs de beschikking kan krijgen." />
       <ref role="cog$q" node="l30HV33nzq" resolve="art. 4:2 lid 1 Awb" />
+      <node concept="19SGf9" id="5hB3R5$YkPb" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkPd" role="19SJt6">
+          <property role="19SUeA" value="De aanvrager verschaft voorts de gegevens en bescheiden die voor de beslissing op de aanvraag nodig zijn en waarover hij redelijkerwijs de beschikking kan krijgen." />
+        </node>
+      </node>
     </node>
     <node concept="1FQA6B" id="l30HV33nL5" role="3H37fS">
       <ref role="1FQA6$" node="l30HV33n$N" resolve="aanvrager" />
@@ -2236,6 +2375,11 @@
     <node concept="cog_b" id="l30HV33nLa" role="2pmM46">
       <property role="1FEjNx" value="{Bij de voorbereiding van een besluit vergaart het bestuursorgaan de nodige kennis omtrent de relevante feiten en de af te wegen belangen.}" />
       <ref role="cog$q" node="l30HV33nzr" resolve="art. 3:2 Awb" />
+      <node concept="19SGf9" id="5hB3R5$YkPe" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkPg" role="19SJt6">
+          <property role="19SUeA" value="{Bij de voorbereiding van een besluit vergaart het bestuursorgaan de nodige kennis omtrent de relevante feiten en de af te wegen belangen.}" />
+        </node>
+      </node>
     </node>
     <node concept="2cz2WB" id="l30HV33nLb" role="2cBPZr">
       <ref role="2cz2WA" node="l30HV33nLc" resolve="vergaren nodige kennis omtrent de relevante feiten" />
@@ -2271,6 +2415,11 @@
     <node concept="cog_b" id="l30HV33nLk" role="2pmM46">
       <property role="1FEjNx" value="{Een besluit dient te berusten op een deugdelijke motivering.}" />
       <ref role="cog$q" node="l30HV33nzs" resolve="art. 3:46 Awb" />
+      <node concept="19SGf9" id="5hB3R5$YkPh" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkPj" role="19SJt6">
+          <property role="19SUeA" value="{Een besluit dient te berusten op een deugdelijke motivering.}" />
+        </node>
+      </node>
     </node>
     <node concept="1FQA6B" id="l30HV33nLl" role="3H37fS" />
     <node concept="1FQA6B" id="l30HV33nLm" role="3H37fL">
@@ -2290,6 +2439,11 @@
     <node concept="cog_b" id="l30HV33nLq" role="2pmM46">
       <property role="1FEjNx" value="{Een beschikking dient te worden gegeven binnen de bij wettelijk voorschrift bepaalde termijn of, bij het ontbreken van zulk een termijn, binnen een redelijke termijn na ontvangst van de aanvraag.}" />
       <ref role="cog$q" node="l30HV33nzt" resolve="art. 4:13 lid 1 Awb" />
+      <node concept="19SGf9" id="5hB3R5$YkPk" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkPm" role="19SJt6">
+          <property role="19SUeA" value="{Een beschikking dient te worden gegeven binnen de bij wettelijk voorschrift bepaalde termijn of, bij het ontbreken van zulk een termijn, binnen een redelijke termijn na ontvangst van de aanvraag.}" />
+        </node>
+      </node>
     </node>
     <node concept="1FQA6B" id="l30HV33nLr" role="3H37fS" />
     <node concept="1FQA6B" id="l30HV33nLs" role="3H37fL">
@@ -2308,6 +2462,11 @@
     <node concept="cog_b" id="l30HV33nLw" role="2pmM46">
       <property role="1FEjNx" value="{Een besluit om de aanvraag niet te behandelen wordt aan de aanvrager bekendgemaakt binnen vier weken nadat de aanvraag is aangevuld of nadat de daarvoor gestelde termijn ongebruikt is verstreken.}" />
       <ref role="cog$q" node="l30HV33nzp" resolve="art. 4:5 lid 4 Awb" />
+      <node concept="19SGf9" id="5hB3R5$YkPn" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkPp" role="19SJt6">
+          <property role="19SUeA" value="{Een besluit om de aanvraag niet te behandelen wordt aan de aanvrager bekendgemaakt binnen vier weken nadat de aanvraag is aangevuld of nadat de daarvoor gestelde termijn ongebruikt is verstreken.}" />
+        </node>
+      </node>
     </node>
     <node concept="1FQA6B" id="l30HV33nLx" role="3H37fS" />
     <node concept="1FQA6B" id="l30HV33nLy" role="3H37fL">
@@ -2363,6 +2522,11 @@
     <node concept="cog_b" id="l30HV33nLJ" role="2pmM46">
       <property role="1FEjNx" value="{Het subsidiebedrag wordt voordat de opleiding waar de subsidie betrekking op heeft aanvangt, aan de subsidieontvanger uitbetaald}" />
       <ref role="cog$q" node="l30HV33nzu" resolve="art. 12 Slb" />
+      <node concept="19SGf9" id="5hB3R5$YkPq" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkPs" role="19SJt6">
+          <property role="19SUeA" value="{Het subsidiebedrag wordt voordat de opleiding waar de subsidie betrekking op heeft aanvangt, aan de subsidieontvanger uitbetaald}" />
+        </node>
+      </node>
     </node>
     <node concept="1FQA6B" id="l30HV33nLK" role="3H37fS" />
     <node concept="1FQA6B" id="l30HV33nLL" role="3H37fL">

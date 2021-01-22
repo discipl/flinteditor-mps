@@ -2,10 +2,18 @@
 <model ref="r:24d66bc9-227a-447b-947a-855ad292ec9a(Flint.test.flintmodelinput)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="4" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="5" />
   </languages>
   <imports />
   <registry>
+    <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
+      <concept id="2557074442922380897" name="de.slisson.mps.richtext.structure.Text" flags="ng" index="19SGf9">
+        <child id="2557074442922392302" name="words" index="19SJt6" />
+      </concept>
+      <concept id="2557074442922438156" name="de.slisson.mps.richtext.structure.Word" flags="ng" index="19SUe$">
+        <property id="2557074442922438158" name="escapedValue" index="19SUeA" />
+      </concept>
+    </language>
     <language id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint">
       <concept id="6868897032739893314" name="Flint.structure.IExplainable" flags="ng" index="cog$R">
         <property id="778381075952164307" name="explanation" index="3ANC2_" />
@@ -18,6 +26,7 @@
       <concept id="6868897032739893310" name="Flint.structure.SourceReference" flags="ng" index="cog_b">
         <property id="6587498613243528183" name="text" index="1FEjNx" />
         <reference id="6868897032739893359" name="baseSource" index="cog$q" />
+        <child id="5309275763118294786" name="textParts" index="aVT4J" />
       </concept>
       <concept id="6868897032739434615" name="Flint.structure.FlintModel" flags="ng" index="cu0$2" />
       <concept id="6868897032739434618" name="Flint.structure.Fact" flags="ng" index="cu0$f">
@@ -152,10 +161,20 @@
     <node concept="cog_b" id="74VLc6kV4GX" role="2pmM46">
       <property role="1FEjNx" value="example source text" />
       <ref role="cog$q" node="74VLc6kV4G_" resolve="Source1" />
+      <node concept="19SGf9" id="5hB3R5$YkRz" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkR_" role="19SJt6">
+          <property role="19SUeA" value="example source text" />
+        </node>
+      </node>
     </node>
     <node concept="cog_b" id="74VLc6kV4GY" role="2pmM46">
       <property role="1FEjNx" value="example source text" />
       <ref role="cog$q" node="74VLc6kV4GA" resolve="Source2" />
+      <node concept="19SGf9" id="5hB3R5$YkRA" role="aVT4J">
+        <node concept="19SUe$" id="5hB3R5$YkRC" role="19SJt6">
+          <property role="19SUeA" value="example source text" />
+        </node>
+      </node>
     </node>
     <node concept="1FQA6B" id="74VLc6kV4GZ" role="3H36mW">
       <ref role="1FQA6$" node="74VLc6kV4GB" resolve="Fact1" />
