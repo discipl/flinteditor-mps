@@ -12,6 +12,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
         <property id="1421157252384165432" name="memberId" index="3tVfz5" />
+        <property id="672037151186491528" name="presentation" index="1L1pqM" />
       </concept>
       <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
         <child id="3348158742936976577" name="members" index="25R1y" />
@@ -792,11 +793,13 @@
     </node>
     <node concept="25R33" id="4AIlyP2wQB2" role="25R1y">
       <property role="3tVfz5" value="5309275763105819074" />
-      <property role="TrG5h" value="Create" />
+      <property role="TrG5h" value="ActCreate" />
+      <property role="1L1pqM" value="Create (Act)" />
     </node>
     <node concept="25R33" id="4AIlyP2wQAM" role="25R1y">
       <property role="3tVfz5" value="5309275763105819058" />
-      <property role="TrG5h" value="Name" />
+      <property role="TrG5h" value="ActName" />
+      <property role="1L1pqM" value="Name (Act)" />
     </node>
     <node concept="25R33" id="4AIlyP2wQBp" role="25R1y">
       <property role="3tVfz5" value="5309275763105819097" />
@@ -808,11 +811,48 @@
     </node>
     <node concept="25R33" id="4AIlyP2wQBi" role="25R1y">
       <property role="3tVfz5" value="5309275763105819090" />
-      <property role="TrG5h" value="Terminate" />
+      <property role="TrG5h" value="ActTerminate" />
+      <property role="1L1pqM" value="Terminate (Act)" />
     </node>
     <node concept="25R33" id="4AIlyP2wQBx" role="25R1y">
       <property role="3tVfz5" value="5309275763105819105" />
       <property role="TrG5h" value="Recipient" />
+    </node>
+    <node concept="25R33" id="7B7tObSnkd2" role="25R1y">
+      <property role="3tVfz5" value="8775113528473109314" />
+      <property role="TrG5h" value="Component" />
+    </node>
+    <node concept="25R33" id="7B7tObSnk_W" role="25R1y">
+      <property role="3tVfz5" value="8775113528473110908" />
+      <property role="TrG5h" value="Holder" />
+    </node>
+    <node concept="25R33" id="7B7tObSnkYR" role="25R1y">
+      <property role="3tVfz5" value="8775113528473112503" />
+      <property role="TrG5h" value="Claimant" />
+    </node>
+    <node concept="25R33" id="7B7tObSCAbM" role="25R1y">
+      <property role="3tVfz5" value="8775113528477639410" />
+      <property role="TrG5h" value="DutyName" />
+      <property role="1L1pqM" value="Name (Duty)" />
+    </node>
+    <node concept="25R33" id="7B7tObSnlg9" role="25R1y">
+      <property role="3tVfz5" value="8775113528473113609" />
+      <property role="TrG5h" value="DutyCreate" />
+      <property role="1L1pqM" value="Create (Duty)" />
+    </node>
+    <node concept="25R33" id="7B7tObSnlD6" role="25R1y">
+      <property role="3tVfz5" value="8775113528473115206" />
+      <property role="TrG5h" value="DutyTerminate" />
+      <property role="1L1pqM" value="Terminate (Duty)" />
+    </node>
+    <node concept="25R33" id="7B7tObSCA8X" role="25R1y">
+      <property role="3tVfz5" value="8775113528477639229" />
+      <property role="TrG5h" value="FactName" />
+      <property role="1L1pqM" value="Name (Fact)" />
+    </node>
+    <node concept="25R33" id="7B7tObSnm24" role="25R1y">
+      <property role="3tVfz5" value="8775113528473116804" />
+      <property role="TrG5h" value="Function" />
     </node>
   </node>
   <node concept="1TIwiD" id="4AIlyP3h$Cg">

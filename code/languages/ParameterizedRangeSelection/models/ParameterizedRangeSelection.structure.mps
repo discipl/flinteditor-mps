@@ -48,7 +48,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="queryFunction" />
       <property role="IQ2ns" value="1240395532443" />
-      <ref role="20lvS9" to="tp3j:i38Bcsp" resolve="QueryBlock" />
+      <ref role="20lvS9" node="7B7tObTtyNp" resolve="ParameterizedQueryBlock" />
     </node>
     <node concept="1TJgyj" id="5d_XfTkoABw" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -90,6 +90,17 @@
     <property role="EcuMT" value="1995442048447580097" />
     <property role="TrG5h" value="ParamSelectionExecute" />
     <ref role="1TJDcQ" to="p77b:5d_XfTkoAPM" resolve="Execute" />
+  </node>
+  <node concept="1TIwiD" id="7B7tObTtyNp">
+    <property role="EcuMT" value="8775113528491519193" />
+    <property role="TrG5h" value="ParameterizedQueryBlock" />
+    <ref role="1TJDcQ" to="p77b:630t2b83bX0" resolve="SelectionIntentionFunction" />
+    <node concept="1TJgyj" id="i3ddBrI" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="paramType" />
+      <property role="IQ2ns" value="1240393479918" />
+      <ref role="20lvS9" to="tpee:fz3vP1H" resolve="Type" />
+    </node>
   </node>
 </model>
 

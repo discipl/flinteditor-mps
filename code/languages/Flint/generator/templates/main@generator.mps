@@ -12,6 +12,7 @@
     <import index="91gc" ref="r:57850d6b-985b-4a3f-af65-25f1fdeb3739(Flint.runtime.utils)" />
     <import index="3lmi" ref="r:a950900f-47ea-4287-adc8-88f839ab614a(Flint.behavior)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="tbr6" ref="r:6a005c26-87c0-43c4-8cf3-49ffba1099df(de.slisson.mps.richtext.behavior)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
@@ -706,10 +707,15 @@
                   <node concept="2YIFZM" id="2gsSwmLjhXF" role="3clFbG">
                     <ref role="1Pybhc" to="91gc:2gsSwmLhR5x" resolve="JSONUtils" />
                     <ref role="37wK5l" to="91gc:2gsSwmKTVTw" resolve="jsonSafeString" />
-                    <node concept="2OqwBi" id="2gsSwmLjhXG" role="37wK5m">
-                      <node concept="30H73N" id="2gsSwmLjhXH" role="2Oq$k0" />
-                      <node concept="3TrcHB" id="2gsSwmLjiBQ" role="2OqNvi">
-                        <ref role="3TsBF5" to="lnwe:5HFvLoKK$fR" resolve="text" />
+                    <node concept="2OqwBi" id="7B7tObSlse1" role="37wK5m">
+                      <node concept="2OqwBi" id="2gsSwmLjhXG" role="2Oq$k0">
+                        <node concept="30H73N" id="2gsSwmLjhXH" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="7B7tObSls1h" role="2OqNvi">
+                          <ref role="3Tt5mk" to="lnwe:4AIlyP3gss2" resolve="textParts" />
+                        </node>
+                      </node>
+                      <node concept="2qgKlT" id="7B7tObSlsoH" role="2OqNvi">
+                        <ref role="37wK5l" to="tbr6:3Q5enzfMT4l" resolve="asTextString" />
                       </node>
                     </node>
                   </node>

@@ -1713,6 +1713,11 @@
             <ref role="1Busuk" to="90a9:4dUgPRDTtko" resolve="de.itemis.mps.selection.intentions" />
           </node>
         </node>
+        <node concept="1SiIV0" id="7B7tObTwMSW" role="3bR37C">
+          <node concept="3bR9La" id="7B7tObTwMSX" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L9I" resolve="jetbrains.mps.lang.sharedConcepts" />
+          </node>
+        </node>
       </node>
     </node>
   </node>

@@ -19,6 +19,9 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -36,6 +39,7 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
@@ -74,6 +78,12 @@
       <concept id="1174660718586" name="jetbrains.mps.lang.typesystem.structure.AbstractEquationStatement" flags="nn" index="1Zf1VF">
         <child id="1174660783413" name="leftExpression" index="1ZfhK$" />
         <child id="1174660783414" name="rightExpression" index="1ZfhKB" />
+      </concept>
+    </language>
+    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
+      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
+        <property id="6332851714983843871" name="severity" index="2xdLsb" />
+        <child id="5721587534047265374" name="message" index="9lYJi" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -141,8 +151,8 @@
                 <ref role="3Tt5mk" to="lw3y:i3dlsyr" resolve="queryFunction" />
               </node>
             </node>
-            <node concept="3TrEf2" id="1ILeZy5q9Wb" role="2OqNvi">
-              <ref role="3Tt5mk" to="tp3j:i3ddBrI" resolve="paramType" />
+            <node concept="3TrEf2" id="7B7tObTKcgD" role="2OqNvi">
+              <ref role="3Tt5mk" to="lw3y:i3ddBrI" resolve="paramType" />
             </node>
           </node>
         </node>
@@ -231,7 +241,7 @@
             <node concept="37vLTw" id="1ILeZy5bW63" role="2Oq$k0">
               <ref role="3cqZAo" node="1ILeZy5bW5F" resolve="intention" />
             </node>
-            <node concept="3TrEf2" id="1ILeZy5bXhD" role="2OqNvi">
+            <node concept="3TrEf2" id="7B7tObTQkGT" role="2OqNvi">
               <ref role="3Tt5mk" to="lw3y:5d_XfTkoABw" resolve="selectionType" />
             </node>
           </node>
@@ -244,6 +254,17 @@
     </node>
     <node concept="2n1zYR" id="1ILeZy5l9CM" role="2n1DPF">
       <node concept="3clFbS" id="1ILeZy5l9CN" role="2VODD2">
+        <node concept="2xdQw9" id="7B7tObTV_lD" role="3cqZAp">
+          <property role="2xdLsb" value="h1akgim/info" />
+          <node concept="3cpWs3" id="7B7tObTV_MN" role="9lYJi">
+            <node concept="1YBJjd" id="7B7tObTV_NK" role="3uHU7w">
+              <ref role="1YBMHb" node="1ILeZy5bW6t" resolve="parameter_Selection" />
+            </node>
+            <node concept="Xl_RD" id="7B7tObTV_lF" role="3uHU7B">
+              <property role="Xl_RC" value="paramSelection: " />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="1ILeZy5l9GG" role="3cqZAp">
           <node concept="17QLQc" id="1ILeZy5laO5" role="3clFbG">
             <node concept="10Nm6u" id="1ILeZy5laTn" role="3uHU7w" />
