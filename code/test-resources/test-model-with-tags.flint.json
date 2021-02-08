@@ -1,0 +1,238 @@
+{
+  "acts": [
+    {
+      "act": "<<subsidie aanvragen>>",
+      "actor": "[burger]",
+      "action": "aanvragen",
+      "object": "[verzoek]",
+      "recipient": "[ambtenaar]",
+      "preconditions": {
+        "expression": "AND",
+        "operands": [
+          "[bedrag]",
+          "[bedrag projection]"
+        ]
+      },
+      "create": [],
+      "terminate": [],
+      "sources": [
+        {
+          "validFrom": "",
+          "validTo": "",
+          "juriconnect": "",
+          "citation": "Source3",
+          "text": "More ricipient words",
+          "tags": [
+            {
+              "role": "Recipient",
+              "word": 1
+            },
+            {
+              "role": "Recipient",
+              "word": 2
+            },
+            {
+              "role": "Recipient",
+              "word": 3
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "validFrom": "",
+          "validTo": "",
+          "juriconnect": "",
+          "citation": "TestSource",
+          "text": "This is a recipient words",
+          "tags": [
+            {
+              "role": "Recipient",
+              "word": 4
+            },
+            {
+              "role": "Recipient",
+              "word": 5
+            }
+          ],
+          "explanation": ""
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "act": "<<subsidie aanvraag toekennen>>",
+      "actor": "[ambtenaar]",
+      "action": "toekennen",
+      "object": "[aanvraag]",
+      "recipient": "[burger]",
+      "preconditions": {
+        "expression": "LESS_THAN",
+        "operands": []
+      },
+      "create": [],
+      "terminate": [],
+      "sources": [
+        {
+          "validFrom": "",
+          "validTo": "",
+          "juriconnect": "",
+          "citation": "TestSource",
+          "text": "Herpa Derpa merpa derp merp",
+          "tags": [
+            {
+              "role": "Object",
+              "word": 2
+            },
+            {
+              "role": "ActName",
+              "word": 4
+            }
+          ],
+          "explanation": ""
+        },
+        {
+          "validFrom": "",
+          "validTo": "",
+          "juriconnect": "",
+          "citation": "Source3",
+          "text": "Test text 321 derp hi actor",
+          "tags": [
+            {
+              "role": "Object",
+              "word": 2
+            },
+            {
+              "role": "Object",
+              "word": 3
+            },
+            {
+              "role": "Action",
+              "word": 4
+            },
+            {
+              "role": "ActName",
+              "word": 5
+            },
+            {
+              "role": "Actor",
+              "word": 6
+            }
+          ],
+          "explanation": ""
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "act": "<<subsidie intrekken>>",
+      "actor": "[burger met aanvraag]",
+      "action": "intrekken",
+      "object": "[aanvraag]",
+      "recipient": "[ambtenaar]",
+      "preconditions": "[]",
+      "create": [],
+      "terminate": [],
+      "sources": [],
+      "explanation": ""
+    },
+    {
+      "act": "<<subsidie aanvraag afwijzen>>",
+      "actor": "[ambtenaar]",
+      "action": "afwijzen",
+      "object": "[aanvraag]",
+      "recipient": "[burger]",
+      "preconditions": {
+        "expression": "LESS_THAN",
+        "operands": []
+      },
+      "create": [],
+      "terminate": [],
+      "sources": [
+        {
+          "validFrom": "",
+          "validTo": "",
+          "juriconnect": "",
+          "citation": "Source3",
+          "text": "Test 321 Derp actor",
+          "tags": [
+            {
+              "role": "Actor",
+              "word": 4
+            }
+          ],
+          "explanation": ""
+        }
+      ],
+      "explanation": ""
+    }
+  ],
+  "facts": [
+    {
+      "fact": "[bedrag]",
+      "explanation": "GENERATED: This fact was generated during the 'Import From Json Action'",
+      "function": "[]",
+      "sources": []
+    },
+    {
+      "fact": "[aanvraag]",
+      "explanation": "",
+      "function": {
+        "expression": "CREATE",
+        "operands": [
+          "[burger]",
+          "[bedrag]"
+        ]
+      },
+      "sources": []
+    },
+    {
+      "fact": "[burger]",
+      "explanation": "GENERATED: This fact was generated during the 'Import From Json Action'",
+      "function": "[]",
+      "sources": []
+    },
+    {
+      "fact": "[bedrag projection]",
+      "explanation": "",
+      "function": {
+        "expression": "PROJECTION",
+        "context": [
+          "[aanvraag]"
+        ],
+        "fact": "[bedrag]"
+      },
+      "sources": []
+    },
+    {
+      "fact": "[verzoek]",
+      "explanation": "GENERATED: This fact was generated during the 'Import From Json Action'",
+      "function": "[]",
+      "sources": []
+    },
+    {
+      "fact": "[ambtenaar]",
+      "explanation": "",
+      "function": "[]",
+      "sources": []
+    },
+    {
+      "fact": "[burger met aanvraag]",
+      "explanation": "",
+      "function": {
+        "expression": "PROJECTION",
+        "context": [
+          "[aanvraag]"
+        ],
+        "fact": "[bedrag]"
+      },
+      "sources": []
+    },
+    {
+      "fact": "[person]",
+      "explanation": "",
+      "function": "[]",
+      "sources": []
+    }
+  ],
+  "duties": []
+}

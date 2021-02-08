@@ -1474,14 +1474,31 @@
     <property role="TrG5h" value="Explination_Editor_Component" />
     <ref role="1XX52x" to="lnwe:5Xjenljcz12" resolve="IExplainable" />
     <node concept="3EZMnI" id="6aGEImoi5d" role="2wV5jI">
-      <node concept="gc7cB" id="13qOoT8XZJ9" role="3EZMnx">
-        <node concept="3VJUX4" id="13qOoT8XZJb" role="3YsKMw">
-          <node concept="3clFbS" id="13qOoT8XZJd" role="2VODD2">
-            <node concept="3clFbF" id="13qOoT8Yy9B" role="3cqZAp">
-              <node concept="2OqwBi" id="13qOoT8YykG" role="3clFbG">
-                <node concept="pncrf" id="13qOoT8Yy9A" role="2Oq$k0" />
-                <node concept="2qgKlT" id="13qOoT8Yyww" role="2OqNvi">
-                  <ref role="37wK5l" to="3lmi:13qOoT8XZ$E" resolve="getSpacer" />
+      <node concept="3EZMnI" id="2cDAYlWZkUr" role="3EZMnx">
+        <node concept="2iRfu4" id="2cDAYlWZkUs" role="2iSdaV" />
+        <node concept="gc7cB" id="13qOoT8XZJ9" role="3EZMnx">
+          <node concept="3VJUX4" id="13qOoT8XZJb" role="3YsKMw">
+            <node concept="3clFbS" id="13qOoT8XZJd" role="2VODD2">
+              <node concept="3clFbF" id="13qOoT8Yy9B" role="3cqZAp">
+                <node concept="2OqwBi" id="13qOoT8YykG" role="3clFbG">
+                  <node concept="pncrf" id="13qOoT8Yy9A" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="13qOoT8Yyww" role="2OqNvi">
+                    <ref role="37wK5l" to="3lmi:13qOoT8XZ$E" resolve="getSpacer" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="pkWqt" id="2cDAYlWZl4y" role="pqm2j">
+          <node concept="3clFbS" id="2cDAYlWZl4z" role="2VODD2">
+            <node concept="3clFbF" id="2cDAYlWZlqD" role="3cqZAp">
+              <node concept="2OqwBi" id="2cDAYlWZm0K" role="3clFbG">
+                <node concept="pncrf" id="2cDAYlWZlqC" role="2Oq$k0" />
+                <node concept="1mIQ4w" id="2cDAYlWZmh2" role="2OqNvi">
+                  <node concept="chp4Y" id="2cDAYlWZmqB" role="cj9EA">
+                    <ref role="cht4Q" to="lnwe:63E5y3TGjs_" resolve="IHasSources" />
+                  </node>
                 </node>
               </node>
             </node>

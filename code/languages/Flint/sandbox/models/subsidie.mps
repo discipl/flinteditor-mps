@@ -190,7 +190,14 @@
         </node>
       </node>
     </node>
-    <node concept="1zEWgd" id="l30HV33nMl" role="mu3T0" />
+    <node concept="1zEWgd" id="l30HV33nMl" role="mu3T0">
+      <node concept="1FQA6B" id="13qOoT95D8y" role="1zF96y">
+        <ref role="1FQA6$" node="l30HV33nLW" resolve="bedrag" />
+      </node>
+      <node concept="1FQA6B" id="13qOoT95D8B" role="1zF96y">
+        <ref role="1FQA6$" node="l30HV33nM2" resolve="bedrag projection" />
+      </node>
+    </node>
     <node concept="1FQA6B" id="l30HV33nMn" role="3H36mW">
       <ref role="1FQA6$" node="l30HV33nM1" resolve="burger" />
     </node>
@@ -226,7 +233,14 @@
           <property role="aMd54" value="4AIlyP2wQBp/Object" />
         </node>
         <node concept="19SUe$" id="1ILeZy6232y" role="19SJt6">
-          <property role="19SUeA" value=" merpa derp merp " />
+          <property role="19SUeA" value=" merpa " />
+        </node>
+        <node concept="aU1KX" id="13qOoT9gNkX" role="19SJt6">
+          <property role="aYSo3" value="derp" />
+          <property role="aMd54" value="4AIlyP2wQAM/ActName" />
+        </node>
+        <node concept="19SUe$" id="13qOoT9gNkW" role="19SJt6">
+          <property role="19SUeA" value=" merp " />
         </node>
       </node>
     </node>

@@ -573,8 +573,7 @@
       <property role="3ANC2_" value="NOTABLE: Lijst met definities (geen detailverwijzing mogelijk). ERROR: Inmiddels is het eigenlijk de minister van Justitie en Veiligheid (sinds Rutte III beëdigd op 26 oktober 2017), maar dit is nog niet in de Vw vastgelegd." />
       <ref role="cog$q" node="13qOoT8BfbE" resolve="art. 1 Vw" />
       <node concept="19SGf9" id="13qOoT8BfcL" role="aVT4J">
-        <node concept="19SUe$" id="13qOoT8BfcM" role="19SJt6" />
-        <node concept="19SUe$" id="13qOoT8BfcN" role="19SJt6">
+        <node concept="19SUe$" id="13qOoT8BfcM" role="19SJt6">
           <property role="19SUeA" value="Onze Minister: Onze Minister van Veiligheid en Justitie" />
         </node>
       </node>
@@ -601,8 +600,7 @@
     <node concept="cog_b" id="13qOoT8BfcU" role="2pmM46">
       <ref role="cog$q" node="13qOoT8BfbF" resolve="art. 2k, aanhef en onder a, Vw" />
       <node concept="19SGf9" id="13qOoT8BfcV" role="aVT4J">
-        <node concept="19SUe$" id="13qOoT8BfcW" role="19SJt6" />
-        <node concept="19SUe$" id="13qOoT8BfcX" role="19SJt6">
+        <node concept="19SUe$" id="13qOoT8BfcW" role="19SJt6">
           <property role="19SUeA" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een machtiging tot voorlopig verblijf dan wel terugkeervisum in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
         </node>
       </node>
@@ -652,8 +650,7 @@
     <node concept="cog_b" id="13qOoT8Bfde" role="2pmM46">
       <ref role="cog$q" node="13qOoT8BfbI" resolve="art. 2n lid 1, onder c, Vw" />
       <node concept="19SGf9" id="13qOoT8Bfdf" role="aVT4J">
-        <node concept="19SUe$" id="13qOoT8Bfdg" role="19SJt6" />
-        <node concept="19SUe$" id="13qOoT8Bfdh" role="19SJt6">
+        <node concept="19SUe$" id="13qOoT8Bfdg" role="19SJt6">
           <property role="19SUeA" value="de aanvraag niet is gesteld in de Nederlandse, Franse of Engelse taal; of" />
         </node>
       </node>
@@ -731,8 +728,7 @@
     <node concept="cog_b" id="13qOoT8BfdG" role="2pmM46">
       <ref role="cog$q" node="13qOoT8BfbM" resolve="art. 14 lid 1, onder a, Vw" />
       <node concept="19SGf9" id="13qOoT8BfdH" role="aVT4J">
-        <node concept="19SUe$" id="13qOoT8BfdI" role="19SJt6" />
-        <node concept="19SUe$" id="13qOoT8BfdJ" role="19SJt6">
+        <node concept="19SUe$" id="13qOoT8BfdI" role="19SJt6">
           <property role="19SUeA" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
         </node>
       </node>
@@ -773,8 +769,7 @@
     <node concept="cog_b" id="13qOoT8BfdV" role="2pmM46">
       <ref role="cog$q" node="13qOoT8BfbM" resolve="art. 14 lid 1, onder a, Vw" />
       <node concept="19SGf9" id="13qOoT8BfdW" role="aVT4J">
-        <node concept="19SUe$" id="13qOoT8BfdX" role="19SJt6" />
-        <node concept="19SUe$" id="13qOoT8BfdY" role="19SJt6">
+        <node concept="19SUe$" id="13qOoT8BfdX" role="19SJt6">
           <property role="19SUeA" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
         </node>
       </node>
@@ -938,8 +933,7 @@
     <node concept="cog_b" id="13qOoT8Bfk7" role="2pmM46">
       <ref role="cog$q" node="13qOoT8Bfcd" resolve="art. 3.4 lid 1, onder c, Vb" />
       <node concept="19SGf9" id="13qOoT8Bfk8" role="aVT4J">
-        <node concept="19SUe$" id="13qOoT8Bfk9" role="19SJt6" />
-        <node concept="19SUe$" id="13qOoT8Bfka" role="19SJt6">
+        <node concept="19SUe$" id="13qOoT8Bfk9" role="19SJt6">
           <property role="19SUeA" value="arbeid als zelfstandige" />
         </node>
       </node>
@@ -1007,8 +1001,7 @@
     <node concept="cog_b" id="13qOoT8Bfkr" role="2pmM46">
       <ref role="cog$q" node="13qOoT8Bfci" resolve="art. 3.4 lid 1, onder h, Vb" />
       <node concept="19SGf9" id="13qOoT8Bfks" role="aVT4J">
-        <node concept="19SUe$" id="13qOoT8Bfkt" role="19SJt6" />
-        <node concept="19SUe$" id="13qOoT8Bfku" role="19SJt6">
+        <node concept="19SUe$" id="13qOoT8Bfkt" role="19SJt6">
           <property role="19SUeA" value="arbeid in loondienst" />
         </node>
       </node>
@@ -1063,8 +1056,7 @@
     <node concept="cog_b" id="13qOoT8BfkF" role="2pmM46">
       <ref role="cog$q" node="13qOoT8Bfcm" resolve="art. 3.4 lid 1, onder l, Vb" />
       <node concept="19SGf9" id="13qOoT8BfkG" role="aVT4J">
-        <node concept="19SUe$" id="13qOoT8BfkH" role="19SJt6" />
-        <node concept="19SUe$" id="13qOoT8BfkI" role="19SJt6">
+        <node concept="19SUe$" id="13qOoT8BfkH" role="19SJt6">
           <property role="19SUeA" value="arbeid als niet-geprivilegieerd militair of niet-geprivilegieerd burgerpersoneel" />
         </node>
       </node>
@@ -2686,8 +2678,7 @@
     <node concept="cog_b" id="13qOoT8Bfo_" role="2pmM46">
       <ref role="cog$q" node="13qOoT8BfbM" resolve="art. 14 lid 1, onder a, Vw" />
       <node concept="19SGf9" id="13qOoT8BfoA" role="aVT4J">
-        <node concept="19SUe$" id="13qOoT8BfoB" role="19SJt6" />
-        <node concept="19SUe$" id="13qOoT8BfoC" role="19SJt6">
+        <node concept="19SUe$" id="13qOoT8BfoB" role="19SJt6">
           <property role="19SUeA" value="Onze Minister is bevoegd: a. de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen;" />
         </node>
       </node>
