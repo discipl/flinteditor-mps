@@ -2577,11 +2577,6 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
-        <node concept="1SiIV0" id="5DWs9m4I0dX" role="3bR37C">
-          <node concept="3bR9La" id="5DWs9m4I0dY" role="1SiIV1">
-            <ref role="3bR37D" node="5DWs9m4HZrV" resolve="FlintTests" />
-          </node>
-        </node>
         <node concept="3rtmxn" id="5DWs9m4PBG0" role="3bR31x">
           <node concept="3LXTmp" id="5DWs9m4PBG1" role="3rtmxm">
             <node concept="3qWCbU" id="5DWs9m4PBG2" role="3LXTna">
@@ -2595,6 +2590,16 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="28ttwYhurNj" role="3bR37C">
+          <node concept="3bR9La" id="28ttwYhurNk" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="28ttwYhurNl" role="3bR37C">
+          <node concept="3bR9La" id="28ttwYhurNm" role="1SiIV1">
+            <ref role="3bR37D" to="90a9:1sO539bGQvB" resolve="de.slisson.mps.richtext" />
           </node>
         </node>
       </node>
