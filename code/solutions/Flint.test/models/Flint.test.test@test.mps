@@ -133,8 +133,28 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
     </language>
+    <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
+      <concept id="2557074442922380897" name="de.slisson.mps.richtext.structure.Text" flags="ng" index="19SGf9">
+        <child id="2557074442922392302" name="words" index="19SJt6" />
+      </concept>
+      <concept id="2557074442922438156" name="de.slisson.mps.richtext.structure.Word" flags="ng" index="19SUe$">
+        <property id="2557074442922438158" name="escapedValue" index="19SUeA" />
+      </concept>
+    </language>
     <language id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint">
-      <concept id="6868897032739893311" name="Flint.structure.Source" flags="ng" index="cog_a" />
+      <concept id="5309275763118590480" name="Flint.structure.TaggedWord" flags="ng" index="aU1KX">
+        <property id="5309275763120703337" name="role" index="aMd54" />
+        <property id="5309275763119607854" name="word" index="aYSo3" />
+      </concept>
+      <concept id="6868897032739893311" name="Flint.structure.Source" flags="ng" index="cog_a">
+        <property id="6868897032739893349" name="validTo" index="cog$g" />
+        <property id="6868897032739893347" name="validFrom" index="cog$m" />
+        <property id="6868897032739893352" name="juriconnect" index="cog$t" />
+      </concept>
+      <concept id="6868897032739893310" name="Flint.structure.SourceReference" flags="ng" index="cog_b">
+        <reference id="6868897032739893359" name="baseSource" index="cog$q" />
+        <child id="5309275763118294786" name="textParts" index="aVT4J" />
+      </concept>
       <concept id="6868897032739434618" name="Flint.structure.Fact" flags="ng" index="cu0$f">
         <child id="6868897032739751036" name="function" index="coNO9" />
       </concept>
@@ -144,6 +164,9 @@
         <child id="6205025464253204623" name="object" index="3H36l7" />
         <child id="6205025464253204638" name="recipient" index="3H36lm" />
         <child id="6205025464253204596" name="actor" index="3H36mW" />
+      </concept>
+      <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
+        <child id="6983418503075280678" name="sources" index="2pmM46" />
       </concept>
       <concept id="4808965957220771074" name="Flint.structure.AND" flags="ng" index="1zEWgd" />
       <concept id="4808965957220776525" name="Flint.structure.OR" flags="ng" index="1zEXH2" />
@@ -227,8 +250,14 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1966870290088668512" name="jetbrains.mps.lang.smodel.structure.Enum_MemberLiteral" flags="ng" index="2ViDtV">
+        <reference id="1966870290088668516" name="memberDeclaration" index="2ViDtZ" />
+      </concept>
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
+      </concept>
+      <concept id="5779574625830813396" name="jetbrains.mps.lang.smodel.structure.EnumerationIdRefExpression" flags="ng" index="1XH99k">
+        <reference id="5779574625830813397" name="enumDeclaration" index="1XH99l" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -797,6 +826,208 @@
             </node>
             <node concept="37vLTw" id="65WHNMBsbsf" role="37vLTJ">
               <ref role="3cqZAo" node="65WHNMBsbq$" resolve="wettenNlImporter" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="28ttwYheEbB">
+    <property role="TrG5h" value="SingleWordTag" />
+    <node concept="1qefOq" id="28ttwYheEbC" role="25YQCW">
+      <node concept="3_ImHQ" id="28ttwYheEc8" role="1qenE9">
+        <property role="TrG5h" value="Test" />
+        <node concept="cog_a" id="28ttwYheEce" role="3_ImGG">
+          <property role="TrG5h" value="Source1" />
+          <property role="cog$m" value="10-02-2021" />
+          <property role="cog$g" value="11-02-2021" />
+          <property role="cog$t" value="juriconnect" />
+        </node>
+        <node concept="mu5$5" id="28ttwYheEci" role="3_ImHT">
+          <property role="TrG5h" value="TestAct" />
+          <property role="207Gpp" value="test" />
+          <node concept="1FQA6B" id="28ttwYheEcs" role="3H36mW">
+            <ref role="1FQA6$" node="28ttwYheEcq" resolve="placeholder" />
+          </node>
+          <node concept="1FQA6B" id="28ttwYheEcv" role="3H36l7">
+            <ref role="1FQA6$" node="28ttwYheEcq" resolve="placeholder" />
+          </node>
+          <node concept="1FQA6B" id="28ttwYheEcy" role="3H36lm">
+            <ref role="1FQA6$" node="28ttwYheEcq" resolve="placeholder" />
+          </node>
+          <node concept="cog_b" id="28ttwYheEc_" role="2pmM46">
+            <ref role="cog$q" node="28ttwYheEce" resolve="Source1" />
+            <node concept="19SGf9" id="28ttwYheEcA" role="aVT4J">
+              <node concept="19SUe$" id="28ttwYheEcB" role="19SJt6">
+                <property role="19SUeA" value="Test text is here" />
+                <node concept="LIFWc" id="28ttwYheEgj" role="lGtFl">
+                  <property role="LIFWa" value="2" />
+                  <property role="OXtK3" value="true" />
+                  <property role="p6zMq" value="2" />
+                  <property role="p6zMs" value="2" />
+                  <property role="LIFWd" value="property_escapedValue_word1" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="cu0$f" id="28ttwYheEcq" role="3_ImGK">
+          <property role="TrG5h" value="placeholder" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="28ttwYheEbT" role="LjaKd">
+      <node concept="3vwNmj" id="28ttwYheEbU" role="3cqZAp">
+        <node concept="2bRw2S" id="28ttwYheEbV" role="3vwVQn">
+          <ref role="2bRw2V" to="ktnu:4AIlyP3vWEg" resolve="Tag" />
+        </node>
+      </node>
+      <node concept="1MFPAf" id="28ttwYheEbW" role="3cqZAp">
+        <ref role="1MFYO6" to="ktnu:4AIlyP3vWEg" resolve="Tag" />
+        <node concept="2OqwBi" id="28ttwYheECQ" role="1v$tAf">
+          <node concept="1XH99k" id="28ttwYheEkp" role="2Oq$k0">
+            <ref role="1XH99l" to="lnwe:4AIlyP2wQAK" resolve="Role" />
+          </node>
+          <node concept="2ViDtV" id="28ttwYheFeg" role="2OqNvi">
+            <ref role="2ViDtZ" to="lnwe:4AIlyP2wQAL" resolve="Actor" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="28ttwYheEcb" role="25YQFr">
+      <node concept="3_ImHQ" id="28ttwYheEca" role="1qenE9">
+        <property role="TrG5h" value="Test" />
+        <node concept="cu0$f" id="28ttwYheEfT" role="3_ImGK">
+          <property role="TrG5h" value="placeholder" />
+        </node>
+        <node concept="cog_a" id="28ttwYheEcg" role="3_ImGG">
+          <property role="TrG5h" value="Source1" />
+          <property role="cog$t" value="juriconnect" />
+          <property role="cog$m" value="10-02-2021" />
+          <property role="cog$g" value="11-02-2021" />
+        </node>
+        <node concept="mu5$5" id="28ttwYheEfV" role="3_ImHT">
+          <property role="TrG5h" value="TestAct" />
+          <property role="207Gpp" value="test" />
+          <node concept="1FQA6B" id="28ttwYheGDK" role="3H36mW">
+            <ref role="1FQA6$" node="28ttwYheEfT" resolve="placeholder" />
+          </node>
+          <node concept="1FQA6B" id="28ttwYheGDN" role="3H36l7">
+            <ref role="1FQA6$" node="28ttwYheEfT" resolve="placeholder" />
+          </node>
+          <node concept="1FQA6B" id="28ttwYheGDQ" role="3H36lm">
+            <ref role="1FQA6$" node="28ttwYheEfT" resolve="placeholder" />
+          </node>
+          <node concept="cog_b" id="28ttwYheEgd" role="2pmM46">
+            <ref role="cog$q" node="28ttwYheEcg" resolve="Source1" />
+            <node concept="19SGf9" id="28ttwYheEge" role="aVT4J">
+              <node concept="19SUe$" id="28ttwYheEgf" role="19SJt6">
+                <property role="19SUeA" value="Test " />
+              </node>
+              <node concept="aU1KX" id="28ttwYheEgn" role="19SJt6">
+                <property role="aYSo3" value="text" />
+                <property role="aMd54" value="4AIlyP2wQAL/Actor" />
+              </node>
+              <node concept="19SUe$" id="28ttwYheEgm" role="19SJt6">
+                <property role="19SUeA" value=" is here" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="28ttwYhlEPE">
+    <property role="TrG5h" value="SingleWordUnTag" />
+    <node concept="1qefOq" id="28ttwYhlEPF" role="25YQCW">
+      <node concept="3_ImHQ" id="28ttwYhlEPG" role="1qenE9">
+        <property role="TrG5h" value="Test" />
+        <node concept="cog_a" id="28ttwYhlEPH" role="3_ImGG">
+          <property role="TrG5h" value="Source1" />
+          <property role="cog$m" value="10-02-2021" />
+          <property role="cog$g" value="11-02-2021" />
+          <property role="cog$t" value="juriconnect" />
+        </node>
+        <node concept="mu5$5" id="28ttwYhlEPI" role="3_ImHT">
+          <property role="TrG5h" value="TestAct" />
+          <property role="207Gpp" value="test" />
+          <node concept="1FQA6B" id="28ttwYhlEPJ" role="3H36mW">
+            <ref role="1FQA6$" node="28ttwYhlEPQ" resolve="placeholder" />
+          </node>
+          <node concept="1FQA6B" id="28ttwYhlEPK" role="3H36l7">
+            <ref role="1FQA6$" node="28ttwYhlEPQ" resolve="placeholder" />
+          </node>
+          <node concept="1FQA6B" id="28ttwYhlEPL" role="3H36lm">
+            <ref role="1FQA6$" node="28ttwYhlEPQ" resolve="placeholder" />
+          </node>
+          <node concept="cog_b" id="28ttwYhlEPM" role="2pmM46">
+            <ref role="cog$q" node="28ttwYhlEPH" resolve="Source1" />
+            <node concept="19SGf9" id="28ttwYhlEPN" role="aVT4J">
+              <node concept="19SUe$" id="28ttwYhlEPO" role="19SJt6">
+                <property role="19SUeA" value="Test " />
+              </node>
+              <node concept="aU1KX" id="28ttwYhlEQq" role="19SJt6">
+                <property role="aYSo3" value="text" />
+                <property role="aMd54" value="4AIlyP2wQAL/Actor" />
+                <node concept="LIFWc" id="28ttwYhlEQv" role="lGtFl">
+                  <property role="LIFWa" value="1" />
+                  <property role="OXtK3" value="true" />
+                  <property role="p6zMq" value="1" />
+                  <property role="p6zMs" value="1" />
+                  <property role="LIFWd" value="property_word" />
+                </node>
+              </node>
+              <node concept="19SUe$" id="28ttwYhlEQp" role="19SJt6">
+                <property role="19SUeA" value=" is here" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="cu0$f" id="28ttwYhlEPQ" role="3_ImGK">
+          <property role="TrG5h" value="placeholder" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="28ttwYhlEPR" role="LjaKd">
+      <node concept="3vwNmj" id="28ttwYhlEPS" role="3cqZAp">
+        <node concept="2bRw2S" id="28ttwYhlEPT" role="3vwVQn">
+          <ref role="2bRw2V" to="ktnu:6PpSusSybcO" resolve="UnTag" />
+        </node>
+      </node>
+      <node concept="1MFPAf" id="28ttwYhlEPU" role="3cqZAp">
+        <ref role="1MFYO6" to="ktnu:6PpSusSybcO" resolve="UnTag" />
+      </node>
+    </node>
+    <node concept="1qefOq" id="28ttwYhlEPY" role="25YQFr">
+      <node concept="3_ImHQ" id="28ttwYhlEPZ" role="1qenE9">
+        <property role="TrG5h" value="Test" />
+        <node concept="cu0$f" id="28ttwYhlEQ0" role="3_ImGK">
+          <property role="TrG5h" value="placeholder" />
+        </node>
+        <node concept="cog_a" id="28ttwYhlEQ1" role="3_ImGG">
+          <property role="TrG5h" value="Source1" />
+          <property role="cog$t" value="juriconnect" />
+          <property role="cog$m" value="10-02-2021" />
+          <property role="cog$g" value="11-02-2021" />
+        </node>
+        <node concept="mu5$5" id="28ttwYhlEQ2" role="3_ImHT">
+          <property role="TrG5h" value="TestAct" />
+          <property role="207Gpp" value="test" />
+          <node concept="1FQA6B" id="28ttwYhlEQ3" role="3H36mW">
+            <ref role="1FQA6$" node="28ttwYhlEQ0" resolve="placeholder" />
+          </node>
+          <node concept="1FQA6B" id="28ttwYhlEQ4" role="3H36l7">
+            <ref role="1FQA6$" node="28ttwYhlEQ0" resolve="placeholder" />
+          </node>
+          <node concept="1FQA6B" id="28ttwYhlEQ5" role="3H36lm">
+            <ref role="1FQA6$" node="28ttwYhlEQ0" resolve="placeholder" />
+          </node>
+          <node concept="cog_b" id="28ttwYhlEQ6" role="2pmM46">
+            <ref role="cog$q" node="28ttwYhlEQ1" resolve="Source1" />
+            <node concept="19SGf9" id="28ttwYhlEQ7" role="aVT4J">
+              <node concept="19SUe$" id="28ttwYhlEQ8" role="19SJt6">
+                <property role="19SUeA" value="Test text is here" />
+              </node>
             </node>
           </node>
         </node>

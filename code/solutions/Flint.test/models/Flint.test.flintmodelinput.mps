@@ -15,6 +15,10 @@
       </concept>
     </language>
     <language id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint">
+      <concept id="5309275763118590480" name="Flint.structure.TaggedWord" flags="ng" index="aU1KX">
+        <property id="5309275763120703337" name="role" index="aMd54" />
+        <property id="5309275763119607854" name="word" index="aYSo3" />
+      </concept>
       <concept id="6868897032739893314" name="Flint.structure.IExplainable" flags="ng" index="cog$R">
         <property id="778381075952164307" name="explanation" index="3ANC2_" />
       </concept>
@@ -162,8 +166,13 @@
       <property role="1FEjNx" value="example source text" />
       <ref role="cog$q" node="74VLc6kV4G_" resolve="Source1" />
       <node concept="19SGf9" id="5hB3R5$YkRz" role="aVT4J">
-        <node concept="19SUe$" id="5hB3R5$YkR_" role="19SJt6">
-          <property role="19SUeA" value="example source text" />
+        <node concept="19SUe$" id="28ttwYhlVQ4" role="19SJt6" />
+        <node concept="aU1KX" id="28ttwYhlVQ1" role="19SJt6">
+          <property role="aYSo3" value="example" />
+          <property role="aMd54" value="4AIlyP2wQAP/Action" />
+        </node>
+        <node concept="19SUe$" id="28ttwYhlVQ0" role="19SJt6">
+          <property role="19SUeA" value=" source text" />
         </node>
       </node>
     </node>
@@ -172,7 +181,14 @@
       <ref role="cog$q" node="74VLc6kV4GA" resolve="Source2" />
       <node concept="19SGf9" id="5hB3R5$YkRA" role="aVT4J">
         <node concept="19SUe$" id="5hB3R5$YkRC" role="19SJt6">
-          <property role="19SUeA" value="example source text" />
+          <property role="19SUeA" value="example source " />
+        </node>
+        <node concept="aU1KX" id="28ttwYhlVQa" role="19SJt6">
+          <property role="aYSo3" value="text" />
+          <property role="aMd54" value="4AIlyP2wQB2/ActCreate" />
+        </node>
+        <node concept="19SUe$" id="28ttwYhlVQ9" role="19SJt6">
+          <property role="19SUeA" value="" />
         </node>
       </node>
     </node>
