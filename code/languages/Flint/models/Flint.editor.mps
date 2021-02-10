@@ -120,6 +120,7 @@
       <concept id="1630016958697344083" name="jetbrains.mps.lang.editor.structure.IMenu_Concept" flags="ng" index="2ZABuq">
         <reference id="6591946374543067572" name="conceptDeclaration" index="aqKnT" />
       </concept>
+      <concept id="1214406466686" name="jetbrains.mps.lang.editor.structure.TextBackgroundColorSelectedStyleClassItem" flags="ln" index="30h1P$" />
       <concept id="1081293058843" name="jetbrains.mps.lang.editor.structure.CellKeyMapDeclaration" flags="ig" index="325Ffw">
         <reference id="1139445935125" name="applicableConcept" index="1chiOs" />
         <child id="1136930944870" name="item" index="2QnnpI" />
@@ -1467,6 +1468,9 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="30h1P$" id="28ttwYhJCd7" role="3F10Kt">
+        <property role="Vb096" value="fLJRk5A/lightGray" />
       </node>
     </node>
   </node>
