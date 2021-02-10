@@ -1068,6 +1068,11 @@
             <ref role="3bR37D" to="al5i:5A_Zlt6CRir" resolve="com.mbeddr.mpsutil.hyperlink" />
           </node>
         </node>
+        <node concept="1SiIV0" id="4pyf5wCdCQy" role="3bR37C">
+          <node concept="3bR9La" id="4pyf5wCdCQz" role="1SiIV1">
+            <ref role="3bR37D" node="QLMwktTkqF" resolve="Flint.plugin" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="QLMwktTkqF" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1223,6 +1228,11 @@
         <node concept="1SiIV0" id="13qOoT8cghw" role="3bR37C">
           <node concept="3bR9La" id="13qOoT8cghx" role="1SiIV1">
             <ref role="3bR37D" to="90a9:1sO539bGQvB" resolve="de.slisson.mps.richtext" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4pyf5wCdCQS" role="3bR37C">
+          <node concept="3bR9La" id="4pyf5wCdCQT" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L8Y" resolve="jetbrains.mps.lang.project" />
           </node>
         </node>
       </node>
