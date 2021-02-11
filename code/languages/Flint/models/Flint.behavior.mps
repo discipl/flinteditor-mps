@@ -7621,7 +7621,7 @@
                     <ref role="3cqZAo" node="1ILeZy5vF6N" resolve="taggedWord" />
                   </node>
                   <node concept="3TrcHB" id="1ILeZy5v$xK" role="2OqNvi">
-                    <ref role="3TsBF5" to="lnwe:4AIlyP3lt0I" resolve="word" />
+                    <ref role="3TsBF5" to="lnwe:4AIlyP3lt0I" resolve="escapedValue" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="4pyf5wCW6vJ" role="37vLTx">
@@ -8151,7 +8151,7 @@
           <node concept="2OqwBi" id="4AIlyP3lv74" role="3cqZAk">
             <node concept="13iPFW" id="4AIlyP3luYm" role="2Oq$k0" />
             <node concept="3TrcHB" id="4AIlyP3lvhx" role="2OqNvi">
-              <ref role="3TsBF5" to="lnwe:4AIlyP3lt0I" resolve="word" />
+              <ref role="3TsBF5" to="lnwe:4AIlyP3lt0I" resolve="escapedValue" />
             </node>
           </node>
         </node>

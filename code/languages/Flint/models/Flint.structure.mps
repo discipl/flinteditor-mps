@@ -865,7 +865,7 @@
     </node>
     <node concept="1TJgyi" id="4AIlyP3lt0I" role="1TKVEl">
       <property role="IQ2nx" value="5309275763119607854" />
-      <property role="TrG5h" value="word" />
+      <property role="TrG5h" value="escapedValue" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="4AIlyP3pCtD" role="1TKVEl">

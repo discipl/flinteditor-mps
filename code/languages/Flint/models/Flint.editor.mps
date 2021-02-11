@@ -513,9 +513,17 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
     <language id="31c91def-a131-41a1-9018-102874f49a12" name="de.slisson.mps.editor.multiline">
@@ -1471,8 +1479,12 @@
           </node>
         </node>
       </node>
-      <node concept="30h1P$" id="28ttwYhJCd7" role="3F10Kt">
-        <property role="Vb096" value="fLJRk5A/lightGray" />
+      <node concept="1X3_iC" id="70bezxAnpsH" role="lGtFl">
+        <property role="3V$3am" value="styleItem" />
+        <property role="3V$3ak" value="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1219418625346/1219418656006" />
+        <node concept="30h1P$" id="28ttwYhJCd7" role="8Wnug">
+          <property role="Vb096" value="fLJRk5A/lightGray" />
+        </node>
       </node>
     </node>
   </node>
@@ -4535,10 +4547,6 @@
   </node>
   <node concept="24kQdi" id="4AIlyP3mamE">
     <ref role="1XX52x" to="lnwe:4AIlyP3h$Cg" resolve="TaggedWord" />
-    <node concept="3F0A7n" id="4AIlyP3p7LA" role="2wV5jI">
-      <ref role="1NtTu8" to="lnwe:4AIlyP3lt0I" resolve="word" />
-      <ref role="1k5W1q" node="4AIlyP2JWOf" resolve="TaggedWord" />
-    </node>
     <node concept="3EZMnI" id="4AIlyP3pCuc" role="6VMZX">
       <node concept="2iRkQZ" id="4AIlyP3pCud" role="2iSdaV" />
       <node concept="3EZMnI" id="4AIlyP3pCtG" role="3EZMnx">
@@ -4546,7 +4554,7 @@
           <property role="3F0ifm" value="text:" />
         </node>
         <node concept="3F0A7n" id="4AIlyP3pCtW" role="3EZMnx">
-          <ref role="1NtTu8" to="lnwe:4AIlyP3lt0I" resolve="word" />
+          <ref role="1NtTu8" to="lnwe:4AIlyP3lt0I" resolve="escapedValue" />
         </node>
         <node concept="2iRfu4" id="4AIlyP3pCtH" role="2iSdaV" />
       </node>
@@ -4826,6 +4834,13 @@
         </node>
         <node concept="2iRfu4" id="7B7tObTffKM" role="2iSdaV" />
       </node>
+    </node>
+    <node concept="3EZMnI" id="70bezxAmcWR" role="2wV5jI">
+      <node concept="3F0A7n" id="70bezxAmdpF" role="3EZMnx">
+        <ref role="1NtTu8" to="lnwe:4AIlyP3lt0I" resolve="escapedValue" />
+        <ref role="1k5W1q" node="4AIlyP2JWOf" resolve="TaggedWord" />
+      </node>
+      <node concept="l2Vlx" id="70bezxApbrz" role="2iSdaV" />
     </node>
   </node>
 </model>

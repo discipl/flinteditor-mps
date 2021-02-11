@@ -15,6 +15,10 @@
       </concept>
     </language>
     <language id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint">
+      <concept id="5309275763118590480" name="Flint.structure.TaggedWord" flags="ng" index="aU1KX">
+        <property id="5309275763120703337" name="role" index="aMd54" />
+        <property id="5309275763119607854" name="escapedValue" index="aYSo3" />
+      </concept>
       <concept id="6868897032739893314" name="Flint.structure.IExplainable" flags="ng" index="cog$R">
         <property id="778381075952164307" name="explanation" index="3ANC2_" />
       </concept>
@@ -2433,8 +2437,20 @@
     <node concept="cog_b" id="13qOoT8Bfnv" role="2pmM46">
       <ref role="cog$q" node="13qOoT8BfbM" resolve="art. 14 lid 1, onder a, Vw" />
       <node concept="19SGf9" id="13qOoT8Bfnw" role="aVT4J">
-        <node concept="19SUe$" id="13qOoT8Bfnx" role="19SJt6">
-          <property role="19SUeA" value="Onze Minister is bevoegd: a. de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen;" />
+        <node concept="19SUe$" id="70bezxAuQ9n" role="19SJt6" />
+        <node concept="aU1KX" id="70bezxAuQ9i" role="19SJt6">
+          <property role="aYSo3" value="Onze" />
+          <property role="aMd54" value="4AIlyP2wQAL/Actor" />
+        </node>
+        <node concept="19SUe$" id="70bezxAuQ9h" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="aU1KX" id="70bezxAuQ9g" role="19SJt6">
+          <property role="aYSo3" value="Minister" />
+          <property role="aMd54" value="4AIlyP2wQAL/Actor" />
+        </node>
+        <node concept="19SUe$" id="70bezxAuQ9f" role="19SJt6">
+          <property role="19SUeA" value=" is bevoegd: a. de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen;" />
         </node>
       </node>
     </node>

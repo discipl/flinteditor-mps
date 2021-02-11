@@ -29,7 +29,7 @@
       </concept>
       <concept id="5309275763118590480" name="Flint.structure.TaggedWord" flags="ng" index="aU1KX">
         <property id="5309275763120703337" name="role" index="aMd54" />
-        <property id="5309275763119607854" name="word" index="aYSo3" />
+        <property id="5309275763119607854" name="escapedValue" index="aYSo3" />
       </concept>
       <concept id="6868897032739893314" name="Flint.structure.IExplainable" flags="ng" index="cog$R">
         <property id="778381075952164307" name="explanation" index="3ANC2_" />
@@ -322,33 +322,33 @@
         <node concept="19SUe$" id="7B7tObT749q" role="19SJt6">
           <property role="19SUeA" value="Een " />
         </node>
-        <node concept="aU1KX" id="70bezxA6DCh" role="19SJt6">
+        <node concept="aU1KX" id="70bezxAnoFH" role="19SJt6">
           <property role="aYSo3" value="ambtenaar" />
           <property role="aMd54" value="4AIlyP2wQAL/Actor" />
         </node>
-        <node concept="19SUe$" id="70bezxA6DCg" role="19SJt6">
-          <property role="19SUeA" value=" mag de " />
+        <node concept="19SUe$" id="70bezxAnoFG" role="19SJt6">
+          <property role="19SUeA" value=" " />
         </node>
-        <node concept="aU1KX" id="70bezxA6DCr" role="19SJt6">
+        <node concept="aU1KX" id="70bezxAnoFE" role="19SJt6">
+          <property role="aYSo3" value="mag" />
+          <property role="aMd54" value="4AIlyP2wQAL/Actor" />
+        </node>
+        <node concept="19SUe$" id="70bezxAnoFD" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="aU1KX" id="70bezxAnoFB" role="19SJt6">
+          <property role="aYSo3" value="de" />
+          <property role="aMd54" value="4AIlyP2wQAL/Actor" />
+        </node>
+        <node concept="19SUe$" id="70bezxAnoFA" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="aU1KX" id="70bezxAnoF$" role="19SJt6">
           <property role="aYSo3" value="subsidie" />
-          <property role="aMd54" value="4AIlyP2wQBp/Object" />
+          <property role="aMd54" value="4AIlyP2wQAL/Actor" />
         </node>
-        <node concept="19SUe$" id="70bezxA6DCq" role="19SJt6">
-          <property role="19SUeA" value=" van een " />
-        </node>
-        <node concept="aU1KX" id="70bezxA6DC3" role="19SJt6">
-          <property role="aYSo3" value="burger" />
-          <property role="aMd54" value="4AIlyP2wQBx/Recipient" />
-        </node>
-        <node concept="19SUe$" id="70bezxA6DC2" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="aU1KX" id="70bezxA6DC9" role="19SJt6">
-          <property role="aYSo3" value="afwijzen" />
-          <property role="aMd54" value="4AIlyP2wQAP/Action" />
-        </node>
-        <node concept="19SUe$" id="70bezxA6DC8" role="19SJt6">
-          <property role="19SUeA" value=" " />
+        <node concept="19SUe$" id="70bezxAnoFz" role="19SJt6">
+          <property role="19SUeA" value=" van een burger afwijzen. " />
         </node>
       </node>
     </node>

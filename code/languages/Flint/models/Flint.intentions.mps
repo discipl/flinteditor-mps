@@ -1573,7 +1573,7 @@
                       <ref role="3cqZAo" node="4AIlyP3xa_0" resolve="taggedWord" />
                     </node>
                     <node concept="3TrcHB" id="4AIlyP3xb92" role="2OqNvi">
-                      <ref role="3TsBF5" to="lnwe:4AIlyP3lt0I" resolve="word" />
+                      <ref role="3TsBF5" to="lnwe:4AIlyP3lt0I" resolve="escapedValue" />
                     </node>
                   </node>
                   <node concept="2OqwBi" id="6PpSusSxFXc" role="37vLTx">
@@ -1623,7 +1623,7 @@
                       <ref role="3cqZAo" node="4AIlyP3xa_0" resolve="taggedWord" />
                     </node>
                     <node concept="3TrcHB" id="6PpSusSuBt2" role="2OqNvi">
-                      <ref role="3TsBF5" to="lnwe:4AIlyP3lt0I" resolve="word" />
+                      <ref role="3TsBF5" to="lnwe:4AIlyP3lt0I" resolve="escapedValue" />
                     </node>
                   </node>
                   <node concept="2YIFZM" id="6PpSusSuCw_" role="37vLTx">
@@ -1767,7 +1767,7 @@
                   </node>
                 </node>
                 <node concept="3TrcHB" id="4AIlyP3xJ9V" role="2OqNvi">
-                  <ref role="3TsBF5" to="lnwe:4AIlyP3lt0I" resolve="word" />
+                  <ref role="3TsBF5" to="lnwe:4AIlyP3lt0I" resolve="escapedValue" />
                 </node>
               </node>
             </node>
@@ -2457,7 +2457,7 @@
                 <ref role="3cqZAo" node="1ILeZy5vF6N" resolve="taggedWord" />
               </node>
               <node concept="3TrcHB" id="1ILeZy5v$xK" role="2OqNvi">
-                <ref role="3TsBF5" to="lnwe:4AIlyP3lt0I" resolve="word" />
+                <ref role="3TsBF5" to="lnwe:4AIlyP3lt0I" resolve="escapedValue" />
               </node>
             </node>
             <node concept="2OqwBi" id="1ILeZy5v$xL" role="37vLTx">
@@ -2562,7 +2562,7 @@
                 <ref role="3cqZAo" node="28ttwYhKsar" resolve="taggedWord" />
               </node>
               <node concept="3TrcHB" id="28ttwYhKvgg" role="2OqNvi">
-                <ref role="3TsBF5" to="lnwe:4AIlyP3lt0I" resolve="word" />
+                <ref role="3TsBF5" to="lnwe:4AIlyP3lt0I" resolve="escapedValue" />
               </node>
             </node>
           </node>
@@ -2662,7 +2662,7 @@
             <node concept="2OqwBi" id="6PpSusSyc5M" role="3uHU7w">
               <node concept="2Sf5sV" id="6PpSusSybSx" role="2Oq$k0" />
               <node concept="3TrcHB" id="6PpSusSycgW" role="2OqNvi">
-                <ref role="3TsBF5" to="lnwe:4AIlyP3lt0I" resolve="word" />
+                <ref role="3TsBF5" to="lnwe:4AIlyP3lt0I" resolve="escapedValue" />
               </node>
             </node>
             <node concept="Xl_RD" id="6PpSusSybhV" role="3uHU7B">
