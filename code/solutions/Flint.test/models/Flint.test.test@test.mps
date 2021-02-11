@@ -188,7 +188,7 @@
     <language id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint">
       <concept id="5309275763118590480" name="Flint.structure.TaggedWord" flags="ng" index="aU1KX">
         <property id="5309275763120703337" name="role" index="aMd54" />
-        <property id="5309275763119607854" name="word" index="aYSo3" />
+        <property id="5309275763119607854" name="escapedValue" index="aYSo3" />
       </concept>
       <concept id="6868897032739893314" name="Flint.structure.IExplainable" flags="ng" index="cog$R">
         <property id="778381075952164307" name="explanation" index="3ANC2_" />
@@ -1070,12 +1070,12 @@
               <node concept="aU1KX" id="28ttwYhlEQq" role="19SJt6">
                 <property role="aYSo3" value="text" />
                 <property role="aMd54" value="4AIlyP2wQAL/Actor" />
-                <node concept="LIFWc" id="28ttwYhlEQv" role="lGtFl">
-                  <property role="LIFWa" value="1" />
+                <node concept="LIFWc" id="70bezxA$qNf" role="lGtFl">
+                  <property role="LIFWa" value="2" />
                   <property role="OXtK3" value="true" />
-                  <property role="p6zMq" value="1" />
-                  <property role="p6zMs" value="1" />
-                  <property role="LIFWd" value="property_word" />
+                  <property role="p6zMq" value="2" />
+                  <property role="p6zMs" value="2" />
+                  <property role="LIFWd" value="property_escapedValue" />
                 </node>
               </node>
               <node concept="19SUe$" id="28ttwYhlEQp" role="19SJt6">
