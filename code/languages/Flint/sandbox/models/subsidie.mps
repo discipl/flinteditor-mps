@@ -320,14 +320,35 @@
       <ref role="cog$q" node="4AIlyP2$YN3" resolve="Source3" />
       <node concept="19SGf9" id="7B7tObT749p" role="aVT4J">
         <node concept="19SUe$" id="7B7tObT749q" role="19SJt6">
-          <property role="19SUeA" value="Test 321 Derp " />
+          <property role="19SUeA" value="Een " />
         </node>
-        <node concept="aU1KX" id="7B7tObT749w" role="19SJt6">
-          <property role="aYSo3" value="actor" />
+        <node concept="aU1KX" id="70bezxA6DCh" role="19SJt6">
+          <property role="aYSo3" value="ambtenaar" />
           <property role="aMd54" value="4AIlyP2wQAL/Actor" />
         </node>
-        <node concept="19SUe$" id="7B7tObT749v" role="19SJt6">
-          <property role="19SUeA" value="" />
+        <node concept="19SUe$" id="70bezxA6DCg" role="19SJt6">
+          <property role="19SUeA" value=" mag de " />
+        </node>
+        <node concept="aU1KX" id="70bezxA6DCr" role="19SJt6">
+          <property role="aYSo3" value="subsidie" />
+          <property role="aMd54" value="4AIlyP2wQBp/Object" />
+        </node>
+        <node concept="19SUe$" id="70bezxA6DCq" role="19SJt6">
+          <property role="19SUeA" value=" van een " />
+        </node>
+        <node concept="aU1KX" id="70bezxA6DC3" role="19SJt6">
+          <property role="aYSo3" value="burger" />
+          <property role="aMd54" value="4AIlyP2wQBx/Recipient" />
+        </node>
+        <node concept="19SUe$" id="70bezxA6DC2" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="aU1KX" id="70bezxA6DC9" role="19SJt6">
+          <property role="aYSo3" value="afwijzen" />
+          <property role="aMd54" value="4AIlyP2wQAP/Action" />
+        </node>
+        <node concept="19SUe$" id="70bezxA6DC8" role="19SJt6">
+          <property role="19SUeA" value=" " />
         </node>
       </node>
     </node>

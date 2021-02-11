@@ -73,6 +73,18 @@ See [expressions](#expressions).
 1. Under name select the name of the source you would like to reference.
 1. Under text enter the text from the source.
 
+### Source Tagging
+1. Select the words you want to tag.
+1. Hit `Alt+Enter`.
+1. Select 'Tag as X'.
+![Tag](images/tagging1.png)
+   
+### Removing source tag
+1. Select the words you want to untag.
+1. Hit `Alt+Enter`.
+1. Select 'Remove Tags'.
+
+![Untag](images/untag1.png)
 ### Duties
 1. To create a duties right click on the acts or model folder and select Duty.
 ![Create Duty](images/createnewduty.png)
