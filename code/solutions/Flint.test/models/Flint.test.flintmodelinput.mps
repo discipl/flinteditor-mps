@@ -17,7 +17,7 @@
     <language id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint">
       <concept id="5309275763118590480" name="Flint.structure.TaggedWord" flags="ng" index="aU1KX">
         <property id="5309275763120703337" name="role" index="aMd54" />
-        <property id="5309275763119607854" name="word" index="aYSo3" />
+        <property id="5309275763119607854" name="escapedValue" index="aYSo3" />
       </concept>
       <concept id="6868897032739893314" name="Flint.structure.IExplainable" flags="ng" index="cog$R">
         <property id="778381075952164307" name="explanation" index="3ANC2_" />

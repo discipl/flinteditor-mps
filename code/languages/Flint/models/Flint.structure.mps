@@ -874,5 +874,84 @@
       <ref role="AX2Wp" node="4AIlyP2wQAK" resolve="Role" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1nyeVyNiRPP">
+    <property role="EcuMT" value="1576888484001185141" />
+    <property role="TrG5h" value="Article" />
+    <property role="19KtqR" value="true" />
+    <property role="3GE5qa" value="sources" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="36FPIkdCI3$" role="1TKVEl">
+      <property role="IQ2nx" value="3579190608140624100" />
+      <property role="TrG5h" value="juriConnect" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="1nyeVyNiRPQ" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="1nyeVyNiS2c" role="1TKVEi">
+      <property role="IQ2ns" value="1576888484001185932" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="20kJfa" value="version" />
+      <ref role="20lvS9" node="1nyeVyNbPAY" resolve="Version" />
+    </node>
+    <node concept="1TJgyj" id="7u5lLrxB0gJ" role="1TKVEi">
+      <property role="IQ2ns" value="8612385618201936943" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="text" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="87nw:2dWzqxEB$Tx" resolve="Text" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1nyeVyN1ImA">
+    <property role="EcuMT" value="1576888483996689830" />
+    <property role="TrG5h" value="NewSource" />
+    <property role="19KtqR" value="true" />
+    <property role="3GE5qa" value="sources" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1nyeVyN1ImB" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyi" id="1nyeVyNiSf1" role="1TKVEl">
+      <property role="IQ2nx" value="1576888484001186753" />
+      <property role="TrG5h" value="juriConnect" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1nyeVyNbPAY">
+    <property role="EcuMT" value="1576888483999340990" />
+    <property role="TrG5h" value="Version" />
+    <property role="19KtqR" value="true" />
+    <property role="3GE5qa" value="sources" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1nyeVyNbPAZ" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="1nyeVyNiS2b" role="1TKVEi">
+      <property role="IQ2ns" value="1576888484001185931" />
+      <property role="20kJfa" value="source" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1nyeVyN1ImA" resolve="NewSource" />
+    </node>
+    <node concept="1TJgyi" id="1nyeVyNiTzc" role="1TKVEl">
+      <property role="IQ2nx" value="1576888484001192140" />
+      <property role="TrG5h" value="startDate" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1nyeVyNiTzd" role="1TKVEl">
+      <property role="IQ2nx" value="1576888484001192141" />
+      <property role="TrG5h" value="endDate" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="$Y9SaAy2$j" role="1TKVEl">
+      <property role="IQ2nx" value="666013236990585107" />
+      <property role="TrG5h" value="id" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="36FPIkdCI3F" role="1TKVEl">
+      <property role="IQ2nx" value="3579190608140624107" />
+      <property role="TrG5h" value="juriConnect" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 

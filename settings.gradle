@@ -11,3 +11,4 @@ pluginManagement {
 }
 rootProject.name = 'Flint'
 include "code:java:FlintParser"
+include "code:java:FlintSources"
