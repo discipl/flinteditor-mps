@@ -9,7 +9,7 @@ class DemoSourceServiceImpl : SourceService {
         Source("2", "Subsidieregeling lerarenbeurs", "jci1.3:c:BWBR0039319")
     )
 
-    override fun getSourceByJuriconnect(juriconnect: String): Source? {
-        return sources.firstOrNull { it.juriconnect == juriconnect }
+    override fun getSourceByBwbId(bwbId: String): Source? {
+        return sources.firstOrNull { it.juriconnect == bwbId }
     }
 }

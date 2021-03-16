@@ -913,7 +913,7 @@
     </node>
     <node concept="1TJgyi" id="1nyeVyNiSf1" role="1TKVEl">
       <property role="IQ2nx" value="1576888484001186753" />
-      <property role="TrG5h" value="juriConnect" />
+      <property role="TrG5h" value="bwbId" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>

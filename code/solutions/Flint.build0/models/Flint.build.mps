@@ -1109,6 +1109,11 @@
             <ref role="3bR37D" node="QLMwktTkqF" resolve="Flint.plugin" />
           </node>
         </node>
+        <node concept="1SiIV0" id="5n1cK7RbjAq" role="3bR37C">
+          <node concept="3bR9La" id="5n1cK7RbjAr" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="QLMwktTkqF" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1489,6 +1494,246 @@
               <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
               <node concept="2Ry0Ak" id="$Y9SaA8NcT" role="iGT6I">
                 <property role="2Ry0Am" value="FlintSources.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2IA6uN_$Cb2" role="3bR37C">
+          <node concept="1BurEX" id="2IA6uN_$Cb3" role="1SiIV1">
+            <node concept="398BVA" id="2IA6uN_$CaP" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2IA6uN_$CaQ" role="iGT6I">
+                <property role="2Ry0Am" value="jena-core.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2IA6uN_$Cbh" role="3bR37C">
+          <node concept="1BurEX" id="2IA6uN_$Cbi" role="1SiIV1">
+            <node concept="398BVA" id="2IA6uN_$Cb4" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2IA6uN_$Cb5" role="iGT6I">
+                <property role="2Ry0Am" value="jsoup.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2IA6uNA4Tzy" role="3bR37C">
+          <node concept="1BurEX" id="2IA6uNA4Tzz" role="1SiIV1">
+            <node concept="398BVA" id="2IA6uNA4Tzl" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2IA6uNA4Tzm" role="iGT6I">
+                <property role="2Ry0Am" value="httpclient-cache.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2IA6uNA4TzY" role="3bR37C">
+          <node concept="1BurEX" id="2IA6uNA4TzZ" role="1SiIV1">
+            <node concept="398BVA" id="2IA6uNA4TzL" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2IA6uNA4TzM" role="iGT6I">
+                <property role="2Ry0Am" value="javax.annotation-api.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2IA6uNA4T$d" role="3bR37C">
+          <node concept="1BurEX" id="2IA6uNA4T$e" role="1SiIV1">
+            <node concept="398BVA" id="2IA6uNA4T$0" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2IA6uNA4T$1" role="iGT6I">
+                <property role="2Ry0Am" value="collection.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2IA6uNA4T$s" role="3bR37C">
+          <node concept="1BurEX" id="2IA6uNA4T$t" role="1SiIV1">
+            <node concept="398BVA" id="2IA6uNA4T$f" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2IA6uNA4T$g" role="iGT6I">
+                <property role="2Ry0Am" value="commons-csv.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2IA6uNA4T$F" role="3bR37C">
+          <node concept="1BurEX" id="2IA6uNA4T$G" role="1SiIV1">
+            <node concept="398BVA" id="2IA6uNA4T$u" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2IA6uNA4T$v" role="iGT6I">
+                <property role="2Ry0Am" value="koin-core.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2IA6uNA4T$U" role="3bR37C">
+          <node concept="1BurEX" id="2IA6uNA4T$V" role="1SiIV1">
+            <node concept="398BVA" id="2IA6uNA4T$H" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2IA6uNA4T$I" role="iGT6I">
+                <property role="2Ry0Am" value="libthrift.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2IA6uNA4T_m" role="3bR37C">
+          <node concept="1BurEX" id="2IA6uNA4T_n" role="1SiIV1">
+            <node concept="398BVA" id="2IA6uNA4T_9" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2IA6uNA4T_a" role="iGT6I">
+                <property role="2Ry0Am" value="hamcrest-core.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2IA6uNA4T__" role="3bR37C">
+          <node concept="1BurEX" id="2IA6uNA4T_A" role="1SiIV1">
+            <node concept="398BVA" id="2IA6uNA4T_o" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2IA6uNA4T_p" role="iGT6I">
+                <property role="2Ry0Am" value="jena-iri.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2IA6uNA4TAE" role="3bR37C">
+          <node concept="1BurEX" id="2IA6uNA4TAF" role="1SiIV1">
+            <node concept="398BVA" id="2IA6uNA4TAt" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2IA6uNA4TAu" role="iGT6I">
+                <property role="2Ry0Am" value="httpcore.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2IA6uNA4TB6" role="3bR37C">
+          <node concept="1BurEX" id="2IA6uNA4TB7" role="1SiIV1">
+            <node concept="398BVA" id="2IA6uNA4TAT" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2IA6uNA4TAU" role="iGT6I">
+                <property role="2Ry0Am" value="httpclient.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2IA6uNA4TBl" role="3bR37C">
+          <node concept="1BurEX" id="2IA6uNA4TBm" role="1SiIV1">
+            <node concept="398BVA" id="2IA6uNA4TB8" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2IA6uNA4TB9" role="iGT6I">
+                <property role="2Ry0Am" value="jena-shaded-guava.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2IA6uNA4TB$" role="3bR37C">
+          <node concept="1BurEX" id="2IA6uNA4TB_" role="1SiIV1">
+            <node concept="398BVA" id="2IA6uNA4TBn" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2IA6uNA4TBo" role="iGT6I">
+                <property role="2Ry0Am" value="jackson-annotations.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2IA6uNA4TCB" role="3bR37C">
+          <node concept="1BurEX" id="2IA6uNA4TCC" role="1SiIV1">
+            <node concept="398BVA" id="2IA6uNA4TCq" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2IA6uNA4TCr" role="iGT6I">
+                <property role="2Ry0Am" value="commons-cli.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2IA6uNA4TCQ" role="3bR37C">
+          <node concept="1BurEX" id="2IA6uNA4TCR" role="1SiIV1">
+            <node concept="398BVA" id="2IA6uNA4TCD" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2IA6uNA4TCE" role="iGT6I">
+                <property role="2Ry0Am" value="jsonld-java.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2IA6uNA4TD5" role="3bR37C">
+          <node concept="1BurEX" id="2IA6uNA4TD6" role="1SiIV1">
+            <node concept="398BVA" id="2IA6uNA4TCS" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2IA6uNA4TCT" role="iGT6I">
+                <property role="2Ry0Am" value="jena-arq.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2IA6uNA4TDx" role="3bR37C">
+          <node concept="1BurEX" id="2IA6uNA4TDy" role="1SiIV1">
+            <node concept="398BVA" id="2IA6uNA4TDk" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2IA6uNA4TDl" role="iGT6I">
+                <property role="2Ry0Am" value="commons-compress.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2IA6uNA4TDK" role="3bR37C">
+          <node concept="1BurEX" id="2IA6uNA4TDL" role="1SiIV1">
+            <node concept="398BVA" id="2IA6uNA4TDz" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2IA6uNA4TD$" role="iGT6I">
+                <property role="2Ry0Am" value="jackson-core.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2IA6uNA4TDZ" role="3bR37C">
+          <node concept="1BurEX" id="2IA6uNA4TE0" role="1SiIV1">
+            <node concept="398BVA" id="2IA6uNA4TDM" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2IA6uNA4TDN" role="iGT6I">
+                <property role="2Ry0Am" value="jackson-databind.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2IA6uNA4TEe" role="3bR37C">
+          <node concept="1BurEX" id="2IA6uNA4TEf" role="1SiIV1">
+            <node concept="398BVA" id="2IA6uNA4TE1" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2IA6uNA4TE2" role="iGT6I">
+                <property role="2Ry0Am" value="junit.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2IA6uNA4TEt" role="3bR37C">
+          <node concept="1BurEX" id="2IA6uNA4TEu" role="1SiIV1">
+            <node concept="398BVA" id="2IA6uNA4TEg" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2IA6uNA4TEh" role="iGT6I">
+                <property role="2Ry0Am" value="jena-base.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2pb5YP1kwXR" role="3bR37C">
+          <node concept="1BurEX" id="2pb5YP1kwXS" role="1SiIV1">
+            <node concept="398BVA" id="2pb5YP1kwXE" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2pb5YP1kwXF" role="iGT6I">
+                <property role="2Ry0Am" value="jcl-over-slf4j.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2pb5YP1kx08" role="3bR37C">
+          <node concept="1BurEX" id="2pb5YP1kx09" role="1SiIV1">
+            <node concept="398BVA" id="2pb5YP1kwZV" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="2pb5YP1kwZW" role="iGT6I">
+                <property role="2Ry0Am" value="slf4j-api.jar" />
               </node>
             </node>
           </node>

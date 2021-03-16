@@ -4895,11 +4895,11 @@
       </node>
       <node concept="3EZMnI" id="$Y9Sa_JN3y" role="3EZMnx">
         <node concept="3F0ifn" id="$Y9Sa_JN3z" role="3EZMnx">
-          <property role="3F0ifm" value="Juriconnect:" />
+          <property role="3F0ifm" value="BWB Id:" />
         </node>
         <node concept="l2Vlx" id="$Y9Sa_JN3$" role="2iSdaV" />
         <node concept="3F0A7n" id="$Y9Sa_JN3_" role="3EZMnx">
-          <ref role="1NtTu8" to="lnwe:1nyeVyNiSf1" resolve="juriConnect" />
+          <ref role="1NtTu8" to="lnwe:1nyeVyNiSf1" resolve="bwbId" />
         </node>
       </node>
       <node concept="3gTLQM" id="$Y9SaA2mvr" role="3EZMnx">

@@ -41,6 +41,7 @@ ext {
     mps_version = "2020.3.1"
     node_version = "13.6.0"
     npm_version = "6.13.4"
+    koin_version = "2.2.2"
 }
 
 configurations {
@@ -55,6 +56,7 @@ configurations {
 repositories {
     mavenLocal()
     mavenCentral()
+    jcenter()
     maven {
         url = uri("https://projects.itemis.de/nexus/content/repositories/mbeddr")
     }
@@ -73,9 +75,12 @@ dependencies {
     mpslib(project("code:java:FlintParser")) {
         exclude group: 'org.openjfx'
     }
-    mpslib 'com.googlecode.json-simple:json-simple:1.1.1'
-    mpslib 'commons-io:commons-io:2.7'
-    mpslib 'commons-codec:commons-codec:1.11'
+    mpslib(project("code:java:FlintSources")) {
+        exclude group: "org.slf4j"
+    }
+    mpslib('com.googlecode.json-simple:json-simple:1.1.1')
+    mpslib('commons-io:commons-io:2.7')
+    mpslib('commons-codec:commons-codec:1.11')
 
     artifact "com.mbeddr:platform:$mbeddr_version"
     mps("com.jetbrains:mps:$mps_version")

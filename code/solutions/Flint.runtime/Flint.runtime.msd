@@ -12,6 +12,9 @@
       <sourceRoot location="kotlin-stdlib.jar" />
       <sourceRoot location="commons-codec.jar" />
       <sourceRoot location="FlintSources.jar" />
+      <sourceRoot location="jena-core.jar" />
+      <sourceRoot location="jena-arq.jar" />
+      <sourceRoot location="jena-base.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -20,20 +23,42 @@
     </facet>
   </facets>
   <stubModelEntries>
-    <stubModelEntry path="${module}/libs/annotations.jar" />
-    <stubModelEntry path="${module}/libs/commons-exec.jar" />
-    <stubModelEntry path="${module}/libs/commons-io.jar" />
-    <stubModelEntry path="${module}/libs/commons-lang3.jar" />
-    <stubModelEntry path="${module}/libs/FlintParser.jar" />
     <stubModelEntry path="${module}/libs/gson-fire.jar" />
     <stubModelEntry path="${module}/libs/gson.jar" />
-    <stubModelEntry path="${module}/libs/json-simple.jar" />
-    <stubModelEntry path="${module}/libs/kotlin-stdlib-common.jar" />
-    <stubModelEntry path="${module}/libs/kotlin-stdlib-jdk7.jar" />
-    <stubModelEntry path="${module}/libs/kotlin-stdlib-jdk8.jar" />
     <stubModelEntry path="${module}/libs/kotlin-stdlib.jar" />
-    <stubModelEntry path="${module}/libs/commons-codec.jar" />
+    <stubModelEntry path="${module}/libs/httpclient-cache.jar" />
+    <stubModelEntry path="${module}/libs/jsoup.jar" />
+    <stubModelEntry path="${module}/libs/javax.annotation-api.jar" />
+    <stubModelEntry path="${module}/libs/collection.jar" />
+    <stubModelEntry path="${module}/libs/commons-csv.jar" />
+    <stubModelEntry path="${module}/libs/koin-core.jar" />
+    <stubModelEntry path="${module}/libs/libthrift.jar" />
+    <stubModelEntry path="${module}/libs/json-simple.jar" />
+    <stubModelEntry path="${module}/libs/hamcrest-core.jar" />
+    <stubModelEntry path="${module}/libs/jena-iri.jar" />
     <stubModelEntry path="${module}/libs/FlintSources.jar" />
+    <stubModelEntry path="${module}/libs/commons-io.jar" />
+    <stubModelEntry path="${module}/libs/commons-codec.jar" />
+    <stubModelEntry path="${module}/libs/httpcore.jar" />
+    <stubModelEntry path="${module}/libs/kotlin-stdlib-common.jar" />
+    <stubModelEntry path="${module}/libs/httpclient.jar" />
+    <stubModelEntry path="${module}/libs/jena-shaded-guava.jar" />
+    <stubModelEntry path="${module}/libs/jackson-annotations.jar" />
+    <stubModelEntry path="${module}/libs/kotlin-stdlib-jdk7.jar" />
+    <stubModelEntry path="${module}/libs/annotations.jar" />
+    <stubModelEntry path="${module}/libs/commons-lang3.jar" />
+    <stubModelEntry path="${module}/libs/commons-exec.jar" />
+    <stubModelEntry path="${module}/libs/commons-cli.jar" />
+    <stubModelEntry path="${module}/libs/jsonld-java.jar" />
+    <stubModelEntry path="${module}/libs/jena-arq.jar" />
+    <stubModelEntry path="${module}/libs/jena-core.jar" />
+    <stubModelEntry path="${module}/libs/commons-compress.jar" />
+    <stubModelEntry path="${module}/libs/jackson-core.jar" />
+    <stubModelEntry path="${module}/libs/jackson-databind.jar" />
+    <stubModelEntry path="${module}/libs/junit.jar" />
+    <stubModelEntry path="${module}/libs/jena-base.jar" />
+    <stubModelEntry path="${module}/libs/kotlin-stdlib-jdk8.jar" />
+    <stubModelEntry path="${module}/libs/FlintParser.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

@@ -51,6 +51,7 @@
     <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
+    <import index="sg7y" ref="acf1b507-e791-4de3-b55f-a3880c36d5bb/java:org.apache.jena.query(Flint.runtime/)" />
     <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" implicit="true" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" implicit="true" />
   </imports>
@@ -9733,7 +9734,7 @@
             <node concept="2OqwBi" id="$Y9SaAiaBv" role="33vP2m">
               <node concept="13iPFW" id="$Y9SaAiaBw" role="2Oq$k0" />
               <node concept="3TrcHB" id="$Y9SaAiaBx" role="2OqNvi">
-                <ref role="3TsBF5" to="lnwe:1nyeVyNiSf1" resolve="juriConnect" />
+                <ref role="3TsBF5" to="lnwe:1nyeVyNiSf1" resolve="bwbId" />
               </node>
             </node>
           </node>
@@ -9780,7 +9781,7 @@
                                 </node>
                               </node>
                               <node concept="liA8E" id="$Y9SaAf9A7" role="2OqNvi">
-                                <ref role="37wK5l" to="ggg1:~SourceService.getSourceByJuriconnect(java.lang.String)" resolve="getSourceByJuriconnect" />
+                                <ref role="37wK5l" to="ggg1:~SourceService.getSourceByBwbId(java.lang.String)" resolve="getSourceByBwbId" />
                                 <node concept="37vLTw" id="$Y9SaAiaBz" role="37wK5m">
                                   <ref role="3cqZAo" node="$Y9SaAiaBu" resolve="juriConnect" />
                                 </node>
@@ -10136,7 +10137,7 @@
                 <ref role="3cqZAo" node="$Y9SaAu$4E" resolve="source" />
               </node>
               <node concept="3TrcHB" id="$Y9SaAu$Ii" role="2OqNvi">
-                <ref role="3TsBF5" to="lnwe:1nyeVyNiSf1" resolve="juriConnect" />
+                <ref role="3TsBF5" to="lnwe:1nyeVyNiSf1" resolve="bwbId" />
               </node>
             </node>
             <node concept="17QB3L" id="$Y9SaAu$Pv" role="1tU5fm" />
@@ -10156,7 +10157,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="$Y9SaAuA_N" role="2OqNvi">
-                <ref role="37wK5l" to="ggg1:~VersionService.getVersionsForSourceJuriconnect(java.lang.String)" resolve="getVersionsForSourceJuriconnect" />
+                <ref role="37wK5l" to="ggg1:~VersionService.getVersionsForSourceBWBId(java.lang.String)" resolve="getVersionsForSourceBWBId" />
                 <node concept="37vLTw" id="$Y9SaAuA_O" role="37wK5m">
                   <ref role="3cqZAo" node="$Y9SaAu$If" resolve="juriConnect" />
                 </node>
@@ -10356,6 +10357,7 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="2pb5YP1XN3U" role="jymVt" />
     <node concept="2YIFZL" id="$Y9SaAy1$k" role="jymVt">
       <property role="TrG5h" value="loadArticlesForVersion" />
       <node concept="3clFbS" id="$Y9SaAy1$l" role="3clF47">
