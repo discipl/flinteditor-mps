@@ -872,9 +872,6 @@
       <node concept="m$_yC" id="2WP7dhE2AhK" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:5xhjlkpPhJu" resolve="jetbrains.mps.ide.httpsupport" />
       </node>
-      <node concept="m$_yC" id="4bAnuBm8IJd" role="m$_yJ">
-        <ref role="m$_y1" to="al5i:64SK4bcO2rO" resolve="com.mbeddr.mpsutil.projectview" />
-      </node>
       <node concept="3_J27D" id="2WP7dhE1err" role="m_cZH">
         <node concept="3Mxwew" id="2WP7dhE1ers" role="3MwsjC">
           <property role="3MwjfP" value="Flint" />
