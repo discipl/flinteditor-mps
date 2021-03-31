@@ -20,8 +20,4 @@ internal class FlintParserTest {
 //        }
     }
 
-    @Test
-    fun getVersionsForBwb() {
-
-    }
 }

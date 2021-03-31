@@ -872,6 +872,9 @@
       <node concept="m$_yC" id="2WP7dhE2AhK" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:5xhjlkpPhJu" resolve="jetbrains.mps.ide.httpsupport" />
       </node>
+      <node concept="m$_yC" id="4bAnuBm8IJd" role="m$_yJ">
+        <ref role="m$_y1" to="al5i:64SK4bcO2rO" resolve="com.mbeddr.mpsutil.projectview" />
+      </node>
       <node concept="3_J27D" id="2WP7dhE1err" role="m_cZH">
         <node concept="3Mxwew" id="2WP7dhE1ers" role="3MwsjC">
           <property role="3MwjfP" value="Flint" />
@@ -1114,6 +1117,16 @@
             <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
           </node>
         </node>
+        <node concept="1SiIV0" id="2PUWqwhiL3v" role="3bR37C">
+          <node concept="3bR9La" id="2PUWqwhiL3w" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7xM0MUb1vBS" role="3bR37C">
+          <node concept="3bR9La" id="7xM0MUb1vBT" role="1SiIV1">
+            <ref role="3bR37D" to="90a9:4p3FRivDLPL" resolve="de.slisson.mps.editor.multiline.runtime" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="QLMwktTkqF" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1269,11 +1282,6 @@
         <node concept="1SiIV0" id="13qOoT8cghw" role="3bR37C">
           <node concept="3bR9La" id="13qOoT8cghx" role="1SiIV1">
             <ref role="3bR37D" to="90a9:1sO539bGQvB" resolve="de.slisson.mps.richtext" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="7u5lLrxxR7t" role="3bR37C">
-          <node concept="3bR9La" id="7u5lLrxxR7u" role="1SiIV1">
-            <ref role="3bR37D" to="al5i:3jVbLyZDuHs" resolve="com.mbeddr.mpsutil.projectview.views" />
           </node>
         </node>
       </node>
@@ -1714,26 +1722,6 @@
               <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
               <node concept="2Ry0Ak" id="2IA6uNA4TEh" role="iGT6I">
                 <property role="2Ry0Am" value="jena-base.jar" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2pb5YP1kwXR" role="3bR37C">
-          <node concept="1BurEX" id="2pb5YP1kwXS" role="1SiIV1">
-            <node concept="398BVA" id="2pb5YP1kwXE" role="1BurEY">
-              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
-              <node concept="2Ry0Ak" id="2pb5YP1kwXF" role="iGT6I">
-                <property role="2Ry0Am" value="jcl-over-slf4j.jar" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2pb5YP1kx08" role="3bR37C">
-          <node concept="1BurEX" id="2pb5YP1kx09" role="1SiIV1">
-            <node concept="398BVA" id="2pb5YP1kwZV" role="1BurEY">
-              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
-              <node concept="2Ry0Ak" id="2pb5YP1kwZW" role="iGT6I">
-                <property role="2Ry0Am" value="slf4j-api.jar" />
               </node>
             </node>
           </node>

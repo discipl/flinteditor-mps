@@ -1,0 +1,1385 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "regel",
+      "regelNr",
+      "structure",
+      "teken",
+      "text",
+      "parent",
+      "grandParent"
+    ]
+  },
+  "results": {
+    "distinct": false,
+    "ordered": true,
+    "bindings": [
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/5"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "5"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/kop"
+        },
+        "text": {
+          "type": "literal",
+          "value": "Artikel 1 (begripsbepalingen)"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/13"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/5"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/6"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "6"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/al"
+        },
+        "text": {
+          "type": "literal",
+          "value": "In deze beleidsregel wordt verstaan onder:"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/13"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/5"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/7"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "7"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/al"
+        },
+        "text": {
+          "type": "literal",
+          "value": "algemene de-minimisverordening: verordening (EU) nr. 1407/2013 van de Commissie van 18\u00A0december 2013 betreffende de toepassing van de artikelen 107 en 108 van het Verdrag betreffende de werking van de Europese Unie op de-minimissteun (PbEU 2013, L 352);"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/17"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/13"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/8"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "8"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/al"
+        },
+        "text": {
+          "type": "literal",
+          "value": "gedupeerde onderneming: in Nederland gevestigde onderneming als bedoeld in artikel 5 van de Handelsregisterwet 2007 , niet zijnde een overheidsbedrijf:"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/19"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/13"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/9"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "9"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/lijst/li/al"
+        },
+        "teken": {
+          "type": "literal",
+          "value": "a."
+        },
+        "text": {
+          "type": "literal",
+          "value": "die op 15\u00A0maart 2020 in het handelsregister stond ingeschreven onder een hoofdactiviteit die in bijlage 1 is opgenomen, met de daarbij behorende code van de Standaard Bedrijfsindeling;"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/22"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/19"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/10"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "10"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/lijst/li/al"
+        },
+        "teken": {
+          "type": "literal",
+          "value": "b."
+        },
+        "text": {
+          "type": "literal",
+          "value": "waar ten hoogste 250 personen werkzaam zijn, blijkend uit de inschrijving in het handelsregister op 15\u00A0maart 2020; en"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/24"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/19"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/11"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "11"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/lijst/li/al"
+        },
+        "teken": {
+          "type": "literal",
+          "value": "c."
+        },
+        "text": {
+          "type": "literal",
+          "value": "die:"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/26"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/19"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/12"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "12"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/lijst/li/lijst/li/al"
+        },
+        "teken": {
+          "type": "literal",
+          "value": "1\u00B0."
+        },
+        "text": {
+          "type": "literal",
+          "value": "voor zover het een onderneming, niet zijnde een horecaonderneming, betreft ten minste \u00E9\u00E9n vestiging heeft met een ander adres dan het priv\u00E9adres van de eigenaar of eigenaren van de onderneming; of"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/29"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/26"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/13"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "13"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/lijst/li/lijst/li/al"
+        },
+        "teken": {
+          "type": "literal",
+          "value": "2\u00B0."
+        },
+        "text": {
+          "type": "literal",
+          "value": "voor zover het een horecaonderneming betreft ten minste \u00E9\u00E9n horecagelegenheid huurt, pacht of in eigendom heeft;"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/31"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/26"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/14"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "14"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/al"
+        },
+        "text": {
+          "type": "literal",
+          "value": "handelsregister: handelsregister als bedoeld in artikel 2 van de Handelsregisterwet 2007 ;"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/33"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/13"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/15"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "15"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/al"
+        },
+        "text": {
+          "type": "literal",
+          "value": "horecaonderneming: onderneming die op 15\u00A0maart 2020 stond ingeschreven in het handelsregister onder de code 56.10.1, 56.10.2 of 56.30 van de Standaard Bedrijfsindeling;"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/35"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/13"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/16"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "16"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/al"
+        },
+        "text": {
+          "type": "literal",
+          "value": "minister: Minister van Economische Zaken en Klimaat;"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/37"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/13"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/17"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "17"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/al"
+        },
+        "text": {
+          "type": "literal",
+          "value": "overheidsbedrijf: overheidsbedrijf als bedoeld in artikel 25g, eerste lid, van de Mededingingswet ;"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/39"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/13"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/18"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "18"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/al"
+        },
+        "text": {
+          "type": "literal",
+          "value": "verklaring de-minimissteun: verklaring van de gedupeerde onderneming waarin deze bevestigt dat de tegemoetkoming niet zal leiden tot een overschrijding van het de-minimisplafond, bedoeld in artikel 3, tweede lid, van de algemene de-minimisverordening;"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/41"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/13"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/19"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "19"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/al"
+        },
+        "text": {
+          "type": "literal",
+          "value": "vestiging: vestiging als bedoeld in artikel 1, eerste lid, onderdeel j, van de Handelsregisterwet 2007 ."
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/43"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/13"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/20"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "20"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/kop"
+        },
+        "text": {
+          "type": "literal",
+          "value": "Artikel 2 (verstrekking en hoogte tegemoetkoming)"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/45"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/5"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/21"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "21"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/al"
+        },
+        "teken": {
+          "type": "literal",
+          "value": "1"
+        },
+        "text": {
+          "type": "literal",
+          "value": "De minister verstrekt op aanvraag een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16\u00A0maart 2020 tot en met 15\u00A0juni 2020:"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/47"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/12"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/22"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "22"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst/li/al"
+        },
+        "teken": {
+          "type": "literal",
+          "value": "a."
+        },
+        "text": {
+          "type": "literal",
+          "value": "ten minste \u20AC\u00A04000,\u2013 aan omzetverlies te lijden als gevolg van de maatregelen ter bestrijding van de verdere verspreiding van COVID-19;"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/50"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/47"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/23"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "23"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst/li/al"
+        },
+        "teken": {
+          "type": "literal",
+          "value": "b."
+        },
+        "text": {
+          "type": "literal",
+          "value": "ten minste \u20AC\u00A04000,\u2013 aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19."
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/52"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/47"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/24"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "24"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/al"
+        },
+        "teken": {
+          "type": "literal",
+          "value": "2"
+        },
+        "text": {
+          "type": "literal",
+          "value": "De tegemoetkoming bedraagt \u20AC\u00A04000 per gedupeerde onderneming."
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/54"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/12"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/25"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "25"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/kop"
+        },
+        "text": {
+          "type": "literal",
+          "value": "Artikel 3 (afwijzingsgronden)"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/56"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/5"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/26"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "26"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/al"
+        },
+        "text": {
+          "type": "literal",
+          "value": "De minister beslist afwijzend op een aanvraag indien:"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/56"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/5"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/27"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "27"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/al"
+        },
+        "teken": {
+          "type": "literal",
+          "value": "a."
+        },
+        "text": {
+          "type": "literal",
+          "value": "de aanvraag niet voldoet aan de bij deze beleidsregel gestelde eisen;"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/60"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/56"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/28"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "28"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/al"
+        },
+        "teken": {
+          "type": "literal",
+          "value": "b."
+        },
+        "text": {
+          "type": "literal",
+          "value": "de gedupeerde onderneming in staat van faillissement verkeert dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming is ingediend;"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/62"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/56"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/29"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "29"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/al"
+        },
+        "teken": {
+          "type": "literal",
+          "value": "c."
+        },
+        "text": {
+          "type": "literal",
+          "value": "de tegemoetkoming niet verstrekt kan worden op grond van de algemene de-minimisverordening."
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/64"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/56"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/30"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "30"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/kop"
+        },
+        "text": {
+          "type": "literal",
+          "value": "Artikel 4 (informatieverplichtingen bij aanvraag en aanvraagperiode)"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/66"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/5"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/31"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "31"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/al"
+        },
+        "teken": {
+          "type": "literal",
+          "value": "1"
+        },
+        "text": {
+          "type": "literal",
+          "value": "Een aanvraag wordt ingediend met gebruikmaking van een door de minister beschikbaar gesteld middel."
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/68"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/12"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/32"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "32"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/al"
+        },
+        "teken": {
+          "type": "literal",
+          "value": "2"
+        },
+        "text": {
+          "type": "literal",
+          "value": "Een aanvraag omvat in ieder geval:"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/70"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/12"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/33"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "33"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst/li/al"
+        },
+        "teken": {
+          "type": "literal",
+          "value": "a."
+        },
+        "text": {
+          "type": "literal",
+          "value": "gegevens over de gedupeerde onderneming, waaronder het nummer waarmee de gedupeerde onderneming geregistreerd is bij de Kamer van Koophandel, het post- en bezoekadres en het rekeningnummer dat op naam van de gedupeerde onderneming staat;"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/73"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/70"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/34"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "34"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst/li/al"
+        },
+        "teken": {
+          "type": "literal",
+          "value": "b."
+        },
+        "text": {
+          "type": "literal",
+          "value": "gegevens over de contactpersoon bij de gedupeerde onderneming, waaronder de naam, het telefoonnummer en het e-mailadres;"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/75"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/70"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/35"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "35"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst/li/al"
+        },
+        "teken": {
+          "type": "literal",
+          "value": "c."
+        },
+        "text": {
+          "type": "literal",
+          "value": "een verklaring dat de gedupeerde onderneming geen overheidsbedrijf is;"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/77"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/70"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/36"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "36"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst/li/al"
+        },
+        "teken": {
+          "type": "literal",
+          "value": "d."
+        },
+        "text": {
+          "type": "literal",
+          "value": "een verklaring de-minimissteun;"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/79"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/70"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/37"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "37"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst/li/al"
+        },
+        "teken": {
+          "type": "literal",
+          "value": "e."
+        },
+        "text": {
+          "type": "literal",
+          "value": "een verklaring dat de gedupeerde onderneming op het moment van aanvraag voldoet aan de bij deze beleidsregel gestelde eisen;"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/81"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/70"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/38"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "38"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst/li/al"
+        },
+        "teken": {
+          "type": "literal",
+          "value": "f."
+        },
+        "text": {
+          "type": "literal",
+          "value": "een verklaring waarin de gedupeerde onderneming aangeeft dat de onderneming in de periode van 16\u00A0maart 2020 tot en met 15\u00A0juni 2020 een omzetverlies verwacht te lijden van ten minste \u20AC\u00A04000,\u2013; en"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/83"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/70"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/39"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "39"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst/li/al"
+        },
+        "teken": {
+          "type": "literal",
+          "value": "g."
+        },
+        "text": {
+          "type": "literal",
+          "value": "een verklaring waarin de gedupeerde onderneming aangeeft dat de onderneming in de periode van 16\u00A0maart 2020 tot en met 15\u00A0juni 2020 verwacht ten minste \u20AC\u00A04000,\u2013 aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19."
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/85"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/70"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/40"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "40"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/al"
+        },
+        "teken": {
+          "type": "literal",
+          "value": "3"
+        },
+        "text": {
+          "type": "literal",
+          "value": "Een aanvraag kan worden ingediend in de periode van 27\u00A0maart 2020 tot en met 26\u00A0juni 2020."
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/87"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/12"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/41"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "41"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/kop"
+        },
+        "text": {
+          "type": "literal",
+          "value": "Artikel 5 (beslistermijn)"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/89"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/5"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/42"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "42"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/al"
+        },
+        "text": {
+          "type": "literal",
+          "value": "De minister beslist binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen."
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/89"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/5"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/43"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "43"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/kop"
+        },
+        "text": {
+          "type": "literal",
+          "value": "Artikel 6 (aanpassing tegemoetkoming achteraf)"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/92"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/5"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/44"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "44"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/al"
+        },
+        "text": {
+          "type": "literal",
+          "value": "De minister kan de hoogte van de tegemoetkoming binnen vijf jaar na de verstrekking herzien dan wel de beschikking tot de tegemoetkoming intrekken, indien blijkt dat de tegemoetkoming, door onjuiste gegevensverstrekking door de gedupeerde onderneming, niet in overeenstemming met deze beleidsregel is verstrekt."
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/92"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/5"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/45"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "45"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/kop"
+        },
+        "text": {
+          "type": "literal",
+          "value": "Artikel 7 (staatssteun)"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/95"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/5"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/46"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "46"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/al"
+        },
+        "text": {
+          "type": "literal",
+          "value": "De tegemoetkoming, bedoeld in artikel 2 , bevat staatssteun en wordt gerechtvaardigd door de algemene de-minimisverordening."
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/95"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/5"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/47"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "47"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/kop"
+        },
+        "text": {
+          "type": "literal",
+          "value": "Artikel 8 (inwerkingtreding en vervaldatum)"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/98"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/5"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/48"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "48"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/al"
+        },
+        "teken": {
+          "type": "literal",
+          "value": "1"
+        },
+        "text": {
+          "type": "literal",
+          "value": "Deze beleidsregel treedt in werking met ingang van de dag na de datum van uitgifte van de Staatscourant waarin zij wordt geplaatst, en werkt terug tot en met 27\u00A0maart 2020."
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/100"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/12"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/49"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "49"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/al"
+        },
+        "teken": {
+          "type": "literal",
+          "value": "2"
+        },
+        "text": {
+          "type": "literal",
+          "value": "Deze beleidsregel vervalt met ingang van 1\u00A0januari 2021, met dien verstande dat de beleidsregel van toepassing blijft op aanvragen om tegemoetkoming die uiterlijk 26\u00A0juni 2020 zijn ingediend, dan wel op tegemoetkomingen die voor 1\u00A0januari 2021 zijn verstrekt."
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/102"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/12"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/50"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "50"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/kop"
+        },
+        "text": {
+          "type": "literal",
+          "value": "Artikel 9 (citeertitel)"
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/104"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/5"
+        }
+      },
+      {
+        "regel": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/51"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "51"
+        },
+        "structure": {
+          "type": "literal",
+          "value": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/al"
+        },
+        "text": {
+          "type": "literal",
+          "value": "Deze beleidsregel wordt aangehaald als: Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19."
+        },
+        "parent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/104"
+        },
+        "grandParent": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/5"
+        }
+      }
+    ]
+  }
+}

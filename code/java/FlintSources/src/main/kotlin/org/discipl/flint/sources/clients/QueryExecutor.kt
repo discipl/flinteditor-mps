@@ -1,19 +1,23 @@
 package org.discipl.flint.sources.clients
 
+import org.apache.http.client.HttpClient
 import org.apache.jena.query.QueryExecution
 import org.apache.jena.query.QueryExecutionFactory
 import org.apache.jena.query.ResultSet
 
-class QueryExecutor {
+class QueryExecutor(private val httpClient: HttpClient? = null) {
     companion object {
-        private const val service: String = "https://fin.triply.cc/_api/datasets/ole/BWB/services/BWB/sparql"
+        const val service: String = "https://fin.triply.cc/_api/datasets/ole/BWB/services/BWB/sparql"
     }
 
-    fun executeQuery(query: String): ResultSet {
+    fun <T> executeQuery(query: String, transformer: (ResultSet) -> T): T {
         val qexec: QueryExecution = QueryExecutionFactory.sparqlService(
             service,
-            query
+            query,
+            httpClient
         )
-        return qexec.execSelect()
+        val result = transformer(qexec.execSelect())
+        qexec.close()
+        return result
     }
 }

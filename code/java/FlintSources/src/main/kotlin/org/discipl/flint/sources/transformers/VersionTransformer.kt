@@ -10,6 +10,7 @@ class VersionTransformer {
             name = bwbVersion.name,
             startDate = bwbVersion.startDate,
             endDate = bwbVersion.endDate,
+            wettenNl = bwbVersion.wettenNl,
             juriconnect = "TODO" // TODO fix juriconnect
         )
     }

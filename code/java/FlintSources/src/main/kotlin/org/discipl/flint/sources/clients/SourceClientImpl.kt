@@ -11,7 +11,7 @@ class SourceClientImpl(private val queryExecutor: QueryExecutor) : SourceClient 
             PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
             PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
             PREFIX calculemus: <https://fin.triply.cc/ole/calculemus/>
-            PREFIX bwb: <https://fin.triply.cc/ole/BWB/>
+            PREFIX bwb: <https://fin.triply.cc/ole/BWB/def/>
             PREFIX lido: <http://linkeddata.overheid.nl/terms/>
             PREFIX changeset: <https://fin.triply.cc/ole/BWB/changeset/>
             PREFIX term: <http://purl.org/dc/terms/>
@@ -27,12 +27,13 @@ class SourceClientImpl(private val queryExecutor: QueryExecutor) : SourceClient 
     override fun getSourceForBwb(bwb: String): BWBSource? {
         val pss = ParameterizedSparqlString()
         pss.commandText = query
-        pss.setParam("id", NodeFactory.createURI("https://fin.triply.cc/ole/BWB/$bwb"))
+        pss.setParam("id", NodeFactory.createURI("https://fin.triply.cc/ole/BWB/id/$bwb"))
         val queryString = pss.toString()
         val query: Query = QueryFactory.create(queryString)
-        val results: ResultSet = queryExecutor.executeQuery(query.toString())
-        if (!results.hasNext()) return null
-        return MappedBWBSource(results.nextSolution())
+        return queryExecutor.executeQuery(query.toString()) {
+            if (!it.hasNext()) return@executeQuery null
+            return@executeQuery MappedBWBSource(it.nextSolution())
+        }
     }
 
     class MappedBWBSource(override val querySolution: QuerySolution) : BWBSource, IHasSolution {

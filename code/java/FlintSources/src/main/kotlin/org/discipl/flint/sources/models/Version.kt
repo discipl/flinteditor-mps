@@ -5,5 +5,6 @@ data class Version(
     val name: String,
     val startDate: String,
     val endDate: String,
+    val wettenNl: String,
     override val juriconnect: String
 ) : IHasJuriconnect

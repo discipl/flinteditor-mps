@@ -153,7 +153,7 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="27H3E6IvXMs">
-    <ref role="1M2myG" to="lnwe:5Xjenljcz0Z" resolve="Source" />
+    <ref role="1M2myG" to="lnwe:5Xjenljcz0Z" resolve="FlintSource" />
     <node concept="EnEH3" id="27H3E6I$EJZ" role="1MhHOB">
       <ref role="EomxK" to="lnwe:5Xjenljcz1z" resolve="validFrom" />
     </node>
@@ -337,7 +337,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="10jIHukaQrH">
-    <ref role="1M2myG" to="lnwe:5Xjenljcz0Y" resolve="SourceReference" />
+    <ref role="1M2myG" to="lnwe:5Xjenljcz0Y" resolve="FlintSourceReference" />
     <node concept="1N5Pfh" id="28ttwYhgLuS" role="1Mr941">
       <ref role="1N5Vy1" to="lnwe:5Xjenljcz1J" resolve="baseSource" />
       <node concept="3dgokm" id="28ttwYhgLuU" role="1N6uqs">

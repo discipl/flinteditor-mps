@@ -91,6 +91,8 @@
     <dependency reexport="false">04e1f940-330e-483b-9a6a-1648b396a81c(com.mbeddr.mpsutil.hyperlink)</dependency>
     <dependency reexport="false">fa1d9284-6f2c-4199-ba86-19ab8b12cf3e(Flint.plugin)</dependency>
     <dependency reexport="false">742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)</dependency>
+    <dependency reexport="false">498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)</dependency>
+    <dependency reexport="false">dc038ceb-b7ea-4fea-ac12-55f7400e97ba(de.slisson.mps.editor.multiline.runtime)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:c9991bd9-1f60-4f96-8e56-efd35c072829:ParameterizedRangeSelection" version="0" />
@@ -100,7 +102,6 @@
     <language slang="l:05f762a9-99f5-4971-a9ed-5a6481dc2be4:de.itemis.mps.selection.intentions" version="0" />
     <language slang="l:31c91def-a131-41a1-9018-102874f49a12:de.slisson.mps.editor.multiline" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
-    <language slang="l:132aa4d8-a3f7-441c-a7eb-3fce23492c6a:jetbrains.mps.baseLanguage.builders" version="0" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
     <language slang="l:83888646-71ce-4f1c-9c53-c54016f6ad4f:jetbrains.mps.baseLanguage.collections" version="1" />

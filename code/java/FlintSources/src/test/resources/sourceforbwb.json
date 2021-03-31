@@ -1,0 +1,25 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "title",
+      "bwb"
+    ]
+  },
+  "results": {
+    "distinct": false,
+    "ordered": true,
+    "bindings": [
+      {
+        "title": {
+          "type": "literal",
+          "value": "Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19"
+        },
+        "bwb": {
+          "type": "literal",
+          "value": "BWBR0043324"
+        }
+      }
+    ]
+  }
+}

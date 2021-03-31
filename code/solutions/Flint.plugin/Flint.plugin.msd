@@ -29,7 +29,6 @@
     <dependency reexport="false">3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)</dependency>
     <dependency reexport="false">b0f8641f-bd77-4421-8425-30d9088a82f7(org.apache.commons)</dependency>
     <dependency reexport="false">92d2ea16-5a42-4fdf-a676-c7604efe3504(de.slisson.mps.richtext)</dependency>
-    <dependency reexport="false">5c67d0a6-96e9-4056-be57-e594d54526b0(com.mbeddr.mpsutil.projectview.views)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:1f1b4a81-113d-4b88-9b67-2bae3e4f8128:com.mbeddr.mpsutil.projectview" version="1" />
@@ -60,7 +59,6 @@
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
     <module reference="86441d7a-e194-42da-81a5-2161ec62a379(MPS.Workbench)" version="0" />
-    <module reference="5c67d0a6-96e9-4056-be57-e594d54526b0(com.mbeddr.mpsutil.projectview.views)" version="0" />
     <module reference="848ef45d-e560-4e35-853c-f35a64cc135c(de.itemis.mps.editor.celllayout.runtime)" version="0" />
     <module reference="24c96a96-b7a1-4f30-82da-0f8e279a2661(de.itemis.mps.editor.celllayout.styles)" version="0" />
     <module reference="cce85e64-7b37-4ad5-b0e6-9d18324cdfb3(de.itemis.mps.selection.runtime)" version="0" />

@@ -15,8 +15,8 @@ class VersionClientImpl(private val queryExecutor: QueryExecutor) : VersionClien
             PREFIX changeset: <https://fin.triply.cc/ole/BWB/changeset/>
             PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
             PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+            PREFIX bwb: <https://fin.triply.cc/ole/BWB/def/>
             PREFIX calculemus: <https://fin.triply.cc/ole/calculemus/>
-            PREFIX bwb: <https://fin.triply.cc/ole/BWB/>
             PREFIX lido: <http://linkeddata.overheid.nl/terms/>
             PREFIX changeset: <https://fin.triply.cc/ole/BWB/changeset/>
             PREFIX term: <http://purl.org/dc/terms/>
@@ -24,7 +24,7 @@ class VersionClientImpl(private val queryExecutor: QueryExecutor) : VersionClien
             SELECT * WHERE {
               ?uri calculemus:juridischeBron ?id .
               ?uri rdfs:label ?label .
-              ?uri bwb:lido-iri ?iri .
+              ?uri calculemus:lidoIri ?iri .
               SERVICE <https://api.fin.triply.cc/datasets/ole/OLE-LOD/services/OLE-LOD/sparql> { 
                 ?iri lido:heeftInwerkingtredingsdatum ?startDate; term:hasVersion ?wettenNl .
               } 
@@ -51,23 +51,26 @@ class VersionClientImpl(private val queryExecutor: QueryExecutor) : VersionClien
         override val uri: String = mappedBWBVersion.uri
         override val label: String = mappedBWBVersion.label
         override val startDate: String = mappedBWBVersion.startDate
+        override val wettenNl: String = mappedBWBVersion.wettenNl
         override fun toString(): String {
             return "FullyMappedBWBVersion(name='$name', endDate='$endDate', uri='$uri', label='$label', startDate='$startDate')"
         }
     }
 
     override fun getVersionsForBwb(bwb: String): List<BWBVersion> {
-        return getPartialVersionsForBwb(bwb).map { getFullyMappedBWBVersion(it) }.sortedBy { LocalDate.parse(it.startDate) }
+        return getPartialVersionsForBwb(bwb).map { getFullyMappedBWBVersion(it) }
+            .sortedBy { LocalDate.parse(it.startDate) }
     }
 
     private fun getPartialVersionsForBwb(bwb: String): List<MappedBWBVersion> {
         val pss = ParameterizedSparqlString()
         pss.commandText = query
-        pss.setParam("id", NodeFactory.createURI("https://fin.triply.cc/ole/BWB/$bwb"))
+        pss.setParam("id", NodeFactory.createURI("https://fin.triply.cc/ole/BWB/id/$bwb"))
         val queryString = pss.toString()
         val query: Query = QueryFactory.create(queryString)
-        val results: List<QuerySolution> = queryExecutor.executeQuery(query.toString()).toList()
-        return results.map { MappedBWBVersion(it) }
+        return queryExecutor.executeQuery(query.toString()) {
+            it.toList().map { solution -> MappedBWBVersion(solution) }
+        }
     }
 
     // TODO this is only temporary

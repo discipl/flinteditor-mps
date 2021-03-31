@@ -10,4 +10,5 @@ interface BWBVersion {
     val name: String
     val endDate: String
     val startDate: String
+    val wettenNl: String
 }
