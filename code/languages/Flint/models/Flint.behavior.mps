@@ -12464,19 +12464,12 @@
                                               <node concept="37vLTw" id="2LtCE$jPxiN" role="37vLTJ">
                                                 <ref role="3cqZAo" node="2LtCE$jPxie" resolve="rFlintModel" />
                                               </node>
-                                              <node concept="2OqwBi" id="2LtCE$jPxiO" role="37vLTx">
+                                              <node concept="2OqwBi" id="ziG7TnfGm1" role="37vLTx">
                                                 <node concept="37vLTw" id="2LtCE$jPxiP" role="2Oq$k0">
                                                   <ref role="3cqZAo" node="2LtCE$jPxi9" resolve="fFlintModel" />
                                                 </node>
-                                                <node concept="liA8E" id="2LtCE$jPxiQ" role="2OqNvi">
-                                                  <ref role="37wK5l" to="5zyv:~Future.get(long,java.util.concurrent.TimeUnit)" resolve="get" />
-                                                  <node concept="3cmrfG" id="2LtCE$jPxiR" role="37wK5m">
-                                                    <property role="3cmrfH" value="10" />
-                                                  </node>
-                                                  <node concept="Rm8GO" id="2LtCE$jPxiS" role="37wK5m">
-                                                    <ref role="Rm8GQ" to="5zyv:~TimeUnit.SECONDS" resolve="SECONDS" />
-                                                    <ref role="1Px2BO" to="5zyv:~TimeUnit" resolve="TimeUnit" />
-                                                  </node>
+                                                <node concept="liA8E" id="ziG7TnfGTS" role="2OqNvi">
+                                                  <ref role="37wK5l" to="5zyv:~Future.get()" resolve="get" />
                                                 </node>
                                               </node>
                                             </node>
