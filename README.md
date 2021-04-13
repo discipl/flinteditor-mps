@@ -23,13 +23,13 @@ MPS IDE, FlintPlugin and dependant plugins must be manually installed.
 To build the FlintIDE run `gradlew buildFlintPlugin`. This will generate a zip in `code/build/artifacts/FlintPluginDistribution/`.
 
 ### Install
-1. Download and install mps 2019.3.4 from [here](https://www.jetbrains.com/mps/download/previous.html)
-2. Download the [mbeddr platform distribution plugins zip](https://projects.itemis.de/nexus/content/repositories/mbeddr/com/mbeddr/platform/2019.3.22227.6f9f955/platform-2019.3.22227.6f9f955.zip)	
+1. Download and install mps 2020.3 from [here](https://www.jetbrains.com/mps/download/previous.html)
+2. Download the [mbeddr platform distribution plugins zip](https://projects.itemis.de/nexus/content/repositories/mbeddr/com/mbeddr/platform/2020.3.22810.b4ed033/platform-2020.3.22810.b4ed033.zip)	
 3. Extract the files and folders from the com.mbeddr.platform directory in mbeddr platform-distribution.zip file to the plugins folder in your mps installation.
-   - On linux  (`~/.MPS2019.3/config/plugins`)
-   - On macos  (`~/Library/Application Support/IntelliJIDEA60/`)
-   - On windows  (`C:\Users\%USER%\.MPS2019.3\config\plugins`)
-4. Extract the Flint plugin from Flint.zip to the plugins folder in your mps installation.
+   - On linux  (`~/.MPS2020.3/config/plugins`)
+   - On macos  (`~/Library/Application Support/MPS2020.3/` or `$MPS_HOME/plugins`)
+   - On windows  (`C:\Users\%USER%\.MPS2020.3\config\plugins`)
+4. To install or update your flint plugin follow [this guide](docs/PLUGIN_UPDATE_GUIDE.md). 
 
 ## Using Flint-mps
 A user guide is available [here](docs/USER_GUIDE.md)

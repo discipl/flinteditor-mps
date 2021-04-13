@@ -206,6 +206,29 @@ To run the FlintModelRunner.
 ![Create actor](images/actor.png)
 1. Under facts: you specify the facts that apply to this actor.
 
+
+## Law Texts
+You can import a law text to simplify making flint models.
+
+### Importing
+To import a law text:
+1. `Right Click` the model and create a new `LawSource`.     
+![Create Law Source](images/createlawsource.png)
+2. Input the BWB code for the law text you wish to import.   
+![Enter BWB Code](images/enterbwb.png)
+3. Click the `Refresh` button. The name of the law text and the available versions will be loaded in.
+![Refresh BWB Code](images/loadversions.png)
+4. You can navigate to one of the version with `Ctrl+Click`.
+![Navigate to version](images/aversion.png)
+5. Hit the `Refresh` button to load in the articles or hit the `FlintFiller` button to run the flint filler for this version.
+    - You can navigate to a article with `Ctrl+Click`.
+    
+### Create Act From Law Text
+To create an act from law text:
+1. Select the text that your act is in.
+2. Hit `Alt+Enter` and select `Create Act from Selected Text`
+![Create Act from Text](images/createactfromtext.png)
+
 ## Useful Shortcuts, Tips And Tricks
 - `Ctrl+B` or `Ctrl+Click` will take you to the source of a reference.
 - `Ctrl+F9` will rebuild the current solution.

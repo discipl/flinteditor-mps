@@ -17,7 +17,7 @@ import org.koin.dsl.module
 
 @Suppress("EXPERIMENTAL_API_USAGE", "EXPERIMENTAL_OVERRIDE")
 object TestSourceLoader : KoinComponent {
-    private const val fakeHttpClient = false
+    private const val fakeHttpClient = true
     private val koinApp = startKoin {
         modules(serviceModule)
         if (fakeHttpClient) {
