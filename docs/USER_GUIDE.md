@@ -221,7 +221,7 @@ To import a law text:
 4. You can navigate to one of the version with `Ctrl+Click`.
 ![Navigate to version](images/aversion.png)
 5. Hit the `Refresh` button to load in the articles or hit the `FlintFiller` button to run the flint filler for this version.
-    - You can navigate to a article with `Ctrl+Click`.
+    - You can navigate to an article with `Ctrl+Click`.
     
 ### Create Act From Law Text
 To create an act from law text:

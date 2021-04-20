@@ -13,6 +13,7 @@ buildscript {
 plugins {
     id "com.github.node-gradle.node" version "2.2.3"
     id "java"
+    id "net.ossindex.audit" version "0.4.11"
 }
 
 group 'org.discipl'
@@ -38,7 +39,7 @@ ext {
 
     javafx_version = "14"
     mbeddr_version = "2020.3.+"
-    mps_version = "2020.3.1"
+    mps_version = "2020.3.3"
     node_version = "13.6.0"
     npm_version = "6.13.4"
     koin_version = "2.2.2"
@@ -84,7 +85,7 @@ dependencies {
 
     artifact "com.mbeddr:platform:$mbeddr_version"
     mps("com.jetbrains:mps:$mps_version")
-    antLib("org.apache.ant:ant-junit:1.10.1")
+    antLib("org.apache.ant:ant-junit:1.10.10")
 
     mpsGenLib "org.openjfx:javafx-base:$javafx_version:$current_platform"
     mpsGenLib "org.openjfx:javafx-controls:$javafx_version:$current_platform"
@@ -313,6 +314,8 @@ task mpsTest(type: de.itemis.mps.gradle.RunAntScript, dependsOn: [buildFlintTest
     finalizedBy("htmlReport")
 }
 
+test.dependsOn("audit")
+
 task collectXmlReports() {
     doLast {
         delete(reportsDir)
@@ -340,16 +343,15 @@ def downloadFillerFile(name) {
     if (f.exists()) {
         f.delete()
     }
-    new URL("https://github.com/discipl/flintfiller/releases/download/${flint_filler_release_version}/${name}").withInputStream{ i -> f.withOutputStream{ it << i }}
+    new URL("https://github.com/discipl/flintfiller/releases/download/${flint_filler_release_version}/${name}").withInputStream { i -> f.withOutputStream { it << i } }
     return f
 }
 
 
 task fetchFlintFillerExecutables() {
     doLast {
-        def files = []
-        files.add(downloadFillerFile("flintfiller-linux"))
-        files.add(downloadFillerFile("flintfiller-macos"))
-        files.add(downloadFillerFile("flintfiller-windows.exe"))
+        downloadFillerFile("flintfiller-linux")
+        downloadFillerFile("flintfiller-macos")
+        downloadFillerFile("flintfiller-windows.exe")
     }
 }
