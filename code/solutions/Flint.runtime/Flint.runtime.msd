@@ -55,7 +55,6 @@
     <stubModelEntry path="${module}/libs/commons-compress.jar" />
     <stubModelEntry path="${module}/libs/jackson-core.jar" />
     <stubModelEntry path="${module}/libs/jackson-databind.jar" />
-    <stubModelEntry path="${module}/libs/junit.jar" />
     <stubModelEntry path="${module}/libs/jena-base.jar" />
     <stubModelEntry path="${module}/libs/kotlin-stdlib-jdk8.jar" />
     <stubModelEntry path="${module}/libs/FlintParser.jar" />
