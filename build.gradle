@@ -34,12 +34,13 @@ ext {
     current_platform = currentPlatform()
     generateTask = null
 
+    testFileName = "TEST-jetbrains.mps.testbench.junit.suites.AntModuleTestSuite0-execution.xml"
     flint_filler_release_version = "v0.0.4"
     flint_filler_executables_dir = new File(generatedResourcesDir, "flintfiller")
 
     javafx_version = "14"
     mbeddr_version = "2020.3.+"
-    mps_version = "2020.3.3"
+    mps_version = "2020.3.1"
     node_version = "13.6.0"
     npm_version = "6.13.4"
     koin_version = "2.2.2"
@@ -287,11 +288,6 @@ task buildFlint(type: de.itemis.mps.gradle.RunAntScript, dependsOn: generateScri
     targets = ["generate", "build"]
 }
 
-task buildFlintTestLanguage(type: de.itemis.mps.gradle.RunAntScript, dependsOn: buildFlint) {
-    script = file("$codeDir/build-Flint-Test-Language.xml")
-    targets = ["generate", "build"]
-}
-
 task buildFlintIde(type: de.itemis.mps.gradle.RunAntScript, dependsOn: buildFlint) {
     script = file("$codeDir/build-IdeDistribution.xml")
     targets = ["build"]
@@ -307,8 +303,8 @@ task addFxLibs(type: Copy) {
     into "${mpsDir}/lib"
 }
 
-task mpsTest(type: de.itemis.mps.gradle.RunAntScript, dependsOn: [buildFlintTestLanguage]) {
-    script = file("$codeDir/build-testFlint.xml")
+task mpsTest(type: de.itemis.mps.gradle.RunAntScript, dependsOn: generateScripts) {
+    script = file("$codeDir/build-Flint.xml")
     targets = ["generate", "test"]
     test.finalizedBy("mpsTest")
     finalizedBy("htmlReport")
@@ -324,11 +320,11 @@ task collectXmlReports() {
                 new File(project("code:java:FlintParser").buildDir, "test-results")
             }
             from {
-                new File(codeDir, "TEST-jetbrains.mps.testbench.junit.suites.AntModuleTestSuite0-Tests.xml")
+                new File(codeDir, "$testFileName")
             }
             into "$reportsDir/sources"
         }
-        delete(new File(codeDir, "TEST-jetbrains.mps.testbench.junit.suites.AntModuleTestSuite0-Tests.xml"))
+        delete(new File(codeDir, "$testFileName"))
     }
 }
 
