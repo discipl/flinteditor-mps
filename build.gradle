@@ -13,6 +13,7 @@ buildscript {
 plugins {
     id "com.github.node-gradle.node" version "2.2.3"
     id "java"
+    id "download-jbr"
     id "net.ossindex.audit" version "0.4.11"
 }
 
@@ -64,6 +65,11 @@ repositories {
     }
 }
 
+downloadJbr {
+    jbrVersion = '11_0_6-b520.66'
+    downloadDir = mpsDir
+}
+
 dependencies {
     platforms.each { platform ->
         mpsplatformlib "org.openjfx:javafx-base:$javafx_version:$platform"
@@ -96,6 +102,9 @@ dependencies {
     mpsGenLib "org.openjfx:javafx-web:$javafx_version:$current_platform"
 }
 
+if (!OperatingSystem.current().isMacOsX()) {
+    ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = new File(mpsDir, "jbr/bin/java")
+}
 ext["itemis.mps.gradle.ant.defaultScriptArgs"] = ["-Dmps_home=$mpsDir.path".toString()]
 ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = project.configurations.antLib.fileCollection({ true })
 
@@ -241,6 +250,7 @@ task resolveMps(type: Copy) {
     into mpsDir
     finalizedBy(copyMbeddrPlugins)
     finalizedBy("addFxLibs")
+    finalizedBy("downloadJbr")
 }
 
 task cleanProject(type: Delete) {

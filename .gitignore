@@ -101,3 +101,5 @@ node_modules
 .scripts/
 code/build-*.xml
 **.iml
+tests/reports
+.dockerignore
