@@ -39,7 +39,7 @@
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
-    <module reference="69940819-10c1-4a38-ac44-700b63f993ba(Flint)" version="0" />
+    <module reference="69940819-10c1-4a38-ac44-700b63f993ba(Flint)" version="1" />
     <module reference="fa1d9284-6f2c-4199-ba86-19ab8b12cf3e(Flint.plugin)" version="0" />
     <module reference="acf1b507-e791-4de3-b55f-a3880c36d5bb(Flint.runtime)" version="0" />
     <module reference="b39b469c-da14-4677-a46e-17a70ccf0be8(Flint.test)" version="0" />

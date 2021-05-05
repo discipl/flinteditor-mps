@@ -856,5 +856,9 @@
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
   </node>
+  <node concept="cog_a" id="sn6jp7g0cj">
+    <property role="TrG5h" value="Artikel 1 (begripsbepalingen)" />
+    <property role="3GE5qa" value="sources" />
+  </node>
 </model>
 

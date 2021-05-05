@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="Flint" uuid="69940819-10c1-4a38-ac44-700b63f993ba" languageVersion="5" moduleVersion="0">
+<language namespace="Flint" uuid="69940819-10c1-4a38-ac44-700b63f993ba" languageVersion="5" moduleVersion="1">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -52,7 +52,7 @@
       </languageVersions>
       <dependencyVersions>
         <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
-        <module reference="69940819-10c1-4a38-ac44-700b63f993ba(Flint)" version="0" />
+        <module reference="69940819-10c1-4a38-ac44-700b63f993ba(Flint)" version="1" />
         <module reference="9e73e973-9d43-4fba-a104-a9a747e45dcf(Flint#01)" version="0" />
         <module reference="acf1b507-e791-4de3-b55f-a3880c36d5bb(Flint.runtime)" version="0" />
         <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
@@ -93,6 +93,7 @@
     <dependency reexport="false">742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)</dependency>
     <dependency reexport="false">498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)</dependency>
     <dependency reexport="false">dc038ceb-b7ea-4fea-ac12-55f7400e97ba(de.slisson.mps.editor.multiline.runtime)</dependency>
+    <dependency reexport="false">b0f8641f-bd77-4421-8425-30d9088a82f7(org.apache.commons)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:c9991bd9-1f60-4f96-8e56-efd35c072829:ParameterizedRangeSelection" version="0" />
@@ -126,6 +127,7 @@
     <language slang="l:d7a92d38-f7db-40d0-8431-763b0c3c9f20:jetbrains.mps.lang.intentions" version="1" />
     <language slang="l:ad93155d-79b2-4759-b10c-55123e763903:jetbrains.mps.lang.messages" version="0" />
     <language slang="l:90746344-04fd-4286-97d5-b46ae6a81709:jetbrains.mps.lang.migration" version="2" />
+    <language slang="l:9882f4ad-1955-46fe-8269-94189e5dbbf2:jetbrains.mps.lang.migration.util" version="0" />
     <language slang="l:446c26eb-2b7b-4bf0-9b35-f83fa582753e:jetbrains.mps.lang.modelapi" version="0" />
     <language slang="l:d4615e3b-d671-4ba9-af01-2b78369b0ba7:jetbrains.mps.lang.pattern" version="2" />
     <language slang="l:3a13115c-633c-4c5c-bbcc-75c4219e9555:jetbrains.mps.lang.quotation" version="5" />
@@ -143,7 +145,7 @@
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
-    <module reference="69940819-10c1-4a38-ac44-700b63f993ba(Flint)" version="0" />
+    <module reference="69940819-10c1-4a38-ac44-700b63f993ba(Flint)" version="1" />
     <module reference="fa1d9284-6f2c-4199-ba86-19ab8b12cf3e(Flint.plugin)" version="0" />
     <module reference="acf1b507-e791-4de3-b55f-a3880c36d5bb(Flint.runtime)" version="0" />
     <module reference="8476db96-31ef-4e8e-b37e-e1fba8098215(FlintSource)" version="0" />
@@ -182,6 +184,7 @@
     <module reference="8585453e-6bfb-4d80-98de-b16074f1d86c(jetbrains.mps.lang.test)" version="0" />
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
     <module reference="586514eb-abcd-4cca-a904-f11aa99c7187(nl.quintor.SeparatorCellList)" version="0" />
+    <module reference="b0f8641f-bd77-4421-8425-30d9088a82f7(org.apache.commons)" version="0" />
   </dependencyVersions>
   <runtime>
     <dependency reexport="false">acf1b507-e791-4de3-b55f-a3880c36d5bb(Flint.runtime)</dependency>
