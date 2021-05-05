@@ -600,7 +600,7 @@
     <property role="cog$m" value="31-03-2020" />
   </node>
   <node concept="cu0$f" id="lbB2sfKdN3">
-    <property role="TrG5h" value="n Nederland gevestigde onderneming als bedoeld in , niet zijnde een overheidsbedrijf" />
+    <property role="TrG5h" value="in Nederland gevestigde onderneming als bedoeld in , niet zijnde een overheidsbedrijf" />
     <property role="3GE5qa" value="facts" />
     <node concept="cog_b" id="lbB2sfKdN4" role="2pmM46">
       <ref role="cog$q" node="lbB2sfKdMW" resolve="art. 1, " />
