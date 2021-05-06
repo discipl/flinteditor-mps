@@ -9,6 +9,7 @@
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
     <import index="lw3y" ref="r:e4433e26-c866-4b12-8f3e-3810d1e6dcea(ParameterizedRangeSelection.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -160,6 +161,15 @@
       <node concept="2iRkQZ" id="i38NZ2a" role="2iSdaV" />
       <node concept="PMmxH" id="i38NUmI" role="3EZMnx">
         <ref role="PMmxG" to="tpen:hqLiD8Q" resolve="ConceptFunction_Component" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2_LEkEjtrlN">
+    <ref role="1XX52x" to="lw3y:2_LEkEjtrlF" resolve="ParameterizedIntentionParameter" />
+    <node concept="3EZMnI" id="2_LEkEjtrlR" role="2wV5jI">
+      <node concept="2iRfu4" id="2_LEkEjtrlS" role="2iSdaV" />
+      <node concept="PMmxH" id="2_LEkEjtrlP" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       </node>
     </node>
   </node>

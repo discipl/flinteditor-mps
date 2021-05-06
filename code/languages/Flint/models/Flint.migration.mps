@@ -6,27 +6,14 @@
     <use id="c7d5b9dd-a05f-4be2-bc73-f2e16994cc67" name="jetbrains.mps.baseLanguage.lightweightdsl" version="1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
-    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
-    <use id="9882f4ad-1955-46fe-8269-94189e5dbbf2" name="jetbrains.mps.lang.migration.util" version="0" />
     <devkit ref="2787ae0c-1f54-4fbf-b0b7-caf2b5beecbc(jetbrains.mps.devkit.aspect.migration)" />
   </languages>
   <imports>
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="slm6" ref="90746344-04fd-4286-97d5-b46ae6a81709/r:52a3d974-bd4f-4651-ba6e-a2de5e336d95(jetbrains.mps.lang.migration/jetbrains.mps.lang.migration.methods)" />
-    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="lnwe" ref="r:d268844f-2c2c-4250-a969-3a23a8a2bb02(Flint.structure)" />
     <import index="tp5g" ref="r:00000000-0000-4000-0000-011c89590388(jetbrains.mps.lang.test.structure)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <import index="32gr" ref="86441d7a-e194-42da-81a5-2161ec62a379/java:jetbrains.mps.ide.findusages.view.optionseditor.options(MPS.Workbench/)" />
-    <import index="9erk" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.ide.findusages.model(MPS.Core/)" />
-    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
-    <import index="mte5" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.ide.findusages.model.scopes(MPS.Core/)" />
-    <import index="82uw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.function(JDK/)" />
-    <import index="1ctc" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.stream(JDK/)" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
-    <import index="dush" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.persistence(MPS.OpenAPI/)" />
-    <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="3lmi" ref="r:a950900f-47ea-4287-adc8-88f839ab614a(Flint.behavior)" />
     <import index="87nw" ref="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" />
     <import index="tbr6" ref="r:6a005c26-87c0-43c4-8cf3-49ffba1099df(de.slisson.mps.richtext.behavior)" implicit="true" />
@@ -480,7 +467,7 @@
                         </node>
                         <node concept="2YIFZM" id="sn6jp7iZUe" role="3uHU7B">
                           <ref role="37wK5l" to="3lmi:5DWs9m5fov9" resolve="requiresMigration" />
-                          <ref role="1Pybhc" to="3lmi:5DWs9m5fnLD" resolve="SeperatedLayoutTools" />
+                          <ref role="1Pybhc" to="3lmi:5DWs9m5fnLD" resolve="SeperatedLayoutMigrationUtils" />
                           <node concept="37vLTw" id="5DWs9m4P_Fr" role="37wK5m">
                             <ref role="3cqZAo" node="qfyMBWOdJL" resolve="it" />
                           </node>
@@ -507,7 +494,7 @@
                       </node>
                       <node concept="2YIFZM" id="sn6jp7iZUf" role="33vP2m">
                         <ref role="37wK5l" to="3lmi:5DWs9m5fovC" resolve="getModel" />
-                        <ref role="1Pybhc" to="3lmi:5DWs9m5fnLD" resolve="SeperatedLayoutTools" />
+                        <ref role="1Pybhc" to="3lmi:5DWs9m5fnLD" resolve="SeperatedLayoutMigrationUtils" />
                         <node concept="37vLTw" id="5DWs9m4R_Ni" role="37wK5m">
                           <ref role="3cqZAo" node="LTOSk10_UI" resolve="it" />
                         </node>
@@ -530,7 +517,7 @@
                             <node concept="3clFbF" id="5DWs9m4SWWP" role="3cqZAp">
                               <node concept="2YIFZM" id="sn6jp7iZUk" role="3clFbG">
                                 <ref role="37wK5l" to="3lmi:5DWs9m5foyR" resolve="copySource" />
-                                <ref role="1Pybhc" to="3lmi:5DWs9m5fnLD" resolve="SeperatedLayoutTools" />
+                                <ref role="1Pybhc" to="3lmi:5DWs9m5fnLD" resolve="SeperatedLayoutMigrationUtils" />
                                 <node concept="37vLTw" id="5DWs9m4SY_L" role="37wK5m">
                                   <ref role="3cqZAo" node="5DWs9m4SWWT" resolve="it" />
                                 </node>
@@ -564,7 +551,7 @@
                             <node concept="3clFbF" id="5DWs9m4SVqT" role="3cqZAp">
                               <node concept="2YIFZM" id="sn6jp7iZUh" role="3clFbG">
                                 <ref role="37wK5l" to="3lmi:5DWs9m5foxq" resolve="copyFact" />
-                                <ref role="1Pybhc" to="3lmi:5DWs9m5fnLD" resolve="SeperatedLayoutTools" />
+                                <ref role="1Pybhc" to="3lmi:5DWs9m5fnLD" resolve="SeperatedLayoutMigrationUtils" />
                                 <node concept="37vLTw" id="5DWs9m4SWvp" role="37wK5m">
                                   <ref role="3cqZAo" node="5DWs9m4SVqX" resolve="it" />
                                 </node>
@@ -598,7 +585,7 @@
                             <node concept="3clFbF" id="5DWs9m4SR8P" role="3cqZAp">
                               <node concept="2YIFZM" id="sn6jp7iZUi" role="3clFbG">
                                 <ref role="37wK5l" to="3lmi:5DWs9m5foy2" resolve="copyAct" />
-                                <ref role="1Pybhc" to="3lmi:5DWs9m5fnLD" resolve="SeperatedLayoutTools" />
+                                <ref role="1Pybhc" to="3lmi:5DWs9m5fnLD" resolve="SeperatedLayoutMigrationUtils" />
                                 <node concept="37vLTw" id="5DWs9m4SRIr" role="37wK5m">
                                   <ref role="3cqZAo" node="5DWs9m4SQLY" resolve="it" />
                                 </node>
@@ -632,7 +619,7 @@
                             <node concept="3clFbF" id="5DWs9m4ST$P" role="3cqZAp">
                               <node concept="2YIFZM" id="sn6jp7iZUj" role="3clFbG">
                                 <ref role="37wK5l" to="3lmi:5DWs9m5foys" resolve="copyDuty" />
-                                <ref role="1Pybhc" to="3lmi:5DWs9m5fnLD" resolve="SeperatedLayoutTools" />
+                                <ref role="1Pybhc" to="3lmi:5DWs9m5fnLD" resolve="SeperatedLayoutMigrationUtils" />
                                 <node concept="37vLTw" id="5DWs9m4SV8r" role="37wK5m">
                                   <ref role="3cqZAo" node="5DWs9m4ST$T" resolve="it" />
                                 </node>
@@ -653,7 +640,7 @@
                   <node concept="3clFbF" id="5DWs9m4SZ_n" role="3cqZAp">
                     <node concept="2YIFZM" id="sn6jp7iZUg" role="3clFbG">
                       <ref role="37wK5l" to="3lmi:5DWs9m5fowS" resolve="copyFlintModel" />
-                      <ref role="1Pybhc" to="3lmi:5DWs9m5fnLD" resolve="SeperatedLayoutTools" />
+                      <ref role="1Pybhc" to="3lmi:5DWs9m5fnLD" resolve="SeperatedLayoutMigrationUtils" />
                       <node concept="37vLTw" id="5DWs9m4T0up" role="37wK5m">
                         <ref role="3cqZAo" node="LTOSk10_UI" resolve="it" />
                       </node>

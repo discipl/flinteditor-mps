@@ -27,8 +27,6 @@
     <import index="k3nr" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.ide.editor(MPS.Editor/)" />
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <import index="lwvz" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.selection(MPS.Editor/)" />
     <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
     <import index="2wn0" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.platform.dialogs.choosers(MPS.Platform/)" />
     <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
@@ -50,6 +48,7 @@
       </concept>
       <concept id="1995442048447534620" name="ParameterizedRangeSelection.structure.ParamSelectionDescription" flags="ig" index="2o9IR$" />
       <concept id="1995442048447580097" name="ParameterizedRangeSelection.structure.ParamSelectionExecute" flags="ig" index="2oarKT" />
+      <concept id="2986354165689988459" name="ParameterizedRangeSelection.structure.ParameterizedIntentionParameter" flags="ng" index="2U11Kx" />
     </language>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
       <concept id="1194033889146" name="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_editorContext" flags="nn" index="1XNTG" />
@@ -1904,7 +1903,7 @@
               <property role="Xl_RC" value="Tag as " />
             </node>
             <node concept="2OqwBi" id="1ILeZy3SryD" role="3uHU7w">
-              <node concept="38Zlrr" id="7B7tObTQkvw" role="2Oq$k0" />
+              <node concept="2U11Kx" id="2_LEkEjtMFG" role="2Oq$k0" />
               <node concept="liA8E" id="1ILeZy3SrCg" role="2OqNvi">
                 <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getPresentation()" resolve="getPresentation" />
               </node>
@@ -2120,7 +2119,7 @@
                       <node concept="37vLTw" id="1ILeZy5x4Xi" role="37wK5m">
                         <ref role="3cqZAo" node="1ILeZy5vxy2" resolve="it" />
                       </node>
-                      <node concept="38Zlrr" id="1ILeZy5LNfe" role="37wK5m" />
+                      <node concept="2U11Kx" id="2_LEkEjuMLA" role="37wK5m" />
                     </node>
                   </node>
                 </node>
@@ -2226,7 +2225,7 @@
             <node concept="2YIFZM" id="183_U33GcSH" role="37wK5m">
               <ref role="37wK5l" to="3lmi:7B7tObSmuBZ" resolve="forRole" />
               <ref role="1Pybhc" to="3lmi:7B7tObSm6q6" resolve="EnrichedRoleEnum" />
-              <node concept="38Zlrr" id="183_U33GcVs" role="37wK5m" />
+              <node concept="2U11Kx" id="2_LEkEjuMR7" role="37wK5m" />
             </node>
             <node concept="37vLTw" id="4bAnuBlE6e_" role="37wK5m">
               <ref role="3cqZAo" node="4bAnuBlDNXF" resolve="flintModel" />
@@ -2700,7 +2699,7 @@
                 <property role="Xl_RC" value="Create " />
               </node>
               <node concept="2OqwBi" id="sn6jp7erl3" role="3uHU7w">
-                <node concept="38Zlrr" id="sn6jp7erd1" role="2Oq$k0" />
+                <node concept="2U11Kx" id="2_LEkEjt$LK" role="2Oq$k0" />
                 <node concept="liA8E" id="sn6jp7erpJ" role="2OqNvi">
                   <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
                 </node>
@@ -2722,7 +2721,7 @@
               <ref role="37wK5l" to="3lmi:sn6jp72mGm" resolve="createNodeFromSelection" />
               <ref role="1Pybhc" to="3lmi:1BkZCJkeUDu" resolve="NodeFromArticleUtils" />
               <node concept="71T_Y" id="sn6jp7euiG" role="37wK5m" />
-              <node concept="38Zlrr" id="sn6jp7eujZ" role="37wK5m" />
+              <node concept="2U11Kx" id="2_LEkEjuBgB" role="37wK5m" />
             </node>
           </node>
         </node>

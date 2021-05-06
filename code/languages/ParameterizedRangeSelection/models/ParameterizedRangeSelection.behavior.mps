@@ -9,7 +9,6 @@
   <imports>
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="tp3j" ref="r:00000000-0000-4000-0000-011c89590353(jetbrains.mps.lang.intentions.structure)" />
     <import index="lw3y" ref="r:e4433e26-c866-4b12-8f3e-3810d1e6dcea(ParameterizedRangeSelection.structure)" implicit="true" />
   </imports>
   <registry>
@@ -142,14 +141,14 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="1ILeZy3A1c8" role="3cqZAp">
-          <node concept="2OqwBi" id="2S9wPwo8Xmu" role="3clFbG">
-            <node concept="TSZUe" id="2S9wPwo8Xmw" role="2OqNvi">
-              <node concept="35c_gC" id="2S9wPwo8Xmx" role="25WWJ7">
-                <ref role="35c_gD" to="tp3j:i38ZlvV" resolve="IntentionParameter" />
+        <node concept="3clFbF" id="2_LEkEjtrpQ" role="3cqZAp">
+          <node concept="2OqwBi" id="2_LEkEjtrpR" role="3clFbG">
+            <node concept="TSZUe" id="2_LEkEjtrpS" role="2OqNvi">
+              <node concept="35c_gC" id="2_LEkEjtrpT" role="25WWJ7">
+                <ref role="35c_gD" to="lw3y:2_LEkEjtrlF" resolve="ParameterizedIntentionParameter" />
               </node>
             </node>
-            <node concept="37vLTw" id="1ILeZy3A2eE" role="2Oq$k0">
+            <node concept="37vLTw" id="2_LEkEjtrpU" role="2Oq$k0">
               <ref role="3cqZAo" node="1ILeZy3_Z8f" resolve="parameterConcepts" />
             </node>
           </node>
@@ -194,7 +193,7 @@
           <node concept="2OqwBi" id="1ILeZy3A8Dt" role="3clFbG">
             <node concept="TSZUe" id="1ILeZy3A8Du" role="2OqNvi">
               <node concept="35c_gC" id="1ILeZy3A8Dv" role="25WWJ7">
-                <ref role="35c_gD" to="tp3j:i38ZlvV" resolve="IntentionParameter" />
+                <ref role="35c_gD" to="lw3y:2_LEkEjtrlF" resolve="ParameterizedIntentionParameter" />
               </node>
             </node>
             <node concept="37vLTw" id="1ILeZy3A8Dw" role="2Oq$k0">

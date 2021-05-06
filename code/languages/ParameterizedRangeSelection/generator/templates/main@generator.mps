@@ -11,7 +11,6 @@
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="hceu" ref="r:69b3ca2b-c749-4a2d-9d65-e52a0ef5bb3a(de.itemis.mps.selection.runtime.intentions)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <import index="tp3j" ref="r:00000000-0000-4000-0000-011c89590353(jetbrains.mps.lang.intentions.structure)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -292,7 +291,7 @@
   <node concept="bUwia" id="1ILeZy3_h2R">
     <property role="TrG5h" value="main" />
     <node concept="3aamgX" id="i3e4tD2" role="3acgRq">
-      <ref role="30HIoZ" to="tp3j:i38ZlvV" resolve="IntentionParameter" />
+      <ref role="30HIoZ" to="lw3y:2_LEkEjtrlF" resolve="ParameterizedIntentionParameter" />
       <node concept="1Koe21" id="4$eSjNy2TCJ" role="1lVwrX">
         <node concept="9aQIb" id="4$eSjNy2TCP" role="1Koe22">
           <node concept="3clFbS" id="4$eSjNy2TCR" role="9aQI4">
@@ -331,7 +330,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="11ZB_RZa9ND" role="3acgRq">
-      <ref role="30HIoZ" to="tp3j:i38ZlvV" resolve="IntentionParameter" />
+      <ref role="30HIoZ" to="lw3y:2_LEkEjtrlF" resolve="ParameterizedIntentionParameter" />
       <node concept="1Koe21" id="11ZB_RZa9NE" role="1lVwrX">
         <node concept="9aQIb" id="11ZB_RZa9NF" role="1Koe22">
           <node concept="3clFbS" id="11ZB_RZa9NG" role="9aQI4">
