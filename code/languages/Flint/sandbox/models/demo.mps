@@ -15,6 +15,11 @@
       </concept>
     </language>
     <language id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint">
+      <concept id="5309275763118590480" name="Flint.structure.TaggedWord" flags="ng" index="aU1KX">
+        <property id="5309275763120703337" name="role" index="aMd54" />
+        <property id="5309275763119607854" name="escapedValue" index="aYSo3" />
+        <child id="2986354165693918739" name="roles" index="2UK0tp" />
+      </concept>
       <concept id="6868897032739893314" name="Flint.structure.IExplainable" flags="ng" index="cog$R">
         <property id="778381075952164307" name="explanation" index="3ANC2_" />
       </concept>
@@ -34,6 +39,7 @@
         <property id="6366956576594804508" name="action" index="207Gpp" />
         <child id="9029403747833797790" name="preconditions" index="mu3T0" />
         <child id="6205025464253204623" name="object" index="3H36l7" />
+        <child id="6205025464253204638" name="recipient" index="3H36lm" />
         <child id="6205025464253204596" name="actor" index="3H36mW" />
       </concept>
       <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
@@ -53,6 +59,9 @@
       </concept>
       <concept id="1576888483996689830" name="Flint.structure.LawSource" flags="ng" index="2ATdSu">
         <property id="1576888484001186753" name="bwbId" index="2AErxT" />
+      </concept>
+      <concept id="2986354165693918736" name="Flint.structure.SRole" flags="ng" index="2UK0tq">
+        <property id="2986354165693918737" name="role" index="2UK0tr" />
       </concept>
       <concept id="4808965957220776534" name="Flint.structure.LITERAL" flags="ng" index="1zEXHp">
         <child id="4808965957220776594" name="operand" index="1zEXIt" />
@@ -859,6 +868,71 @@
   <node concept="cog_a" id="sn6jp7g0cj">
     <property role="TrG5h" value="Artikel 1 (begripsbepalingen)" />
     <property role="3GE5qa" value="sources" />
+  </node>
+  <node concept="mu5$5" id="2_LEkEjGqRA">
+    <property role="3GE5qa" value="acts" />
+    <property role="207Gpp" value="verstrekken" />
+    <property role="TrG5h" value="Test 321" />
+    <node concept="1FQA6B" id="2_LEkEjGqRB" role="3H36mW">
+      <ref role="1FQA6$" node="2_LEkEjNvk8" resolve="minister" />
+    </node>
+    <node concept="1FQA6B" id="2_LEkEjGqRC" role="3H36l7" />
+    <node concept="1FQA6B" id="2_LEkEjGqRD" role="3H36lm" />
+    <node concept="cog_b" id="2_LEkEjGqRE" role="2pmM46">
+      <ref role="cog$q" node="sn6jp7g0cj" resolve="Artikel 1 (begripsbepalingen)" />
+      <node concept="19SGf9" id="2_LEkEjGqRF" role="aVT4J">
+        <node concept="19SUe$" id="2_LEkEkpW5s" role="19SJt6" />
+        <node concept="aU1KX" id="2_LEkEkpW5q" role="19SJt6">
+          <property role="aYSo3" value="De" />
+          <node concept="2UK0tq" id="2_LEkEkpW5r" role="2UK0tp">
+            <property role="2UK0tr" value="4AIlyP2wQAL/Actor" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="2_LEkEkpW5p" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="aU1KX" id="2_LEkEjGqRP" role="19SJt6">
+          <property role="aYSo3" value="minister" />
+          <property role="aMd54" value="4AIlyP2wQAL/Actor" />
+          <node concept="2UK0tq" id="2_LEkEjNvk6" role="2UK0tp">
+            <property role="2UK0tr" value="4AIlyP2wQAL/Actor" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="2_LEkEjGqRO" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="aU1KX" id="2_LEkEjGqRJ" role="19SJt6">
+          <property role="aYSo3" value="verstrekt" />
+          <property role="aMd54" value="4AIlyP2wQAP/Action" />
+          <node concept="2UK0tq" id="2_LEkEk3IIS" role="2UK0tp">
+            <property role="2UK0tr" value="4AIlyP2wQAP/Action" />
+          </node>
+          <node concept="2UK0tq" id="2_LEkEkaEy2" role="2UK0tp">
+            <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="2_LEkEjGqRI" role="19SJt6">
+          <property role="19SUeA" value=" op " />
+        </node>
+        <node concept="aU1KX" id="2_LEkEk3IIX" role="19SJt6">
+          <property role="aYSo3" value="aanvraag" />
+          <node concept="2UK0tq" id="2_LEkEk3IIY" role="2UK0tp">
+            <property role="2UK0tr" value="4AIlyP2wQBp/Object" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="2_LEkEk3IIW" role="19SJt6">
+          <property role="19SUeA" value=" een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020:" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="cu0$f" id="2_LEkEjGqRU">
+    <property role="TrG5h" value="De minister" />
+    <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="cu0$f" id="2_LEkEjNvk8">
+    <property role="TrG5h" value="minister" />
+    <property role="3GE5qa" value="facts" />
   </node>
 </model>
 
