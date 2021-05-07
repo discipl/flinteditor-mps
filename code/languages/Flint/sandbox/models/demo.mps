@@ -876,29 +876,30 @@
     <node concept="1FQA6B" id="2_LEkEjGqRB" role="3H36mW">
       <ref role="1FQA6$" node="2_LEkEjNvk8" resolve="minister" />
     </node>
-    <node concept="1FQA6B" id="2_LEkEjGqRC" role="3H36l7" />
+    <node concept="1FQA6B" id="2_LEkEjGqRC" role="3H36l7">
+      <ref role="1FQA6$" node="76mcYUAtkga" resolve="aanvraag" />
+    </node>
     <node concept="1FQA6B" id="2_LEkEjGqRD" role="3H36lm" />
     <node concept="cog_b" id="2_LEkEjGqRE" role="2pmM46">
       <ref role="cog$q" node="sn6jp7g0cj" resolve="Artikel 1 (begripsbepalingen)" />
       <node concept="19SGf9" id="2_LEkEjGqRF" role="aVT4J">
-        <node concept="19SUe$" id="2_LEkEkpW5s" role="19SJt6" />
-        <node concept="aU1KX" id="2_LEkEkpW5q" role="19SJt6">
+        <node concept="19SUe$" id="5ku_jRT7xzg" role="19SJt6" />
+        <node concept="aU1KX" id="5ku_jRT7xze" role="19SJt6">
           <property role="aYSo3" value="De" />
-          <node concept="2UK0tq" id="2_LEkEkpW5r" role="2UK0tp">
-            <property role="2UK0tr" value="4AIlyP2wQAL/Actor" />
+          <node concept="2UK0tq" id="5ku_jRT7xzf" role="2UK0tp">
+            <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
           </node>
         </node>
-        <node concept="19SUe$" id="2_LEkEkpW5p" role="19SJt6">
+        <node concept="19SUe$" id="5ku_jRT7xzd" role="19SJt6">
           <property role="19SUeA" value=" " />
         </node>
-        <node concept="aU1KX" id="2_LEkEjGqRP" role="19SJt6">
+        <node concept="aU1KX" id="5ku_jRT7xzb" role="19SJt6">
           <property role="aYSo3" value="minister" />
-          <property role="aMd54" value="4AIlyP2wQAL/Actor" />
-          <node concept="2UK0tq" id="2_LEkEjNvk6" role="2UK0tp">
-            <property role="2UK0tr" value="4AIlyP2wQAL/Actor" />
+          <node concept="2UK0tq" id="5ku_jRT7xzc" role="2UK0tp">
+            <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
           </node>
         </node>
-        <node concept="19SUe$" id="2_LEkEjGqRO" role="19SJt6">
+        <node concept="19SUe$" id="5ku_jRT7xza" role="19SJt6">
           <property role="19SUeA" value=" " />
         </node>
         <node concept="aU1KX" id="2_LEkEjGqRJ" role="19SJt6">
@@ -907,21 +908,87 @@
           <node concept="2UK0tq" id="2_LEkEk3IIS" role="2UK0tp">
             <property role="2UK0tr" value="4AIlyP2wQAP/Action" />
           </node>
-          <node concept="2UK0tq" id="2_LEkEkaEy2" role="2UK0tp">
+          <node concept="2UK0tq" id="5ku_jRT7xz8" role="2UK0tp">
             <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
           </node>
         </node>
         <node concept="19SUe$" id="2_LEkEjGqRI" role="19SJt6">
-          <property role="19SUeA" value=" op " />
+          <property role="19SUeA" value=" " />
         </node>
-        <node concept="aU1KX" id="2_LEkEk3IIX" role="19SJt6">
-          <property role="aYSo3" value="aanvraag" />
-          <node concept="2UK0tq" id="2_LEkEk3IIY" role="2UK0tp">
-            <property role="2UK0tr" value="4AIlyP2wQBp/Object" />
+        <node concept="aU1KX" id="5ku_jRT7xz6" role="19SJt6">
+          <property role="aYSo3" value="op" />
+          <node concept="2UK0tq" id="5ku_jRT7xz7" role="2UK0tp">
+            <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
           </node>
         </node>
-        <node concept="19SUe$" id="2_LEkEk3IIW" role="19SJt6">
-          <property role="19SUeA" value=" een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020:" />
+        <node concept="19SUe$" id="5ku_jRT7xz5" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="aU1KX" id="76mcYUAtkg7" role="19SJt6">
+          <property role="aYSo3" value="aanvraag" />
+          <node concept="2UK0tq" id="76mcYUAtkg8" role="2UK0tp">
+            <property role="2UK0tr" value="4AIlyP2wQBp/Object" />
+          </node>
+          <node concept="2UK0tq" id="5ku_jRT7xz3" role="2UK0tp">
+            <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="76mcYUAtkg6" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="aU1KX" id="5ku_jRT7xz1" role="19SJt6">
+          <property role="aYSo3" value="een" />
+          <node concept="2UK0tq" id="5ku_jRT7xz2" role="2UK0tp">
+            <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="5ku_jRT7xz0" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="aU1KX" id="5ku_jRT7xyX" role="19SJt6">
+          <property role="aYSo3" value="tegemoetkoming" />
+          <node concept="2UK0tq" id="5ku_jRT7xyY" role="2UK0tp">
+            <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="5ku_jRT7xyW" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="aU1KX" id="5ku_jRT7xyT" role="19SJt6">
+          <property role="aYSo3" value="aan" />
+          <node concept="2UK0tq" id="5ku_jRT7xyU" role="2UK0tp">
+            <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="5ku_jRT7xyS" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="aU1KX" id="5ku_jRT7xyP" role="19SJt6">
+          <property role="aYSo3" value="een" />
+          <node concept="2UK0tq" id="5ku_jRT7xyQ" role="2UK0tp">
+            <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="5ku_jRT7xyO" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="aU1KX" id="5ku_jRT7xyL" role="19SJt6">
+          <property role="aYSo3" value="gedupeerde" />
+          <node concept="2UK0tq" id="5ku_jRT7xyM" role="2UK0tp">
+            <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="5ku_jRT7xyK" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="aU1KX" id="5ku_jRT7xyH" role="19SJt6">
+          <property role="aYSo3" value="onderneming" />
+          <node concept="2UK0tq" id="5ku_jRT7xyI" role="2UK0tp">
+            <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="5ku_jRT7xyG" role="19SJt6">
+          <property role="19SUeA" value=" die verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020:" />
         </node>
       </node>
     </node>
@@ -932,6 +999,10 @@
   </node>
   <node concept="cu0$f" id="2_LEkEjNvk8">
     <property role="TrG5h" value="minister" />
+    <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="cu0$f" id="76mcYUAtkga">
+    <property role="TrG5h" value="aanvraag" />
     <property role="3GE5qa" value="facts" />
   </node>
 </model>
