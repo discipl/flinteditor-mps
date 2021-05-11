@@ -166,8 +166,15 @@
       <property role="IQ2ns" value="5309275763118294786" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="textParts" />
-      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="87nw:2dWzqxEB$Tx" resolve="Text" />
+      <node concept="asaX9" id="6LSqBjXH9cB" role="lGtFl" />
+    </node>
+    <node concept="1TJgyj" id="6LSqBjXH0hY" role="1TKVEi">
+      <property role="IQ2ns" value="7816114204006679678" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="betterText" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6LSqBjXFI_4" resolve="BetterText" />
     </node>
   </node>
   <node concept="1TIwiD" id="5Xjenljcz0Z">
@@ -881,6 +888,7 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="2_LEkEjGqSg" resolve="SRole" />
     </node>
+    <node concept="asaX9" id="6LSqBjXYGPc" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="1nyeVyNiRPP">
     <property role="EcuMT" value="1576888484001185141" />
@@ -1032,6 +1040,24 @@
       <property role="IQ2nx" value="2986354165693918737" />
       <property role="TrG5h" value="role" />
       <ref role="AX2Wp" node="4AIlyP2wQAK" resolve="ERole" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6LSqBjXFI_4">
+    <property role="EcuMT" value="7816114204006345028" />
+    <property role="TrG5h" value="BetterText" />
+    <ref role="1TJDcQ" to="87nw:2dWzqxEB$Tx" resolve="Text" />
+  </node>
+  <node concept="1TIwiD" id="6LSqBjXUGpy">
+    <property role="EcuMT" value="7816114204010268258" />
+    <property role="TrG5h" value="BetterTaggedWord" />
+    <property role="34LRSv" value="tagged" />
+    <ref role="1TJDcQ" to="87nw:2dWzqxEBMSc" resolve="Word" />
+    <node concept="1TJgyj" id="6LSqBjXUGpB" role="1TKVEi">
+      <property role="IQ2ns" value="7816114204010268263" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="roles" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="2_LEkEjGqSg" resolve="SRole" />
     </node>
   </node>
 </model>
