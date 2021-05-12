@@ -24,6 +24,7 @@
     <import index="gyv0" ref="r:3e994831-9e2b-4a2c-a757-02d48f0caeb5(de.slisson.mps.richtext.runtime.selection)" />
     <import index="hceu" ref="r:69b3ca2b-c749-4a2d-9d65-e52a0ef5bb3a(de.itemis.mps.selection.runtime.intentions)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
+    <import index="kzwd" ref="r:62d0f175-4940-4d4d-8e46-0c1a0171719f(Flint.migration)" />
     <import index="lnwe" ref="r:d268844f-2c2c-4250-a969-3a23a8a2bb02(Flint.structure)" implicit="true" />
     <import index="3lmi" ref="r:a950900f-47ea-4287-adc8-88f839ab614a(Flint.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -42,6 +43,11 @@
       </concept>
       <concept id="592868908271422361" name="jetbrains.mps.lang.test.structure.IsIntentionApplicableExpression" flags="ng" index="2bRw2S">
         <reference id="592868908271422362" name="intention" index="2bRw2V" />
+      </concept>
+      <concept id="5476670926298696679" name="jetbrains.mps.lang.test.structure.MigrationTestCase" flags="lg" index="2lJO3n">
+        <child id="5476670926298696680" name="inputNodes" index="2lJO3o" />
+        <child id="5476670926298698900" name="outputNodes" index="2lJPY$" />
+        <child id="6626913010124294914" name="migration" index="3ea0P7" />
       </concept>
       <concept id="7691029917083872157" name="jetbrains.mps.lang.test.structure.IRuleReference" flags="ng" index="2u4UPC">
         <reference id="8333855927540250453" name="declaration" index="39XzEq" />
@@ -65,6 +71,9 @@
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
       <concept id="5773579205429866751" name="jetbrains.mps.lang.test.structure.EditorComponentExpression" flags="nn" index="369mXd" />
+      <concept id="6626913010124185481" name="jetbrains.mps.lang.test.structure.MigrationReference" flags="ng" index="3ea_Bc">
+        <reference id="6626913010124185482" name="migration" index="3ea_Bf" />
+      </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
       </concept>
@@ -171,7 +180,7 @@
       </concept>
     </language>
     <language id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint">
-      <concept id="5309275763118590480" name="Flint.structure.TaggedWord" flags="ng" index="aU1KX">
+      <concept id="5309275763118590480" name="Flint.structure.OldTaggedWord" flags="ng" index="aU1KX">
         <property id="5309275763120703337" name="role" index="aMd54" />
         <property id="5309275763119607854" name="escapedValue" index="aYSo3" />
       </concept>
@@ -186,6 +195,7 @@
       <concept id="6868897032739893310" name="Flint.structure.FlintSourceReference" flags="ng" index="cog_b">
         <reference id="6868897032739893359" name="baseSource" index="cog$q" />
         <child id="5309275763118294786" name="textParts" index="aVT4J" />
+        <child id="7816114204006679678" name="betterText" index="2hN6Sa" />
       </concept>
       <concept id="6868897032739434618" name="Flint.structure.Fact" flags="ng" index="cu0$f">
         <child id="6868897032739751036" name="function" index="coNO9" />
@@ -199,6 +209,10 @@
       <concept id="2444626260293394822" name="Flint.structure.DutyReference" flags="ng" index="2cz2WB">
         <reference id="2444626260293394823" name="duty" index="2cz2WA" />
       </concept>
+      <concept id="7816114204010268258" name="Flint.structure.TaggedWord" flags="ng" index="2h$EKm">
+        <child id="7816114204010268263" name="roles" index="2h$EKj" />
+      </concept>
+      <concept id="7816114204006345028" name="Flint.structure.CustomText" flags="ng" index="2hPCcK" />
       <concept id="9029403747833789403" name="Flint.structure.Act" flags="ng" index="mu5$5">
         <property id="6366956576594804508" name="action" index="207Gpp" />
         <child id="9029403747833803225" name="terminate" index="mu1c7" />
@@ -210,6 +224,9 @@
       </concept>
       <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
         <child id="6983418503075280678" name="sources" index="2pmM46" />
+      </concept>
+      <concept id="2986354165693918736" name="Flint.structure.SRole" flags="ng" index="2UK0tq">
+        <property id="2986354165693918737" name="role" index="2UK0tr" />
       </concept>
       <concept id="7402439007429942662" name="Flint.structure.ActReference" flags="ng" index="3jSua8">
         <reference id="7402439007429942663" name="act" index="3jSua9" />
@@ -759,7 +776,7 @@
         <ref role="1MFYO6" to="ktnu:4AIlyP3vWEg" resolve="Tag" />
         <node concept="2OqwBi" id="28ttwYheECQ" role="1v$tAf">
           <node concept="1XH99k" id="28ttwYheEkp" role="2Oq$k0">
-            <ref role="1XH99l" to="lnwe:4AIlyP2wQAK" resolve="Role" />
+            <ref role="1XH99l" to="lnwe:4AIlyP2wQAK" resolve="ERole" />
           </node>
           <node concept="2ViDtV" id="28ttwYheFeg" role="2OqNvi">
             <ref role="2ViDtZ" to="lnwe:4AIlyP2wQAL" resolve="Actor" />
@@ -1948,6 +1965,86 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2lJO3n" id="45WVu5_4VB6">
+    <property role="TrG5h" value="MultiTagging_Test" />
+    <node concept="1qefOq" id="45WVu5_4W5g" role="2lJPY$">
+      <node concept="3_ImHQ" id="45WVu5_4W5h" role="1qenE9">
+        <property role="TrG5h" value="Test" />
+        <node concept="mu5$5" id="45WVu5_4W5i" role="3_ImHT">
+          <property role="TrG5h" value="TestAct" />
+          <node concept="1FQA6B" id="45WVu5_4W5j" role="3H36mW" />
+          <node concept="1FQA6B" id="45WVu5_4W5k" role="3H36l7" />
+          <node concept="1FQA6B" id="45WVu5_4W5l" role="3H36lm" />
+          <node concept="cog_b" id="45WVu5_4W5m" role="2pmM46">
+            <ref role="cog$q" node="45WVu5_4W5v" resolve="Artikel1" />
+            <node concept="2hPCcK" id="45WVu5_4W5n" role="2hN6Sa">
+              <node concept="19SUe$" id="45WVu5_5Xze" role="19SJt6">
+                <property role="19SUeA" value="Test" />
+              </node>
+              <node concept="2h$EKm" id="45WVu5_5Xzi" role="19SJt6">
+                <property role="19SUeA" value="Test2" />
+                <node concept="2UK0tq" id="45WVu5_5Xzt" role="2h$EKj">
+                  <property role="2UK0tr" value="4AIlyP2wQAL/Actor" />
+                </node>
+              </node>
+              <node concept="2h$EKm" id="45WVu5_5Xzw" role="19SJt6">
+                <property role="19SUeA" value="Test3" />
+                <node concept="2UK0tq" id="45WVu5_5Xzx" role="2h$EKj">
+                  <property role="2UK0tr" value="4AIlyP2wQBx/Recipient" />
+                </node>
+              </node>
+              <node concept="19SUe$" id="45WVu5_4W5o" role="19SJt6">
+                <property role="19SUeA" value="Test4" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="cog_a" id="45WVu5_4W5v" role="3_ImGG">
+          <property role="TrG5h" value="Artikel1" />
+        </node>
+      </node>
+    </node>
+    <node concept="3ea_Bc" id="45WVu5_4W2F" role="3ea0P7">
+      <ref role="3ea_Bf" to="kzwd:45WVu5$VpTu" resolve="MultiTagging" />
+    </node>
+    <node concept="1qefOq" id="45WVu5_4W2I" role="2lJO3o">
+      <node concept="3_ImHQ" id="45WVu5_4W2H" role="1qenE9">
+        <property role="TrG5h" value="Test" />
+        <node concept="mu5$5" id="45WVu5_4W2L" role="3_ImHT">
+          <property role="TrG5h" value="TestAct" />
+          <node concept="1FQA6B" id="45WVu5_4W2M" role="3H36mW" />
+          <node concept="1FQA6B" id="45WVu5_4W2N" role="3H36l7" />
+          <node concept="1FQA6B" id="45WVu5_4W2O" role="3H36lm" />
+          <node concept="cog_b" id="45WVu5_4W2T" role="2pmM46">
+            <ref role="cog$q" node="45WVu5_4W2Z" resolve="Artikel1" />
+            <node concept="2hPCcK" id="45WVu5_4W2U" role="2hN6Sa">
+              <node concept="19SUe$" id="45WVu5_4W5e" role="19SJt6" />
+            </node>
+            <node concept="19SGf9" id="45WVu5_4W31" role="aVT4J">
+              <node concept="19SUe$" id="45WVu5_4W32" role="19SJt6">
+                <property role="19SUeA" value="Test" />
+              </node>
+              <node concept="aU1KX" id="45WVu5_4W3k" role="19SJt6">
+                <property role="aYSo3" value="Test2" />
+                <property role="aMd54" value="4AIlyP2wQAL/Actor" />
+              </node>
+              <node concept="19SUe$" id="45WVu5_71cg" role="19SJt6" />
+              <node concept="aU1KX" id="45WVu5_4W4w" role="19SJt6">
+                <property role="aYSo3" value="Test3" />
+                <property role="aMd54" value="4AIlyP2wQBx/Recipient" />
+              </node>
+              <node concept="19SUe$" id="45WVu5_4W4y" role="19SJt6">
+                <property role="19SUeA" value="Test4" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="cog_a" id="45WVu5_4W2Z" role="3_ImGG">
+          <property role="TrG5h" value="Artikel1" />
         </node>
       </node>
     </node>

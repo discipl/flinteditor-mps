@@ -174,7 +174,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="betterText" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6LSqBjXFI_4" resolve="BetterText" />
+      <ref role="20lvS9" node="6LSqBjXFI_4" resolve="CustomText" />
     </node>
   </node>
   <node concept="1TIwiD" id="5Xjenljcz0Z">
@@ -864,7 +864,7 @@
   </node>
   <node concept="1TIwiD" id="4AIlyP3h$Cg">
     <property role="EcuMT" value="5309275763118590480" />
-    <property role="TrG5h" value="TaggedWord" />
+    <property role="TrG5h" value="OldTaggedWord" />
     <property role="34LRSv" value="tagged" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4AIlyP3lt0G" role="PzmwI">
@@ -880,13 +880,6 @@
       <property role="TrG5h" value="role" />
       <ref role="AX2Wp" node="4AIlyP2wQAK" resolve="ERole" />
       <node concept="asaX9" id="2_LEkEjNv_O" role="lGtFl" />
-    </node>
-    <node concept="1TJgyj" id="2_LEkEjGqSj" role="1TKVEi">
-      <property role="IQ2ns" value="2986354165693918739" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="roles" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="2_LEkEjGqSg" resolve="SRole" />
     </node>
     <node concept="asaX9" id="6LSqBjXYGPc" role="lGtFl" />
   </node>
@@ -1044,12 +1037,12 @@
   </node>
   <node concept="1TIwiD" id="6LSqBjXFI_4">
     <property role="EcuMT" value="7816114204006345028" />
-    <property role="TrG5h" value="BetterText" />
+    <property role="TrG5h" value="CustomText" />
     <ref role="1TJDcQ" to="87nw:2dWzqxEB$Tx" resolve="Text" />
   </node>
   <node concept="1TIwiD" id="6LSqBjXUGpy">
     <property role="EcuMT" value="7816114204010268258" />
-    <property role="TrG5h" value="BetterTaggedWord" />
+    <property role="TrG5h" value="TaggedWord" />
     <property role="34LRSv" value="tagged" />
     <ref role="1TJDcQ" to="87nw:2dWzqxEBMSc" resolve="Word" />
     <node concept="1TJgyj" id="6LSqBjXUGpB" role="1TKVEi">

@@ -371,7 +371,7 @@
     <ref role="1M2myG" to="lnwe:27H3E6Hoggr" resolve="Duty" />
   </node>
   <node concept="1M2fIO" id="4AIlyP3qbhB">
-    <ref role="1M2myG" to="lnwe:4AIlyP3h$Cg" resolve="BetterTaggedWord" />
+    <ref role="1M2myG" to="lnwe:4AIlyP3h$Cg" resolve="OldTaggedWord" />
     <node concept="EnEH3" id="4AIlyP3qbhC" role="1MhHOB">
       <ref role="EomxK" to="lnwe:4AIlyP3pCtD" resolve="role" />
     </node>

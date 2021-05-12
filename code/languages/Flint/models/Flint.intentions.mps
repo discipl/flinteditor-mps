@@ -1426,14 +1426,14 @@
           <node concept="3cpWsn" id="4pyf5wD$kdO" role="3cpWs9">
             <property role="TrG5h" value="text" />
             <node concept="3Tqbb2" id="4pyf5wD$kdx" role="1tU5fm">
-              <ref role="ehGHo" to="lnwe:6LSqBjXFI_4" resolve="BetterText" />
+              <ref role="ehGHo" to="lnwe:6LSqBjXFI_4" resolve="CustomText" />
             </node>
             <node concept="2OqwBi" id="4pyf5wD$kdP" role="33vP2m">
               <node concept="2Sf5sV" id="4pyf5wD$kdQ" role="2Oq$k0" />
               <node concept="2Xjw5R" id="4pyf5wD$kdR" role="2OqNvi">
                 <node concept="1xMEDy" id="4pyf5wD$kdS" role="1xVPHs">
                   <node concept="chp4Y" id="6LSqBjYGCg4" role="ri$Ld">
-                    <ref role="cht4Q" to="lnwe:6LSqBjXFI_4" resolve="BetterText" />
+                    <ref role="cht4Q" to="lnwe:6LSqBjXFI_4" resolve="CustomText" />
                   </node>
                 </node>
               </node>
@@ -1462,7 +1462,7 @@
           <node concept="3cpWsn" id="4AIlyP3xa_0" role="3cpWs9">
             <property role="TrG5h" value="taggedWord" />
             <node concept="3Tqbb2" id="4AIlyP3xa$V" role="1tU5fm">
-              <ref role="ehGHo" to="lnwe:6LSqBjXUGpy" resolve="BetterTaggedWord" />
+              <ref role="ehGHo" to="lnwe:6LSqBjXUGpy" resolve="TaggedWord" />
             </node>
             <node concept="2YIFZM" id="2_LEkEjS1Ha" role="33vP2m">
               <ref role="37wK5l" to="3lmi:2_LEkEjRKru" resolve="toTaggedWord" />
@@ -1708,7 +1708,7 @@
           <node concept="3cpWsn" id="5ku_jRT3qSh" role="3cpWs9">
             <property role="TrG5h" value="textNode" />
             <node concept="3Tqbb2" id="5ku_jRT3qSi" role="1tU5fm">
-              <ref role="ehGHo" to="lnwe:6LSqBjXFI_4" resolve="BetterText" />
+              <ref role="ehGHo" to="lnwe:6LSqBjXFI_4" resolve="CustomText" />
             </node>
             <node concept="2OqwBi" id="5ku_jRT3qSj" role="33vP2m">
               <node concept="37vLTw" id="5ku_jRT3qSk" role="2Oq$k0">
@@ -1717,7 +1717,7 @@
               <node concept="2Xjw5R" id="5ku_jRT3qSl" role="2OqNvi">
                 <node concept="1xMEDy" id="5ku_jRT3qSm" role="1xVPHs">
                   <node concept="chp4Y" id="6LSqBjYGINK" role="ri$Ld">
-                    <ref role="cht4Q" to="lnwe:6LSqBjXFI_4" resolve="BetterText" />
+                    <ref role="cht4Q" to="lnwe:6LSqBjXFI_4" resolve="CustomText" />
                   </node>
                 </node>
               </node>
@@ -1963,7 +1963,7 @@
             <property role="TrG5h" value="taggedNodes" />
             <node concept="_YKpA" id="28ttwYhKlk1" role="1tU5fm">
               <node concept="3Tqbb2" id="28ttwYhKlk4" role="_ZDj9">
-                <ref role="ehGHo" to="lnwe:6LSqBjXUGpy" resolve="BetterTaggedWord" />
+                <ref role="ehGHo" to="lnwe:6LSqBjXUGpy" resolve="TaggedWord" />
               </node>
             </node>
             <node concept="2OqwBi" id="28ttwYhKlmt" role="33vP2m">
@@ -1982,7 +1982,7 @@
                             </node>
                             <node concept="1mIQ4w" id="28ttwYhKlmB" role="2OqNvi">
                               <node concept="chp4Y" id="6LSqBjY66_7" role="cj9EA">
-                                <ref role="cht4Q" to="lnwe:6LSqBjXUGpy" resolve="BetterTaggedWord" />
+                                <ref role="cht4Q" to="lnwe:6LSqBjXUGpy" resolve="TaggedWord" />
                               </node>
                             </node>
                           </node>
@@ -2001,7 +2001,7 @@
                       <node concept="3clFbF" id="28ttwYhKlmI" role="3cqZAp">
                         <node concept="1PxgMI" id="28ttwYhKlmJ" role="3clFbG">
                           <node concept="chp4Y" id="6LSqBjY66eZ" role="3oSUPX">
-                            <ref role="cht4Q" to="lnwe:6LSqBjXUGpy" resolve="BetterTaggedWord" />
+                            <ref role="cht4Q" to="lnwe:6LSqBjXUGpy" resolve="TaggedWord" />
                           </node>
                           <node concept="37vLTw" id="28ttwYhKlmL" role="1m5AlR">
                             <ref role="3cqZAo" node="28ttwYhKlmM" resolve="it" />
@@ -2024,7 +2024,7 @@
           <node concept="3cpWsn" id="28ttwYhKye3" role="3cpWs9">
             <property role="TrG5h" value="ancestor" />
             <node concept="3Tqbb2" id="28ttwYhKye4" role="1tU5fm">
-              <ref role="ehGHo" to="lnwe:6LSqBjXFI_4" resolve="BetterText" />
+              <ref role="ehGHo" to="lnwe:6LSqBjXFI_4" resolve="CustomText" />
             </node>
             <node concept="2OqwBi" id="28ttwYhKye5" role="33vP2m">
               <node concept="2OqwBi" id="28ttwYhKAb7" role="2Oq$k0">
@@ -2036,7 +2036,7 @@
               <node concept="2Xjw5R" id="28ttwYhKye7" role="2OqNvi">
                 <node concept="1xMEDy" id="28ttwYhKye8" role="1xVPHs">
                   <node concept="chp4Y" id="6LSqBjYL8BD" role="ri$Ld">
-                    <ref role="cht4Q" to="lnwe:6LSqBjXFI_4" resolve="BetterText" />
+                    <ref role="cht4Q" to="lnwe:6LSqBjXFI_4" resolve="CustomText" />
                   </node>
                 </node>
               </node>
@@ -2117,7 +2117,7 @@
                               </node>
                               <node concept="1mIQ4w" id="76mcYUA6Yd3" role="2OqNvi">
                                 <node concept="chp4Y" id="6LSqBjY658E" role="cj9EA">
-                                  <ref role="cht4Q" to="lnwe:6LSqBjXUGpy" resolve="BetterTaggedWord" />
+                                  <ref role="cht4Q" to="lnwe:6LSqBjXUGpy" resolve="TaggedWord" />
                                 </node>
                               </node>
                             </node>
@@ -2137,7 +2137,7 @@
                           <node concept="2OqwBi" id="76mcYUA71z0" role="3clFbG">
                             <node concept="1PxgMI" id="76mcYUA71z1" role="2Oq$k0">
                               <node concept="chp4Y" id="6LSqBjY65u1" role="3oSUPX">
-                                <ref role="cht4Q" to="lnwe:6LSqBjXUGpy" resolve="BetterTaggedWord" />
+                                <ref role="cht4Q" to="lnwe:6LSqBjXUGpy" resolve="TaggedWord" />
                               </node>
                               <node concept="37vLTw" id="76mcYUA71z3" role="1m5AlR">
                                 <ref role="3cqZAo" node="76mcYUA71z5" resolve="it" />
@@ -2724,7 +2724,7 @@
   </node>
   <node concept="3dkpOd" id="2_LEkEk3Wrs">
     <property role="TrG5h" value="Untag" />
-    <ref role="2ZfgGC" to="lnwe:6LSqBjXUGpy" resolve="BetterTaggedWord" />
+    <ref role="2ZfgGC" to="lnwe:6LSqBjXUGpy" resolve="TaggedWord" />
     <node concept="2S6ZIM" id="2_LEkEk3Wrt" role="2ZfVej">
       <node concept="3clFbS" id="2_LEkEk3Wru" role="2VODD2">
         <node concept="3clFbF" id="2_LEkEk4aWT" role="3cqZAp">
@@ -2761,14 +2761,14 @@
           <node concept="3cpWsn" id="2_LEkEk5211" role="3cpWs9">
             <property role="TrG5h" value="ancestor" />
             <node concept="3Tqbb2" id="2_LEkEk5212" role="1tU5fm">
-              <ref role="ehGHo" to="lnwe:6LSqBjXFI_4" resolve="BetterText" />
+              <ref role="ehGHo" to="lnwe:6LSqBjXFI_4" resolve="CustomText" />
             </node>
             <node concept="2OqwBi" id="2_LEkEk5213" role="33vP2m">
               <node concept="2Sf5sV" id="2_LEkEk5214" role="2Oq$k0" />
               <node concept="2Xjw5R" id="2_LEkEk5215" role="2OqNvi">
                 <node concept="1xMEDy" id="2_LEkEk5216" role="1xVPHs">
                   <node concept="chp4Y" id="6LSqBjYL9Lx" role="ri$Ld">
-                    <ref role="cht4Q" to="lnwe:6LSqBjXFI_4" resolve="BetterText" />
+                    <ref role="cht4Q" to="lnwe:6LSqBjXFI_4" resolve="CustomText" />
                   </node>
                 </node>
               </node>
