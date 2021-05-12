@@ -978,7 +978,6 @@
     <node concept="2tJIrI" id="45WVu5$VpTz" role="jymVt" />
     <node concept="3tYpMH" id="45WVu5$VpT$" role="jymVt">
       <property role="TrG5h" value="isRerunnable" />
-      <property role="3tYpME" value="true" />
       <ref role="25KYV2" to="slm6:1JWcQ2VeWIs" resolve="isRerunnable" />
       <node concept="3Tm1VV" id="45WVu5$VpT_" role="1B3o_S" />
       <node concept="10P_77" id="45WVu5$VpTA" role="1tU5fm" />

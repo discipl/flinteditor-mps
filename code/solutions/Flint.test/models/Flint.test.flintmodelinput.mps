@@ -2,7 +2,7 @@
 <model ref="r:24d66bc9-227a-447b-947a-855ad292ec9a(Flint.test.flintmodelinput)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="5" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="6" />
   </languages>
   <imports />
   <registry>
@@ -15,22 +15,18 @@
       </concept>
     </language>
     <language id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint">
-      <concept id="5309275763118590480" name="Flint.structure.TaggedWord" flags="ng" index="aU1KX">
-        <property id="5309275763120703337" name="role" index="aMd54" />
-        <property id="5309275763119607854" name="escapedValue" index="aYSo3" />
-      </concept>
       <concept id="6868897032739893314" name="Flint.structure.IExplainable" flags="ng" index="cog$R">
         <property id="778381075952164307" name="explanation" index="3ANC2_" />
       </concept>
-      <concept id="6868897032739893311" name="Flint.structure.Source" flags="ng" index="cog_a">
+      <concept id="6868897032739893311" name="Flint.structure.FlintSource" flags="ng" index="cog_a">
         <property id="6868897032739893349" name="validTo" index="cog$g" />
         <property id="6868897032739893347" name="validFrom" index="cog$m" />
         <property id="6868897032739893352" name="juriconnect" index="cog$t" />
       </concept>
-      <concept id="6868897032739893310" name="Flint.structure.SourceReference" flags="ng" index="cog_b">
+      <concept id="6868897032739893310" name="Flint.structure.FlintSourceReference" flags="ng" index="cog_b">
         <property id="6587498613243528183" name="text" index="1FEjNx" />
         <reference id="6868897032739893359" name="baseSource" index="cog$q" />
-        <child id="5309275763118294786" name="textParts" index="aVT4J" />
+        <child id="7816114204006679678" name="betterText" index="2hN6Sa" />
       </concept>
       <concept id="6868897032739434615" name="Flint.structure.FlintModel" flags="ng" index="cu0$2" />
       <concept id="6868897032739434618" name="Flint.structure.Fact" flags="ng" index="cu0$f">
@@ -43,6 +39,10 @@
       <concept id="2444626260293394822" name="Flint.structure.DutyReference" flags="ng" index="2cz2WB">
         <reference id="2444626260293394823" name="duty" index="2cz2WA" />
       </concept>
+      <concept id="7816114204010268258" name="Flint.structure.TaggedWord" flags="ng" index="2h$EKm">
+        <child id="7816114204010268263" name="roles" index="2h$EKj" />
+      </concept>
+      <concept id="7816114204006345028" name="Flint.structure.CustomText" flags="ng" index="2hPCcK" />
       <concept id="9029403747833789403" name="Flint.structure.Act" flags="ng" index="mu5$5">
         <property id="6366956576594804508" name="action" index="207Gpp" />
         <child id="9029403747833803225" name="terminate" index="mu1c7" />
@@ -54,6 +54,9 @@
       </concept>
       <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
         <child id="6983418503075280678" name="sources" index="2pmM46" />
+      </concept>
+      <concept id="2986354165693918736" name="Flint.structure.SRole" flags="ng" index="2UK0tq">
+        <property id="2986354165693918737" name="role" index="2UK0tr" />
       </concept>
       <concept id="7402439007429942662" name="Flint.structure.ActReference" flags="ng" index="3jSua8">
         <reference id="7402439007429942663" name="act" index="3jSua9" />
@@ -165,11 +168,12 @@
     <node concept="cog_b" id="74VLc6kV4GX" role="2pmM46">
       <property role="1FEjNx" value="example source text" />
       <ref role="cog$q" node="74VLc6kV4G_" resolve="Source1" />
-      <node concept="19SGf9" id="5hB3R5$YkRz" role="aVT4J">
-        <node concept="19SUe$" id="28ttwYhlVQ4" role="19SJt6" />
-        <node concept="aU1KX" id="28ttwYhlVQ1" role="19SJt6">
-          <property role="aYSo3" value="example" />
-          <property role="aMd54" value="4AIlyP2wQAP/Action" />
+      <node concept="2hPCcK" id="45WVu5_dyE8" role="2hN6Sa">
+        <node concept="2h$EKm" id="45WVu5_dyEa" role="19SJt6">
+          <property role="19SUeA" value="example" />
+          <node concept="2UK0tq" id="45WVu5_dyEb" role="2h$EKj">
+            <property role="2UK0tr" value="4AIlyP2wQAP/Action" />
+          </node>
         </node>
         <node concept="19SUe$" id="28ttwYhlVQ0" role="19SJt6">
           <property role="19SUeA" value=" source text" />
@@ -179,16 +183,15 @@
     <node concept="cog_b" id="74VLc6kV4GY" role="2pmM46">
       <property role="1FEjNx" value="example source text" />
       <ref role="cog$q" node="74VLc6kV4GA" resolve="Source2" />
-      <node concept="19SGf9" id="5hB3R5$YkRA" role="aVT4J">
+      <node concept="2hPCcK" id="45WVu5_dyEc" role="2hN6Sa">
         <node concept="19SUe$" id="5hB3R5$YkRC" role="19SJt6">
           <property role="19SUeA" value="example source " />
         </node>
-        <node concept="aU1KX" id="28ttwYhlVQa" role="19SJt6">
-          <property role="aYSo3" value="text" />
-          <property role="aMd54" value="4AIlyP2wQB2/ActCreate" />
-        </node>
-        <node concept="19SUe$" id="28ttwYhlVQ9" role="19SJt6">
-          <property role="19SUeA" value="" />
+        <node concept="2h$EKm" id="45WVu5_dyEe" role="19SJt6">
+          <property role="19SUeA" value="text" />
+          <node concept="2UK0tq" id="45WVu5_dyEf" role="2h$EKj">
+            <property role="2UK0tr" value="4AIlyP2wQB2/ActCreate" />
+          </node>
         </node>
       </node>
     </node>

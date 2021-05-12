@@ -4,7 +4,7 @@
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="5" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="6" />
     <use id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi" version="0" />
     <use id="68015e26-cc4d-49db-8715-b643faea1769" name="jetbrains.mps.lang.test.generator" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
@@ -744,7 +744,7 @@
           </node>
           <node concept="cog_b" id="28ttwYheEc_" role="2pmM46">
             <ref role="cog$q" node="28ttwYheEce" resolve="Source1" />
-            <node concept="19SGf9" id="28ttwYheEcA" role="aVT4J">
+            <node concept="2hPCcK" id="45WVu5_dyEg" role="2hN6Sa">
               <node concept="19SUe$" id="28ttwYheEcB" role="19SJt6">
                 <property role="19SUeA" value="Test text is here" />
                 <node concept="LIFWc" id="28ttwYheEgj" role="lGtFl">
@@ -897,13 +897,15 @@
           </node>
           <node concept="cog_b" id="28ttwYheEgd" role="2pmM46">
             <ref role="cog$q" node="28ttwYheEcg" resolve="Source1" />
-            <node concept="19SGf9" id="28ttwYheEge" role="aVT4J">
+            <node concept="2hPCcK" id="45WVu5_dyEi" role="2hN6Sa">
               <node concept="19SUe$" id="28ttwYheEgf" role="19SJt6">
                 <property role="19SUeA" value="Test " />
               </node>
-              <node concept="aU1KX" id="28ttwYheEgn" role="19SJt6">
-                <property role="aYSo3" value="text" />
-                <property role="aMd54" value="4AIlyP2wQAL/Actor" />
+              <node concept="2h$EKm" id="45WVu5_dyEk" role="19SJt6">
+                <property role="19SUeA" value="text" />
+                <node concept="2UK0tq" id="45WVu5_dyEl" role="2h$EKj">
+                  <property role="2UK0tr" value="4AIlyP2wQAL/Actor" />
+                </node>
               </node>
               <node concept="19SUe$" id="28ttwYheEgm" role="19SJt6">
                 <property role="19SUeA" value=" is here" />
@@ -939,19 +941,14 @@
           </node>
           <node concept="cog_b" id="28ttwYhlEPM" role="2pmM46">
             <ref role="cog$q" node="28ttwYhlEPH" resolve="Source1" />
-            <node concept="19SGf9" id="28ttwYhlEPN" role="aVT4J">
+            <node concept="2hPCcK" id="45WVu5_dyEm" role="2hN6Sa">
               <node concept="19SUe$" id="28ttwYhlEPO" role="19SJt6">
                 <property role="19SUeA" value="Test " />
               </node>
-              <node concept="aU1KX" id="28ttwYhlEQq" role="19SJt6">
-                <property role="aYSo3" value="text" />
-                <property role="aMd54" value="4AIlyP2wQAL/Actor" />
-                <node concept="LIFWc" id="70bezxA$qNf" role="lGtFl">
-                  <property role="LIFWa" value="2" />
-                  <property role="OXtK3" value="true" />
-                  <property role="p6zMq" value="2" />
-                  <property role="p6zMs" value="2" />
-                  <property role="LIFWd" value="property_escapedValue" />
+              <node concept="2h$EKm" id="45WVu5_dyEo" role="19SJt6">
+                <property role="19SUeA" value="text" />
+                <node concept="2UK0tq" id="45WVu5_dyEp" role="2h$EKj">
+                  <property role="2UK0tr" value="4AIlyP2wQAL/Actor" />
                 </node>
               </node>
               <node concept="19SUe$" id="28ttwYhlEQp" role="19SJt6">
@@ -1001,7 +998,7 @@
           </node>
           <node concept="cog_b" id="28ttwYhlEQ6" role="2pmM46">
             <ref role="cog$q" node="28ttwYhlEQ1" resolve="Source1" />
-            <node concept="19SGf9" id="28ttwYhlEQ7" role="aVT4J">
+            <node concept="2hPCcK" id="45WVu5_dyEq" role="2hN6Sa">
               <node concept="19SUe$" id="28ttwYhlEQ8" role="19SJt6">
                 <property role="19SUeA" value="Test text is here" />
               </node>
@@ -1043,7 +1040,7 @@
           </node>
           <node concept="cog_b" id="28ttwYhqMaX" role="2pmM46">
             <ref role="cog$q" node="28ttwYhqMaS" resolve="Source1" />
-            <node concept="19SGf9" id="28ttwYhqMaY" role="aVT4J">
+            <node concept="2hPCcK" id="45WVu5_dyEs" role="2hN6Sa">
               <node concept="19SUe$" id="28ttwYhqMaZ" role="19SJt6">
                 <property role="19SUeA" value="Test text is here" />
                 <node concept="3xLA65" id="28ttwYhrf5N" role="lGtFl">
@@ -1343,20 +1340,24 @@
           </node>
           <node concept="cog_b" id="28ttwYhqMbh" role="2pmM46">
             <ref role="cog$q" node="28ttwYhqMbc" resolve="Source1" />
-            <node concept="19SGf9" id="28ttwYhqMbi" role="aVT4J">
+            <node concept="2hPCcK" id="45WVu5_dyEu" role="2hN6Sa">
               <node concept="19SUe$" id="28ttwYhqMbj" role="19SJt6">
                 <property role="19SUeA" value="Test " />
               </node>
-              <node concept="aU1KX" id="28ttwYhAeu8" role="19SJt6">
-                <property role="aYSo3" value="text" />
-                <property role="aMd54" value="4AIlyP2wQAL/Actor" />
+              <node concept="2h$EKm" id="45WVu5_dyEw" role="19SJt6">
+                <property role="19SUeA" value="text" />
+                <node concept="2UK0tq" id="45WVu5_dyEx" role="2h$EKj">
+                  <property role="2UK0tr" value="4AIlyP2wQAL/Actor" />
+                </node>
               </node>
               <node concept="19SUe$" id="28ttwYhAeu7" role="19SJt6">
                 <property role="19SUeA" value=" " />
               </node>
-              <node concept="aU1KX" id="28ttwYhAeu5" role="19SJt6">
-                <property role="aYSo3" value="is" />
-                <property role="aMd54" value="4AIlyP2wQAL/Actor" />
+              <node concept="2h$EKm" id="45WVu5_dyEy" role="19SJt6">
+                <property role="19SUeA" value="is" />
+                <node concept="2UK0tq" id="45WVu5_dyEz" role="2h$EKj">
+                  <property role="2UK0tr" value="4AIlyP2wQAL/Actor" />
+                </node>
               </node>
               <node concept="19SUe$" id="28ttwYhAeu4" role="19SJt6">
                 <property role="19SUeA" value=" here" />
@@ -1399,23 +1400,27 @@
           </node>
           <node concept="cog_b" id="28ttwYhL4Ti" role="2pmM46">
             <ref role="cog$q" node="28ttwYhL4Tc" resolve="Source1" />
-            <node concept="19SGf9" id="28ttwYhL4Tj" role="aVT4J">
+            <node concept="2hPCcK" id="45WVu5_dyE$" role="2hN6Sa">
               <node concept="19SUe$" id="28ttwYhL4Tk" role="19SJt6">
                 <property role="19SUeA" value="Test " />
                 <node concept="3xLA65" id="28ttwYhL4Tl" role="lGtFl">
                   <property role="TrG5h" value="text" />
                 </node>
               </node>
-              <node concept="aU1KX" id="28ttwYhL5n_" role="19SJt6">
-                <property role="aYSo3" value="text" />
-                <property role="aMd54" value="4AIlyP2wQAL/Actor" />
+              <node concept="2h$EKm" id="45WVu5_dyEA" role="19SJt6">
+                <property role="19SUeA" value="text" />
+                <node concept="2UK0tq" id="45WVu5_dyEB" role="2h$EKj">
+                  <property role="2UK0tr" value="4AIlyP2wQAL/Actor" />
+                </node>
               </node>
               <node concept="19SUe$" id="28ttwYhL5n$" role="19SJt6">
                 <property role="19SUeA" value=" " />
               </node>
-              <node concept="aU1KX" id="28ttwYhL5ny" role="19SJt6">
-                <property role="aYSo3" value="is" />
-                <property role="aMd54" value="4AIlyP2wQAL/Actor" />
+              <node concept="2h$EKm" id="45WVu5_dyEC" role="19SJt6">
+                <property role="19SUeA" value="is" />
+                <node concept="2UK0tq" id="45WVu5_dyED" role="2h$EKj">
+                  <property role="2UK0tr" value="4AIlyP2wQAL/Actor" />
+                </node>
               </node>
               <node concept="19SUe$" id="28ttwYhL5nx" role="19SJt6">
                 <property role="19SUeA" value=" here" />
@@ -1650,7 +1655,7 @@
           </node>
           <node concept="cog_b" id="28ttwYhL4UO" role="2pmM46">
             <ref role="cog$q" node="28ttwYhL4UJ" resolve="Source1" />
-            <node concept="19SGf9" id="28ttwYhL4UP" role="aVT4J">
+            <node concept="2hPCcK" id="45WVu5_dyEE" role="2hN6Sa">
               <node concept="19SUe$" id="28ttwYhL4UQ" role="19SJt6">
                 <property role="19SUeA" value="Test text is here" />
               </node>
@@ -1683,7 +1688,7 @@
           <property role="3ANC2_" value="Duty Explanation" />
           <node concept="cog_b" id="4pyf5wCP3AQ" role="2pmM46">
             <ref role="cog$q" node="4pyf5wCP3A9" resolve="TestSource" />
-            <node concept="19SGf9" id="4pyf5wCP3AR" role="aVT4J">
+            <node concept="2hPCcK" id="45WVu5_dyEO" role="2hN6Sa">
               <node concept="19SUe$" id="4pyf5wCP3AS" role="19SJt6">
                 <property role="19SUeA" value="Text" />
               </node>
@@ -1708,7 +1713,7 @@
           <property role="3ANC2_" value="Person Explanation" />
           <node concept="cog_b" id="4pyf5wCP3Ab" role="2pmM46">
             <ref role="cog$q" node="4pyf5wCP3A9" resolve="TestSource" />
-            <node concept="19SGf9" id="4pyf5wCP3Ac" role="aVT4J">
+            <node concept="2hPCcK" id="45WVu5_dyEQ" role="2hN6Sa">
               <node concept="19SUe$" id="4pyf5wCP3Ad" role="19SJt6">
                 <property role="19SUeA" value="Person Text" />
               </node>
@@ -1740,7 +1745,7 @@
           <property role="3GE5qa" value="facts" />
           <node concept="cog_b" id="4pyf5wCP3Ap" role="2pmM46">
             <ref role="cog$q" node="4pyf5wCP3A9" resolve="TestSource" />
-            <node concept="19SGf9" id="4pyf5wCP3Aq" role="aVT4J">
+            <node concept="2hPCcK" id="45WVu5_dyES" role="2hN6Sa">
               <node concept="19SUe$" id="4pyf5wCP3Ar" role="19SJt6">
                 <property role="19SUeA" value="Reference Text" />
               </node>
@@ -1768,28 +1773,30 @@
           <property role="207Gpp" value="[Person]" />
           <node concept="cog_b" id="4pyf5wCP3AA" role="2pmM46">
             <ref role="cog$q" node="4pyf5wCP3A9" resolve="TestSource" />
-            <node concept="19SGf9" id="4pyf5wCP3AY" role="aVT4J">
-              <node concept="19SUe$" id="4pyf5wD$RcE" role="19SJt6" />
-              <node concept="aU1KX" id="4pyf5wD$RcD" role="19SJt6">
-                <property role="aYSo3" value="Hello" />
-                <property role="aMd54" value="4AIlyP2wQAM/ActName" />
+            <node concept="2hPCcK" id="45WVu5_dyEG" role="2hN6Sa">
+              <node concept="2h$EKm" id="45WVu5_dyEI" role="19SJt6">
+                <property role="19SUeA" value="Hello" />
+                <node concept="2UK0tq" id="45WVu5_dyEJ" role="2h$EKj">
+                  <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
+                </node>
               </node>
               <node concept="19SUe$" id="4pyf5wD$RcC" role="19SJt6">
                 <property role="19SUeA" value=" " />
               </node>
-              <node concept="aU1KX" id="4pyf5wCP3B6" role="19SJt6">
-                <property role="aYSo3" value="this" />
-                <property role="aMd54" value="4AIlyP2wQAL/Actor" />
+              <node concept="2h$EKm" id="45WVu5_dyEK" role="19SJt6">
+                <property role="19SUeA" value="this" />
+                <node concept="2UK0tq" id="45WVu5_dyEL" role="2h$EKj">
+                  <property role="2UK0tr" value="4AIlyP2wQAL/Actor" />
+                </node>
               </node>
               <node concept="19SUe$" id="4pyf5wCP3B5" role="19SJt6">
                 <property role="19SUeA" value=" is a " />
               </node>
-              <node concept="aU1KX" id="4pyf5wD$eCk" role="19SJt6">
-                <property role="aYSo3" value="test" />
-                <property role="aMd54" value="4AIlyP2wQAP/Action" />
-              </node>
-              <node concept="19SUe$" id="4pyf5wD$eCj" role="19SJt6">
-                <property role="19SUeA" value="" />
+              <node concept="2h$EKm" id="45WVu5_dyEM" role="19SJt6">
+                <property role="19SUeA" value="test" />
+                <node concept="2UK0tq" id="45WVu5_dyEN" role="2h$EKj">
+                  <property role="2UK0tr" value="4AIlyP2wQAP/Action" />
+                </node>
               </node>
             </node>
           </node>

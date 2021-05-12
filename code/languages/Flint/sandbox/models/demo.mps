@@ -2,7 +2,7 @@
 <model ref="r:f56bcd0b-144f-4f69-a2a6-8c9ba9238558(demo)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="5" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="6" />
   </languages>
   <imports />
   <registry>
@@ -15,11 +15,6 @@
       </concept>
     </language>
     <language id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint">
-      <concept id="5309275763118590480" name="Flint.structure.TaggedWord" flags="ng" index="aU1KX">
-        <property id="5309275763120703337" name="role" index="aMd54" />
-        <property id="5309275763119607854" name="escapedValue" index="aYSo3" />
-        <child id="2986354165693918739" name="roles" index="2UK0tp" />
-      </concept>
       <concept id="6868897032739893314" name="Flint.structure.IExplainable" flags="ng" index="cog$R">
         <property id="778381075952164307" name="explanation" index="3ANC2_" />
       </concept>
@@ -29,17 +24,16 @@
       </concept>
       <concept id="6868897032739893310" name="Flint.structure.FlintSourceReference" flags="ng" index="cog_b">
         <reference id="6868897032739893359" name="baseSource" index="cog$q" />
-        <child id="5309275763118294786" name="textParts" index="aVT4J" />
         <child id="7816114204006679678" name="betterText" index="2hN6Sa" />
       </concept>
       <concept id="6868897032739434615" name="Flint.structure.FlintModel" flags="ng" index="cu0$2" />
       <concept id="6868897032739434618" name="Flint.structure.Fact" flags="ng" index="cu0$f">
         <child id="6868897032739751036" name="function" index="coNO9" />
       </concept>
-      <concept id="7816114204010268258" name="Flint.structure.BetterTaggedWord" flags="ng" index="2h$EKm">
+      <concept id="7816114204010268258" name="Flint.structure.TaggedWord" flags="ng" index="2h$EKm">
         <child id="7816114204010268263" name="roles" index="2h$EKj" />
       </concept>
-      <concept id="7816114204006345028" name="Flint.structure.BetterText" flags="ng" index="2hPCcK" />
+      <concept id="7816114204006345028" name="Flint.structure.CustomText" flags="ng" index="2hPCcK" />
       <concept id="9029403747833789403" name="Flint.structure.Act" flags="ng" index="mu5$5">
         <property id="6366956576594804508" name="action" index="207Gpp" />
         <child id="9029403747833797790" name="preconditions" index="mu3T0" />
@@ -204,7 +198,7 @@
     <property role="3GE5qa" value="facts" />
     <node concept="cog_b" id="lbB2sfKdN4" role="2pmM46">
       <ref role="cog$q" node="lbB2sfKdMW" resolve="art. 1, " />
-      <node concept="19SGf9" id="lbB2sfKdN5" role="aVT4J">
+      <node concept="2hPCcK" id="45WVu5_cdJh" role="2hN6Sa">
         <node concept="19SUe$" id="lbB2sfKdN7" role="19SJt6">
           <property role="19SUeA" value="in Nederland gevestigde onderneming als bedoeld in , niet zijnde een overheidsbedrijf:artikel 5 van de Handelsregisterwet 2007gedupeerde onderneming:" />
         </node>
@@ -222,7 +216,7 @@
     <property role="207Gpp" value="[afwijzen]" />
     <node concept="cog_b" id="lbB2sfKdNe" role="2pmM46">
       <ref role="cog$q" node="lbB2sfKdMX" resolve="art. 3, " />
-      <node concept="19SGf9" id="lbB2sfKdNf" role="aVT4J">
+      <node concept="2hPCcK" id="45WVu5_cdIB" role="2hN6Sa">
         <node concept="19SUe$" id="lbB2sfKdNh" role="19SJt6">
           <property role="19SUeA" value="De minister beslist afwijzend op een aanvraag indien:" />
         </node>
@@ -248,7 +242,7 @@
     <property role="207Gpp" value="[indienen]" />
     <node concept="cog_b" id="lbB2sfKdNq" role="2pmM46">
       <ref role="cog$q" node="lbB2sfKdMX" resolve="art. 3, " />
-      <node concept="19SGf9" id="lbB2sfKdNr" role="aVT4J">
+      <node concept="2hPCcK" id="45WVu5_cdID" role="2hN6Sa">
         <node concept="19SUe$" id="lbB2sfKdNt" role="19SJt6">
           <property role="19SUeA" value="de gedupeerde onderneming in staat van faillissement verkeert dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming is ingediend;" />
         </node>
@@ -274,7 +268,7 @@
     <property role="207Gpp" value="[indienen]" />
     <node concept="cog_b" id="lbB2sfKdNA" role="2pmM46">
       <ref role="cog$q" node="lbB2sfKdMY" resolve="art. 4lid 1, " />
-      <node concept="19SGf9" id="lbB2sfKdNB" role="aVT4J">
+      <node concept="2hPCcK" id="45WVu5_cdIF" role="2hN6Sa">
         <node concept="19SUe$" id="lbB2sfKdND" role="19SJt6">
           <property role="19SUeA" value="Een aanvraag wordt ingediend met gebruikmaking van een door de minister beschikbaar gesteld middel." />
         </node>
@@ -300,7 +294,7 @@
     <property role="207Gpp" value="[stellen]" />
     <node concept="cog_b" id="lbB2sfKdNM" role="2pmM46">
       <ref role="cog$q" node="lbB2sfKdMY" resolve="art. 4lid 1, " />
-      <node concept="19SGf9" id="lbB2sfKdNN" role="aVT4J">
+      <node concept="2hPCcK" id="45WVu5_cdIH" role="2hN6Sa">
         <node concept="19SUe$" id="lbB2sfKdNP" role="19SJt6">
           <property role="19SUeA" value="Een aanvraag wordt ingediend met gebruikmaking van een door de minister beschikbaar gesteld middel." />
         </node>
@@ -326,7 +320,7 @@
     <property role="207Gpp" value="[indienen]" />
     <node concept="cog_b" id="lbB2sfKdNY" role="2pmM46">
       <ref role="cog$q" node="lbB2sfKdMZ" resolve="art. 4lid 3, " />
-      <node concept="19SGf9" id="lbB2sfKdNZ" role="aVT4J">
+      <node concept="2hPCcK" id="45WVu5_cdIJ" role="2hN6Sa">
         <node concept="19SUe$" id="lbB2sfKdO1" role="19SJt6">
           <property role="19SUeA" value="Een aanvraag kan worden ingediend in de periode van 27maart 2020 tot en met 26juni 2020." />
         </node>
@@ -352,7 +346,7 @@
     <property role="207Gpp" value="[stellen]" />
     <node concept="cog_b" id="lbB2sfKdOa" role="2pmM46">
       <ref role="cog$q" node="lbB2sfKdN0" resolve="art. 5, " />
-      <node concept="19SGf9" id="lbB2sfKdOb" role="aVT4J">
+      <node concept="2hPCcK" id="45WVu5_cdIL" role="2hN6Sa">
         <node concept="19SUe$" id="lbB2sfKdOd" role="19SJt6">
           <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
         </node>
@@ -378,7 +372,7 @@
     <property role="207Gpp" value="[nemen]" />
     <node concept="cog_b" id="lbB2sfKdOm" role="2pmM46">
       <ref role="cog$q" node="lbB2sfKdN0" resolve="art. 5, " />
-      <node concept="19SGf9" id="lbB2sfKdOn" role="aVT4J">
+      <node concept="2hPCcK" id="45WVu5_cdIN" role="2hN6Sa">
         <node concept="19SUe$" id="lbB2sfKdOp" role="19SJt6">
           <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
         </node>
@@ -399,7 +393,7 @@
     <property role="207Gpp" value="[plaatsen]" />
     <node concept="cog_b" id="lbB2sfKdOx" role="2pmM46">
       <ref role="cog$q" node="lbB2sfKdN1" resolve="art. 8lid 1, " />
-      <node concept="19SGf9" id="lbB2sfKdOy" role="aVT4J">
+      <node concept="2hPCcK" id="45WVu5_cdIP" role="2hN6Sa">
         <node concept="19SUe$" id="lbB2sfKdO$" role="19SJt6">
           <property role="19SUeA" value="Deze beleidsregel treedt in werking met ingang van de dag na de datum van uitgifte van de Staatscourant waarin zij wordt geplaatst, en werkt terug tot en met 27maart 2020." />
         </node>
@@ -433,7 +427,7 @@
     <property role="207Gpp" value="[indienen]" />
     <node concept="cog_b" id="lbB2sfKdOJ" role="2pmM46">
       <ref role="cog$q" node="lbB2sfKdN2" resolve="art. 8lid 2, " />
-      <node concept="19SGf9" id="lbB2sfKdOK" role="aVT4J">
+      <node concept="2hPCcK" id="45WVu5_cdIR" role="2hN6Sa">
         <node concept="19SUe$" id="lbB2sfKdOM" role="19SJt6">
           <property role="19SUeA" value="Deze beleidsregel vervalt met ingang van 1januari 2021, met dien verstande dat de beleidsregel van toepassing blijft op aanvragen om tegemoetkoming die uiterlijk 26juni 2020 zijn ingediend, dan wel op tegemoetkomingen die voor 1januari 2021 zijn verstrekt." />
         </node>
@@ -473,109 +467,101 @@
     <node concept="1FQA6B" id="2_LEkEjGqRD" role="3H36lm" />
     <node concept="cog_b" id="2_LEkEjGqRE" role="2pmM46">
       <ref role="cog$q" node="sn6jp7g0cj" resolve="Artikel 1 (begripsbepalingen)" />
-      <node concept="19SGf9" id="2_LEkEjGqRF" role="aVT4J">
-        <node concept="19SUe$" id="5ku_jRT7xzg" role="19SJt6" />
-        <node concept="aU1KX" id="5ku_jRT7xze" role="19SJt6">
-          <property role="aYSo3" value="De" />
-          <node concept="2UK0tq" id="5ku_jRT7xzf" role="2UK0tp">
-            <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
+      <node concept="2hPCcK" id="45WVu5_cdIT" role="2hN6Sa">
+        <node concept="2h$EKm" id="45WVu5_cdIV" role="19SJt6">
+          <property role="19SUeA" value="De" />
+          <node concept="2UK0tq" id="45WVu5_dz70" role="2h$EKj">
+            <property role="2UK0tr" value="4AIlyP2wQAL/Actor" />
           </node>
         </node>
         <node concept="19SUe$" id="5ku_jRT7xzd" role="19SJt6">
           <property role="19SUeA" value=" " />
         </node>
-        <node concept="aU1KX" id="5ku_jRT7xzb" role="19SJt6">
-          <property role="aYSo3" value="minister" />
-          <node concept="2UK0tq" id="5ku_jRT7xzc" role="2UK0tp">
-            <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
+        <node concept="2h$EKm" id="45WVu5_cdIX" role="19SJt6">
+          <property role="19SUeA" value="minister" />
+          <node concept="2UK0tq" id="45WVu5_dz6X" role="2h$EKj">
+            <property role="2UK0tr" value="4AIlyP2wQAL/Actor" />
           </node>
         </node>
         <node concept="19SUe$" id="5ku_jRT7xza" role="19SJt6">
           <property role="19SUeA" value=" " />
         </node>
-        <node concept="aU1KX" id="2_LEkEjGqRJ" role="19SJt6">
-          <property role="aYSo3" value="verstrekt" />
-          <property role="aMd54" value="4AIlyP2wQAP/Action" />
-          <node concept="2UK0tq" id="2_LEkEk3IIS" role="2UK0tp">
+        <node concept="2h$EKm" id="45WVu5_cdIZ" role="19SJt6">
+          <property role="19SUeA" value="verstrekt" />
+          <node concept="2UK0tq" id="45WVu5_cdJ0" role="2h$EKj">
             <property role="2UK0tr" value="4AIlyP2wQAP/Action" />
-          </node>
-          <node concept="2UK0tq" id="5ku_jRT7xz8" role="2UK0tp">
-            <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
           </node>
         </node>
         <node concept="19SUe$" id="2_LEkEjGqRI" role="19SJt6">
           <property role="19SUeA" value=" " />
         </node>
-        <node concept="aU1KX" id="5ku_jRT7xz6" role="19SJt6">
-          <property role="aYSo3" value="op" />
-          <node concept="2UK0tq" id="5ku_jRT7xz7" role="2UK0tp">
-            <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
+        <node concept="2h$EKm" id="45WVu5_cdJ1" role="19SJt6">
+          <property role="19SUeA" value="op" />
+          <node concept="2UK0tq" id="45WVu5_cdJ2" role="2h$EKj">
+            <property role="2UK0tr" value="4AIlyP2wQB2/ActCreate" />
           </node>
         </node>
         <node concept="19SUe$" id="5ku_jRT7xz5" role="19SJt6">
           <property role="19SUeA" value=" " />
         </node>
-        <node concept="aU1KX" id="76mcYUAtkg7" role="19SJt6">
-          <property role="aYSo3" value="aanvraag" />
-          <node concept="2UK0tq" id="76mcYUAtkg8" role="2UK0tp">
-            <property role="2UK0tr" value="4AIlyP2wQBp/Object" />
-          </node>
-          <node concept="2UK0tq" id="5ku_jRT7xz3" role="2UK0tp">
+        <node concept="2h$EKm" id="45WVu5_cdJ3" role="19SJt6">
+          <property role="19SUeA" value="aanvraag" />
+          <node concept="2UK0tq" id="45WVu5_cdJ4" role="2h$EKj">
             <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
           </node>
         </node>
         <node concept="19SUe$" id="76mcYUAtkg6" role="19SJt6">
           <property role="19SUeA" value=" " />
         </node>
-        <node concept="aU1KX" id="5ku_jRT7xz1" role="19SJt6">
-          <property role="aYSo3" value="een" />
-          <node concept="2UK0tq" id="5ku_jRT7xz2" role="2UK0tp">
+        <node concept="2h$EKm" id="45WVu5_cdJ5" role="19SJt6">
+          <property role="19SUeA" value="een" />
+          <node concept="2UK0tq" id="45WVu5_cdJ6" role="2h$EKj">
             <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
           </node>
         </node>
         <node concept="19SUe$" id="5ku_jRT7xz0" role="19SJt6">
           <property role="19SUeA" value=" " />
         </node>
-        <node concept="aU1KX" id="5ku_jRT7xyX" role="19SJt6">
-          <property role="aYSo3" value="tegemoetkoming" />
-          <node concept="2UK0tq" id="5ku_jRT7xyY" role="2UK0tp">
+        <node concept="2h$EKm" id="45WVu5_cdJ7" role="19SJt6">
+          <property role="19SUeA" value="tegemoetkoming" />
+          <node concept="2UK0tq" id="45WVu5_dz73" role="2h$EKj">
             <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
           </node>
         </node>
         <node concept="19SUe$" id="5ku_jRT7xyW" role="19SJt6">
           <property role="19SUeA" value=" " />
         </node>
-        <node concept="aU1KX" id="5ku_jRT7xyT" role="19SJt6">
-          <property role="aYSo3" value="aan" />
-          <node concept="2UK0tq" id="5ku_jRT7xyU" role="2UK0tp">
+        <node concept="2h$EKm" id="45WVu5_cdJ9" role="19SJt6">
+          <property role="19SUeA" value="aan" />
+          <node concept="2UK0tq" id="45WVu5_dz76" role="2h$EKj">
             <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
           </node>
         </node>
         <node concept="19SUe$" id="5ku_jRT7xyS" role="19SJt6">
           <property role="19SUeA" value=" " />
         </node>
-        <node concept="aU1KX" id="5ku_jRT7xyP" role="19SJt6">
-          <property role="aYSo3" value="een" />
-          <node concept="2UK0tq" id="5ku_jRT7xyQ" role="2UK0tp">
+        <node concept="2h$EKm" id="45WVu5_cdJb" role="19SJt6">
+          <property role="19SUeA" value="een" />
+          <node concept="2UK0tq" id="45WVu5_dz79" role="2h$EKj">
             <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
           </node>
         </node>
         <node concept="19SUe$" id="5ku_jRT7xyO" role="19SJt6">
           <property role="19SUeA" value=" " />
         </node>
-        <node concept="aU1KX" id="5ku_jRT7xyL" role="19SJt6">
-          <property role="aYSo3" value="gedupeerde" />
-          <node concept="2UK0tq" id="5ku_jRT7xyM" role="2UK0tp">
-            <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
+        <node concept="2h$EKm" id="45WVu5_cdJd" role="19SJt6">
+          <property role="19SUeA" value="gedupeerde" />
+          <node concept="2UK0tq" id="45WVu5_cdJe" role="2h$EKj">
+            <property role="2UK0tr" value="4AIlyP2wQB2/ActCreate" />
           </node>
         </node>
         <node concept="19SUe$" id="5ku_jRT7xyK" role="19SJt6">
           <property role="19SUeA" value=" " />
         </node>
-        <node concept="aU1KX" id="5ku_jRT7xyH" role="19SJt6">
-          <property role="aYSo3" value="onderneming" />
-          <node concept="2UK0tq" id="5ku_jRT7xyI" role="2UK0tp">
-            <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
+        <node concept="2h$EKm" id="45WVu5_cdJf" role="19SJt6">
+          <property role="19SUeA" value="onderneming" />
+          <node concept="2UK0tq" id="45WVu5_cdJg" role="2h$EKj">
+            <property role="2UK0tr" value="4AIlyP2wQB2/ActCreate" />
           </node>
         </node>
         <node concept="19SUe$" id="5ku_jRT7xyG" role="19SJt6">
