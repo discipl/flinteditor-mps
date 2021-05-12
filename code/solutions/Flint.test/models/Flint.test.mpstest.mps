@@ -11,6 +11,7 @@
     <use id="0bfae715-f669-4a10-999a-ba0ca94a1c3c" name="FlintTests" version="0" />
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="0" />
     <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
+    <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
   </languages>
   <imports>
     <import index="19bf" ref="r:9ccc0aaa-6a7d-428b-801a-7c9a042369d0(Flint.typesystem)" />
@@ -145,6 +146,7 @@
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
+      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
@@ -302,6 +304,12 @@
         <child id="554465258093190247" name="arguments" index="3Fgkth" />
       </concept>
     </language>
+    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
+      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
+        <property id="6332851714983843871" name="severity" index="2xdLsb" />
+        <child id="5721587534047265374" name="message" index="9lYJi" />
+      </concept>
+    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
@@ -342,6 +350,10 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
+        <property id="8575328350543493365" name="message" index="huDt6" />
+        <property id="2423417345669755629" name="filter" index="1eyWvh" />
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
@@ -733,9 +745,6 @@
         <node concept="mu5$5" id="28ttwYheEci" role="3_ImHT">
           <property role="TrG5h" value="TestAct" />
           <property role="207Gpp" value="test" />
-          <node concept="1FQA6B" id="28ttwYheEcs" role="3H36mW">
-            <ref role="1FQA6$" node="28ttwYheEcq" resolve="placeholder" />
-          </node>
           <node concept="1FQA6B" id="28ttwYheEcv" role="3H36l7">
             <ref role="1FQA6$" node="28ttwYheEcq" resolve="placeholder" />
           </node>
@@ -886,7 +895,7 @@
         <node concept="mu5$5" id="28ttwYheEfV" role="3_ImHT">
           <property role="TrG5h" value="TestAct" />
           <property role="207Gpp" value="test" />
-          <node concept="1FQA6B" id="6rq68Pz$OMs" role="3H36mW">
+          <node concept="1FQA6B" id="45WVu5_pzMi" role="3H36mW">
             <ref role="1FQA6$" node="6rq68Pz$OMp" resolve="text" />
           </node>
           <node concept="1FQA6B" id="28ttwYheGDN" role="3H36l7">
@@ -950,6 +959,13 @@
                 <node concept="2UK0tq" id="45WVu5_dyEp" role="2h$EKj">
                   <property role="2UK0tr" value="4AIlyP2wQAL/Actor" />
                 </node>
+                <node concept="LIFWc" id="45WVu5_pFrY" role="lGtFl">
+                  <property role="LIFWa" value="2" />
+                  <property role="OXtK3" value="true" />
+                  <property role="p6zMq" value="2" />
+                  <property role="p6zMs" value="2" />
+                  <property role="LIFWd" value="property_escapedValue_word0" />
+                </node>
               </node>
               <node concept="19SUe$" id="28ttwYhlEQp" role="19SJt6">
                 <property role="19SUeA" value=" is here" />
@@ -965,11 +981,19 @@
     <node concept="3clFbS" id="28ttwYhlEPR" role="LjaKd">
       <node concept="3vwNmj" id="28ttwYhlEPS" role="3cqZAp">
         <node concept="2bRw2S" id="28ttwYhlEPT" role="3vwVQn">
-          <ref role="2bRw2V" to="ktnu:6PpSusSybcO" resolve="UnTag" />
+          <ref role="2bRw2V" to="ktnu:2_LEkEk3Wrs" resolve="Untag" />
         </node>
       </node>
       <node concept="1MFPAf" id="28ttwYhlEPU" role="3cqZAp">
-        <ref role="1MFYO6" to="ktnu:6PpSusSybcO" resolve="UnTag" />
+        <ref role="1MFYO6" to="ktnu:2_LEkEk3Wrs" resolve="Untag" />
+        <node concept="2OqwBi" id="45WVu5_hHbf" role="1v$tAf">
+          <node concept="1XH99k" id="45WVu5_hGQM" role="2Oq$k0">
+            <ref role="1XH99l" to="lnwe:4AIlyP2wQAK" resolve="ERole" />
+          </node>
+          <node concept="2ViDtV" id="45WVu5_hHwb" role="2OqNvi">
+            <ref role="2ViDtZ" to="lnwe:4AIlyP2wQAL" resolve="Actor" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="1qefOq" id="28ttwYhlEPY" role="25YQFr">
@@ -1317,9 +1341,6 @@
         <node concept="cu0$f" id="28ttwYhqMbb" role="3_ImGK">
           <property role="TrG5h" value="placeholder" />
         </node>
-        <node concept="cu0$f" id="6eTAEzJ76gh" role="3_ImGK">
-          <property role="TrG5h" value="text is" />
-        </node>
         <node concept="cog_a" id="28ttwYhqMbc" role="3_ImGG">
           <property role="TrG5h" value="Source1" />
           <property role="cog$t" value="juriconnect" />
@@ -1329,8 +1350,8 @@
         <node concept="mu5$5" id="28ttwYhqMbd" role="3_ImHT">
           <property role="TrG5h" value="TestAct" />
           <property role="207Gpp" value="test" />
-          <node concept="1FQA6B" id="6eTAEzJ76gk" role="3H36mW">
-            <ref role="1FQA6$" node="6eTAEzJ76gh" resolve="text is" />
+          <node concept="1FQA6B" id="45WVu5_pk54" role="3H36mW">
+            <ref role="1FQA6$" node="28ttwYhqMbb" resolve="placeholder" />
           </node>
           <node concept="1FQA6B" id="28ttwYhqMbf" role="3H36l7">
             <ref role="1FQA6$" node="28ttwYhqMbb" resolve="placeholder" />
@@ -1565,7 +1586,7 @@
                             <node concept="3clFbF" id="28ttwYhL4Ul" role="3cqZAp">
                               <node concept="17R0WA" id="28ttwYhL4Um" role="3clFbG">
                                 <node concept="Xl_RD" id="28ttwYhL4Un" role="3uHU7w">
-                                  <property role="Xl_RC" value="Remove Tags" />
+                                  <property role="Xl_RC" value="Remove Actor tag" />
                                 </node>
                                 <node concept="2OqwBi" id="28ttwYhL4Uo" role="3uHU7B">
                                   <node concept="37vLTw" id="28ttwYhL4Up" role="2Oq$k0">
@@ -1590,6 +1611,17 @@
                     </node>
                   </node>
                 </node>
+                <node concept="2xdQw9" id="45WVu5_q3H3" role="3cqZAp">
+                  <property role="2xdLsb" value="h1akgim/info" />
+                  <node concept="3cpWs3" id="45WVu5_q4MS" role="9lYJi">
+                    <node concept="37vLTw" id="45WVu5_q4WQ" role="3uHU7w">
+                      <ref role="3cqZAo" node="28ttwYhL4Ue" resolve="executable" />
+                    </node>
+                    <node concept="Xl_RD" id="45WVu5_q3H5" role="3uHU7B">
+                      <property role="Xl_RC" value="executable: " />
+                    </node>
+                  </node>
+                </node>
                 <node concept="3clFbJ" id="28ttwYhL4Uu" role="3cqZAp">
                   <node concept="3clFbS" id="28ttwYhL4Uv" role="3clFbx">
                     <node concept="YS8fn" id="28ttwYhL4Uw" role="3cqZAp">
@@ -1597,7 +1629,7 @@
                         <node concept="1pGfFk" id="28ttwYhL4Uy" role="2ShVmc">
                           <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
                           <node concept="Xl_RD" id="28ttwYhL4Uz" role="37wK5m">
-                            <property role="Xl_RC" value="No applicable 'Remove Tags' intention found for selection" />
+                            <property role="Xl_RC" value="No applicable 'Remove Actor tag' intention found for selection" />
                           </node>
                         </node>
                       </node>
@@ -1780,7 +1812,7 @@
                   <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
                 </node>
               </node>
-              <node concept="19SUe$" id="4pyf5wD$RcC" role="19SJt6">
+              <node concept="19SUe$" id="4pyf5wCP3B5" role="19SJt6">
                 <property role="19SUeA" value=" " />
               </node>
               <node concept="2h$EKm" id="45WVu5_dyEK" role="19SJt6">
@@ -1789,7 +1821,7 @@
                   <property role="2UK0tr" value="4AIlyP2wQAL/Actor" />
                 </node>
               </node>
-              <node concept="19SUe$" id="4pyf5wCP3B5" role="19SJt6">
+              <node concept="19SUe$" id="45WVu5_Qev$" role="19SJt6">
                 <property role="19SUeA" value=" is a " />
               </node>
               <node concept="2h$EKm" id="45WVu5_dyEM" role="19SJt6">
@@ -1979,6 +2011,10 @@
   <node concept="2lJO3n" id="45WVu5_4VB6">
     <property role="TrG5h" value="MultiTagging_Test" />
     <node concept="1qefOq" id="45WVu5_4W5g" role="2lJPY$">
+      <node concept="15s5l7" id="45WVu5_hEFx" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No reference in the obligatory role 'fact'&quot;;FLAVOUR_NODE_FEATURE=&quot;fact&quot;;" />
+        <property role="huDt6" value="No reference in the obligatory role 'fact'" />
+      </node>
       <node concept="3_ImHQ" id="45WVu5_4W5h" role="1qenE9">
         <property role="TrG5h" value="Test" />
         <node concept="mu5$5" id="45WVu5_4W5i" role="3_ImHT">
@@ -2019,6 +2055,10 @@
       <ref role="3ea_Bf" to="kzwd:45WVu5$VpTu" resolve="MultiTagging" />
     </node>
     <node concept="1qefOq" id="45WVu5_4W2I" role="2lJO3o">
+      <node concept="15s5l7" id="45WVu5_hnfy" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No reference in the obligatory role 'fact'&quot;;FLAVOUR_NODE_FEATURE=&quot;fact&quot;;" />
+        <property role="huDt6" value="No reference in the obligatory role 'fact'" />
+      </node>
       <node concept="3_ImHQ" id="45WVu5_4W2H" role="1qenE9">
         <property role="TrG5h" value="Test" />
         <node concept="mu5$5" id="45WVu5_4W2L" role="3_ImHT">

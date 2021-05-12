@@ -1980,6 +1980,11 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
           </node>
         </node>
+        <node concept="1SiIV0" id="45WVu5_hmMv" role="3bR37C">
+          <node concept="3bR9La" id="45WVu5_hmMw" role="1SiIV1">
+            <ref role="3bR37D" to="90a9:MUKpduCMlF" resolve="de.slisson.mps.richtext.customcell" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="QLMwktTkqF" role="2G$12L">
         <property role="BnDLt" value="true" />
