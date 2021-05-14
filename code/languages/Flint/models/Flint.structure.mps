@@ -166,8 +166,15 @@
       <property role="IQ2ns" value="5309275763118294786" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="textParts" />
-      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="87nw:2dWzqxEB$Tx" resolve="Text" />
+      <node concept="asaX9" id="6LSqBjXH9cB" role="lGtFl" />
+    </node>
+    <node concept="1TJgyj" id="6LSqBjXH0hY" role="1TKVEi">
+      <property role="IQ2ns" value="7816114204006679678" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="betterText" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6LSqBjXFI_4" resolve="CustomText" />
     </node>
   </node>
   <node concept="1TIwiD" id="5Xjenljcz0Z">
@@ -782,7 +789,7 @@
   </node>
   <node concept="25R3W" id="4AIlyP2wQAK">
     <property role="3F6X1D" value="5309275763105819056" />
-    <property role="TrG5h" value="Role" />
+    <property role="TrG5h" value="ERole" />
     <node concept="25R33" id="4AIlyP2wQAL" role="25R1y">
       <property role="3tVfz5" value="5309275763105819057" />
       <property role="TrG5h" value="Actor" />
@@ -857,7 +864,7 @@
   </node>
   <node concept="1TIwiD" id="4AIlyP3h$Cg">
     <property role="EcuMT" value="5309275763118590480" />
-    <property role="TrG5h" value="TaggedWord" />
+    <property role="TrG5h" value="OldTaggedWord" />
     <property role="34LRSv" value="tagged" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4AIlyP3lt0G" role="PzmwI">
@@ -871,8 +878,10 @@
     <node concept="1TJgyi" id="4AIlyP3pCtD" role="1TKVEl">
       <property role="IQ2nx" value="5309275763120703337" />
       <property role="TrG5h" value="role" />
-      <ref role="AX2Wp" node="4AIlyP2wQAK" resolve="Role" />
+      <ref role="AX2Wp" node="4AIlyP2wQAK" resolve="ERole" />
+      <node concept="asaX9" id="2_LEkEjNv_O" role="lGtFl" />
     </node>
+    <node concept="asaX9" id="6LSqBjXYGPc" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="1nyeVyNiRPP">
     <property role="EcuMT" value="1576888484001185141" />
@@ -1014,6 +1023,34 @@
       <property role="IQ2nx" value="8679002930326901018" />
       <property role="TrG5h" value="prefix" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2_LEkEjGqSg">
+    <property role="EcuMT" value="2986354165693918736" />
+    <property role="TrG5h" value="SRole" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="2_LEkEjGqSh" role="1TKVEl">
+      <property role="IQ2nx" value="2986354165693918737" />
+      <property role="TrG5h" value="role" />
+      <ref role="AX2Wp" node="4AIlyP2wQAK" resolve="ERole" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6LSqBjXFI_4">
+    <property role="EcuMT" value="7816114204006345028" />
+    <property role="TrG5h" value="CustomText" />
+    <ref role="1TJDcQ" to="87nw:2dWzqxEB$Tx" resolve="Text" />
+  </node>
+  <node concept="1TIwiD" id="6LSqBjXUGpy">
+    <property role="EcuMT" value="7816114204010268258" />
+    <property role="TrG5h" value="TaggedWord" />
+    <property role="34LRSv" value="tagged" />
+    <ref role="1TJDcQ" to="87nw:2dWzqxEBMSc" resolve="Word" />
+    <node concept="1TJgyj" id="6LSqBjXUGpB" role="1TKVEi">
+      <property role="IQ2ns" value="7816114204010268263" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="roles" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="2_LEkEjGqSg" resolve="SRole" />
     </node>
   </node>
 </model>

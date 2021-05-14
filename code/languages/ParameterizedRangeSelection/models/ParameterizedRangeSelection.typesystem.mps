@@ -6,7 +6,6 @@
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
-    <import index="tp3j" ref="r:00000000-0000-4000-0000-011c89590353(jetbrains.mps.lang.intentions.structure)" />
     <import index="lw3y" ref="r:e4433e26-c866-4b12-8f3e-3810d1e6dcea(ParameterizedRangeSelection.structure)" implicit="true" />
     <import index="p77b" ref="r:7f45f3a9-c768-43c9-bd6b-1388795a845f(de.itemis.mps.selection.intentions.structure)" implicit="true" />
   </imports>
@@ -18,9 +17,6 @@
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
-      </concept>
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
@@ -39,7 +35,6 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
@@ -80,12 +75,6 @@
         <child id="1174660783414" name="rightExpression" index="1ZfhKB" />
       </concept>
     </language>
-    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
-        <property id="6332851714983843871" name="severity" index="2xdLsb" />
-        <child id="5721587534047265374" name="message" index="9lYJi" />
-      </concept>
-    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
@@ -111,7 +100,7 @@
     </language>
   </registry>
   <node concept="1YbPZF" id="1ILeZy3Spic">
-    <property role="TrG5h" value="typeof_IntentionParameter" />
+    <property role="TrG5h" value="typeof_ParameterizedIntentionParameter" />
     <node concept="3clFbS" id="1ILeZy3Spid" role="18ibNy">
       <node concept="3cpWs8" id="i38ZRQ9" role="3cqZAp">
         <node concept="3cpWsn" id="i38ZRQa" role="3cpWs9">
@@ -121,7 +110,7 @@
           </node>
           <node concept="2OqwBi" id="i38ZXDS" role="33vP2m">
             <node concept="1YBJjd" id="i38ZX$v" role="2Oq$k0">
-              <ref role="1YBMHb" node="1ILeZy3SpiU" resolve="intentionParameter" />
+              <ref role="1YBMHb" node="1ILeZy3SpiU" resolve="parameterizedIntentionParameter" />
             </node>
             <node concept="2Xjw5R" id="i38ZY8t" role="2OqNvi">
               <node concept="1xMEDy" id="i38ZY8u" role="1xVPHs">
@@ -137,7 +126,7 @@
         <node concept="mw_s8" id="1ILeZy5q9W3" role="1ZfhK$">
           <node concept="1Z2H0r" id="1ILeZy5q9W4" role="mwGJk">
             <node concept="1YBJjd" id="1ILeZy5q9W5" role="1Z2MuG">
-              <ref role="1YBMHb" node="1ILeZy3SpiU" resolve="intentionParameter" />
+              <ref role="1YBMHb" node="1ILeZy3SpiU" resolve="parameterizedIntentionParameter" />
             </node>
           </node>
         </node>
@@ -159,8 +148,8 @@
       </node>
     </node>
     <node concept="1YaCAy" id="1ILeZy3SpiU" role="1YuTPh">
-      <property role="TrG5h" value="intentionParameter" />
-      <ref role="1YaFvo" to="tp3j:i38ZlvV" resolve="IntentionParameter" />
+      <property role="TrG5h" value="parameterizedIntentionParameter" />
+      <ref role="1YaFvo" to="lw3y:2_LEkEjtrlF" resolve="ParameterizedIntentionParameter" />
     </node>
     <node concept="bXqS6" id="1ILeZy5lcUx" role="ujSXK">
       <node concept="3clFbS" id="1ILeZy5lcUy" role="2VODD2">
@@ -169,7 +158,7 @@
             <node concept="10Nm6u" id="1ILeZy5lf$7" role="3uHU7w" />
             <node concept="2OqwBi" id="1ILeZy5ldj8" role="3uHU7B">
               <node concept="1YBJjd" id="1ILeZy5ld2Q" role="2Oq$k0">
-                <ref role="1YBMHb" node="1ILeZy3SpiU" resolve="intentionParameter" />
+                <ref role="1YBMHb" node="1ILeZy3SpiU" resolve="parameterizedIntentionParameter" />
               </node>
               <node concept="2Xjw5R" id="1ILeZy5ldXn" role="2OqNvi">
                 <node concept="1xMEDy" id="1ILeZy5ldXp" role="1xVPHs">
@@ -190,7 +179,7 @@
             <node concept="10Nm6u" id="1ILeZy5lfR4" role="3uHU7w" />
             <node concept="2OqwBi" id="1ILeZy5lfR5" role="3uHU7B">
               <node concept="1YBJjd" id="1ILeZy5lfR6" role="2Oq$k0">
-                <ref role="1YBMHb" node="1ILeZy3SpiU" resolve="intentionParameter" />
+                <ref role="1YBMHb" node="1ILeZy3SpiU" resolve="parameterizedIntentionParameter" />
               </node>
               <node concept="2Xjw5R" id="1ILeZy5lfR7" role="2OqNvi">
                 <node concept="1xMEDy" id="1ILeZy5lfR8" role="1xVPHs">
@@ -254,17 +243,6 @@
     </node>
     <node concept="2n1zYR" id="1ILeZy5l9CM" role="2n1DPF">
       <node concept="3clFbS" id="1ILeZy5l9CN" role="2VODD2">
-        <node concept="2xdQw9" id="7B7tObTV_lD" role="3cqZAp">
-          <property role="2xdLsb" value="h1akgim/info" />
-          <node concept="3cpWs3" id="7B7tObTV_MN" role="9lYJi">
-            <node concept="1YBJjd" id="7B7tObTV_NK" role="3uHU7w">
-              <ref role="1YBMHb" node="1ILeZy5bW6t" resolve="parameter_Selection" />
-            </node>
-            <node concept="Xl_RD" id="7B7tObTV_lF" role="3uHU7B">
-              <property role="Xl_RC" value="paramSelection: " />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="1ILeZy5l9GG" role="3cqZAp">
           <node concept="17QLQc" id="1ILeZy5laO5" role="3clFbG">
             <node concept="10Nm6u" id="1ILeZy5laTn" role="3uHU7w" />

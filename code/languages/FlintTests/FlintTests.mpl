@@ -44,7 +44,7 @@
       </languageVersions>
       <dependencyVersions>
         <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
-        <module reference="69940819-10c1-4a38-ac44-700b63f993ba(Flint)" version="0" />
+        <module reference="69940819-10c1-4a38-ac44-700b63f993ba(Flint)" version="1" />
         <module reference="acf1b507-e791-4de3-b55f-a3880c36d5bb(Flint.runtime)" version="0" />
         <module reference="0bfae715-f669-4a10-999a-ba0ca94a1c3c(FlintTests)" version="0" />
         <module reference="65473e0b-5613-49ff-a6cd-299ff43b8b22(FlintTests#01)" version="0" />
@@ -108,7 +108,7 @@
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
-    <module reference="69940819-10c1-4a38-ac44-700b63f993ba(Flint)" version="0" />
+    <module reference="69940819-10c1-4a38-ac44-700b63f993ba(Flint)" version="1" />
     <module reference="0bfae715-f669-4a10-999a-ba0ca94a1c3c(FlintTests)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
