@@ -330,6 +330,9 @@ task collectXmlReports() {
                 new File(project("code:java:FlintParser").buildDir, "test-results")
             }
             from {
+                new File(project("code:java:FlintSources").buildDir, "test-results")
+            }
+            from {
                 new File(codeDir, "$testFileName")
             }
             into "$reportsDir/sources"
