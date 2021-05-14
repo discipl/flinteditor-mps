@@ -36,7 +36,7 @@ ext {
     generateTask = null
 
     testFileName = "TEST-jetbrains.mps.testbench.junit.suites.AntModuleTestSuite0-execution.xml"
-    flint_filler_release_version = "v0.0.4"
+    flint_filler_release_version = "v0.0.5"
     flint_filler_executables_dir = new File(generatedResourcesDir, "flintfiller")
 
     javafx_version = "14"
