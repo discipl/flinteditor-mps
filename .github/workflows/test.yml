@@ -6,9 +6,11 @@ on:
 
 jobs:
   build:
+    env:
+      DISPLAY: :0
     strategy:
       matrix:
-        os: [ ubuntu-16.04, macos-latest, windows-latest ]
+        os: [ macos-latest, windows-latest ]
     name: Run Tests
     runs-on: ${{ matrix.os }}
     steps:
@@ -19,12 +21,17 @@ jobs:
           java-version: 11
       - name: Check java
         run: java --version
-      - name: Test
-        uses: GabrielBB/xvfb-action@v1
+      - name: Setup xvfb (Linux)
+        if: ${{ matrix.os == 'ubuntu-16.04' }}
+        run: |
+          sudo apt-get install -y xvfb
+          sudo /usr/bin/Xvfb $DISPLAY -screen 0 1280x1024x24 &
+      - uses: burrunan/gradle-cache-action@v1
+        name: Test
         with:
-          run: ./gradlew initProject test
-        env:
-          GRADLE_OPTS: -Dorg.gradle.daemon=false
+          job-id: jdk11
+          arguments: --no-parallel initProject test
+          gradle-version: wrapper
       - name: Tests failed
         if: ${{ matrix.os == 'ubuntu-16.04' && failure() }}
         run: sudo apt-get install lynx && if [ -f ./code/build/reports/html/junit-noframes.html ]; then lynx -dump ./code/build/reports/html/junit-noframes.html; fi && if [ -f ./code/java/FlintParser/build/reports/tests/test/index.html ]; then lynx -dump ./code/java/FlintParser/build/reports/tests/test/index.html; fi && if [ -f ./code/java/FlintParser/build/reports/tests/test/classes/org.discipl.flint.flintfiller.FlintFillerTest.html ]; then lynx -dump ./code/java/FlintParser/build/reports/tests/test/classes/org.discipl.flint.flintfiller.FlintFillerTest.html; fi
