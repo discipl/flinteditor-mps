@@ -20,7 +20,7 @@
     <dependency reexport="false">92d2ea16-5a42-4fdf-a676-c7604efe3504(de.slisson.mps.richtext)</dependency>
   </dependencies>
   <languageVersions>
-    <language slang="l:69940819-10c1-4a38-ac44-700b63f993ba:Flint" version="5" />
+    <language slang="l:69940819-10c1-4a38-ac44-700b63f993ba:Flint" version="6" />
     <language slang="l:0bfae715-f669-4a10-999a-ba0ca94a1c3c:FlintTests" version="0" />
     <language slang="l:b5c0bb04-c583-4b2a-a66e-1eab92d33c68:com.mbeddr.mpsutil.json" version="0" />
     <language slang="l:92d2ea16-5a42-4fdf-a676-c7604efe3504:de.slisson.mps.richtext" version="0" />

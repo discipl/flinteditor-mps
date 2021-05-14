@@ -224,7 +224,7 @@
         </node>
       </node>
       <node concept="2I9FWS" id="74VLc6kDj7s" role="3clF45">
-        <ref role="2I9WkF" to="lnwe:5Xjenljcz0Z" resolve="Source" />
+        <ref role="2I9WkF" to="lnwe:5Xjenljcz0Z" resolve="FlintSource" />
       </node>
     </node>
     <node concept="13i0hz" id="4pyf5wBMrHT" role="13h7CS">
@@ -338,7 +338,7 @@
       <node concept="37vLTG" id="4pyf5wBMrIT" role="3clF46">
         <property role="TrG5h" value="source" />
         <node concept="3Tqbb2" id="4pyf5wBMrIU" role="1tU5fm">
-          <ref role="ehGHo" to="lnwe:5Xjenljcz0Z" resolve="Source" />
+          <ref role="ehGHo" to="lnwe:5Xjenljcz0Z" resolve="FlintSource" />
         </node>
       </node>
       <node concept="3cqZAl" id="4pyf5wBMrIV" role="3clF45" />
@@ -526,7 +526,7 @@
             </node>
             <node concept="2Zo12i" id="74VLc6kH$j0" role="2OqNvi">
               <node concept="chp4Y" id="74VLc6kH$AL" role="2Zo12j">
-                <ref role="cht4Q" to="lnwe:5Xjenljcz0Z" resolve="Source" />
+                <ref role="cht4Q" to="lnwe:5Xjenljcz0Z" resolve="FlintSource" />
               </node>
             </node>
           </node>

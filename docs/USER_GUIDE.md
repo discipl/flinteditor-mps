@@ -82,7 +82,7 @@ See [expressions](#expressions).
 ### Removing source tag
 1. Select the words you want to untag.
 1. Hit `Alt+Enter`.
-1. Select 'Remove Tags'.
+1. Select 'Remove X tag'.
 
 ![Untag](images/untag1.png)
 ### Duties
@@ -223,12 +223,13 @@ To import a law text:
 5. Hit the `Refresh` button to load in the articles or hit the `FlintFiller` button to run the flint filler for this version.
     - You can navigate to an article with `Ctrl+Click`.
     
-### Create Act From Law Text
+### Create Act/Duty/Fact From Law Text
 To create an act from law text:
 1. Select the text that your act is in.
-2. Hit `Alt+Enter` and select `Create Act from Selected Text`
+2. Hit `Alt+Enter` or `Right Click > Article Actions` and select `Create {Act/Duty/Fact} from Selected Text`
 ![Create Act from Text](images/createactfromtext.png)
 
+You can also select `Add Text to Existing Node` to add the source to an existing Act/Duty/Fact.
 ## Useful Shortcuts, Tips And Tricks
 - `Ctrl+B` or `Ctrl+Click` will take you to the source of a reference.
 - `Ctrl+F9` will rebuild the current solution.

@@ -68,7 +68,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="testSources" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" to="lnwe:5Xjenljcz0Z" resolve="Source" />
+      <ref role="20lvS9" to="lnwe:5Xjenljcz0Z" resolve="FlintSource" />
     </node>
   </node>
   <node concept="1TIwiD" id="74VLc6kI$jn">

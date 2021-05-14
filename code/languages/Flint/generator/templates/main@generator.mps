@@ -402,7 +402,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="13qOoT9bAvl" role="3acgRq">
-      <ref role="30HIoZ" to="lnwe:6LSqBjXUGpy" resolve="BetterTaggedWord" />
+      <ref role="30HIoZ" to="lnwe:6LSqBjXUGpy" resolve="TaggedWord" />
       <node concept="j$656" id="13qOoT9bAwf" role="1lVwrX">
         <ref role="v9R2y" node="13qOoT9bAwd" resolve="reduce_TaggedWord" />
       </node>
@@ -783,7 +783,7 @@
                                 </node>
                                 <node concept="1mIQ4w" id="13qOoT9bvCg" role="2OqNvi">
                                   <node concept="chp4Y" id="6LSqBjY689t" role="cj9EA">
-                                    <ref role="cht4Q" to="lnwe:6LSqBjXUGpy" resolve="BetterTaggedWord" />
+                                    <ref role="cht4Q" to="lnwe:6LSqBjXUGpy" resolve="TaggedWord" />
                                   </node>
                                 </node>
                               </node>
@@ -2515,7 +2515,7 @@
   </node>
   <node concept="13MO4I" id="13qOoT9bAwd">
     <property role="TrG5h" value="reduce_TaggedWord" />
-    <ref role="3gUMe" to="lnwe:6LSqBjXUGpy" resolve="BetterTaggedWord" />
+    <ref role="3gUMe" to="lnwe:6LSqBjXUGpy" resolve="TaggedWord" />
     <node concept="3YX88f" id="13qOoT9bAwi" role="13RCb5">
       <node concept="3YX88e" id="13qOoT9bAwt" role="3YX86K">
         <property role="TrG5h" value="roles" />
