@@ -1469,6 +1469,9 @@
         <node concept="3_I8Xc" id="2WP7dhE1es5" role="39821P">
           <ref role="3_I8Xa" to="ffeo:4EdAnGErOtx" resolve="mps-core" />
         </node>
+        <node concept="3_I8Xc" id="5BmlQlqgqJf" role="39821P">
+          <ref role="3_I8Xa" to="ffeo:6Hpa5co69Cc" resolve="mps-tooltips" />
+        </node>
         <node concept="3_I8Xc" id="2WP7dhE1es6" role="39821P">
           <ref role="3_I8Xa" to="ffeo:1x6h9EwqP32" resolve="mps-make" />
         </node>
