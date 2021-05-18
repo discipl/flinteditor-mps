@@ -103,3 +103,4 @@ code/build-*.xml
 **.iml
 tests/reports
 .dockerignore
+.idea/jarRepositories.xml
