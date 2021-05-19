@@ -49,7 +49,8 @@ data class Source(
     override val explanation: String,
     val validFrom: String,
     val validTo: String?,
-    val juriconnect: String
+    val juriconnect: String,
+    val tags: List<TaggedWord>?
 ) : Explainable {
     val baseSource
         get() = BaseSource(
@@ -59,6 +60,8 @@ data class Source(
             juriconnect
         )
 }
+
+data class TaggedWord(val word: Int, val role: String)
 
 data class BaseSource(
     val name: String,

@@ -1,0 +1,128 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "uri",
+      "label",
+      "iri",
+      "startDate",
+      "wettenNl"
+    ]
+  },
+  "results": {
+    "distinct": false,
+    "ordered": true,
+    "bindings": [
+      {
+        "uri": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27"
+        },
+        "label": {
+          "type": "literal",
+          "value": "BWBR0043324/15325684/2020-03-31/2020-03-27"
+        },
+        "iri": {
+          "type": "uri",
+          "value": "http://linkeddata.overheid.nl/terms/bwb/id/BWBR0043324/15325684/2020-03-31/2020-03-27"
+        },
+        "startDate": {
+          "type": "literal",
+          "value": "2020-03-31"
+        },
+        "wettenNl": {
+          "type": "uri",
+          "value": "http://wetten.overheid.nl/1.0:c:BWBR0043324&g=2020-03-31"
+        }
+      },
+      {
+        "uri": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-04-17/2020-03-27"
+        },
+        "label": {
+          "type": "literal",
+          "value": "BWBR0043324/15325684/2020-04-17/2020-03-27"
+        },
+        "iri": {
+          "type": "uri",
+          "value": "http://linkeddata.overheid.nl/terms/bwb/id/BWBR0043324/15325684/2020-04-17/2020-03-27"
+        },
+        "startDate": {
+          "type": "literal",
+          "value": "2020-04-17"
+        },
+        "wettenNl": {
+          "type": "uri",
+          "value": "http://wetten.overheid.nl/1.0:c:BWBR0043324&g=2020-04-17"
+        }
+      },
+      {
+        "uri": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-04-22/2020-03-27"
+        },
+        "label": {
+          "type": "literal",
+          "value": "BWBR0043324/15325684/2020-04-22/2020-03-27"
+        },
+        "iri": {
+          "type": "uri",
+          "value": "http://linkeddata.overheid.nl/terms/bwb/id/BWBR0043324/15325684/2020-04-22/2020-03-27"
+        },
+        "startDate": {
+          "type": "literal",
+          "value": "2020-04-22"
+        },
+        "wettenNl": {
+          "type": "uri",
+          "value": "http://wetten.overheid.nl/1.0:c:BWBR0043324&g=2020-04-22"
+        }
+      },
+      {
+        "uri": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27"
+        },
+        "label": {
+          "type": "literal",
+          "value": "BWBR0043324/15325684/2020-05-16/2020-03-27"
+        },
+        "iri": {
+          "type": "uri",
+          "value": "http://linkeddata.overheid.nl/terms/bwb/id/BWBR0043324/15325684/2020-05-16/2020-03-27"
+        },
+        "startDate": {
+          "type": "literal",
+          "value": "2020-05-16"
+        },
+        "wettenNl": {
+          "type": "uri",
+          "value": "http://wetten.overheid.nl/1.0:c:BWBR0043324&g=2020-05-16"
+        }
+      },
+      {
+        "uri": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-06-25/2020-03-27"
+        },
+        "label": {
+          "type": "literal",
+          "value": "BWBR0043324/15325684/2020-06-25/2020-03-27"
+        },
+        "iri": {
+          "type": "uri",
+          "value": "http://linkeddata.overheid.nl/terms/bwb/id/BWBR0043324/15325684/2020-06-25/2020-03-27"
+        },
+        "startDate": {
+          "type": "literal",
+          "value": "2020-06-25"
+        },
+        "wettenNl": {
+          "type": "uri",
+          "value": "http://wetten.overheid.nl/1.0:c:BWBR0043324&g=2020-06-25"
+        }
+      }
+    ]
+  }
+}

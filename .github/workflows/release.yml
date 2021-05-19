@@ -8,6 +8,8 @@ on:
 
 jobs:
   build:
+    env:
+      DISPLAY: :0
     name: Create Release
     runs-on: ubuntu-latest
     steps:
@@ -18,22 +20,22 @@ jobs:
       - uses: actions/setup-java@v1
         with:
           java-version: 11
-      - name: Build Plugin
-        run: ./gradlew initProject buildFlintPlugin
-        env:
-          GRADLE_OPTS: -Dorg.gradle.daemon=false
-      - name: Build IDE
-        uses: GabrielBB/xvfb-action@v1.2
+      - name: Setup xvfb (Linux)
+        run: |
+          sudo apt-get install -y xvfb
+          sudo /usr/bin/Xvfb $DISPLAY -screen 0 1280x1024x24 &
+      - uses: burrunan/gradle-cache-action@v1
+        name: Build Plugin & IDE
         with:
-          run: ./gradlew buildFlintIde
-        env:
-          GRADLE_OPTS: -Dorg.gradle.daemon=false
+          job-id: jdk11
+          arguments: --no-parallel initProject buildFlintPlugin buildFlintIde
+          gradle-version: wrapper
       - name: Upload Test Results
-        if: ${{ failure() }}
+        if: ${{ always() }}
         uses: actions/upload-artifact@v2
         with:
-          name: test-results
-          path: code/java/FlintParser/build/reports/tests/test
+          name: test-results-${{ matrix.os }}
+          path: code/build/reports/html
       - name: Get Release Logs
         id: get_release_logs
         run: |

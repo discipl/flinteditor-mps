@@ -645,7 +645,7 @@
     </node>
     <node concept="1YaCAy" id="35H3ae$Xc8c" role="1YuTPh">
       <property role="TrG5h" value="source" />
-      <ref role="1YaFvo" to="lnwe:5Xjenljcz0Z" resolve="Source" />
+      <ref role="1YaFvo" to="lnwe:5Xjenljcz0Z" resolve="FlintSource" />
     </node>
   </node>
   <node concept="Q5z_Y" id="35H3ae_3ir3">

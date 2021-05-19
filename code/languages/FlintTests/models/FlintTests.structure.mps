@@ -68,12 +68,13 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="testSources" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" to="lnwe:5Xjenljcz0Z" resolve="Source" />
+      <ref role="20lvS9" to="lnwe:5Xjenljcz0Z" resolve="FlintSource" />
     </node>
   </node>
   <node concept="1TIwiD" id="74VLc6kI$jn">
     <property role="EcuMT" value="8159331485614752983" />
     <property role="TrG5h" value="TestScopeProvider" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="74VLc6kI$jo" role="PzmwI">
       <ref role="PrY4T" to="lnwe:74VLc6kEIu3" resolve="ITestScopeProvider" />

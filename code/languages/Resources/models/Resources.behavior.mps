@@ -48,31 +48,21 @@
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
+      <concept id="8118189177080264853" name="jetbrains.mps.baseLanguage.structure.AlternativeType" flags="ig" index="nSUau">
+        <child id="8118189177080264854" name="alternative" index="nSUat" />
+      </concept>
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
       </concept>
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
-      <concept id="1153952380246" name="jetbrains.mps.baseLanguage.structure.TryStatement" flags="nn" index="2GUZhq">
-        <child id="1153952416686" name="body" index="2GV8ay" />
-        <child id="1153952429843" name="finallyBody" index="2GVbov" />
-        <child id="1164903700860" name="catchClause" index="TEXxN" />
-      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
-      <concept id="1164879751025" name="jetbrains.mps.baseLanguage.structure.TryCatchStatement" flags="nn" index="SfApY">
-        <child id="1164879758292" name="body" index="SfCbr" />
-        <child id="1164903496223" name="catchClause" index="TEbGg" />
-      </concept>
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
-      </concept>
-      <concept id="1164903280175" name="jetbrains.mps.baseLanguage.structure.CatchClause" flags="nn" index="TDmWw">
-        <child id="1164903359218" name="catchBody" index="TDEfX" />
-        <child id="1164903359217" name="throwable" index="TDEfY" />
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
@@ -80,6 +70,7 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="4952749571008284462" name="jetbrains.mps.baseLanguage.structure.CatchVariable" flags="ng" index="XOnhg" />
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
@@ -92,6 +83,7 @@
         <child id="1070534760952" name="componentType" index="10Q1$1" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
+        <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
@@ -142,8 +134,20 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="3093926081414150598" name="jetbrains.mps.baseLanguage.structure.MultipleCatchClause" flags="ng" index="3uVAMA">
+        <child id="8276990574895933173" name="catchBody" index="1zc67A" />
+        <child id="8276990574895933172" name="throwable" index="1zc67B" />
+      </concept>
+      <concept id="8276990574909231788" name="jetbrains.mps.baseLanguage.structure.FinallyClause" flags="ng" index="1wplmZ">
+        <child id="8276990574909234106" name="finallyBody" index="1wplMD" />
+      </concept>
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
+      </concept>
+      <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="nn" index="3J1_TO">
+        <child id="8276990574886367510" name="catchClause" index="1zxBo5" />
+        <child id="8276990574886367509" name="finallyClause" index="1zxBo6" />
+        <child id="8276990574886367508" name="body" index="1zxBo7" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -387,8 +391,8 @@
           </node>
         </node>
         <node concept="3clFbH" id="e8hxMwi3F4" role="3cqZAp" />
-        <node concept="SfApY" id="e8hxMwi6Vf" role="3cqZAp">
-          <node concept="3clFbS" id="e8hxMwi6Vh" role="SfCbr">
+        <node concept="3J1_TO" id="e8hxMwi6Vf" role="3cqZAp">
+          <node concept="3clFbS" id="e8hxMwi6Vh" role="1zxBo7">
             <node concept="3clFbF" id="e8hxMwi4_1" role="3cqZAp">
               <node concept="2OqwBi" id="e8hxMwib9F" role="3clFbG">
                 <node concept="2YIFZM" id="e8hxMwi5N6" role="2Oq$k0">
@@ -432,14 +436,17 @@
               </node>
             </node>
           </node>
-          <node concept="TDmWw" id="e8hxMwi6Vi" role="TEbGg">
-            <node concept="3cpWsn" id="e8hxMwi6Vk" role="TDEfY">
+          <node concept="3uVAMA" id="e8hxMwi6Vi" role="1zxBo5">
+            <node concept="XOnhg" id="e8hxMwi6Vk" role="1zc67B">
+              <property role="3TUv4t" value="false" />
               <property role="TrG5h" value="t" />
-              <node concept="3uibUv" id="e8hxMwi7pC" role="1tU5fm">
-                <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+              <node concept="nSUau" id="c2O3LtDtTJJ" role="1tU5fm">
+                <node concept="3uibUv" id="e8hxMwi7pC" role="nSUat">
+                  <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+                </node>
               </node>
             </node>
-            <node concept="3clFbS" id="e8hxMwi6Vo" role="TDEfX">
+            <node concept="3clFbS" id="e8hxMwi6Vo" role="1zc67A">
               <node concept="YS8fn" id="e8hxMwtk4W" role="3cqZAp">
                 <node concept="2ShNRf" id="e8hxMwtk4X" role="YScLw">
                   <node concept="1pGfFk" id="e8hxMwtk4Y" role="2ShVmc">
@@ -503,8 +510,8 @@
             </node>
           </node>
         </node>
-        <node concept="SfApY" id="5nSoGIuYeCg" role="3cqZAp">
-          <node concept="3clFbS" id="5nSoGIuYeCi" role="SfCbr">
+        <node concept="3J1_TO" id="5nSoGIuYeCg" role="3cqZAp">
+          <node concept="3clFbS" id="5nSoGIuYeCi" role="1zxBo7">
             <node concept="3clFbF" id="5nSoGIuYfI3" role="3cqZAp">
               <node concept="37vLTI" id="5nSoGIuYfI5" role="3clFbG">
                 <node concept="2OqwBi" id="34SjXUxB1AJ" role="37vLTx">
@@ -529,14 +536,17 @@
               </node>
             </node>
           </node>
-          <node concept="TDmWw" id="5nSoGIuYeCj" role="TEbGg">
-            <node concept="3cpWsn" id="5nSoGIuYeCl" role="TDEfY">
+          <node concept="3uVAMA" id="5nSoGIuYeCj" role="1zxBo5">
+            <node concept="XOnhg" id="5nSoGIuYeCl" role="1zc67B">
+              <property role="3TUv4t" value="false" />
               <property role="TrG5h" value="fe" />
-              <node concept="3uibUv" id="5nSoGIuYgg3" role="1tU5fm">
-                <ref role="3uigEE" to="ifj7:~PathFormatChecker$PathFormatException" resolve="PathFormatChecker.PathFormatException" />
+              <node concept="nSUau" id="6LkhF$k5D9G" role="1tU5fm">
+                <node concept="3uibUv" id="5nSoGIuYgg3" role="nSUat">
+                  <ref role="3uigEE" to="ifj7:~PathFormatChecker$PathFormatException" resolve="PathFormatChecker.PathFormatException" />
+                </node>
               </node>
             </node>
-            <node concept="3clFbS" id="5nSoGIuYeCp" role="TDEfX">
+            <node concept="3clFbS" id="5nSoGIuYeCp" role="1zc67A">
               <node concept="YS8fn" id="5nSoGIuY$Js" role="3cqZAp">
                 <node concept="2ShNRf" id="5nSoGIuY_7w" role="YScLw">
                   <node concept="1pGfFk" id="5nSoGIuZ0df" role="2ShVmc">
@@ -636,36 +646,8 @@
             <node concept="10Nm6u" id="34SjXUxBQNV" role="33vP2m" />
           </node>
         </node>
-        <node concept="2GUZhq" id="34SjXUxB1Bp" role="3cqZAp">
-          <node concept="TDmWw" id="34SjXUxB1Bq" role="TEXxN">
-            <node concept="3cpWsn" id="34SjXUxB1Br" role="TDEfY">
-              <property role="TrG5h" value="e" />
-              <node concept="3uibUv" id="34SjXUxB1Bs" role="1tU5fm">
-                <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
-              </node>
-            </node>
-            <node concept="3clFbS" id="34SjXUxB1Bt" role="TDEfX">
-              <node concept="YS8fn" id="5nSoGIuZ31h" role="3cqZAp">
-                <node concept="2ShNRf" id="5nSoGIuZ31i" role="YScLw">
-                  <node concept="1pGfFk" id="5nSoGIuZ31j" role="2ShVmc">
-                    <ref role="37wK5l" to="3767:5nSoGIuZ3Jf" resolve="ResourceGenerationException" />
-                    <node concept="3cpWs3" id="5nSoGIuZ31k" role="37wK5m">
-                      <node concept="37vLTw" id="5nSoGIuZ31l" role="3uHU7w">
-                        <ref role="3cqZAo" node="34SjXUxB1BP" resolve="source" />
-                      </node>
-                      <node concept="Xl_RD" id="5nSoGIuZ31m" role="3uHU7B">
-                        <property role="Xl_RC" value="Exception on copying" />
-                      </node>
-                    </node>
-                    <node concept="37vLTw" id="5nSoGIuZ3m6" role="37wK5m">
-                      <ref role="3cqZAo" node="34SjXUxB1Br" resolve="e" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbS" id="34SjXUxB1Bx" role="2GV8ay">
+        <node concept="3J1_TO" id="34SjXUxB1Bp" role="3cqZAp">
+          <node concept="3clFbS" id="34SjXUxB1Bx" role="1zxBo7">
             <node concept="3clFbF" id="34SjXUxB1By" role="3cqZAp">
               <node concept="37vLTI" id="34SjXUxB1Bz" role="3clFbG">
                 <node concept="2OqwBi" id="34SjXUxB1B$" role="37vLTx">
@@ -701,13 +683,46 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbS" id="34SjXUxB1BJ" role="2GVbov">
-            <node concept="3clFbF" id="34SjXUxB1BK" role="3cqZAp">
-              <node concept="2YIFZM" id="34SjXUxB1BL" role="3clFbG">
-                <ref role="37wK5l" to="18ew:~FileUtil.closeFileSafe(java.io.Closeable)" resolve="closeFileSafe" />
-                <ref role="1Pybhc" to="18ew:~FileUtil" resolve="FileUtil" />
-                <node concept="37vLTw" id="34SjXUxB1BM" role="37wK5m">
-                  <ref role="3cqZAo" node="34SjXUxB1Bm" resolve="is" />
+          <node concept="3uVAMA" id="34SjXUxB1Bq" role="1zxBo5">
+            <node concept="XOnhg" id="34SjXUxB1Br" role="1zc67B">
+              <property role="3TUv4t" value="false" />
+              <property role="TrG5h" value="e" />
+              <node concept="nSUau" id="ank79dERRnL" role="1tU5fm">
+                <node concept="3uibUv" id="34SjXUxB1Bs" role="nSUat">
+                  <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="34SjXUxB1Bt" role="1zc67A">
+              <node concept="YS8fn" id="5nSoGIuZ31h" role="3cqZAp">
+                <node concept="2ShNRf" id="5nSoGIuZ31i" role="YScLw">
+                  <node concept="1pGfFk" id="5nSoGIuZ31j" role="2ShVmc">
+                    <ref role="37wK5l" to="3767:5nSoGIuZ3Jf" resolve="ResourceGenerationException" />
+                    <node concept="3cpWs3" id="5nSoGIuZ31k" role="37wK5m">
+                      <node concept="37vLTw" id="5nSoGIuZ31l" role="3uHU7w">
+                        <ref role="3cqZAo" node="34SjXUxB1BP" resolve="source" />
+                      </node>
+                      <node concept="Xl_RD" id="5nSoGIuZ31m" role="3uHU7B">
+                        <property role="Xl_RC" value="Exception on copying" />
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="5nSoGIuZ3m6" role="37wK5m">
+                      <ref role="3cqZAo" node="34SjXUxB1Br" resolve="e" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1wplmZ" id="2uqpD$Jh21Y" role="1zxBo6">
+            <node concept="3clFbS" id="34SjXUxB1BJ" role="1wplMD">
+              <node concept="3clFbF" id="34SjXUxB1BK" role="3cqZAp">
+                <node concept="2YIFZM" id="34SjXUxB1BL" role="3clFbG">
+                  <ref role="37wK5l" to="18ew:~FileUtil.closeFileSafe(java.io.Closeable)" resolve="closeFileSafe" />
+                  <ref role="1Pybhc" to="18ew:~FileUtil" resolve="FileUtil" />
+                  <node concept="37vLTw" id="34SjXUxB1BM" role="37wK5m">
+                    <ref role="3cqZAo" node="34SjXUxB1Bm" resolve="is" />
+                  </node>
                 </node>
               </node>
             </node>

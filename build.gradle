@@ -13,6 +13,8 @@ buildscript {
 plugins {
     id "com.github.node-gradle.node" version "2.2.3"
     id "java"
+    id "download-jbr"
+    id "net.ossindex.audit" version "0.4.11"
 }
 
 group 'org.discipl'
@@ -33,14 +35,16 @@ ext {
     current_platform = currentPlatform()
     generateTask = null
 
-    flint_filler_release_version = "v0.0.4"
+    testFileName = "TEST-jetbrains.mps.testbench.junit.suites.AntModuleTestSuite0-execution.xml"
+    flint_filler_release_version = "v0.0.5"
     flint_filler_executables_dir = new File(generatedResourcesDir, "flintfiller")
 
     javafx_version = "14"
-    mbeddr_version = "2019.3.+"
-    mps_version = "2019.3.4"
+    mbeddr_version = "2020.3.+"
+    mps_version = "2020.3.1"
     node_version = "13.6.0"
     npm_version = "6.13.4"
+    koin_version = "2.2.2"
 }
 
 configurations {
@@ -55,9 +59,15 @@ configurations {
 repositories {
     mavenLocal()
     mavenCentral()
+    jcenter()
     maven {
-        url = uri("https://projects.itemis.de/nexus/content/repositories/mbeddr")
+        url = uri("https://projects.itemis.de/nexus/content/repositories/OS/")
     }
+}
+
+downloadJbr {
+    jbrVersion = '11_0_6-b520.66'
+    downloadDir = mpsDir
 }
 
 dependencies {
@@ -73,13 +83,16 @@ dependencies {
     mpslib(project("code:java:FlintParser")) {
         exclude group: 'org.openjfx'
     }
-    mpslib 'com.googlecode.json-simple:json-simple:1.1.1'
-    mpslib 'commons-io:commons-io:2.7'
-    mpslib 'commons-codec:commons-codec:1.11'
+    mpslib(project("code:java:FlintSources")) {
+        exclude group: "org.slf4j"
+    }
+    mpslib('com.googlecode.json-simple:json-simple:1.1.1')
+    mpslib('commons-io:commons-io:2.7')
+    mpslib('commons-codec:commons-codec:1.11')
 
     artifact "com.mbeddr:platform:$mbeddr_version"
     mps("com.jetbrains:mps:$mps_version")
-    antLib("org.apache.ant:ant-junit:1.10.1")
+    antLib("org.apache.ant:ant-junit:1.10.10")
 
     mpsGenLib "org.openjfx:javafx-base:$javafx_version:$current_platform"
     mpsGenLib "org.openjfx:javafx-controls:$javafx_version:$current_platform"
@@ -89,6 +102,9 @@ dependencies {
     mpsGenLib "org.openjfx:javafx-web:$javafx_version:$current_platform"
 }
 
+if (!OperatingSystem.current().isMacOsX()) {
+    ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = new File(mpsDir, "jbr/bin/java")
+}
 ext["itemis.mps.gradle.ant.defaultScriptArgs"] = ["-Dmps_home=$mpsDir.path".toString()]
 ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = project.configurations.antLib.fileCollection({ true })
 
@@ -234,6 +250,7 @@ task resolveMps(type: Copy) {
     into mpsDir
     finalizedBy(copyMbeddrPlugins)
     finalizedBy("addFxLibs")
+    finalizedBy("downloadJbr")
 }
 
 task cleanProject(type: Delete) {
@@ -281,11 +298,6 @@ task buildFlint(type: de.itemis.mps.gradle.RunAntScript, dependsOn: generateScri
     targets = ["generate", "build"]
 }
 
-task buildFlintTestLanguage(type: de.itemis.mps.gradle.RunAntScript, dependsOn: buildFlint) {
-    script = file("$codeDir/build-Flint-Test-Language.xml")
-    targets = ["generate", "build"]
-}
-
 task buildFlintIde(type: de.itemis.mps.gradle.RunAntScript, dependsOn: buildFlint) {
     script = file("$codeDir/build-IdeDistribution.xml")
     targets = ["build"]
@@ -301,12 +313,14 @@ task addFxLibs(type: Copy) {
     into "${mpsDir}/lib"
 }
 
-task mpsTest(type: de.itemis.mps.gradle.RunAntScript, dependsOn: [buildFlintTestLanguage]) {
-    script = file("$codeDir/build-testFlint.xml")
+task mpsTest(type: de.itemis.mps.gradle.RunAntScript, dependsOn: generateScripts) {
+    script = file("$codeDir/build-Flint.xml")
     targets = ["generate", "test"]
     test.finalizedBy("mpsTest")
     finalizedBy("htmlReport")
 }
+
+test.dependsOn("audit")
 
 task collectXmlReports() {
     doLast {
@@ -316,11 +330,14 @@ task collectXmlReports() {
                 new File(project("code:java:FlintParser").buildDir, "test-results")
             }
             from {
-                new File(codeDir, "TEST-jetbrains.mps.testbench.junit.suites.AntModuleTestSuite0-Tests.xml")
+                new File(project("code:java:FlintSources").buildDir, "test-results")
+            }
+            from {
+                new File(codeDir, "$testFileName")
             }
             into "$reportsDir/sources"
         }
-        delete(new File(codeDir, "TEST-jetbrains.mps.testbench.junit.suites.AntModuleTestSuite0-Tests.xml"))
+        delete(new File(codeDir, "$testFileName"))
     }
 }
 
@@ -335,16 +352,15 @@ def downloadFillerFile(name) {
     if (f.exists()) {
         f.delete()
     }
-    new URL("https://github.com/discipl/flintfiller/releases/download/${flint_filler_release_version}/${name}").withInputStream{ i -> f.withOutputStream{ it << i }}
+    new URL("https://github.com/discipl/flintfiller/releases/download/${flint_filler_release_version}/${name}").withInputStream { i -> f.withOutputStream { it << i } }
     return f
 }
 
 
 task fetchFlintFillerExecutables() {
     doLast {
-        def files = []
-        files.add(downloadFillerFile("flintfiller-linux"))
-        files.add(downloadFillerFile("flintfiller-macos"))
-        files.add(downloadFillerFile("flintfiller-windows.exe"))
+        downloadFillerFile("flintfiller-linux")
+        downloadFillerFile("flintfiller-macos")
+        downloadFillerFile("flintfiller-windows.exe")
     }
 }

@@ -73,6 +73,18 @@ See [expressions](#expressions).
 1. Under name select the name of the source you would like to reference.
 1. Under text enter the text from the source.
 
+### Source Tagging
+1. Select the words you want to tag.
+1. Hit `Alt+Enter`.
+1. Select 'Tag as X'.
+![Tag](images/tagging1.png)
+   
+### Removing source tag
+1. Select the words you want to untag.
+1. Hit `Alt+Enter`.
+1. Select 'Remove X tag'.
+
+![Untag](images/untag1.png)
 ### Duties
 1. To create a duties right click on the acts or model folder and select Duty.
 ![Create Duty](images/createnewduty.png)
@@ -194,6 +206,30 @@ To run the FlintModelRunner.
 ![Create actor](images/actor.png)
 1. Under facts: you specify the facts that apply to this actor.
 
+
+## Law Texts
+You can import a law text to simplify making flint models.
+
+### Importing
+To import a law text:
+1. `Right Click` the model and create a new `LawSource`.     
+![Create Law Source](images/createlawsource.png)
+2. Input the BWB code for the law text you wish to import.   
+![Enter BWB Code](images/enterbwb.png)
+3. Click the `Refresh` button. The name of the law text and the available versions will be loaded in.
+![Refresh BWB Code](images/loadversions.png)
+4. You can navigate to one of the version with `Ctrl+Click`.
+![Navigate to version](images/aversion.png)
+5. Hit the `Refresh` button to load in the articles or hit the `FlintFiller` button to run the flint filler for this version.
+    - You can navigate to an article with `Ctrl+Click`.
+    
+### Create Act/Duty/Fact From Law Text
+To create an act from law text:
+1. Select the text that your act is in.
+2. Hit `Alt+Enter` or `Right Click > Article Actions` and select `Create {Act/Duty/Fact} from Selected Text`
+![Create Act from Text](images/createactfromtext.png)
+
+You can also select `Add Text to Existing Node` to add the source to an existing Act/Duty/Fact.
 ## Useful Shortcuts, Tips And Tricks
 - `Ctrl+B` or `Ctrl+Click` will take you to the source of a reference.
 - `Ctrl+F9` will rebuild the current solution.

@@ -15,7 +15,21 @@
           "validTo": "30-04-2020",
           "juriconnect": "test123",
           "citation": "TestSource",
-          "text": "",
+          "text": "Hello this is a test",
+          "tags": [
+            {
+              "role": "ActName",
+              "word": 1
+            },
+            {
+              "role": "Actor",
+              "word": 2
+            },
+            {
+              "role": "Action",
+              "word": 5
+            }
+          ],
           "explanation": ""
         }
       ],
@@ -54,6 +68,7 @@
           "juriconnect": "test123",
           "citation": "TestSource",
           "text": "Person Text",
+          "tags": [],
           "explanation": ""
         }
       ]
@@ -94,6 +109,7 @@
           "juriconnect": "test123",
           "citation": "TestSource",
           "text": "Reference Text",
+          "tags": [],
           "explanation": ""
         }
       ]
@@ -124,6 +140,7 @@
           "juriconnect": "test123",
           "citation": "TestSource",
           "text": "Text",
+          "tags": [],
           "explanation": ""
         }
       ],

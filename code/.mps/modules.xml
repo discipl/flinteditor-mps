@@ -5,6 +5,7 @@
       <modulePath path="$PROJECT_DIR$/languages/Flint/Flint.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/Flint/sandbox/Flint.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/FlintTests/FlintTests.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/ParameterizedRangeSelection/ParameterizedRangeSelection.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/Resources/Resources.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Flint.build0/Flint.build.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Flint.mainBuild0/Flint.mainBuild.msd" folder="" />
