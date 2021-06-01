@@ -4621,7 +4621,7 @@
   </node>
   <node concept="24kQdi" id="1nyeVyNj311">
     <property role="3GE5qa" value="sources" />
-    <ref role="1XX52x" to="lnwe:1nyeVyNiRPP" resolve="Article" />
+    <ref role="1XX52x" to="lnwe:1nyeVyNiRPP" resolve="OldArticle" />
     <node concept="3EZMnI" id="1nyeVyNj313" role="2wV5jI">
       <node concept="3F0A7n" id="1nyeVyNj318" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -4659,7 +4659,7 @@
   </node>
   <node concept="24kQdi" id="$Y9Sa_JN3s">
     <property role="3GE5qa" value="sources" />
-    <ref role="1XX52x" to="lnwe:1nyeVyN1ImA" resolve="LawSource" />
+    <ref role="1XX52x" to="lnwe:1nyeVyN1ImA" resolve="OldLawSource" />
     <node concept="3EZMnI" id="$Y9Sa_JN3t" role="2wV5jI">
       <node concept="3EZMnI" id="$Y9Sa_JN3u" role="3EZMnx">
         <node concept="l2Vlx" id="$Y9Sa_JN3v" role="2iSdaV" />
@@ -4705,7 +4705,7 @@
         <node concept="l2Vlx" id="$Y9SaAPDXK" role="2iSdaV" />
         <node concept="s8t4o" id="$Y9SaANboy" role="3EZMnx">
           <property role="28Zw97" value="true" />
-          <ref role="28F8cf" to="lnwe:1nyeVyNbPAY" resolve="Version" />
+          <ref role="28F8cf" to="lnwe:1nyeVyNbPAY" resolve="OldVersion" />
           <node concept="xShMh" id="$Y9SaANbo$" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
@@ -4760,7 +4760,7 @@
   </node>
   <node concept="24kQdi" id="$Y9Sa_JN3B">
     <property role="3GE5qa" value="sources" />
-    <ref role="1XX52x" to="lnwe:1nyeVyNbPAY" resolve="Version" />
+    <ref role="1XX52x" to="lnwe:1nyeVyNbPAY" resolve="OldVersion" />
     <node concept="3EZMnI" id="$Y9Sa_JN3C" role="2wV5jI">
       <node concept="3EZMnI" id="$Y9Sa_JN3D" role="3EZMnx">
         <node concept="l2Vlx" id="$Y9Sa_JN3E" role="2iSdaV" />
@@ -4834,7 +4834,7 @@
         <node concept="l2Vlx" id="$Y9SaASZDf" role="2iSdaV" />
         <node concept="s8t4o" id="$Y9SaASZDg" role="3EZMnx">
           <property role="28Zw97" value="true" />
-          <ref role="28F8cf" to="lnwe:1nyeVyNiRPP" resolve="Article" />
+          <ref role="28F8cf" to="lnwe:1nyeVyNiRPP" resolve="OldArticle" />
           <node concept="xShMh" id="$Y9SaASZDh" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
@@ -4902,7 +4902,7 @@
   </node>
   <node concept="24kQdi" id="7xM0MUaGvcZ">
     <property role="3GE5qa" value="sources" />
-    <ref role="1XX52x" to="lnwe:7xM0MUaGt9Z" resolve="LineCollection" />
+    <ref role="1XX52x" to="lnwe:7xM0MUaGt9Z" resolve="OldLineCollection" />
     <node concept="3EZMnI" id="7xM0MUaTvqe" role="2wV5jI">
       <node concept="l2Vlx" id="7xM0MUaTvqf" role="2iSdaV" />
       <node concept="3EZMnI" id="7xM0MUaI5cq" role="3EZMnx">
@@ -4933,7 +4933,7 @@
                     </node>
                     <node concept="1mIQ4w" id="7xM0MUaTwLk" role="2OqNvi">
                       <node concept="chp4Y" id="7xM0MUaTwLl" role="cj9EA">
-                        <ref role="cht4Q" to="lnwe:1nyeVyNiRPP" resolve="Article" />
+                        <ref role="cht4Q" to="lnwe:1nyeVyNiRPP" resolve="OldArticle" />
                       </node>
                     </node>
                   </node>
@@ -4947,7 +4947,7 @@
   </node>
   <node concept="24kQdi" id="7xM0MUaHp4c">
     <property role="3GE5qa" value="sources" />
-    <ref role="1XX52x" to="lnwe:7xM0MUaGt9W" resolve="Line" />
+    <ref role="1XX52x" to="lnwe:7xM0MUaGt9W" resolve="OldLine" />
     <node concept="3EZMnI" id="7xM0MUaHp4e" role="2wV5jI">
       <node concept="3F1sOY" id="7xM0MUaHp4l" role="3EZMnx">
         <ref role="1NtTu8" to="lnwe:7xM0MUaHnb$" resolve="text" />
@@ -4957,7 +4957,7 @@
   </node>
   <node concept="24kQdi" id="7xM0MUaHp4z">
     <property role="3GE5qa" value="sources" />
-    <ref role="1XX52x" to="lnwe:7xM0MUaGta2" resolve="PrefixLine" />
+    <ref role="1XX52x" to="lnwe:7xM0MUaGta2" resolve="OldPrefixLine" />
     <node concept="3EZMnI" id="7xM0MUaHp4_" role="2wV5jI">
       <node concept="3F0A7n" id="7xM0MUaHp4G" role="3EZMnx">
         <ref role="1NtTu8" to="lnwe:7xM0MUaHp4q" resolve="prefix" />

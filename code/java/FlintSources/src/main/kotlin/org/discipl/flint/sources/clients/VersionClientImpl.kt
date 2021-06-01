@@ -1,5 +1,8 @@
 package org.discipl.flint.sources.clients
 
+import org.apache.http.client.HttpClient
+import org.apache.http.client.methods.HttpGet
+import org.apache.http.util.EntityUtils
 import org.apache.jena.graph.NodeFactory
 import org.apache.jena.query.ParameterizedSparqlString
 import org.apache.jena.query.Query
@@ -9,7 +12,7 @@ import org.jsoup.Jsoup
 import java.net.URI
 import java.time.LocalDate
 
-class VersionClientImpl(private val queryExecutor: QueryExecutor) : VersionClient {
+class VersionClientImpl(private val queryExecutor: QueryExecutor, private val httpClient: HttpClient) : VersionClient {
     companion object {
         private val query: String = """
             PREFIX changeset: <https://fin.triply.cc/ole/BWB/changeset/>
@@ -75,7 +78,9 @@ class VersionClientImpl(private val queryExecutor: QueryExecutor) : VersionClien
 
     // TODO this is only temporary
     private fun getFullyMappedBWBVersion(mappedBWBVersion: MappedBWBVersion): FullyMappedBWBVersion {
-        val document = Jsoup.parse(URI(mappedBWBVersion.wettenNl).toURL(), 10000)
+        val response = httpClient.execute(HttpGet(mappedBWBVersion.wettenNl))
+        val responseBody = EntityUtils.toString(response.entity)
+        val document = Jsoup.parse(responseBody)
         val firstArticleHeader = document.getElementsByClass("article__header--law article__header--main").first()
         val firstParagraph = firstArticleHeader.getElementsByTag("p").first()
         val name = firstParagraph.text().substringAfter("Geldend van ")

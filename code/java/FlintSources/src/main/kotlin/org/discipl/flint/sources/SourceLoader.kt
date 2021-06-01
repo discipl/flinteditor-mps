@@ -32,21 +32,21 @@ internal val demoServiceModule = module {
 }
 
 internal val triplyClientsModule = module {
-    single<HttpClient?> {
-        val timeout = 10
+    single<HttpClient> {
+        val timeoutInS = 20
         val config = RequestConfig.custom()
-            .setConnectTimeout(timeout * 1000)
-            .setConnectionRequestTimeout(timeout * 1000)
-            .setSocketTimeout(timeout * 1000).build()
+            .setConnectTimeout(timeoutInS * 1000)
+            .setConnectionRequestTimeout(timeoutInS * 1000)
+            .setSocketTimeout(timeoutInS * 1000).build()
         HttpClients.custom()
             .setConnectionReuseStrategy { _, _ -> false }
-            .setConnectionTimeToLive(timeout.toLong(), TimeUnit.SECONDS)
+            .setConnectionTimeToLive(timeoutInS.toLong(), TimeUnit.SECONDS)
             .setDefaultRequestConfig(config)
             .build()
     }
     single { QueryExecutor(get()) }
     single<SourceClient> { SourceClientImpl(get()) }
-    single<VersionClient> { VersionClientImpl(get()) }
+    single<VersionClient> { VersionClientImpl(get(), get()) }
     single<TextLineClient> { TextLineClientImpl(get()) }
 }
 
@@ -64,7 +64,7 @@ internal val triplyServiceModule = module {
     single<ArticleService> { ArticleServiceImpl(get(), get()) }
 }
 
-internal val serviceModule = triplyServiceModule
+val serviceModule = triplyServiceModule
 
 @KoinApiExtension
 object SourceLoader : KoinComponent {

@@ -2695,7 +2695,7 @@
               <node concept="2Xjw5R" id="sn6jp84ksL" role="2OqNvi">
                 <node concept="1xMEDy" id="sn6jp84ksM" role="1xVPHs">
                   <node concept="chp4Y" id="sn6jp84ksN" role="ri$Ld">
-                    <ref role="cht4Q" to="lnwe:1nyeVyNiRPP" resolve="Article" />
+                    <ref role="cht4Q" to="lnwe:1nyeVyNiRPP" resolve="OldArticle" />
                   </node>
                 </node>
               </node>

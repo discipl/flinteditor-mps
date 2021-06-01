@@ -10648,7 +10648,7 @@
   </node>
   <node concept="13h7C7" id="$Y9SaA2m_t">
     <property role="3GE5qa" value="sources" />
-    <ref role="13h7C2" to="lnwe:1nyeVyN1ImA" resolve="LawSource" />
+    <ref role="13h7C2" to="lnwe:1nyeVyN1ImA" resolve="OldLawSource" />
     <node concept="13hLZK" id="$Y9SaA2m_u" role="13h7CW">
       <node concept="3clFbS" id="$Y9SaA2m_v" role="2VODD2" />
     </node>
@@ -11282,7 +11282,7 @@
       <property role="TrG5h" value="getVersions" />
       <node concept="3Tm1VV" id="$Y9SaAL_PQ" role="1B3o_S" />
       <node concept="2I9FWS" id="$Y9SaALA2W" role="3clF45">
-        <ref role="2I9WkF" to="lnwe:1nyeVyNbPAY" resolve="Version" />
+        <ref role="2I9WkF" to="lnwe:1nyeVyNbPAY" resolve="OldVersion" />
       </node>
       <node concept="3clFbS" id="$Y9SaAL_PS" role="3clF47">
         <node concept="3cpWs6" id="$Y9SaALBbL" role="3cqZAp">
@@ -11294,7 +11294,7 @@
                   <node concept="I4A8Y" id="$Y9SaALBc7" role="2OqNvi" />
                 </node>
                 <node concept="2RRcyG" id="$Y9SaALBc8" role="2OqNvi">
-                  <ref role="2RRcyH" to="lnwe:1nyeVyNbPAY" resolve="Version" />
+                  <ref role="2RRcyH" to="lnwe:1nyeVyNbPAY" resolve="OldVersion" />
                 </node>
               </node>
               <node concept="3zZkjj" id="$Y9SaALBc9" role="2OqNvi">
@@ -11358,7 +11358,7 @@
                   <node concept="I4A8Y" id="$Y9SaArjoj" role="2OqNvi" />
                 </node>
                 <node concept="2RRcyG" id="$Y9SaArjC7" role="2OqNvi">
-                  <ref role="2RRcyH" to="lnwe:1nyeVyNbPAY" resolve="Version" />
+                  <ref role="2RRcyH" to="lnwe:1nyeVyNbPAY" resolve="OldVersion" />
                 </node>
               </node>
               <node concept="3zZkjj" id="$Y9SaArnaR" role="2OqNvi">
@@ -11419,7 +11419,7 @@
       <node concept="37vLTG" id="$Y9SaArib4" role="3clF46">
         <property role="TrG5h" value="source" />
         <node concept="3Tqbb2" id="$Y9SaArib3" role="1tU5fm">
-          <ref role="ehGHo" to="lnwe:1nyeVyN1ImA" resolve="LawSource" />
+          <ref role="ehGHo" to="lnwe:1nyeVyN1ImA" resolve="OldLawSource" />
         </node>
       </node>
       <node concept="3cqZAl" id="$Y9SaAri6T" role="3clF45" />
@@ -11440,7 +11440,7 @@
                   <node concept="I4A8Y" id="$Y9SaArqB0" role="2OqNvi" />
                 </node>
                 <node concept="2RRcyG" id="$Y9SaArqB1" role="2OqNvi">
-                  <ref role="2RRcyH" to="lnwe:1nyeVyNiRPP" resolve="Article" />
+                  <ref role="2RRcyH" to="lnwe:1nyeVyNiRPP" resolve="OldArticle" />
                 </node>
               </node>
               <node concept="3zZkjj" id="$Y9SaArqB2" role="2OqNvi">
@@ -11493,7 +11493,7 @@
       <node concept="37vLTG" id="$Y9SaArqyI" role="3clF46">
         <property role="TrG5h" value="version" />
         <node concept="3Tqbb2" id="$Y9SaArqyH" role="1tU5fm">
-          <ref role="ehGHo" to="lnwe:1nyeVyNbPAY" resolve="Version" />
+          <ref role="ehGHo" to="lnwe:1nyeVyNbPAY" resolve="OldVersion" />
         </node>
       </node>
       <node concept="3cqZAl" id="$Y9SaArqp1" role="3clF45" />
@@ -11515,12 +11515,12 @@
                     <node concept="3cpWsn" id="$Y9SaAuLDG" role="3cpWs9">
                       <property role="TrG5h" value="node" />
                       <node concept="3Tqbb2" id="$Y9SaAuLDh" role="1tU5fm">
-                        <ref role="ehGHo" to="lnwe:1nyeVyNbPAY" resolve="Version" />
+                        <ref role="ehGHo" to="lnwe:1nyeVyNbPAY" resolve="OldVersion" />
                       </node>
                       <node concept="2ShNRf" id="$Y9SaAuLDH" role="33vP2m">
                         <node concept="3zrR0B" id="$Y9SaAuLDI" role="2ShVmc">
                           <node concept="3Tqbb2" id="$Y9SaAuLDJ" role="3zrR0E">
-                            <ref role="ehGHo" to="lnwe:1nyeVyNbPAY" resolve="Version" />
+                            <ref role="ehGHo" to="lnwe:1nyeVyNbPAY" resolve="OldVersion" />
                           </node>
                         </node>
                       </node>
@@ -11706,7 +11706,7 @@
       <node concept="37vLTG" id="$Y9SaAu$4E" role="3clF46">
         <property role="TrG5h" value="source" />
         <node concept="3Tqbb2" id="$Y9SaAu$4D" role="1tU5fm">
-          <ref role="ehGHo" to="lnwe:1nyeVyN1ImA" resolve="LawSource" />
+          <ref role="ehGHo" to="lnwe:1nyeVyN1ImA" resolve="OldLawSource" />
         </node>
       </node>
       <node concept="37vLTG" id="6cEbUuiQUVK" role="3clF46">
@@ -11734,12 +11734,12 @@
                     <node concept="3cpWsn" id="$Y9SaAy1$H" role="3cpWs9">
                       <property role="TrG5h" value="node" />
                       <node concept="3Tqbb2" id="$Y9SaAy1$I" role="1tU5fm">
-                        <ref role="ehGHo" to="lnwe:1nyeVyNiRPP" resolve="Article" />
+                        <ref role="ehGHo" to="lnwe:1nyeVyNiRPP" resolve="OldArticle" />
                       </node>
                       <node concept="2ShNRf" id="$Y9SaAy1$J" role="33vP2m">
                         <node concept="3zrR0B" id="$Y9SaAy1$K" role="2ShVmc">
                           <node concept="3Tqbb2" id="$Y9SaAy1$L" role="3zrR0E">
-                            <ref role="ehGHo" to="lnwe:1nyeVyNiRPP" resolve="Article" />
+                            <ref role="ehGHo" to="lnwe:1nyeVyNiRPP" resolve="OldArticle" />
                           </node>
                         </node>
                       </node>
@@ -11770,7 +11770,7 @@
                       <node concept="2ShNRf" id="7xM0MUaMHfp" role="37vLTx">
                         <node concept="2fJWfE" id="7xM0MUaOx3o" role="2ShVmc">
                           <node concept="3Tqbb2" id="7xM0MUaOx3q" role="3zrR0E">
-                            <ref role="ehGHo" to="lnwe:7xM0MUaGt9Z" resolve="LineCollection" />
+                            <ref role="ehGHo" to="lnwe:7xM0MUaGt9Z" resolve="OldLineCollection" />
                           </node>
                         </node>
                       </node>
@@ -11928,7 +11928,7 @@
       <node concept="37vLTG" id="$Y9SaAy1_r" role="3clF46">
         <property role="TrG5h" value="version" />
         <node concept="3Tqbb2" id="$Y9SaAy1_s" role="1tU5fm">
-          <ref role="ehGHo" to="lnwe:1nyeVyNbPAY" resolve="Version" />
+          <ref role="ehGHo" to="lnwe:1nyeVyNbPAY" resolve="OldVersion" />
         </node>
       </node>
       <node concept="37vLTG" id="6cEbUuj1W54" role="3clF46">
@@ -11976,12 +11976,12 @@
               <node concept="3cpWsn" id="7xM0MUaJu5f" role="3cpWs9">
                 <property role="TrG5h" value="node" />
                 <node concept="3Tqbb2" id="7xM0MUaJu5g" role="1tU5fm">
-                  <ref role="ehGHo" to="lnwe:7xM0MUaGt9W" resolve="Line" />
+                  <ref role="ehGHo" to="lnwe:7xM0MUaGt9W" resolve="OldLine" />
                 </node>
                 <node concept="2ShNRf" id="7xM0MUaJu5h" role="33vP2m">
                   <node concept="2fJWfE" id="7xM0MUaQoLm" role="2ShVmc">
                     <node concept="3Tqbb2" id="7xM0MUaQoLo" role="3zrR0E">
-                      <ref role="ehGHo" to="lnwe:7xM0MUaGt9W" resolve="Line" />
+                      <ref role="ehGHo" to="lnwe:7xM0MUaGt9W" resolve="OldLine" />
                     </node>
                   </node>
                 </node>
@@ -12061,12 +12061,12 @@
                 <node concept="3cpWsn" id="7xM0MUaQqaM" role="3cpWs9">
                   <property role="TrG5h" value="node" />
                   <node concept="3Tqbb2" id="7xM0MUaQqaN" role="1tU5fm">
-                    <ref role="ehGHo" to="lnwe:7xM0MUaGta2" resolve="PrefixLine" />
+                    <ref role="ehGHo" to="lnwe:7xM0MUaGta2" resolve="OldPrefixLine" />
                   </node>
                   <node concept="2ShNRf" id="7xM0MUaQqaO" role="33vP2m">
                     <node concept="2fJWfE" id="7xM0MUaQqaP" role="2ShVmc">
                       <node concept="3Tqbb2" id="7xM0MUaQqaQ" role="3zrR0E">
-                        <ref role="ehGHo" to="lnwe:7xM0MUaGta2" resolve="PrefixLine" />
+                        <ref role="ehGHo" to="lnwe:7xM0MUaGta2" resolve="OldPrefixLine" />
                       </node>
                     </node>
                   </node>
@@ -12159,12 +12159,12 @@
                 <node concept="3cpWsn" id="7xM0MUaJ_SN" role="3cpWs9">
                   <property role="TrG5h" value="node" />
                   <node concept="3Tqbb2" id="7xM0MUaJ_SO" role="1tU5fm">
-                    <ref role="ehGHo" to="lnwe:7xM0MUaGt9Z" resolve="LineCollection" />
+                    <ref role="ehGHo" to="lnwe:7xM0MUaGt9Z" resolve="OldLineCollection" />
                   </node>
                   <node concept="2ShNRf" id="7xM0MUaJ_SP" role="33vP2m">
                     <node concept="3zrR0B" id="7xM0MUaJ_SQ" role="2ShVmc">
                       <node concept="3Tqbb2" id="7xM0MUaJ_SR" role="3zrR0E">
-                        <ref role="ehGHo" to="lnwe:7xM0MUaGt9Z" resolve="LineCollection" />
+                        <ref role="ehGHo" to="lnwe:7xM0MUaGt9Z" resolve="OldLineCollection" />
                       </node>
                     </node>
                   </node>
@@ -12242,7 +12242,7 @@
         </node>
       </node>
       <node concept="3Tqbb2" id="7xM0MUaJ3Zu" role="3clF45">
-        <ref role="ehGHo" to="lnwe:7xM0MUaGt9V" resolve="ArticlePart" />
+        <ref role="ehGHo" to="lnwe:7xM0MUaGt9V" resolve="OldArticlePart" />
       </node>
     </node>
     <node concept="2tJIrI" id="1pk1Qg2avD1" role="jymVt" />
@@ -12603,7 +12603,7 @@
   </node>
   <node concept="13h7C7" id="$Y9SaAxZjm">
     <property role="3GE5qa" value="sources" />
-    <ref role="13h7C2" to="lnwe:1nyeVyNbPAY" resolve="Version" />
+    <ref role="13h7C2" to="lnwe:1nyeVyNbPAY" resolve="OldVersion" />
     <node concept="13hLZK" id="$Y9SaAxZjn" role="13h7CW">
       <node concept="3clFbS" id="$Y9SaAxZjo" role="2VODD2" />
     </node>
@@ -13703,7 +13703,7 @@
       <property role="TrG5h" value="getArticles" />
       <node concept="3Tm1VV" id="$Y9SaARj9n" role="1B3o_S" />
       <node concept="2I9FWS" id="$Y9SaARj9o" role="3clF45">
-        <ref role="2I9WkF" to="lnwe:1nyeVyNiRPP" resolve="Article" />
+        <ref role="2I9WkF" to="lnwe:1nyeVyNiRPP" resolve="OldArticle" />
       </node>
       <node concept="3clFbS" id="$Y9SaARj9p" role="3clF47">
         <node concept="3cpWs6" id="$Y9SaARj9q" role="3cqZAp">
@@ -13715,7 +13715,7 @@
                   <node concept="I4A8Y" id="$Y9SaARj9w" role="2OqNvi" />
                 </node>
                 <node concept="2RRcyG" id="$Y9SaARj9x" role="2OqNvi">
-                  <ref role="2RRcyH" to="lnwe:1nyeVyNiRPP" resolve="Article" />
+                  <ref role="2RRcyH" to="lnwe:1nyeVyNiRPP" resolve="OldArticle" />
                 </node>
               </node>
               <node concept="3zZkjj" id="$Y9SaARj9y" role="2OqNvi">
@@ -13889,7 +13889,7 @@
               <node concept="2Xjw5R" id="1BkZCJkg8Cg" role="2OqNvi">
                 <node concept="1xMEDy" id="1BkZCJkg8Ci" role="1xVPHs">
                   <node concept="chp4Y" id="1BkZCJkg8GU" role="ri$Ld">
-                    <ref role="cht4Q" to="lnwe:1nyeVyNiRPP" resolve="Article" />
+                    <ref role="cht4Q" to="lnwe:1nyeVyNiRPP" resolve="OldArticle" />
                   </node>
                 </node>
               </node>
@@ -14157,7 +14157,7 @@
           <node concept="3cpWsn" id="sn6jp7ZlXJ" role="3cpWs9">
             <property role="TrG5h" value="article" />
             <node concept="3Tqbb2" id="sn6jp7ZlXK" role="1tU5fm">
-              <ref role="ehGHo" to="lnwe:1nyeVyNiRPP" resolve="Article" />
+              <ref role="ehGHo" to="lnwe:1nyeVyNiRPP" resolve="OldArticle" />
             </node>
             <node concept="2OqwBi" id="sn6jp7ZlXL" role="33vP2m">
               <node concept="37vLTw" id="sn6jp7ZlXM" role="2Oq$k0">
@@ -14166,7 +14166,7 @@
               <node concept="2Xjw5R" id="sn6jp7ZlXN" role="2OqNvi">
                 <node concept="1xMEDy" id="sn6jp7ZlXO" role="1xVPHs">
                   <node concept="chp4Y" id="sn6jp7ZlXP" role="ri$Ld">
-                    <ref role="cht4Q" to="lnwe:1nyeVyNiRPP" resolve="Article" />
+                    <ref role="cht4Q" to="lnwe:1nyeVyNiRPP" resolve="OldArticle" />
                   </node>
                 </node>
               </node>
