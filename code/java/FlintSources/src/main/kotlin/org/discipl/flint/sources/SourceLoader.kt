@@ -22,6 +22,8 @@ import org.koin.core.context.loadKoinModules
 import org.koin.core.context.startKoin
 import org.koin.dsl.module
 import org.apache.http.client.config.RequestConfig
+import org.discipl.flint.sources.services.TextLineService
+import org.discipl.flint.sources.triply.TriplyTextLineServiceImpl
 import java.util.concurrent.TimeUnit
 
 
@@ -62,6 +64,7 @@ internal val triplyServiceModule = module {
     single<SourceService> { SourceServiceImpl(get(), get()) }
     single<VersionService> { VersionServiceImpl(get(), get()) }
     single<ArticleService> { ArticleServiceImpl(get(), get()) }
+    single<TextLineService> { TriplyTextLineServiceImpl(get(), get()) }
 }
 
 val serviceModule = triplyServiceModule
@@ -76,4 +79,5 @@ object SourceLoader : KoinComponent {
     val articleService: ArticleService by inject()
     val sourceService: SourceService by inject()
     val versionService: VersionService by inject()
+    val textLineService: TextLineService by inject()
 }

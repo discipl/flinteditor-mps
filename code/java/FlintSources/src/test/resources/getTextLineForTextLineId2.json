@@ -1,0 +1,52 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "g",
+      "artikelNr",
+      "artikelName",
+      "regelNr",
+      "text",
+      "lineId",
+      "jci",
+      "bwb"
+    ]
+  },
+  "results": {
+    "distinct": false,
+    "ordered": true,
+    "bindings": [
+      {
+        "g": {
+          "type": "literal",
+          "value": "2020-05-16"
+        },
+        "artikelNr": {
+          "type": "literal",
+          "value": "5"
+        },
+        "artikelName": {
+          "type": "literal",
+          "value": "Artikel 5 (beslistermijn)"
+        },
+        "regelNr": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "62"
+        },
+        "text": {
+          "type": "literal",
+          "value": "De minister beslist binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen."
+        },
+        "lineId": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27/textChunk/62"
+        },
+        "bwb": {
+          "type": "literal",
+          "value": "BWBR0043324"
+        }
+      }
+    ]
+  }
+}

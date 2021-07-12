@@ -45,11 +45,11 @@
       <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
         <child id="6983418503075280678" name="sources" index="2pmM46" />
       </concept>
-      <concept id="1576888484001185141" name="Flint.structure.Article" flags="ng" index="2AEkrd">
+      <concept id="1576888484001185141" name="Flint.structure.OldArticle" flags="ng" index="2AEkrd">
         <reference id="1576888484001185932" name="version" index="2AErGO" />
         <child id="8679002930326655623" name="lines" index="3MKX6D" />
       </concept>
-      <concept id="1576888483999340990" name="Flint.structure.Version" flags="ng" index="2ANm86">
+      <concept id="1576888483999340990" name="Flint.structure.OldVersion" flags="ng" index="2ANm86">
         <property id="1576888484001192140" name="startDate" index="2AEqdO" />
         <property id="1576888484001192141" name="endDate" index="2AEqdP" />
         <property id="666013236990585107" name="id" index="2JHwUh" />
@@ -57,7 +57,7 @@
         <property id="3196890157568933414" name="wettenNl" index="ZyLMf" />
         <reference id="1576888484001185931" name="source" index="2AErGN" />
       </concept>
-      <concept id="1576888483996689830" name="Flint.structure.LawSource" flags="ng" index="2ATdSu">
+      <concept id="1576888483996689830" name="Flint.structure.OldLawSource" flags="ng" index="2ATdSu">
         <property id="1576888484001186753" name="bwbId" index="2AErxT" />
       </concept>
       <concept id="2986354165693918736" name="Flint.structure.SRole" flags="ng" index="2UK0tq">
@@ -72,13 +72,13 @@
       <concept id="6587498613242404529" name="Flint.structure.FactReference" flags="ng" index="1FQA6B">
         <reference id="6587498613242404530" name="fact" index="1FQA6$" />
       </concept>
-      <concept id="8679002930326655615" name="Flint.structure.LineCollection" flags="ng" index="3MKX5h">
+      <concept id="8679002930326655615" name="Flint.structure.OldLineCollection" flags="ng" index="3MKX5h">
         <child id="8679002930326655621" name="lines" index="3MKX6F" />
       </concept>
-      <concept id="8679002930326655612" name="Flint.structure.Line" flags="ng" index="3MKX5i">
+      <concept id="8679002930326655612" name="Flint.structure.OldLine" flags="ng" index="3MKX5i">
         <child id="8679002930326893284" name="text" index="3MLR7a" />
       </concept>
-      <concept id="8679002930326655618" name="Flint.structure.PrefixLine" flags="ng" index="3MKX6G">
+      <concept id="8679002930326655618" name="Flint.structure.OldPrefixLine" flags="ng" index="3MKX6G">
         <property id="8679002930326901018" name="prefix" index="3MLT8O" />
         <child id="8679002930326901016" name="text" index="3MLT8Q" />
       </concept>
@@ -1240,6 +1240,14 @@
   <node concept="cog_a" id="5BmlQlquMzl">
     <property role="TrG5h" value="Artikel 2 (verstrekking en hoogte tegemoetkoming)" />
     <property role="3GE5qa" value="sources" />
+  </node>
+  <node concept="cog_a" id="44bwb7R2sFE">
+    <property role="TrG5h" value="Artikel 2 (verstrekking en hoogte tegemoetkoming)" />
+    <property role="3GE5qa" value="sources" />
+  </node>
+  <node concept="cu0$f" id="44bwb7R2u6r">
+    <property role="TrG5h" value="Test" />
+    <property role="3GE5qa" value="facts" />
   </node>
 </model>
 

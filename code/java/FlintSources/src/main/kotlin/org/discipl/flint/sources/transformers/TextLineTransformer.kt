@@ -1,5 +1,6 @@
 package org.discipl.flint.sources.transformers
 
+import org.discipl.flint.sources.clients.ArticleTextLine
 import org.discipl.flint.sources.clients.TextLine
 import org.discipl.flint.sources.models.*
 
@@ -13,6 +14,20 @@ class TextLineTransformer {
         }
         return containers.filterIsInstance<Article>()
     }
+
+    fun toSimpleLine(textLine: ArticleTextLine): SimpleLine = SimpleLine(
+        id = textLine.id,
+        text = textLine.text,
+        lineNr = textLine.regelNr
+    )
+
+    fun toArticleLine(textLine: ArticleTextLine): ArticleLine = ArticleLine(
+        id = textLine.id,
+        text = textLine.text,
+        lineNr = textLine.regelNr,
+        artikelName = textLine.artikelName,
+        jci = textLine.jci
+    )
 
     private fun getParentForLine(
         container: MutableList<IHasParts>,

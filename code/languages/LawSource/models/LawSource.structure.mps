@@ -159,6 +159,11 @@
     <property role="TrG5h" value="ArticlePart" />
     <property role="3GE5qa" value="sources" />
     <property role="EcuMT" value="8679002930326655611" />
+    <node concept="1TJgyi" id="1UYcSlfmlp1" role="1TKVEl">
+      <property role="IQ2nx" value="2215264714367784513" />
+      <property role="TrG5h" value="lineId" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1nyeVyNiRPP">
     <property role="EcuMT" value="1576888484001185141" />

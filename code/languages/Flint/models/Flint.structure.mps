@@ -156,6 +156,16 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
       <node concept="asaX9" id="5hB3R5$Vqw3" role="lGtFl" />
     </node>
+    <node concept="1TJgyi" id="1UYcSlfmTax" role="1TKVEl">
+      <property role="IQ2nx" value="2215264714367931041" />
+      <property role="TrG5h" value="textId" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1j1uXED4swh" role="1TKVEl">
+      <property role="IQ2nx" value="1495612730333317137" />
+      <property role="TrG5h" value="textSourceName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="PrWs8" id="5XjenljcHGp" role="PzmwI">
       <ref role="PrY4T" node="5Xjenljcz12" resolve="IExplainable" />
     </node>

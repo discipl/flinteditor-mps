@@ -2,14 +2,21 @@ package org.discipl.flint.sources.clients
 
 import org.apache.http.client.HttpClient
 import org.apache.http.client.methods.HttpGet
+import org.apache.http.protocol.BasicHttpContext
+import org.apache.http.protocol.HttpCoreContext
 import org.apache.http.util.EntityUtils
+import org.apache.jena.atlas.web.TypedInputStream
 import org.apache.jena.graph.NodeFactory
 import org.apache.jena.query.ParameterizedSparqlString
 import org.apache.jena.query.Query
 import org.apache.jena.query.QueryFactory
 import org.apache.jena.query.QuerySolution
+import org.apache.jena.riot.web.HttpCaptureResponse
+import org.apache.jena.riot.web.HttpOp
+import org.apache.jena.riot.web.HttpOp.CaptureInput
 import org.jsoup.Jsoup
-import java.net.URI
+import java.lang.Exception
+import java.net.URL
 import java.time.LocalDate
 
 class VersionClientImpl(private val queryExecutor: QueryExecutor, private val httpClient: HttpClient) : VersionClient {
@@ -78,9 +85,9 @@ class VersionClientImpl(private val queryExecutor: QueryExecutor, private val ht
 
     // TODO this is only temporary
     private fun getFullyMappedBWBVersion(mappedBWBVersion: MappedBWBVersion): FullyMappedBWBVersion {
-        val response = httpClient.execute(HttpGet(mappedBWBVersion.wettenNl))
-        val responseBody = EntityUtils.toString(response.entity)
-        val document = Jsoup.parse(responseBody)
+        val handler: HttpCaptureResponse<TypedInputStream> = CaptureInput()
+        HttpOp.execHttpGet(mappedBWBVersion.wettenNl, null, handler, httpClient, HttpCoreContext.create())
+        val document = Jsoup.parse(handler.get(), "UTF-8", mappedBWBVersion.wettenNl)
         val firstArticleHeader = document.getElementsByClass("article__header--law article__header--main").first()
         val firstParagraph = firstArticleHeader.getElementsByTag("p").first()
         val name = firstParagraph.text().substringAfter("Geldend van ")

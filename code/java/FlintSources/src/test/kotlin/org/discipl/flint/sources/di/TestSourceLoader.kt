@@ -8,6 +8,7 @@ import org.discipl.flint.sources.clients.VersionClient
 import org.discipl.flint.sources.serviceModule
 import org.discipl.flint.sources.services.ArticleService
 import org.discipl.flint.sources.services.SourceService
+import org.discipl.flint.sources.services.TextLineService
 import org.discipl.flint.sources.services.VersionService
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject
@@ -30,6 +31,7 @@ object TestSourceLoader : KoinComponent {
 
     val articleService: ArticleService by inject()
     val sourceService: SourceService by inject()
+    val textLineService: TextLineService by inject()
     val versionService: VersionService by inject()
 
     val sourceClient: SourceClient by inject()
