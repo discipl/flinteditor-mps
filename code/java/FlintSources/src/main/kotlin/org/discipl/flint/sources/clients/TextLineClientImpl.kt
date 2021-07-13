@@ -41,7 +41,7 @@ class TextLineClientImpl(private val queryExecutor: QueryExecutor) : TextLineCli
             PREFIX changeset: <https://fin.triply.cc/ole/BWB/changeset/>
             PREFIX term: <http://purl.org/dc/terms/>
             
-            SELECT ?g ?artikelNr ?artikelName ?regelNr ?text ?lineId ?jci ?bwb WHERE {
+            SELECT ?g ?artikelNr ?artikelName ?regelNr ?text ?lineId ?jci ?bwb ?bronVersie WHERE {
               ?id calculemus:zin ?text .
               ?regelInBron calculemus:textChunk ?id; calculemus:textChunkNumber ?regelNr .
               ?textChunkInBronOriginal calculemus:textChunk ?id; calculemus:structuurkenmerk ?kenmerk .
@@ -110,7 +110,8 @@ class TextLineClientImpl(private val queryExecutor: QueryExecutor) : TextLineCli
         override val regelNr: Int by querySolutionInt()
         private val artikelNr: Int? by optionalQuerySolutionInt()
         private val g: String by querySolutionString()
-        private val bwb: String by querySolutionString()
+        override val bwb: String by querySolutionString()
+        override val bronVersie: String by querySolutionResourceURI()
         private val unfixedJci: String? by optionalQuerySolutionResourceURI("jci")
         override val jci: String = jci()
 

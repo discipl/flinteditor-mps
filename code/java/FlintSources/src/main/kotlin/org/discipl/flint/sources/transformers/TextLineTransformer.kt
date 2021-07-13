@@ -26,6 +26,8 @@ class TextLineTransformer {
         text = textLine.text,
         lineNr = textLine.regelNr,
         artikelName = textLine.artikelName,
+        sourceId= textLine.bwb,
+        sourceVersionId = textLine.bronVersie,
         jci = textLine.jci
     )
 

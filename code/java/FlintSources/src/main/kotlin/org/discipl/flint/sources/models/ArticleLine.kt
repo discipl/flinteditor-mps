@@ -5,5 +5,7 @@ class ArticleLine(
     override val text: String,
     override val id: String,
     val artikelName: String,
+    val sourceId: String,
+    val sourceVersionId: String,
     val jci: String
 ) : Line

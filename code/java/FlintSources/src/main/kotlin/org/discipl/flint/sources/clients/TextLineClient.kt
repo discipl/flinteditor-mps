@@ -22,4 +22,6 @@ interface ArticleTextLine {
     val regelNr: Int
     val artikelName: String
     val jci: String
+    val bwb: String
+    val bronVersie: String
 }

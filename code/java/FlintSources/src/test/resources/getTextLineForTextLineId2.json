@@ -9,7 +9,8 @@
       "text",
       "lineId",
       "jci",
-      "bwb"
+      "bwb",
+      "bronVersie"
     ]
   },
   "results": {
@@ -45,6 +46,10 @@
         "bwb": {
           "type": "literal",
           "value": "BWBR0043324"
+        },
+        "bronVersie": {
+          "type": "uri",
+          "value": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27"
         }
       }
     ]

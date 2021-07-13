@@ -78,6 +78,8 @@ internal class TextLineClientTest {
         assertEquals(28, articleTextLine.regelNr)
         assertEquals("jci1.3:c:BWBR0043324&artikel=2&lid=1&z=2020-05-16&g=2020-05-16", articleTextLine.jci)
         assertEquals("Artikel 2 (verstrekking en hoogte tegemoetkoming)", articleTextLine.artikelName)
+        assertEquals("BWBR0043324", articleTextLine.bwb)
+        assertEquals("https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27", articleTextLine.bronVersie)
     }
 
     @Test
@@ -104,5 +106,7 @@ internal class TextLineClientTest {
         assertEquals(62, articleTextLine.regelNr)
         assertEquals("jci1.3:c:BWBR0043324&artikel=5&z=2020-05-16&g=2020-05-16", articleTextLine.jci)
         assertEquals("Artikel 5 (beslistermijn)", articleTextLine.artikelName)
+        assertEquals("BWBR0043324", articleTextLine.bwb)
+        assertEquals("https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27", articleTextLine.bronVersie)
     }
 }

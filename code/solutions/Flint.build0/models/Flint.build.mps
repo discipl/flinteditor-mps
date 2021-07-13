@@ -2086,6 +2086,11 @@
             <ref role="3bR37D" to="90a9:64TsoMQT2qP" resolve="de.slisson.mps.hacks.editor" />
           </node>
         </node>
+        <node concept="1SiIV0" id="4O8McXBk1R_" role="3bR37C">
+          <node concept="3bR9La" id="4O8McXBk1RA" role="1SiIV1">
+            <ref role="3bR37D" node="6onvLJoJVY2" resolve="LawSource" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="QLMwktTkqF" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -3009,6 +3014,11 @@
                 <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3nHnYZiywni" role="3bR37C">
+          <node concept="3bR9La" id="3nHnYZiywnj" role="1SiIV1">
+            <ref role="3bR37D" node="QLMwktTkqF" resolve="Flint.plugin" />
           </node>
         </node>
       </node>

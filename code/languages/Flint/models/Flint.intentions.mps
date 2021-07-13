@@ -23,12 +23,6 @@
     <import index="gyv0" ref="r:3e994831-9e2b-4a2c-a757-02d48f0caeb5(de.slisson.mps.richtext.runtime.selection)" />
     <import index="3lmi" ref="r:a950900f-47ea-4287-adc8-88f839ab614a(Flint.behavior)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
-    <import index="k3nr" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.ide.editor(MPS.Editor/)" />
-    <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
-    <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
-    <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
-    <import index="2wn0" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.platform.dialogs.choosers(MPS.Platform/)" />
-    <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
     <import index="b8lf" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.selection(MPS.Editor/)" />
   </imports>
   <registry>
@@ -2844,52 +2838,6 @@
       </node>
       <node concept="2ZThk1" id="55Xd7estuTt" role="3ddBve">
         <ref role="2ZWj4r" to="lnwe:4AIlyP2wQAK" resolve="ERole" />
-      </node>
-    </node>
-  </node>
-  <node concept="2S6QgY" id="1j1uXED4v6h">
-    <property role="TrG5h" value="GetTextSourceName" />
-    <ref role="2ZfgGC" to="lnwe:5Xjenljcz0Y" resolve="FlintSourceReference" />
-    <node concept="2S6ZIM" id="1j1uXED4v6i" role="2ZfVej">
-      <node concept="3clFbS" id="1j1uXED4v6j" role="2VODD2">
-        <node concept="3clFbF" id="1j1uXED4vrV" role="3cqZAp">
-          <node concept="Xl_RD" id="1j1uXED4vrU" role="3clFbG">
-            <property role="Xl_RC" value="Load Source Name" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2Sbjvc" id="1j1uXED4v6k" role="2ZfgGD">
-      <node concept="3clFbS" id="1j1uXED4v6l" role="2VODD2">
-        <node concept="3cpWs8" id="1j1uXED4we4" role="3cqZAp">
-          <node concept="3cpWsn" id="1j1uXED4we5" role="3cpWs9">
-            <property role="TrG5h" value="sourceForUUID" />
-            <node concept="17QB3L" id="1j1uXED4wb$" role="1tU5fm" />
-            <node concept="2YIFZM" id="1j1uXED4we6" role="33vP2m">
-              <ref role="37wK5l" to="3lmi:1j1uXED4vGj" resolve="getSourceForUUID" />
-              <ref role="1Pybhc" to="3lmi:1j1uXED15fH" resolve="HasSourcesUtils" />
-              <node concept="2OqwBi" id="1j1uXED4we7" role="37wK5m">
-                <node concept="2Sf5sV" id="1j1uXED4we8" role="2Oq$k0" />
-                <node concept="3TrcHB" id="1j1uXED4we9" role="2OqNvi">
-                  <ref role="3TsBF5" to="lnwe:1UYcSlfmTax" resolve="textId" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1j1uXED4wgn" role="3cqZAp">
-          <node concept="37vLTI" id="1j1uXED4wW4" role="3clFbG">
-            <node concept="2OqwBi" id="1j1uXED4wqe" role="37vLTJ">
-              <node concept="2Sf5sV" id="1j1uXED4wgm" role="2Oq$k0" />
-              <node concept="3TrcHB" id="1j1uXED4wDB" role="2OqNvi">
-                <ref role="3TsBF5" to="lnwe:1j1uXED4swh" resolve="textSourceName" />
-              </node>
-            </node>
-            <node concept="37vLTw" id="1j1uXED4wea" role="37vLTx">
-              <ref role="3cqZAo" node="1j1uXED4we5" resolve="sourceForUUID" />
-            </node>
-          </node>
-        </node>
       </node>
     </node>
   </node>
