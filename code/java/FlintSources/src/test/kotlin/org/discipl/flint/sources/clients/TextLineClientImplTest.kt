@@ -2,9 +2,7 @@ package org.discipl.flint.sources.clients
 
 import org.apache.http.client.HttpClient
 import org.apache.http.client.methods.HttpPost
-import org.discipl.flint.sources.di.TestSourceLoader
-import org.discipl.flint.sources.di.asMock
-import org.discipl.flint.sources.di.doReturnJSONResource
+import org.discipl.flint.sources.di.*
 import org.hamcrest.BaseMatcher
 import org.hamcrest.Description
 import org.hamcrest.Matcher
@@ -30,18 +28,20 @@ internal class TextLineClientTest {
                 .doReturnJSONResource("/textlineforversion.json")
         }
 
+        mockRequestResult = MockRequestResult(cov19Result, "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27")
+
         val textLines =
             textLineClient.getTextLineForVersionId("https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27")
         textLines.forEach { println(it) }
-        assertEquals(47, textLines.size)
+        assertEquals(95, textLines.size)
         val artikel1 =
             textLines.first { it.structure == "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/kop" }
-        assertEquals(artikel1.regelNr, 5)
+        assertEquals(artikel1.regelNr, 14)
         assertNull(artikel1.teken)
         assertEquals(artikel1.text, "Artikel 1 (begripsbepalingen)")
 
         val eersteMetTeken = textLines.first { it.teken != null }
-        assertEquals(eersteMetTeken.regelNr, 9)
+        assertEquals(eersteMetTeken.regelNr, 23)
         assertEquals(
             eersteMetTeken.structure,
             "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/lijst/li/al"

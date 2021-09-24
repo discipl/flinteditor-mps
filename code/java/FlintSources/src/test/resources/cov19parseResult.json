@@ -1,0 +1,3213 @@
+{
+  "@context": {
+    "@vocab": "https://calculemus.org/law-model/def/textNode/",
+    "@base": "https://calculemus.org/law-model/id/textNode/",
+    "iri": "@id",
+    "tekst": "text",
+    "parent": {
+      "@type": "@id"
+    },
+    "next": {
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/101",
+      "text": "Deze beleidsregel treedt in werking met ingang van de dag na de datum van uitgifte van de Staatscourant waarin zij wordt geplaatst, en werkt terug tot en met 27 maart 2020.",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/101",
+      "listIndex": "1",
+      "bibliographicIdentifierString": "http://juriconnect.nl/1.3/c/BWBR0043324&artikel=8&lid=1&z=2020-03-31&g=2020-03-31",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/103",
+      "text": "Deze beleidsregel vervalt met ingang van 1 januari 2021, met dien verstande dat de beleidsregel van toepassing blijft op aanvragen om tegemoetkoming die uiterlijk 26 juni 2020 zijn ingediend, dan wel op tegemoetkomingen die voor 1 januari 2021 zijn verstrekt.",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/103",
+      "listIndex": "2",
+      "bibliographicIdentifierString": "http://juriconnect.nl/1.3/c/BWBR0043324&artikel=8&lid=2&z=2020-03-31&g=2020-03-31",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/105",
+      "text": "Artikel 9 (citeertitel)",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/105",
+      "textnodeType": "Title",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/kop",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/106",
+      "text": "Deze beleidsregel wordt aangehaald als: Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19.",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/106",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/109",
+      "text": "Deze beleidsregel zal met de toelichting in de Staatscourant worden geplaatst.",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/109",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-sluiting/slotformulering/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/11",
+      "text": "Besluiten:",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/11",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/aanhef/afkondiging/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/110",
+      "text": "&#39;s-Gravenhage 27 maart 2020",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/110",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-sluiting/gegeven",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/111",
+      "text": "De Minister van Economische Zaken en Klimaat, E.D. Wiebes",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/111",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-sluiting/ondertekening",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/112",
+      "text": "De Staatssecretaris van Economische Zaken en Klimaat, M.C.G. Keijzer",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/112",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-sluiting/ondertekening",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/114",
+      "text": "Bijlage 1 behorende bij artikel 1 van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19: activiteiten met de daarbij behorende code van de standaard bedrijfsindeling (SBI-code)",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/114",
+      "textnodeType": "Title",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/kop",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/120",
+      "text": "Omschrijving activiteit",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/120",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/thead/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/122",
+      "text": "SBI-code",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/122",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/thead/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/126",
+      "text": "Hotel-restaurants",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/126",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/128",
+      "text": "55.10.1",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/128",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/131",
+      "text": "Hotels (geen hotel-restaurants), pensions en conferentieoorden",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/131",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/133",
+      "text": "55.10.2",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/133",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/136",
+      "text": "Restaurants",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/136",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/138",
+      "text": "56.10.1",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/138",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/14",
+      "text": "Artikel 1 (begripsbepalingen)",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/14",
+      "textnodeType": "Title",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/kop",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/141",
+      "text": "Fastfoodrestaurants, cafetaria’s, ijssalons, eetkramen e.d.",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/141",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/143",
+      "text": "56.10.2",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/143",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/146",
+      "text": "Eventcatering",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/146",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/148",
+      "text": "56.21",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/148",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/15",
+      "text": "In deze beleidsregel wordt verstaan onder:",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/15",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/151",
+      "text": "Cafés",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/151",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/153",
+      "text": "56.30",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/153",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/156",
+      "text": "Bioscopen",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/156",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/158",
+      "text": "59.14",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/158",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/161",
+      "text": "Reisbemiddeling",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/161",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/163",
+      "text": "79.11.1",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/163",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/166",
+      "text": "Reisorganisatoren",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/166",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/168",
+      "text": "79.11.2",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/168",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/171",
+      "text": "Organiseren van congressen en beurzen",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/171",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/173",
+      "text": "82.30",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/173",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/176",
+      "text": "Dansscholen",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/176",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/178",
+      "text": "85.52.1",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/178",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/18",
+      "text": "algemene de-minimisverordening: verordening (EU) nr. 1407/2013 van de Commissie van 18 december 2013 betreffende de toepassing van de artikelen 107 en 108 van het Verdrag betreffende de werking van de Europese Unie op de-minimissteun (PbEU 2013, L 352);",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/18",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/228",
+      "text": "91.02.2",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/228",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/181",
+      "text": "Kunstzinnige vorming van amateurs (geen dansscholen)",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/181",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/183",
+      "text": "85.52.2",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/183",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/186",
+      "text": "Auto-en motorrijscholen",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/186",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/188",
+      "text": "85.53",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/188",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/191",
+      "text": "Beoefening van podiumkunst",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/191",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/193",
+      "text": "90.01.1",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/193",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/196",
+      "text": "Producenten van podiumkunst",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/196",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/198",
+      "text": "90.01.2",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/198",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/20",
+      "text": "gedupeerde onderneming: in Nederland gevestigde onderneming als bedoeld in artikel 5 van de Handelsregisterwet 2007 , niet zijnde een overheidsbedrijf:",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/20",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/201",
+      "text": "Circus en variété",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/201",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/203",
+      "text": "90.01.3",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/203",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/206",
+      "text": "Dienstverlening voor uitvoerende kunst",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/206",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/208",
+      "text": "90.02",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/208",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/211",
+      "text": "Theaters en schouwburgen",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/211",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/213",
+      "text": "90.04.1",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/213",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/216",
+      "text": "Evenementenhallen",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/216",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/218",
+      "text": "90.04.2",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/218",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/221",
+      "text": "Musea",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/221",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/223",
+      "text": "91.02.1",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/223",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/226",
+      "text": "Kunstgalerieën en -expositieruimten",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/226",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/23",
+      "text": "die op 15 maart 2020 in het handelsregister stond ingeschreven onder een hoofdactiviteit die in bijlage 1 is opgenomen, met de daarbij behorende code van de Standaard Bedrijfsindeling;",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/23",
+      "listIndex": "a.",
+      "bibliographicIdentifierString": "http://juriconnect.nl/1.3/c/BWBR0043324&artikel=1&o=a&z=2020-03-31&g=2020-03-31",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/231",
+      "text": "Casino’s",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/231",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/233",
+      "text": "92.00.1",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/233",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/236",
+      "text": "Exploitatie van speelautomaten",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/236",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/238",
+      "text": "92.00.9",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/238",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/241",
+      "text": "Sportaccommodaties",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/241",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/243",
+      "text": "93.11",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/243",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/246",
+      "text": "Veldvoetbal",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/246",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/248",
+      "text": "93.12.1",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/248",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/25",
+      "text": "waar ten hoogste 250 personen werkzaam zijn, blijkend uit de inschrijving in het handelsregister op 15 maart 2020; en",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/25",
+      "listIndex": "b.",
+      "bibliographicIdentifierString": "http://juriconnect.nl/1.3/c/BWBR0043324&artikel=1&o=b&z=2020-03-31&g=2020-03-31",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/251",
+      "text": "Veldsport in teamverband (geen voetbal)",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/251",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/253",
+      "text": "93.12.2",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/253",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/256",
+      "text": "Atletiek",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/256",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/258",
+      "text": "93.12.3",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/258",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/261",
+      "text": "Tennis",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/261",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/263",
+      "text": "93.12.4",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/263",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/266",
+      "text": "Paardensport en maneges",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/266",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/268",
+      "text": "93.12.5",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/268",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/27",
+      "text": "die:",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/27",
+      "listIndex": "c.",
+      "bibliographicIdentifierString": "http://juriconnect.nl/1.3/c/BWBR0043324&artikel=1&o=c&z=2020-03-31&g=2020-03-31",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/271",
+      "text": "Wielersport",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/271",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/273",
+      "text": "93.12.6",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/273",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/276",
+      "text": "Auto- en motorsport",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/276",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/278",
+      "text": "93.12.7",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/278",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/281",
+      "text": "Wintersport",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/281",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/283",
+      "text": "93.12.8",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/283",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/286",
+      "text": "Overige buitensport",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/286",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/288",
+      "text": "93.12.9",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/288",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/291",
+      "text": "Fitnesscentra",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/291",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/293",
+      "text": "93.13",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/293",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/296",
+      "text": "Indviduele zaalsport",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/296",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/298",
+      "text": "93.14.1",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/298",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/30",
+      "text": "voor zover het een onderneming, niet zijnde een horecaonderneming, betreft ten minste één vestiging heeft met een ander adres dan het privéadres van de eigenaar of eigenaren van de onderneming; of",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/30",
+      "listIndex": "1°.",
+      "bibliographicIdentifierString": "http://juriconnect.nl/1.3/c/BWBR0043324&artikel=1&o=c&o=1&z=2020-03-31&g=2020-03-31",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/lijst/li/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/301",
+      "text": "Zaalsport in teamverband",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/301",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/303",
+      "text": "93.14.2",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/303",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/306",
+      "text": "Kracht- en vechtsport",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/306",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/308",
+      "text": "93.14.3",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/308",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/311",
+      "text": "Bowlen, kegelen, biljarten e.d.",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/311",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/313",
+      "text": "93.14.4",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/313",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/5",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/5",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/2",
+      "structure": "#document/toestand/wetgeving/regeling",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/316",
+      "text": "Denksport",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/316",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/318",
+      "text": "93.14.5",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/318",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/32",
+      "text": "voor zover het een horecaonderneming betreft ten minste één horecagelegenheid huurt, pacht of in eigendom heeft;",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/32",
+      "listIndex": "2°.",
+      "bibliographicIdentifierString": "http://juriconnect.nl/1.3/c/BWBR0043324&artikel=1&o=c&o=2&z=2020-03-31&g=2020-03-31",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/lijst/li/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/321",
+      "text": "Sportscholen",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/321",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/323",
+      "text": "93.14.6",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/323",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/326",
+      "text": "Overige binnensport en omnisport",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/326",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/328",
+      "text": "93.14.9",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/328",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/331",
+      "text": "Zwem- en onderwatersport",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/331",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/333",
+      "text": "93.15.1",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/333",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/336",
+      "text": "Roei- kano- zeil- en surfsport e.d.",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/336",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/338",
+      "text": "93.15.2",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/338",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/34",
+      "text": "handelsregister: handelsregister als bedoeld in artikel 2 van de Handelsregisterwet 2007 ;",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/34",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/341",
+      "text": "Organiseren van sportevenement",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/341",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/343",
+      "text": "93.19.5",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/343",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/346",
+      "text": "Pret-en themaparken",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/346",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/348",
+      "text": "93.21.1",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/348",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/351",
+      "text": "Kermisattracties",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/351",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/353",
+      "text": "93.21.2",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/353",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/356",
+      "text": "Haarverzorging",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/356",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/2",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/2",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/1",
+      "structure": "#document/toestand/wetgeving",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/358",
+      "text": "96.02.1",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/358",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/36",
+      "text": "horecaonderneming: onderneming die op 15 maart 2020 stond ingeschreven in het handelsregister onder de code 56.10.1, 56.10.2 of 56.30 van de Standaard Bedrijfsindeling;",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/36",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/361",
+      "text": "Schoonheidsverzorging, pedicures en manicures, visagie en image consulting",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/361",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/363",
+      "text": "96.02.2",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/363",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/366",
+      "text": "Sauna’s, solaria, baden e.d.",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/366",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/368",
+      "text": "96.04",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/368",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/bijlage/table/tgroup/tbody/row/entry/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/38",
+      "text": "minister: Minister van Economische Zaken en Klimaat;",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/38",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/40",
+      "text": "overheidsbedrijf: overheidsbedrijf als bedoeld in artikel 25g, eerste lid, van de Mededingingswet ;",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/40",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/42",
+      "text": "verklaring de-minimissteun: verklaring van de gedupeerde onderneming waarin deze bevestigt dat de tegemoetkoming niet zal leiden tot een overschrijding van het de-minimisplafond, bedoeld in artikel 3, tweede lid, van de algemene de-minimisverordening;",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/42",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/44",
+      "text": "vestiging: vestiging als bedoeld in artikel 1, eerste lid, onderdeel j, van de Handelsregisterwet 2007 .",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/44",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/46",
+      "text": "Artikel 2 (verstrekking en hoogte tegemoetkoming)",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/46",
+      "textnodeType": "Title",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/kop",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/48",
+      "text": "De minister verstrekt op aanvraag een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020:",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/48",
+      "listIndex": "1",
+      "bibliographicIdentifierString": "http://juriconnect.nl/1.3/c/BWBR0043324&artikel=2&lid=1&z=2020-03-31&g=2020-03-31",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/51",
+      "text": "ten minste € 4000,– aan omzetverlies te lijden als gevolg van de maatregelen ter bestrijding van de verdere verspreiding van COVID-19;",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/51",
+      "listIndex": "a.",
+      "bibliographicIdentifierString": "http://juriconnect.nl/1.3/c/BWBR0043324&artikel=2&lid=1&o=a&z=2020-03-31&g=2020-03-31",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/53",
+      "text": "ten minste € 4000,– aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19.",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/53",
+      "listIndex": "b.",
+      "bibliographicIdentifierString": "http://juriconnect.nl/1.3/c/BWBR0043324&artikel=2&lid=1&o=b&z=2020-03-31&g=2020-03-31",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/55",
+      "text": "De tegemoetkoming bedraagt € 4000 per gedupeerde onderneming.",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/55",
+      "listIndex": "2",
+      "bibliographicIdentifierString": "http://juriconnect.nl/1.3/c/BWBR0043324&artikel=2&lid=2&z=2020-03-31&g=2020-03-31",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/57",
+      "text": "Artikel 3 (afwijzingsgronden)",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/57",
+      "textnodeType": "Title",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/kop",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/58",
+      "text": "De minister beslist afwijzend op een aanvraag indien:",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/58",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/61",
+      "text": "de aanvraag niet voldoet aan de bij deze beleidsregel gestelde eisen;",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/61",
+      "listIndex": "a.",
+      "bibliographicIdentifierString": "http://juriconnect.nl/1.3/c/BWBR0043324&artikel=3&o=a&z=2020-03-31&g=2020-03-31",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/63",
+      "text": "de gedupeerde onderneming in staat van faillissement verkeert dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming is ingediend;",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/63",
+      "listIndex": "b.",
+      "bibliographicIdentifierString": "http://juriconnect.nl/1.3/c/BWBR0043324&artikel=3&o=b&z=2020-03-31&g=2020-03-31",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/65",
+      "text": "de tegemoetkoming niet verstrekt kan worden op grond van de algemene de-minimisverordening.",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/65",
+      "listIndex": "c.",
+      "bibliographicIdentifierString": "http://juriconnect.nl/1.3/c/BWBR0043324&artikel=3&o=c&z=2020-03-31&g=2020-03-31",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/67",
+      "text": "Artikel 4 (informatieverplichtingen bij aanvraag en aanvraagperiode)",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/67",
+      "textnodeType": "Title",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/kop",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/69",
+      "text": "Een aanvraag wordt ingediend met gebruikmaking van een door de minister beschikbaar gesteld middel.",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/69",
+      "listIndex": "1",
+      "bibliographicIdentifierString": "http://juriconnect.nl/1.3/c/BWBR0043324&artikel=4&lid=1&z=2020-03-31&g=2020-03-31",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/7",
+      "text": "De Minister van Economische Zaken en Klimaat en de Staatssecretaris van Economische Zaken en Klimaat,",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/7",
+      "structure": "#document/toestand/wetgeving/regeling/aanhef/wie",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/71",
+      "text": "Een aanvraag omvat in ieder geval:",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/71",
+      "listIndex": "2",
+      "bibliographicIdentifierString": "http://juriconnect.nl/1.3/c/BWBR0043324&artikel=4&lid=2&z=2020-03-31&g=2020-03-31",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/74",
+      "text": "gegevens over de gedupeerde onderneming, waaronder het nummer waarmee de gedupeerde onderneming geregistreerd is bij de Kamer van Koophandel, het post- en bezoekadres en het rekeningnummer dat op naam van de gedupeerde onderneming staat;",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/74",
+      "listIndex": "a.",
+      "bibliographicIdentifierString": "http://juriconnect.nl/1.3/c/BWBR0043324&artikel=4&lid=2&o=a&z=2020-03-31&g=2020-03-31",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/76",
+      "text": "gegevens over de contactpersoon bij de gedupeerde onderneming, waaronder de naam, het telefoonnummer en het e-mailadres;",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/76",
+      "listIndex": "b.",
+      "bibliographicIdentifierString": "http://juriconnect.nl/1.3/c/BWBR0043324&artikel=4&lid=2&o=b&z=2020-03-31&g=2020-03-31",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/78",
+      "text": "een verklaring dat de gedupeerde onderneming geen overheidsbedrijf is;",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/78",
+      "listIndex": "c.",
+      "bibliographicIdentifierString": "http://juriconnect.nl/1.3/c/BWBR0043324&artikel=4&lid=2&o=c&z=2020-03-31&g=2020-03-31",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/80",
+      "text": "een verklaring de-minimissteun;",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/80",
+      "listIndex": "d.",
+      "bibliographicIdentifierString": "http://juriconnect.nl/1.3/c/BWBR0043324&artikel=4&lid=2&o=d&z=2020-03-31&g=2020-03-31",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/82",
+      "text": "een verklaring dat de gedupeerde onderneming op het moment van aanvraag voldoet aan de bij deze beleidsregel gestelde eisen;",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/82",
+      "listIndex": "e.",
+      "bibliographicIdentifierString": "http://juriconnect.nl/1.3/c/BWBR0043324&artikel=4&lid=2&o=e&z=2020-03-31&g=2020-03-31",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/84",
+      "text": "een verklaring waarin de gedupeerde onderneming aangeeft dat de onderneming in de periode van 16 maart 2020 tot en met 15 juni 2020 een omzetverlies verwacht te lijden van ten minste € 4000,–; en",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/84",
+      "listIndex": "f.",
+      "bibliographicIdentifierString": "http://juriconnect.nl/1.3/c/BWBR0043324&artikel=4&lid=2&o=f&z=2020-03-31&g=2020-03-31",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/100",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/100",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/95",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/102",
+      "structure": "/Artikel7/Lid1/Onderdeelc",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/86",
+      "text": "een verklaring waarin de gedupeerde onderneming aangeeft dat de onderneming in de periode van 16 maart 2020 tot en met 15 juni 2020 verwacht ten minste € 4000,– aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19.",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/86",
+      "listIndex": "g.",
+      "bibliographicIdentifierString": "http://juriconnect.nl/1.3/c/BWBR0043324&artikel=4&lid=2&o=g&z=2020-03-31&g=2020-03-31",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst/li/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/88",
+      "text": "Een aanvraag kan worden ingediend in de periode van 27 maart 2020 tot en met 26 juni 2020.",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/88",
+      "listIndex": "3",
+      "bibliographicIdentifierString": "http://juriconnect.nl/1.3/c/BWBR0043324&artikel=4&lid=3&z=2020-03-31&g=2020-03-31",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/9",
+      "text": "Gelet op artikel 4:81 van de Algemene wet bestuursrecht ;",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/9",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/aanhef/considerans/considerans.al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/90",
+      "text": "Artikel 5 (beslistermijn)",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/90",
+      "textnodeType": "Title",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/kop",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/91",
+      "text": "De minister beslist binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen.",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/91",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/93",
+      "text": "Artikel 6 (aanpassing tegemoetkoming achteraf)",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/93",
+      "textnodeType": "Title",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/kop",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/94",
+      "text": "De minister kan de hoogte van de tegemoetkoming binnen vijf jaar na de verstrekking herzien dan wel de beschikking tot de tegemoetkoming intrekken, indien blijkt dat de tegemoetkoming, door onjuiste gegevensverstrekking door de gedupeerde onderneming, niet in overeenstemming met deze beleidsregel is verstrekt.",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/94",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/96",
+      "text": "Artikel 7 (staatssteun)",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/96",
+      "textnodeType": "Title",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/kop",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/97",
+      "text": "De tegemoetkoming, bedoeld in artikel 2 , bevat staatssteun en wordt gerechtvaardigd door de algemene de-minimisverordening.",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/97",
+      "textnodeType": "SimpleLine",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/al",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/99",
+      "text": "Artikel 8 (inwerkingtreding en vervaldatum)",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/99",
+      "textnodeType": "Title",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/kop",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/3",
+      "text": "Beleidsregel van de Minister van Economische Zaken en Klimaat van 27 maart 2020, nr. WJZ/ 20077977, tot tegemoetkoming in de schade geleden door ondernemingen in bepaalde sectoren door de maatregelen ter bestrijding van de verdere verspreiding van COVID-19 (Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19) 2020 19159 30-03-2020 27-03-2020 WJZ/20077977 2020 19159 30-03-2020 27-03-2020 WJZ/20077977 31-03-2020 27-03-2020",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/3",
+      "structure": "/Intitule",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/4",
+      "text": "Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19 2020 19159 30-03-2020 27-03-2020 WJZ/20077977 2020 19159 30-03-2020 27-03-2020 WJZ/20077977 31-03-2020 27-03-2020",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/4",
+      "structure": "/Citeertitel",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/1",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/1",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/0",
+      "structure": "#document/toestand",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/0",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/0",
+      "structure": "#document",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/10",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/10",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/6",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/8",
+      "structure": "#document/toestand/wetgeving/regeling/aanhef/afkondiging",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/8",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/8",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/6",
+      "structure": "#document/toestand/wetgeving/regeling/aanhef/considerans",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/6",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/6",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/5",
+      "structure": "/Aanhef",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/102",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/102",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/95",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/96",
+      "structure": "/Artikel7/Lid1/Onderdeeld",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/96",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/96",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/95",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/98",
+      "structure": "/Artikel7/Lid1/Onderdeela",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/98",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/98",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/95",
+      "structure": "/Artikel7/Lid1/Onderdeelb",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/95",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/95",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/93",
+      "textnodeType": "SubList",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/93",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/93",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/91",
+      "structure": "/Artikel7/Lid1",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/115",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/115",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/91",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/93",
+      "structure": "/Artikel7/Lid5",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/113",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/113",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/91",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/115",
+      "structure": "/Artikel7/Lid4",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/91",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/91",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "structure": "/Artikel7",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/5",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/428",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/428",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/428",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/5",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/6",
+      "structure": "/SlotformulierEnOndertekening",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/104",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/104",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/91",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/106",
+      "structure": "/Artikel7/Lid2",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/106",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/106",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/91",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/113",
+      "structure": "/Artikel7/Lid3",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/108",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/108",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/106",
+      "textnodeType": "SubList",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/109",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/109",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/108",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/111",
+      "structure": "/Artikel7/Lid3/Onderdeela",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/111",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/111",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/108",
+      "structure": "/Artikel7/Lid3/Onderdeelb",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/117",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/117",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/13",
+      "structure": "/Artikel8",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/13",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/13",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/158",
+      "structure": "/Artikel1",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/158",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/158",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/174",
+      "structure": "/Artikel9",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/174",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/174",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/219",
+      "structure": "/Artikel10",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/219",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/219",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/236",
+      "structure": "/Artikel11",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/236",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/236",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/243",
+      "structure": "/Artikel12",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/243",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/243",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/251",
+      "structure": "/Artikel13",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/251",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/251",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/259",
+      "structure": "/Artikel14",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/259",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/259",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/290",
+      "structure": "/Artikel15",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/290",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/290",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/300",
+      "structure": "/Artikel16",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/300",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/300",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/314",
+      "structure": "/Artikel17",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/314",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/314",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/353",
+      "structure": "/Artikel18",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/353",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/353",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/356",
+      "structure": "/Artikel19",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/356",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/356",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/359",
+      "structure": "/Artikel20",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/359",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/359",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/383",
+      "structure": "/Artikel21",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/383",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/383",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/400",
+      "structure": "/Artikel22",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/400",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/400",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/410",
+      "structure": "/Artikel23",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/410",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/410",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/413",
+      "structure": "/Artikel24",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/413",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/413",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/425",
+      "structure": "/Artikel25",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/425",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/425",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/46",
+      "structure": "/Artikel26",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/46",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/46",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/52",
+      "structure": "/Artikel2",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/52",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/52",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/55",
+      "structure": "/Artikel3",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/55",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/55",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/61",
+      "structure": "/Artikel4",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/61",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/61",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/73",
+      "structure": "/Artikel5",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/73",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/73",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/12",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/91",
+      "structure": "/Artikel6",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/119",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/119",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/117",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/134",
+      "structure": "/Artikel8/Lid1",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/134",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/134",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/117",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/136",
+      "structure": "/Artikel8/Lid2",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/136",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/136",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/117",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/138",
+      "structure": "/Artikel8/Lid3",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/138",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/138",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/117",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/140",
+      "structure": "/Artikel8/Lid4",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/140",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/140",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/117",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/146",
+      "structure": "/Artikel8/Lid5",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/146",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/146",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/117",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/148",
+      "structure": "/Artikel8/Lid6",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/148",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/148",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/117",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/150",
+      "structure": "/Artikel8/Lid7",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/150",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/150",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/117",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/152",
+      "structure": "/Artikel8/Lid8",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/152",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/152",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/117",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/156",
+      "structure": "/Artikel8/Lid9",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/156",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/156",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/117",
+      "structure": "/Artikel8/Lid10",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/125",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/125",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/119",
+      "textnodeType": "SubList",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/126",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/126",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/125",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/128",
+      "structure": "/Artikel8/Lid1/Onderdeela",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/128",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/128",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/125",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/130",
+      "structure": "/Artikel8/Lid1/Onderdeelb",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/130",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/130",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/125",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/132",
+      "structure": "/Artikel8/Lid1/Onderdeelc",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/132",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/132",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/125",
+      "structure": "/Artikel8/Lid1/Onderdeeld",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/15",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/15",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/13",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/44",
+      "structure": "/Artikel1/Lid1",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/44",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/44",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/13",
+      "structure": "/Artikel1/Lid2",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/160",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/160",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/158",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/167",
+      "structure": "/Artikel9/Lid1",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/167",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/167",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/158",
+      "structure": "/Artikel9/Lid2",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/162",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/162",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/160",
+      "textnodeType": "SubList",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/163",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/163",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/162",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/165",
+      "structure": "/Artikel9/Lid1/Onderdeela",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/165",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/165",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/162",
+      "structure": "/Artikel9/Lid1/Onderdeelb",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/169",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/169",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/167",
+      "textnodeType": "SubList",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/17",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/17",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/15",
+      "textnodeType": "SubList",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/170",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/170",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/169",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/172",
+      "structure": "/Artikel9/Lid2/Onderdeela",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/172",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/172",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/169",
+      "structure": "/Artikel9/Lid2/Onderdeelb",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/176",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/176",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/174",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/178",
+      "structure": "/Artikel10/Lid1",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/178",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/178",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/174",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/180",
+      "structure": "/Artikel10/Lid2",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/180",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/180",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/174",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/182",
+      "structure": "/Artikel10/Lid3",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/182",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/182",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/174",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/197",
+      "structure": "/Artikel10/Lid4",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/197",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/197",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/174",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/204",
+      "structure": "/Artikel10/Lid5",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/204",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/204",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/174",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/206",
+      "structure": "/Artikel10/Lid6",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/206",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/206",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/174",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/208",
+      "structure": "/Artikel10/Lid7",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/208",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/208",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/174",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/210",
+      "structure": "/Artikel10/Lid8",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/210",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/210",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/174",
+      "structure": "/Artikel10/Lid9",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/18",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/18",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/17",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/20",
+      "structure": "/Artikel1/Lid1/Onderdeel_1",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/20",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/20",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/17",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/22",
+      "structure": "/Artikel1/Lid1/Onderdeel_2",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/22",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/22",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/17",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/24",
+      "structure": "/Artikel1/Lid1/Onderdeel_3",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/24",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/24",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/17",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/26",
+      "structure": "/Artikel1/Lid1/Onderdeel_4",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/26",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/26",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/17",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/28",
+      "structure": "/Artikel1/Lid1/Onderdeel_5",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/28",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/28",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/17",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/30",
+      "structure": "/Artikel1/Lid1/Onderdeel_6",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/30",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/30",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/17",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/32",
+      "structure": "/Artikel1/Lid1/Onderdeel_7",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/32",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/32",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/17",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/34",
+      "structure": "/Artikel1/Lid1/Onderdeel_8",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/34",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/34",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/17",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/36",
+      "structure": "/Artikel1/Lid1/Onderdeel_9",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/36",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/36",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/17",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/38",
+      "structure": "/Artikel1/Lid1/Onderdeel_10",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/38",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/38",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/17",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/40",
+      "structure": "/Artikel1/Lid1/Onderdeel_11",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/40",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/40",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/17",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/42",
+      "structure": "/Artikel1/Lid1/Onderdeel_12",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/42",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/42",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/17",
+      "structure": "/Artikel1/Lid1/Onderdeel_13",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/184",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/184",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/182",
+      "textnodeType": "SubList",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/185",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/185",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/184",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/187",
+      "structure": "/Artikel10/Lid4/Onderdeela",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/187",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/187",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/184",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/189",
+      "structure": "/Artikel10/Lid4/Onderdeelb",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/189",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/189",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/184",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/191",
+      "structure": "/Artikel10/Lid4/Onderdeelc",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/191",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/191",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/184",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/193",
+      "structure": "/Artikel10/Lid4/Onderdeeld",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/193",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/193",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/184",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/195",
+      "structure": "/Artikel10/Lid4/Onderdeele",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/195",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/195",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/184",
+      "structure": "/Artikel10/Lid4/Onderdeelf",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/199",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/199",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/197",
+      "textnodeType": "SubList",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/200",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/200",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/199",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/202",
+      "structure": "/Artikel10/Lid5/Onderdeela",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/202",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/202",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/199",
+      "structure": "/Artikel10/Lid5/Onderdeelb",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/212",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/212",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/210",
+      "textnodeType": "SubList",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/213",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/213",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/212",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/215",
+      "structure": "/Artikel10/Lid9/Onderdeela",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/215",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/215",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/212",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/217",
+      "structure": "/Artikel10/Lid9/Onderdeelb",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/217",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/217",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/212",
+      "structure": "/Artikel10/Lid9/Onderdeelc",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/221",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/221",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/219",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/223",
+      "structure": "/Artikel11/Lid1",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/223",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/223",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/219",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/234",
+      "structure": "/Artikel11/Lid2",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/234",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/234",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/219",
+      "structure": "/Artikel11/Lid3",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/225",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/225",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/223",
+      "textnodeType": "SubList",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/226",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/226",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/225",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/228",
+      "structure": "/Artikel11/Lid2/Onderdeela",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/228",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/228",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/225",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/230",
+      "structure": "/Artikel11/Lid2/Onderdeelb",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/230",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/230",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/225",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/232",
+      "structure": "/Artikel11/Lid2/Onderdeelc",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/232",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/232",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/225",
+      "structure": "/Artikel11/Lid2/Onderdeeld",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/245",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/245",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/243",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/247",
+      "structure": "/Artikel13/Lid1",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/247",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/247",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/243",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/249",
+      "structure": "/Artikel13/Lid2",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/249",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/249",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/243",
+      "structure": "/Artikel13/Lid3",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/254",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/254",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/251",
+      "textnodeType": "SubList",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/255",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/255",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/254",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/257",
+      "structure": "/Artikel14/Onderdeela",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/257",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/257",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/254",
+      "structure": "/Artikel14/Onderdeelb",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/262",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/262",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/259",
+      "textnodeType": "SubList",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/263",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/263",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/262",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/265",
+      "structure": "/Artikel15/Onderdeela",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/265",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/265",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/262",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/267",
+      "structure": "/Artikel15/Onderdeelb",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/267",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/267",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/262",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/274",
+      "structure": "/Artikel15/Onderdeelc",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/274",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/274",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/262",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/276",
+      "structure": "/Artikel15/Onderdeeld",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/276",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/276",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/262",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/278",
+      "structure": "/Artikel15/Onderdeele",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/278",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/278",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/262",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/280",
+      "structure": "/Artikel15/Onderdeelf",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/280",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/280",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/262",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/282",
+      "structure": "/Artikel15/Onderdeelg",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/282",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/282",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/262",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/284",
+      "structure": "/Artikel15/Onderdeelh",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/284",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/284",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/262",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/286",
+      "structure": "/Artikel15/Onderdeeli",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/286",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/286",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/262",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/288",
+      "structure": "/Artikel15/Onderdeelj",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/288",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/288",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/262",
+      "structure": "/Artikel15/Onderdeelk",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/269",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/269",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/267",
+      "textnodeType": "SubList",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst/li/lijst",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/270",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/270",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/269",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/272",
+      "structure": "/Artikel15/Onderdeelc/Onderdeel1",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/272",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/272",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/269",
+      "structure": "/Artikel15/Onderdeelc/Onderdeel2",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/292",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/292",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/290",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/294",
+      "structure": "/Artikel16/Lid1",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/294",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/294",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/290",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/296",
+      "structure": "/Artikel16/Lid2",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/296",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/296",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/290",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/298",
+      "structure": "/Artikel16/Lid3",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/298",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/298",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/290",
+      "structure": "/Artikel16/Lid4",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/302",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/302",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/300",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/304",
+      "structure": "/Artikel17/Lid1",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/304",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/304",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/300",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/306",
+      "structure": "/Artikel17/Lid2",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/306",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/306",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/300",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/308",
+      "structure": "/Artikel17/Lid3",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/308",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/308",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/300",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/310",
+      "structure": "/Artikel17/Lid4",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/310",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/310",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/300",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/312",
+      "structure": "/Artikel17/Lid5",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/312",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/312",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/300",
+      "structure": "/Artikel17/Lid6",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/316",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/316",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/314",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/318",
+      "structure": "/Artikel18/Lid1",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/318",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/318",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/314",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/329",
+      "structure": "/Artikel18/Lid2",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/329",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/329",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/314",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/331",
+      "structure": "/Artikel18/Lid3",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/331",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/331",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/314",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/333",
+      "structure": "/Artikel18/Lid4",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/333",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/333",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/314",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/340",
+      "structure": "/Artikel18/Lid5",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/340",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/340",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/314",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/351",
+      "structure": "/Artikel18/Lid6",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/351",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/351",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/314",
+      "structure": "/Artikel18/Lid7",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/320",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/320",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/318",
+      "textnodeType": "SubList",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/321",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/321",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/320",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/323",
+      "structure": "/Artikel18/Lid2/Onderdeela",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/323",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/323",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/320",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/325",
+      "structure": "/Artikel18/Lid2/Onderdeelb",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/325",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/325",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/320",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/327",
+      "structure": "/Artikel18/Lid2/Onderdeelc",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/327",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/327",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/320",
+      "structure": "/Artikel18/Lid2/Onderdeeld",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/335",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/335",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/333",
+      "textnodeType": "SubList",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/336",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/336",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/335",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/338",
+      "structure": "/Artikel18/Lid5/Onderdeela",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/338",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/338",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/335",
+      "structure": "/Artikel18/Lid5/Onderdeelb",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/342",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/342",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/340",
+      "textnodeType": "SubList",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/343",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/343",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/342",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/345",
+      "structure": "/Artikel18/Lid6/Onderdeela",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/345",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/345",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/342",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/347",
+      "structure": "/Artikel18/Lid6/Onderdeelb",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/347",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/347",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/342",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/349",
+      "structure": "/Artikel18/Lid6/Onderdeelc",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/349",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/349",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/342",
+      "structure": "/Artikel18/Lid6/Onderdeeld",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/361",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/361",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/359",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/370",
+      "structure": "/Artikel21/Lid1",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/370",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/370",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/359",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/372",
+      "structure": "/Artikel21/Lid2",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/372",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/372",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/359",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/374",
+      "structure": "/Artikel21/Lid3",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/374",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/374",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/359",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/376",
+      "structure": "/Artikel21/Lid4",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/376",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/376",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/359",
+      "structure": "/Artikel21/Lid5",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/363",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/363",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/361",
+      "textnodeType": "SubList",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/364",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/364",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/363",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/366",
+      "structure": "/Artikel21/Lid1/Onderdeela",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/366",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/366",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/363",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/368",
+      "structure": "/Artikel21/Lid1/Onderdeelb",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/368",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/368",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/363",
+      "structure": "/Artikel21/Lid1/Onderdeelc",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/378",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/378",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/376",
+      "textnodeType": "SubList",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/379",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/379",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/378",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/381",
+      "structure": "/Artikel21/Lid5/Onderdeela",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/381",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/381",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/378",
+      "structure": "/Artikel21/Lid5/Onderdeelb",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/385",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/385",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/383",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/387",
+      "structure": "/Artikel22/Lid1",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/387",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/387",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/383",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/389",
+      "structure": "/Artikel22/Lid2",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/389",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/389",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/383",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/391",
+      "structure": "/Artikel22/Lid3",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/391",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/391",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/383",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/398",
+      "structure": "/Artikel22/Lid4",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/398",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/398",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/383",
+      "structure": "/Artikel22/Lid5",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/393",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/393",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/391",
+      "textnodeType": "SubList",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lid/lijst",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/394",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/394",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/393",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/396",
+      "structure": "/Artikel22/Lid4/Onderdeela",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/396",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/396",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/393",
+      "structure": "/Artikel22/Lid4/Onderdeelb",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/402",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/402",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/400",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/404",
+      "structure": "/Artikel23/Lid1",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/404",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/404",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/400",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/406",
+      "structure": "/Artikel23/Lid2",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/406",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/406",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/400",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/408",
+      "structure": "/Artikel23/Lid3",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/408",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/408",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/400",
+      "structure": "/Artikel23/Lid4",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/415",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/415",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/413",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/417",
+      "structure": "/Artikel25/Lid1",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/417",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/417",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/413",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/419",
+      "structure": "/Artikel25/Lid2",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/419",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/419",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/413",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/421",
+      "structure": "/Artikel25/Lid3",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/421",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/421",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/413",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/423",
+      "structure": "/Artikel25/Lid4",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/423",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/423",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/413",
+      "structure": "/Artikel25/Lid5",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/429",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/429",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/428",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-sluiting/slotformulering",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/48",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/48",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/46",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/50",
+      "structure": "/Artikel2/Lid1",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/50",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/50",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/46",
+      "structure": "/Artikel2/Lid2",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/57",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/57",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/55",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/59",
+      "structure": "/Artikel4/Lid1",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/59",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/59",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/55",
+      "structure": "/Artikel4/Lid2",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/64",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/64",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/61",
+      "textnodeType": "SubList",
+      "structure": "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/lijst",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/65",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/65",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/64",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/67",
+      "structure": "/Artikel5/Onderdeela",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/67",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/67",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/64",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/69",
+      "structure": "/Artikel5/Onderdeelb",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/69",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/69",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/64",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/71",
+      "structure": "/Artikel5/Onderdeelc",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/71",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/71",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/64",
+      "structure": "/Artikel5/Onderdeeld",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/75",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/75",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/73",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/77",
+      "structure": "/Artikel6/Lid1",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/77",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/77",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/73",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/79",
+      "structure": "/Artikel6/Lid2",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/79",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/79",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/73",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/81",
+      "structure": "/Artikel6/Lid3",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/81",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/81",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/73",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/83",
+      "structure": "/Artikel6/Lid4",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/83",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/83",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/73",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/85",
+      "structure": "/Artikel6/Lid5",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/85",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/85",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/73",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/87",
+      "structure": "/Artikel6/Lid6",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/87",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/87",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/73",
+      "next": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/89",
+      "structure": "/Artikel6/Lid7",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/89",
+      "text": "",
+      "name": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/89",
+      "parent": "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04/structuurkenmerk/73",
+      "structure": "/Artikel6/Lid8",
+      "@type": "TextNode"
+    }
+  ],
+  "redirects": {}
+}

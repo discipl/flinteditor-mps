@@ -1,9 +1,10 @@
-package org.discipl.flint.sources.clients
+package org.discipl.flint.sources.clients.triply
 
 import org.apache.jena.graph.NodeFactory
 import org.apache.jena.query.*
+import org.discipl.flint.sources.clients.*
 
-class SourceClientImpl(private val queryExecutor: QueryExecutor) : SourceClient {
+class TriplySourceClientImpl(private val queryExecutor: QueryExecutor) : SourceClient {
     // TODO make sure to get the latest one somehow
     companion object {
         private val query: String = """

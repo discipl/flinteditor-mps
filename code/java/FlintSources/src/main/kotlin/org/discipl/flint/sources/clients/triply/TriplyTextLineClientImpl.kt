@@ -1,12 +1,13 @@
-package org.discipl.flint.sources.clients
+package org.discipl.flint.sources.clients.triply
 
 import org.apache.jena.graph.NodeFactory
 import org.apache.jena.query.ParameterizedSparqlString
 import org.apache.jena.query.Query
 import org.apache.jena.query.QueryFactory
 import org.apache.jena.query.QuerySolution
+import org.discipl.flint.sources.clients.*
 
-class TextLineClientImpl(private val queryExecutor: QueryExecutor) : TextLineClient {
+class TriplyTextLineClientImpl(private val queryExecutor: QueryExecutor) : TextLineClient {
     companion object {
         private val query: String = """
             PREFIX changeset: <https://fin.triply.cc/ole/BWB/changeset/>

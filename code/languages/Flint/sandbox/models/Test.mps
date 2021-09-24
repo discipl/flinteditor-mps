@@ -32,6 +32,9 @@
       <concept id="6868897032739434618" name="Flint.structure.Fact" flags="ng" index="cu0$f">
         <child id="6868897032739751036" name="function" index="coNO9" />
       </concept>
+      <concept id="7816114204010268258" name="Flint.structure.TaggedWord" flags="ng" index="2h$EKm">
+        <child id="7816114204010268263" name="roles" index="2h$EKj" />
+      </concept>
       <concept id="7816114204006345028" name="Flint.structure.CustomText" flags="ng" index="2hPCcK" />
       <concept id="9029403747833789403" name="Flint.structure.Act" flags="ng" index="mu5$5">
         <property id="6366956576594804508" name="action" index="207Gpp" />
@@ -42,6 +45,9 @@
       </concept>
       <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
         <child id="6983418503075280678" name="sources" index="2pmM46" />
+      </concept>
+      <concept id="2986354165693918736" name="Flint.structure.SRole" flags="ng" index="2UK0tq">
+        <property id="2986354165693918737" name="role" index="2UK0tr" />
       </concept>
       <concept id="4808965957220776534" name="Flint.structure.LITERAL" flags="ng" index="1zEXHp">
         <child id="4808965957220776594" name="operand" index="1zEXIt" />
@@ -438,7 +444,7 @@
     <node concept="1FQA6B" id="1zlLBOew25V" role="3H36l7" />
     <node concept="1FQA6B" id="1zlLBOew25W" role="3H36lm" />
     <node concept="cog_b" id="1zlLBOew25X" role="2pmM46">
-      <property role="1hTq4$" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/21" />
+      <property role="1hTq4$" value=" " />
       <ref role="cog$q" node="1zlLBOevRl9" resolve="Artikel 2 (verstrekking en hoogte tegemoetkoming)" />
       <node concept="2hPCcK" id="1zlLBOew25Y" role="2hN6Sa">
         <node concept="19SUe$" id="1zlLBOew25Z" role="19SJt6">
@@ -446,6 +452,47 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="cog_a" id="1dxOPHPjbJn">
+    <property role="TrG5h" value="Artikel 2 (verstrekking en hoogte tegemoetkoming)" />
+    <property role="3GE5qa" value="sources" />
+  </node>
+  <node concept="mu5$5" id="1dxOPHPjbJj">
+    <property role="3GE5qa" value="acts" />
+    <property role="TrG5h" value="TestAct" />
+    <node concept="1FQA6B" id="1dxOPHPjbJk" role="3H36mW">
+      <ref role="1FQA6$" node="1dxOPHPjbK3" resolve="De minister" />
+    </node>
+    <node concept="1FQA6B" id="1dxOPHPjbJl" role="3H36l7" />
+    <node concept="1FQA6B" id="1dxOPHPjbJm" role="3H36lm" />
+    <node concept="cog_b" id="1dxOPHPjbJo" role="2pmM46">
+      <property role="1hTq4$" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/21" />
+      <ref role="cog$q" node="1dxOPHPjbJn" resolve="Artikel 2 (verstrekking en hoogte tegemoetkoming)" />
+      <node concept="2hPCcK" id="1dxOPHPjbJp" role="2hN6Sa">
+        <node concept="2h$EKm" id="1dxOPHPjbK1" role="19SJt6">
+          <property role="19SUeA" value="De" />
+          <node concept="2UK0tq" id="1dxOPHPjbK2" role="2h$EKj">
+            <property role="2UK0tr" value="4AIlyP2wQAL/Actor" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1dxOPHPjbK0" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1dxOPHPjbJY" role="19SJt6">
+          <property role="19SUeA" value="minister" />
+          <node concept="2UK0tq" id="1dxOPHPjbJZ" role="2h$EKj">
+            <property role="2UK0tr" value="4AIlyP2wQAL/Actor" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1dxOPHPjbJX" role="19SJt6">
+          <property role="19SUeA" value=" verstrekt op aanvraag een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020:" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="cu0$f" id="1dxOPHPjbK3">
+    <property role="TrG5h" value="De minister" />
+    <property role="3GE5qa" value="facts" />
   </node>
 </model>
 

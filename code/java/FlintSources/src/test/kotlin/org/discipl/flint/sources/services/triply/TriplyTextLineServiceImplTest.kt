@@ -1,8 +1,7 @@
-package org.discipl.flint.sources.triply
+package org.discipl.flint.sources.services.triply
 
 import org.apache.http.client.HttpClient
 import org.discipl.flint.sources.clients.QueryExecutor
-import org.discipl.flint.sources.clients.TextLineClient
 import org.discipl.flint.sources.di.TestSourceLoader
 import org.discipl.flint.sources.di.asMock
 import org.discipl.flint.sources.di.doReturnJSONResource

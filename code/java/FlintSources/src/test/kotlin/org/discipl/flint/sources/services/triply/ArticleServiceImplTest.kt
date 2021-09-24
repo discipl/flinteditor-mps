@@ -1,10 +1,8 @@
-package org.discipl.flint.sources.triply
+package org.discipl.flint.sources.services.triply
 
 import org.apache.http.client.HttpClient
 import org.discipl.flint.sources.clients.QueryExecutor
-import org.discipl.flint.sources.di.TestSourceLoader
-import org.discipl.flint.sources.di.asMock
-import org.discipl.flint.sources.di.doReturnJSONResource
+import org.discipl.flint.sources.di.*
 import org.discipl.flint.sources.services.ArticleService
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertNotNull
@@ -25,13 +23,18 @@ internal class ArticleServiceImplTest {
                 )
                 .doReturnJSONResource("/textlineforversion.json")
         }
+        mockRequestResult = MockRequestResult(
+            cov19Result,
+            "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27"
+        )
 
         val articles =
             service.getArticlesForVersionId("https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27")
         assertNotNull(articles)
+        println(articles[0])
         assertEquals(9, articles.size)
         val article1 = articles[0]
         assertEquals("Artikel 1 (begripsbepalingen)", article1.name)
-        assertEquals(10, article1.parts.size)
+        assertEquals(15, article1.parts.size)
     }
 }

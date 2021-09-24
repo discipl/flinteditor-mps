@@ -1,4 +1,4 @@
-package org.discipl.flint.sources.triply
+package org.discipl.flint.sources.services.triply
 
 import org.apache.http.client.HttpClient
 import org.discipl.flint.sources.clients.QueryExecutor

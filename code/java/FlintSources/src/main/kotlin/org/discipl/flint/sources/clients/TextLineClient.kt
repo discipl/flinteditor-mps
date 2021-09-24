@@ -11,8 +11,8 @@ interface TextLine {
     val teken: String?
     val text: String
     val id: String
-    val parent: String
-    val grandParent: String
+    val parent: String?
+    val grandParent: String?
     val cleanedStructure get() = structure.substringAfter("#document/toestand/wetgeving/regeling/regeling-tekst/")
 }
 

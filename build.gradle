@@ -87,12 +87,12 @@ dependencies {
         exclude group: "org.slf4j"
     }
     mpslib('com.googlecode.json-simple:json-simple:1.1.1')
-    mpslib('commons-io:commons-io:2.7')
-    mpslib('commons-codec:commons-codec:1.11')
+    mpslib('commons-io:commons-io:2.11.0')
+    mpslib('commons-codec:commons-codec:1.15')
 
     artifact "com.mbeddr:platform:$mbeddr_version"
     mps("com.jetbrains:mps:$mps_version")
-    antLib("org.apache.ant:ant-junit:1.10.10")
+    antLib('org.apache.ant:ant-junit:1.10.11')
 
     mpsGenLib "org.openjfx:javafx-base:$javafx_version:$current_platform"
     mpsGenLib "org.openjfx:javafx-controls:$javafx_version:$current_platform"

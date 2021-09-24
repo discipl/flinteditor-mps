@@ -1,10 +1,7 @@
-package org.discipl.flint.sources.clients
+package org.discipl.flint.sources.clients.triply
 
 import org.apache.http.client.HttpClient
-import org.apache.http.client.methods.HttpGet
-import org.apache.http.protocol.BasicHttpContext
 import org.apache.http.protocol.HttpCoreContext
-import org.apache.http.util.EntityUtils
 import org.apache.jena.atlas.web.TypedInputStream
 import org.apache.jena.graph.NodeFactory
 import org.apache.jena.query.ParameterizedSparqlString
@@ -14,12 +11,11 @@ import org.apache.jena.query.QuerySolution
 import org.apache.jena.riot.web.HttpCaptureResponse
 import org.apache.jena.riot.web.HttpOp
 import org.apache.jena.riot.web.HttpOp.CaptureInput
+import org.discipl.flint.sources.clients.*
 import org.jsoup.Jsoup
-import java.lang.Exception
-import java.net.URL
 import java.time.LocalDate
 
-class VersionClientImpl(private val queryExecutor: QueryExecutor, private val httpClient: HttpClient) : VersionClient {
+class TripleVersionClientImpl(private val queryExecutor: QueryExecutor, private val httpClient: HttpClient) : VersionClient {
     companion object {
         private val query: String = """
             PREFIX changeset: <https://fin.triply.cc/ole/BWB/changeset/>
