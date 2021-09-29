@@ -85,8 +85,8 @@ class TripleVersionClientImpl(private val queryExecutor: QueryExecutor, private 
         HttpOp.execHttpGet(mappedBWBVersion.wettenNl, null, handler, httpClient, HttpCoreContext.create())
         val document = Jsoup.parse(handler.get(), "UTF-8", mappedBWBVersion.wettenNl)
         val firstArticleHeader = document.getElementsByClass("article__header--law article__header--main").first()
-        val firstParagraph = firstArticleHeader.getElementsByTag("p").first()
-        val name = firstParagraph.text().substringAfter("Geldend van ")
+        val firstParagraph = firstArticleHeader?.getElementsByTag("p")?.first()
+        val name = firstParagraph?.text()?.substringAfter("Geldend van ") ?: ""
         // TODO end date can be heden
         val endDate = name.substringAfter("t/m ").split("-").reversed().joinToString("-")
         return FullyMappedBWBVersion(mappedBWBVersion, name, endDate)

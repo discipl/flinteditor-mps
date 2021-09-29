@@ -19,7 +19,6 @@
       <sourceRoot location="FlintSources.jar" />
       <sourceRoot location="gson-fire.jar" />
       <sourceRoot location="gson.jar" />
-      <sourceRoot location="hamcrest-core.jar" />
       <sourceRoot location="httpclient-cache.jar" />
       <sourceRoot location="httpclient.jar" />
       <sourceRoot location="httpcore.jar" />
@@ -35,7 +34,6 @@
       <sourceRoot location="json-simple.jar" />
       <sourceRoot location="jsonld-java.jar" />
       <sourceRoot location="jsoup.jar" />
-      <sourceRoot location="junit.jar" />
       <sourceRoot location="koin-core.jar" />
       <sourceRoot location="kotlin-stdlib-common.jar" />
       <sourceRoot location="kotlin-stdlib-jdk7.jar" />
@@ -76,7 +74,6 @@
     <stubModelEntry path="${module}/libs/FlintSources.jar" />
     <stubModelEntry path="${module}/libs/gson-fire.jar" />
     <stubModelEntry path="${module}/libs/gson.jar" />
-    <stubModelEntry path="${module}/libs/hamcrest-core.jar" />
     <stubModelEntry path="${module}/libs/httpclient-cache.jar" />
     <stubModelEntry path="${module}/libs/httpclient.jar" />
     <stubModelEntry path="${module}/libs/httpcore.jar" />
@@ -92,7 +89,6 @@
     <stubModelEntry path="${module}/libs/json-simple.jar" />
     <stubModelEntry path="${module}/libs/jsonld-java.jar" />
     <stubModelEntry path="${module}/libs/jsoup.jar" />
-    <stubModelEntry path="${module}/libs/junit.jar" />
     <stubModelEntry path="${module}/libs/koin-core.jar" />
     <stubModelEntry path="${module}/libs/kotlin-stdlib-common.jar" />
     <stubModelEntry path="${module}/libs/kotlin-stdlib-jdk7.jar" />

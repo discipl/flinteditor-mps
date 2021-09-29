@@ -106,7 +106,7 @@ if (!OperatingSystem.current().isMacOsX()) {
     ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = new File(mpsDir, "jbr/bin/java")
 }
 ext["itemis.mps.gradle.ant.defaultScriptArgs"] = ["-Dmps_home=$mpsDir.path".toString()]
-ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = project.configurations.antLib.fileCollection({ true })
+ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = files("$mpsDir/lib/ant/lib/ant.jar", "$mpsDir/lib/ant/lib/ant-junit.jar", "$mpsDir/lib/ant/lib/ant-launcher.jar")
 
 node {
     // Version of node to use.

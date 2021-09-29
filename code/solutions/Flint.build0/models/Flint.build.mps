@@ -32,6 +32,10 @@
       </concept>
       <concept id="6593674873639474400" name="jetbrains.mps.build.mps.tests.structure.BuildMps_TestModules_Options" flags="ng" index="24cAiW">
         <child id="6593674873639478221" name="haltonfailure" index="24c_eh" />
+        <child id="6593674873635848987" name="requiredPlugins" index="24YFd7" />
+      </concept>
+      <concept id="6593674873635848984" name="jetbrains.mps.build.mps.tests.structure.RequiredPlugin" flags="ng" index="24YFd4">
+        <reference id="6593674873635848985" name="plugin" index="24YFd5" />
       </concept>
       <concept id="4005526075820600484" name="jetbrains.mps.build.mps.tests.structure.BuildModuleTestsPlugin" flags="ng" index="1gjT0q" />
     </language>
@@ -1182,6 +1186,9 @@
             <property role="3MwjfP" value="true" />
           </node>
         </node>
+        <node concept="24YFd4" id="64iuCVsvVQO" role="24YFd7">
+          <ref role="24YFd5" node="2WP7dhE1erk" resolve="Flint" />
+        </node>
       </node>
     </node>
     <node concept="10PD9b" id="2WP7dhE1eqo" role="10PD9s" />
@@ -1745,57 +1752,6 @@
               <ref role="3Mxwex" node="elgu9R8ZWn" resolve="version" />
             </node>
           </node>
-        </node>
-      </node>
-    </node>
-    <node concept="m$_wf" id="2WP7dhE1erk" role="3989C9">
-      <property role="m$_wk" value="Flint" />
-      <node concept="m$_yC" id="4OBWPp1Mhhj" role="m$_yJ">
-        <ref role="m$_y1" to="90a9:4be$WTb1MZD" resolve="de.itemis.mps.editor.diagram" />
-      </node>
-      <node concept="m$_yC" id="6J7WCuJ14eB" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:6EN03E8oSte" resolve="jetbrains.mps.ide.make" />
-      </node>
-      <node concept="m$_yC" id="2WP7dhE1exF" role="m$_yJ">
-        <ref role="m$_y1" to="al5i:NMVW79y25x" resolve="com.mbeddr.mpsutil.json" />
-      </node>
-      <node concept="m$_yC" id="2vpCevmZNWp" role="m$_yJ">
-        <ref role="m$_y1" to="al5i:7uZw0yZ2_Jq" resolve="com.mbeddr.mpsutil" />
-      </node>
-      <node concept="3_J27D" id="2WP7dhE1erl" role="m$_yQ">
-        <node concept="3Mxwew" id="2WP7dhE1erm" role="3MwsjC">
-          <property role="3MwjfP" value="Flint" />
-        </node>
-      </node>
-      <node concept="3_J27D" id="2WP7dhE1ern" role="m$_w8">
-        <node concept="3Mxwey" id="elgu9R908b" role="3MwsjC">
-          <ref role="3Mxwex" node="elgu9R8ZWn" resolve="version" />
-        </node>
-      </node>
-      <node concept="m$f5U" id="2WP7dhE1erp" role="m$_yh">
-        <ref role="m$f5T" node="2WP7dhE1erj" resolve="Flint" />
-      </node>
-      <node concept="m$_yC" id="2WP7dhE1erq" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
-      </node>
-      <node concept="m$_yC" id="1nyeVyN1Dl3" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:6Hpa5co69BH" resolve="jetbrains.mps.editor.tooltips" />
-      </node>
-      <node concept="m$_yC" id="1nyeVyN43TV" role="m$_yJ">
-        <ref role="m$_y1" to="90a9:6$BmuzArOtB" resolve="de.itemis.mps.tooltips" />
-      </node>
-      <node concept="m$_yC" id="2WP7dhE2AhK" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:5xhjlkpPhJu" resolve="jetbrains.mps.ide.httpsupport" />
-      </node>
-      <node concept="3_J27D" id="2WP7dhE1err" role="m_cZH">
-        <node concept="3Mxwew" id="2WP7dhE1ers" role="3MwsjC">
-          <property role="3MwjfP" value="Flint" />
-        </node>
-      </node>
-      <node concept="2pNNFK" id="2WP7dhE1ert" role="20twgj">
-        <property role="2pNNFO" value="depends" />
-        <node concept="3o6iSG" id="2WP7dhE1eru" role="3o6s8t">
-          <property role="3o6i5n" value="com.intellij.modules.platform" />
         </node>
       </node>
     </node>
@@ -3333,28 +3289,55 @@
         </node>
       </node>
     </node>
-    <node concept="m$_wf" id="6rq68PztqEB" role="3989C9">
-      <property role="m$_wk" value="FlintTestPlugin" />
-      <node concept="3_J27D" id="6rq68PztqED" role="m$_yQ">
-        <node concept="3Mxwew" id="6rq68PztrHg" role="3MwsjC">
-          <property role="3MwjfP" value="FlintTestPlugin" />
+    <node concept="m$_wf" id="2WP7dhE1erk" role="3989C9">
+      <property role="m$_wk" value="Flint" />
+      <node concept="m$_yC" id="4OBWPp1Mhhj" role="m$_yJ">
+        <ref role="m$_y1" to="90a9:4be$WTb1MZD" resolve="de.itemis.mps.editor.diagram" />
+      </node>
+      <node concept="m$_yC" id="6J7WCuJ14eB" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:6EN03E8oSte" resolve="jetbrains.mps.ide.make" />
+      </node>
+      <node concept="m$_yC" id="2WP7dhE1exF" role="m$_yJ">
+        <ref role="m$_y1" to="al5i:NMVW79y25x" resolve="com.mbeddr.mpsutil.json" />
+      </node>
+      <node concept="m$_yC" id="2vpCevmZNWp" role="m$_yJ">
+        <ref role="m$_y1" to="al5i:7uZw0yZ2_Jq" resolve="com.mbeddr.mpsutil" />
+      </node>
+      <node concept="3_J27D" id="2WP7dhE1erl" role="m$_yQ">
+        <node concept="3Mxwew" id="2WP7dhE1erm" role="3MwsjC">
+          <property role="3MwjfP" value="Flint" />
         </node>
       </node>
-      <node concept="3_J27D" id="6rq68PztqEF" role="m_cZH">
-        <node concept="3Mxwew" id="6rq68PztrHi" role="3MwsjC">
-          <property role="3MwjfP" value="FlintTestPlugin" />
-        </node>
-      </node>
-      <node concept="3_J27D" id="6rq68PztqEH" role="m$_w8">
-        <node concept="3Mxwey" id="6rq68PztrV$" role="3MwsjC">
+      <node concept="3_J27D" id="2WP7dhE1ern" role="m$_w8">
+        <node concept="3Mxwey" id="elgu9R908b" role="3MwsjC">
           <ref role="3Mxwex" node="elgu9R8ZWn" resolve="version" />
         </node>
       </node>
-      <node concept="m$f5U" id="6rq68Pzttjg" role="m$_yh">
-        <ref role="m$f5T" node="6rq68PztmuU" resolve="FlintTestGroup" />
+      <node concept="m$f5U" id="2WP7dhE1erp" role="m$_yh">
+        <ref role="m$f5T" node="2WP7dhE1erj" resolve="Flint" />
       </node>
-      <node concept="m$_yC" id="6rq68Pzttqp" role="m$_yJ">
-        <ref role="m$_y1" node="2WP7dhE1erk" resolve="Flint" />
+      <node concept="m$_yC" id="2WP7dhE1erq" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
+      </node>
+      <node concept="m$_yC" id="1nyeVyN1Dl3" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:6Hpa5co69BH" resolve="jetbrains.mps.editor.tooltips" />
+      </node>
+      <node concept="m$_yC" id="1nyeVyN43TV" role="m$_yJ">
+        <ref role="m$_y1" to="90a9:6$BmuzArOtB" resolve="de.itemis.mps.tooltips" />
+      </node>
+      <node concept="m$_yC" id="2WP7dhE2AhK" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:5xhjlkpPhJu" resolve="jetbrains.mps.ide.httpsupport" />
+      </node>
+      <node concept="3_J27D" id="2WP7dhE1err" role="m_cZH">
+        <node concept="3Mxwew" id="2WP7dhE1ers" role="3MwsjC">
+          <property role="3MwjfP" value="Flint" />
+        </node>
+      </node>
+      <node concept="2pNNFK" id="2WP7dhE1ert" role="20twgj">
+        <property role="2pNNFO" value="depends" />
+        <node concept="3o6iSG" id="2WP7dhE1eru" role="3o6s8t">
+          <property role="3o6i5n" value="com.intellij.modules.platform" />
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="6rq68PztmuU" role="3989C9">
@@ -3572,6 +3555,35 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="11aCYU4ndWx" role="3bR37C">
+          <node concept="3bR9La" id="11aCYU4ndWy" role="1SiIV1">
+            <ref role="3bR37D" node="6onvLJoJVY2" resolve="LawSource" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="m$_wf" id="6rq68PztqEB" role="3989C9">
+      <property role="m$_wk" value="FlintTestPlugin" />
+      <node concept="3_J27D" id="6rq68PztqED" role="m$_yQ">
+        <node concept="3Mxwew" id="6rq68PztrHg" role="3MwsjC">
+          <property role="3MwjfP" value="FlintTestPlugin" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="6rq68PztqEF" role="m_cZH">
+        <node concept="3Mxwew" id="6rq68PztrHi" role="3MwsjC">
+          <property role="3MwjfP" value="FlintTestPlugin" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="6rq68PztqEH" role="m$_w8">
+        <node concept="3Mxwey" id="6rq68PztrV$" role="3MwsjC">
+          <ref role="3Mxwex" node="elgu9R8ZWn" resolve="version" />
+        </node>
+      </node>
+      <node concept="m$f5U" id="6rq68Pzttjg" role="m$_yh">
+        <ref role="m$f5T" node="6rq68PztmuU" resolve="FlintTestGroup" />
+      </node>
+      <node concept="m$_yC" id="6rq68Pzttqp" role="m$_yJ">
+        <ref role="m$_y1" node="2WP7dhE1erk" resolve="Flint" />
       </node>
     </node>
   </node>

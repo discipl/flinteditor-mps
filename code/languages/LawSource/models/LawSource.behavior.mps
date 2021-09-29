@@ -39,7 +39,7 @@
     <import index="82uw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.function(JDK/)" />
     <import index="xnls" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.icons(MPS.Platform/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <import index="lnwe" ref="r:d268844f-2c2c-4250-a969-3a23a8a2bb02(Flint.structure)" />
+    <import index="lnwe" ref="r:d268844f-2c2c-4250-a969-3a23a8a2bb02(Flint.structure)" implicit="true" />
     <import index="3lmi" ref="r:a950900f-47ea-4287-adc8-88f839ab614a(Flint.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -6161,7 +6161,7 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6bjKwHXegTE" role="jymVt" />
-    <node concept="3Tm1VV" id="6bjKwHXefRS" role="1B3o_S" />
+    <node concept="3Tm1VV" id="78Zf0R3alOu" role="1B3o_S" />
     <node concept="3uibUv" id="3XLzdyJ82Wl" role="1zkMxy">
       <ref role="3uigEE" to="pc73:~ChooserRefactoringDialog" resolve="ChooserRefactoringDialog" />
       <node concept="3uibUv" id="3XLzdyJidLH" role="11_B2D">
