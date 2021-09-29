@@ -2545,16 +2545,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="2IA6uNA4T_m" role="3bR37C">
-          <node concept="1BurEX" id="2IA6uNA4T_n" role="1SiIV1">
-            <node concept="398BVA" id="2IA6uNA4T_9" role="1BurEY">
-              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
-              <node concept="2Ry0Ak" id="2IA6uNA4T_a" role="iGT6I">
-                <property role="2Ry0Am" value="hamcrest-core.jar" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="1SiIV0" id="2IA6uNA4T__" role="3bR37C">
           <node concept="1BurEX" id="2IA6uNA4T_A" role="1SiIV1">
             <node concept="398BVA" id="2IA6uNA4T_o" role="1BurEY">
@@ -2681,16 +2671,6 @@
               <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
               <node concept="2Ry0Ak" id="1bxARxgljjj" role="iGT6I">
                 <property role="2Ry0Am" value="commons-logging.jar" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="1bxARxgljre" role="3bR37C">
-          <node concept="1BurEX" id="1bxARxgljrf" role="1SiIV1">
-            <node concept="398BVA" id="1bxARxgljqR" role="1BurEY">
-              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
-              <node concept="2Ry0Ak" id="1bxARxgljqS" role="iGT6I">
-                <property role="2Ry0Am" value="junit.jar" />
               </node>
             </node>
           </node>
@@ -3115,11 +3095,6 @@
         <node concept="1SiIV0" id="3nHnYZiywni" role="3bR37C">
           <node concept="3bR9La" id="3nHnYZiywnj" role="1SiIV1">
             <ref role="3bR37D" node="QLMwktTkqF" resolve="Flint.plugin" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6FvCNSAKE54" role="3bR37C">
-          <node concept="3bR9La" id="6FvCNSAKE55" role="1SiIV1">
-            <ref role="3bR37D" node="2WP7dhE1eri" resolve="Flint" />
           </node>
         </node>
       </node>

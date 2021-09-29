@@ -50,10 +50,6 @@ class FlintParser(json: String) {
             .flatten()
         val sources = list
             .flatMap { it.sources ?: emptyList() }
-        sources.forEach {
-            println(it)
-            println(it.hashCode())
-        }
         return sources.toSet()
     }
 
