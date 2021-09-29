@@ -10,7 +10,7 @@ jobs:
       DISPLAY: :0
     strategy:
       matrix:
-        os: [ ubuntu-16.04, macos-latest, windows-latest ]
+        os: [ ubuntu-20.04, macos-latest, windows-latest ]
     name: Run Tests
     runs-on: ${{ matrix.os }}
     steps:
@@ -22,7 +22,7 @@ jobs:
       - name: Check java
         run: java --version
       - name: Setup xvfb (Linux)
-        if: ${{ matrix.os == 'ubuntu-16.04' }}
+        if: ${{ matrix.os == 'ubuntu-20.04' }}
         run: |
           sudo apt-get install -y xvfb
           sudo /usr/bin/Xvfb $DISPLAY -screen 0 1280x1024x24 &
