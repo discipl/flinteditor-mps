@@ -12,6 +12,8 @@ import org.apache.http.message.BasicHttpResponse
 import org.discipl.flint.sources.di.TestSourceLoader.IS_FAKE_HTTP_QUALIFIER
 import org.koin.core.component.get
 import java.net.URL
+import java.net.URLEncoder
+import java.nio.charset.StandardCharsets
 
 fun HttpClientMockBuilder.doReturnJSONResource(resource: String): HttpClientResponseBuilder {
     @Suppress("EXPERIMENTAL_API_USAGE")
@@ -37,8 +39,9 @@ fun <T> isFakeHttpReturn(block: () -> T): T? {
 }
 
 private fun resourceResponse(resource: String, contentType: ContentType): HttpResponse {
-    val responseString = TestSourceLoader::class.java.getResource(resource)?.readText()
-        ?: throw IllegalArgumentException("Resource $resource not found")
+    val encodedResource = "/" + URLEncoder.encode(resource.substringAfter("/"), StandardCharsets.UTF_8.toString())
+    val responseString = TestSourceLoader::class.java.getResource(encodedResource)?.readText()
+        ?: throw IllegalArgumentException("Resource $resource not found. Encoded as $encodedResource")
     val response = BasicHttpResponse(ProtocolVersion("http", 1, 1), 200, "ok")
     val entity = StringEntity(responseString, "UTF-8")
     entity.setContentType(contentType.toString())
