@@ -23,7 +23,6 @@
         <property id="6868897032739893352" name="juriconnect" index="cog$t" />
       </concept>
       <concept id="6868897032739893310" name="Flint.structure.FlintSourceReference" flags="ng" index="cog_b">
-        <property id="1495612730333317137" name="textSourceName" index="2XObfb" />
         <property id="2215264714367931041" name="textId" index="1hTq4$" />
         <reference id="6868897032739893359" name="baseSource" index="cog$q" />
         <child id="7816114204006679678" name="betterText" index="2hN6Sa" />
@@ -68,431 +67,391 @@
       </concept>
     </language>
   </registry>
-  <node concept="cu0$2" id="7lQAW7K8Bv8">
-    <property role="TrG5h" value="31-03-2020 t/m 14-04-2020 31-03-2020 t/m 14-04-2020" />
+  <node concept="cu0$2" id="6u5qVtI13SG">
+    <property role="TrG5h" value="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19 16-05-2020 t/m 11-06-2020" />
   </node>
-  <node concept="cog_a" id="7lQAW7K8Bv9">
+  <node concept="cog_a" id="6u5qVtI13SH">
     <property role="TrG5h" value="art. 1, " />
     <property role="3GE5qa" value="sources" />
-    <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=1&amp;z=2020-04-17&amp;g=2020-03-31" />
-    <property role="cog$m" value="31-03-2020" />
+    <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=1&amp;z=2020-05-16&amp;g=2020-05-16" />
+    <property role="cog$m" value="16-05-2020" />
   </node>
-  <node concept="cog_a" id="7lQAW7K8Bva">
+  <node concept="cog_a" id="6u5qVtI13SI">
     <property role="TrG5h" value="art. 3, " />
     <property role="3GE5qa" value="sources" />
-    <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=3&amp;z=2020-04-17&amp;g=2020-03-31" />
+    <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=3&amp;z=2020-05-16&amp;g=2020-05-16" />
     <property role="cog$m" value="31-03-2020" />
   </node>
-  <node concept="cog_a" id="7lQAW7K8Bvb">
+  <node concept="cog_a" id="6u5qVtI13SJ">
     <property role="TrG5h" value="art. 4lid 1, " />
     <property role="3GE5qa" value="sources" />
-    <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=4&amp;lid=1&amp;z=2020-04-17&amp;g=2020-03-31" />
-    <property role="cog$m" value="31-03-2020" />
+    <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=4&amp;lid=1&amp;z=2020-05-16&amp;g=2020-05-16" />
+    <property role="cog$m" value="16-05-2020" />
   </node>
-  <node concept="cog_a" id="7lQAW7K8Bvc">
+  <node concept="cog_a" id="6u5qVtI13SK">
     <property role="TrG5h" value="art. 4lid 3, " />
     <property role="3GE5qa" value="sources" />
-    <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=4&amp;lid=3&amp;z=2020-04-17&amp;g=2020-03-31" />
-    <property role="cog$m" value="31-03-2020" />
+    <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=4&amp;lid=3&amp;z=2020-05-16&amp;g=2020-05-16" />
+    <property role="cog$m" value="16-05-2020" />
   </node>
-  <node concept="cog_a" id="7lQAW7K8Bvd">
+  <node concept="cog_a" id="6u5qVtI13SL">
     <property role="TrG5h" value="art. 5, " />
     <property role="3GE5qa" value="sources" />
-    <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=5&amp;z=2020-04-17&amp;g=2020-03-31" />
+    <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=5&amp;z=2020-05-16&amp;g=2020-05-16" />
     <property role="cog$m" value="31-03-2020" />
   </node>
-  <node concept="cog_a" id="7lQAW7K8Bve">
+  <node concept="cog_a" id="6u5qVtI13SM">
+    <property role="TrG5h" value="art. 6lid 2, " />
+    <property role="3GE5qa" value="sources" />
+    <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=6&amp;lid=2&amp;o=d&amp;z=2020-05-16&amp;g=2020-05-16" />
+    <property role="cog$m" value="16-05-2020" />
+  </node>
+  <node concept="cog_a" id="6u5qVtI13SN">
     <property role="TrG5h" value="art. 8lid 1, " />
     <property role="3GE5qa" value="sources" />
-    <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=8&amp;lid=1&amp;z=2020-04-17&amp;g=2020-03-31" />
+    <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=8&amp;lid=1&amp;z=2020-05-16&amp;g=2020-05-16" />
     <property role="cog$m" value="31-03-2020" />
   </node>
-  <node concept="cog_a" id="7lQAW7K8Bvf">
+  <node concept="cog_a" id="6u5qVtI13SO">
     <property role="TrG5h" value="art. 8lid 2, " />
     <property role="3GE5qa" value="sources" />
-    <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=8&amp;lid=2&amp;z=2020-04-17&amp;g=2020-03-31" />
+    <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=8&amp;lid=2&amp;z=2020-05-16&amp;g=2020-05-16" />
     <property role="cog$m" value="31-03-2020" />
   </node>
-  <node concept="cu0$f" id="7lQAW7K8Bvg">
+  <node concept="cu0$f" id="6u5qVtI13SP">
     <property role="TrG5h" value="n Nederland gevestigde onderneming als bedoeld in , niet zijnde een overheidsbedrijf" />
     <property role="3GE5qa" value="facts" />
-    <node concept="cog_b" id="7lQAW7K8Bvh" role="2pmM46">
-      <ref role="cog$q" node="7lQAW7K8Bv9" resolve="art. 1, " />
-      <node concept="2hPCcK" id="7lQAW7K8Bvi" role="2hN6Sa">
-        <node concept="19SUe$" id="7lQAW7K8Bvj" role="19SJt6">
+    <node concept="cog_b" id="6u5qVtI13SQ" role="2pmM46">
+      <ref role="cog$q" node="6u5qVtI13SH" resolve="art. 1, " />
+      <node concept="2hPCcK" id="6u5qVtI13SR" role="2hN6Sa">
+        <node concept="19SUe$" id="6u5qVtI13SS" role="19SJt6">
           <property role="19SUeA" value="in Nederland gevestigde onderneming als bedoeld in , niet zijnde een overheidsbedrijf:artikel 5 van de Handelsregisterwet 2007gedupeerde onderneming:" />
         </node>
       </node>
     </node>
-    <node concept="1zEXHp" id="7lQAW7K8Bvl" role="coNO9">
-      <node concept="1zEXQY" id="7lQAW7K8Bvm" role="1zEXIt">
+    <node concept="1zEXHp" id="6u5qVtI13SU" role="coNO9">
+      <node concept="1zEXQY" id="6u5qVtI13SV" role="1zEXIt">
         <property role="1zEXQP" value="true" />
       </node>
     </node>
   </node>
-  <node concept="mu5$5" id="7lQAW7K8Bvn">
+  <node concept="mu5$5" id="6u5qVtI13SW">
     <property role="TrG5h" value="afwijzen de minister beslist op een aanvraag" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[afwijzen]" />
-    <node concept="cog_b" id="7lQAW7K8Bvr" role="2pmM46">
-      <ref role="cog$q" node="7lQAW7K8Bva" resolve="art. 3, " />
-      <node concept="2hPCcK" id="7lQAW7K8Bvs" role="2hN6Sa">
-        <node concept="19SUe$" id="7lQAW7K8Bvt" role="19SJt6">
+    <node concept="cog_b" id="6u5qVtI13T0" role="2pmM46">
+      <ref role="cog$q" node="6u5qVtI13SI" resolve="art. 3, " />
+      <node concept="2hPCcK" id="6u5qVtI13T1" role="2hN6Sa">
+        <node concept="19SUe$" id="6u5qVtI13T2" role="19SJt6">
           <property role="19SUeA" value="De minister beslist afwijzend op een aanvraag indien:" />
         </node>
       </node>
     </node>
-    <node concept="1FQA6B" id="7lQAW7K8Bvv" role="3H36l7">
-      <ref role="1FQA6$" node="7lQAW7K8Bvw" resolve="de minister beslist op een aanvraag" />
+    <node concept="1FQA6B" id="6u5qVtI13T4" role="3H36l7">
+      <ref role="1FQA6$" node="6u5qVtI13T5" resolve="de minister beslist op een aanvraag" />
     </node>
-    <node concept="1zEXHp" id="7lQAW7K8Bvx" role="mu3T0">
-      <node concept="1zEXQY" id="7lQAW7K8Bvy" role="1zEXIt">
+    <node concept="1zEXHp" id="6u5qVtI13T6" role="mu3T0">
+      <node concept="1zEXQY" id="6u5qVtI13T7" role="1zEXIt">
         <property role="1zEXQP" value="true" />
       </node>
     </node>
   </node>
-  <node concept="cu0$f" id="7lQAW7K8Bvw">
+  <node concept="cu0$f" id="6u5qVtI13T5">
     <property role="TrG5h" value="de minister beslist op een aanvraag" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
   </node>
-  <node concept="mu5$5" id="7lQAW7K8Bvz">
+  <node concept="mu5$5" id="6u5qVtI13T8">
     <property role="TrG5h" value="indienen onderneming in van faillissement dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[indienen]" />
-    <node concept="cog_b" id="7lQAW7K8BvB" role="2pmM46">
-      <ref role="cog$q" node="7lQAW7K8Bva" resolve="art. 3, " />
-      <node concept="2hPCcK" id="7lQAW7K8BvC" role="2hN6Sa">
-        <node concept="19SUe$" id="7lQAW7K8BvD" role="19SJt6">
+    <node concept="cog_b" id="6u5qVtI13Tc" role="2pmM46">
+      <ref role="cog$q" node="6u5qVtI13SI" resolve="art. 3, " />
+      <node concept="2hPCcK" id="6u5qVtI13Td" role="2hN6Sa">
+        <node concept="19SUe$" id="6u5qVtI13Te" role="19SJt6">
           <property role="19SUeA" value="de gedupeerde onderneming in staat van faillissement verkeert dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming is ingediend;" />
         </node>
       </node>
     </node>
-    <node concept="1FQA6B" id="7lQAW7K8BvF" role="3H36l7">
-      <ref role="1FQA6$" node="7lQAW7K8BvG" resolve="onderneming in van faillissement dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming" />
+    <node concept="1FQA6B" id="6u5qVtI13Tg" role="3H36l7">
+      <ref role="1FQA6$" node="6u5qVtI13Th" resolve="onderneming in van faillissement dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming" />
     </node>
-    <node concept="1zEXHp" id="7lQAW7K8BvH" role="mu3T0">
-      <node concept="1zEXQY" id="7lQAW7K8BvI" role="1zEXIt">
+    <node concept="1zEXHp" id="6u5qVtI13Ti" role="mu3T0">
+      <node concept="1zEXQY" id="6u5qVtI13Tj" role="1zEXIt">
         <property role="1zEXQP" value="true" />
       </node>
     </node>
   </node>
-  <node concept="cu0$f" id="7lQAW7K8BvG">
+  <node concept="cu0$f" id="6u5qVtI13Th">
     <property role="TrG5h" value="onderneming in van faillissement dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
   </node>
-  <node concept="mu5$5" id="7lQAW7K8BvJ">
+  <node concept="mu5$5" id="6u5qVtI13Tk">
     <property role="TrG5h" value="indienen een aanvraag" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[indienen]" />
-    <node concept="cog_b" id="7lQAW7K8BvN" role="2pmM46">
-      <ref role="cog$q" node="7lQAW7K8Bvb" resolve="art. 4lid 1, " />
-      <node concept="2hPCcK" id="7lQAW7K8BvO" role="2hN6Sa">
-        <node concept="19SUe$" id="7lQAW7K8BvP" role="19SJt6">
+    <node concept="cog_b" id="6u5qVtI13To" role="2pmM46">
+      <ref role="cog$q" node="6u5qVtI13SJ" resolve="art. 4lid 1, " />
+      <node concept="2hPCcK" id="6u5qVtI13Tp" role="2hN6Sa">
+        <node concept="19SUe$" id="6u5qVtI13Tq" role="19SJt6">
           <property role="19SUeA" value="Een aanvraag wordt ingediend met gebruikmaking van een door de minister beschikbaar gesteld middel." />
         </node>
       </node>
     </node>
-    <node concept="1FQA6B" id="7lQAW7K8BvR" role="3H36l7">
-      <ref role="1FQA6$" node="7lQAW7K8BvS" resolve="een aanvraag" />
+    <node concept="1FQA6B" id="6u5qVtI13Ts" role="3H36l7">
+      <ref role="1FQA6$" node="6u5qVtI13Tt" resolve="een aanvraag" />
     </node>
-    <node concept="1zEXHp" id="7lQAW7K8BvT" role="mu3T0">
-      <node concept="1zEXQY" id="7lQAW7K8BvU" role="1zEXIt">
+    <node concept="1zEXHp" id="6u5qVtI13Tu" role="mu3T0">
+      <node concept="1zEXQY" id="6u5qVtI13Tv" role="1zEXIt">
         <property role="1zEXQP" value="true" />
       </node>
     </node>
   </node>
-  <node concept="cu0$f" id="7lQAW7K8BvS">
+  <node concept="cu0$f" id="6u5qVtI13Tt">
     <property role="TrG5h" value="een aanvraag" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
   </node>
-  <node concept="mu5$5" id="7lQAW7K8BvV">
+  <node concept="mu5$5" id="6u5qVtI13Tw">
     <property role="TrG5h" value="stellen een aanvraag wordt ingediend met gebruikmaking van door de minister beschikbaar middel" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[stellen]" />
-    <node concept="cog_b" id="7lQAW7K8BvZ" role="2pmM46">
-      <ref role="cog$q" node="7lQAW7K8Bvb" resolve="art. 4lid 1, " />
-      <node concept="2hPCcK" id="7lQAW7K8Bw0" role="2hN6Sa">
-        <node concept="19SUe$" id="7lQAW7K8Bw1" role="19SJt6">
+    <node concept="cog_b" id="6u5qVtI13T$" role="2pmM46">
+      <ref role="cog$q" node="6u5qVtI13SJ" resolve="art. 4lid 1, " />
+      <node concept="2hPCcK" id="6u5qVtI13T_" role="2hN6Sa">
+        <node concept="19SUe$" id="6u5qVtI13TA" role="19SJt6">
           <property role="19SUeA" value="Een aanvraag wordt ingediend met gebruikmaking van een door de minister beschikbaar gesteld middel." />
         </node>
       </node>
     </node>
-    <node concept="1FQA6B" id="7lQAW7K8Bw3" role="3H36l7">
-      <ref role="1FQA6$" node="7lQAW7K8Bw4" resolve="een aanvraag wordt ingediend met gebruikmaking van door de minister beschikbaar middel" />
+    <node concept="1FQA6B" id="6u5qVtI13TC" role="3H36l7">
+      <ref role="1FQA6$" node="6u5qVtI13TD" resolve="een aanvraag wordt ingediend met gebruikmaking van door de minister beschikbaar middel" />
     </node>
-    <node concept="1zEXHp" id="7lQAW7K8Bw5" role="mu3T0">
-      <node concept="1zEXQY" id="7lQAW7K8Bw6" role="1zEXIt">
+    <node concept="1zEXHp" id="6u5qVtI13TE" role="mu3T0">
+      <node concept="1zEXQY" id="6u5qVtI13TF" role="1zEXIt">
         <property role="1zEXQP" value="true" />
       </node>
     </node>
   </node>
-  <node concept="cu0$f" id="7lQAW7K8Bw4">
+  <node concept="cu0$f" id="6u5qVtI13TD">
     <property role="TrG5h" value="een aanvraag wordt ingediend met gebruikmaking van door de minister beschikbaar middel" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
   </node>
-  <node concept="mu5$5" id="7lQAW7K8Bw7">
+  <node concept="mu5$5" id="6u5qVtI13TG">
     <property role="TrG5h" value="indienen een aanvraag  worden ingediend in de periode van tot met" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[indienen]" />
-    <node concept="cog_b" id="7lQAW7K8Bwb" role="2pmM46">
-      <ref role="cog$q" node="7lQAW7K8Bvc" resolve="art. 4lid 3, " />
-      <node concept="2hPCcK" id="7lQAW7K8Bwc" role="2hN6Sa">
-        <node concept="19SUe$" id="7lQAW7K8Bwd" role="19SJt6">
+    <node concept="cog_b" id="6u5qVtI13TK" role="2pmM46">
+      <ref role="cog$q" node="6u5qVtI13SK" resolve="art. 4lid 3, " />
+      <node concept="2hPCcK" id="6u5qVtI13TL" role="2hN6Sa">
+        <node concept="19SUe$" id="6u5qVtI13TM" role="19SJt6">
           <property role="19SUeA" value="Een aanvraag kan worden ingediend in de periode van 27maart 2020 tot en met 26juni 2020." />
         </node>
       </node>
     </node>
-    <node concept="1FQA6B" id="7lQAW7K8Bwf" role="3H36l7">
-      <ref role="1FQA6$" node="7lQAW7K8Bwg" resolve="een aanvraag  worden ingediend in de periode van tot met" />
+    <node concept="1FQA6B" id="6u5qVtI13TO" role="3H36l7">
+      <ref role="1FQA6$" node="6u5qVtI13TP" resolve="een aanvraag  worden ingediend in de periode van tot met" />
     </node>
-    <node concept="1zEXHp" id="7lQAW7K8Bwh" role="mu3T0">
-      <node concept="1zEXQY" id="7lQAW7K8Bwi" role="1zEXIt">
+    <node concept="1zEXHp" id="6u5qVtI13TQ" role="mu3T0">
+      <node concept="1zEXQY" id="6u5qVtI13TR" role="1zEXIt">
         <property role="1zEXQP" value="true" />
       </node>
     </node>
   </node>
-  <node concept="cu0$f" id="7lQAW7K8Bwg">
+  <node concept="cu0$f" id="6u5qVtI13TP">
     <property role="TrG5h" value="een aanvraag  worden ingediend in de periode van tot met" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
   </node>
-  <node concept="mu5$5" id="7lQAW7K8Bwj">
+  <node concept="mu5$5" id="6u5qVtI13TS">
     <property role="TrG5h" value="stellen de minister beslist binnen drie weken na ontvangst van een aanvraag indien niet binnen deze termijn beslist de minister de aanvrager daarvan in kennis daarbij een redelijke termijn waarbinnen de beslissing wel  worden genomen" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[stellen]" />
-    <node concept="cog_b" id="7lQAW7K8Bwn" role="2pmM46">
-      <ref role="cog$q" node="7lQAW7K8Bvd" resolve="art. 5, " />
-      <node concept="2hPCcK" id="7lQAW7K8Bwo" role="2hN6Sa">
-        <node concept="19SUe$" id="7lQAW7K8Bwp" role="19SJt6">
+    <node concept="cog_b" id="6u5qVtI13TW" role="2pmM46">
+      <ref role="cog$q" node="6u5qVtI13SL" resolve="art. 5, " />
+      <node concept="2hPCcK" id="6u5qVtI13TX" role="2hN6Sa">
+        <node concept="19SUe$" id="6u5qVtI13TY" role="19SJt6">
           <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
         </node>
       </node>
     </node>
-    <node concept="1FQA6B" id="7lQAW7K8Bwr" role="3H36l7">
-      <ref role="1FQA6$" node="7lQAW7K8Bws" resolve="de minister beslist binnen drie weken na ontvangst van een aanvraag indien niet binnen deze termijn beslist de minister de aanvrager daarvan in kennis daarbij een redelijke termijn waarbinnen de beslissing wel  worden genomen" />
+    <node concept="1FQA6B" id="6u5qVtI13U0" role="3H36l7">
+      <ref role="1FQA6$" node="6u5qVtI13U1" resolve="de minister beslist binnen drie weken na ontvangst van een aanvraag indien niet binnen deze termijn beslist de minister de aanvrager daarvan in kennis daarbij een redelijke termijn waarbinnen de beslissing wel  worden genomen" />
     </node>
-    <node concept="1zEXHp" id="7lQAW7K8Bwt" role="mu3T0">
-      <node concept="1zEXQY" id="7lQAW7K8Bwu" role="1zEXIt">
+    <node concept="1zEXHp" id="6u5qVtI13U2" role="mu3T0">
+      <node concept="1zEXQY" id="6u5qVtI13U3" role="1zEXIt">
         <property role="1zEXQP" value="true" />
       </node>
     </node>
   </node>
-  <node concept="cu0$f" id="7lQAW7K8Bws">
+  <node concept="cu0$f" id="6u5qVtI13U1">
     <property role="TrG5h" value="de minister beslist binnen drie weken na ontvangst van een aanvraag indien niet binnen deze termijn beslist de minister de aanvrager daarvan in kennis daarbij een redelijke termijn waarbinnen de beslissing wel  worden genomen" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
   </node>
-  <node concept="mu5$5" id="7lQAW7K8Bwv">
+  <node concept="mu5$5" id="6u5qVtI13U4">
     <property role="TrG5h" value="nemen de minister beslist binnen drie weken na ontvangst van een aanvraag indien niet binnen deze termijn beslist de minister de aanvrager daarvan in kennis daarbij een redelijke termijn waarbinnen de beslissing wel  worden genomen" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[nemen]" />
-    <node concept="cog_b" id="7lQAW7K8Bwz" role="2pmM46">
-      <ref role="cog$q" node="7lQAW7K8Bvd" resolve="art. 5, " />
-      <node concept="2hPCcK" id="7lQAW7K8Bw$" role="2hN6Sa">
-        <node concept="19SUe$" id="7lQAW7K8Bw_" role="19SJt6">
+    <node concept="cog_b" id="6u5qVtI13U8" role="2pmM46">
+      <ref role="cog$q" node="6u5qVtI13SL" resolve="art. 5, " />
+      <node concept="2hPCcK" id="6u5qVtI13U9" role="2hN6Sa">
+        <node concept="19SUe$" id="6u5qVtI13Ua" role="19SJt6">
           <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
         </node>
       </node>
     </node>
-    <node concept="1FQA6B" id="7lQAW7K8BwB" role="3H36l7">
-      <ref role="1FQA6$" node="7lQAW7K8Bws" resolve="de minister beslist binnen drie weken na ontvangst van een aanvraag indien niet binnen deze termijn beslist de minister de aanvrager daarvan in kennis daarbij een redelijke termijn waarbinnen de beslissing wel  worden genomen" />
+    <node concept="1FQA6B" id="6u5qVtI13Uc" role="3H36l7">
+      <ref role="1FQA6$" node="6u5qVtI13U1" resolve="de minister beslist binnen drie weken na ontvangst van een aanvraag indien niet binnen deze termijn beslist de minister de aanvrager daarvan in kennis daarbij een redelijke termijn waarbinnen de beslissing wel  worden genomen" />
     </node>
-    <node concept="1zEXHp" id="7lQAW7K8BwC" role="mu3T0">
-      <node concept="1zEXQY" id="7lQAW7K8BwD" role="1zEXIt">
+    <node concept="1zEXHp" id="6u5qVtI13Ud" role="mu3T0">
+      <node concept="1zEXQY" id="6u5qVtI13Ue" role="1zEXIt">
         <property role="1zEXQP" value="true" />
       </node>
     </node>
   </node>
-  <node concept="mu5$5" id="7lQAW7K8BwE">
+  <node concept="mu5$5" id="6u5qVtI13Uf">
+    <property role="TrG5h" value="ontvangen voor zover het zorgonderneming bewijsstukken waaruit blijkt waar de verklaring bedoeld in op een kopie van de omzetgegevens uit de boekhouding van de aangifte van de omzetbelasting over 2019 of 2020 en een kopie van de stukken uit de boekhouding van waaruit blijkt wat de hoogte van de tegemoetkomingen die zorgonderneming" />
+    <property role="3GE5qa" value="acts" />
+    <property role="207Gpp" value="[ontvangen]" />
+    <node concept="cog_b" id="6u5qVtI13Uj" role="2pmM46">
+      <ref role="cog$q" node="6u5qVtI13SM" resolve="art. 6lid 2, " />
+      <node concept="2hPCcK" id="6u5qVtI13Uk" role="2hN6Sa">
+        <node concept="19SUe$" id="6u5qVtI13Ul" role="19SJt6">
+          <property role="19SUeA" value="voor zover het een gedupeerde zorgonderneming betreft: bewijsstukken waaruit blijkt waar de verklaring, bedoeld in , op gebaseerd is, zoals een kopie van de omzetgegevens uit de boekhouding of van de aangifte van de omzetbelasting over 2019 of 2020 en een kopie van de stukken uit de boekhouding van 2020 waaruit blijkt wat de hoogte is van de tegemoetkomingen die de gedupeerde zorgonderneming heeft ontvangen van de zorginkopers ter compensatie van het omzetverlies als gevolg van de maatregelen ter bestrijding van COVID-19.artikel 4, tweede lid, onderdeel k" />
+        </node>
+      </node>
+    </node>
+    <node concept="1FQA6B" id="6u5qVtI13Un" role="3H36l7">
+      <ref role="1FQA6$" node="6u5qVtI13Uo" resolve="voor zover het zorgonderneming bewijsstukken waaruit blijkt waar de verklaring bedoeld in op een kopie van de omzetgegevens uit de boekhouding van de aangifte van de omzetbelasting over 2019 of 2020 en een kopie van de stukken uit de boekhouding van waaruit blijkt wat de hoogte van de tegemoetkomingen die zorgonderneming" />
+    </node>
+    <node concept="1zEXHp" id="6u5qVtI13Up" role="mu3T0">
+      <node concept="1zEXQY" id="6u5qVtI13Uq" role="1zEXIt">
+        <property role="1zEXQP" value="true" />
+      </node>
+    </node>
+  </node>
+  <node concept="cu0$f" id="6u5qVtI13Uo">
+    <property role="TrG5h" value="voor zover het zorgonderneming bewijsstukken waaruit blijkt waar de verklaring bedoeld in op een kopie van de omzetgegevens uit de boekhouding van de aangifte van de omzetbelasting over 2019 of 2020 en een kopie van de stukken uit de boekhouding van waaruit blijkt wat de hoogte van de tegemoetkomingen die zorgonderneming" />
+    <property role="3GE5qa" value="facts" />
+    <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+  </node>
+  <node concept="mu5$5" id="6u5qVtI13Ur">
     <property role="TrG5h" value="plaatsen in werking met ingang van de dag na de datum van van de staatscourant waarin zij" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[plaatsen]" />
-    <node concept="cog_b" id="7lQAW7K8BwI" role="2pmM46">
-      <ref role="cog$q" node="7lQAW7K8Bve" resolve="art. 8lid 1, " />
-      <node concept="2hPCcK" id="7lQAW7K8BwJ" role="2hN6Sa">
-        <node concept="19SUe$" id="7lQAW7K8BwK" role="19SJt6">
+    <node concept="cog_b" id="6u5qVtI13Uv" role="2pmM46">
+      <ref role="cog$q" node="6u5qVtI13SN" resolve="art. 8lid 1, " />
+      <node concept="2hPCcK" id="6u5qVtI13Uw" role="2hN6Sa">
+        <node concept="19SUe$" id="6u5qVtI13Ux" role="19SJt6">
           <property role="19SUeA" value="Deze beleidsregel treedt in werking met ingang van de dag na de datum van uitgifte van de Staatscourant waarin zij wordt geplaatst, en werkt terug tot en met 27maart 2020." />
         </node>
       </node>
     </node>
-    <node concept="1FQA6B" id="7lQAW7K8BwM" role="3H36mW">
-      <ref role="1FQA6$" node="7lQAW7K8BwN" resolve="Deze beleidsregel" />
+    <node concept="1FQA6B" id="6u5qVtI13Uz" role="3H36mW">
+      <ref role="1FQA6$" node="6u5qVtI13U$" resolve="Deze beleidsregel" />
     </node>
-    <node concept="1FQA6B" id="7lQAW7K8BwO" role="3H36l7">
-      <ref role="1FQA6$" node="7lQAW7K8BwP" resolve="in werking met ingang van de dag na de datum van van de staatscourant waarin zij" />
+    <node concept="1FQA6B" id="6u5qVtI13U_" role="3H36l7">
+      <ref role="1FQA6$" node="6u5qVtI13UA" resolve="in werking met ingang van de dag na de datum van van de staatscourant waarin zij" />
     </node>
-    <node concept="1zEXHp" id="7lQAW7K8BwQ" role="mu3T0">
-      <node concept="1zEXQY" id="7lQAW7K8BwR" role="1zEXIt">
+    <node concept="1zEXHp" id="6u5qVtI13UB" role="mu3T0">
+      <node concept="1zEXQY" id="6u5qVtI13UC" role="1zEXIt">
         <property role="1zEXQP" value="true" />
       </node>
     </node>
   </node>
-  <node concept="cu0$f" id="7lQAW7K8BwN">
+  <node concept="cu0$f" id="6u5qVtI13U$">
     <property role="TrG5h" value="Deze beleidsregel" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
   </node>
-  <node concept="cu0$f" id="7lQAW7K8BwP">
+  <node concept="cu0$f" id="6u5qVtI13UA">
     <property role="TrG5h" value="in werking met ingang van de dag na de datum van van de staatscourant waarin zij" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
   </node>
-  <node concept="mu5$5" id="7lQAW7K8BwS">
+  <node concept="mu5$5" id="6u5qVtI13UD">
     <property role="TrG5h" value="indienen met ingang van met dien de beleidsregel van toepassing op aanvragen om tegemoetkoming die uiterlijk 26juni 2020 zijn dan wel op tegemoetkomingen die voor 1januari 2021 zijn verstrekt" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[indienen]" />
-    <node concept="cog_b" id="7lQAW7K8BwW" role="2pmM46">
-      <ref role="cog$q" node="7lQAW7K8Bvf" resolve="art. 8lid 2, " />
-      <node concept="2hPCcK" id="7lQAW7K8BwX" role="2hN6Sa">
-        <node concept="19SUe$" id="7lQAW7K8BwY" role="19SJt6">
+    <node concept="cog_b" id="6u5qVtI13UH" role="2pmM46">
+      <ref role="cog$q" node="6u5qVtI13SO" resolve="art. 8lid 2, " />
+      <node concept="2hPCcK" id="6u5qVtI13UI" role="2hN6Sa">
+        <node concept="19SUe$" id="6u5qVtI13UJ" role="19SJt6">
           <property role="19SUeA" value="Deze beleidsregel vervalt met ingang van 1januari 2021, met dien verstande dat de beleidsregel van toepassing blijft op aanvragen om tegemoetkoming die uiterlijk 26juni 2020 zijn ingediend, dan wel op tegemoetkomingen die voor 1januari 2021 zijn verstrekt." />
         </node>
       </node>
     </node>
-    <node concept="1FQA6B" id="7lQAW7K8Bx0" role="3H36mW">
-      <ref role="1FQA6$" node="7lQAW7K8BwN" resolve="Deze beleidsregel" />
+    <node concept="1FQA6B" id="6u5qVtI13UL" role="3H36mW">
+      <ref role="1FQA6$" node="6u5qVtI13U$" resolve="Deze beleidsregel" />
     </node>
-    <node concept="1FQA6B" id="7lQAW7K8Bx1" role="3H36l7">
-      <ref role="1FQA6$" node="7lQAW7K8Bx2" resolve="met ingang van met dien de beleidsregel van toepassing op aanvragen om tegemoetkoming die uiterlijk 26juni 2020 zijn dan wel op tegemoetkomingen die voor 1januari 2021 zijn verstrekt" />
+    <node concept="1FQA6B" id="6u5qVtI13UM" role="3H36l7">
+      <ref role="1FQA6$" node="6u5qVtI13UN" resolve="met ingang van met dien de beleidsregel van toepassing op aanvragen om tegemoetkoming die uiterlijk 26juni 2020 zijn dan wel op tegemoetkomingen die voor 1januari 2021 zijn verstrekt" />
     </node>
-    <node concept="1zEXHp" id="7lQAW7K8Bx3" role="mu3T0">
-      <node concept="1zEXQY" id="7lQAW7K8Bx4" role="1zEXIt">
+    <node concept="1zEXHp" id="6u5qVtI13UO" role="mu3T0">
+      <node concept="1zEXQY" id="6u5qVtI13UP" role="1zEXIt">
         <property role="1zEXQP" value="true" />
       </node>
     </node>
   </node>
-  <node concept="cu0$f" id="7lQAW7K8Bx2">
+  <node concept="cu0$f" id="6u5qVtI13UN">
     <property role="TrG5h" value="met ingang van met dien de beleidsregel van toepassing op aanvragen om tegemoetkoming die uiterlijk 26juni 2020 zijn dan wel op tegemoetkomingen die voor 1januari 2021 zijn verstrekt" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
   </node>
-  <node concept="cog_a" id="5SIYu6XFt2Q">
-    <property role="TrG5h" value="Artikel 2 (verstrekking en hoogte tegemoetkoming)" />
-    <property role="3GE5qa" value="sources" />
-  </node>
-  <node concept="cog_a" id="6CaNDaocWfy">
-    <property role="TrG5h" value="Artikel 2 (verstrekking en hoogte tegemoetkoming)" />
-    <property role="3GE5qa" value="sources" />
-  </node>
-  <node concept="cog_a" id="6CaNDaoiw5a">
-    <property role="TrG5h" value="Artikel 2 (verstrekking en hoogte tegemoetkoming)" />
-    <property role="3GE5qa" value="sources" />
-  </node>
-  <node concept="mu5$5" id="6CaNDaojPi0">
-    <property role="3GE5qa" value="acts" />
-    <node concept="1FQA6B" id="6CaNDaojPi1" role="3H36mW" />
-    <node concept="1FQA6B" id="6CaNDaojPi2" role="3H36l7" />
-    <node concept="1FQA6B" id="6CaNDaojPi3" role="3H36lm" />
-    <node concept="cog_b" id="6CaNDaojPi4" role="2pmM46">
-      <property role="1hTq4$" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/21" />
-      <property role="2XObfb" value="None" />
-      <ref role="cog$q" node="6CaNDaoiw5a" resolve="Artikel 2 (verstrekking en hoogte tegemoetkoming)" />
-      <node concept="2hPCcK" id="6CaNDaojPi5" role="2hN6Sa">
-        <node concept="19SUe$" id="6CaNDaojPi6" role="19SJt6">
-          <property role="19SUeA" value="De minister verstrekt op aanvraag een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020:" />
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="cog_a" id="6CaNDaojPij">
+  <node concept="cog_a" id="6ytzK$sheRW">
     <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
     <property role="3GE5qa" value="sources" />
   </node>
-  <node concept="cog_a" id="6CaNDaojPit">
-    <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
-    <property role="3GE5qa" value="sources" />
-  </node>
-  <node concept="cog_a" id="6CaNDaojPmK">
-    <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
-    <property role="3GE5qa" value="sources" />
-  </node>
-  <node concept="cog_a" id="6CaNDaojPn7">
-    <property role="TrG5h" value="Artikel 2 (verstrekking en hoogte tegemoetkoming)" />
-    <property role="3GE5qa" value="sources" />
-  </node>
-  <node concept="cog_a" id="70YUse3yim3">
-    <property role="TrG5h" value="Artikel 2 (verstrekking en hoogte tegemoetkoming)" />
-    <property role="3GE5qa" value="sources" />
-  </node>
-  <node concept="cog_a" id="1j1uXED9a9D">
-    <property role="TrG5h" value="Artikel 2 (verstrekking en hoogte tegemoetkoming)" />
-    <property role="3GE5qa" value="sources" />
-  </node>
-  <node concept="cog_a" id="1zlLBOevRl9">
-    <property role="TrG5h" value="Artikel 2 (verstrekking en hoogte tegemoetkoming)" />
-    <property role="3GE5qa" value="sources" />
-  </node>
-  <node concept="cu0$f" id="1zlLBOevRl8">
-    <property role="3GE5qa" value="facts" />
-    <node concept="cog_b" id="1zlLBOevRla" role="2pmM46">
-      <property role="1hTq4$" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/21" />
-      <ref role="cog$q" node="1zlLBOevRl9" resolve="Artikel 2 (verstrekking en hoogte tegemoetkoming)" />
-      <node concept="2hPCcK" id="1zlLBOevRlb" role="2hN6Sa">
-        <node concept="19SUe$" id="1zlLBOevRlc" role="19SJt6">
-          <property role="19SUeA" value="De minister verstrekt op aanvraag een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020:" />
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="mu5$5" id="1zlLBOew25T">
+  <node concept="mu5$5" id="6ytzK$sGSYr">
     <property role="3GE5qa" value="acts" />
-    <node concept="1FQA6B" id="1zlLBOew25U" role="3H36mW" />
-    <node concept="1FQA6B" id="1zlLBOew25V" role="3H36l7" />
-    <node concept="1FQA6B" id="1zlLBOew25W" role="3H36lm" />
-    <node concept="cog_b" id="1zlLBOew25X" role="2pmM46">
-      <property role="1hTq4$" value=" " />
-      <ref role="cog$q" node="1zlLBOevRl9" resolve="Artikel 2 (verstrekking en hoogte tegemoetkoming)" />
-      <node concept="2hPCcK" id="1zlLBOew25Y" role="2hN6Sa">
-        <node concept="19SUe$" id="1zlLBOew25Z" role="19SJt6">
-          <property role="19SUeA" value="De minister verstrekt op aanvraag een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020" />
+    <property role="207Gpp" value="beslist" />
+    <node concept="1FQA6B" id="6ytzK$sGSYs" role="3H36mW">
+      <ref role="1FQA6$" node="6ytzK$sGSYA" resolve="minister" />
+    </node>
+    <node concept="1FQA6B" id="6ytzK$sGSYt" role="3H36l7" />
+    <node concept="1FQA6B" id="6ytzK$sGSYu" role="3H36lm" />
+    <node concept="cog_b" id="5pp3ssjUI7D" role="2pmM46">
+      <property role="1hTq4$" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27/structuurkenmerk/135" />
+      <ref role="cog$q" node="5pp3ssjUI7C" resolve="Artikel 5 (beslistermijn)" />
+      <node concept="2hPCcK" id="5pp3ssjUI7E" role="2hN6Sa">
+        <node concept="19SUe$" id="5pp3ssjUI7F" role="19SJt6">
+          <property role="19SUeA" value="De " />
         </node>
-      </node>
-    </node>
-  </node>
-  <node concept="cog_a" id="1dxOPHPjbJn">
-    <property role="TrG5h" value="Artikel 2 (verstrekking en hoogte tegemoetkoming)" />
-    <property role="3GE5qa" value="sources" />
-  </node>
-  <node concept="mu5$5" id="1dxOPHPjbJj">
-    <property role="3GE5qa" value="acts" />
-    <property role="TrG5h" value="TestAct" />
-    <node concept="1FQA6B" id="1dxOPHPjbJk" role="3H36mW">
-      <ref role="1FQA6$" node="1dxOPHPjbK3" resolve="De minister" />
-    </node>
-    <node concept="1FQA6B" id="1dxOPHPjbJl" role="3H36l7" />
-    <node concept="1FQA6B" id="1dxOPHPjbJm" role="3H36lm" />
-    <node concept="cog_b" id="1dxOPHPjbJo" role="2pmM46">
-      <property role="1hTq4$" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/textChunk/21" />
-      <ref role="cog$q" node="1dxOPHPjbJn" resolve="Artikel 2 (verstrekking en hoogte tegemoetkoming)" />
-      <node concept="2hPCcK" id="1dxOPHPjbJp" role="2hN6Sa">
-        <node concept="2h$EKm" id="1dxOPHPjbK1" role="19SJt6">
-          <property role="19SUeA" value="De" />
-          <node concept="2UK0tq" id="1dxOPHPjbK2" role="2h$EKj">
+        <node concept="2h$EKm" id="5pp3ssjUI7L" role="19SJt6">
+          <property role="19SUeA" value="minister" />
+          <node concept="2UK0tq" id="5pp3ssjUI7M" role="2h$EKj">
             <property role="2UK0tr" value="4AIlyP2wQAL/Actor" />
           </node>
         </node>
-        <node concept="19SUe$" id="1dxOPHPjbK0" role="19SJt6">
+        <node concept="19SUe$" id="5pp3ssjUI7K" role="19SJt6">
           <property role="19SUeA" value=" " />
         </node>
-        <node concept="2h$EKm" id="1dxOPHPjbJY" role="19SJt6">
-          <property role="19SUeA" value="minister" />
-          <node concept="2UK0tq" id="1dxOPHPjbJZ" role="2h$EKj">
-            <property role="2UK0tr" value="4AIlyP2wQAL/Actor" />
+        <node concept="2h$EKm" id="5pp3ssjUI7U" role="19SJt6">
+          <property role="19SUeA" value="beslist" />
+          <node concept="2UK0tq" id="5pp3ssjUI7V" role="2h$EKj">
+            <property role="2UK0tr" value="4AIlyP2wQAP/Action" />
           </node>
         </node>
-        <node concept="19SUe$" id="1dxOPHPjbJX" role="19SJt6">
-          <property role="19SUeA" value=" verstrekt op aanvraag een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020:" />
+        <node concept="19SUe$" id="5pp3ssjUI7T" role="19SJt6">
+          <property role="19SUeA" value=" binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
         </node>
       </node>
     </node>
   </node>
-  <node concept="cu0$f" id="1dxOPHPjbK3">
-    <property role="TrG5h" value="De minister" />
+  <node concept="cu0$f" id="6ytzK$sGSYA">
+    <property role="TrG5h" value="minister" />
     <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="cog_a" id="5pp3ssjMR9S">
+    <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
+    <property role="3GE5qa" value="sources" />
+  </node>
+  <node concept="cog_a" id="5pp3ssjUI7C">
+    <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
+    <property role="3GE5qa" value="sources" />
   </node>
 </model>
 
