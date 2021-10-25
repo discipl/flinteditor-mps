@@ -269,7 +269,11 @@
       <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
       <concept id="1235566554328" name="jetbrains.mps.baseLanguage.collections.structure.AnyOperation" flags="nn" index="2HwmR7" />
       <concept id="1235566831861" name="jetbrains.mps.baseLanguage.collections.structure.AllOperation" flags="nn" index="2HxqBE" />
+      <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
+        <child id="1237721435807" name="elementType" index="HW$YZ" />
+      </concept>
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
+      <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1175845471038" name="jetbrains.mps.baseLanguage.collections.structure.ReverseOperation" flags="nn" index="35Qw8J" />
@@ -1500,6 +1504,43 @@
     </node>
     <node concept="38BcoT" id="4AIlyP3vWJj" role="3dlsAW">
       <node concept="3clFbS" id="4AIlyP3vWJk" role="2VODD2">
+        <node concept="3cpWs8" id="m$6eIWiKA0" role="3cqZAp">
+          <node concept="3cpWsn" id="m$6eIWiKA1" role="3cpWs9">
+            <property role="TrG5h" value="ancestor" />
+            <node concept="3Tqbb2" id="m$6eIWiKy$" role="1tU5fm">
+              <ref role="ehGHo" to="lnwe:63E5y3TGjs_" resolve="IHasSources" />
+            </node>
+            <node concept="2OqwBi" id="m$6eIWiKA2" role="33vP2m">
+              <node concept="2Sf5sV" id="m$6eIWiKA3" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="m$6eIWiKA4" role="2OqNvi">
+                <node concept="1xMEDy" id="m$6eIWiKA5" role="1xVPHs">
+                  <node concept="chp4Y" id="m$6eIWiKA6" role="ri$Ld">
+                    <ref role="cht4Q" to="lnwe:63E5y3TGjs_" resolve="IHasSources" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="m$6eIWiIXj" role="3cqZAp">
+          <node concept="3clFbS" id="m$6eIWiIXl" role="3clFbx">
+            <node concept="3cpWs6" id="m$6eIWiLwC" role="3cqZAp">
+              <node concept="2ShNRf" id="m$6eIWiLF5" role="3cqZAk">
+                <node concept="Tc6Ow" id="m$6eIWiMM5" role="2ShVmc">
+                  <node concept="2ZThk1" id="m$6eIWiO_w" role="HW$YZ">
+                    <ref role="2ZWj4r" to="lnwe:4AIlyP2wQAK" resolve="ERole" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="17R0WA" id="m$6eIWiKS0" role="3clFbw">
+            <node concept="10Nm6u" id="m$6eIWiLmP" role="3uHU7w" />
+            <node concept="37vLTw" id="m$6eIWiKA7" role="3uHU7B">
+              <ref role="3cqZAo" node="m$6eIWiKA1" resolve="ancestor" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="4AIlyP3vXo0" role="3cqZAp">
           <node concept="2OqwBi" id="7B7tObTsc_i" role="3cqZAk">
             <node concept="2OqwBi" id="7B7tObTsaI8" role="2Oq$k0">
@@ -1507,15 +1548,8 @@
                 <ref role="37wK5l" to="3lmi:7B7tObSmFrl" resolve="forConcept" />
                 <ref role="1Pybhc" to="3lmi:7B7tObSm6q6" resolve="EnrichedRoleEnum" />
                 <node concept="2OqwBi" id="7B7tObTs9Tu" role="37wK5m">
-                  <node concept="2OqwBi" id="7B7tObTs7mQ" role="2Oq$k0">
-                    <node concept="2Sf5sV" id="7B7tObTs6UH" role="2Oq$k0" />
-                    <node concept="2Xjw5R" id="7B7tObTs80S" role="2OqNvi">
-                      <node concept="1xMEDy" id="7B7tObTs80U" role="1xVPHs">
-                        <node concept="chp4Y" id="7B7tObTs8ai" role="ri$Ld">
-                          <ref role="cht4Q" to="lnwe:63E5y3TGjs_" resolve="IHasSources" />
-                        </node>
-                      </node>
-                    </node>
+                  <node concept="37vLTw" id="m$6eIWiKA8" role="2Oq$k0">
+                    <ref role="3cqZAo" node="m$6eIWiKA1" resolve="ancestor" />
                   </node>
                   <node concept="2yIwOk" id="7B7tObTsa6x" role="2OqNvi" />
                 </node>

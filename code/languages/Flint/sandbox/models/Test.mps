@@ -23,7 +23,6 @@
         <property id="6868897032739893352" name="juriconnect" index="cog$t" />
       </concept>
       <concept id="6868897032739893310" name="Flint.structure.FlintSourceReference" flags="ng" index="cog_b">
-        <property id="2215264714367931041" name="textId" index="1hTq4$" />
         <reference id="6868897032739893359" name="baseSource" index="cog$q" />
         <child id="7816114204006679678" name="betterText" index="2hN6Sa" />
       </concept>
@@ -31,22 +30,15 @@
       <concept id="6868897032739434618" name="Flint.structure.Fact" flags="ng" index="cu0$f">
         <child id="6868897032739751036" name="function" index="coNO9" />
       </concept>
-      <concept id="7816114204010268258" name="Flint.structure.TaggedWord" flags="ng" index="2h$EKm">
-        <child id="7816114204010268263" name="roles" index="2h$EKj" />
-      </concept>
       <concept id="7816114204006345028" name="Flint.structure.CustomText" flags="ng" index="2hPCcK" />
       <concept id="9029403747833789403" name="Flint.structure.Act" flags="ng" index="mu5$5">
         <property id="6366956576594804508" name="action" index="207Gpp" />
         <child id="9029403747833797790" name="preconditions" index="mu3T0" />
         <child id="6205025464253204623" name="object" index="3H36l7" />
-        <child id="6205025464253204638" name="recipient" index="3H36lm" />
         <child id="6205025464253204596" name="actor" index="3H36mW" />
       </concept>
       <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
         <child id="6983418503075280678" name="sources" index="2pmM46" />
-      </concept>
-      <concept id="2986354165693918736" name="Flint.structure.SRole" flags="ng" index="2UK0tq">
-        <property id="2986354165693918737" name="role" index="2UK0tr" />
       </concept>
       <concept id="4808965957220776534" name="Flint.structure.LITERAL" flags="ng" index="1zEXHp">
         <child id="4808965957220776594" name="operand" index="1zEXIt" />
@@ -405,42 +397,6 @@
     <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
     <property role="3GE5qa" value="sources" />
   </node>
-  <node concept="mu5$5" id="6ytzK$sGSYr">
-    <property role="3GE5qa" value="acts" />
-    <property role="207Gpp" value="beslist" />
-    <node concept="1FQA6B" id="6ytzK$sGSYs" role="3H36mW">
-      <ref role="1FQA6$" node="6ytzK$sGSYA" resolve="minister" />
-    </node>
-    <node concept="1FQA6B" id="6ytzK$sGSYt" role="3H36l7" />
-    <node concept="1FQA6B" id="6ytzK$sGSYu" role="3H36lm" />
-    <node concept="cog_b" id="5pp3ssjUI7D" role="2pmM46">
-      <property role="1hTq4$" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27/structuurkenmerk/135" />
-      <ref role="cog$q" node="5pp3ssjUI7C" resolve="Artikel 5 (beslistermijn)" />
-      <node concept="2hPCcK" id="5pp3ssjUI7E" role="2hN6Sa">
-        <node concept="19SUe$" id="5pp3ssjUI7F" role="19SJt6">
-          <property role="19SUeA" value="De " />
-        </node>
-        <node concept="2h$EKm" id="5pp3ssjUI7L" role="19SJt6">
-          <property role="19SUeA" value="minister" />
-          <node concept="2UK0tq" id="5pp3ssjUI7M" role="2h$EKj">
-            <property role="2UK0tr" value="4AIlyP2wQAL/Actor" />
-          </node>
-        </node>
-        <node concept="19SUe$" id="5pp3ssjUI7K" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="2h$EKm" id="5pp3ssjUI7U" role="19SJt6">
-          <property role="19SUeA" value="beslist" />
-          <node concept="2UK0tq" id="5pp3ssjUI7V" role="2h$EKj">
-            <property role="2UK0tr" value="4AIlyP2wQAP/Action" />
-          </node>
-        </node>
-        <node concept="19SUe$" id="5pp3ssjUI7T" role="19SJt6">
-          <property role="19SUeA" value=" binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="cu0$f" id="6ytzK$sGSYA">
     <property role="TrG5h" value="minister" />
     <property role="3GE5qa" value="facts" />
@@ -450,6 +406,14 @@
     <property role="3GE5qa" value="sources" />
   </node>
   <node concept="cog_a" id="5pp3ssjUI7C">
+    <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
+    <property role="3GE5qa" value="sources" />
+  </node>
+  <node concept="cog_a" id="222x$3yHPit">
+    <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
+    <property role="3GE5qa" value="sources" />
+  </node>
+  <node concept="cog_a" id="m$6eIWiHeX">
     <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
     <property role="3GE5qa" value="sources" />
   </node>
