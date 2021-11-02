@@ -111,7 +111,6 @@
       <property role="IQ2ns" value="4312083994569304675" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="languageReference" />
-      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3JnAoJLBIOl" resolve="LanguageReference" />
     </node>
   </node>
