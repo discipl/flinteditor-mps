@@ -299,21 +299,24 @@
         </node>
         <node concept="3clFbF" id="1zHuFrBYt4O" role="3cqZAp">
           <node concept="37vLTI" id="1zHuFrBYulU" role="3clFbG">
-            <node concept="2OqwBi" id="1zHuFrBYvfJ" role="37vLTx">
-              <node concept="2YIFZM" id="1zHuFrBYuX1" role="2Oq$k0">
-                <ref role="37wK5l" to="33ny:~UUID.randomUUID()" resolve="randomUUID" />
-                <ref role="1Pybhc" to="33ny:~UUID" resolve="UUID" />
-              </node>
-              <node concept="liA8E" id="1zHuFrBYv$C" role="2OqNvi">
-                <ref role="37wK5l" to="33ny:~UUID.toString()" resolve="toString" />
-              </node>
-            </node>
             <node concept="2OqwBi" id="1zHuFrBYtnj" role="37vLTJ">
               <node concept="37vLTw" id="1zHuFrBYt4M" role="2Oq$k0">
                 <ref role="3cqZAo" node="1zHuFrBYmZ0" resolve="newLine" />
               </node>
               <node concept="3TrcHB" id="1zHuFrBYtQi" role="2OqNvi">
                 <ref role="3TsBF5" to="srlv:1UYcSlfmlp1" resolve="lineId" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7zM_gLhcr3_" role="37vLTx">
+              <node concept="2YIFZM" id="7zM_gLhcqXA" role="2Oq$k0">
+                <ref role="37wK5l" to="472r:7zM_gLhawSN" resolve="getLineIdFetcher" />
+                <ref role="1Pybhc" to="472r:6ytzK$s55yR" resolve="SourceSplitter" />
+              </node>
+              <node concept="liA8E" id="7zM_gLhcreF" role="2OqNvi">
+                <ref role="37wK5l" to="472r:7zM_gLhapBK" resolve="getIdForLine" />
+                <node concept="37vLTw" id="7zM_gLhcrqE" role="37wK5m">
+                  <ref role="3cqZAo" node="1zHuFrBYmZ0" resolve="newLine" />
+                </node>
               </node>
             </node>
           </node>

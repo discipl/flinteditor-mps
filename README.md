@@ -31,5 +31,10 @@ To build the FlintIDE run `gradlew buildFlintPlugin`. This will generate a zip i
    - On windows  (`C:\Users\%USER%\.MPS2020.3\config\plugins`)
 4. To install or update your flint plugin follow [this guide](docs/PLUGIN_UPDATE_GUIDE.md). 
 
+
+### Running NSX server
+Start the docker-compose.yml file in https://ci.tno.nl/gitlab/calculemus/nsx-calculemush . Run 
+`docker-compose up -D` after cloning the project.
+
 ## Using Flint-mps
 A user guide is available [here](docs/USER_GUIDE.md)
