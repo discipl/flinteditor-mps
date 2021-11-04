@@ -1,7 +1,7 @@
 buildscript {
     repositories {
         maven {
-            url = uri("https://projects.itemis.de/nexus/content/repositories/mbeddr")
+            url = uri("https://discplmirror.jfrog.io/artifactory/itemis")
         }
         mavenCentral()
     }
@@ -61,12 +61,12 @@ repositories {
     mavenCentral()
     jcenter()
     maven {
-        url = uri("https://projects.itemis.de/nexus/content/repositories/mbeddr")
+        url = uri("https://discplmirror.jfrog.io/artifactory/itemis")
     }
 }
 
 downloadJbr {
-    jbrVersion = '11_0_9_1-b1145.77'
+    jbrVersion = '11_0_6-b520.66'
     downloadDir = mpsDir
 }
 
@@ -92,7 +92,7 @@ dependencies {
 
     artifact "com.mbeddr:platform:$mbeddr_version"
     mps("com.jetbrains:mps:$mps_version")
-    antLib('org.apache.ant:ant-junit:1.10.11')
+    antLib('org.apache.ant:ant-junit:1.10.12')
 
     mpsGenLib "org.openjfx:javafx-base:$javafx_version:$current_platform"
     mpsGenLib "org.openjfx:javafx-controls:$javafx_version:$current_platform"

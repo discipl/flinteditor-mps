@@ -33,7 +33,7 @@ jobs:
           arguments: --no-parallel initProject test
           gradle-version: wrapper
       - name: Tests failed
-        if: ${{ matrix.os == 'ubuntu-16.04' && failure() }}
+        if: ${{ matrix.os == 'ubuntu-20.04' && failure() }}
         run: sudo apt-get install lynx && if [ -f ./code/build/reports/html/junit-noframes.html ]; then lynx -dump ./code/build/reports/html/junit-noframes.html; fi && if [ -f ./code/java/FlintParser/build/reports/tests/test/index.html ]; then lynx -dump ./code/java/FlintParser/build/reports/tests/test/index.html; fi && if [ -f ./code/java/FlintParser/build/reports/tests/test/classes/org.discipl.flint.flintfiller.FlintFillerTest.html ]; then lynx -dump ./code/java/FlintParser/build/reports/tests/test/classes/org.discipl.flint.flintfiller.FlintFillerTest.html; fi
       - name: Upload Test Results
         if: ${{ always() }}

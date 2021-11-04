@@ -27,6 +27,11 @@ This is the MPS Flint IDE user guide. The Guide covers the following topics.
 )  in the dialog and hit OK.
 ![Import From Wetten.nl Dialog](images/importfromwettennldialog.png)
 
+## [Optional] Use the FlintView
+1. Left click on the "Logical View"
+1. Select "FlintView" from the dropdown menu  
+![Select FlintView](images/FlintView.png)
+
 ## Editing a FlintModel
 1. Open the created FlintModel using the navigation menu.  
 ![Created Flint Model](images/openmodel.png)
