@@ -77,8 +77,8 @@ class VersionClientImpl(private val queryExecutor: QueryExecutor) : VersionClien
     private fun getFullyMappedBWBVersion(mappedBWBVersion: MappedBWBVersion): FullyMappedBWBVersion {
         val document = Jsoup.parse(URI(mappedBWBVersion.wettenNl).toURL(), 10000)
         val firstArticleHeader = document.getElementsByClass("article__header--law article__header--main").first()
-        val firstParagraph = firstArticleHeader.getElementsByTag("p").first()
-        val name = firstParagraph.text().substringAfter("Geldend van ")
+        val firstParagraph = firstArticleHeader?.getElementsByTag("p")?.first()
+        val name = firstParagraph?.text()?.substringAfter("Geldend van ") ?: ""
         // TODO end date can be heden
         val endDate = name.substringAfter("t/m ").split("-").reversed().joinToString("-")
         return FullyMappedBWBVersion(mappedBWBVersion, name, endDate)
