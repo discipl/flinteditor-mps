@@ -11,9 +11,9 @@ buildscript {
 }
 
 plugins {
+    id "org.jetbrains.intellij" version "1.2.0"
     id "com.github.node-gradle.node" version "2.2.3"
     id "java"
-    id "download-jbr"
     id "net.ossindex.audit" version "0.4.11"
 }
 
@@ -63,11 +63,6 @@ repositories {
     maven {
         url = uri("https://projects.itemis.de/nexus/content/repositories/OS/")
     }
-}
-
-downloadJbr {
-    jbrVersion = '11_0_6-b520.66'
-    downloadDir = mpsDir
 }
 
 dependencies {
@@ -245,6 +240,16 @@ task copyMbeddrPlugins(type: Copy) {
 
 
 import org.gradle.internal.os.OperatingSystem
+
+task downloadJbr(type: Copy, dependsOn: prepareSandbox) {
+    def path1 = tasks.getByName("runIde").projectExecutable.get()
+    def jbrDir = new File(path1, "../..")
+//    if (OperatingSystem.current().isMacOsX()) {
+//        jbrDir = new File(path1, "../../../..")
+//    }
+    from jbrDir
+    into new File(mpsDir, "jbr")
+}
 
 task resolveMps(type: Copy) {
     from configurations.mps.resolve().collect { zipTree(it) }
