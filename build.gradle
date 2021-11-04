@@ -1,7 +1,7 @@
 buildscript {
     repositories {
         maven {
-            url = uri("https://projects.itemis.de/nexus/content/repositories/mbeddr")
+            url = uri("https://discplmirror.jfrog.io/artifactory/itemis")
         }
         mavenCentral()
     }
@@ -92,7 +92,8 @@ dependencies {
 
     artifact "com.mbeddr:platform:$mbeddr_version"
     mps("com.jetbrains:mps:$mps_version")
-    antLib("org.apache.ant:ant-junit:1.10.10")
+    // antLib("org.apache.ant:ant-junit:1.10.10")
+    antLib("org.apache.ant:ant-junit:1.10.12")
 
     mpsGenLib "org.openjfx:javafx-base:$javafx_version:$current_platform"
     mpsGenLib "org.openjfx:javafx-controls:$javafx_version:$current_platform"

@@ -19,7 +19,8 @@ dependencies {
     implementation 'org.apache.commons:commons-exec:1.3'
 
     implementation('org.apache.jena:jena-arq:4.0.0')
-    implementation 'org.jsoup:jsoup:1.13.1'
+    // implementation 'org.jsoup:jsoup:1.13.1'
+    implementation 'org.jsoup:jsoup:1.14.3'
     implementation "org.koin:koin-core:$koin_version"
 
     testImplementation 'ch.qos.logback:logback-core:1.2.3'
