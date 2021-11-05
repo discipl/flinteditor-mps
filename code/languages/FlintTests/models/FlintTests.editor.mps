@@ -8,6 +8,7 @@
   <imports>
     <import index="1z9r" ref="r:5d54dae5-81d4-42dd-a3f1-89bc0a78884b(FlintTests.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="91jx" ref="r:65e1ef5b-5c67-4dea-9c56-7027982e698b(Flint.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -19,6 +20,9 @@
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
+      </concept>
+      <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
+        <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
@@ -56,6 +60,9 @@
           <property role="3F0ifm" value="-" />
         </node>
         <node concept="l2Vlx" id="5XjenljbuZl" role="2iSdaV" />
+      </node>
+      <node concept="PMmxH" id="1kyaHg5uioL" role="3EZMnx">
+        <ref role="PMmxG" to="91jx:3JnAoJLYJ6r" resolve="FlintModelLanguage" />
       </node>
       <node concept="3EZMnI" id="5Xjenljbd9G" role="3EZMnx">
         <node concept="3F0ifn" id="7PeSHTFhIli" role="3EZMnx">

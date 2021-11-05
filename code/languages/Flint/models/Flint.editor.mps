@@ -832,7 +832,7 @@
             <node concept="3clFbS" id="2hEqZ8bhG8b" role="2VODD2">
               <node concept="3clFbF" id="2hEqZ8bhG8c" role="3cqZAp">
                 <node concept="2YIFZM" id="2hEqZ8bhG8d" role="3clFbG">
-                  <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguageTest" />
+                  <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
                   <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
                   <node concept="2OqwBi" id="2hEqZ8bhG8e" role="37wK5m">
                     <node concept="pncrf" id="2hEqZ8bhG8f" role="2Oq$k0" />
@@ -877,7 +877,7 @@
                 <node concept="3clFbS" id="2hEqZ8bhGds" role="2VODD2">
                   <node concept="3clFbF" id="2hEqZ8bhGdt" role="3cqZAp">
                     <node concept="2YIFZM" id="2hEqZ8bhGdu" role="3clFbG">
-                      <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguageTest" />
+                      <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
                       <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
                       <node concept="2OqwBi" id="2hEqZ8bhGdv" role="37wK5m">
                         <node concept="pncrf" id="2hEqZ8bhGdw" role="2Oq$k0" />
@@ -950,7 +950,7 @@
                 <node concept="3clFbS" id="2hEqZ8bhGBt" role="2VODD2">
                   <node concept="3clFbF" id="2hEqZ8bhGBu" role="3cqZAp">
                     <node concept="2YIFZM" id="2hEqZ8bhGBv" role="3clFbG">
-                      <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguageTest" />
+                      <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
                       <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
                       <node concept="2OqwBi" id="2hEqZ8bhGBw" role="37wK5m">
                         <node concept="pncrf" id="2hEqZ8bhGBx" role="2Oq$k0" />
@@ -1589,7 +1589,7 @@
             <node concept="3clFbS" id="2hEqZ8bhNcO" role="2VODD2">
               <node concept="3clFbF" id="2hEqZ8bhNcP" role="3cqZAp">
                 <node concept="2YIFZM" id="2hEqZ8bhNcQ" role="3clFbG">
-                  <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguageTest" />
+                  <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
                   <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
                   <node concept="2OqwBi" id="2hEqZ8bhNcR" role="37wK5m">
                     <node concept="pncrf" id="2hEqZ8bhNcS" role="2Oq$k0" />
@@ -1657,7 +1657,7 @@
             <node concept="3clFbS" id="4L0Tsav$g$l" role="2VODD2">
               <node concept="3clFbF" id="2hEqZ8bboAd" role="3cqZAp">
                 <node concept="2YIFZM" id="2hEqZ8bboDi" role="3clFbG">
-                  <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguageTest" />
+                  <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
                   <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
                   <node concept="2OqwBi" id="2hEqZ8bbpaI" role="37wK5m">
                     <node concept="pncrf" id="2hEqZ8bboQX" role="2Oq$k0" />
@@ -1717,7 +1717,7 @@
             <node concept="3clFbS" id="2hEqZ8bh$nf" role="2VODD2">
               <node concept="3clFbF" id="2hEqZ8bh$ng" role="3cqZAp">
                 <node concept="2YIFZM" id="2hEqZ8bh$nh" role="3clFbG">
-                  <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguageTest" />
+                  <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
                   <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
                   <node concept="2OqwBi" id="2hEqZ8bh$ni" role="37wK5m">
                     <node concept="pncrf" id="2hEqZ8bh$nj" role="2Oq$k0" />
@@ -1777,7 +1777,7 @@
             <node concept="3clFbS" id="2hEqZ8bh$Bg" role="2VODD2">
               <node concept="3clFbF" id="2hEqZ8bh$Bh" role="3cqZAp">
                 <node concept="2YIFZM" id="2hEqZ8bh$Bi" role="3clFbG">
-                  <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguageTest" />
+                  <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
                   <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
                   <node concept="2OqwBi" id="2hEqZ8bh$Bj" role="37wK5m">
                     <node concept="pncrf" id="2hEqZ8bh$Bk" role="2Oq$k0" />
@@ -1837,7 +1837,7 @@
             <node concept="3clFbS" id="2hEqZ8bh$RC" role="2VODD2">
               <node concept="3clFbF" id="2hEqZ8bh$RD" role="3cqZAp">
                 <node concept="2YIFZM" id="2hEqZ8bh$RE" role="3clFbG">
-                  <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguageTest" />
+                  <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
                   <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
                   <node concept="2OqwBi" id="2hEqZ8bh$RF" role="37wK5m">
                     <node concept="pncrf" id="2hEqZ8bh$RG" role="2Oq$k0" />
@@ -1897,7 +1897,7 @@
             <node concept="3clFbS" id="2hEqZ8bh_nB" role="2VODD2">
               <node concept="3clFbF" id="2hEqZ8bh_nC" role="3cqZAp">
                 <node concept="2YIFZM" id="2hEqZ8bh_nD" role="3clFbG">
-                  <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguageTest" />
+                  <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
                   <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
                   <node concept="2OqwBi" id="2hEqZ8bh_nE" role="37wK5m">
                     <node concept="pncrf" id="2hEqZ8bh_nF" role="2Oq$k0" />
@@ -1960,7 +1960,7 @@
                 <node concept="3clFbS" id="2hEqZ8bh_CH" role="2VODD2">
                   <node concept="3clFbF" id="2hEqZ8bh_CI" role="3cqZAp">
                     <node concept="2YIFZM" id="2hEqZ8bh_CJ" role="3clFbG">
-                      <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguageTest" />
+                      <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
                       <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
                       <node concept="2OqwBi" id="2hEqZ8bh_CK" role="37wK5m">
                         <node concept="pncrf" id="2hEqZ8bh_CL" role="2Oq$k0" />
@@ -2035,7 +2035,7 @@
                 <node concept="3clFbS" id="2hEqZ8bh_U9" role="2VODD2">
                   <node concept="3clFbF" id="2hEqZ8bh_Ua" role="3cqZAp">
                     <node concept="2YIFZM" id="2hEqZ8bh_Ub" role="3clFbG">
-                      <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguageTest" />
+                      <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
                       <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
                       <node concept="2OqwBi" id="2hEqZ8bh_Uc" role="37wK5m">
                         <node concept="pncrf" id="2hEqZ8bh_Ud" role="2Oq$k0" />
@@ -2109,7 +2109,7 @@
                 <node concept="3clFbS" id="2hEqZ8bhAbW" role="2VODD2">
                   <node concept="3clFbF" id="2hEqZ8bhAbX" role="3cqZAp">
                     <node concept="2YIFZM" id="2hEqZ8bhAbY" role="3clFbG">
-                      <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguageTest" />
+                      <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
                       <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
                       <node concept="2OqwBi" id="2hEqZ8bhAbZ" role="37wK5m">
                         <node concept="pncrf" id="2hEqZ8bhAc0" role="2Oq$k0" />
@@ -2244,7 +2244,7 @@
             <node concept="3clFbS" id="2hEqZ8bhDGV" role="2VODD2">
               <node concept="3clFbF" id="2hEqZ8bhDGW" role="3cqZAp">
                 <node concept="2YIFZM" id="2hEqZ8bhDGX" role="3clFbG">
-                  <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguageTest" />
+                  <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
                   <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
                   <node concept="2OqwBi" id="2hEqZ8bhDGY" role="37wK5m">
                     <node concept="pncrf" id="2hEqZ8bhDGZ" role="2Oq$k0" />
@@ -2285,7 +2285,7 @@
             <node concept="3clFbS" id="2hEqZ8bhDQc" role="2VODD2">
               <node concept="3clFbF" id="2hEqZ8bhDQd" role="3cqZAp">
                 <node concept="2YIFZM" id="2hEqZ8bhDQe" role="3clFbG">
-                  <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguageTest" />
+                  <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
                   <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
                   <node concept="2OqwBi" id="2hEqZ8bhDQf" role="37wK5m">
                     <node concept="pncrf" id="2hEqZ8bhDQg" role="2Oq$k0" />
@@ -2323,7 +2323,7 @@
             <node concept="3clFbS" id="2hEqZ8bhDUL" role="2VODD2">
               <node concept="3clFbF" id="2hEqZ8bhDUM" role="3cqZAp">
                 <node concept="2YIFZM" id="2hEqZ8bhDUN" role="3clFbG">
-                  <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguageTest" />
+                  <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
                   <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
                   <node concept="2OqwBi" id="2hEqZ8bhDUO" role="37wK5m">
                     <node concept="pncrf" id="2hEqZ8bhDUP" role="2Oq$k0" />
@@ -2361,7 +2361,7 @@
             <node concept="3clFbS" id="2hEqZ8bhE4O" role="2VODD2">
               <node concept="3clFbF" id="2hEqZ8bhE4P" role="3cqZAp">
                 <node concept="2YIFZM" id="2hEqZ8bhE4Q" role="3clFbG">
-                  <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguageTest" />
+                  <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
                   <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
                   <node concept="2OqwBi" id="2hEqZ8bhE4R" role="37wK5m">
                     <node concept="pncrf" id="2hEqZ8bhE4S" role="2Oq$k0" />
@@ -2399,7 +2399,7 @@
             <node concept="3clFbS" id="2hEqZ8bhEfa" role="2VODD2">
               <node concept="3clFbF" id="2hEqZ8bhEfb" role="3cqZAp">
                 <node concept="2YIFZM" id="2hEqZ8bhEfc" role="3clFbG">
-                  <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguageTest" />
+                  <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
                   <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
                   <node concept="2OqwBi" id="2hEqZ8bhEfd" role="37wK5m">
                     <node concept="pncrf" id="2hEqZ8bhEfe" role="2Oq$k0" />
@@ -2441,7 +2441,7 @@
                 <node concept="3clFbS" id="2hEqZ8bhEyS" role="2VODD2">
                   <node concept="3clFbF" id="2hEqZ8bhEyT" role="3cqZAp">
                     <node concept="2YIFZM" id="2hEqZ8bhEyU" role="3clFbG">
-                      <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguageTest" />
+                      <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
                       <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
                       <node concept="2OqwBi" id="2hEqZ8bhEyV" role="37wK5m">
                         <node concept="pncrf" id="2hEqZ8bhEyW" role="2Oq$k0" />
@@ -5858,12 +5858,16 @@
       <node concept="3EZMnI" id="3JnAoJLpauh" role="3EZMnx">
         <node concept="VPM3Z" id="3JnAoJLpauj" role="3F10Kt" />
         <node concept="3F0ifn" id="3JnAoJLpaul" role="3EZMnx">
-          <property role="3F0ifm" value="Language:" />
+          <property role="3F0ifm" value="Language name:" />
         </node>
         <node concept="3F0A7n" id="3JnAoJLpav_" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
         <node concept="l2Vlx" id="3JnAoJLpaum" role="2iSdaV" />
+      </node>
+      <node concept="3F0ifn" id="1kyaHg5yqyB" role="3EZMnx" />
+      <node concept="3F0ifn" id="1kyaHg5wZnd" role="3EZMnx">
+        <property role="3F0ifm" value="Translations:" />
       </node>
       <node concept="3EZMnI" id="3JnAoJLjzgS" role="3EZMnx">
         <node concept="VPM3Z" id="3JnAoJLjzgU" role="3F10Kt" />
@@ -6005,6 +6009,16 @@
         </node>
         <node concept="l2Vlx" id="3JnAoJLjzp6" role="2iSdaV" />
       </node>
+      <node concept="3EZMnI" id="1kyaHg5wZlK" role="3EZMnx">
+        <node concept="VPM3Z" id="1kyaHg5wZlM" role="3F10Kt" />
+        <node concept="3F0ifn" id="1kyaHg5wZlO" role="3EZMnx">
+          <property role="3F0ifm" value="Language:" />
+        </node>
+        <node concept="3F0A7n" id="1kyaHg5wZn9" role="3EZMnx">
+          <ref role="1NtTu8" to="lnwe:1kyaHg5wV$R" resolve="eLanguage" />
+        </node>
+        <node concept="l2Vlx" id="1kyaHg5wZlP" role="2iSdaV" />
+      </node>
       <node concept="2iRkQZ" id="3JnAoJLjzgO" role="2iSdaV" />
     </node>
   </node>
@@ -6024,8 +6038,36 @@
     <property role="TrG5h" value="FlintModelLanguage" />
     <ref role="1XX52x" to="lnwe:5XjenljaN1R" resolve="FlintModel" />
     <node concept="3EZMnI" id="3JnAoJLYJ6t" role="2wV5jI">
+      <node concept="s8t4o" id="1kyaHg5wUwR" role="3EZMnx">
+        <property role="28Zw97" value="true" />
+        <ref role="1k5W1q" node="3JnAoJLLnLN" resolve="Editor" />
+        <ref role="28F8cf" to="lnwe:2ACGKFDB3mq" resolve="Language" />
+        <node concept="xShMh" id="1kyaHg5wUwT" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="s8sZD" id="1kyaHg5wUwU" role="sbcd9">
+          <node concept="3clFbS" id="1kyaHg5wUwV" role="2VODD2">
+            <node concept="3clFbF" id="1kyaHg5wU$e" role="3cqZAp">
+              <node concept="2YIFZM" id="1kyaHg5wUC_" role="3clFbG">
+                <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
+                <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
+                <node concept="2OqwBi" id="1kyaHg5wUVS" role="37wK5m">
+                  <node concept="pncrf" id="1kyaHg5wUGJ" role="2Oq$k0" />
+                  <node concept="I4A8Y" id="1kyaHg5wVhy" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1yz3lS" id="1kyaHg5wUz2" role="1yzFaX">
+          <node concept="3F0A7n" id="1kyaHg5xaAr" role="2wV5jI">
+            <ref role="1NtTu8" to="lnwe:1kyaHg5wV$R" resolve="eLanguage" />
+          </node>
+        </node>
+      </node>
       <node concept="3F0ifn" id="3JnAoJLYJ6B" role="3EZMnx">
-        <property role="3F0ifm" value="Language:" />
+        <property role="3F0ifm" value=":" />
+        <ref role="1k5W1q" node="5LeOc1$LXOc" resolve="Colon" />
       </node>
       <node concept="3F1sOY" id="3JnAoJLYJ6K" role="3EZMnx">
         <ref role="1NtTu8" to="lnwe:3JnAoJLWQDz" resolve="languageReference" />

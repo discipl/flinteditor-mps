@@ -10,6 +10,7 @@
   <registry>
     <language id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint">
       <concept id="3001846011087139046" name="Flint.structure.Language" flags="ng" index="30VgfG">
+        <property id="1522826714118601015" name="eLanguage" index="gCpfz" />
         <property id="3001846011087139886" name="eFunction" index="30Vgs$" />
         <property id="3001846011087139884" name="eName" index="30VgsA" />
         <property id="3001846011087139889" name="eReferences" index="30VgsV" />
@@ -48,6 +49,7 @@
     <property role="30Vnav" value="object" />
     <property role="30VnaC" value="ontvanger" />
     <property role="30VnaU" value="pre-conditie" />
+    <property role="gCpfz" value="taal" />
   </node>
   <node concept="30VgfG" id="4L0TsavKybn">
     <property role="TrG5h" value="English" />
@@ -65,6 +67,7 @@
     <property role="30Vnav" value="object" />
     <property role="30VnaC" value="recipient" />
     <property role="30VnaU" value="preconditions" />
+    <property role="gCpfz" value="language" />
   </node>
 </model>
 
