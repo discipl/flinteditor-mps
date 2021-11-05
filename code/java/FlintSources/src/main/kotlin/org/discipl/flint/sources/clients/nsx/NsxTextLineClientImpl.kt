@@ -19,9 +19,12 @@ class NsxTextLineClientImpl(
 ) : TextLineClient {
     override fun getTextLineForVersionId(versionId: String): List<TextLine> = runBlocking {
         val textLinesForVersion = getTextLinesForVersion(versionId)
-        val basicLines = textLinesForVersion.filter { !it.parent.isNullOrBlank() }.map { BasicSyncTextLine(it) }.filter {
-            it.structure.startsWith("#document/toestand/wetgeving/regeling/regeling-tekst") || it.structure.startsWith("/Artikel")
-        }.sortedBy { it.regelNr }
+        val basicLines =
+            textLinesForVersion.filter { !it.parent.isNullOrBlank() }.map { BasicSyncTextLine(it) }.filter {
+                it.structure.startsWith("#document/toestand/wetgeving/regeling/regeling-tekst") || it.structure.startsWith(
+                    "/Artikel"
+                )
+            }.sortedBy { it.regelNr }
         basicLines.map { SyncTextLine(it, basicLines) }
     }
 
@@ -35,7 +38,7 @@ class NsxTextLineClientImpl(
         val requestId = getTextLinesForVersionRequestId(
             NsxTextLinesForVersionRequest(
                 publicationParser.uuid,
-                publicationParser.source.uuid,
+                publicationParser.source?.uuid ?: UUID.randomUUID(),
                 versionId
             )
         )

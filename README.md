@@ -33,7 +33,12 @@ To build the FlintIDE run `gradlew buildFlintPlugin`. This will generate a zip i
 
 
 ### Running NSX server
-Start the docker-compose.yml file in https://ci.tno.nl/gitlab/calculemus/nsx-calculemush . Run 
+The editor uses http://calculemus-app.d3e4884570654486a16f.westeurope.aksapp.io/calculemus/calculemusComp/v1 as the default nsx url.
+To Specify a different url add a Path Variable called nsx_url to the editor. 
+![Path Variables](docs/images/path_variables.png)
+
+
+You can run your own version of the nsx layer by starting the docker-compose.yml file in https://ci.tno.nl/gitlab/calculemus/nsx-calculemus. Run 
 `docker-compose up -D` after cloning the project.
 
 ## Using Flint-mps

@@ -16,7 +16,7 @@ internal class ParserServiceTest {
         assertEquals(UUID.fromString("24511936-8b2c-4ac6-a54c-cab827f743d2"), parser.uuid)
         assertEquals("TriplyDB", parser.name)
         val source = parser.publicationSource
-        assertEquals(UUID.fromString("0fe9864c-33a7-4a00-8636-588faa71e922"), source.uuid)
-        assertEquals("Wetten.nl", source.name)
+        assertEquals(UUID.fromString("0fe9864c-33a7-4a00-8636-588faa71e922"), source?.uuid)
+        assertEquals("Wetten.nl", source?.name)
     }
 }

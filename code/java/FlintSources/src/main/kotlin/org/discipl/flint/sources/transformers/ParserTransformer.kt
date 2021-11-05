@@ -11,10 +11,12 @@ class ParserTransformer {
         return PublicationParser(
             name = parser.name,
             uuid = parser.uuid,
-            publicationSource = PublicationSource(
-                name = parser.source.name,
-                uuid = parser.source.uuid
-            )
+            publicationSource = parser.source?.let {
+                PublicationSource(
+                    name = it.name,
+                    uuid = it.uuid
+                )
+            }
         )
     }
 }

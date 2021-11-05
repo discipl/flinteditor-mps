@@ -9,7 +9,7 @@ interface ParserClient {
 interface Parser {
     val name: String
     val uuid: UUID
-    val source: Source
+    val source: Source?
 }
 
 interface Source {

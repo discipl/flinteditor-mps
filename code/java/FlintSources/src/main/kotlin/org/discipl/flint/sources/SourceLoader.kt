@@ -33,6 +33,8 @@ import org.koin.core.component.inject
 import org.koin.core.context.loadKoinModules
 import org.koin.core.context.startKoin
 import org.koin.dsl.module
+import java.net.URL
+import java.util.concurrent.Callable
 import java.util.concurrent.TimeUnit
 
 
@@ -72,10 +74,12 @@ internal val nsxClientsModule = module(override = true) {
         HttpClient(get()) {
             defaultRequest {
                 header("Content-Type", "application/json")
+                val base = URL(Strings.baseUrl.call())
                 if (url.host == "localhost") {
-                    url.port = 9999
-                    url.protocol = URLProtocol.HTTP
-                    url.encodedPath = "/calculemus/calculemusComp/v1" + url.encodedPath
+                    url.host = base.host
+                    url.port = if (base.port < 0) 0 else base.port
+                    url.protocol = URLProtocol.createOrDefault(base.protocol)
+                    url.encodedPath = base.path + url.encodedPath
                 }
             }
             install(Logging) {
@@ -93,6 +97,7 @@ internal val nsxClientsModule = module(override = true) {
     single<ParserClient> { NsxParserClientImpl(get()) }
 }
 
+@Suppress("EXPERIMENTAL_API_USAGE")
 internal val hybridClientModule = module(override = true) {
     single<JsonSerializer> {
         GsonSerializer {
@@ -104,10 +109,12 @@ internal val hybridClientModule = module(override = true) {
         HttpClient(get()) {
             defaultRequest {
                 header("Content-Type", "application/json")
+                val base = URL(Strings.baseUrl.call())
                 if (url.host == "localhost") {
-                    url.port = 9999
-                    url.protocol = URLProtocol.HTTP
-                    url.encodedPath = "/calculemus/calculemusComp/v1" + url.encodedPath
+                    url.host = base.host
+                    url.port = if (base.port < 0) 0 else base.port
+                    url.protocol = URLProtocol.createOrDefault(base.protocol)
+                    url.encodedPath = base.path + url.encodedPath
                 }
             }
             install(Logging) {
