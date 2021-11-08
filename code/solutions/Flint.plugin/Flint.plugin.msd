@@ -29,6 +29,7 @@
     <dependency reexport="false">3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)</dependency>
     <dependency reexport="false">b0f8641f-bd77-4421-8425-30d9088a82f7(org.apache.commons)</dependency>
     <dependency reexport="false">92d2ea16-5a42-4fdf-a676-c7604efe3504(de.slisson.mps.richtext)</dependency>
+    <dependency reexport="false">dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d(LawSource)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
@@ -49,8 +50,8 @@
     <module reference="69940819-10c1-4a38-ac44-700b63f993ba(Flint)" version="1" />
     <module reference="fa1d9284-6f2c-4199-ba86-19ab8b12cf3e(Flint.plugin)" version="0" />
     <module reference="acf1b507-e791-4de3-b55f-a3880c36d5bb(Flint.runtime)" version="0" />
-    <module reference="8476db96-31ef-4e8e-b37e-e1fba8098215(FlintSource)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
+    <module reference="dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d(LawSource)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" version="0" />
     <module reference="498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)" version="0" />

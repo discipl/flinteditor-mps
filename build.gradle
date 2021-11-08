@@ -1,7 +1,7 @@
 buildscript {
     repositories {
         maven {
-            url = uri("https://projects.itemis.de/nexus/content/repositories/mbeddr")
+            url = uri("https://discplmirror.jfrog.io/artifactory/itemis")
         }
         mavenCentral()
     }
@@ -61,7 +61,7 @@ repositories {
     mavenCentral()
     jcenter()
     maven {
-        url = uri("https://projects.itemis.de/nexus/content/repositories/OS/")
+        url = uri("https://discplmirror.jfrog.io/artifactory/itemis")
     }
 }
 
@@ -87,12 +87,12 @@ dependencies {
         exclude group: "org.slf4j"
     }
     mpslib('com.googlecode.json-simple:json-simple:1.1.1')
-    mpslib('commons-io:commons-io:2.7')
-    mpslib('commons-codec:commons-codec:1.11')
+    mpslib('commons-io:commons-io:2.11.0')
+    mpslib('commons-codec:commons-codec:1.15')
 
     artifact "com.mbeddr:platform:$mbeddr_version"
     mps("com.jetbrains:mps:$mps_version")
-    antLib("org.apache.ant:ant-junit:1.10.10")
+    antLib('org.apache.ant:ant-junit:1.10.12')
 
     mpsGenLib "org.openjfx:javafx-base:$javafx_version:$current_platform"
     mpsGenLib "org.openjfx:javafx-controls:$javafx_version:$current_platform"
@@ -106,7 +106,7 @@ if (!OperatingSystem.current().isMacOsX()) {
     ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = new File(mpsDir, "jbr/bin/java")
 }
 ext["itemis.mps.gradle.ant.defaultScriptArgs"] = ["-Dmps_home=$mpsDir.path".toString()]
-ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = project.configurations.antLib.fileCollection({ true })
+ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = files("$mpsDir/lib/ant/lib/ant.jar", "$mpsDir/lib/ant/lib/ant-junit.jar", "$mpsDir/lib/ant/lib/ant-launcher.jar")
 
 node {
     // Version of node to use.

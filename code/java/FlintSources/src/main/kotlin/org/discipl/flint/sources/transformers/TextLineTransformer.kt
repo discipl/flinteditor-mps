@@ -1,5 +1,6 @@
 package org.discipl.flint.sources.transformers
 
+import org.discipl.flint.sources.clients.ArticleTextLine
 import org.discipl.flint.sources.clients.TextLine
 import org.discipl.flint.sources.models.*
 
@@ -7,21 +8,42 @@ class TextLineTransformer {
     fun toArticleList(textLines: List<TextLine>): List<Article> {
         val containers = mutableListOf<IHasParts>()
         for (line in textLines) {
-            val convertedLine = line.toPart()
-            val parent = getParentForLine(containers, convertedLine, line.parent, line.grandParent)
-            parent.addPart(convertedLine)
+            if (isPart(line)) {
+                val convertedLine = line.toPart()
+                println("Converted $convertedLine")
+                line.parent?.let {
+                    val parent = getParentForLine(containers, convertedLine, it, line.grandParent)
+                    parent.addPart(convertedLine)
+                }
+            } else {
+                println("Line is not a part $line")
+            }
         }
         return containers.filterIsInstance<Article>()
     }
+
+    fun toSimpleLine(textLine: ArticleTextLine): SimpleLine = SimpleLine(
+        id = textLine.id,
+        text = textLine.text,
+        lineNr = textLine.regelNr
+    )
+
+    fun toArticleLine(textLine: ArticleTextLine): ArticleLine = ArticleLine(
+        id = textLine.id,
+        text = textLine.text,
+        lineNr = textLine.regelNr,
+        artikelName = textLine.artikelName,
+        sourceId = textLine.bwb,
+        sourceVersionId = textLine.bronVersie,
+        jci = textLine.jci
+    )
 
     private fun getParentForLine(
         container: MutableList<IHasParts>,
         part: Part,
         parentId: String,
-        grandParentId: String
+        grandParentId: String?
     ): IHasParts {
-        if (container.any { it.id == parentId }) return container.first { it.id == parentId }
-
         if (part is ArticleTitle) {
             val article = Article(
                 parentId
@@ -29,6 +51,13 @@ class TextLineTransformer {
             container.add(article)
             return article
         }
+
+        if (container.any { it.id == parentId }) {
+            println("Found existing container with id $parentId")
+            return container.first { it.id == parentId }
+        }
+
+        println("Making sublist with id $parentId")
 
         val subList = SubList(parentId)
         val grandParent = container.firstOrNull { it.id == grandParentId } ?: container.last { it is Article }
@@ -47,6 +76,10 @@ class TextLineTransformer {
 
     private fun TextLine.isSymbolLine(): Boolean {
         return this.cleanedStructure.endsWith("al") && this.teken != null
+    }
+
+    private fun isPart(textLine: TextLine): Boolean {
+        return textLine.isArticleTitle() || textLine.isSimpleLine() || textLine.isSymbolLine()
     }
 
     private fun TextLine.toPart(): Part {

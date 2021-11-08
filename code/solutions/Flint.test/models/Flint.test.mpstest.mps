@@ -12,6 +12,8 @@
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="0" />
     <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
+    <use id="dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d" name="LawSource" version="0" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
   </languages>
   <imports>
     <import index="19bf" ref="r:9ccc0aaa-6a7d-428b-801a-7c9a042369d0(Flint.typesystem)" />
@@ -26,12 +28,18 @@
     <import index="hceu" ref="r:69b3ca2b-c749-4a2d-9d65-e52a0ef5bb3a(de.itemis.mps.selection.runtime.intentions)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="kzwd" ref="r:62d0f175-4940-4d4d-8e46-0c1a0171719f(Flint.migration)" />
-    <import index="lnwe" ref="r:d268844f-2c2c-4250-a969-3a23a8a2bb02(Flint.structure)" implicit="true" />
-    <import index="3lmi" ref="r:a950900f-47ea-4287-adc8-88f839ab614a(Flint.behavior)" implicit="true" />
+    <import index="tbr6" ref="r:6a005c26-87c0-43c4-8cf3-49ffba1099df(de.slisson.mps.richtext.behavior)" />
+    <import index="srlv" ref="r:baf0260d-4be1-4f28-be3e-85fc1a4fa21a(LawSource.structure)" />
+    <import index="3lmi" ref="r:a950900f-47ea-4287-adc8-88f839ab614a(Flint.behavior)" />
+    <import index="1z9r" ref="r:5d54dae5-81d4-42dd-a3f1-89bc0a78884b(FlintTests.structure)" />
+    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <import index="xbql" ref="r:511ec350-0d77-4861-a728-37a7073ca93b(LawSource.intentions)" />
+    <import index="lnwe" ref="r:d268844f-2c2c-4250-a969-3a23a8a2bb02(Flint.structure)" />
+    <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
+    <import index="b8lf" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.selection(MPS.Editor/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="jov5" ref="r:9249307a-27f2-447e-8e8c-b4f939b97d5c(Flint.languages)" implicit="true" />
-    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -109,9 +117,19 @@
       </concept>
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
+      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
+      <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
+        <reference id="1188208074048" name="annotation" index="2AI5Lk" />
+      </concept>
+      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
+        <child id="1188208488637" name="annotation" index="2AJF6D" />
+      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
+      </concept>
+      <concept id="1197029447546" name="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation" flags="nn" index="2OwXpG">
+        <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
       </concept>
       <concept id="1201385106094" name="jetbrains.mps.baseLanguage.structure.PropertyReference" flags="nn" index="2S8uIT">
         <reference id="1201385237847" name="property" index="2S8YL0" />
@@ -119,9 +137,11 @@
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
+      <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
@@ -129,6 +149,11 @@
         <child id="1164991057263" name="throwable" index="YScLw" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
+      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
+      <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
+      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
+        <child id="1165602531693" name="superclass" index="1zkMxy" />
+      </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -147,6 +172,7 @@
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
+      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -161,20 +187,31 @@
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
+      <concept id="1068580123140" name="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" flags="ig" index="3clFbW" />
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
+        <child id="1068581517676" name="expression" index="3cqZAk" />
+      </concept>
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
+      <concept id="1160998861373" name="jetbrains.mps.baseLanguage.structure.AssertStatement" flags="nn" index="1gVbGN">
+        <child id="1160998896846" name="condition" index="1gVkn0" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
+      <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
+        <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
+      </concept>
+      <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
@@ -182,9 +219,14 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
+        <child id="1178549979242" name="visibility" index="1B3o_S" />
+      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="8356039341262087992" name="line" index="1aUNEU" />
       </concept>
+      <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
+      <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
     </language>
     <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
       <concept id="2557074442922380897" name="de.slisson.mps.richtext.structure.Text" flags="ng" index="19SGf9">
@@ -195,6 +237,10 @@
       </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="1199542442495" name="jetbrains.mps.baseLanguage.closures.structure.FunctionType" flags="in" index="1ajhzC">
+        <child id="1199542457201" name="resultType" index="1ajl9A" />
+        <child id="1199542501692" name="parameterType" index="1ajw0F" />
+      </concept>
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
@@ -214,6 +260,7 @@
         <property id="6868897032739893352" name="juriconnect" index="cog$t" />
       </concept>
       <concept id="6868897032739893310" name="Flint.structure.FlintSourceReference" flags="ng" index="cog_b">
+        <property id="2215264714367931041" name="textId" index="1hTq4$" />
         <reference id="6868897032739893359" name="baseSource" index="cog$q" />
         <child id="5309275763118294786" name="textParts" index="aVT4J" />
         <child id="7816114204006679678" name="betterText" index="2hN6Sa" />
@@ -308,6 +355,15 @@
         <child id="589729100943546705" name="testFacts" index="Jn7CJ" />
         <child id="828727448689861609" name="testActs" index="11h_zg" />
       </concept>
+      <concept id="2342582369425795820" name="FlintTests.structure.TestSource" flags="ng" index="32diMG">
+        <child id="406477267123903029" name="versions" index="2T_gbu" />
+        <child id="2342582369425795827" name="source" index="32diMN" />
+        <child id="2342582369425795829" name="articles" index="32diMP" />
+      </concept>
+      <concept id="2342582369425795821" name="FlintTests.structure.TestModelAndSource" flags="ng" index="32diMH">
+        <child id="2342582369425795822" name="flintModel" index="32diMI" />
+        <child id="2342582369425795824" name="source" index="32diMK" />
+      </concept>
       <concept id="8159331485614752983" name="FlintTests.structure.TestScopeProvider" flags="ng" index="3_wo0m" />
       <concept id="8159331485611110327" name="FlintTests.structure.TestFlintModel" flags="ng" index="3_ImHQ">
         <child id="8159331485611110378" name="testDuties" index="3_ImGF" />
@@ -339,6 +395,32 @@
       </concept>
       <concept id="1172028177041" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertIsNull" flags="nn" index="3ykFI1">
         <child id="1172028236559" name="expression" index="3ykU8v" />
+      </concept>
+    </language>
+    <language id="dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d" name="LawSource">
+      <concept id="1576888484001185141" name="LawSource.structure.Article" flags="ng" index="2AEkrd">
+        <reference id="1576888484001185932" name="version" index="2AErGO" />
+        <child id="8679002930326655623" name="lines" index="3MKX6D" />
+      </concept>
+      <concept id="1576888483999340990" name="LawSource.structure.Version" flags="ng" index="2ANm86">
+        <property id="1576888484001192140" name="startDate" index="2AEqdO" />
+        <property id="1576888484001192141" name="endDate" index="2AEqdP" />
+        <property id="666013236990585107" name="id" index="2JHwUh" />
+        <property id="3579190608140624107" name="juriConnect" index="W2joe" />
+        <property id="3196890157568933414" name="wettenNl" index="ZyLMf" />
+        <reference id="1576888484001185931" name="source" index="2AErGN" />
+      </concept>
+      <concept id="1576888483996689830" name="LawSource.structure.LawSource" flags="ng" index="2ATdSu">
+        <property id="1576888484001186753" name="bwbId" index="2AErxT" />
+      </concept>
+      <concept id="8679002930326655615" name="LawSource.structure.LineCollection" flags="ng" index="3MKX5h">
+        <child id="8679002930326655621" name="lines" index="3MKX6F" />
+      </concept>
+      <concept id="8679002930326655612" name="LawSource.structure.Line" flags="ng" index="3MKX5i">
+        <child id="8679002930326893284" name="text" index="3MLR7a" />
+      </concept>
+      <concept id="8679002930326655611" name="LawSource.structure.ArticlePart" flags="ng" index="3MKX5l">
+        <property id="2215264714367784513" name="lineId" index="1hTQn4" />
       </concept>
     </language>
     <language id="68015e26-cc4d-49db-8715-b643faea1769" name="jetbrains.mps.lang.test.generator">
@@ -383,9 +465,13 @@
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
+      <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
+        <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
+      </concept>
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
+      <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1966870290088668512" name="jetbrains.mps.lang.smodel.structure.Enum_MemberLiteral" flags="ng" index="2ViDtV">
         <reference id="1966870290088668516" name="memberDeclaration" index="2ViDtZ" />
       </concept>
@@ -440,8 +526,11 @@
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
+      <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
+      <concept id="1201792049884" name="jetbrains.mps.baseLanguage.collections.structure.TranslateOperation" flags="nn" index="3goQfb" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
+      <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
     </language>
   </registry>
   <node concept="1lH9Xt" id="1$A6n3M4kb_">
@@ -3416,6 +3505,953 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="1Drg1HVuOMm">
+    <property role="TrG5h" value="CanSplitTextOnTaggedWord" />
+    <node concept="1qefOq" id="1Drg1HVuOMn" role="25YQCW">
+      <node concept="32diMH" id="1Drg1HVuOMo" role="1qenE9">
+        <node concept="3_ImHQ" id="1Drg1HVuOMp" role="32diMI">
+          <property role="TrG5h" value="FlintModel" />
+          <node concept="mu5$5" id="1Drg1HVuOMq" role="3_ImHT">
+            <property role="3GE5qa" value="acts" />
+            <property role="TrG5h" value="Test Act" />
+            <property role="207Gpp" value="beslist" />
+            <node concept="1FQA6B" id="1Drg1HVuOMr" role="3H36mW" />
+            <node concept="1FQA6B" id="1Drg1HVuOMs" role="3H36l7" />
+            <node concept="1FQA6B" id="1Drg1HVuOMt" role="3H36lm" />
+            <node concept="cog_b" id="1Drg1HVuOMu" role="2pmM46">
+              <property role="1hTq4$" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27/structuurkenmerk/135" />
+              <node concept="2hPCcK" id="1Drg1HVuOMv" role="2hN6Sa">
+                <node concept="19SUe$" id="1Drg1HVuOMw" role="19SJt6">
+                  <property role="19SUeA" value="De minister " />
+                </node>
+                <node concept="2h$EKm" id="1Drg1HVuQwT" role="19SJt6">
+                  <property role="19SUeA" value="beslist" />
+                  <node concept="2UK0tq" id="1Drg1HVuQwU" role="2h$EKj">
+                    <property role="2UK0tr" value="4AIlyP2wQAP/Action" />
+                  </node>
+                </node>
+                <node concept="19SUe$" id="1Drg1HVuQwS" role="19SJt6">
+                  <property role="19SUeA" value=" binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="32diMG" id="1Drg1HVuOMy" role="32diMK">
+          <node concept="2AEkrd" id="1Drg1HVuOMz" role="32diMP">
+            <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
+            <property role="3GE5qa" value="articles" />
+            <ref role="2AErGO" node="1Drg1HVuOMD" resolve="16-05-2020 t/m 11-06-2020" />
+            <node concept="3MKX5h" id="1Drg1HVuOM$" role="3MKX6D">
+              <node concept="3MKX5i" id="1Drg1HVuOM_" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27/structuurkenmerk/135" />
+                <node concept="19SGf9" id="1Drg1HVuOMA" role="3MLR7a">
+                  <node concept="19SUe$" id="1Drg1HVuOMB" role="19SJt6">
+                    <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
+                    <node concept="LIFWc" id="1Drg1HVuR_Q" role="lGtFl">
+                      <property role="LIFWa" value="3" />
+                      <property role="OXtK3" value="true" />
+                      <property role="p6zMq" value="3" />
+                      <property role="p6zMs" value="3" />
+                      <property role="LIFWd" value="property_escapedValue_word2" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2ANm86" id="1Drg1HVuOMD" role="2T_gbu">
+            <property role="3GE5qa" value="versions" />
+            <property role="TrG5h" value="16-05-2020 t/m 11-06-2020" />
+            <property role="2AEqdP" value="2020-06-11" />
+            <property role="2AEqdO" value="2020-05-16" />
+            <property role="W2joe" value="TODO" />
+            <property role="ZyLMf" value="http://wetten.overheid.nl/1.0:c:BWBR0043324&amp;g=2020-05-16" />
+            <property role="2JHwUh" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27" />
+            <ref role="2AErGN" node="1Drg1HVuOME" resolve="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+          </node>
+          <node concept="2ATdSu" id="1Drg1HVuOME" role="32diMN">
+            <property role="2AErxT" value="BWBR0043324" />
+            <property role="TrG5h" value="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="1Drg1HVuOMF" role="25YQFr">
+      <node concept="32diMH" id="1Drg1HVuOMG" role="1qenE9">
+        <node concept="3_ImHQ" id="1Drg1HVuOMH" role="32diMI">
+          <property role="TrG5h" value="FlintModel" />
+          <node concept="mu5$5" id="1Drg1HVuOMI" role="3_ImHT">
+            <property role="3GE5qa" value="acts" />
+            <property role="TrG5h" value="Test Act" />
+            <property role="207Gpp" value="beslist" />
+            <node concept="1FQA6B" id="1Drg1HVuOMJ" role="3H36mW" />
+            <node concept="1FQA6B" id="1Drg1HVuOMK" role="3H36l7" />
+            <node concept="1FQA6B" id="1Drg1HVuOML" role="3H36lm" />
+            <node concept="cog_b" id="1Drg1HVuOMM" role="2pmM46">
+              <property role="1hTq4$" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27/structuurkenmerk/135" />
+              <node concept="2hPCcK" id="1Drg1HVuOMN" role="2hN6Sa">
+                <node concept="19SUe$" id="1Drg1HVuOMO" role="19SJt6">
+                  <property role="19SUeA" value="De minister " />
+                </node>
+                <node concept="2h$EKm" id="1Drg1HVw5Z_" role="19SJt6">
+                  <property role="19SUeA" value="bes" />
+                  <node concept="2UK0tq" id="1Drg1HVwAzM" role="2h$EKj">
+                    <property role="2UK0tr" value="4AIlyP2wQAP/Action" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="cog_b" id="1Drg1HVuOMP" role="2pmM46">
+              <property role="1hTq4$" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
+              <node concept="2hPCcK" id="1Drg1HVuOMQ" role="2hN6Sa">
+                <node concept="2h$EKm" id="1Drg1HVw5ZR" role="19SJt6">
+                  <property role="19SUeA" value="list" />
+                  <node concept="2UK0tq" id="1Drg1HVwA$7" role="2h$EKj">
+                    <property role="2UK0tr" value="4AIlyP2wQAP/Action" />
+                  </node>
+                </node>
+                <node concept="19SUe$" id="1Drg1HVw5ZQ" role="19SJt6">
+                  <property role="19SUeA" value=" binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="32diMG" id="1Drg1HVuOMS" role="32diMK">
+          <node concept="2AEkrd" id="1Drg1HVuOMT" role="32diMP">
+            <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
+            <property role="3GE5qa" value="articles" />
+            <ref role="2AErGO" node="1Drg1HVuON1" resolve="16-05-2020 t/m 11-06-2020" />
+            <node concept="3MKX5h" id="1Drg1HVuOMU" role="3MKX6D">
+              <node concept="3MKX5i" id="1Drg1HVuOMV" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27/structuurkenmerk/135" />
+                <node concept="19SGf9" id="1Drg1HVuOMW" role="3MLR7a">
+                  <node concept="19SUe$" id="1Drg1HVuOMX" role="19SJt6">
+                    <property role="19SUeA" value="De minister bes" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3MKX5i" id="1Drg1HVuOMY" role="3MKX6F">
+                <property role="1hTQn4" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
+                <node concept="19SGf9" id="1Drg1HVuOMZ" role="3MLR7a">
+                  <node concept="19SUe$" id="1Drg1HVuON0" role="19SJt6">
+                    <property role="19SUeA" value="list binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2ANm86" id="1Drg1HVuON1" role="2T_gbu">
+            <property role="3GE5qa" value="versions" />
+            <property role="TrG5h" value="16-05-2020 t/m 11-06-2020" />
+            <property role="2AEqdP" value="2020-06-11" />
+            <property role="2AEqdO" value="2020-05-16" />
+            <property role="W2joe" value="TODO" />
+            <property role="ZyLMf" value="http://wetten.overheid.nl/1.0:c:BWBR0043324&amp;g=2020-05-16" />
+            <property role="2JHwUh" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27" />
+            <ref role="2AErGN" node="1Drg1HVuON2" resolve="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+          </node>
+          <node concept="2ATdSu" id="1Drg1HVuON2" role="32diMN">
+            <property role="2AErxT" value="BWBR0043324" />
+            <property role="TrG5h" value="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="1Drg1HVuON3" role="LjaKd">
+      <node concept="3clFbF" id="1Drg1HVuON4" role="3cqZAp">
+        <node concept="2OqwBi" id="1Drg1HVuON5" role="3clFbG">
+          <node concept="2OqwBi" id="1Drg1HVuON6" role="2Oq$k0">
+            <node concept="2OqwBi" id="1Drg1HVuON7" role="2Oq$k0">
+              <node concept="2OqwBi" id="1Drg1HVuON8" role="2Oq$k0">
+                <node concept="369mXd" id="1Drg1HVuON9" role="2Oq$k0" />
+                <node concept="liA8E" id="1Drg1HVuONa" role="2OqNvi">
+                  <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+                </node>
+              </node>
+              <node concept="liA8E" id="1Drg1HVuONb" role="2OqNvi">
+                <ref role="37wK5l" to="exr9:~EditorContext.getRepository()" resolve="getRepository" />
+              </node>
+            </node>
+            <node concept="liA8E" id="1Drg1HVuONc" role="2OqNvi">
+              <ref role="37wK5l" to="lui2:~SRepository.getModelAccess()" resolve="getModelAccess" />
+            </node>
+          </node>
+          <node concept="liA8E" id="1Drg1HVuONd" role="2OqNvi">
+            <ref role="37wK5l" to="lui2:~ModelAccess.executeCommandInEDT(java.lang.Runnable)" resolve="executeCommandInEDT" />
+            <node concept="1bVj0M" id="1Drg1HVuONe" role="37wK5m">
+              <node concept="3clFbS" id="1Drg1HVuONf" role="1bW5cS">
+                <node concept="3cpWs8" id="1Drg1HVuONg" role="3cqZAp">
+                  <node concept="3cpWsn" id="1Drg1HVuONh" role="3cpWs9">
+                    <property role="TrG5h" value="selectedNode" />
+                    <node concept="3Tqbb2" id="1Drg1HVuONi" role="1tU5fm" />
+                    <node concept="2OqwBi" id="1Drg1HVuONj" role="33vP2m">
+                      <node concept="369mXd" id="1Drg1HVuONk" role="2Oq$k0" />
+                      <node concept="liA8E" id="1Drg1HVuONl" role="2OqNvi">
+                        <ref role="37wK5l" to="exr9:~EditorComponent.getSelectedNode()" resolve="getSelectedNode" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1Drg1HVuONm" role="3cqZAp">
+                  <node concept="2YIFZM" id="1Drg1HVuONn" role="3clFbG">
+                    <ref role="1Pybhc" node="7zM_gLgV_ke" resolve="FlintSourceReferenceGetterTestImpl" />
+                    <ref role="37wK5l" node="7zM_gLgW9pw" resolve="setup" />
+                    <node concept="2OqwBi" id="1Drg1HVuONo" role="37wK5m">
+                      <node concept="37vLTw" id="1Drg1HVuONp" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1Drg1HVuONh" resolve="selectedNode" />
+                      </node>
+                      <node concept="2Xjw5R" id="1Drg1HVuONq" role="2OqNvi">
+                        <node concept="1xMEDy" id="1Drg1HVuONr" role="1xVPHs">
+                          <node concept="chp4Y" id="1Drg1HVuONs" role="ri$Ld">
+                            <ref role="cht4Q" to="1z9r:222x$3yHUFH" resolve="TestModelAndSource" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="1Drg1HVuONt" role="37wK5m">
+                      <property role="Xl_RC" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3vwNmj" id="1Drg1HVuONu" role="3cqZAp">
+        <node concept="2bRw2S" id="1Drg1HVuONv" role="3vwVQn">
+          <ref role="2bRw2V" to="xbql:7F0IgXEzTLv" resolve="SplitLine" />
+        </node>
+      </node>
+      <node concept="1MFPAf" id="1Drg1HVuONw" role="3cqZAp">
+        <ref role="1MFYO6" to="xbql:7F0IgXEzTLv" resolve="SplitLine" />
+      </node>
+      <node concept="3clFbH" id="1Drg1HVuONx" role="3cqZAp" />
+      <node concept="3clFbH" id="1Drg1HVuONy" role="3cqZAp" />
+    </node>
+  </node>
+  <node concept="312cEu" id="222x$3yHosS">
+    <property role="TrG5h" value="TestUtils" />
+    <node concept="2YIFZL" id="222x$3yHouq" role="jymVt">
+      <property role="TrG5h" value="getIntentionExecutableMatching" />
+      <node concept="37vLTG" id="222x$3yHour" role="3clF46">
+        <property role="TrG5h" value="selection" />
+        <node concept="3uibUv" id="222x$3yHpzZ" role="1tU5fm">
+          <ref role="3uigEE" to="b8lf:~AbstractSelection" resolve="AbstractSelection" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="222x$3yHq4c" role="3clF46">
+        <property role="TrG5h" value="matcher" />
+        <node concept="1ajhzC" id="222x$3yHq7S" role="1tU5fm">
+          <node concept="10P_77" id="222x$3yHqkf" role="1ajl9A" />
+          <node concept="3uibUv" id="222x$3yHqho" role="1ajw0F">
+            <ref role="3uigEE" to="hceu:630t2b86oF$" resolve="ISelectionIntentionExecutable" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbS" id="222x$3yHout" role="3clF47">
+        <node concept="3cpWs8" id="222x$3yHqI4" role="3cqZAp">
+          <node concept="3cpWsn" id="222x$3yHqI5" role="3cpWs9">
+            <property role="TrG5h" value="instance" />
+            <node concept="3uibUv" id="222x$3yHqI6" role="1tU5fm">
+              <ref role="3uigEE" to="hceu:630t2b86nFa" resolve="SelectionIntentionsManager" />
+            </node>
+            <node concept="2YIFZM" id="222x$3yHqI7" role="33vP2m">
+              <ref role="37wK5l" to="hceu:630t2b8aWrV" resolve="getInstance" />
+              <ref role="1Pybhc" to="hceu:630t2b86nFa" resolve="SelectionIntentionsManager" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="222x$3yHqI8" role="3cqZAp">
+          <node concept="3cpWsn" id="222x$3yHqI9" role="3cpWs9">
+            <property role="TrG5h" value="applicableIntentions" />
+            <node concept="_YKpA" id="222x$3yHqIa" role="1tU5fm">
+              <node concept="3uibUv" id="222x$3yHqIb" role="_ZDj9">
+                <ref role="3uigEE" to="hceu:630t2b86oF$" resolve="ISelectionIntentionExecutable" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="222x$3yHqIc" role="33vP2m">
+              <node concept="37vLTw" id="222x$3yHqId" role="2Oq$k0">
+                <ref role="3cqZAo" node="222x$3yHqI5" resolve="instance" />
+              </node>
+              <node concept="liA8E" id="222x$3yHqIe" role="2OqNvi">
+                <ref role="37wK5l" to="hceu:630t2b8bDVI" resolve="getIntentions" />
+                <node concept="37vLTw" id="222x$3yHqIf" role="37wK5m">
+                  <ref role="3cqZAo" node="222x$3yHour" resolve="selection" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="222x$3yHqIg" role="3cqZAp">
+          <node concept="3cpWsn" id="222x$3yHqIh" role="3cpWs9">
+            <property role="TrG5h" value="executable" />
+            <node concept="3uibUv" id="222x$3yHqIi" role="1tU5fm">
+              <ref role="3uigEE" to="hceu:630t2b86oF$" resolve="ISelectionIntentionExecutable" />
+            </node>
+            <node concept="2OqwBi" id="222x$3yHqIj" role="33vP2m">
+              <node concept="37vLTw" id="222x$3yHqIk" role="2Oq$k0">
+                <ref role="3cqZAo" node="222x$3yHqI9" resolve="applicableIntentions" />
+              </node>
+              <node concept="1z4cxt" id="222x$3yHqIl" role="2OqNvi">
+                <node concept="37vLTw" id="222x$3yHrf3" role="23t8la">
+                  <ref role="3cqZAo" node="222x$3yHq4c" resolve="matcher" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="222x$3yHqXZ" role="3cqZAp">
+          <node concept="37vLTw" id="222x$3yHqXX" role="3clFbG">
+            <ref role="3cqZAo" node="222x$3yHqIh" resolve="executable" />
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="222x$3yHouy" role="3clF45">
+        <ref role="3uigEE" to="hceu:630t2b86oF$" resolve="ISelectionIntentionExecutable" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="222x$3yHrjW" role="jymVt" />
+    <node concept="2YIFZL" id="222x$3yHouz" role="jymVt">
+      <property role="TrG5h" value="isIntentionApplicable" />
+      <node concept="37vLTG" id="222x$3yHou$" role="3clF46">
+        <property role="TrG5h" value="selection" />
+        <node concept="3uibUv" id="222x$3yHpB2" role="1tU5fm">
+          <ref role="3uigEE" to="b8lf:~AbstractSelection" resolve="AbstractSelection" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="222x$3yHouA" role="3clF46">
+        <property role="TrG5h" value="name" />
+        <node concept="17QB3L" id="222x$3yHpCS" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="222x$3yHouC" role="3clF47">
+        <node concept="3cpWs6" id="222x$3yHouD" role="3cqZAp">
+          <node concept="2OqwBi" id="222x$3yHA7r" role="3cqZAk">
+            <node concept="1rXfSq" id="222x$3yHouF" role="2Oq$k0">
+              <ref role="37wK5l" node="222x$3yHouX" resolve="getIntentionExecutableNamed" />
+              <node concept="37vLTw" id="222x$3yHouG" role="37wK5m">
+                <ref role="3cqZAo" node="222x$3yHou$" resolve="selection" />
+              </node>
+              <node concept="37vLTw" id="222x$3yHouH" role="37wK5m">
+                <ref role="3cqZAo" node="222x$3yHouA" resolve="name" />
+              </node>
+            </node>
+            <node concept="liA8E" id="222x$3yHAiV" role="2OqNvi">
+              <ref role="37wK5l" to="hceu:630t2b87vP3" resolve="isApplicable" />
+              <node concept="37vLTw" id="222x$3yHAmu" role="37wK5m">
+                <ref role="3cqZAo" node="222x$3yHou$" resolve="selection" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="222x$3yHouJ" role="3clF45" />
+    </node>
+    <node concept="2YIFZL" id="222x$3yHouK" role="jymVt">
+      <property role="TrG5h" value="assertIntentionIsApplicable" />
+      <node concept="37vLTG" id="222x$3yHouL" role="3clF46">
+        <property role="TrG5h" value="selection" />
+        <node concept="3uibUv" id="222x$3yHpLE" role="1tU5fm">
+          <ref role="3uigEE" to="b8lf:~AbstractSelection" resolve="AbstractSelection" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="222x$3yHouN" role="3clF46">
+        <property role="TrG5h" value="name" />
+        <node concept="17QB3L" id="222x$3yHpKl" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="222x$3yHouP" role="3clF47">
+        <node concept="1gVbGN" id="222x$3yHouR" role="3cqZAp">
+          <node concept="3clFbT" id="222x$3yHouQ" role="1gVkn0">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="222x$3yHouS" role="3cqZAp">
+          <node concept="1rXfSq" id="222x$3yHouT" role="3clFbG">
+            <ref role="37wK5l" node="222x$3yHouz" resolve="isIntentionApplicable" />
+            <node concept="37vLTw" id="222x$3yHouU" role="37wK5m">
+              <ref role="3cqZAo" node="222x$3yHouL" resolve="selection" />
+            </node>
+            <node concept="37vLTw" id="222x$3yHouV" role="37wK5m">
+              <ref role="3cqZAo" node="222x$3yHouN" resolve="name" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="222x$3yHouW" role="3clF45" />
+    </node>
+    <node concept="2YIFZL" id="222x$3yHouX" role="jymVt">
+      <property role="TrG5h" value="getIntentionExecutableNamed" />
+      <node concept="37vLTG" id="222x$3yHouY" role="3clF46">
+        <property role="TrG5h" value="selection" />
+        <node concept="3uibUv" id="222x$3yHpMZ" role="1tU5fm">
+          <ref role="3uigEE" to="b8lf:~AbstractSelection" resolve="AbstractSelection" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="222x$3yHov0" role="3clF46">
+        <property role="TrG5h" value="name" />
+        <node concept="17QB3L" id="222x$3yHpPa" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="222x$3yHov2" role="3clF47">
+        <node concept="3cpWs6" id="222x$3yHov3" role="3cqZAp">
+          <node concept="1rXfSq" id="222x$3yHrpr" role="3cqZAk">
+            <ref role="37wK5l" node="222x$3yHouq" resolve="getIntentionExecutableMatching" />
+            <node concept="37vLTw" id="222x$3yHwM7" role="37wK5m">
+              <ref role="3cqZAo" node="222x$3yHouY" resolve="selection" />
+            </node>
+            <node concept="1bVj0M" id="222x$3yHwSo" role="37wK5m">
+              <node concept="3clFbS" id="222x$3yHwSq" role="1bW5cS">
+                <node concept="3clFbF" id="222x$3yHxcn" role="3cqZAp">
+                  <node concept="17R0WA" id="222x$3yHy4c" role="3clFbG">
+                    <node concept="37vLTw" id="222x$3yHydZ" role="3uHU7w">
+                      <ref role="3cqZAo" node="222x$3yHov0" resolve="name" />
+                    </node>
+                    <node concept="2OqwBi" id="222x$3yHxlA" role="3uHU7B">
+                      <node concept="37vLTw" id="222x$3yHxcm" role="2Oq$k0">
+                        <ref role="3cqZAo" node="222x$3yHwWs" resolve="executable" />
+                      </node>
+                      <node concept="liA8E" id="222x$3yHxx7" role="2OqNvi">
+                        <ref role="37wK5l" to="hceu:630t2b86oHh" resolve="getDescription" />
+                        <node concept="37vLTw" id="222x$3yHxEy" role="37wK5m">
+                          <ref role="3cqZAo" node="222x$3yHouY" resolve="selection" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="37vLTG" id="222x$3yHwWs" role="1bW2Oz">
+                <property role="TrG5h" value="executable" />
+                <node concept="3uibUv" id="222x$3yHwWr" role="1tU5fm">
+                  <ref role="3uigEE" to="hceu:630t2b86oF$" resolve="ISelectionIntentionExecutable" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="222x$3yHov5" role="3cqZAp" />
+      </node>
+      <node concept="3uibUv" id="222x$3yHov6" role="3clF45">
+        <ref role="3uigEE" to="hceu:630t2b86oF$" resolve="ISelectionIntentionExecutable" />
+      </node>
+    </node>
+    <node concept="2YIFZL" id="222x$3yHov7" role="jymVt">
+      <property role="TrG5h" value="executeExecutableIntentionNamed" />
+      <node concept="37vLTG" id="222x$3yHov8" role="3clF46">
+        <property role="TrG5h" value="selection" />
+        <node concept="3uibUv" id="222x$3yHpXT" role="1tU5fm">
+          <ref role="3uigEE" to="b8lf:~AbstractSelection" resolve="AbstractSelection" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="222x$3yHova" role="3clF46">
+        <property role="TrG5h" value="name" />
+        <node concept="17QB3L" id="222x$3yHpVK" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="222x$3yHovc" role="3clF47">
+        <node concept="3clFbF" id="222x$3yHovd" role="3cqZAp">
+          <node concept="2OqwBi" id="222x$3yHyTX" role="3clFbG">
+            <node concept="1rXfSq" id="222x$3yHyHi" role="2Oq$k0">
+              <ref role="37wK5l" node="222x$3yHouX" resolve="getIntentionExecutableNamed" />
+              <node concept="37vLTw" id="222x$3yHyK3" role="37wK5m">
+                <ref role="3cqZAo" node="222x$3yHov8" resolve="selection" />
+              </node>
+              <node concept="37vLTw" id="222x$3yHyOm" role="37wK5m">
+                <ref role="3cqZAo" node="222x$3yHova" resolve="name" />
+              </node>
+            </node>
+            <node concept="liA8E" id="222x$3yHz6o" role="2OqNvi">
+              <ref role="37wK5l" to="hceu:630t2b86oFP" resolve="execute" />
+              <node concept="37vLTw" id="222x$3yHz8x" role="37wK5m">
+                <ref role="3cqZAo" node="222x$3yHov8" resolve="selection" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="222x$3yHovq" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="222x$3yHp63" role="jymVt" />
+    <node concept="3Tm1VV" id="222x$3yHosT" role="1B3o_S" />
+  </node>
+  <node concept="LiM7Y" id="m$6eIWcxa5">
+    <property role="TrG5h" value="CanSplitTextOnWord" />
+    <node concept="1qefOq" id="m$6eIWcxaE" role="25YQCW">
+      <node concept="32diMH" id="m$6eIWcxaA" role="1qenE9">
+        <node concept="3_ImHQ" id="m$6eIWcxaB" role="32diMI">
+          <property role="TrG5h" value="FlintModel" />
+          <node concept="mu5$5" id="m$6eIWiHeT" role="3_ImHT">
+            <property role="3GE5qa" value="acts" />
+            <property role="TrG5h" value="Test Act" />
+            <node concept="1FQA6B" id="m$6eIWiHeU" role="3H36mW" />
+            <node concept="1FQA6B" id="m$6eIWiHeV" role="3H36l7" />
+            <node concept="1FQA6B" id="m$6eIWiHeW" role="3H36lm" />
+            <node concept="cog_b" id="m$6eIWiHeY" role="2pmM46">
+              <property role="1hTq4$" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27/structuurkenmerk/135" />
+              <node concept="2hPCcK" id="m$6eIWiHeZ" role="2hN6Sa">
+                <node concept="19SUe$" id="m$6eIWiHf0" role="19SJt6">
+                  <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag. " />
+                </node>
+                <node concept="19SUe$" id="m$6eIWwVlj" role="19SJt6">
+                  <property role="19SUeA" value="Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="32diMG" id="m$6eIWcxaC" role="32diMK">
+          <node concept="2AEkrd" id="m$6eIWcNpl" role="32diMP">
+            <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
+            <property role="3GE5qa" value="articles" />
+            <ref role="2AErGO" node="1dxOPHPjbCL" resolve="16-05-2020 t/m 11-06-2020" />
+            <node concept="3MKX5h" id="m$6eIWcNpm" role="3MKX6D">
+              <node concept="3MKX5i" id="m$6eIWcNpn" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27/structuurkenmerk/135" />
+                <node concept="19SGf9" id="m$6eIWcNpo" role="3MLR7a">
+                  <node concept="19SUe$" id="m$6eIWcNpp" role="19SJt6">
+                    <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
+                    <node concept="LIFWc" id="m$6eIWnOld" role="lGtFl">
+                      <property role="LIFWa" value="0" />
+                      <property role="OXtK3" value="true" />
+                      <property role="p6zMq" value="0" />
+                      <property role="p6zMs" value="0" />
+                      <property role="LIFWd" value="property_escapedValue_word11" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2ANm86" id="1dxOPHPjbCL" role="2T_gbu">
+            <property role="3GE5qa" value="versions" />
+            <property role="TrG5h" value="16-05-2020 t/m 11-06-2020" />
+            <property role="2AEqdP" value="2020-06-11" />
+            <property role="2AEqdO" value="2020-05-16" />
+            <property role="W2joe" value="TODO" />
+            <property role="ZyLMf" value="http://wetten.overheid.nl/1.0:c:BWBR0043324&amp;g=2020-05-16" />
+            <property role="2JHwUh" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27" />
+            <ref role="2AErGN" node="1dxOPHPjbBJ" resolve="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+          </node>
+          <node concept="2ATdSu" id="1dxOPHPjbBJ" role="32diMN">
+            <property role="2AErxT" value="BWBR0043324" />
+            <property role="TrG5h" value="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="m$6eIWiHfK" role="25YQFr">
+      <node concept="32diMH" id="m$6eIWiHfW" role="1qenE9">
+        <node concept="3_ImHQ" id="m$6eIWiHfX" role="32diMI">
+          <property role="TrG5h" value="FlintModel" />
+          <node concept="mu5$5" id="m$6eIWiHfY" role="3_ImHT">
+            <property role="3GE5qa" value="acts" />
+            <property role="TrG5h" value="Test Act" />
+            <node concept="1FQA6B" id="m$6eIWiHfZ" role="3H36mW" />
+            <node concept="1FQA6B" id="m$6eIWiHg0" role="3H36l7" />
+            <node concept="1FQA6B" id="m$6eIWiHg1" role="3H36lm" />
+            <node concept="cog_b" id="m$6eIWiHg2" role="2pmM46">
+              <property role="1hTq4$" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27/structuurkenmerk/135" />
+              <node concept="2hPCcK" id="m$6eIWiHg3" role="2hN6Sa">
+                <node concept="19SUe$" id="m$6eIWiHg4" role="19SJt6">
+                  <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag. " />
+                </node>
+              </node>
+            </node>
+            <node concept="cog_b" id="m$6eIWiHT7" role="2pmM46">
+              <property role="1hTq4$" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
+              <node concept="2hPCcK" id="m$6eIWiHT8" role="2hN6Sa">
+                <node concept="19SUe$" id="m$6eIWiHT9" role="19SJt6">
+                  <property role="19SUeA" value="Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="32diMG" id="m$6eIWiHg5" role="32diMK">
+          <node concept="2AEkrd" id="m$6eIWiHSe" role="32diMP">
+            <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
+            <property role="3GE5qa" value="articles" />
+            <ref role="2AErGO" node="m$6eIWiHgb" resolve="16-05-2020 t/m 11-06-2020" />
+            <node concept="3MKX5h" id="m$6eIWiHSf" role="3MKX6D">
+              <node concept="3MKX5i" id="m$6eIWiHSg" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27/structuurkenmerk/135" />
+                <node concept="19SGf9" id="m$6eIWiHSh" role="3MLR7a">
+                  <node concept="19SUe$" id="m$6eIWiHSi" role="19SJt6">
+                    <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag. " />
+                  </node>
+                </node>
+              </node>
+              <node concept="3MKX5i" id="m$6eIWiHQN" role="3MKX6F">
+                <property role="1hTQn4" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
+                <node concept="19SGf9" id="m$6eIWiHQL" role="3MLR7a">
+                  <node concept="19SUe$" id="m$6eIWiHQM" role="19SJt6">
+                    <property role="19SUeA" value="Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2ANm86" id="m$6eIWiHgb" role="2T_gbu">
+            <property role="3GE5qa" value="versions" />
+            <property role="TrG5h" value="16-05-2020 t/m 11-06-2020" />
+            <property role="2AEqdP" value="2020-06-11" />
+            <property role="2AEqdO" value="2020-05-16" />
+            <property role="W2joe" value="TODO" />
+            <property role="ZyLMf" value="http://wetten.overheid.nl/1.0:c:BWBR0043324&amp;g=2020-05-16" />
+            <property role="2JHwUh" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27" />
+            <ref role="2AErGN" node="m$6eIWiHgc" resolve="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+          </node>
+          <node concept="2ATdSu" id="m$6eIWiHgc" role="32diMN">
+            <property role="2AErxT" value="BWBR0043324" />
+            <property role="TrG5h" value="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="m$6eIWnOmb" role="LjaKd">
+      <node concept="3clFbF" id="7zM_gLh98Kr" role="3cqZAp">
+        <node concept="2OqwBi" id="7zM_gLh98Ks" role="3clFbG">
+          <node concept="2OqwBi" id="7zM_gLh98Kt" role="2Oq$k0">
+            <node concept="2OqwBi" id="7zM_gLh98Ku" role="2Oq$k0">
+              <node concept="2OqwBi" id="7zM_gLh98Kv" role="2Oq$k0">
+                <node concept="369mXd" id="7zM_gLh98Kw" role="2Oq$k0" />
+                <node concept="liA8E" id="7zM_gLh98Kx" role="2OqNvi">
+                  <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+                </node>
+              </node>
+              <node concept="liA8E" id="7zM_gLh98Ky" role="2OqNvi">
+                <ref role="37wK5l" to="exr9:~EditorContext.getRepository()" resolve="getRepository" />
+              </node>
+            </node>
+            <node concept="liA8E" id="7zM_gLh98Kz" role="2OqNvi">
+              <ref role="37wK5l" to="lui2:~SRepository.getModelAccess()" resolve="getModelAccess" />
+            </node>
+          </node>
+          <node concept="liA8E" id="7zM_gLh98K$" role="2OqNvi">
+            <ref role="37wK5l" to="lui2:~ModelAccess.executeCommandInEDT(java.lang.Runnable)" resolve="executeCommandInEDT" />
+            <node concept="1bVj0M" id="7zM_gLh98K_" role="37wK5m">
+              <node concept="3clFbS" id="7zM_gLh98KA" role="1bW5cS">
+                <node concept="3cpWs8" id="7zM_gLgWd_t" role="3cqZAp">
+                  <node concept="3cpWsn" id="7zM_gLgWd_u" role="3cpWs9">
+                    <property role="TrG5h" value="selectedNode" />
+                    <node concept="3Tqbb2" id="7zM_gLgWdGJ" role="1tU5fm" />
+                    <node concept="2OqwBi" id="7zM_gLgWd_v" role="33vP2m">
+                      <node concept="369mXd" id="7zM_gLgWd_w" role="2Oq$k0" />
+                      <node concept="liA8E" id="7zM_gLgWd_x" role="2OqNvi">
+                        <ref role="37wK5l" to="exr9:~EditorComponent.getSelectedNode()" resolve="getSelectedNode" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="7zM_gLgWbq2" role="3cqZAp">
+                  <node concept="2YIFZM" id="7zM_gLgWbv$" role="3clFbG">
+                    <ref role="37wK5l" node="7zM_gLgW9pw" resolve="setup" />
+                    <ref role="1Pybhc" node="7zM_gLgV_ke" resolve="FlintSourceReferenceGetterTestImpl" />
+                    <node concept="2OqwBi" id="7zM_gLgWdOg" role="37wK5m">
+                      <node concept="37vLTw" id="7zM_gLgWd_y" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7zM_gLgWd_u" resolve="selectedNode" />
+                      </node>
+                      <node concept="2Xjw5R" id="7zM_gLgWdY5" role="2OqNvi">
+                        <node concept="1xMEDy" id="7zM_gLgWdY7" role="1xVPHs">
+                          <node concept="chp4Y" id="7zM_gLgWe0c" role="ri$Ld">
+                            <ref role="cht4Q" to="1z9r:222x$3yHUFH" resolve="TestModelAndSource" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="7zM_gLhcM1T" role="37wK5m">
+                      <property role="Xl_RC" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3vwNmj" id="m$6eIWnP_W" role="3cqZAp">
+        <node concept="2bRw2S" id="m$6eIWnP_X" role="3vwVQn">
+          <ref role="2bRw2V" to="xbql:7F0IgXEzTLv" resolve="SplitLine" />
+        </node>
+      </node>
+      <node concept="1MFPAf" id="m$6eIWnZ0N" role="3cqZAp">
+        <ref role="1MFYO6" to="xbql:7F0IgXEzTLv" resolve="SplitLine" />
+      </node>
+      <node concept="3clFbH" id="7zM_gLhe89m" role="3cqZAp" />
+      <node concept="3clFbH" id="7zM_gLhe8gT" role="3cqZAp" />
+    </node>
+  </node>
+  <node concept="312cEu" id="7zM_gLgV_ke">
+    <property role="TrG5h" value="FlintSourceReferenceGetterTestImpl" />
+    <node concept="312cEg" id="7zM_gLgVWHA" role="jymVt">
+      <property role="TrG5h" value="references" />
+      <node concept="3Tm6S6" id="7zM_gLgVWBJ" role="1B3o_S" />
+      <node concept="2I9FWS" id="7zM_gLgVWFn" role="1tU5fm">
+        <ref role="2I9WkF" to="lnwe:5Xjenljcz0Y" resolve="FlintSourceReference" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7zM_gLgVWKy" role="jymVt" />
+    <node concept="2tJIrI" id="7zM_gLhcB6c" role="jymVt" />
+    <node concept="3uibUv" id="7zM_gLgV_FW" role="1zkMxy">
+      <ref role="3uigEE" to="472r:7zM_gLgUf1x" resolve="FlintSourceReferenceGetter" />
+    </node>
+    <node concept="3clFbW" id="7zM_gLhcBWC" role="jymVt">
+      <node concept="3cqZAl" id="7zM_gLhcBWD" role="3clF45" />
+      <node concept="3Tm1VV" id="7zM_gLhcBWE" role="1B3o_S" />
+      <node concept="3clFbS" id="7zM_gLhcBWG" role="3clF47">
+        <node concept="3clFbF" id="7zM_gLhcBWK" role="3cqZAp">
+          <node concept="37vLTI" id="7zM_gLhcBWM" role="3clFbG">
+            <node concept="2OqwBi" id="7zM_gLhcBWQ" role="37vLTJ">
+              <node concept="Xjq3P" id="7zM_gLhcBWR" role="2Oq$k0" />
+              <node concept="2OwXpG" id="7zM_gLhcBWS" role="2OqNvi">
+                <ref role="2Oxat5" node="7zM_gLgVWHA" resolve="references" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="7zM_gLhcBWT" role="37vLTx">
+              <ref role="3cqZAo" node="7zM_gLhcBWJ" resolve="references" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="7zM_gLhcBWJ" role="3clF46">
+        <property role="TrG5h" value="references" />
+        <node concept="2I9FWS" id="7zM_gLhcBWI" role="1tU5fm">
+          <ref role="2I9WkF" to="lnwe:5Xjenljcz0Y" resolve="FlintSourceReference" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7zM_gLhcCfD" role="jymVt" />
+    <node concept="3clFbW" id="7zM_gLhcDoO" role="jymVt">
+      <node concept="37vLTG" id="7zM_gLhcDIY" role="3clF46">
+        <property role="TrG5h" value="modelAndSource" />
+        <node concept="3Tqbb2" id="7zM_gLhcDIZ" role="1tU5fm">
+          <ref role="ehGHo" to="1z9r:222x$3yHUFH" resolve="TestModelAndSource" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="7zM_gLhcDoP" role="3clF45" />
+      <node concept="3Tm1VV" id="7zM_gLhcDoQ" role="1B3o_S" />
+      <node concept="3clFbS" id="7zM_gLhcDoS" role="3clF47">
+        <node concept="3clFbF" id="7zM_gLgVWQz" role="3cqZAp">
+          <node concept="37vLTI" id="7zM_gLgVWQ$" role="3clFbG">
+            <node concept="2OqwBi" id="7zM_gLgVWQs" role="37vLTJ">
+              <node concept="Xjq3P" id="7zM_gLgVWQt" role="2Oq$k0" />
+              <node concept="2OwXpG" id="7zM_gLgVWQu" role="2OqNvi">
+                <ref role="2Oxat5" node="7zM_gLgVWHA" resolve="references" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7zM_gLgW3eD" role="37vLTx">
+              <node concept="2OqwBi" id="7zM_gLgW08z" role="2Oq$k0">
+                <node concept="2OqwBi" id="7zM_gLgVZ7A" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7zM_gLgVYb1" role="2Oq$k0">
+                    <node concept="37vLTw" id="7zM_gLgVXKb" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7zM_gLhcDIY" resolve="modelAndSource" />
+                    </node>
+                    <node concept="3TrEf2" id="7zM_gLgVYn0" role="2OqNvi">
+                      <ref role="3Tt5mk" to="1z9r:222x$3yHUFI" resolve="flintModel" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="7zM_gLgVZ8V" role="2OqNvi">
+                    <ref role="37wK5l" to="3lmi:sn6jp7P0G9" resolve="getIHasSources" />
+                  </node>
+                </node>
+                <node concept="3goQfb" id="7zM_gLgW1Re" role="2OqNvi">
+                  <node concept="1bVj0M" id="7zM_gLgW1Rg" role="23t8la">
+                    <node concept="3clFbS" id="7zM_gLgW1Rh" role="1bW5cS">
+                      <node concept="3clFbF" id="7zM_gLgW1Yt" role="3cqZAp">
+                        <node concept="2OqwBi" id="7zM_gLgW2bK" role="3clFbG">
+                          <node concept="37vLTw" id="7zM_gLgW1Ys" role="2Oq$k0">
+                            <ref role="3cqZAo" node="7zM_gLgW1Ri" resolve="it" />
+                          </node>
+                          <node concept="2Rf3mk" id="7zM_gLgW2sc" role="2OqNvi">
+                            <node concept="1xMEDy" id="7zM_gLgW2se" role="1xVPHs">
+                              <node concept="chp4Y" id="7zM_gLgW2El" role="ri$Ld">
+                                <ref role="cht4Q" to="lnwe:5Xjenljcz0Y" resolve="FlintSourceReference" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="7zM_gLgW1Ri" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="7zM_gLgW1Rj" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="ANE8D" id="7zM_gLgW4si" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7zM_gLhcD6w" role="jymVt" />
+    <node concept="3clFb_" id="7zM_gLgVA2c" role="jymVt">
+      <property role="TrG5h" value="getFlintSourceReferences" />
+      <node concept="37vLTG" id="7zM_gLgVA2d" role="3clF46">
+        <property role="TrG5h" value="project" />
+        <node concept="3uibUv" id="7zM_gLgVA2e" role="1tU5fm">
+          <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
+        </node>
+      </node>
+      <node concept="2I9FWS" id="7zM_gLgVA2f" role="3clF45">
+        <ref role="2I9WkF" to="lnwe:5Xjenljcz0Y" resolve="FlintSourceReference" />
+      </node>
+      <node concept="3Tm1VV" id="7zM_gLgVA2g" role="1B3o_S" />
+      <node concept="3clFbS" id="7zM_gLgVA2i" role="3clF47">
+        <node concept="2xdQw9" id="7zM_gLh9p8S" role="3cqZAp">
+          <property role="2xdLsb" value="h1akgim/info" />
+          <node concept="3cpWs3" id="7zM_gLh9pzc" role="9lYJi">
+            <node concept="2OqwBi" id="7zM_gLha1ge" role="3uHU7w">
+              <node concept="37vLTw" id="7zM_gLh9p$c" role="2Oq$k0">
+                <ref role="3cqZAo" node="7zM_gLgVWHA" resolve="references" />
+              </node>
+              <node concept="3$u5V9" id="7zM_gLha304" role="2OqNvi">
+                <node concept="1bVj0M" id="7zM_gLha306" role="23t8la">
+                  <node concept="3clFbS" id="7zM_gLha307" role="1bW5cS">
+                    <node concept="3clFbF" id="7zM_gLha38q" role="3cqZAp">
+                      <node concept="2OqwBi" id="7zM_gLha4ud" role="3clFbG">
+                        <node concept="2OqwBi" id="7zM_gLha3jj" role="2Oq$k0">
+                          <node concept="37vLTw" id="7zM_gLha38p" role="2Oq$k0">
+                            <ref role="3cqZAo" node="7zM_gLha308" resolve="it" />
+                          </node>
+                          <node concept="3TrEf2" id="7zM_gLha3Bc" role="2OqNvi">
+                            <ref role="3Tt5mk" to="lnwe:6LSqBjXH0hY" resolve="betterText" />
+                          </node>
+                        </node>
+                        <node concept="2qgKlT" id="7zM_gLha55r" role="2OqNvi">
+                          <ref role="37wK5l" to="tbr6:3Q5enzfMT4l" resolve="asTextString" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="7zM_gLha308" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="7zM_gLha309" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="Xl_RD" id="7zM_gLh9p8U" role="3uHU7B">
+              <property role="Xl_RC" value="derp: " />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7zM_gLgW5Kw" role="3cqZAp">
+          <node concept="37vLTw" id="7zM_gLgW5Li" role="3cqZAk">
+            <ref role="3cqZAo" node="7zM_gLgVWHA" resolve="references" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7zM_gLgVA2j" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7zM_gLgW6Ie" role="jymVt" />
+    <node concept="2YIFZL" id="7zM_gLgW9pw" role="jymVt">
+      <property role="TrG5h" value="setup" />
+      <node concept="3clFbS" id="7zM_gLgW9p$" role="3clF47">
+        <node concept="3clFbF" id="7zM_gLgW9Zz" role="3cqZAp">
+          <node concept="2YIFZM" id="7zM_gLgWa0T" role="3clFbG">
+            <ref role="37wK5l" to="472r:7zM_gLgVnEJ" resolve="setFlintSourceReferenceGetter" />
+            <ref role="1Pybhc" to="472r:6ytzK$s55yR" resolve="SourceSplitter" />
+            <node concept="2ShNRf" id="7zM_gLgWaD$" role="37wK5m">
+              <node concept="1pGfFk" id="7zM_gLhcDF4" role="2ShVmc">
+                <ref role="37wK5l" node="7zM_gLhcDoO" resolve="FlintSourceReferenceGetterTestImpl" />
+                <node concept="37vLTw" id="7zM_gLhcGBd" role="37wK5m">
+                  <ref role="3cqZAo" node="7zM_gLgW9py" resolve="modelAndSource" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7zM_gLhc_k8" role="3cqZAp">
+          <node concept="2YIFZM" id="7zM_gLhc_lZ" role="3clFbG">
+            <ref role="37wK5l" to="472r:7zM_gLhawSS" resolve="setLineIdFetcher" />
+            <ref role="1Pybhc" to="472r:6ytzK$s55yR" resolve="SourceSplitter" />
+            <node concept="2ShNRf" id="7zM_gLhc_oC" role="37wK5m">
+              <node concept="1pGfFk" id="7zM_gLhc_Gt" role="2ShVmc">
+                <ref role="37wK5l" node="7zM_gLhczd8" resolve="FlintSourceReferenceGetterTestImpl.LineIdFetcherTestImpl" />
+                <node concept="37vLTw" id="7zM_gLhc_Jz" role="37wK5m">
+                  <ref role="3cqZAo" node="7zM_gLhctMI" resolve="lineId" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="7zM_gLgW9pA" role="3clF45" />
+      <node concept="37vLTG" id="7zM_gLgW9py" role="3clF46">
+        <property role="TrG5h" value="modelAndSource" />
+        <node concept="3Tqbb2" id="7zM_gLgW9pz" role="1tU5fm">
+          <ref role="ehGHo" to="1z9r:222x$3yHUFH" resolve="TestModelAndSource" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7zM_gLhctMI" role="3clF46">
+        <property role="TrG5h" value="lineId" />
+        <node concept="17QB3L" id="7zM_gLhctPQ" role="1tU5fm" />
+      </node>
+      <node concept="3Tm1VV" id="7zM_gLgW9p_" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="7zM_gLhc$pX" role="jymVt" />
+    <node concept="312cEu" id="7zM_gLhcuHi" role="jymVt">
+      <property role="TrG5h" value="LineIdFetcherTestImpl" />
+      <node concept="312cEg" id="7zM_gLhcyO8" role="jymVt">
+        <property role="TrG5h" value="lineId" />
+        <node concept="3Tm6S6" id="7zM_gLhcyJD" role="1B3o_S" />
+        <node concept="17QB3L" id="7zM_gLhcyMT" role="1tU5fm" />
+      </node>
+      <node concept="2tJIrI" id="7zM_gLhcyG4" role="jymVt" />
+      <node concept="3uibUv" id="7zM_gLhcvDE" role="1zkMxy">
+        <ref role="3uigEE" to="472r:7zM_gLhapnE" resolve="LineIdFetcher" />
+      </node>
+      <node concept="3clFbW" id="7zM_gLhczd8" role="jymVt">
+        <node concept="3cqZAl" id="7zM_gLhczd9" role="3clF45" />
+        <node concept="3Tm1VV" id="7zM_gLhczda" role="1B3o_S" />
+        <node concept="3clFbS" id="7zM_gLhczdc" role="3clF47">
+          <node concept="3clFbF" id="7zM_gLhczdg" role="3cqZAp">
+            <node concept="37vLTI" id="7zM_gLhczdi" role="3clFbG">
+              <node concept="2OqwBi" id="7zM_gLhczdm" role="37vLTJ">
+                <node concept="Xjq3P" id="7zM_gLhczdn" role="2Oq$k0" />
+                <node concept="2OwXpG" id="7zM_gLhczdo" role="2OqNvi">
+                  <ref role="2Oxat5" node="7zM_gLhcyO8" resolve="lineId" />
+                </node>
+              </node>
+              <node concept="37vLTw" id="7zM_gLhczdp" role="37vLTx">
+                <ref role="3cqZAo" node="7zM_gLhczdf" resolve="lineId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="37vLTG" id="7zM_gLhczdf" role="3clF46">
+          <property role="TrG5h" value="lineId" />
+          <node concept="17QB3L" id="7zM_gLhczde" role="1tU5fm" />
+        </node>
+      </node>
+      <node concept="2tJIrI" id="7zM_gLhczhV" role="jymVt" />
+      <node concept="3clFb_" id="7zM_gLhcvIX" role="jymVt">
+        <property role="TrG5h" value="getIdForLine" />
+        <node concept="3Tm1VV" id="7zM_gLhcvIY" role="1B3o_S" />
+        <node concept="17QB3L" id="7zM_gLhcvJ0" role="3clF45" />
+        <node concept="37vLTG" id="7zM_gLhcvJ1" role="3clF46">
+          <property role="TrG5h" value="line" />
+          <node concept="3Tqbb2" id="7zM_gLhcvJ2" role="1tU5fm">
+            <ref role="ehGHo" to="srlv:7xM0MUaGt9W" resolve="Line" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="7zM_gLhcvJ3" role="3clF47">
+          <node concept="3cpWs6" id="7zM_gLhcz2_" role="3cqZAp">
+            <node concept="37vLTw" id="7zM_gLhcz99" role="3cqZAk">
+              <ref role="3cqZAo" node="7zM_gLhcyO8" resolve="lineId" />
+            </node>
+          </node>
+        </node>
+        <node concept="2AHcQZ" id="7zM_gLhcvJ4" role="2AJF6D">
+          <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
         </node>
       </node>
     </node>

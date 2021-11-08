@@ -156,14 +156,24 @@
     <node concept="1TJgyj" id="5Xjenljcz1J" role="1TKVEi">
       <property role="IQ2ns" value="6868897032739893359" />
       <property role="20kJfa" value="baseSource" />
-      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5Xjenljcz0Z" resolve="FlintSource" />
+      <node concept="asaX9" id="4O8McXBFYfe" role="lGtFl" />
     </node>
     <node concept="1TJgyi" id="5HFvLoKK$fR" role="1TKVEl">
       <property role="IQ2nx" value="6587498613243528183" />
       <property role="TrG5h" value="text" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
       <node concept="asaX9" id="5hB3R5$Vqw3" role="lGtFl" />
+    </node>
+    <node concept="1TJgyi" id="1UYcSlfmTax" role="1TKVEl">
+      <property role="IQ2nx" value="2215264714367931041" />
+      <property role="TrG5h" value="textId" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1j1uXED4swh" role="1TKVEl">
+      <property role="IQ2nx" value="1495612730333317137" />
+      <property role="TrG5h" value="textSourceName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="PrWs8" id="5XjenljcHGp" role="PzmwI">
       <ref role="PrY4T" node="5Xjenljcz12" resolve="IExplainable" />
@@ -900,8 +910,7 @@
   </node>
   <node concept="1TIwiD" id="1nyeVyNiRPP">
     <property role="EcuMT" value="1576888484001185141" />
-    <property role="TrG5h" value="Article" />
-    <property role="19KtqR" value="true" />
+    <property role="TrG5h" value="OldArticle" />
     <property role="3GE5qa" value="sources" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="36FPIkdCI3$" role="1TKVEl">
@@ -916,20 +925,20 @@
       <property role="IQ2ns" value="1576888484001185932" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="20kJfa" value="version" />
-      <ref role="20lvS9" node="1nyeVyNbPAY" resolve="Version" />
+      <ref role="20lvS9" node="1nyeVyNbPAY" resolve="OldVersion" />
     </node>
     <node concept="1TJgyj" id="7xM0MUaGta7" role="1TKVEi">
       <property role="IQ2ns" value="8679002930326655623" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="lines" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="7xM0MUaGt9Z" resolve="LineCollection" />
+      <ref role="20lvS9" node="7xM0MUaGt9Z" resolve="OldLineCollection" />
     </node>
+    <node concept="asaX9" id="3XLzdyIkF$Z" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="1nyeVyN1ImA">
     <property role="EcuMT" value="1576888483996689830" />
-    <property role="TrG5h" value="LawSource" />
-    <property role="19KtqR" value="true" />
+    <property role="TrG5h" value="OldLawSource" />
     <property role="3GE5qa" value="sources" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1nyeVyN1ImB" role="PzmwI">
@@ -940,11 +949,11 @@
       <property role="TrG5h" value="bwbId" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="asaX9" id="3XLzdyIkLDa" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="1nyeVyNbPAY">
     <property role="EcuMT" value="1576888483999340990" />
-    <property role="TrG5h" value="Version" />
-    <property role="19KtqR" value="true" />
+    <property role="TrG5h" value="OldVersion" />
     <property role="3GE5qa" value="sources" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1nyeVyNbPAZ" role="PzmwI">
@@ -954,7 +963,7 @@
       <property role="IQ2ns" value="1576888484001185931" />
       <property role="20kJfa" value="source" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1nyeVyN1ImA" resolve="LawSource" />
+      <ref role="20lvS9" node="1nyeVyN1ImA" resolve="OldLawSource" />
     </node>
     <node concept="1TJgyi" id="1nyeVyNiTzc" role="1TKVEl">
       <property role="IQ2nx" value="1576888484001192140" />
@@ -981,19 +990,21 @@
       <property role="TrG5h" value="wettenNl" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="asaX9" id="3XLzdyIkLDi" role="lGtFl" />
   </node>
   <node concept="PlHQZ" id="7xM0MUaGt9V">
-    <property role="TrG5h" value="ArticlePart" />
+    <property role="TrG5h" value="OldArticlePart" />
     <property role="3GE5qa" value="sources" />
     <property role="EcuMT" value="8679002930326655610" />
+    <node concept="asaX9" id="3XLzdyIkF_2" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="7xM0MUaGt9W">
     <property role="EcuMT" value="8679002930326655612" />
     <property role="3GE5qa" value="sources" />
-    <property role="TrG5h" value="Line" />
+    <property role="TrG5h" value="OldLine" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7xM0MUaGt9X" role="PzmwI">
-      <ref role="PrY4T" node="7xM0MUaGt9V" resolve="ArticlePart" />
+      <ref role="PrY4T" node="7xM0MUaGt9V" resolve="OldArticlePart" />
     </node>
     <node concept="1TJgyj" id="7xM0MUaHnb$" role="1TKVEi">
       <property role="IQ2ns" value="8679002930326893284" />
@@ -1002,30 +1013,32 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="87nw:2dWzqxEB$Tx" resolve="Text" />
     </node>
+    <node concept="asaX9" id="3XLzdyIkLDe" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="7xM0MUaGt9Z">
     <property role="EcuMT" value="8679002930326655615" />
     <property role="3GE5qa" value="sources" />
-    <property role="TrG5h" value="LineCollection" />
+    <property role="TrG5h" value="OldLineCollection" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7xM0MUaGta0" role="PzmwI">
-      <ref role="PrY4T" node="7xM0MUaGt9V" resolve="ArticlePart" />
+      <ref role="PrY4T" node="7xM0MUaGt9V" resolve="OldArticlePart" />
     </node>
     <node concept="1TJgyj" id="7xM0MUaGta5" role="1TKVEi">
       <property role="IQ2ns" value="8679002930326655621" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="lines" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="7xM0MUaGt9V" resolve="ArticlePart" />
+      <ref role="20lvS9" node="7xM0MUaGt9V" resolve="OldArticlePart" />
     </node>
+    <node concept="asaX9" id="3XLzdyIkLDc" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="7xM0MUaGta2">
     <property role="EcuMT" value="8679002930326655618" />
     <property role="3GE5qa" value="sources" />
-    <property role="TrG5h" value="PrefixLine" />
+    <property role="TrG5h" value="OldPrefixLine" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7xM0MUaGta3" role="PzmwI">
-      <ref role="PrY4T" node="7xM0MUaGt9V" resolve="ArticlePart" />
+      <ref role="PrY4T" node="7xM0MUaGt9V" resolve="OldArticlePart" />
     </node>
     <node concept="1TJgyj" id="7xM0MUaHp4o" role="1TKVEi">
       <property role="IQ2ns" value="8679002930326901016" />
@@ -1039,6 +1052,7 @@
       <property role="TrG5h" value="prefix" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="asaX9" id="3XLzdyIkLDg" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="2_LEkEjGqSg">
     <property role="EcuMT" value="2986354165693918736" />
