@@ -2,7 +2,6 @@ package org.discipl.flint.sources.transformers
 
 import org.discipl.flint.sources.clients.AsyncTextLine
 import org.discipl.flint.sources.models.*
-import java.util.*
 
 class AsyncTextLineTransformer {
     private fun AsyncTextLine.toArticleTitle(regelNr: Int): ArticleTitle {
@@ -82,8 +81,8 @@ class AsyncTextLineTransformer {
         }
     }
 
-    fun toNode(line: AsyncTextLine, textLines: List<AsyncTextLine>): Node {
-        return Node(
+    fun toNode(line: AsyncTextLine, textLines: List<AsyncTextLine>): AsyncTextLineNode {
+        return AsyncTextLineNode(
             line,
             line.getFirstChild(textLines)?.let { toNode(it, textLines) },
             line.getNext(textLines)?.let { toNode(it, textLines) }
