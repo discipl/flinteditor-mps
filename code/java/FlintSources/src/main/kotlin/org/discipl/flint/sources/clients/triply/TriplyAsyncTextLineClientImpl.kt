@@ -5,11 +5,16 @@ import org.discipl.flint.sources.clients.AsyncTextLineClient
 import org.discipl.flint.sources.clients.TextLine
 import org.discipl.flint.sources.clients.TextLineClient
 import org.discipl.flint.sources.clients.nsx.NsxTextLine
+import java.nio.file.Path
 import java.util.*
 
 class TriplyAsyncTextLineClientImpl(private val textLineClient: TextLineClient) : AsyncTextLineClient {
     override fun requestParsing(publicationId: UUID, parserId: UUID, versionId: String): UUID {
         return UUID.randomUUID()
+    }
+
+    override fun requestParsing(csv: Path): UUID {
+        TODO("Not yet implemented")
     }
 
     override fun getParseRequestResults(
@@ -38,6 +43,7 @@ class TriplyAsyncTextLineClientImpl(private val textLineClient: TextLineClient) 
         override val text: String = textLine.text
         override val id: String = textLine.id
         override val parent: String? = textLine.parent
+        override val next: String? = null
         override val textNodeType: String? = null
     }
 }

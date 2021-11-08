@@ -1,8 +1,11 @@
+@file:Suppress("UNUSED_PARAMETER")
+
 package org.discipl.flint.sources.di
 
 import io.ktor.client.engine.mock.*
 import io.ktor.client.request.*
 import io.ktor.http.*
+import java.nio.file.Path
 import java.util.*
 
 private fun isStatusCase(request: HttpRequestData): Boolean =
@@ -20,7 +23,8 @@ private fun isResultCaseCase(request: HttpRequestData): Boolean =
 private fun isQueryCase(request: HttpRequestData): Boolean =
     request.url.encodedPath == "/calculemus/calculemusComp/v1/publicatieparsings"
 
-private fun isPublicatieParsingsCase(request: HttpRequestData): Boolean =     request.url.encodedPath == "/calculemus/calculemusComp/v1/publicatieparsers"
+private fun isPublicatieParsingsCase(request: HttpRequestData): Boolean =
+    request.url.encodedPath == "/calculemus/calculemusComp/v1/publicatieparsers"
 
 val nsxResponseHandler: MockRequestHandler = { request ->
     val result: HttpResponseData? = when {
@@ -34,14 +38,28 @@ val nsxResponseHandler: MockRequestHandler = { request ->
 }
 
 var mockRequestResult = MockRequestResult("", "")
+
 val defaultResult by lazy {
-    TestSourceLoader::class.java.getResource("/parseRequestResult.json")?.readText()
-        ?: throw Exception("Resource parseRequestResult.json not found")
+    getResourceAsString("parseRequestResult.json")
 }
 
 val cov19Result by lazy {
-    TestSourceLoader::class.java.getResource("/cov19parseResult2.json")?.readText()
-        ?: throw Exception("Resource cov19parseResult.json not found")
+    getResourceAsString("cov19parseResult2.json")
+}
+
+val csvResult by lazy {
+    getResourceAsString("csvResponse.json")
+}
+
+private fun getResourceAsString(fileName: String): String {
+    return TestSourceLoader::class.java.getResource("/$fileName")?.readText()
+        ?: throw Exception("Resource $fileName not found")
+}
+
+fun getTestFilePath(fileName: String): Path {
+    return Path.of(
+        TestSourceLoader::class.java.getResource("/$fileName")?.file ?: throw Exception("Resource $fileName not found")
+    )
 }
 
 val statuses = arrayListOf("ReadyForDownload", "ReadyForParsing", "Ready")
