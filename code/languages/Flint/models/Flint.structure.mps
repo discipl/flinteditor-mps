@@ -181,6 +181,9 @@
     <node concept="PrWs8" id="1DVZuk_n_MO" role="PzmwI">
       <ref role="PrY4T" node="1DVZuk_n$Nm" resolve="IReference" />
     </node>
+    <node concept="PrWs8" id="58KmcqBvj6c" role="PzmwI">
+      <ref role="PrY4T" node="wJ8RSAMhPl" resolve="IHasLanguage" />
+    </node>
     <node concept="1TJgyj" id="4AIlyP3gss2" role="1TKVEi">
       <property role="IQ2ns" value="5309275763118294786" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -225,6 +228,9 @@
     </node>
     <node concept="PrWs8" id="5REjpykwy8u" role="PzmwI">
       <ref role="PrY4T" node="5REjpykwy73" resolve="IShouldBeInVirtualPackage" />
+    </node>
+    <node concept="PrWs8" id="58KmcqBBbKD" role="PzmwI">
+      <ref role="PrY4T" node="wJ8RSAMhPl" resolve="IHasLanguage" />
     </node>
   </node>
   <node concept="PlHQZ" id="5Xjenljcz12">
@@ -1160,6 +1166,31 @@
     <node concept="1TJgyi" id="1kyaHg5wV$R" role="1TKVEl">
       <property role="IQ2nx" value="1522826714118601015" />
       <property role="TrG5h" value="eLanguage" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="18WT3T5NnIH" role="1TKVEl">
+      <property role="IQ2nx" value="1314176147395541933" />
+      <property role="TrG5h" value="eSources" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="58KmcqBh1Rl" role="1TKVEl">
+      <property role="IQ2nx" value="5922331120225230293" />
+      <property role="TrG5h" value="eText" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="58KmcqBnjn_" role="1TKVEl">
+      <property role="IQ2nx" value="5922331120226874853" />
+      <property role="TrG5h" value="eFindLineInSource" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="58KmcqB_LWP" role="1TKVEl">
+      <property role="IQ2nx" value="5922331120230670133" />
+      <property role="TrG5h" value="eValidFrom" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="58KmcqB_LX9" role="1TKVEl">
+      <property role="IQ2nx" value="5922331120230670153" />
+      <property role="TrG5h" value="eValidTo" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="PrWs8" id="3JnAoJLjy1S" role="PzmwI">

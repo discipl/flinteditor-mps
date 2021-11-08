@@ -25,6 +25,11 @@
         <property id="3001846011087143317" name="eObject" index="30Vnav" />
         <property id="3001846011087143330" name="eRecipient" index="30VnaC" />
         <property id="3001846011087143344" name="ePreconditions" index="30VnaU" />
+        <property id="1314176147395541933" name="eSources" index="1nWpYj" />
+        <property id="5922331120226874853" name="eFindLineInSource" index="3PrmOz" />
+        <property id="5922331120225230293" name="eText" index="3Pt4kj" />
+        <property id="5922331120230670153" name="eValidTo" index="3PDOuf" />
+        <property id="5922331120230670133" name="eValidFrom" index="3PDOvN" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -50,6 +55,11 @@
     <property role="30VnaC" value="ontvanger" />
     <property role="30VnaU" value="pre-conditie" />
     <property role="gCpfz" value="taal" />
+    <property role="1nWpYj" value="bronnen" />
+    <property role="3Pt4kj" value="tekst" />
+    <property role="3PrmOz" value="Vind lijn in Bron" />
+    <property role="3PDOvN" value="geldig vanaf" />
+    <property role="3PDOuf" value="geldig tot" />
   </node>
   <node concept="30VgfG" id="4L0TsavKybn">
     <property role="TrG5h" value="English" />
@@ -68,6 +78,11 @@
     <property role="30VnaC" value="recipient" />
     <property role="30VnaU" value="preconditions" />
     <property role="gCpfz" value="language" />
+    <property role="1nWpYj" value="sources" />
+    <property role="3Pt4kj" value="text" />
+    <property role="3PrmOz" value="Find line in Source" />
+    <property role="3PDOvN" value="valid from" />
+    <property role="3PDOuf" value="valid to" />
   </node>
 </model>
 
