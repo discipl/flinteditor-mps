@@ -73,7 +73,6 @@ internal val nsxClientsModule = module(override = true) {
     single {
         HttpClient(get()) {
             defaultRequest {
-                header("Content-Type", "application/json")
                 val base = URL(Strings.baseUrl.call())
                 if (url.host == "localhost") {
                     url.host = base.host
@@ -108,7 +107,6 @@ internal val hybridClientModule = module(override = true) {
     single {
         HttpClient(get()) {
             defaultRequest {
-                header("Content-Type", "application/json")
                 val base = URL(Strings.baseUrl.call())
                 if (url.host == "localhost") {
                     url.host = base.host

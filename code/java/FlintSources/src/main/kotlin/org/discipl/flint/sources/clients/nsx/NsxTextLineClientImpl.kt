@@ -9,6 +9,7 @@ import org.discipl.flint.sources.ParserClient
 import org.discipl.flint.sources.clients.ArticleTextLine
 import org.discipl.flint.sources.clients.TextLine
 import org.discipl.flint.sources.clients.TextLineClient
+import org.discipl.flint.sources.clients.postJson
 import org.discipl.flint.sources.clients.triply.TriplyTextLineClientImpl
 import java.util.*
 
@@ -53,7 +54,7 @@ class NsxTextLineClientImpl(
     }
 
     private suspend fun getTextLinesForVersionRequestId(request: NsxTextLinesForVersionRequest): UUID {
-        val result = httpClient.post<NsxTextLinesForVersionRequestId>("publicatieparsings") { body = request }
+        val result = httpClient.postJson<NsxTextLinesForVersionRequestId>("publicatieparsings") { body = request }
         return result.id
     }
 
@@ -73,7 +74,7 @@ class NsxTextLineClientImpl(
 
     private class BasicSyncTextLine(nsxTextLine: NsxTextLine) {
         val regelNr get() = id.substringAfterLast("/").toInt()
-        val structure: String = nsxTextLine.structure
+        val structure: String = nsxTextLine.fixedStructure
         val teken: String? = nsxTextLine.listIndex
         val text: String = nsxTextLine.text
         val id: String = nsxTextLine.iri

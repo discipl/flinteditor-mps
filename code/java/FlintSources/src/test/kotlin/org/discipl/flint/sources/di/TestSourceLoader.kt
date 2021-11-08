@@ -20,9 +20,14 @@ import org.koin.core.context.startKoin
 import org.koin.core.qualifier.Qualifier
 import org.koin.core.qualifier.named
 import org.koin.dsl.module
+import java.util.concurrent.Callable
 
 @Suppress("EXPERIMENTAL_API_USAGE", "EXPERIMENTAL_OVERRIDE")
 object TestSourceLoader : KoinComponent {
+    init {
+        Strings.baseUrl = Callable { "http://localhost:9999/calculemus/calculemusComp/v1" }
+    }
+
     val IS_FAKE_HTTP_QUALIFIER = named("isFakeHttp")
     private const val fakeHttpClient = true
     private val koinApp = startKoin {

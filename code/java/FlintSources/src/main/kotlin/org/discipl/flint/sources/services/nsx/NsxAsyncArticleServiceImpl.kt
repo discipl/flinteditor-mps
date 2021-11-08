@@ -5,6 +5,7 @@ import org.discipl.flint.sources.models.Article
 import org.discipl.flint.sources.services.AsyncArticleService
 import org.discipl.flint.sources.transformers.AsyncTextLineTransformer
 import org.discipl.flint.sources.transformers.TextLineTransformer
+import java.nio.file.Path
 import java.util.*
 
 class NsxAsyncArticleServiceImpl(
@@ -13,6 +14,10 @@ class NsxAsyncArticleServiceImpl(
 ) : AsyncArticleService {
     override fun requestArticlesForVersionId(publicationId: UUID, parserId: UUID, versionId: String): UUID {
        return textLineClient.requestParsing(publicationId, parserId, versionId)
+    }
+
+    override fun requestArticlesForCsv(csv: Path): UUID {
+        return textLineClient.requestParsing(csv)
     }
 
     override fun getRequestStatusForArticlesForVersionId(
