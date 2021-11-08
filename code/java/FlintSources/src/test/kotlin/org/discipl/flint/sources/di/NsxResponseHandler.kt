@@ -5,8 +5,12 @@ package org.discipl.flint.sources.di
 import io.ktor.client.engine.mock.*
 import io.ktor.client.request.*
 import io.ktor.http.*
+import java.io.File
+import java.net.URL
 import java.nio.file.Path
+import java.nio.file.Paths
 import java.util.*
+
 
 private fun isStatusCase(request: HttpRequestData): Boolean =
     request.url.encodedPath.startsWith("/calculemus/calculemusComp/v1/publicatieparsings") && !request.headers.contains(
@@ -58,7 +62,7 @@ private fun getResourceAsString(fileName: String): String {
 
 fun getTestFilePath(fileName: String): Path {
     return Path.of(
-        TestSourceLoader::class.java.getResource("/$fileName")?.file ?: throw Exception("Resource $fileName not found")
+        TestSourceLoader::class.java.getResource("/$fileName")?.toURI() ?: throw Exception("Resource $fileName not found")
     )
 }
 
