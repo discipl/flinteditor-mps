@@ -114,16 +114,6 @@
       <ref role="20lvS9" node="wJ8RSBsQ_9" resolve="LanguageDuty" />
     </node>
   </node>
-  <node concept="1TIwiD" id="wJ8RSBsQ_9">
-    <property role="EcuMT" value="589729100943550793" />
-    <property role="TrG5h" value="LanguageDuty" />
-    <ref role="1TJDcQ" to="lnwe:27H3E6Hoggr" resolve="Duty" />
-  </node>
-  <node concept="1TIwiD" id="wJ8RSBsQaY">
-    <property role="EcuMT" value="589729100943549118" />
-    <property role="TrG5h" value="LanguageFact" />
-    <ref role="1TJDcQ" to="lnwe:5XjenljaN1U" resolve="Fact" />
-  </node>
   <node concept="1TIwiD" id="222x$3yHUFH">
     <property role="EcuMT" value="2342582369425795821" />
     <property role="TrG5h" value="TestModelAndSource" />
@@ -168,6 +158,16 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" to="srlv:1nyeVyNiRPP" resolve="Article" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="wJ8RSBsQ_9">
+    <property role="EcuMT" value="589729100943550793" />
+    <property role="TrG5h" value="LanguageDuty" />
+    <ref role="1TJDcQ" to="lnwe:27H3E6Hoggr" resolve="Duty" />
+  </node>
+  <node concept="1TIwiD" id="wJ8RSBsQaY">
+    <property role="EcuMT" value="589729100943549118" />
+    <property role="TrG5h" value="LanguageFact" />
+    <ref role="1TJDcQ" to="lnwe:5XjenljaN1U" resolve="Fact" />
   </node>
 </model>
 

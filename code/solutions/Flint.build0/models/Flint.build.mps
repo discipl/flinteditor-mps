@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:ca16c513-51b2-4f72-a80c-624c77fa5d47(Flint.build)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
     <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="7" />
@@ -1339,7 +1340,7 @@
       <node concept="aVJcg" id="7ua6Tt2QOlx" role="aVJcv">
         <node concept="NbPM2" id="7ua6Tt2QOlw" role="aVJcq">
           <node concept="3Mxwew" id="7ua6Tt2QOlv" role="3MwsjC">
-            <property role="3MwjfP" value="5" />
+            <property role="3MwjfP" value="6" />
           </node>
         </node>
       </node>
@@ -3480,11 +3481,6 @@
         <node concept="1SiIV0" id="6rq68PztnQe" role="3bR37C">
           <node concept="3bR9La" id="6rq68PztnQf" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="1SPvxsyor$q" role="3bR37C">
-          <node concept="3bR9La" id="1SPvxsyorLb" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
           </node>
         </node>
         <node concept="1BupzO" id="6rq68PztnQp" role="3bR31x">

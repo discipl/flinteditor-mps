@@ -4,24 +4,24 @@ import org.discipl.flint.sources.clients.AsyncTextLine
 import org.discipl.flint.sources.models.*
 
 class AsyncTextLineTransformer {
-    private fun AsyncTextLine.toArticleTitle(): ArticleTitle {
+    private fun AsyncTextLine.toArticleTitle(regelNr: Int): ArticleTitle {
         return ArticleTitle(
-            this.regelNr,
+            regelNr,
             this.id,
             this.text
         )
     }
 
-    private fun AsyncTextLine.toSymbolLine(): SymbolLine {
+    private fun AsyncTextLine.toSymbolLine(regelNr: Int): SymbolLine {
         return SymbolLine(
-            this.regelNr,
+            regelNr,
             this.text,
             this.id,
             this.teken!!
         )
     }
 
-    private fun AsyncTextLine.toSimpleLine(): SimpleLine {
+    private fun AsyncTextLine.toSimpleLine(regelNr: Int): SimpleLine {
         return SimpleLine(
             regelNr,
             text,
@@ -49,11 +49,25 @@ class AsyncTextLineTransformer {
         return this.getChildren(textLines).isNotEmpty()
     }
 
+    fun AsyncTextLine.getNext(textLines: List<AsyncTextLine>): AsyncTextLine? {
+        return textLines.firstOrNull { it.id == this.next }
+    }
+
+    fun AsyncTextLine.getFirstChild(textLines: List<AsyncTextLine>): AsyncTextLine? {
+        val children = this.getChildren(textLines)
+        val nexts = children.filter { it.next != null }.map { it.next }
+        return children.firstOrNull { !nexts.contains(it.id) }
+    }
+
+    fun AsyncTextLine.getParent(textLines: List<AsyncTextLine>): AsyncTextLine? {
+        return textLines.firstOrNull { this.parent == it.id }
+    }
+
     private fun isArticle(asyncTextLine: AsyncTextLine) =
         asyncTextLine.structure.startsWith("/Artikel") && asyncTextLine.structure.substringAfter("/Artikel")
             .toIntOrNull() != null
 
-    private fun AsyncTextLine.toPart(textLines: List<AsyncTextLine>): Part {
+    private fun AsyncTextLine.toPart(textLines: List<AsyncTextLine>, regelNr: Int): Part {
         fun isSubList(asyncTextLine: AsyncTextLine) = asyncTextLine.hasChildren(textLines) && !isArticle(asyncTextLine)
         fun isArticleTitle(asyncTextLine: AsyncTextLine) = asyncTextLine.textNodeType == "Title"
         fun isSymbolLine(asyncTextLine: AsyncTextLine) = asyncTextLine.teken != null
@@ -61,24 +75,37 @@ class AsyncTextLineTransformer {
         return when {
             isArticle(this) -> this.toArticle()
             isSubList(this) -> this.toSubList()
-            isArticleTitle(this) -> this.toArticleTitle()
-            isSymbolLine(this) -> this.toSymbolLine()
-            else -> this.toSimpleLine()
+            isArticleTitle(this) -> this.toArticleTitle(regelNr)
+            isSymbolLine(this) -> this.toSymbolLine(regelNr)
+            else -> this.toSimpleLine(regelNr)
         }
     }
 
+    fun toNode(line: AsyncTextLine, textLines: List<AsyncTextLine>): AsyncTextLineNode {
+        return AsyncTextLineNode(
+            line,
+            line.getFirstChild(textLines)?.let { toNode(it, textLines) },
+            line.getNext(textLines)?.let { toNode(it, textLines) }
+        )
+    }
+
     fun toArticleList(textLines: List<AsyncTextLine>): List<Article> {
-        val sortedTextLines = textLines.sortedBy { it.regelNr }
-        fun toPartAndAddChildren(asyncTextLine: AsyncTextLine): Part {
-            val part: Part = asyncTextLine.toPart(sortedTextLines)
+        val topOfTree = textLines.first { it.getParent(textLines) == null }
+        val topNode = toNode(topOfTree, textLines)
+        val sortedTextLines = topNode.iterator().asSequence().toList().map { it.value }
+
+        fun toPartAndAddChildren(asyncTextLine: AsyncTextLine, regelNr: Int): Part {
+            val part: Part = asyncTextLine.toPart(sortedTextLines, regelNr)
             if (part is IHasParts) {
-                asyncTextLine.getChildren(sortedTextLines).map { toPartAndAddChildren(it) }.forEach { part.addPart(it) }
+                asyncTextLine.getChildren(sortedTextLines).map { toPartAndAddChildren(it, regelNr) }
+                    .forEach { part.addPart(it) }
             }
 
             return part
         }
 
-        return sortedTextLines.filter { isArticle(it) }.map { toPartAndAddChildren(it) }.filterIsInstance<Article>()
+        return sortedTextLines.filter { isArticle(it) }.map { toPartAndAddChildren(it, sortedTextLines.indexOf(it)) }
+            .filterIsInstance<Article>()
     }
 }
 
