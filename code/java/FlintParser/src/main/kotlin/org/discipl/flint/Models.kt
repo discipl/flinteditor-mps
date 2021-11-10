@@ -18,15 +18,45 @@ data class Act(
     val create: List<ActCreateableAndTerminateable>,
     val terminate: List<ActCreateableAndTerminateable>,
     val preconditions: Resolvable?,
-    override val explanation: String
-) : Explainable, HasSources
+    override val explanation: String?
+) : Explainable, HasSources {
+    override fun equals(other: Any?): Boolean {
+        if (this === other) return true
+        if (javaClass != other?.javaClass) return false
+
+        other as Act
+
+        if (act != other.act) return false
+
+        return true
+    }
+
+    override fun hashCode(): Int {
+        return act.hashCode()
+    }
+}
 
 data class Fact(
     val fact: FactReference,
     override val sources: List<Source>?,
     val function: Resolvable?,
-    override val explanation: String
-) : Explainable, HasSources
+    override val explanation: String?
+) : Explainable, HasSources {
+    override fun equals(other: Any?): Boolean {
+        if (this === other) return true
+        if (javaClass != other?.javaClass) return false
+
+        other as Fact
+
+        if (fact != other.fact) return false
+
+        return true
+    }
+
+    override fun hashCode(): Int {
+        return fact.hashCode()
+    }
+}
 
 data class Duty(
     val duty: DutyReference,
@@ -38,15 +68,29 @@ data class Duty(
     val create: DutyCreateableAndTerminateable?,
     val terminate: DutyCreateableAndTerminateable?,
     override val sources: List<Source>?,
-    override val explanation: String
+    override val explanation: String?
 ) : Explainable, HasSources {
     val allDutyComponents: List<DutyReference> get() = dutyComponents?.components ?: emptyList()
+    override fun equals(other: Any?): Boolean {
+        if (this === other) return true
+        if (javaClass != other?.javaClass) return false
+
+        other as Duty
+
+        if (duty != other.duty) return false
+
+        return true
+    }
+
+    override fun hashCode(): Int {
+        return duty.hashCode()
+    }
 }
 
 data class Source(
     val citation: String,
     val text: String,
-    override val explanation: String,
+    override val explanation: String?,
     val validFrom: String,
     val validTo: String?,
     val juriconnect: String,
@@ -148,7 +192,7 @@ data class ActReference(override val name: String) :
 data class DutyComponents(val components: List<DutyReference>)
 
 interface Explainable {
-    val explanation: String
+    val explanation: String?
 }
 
 data class Manifest(val files: Files)

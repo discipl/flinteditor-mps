@@ -1,5 +1,5 @@
 plugins {
-    id 'org.jetbrains.kotlin.jvm' version '1.3.70'
+    id 'org.jetbrains.kotlin.jvm' version '1.5.30'
 }
 
 group 'org.discipl'
@@ -8,6 +8,10 @@ version '1.0-SNAPSHOT'
 repositories {
     mavenCentral()
     jcenter()
+}
+
+ext {
+    ktor_version = "1.6.2"
 }
 
 dependencies {
@@ -19,10 +23,15 @@ dependencies {
     implementation 'org.apache.commons:commons-exec:1.3'
 
     implementation('org.apache.jena:jena-arq:4.0.0')
-    // implementation 'org.jsoup:jsoup:1.13.1'
     implementation 'org.jsoup:jsoup:1.14.3'
     implementation "org.koin:koin-core:$koin_version"
 
+    implementation "io.ktor:ktor-client-logging:$ktor_version"
+    implementation "io.ktor:ktor-client-core:$ktor_version"
+    implementation "io.ktor:ktor-client-cio:$ktor_version"
+    implementation "io.ktor:ktor-client-gson:$ktor_version"
+
+    testImplementation "io.ktor:ktor-client-mock:$ktor_version"
     testImplementation 'ch.qos.logback:logback-core:1.2.3'
     testImplementation 'ch.qos.logback:logback-classic:1.2.3'
     testImplementation "io.mockk:mockk:1.9.3"
@@ -33,11 +42,11 @@ dependencies {
 }
 
 compileKotlin {
-    kotlinOptions.jvmTarget = "1.8"
+    kotlinOptions.jvmTarget = "11"
 }
 
 compileTestKotlin {
-    kotlinOptions.jvmTarget = "1.8"
+    kotlinOptions.jvmTarget = "11"
 }
 
 test {

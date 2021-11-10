@@ -1,5 +1,6 @@
-package org.discipl.flint
+package org.discpl.flint
 
+import org.discipl.flint.*
 import org.hamcrest.MatcherAssert.assertThat
 import org.hamcrest.Matchers.*
 import org.junit.jupiter.api.Assertions.assertTrue
