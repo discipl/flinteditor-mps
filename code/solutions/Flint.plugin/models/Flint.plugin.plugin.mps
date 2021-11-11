@@ -82,6 +82,8 @@
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="tbr6" ref="r:6a005c26-87c0-43c4-8cf3-49ffba1099df(de.slisson.mps.richtext.behavior)" />
     <import index="wyuk" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.components(MPS.Core/)" />
+    <import index="skzd" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.util.net.ssl(MPS.IDEA/)" />
+    <import index="n3z7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.net.ssl(JDK/)" />
     <import index="71xd" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.tools(MPS.Platform/)" implicit="true" />
     <import index="1m72" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.components(MPS.IDEA/)" implicit="true" />
     <import index="v23q" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi(MPS.IDEA/)" implicit="true" />
@@ -1247,12 +1249,6 @@
       <property role="TrG5h" value="run" />
       <node concept="3cqZAl" id="4W1zd23lyRB" role="3clF45" />
       <node concept="3clFbS" id="4W1zd23lyqI" role="3clF47">
-        <node concept="2xdQw9" id="5UfPeSBDCdX" role="3cqZAp">
-          <property role="2xdLsb" value="h1akgim/info" />
-          <node concept="Xl_RD" id="5UfPeSBDCdZ" role="9lYJi">
-            <property role="Xl_RC" value="Hello" />
-          </node>
-        </node>
         <node concept="3clFbF" id="38b2_vvt3vJ" role="3cqZAp">
           <node concept="2OqwBi" id="38b2_vvt3AV" role="3clFbG">
             <node concept="2WthIp" id="38b2_vvt3vI" role="2Oq$k0" />
@@ -18550,6 +18546,48 @@
     <property role="TrG5h" value="BindStrings" />
     <node concept="2uRRBj" id="6LQ$bpXJzNa" role="2uRRBE">
       <node concept="3clFbS" id="6LQ$bpXJzNb" role="2VODD2">
+        <node concept="3cpWs8" id="1_VS0uKIfhS" role="3cqZAp">
+          <node concept="3cpWsn" id="1_VS0uKIfhT" role="3cpWs9">
+            <property role="TrG5h" value="sslContext" />
+            <node concept="3uibUv" id="1_VS0uKIfcH" role="1tU5fm">
+              <ref role="3uigEE" to="n3z7:~SSLContext" resolve="SSLContext" />
+            </node>
+            <node concept="2OqwBi" id="1_VS0uKIfhU" role="33vP2m">
+              <node concept="2YIFZM" id="1_VS0uKIfhV" role="2Oq$k0">
+                <ref role="37wK5l" to="skzd:~CertificateManager.getInstance()" resolve="getInstance" />
+                <ref role="1Pybhc" to="skzd:~CertificateManager" resolve="CertificateManager" />
+              </node>
+              <node concept="liA8E" id="1_VS0uKIfhW" role="2OqNvi">
+                <ref role="37wK5l" to="skzd:~CertificateManager.getSslContext()" resolve="getSslContext" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2xdQw9" id="1_VS0uKI_Oj" role="3cqZAp">
+          <property role="2xdLsb" value="h1akgim/info" />
+          <node concept="3cpWs3" id="1_VS0uKIAaF" role="9lYJi">
+            <node concept="37vLTw" id="1_VS0uKIAfk" role="3uHU7w">
+              <ref role="3cqZAo" node="1_VS0uKIfhT" resolve="sslContext" />
+            </node>
+            <node concept="Xl_RD" id="1_VS0uKI_Ol" role="3uHU7B">
+              <property role="Xl_RC" value="context: " />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1kuEGxggXWi" role="3cqZAp">
+          <node concept="2OqwBi" id="1kuEGxggYb1" role="3clFbG">
+            <node concept="10M0yZ" id="1kuEGxggY1l" role="2Oq$k0">
+              <ref role="3cqZAo" to="79nv:~SourceLoader.INSTANCE" resolve="INSTANCE" />
+              <ref role="1PxDUh" to="79nv:~SourceLoader" resolve="SourceLoader" />
+            </node>
+            <node concept="liA8E" id="1kuEGxggYpA" role="2OqNvi">
+              <ref role="37wK5l" to="79nv:~SourceLoader.initWith(javax.net.ssl.SSLContext)" resolve="initWith" />
+              <node concept="37vLTw" id="1_VS0uKIfhX" role="37wK5m">
+                <ref role="3cqZAo" node="1_VS0uKIfhT" resolve="sslContext" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="6LQ$bpXJSzK" role="3cqZAp">
           <node concept="3cpWsn" id="6LQ$bpXJSzL" role="3cpWs9">
             <property role="TrG5h" value="defaultUrl" />

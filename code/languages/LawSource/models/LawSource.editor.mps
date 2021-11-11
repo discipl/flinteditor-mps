@@ -97,6 +97,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
+        <child id="1068581517676" name="expression" index="3cqZAk" />
+      </concept>
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
@@ -386,6 +389,21 @@
         <node concept="VPM3Z" id="$Y9SaAPDU5" role="3F10Kt" />
         <node concept="3F0ifn" id="$Y9SaAPDU7" role="3EZMnx">
           <property role="3F0ifm" value="Versions:" />
+        </node>
+        <node concept="3gTLQM" id="1COdwD5_NpU" role="3EZMnx">
+          <node concept="3Fmcul" id="1COdwD5_NpW" role="3FoqZy">
+            <node concept="3clFbS" id="1COdwD5_NpY" role="2VODD2">
+              <node concept="3cpWs6" id="1COdwD5B_UY" role="3cqZAp">
+                <node concept="2OqwBi" id="1COdwD5BAiJ" role="3cqZAk">
+                  <node concept="pncrf" id="1COdwD5BA2o" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="1COdwD5BAvK" role="2OqNvi">
+                    <ref role="37wK5l" to="rm61:1COdwD5_ZhG" resolve="addVersionButton" />
+                    <node concept="1Q80Hx" id="1COdwD5BA$o" role="37wK5m" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
         <node concept="l2Vlx" id="$Y9SaAPDU8" role="2iSdaV" />
       </node>

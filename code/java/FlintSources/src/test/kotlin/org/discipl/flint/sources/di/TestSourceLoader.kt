@@ -21,6 +21,7 @@ import org.koin.core.qualifier.Qualifier
 import org.koin.core.qualifier.named
 import org.koin.dsl.module
 import java.util.concurrent.Callable
+import javax.net.ssl.SSLContext
 
 @Suppress("EXPERIMENTAL_API_USAGE", "EXPERIMENTAL_OVERRIDE")
 object TestSourceLoader : KoinComponent {
