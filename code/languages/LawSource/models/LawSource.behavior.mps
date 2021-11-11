@@ -1789,6 +1789,26 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3clFbF" id="5hJnzWBrIB_" role="3cqZAp">
+                    <node concept="37vLTI" id="5hJnzWBrLd0" role="3clFbG">
+                      <node concept="2OqwBi" id="5hJnzWBrMhU" role="37vLTx">
+                        <node concept="37vLTw" id="5hJnzWBrLGi" role="2Oq$k0">
+                          <ref role="3cqZAo" node="$Y9SaAy1_n" resolve="it" />
+                        </node>
+                        <node concept="liA8E" id="5hJnzWBrN1t" role="2OqNvi">
+                          <ref role="37wK5l" to="faj1:~Article.getNameLineNumber()" resolve="getNameLineNumber" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="5hJnzWBrJm4" role="37vLTJ">
+                        <node concept="37vLTw" id="5hJnzWBrIBz" role="2Oq$k0">
+                          <ref role="3cqZAo" node="$Y9SaAy1$H" resolve="node" />
+                        </node>
+                        <node concept="3TrcHB" id="5hJnzWBrJWb" role="2OqNvi">
+                          <ref role="3TsBF5" to="srlv:5hJnzWBrA27" resolve="nameLineNr" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                   <node concept="3clFbF" id="7xM0MUaMF1X" role="3cqZAp">
                     <node concept="37vLTI" id="7xM0MUaMGDP" role="3clFbG">
                       <node concept="2ShNRf" id="7xM0MUaMHfp" role="37vLTx">
