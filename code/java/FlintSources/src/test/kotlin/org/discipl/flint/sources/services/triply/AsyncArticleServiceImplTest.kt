@@ -50,7 +50,7 @@ internal class AsyncArticleServiceImplTest {
             do {
                 Thread.sleep(1000L)
                 status = getStatus()
-            } while (status != "Ready")
+            } while (status != "Ready" && status != "ParserInvokerFailed")
 
         }
         val status = getStatus()
@@ -113,7 +113,7 @@ internal class AsyncArticleServiceImplTest {
             do {
                 Thread.sleep(1000L)
                 status = getStatus()
-            } while (status != "Ready")
+            } while (status != "Ready" && status != "ParserInvokerFailed")
 
         }
         val status = getStatus()
