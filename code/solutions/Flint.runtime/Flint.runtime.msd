@@ -52,6 +52,9 @@
       <sourceRoot location="ktor-network-tls-jvm.jar" />
       <sourceRoot location="ktor-utils-jvm.jar" />
       <sourceRoot location="libthrift.jar" />
+      <sourceRoot location="httpasyncclient.jar" />
+      <sourceRoot location="httpcore-nio.jar" />
+      <sourceRoot location="ktor-client-apache-jvm.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -95,7 +98,6 @@
     <stubModelEntry path="${module}/libs/kotlin-stdlib-jdk8.jar" />
     <stubModelEntry path="${module}/libs/kotlin-stdlib.jar" />
     <stubModelEntry path="${module}/libs/kotlinx-coroutines-core-jvm.jar" />
-    <stubModelEntry path="${module}/libs/ktor-client-cio-jvm.jar" />
     <stubModelEntry path="${module}/libs/ktor-client-core-jvm.jar" />
     <stubModelEntry path="${module}/libs/ktor-client-gson-jvm.jar" />
     <stubModelEntry path="${module}/libs/ktor-client-json-jvm.jar" />
@@ -104,9 +106,11 @@
     <stubModelEntry path="${module}/libs/ktor-http-jvm.jar" />
     <stubModelEntry path="${module}/libs/ktor-io-jvm.jar" />
     <stubModelEntry path="${module}/libs/ktor-network-jvm.jar" />
-    <stubModelEntry path="${module}/libs/ktor-network-tls-jvm.jar" />
     <stubModelEntry path="${module}/libs/ktor-utils-jvm.jar" />
     <stubModelEntry path="${module}/libs/libthrift.jar" />
+    <stubModelEntry path="${module}/libs/httpasyncclient.jar" />
+    <stubModelEntry path="${module}/libs/httpcore-nio.jar" />
+    <stubModelEntry path="${module}/libs/ktor-client-apache-jvm.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

@@ -2,11 +2,10 @@ package org.discipl.flint.sources
 
 import io.ktor.client.*
 import io.ktor.client.engine.*
-import io.ktor.client.engine.cio.*
+import io.ktor.client.engine.apache.*
 import io.ktor.client.features.*
 import io.ktor.client.features.json.*
 import io.ktor.client.features.logging.*
-import io.ktor.client.request.*
 import io.ktor.http.*
 import org.apache.http.client.HttpClient
 import org.apache.http.client.config.RequestConfig
@@ -27,6 +26,8 @@ import org.discipl.flint.sources.services.triply.SourceServiceImpl
 import org.discipl.flint.sources.services.triply.TextLineServiceImpl
 import org.discipl.flint.sources.services.triply.VersionServiceImpl
 import org.discipl.flint.sources.transformers.*
+import org.koin.core.Koin
+import org.koin.core.KoinApplication
 import org.koin.core.component.KoinApiExtension
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject
@@ -36,6 +37,7 @@ import org.koin.dsl.module
 import java.net.URL
 import java.util.concurrent.Callable
 import java.util.concurrent.TimeUnit
+import javax.net.ssl.SSLContext
 
 
 internal val demoServiceModule = module {
@@ -45,6 +47,7 @@ internal val demoServiceModule = module {
 }
 
 internal val triplyClientsModule = module {
+    single { SSLContext.getDefault() }
     single<HttpClient> {
         val timeoutInS = 20
         val config = RequestConfig.custom()
@@ -53,6 +56,7 @@ internal val triplyClientsModule = module {
             .setSocketTimeout(timeoutInS * 1000).build()
         HttpClients.custom()
             .setConnectionReuseStrategy { _, _ -> false }
+            .setSSLContext(get())
             .setConnectionTimeToLive(timeoutInS.toLong(), TimeUnit.SECONDS)
             .setDefaultRequestConfig(config)
             .build()
@@ -64,12 +68,13 @@ internal val triplyClientsModule = module {
 }
 
 internal val nsxClientsModule = module(override = true) {
+    single { SSLContext.getDefault() }
     single<JsonSerializer> {
         GsonSerializer {
             registerTypeAdapter(NsxEmbeddedResult::class.java, NsxEmbeddedResultDeserializer())
         }
     }
-    single<HttpClientEngine> { CIO.create {} }
+    single<HttpClientEngine> { Apache.create { sslContext = get() } }
     single {
         HttpClient(get()) {
             defaultRequest {
@@ -98,12 +103,17 @@ internal val nsxClientsModule = module(override = true) {
 
 @Suppress("EXPERIMENTAL_API_USAGE")
 internal val hybridClientModule = module(override = true) {
+    single { SSLContext.getDefault() }
     single<JsonSerializer> {
         GsonSerializer {
             registerTypeAdapter(NsxEmbeddedResult::class.java, NsxEmbeddedResultDeserializer())
         }
     }
-    single<HttpClientEngine> { CIO.create {} }
+    single<HttpClientEngine> {
+        Apache.create {
+            sslContext = get()
+        }
+    }
     single {
         HttpClient(get()) {
             defaultRequest {
@@ -131,6 +141,7 @@ internal val hybridClientModule = module(override = true) {
             .setSocketTimeout(timeoutInS * 1000).build()
         HttpClients.custom()
             .setConnectionReuseStrategy { _, _ -> false }
+            .setSSLContext(get())
             .setConnectionTimeToLive(timeoutInS.toLong(), TimeUnit.SECONDS)
             .setDefaultRequestConfig(config)
             .build()
@@ -176,11 +187,22 @@ val serviceModule = hybrideServiceModule
 
 @KoinApiExtension
 object SourceLoader : KoinComponent {
-    private val koinApp = startKoin {
-        modules(serviceModule)
+    private lateinit var koinApp: KoinApplication
+    fun initWith(sslContext: SSLContext) {
+        koinApp = startKoin {
+            modules(serviceModule, module { single(override = true) { sslContext } })
+        }
     }
 
-    override fun getKoin() = koinApp.koin
+    override fun getKoin(): Koin {
+        if (!this::koinApp.isInitialized) {
+            koinApp = startKoin {
+                modules(serviceModule)
+            }
+        }
+        return koinApp.koin
+    }
+
     val articleService: ArticleService by inject()
     val asyncArticleService: AsyncArticleService by inject()
     val parserService: ParserService by inject()
