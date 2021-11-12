@@ -2273,6 +2273,33 @@
         <node concept="3Tqbb2" id="4pyf5wBKQrZ" role="1tU5fm" />
       </node>
     </node>
+    <node concept="13i0hz" id="2vJbluoJwY4" role="13h7CS">
+      <property role="TrG5h" value="getActiveLanguage" />
+      <ref role="13i0hy" node="wJ8RSAMj7a" resolve="getActiveLanguage" />
+      <node concept="3Tm1VV" id="2vJbluoJwY5" role="1B3o_S" />
+      <node concept="3clFbS" id="2vJbluoJwYd" role="3clF47">
+        <node concept="3clFbF" id="2vJbluoJwYl" role="3cqZAp">
+          <node concept="2OqwBi" id="2vJbluoJwYi" role="3clFbG">
+            <node concept="13iAh5" id="2vJbluoJwYj" role="2Oq$k0">
+              <ref role="3eA5LN" to="lnwe:wJ8RSAMhPl" resolve="IHasLanguage" />
+            </node>
+            <node concept="2qgKlT" id="2vJbluoJwYk" role="2OqNvi">
+              <ref role="37wK5l" node="wJ8RSAMj7a" resolve="getActiveLanguage" />
+              <node concept="37vLTw" id="2vJbluoJwYh" role="37wK5m">
+                <ref role="3cqZAo" node="2vJbluoJwYe" resolve="model" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="2vJbluoJwYe" role="3clF46">
+        <property role="TrG5h" value="model" />
+        <node concept="H_c77" id="2vJbluoJwYf" role="1tU5fm" />
+      </node>
+      <node concept="3Tqbb2" id="2vJbluoJwYg" role="3clF45">
+        <ref role="ehGHo" to="lnwe:2ACGKFDB3mq" resolve="Language" />
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="10jIHuk9Lsi">
     <property role="3GE5qa" value="flintmodelrunner" />

@@ -11,6 +11,9 @@
     <language id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint">
       <concept id="3001846011087139046" name="Flint.structure.Language" flags="ng" index="30VgfG">
         <property id="1522826714118601015" name="eLanguage" index="gCpfz" />
+        <property id="2877568541152355806" name="eDuties" index="2ZPCy9" />
+        <property id="2877568541152355783" name="eFacts" index="2ZPCyg" />
+        <property id="2877568541152355761" name="eActs" index="2ZPCzA" />
         <property id="3001846011087139886" name="eFunction" index="30Vgs$" />
         <property id="3001846011087139884" name="eName" index="30VgsA" />
         <property id="3001846011087139889" name="eReferences" index="30VgsV" />
@@ -60,6 +63,9 @@
     <property role="3PrmOz" value="Vind lijn in Bron" />
     <property role="3PDOvN" value="geldig vanaf" />
     <property role="3PDOuf" value="geldig tot" />
+    <property role="2ZPCyg" value="feiten" />
+    <property role="2ZPCy9" value="plichten" />
+    <property role="2ZPCzA" value="daden" />
   </node>
   <node concept="30VgfG" id="4L0TsavKybn">
     <property role="TrG5h" value="English" />
@@ -83,6 +89,9 @@
     <property role="3PrmOz" value="Find line in Source" />
     <property role="3PDOvN" value="valid from" />
     <property role="3PDOuf" value="valid to" />
+    <property role="2ZPCzA" value="acts" />
+    <property role="2ZPCyg" value="facts" />
+    <property role="2ZPCy9" value="duties" />
   </node>
 </model>
 

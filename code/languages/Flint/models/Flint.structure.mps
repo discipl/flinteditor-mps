@@ -75,6 +75,9 @@
     <node concept="PrWs8" id="74VLc6k_$J5" role="PzmwI">
       <ref role="PrY4T" node="74VLc6k_$IQ" resolve="IFlintModel" />
     </node>
+    <node concept="PrWs8" id="2vJbluoJwl6" role="PzmwI">
+      <ref role="PrY4T" node="wJ8RSAMhPl" resolve="IHasLanguage" />
+    </node>
     <node concept="1TJgyj" id="5XjenljaN20" role="1TKVEi">
       <property role="IQ2ns" value="6868897032739434624" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1096,6 +1099,21 @@
     <node concept="1TJgyi" id="2ACGKFDhrgG" role="1TKVEl">
       <property role="IQ2nx" value="3001846011087139884" />
       <property role="TrG5h" value="eName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="2vJbluoeqmL" role="1TKVEl">
+      <property role="IQ2nx" value="2877568541152355761" />
+      <property role="TrG5h" value="eActs" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="2vJbluoeqn7" role="1TKVEl">
+      <property role="IQ2nx" value="2877568541152355783" />
+      <property role="TrG5h" value="eFacts" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="2vJbluoeqnu" role="1TKVEl">
+      <property role="IQ2nx" value="2877568541152355806" />
+      <property role="TrG5h" value="eDuties" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="2ACGKFDhrgI" role="1TKVEl">
