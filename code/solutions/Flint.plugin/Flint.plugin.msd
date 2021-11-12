@@ -50,7 +50,6 @@
     <module reference="69940819-10c1-4a38-ac44-700b63f993ba(Flint)" version="1" />
     <module reference="fa1d9284-6f2c-4199-ba86-19ab8b12cf3e(Flint.plugin)" version="0" />
     <module reference="acf1b507-e791-4de3-b55f-a3880c36d5bb(Flint.runtime)" version="0" />
-    <module reference="8476db96-31ef-4e8e-b37e-e1fba8098215(FlintSource)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d(LawSource)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />

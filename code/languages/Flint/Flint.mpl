@@ -10,7 +10,9 @@
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
-  <accessoryModels />
+  <accessoryModels>
+    <model modelUID="r:9249307a-27f2-447e-8e8c-b4f939b97d5c(Flint.languages)" />
+  </accessoryModels>
   <generators>
     <generator alias="main" namespace="Flint#01" uuid="9e73e973-9d43-4fba-a104-a9a747e45dcf">
       <models>
@@ -98,12 +100,14 @@
     <dependency reexport="false">dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d(LawSource)</dependency>
   </dependencies>
   <languageVersions>
+    <language slang="l:69940819-10c1-4a38-ac44-700b63f993ba:Flint" version="6" />
     <language slang="l:c9991bd9-1f60-4f96-8e56-efd35c072829:ParameterizedRangeSelection" version="0" />
     <language slang="l:fb1561dd-216d-4cd5-9cd8-5d1dc9d20bcf:com.mbeddr.mpsutil.datepicker" version="0" />
     <language slang="l:120e1c9d-4e27-4478-b2af-b2c3bd3850b0:com.mbeddr.mpsutil.editor.querylist" version="0" />
     <language slang="l:fa13cc63-c476-4d46-9c96-d53670abe7bc:de.itemis.mps.editor.diagram" version="0" />
     <language slang="l:05f762a9-99f5-4971-a9ed-5a6481dc2be4:de.itemis.mps.selection.intentions" version="0" />
     <language slang="l:31c91def-a131-41a1-9018-102874f49a12:de.slisson.mps.editor.multiline" version="0" />
+    <language slang="l:92d2ea16-5a42-4fdf-a676-c7604efe3504:de.slisson.mps.richtext" version="0" />
     <language slang="l:52733268-be24-4f5f-ab84-a73b7c0c03b0:de.slisson.mps.richtext.customcell" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
@@ -150,7 +154,6 @@
     <module reference="69940819-10c1-4a38-ac44-700b63f993ba(Flint)" version="1" />
     <module reference="fa1d9284-6f2c-4199-ba86-19ab8b12cf3e(Flint.plugin)" version="0" />
     <module reference="acf1b507-e791-4de3-b55f-a3880c36d5bb(Flint.runtime)" version="0" />
-    <module reference="8476db96-31ef-4e8e-b37e-e1fba8098215(FlintSource)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d(LawSource)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />

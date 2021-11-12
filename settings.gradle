@@ -1,7 +1,13 @@
 pluginManagement {
     repositories {
-        maven {
-            url = uri("https://discplmirror.jfrog.io/artifactory/itemis")
+        if (System.getenv('CI') != null) {
+            maven {
+                url = uri("https://itemis.blackstardlb.nl")
+            }
+        } else {
+            maven {
+                url = uri("https://projects.itemis.de/nexus/content/repositories/mbeddr")
+            }
         }
         gradlePluginPortal()
     }

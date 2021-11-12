@@ -82,6 +82,57 @@
       <ref role="PrY4T" to="lnwe:74VLc6kEIu3" resolve="ITestScopeProvider" />
     </node>
   </node>
+  <node concept="1TIwiD" id="I0eN_aLAQU">
+    <property role="EcuMT" value="828727448689864122" />
+    <property role="TrG5h" value="LanguageAct" />
+    <ref role="1TJDcQ" to="lnwe:7PeSHTFdFJr" resolve="Act" />
+  </node>
+  <node concept="1TIwiD" id="I0eN_aL_Cn">
+    <property role="EcuMT" value="828727448689859095" />
+    <property role="TrG5h" value="LanguageTestModel" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="lnwe:5XjenljaN1R" resolve="FlintModel" />
+    <node concept="1TJgyj" id="I0eN_aLAfD" role="1TKVEi">
+      <property role="IQ2ns" value="828727448689861609" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="testActs" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="I0eN_aLAQU" resolve="LanguageAct" />
+    </node>
+    <node concept="1TJgyj" id="wJ8RSBsP_h" role="1TKVEi">
+      <property role="IQ2ns" value="589729100943546705" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="testFacts" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="wJ8RSBsQaY" resolve="LanguageFact" />
+    </node>
+    <node concept="1TJgyj" id="wJ8RSBsP_k" role="1TKVEi">
+      <property role="IQ2ns" value="589729100943546708" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="testDuties" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="wJ8RSBsQ_9" resolve="LanguageDuty" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="222x$3yHUFH">
+    <property role="EcuMT" value="2342582369425795821" />
+    <property role="TrG5h" value="TestModelAndSource" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="222x$3yHUFI" role="1TKVEi">
+      <property role="IQ2ns" value="2342582369425795822" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="flintModel" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="74VLc6kwEYR" resolve="TestFlintModel" />
+    </node>
+    <node concept="1TJgyj" id="222x$3yHUFK" role="1TKVEi">
+      <property role="IQ2ns" value="2342582369425795824" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="source" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="222x$3yHUFG" resolve="TestSource" />
+    </node>
+  </node>
   <node concept="1TIwiD" id="222x$3yHUFG">
     <property role="EcuMT" value="2342582369425795820" />
     <property role="TrG5h" value="TestSource" />
@@ -108,24 +159,15 @@
       <ref role="20lvS9" to="srlv:1nyeVyNiRPP" resolve="Article" />
     </node>
   </node>
-  <node concept="1TIwiD" id="222x$3yHUFH">
-    <property role="EcuMT" value="2342582369425795821" />
-    <property role="TrG5h" value="TestModelAndSource" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="222x$3yHUFI" role="1TKVEi">
-      <property role="IQ2ns" value="2342582369425795822" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="flintModel" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="74VLc6kwEYR" resolve="TestFlintModel" />
-    </node>
-    <node concept="1TJgyj" id="222x$3yHUFK" role="1TKVEi">
-      <property role="IQ2ns" value="2342582369425795824" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="source" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="222x$3yHUFG" resolve="TestSource" />
-    </node>
+  <node concept="1TIwiD" id="wJ8RSBsQ_9">
+    <property role="EcuMT" value="589729100943550793" />
+    <property role="TrG5h" value="LanguageDuty" />
+    <ref role="1TJDcQ" to="lnwe:27H3E6Hoggr" resolve="Duty" />
+  </node>
+  <node concept="1TIwiD" id="wJ8RSBsQaY">
+    <property role="EcuMT" value="589729100943549118" />
+    <property role="TrG5h" value="LanguageFact" />
+    <ref role="1TJDcQ" to="lnwe:5XjenljaN1U" resolve="Fact" />
   </node>
 </model>
 

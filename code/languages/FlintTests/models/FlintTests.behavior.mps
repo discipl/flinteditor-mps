@@ -11,6 +11,8 @@
     <import index="3lmi" ref="r:a950900f-47ea-4287-adc8-88f839ab614a(Flint.behavior)" />
     <import index="1z9r" ref="r:5d54dae5-81d4-42dd-a3f1-89bc0a78884b(FlintTests.structure)" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
+    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
+    <import index="jov5" ref="r:9249307a-27f2-447e-8e8c-b4f939b97d5c(Flint.languages)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -580,6 +582,123 @@
     </node>
     <node concept="13hLZK" id="74VLc6kI$jr" role="13h7CW">
       <node concept="3clFbS" id="74VLc6kI$js" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="I0eN_aLKGN">
+    <ref role="13h7C2" to="1z9r:I0eN_aLAQU" resolve="LanguageAct" />
+    <node concept="13hLZK" id="I0eN_aLKGO" role="13h7CW">
+      <node concept="3clFbS" id="I0eN_aLKGP" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="wJ8RSAMxrp" role="13h7CS">
+      <property role="TrG5h" value="getActiveLanguage" />
+      <ref role="13i0hy" to="3lmi:wJ8RSAMj7a" resolve="getActiveLanguage" />
+      <node concept="3Tm1VV" id="wJ8RSAMxrq" role="1B3o_S" />
+      <node concept="3clFbS" id="wJ8RSAMxr$" role="3clF47">
+        <node concept="3clFbF" id="wJ8RSBa$yI" role="3cqZAp">
+          <node concept="2YIFZM" id="1SPvxsypi7K" role="3clFbG">
+            <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
+            <ref role="37wK5l" to="3lmi:1SPvxsyp5ez" resolve="getActiveLanguage" />
+            <node concept="37vLTw" id="1SPvxsypi7L" role="37wK5m">
+              <ref role="3cqZAo" node="wJ8RSAMxr_" resolve="model" />
+            </node>
+            <node concept="2OqwBi" id="1SPvxsypi7M" role="37wK5m">
+              <node concept="13iPFW" id="1SPvxsypi7N" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="1SPvxsypi7O" role="2OqNvi">
+                <node concept="1xMEDy" id="1SPvxsypi7P" role="1xVPHs">
+                  <node concept="chp4Y" id="1SPvxsypi7Q" role="ri$Ld">
+                    <ref role="cht4Q" to="1z9r:I0eN_aL_Cn" resolve="LanguageTestModel" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="wJ8RSAMxr_" role="3clF46">
+        <property role="TrG5h" value="model" />
+        <node concept="H_c77" id="wJ8RSAMxrA" role="1tU5fm" />
+      </node>
+      <node concept="3Tqbb2" id="wJ8RSAMxrB" role="3clF45">
+        <ref role="ehGHo" to="lnwe:2ACGKFDB3mq" resolve="Language" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="wJ8RSBsRqO">
+    <ref role="13h7C2" to="1z9r:wJ8RSBsQaY" resolve="LanguageFact" />
+    <node concept="13hLZK" id="wJ8RSBsRqP" role="13h7CW">
+      <node concept="3clFbS" id="wJ8RSBsRqQ" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="wJ8RSBsRqZ" role="13h7CS">
+      <property role="TrG5h" value="getActiveLanguage" />
+      <ref role="13i0hy" to="3lmi:wJ8RSAMj7a" resolve="getActiveLanguage" />
+      <node concept="3Tm1VV" id="wJ8RSBsRr0" role="1B3o_S" />
+      <node concept="3clFbS" id="wJ8RSBsRra" role="3clF47">
+        <node concept="3clFbF" id="wJ8RSBsT4j" role="3cqZAp">
+          <node concept="2YIFZM" id="1SPvxsypiN_" role="3clFbG">
+            <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
+            <ref role="37wK5l" to="3lmi:1SPvxsyp5ez" resolve="getActiveLanguage" />
+            <node concept="37vLTw" id="1SPvxsypiNA" role="37wK5m">
+              <ref role="3cqZAo" node="wJ8RSBsRrb" resolve="model" />
+            </node>
+            <node concept="2OqwBi" id="1SPvxsypiNB" role="37wK5m">
+              <node concept="13iPFW" id="1SPvxsypiNC" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="1SPvxsypiND" role="2OqNvi">
+                <node concept="1xMEDy" id="1SPvxsypiNE" role="1xVPHs">
+                  <node concept="chp4Y" id="1SPvxsypiNF" role="ri$Ld">
+                    <ref role="cht4Q" to="1z9r:I0eN_aL_Cn" resolve="LanguageTestModel" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="wJ8RSBsRrb" role="3clF46">
+        <property role="TrG5h" value="model" />
+        <node concept="H_c77" id="wJ8RSBsRrc" role="1tU5fm" />
+      </node>
+      <node concept="3Tqbb2" id="wJ8RSBsRrd" role="3clF45">
+        <ref role="ehGHo" to="lnwe:2ACGKFDB3mq" resolve="Language" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="wJ8RSBsScz">
+    <ref role="13h7C2" to="1z9r:wJ8RSBsQ_9" resolve="LanguageDuty" />
+    <node concept="13hLZK" id="wJ8RSBsSc$" role="13h7CW">
+      <node concept="3clFbS" id="wJ8RSBsSc_" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="wJ8RSBsScI" role="13h7CS">
+      <property role="TrG5h" value="getActiveLanguage" />
+      <ref role="13i0hy" to="3lmi:wJ8RSAMj7a" resolve="getActiveLanguage" />
+      <node concept="3Tm1VV" id="wJ8RSBsScJ" role="1B3o_S" />
+      <node concept="3clFbS" id="wJ8RSBsScT" role="3clF47">
+        <node concept="3clFbF" id="wJ8RSBsTmR" role="3cqZAp">
+          <node concept="2YIFZM" id="1SPvxsypit6" role="3clFbG">
+            <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
+            <ref role="37wK5l" to="3lmi:1SPvxsyp5ez" resolve="getActiveLanguage" />
+            <node concept="37vLTw" id="1SPvxsypit7" role="37wK5m">
+              <ref role="3cqZAo" node="wJ8RSBsScU" resolve="model" />
+            </node>
+            <node concept="2OqwBi" id="1SPvxsypit8" role="37wK5m">
+              <node concept="13iPFW" id="1SPvxsypit9" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="1SPvxsypita" role="2OqNvi">
+                <node concept="1xMEDy" id="1SPvxsypitb" role="1xVPHs">
+                  <node concept="chp4Y" id="1SPvxsypitc" role="ri$Ld">
+                    <ref role="cht4Q" to="1z9r:I0eN_aL_Cn" resolve="LanguageTestModel" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="wJ8RSBsScU" role="3clF46">
+        <property role="TrG5h" value="model" />
+        <node concept="H_c77" id="wJ8RSBsScV" role="1tU5fm" />
+      </node>
+      <node concept="3Tqbb2" id="wJ8RSBsScW" role="3clF45">
+        <ref role="ehGHo" to="lnwe:2ACGKFDB3mq" resolve="Language" />
+      </node>
     </node>
   </node>
 </model>
