@@ -4,6 +4,7 @@ import io.ktor.client.*
 import io.ktor.client.request.*
 import io.ktor.client.request.forms.*
 import io.ktor.http.*
+import io.ktor.util.*
 import io.ktor.utils.io.core.*
 import kotlinx.coroutines.runBlocking
 import org.discipl.flint.sources.clients.AsyncTextLine
@@ -25,7 +26,7 @@ class NsxAsyncTextLineClientImpl(private val httpClient: HttpClient) : AsyncText
             "publicatieparsings",
             formData {
                 append("file", csv.toFile().readBytes(), Headers.build {
-                    append(HttpHeaders.ContentType, ContentType.Text.CSV)
+                    append(HttpHeaders.ContentType, ContentType.Text.CSV.toString())
                     append(HttpHeaders.ContentDisposition, "filename=${csv.fileName}")
                 })
                 append("documentStructure", "EUR-LEX")

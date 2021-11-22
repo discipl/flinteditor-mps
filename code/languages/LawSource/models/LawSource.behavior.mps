@@ -2410,7 +2410,7 @@
                         <ref role="3cqZAo" node="V6IiGIi_J1" resolve="line" />
                       </node>
                       <node concept="liA8E" id="V6IiGIi_Jr" role="2OqNvi">
-                        <ref role="37wK5l" to="faj1:~ArticleTitle.getText()" resolve="getText" />
+                        <ref role="37wK5l" to="faj1:~Line.getText()" resolve="getText" />
                       </node>
                     </node>
                   </node>

@@ -65,7 +65,7 @@ configurations {
 repositories {
     mavenLocal()
     mavenCentral()
-    jcenter()
+    maven { url = uri("https://jcenter.bintray.com/") }
     if (System.getenv('CI') != null) {
         maven {
             url = uri("https://itemis.blackstardlb.nl")
