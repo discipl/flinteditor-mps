@@ -45,5 +45,6 @@ class TriplyAsyncTextLineClientImpl(private val textLineClient: TextLineClient) 
         override val parent: String? = textLine.parent
         override val next: String? = null
         override val textNodeType: String? = null
+        override val number: String? = null
     }
 }

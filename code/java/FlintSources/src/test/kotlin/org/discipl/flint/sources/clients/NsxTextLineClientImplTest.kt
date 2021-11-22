@@ -1,14 +1,9 @@
 package org.discipl.flint.sources.clients
 
 import org.discipl.flint.sources.di.*
-import org.discipl.flint.sources.services.Strings
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
-import org.koin.core.component.KoinComponent
-import org.koin.core.context.KoinContext
-import java.nio.file.Paths
 import java.util.*
-import java.util.concurrent.Callable
 
 internal class AsyncTextLineClientImplTest {
     private val textLineClient: AsyncTextLineClient = TestSourceLoader.asyncTextLineClient
@@ -189,25 +184,25 @@ internal class AsyncTextLineClientImplTest {
         )
 
         assertEquals(1499, results.size)
-        val first = results.first()
+        val textLine = results[1415]
         assertEquals(
             "Verwerking en vrijheid van meningsuiting en van informatie",
-            first.text
+            textLine.text
         )
         assertEquals(
-            "https://calculemus.org/429661c1-48d5-4b59-900e-708124d85678",
-            first.id
+            "https://calculemus.org/767d39c9-d325-455f-9222-60da821dfd1b",
+            textLine.id
         )
-        assertEquals("", first.structure)
+        assertEquals("", textLine.structure)
         assertEquals(
             null,
-            first.bibliographicIdentifierString
+            textLine.bibliographicIdentifierString
         )
         assertEquals(
-            "https://calculemus.org/3364277f-93b2-4572-a7fc-71ddf05f3420",
-            first.parent
+            "https://calculemus.org/f3e456a3-3de8-493e-9602-7b3ed373c92a",
+            textLine.parent
         )
-        assertEquals(null, first.teken)
-        assertEquals("TextNode", first.type)
+        assertEquals(null, textLine.teken)
+        assertEquals("TextNode", textLine.type)
     }
 }

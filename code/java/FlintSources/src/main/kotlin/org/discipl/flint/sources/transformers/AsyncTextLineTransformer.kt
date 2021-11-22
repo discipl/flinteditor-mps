@@ -5,7 +5,7 @@ import org.discipl.flint.sources.models.*
 
 class AsyncTextLineTransformer {
     private fun AsyncTextLine.toArticleTitle(regelNr: Int): ArticleTitle {
-        return ArticleTitle(
+        return SpecifiedArticleTitle(
             regelNr,
             this.id,
             this.text
@@ -81,7 +81,8 @@ class AsyncTextLineTransformer {
         }
     }
 
-    fun toNode(line: AsyncTextLine, textLines: List<AsyncTextLine>): AsyncTextLineNode {
+    fun toNode(line: AsyncTextLine, textLines: MutableList<AsyncTextLine>): AsyncTextLineNode {
+        textLines.remove(line)
         return AsyncTextLineNode(
             line,
             line.getFirstChild(textLines)?.let { toNode(it, textLines) },
@@ -89,22 +90,54 @@ class AsyncTextLineTransformer {
         )
     }
 
-    fun toArticleList(textLines: List<AsyncTextLine>): List<Article> {
-        val topOfTree = textLines.first { it.getParent(textLines) == null }
-        val topNode = toNode(topOfTree, textLines)
-        val sortedTextLines = topNode.iterator().asSequence().toList().map { it.value }
+    fun firstLooseSibling(textLines: List<AsyncTextLine>): AsyncTextLine? {
+        val nexts = textLines.filter { it.next != null }.map { it.next }
+        return textLines.firstOrNull { !nexts.contains(it.id) }
+    }
 
+    fun toNodeWithLose(
+        first: AsyncTextLine,
+        remaining: MutableList<AsyncTextLine>,
+        textLines: MutableList<AsyncTextLine>
+    ): AsyncTextLineNode {
+        textLines.remove(first)
+        remaining.remove(first)
+        val next = first.getNext(remaining) ?: firstLooseSibling(remaining)
+        remaining.remove(next)
+        textLines.remove(next)
+        return AsyncTextLineNode(
+            first,
+            first.getFirstChild(textLines)?.let { toNode(it, textLines) },
+            next?.let { toNodeWithLose(it, remaining, textLines) }
+        )
+    }
+
+    fun toArticleList(textLines: List<AsyncTextLine>): List<Article> {
+        val looseNodes = textLines.filter { it.getParent(textLines) == null }
+        val topNode = toNodeWithLose(firstLooseSibling(looseNodes)!!, looseNodes.toMutableList(), textLines.toMutableList())
+        val sortedTextLines = topNode.iterator().asSequence().toList().map { it.value }
         fun toPartAndAddChildren(asyncTextLine: AsyncTextLine, regelNr: Int): Part {
             val part: Part = asyncTextLine.toPart(sortedTextLines, regelNr)
+            if (part is Article) {
+                part.addPart(
+                    UnspecifiedArticleTitle(
+                        regelNr,
+                        asyncTextLine.id,
+                        asyncTextLine.structure.replace("/", "")
+                    )
+                )
+                if (asyncTextLine.text.isNotBlank()) {
+                    part.addPart(asyncTextLine.toSimpleLine(regelNr))
+                }
+            }
             if (part is IHasParts) {
                 asyncTextLine.getChildren(sortedTextLines).map { toPartAndAddChildren(it, regelNr) }
                     .forEach { part.addPart(it) }
             }
-
             return part
         }
 
-        return sortedTextLines.filter { isArticle(it) }.map { toPartAndAddChildren(it, sortedTextLines.indexOf(it)) }
+        return sortedTextLines.filter { isArticle(it) }.sortedBy { it.number?.toIntOrNull() ?: sortedTextLines.indexOf(it) }.map { toPartAndAddChildren(it, it.number?.toIntOrNull() ?: sortedTextLines.indexOf(it)) }
             .filterIsInstance<Article>()
     }
 }

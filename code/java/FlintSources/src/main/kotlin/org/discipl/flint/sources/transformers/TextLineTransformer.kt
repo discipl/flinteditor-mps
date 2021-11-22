@@ -92,7 +92,7 @@ class TextLineTransformer {
     }
 
     private fun TextLine.toArticleTitle(): ArticleTitle {
-        return ArticleTitle(
+        return SpecifiedArticleTitle(
             this.regelNr,
             this.id,
             this.text
