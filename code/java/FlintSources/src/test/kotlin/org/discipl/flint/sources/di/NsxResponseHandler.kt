@@ -47,6 +47,11 @@ val defaultResult by lazy {
     getResourceAsString("parseRequestResult.json")
 }
 
+val juriDecomposeResult by lazy {
+    getResourceAsString("juriDecomposeResponse.json")
+}
+
+
 val cov19Result by lazy {
     getResourceAsString("cov19parseResult2.json")
 }

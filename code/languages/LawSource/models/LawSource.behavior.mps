@@ -2410,7 +2410,7 @@
                         <ref role="3cqZAo" node="V6IiGIi_J1" resolve="line" />
                       </node>
                       <node concept="liA8E" id="V6IiGIi_Jr" role="2OqNvi">
-                        <ref role="37wK5l" to="faj1:~ArticleTitle.getText()" resolve="getText" />
+                        <ref role="37wK5l" to="faj1:~Line.getText()" resolve="getText" />
                       </node>
                     </node>
                   </node>
@@ -5493,24 +5493,56 @@
                                           </node>
                                         </node>
                                       </node>
+                                      <node concept="3cpWs8" id="130BIAY50Di" role="3cqZAp">
+                                        <node concept="3cpWsn" id="130BIAY50Dj" role="3cpWs9">
+                                          <property role="TrG5h" value="publicationSource" />
+                                          <node concept="3uibUv" id="130BIAY4YbO" role="1tU5fm">
+                                            <ref role="3uigEE" to="faj1:~PublicationSource" resolve="PublicationSource" />
+                                          </node>
+                                          <node concept="2OqwBi" id="130BIAY50Dk" role="33vP2m">
+                                            <node concept="37vLTw" id="130BIAY50Dl" role="2Oq$k0">
+                                              <ref role="3cqZAo" node="V6IiGI1eLI" resolve="parser" />
+                                            </node>
+                                            <node concept="liA8E" id="130BIAY50Dm" role="2OqNvi">
+                                              <ref role="37wK5l" to="faj1:~PublicationParser.getPublicationSource()" resolve="getPublicationSource" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
                                       <node concept="3cpWs8" id="V6IiGI1eke" role="3cqZAp">
                                         <node concept="3cpWsn" id="V6IiGI1ekf" role="3cpWs9">
                                           <property role="TrG5h" value="sourceId" />
                                           <node concept="3uibUv" id="V6IiGI1ekg" role="1tU5fm">
                                             <ref role="3uigEE" to="33ny:~UUID" resolve="UUID" />
                                           </node>
-                                          <node concept="2OqwBi" id="V6IiGI1ekh" role="33vP2m">
-                                            <node concept="2OqwBi" id="V6IiGI1eki" role="2Oq$k0">
-                                              <node concept="37vLTw" id="V6IiGI1iGA" role="2Oq$k0">
-                                                <ref role="3cqZAo" node="V6IiGI1eLI" resolve="parser" />
+                                          <node concept="2YIFZM" id="130BIAY55zR" role="33vP2m">
+                                            <ref role="37wK5l" to="33ny:~UUID.randomUUID()" resolve="randomUUID" />
+                                            <ref role="1Pybhc" to="33ny:~UUID" resolve="UUID" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                      <node concept="3clFbJ" id="130BIAY57TL" role="3cqZAp">
+                                        <node concept="3clFbS" id="130BIAY57TN" role="3clFbx">
+                                          <node concept="3clFbF" id="130BIAY5bnw" role="3cqZAp">
+                                            <node concept="37vLTI" id="130BIAY5dd8" role="3clFbG">
+                                              <node concept="2OqwBi" id="130BIAY5e$l" role="37vLTx">
+                                                <node concept="37vLTw" id="130BIAY5e5f" role="2Oq$k0">
+                                                  <ref role="3cqZAo" node="130BIAY50Dj" resolve="publicationSource" />
+                                                </node>
+                                                <node concept="liA8E" id="130BIAY5eJy" role="2OqNvi">
+                                                  <ref role="37wK5l" to="faj1:~PublicationSource.getUuid()" resolve="getUuid" />
+                                                </node>
                                               </node>
-                                              <node concept="liA8E" id="V6IiGI1ekk" role="2OqNvi">
-                                                <ref role="37wK5l" to="faj1:~PublicationParser.getPublicationSource()" resolve="getPublicationSource" />
+                                              <node concept="37vLTw" id="130BIAY5bnu" role="37vLTJ">
+                                                <ref role="3cqZAo" node="V6IiGI1ekf" resolve="sourceId" />
                                               </node>
                                             </node>
-                                            <node concept="liA8E" id="V6IiGI1ekl" role="2OqNvi">
-                                              <ref role="37wK5l" to="faj1:~PublicationSource.getUuid()" resolve="getUuid" />
-                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="3y3z36" id="130BIAY5a4U" role="3clFbw">
+                                          <node concept="10Nm6u" id="130BIAY5az6" role="3uHU7w" />
+                                          <node concept="37vLTw" id="130BIAY59$D" role="3uHU7B">
+                                            <ref role="3cqZAo" node="130BIAY50Dj" resolve="publicationSource" />
                                           </node>
                                         </node>
                                       </node>
