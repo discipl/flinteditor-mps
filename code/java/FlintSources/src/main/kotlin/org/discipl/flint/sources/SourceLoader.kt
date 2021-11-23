@@ -103,7 +103,7 @@ internal val nsxClientsModule = module(override = true) {
 
 @Suppress("EXPERIMENTAL_API_USAGE")
 internal val hybridClientModule = module(override = true) {
-    val timeoutInS = 60
+    val timeoutInS = 360
     single { SSLContext.getDefault() }
     single<JsonSerializer> {
         GsonSerializer {
