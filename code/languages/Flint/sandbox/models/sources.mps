@@ -631,431 +631,6 @@
       </node>
     </node>
   </node>
-  <node concept="2AEkrd" id="cEUIln$U7$">
-    <property role="TrG5h" value="Artikel1" />
-    <property role="1N0jUS" value="1" />
-    <property role="3GE5qa" value="articles" />
-    <ref role="2AErGO" node="1_VS0uKL2Ge" resolve="17-04-2020 t/m 21-04-2020" />
-    <node concept="3MKX5h" id="cEUIln$U7_" role="3MKX6D">
-      <node concept="3MKX5i" id="cEUIln$U7A" role="3MKX6F">
-        <property role="1hTQn4" value="https://calculemus.org/c31915e9-a9d5-4181-b2c4-82c03b7fc75d" />
-        <node concept="19SGf9" id="cEUIln$U7B" role="3MLR7a">
-          <node concept="19SUe$" id="cEUIln$U7C" role="19SJt6">
-            <property role="19SUeA" value="In deze beleidsregel wordt verstaan onder:" />
-          </node>
-        </node>
-      </node>
-      <node concept="3MKX5h" id="cEUIln$U7D" role="3MKX6F">
-        <property role="1hTQn4" value="https://calculemus.org/72b06a24-d26e-41c6-bdc5-e9cec8b7ab04" />
-        <node concept="3MKX5i" id="cEUIln$U7E" role="3MKX6F">
-          <property role="1hTQn4" value="https://calculemus.org/7dbe1698-3233-480b-b384-1632e50d1e02" />
-          <node concept="19SGf9" id="cEUIln$U7F" role="3MLR7a">
-            <node concept="19SUe$" id="cEUIln$U7G" role="19SJt6">
-              <property role="19SUeA" value="verordening (EU) nr. 1407/2013 van de Commissie van 18december 2013 betreffende de toepassing van de artikelen 107 en 108 van het Verdrag betreffende de werking van de Europese Unie op de-minimissteun (PbEU 2013, L 352);algemene de-minimisverordening:" />
-            </node>
-          </node>
-        </node>
-        <node concept="3MKX5h" id="cEUIln$U7H" role="3MKX6F">
-          <property role="1hTQn4" value="https://calculemus.org/3381c423-48ef-46f9-839a-c6f3ba0907fe" />
-          <node concept="3MKX5i" id="cEUIln$U7I" role="3MKX6F">
-            <property role="1hTQn4" value="https://calculemus.org/884d8549-0306-42d4-a3d3-43b0481e83c4" />
-            <node concept="19SGf9" id="cEUIln$U7J" role="3MLR7a">
-              <node concept="19SUe$" id="cEUIln$U7K" role="19SJt6">
-                <property role="19SUeA" value="in Nederland gevestigde onderneming als bedoeld in , niet zijnde een overheidsbedrijf:artikel 5 van de Handelsregisterwet 2007gedupeerde onderneming:" />
-              </node>
-            </node>
-          </node>
-          <node concept="3MKX5h" id="cEUIln$U7L" role="3MKX6F">
-            <property role="1hTQn4" value="https://calculemus.org/d6e4f718-4adf-4ceb-913d-e7db8530bd68" />
-            <node concept="3MKX6G" id="cEUIln$U7M" role="3MKX6F">
-              <property role="3MLT8O" value="a" />
-              <property role="1hTQn4" value="https://calculemus.org/26699d54-5291-4836-b773-f4084dff9898" />
-              <node concept="19SGf9" id="cEUIln$U7N" role="3MLT8Q">
-                <node concept="19SUe$" id="cEUIln$U7O" role="19SJt6">
-                  <property role="19SUeA" value="die op 15maart 2020 in het handelsregister stond ingeschreven onder een hoofdactiviteit die in  is opgenomen, met de daarbij behorende code van de Standaard Bedrijfsindeling;bijlage 1" />
-                </node>
-              </node>
-            </node>
-            <node concept="3MKX6G" id="cEUIln$U7P" role="3MKX6F">
-              <property role="3MLT8O" value="b" />
-              <property role="1hTQn4" value="https://calculemus.org/a90e99e8-587a-4d30-a52e-abcd1de4e9af" />
-              <node concept="19SGf9" id="cEUIln$U7Q" role="3MLT8Q">
-                <node concept="19SUe$" id="cEUIln$U7R" role="19SJt6">
-                  <property role="19SUeA" value="waar ten hoogste 250 personen werkzaam zijn, blijkend uit de inschrijving in het handelsregister op 15maart 2020; en" />
-                </node>
-              </node>
-            </node>
-            <node concept="3MKX5h" id="cEUIln$U7S" role="3MKX6F">
-              <property role="1hTQn4" value="https://calculemus.org/08325c60-46cc-4909-a040-6c976b99a3ac" />
-              <node concept="3MKX5i" id="cEUIln$U7T" role="3MKX6F">
-                <property role="1hTQn4" value="https://calculemus.org/f219a515-0b91-4c7f-92c4-6c1c7c205d03" />
-                <node concept="19SGf9" id="cEUIln$U7U" role="3MLR7a">
-                  <node concept="19SUe$" id="cEUIln$U7V" role="19SJt6">
-                    <property role="19SUeA" value="die:" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3MKX5h" id="cEUIln$U7W" role="3MKX6F">
-                <property role="1hTQn4" value="https://calculemus.org/712a318e-08f5-43e9-81dd-60897e9bea61" />
-                <node concept="3MKX5i" id="cEUIln$U7X" role="3MKX6F">
-                  <property role="1hTQn4" value="https://calculemus.org/9ce47fac-16c3-4bb0-9d57-d4796abdab47" />
-                  <node concept="19SGf9" id="cEUIln$U7Y" role="3MLR7a">
-                    <node concept="19SUe$" id="cEUIln$U7Z" role="19SJt6">
-                      <property role="19SUeA" value="voor zover het een onderneming, niet zijnde een horecaonderneming, betreft ten minste n vestiging heeft met een ander adres dan het privadres van de eigenaar of eigenaren van de onderneming; of" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3MKX5i" id="cEUIln$U80" role="3MKX6F">
-                  <property role="1hTQn4" value="https://calculemus.org/857fb063-dfe7-41ab-be78-c99c3b9b26a7" />
-                  <node concept="19SGf9" id="cEUIln$U81" role="3MLR7a">
-                    <node concept="19SUe$" id="cEUIln$U82" role="19SJt6">
-                      <property role="19SUeA" value="voor zover het een horecaonderneming betreft ten minste n horecagelegenheid huurt, pacht of in eigendom heeft;" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3MKX5i" id="cEUIln$U83" role="3MKX6F">
-          <property role="1hTQn4" value="https://calculemus.org/64e59ee2-0ee8-4c57-9abd-d919dd75e41c" />
-          <node concept="19SGf9" id="cEUIln$U84" role="3MLR7a">
-            <node concept="19SUe$" id="cEUIln$U85" role="19SJt6">
-              <property role="19SUeA" value="handelsregister als bedoeld in ;artikel 2 van de Handelsregisterwet 2007handelsregister:" />
-            </node>
-          </node>
-        </node>
-        <node concept="3MKX5i" id="cEUIln$U86" role="3MKX6F">
-          <property role="1hTQn4" value="https://calculemus.org/81f33e49-2a75-41f3-ad7b-b7f9dba1af5f" />
-          <node concept="19SGf9" id="cEUIln$U87" role="3MLR7a">
-            <node concept="19SUe$" id="cEUIln$U88" role="19SJt6">
-              <property role="19SUeA" value="onderneming die op 15maart 2020 stond ingeschreven in het handelsregister onder de code 56.10.1, 56.10.2 of 56.30 van de Standaard Bedrijfsindeling;horecaonderneming:" />
-            </node>
-          </node>
-        </node>
-        <node concept="3MKX5i" id="cEUIln$U89" role="3MKX6F">
-          <property role="1hTQn4" value="https://calculemus.org/865ea62a-3e5a-497d-b1fe-a6df25c694d6" />
-          <node concept="19SGf9" id="cEUIln$U8a" role="3MLR7a">
-            <node concept="19SUe$" id="cEUIln$U8b" role="19SJt6">
-              <property role="19SUeA" value="Minister van Economische Zaken en Klimaat;minister:" />
-            </node>
-          </node>
-        </node>
-        <node concept="3MKX5i" id="cEUIln$U8c" role="3MKX6F">
-          <property role="1hTQn4" value="https://calculemus.org/a5b16479-9511-411d-906f-a515dbca8295" />
-          <node concept="19SGf9" id="cEUIln$U8d" role="3MLR7a">
-            <node concept="19SUe$" id="cEUIln$U8e" role="19SJt6">
-              <property role="19SUeA" value="overheidsbedrijf als bedoeld in ;artikel 25g, eerste lid, van de Mededingingswetoverheidsbedrijf:" />
-            </node>
-          </node>
-        </node>
-        <node concept="3MKX5i" id="cEUIln$U8f" role="3MKX6F">
-          <property role="1hTQn4" value="https://calculemus.org/c1f889df-1681-469c-b842-cf414c373d7e" />
-          <node concept="19SGf9" id="cEUIln$U8g" role="3MLR7a">
-            <node concept="19SUe$" id="cEUIln$U8h" role="19SJt6">
-              <property role="19SUeA" value="verklaring van de gedupeerde onderneming waarin deze bevestigt dat de tegemoetkoming niet zal leiden tot een overschrijding van het de-minimisplafond, bedoeld in artikel 3, tweede lid, van de algemene de-minimisverordening;verklaring de-minimissteun:" />
-            </node>
-          </node>
-        </node>
-        <node concept="3MKX5i" id="cEUIln$U8i" role="3MKX6F">
-          <property role="1hTQn4" value="https://calculemus.org/dd5ba199-b196-40dc-906a-4333449f34e1" />
-          <node concept="19SGf9" id="cEUIln$U8j" role="3MLR7a">
-            <node concept="19SUe$" id="cEUIln$U8k" role="19SJt6">
-              <property role="19SUeA" value="vestiging als bedoeld in .artikel 1, eerste lid, onderdeel j, van de Handelsregisterwet 2007vestiging:" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2AEkrd" id="cEUIln$U8l">
-    <property role="TrG5h" value="Artikel2" />
-    <property role="1N0jUS" value="2" />
-    <property role="3GE5qa" value="articles" />
-    <ref role="2AErGO" node="1_VS0uKL2Ge" resolve="17-04-2020 t/m 21-04-2020" />
-    <node concept="3MKX5h" id="cEUIln$U8m" role="3MKX6D">
-      <node concept="3MKX5h" id="cEUIln$U8n" role="3MKX6F">
-        <property role="1hTQn4" value="https://calculemus.org/3f6c1bfa-972f-46e9-8e79-4899ede7d4a6" />
-        <node concept="3MKX5i" id="cEUIln$U8o" role="3MKX6F">
-          <property role="1hTQn4" value="https://calculemus.org/4226d732-c61e-4301-a3af-55a09936bc6a" />
-          <node concept="19SGf9" id="cEUIln$U8p" role="3MLR7a">
-            <node concept="19SUe$" id="cEUIln$U8q" role="19SJt6">
-              <property role="19SUeA" value="De minister verstrekt op aanvraag een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16maart 2020 tot en met 15juni 2020:" />
-            </node>
-          </node>
-        </node>
-        <node concept="3MKX5h" id="cEUIln$U8r" role="3MKX6F">
-          <property role="1hTQn4" value="https://calculemus.org/d7edc510-bee8-4320-b6a5-e36cfa4c3eba" />
-          <node concept="3MKX6G" id="cEUIln$U8s" role="3MKX6F">
-            <property role="3MLT8O" value="a" />
-            <property role="1hTQn4" value="https://calculemus.org/e8642b82-f65a-4b6e-a8fa-54b23f6858e9" />
-            <node concept="19SGf9" id="cEUIln$U8t" role="3MLT8Q">
-              <node concept="19SUe$" id="cEUIln$U8u" role="19SJt6">
-                <property role="19SUeA" value="ten minste 4000, aan omzetverlies te lijden als gevolg van de maatregelen ter bestrijding van de verdere verspreiding van COVID-19;" />
-              </node>
-            </node>
-          </node>
-          <node concept="3MKX6G" id="cEUIln$U8v" role="3MKX6F">
-            <property role="3MLT8O" value="b" />
-            <property role="1hTQn4" value="https://calculemus.org/e5113603-ffb1-4d7a-8362-f2f01a158614" />
-            <node concept="19SGf9" id="cEUIln$U8w" role="3MLT8Q">
-              <node concept="19SUe$" id="cEUIln$U8x" role="19SJt6">
-                <property role="19SUeA" value="ten minste 4000, aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19." />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3MKX6G" id="cEUIln$U8y" role="3MKX6F">
-        <property role="3MLT8O" value="2" />
-        <property role="1hTQn4" value="https://calculemus.org/62bb1fbc-8946-4ecd-bffa-093c831195fe" />
-        <node concept="19SGf9" id="cEUIln$U8z" role="3MLT8Q">
-          <node concept="19SUe$" id="cEUIln$U8$" role="19SJt6">
-            <property role="19SUeA" value="De tegemoetkoming bedraagt 4000 per gedupeerde onderneming." />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2AEkrd" id="cEUIln$U8_">
-    <property role="TrG5h" value="Artikel3" />
-    <property role="1N0jUS" value="3" />
-    <property role="3GE5qa" value="articles" />
-    <ref role="2AErGO" node="1_VS0uKL2Ge" resolve="17-04-2020 t/m 21-04-2020" />
-    <node concept="3MKX5h" id="cEUIln$U8A" role="3MKX6D">
-      <node concept="3MKX5i" id="cEUIln$U8B" role="3MKX6F">
-        <property role="1hTQn4" value="https://calculemus.org/37da84ff-0179-43f7-a17d-7e76d41886ea" />
-        <node concept="19SGf9" id="cEUIln$U8C" role="3MLR7a">
-          <node concept="19SUe$" id="cEUIln$U8D" role="19SJt6">
-            <property role="19SUeA" value="De minister beslist afwijzend op een aanvraag indien:" />
-          </node>
-        </node>
-      </node>
-      <node concept="3MKX5h" id="cEUIln$U8E" role="3MKX6F">
-        <property role="1hTQn4" value="https://calculemus.org/3d78578f-494b-4286-96cb-1ae562b46414" />
-        <node concept="3MKX6G" id="cEUIln$U8F" role="3MKX6F">
-          <property role="3MLT8O" value="a" />
-          <property role="1hTQn4" value="https://calculemus.org/c4b56015-4b09-4555-a443-4fea8b04f42c" />
-          <node concept="19SGf9" id="cEUIln$U8G" role="3MLT8Q">
-            <node concept="19SUe$" id="cEUIln$U8H" role="19SJt6">
-              <property role="19SUeA" value="de aanvraag niet voldoet aan de bij deze beleidsregel gestelde eisen;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3MKX6G" id="cEUIln$U8I" role="3MKX6F">
-          <property role="3MLT8O" value="b" />
-          <property role="1hTQn4" value="https://calculemus.org/bb3dd58c-1736-4268-9a5f-d0bc3f3f5d49" />
-          <node concept="19SGf9" id="cEUIln$U8J" role="3MLT8Q">
-            <node concept="19SUe$" id="cEUIln$U8K" role="19SJt6">
-              <property role="19SUeA" value="de gedupeerde onderneming in staat van faillissement verkeert dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming is ingediend;" />
-            </node>
-          </node>
-        </node>
-        <node concept="3MKX6G" id="cEUIln$U8L" role="3MKX6F">
-          <property role="3MLT8O" value="c" />
-          <property role="1hTQn4" value="https://calculemus.org/a40efa7e-162e-4c1c-9391-51f12b1d902a" />
-          <node concept="19SGf9" id="cEUIln$U8M" role="3MLT8Q">
-            <node concept="19SUe$" id="cEUIln$U8N" role="19SJt6">
-              <property role="19SUeA" value="de tegemoetkoming niet verstrekt kan worden op grond van de algemene de-minimisverordening." />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2AEkrd" id="cEUIln$U8O">
-    <property role="TrG5h" value="Artikel4" />
-    <property role="1N0jUS" value="4" />
-    <property role="3GE5qa" value="articles" />
-    <ref role="2AErGO" node="1_VS0uKL2Ge" resolve="17-04-2020 t/m 21-04-2020" />
-    <node concept="3MKX5h" id="cEUIln$U8P" role="3MKX6D">
-      <node concept="3MKX6G" id="cEUIln$U8Q" role="3MKX6F">
-        <property role="3MLT8O" value="1" />
-        <property role="1hTQn4" value="https://calculemus.org/9d0a005a-04a6-42c6-8e40-098ad6c2ca24" />
-        <node concept="19SGf9" id="cEUIln$U8R" role="3MLT8Q">
-          <node concept="19SUe$" id="cEUIln$U8S" role="19SJt6">
-            <property role="19SUeA" value="Een aanvraag wordt ingediend met gebruikmaking van een door de minister beschikbaar gesteld middel." />
-          </node>
-        </node>
-      </node>
-      <node concept="3MKX5h" id="cEUIln$U8T" role="3MKX6F">
-        <property role="1hTQn4" value="https://calculemus.org/c5822477-d9fa-481b-8310-1c7aa0e82dca" />
-        <node concept="3MKX5i" id="cEUIln$U8U" role="3MKX6F">
-          <property role="1hTQn4" value="https://calculemus.org/e4810af4-2f3d-4d0f-b2f8-38dbf0e58f5d" />
-          <node concept="19SGf9" id="cEUIln$U8V" role="3MLR7a">
-            <node concept="19SUe$" id="cEUIln$U8W" role="19SJt6">
-              <property role="19SUeA" value="Een aanvraag omvat in ieder geval:" />
-            </node>
-          </node>
-        </node>
-        <node concept="3MKX5h" id="cEUIln$U8X" role="3MKX6F">
-          <property role="1hTQn4" value="https://calculemus.org/d5dd3439-6b5e-452f-a981-9fe1cd3b1d06" />
-          <node concept="3MKX6G" id="cEUIln$U8Y" role="3MKX6F">
-            <property role="3MLT8O" value="a" />
-            <property role="1hTQn4" value="https://calculemus.org/01934f21-254f-4482-ab0a-67ff2341d316" />
-            <node concept="19SGf9" id="cEUIln$U8Z" role="3MLT8Q">
-              <node concept="19SUe$" id="cEUIln$U90" role="19SJt6">
-                <property role="19SUeA" value="gegevens over de gedupeerde onderneming, waaronder het nummer waarmee de gedupeerde onderneming geregistreerd is bij de Kamer van Koophandel, het post- en bezoekadres en het rekeningnummer dat op naam van de gedupeerde onderneming staat;" />
-              </node>
-            </node>
-          </node>
-          <node concept="3MKX6G" id="cEUIln$U91" role="3MKX6F">
-            <property role="3MLT8O" value="b" />
-            <property role="1hTQn4" value="https://calculemus.org/5c0440ab-7665-4d7d-ac1d-f339ac2f3336" />
-            <node concept="19SGf9" id="cEUIln$U92" role="3MLT8Q">
-              <node concept="19SUe$" id="cEUIln$U93" role="19SJt6">
-                <property role="19SUeA" value="gegevens over de contactpersoon bij de gedupeerde onderneming, waaronder de naam, het telefoonnummer en het e-mailadres;" />
-              </node>
-            </node>
-          </node>
-          <node concept="3MKX6G" id="cEUIln$U94" role="3MKX6F">
-            <property role="3MLT8O" value="c" />
-            <property role="1hTQn4" value="https://calculemus.org/bea53780-5970-4ce7-aa6e-36854254a072" />
-            <node concept="19SGf9" id="cEUIln$U95" role="3MLT8Q">
-              <node concept="19SUe$" id="cEUIln$U96" role="19SJt6">
-                <property role="19SUeA" value="een verklaring dat de gedupeerde onderneming geen overheidsbedrijf is;" />
-              </node>
-            </node>
-          </node>
-          <node concept="3MKX6G" id="cEUIln$U97" role="3MKX6F">
-            <property role="3MLT8O" value="d" />
-            <property role="1hTQn4" value="https://calculemus.org/b171363c-2734-4dea-9df1-773e06041301" />
-            <node concept="19SGf9" id="cEUIln$U98" role="3MLT8Q">
-              <node concept="19SUe$" id="cEUIln$U99" role="19SJt6">
-                <property role="19SUeA" value="een verklaring de-minimissteun;" />
-              </node>
-            </node>
-          </node>
-          <node concept="3MKX6G" id="cEUIln$U9a" role="3MKX6F">
-            <property role="3MLT8O" value="e" />
-            <property role="1hTQn4" value="https://calculemus.org/a504c969-55d2-48c8-8026-135a5a64ac80" />
-            <node concept="19SGf9" id="cEUIln$U9b" role="3MLT8Q">
-              <node concept="19SUe$" id="cEUIln$U9c" role="19SJt6">
-                <property role="19SUeA" value="een verklaring dat de gedupeerde onderneming op het moment van aanvraag voldoet aan de bij deze beleidsregel gestelde eisen;" />
-              </node>
-            </node>
-          </node>
-          <node concept="3MKX6G" id="cEUIln$U9d" role="3MKX6F">
-            <property role="3MLT8O" value="f" />
-            <property role="1hTQn4" value="https://calculemus.org/f2ff5914-cfac-4cf5-8ae6-318fea74b459" />
-            <node concept="19SGf9" id="cEUIln$U9e" role="3MLT8Q">
-              <node concept="19SUe$" id="cEUIln$U9f" role="19SJt6">
-                <property role="19SUeA" value="een verklaring waarin de gedupeerde onderneming aangeeft dat de onderneming in de periode van 16maart 2020 tot en met 15juni 2020 een omzetverlies verwacht te lijden van ten minste 4000,; en" />
-              </node>
-            </node>
-          </node>
-          <node concept="3MKX6G" id="cEUIln$U9g" role="3MKX6F">
-            <property role="3MLT8O" value="g" />
-            <property role="1hTQn4" value="https://calculemus.org/c6966a35-a56c-4775-bb75-9c554a47b4f0" />
-            <node concept="19SGf9" id="cEUIln$U9h" role="3MLT8Q">
-              <node concept="19SUe$" id="cEUIln$U9i" role="19SJt6">
-                <property role="19SUeA" value="een verklaring waarin de gedupeerde onderneming aangeeft dat de onderneming in de periode van 16maart 2020 tot en met 15juni 2020 verwacht ten minste 4000, aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19." />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3MKX6G" id="cEUIln$U9j" role="3MKX6F">
-        <property role="3MLT8O" value="3" />
-        <property role="1hTQn4" value="https://calculemus.org/7580a28a-6ea2-4149-9756-ede60d1709da" />
-        <node concept="19SGf9" id="cEUIln$U9k" role="3MLT8Q">
-          <node concept="19SUe$" id="cEUIln$U9l" role="19SJt6">
-            <property role="19SUeA" value="Een aanvraag kan worden ingediend in de periode van 27maart 2020 tot en met 26juni 2020." />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2AEkrd" id="cEUIln$U9m">
-    <property role="TrG5h" value="Artikel5" />
-    <property role="1N0jUS" value="5" />
-    <property role="3GE5qa" value="articles" />
-    <ref role="2AErGO" node="1_VS0uKL2Ge" resolve="17-04-2020 t/m 21-04-2020" />
-    <node concept="3MKX5h" id="cEUIln$U9n" role="3MKX6D">
-      <node concept="3MKX5i" id="cEUIln$U9o" role="3MKX6F">
-        <property role="1hTQn4" value="https://calculemus.org/06f1c83f-84e5-445f-a10a-bd8b97e17830" />
-        <node concept="19SGf9" id="cEUIln$U9p" role="3MLR7a">
-          <node concept="19SUe$" id="cEUIln$U9q" role="19SJt6">
-            <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2AEkrd" id="cEUIln$U9r">
-    <property role="TrG5h" value="Artikel6" />
-    <property role="1N0jUS" value="6" />
-    <property role="3GE5qa" value="articles" />
-    <ref role="2AErGO" node="1_VS0uKL2Ge" resolve="17-04-2020 t/m 21-04-2020" />
-    <node concept="3MKX5h" id="cEUIln$U9s" role="3MKX6D">
-      <node concept="3MKX5i" id="cEUIln$U9t" role="3MKX6F">
-        <property role="1hTQn4" value="https://calculemus.org/441ba3d3-0ae4-4803-9a61-5bb130d14bd8" />
-        <node concept="19SGf9" id="cEUIln$U9u" role="3MLR7a">
-          <node concept="19SUe$" id="cEUIln$U9v" role="19SJt6">
-            <property role="19SUeA" value="De minister kan de hoogte van de tegemoetkoming binnen vijf jaar na de verstrekking herzien dan wel de beschikking tot de tegemoetkoming intrekken, indien blijkt dat de tegemoetkoming, door onjuiste gegevensverstrekking door de gedupeerde onderneming, niet in overeenstemming met deze beleidsregel is verstrekt." />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2AEkrd" id="cEUIln$U9w">
-    <property role="TrG5h" value="Artikel7" />
-    <property role="1N0jUS" value="7" />
-    <property role="3GE5qa" value="articles" />
-    <ref role="2AErGO" node="1_VS0uKL2Ge" resolve="17-04-2020 t/m 21-04-2020" />
-    <node concept="3MKX5h" id="cEUIln$U9x" role="3MKX6D">
-      <node concept="3MKX5i" id="cEUIln$U9y" role="3MKX6F">
-        <property role="1hTQn4" value="https://calculemus.org/65dec448-b97b-4bf4-ad27-7a6eb427c368" />
-        <node concept="19SGf9" id="cEUIln$U9z" role="3MLR7a">
-          <node concept="19SUe$" id="cEUIln$U9$" role="19SJt6">
-            <property role="19SUeA" value="De tegemoetkoming, bedoeld in , bevat staatssteun en wordt gerechtvaardigd door de algemene de-minimisverordening.artikel 2" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2AEkrd" id="cEUIln$U9_">
-    <property role="TrG5h" value="Artikel8" />
-    <property role="1N0jUS" value="8" />
-    <property role="3GE5qa" value="articles" />
-    <ref role="2AErGO" node="1_VS0uKL2Ge" resolve="17-04-2020 t/m 21-04-2020" />
-    <node concept="3MKX5h" id="cEUIln$U9A" role="3MKX6D">
-      <node concept="3MKX6G" id="cEUIln$U9B" role="3MKX6F">
-        <property role="3MLT8O" value="1" />
-        <property role="1hTQn4" value="https://calculemus.org/eeb2462c-69fe-4693-a6b1-d0102cb68e5f" />
-        <node concept="19SGf9" id="cEUIln$U9C" role="3MLT8Q">
-          <node concept="19SUe$" id="cEUIln$U9D" role="19SJt6">
-            <property role="19SUeA" value="Deze beleidsregel treedt in werking met ingang van de dag na de datum van uitgifte van de Staatscourant waarin zij wordt geplaatst, en werkt terug tot en met 27maart 2020." />
-          </node>
-        </node>
-      </node>
-      <node concept="3MKX6G" id="cEUIln$U9E" role="3MKX6F">
-        <property role="3MLT8O" value="2" />
-        <property role="1hTQn4" value="https://calculemus.org/db58cdb4-6720-45a0-a702-dbc3d9aeb1b1" />
-        <node concept="19SGf9" id="cEUIln$U9F" role="3MLT8Q">
-          <node concept="19SUe$" id="cEUIln$U9G" role="19SJt6">
-            <property role="19SUeA" value="Deze beleidsregel vervalt met ingang van 1januari 2021, met dien verstande dat de beleidsregel van toepassing blijft op aanvragen om tegemoetkoming die uiterlijk 26juni 2020 zijn ingediend, dan wel op tegemoetkomingen die voor 1januari 2021 zijn verstrekt." />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2AEkrd" id="cEUIln$U9H">
-    <property role="TrG5h" value="Artikel9" />
-    <property role="1N0jUS" value="9" />
-    <property role="3GE5qa" value="articles" />
-    <ref role="2AErGO" node="1_VS0uKL2Ge" resolve="17-04-2020 t/m 21-04-2020" />
-    <node concept="3MKX5h" id="cEUIln$U9I" role="3MKX6D">
-      <node concept="3MKX5i" id="cEUIln$U9J" role="3MKX6F">
-        <property role="1hTQn4" value="https://calculemus.org/dc222268-32d2-4f04-aea2-c7dc20b94e47" />
-        <node concept="19SGf9" id="cEUIln$U9K" role="3MLR7a">
-          <node concept="19SUe$" id="cEUIln$U9L" role="19SJt6">
-            <property role="19SUeA" value="Deze beleidsregel wordt aangehaald als: Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19." />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="2AEkrd" id="cEUIln$UhU">
     <property role="TrG5h" value="Artikel 1 (begripsbepalingen)" />
     <property role="1N0jUS" value="13" />
@@ -9832,6 +9407,13140 @@
         <node concept="19SGf9" id="cEUIln$V1T" role="3MLR7a">
           <node concept="19SUe$" id="cEUIln$V1U" role="19SJt6">
             <property role="19SUeA" value="Deze verordening is verbindend in al haar onderdelen en is rechtstreeks toepasselijk in elke lidstaat." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2ATdSu" id="1spse2eazPB">
+    <property role="2AErxT" value="BWBR0001840" />
+    <property role="TrG5h" value="Grondwet" />
+  </node>
+  <node concept="2ANm86" id="1spse2eizY2">
+    <property role="3GE5qa" value="versions" />
+    <property role="TrG5h" value="21-12-2018 t/m heden" />
+    <property role="2AEqdP" value="heden" />
+    <property role="2AEqdO" value="2018-12-21" />
+    <property role="W2joe" value="TODO" />
+    <property role="ZyLMf" value="http://wetten.overheid.nl/1.0:c:BWBR0001840&amp;g=2018-12-21" />
+    <property role="2JHwUh" value="https://fin.triply.cc/ole/BWB/id/BWBR0001840/2942374/2018-12-21/2018-12-21" />
+    <ref role="2AErGN" node="1spse2eazPB" resolve="Grondwet" />
+  </node>
+  <node concept="2ATdSu" id="1spse2eiAcw">
+    <property role="2AErxT" value="BWBR0011825" />
+    <property role="TrG5h" value="Vreemdelingenbesluit 2000" />
+  </node>
+  <node concept="2ANm86" id="1spse2eiAdL">
+    <property role="3GE5qa" value="versions" />
+    <property role="TrG5h" value="01-08-2020 t/m 31-05-2021" />
+    <property role="2AEqdP" value="2021-05-31" />
+    <property role="2AEqdO" value="2020-08-01" />
+    <property role="W2joe" value="TODO" />
+    <property role="ZyLMf" value="http://wetten.overheid.nl/1.0:c:BWBR0011825&amp;g=2020-08-01" />
+    <property role="2JHwUh" value="https://fin.triply.cc/ole/BWB/id/BWBR0011825/2569954/2020-08-01/2020-08-01" />
+    <ref role="2AErGN" node="1spse2eiAcw" resolve="Vreemdelingenbesluit 2000" />
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBic">
+    <property role="TrG5h" value="Artikel1" />
+    <property role="1N0jUS" value="1" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1_VS0uKL2Ge" resolve="17-04-2020 t/m 21-04-2020" />
+    <node concept="3MKX5h" id="1spse2eiBid" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBie" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/452764cd-004c-4748-8b45-18599ceb5fb7" />
+        <node concept="19SGf9" id="1spse2eiBif" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBig" role="19SJt6">
+            <property role="19SUeA" value="In deze beleidsregel wordt verstaan onder:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBih" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/af0bf85f-33ca-463a-918c-a931aef7eeab" />
+        <node concept="3MKX5i" id="1spse2eiBii" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/9cdaf705-150c-4659-9d53-2f705d501f71" />
+          <node concept="19SGf9" id="1spse2eiBij" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBik" role="19SJt6">
+              <property role="19SUeA" value="verordening (EU) nr. 1407/2013 van de Commissie van 18december 2013 betreffende de toepassing van de artikelen 107 en 108 van het Verdrag betreffende de werking van de Europese Unie op de-minimissteun (PbEU 2013, L 352);algemene de-minimisverordening:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBil" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/96dd13e1-b8fb-4528-98da-454b7be53293" />
+          <node concept="19SGf9" id="1spse2eiBim" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBin" role="19SJt6">
+              <property role="19SUeA" value="onderneming die op 15maart 2020 stond ingeschreven in het handelsregister onder de code 47.81.1, 47.81.9, 47.82, 47.89.1, 47.89.2, 47.89.9, 49.39.1, 49.32, 50.30, 85.53 of 93.21.2 van de Standaard Bedrijfsindeling;ambulante onderneming:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBio" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/5a4afbc4-fc65-475a-ad45-18da4392dcd8" />
+          <node concept="19SGf9" id="1spse2eiBip" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBiq" role="19SJt6">
+              <property role="19SUeA" value="gedupeerde onderneming die op 15maart 2020 stond ingeschreven in het handelsregister onder een hoofdactiviteit die in de tabellen 1a, 1b of 1c van  is opgenomen, met de daarbij behorende code van de Standaard Bedrijfsindeling;bijlage 1direct gedupeerde onderneming:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBir" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/de551956-3c2b-4a3c-a84e-fc2a20b4a330" />
+          <node concept="19SGf9" id="1spse2eiBis" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBit" role="19SJt6">
+              <property role="19SUeA" value="gedupeerde onderneming die op 15maart 2020 voor wat betreft de hoofdactiviteit van de onderneming stond ingeschreven in het handelsregister onder een code, vallende onder de hoofdcode 01 van de Standaard Bedrijfsindeling, en tevens met een nevenactiviteit onder de code 55.20.1, 55.20.2, 55.30 of 93.29.9 van de Standaard Bedrijfsindeling;gedupeerde agrarische recreatieonderneming:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBiu" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/0d4686a8-6b27-43cd-8030-844e6d946ea6" />
+          <node concept="3MKX5i" id="1spse2eiBiv" role="3MKX6F">
+            <property role="1hTQn4" value="https://calculemus.org/51f5f36f-366a-4b08-922e-18cadb9a6f07" />
+            <node concept="19SGf9" id="1spse2eiBiw" role="3MLR7a">
+              <node concept="19SUe$" id="1spse2eiBix" role="19SJt6">
+                <property role="19SUeA" value="in Nederland gevestigde onderneming als bedoeld in , niet zijnde een overheidsbedrijf:artikel 5 van de Handelsregisterwet 2007gedupeerde onderneming:" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="1spse2eiBiy" role="3MKX6F">
+            <property role="1hTQn4" value="https://calculemus.org/2f768f35-182e-48ed-afc1-51f9496167a0" />
+            <node concept="3MKX6G" id="1spse2eiBiz" role="3MKX6F">
+              <property role="3MLT8O" value="a" />
+              <property role="1hTQn4" value="https://calculemus.org/b7e1dc50-86af-4415-847a-faae5249cc49" />
+              <node concept="19SGf9" id="1spse2eiBi$" role="3MLT8Q">
+                <node concept="19SUe$" id="1spse2eiBi_" role="19SJt6">
+                  <property role="19SUeA" value="die op 15maart 2020 in het handelsregister stond ingeschreven onder een hoofdactiviteit die in  is opgenomen, met de daarbij behorende code van de Standaard Bedrijfsindeling, en zoals in voorkomend geval nader geclausuleerd;bijlage 1" />
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX6G" id="1spse2eiBiA" role="3MKX6F">
+              <property role="3MLT8O" value="b" />
+              <property role="1hTQn4" value="https://calculemus.org/cdb09fa0-3f69-44e5-8c4c-7773a8d33546" />
+              <node concept="19SGf9" id="1spse2eiBiB" role="3MLT8Q">
+                <node concept="19SUe$" id="1spse2eiBiC" role="19SJt6">
+                  <property role="19SUeA" value="waar ten hoogste 250 personen werkzaam zijn, blijkend uit de inschrijving in het handelsregister op 15maart 2020; en" />
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="1spse2eiBiD" role="3MKX6F">
+              <property role="1hTQn4" value="https://calculemus.org/7b576a13-73c0-4c6e-b449-af3f2e3c7d68" />
+              <node concept="3MKX5i" id="1spse2eiBiE" role="3MKX6F">
+                <property role="1hTQn4" value="https://calculemus.org/f2fecff9-3d17-4295-b680-b5862bad6090" />
+                <node concept="19SGf9" id="1spse2eiBiF" role="3MLR7a">
+                  <node concept="19SUe$" id="1spse2eiBiG" role="19SJt6">
+                    <property role="19SUeA" value="die:" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3MKX5h" id="1spse2eiBiH" role="3MKX6F">
+                <property role="1hTQn4" value="https://calculemus.org/51bbd35d-2a0a-4e4f-a279-8a1f902012dc" />
+                <node concept="3MKX5h" id="1spse2eiBiI" role="3MKX6F">
+                  <property role="1hTQn4" value="https://calculemus.org/7aeeea94-e8d0-4e74-b06d-b64c95466aac" />
+                  <node concept="3MKX5i" id="1spse2eiBiJ" role="3MKX6F">
+                    <property role="1hTQn4" value="https://calculemus.org/17a87f51-7a8e-4dc7-b1e5-8153302ae3ea" />
+                    <node concept="19SGf9" id="1spse2eiBiK" role="3MLR7a">
+                      <node concept="19SUe$" id="1spse2eiBiL" role="19SJt6">
+                        <property role="19SUeA" value="voor zover het een onderneming, niet zijnde een horecaonderneming of een ambulante onderneming, betreft:" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="1spse2eiBiM" role="3MKX6F">
+                    <property role="1hTQn4" value="https://calculemus.org/9e28762b-9329-4690-bcb2-a9f2a1c2a986" />
+                    <node concept="3MKX5i" id="1spse2eiBiN" role="3MKX6F">
+                      <property role="1hTQn4" value="https://calculemus.org/c40cc693-517c-4c63-8507-1dd605ad2673" />
+                      <node concept="19SGf9" id="1spse2eiBiO" role="3MLR7a">
+                        <node concept="19SUe$" id="1spse2eiBiP" role="19SJt6">
+                          <property role="19SUeA" value="ten minste n vestiging heeft met een ander adres dan het privadres van de eigenaar of eigenaren van de onderneming; of" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3MKX5i" id="1spse2eiBiQ" role="3MKX6F">
+                      <property role="1hTQn4" value="https://calculemus.org/f19b2755-5f5e-4920-a275-84a1d5cfef71" />
+                      <node concept="19SGf9" id="1spse2eiBiR" role="3MLR7a">
+                        <node concept="19SUe$" id="1spse2eiBiS" role="19SJt6">
+                          <property role="19SUeA" value="een vestiging heeft die fysiek afgescheiden is van de privwoning van de eigenaar of eigenaren van de onderneming en voorzien is van een eigen opgang of toegang; of" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3MKX5i" id="1spse2eiBiT" role="3MKX6F">
+                  <property role="1hTQn4" value="https://calculemus.org/712c71ab-0153-49d1-8e67-4b93025b0865" />
+                  <node concept="19SGf9" id="1spse2eiBiU" role="3MLR7a">
+                    <node concept="19SUe$" id="1spse2eiBiV" role="19SJt6">
+                      <property role="19SUeA" value="voor zover het een horecaonderneming betreft ten minste n horecagelegenheid huurt, pacht of in eigendom heeft;" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBiW" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/c32fdb86-7569-48f4-927c-c377bc99cbc4" />
+          <node concept="19SGf9" id="1spse2eiBiX" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBiY" role="19SJt6">
+              <property role="19SUeA" value="gedupeerde onderneming die op 15maart 2020 stond ingeschreven in het handelsregister onder een hoofdactiviteit die in tabel 2 van  is opgenomen, met de daarbij behorende code van de Standaard Bedrijfsindeling;bijlage 1gedupeerde onderneming in de toeleveringsketen:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBiZ" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/f3a75760-a3b8-428b-86ff-b83f2f6888b4" />
+          <node concept="19SGf9" id="1spse2eiBj0" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBj1" role="19SJt6">
+              <property role="19SUeA" value="handelsregister als bedoeld in ;artikel 2 van de Handelsregisterwet 2007handelsregister:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBj2" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/b6089c82-f4e5-46ad-929c-73a48c8e493f" />
+          <node concept="19SGf9" id="1spse2eiBj3" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBj4" role="19SJt6">
+              <property role="19SUeA" value="onderneming die op 15maart 2020 stond ingeschreven in het handelsregister onder de code 56.10.1, 56.10.2 of 56.30 van de Standaard Bedrijfsindeling;horecaonderneming:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBj5" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/4e2758e2-552f-4f75-a243-eb3cb5532a28" />
+          <node concept="19SGf9" id="1spse2eiBj6" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBj7" role="19SJt6">
+              <property role="19SUeA" value="Minister van Economische Zaken en Klimaat;minister:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBj8" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/2133a76b-13d3-4277-9f2a-bf98c97e97ac" />
+          <node concept="19SGf9" id="1spse2eiBj9" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBja" role="19SJt6">
+              <property role="19SUeA" value="overheidsbedrijf als bedoeld in ;artikel 25g, eerste lid, van de Mededingingswetoverheidsbedrijf:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBjb" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/4631d86a-6134-40b6-a52e-4b1eab702a47" />
+          <node concept="19SGf9" id="1spse2eiBjc" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBjd" role="19SJt6">
+              <property role="19SUeA" value="verklaring van de gedupeerde onderneming waarin deze bevestigt dat de tegemoetkoming niet zal leiden tot een overschrijding van het de-minimisplafond, bedoeld in artikel 3, tweede lid, van de algemene de-minimisverordening;verklaring de-minimissteun:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBje" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/be5c6700-09c4-42ee-89ae-533855821bb0" />
+          <node concept="19SGf9" id="1spse2eiBjf" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBjg" role="19SJt6">
+              <property role="19SUeA" value="vestiging als bedoeld in .artikel 1, eerste lid, onderdeel j, van de Handelsregisterwet 2007vestiging:" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBjh">
+    <property role="TrG5h" value="Artikel2" />
+    <property role="1N0jUS" value="2" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1_VS0uKL2Ge" resolve="17-04-2020 t/m 21-04-2020" />
+    <node concept="3MKX5h" id="1spse2eiBji" role="3MKX6D">
+      <node concept="3MKX5h" id="1spse2eiBjj" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/4458eaca-95fa-4910-9f54-8f8e0b1e08ee" />
+        <node concept="3MKX5i" id="1spse2eiBjk" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/c8c0dca4-0dda-4da6-8d2d-2033a7d84467" />
+          <node concept="19SGf9" id="1spse2eiBjl" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBjm" role="19SJt6">
+              <property role="19SUeA" value="De minister verstrekt op aanvraag een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16maart 2020 tot en met 15juni 2020:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBjn" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/5e83a3cd-6d0f-4934-8676-9303a8d1db7b" />
+          <node concept="3MKX6G" id="1spse2eiBjo" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/b35eaa35-63d7-4a5d-837c-2d1c617f6646" />
+            <node concept="19SGf9" id="1spse2eiBjp" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBjq" role="19SJt6">
+                <property role="19SUeA" value="ten minste 4000, aan omzetverlies te lijden als gevolg van de maatregelen ter bestrijding van de verdere verspreiding van COVID-19;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBjr" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/431d625e-bb1f-48a8-b04e-b24c381e8496" />
+            <node concept="19SGf9" id="1spse2eiBjs" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBjt" role="19SJt6">
+                <property role="19SUeA" value="ten minste 4000, aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBju" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/5445bade-8e90-4c41-ba45-f720d6f00103" />
+        <node concept="19SGf9" id="1spse2eiBjv" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBjw" role="19SJt6">
+            <property role="19SUeA" value="Een gedupeerde agrarische recreatieonderneming komt alleen in aanmerking voor een tegemoetkoming indien het te verwachten omzetverlies, bedoeld in het eerste lid, onderdeel a, en de te verwachten vaste lasten, bedoeld in het eerste lid, onderdeel b, betrekking hebben op zijn nevenactiviteit met de code 55.20.1, 55.20.2, 55.30 of 93.29.9 van de Standaard Bedrijfsindeling." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBjx" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/de05ad39-2773-47a8-ab6f-7a3bf57ad1a2" />
+        <node concept="3MKX5i" id="1spse2eiBjy" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/78597c44-1352-4dc1-a11b-46a1df66245a" />
+          <node concept="19SGf9" id="1spse2eiBjz" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBj$" role="19SJt6">
+              <property role="19SUeA" value="In aanvulling op het eerste lid, komt een gedupeerde onderneming in de toeleveringsketen alleen in aanmerking voor een tegemoetkoming indien die onderneming het omzetverlies, bedoeld in het eerste lid, onderdeel a, verwacht te lijden doordat de onderneming voor minimaal zeventig procent van zijn omzet afhankelijk is van:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBj_" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/ccceae02-c44f-4592-ad10-79a78686cd72" />
+          <node concept="3MKX6G" id="1spse2eiBjA" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/98812c89-0760-436c-9968-4c6462ef1447" />
+            <node concept="19SGf9" id="1spse2eiBjB" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBjC" role="19SJt6">
+                <property role="19SUeA" value="direct gedupeerde ondernemingen; of" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBjD" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/21708793-4782-4e89-9d20-26076a820141" />
+            <node concept="19SGf9" id="1spse2eiBjE" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBjF" role="19SJt6">
+                <property role="19SUeA" value="activiteiten die als gevolg van de overheidsmaatregelen ter bestrijding van de verdere verspreiding van COVID-19 verboden zijn of ontraden worden." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBjG" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/1489bbbc-a5a5-4723-80fd-aa2313ba6a7a" />
+        <node concept="19SGf9" id="1spse2eiBjH" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBjI" role="19SJt6">
+            <property role="19SUeA" value="De tegemoetkoming bedraagt 4000 per gedupeerde onderneming." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBjJ">
+    <property role="TrG5h" value="Artikel3" />
+    <property role="1N0jUS" value="3" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1_VS0uKL2Ge" resolve="17-04-2020 t/m 21-04-2020" />
+    <node concept="3MKX5h" id="1spse2eiBjK" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBjL" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/36eae2fd-693b-4fac-8c9e-2bb0f70225f0" />
+        <node concept="19SGf9" id="1spse2eiBjM" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBjN" role="19SJt6">
+            <property role="19SUeA" value="De minister beslist afwijzend op een aanvraag indien:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBjO" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/1925f750-49f9-4435-87f4-315dd8777051" />
+        <node concept="3MKX6G" id="1spse2eiBjP" role="3MKX6F">
+          <property role="3MLT8O" value="a" />
+          <property role="1hTQn4" value="https://calculemus.org/1b3094b5-54cb-42b5-a3e9-fd18e04145ed" />
+          <node concept="19SGf9" id="1spse2eiBjQ" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiBjR" role="19SJt6">
+              <property role="19SUeA" value="de aanvraag niet voldoet aan de bij deze beleidsregel gestelde eisen;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiBjS" role="3MKX6F">
+          <property role="3MLT8O" value="b" />
+          <property role="1hTQn4" value="https://calculemus.org/463a043c-9dfe-473e-8a12-9fbb25e6fe3f" />
+          <node concept="19SGf9" id="1spse2eiBjT" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiBjU" role="19SJt6">
+              <property role="19SUeA" value="de gedupeerde onderneming in staat van faillissement verkeert dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming is ingediend;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiBjV" role="3MKX6F">
+          <property role="3MLT8O" value="c" />
+          <property role="1hTQn4" value="https://calculemus.org/5af55131-5501-4366-ad78-2943b2a5dadf" />
+          <node concept="19SGf9" id="1spse2eiBjW" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiBjX" role="19SJt6">
+              <property role="19SUeA" value="de tegemoetkoming niet verstrekt kan worden op grond van de algemene de-minimisverordening." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBjY">
+    <property role="TrG5h" value="Artikel4" />
+    <property role="1N0jUS" value="4" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1_VS0uKL2Ge" resolve="17-04-2020 t/m 21-04-2020" />
+    <node concept="3MKX5h" id="1spse2eiBjZ" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBk0" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/4ac9a932-7a4a-4bf6-beae-889d995aa473" />
+        <node concept="19SGf9" id="1spse2eiBk1" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBk2" role="19SJt6">
+            <property role="19SUeA" value="Een aanvraag wordt ingediend met gebruikmaking van een door de minister beschikbaar gesteld middel." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBk3" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/72a04c65-e46c-4604-89ae-a9ba7f237377" />
+        <node concept="3MKX5i" id="1spse2eiBk4" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/5a9e654f-6b86-416b-84a1-90f7ad5c747a" />
+          <node concept="19SGf9" id="1spse2eiBk5" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBk6" role="19SJt6">
+              <property role="19SUeA" value="Een aanvraag omvat in ieder geval:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBk7" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/87cc4205-f4e4-4632-9322-dc9cab6b76ed" />
+          <node concept="3MKX6G" id="1spse2eiBk8" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/88ee0061-e3e3-43da-8519-633dc9e6be37" />
+            <node concept="19SGf9" id="1spse2eiBk9" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBka" role="19SJt6">
+                <property role="19SUeA" value="gegevens over de gedupeerde onderneming, waaronder het nummer waarmee de gedupeerde onderneming geregistreerd is bij de Kamer van Koophandel, het post- en bezoekadres en het rekeningnummer dat op naam van de gedupeerde onderneming staat of, in geval de gedupeerde onderneming een eenmanszaak betreft en deze geen zakelijke rekening heeft, het rekeningnummer van de eigenaar van de eenmanszaak;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBkb" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/da539c07-cf4e-4719-8b50-f39d431b4b46" />
+            <node concept="19SGf9" id="1spse2eiBkc" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBkd" role="19SJt6">
+                <property role="19SUeA" value="gegevens over de contactpersoon bij de gedupeerde onderneming, waaronder de naam, het telefoonnummer en het e-mailadres;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBke" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/8e8c1096-53e5-469d-a8bf-71633b103b6b" />
+            <node concept="19SGf9" id="1spse2eiBkf" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBkg" role="19SJt6">
+                <property role="19SUeA" value="een verklaring dat de gedupeerde onderneming geen overheidsbedrijf is;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBkh" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/66cb76aa-d191-416d-933c-5e7dd5f1d23b" />
+            <node concept="19SGf9" id="1spse2eiBki" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBkj" role="19SJt6">
+                <property role="19SUeA" value="een verklaring de-minimissteun;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBkk" role="3MKX6F">
+            <property role="3MLT8O" value="e" />
+            <property role="1hTQn4" value="https://calculemus.org/9199c5a5-ff42-43b7-a982-1f6e96faac4f" />
+            <node concept="19SGf9" id="1spse2eiBkl" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBkm" role="19SJt6">
+                <property role="19SUeA" value="een verklaring dat de gedupeerde onderneming op het moment van aanvraag voldoet aan de bij deze beleidsregel gestelde eisen;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBkn" role="3MKX6F">
+            <property role="3MLT8O" value="f" />
+            <property role="1hTQn4" value="https://calculemus.org/c32ddb2a-2884-445e-bc4c-d0a29f7d43a0" />
+            <node concept="19SGf9" id="1spse2eiBko" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBkp" role="19SJt6">
+                <property role="19SUeA" value="een verklaring waarin de gedupeerde onderneming aangeeft dat de onderneming in de periode van 16maart 2020 tot en met 15juni 2020 een omzetverlies verwacht te lijden van ten minste 4000,;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBkq" role="3MKX6F">
+            <property role="3MLT8O" value="g" />
+            <property role="1hTQn4" value="https://calculemus.org/390e51ab-ea2d-4f65-bc6a-dc4e16f22aa9" />
+            <node concept="19SGf9" id="1spse2eiBkr" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBks" role="19SJt6">
+                <property role="19SUeA" value="een verklaring waarin de gedupeerde onderneming aangeeft dat de onderneming in de periode van 16maart 2020 tot en met 15juni 2020 verwacht ten minste 4000, aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="1spse2eiBkt" role="3MKX6F">
+            <property role="1hTQn4" value="https://calculemus.org/599406a6-22cc-4f64-9a61-90635edf6e03" />
+            <node concept="3MKX5i" id="1spse2eiBku" role="3MKX6F">
+              <property role="1hTQn4" value="https://calculemus.org/58362c86-f583-4a36-97b8-25112280f024" />
+              <node concept="19SGf9" id="1spse2eiBkv" role="3MLR7a">
+                <node concept="19SUe$" id="1spse2eiBkw" role="19SJt6">
+                  <property role="19SUeA" value="indien van toepassing: een verklaring dat de gedupeerde onderneming een vestiging heeft die fysiek afgescheiden is van de privwoning van de eigenaar of eigenaren van de onderneming en voorzien is van een eigen opgang of toegang, en een bewijsstuk ter onderbouwing van deze verklaring zoals:" />
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="1spse2eiBkx" role="3MKX6F">
+              <property role="1hTQn4" value="https://calculemus.org/4e12a9f1-f6d8-4612-883e-573f26190efa" />
+              <node concept="3MKX5i" id="1spse2eiBky" role="3MKX6F">
+                <property role="1hTQn4" value="https://calculemus.org/aceec154-727b-41e4-9381-e51b7c120339" />
+                <node concept="19SGf9" id="1spse2eiBkz" role="3MLR7a">
+                  <node concept="19SUe$" id="1spse2eiBk$" role="19SJt6">
+                    <property role="19SUeA" value="een kopie van een zakelijke huur- of koopovereenkomst van de vestiging; of" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3MKX5i" id="1spse2eiBk_" role="3MKX6F">
+                <property role="1hTQn4" value="https://calculemus.org/c45c4664-deb1-4f20-a1cf-d21de86f6656" />
+                <node concept="19SGf9" id="1spse2eiBkA" role="3MLR7a">
+                  <node concept="19SUe$" id="1spse2eiBkB" role="19SJt6">
+                    <property role="19SUeA" value="een kopie van de belastingaangifte van het jaar 2019 of 2020 waaruit blijkt dat er sprake is van een werkruimte waarvan de vaste lasten en kosten fiscaal aftrekbaar zijn als bedoeld in ;artikel 3.16, eerste lid, van de Wet inkomstenbelasting 2001" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBkC" role="3MKX6F">
+            <property role="3MLT8O" value="i" />
+            <property role="1hTQn4" value="https://calculemus.org/cdc819c9-3447-4295-b15c-72ed0e3b70af" />
+            <node concept="19SGf9" id="1spse2eiBkD" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBkE" role="19SJt6">
+                <property role="19SUeA" value="voor zover het een gedupeerde agrarische recreatieonderneming betreft: een verklaring dat het te verwachten omzetverlies, bedoeld in , en de te verwachten vaste lasten, bedoeld in artikel 2, eerste lid, onderdeel b, betrekking hebben op zijn nevenactiviteit met de code 55.20.1, 55.20.2, 55.30 of 93.29.9 van de Standaard Bedrijfsindeling; enartikel 2, eerste lid, onderdeel a" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="1spse2eiBkF" role="3MKX6F">
+            <property role="1hTQn4" value="https://calculemus.org/ccb49460-b2da-4f4d-b626-86d0c4fb1fbb" />
+            <node concept="3MKX5i" id="1spse2eiBkG" role="3MKX6F">
+              <property role="1hTQn4" value="https://calculemus.org/15378228-bc58-4ed5-b139-32c35bb1972f" />
+              <node concept="19SGf9" id="1spse2eiBkH" role="3MLR7a">
+                <node concept="19SUe$" id="1spse2eiBkI" role="19SJt6">
+                  <property role="19SUeA" value="voor zover het een gedupeerde onderneming in de toeleveringsketen betreft: een verklaring dat de onderneming het omzetverlies, bedoeld in , verwacht te lijden doordat de onderneming voor minimaal zeventig procent van zijn omzet afhankelijk is van:artikel 2, eerste lid, onderdeel a" />
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="1spse2eiBkJ" role="3MKX6F">
+              <property role="1hTQn4" value="https://calculemus.org/471e14f1-7414-4637-8ebd-a05386fd6c82" />
+              <node concept="3MKX5i" id="1spse2eiBkK" role="3MKX6F">
+                <property role="1hTQn4" value="https://calculemus.org/f88b7c37-6756-4246-ab19-7b9ea41ce071" />
+                <node concept="19SGf9" id="1spse2eiBkL" role="3MLR7a">
+                  <node concept="19SUe$" id="1spse2eiBkM" role="19SJt6">
+                    <property role="19SUeA" value="direct gedupeerde ondernemingen; of" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3MKX5i" id="1spse2eiBkN" role="3MKX6F">
+                <property role="1hTQn4" value="https://calculemus.org/7976d820-2352-42b9-810e-841edf28b92f" />
+                <node concept="19SGf9" id="1spse2eiBkO" role="3MLR7a">
+                  <node concept="19SUe$" id="1spse2eiBkP" role="19SJt6">
+                    <property role="19SUeA" value="activiteiten die als gevolg van de overheidsmaatregelen ter bestrijding van de verdere verspreiding van COVID-19 verboden zijn of ontraden worden." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBkQ" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/19726f36-6428-4082-812f-389c902f4877" />
+        <node concept="19SGf9" id="1spse2eiBkR" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBkS" role="19SJt6">
+            <property role="19SUeA" value="Een aanvraag kan worden ingediend in de periode van 27maart 2020 tot en met 26juni 2020." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBkT">
+    <property role="TrG5h" value="Artikel5" />
+    <property role="1N0jUS" value="5" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1_VS0uKL2Ge" resolve="17-04-2020 t/m 21-04-2020" />
+    <node concept="3MKX5h" id="1spse2eiBkU" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBkV" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/2ca379d9-6373-46d1-8f77-c4bbdf01398f" />
+        <node concept="19SGf9" id="1spse2eiBkW" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBkX" role="19SJt6">
+            <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBkY">
+    <property role="TrG5h" value="Artikel6" />
+    <property role="1N0jUS" value="6" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1_VS0uKL2Ge" resolve="17-04-2020 t/m 21-04-2020" />
+    <node concept="3MKX5h" id="1spse2eiBkZ" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBl0" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/6b31f866-6538-46c8-a093-d3fa710087fd" />
+        <node concept="19SGf9" id="1spse2eiBl1" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBl2" role="19SJt6">
+            <property role="19SUeA" value="De minister kan de hoogte van de tegemoetkoming binnen vijf jaar na de verstrekking herzien dan wel de beschikking tot de tegemoetkoming intrekken, indien blijkt dat de tegemoetkoming, door onjuiste gegevensverstrekking door de gedupeerde onderneming, niet in overeenstemming met deze beleidsregel is verstrekt, of indien de gedupeerde onderneming de bewijsstukken, bedoeld in het tweede lid, niet overlegt." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBl3" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/0306e6fc-13a8-42b8-b4ea-b5641f0550d1" />
+        <node concept="3MKX5i" id="1spse2eiBl4" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/1edf937c-2706-48f9-b436-f97fec193727" />
+          <node concept="19SGf9" id="1spse2eiBl5" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBl6" role="19SJt6">
+              <property role="19SUeA" value="Indien van toepassing, overlegt de gedupeerde onderneming desgevraagd gedurende vijf jaar na de verstrekking van de tegemoetkoming de volgende bewijsstukken aan de minister:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBl7" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/df3d515c-1fde-44d2-b1e2-37f304456be8" />
+          <node concept="3MKX6G" id="1spse2eiBl8" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/c93c82d7-1f8b-452a-a2b6-564760171bc6" />
+            <node concept="19SGf9" id="1spse2eiBl9" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBla" role="19SJt6">
+                <property role="19SUeA" value="aanvullende bewijsstukken waaruit blijkt dat de gedupeerde onderneming op het moment van de aanvraag van de tegemoetkoming een vestiging had die fysiek afgescheiden was van de privwoning van de eigenaar of eigenaren van de onderneming en voorzien was van een eigen opgang of toegang;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBlb" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/34ee0086-c059-4ae4-a116-3163d9a07ce9" />
+            <node concept="19SGf9" id="1spse2eiBlc" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBld" role="19SJt6">
+                <property role="19SUeA" value="voor zover het een gedupeerde agrarische recreatieonderneming betreft: bewijsstukken waaruit blijkt waar de verklaring, bedoeld in , op gebaseerd is, zoals een kopie van de omzetgegevens uit de boekhouding of van de aangifte van de omzetbelasting over 2019 of 2020;artikel 4, tweede lid, onderdeel i" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBle" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/c811215a-8353-465a-ac90-e84bda414ace" />
+            <node concept="19SGf9" id="1spse2eiBlf" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBlg" role="19SJt6">
+                <property role="19SUeA" value="voor zover het een gedupeerde onderneming in de toeleveringsketen betreft: bewijsstukken waaruit blijkt waar de verklaring, bedoeld in , op gebaseerd is, zoals een kopie van de omzetgegevens uit de boekhouding of van de aangifte van de omzetbelasting over 2019 of 2020.artikel 4, tweede lid, onderdeel j" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBlh">
+    <property role="TrG5h" value="Artikel7" />
+    <property role="1N0jUS" value="7" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1_VS0uKL2Ge" resolve="17-04-2020 t/m 21-04-2020" />
+    <node concept="3MKX5h" id="1spse2eiBli" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBlj" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/683d88c5-2172-4b0a-a194-e96dff0ed19e" />
+        <node concept="19SGf9" id="1spse2eiBlk" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBll" role="19SJt6">
+            <property role="19SUeA" value="De tegemoetkoming, bedoeld in , bevat staatssteun en wordt gerechtvaardigd door de algemene de-minimisverordening.artikel 2" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBlm">
+    <property role="TrG5h" value="Artikel8" />
+    <property role="1N0jUS" value="8" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1_VS0uKL2Ge" resolve="17-04-2020 t/m 21-04-2020" />
+    <node concept="3MKX5h" id="1spse2eiBln" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBlo" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/f9707118-c13a-4312-96a0-559f035084a3" />
+        <node concept="19SGf9" id="1spse2eiBlp" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBlq" role="19SJt6">
+            <property role="19SUeA" value="Deze beleidsregel treedt in werking met ingang van de dag na de datum van uitgifte van de Staatscourant waarin zij wordt geplaatst, en werkt terug tot en met 27maart 2020." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBlr" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/2117bbb8-b112-423d-a76b-78959011d67a" />
+        <node concept="19SGf9" id="1spse2eiBls" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBlt" role="19SJt6">
+            <property role="19SUeA" value="Deze beleidsregel vervalt met ingang van 1januari 2021, met dien verstande dat de beleidsregel van toepassing blijft op aanvragen om tegemoetkoming die uiterlijk 26juni 2020 zijn ingediend, dan wel op tegemoetkomingen die voor 1januari 2021 zijn verstrekt." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBlu">
+    <property role="TrG5h" value="Artikel9" />
+    <property role="1N0jUS" value="9" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1_VS0uKL2Ge" resolve="17-04-2020 t/m 21-04-2020" />
+    <node concept="3MKX5h" id="1spse2eiBlv" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBlw" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/d613e0f3-1c9a-4ebc-a581-fc2f58fb34b6" />
+        <node concept="19SGf9" id="1spse2eiBlx" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBly" role="19SJt6">
+            <property role="19SUeA" value="Deze beleidsregel wordt aangehaald als: Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBnr">
+    <property role="TrG5h" value="Artikel1" />
+    <property role="1N0jUS" value="1" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eizY2" resolve="21-12-2018 t/m heden" />
+    <node concept="3MKX5h" id="1spse2eiBns" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBnt" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/7563acec-7134-4666-b889-59c297f76d6c" />
+        <node concept="19SGf9" id="1spse2eiBnu" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBnv" role="19SJt6">
+            <property role="19SUeA" value="In deze beleidsregel wordt verstaan onder:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBnw" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/cc3b1bdd-2b38-443c-a38a-a6471a7a143b" />
+        <node concept="3MKX5i" id="1spse2eiBnx" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/c0c75408-b503-419c-83e3-d37c1379d33e" />
+          <node concept="19SGf9" id="1spse2eiBny" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBnz" role="19SJt6">
+              <property role="19SUeA" value="gedupeerde onderneming die op 15maart 2020 stond ingeschreven in het handelsregister onder een hoofdactiviteit die in tabel 2 van  is opgenomen, met de daarbij behorende code van de Standaard Bedrijfsindeling;bijlage 1gedupeerde onderneming in de toeleveringsketen:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBn$" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/1f50b83b-1e17-4015-94a4-08361ec8a770" />
+          <node concept="19SGf9" id="1spse2eiBn_" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBnA" role="19SJt6">
+              <property role="19SUeA" value="handelsregister als bedoeld in ;artikel 2 van de Handelsregisterwet 2007handelsregister:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBnB" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/5bc148f6-fdb2-4509-bf35-d2a936b389d4" />
+          <node concept="19SGf9" id="1spse2eiBnC" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBnD" role="19SJt6">
+              <property role="19SUeA" value="onderneming die op 15maart 2020 stond ingeschreven in het handelsregister onder de code 56.10.1, 56.10.2 of 56.30 van de Standaard Bedrijfsindeling;horecaonderneming:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBnE" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/5d182438-2bcd-4826-af2e-aa6f1d25f793" />
+          <node concept="19SGf9" id="1spse2eiBnF" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBnG" role="19SJt6">
+              <property role="19SUeA" value="Minister van Economische Zaken en Klimaat;minister:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBnH" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/95f0eee4-ef30-44c3-b60c-5d23f79f8e38" />
+          <node concept="19SGf9" id="1spse2eiBnI" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBnJ" role="19SJt6">
+              <property role="19SUeA" value="overheidsbedrijf als bedoeld in ;artikel 25g, eerste lid, van de Mededingingswetoverheidsbedrijf:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBnK" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/5ed01d7e-2e60-439d-a4bb-5e334e2aca6b" />
+          <node concept="19SGf9" id="1spse2eiBnL" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBnM" role="19SJt6">
+              <property role="19SUeA" value="verklaring van de gedupeerde onderneming waarin deze bevestigt dat de tegemoetkoming niet zal leiden tot een overschrijding van het de-minimisplafond, bedoeld in artikel 3, tweede lid, van de algemene de-minimisverordening;verklaring de-minimissteun:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBnN" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/8df530f1-e342-4b40-a293-625d8fd8e56d" />
+          <node concept="19SGf9" id="1spse2eiBnO" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBnP" role="19SJt6">
+              <property role="19SUeA" value="vestiging als bedoeld in .artikel 1, eerste lid, onderdeel j, van de Handelsregisterwet 2007vestiging:" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBnQ">
+    <property role="TrG5h" value="Artikel2" />
+    <property role="1N0jUS" value="2" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eizY2" resolve="21-12-2018 t/m heden" />
+    <node concept="3MKX5h" id="1spse2eiBnR" role="3MKX6D">
+      <node concept="3MKX5h" id="1spse2eiBnS" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/a70ac4b4-1f37-430c-9ffb-db5d1e9bd292" />
+        <node concept="3MKX5i" id="1spse2eiBnT" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/9ec16096-34cd-4cef-9dba-74e8240d3d3d" />
+          <node concept="19SGf9" id="1spse2eiBnU" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBnV" role="19SJt6">
+              <property role="19SUeA" value="De minister verstrekt op aanvraag een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16maart 2020 tot en met 15juni 2020:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBnW" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/3e77d6f6-83be-4593-b1cd-e78cbf588953" />
+          <node concept="3MKX6G" id="1spse2eiBnX" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/15d2ae91-cd04-4974-a6dc-7128597d6ebe" />
+            <node concept="19SGf9" id="1spse2eiBnY" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBnZ" role="19SJt6">
+                <property role="19SUeA" value="ten minste 4000, aan omzetverlies te lijden als gevolg van de maatregelen ter bestrijding van de verdere verspreiding van COVID-19;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBo0" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/95fbd48d-9105-4da7-8626-ea9b0c016127" />
+            <node concept="19SGf9" id="1spse2eiBo1" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBo2" role="19SJt6">
+                <property role="19SUeA" value="ten minste 4000, aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBo3" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/9d1e6f65-bc98-4b93-8712-69cc77d1bf24" />
+        <node concept="19SGf9" id="1spse2eiBo4" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBo5" role="19SJt6">
+            <property role="19SUeA" value="Een gedupeerde agrarische recreatieonderneming komt alleen in aanmerking voor een tegemoetkoming indien het te verwachten omzetverlies, bedoeld in het eerste lid, onderdeel a, en de te verwachten vaste lasten, bedoeld in het eerste lid, onderdeel b, betrekking hebben op zijn nevenactiviteit met de code 55.20.1, 55.20.2, 55.30 of 93.29.9 van de Standaard Bedrijfsindeling." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBo6" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/695d2e15-73b8-4b82-b63b-a014a740706c" />
+        <node concept="3MKX5i" id="1spse2eiBo7" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/76f65df4-34da-48b5-ba83-913f1028783b" />
+          <node concept="19SGf9" id="1spse2eiBo8" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBo9" role="19SJt6">
+              <property role="19SUeA" value="In aanvulling op het eerste lid, komt een gedupeerde onderneming in de toeleveringsketen alleen in aanmerking voor een tegemoetkoming indien die onderneming het omzetverlies, bedoeld in het eerste lid, onderdeel a, verwacht te lijden doordat de onderneming voor minimaal zeventig procent van zijn omzet afhankelijk is van:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBoa" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/2d4c99df-f949-4841-9ef3-159bb18a147a" />
+          <node concept="3MKX6G" id="1spse2eiBob" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/916328ae-09e3-4455-8416-3d6a3067eac6" />
+            <node concept="19SGf9" id="1spse2eiBoc" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBod" role="19SJt6">
+                <property role="19SUeA" value="direct gedupeerde ondernemingen; of" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBoe" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/47d5e4d4-8d84-46b1-a31e-f71c21fbac6f" />
+            <node concept="19SGf9" id="1spse2eiBof" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBog" role="19SJt6">
+                <property role="19SUeA" value="activiteiten die als gevolg van de overheidsmaatregelen ter bestrijding van de verdere verspreiding van COVID-19 verboden zijn of ontraden worden." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBoh" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/a33095a2-e2ca-4b8b-8a59-fc6279d89c44" />
+        <node concept="19SGf9" id="1spse2eiBoi" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBoj" role="19SJt6">
+            <property role="19SUeA" value="De tegemoetkoming bedraagt 4000 per gedupeerde onderneming." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBok">
+    <property role="TrG5h" value="Artikel3" />
+    <property role="1N0jUS" value="3" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eizY2" resolve="21-12-2018 t/m heden" />
+    <node concept="3MKX5h" id="1spse2eiBol" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBom" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/1ab233c4-9ec3-4402-bd01-c26c706b0768" />
+        <node concept="19SGf9" id="1spse2eiBon" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBoo" role="19SJt6">
+            <property role="19SUeA" value="De minister beslist afwijzend op een aanvraag indien:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBop" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/16430fa0-539d-4aef-82aa-1cecd75e6d5b" />
+        <node concept="3MKX6G" id="1spse2eiBoq" role="3MKX6F">
+          <property role="3MLT8O" value="a" />
+          <property role="1hTQn4" value="https://calculemus.org/1b0a2dd7-5315-4bbb-9437-edd5c8f2a0ee" />
+          <node concept="19SGf9" id="1spse2eiBor" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiBos" role="19SJt6">
+              <property role="19SUeA" value="de aanvraag niet voldoet aan de bij deze beleidsregel gestelde eisen;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiBot" role="3MKX6F">
+          <property role="3MLT8O" value="b" />
+          <property role="1hTQn4" value="https://calculemus.org/32fbbdbb-8c24-4f8f-b890-c489032451ad" />
+          <node concept="19SGf9" id="1spse2eiBou" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiBov" role="19SJt6">
+              <property role="19SUeA" value="de gedupeerde onderneming in staat van faillissement verkeert dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming is ingediend;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiBow" role="3MKX6F">
+          <property role="3MLT8O" value="c" />
+          <property role="1hTQn4" value="https://calculemus.org/33dcb688-c026-428d-b1f9-ee2856ac8daa" />
+          <node concept="19SGf9" id="1spse2eiBox" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiBoy" role="19SJt6">
+              <property role="19SUeA" value="de tegemoetkoming niet verstrekt kan worden op grond van de algemene de-minimisverordening." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBoz">
+    <property role="TrG5h" value="Artikel4" />
+    <property role="1N0jUS" value="4" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eizY2" resolve="21-12-2018 t/m heden" />
+    <node concept="3MKX5h" id="1spse2eiBo$" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBo_" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/ee9e5629-c5e6-4584-b724-6f755809d058" />
+        <node concept="19SGf9" id="1spse2eiBoA" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBoB" role="19SJt6">
+            <property role="19SUeA" value="Een aanvraag wordt ingediend met gebruikmaking van een door de minister beschikbaar gesteld middel." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBoC" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/b03ae4b9-010f-4383-8984-9f04de5cba9d" />
+        <node concept="3MKX5i" id="1spse2eiBoD" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/0315b167-6e3e-487b-9940-77330f8d3b61" />
+          <node concept="19SGf9" id="1spse2eiBoE" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBoF" role="19SJt6">
+              <property role="19SUeA" value="Een aanvraag omvat in ieder geval:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBoG" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/d5fe203a-32e7-47d0-8fcb-58510b0300e2" />
+          <node concept="3MKX6G" id="1spse2eiBoH" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/e236050f-248d-42bb-ba3a-261054befeff" />
+            <node concept="19SGf9" id="1spse2eiBoI" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBoJ" role="19SJt6">
+                <property role="19SUeA" value="gegevens over de gedupeerde onderneming, waaronder het nummer waarmee de gedupeerde onderneming geregistreerd is bij de Kamer van Koophandel, het post- en bezoekadres en het rekeningnummer dat op naam van de gedupeerde onderneming staat of, in geval de gedupeerde onderneming een eenmanszaak betreft en deze geen zakelijke rekening heeft, het rekeningnummer van de eigenaar van de eenmanszaak;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBoK" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/5879430b-e5c6-4d06-ba6b-a954c410aeb0" />
+            <node concept="19SGf9" id="1spse2eiBoL" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBoM" role="19SJt6">
+                <property role="19SUeA" value="gegevens over de contactpersoon bij de gedupeerde onderneming, waaronder de naam, het telefoonnummer en het e-mailadres;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBoN" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/b4a1b4de-3df7-4f08-b993-5da3499f4df8" />
+            <node concept="19SGf9" id="1spse2eiBoO" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBoP" role="19SJt6">
+                <property role="19SUeA" value="een verklaring dat de gedupeerde onderneming geen overheidsbedrijf is;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBoQ" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/dc6c38ac-43ca-472a-ba9f-427744fc1739" />
+            <node concept="19SGf9" id="1spse2eiBoR" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBoS" role="19SJt6">
+                <property role="19SUeA" value="een verklaring de-minimissteun;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBoT" role="3MKX6F">
+            <property role="3MLT8O" value="e" />
+            <property role="1hTQn4" value="https://calculemus.org/a427735b-4c34-45b5-84f1-08106bee013c" />
+            <node concept="19SGf9" id="1spse2eiBoU" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBoV" role="19SJt6">
+                <property role="19SUeA" value="een verklaring dat de gedupeerde onderneming op het moment van aanvraag voldoet aan de bij deze beleidsregel gestelde eisen;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBoW" role="3MKX6F">
+            <property role="3MLT8O" value="f" />
+            <property role="1hTQn4" value="https://calculemus.org/2ffb09d2-ae95-4739-83c6-5dc4c9c7de19" />
+            <node concept="19SGf9" id="1spse2eiBoX" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBoY" role="19SJt6">
+                <property role="19SUeA" value="een verklaring waarin de gedupeerde onderneming aangeeft dat de onderneming in de periode van 16maart 2020 tot en met 15juni 2020 een omzetverlies verwacht te lijden van ten minste 4000,;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBoZ" role="3MKX6F">
+            <property role="3MLT8O" value="g" />
+            <property role="1hTQn4" value="https://calculemus.org/91500d6d-4464-4b3b-a39f-4c51a0af15c5" />
+            <node concept="19SGf9" id="1spse2eiBp0" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBp1" role="19SJt6">
+                <property role="19SUeA" value="een verklaring waarin de gedupeerde onderneming aangeeft dat de onderneming in de periode van 16maart 2020 tot en met 15juni 2020 verwacht ten minste 4000, aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="1spse2eiBp2" role="3MKX6F">
+            <property role="1hTQn4" value="https://calculemus.org/01640a6e-6c99-44bc-bb85-1156f3a94b20" />
+            <node concept="3MKX5i" id="1spse2eiBp3" role="3MKX6F">
+              <property role="1hTQn4" value="https://calculemus.org/3816c847-8234-4591-aeb9-7cfc2e8d4ba4" />
+              <node concept="19SGf9" id="1spse2eiBp4" role="3MLR7a">
+                <node concept="19SUe$" id="1spse2eiBp5" role="19SJt6">
+                  <property role="19SUeA" value="indien van toepassing: een verklaring dat de gedupeerde onderneming een vestiging heeft die fysiek afgescheiden is van de privwoning van de eigenaar of eigenaren van de onderneming en voorzien is van een eigen opgang of toegang, en een bewijsstuk ter onderbouwing van deze verklaring zoals:" />
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="1spse2eiBp6" role="3MKX6F">
+              <property role="1hTQn4" value="https://calculemus.org/393d035d-83d3-411b-a57b-2cccb6297517" />
+              <node concept="3MKX5i" id="1spse2eiBp7" role="3MKX6F">
+                <property role="1hTQn4" value="https://calculemus.org/20cda280-d9ba-4df9-ab9e-72752086fb3f" />
+                <node concept="19SGf9" id="1spse2eiBp8" role="3MLR7a">
+                  <node concept="19SUe$" id="1spse2eiBp9" role="19SJt6">
+                    <property role="19SUeA" value="een kopie van een zakelijke huur- of koopovereenkomst van de vestiging; of" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3MKX5i" id="1spse2eiBpa" role="3MKX6F">
+                <property role="1hTQn4" value="https://calculemus.org/87861058-4306-4779-be36-4de1441ec484" />
+                <node concept="19SGf9" id="1spse2eiBpb" role="3MLR7a">
+                  <node concept="19SUe$" id="1spse2eiBpc" role="19SJt6">
+                    <property role="19SUeA" value="een kopie van de belastingaangifte van het jaar 2019 of 2020 waaruit blijkt dat er sprake is van een werkruimte waarvan de vaste lasten en kosten fiscaal aftrekbaar zijn als bedoeld in ;artikel 3.16, eerste lid, van de Wet inkomstenbelasting 2001" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBpd" role="3MKX6F">
+            <property role="3MLT8O" value="i" />
+            <property role="1hTQn4" value="https://calculemus.org/db063bf1-b464-444a-b857-97d6cadaacdb" />
+            <node concept="19SGf9" id="1spse2eiBpe" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBpf" role="19SJt6">
+                <property role="19SUeA" value="voor zover het een gedupeerde agrarische recreatieonderneming betreft: een verklaring dat het te verwachten omzetverlies, bedoeld in , en de te verwachten vaste lasten, bedoeld in artikel 2, eerste lid, onderdeel b, betrekking hebben op zijn nevenactiviteit met de code 55.20.1, 55.20.2, 55.30 of 93.29.9 van de Standaard Bedrijfsindeling; enartikel 2, eerste lid, onderdeel a" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="1spse2eiBpg" role="3MKX6F">
+            <property role="1hTQn4" value="https://calculemus.org/7457dbf1-a309-4a3c-8550-04ee4b144042" />
+            <node concept="3MKX5i" id="1spse2eiBph" role="3MKX6F">
+              <property role="1hTQn4" value="https://calculemus.org/fae7034a-834f-4b5a-aa1b-4e776d476266" />
+              <node concept="19SGf9" id="1spse2eiBpi" role="3MLR7a">
+                <node concept="19SUe$" id="1spse2eiBpj" role="19SJt6">
+                  <property role="19SUeA" value="voor zover het een gedupeerde onderneming in de toeleveringsketen betreft: een verklaring dat de onderneming het omzetverlies, bedoeld in , verwacht te lijden doordat de onderneming voor minimaal zeventig procent van zijn omzet afhankelijk is van:artikel 2, eerste lid, onderdeel a" />
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="1spse2eiBpk" role="3MKX6F">
+              <property role="1hTQn4" value="https://calculemus.org/b57ac51d-dd0b-43ff-adb5-83f7e5a247ad" />
+              <node concept="3MKX5i" id="1spse2eiBpl" role="3MKX6F">
+                <property role="1hTQn4" value="https://calculemus.org/ff0334c6-f79a-4af8-aa9c-d1a26281b44b" />
+                <node concept="19SGf9" id="1spse2eiBpm" role="3MLR7a">
+                  <node concept="19SUe$" id="1spse2eiBpn" role="19SJt6">
+                    <property role="19SUeA" value="direct gedupeerde ondernemingen; of" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3MKX5i" id="1spse2eiBpo" role="3MKX6F">
+                <property role="1hTQn4" value="https://calculemus.org/6f30412a-8ae1-4331-bc81-289bebc5c06c" />
+                <node concept="19SGf9" id="1spse2eiBpp" role="3MLR7a">
+                  <node concept="19SUe$" id="1spse2eiBpq" role="19SJt6">
+                    <property role="19SUeA" value="activiteiten die als gevolg van de overheidsmaatregelen ter bestrijding van de verdere verspreiding van COVID-19 verboden zijn of ontraden worden." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBpr" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/572282c4-a88f-450b-9723-477bb432977a" />
+        <node concept="19SGf9" id="1spse2eiBps" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBpt" role="19SJt6">
+            <property role="19SUeA" value="Een aanvraag kan worden ingediend in de periode van 27maart 2020 tot en met 26juni 2020." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBpu">
+    <property role="TrG5h" value="Artikel5" />
+    <property role="1N0jUS" value="5" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eizY2" resolve="21-12-2018 t/m heden" />
+    <node concept="3MKX5h" id="1spse2eiBpv" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBpw" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/5a3f3ddc-03ed-4cf4-a006-c228f6f40b00" />
+        <node concept="19SGf9" id="1spse2eiBpx" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBpy" role="19SJt6">
+            <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBpz">
+    <property role="TrG5h" value="Artikel6" />
+    <property role="1N0jUS" value="6" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eizY2" resolve="21-12-2018 t/m heden" />
+    <node concept="3MKX5h" id="1spse2eiBp$" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBp_" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/886f7b91-9a9f-410d-b5a6-80167f837036" />
+        <node concept="19SGf9" id="1spse2eiBpA" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBpB" role="19SJt6">
+            <property role="19SUeA" value="De minister kan de hoogte van de tegemoetkoming binnen vijf jaar na de verstrekking herzien dan wel de beschikking tot de tegemoetkoming intrekken, indien blijkt dat de tegemoetkoming, door onjuiste gegevensverstrekking door de gedupeerde onderneming, niet in overeenstemming met deze beleidsregel is verstrekt, of indien de gedupeerde onderneming de bewijsstukken, bedoeld in het tweede lid, niet overlegt." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBpC" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/2f988503-55df-4619-bca4-d74a88acd72a" />
+        <node concept="3MKX5i" id="1spse2eiBpD" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/2dc55fbe-b894-49bb-b48e-d5ca78942d0b" />
+          <node concept="19SGf9" id="1spse2eiBpE" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBpF" role="19SJt6">
+              <property role="19SUeA" value="Indien van toepassing, overlegt de gedupeerde onderneming desgevraagd gedurende vijf jaar na de verstrekking van de tegemoetkoming de volgende bewijsstukken aan de minister:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBpG" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/e88a11c5-b8f7-4e45-b53c-277eaad0a358" />
+          <node concept="3MKX6G" id="1spse2eiBpH" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/caf02a2c-988e-4809-ae2a-56f6c5838919" />
+            <node concept="19SGf9" id="1spse2eiBpI" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBpJ" role="19SJt6">
+                <property role="19SUeA" value="aanvullende bewijsstukken waaruit blijkt dat de gedupeerde onderneming op het moment van de aanvraag van de tegemoetkoming een vestiging had die fysiek afgescheiden was van de privwoning van de eigenaar of eigenaren van de onderneming en voorzien was van een eigen opgang of toegang;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBpK" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/4b01c16e-3ff2-4d61-8452-a10e3ad0bad5" />
+            <node concept="19SGf9" id="1spse2eiBpL" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBpM" role="19SJt6">
+                <property role="19SUeA" value="voor zover het een gedupeerde agrarische recreatieonderneming betreft: bewijsstukken waaruit blijkt waar de verklaring, bedoeld in , op gebaseerd is, zoals een kopie van de omzetgegevens uit de boekhouding of van de aangifte van de omzetbelasting over 2019 of 2020;artikel 4, tweede lid, onderdeel i" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBpN" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/a14fc019-f85b-4f07-9881-8a807ac6b0f2" />
+            <node concept="19SGf9" id="1spse2eiBpO" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBpP" role="19SJt6">
+                <property role="19SUeA" value="voor zover het een gedupeerde onderneming in de toeleveringsketen betreft: bewijsstukken waaruit blijkt waar de verklaring, bedoeld in , op gebaseerd is, zoals een kopie van de omzetgegevens uit de boekhouding of van de aangifte van de omzetbelasting over 2019 of 2020.artikel 4, tweede lid, onderdeel j" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBpQ">
+    <property role="TrG5h" value="Artikel7" />
+    <property role="1N0jUS" value="7" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eizY2" resolve="21-12-2018 t/m heden" />
+    <node concept="3MKX5h" id="1spse2eiBpR" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBpS" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/da81f6c5-9284-418d-a581-3c2b3ff5fc13" />
+        <node concept="19SGf9" id="1spse2eiBpT" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBpU" role="19SJt6">
+            <property role="19SUeA" value="De tegemoetkoming, bedoeld in , bevat staatssteun en wordt gerechtvaardigd door de algemene de-minimisverordening.artikel 2" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBpV">
+    <property role="TrG5h" value="Artikel8" />
+    <property role="1N0jUS" value="8" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eizY2" resolve="21-12-2018 t/m heden" />
+    <node concept="3MKX5h" id="1spse2eiBpW" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBpX" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/f4fd1404-4a98-4ea7-b913-d0e34d504e74" />
+        <node concept="19SGf9" id="1spse2eiBpY" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBpZ" role="19SJt6">
+            <property role="19SUeA" value="Deze beleidsregel treedt in werking met ingang van de dag na de datum van uitgifte van de Staatscourant waarin zij wordt geplaatst, en werkt terug tot en met 27maart 2020." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBq0" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/cf8f3950-1432-40fe-93f4-70cadaf13000" />
+        <node concept="19SGf9" id="1spse2eiBq1" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBq2" role="19SJt6">
+            <property role="19SUeA" value="Deze beleidsregel vervalt met ingang van 1januari 2021, met dien verstande dat de beleidsregel van toepassing blijft op aanvragen om tegemoetkoming die uiterlijk 26juni 2020 zijn ingediend, dan wel op tegemoetkomingen die voor 1januari 2021 zijn verstrekt." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBq3">
+    <property role="TrG5h" value="Artikel9" />
+    <property role="1N0jUS" value="9" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eizY2" resolve="21-12-2018 t/m heden" />
+    <node concept="3MKX5h" id="1spse2eiBq4" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBq5" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/a12fc690-d665-4f80-adbc-b9f079d4bbc1" />
+        <node concept="19SGf9" id="1spse2eiBq6" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBq7" role="19SJt6">
+            <property role="19SUeA" value="Deze beleidsregel wordt aangehaald als: Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBKe">
+    <property role="TrG5h" value="Hoofdstuk1Afdeling1Artikel1.1" />
+    <property role="1N0jUS" value="11" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBKf" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBKg" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/d8bab595-d01f-4169-918a-63d8a7f44908" />
+        <node concept="19SGf9" id="1spse2eiBKh" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBKi" role="19SJt6">
+            <property role="19SUeA" value="In dit besluit en de daarop berustende bepalingen wordt verstaan onder:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBKj" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/84c33540-3d03-460b-b124-0937590a3d0e" />
+        <node concept="3MKX5i" id="1spse2eiBKk" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/5afd9028-fb70-4485-bc07-237b8f240100" />
+          <node concept="19SGf9" id="1spse2eiBKl" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBKm" role="19SJt6">
+              <property role="19SUeA" value="Beneluxgebied: het gezamenlijke grondgebied in Europa van het Koninkrijk Belgi, van het Groothertogdom Luxemburg en van het Koninkrijk der Nederlanden;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBKn" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/339d8448-f498-46e8-9230-01dcc5781710" />
+          <node concept="19SGf9" id="1spse2eiBKo" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBKp" role="19SJt6">
+              <property role="19SUeA" value="Benelux-onderdanen: de onderdanen van de staten die partij zijn bij het op 3 februari 1958 te &amp;#39;s-Gravenhage tot stand gekomen Verdrag tot instelling van de Benelux Economische Unie (Trb. 1958, 18);" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBKq" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/1acf5ade-3b7b-4b2c-bb92-323899056f43" />
+          <node concept="19SGf9" id="1spse2eiBKr" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBKs" role="19SJt6">
+              <property role="19SUeA" value="continentaal plat: hetgeen daaronder wordt verstaan in ;artikel 1, onderdeel c, van de Mijnbouwwet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBKt" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/a1e7e7e0-8e8b-4f0c-86b7-c42aa2ed9075" />
+          <node concept="19SGf9" id="1spse2eiBKu" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBKv" role="19SJt6">
+              <property role="19SUeA" value="cruiseschip: hetgeen daaronder in de Schengengrenscode wordt verstaan;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBKw" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/e3094fab-a74d-417d-bb9a-9c559927fec1" />
+          <node concept="19SGf9" id="1spse2eiBKx" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBKy" role="19SJt6">
+              <property role="19SUeA" value="de Wet: de ;Vreemdelingenwet 2000" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBKz" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/88ad2450-ac6e-4033-97ed-3e3948411ca3" />
+          <node concept="19SGf9" id="1spse2eiBK$" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBK_" role="19SJt6">
+              <property role="19SUeA" value="Europese blauwe kaart: de verblijfsvergunning regulier voor bepaalde tijd, afgegeven ter uitvoering van artikel 7 van , dan wel een door een andere staat die partij is bij het Verdrag betreffende de werking van de Europese Unie afgegeven verblijfsvergunning ter uitvoering van dat artikel;richtlijn 2009/50/EG" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBKA" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/061438c4-4fb7-4c4c-9e33-c3ff7de3d336" />
+          <node concept="19SGf9" id="1spse2eiBKB" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBKC" role="19SJt6">
+              <property role="19SUeA" value="EU-verblijfsvergunning voor langdurig ingezetenen: de EU-verblijfsvergunning voor langdurig ingezetenen, bedoeld in ;artikel 45a van de Wet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBKD" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/975f2c3d-86b6-4a8a-9812-8fdc47c1678a" />
+          <node concept="19SGf9" id="1spse2eiBKE" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBKF" role="19SJt6">
+              <property role="19SUeA" value="gezinsvorming: gezinshereniging van de echtgenoot, geregistreerde partner of niet-geregistreerde partner, voor zover de gezinsband tot stand is gekomen op een tijdstip waarop de hoofdpersoon in Nederland hoofdverblijf had;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBKG" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/ae49c234-e60d-49f0-818d-04cebde22e48" />
+          <node concept="19SGf9" id="1spse2eiBKH" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBKI" role="19SJt6">
+              <property role="19SUeA" value="luchtvaartuig: hetgeen daaronder wordt verstaan in ;artikel 1, eerste lid, onder b, van de Luchtvaartwet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBKJ" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/21731fef-82cb-4ba5-9a03-d405a7b67e91" />
+          <node concept="19SGf9" id="1spse2eiBKK" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBKL" role="19SJt6">
+              <property role="19SUeA" value="mijnbouwinstallatie: hetgeen daaronder wordt verstaan in ;artikel 1, onderdeel o, van de Mijnbouwwet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBKM" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/19857b16-69eb-4484-a9ff-48d40b394c9c" />
+          <node concept="19SGf9" id="1spse2eiBKN" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBKO" role="19SJt6">
+              <property role="19SUeA" value="richtlijn langdurig ingezetenen:  van de Raad van de Europese Unie van 25november 2003 betreffende de status van langdurig ingezeten onderdanen van derde landen (PbEU 2004, L16), zoals gewijzigd door /EU van het Europees Parlement en de Raad teneinde haar werkingssfeer uit te breiden tot personen die internationale bescherming genieten (PbEU 2011, L132);richtlijn nr. 2003/109/EG" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBKP" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/c8302b90-9c89-43bf-a895-a327ef7c299d" />
+          <node concept="19SGf9" id="1spse2eiBKQ" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBKR" role="19SJt6">
+              <property role="19SUeA" value=":  van de Raad van 25 mei 2009 betreffende de voorwaarden voor toegang en verblijf van onderdanen van derde landen met het oog op een hooggekwalificeerde baan (PbEU L155);richtlijn 2009/50/EG" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBKS" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/92799129-13b8-4be4-8f66-178ee7443faf" />
+          <node concept="19SGf9" id="1spse2eiBKT" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBKU" role="19SJt6">
+              <property role="19SUeA" value="/EU: /EU van het Europees Parlement en de Raad van 15mei 2014 betreffende de voorwaarden voor toegang en verblijf van onderdanen van derde landen in het kader van een overplaatsing binnen een onderneming (PbEU 2014, L157);richtlijn 2014/66" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBKV" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/4d29a21f-5cbf-4676-9cce-be71fe845892" />
+          <node concept="19SGf9" id="1spse2eiBKW" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBKX" role="19SJt6">
+              <property role="19SUeA" value="richtlijn (EU) 2016/801 van het Europees Parlement en de Raad van 11mei 2016 betreffende de voorwaarden voor toegang en verblijf van derdelanders met het oog op onderzoek, studie, stages, vrijwilligerswerk, scholierenuitwisseling, educatieve projecten of au-pairactiviteiten (herschikking) (PbEU 2016, L132);richtlijn (EU) 2016/801:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBKY" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/3a21edec-e739-49cd-a3ed-88c3f3ed763b" />
+          <node concept="19SGf9" id="1spse2eiBKZ" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBL0" role="19SJt6">
+              <property role="19SUeA" value="Schengeninformatiesysteem: het in artikel 1, eerste lid, van de Verordening (EG) nr.1987/2006 van het Europees parlement en de Raad van 20december 2006 betreffende de instelling, de werking en het gebruik van het Schengensysteem van de tweede generatie (SIS II) bedoelde informatiesysteem (PbEU 2006, L381);" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBL1" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/ef7fef2f-b661-4099-ad18-001b9c233648" />
+          <node concept="19SGf9" id="1spse2eiBL2" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBL3" role="19SJt6">
+              <property role="19SUeA" value="Schengen Uitvoeringsovereenkomst: de op 19 juni 1990 te Schengen tot stand gekomen Overeenkomst ter uitvoering van het tussen de regeringen van de staten van de Benelux Economische Unie, de bondsrepubliek Duitsland en de Franse republiek op 14 juni 1985 te Schengen gesloten akkoord betreffende de geleidelijke afschaffing van de controles aan de gemeenschappelijke grenzen (Trb. 1990, 145), alsmede de daarop gebaseerde Protocollen;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBL4" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/2e77da1f-5ed2-414f-a74d-db62ed9dfe6e" />
+          <node concept="19SGf9" id="1spse2eiBL5" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBL6" role="19SJt6">
+              <property role="19SUeA" value="Schengengebied: het grondgebied van de staten waarop de Schengengrenscode en de Schengen Uitvoeringsovereenkomst van toepassing zijn;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBL7" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/2a1fb137-88ba-4e5c-991f-52e9f5980f03" />
+          <node concept="19SGf9" id="1spse2eiBL8" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBL9" role="19SJt6">
+              <property role="19SUeA" value="schip: hetgeen daaronder wordt verstaan in ;artikel 1, eerste lid, onder b, van de Scheepvaartverkeerswet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBLa" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/2619d532-d8da-48df-85af-78effe5c2668" />
+          <node concept="19SGf9" id="1spse2eiBLb" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBLc" role="19SJt6">
+              <property role="19SUeA" value="staatloze: de persoon die voor de toepassing van het op 28 september 1954 te New York gesloten verdrag betreffende de status van staatlozen (Trb. 1955, 42 en 1957, 22) als staatloze geldt;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBLd" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/743ea624-92bb-47ca-911c-1b04d9ecf3ca" />
+          <node concept="19SGf9" id="1spse2eiBLe" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBLf" role="19SJt6">
+              <property role="19SUeA" value="tewerkstellingsvergunning: de vergunning, bedoeld in ;artikel 1, onder e, van de Wet arbeid vreemdelingen" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBLg" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/08bceb18-8eae-43fc-97ae-37a347a8fb1b" />
+          <node concept="19SGf9" id="1spse2eiBLh" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBLi" role="19SJt6">
+              <property role="19SUeA" value="verblijfsvergunning asiel voor bepaalde tijd: de verblijfsvergunning, bedoeld in ;artikel 28 van de Wet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBLj" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/2123016f-091c-43d0-9284-0ebd6433a7dc" />
+          <node concept="19SGf9" id="1spse2eiBLk" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBLl" role="19SJt6">
+              <property role="19SUeA" value="verblijfsvergunning asiel voor onbepaalde tijd: de verblijfsvergunning, bedoeld in ;artikel 33 van de Wet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBLm" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/9b685675-7d51-450a-b3d5-4c7e3c03f4f8" />
+          <node concept="19SGf9" id="1spse2eiBLn" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBLo" role="19SJt6">
+              <property role="19SUeA" value="verblijfsvergunning regulier voor bepaalde tijd: de verblijfsvergunning, bedoeld in ;artikel 14 van de Wet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBLp" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/fed74ef2-f96c-4d70-8917-43cdceb1a2e8" />
+          <node concept="19SGf9" id="1spse2eiBLq" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBLr" role="19SJt6">
+              <property role="19SUeA" value="verblijfsvergunning regulier voor onbepaalde tijd: de verblijfsvergunning, bedoeld in ;artikel 20 van de Wet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBLs" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/5a3686cc-03aa-49b2-b151-ab51fa58e747" />
+          <node concept="19SGf9" id="1spse2eiBLt" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBLu" role="19SJt6">
+              <property role="19SUeA" value="vliegtuig: hetgeen daaronder wordt verstaan in ;artikel 1, eerste lid, onder c, van de Luchtvaartwet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBLv" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/095ec972-0c03-496e-9fba-17366617e8a9" />
+          <node concept="19SGf9" id="1spse2eiBLw" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBLx" role="19SJt6">
+              <property role="19SUeA" value="vreemdelingenadministratie: de vreemdelingenadministratie, bedoeld in .artikel 107 van de Wet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5i" id="1spse2eiBLy" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/e518dd36-ad00-4f30-8540-01a39d7454e4" />
+          <node concept="19SGf9" id="1spse2eiBLz" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBL$" role="19SJt6">
+              <property role="19SUeA" value="zeeschip: hetgeen daaronder wordt verstaan in ;artikel 1, tweede lid, onder c, van de Scheepvaartverkeerswet" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBL_">
+    <property role="TrG5h" value="Hoofdstuk1Afdeling1Artikel1.2" />
+    <property role="1N0jUS" value="12" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBLA" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBLB" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/43f9ffd5-f1c7-4b05-b0d1-71d9803ac33f" />
+        <node concept="19SGf9" id="1spse2eiBLC" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBLD" role="19SJt6">
+            <property role="19SUeA" value="In dit besluit wordt verstaan onder:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBLE" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/f797ff5f-9638-4d93-8362-d76dd35e2932" />
+        <node concept="3MKX6G" id="1spse2eiBLF" role="3MKX6F">
+          <property role="3MLT8O" value="a" />
+          <property role="1hTQn4" value="https://calculemus.org/7dca57a4-a841-4434-8e6c-aff0da70416a" />
+          <node concept="19SGf9" id="1spse2eiBLG" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiBLH" role="19SJt6">
+              <property role="19SUeA" value="het visum, bedoeld in artikel 2, punt 2, onder a, van de Verordening nr.810/2009/EG van het Europees Parlement en de Raad van 13juli 2009 tot vaststelling van een gemeenschappelijke Visumcode (Visumcode) (PbEU, L243);reisvisum:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiBLI" role="3MKX6F">
+          <property role="3MLT8O" value="b" />
+          <property role="1hTQn4" value="https://calculemus.org/a191867e-555a-4cc9-9e35-45e8e705f538" />
+          <node concept="19SGf9" id="1spse2eiBLJ" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiBLK" role="19SJt6">
+              <property role="19SUeA" value="het visum, bedoeld in artikel 2, punt 2, onder b, van de Visumcode.doorreisvisum:" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBLL">
+    <property role="TrG5h" value="Hoofdstuk1Afdeling1Artikel1.3" />
+    <property role="1N0jUS" value="13" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBLM" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBLN" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/3047ab16-b372-4ea1-987f-8a7c7f4b051f" />
+        <node concept="19SGf9" id="1spse2eiBLO" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBLP" role="19SJt6">
+            <property role="19SUeA" value="Ter uitvoering van een verdrag of een EU-verordening, -richtlijn of -besluit, op grond waarvan de grenscontrole plaatsvindt aan de buitengrenzen van het Schengengebied, wordt in , alsmede in de  en , , , , , , en , onder Nederland mede verstaan: de tot het Schengengebied behorende grondgebieden van andere staten.hoofdstuk 4, afdeling 1" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBLQ">
+    <property role="TrG5h" value="Hoofdstuk1Afdeling1Artikel1.4" />
+    <property role="1N0jUS" value="14" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBLR" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBLS" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/afbc8af9-e6da-4385-845d-3487251d491f" />
+        <node concept="19SGf9" id="1spse2eiBLT" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBLU" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister kan van zijn bevoegdheden mandaat verlenen aan de burgemeester, de korpschef en de bevelhebber van de Koninklijke marechaussee." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBLV" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/2b1e3f80-7bc7-444d-8991-369f7a268898" />
+        <node concept="19SGf9" id="1spse2eiBLW" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBLX" role="19SJt6">
+            <property role="19SUeA" value="De burgemeester, de korpschef en de bevelhebber van de Koninklijke marechaussee kunnen ondermandaat verlenen aan de onder hen ressorterende ambtenaren voorzover dat in overeenstemming is met de taak en functie van de desbetreffende ambtenaar." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBLY">
+    <property role="TrG5h" value="Hoofdstuk1Afdeling2Paragraaf1Artikel1.5" />
+    <property role="1N0jUS" value="15" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBLZ" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBM0" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/208e1407-bf79-43c7-afee-7feff3d03536" />
+        <node concept="19SGf9" id="1spse2eiBM1" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBM2" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBM3">
+    <property role="TrG5h" value="Hoofdstuk1Afdeling2Paragraaf2Artikel1.6" />
+    <property role="1N0jUS" value="16" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBM4" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBM5" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/6c7061b2-09d2-4f91-a29a-a1fbacde79a3" />
+        <node concept="19SGf9" id="1spse2eiBM6" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBM7" role="19SJt6">
+            <property role="19SUeA" value="De commissie kan haar werkwijze nader vaststellen in een reglement van orde als bedoeld in .artikel 21 van de Kaderwet adviescolleges" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBM8">
+    <property role="TrG5h" value="Hoofdstuk1Afdeling2Paragraaf2Artikel1.7" />
+    <property role="1N0jUS" value="17" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBM9" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBMa" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/82b7b89a-f616-4614-b38b-860ea0b5956e" />
+        <node concept="19SGf9" id="1spse2eiBMb" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBMc" role="19SJt6">
+            <property role="19SUeA" value="De commissie adviseert schriftelijk en met redenen omkleed." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBMd" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/c7817011-1ca5-40ab-8e15-c73ee47fc0fb" />
+        <node concept="19SGf9" id="1spse2eiBMe" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBMf" role="19SJt6">
+            <property role="19SUeA" value="De adviezen vermelden de namen van de personen die ter vergadering aanwezig zijn geweest. Zij vermelden tevens met welke stemmenverhouding zij zijn vastgesteld." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBMg" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/2651696e-e1a0-46eb-8e44-74e257e5053b" />
+        <node concept="19SGf9" id="1spse2eiBMh" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBMi" role="19SJt6">
+            <property role="19SUeA" value="Het advies wordt door de voorzitter en de secretaris ondertekend." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBMj">
+    <property role="TrG5h" value="Hoofdstuk1Afdeling3Paragraaf1Artikel1.8" />
+    <property role="1N0jUS" value="18" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBMk" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBMl" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/398316dd-30b1-4563-bf10-6fbc69704f38" />
+        <node concept="19SGf9" id="1spse2eiBMm" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBMn" role="19SJt6">
+            <property role="19SUeA" value="Ten behoeve van het verblijf van een vreemdeling die in Nederland verblijft of wil verblijven als familie- of gezinslid, kan als referent optreden de hoofdpersoon bij wie de vreemdeling als familie- of gezinslid verblijft of wil verblijven." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBMo">
+    <property role="TrG5h" value="Hoofdstuk1Afdeling3Paragraaf1Artikel1.9" />
+    <property role="1N0jUS" value="19" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBMp" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBMq" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/f1fbd9fa-b83a-4454-9534-2d241edf3af5" />
+        <node concept="19SGf9" id="1spse2eiBMr" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBMs" role="19SJt6">
+            <property role="19SUeA" value="Ten behoeve van het verblijf van een vreemdeling die in Nederland verblijft of wil verblijven voor het verrichten van arbeid als kennismigrant, kan als referent optreden de krachtens  als referent erkende werkgever, met wie de vreemdeling een arbeidsovereenkomst of gastovereenkomst heeft gesloten of die de vreemdeling heeft aangesteld en die, voor zover op grond van de  vereist, is ingeschreven in het handelsregister, bedoeld in .artikel 2c van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBMt" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/0bb31454-811b-4bb7-b41c-ca92915e02fe" />
+        <node concept="19SGf9" id="1spse2eiBMu" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBMv" role="19SJt6">
+            <property role="19SUeA" value="Ten behoeve van het verblijf van een vreemdeling, die in Nederland verblijft of wil verblijven als houder van de Europese blauwe kaart, kan als referent optreden de werkgever, met wie de vreemdeling een arbeidsovereenkomst of gastovereenkomst heeft gesloten of die de vreemdeling heeft aangesteld." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBMw" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/c505497f-7152-4bf7-babc-15aa81f2b041" />
+        <node concept="19SGf9" id="1spse2eiBMx" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBMy" role="19SJt6">
+            <property role="19SUeA" value="Ten behoeve van het verblijf van een vreemdeling die in Nederland verblijft of wil verblijven voor een overplaatsing binnen een onderneming, kan als referent optreden de gastentiteit in de zin van artikel 3, onder d, van /EU.richtlijn 2014/66" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBMz">
+    <property role="TrG5h" value="Hoofdstuk2Afdeling2Artikel2.3" />
+    <property role="1N0jUS" value="23" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBM$" role="3MKX6D">
+      <node concept="3MKX5h" id="1spse2eiBM_" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/bb957e01-61ca-412f-bab3-50500f547741" />
+        <node concept="3MKX5i" id="1spse2eiBMA" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/f752c4ae-4b2b-432a-b975-934b4740d9e4" />
+          <node concept="19SGf9" id="1spse2eiBMB" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBMC" role="19SJt6">
+              <property role="19SUeA" value="Onverminderd de overige terzake bij de  gestelde vereisten, wordt toegang tot Nederland niet geweigerd op grond van , indien de vreemdeling in het bezit is van:Wet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBMD" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/f75268c2-a067-4f5a-ba16-0e62b82cb640" />
+          <node concept="3MKX6G" id="1spse2eiBME" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/52bc0897-1759-44e6-862e-46e7d60dd22c" />
+            <node concept="19SGf9" id="1spse2eiBMF" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBMG" role="19SJt6">
+                <property role="19SUeA" value="een geldig document voor grensoverschrijding dat is voorzien van een geldige machtiging tot voorlopig verblijf, indien hij zich naar Nederland begeeft voor een verblijf aldaar van langer dan 90dagen, of" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBMH" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/3d089019-a1dc-4156-bc63-0a3ad45ab60d" />
+            <node concept="19SGf9" id="1spse2eiBMI" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBMJ" role="19SJt6">
+                <property role="19SUeA" value="een door Onze Minister afgegeven verklaring die aan hem recht geeft op terugkeer naar Nederland." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBMK" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/74a7868a-814d-46c1-a0cd-a544188401b4" />
+        <node concept="19SGf9" id="1spse2eiBML" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBMM" role="19SJt6">
+            <property role="19SUeA" value="Een afzonderlijke geldige machtiging tot voorlopig verblijf wordt gelijkgesteld met een geldig document voor grensoverschrijding, indien de vreemdeling tevens in het bezit is van het in deze machtiging vermelde document." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBMN" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/a4462762-c4b9-4c65-bb36-7db187929097" />
+        <node concept="3MKX5i" id="1spse2eiBMO" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/ea0f39d3-15e1-4224-b041-897a18909869" />
+          <node concept="19SGf9" id="1spse2eiBMP" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBMQ" role="19SJt6">
+              <property role="19SUeA" value="In afwijking van het eerste lid wordt toegang niet geweigerd indien de vreemdeling zich naar Nederland begeeft voor een verblijf van langer dan 90dagen en hij in het bezit is van een geldig document voor grensoverschrijding waarin de benodigde machtiging tot voorlopig verblijf ontbreekt, mits de vreemdeling:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBMR" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/1ca47667-dc36-4cd9-b51a-f45976fe6780" />
+          <node concept="3MKX6G" id="1spse2eiBMS" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/5925401e-21eb-4c48-b80e-4cf47358b95e" />
+            <node concept="19SGf9" id="1spse2eiBMT" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBMU" role="19SJt6">
+                <property role="19SUeA" value="de nationaliteit bezit van n van bij ministerile regeling aan te wijzen staten, of" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBMV" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/f0faab73-7cca-42d4-9aaa-96d166739ccd" />
+            <node concept="19SGf9" id="1spse2eiBMW" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBMX" role="19SJt6">
+                <property role="19SUeA" value="behoort tot een bij ministerile regeling aan te wijzen categorie." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBMY" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/c3257f89-305b-4d6b-bf2b-b571452eabe4" />
+        <node concept="19SGf9" id="1spse2eiBMZ" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBN0" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kan, ter uitvoering van een verdrag, dan wel een besluit van een volkenrechtelijke organisatie, van het eerste lid worden afgeweken ten gunste van vreemdelingen ten aanzien van het bezit van een document voor grensoverschrijding." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBN1">
+    <property role="TrG5h" value="Hoofdstuk2Afdeling2Artikel2.4" />
+    <property role="1N0jUS" value="24" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBN2" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBN3" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/3e444026-6cbe-414f-b6e0-bad93198c09a" />
+        <node concept="19SGf9" id="1spse2eiBN4" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBN5" role="19SJt6">
+            <property role="19SUeA" value="Aan de vreemdeling, die als passagier van een vliegtuig een vliegveld aandoet en in wiens geldig document voor grensoverschrijding het voor binnenkomst in het Beneluxgebied vereiste reisvisum of doorreisvisum met oponthoud ontbreekt, kan toegang tot het Beneluxgebied worden verleend." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBN6" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/14dfdad2-da5e-4332-a909-282a3602c291" />
+        <node concept="3MKX5i" id="1spse2eiBN7" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/294a6dbd-a6a3-401e-81a7-4383934f74bd" />
+          <node concept="19SGf9" id="1spse2eiBN8" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBN9" role="19SJt6">
+              <property role="19SUeA" value="Toegang wordt slechts verleend, indien:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBNa" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/7bee019a-21fa-498f-aa86-be28ef52d8e7" />
+          <node concept="3MKX6G" id="1spse2eiBNb" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/7710fc24-0996-4ddc-9a98-c9b5839bddac" />
+            <node concept="19SGf9" id="1spse2eiBNc" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBNd" role="19SJt6">
+                <property role="19SUeA" value="de onderbreking plaats vindt wegens van de wil van de vreemdeling onafhankelijke omstandigheden;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBNe" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/dba3e67e-d8b8-46a6-8718-5f1d77bd1759" />
+            <node concept="19SGf9" id="1spse2eiBNf" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBNg" role="19SJt6">
+                <property role="19SUeA" value="hij van n van de in het derde lid van dit artikel bedoelde vliegvelden zal vertrekken;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBNh" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/62c8d97b-6ce2-471f-abaf-2f0858030450" />
+            <node concept="19SGf9" id="1spse2eiBNi" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBNj" role="19SJt6">
+                <property role="19SUeA" value="hij in het bezit is van een geldig document voor grensoverschrijding en reisbiljetten op grond waarvan zijn doorreis naar en zijn toegang tot het land van bestemming vaststaat, en" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBNk" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/9a7ede5f-4cf3-4dd0-90bc-6cf4f79f9d62" />
+            <node concept="19SGf9" id="1spse2eiBNl" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBNm" role="19SJt6">
+                <property role="19SUeA" value="hij voldoet aan .artikel 12, eerste lid, onder b en d, van de Wet" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBNn" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/c4eeb1da-32e6-4102-88bf-3c29e30f86c0" />
+        <node concept="19SGf9" id="1spse2eiBNo" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBNp" role="19SJt6">
+            <property role="19SUeA" value="De toegang wordt slechts verleend, indien de vreemdeling een bij ministerile regeling aangewezen vliegveld in Nederland aandoet, dan wel een daartoe aangewezen vliegveld in Belgi of Luxemburg." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBNq" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/6e012746-d5b9-468e-97fc-5faed065ef10" />
+        <node concept="19SGf9" id="1spse2eiBNr" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBNs" role="19SJt6">
+            <property role="19SUeA" value="De toegang wordt verleend voor de duur waarop de doorreis per eerstvolgende gelegenheid kan worden voortgezet." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBNt" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/c6c04ca3-4ec9-49a6-82bc-c9d5e17c0de2" />
+        <node concept="19SGf9" id="1spse2eiBNu" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBNv" role="19SJt6">
+            <property role="19SUeA" value="Indien toegang wordt verleend, stelt de ambtenaar belast met de grensbewaking ter plaatse in het geldig document voor grensoverschrijding van de vreemdeling een aantekening, dan wel verstrekt hij aan de vreemdeling een afzonderlijke verklaring, waaruit het verlenen van toegang blijkt." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBNw" role="3MKX6F">
+        <property role="3MLT8O" value="6" />
+        <property role="1hTQn4" value="https://calculemus.org/19331aa5-8894-4a29-9925-04c37c37e8a1" />
+        <node concept="19SGf9" id="1spse2eiBNx" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBNy" role="19SJt6">
+            <property role="19SUeA" value="Het model van de aantekening en verklaring, bedoeld in het vijfde lid, wordt bij ministerile regeling vastgesteld." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBNz">
+    <property role="TrG5h" value="Hoofdstuk2Afdeling2Artikel2.5" />
+    <property role="1N0jUS" value="25" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBN$" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBN_" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/7a3c62a9-5af9-4617-8396-5b979c879482" />
+        <node concept="19SGf9" id="1spse2eiBNA" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBNB" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBNC">
+    <property role="TrG5h" value="Hoofdstuk2Afdeling2Artikel2.6" />
+    <property role="1N0jUS" value="26" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBND" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBNE" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/0963ba44-ab09-434c-933d-340a1d6a0616" />
+        <node concept="19SGf9" id="1spse2eiBNF" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBNG" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBNH">
+    <property role="TrG5h" value="Hoofdstuk2Afdeling2Artikel2.7" />
+    <property role="1N0jUS" value="27" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBNI" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBNJ" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/f0aa3566-0c19-4a8d-b355-3f61243704a5" />
+        <node concept="19SGf9" id="1spse2eiBNK" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBNL" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBNM">
+    <property role="TrG5h" value="Hoofdstuk2Afdeling2Artikel2.8" />
+    <property role="1N0jUS" value="28" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBNN" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBNO" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/64f57848-e1ea-4e35-8cbf-cfdbda9931fa" />
+        <node concept="19SGf9" id="1spse2eiBNP" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBNQ" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBNR">
+    <property role="TrG5h" value="Hoofdstuk2Afdeling3Artikel2.9" />
+    <property role="1N0jUS" value="29" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBNS" role="3MKX6D">
+      <node concept="3MKX5h" id="1spse2eiBNT" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/c49c9586-1b70-4c7e-b087-6ad0e766fb8a" />
+        <node concept="3MKX5i" id="1spse2eiBNU" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/0ac72dc5-d094-4252-8c21-b65889222f01" />
+          <node concept="19SGf9" id="1spse2eiBNV" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBNW" role="19SJt6">
+              <property role="19SUeA" value="Toegang tot Nederland wordt in ieder geval geweigerd op grond van het feit dat de vreemdeling een gevaar oplevert voor de openbare orde of de nationale veiligheid, bedoeld in , indien:artikel 3, eerste lid, onder b, van de Wet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBNX" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/e2e54419-afef-4190-8abf-fc401b001147" />
+          <node concept="3MKX6G" id="1spse2eiBNY" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/f47a337b-c501-45ae-a499-463c9a8cf09d" />
+            <node concept="19SGf9" id="1spse2eiBNZ" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBO0" role="19SJt6">
+                <property role="19SUeA" value="er ten aanzien van de vreemdeling concrete aanwijzingen zijn dat deze een inbreuk op de openbare orde of nationale veiligheid heeft gepleegd of zal plegen, of" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBO1" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/f2dbcbcf-b777-494f-838b-0627aa499198" />
+            <node concept="19SGf9" id="1spse2eiBO2" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBO3" role="19SJt6">
+                <property role="19SUeA" value="de vreemdeling in het opsporingsregister of het Schengen Informatiesysteem ter fine van weigering staat gesignaleerd." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBO4" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/425b82b3-3941-47c3-9963-5acfab6ed3de" />
+        <node concept="19SGf9" id="1spse2eiBO5" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBO6" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid blijft buiten toepassing, indien Onze Minister op grond van humanitaire overwegingen, om redenen van nationaal belang of wegens internationale verplichtingen een afwijking noodzakelijk acht." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBO7" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/cc6c628a-1790-4764-823d-1d88ee204c00" />
+        <node concept="19SGf9" id="1spse2eiBO8" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBO9" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid is niet van toepassing op de vreemdeling die rechtmatig verblijf heeft als bedoeld in , en het familielid, bedoeld in , en de vreemdeling, bedoeld in . Op deze vreemdelingen is  van toepassing.artikel 8.7, tweede en derde lidartikel 8, onder e, dan wel l, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBOa">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling1Artikel3.1" />
+    <property role="1N0jUS" value="31" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBOb" role="3MKX6D">
+      <node concept="3MKX5h" id="1spse2eiBOc" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/421a6ac2-d655-4240-a7f2-54b5b85d9c91" />
+        <node concept="3MKX5i" id="1spse2eiBOd" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/2a711636-d142-4fdf-9e8d-640390ebf70d" />
+          <node concept="19SGf9" id="1spse2eiBOe" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBOf" role="19SJt6">
+              <property role="19SUeA" value="Het indienen van een aanvraag tot het verlenen van een verblijfsvergunning anders dan bedoeld in het tweede lid alsmede het indienen van een aanvraag tot het wijzigen of verlengen van een verblijfsvergunning regulier voor bepaalde tijd of een verblijfsvergunning asiel voor bepaalde tijd heeft tot gevolg dat de uitzetting achterwege blijft, tenzij:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBOg" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/c09bb09f-1590-4a72-9f31-970468ca6dd9" />
+          <node concept="3MKX6G" id="1spse2eiBOh" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/0de82d2c-06e9-4e42-9a80-2ddcbee0eeb6" />
+            <node concept="19SGf9" id="1spse2eiBOi" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBOj" role="19SJt6">
+                <property role="19SUeA" value="de aanvraag naar het voorlopig oordeel van Onze Minister een herhaalde aanvraag betreft; of" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBOk" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/004b5dfd-9d86-42a8-ae05-a3e265241be1" />
+            <node concept="19SGf9" id="1spse2eiBOl" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBOm" role="19SJt6">
+                <property role="19SUeA" value="de aanvraag naar het voorlopig oordeel van Onze Minister kan worden afgewezen op de grond dat de vreemdeling een gevaar vormt voor de openbare orde of nationale veiligheid." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBOn" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/20e4b01d-32c6-4c60-84d5-c9f45a949216" />
+        <node concept="3MKX5i" id="1spse2eiBOo" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/4feece98-cf1c-4066-b0a0-29e92ca32b79" />
+          <node concept="19SGf9" id="1spse2eiBOp" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBOq" role="19SJt6">
+              <property role="19SUeA" value="Het indienen van een aanvraag tot het verlenen van een verblijfsvergunning asiel voor bepaalde tijd heeft tot gevolg dat de uitzetting achterwege blijft, tenzij:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBOr" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/d6ec2135-9033-43ae-b2d3-6e5ef00c46fb" />
+          <node concept="3MKX6G" id="1spse2eiBOs" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/feaa96c6-c3f4-47fe-8679-b1898453a67b" />
+            <node concept="19SGf9" id="1spse2eiBOt" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBOu" role="19SJt6">
+                <property role="19SUeA" value="de vreemdeling een opvolgende aanvraag heeft ingediend nadat een eerdere opvolgende aanvraag definitief is afgewezen met toepassing van , definitief niet-ontvankelijk is verklaard met toepassing van  of definitief als kennelijk ongegrond of als ongegrond is afgewezen met toepassing van  of , en geen nieuwe elementen of bevindingen aan de orde zijn gekomen die relevant kunnen zijn voor de beoordeling van de aanvraag;artikel 4:6 van de Algemene wet bestuursrecht" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBOv" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/e7a979bd-c48e-454e-99bc-8ec23e5a1ad2" />
+            <node concept="19SGf9" id="1spse2eiBOw" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBOx" role="19SJt6">
+                <property role="19SUeA" value="een eerdere aanvraag niet in behandeling is genomen op grond van  en geen nieuwe elementen of bevindingen aan de orde zijn gekomen die relevant kunnen zijn voor de beoordeling van de aanvraag;artikel 30 van de Wet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBOy" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/9a39f7b8-5f9f-4fe1-bab2-7127be1bfaa5" />
+            <node concept="19SGf9" id="1spse2eiBOz" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBO$" role="19SJt6">
+                <property role="19SUeA" value="de vreemdeling die de aanvraag heeft ingediend, wordt overgeleverd of uitgeleverd hetzij aan een andere lidstaat uit hoofde van verplichtingen overeenkomstig een Europees aanhoudingsbevel of anderszins, hetzij aan internationale strafhoven of tribunalen;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBO_" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/2eb744ae-65dc-4525-97ec-b012beae3b4e" />
+            <node concept="19SGf9" id="1spse2eiBOA" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBOB" role="19SJt6">
+                <property role="19SUeA" value="de vreemdeling die de aanvraag heeft ingediend, wordt overgeleverd of uitgeleverd aan een derde land; of" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBOC" role="3MKX6F">
+            <property role="3MLT8O" value="e" />
+            <property role="1hTQn4" value="https://calculemus.org/6ec301b3-5d70-4f25-b587-ef66143a6f39" />
+            <node concept="19SGf9" id="1spse2eiBOD" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBOE" role="19SJt6">
+                <property role="19SUeA" value="de vreemdeling een eerste opvolgende aanvraag heeft ingediend louter teneinde de uitvoering van het terugkeerbesluit te vertragen of te verhinderen en de aanvraag niet-ontvankelijk kan worden verklaard op grond van .artikel 30a, eerste lid, onderdeel d, van de Wet" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBOF" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/f6b41eed-584d-43c6-8249-3ed35ad95e11" />
+        <node concept="19SGf9" id="1spse2eiBOG" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBOH" role="19SJt6">
+            <property role="19SUeA" value="De uitzonderingen, bedoeld in het tweede lid zijn niet van toepassing, indien uitzetting zou leiden tot een schending van het Vluchtelingenverdrag, Unierechtelijke verplichtingen, het Verdrag tot bescherming van de rechten van de mens en de fundamentele vrijheden of het Verdrag tegen foltering en andere wrede onmenselijke of onterende behandeling of bestraffing." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBOI" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/243a231c-a8c8-4a64-81e2-6d95a958ebe6" />
+        <node concept="3MKX5i" id="1spse2eiBOJ" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/250eb824-3a37-43ae-a28e-e6891be98246" />
+          <node concept="19SGf9" id="1spse2eiBOK" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBOL" role="19SJt6">
+              <property role="19SUeA" value="Bij de beoordeling of sprake is van een aanvraag die louter is ingediend teneinde de uitvoering van het terugkeerbesluit te vertragen of te verhinderen als bedoeld in het tweede lid, onderdeel e, worden alle omstandigheden van het geval betrokken, waaronder met name:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBOM" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/687632a1-5f34-429b-94a6-22c964b04f23" />
+          <node concept="3MKX6G" id="1spse2eiBON" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/6f2f99f7-3394-4121-9568-bbfe0c96916d" />
+            <node concept="19SGf9" id="1spse2eiBOO" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBOP" role="19SJt6">
+                <property role="19SUeA" value="de termijn waarbinnen de vreemdeling zijn aanvraag om een verblijfsvergunning asiel voor bepaalde tijd kenbaar heeft gemaakt in het licht van zijn verklaringen hieromtrent;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBOQ" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/f182d14b-9c89-4c74-851e-e08063dd2e7d" />
+            <node concept="19SGf9" id="1spse2eiBOR" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBOS" role="19SJt6">
+                <property role="19SUeA" value="de omstandigheden waaronder de vreemdeling is aangetroffen dan wel zijn aanvraag kenbaar heeft gemaakt;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBOT" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/91150d61-656b-434f-b15c-2e8c43d788a6" />
+            <node concept="19SGf9" id="1spse2eiBOU" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBOV" role="19SJt6">
+                <property role="19SUeA" value="of de vreemdeling in het Schengeninformatiesysteem ter zake van een inreisverbod gesignaleerd staat;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBOW" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/339a5341-52fa-44c0-b25d-4985a8ba146e" />
+            <node concept="19SGf9" id="1spse2eiBOX" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBOY" role="19SJt6">
+                <property role="19SUeA" value="de gestelde nationaliteit in het licht van de toepassing van ;artikel 30b, eerste lid, onder b van de Wet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBOZ" role="3MKX6F">
+            <property role="3MLT8O" value="e" />
+            <property role="1hTQn4" value="https://calculemus.org/c06048e6-e66c-4d15-8783-74df1cce2946" />
+            <node concept="19SGf9" id="1spse2eiBP0" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBP1" role="19SJt6">
+                <property role="19SUeA" value="de onderbouwing van de aanvraag." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBP2" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/f50400b8-5557-4857-ac7c-8183e59b8e82" />
+        <node concept="19SGf9" id="1spse2eiBP3" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBP4" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen nadere regels worden gesteld omtrent de wijze waarop wordt beoordeeld of sprake is van een situatie als bedoeld in het tweede lid en de wijze waarop een beslissing hieromtrent bekend wordt gemaakt." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBP5">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling1Artikel3.2" />
+    <property role="1N0jUS" value="32" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBP6" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBP7" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/e03f979a-f4fb-4b50-ab4f-3c6583dc1a52" />
+        <node concept="19SGf9" id="1spse2eiBP8" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBP9" role="19SJt6">
+            <property role="19SUeA" value="Voor de toepassing van  zijn de ,  en  van overeenkomstige toepassing.artikelen 2.9artikel 12, eerste lid, onder b en d, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBPa">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling1Artikel3.3" />
+    <property role="1N0jUS" value="33" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBPb" role="3MKX6D">
+      <node concept="3MKX5h" id="1spse2eiBPc" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/7c16b973-c20c-483b-a9b2-bdb5c6cac00d" />
+        <node concept="3MKX5i" id="1spse2eiBPd" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/b9551d73-27c3-4534-b913-77b64e22b19f" />
+          <node concept="19SGf9" id="1spse2eiBPe" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBPf" role="19SJt6">
+              <property role="19SUeA" value="De termijn gedurende welke het aan vreemdelingen krachtens  is toegestaan in Nederland te verblijven is:artikel 12 van de Wet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBPg" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/96fe9c52-eadf-4bf3-ba62-28d80c59b81d" />
+          <node concept="3MKX6G" id="1spse2eiBPh" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/7a6c0e56-57fe-4fef-857d-b3172d176537" />
+            <node concept="19SGf9" id="1spse2eiBPi" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBPj" role="19SJt6">
+                <property role="19SUeA" value="voor houders van een doorreisvisum en voor vreemdelingen aan wie uitsluitend voor doorreis een bijzonder doorlaatbewijs is afgegeven: de tijd welke voor de voortzetting van hun reis noodzakelijk is;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBPk" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/92b71f67-f26b-4720-9e14-2171525dc624" />
+            <node concept="19SGf9" id="1spse2eiBPl" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBPm" role="19SJt6">
+                <property role="19SUeA" value="voor houders van een doorreisvisum met bevoegdheid tot oponthoud of van een reisvisum: de duur waarvoor het visum is afgegeven of verlengd dan wel, voorzover het een visum voor meer reizen betreft, de in het visum aangegeven duur waarvoor ononderbroken verblijf is toegestaan;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBPn" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/12ea80c6-550d-4df5-8945-d0a45f27253a" />
+            <node concept="19SGf9" id="1spse2eiBPo" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBPp" role="19SJt6">
+                <property role="19SUeA" value="voor vreemdelingen die voor een verblijf van niet langer dan 90dagen naar Nederland zijn gekomen: 90 dagen of, in geval van verlenging door Onze Minister van de termijn wegens bijzondere omstandigheden, 180dagen;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBPq" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/9cf32ecd-18d3-4e80-a708-e5140a51ad3b" />
+            <node concept="19SGf9" id="1spse2eiBPr" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBPs" role="19SJt6">
+                <property role="19SUeA" value="voor houders van een visum voor verblijf van langere duur of een verblijfstitel als bedoeld in artikel 18, eerste lid, onderscheidenlijk artikel 21, eerste lid, van de Schengen Uitvoeringsovereenkomst: 90dagen of, in geval van verlenging door Onze Minister van de termijn wegens bijzondere omstandigheden, 180dagen;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBPt" role="3MKX6F">
+            <property role="3MLT8O" value="e" />
+            <property role="1hTQn4" value="https://calculemus.org/067c0fbc-1133-4bc6-95e7-4e5cc2e0bd35" />
+            <node concept="19SGf9" id="1spse2eiBPu" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBPv" role="19SJt6">
+                <property role="19SUeA" value="voor houders van een geldige machtiging tot voorlopig verblijf: de tijd tot de vreemdeling rechtmatig verblijf in de zin van  verkrijgt, maar niet langer dan de geldigheidsduur van de machtiging;artikel 8, onder a, van de Wet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBPw" role="3MKX6F">
+            <property role="3MLT8O" value="f" />
+            <property role="1hTQn4" value="https://calculemus.org/c0b34343-6c53-4a63-82cc-49060adf62da" />
+            <node concept="19SGf9" id="1spse2eiBPx" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBPy" role="19SJt6">
+                <property role="19SUeA" value="voor de houder van een EU-verblijfsvergunning voor langdurig ingezetenen die is afgegeven door een andere staat die partij is bij het Verdrag betreffende de werking van de Europese Unie, dan wel voor de echtgenoot of het minderjarig kind van die houder in geval het gezin reeds was gevormd in die staat: 90dagen;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBPz" role="3MKX6F">
+            <property role="3MLT8O" value="g" />
+            <property role="1hTQn4" value="https://calculemus.org/f7bc019a-9dbd-4372-b22e-69cae3cd273b" />
+            <node concept="19SGf9" id="1spse2eiBP$" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBP_" role="19SJt6">
+                <property role="19SUeA" value="voor andere vreemdelingen: acht dagen." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBPA" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/5ee1fa26-c398-4a5f-b2b7-49ddbaee1260" />
+        <node concept="19SGf9" id="1spse2eiBPB" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBPC" role="19SJt6">
+            <property role="19SUeA" value="De in het eerste lid, onder b en c, bedoelde termijn verstrijkt in geen geval later dan op de achtste dag nadat zich omstandigheden hebben voorgedaan, waaruit kan worden afgeleid dat de vreemdeling het voornemen heeft langer dan 90dagen binnen een tijdvak van 180dagen in Nederland te verblijven." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBPD" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/6f725fda-0d0c-4e83-88f4-b3d207d8ecc5" />
+        <node concept="19SGf9" id="1spse2eiBPE" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBPF" role="19SJt6">
+            <property role="19SUeA" value="In afwijking van het tweede lid verstrijkt de termijn, bedoeld in het eerste lid, onderdeel c, in geval van verlenging wegens bijzondere omstandigheden, niet later dan op de achtste dag nadat zich feiten of omstandigheden hebben voorgedaan, waaruit kan worden afgeleid dat de vreemdeling het voornemen heeft langer dan 180dagen in Nederland te verblijven." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBPG" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/bb18565f-9a39-400a-86c2-1688ac239822" />
+        <node concept="3MKX5i" id="1spse2eiBPH" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/80257bfb-4ab1-473b-a2b7-4aeebfc00b56" />
+          <node concept="19SGf9" id="1spse2eiBPI" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBPJ" role="19SJt6">
+              <property role="19SUeA" value="De termijn, bedoeld in het eerste lid, onderdeel d, bedraagt 180 dagen binnen een periode van 360 dagen voor de categorie van:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBPK" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/2835adec-d168-413e-8ddf-5ba7c3436dfa" />
+          <node concept="3MKX6G" id="1spse2eiBPL" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/4d477753-7fd8-47ac-9596-366fcd6f0a19" />
+            <node concept="19SGf9" id="1spse2eiBPM" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBPN" role="19SJt6">
+                <property role="19SUeA" value="onderzoekers die houder zijn van een door een andere lidstaat van de Europese Unie afgegeven verblijfsvergunning voor onderzoekers in de zin van richtlijn (EU) 2016/801 die een deel van het onderzoek in Nederland uitvoeren aan een krachtens  als referent erkende onderzoeksinstelling;artikel 2c van de Wet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBPO" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/87e82414-8597-4c83-b5f1-d8da37f22d75" />
+            <node concept="19SGf9" id="1spse2eiBPP" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBPQ" role="19SJt6">
+                <property role="19SUeA" value="de hen vergezellende familieleden die houder zijn van een door die andere lidstaat afgegeven verblijfsvergunning voor verblijf als partner of minderjarig kind bij die onderzoeker." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBPR" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/9816ff16-6d38-417b-a424-ee9a41fd6418" />
+        <node concept="19SGf9" id="1spse2eiBPS" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBPT" role="19SJt6">
+            <property role="19SUeA" value="De termijn, bedoeld in het eerste lid, onderdeel d, bedraagt 360 dagen voor de categorie van studenten die houder zijn van een door een andere lidstaat van de Europese Unie afgegeven verblijfsvergunning voor studenten die onder een uniaal of multilateraal programma met mobiliteitsmaatregelen of onder een overeenkomst tussen twee of meer instellingen voor hoger onderwijs vallen, die een deel van de studie in Nederland volgen aan een krachtens  als referent erkende onderwijsinstelling.artikel 2c van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBPU" role="3MKX6F">
+        <property role="3MLT8O" value="6" />
+        <property role="1hTQn4" value="https://calculemus.org/1b7aa49d-051a-4b56-a12b-20d74660691a" />
+        <node concept="19SGf9" id="1spse2eiBPV" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBPW" role="19SJt6">
+            <property role="19SUeA" value="De in het vierde en vijfde lid bedoelde termijn verstrijkt onmiddellijk indien Onze Minister bewijs of ernstige en objectieve redenen heeft om vast te stellen dat het verblijf van de vreemdeling andere doelen dient of zou dienen dan die bedoeld in het vierde en vijfde lid." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBPX">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling1Paragraaf1Artikel4.1" />
+    <property role="1N0jUS" value="41" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBPY" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBPZ" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/23576d2f-f49b-4cee-bd32-047fe3de53bf" />
+        <node concept="19SGf9" id="1spse2eiBQ0" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBQ1" role="19SJt6">
+            <property role="19SUeA" value="Grensbewaking als bedoeld in  wordt uitgeoefend met het oog op het Nederland in- en uitreizen van personen via een buitengrens.artikel 46 van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBQ2" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/7d71e6ce-e46b-4d44-a236-24574e57a8f0" />
+        <node concept="19SGf9" id="1spse2eiBQ3" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBQ4" role="19SJt6">
+            <property role="19SUeA" value="Onder uitreizen wordt begrepen het zich aan boord begeven of bevinden van een schip of luchtvaartuig, dat voor de uitreis uit Nederland bestemd is." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBQ5">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling1Paragraaf1Artikel4.2" />
+    <property role="1N0jUS" value="42" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBQ6" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBQ7" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/ca3c70e8-c3dc-40f9-93a7-63b90b0196bd" />
+        <node concept="19SGf9" id="1spse2eiBQ8" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBQ9" role="19SJt6">
+            <property role="19SUeA" value="In het belang van de grensbewaking worden aan de buitengrenzen grensdoorlaatposten ingesteld." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBQa" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/cd53ceab-8965-472b-9763-a46d8b3c46ac" />
+        <node concept="19SGf9" id="1spse2eiBQb" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBQc" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling worden de plaatsen aangewezen waar grensdoorlaatposten, al dan niet tijdelijk, zijn gevestigd." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBQd" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/ffa3273b-725a-45d6-bc27-4a827dfb6134" />
+        <node concept="19SGf9" id="1spse2eiBQe" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBQf" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling worden de tijden vastgesteld gedurende welke de grensdoorlaatposten zijn opengesteld." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBQg">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling1Paragraaf1Artikel4.3" />
+    <property role="1N0jUS" value="43" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBQh" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBQi" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/965d6f24-7e6d-47f0-906b-8ef348fda2cd" />
+        <node concept="19SGf9" id="1spse2eiBQj" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBQk" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBQl">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling1Paragraaf2Artikel4.4" />
+    <property role="1N0jUS" value="44" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBQm" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBQn" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/44418a89-8647-462c-b5a6-9cb27f479cc6" />
+        <node concept="19SGf9" id="1spse2eiBQo" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBQp" role="19SJt6">
+            <property role="19SUeA" value="Benelux-onderdanen behoeven Nederland niet in- of uit te reizen via een grensdoorlaatpost." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBQq">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling1Paragraaf2Artikel4.5" />
+    <property role="1N0jUS" value="45" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBQr" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBQs" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/4ed21fee-64d0-4db0-b376-0194a9d6d377" />
+        <node concept="19SGf9" id="1spse2eiBQt" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBQu" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling die Nederland inreist, is verplicht desgevorderd aan een ambtenaar, belast met de grensbewaking:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBQv" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/d4d1d608-1ea7-4012-a47a-8784c1001fe6" />
+        <node concept="19SGf9" id="1spse2eiBQw" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBQx" role="19SJt6">
+            <property role="19SUeA" value="het in zijn bezit zijnde document voor grensoverschrijding, de benodigde machtiging tot voorlopig verblijf dan wel het benodigde reisvisum of doorreisvisum te tonen en te overhandigen;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBQy" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/ab79c7f9-4d3f-44a2-8c49-51c6c1c61a89" />
+        <node concept="19SGf9" id="1spse2eiBQz" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBQ$" role="19SJt6">
+            <property role="19SUeA" value="inlichtingen te verstrekken over het doel en de duur van zijn voorgenomen verblijf in Nederland;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBQ_" role="3MKX6F">
+        <property role="3MLT8O" value="c" />
+        <property role="1hTQn4" value="https://calculemus.org/51c2d6e5-fcb9-44e2-b03d-d7948a4d2dc1" />
+        <node concept="19SGf9" id="1spse2eiBQA" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBQB" role="19SJt6">
+            <property role="19SUeA" value="aan te tonen over welke middelen hij met het oog op de toegang tot Nederland beschikt of kan beschikken." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBQC" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/dcbeb173-1e25-41ab-bacc-e79c57161f08" />
+        <node concept="19SGf9" id="1spse2eiBQD" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBQE" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid, onder a, is van overeenkomstige toepassing op de vreemdeling die Nederland uitreist via een buitengrens." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBQF" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/4d27fc8f-551a-42b1-885e-9819e04c956a" />
+        <node concept="19SGf9" id="1spse2eiBQG" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBQH" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid, onder b en c, is niet van toepassing op de vreemdeling die rechtmatig verblijf heeft als bedoeld in , het familielid, bedoeld in , en de vreemdeling, bedoeld in .artikel 8.7, tweede en derde lidartikel 8, onder e, dan wel l, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBQI">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling1Paragraaf2Artikel4.6" />
+    <property role="1N0jUS" value="46" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBQJ" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBQK" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/7a7d50ce-76ee-4e21-9bd2-109036ab6a5b" />
+        <node concept="19SGf9" id="1spse2eiBQL" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBQM" role="19SJt6">
+            <property role="19SUeA" value="Een ieder die zich op of nabij een plaats bevindt waar een grensdoorlaatpost is gevestigd, houdt zich aan de aldaar door de ambtenaren, belast met de grensbewaking, in het kader van de uitoefening van hun taak gegeven aanwijzingen." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBQN">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling1Paragraaf2Artikel4.7" />
+    <property role="1N0jUS" value="47" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBQO" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBQP" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/fd2fab82-a2f2-467e-89b8-d6730724a327" />
+        <node concept="19SGf9" id="1spse2eiBQQ" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBQR" role="19SJt6">
+            <property role="19SUeA" value="De Nederlander die Nederland in- of uitreist, toont en overhandigt, desgevorderd, aan een ambtenaar, belast met de grensbewaking, het in zijn bezit zijnde reis- of identiteitspapier of maakt zo nodig op andere wijze zijn Nederlanderschap aannemelijk." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBQS">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling1Paragraaf2Artikel4.8" />
+    <property role="1N0jUS" value="48" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBQT" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBQU" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/cadb7b6d-9f16-42cd-8fd5-ac218c44f1c4" />
+        <node concept="19SGf9" id="1spse2eiBQV" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBQW" role="19SJt6">
+            <property role="19SUeA" value="De bestuurder van een voertuig geeft eigener beweging aan een ambtenaar, belast met de grensbewaking, kennis van de aanwezigheid in zijn voertuig van vreemdelingen ten aanzien van wie hij weet of redelijkerwijs kan vermoeden dat zij niet voldoen aan de bij de Schengengrenscode of de bij of krachtens de  vastgestelde verplichtingen waaraan personen bij grensoverschrijding zijn onderworpen.Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBQX">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling1Paragraaf3Artikel4.9" />
+    <property role="1N0jUS" value="49" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBQY" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBQZ" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/2aa4b0a5-0770-43c6-822e-31b4419eaa3e" />
+        <node concept="19SGf9" id="1spse2eiBR0" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBR1" role="19SJt6">
+            <property role="19SUeA" value="De gezagvoerder van een schip verleent, desgevorderd, de medewerking aan een ambtenaar, belast met de grensbewaking, welke nodig is om deze ambtenaar in staat te stellen de door hem op grond van de Schengengrenscode uit te oefenen grenscontrole uit te voeren. Deze medewerking bestaat uit:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBR2" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/38210af4-7f8b-4658-b06c-8af3e2c7e7a4" />
+        <node concept="3MKX6G" id="1spse2eiBR3" role="3MKX6F">
+          <property role="3MLT8O" value="a" />
+          <property role="1hTQn4" value="https://calculemus.org/a1fa4f6c-5f6c-4443-9c5f-2a2cdd2e9272" />
+          <node concept="19SGf9" id="1spse2eiBR4" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiBR5" role="19SJt6">
+              <property role="19SUeA" value="het op een daartoe gegeven teken zodanig vaart verminderen en het zodanig op of bijdraaien van zijn schip, dat een dienstvaartuig behoorlijk langszij kan komen;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiBR6" role="3MKX6F">
+          <property role="3MLT8O" value="b" />
+          <property role="1hTQn4" value="https://calculemus.org/e297f287-b2fb-48e7-8bef-d9d2acad3c23" />
+          <node concept="19SGf9" id="1spse2eiBR7" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiBR8" role="19SJt6">
+              <property role="19SUeA" value="het toelaten van ambtenaren, belast met de grensbewaking, aan boord van zijn schip;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiBR9" role="3MKX6F">
+          <property role="3MLT8O" value="c" />
+          <property role="1hTQn4" value="https://calculemus.org/e9e2bac8-eede-4e87-a22f-c8972829126e" />
+          <node concept="19SGf9" id="1spse2eiBRa" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiBRb" role="19SJt6">
+              <property role="19SUeA" value="het op vordering van een ambtenaar, belast met de grensbewaking, tot stilstand brengen of aanleggen van zijn schip." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBRc">
+    <property role="TrG5h" value="Hoofdstuk5Paragraaf1Artikel5.1" />
+    <property role="1N0jUS" value="51" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBRd" role="3MKX6D">
+      <node concept="3MKX5h" id="1spse2eiBRe" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/417c1a7f-8d12-4a8f-9feb-74edb8ee6757" />
+        <node concept="3MKX5i" id="1spse2eiBRf" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/dcf5b751-ec29-4949-a557-22ef21b99f31" />
+          <node concept="19SGf9" id="1spse2eiBRg" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBRh" role="19SJt6">
+              <property role="19SUeA" value="De maatregel van beperking van vrijheid van beweging, bedoeld in  kan bestaan uit:artikel 56, eerste lid, van de Wet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBRi" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/2680e09f-07e6-421c-985a-58484bfa13fd" />
+          <node concept="3MKX6G" id="1spse2eiBRj" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/fc68c551-6f52-4ae5-ae18-bbbf7c8c4c3e" />
+            <node concept="19SGf9" id="1spse2eiBRk" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBRl" role="19SJt6">
+                <property role="19SUeA" value="een verplichting zich bij verblijf in Nederland in een bepaald gedeelte van Nederland te bevinden, of" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBRm" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/e8815adf-e194-4abe-8ab0-e6c13f1a8f6c" />
+            <node concept="19SGf9" id="1spse2eiBRn" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBRo" role="19SJt6">
+                <property role="19SUeA" value="een verplichting zich te houden aan een verbod om zich in een bepaald gedeelte of bepaalde gedeelten van Nederland te bevinden." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBRp" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/83b7e763-9006-46ad-89b4-40c7a4f208a6" />
+        <node concept="19SGf9" id="1spse2eiBRq" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBRr" role="19SJt6">
+            <property role="19SUeA" value="De maatregel, bedoeld in het eerste lid, wordt niet opgelegd aan de vreemdeling die rechtmatig verblijf heeft op grond van  en houder is van een EU-verblijfsvergunning voor langdurig ingezetenen die is afgegeven door een andere staat die partij is bij het Verdrag betreffende de werking van de Europese Unie anders dan om redenen van veiligheid.artikel 8, onderdeel a, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBRs" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/f4b0ff78-c4b4-4202-86f4-519e63a55834" />
+        <node concept="19SGf9" id="1spse2eiBRt" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBRu" role="19SJt6">
+            <property role="19SUeA" value="De maatregel wordt evenmin opgelegd aan een houder van een door Onze Minister afgegeven Europese blauwe kaart anders dan om redenen van veiligheid." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBRv">
+    <property role="TrG5h" value="Hoofdstuk5Paragraaf2Artikel5.2" />
+    <property role="1N0jUS" value="52" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBRw" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBRx" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/6e75fbd9-b0e9-4b77-a6d1-240786110540" />
+        <node concept="19SGf9" id="1spse2eiBRy" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBRz" role="19SJt6">
+            <property role="19SUeA" value="Voordat de vreemdeling op grond van ,  of  in bewaring wordt gesteld, wordt hij gehoord.artikel 59" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBR$" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/7577c44a-5d24-4430-af87-ea89917dcb77" />
+        <node concept="3MKX5i" id="1spse2eiBR_" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/fdfbf807-3830-4a19-ba33-d87396d37153" />
+          <node concept="19SGf9" id="1spse2eiBRA" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBRB" role="19SJt6">
+              <property role="19SUeA" value="Het eerste lid is niet van toepassing indien:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBRC" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/f441f2e6-3af4-4e40-b5b3-17b0de4c94e0" />
+          <node concept="3MKX6G" id="1spse2eiBRD" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/14cf6da0-1bbe-4fbc-b3d9-d7d49945f05a" />
+            <node concept="19SGf9" id="1spse2eiBRE" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBRF" role="19SJt6">
+                <property role="19SUeA" value="de bewaring van de vreemdeling die in bewaring is gesteld op grond van  wordt voorgezet op grond van artikel 59, eerste lid, onder b, van de Wet, of andersom; ofartikel 59, eerste lid, onder a, van de Wet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBRG" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/57b32415-4f77-4169-b1a4-380659fbb3cf" />
+            <node concept="19SGf9" id="1spse2eiBRH" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBRI" role="19SJt6">
+                <property role="19SUeA" value="het voorafgaande gehoor van de vreemdeling niet kan worden afgewacht." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBRJ" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/bd41be74-c734-40fa-9b04-6cfe3c6ea766" />
+        <node concept="19SGf9" id="1spse2eiBRK" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBRL" role="19SJt6">
+            <property role="19SUeA" value="Slechts in het geval bedoeld in het tweede lid, onder d, wordt de vreemdeling zo spoedig mogelijk na de tenuitvoerlegging van de bewaring gehoord." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBRM" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/55a5ebdf-425b-45b0-9529-a7524eb7216f" />
+        <node concept="19SGf9" id="1spse2eiBRN" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBRO" role="19SJt6">
+            <property role="19SUeA" value="Van het gehoor wordt proces-verbaal opgemaakt." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBRP" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/770c599c-7379-4302-a06c-d8f7c75d2143" />
+        <node concept="19SGf9" id="1spse2eiBRQ" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBRR" role="19SJt6">
+            <property role="19SUeA" value="Aan de vreemdeling wordt tijdig mededeling gedaan van de hem toekomende bevoegdheid zich bij het gehoor te doen bijstaan door zijn raadsman." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBRS">
+    <property role="TrG5h" value="Hoofdstuk5Paragraaf2Artikel5.3" />
+    <property role="1N0jUS" value="53" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBRT" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBRU" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/18fd410a-b8ee-432c-a740-fe14919ecc09" />
+        <node concept="19SGf9" id="1spse2eiBRV" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBRW" role="19SJt6">
+            <property role="19SUeA" value="De maatregel waarbij de bewaring op grond van ,  of  wordt opgelegd wordt gedagtekend en ondertekend; de maatregel wordt met redenen omkleed. Aan de vreemdeling op wie de maatregel betrekking heeft, wordt onmiddellijk een afschrift daarvan uitgereikt. De vreemdeling wordt daarbij schriftelijk, in een taal die hij verstaat of waarvan redelijkerwijs kan worden aangenomen dat hij deze verstaat, op de hoogte gebracht van de redenen van bewaring en van de in het nationale recht vastgestelde procedures om het bevel tot bewaring aan te vechten, alsook van de mogelijkheid om gratis rechtsbijstand en vertegenwoordiging aan te vragen.artikel 59" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBRX" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/c508afa6-0494-4200-85c1-da44267b2040" />
+        <node concept="19SGf9" id="1spse2eiBRY" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBRZ" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid is van overeenkomstige toepassing in geval van oplegging van de vrijheidsontnemende maatregel op grond van  en in situaties waarin de bewaring van de vreemdeling op een andere wettelijke grondslag wordt voortgezet.artikel 6, derde of zesde lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBS0">
+    <property role="TrG5h" value="Hoofdstuk5Paragraaf2Artikel5.4" />
+    <property role="1N0jUS" value="54" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBS1" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBS2" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/1f33bf8e-7c14-43c8-a0f3-05176d4764b7" />
+        <node concept="19SGf9" id="1spse2eiBS3" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBS4" role="19SJt6">
+            <property role="19SUeA" value="De bewaring op grond van ,  of  wordt ten uitvoer gelegd op een politiebureau, een cel van de Koninklijke marechaussee, in een huis van bewaring of een ruimte of plaats als bedoeld in , of . Bij de tenuitvoerlegging van de bewaring wordt de vreemdeling niet verder beperkt in de uitoefening van grondrechten dan wordt gevorderd door het doel van deze maatregel en de handhaving van de orde en de veiligheid op de plaats van tenuitvoerlegging.artikel 59" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBS5" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/30a183c3-aabc-4806-b74b-a89b1a4f2354" />
+        <node concept="19SGf9" id="1spse2eiBS6" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBS7" role="19SJt6">
+            <property role="19SUeA" value="Indien de tenuitvoerlegging van de bewaring een aanvang neemt op een politiebureau of in een cel van de Koninklijke marechaussee, wordt zodra dit redelijkerwijs mogelijk is de tenuitvoerlegging voortgezet in een huis van bewaring of een ruimte of plaats als bedoeld in  of .artikel 6, tweede lid" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBS8" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/4f483680-cf76-4071-be79-638faaf44601" />
+        <node concept="19SGf9" id="1spse2eiBS9" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBSa" role="19SJt6">
+            <property role="19SUeA" value="De bewaring wordt opgeheven zodra er geen grond meer aanwezig is." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBSb">
+    <property role="TrG5h" value="Hoofdstuk5Paragraaf2Artikel5.5" />
+    <property role="1N0jUS" value="55" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBSc" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBSd" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/73312a0a-3b7b-4f79-8cac-9a1c5ffec692" />
+        <node concept="19SGf9" id="1spse2eiBSe" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBSf" role="19SJt6">
+            <property role="19SUeA" value="Gedurende de tenuitvoerlegging van een vrijheidsontnemende maatregel ingevolge de , , of,  of , kan de vreemdeling voor korte duur naar elders worden gebracht, wanneer dit redelijkerwijs nodig is voor de toepassing van de .artikelen 6, tweede lid" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBSg" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/3e47e424-bd59-4e3a-bf9f-a0ecb967b669" />
+        <node concept="19SGf9" id="1spse2eiBSh" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBSi" role="19SJt6">
+            <property role="19SUeA" value="Van de tenuitvoerlegging van een vrijheidsontnemende maatregel als bedoeld in het eerste lid, wordt op verzoek van de vreemdeling zo spoedig mogelijk kennis gegeven aan diens naaste verwanten of aan een in Nederland gevestigde diplomatieke of consulaire vertegenwoordiging van de staat waarvan hij onderdaan is." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBSj" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/592aaf1b-a9fd-4e47-b944-bd73e3cd8834" />
+        <node concept="19SGf9" id="1spse2eiBSk" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBSl" role="19SJt6">
+            <property role="19SUeA" value="In geval de vrijheidsontnemende maatregel een minderjarige betreft wordt daarvan, zo daartoe de gelegenheid bestaat, ambtshalve zo spoedig mogelijk kennis gegeven aan degenen die de ouderlijke macht of de voogdij over die minderjarige uitoefenen." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBSm">
+    <property role="TrG5h" value="Hoofdstuk5Paragraaf2Artikel5.6" />
+    <property role="1N0jUS" value="56" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBSn" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBSo" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/2ad54085-4eb7-4aa4-bcd3-a1c1ec45c634" />
+        <node concept="19SGf9" id="1spse2eiBSp" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBSq" role="19SJt6">
+            <property role="19SUeA" value="Overeenkomstig door Onze Minister te geven algemene en bijzondere aanwijzingen stelt de korpschef of de bevelhebber van de Koninklijke marechaussee Onze Minister tijdig vr het verstrijken van de in  genoemde termijn in kennis van de bewaring dan wel het voortduren daarvan.artikel 94, eerste lid, van de wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBSr">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling1Artikel3.1a" />
+    <property role="1N0jUS" value="57" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBSs" role="3MKX6D">
+      <node concept="3MKX5h" id="1spse2eiBSt" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/5384526c-06a0-4e72-b86b-58dd5fd24a17" />
+        <node concept="3MKX5i" id="1spse2eiBSu" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/6bd30b37-188c-463a-83da-2bf1bcbdf91e" />
+          <node concept="19SGf9" id="1spse2eiBSv" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBSw" role="19SJt6">
+              <property role="19SUeA" value="Het indienen van een aanvraag tot het verlenen van een verblijfsvergunning asiel voor bepaalde tijd heeft tot gevolg dat de uitzetting achterwege blijft zo lang een besluit als bedoeld in artikel 5, derde lid, van de richtlijn tijdelijke bescherming van kracht is, indien de vreemdeling:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBSx" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/19ca4102-9c80-4d67-b2f9-6eabc64484da" />
+          <node concept="3MKX6G" id="1spse2eiBSy" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/7ffa0633-2370-40fd-8f94-acecc9271403" />
+            <node concept="19SGf9" id="1spse2eiBSz" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBS$" role="19SJt6">
+                <property role="19SUeA" value="behoort tot de specifieke groep vreemdelingen zoals omschreven in een besluit van de Raad van de Europese Unie als bedoeld in artikel 5, derde lid, van de richtlijn tijdelijke bescherming;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBS_" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/93df93db-d730-4f79-9bdc-75838fd4f8fe" />
+            <node concept="19SGf9" id="1spse2eiBSA" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBSB" role="19SJt6">
+                <property role="19SUeA" value="de echtgenoot is van de vreemdeling, bedoeld onder a, of de ongehuwde partner met wie die vreemdeling een duurzame relatie onderhoudt, en ten tijde van de gebeurtenissen die hebben geleid tot het in de aanhef bedoelde besluit met die vreemdeling samenwoonde;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBSC" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/1edb2697-e243-457a-8957-2386dcaff868" />
+            <node concept="19SGf9" id="1spse2eiBSD" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBSE" role="19SJt6">
+                <property role="19SUeA" value="het minderjarige, ongehuwde, al dan niet geadopteerde kind is van de vreemdeling, bedoeld onder a of b;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBSF" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/341d2e95-2d53-4328-a392-f6b14c548fb8" />
+            <node concept="19SGf9" id="1spse2eiBSG" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBSH" role="19SJt6">
+                <property role="19SUeA" value="een ander naast familielid is van de vreemdeling, bedoeld onder a, die ten tijde van de gebeurtenissen die hebben geleid tot het in de aanhef bedoelde besluit volledig of grotendeels afhankelijk was van die vreemdeling en met het gezin samenwoonde, en wiens achterlating een schrijnende situatie zou vormen; of" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBSI" role="3MKX6F">
+            <property role="3MLT8O" value="e" />
+            <property role="1hTQn4" value="https://calculemus.org/255d886f-75cd-4806-9db1-f2b961d77d34" />
+            <node concept="19SGf9" id="1spse2eiBSJ" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBSK" role="19SJt6">
+                <property role="19SUeA" value="behoort tot de bij ministerile regeling aan te wijzen groep vreemdelingen uit hetzelfde land of dezelfde regio als de vreemdeling, bedoeld onder a, die om dezelfde reden ontheemd zijn en die niet reeds bescherming genieten in een ander land dat partij is bij het Verdrag betreffende de werking van de Europese Unie of de Overeenkomst betreffende de Europese Economische Ruimte." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBSL" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/93930537-1ea7-43aa-8469-5ef8368b6df9" />
+        <node concept="3MKX5i" id="1spse2eiBSM" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/32c68505-c2d8-4da7-a834-2e67e1669f92" />
+          <node concept="19SGf9" id="1spse2eiBSN" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBSO" role="19SJt6">
+              <property role="19SUeA" value="In afwijking van het eerste lid kan Onze Minister bepalen dat uitzetting niet achterwege blijft, indien:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBSP" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/aee5088c-0e66-4c24-ad59-d2cfd7dec439" />
+          <node concept="3MKX6G" id="1spse2eiBSQ" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/1685d108-df09-4f22-a147-b5d2c6aed84f" />
+            <node concept="19SGf9" id="1spse2eiBSR" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBSS" role="19SJt6">
+                <property role="19SUeA" value="de aanvraag met toepassing van  niet in behandeling is genomen;artikel 30 van de Wet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBST" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/4a8e238a-cae4-46ee-ae4e-0a9a920e897f" />
+            <node concept="19SGf9" id="1spse2eiBSU" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBSV" role="19SJt6">
+                <property role="19SUeA" value="de vreemdeling reeds tijdelijke bescherming geniet in een ander land dat partij is bij het Verdrag betreffende de werking van de Europese Unie of de Overeenkomst betreffende de Europese Economische Ruimte;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBSW" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/5b767ed7-c9ed-4c4f-a09b-76163168d619" />
+            <node concept="19SGf9" id="1spse2eiBSX" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBSY" role="19SJt6">
+                <property role="19SUeA" value="de vreemdeling met toepassing van de richtlijn tijdelijke bescherming wordt overgebracht naar een ander land dat partij is bij het Verdrag betreffende de werking van de Europese Unie of de Overeenkomst betreffende de Europese Economische Ruimte;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBSZ" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/ba053f00-ed15-42ff-b0eb-2ea34ffffe1b" />
+            <node concept="19SGf9" id="1spse2eiBT0" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBT1" role="19SJt6">
+                <property role="19SUeA" value="de vreemdeling naar het land of regio van herkomst is teruggekeerd;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBT2" role="3MKX6F">
+            <property role="3MLT8O" value="e" />
+            <property role="1hTQn4" value="https://calculemus.org/b90d40e4-f2a0-41e5-abd4-0f40076d2f10" />
+            <node concept="19SGf9" id="1spse2eiBT3" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBT4" role="19SJt6">
+                <property role="19SUeA" value="ernstige redenen aanwezig zijn om aan te nemen dat de vreemdeling:" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5i" id="1spse2eiBT5" role="3MKX6F">
+            <property role="1hTQn4" value="https://calculemus.org/7dc22166-f39b-4bf9-bbb5-5e198f2f4626" />
+            <node concept="19SGf9" id="1spse2eiBT6" role="3MLR7a">
+              <node concept="19SUe$" id="1spse2eiBT7" role="19SJt6">
+                <property role="19SUeA" value="een misdrijf tegen de vrede, een oorlogsmisdrijf, of een misdrijf tegen de menselijkheid heeft begaan als omschreven in de internationale instrumenten die bepalingen inzake dergelijke misdrijven bevatten;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5i" id="1spse2eiBT8" role="3MKX6F">
+            <property role="1hTQn4" value="https://calculemus.org/cd276151-2bc9-4b22-8eef-b8dd53e8744c" />
+            <node concept="19SGf9" id="1spse2eiBT9" role="3MLR7a">
+              <node concept="19SUe$" id="1spse2eiBTa" role="19SJt6">
+                <property role="19SUeA" value="buiten Nederland een ernstig niet-politiek misdrijf heeft begaan alvorens hij tijdelijke bescherming verkreeg;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5i" id="1spse2eiBTb" role="3MKX6F">
+            <property role="1hTQn4" value="https://calculemus.org/6822dc98-826e-443e-9c56-3d733215556f" />
+            <node concept="19SGf9" id="1spse2eiBTc" role="3MLR7a">
+              <node concept="19SUe$" id="1spse2eiBTd" role="19SJt6">
+                <property role="19SUeA" value="zich schuldig heeft gemaakt aan daden die in strijd zijn met de doeleinden en beginselen van de Verenigde Naties;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBTe" role="3MKX6F">
+            <property role="3MLT8O" value="f" />
+            <property role="1hTQn4" value="https://calculemus.org/9f675d51-eaa1-4f44-b714-85de70b4e07b" />
+            <node concept="19SGf9" id="1spse2eiBTf" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBTg" role="19SJt6">
+                <property role="19SUeA" value="de vreemdeling ingevolge een onherroepelijk geworden veroordeling wegens een bijzonder ernstig misdrijf een gevaar vormt voor de Nederlandse samenleving; of" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBTh" role="3MKX6F">
+            <property role="3MLT8O" value="g" />
+            <property role="1hTQn4" value="https://calculemus.org/c69fdd99-444d-46e7-baa6-b2b9fdbed6dc" />
+            <node concept="19SGf9" id="1spse2eiBTi" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBTj" role="19SJt6">
+                <property role="19SUeA" value="er redelijke gronden aanwezig zijn om de vreemdeling als gevaar voor de nationale veiligheid te beschouwen." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBTk" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/ef4a329a-0023-4c3c-bf12-f93cd92dae12" />
+        <node concept="19SGf9" id="1spse2eiBTl" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBTm" role="19SJt6">
+            <property role="19SUeA" value="Bij de toepassing van het tweede lid, onderdeel e, onder 2, wordt de ernst van de verwachte vervolging afgewogen tegen de aard van het misdrijf waarvan de vreemdeling wordt verdacht, en kunnen bijzonder wrede handelingen, ook indien deze met een vermeend politiek oogmerk zijn verricht, worden aangemerkt als ernstige, niet-politieke misdrijven. Dit geldt voor alle deelnemers aan het misdrijf, met inbegrip van hen die het misdrijf hebben uitgelokt." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBTn" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/e54517db-632a-47ba-a1f2-e798facdf75e" />
+        <node concept="19SGf9" id="1spse2eiBTo" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBTp" role="19SJt6">
+            <property role="19SUeA" value="Een besluit op grond van het tweede lid, onder e tot en met g, wordt met inachtneming van het evenredigheidsbeginsel gebaseerd op het persoonlijke gedrag van de vreemdeling." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBTq">
+    <property role="TrG5h" value="Hoofdstuk5Paragraaf2Artikel5.7" />
+    <property role="1N0jUS" value="57" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBTr" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBTs" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/53fb3782-c31e-4d36-a4cb-79846a11f73d" />
+        <node concept="19SGf9" id="1spse2eiBTt" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBTu" role="19SJt6">
+            <property role="19SUeA" value="De aanwijzing bedoeld in de , en  wordt zoveel mogelijk gegeven bij de beschikking waarbij de aanvraag tot het verlenen van de verblijfsvergunning asiel voor bepaalde tijd is afgewezen. De aanwijzing wordt met redenen omkleed.artikelen 57, eerste lid" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBTv" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/8530a0ef-2bfc-4300-a1ec-a6228068a783" />
+        <node concept="19SGf9" id="1spse2eiBTw" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBTx" role="19SJt6">
+            <property role="19SUeA" value="is van overeenkomstige toepassing indien de aanwijzing, bedoeld in het eerste lid, gegeven wordt bij afzonderlijke beschikking.Artikel 5.3" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBTy">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling1Artikel3.1b" />
+    <property role="1N0jUS" value="58" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBTz" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBT$" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/59049e2e-1a02-4c71-baba-9bb7c9b4e23d" />
+        <node concept="19SGf9" id="1spse2eiBT_" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBTA" role="19SJt6">
+            <property role="19SUeA" value="Het indienen van een aanvraag tot het verlenen van een Europese blauwe kaart heeft tot gevolg dat uitzetting achterwege blijft, indien de vreemdeling direct voorafgaande aan de indiening van de aanvraag houder was van een door de autoriteiten van een andere staat die partij is bij het Verdrag betreffende de werking van de Europese Unie afgegeven Europese blauwe kaart." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBTB" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/a69e70c5-c146-4fc2-bdf7-bfa6f76a436b" />
+        <node concept="3MKX5i" id="1spse2eiBTC" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/7e1bf953-bb32-47bf-87cb-29c374a04063" />
+          <node concept="19SGf9" id="1spse2eiBTD" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBTE" role="19SJt6">
+              <property role="19SUeA" value="Het indienen van een aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd als bedoeld in , heeft tot gevolg dat uitzetting achterwege blijft, indien:artikel 3.13, eerste lid" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBTF" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/22d1c571-2214-493d-abeb-20759821bef1" />
+          <node concept="3MKX6G" id="1spse2eiBTG" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/6956642a-c575-47aa-9fa4-9a8c3c3564e4" />
+            <node concept="19SGf9" id="1spse2eiBTH" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBTI" role="19SJt6">
+                <property role="19SUeA" value="de vreemdeling de echtgenoot, de geregistreerde partner dan wel de ongehuwde partner van een houder van een Europese blauwe kaart is, dan wel het minderjarige kind van die echtgenoot, partner of houder van de Europese blauwe kaart;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBTJ" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/60765cbf-8ce2-4129-8227-bf737d6f5966" />
+            <node concept="19SGf9" id="1spse2eiBTK" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBTL" role="19SJt6">
+                <property role="19SUeA" value="de houder van de Europese blauwe kaart, bedoeld in onderdeel a, direct voorafgaande aan de indiening van de aanvraag houder was van een door de autoriteiten van een andere staat die partij is bij het Verdrag betreffende de werking van de Europese Unie afgegeven Europese blauwe kaart, en" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBTM" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/b2f0f087-82d3-493a-8d7a-3a15730cbbe0" />
+            <node concept="19SGf9" id="1spse2eiBTN" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBTO" role="19SJt6">
+                <property role="19SUeA" value="geen sprake is van gezinsvorming." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBTP">
+    <property role="TrG5h" value="Hoofdstuk6Afdeling1Artikel6.1" />
+    <property role="1N0jUS" value="61" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBTQ" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBTR" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/5c8663aa-04d0-4ffa-bbb7-b177104f0dcd" />
+        <node concept="19SGf9" id="1spse2eiBTS" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBTT" role="19SJt6">
+            <property role="19SUeA" value="Een risico als bedoeld in  kan worden aangenomen indien tenminste twee van de gronden als bedoeld in , op de vreemdeling van toepassing zijn.artikel 5.1b, derde en vierde lidartikel 62, tweede lid, onder a, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBTU">
+    <property role="TrG5h" value="Hoofdstuk6Afdeling2Artikel6.2" />
+    <property role="1N0jUS" value="62" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBTV" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBTW" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/053e1897-3bae-40f5-ad63-804feb4d71ca" />
+        <node concept="19SGf9" id="1spse2eiBTX" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBTY" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister is bevoegd de kosten van uitzetting, bedoeld in de , en  te verhalen op de referent of gewezen referent, de vreemdeling zelf en, indien hij minderjarig is, op degenen die het wettelijk gezag over hem uitoefenen of uitoefenden of op een vervoersonderneming.artikelen 65, tweede lid" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBTZ">
+    <property role="TrG5h" value="Hoofdstuk6Afdeling2Artikel6.3" />
+    <property role="1N0jUS" value="63" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBU0" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBU1" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/d159e4c8-7178-4a4b-a97c-b239abfdd7b3" />
+        <node concept="19SGf9" id="1spse2eiBU2" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBU3" role="19SJt6">
+            <property role="19SUeA" value="De kosten van uitzetting van een vreemdeling welke ingevolge  op een vervoersonderneming kunnen worden verhaald, zijn verschuldigd aan het openbaar lichaam te welks laste die kosten zijn gekomen.artikel 65, tweede lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBU4" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/f9da1d23-0e22-4bac-86e2-c13a09f8d9b2" />
+        <node concept="3MKX5i" id="1spse2eiBU5" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/2ae9f504-7254-466d-b9a9-da9bac29b7f4" />
+          <node concept="19SGf9" id="1spse2eiBU6" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBU7" role="19SJt6">
+              <property role="19SUeA" value="De in het voorgaande lid bedoelde kosten van uitzetting omvatten in ieder geval de kosten verbonden aan:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBU8" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/1861afa4-52be-459a-8592-27bb7c98b7aa" />
+          <node concept="3MKX6G" id="1spse2eiBU9" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/d723baf7-4c6f-4b6f-9bb3-17dd13ceefb5" />
+            <node concept="19SGf9" id="1spse2eiBUa" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBUb" role="19SJt6">
+                <property role="19SUeA" value="het vervoer van de uit te zetten vreemdeling per eerste gelegenheid, doch op de wijze die, gelet op de omstandigheden, de goedkoopste is, naar een plaats buiten Nederland;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBUc" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/28cbf872-181f-4b7b-a724-3a4f55dd37f9" />
+            <node concept="19SGf9" id="1spse2eiBUd" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBUe" role="19SJt6">
+                <property role="19SUeA" value="de begeleiding van de vreemdeling naar een plaats van vertrek uit Nederland alsmede zijn begeleiding naar een plaats buiten Nederland, voorzover deze noodzakelijk is, en" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBUf" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/5af55226-a68f-4d29-895e-313ffe2599db" />
+            <node concept="19SGf9" id="1spse2eiBUg" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBUh" role="19SJt6">
+                <property role="19SUeA" value="het verblijf van de vreemdeling in Nederland in de periode nadat de vervoersonderneming van een ambtenaar belast met de grensbewaking de aanwijzing heeft gekregen de vreemdeling terug te vervoeren naar een plaats buiten Nederland." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBUi">
+    <property role="TrG5h" value="Hoofdstuk6Afdeling2Artikel6.4" />
+    <property role="1N0jUS" value="64" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBUj" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBUk" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/038480b7-7517-4cd3-aeb3-12ad68a73ff2" />
+        <node concept="19SGf9" id="1spse2eiBUl" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBUm" role="19SJt6">
+            <property role="19SUeA" value="De noodzakelijke kosten van uitzetting die ten laste komen van de Staat of van andere openbare lichamen kunnen door de Staat, of door het andere openbare lichaam te welks laste zij zijn gekomen, worden verhaald op de referent of gewezen referent of vreemdeling en, indien hij minderjarig is, op degenen die het wettig gezag over hem uitoefenen of uitoefenden." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBUn" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/a0864c37-ecf3-4dcd-b80c-0607af510160" />
+        <node concept="19SGf9" id="1spse2eiBUo" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBUp" role="19SJt6">
+            <property role="19SUeA" value="De in het eerste lid bedoelde kosten van uitzetting omvatten de kosten, genoemd in , met dien verstande dat de kosten, genoemd in artikel 6.3, tweede lid, onder b, niet worden verhaald op de referent of de gewezen referent. Bij ministerile regeling worden regels gesteld omtrent de op de vreemdeling, diens wettelijk vertegenwoordiger en diens referent of diens gewezen referent te verhalen kosten.artikel 6.3, tweede lid, onder a en b" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBUq" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/b8604bae-408f-4dfc-b983-b3220b0468a3" />
+        <node concept="3MKX5i" id="1spse2eiBUr" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/4504e9ba-90df-4259-a0ae-c9af0867c5c8" />
+          <node concept="19SGf9" id="1spse2eiBUs" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBUt" role="19SJt6">
+              <property role="19SUeA" value="In afwijking van het eerste lid, worden kosten van uitzetting niet verhaald op de referent of de gewezen referent, indien:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBUu" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/89557d23-fbf0-4774-b2c6-2c7cf47028de" />
+          <node concept="3MKX6G" id="1spse2eiBUv" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/f0a72e00-7177-4ff2-a1fc-178aa0a945fe" />
+            <node concept="19SGf9" id="1spse2eiBUw" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBUx" role="19SJt6">
+                <property role="19SUeA" value="die kosten ingevolge  op een vervoersonderneming kunnen worden verhaald;artikel 65, tweede lid, van de Wet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBUy" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/aadc6424-3a1c-4639-9b58-1655205a9bd0" />
+            <node concept="19SGf9" id="1spse2eiBUz" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBU$" role="19SJt6">
+                <property role="19SUeA" value="die kosten zijn gemaakt een jaar of langer nadat het referentschap is geindigd;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBU_" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/3afc4413-48dc-43a7-a57a-177a688ff98d" />
+            <node concept="19SGf9" id="1spse2eiBUA" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBUB" role="19SJt6">
+                <property role="19SUeA" value="ten behoeve van het verblijf van de vreemdeling in Nederland een ander als referent optreedt;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBUC" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/72d58b1f-69b7-4542-8747-85774d05ab9d" />
+            <node concept="19SGf9" id="1spse2eiBUD" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBUE" role="19SJt6">
+                <property role="19SUeA" value="de verblijfsvergunning van de vreemdeling is gewijzigd;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBUF" role="3MKX6F">
+            <property role="3MLT8O" value="e" />
+            <property role="1hTQn4" value="https://calculemus.org/a6b220cd-b765-4fee-89c8-7ae9460e78aa" />
+            <node concept="19SGf9" id="1spse2eiBUG" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBUH" role="19SJt6">
+                <property role="19SUeA" value="de vreemdeling in het bezit is gesteld van een verblijfsvergunning als bedoeld in ;artikel 8, onder b" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBUI" role="3MKX6F">
+            <property role="3MLT8O" value="f" />
+            <property role="1hTQn4" value="https://calculemus.org/f3ca5f60-d2ac-4acd-9cc2-ec618b8d7268" />
+            <node concept="19SGf9" id="1spse2eiBUJ" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBUK" role="19SJt6">
+                <property role="19SUeA" value="de vreemdeling Nederlander wordt of krachtens enige wet als Nederlander moet worden behandeld;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBUL" role="3MKX6F">
+            <property role="3MLT8O" value="g" />
+            <property role="1hTQn4" value="https://calculemus.org/9ac733f4-a358-4546-a976-0f8033ccf117" />
+            <node concept="19SGf9" id="1spse2eiBUM" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBUN" role="19SJt6">
+                <property role="19SUeA" value="de vreemdeling is overleden." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBUO" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/3f135824-62ea-4e05-b334-b47b3440f853" />
+        <node concept="19SGf9" id="1spse2eiBUP" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBUQ" role="19SJt6">
+            <property role="19SUeA" value="In afwijking van het derde lid, onder b, worden de kosten van uitzetting niet verhaald op de referent of de gewezen referent van een vreemdeling, met wie die referent of gewezen referent een gastovereenkomst als bedoeld in artikel 10 van richtlijn (EU) 2016/801 of een leer-werkovereenkomst of stageovereenkomst als bedoeld in  heeft gesloten, voor zover die kosten zijn gemaakt zes maanden of langer, nadat die overeenkomst is beindigd.artikel 1.12" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBUR" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/3c526d60-90db-4435-a9fb-e49f1d830e2f" />
+        <node concept="19SGf9" id="1spse2eiBUS" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBUT" role="19SJt6">
+            <property role="19SUeA" value="De noodzakelijke kosten van uitzetting worden niet verhaald op de vreemdeling of, indien deze minderjarig is, op degenen die het wettig gezag over hem uitoefenen of uitoefenden, indien die kosten kunnen worden verhaald op diens referent of gewezen referent." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBUU">
+    <property role="TrG5h" value="Hoofdstuk6Afdeling3Artikel6.5" />
+    <property role="1N0jUS" value="65" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBUV" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBUW" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/eddc8232-8cf5-4750-abea-d115debca865" />
+        <node concept="19SGf9" id="1spse2eiBUX" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBUY" role="19SJt6">
+            <property role="19SUeA" value="Tegen een vreemdeling wordt geen inreisverbod uitgevaardigd, indien een redelijke termijn als bedoeld in  nog niet is verstreken na afloop van het rechtmatig verblijf, bedoeld in , of als Nederlander.artikel 3.82artikel 8, onder a tot en met e, dan wel l, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBUZ" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/21baf11b-39bd-4f8d-8bec-5167fb100c71" />
+        <node concept="3MKX5i" id="1spse2eiBV0" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/d0853bb4-cad3-4b9d-bcd6-95f3da84224a" />
+          <node concept="19SGf9" id="1spse2eiBV1" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBV2" role="19SJt6">
+              <property role="19SUeA" value="Tegen een vreemdeling wordt geen inreisverbod uitgevaardigd, indien deze:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBV3" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/a5cc4a3b-28d9-45d1-801d-8c50108ecb38" />
+          <node concept="3MKX6G" id="1spse2eiBV4" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/4f13a45c-d84b-4788-9140-e9bdf5e9dc5c" />
+            <node concept="19SGf9" id="1spse2eiBV5" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBV6" role="19SJt6">
+                <property role="19SUeA" value="als slachtoffer of getuige in aanmerking komt voor bedenktijd voor de aangifte van mensenhandel of mensensmokkel;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBV7" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/20695bd5-f177-4d5e-8876-5b029c587f05" />
+            <node concept="19SGf9" id="1spse2eiBV8" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBV9" role="19SJt6">
+                <property role="19SUeA" value="als slachtoffer- of getuige-aangever in aanmerking komt voor een verblijfsvergunning regulier voor bepaalde tijd;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBVa" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/2330df57-4478-41fe-8fbd-f07d4f850d7d" />
+            <node concept="19SGf9" id="1spse2eiBVb" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBVc" role="19SJt6">
+                <property role="19SUeA" value="als slachtoffer van huiselijk geweld van de persoon bij wie eerder verblijf als bedoeld in  was toegestaan of als slachtoffer van eergerelateerd geweld in aanmerking komt voor een verblijfsvergunning regulier voor bepaalde tijd;artikel 8, onder a, c dan wel e of l, van de Wet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBVd" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/016acf12-08ec-4e04-bbbb-a4cb93da54f3" />
+            <node concept="19SGf9" id="1spse2eiBVe" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBVf" role="19SJt6">
+                <property role="19SUeA" value="als echtgenoot, partner of minderjarig kind in het land van herkomst is achtergelaten door de persoon bij wie eerder rechtmatig verblijf als bedoeld in  was toegestaan, en op die grond in aanmerking komt voor de verlening van een verblijfsvergunning regulier voor bepaalde tijd;artikel 8, onder a, c dan wel e, of l, van de Wet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBVg" role="3MKX6F">
+            <property role="3MLT8O" value="e" />
+            <property role="1hTQn4" value="https://calculemus.org/48b521b8-8f32-44f6-a606-4f884dfb49ba" />
+            <node concept="19SGf9" id="1spse2eiBVh" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBVi" role="19SJt6">
+                <property role="19SUeA" value="in aanmerking komt voor een verblijfsvergunning regulier voor bepaalde tijd op grond dat hij buiten zijn schuld niet uit Nederland kan vertrekken;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBVj" role="3MKX6F">
+            <property role="3MLT8O" value="f" />
+            <property role="1hTQn4" value="https://calculemus.org/cc3e977e-6d91-47ae-8414-831d3adc37a2" />
+            <node concept="19SGf9" id="1spse2eiBVk" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBVl" role="19SJt6">
+                <property role="19SUeA" value="minderjarig is; of" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBVm" role="3MKX6F">
+            <property role="3MLT8O" value="g" />
+            <property role="1hTQn4" value="https://calculemus.org/791d7104-1a57-47af-88fc-203c7ca769f6" />
+            <node concept="19SGf9" id="1spse2eiBVn" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBVo" role="19SJt6">
+                <property role="19SUeA" value="in aanmerking komt voor een verblijfsvergunning op grond van Besluit 1/80 van de Associatieraad EEG-Turkije betreffende de ontwikkeling van de Associatie, of niet wordt uitgezet om reden dat diens uitzetting in strijd zou zijn met de op 12september1963 te Ankara gesloten Overeenkomst waarbij een associatie tot stand wordt gebracht tussen de Europese Economische Gemeenschap en Turkije (Trb.1964, 217), het op 23november 1970 te Brussel tot stand gekomen Aanvullend Protocol bij die overeenkomst (Trb.1971, 70) of genoemd Besluit nr.1/80." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBVp" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/db2a2126-e3e7-4f53-8927-a268d9ae2c68" />
+        <node concept="19SGf9" id="1spse2eiBVq" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBVr" role="19SJt6">
+            <property role="19SUeA" value="Het inreisverbod wordt opgeheven, indien zich een van de gevallen, bedoeld in het tweede lid, voordoet." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBVs" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/cc2c192f-452b-4740-b773-79a2cb00cdc0" />
+        <node concept="19SGf9" id="1spse2eiBVt" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBVu" role="19SJt6">
+            <property role="19SUeA" value="Van het eerste tot en met derde lid kan worden afgeweken ingeval de vreemdeling een gevaar vormt voor de openbare orde, de openbare veiligheid of de nationale veiligheid." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBVv" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/a8a39ed8-0a69-4c06-abf7-899b5c7545ee" />
+        <node concept="19SGf9" id="1spse2eiBVw" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBVx" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen andere gevallen worden aangewezen waarin het inreisverbod om humanitaire of andere redenen achterwege wordt gelaten dan wel wordt opgeheven." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBVy">
+    <property role="TrG5h" value="Hoofdstuk6Afdeling4Artikel6.6" />
+    <property role="1N0jUS" value="66" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBVz" role="3MKX6D">
+      <node concept="3MKX5h" id="1spse2eiBV$" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/93da1575-af83-448a-8f1b-f97cb53f2f39" />
+        <node concept="3MKX5i" id="1spse2eiBV_" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/971033e6-4e08-403f-bf68-2834e1de5762" />
+          <node concept="19SGf9" id="1spse2eiBVA" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBVB" role="19SJt6">
+              <property role="19SUeA" value="De aanvraag om opheffing van de ongewenstverklaring, bedoeld in , wordt ingewilligd, indien de vreemdeling niet aan strafvervolging terzake van enig misdrijf is onderworpen, en deze vreemdeling:artikel 68, eerste lid, van de Wet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBVC" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/8497fcf3-ab80-4c7c-ad6d-5276938424c9" />
+          <node concept="3MKX6G" id="1spse2eiBVD" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/5dc8b04a-e705-4780-9ae5-3cb5f88e6761" />
+            <node concept="19SGf9" id="1spse2eiBVE" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBVF" role="19SJt6">
+                <property role="19SUeA" value="indien hij ongewenst is verklaard wegens een geweldsdelict, een opiumdelict of een misdrijf waartegen een gevangenisstraf van meer dan zes jaren is bedreigd, na de ongewenstverklaring ten minste tien achtereenvolgende jaren buiten Nederland heeft verbleven;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBVG" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/35d46636-ac31-4540-b22a-1ae316976c97" />
+            <node concept="19SGf9" id="1spse2eiBVH" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBVI" role="19SJt6">
+                <property role="19SUeA" value="indien hij ongewenst is verklaard wegens andere misdrijven dan bedoeld in onderdeel a, na de ongewenstverklaring tenminste vijf achtereenvolgende jaren buiten Nederland heeft verbleven;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBVJ" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/a5bffbb9-efff-4235-8a3d-9d1fa22e5383" />
+            <node concept="19SGf9" id="1spse2eiBVK" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBVL" role="19SJt6">
+                <property role="19SUeA" value="indien hij ongewenst is verklaard op grond van , na de ongewenstverklaring tenminste n jaar buiten Nederland heeft verbleven.artikel 67, eerste lid, onder a, van de Wet" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBVM" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/2b80fac4-faec-4ce5-8656-e465667f240b" />
+        <node concept="19SGf9" id="1spse2eiBVN" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBVO" role="19SJt6">
+            <property role="19SUeA" value="In afwijking van het eerste lid, aanhef en onder b, wordt de aanvraag ingewilligd nadat de daar bedoelde vreemdeling tenminste tien achtereenvolgende jaren buiten Nederland heeft verbleven, indien zwaarwegende belangen zich naar het oordeel van Onze Minister verzetten tegen opheffing van de ongewenstverklaring na vijf jaren." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBVP" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/1ba7cc4e-80d3-476c-a938-e7176e6ef132" />
+        <node concept="3MKX5i" id="1spse2eiBVQ" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/c07f03c9-bfd6-4a2c-a7a6-8d0355d688da" />
+          <node concept="19SGf9" id="1spse2eiBVR" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBVS" role="19SJt6">
+              <property role="19SUeA" value="De in het eerste lid genoemde termijnen vangen opnieuw aan, indien de vreemdeling tijdens de ongewenstverklaring:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBVT" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/c65652ed-8b25-47e1-815e-5ef69756892e" />
+          <node concept="3MKX6G" id="1spse2eiBVU" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/370e7a60-d293-49d8-921c-e94f56aac1e1" />
+            <node concept="19SGf9" id="1spse2eiBVV" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBVW" role="19SJt6">
+                <property role="19SUeA" value="een als misdrijf strafbaar gestelde inbreuk op de openbare orde heeft gepleegd die tot ongewenstverklaring zou kunnen leiden, of" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBVX" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/45900108-bb5e-44a8-810d-fdfcbc89e981" />
+            <node concept="19SGf9" id="1spse2eiBVY" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBVZ" role="19SJt6">
+                <property role="19SUeA" value="zonder voorafgaande tijdelijke opheffing of in strijd met de aan die tijdelijke opheffing verbonden voorwaarden in Nederland heeft verbleven." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBW0" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/ee0a40db-9b5f-4c26-9265-cfa44632cf49" />
+        <node concept="3MKX5i" id="1spse2eiBW1" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/5cfad831-ceaf-4f91-9788-d58f8cf29c7e" />
+          <node concept="19SGf9" id="1spse2eiBW2" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBW3" role="19SJt6">
+              <property role="19SUeA" value="De gegevens, bedoeld in , die de vreemdeling verstrekt zijn in ieder geval:artikel 4:2, tweede lid, van de Algemene wet bestuursrecht" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBW4" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/86b04230-4e5e-4e42-9336-ec4842654e28" />
+          <node concept="3MKX6G" id="1spse2eiBW5" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/47cae6bb-d3e8-4408-9823-6b5b531368d7" />
+            <node concept="19SGf9" id="1spse2eiBW6" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBW7" role="19SJt6">
+                <property role="19SUeA" value="een schriftelijke verklaring van de vreemdeling dat hij sinds zijn vertrek uit Nederland na de ongewenstverklaring tien, onderscheidenlijk vijf achtereenvolgende jaren of n jaar buiten Nederland heeft verbleven en dat hij zich in die periode niet schuldig heeft gemaakt aan misdrijven en dat hij niet aan strafvervolging onderworpen is;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBW8" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/ccd715a5-1843-4c76-b831-f69b767b9d62" />
+            <node concept="19SGf9" id="1spse2eiBW9" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBWa" role="19SJt6">
+                <property role="19SUeA" value="een kopie van de documenten voor grensoverschrijding die de vreemdeling sinds zijn ongewenstverklaring heeft gehouden;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBWb" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/e25ed0c7-cd5c-4c34-9f02-898688475dc3" />
+            <node concept="19SGf9" id="1spse2eiBWc" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBWd" role="19SJt6">
+                <property role="19SUeA" value="een overzicht van de plaatsen waar de vreemdeling sinds zijn ongewenstverklaring heeft verbleven, voorzien van bewijsstukken, en" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBWe" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/0337db93-6073-480e-9563-69aa9ee0d576" />
+            <node concept="19SGf9" id="1spse2eiBWf" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBWg" role="19SJt6">
+                <property role="19SUeA" value="een schriftelijke verklaring, afgegeven door de terzake bevoegde autoriteiten van het land of de landen waar de vreemdeling sinds zijn ongewenstverklaring heeft verbleven, dat de vreemdeling zich tijdens dat verblijf niet schuldig heeft gemaakt aan misdrijven en niet aan strafvervolging onderworpen is." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBWh">
+    <property role="TrG5h" value="Hoofdstuk6Afdeling4Artikel6.7" />
+    <property role="1N0jUS" value="67" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBWi" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBWj" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/ba5f96b1-368c-455a-9b7e-99ca5642298d" />
+        <node concept="19SGf9" id="1spse2eiBWk" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBWl" role="19SJt6">
+            <property role="19SUeA" value="In zeer uitzonderlijke en dringende gevallen kan Onze Minister de ongewenstverklaring tijdelijk opheffen. Aan de tijdelijke opheffing worden voorwaarden gesteld omtrent de plaats van binnenkomst en de duur van het verblijf in Nederland." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBWm">
+    <property role="TrG5h" value="Hoofdstuk7Artikel7.1" />
+    <property role="1N0jUS" value="71" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBWn" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBWo" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/6d36d040-2c85-40ee-a620-b75f0b9f8d0f" />
+        <node concept="19SGf9" id="1spse2eiBWp" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBWq" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBWr">
+    <property role="TrG5h" value="Hoofdstuk7Artikel7.2" />
+    <property role="1N0jUS" value="72" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBWs" role="3MKX6D">
+      <node concept="3MKX5h" id="1spse2eiBWt" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/d38123dc-eeed-4023-b78e-cfa7e85ef70e" />
+        <node concept="3MKX5i" id="1spse2eiBWu" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/4169695d-8278-4be4-bdb9-55d3ec32dcca" />
+          <node concept="19SGf9" id="1spse2eiBWv" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBWw" role="19SJt6">
+              <property role="19SUeA" value="De uitzetting van de vreemdeling blijft, in afwijking van  achterwege, indien het betreft een vreemdeling, die:artikel 73, tweede lid, van de Wet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBWx" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/2c33f070-0092-4647-b01e-28a73853931e" />
+          <node concept="3MKX6G" id="1spse2eiBWy" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/862ee179-42e2-4c5d-b11b-80b9520b2018" />
+            <node concept="19SGf9" id="1spse2eiBWz" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBW$" role="19SJt6">
+                <property role="19SUeA" value="onderdaan is van een land dat partij is bij het Europees Vestigingsverdrag;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBW_" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/732d4cbc-2860-4824-8dd4-99e57c2247be" />
+            <node concept="19SGf9" id="1spse2eiBWA" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBWB" role="19SJt6">
+                <property role="19SUeA" value="onmiddellijk voorafgaande aan het tijdstip waarop het rechtmatig verblijf, bedoeld in  is geindigd, gedurende twee aaneengesloten jaren dit rechtmatig verblijf heeft gehad;artikel 8, onder a tot en met e, dan wel l, van de Wet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBWC" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/88941747-22c6-470f-9480-33df18126885" />
+            <node concept="19SGf9" id="1spse2eiBWD" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBWE" role="19SJt6">
+                <property role="19SUeA" value="zijn hoofdverblijf niet buiten Nederland heeft gevestigd, en" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBWF" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/ff5226cd-c128-4ad1-9d27-e84cb544ade3" />
+            <node concept="19SGf9" id="1spse2eiBWG" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBWH" role="19SJt6">
+                <property role="19SUeA" value="tijdig bezwaar heeft gemaakt dan wel administratief beroep heeft ingesteld tegen een beschikking waarbij het rechtmatig verblijf is beindigd." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBWI" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/9cf8afb5-48ae-4bfb-ab0b-f877402af91b" />
+        <node concept="19SGf9" id="1spse2eiBWJ" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBWK" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid blijft buiten toepassing, indien de uitzetting van de vreemdeling wegens dwingende redenen van nationale veiligheid gerechtvaardigd is." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBWL">
+    <property role="TrG5h" value="Hoofdstuk7Artikel7.3" />
+    <property role="1N0jUS" value="73" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBWM" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBWN" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/9d7bf762-1af1-488b-9e19-011dbdae2e2c" />
+        <node concept="19SGf9" id="1spse2eiBWO" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBWP" role="19SJt6">
+            <property role="19SUeA" value="Indien een verzoek om een voorlopige voorziening is gedaan teneinde uitzetting of overdracht te voorkomen voordat is beslist op een beroep gericht tegen een besluit dat is genomen naar aanleiding van een aanvraag om een verblijfsvergunning asiel voor bepaalde tijd is het de vreemdeling toegestaan de uitspraak op dit verzoek hier te lande af te wachten." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBWQ" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/8fa111ad-fbcc-47dc-955c-43f3057f6b09" />
+        <node concept="19SGf9" id="1spse2eiBWR" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBWS" role="19SJt6">
+            <property role="19SUeA" value="Van het eerste lid kan worden afgeweken indien uitzetting niet achterwege wordt gelaten op de in  bedoelde gronden.artikel 3.1, tweede lid, onder a en e" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBWT">
+    <property role="TrG5h" value="Hoofdstuk7Artikel7.4" />
+    <property role="1N0jUS" value="74" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBWU" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBWV" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/5dff4353-23cb-494f-81ba-f5ad01022274" />
+        <node concept="19SGf9" id="1spse2eiBWW" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBWX" role="19SJt6">
+            <property role="19SUeA" value="Aan een alleenstaande minderjarige vreemdeling wiens beroep geen rele kans van slagen heeft wordt alleen kosteloze rechtsbijstand onthouden, indien de vertegenwoordiger van de minderjarige overeenkomstig het nationale recht over juridische kwalificaties beschikt." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBWY" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/14a01660-8c31-4f41-872a-445006a4554a" />
+        <node concept="19SGf9" id="1spse2eiBWZ" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBX0" role="19SJt6">
+            <property role="19SUeA" value="Indien een rechterlijke instantie oordeelt over het recht van een alleenstaande minderjarige vreemdeling om in afwachting van de beslissing op beroep in Nederland te blijven, dient de alleenstaande minderjarige vreemdeling tenminste over tolkdiensten en rechtsbijstand te beschikken en minstens een week de tijd te hebben om het daartoe strekkende verzoek op te stellen." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBX1">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling1Artikel8.1" />
+    <property role="1N0jUS" value="81" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBX2" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBX3" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/a4a7f37e-23bb-45a0-a075-2164f7905432" />
+        <node concept="19SGf9" id="1spse2eiBX4" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBX5" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister verstrekt op de wijze als beschreven in dit artikel de gegevens betreffende de verblijfsrechtelijke positie van een vreemdeling die een bestuursorgaan of een orgaan als bedoeld in  nodig hebben voor de toekenning van verstrekkingen, voorzieningen, uitkeringen, ontheffingen of vergunningen.artikel 107, tiende lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBX6" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/47e3d767-93d3-4aa8-aa1c-3efa7f2eb341" />
+        <node concept="19SGf9" id="1spse2eiBX7" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBX8" role="19SJt6">
+            <property role="19SUeA" value="De algemene gegevens betreffende de verblijfsrechtelijke positie van vreemdelingen worden door Onze Minister verstrekt aan het college van burgemeester en wethouders, met het oog op de verstrekking daarvan ingevolge de  aan een orgaan als bedoeld in het eerste lid. De algemene gegevens zijn de gegevens in verband met het verblijfsrecht van de vreemdeling, bedoeld in .Wet basisregistratie personen" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBX9" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/90f4be25-a21f-477c-9613-f34f5407b976" />
+        <node concept="3MKX5i" id="1spse2eiBXa" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/effee68d-e93c-4b9d-b0d4-7c5c1ba0f57e" />
+          <node concept="19SGf9" id="1spse2eiBXb" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBXc" role="19SJt6">
+              <property role="19SUeA" value="Een bestuursorgaan of een orgaan als bedoeld in  vraagt Onze Minister onmiddellijk nadere gegevens over de verblijfsrechtelijke positie van een vreemdeling, indien bij het bestuursorgaan of een orgaan als bedoeld in , na raadpleging van de algemene gegevens in verband met het verblijfsrecht van een vreemdeling uit de basisregistratie personen onduidelijkheid bestaat omtrent de verblijfsrechtelijke positie van die vreemdeling, omdat:artikel 107, tiende lid, van de Wet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBXd" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/191809a4-99e7-4b38-8f5e-8acbbc47c55d" />
+          <node concept="3MKX6G" id="1spse2eiBXe" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/fe96da81-b2da-4329-80ce-060802ce028d" />
+            <node concept="19SGf9" id="1spse2eiBXf" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBXg" role="19SJt6">
+                <property role="19SUeA" value="de vreemdeling niet voorkomt in de basisregistratie personen, maar wel beschikt over het bescheid, bedoeld in ;artikel 9, tweede lid, van de Wet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBXh" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/3acc841c-8372-4a54-9a03-07c75aad4d2a" />
+            <node concept="19SGf9" id="1spse2eiBXi" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBXj" role="19SJt6">
+                <property role="19SUeA" value="de verblijfsrechtelijke gegevens in de basisregistratie personen afwijken van de gegevens omtrent het verblijf van die vreemdeling op het bescheid, bedoeld in , ofartikel 9, tweede lid, van de Wet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBXk" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/7403b17f-9268-40ec-aeab-f89e12e77417" />
+            <node concept="19SGf9" id="1spse2eiBXl" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBXm" role="19SJt6">
+                <property role="19SUeA" value="de verblijfsrechtelijke gegevens in de basisregistratie personen en het bescheid, bedoeld in  afwijken van andere bescheiden, waarover het bestuursorgaan beschikt, waardoor gerede twijfel over de juistheid van de gegevens over de verblijfsrechtelijke positie van de vreemdeling is ontstaan.artikel 9, tweede lid, van de Wet" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBXn" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/cef4187f-8e2f-461f-a01d-01f310caecac" />
+        <node concept="19SGf9" id="1spse2eiBXo" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBXp" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister verstrekt het bestuursorgaan of een orgaan als bedoeld in , in de gevallen, bedoeld in het derde lid, desgevraagd onmiddellijk de nadere gegevens over de verblijfsrechtelijke positie van de vreemdeling.artikel 107, tiende lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBXq" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/4641fb59-7b79-437a-b0ea-284e22731466" />
+        <node concept="19SGf9" id="1spse2eiBXr" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBXs" role="19SJt6">
+            <property role="19SUeA" value="Indien een bestuursorgaan of een orgaan als bedoeld in , in een individueel geval aanwijzingen heeft dat op korte termijn een wijziging in de verblijfsrechtelijke positie van een vreemdeling optreedt of recent een wijziging in de verblijfsrechtelijke positie is opgetreden en het bestuursorgaan heeft met redenen omkleed aannemelijk gemaakt dat vanwege het spoedeisende karakter bij het toekennen van een verstrekking, voorziening, uitkering, ontheffing of vergunning niet gewacht kan worden op de aanpassing van de algemene gegevens in de basisregistratie personen, verstrekt Onze Minister desgevraagd onmiddellijk nadere gegevens over een desbetreffende wijziging in de verblijfsrechtelijke positie van de vreemdeling. Het verzoek wordt schriftelijk gedaan.artikel 107, tiende lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBXt">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling1Artikel8.2" />
+    <property role="1N0jUS" value="82" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBXu" role="3MKX6D">
+      <node concept="3MKX5h" id="1spse2eiBXv" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/300d70b1-c860-4eed-864a-e61575a10b29" />
+        <node concept="3MKX5i" id="1spse2eiBXw" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/c026e6aa-ef93-4cd9-83a0-1d6990031a4e" />
+          <node concept="19SGf9" id="1spse2eiBXx" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBXy" role="19SJt6">
+              <property role="19SUeA" value="Een bestuursorgaan of een orgaan als bedoeld in  verstrekt Onze Minister desgevraagd de gegevens omtrent de toekenning of de beindiging van verstrekkingen, voorzieningen, uitkeringen, ontheffingen of vergunningen aan een vreemdeling, die nodig zijn voor:artikel 107, tiende lid, van de Wet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBXz" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/923029dc-2775-48da-a6e6-2f67342b1249" />
+          <node concept="3MKX6G" id="1spse2eiBX$" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/21c022dc-1020-49e1-9530-4c8b814d6d80" />
+            <node concept="19SGf9" id="1spse2eiBX_" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBXA" role="19SJt6">
+                <property role="19SUeA" value="de verlening, de verlenging van de geldigheidsduur van, de wijziging van het verblijfsdoel van of intrekking van een verblijfsvergunning als bedoeld in de ;artikel 8, onder a tot en met d, van de Wet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBXB" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/d39259dd-4de6-4f14-a0dd-561db210a97d" />
+            <node concept="19SGf9" id="1spse2eiBXC" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBXD" role="19SJt6">
+                <property role="19SUeA" value="de beoordeling of aan de voorwaarden en beperkingen waaronder die verblijfsvergunning is verleend, wordt voldaan, of" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBXE" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/25d84686-92b5-4d00-a6b7-d7032101e35b" />
+            <node concept="19SGf9" id="1spse2eiBXF" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBXG" role="19SJt6">
+                <property role="19SUeA" value="de beoordeling of een vreemdeling als gemeenschapsonderdaan rechtmatig verblijf heeft als bedoeld in .artikel 8, onder e, van de Wet" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBXH" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/f4eaeb88-23c0-43d0-a571-9d61b6c15242" />
+        <node concept="19SGf9" id="1spse2eiBXI" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBXJ" role="19SJt6">
+            <property role="19SUeA" value="Indien uit de verblijfsrechtelijke gegevens in de basisregistratie personen, dan wel uit een aantekening op het bescheid, bedoeld in  blijkt dat het verblijfsrecht is toegekend onder de beperking dat een beroep op de algemene middelen gevolgen kan hebben voor het verblijfsrecht, verstrekt een bestuursorgaan, niet zijnde een orgaan als bedoeld in , uit eigen beweging zo spoedig mogelijk de gegevens, bedoeld in het eerste lid, die nodig zijn voor de beoordeling of aan deze beperking wordt voldaan.artikel 9, tweede lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBXK" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/2845f5d2-0212-4382-8486-1a1031d2870f" />
+        <node concept="19SGf9" id="1spse2eiBXL" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBXM" role="19SJt6">
+            <property role="19SUeA" value="Indien uit de verblijfsrechtelijke gegevens in de basisregistratie personen, dan wel uit een aantekening op het bescheid, bedoeld in  blijkt dat het verblijfsrecht is toegekend onder de beperking dat arbeid niet is toegestaan, dan wel arbeid uitsluitend is toegestaan bij een bepaalde werkgever, dan wel arbeid slechts is toegestaan met een gecombineerde vergunning of een tewerkstellingsvergunning, verstrekt een bestuursorgaan, niet zijnde een orgaan als bedoeld in , belast met de verstrekking van ontheffingen of vergunningen als bedoeld in de  en , uit eigen beweging zo spoedig mogelijk de gegevens, bedoeld in het eerste lid die nodig zijn voor de beoordeling of aan deze beperking wordt voldaan.artikelen 8.3artikel 9, tweede lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBXN" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/9e5d56f3-52d1-4cc7-bbf0-5cb6080ca42c" />
+        <node concept="19SGf9" id="1spse2eiBXO" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBXP" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister kan, in overeenstemming met Onze Minister die het aangaat, bepalen dat de gegevens, bedoeld in dit artikel, periodiek of in gestandaardiseerde vorm worden verstrekt." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBXQ">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling1Artikel8.3" />
+    <property role="1N0jUS" value="83" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBXR" role="3MKX6D">
+      <node concept="3MKX5h" id="1spse2eiBXS" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/86bb0098-6ee5-455a-9f28-a47811db62ae" />
+        <node concept="3MKX5i" id="1spse2eiBXT" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/fc6ae8fe-97c7-4085-a77e-474fb8aba39f" />
+          <node concept="19SGf9" id="1spse2eiBXU" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiBXV" role="19SJt6">
+              <property role="19SUeA" value="De vreemdeling die geen rechtmatig verblijf heeft op grond van  kan geen aanspraak maken op een beschikking als bedoeld in:artikel 8 van de Wet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiBXW" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/fa0e98dd-a2ad-4693-addd-36e59e533af3" />
+          <node concept="3MKX6G" id="1spse2eiBXX" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/e295497a-187c-4a68-ace1-5c6559147aae" />
+            <node concept="19SGf9" id="1spse2eiBXY" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBXZ" role="19SJt6">
+                <property role="19SUeA" value="de  en ;artikelen 30b" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBY0" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/5c9b444c-b373-405b-a35e-21ca18ad6132" />
+            <node concept="19SGf9" id="1spse2eiBY1" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBY2" role="19SJt6">
+                <property role="19SUeA" value=";artikel 3 van de Drank- en Horecawet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBY3" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/ad2d748c-2547-4f10-9710-3ebe4118da11" />
+            <node concept="19SGf9" id="1spse2eiBY4" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBY5" role="19SJt6">
+                <property role="19SUeA" value="de , en ;artikelen 2, eerste lid" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiBY6" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/6752e42a-04d3-4a0e-9f48-525dc66412ff" />
+            <node concept="19SGf9" id="1spse2eiBY7" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiBY8" role="19SJt6">
+                <property role="19SUeA" value=".artikel 76 van de Wet personenvervoer 2000" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBY9" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/5f9f2c99-0131-4f43-8119-f46b407775b2" />
+        <node concept="19SGf9" id="1spse2eiBYa" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBYb" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling, bedoeld in het eerste lid, kan geen aanspraak maken op de toekenning van vergunningen en ontheffingen door bestuursorganen van gemeenten, provincies, waterschappen en met toepassing van de  ingestelde openbare lichamen of gemeenschappelijke regelingen, voorzover die vergunningen of ontheffingen betrekking hebben op standplaatsen, markten, venten, collecteren, evenementen of beroepsmatige dan wel bedrijfsmatige activiteiten.Wet gemeenschappelijke regelingen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBYc">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling1Artikel8.4" />
+    <property role="1N0jUS" value="84" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBYd" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBYe" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/d324869c-40e6-45fe-95f1-ebe2b7198a40" />
+        <node concept="19SGf9" id="1spse2eiBYf" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBYg" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling die rechtmatig in Nederland verblijf heeft op de gronden, genoemd in , kan geen aanspraak maken op een beschikking als bedoeld in .artikel 8.3artikel 8, onder f tot en met j, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBYh">
+    <property role="TrG5h" value="Hoofdstuk9Artikel9.1" />
+    <property role="1N0jUS" value="91" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBYi" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBYj" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/c2e0a6b6-6570-4c93-b20d-c403f384adc0" />
+        <node concept="19SGf9" id="1spse2eiBYk" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBYl" role="19SJt6">
+            <property role="19SUeA" value=", zoals dat luidde op 31december 2014, blijft van overeenkomstige toepassing op aanvragen als bedoeld in artikel 3.107a, eerste lid, die zijn gediend voor 1januari 2015.Artikel 3.107a, tweede lid, onderdeel c" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBYm">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf2Artikel3.59a" />
+    <property role="1N0jUS" value="92" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBYn" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBYo" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/ebbf5168-fcc3-4b5a-8c8b-b2c8dbb5bfbd" />
+        <node concept="19SGf9" id="1spse2eiBYp" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBYq" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBYr">
+    <property role="TrG5h" value="Hoofdstuk9Artikel9.2" />
+    <property role="1N0jUS" value="92" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBYs" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBYt" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/02971e43-1897-4127-aac3-95d1532383f2" />
+        <node concept="19SGf9" id="1spse2eiBYu" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBYv" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBYw">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf2Artikel3.59b" />
+    <property role="1N0jUS" value="93" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBYx" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBYy" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/3f9af51d-adaf-418f-8a6a-12d8050f5ef3" />
+        <node concept="19SGf9" id="1spse2eiBYz" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBY$" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBY_">
+    <property role="TrG5h" value="Hoofdstuk9Artikel9.3" />
+    <property role="1N0jUS" value="93" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBYA" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBYB" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/4162360d-5fa3-40e6-80cf-ff1b609bc264" />
+        <node concept="19SGf9" id="1spse2eiBYC" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBYD" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBYE">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf2Artikel3.59c" />
+    <property role="1N0jUS" value="94" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBYF" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBYG" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/4e5dc6eb-ea52-45be-a60d-11bd67e291ed" />
+        <node concept="19SGf9" id="1spse2eiBYH" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBYI" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBYJ">
+    <property role="TrG5h" value="Hoofdstuk9Artikel9.4" />
+    <property role="1N0jUS" value="94" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBYK" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBYL" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/ca362897-2f62-4dc6-a7ec-bec46f1b5e51" />
+        <node concept="19SGf9" id="1spse2eiBYM" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBYN" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBYO">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf2Artikel3.59d" />
+    <property role="1N0jUS" value="95" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBYP" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBYQ" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/c73e8117-990f-4283-af7e-a7aa81a5c036" />
+        <node concept="19SGf9" id="1spse2eiBYR" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBYS" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBYT">
+    <property role="TrG5h" value="Hoofdstuk9Artikel9.5" />
+    <property role="1N0jUS" value="95" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBYU" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBYV" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/f80d66bc-b50e-4ebb-b396-efc7ea524c7a" />
+        <node concept="19SGf9" id="1spse2eiBYW" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBYX" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBYY">
+    <property role="TrG5h" value="Hoofdstuk9Artikel9.6" />
+    <property role="1N0jUS" value="96" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBYZ" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBZ0" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/c41d3ea3-70ba-45e2-b70d-584e62386de2" />
+        <node concept="19SGf9" id="1spse2eiBZ1" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBZ2" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBZ3">
+    <property role="TrG5h" value="Hoofdstuk9Artikel9.7" />
+    <property role="1N0jUS" value="97" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBZ4" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBZ5" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/26c357b0-7463-4320-8bdc-066ec21eb2b4" />
+        <node concept="19SGf9" id="1spse2eiBZ6" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBZ7" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBZ8">
+    <property role="TrG5h" value="Hoofdstuk9Artikel9.8" />
+    <property role="1N0jUS" value="98" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBZ9" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBZa" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/3899d510-a1bf-458f-bb5b-a36238a126e9" />
+        <node concept="19SGf9" id="1spse2eiBZb" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBZc" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBZd">
+    <property role="TrG5h" value="Hoofdstuk9Artikel9.9" />
+    <property role="1N0jUS" value="99" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBZe" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiBZf" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/640ac332-bfee-49c9-a6a6-8d14171f70e0" />
+        <node concept="19SGf9" id="1spse2eiBZg" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBZh" role="19SJt6">
+            <property role="19SUeA" value="Bij de toepassing van de , en  blijft buiten beschouwing de periode van de terbeschikkingstelling, die op het tijdstip van inwerkingtreding van de Wet reeds was beindigd.artikelen 3.86, eerste lid, onder c" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiBZi" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/69ced575-fd31-4f91-83dd-ebb74983d150" />
+        <node concept="19SGf9" id="1spse2eiBZj" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiBZk" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid is niet van toepassing, indien de vreemdeling na beindiging van de maatregel wederom een misdrijf heeft gepleegd, waartegen een gevangenisstraf van drie jaren of meer is bedreigd." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBZl">
+    <property role="TrG5h" value="Hoofdstuk1Afdeling3Paragraaf1Artikel1.10" />
+    <property role="1N0jUS" value="110" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBZm" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBZn" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/10fcc58f-946b-4538-86ea-5f8c1de26b53" />
+        <node concept="19SGf9" id="1spse2eiBZo" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBZp" role="19SJt6">
+            <property role="19SUeA" value="Ten behoeve van het verblijf van een vreemdeling die in Nederland verblijft of wil verblijven voor het verrichten van seizoenarbeid of arbeid in loondienst, kan als referentoptreden de werkgever, die, voor zover op grond van de  vereist, is ingeschreven in het handelsregister, bedoeld in , en die:Handelsregisterwet 2007" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBZq" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/f5c53100-8f6a-4f35-af21-e477aeb1c094" />
+        <node concept="3MKX6G" id="1spse2eiBZr" role="3MKX6F">
+          <property role="3MLT8O" value="a" />
+          <property role="1hTQn4" value="https://calculemus.org/fc69934e-d5de-453d-af1f-6152854fbdc0" />
+          <node concept="19SGf9" id="1spse2eiBZs" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiBZt" role="19SJt6">
+              <property role="19SUeA" value="met de vreemdeling een arbeidsovereenkomst heeft gesloten of die de vreemdeling heeft aangesteld, dan wel, indien geen sprake is van een arbeidsovereenkomst of aanstelling," />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiBZu" role="3MKX6F">
+          <property role="3MLT8O" value="b" />
+          <property role="1hTQn4" value="https://calculemus.org/579e313d-3d7a-40f0-9234-4f7f54189bcd" />
+          <node concept="19SGf9" id="1spse2eiBZv" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiBZw" role="19SJt6">
+              <property role="19SUeA" value="ten behoeve van die arbeid in het bezit is gesteld van een tewerkstellingsvergunning of een tewerkstellingsvergunning heeft aangevraagd, dan wel, indien geen tewerkstellingsvergunning is vereist," />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiBZx" role="3MKX6F">
+          <property role="3MLT8O" value="c" />
+          <property role="1hTQn4" value="https://calculemus.org/94fb7a75-17b7-46dc-b6ce-8b79ae82930e" />
+          <node concept="19SGf9" id="1spse2eiBZy" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiBZz" role="19SJt6">
+              <property role="19SUeA" value="de vreemdeling feitelijk tewerkstelt." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBZ$">
+    <property role="TrG5h" value="Hoofdstuk1Afdeling3Paragraaf1Artikel1.11" />
+    <property role="1N0jUS" value="111" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBZ_" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBZA" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/97821a83-7e63-41c9-bd9f-6c08cbcdae30" />
+        <node concept="19SGf9" id="1spse2eiBZB" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBZC" role="19SJt6">
+            <property role="19SUeA" value="Ten behoeve van het verblijf van een vreemdeling die in Nederland verblijft of wil verblijven voor het verrichten van onderzoek in de zin van richtlijn (EU) 2016/801, kan als referent optreden de krachtens  als referent erkende onderzoeksinstelling, waarmee de vreemdeling een gastovereenkomst als bedoeld in artikel 10 van richtlijn (EU) 2016/801 heeft gesloten, die, voor zover op grond van de  vereist, is ingeschreven in het handelsregister, bedoeld in , en die:artikel 2c van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiBZD" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/de476730-75cf-4ca1-add8-1b7dd20ea00c" />
+        <node concept="3MKX6G" id="1spse2eiBZE" role="3MKX6F">
+          <property role="3MLT8O" value="a" />
+          <property role="1hTQn4" value="https://calculemus.org/edb5b55e-3fcc-49c7-9f78-e540e9bdfa78" />
+          <node concept="19SGf9" id="1spse2eiBZF" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiBZG" role="19SJt6">
+              <property role="19SUeA" value="een publieke onderzoeksinstelling is als bedoeld in  en die functieprofielen zoals opgenomen in het universitaire systeem van functieordenen onder de functiefamilie onderzoek en onderwijs hanteert voor onderzoekers in loondienst;artikel 1d, eerste lid, onder b, van het Besluit uitvoering Wet arbeid vreemdelingen" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiBZH" role="3MKX6F">
+          <property role="3MLT8O" value="b" />
+          <property role="1hTQn4" value="https://calculemus.org/4a88d3ac-3b27-4982-b6b7-f3332e86847f" />
+          <node concept="19SGf9" id="1spse2eiBZI" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiBZJ" role="19SJt6">
+              <property role="19SUeA" value="een publieke onderzoeksinstelling is, die is opgenomen in de bijlage behorende bij de Wet op het hoger onderwijs en wetenschappelijk onderzoek;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiBZK" role="3MKX6F">
+          <property role="3MLT8O" value="c" />
+          <property role="1hTQn4" value="https://calculemus.org/6d49abb1-5836-4672-860e-88111f3335db" />
+          <node concept="19SGf9" id="1spse2eiBZL" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiBZM" role="19SJt6">
+              <property role="19SUeA" value="een particuliere onderzoeksinstelling is, die is opgenomen in het National Academic Research and Collaborations Information System;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiBZN" role="3MKX6F">
+          <property role="3MLT8O" value="d" />
+          <property role="1hTQn4" value="https://calculemus.org/6bcabae5-d655-41db-a4fa-549eb8d8bb23" />
+          <node concept="19SGf9" id="1spse2eiBZO" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiBZP" role="19SJt6">
+              <property role="19SUeA" value="een particuliere onderzoeksinstelling is, waaraan met betrekking tot het lopende of het vorige kalenderjaar een S&amp;amp;O-verklaring als bedoeld in  is afgegeven.artikel 1, eerste lid, van de Wet vermindering afdracht loonbelasting en premie voor de volksverzekeringen" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBZQ">
+    <property role="TrG5h" value="Hoofdstuk1Afdeling3Paragraaf1Artikel1.12" />
+    <property role="1N0jUS" value="112" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBZR" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBZS" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/52c5aa32-62dd-4928-800c-be002f3bf0c5" />
+        <node concept="19SGf9" id="1spse2eiBZT" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBZU" role="19SJt6">
+            <property role="19SUeA" value="Ten behoeve van het verblijf van een vreemdeling die in Nederland verblijft of wil verblijven voor lerend werken, kan als referent optreden de werkgever, die, voor zover op grond van de  vereist, is ingeschreven in het handelsregister, bedoeld in , en met wie de vreemdeling een leer-werkovereenkomst heeft gesloten of een stageovereenkomst met de elementen, genoemd in artikel 13, eerste lid, onderdeel a, onder i tot en met v, van richtlijn (EU) 2016/801.Handelsregisterwet 2007" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiBZV">
+    <property role="TrG5h" value="Hoofdstuk1Afdeling3Paragraaf1Artikel1.13" />
+    <property role="1N0jUS" value="113" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiBZW" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiBZX" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/3e3aa02b-85fe-4700-9c1d-fcb200c46d6f" />
+        <node concept="19SGf9" id="1spse2eiBZY" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiBZZ" role="19SJt6">
+            <property role="19SUeA" value="Ten behoeve van het verblijf van een vreemdeling die in Nederland verblijft of wil verblijven voor studie, kan als referent optreden de krachtens  als referent erkende onderwijsinstelling, waaraan de vreemdeling onderwijs volgt of wil volgen, die, voor zover op grond van de  vereist, is ingeschreven in het handelsregister, bedoeld in , en die:artikel 2c van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiC00" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/e79e6470-6b0c-47a1-9691-361dbe0800d3" />
+        <node concept="3MKX6G" id="1spse2eiC01" role="3MKX6F">
+          <property role="3MLT8O" value="a" />
+          <property role="1hTQn4" value="https://calculemus.org/64e125e3-c3a1-42b0-9bad-30cb967fb388" />
+          <node concept="19SGf9" id="1spse2eiC02" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC03" role="19SJt6">
+              <property role="19SUeA" value="geaccrediteerd hoger onderwijs aanbiedt, zoals geregistreerd in het Centraal register opleidingen hoger onderwijs, bedoeld in ;artikel 6.13 van de Wet op het hoger onderwijs en wetenschappelijk onderzoek" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiC04" role="3MKX6F">
+          <property role="3MLT8O" value="b" />
+          <property role="1hTQn4" value="https://calculemus.org/55234a02-40bf-4a2c-8ed1-4dcbc3a7ad83" />
+          <node concept="19SGf9" id="1spse2eiC05" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC06" role="19SJt6">
+              <property role="19SUeA" value="voortgezet onderwijs aanbiedt als bedoeld in ;artikel 2 van de Wet op het voortgezet onderwijs" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiC07" role="3MKX6F">
+          <property role="3MLT8O" value="c" />
+          <property role="1hTQn4" value="https://calculemus.org/47a25df7-2f7b-4022-9717-9b754aa77f8a" />
+          <node concept="19SGf9" id="1spse2eiC08" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC09" role="19SJt6">
+              <property role="19SUeA" value="beroepsonderwijs aanbiedt als bedoeld in ;artikel 1.2.1 van de Wet educatie en beroepsonderwijs" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiC0a" role="3MKX6F">
+          <property role="3MLT8O" value="d" />
+          <property role="1hTQn4" value="https://calculemus.org/ca94cfe1-b579-4436-88a0-a6e58161992c" />
+          <node concept="19SGf9" id="1spse2eiC0b" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC0c" role="19SJt6">
+              <property role="19SUeA" value="opleidingen verzorgt in het kader van het ontwikkelingssamenwerkingsbeleid van het Ministerie van Buitenlandse Zaken, of" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiC0d" role="3MKX6F">
+          <property role="3MLT8O" value="e" />
+          <property role="1hTQn4" value="https://calculemus.org/b42127cd-8af4-4ed2-ba55-c2fb159986ff" />
+          <node concept="19SGf9" id="1spse2eiC0e" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC0f" role="19SJt6">
+              <property role="19SUeA" value="opleidingsactiviteiten faciliteert in het kader van de .Wet op het specifiek cultuurbeleid" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC0g">
+    <property role="TrG5h" value="Hoofdstuk1Afdeling3Paragraaf1Artikel1.14" />
+    <property role="1N0jUS" value="114" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC0h" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC0i" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/7225e10a-fd96-442e-9feb-ef5e5216a70f" />
+        <node concept="19SGf9" id="1spse2eiC0j" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC0k" role="19SJt6">
+            <property role="19SUeA" value="Ten behoeve van het verblijf van een vreemdeling die in Nederland verblijft of wil verblijven in het kader van uitwisseling, kan als referent optreden de krachtens  als referent erkende uitwisselingsorganisatie, die:artikel 2c van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiC0l" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/5bc51244-4dec-4049-9308-8acf91405ccd" />
+        <node concept="3MKX6G" id="1spse2eiC0m" role="3MKX6F">
+          <property role="3MLT8O" value="a" />
+          <property role="1hTQn4" value="https://calculemus.org/6dcd9a2d-6181-4617-a1e9-f9ad0b978e60" />
+          <node concept="19SGf9" id="1spse2eiC0n" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC0o" role="19SJt6">
+              <property role="19SUeA" value="een culturele doelstelling nastreeft;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiC0p" role="3MKX6F">
+          <property role="3MLT8O" value="b" />
+          <property role="1hTQn4" value="https://calculemus.org/d32d6a9b-60f2-431d-a28c-bf3f3a79b4aa" />
+          <node concept="19SGf9" id="1spse2eiC0q" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC0r" role="19SJt6">
+              <property role="19SUeA" value="ten behoeve van die vreemdeling een door Onze Minister goedgekeurd uitwisselingsprogramma als bedoeld in , uitvoert, enartikel 3.43, eerste lid, onder a" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiC0s" role="3MKX6F">
+          <property role="3MLT8O" value="c" />
+          <property role="1hTQn4" value="https://calculemus.org/12b813ca-d3ee-482d-8702-c55cb138344f" />
+          <node concept="19SGf9" id="1spse2eiC0t" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC0u" role="19SJt6">
+              <property role="19SUeA" value="voor zover op grond van de  vereist, is ingeschreven in het handelsregister, bedoeld in , of als au-pairbureau, voor zover vereist, is ingeschreven in een handelsregister van een andere lidstaat van de Europese Unie of Europese Economische Ruimte.Handelsregisterwet 2007" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC0v">
+    <property role="TrG5h" value="Hoofdstuk1Afdeling3Paragraaf1Artikel1.15" />
+    <property role="1N0jUS" value="115" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC0w" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC0x" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/0e6ba050-b77c-4c0b-a59a-e7bfb58d93d3" />
+        <node concept="19SGf9" id="1spse2eiC0y" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC0z" role="19SJt6">
+            <property role="19SUeA" value="Onverminderd de  kan een religieuze of levensbeschouwelijke organisatie slechts als referent optreden, indien zij, voor zover dit op grond van de  is vereist, is ingeschreven in het handelsregister, bedoeld in , en haar solvabiliteit, continuteit en betrouwbaarheid voldoende is gewaarborgd.artikelen 1.8 tot en met 1.14Handelsregisterwet 2007" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC0$">
+    <property role="TrG5h" value="Hoofdstuk1Afdeling3Paragraaf1Artikel1.16" />
+    <property role="1N0jUS" value="116" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC0_" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC0A" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/3b04ecf1-6f26-4050-9e24-52f9f22ca559" />
+        <node concept="19SGf9" id="1spse2eiC0B" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC0C" role="19SJt6">
+            <property role="19SUeA" value="De referent van een vreemdeling die in Nederland verblijft in het kader van uitwisseling, draagt zorg voor de juiste uitvoering van het uitwisselingsprogramma, bedoeld in .artikel 3.43, eerste lid, onder a" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC0D" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/ed02d55d-3576-4729-a1fc-dc416e6c376b" />
+        <node concept="19SGf9" id="1spse2eiC0E" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC0F" role="19SJt6">
+            <property role="19SUeA" value="De referent van een vreemdeling die in Nederland verblijft of wil verblijven in het kader van uitwisseling, voor arbeid als kennismigrant of voor studie, draagt zorg voor een zorgvuldige selectie en werving van de vreemdeling." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC0G" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/c139d60d-a1a8-4de7-bd9c-fba0bb52a28b" />
+        <node concept="19SGf9" id="1spse2eiC0H" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC0I" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen nadere regels worden gesteld over de voorgaande leden." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC0J">
+    <property role="TrG5h" value="Hoofdstuk1Afdeling3Paragraaf1Artikel1.17" />
+    <property role="1N0jUS" value="117" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC0K" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC0L" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/136b33f6-659a-47e8-bb24-a91543a784ae" />
+        <node concept="19SGf9" id="1spse2eiC0M" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC0N" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen nadere regels worden gesteld omtrent deze paragraaf. Daarbij kan in ieder geval:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiC0O" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/aed6b513-d1bd-45da-852f-0ae2d962f7a2" />
+        <node concept="3MKX6G" id="1spse2eiC0P" role="3MKX6F">
+          <property role="3MLT8O" value="a" />
+          <property role="1hTQn4" value="https://calculemus.org/a2996490-7dfc-455b-bf21-a4246230477d" />
+          <node concept="19SGf9" id="1spse2eiC0Q" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC0R" role="19SJt6">
+              <property role="19SUeA" value="worden voorzien in nadere concretisering van de zorgplichten, bedoeld in ;artikel 1.16" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiC0S" role="3MKX6F">
+          <property role="3MLT8O" value="b" />
+          <property role="1hTQn4" value="https://calculemus.org/2794d47b-2210-4b9e-9e54-ba487bb533b6" />
+          <node concept="19SGf9" id="1spse2eiC0T" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC0U" role="19SJt6">
+              <property role="19SUeA" value="worden bepaald in welke gevallen de referent rechtspersoonlijkheid moet hebben, en" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiC0V" role="3MKX6F">
+          <property role="3MLT8O" value="c" />
+          <property role="1hTQn4" value="https://calculemus.org/4732a0cc-aa03-477d-9b75-7661841e3cd4" />
+          <node concept="19SGf9" id="1spse2eiC0W" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC0X" role="19SJt6">
+              <property role="19SUeA" value="worden voorzien in nadere regels omtrent de beindiging van het referentschap." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC0Y">
+    <property role="TrG5h" value="Hoofdstuk1Afdeling3Paragraaf2Artikel1.18" />
+    <property role="1N0jUS" value="118" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC0Z" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC10" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/da3a4115-4c63-4d07-9536-0ea4f6e38ff0" />
+        <node concept="19SGf9" id="1spse2eiC11" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC12" role="19SJt6">
+            <property role="19SUeA" value="Bij de beoordeling van de aanvraag om erkenning als referent worden met betrekking tot de continuteit en solvabiliteit van de aanvrager in ieder geval gegevens betrokken uit het handelsregister, bedoeld in , dan wel uit het handelsregister van een andere lidstaat van de Europese Unie of Europese Economische Ruimte in geval van een au-pairbureau uit een dergelijke staat.artikel 2 van de Handelsregisterwet 2007" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC13" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/ca1b9fa6-45ae-480d-82c2-ffe9f4c0373d" />
+        <node concept="19SGf9" id="1spse2eiC14" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC15" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag om erkenning als referent kan in ieder geval worden afgewezen, indien de aanvrager failliet is verklaard of aan hem sursance van betaling is verleend." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC16" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/e48c6b4f-a35b-497d-99be-2b6b9a97aaf2" />
+        <node concept="19SGf9" id="1spse2eiC17" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC18" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag om erkenning als referent, verband houdend met uitwisseling als au pair, wordt niet afgewezen op de grond dat de aanvrager niet is ingeschreven in het handelsregister, bedoeld in , indien de aanvrager is ingeschreven, voor zover vereist, in een handelsregister van een andere lidstaat van de Europese Unie of Europese Economische Ruimte.artikel 2 van de Handelsregisterwet 2007" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC19">
+    <property role="TrG5h" value="Hoofdstuk1Afdeling3Paragraaf2Artikel1.19" />
+    <property role="1N0jUS" value="119" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC1a" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC1b" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/bde2e311-5bdd-4ab4-b14c-2f2692b1ac93" />
+        <node concept="19SGf9" id="1spse2eiC1c" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC1d" role="19SJt6">
+            <property role="19SUeA" value="Bij de beoordeling van de betrouwbaarheid van de aanvrager worden in ieder geval betrokken:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC1e" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/f152d523-8200-40ce-b7e6-f88831006e75" />
+        <node concept="19SGf9" id="1spse2eiC1f" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC1g" role="19SJt6">
+            <property role="19SUeA" value="uitgesproken strafrechtelijke veroordelingen, aanvaarde transacties en uitgevaardigde strafbeschikkingen ter zake van een misdrijf, strafbaar is gesteld in de , , , , , , , , , , , , , , , ,  en , de  en , de  en de ;titels I" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC1h" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/dad89a28-7a68-417e-ab1e-b611ed212832" />
+        <node concept="19SGf9" id="1spse2eiC1i" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC1j" role="19SJt6">
+            <property role="19SUeA" value="opgelegde boetes terzake van een op grond van de ,  en , ,  en  beboetbaar feit;artikelen 67d" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC1k" role="3MKX6F">
+        <property role="3MLT8O" value="c" />
+        <property role="1hTQn4" value="https://calculemus.org/2f75526b-052d-49f3-94c1-757c7a926e50" />
+        <node concept="19SGf9" id="1spse2eiC1l" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC1m" role="19SJt6">
+            <property role="19SUeA" value="op grond van  opgelegde verplichtingen tot het doen van een eerstedagsmelding.artikel 28 van de Wet op de loonbelasting 1964" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC1n" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/c945b388-50c4-4f93-8b1e-f78edc0ca39d" />
+        <node concept="19SGf9" id="1spse2eiC1o" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC1p" role="19SJt6">
+            <property role="19SUeA" value="Bij de beoordeling van de betrouwbaarheid van de aanvrager wordt tevens betrokken dat hij onjuiste gegevens heeft verstrekt dan wel gegevens heeft achtergehouden terwijl die gegevens tot afwijzing van een eerdere aanvraag tot het verlenen, verlengen of wijzigen van een visum of een verblijfsvergunning hebben geleid of zouden hebben geleid van een vreemdeling voor wie als referent werd opgetreden." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC1q">
+    <property role="TrG5h" value="Hoofdstuk1Afdeling3Paragraaf2Artikel1.20" />
+    <property role="1N0jUS" value="120" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC1r" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC1s" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/3be8b7b3-b831-4551-a092-a17c5c98e0ea" />
+        <node concept="19SGf9" id="1spse2eiC1t" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC1u" role="19SJt6">
+            <property role="19SUeA" value="Als referent van een vreemdeling die in Nederland verblijft of wil verblijven voor studie aan het hoger onderwijs, kan slechts worden erkend de instelling voor hoger onderwijs, die aangesloten is bij de Gedragscode internationale student hoger onderwijs." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC1v">
+    <property role="TrG5h" value="Hoofdstuk1Afdeling3Paragraaf2Artikel1.21" />
+    <property role="1N0jUS" value="121" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC1w" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC1x" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/a475c2a7-6dab-43c9-9b69-a1479d05d623" />
+        <node concept="19SGf9" id="1spse2eiC1y" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC1z" role="19SJt6">
+            <property role="19SUeA" value="De referent van een vreemdeling die in Nederland verblijft of wil verblijven als familie- of gezinslid, wordt niet als zodanig erkend." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC1$">
+    <property role="TrG5h" value="Hoofdstuk1Afdeling3Paragraaf2Artikel1.22" />
+    <property role="1N0jUS" value="122" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC1_" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC1A" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/f07bb905-7428-4d73-a506-ca5fe2cd71e2" />
+        <node concept="19SGf9" id="1spse2eiC1B" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC1C" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen nadere regels worden gesteld omtrent de erkenning als referent, de schorsing en de intrekking van die erkenning en de indiening en behandeling van de aanvraag. Daarbij worden in ieder geval nadere regels gesteld omtrent:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiC1D" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/c399235e-4cf8-4f4b-8625-3edb70faa08f" />
+        <node concept="3MKX6G" id="1spse2eiC1E" role="3MKX6F">
+          <property role="3MLT8O" value="a" />
+          <property role="1hTQn4" value="https://calculemus.org/6932985d-e295-4571-8541-6090e67f8a1c" />
+          <node concept="19SGf9" id="1spse2eiC1F" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC1G" role="19SJt6">
+              <property role="19SUeA" value="de continuteit en solvabiliteit van de aanvrager, en" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiC1H" role="3MKX6F">
+          <property role="3MLT8O" value="b" />
+          <property role="1hTQn4" value="https://calculemus.org/a2763720-656c-4ad7-864f-0358be7c11bb" />
+          <node concept="19SGf9" id="1spse2eiC1I" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC1J" role="19SJt6">
+              <property role="19SUeA" value="de strafrechtelijke en bestuursrechtelijke antecedenten, die bij de beoordeling van de betrouwbaarheid van de aanvrager worden betrokken." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC1K">
+    <property role="TrG5h" value="Hoofdstuk1aParagraaf1Artikel1.23" />
+    <property role="1N0jUS" value="123" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC1L" role="3MKX6D">
+      <node concept="3MKX5h" id="1spse2eiC1M" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/b3654a94-89f1-4014-aedd-5cf2e73e32f2" />
+        <node concept="3MKX5i" id="1spse2eiC1N" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/9bfbfa63-7e2a-4bd6-995f-05b24151ce54" />
+          <node concept="19SGf9" id="1spse2eiC1O" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiC1P" role="19SJt6">
+              <property role="19SUeA" value="Bij een besluit betreffende de machtiging tot voorlopig verblijf is het belang van de internationale betrekkingen in ieder geval betrokken, indien de aanvraag tot het verlenen van de machtiging tot voorlopig verblijf is ingediend door of ten behoeve van een vreemdeling:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiC1Q" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/88c1d2ce-47cc-445e-87ec-4c35f8668919" />
+          <node concept="3MKX6G" id="1spse2eiC1R" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/46a47f21-5bf3-4810-ae76-a28210fd2c81" />
+            <node concept="19SGf9" id="1spse2eiC1S" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiC1T" role="19SJt6">
+                <property role="19SUeA" value="op wie krachtens verdrag of bindend besluit van een volkenrechtelijke organisatie rechtstreeks of indirect sancties van toepassing zijn;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiC1U" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/438b40ec-33ff-4eff-983c-5030970e043b" />
+            <node concept="19SGf9" id="1spse2eiC1V" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiC1W" role="19SJt6">
+                <property role="19SUeA" value="die in het Schengen Informatiesysteem gesignaleerd staat ter fine van weigering van de toegang in geval met de signalerende lidstaat geen overeenstemming kon worden bereikt over de opheffing van de signalering;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiC1X" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/94edd03b-a43c-4069-8ba1-aaa8c26d57cc" />
+            <node concept="19SGf9" id="1spse2eiC1Y" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiC1Z" role="19SJt6">
+                <property role="19SUeA" value="ter deelname aan in Nederland te voeren vredesbesprekingen;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiC20" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/dcf4a051-b4fe-4224-9f3c-e88cb8b10926" />
+            <node concept="19SGf9" id="1spse2eiC21" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiC22" role="19SJt6">
+                <property role="19SUeA" value="die behoort tot de hoge bestuursfunctionarissen van een vreemde mogendheid;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiC23" role="3MKX6F">
+            <property role="3MLT8O" value="e" />
+            <property role="1hTQn4" value="https://calculemus.org/1a9d180f-3909-435a-98c9-d9e2a1a84e7c" />
+            <node concept="19SGf9" id="1spse2eiC24" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiC25" role="19SJt6">
+                <property role="19SUeA" value="met het oog op het functioneren van een in Nederland zetelende internationale instantie." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC26" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/28b86730-8532-4f11-ae33-341adf0e028f" />
+        <node concept="19SGf9" id="1spse2eiC27" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC28" role="19SJt6">
+            <property role="19SUeA" value="In het eerste lid, onder b, wordt verstaan onder lidstaat: staat waartoe de werkingssfeer van een door Onze Minister verleend visum zich krachtens een voor Nederland verbindend verdrag, EU-verordening, -richtlijn of -besluit uitstrekt." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC29">
+    <property role="TrG5h" value="Hoofdstuk1aParagraaf2Artikel1.24" />
+    <property role="1N0jUS" value="124" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC2a" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC2b" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/459004b0-4841-405e-a9eb-e5a7a9483de6" />
+        <node concept="19SGf9" id="1spse2eiC2c" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC2d" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag tot het verlenen of wijzigen van een machtiging tot voorlopig verblijf of een terugkeervisum wordt gedaan door het indienen van een formulier, waarvan het model door Onze Minister wordt vastgesteld." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC2e" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/a3544d8f-c8fb-4847-9f63-0accd8e1f375" />
+        <node concept="19SGf9" id="1spse2eiC2f" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC2g" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag tot het verlenen of wijzigen van een terugkeervisum wordt ingediend op een door Onze Minister aan te wijzen plaats." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC2h">
+    <property role="TrG5h" value="Hoofdstuk1aParagraaf2Artikel1.25" />
+    <property role="1N0jUS" value="125" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC2i" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC2j" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/6df0f58a-d5d8-4401-b1fb-11026e226c57" />
+        <node concept="19SGf9" id="1spse2eiC2k" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC2l" role="19SJt6">
+            <property role="19SUeA" value="Indien de vreemdeling, hangende de besluitvorming op een eerdere aanvraag tot het verlenen van een machtiging tot voorlopig verblijf, wijziging van het gevraagde verblijfsdoel wenst, dient hij een nieuwe aanvraag in." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC2m">
+    <property role="TrG5h" value="Hoofdstuk1aParagraaf2Artikel1.26" />
+    <property role="1N0jUS" value="126" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC2n" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC2o" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/3561533c-8ba3-467c-a60e-f407bfdef5fb" />
+        <node concept="19SGf9" id="1spse2eiC2p" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC2q" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling legt bij de in persoon ingediende aanvraag, bedoeld in , in ieder geval over een geldig document voor grensoverschrijding, alsmede, voor zover redelijkerwijs mogelijk, de gegevens en bescheiden op basis waarvan kan worden vastgesteld dat wordt voldaan aan de voorwaarden voor verlening of wijziging.artikel 1.24, eerste lid" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC2r" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/cf8732b7-7869-4bee-a829-2db33b9cc0d8" />
+        <node concept="19SGf9" id="1spse2eiC2s" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC2t" role="19SJt6">
+            <property role="19SUeA" value="Bij de niet in persoon door de referent ingediende aanvraag legt hij afschriften over van de in het eerste lid bedoelde gegevens en bescheiden en legt hij, of in voorkomend geval de vreemdeling, op verzoek van Onze Minister de originelen over." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC2u" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/5f4380b9-59e8-4e88-9f19-126435ef9d88" />
+        <node concept="19SGf9" id="1spse2eiC2v" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC2w" role="19SJt6">
+            <property role="19SUeA" value="In afwijking van het eerste lid legt de vreemdeling die niet beschikt over een geldig document voor grensoverschrijding, voor zover redelijkerwijs mogelijk, gegevens en bescheiden over waarmee wordt aangetoond dat hij vanwege de regering van het land waarvan hij onderdaan is, niet of niet meer in het bezit van een geldig document voor grensoverschrijding kan worden gesteld. In dat geval legt hij tevens aanvullende gegevens of bescheiden over omtrent zijn identiteit en nationaliteit." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC2x">
+    <property role="TrG5h" value="Hoofdstuk1aParagraaf2Artikel1.27" />
+    <property role="1N0jUS" value="127" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC2y" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC2z" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/8327add0-5035-44b8-8782-5a7e9fa6bbea" />
+        <node concept="19SGf9" id="1spse2eiC2$" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC2_" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag, bedoeld in , wordt getoetst aan het recht dat gold op het tijdstip waarop de aanvraag is ontvangen, tenzij uit de Wet anders voortvloeit of het recht dat geldt op het tijdstip waarop de beschikking wordt gegeven, voor de vreemdeling gunstiger is.artikel 1.24, eerste lid" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC2A">
+    <property role="TrG5h" value="Hoofdstuk1aParagraaf2Artikel1.28" />
+    <property role="1N0jUS" value="128" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC2B" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC2C" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/9291b27b-ad01-4409-b038-466361498112" />
+        <node concept="19SGf9" id="1spse2eiC2D" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC2E" role="19SJt6">
+            <property role="19SUeA" value="Een terugkeervisum wordt niet geweigerd op de in  bedoelde grond aan:artikel 2x, eerste lid, onder a, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiC2F" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/6b580b2f-127e-4911-8b39-4c26220b8d4e" />
+        <node concept="3MKX6G" id="1spse2eiC2G" role="3MKX6F">
+          <property role="3MLT8O" value="a" />
+          <property role="1hTQn4" value="https://calculemus.org/fb1d0a5b-77e3-4114-a37c-63e1c371a58f" />
+          <node concept="19SGf9" id="1spse2eiC2H" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC2I" role="19SJt6">
+              <property role="19SUeA" value="de vreemdeling die naar het oordeel van Onze Minister heeft aangetoond dat hij voor zakelijke doeleinden moet reizen of wegens dwingende of dringende familieomstandigheden Nederland tijdelijk moet verlaten;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiC2J" role="3MKX6F">
+          <property role="3MLT8O" value="b" />
+          <property role="1hTQn4" value="https://calculemus.org/e15e3a95-561a-463e-ade2-971063ee5fe1" />
+          <node concept="19SGf9" id="1spse2eiC2K" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC2L" role="19SJt6">
+              <property role="19SUeA" value="de hier te lande geboren vreemdeling, bedoeld in , ten behoeve van wie een aanvraag is gedaan tot het verlenen van een verblijfsvergunning regulier voor bepaalde tijd ingeval beide ouders rechtmatig verblijf hebben als bedoeld in  of als Nederlander;artikel 3.23, eerste lidartikel 8, onder a tot en met e, dan wel l, van de Wet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiC2M" role="3MKX6F">
+          <property role="3MLT8O" value="c" />
+          <property role="1hTQn4" value="https://calculemus.org/ab5d3cb3-b6c2-44b0-93b7-b3ebd95ea530" />
+          <node concept="19SGf9" id="1spse2eiC2N" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC2O" role="19SJt6">
+              <property role="19SUeA" value="de vreemdeling die een positieve beslissing op zijn aanvraag tot het verlenen, het verlengen van de geldigheidsduur of het wijzigen van een verblijfsvergunning heeft ontvangen, maar nog in afwachting is van afgifte van het bijbehorende verblijfsdocument;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiC2P" role="3MKX6F">
+          <property role="3MLT8O" value="d" />
+          <property role="1hTQn4" value="https://calculemus.org/31ef5e5c-4c3a-4568-b53d-cc972bdfebc8" />
+          <node concept="19SGf9" id="1spse2eiC2Q" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC2R" role="19SJt6">
+              <property role="19SUeA" value="de vreemdeling die in afwachting is van de beslissing op een aanvraag tot het wijzigen of het verlengen van de geldigheidsduur van de verblijfsvergunning regulier voor bepaalde tijd indien de aanvraag tijdig of naar het oordeel van Onze Minister binnen een redelijke termijn als bedoeld in , is ontvangen.artikel 3.82, eerste lid" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC2S">
+    <property role="TrG5h" value="Hoofdstuk1aParagraaf3Artikel1.29" />
+    <property role="1N0jUS" value="129" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC2T" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC2U" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/617862e8-cd62-42c2-8ec1-51f44e2627f7" />
+        <node concept="19SGf9" id="1spse2eiC2V" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC2W" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling of referent die, hangende de besluitvorming op de aanvraag, bedoeld in , verandert van adres, woon- of verblijfplaats, meldt de verandering onmiddellijk bij de instantie waar de aanvraag is ingediend.artikel 1.24, eerste lid" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC2X" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/8fb9847d-033b-4bc3-937f-d76fbff20418" />
+        <node concept="19SGf9" id="1spse2eiC2Y" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC2Z" role="19SJt6">
+            <property role="19SUeA" value="De in het eerste lid omschreven verplichting rust ten aanzien van kinderen beneden de leeftijd van twaalf jaren op de wettelijk vertegenwoordiger. Voor kinderen van twaalf jaren en ouder kan aan deze verplichtingen ook worden voldaan door de wettelijk vertegenwoordiger." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC30">
+    <property role="TrG5h" value="Hoofdstuk1aParagraaf3Artikel1.30" />
+    <property role="1N0jUS" value="130" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC31" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC32" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/f354b40e-7b19-4526-a4c3-ef8e749f892c" />
+        <node concept="19SGf9" id="1spse2eiC33" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC34" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling die na binnenkomst in Nederland niet langer voldoet aan de beperking waaronder de machtiging tot voorlopig verblijf is verleend of een voorschrift dat aan de machtiging is verbonden, deelt dit binnen vier weken mee aan Onze Minister." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC35" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/e500d914-5351-4bae-8c25-1f994767eaea" />
+        <node concept="19SGf9" id="1spse2eiC36" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC37" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling wiens geldig document voor grensoverschrijding of machtiging tot voorlopig verblijf na binnenkomst in Nederland vermist wordt, verloren is gegaan of ondeugdelijk is geworden voor identificatie, doet daarvan onmiddellijk in persoon aangifte bij de korpschef. De korpschef stelt Onze Minister hiervan in kennis." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC38" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/39b49612-57f8-4929-90bd-5d4350de1c3b" />
+        <node concept="19SGf9" id="1spse2eiC39" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC3a" role="19SJt6">
+            <property role="19SUeA" value=", is van overeenkomstige toepassing op de in het eerste en tweede lid omschreven verplichtingen.Artikel 1.29, tweede lid" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC3b">
+    <property role="TrG5h" value="Hoofdstuk1aParagraaf3Artikel1.31" />
+    <property role="1N0jUS" value="131" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC3c" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC3d" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/9168cd2a-6227-4e39-87c3-dd8635bfc08a" />
+        <node concept="19SGf9" id="1spse2eiC3e" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC3f" role="19SJt6">
+            <property role="19SUeA" value="De medewerking, bedoeld in  bestaat voor de toepassing van dit hoofdstuk uit:artikel 54, eerste lid, onder c, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiC3g" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/ec1ee6e5-96ab-4d72-83f3-860fa7560813" />
+        <node concept="3MKX6G" id="1spse2eiC3h" role="3MKX6F">
+          <property role="3MLT8O" value="a" />
+          <property role="1hTQn4" value="https://calculemus.org/60949f50-94be-468f-a171-c541f57b9ae2" />
+          <node concept="19SGf9" id="1spse2eiC3i" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC3j" role="19SJt6">
+              <property role="19SUeA" value="het op vordering van Onze Minister beschikbaar stellen van een goedgelijkende pasfoto;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiC3k" role="3MKX6F">
+          <property role="3MLT8O" value="b" />
+          <property role="1hTQn4" value="https://calculemus.org/bb27f237-d20d-4fcf-9219-2d7086ee35b7" />
+          <node concept="19SGf9" id="1spse2eiC3l" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC3m" role="19SJt6">
+              <property role="19SUeA" value="het zich laten fotograferen en het laten afnemen van vingerafdrukken." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC3n">
+    <property role="TrG5h" value="Hoofdstuk1aParagraaf4Artikel1.32" />
+    <property role="1N0jUS" value="132" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC3o" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC3p" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/76e61541-2f21-4b90-b2b2-2ea1bd47824d" />
+        <node concept="19SGf9" id="1spse2eiC3q" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC3r" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen nadere regels worden gesteld omtrent de wijze van indiening en de behandeling van een aanvraag tot verlening of wijziging van een machtiging tot voorlopig verblijf dan wel een terugkeervisum, daaronder begrepen de wijze waarop beschikkingen, kennisgevingen, mededelingen of berichten ingevolge dit hoofdstuk aan de vreemdeling of de referent bekend worden gemaakt." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC3s">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf3Artikel3.71a" />
+    <property role="1N0jUS" value="133" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC3t" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC3u" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/3bc047c4-0a9c-4c06-8901-ff5cf3db4a7e" />
+        <node concept="19SGf9" id="1spse2eiC3v" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC3w" role="19SJt6">
+            <property role="19SUeA" value="Een vreemdeling beschikt over kennis op basisniveau van de Nederlandse taal en van de Nederlandse maatschappij als bedoeld in , indien hij binnen n jaar direct voorafgaand aan de aanvraag om de machtiging tot voorlopig verblijf het basisexamen inburgering, bedoeld in , met goed gevolg heeft afgelegd.artikel 3.98aartikel 16, eerste lid, onder h, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC3x" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/0ca59236-93f8-4adb-a37c-c24def4b0e40" />
+        <node concept="19SGf9" id="1spse2eiC3y" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC3z" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag tot het verlenen van een verblijfsvergunning regulier voor bepaalde tijd wordt niet afgewezen op grond van , indien de vreemdeling:artikel 16, eerste lid, onder h, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC3$" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/809c9b53-073e-4699-96fc-f0cbca70d3c8" />
+        <node concept="19SGf9" id="1spse2eiC3_" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC3A" role="19SJt6">
+            <property role="19SUeA" value="in Nederland wil verblijven als gezinslid van een houder van een verblijfsvergunning asiel voor bepaalde of onbepaalde tijd of een EU-verblijfsvergunning voor langdurig ingezetenen indien op het aan de vreemdeling verschafte document, bedoeld in , de aantekening, bedoeld in  is geplaatst;artikel 9 van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC3B" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/11fb6681-57fc-4899-b465-13179513d6b0" />
+        <node concept="19SGf9" id="1spse2eiC3C" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC3D" role="19SJt6">
+            <property role="19SUeA" value="ingevolge de wetgeving van een lidstaat van de Europese Unie of een andere staat die partij is bij de Overeenkomst betreffende de Europese Economische Ruimte heeft voldaan aan een inburgeringsvereiste om de status van langdurig ingezetene in de zin van richtlijn langdurig ingezetenen te verkrijgen;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC3E" role="3MKX6F">
+        <property role="3MLT8O" value="c" />
+        <property role="1hTQn4" value="https://calculemus.org/0993345b-992c-4e79-ab58-6bf16567cf02" />
+        <node concept="19SGf9" id="1spse2eiC3F" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC3G" role="19SJt6">
+            <property role="19SUeA" value="gelet op bijzondere individuele omstandigheden naar het oordeel van Onze Minister van Sociale Zaken en Werkgelegenheid bij handhaving van de verplichting om het basisexamen inburgering met goed gevolg af te leggen, onmogelijk of uiterst moeilijk zijn recht op gezinshereniging kan uitoefenen." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC3H" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/8c8b94f6-0719-48fe-9953-e4d702926842" />
+        <node concept="19SGf9" id="1spse2eiC3I" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC3J" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen nadere regels worden gesteld omtrent de toepassing van het tweede lid, onderdelen a en b, en bij ministerile regeling kunnen nadere regels worden gesteld omtrent de toepassing van het tweede lid, onderdeel c." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC3K">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf4Artikel3.80a" />
+    <property role="1N0jUS" value="179" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC3L" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC3M" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/f7588013-7e95-461e-9c73-980cb5f16578" />
+        <node concept="19SGf9" id="1spse2eiC3N" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC3O" role="19SJt6">
+            <property role="19SUeA" value="Een aanvraag tot het wijzigen van een verblijfsvergunning regulier voor bepaalde tijd in een verblijfsvergunning onder een beperking verband houdend met niet-tijdelijke humanitaire gronden wordt afgewezen, indien de aanvraag is ingediend door een vreemdeling als bedoeld in , die het examen, bedoeld in  of een diploma, certificaat of ander document als bedoeld in , niet heeft behaald.artikel 3.51, eerste lid, aanhef en onderdeel a, subonderdeel 1, en tweede lidartikel 7, eerste lid, onderdeel a, van de Wet inburgering" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC3P" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/ce554531-33f2-4a67-94f4-f2cca8a46b20" />
+        <node concept="19SGf9" id="1spse2eiC3Q" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC3R" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid is niet van toepassing, indien de vreemdeling:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC3S" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/c0daa5cf-2322-4f06-b195-67ea162d6179" />
+        <node concept="19SGf9" id="1spse2eiC3T" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC3U" role="19SJt6">
+            <property role="19SUeA" value="minderjarig is of de pensioengerechtigde leeftijd, bedoeld in ;artikel 7a, eerste lid, van de Algemene Ouderdomswet, heeft bereikt" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC3V" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/fc372131-9853-4a1e-8a36-33159510476a" />
+        <node concept="19SGf9" id="1spse2eiC3W" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC3X" role="19SJt6">
+            <property role="19SUeA" value="ten minste acht jaren tijdens de leerplichtige leeftijd in Nederland heeft verbleven overeenkomstig het bepaalde bij en krachtens ;artikel 2.6 van het Besluit inburgering" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC3Y" role="3MKX6F">
+        <property role="3MLT8O" value="c" />
+        <property role="1hTQn4" value="https://calculemus.org/6d984e5a-2241-4eb7-95db-3785d4d1f101" />
+        <node concept="19SGf9" id="1spse2eiC3Z" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC40" role="19SJt6">
+            <property role="19SUeA" value="beschikt over een document als bedoeld in , dan wel voldoet aan het criterium, genoemd in ;artikel 2.3, eerste lid, onder b tot en met k, en tweede lid, van het Besluit inburgering" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC41" role="3MKX6F">
+        <property role="3MLT8O" value="d" />
+        <property role="1hTQn4" value="https://calculemus.org/5d8edf7e-fcac-4db2-963e-d0407f2a78bf" />
+        <node concept="19SGf9" id="1spse2eiC42" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC43" role="19SJt6">
+            <property role="19SUeA" value="beschikt over een document als bedoeld in artikel 2.3, eerste lid, onder i tot en met l, van het Besluit inburgering zoals dat luidde voor het tijdstip van inwerkingtreding van  (Stb. 2012, 432), dan wel voldoet aan een van de criteria, genoemd in ;artikel I van het besluit van 25september 2012 tot wijziging van het Besluit inburgering en enkele andere besluiten in verband met de versterking van de eigen verantwoordelijkheid van de inburgeringsplichtige" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC44" role="3MKX6F">
+        <property role="3MLT8O" value="e" />
+        <property role="1hTQn4" value="https://calculemus.org/052a0ec0-7756-40cc-bda3-da6d0da1dd5c" />
+        <node concept="19SGf9" id="1spse2eiC45" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC46" role="19SJt6">
+            <property role="19SUeA" value="op grond van  dan wel artikel 6, eerste lid, of  zoals die luidde voor de inwerkingtreding van de  (Stb. 2012, 430) van de inburgeringsplicht is ontheven;artikel 6, eerste of tweede lid, van de Wet inburgering" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC47" role="3MKX6F">
+        <property role="3MLT8O" value="f" />
+        <property role="1hTQn4" value="https://calculemus.org/ab1b5a1a-70c3-4f0e-9439-4898ed4b4fac" />
+        <node concept="19SGf9" id="1spse2eiC48" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC49" role="19SJt6">
+            <property role="19SUeA" value="verblijf heeft in Nederland op basis van een afhankelijke verblijfstitel en de relatie waarop die afhankelijke titel is gebaseerd is verbroken in verband met huiselijk geweld;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC4a" role="3MKX6F">
+        <property role="3MLT8O" value="g" />
+        <property role="1hTQn4" value="https://calculemus.org/61e7baeb-1725-4d85-aa9c-93bda426a4dc" />
+        <node concept="19SGf9" id="1spse2eiC4b" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC4c" role="19SJt6">
+            <property role="19SUeA" value="niet inburgeringsplichtig is op grond van de  en  en het participatieverklaringstraject, bedoeld in  niet heeft afgerond maar wel de overige examenonderdelen, bedoeld in artikel 7, tweede lid, onderdelen b en c, van die wet, heeft behaald.artikelen 3" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC4d" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/08dfe953-fe12-4019-a002-99f5b7732b6f" />
+        <node concept="19SGf9" id="1spse2eiC4e" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC4f" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister kan het eerste lid voorts buiten toepassing laten, indien de vreemdeling naar zijn oordeel blijkens een door deze vreemdeling overgelegd advies als bedoeld in  door een psychische of lichamelijke belemmering, dan wel een verstandelijke handicap blijvend niet in staat is het examen, bedoeld in  of een diploma, certificaat of ander document als bedoeld in , te behalen.artikel 2.8, eerste lid, van het Besluit inburgering" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC4g" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/b59c0480-5e8f-43f4-8872-0bda1a6bfc6b" />
+        <node concept="19SGf9" id="1spse2eiC4h" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC4i" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister kan het eerste lid voorts buiten toepassing laten, voorzover toepassing daarvan naar zijn oordeel zal leiden tot een onbillijkheid van overwegende aard." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC4j" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/0428fd16-1928-4977-aa47-0047e1b98118" />
+        <node concept="19SGf9" id="1spse2eiC4k" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC4l" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen regels worden gesteld omtrent de afwijzing van de aanvraag om wijziging van de verblijfsvergunning in andere gevallen dan bedoeld in het eerste lid, en omtrent de toepassing van het tweede lid, onder e, en derde lid." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC4m">
+    <property role="TrG5h" value="Hoofdstuk2Afdeling4Artikel2.10" />
+    <property role="1N0jUS" value="210" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC4n" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC4o" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/59c2f046-df8d-4a42-8326-eca51141b96c" />
+        <node concept="19SGf9" id="1spse2eiC4p" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC4q" role="19SJt6">
+            <property role="19SUeA" value="Bij de vaststelling of de vreemdeling beschikt over de in  bedoelde middelen om te voorzien zowel in de kosten van verblijf in Nederland als in die van zijn reis naar een plaats buiten Nederland waar zijn toegang is gewaarborgd, kunnen middelen waarover de vreemdeling reeds beschikt en middelen waarover de vreemdeling kan beschikken uit wettelijk toegestane arbeid worden betrokken.artikel 3, eerste lid, onderdeel c, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC4r" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/e1ad1ab0-3f1e-48f8-88c4-7a88ad55e55b" />
+        <node concept="19SGf9" id="1spse2eiC4s" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC4t" role="19SJt6">
+            <property role="19SUeA" value="Onder middelen worden in ieder geval verstaan geldelijke middelen alsmede vervoersbewijzen." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC4u" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/9ed8d96e-7096-4d8a-8958-edca25e441d1" />
+        <node concept="19SGf9" id="1spse2eiC4v" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC4w" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid is niet van toepassing op de vreemdeling die rechtmatig verblijf heeft als bedoeld in , het familielid, bedoeld in , en de vreemdeling, bedoeld in .artikel 8.7, tweede en derde lidartikel 8, onder e, dan wel l, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC4x">
+    <property role="TrG5h" value="Hoofdstuk2Afdeling4Artikel2.11" />
+    <property role="1N0jUS" value="211" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC4y" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC4z" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/36c19bf8-7079-48d4-bb03-1d4ffecec20f" />
+        <node concept="19SGf9" id="1spse2eiC4$" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC4_" role="19SJt6">
+            <property role="19SUeA" value="De toegang wordt geweigerd op grond van , indien de vreemdeling niet voldoet aan de door de ambtenaar belast met grensbewaking gestelde voorwaarde om zekerheid te stellen voor de kosten van verblijf in Nederland en voor de kosten van zijn reis naar een plaats buiten Nederland waar zijn toegang gewaarborgd is.artikel 3, eerste lid, onder c en d, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiC4A" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/a701fda7-d447-4243-9d22-7c2a70e4a4e4" />
+        <node concept="3MKX5i" id="1spse2eiC4B" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/b0f31abe-db95-4889-8419-a204103411b5" />
+          <node concept="19SGf9" id="1spse2eiC4C" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiC4D" role="19SJt6">
+              <property role="19SUeA" value="De zekerheid, bedoeld in het eerste lid, kan bestaan uit:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiC4E" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/da19f505-8fe8-468c-b654-e25f6cc47db0" />
+          <node concept="3MKX6G" id="1spse2eiC4F" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/feaa1be8-84be-48e5-b158-2e8d6b3ff2a5" />
+            <node concept="19SGf9" id="1spse2eiC4G" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiC4H" role="19SJt6">
+                <property role="19SUeA" value="het deponeren van een retour-passagebiljet;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiC4I" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/13a57011-24f3-4449-8a20-33e08f352e6f" />
+            <node concept="19SGf9" id="1spse2eiC4J" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiC4K" role="19SJt6">
+                <property role="19SUeA" value="het deponeren van een garantiesom," />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiC4L" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/9d2cf141-1c76-4d8f-a2dd-502de61651c0" />
+            <node concept="19SGf9" id="1spse2eiC4M" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiC4N" role="19SJt6">
+                <property role="19SUeA" value="het stellen van een bankgarantie, of" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiC4O" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/0125802b-d2c6-4435-a9eb-0b1ad54de344" />
+            <node concept="19SGf9" id="1spse2eiC4P" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiC4Q" role="19SJt6">
+                <property role="19SUeA" value="een garantstelling door een derde die daartoe solvabel is." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC4R" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/54108247-8f42-4162-80a1-ef80ec99311b" />
+        <node concept="19SGf9" id="1spse2eiC4S" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC4T" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid is niet van toepassing op de vreemdeling die rechtmatig verblijf heeft als bedoeld in , het familielid, bedoeld in , en de vreemdeling, bedoeld in .artikel 8.7, tweede en derde lidartikel 8, onder e, dan wel l, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC4U" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/2631f2ff-9d0a-4152-9d2e-9a3be3460a20" />
+        <node concept="19SGf9" id="1spse2eiC4V" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC4W" role="19SJt6">
+            <property role="19SUeA" value="De in het eerste lid bedoeld voorwaarde om zekerheid te stellen voor de kosten van verblijf in Nederland en voor de kosten van zijn reis naar een plaats buiten Nederland waar zijn toegang is gewaarborgd, kan, op grond van artikel 6, vierde lid, van de Schengengrenscode, ook worden gesteld ten aanzien van een onderdaan van een derde land die toegang vraagt voor een verblijf voor ten hoogste 90dagen binnen een periode van 180dagen." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC4X" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/f1caacdf-adf1-4e3b-a721-671a834ea928" />
+        <node concept="19SGf9" id="1spse2eiC4Y" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC4Z" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen nadere regels worden gesteld over de zekerheidstelling." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC50">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf4Artikel3.87a" />
+    <property role="1N0jUS" value="219" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC51" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC52" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/96d5c916-7a4c-4aa9-92e2-8eb5da3227f2" />
+        <node concept="19SGf9" id="1spse2eiC53" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC54" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag tot het verlengen van de geldigheidsduur van de verblijfsvergunning regulier voor bepaalde tijd die is verleend onder een beperking verband houdend met studie, kan in ieder geval op grond van  worden afgewezen, indien de houder daarvan:artikel 18, eerste lid, onder f, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC55" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/a2a2c830-4a41-4535-b797-4971c52b4cf9" />
+        <node concept="19SGf9" id="1spse2eiC56" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC57" role="19SJt6">
+            <property role="19SUeA" value="niet meer studeert aan een krachtens  als referent erkende onderwijsinstelling, ofartikel 2c van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC58" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/5f0f2e19-6a33-4c60-b367-6ed5216b1620" />
+        <node concept="19SGf9" id="1spse2eiC59" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC5a" role="19SJt6">
+            <property role="19SUeA" value="niet overeenkomstig bij ministerile regeling vastgestelde normen voldoende studievoortgang boekt." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC5b" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/f44b8d3b-c43d-4ebf-917b-9ef660f32f56" />
+        <node concept="19SGf9" id="1spse2eiC5c" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC5d" role="19SJt6">
+            <property role="19SUeA" value="Voor de toepassing van  wordt geen verplaatsing van het hoofdverblijf buiten Nederland aangenomen als een onderzoeker of student tijdelijk verblijft in een andere lidstaat van de Europese Unie in het kader van mobiliteit in de zin van richtlijn (EU) 2016/801 en de gastovereenkomst dan wel de inschrijving als student geldig blijft.artikel 18, eerste lid, onder a, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC5e" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/1f9bab57-3021-4488-94b5-0db343c6e109" />
+        <node concept="19SGf9" id="1spse2eiC5f" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC5g" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen regels worden gesteld omtrent de toepassing van het eerste lid, onder a, en het tweede lid." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC5h">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf4Artikel3.89a" />
+    <property role="1N0jUS" value="231" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC5i" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC5j" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/24f2bc22-bff4-4132-8cdc-d302485a9083" />
+        <node concept="19SGf9" id="1spse2eiC5k" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC5l" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag tot het verlengen van de geldigheidsduur van een verblijfsvergunning regulier voor bepaalde tijd die is verleend onder een beperking verband houdend met uitwisseling, studie, het verrichten van arbeid als kennismigrant of onderzoek in de zin van richtlijn (EU) 2016/801, wordt, indien de erkenning van de referent is geschorst of ingetrokken, niet op grond van  afgewezen, dan nadat de vreemdeling die te goeder trouw is gedurende een termijn van drie maanden in de gelegenheid is geweest om alsnog aan de beperking te voldoen.artikel 18, eerste lid, onder f, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC5m">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf4Artikel3.89b" />
+    <property role="1N0jUS" value="232" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC5n" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC5o" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/d7092a41-6b94-489b-8135-b58a4f26535b" />
+        <node concept="19SGf9" id="1spse2eiC5p" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC5q" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag tot het verlengen van de geldigheidsduur van de Europese blauwe kaart kan worden afgewezen, indien de houder niet voldoet aan de voorwaarden voor verlening van die kaart, zoals opgenomen in , met uitzondering van het eerste lid, onder e.artikel 3.30b" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC5r" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/285f1bcd-a283-45b8-a85e-7175620a5290" />
+        <node concept="19SGf9" id="1spse2eiC5s" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC5t" role="19SJt6">
+            <property role="19SUeA" value="In afwijking van het eerste lid, onder a, wordt de aanvraag tot het verlengen van de geldigheidsduur van de Europese blauwe kaart niet met toepassing van  afgewezen op de grond dat de houder werkloos is, tenzij deze:artikel 18, eerste lid, onder d, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC5u" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/b55f835d-5a5e-4761-95fb-ef7edee44ef1" />
+        <node concept="19SGf9" id="1spse2eiC5v" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC5w" role="19SJt6">
+            <property role="19SUeA" value="langer dan drie achtereenvolgende maanden werkloos is;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC5x" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/ddcb0437-5739-4d79-ac6b-2209f38eac6d" />
+        <node concept="19SGf9" id="1spse2eiC5y" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC5z" role="19SJt6">
+            <property role="19SUeA" value="tijdens de geldigheidsduur van de Europese blauwe kaart eerder werkloos is geweest, of" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC5$" role="3MKX6F">
+        <property role="3MLT8O" value="c" />
+        <property role="1hTQn4" value="https://calculemus.org/f1047fe9-69c2-4af0-9c3a-04ebe8911531" />
+        <node concept="19SGf9" id="1spse2eiC5_" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC5A" role="19SJt6">
+            <property role="19SUeA" value="een uitkering krachtens de  heeft aangevraagd.Participatiewet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC5B" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/73e6113a-e7af-4f44-a1f0-975fff927fe5" />
+        <node concept="19SGf9" id="1spse2eiC5C" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC5D" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag tot het verlengen van de geldigheidsduur van de Europese blauwe kaart wordt niet met toepassing van , afgewezen op grond van werkloosheid als bedoeld in het tweede lid, onder a of b.artikel 18, eerste lid, onder f, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC5E" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/5b90a0ab-7b87-4a10-94f1-c07c05b09977" />
+        <node concept="19SGf9" id="1spse2eiC5F" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC5G" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen nadere regels worden gesteld omtrent de toepassing van het eerste en tweede lid." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC5H">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf4Artikel3.89c" />
+    <property role="1N0jUS" value="240" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC5I" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC5J" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/74152b3b-dc0a-4f28-bd2c-1adbdfbe5f1f" />
+        <node concept="19SGf9" id="1spse2eiC5K" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC5L" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag tot het verlengen van de geldigheidsduur van een verblijfsvergunning regulier voor bepaalde tijd onder een beperking verband houdend met seizoenarbeid, lerend werken of arbeid in loondienst, arbeid als kennismigrant, verblijf als houder van de Europese blauwe kaart, onderzoek in de zin van richtlijn (EU) 2016/801 wordt niet afgewezen op de grond dat de werkgever niet krachtens  als referent is erkend of ten behoeve van het verblijf van de vreemdeling geen verklaring als bedoeld in  heeft afgelegd, indien de vreemdeling de Turkse nationaliteit heeft, in welk geval de werkgever niet als referent wordt aangewezen.artikel 2c van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC5M" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/2acaae05-d192-4a31-bdfa-ea45c0a2950a" />
+        <node concept="19SGf9" id="1spse2eiC5N" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC5O" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen nadere regels worden gesteld omtrent de gevallen waarin de aanvraag tot het verlengen van de geldigheidsduur van een verblijfsvergunning regulier voor bepaalde tijd ter uitvoering van verdragen of besluiten van volkenrechtelijke organisaties niet wordt afgewezen om de reden dat ten behoeve van het verblijf van de vreemdeling geen verklaring als bedoeld in , is overgelegd. Daarbij kunnen nadere regels worden gesteld omtrent de aanwijzing als referent.artikel 16, eerste lid, onder k, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC5P">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf4Artikel3.89d" />
+    <property role="1N0jUS" value="243" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC5Q" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC5R" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/3742c716-e43e-4e01-a22b-8df9e9c1a6b2" />
+        <node concept="19SGf9" id="1spse2eiC5S" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC5T" role="19SJt6">
+            <property role="19SUeA" value="Een aanvraag tot het verlengen van de geldigheidsduur van een verblijfsvergunning regulier voor bepaalde tijd wordt niet op grond van  afgewezen indien uitzetting van de vreemdeling in strijd zou zijn met artikel 8 van het Verdrag tot bescherming van de rechten van de mens en de fundamentele vrijheden.artikel 18, eerste lid, onder i, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC5U">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf5Artikel3.91a" />
+    <property role="1N0jUS" value="251" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC5V" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC5W" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/638fc14d-872f-414a-8a5a-0022505212c2" />
+        <node concept="19SGf9" id="1spse2eiC5X" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC5Y" role="19SJt6">
+            <property role="19SUeA" value="De verblijfsvergunning regulier voor bepaalde tijd die is verleend onder een beperking verband houdend met uitwisseling, studie, het verrichten van arbeid als kennismigrant of onderzoek in de zin van richtlijn (EU) 2016/801, wordt, indien de erkenning van de referent is geschorst of ingetrokken, niet op grond van , in samenhang met , ingetrokken, dan nadat de vreemdeling die te goeder trouw is gedurende drie maanden in de gelegenheid is geweest om alsnog aan de beperking te voldoen.artikel 19 van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC5Z">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf5Artikel3.91b" />
+    <property role="1N0jUS" value="252" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC60" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC61" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/151dc6cb-d85c-46e7-82e2-a7491fba681c" />
+        <node concept="19SGf9" id="1spse2eiC62" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC63" role="19SJt6">
+            <property role="19SUeA" value="Onverminderd  kan de verblijfsvergunning regulier voor bepaalde tijd die is verleend onder een beperking verband houdend met studie, in ieder geval op grond van , in samenhang met  worden ingetrokken, indien de houder daarvan:artikel 3.91aartikel 19 van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC64" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/a0897cd8-b85b-403a-a4ee-daa7fc0dde4f" />
+        <node concept="19SGf9" id="1spse2eiC65" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC66" role="19SJt6">
+            <property role="19SUeA" value="niet meer studeert aan een krachtens  als referent erkende onderwijsinstelling, ofartikel 2c van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC67" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/5414aa6a-761c-44c6-8620-0970696ca5e9" />
+        <node concept="19SGf9" id="1spse2eiC68" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC69" role="19SJt6">
+            <property role="19SUeA" value="niet overeenkomstig bij ministerile regeling vastgestelde normen voldoende studievoortgang boekt." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC6a" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/3395c18a-47df-4f97-b171-258331290806" />
+        <node concept="19SGf9" id="1spse2eiC6b" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC6c" role="19SJt6">
+            <property role="19SUeA" value="Voor de toepassing van  in samenhang met  wordt geen verplaatsing van het hoofdverblijf buiten Nederland aangenomen als een onderzoeker of student tijdelijk verblijft in een andere lidstaat van de Europese Unie in het kader van mobiliteit in de zin van richtlijn (EU) 2016/801 en de gastovereenkomst dan wel de inschrijving als student geldig blijft.artikel 19" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC6d" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/8b47edf0-f645-4bd1-b672-5d4fddbcbd07" />
+        <node concept="19SGf9" id="1spse2eiC6e" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC6f" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen regels worden gesteld omtrent de toepassing van het eerste lid, onder a, en het tweede lid." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC6g">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf5Artikel3.91c" />
+    <property role="1N0jUS" value="258" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC6h" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC6i" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/9d5e6c0a-a941-41bd-83a9-9f1521dabf51" />
+        <node concept="19SGf9" id="1spse2eiC6j" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC6k" role="19SJt6">
+            <property role="19SUeA" value="De Europese blauwe kaart kan worden ingetrokken op de in , genoemde gronden. Het tweede tot en met vierde lid van dat artikel zijn van overeenkomstige toepassing.artikel 3.89b, eerste lid" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC6l">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf5Artikel3.91d" />
+    <property role="1N0jUS" value="259" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC6m" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC6n" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/38e991d0-e4de-45e3-b9f0-74f8f7d752e0" />
+        <node concept="19SGf9" id="1spse2eiC6o" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC6p" role="19SJt6">
+            <property role="19SUeA" value="De verblijfsvergunning regulier voor bepaalde tijd die is verleend onder een beperking verband houdend met seizoenarbeid, lerend werken of arbeid in loondienst, arbeid als kennismigrant, verblijf als houder van de Europese blauwe kaart, onderzoek in de zin van richtlijn (EU) 2016/801 wordt niet ingetrokken op de grond dat de werkgever niet krachtens  als referent is erkend of ten behoeve van het verblijf van de vreemdeling geen verklaring als bedoeld in  heeft afgelegd, indien de vreemdeling de Turkse nationaliteit heeft, in welk geval de werkgever niet als referent wordt aangewezen.artikel 2c van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC6q" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/e6b8585b-f7e9-4ed0-8ccf-f23cffcd7934" />
+        <node concept="19SGf9" id="1spse2eiC6r" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC6s" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen nadere regels worden gesteld omtrent de gevallen waarin de verblijfsvergunning regulier voor bepaalde tijd ter uitvoering van verdragen of besluiten van volkenrechtelijke organisaties niet wordt ingetrokken om de reden dat ten behoeve van het verblijf van de vreemdeling geen verklaring als bedoeld in , is overgelegd. Daarbij kunnen nadere regels worden gesteld omtrent de aanwijzing als referent.artikel 18, eerste lid, onder h, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC6t">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf5Artikel3.91e" />
+    <property role="1N0jUS" value="262" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC6u" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC6v" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/2dee521c-28cb-481a-9ac3-9359c66bc028" />
+        <node concept="19SGf9" id="1spse2eiC6w" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC6x" role="19SJt6">
+            <property role="19SUeA" value="De verblijfsvergunning regulier voor bepaalde tijd wordt niet op grond van  in samenhang met  ingetrokken, indien uitzetting van de vreemdeling in strijd zou zijn met artikel 8 van het Verdrag tot bescherming van de rechten van de mens en de fundamentele vrijheden.artikel 19" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC6y">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling3Paragraaf2Artikel3.96a" />
+    <property role="1N0jUS" value="289" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC6z" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC6$" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/0b2e958f-5cad-488f-ad30-3ea762635254" />
+        <node concept="19SGf9" id="1spse2eiC6_" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC6A" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag tot het verlenen van een verblijfsvergunning regulier voor onbepaalde tijd wordt afgewezen, indien de vreemdeling het examen, bedoeld in  of een diploma, certificaat of ander document als bedoeld in , niet heeft behaald.artikel 7, eerste lid, onderdeel a, van de Wet inburgering" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC6B" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/1be65e46-509d-400f-a5fb-cc6a20bb5acd" />
+        <node concept="19SGf9" id="1spse2eiC6C" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC6D" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid is niet van toepassing, indien de vreemdeling:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC6E" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/dd55d322-ca76-4fcc-b9ee-ff7d74c7ac6f" />
+        <node concept="19SGf9" id="1spse2eiC6F" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC6G" role="19SJt6">
+            <property role="19SUeA" value="minderjarig is of de pensioengerechtigde leeftijd, bedoeld in , heeft bereikt;artikel 7a, eerste lid, van de Algemene Ouderdomswet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC6H" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/a34eec4a-8cd4-433b-ae3c-b91968d69522" />
+        <node concept="19SGf9" id="1spse2eiC6I" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC6J" role="19SJt6">
+            <property role="19SUeA" value="ten minste acht jaren tijdens de leerplichtige leeftijd in Nederland heeft verbleven overeenkomstig het bepaalde bij en krachtens ;artikel 2.6 van het Besluit inburgering" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC6K" role="3MKX6F">
+        <property role="3MLT8O" value="c" />
+        <property role="1hTQn4" value="https://calculemus.org/ab7a31dc-707c-4eea-8041-88ced28d9573" />
+        <node concept="19SGf9" id="1spse2eiC6L" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC6M" role="19SJt6">
+            <property role="19SUeA" value="beschikt over een document als bedoeld in , dan wel voldoet aan het criterium, genoemd in ;artikel 2.3, eerste lid, onder b tot en met k, en tweede lid, van het Besluit inburgering" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC6N" role="3MKX6F">
+        <property role="3MLT8O" value="d" />
+        <property role="1hTQn4" value="https://calculemus.org/afe4c426-62f1-4fb4-adfe-ff355d114959" />
+        <node concept="19SGf9" id="1spse2eiC6O" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC6P" role="19SJt6">
+            <property role="19SUeA" value="beschikt over een document als bedoeld in  zoals dat luidde voor het tijdstip van inwerkingtreding van  (Stb. 2012, 432), dan wel voldoet aan een van de criteria, genoemd in ;artikel 2.3, eerste lid, onder i tot en met l, van het Besluit inburgering" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC6Q" role="3MKX6F">
+        <property role="3MLT8O" value="e" />
+        <property role="1hTQn4" value="https://calculemus.org/3760e0a6-f012-42f2-9f61-7b4e0aec9bd5" />
+        <node concept="19SGf9" id="1spse2eiC6R" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC6S" role="19SJt6">
+            <property role="19SUeA" value="op grond van  dan wel artikel 6, eerste lid, of  zoals die luidde voor de inwerkingtreding van de  (Stb. 2012, 430) van de inburgeringsplicht is ontheven;artikel 6, eerste of tweede lid, van de Wet inburgering" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC6T" role="3MKX6F">
+        <property role="3MLT8O" value="f" />
+        <property role="1hTQn4" value="https://calculemus.org/59355448-7b39-40bb-85ad-8d31e7d759bf" />
+        <node concept="19SGf9" id="1spse2eiC6U" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC6V" role="19SJt6">
+            <property role="19SUeA" value="meerderjarig is en:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5i" id="1spse2eiC6W" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/a6073df1-a4cc-4580-b9f4-8b05d562ff4b" />
+        <node concept="19SGf9" id="1spse2eiC6X" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC6Y" role="19SJt6">
+            <property role="19SUeA" value="voor het negentiende levensjaar tien jaren rechtmatig in Nederland heeft verbleven als bedoeld in , voor zover diens aanvraag is ontvangen voor het negenentwintigste levensjaar, ofartikel 8, onder a, b dan wel l, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5i" id="1spse2eiC6Z" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/835bd495-ff99-4e54-a5a5-fa4520c0027d" />
+        <node concept="19SGf9" id="1spse2eiC70" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC71" role="19SJt6">
+            <property role="19SUeA" value="voor het negentiende levensjaar vijf jaren rechtmatig in Nederland heeft verbleven als bedoeld in , en voor wie Nederland naar het oordeel van Onze Minister het meest aangewezen land is;artikel 8, onder a, b dan wel l, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC72" role="3MKX6F">
+        <property role="3MLT8O" value="g" />
+        <property role="1hTQn4" value="https://calculemus.org/72f26e02-19ee-4c1a-9033-3408a51dcf64" />
+        <node concept="19SGf9" id="1spse2eiC73" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC74" role="19SJt6">
+            <property role="19SUeA" value="oud-Nederlander is, die het Nederlanderschap heeft verloren door het afleggen van een verklaring van afstand, dan wel door intrekking van het besluit waarbij het Nederlanderschap is verleend op de grond dat hij heeft nagelaten na de totstandkoming van zijn naturalisatie al het mogelijke te doen om zijn oorspronkelijke nationaliteit te verliezen, en die voorafgaand aan de naturalisatie ten minste vijf jaren rechtmatig verblijf in Nederland als bedoeld in  heeft gehad;artikel 8, onder a tot en met e, dan wel l, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC75" role="3MKX6F">
+        <property role="3MLT8O" value="h" />
+        <property role="1hTQn4" value="https://calculemus.org/f8659075-7bbe-436e-a4c8-eec37cf4e72e" />
+        <node concept="19SGf9" id="1spse2eiC76" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC77" role="19SJt6">
+            <property role="19SUeA" value="niet inburgeringsplichtig is op grond van de  en  en het participatieverklaringstraject, bedoeld in  niet heeft afgerond maar wel de overige examenonderdelen, bedoeld in artikel 7, tweede lid, onderdelen b en c, van die wet, heeft behaald.artikelen 3" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC78" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/8aac1b49-51f6-434b-8bd3-4443759de10f" />
+        <node concept="19SGf9" id="1spse2eiC79" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC7a" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister kan het eerste lid voorts buiten toepassing laten, indien de vreemdeling naar zijn oordeel blijkens een door deze vreemdeling overgelegd advies als bedoeld in  door een psychische of lichamelijke belemmering, dan wel een verstandelijke handicap blijvend niet in staat is het examen, bedoeld in  of een diploma, certificaat of ander document als bedoeld in , te behalen.artikel 2.8, eerste lid, van het Besluit inburgering" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC7b" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/9cd1bbe3-057b-4eff-8042-1b9ec7c32bc8" />
+        <node concept="19SGf9" id="1spse2eiC7c" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC7d" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister kan het eerste lid voorts buiten toepassing laten, voorzover toepassing daarvan naar zijn oordeel zal leiden tot een onbillijkheid van overwegende aard." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC7e" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/e9c1c63f-876a-4779-b1ab-d8e052b5548d" />
+        <node concept="19SGf9" id="1spse2eiC7f" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC7g" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen regels worden gesteld omtrent de toepassing van het tweede lid, onder e, en derde lid." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC7h">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling4Paragraaf1Artikel3.98a" />
+    <property role="1N0jUS" value="312" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC7i" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC7j" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/9d16f70e-b2c6-4c0d-9ef0-2de57783036c" />
+        <node concept="19SGf9" id="1spse2eiC7k" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC7l" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister van Sociale Zaken en Werkgelegenheid stelt het basisexamen inburgering ter beoordeling van de kennis van de Nederlandse taal en van de Nederlandse maatschappij als bedoeld in , vast door middel van een geautomatiseerd systeem.artikel 16, eerste lid, onder h, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC7m" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/11ece0aa-3699-485a-80d2-2425aca4c12e" />
+        <node concept="19SGf9" id="1spse2eiC7n" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC7o" role="19SJt6">
+            <property role="19SUeA" value="Het basisexamen inburgering omvat een onderzoek naar de Nederlandse lees-, luister- en spreekvaardigheid van de vreemdeling." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC7p" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/0ff677ed-3494-4c2a-99f8-797392272f7d" />
+        <node concept="19SGf9" id="1spse2eiC7q" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC7r" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister van Sociale Zaken en Werkgelegenheid stelt een examenprogramma vast voor de vereiste lees-, luister- en spreekvaardigheid. Dit examenprogramma strekt tot waarborg dat de vreemdeling die het basisexamen inburgering met goed gevolg heeft afgelegd, beschikt over de volgende vaardigheden in de Nederlandse taal op het niveau A1 van het Europees Raamwerk voor Moderne Vreemde Talen:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC7s" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/30654db4-323a-4844-8d8f-eb80679118a4" />
+        <node concept="19SGf9" id="1spse2eiC7t" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC7u" role="19SJt6">
+            <property role="19SUeA" value="leesvaardigheid;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC7v" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/50105f5f-357e-45ca-bed6-ca78f8cc40e2" />
+        <node concept="19SGf9" id="1spse2eiC7w" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC7x" role="19SJt6">
+            <property role="19SUeA" value="luistervaardigheid, en" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC7y" role="3MKX6F">
+        <property role="3MLT8O" value="c" />
+        <property role="1hTQn4" value="https://calculemus.org/a497afdc-2a5f-4ac4-8341-ec2f67bde943" />
+        <node concept="19SGf9" id="1spse2eiC7z" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC7$" role="19SJt6">
+            <property role="19SUeA" value="spreekvaardigheid." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC7_" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/0364efa4-8fb0-47ac-b8bd-495d5248e593" />
+        <node concept="19SGf9" id="1spse2eiC7A" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC7B" role="19SJt6">
+            <property role="19SUeA" value="De normering van de onderdelen lees-, luister- en spreekvaardigheid van het basisexamen inburgering wordt gerelateerd aan een van de niveaus van het Europees Raamwerk voor Moderne Vreemde Talen." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC7C" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/e611fc1c-4ea5-4aa8-b3af-cf2a10f26d69" />
+        <node concept="19SGf9" id="1spse2eiC7D" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC7E" role="19SJt6">
+            <property role="19SUeA" value="Het basisexamen inburgering omvat tevens een onderzoek naar de kennis van de Nederlandse samenleving." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC7F" role="3MKX6F">
+        <property role="3MLT8O" value="6" />
+        <property role="1hTQn4" value="https://calculemus.org/59b8f1c4-e3ed-4249-bdc4-b092e149bd50" />
+        <node concept="19SGf9" id="1spse2eiC7G" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC7H" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister van Sociale Zaken en Werkgelegenheid stelt een examenprogramma vast voor de vereiste kennis van de Nederlandse samenleving. Dit examenprogramma waarborgt dat de vreemdeling die het basisexamen inburgering met goed gevolg heeft afgelegd, beschikt over elementaire praktische kennis van:" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC7I">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling4Paragraaf2Artikel3.99a" />
+    <property role="1N0jUS" value="329" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC7J" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC7K" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/fc71e301-9970-414d-a0a6-8e1217420a47" />
+        <node concept="19SGf9" id="1spse2eiC7L" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC7M" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen regels worden gesteld omtrent de gevallen waarin de vreemdeling of diens wettelijk vertegenwoordiger in persoon dient te verschijnen teneinde te voldoen aan bepaalde voorwaarden voor verlening van een verblijfsvergunning, indien het een aanvraag betreft tot:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiC7N" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/5b48bed9-6197-4e6e-a623-9d767de2afd7" />
+        <node concept="3MKX6G" id="1spse2eiC7O" role="3MKX6F">
+          <property role="3MLT8O" value="a" />
+          <property role="1hTQn4" value="https://calculemus.org/c18a1db3-62c1-4298-a81c-75e5baa55c45" />
+          <node concept="19SGf9" id="1spse2eiC7P" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC7Q" role="19SJt6">
+              <property role="19SUeA" value="het verlenen van een verblijfsvergunning op de grond dat de uitzetting van de vreemdeling in strijd is met artikel 8 van het Verdrag tot bescherming van de rechten van de mens en de fundamentele vrijheden;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiC7R" role="3MKX6F">
+          <property role="3MLT8O" value="b" />
+          <property role="1hTQn4" value="https://calculemus.org/63582ba5-6b7d-423c-b4af-a93b8b699e64" />
+          <node concept="19SGf9" id="1spse2eiC7S" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC7T" role="19SJt6">
+              <property role="19SUeA" value="het verlenen van een verblijfsvergunning onder een beperking verband houdend met medische behandeling als bedoeld in , dan wel het wijzigen van een verblijfsvergunning regulier voor bepaalde tijd in een verblijfsvergunning met dat doel; ofartikel 3.46" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiC7U" role="3MKX6F">
+          <property role="3MLT8O" value="c" />
+          <property role="1hTQn4" value="https://calculemus.org/5b01590b-46e5-441f-b3dd-a575b5994b0d" />
+          <node concept="19SGf9" id="1spse2eiC7V" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC7W" role="19SJt6">
+              <property role="19SUeA" value="het verlenen van een verblijfsvergunning onder een beperking verband houdend met tijdelijke humanitaire gronden als bedoeld in .artikel 3.48, tweede lid" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC7X">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling4Paragraaf2Artikel3.99b" />
+    <property role="1N0jUS" value="335" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC7Y" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC7Z" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/848c0c93-ac81-4567-89d1-d5b89c07b63b" />
+        <node concept="19SGf9" id="1spse2eiC80" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC81" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC82">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling4Paragraaf2Artikel3.101a" />
+    <property role="1N0jUS" value="340" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC83" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC84" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/766b50ae-31f3-4fda-a596-f1bc692c5dbf" />
+        <node concept="19SGf9" id="1spse2eiC85" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC86" role="19SJt6">
+            <property role="19SUeA" value="Indien de eerste aanvraag tot het verlenen van een verblijfsvergunning regulier voor bepaalde tijd is afgewezen, wordt iedere daarop volgende aanvraag tot het verlenen van een dergelijke verblijfsvergunning voor hetzelfde verblijfsdoel aangemerkt als een tweede of volgende aanvraag in de zin van .artikel 5b van het Besluit vergoedingen rechtsbijstand 2000" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC87" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/1d55cbcb-bd52-4e34-9a71-6c0c5297925e" />
+        <node concept="19SGf9" id="1spse2eiC88" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC89" role="19SJt6">
+            <property role="19SUeA" value="Indien na afwijzing van een aanvraag tot het verlenen van een verblijfsvergunning regulier voor bepaalde tijd ambtshalve een verblijfsvergunning is verleend op een van de gronden, bedoeld in , dan wel na toetsing aan de gronden, bedoeld in artikel 3.6, eerste lid, niet ambtshalve een verblijfsvergunning is verleend, wordt iedere daarop volgende aanvraag tot het verlenen van een verblijfsvergunning regulier voor bepaalde tijd op een van die gronden aangemerkt als een tweede of volgende aanvraag in de zin van het .artikel 3.6, eerste lidBesluit vergoedingen rechtsbijstand 2000" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC8a" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/03f3ae5e-5f0f-4efe-b065-0c1449b489d0" />
+        <node concept="19SGf9" id="1spse2eiC8b" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC8c" role="19SJt6">
+            <property role="19SUeA" value="Het tweede lid is van overeenkomstige toepassing, indien na intrekking van een verblijfsvergunning regulier voor bepaalde tijd onderscheidenlijk bij afwijzing van een aanvraag tot het verlengen van de geldigheidsduur ervan, ambtshalve een verblijfsvergunning is verleend op een van de gronden, bedoeld in , dan wel na toetsing aan de gronden, bedoeld in artikel 3.6, eerste lid, niet ambtshalve een verblijfsvergunning is verleend.artikel 3.6, eerste lid" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC8d">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling4Paragraaf2Artikel3.101b" />
+    <property role="1N0jUS" value="344" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC8e" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC8f" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/cc366720-7acc-43bd-9964-dfba408478bc" />
+        <node concept="19SGf9" id="1spse2eiC8g" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC8h" role="19SJt6">
+            <property role="19SUeA" value="Indien na afwijzing van de eerste aanvraag tot het verlenen van een verblijfsvergunning asiel voor bepaalde tijd ambtshalve een verblijfsvergunning is verleend op een van de gronden, bedoeld in , dan wel na toetsing aan de gronden, bedoeld in artikel 3.6a, eerste lid, niet ambtshalve een verblijfsvergunning is verleend, wordt iedere daarop volgende aanvraag tot het verlenen van een verblijfsvergunning regulier voor bepaalde tijd op een van die gronden aangemerkt als een tweede of volgende aanvraag in de zin van .artikel 3.6a, eerste lidartikel 5b van het Besluit vergoedingen rechtsbijstand 2000" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC8i" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/2487a428-50cb-4d8f-8362-73e637f68568" />
+        <node concept="19SGf9" id="1spse2eiC8j" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC8k" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid is van overeenkomstige toepassing, indien na intrekking van een verblijfsvergunning asiel voor bepaalde tijd onderscheidenlijk bij afwijzing van een aanvraag tot het verlengen van de geldigheidsduur ervan, ambtshalve een verblijfsvergunning is verleend op een van de gronden, bedoeld in , dan wel na toetsing aan de gronden, bedoeld in artikel 3.6a, eerste lid, niet ambtshalve een verblijfsvergunning is verleend.artikel 3.6a, eerste lid" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC8l">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling4Paragraaf3Artikel3.102a" />
+    <property role="1N0jUS" value="355" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC8m" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC8n" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/80128e96-bea8-4b6f-942d-2f866cbc8175" />
+        <node concept="19SGf9" id="1spse2eiC8o" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC8p" role="19SJt6">
+            <property role="19SUeA" value="De medewerking van de vreemdeling, bedoeld in , bestaat uit:artikel 24, eerste lid, onderdeel b, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiC8q" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/a80221e9-ec8f-42a1-911e-58c613817caa" />
+        <node concept="3MKX6G" id="1spse2eiC8r" role="3MKX6F">
+          <property role="3MLT8O" value="a" />
+          <property role="1hTQn4" value="https://calculemus.org/4ce1ff9e-2d34-487a-8d0a-5fe4bde231cb" />
+          <node concept="19SGf9" id="1spse2eiC8s" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC8t" role="19SJt6">
+              <property role="19SUeA" value="het op vordering van Onze Minister beschikbaar stellen van een goedgelijkende pasfoto, en" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiC8u" role="3MKX6F">
+          <property role="3MLT8O" value="b" />
+          <property role="1hTQn4" value="https://calculemus.org/7f614a50-3a24-4109-bc34-8ae04f8dee22" />
+          <node concept="19SGf9" id="1spse2eiC8v" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC8w" role="19SJt6">
+              <property role="19SUeA" value="het zich laten fotograferen en het laten afnemen van vingerafdrukken." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC8x">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf2Artikel3.57" />
+    <property role="1N0jUS" value="357" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC8y" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC8z" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/8ab34e19-031a-45a3-b17b-e09aafed91ef" />
+        <node concept="19SGf9" id="1spse2eiC8$" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC8_" role="19SJt6">
+            <property role="19SUeA" value="De verblijfsvergunning, die met toepassing van  ambtshalve wordt verleend, wordt verleend met ingang van de dag na de dag waarop de machtiging tot voorlopig verblijf aan de vreemdeling in persoon is afgegeven.artikel 14, tweede lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC8A" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/403c8010-b9ea-4c8d-9383-0ff62fc8e5ca" />
+        <node concept="19SGf9" id="1spse2eiC8B" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC8C" role="19SJt6">
+            <property role="19SUeA" value="In afwijking van het eerste lid, kan de verblijfsvergunning worden verleend met ingang van de dag die bij de afgifte van de machtiging tot voorlopig verblijf is opgegeven als de dag waarop de vreemdeling Nederland zal inreizen." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC8D">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf2Artikel3.58" />
+    <property role="1N0jUS" value="358" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC8E" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC8F" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/de52c51f-7b6e-41de-9fbb-e43c58bb7d60" />
+        <node concept="19SGf9" id="1spse2eiC8G" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC8H" role="19SJt6">
+            <property role="19SUeA" value="Een verblijfsvergunning regulier voor bepaalde tijd voor een verblijfsdoel als bedoeld in kolom I kan in eerste instantie worden verleend voor de geldigheidsduur, bedoeld in kolom II, en kan worden verlengd, voor zover dat is bepaald in kolom III." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC8I" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/f6aac201-7275-49cb-b506-3f19ef55a905" />
+        <node concept="19SGf9" id="1spse2eiC8J" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC8K" role="19SJt6">
+            <property role="19SUeA" value="In afwijking van het eerste lid, onder q, kan de verblijfsvergunning onder een beperking verband houdend met tijdelijke humanitaire gronden worden verleend voor de duur van vijf jaar aan de alleenstaande minderjarige vreemdeling:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC8L" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/f6b0b661-9988-4139-bf37-f0c1385a3d4e" />
+        <node concept="19SGf9" id="1spse2eiC8M" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC8N" role="19SJt6">
+            <property role="19SUeA" value="die jonger was dan vijftien jaar ten tijde van de eerste verblijfsaanvraag in Nederland, en" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC8O" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/3b00ab71-fdaa-4a17-b6f2-70f65a82878d" />
+        <node concept="19SGf9" id="1spse2eiC8P" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC8Q" role="19SJt6">
+            <property role="19SUeA" value="voor wie naar het oordeel van Onze Minister, naar plaatselijke maatstaven gemeten, adequate opvang ontbreekt in het land van herkomst of een ander land waar hij redelijkerwijs naar toe kan gaan, dan wel deze adequate opvang buiten zijn schuld niet gerealiseerd kan worden binnen drie jaar na de eerste verblijfsaanvraag." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC8R" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/fed2750d-08ef-4268-a759-796292eca1e4" />
+        <node concept="19SGf9" id="1spse2eiC8S" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC8T" role="19SJt6">
+            <property role="19SUeA" value="In afwijking van het eerste lid, onder o en p, kan de verblijfsvergunning onder een beperking verband houdend met medische behandeling onderscheidenlijk tijdelijke humanitaire gronden worden verleend of verlengd voor een langere geldigheidsduur dan n jaar indien tussen de aanvraag en de beschikking ten minste n jaar verstreken is. In dat geval bedraagt de geldigheidsduur van de verblijfsvergunning de periode tussen de aanvraag en de beschikking, aangevuld met n jaar." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC8U">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf2Artikel3.59" />
+    <property role="1N0jUS" value="359" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC8V" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC8W" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/eef55c79-0502-4f49-9c6e-8ba73806a994" />
+        <node concept="19SGf9" id="1spse2eiC8X" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC8Y" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC8Z">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf2Artikel3.60" />
+    <property role="1N0jUS" value="360" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC90" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC91" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/b2a69eae-da2f-4dd3-b5d1-78c96bfb8139" />
+        <node concept="19SGf9" id="1spse2eiC92" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC93" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC94">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling4Paragraaf3Artikel3.102b" />
+    <property role="1N0jUS" value="360" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC95" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC96" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/994a00bd-064d-4f71-88df-45fc6172ce0e" />
+        <node concept="19SGf9" id="1spse2eiC97" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC98" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling legt bij de aanvraag ten minste de voor de beslissing van Onze Minister relevante medische gegevens en overige bescheiden over, indien:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC99" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/58367aaa-5bfa-4d56-b9c2-99f5c6f9bd64" />
+        <node concept="19SGf9" id="1spse2eiC9a" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC9b" role="19SJt6">
+            <property role="19SUeA" value="het een aanvraag betreft tot het verlenen van een verblijfsvergunning regulier voor bepaalde tijd onder een beperking verband houdend met medische behandeling als bedoeld in ;artikel 3.46" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC9c" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/da3d9247-78c6-4b2c-a6ff-6d9f6bf9d884" />
+        <node concept="19SGf9" id="1spse2eiC9d" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC9e" role="19SJt6">
+            <property role="19SUeA" value="het een aanvraag betreft tot het wijzigen van een verblijfsvergunning regulier voor bepaalde tijd in een verblijfsvergunning onder een beperking verband houdend met medische behandeling als bedoeld in ,artikel 3.46" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC9f" role="3MKX6F">
+        <property role="3MLT8O" value="c" />
+        <property role="1hTQn4" value="https://calculemus.org/9063522e-53b1-42b6-82bf-320686611ec9" />
+        <node concept="19SGf9" id="1spse2eiC9g" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC9h" role="19SJt6">
+            <property role="19SUeA" value="de vreemdeling een beroep doet op medische redenen om vrijgesteld te worden van het vereiste van een geldige machtiging tot voorlopig verblijf." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC9i" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/898ba4f2-05ae-4607-88f9-eb3d38dce8cb" />
+        <node concept="19SGf9" id="1spse2eiC9j" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC9k" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling legt bij de aanvraag tot het verlengen van de geldigheidsduur van een verblijfsvergunning regulier voor bepaalde tijd onder een beperking verband houdend met medische behandeling als bedoeld in , ten minste de voor de beslissing van Onze Minister relevante medische gegevens en overige bescheiden over.artikel 3.46" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC9l" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/a2d8037e-231e-4f09-afa2-d6075d476590" />
+        <node concept="19SGf9" id="1spse2eiC9m" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC9n" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling legt bij de aanvraag tot het verlenen van een verblijfsvergunning regulier voor bepaalde tijd die verband houdt met niet-tijdelijke humanitaire gronden als bedoeld in , ten minste de voor de beslissing van Onze Minister relevante medische gegevens en overige bescheiden over.artikel 3.51, eerste lid, onderdeel a, ten tweede, dan wel onderdeel b" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC9o" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/1d48644d-96b6-45ae-bf5d-8030b31918ea" />
+        <node concept="19SGf9" id="1spse2eiC9p" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC9q" role="19SJt6">
+            <property role="19SUeA" value="Indien de vreemdeling zich in verband met de intrekking van zijn verblijfsvergunning of in een bezwaarprocedure kan beroepen op medische gronden, legt hij, indien hij daartoe overgaat, ten minste de voor de beslissing van Onze Minister relevante medische gegevens en overige bescheiden over." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC9r" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/4ba386e6-a703-4fa6-bb56-8737c674370c" />
+        <node concept="19SGf9" id="1spse2eiC9s" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC9t" role="19SJt6">
+            <property role="19SUeA" value="Dit artikel blijft buiten toepassing ten aanzien van de bij ministerile regeling aan te wijzen categorien van vreemdelingen." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC9u">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf2Artikel3.61" />
+    <property role="1N0jUS" value="361" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC9v" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC9w" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/0fb70862-8ba4-4f8d-acfe-d0735e372904" />
+        <node concept="19SGf9" id="1spse2eiC9x" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC9y" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC9z">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf2Artikel3.62" />
+    <property role="1N0jUS" value="362" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC9$" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC9_" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/d7a21d90-420f-4b35-b3b2-1e3a289ae75e" />
+        <node concept="19SGf9" id="1spse2eiC9A" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC9B" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC9C">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf2Artikel3.63" />
+    <property role="1N0jUS" value="363" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC9D" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC9E" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/ecc55649-33ec-421e-af9d-68f24ed4dc55" />
+        <node concept="19SGf9" id="1spse2eiC9F" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC9G" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC9H">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf2Artikel3.64" />
+    <property role="1N0jUS" value="364" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC9I" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC9J" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/3411c646-832d-47ce-a372-79e788b7df8d" />
+        <node concept="19SGf9" id="1spse2eiC9K" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC9L" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC9M">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf2Artikel3.65" />
+    <property role="1N0jUS" value="365" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC9N" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC9O" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/8ff4b4a1-ecec-4912-bd62-cd1b32f6071a" />
+        <node concept="19SGf9" id="1spse2eiC9P" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC9Q" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC9R">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf2Artikel3.66" />
+    <property role="1N0jUS" value="366" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC9S" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC9T" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/65d0620b-906c-41f4-9fba-5d29c10dae7f" />
+        <node concept="19SGf9" id="1spse2eiC9U" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC9V" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC9W">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf2Artikel3.67" />
+    <property role="1N0jUS" value="367" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC9X" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC9Y" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/144e2c9d-8e73-4ea7-9468-89bbdad88a46" />
+        <node concept="19SGf9" id="1spse2eiC9Z" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCa0" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCa1">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf2Artikel3.68" />
+    <property role="1N0jUS" value="368" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCa2" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCa3" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/70704415-5f3c-4f15-8484-914e72f450c5" />
+        <node concept="19SGf9" id="1spse2eiCa4" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCa5" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCa6">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf2Artikel3.69" />
+    <property role="1N0jUS" value="369" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCa7" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCa8" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/71a384da-f58b-4bff-a5a5-79c302a28b76" />
+        <node concept="19SGf9" id="1spse2eiCa9" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCaa" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCab">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf2Artikel3.70" />
+    <property role="1N0jUS" value="370" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCac" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCad" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/1c489b8a-b5e4-4a5e-8c7c-d99f9e7ab036" />
+        <node concept="19SGf9" id="1spse2eiCae" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCaf" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCag">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling4Paragraaf3Artikel3.103a" />
+    <property role="1N0jUS" value="370" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCah" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCai" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/f3e5e883-85ac-4f5a-84ac-54a331b4d9ee" />
+        <node concept="19SGf9" id="1spse2eiCaj" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCak" role="19SJt6">
+            <property role="19SUeA" value="Indien Onze Minister een verblijfsvergunning regulier voor bepaalde tijd verleent aan of verlengt van een vreemdeling die houder is van een EU-verblijfsvergunning voor langdurig ingezetenen, afgegeven door een andere lidstaat van de Europese Unie, doet hij daarvan mededeling aan de autoriteiten van die staat." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCal" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/5d79bb41-bc1c-4a8a-9c8d-ab2696c3e49f" />
+        <node concept="19SGf9" id="1spse2eiCam" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCan" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid is van overeenkomstige toepassing indien Onze Minister besluit de verblijfsvergunning van de in het eerste lid bedoelde houder in te trekken of niet te verlengen." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCao" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/4b413166-c893-4258-8721-947e827993d7" />
+        <node concept="19SGf9" id="1spse2eiCap" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCaq" role="19SJt6">
+            <property role="19SUeA" value="Indien Onze Minister overweegt een vreemdeling die houder is als bedoeld in het eerste lid, uit te zetten naar een staat die geen lidstaat is van de Europese Unie, raadpleegt hij de autoriteiten van de staat, bedoeld in het eerste lid. Indien Onze Minister dienovereenkomstig besluit uit te zetten, verstrekt hij die autoriteiten alle nodige informatie met betrekking tot de uitzetting." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCar" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/71a92934-942a-4298-bd7a-8617878d756e" />
+        <node concept="19SGf9" id="1spse2eiCas" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCat" role="19SJt6">
+            <property role="19SUeA" value="Indien Onze Minister beslist op een aanvraag tot het verlenen van een Europese blauwe kaart ten behoeve van een vreemdeling die door een andere lidstaat van de Europese Unie reeds in het bezit is gesteld van een Europese blauwe kaart, doet hij daarvan mededeling aan de autoriteiten van die staat." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCau" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/efb23c26-f6fe-4b29-86e4-c2bc9ea31f66" />
+        <node concept="19SGf9" id="1spse2eiCav" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCaw" role="19SJt6">
+            <property role="19SUeA" value="Indien Onze Minister een verblijfsvergunning regulier voor bepaalde tijd onder de beperking overplaatsing binnen een onderneming verleent aan een vreemdeling in het kader van langetermijnmobiliteit in de zin van artikel22 van /EU, doet hij daarvan mededeling bij de bevoegde instanties van de lidstaat die als eerste een verblijfsvergunning heeft afgegeven voor de binnen een onderneming overgeplaatste persoon.richtlijn 2014/66" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCax" role="3MKX6F">
+        <property role="3MLT8O" value="6" />
+        <property role="1hTQn4" value="https://calculemus.org/f8a1f85e-94c7-4c8e-8676-fec78bd3337c" />
+        <node concept="19SGf9" id="1spse2eiCay" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCaz" role="19SJt6">
+            <property role="19SUeA" value="Indien Onze Minister een verblijfsvergunning regulier voor bepaalde tijd onder de beperking onderzoek in de zin van richtlijn (EU) 2016/801 verleent in het kader van langetermijnmobiliteit in de zin van artikel 29 van richtlijn (EU) 2016/801, doet hij daarvan mededeling bij de bevoegde instanties van de lidstaat die als eerste een verblijfsvergunning heeft afgegeven voor de vreemdeling." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCa$">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf3Artikel3.71" />
+    <property role="1N0jUS" value="371" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCa_" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCaA" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/385ba6b2-934f-4bb9-bee7-c6f09726995e" />
+        <node concept="19SGf9" id="1spse2eiCaB" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCaC" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag tot het verlenen van de verblijfsvergunning regulier voor bepaalde tijd wordt afgewezen, indien de vreemdeling niet beschikt over een geldige machtiging tot voorlopig verblijf." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCaD" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/75e7ff1a-270a-43b2-867f-d7654dc610b5" />
+        <node concept="19SGf9" id="1spse2eiCaE" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCaF" role="19SJt6">
+            <property role="19SUeA" value="Van het vereiste van een geldige machtiging tot verblijf is, op grond van , vrijgesteld de vreemdeling:artikel 17, eerste lid, onder g, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCaG" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/0cdfad5c-f0ad-463f-b13e-b9bb4100f71e" />
+        <node concept="19SGf9" id="1spse2eiCaH" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCaI" role="19SJt6">
+            <property role="19SUeA" value="die houder is van een door een andere staat die het Schengenacquis volledig toepast afgegeven geldige verblijfstitel die het buitenlands equivalent is van een verblijfsvergunning als bedoeld in  of , de aanvraag via een erkende referent indient en in aanmerking komt voor een verblijfsvergunning regulier voor bepaalde tijd dan wel die als de echtgenoot, geregistreerde dan wel ongehuwde partner of het minderjarig kind van die echtgenoot, partner of houder voor verblijf bij die houder in die andere staat in het bezit is gesteld van een zodanige verblijfstitel, de aanvraag via een erkende referent indient voor verblijf als familie- of gezinslid bij die houder en in aanmerking komt voor een verblijfsvergunning regulier voor bepaalde tijd;artikel 14" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCaJ" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/0edb8f60-62a3-47a9-be5c-76e8a112d8f6" />
+        <node concept="19SGf9" id="1spse2eiCaK" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCaL" role="19SJt6">
+            <property role="19SUeA" value="van twaalf jaar of jonger, die in Nederland is geboren en naar het oordeel van Onze Minister feitelijk is blijven behoren tot het gezin van een ouder die" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5i" id="1spse2eiCaM" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/110769cd-3bbe-4d4a-9a9a-4da92ea6cc3e" />
+        <node concept="19SGf9" id="1spse2eiCaN" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCaO" role="19SJt6">
+            <property role="19SUeA" value="sedert het moment van geboorte van de vreemdeling rechtmatig verblijf in Nederland heeft op grond van  of als Nederlander, ofartikel 8, onder a tot en met e, dan wel l, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5i" id="1spse2eiCaP" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/4df4b126-fade-4937-bbd8-be9e0f094174" />
+        <node concept="19SGf9" id="1spse2eiCaQ" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCaR" role="19SJt6">
+            <property role="19SUeA" value="op het moment van de geboorte van de vreemdeling rechtmatig verblijf in Nederland had op grond van  en die sedertdien aansluitend rechtmatig verblijf op grond van  heeft, voor zover geen van beiden het hoofdverblijf buiten Nederland heeft verplaatst;artikel 8, onder f tot en met k, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCaS" role="3MKX6F">
+        <property role="3MLT8O" value="c" />
+        <property role="1hTQn4" value="https://calculemus.org/03b5b05c-6385-4357-aac0-7c92f160cddb" />
+        <node concept="19SGf9" id="1spse2eiCaT" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCaU" role="19SJt6">
+            <property role="19SUeA" value="die in Nederland verblijft op grond van een geprivilegieerde status als gezinslid van een in Nederland geaccrediteerd personeelslid van een buitenlandse diplomatieke of consulaire post die zelf in aanmerking komt voor de verblijfsvergunning regulier voor onbepaalde tijd;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCaV" role="3MKX6F">
+        <property role="3MLT8O" value="d" />
+        <property role="1hTQn4" value="https://calculemus.org/57ab50d7-23d0-48ad-be63-3b09b4cfc9f4" />
+        <node concept="19SGf9" id="1spse2eiCaW" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCaX" role="19SJt6">
+            <property role="19SUeA" value="die ten minste zeven jaren werkzaam is of is geweest op een Nederlands zeeschip of een mijnbouwinstallatie op het continentaal plat;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCaY" role="3MKX6F">
+        <property role="3MLT8O" value="e" />
+        <property role="1hTQn4" value="https://calculemus.org/97b1440d-10b2-4264-a364-39f0ccb8d241" />
+        <node concept="19SGf9" id="1spse2eiCaZ" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCb0" role="19SJt6">
+            <property role="19SUeA" value="die in aanmerking komt voor een verblijfsvergunning op grond van Besluit 1/80 van de Associatieraad EEG-Turkije betreffende de ontwikkeling van de Associatie of van wie uitzetting in strijd zou zijn met de op 12september 1963 te Ankara gesloten Overeenkomst waarbij een associatie tot stand wordt gebracht tussen de Europese Economische Gemeenschap en Turkije (Trb.1964, 217), het op 23november 1970 te Brussel tot stand gekomen Aanvullend Protocol bij die overeenkomst (Trb.1971, 70) of dat Besluit nr. 1/80;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCb1" role="3MKX6F">
+        <property role="3MLT8O" value="f" />
+        <property role="1hTQn4" value="https://calculemus.org/e031405b-4ea8-460b-8aa2-09de5a6c90bf" />
+        <node concept="19SGf9" id="1spse2eiCb2" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCb3" role="19SJt6">
+            <property role="19SUeA" value="die in aanmerking komt voor de verblijfsvergunning regulier voor bepaalde tijd onder een beperking verband houdend met grensoverschrijdende dienstverlening;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCb4" role="3MKX6F">
+        <property role="3MLT8O" value="g" />
+        <property role="1hTQn4" value="https://calculemus.org/d1ad8b34-f90f-45a3-93d5-868bf2c90a7c" />
+        <node concept="19SGf9" id="1spse2eiCb5" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCb6" role="19SJt6">
+            <property role="19SUeA" value="die in Nederland verblijft, bij de rechtbank Den Haag een verzoek heeft ingediend tot vaststelling van zijn Nederlanderschap dat naar het oordeel van Onze Minister niet klaarblijkelijk van elke grond ontbloot is;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCb7" role="3MKX6F">
+        <property role="3MLT8O" value="h" />
+        <property role="1hTQn4" value="https://calculemus.org/2fb3ea98-8182-4fc0-9f00-4a9ab9250b4d" />
+        <node concept="19SGf9" id="1spse2eiCb8" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCb9" role="19SJt6">
+            <property role="19SUeA" value="die tijdelijke bescherming heeft en in aanmerking komt voor de verblijfsvergunning regulier voor bepaalde tijd onder een beperking verband houdend met seizoenarbeid, arbeid in loondienst, arbeid als kennismigrant of arbeid als zelfstandige;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCba" role="3MKX6F">
+        <property role="3MLT8O" value="i" />
+        <property role="1hTQn4" value="https://calculemus.org/4fa82508-029d-4b38-9bde-6b70682de081" />
+        <node concept="19SGf9" id="1spse2eiCbb" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCbc" role="19SJt6">
+            <property role="19SUeA" value="die houder is van een verblijfsvergunning voor onderzoekers in de zin van richtlijn (EU) 2016/801 afgegeven door een andere staat die Partij is bij het Verdrag betreffende de werking van de Europese Unie, dan wel de echtgenoot, partner of het minderjarig kind is van die houder, tenzij sprake is van gezinsvorming;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCbd" role="3MKX6F">
+        <property role="3MLT8O" value="j" />
+        <property role="1hTQn4" value="https://calculemus.org/ef8872f0-f9ae-4c9e-8aba-c69a6aa4f723" />
+        <node concept="19SGf9" id="1spse2eiCbe" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCbf" role="19SJt6">
+            <property role="19SUeA" value="die verblijf beoogt voor medische behandeling en die ten minste een jaar direct voorafgaande aan de aanvraag rechtmatig verblijf als bedoeld in  heeft gehad;artikel 8, onder j, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCbg" role="3MKX6F">
+        <property role="3MLT8O" value="k" />
+        <property role="1hTQn4" value="https://calculemus.org/21dafe20-47d8-4edf-b04d-a2770d09fc7a" />
+        <node concept="19SGf9" id="1spse2eiCbh" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCbi" role="19SJt6">
+            <property role="19SUeA" value="die minderjarig is, schoolgaand is en drie jaar ononderbroken hoofdverblijf in Nederland heeft en een aanvraag heeft ingediend tot het verlenen van een verblijfsvergunning regulier voor bepaalde tijd onder een beperking verband houdend met gezinshereniging bij een Nederlander of een hoofdpersoon met rechtmatig verblijf, als bedoeld in ;artikel 8, onder a tot en met e dan wel l, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCbj" role="3MKX6F">
+        <property role="3MLT8O" value="l" />
+        <property role="1hTQn4" value="https://calculemus.org/7027dbe3-de3c-499f-8e53-bdc44b3b0274" />
+        <node concept="19SGf9" id="1spse2eiCbk" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCbl" role="19SJt6">
+            <property role="19SUeA" value="van wie uitzetting in strijd met artikel 8 van het Verdrag tot bescherming van de rechten van de mens en de fundamentele vrijheden zou zijn;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCbm" role="3MKX6F">
+        <property role="3MLT8O" value="m" />
+        <property role="1hTQn4" value="https://calculemus.org/681e6de3-1ec9-453a-ad6b-446598b35bde" />
+        <node concept="19SGf9" id="1spse2eiCbn" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCbo" role="19SJt6">
+            <property role="19SUeA" value="die de biologische of juridische ouder is die het gezag heeft over en is ingereisd met een minderjarige vreemdeling die houder is van een verblijfsvergunning regulier voor bepaalde tijd die is verleend met toepassing van  dan wel die de onder het gezag van die ouder staande minderjarige broer of zuster van die houder is en met die ouder en houder is ingereisd;artikel 3.46" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCbp" role="3MKX6F">
+        <property role="3MLT8O" value="n" />
+        <property role="1hTQn4" value="https://calculemus.org/c1653ea6-4c80-4fd1-af58-1222d7ba7410" />
+        <node concept="19SGf9" id="1spse2eiCbq" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCbr" role="19SJt6">
+            <property role="19SUeA" value="die de echtgenoot, geregistreerde partner of partner is, dan wel het biologische of juridische kind dat onder het rechtmatig gezag staat, van een meerderjarige vreemdeling die houder is van een verblijfsvergunning regulier voor bepaalde tijd die is verleend met toepassing van , met die houder is ingereisd en bij die houder verblijft;artikel 3.46" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCbs" role="3MKX6F">
+        <property role="3MLT8O" value="o" />
+        <property role="1hTQn4" value="https://calculemus.org/e296c640-c62a-4b0f-a0c3-15a6fed10362" />
+        <node concept="19SGf9" id="1spse2eiCbt" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCbu" role="19SJt6">
+            <property role="19SUeA" value="die minderjarig is, Nederland is ingereisd als houder van een geldig Nederlands nationaal paspoort en na de vaststelling dat het paspoort ten onrechte is verstrekt, alsnog een aanvraag indient voor een verblijfsvergunning regulier verband houdend met verblijf ter adoptie, tenzij onjuiste gegevens zijn verstrekt die hebben geleid tot de afgifte van dat paspoort;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCbv" role="3MKX6F">
+        <property role="3MLT8O" value="p" />
+        <property role="1hTQn4" value="https://calculemus.org/492e49a6-ef4f-4dbf-9e47-512358ec568f" />
+        <node concept="19SGf9" id="1spse2eiCbw" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCbx" role="19SJt6">
+            <property role="19SUeA" value="die een minderjarig kind is van een houder van een verblijfsvergunning als bedoeld in , en onder het gezag staat van en verblijft bij die houder;artikel 3.48, eerste lid, onder a, b dan wel c" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCby" role="3MKX6F">
+        <property role="3MLT8O" value="q" />
+        <property role="1hTQn4" value="https://calculemus.org/a8fc0629-5433-4036-bc84-a6d26a744756" />
+        <node concept="19SGf9" id="1spse2eiCbz" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCb$" role="19SJt6">
+            <property role="19SUeA" value="die in aanmerking komt voor een verblijfsvergunning als bedoeld in , dan wel het minderjarige kind van die vreemdeling dat onder het gezag staat van en verblijft bij die vreemdeling;artikel3.48, eerste lid, aanhef en onder d, e of f" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCb_" role="3MKX6F">
+        <property role="3MLT8O" value="r" />
+        <property role="1hTQn4" value="https://calculemus.org/e297dd7a-a9fa-45a2-9f65-2ab2d0f45650" />
+        <node concept="19SGf9" id="1spse2eiCbA" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCbB" role="19SJt6">
+            <property role="19SUeA" value="die houder is van een door de autoriteiten van een andere staat die Partij is bij het Verdrag betreffende de werking van de Europese Unie afgegeven Europese blauwe kaart en gedurende ten minste achttien maanden als houder van die kaart in die staat heeft verbleven;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCbC" role="3MKX6F">
+        <property role="3MLT8O" value="s" />
+        <property role="1hTQn4" value="https://calculemus.org/30522555-5556-47fb-85e3-152943418b0e" />
+        <node concept="19SGf9" id="1spse2eiCbD" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCbE" role="19SJt6">
+            <property role="19SUeA" value="die houder is van een door een andere lidstaat van de Europese Unie afgegeven verblijfsvergunning met de vermelding ICT die in Nederland wil verblijven voor een overplaatsing binnen een onderneming in het kader van langetermijnmobiliteit in de zin van artikel22 van /EU, dan wel de echtgenoot, partner of het minderjarig kind is die zelf houder is van een door een andere lidstaat van de Europese Unie afgegeven verblijfsvergunning in het kader van gezinshereniging van die houder, tenzij sprake is van gezinsvorming.richtlijn 2014/66" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCbF" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/125660ba-0a47-481a-bebd-2bc4ea811f93" />
+        <node concept="19SGf9" id="1spse2eiCbG" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCbH" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister kan het eerste lid buiten toepassing laten, voorzover toepassing daarvan naar zijn oordeel zal leiden tot een onbillijkheid van overwegende aard." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCbI">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf3Artikel3.72" />
+    <property role="1N0jUS" value="372" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCbJ" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCbK" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/38d2d7ec-046b-4f68-b3b0-ffb9f441a128" />
+        <node concept="19SGf9" id="1spse2eiCbL" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCbM" role="19SJt6">
+            <property role="19SUeA" value="Een aanvraag tot het verlenen van de verblijfsvergunning regulier voor bepaalde tijd wordt niet op grond van  afgewezen, indien de vreemdeling naar het oordeel van Onze Minister heeft aangetoond dat hij vanwege de regering van het land waarvan hij onderdaan is, niet of niet meer in het bezit van een geldig document voor grensoverschrijding kan worden gesteld.artikel 16, eerste lid, onder b, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCbN">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf3Artikel3.73" />
+    <property role="1N0jUS" value="373" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCbO" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCbP" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/75fa3e93-305c-48b9-88b3-5b4188e4c758" />
+        <node concept="19SGf9" id="1spse2eiCbQ" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCbR" role="19SJt6">
+            <property role="19SUeA" value="De in  bedoelde middelen van bestaan zijn in ieder geval zelfstandig, indien verworven uit:artikel 16, eerste lid, onder c, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCbS" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/2417a292-610f-4718-8b3f-fe6c7e331f2f" />
+        <node concept="19SGf9" id="1spse2eiCbT" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCbU" role="19SJt6">
+            <property role="19SUeA" value="wettelijk toegestane arbeid in loondienst, voorzover de vereiste premies en belastingen zijn afgedragen;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCbV" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/13ee246a-f730-42a7-b3f4-7d9f1fc099f7" />
+        <node concept="19SGf9" id="1spse2eiCbW" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCbX" role="19SJt6">
+            <property role="19SUeA" value="wettelijk toegestane arbeid als zelfstandige, voorzover de vereiste premies en belastingen zijn afgedragen;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCbY" role="3MKX6F">
+        <property role="3MLT8O" value="c" />
+        <property role="1hTQn4" value="https://calculemus.org/efbc8ab3-a5a2-4c48-8b32-2787550c01f9" />
+        <node concept="19SGf9" id="1spse2eiCbZ" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCc0" role="19SJt6">
+            <property role="19SUeA" value="inkomensvervangende uitkeringen krachtens een sociale verzekeringswet waarvoor premies zijn afgedragen;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCc1" role="3MKX6F">
+        <property role="3MLT8O" value="d" />
+        <property role="1hTQn4" value="https://calculemus.org/bb3ed784-d9be-467f-a545-bd8543ef0def" />
+        <node concept="19SGf9" id="1spse2eiCc2" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCc3" role="19SJt6">
+            <property role="19SUeA" value="eigen vermogen, voorzover de bron van de inkomsten niet wordt aangetast en de vereiste belastingen zijn afgedragen, of" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCc4" role="3MKX6F">
+        <property role="3MLT8O" value="e" />
+        <property role="1hTQn4" value="https://calculemus.org/4243fb56-42dc-4495-b99d-5366c9710d46" />
+        <node concept="19SGf9" id="1spse2eiCc5" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCc6" role="19SJt6">
+            <property role="19SUeA" value="in geval van verblijf voor onderzoek in de zin van richtlijn (EU) 2016/801, studie, lerend werken of uitwisseling in het kader van Europees vrijwilligerswerk: financile ondersteuning van de referent, een subsidie, een beurs of een toelage." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCc7" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/78e04d60-c868-4710-8d35-f610262eb5ff" />
+        <node concept="19SGf9" id="1spse2eiCc8" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCc9" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen regels worden gesteld omtrent het eerste lid." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCca">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf3Artikel3.74" />
+    <property role="1N0jUS" value="374" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCcb" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCcc" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/69b4d300-0c0d-4e6b-933d-d5f79f22a1bb" />
+        <node concept="19SGf9" id="1spse2eiCcd" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCce" role="19SJt6">
+            <property role="19SUeA" value="De in  bedoelde middelen van bestaan zijn in ieder geval voldoende, indien de som van het loon, bedoeld in , uit arbeid in loondienst, het bruto inkomen uit een inkomensvervangende uitkering krachtens een socialeverzekeringswet waarvoor premies zijn afgedragen, de bruto-winst uit arbeid als zelfstandige en het inkomen uit eigen vermogen ten minste gelijk is aan:artikel 16, eerste lid, onder c, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCcf" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/5f59649e-a8c2-488f-9eb6-23e455a0e336" />
+        <node concept="19SGf9" id="1spse2eiCcg" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCch" role="19SJt6">
+            <property role="19SUeA" value="het minimumloon, bedoeld in de , en , met inbegrip van de vakantiebijslag, bedoeld in ;artikelen 8, eerste lid, onder a" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCci" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/b277fd5f-e317-4e6b-b8c0-00d1f60b49c5" />
+        <node concept="19SGf9" id="1spse2eiCcj" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCck" role="19SJt6">
+            <property role="19SUeA" value="in bij ministerile regeling aangewezen gevallen: 150 procent van het minimumloon, bedoeld in onderdeel a." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCcl" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/cf60f104-8004-443d-bbe9-0ec24d8e7542" />
+        <node concept="19SGf9" id="1spse2eiCcm" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCcn" role="19SJt6">
+            <property role="19SUeA" value="De in  bedoelde middelen van bestaan zijn eveneens voldoende, indien het netto-inkomen ten minste gelijk is aan het normbedrag voor ho-studenten, bedoeld in de , indien de vreemdeling in Nederland verblijft of wil verblijven voor studie.artikel 16, eerste lid, onder c, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCco" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/3f437f82-dea6-478f-bdc1-d53ae3d75f14" />
+        <node concept="19SGf9" id="1spse2eiCcp" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCcq" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen nadere regels worden gesteld over de voorgaande leden. Daarbij kunnen gevallen worden vastgesteld waarin de in  bedoelde middelen van bestaan voldoende zijn, indien het inkomen ten minste gelijk is aan een combinatie van de in het eerste en tweede lid genoemde normbedragen.artikel 16, eerste lid, onder c, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCcr" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/4c1cd1c6-ac96-453d-b676-f62057fe00bc" />
+        <node concept="19SGf9" id="1spse2eiCcs" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCct" role="19SJt6">
+            <property role="19SUeA" value="De normbedragen, bedoeld in de voorgaande leden, worden door Onze Minister bekendgemaakt." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCcu">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf3Artikel3.75" />
+    <property role="1N0jUS" value="375" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCcv" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCcw" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/9a235a56-f343-46e9-bf06-3e6d2e2715fe" />
+        <node concept="19SGf9" id="1spse2eiCcx" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCcy" role="19SJt6">
+            <property role="19SUeA" value="De in  bedoelde middelen van bestaan zijn in ieder geval duurzaam, indien zij nog n jaar beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven.artikel 16, eerste lid, onder c, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCcz" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/7d57fbd3-31f3-4c54-bc6c-b2e9c6b819df" />
+        <node concept="19SGf9" id="1spse2eiCc$" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCc_" role="19SJt6">
+            <property role="19SUeA" value="Middelen van bestaan verkregen uit eigen vermogen zijn duurzaam, indien zij gedurende een aaneengesloten periode van een jaar beschikbaar zijn geweest en nog beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCcA" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/20760464-bb19-440d-89f5-b0cc84e0e9a7" />
+        <node concept="19SGf9" id="1spse2eiCcB" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCcC" role="19SJt6">
+            <property role="19SUeA" value="In afwijking van het eerste lid, zijn middelen van bestaan verkregen uit arbeid in loondienst eveneens duurzaam, indien op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven gedurende een aaneengesloten periode van drie jaren jaarlijks voldoende middelen van bestaan uit arbeid in loondienst zijn verworven en de middelen van bestaan nog beschikbaar zijn. Indien tijdens de periode van drie jaren gedurende een periode van in totaal niet langer dan zesentwintig weken een werkloosheidsuitkering is ontvangen, wordt die uitkering gelijkgesteld met inkomen uit arbeid in loondienst." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCcD" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/2abe85b7-a77e-44b6-9e07-a21aa68d48f6" />
+        <node concept="19SGf9" id="1spse2eiCcE" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCcF" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen nadere regels worden gesteld ten aanzien van de duurzaamheid van middelen van bestaan." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCcG">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf3Artikel3.76" />
+    <property role="1N0jUS" value="376" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCcH" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCcI" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/1b53bfc9-08fe-4892-9724-09276010935c" />
+        <node concept="19SGf9" id="1spse2eiCcJ" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCcK" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCcL">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf3Artikel3.77" />
+    <property role="1N0jUS" value="377" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCcM" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCcN" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/eed1c870-d9d5-42dc-8b7f-9a8432dd2bed" />
+        <node concept="19SGf9" id="1spse2eiCcO" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCcP" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag tot het verlenen van een verblijfsvergunning regulier voor bepaalde tijd kan op grond van  worden afgewezen wegens gevaar voor de openbare orde, indien:artikel 16, eerste lid, onder d, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCcQ" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/4f1aabc5-1db2-49b4-9995-77c6d0831d81" />
+        <node concept="19SGf9" id="1spse2eiCcR" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCcS" role="19SJt6">
+            <property role="19SUeA" value="er ernstige redenen zijn om te veronderstellen dat de vreemdeling zich schuldig heeft gemaakt aan gedragingen als bedoeld in artikel 1F van het Vluchtelingenverdrag;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCcT" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/f91deae8-0acc-4087-9b75-da686d338d7f" />
+        <node concept="19SGf9" id="1spse2eiCcU" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCcV" role="19SJt6">
+            <property role="19SUeA" value="de vreemdeling de echtgenoot of echtgenote, het minderjarige kind, de partner of het meerderjarige kind, bedoeld in , is van een in Nederland verblijvende vreemdeling ten aanzien van wie er ernstige redenen zijn om te veronderstellen dat deze zich schuldig heeft gemaakt aan gedragingen als bedoeld in artikel 1F van het Vluchtelingenverdrag, ofartikel 29, tweede lid, onder a en b, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCcW" role="3MKX6F">
+        <property role="3MLT8O" value="c" />
+        <property role="1hTQn4" value="https://calculemus.org/6897c9d7-004c-473c-b281-457b948f6da1" />
+        <node concept="19SGf9" id="1spse2eiCcX" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCcY" role="19SJt6">
+            <property role="19SUeA" value="de vreemdeling terzake van een misdrijf is veroordeeld tot een onvoorwaardelijke gevangenisstraf of onvoorwaardelijke jeugddetentie, tot een onvoorwaardelijke maatregel als bedoeld in ,  of , tot een taakstraf of tot een onvoorwaardelijke geldboete, dan wel indien hij terzake van misdrijf een transactieaanbod heeft aanvaard of jegens hem een strafbeschikking is uitgevaardigd.artikel37a" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCcZ" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/48eae6cf-78e8-4395-9ad5-6c464af3b351" />
+        <node concept="19SGf9" id="1spse2eiCd0" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCd1" role="19SJt6">
+            <property role="19SUeA" value="Bij de toepassing van het eerste lid, onder c, wordt mede betrokken de buiten Nederland gepleegde inbreuk op de openbare orde, voorzover die naar Nederlands recht een misdrijf oplevert." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCd2" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/246790b6-e6e6-48ee-a568-0d343e2a3a17" />
+        <node concept="19SGf9" id="1spse2eiCd3" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCd4" role="19SJt6">
+            <property role="19SUeA" value="Bij de toepassing van het eerste en tweede lid komt aan gratieverlening geen betekenis toe." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCd5" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/4e24ff4e-12d1-414c-9cbf-114a1ed32726" />
+        <node concept="19SGf9" id="1spse2eiCd6" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCd7" role="19SJt6">
+            <property role="19SUeA" value="In geval de aanvraag verband houdt met verblijf als familie- of gezinslid houdt Onze Minister bij de toepassing van het eerste lid, onder c, ten minste rekening met de aard en de hechtheid van de gezinsband van de vreemdeling en de duur van zijn verblijf, alsmede het bestaan van familiebanden of culturele of sociale banden met het land van herkomst." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCd8" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/42679b0d-f50b-4beb-a4ae-8dd543d659d9" />
+        <node concept="19SGf9" id="1spse2eiCd9" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCda" role="19SJt6">
+            <property role="19SUeA" value="In geval de aanvraag is ingediend door een vreemdeling die houder is van een EU-verblijfsvergunning voor langdurig ingezetenen die is afgegeven door een andere staat die partij is bij het Verdrag betreffende de werking van de Europese Unie, houdt Onze Minister bij de toepassing van het eerste lid, onder c, mede rekening met de ernst van de inbreuk of het soort van inbreuk dat door de langdurig ingezetene of diens gezinslid op de openbare orde is gepleegd, respectievelijk met het gevaar dat van de langdurig ingezetene of dat gezinslid uitgaat." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCdb" role="3MKX6F">
+        <property role="3MLT8O" value="6" />
+        <property role="1hTQn4" value="https://calculemus.org/29bbc970-fe86-41ca-9b8b-f7e3d40393e6" />
+        <node concept="19SGf9" id="1spse2eiCdc" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCdd" role="19SJt6">
+            <property role="19SUeA" value="Bij de toepassing van het vijfde lid houdt Onze Minister tevens rekening met de leeftijd van de vreemdeling, de gevolgen voor de vreemdeling en de leden van zijn gezin, het bestaan van banden met Nederland dan wel het ontbreken van banden met het land van herkomst." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCde" role="3MKX6F">
+        <property role="3MLT8O" value="7" />
+        <property role="1hTQn4" value="https://calculemus.org/4db827b2-d63f-4718-a6ad-1768fb8bb999" />
+        <node concept="19SGf9" id="1spse2eiCdf" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCdg" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag, bedoeld in het eerste lid, kan worden afgewezen op de in  genoemde grond, tenzij de vreemdeling sinds de laatste uitzetting of het laatste gecontroleerde vertrek een ononderbroken periode van ten minste vijf jaren buiten Nederland heeft verbleven.artikel 16, eerste lid, onder i, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCdh" role="3MKX6F">
+        <property role="3MLT8O" value="8" />
+        <property role="1hTQn4" value="https://calculemus.org/0df09461-1fcd-45ef-a9c6-816c5f5026a7" />
+        <node concept="19SGf9" id="1spse2eiCdi" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCdj" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag, bedoeld in het eerste lid, kan worden afgewezen op de in  genoemde grond, tenzij de vreemdeling sinds de laatste uitzetting of het laatste gecontroleerde vertrek een ononderbroken periode van ten minste vijf jaren buiten Nederland heeft verbleven.artikel 16, eerste lid, onder j, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCdk" role="3MKX6F">
+        <property role="3MLT8O" value="9" />
+        <property role="1hTQn4" value="https://calculemus.org/c0093df0-68af-4645-9a4f-a2feee342b0d" />
+        <node concept="19SGf9" id="1spse2eiCdl" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCdm" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag, bedoeld in het eerste lid, kan eveneens worden afgewezen op grond van , tenzij het daar bedoelde verblijf uitsluitend tijdens de minderjarigheid van de vreemdeling heeft plaatsgevonden of het betreft de vreemdeling:artikel 16, eerste lid, onder j, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCdn">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling4Paragraaf3Artikel3.103aa" />
+    <property role="1N0jUS" value="377" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCdo" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCdp" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/6e18b784-090a-470b-accc-9b68c8df352a" />
+        <node concept="19SGf9" id="1spse2eiCdq" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCdr" role="19SJt6">
+            <property role="19SUeA" value="Indien Onze Minister besluit tot intrekking van een verblijfsvergunning regulier voor bepaalde tijd of afwijzing van een aanvraag om verlenging van de geldigheidsduur daarvan van een houder van een EU-verblijfsvergunning voor langdurig ingezetenen, afgegeven door een andere lidstaat van de Europese Unie, met de aantekening dat die staat de vreemdeling internationale bescherming heeft verleend, verzoekt Onze Minister die staat te bevestigen of de vreemdeling aldaar nog steeds internationale bescherming geniet. In het bevestigend geval zet Onze Minister de vreemdeling uit naar die staat, onverminderd het toepasselijke Unierecht en het beginsel van de eenheid van het gezin." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCds" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/0daefac3-fd9d-4879-839c-9303e8f62d97" />
+        <node concept="19SGf9" id="1spse2eiCdt" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCdu" role="19SJt6">
+            <property role="19SUeA" value="In afwijking van het eerste lid en onverminderd de voor Nederland geldende internationale verplichtingen, kan Onze Minister de langdurig ingezetene uitzetten naar een andere staat dan de lidstaat die de internationale bescherming heeft verleend, indien is voldaan aan .artikel 3.105c, tweede lid, onder a of b" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCdv" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/d292101d-e8eb-422d-a474-2a788bc45ffc" />
+        <node concept="19SGf9" id="1spse2eiCdw" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCdx" role="19SJt6">
+            <property role="19SUeA" value="Indien de verblijfsvergunning regulier voor bepaalde tijd van een vreemdeling die houder is van een door een andere lidstaat van de Europese Unie afgegeven EU-verblijfsvergunning voor langdurig ingezetenen die de aantekening bevat dat die staat verantwoordelijk is voor de internationale bescherming van de vreemdeling, is ingetrokken of de aanvraag tot verlenging van de geldigheidsduur ervan is afgewezen, op grond dat de vreemdeling een bedreiging voor de openbare orde of de openbare veiligheid vormt, kan de vreemdeling, onverminderd de terugnameverplichting van de andere lidstaat en onverminderd de voor Nederland geldende internationale verplichtingen slechts van het grondgebied van de Europese Unie worden verwijderd, indien:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCdy" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/d98d5dcf-2784-4494-a050-9211c3155aa2" />
+        <node concept="19SGf9" id="1spse2eiCdz" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCd$" role="19SJt6">
+            <property role="19SUeA" value="de internationale bescherming inmiddels is ingetrokken, of" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCd_" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/4835b38a-e386-455d-8595-3d59e3beab8c" />
+        <node concept="19SGf9" id="1spse2eiCdA" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCdB" role="19SJt6">
+            <property role="19SUeA" value="is voldaan aan .artikel 3.105c, tweede lid, onder a of b" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCdC" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/81c703a5-2a27-4b75-a9f6-4790fca260fe" />
+        <node concept="19SGf9" id="1spse2eiCdD" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCdE" role="19SJt6">
+            <property role="19SUeA" value="Indien Onze Minister besluit tot intrekking van een verblijfsvergunning regulier voor bepaalde tijd onder de beperking overplaatsing binnen een onderneming en de vreemdeling in een tweede lidstaat verblijfsrecht geniet in het kader van mobiliteit in de zin van artikel21 of 22 van /EU, doet Onze Minister van die intrekking onmiddellijk mededeling bij de bevoegde instanties van de lidstaat van het tweede verblijf.richtlijn 2014/66" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCdF" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/2b468d6e-9186-4f35-9d8d-ff6527a28577" />
+        <node concept="19SGf9" id="1spse2eiCdG" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCdH" role="19SJt6">
+            <property role="19SUeA" value="Indien Onze Minister besluit tot intrekking van een verblijfsvergunning regulier voor bepaalde tijd onder de beperking onderzoek in de zin van richtlijn (EU) 2016/801 of studie, doet Onze Minister in voorkomende gevallen van die intrekking onmiddellijk mededeling bij de bevoegde instanties van de lidstaat waar de vreemdeling verblijfsrecht geniet in het kader van mobiliteit in de zin van richtlijn (EU) 2016/801." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCdI">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf4Artikel3.80" />
+    <property role="1N0jUS" value="380" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCdJ" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCdK" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/c1423715-5bcb-4aad-b690-a8de5d0c2790" />
+        <node concept="19SGf9" id="1spse2eiCdL" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCdM" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag tot het wijzigen of het verlengen van de geldigheidsduur van de verblijfsvergunning regulier voor bepaalde tijd is tijdig ingediend, indien deze is ontvangen uiterlijk op de dag voor de dag waarop de geldigheidsduur verstrijkt, dan wel, indien deze later is ontvangen, indien de termijnoverschrijding de vreemdeling niet kan worden toegerekend." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCdN" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/86dc8ce1-865e-4f42-b361-89b6ed36ddd1" />
+        <node concept="19SGf9" id="1spse2eiCdO" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCdP" role="19SJt6">
+            <property role="19SUeA" value="De niet-tijdig ingediende aanvraag tot het wijzigen of tot het verlengen van de geldigheidsduur van de verblijfsvergunning regulier voor bepaalde tijd wordt gelijkgesteld met een aanvraag tot het verlenen van de verblijfsvergunning." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCdQ">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf4Artikel3.81" />
+    <property role="1N0jUS" value="381" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCdR" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCdS" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/cdb38e12-6198-43c3-9c75-a156781c1821" />
+        <node concept="19SGf9" id="1spse2eiCdT" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCdU" role="19SJt6">
+            <property role="19SUeA" value="Onverminderd , wordt een aanvraag tot het wijzigen van de verblijfsvergunning regulier voor bepaalde tijd beoordeeld als een aanvraag tot het verlenen van een verblijfsvergunning, met dien verstande dat de , ,  en  niet van toepassing zijn en de  en  van overeenkomstige toepassing zijn, indien de aanvraag tijdig is ingediend.artikel 3.80a" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCdV">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf4Artikel3.82" />
+    <property role="1N0jUS" value="382" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCdW" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCdX" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/63bc142f-ee03-4f54-bceb-a5f579604d73" />
+        <node concept="19SGf9" id="1spse2eiCdY" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCdZ" role="19SJt6">
+            <property role="19SUeA" value="Indien de niet-tijdig ingediende aanvraag tot het wijzigen of het verlengen van de geldigheidsduur van de verblijfsvergunning regulier voor bepaalde tijd naar het oordeel van Onze Minister is ontvangen binnen een redelijke termijn nadat het rechtmatig verblijf, bedoeld in , of als Nederlander, is geindigd, zijn de , ,  en  niet van toepassing en zijn de  en  van overeenkomstige toepassing.artikelen 3.71artikel 8, onder a tot en met e, dan wel l, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCe0" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/c1b7c8eb-af33-4018-9905-b82ab0b75f66" />
+        <node concept="19SGf9" id="1spse2eiCe1" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCe2" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid is niet van toepassing, indien de vreemdeling:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCe3" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/d2b9bed4-9bc2-4df3-bcda-2915f2885c5a" />
+        <node concept="19SGf9" id="1spse2eiCe4" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCe5" role="19SJt6">
+            <property role="19SUeA" value="zijn hoofdverblijf buiten Nederland heeft gevestigd;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCe6" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/ea3d645c-cb1c-4184-8f38-c093af02847c" />
+        <node concept="19SGf9" id="1spse2eiCe7" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCe8" role="19SJt6">
+            <property role="19SUeA" value="onjuiste gegevens heeft verstrekt dan wel gegevens heeft achtergehouden, terwijl die gegevens tot afwijzing van de oorspronkelijke aanvraag tot het verlenen of verlengen zouden hebben geleid, of" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCe9" role="3MKX6F">
+        <property role="3MLT8O" value="c" />
+        <property role="1hTQn4" value="https://calculemus.org/1841b222-fd15-4150-bc4b-9cc8a80704ab" />
+        <node concept="19SGf9" id="1spse2eiCea" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCeb" role="19SJt6">
+            <property role="19SUeA" value="in Nederland wil verblijven voor het verrichten van seizoenarbeid of lerend werken." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCec">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf4Artikel3.83" />
+    <property role="1N0jUS" value="383" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCed" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCee" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/594f926a-9cab-478d-8571-1111747ffd54" />
+        <node concept="19SGf9" id="1spse2eiCef" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCeg" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag tot het verlengen van de geldigheidsduur van een verblijfsvergunning regulier voor bepaalde tijd wordt niet op grond van  afgewezen, indien de vreemdeling naar het oordeel van Onze Minister heeft aangetoond dat hij vanwege de regering van het land waarvan hij onderdaan is, niet of niet meer in het bezit van een geldig document voor grensoverschrijding kan worden gesteld.artikel 18, eerste lid, onder b, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCeh">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf4Artikel3.84" />
+    <property role="1N0jUS" value="384" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCei" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCej" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/4e45d995-cd8f-43df-b5d2-8260dc1bfb2b" />
+        <node concept="19SGf9" id="1spse2eiCek" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCel" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag tot het verlengen van de geldigheidsduur van een verblijfsvergunning regulier voor bepaalde tijd wordt niet op grond van  afgewezen om reden dat de vreemdeling onjuiste gegevens heeft verstrekt dan wel gegevens heeft achtergehouden die tot afwijzing van de oorspronkelijke aanvraag tot het verlenen of verlengen zouden hebben geleid, indien er sedert de verlening, verlenging of wijziging van de verblijfsvergunning een periode van twaalf jaren is verstreken.artikel 18, eerste lid, onder c, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCem" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/d45ac689-f55f-4249-9c63-11991a56e89d" />
+        <node concept="19SGf9" id="1spse2eiCen" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCeo" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid is niet van toepassing, indien de houder van de Europese blauwe kaart die kaart heeft vervalst, veranderd of op frauduleuze wijze heeft verkregen." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCep">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf4Artikel3.85" />
+    <property role="1N0jUS" value="385" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCeq" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCer" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/86564198-7738-445c-adde-20ed37167931" />
+        <node concept="19SGf9" id="1spse2eiCes" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCet" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag tot het verlengen van de geldigheidsduur van de verblijfsvergunning regulier voor bepaalde tijd wordt niet op grond van  afgewezen, indien de vreemdeling en degene bij wie hij als gezinslid verblijft gezamenlijk zelfstandig en duurzaam beschikken over voldoende middelen van bestaan als bedoeld in .artikel 3.74, eerste lid, onder aartikel 18, eerste lid, onder d, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCeu" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/01ab24e3-5c53-4d10-b166-f8e271ad2d96" />
+        <node concept="19SGf9" id="1spse2eiCev" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCew" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag wordt evenmin op grond van  afgewezen, indien de persoon bij wie de vreemdeling als gezinslid verblijft de pensioengerechtigde leeftijd, bedoeld in , heeft bereikt of naar het oordeel van Onze Minister blijvend en volledig arbeidsongeschikt is.artikel 18, eerste lid, onder d, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCex">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling4Paragraaf3Artikel3.103b" />
+    <property role="1N0jUS" value="385" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCey" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCez" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/04d3e0e0-4ac7-4146-afbb-834f9be32c69" />
+        <node concept="19SGf9" id="1spse2eiCe$" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCe_" role="19SJt6">
+            <property role="19SUeA" value="Indien Onze Minister een inreisverbod uitvaardigt, registreert Onze Minister dit inreisverbod in het Schengen Informatiesysteem." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCeA" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/57338b09-6fd6-47f4-bb20-4d342e4cdac7" />
+        <node concept="19SGf9" id="1spse2eiCeB" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCeC" role="19SJt6">
+            <property role="19SUeA" value="Indien Onze Minister overweegt een vreemdeling die houder is van een verblijfstitel of andere toestemming tot verblijf, afgegeven door een andere staat als bedoeld in , uit te zetten naar de staat waarvan de vreemdeling de nationaliteit bezit of bij het ontbreken van een nationaliteit naar de staat van zijn vroegere verblijfplaats, wint Onze Minister de nodige informatie in bij de autoriteiten van die andere staat. Indien Onze Minister besluit de vreemdeling uit te zetten, verstrekt hij de autoriteiten van die andere staat alle nodige informatie met betrekking tot de uitzetting.artikel 1.3" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCeD" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/85a15d58-3961-4a31-bc98-4836737859e4" />
+        <node concept="19SGf9" id="1spse2eiCeE" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCeF" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister vormt het contactpunt ter uitvoering van de Richtlijn 2008/115/EG van het Europees Parlement en de Raad van 16december 2008 over gemeenschappelijke normen en procedures in de lidstaten voor de terugkeer van onderdanen van derde landen die illegaal op hun grondgebied verblijven (PbEU, L348) en is verantwoordelijk voor het inwinnen en verstrekken van de informatie, bedoeld in het tweede lid." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCeG">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf4Artikel3.86" />
+    <property role="1N0jUS" value="386" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCeH" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCeI" role="3MKX6F">
+        <property role="3MLT8O" value="11" />
+        <property role="1hTQn4" value="https://calculemus.org/b9527b10-9964-4882-8715-142d2967c2ef" />
+        <node concept="19SGf9" id="1spse2eiCeJ" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCeK" role="19SJt6">
+            <property role="19SUeA" value="In afwijking van de voorgaande leden kan de aanvraag eveneens op grond van  worden afgewezen, indien:artikel 18, eerste lid, onder e, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCeL" role="3MKX6F">
+        <property role="3MLT8O" value="12" />
+        <property role="1hTQn4" value="https://calculemus.org/16f4e485-510f-4258-b055-f143841d9e71" />
+        <node concept="19SGf9" id="1spse2eiCeM" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCeN" role="19SJt6">
+            <property role="19SUeA" value="In geval de verblijfsvergunning is verleend onder een beperking verband houdende met verblijf als familie- of gezinslid houdt Onze Minister bij de toepassing van de voorgaande leden in ieder geval terdege rekening met de aard en de hechtheid van de gezinsband van de vreemdeling, alsmede het bestaan van familiebanden of culturele of sociale banden met het land van herkomst." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCeO" role="3MKX6F">
+        <property role="3MLT8O" value="13" />
+        <property role="1hTQn4" value="https://calculemus.org/2b4d19c2-56b0-4692-b18f-52972b1e9941" />
+        <node concept="19SGf9" id="1spse2eiCeP" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCeQ" role="19SJt6">
+            <property role="19SUeA" value="In geval de aanvraag is ingediend door een vreemdeling die houder is van een EU-verblijfsvergunning voor langdurig ingezetenen, houdt Onze Minister bij de toepassing van de voorgaande leden mede rekening met de ernst van de inbreuk of het soort van inbreuk dat door de langdurig ingezetene of diens gezinslid op de openbare orde of nationale veiligheid is gepleegd, respectievelijk met het gevaar dat van de langdurig ingezetene of dat gezinslid uitgaat." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCeR" role="3MKX6F">
+        <property role="3MLT8O" value="14" />
+        <property role="1hTQn4" value="https://calculemus.org/7ef83c42-eaa1-4728-b39a-f3a645195289" />
+        <node concept="19SGf9" id="1spse2eiCeS" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCeT" role="19SJt6">
+            <property role="19SUeA" value="Bij toepassing van het dertiende lid houdt Onze Minister rekening met de leeftijd van de vreemdeling, de gevolgen van verblijfsbeindiging voor de vreemdeling en zijn gezinsleden en met de banden met Nederland en het land van herkomst." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCeU" role="3MKX6F">
+        <property role="3MLT8O" value="15" />
+        <property role="1hTQn4" value="https://calculemus.org/4103745f-c44a-4720-bb61-d98a1b6ff0ef" />
+        <node concept="19SGf9" id="1spse2eiCeV" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCeW" role="19SJt6">
+            <property role="19SUeA" value="In afwijking van de voorgaande leden wordt de aanvraag niet afgewezen, indien de vreemdeling verblijfsrecht ontleent aan Besluit 1/80 van de Associatieraad EEG-Turkije betreffende de ontwikkeling van de Associatie, tenzij diens persoonlijke gedrag een actuele, werkelijke en ernstige bedreiging voor een fundamenteel belang van de samenleving vormt." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCeX" role="3MKX6F">
+        <property role="3MLT8O" value="16" />
+        <property role="1hTQn4" value="https://calculemus.org/5ebf9891-b60e-4802-b811-d20b1c1652e1" />
+        <node concept="19SGf9" id="1spse2eiCeY" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCeZ" role="19SJt6">
+            <property role="19SUeA" value="Onverminderd het vijftiende lid, wordt de aanvraag niet afgewezen, indien uitzetting van de vreemdeling in strijd zou zijn met de op 12september 1963 te Ankara gesloten Overeenkomst waarbij een associatie tot stand wordt gebracht tussen de Europese Economische Gemeenschap en Turkije (Trb.1964, 217), het op 23november 1970 te Brussel tot stand gekomen Aanvullend Protocol bij die overeenkomst (Trb.1971, 70) of Besluit 1/80 van de Associatieraad EEG-Turkije betreffende de ontwikkeling van de Associatie." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCf0" role="3MKX6F">
+        <property role="3MLT8O" value="17" />
+        <property role="1hTQn4" value="https://calculemus.org/5ccc683a-f54c-4cbc-a4bf-9d51407c8895" />
+        <node concept="19SGf9" id="1spse2eiCf1" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCf2" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag wordt niet afgewezen, indien uitzetting van de vreemdeling in strijd zou zijn met artikel 8 van het Verdrag tot bescherming van de rechten van de mens en de fundamentele vrijheden." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCf3" role="3MKX6F">
+        <property role="3MLT8O" value="18" />
+        <property role="1hTQn4" value="https://calculemus.org/ece9db44-08b4-449a-923d-f0c2e73f9397" />
+        <node concept="19SGf9" id="1spse2eiCf4" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCf5" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling van twaalf jaar of ouder ondertekent een antecedentenverklaring, waarvan het model bij ministerile regeling is vastgesteld." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCf6" role="3MKX6F">
+        <property role="3MLT8O" value="19" />
+        <property role="1hTQn4" value="https://calculemus.org/7856f5ce-0440-4e99-ad4e-c6f42dbb289c" />
+        <node concept="19SGf9" id="1spse2eiCf7" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCf8" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen nadere regels worden gesteld omtrent de toepassing van het twaalfde tot en met het zestiende lid." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCf9">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf4Artikel3.87" />
+    <property role="1N0jUS" value="387" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCfa" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCfb" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/ff65e224-a5e4-4fe8-bda3-e793957a14b8" />
+        <node concept="19SGf9" id="1spse2eiCfc" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCfd" role="19SJt6">
+            <property role="19SUeA" value="Buiten de gevallen, bedoeld in , kan de aanvraag tot het verlengen van een verblijfsvergunning regulier voor bepaalde tijd slechts op grond van  worden afgewezen wegens gevaar voor de openbare orde, indien zwaarwegende belangen naar het oordeel van Onze Minister daartoe nopen.artikel 3.86artikel 18, eerste lid, onder e, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCfe">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf4Artikel3.88" />
+    <property role="1N0jUS" value="388" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCff" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCfg" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/5e8731d5-200f-4efa-8b6c-0d04f31ca5c9" />
+        <node concept="19SGf9" id="1spse2eiCfh" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCfi" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCfj">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf4Artikel3.89" />
+    <property role="1N0jUS" value="389" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCfk" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCfl" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/96a431dd-7c85-4d52-9d3e-52068ddd8c7a" />
+        <node concept="19SGf9" id="1spse2eiCfm" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCfn" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag tot het verlengen van de geldigheidsduur van een verblijfsvergunning regulier voor bepaalde tijd die is verleend onder een beperking verband houdend met het verrichten van arbeid in loondienst, wordt niet op grond van  afgewezen op de grond dat de vreemdeling voor een periode van korter dan n jaar beschikt over arbeid in loondienst waarmee voldoende zelfstandige middelen van bestaan worden verworven. In dat geval wordt de geldigheidsduur verlengd met een periode gelijk aan de periode waarin de vreemdeling beschikt over de arbeid.artikel 18, eerste lid, onder f, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCfo" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/d56e9e84-3ed0-42dd-87a8-dd48e6afa2dd" />
+        <node concept="19SGf9" id="1spse2eiCfp" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCfq" role="19SJt6">
+            <property role="19SUeA" value="De in het eerste lid bedoelde aanvraag wordt evenmin afgewezen op de grond dat niet wordt voldaan aan de beperking of de vreemdeling niet meer zelfstandig en duurzaam beschikt over voldoende middelen van bestaan, indien de vreemdeling:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCfr" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/5f58d475-60f7-409d-b8b0-6886f0e28726" />
+        <node concept="19SGf9" id="1spse2eiCfs" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCft" role="19SJt6">
+            <property role="19SUeA" value="volledig arbeidsongeschikt is en een arbeidsongeschiktheidsuitkering ontvangt, of" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCfu" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/de5620a8-8d5b-459b-b862-f0f7f61073b6" />
+        <node concept="19SGf9" id="1spse2eiCfv" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCfw" role="19SJt6">
+            <property role="19SUeA" value="arbeid verricht ingevolge de Wet Sociale Werkvoorziening en aanspraak heeft op een arbeidsongeschiktheidsuitkering." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCfx">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf5Artikel3.90" />
+    <property role="1N0jUS" value="390" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCfy" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCfz" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/f5955b32-614c-4771-a5fb-af0ecfbc3828" />
+        <node concept="19SGf9" id="1spse2eiCf$" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCf_" role="19SJt6">
+            <property role="19SUeA" value="De verblijfsvergunning regulier voor bepaalde tijd die is verleend onder een beperking verband houdend met verblijf als familie- of gezinslid, wordt niet ingetrokken op de enkele grond dat de samenwoning tijdelijk is verbroken, indien de vreemdeling de persoon bij wie verblijf is toegestaan wegens gewelddaden heeft verlaten." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCfA" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/20737748-19db-4f53-a636-a53acc6e7d5b" />
+        <node concept="19SGf9" id="1spse2eiCfB" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCfC" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid is niet van toepassing, indien er sedert de verbreking van de samenwoning een jaar is verstreken." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCfD">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling2Paragraaf5Artikel3.91" />
+    <property role="1N0jUS" value="391" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCfE" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCfF" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/3a06d338-936b-4790-b69e-05b16e9e8614" />
+        <node concept="19SGf9" id="1spse2eiCfG" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCfH" role="19SJt6">
+            <property role="19SUeA" value="De beschikking tot intrekking van de gecombineerde vergunning treedt in werking drie maanden nadat zij is bekendgemaakt, tenzij de gecombineerde vergunning is ingetrokken omdat de vreemdeling een gevaar vormt voor de openbare orde of nationale veiligheid. In dat laatste geval treedt de beschikking tot intrekking van de gecombineerde vergunning in werking met ingang van de dag nadat zij is bekendgemaakt." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCfI" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/f061fe87-5be5-4a4e-8eb7-dc5ed93196d1" />
+        <node concept="19SGf9" id="1spse2eiCfJ" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCfK" role="19SJt6">
+            <property role="19SUeA" value="Gelijktijdig met de beschikking tot intrekking bedoeld in het eerste lid, eerste zin, vervangt Onze Minister het oude aanvullend document door een nieuw aanvullend document waarin wordt vermeld dat drie maanden kan worden gezocht naar arbeid in loondienst." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCfL">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling3Paragraaf1Artikel3.92" />
+    <property role="1N0jUS" value="392" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCfM" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCfN" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/a9e65749-2e5d-4dcf-894d-1d474a67a595" />
+        <node concept="19SGf9" id="1spse2eiCfO" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCfP" role="19SJt6">
+            <property role="19SUeA" value="De verblijfsvergunning regulier voor onbepaalde tijd kan worden verleend aan de meerderjarige vreemdeling die:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCfQ" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/91b8d060-966a-4f10-a196-4d29d7cc5312" />
+        <node concept="19SGf9" id="1spse2eiCfR" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCfS" role="19SJt6">
+            <property role="19SUeA" value="voor het negentiende levensjaar tien jaren rechtmatig verblijf als bedoeld in  heeft gehad en wiens aanvraag is ontvangen voor het negenentwintigste levensjaar, ofartikel 8, onder a tot en met e, dan wel l, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCfT" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/8da38c1f-df0d-40c8-b4f6-ae5aa4032471" />
+        <node concept="19SGf9" id="1spse2eiCfU" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCfV" role="19SJt6">
+            <property role="19SUeA" value="voor het negentiende levensjaar vijf jaren rechtmatig in Nederland heeft verbleven als bedoeld in , en voor wie Nederland naar het oordeel van Onze Minister het meest aangewezen land is.artikel 8, onder a tot en met e, dan wel l, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCfW" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/f3097c68-b0c6-4cd1-b240-9391713b5178" />
+        <node concept="19SGf9" id="1spse2eiCfX" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCfY" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag wordt niet afgewezen op grond van .artikel 21, eerste lid, onder a, e of f, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCfZ">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling3Paragraaf1Artikel3.93" />
+    <property role="1N0jUS" value="393" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCg0" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCg1" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/9552ec08-0525-4cd8-a667-0928e8b28b98" />
+        <node concept="19SGf9" id="1spse2eiCg2" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCg3" role="19SJt6">
+            <property role="19SUeA" value="De verblijfsvergunning regulier voor onbepaalde tijd kan worden verleend aan de meerderjarige vreemdeling die tien aaneengesloten jaren in Nederland heeft verbleven:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCg4" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/8385f4ef-d09a-482d-bc86-b5a250179f3f" />
+        <node concept="19SGf9" id="1spse2eiCg5" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCg6" role="19SJt6">
+            <property role="19SUeA" value="op grond van een bijzondere geprivilegieerde status, die anders dan door eigen toedoen is verloren;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCg7" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/8ffe88ea-46b1-4901-8072-399d4df7a12d" />
+        <node concept="19SGf9" id="1spse2eiCg8" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCg9" role="19SJt6">
+            <property role="19SUeA" value="op grond van een bijzondere geprivilegieerde status als:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5i" id="1spse2eiCga" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/ae3b554f-d282-4576-9012-b92dc432f96f" />
+        <node concept="19SGf9" id="1spse2eiCgb" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCgc" role="19SJt6">
+            <property role="19SUeA" value="geaccrediteerd lid van het administratief, technisch of bedienend personeel dan wel als particulier bediende, in dienst van een buitenlandse diplomatieke of consulaire post;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5i" id="1spse2eiCgd" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/ed371028-09d2-44cb-acb8-b266adc5bb18" />
+        <node concept="19SGf9" id="1spse2eiCge" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCgf" role="19SJt6">
+            <property role="19SUeA" value="geaccrediteerd lid van het hoogste kader, het hoofd inbegrepen, van een internationale organisatie;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5i" id="1spse2eiCgg" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/613cdd9e-93dd-4ddf-9e0c-e01e7b3ec453" />
+        <node concept="19SGf9" id="1spse2eiCgh" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCgi" role="19SJt6">
+            <property role="19SUeA" value="geaccrediteerd lid van het administratief, technisch of bedienend personeel van een internationale organisatie, of" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCgj" role="3MKX6F">
+        <property role="3MLT8O" value="c" />
+        <property role="1hTQn4" value="https://calculemus.org/f683c6bb-89a4-47ef-a969-5612660637d6" />
+        <node concept="19SGf9" id="1spse2eiCgk" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCgl" role="19SJt6">
+            <property role="19SUeA" value="als afhankelijk gezinslid van de vreemdeling, bedoeld onder a of b." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCgm" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/0ddac0e6-a51d-4ff0-8d94-83bd88901402" />
+        <node concept="19SGf9" id="1spse2eiCgn" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCgo" role="19SJt6">
+            <property role="19SUeA" value="In afwijking van , zijn de middelen van bestaan van de vreemdeling als bedoeld in het eerste lid duurzaam, indien zij nog gedurende ten minste n jaar beschikbaar zijn.artikel 3.94, tweede lid" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCgp" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/87e705ff-7b7a-4533-b6ea-4dfcb05deeff" />
+        <node concept="19SGf9" id="1spse2eiCgq" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCgr" role="19SJt6">
+            <property role="19SUeA" value="Bij de berekening van de in het eerste lid bedoelde periode van tien achtereenvolgende jaren van verblijf worden ten aanzien van de vreemdeling als bedoeld in het eerste lid, onderdeel b, onder 2 en 3, alsmede zijn afhankelijke gezinslid, bedoeld in onderdeel c, mede in aanmerking genomen perioden waarin die vreemdeling respectievelijk dat afhankelijke gezinslid rechtmatig verblijf als bedoeld in  heeft gehad.artikel 8, onder a tot en met e, of l, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCgs" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/1624b230-7b3a-40b6-abd0-a483cce0631c" />
+        <node concept="19SGf9" id="1spse2eiCgt" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCgu" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag wordt niet afgewezen op grond dat de vreemdeling niet gedurende vijf jaren ononderbroken en direct voorafgaande aan de aanvraag rechtmatig verblijf heeft gehad als bedoeld in , indien de internationale organisatie, bedoeld in het eerste lid, onderdeel b, onder 2 dan wel 3, is ingesteld voor bepaalde tijd, minder dan tien jaren, en de vreemdeling als lid van die organisatie dan wel als zijn afhankelijke gezinslid, bedoeld in het eerste lid, onderdeel c, gedurende vijf aaneengesloten jaren in Nederland heeft verbleven.artikel 21, eerste lid, aanhef, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCgv">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling3Paragraaf2Artikel3.94" />
+    <property role="1N0jUS" value="394" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCgw" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCgx" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/24049bf0-ae5e-4df9-9dbd-9cbc980a4091" />
+        <node concept="19SGf9" id="1spse2eiCgy" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCgz" role="19SJt6">
+            <property role="19SUeA" value="Voor de toepassing van  zijn de , , en  van overeenkomstige toepassing.artikelen 3.73artikel 21, eerste lid, onder a, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCg$" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/e89c2754-9a3e-437e-bd1c-f20be766ef83" />
+        <node concept="19SGf9" id="1spse2eiCg_" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCgA" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag tot het verlenen van een verblijfsvergunning regulier voor onbepaalde tijd wordt niet afgewezen op grond van , indien de aanvraag is ingediend door een vreemdeling die duurzaam beschikt over een uitkering op grond van de  op basis van arbeidsongeschiktheid van ten minste vijfenvijftig procent en op basis van een volledige werkweek, of een vergelijkbare arbeidsongeschiktheidsuitkering.artikel 21, eerste lid, onder a, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCgB">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling3Paragraaf2Artikel3.95" />
+    <property role="1N0jUS" value="395" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCgC" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCgD" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/e4a012b2-e007-49fe-bf1e-77b560f97a39" />
+        <node concept="19SGf9" id="1spse2eiCgE" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCgF" role="19SJt6">
+            <property role="19SUeA" value="Behoudens overeenkomstige toepassing van  kan de aanvraag tot het verlenen van een verblijfsvergunning regulier voor onbepaalde tijd op grond van  slechts worden afgewezen, indien de vreemdeling wegens een misdrijf waartegen een gevangenisstraf van drie jaren of meer is bedreigd bij onherroepelijk geworden rechterlijk vonnis een gevangenisstraf, een taakstraf of de maatregel, bedoeld in , dan wel het buitenlands equivalent daarvan, is opgelegd, en de duur van de straffen of maatregelen ten minste gelijk is aan de normen, bedoeld in .artikel 3.87artikel 21, eerste lid, onder c, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCgG" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/929d1097-8159-418f-bf9d-b0cde7d0d114" />
+        <node concept="19SGf9" id="1spse2eiCgH" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCgI" role="19SJt6">
+            <property role="19SUeA" value="is van overeenkomstige toepassing, met uitzondering van het dertiende en veertiende lid.Artikel 3.86" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCgJ">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling3Paragraaf2Artikel3.96" />
+    <property role="1N0jUS" value="396" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCgK" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCgL" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/0532c2fe-c7c1-435e-8599-692e1b34fd64" />
+        <node concept="19SGf9" id="1spse2eiCgM" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCgN" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag tot het verlenen van een verblijfsvergunning regulier voor onbepaalde tijd wordt niet afgewezen op de in  genoemde grond dat de vreemdeling onjuiste gegevens heeft verstrekt dan wel gegevens heeft achtergehouden die tot afwijzing van de oorspronkelijke aanvraag tot het verlenen, verlengen of wijzigen van een verblijfsvergunning als bedoeld in  zouden hebben geleid, indien sedert de verlening, verlenging of wijziging een periode van twaalf jaren is verstreken.artikel 21, eerste lid, onder b, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCgO">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling3Paragraaf3Artikel3.97" />
+    <property role="1N0jUS" value="397" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCgP" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCgQ" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/365231c7-c1e0-4d45-8635-5916e9acc357" />
+        <node concept="19SGf9" id="1spse2eiCgR" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCgS" role="19SJt6">
+            <property role="19SUeA" value="De verblijfsvergunning regulier voor onbepaalde tijd wordt niet ingetrokken op de in  genoemde grond dat de vreemdeling onjuiste gegevens heeft verstrekt dan wel gegevens heeft achtergehouden die tot afwijzing van de oorspronkelijke aanvraag tot het verlenen, verlengen of wijzigen zouden hebben geleid, indien sedert de verlening, de verlenging of de wijziging een periode van twaalf jaren is verstreken.artikel 22, tweede lid, onder b, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCgT">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling3Paragraaf3Artikel3.98" />
+    <property role="1N0jUS" value="398" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCgU" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCgV" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/d6883a5a-31f2-4476-8810-48d2f405dbf9" />
+        <node concept="19SGf9" id="1spse2eiCgW" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCgX" role="19SJt6">
+            <property role="19SUeA" value="De verblijfsvergunning regulier voor onbepaalde tijd kan op grond van  worden ingetrokken, indien de vreemdeling wegens een misdrijf waartegen een gevangenisstraf van drie jaren of meer is bedreigd bij onherroepelijk geworden rechterlijk vonnis een gevangenisstraf, een taakstraf of de maatregel, bedoeld in , dan wel het buitenlands equivalent daarvan, is opgelegd, en de totale duur van de straffen of maatregelen ten minste gelijk is aan de norm, bedoeld in .artikel 3.86, tweede, derde dan wel vijfde lidartikel 22, tweede lid, onder c, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCgY" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/a3ef1971-6d06-4287-a334-6fc3f91f33ee" />
+        <node concept="19SGf9" id="1spse2eiCgZ" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCh0" role="19SJt6">
+            <property role="19SUeA" value="De  en  zijn van overeenkomstige toepassing.artikelen 3.86" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCh1">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling4Paragraaf2Artikel3.99" />
+    <property role="1N0jUS" value="399" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCh2" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCh3" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/990cb0e5-0865-40c9-a72c-dcdf3196a9da" />
+        <node concept="19SGf9" id="1spse2eiCh4" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCh5" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag tot het verlenen, wijzigen of verlengen van een verblijfsvergunning regulier voor bepaalde tijd wordt ingediend door de vreemdeling, zijn wettelijk vertegenwoordiger of zijn erkende referent, indien de vreemdeling in Nederland verblijft of wil verblijven in het kader van uitwisseling of studie, dan wel voor het verrichten van arbeid als kennismigrant of onderzoek in de zin van richtlijn (EU) 2016/801." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCh6" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/0625c02f-3dc9-416c-ad57-3c8d4c28c19f" />
+        <node concept="19SGf9" id="1spse2eiCh7" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCh8" role="19SJt6">
+            <property role="19SUeA" value="Ongeacht het doel waarvoor de vreemdeling in Nederland wil verblijven, wordt de aanvraag tot het verlenen, wijzigen of verlengen van een verblijfsvergunning regulier voor bepaalde tijd, zo nodig in afwijking van het eerste lid, ingediend door de vreemdeling of diens wettelijk vertegenwoordiger in persoon:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCh9" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/09ad2e50-ed99-41c2-997a-c0e7afa90d4c" />
+        <node concept="19SGf9" id="1spse2eiCha" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiChb" role="19SJt6">
+            <property role="19SUeA" value="indien de vreemdeling niet in het bezit is van een geldige machtiging tot voorlopig verblijf die overeenkomt met het doel waarvoor de vreemdeling in Nederland wil verblijven en evenmin behoort tot een van de in  of , bedoelde categorien;artikel 3.71, tweede lidartikel 17 van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiChc" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/44948eef-403c-4d9c-bffd-e97887dea383" />
+        <node concept="19SGf9" id="1spse2eiChd" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiChe" role="19SJt6">
+            <property role="19SUeA" value="in de bij ministerile regeling te bepalen gevallen." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiChf" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/f772937d-7897-4c58-985d-551fe9824c21" />
+        <node concept="19SGf9" id="1spse2eiChg" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiChh" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kan worden bepaald dat de aanvraag van een vreemdeling als bedoeld in het eerste lid wordt ingediend door tussenkomst van de erkende referent." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiChi">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling5Paragraaf1Artikel3.105a" />
+    <property role="1N0jUS" value="401" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiChj" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiChk" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/da7b5a78-45c4-40d7-925f-706ab6ca4ea6" />
+        <node concept="19SGf9" id="1spse2eiChl" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiChm" role="19SJt6">
+            <property role="19SUeA" value="De verblijfsvergunning asiel voor bepaalde tijd die met toepassing van artikel 28, derde lid, van de Wet ambtshalve wordt verleend, wordt verleend met ingang van de dag nadat de machtiging tot voorlopig verblijf aan de vreemdeling in persoon is afgegeven." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiChn" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/a328d412-8979-49c4-b299-510cced700d5" />
+        <node concept="19SGf9" id="1spse2eiCho" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiChp" role="19SJt6">
+            <property role="19SUeA" value="In afwijking van het eerste lid, kan de verblijfsvergunning worden verleend met ingang van de dag die bij de afgifte van de machtiging tot voorlopig verblijf is opgegeven als de dag waarop de vreemdeling Nederland zal inreizen." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiChq">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling5Paragraaf1Artikel3.105b" />
+    <property role="1N0jUS" value="404" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiChr" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiChs" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/fc7ad7ad-031f-48ce-bf74-4d76a288809e" />
+        <node concept="19SGf9" id="1spse2eiCht" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiChu" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen nadere regels worden gesteld met betrekking tot de beoordeling of sprake is van omstandigheden als bedoeld in .artikel 31, eerste lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiChv">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling5Paragraaf1Artikel3.105ba" />
+    <property role="1N0jUS" value="405" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiChw" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiChx" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/78fbb92b-d54a-4e9c-b58d-ac72bf2a42ce" />
+        <node concept="19SGf9" id="1spse2eiChy" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiChz" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kan een lijst worden opgesteld van veilige landen van herkomst in de zin van de artikelen 36 en 37 van de Procedurerichtlijn." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCh$" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/c6dfd7ea-1981-4397-9c70-928dfe1fb9d7" />
+        <node concept="19SGf9" id="1spse2eiCh_" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiChA" role="19SJt6">
+            <property role="19SUeA" value="De beoordeling of een land een veilig land van herkomst is dient te stoelen op een reeks informatiebronnen, waaronder in het bijzonder informatie uit andere lidstaten, het Europees Ondersteuningsbureau voor asielzaken (EASO), de UNHCR, de Raad van Europa en andere relevante internationale organisaties." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiChB" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/ef3efaaf-752b-466e-9eb8-361c7da54701" />
+        <node concept="19SGf9" id="1spse2eiChC" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiChD" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister onderzoekt de situatie in derde landen die zijn aangemerkt als veilige landen van herkomst als bedoeld in het eerste lid regelmatig opnieuw." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiChE">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling5Paragraaf1Artikel3.105c" />
+    <property role="1N0jUS" value="409" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiChF" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiChG" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/e72892d0-ff94-40bc-9e0b-a3553d2f138f" />
+        <node concept="19SGf9" id="1spse2eiChH" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiChI" role="19SJt6">
+            <property role="19SUeA" value="Aan de vreemdeling die aannemelijk heeft gemaakt dat hij verdragsvluchteling als bedoeld in  is, kan verlening van een verblijfsvergunning asiel voor bepaalde tijd op grond van die toelatingsgrond slechts worden geweigerd, indien:artikel 29, eerste lid, onder a, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiChJ" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/8bbd7fd7-9fbc-4d69-82ef-fe588124ee55" />
+        <node concept="3MKX6G" id="1spse2eiChK" role="3MKX6F">
+          <property role="3MLT8O" value="a" />
+          <property role="1hTQn4" value="https://calculemus.org/b4084418-6712-4744-a1bc-62536b17e5df" />
+          <node concept="19SGf9" id="1spse2eiChL" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiChM" role="19SJt6">
+              <property role="19SUeA" value="er goede redenen bestaan om de vreemdeling te beschouwen als een gevaar voor de nationale veiligheid; of" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiChN" role="3MKX6F">
+          <property role="3MLT8O" value="b" />
+          <property role="1hTQn4" value="https://calculemus.org/e4dcf5cf-07bb-48d4-bdae-121d06ba0d34" />
+          <node concept="19SGf9" id="1spse2eiChO" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiChP" role="19SJt6">
+              <property role="19SUeA" value="de vreemdeling bij onherroepelijk geworden rechterlijk vonnis veroordeeld is voor een bijzonder ernstig misdrijf en een gevaar vormt voor de gemeenschap." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiChQ">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling1Paragraaf3Artikel4.10" />
+    <property role="1N0jUS" value="410" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiChR" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiChS" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/1e85318f-d387-4daf-a6a1-54c9892ebb98" />
+        <node concept="19SGf9" id="1spse2eiChT" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiChU" role="19SJt6">
+            <property role="19SUeA" value="is van overeenkomstige toepassing op gezagvoerders van andere schepen dan zeeschepen.Artikel 4.8" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiChV">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling1Paragraaf3Artikel4.11" />
+    <property role="1N0jUS" value="411" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiChW" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiChX" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/9e1825fd-75a2-44a7-ab59-0d62605726d4" />
+        <node concept="19SGf9" id="1spse2eiChY" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiChZ" role="19SJt6">
+            <property role="19SUeA" value="De informatie, bedoeld in Bijlage VI, onderdelen 3.1.2, 3.1.4, 3.1.5 en 3.2.1 van de Schengengrenscode, wordt langs elektronische weg op een nader bij ministerile regeling te bepalen wijze verstrekt aan het hoofd van de grensdoorlaatpost." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCi0" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/48806624-9ce8-4de9-b781-aef5baab3f98" />
+        <node concept="19SGf9" id="1spse2eiCi1" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCi2" role="19SJt6">
+            <property role="19SUeA" value="is, met uitzondering van de , , en , niet van toepassing op persoonsgegevens die zijn verstrekt met toepassing van het eerste lid.Paragraaf 4 van het Besluit politiegegevens" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCi3">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling1Paragraaf3Artikel4.12" />
+    <property role="1N0jUS" value="412" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCi4" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCi5" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/87850d51-0ef2-4681-b15d-11cd8deb1183" />
+        <node concept="19SGf9" id="1spse2eiCi6" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCi7" role="19SJt6">
+            <property role="19SUeA" value="De gezagvoerder krijgt op een bij ministerile regeling te bepalen wijze van het hoofd van de grensdoorlaatpost een ontvangstbevestiging als bedoeld in Bijlage VI, onderdeel 3.1.3, van de Schengengrenscode van de informatie die hij verstrekt heeft." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCi8">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling1Paragraaf3Artikel4.13" />
+    <property role="1N0jUS" value="413" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCi9" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCia" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/8eaf4ed1-b131-4a6f-8a78-30809a8e4355" />
+        <node concept="19SGf9" id="1spse2eiCib" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCic" role="19SJt6">
+            <property role="19SUeA" value="De tijdige kennisgeving van afvaart, bedoeld in punt 3.1.5. van bijlage VI van de Schengengrenscode, wordt gedaan:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiCid" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/f72e8731-075d-4715-8f5f-fda92b914603" />
+        <node concept="3MKX6G" id="1spse2eiCie" role="3MKX6F">
+          <property role="3MLT8O" value="a" />
+          <property role="1hTQn4" value="https://calculemus.org/554c1825-3a8a-4364-8867-3782db66246d" />
+          <node concept="19SGf9" id="1spse2eiCif" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCig" role="19SJt6">
+              <property role="19SUeA" value="ten hoogste zes en ten minste drie uur vr het daadwerkelijk vertrek van het schip;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCih" role="3MKX6F">
+          <property role="3MLT8O" value="b" />
+          <property role="1hTQn4" value="https://calculemus.org/78072866-0908-4e14-9582-ec45ec47690f" />
+          <node concept="19SGf9" id="1spse2eiCii" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCij" role="19SJt6">
+              <property role="19SUeA" value="indien het schip zich korter dan drie uur bevindt bij de grensdoorlaatpost waar de kennisgeving moet plaatsvinden, op een zodanig tijdstip dat de met de bediening van de grensdoorlaatpost belaste ambtenaar in staat is de door hem uit te oefenen personencontrole uit te voeren." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCik">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling5Paragraaf1Artikel3.105d" />
+    <property role="1N0jUS" value="414" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCil" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCim" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/bc51dc0b-2ce0-4a6b-bab4-c78d843c85a9" />
+        <node concept="19SGf9" id="1spse2eiCin" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCio" role="19SJt6">
+            <property role="19SUeA" value="De verblijfsvergunning asiel voor bepaalde tijd die is verleend op grond van , wordt ingetrokken dan wel de aanvraag tot het verlengen van de geldigheidsduur ervan wordt afgewezen indien sprake is van de situatie, bedoeld in .artikel 29, eerste lid, onder a, van die wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCip" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/93fc2b73-64e4-4e27-a3ab-4fef700f2636" />
+        <node concept="19SGf9" id="1spse2eiCiq" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCir" role="19SJt6">
+            <property role="19SUeA" value="De verblijfsvergunning asiel voor bepaalde tijd die is verleend op grond van , kan slechts op grond van  worden ingetrokken dan wel de aanvraag tot het verlengen van de geldigheidsduur ervan worden afgewezen, indien:artikel 29, eerste lid, onder a, van die wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCis" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/4fa31e40-fda3-4075-93b1-b75aebc609c0" />
+        <node concept="19SGf9" id="1spse2eiCit" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCiu" role="19SJt6">
+            <property role="19SUeA" value="er goede redenen bestaan om de vreemdeling te beschouwen als een gevaar voor de nationale veiligheid; of" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCiv" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/53283972-f066-4be1-9f69-5d8c82cdeb0f" />
+        <node concept="19SGf9" id="1spse2eiCiw" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCix" role="19SJt6">
+            <property role="19SUeA" value="de vreemdeling bij onherroepelijk geworden rechterlijk vonnis veroordeeld is voor een bijzonder ernstig misdrijf en een gevaar vormt voor de gemeenschap." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCiy" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/d1d41c9e-9d20-4bb2-ac3a-12d530dad038" />
+        <node concept="19SGf9" id="1spse2eiCiz" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCi$" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen nadere regels worden gesteld met betrekking tot de beoordeling of sprake is van de situatie, bedoeld in het eerste lid." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCi_">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling1Paragraaf3Artikel4.14" />
+    <property role="1N0jUS" value="414" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCiA" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCiB" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/eea95947-acce-4268-a3f1-1ec6c9b32811" />
+        <node concept="19SGf9" id="1spse2eiCiC" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCiD" role="19SJt6">
+            <property role="19SUeA" value="De , gelden niet voor gezagvoerders van zeeschepen die, zonder ligplaats in een Nederlandse haven te nemen, door de Nederlandse territoriale zee varen.artikelen 4.11 tot en met 4.13" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCiE">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling1Paragraaf4Artikel4.15" />
+    <property role="1N0jUS" value="415" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCiF" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCiG" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/588978d7-44c2-43f8-8cb3-a8554fc69af3" />
+        <node concept="19SGf9" id="1spse2eiCiH" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCiI" role="19SJt6">
+            <property role="19SUeA" value="De gezagvoerder van een vliegtuig verstrekt in tweevoud aan een ambtenaar, belast met de grensbewaking, de in bijlage VI, onder 2.3.1, van de Schengengrenscode bedoelde algemene verklaring en de in bijlage VII, onder 2.1, van de Schengengrenscode bedoelde gegevens over de bemanning." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCiJ" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/1bf04019-0982-433a-80ef-17169a365352" />
+        <node concept="19SGf9" id="1spse2eiCiK" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCiL" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling wordt het model van de bemannings- en passagierslijst aangewezen." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCiM">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling1Paragraaf4Artikel4.16" />
+    <property role="1N0jUS" value="416" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCiN" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCiO" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/b41fcf4e-b8de-4bef-b934-e33f631dbdae" />
+        <node concept="19SGf9" id="1spse2eiCiP" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCiQ" role="19SJt6">
+            <property role="19SUeA" value="De vordering aan de gezagvoerder van een luchtvaartuig, bedoeld in , wordt gedaan door tussenkomst van de luchtverkeersleiding.artikel 51, derde lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCiR">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling2Artikel4.17" />
+    <property role="1N0jUS" value="417" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCiS" role="3MKX6D">
+      <node concept="3MKX5h" id="1spse2eiCiT" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/cfdcfa3b-3ece-4c80-9ec1-758a184e4d6b" />
+        <node concept="3MKX5i" id="1spse2eiCiU" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/172160c8-3d8f-4912-a930-48211199561f" />
+          <node concept="19SGf9" id="1spse2eiCiV" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiCiW" role="19SJt6">
+              <property role="19SUeA" value="De korpschef verstrekt periodiek ten minste de volgende gegevens aan Onze Minister:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiCiX" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/4d2d2782-ded7-4034-9657-6565e967c2da" />
+          <node concept="3MKX6G" id="1spse2eiCiY" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/a0162756-2315-4220-928d-0a810739897f" />
+            <node concept="19SGf9" id="1spse2eiCiZ" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCj0" role="19SJt6">
+                <property role="19SUeA" value="gegevens over de uitzetting van vreemdelingen, en" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCj1" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/e8da5abe-6ba1-4868-9860-844114aa131d" />
+            <node concept="19SGf9" id="1spse2eiCj2" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCj3" role="19SJt6">
+                <property role="19SUeA" value="gegevens over de uitvoering van het toezicht op vreemdelingen." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiCj4" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/a8292259-1257-4f04-b4cf-7880bae5a726" />
+        <node concept="3MKX5i" id="1spse2eiCj5" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/8697c739-a1cf-4dc6-8867-62c13febf70e" />
+          <node concept="19SGf9" id="1spse2eiCj6" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiCj7" role="19SJt6">
+              <property role="19SUeA" value="De bevelhebber van de Koninklijke marechaussee en, voorzover van toepassing, de korpschef verstrekken periodiek ten minste de volgende inlichtingen aan Onze Minister:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiCj8" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/4146d5fd-7cd3-487c-80c9-c1002e119ffe" />
+          <node concept="3MKX6G" id="1spse2eiCj9" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/580b01f0-c85c-402c-a72d-23c84b7f9615" />
+            <node concept="19SGf9" id="1spse2eiCja" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCjb" role="19SJt6">
+                <property role="19SUeA" value="gegevens over de toegangsweigering;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCjc" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/f6f3ef79-f6d1-4d6e-a09f-100fe932e1fc" />
+            <node concept="19SGf9" id="1spse2eiCjd" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCje" role="19SJt6">
+                <property role="19SUeA" value="gegevens over de controle op de zorgplicht van vervoerders;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCjf" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/c9a79565-b1eb-4c28-b1e9-4841890ebb84" />
+            <node concept="19SGf9" id="1spse2eiCjg" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCjh" role="19SJt6">
+                <property role="19SUeA" value="gegevens over de uitzetting van vreemdelingen, en" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCji" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/eb24bfdb-ba2c-46e2-ba0c-c9a41504cfc0" />
+            <node concept="19SGf9" id="1spse2eiCjj" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCjk" role="19SJt6">
+                <property role="19SUeA" value="gegevens over de uitvoering van het toezicht op vreemdelingen." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCjl">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling2Artikel4.18" />
+    <property role="1N0jUS" value="418" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCjm" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCjn" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/13be4dbd-eb06-4a2e-a85a-9029218c67bb" />
+        <node concept="19SGf9" id="1spse2eiCjo" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCjp" role="19SJt6">
+            <property role="19SUeA" value="Aan de vreemdeling die met toepassing van , of  is overgebracht naar een plaats, bestemd voor verhoor, wordt tijdig mededeling gedaan van de hem toekomende bevoegdheid zich bij het verhoor te doen bijstaan door een raadsman.artikel 50, tweede of derde lid" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCjq" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/2f4fc47d-1601-4f04-8eda-3d6fa735e926" />
+        <node concept="19SGf9" id="1spse2eiCjr" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCjs" role="19SJt6">
+            <property role="19SUeA" value="De in het eerste lid bedoelde vreemdeling wordt niet verder beperkt in de uitoefening van grondrechten, dan wordt gevorderd door het doel van de maatregel en de handhaving van de orde en de veiligheid op de plaats van tenuitvoerlegging." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCjt">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling2Artikel4.19" />
+    <property role="1N0jUS" value="419" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCju" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCjv" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/602b3051-f6df-42db-b50c-0f74fc324fa9" />
+        <node concept="19SGf9" id="1spse2eiCjw" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCjx" role="19SJt6">
+            <property role="19SUeA" value="Een beslissing van de bevelhebber van de Koninklijke marechaussee of de korpschef, genomen krachtens , wordt ten uitvoer gelegd in een cel van de Koninklijke marechaussee respectievelijk op een politiebureau. De Regeling politiecellencomplex is van overeenkomstige toepassing op de tenuitvoerlegging van de beslissing in een cel van de Koninklijke marechaussee.artikel 50, vierde lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCjy" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/9ee2e2ad-ffe8-47e7-afc8-b0e0e6d19ebf" />
+        <node concept="19SGf9" id="1spse2eiCjz" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCj$" role="19SJt6">
+            <property role="19SUeA" value="De  en  zijn van overeenkomstige toepassing.artikelen 5.3" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCj_">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling5Paragraaf1Artikel3.105e" />
+    <property role="1N0jUS" value="420" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCjA" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCjB" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/c33a2c33-739b-44cc-8891-2ba99e896fe4" />
+        <node concept="19SGf9" id="1spse2eiCjC" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCjD" role="19SJt6">
+            <property role="19SUeA" value="Aan de vreemdeling die aannemelijk heeft gemaakt dat zijn aanvraag is gegrond op omstandigheden die de rechtsgrond voor verlening, bedoeld in , vormen, wordt een verblijfsvergunning voor bepaalde tijd als bedoeld in  verleend, tenzij er ernstige redenen zijn om aan te nemen dat:artikel 29, eerste lid, onder b, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiCjE" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/59f629ac-a674-4ca8-bc7a-c2d940481f1d" />
+        <node concept="3MKX6G" id="1spse2eiCjF" role="3MKX6F">
+          <property role="3MLT8O" value="a" />
+          <property role="1hTQn4" value="https://calculemus.org/64657e7e-9c16-4dfe-8900-aeb2e876bdc7" />
+          <node concept="19SGf9" id="1spse2eiCjG" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCjH" role="19SJt6">
+              <property role="19SUeA" value="de vreemdeling een misdrijf tegen de vrede, een oorlogsmisdrijf of een misdrijf tegen de menselijkheid heeft gepleegd, zoals gedefinieerd in de internationale instrumenten waarmee wordt beoogd regelingen te treffen ten aanzien van dergelijke misdrijven;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCjI" role="3MKX6F">
+          <property role="3MLT8O" value="b" />
+          <property role="1hTQn4" value="https://calculemus.org/82c09291-69c7-49d4-b673-b39b8911b410" />
+          <node concept="19SGf9" id="1spse2eiCjJ" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCjK" role="19SJt6">
+              <property role="19SUeA" value="de vreemdeling een ernstig misdrijf heeft gepleegd;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCjL" role="3MKX6F">
+          <property role="3MLT8O" value="c" />
+          <property role="1hTQn4" value="https://calculemus.org/33875892-a2a2-4188-a706-7629388902f5" />
+          <node concept="19SGf9" id="1spse2eiCjM" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCjN" role="19SJt6">
+              <property role="19SUeA" value="de vreemdeling zich schuldig heeft gemaakt aan daden die in strijd zijn met de doelstellingen en beginselen van de Verenigde Naties als vervat in de preambule en de artikelen 1 en 2 van het Handvest van de Verenigde Naties;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCjO" role="3MKX6F">
+          <property role="3MLT8O" value="d" />
+          <property role="1hTQn4" value="https://calculemus.org/e2c4a52c-1051-47e5-91c2-3bac744136c0" />
+          <node concept="19SGf9" id="1spse2eiCjP" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCjQ" role="19SJt6">
+              <property role="19SUeA" value="de vreemdeling een gevaar vormt voor de gemeenschap of de nationale veiligheid; of" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCjR" role="3MKX6F">
+          <property role="3MLT8O" value="e" />
+          <property role="1hTQn4" value="https://calculemus.org/843c488c-4370-4732-a0a9-b3860ab7e0f0" />
+          <node concept="19SGf9" id="1spse2eiCjS" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCjT" role="19SJt6">
+              <property role="19SUeA" value="de vreemdeling heeft aangezet tot of anderszins heeft deelgenomen aan de onder a tot en met c vermelde misdrijven of daden," />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCjU">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling2Artikel4.20" />
+    <property role="1N0jUS" value="420" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCjV" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCjW" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/ae24ddfc-13b9-437f-9448-8b96db1e305c" />
+        <node concept="19SGf9" id="1spse2eiCjX" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCjY" role="19SJt6">
+            <property role="19SUeA" value="Indien de bevelhebber van de Koninklijke marechaussee of de korpschef zijn bevoegdheid, bedoeld in , mandateert, doet hij dat niet dan aan een ambtenaar, belast met het toezicht op vreemdelingen, die tevens hulpofficier van justitie is, of de ambtenaar van politie met ter zake voldoende kennis en kunde die daartoe is aangewezen door de korpschef.artikel 50, vierde lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCjZ">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling2Artikel4.21" />
+    <property role="1N0jUS" value="421" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCk0" role="3MKX6D">
+      <node concept="3MKX5h" id="1spse2eiCk1" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/5ba9afa7-20f4-4773-ae3f-a2e753862129" />
+        <node concept="3MKX5i" id="1spse2eiCk2" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/06b05b19-1782-488f-8ffd-a16d0aed0292" />
+          <node concept="19SGf9" id="1spse2eiCk3" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiCk4" role="19SJt6">
+              <property role="19SUeA" value="Als documenten in de zin van , worden aangewezen:artikel 50, eerste lid, laatste volzin, van de Wet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiCk5" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/5866b522-e7c8-4a80-8e11-2130fb4dd7c4" />
+          <node concept="3MKX6G" id="1spse2eiCk6" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/4b6317fe-fcd7-4d21-9b5e-d8d6598968d0" />
+            <node concept="19SGf9" id="1spse2eiCk7" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCk8" role="19SJt6">
+                <property role="19SUeA" value="voor vreemdelingen die rechtmatig verblijven als bedoeld in : een vanwege de bevoegde autoriteiten verstrekt document waaruit zulks blijkt en waarvan het model is vastgesteld bij ministerile regeling;artikel 8, onder a tot en met d, van de Wet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCk9" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/682b2f56-db38-4aa3-b6da-efd19cf1f4bd" />
+            <node concept="19SGf9" id="1spse2eiCka" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCkb" role="19SJt6">
+                <property role="19SUeA" value="voor vreemdelingen die rechtmatig verblijven als bedoeld in : een geldig nationaal paspoort of geldige identiteitskaart, indien zij de nationaliteit van een staat bezitten als bedoeld in , of, indien zij een zodanige nationaliteit niet bezitten:artikel 8.7, eerste lidartikel 8 onder e, van de Wet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5i" id="1spse2eiCkc" role="3MKX6F">
+            <property role="1hTQn4" value="https://calculemus.org/08989f36-7f1f-4a47-b9c2-e06fdc7a3537" />
+            <node concept="19SGf9" id="1spse2eiCkd" role="3MLR7a">
+              <node concept="19SUe$" id="1spse2eiCke" role="19SJt6">
+                <property role="19SUeA" value="een geldig nationaal paspoort met een voor inreis benodigd visum, indien na inreis nog geen 90dagen zijn verstreken;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5i" id="1spse2eiCkf" role="3MKX6F">
+            <property role="1hTQn4" value="https://calculemus.org/6d2e0c38-f864-4c85-9d60-875e106e47cb" />
+            <node concept="19SGf9" id="1spse2eiCkg" role="3MLR7a">
+              <node concept="19SUe$" id="1spse2eiCkh" role="19SJt6">
+                <property role="19SUeA" value="een geldig nationaal paspoort met een stempel van de inreis, indien voor inreis geen visum benodigd is en na inreis nog geen 90dagen zijn verstreken;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5i" id="1spse2eiCki" role="3MKX6F">
+            <property role="1hTQn4" value="https://calculemus.org/63f4d93f-bcd6-4055-b4e2-87eb4dbe76c5" />
+            <node concept="19SGf9" id="1spse2eiCkj" role="3MLR7a">
+              <node concept="19SUe$" id="1spse2eiCkk" role="19SJt6">
+                <property role="19SUeA" value="een geldig nationaal paspoort met een door de bevoegde autoriteiten afgegeven verklaring als bedoeld in , indien na afgifte van de verklaring nog geen zes maanden zijn verstreken; ofartikel 8.13, vierde lid" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5i" id="1spse2eiCkl" role="3MKX6F">
+            <property role="1hTQn4" value="https://calculemus.org/5802912d-6787-47a9-9f19-958b66e66ad6" />
+            <node concept="19SGf9" id="1spse2eiCkm" role="3MLR7a">
+              <node concept="19SUe$" id="1spse2eiCkn" role="19SJt6">
+                <property role="19SUeA" value="een door de bevoegde autoriteiten afgegeven verblijfsdocument als bedoeld in , dan wel ;artikel 8.13, vijfde lid" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCko" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/cae14c81-f07f-410f-af37-f45ea3868abf" />
+            <node concept="19SGf9" id="1spse2eiCkp" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCkq" role="19SJt6">
+                <property role="19SUeA" value="voor vreemdelingen die een aanvraag tot het verlenen van de verblijfsvergunning asiel voor bepaalde tijd hebben ingediend, dan wel verblijf heeft op grond van : een vanwege de bevoegde autoriteiten verstrekt document waaruit zulks blijkt en waarvan het model wordt vastgesteld bij ministerile regeling;artikel 8, onderdeel m, van de Wet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCkr" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/e51d596f-a660-4b66-87a2-f7cb333a9da0" />
+            <node concept="19SGf9" id="1spse2eiCks" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCkt" role="19SJt6">
+                <property role="19SUeA" value="voor vreemdelingen, anders dan bedoeld onder c, die rechtmatig verblijf in de zin van  hebben en die niet beschikken over een ingevolge  vereist geldig document voor grensoverschrijding: een vanwege de bevoegde autoriteiten verstrekt document, waarvan het model wordt vastgesteld bij ministerile regeling, dat kan worden voorzien van een inlegvel als bedoeld in , waarop de verblijfsrechtelijke positie is aangetekend;artikel 4.29, derde lidartikel 8, onder f, g, h, jofk, van de Wet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCku" role="3MKX6F">
+            <property role="3MLT8O" value="e" />
+            <property role="1hTQn4" value="https://calculemus.org/8c62d660-91f2-4ecb-a898-ea927459b4ad" />
+            <node concept="19SGf9" id="1spse2eiCkv" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCkw" role="19SJt6">
+                <property role="19SUeA" value="voor andere vreemdelingen: een ingevolge de Wet voor het hebben van toegang tot Nederland vereist geldig document voor grensoverschrijding dan wel een document voor grensoverschrijding waarin het benodigde visum is aangetekend of waarin een aantekening omtrent de verblijfsrechtelijke positie is geplaatst." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCkx" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/bc6f7492-cb72-4fa3-99d3-17f511f111f4" />
+        <node concept="19SGf9" id="1spse2eiCky" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCkz" role="19SJt6">
+            <property role="19SUeA" value="Geen document, anders dan bedoeld in het eerste lid, onder a of b, wordt verstrekt aan kinderen beneden de leeftijd van twaalf jaar, tenzij zij er naar het oordeel van Onze Minister een redelijk belang bij hebben in het bezit van zulk een document te worden gesteld." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCk$" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/3557aed3-2fa8-4537-b591-52a6129e3cae" />
+        <node concept="19SGf9" id="1spse2eiCk_" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCkA" role="19SJt6">
+            <property role="19SUeA" value="Op het ingevolge het eerste lid, onder a tot en met d, afgegeven document wordt aangetekend of het de vreemdeling toegestaan is arbeid te verrichten en of voor deze arbeid ingevolge de  een tewerkstellingsvergunning of gecombineerde vergunning is vereist.Wet arbeid vreemdelingen" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCkB" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/c1553ee2-4720-4c8b-a18d-20120003aa97" />
+        <node concept="19SGf9" id="1spse2eiCkC" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCkD" role="19SJt6">
+            <property role="19SUeA" value="Indien aan het verblijf in Nederland van de in het eerste lid, onder a en b, bedoelde vreemdelingen een beperking als bedoeld in , is verbonden, wordt op het document de aantekening beroep op de algemene middelen kan gevolgen hebben voor verblijfsrecht gesteld.artikel 3.4, derde lid" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCkE">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling2Artikel4.22" />
+    <property role="1N0jUS" value="422" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCkF" role="3MKX6D">
+      <node concept="3MKX5h" id="1spse2eiCkG" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/b1554395-acdf-4f66-98be-ffea53725b6c" />
+        <node concept="3MKX5i" id="1spse2eiCkH" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/1ee2d8ad-3018-4a2f-bddf-0555cda897d9" />
+          <node concept="19SGf9" id="1spse2eiCkI" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiCkJ" role="19SJt6">
+              <property role="19SUeA" value="De documenten, bedoeld in , worden door Onze Minister vervangen, indien:artikel 4.21, eerste lid, onder a tot en met d" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiCkK" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/3cf79a1e-569c-4df6-b0af-33ced59619bb" />
+          <node concept="3MKX6G" id="1spse2eiCkL" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/b51dfbf3-5a3c-4c38-9ecc-179c9d381b42" />
+            <node concept="19SGf9" id="1spse2eiCkM" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCkN" role="19SJt6">
+                <property role="19SUeA" value="de vreemdeling aan wie het document werd afgegeven, overeenkomstig  aangifte heeft gedaan van vermissing, verlies of het voor identificatie ondeugdelijk worden van dat document, enartikel 4.44" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCkO" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/742d46e0-c16d-47bd-a0be-8a9cc87c38fd" />
+            <node concept="19SGf9" id="1spse2eiCkP" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCkQ" role="19SJt6">
+                <property role="19SUeA" value="Onze Minister heeft vastgesteld dat er gegronde redenen zijn om te veronderstellen dat de aangifte naar waarheid is gedaan." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCkR" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/3f8dfc31-ba12-4be2-92eb-31a7496b477a" />
+        <node concept="19SGf9" id="1spse2eiCkS" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCkT" role="19SJt6">
+            <property role="19SUeA" value="Onverminderd het eerste lid worden de documenten, bedoeld in , telkens vijf jaren na de afgifte ervan, vervangen.artikel 4.21, eerste lid, onder a" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCkU">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling2Artikel4.23" />
+    <property role="1N0jUS" value="423" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCkV" role="3MKX6D">
+      <node concept="3MKX5h" id="1spse2eiCkW" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/c8ba837f-c7bf-4304-aa48-a242f2f91fa4" />
+        <node concept="3MKX5i" id="1spse2eiCkX" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/76a97c31-b8b3-436c-87a2-0886e4ddab47" />
+          <node concept="19SGf9" id="1spse2eiCkY" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiCkZ" role="19SJt6">
+              <property role="19SUeA" value="De ambtenaren belast met de grensbewaking of de ambtenaren belast met het toezicht op vreemdelingen, nemen op grond van  het reis- of identiteitspapier van een persoon tijdelijk in bewaring:artikel 52, eerste lid, van de Wet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiCl0" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/c010681b-9431-48b1-8f99-d6d6030318ca" />
+          <node concept="3MKX6G" id="1spse2eiCl1" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/4a2482da-9457-47bf-ae86-726503485d50" />
+            <node concept="19SGf9" id="1spse2eiCl2" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCl3" role="19SJt6">
+                <property role="19SUeA" value="voorzover zulks nodig is voor het verkrijgen van de gegevens, bedoeld in , of voor het stellen van een aantekening als bedoeld in ;artikel 4.45" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCl4" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/88aa6919-389b-45bf-92b8-d72e2f182f1f" />
+            <node concept="19SGf9" id="1spse2eiCl5" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCl6" role="19SJt6">
+                <property role="19SUeA" value="indien de persoon ter vaststelling van zijn identiteit is staande gehouden en niet aanstonds blijkt dat het hem is toegestaan in Nederland te verblijven, terwijl de gelegenheid ontbreekt hem, met toepassing van  naar een plaats, bestemd voor verhoor, over te brengen;artikel 50, tweede of derde lid, van de Wet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCl7" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/b2f47583-9c3c-4077-bde4-b72380f1dce2" />
+            <node concept="19SGf9" id="1spse2eiCl8" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCl9" role="19SJt6">
+                <property role="19SUeA" value="gedurende de tijd dat de persoon rechtens zijn vrijheid is ontnomen, of" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCla" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/0da7bb95-1019-40c3-98af-8951a5bdaf0b" />
+            <node concept="19SGf9" id="1spse2eiClb" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiClc" role="19SJt6">
+                <property role="19SUeA" value="voorzover zulks nodig is met het oog op de uitzetting of de overgave aan de buitenlandse grensautoriteiten als bedoeld in .artikel 52, tweede lid, van de Wet" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCld" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/fc3595a4-d345-41f2-bc78-74271d291a21" />
+        <node concept="19SGf9" id="1spse2eiCle" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiClf" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister kan het reis- of identiteitspapier van een persoon tijdelijk in bewaring nemen, voor zover zulks nodig is voor het verkrijgen van de gegevens, bedoeld in , voor onderzoek naar de echtheid van het reis- of identiteitspapier of voor de uitzetting van de vreemdeling.artikel 4.45" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiClg" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/5e0be8a8-e337-49f5-ba0a-428be3aec5f6" />
+        <node concept="19SGf9" id="1spse2eiClh" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCli" role="19SJt6">
+            <property role="19SUeA" value="In het geval, bedoeld in het eerste lid, onder b, wordt het reis- of identiteitspapier aan de persoon teruggegeven, indien hij aan de korpschef of de bevelhebber van de Koninklijke marechaussee de gegevens heeft verstrekt die deze in het belang van de toepassing van de  vraagt, tenzij er uit anderen hoofde gronden aanwezig zijn om het document in bewaring te houden.Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiClj">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling2Artikel4.24" />
+    <property role="1N0jUS" value="424" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiClk" role="3MKX6D">
+      <node concept="3MKX5h" id="1spse2eiCll" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/5b00f710-a289-41e6-9b4a-cc7fa48e415f" />
+        <node concept="3MKX5i" id="1spse2eiClm" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/77cfd90e-c8e7-4e2f-8aff-349843cc32e4" />
+          <node concept="19SGf9" id="1spse2eiCln" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiClo" role="19SJt6">
+              <property role="19SUeA" value="Naast het plaatsen van de in artikel 11 en bijlage IV van de Schengengrenscode bedoelde inreis- en uitreisstempel, kunnen ambtenaren belast met de grensbewaking, op grond van , in het reis- of identiteitspapier van de vreemdeling aantekeningen stellen omtrent:artikel 52, eerste lid, van de Wet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiClp" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/b2a428f6-7995-4ad3-a5b2-e2b3edd13c5e" />
+          <node concept="3MKX6G" id="1spse2eiClq" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/83aa27a5-dd09-4169-aec9-b35994b84901" />
+            <node concept="19SGf9" id="1spse2eiClr" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCls" role="19SJt6">
+                <property role="19SUeA" value="inreis in Nederland;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiClt" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/ca356829-ac71-4fb6-9ae0-93e6a6c111d0" />
+            <node concept="19SGf9" id="1spse2eiClu" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiClv" role="19SJt6">
+                <property role="19SUeA" value="het doel en de duur van het voorgenomen verblijf in Nederland;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiClw" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/5d0c0ca5-c23b-471e-b309-57f69419e0f6" />
+            <node concept="19SGf9" id="1spse2eiClx" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCly" role="19SJt6">
+                <property role="19SUeA" value="de middelen waarover de vreemdeling met het oog op de toegang tot Nederland beschikt of kan beschikken;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiClz" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/0a0d6cb7-5230-4f6b-ac41-1bd6ca30d18e" />
+            <node concept="19SGf9" id="1spse2eiCl$" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCl_" role="19SJt6">
+                <property role="19SUeA" value="aanmelding bij de korpschef;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiClA" role="3MKX6F">
+            <property role="3MLT8O" value="e" />
+            <property role="1hTQn4" value="https://calculemus.org/92f50546-0306-4216-a262-d9450a1c7994" />
+            <node concept="19SGf9" id="1spse2eiClB" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiClC" role="19SJt6">
+                <property role="19SUeA" value="de toepassing van ;artikel 2.4" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiClD" role="3MKX6F">
+            <property role="3MLT8O" value="f" />
+            <property role="1hTQn4" value="https://calculemus.org/20f163d9-41df-4020-adb8-68529c9d8ad5" />
+            <node concept="19SGf9" id="1spse2eiClE" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiClF" role="19SJt6">
+                <property role="19SUeA" value="het weigeren van toegang tot Nederland;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiClG" role="3MKX6F">
+            <property role="3MLT8O" value="g" />
+            <property role="1hTQn4" value="https://calculemus.org/4b16bc98-0fa4-439a-8f49-4ba8a00932ea" />
+            <node concept="19SGf9" id="1spse2eiClH" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiClI" role="19SJt6">
+                <property role="19SUeA" value="vertrek of uitzetting uit Nederland, of" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiClJ" role="3MKX6F">
+            <property role="3MLT8O" value="h" />
+            <property role="1hTQn4" value="https://calculemus.org/9a1e7777-1fae-473d-b015-45dec154fbc5" />
+            <node concept="19SGf9" id="1spse2eiClK" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiClL" role="19SJt6">
+                <property role="19SUeA" value="uitreis uit Nederland." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiClM" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/7f600947-8fa5-42bf-b24a-c9234304ca73" />
+        <node concept="19SGf9" id="1spse2eiClN" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiClO" role="19SJt6">
+            <property role="19SUeA" value="Elke doorhaling of vervallenverklaring van een in een reis- of identiteitspapier van een vreemdeling gestelde aantekening, wordt door de ambtenaar die de doorhaling of vervallenverklaring verricht, gedateerd en van diens paraaf voorzien." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiClP">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling2Artikel4.25" />
+    <property role="1N0jUS" value="425" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiClQ" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiClR" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/67273802-3930-44c0-8ad8-2156fbef69ee" />
+        <node concept="19SGf9" id="1spse2eiClS" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiClT" role="19SJt6">
+            <property role="19SUeA" value="De ambtenaren belast met de grensbewaking, stellen in het reis- of identiteitspapier van de vreemdeling die toegang tot Nederland heeft en die Nederland langs een grensdoorlaatpost in- of uitreist een aantekening als bedoeld in , waaruit blijkt langs welke grensdoorlaatpost en op welke datum de in- of uitreis heeft plaatsgevonden.artikel 4.24, eerste lid, onder a en h" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiClU" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/fcde8051-bac5-47dc-a696-e511733db9fd" />
+        <node concept="19SGf9" id="1spse2eiClV" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiClW" role="19SJt6">
+            <property role="19SUeA" value="Bij de aantekening, welke ingevolge het eerste lid wordt gesteld in het reis- of identiteitspapier van een vreemdeling die Nederland inreist, wordt vermeld het aantal in gezelschap van de houder van dat document reizende vreemdelingen dat daarin is opgenomen of staat bijgeschreven. Bij inreis in Nederland van een vreemdeling, reizende in groepsverband op een collectief paspoort of op een collectieve lijst, worden de namen van de in het document opgenomen vreemdelingen die zich niet bij het gezelschap bevinden of aan wie de toegang tot Nederland wordt geweigerd, door de ambtenaar, belast met de grensbewaking, doorgehaald." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiClX">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling2Artikel4.26" />
+    <property role="1N0jUS" value="426" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiClY" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiClZ" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/d6666b31-7a39-446f-8eab-bfd9c90deb24" />
+        <node concept="19SGf9" id="1spse2eiCm0" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCm1" role="19SJt6">
+            <property role="19SUeA" value="De ambtenaren belast met de grensbewaking, stellen in het reis- of identiteitspapier van een vreemdeling een aantekening als bedoeld in , inhoudende dat de vreemdeling zich binnen drie dagen bij de korpschef, onder vermelding van de plaats, moet melden, indien daartoe naar het oordeel van de ambtenaar belast met de grensbewaking in het belang van het toezicht op vreemdelingen gegronde reden bestaat. Deze aantekening kan ook geplaatst worden in een bijzonder doorlaatbewijs.artikel 4.24, eerste lid, onder d" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCm2">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling2Artikel4.27" />
+    <property role="1N0jUS" value="427" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCm3" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCm4" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/50b0014b-9f0e-41b4-b076-c373471768d7" />
+        <node concept="19SGf9" id="1spse2eiCm5" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCm6" role="19SJt6">
+            <property role="19SUeA" value="De ambtenaren belast met de grensbewaking, stellen in het reis- of identiteitspapier van een vreemdeling een aantekening als bedoeld in , indien zij vermoeden dat de vreemdeling andermaal zal trachten Nederland in te reizen zonder te voldoen aan de vereisten voor toegang, bedoeld in artikel 6 van de Schengengrenscode of .artikel 4.24, eerste lid, onder fartikel 3 van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCm7" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/8bbe7ee8-54eb-4674-983a-ad234df42c7b" />
+        <node concept="19SGf9" id="1spse2eiCm8" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCm9" role="19SJt6">
+            <property role="19SUeA" value="Uit de aantekening, bedoeld in het eerste lid, blijkt dat de toegang is geweigerd, met vermelding van de datum en zo nodig de grond waarop deze weigering berust." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCma">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling5Paragraaf1Artikel3.105f" />
+    <property role="1N0jUS" value="428" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCmb" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCmc" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/122bce74-df50-42a2-bc74-86b0d8e5f843" />
+        <node concept="19SGf9" id="1spse2eiCmd" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCme" role="19SJt6">
+            <property role="19SUeA" value="De verblijfsvergunning asiel voor bepaalde tijd die is verleend op grond van  wordt ingetrokken dan wel de aanvraag tot het verlengen van de geldigheidsduur ervan wordt afgewezen, indien sprake is van de situatie, bedoeld in .artikel 29, eerste lid, onder b, van die wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCmf" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/d0b09baf-a78d-4896-9ec9-0acc5edc1944" />
+        <node concept="19SGf9" id="1spse2eiCmg" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCmh" role="19SJt6">
+            <property role="19SUeA" value="De verblijfsvergunning asiel voor bepaalde tijd die is verleend op grond van  wordt slechts ingetrokken dan wel de aanvraag tot het verlengen van de geldigheidsduur ervan wordt slechts afgewezen op grond van , indien er ernstige redenen zijn om aan te nemen dat:artikel 29, eerste lid, onder b, van die wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCmi" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/db09a7af-1a49-472b-8a2e-cff02398a680" />
+        <node concept="19SGf9" id="1spse2eiCmj" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCmk" role="19SJt6">
+            <property role="19SUeA" value="de vreemdeling een misdrijf tegen de vrede, een oorlogsmisdrijf of een misdrijf tegen de menselijkheid heeft gepleegd, zoals gedefinieerd in de internationale instrumenten waarmee wordt beoogd regelingen te treffen ten aanzien van dergelijke misdrijven;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCml" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/7661468b-0adc-47f3-8b0d-82339bbef038" />
+        <node concept="19SGf9" id="1spse2eiCmm" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCmn" role="19SJt6">
+            <property role="19SUeA" value="de vreemdeling een ernstig misdrijf heeft gepleegd;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCmo" role="3MKX6F">
+        <property role="3MLT8O" value="c" />
+        <property role="1hTQn4" value="https://calculemus.org/06f8235b-5b1f-45fe-9bd7-d651be14a64c" />
+        <node concept="19SGf9" id="1spse2eiCmp" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCmq" role="19SJt6">
+            <property role="19SUeA" value="de vreemdeling zich schuldig heeft gemaakt aan daden die in strijd zijn met de doelstellingen en beginselen van de Verenigde Naties als vervat in de preambule en de artikelen 1 en 2 van het Handvest van de Verenigde Naties;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCmr" role="3MKX6F">
+        <property role="3MLT8O" value="d" />
+        <property role="1hTQn4" value="https://calculemus.org/40faedc0-1ca3-4289-bd3e-8702fe4670f4" />
+        <node concept="19SGf9" id="1spse2eiCms" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCmt" role="19SJt6">
+            <property role="19SUeA" value="de vreemdeling een gevaar vormt voor de gemeenschap of voor de nationale veiligheid; of" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCmu" role="3MKX6F">
+        <property role="3MLT8O" value="e" />
+        <property role="1hTQn4" value="https://calculemus.org/442d5b0c-63fc-4b5d-93c1-ac7c47d01151" />
+        <node concept="19SGf9" id="1spse2eiCmv" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCmw" role="19SJt6">
+            <property role="19SUeA" value="de vreemdeling heeft aangezet tot of anderszins heeft deelgenomen aan de onder a tot en met c genoemde misdrijven of daden." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCmx" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/13980c4a-3ba3-4e71-b830-dbf48d0c6454" />
+        <node concept="19SGf9" id="1spse2eiCmy" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCmz" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen nadere regels worden gesteld met betrekking tot de beoordeling of sprake is van de situatie, bedoeld in het eerste lid." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCm$">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling2Artikel4.28" />
+    <property role="1N0jUS" value="428" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCm_" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCmA" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/ccaf1992-eb48-491c-a11c-c255cae445d2" />
+        <node concept="19SGf9" id="1spse2eiCmB" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCmC" role="19SJt6">
+            <property role="19SUeA" value="De ambtenaren belast met de grensbewaking, stellen in het reis- of identiteitspapier van een vreemdeling een aantekening als bedoeld in , indien zij vermoeden dat de vreemdeling zal trachten zich andermaal naar Nederland te begeven zonder te voldoen aan de vereisten voor toegang tot Nederland. Een zodanige aantekening wordt niet gesteld indien het vertrek, de uitzetting of de doorreis van de vreemdeling door of diens toegang tot een derde land daardoor wordt bemoeilijkt.artikel 4.24, eerste lid, onder g" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCmD" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/afb0f688-de65-44d7-beca-7683b5857a3c" />
+        <node concept="19SGf9" id="1spse2eiCmE" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCmF" role="19SJt6">
+            <property role="19SUeA" value="Uit de aantekening, bedoeld in het eerste lid, blijkt het vertrek of de uitzetting van de vreemdeling, met vermelding van de datum en zo nodig de reden van het vertrek of de uitzetting." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCmG">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling2Artikel4.29" />
+    <property role="1N0jUS" value="429" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCmH" role="3MKX6D">
+      <node concept="3MKX5h" id="1spse2eiCmI" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/46bf88a2-6613-4fec-bf86-9bfea3da747e" />
+        <node concept="3MKX5i" id="1spse2eiCmJ" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/e8840caf-d484-4442-aa4f-293c7cd6a36a" />
+          <node concept="19SGf9" id="1spse2eiCmK" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiCmL" role="19SJt6">
+              <property role="19SUeA" value="De ambtenaren belast met het toezicht op vreemdelingen, stellen in het reis- en identiteitspapier van een vreemdeling aantekeningen omtrent:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiCmM" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/1b26932b-d295-43f0-ba74-8b1693f2e6a5" />
+          <node concept="3MKX6G" id="1spse2eiCmN" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/cc050e36-e8f8-45f3-aac5-6d896b9172c2" />
+            <node concept="19SGf9" id="1spse2eiCmO" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCmP" role="19SJt6">
+                <property role="19SUeA" value="aanmelding of vervoeging bij de korpschef;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCmQ" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/d8428eab-9be1-4c6c-a1bd-38e31c195e17" />
+            <node concept="19SGf9" id="1spse2eiCmR" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCmS" role="19SJt6">
+                <property role="19SUeA" value="de woon- of verblijfplaats binnen Nederland en vertrek naar het buitenland;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCmT" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/adffe826-bc46-4b5f-920b-ba7b6a1fe599" />
+            <node concept="19SGf9" id="1spse2eiCmU" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCmV" role="19SJt6">
+                <property role="19SUeA" value="het opleggen van een individuele verplichting tot periodieke aanmelding overeenkomstig ;artikel 54, derde lid, van de Wet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCmW" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/837a6ea3-446b-4aa3-84b7-c73f1fa5fbb4" />
+            <node concept="19SGf9" id="1spse2eiCmX" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCmY" role="19SJt6">
+                <property role="19SUeA" value="het beperken van de vrijheid van beweging overeenkomstig ;artikel 56 van de Wet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCmZ" role="3MKX6F">
+            <property role="3MLT8O" value="e" />
+            <property role="1hTQn4" value="https://calculemus.org/9f1e23bb-c559-4034-b610-b253037cf2ad" />
+            <node concept="19SGf9" id="1spse2eiCn0" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCn1" role="19SJt6">
+                <property role="19SUeA" value="vertrek of uitzetting uit Nederland;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCn2" role="3MKX6F">
+            <property role="3MLT8O" value="f" />
+            <property role="1hTQn4" value="https://calculemus.org/8906b411-5318-4481-a149-fb6e354c7e0a" />
+            <node concept="19SGf9" id="1spse2eiCn3" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCn4" role="19SJt6">
+                <property role="19SUeA" value="ongewenstverklaring;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCn5" role="3MKX6F">
+            <property role="3MLT8O" value="g" />
+            <property role="1hTQn4" value="https://calculemus.org/74ac6291-b257-429d-b579-0fd0cf541f9e" />
+            <node concept="19SGf9" id="1spse2eiCn6" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCn7" role="19SJt6">
+                <property role="19SUeA" value="de datum en plaats van inreis in Nederland, en" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCn8" role="3MKX6F">
+            <property role="3MLT8O" value="h" />
+            <property role="1hTQn4" value="https://calculemus.org/0c66040f-7b28-468c-8898-c6772da93385" />
+            <node concept="19SGf9" id="1spse2eiCn9" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCna" role="19SJt6">
+                <property role="19SUeA" value="vervallen door vernummering;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCnb" role="3MKX6F">
+            <property role="3MLT8O" value="i" />
+            <property role="1hTQn4" value="https://calculemus.org/b6f14df1-0140-41a4-b3f7-bcdd2267efc3" />
+            <node concept="19SGf9" id="1spse2eiCnc" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCnd" role="19SJt6">
+                <property role="19SUeA" value="vervallen door vernummering;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCne" role="3MKX6F">
+            <property role="3MLT8O" value="j" />
+            <property role="1hTQn4" value="https://calculemus.org/01fb6384-82d1-4bfc-9510-1dfb0e1115d9" />
+            <node concept="19SGf9" id="1spse2eiCnf" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCng" role="19SJt6">
+                <property role="19SUeA" value="het inreisverbod." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCnh" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/5dc6b229-ba63-4b3f-9b65-975c2ef227f4" />
+        <node concept="19SGf9" id="1spse2eiCni" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCnj" role="19SJt6">
+            <property role="19SUeA" value="Elke doorhaling of vervallenverklaring van een in het reis- of identiteitspapier van een vreemdeling gestelde aantekening wordt door de ambtenaar die de doorhaling of vervallenverklaring verricht, gedateerd en van diens paraaf voorzien." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiCnk" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/f1d91513-e7fd-4efa-a3ae-9da921ef3405" />
+        <node concept="3MKX5i" id="1spse2eiCnl" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/dc81a74c-6f42-4cce-ab08-1b6d0c7c5c11" />
+          <node concept="19SGf9" id="1spse2eiCnm" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiCnn" role="19SJt6">
+              <property role="19SUeA" value="In afwijking van het eerste lid kan een aantekening op een aan de vreemdeling te verstrekken afzonderlijk inlegblad worden gesteld, indien:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiCno" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/b9f5ed57-20bf-4a32-b564-877347813db2" />
+          <node concept="3MKX6G" id="1spse2eiCnp" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/6c2a7492-fc8a-494a-8395-244228a1ac3e" />
+            <node concept="19SGf9" id="1spse2eiCnq" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCnr" role="19SJt6">
+                <property role="19SUeA" value="het reis- of identiteitspapier van de vreemdeling zich niet voor het stellen van een zodanige aantekening leent;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCns" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/59ca734d-035a-4b1b-8598-39ef24ecd630" />
+            <node concept="19SGf9" id="1spse2eiCnt" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCnu" role="19SJt6">
+                <property role="19SUeA" value="de vreemdeling houder is van een buitenlands vreemdelingen- of vluchtelingenpaspoort;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCnv" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/0e3bd3f7-a7f4-4643-a75f-7bef37a8784b" />
+            <node concept="19SGf9" id="1spse2eiCnw" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCnx" role="19SJt6">
+                <property role="19SUeA" value="de vreemdeling geen geldig document voor grensoverschrijding heeft, of" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCny" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/6777e24c-261b-4a10-a87d-057a1b6933bd" />
+            <node concept="19SGf9" id="1spse2eiCnz" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCn$" role="19SJt6">
+                <property role="19SUeA" value="de vreemdeling houder is van een document als bedoeld in , en niet in het bezit is van een geldig document voor grensoverschrijding.artikel 4.21, eerste lid, onder a, b, c of d" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCn_">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling2Artikel4.30" />
+    <property role="1N0jUS" value="430" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCnA" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCnB" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/218e4bd9-0949-4767-a61a-504836465a37" />
+        <node concept="19SGf9" id="1spse2eiCnC" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCnD" role="19SJt6">
+            <property role="19SUeA" value="De aantekeningen, bedoeld in , hebben betrekking op de aanmelding ingevolge de .artikel 4.29, eerste lid, onder a" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCnE" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/29ae617f-e94f-4a7a-a6f0-cdb028ee5376" />
+        <node concept="19SGf9" id="1spse2eiCnF" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCnG" role="19SJt6">
+            <property role="19SUeA" value="Uit de aantekening blijkt de datum van aanmelding." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCnH" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/374f1bb2-712e-4910-8ac3-3fd049afb06d" />
+        <node concept="19SGf9" id="1spse2eiCnI" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCnJ" role="19SJt6">
+            <property role="19SUeA" value="Uit de aantekening blijkt of het de vreemdeling is toegestaan arbeid te verrichten en of voor deze arbeid ingevolge de  een tewerkstellingsvergunning of gecombineerde vergunning vereist is.Wet arbeid vreemdelingen" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCnK" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/b8ae7622-896b-43af-a637-47ddaa0d24ce" />
+        <node concept="19SGf9" id="1spse2eiCnL" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCnM" role="19SJt6">
+            <property role="19SUeA" value="Indien het betreft een vreemdeling die naar Nederland is gekomen om als zeeman werk te zoeken aan boord van een zeeschip kan de aantekening worden aangevuld met een zinsnede waaruit zulks blijkt en wordt een uiterlijke datum van verblijf opgenomen." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCnN">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling2Artikel4.31" />
+    <property role="1N0jUS" value="431" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCnO" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCnP" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/5209bbe5-bfd6-40b2-a9ca-9c96a578ebe6" />
+        <node concept="19SGf9" id="1spse2eiCnQ" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCnR" role="19SJt6">
+            <property role="19SUeA" value="De aantekening, bedoeld in , wordt gesteld indien op grond van  uitzetting van de vreemdeling achterwege blijft. De datum waarop de aanvraag is ontvangen wordt eveneens aangetekend. Indien de aanvraag wordt afgewezen, wordt vervallen aangetekend.artikel 4.29, eerste lid, onder e" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCnS" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/6b0db0b3-b5e1-414f-b546-4be956fa56d9" />
+        <node concept="19SGf9" id="1spse2eiCnT" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCnU" role="19SJt6">
+            <property role="19SUeA" value="Uit de aantekening blijkt of het de vreemdeling is toegestaan arbeid te verrichten en of voor deze arbeid ingevolge de  een tewerkstellingsvergunning of gecombineerde vergunning vereist is.Wet arbeid vreemdelingen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCnV">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling2Artikel4.32" />
+    <property role="1N0jUS" value="432" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCnW" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCnX" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/d85b2f5f-04ca-45f1-8bb2-473b8459f178" />
+        <node concept="19SGf9" id="1spse2eiCnY" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCnZ" role="19SJt6">
+            <property role="19SUeA" value="Uit de aantekening, bedoeld in , blijkt op welke datum de vreemdeling is veranderd van woon- of verblijfplaats binnen Nederland.artikel 4.29, eerste lid, onder b" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCo0" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/3e7853e2-fcae-4015-a069-cf49e704d1f6" />
+        <node concept="19SGf9" id="1spse2eiCo1" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCo2" role="19SJt6">
+            <property role="19SUeA" value="De aantekening, bedoeld in het eerste lid, wordt door de korpschef gesteld." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCo3">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling2Artikel4.33" />
+    <property role="1N0jUS" value="433" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCo4" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCo5" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/79afcbd2-9238-4775-bf5f-12b4e5f54ef3" />
+        <node concept="19SGf9" id="1spse2eiCo6" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCo7" role="19SJt6">
+            <property role="19SUeA" value="Uit de aantekening, bedoeld in , blijkt de verplichte periode van aanmelding overeenkomstig  alsmede eventuele verdere bijzonderheden.artikel 4.29, eerste lid, onder cartikel 54, derde lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCo8" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/461cacee-a703-4db4-a435-4f94ecdf000c" />
+        <node concept="19SGf9" id="1spse2eiCo9" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCoa" role="19SJt6">
+            <property role="19SUeA" value="Nadat de vreemdeling voor de eerste maal heeft voldaan aan de verplichting tot periodieke aanmelding ingevolge , kunnen de daarop volgende aanmeldingen worden aangetekend door in het reis- of identiteitspapier de datum van de aanmelding te stellen.artikel 4.51" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCob" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/5261ebe1-daa1-466a-935a-f0b995655e6f" />
+        <node concept="19SGf9" id="1spse2eiCoc" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCod" role="19SJt6">
+            <property role="19SUeA" value="Uit de aantekening, bedoeld in het eerste en tweede lid, blijkt of het de vreemdeling is toegestaan arbeid te verrichten en of voor deze arbeid ingevolge de  een tewerkstellingsvergunning of gecombineerde vergunning vereist is.Wet arbeid vreemdelingen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCoe">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling2Artikel4.34" />
+    <property role="1N0jUS" value="434" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCof" role="3MKX6D">
+      <node concept="3MKX5h" id="1spse2eiCog" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/45b81763-7c60-4875-8500-981bff712941" />
+        <node concept="3MKX5i" id="1spse2eiCoh" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/40737b8b-ade3-4a29-bfee-f28fe5e597f1" />
+          <node concept="19SGf9" id="1spse2eiCoi" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiCoj" role="19SJt6">
+              <property role="19SUeA" value="De aantekeningen, bedoeld in , betreffen:artikel 4.29, eerste lid, onder e" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiCok" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/e2b97474-c9eb-4b33-aea7-606914c22692" />
+          <node concept="3MKX6G" id="1spse2eiCol" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/9aea8233-2cc7-4c3e-8988-4033a430e9c3" />
+            <node concept="19SGf9" id="1spse2eiCom" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCon" role="19SJt6">
+                <property role="19SUeA" value="een aantekening waaruit de uiterlijke datum van vertrek blijkt, indien aan de vreemdeling overeenkomstig  een termijn is gegund waarbinnen hij Nederland uit eigen beweging dient te verlaten;artikel 62 van de Wet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCoo" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/9cc7a24a-156f-443c-89bb-22756886ecae" />
+            <node concept="19SGf9" id="1spse2eiCop" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCoq" role="19SJt6">
+                <property role="19SUeA" value="een aantekening waaruit blijkt tot welke datum uitzetting van de vreemdeling achterwege blijft ingevolge ;artikel 64 van de Wet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCor" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/5970f6da-6570-4eb6-9054-a094135f34e3" />
+            <node concept="19SGf9" id="1spse2eiCos" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCot" role="19SJt6">
+                <property role="19SUeA" value="een aantekening waaruit de datum van indienen van een bezwaarschrift blijkt, indien de uitzetting achterwege blijft hangende een beslissing op een door de vreemdeling ingediend bezwaar, eventueel met doorhaling van de aantekening, bedoeld onder a;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCou" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/72b3c09c-87a4-4aae-853b-90096335bdc7" />
+            <node concept="19SGf9" id="1spse2eiCov" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCow" role="19SJt6">
+                <property role="19SUeA" value="een aantekening omtrent uitzetting, indien naar het oordeel van de korpschef of de bevelhebber van de Koninklijke marechaussee gegronde reden bestaat om te vermoeden dat de vreemdeling zal trachten naar Nederland terug te keren zonder te voldoen aan de vereisten voor toegang tot Nederland." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCox" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/c6e6b1d8-3e5c-40f8-800b-6865328abc7f" />
+        <node concept="19SGf9" id="1spse2eiCoy" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCoz" role="19SJt6">
+            <property role="19SUeA" value="Bij een aantekening als bedoeld in het eerste lid, onder b, wordt tevens gesteld dat arbeid niet is toegestaan." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCo$" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/3653ad0e-3126-4db1-a9a8-bc0d13294ed7" />
+        <node concept="19SGf9" id="1spse2eiCo_" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCoA" role="19SJt6">
+            <property role="19SUeA" value="De aantekening, bedoeld in het eerste lid, onder d, wordt niet gesteld, indien het vertrek, de uitzetting of de doorreis van de vreemdeling door, of diens toelating tot een derde land daardoor wordt bemoeilijkt." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCoB">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling2Artikel4.35" />
+    <property role="1N0jUS" value="435" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCoC" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCoD" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/0e82f0c6-4f5e-499d-81cb-18df0c29e170" />
+        <node concept="19SGf9" id="1spse2eiCoE" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCoF" role="19SJt6">
+            <property role="19SUeA" value="De aantekening, bedoeld in , wordt geplaatst, indien de korpschef of de bevelhebber van de Koninklijke marechaussee vermoedt dat de vreemdeling zal trachten naar Nederland terug te keren zonder te voldoen aan de vereisten voor toegang tot Nederland. De aantekening wordt niet gesteld indien het vertrek, de uitzetting of de doorreis van de vreemdeling door, of diens toelating tot een derde land daardoor wordt bemoeilijkt.artikel 4.29, eerste lid, onder f" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCoG" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/4a08766d-5554-4e85-871f-ea1e10c5d9f7" />
+        <node concept="19SGf9" id="1spse2eiCoH" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCoI" role="19SJt6">
+            <property role="19SUeA" value="Uit de aantekening blijkt de datum waarop de vreemdeling ongewenst is verklaard." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCoJ">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling2Artikel4.36" />
+    <property role="1N0jUS" value="436" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCoK" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCoL" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/126e0e15-34cd-4a52-90c5-156e2db6215a" />
+        <node concept="19SGf9" id="1spse2eiCoM" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCoN" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen modellen van de aantekeningen, bedoeld in deze afdeling, worden vastgesteld." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCoO">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling3Paragraaf1Artikel4.37" />
+    <property role="1N0jUS" value="437" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCoP" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCoQ" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/eda0a859-1b43-46f4-8eea-67e83566dd2a" />
+        <node concept="19SGf9" id="1spse2eiCoR" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCoS" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling die rechtmatig verblijft als bedoeld in , is verplicht om in geval van:artikel 8, onder a tot en met h, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCoT" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/10697d90-bdcd-47d1-9ffa-84bc2c8c404a" />
+        <node concept="19SGf9" id="1spse2eiCoU" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCoV" role="19SJt6">
+            <property role="19SUeA" value="verandering van adres binnen de gemeente waar de vreemdeling woont of verblijft, hiervan binnen vijf dagen kennis te geven aan Onze Minister;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCoW" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/2f9cf7ba-6dc1-4be9-a256-36292b2083a7" />
+        <node concept="19SGf9" id="1spse2eiCoX" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCoY" role="19SJt6">
+            <property role="19SUeA" value="verandering van woon- of verblijfplaats binnen Nederland, onder opgave van het nieuwe adres, hiervan binnen vijf dagen na aankomst in de nieuwe woon- of verblijfplaats in persoon kennis te geven aan Onze Minister;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCoZ" role="3MKX6F">
+        <property role="3MLT8O" value="c" />
+        <property role="1hTQn4" value="https://calculemus.org/8db45a2e-4386-41c3-96f0-217a8624afad" />
+        <node concept="19SGf9" id="1spse2eiCp0" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCp1" role="19SJt6">
+            <property role="19SUeA" value="vertrek naar het buitenland, zo mogelijk onder opgave van het nieuwe adres, hiervan vr het vertrek kennis te geven aan Onze Minister." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCp2" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/993cfd4d-3bc9-4f2d-bd46-2c926e5b8b0f" />
+        <node concept="19SGf9" id="1spse2eiCp3" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCp4" role="19SJt6">
+            <property role="19SUeA" value="De in het eerste lid bedoelde kennisgeving blijft achterwege indien de vreemdeling als ingezetene met een adres in de nieuwe woonplaats is ingeschreven in de basisregistratie personen." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCp5" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/fd64b913-5e65-4427-a282-3555fff25fab" />
+        <node concept="19SGf9" id="1spse2eiCp6" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCp7" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling die niet rechtmatig verblijft als bedoeld in , geeft kennis van verandering van woon- of verblijfplaats binnen Nederland als bedoeld in het eerste lid, onder b, indien Onze Minister dat vordert.artikel 8, onder a tot en met h, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCp8" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/07cca6cf-1fa4-4623-a520-f45da3a7e0ad" />
+        <node concept="19SGf9" id="1spse2eiCp9" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCpa" role="19SJt6">
+            <property role="19SUeA" value="De in het eerste en derde lid omschreven verplichtingen rusten ten aanzien van kinderen beneden de leeftijd van twaalf jaar op de wettelijke vertegenwoordiger. Voor kinderen van twaalf jaar en ouder kan aan deze verplichtingen ook worden voldaan door de wettelijke vertegenwoordiger." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCpb" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/d2a98ccc-fe88-4457-87da-b3be45496487" />
+        <node concept="19SGf9" id="1spse2eiCpc" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCpd" role="19SJt6">
+            <property role="19SUeA" value="De in het eerste en derde lid omschreven verplichtingen rusten niet op de onderdaan van een staat die partij is bij het Verdrag betreffende de werking van de Europese Unie, de Overeenkomst betreffende de Europese Economische Ruimte of de onderdaan van Zwitserland met verblijfsrecht van maximaal drie maanden als bedoeld in .artikel 8.11" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCpe" role="3MKX6F">
+        <property role="3MLT8O" value="6" />
+        <property role="1hTQn4" value="https://calculemus.org/984c821a-4fe6-4310-a84b-af5bb9f3174e" />
+        <node concept="19SGf9" id="1spse2eiCpf" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCpg" role="19SJt6">
+            <property role="19SUeA" value="Van vertrek naar het buitenland wordt geen kennis gegeven door de vreemdeling die rechtmatig verblijft als bedoeld in , indien de vreemdeling zijn hoofdverblijf niet naar het buitenland verplaatst.artikel 8, onder a tot en met e, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCph">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling3Paragraaf2Artikel4.38" />
+    <property role="1N0jUS" value="438" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCpi" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCpj" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/6116dd53-921d-4403-a794-683248af1e10" />
+        <node concept="19SGf9" id="1spse2eiCpk" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCpl" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling verstrekt op vordering van Onze Minister de gegevens, die nodig zijn voor van de toepassing van het bepaalde bij of krachtens de  en waarover hij redelijkerwijs kan beschikken, binnen de in de vordering aangegeven tijd.Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCpm" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/3d2c3025-0c16-4706-bae1-7da46f748664" />
+        <node concept="19SGf9" id="1spse2eiCpn" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCpo" role="19SJt6">
+            <property role="19SUeA" value="Indien daartoe in het belang van het toezicht op vreemdelingen gegronde reden bestaat kan de in het voorgaande lid bedoelde vordering inhouden dat de vreemdeling de gegevens in persoon verstrekt." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCpp" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/474238d8-074c-4227-ba1b-59994e167fca" />
+        <node concept="19SGf9" id="1spse2eiCpq" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCpr" role="19SJt6">
+            <property role="19SUeA" value="In het belang van de vreemdelingenregistratie kan een vordering als bedoeld in het eerste lid bij algemene bekendmaking worden gedaan." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCps" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/28f5476f-e996-4810-a4cd-62b2dbb0df66" />
+        <node concept="19SGf9" id="1spse2eiCpt" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCpu" role="19SJt6">
+            <property role="19SUeA" value="Indien de vreemdeling jonger is dan twaalf jaar, dan kan de vordering, bedoeld in het eerste tot en met derde lid, worden gericht tot de wettelijke vertegenwoordiger." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCpv">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling3Paragraaf2Artikel4.39" />
+    <property role="1N0jUS" value="439" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCpw" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCpx" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/3e6ac226-0789-4b80-8083-790cd1890d58" />
+        <node concept="19SGf9" id="1spse2eiCpy" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCpz" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling die geen rechtmatig verblijf heeft, doet onmiddellijk van zijn aanwezigheid in persoon mededeling aan de korpschef." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCp$">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling3Paragraaf2Artikel4.40" />
+    <property role="1N0jUS" value="440" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCp_" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCpA" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/488eccf9-bc74-4ab6-8315-e710c1b4a685" />
+        <node concept="19SGf9" id="1spse2eiCpB" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCpC" role="19SJt6">
+            <property role="19SUeA" value="Personen die nachtverblijf verschaffen aan een vreemdeling, van wie zij weten of redelijkerwijs kunnen vermoeden dat deze vreemdeling niet rechtmatig in Nederland verblijft als bedoeld in , doen daarvan onmiddellijk mededeling aan de korpschef.artikel 8 van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCpD">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling3Paragraaf2Artikel4.41" />
+    <property role="1N0jUS" value="441" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCpE" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCpF" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/fc1f2ba0-eba8-4a3d-b74a-a8d77bdfe4d8" />
+        <node concept="19SGf9" id="1spse2eiCpG" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCpH" role="19SJt6">
+            <property role="19SUeA" value="Werkgevers, van wie bij Onze Minister bekend is dat zij een vreemdeling in dienst hebben gehad die niet rechtmatig verbleef of aan wie het niet was toegestaan arbeid te verrichten, verstrekken aan Onze Minister, op diens vordering, onmiddellijk de gegevens omtrent de vreemdeling die bij hen tewerkgesteld wordt, in dienst is of in dienst is geweest. Onze Minister kan een termijn stellen waarbinnen de gegevens worden verstrekt." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCpI">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling5Paragraaf1Artikel3.106a" />
+    <property role="1N0jUS" value="442" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCpJ" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCpK" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/ecda0f9e-8072-492d-ae0e-45605dbed43b" />
+        <node concept="19SGf9" id="1spse2eiCpL" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCpM" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag tot het verlenen van een verblijfsvergunning asiel voor bepaalde tijd wordt slechts niet-ontvankelijk verklaard op grond van  indien, naar het oordeel van Onze Minister, alle relevante feiten en omstandigheden in aanmerking nemend, de vreemdeling in het betrokken derde land overeenkomstig de volgende beginselen zal worden behandeld:artikel 30a, eerste lid, onder a, b of c, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCpN" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/66fcbd60-a5cb-4430-951c-03d3b2df85e1" />
+        <node concept="19SGf9" id="1spse2eiCpO" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCpP" role="19SJt6">
+            <property role="19SUeA" value="het leven en de vrijheid worden niet bedreigd om redenen van ras, religie, nationaliteit, lidmaatschap van een bepaalde sociale groep of politieke overtuiging, en" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCpQ" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/265d34de-2cc6-4e9d-89dd-e46493ae86fb" />
+        <node concept="19SGf9" id="1spse2eiCpR" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCpS" role="19SJt6">
+            <property role="19SUeA" value="er bestaat geen risico op ernstige schade als bedoeld in , enartikel 29, eerste lid, onder b, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCpT" role="3MKX6F">
+        <property role="3MLT8O" value="c" />
+        <property role="1hTQn4" value="https://calculemus.org/0ecea056-3008-4e06-b901-669fe3da98a7" />
+        <node concept="19SGf9" id="1spse2eiCpU" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCpV" role="19SJt6">
+            <property role="19SUeA" value="het beginsel van non-refoulement overeenkomstig het Vluchtelingenverdrag wordt nageleefd, en" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCpW" role="3MKX6F">
+        <property role="3MLT8O" value="d" />
+        <property role="1hTQn4" value="https://calculemus.org/ee3bea13-be39-4304-9b01-d09e5ceb8425" />
+        <node concept="19SGf9" id="1spse2eiCpX" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCpY" role="19SJt6">
+            <property role="19SUeA" value="het verbod op verwijdering in strijd met het recht op vrijwaring tegen foltering en andere wrede, onmenselijke of vernederende behandeling, zoals neergelegd in het internationaal recht, wordt nageleefd, en" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCpZ" role="3MKX6F">
+        <property role="3MLT8O" value="e" />
+        <property role="1hTQn4" value="https://calculemus.org/55147062-a2d5-4cbd-9e2c-05acc001aad4" />
+        <node concept="19SGf9" id="1spse2eiCq0" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCq1" role="19SJt6">
+            <property role="19SUeA" value="de mogelijkheid bestaat om om de vluchtelingenstatus te verzoeken en, indien hij als vluchteling wordt erkend, bescherming te ontvangen overeenkomstig het Vluchtelingenverdrag." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCq2" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/8865aca8-7cd2-4768-9b37-844dc8e21797" />
+        <node concept="19SGf9" id="1spse2eiCq3" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCq4" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag tot het verlenen van een verblijfsvergunning asiel voor bepaalde tijd wordt slechts niet-ontvankelijk verklaard op grond van  indien de vreemdeling een zodanige band heeft met het betrokken derde land dat het voor hem redelijk zou zijn naar dat land te gaan.artikel 30a, eerste lid, onder a, b of c, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCq5" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/b4e401ff-4be7-47e3-821e-97f1fea551b8" />
+        <node concept="19SGf9" id="1spse2eiCq6" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCq7" role="19SJt6">
+            <property role="19SUeA" value="Bij de beoordeling of sprake is van een band als bedoeld in het tweede lid, worden alle relevante feiten en omstandigheden betrokken, waaronder begrepen de aard, duur en omstandigheden van het eerder verblijf." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCq8" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/f3e8a507-1d8b-48da-9d0e-a630903546aa" />
+        <node concept="19SGf9" id="1spse2eiCq9" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCqa" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling worden nadere regels gesteld omtrent de toepassing van het eerste tot en met derde lid." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCqb">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling3Paragraaf2Artikel4.42" />
+    <property role="1N0jUS" value="442" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCqc" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCqd" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/3fb10801-3de0-4635-8809-153b2de1393c" />
+        <node concept="19SGf9" id="1spse2eiCqe" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCqf" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling die rechtmatig verblijft als bedoeld in  en die arbeid gaat zoeken of arbeid gaat verrichten, deelt dit onmiddellijk mee aan de korpschef.artikel 8, onder i, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCqg" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/47d81ef7-c99f-46c5-a459-b06df2a8fb07" />
+        <node concept="19SGf9" id="1spse2eiCqh" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCqi" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid is niet van toepassing op de vreemdeling die:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCqj" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/ba4a2253-0ccd-43f7-90e9-ba7f0f3b0631" />
+        <node concept="19SGf9" id="1spse2eiCqk" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCql" role="19SJt6">
+            <property role="19SUeA" value="houder is van een geldige machtiging tot voorlopig verblijf afgegeven voor een verblijfsdoel waarbij het verrichten van arbeid is toegestaan;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCqm" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/9952a073-c374-4d29-9c8f-c7154c0bb54e" />
+        <node concept="19SGf9" id="1spse2eiCqn" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCqo" role="19SJt6">
+            <property role="19SUeA" value="kan aantonen dat hij naar Nederland is gekomen voor het verrichten van arbeid gedurende ten hoogste 90 dagen, te rekenen vanaf het tijdstip van zijn binnenkomst;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCqp" role="3MKX6F">
+        <property role="3MLT8O" value="c" />
+        <property role="1hTQn4" value="https://calculemus.org/fe7094c1-14c4-4593-8c6c-3ac6ba488854" />
+        <node concept="19SGf9" id="1spse2eiCqq" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCqr" role="19SJt6">
+            <property role="19SUeA" value="naar Nederland is gekomen om aan te monsteren of als zeeman werk te zoeken aan boord van een zeeschip, of" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCqs" role="3MKX6F">
+        <property role="3MLT8O" value="d" />
+        <property role="1hTQn4" value="https://calculemus.org/913e5b87-2a82-49d9-9caa-17ec3fd7a22c" />
+        <node concept="19SGf9" id="1spse2eiCqt" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCqu" role="19SJt6">
+            <property role="19SUeA" value="naar Nederland is gekomen voor een verblijf op grond van .artikel 3.3, vierde of vijfde lid" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCqv" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/7d475ae7-a112-4215-9053-ff950dc44dfa" />
+        <node concept="19SGf9" id="1spse2eiCqw" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCqx" role="19SJt6">
+            <property role="19SUeA" value="Het tweede lid is niet van toepassing indien de arbeid geheel of gedeeltelijk bestaat uit het verrichten van seksuele handelingen met derden of het verlenen van seksuele diensten aan derden, tenzij de vreemdeling gemeenschapsonderdaan is." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCqy">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling3Paragraaf2Artikel4.43" />
+    <property role="1N0jUS" value="443" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCqz" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCq$" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/ad14352f-9c23-4528-8d76-e0354c972f4f" />
+        <node concept="19SGf9" id="1spse2eiCq_" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCqA" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling die rechtmatig verblijft als bedoeld in  en die niet langer voldoet aan de beperking waaronder de verblijfsvergunning is verleend, deelt dit binnen vier weken mee aan Onze Minister.artikel 8, onder a, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCqB" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/76f2a3c6-0797-449b-a960-1cfe9482812e" />
+        <node concept="19SGf9" id="1spse2eiCqC" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCqD" role="19SJt6">
+            <property role="19SUeA" value="Onverminderd het eerste lid, stelt de houder van de door Onze Minister afgegeven Europese blauwe kaart, voor zover deze nog geen drie jaar als houder van die kaart in Nederland verblijft, Onze Minister vooraf in kennis van zijn voornemen om een arbeidsovereenkomst te sluiten met een andere werkgever. Hij stelt Onze Minister zo mogelijk vooraf in kennis van zijn werkloosheid en van andere wijzigingen die van belang kunnen zijn voor de intrekking van de Europese blauwe kaart." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCqE">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling3Paragraaf2Artikel4.44" />
+    <property role="1N0jUS" value="444" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCqF" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCqG" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/08adc80e-6511-4961-b0d5-cb09f236f9b9" />
+        <node concept="19SGf9" id="1spse2eiCqH" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCqI" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling die rechtmatig verblijft als bedoeld in  en wiens document, bedoeld in , waaruit het rechtmatig verblijf blijkt, vermist wordt, verloren is gegaan of ondeugdelijk is geworden voor identificatie, doet daarvan onmiddellijk in persoon aangifte bij de korpschef. De korpschef stelt Onze Minister hiervan in kennis.artikel 8, onder a tot en met e, dan wel l, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCqJ">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling3Paragraaf3Artikel4.45" />
+    <property role="1N0jUS" value="445" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCqK" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCqL" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/7b8aba08-6a68-45f1-9bd9-ff8f8cf34a2c" />
+        <node concept="19SGf9" id="1spse2eiCqM" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCqN" role="19SJt6">
+            <property role="19SUeA" value="De medewerking van de vreemdeling, bedoeld in , bestaat uit:artikel 54, eerste lid, onderdeel c, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiCqO" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/745072f7-f7f4-4998-afc3-7fc6bbb64e68" />
+        <node concept="3MKX6G" id="1spse2eiCqP" role="3MKX6F">
+          <property role="3MLT8O" value="a" />
+          <property role="1hTQn4" value="https://calculemus.org/ea72e3ed-8d72-4d8c-a764-d979d41199fe" />
+          <node concept="19SGf9" id="1spse2eiCqQ" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCqR" role="19SJt6">
+              <property role="19SUeA" value="het op vordering van Onze Minister, een ambtenaar belast met de grensbewaking of een ambtenaar belast met het toezicht op vreemdelingen, beschikbaar stellen van een goedgelijkende pasfoto, en" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCqS" role="3MKX6F">
+          <property role="3MLT8O" value="b" />
+          <property role="1hTQn4" value="https://calculemus.org/e782a008-beb1-470c-8d72-6f547fbbc75f" />
+          <node concept="19SGf9" id="1spse2eiCqT" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCqU" role="19SJt6">
+              <property role="19SUeA" value="het zich laten fotograferen en het laten afnemen van vingerafdrukken." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCqV">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling3Paragraaf4Artikel4.46" />
+    <property role="1N0jUS" value="446" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCqW" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCqX" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/b9413432-0b48-4d02-a5a3-9d17715ae393" />
+        <node concept="19SGf9" id="1spse2eiCqY" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCqZ" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling die naar Nederland is gekomen voor een verblijf van langer dan 90dagen, werkt op grond van  mee aan een onderzoek naar tuberculose.artikel 54, eerste lid, onderdeel d, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCr0" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/f04b1449-efbc-4d09-be2c-b4b80907032c" />
+        <node concept="19SGf9" id="1spse2eiCr1" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCr2" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid is niet van toepassing op de vreemdeling die de nationaliteit bezit van een van de bij ministerile regeling vast te stellen landen, langdurig ingezetene is dan wel als gezinslid van een langdurig ingezetene in een andere lidstaat van de Europese Unie is toegelaten." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCr3">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling3Paragraaf5Artikel4.47" />
+    <property role="1N0jUS" value="447" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCr4" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCr5" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/cc0280f0-1e2f-4bd9-ab2c-99c35411426b" />
+        <node concept="19SGf9" id="1spse2eiCr6" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCr7" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling die rechtmatig verblijft als bedoeld in  en die naar Nederland is gekomen voor een verblijf van langer dan 90dagen, meldt zich binnen drie dagen na binnenkomst in Nederland in persoon aan bij Onze Minister.artikel 8, onder i, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCr8" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/cbee2a78-9b03-4bba-b2f6-e77a52b5b372" />
+        <node concept="19SGf9" id="1spse2eiCr9" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCra" role="19SJt6">
+            <property role="19SUeA" value="Voor de berekening van de in het eerste lid bedoelde termijn van 90dagen wordt eerder verblijf in Nederland binnen een tijdvak van 180dagen, onmiddellijk voorafgaande aan de binnenkomst, mede in aanmerking genomen." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCrb" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/1bbf265a-888d-400a-a13c-aa84f25eb5a7" />
+        <node concept="19SGf9" id="1spse2eiCrc" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCrd" role="19SJt6">
+            <property role="19SUeA" value="Indien de vreemdeling jonger is dan twaalf jaar, doet degene bij wie de vreemdeling woont of verblijft de melding." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCre" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/3ebad10f-6f41-45c8-a135-702d087ba7f6" />
+        <node concept="19SGf9" id="1spse2eiCrf" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCrg" role="19SJt6">
+            <property role="19SUeA" value="In afwijking van het eerste lid kan de aanmelding door een onderzoeker of student die naar Nederland is gekomen voor een verblijf van ten hoogste 180 binnen 360 dagen onderscheidenlijk ten hoogste 360 dagen op grond van , namens de vreemdeling geschieden door de erkende referent waar hij het deel van zijn onderzoek of studie gaat verrichten. In dat geval kan de aanmelding in afwijking van het eerste lid geschieden zodra de erkende referent het voornemen tot een dergelijk verblijf kent.artikel 3.3, vierde of vijfde lid" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCrh" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/459312d6-f4d9-47c0-8b21-5ac089628927" />
+        <node concept="19SGf9" id="1spse2eiCri" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCrj" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen regels worden gesteld met betrekking tot het al dan niet in persoon verstrekken van gegevens of bescheiden bij de aanmelding." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCrk" role="3MKX6F">
+        <property role="3MLT8O" value="6" />
+        <property role="1hTQn4" value="https://calculemus.org/6fb2bc43-1a6a-46e9-ba00-c776d188fd37" />
+        <node concept="19SGf9" id="1spse2eiCrl" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCrm" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen gevallen worden aangewezen waarin de aanmelding schriftelijk kan geschieden." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCrn">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling3Paragraaf5Artikel4.48" />
+    <property role="1N0jUS" value="448" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCro" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCrp" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/b7c4c2fb-98f4-450d-80cc-86d7f296532e" />
+        <node concept="19SGf9" id="1spse2eiCrq" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCrr" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCrs">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling3Paragraaf5Artikel4.49" />
+    <property role="1N0jUS" value="449" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCrt" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCru" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/a4e806b4-4e65-4d00-8174-6a3828ec5fef" />
+        <node concept="19SGf9" id="1spse2eiCrv" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCrw" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling die houder is van een visum of een document voor grensoverschrijding waarin door de daartoe bevoegde autoriteit een aantekening is gesteld omtrent aanmelding bij een vreemdelingendienst in Nederland, meldt zich binnen drie dagen na binnenkomst in Nederland in persoon aan bij de korpschef." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCrx" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/4e0fec3b-8575-49b6-aed3-fb343de7d363" />
+        <node concept="19SGf9" id="1spse2eiCry" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCrz" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid is niet van toepassing op onderdanen van een staat die partij is bij het Verdrag betreffende de werking van de Europese Unie of de Overeenkomst betreffende de Europese Economische Ruimte en op onderdanen van Zwitserland." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCr$">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling3Paragraaf5Artikel4.50" />
+    <property role="1N0jUS" value="450" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCr_" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCrA" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/fa6001b9-cfa3-45ab-9ccb-65b184aa37d7" />
+        <node concept="19SGf9" id="1spse2eiCrB" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCrC" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling die naar Nederland is gekomen om als zeeman werk te zoeken aan boord van een zeeschip, meldt zich binnen drie dagen na binnenkomst in Nederland in persoon aan bij de korpschef." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCrD" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/4e69c615-778b-4837-b5dd-e962398e37e8" />
+        <node concept="19SGf9" id="1spse2eiCrE" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCrF" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid is niet van toepassing op onderdanen van een staat die partij is bij het Verdrag betreffende de werking van de Europese Unie of de Overeenkomst betreffende de Europese Economische Ruimte en op onderdanen van Zwitserland." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCrG">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling3Paragraaf6Artikel4.51" />
+    <property role="1N0jUS" value="451" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCrH" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCrI" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/45e094b5-439d-4688-81be-116640c1ec57" />
+        <node concept="19SGf9" id="1spse2eiCrJ" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCrK" role="19SJt6">
+            <property role="19SUeA" value="Tot periodieke aanmelding als bedoeld in , bij de korpschef is verplicht de vreemdeling die:artikel 54, eerste lid, onder f, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCrL" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/b2ccdc38-b57d-4709-9a3e-ece0c1b39c7d" />
+        <node concept="19SGf9" id="1spse2eiCrM" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCrN" role="19SJt6">
+            <property role="19SUeA" value="geen rechtmatig verblijf heeft en in afwachting is van de feitelijke mogelijkheid tot vertrek of uitzetting, of" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCrO" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/5ed3f2a1-21e6-40ab-a2ab-4efe675c1655" />
+        <node concept="19SGf9" id="1spse2eiCrP" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCrQ" role="19SJt6">
+            <property role="19SUeA" value="rechtmatig verblijft als bedoeld in .artikel8, onder f, g, h of m van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCrR" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/6c3f97d2-a236-48fd-911c-cc1610c2258e" />
+        <node concept="19SGf9" id="1spse2eiCrS" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCrT" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling, bedoeld in het eerste lid, meldt zich wekelijks, tenzij Onze Minister een andere termijn stelt, dan wel ontheffing verleent." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCrU" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/8571d94e-5910-45d8-b9d9-455edd84b779" />
+        <node concept="19SGf9" id="1spse2eiCrV" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCrW" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid is niet van toepassing, indien de vreemdeling rechtens zijn vrijheid is ontnomen." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCrX" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/6720f8d2-7ccd-4dad-993f-84d8baa5c44f" />
+        <node concept="19SGf9" id="1spse2eiCrY" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCrZ" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid is niet van toepassing op onderdanen van een staat die partij is bij het Verdrag betreffende de werking van de Europese Unie of de Overeenkomst betreffende de Europese Economische Ruimte en op onderdanen van Zwitserland." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCs0">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling5Paragraaf1Artikel3.106b" />
+    <property role="1N0jUS" value="452" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCs1" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCs2" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/e16a8122-9e6b-413e-9bf6-49d24277c679" />
+        <node concept="19SGf9" id="1spse2eiCs3" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCs4" role="19SJt6">
+            <property role="19SUeA" value="Een derde land kan voor een vreemdeling alleen als een veilig land van herkomst worden aangemerkt wanneer hij:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCs5" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/f33d3d3e-abf4-4592-89db-4b9b0f2f3096" />
+        <node concept="19SGf9" id="1spse2eiCs6" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCs7" role="19SJt6">
+            <property role="19SUeA" value="ofwel de nationaliteit van dat land heeft, ofwel staatloos is en voorheen in dat land zijn gewone verblijfplaats had; en" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCs8" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/bcc13c5d-aeea-492d-9a21-8bc43a95ab8c" />
+        <node concept="19SGf9" id="1spse2eiCs9" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCsa" role="19SJt6">
+            <property role="19SUeA" value="niet heeft onderbouwd dat het land in zijn specifieke omstandigheden niet als een veilig land van herkomst kan worden beschouwd ten aanzien van de vraag of hij voor internationale bescherming in aanmerking komt." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCsb" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/3167c27c-09b7-4025-b349-1e503da8e564" />
+        <node concept="19SGf9" id="1spse2eiCsc" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCsd" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling worden nadere regels gesteld omtrent de toepassing van het eerste lid." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCse">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling3Paragraaf7Artikel4.52" />
+    <property role="1N0jUS" value="452" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCsf" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCsg" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/c1215ef6-0ee3-4ca1-ae18-07abb15dadce" />
+        <node concept="19SGf9" id="1spse2eiCsh" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCsi" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling levert het document, bedoeld in , overeenkomstig door Onze Minister gestelde regels in bij Onze Minister of de korpschef:artikel 9 van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCsj" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/b4e6e1bc-a197-44d7-9898-f7312821dd97" />
+        <node concept="19SGf9" id="1spse2eiCsk" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCsl" role="19SJt6">
+            <property role="19SUeA" value="zodra hij niet meer rechtmatig verblijft, doch uiterlijk op het moment waarop de vertrektermijn, bedoeld in , verstrijkt;artikel 62 van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCsm" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/81b5bb3f-0c7e-43f4-bde7-3c82d4d4f056" />
+        <node concept="19SGf9" id="1spse2eiCsn" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCso" role="19SJt6">
+            <property role="19SUeA" value="vr zijn vertrek naar het buitenland, indien hij zijn hoofdverblijf buiten Nederland verplaatst;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCsp" role="3MKX6F">
+        <property role="3MLT8O" value="c" />
+        <property role="1hTQn4" value="https://calculemus.org/6bf21177-840d-4a55-a825-ba9e3a2e959c" />
+        <node concept="19SGf9" id="1spse2eiCsq" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCsr" role="19SJt6">
+            <property role="19SUeA" value="indien aan de vreemdeling een nieuw verblijfsdocument is verleend;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCss" role="3MKX6F">
+        <property role="3MLT8O" value="d" />
+        <property role="1hTQn4" value="https://calculemus.org/920e3f3e-b438-4869-963e-539f639fbc60" />
+        <node concept="19SGf9" id="1spse2eiCst" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCsu" role="19SJt6">
+            <property role="19SUeA" value="indien aan de vreemdeling het Nederlanderschap wordt verleend." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCsv" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/3745c5d4-f72d-4c29-bf52-55617a3a91e6" />
+        <node concept="19SGf9" id="1spse2eiCsw" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCsx" role="19SJt6">
+            <property role="19SUeA" value="De persoon die het Nederlanderschap heeft verkregen levert het document, bedoeld in , overeenkomstig door Onze Minister gestelde regels in bij Onze Minister of de korpschef.artikel 9 van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCsy">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling3Paragraaf8Artikel4.53" />
+    <property role="1N0jUS" value="453" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCsz" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCs$" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/07538204-89e1-4274-af8f-1247cd9f44a9" />
+        <node concept="19SGf9" id="1spse2eiCs_" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCsA" role="19SJt6">
+            <property role="19SUeA" value="De referent voert overeenkomstig bij ministerile regeling gestelde regels een administratie met gegevens met betrekking tot:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCsB" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/af1e16e1-5b43-417a-b60a-86384d41ee67" />
+        <node concept="19SGf9" id="1spse2eiCsC" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCsD" role="19SJt6">
+            <property role="19SUeA" value="de vreemdeling wiens referent hij is of was;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCsE" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/3918c98c-5258-4fe3-8b72-c5868a5df611" />
+        <node concept="19SGf9" id="1spse2eiCsF" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCsG" role="19SJt6">
+            <property role="19SUeA" value="de nakoming van zijn verplichtingen als referent, en" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCsH" role="3MKX6F">
+        <property role="3MLT8O" value="c" />
+        <property role="1hTQn4" value="https://calculemus.org/9b3aa90d-661d-45b2-9174-b62f67709e5d" />
+        <node concept="19SGf9" id="1spse2eiCsI" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCsJ" role="19SJt6">
+            <property role="19SUeA" value="zijn positie als referent." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCsK" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/59dde92c-ed8d-43a5-9613-576633d0832a" />
+        <node concept="19SGf9" id="1spse2eiCsL" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCsM" role="19SJt6">
+            <property role="19SUeA" value="In de administratie, bedoeld in het eerste lid, worden in ieder geval opgenomen:" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCsN">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling5Paragraaf1aArtikel3.107a" />
+    <property role="1N0jUS" value="462" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCsO" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCsP" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/88cf7b89-c4b3-4228-bcd2-f56117c0290d" />
+        <node concept="19SGf9" id="1spse2eiCsQ" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCsR" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag tot het verlenen van een verblijfsvergunning als bedoeld in , wordt afgewezen indien de vreemdeling het examen, bedoeld in  of een diploma, certificaat of ander document als bedoeld in , niet heeft behaald.artikel 8, onder d, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCsS" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/1719ffbc-b2f8-416e-87dd-a8683b376d68" />
+        <node concept="19SGf9" id="1spse2eiCsT" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCsU" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid is niet van toepassing, indien de vreemdeling:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCsV" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/f93f91d2-1e6f-49f3-adb3-c7def59a5e4a" />
+        <node concept="19SGf9" id="1spse2eiCsW" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCsX" role="19SJt6">
+            <property role="19SUeA" value="minderjarig is of de pensioengerechtigde leeftijd, bedoeld in , heeft bereikt;artikel 7a, eerste lid, van de Algemene Ouderdomswet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCsY" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/aec2fd4a-e2d3-4c55-9c27-f716590b41ca" />
+        <node concept="19SGf9" id="1spse2eiCsZ" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCt0" role="19SJt6">
+            <property role="19SUeA" value="ten minste acht jaren tijdens de leerplichtige leeftijd in Nederland heeft verbleven overeenkomstig het bepaalde bij en krachtens ;artikel 2.6 van het Besluit inburgering" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCt1" role="3MKX6F">
+        <property role="3MLT8O" value="c" />
+        <property role="1hTQn4" value="https://calculemus.org/1ac03bca-d1dd-4698-b45d-0e5aa59f908c" />
+        <node concept="19SGf9" id="1spse2eiCt2" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCt3" role="19SJt6">
+            <property role="19SUeA" value="beschikt over een document als bedoeld in , dan wel voldoet aan het criterium, genoemd in ;artikel 2.3, eerste lid, onder b tot en met k, en tweede lid, van het Besluit inburgering" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCt4" role="3MKX6F">
+        <property role="3MLT8O" value="d" />
+        <property role="1hTQn4" value="https://calculemus.org/cb8fd9fb-d25f-4ef3-ae4a-c593a034b19e" />
+        <node concept="19SGf9" id="1spse2eiCt5" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCt6" role="19SJt6">
+            <property role="19SUeA" value="beschikt over een document als bedoeld in  zoals dat luidde voor het tijdstip van inwerkingtreding van  (Stb. 2012, 432), dan wel voldoet aan een van de criteria, genoemd in ;artikel 2.3, eerste lid, onder i tot en met l, van het Besluit inburgering" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCt7" role="3MKX6F">
+        <property role="3MLT8O" value="e" />
+        <property role="1hTQn4" value="https://calculemus.org/56acb277-0003-4cbb-8633-b4e607bc9bf9" />
+        <node concept="19SGf9" id="1spse2eiCt8" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCt9" role="19SJt6">
+            <property role="19SUeA" value="op grond van  dan wel artikel 6, eerste lid, of  zoals die luidde voor de inwerkingtreding van de  (Stb. 2012, 430) van de inburgeringsplicht is ontheven.artikel 6, eerste of tweede lid, van de Wet inburgering" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCta" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/5d537485-5562-461c-8a87-37df0f2cef28" />
+        <node concept="19SGf9" id="1spse2eiCtb" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCtc" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister kan het eerste lid buiten toepassing laten, voor zover de vreemdeling naar zijn oordeel blijkens een door deze vreemdeling overgelegd advies als bedoeld in  door een psychische of lichamelijke belemmering, dan wel een verstandelijke handicap blijvend niet in staat is het examen, bedoeld in  of een diploma, certificaat of ander document als bedoeld in , te behalen.artikel 2.8, eerste lid, van het Besluit inburgering" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCtd" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/4e6d8a43-a4dc-4e62-a0ca-e825b939fca4" />
+        <node concept="19SGf9" id="1spse2eiCte" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCtf" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister kan het eerste lid voorts buiten toepassing laten, voorzover toepassing daarvan naar zijn oordeel zal leiden tot een onbillijkheid van overwegende aard." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCtg" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/08fae9c7-d7c5-4cab-b989-ccf047105cd1" />
+        <node concept="19SGf9" id="1spse2eiCth" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCti" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen regels worden gesteld omtrent de toepassing van het tweede lid, onder e, en derde lid." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCtj">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling5Paragraaf2Artikel3.121a" />
+    <property role="1N0jUS" value="486" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCtk" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCtl" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/4147f8f8-0ea8-4cd1-a05d-ef3ae1a1484d" />
+        <node concept="19SGf9" id="1spse2eiCtm" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCtn" role="19SJt6">
+            <property role="19SUeA" value="Indien de aanvraag wordt afgewezen, voor wat betreft de vluchtelingenstatus of de subsidiaire beschermingsstatus, wordt dit feitelijk en juridisch gemotiveerd." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCto" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/ad8d2060-709f-4836-bb14-ccc6c5f2efc2" />
+        <node concept="19SGf9" id="1spse2eiCtp" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCtq" role="19SJt6">
+            <property role="19SUeA" value="Indien de aanvraag mede is gedaan namens personen die ten laste van de aanvrager komen en de aanvraag op dezelfde gronden gebaseerd is, kan n beslissing worden genomen die geldt voor alle personen, tenzij dat handelen zou leiden tot de bekendmaking van specifieke omstandigheden van een aanvrager die zijn belangen zou kunnen schaden, met name in gevallen van vervolging op grond van gender, seksuele geaardheid, genderidentiteit of leeftijd." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCtr" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/2f689e92-7cb9-4043-a6e5-0af5c0517fe2" />
+        <node concept="19SGf9" id="1spse2eiCts" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCtt" role="19SJt6">
+            <property role="19SUeA" value="Indien een vreemdeling niet wordt bijgestaan of vertegenwoordigd door een juridisch adviseur of een andere raadsman, wordt hij in een taal die hij begrijpt of waarvan redelijkerwijze kan worden aangenomen dat hij die begrijpt, in kennis gesteld van de beslissing. Daarbij wordt ook informatie verstrekt over de wijze waarop een negatieve beslissing kan worden aangevochten." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCtu">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling1Artikel8.2a" />
+    <property role="1N0jUS" value="592" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCtv" role="3MKX6D">
+      <node concept="3MKX5h" id="1spse2eiCtw" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/3b1bdec6-cd93-48a5-9ff8-d925794722fa" />
+        <node concept="3MKX5i" id="1spse2eiCtx" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/418d51c7-0bc3-46e3-8aef-e14f4956c744" />
+          <node concept="19SGf9" id="1spse2eiCty" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiCtz" role="19SJt6">
+              <property role="19SUeA" value="Gegevens en inlichtingen ten behoeve van de vreemdelingenadministratie kunnen in ieder geval worden verstrekt door:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiCt$" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/3d5ce043-635b-41a3-8294-dc9b8033d54f" />
+          <node concept="3MKX6G" id="1spse2eiCt_" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/48959fef-a044-44e3-9ba7-11c8af1a2959" />
+            <node concept="19SGf9" id="1spse2eiCtA" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCtB" role="19SJt6">
+                <property role="19SUeA" value="de colleges van burgemeester en wethouders, voor zover deze zijn belast met de uitvoering van de , de  en aanverwante inkomensvoorzieningswetten en de ;Wet basisregistratie personen" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCtC" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/b6fac7ba-4d2e-492a-99f2-a9114c96499c" />
+            <node concept="19SGf9" id="1spse2eiCtD" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCtE" role="19SJt6">
+                <property role="19SUeA" value="de Sociale Verzekeringsbank;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCtF" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/d85e67c0-eb2a-45e9-aa7b-498694f8e9b4" />
+            <node concept="19SGf9" id="1spse2eiCtG" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCtH" role="19SJt6">
+                <property role="19SUeA" value="het Uitvoeringsinstituut Werknemersverzekeringen;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCtI" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/469224fa-b62a-4506-9567-af83fcca2563" />
+            <node concept="19SGf9" id="1spse2eiCtJ" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCtK" role="19SJt6">
+                <property role="19SUeA" value="de Rijksbelastingdienst;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCtL" role="3MKX6F">
+            <property role="3MLT8O" value="e" />
+            <property role="1hTQn4" value="https://calculemus.org/f200584c-e681-4116-95df-83b52b2cab10" />
+            <node concept="19SGf9" id="1spse2eiCtM" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCtN" role="19SJt6">
+                <property role="19SUeA" value="de Minister van Binnenlandse Zaken en Koninkrijksrelaties, voor zover deze is belast met de uitvoering van de ;Wet basisregistratie personen" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCtO" role="3MKX6F">
+            <property role="3MLT8O" value="f" />
+            <property role="1hTQn4" value="https://calculemus.org/278b2dee-10ae-41df-80e3-4b33bf8e1b16" />
+            <node concept="19SGf9" id="1spse2eiCtP" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCtQ" role="19SJt6">
+                <property role="19SUeA" value="de Dienst Uitvoering Onderwijs van het Ministerie van Onderwijs, Cultuur en Wetenschap;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCtR" role="3MKX6F">
+            <property role="3MLT8O" value="g" />
+            <property role="1hTQn4" value="https://calculemus.org/5cfc46ea-17c4-451d-9bbc-9bdc19ac069b" />
+            <node concept="19SGf9" id="1spse2eiCtS" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCtT" role="19SJt6">
+                <property role="19SUeA" value="de Gemeentelijke gezondheidsdienst, bedoeld in ;artikel 17 van de Wet publieke gezondheid" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCtU" role="3MKX6F">
+            <property role="3MLT8O" value="h" />
+            <property role="1hTQn4" value="https://calculemus.org/e469be53-d86a-4864-81aa-bd128bc3d25f" />
+            <node concept="19SGf9" id="1spse2eiCtV" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCtW" role="19SJt6">
+                <property role="19SUeA" value="de Inspectie Sociale Zaken en Werkgelegenheid;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCtX" role="3MKX6F">
+            <property role="3MLT8O" value="i" />
+            <property role="1hTQn4" value="https://calculemus.org/b0b977ec-a340-4166-bb99-de6e2ce97641" />
+            <node concept="19SGf9" id="1spse2eiCtY" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCtZ" role="19SJt6">
+                <property role="19SUeA" value="de Kamer van Koophandel;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCu0" role="3MKX6F">
+            <property role="3MLT8O" value="j" />
+            <property role="1hTQn4" value="https://calculemus.org/34508c66-8dfc-442c-b8e9-5d7959462f2f" />
+            <node concept="19SGf9" id="1spse2eiCu1" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCu2" role="19SJt6">
+                <property role="19SUeA" value="de FIOD-ECD." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiCu3" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/8ef000f5-ec94-4220-85f6-3a48f0428e2f" />
+        <node concept="3MKX5i" id="1spse2eiCu4" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/be438eb1-5cb3-4ed9-8e50-3fecee7f17be" />
+          <node concept="19SGf9" id="1spse2eiCu5" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiCu6" role="19SJt6">
+              <property role="19SUeA" value="Gegevens en inlichtingen worden in ieder geval verstrekt ten behoeve van de vreemdelingenadministratie, indien zij noodzakelijk zijn voor:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiCu7" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/0b341202-00ab-4bda-bab6-90be78a73415" />
+          <node concept="3MKX6G" id="1spse2eiCu8" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/69809fa4-39cc-4fa7-9d97-f7b43496ff9c" />
+            <node concept="19SGf9" id="1spse2eiCu9" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCua" role="19SJt6">
+                <property role="19SUeA" value="de voorbereiding van beschikkingen omtrent de machtiging tot voorlopig verblijf, de verblijfsvergunning en de ongewenstverklaring;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCub" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/53f935d3-8741-4600-8fef-07e9c019a735" />
+            <node concept="19SGf9" id="1spse2eiCuc" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCud" role="19SJt6">
+                <property role="19SUeA" value="de erkenning als referent, en de schorsing en intrekking van die erkenning;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCue" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/c3da0d22-1af0-445a-bc3f-47918c340155" />
+            <node concept="19SGf9" id="1spse2eiCuf" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCug" role="19SJt6">
+                <property role="19SUeA" value="het toezicht op naleving van wettelijke voorschriften met betrekking tot de grensbewaking, het toezicht op vreemdelingen en het toezicht op referenten;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiCuh" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/bd37e78f-30a6-4eb3-936b-006f5c0265a1" />
+        <node concept="3MKX5i" id="1spse2eiCui" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/5bbab32d-2fca-4758-bb74-63aff36461b7" />
+          <node concept="19SGf9" id="1spse2eiCuj" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiCuk" role="19SJt6">
+              <property role="19SUeA" value="Bij ministerile regeling worden regels gesteld omtrent:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiCul" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/33f8767f-049e-4df8-b0c8-19f8592f6731" />
+          <node concept="3MKX6G" id="1spse2eiCum" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/88f5a5a0-5b01-4b2e-b649-b939784e68e3" />
+            <node concept="19SGf9" id="1spse2eiCun" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCuo" role="19SJt6">
+                <property role="19SUeA" value="de gevallen waarin en de wijze waarop in ieder geval gegevens en inlichtingen worden verstrekt;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCup" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/72d33199-706d-4cce-9285-05ba6a4f1d9a" />
+            <node concept="19SGf9" id="1spse2eiCuq" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCur" role="19SJt6">
+                <property role="19SUeA" value="de doorlevering van gegevens en inlichtingen;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCus" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/bb389ece-519a-4e87-aa60-568fa5de004b" />
+            <node concept="19SGf9" id="1spse2eiCut" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCuu" role="19SJt6">
+                <property role="19SUeA" value="de verwijdering en vernietiging van de in de vreemdelingenadministratie opgenomen gegevens;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCuv" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/62231c34-501b-4e34-8b3f-a5471a4488ed" />
+            <node concept="19SGf9" id="1spse2eiCuw" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCux" role="19SJt6">
+                <property role="19SUeA" value="de gevallen waarin de verstrekking van gegevens en inlichtingen anders dan kosteloos geschiedt." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCuy">
+    <property role="TrG5h" value="Hoofdstuk2Afdeling1Artikel2.2b" />
+    <property role="1N0jUS" value="729" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCuz" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCu$" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/8122e628-3508-48b7-964b-b22f4df59daf" />
+        <node concept="19SGf9" id="1spse2eiCu_" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCuA" role="19SJt6">
+            <property role="19SUeA" value="De ambtenaar belast met de grensbewaking vernietigt de op grond van  verkregen passagiersgegevens binnen 24 uur na binnenkomst van de passagiers in Nederland, tenzij deze later nodig zijn voor de uitoefening van diens taken.artikel 2.2a" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCuB">
+    <property role="TrG5h" value="Hoofdstuk2Afdeling1Artikel2.2c" />
+    <property role="1N0jUS" value="730" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCuC" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCuD" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/52b5d076-6d8d-4bb9-b9fb-df3040070e16" />
+        <node concept="19SGf9" id="1spse2eiCuE" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCuF" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCuG">
+    <property role="TrG5h" value="Hoofdstuk5Paragraaf2Artikel5.1a" />
+    <property role="1N0jUS" value="809" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCuH" role="3MKX6D">
+      <node concept="3MKX5h" id="1spse2eiCuI" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/ea25c6d6-d685-4dff-b0b9-dafd394da272" />
+        <node concept="3MKX5i" id="1spse2eiCuJ" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/b6ce8558-e8cc-4604-9cc3-8dade7d9ee6b" />
+          <node concept="19SGf9" id="1spse2eiCuK" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiCuL" role="19SJt6">
+              <property role="19SUeA" value="Een vreemdeling als bedoeld in  kan in bewaring worden gesteld op grond dat het belang van de openbare orde of nationale veiligheid zulks vordert, indien:artikel 59, eerste lid, van de Wet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiCuM" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/d10f6383-39ab-4b89-8259-b1c5f2a51868" />
+          <node concept="3MKX6G" id="1spse2eiCuN" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/c0906684-d943-4c13-921e-6b2dae344b6c" />
+            <node concept="19SGf9" id="1spse2eiCuO" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCuP" role="19SJt6">
+                <property role="19SUeA" value="een risico bestaat dat de vreemdeling zich aan het toezicht zal onttrekken, of" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCuQ" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/8e8d131f-49c4-4500-8abb-04546cb7766c" />
+            <node concept="19SGf9" id="1spse2eiCuR" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCuS" role="19SJt6">
+                <property role="19SUeA" value="de vreemdeling de voorbereiding van het vertrek of de uitzettingsprocedure ontwijkt of belemmert." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCuT" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/736f5a1a-3aa5-43e4-ba2b-34758d90364e" />
+        <node concept="19SGf9" id="1spse2eiCuU" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCuV" role="19SJt6">
+            <property role="19SUeA" value="Een vreemdeling als bedoeld in  kan in bewaring worden gesteld omdat het belang van de openbare orde zulks vordert, indien een van de gronden als bedoeld in artikel 59b, eerste lid van de Wet zich voordoet.  is van toepassing.Artikel 5.1cartikel 59b, eerste lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCuW" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/39feb359-1675-4829-871b-be75b397f5cc" />
+        <node concept="19SGf9" id="1spse2eiCuX" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCuY" role="19SJt6">
+            <property role="19SUeA" value="Een vrijheidsontnemende maatregel op grond van  wordt opgelegd in het kader van het grensbewakingsbelang. Deze wordt niet opgelegd of voortgezet indien sprake is van bijzondere individuele omstandigheden die vrijheidsontneming onevenredig bezwarend maken.artikel 6, derde lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCuZ" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/1fe6a189-61bb-4833-b311-d4a14c2e57ca" />
+        <node concept="19SGf9" id="1spse2eiCv0" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCv1" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid is van overeenkomstige toepassing in geval van oplegging van de vrijheidsontnemende maatregel op grond van .artikel 6, zesde lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiCv2" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/05727cf9-3fed-4a01-9bf1-e522e5acc846" />
+        <node concept="3MKX5i" id="1spse2eiCv3" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/d9aee341-2e05-4ba1-91e4-2aac12ce87e0" />
+          <node concept="19SGf9" id="1spse2eiCv4" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiCv5" role="19SJt6">
+              <property role="19SUeA" value="Met het oog op de overdracht aan een verantwoordelijke lidstaat met inachtneming van artikel 28 van de Dublinverordening, kan een vreemdeling een vrijheidsontnemende maatregel worden opgelegd of kan hij in bewaring worden gesteld, indien:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiCv6" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/ac534e5d-0373-4cdd-92b1-28b85f4bd423" />
+          <node concept="3MKX6G" id="1spse2eiCv7" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/e86f551b-57b9-4abb-95f8-74766a0165d8" />
+            <node concept="19SGf9" id="1spse2eiCv8" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCv9" role="19SJt6">
+                <property role="19SUeA" value="een concreet aanknopingspunt bestaat voor een overdracht als bedoeld in de Dublinverordening; en" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCva" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/833da221-36aa-4fee-8c2b-02c58ddf6ede" />
+            <node concept="19SGf9" id="1spse2eiCvb" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCvc" role="19SJt6">
+                <property role="19SUeA" value="een significant risico bestaat dat de vreemdeling zich aan het toezicht zal onttrekken." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCvd">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling2Paragraaf2Artikel8.15" />
+    <property role="1N0jUS" value="815" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCve" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCvf" role="3MKX6F">
+        <property role="3MLT8O" value="6" />
+        <property role="1hTQn4" value="https://calculemus.org/03805cbe-df91-43d7-b3e1-a1ca2065fcf0" />
+        <node concept="19SGf9" id="1spse2eiCvg" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCvh" role="19SJt6">
+            <property role="19SUeA" value="Voor de toepassing van het vijfde lid, onder b, beschikt de vreemdeling met een inkomen ter hoogte van het normbedrag dat in  voor de desbetreffende categorie is vastgesteld, in ieder geval over voldoende middelen van bestaan.artikel 3.74" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCvi">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling2Paragraaf2Artikel8.16" />
+    <property role="1N0jUS" value="816" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCvj" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCvk" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/f7501a21-d49b-4c12-87db-5ecfa3c1048e" />
+        <node concept="19SGf9" id="1spse2eiCvl" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCvm" role="19SJt6">
+            <property role="19SUeA" value="Onverminderd de  en  eindigt het rechtmatig verblijf niet zolang de vreemdeling aan de in de  genoemde voorwaarden voldoet. In specifieke gevallen van redelijke twijfel kan Onze Minister onderzoeken of aan de voorwaarden wordt voldaan. Het onderzoek geschiedt niet stelselmatig. Een beroep op de algemene middelen leidt niet zonder meer tot beindiging van het rechtmatig verblijf.artikelen 8.22" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCvn" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/56ee6a54-99cd-480d-9344-bad326b142c9" />
+        <node concept="19SGf9" id="1spse2eiCvo" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCvp" role="19SJt6">
+            <property role="19SUeA" value="Onverminderd de  en , eindigt het rechtmatig verblijf niet zolang de vreemdeling, bedoeld in :artikelen 8.22" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCvq" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/1504b292-9bc5-465c-b3b1-19b69d2dcc3a" />
+        <node concept="19SGf9" id="1spse2eiCvr" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCvs" role="19SJt6">
+            <property role="19SUeA" value="werknemer of zelfstandige is; of" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCvt" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/28db11c4-7406-463e-92ec-80733ef0e34c" />
+        <node concept="19SGf9" id="1spse2eiCvu" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCvv" role="19SJt6">
+            <property role="19SUeA" value="naar Nederland is gekomen om werk te zoeken en hij kan bewijzen dat hij nog steeds werk zoekt en een rele kans op werk heeft." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCvw">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling2Paragraaf2Artikel8.17" />
+    <property role="1N0jUS" value="817" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCvx" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCvy" role="3MKX6F">
+        <property role="3MLT8O" value="e" />
+        <property role="1hTQn4" value="https://calculemus.org/5e521805-97d5-4e4b-84b4-68afb0c88c87" />
+        <node concept="19SGf9" id="1spse2eiCvz" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCv$" role="19SJt6">
+            <property role="19SUeA" value="de werknemer of zelfstandige die, na drie jaar ononderbroken in Nederland werkzaam te zijn geweest en in Nederland te hebben verbleven, werkzaam is in een andere lidstaat, zijn woning in Nederland aanhoudt en daar ten minste eenmaal per week naar terugkeert." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCv_" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/be5d7583-3dd2-4e8d-beb7-94ef43d5b0d4" />
+        <node concept="19SGf9" id="1spse2eiCvA" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCvB" role="19SJt6">
+            <property role="19SUeA" value="Bij de toepassing van het vierde lid worden als arbeidsperioden mede in aanmerking genomen:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCvC" role="3MKX6F">
+        <property role="3MLT8O" value="6" />
+        <property role="1hTQn4" value="https://calculemus.org/8a92f4d0-7243-4e8c-b701-b0cbe938aa96" />
+        <node concept="19SGf9" id="1spse2eiCvD" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCvE" role="19SJt6">
+            <property role="19SUeA" value="Bij de toepassing van het vierde lid, onder a tot en met d, worden de tijdvakken van werkzaamheid in de lidstaat waarin de betrokkene werkzaam is, aangemerkt als in Nederland vervulde tijdvakken van werkzaamheid." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCvF" role="3MKX6F">
+        <property role="3MLT8O" value="7" />
+        <property role="1hTQn4" value="https://calculemus.org/c16dc748-8fe2-4b48-b2ca-2bbfd2d7bb7c" />
+        <node concept="19SGf9" id="1spse2eiCvG" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCvH" role="19SJt6">
+            <property role="19SUeA" value="De in het vierde lid, onder a en b, gestelde voorwaarden inzake de duur van het verblijf en van de werkzaamheid, en de in het vierde lid, onder c en d, gestelde voorwaarde inzake de duur van het verblijf, zijn niet van toepassing indien de echtgenoot of de geregistreerde partner van de werknemer of zelfstandige Nederlander is of de Nederlandse nationaliteit heeft verloren als gevolg van het huwelijk met die werknemer of zelfstandige." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCvI" role="3MKX6F">
+        <property role="3MLT8O" value="8" />
+        <property role="1hTQn4" value="https://calculemus.org/1ce766e3-cd85-4cd0-8e8a-d33826d1b5f8" />
+        <node concept="19SGf9" id="1spse2eiCvJ" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCvK" role="19SJt6">
+            <property role="19SUeA" value="De bij hem in Nederland verblijvende familieleden van de werknemer of zelfstandige hebben duurzaam verblijfsrecht, indien de werknemer of zelfstandige een nationaliteit als bedoeld in , bezit en:artikel 8.7, eerste lid" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCvL">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling2Paragraaf2Artikel8.18" />
+    <property role="1N0jUS" value="818" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCvM" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCvN" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/3ceb6761-6349-487a-b69a-1886d18d8d8c" />
+        <node concept="19SGf9" id="1spse2eiCvO" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCvP" role="19SJt6">
+            <property role="19SUeA" value="Duurzaam verblijfsrecht kan slechts worden verloren door een afwezigheid van meer dan twee achtereenvolgende jaren uit Nederland." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCvQ" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/fb6bb64c-6b86-4ec6-8621-8043ea3c61d6" />
+        <node concept="19SGf9" id="1spse2eiCvR" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCvS" role="19SJt6">
+            <property role="19SUeA" value="Duurzaam verblijfsrecht kan door Onze Minister uitsluitend worden beindigd om ernstige redenen van openbare orde of openbare veiligheid." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCvT">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling2Paragraaf2Artikel8.19" />
+    <property role="1N0jUS" value="819" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCvU" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCvV" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/6ddc05c6-5839-421e-a8f6-856f909d01bf" />
+        <node concept="19SGf9" id="1spse2eiCvW" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCvX" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister verstrekt de vreemdeling, bedoeld in , met duurzaam verblijfsrecht op aanvraag en na verificatie van de verblijfsduur een verblijfsdocument, waarvan het model wordt vastgesteld bij ministerile regeling. Het verblijfsdocument wordt zo spoedig mogelijk verstrekt.  is niet van toepassing.artikel 8.7 eerste lidArtikel 25 van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCvY">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling2Paragraaf2Artikel8.20" />
+    <property role="1N0jUS" value="820" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCvZ" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCw0" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/3aebe48e-4131-4a82-9936-1ab91406678e" />
+        <node concept="19SGf9" id="1spse2eiCw1" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCw2" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister verstrekt de vreemdeling, bedoeld in , met duurzaam verblijfsrecht en die niet de nationaliteit bezit van een staat als bedoeld in het eerste lid van dat artikel, op aanvraag een verblijfsdocument, waarvan het model wordt vastgesteld bij ministerile regeling.  is niet van toepassing.artikel 8.7, tweede, derde of vierde lidArtikel 25, tweede en derde lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCw3" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/d07b65d7-9eec-491b-a854-a265aafd9fce" />
+        <node concept="19SGf9" id="1spse2eiCw4" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCw5" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag, bedoeld in het eerste lid, wordt ingediend voor het verstrijken van de geldigheidsduur van het verblijfsdocument, bedoeld in .artikel 8.13, vijfde lid" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCw6">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling2Paragraaf2Artikel8.21" />
+    <property role="1N0jUS" value="821" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCw7" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCw8" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/6ef325f6-43de-437f-8fca-f93c81181a82" />
+        <node concept="19SGf9" id="1spse2eiCw9" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCwa" role="19SJt6">
+            <property role="19SUeA" value="Beindiging van het rechtmatig verblijf van de vreemdeling vormt een onderbreking vanaf het tijdstip waarop de vreemdeling Nederland heeft verlaten." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCwb">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling2Paragraaf2Artikel8.22" />
+    <property role="1N0jUS" value="822" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCwc" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCwd" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/15fdbb52-18ea-4657-8cb4-f8d90a76015e" />
+        <node concept="19SGf9" id="1spse2eiCwe" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCwf" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister kan het rechtmatig verblijf ontzeggen of beindigen, om redenen van openbare orde of openbare veiligheid, indien het persoonlijke gedrag van de vreemdeling een actuele, werkelijke en ernstige bedreiging voor een fundamenteel belang van de samenleving vormt. Alvorens hierover een besluit te nemen, houdt Onze Minister in het bijzonder rekening met de duur van het verblijf van de betrokkene in Nederland, diens leeftijd, gezondheidstoestand, gezins- en economische situatie en sociale en culturele integratie in Nederland en met de mate waarin hij bindingen heeft met zijn land van herkomst." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCwg" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/c3f6cfa2-41da-4d55-9004-ff0b775bb971" />
+        <node concept="19SGf9" id="1spse2eiCwh" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCwi" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister kan uiterlijk drie maanden na de datum van binnenkomst van de betrokkene in Nederland dan wel bij de afgifte van de verklaring van inschrijving of van het verblijfsdocument aan de lidstaat van oorsprong of andere lidstaten verzoeken om inlichtingen omtrent de gerechtelijke antecedenten." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCwj" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/d165ed05-972f-4ae7-9781-5e1c89638e80" />
+        <node concept="19SGf9" id="1spse2eiCwk" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCwl" role="19SJt6">
+            <property role="19SUeA" value="Tenzij dwingende redenen van openbare veiligheid daartoe nopen, wordt het rechtmatig verblijf niet beindigd, indien de vreemdeling:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCwm" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/388c7853-7bcb-4abd-87f1-41927a359cb2" />
+        <node concept="19SGf9" id="1spse2eiCwn" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCwo" role="19SJt6">
+            <property role="19SUeA" value="in de voorafgaande tien jaar in Nederland heeft gewoond; of" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCwp" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/be22fcf5-609e-4017-96ce-3e1106c421fb" />
+        <node concept="19SGf9" id="1spse2eiCwq" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCwr" role="19SJt6">
+            <property role="19SUeA" value="minderjarig is, tenzij verwijdering noodzakelijk is in het belang van het kind." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCws" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/8b3822ea-e2d3-431e-9c00-b282abb9b032" />
+        <node concept="19SGf9" id="1spse2eiCwt" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCwu" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag tot opheffing van de ongewenstverklaring kan slechts worden gedaan nadat sinds de verwijdering om redenen van openbare orde of openbare veiligheid een redelijke termijn is verstreken of indien die verwijdering tenminste drie jaren voorafgaand aan de aanvraag heeft plaatsgevonden." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCwv" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/1f7c31b6-df34-4b84-bdcc-ed231a4118dd" />
+        <node concept="19SGf9" id="1spse2eiCww" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCwx" role="19SJt6">
+            <property role="19SUeA" value="Binnen zes maanden wordt een beschikking gegeven op de in het vierde lid bedoelde aanvraag." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCwy" role="3MKX6F">
+        <property role="3MLT8O" value="6" />
+        <property role="1hTQn4" value="https://calculemus.org/c67fd3db-3d92-47c6-94c5-01100a924c77" />
+        <node concept="19SGf9" id="1spse2eiCwz" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCw$" role="19SJt6">
+            <property role="19SUeA" value="Indien de verwijdering niet binnen twee jaren na de ontzegging of beindiging, bedoeld in het eerste lid, heeft plaatsgevonden, onderzoekt Onze Minister of de bedreiging, bedoeld in het eerste lid, nog werkelijk en actueel is, waarbij Onze Minister sinds die ontzegging of beindiging eventueel opgetreden wijzigingen in materile zin in de omstandigheden beoordeelt." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCw_" role="3MKX6F">
+        <property role="3MLT8O" value="7" />
+        <property role="1hTQn4" value="https://calculemus.org/1840cff6-9a7a-400d-9f7a-e21128d4d44c" />
+        <node concept="19SGf9" id="1spse2eiCwA" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCwB" role="19SJt6">
+            <property role="19SUeA" value="Bij de berekening van de tien jaar, bedoeld in het derde lid, onder a, blijft buiten beschouwing de periode die is doorgebracht gedurende de tenuitvoerlegging van een gevangenisstraf, terbeschikkingstelling, jeugddetentie of plaatsing in een inrichting voor stelselmatige daders." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCwC">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling2Paragraaf2Artikel8.23" />
+    <property role="1N0jUS" value="823" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCwD" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCwE" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/b4ea9094-dcfb-4502-bd3a-338189cb88b5" />
+        <node concept="19SGf9" id="1spse2eiCwF" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCwG" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister kan het rechtmatig verblijf op grond van de volksgezondheid ontzeggen of beindigen in het geval van potentieel epidemische ziekten als gedefinieerd in de relevante instrumenten van de Wereldgezondheidsorganisatie dan wel in geval van andere infectieziekten of besmettelijke parasitaire ziekten, ten aanzien waarvan in Nederland beschermende regelingen ten aanzien van Nederlanders worden getroffen." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCwH" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/55780cf5-f15e-4440-bc2a-78cf1ee1cb00" />
+        <node concept="19SGf9" id="1spse2eiCwI" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCwJ" role="19SJt6">
+            <property role="19SUeA" value="Rechtmatig verblijf wordt niet op grond van de volksgezondheid beindigd, indien de ziekte langer dan drie maanden na inreis van de vreemdeling is opgetreden." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCwK" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/755fdf0d-6c53-48a0-8fda-dc3b58d939fc" />
+        <node concept="19SGf9" id="1spse2eiCwL" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCwM" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister kan de vreemdeling binnen drie maanden na inreis onderwerpen aan een kosteloos medisch onderzoek indien ernstige aanwijzingen daartoe aanleiding geven." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCwN">
+    <property role="TrG5h" value="Hoofdstuk5Paragraaf2Artikel5.1b" />
+    <property role="1N0jUS" value="823" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCwO" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCwP" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/97063dfe-5f16-43d2-bb21-60d7c9c6bf29" />
+        <node concept="19SGf9" id="1spse2eiCwQ" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCwR" role="19SJt6">
+            <property role="19SUeA" value="Aan de voorwaarden voor inbewaringstelling, bedoeld in , of voor het opleggen van een vrijheidsontnemende maatregel, bedoeld in artikel 5.1a, vierde lid, is slechts voldaan indien ten minste twee van de gronden, bedoeld in het derde en vierde lid zich voordoen.artikel 5.1a, eerste lid" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCwS" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/13145035-3f7f-4247-a975-9f4012cb1552" />
+        <node concept="19SGf9" id="1spse2eiCwT" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCwU" role="19SJt6">
+            <property role="19SUeA" value="Aan de voorwaarden voor inbewaringstelling of voor het opleggen van een vrijheidsontnemende maatregel, bedoeld in , wordt slechts voldaan indien ten minste twee van de gronden, bedoeld in het derde en vierde lid zich voordoen, waarvan ten minste n van de gronden, bedoeld in het derde lid.artikel 5.1a, vijfde lid" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiCwV" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/72af1f85-95f2-4039-8b4c-3cc41f123c7e" />
+        <node concept="3MKX5i" id="1spse2eiCwW" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/4c835c8c-f256-4be2-91a0-9ac926f43633" />
+          <node concept="19SGf9" id="1spse2eiCwX" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiCwY" role="19SJt6">
+              <property role="19SUeA" value="Er is sprake van een zware grond voor inbewaringstelling of voor het opleggen van een vrijheidsontnemende maatregel indien de vreemdeling:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiCwZ" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/8e6fab9b-631b-49d7-ba4f-3a790fda86c2" />
+          <node concept="3MKX6G" id="1spse2eiCx0" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/3c052fd1-a891-4c41-828f-f0495fdc3706" />
+            <node concept="19SGf9" id="1spse2eiCx1" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCx2" role="19SJt6">
+                <property role="19SUeA" value="Nederland niet op de voorgeschreven wijze is binnengekomen, dan wel een poging daartoe heeft gedaan;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCx3" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/cf5e761a-2e14-4b29-840e-236a75c5f3c0" />
+            <node concept="19SGf9" id="1spse2eiCx4" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCx5" role="19SJt6">
+                <property role="19SUeA" value="zich in strijd met de Vreemdelingenwetgeving gedurende enige tijd aan het toezicht op vreemdelingen heeft onttrokken;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCx6" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/1eebe2e9-c033-42d1-80d8-104d05cbec19" />
+            <node concept="19SGf9" id="1spse2eiCx7" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCx8" role="19SJt6">
+                <property role="19SUeA" value="eerder een visum, besluit, kennisgeving of aanzegging heeft ontvangen waaruit de plicht Nederland te verlaten blijkt en hij daaraan niet uit eigen beweging binnen de daarin besloten of gestelde termijn gevolg heeft gegeven;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCx9" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/574735da-d70f-4ca1-87b1-6c9f9fdf15d3" />
+            <node concept="19SGf9" id="1spse2eiCxa" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCxb" role="19SJt6">
+                <property role="19SUeA" value="niet dan wel niet voldoende meewerkt aan het vaststellen van zijn identiteit en nationaliteit;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCxc" role="3MKX6F">
+            <property role="3MLT8O" value="e" />
+            <property role="1hTQn4" value="https://calculemus.org/93d25d79-d7f4-40cc-a581-a3535036076e" />
+            <node concept="19SGf9" id="1spse2eiCxd" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCxe" role="19SJt6">
+                <property role="19SUeA" value="in verband met zijn aanvraag om toelating onjuiste of tegenstrijdige gegevens heeft verstrekt met betrekking tot zijn identiteit, nationaliteit of de reis naar Nederland of een andere lidstaat;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCxf" role="3MKX6F">
+            <property role="3MLT8O" value="f" />
+            <property role="1hTQn4" value="https://calculemus.org/c33209af-5b00-49e8-81b0-9a6cf55924ba" />
+            <node concept="19SGf9" id="1spse2eiCxg" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCxh" role="19SJt6">
+                <property role="19SUeA" value="zich zonder noodzaak heeft ontdaan van zijn reis- of identiteitsdocumenten;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCxi" role="3MKX6F">
+            <property role="3MLT8O" value="g" />
+            <property role="1hTQn4" value="https://calculemus.org/c842231a-2168-49fd-8641-1fc17a2486ea" />
+            <node concept="19SGf9" id="1spse2eiCxj" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCxk" role="19SJt6">
+                <property role="19SUeA" value="in het Nederlandse rechtsverkeer gebruik heeft gemaakt van valse of vervalste documenten;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCxl" role="3MKX6F">
+            <property role="3MLT8O" value="h" />
+            <property role="1hTQn4" value="https://calculemus.org/fac6b8e2-9a9d-48c2-a5f9-8ecb6a73e7fa" />
+            <node concept="19SGf9" id="1spse2eiCxm" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCxn" role="19SJt6">
+                <property role="19SUeA" value="tot ongewenst vreemdeling is verklaard als bedoeld in  of tegen hem een inreisverbod is uitgevaardigd met toepassing van ;artikel 67 van de Wet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCxo" role="3MKX6F">
+            <property role="3MLT8O" value="i" />
+            <property role="1hTQn4" value="https://calculemus.org/d3a861f0-4de2-4fa0-b3e4-10667d708a59" />
+            <node concept="19SGf9" id="1spse2eiCxp" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCxq" role="19SJt6">
+                <property role="19SUeA" value="heeft te kennen gegeven dat hij geen gevolg zal geven aan zijn verplichting tot terugkeer;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCxr" role="3MKX6F">
+            <property role="3MLT8O" value="j" />
+            <property role="1hTQn4" value="https://calculemus.org/4e5479bb-2479-440a-8ca6-bf8e2e6fdf21" />
+            <node concept="19SGf9" id="1spse2eiCxs" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCxt" role="19SJt6">
+                <property role="19SUeA" value="aan de grens te kennen heeft gegeven een aanvraag tot het verlenen van een verblijfsvergunning asiel voor bepaalde tijd te willen indienen, en zijn aanvraag met toepassing van de grensprocedure niet in behandeling is genomen, niet-ontvankelijk is verklaard of is afgewezen als kennelijk ongegrond;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCxu" role="3MKX6F">
+            <property role="3MLT8O" value="k" />
+            <property role="1hTQn4" value="https://calculemus.org/e822f50f-d110-4cfc-9cff-b048debe95b6" />
+            <node concept="19SGf9" id="1spse2eiCxv" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCxw" role="19SJt6">
+                <property role="19SUeA" value="een overdrachtsbesluit heeft ontvangen en geen medewerking verleent aan de overdracht aan de lidstaat die verantwoordelijk is voor de behandeling van zijn asielverzoek;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCxx" role="3MKX6F">
+            <property role="3MLT8O" value="l" />
+            <property role="1hTQn4" value="https://calculemus.org/79cbea41-5b1d-4a96-985a-6d601e01a465" />
+            <node concept="19SGf9" id="1spse2eiCxy" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCxz" role="19SJt6">
+                <property role="19SUeA" value="een overdrachtsbesluit heeft ontvangen, hem op zijn initiatief een termijn is gesteld om uit eigen beweging te vertrekken naar de lidstaat die verantwoordelijk is voor de behandeling van zijn asielverzoek, en hij niet uit eigen beweging binnen deze termijn is vertrokken, dan wel" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCx$" role="3MKX6F">
+            <property role="3MLT8O" value="m" />
+            <property role="1hTQn4" value="https://calculemus.org/25f9956f-e8d8-4918-a79a-c1ee5055f6e1" />
+            <node concept="19SGf9" id="1spse2eiCx_" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCxA" role="19SJt6">
+                <property role="19SUeA" value="een overdrachtsbesluit heeft ontvangen en onmiddellijke overdracht of overdracht op zeer korte termijn noodzakelijk is ten behoeve van het realiseren van de overdracht binnen zes maanden na het akkoord van de lidstaat die verantwoordelijk is voor de behandeling van zijn asielverzoek." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiCxB" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/b8552e73-f35d-4de1-91b9-4437c5c76adc" />
+        <node concept="3MKX5i" id="1spse2eiCxC" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/3c6806a6-2933-42ea-aaa4-e5922aac14f7" />
+          <node concept="19SGf9" id="1spse2eiCxD" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiCxE" role="19SJt6">
+              <property role="19SUeA" value="Er is sprake van een lichte grond voor inbewaringstelling of voor het opleggen van een vrijheidsontnemende maatregel indien de vreemdeling:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiCxF" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/50c3d5ba-3803-41a1-a2ca-c0b8f911e755" />
+          <node concept="3MKX6G" id="1spse2eiCxG" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/728b5ccf-c1b7-44bb-8049-0b617615a5a0" />
+            <node concept="19SGf9" id="1spse2eiCxH" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCxI" role="19SJt6">
+                <property role="19SUeA" value="zich niet aan een of meer andere voor hem geldende verplichtingen van  heeft gehouden;hoofdstuk 4" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCxJ" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/b3c30b0b-db10-4361-8a09-2ba1038cd4ec" />
+            <node concept="19SGf9" id="1spse2eiCxK" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCxL" role="19SJt6">
+                <property role="19SUeA" value="meerdere aanvragen tot het verlenen van een verblijfsvergunning heeft ingediend die niet tot verlening van een verblijfsvergunning hebben geleid;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCxM" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/62820f46-542f-47af-b0ae-4e2b5da089cf" />
+            <node concept="19SGf9" id="1spse2eiCxN" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCxO" role="19SJt6">
+                <property role="19SUeA" value="geen vaste woon- of verblijfplaats heeft;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCxP" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/baf094de-7e5e-4853-afc7-4db761ac1901" />
+            <node concept="19SGf9" id="1spse2eiCxQ" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCxR" role="19SJt6">
+                <property role="19SUeA" value="niet beschikt over voldoende middelen van bestaan;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCxS" role="3MKX6F">
+            <property role="3MLT8O" value="e" />
+            <property role="1hTQn4" value="https://calculemus.org/bf8cadaa-7dad-414b-af12-663ed9c467b8" />
+            <node concept="19SGf9" id="1spse2eiCxT" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCxU" role="19SJt6">
+                <property role="19SUeA" value="verdachte is van enig misdrijf dan wel daarvoor is veroordeeld; of" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCxV" role="3MKX6F">
+            <property role="3MLT8O" value="f" />
+            <property role="1hTQn4" value="https://calculemus.org/f3cb9f9e-3a8d-4a48-9379-4e4eb16fd33e" />
+            <node concept="19SGf9" id="1spse2eiCxW" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCxX" role="19SJt6">
+                <property role="19SUeA" value="arbeid heeft verricht in strijd met de .Wet arbeid vreemdelingen" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCxY">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling2Paragraaf2Artikel8.24" />
+    <property role="1N0jUS" value="824" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCxZ" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCy0" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/abc0529c-a258-4a4c-b53d-7fe87f379b3e" />
+        <node concept="19SGf9" id="1spse2eiCy1" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCy2" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister kan de vertrektermijn, bedoeld in  slechts in naar behoren aangetoonde dringende gevallen verkorten tot minder dan vier weken.artikel 62, eerste lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCy3">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling2Paragraaf2Artikel8.25" />
+    <property role="1N0jUS" value="825" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCy4" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCy5" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/0c2b5123-7f9f-4841-9d3e-849cb9069889" />
+        <node concept="19SGf9" id="1spse2eiCy6" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCy7" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister kan het rechtmatig verblijf ontzeggen, dan wel beindigen, in geval van rechtsmisbruik of indien de vreemdeling onjuiste gegevens heeft verstrekt dan wel gegevens heeft achtergehouden terwijl die gegevens zouden hebben geleid tot weigering van toegang of verblijf." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCy8">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling2Paragraaf3Artikel8.26" />
+    <property role="1N0jUS" value="826" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCy9" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCya" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/ee041a2c-bfed-47ee-b3ce-e4048f2c01a2" />
+        <node concept="19SGf9" id="1spse2eiCyb" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCyc" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister kan regels stellen over de rechten die vreemdelingen ontlenen aan de volgende verdragen:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiCyd" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/3df7ab20-7e0f-4a29-bfb2-2326ab7fbd0a" />
+        <node concept="3MKX6G" id="1spse2eiCye" role="3MKX6F">
+          <property role="3MLT8O" value="a" />
+          <property role="1hTQn4" value="https://calculemus.org/9f5e7632-f774-4793-9aff-33014a740dc6" />
+          <node concept="19SGf9" id="1spse2eiCyf" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCyg" role="19SJt6">
+              <property role="19SUeA" value="het Europees Vestigingsverdrag (Trb. 1957, 20);" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCyh" role="3MKX6F">
+          <property role="3MLT8O" value="b" />
+          <property role="1hTQn4" value="https://calculemus.org/570abd17-0abc-4180-bb74-f34412906ff2" />
+          <node concept="19SGf9" id="1spse2eiCyi" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCyj" role="19SJt6">
+              <property role="19SUeA" value="het Vluchtelingenverdrag (Trb. 1954, 88);" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCyk" role="3MKX6F">
+          <property role="3MLT8O" value="c" />
+          <property role="1hTQn4" value="https://calculemus.org/30ef7291-ce7d-46b2-8e22-c2e6fb86bd0f" />
+          <node concept="19SGf9" id="1spse2eiCyl" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCym" role="19SJt6">
+              <property role="19SUeA" value="het Verdrag betreffende de status van staatlozen (Trb. 1955, 42);" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCyn" role="3MKX6F">
+          <property role="3MLT8O" value="d" />
+          <property role="1hTQn4" value="https://calculemus.org/3ec5a3e9-19c8-494f-b7f4-4183d8f3ee20" />
+          <node concept="19SGf9" id="1spse2eiCyo" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCyp" role="19SJt6">
+              <property role="19SUeA" value="de op 12september 1963 te Ankara gesloten Overeenkomst waarbij een associatie tot stand wordt gebracht tussen de Europese Economische Gemeenschap en Turkije (Trb.1964, 217), het op 23november 1970 te Brussel tot stand gekomen Aanvullend Protocol bij die overeenkomst (Trb.1971, 70), Besluit 1/80 van de Associatieraad EEG-Turkije betreffende de ontwikkeling van de Associatie;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCyq" role="3MKX6F">
+          <property role="3MLT8O" value="e" />
+          <property role="1hTQn4" value="https://calculemus.org/e4343269-3d6a-4276-b2a6-eb738f23ea84" />
+          <node concept="19SGf9" id="1spse2eiCyr" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCys" role="19SJt6">
+              <property role="19SUeA" value="het Nederlands-Duits Vestigingsverdrag (Stb. 1906, 279);" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCyt" role="3MKX6F">
+          <property role="3MLT8O" value="f" />
+          <property role="1hTQn4" value="https://calculemus.org/e4578ff1-407a-4deb-bd06-8858b38ba8cf" />
+          <node concept="19SGf9" id="1spse2eiCyu" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCyv" role="19SJt6">
+              <property role="19SUeA" value="het Nederlands-Zwitsers Tractaat (Stb. 1878, nr. 137);" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCyw" role="3MKX6F">
+          <property role="3MLT8O" value="g" />
+          <property role="1hTQn4" value="https://calculemus.org/7458c3e3-aeb8-4ec8-b695-7a015d214e46" />
+          <node concept="19SGf9" id="1spse2eiCyx" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCyy" role="19SJt6">
+              <property role="19SUeA" value="het Nederlands-Amerikaans Vriendschapsverdrag (Trb. 1956, 40);" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCyz" role="3MKX6F">
+          <property role="3MLT8O" value="h" />
+          <property role="1hTQn4" value="https://calculemus.org/e82f780f-a7af-4a75-b4c9-752599407457" />
+          <node concept="19SGf9" id="1spse2eiCy$" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCy_" role="19SJt6">
+              <property role="19SUeA" value="de Overeenkomst tussen het Koninkrijk der Nederlanden en de Republiek Suriname inzake het verblijf en de vestiging van wederzijde onderdanen (1975) (Trb. 1975, 133);" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCyA" role="3MKX6F">
+          <property role="3MLT8O" value="i" />
+          <property role="1hTQn4" value="https://calculemus.org/c54af113-d50e-4e5f-a212-60d4da8c2a7c" />
+          <node concept="19SGf9" id="1spse2eiCyB" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCyC" role="19SJt6">
+              <property role="19SUeA" value="de Overeenkomst tussen het Koninkrijk der Nederlanden en de Republiek Suriname inzake de binnenkomst en het verblijf van wederzijdse onderdanen met bijlage en protocol inzake verkregen rechten (1981) (Trb. 1981, 35);" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCyD" role="3MKX6F">
+          <property role="3MLT8O" value="j" />
+          <property role="1hTQn4" value="https://calculemus.org/d35b875c-3acb-45ce-b5f8-f80b8d2852cc" />
+          <node concept="19SGf9" id="1spse2eiCyE" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCyF" role="19SJt6">
+              <property role="19SUeA" value="de Associatieverdragen EG met Roemeni (PbEG 1994, L 357) en Bulgarije (PbEG 1994, L 358);" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCyG" role="3MKX6F">
+          <property role="3MLT8O" value="k" />
+          <property role="1hTQn4" value="https://calculemus.org/fc07f82b-8753-4b6c-bb44-ee26f93848ca" />
+          <node concept="19SGf9" id="1spse2eiCyH" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCyI" role="19SJt6">
+              <property role="19SUeA" value="de Overeenkomst tussen de Europese Gemeenschap en haar lidstaten, enerzijds, en de Zwitserse Bondsstaat, anderzijds, over het vrije verkeer van personen (Trb. 2000, 16 en 86);" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCyJ" role="3MKX6F">
+          <property role="3MLT8O" value="l" />
+          <property role="1hTQn4" value="https://calculemus.org/cda42d38-33f9-4032-ae05-64c4c87a3af2" />
+          <node concept="19SGf9" id="1spse2eiCyK" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCyL" role="19SJt6">
+              <property role="19SUeA" value="de Economische Partnerschapsovereenkomst tussen de CARIFORUM-staten, enerzijds, en de Europese Gemeenschap en haar lidstaten, anderzijds (Trb.2009, 18);" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCyM" role="3MKX6F">
+          <property role="3MLT8O" value="m" />
+          <property role="1hTQn4" value="https://calculemus.org/393948e2-9865-4935-b39c-284cea07e343" />
+          <node concept="19SGf9" id="1spse2eiCyN" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCyO" role="19SJt6">
+              <property role="19SUeA" value="de Handelsovereenkomst tussen de Europese Unie en haar lidstaten, enerzijds, en Colombia en Peru, anderzijds (Trb.2012, 178);" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCyP" role="3MKX6F">
+          <property role="3MLT8O" value="n" />
+          <property role="1hTQn4" value="https://calculemus.org/bd80b257-d81e-44d4-b6e7-f294a7e00fdb" />
+          <node concept="19SGf9" id="1spse2eiCyQ" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCyR" role="19SJt6">
+              <property role="19SUeA" value="het Associatieakkoord tussen de Europese Unie en de Europese Gemeenschap voor Atoomenergie en haar lidstaten, enerzijds, en Georgi, anderzijds (Trb.2014, 210);" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCyS" role="3MKX6F">
+          <property role="3MLT8O" value="o" />
+          <property role="1hTQn4" value="https://calculemus.org/3866b615-8bfb-4ec6-80cc-8a9cfa327789" />
+          <node concept="19SGf9" id="1spse2eiCyT" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCyU" role="19SJt6">
+              <property role="19SUeA" value="de Associatieovereenkomst tussen de Europese Unie en de Europese Gemeenschap voor Atoomenergie en haar lidstaten, enerzijds, en Oekrane, anderzijds (Trb.2014, 160);" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCyV" role="3MKX6F">
+          <property role="3MLT8O" value="p" />
+          <property role="1hTQn4" value="https://calculemus.org/9e557372-8f81-4830-a66f-b705fade8a80" />
+          <node concept="19SGf9" id="1spse2eiCyW" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCyX" role="19SJt6">
+              <property role="19SUeA" value="de Associatieovereenkomst tussen de Europese Unie en de Europese Gemeenschap voor Atoomenergie en hun lidstaten, enerzijds, en de Republiek Moldavi, anderzijds (Trb.2014, 207)." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCyY">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling3Artikel8.27" />
+    <property role="1N0jUS" value="827" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCyZ" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCz0" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/40327896-c3f3-4644-a673-a95dd1829f99" />
+        <node concept="19SGf9" id="1spse2eiCz1" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCz2" role="19SJt6">
+            <property role="19SUeA" value="De bevoegdheid om vingerafdrukken af te nemen en te verwerken als bedoeld in , geldt niet ten aanzien van:artikel 106a, eerste en tweede lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiCz3" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/36795074-7b60-4d97-8c88-d2a3e2c6f5fc" />
+        <node concept="3MKX6G" id="1spse2eiCz4" role="3MKX6F">
+          <property role="3MLT8O" value="a" />
+          <property role="1hTQn4" value="https://calculemus.org/6d9d7e1c-1050-4051-9068-3300f8ffb7f2" />
+          <node concept="19SGf9" id="1spse2eiCz5" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCz6" role="19SJt6">
+              <property role="19SUeA" value="vreemdelingen die nog niet de leeftijd van zes jaar hebben bereikt, en" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCz7" role="3MKX6F">
+          <property role="3MLT8O" value="b" />
+          <property role="1hTQn4" value="https://calculemus.org/1104037d-cb0e-4641-849c-aea05536f98a" />
+          <node concept="19SGf9" id="1spse2eiCz8" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCz9" role="19SJt6">
+              <property role="19SUeA" value="vreemdelingen bij wie het afnemen van alle vingerafdrukken blijvend fysiek onmogelijk is." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCza">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling3Artikel8.28" />
+    <property role="1N0jUS" value="828" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCzb" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCzc" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/759764b8-94e3-4b1e-9838-2e8942cca0cb" />
+        <node concept="19SGf9" id="1spse2eiCzd" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCze" role="19SJt6">
+            <property role="19SUeA" value="Voor het vaststellen van de identiteit of de verificatie van de identiteit, op grond van , worden digitaal platte vingerafdrukken afgenomen.artikel 106a, eerste en tweede lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCzf">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling3Artikel8.29" />
+    <property role="1N0jUS" value="829" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCzg" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCzh" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/b8e9e4d1-135b-4afa-b07e-27ef713dd0f5" />
+        <node concept="19SGf9" id="1spse2eiCzi" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCzj" role="19SJt6">
+            <property role="19SUeA" value="De vingerafdrukken die zijn afgenomen voor het vaststellen van de identiteit worden opgeslagen in een daartoe door Onze Minister aangewezen bestand in de vreemdelingenadministratie." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCzk" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/fc967dc7-cbf0-445c-891a-170762569ea6" />
+        <node concept="19SGf9" id="1spse2eiCzl" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCzm" role="19SJt6">
+            <property role="19SUeA" value="Het wijzigen en vernietigen van de vingerafdrukken in de vreemdelingenadministratie vindt plaats vanuit het bestand, bedoeld in het eerste lid." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCzn" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/077747d7-f1fc-45de-ba5f-45fbc354e543" />
+        <node concept="19SGf9" id="1spse2eiCzo" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCzp" role="19SJt6">
+            <property role="19SUeA" value="Bij het verifiren van de authenticiteit van het document, bedoeld in , of de verificatie van de identiteit van de vreemdeling worden de vingerafdrukken slechts opgeslagen en verwerkt voor de duur van de verificatie.artikel 9 van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCzq" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/b18a5126-199e-4ced-a684-27dc8cd8a4e6" />
+        <node concept="19SGf9" id="1spse2eiCzr" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCzs" role="19SJt6">
+            <property role="19SUeA" value="Van de vingerafdrukken kunnen in andere bestanden in de vreemdelingenadministratie dan het bestand, bedoeld in het eerste lid, slechts kopien worden opgenomen." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCzt">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling3Artikel8.30" />
+    <property role="1N0jUS" value="830" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCzu" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCzv" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/8100c16e-fdfe-4d1e-a9d6-c2fbea860cd9" />
+        <node concept="19SGf9" id="1spse2eiCzw" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCzx" role="19SJt6">
+            <property role="19SUeA" value="Indien naar het oordeel van de ambtenaar die de vingerafdrukken afneemt, het fysiek dan wel als gevolg van een tijdelijke verhindering onmogelijk is om van de vreemdeling te verlangen dat bij hem vingerafdrukken worden afgenomen, worden in ieder geval de vingerafdrukken afgenomen en opgeslagen van de vingers waarbij dit volgens de ambtenaar wel mogelijk is. Van de vingers waarvan geen vingerafdrukken zijn afgenomen, wordt met opgave van reden een aantekening gemaakt in de vreemdelingenadministratie." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCzy" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/a26c6b69-1f84-480a-acc3-5e1a555f1ee0" />
+        <node concept="19SGf9" id="1spse2eiCzz" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCz$" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling van wie de vingers niet blijvend fysiek beschadigd zijn, wordt uitgenodigd om op een bij ministerile regeling bepaald moment opnieuw zijn vingerafdrukken af te laten nemen." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCz_">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling3Artikel8.31" />
+    <property role="1N0jUS" value="831" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCzA" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCzB" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/b438c780-f72b-4f5c-9d9c-d54d357ae424" />
+        <node concept="19SGf9" id="1spse2eiCzC" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCzD" role="19SJt6">
+            <property role="19SUeA" value="Een gezichtsopname als bedoeld in  wordt in ieder geval opnieuw gemaakt en opgeslagen en tien vingerafdrukken worden in ieder geval opnieuw afgenomen en opgeslagen van vreemdelingen die de leeftijd van twaalf jaar en van vreemdelingen die de leeftijd van achttien jaar hebben bereikt.artikel 106a, eerste lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCzE" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/26a95804-fb77-4fda-bc44-312498643df7" />
+        <node concept="19SGf9" id="1spse2eiCzF" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCzG" role="19SJt6">
+            <property role="19SUeA" value="Een gezichtsopname kan opnieuw worden gemaakt en opgeslagen en vingerafdrukken kunnen opnieuw worden afgenomen en opgeslagen in het geval een gezichtsopname onvoldoende gelijkenis toont of een gezichtsopname of vingerafdrukken van onvoldoende kwaliteit zijn." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCzH">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling3Artikel8.32" />
+    <property role="1N0jUS" value="832" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCzI" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCzJ" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/566b3471-d0f4-4e25-8414-8ce1f5660830" />
+        <node concept="19SGf9" id="1spse2eiCzK" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCzL" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen, onverminderd het bepaalde in Verordening (EG) nr.1030/2002 van de Raad van de Europese Unie van 13juni 2002 betreffende de invoering van een uniform model voor verblijfstitels voor onderdanen van derde landen (PbEU L157), documenten als bedoeld in  worden aangewezen, waarop de vingerafdrukken van de linker- en rechterwijsvinger worden opgenomen.artikel9 van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCzM" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/8e0dd65d-fe01-4816-bfea-65f6a19e01a8" />
+        <node concept="19SGf9" id="1spse2eiCzN" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCzO" role="19SJt6">
+            <property role="19SUeA" value="Indien de kwaliteit van de afdrukken van de wijsvingers ontoereikend is voor opname op het document, worden vingerafdrukken van de middelvingers, ringvingers of duimen opgenomen." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCzP" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/a3a031ed-0f24-4209-8740-2fa662c21487" />
+        <node concept="19SGf9" id="1spse2eiCzQ" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCzR" role="19SJt6">
+            <property role="19SUeA" value="Indien van slechts n vinger een afdruk van voldoende kwaliteit kan worden afgenomen, wordt uitsluitend de afdruk van die vinger opgenomen in het document." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCzS">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling3Artikel8.33" />
+    <property role="1N0jUS" value="833" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCzT" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCzU" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/1bfb194b-79b4-481a-acb4-b232e736ff4d" />
+        <node concept="19SGf9" id="1spse2eiCzV" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCzW" role="19SJt6">
+            <property role="19SUeA" value="In het geval dat bij de identiteitsvaststelling, het verifiren van de authenticiteit van het document of de verificatie van de identiteit onduidelijkheid bestaat over de juistheid van vingerafdrukken wordt, indien dat noodzakelijk is voor de identiteitsvaststelling, het verifiren van de authenticiteit van het document of de verificatie van de identiteit, een onderzoek door een dactyloscopisch deskundige uitgevoerd." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCzX">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling3Artikel8.34" />
+    <property role="1N0jUS" value="834" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCzY" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCzZ" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/be666a5a-f605-47b5-9a98-b940c0d3b7c0" />
+        <node concept="19SGf9" id="1spse2eiC$0" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC$1" role="19SJt6">
+            <property role="19SUeA" value="De ambtenaren die het beheer voeren over de vreemdelingenadministratie, hebben rechtstreekse toegang tot de gezichtsopnames en vingerafdrukken in de vreemdelingenadministratie, voor zover zij die toegang nodig hebben voor een goede vervulling van hun taak en Onze Minister hen daartoe heeft gemachtigd." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC$2" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/5fd24bd3-cdb3-414c-b516-4a754d871d09" />
+        <node concept="19SGf9" id="1spse2eiC$3" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC$4" role="19SJt6">
+            <property role="19SUeA" value="Van de beschikbaarstelling van gezichtsopnames en vingerafdrukken aan derden wordt een aantekening gemaakt van de datum waarop en de organisatie waaraan de gegevens zijn verstrekt. Deze aantekening wordt bewaard voor de duur van vijf jaar." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC$5" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/4a7928e1-c6be-4e43-9af4-b4ce55ba634b" />
+        <node concept="19SGf9" id="1spse2eiC$6" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC$7" role="19SJt6">
+            <property role="19SUeA" value="De ambtenaren die met de uitvoering van de Wet zijn belast, kunnen de gezichtsopnames en vingerafdrukken rechtstreeks langs geautomatiseerde weg raadplegen, voor zover zij die gegevens nodig hebben voor een goede vervulling van hun taak en Onze Minister hen daartoe heeft gemachtigd." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC$8">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling3Artikel8.35" />
+    <property role="1N0jUS" value="835" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC$9" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC$a" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/f4aef7a2-fa52-4382-ab65-8e5007de2bac" />
+        <node concept="19SGf9" id="1spse2eiC$b" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC$c" role="19SJt6">
+            <property role="19SUeA" value="De in de vreemdelingenadministratie opgenomen gezichtsopnames en vingerafdrukken worden niet langer bewaard dan:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiC$d" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/a85b3c1e-06b7-4b86-9b29-a265ba3dcebf" />
+        <node concept="3MKX6G" id="1spse2eiC$e" role="3MKX6F">
+          <property role="3MLT8O" value="a" />
+          <property role="1hTQn4" value="https://calculemus.org/8b2d6cbc-b022-4cb0-9835-90491b6d71d0" />
+          <node concept="19SGf9" id="1spse2eiC$f" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC$g" role="19SJt6">
+              <property role="19SUeA" value="vijf jaar nadat de aanvraag tot het verlenen van een machtiging tot voorlopig verblijf is afgewezen;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiC$h" role="3MKX6F">
+          <property role="3MLT8O" value="b" />
+          <property role="1hTQn4" value="https://calculemus.org/63ee2620-a057-4924-ac1c-8bbccc692a14" />
+          <node concept="19SGf9" id="1spse2eiC$i" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC$j" role="19SJt6">
+              <property role="19SUeA" value="in geval van rechtmatig verblijf: vijf jaar nadat de betrokken vreemdeling, wiens rechtmatig verblijf is geindigd, Nederland aantoonbaar heeft verlaten; of" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiC$k" role="3MKX6F">
+          <property role="3MLT8O" value="c" />
+          <property role="1hTQn4" value="https://calculemus.org/cc2857b3-b770-48e6-8912-f3ca0cfe8e57" />
+          <node concept="19SGf9" id="1spse2eiC$l" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC$m" role="19SJt6">
+              <property role="19SUeA" value="indien tegen de vreemdeling een inreisverbod is uitgevaardigd of de vreemdeling ongewenst is verklaard: vijf jaar na afloop van de geldigheidsduur van het inreisverbod onderscheidenlijk de ongewenstverklaring." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC$n">
+    <property role="TrG5h" value="Hoofdstuk8Afdeling3Artikel8.36" />
+    <property role="1N0jUS" value="836" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC$o" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC$p" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/7f763083-4465-448a-8caa-83cda48db00c" />
+        <node concept="19SGf9" id="1spse2eiC$q" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC$r" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling worden regels gesteld over:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiC$s" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/ae02f9b3-ab74-47e5-b45e-2bc669cc7219" />
+        <node concept="3MKX6G" id="1spse2eiC$t" role="3MKX6F">
+          <property role="3MLT8O" value="a" />
+          <property role="1hTQn4" value="https://calculemus.org/451766ab-ce21-4bb5-9999-7ac13fda9818" />
+          <node concept="19SGf9" id="1spse2eiC$u" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC$v" role="19SJt6">
+              <property role="19SUeA" value="het bewaken van de juistheid en volledigheid van de gezichtsopnames en vingerafdrukken in de vreemdelingenadministratie en op de documenten, bedoeld in ;artikel 9 van de Wet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiC$w" role="3MKX6F">
+          <property role="3MLT8O" value="b" />
+          <property role="1hTQn4" value="https://calculemus.org/b77f5289-5940-4ae2-bb5d-07283b6e9535" />
+          <node concept="19SGf9" id="1spse2eiC$x" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC$y" role="19SJt6">
+              <property role="19SUeA" value="de beveiliging van de gezichtsopnames en vingerafdrukken tegen verlies of onrechtmatige verwerking;" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiC$z" role="3MKX6F">
+          <property role="3MLT8O" value="c" />
+          <property role="1hTQn4" value="https://calculemus.org/b6ad2ad0-4600-4f4b-b69e-1799457dfe93" />
+          <node concept="19SGf9" id="1spse2eiC$$" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC$_" role="19SJt6">
+              <property role="19SUeA" value="de wijze waarop de gezichtsopnames en vingerafdrukken, op grond van  beschikbaar worden gesteld;artikel 107, vijfde lid, van de Wet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiC$A" role="3MKX6F">
+          <property role="3MLT8O" value="d" />
+          <property role="1hTQn4" value="https://calculemus.org/65c73ad6-0995-4d0e-917c-1c944d44a9df" />
+          <node concept="19SGf9" id="1spse2eiC$B" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC$C" role="19SJt6">
+              <property role="19SUeA" value="de vernietiging van de gezichtsopnames en vingerafdrukken na afloop van de bewaartermijn, bedoeld in , enartikel 8.35" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiC$D" role="3MKX6F">
+          <property role="3MLT8O" value="e" />
+          <property role="1hTQn4" value="https://calculemus.org/febdc3af-64bd-4d68-aaf2-9bb6dd851fb3" />
+          <node concept="19SGf9" id="1spse2eiC$E" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiC$F" role="19SJt6">
+              <property role="19SUeA" value="de verwijdering en vernietiging van de gezichtsopname en vingerafdrukken op verzoek van de vreemdeling, op grond dat deze de hoedanigheid heeft verkregen van gemeenschapsonderdaan anders dan door verkrijging van het Nederlanderschap." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC$G">
+    <property role="TrG5h" value="Hoofdstuk5Paragraaf2Artikel5.1c" />
+    <property role="1N0jUS" value="851" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC$H" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC$I" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/aa3c8a2d-39de-4b26-834d-d5575c64f35c" />
+        <node concept="19SGf9" id="1spse2eiC$J" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC$K" role="19SJt6">
+            <property role="19SUeA" value="De grond voor bewaring, bedoeld in , is aanwezig, indien de identiteit of de nationaliteit van de vreemdeling met onvoldoende zekerheid bekend is en zich ten minste twee van de gronden, bedoeld in , voordoen.artikel 5.1b, derde en vierde lidartikel 59b, eerste lid, onderdeel a, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC$L" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/7fddfef2-b67d-47b2-9983-cacf792f0370" />
+        <node concept="19SGf9" id="1spse2eiC$M" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC$N" role="19SJt6">
+            <property role="19SUeA" value="De grond voor bewaring, bedoeld in , is aanwezig, indien door middel van bewaring de gegevens die noodzakelijk zijn voor beoordeling van een aanvraag tot het verkrijgen van een verblijfsvergunning kunnen worden verkregen, en zich ten minste twee van de gronden, bedoeld in , voordoen.artikel 5.1b, derde en vierde lidartikel 59b, eerste lid, onderdeel b, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiC$O" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/a66c60ed-264f-423e-bfad-03fa6290435d" />
+        <node concept="3MKX5i" id="1spse2eiC$P" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/599045df-9f3b-4023-9dae-40a8f176413b" />
+          <node concept="19SGf9" id="1spse2eiC$Q" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiC$R" role="19SJt6">
+              <property role="19SUeA" value="Bij de beoordeling of sprake is van een aanvraag die louter is ingediend teneinde de uitvoering van het terugkeerbesluit uit te stellen of te verijdelen als bedoeld  worden alle omstandigheden van het geval betrokken, waaronder met name:artikel 59b, eerste lid, onderdeel c, ten derde, van de Wet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiC$S" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/77ca6d7c-0608-4082-bd67-d2130c02bf17" />
+          <node concept="3MKX6G" id="1spse2eiC$T" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/29da3f77-d26b-4b6b-8440-1eb5f0aafb81" />
+            <node concept="19SGf9" id="1spse2eiC$U" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiC$V" role="19SJt6">
+                <property role="19SUeA" value="of de vreemdeling eerder een aanvraag tot het verlenen van een verblijfsvergunning asiel voor bepaalde tijd heeft gedaan;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiC$W" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/e6de452f-6eed-45eb-b277-410f2b4fa9a9" />
+            <node concept="19SGf9" id="1spse2eiC$X" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiC$Y" role="19SJt6">
+                <property role="19SUeA" value="de termijn waarbinnen de vreemdeling zijn aanvraag tot het verlenen van een verblijfsvergunning asiel voor bepaalde tijd kenbaar heeft gemaakt in het licht van zijn verklaringen hieromtrent;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiC$Z" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/5a05affb-4cb6-4bd6-a191-c09367b1c827" />
+            <node concept="19SGf9" id="1spse2eiC_0" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiC_1" role="19SJt6">
+                <property role="19SUeA" value="de omstandigheden waaronder de vreemdeling is aangetroffen dan wel zijn aanvraag kenbaar heeft gemaakt;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiC_2" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/3d0c9609-1c53-4a6c-a2c5-510f4375b6cb" />
+            <node concept="19SGf9" id="1spse2eiC_3" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiC_4" role="19SJt6">
+                <property role="19SUeA" value="of de vreemdeling in het Schengeninformatiesysteem ter zake van een inreisverbod gesignaleerd staat;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiC_5" role="3MKX6F">
+            <property role="3MLT8O" value="e" />
+            <property role="1hTQn4" value="https://calculemus.org/9463dbbd-c9a2-4472-b5bb-7b7f1db0304c" />
+            <node concept="19SGf9" id="1spse2eiC_6" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiC_7" role="19SJt6">
+                <property role="19SUeA" value="de gestelde nationaliteit in het licht van de toepassing van ,artikel 30b, eerste lid, onder b van de Wet" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiC_8" role="3MKX6F">
+            <property role="3MLT8O" value="f" />
+            <property role="1hTQn4" value="https://calculemus.org/7551ff35-c0b4-41b2-9836-56f0f77579b6" />
+            <node concept="19SGf9" id="1spse2eiC_9" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiC_a" role="19SJt6">
+                <property role="19SUeA" value="de onderbouwing van de aanvraag." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC_b" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/d12d84bf-f8de-4b96-90c1-9b229724b566" />
+        <node concept="19SGf9" id="1spse2eiC_c" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC_d" role="19SJt6">
+            <property role="19SUeA" value="De grond voor bewaring, bedoeld in , is in ieder geval aanwezig, indien er is sprake van een aanvraagprocedure waarin vermoedelijk artikel 1F van het Vluchtelingenverdrag kan worden tegengeworpen.artikel 59b, eerste lid, onderdeel d, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC_e">
+    <property role="TrG5h" value="Hoofdstuk6Afdeling1Artikel6.1a" />
+    <property role="1N0jUS" value="892" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC_f" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC_g" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/de31196f-7c7b-4183-862d-f4f9bc6881ac" />
+        <node concept="19SGf9" id="1spse2eiC_h" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC_i" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister is bevoegd om, bij de uitoefening van zijn bevoegdheid tot uitzetting als bedoeld in  alle daartoe benodigde handelingen te verrichten.artikel 63, tweede lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC_j" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/a4b98eb6-99d2-4801-ac29-db0770591a95" />
+        <node concept="19SGf9" id="1spse2eiC_k" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC_l" role="19SJt6">
+            <property role="19SUeA" value="Bij toepassing van het eerste lid worden de grondrechten, de waardigheid en fysieke integriteit van de vreemdeling geerbiedigd." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC_m" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/4516ad64-eef4-4534-93e5-eb113ab214e1" />
+        <node concept="19SGf9" id="1spse2eiC_n" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC_o" role="19SJt6">
+            <property role="19SUeA" value="In geval van uitzetting door de lucht houdt Onze Minister rekening met de gemeenschappelijke richtsnoeren voor veiligheidsvoorzieningen voor gezamenlijke verwijdering door de lucht, bedoeld in artikel 7 van de beschikking van de Raad van de Europese Unie van 29april 2004, nr.2004/573/EG (PbEU, L261)." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC_p">
+    <property role="TrG5h" value="Hoofdstuk6Afdeling1Artikel6.1b" />
+    <property role="1N0jUS" value="896" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC_q" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC_r" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/e76420e7-6339-433c-8427-add7814128e8" />
+        <node concept="19SGf9" id="1spse2eiC_s" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC_t" role="19SJt6">
+            <property role="19SUeA" value="Ingeval de vreemdeling ingevolge  onmiddellijk moet vertrekken of niet is vertrokken binnen de voor hem geldende vertrektermijn, kan de uitzetting worden uitgesteld. Bij het uitstel wordt in ieder geval rekening gehouden met de fysieke of mentale gesteldheid van de vreemdeling en technische redenen, zoals het ontbreken van vervoermiddelen of het mislukken van de uitzetting wegens onvoldoende identificatie.artikel 62, tweede lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC_u" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/0e8b4dfd-56a6-401d-bf35-7afbb37564e4" />
+        <node concept="19SGf9" id="1spse2eiC_v" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC_w" role="19SJt6">
+            <property role="19SUeA" value="Ingeval de uitzetting wordt uitgesteld op grond van het eerste lid, is  van overeenkomstige toepassing, onverminderd het overigens krachtens de  en  bepaalde.artikel 4.52aartikelen 54" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC_x">
+    <property role="TrG5h" value="Hoofdstuk6Afdeling1Artikel6.1c" />
+    <property role="1N0jUS" value="899" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC_y" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC_z" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/9a94b5f2-af04-4a42-abe8-a3d5d3d23821" />
+        <node concept="19SGf9" id="1spse2eiC_$" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiC__" role="19SJt6">
+            <property role="19SUeA" value="De vreemdeling legt bij een verzoek om toepassing van  ten minste de voor de beslissing van Onze Minister relevante medische gegevens en overige bescheiden over.artikel 64 van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC_A">
+    <property role="TrG5h" value="Hoofdstuk6Afdeling1Artikel6.1d" />
+    <property role="1N0jUS" value="900" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC_B" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC_C" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/e646d907-7be3-4322-a4cd-de157b946505" />
+        <node concept="19SGf9" id="1spse2eiC_D" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC_E" role="19SJt6">
+            <property role="19SUeA" value="Bij afwijzing van een aanvraag tot het verlenen van de verblijfsvergunning regulier voor bepaalde tijd wordt ambtshalve beoordeeld of er reden is voor toepassing van , tenzij op grond van , of , alsnog ambtshalve een verblijfsvergunning is verstrekt.artikel 3.6, eerste lidartikel 64 van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC_F" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/06dfb6e2-5d89-4fc5-a929-05bc3e133062" />
+        <node concept="19SGf9" id="1spse2eiC_G" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC_H" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid is uitsluitend van toepassing indien de aanvraag betrekking had op een verblijfsvergunning als bedoeld in , en het de eerste zodanige aanvraag betrof.artikel 3.6, tweede lid" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC_I" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/0369ec9f-5c82-4b0e-ad9d-ecbce06f8f02" />
+        <node concept="19SGf9" id="1spse2eiC_J" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC_K" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid is van overeenkomstige toepassing indien de verblijfsvergunning regulier voor bepaalde tijd wordt ingetrokken of de aanvraag tot het verlengen van de geldigheidsduur ervan wordt afgewezen, met dien verstande dat in dat geval de ambtshalve beoordeling uitsluitend plaatsvindt indien de vreemdeling de voor die beoordeling relevante medische gegevens en overige bescheiden heeft overgelegd." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC_L">
+    <property role="TrG5h" value="Hoofdstuk6Afdeling1Artikel6.1e" />
+    <property role="1N0jUS" value="904" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC_M" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiC_N" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/e726d56a-b914-4474-822a-99709dfbb31b" />
+        <node concept="19SGf9" id="1spse2eiC_O" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC_P" role="19SJt6">
+            <property role="19SUeA" value="Bij afwijzing van de eerste aanvraag tot het verlenen van de verblijfsvergunning asiel voor bepaalde tijd wordt ambtshalve beoordeeld of er reden is voor toepassing van , tenzij op grond van , of , alsnog ambtshalve een verblijfsvergunning is verstrekt.artikel 3.6a, eerste lidartikel 64 van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC_Q" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/c7ad4fa6-e10a-41ce-b35c-dd977dc62c28" />
+        <node concept="19SGf9" id="1spse2eiC_R" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC_S" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid is niet van toepassing, indien de aanvraag niet in behandeling is genomen op grond van , niet-ontvankelijk is verklaard op grond van , is afgewezen als kennelijk ongegrond op grond van  of buiten behandeling is gesteld op grond van .artikel 30 van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiC_T" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/8906ce8e-30bb-4c66-80b9-4b13b50c2f8b" />
+        <node concept="19SGf9" id="1spse2eiC_U" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiC_V" role="19SJt6">
+            <property role="19SUeA" value="Het eerste lid is van overeenkomstige toepassing, indien de verblijfsvergunning asiel voor bepaalde tijd wordt ingetrokken of de aanvraag tot het verlengen van de geldigheidsduur ervan wordt afgewezen, met dien verstande dat in dat geval de ambtshalve beoordeling uitsluitend plaatsvindt indien de vreemdeling de voor die beoordeling relevante medische gegevens en overige bescheiden heeft overgelegd." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiC_W">
+    <property role="TrG5h" value="Hoofdstuk6Afdeling1Artikel6.1f" />
+    <property role="1N0jUS" value="908" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiC_X" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiC_Y" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/6f0c5be0-a0ff-4dc1-979b-db5cf3179f0c" />
+        <node concept="19SGf9" id="1spse2eiC_Z" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCA0" role="19SJt6">
+            <property role="19SUeA" value="is van overeenkomstige toepassing op de overdracht, bedoeld in .Artikel 6.1aartikel 63a" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCA1">
+    <property role="TrG5h" value="Hoofdstuk9Artikel9.10" />
+    <property role="1N0jUS" value="910" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCA2" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCA3" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/63d5b715-5bcc-425f-8610-cc106fe1be27" />
+        <node concept="19SGf9" id="1spse2eiCA4" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCA5" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCA6">
+    <property role="TrG5h" value="Hoofdstuk9Artikel9.11" />
+    <property role="1N0jUS" value="911" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCA7" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCA8" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/4b10d010-929b-40cd-98b7-084f4a8cd242" />
+        <node concept="19SGf9" id="1spse2eiCA9" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCAa" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCAb">
+    <property role="TrG5h" value="Hoofdstuk9Artikel9.12" />
+    <property role="1N0jUS" value="912" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCAc" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCAd" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/f39c5c2a-950f-4e0d-9ed6-b3869ef003ba" />
+        <node concept="19SGf9" id="1spse2eiCAe" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCAf" role="19SJt6">
+            <property role="19SUeA" value="Indien het bij koninklijke boodschap van 16 september 1999 ingediende voorstel van wet tot algehele herziening van de Vreemdelingenwet (Vreemdelingenwet 2000) (Kamerstukken I 19992000, nr. 26732, nr. 263) nadat het tot wet is verheven, in werking treedt, treedt dit besluit op hetzelfde tijdstip in werking." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCAg">
+    <property role="TrG5h" value="Hoofdstuk9Artikel9.13" />
+    <property role="1N0jUS" value="913" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCAh" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCAi" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/9bd17201-47ed-4e0d-8bdc-700a68186d72" />
+        <node concept="19SGf9" id="1spse2eiCAj" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCAk" role="19SJt6">
+            <property role="19SUeA" value="Dit besluit wordt aangehaald als: Vreemdelingenbesluit 2000." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCAl">
+    <property role="TrG5h" value="Hoofdstuk6Afdeling3Artikel6.5a" />
+    <property role="1N0jUS" value="968" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCAm" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCAn" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/0533a826-77d3-40f8-9397-aa713df1cdbf" />
+        <node concept="19SGf9" id="1spse2eiCAo" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCAp" role="19SJt6">
+            <property role="19SUeA" value="De duur van het inreisverbod bedraagt ten hoogste twee jaren." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCAq" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/6eaa5638-c7c2-4827-b193-8040fa34ce1d" />
+        <node concept="19SGf9" id="1spse2eiCAr" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCAs" role="19SJt6">
+            <property role="19SUeA" value="In afwijking van het eerste lid, bedraagt de duur van het inreisverbod ten hoogste n jaar, indien het betreft de vreemdeling die de vrije termijn, bedoeld in , heeft overschreden met meer dan drie dagen maar niet meer dan 90dagen.artikel 3.3" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCAt" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/4d231030-f84d-4f91-a9d6-0cde8877f689" />
+        <node concept="19SGf9" id="1spse2eiCAu" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCAv" role="19SJt6">
+            <property role="19SUeA" value="In afwijking van het eerste en tweede lid, bedraagt de duur van het inreisverbod ten hoogste drie jaren, indien het betreft een vreemdeling die is veroordeeld tot een vrijheidsstraf van minder dan zes maanden." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiCAw" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/4aa9f8fa-4ff5-47a5-af73-693258f78502" />
+        <node concept="3MKX5i" id="1spse2eiCAx" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/3b4fa687-9fd2-4818-90f8-1c24d6daebb5" />
+          <node concept="19SGf9" id="1spse2eiCAy" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiCAz" role="19SJt6">
+              <property role="19SUeA" value="In afwijking van het eerste tot en met derde lid, bedraagt de duur van het inreisverbod ten hoogste vijf jaren, indien het betreft een vreemdeling die:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiCA$" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/a063e280-c490-4962-87e6-9f2e5554ac01" />
+          <node concept="3MKX6G" id="1spse2eiCA_" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/bfd9e65c-2136-4cda-bdce-b03ccc2e29a3" />
+            <node concept="19SGf9" id="1spse2eiCAA" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCAB" role="19SJt6">
+                <property role="19SUeA" value="is veroordeeld tot een vrijheidsstraf van zes maanden of langer;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCAC" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/dea3dfe0-cd8c-406b-8622-dbc6a01b958b" />
+            <node concept="19SGf9" id="1spse2eiCAD" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCAE" role="19SJt6">
+                <property role="19SUeA" value="gebruik heeft gemaakt van valse of vervalste reis- of identiteitspapieren dan wel opzettelijk reis- of identiteitspapieren heeft overgelegd die niet op hem betrekking hebben;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCAF" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/54001d39-115b-463a-b808-ab2f05eaee8a" />
+            <node concept="19SGf9" id="1spse2eiCAG" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCAH" role="19SJt6">
+                <property role="19SUeA" value="reeds het onderwerp is geweest van meer dan n terugkeerbesluit, of" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCAI" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/b1f18fb5-7df5-473c-ae4d-e98081ea5e5e" />
+            <node concept="19SGf9" id="1spse2eiCAJ" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCAK" role="19SJt6">
+                <property role="19SUeA" value="zich op het grondgebied van Nederland heeft begeven terwijl een inreisverbod van kracht was." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiCAL" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/65b2423f-d29f-484e-8b28-55c05a6907be" />
+        <node concept="3MKX5i" id="1spse2eiCAM" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/543a6364-1b96-4c30-a440-cf1beab05361" />
+          <node concept="19SGf9" id="1spse2eiCAN" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiCAO" role="19SJt6">
+              <property role="19SUeA" value="In afwijking van het eerste tot en met vierde lid, bedraagt de duur van het inreisverbod ten hoogste tien jaren, indien het betreft een vreemdeling die een ernstige bedreiging vormt voor de openbare orde of de openbare veiligheid. Deze ernstige bedreiging kan blijken uit onder meer:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiCAP" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/5035b6ae-59f7-4599-a6ab-eb08259b9a74" />
+          <node concept="3MKX6G" id="1spse2eiCAQ" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/06e0b933-e642-424e-ba18-23af499167ec" />
+            <node concept="19SGf9" id="1spse2eiCAR" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCAS" role="19SJt6">
+                <property role="19SUeA" value="een veroordeling naar aanleiding van een geweldsdelict of opiumdelict;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCAT" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/590230b0-bf91-408a-a3cd-7d4bef7dba9d" />
+            <node concept="19SGf9" id="1spse2eiCAU" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCAV" role="19SJt6">
+                <property role="19SUeA" value="een veroordeling tot een vrijheidsstraf wegens een misdrijf waartegen een gevangenisstraf van meer dan zes jaren is bedreigd;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCAW" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/d5e2a8cc-57d7-47af-aedc-b2183ab0e800" />
+            <node concept="19SGf9" id="1spse2eiCAX" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCAY" role="19SJt6">
+                <property role="19SUeA" value="de omstandigheid dat hem artikel 1F van het Vluchtelingenverdrag wordt tegengeworpen, of" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCAZ" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/61b1238e-c13e-4ceb-b2ed-30dc309ada66" />
+            <node concept="19SGf9" id="1spse2eiCB0" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCB1" role="19SJt6">
+                <property role="19SUeA" value="de oplegging van een maatregel als bedoeld in .artikel 37a van het Wetboek van Strafrecht" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCB2" role="3MKX6F">
+        <property role="3MLT8O" value="6" />
+        <property role="1hTQn4" value="https://calculemus.org/ade97499-5593-4a10-a80c-a9996ec343ea" />
+        <node concept="19SGf9" id="1spse2eiCB3" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCB4" role="19SJt6">
+            <property role="19SUeA" value="In afwijking van het eerste tot en met vijfde lid, bedraagt de duur van het inreisverbod ten hoogste twintig jaren, indien de vreemdeling naar het oordeel van Onze Minister een ernstige bedreiging vormt voor de nationale veiligheid of indien naar zijn oordeel zwaarwegende belangen nopen tot een duur van meer dan tien jaren." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCB5">
+    <property role="TrG5h" value="Hoofdstuk6Afdeling3Artikel6.5b" />
+    <property role="1N0jUS" value="969" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCB6" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCB7" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/e097ccef-62f9-4efd-a402-28225bcbe2ac" />
+        <node concept="19SGf9" id="1spse2eiCB8" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCB9" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister kan op aanvraag het inreisverbod dat is uitgevaardigd met toepassing van , opheffen indien de vreemdeling aantoont Nederland geheel in overeenstemming met de op hem rustende verplichting, bedoeld in , te hebben verlaten.artikel 66a, tweede lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCBa" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/577287d6-accc-42d0-8bd4-ea75937aa9b6" />
+        <node concept="19SGf9" id="1spse2eiCBb" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCBc" role="19SJt6">
+            <property role="19SUeA" value="In andere gevallen dan bedoeld in het eerste lid, kan Onze Minister op aanvraag het inreisverbod opheffen, indien de vreemdeling aantoont dat hij sinds zijn vertrek uit Nederland na het inreisverbod een ononderbroken periode van ten minste de helft van de duur van het inreisverbod buiten Nederland heeft verbleven en hij zich in die periode niet schuldig heeft gemaakt aan misdrijven en dat hij niet aan strafvervolging onderworpen is." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiCBd" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/38f7c297-213c-4140-b5ff-d7d1f3be7fd4" />
+        <node concept="3MKX5i" id="1spse2eiCBe" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/ef983271-072a-4c31-b0ef-fd9a71107c81" />
+          <node concept="19SGf9" id="1spse2eiCBf" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiCBg" role="19SJt6">
+              <property role="19SUeA" value="De gegevens, bedoeld in , die de vreemdeling bij de aanvraag, bedoeld in het tweede lid, verstrekt, zijn in ieder geval:artikel 4:2, tweede lid, van de Algemene wet bestuursrecht" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiCBh" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/4db041d8-8605-4f9d-b3df-3a4d9194198e" />
+          <node concept="3MKX6G" id="1spse2eiCBi" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/79eb0bdc-b79c-4c53-9bd6-36723a5da9dc" />
+            <node concept="19SGf9" id="1spse2eiCBj" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCBk" role="19SJt6">
+                <property role="19SUeA" value="een schriftelijke verklaring dat hij voldoet aan de in het tweede lid bedoelde voorwaarden voor opheffing van het inreisverbod;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCBl" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/3de9bbf7-7776-4364-b06f-40d7c3298133" />
+            <node concept="19SGf9" id="1spse2eiCBm" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCBn" role="19SJt6">
+                <property role="19SUeA" value="een kopie van de documenten voor grensoverschrijding die de vreemdeling sinds zijn inreisverbod heeft gehouden;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCBo" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/5ee68938-d9c8-4f56-9444-ad3bd84f3f85" />
+            <node concept="19SGf9" id="1spse2eiCBp" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCBq" role="19SJt6">
+                <property role="19SUeA" value="een overzicht van de plaatsen waar de vreemdeling sinds zijn inreisverbod heeft verbleven, voorzien van bewijsstukken;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCBr" role="3MKX6F">
+            <property role="3MLT8O" value="d" />
+            <property role="1hTQn4" value="https://calculemus.org/7f757f9b-9010-406c-a559-4ec3dbe31fbe" />
+            <node concept="19SGf9" id="1spse2eiCBs" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCBt" role="19SJt6">
+                <property role="19SUeA" value="een schriftelijke verklaring, afgegeven door de daartoe bevoegde autoriteiten van de staat of staten waar de vreemdeling sinds zijn inreisverbod heeft verbleven, dat de vreemdeling zich tijdens dat verblijf niet schuldig heeft gemaakt aan misdrijven en niet aan strafvervolging onderworpen is." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCBu" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/8c705b30-97fc-4f64-a7d8-f8db73964581" />
+        <node concept="19SGf9" id="1spse2eiCBv" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCBw" role="19SJt6">
+            <property role="19SUeA" value="Het derde lid, onderdeel d, is niet van toepassing op de vreemdeling ten aanzien wie van de duur van het inreisverbod is bepaald met toepassing van .artikel 6.5a, eerste of tweede lid" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCBx">
+    <property role="TrG5h" value="Hoofdstuk6Afdeling3Artikel6.5c" />
+    <property role="1N0jUS" value="980" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCBy" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCBz" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/aa69daa4-bbb7-48a3-b64c-d413c85a1b52" />
+        <node concept="19SGf9" id="1spse2eiCB$" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCB_" role="19SJt6">
+            <property role="19SUeA" value="In zeer uitzonderlijke en dringende gevallen kan Onze Minister het inreisverbod tijdelijk opheffen. Aan de tijdelijke opheffing worden voorwaarden gesteld omtrent de plaats van binnenkomst en de duur van het verblijf in Nederland." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCBA">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling2Artikel4.17a" />
+    <property role="1N0jUS" value="1257" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCBB" role="3MKX6D">
+      <node concept="3MKX5h" id="1spse2eiCBC" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/6e0b1193-b38a-4f5f-bb6a-31696ea5cea5" />
+        <node concept="3MKX5i" id="1spse2eiCBD" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/f285ab8c-3a98-409d-84db-c73c46abdb42" />
+          <node concept="19SGf9" id="1spse2eiCBE" role="3MLR7a">
+            <node concept="19SUe$" id="1spse2eiCBF" role="19SJt6">
+              <property role="19SUeA" value="De bevoegdheid, bedoeld in , om ter bestrijding van illegaal verblijf na grensoverschrijding personen staande te houden ter vaststelling van hun identiteit, nationaliteit en verblijfsrechtelijke positie, wordt uitsluitend uitgeoefend in het kader van toezicht op vreemdelingen:artikel 50, eerste lid, van de Wet" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="1spse2eiCBG" role="3MKX6F">
+          <property role="1hTQn4" value="https://calculemus.org/d7b28f5f-2c93-49c8-a13d-cf27521a43e3" />
+          <node concept="3MKX6G" id="1spse2eiCBH" role="3MKX6F">
+            <property role="3MLT8O" value="a" />
+            <property role="1hTQn4" value="https://calculemus.org/e13426ad-d6a5-4231-bb57-92cf5bef21e3" />
+            <node concept="19SGf9" id="1spse2eiCBI" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCBJ" role="19SJt6">
+                <property role="19SUeA" value="op luchthavens bij de aankomst van vluchten vanuit het Schengengebied;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCBK" role="3MKX6F">
+            <property role="3MLT8O" value="b" />
+            <property role="1hTQn4" value="https://calculemus.org/2f380b95-f4ce-42d1-b74f-999bce4ac54c" />
+            <node concept="19SGf9" id="1spse2eiCBL" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCBM" role="19SJt6">
+                <property role="19SUeA" value="in treinen gedurende ten hoogste dertig minuten na het passeren van de gemeenschappelijke landgrens met Belgi of Duitsland of, als binnen deze periode het tweede station na het passeren van de grens nog niet is bereikt, tot uiterlijk het tweede station na het passeren van de grens;" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX6G" id="1spse2eiCBN" role="3MKX6F">
+            <property role="3MLT8O" value="c" />
+            <property role="1hTQn4" value="https://calculemus.org/16af5e95-cdac-4795-88dd-158f156b6c05" />
+            <node concept="19SGf9" id="1spse2eiCBO" role="3MLT8Q">
+              <node concept="19SUe$" id="1spse2eiCBP" role="19SJt6">
+                <property role="19SUeA" value="op wegen en vaarwegen in een gebied tot twintig kilometer vanaf de gemeenschappelijke landgrens met Belgi of Duitsland." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCBQ" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/26573c0d-4c6e-44d0-ade3-092499eb476f" />
+        <node concept="19SGf9" id="1spse2eiCBR" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCBS" role="19SJt6">
+            <property role="19SUeA" value="Het toezicht, bedoeld in het eerste lid, wordt uitgevoerd op basis van informatie of ervaringsgegevens over illegaal verblijf na grensoverschrijding. Het toezicht kan daarnaast in beperkte mate worden uitgevoerd met het oog op het verkrijgen van informatie over dergelijk illegaal verblijf." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCBT" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/c0d6a73c-8379-4dc0-b4bd-a8b5e13416eb" />
+        <node concept="19SGf9" id="1spse2eiCBU" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCBV" role="19SJt6">
+            <property role="19SUeA" value="Het toezicht, bedoeld in het eerste lid, onderdeel a, wordt ten hoogste zeven keer per week uitgevoerd ten aanzien van vluchten op eenzelfde vliegroute, met een maximum van eenderde van het totale aantal geplande vluchten per maand op die vliegroute. In het kader van dit toezicht wordt slechts een deel van de passagiers op een vlucht staande gehouden." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCBW" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/39ab2f0f-bdd5-4341-b78d-d83faacfe50c" />
+        <node concept="19SGf9" id="1spse2eiCBX" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCBY" role="19SJt6">
+            <property role="19SUeA" value="Het toezicht, bedoeld in het eerste lid, onderdeel b, wordt per dag in ten hoogste drie treinen per traject en ten hoogste twintig treinen in totaal uitgevoerd, met dien verstande dat het toezicht slechts mag worden uitgeoefend in een deel van de trein, en per trein in ten hoogste vier treincoups." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCBZ" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/e2464726-0464-4807-9ba0-f83d7da70b36" />
+        <node concept="19SGf9" id="1spse2eiCC0" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCC1" role="19SJt6">
+            <property role="19SUeA" value="Het toezicht, bedoeld in het eerste lid, onderdeel c, wordt op eenzelfde weg of vaarweg ten hoogste negentig uur per maand en ten hoogste zes uur per dag uitgevoerd. In het kader van dit toezicht wordt slechts een deel van de passerende vervoermiddelen stilgehouden." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCC2">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling2Artikel4.17b" />
+    <property role="1N0jUS" value="1268" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCC3" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCC4" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/5c7d5ad2-8080-4f08-9a9a-11d8eec7b4f6" />
+        <node concept="19SGf9" id="1spse2eiCC5" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCC6" role="19SJt6">
+            <property role="19SUeA" value="Indien er concrete aanwijzingen zijn dat er sprake is van een aanzienlijke toename van illegaal verblijf na grensoverschrijding, dan wel indien er concrete aanwijzingen zijn dat op korte termijn een dergelijke toename kan worden verwacht, kan bij besluit van Onze Minister tijdelijk worden afgeweken van .artikel 4.17a, derde, vierde en vijfde lid" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCC7" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/3f4920be-7be8-4334-859a-df2aa3b9743a" />
+        <node concept="19SGf9" id="1spse2eiCC8" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCC9" role="19SJt6">
+            <property role="19SUeA" value="De geldigheidsduur van het in het eerste lid bedoelde besluit verstrijkt in ieder geval zes maanden nadat het is genomen. Onze Minister trekt het besluit onverwijld in indien het niet langer noodzakelijk is." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCCa" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/b7d4788b-d592-44d1-a704-2120e5723166" />
+        <node concept="19SGf9" id="1spse2eiCCb" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCCc" role="19SJt6">
+            <property role="19SUeA" value="Indien een besluit als bedoeld in het eerste lid is genomen, wordt het toezicht, bedoeld in , op eenzelfde vliegroute, ten hoogste op de helft van het aantal vluchten per dag uitgevoerd. In het kader van dit toezicht wordt slechts een deel van de passagiers op een vlucht staande gehouden.artikel 4.17a, eerste lid, onderdeela" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCCd" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/16d964a0-9bae-4070-99ee-e80300e4b373" />
+        <node concept="19SGf9" id="1spse2eiCCe" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCCf" role="19SJt6">
+            <property role="19SUeA" value="Indien een besluit als bedoeld in het eerste lid is genomen, wordt het toezicht, bedoeld in , per dag in ten hoogste zes treinen per traject en ten hoogste veertig treinen in totaal uitgevoerd, met dien verstande dat het toezicht slechts mag worden uitgeoefend in een deel van de trein, en per trein in ten hoogste vier treincoups.artikel 4.17a, eerste lid, onderdeelb" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCCg" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/3f66aec6-0ccd-4589-b1fc-d5840e97b177" />
+        <node concept="19SGf9" id="1spse2eiCCh" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCCi" role="19SJt6">
+            <property role="19SUeA" value="Indien een besluit als bedoeld in het eerste lid is genomen, wordt het toezicht, bedoeld in , op eenzelfde weg of vaarweg ten hoogste 180 uur per maand en ten hoogste 12uur per dag uitgevoerd. In het kader van dit toezicht wordt slechts een deel van de passerende vervoermiddelen stilgehouden.artikel 4.17a, eerste lid, onderdeelc" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCCj">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling2Artikel4.35a" />
+    <property role="1N0jUS" value="1387" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCCk" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCCl" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/f1c98151-23a2-4090-90fb-b8ed6529f537" />
+        <node concept="19SGf9" id="1spse2eiCCm" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCCn" role="19SJt6">
+            <property role="19SUeA" value="De aantekening, bedoeld in , wordt geplaatst, indien de korpschef of de bevelhebber van de Koninklijke marechaussee vermoedt dat de vreemdeling zal trachten naar Nederland terug te keren zonder te voldoen aan de vereisten voor toegang tot Nederland. De aantekening wordt niet gesteld indien het vertrek, de uitzetting of de doorreis van de vreemdeling door, of diens toegang tot een derde land, niet zijnde een andere staat als bedoeld in , daardoor wordt bemoeilijkt.artikel 4.29, eerste lid, onder j" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCCo" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/4438b0cf-7f5e-45a0-a235-2ad76dce6ab6" />
+        <node concept="19SGf9" id="1spse2eiCCp" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCCq" role="19SJt6">
+            <property role="19SUeA" value="Uit de aantekening blijken de duur van het inreisverbod en de datum waarop het is uitgevaardigd." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCCr">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling3Paragraaf7Artikel4.52a" />
+    <property role="1N0jUS" value="1468" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCCs" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCCt" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/d2ce0cda-d59c-47c0-9428-44225116253b" />
+        <node concept="19SGf9" id="1spse2eiCCu" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCCv" role="19SJt6">
+            <property role="19SUeA" value="De ambtenaar belast met de grensbewaking of het toezicht op vreemdelingen kan van de vreemdeling die Nederland ingevolge  uit eigen beweging binnen vier weken moet verlaten zekerheid verlangen, teneinde het risico te beperken dat de vreemdeling zich zal onttrekken aan het toezicht.artikel 62, eerste lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCCw" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/fd58d529-ce19-47c6-9758-3bcfa5a88c8e" />
+        <node concept="19SGf9" id="1spse2eiCCx" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCCy" role="19SJt6">
+            <property role="19SUeA" value="De zekerheid, bedoeld in het eerste lid, kan ook worden verlangd in geval van uitstel van vertrek of uitzetting:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCCz" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/fdc8e625-e376-41ad-a4b7-335acbd28fc4" />
+        <node concept="19SGf9" id="1spse2eiCC$" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCC_" role="19SJt6">
+            <property role="19SUeA" value="op grond dat het vertrek of de uitzetting in strijd zou zijn met het beginsel van non-refoulement;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCCA" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/539dd57b-0c7a-43a5-86fb-d41f02c59b55" />
+        <node concept="19SGf9" id="1spse2eiCCB" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCCC" role="19SJt6">
+            <property role="19SUeA" value="zolang de vreemdeling rechtmatig verblijf heeft als bedoeld in ; ofartikel 8, onder h of j, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCCD" role="3MKX6F">
+        <property role="3MLT8O" value="c" />
+        <property role="1hTQn4" value="https://calculemus.org/5d5ed710-684b-414d-9bdf-581c3e47b30a" />
+        <node concept="19SGf9" id="1spse2eiCCE" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCCF" role="19SJt6">
+            <property role="19SUeA" value="wegens technische redenen, zoals het ontbreken van vervoermiddelen of het mislukken van het vertrek of de uitzetting wegens onvoldoende identificatie." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCCG" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/f0002a4d-11dc-482c-af9c-bd2da163a4d4" />
+        <node concept="19SGf9" id="1spse2eiCCH" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCCI" role="19SJt6">
+            <property role="19SUeA" value="De zekerheid, bedoeld in het eerste lid, kan bestaan uit:" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCCJ">
+    <property role="TrG5h" value="Hoofdstuk4Afdeling3Paragraaf7Artikel4.52b" />
+    <property role="1N0jUS" value="1475" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCCK" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCCL" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/7de34a3b-9863-40a7-a8bc-b6b569d1c1bb" />
+        <node concept="19SGf9" id="1spse2eiCCM" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCCN" role="19SJt6">
+            <property role="19SUeA" value="De waarborgsom, bedoeld in , wordt door Onze Minister in ieder geval aan de rechthebbende teruggegeven:artikel 4.52a, derde lid, onder c" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCCO" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/20475041-7886-427c-9af3-e2ab545d91f8" />
+        <node concept="19SGf9" id="1spse2eiCCP" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCCQ" role="19SJt6">
+            <property role="19SUeA" value="zodra de vreemdeling, bedoeld in , binnen de voor hem geldende vertrektermijn uit eigen beweging Nederland heeft verlaten zonder zich tussentijds aan het toezicht te hebben onttrokken; dan welartikel 4.52a, eerste lid" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCCR" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/40394e7a-a753-4dbb-a006-f3cfc42b3c7d" />
+        <node concept="19SGf9" id="1spse2eiCCS" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCCT" role="19SJt6">
+            <property role="19SUeA" value="zodra de vreemdeling na uitstel van het vertrek of de uitzetting, bedoeld in , Nederland heeft verlaten of is uitgezet zonder zich tussentijds aan het toezicht te hebben onttrokken.artikel 4.52a, tweede lid" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCCU" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/fe6c3ae5-a899-44b9-ba6f-071dcbca8c9a" />
+        <node concept="19SGf9" id="1spse2eiCCV" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCCW" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister berekent rente over de waarborgsommen, gedeponeerd krachtens . , en  zijn van overeenkomstige toepassing.artikel 4.52a, derde lid, onder c" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCCX" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/91e13baf-11d0-47fc-93ee-e995cf226ac9" />
+        <node concept="19SGf9" id="1spse2eiCCY" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCCZ" role="19SJt6">
+            <property role="19SUeA" value="De waarborgsom wordt teruggegeven en de rente wordt uitbetaald zo spoedig mogelijk nadat n van de in het eerste lid genoemde gronden zich voordoet." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCD0">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling5Paragraaf1Artikel3.105e" />
+    <property role="1N0jUS" value="1495" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCD1" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCD2" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/61334596-a0d4-4548-bcb5-07df39bfa5dc" />
+        <node concept="19SGf9" id="1spse2eiCD3" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCD4" role="19SJt6">
+            <property role="19SUeA" value="in welk geval verlening van evenbedoelde verblijfsvergunning op voormelde grond wordt geweigerd." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCD5">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling4Paragraaf2Artikel3.100" />
+    <property role="1N0jUS" value="3100" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCD6" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCD7" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/da84d58e-3f42-4c30-8fde-edc48a95e887" />
+        <node concept="19SGf9" id="1spse2eiCD8" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCD9" role="19SJt6">
+            <property role="19SUeA" value="Indien de vreemdeling, hangende de besluitvorming op een eerdere aanvraag, wijziging van het gevraagde verblijfsdoel wenst, dient hij een nieuwe aanvraag in." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCDa">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling4Paragraaf2Artikel3.101" />
+    <property role="1N0jUS" value="3101" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCDb" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCDc" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/2f180c46-d6db-4ecd-8618-864541c9aff5" />
+        <node concept="19SGf9" id="1spse2eiCDd" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCDe" role="19SJt6">
+            <property role="19SUeA" value="een aanvraag tot het verlenen, wijzigen of verlengen van een verblijfsvergunning regulier voor bepaalde tijd of een aanvraag tot het verlenen van een verblijfsvergunning regulier voor onbepaalde tijd of een EU-verblijfsvergunning voor langdurig ingezetenen, wordt ingediend op een door Onze Minister aan te wijzen plaats." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCDf" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/db658e13-34c4-4cb2-9bae-e7958abd649a" />
+        <node concept="19SGf9" id="1spse2eiCDg" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCDh" role="19SJt6">
+            <property role="19SUeA" value="In afwijking van het eerste lid wordt, indien de vreemdeling rechtens de vrijheid is ontnomen, de aanvraag ingediend op de plaats waar de vrijheidsontneming ten uitvoer wordt gelegd." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCDi">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling4Paragraaf3Artikel3.102" />
+    <property role="1N0jUS" value="3102" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCDj" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCDk" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/a1b9ae32-c72c-4de7-9681-c4340dd964fa" />
+        <node concept="19SGf9" id="1spse2eiCDl" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCDm" role="19SJt6">
+            <property role="19SUeA" value="Onverminderd  legt de vreemdeling bij de in persoon ingediende aanvraag in ieder geval over een geldig document voor grensoverschrijding, en, voor zover redelijkerwijs mogelijk, de gegevens en bescheiden op basis waarvan kan worden vastgesteld dat wordt voldaan aan de voorwaarden voor de verlening, wijziging of verlenging van de verblijfsvergunning.artikel 24a, eerste lid, onder a, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCDn" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/52ee8acb-88f8-426d-bace-25f117ceab5e" />
+        <node concept="19SGf9" id="1spse2eiCDo" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCDp" role="19SJt6">
+            <property role="19SUeA" value="In afwijking van het eerste lid, legt de vreemdeling die niet beschikt over een geldig document voor grensoverschrijding, voor zover redelijkerwijs mogelijk, gegevens en bescheiden over waarmee wordt aangetoond dat hij vanwege de regering van het land waarvan hij onderdaan is, niet of niet meer in het bezit van een geldig document voor grensoverschrijding kan worden gesteld. In dat geval legt hij tevens aanvullende gegevens of bescheiden over omtrent zijn identiteit en nationaliteit." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCDq" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/7e3831f1-33a4-48f0-9ad0-28fe39f39f2a" />
+        <node concept="19SGf9" id="1spse2eiCDr" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCDs" role="19SJt6">
+            <property role="19SUeA" value="Bij de niet in persoon ingediende aanvraag legt de vreemdeling afschriften over van de in het eerste en tweede lid genoemde gegevens en bescheiden en legt hij op verzoek van Onze Minister de originelen over." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCDt" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/24d41039-a215-4925-9010-bb23b18b8125" />
+        <node concept="19SGf9" id="1spse2eiCDu" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCDv" role="19SJt6">
+            <property role="19SUeA" value="Onverminderd  is het derde lid van overeenkomstige toepassing, indien de aanvraag is ingediend door de referent, met dien verstande dat voor de vreemdeling wordt gelezen: de referent.artikel 24a van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCDw" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/e9a9066a-94a8-49be-bd93-8add876aa283" />
+        <node concept="19SGf9" id="1spse2eiCDx" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCDy" role="19SJt6">
+            <property role="19SUeA" value="Desgevraagd bevestigt de aanvrager binnen een door Onze Minister te stellen termijn de juistheid van de gegevens, bedoeld in , dan wel geeft hij gemotiveerd en onder overlegging van de terzake relevante gegevens en bescheiden aan welke gegevens de juiste gegevens zijn.artikel 24a, eerste lid, onder a, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCDz" role="3MKX6F">
+        <property role="3MLT8O" value="6" />
+        <property role="1hTQn4" value="https://calculemus.org/3d8063e6-4a1c-481f-a9f7-68add62360a0" />
+        <node concept="19SGf9" id="1spse2eiCD$" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCD_" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister kan nadere regels stellen omtrent de in het eerste lid bedoelde gegevens en bescheiden." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCDA">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling4Paragraaf3Artikel3.103" />
+    <property role="1N0jUS" value="3103" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCDB" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCDC" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/fc424035-c403-4963-9826-092a0a073bf8" />
+        <node concept="19SGf9" id="1spse2eiCDD" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCDE" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag wordt getoetst aan het recht dat gold op het tijdstip waarop de aanvraag is ontvangen, tenzij uit deWet anders voortvloeit of het recht dat geldt op het tijdstip waarop de beschikking wordt gegeven, voor de vreemdeling gunstiger is." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCDF">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling4Paragraaf4Artikel3.104" />
+    <property role="1N0jUS" value="3104" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCDG" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCDH" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/0b359e56-eeea-4b8a-ba35-dc119e543b2c" />
+        <node concept="19SGf9" id="1spse2eiCDI" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCDJ" role="19SJt6">
+            <property role="19SUeA" value="De beschikking, waarbij de aanvraag tot het verlenen, het wijzigen of het verlengen van de geldigheidsduur van een verblijfsvergunning als bedoeld in , geheel of gedeeltelijk wordt ingewilligd, of waarbij de verblijfsvergunning ambtshalve wordt verleend of gewijzigd, wordt bekendgemaakt door uitreiking van het document, bedoeld in , waaruit het rechtmatig verblijf op grond van artikel 8, onder a onderscheidenlijk onder b, van de Wet blijkt. De referent die de aanvraag heeft ingediend, wordt onverwijld in kennis gesteld van de bekendmaking.artikel 8, onder a of b, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCDK" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/a9b75326-ece1-4ee6-9fe6-d1428404494b" />
+        <node concept="19SGf9" id="1spse2eiCDL" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCDM" role="19SJt6">
+            <property role="19SUeA" value="In afwijking van het eerste lid, kan de beschikking bekend worden gemaakt door toezending van het in het eerste lid bedoelde document:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCDN" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/33c3ed47-fc07-4e02-a111-1c0442445b70" />
+        <node concept="19SGf9" id="1spse2eiCDO" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCDP" role="19SJt6">
+            <property role="19SUeA" value="indien uitreiking om technische redenen, verband houdend met het aanmaken van het document, niet mogelijk is;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCDQ" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/331ab483-e671-4091-b396-4a78c0316acd" />
+        <node concept="19SGf9" id="1spse2eiCDR" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCDS" role="19SJt6">
+            <property role="19SUeA" value="in andere bijzondere omstandigheden." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCDT" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/d50e387f-533c-438a-8aae-6879cb41d49c" />
+        <node concept="19SGf9" id="1spse2eiCDU" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCDV" role="19SJt6">
+            <property role="19SUeA" value="Indien de vreemdeling, niet zijnde gemeenschapsonderdaan, in aanmerking komt voor meer dan n verblijfsdocument wordt n document uitgereikt of toegezonden en worden de overige beschikkingen bekendgemaakt door het stellen van een aantekening op dat document." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCDW" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/a5ac1fce-a1c9-45a4-ab28-29620ba6b27e" />
+        <node concept="19SGf9" id="1spse2eiCDX" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCDY" role="19SJt6">
+            <property role="19SUeA" value="De beschikking ten aanzien van een zich in het buitenland bevindende vreemdeling, waarbij de aanvraag tot het verlenen, het wijzigen of het verlengen van de geldigheidsduur van een verblijfsvergunning geheel of gedeeltelijk wordt ingewilligd, of waarbij de verblijfsvergunning ambtshalve wordt verleend of gewijzigd, wordt bekendgemaakt na zijn aankomst in Nederland. Het eerste, tweede en derde lid zijn van toepassing." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCDZ" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/8275d9b7-0f05-4da8-8281-9b474deb050e" />
+        <node concept="19SGf9" id="1spse2eiCE0" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCE1" role="19SJt6">
+            <property role="19SUeA" value="De beschikking, die niet of niet mede strekt tot het verlenen, wijzigen of verlengen van de geldigheidsduur van een verblijfsvergunning als bedoeld in , wordt bekend gemaakt door uitreiking of door toezending naar het laatst bekende adres. De referent die de aanvraag heeft ingediend, wordt onverwijld in kennis gesteld van de bekendmaking.artikel 8, onder a of b, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCE2">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling5Paragraaf1Artikel3.105" />
+    <property role="1N0jUS" value="3105" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCE3" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCE4" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/aebdf4fb-b875-48cf-bb43-710c0a266e7c" />
+        <node concept="19SGf9" id="1spse2eiCE5" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCE6" role="19SJt6">
+            <property role="19SUeA" value="De verblijfsvergunning asiel voor bepaalde tijd wordt verleend of verlengd voor vijf jaar." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCE7">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling5Paragraaf1Artikel3.106" />
+    <property role="1N0jUS" value="3106" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCE8" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCE9" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/734ba957-310a-4083-adde-df4530c24fcd" />
+        <node concept="19SGf9" id="1spse2eiCEa" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCEb" role="19SJt6">
+            <property role="19SUeA" value="De verblijfsvergunning asiel voor bepaalde tijd die op grond van  is verleend aan een gezinslid van een vreemdeling als bedoeld in artikel 29, eerste lid, van de Wet, wordt niet ingetrokken op grond van , indien het huwelijks- of gezinsleven met de hoofdpersoon is verbroken door het overlijden van de hoofdpersoon dan wel omdat het gezinslid slachtoffer is geworden of dreigt te worden van eergerelateerd geweld of huiselijk geweld.artikel 29, tweede lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCEc" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/48627f77-bdb5-4284-9194-529e2c6bb21f" />
+        <node concept="19SGf9" id="1spse2eiCEd" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCEe" role="19SJt6">
+            <property role="19SUeA" value="De verblijfsvergunning asiel voor bepaalde tijd die op grond van  is verleend aan een op het tijdstip van verlening minderjarig gezinslid van een vreemdeling als bedoeld in artikel 29, eerste lid, van de Wet, wordt niet ingetrokken op grond van , indien het desbetreffende gezinslid langer dan een jaar houder is geweest van de verblijfsvergunning.artikel 29, tweede lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCEf" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/f1bccc5c-2e7f-4115-b94c-a89a8efaac18" />
+        <node concept="19SGf9" id="1spse2eiCEg" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCEh" role="19SJt6">
+            <property role="19SUeA" value="De verblijfsvergunning asiel voor bepaalde tijd die is verleend op grond van , zoals dat artikel luidde op de dag voorafgaand aan de inwerkingtreding van  (Stb. 2013, 478), wordt niet ingetrokken op grond van .artikel 29, eerste lid, onder e of f, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCEi" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/91dd7b9c-58ba-43f7-8c1b-e30268262407" />
+        <node concept="19SGf9" id="1spse2eiCEj" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCEk" role="19SJt6">
+            <property role="19SUeA" value="De aanvraag voor verlenging van de geldigheidsduur van een verblijfsvergunning voor bepaalde tijd als bedoeld in het tweede lid wordt niet afgewezen op grond van , indien de oorspronkelijke geldigheidsduur van de vergunning eindigt binnen twee jaar na de inwerkingtreding van  (Stb. 2013, 478).artikel 32, eerste lid, onder e, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCEl">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling5Paragraaf1Artikel3.107" />
+    <property role="1N0jUS" value="3107" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCEm" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCEn" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/1bc66b0f-e16e-40de-9651-56838533e510" />
+        <node concept="19SGf9" id="1spse2eiCEo" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCEp" role="19SJt6">
+            <property role="19SUeA" value="Onder een persoon als bedoeld in artikel 1F van het Vluchtelingenverdrag wordt mede verstaan een persoon die heeft aangezet tot of anderszins heeft deelgenomen aan de in dat artikel genoemde misdrijven of daden." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCEq" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/960033b9-6fab-4702-87d6-56112cc716a9" />
+        <node concept="19SGf9" id="1spse2eiCEr" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCEs" role="19SJt6">
+            <property role="19SUeA" value="Indien artikel 1F van het Vluchtelingenverdrag aan het verlenen van een verblijfsvergunning aan de vreemdeling op grond van  in de weg staat, wordt aan die vreemdeling evenmin een verblijfsvergunning verleend op n van de andere gronden bedoeld in .artikel 29, eerste lid, onder a, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCEt" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/234dfd53-3cf0-419c-b11e-452774938212" />
+        <node concept="19SGf9" id="1spse2eiCEu" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCEv" role="19SJt6">
+            <property role="19SUeA" value="Aan de echtgenoot of echtgenote, het minderjarig kind, de partner of het meerderjarig kind, bedoeld in , van de vreemdeling, bedoeld in het eerste lid, wordt geen verblijfsvergunning asiel voor bepaalde tijd verleend, tenzij dit gezinslid aannemelijk heeft gemaakt dat zijn aanvraag is gegrond op omstandigheden die zelfstandig een rechtsgrond voor verlening van een verblijfsvergunning op grond van  vormen.artikel 29, tweede lid, onder a of b, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCEw">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling5Paragraaf2Artikel3.119" />
+    <property role="1N0jUS" value="3119" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCEx" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCEy" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/0b6b17f8-50a2-4680-8767-97e7a5a5fcfe" />
+        <node concept="19SGf9" id="1spse2eiCEz" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCE$" role="19SJt6">
+            <property role="19SUeA" value="Wanneer na het uitreiken of toezenden van het voornemen feiten of omstandigheden:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiCE_" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/2143a70e-a486-4426-8a73-74aaf619c356" />
+        <node concept="3MKX6G" id="1spse2eiCEA" role="3MKX6F">
+          <property role="3MLT8O" value="a" />
+          <property role="1hTQn4" value="https://calculemus.org/aae46aff-1a9c-4178-9c5a-8c66f228a102" />
+          <node concept="19SGf9" id="1spse2eiCEB" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCEC" role="19SJt6">
+              <property role="19SUeA" value="bekend worden, of" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCED" role="3MKX6F">
+          <property role="3MLT8O" value="b" />
+          <property role="1hTQn4" value="https://calculemus.org/1db88f98-8edd-4125-a9dc-0842ef020556" />
+          <node concept="19SGf9" id="1spse2eiCEE" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCEF" role="19SJt6">
+              <property role="19SUeA" value="reeds bekend waren maar naar aanleiding van de zienswijze van de vreemdeling anders worden beoordeeld of gewogen, die voor de te nemen beslissing van aanmerkelijk belang kunnen zijn en Onze Minister voornemens blijft de aanvraag af te wijzen, wordt dit aan de vreemdeling meegedeeld en wordt hij in de gelegenheid gesteld zijn zienswijze daarover naar voren te brengen." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCEG">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling5Paragraaf2Artikel3.120" />
+    <property role="1N0jUS" value="3120" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCEH" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCEI" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/93bd1f13-9ef1-42b1-9198-e460f2a1295c" />
+        <node concept="19SGf9" id="1spse2eiCEJ" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCEK" role="19SJt6">
+            <property role="19SUeA" value="Vervallen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCEL">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling5Paragraaf2Artikel3.121" />
+    <property role="1N0jUS" value="3121" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCEM" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCEN" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/7e0e462a-401c-4167-9502-d6ae5218077b" />
+        <node concept="19SGf9" id="1spse2eiCEO" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCEP" role="19SJt6">
+            <property role="19SUeA" value="Bij ministeriele regeling worden voorschriften gesteld omtrent:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="1spse2eiCEQ" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/e3b072b1-74c0-4540-bb55-752d7543f1b9" />
+        <node concept="3MKX6G" id="1spse2eiCER" role="3MKX6F">
+          <property role="3MLT8O" value="a" />
+          <property role="1hTQn4" value="https://calculemus.org/28be9d73-decf-4844-b7cf-bfd7ed9cfe9a" />
+          <node concept="19SGf9" id="1spse2eiCES" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCET" role="19SJt6">
+              <property role="19SUeA" value="het verstrekken van inlichtingen aan de vreemdeling over de te volgen procedure," />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCEU" role="3MKX6F">
+          <property role="3MLT8O" value="b" />
+          <property role="1hTQn4" value="https://calculemus.org/9e4fd7a1-f7d6-4ec9-ad86-f1036081fe7c" />
+          <node concept="19SGf9" id="1spse2eiCEV" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCEW" role="19SJt6">
+              <property role="19SUeA" value="het stellen van aantekeningen in het dossier van de vreemdeling ingeval van intrekking van diens aanvraag, en" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX6G" id="1spse2eiCEX" role="3MKX6F">
+          <property role="3MLT8O" value="c" />
+          <property role="1hTQn4" value="https://calculemus.org/4795948e-8b25-4a2c-9901-6174804ff6ae" />
+          <node concept="19SGf9" id="1spse2eiCEY" role="3MLT8Q">
+            <node concept="19SUe$" id="1spse2eiCEZ" role="19SJt6">
+              <property role="19SUeA" value="de toepassing van .artikel 30c van de Wet" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCF0">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling5Paragraaf2Artikel3.122" />
+    <property role="1N0jUS" value="3122" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCF1" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCF2" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/72f21df2-fd72-405c-9c04-897c789db540" />
+        <node concept="19SGf9" id="1spse2eiCF3" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCF4" role="19SJt6">
+            <property role="19SUeA" value="Aan de vreemdeling aan wie op grond van  een verblijfsvergunning voor bepaalde tijd als bedoeld in  is verleend, wordt zo spoedig mogelijk na verlening van die verblijfsvergunning in een voor hem begrijpelijke taal informatie verschaft over de rechten en plichten die verbonden zijn aan de verblijfsvergunning.artikel 29, eerste lid, onder a of b, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCF5" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/aec80ac6-d21f-4332-8f33-c55f6c09087c" />
+        <node concept="19SGf9" id="1spse2eiCF6" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCF7" role="19SJt6">
+            <property role="19SUeA" value="Bij ministerile regeling kunnen nadere regels worden gesteld met betrekking tot de wijze waarop de informatie, bedoeld in het eerste lid, wordt verschaft." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCF8">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling5Paragraaf2Artikel3.123" />
+    <property role="1N0jUS" value="3123" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCF9" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCFa" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/8a7c0d03-d79d-48f8-ab61-cbca0632310b" />
+        <node concept="19SGf9" id="1spse2eiCFb" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCFc" role="19SJt6">
+            <property role="19SUeA" value="Ingeval Onze Minister een verblijfsvergunning asiel voor bepaalde tijd verleent aan een vreemdeling die houder is van een EU-verblijfsvergunning voor langdurig ingezetenen, afgegeven door een andere lidstaat van de Europese Unie, wordt verzocht aan die lidstaat om een aantekening inzake internationale bescherming op te nemen dan wel te wijzigen inhoudend dat Nederland internationale bescherming heeft verleend en de datum waarop." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCFd">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling6Paragraaf1Artikel3.124" />
+    <property role="1N0jUS" value="3124" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCFe" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCFf" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/9aa66aef-6dad-447b-9878-d1d2a6aa2f6a" />
+        <node concept="19SGf9" id="1spse2eiCFg" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCFh" role="19SJt6">
+            <property role="19SUeA" value="verwerving van de status van langdurig ingezetene in een andere lidstaat van de Europese Unie, indien de aanvraag wordt gedaan binnen twaalf maanden na het onherroepelijk worden van het verlies;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCFi" role="3MKX6F">
+        <property role="3MLT8O" value="c" />
+        <property role="1hTQn4" value="https://calculemus.org/d39ddbf2-0f73-4e70-abe8-fc69c0129dcc" />
+        <node concept="19SGf9" id="1spse2eiCFj" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCFk" role="19SJt6">
+            <property role="19SUeA" value="vijf jaar legaal en ononderbroken op het grondgebied van de Europese Unie verblijft als houder van een Europese blauwe kaart, onmiddellijk voorafgaand aan de indiening van de aanvraag ten minste achttien achtereenvolgende maanden als houder van een Europese blauwe kaart in een andere lidstaat van de Europese Unie en ten minste twee achtereenvolgende jaren direct voorafgaande aan de aanvraag als houder van een door Onze Minister afgegeven Europese blauwe kaart in Nederland heeft verbleven, waarbij perioden van afwezigheid van het grondgebied van de Europese Unie geen onderbreking vormen van de termijn van vijf jaar, indien zij minder dan twaalf achtereenvolgende maanden beslaan en niet langer dan achttien maanden hebben geduurd;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCFl" role="3MKX6F">
+        <property role="3MLT8O" value="d" />
+        <property role="1hTQn4" value="https://calculemus.org/d86b433d-e052-4414-9724-ae6132611dc0" />
+        <node concept="19SGf9" id="1spse2eiCFm" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCFn" role="19SJt6">
+            <property role="19SUeA" value="als houder van een Europese blauwe kaart in de periode van vijf jaar niet langer dan twaalf achtereenvolgende maanden en in totaal niet langer dan achttien maanden buiten Nederland heeft verbleven." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCFo" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/bf465a22-dfc8-4ceb-9da9-c665f6b51027" />
+        <node concept="19SGf9" id="1spse2eiCFp" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCFq" role="19SJt6">
+            <property role="19SUeA" value="In de gevallen, bedoeld in het eerste lid, wordt bij de berekening van het tijdvak van vijf jaar buiten beschouwing gelaten het gedeelte van het verblijf buiten Nederland, dat tien maanden in totaal of bij aaneengesloten verblijf buiten Nederland zes maanden te boven gaat." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCFr">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling6Paragraaf1Artikel3.125" />
+    <property role="1N0jUS" value="3125" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCFs" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCFt" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/643d12a6-0f38-457d-87b1-45d6155a3461" />
+        <node concept="19SGf9" id="1spse2eiCFu" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCFv" role="19SJt6">
+            <property role="19SUeA" value="Voor de toepassing van , zijn de , , en  van overeenkomstige toepassing.artikelen 3.73artikel 45b, tweede lid, onder c, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCFw" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/dfc9aa48-52d3-4834-8540-a64cd59e5cb8" />
+        <node concept="19SGf9" id="1spse2eiCFx" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCFy" role="19SJt6">
+            <property role="19SUeA" value="Behoudens overeenkomstige toepassing van , kan de aanvraag slechts op grond van  worden afgewezen, indien de totale duur van de straffen of maatregelen ten minste gelijk is aan de normen, bedoeld in . Artikel 3.86 is van overeenkomstige toepassing.artikel 3.87artikel 45b, tweede lid, onder d, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCFz" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/ef79c4ed-b71c-495b-8c70-4dbd115a7e76" />
+        <node concept="19SGf9" id="1spse2eiCF$" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCF_" role="19SJt6">
+            <property role="19SUeA" value="Bij de toepassing van het tweede lid houdt Onze Minister mede rekening met de ernst van de inbreuk of het soort van inbreuk dat door de vreemdeling op de openbare orde is gepleegd, respectievelijk met het gevaar dat van de vreemdeling uitgaat en het bestaan van banden met Nederland." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCFA">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling6Paragraaf1Artikel3.126" />
+    <property role="1N0jUS" value="3126" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCFB" role="3MKX6D">
+      <node concept="3MKX5i" id="1spse2eiCFC" role="3MKX6F">
+        <property role="1hTQn4" value="https://calculemus.org/91578b1c-55d3-4566-8ce2-e68b1fdd827e" />
+        <node concept="19SGf9" id="1spse2eiCFD" role="3MLR7a">
+          <node concept="19SUe$" id="1spse2eiCFE" role="19SJt6">
+            <property role="19SUeA" value="Op de aanvraag tot het verlenen van een EU-verblijfsvergunning voor langdurig ingezetenen is  van overeenkomstige toepassing.artikel 3.96a" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCFF">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling6Paragraaf2Artikel3.127" />
+    <property role="1N0jUS" value="3127" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCFG" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCFH" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/01677b0f-30b9-424e-92e5-7690b9576611" />
+        <node concept="19SGf9" id="1spse2eiCFI" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCFJ" role="19SJt6">
+            <property role="19SUeA" value="De EU-verblijfsvergunning voor langdurig ingezetenen wordt niet met toepassing van  ingetrokken, indien de vreemdeling:artikel 45d, eerste lid, onder a, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCFK" role="3MKX6F">
+        <property role="3MLT8O" value="a" />
+        <property role="1hTQn4" value="https://calculemus.org/7cdea610-b17f-4e40-a0d0-2dd670f0b463" />
+        <node concept="19SGf9" id="1spse2eiCFL" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCFM" role="19SJt6">
+            <property role="19SUeA" value="niet het hoofdverblijf buiten Nederland heeft verplaatst;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCFN" role="3MKX6F">
+        <property role="3MLT8O" value="b" />
+        <property role="1hTQn4" value="https://calculemus.org/9abed84e-113c-4b2b-bd22-f998accd563a" />
+        <node concept="19SGf9" id="1spse2eiCFO" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCFP" role="19SJt6">
+            <property role="19SUeA" value="aantoont dat hij langer dan zes jaar voor studie verblijft in een andere lidstaat van de Europese Unie; of" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCFQ" role="3MKX6F">
+        <property role="3MLT8O" value="c" />
+        <property role="1hTQn4" value="https://calculemus.org/b2a6bbbc-cdad-4917-af2d-6cd09cc688a3" />
+        <node concept="19SGf9" id="1spse2eiCFR" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCFS" role="19SJt6">
+            <property role="19SUeA" value="aantoont dat hij, in geval van verblijf gedurende een aaneengesloten periode van twaalf maanden of meer buiten het grondgebied van de Europese Unie, gedurende die periode in het Schengengebied heeft verbleven, tenzij hij langer dan zes jaar afwezig is geweest van het Nederlands grondgebied;" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCFT" role="3MKX6F">
+        <property role="3MLT8O" value="d" />
+        <property role="1hTQn4" value="https://calculemus.org/8a6e1695-a883-4c88-8b56-bd4dba2d5ce5" />
+        <node concept="19SGf9" id="1spse2eiCFU" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCFV" role="19SJt6">
+            <property role="19SUeA" value="voormalig houder van een Europese blauwe kaart is, dan wel het gezinslid van een voormalig houder van een Europese blauwe kaart is, en niet langer dan een aaneengesloten periode van 24 maanden heeft verbleven buiten het Schengengebied." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCFW" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/88becd34-e68f-4756-bd85-e163ebaeea6e" />
+        <node concept="19SGf9" id="1spse2eiCFX" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCFY" role="19SJt6">
+            <property role="19SUeA" value="Indien de EU-verblijfsvergunning voor langdurig ingezetenen op frauduleuze wijze is verkregen, wordt de vergunning ingetrokken op de in  genoemde grond. Indien sedert de verkrijging een periode van twaalf jaren is verstreken kan, onder intrekking van de EU-verblijfsvergunning voor langdurig ingezetenen, ingeval:artikel 45d, derde lid, onder b, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCFZ" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/ae1aa44d-5fa5-4209-866a-e569c6ad285e" />
+        <node concept="19SGf9" id="1spse2eiCG0" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCG1" role="19SJt6">
+            <property role="19SUeA" value="De EU-verblijfsvergunning voor langdurig ingezetenen kan met toepassing van  worden ingetrokken op grond dat de vreemdeling een actuele en ernstige bedreiging vormt voor de openbare orde, indien de totale duur van de straffen of maatregelen ten minste gelijk is aan de toepasselijke norm, bedoeld in . De artikelen 3.86 en  zijn van overeenkomstige toepassing.artikel 3.86, tweede, derde dan wel vijfde lidartikel 45d, eerste lid, onder b, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCG2" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/e703373f-9a9a-4912-b0b7-677fb6d21c58" />
+        <node concept="19SGf9" id="1spse2eiCG3" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCG4" role="19SJt6">
+            <property role="19SUeA" value="Indien de intrekking van de EU-verblijfsvergunning voor langdurig ingezetenen overeenkomstig het derde lid, niet leidt tot uitzetting, kan ambtshalve een verblijfsvergunning regulier voor onbepaalde tijd worden verleend ingeval op het document, bedoeld in , van de vreemdeling aan wie de EU-verblijfsvergunning voor langdurig ingezetenen is verleend, geen aantekening krachtens  is geplaatst.artikel 9, eerste lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCG5" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/c5d2ec88-8837-4436-b509-7442f1a52df9" />
+        <node concept="19SGf9" id="1spse2eiCG6" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCG7" role="19SJt6">
+            <property role="19SUeA" value="Indien de intrekking van de EU-verblijfsvergunning voor langdurig ingezetenen overeenkomstig het derde lid, niet leidt tot uitzetting, kan ambtshalve een verblijfsvergunning asiel voor onbepaalde tijd worden verleend ingeval op het document, bedoeld in , van de vreemdeling aan wie de EU-verblijfsvergunning voor langdurig ingezetenen is verleend, wel een aantekening krachtens  is geplaatst.artikel 9, eerste lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCG8">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling6Paragraaf2Artikel3.128" />
+    <property role="1N0jUS" value="3128" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCG9" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCGa" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/58c53ceb-e13b-4fcf-8f3e-3cd9fa4ba416" />
+        <node concept="19SGf9" id="1spse2eiCGb" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCGc" role="19SJt6">
+            <property role="19SUeA" value="Ingeval bij de toepassing van  een andere lidstaat van de Europese Unie heeft bevestigd dat de vreemdeling nog steeds in die staat internationale bescherming geniet, zet Onze Minister de vreemdeling uit naar die staat.artikel 45d, eerste lid, onder b, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCGd" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/a500defc-5e71-4bd1-bad1-7d2e5138076b" />
+        <node concept="19SGf9" id="1spse2eiCGe" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCGf" role="19SJt6">
+            <property role="19SUeA" value="In afwijking van het eerste lid en met inachtneming van de voor Nederland geldende internationale verplichtingen kan Onze Minister de vreemdeling, bedoeld in het eerste lid, uitzetten naar een andere staat dan de staat die de internationale bescherming heeft verleend, indien is voldaan aan .artikel 3.105c, tweede lid, onder a of b" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCGg" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/e9c71ffd-5423-4c3a-916b-366fed490391" />
+        <node concept="19SGf9" id="1spse2eiCGh" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCGi" role="19SJt6">
+            <property role="19SUeA" value="Bij de verwijdering in de gevallen, bedoeld in het tweede lid en , wordt het beginsel geerbiedigd van non-refoulement, met inachtneming van de voor Nederland geldende internationale verplichtingen.artikel 3.103aa, derde lid, onder a dan wel b" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCGj">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling6Paragraaf3Artikel3.129" />
+    <property role="1N0jUS" value="3129" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCGk" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCGl" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/573395f6-87ae-4c21-add6-f826a1d347f2" />
+        <node concept="19SGf9" id="1spse2eiCGm" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCGn" role="19SJt6">
+            <property role="19SUeA" value="Voordat Onze Minister een aantekening krachtens  plaatst, vraagt Onze Minister aan de eerste lidstaat van verblijf van de langdurig ingezetene of de vreemdeling nog steeds internationale bescherming geniet.artikel 45c, tweede lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCGo" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/a5f8cb95-5eba-41a8-b975-3d74f6c5e627" />
+        <node concept="19SGf9" id="1spse2eiCGp" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCGq" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister beantwoordt binnen n maand de vraag van een andere lidstaat van de Europese Unie of een houder van een door Onze Minister verschaft document als bedoeld in  waaruit de EU-verblijfsvergunning voor langdurig ingezetenen blijkt met de aantekening krachtens  nog steeds internationale bescherming geniet.artikel 9 van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCGr" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/28234261-768a-48fe-8624-64904d8f3ddb" />
+        <node concept="19SGf9" id="1spse2eiCGs" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCGt" role="19SJt6">
+            <property role="19SUeA" value="Ingeval Onze Minister een verzoek om wijziging ontvangt van een andere lidstaat van de Europese Unie met betrekking tot een door Onze Minister afgegeven document als bedoeld in  waaruit de EU-verblijfsvergunning voor langdurig ingezetenen blijkt en daarop geen aantekening krachtens  is geplaatst, teneinde daarop een aantekening krachtens artikel 45c, tweede lid, van de Wet te plaatsen, wordt binnen drie maanden een nieuw document als bedoeld in artikel 9, eerste lid, van de Wet afgegeven, voorzien van die aantekening.artikel 9 van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCGu" role="3MKX6F">
+        <property role="3MLT8O" value="4" />
+        <property role="1hTQn4" value="https://calculemus.org/d775f854-5d7e-4f06-ac29-333fa2ba0c20" />
+        <node concept="19SGf9" id="1spse2eiCGv" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCGw" role="19SJt6">
+            <property role="19SUeA" value="Ingeval Onze Minister een verzoek ontvangt van een andere lidstaat van de Europese Unie met betrekking tot een door Onze Minister verschaft document waaruit een EU-verblijfsvergunning voor langdurig ingezetenen blijkt waarop een aantekening krachtens  is geplaatst, teneinde deze aantekening te wijzigen, wordt binnen drie maanden een nieuw document verschaft, voorzien van een dienovereenkomstig gewijzigde aantekening.artikel 45c, eerste lid, van de Wet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCGx" role="3MKX6F">
+        <property role="3MLT8O" value="5" />
+        <property role="1hTQn4" value="https://calculemus.org/57bc5084-9a7a-4b31-9fea-a99adf660187" />
+        <node concept="19SGf9" id="1spse2eiCGy" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCGz" role="19SJt6">
+            <property role="19SUeA" value="Ingeval Onze Minister, nadat hij een document als bedoeld in  heeft verschaft waaruit de EU-verblijfsvergunning voor langdurig ingezetenen blijkt met daarop een krachtens  geplaatste of gewijzigde aantekening, de verantwoordelijkheid voor de internationale bescherming van de houder ervan heeft overgenomen, verschaft hij die houder binnen drie maanden een nieuw document als bedoeld in artikel 9 van de Wet, waaruit de EU-verblijfsvergunning voor langdurig ingezetenen blijkt en waarop een aantekening krachtens artikel 45c, eerste lid, van de Wet is geplaatst.artikel 9 van de Wet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="1spse2eiCG$">
+    <property role="TrG5h" value="Hoofdstuk3Afdeling6Paragraaf3Artikel3.130" />
+    <property role="1N0jUS" value="3130" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="1spse2eiAdL" resolve="01-08-2020 t/m 31-05-2021" />
+    <node concept="3MKX5h" id="1spse2eiCG_" role="3MKX6D">
+      <node concept="3MKX6G" id="1spse2eiCGA" role="3MKX6F">
+        <property role="3MLT8O" value="1" />
+        <property role="1hTQn4" value="https://calculemus.org/e3e64c24-b7a6-47b4-9d50-fef26b649627" />
+        <node concept="19SGf9" id="1spse2eiCGB" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCGC" role="19SJt6">
+            <property role="19SUeA" value="Bij de bekendmaking van de beschikking, waarbij wordt beslist op de aanvraag om verlening van de EU-verblijfsvergunning voor langdurig ingezetenen, wordt de aanvrager meegedeeld welke rechten en plichten hij heeft krachtens de richtlijn langdurig ingezetenen." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCGD" role="3MKX6F">
+        <property role="3MLT8O" value="2" />
+        <property role="1hTQn4" value="https://calculemus.org/7f4db72a-829a-4071-9735-1256b1d7bf0a" />
+        <node concept="19SGf9" id="1spse2eiCGE" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCGF" role="19SJt6">
+            <property role="19SUeA" value="Indien Onze Minister een EU-verblijfsvergunning voor langdurig ingezetenen verleent aan een vreemdeling die houder is van een EU-verblijfsvergunning voor langdurig ingezetenen, afgegeven door een andere lidstaat van de Europese Unie, doet hij daarvan mededeling aan de autoriteiten van die staat." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX6G" id="1spse2eiCGG" role="3MKX6F">
+        <property role="3MLT8O" value="3" />
+        <property role="1hTQn4" value="https://calculemus.org/99c90fff-7941-4dd5-9b70-f94e8d6d0a33" />
+        <node concept="19SGf9" id="1spse2eiCGH" role="3MLT8Q">
+          <node concept="19SUe$" id="1spse2eiCGI" role="19SJt6">
+            <property role="19SUeA" value="Onze Minister vormt het contactpunt dat door een andere lidstaat van de Europese Unie kan worden geraadpleegd, ter uitvoering van de richtlijn langdurig ingezetenen en de richtlijn 2009/50/EG, en is verantwoordelijk voor het door Nederland ontvangen en toezenden van de informatie, bedoeld in de , ,  en .artikelen 3.103a" />
           </node>
         </node>
       </node>

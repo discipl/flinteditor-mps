@@ -103,6 +103,7 @@ internal val nsxClientsModule = module(override = true) {
 
 @Suppress("EXPERIMENTAL_API_USAGE")
 internal val hybridClientModule = module(override = true) {
+    val timeoutInS = 60
     single { SSLContext.getDefault() }
     single<JsonSerializer> {
         GsonSerializer {
@@ -112,6 +113,9 @@ internal val hybridClientModule = module(override = true) {
     single<HttpClientEngine> {
         Apache.create {
             sslContext = get()
+            connectTimeout = timeoutInS * 1000
+            socketTimeout = timeoutInS * 1000
+            connectionRequestTimeout = timeoutInS * 1000
         }
     }
     single {
@@ -126,7 +130,7 @@ internal val hybridClientModule = module(override = true) {
                 }
             }
             install(Logging) {
-                level = LogLevel.INFO
+                level = LogLevel.BODY
             }
             install(JsonFeature) {
                 serializer = get()
@@ -134,7 +138,6 @@ internal val hybridClientModule = module(override = true) {
         }
     }
     single<HttpClient> {
-        val timeoutInS = 20
         val config = RequestConfig.custom()
             .setConnectTimeout(timeoutInS * 1000)
             .setConnectionRequestTimeout(timeoutInS * 1000)

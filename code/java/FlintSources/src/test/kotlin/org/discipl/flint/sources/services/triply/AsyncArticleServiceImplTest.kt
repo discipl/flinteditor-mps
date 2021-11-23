@@ -83,19 +83,21 @@ internal class AsyncArticleServiceImplTest {
 
     @Test
     fun getArticlesForVersionIdJuriDecompose() {
-        val version = "https://fin.triply.cc/ole/BWB/id/BWBR0043709/15454984/2020-11-04/2020-11-04"
+        val version = "BWBR0001840/2018-12-21"
 
+        val parserId = UUID.fromString("9aeefdca-d8c3-4be9-a322-0a9ed226a539")
         val requestId = isFakeHttpReturn { UUID.fromString("02285010-ff56-11eb-9a03-0242ac130003") }
             ?: service.requestArticlesForVersionId(
                 mockRequestResult.source,
-                mockRequestResult.parser,
+                parserId,
                 version
             )
 
         mockRequestResult = MockRequestResult(
             juriDecomposeResult,
             version,
-            id = requestId
+            id = requestId,
+            parser = parserId
         )
 
         fun getStatus(): String {
@@ -132,6 +134,9 @@ internal class AsyncArticleServiceImplTest {
 
         // TODO (Fix this when nsx api is fixed)
         assertNotNull(articles)
+        articles.forEach {
+            println(it)
+        }
         assertEquals(9, articles.size)
         val article1 = articles[0]
         assertEquals("Artikel1", article1.name)
