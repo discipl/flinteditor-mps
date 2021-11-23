@@ -97,7 +97,7 @@ internal class AsyncArticleServiceImplTest {
             juriDecomposeResult,
             version,
             id = requestId,
-            parser = parserId
+//            parser = parserId
         )
 
         fun getStatus(): String {

@@ -5698,16 +5698,17 @@
                                             </node>
                                           </node>
                                         </node>
-                                        <node concept="17R0WA" id="1spse2eaQsy" role="3clFbw">
-                                          <node concept="2YIFZM" id="1spse2eaRKt" role="3uHU7w">
-                                            <ref role="37wK5l" to="33ny:~UUID.fromString(java.lang.String)" resolve="fromString" />
-                                            <ref role="1Pybhc" to="33ny:~UUID" resolve="UUID" />
-                                            <node concept="Xl_RD" id="1spse2eaSd3" role="37wK5m">
-                                              <property role="Xl_RC" value="9aeefdca-d8c3-4be9-a322-0a9ed226a539" />
-                                            </node>
+                                        <node concept="17R0WA" id="1spse2ewc_I" role="3clFbw">
+                                          <node concept="Xl_RD" id="1spse2ewdgb" role="3uHU7w">
+                                            <property role="Xl_RC" value="JuriDecompose" />
                                           </node>
-                                          <node concept="37vLTw" id="1spse2eaP6u" role="3uHU7B">
-                                            <ref role="3cqZAo" node="V6IiGI1ek9" resolve="parserId" />
+                                          <node concept="2OqwBi" id="1spse2ewbVQ" role="3uHU7B">
+                                            <node concept="37vLTw" id="1spse2ewaZu" role="2Oq$k0">
+                                              <ref role="3cqZAo" node="V6IiGI1eLI" resolve="parser" />
+                                            </node>
+                                            <node concept="liA8E" id="1spse2ewchs" role="2OqNvi">
+                                              <ref role="37wK5l" to="faj1:~PublicationParser.getName()" resolve="getName" />
+                                            </node>
                                           </node>
                                         </node>
                                       </node>

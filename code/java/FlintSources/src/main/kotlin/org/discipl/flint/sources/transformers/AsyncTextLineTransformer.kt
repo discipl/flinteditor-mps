@@ -125,7 +125,7 @@ class AsyncTextLineTransformer {
                     UnspecifiedArticleTitle(
                         regelNr,
                         asyncTextLine.id,
-                        asyncTextLine.structure.replace("/", " ")
+                        asyncTextLine.structure.replace("/", " ").trim()
                     )
                 )
                 if (asyncTextLine.text.isNotBlank()) {
