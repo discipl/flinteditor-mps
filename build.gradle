@@ -35,11 +35,11 @@ ext {
     platformLibDir = new File(rootDir, "platform-libs")
     artifactDir = new File(rootDir, "artifacts")
     mpsDir = new File(buildDir, "mps")
+    jbrsDir = new File(mpsDir, "jbrs")
     resourcesDir = new File(rootDir, "static-resources")
     generatedResourcesDir = new File(resourcesDir, "generated")
     platforms = ["linux", "mac", "win"]
     current_platform = currentPlatform()
-    generateTask = null
 
     testFileName = "TEST-jetbrains.mps.testbench.junit.suites.AntModuleTestSuite0-execution.xml"
     flint_filler_release_version = "v0.0.5"
@@ -51,6 +51,7 @@ ext {
     node_version = "13.6.0"
     npm_version = "6.13.4"
     koin_version = "2.2.2"
+    jbr_version = "11_0_6-b520.66"
 }
 
 configurations {
@@ -78,7 +79,7 @@ repositories {
 }
 
 downloadJbr {
-    jbrVersion = '11_0_6-b520.66'
+    jbrVersion = jbr_version
     downloadDir = mpsDir
 }
 
@@ -310,7 +311,7 @@ task buildFlint(type: de.itemis.mps.gradle.RunAntScript, dependsOn: generateScri
     targets = ["generate", "build"]
 }
 
-task buildFlintIde(type: de.itemis.mps.gradle.RunAntScript, dependsOn: buildFlint) {
+task buildFlintIde(type: de.itemis.mps.gradle.RunAntScript, dependsOn: [buildFlint, 'downloadAllJbrs']) {
     script = file("$codeDir/build-IdeDistribution.xml")
     targets = ["build"]
 }
@@ -375,4 +376,47 @@ task fetchFlintFillerExecutables() {
         downloadFillerFile("flintfiller-macos")
         downloadFillerFile("flintfiller-windows.exe")
     }
+}
+
+
+def getConfiguration(os) {
+    def dependency = "com.jetbrains.jdk:jbr:$jbr_version:$os-x64@tgz"
+    return configurations.detachedConfiguration(project.dependencies.create(dependency))
+}
+
+task downloadWindowsJbr(type: Copy) {
+    group = 'jbr'
+    def dirName = "windows"
+    def downloadDir = new File(jbrsDir, dirName)
+    doFirst {
+        downloadDir.delete()
+    }
+    from(getConfiguration(dirName).resolve().collect { tarTree(it) })
+    into(downloadDir)
+}
+
+task downloadLinuxJbr(type: Copy) {
+    group = 'jbr'
+    def dirName = "linux"
+    def downloadDir = new File(jbrsDir, dirName)
+    doFirst {
+        downloadDir.delete()
+    }
+    from(getConfiguration(dirName).resolve().collect { tarTree(it) })
+    into(downloadDir)
+}
+
+task downloadMacOsJbr(type: Copy, group: 'jbr') {
+    group = 'jbr'
+    def dirName = "osx"
+    def downloadDir = new File(jbrsDir, dirName)
+    doFirst {
+        downloadDir.delete()
+    }
+    from(getConfiguration(dirName).resolve().collect { tarTree(it) })
+    into(downloadDir)
+}
+
+task downloadAllJbrs(dependsOn: [downloadWindowsJbr, downloadLinuxJbr, downloadMacOsJbr]) {
+    group = 'jbr'
 }
