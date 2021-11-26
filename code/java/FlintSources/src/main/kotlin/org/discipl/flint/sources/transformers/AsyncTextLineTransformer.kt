@@ -63,9 +63,11 @@ class AsyncTextLineTransformer {
         return textLines.firstOrNull { this.parent == it.id }
     }
 
-    private fun isArticle(asyncTextLine: AsyncTextLine) =
-        asyncTextLine.structure.startsWith("/Artikel") && asyncTextLine.structure.substringAfter("/Artikel")
-            .toIntOrNull() != null
+    private fun isArticle(asyncTextLine: AsyncTextLine): Boolean {
+        if (!asyncTextLine.structure.contains("/Artikel")) return false
+        val afterArtikel = asyncTextLine.structure.substringAfter("/Artikel")
+        return !afterArtikel.contains("/")
+    }
 
     private fun AsyncTextLine.toPart(textLines: List<AsyncTextLine>, regelNr: Int): Part {
         fun isSubList(asyncTextLine: AsyncTextLine) = asyncTextLine.hasChildren(textLines) && !isArticle(asyncTextLine)
@@ -123,7 +125,7 @@ class AsyncTextLineTransformer {
                     UnspecifiedArticleTitle(
                         regelNr,
                         asyncTextLine.id,
-                        asyncTextLine.structure.replace("/", "")
+                        asyncTextLine.structure.replace("/", " ").trim()
                     )
                 )
                 if (asyncTextLine.text.isNotBlank()) {

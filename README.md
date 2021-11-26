@@ -14,8 +14,22 @@ Complete IDE with all required plugins and custom branding.
 To build the FlintIDE run `gradlew buildFlintIde`. This will generate compressed artifacts in `code/build/artifacts/FlintIdeDistribution`.
 
 ### Install
-To install the IDE unpack the archive for your platform to an empty directory.
-Then run executable from the bin directory.
+Download the latest IDE [release](https://github.com/discipl/flinteditor-mps/releases) for your OS.
+
+#### Windows
+The Windows asset is `flint-win-ide.zip`. Download and extract the zip. To start the IDE run `%INSTALLATION_FOLDER%/bin/flint.bat`.
+
+#### Linux
+he Linux asset is `flint-linux-ide.tar.gz`. Download and extract the tar (the command to extract a tar is `tar -xf flint-linux-ide.tar.gz`). To start the IDE run `%INSTALLATION_FOLDER%/bin/flint.sh`.
+
+#### MacOS
+The MacOS asset is `flint-macos-ide.zip`. Download and extract the zip. To start the IDE run `Flint %Version%.app`. 
+
+If you get a popup blocking the startup because of unknown developer. 
+ - Search for `Security & Privacy` in Finder.
+ - Click the `Open Anyway` button.    
+![Open Anyway](docs/images/run-not-know-macos.png)
+
 
 ## Flint Plugin
 MPS IDE, FlintPlugin and dependant plugins must be manually installed. 
