@@ -114,6 +114,9 @@
       <concept id="1227096498176" name="jetbrains.mps.lang.typesystem.structure.PropertyMessageTarget" flags="ng" index="2ODE4t">
         <reference id="1227096521710" name="propertyDeclaration" index="2ODJFN" />
       </concept>
+      <concept id="1227096620180" name="jetbrains.mps.lang.typesystem.structure.ReferenceMessageTarget" flags="ng" index="2OE7Q9">
+        <reference id="1227096645744" name="linkDeclaration" index="2OEe5H" />
+      </concept>
       <concept id="1216383170661" name="jetbrains.mps.lang.typesystem.structure.TypesystemQuickFix" flags="ng" index="Q5z_Y">
         <child id="1216383424566" name="executeBlock" index="Q6x$H" />
         <child id="1216391046856" name="descriptionBlock" index="QzAvj" />
@@ -280,6 +283,9 @@
             </node>
             <node concept="3Cnw8n" id="5REjpykBzXQ" role="1urrFz">
               <ref role="QpYPw" node="5REjpykBzXN" resolve="fix_GeneratedConcept" />
+            </node>
+            <node concept="2ODE4t" id="1xFFp6N2O_U" role="1urrC5">
+              <ref role="2ODJFN" to="lnwe:FdnnrG0XRj" resolve="explanation" />
             </node>
           </node>
         </node>
@@ -975,24 +981,32 @@
                             <node concept="Xl_RD" id="3hQXDJ2Wz3C" role="3uHU7w">
                               <property role="Xl_RC" value=" is not createable" />
                             </node>
-                            <node concept="2OqwBi" id="3hQXDJ2Wz3D" role="3uHU7B">
-                              <node concept="2OqwBi" id="3hQXDJ2Wz3E" role="2Oq$k0">
-                                <node concept="1PxgMI" id="3hQXDJ2Wz3F" role="2Oq$k0">
-                                  <node concept="chp4Y" id="3hQXDJ2Wz3G" role="3oSUPX">
-                                    <ref role="cht4Q" to="lnwe:5HFvLoKGhUL" resolve="FactReference" />
+                            <node concept="2OqwBi" id="4dYNOUqBZQD" role="3uHU7B">
+                              <node concept="2OqwBi" id="3hQXDJ2Wz3D" role="2Oq$k0">
+                                <node concept="2OqwBi" id="3hQXDJ2Wz3E" role="2Oq$k0">
+                                  <node concept="1PxgMI" id="3hQXDJ2Wz3F" role="2Oq$k0">
+                                    <node concept="chp4Y" id="3hQXDJ2Wz3G" role="3oSUPX">
+                                      <ref role="cht4Q" to="lnwe:5HFvLoKGhUL" resolve="FactReference" />
+                                    </node>
+                                    <node concept="37vLTw" id="3hQXDJ2Wz3H" role="1m5AlR">
+                                      <ref role="3cqZAo" node="3hQXDJ2T6f7" resolve="it" />
+                                    </node>
                                   </node>
-                                  <node concept="37vLTw" id="3hQXDJ2Wz3H" role="1m5AlR">
-                                    <ref role="3cqZAo" node="3hQXDJ2T6f7" resolve="it" />
+                                  <node concept="3TrEf2" id="3hQXDJ2Wz3I" role="2OqNvi">
+                                    <ref role="3Tt5mk" to="lnwe:5HFvLoKGhUM" resolve="fact" />
                                   </node>
                                 </node>
-                                <node concept="3TrEf2" id="3hQXDJ2Wz3I" role="2OqNvi">
-                                  <ref role="3Tt5mk" to="lnwe:5HFvLoKGhUM" resolve="fact" />
+                                <node concept="2qgKlT" id="4dYNOUqBZwJ" role="2OqNvi">
+                                  <ref role="37wK5l" to="3lmi:3WaefmjHEHp" resolve="getTranslatedName" />
                                 </node>
                               </node>
-                              <node concept="3TrcHB" id="3hQXDJ2Wz3J" role="2OqNvi">
-                                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                              <node concept="3TrcHB" id="4dYNOUqC05C" role="2OqNvi">
+                                <ref role="3TsBF5" to="lnwe:4BELQW_1p0$" resolve="translatedName" />
                               </node>
                             </node>
+                          </node>
+                          <node concept="2OE7Q9" id="7x9GGw2KkjZ" role="1urrC5">
+                            <ref role="2OEe5H" to="lnwe:4BELQW_1ouJ" resolve="translatedNames" />
                           </node>
                         </node>
                       </node>

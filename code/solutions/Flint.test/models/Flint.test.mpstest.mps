@@ -4,7 +4,7 @@
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="6" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="7" />
     <use id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi" version="0" />
     <use id="68015e26-cc4d-49db-8715-b643faea1769" name="jetbrains.mps.lang.test.generator" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
@@ -313,6 +313,9 @@
       <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
         <child id="6983418503075280678" name="sources" index="2pmM46" />
       </concept>
+      <concept id="589729100932390229" name="Flint.structure.IHasLanguage" flags="ng" index="ITzSF">
+        <child id="5326288789495449519" name="translatedNames" index="1GVO30" />
+      </concept>
       <concept id="2986354165693918736" name="Flint.structure.SRole" flags="ng" index="2UK0tq">
         <property id="2986354165693918737" name="role" index="2UK0tr" />
       </concept>
@@ -350,6 +353,11 @@
       </concept>
       <concept id="6587498613242404529" name="Flint.structure.FactReference" flags="ng" index="1FQA6B">
         <reference id="6587498613242404530" name="fact" index="1FQA6$" />
+      </concept>
+      <concept id="5326288789495450601" name="Flint.structure.TranslatedName" flags="ng" index="1GVOM6">
+        <property id="2148853966781381138" name="action" index="DSN_u" />
+        <property id="5326288789495451684" name="translatedName" index="1GVPtb" />
+        <property id="5326288789495451682" name="language" index="1GVPtd" />
       </concept>
       <concept id="491685697582670580" name="Flint.structure.CREATE" flags="ng" index="1RnfdX" />
     </language>
@@ -607,6 +615,10 @@
               </node>
             </node>
           </node>
+          <node concept="1GVOM6" id="3WaefmjXfye" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="Fact1" />
+          </node>
         </node>
         <node concept="cu0$f" id="74VLc6k_$IN" role="3_ImGK">
           <property role="TrG5h" value="Fact1" />
@@ -616,6 +628,10 @@
                 <ref role="39XzEq" to="19bf:1$A6n3LTaXq" />
               </node>
             </node>
+          </node>
+          <node concept="1GVOM6" id="3WaefmjXfyf" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="Fact1" />
           </node>
         </node>
         <node concept="mu5$5" id="74VLc6k_$It" role="3_ImHT">
@@ -637,6 +653,11 @@
               </node>
             </node>
           </node>
+          <node concept="1GVOM6" id="1RigOKOD3Ee" role="1GVO30">
+            <property role="DSN_u" value="123" />
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="Act1" />
+          </node>
         </node>
         <node concept="mu5$5" id="74VLc6k_$I_" role="3_ImHT">
           <property role="TrG5h" value="Act1" />
@@ -656,6 +677,11 @@
                 <ref role="39XzEq" to="19bf:1$A6n3LTaXq" />
               </node>
             </node>
+          </node>
+          <node concept="1GVOM6" id="1RigOKOD3Ef" role="1GVO30">
+            <property role="DSN_u" value="123" />
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="Act1" />
           </node>
         </node>
       </node>
@@ -698,6 +724,10 @@
               </node>
             </node>
           </node>
+          <node concept="1GVOM6" id="3WaefmjXgR3" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="Fact1" />
+          </node>
         </node>
       </node>
     </node>
@@ -722,6 +752,10 @@
             <property role="LIFWd" value="expression_name" />
           </node>
         </node>
+        <node concept="1GVOM6" id="3WaefmjYzlC" role="1GVO30">
+          <property role="1GVPtd" value="English" />
+          <property role="1GVPtb" value="Test" />
+        </node>
       </node>
     </node>
     <node concept="1qefOq" id="1h5_OQXezlw" role="25YQFr">
@@ -732,6 +766,10 @@
             <node concept="1zEXQY" id="74VLc6kDpcg" role="1zEXIt" />
           </node>
         </node>
+        <node concept="1GVOM6" id="3WaefmjYzlD" role="1GVO30">
+          <property role="1GVPtd" value="English" />
+          <property role="1GVPtb" value="Test" />
+        </node>
       </node>
     </node>
   </node>
@@ -741,11 +779,15 @@
       <node concept="cu0$f" id="74VLc6k$JIB" role="1qenE9">
         <property role="TrG5h" value="TestFact" />
         <node concept="LIFWc" id="74VLc6k$JID" role="lGtFl">
-          <property role="LIFWa" value="0" />
           <property role="OXtK3" value="true" />
           <property role="p6zMq" value="0" />
           <property role="p6zMs" value="0" />
-          <property role="LIFWd" value="property_name" />
+          <property role="LIFWd" value="QueryList_s9jk28_c0a" />
+          <property role="LIFWa" value="0" />
+        </node>
+        <node concept="1GVOM6" id="3WaefmjYz4z" role="1GVO30">
+          <property role="1GVPtd" value="English" />
+          <property role="1GVPtb" value="TestFact" />
         </node>
       </node>
     </node>
@@ -816,6 +858,10 @@
             <property role="LIFWd" value="Collection_sfyjjx_b0a" />
           </node>
         </node>
+        <node concept="1GVOM6" id="3WaefmjYyLb" role="1GVO30">
+          <property role="1GVPtd" value="English" />
+          <property role="1GVPtb" value="TestFact" />
+        </node>
       </node>
     </node>
     <node concept="1qefOq" id="1CBWOUEr277" role="25YQFr">
@@ -832,6 +878,10 @@
               </node>
             </node>
           </node>
+        </node>
+        <node concept="1GVOM6" id="3WaefmjYyLc" role="1GVO30">
+          <property role="1GVPtd" value="English" />
+          <property role="1GVPtb" value="TestFact" />
         </node>
       </node>
     </node>
@@ -875,6 +925,10 @@
             </node>
           </node>
         </node>
+        <node concept="1GVOM6" id="3WaefmjYyu_" role="1GVO30">
+          <property role="1GVPtd" value="English" />
+          <property role="1GVPtb" value="TestFact" />
+        </node>
       </node>
     </node>
     <node concept="1qefOq" id="1CBWOUErvhJ" role="25YQFr">
@@ -891,6 +945,10 @@
               </node>
             </node>
           </node>
+        </node>
+        <node concept="1GVOM6" id="3WaefmjYyuA" role="1GVO30">
+          <property role="1GVPtd" value="English" />
+          <property role="1GVPtb" value="TestFact" />
         </node>
       </node>
     </node>
@@ -946,9 +1004,18 @@
               </node>
             </node>
           </node>
+          <node concept="1GVOM6" id="1xFFp6MXtk5" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="TestAct" />
+            <property role="DSN_u" value="test" />
+          </node>
         </node>
         <node concept="cu0$f" id="28ttwYheEcq" role="3_ImGK">
           <property role="TrG5h" value="placeholder" />
+          <node concept="1GVOM6" id="3WaefmjYxYh" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="placeholder" />
+          </node>
         </node>
       </node>
     </node>
@@ -1059,9 +1126,17 @@
         <property role="TrG5h" value="Test" />
         <node concept="cu0$f" id="28ttwYheEfT" role="3_ImGK">
           <property role="TrG5h" value="placeholder" />
+          <node concept="1GVOM6" id="3WaefmjYxYi" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="placeholder" />
+          </node>
         </node>
         <node concept="cu0$f" id="6rq68Pz$OMp" role="3_ImGK">
           <property role="TrG5h" value="text" />
+          <node concept="1GVOM6" id="3WaefmjYxYj" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="text" />
+          </node>
         </node>
         <node concept="cog_a" id="28ttwYheEcg" role="3_ImGG">
           <property role="TrG5h" value="Source1" />
@@ -1097,6 +1172,11 @@
                 <property role="19SUeA" value=" is here" />
               </node>
             </node>
+          </node>
+          <node concept="1GVOM6" id="1xFFp6MXtk6" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="TestAct" />
+            <property role="DSN_u" value="test" />
           </node>
         </node>
       </node>
@@ -1149,9 +1229,18 @@
               </node>
             </node>
           </node>
+          <node concept="1GVOM6" id="1xFFp6MXP3i" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="TestAct" />
+            <property role="DSN_u" value="test" />
+          </node>
         </node>
         <node concept="cu0$f" id="28ttwYhlEPQ" role="3_ImGK">
           <property role="TrG5h" value="placeholder" />
+          <node concept="1GVOM6" id="3WaefmjYmdX" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="placeholder" />
+          </node>
         </node>
       </node>
     </node>
@@ -1178,6 +1267,10 @@
         <property role="TrG5h" value="Test" />
         <node concept="cu0$f" id="28ttwYhlEQ0" role="3_ImGK">
           <property role="TrG5h" value="placeholder" />
+          <node concept="1GVOM6" id="3WaefmjYmdY" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="placeholder" />
+          </node>
         </node>
         <node concept="cog_a" id="28ttwYhlEQ1" role="3_ImGG">
           <property role="TrG5h" value="Source1" />
@@ -1204,6 +1297,11 @@
                 <property role="19SUeA" value="Test text is here" />
               </node>
             </node>
+          </node>
+          <node concept="1GVOM6" id="1xFFp6MXP3j" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="TestAct" />
+            <property role="DSN_u" value="test" />
           </node>
         </node>
       </node>
@@ -1236,7 +1334,7 @@
               <property role="OXtK3" value="true" />
               <property role="p6zMq" value="3" />
               <property role="p6zMs" value="3" />
-              <property role="LIFWd" value="RNEC_property_name" />
+              <property role="LIFWd" value="RTNEC_property_translatedName" />
             </node>
           </node>
           <node concept="cog_b" id="28ttwYhqMaX" role="2pmM46">
@@ -1250,9 +1348,18 @@
               </node>
             </node>
           </node>
+          <node concept="1GVOM6" id="1xFFp6MXPkz" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="TestAct" />
+            <property role="DSN_u" value="test" />
+          </node>
         </node>
         <node concept="cu0$f" id="28ttwYhqMb1" role="3_ImGK">
           <property role="TrG5h" value="placeholder" />
+          <node concept="1GVOM6" id="3WaefmjYliQ" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="placeholder" />
+          </node>
         </node>
       </node>
     </node>
@@ -1517,6 +1624,10 @@
         <property role="TrG5h" value="Test" />
         <node concept="cu0$f" id="28ttwYhqMbb" role="3_ImGK">
           <property role="TrG5h" value="placeholder" />
+          <node concept="1GVOM6" id="3WaefmjYliR" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="placeholder" />
+          </node>
         </node>
         <node concept="cog_a" id="28ttwYhqMbc" role="3_ImGG">
           <property role="TrG5h" value="Source1" />
@@ -1562,6 +1673,11 @@
               </node>
             </node>
           </node>
+          <node concept="1GVOM6" id="1xFFp6MXPk$" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="TestAct" />
+            <property role="DSN_u" value="test" />
+          </node>
         </node>
       </node>
     </node>
@@ -1593,7 +1709,7 @@
               <property role="OXtK3" value="true" />
               <property role="p6zMq" value="3" />
               <property role="p6zMs" value="3" />
-              <property role="LIFWd" value="RNEC_property_name" />
+              <property role="LIFWd" value="RTNEC_property_translatedName" />
             </node>
           </node>
           <node concept="cog_b" id="28ttwYhL4Ti" role="2pmM46">
@@ -1625,9 +1741,18 @@
               </node>
             </node>
           </node>
+          <node concept="1GVOM6" id="1xFFp6MXQpH" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="TestAct" />
+            <property role="DSN_u" value="test" />
+          </node>
         </node>
         <node concept="cu0$f" id="28ttwYhL4Tm" role="3_ImGK">
           <property role="TrG5h" value="placeholder" />
+          <node concept="1GVOM6" id="3WaefmjYkv5" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="placeholder" />
+          </node>
         </node>
       </node>
     </node>
@@ -1843,6 +1968,10 @@
         <property role="TrG5h" value="Test" />
         <node concept="cu0$f" id="28ttwYhL4UI" role="3_ImGK">
           <property role="TrG5h" value="placeholder" />
+          <node concept="1GVOM6" id="3WaefmjYkv6" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="placeholder" />
+          </node>
         </node>
         <node concept="cog_a" id="28ttwYhL4UJ" role="3_ImGG">
           <property role="TrG5h" value="Source1" />
@@ -1869,6 +1998,11 @@
                 <property role="19SUeA" value="Test text is here" />
               </node>
             </node>
+          </node>
+          <node concept="1GVOM6" id="1xFFp6MXQpI" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="TestAct" />
+            <property role="DSN_u" value="test" />
           </node>
         </node>
       </node>
@@ -1915,6 +2049,10 @@
           <node concept="1FQA6B" id="4pyf5wCP3AX" role="3H37fL">
             <ref role="1FQA6$" node="4pyf5wCP3Aa" resolve="Person" />
           </node>
+          <node concept="1GVOM6" id="1xFFp6MYr4Z" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="Duty1" />
+          </node>
         </node>
         <node concept="cu0$f" id="4pyf5wCP3Aa" role="3_ImGK">
           <property role="TrG5h" value="Person" />
@@ -1929,6 +2067,10 @@
             </node>
           </node>
           <node concept="1RnfdX" id="4pyf5wCP3Af" role="coNO9" />
+          <node concept="1GVOM6" id="3WaefmjY8uX" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="Person" />
+          </node>
         </node>
         <node concept="cu0$f" id="4pyf5wCP3Ag" role="3_ImGK">
           <property role="TrG5h" value="Literals" />
@@ -1948,6 +2090,10 @@
               </node>
             </node>
           </node>
+          <node concept="1GVOM6" id="3WaefmjY8uY" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="Literals" />
+          </node>
         </node>
         <node concept="cu0$f" id="4pyf5wCP3Ao" role="3_ImGK">
           <property role="TrG5h" value="Reference" />
@@ -1965,6 +2111,10 @@
               <ref role="1FQA6$" node="4pyf5wCP3Ag" resolve="Literals" />
             </node>
           </node>
+          <node concept="1GVOM6" id="3WaefmjY8uZ" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="Reference" />
+          </node>
         </node>
         <node concept="cu0$f" id="4pyf5wCP3Av" role="3_ImGK">
           <property role="TrG5h" value="List" />
@@ -1974,6 +2124,10 @@
             <node concept="1FQA6B" id="4pyf5wCP3Ax" role="1zF6e3">
               <ref role="1FQA6$" node="4pyf5wCP3Aa" resolve="Person" />
             </node>
+          </node>
+          <node concept="1GVOM6" id="3WaefmjY8v0" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="List" />
           </node>
         </node>
         <node concept="mu5$5" id="4pyf5wCP3Ay" role="3_ImHT">
@@ -2021,6 +2175,11 @@
           <node concept="1FQA6B" id="4pyf5wCQX09" role="mu3T0">
             <ref role="1FQA6$" node="4pyf5wCP3Ao" resolve="Reference" />
           </node>
+          <node concept="1GVOM6" id="1xFFp6MYr4X" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="Act1" />
+            <property role="DSN_u" value="[Person]" />
+          </node>
         </node>
         <node concept="mu5$5" id="4pyf5wCP3AF" role="3_ImHT">
           <property role="TrG5h" value="Act2" />
@@ -2044,6 +2203,11 @@
           </node>
           <node concept="1FQA6B" id="4pyf5wCP3AP" role="mu1cf">
             <ref role="1FQA6$" node="4pyf5wCP3Aa" resolve="Person" />
+          </node>
+          <node concept="1GVOM6" id="3KbrMAndXx2" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="Act2" />
+            <property role="DSN_u" value="[Literals]" />
           </node>
         </node>
         <node concept="cog_a" id="4pyf5wCP3A9" role="3_ImGG">
@@ -2183,6 +2347,15 @@
           </node>
         </node>
       </node>
+      <node concept="3clFbF" id="7x9GGw2Qdqy" role="3cqZAp">
+        <node concept="2YIFZM" id="7x9GGw2QdFI" role="3clFbG">
+          <ref role="37wK5l" to="wyt6:~Thread.sleep(long)" resolve="sleep" />
+          <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
+          <node concept="3cmrfG" id="7x9GGw2QdLm" role="37wK5m">
+            <property role="3cmrfH" value="6000" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="2lJO3n" id="45WVu5_4VB6">
@@ -2300,7 +2473,7 @@
               <property role="OXtK3" value="true" />
               <property role="p6zMq" value="3" />
               <property role="p6zMs" value="3" />
-              <property role="LIFWd" value="RNEC_property_name" />
+              <property role="LIFWd" value="RTNEC_property_translatedName" />
             </node>
           </node>
           <node concept="cog_b" id="45WVu5_QzNZ" role="2pmM46">
@@ -2335,9 +2508,18 @@
               </node>
             </node>
           </node>
+          <node concept="1GVOM6" id="1xFFp6MYaQB" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="TestAct" />
+            <property role="DSN_u" value="test" />
+          </node>
         </node>
         <node concept="cu0$f" id="45WVu5_QzO3" role="3_ImGK">
           <property role="TrG5h" value="placeholder" />
+          <node concept="1GVOM6" id="3WaefmjXosE" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="placeholder" />
+          </node>
         </node>
       </node>
     </node>
@@ -2644,6 +2826,10 @@
         <property role="TrG5h" value="Test1" />
         <node concept="cu0$f" id="45WVu5_QzPJ" role="3_ImGK">
           <property role="TrG5h" value="placeholder" />
+          <node concept="1GVOM6" id="3WaefmjXosF" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="placeholder" />
+          </node>
         </node>
         <node concept="cog_a" id="45WVu5_QzPK" role="3_ImGG">
           <property role="TrG5h" value="Source1" />
@@ -2701,6 +2887,11 @@
               </node>
             </node>
           </node>
+          <node concept="1GVOM6" id="1xFFp6MYaQC" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="TestAct" />
+            <property role="DSN_u" value="test" />
+          </node>
         </node>
       </node>
     </node>
@@ -2732,7 +2923,7 @@
               <property role="OXtK3" value="true" />
               <property role="p6zMq" value="3" />
               <property role="p6zMs" value="3" />
-              <property role="LIFWd" value="RNEC_property_name" />
+              <property role="LIFWd" value="RTNEC_property_translatedName" />
             </node>
           </node>
           <node concept="cog_b" id="45WVu5_TBJE" role="2pmM46">
@@ -2770,9 +2961,18 @@
               </node>
             </node>
           </node>
+          <node concept="1GVOM6" id="1xFFp6MYbPS" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="TestAct" />
+            <property role="DSN_u" value="test" />
+          </node>
         </node>
         <node concept="cu0$f" id="45WVu5_TBJO" role="3_ImGK">
           <property role="TrG5h" value="placeholder" />
+          <node concept="1GVOM6" id="3WaefmjXLCd" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="placeholder" />
+          </node>
         </node>
       </node>
     </node>
@@ -3015,6 +3215,10 @@
         <property role="TrG5h" value="Test" />
         <node concept="cu0$f" id="45WVu5_TBLa" role="3_ImGK">
           <property role="TrG5h" value="placeholder" />
+          <node concept="1GVOM6" id="3WaefmjXLCe" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="placeholder" />
+          </node>
         </node>
         <node concept="cog_a" id="45WVu5_TBLb" role="3_ImGG">
           <property role="TrG5h" value="Source1" />
@@ -3050,6 +3254,11 @@
                 <property role="19SUeA" value=" is here" />
               </node>
             </node>
+          </node>
+          <node concept="1GVOM6" id="1xFFp6MYbPT" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="TestAct" />
+            <property role="DSN_u" value="test" />
           </node>
         </node>
       </node>
@@ -3559,6 +3768,11 @@
                 </node>
               </node>
             </node>
+            <node concept="1GVOM6" id="1xFFp6MYcCh" role="1GVO30">
+              <property role="1GVPtd" value="English" />
+              <property role="1GVPtb" value="Test Act" />
+              <property role="DSN_u" value="beslist" />
+            </node>
           </node>
         </node>
         <node concept="32diMG" id="1Drg1HVuOMy" role="32diMK">
@@ -3639,6 +3853,11 @@
                   <property role="19SUeA" value=" binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
                 </node>
               </node>
+            </node>
+            <node concept="1GVOM6" id="1xFFp6MYcCi" role="1GVO30">
+              <property role="1GVPtd" value="English" />
+              <property role="1GVPtb" value="Test Act" />
+              <property role="DSN_u" value="beslist" />
             </node>
           </node>
         </node>
@@ -4118,6 +4337,10 @@
                 </node>
               </node>
             </node>
+            <node concept="1GVOM6" id="1xFFp6MYd0i" role="1GVO30">
+              <property role="1GVPtd" value="English" />
+              <property role="1GVPtb" value="Test Act" />
+            </node>
           </node>
         </node>
         <node concept="32diMG" id="m$6eIWcxaC" role="32diMK">
@@ -4185,6 +4408,10 @@
                   <property role="19SUeA" value="Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
                 </node>
               </node>
+            </node>
+            <node concept="1GVOM6" id="1xFFp6MYd0j" role="1GVO30">
+              <property role="1GVPtd" value="English" />
+              <property role="1GVPtb" value="Test Act" />
             </node>
           </node>
         </node>
