@@ -406,7 +406,7 @@ task downloadLinuxJbr(type: Copy) {
     into(downloadDir)
 }
 
-task fixSymbolicLink(group: 'jbr') {
+task fixMacOsSymbolicLink(group: 'jbr') {
     doFirst {
         def symbolicLink = new File("$mpsDir/jbrs/osx/jbr/Contents/MacOS/libjli.dylib")
         symbolicLink.delete()
@@ -415,7 +415,7 @@ task fixSymbolicLink(group: 'jbr') {
 }
 
 task downloadMacOsJbr(type: Copy, group: 'jbr') {
-    finalizedBy(fixSymbolicLink)
+    finalizedBy(fixMacOsSymbolicLink)
     group = 'jbr'
     def dirName = "osx"
     def downloadDir = new File(jbrsDir, dirName)
@@ -425,19 +425,6 @@ task downloadMacOsJbr(type: Copy, group: 'jbr') {
     from(getConfiguration(dirName).resolve().collect { tarTree(it) })
     into(downloadDir)
 }
-
-//task downloadMacOsJbr(type: Exec, group: 'jbr') {
-//    group = 'jbr'
-//    def dirName = "osx"
-//    def downloadDir = new File(jbrsDir, dirName)
-//    doFirst {
-//        downloadDir.delete()
-//        downloadDir.mkdirs()
-//    }
-//    executable 'tar'
-//    args(['xzf', getConfiguration(dirName).resolve()[0]])
-//    workingDir downloadDir
-//}
 
 task downloadAllJbrs(dependsOn: [downloadWindowsJbr, downloadLinuxJbr, downloadMacOsJbr]) {
     group = 'jbr'
