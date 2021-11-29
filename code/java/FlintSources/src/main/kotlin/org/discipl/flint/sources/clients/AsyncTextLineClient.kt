@@ -26,4 +26,5 @@ interface AsyncTextLine {
     val parent: String?
     val next: String?
     val textNodeType: String?
+    val number: String?
 }

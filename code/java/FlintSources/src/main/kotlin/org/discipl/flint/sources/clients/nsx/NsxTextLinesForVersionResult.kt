@@ -1,7 +1,6 @@
 package org.discipl.flint.sources.clients.nsx
 
 import com.google.gson.annotations.SerializedName
-import java.util.*
 
 data class NsxTextLinesForVersionResult(
     @SerializedName("@graph")
@@ -17,8 +16,9 @@ data class NsxTextLine (
     val bibliographicIdentifierString: String?,
     @SerializedName("textnodeType")
     val textNodeType: String,
-    val stuctureCategory: String?,
+    val structureCategory: String?,
     val structure: String?,
+    @SerializedName("structuralIndex")
     val structuurkenmerk: StructuurKenmerk?,
     @SerializedName("@type")
     val type: String?,
@@ -26,9 +26,14 @@ data class NsxTextLine (
 ) {
     val fixedStructure: String get() {
         if (structure != null) return structure
-        if (stuctureCategory == "Artikel") {
+        if (structureCategory == "Artikel") {
             if (structuurkenmerk != null ) {
                 return "/${structuurkenmerk.name.replace("_", "")}"
+            }
+        }
+        if (structureCategory.isNullOrEmpty()) {
+            if (structuurkenmerk != null ) {
+                return "/${structuurkenmerk.name}"
             }
         }
         return ""
@@ -40,5 +45,6 @@ data class StructuurKenmerk(
     val number: String?,
     val name: String,
     @SerializedName("@type")
-    val type: String?
+    val type: String?,
+    val value: String?
 )

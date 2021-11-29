@@ -1,0 +1,1145 @@
+{
+  "@context": {
+    "@vocab": "https://calculemus.org/law-model/def/textNode/",
+    "@base": "https://calculemus.org/law-model/id/textNode/",
+    "iri": "@id",
+    "tekst": "text",
+    "parent": {
+      "@type": "@id"
+    },
+    "next": {
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "iri": "https://calculemus.org/88e245a3-2cef-4868-af4e-c83619c6099b",
+      "text": "",
+      "name": "/Artikel1/Onderdeel_2",
+      "parent": "https://calculemus.org/c37e0f7b-650e-4b8a-8104-5c69cab6a8e2",
+      "next": "https://calculemus.org/3a3615e3-b232-499d-9dd5-4b92bc47455a",
+      "structuralIndex": {
+        "iri": "b3aabc42-72ad-4f5a-a571-165b7165eb11",
+        "name": "Artikel1/Onderdeel_2",
+        "number": "2",
+        "value": "Onderdeel_2",
+        "parent": {
+          "iri": "c771fef6-c913-47bd-9600-66a125d978b6",
+          "name": "Artikel1",
+          "number": "1",
+          "value": "Artikel1",
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "Container",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/f82b3265-9fb8-4640-947d-41192f20e0df",
+      "text": "",
+      "name": "/Artikel1",
+      "next": "https://calculemus.org/c00cd50f-d0e7-41e5-93f3-0d26ddc62743",
+      "structuralIndex": {
+        "iri": "c771fef6-c913-47bd-9600-66a125d978b6",
+        "name": "Artikel1",
+        "number": "1",
+        "value": "Artikel1",
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "Container",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/345161ff-b016-4ae9-b533-39f44846a2be",
+      "text": "",
+      "name": "/Artikel2/Lid1",
+      "parent": "https://calculemus.org/c00cd50f-d0e7-41e5-93f3-0d26ddc62743",
+      "next": "https://calculemus.org/1e5147af-4f7e-4c6c-b7af-7afc62b0b103",
+      "structuralIndex": {
+        "iri": "dba08eb5-2eb7-4a23-8937-ab5b2093b146",
+        "name": "Artikel2/Lid1",
+        "number": "1",
+        "value": "Lid1",
+        "parent": {
+          "iri": "9f79e7fb-0d1d-498a-bbc8-581265d61adf",
+          "name": "Artikel2",
+          "number": "2",
+          "value": "Artikel2",
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "Container",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/01d1c764-832f-4795-b4bc-ee1d34d4063c",
+      "text": "",
+      "name": "/Artikel4/Lid2_CC",
+      "parent": "https://calculemus.org/1b18e7ed-e47e-4e82-931e-e643c653f117",
+      "textnodeType": "SubList",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/6cf8cb3c-0a76-4643-8957-fe2a5d425fe2",
+      "text": "vestiging als bedoeld in .artikel 1, eerste lid, onderdeel j, van de Handelsregisterwet 2007vestiging:",
+      "name": "/Artikel1/Onderdeel_8",
+      "parent": "https://calculemus.org/c37e0f7b-650e-4b8a-8104-5c69cab6a8e2",
+      "structuralIndex": {
+        "iri": "0298a824-682b-473d-92e6-b7d9da9e3693",
+        "name": "Artikel1/Onderdeel_8",
+        "number": "8",
+        "value": "Onderdeel_8",
+        "parent": {
+          "iri": "c771fef6-c913-47bd-9600-66a125d978b6",
+          "name": "Artikel1",
+          "number": "1",
+          "value": "Artikel1",
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/d1715036-ad5b-47d5-9147-1c1a0f735cff",
+      "text": "",
+      "name": "/Artikel3_CC",
+      "parent": "https://calculemus.org/78824cdb-8ce3-483b-8ef6-62a515f43636",
+      "textnodeType": "SubList",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/e24842c1-301d-47bd-8693-238cca22d7e6",
+      "text": "ten minste 4000, aan omzetverlies te lijden als gevolg van de maatregelen ter bestrijding van de verdere verspreiding van COVID-19;",
+      "name": "/Artikel2/Lid1/Onderdeela",
+      "parent": "https://calculemus.org/075d4bec-20fa-4778-9e81-0b57f362b186",
+      "next": "https://calculemus.org/e70e11c4-b337-4b0b-a24a-b3d61ef59e56",
+      "structuralIndex": {
+        "iri": "53c9cccc-ac58-4c75-a6a8-b8d92174bef8",
+        "name": "Artikel2/Lid1/Onderdeela",
+        "number": "a",
+        "value": "Onderdeela",
+        "parent": {
+          "iri": "dba08eb5-2eb7-4a23-8937-ab5b2093b146",
+          "name": "Artikel2/Lid1",
+          "number": "1",
+          "value": "Lid1",
+          "parent": {
+            "iri": "9f79e7fb-0d1d-498a-bbc8-581265d61adf",
+            "name": "Artikel2",
+            "number": "2",
+            "value": "Artikel2",
+            "@type": "StructuralIndex"
+          },
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/7ed45f21-c7e1-42bc-85fc-abc5e725f11d",
+      "text": "De minister verstrekt op aanvraag een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16maart 2020 tot en met 15juni 2020:",
+      "name": "/Artikel2/Lid1_TXT",
+      "parent": "https://calculemus.org/345161ff-b016-4ae9-b533-39f44846a2be",
+      "next": "https://calculemus.org/075d4bec-20fa-4778-9e81-0b57f362b186",
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/af3aa3f7-c5a1-404c-ac55-80cb11bdb4bd",
+      "text": "een verklaring dat de gedupeerde onderneming op het moment van aanvraag voldoet aan de bij deze beleidsregel gestelde eisen;",
+      "name": "/Artikel4/Lid2/Onderdeele",
+      "parent": "https://calculemus.org/01d1c764-832f-4795-b4bc-ee1d34d4063c",
+      "next": "https://calculemus.org/42de49e2-b3d0-48f2-ad3a-8b454b8d1c26",
+      "structuralIndex": {
+        "iri": "d25f2a30-6571-4321-a7e3-5c5a907ebbb6",
+        "name": "Artikel4/Lid2/Onderdeele",
+        "number": "e",
+        "value": "Onderdeele",
+        "parent": {
+          "iri": "109a7c52-b19e-4aca-a5e0-dd1252d34c0d",
+          "name": "Artikel4/Lid2",
+          "number": "2",
+          "value": "Lid2",
+          "parent": {
+            "iri": "c3f366c0-dbb2-4728-9fa4-bac415644a11",
+            "name": "Artikel4",
+            "number": "4",
+            "value": "Artikel4",
+            "@type": "StructuralIndex"
+          },
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/4e43116d-ffa3-4baa-ab3e-d43b8a3a0c4f",
+      "text": "een verklaring de-minimissteun;",
+      "name": "/Artikel4/Lid2/Onderdeeld",
+      "parent": "https://calculemus.org/01d1c764-832f-4795-b4bc-ee1d34d4063c",
+      "next": "https://calculemus.org/af3aa3f7-c5a1-404c-ac55-80cb11bdb4bd",
+      "structuralIndex": {
+        "iri": "71a68be6-6f0d-4720-9f89-70a16e65aeeb",
+        "name": "Artikel4/Lid2/Onderdeeld",
+        "number": "d",
+        "value": "Onderdeeld",
+        "parent": {
+          "iri": "109a7c52-b19e-4aca-a5e0-dd1252d34c0d",
+          "name": "Artikel4/Lid2",
+          "number": "2",
+          "value": "Lid2",
+          "parent": {
+            "iri": "c3f366c0-dbb2-4728-9fa4-bac415644a11",
+            "name": "Artikel4",
+            "number": "4",
+            "value": "Artikel4",
+            "@type": "StructuralIndex"
+          },
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/c00cd50f-d0e7-41e5-93f3-0d26ddc62743",
+      "text": "",
+      "name": "Artikel2",
+      "next": "https://calculemus.org/78824cdb-8ce3-483b-8ef6-62a515f43636",
+      "structuralIndex": {
+        "iri": "9f79e7fb-0d1d-498a-bbc8-581265d61adf",
+        "name": "Artikel2",
+        "number": "2",
+        "value": "Artikel2",
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "Container",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/6a78c682-60c9-41aa-b48d-74279a23d6bf",
+      "text": "De minister beslist binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen.",
+      "name": "/Artikel5",
+      "next": "https://calculemus.org/fdf3a33f-5a61-49fd-b9e7-9b88aa5d84b7",
+      "structuralIndex": {
+        "iri": "7c784eb5-453a-409d-875c-a85060d17177",
+        "name": "Artikel5",
+        "number": "5",
+        "value": "Artikel5",
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/13132ede-414f-4c1e-aec5-b1281d875fc5",
+      "text": "verordening (EU) nr. 1407/2013 van de Commissie van 18december 2013 betreffende de toepassing van de artikelen 107 en 108 van het Verdrag betreffende de werking van de Europese Unie op de-minimissteun (PbEU 2013, L 352);algemene de-minimisverordening:",
+      "name": "/Artikel1/Onderdeel_1",
+      "parent": "https://calculemus.org/c37e0f7b-650e-4b8a-8104-5c69cab6a8e2",
+      "next": "https://calculemus.org/88e245a3-2cef-4868-af4e-c83619c6099b",
+      "structuralIndex": {
+        "iri": "b103cd4e-bf92-4818-abc5-d31bf48daf57",
+        "name": "Artikel1/Onderdeel_1",
+        "number": "1",
+        "value": "Onderdeel_1",
+        "parent": {
+          "iri": "c771fef6-c913-47bd-9600-66a125d978b6",
+          "name": "Artikel1",
+          "number": "1",
+          "value": "Artikel1",
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/b713b053-9c63-4b20-9d0c-9fb426783f12",
+      "text": "",
+      "name": "Artikel8",
+      "next": "https://calculemus.org/8238e375-0d2a-4e96-b50b-8713e9a884b3",
+      "structuralIndex": {
+        "iri": "1830ca0b-e209-4a48-a676-c4dab45a28d4",
+        "name": "Artikel8",
+        "number": "8",
+        "value": "Artikel8",
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "Container",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/48c401d1-3b71-4349-9a64-df6f80ed8f90",
+      "text": "",
+      "name": "/Artikel1/Onderdeel_2/Onderdeelc",
+      "parent": "https://calculemus.org/38f154ca-1d27-4b17-934a-6f18b6059ec7",
+      "structuralIndex": {
+        "iri": "717c18e7-41ed-43f0-af26-ece040aaecc2",
+        "name": "Artikel1/Onderdeel_2/Onderdeelc",
+        "number": "c",
+        "value": "Onderdeelc",
+        "parent": {
+          "iri": "b3aabc42-72ad-4f5a-a571-165b7165eb11",
+          "name": "Artikel1/Onderdeel_2",
+          "number": "2",
+          "value": "Onderdeel_2",
+          "parent": {
+            "iri": "c771fef6-c913-47bd-9600-66a125d978b6",
+            "name": "Artikel1",
+            "number": "1",
+            "value": "Artikel1",
+            "@type": "StructuralIndex"
+          },
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "Container",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/99cd1974-fc81-42e8-8c46-445c1aad4ae1",
+      "text": "gegevens over de gedupeerde onderneming, waaronder het nummer waarmee de gedupeerde onderneming geregistreerd is bij de Kamer van Koophandel, het post- en bezoekadres en het rekeningnummer dat op naam van de gedupeerde onderneming staat;",
+      "name": "/Artikel4/Lid2/Onderdeela",
+      "parent": "https://calculemus.org/01d1c764-832f-4795-b4bc-ee1d34d4063c",
+      "next": "https://calculemus.org/cef66136-b8df-4016-986b-bd8c4e34394b",
+      "structuralIndex": {
+        "iri": "ab5d30a8-8237-4d3c-ab9a-b868d34f7bab",
+        "name": "Artikel4/Lid2/Onderdeela",
+        "number": "a",
+        "value": "Onderdeela",
+        "parent": {
+          "iri": "109a7c52-b19e-4aca-a5e0-dd1252d34c0d",
+          "name": "Artikel4/Lid2",
+          "number": "2",
+          "value": "Lid2",
+          "parent": {
+            "iri": "c3f366c0-dbb2-4728-9fa4-bac415644a11",
+            "name": "Artikel4",
+            "number": "4",
+            "value": "Artikel4",
+            "@type": "StructuralIndex"
+          },
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/d7ff2160-4793-4b80-a50a-fa50fea25f48",
+      "text": "Een aanvraag wordt ingediend met gebruikmaking van een door de minister beschikbaar gesteld middel.",
+      "name": "/Artikel4/Lid1",
+      "parent": "https://calculemus.org/0bd4707c-ed77-4b26-8e32-49e0e27210d0",
+      "next": "https://calculemus.org/1b18e7ed-e47e-4e82-931e-e643c653f117",
+      "structuralIndex": {
+        "iri": "4b0a2a60-7dc8-4523-95dd-b300fec294bc",
+        "name": "Artikel4/Lid1",
+        "number": "1",
+        "value": "Lid1",
+        "parent": {
+          "iri": "c3f366c0-dbb2-4728-9fa4-bac415644a11",
+          "name": "Artikel4",
+          "number": "4",
+          "value": "Artikel4",
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/0bd4707c-ed77-4b26-8e32-49e0e27210d0",
+      "text": "",
+      "name": "Artikel4",
+      "structuralIndex": {
+        "iri": "c3f366c0-dbb2-4728-9fa4-bac415644a11",
+        "name": "Artikel4",
+        "number": "4",
+        "value": "Artikel4",
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "Container",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/6b938c2d-6cfc-4265-8373-8f954ecb466f",
+      "text": "De tegemoetkoming, bedoeld in , bevat staatssteun en wordt gerechtvaardigd door de algemene de-minimisverordening.artikel 2",
+      "name": "/Artikel7",
+      "next": "https://calculemus.org/b713b053-9c63-4b20-9d0c-9fb426783f12",
+      "structuralIndex": {
+        "iri": "a403082d-a411-4008-93cb-a540f5df2c0c",
+        "name": "Artikel7",
+        "number": "7",
+        "value": "Artikel7",
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/35399a04-7406-4e5d-8f0d-cbb6822fad83",
+      "text": "voor zover het een onderneming, niet zijnde een horecaonderneming, betreft ten minste n vestiging heeft met een ander adres dan het privadres van de eigenaar of eigenaren van de onderneming; of",
+      "name": "/Artikel1/Onderdeel_2/Onderdeelc/Onderdeel1",
+      "parent": "https://calculemus.org/3c4c7155-d1a6-42ec-a48c-c6314e3df436",
+      "next": "https://calculemus.org/847014b1-fc2f-4392-b859-e9364b7f9b77",
+      "structuralIndex": {
+        "iri": "8e1bf2f9-ac14-476a-b620-ab0e8c05b06e",
+        "name": "Artikel1/Onderdeel_2/Onderdeelc/Onderdeel1",
+        "number": "1",
+        "value": "Onderdeel1",
+        "parent": {
+          "iri": "717c18e7-41ed-43f0-af26-ece040aaecc2",
+          "name": "Artikel1/Onderdeel_2/Onderdeelc",
+          "number": "c",
+          "value": "Onderdeelc",
+          "parent": {
+            "iri": "b3aabc42-72ad-4f5a-a571-165b7165eb11",
+            "name": "Artikel1/Onderdeel_2",
+            "number": "2",
+            "value": "Onderdeel_2",
+            "parent": {
+              "iri": "c771fef6-c913-47bd-9600-66a125d978b6",
+              "name": "Artikel1",
+              "number": "1",
+              "value": "Artikel1",
+              "@type": "StructuralIndex"
+            },
+            "@type": "StructuralIndex"
+          },
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/a689de5f-d408-4ae6-9ef9-c404efdcd275",
+      "text": "Een aanvraag omvat in ieder geval:",
+      "name": "/Artikel4/Lid2_TXT",
+      "parent": "https://calculemus.org/1b18e7ed-e47e-4e82-931e-e643c653f117",
+      "next": "https://calculemus.org/01d1c764-832f-4795-b4bc-ee1d34d4063c",
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/b4465872-a94f-4755-ac5c-64c3d4f4f156",
+      "text": "Deze beleidsregel vervalt met ingang van 1januari 2021, met dien verstande dat de beleidsregel van toepassing blijft op aanvragen om tegemoetkoming die uiterlijk 26juni 2020 zijn ingediend, dan wel op tegemoetkomingen die voor 1januari 2021 zijn verstrekt.",
+      "name": "/Artikel8/Lid2",
+      "parent": "https://calculemus.org/b713b053-9c63-4b20-9d0c-9fb426783f12",
+      "structuralIndex": {
+        "iri": "c8aaf51e-4f57-4ef0-addd-a8d2b6ed00e1",
+        "name": "Artikel8/Lid2",
+        "number": "2",
+        "value": "Lid2",
+        "parent": {
+          "iri": "1830ca0b-e209-4a48-a676-c4dab45a28d4",
+          "name": "Artikel8",
+          "number": "8",
+          "value": "Artikel8",
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/9b273dd6-bc52-4317-a779-e5a9e3a0f9f3",
+      "text": "verklaring van de gedupeerde onderneming waarin deze bevestigt dat de tegemoetkoming niet zal leiden tot een overschrijding van het de-minimisplafond, bedoeld in artikel 3, tweede lid, van de algemene de-minimisverordening;verklaring de-minimissteun:",
+      "name": "/Artikel1/Onderdeel_7",
+      "parent": "https://calculemus.org/c37e0f7b-650e-4b8a-8104-5c69cab6a8e2",
+      "next": "https://calculemus.org/6cf8cb3c-0a76-4643-8957-fe2a5d425fe2",
+      "structuralIndex": {
+        "iri": "5401ecd8-38c3-40ee-9bd8-cdc67deb51de",
+        "name": "Artikel1/Onderdeel_7",
+        "number": "7",
+        "value": "Onderdeel_7",
+        "parent": {
+          "iri": "c771fef6-c913-47bd-9600-66a125d978b6",
+          "name": "Artikel1",
+          "number": "1",
+          "value": "Artikel1",
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/c37e0f7b-650e-4b8a-8104-5c69cab6a8e2",
+      "text": "",
+      "name": "/Artikel1_CC",
+      "parent": "https://calculemus.org/f82b3265-9fb8-4640-947d-41192f20e0df",
+      "textnodeType": "SubList",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/b6329c21-9ebe-40ce-bbdc-404ed1432a56",
+      "text": "de gedupeerde onderneming in staat van faillissement verkeert dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming is ingediend;",
+      "name": "/Artikel3/Onderdeelb",
+      "parent": "https://calculemus.org/d1715036-ad5b-47d5-9147-1c1a0f735cff",
+      "next": "https://calculemus.org/a367a4f6-bb06-4677-981f-bb17f13fff76",
+      "structuralIndex": {
+        "iri": "64fcdcb7-8303-460d-9672-ceda8f0c8722",
+        "name": "Artikel3/Onderdeelb",
+        "number": "b",
+        "value": "Onderdeelb",
+        "parent": {
+          "iri": "1e7a1ff0-55e9-4266-babf-7e6cc15ce399",
+          "name": "Artikel3",
+          "number": "3",
+          "value": "Artikel3",
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/38f154ca-1d27-4b17-934a-6f18b6059ec7",
+      "text": "",
+      "name": "/Artikel1/Onderdeel_2_CC",
+      "parent": "https://calculemus.org/88e245a3-2cef-4868-af4e-c83619c6099b",
+      "textnodeType": "SubList",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/847014b1-fc2f-4392-b859-e9364b7f9b77",
+      "text": "voor zover het een horecaonderneming betreft ten minste n horecagelegenheid huurt, pacht of in eigendom heeft;",
+      "name": "/Artikel1/Onderdeel_2/Onderdeelc/Onderdeel2",
+      "parent": "https://calculemus.org/3c4c7155-d1a6-42ec-a48c-c6314e3df436",
+      "structuralIndex": {
+        "iri": "a872ff40-b566-442f-88a8-bc540b6453c6",
+        "name": "Artikel1/Onderdeel_2/Onderdeelc/Onderdeel2",
+        "number": "2",
+        "value": "Onderdeel2",
+        "parent": {
+          "iri": "717c18e7-41ed-43f0-af26-ece040aaecc2",
+          "name": "Artikel1/Onderdeel_2/Onderdeelc",
+          "number": "c",
+          "value": "Onderdeelc",
+          "parent": {
+            "iri": "b3aabc42-72ad-4f5a-a571-165b7165eb11",
+            "name": "Artikel1/Onderdeel_2",
+            "number": "2",
+            "value": "Onderdeel_2",
+            "parent": {
+              "iri": "c771fef6-c913-47bd-9600-66a125d978b6",
+              "name": "Artikel1",
+              "number": "1",
+              "value": "Artikel1",
+              "@type": "StructuralIndex"
+            },
+            "@type": "StructuralIndex"
+          },
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/9f6340ff-fc91-4db0-8cab-5a892fcf6748",
+      "text": "een verklaring waarin de gedupeerde onderneming aangeeft dat de onderneming in de periode van 16maart 2020 tot en met 15juni 2020 verwacht ten minste 4000, aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19.",
+      "name": "/Artikel4/Lid2/Onderdeelg",
+      "parent": "https://calculemus.org/01d1c764-832f-4795-b4bc-ee1d34d4063c",
+      "structuralIndex": {
+        "iri": "1353ad66-3cdb-4896-be9d-7e7b7fb136e1",
+        "name": "Artikel4/Lid2/Onderdeelg",
+        "number": "g",
+        "value": "Onderdeelg",
+        "parent": {
+          "iri": "109a7c52-b19e-4aca-a5e0-dd1252d34c0d",
+          "name": "Artikel4/Lid2",
+          "number": "2",
+          "value": "Lid2",
+          "parent": {
+            "iri": "c3f366c0-dbb2-4728-9fa4-bac415644a11",
+            "name": "Artikel4",
+            "number": "4",
+            "value": "Artikel4",
+            "@type": "StructuralIndex"
+          },
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/3a3615e3-b232-499d-9dd5-4b92bc47455a",
+      "text": "handelsregister als bedoeld in ;artikel 2 van de Handelsregisterwet 2007handelsregister:",
+      "name": "/Artikel1/Onderdeel_3",
+      "parent": "https://calculemus.org/c37e0f7b-650e-4b8a-8104-5c69cab6a8e2",
+      "next": "https://calculemus.org/929c138a-e8d1-4812-91e3-3825382ecb28",
+      "structuralIndex": {
+        "iri": "78dd5b7d-f92d-46af-bea6-9a03c4ebc8f6",
+        "name": "Artikel1/Onderdeel_3",
+        "number": "3",
+        "value": "Onderdeel_3",
+        "parent": {
+          "iri": "c771fef6-c913-47bd-9600-66a125d978b6",
+          "name": "Artikel1",
+          "number": "1",
+          "value": "Artikel1",
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/8e8d0bdb-5bc7-42ed-bc4b-8b3c4a3ef115",
+      "text": "Deze beleidsregel treedt in werking met ingang van de dag na de datum van uitgifte van de Staatscourant waarin zij wordt geplaatst, en werkt terug tot en met 27maart 2020.",
+      "name": "/Artikel8/Lid1",
+      "parent": "https://calculemus.org/b713b053-9c63-4b20-9d0c-9fb426783f12",
+      "next": "https://calculemus.org/b4465872-a94f-4755-ac5c-64c3d4f4f156",
+      "structuralIndex": {
+        "iri": "c5211fe0-715b-42a0-a75c-ab514f8c3249",
+        "name": "Artikel8/Lid1",
+        "number": "1",
+        "value": "Lid1",
+        "parent": {
+          "iri": "1830ca0b-e209-4a48-a676-c4dab45a28d4",
+          "name": "Artikel8",
+          "number": "8",
+          "value": "Artikel8",
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/075d4bec-20fa-4778-9e81-0b57f362b186",
+      "text": "",
+      "name": "/Artikel2/Lid1_CC",
+      "parent": "https://calculemus.org/345161ff-b016-4ae9-b533-39f44846a2be",
+      "textnodeType": "SubList",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/73933417-91b2-415b-9ead-057c9a773fcb",
+      "text": "die op 15maart 2020 in het handelsregister stond ingeschreven onder een hoofdactiviteit die in  is opgenomen, met de daarbij behorende code van de Standaard Bedrijfsindeling;bijlage 1",
+      "name": "/Artikel1/Onderdeel_2/Onderdeela",
+      "parent": "https://calculemus.org/38f154ca-1d27-4b17-934a-6f18b6059ec7",
+      "next": "https://calculemus.org/9999867f-e93b-4c65-b603-df3fa5e57fb1",
+      "structuralIndex": {
+        "iri": "ab5eaa8b-6032-4f3e-9029-73a4f3320a57",
+        "name": "Artikel1/Onderdeel_2/Onderdeela",
+        "number": "a",
+        "value": "Onderdeela",
+        "parent": {
+          "iri": "b3aabc42-72ad-4f5a-a571-165b7165eb11",
+          "name": "Artikel1/Onderdeel_2",
+          "number": "2",
+          "value": "Onderdeel_2",
+          "parent": {
+            "iri": "c771fef6-c913-47bd-9600-66a125d978b6",
+            "name": "Artikel1",
+            "number": "1",
+            "value": "Artikel1",
+            "@type": "StructuralIndex"
+          },
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/32228008-b297-4013-a719-1ce594eafad8",
+      "text": "In deze beleidsregel wordt verstaan onder:",
+      "name": "/Artikel1_TXT",
+      "parent": "https://calculemus.org/f82b3265-9fb8-4640-947d-41192f20e0df",
+      "next": "https://calculemus.org/c37e0f7b-650e-4b8a-8104-5c69cab6a8e2",
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/31a81b93-5d54-44fa-b0ec-46ea3d9c4c07",
+      "text": "de aanvraag niet voldoet aan de bij deze beleidsregel gestelde eisen;",
+      "name": "/Artikel3/Onderdeela",
+      "parent": "https://calculemus.org/d1715036-ad5b-47d5-9147-1c1a0f735cff",
+      "next": "https://calculemus.org/b6329c21-9ebe-40ce-bbdc-404ed1432a56",
+      "structuralIndex": {
+        "iri": "3dd76523-e9f4-45a2-8015-122d6540a291",
+        "name": "Artikel3/Onderdeela",
+        "number": "a",
+        "value": "Onderdeela",
+        "parent": {
+          "iri": "1e7a1ff0-55e9-4266-babf-7e6cc15ce399",
+          "name": "Artikel3",
+          "number": "3",
+          "value": "Artikel3",
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/1b18e7ed-e47e-4e82-931e-e643c653f117",
+      "text": "",
+      "name": "/Artikel4/Lid2",
+      "parent": "https://calculemus.org/0bd4707c-ed77-4b26-8e32-49e0e27210d0",
+      "next": "https://calculemus.org/6f1fa375-b09d-475f-98e4-b9c81bc319c7",
+      "structuralIndex": {
+        "iri": "109a7c52-b19e-4aca-a5e0-dd1252d34c0d",
+        "name": "Artikel4/Lid2",
+        "number": "2",
+        "value": "Lid2",
+        "parent": {
+          "iri": "c3f366c0-dbb2-4728-9fa4-bac415644a11",
+          "name": "Artikel4",
+          "number": "4",
+          "value": "Artikel4",
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "Container",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/78824cdb-8ce3-483b-8ef6-62a515f43636",
+      "text": "",
+      "name": "/Artikel3",
+      "next": "https://calculemus.org/0bd4707c-ed77-4b26-8e32-49e0e27210d0",
+      "structuralIndex": {
+        "iri": "1e7a1ff0-55e9-4266-babf-7e6cc15ce399",
+        "name": "Artikel3",
+        "number": "3",
+        "value": "Artikel3",
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "Container",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/42de49e2-b3d0-48f2-ad3a-8b454b8d1c26",
+      "text": "een verklaring waarin de gedupeerde onderneming aangeeft dat de onderneming in de periode van 16maart 2020 tot en met 15juni 2020 een omzetverlies verwacht te lijden van ten minste 4000,; en",
+      "name": "/Artikel4/Lid2/Onderdeelf",
+      "parent": "https://calculemus.org/01d1c764-832f-4795-b4bc-ee1d34d4063c",
+      "next": "https://calculemus.org/9f6340ff-fc91-4db0-8cab-5a892fcf6748",
+      "structuralIndex": {
+        "iri": "69e4b90f-276f-46a7-8bed-e5a7ca8aef63",
+        "name": "Artikel4/Lid2/Onderdeelf",
+        "number": "f",
+        "value": "Onderdeelf",
+        "parent": {
+          "iri": "109a7c52-b19e-4aca-a5e0-dd1252d34c0d",
+          "name": "Artikel4/Lid2",
+          "number": "2",
+          "value": "Lid2",
+          "parent": {
+            "iri": "c3f366c0-dbb2-4728-9fa4-bac415644a11",
+            "name": "Artikel4",
+            "number": "4",
+            "value": "Artikel4",
+            "@type": "StructuralIndex"
+          },
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/b9979b4d-e165-4807-bc29-37e308afe888",
+      "text": "Minister van Economische Zaken en Klimaat;minister:",
+      "name": "/Artikel1/Onderdeel_5",
+      "parent": "https://calculemus.org/c37e0f7b-650e-4b8a-8104-5c69cab6a8e2",
+      "next": "https://calculemus.org/51aa5052-3508-498f-b040-f52d745ff67d",
+      "structuralIndex": {
+        "iri": "c32d479c-84cd-4ed0-be24-391c91a304c4",
+        "name": "Artikel1/Onderdeel_5",
+        "number": "5",
+        "value": "Onderdeel_5",
+        "parent": {
+          "iri": "c771fef6-c913-47bd-9600-66a125d978b6",
+          "name": "Artikel1",
+          "number": "1",
+          "value": "Artikel1",
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/1e5147af-4f7e-4c6c-b7af-7afc62b0b103",
+      "text": "De tegemoetkoming bedraagt 4000 per gedupeerde onderneming.",
+      "name": "/Artikel2/Lid2",
+      "parent": "https://calculemus.org/c00cd50f-d0e7-41e5-93f3-0d26ddc62743",
+      "structuralIndex": {
+        "iri": "8c30cc6b-a73b-470f-a0ed-0a3ec009df33",
+        "name": "Artikel2/Lid2",
+        "number": "2",
+        "value": "Lid2",
+        "parent": {
+          "iri": "9f79e7fb-0d1d-498a-bbc8-581265d61adf",
+          "name": "Artikel2",
+          "number": "2",
+          "value": "Artikel2",
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/c8dd71fe-73a4-42a0-8508-83f0e7403194",
+      "text": "een verklaring dat de gedupeerde onderneming geen overheidsbedrijf is;",
+      "name": "/Artikel4/Lid2/Onderdeelc",
+      "parent": "https://calculemus.org/01d1c764-832f-4795-b4bc-ee1d34d4063c",
+      "next": "https://calculemus.org/4e43116d-ffa3-4baa-ab3e-d43b8a3a0c4f",
+      "structuralIndex": {
+        "iri": "16ba6876-0106-4bea-ac63-4503a47d681d",
+        "name": "Artikel4/Lid2/Onderdeelc",
+        "number": "c",
+        "value": "Onderdeelc",
+        "parent": {
+          "iri": "109a7c52-b19e-4aca-a5e0-dd1252d34c0d",
+          "name": "Artikel4/Lid2",
+          "number": "2",
+          "value": "Lid2",
+          "parent": {
+            "iri": "c3f366c0-dbb2-4728-9fa4-bac415644a11",
+            "name": "Artikel4",
+            "number": "4",
+            "value": "Artikel4",
+            "@type": "StructuralIndex"
+          },
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/24a92987-9950-4610-9407-c9a4ce1815a4",
+      "text": "De minister beslist afwijzend op een aanvraag indien:",
+      "name": "/Artikel3_TXT",
+      "parent": "https://calculemus.org/78824cdb-8ce3-483b-8ef6-62a515f43636",
+      "next": "https://calculemus.org/d1715036-ad5b-47d5-9147-1c1a0f735cff",
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/fff6d205-9af7-436a-b275-f892e2c35445",
+      "text": "in Nederland gevestigde onderneming als bedoeld in , niet zijnde een overheidsbedrijf:artikel 5 van de Handelsregisterwet 2007gedupeerde onderneming:",
+      "name": "/Artikel1/Onderdeel_2_TXT",
+      "parent": "https://calculemus.org/88e245a3-2cef-4868-af4e-c83619c6099b",
+      "next": "https://calculemus.org/38f154ca-1d27-4b17-934a-6f18b6059ec7",
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/8238e375-0d2a-4e96-b50b-8713e9a884b3",
+      "text": "Deze beleidsregel wordt aangehaald als: Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19.",
+      "name": "/Artikel9",
+      "structuralIndex": {
+        "iri": "a3694082-c31f-4345-abce-44f75c618bf7",
+        "name": "Artikel9",
+        "number": "9",
+        "value": "Artikel9",
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/e70e11c4-b337-4b0b-a24a-b3d61ef59e56",
+      "text": "ten minste 4000, aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19.",
+      "name": "/Artikel2/Lid1/Onderdeelb",
+      "parent": "https://calculemus.org/075d4bec-20fa-4778-9e81-0b57f362b186",
+      "structuralIndex": {
+        "iri": "1c418f87-0940-430b-8cbf-f3a1ed613a77",
+        "name": "Artikel2/Lid1/Onderdeelb",
+        "number": "b",
+        "value": "Onderdeelb",
+        "parent": {
+          "iri": "dba08eb5-2eb7-4a23-8937-ab5b2093b146",
+          "name": "Artikel2/Lid1",
+          "number": "1",
+          "value": "Lid1",
+          "parent": {
+            "iri": "9f79e7fb-0d1d-498a-bbc8-581265d61adf",
+            "name": "Artikel2",
+            "number": "2",
+            "value": "Artikel2",
+            "@type": "StructuralIndex"
+          },
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/9999867f-e93b-4c65-b603-df3fa5e57fb1",
+      "text": "waar ten hoogste 250 personen werkzaam zijn, blijkend uit de inschrijving in het handelsregister op 15maart 2020; en",
+      "name": "/Artikel1/Onderdeel_2/Onderdeelb",
+      "parent": "https://calculemus.org/38f154ca-1d27-4b17-934a-6f18b6059ec7",
+      "next": "https://calculemus.org/48c401d1-3b71-4349-9a64-df6f80ed8f90",
+      "structuralIndex": {
+        "iri": "512db9f9-f330-4795-a714-165aa101c9c4",
+        "name": "Artikel1/Onderdeel_2/Onderdeelb",
+        "number": "b",
+        "value": "Onderdeelb",
+        "parent": {
+          "iri": "b3aabc42-72ad-4f5a-a571-165b7165eb11",
+          "name": "Artikel1/Onderdeel_2",
+          "number": "2",
+          "value": "Onderdeel_2",
+          "parent": {
+            "iri": "c771fef6-c913-47bd-9600-66a125d978b6",
+            "name": "Artikel1",
+            "number": "1",
+            "value": "Artikel1",
+            "@type": "StructuralIndex"
+          },
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/cef66136-b8df-4016-986b-bd8c4e34394b",
+      "text": "gegevens over de contactpersoon bij de gedupeerde onderneming, waaronder de naam, het telefoonnummer en het e-mailadres;",
+      "name": "/Artikel4/Lid2/Onderdeelb",
+      "parent": "https://calculemus.org/01d1c764-832f-4795-b4bc-ee1d34d4063c",
+      "next": "https://calculemus.org/c8dd71fe-73a4-42a0-8508-83f0e7403194",
+      "structuralIndex": {
+        "iri": "38b82072-9a68-4e82-9f17-4012690c8400",
+        "name": "Artikel4/Lid2/Onderdeelb",
+        "number": "b",
+        "value": "Onderdeelb",
+        "parent": {
+          "iri": "109a7c52-b19e-4aca-a5e0-dd1252d34c0d",
+          "name": "Artikel4/Lid2",
+          "number": "2",
+          "value": "Lid2",
+          "parent": {
+            "iri": "c3f366c0-dbb2-4728-9fa4-bac415644a11",
+            "name": "Artikel4",
+            "number": "4",
+            "value": "Artikel4",
+            "@type": "StructuralIndex"
+          },
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/2b2800d1-43fb-4919-9541-3b8101ea3df7",
+      "text": "die:",
+      "name": "/Artikel1/Onderdeel_2/Onderdeelc_TXT",
+      "parent": "https://calculemus.org/48c401d1-3b71-4349-9a64-df6f80ed8f90",
+      "next": "https://calculemus.org/3c4c7155-d1a6-42ec-a48c-c6314e3df436",
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/929c138a-e8d1-4812-91e3-3825382ecb28",
+      "text": "onderneming die op 15maart 2020 stond ingeschreven in het handelsregister onder de code 56.10.1, 56.10.2 of 56.30 van de Standaard Bedrijfsindeling;horecaonderneming:",
+      "name": "/Artikel1/Onderdeel_4",
+      "parent": "https://calculemus.org/c37e0f7b-650e-4b8a-8104-5c69cab6a8e2",
+      "next": "https://calculemus.org/b9979b4d-e165-4807-bc29-37e308afe888",
+      "structuralIndex": {
+        "iri": "7e4acfb6-e49b-4ad2-a229-72a244145b4a",
+        "name": "Artikel1/Onderdeel_4",
+        "number": "4",
+        "value": "Onderdeel_4",
+        "parent": {
+          "iri": "c771fef6-c913-47bd-9600-66a125d978b6",
+          "name": "Artikel1",
+          "number": "1",
+          "value": "Artikel1",
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/a367a4f6-bb06-4677-981f-bb17f13fff76",
+      "text": "de tegemoetkoming niet verstrekt kan worden op grond van de algemene de-minimisverordening.",
+      "name": "/Artikel3/Onderdeelc",
+      "parent": "https://calculemus.org/d1715036-ad5b-47d5-9147-1c1a0f735cff",
+      "structuralIndex": {
+        "iri": "eff6a632-8ee4-479f-8d83-53eee7a9dc18",
+        "name": "Artikel3/Onderdeelc",
+        "number": "c",
+        "value": "Onderdeelc",
+        "parent": {
+          "iri": "1e7a1ff0-55e9-4266-babf-7e6cc15ce399",
+          "name": "Artikel3",
+          "number": "3",
+          "value": "Artikel3",
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/6f1fa375-b09d-475f-98e4-b9c81bc319c7",
+      "text": "Een aanvraag kan worden ingediend in de periode van 27maart 2020 tot en met 26juni 2020.",
+      "name": "/Artikel4/Lid3",
+      "parent": "https://calculemus.org/0bd4707c-ed77-4b26-8e32-49e0e27210d0",
+      "next": "https://calculemus.org/6a78c682-60c9-41aa-b48d-74279a23d6bf",
+      "structuralIndex": {
+        "iri": "6f5f8bd9-c8fc-4f15-985b-7e736760b944",
+        "name": "Artikel4/Lid3",
+        "number": "3",
+        "value": "Lid3",
+        "parent": {
+          "iri": "c3f366c0-dbb2-4728-9fa4-bac415644a11",
+          "name": "Artikel4",
+          "number": "4",
+          "value": "Artikel4",
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/51aa5052-3508-498f-b040-f52d745ff67d",
+      "text": "overheidsbedrijf als bedoeld in ;artikel 25g, eerste lid, van de Mededingingswetoverheidsbedrijf:",
+      "name": "/Artikel1/Onderdeel_6",
+      "parent": "https://calculemus.org/c37e0f7b-650e-4b8a-8104-5c69cab6a8e2",
+      "next": "https://calculemus.org/9b273dd6-bc52-4317-a779-e5a9e3a0f9f3",
+      "structuralIndex": {
+        "iri": "44ca550d-b83c-4d55-82b5-b7f916dc8651",
+        "name": "Artikel1/Onderdeel_6",
+        "number": "6",
+        "value": "Onderdeel_6",
+        "parent": {
+          "iri": "c771fef6-c913-47bd-9600-66a125d978b6",
+          "name": "Artikel1",
+          "number": "1",
+          "value": "Artikel1",
+          "@type": "StructuralIndex"
+        },
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/3c4c7155-d1a6-42ec-a48c-c6314e3df436",
+      "text": "",
+      "name": "/Artikel1/Onderdeel_2/Onderdeelc_CC",
+      "parent": "https://calculemus.org/48c401d1-3b71-4349-9a64-df6f80ed8f90",
+      "textnodeType": "SubList",
+      "structureCategory": "",
+      "@type": "TextNode"
+    },
+    {
+      "iri": "https://calculemus.org/fdf3a33f-5a61-49fd-b9e7-9b88aa5d84b7",
+      "text": "De minister kan de hoogte van de tegemoetkoming binnen vijf jaar na de verstrekking herzien dan wel de beschikking tot de tegemoetkoming intrekken, indien blijkt dat de tegemoetkoming, door onjuiste gegevensverstrekking door de gedupeerde onderneming, niet in overeenstemming met deze beleidsregel is verstrekt.",
+      "name": "/Artikel6",
+      "next": "https://calculemus.org/6b938c2d-6cfc-4265-8373-8f954ecb466f",
+      "structuralIndex": {
+        "iri": "597996d3-fa65-428e-9ca1-8e17c48bfe19",
+        "name": "Artikel6",
+        "number": "6",
+        "value": "Artikel6",
+        "@type": "StructuralIndex"
+      },
+      "textnodeType": "SimpleLine",
+      "structureCategory": "",
+      "@type": "TextNode"
+    }
+  ],
+  "redirects": {}
+}
