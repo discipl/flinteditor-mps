@@ -2,7 +2,7 @@
 <model ref="r:24d66bc9-227a-447b-947a-855ad292ec9a(Flint.test.flintmodelinput)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="6" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="7" />
   </languages>
   <imports />
   <registry>
@@ -44,10 +44,11 @@
       </concept>
       <concept id="7816114204006345028" name="Flint.structure.CustomText" flags="ng" index="2hPCcK" />
       <concept id="9029403747833789403" name="Flint.structure.Act" flags="ng" index="mu5$5">
-        <property id="6366956576594804508" name="action" index="207Gpp" />
+        <property id="6366956576594804508" name="old_action" index="207Gpp" />
         <child id="9029403747833803225" name="terminate" index="mu1c7" />
         <child id="9029403747833803217" name="create" index="mu1cf" />
         <child id="9029403747833797790" name="preconditions" index="mu3T0" />
+        <child id="591807039346570203" name="action" index="3FTnq6" />
         <child id="6205025464253204623" name="object" index="3H36l7" />
         <child id="6205025464253204638" name="recipient" index="3H36lm" />
         <child id="6205025464253204596" name="actor" index="3H36mW" />
@@ -223,6 +224,9 @@
     <node concept="1FQA6B" id="74VLc6kV4H9" role="mu1cf">
       <ref role="1FQA6$" node="74VLc6kV4GM" resolve="CreateFact" />
     </node>
+    <node concept="1FQA6B" id="1cG4R6OVqx5" role="3FTnq6">
+      <ref role="1FQA6$" node="74VLc6kV4GB" resolve="Fact1" />
+    </node>
   </node>
   <node concept="2cz0EU" id="74VLc6kV4H8">
     <property role="TrG5h" value="duty2" />
@@ -246,6 +250,9 @@
     </node>
     <node concept="1FQA6B" id="74VLc6kV4Hg" role="3H36lm">
       <ref role="1FQA6$" node="74VLc6kV4GB" resolve="Fact1" />
+    </node>
+    <node concept="1FQA6B" id="1cG4R6OVqga" role="3FTnq6">
+      <ref role="1FQA6$" node="74VLc6kV4GJ" resolve="Fact2" />
     </node>
   </node>
   <node concept="2cz0EU" id="74VLc6kV4Hi">

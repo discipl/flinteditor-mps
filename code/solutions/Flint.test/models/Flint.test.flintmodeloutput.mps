@@ -58,7 +58,7 @@
             <node concept="3YX88e" id="74VLc6kV5oZ" role="3YX86K">
               <property role="TrG5h" value="action" />
               <node concept="3YX86M" id="74VLc6kV5p0" role="3YX8ah">
-                <property role="3YX86R" value="Action1" />
+                <property role="3YX86R" value="[Fact1]" />
               </node>
             </node>
             <node concept="3YX88e" id="74VLc6kV5p1" role="3YX86K">
@@ -269,7 +269,7 @@
             <node concept="3YX88e" id="74VLc6kV5pW" role="3YX86K">
               <property role="TrG5h" value="action" />
               <node concept="3YX86M" id="74VLc6kV5pX" role="3YX8ah">
-                <property role="3YX86R" value="Action2" />
+                <property role="3YX86R" value="[Fact2]" />
               </node>
             </node>
             <node concept="3YX88e" id="74VLc6kV5pY" role="3YX86K">
@@ -1019,7 +1019,7 @@
           <node concept="3YX88e" id="74VLc6kXbsU" role="3YX86K">
             <property role="TrG5h" value="action" />
             <node concept="3YX86M" id="74VLc6kXbsV" role="3YX8ah">
-              <property role="3YX86R" value="Action1" />
+              <property role="3YX86R" value="[Fact1]" />
             </node>
           </node>
           <node concept="3YX88e" id="74VLc6kXbsW" role="3YX86K">
@@ -1239,7 +1239,7 @@
           <node concept="3YX88e" id="74VLc6kXbvQ" role="3YX86K">
             <property role="TrG5h" value="action" />
             <node concept="3YX86M" id="74VLc6kXbvR" role="3YX8ah">
-              <property role="3YX86R" value="Action2" />
+              <property role="3YX86R" value="[Fact2]" />
             </node>
           </node>
           <node concept="3YX88e" id="74VLc6kXbvS" role="3YX86K">
