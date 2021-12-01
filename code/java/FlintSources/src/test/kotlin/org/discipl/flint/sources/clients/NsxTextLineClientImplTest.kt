@@ -184,6 +184,11 @@ internal class AsyncTextLineClientImplTest {
         )
 
         assertEquals(1499, results.size)
+
+        val article5Lid1 = results.first { it.text == "Persoonsgegevens moeten:" }
+        assertEquals(article5Lid1.id, "https://calculemus.org/36161099-6dfb-4f27-88d3-d8bd235da75c")
+        println(article5Lid1)
+
         val textLine = results[1415]
         assertEquals(
             "Verwerking en vrijheid van meningsuiting en van informatie",
