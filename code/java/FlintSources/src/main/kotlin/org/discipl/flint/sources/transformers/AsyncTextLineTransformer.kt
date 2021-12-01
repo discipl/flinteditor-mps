@@ -116,10 +116,15 @@ class AsyncTextLineTransformer {
 
     fun toArticleList(textLines: List<AsyncTextLine>): List<Article> {
         val looseNodes = textLines.filter { it.getParent(textLines) == null }
-        val topNode = toNodeWithLose(firstLooseSibling(looseNodes)!!, looseNodes.toMutableList(), textLines.toMutableList())
+        val topNode =
+            toNodeWithLose(firstLooseSibling(looseNodes)!!, looseNodes.toMutableList(), textLines.toMutableList())
         val sortedTextLines = topNode.iterator().asSequence().toList().map { it.value }
         fun toPartAndAddChildren(asyncTextLine: AsyncTextLine, regelNr: Int): Part {
             val part: Part = asyncTextLine.toPart(sortedTextLines, regelNr)
+            if (part is IHasParts && asyncTextLine.text.isNotBlank()) {
+                val text = if (asyncTextLine.teken.isNullOrBlank() || part is Article) asyncTextLine.toSimpleLine(regelNr) else asyncTextLine.toSymbolLine(regelNr)
+                part.addPart(text)
+            }
             if (part is Article) {
                 part.addPart(
                     UnspecifiedArticleTitle(
@@ -128,9 +133,6 @@ class AsyncTextLineTransformer {
                         asyncTextLine.structure.replace("/", " ").trim()
                     )
                 )
-                if (asyncTextLine.text.isNotBlank()) {
-                    part.addPart(asyncTextLine.toSimpleLine(regelNr))
-                }
             }
             if (part is IHasParts) {
                 asyncTextLine.getChildren(sortedTextLines).map { toPartAndAddChildren(it, regelNr) }
@@ -139,7 +141,9 @@ class AsyncTextLineTransformer {
             return part
         }
 
-        return sortedTextLines.filter { isArticle(it) }.sortedBy { it.number?.toIntOrNull() ?: sortedTextLines.indexOf(it) }.map { toPartAndAddChildren(it, it.number?.toIntOrNull() ?: sortedTextLines.indexOf(it)) }
+        return sortedTextLines.filter { isArticle(it) }
+            .sortedBy { it.number?.toIntOrNull() ?: sortedTextLines.indexOf(it) }
+            .map { toPartAndAddChildren(it, it.number?.toIntOrNull() ?: sortedTextLines.indexOf(it)) }
             .filterIsInstance<Article>()
     }
 }

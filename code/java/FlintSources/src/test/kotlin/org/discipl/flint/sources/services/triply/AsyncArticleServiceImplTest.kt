@@ -1,9 +1,8 @@
 package org.discipl.flint.sources.services.triply
 
+import org.discipl.flint.sources.clients.TextLine
 import org.discipl.flint.sources.di.*
-import org.discipl.flint.sources.models.SimpleLine
-import org.discipl.flint.sources.models.SubList
-import org.discipl.flint.sources.models.SymbolLine
+import org.discipl.flint.sources.models.*
 import org.discipl.flint.sources.services.AsyncArticleService
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
@@ -200,6 +199,9 @@ internal class AsyncArticleServiceImplTest {
 
         assertNotNull(articles)
         assertEquals(99, articles.size)
+
+        testArticle5Lid1(articles)
+
         val article1 = articles[0]
         assertEquals("Artikel 1", article1.name)
         assertEquals(1, article1.articleTextParts.size)
@@ -215,5 +217,29 @@ internal class AsyncArticleServiceImplTest {
             "Bij deze verordening worden regels vastgesteld betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van persoonsgegevens.",
             symbolLine.text
         )
+    }
+
+    private fun testArticle5Lid1(articles: List<Article>) {
+        val article5 = articles.firstOrNull { it.name == "Artikel 5" }
+        assertNotNull(article5)
+        article5!!
+
+        val sublist =
+            article5.articleTextParts.filterIsInstance<SubList>().firstOrNull { it.id == "https://calculemus.org/f4a81a5c-5a94-4b38-afef-fed27b6200d0" }
+        assertNotNull(sublist)
+        sublist!!
+
+
+        val sublist2 =
+            sublist.parts.filterIsInstance<SubList>().firstOrNull { it.id == "https://calculemus.org/36161099-6dfb-4f27-88d3-d8bd235da75c" }
+        assertNotNull(sublist2)
+        sublist2!!
+
+        val artikel5Lid1 =
+            sublist2.parts.firstOrNull { it.id == "https://calculemus.org/36161099-6dfb-4f27-88d3-d8bd235da75c" }
+        assertTrue(artikel5Lid1 is SymbolLine)
+        val symbolLine = artikel5Lid1 as SymbolLine
+        assertEquals("Persoonsgegevens moeten:", symbolLine.text)
+        assertEquals("1.", symbolLine.symbol)
     }
 }
