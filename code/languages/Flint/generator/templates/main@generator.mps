@@ -986,25 +986,17 @@
       </node>
       <node concept="3YX88e" id="6qUJKUPgYU3" role="3YX86K">
         <property role="TrG5h" value="action" />
-        <node concept="3YX86M" id="5xrYknoi6u_" role="3YX8ah">
-          <node concept="17Uvod" id="5xrYknoi6uC" role="lGtFl">
-            <property role="2qtEX9" value="value" />
-            <property role="P4ACc" value="b5c0bb04-c583-4b2a-a66e-1eab92d33c68/4342692121161029323/4342692121161029326" />
-            <node concept="3zFVjK" id="5xrYknoi6uF" role="3zH0cK">
-              <node concept="3clFbS" id="5xrYknoi6uG" role="2VODD2">
-                <node concept="3clFbF" id="5xrYknoi6$f" role="3cqZAp">
-                  <node concept="2YIFZM" id="5xrYknoi6_4" role="3clFbG">
-                    <ref role="37wK5l" to="91gc:2gsSwmKTVTw" resolve="jsonSafeString" />
-                    <ref role="1Pybhc" to="91gc:2gsSwmLhR5x" resolve="JSONUtils" />
-                    <node concept="2OqwBi" id="5xrYknoi6uH" role="37wK5m">
-                      <node concept="3TrcHB" id="5xrYknoi6uK" role="2OqNvi">
-                        <ref role="3TsBF5" to="lnwe:5xrYknohjWs" resolve="action" />
-                      </node>
-                      <node concept="30H73N" id="5xrYknoi6uL" role="2Oq$k0" />
-                    </node>
-                  </node>
-                </node>
+        <node concept="3YX86M" id="wQxlRzP6rf" role="3YX8ah">
+          <node concept="5jKBG" id="wQxlRzP6rg" role="lGtFl">
+            <ref role="v9R2y" node="6qUJKUPmK6_" resolve="reduce_reference_nullable_Node" />
+            <node concept="2OqwBi" id="wQxlRzP6rh" role="v9R3O">
+              <node concept="30H73N" id="wQxlRzP6ri" role="2Oq$k0" />
+              <node concept="3TrEf2" id="wQxlRzPapf" role="2OqNvi">
+                <ref role="3Tt5mk" to="lnwe:wQxlRzOZfr" resolve="action" />
               </node>
+            </node>
+            <node concept="Xl_RD" id="wQxlRzP6rk" role="v9R3O">
+              <property role="Xl_RC" value="[]" />
             </node>
           </node>
         </node>
