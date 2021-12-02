@@ -1,6 +1,5 @@
 package org.discipl.flint.sources.clients
 
-import org.discipl.flint.sources.ParserClient
 import org.discipl.flint.sources.di.*
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test

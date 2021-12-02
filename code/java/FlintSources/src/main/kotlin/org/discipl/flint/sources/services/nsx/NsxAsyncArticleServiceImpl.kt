@@ -16,8 +16,8 @@ class NsxAsyncArticleServiceImpl(
        return textLineClient.requestParsing(publicationId, parserId, versionId)
     }
 
-    override fun requestArticlesForCsv(csv: Path): UUID {
-        return textLineClient.requestParsing(csv)
+    override fun requestArticlesForCsv(csv: Path, documentStructure: String): UUID {
+        return textLineClient.requestParsing(csv, documentStructure)
     }
 
     override fun getRequestStatusForArticlesForVersionId(

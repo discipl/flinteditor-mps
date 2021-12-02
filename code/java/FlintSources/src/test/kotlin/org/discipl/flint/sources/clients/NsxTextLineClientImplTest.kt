@@ -143,7 +143,7 @@ internal class AsyncTextLineClientImplTest {
         val csv = getTestFilePath("gdpr_2021102325.csv")
 
         val requestId = isFakeHttpReturn { UUID.fromString("2985ac91-54fe-4aeb-b491-94a16d7fd87b") }
-            ?: textLineClient.requestParsing(csv)
+            ?: textLineClient.requestParsing(csv, "EUR-LEX")
 
         mockRequestResult = MockRequestResult(
             csvResult,

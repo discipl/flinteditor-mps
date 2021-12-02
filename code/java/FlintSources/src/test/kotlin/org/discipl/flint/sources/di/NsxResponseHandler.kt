@@ -30,12 +30,16 @@ private fun isQueryCase(request: HttpRequestData): Boolean =
 private fun isPublicatieParsingsCase(request: HttpRequestData): Boolean =
     request.url.encodedPath == "/calculemus/calculemusComp/v1/publicatieparsers"
 
+private fun isDocumentStructuresCase(request: HttpRequestData): Boolean =
+    request.url.encodedPath == "/calculemus/calculemusComp/v1/documentstructures"
+
 val nsxResponseHandler: MockRequestHandler = { request ->
     val result: HttpResponseData? = when {
         isQueryCase(request) -> queryRequestCase(request)
         isStatusCase(request) -> statusRequestCase(request)
         isResultCaseCase(request) -> resultRequestCase(request)
         isPublicatieParsingsCase(request) -> publicatieParsersCase(request)
+        isDocumentStructuresCase(request) -> documentStructuresCase(request)
         else -> null
     }
     result ?: throw NotImplementedError("No response implemented for path ${request.url.encodedPath}\n$request ")
@@ -67,7 +71,8 @@ private fun getResourceAsString(fileName: String): String {
 
 fun getTestFilePath(fileName: String): Path {
     return Path.of(
-        TestSourceLoader::class.java.getResource("/$fileName")?.toURI() ?: throw Exception("Resource $fileName not found")
+        TestSourceLoader::class.java.getResource("/$fileName")?.toURI()
+            ?: throw Exception("Resource $fileName not found")
     )
 }
 
@@ -153,6 +158,15 @@ fun MockRequestHandleScope.publicatieParsersCase(request: HttpRequestData): Http
         headersOf(HttpHeaders.ContentType to listOf("application/json"))
     )
 }
+
+fun MockRequestHandleScope.documentStructuresCase(request: HttpRequestData): HttpResponseData {
+    return respond(
+        getResourceAsString("documentstructures.json"),
+        HttpStatusCode.OK,
+        headersOf(HttpHeaders.ContentType to listOf("application/json"))
+    )
+}
+
 
 data class MockRequestResult(
     val result: String,

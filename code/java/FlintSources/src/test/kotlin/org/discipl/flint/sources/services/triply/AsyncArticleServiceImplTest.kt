@@ -157,7 +157,7 @@ internal class AsyncArticleServiceImplTest {
         val csv = getTestFilePath("gdpr_2021102325.csv")
 
         val requestId = isFakeHttpReturn { UUID.fromString("02285010-ff56-11eb-9a03-0242ac130003") }
-            ?: service.requestArticlesForCsv(csv)
+            ?: service.requestArticlesForCsv(csv, "EUR-LEX")
 
         mockRequestResult = MockRequestResult(
             csvResult,
