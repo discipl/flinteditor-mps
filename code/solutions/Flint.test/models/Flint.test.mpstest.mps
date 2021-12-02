@@ -1063,6 +1063,20 @@
         </node>
         <node concept="cu0$f" id="6rq68Pz$OMp" role="3_ImGK">
           <property role="TrG5h" value="text" />
+          <node concept="cog_b" id="b2m5p4v4PK" role="2pmM46">
+            <ref role="cog$q" node="28ttwYheEcg" resolve="Source1" />
+            <node concept="2hPCcK" id="b2m5p4v4PL" role="2hN6Sa">
+              <node concept="19SUe$" id="b2m5p4v4PM" role="19SJt6">
+                <property role="19SUeA" value="Test " />
+              </node>
+              <node concept="19SUe$" id="b2m5p4vwRt" role="19SJt6">
+                <property role="19SUeA" value="text" />
+              </node>
+              <node concept="19SUe$" id="b2m5p4vwRW" role="19SJt6">
+                <property role="19SUeA" value=" is here" />
+              </node>
+            </node>
+          </node>
         </node>
         <node concept="cog_a" id="28ttwYheEcg" role="3_ImGG">
           <property role="TrG5h" value="Source1" />
