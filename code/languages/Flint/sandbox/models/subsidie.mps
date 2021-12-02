@@ -2,7 +2,7 @@
 <model ref="r:9552c217-62e0-4fe8-b79a-8ba546d6e79e(subsidie)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="6" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="7" />
   </languages>
   <imports />
   <registry>
@@ -44,8 +44,9 @@
       </concept>
       <concept id="7816114204006345028" name="Flint.structure.CustomText" flags="ng" index="2hPCcK" />
       <concept id="9029403747833789403" name="Flint.structure.Act" flags="ng" index="mu5$5">
-        <property id="6366956576594804508" name="action" index="207Gpp" />
+        <property id="6366956576594804508" name="old_action" index="207Gpp" />
         <child id="9029403747833797790" name="preconditions" index="mu3T0" />
+        <child id="591807039346570203" name="action" index="3FTnq6" />
         <child id="6205025464253204623" name="object" index="3H36l7" />
         <child id="6205025464253204638" name="recipient" index="3H36lm" />
         <child id="6205025464253204596" name="actor" index="3H36mW" />
@@ -211,6 +212,9 @@
     <node concept="1FQA6B" id="l30HV33nMp" role="3H36lm">
       <ref role="1FQA6$" node="l30HV33nM9" resolve="ambtenaar" />
     </node>
+    <node concept="1FQA6B" id="4VrbcpCY26_" role="3FTnq6">
+      <ref role="1FQA6$" node="4VrbcpCY26A" resolve="aanvragen" />
+    </node>
   </node>
   <node concept="mu5$5" id="l30HV33nMq">
     <property role="TrG5h" value="subsidie aanvraag toekennen" />
@@ -305,6 +309,9 @@
         </node>
       </node>
     </node>
+    <node concept="1FQA6B" id="4VrbcpCY26M" role="3FTnq6">
+      <ref role="1FQA6$" node="4VrbcpCY26N" resolve="toekennen" />
+    </node>
   </node>
   <node concept="mu5$5" id="l30HV33nMA">
     <property role="TrG5h" value="subsidie intrekken" />
@@ -318,6 +325,9 @@
     </node>
     <node concept="1FQA6B" id="l30HV33nMG" role="3H36lm">
       <ref role="1FQA6$" node="l30HV33nM9" resolve="ambtenaar" />
+    </node>
+    <node concept="1FQA6B" id="4VrbcpCY26Z" role="3FTnq6">
+      <ref role="1FQA6$" node="4VrbcpCY270" resolve="intrekken" />
     </node>
   </node>
   <node concept="mu5$5" id="l30HV33nMH">
@@ -378,6 +388,9 @@
         </node>
       </node>
     </node>
+    <node concept="1FQA6B" id="4VrbcpCY27c" role="3FTnq6">
+      <ref role="1FQA6$" node="4VrbcpCY27d" resolve="afwijzen" />
+    </node>
   </node>
   <node concept="cu0$2" id="l30HV33nMT">
     <property role="TrG5h" value="Subsidie" />
@@ -424,6 +437,22 @@
   <node concept="cog_a" id="4AIlyP2$YN3">
     <property role="3GE5qa" value="sources" />
     <property role="TrG5h" value="Source3" />
+  </node>
+  <node concept="cu0$f" id="4VrbcpCY26A">
+    <property role="TrG5h" value="aanvragen" />
+    <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="cu0$f" id="4VrbcpCY26N">
+    <property role="TrG5h" value="toekennen" />
+    <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="cu0$f" id="4VrbcpCY270">
+    <property role="TrG5h" value="intrekken" />
+    <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="cu0$f" id="4VrbcpCY27d">
+    <property role="TrG5h" value="afwijzen" />
+    <property role="3GE5qa" value="facts" />
   </node>
 </model>
 

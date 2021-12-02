@@ -2,7 +2,7 @@
 <model ref="r:dc268d73-e96e-4a6a-a577-7ee51a77ca77(Vreemdelingenwet)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="6" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="7" />
   </languages>
   <imports />
   <registry>
@@ -44,10 +44,11 @@
       </concept>
       <concept id="7816114204006345028" name="Flint.structure.CustomText" flags="ng" index="2hPCcK" />
       <concept id="9029403747833789403" name="Flint.structure.Act" flags="ng" index="mu5$5">
-        <property id="6366956576594804508" name="action" index="207Gpp" />
+        <property id="6366956576594804508" name="old_action" index="207Gpp" />
         <child id="9029403747833803225" name="terminate" index="mu1c7" />
         <child id="9029403747833803217" name="create" index="mu1cf" />
         <child id="9029403747833797790" name="preconditions" index="mu3T0" />
+        <child id="591807039346570203" name="action" index="3FTnq6" />
         <child id="6205025464253204623" name="object" index="3H36l7" />
         <child id="6205025464253204638" name="recipient" index="3H36lm" />
         <child id="6205025464253204596" name="actor" index="3H36mW" />
@@ -2342,6 +2343,9 @@
     <node concept="1FQA6B" id="13qOoT8Bfnq" role="mu1cf">
       <ref role="1FQA6$" node="13qOoT8BfcY" resolve="besluit tot inwilligen aanvraag tot verlenen machtiging tot voorlopig verblijf" />
     </node>
+    <node concept="1FQA6B" id="4VrbcpCY23J" role="3FTnq6">
+      <ref role="1FQA6$" node="4VrbcpCY23K" resolve="inwilligen" />
+    </node>
   </node>
   <node concept="mu5$5" id="13qOoT8Bfnr">
     <property role="TrG5h" value="afwijzen aanvraag tot het verlenen van een vvr-bep" />
@@ -2446,6 +2450,9 @@
     <node concept="1FQA6B" id="13qOoT8Bfo7" role="mu1cf">
       <ref role="1FQA6$" node="13qOoT8BfdK" resolve="besluit tot afwijzen aanvraag tot het verlenen van een vvr-bep" />
     </node>
+    <node concept="1FQA6B" id="4VrbcpCY23W" role="3FTnq6">
+      <ref role="1FQA6$" node="4VrbcpCY23X" resolve="afwijzen" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfnJ">
     <property role="TrG5h" value="belanghebbende beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
@@ -2537,6 +2544,9 @@
     </node>
     <node concept="2cz2WB" id="13qOoT8Bfov" role="mu1cf">
       <ref role="2cz2WA" node="13qOoT8Bfow" resolve="verschaffen vreemdeling document waaruit het rechtmatig verblijf blijkt" />
+    </node>
+    <node concept="1FQA6B" id="4VrbcpCY249" role="3FTnq6">
+      <ref role="1FQA6$" node="4VrbcpCY24a" resolve="inwilligen" />
     </node>
   </node>
   <node concept="2cz0EU" id="13qOoT8Bfos">
@@ -2632,6 +2642,25 @@
     <node concept="1FQA6B" id="13qOoT8BfoI" role="mu1cf">
       <ref role="1FQA6$" node="13qOoT8BfdU" resolve="besluit tot niet in behandeling nemen aanvraag tot het verlenen van een vvr-bep" />
     </node>
+    <node concept="1FQA6B" id="4VrbcpCY24m" role="3FTnq6">
+      <ref role="1FQA6$" node="4VrbcpCY24n" resolve="niet in behandeling nemen" />
+    </node>
+  </node>
+  <node concept="cu0$f" id="4VrbcpCY23K">
+    <property role="TrG5h" value="inwilligen" />
+    <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="cu0$f" id="4VrbcpCY23X">
+    <property role="TrG5h" value="afwijzen" />
+    <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="cu0$f" id="4VrbcpCY24a">
+    <property role="TrG5h" value="inwilligen" />
+    <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="cu0$f" id="4VrbcpCY24n">
+    <property role="TrG5h" value="niet in behandeling nemen" />
+    <property role="3GE5qa" value="facts" />
   </node>
 </model>
 
