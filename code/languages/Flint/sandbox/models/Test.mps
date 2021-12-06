@@ -2,7 +2,7 @@
 <model ref="r:6a404292-b01a-494e-ab06-c424caf266f6(Test)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="6" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="7" />
   </languages>
   <imports />
   <registry>
@@ -32,8 +32,9 @@
       </concept>
       <concept id="7816114204006345028" name="Flint.structure.CustomText" flags="ng" index="2hPCcK" />
       <concept id="9029403747833789403" name="Flint.structure.Act" flags="ng" index="mu5$5">
-        <property id="6366956576594804508" name="action" index="207Gpp" />
+        <property id="6366956576594804508" name="old_action" index="207Gpp" />
         <child id="9029403747833797790" name="preconditions" index="mu3T0" />
+        <child id="591807039346570203" name="action" index="3FTnq6" />
         <child id="6205025464253204623" name="object" index="3H36l7" />
         <child id="6205025464253204596" name="actor" index="3H36mW" />
       </concept>
@@ -147,6 +148,9 @@
         <property role="1zEXQP" value="true" />
       </node>
     </node>
+    <node concept="1FQA6B" id="4VrbcpCY21H" role="3FTnq6">
+      <ref role="1FQA6$" node="4VrbcpCY21I" resolve="afwijzen" />
+    </node>
   </node>
   <node concept="cu0$f" id="6u5qVtI13T5">
     <property role="TrG5h" value="de minister beslist op een aanvraag" />
@@ -172,6 +176,9 @@
       <node concept="1zEXQY" id="6u5qVtI13Tj" role="1zEXIt">
         <property role="1zEXQP" value="true" />
       </node>
+    </node>
+    <node concept="1FQA6B" id="4VrbcpCY21U" role="3FTnq6">
+      <ref role="1FQA6$" node="4VrbcpCY21V" resolve="indienen" />
     </node>
   </node>
   <node concept="cu0$f" id="6u5qVtI13Th">
@@ -199,6 +206,9 @@
         <property role="1zEXQP" value="true" />
       </node>
     </node>
+    <node concept="1FQA6B" id="4VrbcpCY227" role="3FTnq6">
+      <ref role="1FQA6$" node="4VrbcpCY228" resolve="indienen" />
+    </node>
   </node>
   <node concept="cu0$f" id="6u5qVtI13Tt">
     <property role="TrG5h" value="een aanvraag" />
@@ -224,6 +234,9 @@
       <node concept="1zEXQY" id="6u5qVtI13TF" role="1zEXIt">
         <property role="1zEXQP" value="true" />
       </node>
+    </node>
+    <node concept="1FQA6B" id="4VrbcpCY22k" role="3FTnq6">
+      <ref role="1FQA6$" node="4VrbcpCY22l" resolve="stellen" />
     </node>
   </node>
   <node concept="cu0$f" id="6u5qVtI13TD">
@@ -251,6 +264,9 @@
         <property role="1zEXQP" value="true" />
       </node>
     </node>
+    <node concept="1FQA6B" id="4VrbcpCY22x" role="3FTnq6">
+      <ref role="1FQA6$" node="4VrbcpCY22y" resolve="indienen" />
+    </node>
   </node>
   <node concept="cu0$f" id="6u5qVtI13TP">
     <property role="TrG5h" value="een aanvraag  worden ingediend in de periode van tot met" />
@@ -276,6 +292,9 @@
       <node concept="1zEXQY" id="6u5qVtI13U3" role="1zEXIt">
         <property role="1zEXQP" value="true" />
       </node>
+    </node>
+    <node concept="1FQA6B" id="4VrbcpCY22I" role="3FTnq6">
+      <ref role="1FQA6$" node="4VrbcpCY22J" resolve="stellen" />
     </node>
   </node>
   <node concept="cu0$f" id="6u5qVtI13U1">
@@ -303,6 +322,9 @@
         <property role="1zEXQP" value="true" />
       </node>
     </node>
+    <node concept="1FQA6B" id="4VrbcpCY22V" role="3FTnq6">
+      <ref role="1FQA6$" node="4VrbcpCY22W" resolve="nemen" />
+    </node>
   </node>
   <node concept="mu5$5" id="6u5qVtI13Uf">
     <property role="TrG5h" value="ontvangen voor zover het zorgonderneming bewijsstukken waaruit blijkt waar de verklaring bedoeld in op een kopie van de omzetgegevens uit de boekhouding van de aangifte van de omzetbelasting over 2019 of 2020 en een kopie van de stukken uit de boekhouding van waaruit blijkt wat de hoogte van de tegemoetkomingen die zorgonderneming" />
@@ -323,6 +345,9 @@
       <node concept="1zEXQY" id="6u5qVtI13Uq" role="1zEXIt">
         <property role="1zEXQP" value="true" />
       </node>
+    </node>
+    <node concept="1FQA6B" id="4VrbcpCY238" role="3FTnq6">
+      <ref role="1FQA6$" node="4VrbcpCY239" resolve="ontvangen" />
     </node>
   </node>
   <node concept="cu0$f" id="6u5qVtI13Uo">
@@ -352,6 +377,9 @@
       <node concept="1zEXQY" id="6u5qVtI13UC" role="1zEXIt">
         <property role="1zEXQP" value="true" />
       </node>
+    </node>
+    <node concept="1FQA6B" id="4VrbcpCY23l" role="3FTnq6">
+      <ref role="1FQA6$" node="4VrbcpCY23m" resolve="plaatsen" />
     </node>
   </node>
   <node concept="cu0$f" id="6u5qVtI13U$">
@@ -387,6 +415,9 @@
         <property role="1zEXQP" value="true" />
       </node>
     </node>
+    <node concept="1FQA6B" id="4VrbcpCY23y" role="3FTnq6">
+      <ref role="1FQA6$" node="4VrbcpCY23z" resolve="indienen" />
+    </node>
   </node>
   <node concept="cu0$f" id="6u5qVtI13UN">
     <property role="TrG5h" value="met ingang van met dien de beleidsregel van toepassing op aanvragen om tegemoetkoming die uiterlijk 26juni 2020 zijn dan wel op tegemoetkomingen die voor 1januari 2021 zijn verstrekt" />
@@ -416,6 +447,46 @@
   <node concept="cog_a" id="m$6eIWiHeX">
     <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
     <property role="3GE5qa" value="sources" />
+  </node>
+  <node concept="cu0$f" id="4VrbcpCY21I">
+    <property role="TrG5h" value="afwijzen" />
+    <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="cu0$f" id="4VrbcpCY21V">
+    <property role="TrG5h" value="indienen" />
+    <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="cu0$f" id="4VrbcpCY228">
+    <property role="TrG5h" value="indienen" />
+    <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="cu0$f" id="4VrbcpCY22l">
+    <property role="TrG5h" value="stellen" />
+    <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="cu0$f" id="4VrbcpCY22y">
+    <property role="TrG5h" value="indienen" />
+    <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="cu0$f" id="4VrbcpCY22J">
+    <property role="TrG5h" value="stellen" />
+    <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="cu0$f" id="4VrbcpCY22W">
+    <property role="TrG5h" value="nemen" />
+    <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="cu0$f" id="4VrbcpCY239">
+    <property role="TrG5h" value="ontvangen" />
+    <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="cu0$f" id="4VrbcpCY23m">
+    <property role="TrG5h" value="plaatsen" />
+    <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="cu0$f" id="4VrbcpCY23z">
+    <property role="TrG5h" value="indienen" />
+    <property role="3GE5qa" value="facts" />
   </node>
 </model>
 
