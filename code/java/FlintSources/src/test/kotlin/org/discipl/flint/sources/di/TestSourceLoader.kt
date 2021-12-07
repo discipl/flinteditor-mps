@@ -3,25 +3,16 @@ package org.discipl.flint.sources.di
 import com.github.paweladamski.httpclientmock.HttpClientMock
 import io.ktor.client.engine.mock.*
 import org.apache.http.client.HttpClient
-import org.apache.jena.sparql.vocabulary.DOAP.module
-import org.discipl.flint.sources.ParserClient
-import org.discipl.flint.sources.clients.AsyncTextLineClient
-import org.discipl.flint.sources.clients.SourceClient
-import org.discipl.flint.sources.clients.TextLineClient
-import org.discipl.flint.sources.clients.VersionClient
+import org.discipl.flint.sources.clients.*
 import org.discipl.flint.sources.hybrideServiceModule
-import org.discipl.flint.sources.nsxClientsModule
-import org.discipl.flint.sources.serviceModule
 import org.discipl.flint.sources.services.*
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject
 import org.koin.core.context.loadKoinModules
 import org.koin.core.context.startKoin
-import org.koin.core.qualifier.Qualifier
 import org.koin.core.qualifier.named
 import org.koin.dsl.module
 import java.util.concurrent.Callable
-import javax.net.ssl.SSLContext
 
 @Suppress("EXPERIMENTAL_API_USAGE", "EXPERIMENTAL_OVERRIDE")
 object TestSourceLoader : KoinComponent {
@@ -52,9 +43,11 @@ object TestSourceLoader : KoinComponent {
     val sourceService: SourceService by inject()
     val textLineService: TextLineService by inject()
     val versionService: VersionService by inject()
+    val documentStructureService: DocumentStructureService by inject()
 
     val sourceClient: SourceClient by inject()
     val parserClient: ParserClient by inject()
+    val documentStructureClient: DocumentStructureClient by inject()
     val textLineClient: TextLineClient by inject()
     val asyncTextLineClient: AsyncTextLineClient by inject()
     val versionClient: VersionClient by inject()

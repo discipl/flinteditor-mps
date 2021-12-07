@@ -5,7 +5,7 @@ import io.ktor.client.request.*
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withTimeout
-import org.discipl.flint.sources.ParserClient
+import org.discipl.flint.sources.clients.ParserClient
 import org.discipl.flint.sources.clients.ArticleTextLine
 import org.discipl.flint.sources.clients.TextLine
 import org.discipl.flint.sources.clients.TextLineClient

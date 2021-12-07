@@ -157,7 +157,7 @@ internal class AsyncArticleServiceImplTest {
         val csv = getTestFilePath("gdpr_2021102325.csv")
 
         val requestId = isFakeHttpReturn { UUID.fromString("02285010-ff56-11eb-9a03-0242ac130003") }
-            ?: service.requestArticlesForCsv(csv)
+            ?: service.requestArticlesForCsv(csv, "EUR-LEX")
 
         mockRequestResult = MockRequestResult(
             csvResult,
@@ -219,19 +219,87 @@ internal class AsyncArticleServiceImplTest {
         )
     }
 
+    @Test
+    fun getArticlesForCSVEN() {
+        val csv = getTestFilePath("gdpr_en-2021102325_nl_struct.csv")
+
+        val requestId = isFakeHttpReturn { UUID.fromString("02285010-ff56-11eb-9a03-0242ac130003") }
+            ?: service.requestArticlesForCsv(csv, "EUR-LEX-EN")
+
+        mockRequestResult = MockRequestResult(
+            csvResultEN,
+            UUID.randomUUID().toString(),
+            id = requestId
+        )
+
+        fun getStatus(): String {
+            return service.getRequestStatusForArticlesForVersionId(
+                requestId,
+                mockRequestResult.source,
+                mockRequestResult.parser,
+                mockRequestResult.version
+            )
+        }
+
+        if (isFakeHttp()) {
+            repeat(2) {
+                val status = getStatus()
+                assertNotEquals("Ready", status)
+            }
+        } else {
+            var status: String
+            do {
+                Thread.sleep(1000L)
+                status = getStatus()
+            } while (status != "Ready" && status != "ParserInvokerFailed")
+
+        }
+        val status = getStatus()
+        assertEquals("Ready", status)
+
+        val articles = service.getRequestResultForArticlesForVersionId(
+            requestId,
+            mockRequestResult.source,
+            mockRequestResult.parser,
+            mockRequestResult.version
+        )
+
+        assertNotNull(articles)
+        assertEquals(99, articles.size)
+
+        val article1 = articles[0]
+        article1.parts.forEach { println("part(${it.javaClass.simpleName}): $it") }
+        assertEquals("Article 1", article1.name)
+        assertEquals(1, article1.articleTextParts.size)
+        val line2 = article1.articleTextParts[0]
+        println(line2)
+        assertTrue(line2 is SubList)
+        val sublist = line2 as SubList
+        val sublistLine = sublist.parts[0]
+        assertTrue(sublistLine is SymbolLine)
+        val symbolLine = sublistLine as SymbolLine
+        assertEquals("1.", symbolLine.symbol)
+        assertEquals(
+            "This Regulation lays down rules relating to the protection of natural persons with regard to the processing of personal data and rules relating to the free movement of personal data.",
+            symbolLine.text
+        )
+    }
+
     private fun testArticle5Lid1(articles: List<Article>) {
         val article5 = articles.firstOrNull { it.name == "Artikel 5" }
         assertNotNull(article5)
         article5!!
 
         val sublist =
-            article5.articleTextParts.filterIsInstance<SubList>().firstOrNull { it.id == "https://calculemus.org/f4a81a5c-5a94-4b38-afef-fed27b6200d0" }
+            article5.articleTextParts.filterIsInstance<SubList>()
+                .firstOrNull { it.id == "https://calculemus.org/f4a81a5c-5a94-4b38-afef-fed27b6200d0" }
         assertNotNull(sublist)
         sublist!!
 
 
         val sublist2 =
-            sublist.parts.filterIsInstance<SubList>().firstOrNull { it.id == "https://calculemus.org/36161099-6dfb-4f27-88d3-d8bd235da75c" }
+            sublist.parts.filterIsInstance<SubList>()
+                .firstOrNull { it.id == "https://calculemus.org/36161099-6dfb-4f27-88d3-d8bd235da75c" }
         assertNotNull(sublist2)
         sublist2!!
 

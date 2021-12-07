@@ -5,7 +5,7 @@ import java.util.*
 
 interface AsyncTextLineClient {
     fun requestParsing(publicationId: UUID, parserId: UUID, versionId: String): UUID
-    fun requestParsing(csv: Path): UUID
+    fun requestParsing(csv: Path, documentStructure: String): UUID
     fun getParseRequestResults(
         parseRequestId: UUID,
         publicationId: UUID,

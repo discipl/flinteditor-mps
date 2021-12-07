@@ -20,6 +20,7 @@ import org.discipl.flint.sources.demo.DemoSourceServiceImpl
 import org.discipl.flint.sources.demo.DemoVersionServiceImpl
 import org.discipl.flint.sources.services.*
 import org.discipl.flint.sources.services.nsx.NsxAsyncArticleServiceImpl
+import org.discipl.flint.sources.services.nsx.NsxDocumentStructureServiceImpl
 import org.discipl.flint.sources.services.nsx.NsxParserServiceImpl
 import org.discipl.flint.sources.services.triply.ArticleServiceImpl
 import org.discipl.flint.sources.services.triply.SourceServiceImpl
@@ -35,7 +36,6 @@ import org.koin.core.context.loadKoinModules
 import org.koin.core.context.startKoin
 import org.koin.dsl.module
 import java.net.URL
-import java.util.concurrent.Callable
 import java.util.concurrent.TimeUnit
 import javax.net.ssl.SSLContext
 
@@ -99,6 +99,7 @@ internal val nsxClientsModule = module(override = true) {
     single<TextLineClient> { NsxTextLineClientImpl(get(), null, get()) }
     single<AsyncTextLineClient> { NsxAsyncTextLineClientImpl(get()) }
     single<ParserClient> { NsxParserClientImpl(get()) }
+    single<DocumentStructureClient> { NsxDocumentStructureClientImpl(get()) }
 }
 
 @Suppress("EXPERIMENTAL_API_USAGE")
@@ -155,6 +156,7 @@ internal val hybridClientModule = module(override = true) {
     single<TextLineClient> { NsxTextLineClientImpl(get(), TriplyTextLineClientImpl(get()), get()) }
     single<AsyncTextLineClient> { NsxAsyncTextLineClientImpl(get()) }
     single<ParserClient> { NsxParserClientImpl(get()) }
+    single<DocumentStructureClient> { NsxDocumentStructureClientImpl(get()) }
 }
 
 
@@ -164,6 +166,7 @@ internal val transformerModule = module {
     single { TextLineTransformer() }
     single { AsyncTextLineTransformer() }
     single { ParserTransformer() }
+    single { DocumentStructureTransformer() }
 }
 
 internal val triplyServiceModule = module {
@@ -183,6 +186,7 @@ internal val hybrideServiceModule = module {
     single<ArticleService> { ArticleServiceImpl(get(), get()) }
     single<AsyncArticleService> { NsxAsyncArticleServiceImpl(get(), get()) }
     single<ParserService> { NsxParserServiceImpl(get(), get()) }
+    single<DocumentStructureService> { NsxDocumentStructureServiceImpl(get(), get()) }
     single<TextLineService> { TextLineServiceImpl(get(), get()) }
 }
 
@@ -209,8 +213,8 @@ object SourceLoader : KoinComponent {
     val articleService: ArticleService by inject()
     val asyncArticleService: AsyncArticleService by inject()
     val parserService: ParserService by inject()
+    val documentStructureService: DocumentStructureService by inject()
     val sourceService: SourceService by inject()
     val versionService: VersionService by inject()
     val textLineService: TextLineService by inject()
-    val textLineClient: TextLineClient by inject()
 }

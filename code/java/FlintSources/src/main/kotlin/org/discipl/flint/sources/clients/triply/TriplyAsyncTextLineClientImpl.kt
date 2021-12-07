@@ -13,7 +13,7 @@ class TriplyAsyncTextLineClientImpl(private val textLineClient: TextLineClient) 
         return UUID.randomUUID()
     }
 
-    override fun requestParsing(csv: Path): UUID {
+    override fun requestParsing(csv: Path, documentStructure: String): UUID {
         TODO("Not yet implemented")
     }
 
@@ -23,7 +23,7 @@ class TriplyAsyncTextLineClientImpl(private val textLineClient: TextLineClient) 
         parserId: UUID,
         versionId: String
     ): List<AsyncTextLine> {
-        return textLineClient.getTextLineForVersionId(versionId).map {  AnAsyncTextLine(it) }
+        return textLineClient.getTextLineForVersionId(versionId).map { AnAsyncTextLine(it) }
     }
 
     override fun getParseRequestStatus(
@@ -37,7 +37,7 @@ class TriplyAsyncTextLineClientImpl(private val textLineClient: TextLineClient) 
 
     private class AnAsyncTextLine(textLine: TextLine) : AsyncTextLine {
         override val structure: String = textLine.structure
-        override val type : String? = null
+        override val type: String? = null
         override val teken: String? = textLine.teken
         override val bibliographicIdentifierString: String? = null
         override val text: String = textLine.text

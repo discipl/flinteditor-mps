@@ -116,8 +116,9 @@ class AsyncTextLineTransformer {
 
     fun toArticleList(textLines: List<AsyncTextLine>): List<Article> {
         val looseNodes = textLines.filter { it.getParent(textLines) == null }
+        val first = firstLooseSibling(looseNodes) ?: looseNodes.firstOrNull() ?: return emptyList()
         val topNode =
-            toNodeWithLose(firstLooseSibling(looseNodes)!!, looseNodes.toMutableList(), textLines.toMutableList())
+            toNodeWithLose(first, looseNodes.toMutableList(), textLines.toMutableList())
         val sortedTextLines = topNode.iterator().asSequence().toList().map { it.value }
         fun toPartAndAddChildren(asyncTextLine: AsyncTextLine, regelNr: Int): Part {
             val part: Part = asyncTextLine.toPart(sortedTextLines, regelNr)

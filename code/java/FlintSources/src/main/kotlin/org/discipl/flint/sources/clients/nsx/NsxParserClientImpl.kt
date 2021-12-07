@@ -1,10 +1,12 @@
-package org.discipl.flint.sources
+package org.discipl.flint.sources.clients.nsx
 
 import com.google.gson.annotations.SerializedName
 import io.ktor.client.*
 import io.ktor.client.request.*
 import kotlinx.coroutines.runBlocking
-import org.discipl.flint.sources.clients.nsx.NsxResult
+import org.discipl.flint.sources.clients.Parser
+import org.discipl.flint.sources.clients.ParserClient
+import org.discipl.flint.sources.clients.Source
 import java.util.*
 
 class NsxParserClientImpl(private val httpClient: HttpClient) : ParserClient {
