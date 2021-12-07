@@ -77,7 +77,7 @@
     <property role="30VgBo" value="create" />
     <property role="30VgBj" value="terminate" />
     <property role="30VgBF" value="duty-components" />
-    <property role="30VgBw" value="explanaition" />
+    <property role="30VgBw" value="explanation" />
     <property role="30VgBY" value="actor" />
     <property role="30Vna3" value="action" />
     <property role="30Vnav" value="object" />

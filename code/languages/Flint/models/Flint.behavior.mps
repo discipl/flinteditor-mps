@@ -22945,17 +22945,9 @@
     <node concept="13i0hz" id="7C_i1w7$yr0" role="13h7CS">
       <property role="13i0it" value="true" />
       <property role="TrG5h" value="getCellProviderForLanguage" />
-      <node concept="37vLTG" id="7C_i1w7$$HC" role="3clF46">
-        <property role="TrG5h" value="context" />
-        <node concept="3uibUv" id="7C_i1w7$$HD" role="1tU5fm">
-          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
-        </node>
-      </node>
       <node concept="37vLTG" id="7C_i1w7$$HE" role="3clF46">
         <property role="TrG5h" value="language" />
-        <node concept="3Tqbb2" id="7C_i1w7$$HF" role="1tU5fm">
-          <ref role="ehGHo" to="lnwe:wJ8RSAMhPl" resolve="IHasLanguage" />
-        </node>
+        <node concept="3Tqbb2" id="5Vjxe6HB2DC" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="7C_i1w7$$HG" role="3clF46">
         <property role="TrG5h" value="property" />
@@ -22972,9 +22964,6 @@
           <node concept="2ShNRf" id="7C_i1w7$yup" role="3clFbG">
             <node concept="1pGfFk" id="7C_i1w7$zrC" role="2ShVmc">
               <ref role="37wK5l" node="7C_i1w7$p9i" resolve="LanguageCellProvider" />
-              <node concept="37vLTw" id="7C_i1w7$$JS" role="37wK5m">
-                <ref role="3cqZAo" node="7C_i1w7$$HC" resolve="context" />
-              </node>
               <node concept="37vLTw" id="7C_i1w7$$Lb" role="37wK5m">
                 <ref role="3cqZAo" node="7C_i1w7$$HE" resolve="language" />
               </node>
@@ -23146,12 +23135,6 @@
               </node>
             </node>
           </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="7C_i1w7$pdi" role="3clF46">
-        <property role="TrG5h" value="context" />
-        <node concept="3uibUv" id="7C_i1w7$pdh" role="1tU5fm">
-          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
         </node>
       </node>
       <node concept="37vLTG" id="7C_i1w7$pf1" role="3clF46">
