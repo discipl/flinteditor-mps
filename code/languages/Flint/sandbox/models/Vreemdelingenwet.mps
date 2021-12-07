@@ -32,7 +32,8 @@
         <child id="6868897032739751036" name="function" index="coNO9" />
       </concept>
       <concept id="2444626260293387291" name="Flint.structure.Duty" flags="ng" index="2cz0EU">
-        <child id="898982168832817003" name="create" index="cMmjI" />
+        <child id="898982168832817003" name="oldCreate" index="cMmjI" />
+        <child id="1242048013199588270" name="enforce" index="1dwhYS" />
         <child id="6205025464253210169" name="claimant" index="3H37fL" />
         <child id="6205025464253210160" name="dutyHolder" index="3H37fS" />
       </concept>
@@ -77,6 +78,7 @@
       <concept id="6587498613242404529" name="Flint.structure.FactReference" flags="ng" index="1FQA6B">
         <reference id="6587498613242404530" name="fact" index="1FQA6$" />
       </concept>
+      <concept id="491685697582670580" name="Flint.structure.CREATE" flags="ng" index="1RnfdX" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -759,6 +761,7 @@
         </node>
       </node>
     </node>
+    <node concept="1RnfdX" id="14WD1ptGxWH" role="coNO9" />
   </node>
   <node concept="cu0$f" id="13qOoT8BfdU">
     <property role="TrG5h" value="besluit tot niet in behandeling nemen aanvraag tot het verlenen van een vvr-bep" />
@@ -2589,6 +2592,9 @@
     <node concept="1FQA6B" id="13qOoT8BfoO" role="3H37fS">
       <ref role="1FQA6$" node="13qOoT8BfcJ" resolve="Onze Minister van Justitie en Veiligheid" />
     </node>
+    <node concept="3jSua8" id="14WD1punaam" role="1dwhYS">
+      <ref role="3jSua9" node="13qOoT8Bfo8" resolve="inwilligen aanvraag tot het verlenen van een vvr-bep" />
+    </node>
   </node>
   <node concept="2cz0EU" id="13qOoT8Bfow">
     <property role="TrG5h" value="verschaffen vreemdeling document waaruit het rechtmatig verblijf blijkt" />
@@ -2661,6 +2667,22 @@
   <node concept="cu0$f" id="4VrbcpCY24n">
     <property role="TrG5h" value="niet in behandeling nemen" />
     <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="mu5$5" id="14WD1ptAoMm">
+    <property role="TrG5h" value="verblijfsvergunning" />
+    <property role="3GE5qa" value="acts" />
+    <node concept="1FQA6B" id="14WD1ptAoMn" role="3H36mW" />
+    <node concept="1FQA6B" id="14WD1ptAoMo" role="3H36l7" />
+    <node concept="1FQA6B" id="14WD1ptAoMp" role="3H36lm" />
+    <node concept="1FQA6B" id="14WD1ptAoMq" role="3FTnq6" />
+    <node concept="cog_b" id="14WD1ptAoMr" role="2pmM46">
+      <ref role="cog$q" node="13qOoT8BfcG" resolve="art. 14 lid 4 Vw (eerste zin) {vanaf 01-06-2013}; art. 14 lid 3 Vw (eerste zin) {van 01-04-2001 tor 01-06-2013}" />
+      <node concept="2hPCcK" id="14WD1ptAoMs" role="2hN6Sa">
+        <node concept="19SUe$" id="14WD1ptAoMt" role="19SJt6">
+          <property role="19SUeA" value="De verblijfsvergunning voor bepaalde tijd wordt verleend voor ten hoogste vijf achtereenvolgende jaren. " />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

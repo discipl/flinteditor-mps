@@ -3397,7 +3397,7 @@
                           <ref role="3cqZAo" node="63E5y3ToNUs" resolve="dutyNode" />
                         </node>
                         <node concept="3TrEf2" id="LTOSk12uuB" role="2OqNvi">
-                          <ref role="3Tt5mk" to="lnwe:LTOSk0GbtF" resolve="create" />
+                          <ref role="3Tt5mk" to="lnwe:LTOSk0GbtF" resolve="oldCreate" />
                         </node>
                       </node>
                       <node concept="1PxgMI" id="63E5y3TBo3D" role="37vLTx">
@@ -3428,7 +3428,7 @@
                           <ref role="3cqZAo" node="63E5y3ToNUs" resolve="dutyNode" />
                         </node>
                         <node concept="3TrEf2" id="LTOSk12wXL" role="2OqNvi">
-                          <ref role="3Tt5mk" to="lnwe:LTOSk0GbtT" resolve="terminate" />
+                          <ref role="3Tt5mk" to="lnwe:LTOSk0GbtT" resolve="oldTerminate" />
                         </node>
                       </node>
                       <node concept="1PxgMI" id="LTOSk12rH9" role="37vLTx">
