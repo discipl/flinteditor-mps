@@ -64,6 +64,10 @@ val csvResult by lazy {
     getResourceAsString("csvResponse.json")
 }
 
+val csvResultEN by lazy {
+    getResourceAsString("eur-lex-eng-csvrespose.json")
+}
+
 private fun getResourceAsString(fileName: String): String {
     return TestSourceLoader::class.java.getResource("/$fileName")?.readText()
         ?: throw Exception("Resource $fileName not found")
