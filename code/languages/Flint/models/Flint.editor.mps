@@ -2548,7 +2548,7 @@
                     <node concept="pncrf" id="7C_i1w7JC7m" role="37wK5m" />
                     <node concept="355D3s" id="7C_i1w7JC7n" role="37wK5m">
                       <ref role="355D3t" to="lnwe:2ACGKFDB3mq" resolve="Language" />
-                      <ref role="355D3u" to="lnwe:2ACGKFDhrFc" resolve="eClaimaint" />
+                      <ref role="355D3u" to="lnwe:2ACGKFDhrFc" resolve="eClaimant" />
                     </node>
                   </node>
                 </node>
@@ -6323,7 +6323,7 @@
               <property role="3F0ifm" value="Claimant:" />
             </node>
             <node concept="3F0A7n" id="3JnAoJLj$XI" role="3EZMnx">
-              <ref role="1NtTu8" to="lnwe:2ACGKFDhrFc" resolve="eClaimaint" />
+              <ref role="1NtTu8" to="lnwe:2ACGKFDhrFc" resolve="eClaimant" />
             </node>
             <node concept="l2Vlx" id="3JnAoJLjzjc" role="2iSdaV" />
           </node>
