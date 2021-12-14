@@ -12,7 +12,6 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="91gc" ref="r:57850d6b-985b-4a3f-af65-25f1fdeb3739(Flint.runtime.utils)" />
     <import index="3lmi" ref="r:a950900f-47ea-4287-adc8-88f839ab614a(Flint.behavior)" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tbr6" ref="r:6a005c26-87c0-43c4-8cf3-49ffba1099df(de.slisson.mps.richtext.behavior)" implicit="true" />
     <import index="87nw" ref="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
@@ -489,20 +488,14 @@
       <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
       <node concept="3zFVjK" id="7Lcb4cgyOzp" role="3zH0cK">
         <node concept="3clFbS" id="7Lcb4cgyOzq" role="2VODD2">
-          <node concept="3clFbF" id="7Lcb4cgyOzw" role="3cqZAp">
-            <node concept="3cpWs3" id="5HFvLoKS0Mt" role="3clFbG">
-              <node concept="Xl_RD" id="5HFvLoKS0Ts" role="3uHU7w">
-                <property role="Xl_RC" value=".flint" />
-              </node>
-              <node concept="2OqwBi" id="5HFvLoKScne" role="3uHU7B">
-                <node concept="2OqwBi" id="7Lcb4cgyOzr" role="2Oq$k0">
-                  <node concept="3TrcHB" id="7Lcb4cgyPh5" role="2OqNvi">
-                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                  </node>
-                  <node concept="30H73N" id="7Lcb4cgyOzv" role="2Oq$k0" />
-                </node>
-                <node concept="liA8E" id="5HFvLoKScEU" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
+          <node concept="3clFbF" id="3yKUAv2lRBb" role="3cqZAp">
+            <node concept="2YIFZM" id="3yKUAv2lRG8" role="3clFbG">
+              <ref role="37wK5l" to="3lmi:3yKUAv2lLVE" resolve="getSafeFlintModelName" />
+              <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
+              <node concept="2OqwBi" id="3yKUAv2lRUV" role="37wK5m">
+                <node concept="30H73N" id="3yKUAv2lRHv" role="2Oq$k0" />
+                <node concept="3TrcHB" id="3yKUAv2lSeM" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                 </node>
               </node>
             </node>

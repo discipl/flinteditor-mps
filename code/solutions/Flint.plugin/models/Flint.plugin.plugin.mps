@@ -95,7 +95,6 @@
     <import index="v23q" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi(MPS.IDEA/)" implicit="true" />
     <import index="r791" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.text(JDK/)" implicit="true" />
     <import index="3ju5" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.vfs(MPS.Core/)" implicit="true" />
-    <import index="8390" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.channels.spi(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -20216,121 +20215,127 @@
     <property role="3GE5qa" value="jsonexport" />
     <property role="TrG5h" value="ExportJson" />
     <property role="2uzpH1" value="Export Json" />
-    <node concept="2XrIbr" id="2QJIbhjUlC7" role="32lrUH">
-      <property role="TrG5h" value="copyJsonToNewFile" />
-      <node concept="3cqZAl" id="2QJIbhjUmgp" role="3clF45" />
-      <node concept="3clFbS" id="2QJIbhjUlC9" role="3clF47">
-        <node concept="3cpWs8" id="2QJIbhjUtzd" role="3cqZAp">
-          <node concept="3cpWsn" id="2QJIbhjUtze" role="3cpWs9">
-            <property role="TrG5h" value="src" />
-            <node concept="3uibUv" id="2QJIbhjUtzf" role="1tU5fm">
-              <ref role="3uigEE" to="vueu:~FileChannel" resolve="FileChannel" />
-            </node>
-            <node concept="2OqwBi" id="2QJIbhjUvPW" role="33vP2m">
-              <node concept="2ShNRf" id="2QJIbhjUt_y" role="2Oq$k0">
-                <node concept="1pGfFk" id="2QJIbhjUv5H" role="2ShVmc">
-                  <ref role="37wK5l" to="guwi:~FileInputStream.&lt;init&gt;(java.io.File)" resolve="FileInputStream" />
-                  <node concept="37vLTw" id="2QJIbhk0YGc" role="37wK5m">
-                    <ref role="3cqZAo" node="2QJIbhk0XX7" resolve="input" />
-                  </node>
-                </node>
+    <node concept="2XrIbr" id="3yKUAv2b8_j" role="32lrUH">
+      <property role="TrG5h" value="notifyProblem" />
+      <node concept="3cqZAl" id="3yKUAv2b9d4" role="3clF45" />
+      <node concept="3clFbS" id="3yKUAv2b8_l" role="3clF47">
+        <node concept="3clFbJ" id="3yKUAv2dG__" role="3cqZAp">
+          <node concept="3clFbS" id="3yKUAv2dG_B" role="3clFbx">
+            <node concept="2xdQw9" id="3yKUAv2bBlm" role="3cqZAp">
+              <property role="2xdLsb" value="gZ5fh_4/error" />
+              <node concept="37vLTw" id="3yKUAv2bBqH" role="9lYJi">
+                <ref role="3cqZAo" node="3yKUAv2bbz2" resolve="message" />
               </node>
-              <node concept="liA8E" id="2QJIbhjUwa1" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~FileInputStream.getChannel()" resolve="getChannel" />
+              <node concept="37vLTw" id="3yKUAv2bBDG" role="9lYJj">
+                <ref role="3cqZAo" node="3yKUAv2bBs4" resolve="t" />
               </node>
             </node>
           </node>
-        </node>
-        <node concept="3cpWs8" id="2QJIbhjUwjB" role="3cqZAp">
-          <node concept="3cpWsn" id="2QJIbhjUwjC" role="3cpWs9">
-            <property role="TrG5h" value="dest" />
-            <node concept="3uibUv" id="2QJIbhjUwjD" role="1tU5fm">
-              <ref role="3uigEE" to="vueu:~FileChannel" resolve="FileChannel" />
+          <node concept="3clFbC" id="3yKUAv2dGYD" role="3clFbw">
+            <node concept="Rm8GO" id="3yKUAv2dHni" role="3uHU7w">
+              <ref role="Rm8GQ" to="fnpx:~NotificationType.ERROR" resolve="ERROR" />
+              <ref role="1Px2BO" to="fnpx:~NotificationType" resolve="NotificationType" />
             </node>
-            <node concept="2OqwBi" id="2QJIbhjUy9t" role="33vP2m">
-              <node concept="2ShNRf" id="2QJIbhjUwnF" role="2Oq$k0">
-                <node concept="1pGfFk" id="2QJIbhjUxRQ" role="2ShVmc">
-                  <ref role="37wK5l" to="guwi:~FileOutputStream.&lt;init&gt;(java.io.File)" resolve="FileOutputStream" />
-                  <node concept="37vLTw" id="2QJIbhk0YKF" role="37wK5m">
-                    <ref role="3cqZAo" node="2QJIbhk0Yan" resolve="output" />
-                  </node>
-                </node>
-              </node>
-              <node concept="liA8E" id="2QJIbhjUyv8" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~FileOutputStream.getChannel()" resolve="getChannel" />
-              </node>
+            <node concept="37vLTw" id="3yKUAv2dGC4" role="3uHU7B">
+              <ref role="3cqZAo" node="3yKUAv2bC6f" resolve="type" />
             </node>
           </node>
-        </node>
-        <node concept="3J1_TO" id="2QJIbhjUyVt" role="3cqZAp">
-          <node concept="3clFbS" id="2QJIbhjUyVv" role="1zxBo7">
-            <node concept="3clFbF" id="2QJIbhjUAFn" role="3cqZAp">
-              <node concept="2OqwBi" id="2QJIbhjUB9M" role="3clFbG">
-                <node concept="37vLTw" id="2QJIbhjUAFl" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2QJIbhjUwjC" resolve="dest" />
-                </node>
-                <node concept="liA8E" id="2QJIbhjUBSb" role="2OqNvi">
-                  <ref role="37wK5l" to="vueu:~FileChannel.transferFrom(java.nio.channels.ReadableByteChannel,long,long)" resolve="transferFrom" />
-                  <node concept="37vLTw" id="2QJIbhjUBTg" role="37wK5m">
-                    <ref role="3cqZAo" node="2QJIbhjUtze" resolve="src" />
-                  </node>
-                  <node concept="3cmrfG" id="2QJIbhjUC64" role="37wK5m">
-                    <property role="3cmrfH" value="0" />
-                  </node>
-                  <node concept="2OqwBi" id="2QJIbhjUD6b" role="37wK5m">
-                    <node concept="37vLTw" id="2QJIbhjUCnr" role="2Oq$k0">
-                      <ref role="3cqZAo" node="2QJIbhjUtze" resolve="src" />
-                    </node>
-                    <node concept="liA8E" id="2QJIbhjUDLF" role="2OqNvi">
-                      <ref role="37wK5l" to="vueu:~FileChannel.size()" resolve="size" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="1wplmZ" id="2QJIbhjUyYz" role="1zxBo6">
-            <node concept="3clFbS" id="2QJIbhjUyY$" role="1wplMD">
-              <node concept="3clFbF" id="2QJIbhjUz4j" role="3cqZAp">
-                <node concept="2OqwBi" id="2QJIbhjUzxT" role="3clFbG">
-                  <node concept="37vLTw" id="2QJIbhjUz4i" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2QJIbhjUtze" resolve="src" />
-                  </node>
-                  <node concept="liA8E" id="2QJIbhjU$eh" role="2OqNvi">
-                    <ref role="37wK5l" to="8390:~AbstractInterruptibleChannel.close()" resolve="close" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbF" id="2QJIbhjU$Rm" role="3cqZAp">
-                <node concept="2OqwBi" id="2QJIbhjU_lC" role="3clFbG">
-                  <node concept="37vLTw" id="2QJIbhjU$Rk" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2QJIbhjUwjC" resolve="dest" />
-                  </node>
-                  <node concept="liA8E" id="2QJIbhjU_Td" role="2OqNvi">
-                    <ref role="37wK5l" to="8390:~AbstractInterruptibleChannel.close()" resolve="close" />
-                  </node>
+          <node concept="9aQIb" id="3yKUAv2dHst" role="9aQIa">
+            <node concept="3clFbS" id="3yKUAv2dHsu" role="9aQI4">
+              <node concept="2xdQw9" id="3yKUAv2dI1b" role="3cqZAp">
+                <property role="2xdLsb" value="gZ5fksE/warn" />
+                <node concept="37vLTw" id="3yKUAv2dI2l" role="9lYJi">
+                  <ref role="3cqZAo" node="3yKUAv2bbz2" resolve="message" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-      </node>
-      <node concept="3uibUv" id="2QJIbhjUyzR" role="Sfmx6">
-        <ref role="3uigEE" to="guwi:~FileNotFoundException" resolve="FileNotFoundException" />
-      </node>
-      <node concept="3uibUv" id="2QJIbhjUA2S" role="Sfmx6">
-        <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
-      </node>
-      <node concept="37vLTG" id="2QJIbhk0XX7" role="3clF46">
-        <property role="TrG5h" value="input" />
-        <node concept="3uibUv" id="2QJIbhk0XX6" role="1tU5fm">
-          <ref role="3uigEE" to="guwi:~File" resolve="File" />
+        <node concept="3clFbH" id="3yKUAv2bB8u" role="3cqZAp" />
+        <node concept="3cpWs8" id="3yKUAv2bczo" role="3cqZAp">
+          <node concept="3cpWsn" id="3yKUAv2bczp" role="3cpWs9">
+            <property role="TrG5h" value="notificationGroup" />
+            <node concept="3uibUv" id="3yKUAv2bczq" role="1tU5fm">
+              <ref role="3uigEE" to="fnpx:~NotificationGroup" resolve="NotificationGroup" />
+            </node>
+            <node concept="2ShNRf" id="3yKUAv2bc$X" role="33vP2m">
+              <node concept="1pGfFk" id="3yKUAv2byo1" role="2ShVmc">
+                <ref role="37wK5l" to="fnpx:~NotificationGroup.&lt;init&gt;(java.lang.String,com.intellij.notification.NotificationDisplayType,boolean)" resolve="NotificationGroup" />
+                <node concept="Xl_RD" id="3yKUAv2byxG" role="37wK5m">
+                  <property role="Xl_RC" value="ExportJson" />
+                </node>
+                <node concept="Rm8GO" id="3yKUAv2byKA" role="37wK5m">
+                  <ref role="Rm8GQ" to="fnpx:~NotificationDisplayType.BALLOON" resolve="BALLOON" />
+                  <ref role="1Px2BO" to="fnpx:~NotificationDisplayType" resolve="NotificationDisplayType" />
+                </node>
+                <node concept="3clFbT" id="3yKUAv2byWf" role="37wK5m">
+                  <property role="3clFbU" value="true" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="3yKUAv2bz8r" role="3cqZAp">
+          <node concept="3cpWsn" id="3yKUAv2bz8s" role="3cpWs9">
+            <property role="TrG5h" value="notification" />
+            <node concept="3uibUv" id="3yKUAv2bz8t" role="1tU5fm">
+              <ref role="3uigEE" to="fnpx:~Notification" resolve="Notification" />
+            </node>
+            <node concept="2OqwBi" id="3yKUAv2bzez" role="33vP2m">
+              <node concept="37vLTw" id="3yKUAv2bz9U" role="2Oq$k0">
+                <ref role="3cqZAo" node="3yKUAv2bczp" resolve="notificationGroup" />
+              </node>
+              <node concept="liA8E" id="3yKUAv2bzr6" role="2OqNvi">
+                <ref role="37wK5l" to="fnpx:~NotificationGroup.createNotification(java.lang.String,java.lang.String,java.lang.String,com.intellij.notification.NotificationType)" resolve="createNotification" />
+                <node concept="Xl_RD" id="3yKUAv2bz$X" role="37wK5m">
+                  <property role="Xl_RC" value="Export Json" />
+                </node>
+                <node concept="Xl_RD" id="3yKUAv2bzHr" role="37wK5m">
+                  <property role="Xl_RC" value="" />
+                </node>
+                <node concept="37vLTw" id="3yKUAv2b$dl" role="37wK5m">
+                  <ref role="3cqZAo" node="3yKUAv2bbz2" resolve="message" />
+                </node>
+                <node concept="37vLTw" id="3yKUAv2bCum" role="37wK5m">
+                  <ref role="3cqZAo" node="3yKUAv2bC6f" resolve="type" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3yKUAv2bAs8" role="3cqZAp">
+          <node concept="2YIFZM" id="3yKUAv2bAuP" role="3clFbG">
+            <ref role="1Pybhc" to="fnpx:~Notifications$Bus" resolve="Notifications.Bus" />
+            <ref role="37wK5l" to="fnpx:~Notifications$Bus.notify(com.intellij.notification.Notification,com.intellij.openapi.project.Project)" resolve="notify" />
+            <node concept="37vLTw" id="3yKUAv2bAvs" role="37wK5m">
+              <ref role="3cqZAo" node="3yKUAv2bz8s" resolve="notification" />
+            </node>
+            <node concept="2OqwBi" id="3yKUAv2bAN0" role="37wK5m">
+              <node concept="2WthIp" id="3yKUAv2bAzM" role="2Oq$k0" />
+              <node concept="1DTwFV" id="3yKUAv2bB4J" role="2OqNvi">
+                <ref role="2WH_rO" node="4iNeQ7eSiYw" resolve="project" />
+              </node>
+            </node>
+          </node>
         </node>
       </node>
-      <node concept="37vLTG" id="2QJIbhk0Yan" role="3clF46">
-        <property role="TrG5h" value="output" />
-        <node concept="3uibUv" id="2QJIbhk0Yu7" role="1tU5fm">
-          <ref role="3uigEE" to="guwi:~File" resolve="File" />
+      <node concept="3Tm6S6" id="3yKUAv2bbqH" role="1B3o_S" />
+      <node concept="37vLTG" id="3yKUAv2bbz2" role="3clF46">
+        <property role="TrG5h" value="message" />
+        <node concept="3uibUv" id="3yKUAv2bbz1" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3yKUAv2bBs4" role="3clF46">
+        <property role="TrG5h" value="t" />
+        <node concept="3uibUv" id="3yKUAv2bBCP" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3yKUAv2bC6f" role="3clF46">
+        <property role="TrG5h" value="type" />
+        <node concept="3uibUv" id="3yKUAv2bCkb" role="1tU5fm">
+          <ref role="3uigEE" to="fnpx:~NotificationType" resolve="NotificationType" />
         </node>
       </node>
     </node>
@@ -20346,29 +20351,55 @@
     </node>
     <node concept="tnohg" id="1GIGR5EsZm8" role="tncku">
       <node concept="3clFbS" id="1GIGR5EsZm9" role="2VODD2">
-        <node concept="3cpWs8" id="2QJIbhjPSEZ" role="3cqZAp">
-          <node concept="3cpWsn" id="2QJIbhjPSF0" role="3cpWs9">
-            <property role="TrG5h" value="fileName" />
-            <node concept="3uibUv" id="2QJIbhjPSF1" role="1tU5fm">
-              <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-            </node>
-            <node concept="2OqwBi" id="2QJIbhjPTW4" role="33vP2m">
-              <node concept="2OqwBi" id="2QJIbhjPTut" role="2Oq$k0">
-                <node concept="2WthIp" id="2QJIbhjPTf5" role="2Oq$k0" />
-                <node concept="1DTwFV" id="2QJIbhjPTIy" role="2OqNvi">
+        <node concept="3cpWs8" id="3yKUAv27MCc" role="3cqZAp">
+          <node concept="3cpWsn" id="3yKUAv27MCd" role="3cpWs9">
+            <property role="TrG5h" value="unsafeName" />
+            <node concept="17QB3L" id="3yKUAv29U4b" role="1tU5fm" />
+            <node concept="2OqwBi" id="3yKUAv27NS3" role="33vP2m">
+              <node concept="2OqwBi" id="3yKUAv27Np6" role="2Oq$k0">
+                <node concept="2WthIp" id="3yKUAv27Naa" role="2Oq$k0" />
+                <node concept="1DTwFV" id="3yKUAv27ND6" role="2OqNvi">
                   <ref role="2WH_rO" node="4iNeQ7eIj4I" resolve="node" />
                 </node>
               </node>
-              <node concept="liA8E" id="2QJIbhjPUwn" role="2OqNvi">
+              <node concept="liA8E" id="3yKUAv2m07t" role="2OqNvi">
                 <ref role="37wK5l" to="mhbf:~SNode.getName()" resolve="getName" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="2QJIbhjGXIV" role="3cqZAp">
-          <node concept="3cpWsn" id="2QJIbhjGXIW" role="3cpWs9">
+        <node concept="3clFbJ" id="3yKUAv27zAl" role="3cqZAp">
+          <node concept="3clFbS" id="3yKUAv27zAn" role="3clFbx">
+            <node concept="3clFbF" id="3yKUAv2bBPU" role="3cqZAp">
+              <node concept="2OqwBi" id="3yKUAv2bBPO" role="3clFbG">
+                <node concept="2WthIp" id="3yKUAv2bBPR" role="2Oq$k0" />
+                <node concept="2XshWL" id="3yKUAv2bBPT" role="2OqNvi">
+                  <ref role="2WH_rO" node="3yKUAv2b8_j" resolve="notifyProblem" />
+                  <node concept="Xl_RD" id="3yKUAv2bBTO" role="2XxRq1">
+                    <property role="Xl_RC" value="FlintModel has no name" />
+                  </node>
+                  <node concept="10Nm6u" id="3yKUAv2bC2Y" role="2XxRq1" />
+                  <node concept="Rm8GO" id="3yKUAv2bCGg" role="2XxRq1">
+                    <ref role="Rm8GQ" to="fnpx:~NotificationType.ERROR" resolve="ERROR" />
+                    <ref role="1Px2BO" to="fnpx:~NotificationType" resolve="NotificationType" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="3yKUAv27HNJ" role="3cqZAp" />
+          </node>
+          <node concept="3clFbC" id="3yKUAv27Jf3" role="3clFbw">
+            <node concept="37vLTw" id="3yKUAv27PRh" role="3uHU7B">
+              <ref role="3cqZAo" node="3yKUAv27MCd" resolve="unsafeName" />
+            </node>
+            <node concept="10Nm6u" id="3yKUAv27F38" role="3uHU7w" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="3yKUAv27R5u" role="3cqZAp" />
+        <node concept="3cpWs8" id="3yKUAv27uL8" role="3cqZAp">
+          <node concept="3cpWsn" id="3yKUAv27uL9" role="3cpWs9">
             <property role="TrG5h" value="path" />
-            <node concept="3uibUv" id="2QJIbhjGXIX" role="1tU5fm">
+            <node concept="3uibUv" id="3yKUAv27uLa" role="1tU5fm">
               <ref role="3uigEE" to="eoo2:~Path" resolve="Path" />
             </node>
             <node concept="2YIFZM" id="2QJIbhjGXIY" role="33vP2m">
@@ -20376,8 +20407,8 @@
               <ref role="37wK5l" to="eoo2:~Path.of(java.lang.String,java.lang.String...)" resolve="of" />
               <node concept="2OqwBi" id="2QJIbhjGXIZ" role="37wK5m">
                 <node concept="2YIFZM" id="2QJIbhjGXJ0" role="2Oq$k0">
-                  <ref role="1Pybhc" node="4Y4T$M$Yhm8" resolve="Utils" />
                   <ref role="37wK5l" node="5xrYknnRyYo" resolve="getModelOutputPath" />
+                  <ref role="1Pybhc" node="4Y4T$M$Yhm8" resolve="Utils" />
                   <node concept="2OqwBi" id="2QJIbhjGXJ1" role="37wK5m">
                     <node concept="2OqwBi" id="2QJIbhjGXJ2" role="2Oq$k0">
                       <node concept="2WthIp" id="2QJIbhjGXJ3" role="2Oq$k0" />
@@ -20396,22 +20427,13 @@
               </node>
               <node concept="3cpWs3" id="2QJIbhjGXJ7" role="37wK5m">
                 <node concept="Xl_RD" id="2QJIbhjGXJ8" role="3uHU7w">
-                  <property role="Xl_RC" value=".flint.json" />
+                  <property role="Xl_RC" value=".json" />
                 </node>
-                <node concept="2OqwBi" id="2QJIbhjGXJ9" role="3uHU7B">
-                  <node concept="2OqwBi" id="2QJIbhjGXJa" role="2Oq$k0">
-                    <node concept="2OqwBi" id="2QJIbhjGXJb" role="2Oq$k0">
-                      <node concept="2WthIp" id="2QJIbhjGXJc" role="2Oq$k0" />
-                      <node concept="1DTwFV" id="2QJIbhjGXJd" role="2OqNvi">
-                        <ref role="2WH_rO" node="4iNeQ7eIj4I" resolve="node" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="2QJIbhjGXJe" role="2OqNvi">
-                      <ref role="37wK5l" to="mhbf:~SNode.getName()" resolve="getName" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="2QJIbhjGXJf" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
+                <node concept="2YIFZM" id="3yKUAv2m1oy" role="3uHU7B">
+                  <ref role="37wK5l" to="3lmi:3yKUAv2lLVE" resolve="getSafeFlintModelName" />
+                  <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
+                  <node concept="37vLTw" id="3yKUAv2m1B7" role="37wK5m">
+                    <ref role="3cqZAo" node="3yKUAv27MCd" resolve="unsafeName" />
                   </node>
                 </node>
               </node>
@@ -20421,16 +20443,11 @@
         <node concept="2xdQw9" id="2QJIbhjGXIT" role="3cqZAp">
           <property role="2xdLsb" value="h1akgim/info" />
           <node concept="3cpWs3" id="2QJIbhjWSfT" role="9lYJi">
-            <node concept="2OqwBi" id="2QJIbhjWSP3" role="3uHU7w">
-              <node concept="37vLTw" id="2QJIbhjWSnW" role="2Oq$k0">
-                <ref role="3cqZAo" node="2QJIbhjGXIW" resolve="path" />
-              </node>
-              <node concept="liA8E" id="2QJIbhjWTvB" role="2OqNvi">
-                <ref role="37wK5l" to="eoo2:~Path.toString()" resolve="toString" />
-              </node>
-            </node>
             <node concept="Xl_RD" id="2QJIbhjGXIU" role="3uHU7B">
               <property role="Xl_RC" value="Exporting JSON from: " />
+            </node>
+            <node concept="37vLTw" id="3yKUAv27xHB" role="3uHU7w">
+              <ref role="3cqZAo" node="3yKUAv27uL9" resolve="path" />
             </node>
           </node>
         </node>
@@ -20458,10 +20475,10 @@
                             <property role="Xl_RC" value="Save File" />
                           </node>
                           <node concept="Xl_RD" id="2QJIbhjGXJt" role="37wK5m">
-                            <property role="Xl_RC" value="Choose destination file" />
+                            <property role="Xl_RC" value="Choose destination directory" />
                           </node>
                           <node concept="Xl_RD" id="2QJIbhjGXJu" role="37wK5m">
-                            <property role="Xl_RC" value="flint.json" />
+                            <property role="Xl_RC" value=".json" />
                           </node>
                         </node>
                       </node>
@@ -20542,19 +20559,54 @@
                         </node>
                         <node concept="liA8E" id="2QJIbhjGXJX" role="2OqNvi">
                           <ref role="37wK5l" to="3fkn:~FileSaverDialog.save(java.nio.file.Path,java.lang.String)" resolve="save" />
-                          <node concept="37vLTw" id="2QJIbhjGXJY" role="37wK5m">
-                            <ref role="3cqZAo" node="2QJIbhjGXIW" resolve="path" />
+                          <node concept="37vLTw" id="3yKUAv27IDR" role="37wK5m">
+                            <ref role="3cqZAo" node="3yKUAv27uL9" resolve="path" />
                           </node>
-                          <node concept="37vLTw" id="2QJIbhjPWy8" role="37wK5m">
-                            <ref role="3cqZAo" node="2QJIbhjPSF0" resolve="fileName" />
+                          <node concept="2YIFZM" id="3yKUAv2Niya" role="37wK5m">
+                            <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
+                            <ref role="37wK5l" to="3lmi:3yKUAv2lLVE" resolve="getSafeFlintModelName" />
+                            <node concept="37vLTw" id="3yKUAv2Niyb" role="37wK5m">
+                              <ref role="3cqZAo" node="3yKUAv27MCd" resolve="unsafeName" />
+                            </node>
                           </node>
                         </node>
                       </node>
                     </node>
                   </node>
+                  <node concept="3clFbH" id="3yKUAv2RCCk" role="3cqZAp" />
                   <node concept="3clFbJ" id="2QJIbhjGXK7" role="3cqZAp">
                     <node concept="3clFbS" id="2QJIbhjGXK8" role="3clFbx">
                       <node concept="3J1_TO" id="2QJIbhjLMjg" role="3cqZAp">
+                        <node concept="3uVAMA" id="3yKUAv2jh8c" role="1zxBo5">
+                          <node concept="XOnhg" id="3yKUAv2jh8d" role="1zc67B">
+                            <property role="TrG5h" value="e" />
+                            <node concept="nSUau" id="3yKUAv2jh8e" role="1tU5fm">
+                              <node concept="3uibUv" id="3yKUAv2jhx4" role="nSUat">
+                                <ref role="3uigEE" to="eoo2:~NoSuchFileException" resolve="NoSuchFileException" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3clFbS" id="3yKUAv2jh8f" role="1zc67A">
+                            <node concept="3clFbF" id="3yKUAv2ji1X" role="3cqZAp">
+                              <node concept="2OqwBi" id="3yKUAv2ji1Z" role="3clFbG">
+                                <node concept="2WthIp" id="3yKUAv2ji20" role="2Oq$k0" />
+                                <node concept="2XshWL" id="3yKUAv2ji21" role="2OqNvi">
+                                  <ref role="2WH_rO" node="3yKUAv2b8_j" resolve="notifyProblem" />
+                                  <node concept="Xl_RD" id="3yKUAv2ji22" role="2XxRq1">
+                                    <property role="Xl_RC" value="File name was invalid" />
+                                  </node>
+                                  <node concept="37vLTw" id="3yKUAv2ji23" role="2XxRq1">
+                                    <ref role="3cqZAo" node="3yKUAv2jh8d" resolve="e" />
+                                  </node>
+                                  <node concept="Rm8GO" id="3yKUAv2ji24" role="2XxRq1">
+                                    <ref role="Rm8GQ" to="fnpx:~NotificationType.ERROR" resolve="ERROR" />
+                                    <ref role="1Px2BO" to="fnpx:~NotificationType" resolve="NotificationType" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
                         <node concept="3uVAMA" id="2QJIbhjLMtB" role="1zxBo5">
                           <node concept="XOnhg" id="2QJIbhjLMtC" role="1zc67B">
                             <property role="TrG5h" value="e" />
@@ -20565,54 +20617,50 @@
                             </node>
                           </node>
                           <node concept="3clFbS" id="2QJIbhjLMtE" role="1zc67A">
-                            <node concept="2xdQw9" id="2QJIbhjLQMF" role="3cqZAp">
-                              <property role="2xdLsb" value="gZ5fh_4/error" />
-                              <node concept="Xl_RD" id="2QJIbhjLQMH" role="9lYJi">
-                                <property role="Xl_RC" value="File creation failed" />
-                              </node>
-                              <node concept="37vLTw" id="2QJIbhjU9LG" role="9lYJj">
-                                <ref role="3cqZAo" node="2QJIbhjLMtC" resolve="e" />
+                            <node concept="3clFbF" id="3yKUAv2bDmV" role="3cqZAp">
+                              <node concept="2OqwBi" id="3yKUAv2bDmW" role="3clFbG">
+                                <node concept="2WthIp" id="3yKUAv2bDmX" role="2Oq$k0" />
+                                <node concept="2XshWL" id="3yKUAv2bDmY" role="2OqNvi">
+                                  <ref role="2WH_rO" node="3yKUAv2b8_j" resolve="notifyProblem" />
+                                  <node concept="Xl_RD" id="3yKUAv2bDmZ" role="2XxRq1">
+                                    <property role="Xl_RC" value="File creation failed" />
+                                  </node>
+                                  <node concept="37vLTw" id="3yKUAv2bE1W" role="2XxRq1">
+                                    <ref role="3cqZAo" node="2QJIbhjLMtC" resolve="e" />
+                                  </node>
+                                  <node concept="Rm8GO" id="3yKUAv2bDn1" role="2XxRq1">
+                                    <ref role="Rm8GQ" to="fnpx:~NotificationType.ERROR" resolve="ERROR" />
+                                    <ref role="1Px2BO" to="fnpx:~NotificationType" resolve="NotificationType" />
+                                  </node>
+                                </node>
                               </node>
                             </node>
                           </node>
                         </node>
                         <node concept="3clFbS" id="2QJIbhjLMji" role="1zxBo7">
-                          <node concept="3clFbF" id="2QJIbhjLNTm" role="3cqZAp">
-                            <node concept="2OqwBi" id="2QJIbhjLPia" role="3clFbG">
-                              <node concept="2OqwBi" id="2QJIbhjLOql" role="2Oq$k0">
-                                <node concept="37vLTw" id="2QJIbhjLNTk" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="2QJIbhjGXJT" resolve="fileWrapper" />
-                                </node>
-                                <node concept="liA8E" id="2QJIbhjLOWr" role="2OqNvi">
-                                  <ref role="37wK5l" to="jlff:~VirtualFileWrapper.getFile()" resolve="getFile" />
-                                </node>
+                          <node concept="3clFbF" id="3yKUAv1Z7$r" role="3cqZAp">
+                            <node concept="2YIFZM" id="3yKUAv1Zcp6" role="3clFbG">
+                              <ref role="37wK5l" to="eoo2:~Files.copy(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption...)" resolve="copy" />
+                              <ref role="1Pybhc" to="eoo2:~Files" resolve="Files" />
+                              <node concept="37vLTw" id="3yKUAv27IVL" role="37wK5m">
+                                <ref role="3cqZAo" node="3yKUAv27uL9" resolve="path" />
                               </node>
-                              <node concept="liA8E" id="2QJIbhjLQ68" role="2OqNvi">
-                                <ref role="37wK5l" to="guwi:~File.createNewFile()" resolve="createNewFile" />
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="3clFbF" id="2QJIbhk0Z06" role="3cqZAp">
-                            <node concept="2OqwBi" id="2QJIbhk0ZjX" role="3clFbG">
-                              <node concept="2WthIp" id="2QJIbhk0Z04" role="2Oq$k0" />
-                              <node concept="2XshWL" id="2QJIbhk0ZKB" role="2OqNvi">
-                                <ref role="2WH_rO" node="2QJIbhjUlC7" resolve="copyJsonToNewFile" />
-                                <node concept="2OqwBi" id="2QJIbhk10or" role="2XxRq1">
-                                  <node concept="37vLTw" id="2QJIbhk0ZUM" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="2QJIbhjGXIW" resolve="path" />
-                                  </node>
-                                  <node concept="liA8E" id="2QJIbhk1106" role="2OqNvi">
-                                    <ref role="37wK5l" to="eoo2:~Path.toFile()" resolve="toFile" />
-                                  </node>
-                                </node>
-                                <node concept="2OqwBi" id="2QJIbhk11xa" role="2XxRq1">
-                                  <node concept="37vLTw" id="2QJIbhk11jW" role="2Oq$k0">
+                              <node concept="2OqwBi" id="3yKUAv1Zd_R" role="37wK5m">
+                                <node concept="2OqwBi" id="3yKUAv1Zd3R" role="2Oq$k0">
+                                  <node concept="37vLTw" id="3yKUAv1ZcNS" role="2Oq$k0">
                                     <ref role="3cqZAo" node="2QJIbhjGXJT" resolve="fileWrapper" />
                                   </node>
-                                  <node concept="liA8E" id="2QJIbhk11MI" role="2OqNvi">
+                                  <node concept="liA8E" id="3yKUAv1Zdj4" role="2OqNvi">
                                     <ref role="37wK5l" to="jlff:~VirtualFileWrapper.getFile()" resolve="getFile" />
                                   </node>
                                 </node>
+                                <node concept="liA8E" id="3yKUAv1Zep8" role="2OqNvi">
+                                  <ref role="37wK5l" to="guwi:~File.toPath()" resolve="toPath" />
+                                </node>
+                              </node>
+                              <node concept="Rm8GO" id="3yKUAv1ZgUb" role="37wK5m">
+                                <ref role="Rm8GQ" to="eoo2:~StandardCopyOption.REPLACE_EXISTING" resolve="REPLACE_EXISTING" />
+                                <ref role="1Px2BO" to="eoo2:~StandardCopyOption" resolve="StandardCopyOption" />
                               </node>
                             </node>
                           </node>
@@ -20648,10 +20696,20 @@
                     </node>
                     <node concept="9aQIb" id="2QJIbhjGXKp" role="9aQIa">
                       <node concept="3clFbS" id="2QJIbhjGXKq" role="9aQI4">
-                        <node concept="2xdQw9" id="2QJIbhjGXKr" role="3cqZAp">
-                          <property role="2xdLsb" value="gZ5fksE/warn" />
-                          <node concept="Xl_RD" id="2QJIbhjGXKs" role="9lYJi">
-                            <property role="Xl_RC" value="FileWrapper is empty, export cancelled?" />
+                        <node concept="3clFbF" id="3yKUAv2bEZA" role="3cqZAp">
+                          <node concept="2OqwBi" id="3yKUAv2bEZB" role="3clFbG">
+                            <node concept="2WthIp" id="3yKUAv2bEZC" role="2Oq$k0" />
+                            <node concept="2XshWL" id="3yKUAv2bEZD" role="2OqNvi">
+                              <ref role="2WH_rO" node="3yKUAv2b8_j" resolve="notifyProblem" />
+                              <node concept="Xl_RD" id="3yKUAv2bEZE" role="2XxRq1">
+                                <property role="Xl_RC" value="No destination directory selected" />
+                              </node>
+                              <node concept="10Nm6u" id="3yKUAv2bGvb" role="2XxRq1" />
+                              <node concept="Rm8GO" id="3yKUAv2bGMV" role="2XxRq1">
+                                <ref role="Rm8GQ" to="fnpx:~NotificationType.WARNING" resolve="WARNING" />
+                                <ref role="1Px2BO" to="fnpx:~NotificationType" resolve="NotificationType" />
+                              </node>
+                            </node>
                           </node>
                         </node>
                       </node>
