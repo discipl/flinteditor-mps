@@ -20219,36 +20219,13 @@
       <property role="TrG5h" value="notifyProblem" />
       <node concept="3cqZAl" id="3yKUAv2b9d4" role="3clF45" />
       <node concept="3clFbS" id="3yKUAv2b8_l" role="3clF47">
-        <node concept="3clFbJ" id="3yKUAv2dG__" role="3cqZAp">
-          <node concept="3clFbS" id="3yKUAv2dG_B" role="3clFbx">
-            <node concept="2xdQw9" id="3yKUAv2bBlm" role="3cqZAp">
-              <property role="2xdLsb" value="gZ5fh_4/error" />
-              <node concept="37vLTw" id="3yKUAv2bBqH" role="9lYJi">
-                <ref role="3cqZAo" node="3yKUAv2bbz2" resolve="message" />
-              </node>
-              <node concept="37vLTw" id="3yKUAv2bBDG" role="9lYJj">
-                <ref role="3cqZAo" node="3yKUAv2bBs4" resolve="t" />
-              </node>
-            </node>
+        <node concept="2xdQw9" id="3yKUAv2bBlm" role="3cqZAp">
+          <property role="2xdLsb" value="gZ5fh_4/error" />
+          <node concept="37vLTw" id="3yKUAv2bBqH" role="9lYJi">
+            <ref role="3cqZAo" node="3yKUAv2bbz2" resolve="message" />
           </node>
-          <node concept="3clFbC" id="3yKUAv2dGYD" role="3clFbw">
-            <node concept="Rm8GO" id="3yKUAv2dHni" role="3uHU7w">
-              <ref role="Rm8GQ" to="fnpx:~NotificationType.ERROR" resolve="ERROR" />
-              <ref role="1Px2BO" to="fnpx:~NotificationType" resolve="NotificationType" />
-            </node>
-            <node concept="37vLTw" id="3yKUAv2dGC4" role="3uHU7B">
-              <ref role="3cqZAo" node="3yKUAv2bC6f" resolve="type" />
-            </node>
-          </node>
-          <node concept="9aQIb" id="3yKUAv2dHst" role="9aQIa">
-            <node concept="3clFbS" id="3yKUAv2dHsu" role="9aQI4">
-              <node concept="2xdQw9" id="3yKUAv2dI1b" role="3cqZAp">
-                <property role="2xdLsb" value="gZ5fksE/warn" />
-                <node concept="37vLTw" id="3yKUAv2dI2l" role="9lYJi">
-                  <ref role="3cqZAo" node="3yKUAv2bbz2" resolve="message" />
-                </node>
-              </node>
-            </node>
+          <node concept="37vLTw" id="3yKUAv2bBDG" role="9lYJj">
+            <ref role="3cqZAo" node="3yKUAv2bBs4" resolve="t" />
           </node>
         </node>
         <node concept="3clFbH" id="3yKUAv2bB8u" role="3cqZAp" />
@@ -20296,8 +20273,9 @@
                 <node concept="37vLTw" id="3yKUAv2b$dl" role="37wK5m">
                   <ref role="3cqZAo" node="3yKUAv2bbz2" resolve="message" />
                 </node>
-                <node concept="37vLTw" id="3yKUAv2bCum" role="37wK5m">
-                  <ref role="3cqZAo" node="3yKUAv2bC6f" resolve="type" />
+                <node concept="Rm8GO" id="3yKUAv32v4S" role="37wK5m">
+                  <ref role="Rm8GQ" to="fnpx:~NotificationType.ERROR" resolve="ERROR" />
+                  <ref role="1Px2BO" to="fnpx:~NotificationType" resolve="NotificationType" />
                 </node>
               </node>
             </node>
@@ -20330,12 +20308,6 @@
         <property role="TrG5h" value="t" />
         <node concept="3uibUv" id="3yKUAv2bBCP" role="1tU5fm">
           <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="3yKUAv2bC6f" role="3clF46">
-        <property role="TrG5h" value="type" />
-        <node concept="3uibUv" id="3yKUAv2bCkb" role="1tU5fm">
-          <ref role="3uigEE" to="fnpx:~NotificationType" resolve="NotificationType" />
         </node>
       </node>
     </node>
@@ -20379,10 +20351,6 @@
                     <property role="Xl_RC" value="FlintModel has no name" />
                   </node>
                   <node concept="10Nm6u" id="3yKUAv2bC2Y" role="2XxRq1" />
-                  <node concept="Rm8GO" id="3yKUAv2bCGg" role="2XxRq1">
-                    <ref role="Rm8GQ" to="fnpx:~NotificationType.ERROR" resolve="ERROR" />
-                    <ref role="1Px2BO" to="fnpx:~NotificationType" resolve="NotificationType" />
-                  </node>
                 </node>
               </node>
             </node>
@@ -20393,6 +20361,19 @@
               <ref role="3cqZAo" node="3yKUAv27MCd" resolve="unsafeName" />
             </node>
             <node concept="10Nm6u" id="3yKUAv27F38" role="3uHU7w" />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="3yKUAv2TOnh" role="3cqZAp">
+          <node concept="3cpWsn" id="3yKUAv2TOnk" role="3cpWs9">
+            <property role="TrG5h" value="safeName" />
+            <node concept="17QB3L" id="3yKUAv2TOnf" role="1tU5fm" />
+            <node concept="2YIFZM" id="3yKUAv2TOUz" role="33vP2m">
+              <ref role="37wK5l" to="3lmi:3yKUAv2lLVE" resolve="getSafeFlintModelName" />
+              <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
+              <node concept="37vLTw" id="3yKUAv2TOU$" role="37wK5m">
+                <ref role="3cqZAo" node="3yKUAv27MCd" resolve="unsafeName" />
+              </node>
+            </node>
           </node>
         </node>
         <node concept="3clFbH" id="3yKUAv27R5u" role="3cqZAp" />
@@ -20427,14 +20408,10 @@
               </node>
               <node concept="3cpWs3" id="2QJIbhjGXJ7" role="37wK5m">
                 <node concept="Xl_RD" id="2QJIbhjGXJ8" role="3uHU7w">
-                  <property role="Xl_RC" value=".json" />
+                  <property role="Xl_RC" value=".flint.json" />
                 </node>
-                <node concept="2YIFZM" id="3yKUAv2m1oy" role="3uHU7B">
-                  <ref role="37wK5l" to="3lmi:3yKUAv2lLVE" resolve="getSafeFlintModelName" />
-                  <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
-                  <node concept="37vLTw" id="3yKUAv2m1B7" role="37wK5m">
-                    <ref role="3cqZAo" node="3yKUAv27MCd" resolve="unsafeName" />
-                  </node>
+                <node concept="37vLTw" id="3yKUAv2TQDL" role="3uHU7B">
+                  <ref role="3cqZAo" node="3yKUAv2TOnk" resolve="safeName" />
                 </node>
               </node>
             </node>
@@ -20478,7 +20455,7 @@
                             <property role="Xl_RC" value="Choose destination directory" />
                           </node>
                           <node concept="Xl_RD" id="2QJIbhjGXJu" role="37wK5m">
-                            <property role="Xl_RC" value=".json" />
+                            <property role="Xl_RC" value="flint.json" />
                           </node>
                         </node>
                       </node>
@@ -20562,12 +20539,8 @@
                           <node concept="37vLTw" id="3yKUAv27IDR" role="37wK5m">
                             <ref role="3cqZAo" node="3yKUAv27uL9" resolve="path" />
                           </node>
-                          <node concept="2YIFZM" id="3yKUAv2Niya" role="37wK5m">
-                            <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
-                            <ref role="37wK5l" to="3lmi:3yKUAv2lLVE" resolve="getSafeFlintModelName" />
-                            <node concept="37vLTw" id="3yKUAv2Niyb" role="37wK5m">
-                              <ref role="3cqZAo" node="3yKUAv27MCd" resolve="unsafeName" />
-                            </node>
+                          <node concept="37vLTw" id="3yKUAv2TRfz" role="37wK5m">
+                            <ref role="3cqZAo" node="3yKUAv2TOnk" resolve="safeName" />
                           </node>
                         </node>
                       </node>
@@ -20598,10 +20571,6 @@
                                   <node concept="37vLTw" id="3yKUAv2ji23" role="2XxRq1">
                                     <ref role="3cqZAo" node="3yKUAv2jh8d" resolve="e" />
                                   </node>
-                                  <node concept="Rm8GO" id="3yKUAv2ji24" role="2XxRq1">
-                                    <ref role="Rm8GQ" to="fnpx:~NotificationType.ERROR" resolve="ERROR" />
-                                    <ref role="1Px2BO" to="fnpx:~NotificationType" resolve="NotificationType" />
-                                  </node>
                                 </node>
                               </node>
                             </node>
@@ -20627,10 +20596,6 @@
                                   </node>
                                   <node concept="37vLTw" id="3yKUAv2bE1W" role="2XxRq1">
                                     <ref role="3cqZAo" node="2QJIbhjLMtC" resolve="e" />
-                                  </node>
-                                  <node concept="Rm8GO" id="3yKUAv2bDn1" role="2XxRq1">
-                                    <ref role="Rm8GQ" to="fnpx:~NotificationType.ERROR" resolve="ERROR" />
-                                    <ref role="1Px2BO" to="fnpx:~NotificationType" resolve="NotificationType" />
                                   </node>
                                 </node>
                               </node>
@@ -20692,26 +20657,6 @@
                       <node concept="10Nm6u" id="2QJIbhjGXKn" role="3uHU7w" />
                       <node concept="37vLTw" id="2QJIbhjGXKo" role="3uHU7B">
                         <ref role="3cqZAo" node="2QJIbhjGXJT" resolve="fileWrapper" />
-                      </node>
-                    </node>
-                    <node concept="9aQIb" id="2QJIbhjGXKp" role="9aQIa">
-                      <node concept="3clFbS" id="2QJIbhjGXKq" role="9aQI4">
-                        <node concept="3clFbF" id="3yKUAv2bEZA" role="3cqZAp">
-                          <node concept="2OqwBi" id="3yKUAv2bEZB" role="3clFbG">
-                            <node concept="2WthIp" id="3yKUAv2bEZC" role="2Oq$k0" />
-                            <node concept="2XshWL" id="3yKUAv2bEZD" role="2OqNvi">
-                              <ref role="2WH_rO" node="3yKUAv2b8_j" resolve="notifyProblem" />
-                              <node concept="Xl_RD" id="3yKUAv2bEZE" role="2XxRq1">
-                                <property role="Xl_RC" value="No destination directory selected" />
-                              </node>
-                              <node concept="10Nm6u" id="3yKUAv2bGvb" role="2XxRq1" />
-                              <node concept="Rm8GO" id="3yKUAv2bGMV" role="2XxRq1">
-                                <ref role="Rm8GQ" to="fnpx:~NotificationType.WARNING" resolve="WARNING" />
-                                <ref role="1Px2BO" to="fnpx:~NotificationType" resolve="NotificationType" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
                       </node>
                     </node>
                   </node>

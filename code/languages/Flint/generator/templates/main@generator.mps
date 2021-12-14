@@ -489,13 +489,18 @@
       <node concept="3zFVjK" id="7Lcb4cgyOzp" role="3zH0cK">
         <node concept="3clFbS" id="7Lcb4cgyOzq" role="2VODD2">
           <node concept="3clFbF" id="3yKUAv2lRBb" role="3cqZAp">
-            <node concept="2YIFZM" id="3yKUAv2lRG8" role="3clFbG">
-              <ref role="37wK5l" to="3lmi:3yKUAv2lLVE" resolve="getSafeFlintModelName" />
-              <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
-              <node concept="2OqwBi" id="3yKUAv2lRUV" role="37wK5m">
-                <node concept="30H73N" id="3yKUAv2lRHv" role="2Oq$k0" />
-                <node concept="3TrcHB" id="3yKUAv2lSeM" role="2OqNvi">
-                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+            <node concept="3cpWs3" id="3yKUAv2TU3I" role="3clFbG">
+              <node concept="Xl_RD" id="3yKUAv2TU3M" role="3uHU7w">
+                <property role="Xl_RC" value=".flint" />
+              </node>
+              <node concept="2YIFZM" id="3yKUAv2lRG8" role="3uHU7B">
+                <ref role="37wK5l" to="3lmi:3yKUAv2lLVE" resolve="getSafeFlintModelName" />
+                <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
+                <node concept="2OqwBi" id="3yKUAv2lRUV" role="37wK5m">
+                  <node concept="30H73N" id="3yKUAv2lRHv" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="3yKUAv2lSeM" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
                 </node>
               </node>
             </node>
