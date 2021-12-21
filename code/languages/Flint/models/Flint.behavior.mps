@@ -23694,7 +23694,7 @@
     <node concept="312cEg" id="7YFAXDpE6VA" role="jymVt">
       <property role="TrG5h" value="property" />
       <node concept="3Tm6S6" id="7YFAXDpE6V9" role="1B3o_S" />
-      <node concept="17QB3L" id="7YFAXDpE6Vz" role="1tU5fm" />
+      <node concept="17QB3L" id="1LPawMzAhkC" role="1tU5fm" />
     </node>
     <node concept="2tJIrI" id="7YFAXDpE6VI" role="jymVt" />
     <node concept="3clFbW" id="7YFAXDpE7ll" role="jymVt">
@@ -23733,7 +23733,7 @@
       </node>
       <node concept="37vLTG" id="7YFAXDpE8Wm" role="3clF46">
         <property role="TrG5h" value="property" />
-        <node concept="17QB3L" id="7YFAXDpE9ZZ" role="1tU5fm" />
+        <node concept="17QB3L" id="1LPawMzAhjG" role="1tU5fm" />
       </node>
     </node>
     <node concept="3Tm1VV" id="7YFAXDpE6r1" role="1B3o_S" />
@@ -23771,6 +23771,19 @@
                 <node concept="37vLTw" id="7YFAXDpEj$x" role="37wK5m">
                   <ref role="3cqZAo" node="7YFAXDpE6VA" resolve="property" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1LPawMzWO7X" role="3cqZAp">
+          <node concept="2OqwBi" id="1LPawMzWOF5" role="3clFbG">
+            <node concept="37vLTw" id="1LPawMzWO7V" role="2Oq$k0">
+              <ref role="3cqZAo" node="7YFAXDpEa6U" resolve="word" />
+            </node>
+            <node concept="liA8E" id="1LPawMzWQ_6" role="2OqNvi">
+              <ref role="37wK5l" to="g51k:~EditorCell_Label.setEditable(boolean)" resolve="setEditable" />
+              <node concept="3clFbT" id="1LPawMzWQEo" role="37wK5m">
+                <property role="3clFbU" value="true" />
               </node>
             </node>
           </node>
