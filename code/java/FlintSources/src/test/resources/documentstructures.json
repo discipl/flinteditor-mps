@@ -1,0 +1,35 @@
+{
+  "_embedded": {
+    "documentStructures": [
+      {
+        "name": "EUR-LEX",
+        "uuid": "a4082da7-e6e6-48f8-8b5c-14bbe722de69"
+      },
+      {
+        "name": "Wetten.nl",
+        "uuid": "a4b1db4f-50bf-4747-92bf-027e18680dbc"
+      },
+      {
+        "name": "EUR-LEX-EN",
+        "uuid": "6d1e8bda-2618-4d59-8647-3685adb66bdb"
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://calculemus-app.d3e4884570654486a16f.westeurope.aksapp.io/calculemus/normTexts/v1/documentstructures?page=1&pagesize=10"
+    },
+    "first": {
+      "href": "http://calculemus-app.d3e4884570654486a16f.westeurope.aksapp.io/calculemus/normTexts/v1/documentstructures?page=1&pagesize=10"
+    },
+    "last": {
+      "href": "http://calculemus-app.d3e4884570654486a16f.westeurope.aksapp.io/calculemus/normTexts/v1/documentstructures?page=1&pagesize=10"
+    }
+  },
+  "_page": {
+    "size": 10,
+    "totalElements": 3,
+    "totalPages": 1,
+    "number": 1
+  }
+}

@@ -44,10 +44,11 @@
       </concept>
       <concept id="7816114204006345028" name="Flint.structure.CustomText" flags="ng" index="2hPCcK" />
       <concept id="9029403747833789403" name="Flint.structure.Act" flags="ng" index="mu5$5">
-        <property id="6366956576594804508" name="action" index="207Gpp" />
+        <property id="6366956576594804508" name="old_action" index="207Gpp" />
         <child id="9029403747833803225" name="terminate" index="mu1c7" />
         <child id="9029403747833803217" name="create" index="mu1cf" />
         <child id="9029403747833797790" name="preconditions" index="mu3T0" />
+        <child id="591807039346570203" name="action" index="3FTnq6" />
         <child id="6205025464253204623" name="object" index="3H36l7" />
         <child id="6205025464253204638" name="recipient" index="3H36lm" />
         <child id="6205025464253204596" name="actor" index="3H36mW" />
@@ -83,7 +84,6 @@
         <reference id="6587498613242404530" name="fact" index="1FQA6$" />
       </concept>
       <concept id="5326288789495450601" name="Flint.structure.TranslatedName" flags="ng" index="1GVOM6">
-        <property id="2148853966781381138" name="action" index="DSN_u" />
         <property id="5326288789495451684" name="translatedName" index="1GVPtb" />
         <property id="5326288789495451682" name="language" index="1GVPtd" />
       </concept>
@@ -134,7 +134,7 @@
         </node>
       </node>
     </node>
-    <node concept="1GVOM6" id="1RigOKPbT_J" role="1GVO30">
+    <node concept="1GVOM6" id="4_2puRSSM1w" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="Fact1" />
     </node>
@@ -142,7 +142,7 @@
   <node concept="cu0$f" id="74VLc6kV4GJ">
     <property role="TrG5h" value="Fact2" />
     <property role="3GE5qa" value="facts" />
-    <node concept="1GVOM6" id="1RigOKPbT_K" role="1GVO30">
+    <node concept="1GVOM6" id="4_2puRSSM2t" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="Fact2" />
     </node>
@@ -150,7 +150,7 @@
   <node concept="cu0$f" id="74VLc6kV4GK">
     <property role="TrG5h" value="Fact3" />
     <property role="3GE5qa" value="facts" />
-    <node concept="1GVOM6" id="1RigOKPbT_L" role="1GVO30">
+    <node concept="1GVOM6" id="4_2puRSSM3r" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="Fact3" />
     </node>
@@ -158,7 +158,7 @@
   <node concept="cu0$f" id="74VLc6kV4GL">
     <property role="TrG5h" value="Fact4" />
     <property role="3GE5qa" value="facts" />
-    <node concept="1GVOM6" id="1RigOKPbT_M" role="1GVO30">
+    <node concept="1GVOM6" id="4_2puRSSM4q" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="Fact4" />
     </node>
@@ -171,7 +171,7 @@
         <ref role="1FQA6$" node="74VLc6kV4GL" resolve="Fact4" />
       </node>
     </node>
-    <node concept="1GVOM6" id="1RigOKPbT_N" role="1GVO30">
+    <node concept="1GVOM6" id="4_2puRSSM0$" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="CreateFact" />
     </node>
@@ -187,7 +187,7 @@
         <ref role="1FQA6$" node="74VLc6kV4GL" resolve="Fact4" />
       </node>
     </node>
-    <node concept="1GVOM6" id="1RigOKPbT_O" role="1GVO30">
+    <node concept="1GVOM6" id="4_2puRSSM5q" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="ProjectionFact" />
     </node>
@@ -255,8 +255,10 @@
     <node concept="1FQA6B" id="74VLc6kV4H9" role="mu1cf">
       <ref role="1FQA6$" node="74VLc6kV4GM" resolve="CreateFact" />
     </node>
-    <node concept="1GVOM6" id="1RigOKOD3Ec" role="1GVO30">
-      <property role="DSN_u" value="Action1" />
+    <node concept="1FQA6B" id="1cG4R6OVqx5" role="3FTnq6">
+      <ref role="1FQA6$" node="74VLc6kV4GB" resolve="Fact1" />
+    </node>
+    <node concept="1GVOM6" id="7M8gzUucjo_" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="act1" />
     </node>
@@ -270,7 +272,7 @@
     <node concept="3jSua8" id="74VLc6kV4Hj" role="cMmjW">
       <ref role="3jSua9" node="74VLc6kV4GT" resolve="act1" />
     </node>
-    <node concept="1GVOM6" id="1RigOKPbT_P" role="1GVO30">
+    <node concept="1GVOM6" id="4_2puRSSLZD" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="duty2" />
     </node>
@@ -288,8 +290,10 @@
     <node concept="1FQA6B" id="74VLc6kV4Hg" role="3H36lm">
       <ref role="1FQA6$" node="74VLc6kV4GB" resolve="Fact1" />
     </node>
-    <node concept="1GVOM6" id="1RigOKOD3Ed" role="1GVO30">
-      <property role="DSN_u" value="Action2" />
+    <node concept="1FQA6B" id="1cG4R6OVqga" role="3FTnq6">
+      <ref role="1FQA6$" node="74VLc6kV4GJ" resolve="Fact2" />
+    </node>
+    <node concept="1GVOM6" id="7M8gzUucj7C" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="act2" />
     </node>
@@ -297,7 +301,7 @@
   <node concept="2cz0EU" id="74VLc6kV4Hi">
     <property role="TrG5h" value="duty1" />
     <property role="3GE5qa" value="duties" />
-    <node concept="1GVOM6" id="1RigOKPbT_Q" role="1GVO30">
+    <node concept="1GVOM6" id="4_2puRSSLYJ" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="duty1" />
     </node>

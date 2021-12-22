@@ -21,7 +21,7 @@ class NsxAsyncTextLineClientImpl(private val httpClient: HttpClient) : AsyncText
     }
 
     @Suppress("EXPERIMENTAL_API_USAGE_FUTURE_ERROR")
-    override fun requestParsing(csv: Path): UUID = runBlocking {
+    override fun requestParsing(csv: Path, documentStructure: String): UUID = runBlocking {
         val result = httpClient.submitFormWithBinaryData<NsxTextLinesForVersionRequestId>(
             "publicatieparsings",
             formData {
@@ -29,7 +29,7 @@ class NsxAsyncTextLineClientImpl(private val httpClient: HttpClient) : AsyncText
                     append(HttpHeaders.ContentType, ContentType.Text.CSV.toString())
                     append(HttpHeaders.ContentDisposition, "filename=${csv.fileName}")
                 })
-                append("documentStructure", "EUR-LEX")
+                append("documentStructure", documentStructure)
             }
         )
         result.id
@@ -67,16 +67,18 @@ class NsxAsyncTextLineClientImpl(private val httpClient: HttpClient) : AsyncText
 
         override val structure: String = nsxTextLine.fixedStructure
         override val type: String? = nsxTextLine.type
-        override val teken: String? = nsxTextLine.listIndex ?: if (nsxTextLine.isPrefixLine()) nsxTextLine.structuurkenmerk?.number else null
+        override val teken: String? =
+            nsxTextLine.listIndex ?: if (nsxTextLine.isPrefixLine()) nsxTextLine.structuurkenmerk?.number else null
         override val bibliographicIdentifierString: String? = nsxTextLine.bibliographicIdentifierString
         override val text: String = nsxTextLine.text
         override val id: String = nsxTextLine.iri
-        override val textNodeType: String = nsxTextLine.textNodeType
+        override val textNodeType: String = nsxTextLine.fixedTextNodeType
         override val parent: String? = nsxTextLine.parent
         override val next: String? = nsxTextLine.next
         override val number: String? = nsxTextLine.structuurkenmerk?.number
+
         override fun toString(): String {
-            return "AnAsyncTextLine(structure='$structure', type=$type, teken=$teken, bibliographicIdentifierString=$bibliographicIdentifierString, text='$text', id='$id', textNodeType='$textNodeType', parent='$parent')"
+            return "AnAsyncTextLine(id='$id', teken=$teken, text='$text', structure='$structure', type=$type, bibliographicIdentifierString=$bibliographicIdentifierString, textNodeType='$textNodeType', parent=$parent, next=$next, number=$number)"
         }
     }
 }

@@ -143,7 +143,7 @@ internal class AsyncTextLineClientImplTest {
         val csv = getTestFilePath("gdpr_2021102325.csv")
 
         val requestId = isFakeHttpReturn { UUID.fromString("2985ac91-54fe-4aeb-b491-94a16d7fd87b") }
-            ?: textLineClient.requestParsing(csv)
+            ?: textLineClient.requestParsing(csv, "EUR-LEX")
 
         mockRequestResult = MockRequestResult(
             csvResult,
@@ -184,6 +184,11 @@ internal class AsyncTextLineClientImplTest {
         )
 
         assertEquals(1499, results.size)
+
+        val article5Lid1 = results.first { it.text == "Persoonsgegevens moeten:" }
+        assertEquals(article5Lid1.id, "https://calculemus.org/36161099-6dfb-4f27-88d3-d8bd235da75c")
+        println(article5Lid1)
+
         val textLine = results[1415]
         assertEquals(
             "Verwerking en vrijheid van meningsuiting en van informatie",
