@@ -24,15 +24,15 @@
           "text": "More ricipient words",
           "tags": [
             {
-              "role": "Recipient",
+              "roles": ["Recipient"],
               "word": 1
             },
             {
-              "role": "Recipient",
+              "roles": ["Recipient"],
               "word": 2
             },
             {
-              "role": "Recipient",
+              "roles": ["Recipient"],
               "word": 3
             }
           ],
@@ -46,11 +46,11 @@
           "text": "This is a recipient words",
           "tags": [
             {
-              "role": "Recipient",
+              "roles": ["Recipient"],
               "word": 4
             },
             {
-              "role": "Recipient",
+              "roles": ["Recipient"],
               "word": 5
             }
           ],
@@ -80,11 +80,11 @@
           "text": "Herpa Derpa merpa derp merp",
           "tags": [
             {
-              "role": "Object",
+              "roles": ["Object"],
               "word": 2
             },
             {
-              "role": "ActName",
+              "roles": ["ActName"],
               "word": 4
             }
           ],
@@ -98,23 +98,23 @@
           "text": "Test text 321 derp hi actor",
           "tags": [
             {
-              "role": "Object",
+              "roles": ["Object"],
               "word": 2
             },
             {
-              "role": "Object",
+              "roles": ["Object"],
               "word": 3
             },
             {
-              "role": "Action",
+              "roles": ["Action"],
               "word": 4
             },
             {
-              "role": "ActName",
+              "roles": ["ActName"],
               "word": 5
             },
             {
-              "role": "Actor",
+              "roles": ["Actor"],
               "word": 6
             }
           ],
@@ -156,7 +156,7 @@
           "text": "Test 321 Derp actor",
           "tags": [
             {
-              "role": "Actor",
+              "roles": ["Actor"],
               "word": 4
             }
           ],

@@ -18,15 +18,21 @@
           "text": "Hello this is a test",
           "tags": [
             {
-              "role": "ActName",
+              "roles": [
+                "ActName"
+              ],
               "word": 1
             },
             {
-              "role": "Actor",
+              "roles": [
+                "Actor"
+              ],
               "word": 2
             },
             {
-              "role": "Action",
+              "roles": [
+                "Action"
+              ],
               "word": 5
             }
           ],
