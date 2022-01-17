@@ -3,9 +3,9 @@ package org.discipl.flint.sources
 import io.ktor.client.*
 import io.ktor.client.engine.*
 import io.ktor.client.engine.apache.*
-import io.ktor.client.features.*
-import io.ktor.client.features.json.*
-import io.ktor.client.features.logging.*
+import io.ktor.client.plugins.*
+import io.ktor.client.plugins.json.*
+import io.ktor.client.plugins.logging.*
 import io.ktor.http.*
 import org.apache.http.client.HttpClient
 import org.apache.http.client.config.RequestConfig
