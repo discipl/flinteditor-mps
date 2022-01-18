@@ -3,6 +3,7 @@ package org.discpl.flint
 import org.discipl.flint.*
 import org.hamcrest.MatcherAssert.assertThat
 import org.hamcrest.Matchers.*
+import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 import java.io.InputStreamReader
@@ -189,6 +190,38 @@ internal class FlintParserTest {
                 val fact = projectionExpressions.first().fact
                 val factReference = FactReference("bedrag")
                 assertThat(fact, `is`(equalTo(factReference as Resolvable)))
+            }
+        }
+    }
+
+    @Test
+    fun getLanguage(){
+        this::class.java.classLoader.getResourceAsStream("projection-and-create.flint.json").use {
+            InputStreamReader(it).use {
+                val text = it.readText()
+                val flintParser = FlintParser(text)
+                val language = flintParser.getLanguage()
+                val correctLanguage: Language = Language("Dutch","naam","daden","feiten",
+                    "plichten","functie","referentie","taak-eigenaar","eiser",
+                    "maak","beindig","taak-onderdelen","uitleg","actie-ondernemer",
+                    "actie","object","ontvanger","pre-conditie","taal","bronnen",
+                    "tekst","Vind lijn in Bron","geldig vanaf","geldig tot")
+                println("[LANGUAGE_CHECK] $language")
+                assertEquals(correctLanguage,language)
+            }
+        }
+        this::class.java.classLoader.getResourceAsStream("test-Vreemdelingenwet.flint.json").use {
+            InputStreamReader(it).use {
+                val text = it.readText()
+                val flintParser = FlintParser(text)
+                val language = flintParser.getLanguage()
+                val correctLanguage: Language = Language("English","name","acts","facts",
+                    "duties","function","references","duty-holder","claimaint",
+                    "create","terminate","duty-components","explanation","actor",
+                    "action","object","recipient","preconditions","language","sources",
+                    "text","Find line in Source","valid from","valid to")
+                println("[LANGUAGE_CHECK] $language")
+                assertEquals(correctLanguage,language)
             }
         }
     }

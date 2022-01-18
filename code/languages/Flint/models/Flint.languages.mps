@@ -17,7 +17,7 @@
         <property id="3001846011087139886" name="eFunction" index="30Vgs$" />
         <property id="3001846011087139884" name="eName" index="30VgsA" />
         <property id="3001846011087139889" name="eReferences" index="30VgsV" />
-        <property id="3001846011087141580" name="eClaimaint" index="30VgB6" />
+        <property id="3001846011087141580" name="eClaimant" index="30VgB6" />
         <property id="3001846011087141575" name="eDutyHolder" index="30VgBd" />
         <property id="3001846011087141593" name="eTerminate" index="30VgBj" />
         <property id="3001846011087141586" name="eCreate" index="30VgBo" />

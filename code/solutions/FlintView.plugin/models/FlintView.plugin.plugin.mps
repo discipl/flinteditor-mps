@@ -313,6 +313,9 @@
         <node concept="35c_gC" id="19XK2H0eJzP" role="37wK5m">
           <ref role="35c_gD" to="srlv:1nyeVyNiRPP" resolve="Article" />
         </node>
+        <node concept="35c_gC" id="6$5jl5SdzCa" role="37wK5m">
+          <ref role="35c_gD" to="lnwe:2ACGKFDB3mq" resolve="Language" />
+        </node>
       </node>
     </node>
     <node concept="14aYG3" id="7xGQzaIVa3z" role="14aYEy">
@@ -322,6 +325,52 @@
         <ref role="3cqZAo" to="xnls:~IdeIcons.CLOSED_FOLDER" resolve="CLOSED_FOLDER" />
         <ref role="1PxDUh" to="xnls:~IdeIcons" resolve="IdeIcons" />
       </node>
+    </node>
+    <node concept="14aYG3" id="6$5jl5SaTL$" role="14aYEy">
+      <property role="TrG5h" value="languageFolder" />
+      <ref role="3GDMyY" node="7xGQzaIVa3z" resolve="nodeFolder" />
+      <ref role="14a85i" node="7diJr$Rw$m0" resolve="model" />
+      <node concept="2OqwBi" id="6$5jl5SbOZ9" role="14a853">
+        <node concept="2YIFZM" id="6$5jl5SbOCo" role="2Oq$k0">
+          <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
+          <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
+          <node concept="14b0Wr" id="6$5jl5SbOJ5" role="37wK5m">
+            <ref role="14b0Uw" node="7diJr$Rw$m0" resolve="model" />
+          </node>
+        </node>
+        <node concept="3TrcHB" id="6$5jl5SbPpA" role="2OqNvi">
+          <ref role="3TsBF5" to="lnwe:1kyaHg5wV$R" resolve="eLanguage" />
+        </node>
+      </node>
+      <node concept="2OqwBi" id="6$5jl5SbQ$x" role="3aIZ52">
+        <node concept="2YIFZM" id="6$5jl5SbPHo" role="2Oq$k0">
+          <ref role="1Pybhc" node="480JVLcGWRz" resolve="HelperFunctions" />
+          <ref role="37wK5l" node="7xGQzaJ1htA" resolve="getRootNodesByConcept" />
+          <node concept="14b0Wr" id="6$5jl5SbPZg" role="37wK5m">
+            <ref role="14b0Uw" node="7diJr$Rw$m0" resolve="model" />
+          </node>
+          <node concept="35c_gC" id="6$5jl5SbQdE" role="37wK5m">
+            <ref role="35c_gD" to="lnwe:2ACGKFDB3mq" resolve="Language" />
+          </node>
+        </node>
+        <node concept="3GX2aA" id="6$5jl5SbRqt" role="2OqNvi" />
+      </node>
+    </node>
+    <node concept="14aYG3" id="6$5jl5SaZ2b" role="14aYEy">
+      <property role="TrG5h" value="languageNode" />
+      <ref role="3GDMyY" node="3ZnFyBjojbx" resolve="node" />
+      <ref role="14a85i" node="6$5jl5SaTL$" resolve="languageFolder" />
+      <node concept="2YIFZM" id="6$5jl5Sb0bB" role="14bQOc">
+        <ref role="1Pybhc" node="480JVLcGWRz" resolve="HelperFunctions" />
+        <ref role="37wK5l" node="7xGQzaJ1htA" resolve="getRootNodesByConcept" />
+        <node concept="14b0Wr" id="6$5jl5Sb3u6" role="37wK5m">
+          <ref role="14b0Uw" node="7diJr$Rw$m0" resolve="model" />
+        </node>
+        <node concept="35c_gC" id="6$5jl5Sb3Au" role="37wK5m">
+          <ref role="35c_gD" to="lnwe:2ACGKFDB3mq" resolve="Language" />
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="6$5jl5Sb2JD" role="3GGxor" />
     </node>
     <node concept="14aYG3" id="7xGQzaIZ3LH" role="14aYEy">
       <property role="TrG5h" value="floatingNodeFolderFlintmodel" />

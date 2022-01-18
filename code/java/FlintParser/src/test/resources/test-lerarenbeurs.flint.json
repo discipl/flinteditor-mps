@@ -1,4 +1,30 @@
 {
+  "language": {
+    "languageName": "English",
+    "name": "name",
+    "acts": "acts",
+    "facts": "facts",
+    "duties": "duties",
+    "function": "function",
+    "references": "references",
+    "dutyHolder": "duty-holder",
+    "claimant": "claimaint",
+    "create": "create",
+    "terminate": "terminate",
+    "dutyComponents": "duty-components",
+    "explanation": "explanation",
+    "actor": "actor",
+    "action": "action",
+    "eObject": "object",
+    "recipient": "recipient",
+    "precondition": "preconditions",
+    "language": "language",
+    "sources": "sources",
+    "text": "text",
+    "findLineInSource": "Find line in Source",
+    "validFrom": "valid from",
+    "validTo": "valid to"
+  },
   "acts": [
     {
       "act": "<<indienen verzoek een besluit te nemen>>",
