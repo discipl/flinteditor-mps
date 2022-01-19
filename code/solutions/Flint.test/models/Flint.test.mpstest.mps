@@ -320,6 +320,7 @@
         <reference id="7402439007429942663" name="act" index="3jSua9" />
       </concept>
       <concept id="4808965957220771074" name="Flint.structure.AND" flags="ng" index="1zEWgd" />
+      <concept id="4808965957220776510" name="Flint.structure.LESS_THAN" flags="ng" index="1zEXGL" />
       <concept id="4808965957220776525" name="Flint.structure.OR" flags="ng" index="1zEXH2" />
       <concept id="4808965957220776522" name="Flint.structure.NOT" flags="ng" index="1zEXH5" />
       <concept id="4808965957220776513" name="Flint.structure.LIST" flags="ng" index="1zEXHe" />
@@ -347,6 +348,10 @@
       </concept>
       <concept id="6587498613242404529" name="Flint.structure.FactReference" flags="ng" index="1FQA6B">
         <reference id="6587498613242404530" name="fact" index="1FQA6$" />
+      </concept>
+      <concept id="491685697582699846" name="Flint.structure.PROJECTION" flags="ng" index="1Rn4jf">
+        <child id="491685697582722527" name="context" index="1Rn3Lm" />
+        <child id="491685697582722529" name="fact" index="1Rn3LC" />
       </concept>
       <concept id="491685697582670580" name="Flint.structure.CREATE" flags="ng" index="1RnfdX" />
     </language>
@@ -4722,6 +4727,474 @@
       </node>
       <node concept="3clFbH" id="mUS$m9oz9d" role="3cqZAp" />
       <node concept="3clFbH" id="mUS$m9omlR" role="3cqZAp" />
+    </node>
+  </node>
+  <node concept="LiM7Y" id="4DLYcFhOWcH">
+    <property role="TrG5h" value="TestJsonImporterTaggedWords" />
+    <node concept="1qefOq" id="4DLYcFhOWcI" role="25YQCW">
+      <node concept="3_ImHQ" id="4DLYcFhOWcJ" role="1qenE9">
+        <node concept="LIFWc" id="4DLYcFhOWcK" role="lGtFl">
+          <property role="ZRATv" value="true" />
+          <property role="OXtK3" value="true" />
+          <property role="p6zMq" value="0" />
+          <property role="p6zMs" value="0" />
+          <property role="LIFWd" value="property_name" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="4DLYcFhOWcL" role="25YQFr">
+      <node concept="3_ImHQ" id="4DLYcFhOWcM" role="1qenE9">
+        <property role="TrG5h" value="test-model-with-tags" />
+        <node concept="cu0$f" id="4DLYcFhRmCh" role="3_ImGK">
+          <property role="TrG5h" value="bedrag" />
+          <property role="3GE5qa" value="facts" />
+          <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+        </node>
+        <node concept="cu0$f" id="4DLYcFhRmCi" role="3_ImGK">
+          <property role="TrG5h" value="aanvraag" />
+          <property role="3GE5qa" value="facts" />
+          <node concept="1RnfdX" id="4DLYcFhRmCj" role="coNO9">
+            <node concept="1FQA6B" id="4DLYcFhRmCk" role="1zF96y">
+              <ref role="1FQA6$" node="4DLYcFhRmCl" resolve="burger" />
+            </node>
+            <node concept="1FQA6B" id="4DLYcFhRnVH" role="1zF96y">
+              <ref role="1FQA6$" node="4DLYcFhRmCh" resolve="bedrag" />
+            </node>
+          </node>
+        </node>
+        <node concept="cu0$f" id="4DLYcFhRmCl" role="3_ImGK">
+          <property role="TrG5h" value="burger" />
+          <property role="3GE5qa" value="facts" />
+          <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+        </node>
+        <node concept="cu0$f" id="4DLYcFhRmCn" role="3_ImGK">
+          <property role="TrG5h" value="bedrag projection" />
+          <property role="3GE5qa" value="facts" />
+          <node concept="1Rn4jf" id="4DLYcFhRmCo" role="coNO9">
+            <node concept="1FQA6B" id="4DLYcFhRnVT" role="1Rn3Lm">
+              <ref role="1FQA6$" node="4DLYcFhRmCi" resolve="aanvraag" />
+            </node>
+            <node concept="1FQA6B" id="4DLYcFhRnW4" role="1Rn3LC">
+              <ref role="1FQA6$" node="4DLYcFhRmCh" resolve="bedrag" />
+            </node>
+          </node>
+        </node>
+        <node concept="cu0$f" id="4DLYcFhRmCr" role="3_ImGK">
+          <property role="TrG5h" value="verzoek" />
+          <property role="3GE5qa" value="facts" />
+          <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+        </node>
+        <node concept="cu0$f" id="4DLYcFhRmCs" role="3_ImGK">
+          <property role="TrG5h" value="ambtenaar" />
+          <property role="3GE5qa" value="facts" />
+        </node>
+        <node concept="cu0$f" id="4DLYcFhRmCt" role="3_ImGK">
+          <property role="TrG5h" value="burger met aanvraag" />
+          <property role="3GE5qa" value="facts" />
+          <node concept="1Rn4jf" id="4DLYcFhRmCu" role="coNO9">
+            <node concept="1FQA6B" id="4DLYcFhRnWf" role="1Rn3Lm">
+              <ref role="1FQA6$" node="4DLYcFhRmCi" resolve="aanvraag" />
+            </node>
+            <node concept="1FQA6B" id="4DLYcFhRnWq" role="1Rn3LC">
+              <ref role="1FQA6$" node="4DLYcFhRmCh" resolve="bedrag" />
+            </node>
+          </node>
+        </node>
+        <node concept="cu0$f" id="4DLYcFhRmCx" role="3_ImGK">
+          <property role="TrG5h" value="person" />
+          <property role="3GE5qa" value="facts" />
+        </node>
+        <node concept="cu0$f" id="4DLYcFhRmD3" role="3_ImGK">
+          <property role="TrG5h" value="anvrage" />
+          <property role="3GE5qa" value="facts" />
+          <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+        </node>
+        <node concept="cu0$f" id="4DLYcFhRmDO" role="3_ImGK">
+          <property role="TrG5h" value="oekenne" />
+          <property role="3GE5qa" value="facts" />
+          <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+        </node>
+        <node concept="cu0$f" id="4DLYcFhRmDZ" role="3_ImGK">
+          <property role="TrG5h" value="ntrekke" />
+          <property role="3GE5qa" value="facts" />
+          <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+        </node>
+        <node concept="cu0$f" id="4DLYcFhRmEh" role="3_ImGK">
+          <property role="TrG5h" value="fwijze" />
+          <property role="3GE5qa" value="facts" />
+          <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+        </node>
+        <node concept="mu5$5" id="4DLYcFhRmCy" role="3_ImHT">
+          <property role="TrG5h" value="subsidie aanvragen" />
+          <property role="3GE5qa" value="acts" />
+          <node concept="cog_b" id="4DLYcFhRmCB" role="2pmM46">
+            <ref role="cog$q" node="4DLYcFhRmCf" resolve="Source3" />
+            <node concept="2hPCcK" id="4DLYcFhRmCC" role="2hN6Sa">
+              <node concept="2h$EKm" id="4DLYcFhRmCG" role="19SJt6">
+                <property role="19SUeA" value="More" />
+                <node concept="2UK0tq" id="4DLYcFhRmCH" role="2h$EKj">
+                  <property role="2UK0tr" value="4AIlyP2wQBx/Recipient" />
+                </node>
+              </node>
+              <node concept="19SUe$" id="4DLYcFhRmCF" role="19SJt6">
+                <property role="19SUeA" value=" " />
+              </node>
+              <node concept="2h$EKm" id="4DLYcFhRmCK" role="19SJt6">
+                <property role="19SUeA" value="ricipient" />
+                <node concept="2UK0tq" id="4DLYcFhRmCL" role="2h$EKj">
+                  <property role="2UK0tr" value="4AIlyP2wQBx/Recipient" />
+                </node>
+              </node>
+              <node concept="19SUe$" id="4DLYcFhRmCJ" role="19SJt6">
+                <property role="19SUeA" value=" " />
+              </node>
+              <node concept="2h$EKm" id="4DLYcFhRmCO" role="19SJt6">
+                <property role="19SUeA" value="words" />
+                <node concept="2UK0tq" id="4DLYcFhRmCP" role="2h$EKj">
+                  <property role="2UK0tr" value="4AIlyP2wQBx/Recipient" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="cog_b" id="4DLYcFhRmCQ" role="2pmM46">
+            <ref role="cog$q" node="4DLYcFhRmCg" resolve="TestSource" />
+            <node concept="2hPCcK" id="4DLYcFhRmCR" role="2hN6Sa">
+              <node concept="19SUe$" id="4DLYcFhRmCS" role="19SJt6">
+                <property role="19SUeA" value="This is a " />
+              </node>
+              <node concept="2h$EKm" id="4DLYcFhRmCW" role="19SJt6">
+                <property role="19SUeA" value="recipient" />
+                <node concept="2UK0tq" id="4DLYcFhRmCX" role="2h$EKj">
+                  <property role="2UK0tr" value="4AIlyP2wQBx/Recipient" />
+                </node>
+              </node>
+              <node concept="19SUe$" id="4DLYcFhRmCV" role="19SJt6">
+                <property role="19SUeA" value=" " />
+              </node>
+              <node concept="2h$EKm" id="4DLYcFhRmD0" role="19SJt6">
+                <property role="19SUeA" value="words" />
+                <node concept="2UK0tq" id="4DLYcFhRmD1" role="2h$EKj">
+                  <property role="2UK0tr" value="4AIlyP2wQBx/Recipient" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1FQA6B" id="4DLYcFhRnSK" role="3FTnq6">
+            <ref role="1FQA6$" node="4DLYcFhRmD3" resolve="anvrage" />
+          </node>
+          <node concept="1FQA6B" id="4DLYcFhRnS_" role="3H36mW">
+            <ref role="1FQA6$" node="4DLYcFhRmCl" resolve="burger" />
+          </node>
+          <node concept="1FQA6B" id="4DLYcFhRnSV" role="3H36l7">
+            <ref role="1FQA6$" node="4DLYcFhRmCr" resolve="verzoek" />
+          </node>
+          <node concept="1FQA6B" id="4DLYcFhRnT6" role="3H36lm">
+            <ref role="1FQA6$" node="4DLYcFhRmCs" resolve="ambtenaar" />
+          </node>
+          <node concept="1zEWgd" id="4DLYcFhRmD7" role="mu3T0">
+            <node concept="1FQA6B" id="4DLYcFhRnTh" role="1zF96y">
+              <ref role="1FQA6$" node="4DLYcFhRmCh" resolve="bedrag" />
+            </node>
+            <node concept="1FQA6B" id="4DLYcFhRnTt" role="1zF96y">
+              <ref role="1FQA6$" node="4DLYcFhRmCn" resolve="bedrag projection" />
+            </node>
+          </node>
+        </node>
+        <node concept="mu5$5" id="4DLYcFhRmDa" role="3_ImHT">
+          <property role="TrG5h" value="subsidie aanvraag toekennen" />
+          <property role="3GE5qa" value="acts" />
+          <node concept="cog_b" id="4DLYcFhRmDf" role="2pmM46">
+            <ref role="cog$q" node="4DLYcFhRmCg" resolve="TestSource" />
+            <node concept="2hPCcK" id="4DLYcFhRmDg" role="2hN6Sa">
+              <node concept="19SUe$" id="4DLYcFhRmDh" role="19SJt6">
+                <property role="19SUeA" value="Herpa " />
+              </node>
+              <node concept="2h$EKm" id="4DLYcFhRmDl" role="19SJt6">
+                <property role="19SUeA" value="Derpa" />
+                <node concept="2UK0tq" id="4DLYcFhRmDm" role="2h$EKj">
+                  <property role="2UK0tr" value="4AIlyP2wQBp/Object" />
+                </node>
+              </node>
+              <node concept="19SUe$" id="4DLYcFhRmDk" role="19SJt6">
+                <property role="19SUeA" value=" merpa " />
+              </node>
+              <node concept="2h$EKm" id="4DLYcFhRmDp" role="19SJt6">
+                <property role="19SUeA" value="derp" />
+                <node concept="2UK0tq" id="4DLYcFhRmDq" role="2h$EKj">
+                  <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
+                </node>
+              </node>
+              <node concept="19SUe$" id="4DLYcFhRmDo" role="19SJt6">
+                <property role="19SUeA" value=" merp" />
+              </node>
+            </node>
+          </node>
+          <node concept="cog_b" id="4DLYcFhRmDr" role="2pmM46">
+            <ref role="cog$q" node="4DLYcFhRmCf" resolve="Source3" />
+            <node concept="2hPCcK" id="4DLYcFhRmDs" role="2hN6Sa">
+              <node concept="19SUe$" id="4DLYcFhRmDt" role="19SJt6">
+                <property role="19SUeA" value="Test " />
+              </node>
+              <node concept="2h$EKm" id="4DLYcFhRmDx" role="19SJt6">
+                <property role="19SUeA" value="text" />
+                <node concept="2UK0tq" id="4DLYcFhRmDy" role="2h$EKj">
+                  <property role="2UK0tr" value="4AIlyP2wQBp/Object" />
+                </node>
+              </node>
+              <node concept="19SUe$" id="4DLYcFhRmDw" role="19SJt6">
+                <property role="19SUeA" value=" " />
+              </node>
+              <node concept="2h$EKm" id="4DLYcFhRmD_" role="19SJt6">
+                <property role="19SUeA" value="321" />
+                <node concept="2UK0tq" id="4DLYcFhRmDA" role="2h$EKj">
+                  <property role="2UK0tr" value="4AIlyP2wQBp/Object" />
+                </node>
+              </node>
+              <node concept="19SUe$" id="4DLYcFhRmD$" role="19SJt6">
+                <property role="19SUeA" value=" " />
+              </node>
+              <node concept="2h$EKm" id="4DLYcFhRmDD" role="19SJt6">
+                <property role="19SUeA" value="derp" />
+                <node concept="2UK0tq" id="4DLYcFhRmDE" role="2h$EKj">
+                  <property role="2UK0tr" value="4AIlyP2wQAP/Action" />
+                </node>
+              </node>
+              <node concept="19SUe$" id="4DLYcFhRmDC" role="19SJt6">
+                <property role="19SUeA" value=" " />
+              </node>
+              <node concept="2h$EKm" id="4DLYcFhRmDH" role="19SJt6">
+                <property role="19SUeA" value="hi" />
+                <node concept="2UK0tq" id="4DLYcFhRmDI" role="2h$EKj">
+                  <property role="2UK0tr" value="4AIlyP2wQAM/ActName" />
+                </node>
+              </node>
+              <node concept="19SUe$" id="4DLYcFhRmDG" role="19SJt6">
+                <property role="19SUeA" value=" " />
+              </node>
+              <node concept="2h$EKm" id="4DLYcFhRmDL" role="19SJt6">
+                <property role="19SUeA" value="actor" />
+                <node concept="2UK0tq" id="4DLYcFhRmDM" role="2h$EKj">
+                  <property role="2UK0tr" value="4AIlyP2wQAL/Actor" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1FQA6B" id="4DLYcFhRnTO" role="3FTnq6">
+            <ref role="1FQA6$" node="4DLYcFhRmDO" resolve="oekenne" />
+          </node>
+          <node concept="1FQA6B" id="4DLYcFhRnTD" role="3H36mW">
+            <ref role="1FQA6$" node="4DLYcFhRmCs" resolve="ambtenaar" />
+          </node>
+          <node concept="1FQA6B" id="4DLYcFhRnTZ" role="3H36l7">
+            <ref role="1FQA6$" node="4DLYcFhRmCi" resolve="aanvraag" />
+          </node>
+          <node concept="1FQA6B" id="4DLYcFhRnUa" role="3H36lm">
+            <ref role="1FQA6$" node="4DLYcFhRmCl" resolve="burger" />
+          </node>
+          <node concept="1zEXGL" id="4DLYcFhRmDS" role="mu3T0" />
+        </node>
+        <node concept="mu5$5" id="4DLYcFhRmDT" role="3_ImHT">
+          <property role="TrG5h" value="subsidie intrekken" />
+          <property role="3GE5qa" value="acts" />
+          <node concept="1FQA6B" id="4DLYcFhRnUw" role="3FTnq6">
+            <ref role="1FQA6$" node="4DLYcFhRmDZ" resolve="ntrekke" />
+          </node>
+          <node concept="1FQA6B" id="4DLYcFhRnUl" role="3H36mW">
+            <ref role="1FQA6$" node="4DLYcFhRmCt" resolve="burger met aanvraag" />
+          </node>
+          <node concept="1FQA6B" id="4DLYcFhRnUF" role="3H36l7">
+            <ref role="1FQA6$" node="4DLYcFhRmCi" resolve="aanvraag" />
+          </node>
+          <node concept="1FQA6B" id="4DLYcFhRnUQ" role="3H36lm">
+            <ref role="1FQA6$" node="4DLYcFhRmCs" resolve="ambtenaar" />
+          </node>
+        </node>
+        <node concept="mu5$5" id="4DLYcFhRmE3" role="3_ImHT">
+          <property role="TrG5h" value="subsidie aanvraag afwijzen" />
+          <property role="3GE5qa" value="acts" />
+          <node concept="cog_b" id="4DLYcFhRmE8" role="2pmM46">
+            <ref role="cog$q" node="4DLYcFhRmCf" resolve="Source3" />
+            <node concept="2hPCcK" id="4DLYcFhRmE9" role="2hN6Sa">
+              <node concept="19SUe$" id="4DLYcFhRmEa" role="19SJt6">
+                <property role="19SUeA" value="Test 321 Derp " />
+              </node>
+              <node concept="2h$EKm" id="4DLYcFhRmEe" role="19SJt6">
+                <property role="19SUeA" value="actor" />
+                <node concept="2UK0tq" id="4DLYcFhRmEf" role="2h$EKj">
+                  <property role="2UK0tr" value="4AIlyP2wQAL/Actor" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1FQA6B" id="4DLYcFhRnVn" role="3FTnq6">
+            <ref role="1FQA6$" node="4DLYcFhRmEh" resolve="fwijze" />
+          </node>
+          <node concept="1FQA6B" id="4DLYcFhRnV1" role="3H36mW">
+            <ref role="1FQA6$" node="4DLYcFhRmCs" resolve="ambtenaar" />
+          </node>
+          <node concept="1FQA6B" id="4DLYcFhRnVc" role="3H36l7">
+            <ref role="1FQA6$" node="4DLYcFhRmCi" resolve="aanvraag" />
+          </node>
+          <node concept="1FQA6B" id="4DLYcFhRnVy" role="3H36lm">
+            <ref role="1FQA6$" node="4DLYcFhRmCl" resolve="burger" />
+          </node>
+          <node concept="1zEXGL" id="4DLYcFhRmEl" role="mu3T0" />
+        </node>
+        <node concept="cog_a" id="4DLYcFhRmCf" role="3_ImGG">
+          <property role="TrG5h" value="Source3" />
+          <property role="3GE5qa" value="sources" />
+          <property role="cog$t" value="" />
+          <property role="cog$m" value="" />
+          <property role="cog$g" value="" />
+        </node>
+        <node concept="cog_a" id="4DLYcFhRmCg" role="3_ImGG">
+          <property role="TrG5h" value="TestSource" />
+          <property role="3GE5qa" value="sources" />
+          <property role="cog$t" value="" />
+          <property role="cog$m" value="" />
+          <property role="cog$g" value="" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="4DLYcFhOWdE" role="LjaKd">
+      <node concept="3cpWs8" id="4DLYcFhOWdF" role="3cqZAp">
+        <node concept="3cpWsn" id="4DLYcFhOWdG" role="3cpWs9">
+          <property role="TrG5h" value="fmodel" />
+          <node concept="3Tqbb2" id="4DLYcFhOWdH" role="1tU5fm">
+            <ref role="ehGHo" to="lnwe:74VLc6k_$IQ" resolve="IFlintModel" />
+          </node>
+          <node concept="1PxgMI" id="4DLYcFhOWdI" role="33vP2m">
+            <node concept="chp4Y" id="4DLYcFhOWdJ" role="3oSUPX">
+              <ref role="cht4Q" to="lnwe:74VLc6k_$IQ" resolve="IFlintModel" />
+            </node>
+            <node concept="2OqwBi" id="4DLYcFhOWdK" role="1m5AlR">
+              <node concept="369mXd" id="4DLYcFhOWdL" role="2Oq$k0" />
+              <node concept="liA8E" id="4DLYcFhOWdM" role="2OqNvi">
+                <ref role="37wK5l" to="exr9:~EditorComponent.getSelectedNode()" resolve="getSelectedNode" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="4DLYcFhOWdN" role="3cqZAp">
+        <node concept="3cpWsn" id="4DLYcFhOWdO" role="3cpWs9">
+          <property role="TrG5h" value="filePath" />
+          <node concept="3uibUv" id="4DLYcFhOWdP" role="1tU5fm">
+            <ref role="3uigEE" to="eoo2:~Path" resolve="Path" />
+          </node>
+          <node concept="2OqwBi" id="4DLYcFhOWdQ" role="33vP2m">
+            <node concept="2OqwBi" id="4DLYcFhOWdR" role="2Oq$k0">
+              <node concept="2YIFZM" id="4DLYcFhOWdS" role="2Oq$k0">
+                <ref role="37wK5l" to="91gc:7ALI6YWYmu7" resolve="getInstance" />
+                <ref role="1Pybhc" to="91gc:2eNuKY2QKZ" resolve="FlintProperties" />
+              </node>
+              <node concept="2S8uIT" id="4DLYcFhOWdT" role="2OqNvi">
+                <ref role="2S8YL0" to="91gc:7FNYdkaI3HX" resolve="testResourcesFolder" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4DLYcFhOWdU" role="2OqNvi">
+              <ref role="37wK5l" to="eoo2:~Path.resolve(java.lang.String)" resolve="resolve" />
+              <node concept="Xl_RD" id="4DLYcFhOWdV" role="37wK5m">
+                <property role="Xl_RC" value="test-model-with-tags.flint.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2xdQw9" id="4DLYcFhPPO2" role="3cqZAp">
+        <property role="2xdLsb" value="h1akgim/info" />
+        <node concept="3cpWs3" id="4DLYcFhPQ8p" role="9lYJi">
+          <node concept="37vLTw" id="4DLYcFhPQnJ" role="3uHU7w">
+            <ref role="3cqZAo" node="4DLYcFhOWdO" resolve="filePath" />
+          </node>
+          <node concept="Xl_RD" id="4DLYcFhPPO4" role="3uHU7B">
+            <property role="Xl_RC" value="file path: " />
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="4DLYcFhOWdW" role="3cqZAp">
+        <node concept="3cpWsn" id="4DLYcFhOWdX" role="3cpWs9">
+          <property role="TrG5h" value="model" />
+          <node concept="17QB3L" id="4DLYcFhOWdY" role="1tU5fm" />
+          <node concept="2YIFZM" id="4DLYcFhOWdZ" role="33vP2m">
+            <ref role="37wK5l" to="eoo2:~Files.readString(java.nio.file.Path)" resolve="readString" />
+            <ref role="1Pybhc" to="eoo2:~Files" resolve="Files" />
+            <node concept="37vLTw" id="4DLYcFhOWe0" role="37wK5m">
+              <ref role="3cqZAo" node="4DLYcFhOWdO" resolve="filePath" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="4DLYcFhOWe1" role="3cqZAp">
+        <node concept="3cpWsn" id="4DLYcFhOWe2" role="3cpWs9">
+          <property role="TrG5h" value="modelAccess" />
+          <node concept="3uibUv" id="4DLYcFhOWe3" role="1tU5fm">
+            <ref role="3uigEE" to="lui2:~ModelAccess" resolve="ModelAccess" />
+          </node>
+          <node concept="2OqwBi" id="4DLYcFhOWe4" role="33vP2m">
+            <node concept="2OqwBi" id="4DLYcFhOWe5" role="2Oq$k0">
+              <node concept="2OqwBi" id="4DLYcFhOWe6" role="2Oq$k0">
+                <node concept="369mXd" id="4DLYcFhOWe7" role="2Oq$k0" />
+                <node concept="liA8E" id="4DLYcFhOWe8" role="2OqNvi">
+                  <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+                </node>
+              </node>
+              <node concept="liA8E" id="4DLYcFhOWe9" role="2OqNvi">
+                <ref role="37wK5l" to="exr9:~EditorContext.getRepository()" resolve="getRepository" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4DLYcFhOWea" role="2OqNvi">
+              <ref role="37wK5l" to="lui2:~SRepository.getModelAccess()" resolve="getModelAccess" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbF" id="4DLYcFhOWeb" role="3cqZAp">
+        <node concept="2OqwBi" id="4DLYcFhOWec" role="3clFbG">
+          <node concept="37vLTw" id="4DLYcFhOWed" role="2Oq$k0">
+            <ref role="3cqZAo" node="4DLYcFhOWe2" resolve="modelAccess" />
+          </node>
+          <node concept="liA8E" id="4DLYcFhOWee" role="2OqNvi">
+            <ref role="37wK5l" to="lui2:~ModelAccess.executeCommandInEDT(java.lang.Runnable)" resolve="executeCommandInEDT" />
+            <node concept="1bVj0M" id="4DLYcFhOWef" role="37wK5m">
+              <node concept="3clFbS" id="4DLYcFhOWeg" role="1bW5cS">
+                <node concept="3cpWs8" id="4DLYcFhOWeh" role="3cqZAp">
+                  <node concept="3cpWsn" id="4DLYcFhOWei" role="3cpWs9">
+                    <property role="TrG5h" value="jsonModelImporter" />
+                    <node concept="3uibUv" id="4DLYcFhOWej" role="1tU5fm">
+                      <ref role="3uigEE" to="472r:4pyf5wBMXch" resolve="JsonModelImporter" />
+                    </node>
+                    <node concept="2ShNRf" id="4DLYcFhOWek" role="33vP2m">
+                      <node concept="1pGfFk" id="4DLYcFhOWel" role="2ShVmc">
+                        <ref role="37wK5l" to="472r:4pyf5wBN2uz" resolve="JsonModelImporter" />
+                        <node concept="37vLTw" id="4DLYcFhOWem" role="37wK5m">
+                          <ref role="3cqZAo" node="4DLYcFhOWdG" resolve="fmodel" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="4DLYcFhOWen" role="3cqZAp">
+                  <node concept="2OqwBi" id="4DLYcFhOWeo" role="3clFbG">
+                    <node concept="37vLTw" id="4DLYcFhOWep" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4DLYcFhOWei" resolve="jsonModelImporter" />
+                    </node>
+                    <node concept="liA8E" id="4DLYcFhOWeq" role="2OqNvi">
+                      <ref role="37wK5l" to="472r:4pyf5wBN3d9" resolve="importModel" />
+                      <node concept="37vLTw" id="4DLYcFhOWer" role="37wK5m">
+                        <ref role="3cqZAo" node="4DLYcFhOWdX" resolve="model" />
+                      </node>
+                      <node concept="Xl_RD" id="4DLYcFhOWes" role="37wK5m">
+                        <property role="Xl_RC" value="test-model-with-tags.flint.json" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

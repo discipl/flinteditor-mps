@@ -105,7 +105,7 @@ data class Source(
         )
 }
 
-data class TaggedWord(val word: Int, val role: String)
+data class TaggedWord(val word: Int, val roles: ArrayList<String>)
 
 data class BaseSource(
     val name: String,
