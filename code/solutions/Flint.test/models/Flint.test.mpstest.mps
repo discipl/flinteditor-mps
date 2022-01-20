@@ -2433,7 +2433,7 @@
           <ref role="37wK5l" to="wyt6:~Thread.sleep(long)" resolve="sleep" />
           <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
           <node concept="3cmrfG" id="4OXxETsLCLB" role="37wK5m">
-            <property role="3cmrfH" value="1000" />
+            <property role="3cmrfH" value="3000" />
           </node>
         </node>
       </node>
@@ -5794,7 +5794,7 @@
           <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
           <ref role="37wK5l" to="wyt6:~Thread.sleep(long)" resolve="sleep" />
           <node concept="3cmrfG" id="4OXxETsKur1" role="37wK5m">
-            <property role="3cmrfH" value="1000" />
+            <property role="3cmrfH" value="3000" />
           </node>
         </node>
       </node>
