@@ -13,7 +13,7 @@ class DemoVersionServiceImpl : VersionService {
 
         ))
     )
-    override fun getVersionsForSourceBWBId(juriconnect: String): List<Version> {
-      return versions.getOrDefault(juriconnect, emptyList())
+    override fun getVersionsForSourceBWBId(bwbId: String): List<Version> {
+      return versions.getOrDefault(bwbId, emptyList())
     }
 }
