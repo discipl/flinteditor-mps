@@ -1,4 +1,30 @@
 {
+  "language": {
+    "languageName": "Dutch",
+    "name": "naam",
+    "acts": "daden",
+    "facts": "feiten",
+    "duties": "plichten",
+    "function": "functie",
+    "references": "referentie",
+    "dutyHolder": "taak-eigenaar",
+    "claimant": "eiser",
+    "create": "maak",
+    "terminate": "beindig",
+    "dutyComponents": "taak-onderdelen",
+    "explanation": "uitleg",
+    "actor": "actie-ondernemer",
+    "action": "actie",
+    "eObject": "object",
+    "recipient": "ontvanger",
+    "precondition": "pre-conditie",
+    "language": "taal",
+    "sources": "bronnen",
+    "text": "tekst",
+    "findLineInSource": "Vind lijn in Bron",
+    "validFrom": "geldig vanaf",
+    "validTo": "geldig tot"
+  },
   "acts": [
     {
       "act": "<<subsidie aanvragen>>",

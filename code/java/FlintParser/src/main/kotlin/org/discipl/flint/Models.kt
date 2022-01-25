@@ -5,7 +5,35 @@ import com.google.gson.annotations.SerializedName
 data class FlintModel(
     val facts: List<Fact> = emptyList(),
     val acts: List<Act> = emptyList(),
-    val duties: List<Duty> = emptyList()
+    val duties: List<Duty> = emptyList(),
+    val language: Language
+)
+
+data class Language(
+    val languageName: String,
+    val name: String,
+    val acts: String,
+    val facts: String,
+    val duties: String,
+    val function: String,
+    val references: String,
+    val dutyHolder: String,
+    val claimant: String,
+    val create: String,
+    val terminate: String,
+    val dutyComponents: String,
+    val explanation: String,
+    val actor: String,
+    val action: String,
+    val eObject: String,
+    val recipient: String,
+    val precondition: String,
+    val language: String,
+    val sources: String,
+    val text: String,
+    val findLineInSource: String,
+    val validFrom: String,
+    val validTo: String,
 )
 
 data class Act(
@@ -105,7 +133,7 @@ data class Source(
         )
 }
 
-data class TaggedWord(val word: Int, val role: String)
+data class TaggedWord(val word: Int, val roles: ArrayList<String>)
 
 data class BaseSource(
     val name: String,

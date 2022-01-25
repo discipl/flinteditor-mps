@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:d268844f-2c2c-4250-a969-3a23a8a2bb02(Flint.structure)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
@@ -37,6 +38,9 @@
       </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
+      </concept>
+      <concept id="8842732777748207592" name="jetbrains.mps.lang.structure.structure.SmartReferenceAttribute" flags="ng" index="RPilO">
+        <reference id="8842732777748207597" name="charactersticReference" index="RPilL" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <property id="1096454100552" name="rootable" index="19KtqR" />
@@ -124,14 +128,14 @@
     <property role="34LRSv" value="Fact" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="2vpCevmrPiH" role="PzmwI">
-      <ref role="PrY4T" node="2vpCevmrg7e" resolve="IUniquelyName" />
-    </node>
     <node concept="1TJgyj" id="5Xjenljc0hW" role="1TKVEi">
       <property role="IQ2ns" value="6868897032739751036" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="function" />
       <ref role="20lvS9" node="4OBWPp15Tuc" resolve="Resolvable" />
+    </node>
+    <node concept="PrWs8" id="3WaefmjZcHR" role="PzmwI">
+      <ref role="PrY4T" node="2vpCevmrg7e" resolve="IUniquelyName" />
     </node>
     <node concept="PrWs8" id="5Xjenljcz1f" role="PzmwI">
       <ref role="PrY4T" node="5Xjenljcz12" resolve="IExplainable" />
@@ -270,6 +274,9 @@
     </node>
     <node concept="PrWs8" id="1DVZuk_n_MH" role="PzmwI">
       <ref role="PrY4T" node="1DVZuk_n$Nm" resolve="IReference" />
+    </node>
+    <node concept="RPilO" id="23uPkDaCFAH" role="lGtFl">
+      <ref role="RPilL" node="5HFvLoKGhUM" resolve="fact" />
     </node>
   </node>
   <node concept="1TIwiD" id="7PeSHTFdFJr">
@@ -1247,6 +1254,32 @@
     <property role="TrG5h" value="IHasLanguage" />
     <node concept="PrWs8" id="1bPqaB7QQFA" role="PrDN$">
       <ref role="PrY4T" to="a78y:1bPqaB7Hr7H" resolve="IProvidesTranslatedCell" />
+    </node>
+    <node concept="PrWs8" id="4_s3JQD51Kq" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="4BELQW_1ouJ" role="1TKVEi">
+      <property role="IQ2ns" value="5326288789495449519" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="translatedNames" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="4BELQW_1oJD" resolve="TranslatedName" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4BELQW_1oJD">
+    <property role="EcuMT" value="5326288789495450601" />
+    <property role="TrG5h" value="TranslatedName" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="4BELQW_1p0y" role="1TKVEl">
+      <property role="IQ2nx" value="5326288789495451682" />
+      <property role="TrG5h" value="language" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="4BELQW_1p0$" role="1TKVEl">
+      <property role="IQ2nx" value="5326288789495451684" />
+      <property role="TrG5h" value="translatedName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>

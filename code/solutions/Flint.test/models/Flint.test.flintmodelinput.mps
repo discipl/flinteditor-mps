@@ -56,6 +56,9 @@
       <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
         <child id="6983418503075280678" name="sources" index="2pmM46" />
       </concept>
+      <concept id="589729100932390229" name="Flint.structure.IHasLanguage" flags="ng" index="ITzSF">
+        <child id="5326288789495449519" name="translatedNames" index="1GVO30" />
+      </concept>
       <concept id="2986354165693918736" name="Flint.structure.SRole" flags="ng" index="2UK0tq">
         <property id="2986354165693918737" name="role" index="2UK0tr" />
       </concept>
@@ -79,6 +82,10 @@
       </concept>
       <concept id="6587498613242404529" name="Flint.structure.FactReference" flags="ng" index="1FQA6B">
         <reference id="6587498613242404530" name="fact" index="1FQA6$" />
+      </concept>
+      <concept id="5326288789495450601" name="Flint.structure.TranslatedName" flags="ng" index="1GVOM6">
+        <property id="5326288789495451684" name="translatedName" index="1GVPtb" />
+        <property id="5326288789495451682" name="language" index="1GVPtd" />
       </concept>
       <concept id="491685697582699846" name="Flint.structure.PROJECTION" flags="ng" index="1Rn4jf">
         <child id="491685697582722527" name="context" index="1Rn3Lm" />
@@ -127,18 +134,34 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="4_2puRSSM1w" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="Fact1" />
+    </node>
   </node>
   <node concept="cu0$f" id="74VLc6kV4GJ">
     <property role="TrG5h" value="Fact2" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="4_2puRSSM2t" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="Fact2" />
+    </node>
   </node>
   <node concept="cu0$f" id="74VLc6kV4GK">
     <property role="TrG5h" value="Fact3" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="4_2puRSSM3r" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="Fact3" />
+    </node>
   </node>
   <node concept="cu0$f" id="74VLc6kV4GL">
     <property role="TrG5h" value="Fact4" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="4_2puRSSM4q" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="Fact4" />
+    </node>
   </node>
   <node concept="cu0$f" id="74VLc6kV4GM">
     <property role="TrG5h" value="CreateFact" />
@@ -147,6 +170,10 @@
       <node concept="1FQA6B" id="74VLc6kV4GO" role="1zF96y">
         <ref role="1FQA6$" node="74VLc6kV4GL" resolve="Fact4" />
       </node>
+    </node>
+    <node concept="1GVOM6" id="4_2puRSSM0$" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="CreateFact" />
     </node>
   </node>
   <node concept="cu0$f" id="74VLc6kV4GP">
@@ -159,6 +186,10 @@
       <node concept="1FQA6B" id="74VLc6kV4GS" role="1Rn3LC">
         <ref role="1FQA6$" node="74VLc6kV4GL" resolve="Fact4" />
       </node>
+    </node>
+    <node concept="1GVOM6" id="4_2puRSSM5q" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="ProjectionFact" />
     </node>
   </node>
   <node concept="mu5$5" id="74VLc6kV4GT">
@@ -227,6 +258,10 @@
     <node concept="1FQA6B" id="1cG4R6OVqx5" role="3FTnq6">
       <ref role="1FQA6$" node="74VLc6kV4GB" resolve="Fact1" />
     </node>
+    <node concept="1GVOM6" id="7M8gzUucjo_" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="act1" />
+    </node>
   </node>
   <node concept="2cz0EU" id="74VLc6kV4H8">
     <property role="TrG5h" value="duty2" />
@@ -236,6 +271,10 @@
     </node>
     <node concept="3jSua8" id="74VLc6kV4Hj" role="cMmjW">
       <ref role="3jSua9" node="74VLc6kV4GT" resolve="act1" />
+    </node>
+    <node concept="1GVOM6" id="4_2puRSSLZD" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="duty2" />
     </node>
   </node>
   <node concept="mu5$5" id="74VLc6kV4Ha">
@@ -254,10 +293,18 @@
     <node concept="1FQA6B" id="1cG4R6OVqga" role="3FTnq6">
       <ref role="1FQA6$" node="74VLc6kV4GJ" resolve="Fact2" />
     </node>
+    <node concept="1GVOM6" id="7M8gzUucj7C" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="act2" />
+    </node>
   </node>
   <node concept="2cz0EU" id="74VLc6kV4Hi">
     <property role="TrG5h" value="duty1" />
     <property role="3GE5qa" value="duties" />
+    <node concept="1GVOM6" id="4_2puRSSLYJ" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="duty1" />
+    </node>
   </node>
   <node concept="cu0$2" id="74VLc6kV4G$">
     <property role="TrG5h" value="testmodel" />

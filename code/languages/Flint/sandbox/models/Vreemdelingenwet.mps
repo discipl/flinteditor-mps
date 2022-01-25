@@ -60,6 +60,9 @@
       <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
         <child id="6983418503075280678" name="sources" index="2pmM46" />
       </concept>
+      <concept id="589729100932390229" name="Flint.structure.IHasLanguage" flags="ng" index="ITzSF">
+        <child id="5326288789495449519" name="translatedNames" index="1GVO30" />
+      </concept>
       <concept id="2986354165693918736" name="Flint.structure.SRole" flags="ng" index="2UK0tq">
         <property id="2986354165693918737" name="role" index="2UK0tr" />
       </concept>
@@ -83,6 +86,10 @@
       </concept>
       <concept id="6587498613242404529" name="Flint.structure.FactReference" flags="ng" index="1FQA6B">
         <reference id="6587498613242404530" name="fact" index="1FQA6$" />
+      </concept>
+      <concept id="5326288789495450601" name="Flint.structure.TranslatedName" flags="ng" index="1GVOM6">
+        <property id="5326288789495451684" name="translatedName" index="1GVPtb" />
+        <property id="5326288789495451682" name="language" index="1GVPtd" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -595,6 +602,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0e_" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="Onze Minister van Justitie en Veiligheid" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfcO">
     <property role="TrG5h" value="vreemdeling" />
@@ -607,6 +618,10 @@
           <property role="19SUeA" value="vreemdeling: ieder die de Nederlandse nationaliteit niet bezit en niet op grond van een wettelijke bepaling als Nederlander moet worden behandeld" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0eA" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfcT">
@@ -621,6 +636,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0eB" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="aanvraag tot verlenen machtiging tot voorlopig verblijf" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfcY">
     <property role="TrG5h" value="besluit tot inwilligen aanvraag tot verlenen machtiging tot voorlopig verblijf" />
@@ -634,6 +653,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0eC" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="besluit tot inwilligen aanvraag tot verlenen machtiging tot voorlopig verblijf" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfd3">
     <property role="TrG5h" value="aanvraag is door de vreemdeling in persoon ingediend" />
@@ -645,6 +668,10 @@
           <property role="19SUeA" value="de door de vreemdeling ingediende aanvraag niet door de vreemdeling in persoon is ingediend" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0eD" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="aanvraag is door de vreemdeling in persoon ingediend" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfd8">
@@ -658,6 +685,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0eE" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="voor de aanvraag is gebruik gemaakt van een voorgeschreven formulier dat volledig is ingevuld en ondertekend" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfdd">
     <property role="TrG5h" value="aanvraag is gesteld in de Nederlandse, Franse of Engelse taal" />
@@ -669,6 +700,10 @@
           <property role="19SUeA" value="de aanvraag niet is gesteld in de Nederlandse, Franse of Engelse taal; of" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0eF" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="aanvraag is gesteld in de Nederlandse, Franse of Engelse taal" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfdi">
@@ -682,6 +717,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0eG" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="ter afdoening van de aanvraag verschuldigde leges zijn betaald" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfdn">
     <property role="TrG5h" value="vreemdeling voldoet aan de vereisten voor toegang en verlening van een verblijfsvergunning" />
@@ -693,6 +732,10 @@
           <property role="19SUeA" value="Onze Minister kan een machtiging tot voorlopig verblijf verlenen aan de vreemdeling ten aanzien van wie is aangetoond dat hij voldoet aan de vereisten voor toegang en verlening van een verblijfsvergunning." />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0eH" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling voldoet aan de vereisten voor toegang en verlening van een verblijfsvergunning" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfds">
@@ -706,6 +749,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0eI" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="wezenlijk Nederlands belang gediend met verlenen machtiging tot voorlopig verblijf" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfdx">
     <property role="TrG5h" value="klemmende redenen van humanitaire aard nopen tot verlenen machtiging tot voorlopig verblijf" />
@@ -718,6 +765,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0eJ" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="klemmende redenen van humanitaire aard nopen tot verlenen machtiging tot voorlopig verblijf" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfdA">
     <property role="TrG5h" value="belang van de internationale betrekkingen vordert verlenen machtiging tot voorlopig verblijf" />
@@ -729,6 +780,10 @@
           <property role="19SUeA" value="Onze Minister kan in afwijking van het eerste lid een machtiging tot voorlopig verblijf verlenen indien daarmee een wezenlijk Nederlands belang is gediend of klemmende redenen van humanitaire aard daartoe nopen dan wel het belang van de internationale betrekkingen de verlening van een machtiging tot voorlopig verblijf vordert." />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0eK" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="belang van de internationale betrekkingen vordert verlenen machtiging tot voorlopig verblijf" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfdF">
@@ -743,6 +798,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0eL" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="aanvraag tot het verlenen van een vvr-bep" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfdK">
     <property role="TrG5h" value="besluit tot afwijzen aanvraag tot het verlenen van een vvr-bep" />
@@ -755,6 +814,10 @@
           <property role="19SUeA" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0eM" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="besluit tot afwijzen aanvraag tot het verlenen van een vvr-bep" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfdP">
@@ -769,6 +832,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0eN" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="besluit tot inwilligen aanvraag tot het verlenen van een vvr-bep" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfdU">
     <property role="TrG5h" value="besluit tot niet in behandeling nemen aanvraag tot het verlenen van een vvr-bep" />
@@ -782,6 +849,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0eO" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="besluit tot niet in behandeling nemen aanvraag tot het verlenen van een vvr-bep" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfdZ">
     <property role="TrG5h" value="inwilligen" />
@@ -794,6 +865,10 @@
           <property role="19SUeA" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0eP" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="inwilligen" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfe4">
@@ -816,6 +891,10 @@
         <ref role="1FQA6$" node="13qOoT8Bfed" resolve="doel waarvoor het verblijf is toegestaan" />
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0eQ" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vvr-bep wordt verleend onder beperkingen, verband houdende met het doel waarvoor het verblijf is toegestaan" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfeb">
     <property role="TrG5h" value="vvr-bep wordt verleend onder beperkingen" />
@@ -828,6 +907,10 @@
           <property role="19SUeA" value="Een verblijfsvergunning voor bepaalde tijd wordt verleend onder beperkingen, verband houdende met het doel waarvoor het verblijf is toegestaan." />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0eR" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vvr-bep wordt verleend onder beperkingen" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfed">
@@ -901,6 +984,10 @@
         <ref role="1FQA6$" node="13qOoT8BfeW" resolve="niet-tijdelijke humanitaire gronden" />
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0eS" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="doel waarvoor het verblijf is toegestaan" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfeo">
     <property role="TrG5h" value="verblijf als familie- of gezinslid" />
@@ -913,6 +1000,10 @@
           <property role="19SUeA" value="verblijf als familie- of gezinslid" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0eT" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="verblijf als familie- of gezinslid" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfeq">
@@ -927,6 +1018,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0eU" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="verblijf als economisch niet-actieve langdurig ingezetene of vermogende vreemdeling" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfes">
     <property role="TrG5h" value="arbeid als zelfstandige" />
@@ -939,6 +1034,10 @@
           <property role="19SUeA" value="arbeid als zelfstandige" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0eV" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="arbeid als zelfstandige" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfeu">
@@ -953,6 +1052,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0eW" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="arbeid als kennismigrant" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfew">
     <property role="TrG5h" value="verblijf als houder van de Europese blauwe kaart" />
@@ -965,6 +1068,10 @@
           <property role="19SUeA" value="verblijf als houder van de Europese blauwe kaart" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0eX" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="verblijf als houder van de Europese blauwe kaart" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfey">
@@ -979,6 +1086,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0eY" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="seizoenarbeid" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfe$">
     <property role="TrG5h" value="overplaatsing binnen een onderneming" />
@@ -991,6 +1102,10 @@
           <property role="19SUeA" value="overplaatsing binnen een onderneming" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0eZ" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="overplaatsing binnen een onderneming" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfeA">
@@ -1005,6 +1120,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0f0" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="arbeid in loondienst" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfeC">
     <property role="TrG5h" value="grensoverschrijdende dienstverlening" />
@@ -1017,6 +1136,10 @@
           <property role="19SUeA" value="grensoverschrijdende dienstverlening" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0f1" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="grensoverschrijdende dienstverlening" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfeE">
@@ -1031,6 +1154,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0f2" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="onderzoek in de zin van richtlijn (EU) 2016/801" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfeG">
     <property role="TrG5h" value="lerend werken" />
@@ -1043,6 +1170,10 @@
           <property role="19SUeA" value="lerend werken" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0f3" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="lerend werken" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfeI">
@@ -1057,6 +1188,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0f4" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="arbeid als niet-geprivilegieerd militair of niet-geprivilegieerd burgerpersoneel" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfeK">
     <property role="TrG5h" value="studie" />
@@ -1069,6 +1204,10 @@
           <property role="19SUeA" value="studie" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0f5" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="studie" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfeM">
@@ -1083,6 +1222,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0f6" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="het zoeken naar en verrichten van arbeid al dan niet in loondienst" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfeO">
     <property role="TrG5h" value="uitwisseling" />
@@ -1095,6 +1238,10 @@
           <property role="19SUeA" value="uitwisseling, al dan niet in het kader van een verdrag" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0f7" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="uitwisseling" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfeQ">
@@ -1109,6 +1256,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0f8" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="medische behandeling" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfeS">
     <property role="TrG5h" value="tijdelijke humanitaire gronden" />
@@ -1121,6 +1272,10 @@
           <property role="19SUeA" value="tijdelijke humanitaire gronden" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0f9" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="tijdelijke humanitaire gronden" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfeU">
@@ -1135,6 +1290,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fa" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="het afwachten van een verzoek op grond van art. 17 RWN" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfeW">
     <property role="TrG5h" value="niet-tijdelijke humanitaire gronden" />
@@ -1148,6 +1307,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fb" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="niet-tijdelijke humanitaire gronden" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfeX">
     <property role="TrG5h" value="vreemdeling beschikt over een geldige machtiging tot voorlopig verblijf" />
@@ -1159,6 +1322,10 @@
           <property role="19SUeA" value="de vreemdeling niet beschikt over een geldige machtiging tot voorlopig verblijf die overeenkomt met het verblijfsdoel waarvoor de verblijfsvergunning is aangevraagd" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0fc" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling beschikt over een geldige machtiging tot voorlopig verblijf" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bff2">
@@ -1172,6 +1339,10 @@
           <property role="19SUeA" value="de vreemdeling niet beschikt over een geldig document voor grensoverschrijding" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0fd" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling beschikt over een geldig document voor grensoverschrijding" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bff7">
@@ -1193,6 +1364,10 @@
       <node concept="1FQA6B" id="13qOoT8Bfff" role="1zF96y">
         <ref role="1FQA6$" node="13qOoT8Bffg" resolve="persoon bij wie de vreemdeling wil verblijven beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0fe" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling dan wel, de persoon bij wie de vreemdeling wil verblijven, beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bffe">
@@ -1220,6 +1395,10 @@
         <ref role="1FQA6$" node="13qOoT8Bfft" resolve="middelen van bestaan zijn voldoende" />
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0ff" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bffg">
     <property role="TrG5h" value="persoon bij wie de vreemdeling wil verblijven beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
@@ -1246,6 +1425,10 @@
         <ref role="1FQA6$" node="13qOoT8Bfft" resolve="middelen van bestaan zijn voldoende" />
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fg" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="persoon bij wie de vreemdeling wil verblijven beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bffn">
     <property role="TrG5h" value="vreemdeling beschikt over middelen van bestaan" />
@@ -1257,6 +1440,10 @@
           <property role="19SUeA" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0fh" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling beschikt over middelen van bestaan" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bffp">
@@ -1340,6 +1527,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fi" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="middelen van bestaan zijn zelfstandig" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bffr">
     <property role="TrG5h" value="middelen van bestaan zijn duurzaam" />
@@ -1400,6 +1591,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fj" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="middelen van bestaan zijn duurzaam" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfft">
     <property role="TrG5h" value="middelen van bestaan zijn voldoende" />
@@ -1426,6 +1621,10 @@
         <ref role="1FQA6$" node="13qOoT8Bfh4" resolve="middelen van bestaan zijn voldoende, indien het netto-inkomen ten minste gelijk is aan het normbedrag voor uitwonende studenten, bedoeld in de WSF, indien de vreemdeling in Nederland verblijft of wil verblijven voor studie" />
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fk" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="middelen van bestaan zijn voldoende" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bff$">
     <property role="TrG5h" value="persoon bij wie de vreemdeling wil verblijven beschikt over middelen van bestaan" />
@@ -1438,6 +1637,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fl" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="persoon bij wie de vreemdeling wil verblijven beschikt over middelen van bestaan" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BffR">
     <property role="TrG5h" value="middelen van bestaan zijn verworven uit wettelijk toegestane arbeid in loondienst" />
@@ -1449,6 +1652,10 @@
           <property role="19SUeA" value="wettelijk toegestane arbeid in loondienst, voorzover de vereiste premies en belastingen zijn afgedragen" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0fm" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="middelen van bestaan zijn verworven uit wettelijk toegestane arbeid in loondienst" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BffT">
@@ -1470,6 +1677,10 @@
         <ref role="1FQA6$" node="13qOoT8Bfga" resolve="vereiste belastingen zijn afgedragen" />
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fn" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vereiste premies en belastingen zijn afgedragen" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BffW">
     <property role="TrG5h" value="middelen van bestaan zijn verworven uit wettelijk toegestane arbeid als zelfstandige" />
@@ -1482,6 +1693,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fo" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="middelen van bestaan zijn verworven uit wettelijk toegestane arbeid als zelfstandige" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfg0">
     <property role="TrG5h" value="middelen van bestaan zijn verworven uit inkomensvervangende uitkeringen krachtens een sociale verzekeringswet" />
@@ -1493,6 +1708,10 @@
           <property role="19SUeA" value="inkomensvervangende uitkeringen krachtens een sociale verzekeringswet waarvoor premies zijn afgedragen, of" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0fp" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="middelen van bestaan zijn verworven uit inkomensvervangende uitkeringen krachtens een sociale verzekeringswet" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfg2">
@@ -1507,6 +1726,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fq" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vereiste premies zijn afgedragen" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfg5">
     <property role="TrG5h" value="middelen van bestaan zijn verworven uit eigen vermogen" />
@@ -1519,11 +1742,19 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fr" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="middelen van bestaan zijn verworven uit eigen vermogen" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfg8">
     <property role="TrG5h" value="bron van de inkomsten verworven uit eigen vermogen wordt aangetast" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <node concept="1GVOM6" id="st1r8Bl0fs" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="bron van de inkomsten verworven uit eigen vermogen wordt aangetast" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfga">
     <property role="TrG5h" value="vereiste belastingen zijn afgedragen" />
@@ -1537,6 +1768,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0ft" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vereiste belastingen zijn afgedragen" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfgj">
     <property role="TrG5h" value="middelen van bestaan zijn verworven uit financiële ondersteuning van de referent" />
@@ -1549,6 +1784,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fu" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="middelen van bestaan zijn verworven uit financiële ondersteuning van de referent" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfgl">
     <property role="TrG5h" value="middelen van bestaan zijn verworven uit een subsidie" />
@@ -1560,6 +1799,10 @@
           <property role="19SUeA" value="in geval van verblijf voor onderzoek in de zin van richtlijn (EU) 2016/801, studie, lerend werken of uitwisseling in het kader van Europees vrijwilligerswerk: financiële ondersteuning van de referent, een subsidie, een beurs of een toelage" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0fv" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="middelen van bestaan zijn verworven uit een subsidie" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfgn">
@@ -1574,6 +1817,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fw" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="middelen van bestaan zijn verworven uit een beurs" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfgp">
     <property role="TrG5h" value="middelen van bestaan zijn verworven uit een toelage" />
@@ -1585,6 +1832,10 @@
           <property role="19SUeA" value="in geval van verblijf voor onderzoek in de zin van richtlijn (EU) 2016/801, studie, lerend werken of uitwisseling in het kader van Europees vrijwilligerswerk: financiële ondersteuning van de referent, een subsidie, een beurs of een toelage" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0fx" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="middelen van bestaan zijn verworven uit een toelage" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfgw">
@@ -1598,6 +1849,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fy" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfgy">
     <property role="TrG5h" value="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de beschikking wordt gegeven" />
@@ -1609,6 +1864,10 @@
           <property role="19SUeA" value="Middelen van bestaan verkregen uit eigen vermogen zijn duurzaam, indien zij gedurende een aaneengesloten periode van een jaar beschikbaar zijn geweest en nog beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven." />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0fz" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de beschikking wordt gegeven" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfg_">
@@ -1626,6 +1885,10 @@
     <node concept="1FQA6B" id="13qOoT8BfmN" role="coNO9">
       <ref role="1FQA6$" node="13qOoT8BffR" resolve="middelen van bestaan zijn verworven uit wettelijk toegestane arbeid in loondienst" />
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0f$" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="middelen van bestaan verkregen uit arbeid in loondienst" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfgD">
     <property role="TrG5h" value="op het tijdstip waarop de aanvraag is ontvangen zijn gedurende een ononderbroken periode van drie jaren voldoende middelen van bestaan uit arbeid in loondienst verworven" />
@@ -1637,6 +1900,10 @@
           <property role="19SUeA" value="In afwijking van het eerste lid, zijn middelen van bestaan verkregen uit arbeid in loondienst eveneens duurzaam, indien op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven gedurende een aaneengesloten periode van drie jaren jaarlijks voldoende middelen van bestaan uit arbeid in loondienst zijn verworven en de middelen van bestaan nog beschikbaar zijn." />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0f_" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="op het tijdstip waarop de aanvraag is ontvangen zijn gedurende een ononderbroken periode van drie jaren voldoende middelen van bestaan uit arbeid in loondienst verworven" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfgF">
@@ -1650,6 +1917,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fA" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="op het tijdstip waarop de aanvraag is ontvangen zijn de middelen van bestaan gedurende nog zes maanden beschikbaar" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfgI">
     <property role="TrG5h" value="op het tijdstip waarop de beschikking wordt gegeven zijn gedurende een ononderbroken periode van drie jaren voldoende middelen van bestaan uit arbeid in loondienst verworven" />
@@ -1662,6 +1933,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fB" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="op het tijdstip waarop de beschikking wordt gegeven zijn gedurende een ononderbroken periode van drie jaren voldoende middelen van bestaan uit arbeid in loondienst verworven" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfgK">
     <property role="TrG5h" value="op het tijdstip waarop de beschikking wordt gegeven zijn de middelen van bestaan gedurende nog zes maanden beschikbaar" />
@@ -1673,6 +1948,10 @@
           <property role="19SUeA" value="In afwijking van het eerste lid, zijn middelen van bestaan verkregen uit arbeid in loondienst eveneens duurzaam, indien op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven gedurende een aaneengesloten periode van drie jaren jaarlijks voldoende middelen van bestaan uit arbeid in loondienst zijn verworven en de middelen van bestaan nog beschikbaar zijn." />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0fC" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="op het tijdstip waarop de beschikking wordt gegeven zijn de middelen van bestaan gedurende nog zes maanden beschikbaar" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfgN">
@@ -1687,6 +1966,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fD" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="middelen van bestaan verkregen uit eigen vermogen" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfgP">
     <property role="TrG5h" value="middelen van bestaan zijn gedurende een aaneengesloten periode van een jaar beschikbaar geweest" />
@@ -1698,6 +1981,10 @@
           <property role="19SUeA" value="Middelen van bestaan verkregen uit eigen vermogen zijn duurzaam, indien zij gedurende een aaneengesloten periode van een jaar beschikbaar zijn geweest en nog beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven." />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0fE" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="middelen van bestaan zijn gedurende een aaneengesloten periode van een jaar beschikbaar geweest" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfh0">
@@ -1719,6 +2006,10 @@
       <node concept="1FQA6B" id="13qOoT8Bfhc" role="1zF96y">
         <ref role="1FQA6$" node="13qOoT8Bfhd" resolve="middelen van bestaan" />
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0fF" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="middelen van bestaan zijn ten minste gelijk is aan het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfh2">
@@ -1753,6 +2044,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fG" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="in bij ministeriële regeling aangewezen gevallen zijn middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfh4">
     <property role="TrG5h" value="middelen van bestaan zijn voldoende, indien het netto-inkomen ten minste gelijk is aan het normbedrag voor uitwonende studenten, bedoeld in de WSF, indien de vreemdeling in Nederland verblijft of wil verblijven voor studie" />
@@ -1774,6 +2069,10 @@
         <ref role="1FQA6$" node="13qOoT8BfeK" resolve="studie" />
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fH" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="middelen van bestaan zijn voldoende, indien het netto-inkomen ten minste gelijk is aan het normbedrag voor uitwonende studenten, bedoeld in de WSF, indien de vreemdeling in Nederland verblijft of wil verblijven voor studie" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfhb">
     <property role="TrG5h" value="minimumloon bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
@@ -1786,11 +2085,19 @@
         <ref role="1FQA6$" node="13qOoT8Bfhi" resolve="vakantiebijslag minimum, bedoeld in art. 15 Wml" />
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fI" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="minimumloon bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfhd">
     <property role="TrG5h" value="middelen van bestaan" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="UITWERKEN sources" />
+    <node concept="1GVOM6" id="st1r8Bl0fJ" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="middelen van bestaan" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfhg">
     <property role="TrG5h" value="minimumloon bedoeld in de art. 8 lid 1 Wml" />
@@ -1798,24 +2105,44 @@
     <node concept="1FQA6B" id="13qOoT8Bfhj" role="coNO9">
       <ref role="1FQA6$" node="13qOoT8Bfhk" resolve="Het minimumloon bedraagt € 1653,60 per maand" />
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fK" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="minimumloon bedoeld in de art. 8 lid 1 Wml" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfhi">
     <property role="TrG5h" value="vakantiebijslag minimum, bedoeld in art. 15 Wml" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="st1r8Bl0fL" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vakantiebijslag minimum, bedoeld in art. 15 Wml" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfhk">
     <property role="TrG5h" value="Het minimumloon bedraagt € 1653,60 per maand" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <node concept="1GVOM6" id="st1r8Bl0fM" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="Het minimumloon bedraagt € 1653,60 per maand" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfhu">
     <property role="TrG5h" value="Vul in 1.5 voor factor 150%" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="st1r8Bl0fN" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="Vul in 1.5 voor factor 150%" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfhy">
     <property role="TrG5h" value="in bij ministeriële regeling aangewezen gevallen waarbij middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="UITWERKEN: Vullen met au pair en eventuele andere verblijfsdoelen." />
+    <node concept="1GVOM6" id="st1r8Bl0fO" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="in bij ministeriële regeling aangewezen gevallen waarbij middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfhz">
     <property role="TrG5h" value="vreemdeling vormt een gevaar voor de openbare orde of nationale veiligheid" />
@@ -1829,6 +2156,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fP" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling vormt een gevaar voor de openbare orde of nationale veiligheid" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfhC">
     <property role="TrG5h" value="vreemdeling is bereid om medewerking te verlenen aan een medisch onderzoek naar een ziekte aangewezen bij of krachtens de Wpg of een medische behandeling tegen een dergelijke ziekte te ondergaan" />
@@ -1840,6 +2171,10 @@
           <property role="19SUeA" value="de vreemdeling niet bereid is om medewerking te verlenen aan een medisch onderzoek naar een ziekte aangewezen bij of krachtens de Infectieziektewet, ter bescherming van de volksgezondheid of een medische behandeling tegen een dergelijke ziekte te ondergaan;" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0fQ" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling is bereid om medewerking te verlenen aan een medisch onderzoek naar een ziekte aangewezen bij of krachtens de Wpg of een medische behandeling tegen een dergelijke ziekte te ondergaan" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfhH">
@@ -1854,6 +2189,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fR" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling voor een werkgever arbeid heeft verricht, zonder dat aan de Wet arbeid vreemdelingen is voldaan" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfhM">
     <property role="TrG5h" value="vreemdeling voldoet aan de beperking, verband houdende met het doel waarvoor hij wil verblijven" />
@@ -1866,6 +2205,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fS" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling voldoet aan de beperking, verband houdende met het doel waarvoor hij wil verblijven" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfhR">
     <property role="TrG5h" value="vreemdeling beschikt over kennis op basisniveau van de Nederlandse taal en de Nederlandse maatschappij" />
@@ -1877,6 +2220,10 @@
           <property role="19SUeA" value="de vreemdeling, die niet behoort tot een der categorieën, bedoeld in artikel 17, eerste lid, na verkrijging van rechtmatig verblijf in Nederland inburgeringsplichtig zou zijn op grond van de artikel en 3 en 5 van de Wet inburgering en niet beschikt over kennis op basisniveau van de Nederlandse taal en de Nederlandse maatschappij" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0fT" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling beschikt over kennis op basisniveau van de Nederlandse taal en de Nederlandse maatschappij" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfhW">
@@ -1891,6 +2238,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fU" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling heeft onjuiste gegevens verstrekt dan wel gegevens achtergehouden" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfi1">
     <property role="TrG5h" value="vreemdeling heeft in Nederland verblijf gehouden, anders dan op grond van art. 8 Vw" />
@@ -1903,6 +2254,10 @@
           <property role="19SUeA" value="de vreemdeling in Nederland verblijf heeft gehouden, anders dan op grond van artikel 8" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0fV" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling heeft in Nederland verblijf gehouden, anders dan op grond van art. 8 Vw" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfi6">
@@ -1917,6 +2272,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fW" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="ten behoeve van het verblijf van de vreemdeling is een verklaring van een referent overgelegd als bedoeld in art. 2a lid 1 Vw" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfib">
     <property role="TrG5h" value="houder van een vvr-bep zijn hoofdverblijf buiten Nederland heeft gevestigd" />
@@ -1928,6 +2287,10 @@
           <property role="19SUeA" value="de houder daarvan zijn hoofdverblijf buiten Nederland heeft gevestigd" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0fX" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="houder van een vvr-bep zijn hoofdverblijf buiten Nederland heeft gevestigd" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfig">
@@ -1942,6 +2305,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fY" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling heeft onjuiste gegevens verstrekt dan wel gegevens heeft achtergehouden" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfil">
     <property role="TrG5h" value="voldaan wordt aan de beperking waaronder de vergunning is verleend of een voorschrift dat aan de vergunning is verbonden" />
@@ -1955,6 +2322,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0fZ" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="voldaan wordt aan de beperking waaronder de vergunning is verleend of een voorschrift dat aan de vergunning is verbonden" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfiq">
     <property role="TrG5h" value="vreemdeling heeft voldaan aan de inburgeringsplicht, bedoeld in art. 7 lid 1 Wib" />
@@ -1966,6 +2337,10 @@
           <property role="19SUeA" value="de vreemdeling niet heeft voldaan aan de inburgeringsplicht, bedoeld inartikel 7, eerste lid, van de Wet inburgering" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0g0" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling heeft voldaan aan de inburgeringsplicht, bedoeld in art. 7 lid 1 Wib" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfiv">
@@ -1979,6 +2354,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0g1" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling is leges verschuldigd terzake van de afdoening van een aanvraag" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfi$">
     <property role="TrG5h" value="betaling verschuldigde leges is achterwege gebleven" />
@@ -1990,6 +2369,10 @@
           <property role="19SUeA" value="Als betaling achterwege blijft, wordt de aanvraag niet in behandeling genomen dan wel het document niet afgegeven." />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0g2" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="betaling verschuldigde leges is achterwege gebleven" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfiD">
@@ -2015,6 +2398,10 @@
           <ref role="1FQA6$" node="13qOoT8BfiP" resolve="dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet ligt voor de dag waarop de aanvraag is ontvangen" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0g3" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="verblijfsvergunning verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfiK">
@@ -2047,6 +2434,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0g4" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfiM">
     <property role="TrG5h" value="dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet" />
@@ -2059,6 +2450,10 @@
           <property role="19SUeA" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0g5" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfiP">
@@ -2073,6 +2468,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0g6" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet ligt voor de dag waarop de aanvraag is ontvangen" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfiW">
     <property role="TrG5h" value="vreemdeling laat een gezichtsopname en tien vingerafdrukken afnemen" />
@@ -2085,6 +2484,10 @@
           <property role="19SUeA" value="Voor zover op grond van de Europese verordeningen die betrekking hebben op biometrische gegevens geen gezichtsopname of vingerafdrukken kunnen worden afgenomen en verwerkt, kunnen van een vreemdeling een gezichtsopname en tien vingerafdrukken worden afgenomen en verwerkt voor het vaststellen van de identiteit met het oog op de uitvoering van deze wet." />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0g7" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling laat een gezichtsopname en tien vingerafdrukken afnemen" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfiZ">
@@ -2150,6 +2553,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0g8" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling voldoet aan voorwaarden voor het verlenen van een vvr-bep" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfj1">
     <property role="TrG5h" value="vreemdeling voldoet aan voorwaarden voor het verlengen van een vvr-bep" />
@@ -2161,6 +2568,10 @@
           <property role="19SUeA" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0g9" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling voldoet aan voorwaarden voor het verlengen van een vvr-bep" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfj3">
@@ -2174,6 +2585,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0ga" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling voldoet aan voorwaarden voor het wijzigen van een vvr-bep" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfj5">
     <property role="TrG5h" value="vreemdeling voldoet aan voorwaarden voor het verlenen van een vvr-onbep" />
@@ -2185,6 +2600,10 @@
           <property role="19SUeA" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0gb" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling voldoet aan voorwaarden voor het verlenen van een vvr-onbep" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfjL">
@@ -2199,6 +2618,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0gc" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling heeft inreisverbod of is gesignaleerd ter fine van weigering van de toegang" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfjQ">
     <property role="TrG5h" value="ongewenst verklaarde vreemdeling" />
@@ -2211,6 +2634,10 @@
           <property role="19SUeA" value="In afwijking van artikel 8 kan de ongewenst verklaarde vreemdeling geen rechtmatig verblijf hebben." />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0gd" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="ongewenst verklaarde vreemdeling" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BflU">
@@ -2235,11 +2662,19 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0ge" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="middelen van bestaan zijn ten minste gelijk is aan het minimumloon" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfm1">
     <property role="TrG5h" value="functie waar middelen van bestaan zijn groter of gelijk aan minimumloon wordt berekend" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="TEMP, no function GREATER THEN OR EQUAL available (rekenkundige functie)" />
+    <node concept="1GVOM6" id="st1r8Bl0gf" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="functie waar middelen van bestaan zijn groter of gelijk aan minimumloon wordt berekend" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfm4">
     <property role="TrG5h" value="in bij ministeriële regeling aangewezen gevallen zijn middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon" />
@@ -2252,6 +2687,10 @@
           <property role="19SUeA" value="in bij regeling van Onze Minister aangewezen gevallen: 150 procent van het minimumloon, bedoeld in onderdeel a." />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0gg" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="in bij ministeriële regeling aangewezen gevallen zijn middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon" />
     </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfm5">
@@ -2274,16 +2713,28 @@
         <ref role="1FQA6$" node="13qOoT8Bfmd" resolve="functie aaar middelen van bestaan zijn groter of gelijk aan 150% minimumloon wordt berekenc" />
       </node>
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0gh" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="middelen van bestaan zijn ten minste gelijk aan 150 procent van het minimumloon" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfmd">
     <property role="TrG5h" value="functie aaar middelen van bestaan zijn groter of gelijk aan 150% minimumloon wordt berekenc" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="TEMP, no function GREATER THEN OR EQUAL, and no function PRODUCT available" />
+    <node concept="1GVOM6" id="st1r8Bl0gi" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="functie aaar middelen van bestaan zijn groter of gelijk aan 150% minimumloon wordt berekenc" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfmo">
     <property role="TrG5h" value="functie waar normbedrag voor uitwonende studenten, bedoeld in de WSF wordt berekend" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="functie waar normbedrag voor uitwonende studenten, bedoeld in de WSF wordt berekend" />
+    <node concept="1GVOM6" id="st1r8Bl0gj" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="functie waar normbedrag voor uitwonende studenten, bedoeld in de WSF wordt berekend" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfmq">
     <property role="TrG5h" value="middelen van bestaan zijn nog één jaar beschikbaar op het tijdstip waarop de aanvraag is ontvangen" />
@@ -2295,6 +2746,10 @@
           <property role="19SUeA" value="De in artikel 16, eerste lid, onder c, van de Wet bedoelde middelen van bestaan zijn in ieder geval duurzaam, indien zij nog één jaar beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven." />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0gk" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="middelen van bestaan zijn nog één jaar beschikbaar op het tijdstip waarop de aanvraag is ontvangen" />
     </node>
   </node>
   <node concept="mu5$5" id="13qOoT8Bfn4">
@@ -2355,6 +2810,10 @@
     </node>
     <node concept="1FQA6B" id="4VrbcpCY23J" role="3FTnq6">
       <ref role="1FQA6$" node="4VrbcpCY23K" resolve="inwilligen" />
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0ex" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="inwilligen aanvraag tot verlenen machtiging tot voorlopig verblijf" />
     </node>
   </node>
   <node concept="mu5$5" id="13qOoT8Bfnr">
@@ -2463,46 +2922,82 @@
     <node concept="1FQA6B" id="4VrbcpCY23W" role="3FTnq6">
       <ref role="1FQA6$" node="4VrbcpCY23X" resolve="afwijzen" />
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0ey" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="afwijzen aanvraag tot het verlenen van een vvr-bep" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfnJ">
     <property role="TrG5h" value="belanghebbende beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <node concept="1GVOM6" id="st1r8Bl0gl" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="belanghebbende beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfnN">
     <property role="TrG5h" value="vreemdeling is bereid medewerking te verlenen aan een medisch onderzoek naar een bij Wpg aangewezen ziekte of medische behandeling tegen een dergelijke ziekte te ondergaan" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <node concept="1GVOM6" id="st1r8Bl0gm" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling is bereid medewerking te verlenen aan een medisch onderzoek naar een bij Wpg aangewezen ziekte of medische behandeling tegen een dergelijke ziekte te ondergaan" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfnQ">
     <property role="TrG5h" value="vreemdeling heeft geen arbeid verricht in strijd met Wav" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <node concept="1GVOM6" id="st1r8Bl0gn" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling heeft geen arbeid verricht in strijd met Wav" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfnT">
     <property role="TrG5h" value="vreemdeling voldoet aan de beperking, verband houdende met verblijfsdoel" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <node concept="1GVOM6" id="st1r8Bl0go" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling voldoet aan de beperking, verband houdende met verblijfsdoel" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfnW">
     <property role="TrG5h" value="vreemdeling beschikt over voldoende kennis van de Nederlandse taal en maatschappij" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <node concept="1GVOM6" id="st1r8Bl0gp" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling beschikt over voldoende kennis van de Nederlandse taal en maatschappij" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8BfnZ">
     <property role="TrG5h" value="vreemdeling heeft onjuiste gegevens verstrekt of gegevens achtergehouden" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <node concept="1GVOM6" id="st1r8Bl0gq" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling heeft onjuiste gegevens verstrekt of gegevens achtergehouden" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfo2">
     <property role="TrG5h" value="vreemdeling heeft alleen in Nederland verblijf gehouden op grond van artikel 8 Vw" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <node concept="1GVOM6" id="st1r8Bl0gr" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="vreemdeling heeft alleen in Nederland verblijf gehouden op grond van artikel 8 Vw" />
+    </node>
   </node>
   <node concept="cu0$f" id="13qOoT8Bfo5">
     <property role="TrG5h" value="referent heeft verklaring overlegd  ten behoeve van het voorgenomen verblijf van de vreemdeling" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <node concept="1GVOM6" id="st1r8Bl0gs" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="referent heeft verklaring overlegd  ten behoeve van het voorgenomen verblijf van de vreemdeling" />
+    </node>
   </node>
   <node concept="mu5$5" id="13qOoT8Bfo8">
     <property role="TrG5h" value="inwilligen aanvraag tot het verlenen van een vvr-bep" />
@@ -2558,6 +3053,10 @@
     <node concept="1FQA6B" id="4VrbcpCY249" role="3FTnq6">
       <ref role="1FQA6$" node="4VrbcpCY24a" resolve="inwilligen" />
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0ez" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="inwilligen aanvraag tot het verlenen van een vvr-bep" />
+    </node>
   </node>
   <node concept="2cz0EU" id="13qOoT8Bfos">
     <property role="TrG5h" value="verlenen vvr-bep onder beperkingen" />
@@ -2580,6 +3079,10 @@
     <node concept="1FQA6B" id="13qOoT8BfoV" role="3H37fL">
       <ref role="1FQA6$" node="13qOoT8BfcO" resolve="vreemdeling" />
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0gx" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="verlenen vvr-bep onder beperkingen" />
+    </node>
   </node>
   <node concept="2cz0EU" id="13qOoT8Bfou">
     <property role="TrG5h" value="bepalen geldigheidsduur van de vvr-bep" />
@@ -2598,6 +3101,10 @@
     </node>
     <node concept="1FQA6B" id="13qOoT8BfoO" role="3H37fS">
       <ref role="1FQA6$" node="13qOoT8BfcJ" resolve="Onze Minister van Justitie en Veiligheid" />
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0gy" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="bepalen geldigheidsduur van de vvr-bep" />
     </node>
   </node>
   <node concept="2cz0EU" id="13qOoT8Bfow">
@@ -2620,6 +3127,10 @@
     </node>
     <node concept="1FQA6B" id="13qOoT8Bfp2" role="3H37fL">
       <ref role="1FQA6$" node="13qOoT8BfcO" resolve="vreemdeling" />
+    </node>
+    <node concept="1GVOM6" id="st1r8Bl0gz" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="verschaffen vreemdeling document waaruit het rechtmatig verblijf blijkt" />
     </node>
   </node>
   <node concept="mu5$5" id="13qOoT8Bfox">
@@ -2655,22 +3166,42 @@
     <node concept="1FQA6B" id="4VrbcpCY24m" role="3FTnq6">
       <ref role="1FQA6$" node="4VrbcpCY24n" resolve="niet in behandeling nemen" />
     </node>
+    <node concept="1GVOM6" id="st1r8Bl0e$" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="niet in behandeling nemen aanvraag tot het verlenen van een vvr-bep" />
+    </node>
   </node>
   <node concept="cu0$f" id="4VrbcpCY23K">
     <property role="TrG5h" value="inwilligen" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="st1r8Bl0gt" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="inwilligen" />
+    </node>
   </node>
   <node concept="cu0$f" id="4VrbcpCY23X">
     <property role="TrG5h" value="afwijzen" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="st1r8Bl0gu" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="afwijzen" />
+    </node>
   </node>
   <node concept="cu0$f" id="4VrbcpCY24a">
     <property role="TrG5h" value="inwilligen" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="st1r8Bl0gv" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="inwilligen" />
+    </node>
   </node>
   <node concept="cu0$f" id="4VrbcpCY24n">
     <property role="TrG5h" value="niet in behandeling nemen" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="st1r8Bl0gw" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="niet in behandeling nemen" />
+    </node>
   </node>
 </model>
 
