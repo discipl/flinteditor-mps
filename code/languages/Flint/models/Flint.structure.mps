@@ -6,6 +6,7 @@
   </languages>
   <imports>
     <import index="87nw" ref="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" />
+    <import index="a78y" ref="r:c268ad54-7713-4c66-ab93-63e45701e7e4(FlintCellModels.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -243,6 +244,9 @@
       <property role="IQ2nx" value="778381075952164307" />
       <property role="TrG5h" value="explanation" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="1bPqaB8W7sD" role="PrDN$">
+      <ref role="PrY4T" to="a78y:1bPqaB7Hr7H" resolve="IProvidesTranslatedCell" />
     </node>
   </node>
   <node concept="Az7Fb" id="5Xjenljcz1y">
@@ -749,6 +753,9 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5Xjenljcz0Y" resolve="FlintSourceReference" />
     </node>
+    <node concept="PrWs8" id="4_s3JQCCFFj" role="PrDN$">
+      <ref role="PrY4T" to="a78y:4_s3JQCC8OY" resolve="IProvidesRoleTagsCell" />
+    </node>
   </node>
   <node concept="1TIwiD" id="riOo_LzybO">
     <property role="EcuMT" value="491685697582670580" />
@@ -1238,6 +1245,9 @@
   <node concept="PlHQZ" id="wJ8RSAMhPl">
     <property role="EcuMT" value="589729100932390229" />
     <property role="TrG5h" value="IHasLanguage" />
+    <node concept="PrWs8" id="1bPqaB7QQFA" role="PrDN$">
+      <ref role="PrY4T" to="a78y:1bPqaB7Hr7H" resolve="IProvidesTranslatedCell" />
+    </node>
   </node>
 </model>
 

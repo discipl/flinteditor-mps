@@ -4,7 +4,9 @@
   <languages>
     <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="7" />
   </languages>
-  <imports />
+  <imports>
+    <import index="jov5" ref="r:9249307a-27f2-447e-8e8c-b4f939b97d5c(Flint.languages)" implicit="true" />
+  </imports>
   <registry>
     <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
       <concept id="2557074442922380897" name="de.slisson.mps.richtext.structure.Text" flags="ng" index="19SGf9">
@@ -27,7 +29,9 @@
         <reference id="6868897032739893359" name="baseSource" index="cog$q" />
         <child id="7816114204006679678" name="betterText" index="2hN6Sa" />
       </concept>
-      <concept id="6868897032739434615" name="Flint.structure.FlintModel" flags="ng" index="cu0$2" />
+      <concept id="6868897032739434615" name="Flint.structure.FlintModel" flags="ng" index="cu0$2">
+        <child id="4312083994569304675" name="languageReference" index="3a9ffC" />
+      </concept>
       <concept id="6868897032739434618" name="Flint.structure.Fact" flags="ng" index="cu0$f">
         <child id="6868897032739751036" name="function" index="coNO9" />
       </concept>
@@ -59,6 +63,9 @@
       <concept id="2986354165693918736" name="Flint.structure.SRole" flags="ng" index="2UK0tq">
         <property id="2986354165693918737" name="role" index="2UK0tr" />
       </concept>
+      <concept id="4312083994563767573" name="Flint.structure.LanguageReference" flags="ng" index="3ainiu">
+        <reference id="4312083994563770085" name="target" index="3aimXI" />
+      </concept>
       <concept id="7402439007429942662" name="Flint.structure.ActReference" flags="ng" index="3jSua8">
         <reference id="7402439007429942663" name="act" index="3jSua9" />
       </concept>
@@ -89,6 +96,9 @@
   </registry>
   <node concept="cu0$2" id="13qOoT8BfbD">
     <property role="TrG5h" value="Vreemdelingenwet" />
+    <node concept="3ainiu" id="4_s3JQCC0xs" role="3a9ffC">
+      <ref role="3aimXI" to="jov5:4L0TsavKybn" resolve="English" />
+    </node>
   </node>
   <node concept="cog_a" id="13qOoT8BfbE">
     <property role="TrG5h" value="art. 1 Vw" />

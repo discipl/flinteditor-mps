@@ -38,6 +38,7 @@
     <import index="imq3" ref="r:744546b3-28d0-4d16-91c8-8f406ef84c6e(com.mbeddr.mpsutil.projectview.runtime)" />
     <import index="srlv" ref="r:baf0260d-4be1-4f28-be3e-85fc1a4fa21a(LawSource.structure)" />
     <import index="3lmi" ref="r:a950900f-47ea-4287-adc8-88f839ab614a(Flint.behavior)" />
+    <import index="wyuk" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.components(MPS.Core/)" />
     <import index="uhdf" ref="r:30978237-741d-4b0b-ac0b-6600a1c5c14f(com.mbeddr.mpsutil.projectview.runtime.tree)" implicit="true" />
   </imports>
   <registry>
@@ -121,6 +122,10 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
+      <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1068580123160" name="condition" index="3clFbw" />
+        <child id="1068580123161" name="ifTrue" index="3clFbx" />
+      </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -161,6 +166,9 @@
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
+      <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
+        <reference id="1116615189566" name="classifier" index="3VsUkX" />
+      </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots">
@@ -2195,9 +2203,58 @@
     <node concept="3Tm1VV" id="480JVLcGWR$" role="1B3o_S" />
   </node>
   <node concept="2uRRBy" id="3K$qkvdMtPT">
-    <property role="TrG5h" value="TestProject" />
+    <property role="TrG5h" value="SetAsDefault" />
     <node concept="2uRRBT" id="3K$qkvdMtPU" role="2uRRB$">
       <node concept="3clFbS" id="3K$qkvdMtPV" role="2VODD2">
+        <node concept="3cpWs8" id="1bPqaB7HBa$" role="3cqZAp">
+          <node concept="3cpWsn" id="1bPqaB7HBa_" role="3cpWs9">
+            <property role="TrG5h" value="pathMacros" />
+            <node concept="3uibUv" id="1bPqaB7HBad" role="1tU5fm">
+              <ref role="3uigEE" to="z1c5:~PathMacros" resolve="PathMacros" />
+            </node>
+            <node concept="2OqwBi" id="1bPqaB7HBaA" role="33vP2m">
+              <node concept="1KvdUw" id="1bPqaB7IuKs" role="2Oq$k0" />
+              <node concept="liA8E" id="1bPqaB7HBaC" role="2OqNvi">
+                <ref role="37wK5l" to="z1c4:~MPSProject.getComponent(java.lang.Class)" resolve="getComponent" />
+                <node concept="3VsKOn" id="1bPqaB7HBaD" role="37wK5m">
+                  <ref role="3VsUkX" to="z1c5:~PathMacros" resolve="PathMacros" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1bPqaB7HBFl" role="3cqZAp">
+          <node concept="3cpWsn" id="1bPqaB7HBFm" role="3cpWs9">
+            <property role="TrG5h" value="dev" />
+            <node concept="3uibUv" id="1bPqaB7HBF4" role="1tU5fm">
+              <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+            </node>
+            <node concept="2OqwBi" id="1bPqaB7HBFn" role="33vP2m">
+              <node concept="37vLTw" id="1bPqaB7HBFo" role="2Oq$k0">
+                <ref role="3cqZAo" node="1bPqaB7HBa_" resolve="pathMacros" />
+              </node>
+              <node concept="liA8E" id="1bPqaB7HBFp" role="2OqNvi">
+                <ref role="37wK5l" to="z1c5:~PathMacros.getValue(java.lang.String)" resolve="getValue" />
+                <node concept="Xl_RD" id="1bPqaB7HBFq" role="37wK5m">
+                  <property role="Xl_RC" value="dev" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="1bPqaB7HBRx" role="3cqZAp">
+          <node concept="3clFbS" id="1bPqaB7HBRz" role="3clFbx">
+            <node concept="3cpWs6" id="1bPqaB7HCv0" role="3cqZAp" />
+          </node>
+          <node concept="17R0WA" id="1bPqaB7I3_m" role="3clFbw">
+            <node concept="Xl_RD" id="1bPqaB7I3A3" role="3uHU7w">
+              <property role="Xl_RC" value="true" />
+            </node>
+            <node concept="37vLTw" id="1bPqaB7HBTD" role="3uHU7B">
+              <ref role="3cqZAo" node="1bPqaB7HBFm" resolve="dev" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="3K$qkvdMtWw" role="3cqZAp">
           <node concept="2OqwBi" id="3K$qkvdMupJ" role="3clFbG">
             <node concept="1B3eDM" id="3K$qkvdMtWu" role="2Oq$k0">
