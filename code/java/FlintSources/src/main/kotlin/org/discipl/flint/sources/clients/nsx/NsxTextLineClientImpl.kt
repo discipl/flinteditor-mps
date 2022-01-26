@@ -59,10 +59,10 @@ class NsxTextLineClientImpl(
     }
 
     private suspend fun getTextLinesForVersionResult(textLinesForVersionRequestId: UUID): List<NsxTextLine> {
-        val result: NsxTextLinesForVersionResult =
-            httpClient.get("publicatieparsings/${textLinesForVersionRequestId}") {
+        val result =
+            httpClient.get<NsxTextLinesForVersionResult>("publicatieparsings/${textLinesForVersionRequestId}") {
                 header("Accept", "application/ld+json")
-            }.body<NsxTextLinesForVersionResult>()
+            }
         return result.results
     }
 

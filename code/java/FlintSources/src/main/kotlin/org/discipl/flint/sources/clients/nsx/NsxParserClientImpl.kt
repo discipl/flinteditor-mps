@@ -15,13 +15,13 @@ class NsxParserClientImpl(private val httpClient: HttpClient) : ParserClient {
     }
 
     private suspend fun getPublicationSources(): List<NsxPublicationSource> {
-        return httpClient.get("publicatiebrons").body<NsxResult>().result.result
+        return httpClient.get<NsxResult<NsxPublicationSource>>("publicatiebrons").result.result
     }
 
     private suspend fun getPublicationParsers(): List<NsxPublicationParser> {
-        val result: NsxResult = httpClient.get("publicatieparsers") {
+        val result = httpClient.get<NsxResult<NsxPublicationParser>>("publicatieparsers") {
             header("Accept", "*/*")
-        }.body<NsxResult>()
+        }
         return result.result.result
     }
 

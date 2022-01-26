@@ -41,9 +41,9 @@ class NsxAsyncTextLineClientImpl(private val httpClient: HttpClient) : AsyncText
         parserId: UUID,
         versionId: String
     ): List<AsyncTextLine> = runBlocking {
-        val result: NsxTextLinesForVersionResult = httpClient.get("publicatieparsings/${parseRequestId}") {
+        val result = httpClient.get<NsxTextLinesForVersionResult>("publicatieparsings/${parseRequestId}") {
             header("Accept", "application/ld+json")
-        }.body<NsxTextLinesForVersionResult>()
+        }
         result.results.map { AnAsyncTextLine(it) }
     }
 

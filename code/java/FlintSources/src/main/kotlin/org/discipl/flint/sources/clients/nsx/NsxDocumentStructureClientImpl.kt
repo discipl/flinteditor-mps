@@ -9,9 +9,9 @@ import java.util.*
 
 class NsxDocumentStructureClientImpl(private val httpClient: HttpClient) : DocumentStructureClient {
     private suspend fun getDocumentStructuresAsync(): List<NsxDocumentStructure> {
-        val result: NsxResult = httpClient.get("documentstructures") {
+        val result = httpClient.get<NsxResult<NsxDocumentStructure>>("documentstructures") {
             header("Accept", "*/*")
-        }.body<NsxResult>()
+        }
         return result.result.result
     }
 
