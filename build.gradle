@@ -408,9 +408,13 @@ task downloadLinuxJbr(type: Copy) {
 
 task fixMacOsSymbolicLink(group: 'jbr') {
     doFirst {
-        def symbolicLink = new File("$mpsDir/jbrs/osx/jbr/Contents/MacOS/libjli.dylib")
-        symbolicLink.delete()
-        java.nio.file.Files.createSymbolicLink(symbolicLink.toPath(), new File("../Home/lib/jli/libjli.dylib").toPath())
+        if(!OperatingSystem.current().isWindows()){
+            def symbolicLink = new File("$mpsDir/jbrs/osx/jbr/Contents/MacOS/libjli.dylib")
+            symbolicLink.delete()
+            java.nio.file.Files.createSymbolicLink(symbolicLink.toPath(), new File("../Home/lib/jli/libjli.dylib").toPath())
+        } else{
+            logger.warn('Cannot build MAC distribution on windows')
+        }
     }
 }
 

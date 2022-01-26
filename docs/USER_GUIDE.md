@@ -244,6 +244,45 @@ To split a sentence:
 2. Hit `Alt+Enter` and select `Split Line`.   
 ![Split Line](images/splitline.png) ![After Split](images/linesplitted.png)
 You can also select `Add Text to Existing Node` to add the source to an existing Act/Duty/Fact.
+
+## Translations guide
+
+It is possible to make translations in the FlintEditor. It starts with making a language node in which you must translate all the editor components to your desired language. When activated all the editor components will use the given translation. Building upon this language node a user can also start making translations of Acts/Facts/Duties as they please. To allow for collaboration and sharing information different export options are provided. A user can export/import a language node to share with collaborators or he can export/import a whole FlintModel with a certain translation. A step by step guide will be given below describing each part of the translation process.
+
+### Creating language node
+1. Create a new language node  
+![Createing new language node](images/create_new_language.png)
+2. You can find your langauge node in the language map as shown below  
+![Language node placement](images/placement_language_node.png)
+3. The new language node will look empty like the image below. Fill in your translations.   
+![Language Node Example](images/language_node_example.png)
+4. In this short guide we will copy the English translation and call it Test_English  
+![Language Node Example Filled](images/language_node_example_filled.png)
+
+### Importing / Exporting language nodes
+
+- Exporting Language can be done via the "Export json" action which will show after right-clicking the language node.
+![Exporting language](images/language_export.png)
+- Importing a Language can be done via the "Import language" action which will show after right-clicking the model map. It requires the abovementioned exported json.
+![Importing language](images/language_import.png)
+
+### Selecting a language
+- `ctrl+space` click on the language in the FlintModel to see all available languages and select a language to switch it. We will use the Test_English language here. Dutch and English language nodes are provided with Flint. When no language is selected it will default to English.   
+![Selecting language](images/language_selection.png)
+
+### Translate Acts / Facts / Duties
+This guide will demonstrate creating Translations with an Act.
+
+1 . Provided we didn't select a language yet, the default language is English. The Act should look as below.  
+![Normal Act](images/language_act_start.png)  
+2 (Manually). We could manually create new translations by pressing `enter` after "English". You can manually fill the language name and translated name. 
+![Manual Act](images/language_act_manual.png)    
+2 (Automatically). We could also switch the FlintModel language to "Test_English". This will create a new translation with the new language name automatically filled. After we change the translated name of the act we get the next image.     
+![Automatic Act](images/language_switching.png)   
+3 . We can also collide or expand the "Translations" to make the Act more readable as shown below.  
+![Translation collide](images/language_translation_collide.png)
+![Translation expand](images/language_translation_expand.png)   
+
 ## Useful Shortcuts, Tips And Tricks
 - `Ctrl+B` or `Ctrl+Click` will take you to the source of a reference.
 - `Ctrl+F9` will rebuild the current solution.

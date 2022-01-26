@@ -1322,7 +1322,7 @@
       <node concept="aVJcg" id="7ua6Tt2QOlx" role="aVJcv">
         <node concept="NbPM2" id="7ua6Tt2QOlw" role="aVJcq">
           <node concept="3Mxwew" id="7ua6Tt2QOlv" role="3MwsjC">
-            <property role="3MwjfP" value="10" />
+            <property role="3MwjfP" value="13" />
           </node>
         </node>
       </node>
@@ -2028,6 +2028,11 @@
         <node concept="1SiIV0" id="6LSqBjYO77j" role="3bR37C">
           <node concept="3bR9La" id="4O8McXBk1RA" role="1SiIV1">
             <ref role="3bR37D" node="6onvLJoJVY2" resolve="LawSource" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7$0Y1R9staj" role="3bR37C">
+          <node concept="3bR9La" id="7$0Y1R9stak" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
           </node>
         </node>
       </node>

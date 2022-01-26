@@ -39,6 +39,155 @@
   <node concept="3YXoiq" id="74VLc6kV5oQ">
     <property role="TrG5h" value="testmodel.flint" />
     <node concept="3YX88f" id="74VLc6kV5oR" role="3YXoi7">
+      <node concept="3YX88e" id="6$5jl5S4ih0" role="3YX86K">
+        <property role="TrG5h" value="language" />
+        <node concept="3YX88f" id="6$5jl5S4j7d" role="3YX8ah">
+          <node concept="3YX88e" id="6$5jl5S4jTW" role="3YX86K">
+            <property role="TrG5h" value="languageName" />
+            <node concept="3YX86M" id="6$5jl5S4vv3" role="3YX8ah">
+              <property role="3YX86R" value="English" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="6$5jl5S4krS" role="3YX86K">
+            <property role="TrG5h" value="name" />
+            <node concept="3YX86M" id="6$5jl5S4vv8" role="3YX8ah">
+              <property role="3YX86R" value="name" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="6$5jl5S4krY" role="3YX86K">
+            <property role="TrG5h" value="acts" />
+            <node concept="3YX86M" id="6$5jl5S4vvd" role="3YX8ah">
+              <property role="3YX86R" value="acts" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="6$5jl5S4ks6" role="3YX86K">
+            <property role="TrG5h" value="facts" />
+            <node concept="3YX86M" id="6$5jl5S4vvi" role="3YX8ah">
+              <property role="3YX86R" value="facts" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="6$5jl5S4ksg" role="3YX86K">
+            <property role="TrG5h" value="duties" />
+            <node concept="3YX86M" id="6$5jl5S4vvn" role="3YX8ah">
+              <property role="3YX86R" value="duties" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="6$5jl5S4kss" role="3YX86K">
+            <property role="TrG5h" value="function" />
+            <node concept="3YX86M" id="6$5jl5S4vvs" role="3YX8ah">
+              <property role="3YX86R" value="function" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="6$5jl5S4ksE" role="3YX86K">
+            <property role="TrG5h" value="references" />
+            <node concept="3YX86M" id="6$5jl5S4vvx" role="3YX8ah">
+              <property role="3YX86R" value="references" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="6$5jl5S4ksU" role="3YX86K">
+            <property role="TrG5h" value="dutyHolder" />
+            <node concept="3YX86M" id="6$5jl5S4vvA" role="3YX8ah">
+              <property role="3YX86R" value="duty-holder" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="6$5jl5S4ktc" role="3YX86K">
+            <property role="TrG5h" value="claimant" />
+            <node concept="3YX86M" id="6$5jl5S4vvF" role="3YX8ah">
+              <property role="3YX86R" value="claimaint" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="6$5jl5S4ktw" role="3YX86K">
+            <property role="TrG5h" value="create" />
+            <node concept="3YX86M" id="6$5jl5S4vvK" role="3YX8ah">
+              <property role="3YX86R" value="create" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="6$5jl5S4ktQ" role="3YX86K">
+            <property role="TrG5h" value="terminate" />
+            <node concept="3YX86M" id="6$5jl5S4vvP" role="3YX8ah">
+              <property role="3YX86R" value="terminate" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="6$5jl5S4kue" role="3YX86K">
+            <property role="TrG5h" value="dutyComponents" />
+            <node concept="3YX86M" id="6$5jl5S4vvU" role="3YX8ah">
+              <property role="3YX86R" value="duty-components" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="6$5jl5S4kuC" role="3YX86K">
+            <property role="TrG5h" value="explanation" />
+            <node concept="3YX86M" id="6$5jl5S4vvZ" role="3YX8ah">
+              <property role="3YX86R" value="explanation" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="6$5jl5S4kv4" role="3YX86K">
+            <property role="TrG5h" value="actor" />
+            <node concept="3YX86M" id="6$5jl5S4vw4" role="3YX8ah">
+              <property role="3YX86R" value="actor" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="6$5jl5S4kvy" role="3YX86K">
+            <property role="TrG5h" value="action" />
+            <node concept="3YX86M" id="6$5jl5S4vw9" role="3YX8ah">
+              <property role="3YX86R" value="action" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="6$5jl5S4kw2" role="3YX86K">
+            <property role="TrG5h" value="eObject" />
+            <node concept="3YX86M" id="6$5jl5S4vwe" role="3YX8ah">
+              <property role="3YX86R" value="object" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="6$5jl5S4kw$" role="3YX86K">
+            <property role="TrG5h" value="recipient" />
+            <node concept="3YX86M" id="6$5jl5S4vwj" role="3YX8ah">
+              <property role="3YX86R" value="recipient" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="6$5jl5S4kx8" role="3YX86K">
+            <property role="TrG5h" value="precondition" />
+            <node concept="3YX86M" id="6$5jl5S4vwo" role="3YX8ah">
+              <property role="3YX86R" value="preconditions" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="6$5jl5S4kxI" role="3YX86K">
+            <property role="TrG5h" value="language" />
+            <node concept="3YX86M" id="6$5jl5S4vwt" role="3YX8ah">
+              <property role="3YX86R" value="language" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="6$5jl5S4kym" role="3YX86K">
+            <property role="TrG5h" value="sources" />
+            <node concept="3YX86M" id="6$5jl5S4vwy" role="3YX8ah">
+              <property role="3YX86R" value="sources" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="6$5jl5S4kz0" role="3YX86K">
+            <property role="TrG5h" value="text" />
+            <node concept="3YX86M" id="6$5jl5S4vwB" role="3YX8ah">
+              <property role="3YX86R" value="text" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="6$5jl5S4kzG" role="3YX86K">
+            <property role="TrG5h" value="findLineInSource" />
+            <node concept="3YX86M" id="6$5jl5S4vwG" role="3YX8ah">
+              <property role="3YX86R" value="Find line in Source" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="6$5jl5S4k$q" role="3YX86K">
+            <property role="TrG5h" value="validFrom" />
+            <node concept="3YX86M" id="6$5jl5S4vwL" role="3YX8ah">
+              <property role="3YX86R" value="valid from" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="6$5jl5S4k_a" role="3YX86K">
+            <property role="TrG5h" value="validTo" />
+            <node concept="3YX86M" id="6$5jl5S4vwQ" role="3YX8ah">
+              <property role="3YX86R" value="valid to" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3YX88e" id="74VLc6kV5oS" role="3YX86K">
         <property role="TrG5h" value="acts" />
         <node concept="3YX8am" id="74VLc6kV5oT" role="3YX8ah">
