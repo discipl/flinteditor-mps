@@ -5132,7 +5132,7 @@
                           <ref role="3xOPvv" node="mUS$m9r36D" resolve="dAct" />
                         </node>
                         <node concept="Xl_RD" id="mUS$m9lY9S" role="37wK5m">
-                          <property role="Xl_RC" value="Custom_jfbt31_a0a" />
+                          <property role="Xl_RC" value="TranslatedProperty_jfbt31_a0a" />
                         </node>
                       </node>
                     </node>
@@ -5196,7 +5196,7 @@
                           <ref role="3xOPvv" node="mUS$m9r36D" resolve="dAct" />
                         </node>
                         <node concept="Xl_RD" id="2vJbluoWt0A" role="37wK5m">
-                          <property role="Xl_RC" value="Custom_jfbt31_a0a" />
+                          <property role="Xl_RC" value="TranslatedProperty_jfbt31_a0a" />
                         </node>
                       </node>
                     </node>
