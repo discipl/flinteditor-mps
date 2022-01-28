@@ -473,6 +473,9 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
+      <concept id="1140725362528" name="jetbrains.mps.lang.smodel.structure.Link_SetTargetOperation" flags="nn" index="2oxUTD">
+        <child id="1140725362529" name="linkTarget" index="2oxUTC" />
+      </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
@@ -4621,6 +4624,27 @@
                 <ref role="37wK5l" to="3lmi:3oX$uxIBRUU" resolve="createFact" />
                 <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
                 <node concept="ub8z3" id="3oX$uxIC_9E" role="37wK5m" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="7cOmlTWG5kW" role="3cqZAp">
+            <node concept="2OqwBi" id="7cOmlTWGdD5" role="3clFbG">
+              <node concept="2OqwBi" id="7cOmlTWG5Cf" role="2Oq$k0">
+                <node concept="37vLTw" id="7cOmlTWG5kU" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5PvmyFUgghQ" resolve="fact" />
+                </node>
+                <node concept="3TrEf2" id="7cOmlTWG6jO" role="2OqNvi">
+                  <ref role="3Tt5mk" to="lnwe:5Xjenljc0hW" resolve="function" />
+                </node>
+              </node>
+              <node concept="2oxUTD" id="7cOmlTWGe0q" role="2OqNvi">
+                <node concept="2ShNRf" id="7cOmlTWGeeK" role="2oxUTC">
+                  <node concept="3zrR0B" id="7cOmlTWGe_l" role="2ShVmc">
+                    <node concept="3Tqbb2" id="7cOmlTWGe_n" role="3zrR0E">
+                      <ref role="ehGHo" to="lnwe:riOo_LzybO" resolve="CREATE" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>
