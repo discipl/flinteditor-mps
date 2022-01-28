@@ -4,7 +4,7 @@
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="7" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="8" />
     <use id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi" version="0" />
     <use id="68015e26-cc4d-49db-8715-b643faea1769" name="jetbrains.mps.lang.test.generator" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
@@ -286,8 +286,6 @@
         <child id="6868897032739751036" name="function" index="coNO9" />
       </concept>
       <concept id="2444626260293387291" name="Flint.structure.Duty" flags="ng" index="2cz0EU">
-        <child id="898982168832817003" name="create" index="cMmjI" />
-        <child id="898982168832817017" name="terminate" index="cMmjW" />
         <child id="6205025464253210169" name="claimant" index="3H37fL" />
         <child id="6205025464253210160" name="dutyHolder" index="3H37fS" />
       </concept>
@@ -319,9 +317,6 @@
       </concept>
       <concept id="4312083994563767573" name="Flint.structure.LanguageReference" flags="ng" index="3ainiu">
         <reference id="4312083994563770085" name="target" index="3aimXI" />
-      </concept>
-      <concept id="7402439007429942662" name="Flint.structure.ActReference" flags="ng" index="3jSua8">
-        <reference id="7402439007429942663" name="act" index="3jSua9" />
       </concept>
       <concept id="4808965957220771074" name="Flint.structure.AND" flags="ng" index="1zEWgd" />
       <concept id="4808965957220776510" name="Flint.structure.LESS_THAN" flags="ng" index="1zEXGL" />
@@ -2081,12 +2076,6 @@
                 <property role="19SUeA" value="Text" />
               </node>
             </node>
-          </node>
-          <node concept="3jSua8" id="4pyf5wCP3AU" role="cMmjI">
-            <ref role="3jSua9" node="4pyf5wCP3AF" resolve="Act2" />
-          </node>
-          <node concept="3jSua8" id="4pyf5wCP3AV" role="cMmjW">
-            <ref role="3jSua9" node="4pyf5wCP3Ay" resolve="Act1" />
           </node>
           <node concept="1FQA6B" id="4pyf5wCP3AW" role="3H37fS">
             <ref role="1FQA6$" node="4pyf5wCP3Aa" resolve="Person" />

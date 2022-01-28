@@ -2,7 +2,7 @@
 <model ref="r:24d66bc9-227a-447b-947a-855ad292ec9a(Flint.test.flintmodelinput)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="7" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="8" />
   </languages>
   <imports />
   <registry>
@@ -32,10 +32,7 @@
       <concept id="6868897032739434618" name="Flint.structure.Fact" flags="ng" index="cu0$f">
         <child id="6868897032739751036" name="function" index="coNO9" />
       </concept>
-      <concept id="2444626260293387291" name="Flint.structure.Duty" flags="ng" index="2cz0EU">
-        <child id="898982168832817003" name="create" index="cMmjI" />
-        <child id="898982168832817017" name="terminate" index="cMmjW" />
-      </concept>
+      <concept id="2444626260293387291" name="Flint.structure.Duty" flags="ng" index="2cz0EU" />
       <concept id="2444626260293394822" name="Flint.structure.DutyReference" flags="ng" index="2cz2WB">
         <reference id="2444626260293394823" name="duty" index="2cz2WA" />
       </concept>
@@ -61,9 +58,6 @@
       </concept>
       <concept id="2986354165693918736" name="Flint.structure.SRole" flags="ng" index="2UK0tq">
         <property id="2986354165693918737" name="role" index="2UK0tr" />
-      </concept>
-      <concept id="7402439007429942662" name="Flint.structure.ActReference" flags="ng" index="3jSua8">
-        <reference id="7402439007429942663" name="act" index="3jSua9" />
       </concept>
       <concept id="4808965957220771074" name="Flint.structure.AND" flags="ng" index="1zEWgd" />
       <concept id="4808965957220776525" name="Flint.structure.OR" flags="ng" index="1zEXH2" />
@@ -266,12 +260,6 @@
   <node concept="2cz0EU" id="74VLc6kV4H8">
     <property role="TrG5h" value="duty2" />
     <property role="3GE5qa" value="duties" />
-    <node concept="2cz2WB" id="74VLc6kV4Hh" role="cMmjI">
-      <ref role="2cz2WA" node="74VLc6kV4Hi" resolve="duty1" />
-    </node>
-    <node concept="3jSua8" id="74VLc6kV4Hj" role="cMmjW">
-      <ref role="3jSua9" node="74VLc6kV4GT" resolve="act1" />
-    </node>
     <node concept="1GVOM6" id="4_2puRSSLZD" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="duty2" />

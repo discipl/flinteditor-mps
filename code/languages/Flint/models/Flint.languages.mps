@@ -3,7 +3,7 @@
   <persistence version="9" />
   <attribute name="doNotGenerate" value="true" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="7" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="8" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports />
@@ -22,7 +22,7 @@
         <property id="3001846011087141593" name="eTerminate" index="30VgBj" />
         <property id="3001846011087141586" name="eCreate" index="30VgBo" />
         <property id="3001846011087141610" name="eExplanation" index="30VgBw" />
-        <property id="3001846011087141601" name="eDutyComponents" index="30VgBF" />
+        <property id="3001846011087141601" name="eEnforce" index="30VgBF" />
         <property id="3001846011087141620" name="eActor" index="30VgBY" />
         <property id="3001846011087143305" name="eAction" index="30Vna3" />
         <property id="3001846011087143317" name="eObject" index="30Vnav" />

@@ -11715,7 +11715,7 @@
       </node>
       <node concept="355D3s" id="7Py7TjT7Rgy" role="37wK5m">
         <ref role="355D3t" to="lnwe:2ACGKFDB3mq" resolve="Language" />
-        <ref role="355D3u" to="lnwe:2ACGKFDhrFx" resolve="eDutyComponents" />
+        <ref role="355D3u" to="lnwe:2ACGKFDhrFx" resolve="eEnforce" />
       </node>
     </node>
     <node concept="QsSxf" id="7B7tObSngGN" role="Qtgdg">
