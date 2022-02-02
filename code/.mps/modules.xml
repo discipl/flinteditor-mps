@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/Flint/Flint.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/Flint/sandbox/Flint.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/FlintCellModels/FlintCellModels.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/FlintSource/FlintSource.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/FlintTests/FlintTests.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/LawSource/LawSource.mpl" folder="" />
