@@ -34,6 +34,7 @@ data class Language(
     val findLineInSource: String,
     val validFrom: String,
     val validTo: String,
+    val tags: String,
 )
 
 data class Act(
