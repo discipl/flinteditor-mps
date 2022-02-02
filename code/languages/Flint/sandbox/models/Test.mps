@@ -2,7 +2,7 @@
 <model ref="r:6a404292-b01a-494e-ab06-c424caf266f6(Test)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="7" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="8" />
   </languages>
   <imports />
   <registry>
@@ -41,6 +41,9 @@
       <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
         <child id="6983418503075280678" name="sources" index="2pmM46" />
       </concept>
+      <concept id="589729100932390229" name="Flint.structure.IHasLanguage" flags="ng" index="ITzSF">
+        <child id="5326288789495449519" name="translatedNames" index="1GVO30" />
+      </concept>
       <concept id="4808965957220776534" name="Flint.structure.LITERAL" flags="ng" index="1zEXHp">
         <child id="4808965957220776594" name="operand" index="1zEXIt" />
       </concept>
@@ -49,6 +52,10 @@
       </concept>
       <concept id="6587498613242404529" name="Flint.structure.FactReference" flags="ng" index="1FQA6B">
         <reference id="6587498613242404530" name="fact" index="1FQA6$" />
+      </concept>
+      <concept id="5326288789495450601" name="Flint.structure.TranslatedName" flags="ng" index="1GVOM6">
+        <property id="5326288789495451684" name="translatedName" index="1GVPtb" />
+        <property id="5326288789495451682" name="language" index="1GVPtd" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -451,6 +458,10 @@
   <node concept="cu0$f" id="4VrbcpCY21I">
     <property role="TrG5h" value="afwijzen" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="344aJ4bLRTo" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="afwijzen" />
+    </node>
   </node>
   <node concept="cu0$f" id="4VrbcpCY21V">
     <property role="TrG5h" value="indienen" />

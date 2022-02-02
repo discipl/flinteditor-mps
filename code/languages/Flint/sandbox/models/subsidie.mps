@@ -2,7 +2,7 @@
 <model ref="r:9552c217-62e0-4fe8-b79a-8ba546d6e79e(subsidie)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="7" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="8" />
   </languages>
   <imports />
   <registry>

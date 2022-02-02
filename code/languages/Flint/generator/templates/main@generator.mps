@@ -1499,7 +1499,7 @@
                   <node concept="3clFbF" id="6qUJKUPD6r4" role="3cqZAp">
                     <node concept="2OqwBi" id="6qUJKUPD6qZ" role="3clFbG">
                       <node concept="30H73N" id="6qUJKUPD6r3" role="2Oq$k0" />
-                      <node concept="3Tsc0h" id="14WD1puaPP2" role="2OqNvi">
+                      <node concept="3Tsc0h" id="4tXxSSAbGVA" role="2OqNvi">
                         <ref role="3TtcxE" to="lnwe:14WD1psJrII" resolve="enforce" />
                       </node>
                     </node>
@@ -2973,7 +2973,7 @@
         </node>
       </node>
       <node concept="3YX88e" id="gbbh_pC0g" role="3YX86K">
-        <property role="TrG5h" value="dutyComponents" />
+        <property role="TrG5h" value="enforce" />
         <node concept="3YX86M" id="gbbh_pC0h" role="3YX8ah">
           <node concept="17Uvod" id="gbbh_pC0i" role="lGtFl">
             <property role="2qtEX9" value="value" />

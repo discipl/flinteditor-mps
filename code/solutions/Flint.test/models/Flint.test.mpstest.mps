@@ -349,7 +349,6 @@
         <reference id="6587498613242404530" name="fact" index="1FQA6$" />
       </concept>
       <concept id="5326288789495450601" name="Flint.structure.TranslatedName" flags="ng" index="1GVOM6">
-        <property id="2148853966781381138" name="action" index="DSN_u" />
         <property id="5326288789495451684" name="translatedName" index="1GVPtb" />
         <property id="5326288789495451682" name="language" index="1GVPtd" />
       </concept>
@@ -669,6 +668,9 @@
             <property role="1GVPtd" value="English" />
             <property role="1GVPtb" value="Act1" />
           </node>
+          <node concept="1FQA6B" id="344aJ4bO1az" role="3FTnq6">
+            <ref role="1FQA6$" node="74VLc6k_$IL" resolve="Fact1" />
+          </node>
         </node>
         <node concept="mu5$5" id="74VLc6k_$I_" role="3_ImHT">
           <property role="TrG5h" value="Act1" />
@@ -692,6 +694,9 @@
           <node concept="1GVOM6" id="4OXxETsofCz" role="1GVO30">
             <property role="1GVPtd" value="English" />
             <property role="1GVPtb" value="Act1" />
+          </node>
+          <node concept="1FQA6B" id="344aJ4bO1a_" role="3FTnq6">
+            <ref role="1FQA6$" node="74VLc6k_$IL" resolve="Fact1" />
           </node>
         </node>
       </node>
@@ -2615,6 +2620,10 @@
   <node concept="2lJO3n" id="45WVu5_4VB6">
     <property role="TrG5h" value="MultiTagging_Test" />
     <node concept="1qefOq" id="45WVu5_4W5g" role="2lJPY$">
+      <node concept="15s5l7" id="344aJ4bNfAb" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No child in the obligatory role 'action'&quot;;FLAVOUR_NODE_FEATURE=&quot;action&quot;;" />
+        <property role="huDt6" value="No child in the obligatory role 'action'" />
+      </node>
       <node concept="15s5l7" id="45WVu5_hEFx" role="lGtFl">
         <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No reference in the obligatory role 'fact'&quot;;FLAVOUR_NODE_FEATURE=&quot;fact&quot;;" />
         <property role="huDt6" value="No reference in the obligatory role 'fact'" />
@@ -2649,6 +2658,10 @@
               </node>
             </node>
           </node>
+          <node concept="1GVOM6" id="344aJ4bNf_w" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="TestAct" />
+          </node>
         </node>
         <node concept="cog_a" id="45WVu5_4W5v" role="3_ImGG">
           <property role="TrG5h" value="Artikel1" />
@@ -2659,6 +2672,10 @@
       <ref role="3ea_Bf" to="kzwd:45WVu5$VpTu" resolve="MultiTagging" />
     </node>
     <node concept="1qefOq" id="45WVu5_4W2I" role="2lJO3o">
+      <node concept="15s5l7" id="344aJ4bNfAe" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No child in the obligatory role 'action'&quot;;FLAVOUR_NODE_FEATURE=&quot;action&quot;;" />
+        <property role="huDt6" value="No child in the obligatory role 'action'" />
+      </node>
       <node concept="15s5l7" id="45WVu5_hnfy" role="lGtFl">
         <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No reference in the obligatory role 'fact'&quot;;FLAVOUR_NODE_FEATURE=&quot;fact&quot;;" />
         <property role="huDt6" value="No reference in the obligatory role 'fact'" />
@@ -2692,6 +2709,10 @@
                 <property role="19SUeA" value="Test4" />
               </node>
             </node>
+          </node>
+          <node concept="1GVOM6" id="344aJ4bNf_v" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="TestAct" />
           </node>
         </node>
         <node concept="cog_a" id="45WVu5_4W2Z" role="3_ImGG">
@@ -3589,6 +3610,10 @@
       </node>
     </node>
     <node concept="1qefOq" id="wJ8RSBtgoK" role="1SKRRt">
+      <node concept="15s5l7" id="344aJ4bNf_p" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No child in the obligatory role 'action'&quot;;FLAVOUR_NODE_FEATURE=&quot;action&quot;;" />
+        <property role="huDt6" value="No child in the obligatory role 'action'" />
+      </node>
       <node concept="15s5l7" id="wJ8RSBtgpc" role="lGtFl">
         <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No reference in the obligatory role 'fact'&quot;;FLAVOUR_NODE_FEATURE=&quot;fact&quot;;" />
         <property role="huDt6" value="No reference in the obligatory role 'fact'" />
@@ -3640,6 +3665,10 @@
       </node>
     </node>
     <node concept="1qefOq" id="wJ8RSBtRR0" role="1SKRRt">
+      <node concept="15s5l7" id="344aJ4bNf_s" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No child in the obligatory role 'action'&quot;;FLAVOUR_NODE_FEATURE=&quot;action&quot;;" />
+        <property role="huDt6" value="No child in the obligatory role 'action'" />
+      </node>
       <node concept="15s5l7" id="1SPvxsynhnH" role="lGtFl">
         <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No reference in the obligatory role 'fact'&quot;;FLAVOUR_NODE_FEATURE=&quot;fact&quot;;" />
         <property role="huDt6" value="No reference in the obligatory role 'fact'" />
@@ -3682,6 +3711,10 @@
       </node>
     </node>
     <node concept="1qefOq" id="wJ8RSBtRRp" role="1SKRRt">
+      <node concept="15s5l7" id="344aJ4bNtnN" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No child in the obligatory role 'action'&quot;;FLAVOUR_NODE_FEATURE=&quot;action&quot;;" />
+        <property role="huDt6" value="No child in the obligatory role 'action'" />
+      </node>
       <node concept="15s5l7" id="1SPvxsynhnF" role="lGtFl">
         <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No reference in the obligatory role 'fact'&quot;;FLAVOUR_NODE_FEATURE=&quot;fact&quot;;" />
         <property role="huDt6" value="No reference in the obligatory role 'fact'" />
@@ -5994,18 +6027,16 @@
           <node concept="1FQA6B" id="5B1cSpUZ44u" role="3H36mW" />
           <node concept="1FQA6B" id="5B1cSpUZ44v" role="3H36l7" />
           <node concept="1FQA6B" id="5B1cSpUZ44w" role="3H36lm" />
-          <node concept="1GVOM6" id="5B1cSpUZ44x" role="1GVO30">
-            <property role="1GVPtd" value="English" />
-            <property role="1GVPtb" value="act1 - English" />
-            <property role="DSN_u" value="[grant]" />
-          </node>
-          <node concept="1GVOM6" id="5B1cSpUZ44B" role="1GVO30">
-            <property role="1GVPtb" value="act1 - Dutch" />
-            <property role="1GVPtd" value="Dutch" />
-            <property role="DSN_u" value="[inwilligen]" />
-          </node>
           <node concept="3xLA65" id="5B1cSpV1nmw" role="lGtFl">
             <property role="TrG5h" value="act" />
+          </node>
+          <node concept="1GVOM6" id="344aJ4bNkpf" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="act1 - English" />
+          </node>
+          <node concept="1GVOM6" id="344aJ4bNl2Z" role="1GVO30">
+            <property role="1GVPtb" value="act1 - Dutch" />
+            <property role="1GVPtd" value="Dutch" />
           </node>
         </node>
         <node concept="LIFWc" id="5B1cSpUZ44r" role="lGtFl">
@@ -6159,15 +6190,13 @@
           <node concept="1FQA6B" id="5B1cSpUZ44J" role="3H36mW" />
           <node concept="1FQA6B" id="5B1cSpUZ44K" role="3H36l7" />
           <node concept="1FQA6B" id="5B1cSpUZ44L" role="3H36lm" />
-          <node concept="1GVOM6" id="5B1cSpUZ44M" role="1GVO30">
+          <node concept="1GVOM6" id="344aJ4bNjGV" role="1GVO30">
             <property role="1GVPtd" value="English" />
             <property role="1GVPtb" value="act1 - English" />
-            <property role="DSN_u" value="[grant]" />
           </node>
-          <node concept="1GVOM6" id="5B1cSpUZ44Y" role="1GVO30">
-            <property role="1GVPtd" value="Dutch" />
+          <node concept="1GVOM6" id="344aJ4bNjHZ" role="1GVO30">
             <property role="1GVPtb" value="act1 - Dutch" />
-            <property role="DSN_u" value="[inwilligen]" />
+            <property role="1GVPtd" value="Dutch" />
           </node>
         </node>
         <node concept="3ainiu" id="5B1cSpUZ44X" role="3a9ffC">

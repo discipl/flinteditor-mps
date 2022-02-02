@@ -2,7 +2,7 @@
 <model ref="r:dc268d73-e96e-4a6a-a577-7ee51a77ca77(Vreemdelingenwet)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="7" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="8" />
   </languages>
   <imports />
   <registry>
@@ -32,7 +32,6 @@
         <child id="6868897032739751036" name="function" index="coNO9" />
       </concept>
       <concept id="2444626260293387291" name="Flint.structure.Duty" flags="ng" index="2cz0EU">
-        <child id="898982168832817003" name="oldCreate" index="cMmjI" />
         <child id="1242048013199588270" name="enforce" index="1dwhYS" />
         <child id="6205025464253210169" name="claimant" index="3H37fL" />
         <child id="6205025464253210160" name="dutyHolder" index="3H37fS" />
@@ -3063,9 +3062,6 @@
         </node>
       </node>
     </node>
-    <node concept="3jSua8" id="13qOoT8BfoT" role="cMmjI">
-      <ref role="3jSua9" node="13qOoT8Bfo8" resolve="inwilligen aanvraag tot het verlenen van een vvr-bep" />
-    </node>
     <node concept="1FQA6B" id="13qOoT8BfoU" role="3H37fS">
       <ref role="1FQA6$" node="13qOoT8BfcJ" resolve="Onze Minister van Justitie en Veiligheid" />
     </node>
@@ -3089,9 +3085,6 @@
         </node>
       </node>
     </node>
-    <node concept="3jSua8" id="13qOoT8BfoN" role="cMmjI">
-      <ref role="3jSua9" node="13qOoT8Bfo8" resolve="inwilligen aanvraag tot het verlenen van een vvr-bep" />
-    </node>
     <node concept="1FQA6B" id="13qOoT8BfoO" role="3H37fS">
       <ref role="1FQA6$" node="13qOoT8BfcJ" resolve="Onze Minister van Justitie en Veiligheid" />
     </node>
@@ -3114,9 +3107,6 @@
           <property role="19SUeA" value="Onze Minister verschaft aan de vreemdeling, die rechtmatig verblijf heeft op grond van artikel 8, onder a tot en met d, f tot en met h en j tot en met m, en aan de vreemdeling die rechtmatig verblijf heeft op grond van artikel 8, onder e, en gemeenschapsonderdaan is als bedoeld in artikel 1, sub 2°, 4° en 6°, een document of schriftelijke verklaring, waaruit het rechtmatig verblijf blijkt." />
         </node>
       </node>
-    </node>
-    <node concept="3jSua8" id="13qOoT8Bfp0" role="cMmjI">
-      <ref role="3jSua9" node="13qOoT8Bfo8" resolve="inwilligen aanvraag tot het verlenen van een vvr-bep" />
     </node>
     <node concept="1FQA6B" id="13qOoT8Bfp1" role="3H37fS">
       <ref role="1FQA6$" node="13qOoT8BfcJ" resolve="Onze Minister van Justitie en Veiligheid" />

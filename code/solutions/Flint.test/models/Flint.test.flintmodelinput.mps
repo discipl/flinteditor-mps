@@ -32,7 +32,9 @@
       <concept id="6868897032739434618" name="Flint.structure.Fact" flags="ng" index="cu0$f">
         <child id="6868897032739751036" name="function" index="coNO9" />
       </concept>
-      <concept id="2444626260293387291" name="Flint.structure.Duty" flags="ng" index="2cz0EU" />
+      <concept id="2444626260293387291" name="Flint.structure.Duty" flags="ng" index="2cz0EU">
+        <child id="1242048013199588" name="enforce" index="3mAC56" />
+      </concept>
       <concept id="2444626260293394822" name="Flint.structure.DutyReference" flags="ng" index="2cz2WB">
         <reference id="2444626260293394823" name="duty" index="2cz2WA" />
       </concept>
@@ -58,6 +60,9 @@
       </concept>
       <concept id="2986354165693918736" name="Flint.structure.SRole" flags="ng" index="2UK0tq">
         <property id="2986354165693918737" name="role" index="2UK0tr" />
+      </concept>
+      <concept id="7402439007429942662" name="Flint.structure.ActReference" flags="ng" index="3jSua8">
+        <reference id="7402439007429942663" name="act" index="3jSua9" />
       </concept>
       <concept id="4808965957220771074" name="Flint.structure.AND" flags="ng" index="1zEWgd" />
       <concept id="4808965957220776525" name="Flint.structure.OR" flags="ng" index="1zEXH2" />
@@ -264,6 +269,12 @@
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="duty2" />
     </node>
+    <node concept="3jSua8" id="4tXxSSAfJnI" role="3mAC56">
+      <ref role="3jSua9" node="74VLc6kV4GT" resolve="act1" />
+    </node>
+    <node concept="3jSua8" id="4tXxSSAfJnN" role="3mAC56">
+      <ref role="3jSua9" node="74VLc6kV4Ha" resolve="act2" />
+    </node>
   </node>
   <node concept="mu5$5" id="74VLc6kV4Ha">
     <property role="TrG5h" value="act2" />
@@ -286,16 +297,16 @@
       <property role="1GVPtb" value="act2" />
     </node>
   </node>
-  <node concept="2cz0EU" id="74VLc6kV4Hi">
-    <property role="TrG5h" value="duty1" />
+  <node concept="cu0$2" id="74VLc6kV4G$">
+    <property role="TrG5h" value="testmodel" />
+  </node>
+  <node concept="2cz0EU" id="344aJ4bV_ZX">
     <property role="3GE5qa" value="duties" />
-    <node concept="1GVOM6" id="4_2puRSSLYJ" role="1GVO30">
+    <property role="TrG5h" value="duty1" />
+    <node concept="1GVOM6" id="344aJ4bV_ZY" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="duty1" />
     </node>
-  </node>
-  <node concept="cu0$2" id="74VLc6kV4G$">
-    <property role="TrG5h" value="testmodel" />
   </node>
 </model>
 

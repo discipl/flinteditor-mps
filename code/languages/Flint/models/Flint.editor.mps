@@ -45,7 +45,6 @@
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <property id="1140524450557" name="separatorText" index="2czwfO" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
-        <child id="1140524464359" name="emptyCellModel" index="2czzBI" />
         <child id="928328222691832421" name="separatorTextQuery" index="2gpyvW" />
         <child id="1233141163694" name="separatorStyle" index="sWeuL" />
       </concept>
@@ -2821,9 +2820,6 @@
             <node concept="2iRkQZ" id="14WD1ptYLLJ" role="2czzBx" />
             <node concept="lj46D" id="14WD1pu4O_n" role="3F10Kt">
               <property role="VOm3f" value="true" />
-            </node>
-            <node concept="PMmxH" id="14WD1puKxFz" role="2czzBI">
-              <ref role="PMmxG" node="10jIHuiTBsY" resolve="ReferenceName_Editor_Component" />
             </node>
           </node>
         </node>

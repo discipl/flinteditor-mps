@@ -6,7 +6,7 @@ data class FlintModel(
     val facts: List<Fact> = emptyList(),
     val acts: List<Act> = emptyList(),
     val duties: List<Duty> = emptyList(),
-    val language: Language
+    val language: Language?
 )
 
 data class Language(
@@ -93,7 +93,10 @@ data class Duty(
     @SerializedName("duty-holder")
     val dutyHolder: FactReference?,
     val claimant: FactReference?,
+    val enforce: List<ActReference>?,
+    @Deprecated("can be automatically generated")
     val create: DutyCreateableAndTerminateable?,
+    @Deprecated("can be automatically generated")
     val terminate: DutyCreateableAndTerminateable?,
     override val sources: List<Source>?,
     override val explanation: String?
