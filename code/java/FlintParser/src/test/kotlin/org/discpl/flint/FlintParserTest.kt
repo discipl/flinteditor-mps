@@ -224,7 +224,7 @@ internal class FlintParserTest {
                     "plichten","functie","referentie","taak-eigenaar","eiser",
                     "maak","beindig","taak-onderdelen","uitleg","actie-ondernemer",
                     "actie","object","ontvanger","pre-conditie","taal","bronnen",
-                    "tekst","Vind lijn in Bron","geldig vanaf","geldig tot")
+                    "tekst","Vind lijn in Bron","geldig vanaf","geldig tot","labels")
                 println("[LANGUAGE_CHECK] $language")
                 assertEquals(correctLanguage,language)
             }
@@ -238,7 +238,7 @@ internal class FlintParserTest {
                     "duties","function","references","duty-holder","claimaint",
                     "create","terminate","duty-components","explanation","actor",
                     "action","object","recipient","preconditions","language","sources",
-                    "text","Find line in Source","valid from","valid to")
+                    "text","Find line in Source","valid from","valid to","tags")
                 println("[LANGUAGE_CHECK] $language")
                 assertEquals(correctLanguage,language)
             }

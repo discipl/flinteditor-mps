@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:da0ebcc1-e6bb-4896-bf0d-2bcb9f4edb4b(main@generator)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="b5c0bb04-c583-4b2a-a66e-1eab92d33c68" name="com.mbeddr.mpsutil.json" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
@@ -249,6 +250,10 @@
       <ref role="30HIoZ" to="lnwe:5Xjenljcz0Z" resolve="FlintSource" />
       <ref role="3lhOvi" node="74VLc6kWTo1" resolve="map_Source" />
     </node>
+    <node concept="3lhOvk" id="2MJ1i4xOTU$" role="3lj3bC">
+      <ref role="30HIoZ" to="lnwe:2ACGKFDB3mq" resolve="Language" />
+      <ref role="3lhOvi" node="2MJ1i4xOX86" resolve="map_Language" />
+    </node>
     <node concept="3aamgX" id="5o_8ft54deQ" role="3acgRq">
       <ref role="30HIoZ" to="lnwe:5XjenljaN1U" resolve="Fact" />
       <node concept="j$656" id="5o_8ft54df4" role="1lVwrX">
@@ -422,10 +427,6 @@
       <node concept="j$656" id="gbbh_pu5I" role="1lVwrX">
         <ref role="v9R2y" node="gbbh_ptzW" resolve="reduce_Language" />
       </node>
-    </node>
-    <node concept="3lhOvk" id="2MJ1i4xOTU$" role="3lj3bC">
-      <ref role="30HIoZ" to="lnwe:2ACGKFDB3mq" resolve="Language" />
-      <ref role="3lhOvi" node="2MJ1i4xOX86" resolve="map_Language" />
     </node>
   </node>
   <node concept="3YXoiq" id="1ThkPncLw1E">
@@ -1450,14 +1451,14 @@
                     </node>
                     <node concept="2OqwBi" id="1RigOKPbUFf" role="3uHU7w">
                       <node concept="2OqwBi" id="6qUJKUPpH7p" role="2Oq$k0">
+                        <node concept="2qgKlT" id="1RigOKPbUuN" role="2OqNvi">
+                          <ref role="37wK5l" to="3lmi:3WaefmjHEHp" resolve="getTranslatedName" />
+                        </node>
                         <node concept="2OqwBi" id="6qUJKUPpGEq" role="2Oq$k0">
                           <node concept="30H73N" id="6qUJKUPpGu7" role="2Oq$k0" />
                           <node concept="3TrEf2" id="6qUJKUPpGRi" role="2OqNvi">
                             <ref role="3Tt5mk" to="lnwe:6qUJKUPmPQ7" resolve="act" />
                           </node>
-                        </node>
-                        <node concept="2qgKlT" id="1RigOKPbUuN" role="2OqNvi">
-                          <ref role="37wK5l" to="3lmi:3WaefmjHEHp" resolve="getTranslatedName" />
                         </node>
                       </node>
                       <node concept="3TrcHB" id="1RigOKPbUUu" role="2OqNvi">
@@ -3246,6 +3247,27 @@
         </node>
       </node>
       <node concept="raruj" id="gbbh_p$ms" role="lGtFl" />
+      <node concept="3YX88e" id="6U0RkGFe6iy" role="3YX86K">
+        <property role="TrG5h" value="tags" />
+        <node concept="3YX86M" id="6U0RkGFe6yK" role="3YX8ah">
+          <node concept="17Uvod" id="6U0RkGFe6yN" role="lGtFl">
+            <property role="2qtEX9" value="value" />
+            <property role="P4ACc" value="b5c0bb04-c583-4b2a-a66e-1eab92d33c68/4342692121161029323/4342692121161029326" />
+            <node concept="3zFVjK" id="6U0RkGFe6yO" role="3zH0cK">
+              <node concept="3clFbS" id="6U0RkGFe6yP" role="2VODD2">
+                <node concept="3clFbF" id="6U0RkGFe6Bs" role="3cqZAp">
+                  <node concept="2OqwBi" id="6U0RkGFe6Pk" role="3clFbG">
+                    <node concept="30H73N" id="6U0RkGFe6Br" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="6U0RkGFe72u" role="2OqNvi">
+                      <ref role="3TsBF5" to="lnwe:6U0RkGF5W4g" resolve="eTags" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

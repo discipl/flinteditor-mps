@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:d268844f-2c2c-4250-a969-3a23a8a2bb02(Flint.structure)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
@@ -343,18 +344,18 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5HFvLoKGhUL" resolve="FactReference" />
     </node>
-    <node concept="1TJgyi" id="5xrYknohjWs" role="1TKVEl">
-      <property role="IQ2nx" value="6366956576594804508" />
-      <property role="TrG5h" value="old_action" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="asaX9" id="wQxlRzOZfp" role="lGtFl" />
-    </node>
     <node concept="1TJgyj" id="wQxlRzOZfr" role="1TKVEi">
       <property role="IQ2ns" value="591807039346570203" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="action" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5HFvLoKGhUL" resolve="FactReference" />
+    </node>
+    <node concept="1TJgyi" id="5xrYknohjWs" role="1TKVEl">
+      <property role="IQ2nx" value="6366956576594804508" />
+      <property role="TrG5h" value="old_action" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="asaX9" id="wQxlRzOZfp" role="lGtFl" />
     </node>
   </node>
   <node concept="PlHQZ" id="7PeSHTFdOj4">
@@ -1245,6 +1246,11 @@
     <node concept="PrWs8" id="3JnAoJLjy1S" role="PzmwI">
       <ref role="PrY4T" node="2vpCevmrg7e" resolve="IUniquelyName" />
     </node>
+    <node concept="1TJgyi" id="6U0RkGF5W4g" role="1TKVEl">
+      <property role="IQ2nx" value="7962607456106299664" />
+      <property role="TrG5h" value="eTags" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3JnAoJLBIOl">
     <property role="EcuMT" value="4312083994563767573" />
@@ -1260,18 +1266,18 @@
   <node concept="PlHQZ" id="wJ8RSAMhPl">
     <property role="EcuMT" value="589729100932390229" />
     <property role="TrG5h" value="IHasLanguage" />
+    <node concept="PrWs8" id="1bPqaB7QQFA" role="PrDN$">
+      <ref role="PrY4T" to="a78y:1bPqaB7Hr7H" resolve="IProvidesTranslatedCell" />
+    </node>
+    <node concept="PrWs8" id="4_s3JQD51Kq" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
     <node concept="1TJgyj" id="4BELQW_1ouJ" role="1TKVEi">
       <property role="IQ2ns" value="5326288789495449519" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="translatedNames" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="4BELQW_1oJD" resolve="TranslatedName" />
-    </node>
-    <node concept="PrWs8" id="1bPqaB7QQFA" role="PrDN$">
-      <ref role="PrY4T" to="a78y:1bPqaB7Hr7H" resolve="IProvidesTranslatedCell" />
-    </node>
-    <node concept="PrWs8" id="4_s3JQD51Kq" role="PrDN$">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="4BELQW_1oJD">

@@ -19,7 +19,7 @@ class FlintLanguageParserTest {
                 "plichten","functie","referentie","taak-eigenaar","eiser",
                  "maak","beindig","taak-onderdelen","uitleg","actie-ondernemer",
                 "actie","object","ontvanger","pre-conditie","taal","bronnen",
-                "tekst","Vind lijn in Bron","geldig vanaf","geldig tot")
+                "tekst","Vind lijn in Bron","geldig vanaf","geldig tot","labels")
                 assertEquals(language,correctLanguage)
             }
         }
