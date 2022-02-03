@@ -102,6 +102,25 @@ internal class FlintParserTest {
     }
 
     @Test
+    fun testEnforce() {
+        this::class.java.classLoader.getResourceAsStream("test-lerarenbeurs.flint.json").use {
+            InputStreamReader(it).use {
+                val text = it.readText()
+                val flintParser = FlintParser(text)
+                val duties = flintParser.getDuties()
+                assertThat(duties.size, `is`(equalTo(23)))
+                val duty = duties.firstOrNull { it.duty.name == "schriftelijk indienen aanvraag" }
+                assertThat(duty, `is`(notNullValue()))
+                assertThat(duty!!.enforce, `is`(notNullValue()))
+                val enforce = duty.enforce!!
+                assertThat(enforce.size, `is`(equalTo(2)))
+                assertThat(enforce[0].name, `is`(equalTo("enforcing act1")))
+                assertThat(enforce[1].name, `is`(equalTo("enforcing act2")))
+            }
+        }
+    }
+
+    @Test
     fun getActs() {
         this::class.java.classLoader.getResourceAsStream("test-Vreemdelingenwet.flint.json").use {
             InputStreamReader(it).use {

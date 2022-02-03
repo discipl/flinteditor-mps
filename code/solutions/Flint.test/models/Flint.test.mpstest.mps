@@ -4,7 +4,7 @@
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="7" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="8" />
     <use id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi" version="0" />
     <use id="68015e26-cc4d-49db-8715-b643faea1769" name="jetbrains.mps.lang.test.generator" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
@@ -289,8 +289,6 @@
         <child id="6868897032739751036" name="function" index="coNO9" />
       </concept>
       <concept id="2444626260293387291" name="Flint.structure.Duty" flags="ng" index="2cz0EU">
-        <child id="898982168832817003" name="create" index="cMmjI" />
-        <child id="898982168832817017" name="terminate" index="cMmjW" />
         <child id="6205025464253210169" name="claimant" index="3H37fL" />
         <child id="6205025464253210160" name="dutyHolder" index="3H37fS" />
       </concept>
@@ -323,9 +321,6 @@
       <concept id="4312083994563767573" name="Flint.structure.LanguageReference" flags="ng" index="3ainiu">
         <reference id="4312083994563770085" name="target" index="3aimXI" />
       </concept>
-      <concept id="7402439007429942662" name="Flint.structure.ActReference" flags="ng" index="3jSua8">
-        <reference id="7402439007429942663" name="act" index="3jSua9" />
-      </concept>
       <concept id="4808965957220771074" name="Flint.structure.AND" flags="ng" index="1zEWgd" />
       <concept id="4808965957220776510" name="Flint.structure.LESS_THAN" flags="ng" index="1zEXGL" />
       <concept id="4808965957220776525" name="Flint.structure.OR" flags="ng" index="1zEXH2" />
@@ -357,7 +352,6 @@
         <reference id="6587498613242404530" name="fact" index="1FQA6$" />
       </concept>
       <concept id="5326288789495450601" name="Flint.structure.TranslatedName" flags="ng" index="1GVOM6">
-        <property id="2148853966781381138" name="action" index="DSN_u" />
         <property id="5326288789495451684" name="translatedName" index="1GVPtb" />
         <property id="5326288789495451682" name="language" index="1GVPtd" />
       </concept>
@@ -681,6 +675,9 @@
             <property role="1GVPtd" value="English" />
             <property role="1GVPtb" value="Act1" />
           </node>
+          <node concept="1FQA6B" id="344aJ4bO1az" role="3FTnq6">
+            <ref role="1FQA6$" node="74VLc6k_$IL" resolve="Fact1" />
+          </node>
         </node>
         <node concept="mu5$5" id="74VLc6k_$I_" role="3_ImHT">
           <property role="TrG5h" value="Act1" />
@@ -704,6 +701,9 @@
           <node concept="1GVOM6" id="4OXxETsofCz" role="1GVO30">
             <property role="1GVPtd" value="English" />
             <property role="1GVPtb" value="Act1" />
+          </node>
+          <node concept="1FQA6B" id="344aJ4bO1a_" role="3FTnq6">
+            <ref role="1FQA6$" node="74VLc6k_$IL" resolve="Fact1" />
           </node>
         </node>
       </node>
@@ -2089,12 +2089,6 @@
               </node>
             </node>
           </node>
-          <node concept="3jSua8" id="4pyf5wCP3AU" role="cMmjI">
-            <ref role="3jSua9" node="4pyf5wCP3AF" resolve="Act2" />
-          </node>
-          <node concept="3jSua8" id="4pyf5wCP3AV" role="cMmjW">
-            <ref role="3jSua9" node="4pyf5wCP3Ay" resolve="Act1" />
-          </node>
           <node concept="1FQA6B" id="4pyf5wCP3AW" role="3H37fS">
             <ref role="1FQA6$" node="4pyf5wCP3Aa" resolve="Person" />
           </node>
@@ -2633,6 +2627,10 @@
   <node concept="2lJO3n" id="45WVu5_4VB6">
     <property role="TrG5h" value="MultiTagging_Test" />
     <node concept="1qefOq" id="45WVu5_4W5g" role="2lJPY$">
+      <node concept="15s5l7" id="344aJ4bNfAb" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No child in the obligatory role 'action'&quot;;FLAVOUR_NODE_FEATURE=&quot;action&quot;;" />
+        <property role="huDt6" value="No child in the obligatory role 'action'" />
+      </node>
       <node concept="15s5l7" id="45WVu5_hEFx" role="lGtFl">
         <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No reference in the obligatory role 'fact'&quot;;FLAVOUR_NODE_FEATURE=&quot;fact&quot;;" />
         <property role="huDt6" value="No reference in the obligatory role 'fact'" />
@@ -2667,6 +2665,10 @@
               </node>
             </node>
           </node>
+          <node concept="1GVOM6" id="344aJ4bNf_w" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="TestAct" />
+          </node>
         </node>
         <node concept="cog_a" id="45WVu5_4W5v" role="3_ImGG">
           <property role="TrG5h" value="Artikel1" />
@@ -2677,6 +2679,10 @@
       <ref role="3ea_Bf" to="kzwd:45WVu5$VpTu" resolve="MultiTagging" />
     </node>
     <node concept="1qefOq" id="45WVu5_4W2I" role="2lJO3o">
+      <node concept="15s5l7" id="344aJ4bNfAe" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No child in the obligatory role 'action'&quot;;FLAVOUR_NODE_FEATURE=&quot;action&quot;;" />
+        <property role="huDt6" value="No child in the obligatory role 'action'" />
+      </node>
       <node concept="15s5l7" id="45WVu5_hnfy" role="lGtFl">
         <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No reference in the obligatory role 'fact'&quot;;FLAVOUR_NODE_FEATURE=&quot;fact&quot;;" />
         <property role="huDt6" value="No reference in the obligatory role 'fact'" />
@@ -2710,6 +2716,10 @@
                 <property role="19SUeA" value="Test4" />
               </node>
             </node>
+          </node>
+          <node concept="1GVOM6" id="344aJ4bNf_v" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="TestAct" />
           </node>
         </node>
         <node concept="cog_a" id="45WVu5_4W2Z" role="3_ImGG">
@@ -3607,6 +3617,10 @@
       </node>
     </node>
     <node concept="1qefOq" id="wJ8RSBtgoK" role="1SKRRt">
+      <node concept="15s5l7" id="344aJ4bNf_p" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No child in the obligatory role 'action'&quot;;FLAVOUR_NODE_FEATURE=&quot;action&quot;;" />
+        <property role="huDt6" value="No child in the obligatory role 'action'" />
+      </node>
       <node concept="15s5l7" id="wJ8RSBtgpc" role="lGtFl">
         <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No reference in the obligatory role 'fact'&quot;;FLAVOUR_NODE_FEATURE=&quot;fact&quot;;" />
         <property role="huDt6" value="No reference in the obligatory role 'fact'" />
@@ -3658,6 +3672,10 @@
       </node>
     </node>
     <node concept="1qefOq" id="wJ8RSBtRR0" role="1SKRRt">
+      <node concept="15s5l7" id="344aJ4bNf_s" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No child in the obligatory role 'action'&quot;;FLAVOUR_NODE_FEATURE=&quot;action&quot;;" />
+        <property role="huDt6" value="No child in the obligatory role 'action'" />
+      </node>
       <node concept="15s5l7" id="1SPvxsynhnH" role="lGtFl">
         <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No reference in the obligatory role 'fact'&quot;;FLAVOUR_NODE_FEATURE=&quot;fact&quot;;" />
         <property role="huDt6" value="No reference in the obligatory role 'fact'" />
@@ -3700,6 +3718,10 @@
       </node>
     </node>
     <node concept="1qefOq" id="wJ8RSBtRRp" role="1SKRRt">
+      <node concept="15s5l7" id="344aJ4bNtnN" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No child in the obligatory role 'action'&quot;;FLAVOUR_NODE_FEATURE=&quot;action&quot;;" />
+        <property role="huDt6" value="No child in the obligatory role 'action'" />
+      </node>
       <node concept="15s5l7" id="1SPvxsynhnF" role="lGtFl">
         <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No reference in the obligatory role 'fact'&quot;;FLAVOUR_NODE_FEATURE=&quot;fact&quot;;" />
         <property role="huDt6" value="No reference in the obligatory role 'fact'" />
@@ -4070,20 +4092,6 @@
           </node>
         </node>
         <node concept="32diMG" id="1Drg1HVuOMy" role="32diMK">
-          <node concept="2ANm86" id="1Drg1HVuOMD" role="2T_gbu">
-            <property role="3GE5qa" value="versions" />
-            <property role="TrG5h" value="16-05-2020 t/m 11-06-2020" />
-            <property role="2AEqdP" value="2020-06-11" />
-            <property role="2AEqdO" value="2020-05-16" />
-            <property role="W2joe" value="TODO" />
-            <property role="ZyLMf" value="http://wetten.overheid.nl/1.0:c:BWBR0043324&amp;g=2020-05-16" />
-            <property role="2JHwUh" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27" />
-            <ref role="2AErGN" node="1Drg1HVuOME" resolve="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-          </node>
-          <node concept="2ATdSu" id="1Drg1HVuOME" role="32diMN">
-            <property role="2AErxT" value="BWBR0043324" />
-            <property role="TrG5h" value="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-          </node>
           <node concept="2AEkrd" id="1Drg1HVuOMz" role="32diMP">
             <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
             <property role="3GE5qa" value="articles" />
@@ -4105,6 +4113,20 @@
                 </node>
               </node>
             </node>
+          </node>
+          <node concept="2ANm86" id="1Drg1HVuOMD" role="2T_gbu">
+            <property role="3GE5qa" value="versions" />
+            <property role="TrG5h" value="16-05-2020 t/m 11-06-2020" />
+            <property role="2AEqdP" value="2020-06-11" />
+            <property role="2AEqdO" value="2020-05-16" />
+            <property role="W2joe" value="TODO" />
+            <property role="ZyLMf" value="http://wetten.overheid.nl/1.0:c:BWBR0043324&amp;g=2020-05-16" />
+            <property role="2JHwUh" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27" />
+            <ref role="2AErGN" node="1Drg1HVuOME" resolve="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+          </node>
+          <node concept="2ATdSu" id="1Drg1HVuOME" role="32diMN">
+            <property role="2AErxT" value="BWBR0043324" />
+            <property role="TrG5h" value="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
           </node>
         </node>
       </node>
@@ -6042,18 +6064,16 @@
           <node concept="1FQA6B" id="5B1cSpUZ44u" role="3H36mW" />
           <node concept="1FQA6B" id="5B1cSpUZ44v" role="3H36l7" />
           <node concept="1FQA6B" id="5B1cSpUZ44w" role="3H36lm" />
-          <node concept="1GVOM6" id="5B1cSpUZ44x" role="1GVO30">
-            <property role="1GVPtd" value="English" />
-            <property role="1GVPtb" value="act1 - English" />
-            <property role="DSN_u" value="[grant]" />
-          </node>
-          <node concept="1GVOM6" id="5B1cSpUZ44B" role="1GVO30">
-            <property role="1GVPtb" value="act1 - Dutch" />
-            <property role="1GVPtd" value="Dutch" />
-            <property role="DSN_u" value="[inwilligen]" />
-          </node>
           <node concept="3xLA65" id="5B1cSpV1nmw" role="lGtFl">
             <property role="TrG5h" value="act" />
+          </node>
+          <node concept="1GVOM6" id="344aJ4bNkpf" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="act1 - English" />
+          </node>
+          <node concept="1GVOM6" id="344aJ4bNl2Z" role="1GVO30">
+            <property role="1GVPtb" value="act1 - Dutch" />
+            <property role="1GVPtd" value="Dutch" />
           </node>
         </node>
         <node concept="LIFWc" id="5B1cSpUZ44r" role="lGtFl">
@@ -6207,15 +6227,13 @@
           <node concept="1FQA6B" id="5B1cSpUZ44J" role="3H36mW" />
           <node concept="1FQA6B" id="5B1cSpUZ44K" role="3H36l7" />
           <node concept="1FQA6B" id="5B1cSpUZ44L" role="3H36lm" />
-          <node concept="1GVOM6" id="5B1cSpUZ44M" role="1GVO30">
+          <node concept="1GVOM6" id="344aJ4bNjGV" role="1GVO30">
             <property role="1GVPtd" value="English" />
             <property role="1GVPtb" value="act1 - English" />
-            <property role="DSN_u" value="[grant]" />
           </node>
-          <node concept="1GVOM6" id="5B1cSpUZ44Y" role="1GVO30">
-            <property role="1GVPtd" value="Dutch" />
+          <node concept="1GVOM6" id="344aJ4bNjHZ" role="1GVO30">
             <property role="1GVPtb" value="act1 - Dutch" />
-            <property role="DSN_u" value="[inwilligen]" />
+            <property role="1GVPtd" value="Dutch" />
           </node>
         </node>
         <node concept="3ainiu" id="5B1cSpUZ44X" role="3a9ffC">

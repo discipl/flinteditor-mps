@@ -36,7 +36,7 @@
         <child id="6868897032739751036" name="function" index="coNO9" />
       </concept>
       <concept id="2444626260293387291" name="Flint.structure.Duty" flags="ng" index="2cz0EU">
-        <child id="898982168832817003" name="create" index="cMmjI" />
+        <child id="898982168832817003" name="oldCreate" index="cMmjI" />
         <child id="6205025464253210169" name="claimant" index="3H37fL" />
         <child id="6205025464253210160" name="dutyHolder" index="3H37fS" />
       </concept>

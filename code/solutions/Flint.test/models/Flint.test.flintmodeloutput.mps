@@ -109,9 +109,9 @@
             </node>
           </node>
           <node concept="3YX88e" id="6$5jl5S4kue" role="3YX86K">
-            <property role="TrG5h" value="dutyComponents" />
+            <property role="TrG5h" value="enforce" />
             <node concept="3YX86M" id="6$5jl5S4vvU" role="3YX8ah">
-              <property role="3YX86R" value="duty-components" />
+              <property role="3YX86R" value="enforce" />
             </node>
           </node>
           <node concept="3YX88e" id="6$5jl5S4kuC" role="3YX86K">
@@ -686,92 +686,95 @@
       <node concept="3YX88e" id="74VLc6kV5rz" role="3YX86K">
         <property role="TrG5h" value="duties" />
         <node concept="3YX8am" id="74VLc6kV5r$" role="3YX8ah">
-          <node concept="3YX88f" id="74VLc6kV5r_" role="3YX8ab">
-            <node concept="3YX88e" id="74VLc6kV5rA" role="3YX86K">
+          <node concept="3YX88f" id="344aJ4bOwix" role="3YX8ab">
+            <node concept="3YX88e" id="344aJ4bOwiy" role="3YX86K">
               <property role="TrG5h" value="duty" />
-              <node concept="3YX86M" id="74VLc6kV5rB" role="3YX8ah">
+              <node concept="3YX86M" id="344aJ4bOwiz" role="3YX8ah">
                 <property role="3YX86R" value="&lt;duty2&gt;" />
               </node>
             </node>
-            <node concept="3YX88e" id="74VLc6kV5rC" role="3YX86K">
-              <property role="TrG5h" value="duty-components" />
-              <node concept="3YX8am" id="74VLc6kV5rD" role="3YX8ah" />
+            <node concept="3YX88e" id="344aJ4bOwi$" role="3YX86K">
+              <property role="TrG5h" value="enforce" />
+              <node concept="3YX8am" id="344aJ4bOwi_" role="3YX8ah">
+                <node concept="3YX86M" id="344aJ4bOwiA" role="3YX8ab">
+                  <property role="3YX86R" value="&lt;&lt;act1&gt;&gt;" />
+                </node>
+                <node concept="3YX86M" id="344aJ4bOwiB" role="3YX8ab">
+                  <property role="3YX86R" value="&lt;&lt;act2&gt;&gt;" />
+                </node>
+              </node>
             </node>
-            <node concept="3YX88e" id="74VLc6kV5rE" role="3YX86K">
+            <node concept="3YX88e" id="344aJ4bOwiC" role="3YX86K">
               <property role="TrG5h" value="duty-holder" />
-              <node concept="3YX86M" id="74VLc6kV5rF" role="3YX8ah">
+              <node concept="3YX86M" id="344aJ4bOwiD" role="3YX8ah">
                 <property role="3YX86R" value="[]" />
               </node>
             </node>
-            <node concept="3YX88e" id="74VLc6kV5rG" role="3YX86K">
+            <node concept="3YX88e" id="344aJ4bOwiE" role="3YX86K">
               <property role="TrG5h" value="claimant" />
-              <node concept="3YX86M" id="74VLc6kV5rH" role="3YX8ah">
+              <node concept="3YX86M" id="344aJ4bOwiF" role="3YX8ah">
                 <property role="3YX86R" value="[]" />
               </node>
             </node>
-            <node concept="3YX88e" id="74VLc6kV5rI" role="3YX86K">
+            <node concept="3YX88e" id="344aJ4bOwiG" role="3YX86K">
               <property role="TrG5h" value="create" />
-              <node concept="3YX86M" id="74VLc6kV5rJ" role="3YX8ah">
-                <property role="3YX86R" value="&lt;duty1&gt;" />
-              </node>
+              <node concept="3YX8am" id="344aJ4bOwiH" role="3YX8ah" />
             </node>
-            <node concept="3YX88e" id="74VLc6kV5rK" role="3YX86K">
+            <node concept="3YX88e" id="344aJ4bOwiI" role="3YX86K">
               <property role="TrG5h" value="terminate" />
-              <node concept="3YX86M" id="74VLc6kV5rL" role="3YX8ah">
-                <property role="3YX86R" value="&lt;&lt;act1&gt;&gt;" />
+              <node concept="3YX8am" id="344aJ4bOwiJ" role="3YX8ah">
+                <node concept="3YX86M" id="344aJ4bOwiK" role="3YX8ab">
+                  <property role="3YX86R" value="&lt;&lt;act1&gt;&gt;" />
+                </node>
               </node>
             </node>
-            <node concept="3YX88e" id="74VLc6kV5rM" role="3YX86K">
+            <node concept="3YX88e" id="344aJ4bOwiL" role="3YX86K">
               <property role="TrG5h" value="sources" />
-              <node concept="3YX8am" id="74VLc6kV5rN" role="3YX8ah" />
+              <node concept="3YX8am" id="344aJ4bOwiM" role="3YX8ah" />
             </node>
-            <node concept="3YX88e" id="74VLc6kV5rO" role="3YX86K">
+            <node concept="3YX88e" id="344aJ4bOwiN" role="3YX86K">
               <property role="TrG5h" value="explanation" />
-              <node concept="3YX86M" id="74VLc6kV5rP" role="3YX8ah" />
+              <node concept="3YX86M" id="344aJ4bOwiO" role="3YX8ah" />
             </node>
           </node>
-          <node concept="3YX88f" id="74VLc6kV5rQ" role="3YX8ab">
-            <node concept="3YX88e" id="74VLc6kV5rR" role="3YX86K">
+          <node concept="3YX88f" id="344aJ4bOwkY" role="3YX8ab">
+            <node concept="3YX88e" id="344aJ4bOwkZ" role="3YX86K">
               <property role="TrG5h" value="duty" />
-              <node concept="3YX86M" id="74VLc6kV5rS" role="3YX8ah">
+              <node concept="3YX86M" id="344aJ4bOwl0" role="3YX8ah">
                 <property role="3YX86R" value="&lt;duty1&gt;" />
               </node>
             </node>
-            <node concept="3YX88e" id="74VLc6kV5rT" role="3YX86K">
-              <property role="TrG5h" value="duty-components" />
-              <node concept="3YX8am" id="74VLc6kV5rU" role="3YX8ah" />
+            <node concept="3YX88e" id="344aJ4bOwl1" role="3YX86K">
+              <property role="TrG5h" value="enforce" />
+              <node concept="3YX8am" id="344aJ4bOwl2" role="3YX8ah" />
             </node>
-            <node concept="3YX88e" id="74VLc6kV5rV" role="3YX86K">
+            <node concept="3YX88e" id="344aJ4bOwl3" role="3YX86K">
               <property role="TrG5h" value="duty-holder" />
-              <node concept="3YX86M" id="74VLc6kV5rW" role="3YX8ah">
+              <node concept="3YX86M" id="344aJ4bOwl4" role="3YX8ah">
                 <property role="3YX86R" value="[]" />
               </node>
             </node>
-            <node concept="3YX88e" id="74VLc6kV5rX" role="3YX86K">
+            <node concept="3YX88e" id="344aJ4bOwl5" role="3YX86K">
               <property role="TrG5h" value="claimant" />
-              <node concept="3YX86M" id="74VLc6kV5rY" role="3YX8ah">
+              <node concept="3YX86M" id="344aJ4bOwl6" role="3YX8ah">
                 <property role="3YX86R" value="[]" />
               </node>
             </node>
-            <node concept="3YX88e" id="74VLc6kV5rZ" role="3YX86K">
+            <node concept="3YX88e" id="344aJ4bOwl7" role="3YX86K">
               <property role="TrG5h" value="create" />
-              <node concept="3YX86M" id="74VLc6kV5s0" role="3YX8ah">
-                <property role="3YX86R" value="&lt;&lt;&gt;&gt;" />
-              </node>
+              <node concept="3YX8am" id="344aJ4bOwl8" role="3YX8ah" />
             </node>
-            <node concept="3YX88e" id="74VLc6kV5s1" role="3YX86K">
+            <node concept="3YX88e" id="344aJ4bOwl9" role="3YX86K">
               <property role="TrG5h" value="terminate" />
-              <node concept="3YX86M" id="74VLc6kV5s2" role="3YX8ah">
-                <property role="3YX86R" value="&lt;&lt;&gt;&gt;" />
-              </node>
+              <node concept="3YX8am" id="344aJ4bOwla" role="3YX8ah" />
             </node>
-            <node concept="3YX88e" id="74VLc6kV5s3" role="3YX86K">
+            <node concept="3YX88e" id="344aJ4bOwlb" role="3YX86K">
               <property role="TrG5h" value="sources" />
-              <node concept="3YX8am" id="74VLc6kV5s4" role="3YX8ah" />
+              <node concept="3YX8am" id="344aJ4bOwlc" role="3YX8ah" />
             </node>
-            <node concept="3YX88e" id="74VLc6kV5s5" role="3YX86K">
+            <node concept="3YX88e" id="344aJ4bOwld" role="3YX86K">
               <property role="TrG5h" value="explanation" />
-              <node concept="3YX86M" id="74VLc6kV5s6" role="3YX8ah" />
+              <node concept="3YX86M" id="344aJ4bOwle" role="3YX8ah" />
             </node>
           </node>
         </node>
@@ -1059,9 +1062,16 @@
               <property role="3YX86R" value="&lt;duty2&gt;" />
             </node>
           </node>
-          <node concept="3YX88e" id="74VLc6kXbhO" role="3YX86K">
-            <property role="TrG5h" value="duty-components" />
-            <node concept="3YX8am" id="74VLc6kXbhP" role="3YX8ah" />
+          <node concept="3YX88e" id="344aJ4bMDbC" role="3YX86K">
+            <property role="TrG5h" value="enforce" />
+            <node concept="3YX8am" id="344aJ4bMDbY" role="3YX8ah">
+              <node concept="3YX86M" id="4tXxSSAfJoz" role="3YX8ab">
+                <property role="3YX86R" value="&lt;&lt;act1&gt;&gt;" />
+              </node>
+              <node concept="3YX86M" id="4tXxSSAfJoF" role="3YX8ab">
+                <property role="3YX86R" value="&lt;&lt;act2&gt;&gt;" />
+              </node>
+            </node>
           </node>
           <node concept="3YX88e" id="74VLc6kXbhQ" role="3YX86K">
             <property role="TrG5h" value="duty-holder" />
@@ -1077,14 +1087,14 @@
           </node>
           <node concept="3YX88e" id="74VLc6kXbhU" role="3YX86K">
             <property role="TrG5h" value="create" />
-            <node concept="3YX86M" id="74VLc6kXbhV" role="3YX8ah">
-              <property role="3YX86R" value="&lt;duty1&gt;" />
-            </node>
+            <node concept="3YX8am" id="344aJ4bMDih" role="3YX8ah" />
           </node>
           <node concept="3YX88e" id="74VLc6kXbhW" role="3YX86K">
             <property role="TrG5h" value="terminate" />
-            <node concept="3YX86M" id="74VLc6kXbhX" role="3YX8ah">
-              <property role="3YX86R" value="&lt;&lt;act1&gt;&gt;" />
+            <node concept="3YX8am" id="344aJ4bMDiY" role="3YX8ah">
+              <node concept="3YX86M" id="74VLc6kXbhX" role="3YX8ab">
+                <property role="3YX86R" value="&lt;&lt;act1&gt;&gt;" />
+              </node>
             </node>
           </node>
           <node concept="3YX88e" id="74VLc6kXbhY" role="3YX86K">
@@ -1113,7 +1123,7 @@
             </node>
           </node>
           <node concept="3YX88e" id="74VLc6kXbiG" role="3YX86K">
-            <property role="TrG5h" value="duty-components" />
+            <property role="TrG5h" value="enforce" />
             <node concept="3YX8am" id="74VLc6kXbiH" role="3YX8ah" />
           </node>
           <node concept="3YX88e" id="74VLc6kXbiI" role="3YX86K">
@@ -1130,15 +1140,11 @@
           </node>
           <node concept="3YX88e" id="74VLc6kXbiM" role="3YX86K">
             <property role="TrG5h" value="create" />
-            <node concept="3YX86M" id="74VLc6kXbiN" role="3YX8ah">
-              <property role="3YX86R" value="&lt;&lt;&gt;&gt;" />
-            </node>
+            <node concept="3YX8am" id="344aJ4bMMqE" role="3YX8ah" />
           </node>
           <node concept="3YX88e" id="74VLc6kXbiO" role="3YX86K">
             <property role="TrG5h" value="terminate" />
-            <node concept="3YX86M" id="74VLc6kXbiP" role="3YX8ah">
-              <property role="3YX86R" value="&lt;&lt;&gt;&gt;" />
-            </node>
+            <node concept="3YX8am" id="344aJ4bMMqL" role="3YX8ah" />
           </node>
           <node concept="3YX88e" id="74VLc6kXbiQ" role="3YX86K">
             <property role="TrG5h" value="sources" />
