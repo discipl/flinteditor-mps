@@ -24,7 +24,8 @@
     "text": "text",
     "findLineInSource": "Find line in Source",
     "validFrom": "valid from",
-    "validTo": "valid to"
+    "validTo": "valid to",
+    "tags": "tags"
   },
   "acts": [
     {

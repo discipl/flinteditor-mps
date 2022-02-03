@@ -22,5 +22,6 @@
   "text": "tekst",
   "findLineInSource": "Vind lijn in Bron",
   "validFrom": "geldig vanaf",
-  "validTo": "geldig tot"
+  "validTo": "geldig tot",
+  "tags": "labels"
 }
