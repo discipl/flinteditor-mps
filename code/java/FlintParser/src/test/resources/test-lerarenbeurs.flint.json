@@ -3188,6 +3188,7 @@
     {
       "duty": "<schriftelijk indienen aanvraag>",
       "duty-components": "",
+      "enforce": ["<<enforcing act1>>", "<<enforcing act2>>"],
       "duty-holder": "[aanvrager]",
       "claimant": "[bestuursorgaan]",
       "create": "<<indienen aanvraag>>",

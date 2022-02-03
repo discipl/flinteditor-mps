@@ -85,7 +85,7 @@ class FlintParser(json: String) {
             .map { it.act.name to it.preconditions!! }.toMap()
     }
 
-    fun getLanguage(): Language{
+    fun getLanguage(): Language? {
         return flintModel.language
     }
 }
