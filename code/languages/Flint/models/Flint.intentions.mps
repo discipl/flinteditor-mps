@@ -25,7 +25,6 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="b8lf" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.selection(MPS.Editor/)" />
     <import index="dush" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.persistence(MPS.OpenAPI/)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c9991bd9-1f60-4f96-8e56-efd35c072829" name="ParameterizedRangeSelection">
@@ -190,7 +189,6 @@
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
       <concept id="1761385620274348152" name="jetbrains.mps.lang.smodel.structure.SConceptTypeCastExpression" flags="nn" index="2CBFar" />
-      <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
@@ -2875,58 +2873,6 @@
       </node>
       <node concept="2ZThk1" id="55Xd7estuTt" role="3ddBve">
         <ref role="2ZWj4r" to="lnwe:4AIlyP2wQAK" resolve="ERole" />
-      </node>
-    </node>
-  </node>
-  <node concept="2S6QgY" id="3UCnQFaPQM">
-    <property role="TrG5h" value="Test" />
-    <ref role="2ZfgGC" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="2S6ZIM" id="3UCnQFaPQN" role="2ZfVej">
-      <node concept="3clFbS" id="3UCnQFaPQO" role="2VODD2">
-        <node concept="3clFbF" id="3UCnQFaQd$" role="3cqZAp">
-          <node concept="Xl_RD" id="3UCnQFaQdz" role="3clFbG">
-            <property role="Xl_RC" value="Test intention" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2Sbjvc" id="3UCnQFaPQP" role="2ZfgGD">
-      <node concept="3clFbS" id="3UCnQFaPQQ" role="2VODD2">
-        <node concept="3cpWs8" id="3UCnQFaRCq" role="3cqZAp">
-          <node concept="3cpWsn" id="3UCnQFaRCr" role="3cpWs9">
-            <property role="TrG5h" value="location" />
-            <node concept="3uibUv" id="3UCnQFaRA4" role="1tU5fm">
-              <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-            </node>
-            <node concept="2OqwBi" id="3UCnQFaRCs" role="33vP2m">
-              <node concept="2OqwBi" id="3UCnQFaRCt" role="2Oq$k0">
-                <node concept="2JrnkZ" id="3UCnQFaRCu" role="2Oq$k0">
-                  <node concept="2OqwBi" id="3UCnQFaRCv" role="2JrQYb">
-                    <node concept="2Sf5sV" id="3UCnQFaRCw" role="2Oq$k0" />
-                    <node concept="I4A8Y" id="3UCnQFaRCx" role="2OqNvi" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="3UCnQFaRCy" role="2OqNvi">
-                  <ref role="37wK5l" to="mhbf:~SModel.getSource()" resolve="getSource" />
-                </node>
-              </node>
-              <node concept="liA8E" id="3UCnQFaRCz" role="2OqNvi">
-                <ref role="37wK5l" to="dush:~DataSource.getLocation()" resolve="getLocation" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2xdQw9" id="3UCnQFaRJk" role="3cqZAp">
-          <property role="2xdLsb" value="h1akgim/info" />
-          <node concept="3cpWs3" id="3UCnQFaS4N" role="9lYJi">
-            <node concept="Xl_RD" id="3UCnQFaRJm" role="3uHU7B">
-              <property role="Xl_RC" value="location: " />
-            </node>
-            <node concept="37vLTw" id="3UCnQFaRC$" role="3uHU7w">
-              <ref role="3cqZAo" node="3UCnQFaRCr" resolve="location" />
-            </node>
-          </node>
-        </node>
       </node>
     </node>
   </node>
