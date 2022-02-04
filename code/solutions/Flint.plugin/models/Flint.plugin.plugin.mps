@@ -3455,7 +3455,7 @@
                         <node concept="37vLTw" id="344aJ4btJFp" role="2Oq$k0">
                           <ref role="3cqZAo" node="63E5y3ToNWs" resolve="duty" />
                         </node>
-                        <node concept="liA8E" id="344aJ4btJFq" role="2OqNvi">
+                        <node concept="liA8E" id="ZAve9Zbfi" role="2OqNvi">
                           <ref role="37wK5l" to="5qsh:~Duty.getEnforce()" resolve="getEnforce" />
                         </node>
                       </node>
@@ -6357,7 +6357,7 @@
               <node concept="37vLTw" id="6U0RkGFd$K6" role="2Oq$k0">
                 <ref role="3cqZAo" node="5BwUVa5m1TJ" resolve="importedLanguage" />
               </node>
-              <node concept="liA8E" id="6U0RkGFdWIh" role="2OqNvi">
+              <node concept="liA8E" id="2TMFHhw$OQQ" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~Language.getTags()" resolve="getTags" />
               </node>
             </node>
