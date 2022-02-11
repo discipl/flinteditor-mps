@@ -2680,6 +2680,26 @@
       </node>
       <node concept="17QB3L" id="23uPkDbulds" role="3clF45" />
     </node>
+    <node concept="13i0hz" id="xwSl_iZB3b" role="13h7CS">
+      <property role="TrG5h" value="getCurrentFlintSourceRefs" />
+      <ref role="13i0hy" node="10GkRpdufyj" resolve="getCurrentFlintSourceRefs" />
+      <node concept="3Tm1VV" id="xwSl_iZB3c" role="1B3o_S" />
+      <node concept="3clFbS" id="xwSl_iZB3L" role="3clF47">
+        <node concept="3clFbF" id="xwSl_iZB3Q" role="3cqZAp">
+          <node concept="2OqwBi" id="xwSl_iZB3N" role="3clFbG">
+            <node concept="13iAh5" id="xwSl_iZB3O" role="2Oq$k0">
+              <ref role="3eA5LN" to="lnwe:63E5y3TGjs_" resolve="IHasSources" />
+            </node>
+            <node concept="2qgKlT" id="xwSl_iZB3P" role="2OqNvi">
+              <ref role="37wK5l" node="10GkRpdufyj" resolve="getCurrentFlintSourceRefs" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2I9FWS" id="xwSl_iZB3M" role="3clF45">
+        <ref role="2I9WkF" to="lnwe:5Xjenljcz0Y" resolve="FlintSourceReference" />
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="7PeSHTG7R1q">
     <ref role="13h7C2" to="lnwe:5XjenljaN1R" resolve="FlintModel" />
@@ -12548,6 +12568,7 @@
     </node>
     <node concept="13i0hz" id="10GkRpdufyj" role="13h7CS">
       <property role="TrG5h" value="getCurrentFlintSourceRefs" />
+      <property role="13i0it" value="true" />
       <node concept="3Tm1VV" id="10GkRpdufyk" role="1B3o_S" />
       <node concept="2I9FWS" id="10GkRpduhxv" role="3clF45">
         <ref role="2I9WkF" to="lnwe:5Xjenljcz0Y" resolve="FlintSourceReference" />
