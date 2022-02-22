@@ -2,7 +2,7 @@
 <model ref="r:f56bcd0b-144f-4f69-a2a6-8c9ba9238558(demo)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="9" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="10" />
   </languages>
   <imports />
   <registry>
@@ -24,6 +24,7 @@
         <property id="6868897032739893352" name="juriconnect" index="cog$t" />
       </concept>
       <concept id="6868897032739893310" name="Flint.structure.FlintSourceReference" flags="ng" index="cog_b">
+        <property id="1165398171153094508" name="language" index="1tl0gq" />
         <reference id="6868897032739893359" name="baseSource" index="cog$q" />
         <child id="7816114204006679678" name="betterText" index="2hN6Sa" />
       </concept>
@@ -127,6 +128,7 @@
     <property role="TrG5h" value="in Nederland gevestigde onderneming als bedoeld in , niet zijnde een overheidsbedrijf" />
     <property role="3GE5qa" value="facts" />
     <node concept="cog_b" id="lbB2sfKdN4" role="2pmM46">
+      <property role="1tl0gq" value="English" />
       <ref role="cog$q" node="lbB2sfKdMW" resolve="art. 1, " />
       <node concept="2hPCcK" id="45WVu5_cdJh" role="2hN6Sa">
         <node concept="19SUe$" id="lbB2sfKdN7" role="19SJt6">
@@ -149,6 +151,7 @@
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[afwijzen]" />
     <node concept="cog_b" id="lbB2sfKdNe" role="2pmM46">
+      <property role="1tl0gq" value="English" />
       <ref role="cog$q" node="lbB2sfKdMX" resolve="art. 3, " />
       <node concept="2hPCcK" id="45WVu5_cdIB" role="2hN6Sa">
         <node concept="19SUe$" id="lbB2sfKdNh" role="19SJt6">
@@ -186,6 +189,7 @@
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[indienen]" />
     <node concept="cog_b" id="lbB2sfKdNq" role="2pmM46">
+      <property role="1tl0gq" value="English" />
       <ref role="cog$q" node="lbB2sfKdMX" resolve="art. 3, " />
       <node concept="2hPCcK" id="45WVu5_cdID" role="2hN6Sa">
         <node concept="19SUe$" id="lbB2sfKdNt" role="19SJt6">
@@ -223,6 +227,7 @@
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[indienen]" />
     <node concept="cog_b" id="lbB2sfKdNA" role="2pmM46">
+      <property role="1tl0gq" value="English" />
       <ref role="cog$q" node="lbB2sfKdMY" resolve="art. 4lid 1, " />
       <node concept="2hPCcK" id="45WVu5_cdIF" role="2hN6Sa">
         <node concept="19SUe$" id="lbB2sfKdND" role="19SJt6">
@@ -260,6 +265,7 @@
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[stellen]" />
     <node concept="cog_b" id="lbB2sfKdNM" role="2pmM46">
+      <property role="1tl0gq" value="English" />
       <ref role="cog$q" node="lbB2sfKdMY" resolve="art. 4lid 1, " />
       <node concept="2hPCcK" id="45WVu5_cdIH" role="2hN6Sa">
         <node concept="19SUe$" id="lbB2sfKdNP" role="19SJt6">
@@ -297,6 +303,7 @@
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[indienen]" />
     <node concept="cog_b" id="lbB2sfKdNY" role="2pmM46">
+      <property role="1tl0gq" value="English" />
       <ref role="cog$q" node="lbB2sfKdMZ" resolve="art. 4lid 3, " />
       <node concept="2hPCcK" id="45WVu5_cdIJ" role="2hN6Sa">
         <node concept="19SUe$" id="lbB2sfKdO1" role="19SJt6">
@@ -334,6 +341,7 @@
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[stellen]" />
     <node concept="cog_b" id="lbB2sfKdOa" role="2pmM46">
+      <property role="1tl0gq" value="English" />
       <ref role="cog$q" node="lbB2sfKdN0" resolve="art. 5, " />
       <node concept="2hPCcK" id="45WVu5_cdIL" role="2hN6Sa">
         <node concept="19SUe$" id="lbB2sfKdOd" role="19SJt6">
@@ -371,6 +379,7 @@
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[nemen]" />
     <node concept="cog_b" id="lbB2sfKdOm" role="2pmM46">
+      <property role="1tl0gq" value="English" />
       <ref role="cog$q" node="lbB2sfKdN0" resolve="art. 5, " />
       <node concept="2hPCcK" id="45WVu5_cdIN" role="2hN6Sa">
         <node concept="19SUe$" id="lbB2sfKdOp" role="19SJt6">
@@ -399,6 +408,7 @@
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[plaatsen]" />
     <node concept="cog_b" id="lbB2sfKdOx" role="2pmM46">
+      <property role="1tl0gq" value="English" />
       <ref role="cog$q" node="lbB2sfKdN1" resolve="art. 8lid 1, " />
       <node concept="2hPCcK" id="45WVu5_cdIP" role="2hN6Sa">
         <node concept="19SUe$" id="lbB2sfKdO$" role="19SJt6">
@@ -448,6 +458,7 @@
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[indienen]" />
     <node concept="cog_b" id="lbB2sfKdOJ" role="2pmM46">
+      <property role="1tl0gq" value="English" />
       <ref role="cog$q" node="lbB2sfKdN2" resolve="art. 8lid 2, " />
       <node concept="2hPCcK" id="45WVu5_cdIR" role="2hN6Sa">
         <node concept="19SUe$" id="lbB2sfKdOM" role="19SJt6">
@@ -501,6 +512,7 @@
     </node>
     <node concept="1FQA6B" id="2_LEkEjGqRD" role="3H36lm" />
     <node concept="cog_b" id="2_LEkEjGqRE" role="2pmM46">
+      <property role="1tl0gq" value="English" />
       <ref role="cog$q" node="sn6jp7g0cj" resolve="Artikel 1 (begripsbepalingen)" />
       <node concept="2hPCcK" id="45WVu5_cdIT" role="2hN6Sa">
         <node concept="2h$EKm" id="45WVu5_cdIV" role="19SJt6">
@@ -643,6 +655,7 @@
       <ref role="1FQA6$" node="6LSqBjZ5vSn" resolve="een gedupeerde onderneming" />
     </node>
     <node concept="cog_b" id="6LSqBjYlYf2" role="2pmM46">
+      <property role="1tl0gq" value="English" />
       <ref role="cog$q" node="sn6jp7g0cj" resolve="Artikel 1 (begripsbepalingen)" />
       <node concept="2hPCcK" id="6LSqBjYlYf3" role="2hN6Sa">
         <node concept="2h$EKm" id="45WVu5zIOHo" role="19SJt6">
@@ -727,6 +740,7 @@
       <ref role="1FQA6$" node="6LSqBjZ5vSn" resolve="een gedupeerde onderneming" />
     </node>
     <node concept="cog_b" id="5BmlQlqhfLb" role="2pmM46">
+      <property role="1tl0gq" value="English" />
       <ref role="cog$q" node="sn6jp7g0cj" resolve="Artikel 1 (begripsbepalingen)" />
       <node concept="2hPCcK" id="5BmlQlqhfLc" role="2hN6Sa">
         <node concept="2h$EKm" id="5BmlQlqhfLu" role="19SJt6">
@@ -867,6 +881,7 @@
       </node>
     </node>
     <node concept="cog_b" id="5BmlQlqhfLe" role="2pmM46">
+      <property role="1tl0gq" value="English" />
       <ref role="cog$q" node="sn6jp7g0cj" resolve="Artikel 1 (begripsbepalingen)" />
       <node concept="2hPCcK" id="5BmlQlqhfLf" role="2hN6Sa">
         <node concept="19SUe$" id="5BmlQlqhfLg" role="19SJt6">

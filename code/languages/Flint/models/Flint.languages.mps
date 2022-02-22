@@ -3,7 +3,7 @@
   <persistence version="9" />
   <attribute name="doNotGenerate" value="true" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="9" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="10" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports />

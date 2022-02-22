@@ -2,7 +2,7 @@
 <model ref="r:24d66bc9-227a-447b-947a-855ad292ec9a(Flint.test.flintmodelinput)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="9" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="10" />
   </languages>
   <imports />
   <registry>
@@ -24,6 +24,7 @@
         <property id="6868897032739893352" name="juriconnect" index="cog$t" />
       </concept>
       <concept id="6868897032739893310" name="Flint.structure.FlintSourceReference" flags="ng" index="cog_b">
+        <property id="1165398171153094508" name="language" index="1tl0gq" />
         <property id="6587498613243528183" name="text" index="1FEjNx" />
         <reference id="6868897032739893359" name="baseSource" index="cog$q" />
         <child id="7816114204006679678" name="betterText" index="2hN6Sa" />
@@ -198,6 +199,7 @@
     <property role="207Gpp" value="Action1" />
     <node concept="cog_b" id="74VLc6kV4GX" role="2pmM46">
       <property role="1FEjNx" value="example source text" />
+      <property role="1tl0gq" value="English" />
       <ref role="cog$q" node="74VLc6kV4G_" resolve="Source1" />
       <node concept="2hPCcK" id="45WVu5_dyE8" role="2hN6Sa">
         <node concept="2h$EKm" id="45WVu5_dyEa" role="19SJt6">
@@ -213,6 +215,7 @@
     </node>
     <node concept="cog_b" id="74VLc6kV4GY" role="2pmM46">
       <property role="1FEjNx" value="example source text" />
+      <property role="1tl0gq" value="English" />
       <ref role="cog$q" node="74VLc6kV4GA" resolve="Source2" />
       <node concept="2hPCcK" id="45WVu5_dyEc" role="2hN6Sa">
         <node concept="19SUe$" id="5hB3R5$YkRC" role="19SJt6">

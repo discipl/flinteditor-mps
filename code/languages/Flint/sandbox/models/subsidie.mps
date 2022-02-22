@@ -2,7 +2,7 @@
 <model ref="r:9552c217-62e0-4fe8-b79a-8ba546d6e79e(subsidie)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="9" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="10" />
   </languages>
   <imports />
   <registry>
@@ -32,6 +32,7 @@
       </concept>
       <concept id="6868897032739893311" name="Flint.structure.FlintSource" flags="ng" index="cog_a" />
       <concept id="6868897032739893310" name="Flint.structure.FlintSourceReference" flags="ng" index="cog_b">
+        <property id="1165398171153094508" name="language" index="1tl0gq" />
         <reference id="6868897032739893359" name="baseSource" index="cog$q" />
         <child id="7816114204006679678" name="betterText" index="2hN6Sa" />
       </concept>
@@ -183,6 +184,7 @@
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="aanvragen" />
     <node concept="cog_b" id="7B7tObThyGS" role="2pmM46">
+      <property role="1tl0gq" value="English" />
       <ref role="cog$q" node="4AIlyP2$YN3" resolve="Source3" />
       <node concept="2hPCcK" id="45WVu5_cdJj" role="2hN6Sa">
         <node concept="2h$EKm" id="45WVu5_cdJl" role="19SJt6">
@@ -212,6 +214,7 @@
       </node>
     </node>
     <node concept="cog_b" id="7B7tObThy8m" role="2pmM46">
+      <property role="1tl0gq" value="English" />
       <ref role="cog$q" node="4AIlyP2$ILV" resolve="TestSource" />
       <node concept="2hPCcK" id="45WVu5_cdJr" role="2hN6Sa">
         <node concept="19SUe$" id="7B7tObThy8o" role="19SJt6">
@@ -274,6 +277,7 @@
       <ref role="1FQA6$" node="l30HV33nM1" resolve="burger" />
     </node>
     <node concept="cog_b" id="1ILeZy6232g" role="2pmM46">
+      <property role="1tl0gq" value="English" />
       <ref role="cog$q" node="4AIlyP2$ILV" resolve="TestSource" />
       <node concept="2hPCcK" id="45WVu5_cdJx" role="2hN6Sa">
         <node concept="19SUe$" id="1ILeZy6232i" role="19SJt6">
@@ -300,6 +304,7 @@
       </node>
     </node>
     <node concept="cog_b" id="4AIlyP3d$BM" role="2pmM46">
+      <property role="1tl0gq" value="English" />
       <ref role="cog$q" node="4AIlyP2$YN3" resolve="Source3" />
       <node concept="2hPCcK" id="45WVu5_cdJB" role="2hN6Sa">
         <node concept="19SUe$" id="5hB3R5$YkPw" role="19SJt6">
@@ -396,6 +401,7 @@
       <ref role="1FQA6$" node="l30HV33nM1" resolve="burger" />
     </node>
     <node concept="cog_b" id="7B7tObT749o" role="2pmM46">
+      <property role="1tl0gq" value="English" />
       <ref role="cog$q" node="4AIlyP2$YN3" resolve="Source3" />
       <node concept="2hPCcK" id="45WVu5_cdJN" role="2hN6Sa">
         <node concept="19SUe$" id="7B7tObT749q" role="19SJt6">
