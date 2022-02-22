@@ -24902,7 +24902,7 @@
   <node concept="312cEu" id="5SIYu6Xx_PT">
     <property role="TrG5h" value="IntentionService" />
     <node concept="Wx3nA" id="5SIYu6XxEvS" role="jymVt">
-      <property role="TrG5h" value="nodeFromArticle" />
+      <property role="TrG5h" value="nodeFromRichTextArticle" />
       <node concept="3Tm1VV" id="5SIYu6XxEuf" role="1B3o_S" />
       <node concept="3uibUv" id="5SIYu6XxEu4" role="1tU5fm">
         <ref role="3uigEE" node="5SIYu6XxgH1" resolve="IntentionInstance" />
@@ -24914,8 +24914,21 @@
         </node>
       </node>
     </node>
+    <node concept="Wx3nA" id="3lG1oaOfDff" role="jymVt">
+      <property role="TrG5h" value="nodeFromECLSArticle" />
+      <node concept="3Tm1VV" id="3lG1oaOfCMc" role="1B3o_S" />
+      <node concept="3uibUv" id="3lG1oaOfCTP" role="1tU5fm">
+        <ref role="3uigEE" node="5SIYu6XxgH1" resolve="IntentionInstance" />
+        <node concept="3uibUv" id="3lG1oaOfD0Q" role="11_B2D">
+          <ref role="3uigEE" to="b8lf:~EditorCellLabelSelection" resolve="EditorCellLabelSelection" />
+        </node>
+        <node concept="3bZ5Sz" id="3lG1oaOfD6t" role="11_B2D">
+          <ref role="3bZ5Sy" to="lnwe:63E5y3TGjs_" resolve="IHasSources" />
+        </node>
+      </node>
+    </node>
     <node concept="Wx3nA" id="5SIYu6XGVCU" role="jymVt">
-      <property role="TrG5h" value="addTextToIHasSource" />
+      <property role="TrG5h" value="addRichTextToIHasSource" />
       <node concept="3Tm1VV" id="5SIYu6XGVCV" role="1B3o_S" />
       <node concept="3uibUv" id="5SIYu6XGVCW" role="1tU5fm">
         <ref role="3uigEE" node="5SIYu6XxgH1" resolve="IntentionInstance" />
@@ -24923,6 +24936,17 @@
           <ref role="3uigEE" to="gyv0:2_D0AvWRqEh" resolve="RichtextSelection" />
         </node>
         <node concept="17QB3L" id="5SIYu6XGVG9" role="11_B2D" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="6$HM99mgvwb" role="jymVt">
+      <property role="TrG5h" value="addECLTextToIHasSource" />
+      <node concept="3Tm1VV" id="6$HM99mgvaK" role="1B3o_S" />
+      <node concept="3uibUv" id="6$HM99mgvib" role="1tU5fm">
+        <ref role="3uigEE" node="5SIYu6XxgH1" resolve="IntentionInstance" />
+        <node concept="3uibUv" id="3lG1oaNBUei" role="11_B2D">
+          <ref role="3uigEE" to="b8lf:~EditorCellLabelSelection" resolve="EditorCellLabelSelection" />
+        </node>
+        <node concept="17QB3L" id="4b6llbk44nW" role="11_B2D" />
       </node>
     </node>
     <node concept="3Tm1VV" id="5SIYu6Xx_PU" role="1B3o_S" />
