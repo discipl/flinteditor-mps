@@ -11,6 +11,11 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
+    <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
+      <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.FileIcon" flags="ng" index="1QGGSu">
+        <property id="2756621024541341363" name="file" index="1iqoE4" />
+      </concept>
+    </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
         <property id="1421157252384165432" name="memberId" index="3tVfz5" />
@@ -45,6 +50,7 @@
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
+        <child id="6327362524875300597" name="icon" index="rwd14" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
@@ -121,6 +127,9 @@
       <property role="20kJfa" value="languageReference" />
       <ref role="20lvS9" node="3JnAoJLBIOl" resolve="LanguageReference" />
     </node>
+    <node concept="1QGGSu" id="VXy0hIqJzr" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/FlintModel.png" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5XjenljaN1U">
     <property role="EcuMT" value="6868897032739434618" />
@@ -154,6 +163,9 @@
     </node>
     <node concept="PrWs8" id="wJ8RSBgHaE" role="PzmwI">
       <ref role="PrY4T" node="wJ8RSAMhPl" resolve="IHasLanguage" />
+    </node>
+    <node concept="1QGGSu" id="VXy0hGAk4L" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/Fact.png" />
     </node>
   </node>
   <node concept="1TIwiD" id="5Xjenljcz0Y">
@@ -362,6 +374,9 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
       <node concept="asaX9" id="wQxlRzOZfp" role="lGtFl" />
     </node>
+    <node concept="1QGGSu" id="VXy0hHpipC" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/Act.png" />
+    </node>
   </node>
   <node concept="PlHQZ" id="7PeSHTFdOj4">
     <property role="EcuMT" value="9029403747833824452" />
@@ -434,6 +449,9 @@
       <property role="20kJfa" value="oldTerminate" />
       <ref role="20lvS9" node="LTOSk0HPkX" resolve="IDutyCreatableAndTerminateable" />
       <node concept="asaX9" id="14WD1psJrIs" role="lGtFl" />
+    </node>
+    <node concept="1QGGSu" id="VXy0hI4Uo4" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/Duty.png" />
     </node>
   </node>
   <node concept="1TIwiD" id="27H3E6Hoi66">
