@@ -564,24 +564,6 @@
         <node concept="3GX2aA" id="7xGQzaJ0MRG" role="2OqNvi" />
       </node>
     </node>
-    <node concept="14aYG3" id="7xGQzaJ0o26" role="14aYEy">
-      <property role="TrG5h" value="floatingSourcesFolder" />
-      <ref role="3GDMyY" node="7xGQzaITOkG" resolve="sourcesFolder" />
-      <ref role="14a85i" node="7xGQzaIZ3LH" resolve="floatingNodeFolderFlintmodel" />
-      <node concept="2OqwBi" id="7xGQzaJ0MV2" role="3aIZ52">
-        <node concept="2YIFZM" id="7xGQzaJ0MV3" role="2Oq$k0">
-          <ref role="37wK5l" node="19XK2H096tg" resolve="getRootNodesByConcept" />
-          <ref role="1Pybhc" node="480JVLcGWRz" resolve="HelperFunctions" />
-          <node concept="14b0Wr" id="7xGQzaJ0MV4" role="37wK5m">
-            <ref role="14b0Uw" node="7diJr$Rw$m0" resolve="model" />
-          </node>
-          <node concept="35c_gC" id="7xGQzaJ0MV5" role="37wK5m">
-            <ref role="35c_gD" to="lnwe:5Xjenljcz0Z" resolve="FlintSource" />
-          </node>
-        </node>
-        <node concept="3GX2aA" id="7xGQzaJ0MV6" role="2OqNvi" />
-      </node>
-    </node>
     <node concept="14aYG3" id="2JgwXwL9VhI" role="14aYEy">
       <property role="TrG5h" value="floatingNodeFolderLawsource" />
       <ref role="14a85i" node="7diJr$Rw$m0" resolve="model" />
@@ -849,52 +831,6 @@
         </node>
         <node concept="35c_gC" id="19XK2H099MH" role="37wK5m">
           <ref role="35c_gD" to="lnwe:27H3E6Hoggr" resolve="Duty" />
-        </node>
-      </node>
-    </node>
-    <node concept="14aYG3" id="7xGQzaITOkG" role="14aYEy">
-      <property role="TrG5h" value="sourcesFolder" />
-      <ref role="14a85i" node="19XK2H0clhn" resolve="flintModelRootNode" />
-      <ref role="3GDMyY" node="7xGQzaIVa3z" resolve="nodeFolder" />
-      <node concept="2OqwBi" id="7xGQzaITOBF" role="3aIZ52">
-        <node concept="2YIFZM" id="7xGQzaITOBG" role="2Oq$k0">
-          <ref role="1Pybhc" node="480JVLcGWRz" resolve="HelperFunctions" />
-          <ref role="37wK5l" node="19XK2H096tg" resolve="getRootNodesByConcept" />
-          <node concept="14b0Wr" id="7xGQzaITOYz" role="37wK5m">
-            <ref role="14b0Uw" node="7diJr$Rw$m0" resolve="model" />
-          </node>
-          <node concept="35c_gC" id="7xGQzaITOBI" role="37wK5m">
-            <ref role="35c_gD" to="lnwe:5Xjenljcz0Z" resolve="FlintSource" />
-          </node>
-        </node>
-        <node concept="3GX2aA" id="7xGQzaITOBJ" role="2OqNvi" />
-      </node>
-      <node concept="2OqwBi" id="2vJbluoVo9e" role="14a853">
-        <node concept="2YIFZM" id="2vJbluoVo9f" role="2Oq$k0">
-          <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
-          <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
-          <node concept="14b0Wr" id="2vJbluoVo9g" role="37wK5m">
-            <ref role="14b0Uw" node="7diJr$Rw$m0" resolve="model" />
-          </node>
-        </node>
-        <node concept="3TrcHB" id="2vJbluoVoK5" role="2OqNvi">
-          <ref role="3TsBF5" to="lnwe:18WT3T5NnIH" resolve="eSources" />
-        </node>
-      </node>
-    </node>
-    <node concept="14aYG3" id="19XK2H05Y2l" role="14aYEy">
-      <property role="TrG5h" value="sources" />
-      <ref role="3GDMyY" node="3ZnFyBjojbx" resolve="node" />
-      <ref role="14a85i" node="7xGQzaITOkG" resolve="sourcesFolder" />
-      <node concept="3Tqbb2" id="19XK2H05Y2D" role="3GGxor" />
-      <node concept="2YIFZM" id="19XK2H099Rx" role="14bQOc">
-        <ref role="37wK5l" node="19XK2H096tg" resolve="getRootNodesByConcept" />
-        <ref role="1Pybhc" node="480JVLcGWRz" resolve="HelperFunctions" />
-        <node concept="14b0Wr" id="19XK2H099TR" role="37wK5m">
-          <ref role="14b0Uw" node="7diJr$Rw$m0" resolve="model" />
-        </node>
-        <node concept="35c_gC" id="19XK2H099VT" role="37wK5m">
-          <ref role="35c_gD" to="lnwe:5Xjenljcz0Z" resolve="FlintSource" />
         </node>
       </node>
     </node>
@@ -1759,9 +1695,6 @@
                   </node>
                   <node concept="35c_gC" id="7xGQzaJ1zry" role="37wK5m">
                     <ref role="35c_gD" to="lnwe:5XjenljaN1U" resolve="Fact" />
-                  </node>
-                  <node concept="35c_gC" id="7xGQzaJ1zN5" role="37wK5m">
-                    <ref role="35c_gD" to="lnwe:5Xjenljcz0Z" resolve="FlintSource" />
                   </node>
                   <node concept="35c_gC" id="7xGQzaJ1$2w" role="37wK5m">
                     <ref role="35c_gD" to="lnwe:27H3E6Hoggr" resolve="Duty" />

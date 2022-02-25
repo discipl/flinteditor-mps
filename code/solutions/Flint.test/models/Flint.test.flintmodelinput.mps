@@ -18,15 +18,10 @@
       <concept id="6868897032739893314" name="Flint.structure.IExplainable" flags="ng" index="cog$R">
         <property id="778381075952164307" name="explanation" index="3ANC2_" />
       </concept>
-      <concept id="6868897032739893311" name="Flint.structure.FlintSource" flags="ng" index="cog_a">
-        <property id="6868897032739893349" name="validTo" index="cog$g" />
-        <property id="6868897032739893347" name="validFrom" index="cog$m" />
-        <property id="6868897032739893352" name="juriconnect" index="cog$t" />
-      </concept>
-      <concept id="6868897032739893310" name="Flint.structure.FlintSourceReference" flags="ng" index="cog_b">
+      <concept id="6868897032739893310" name="Flint.structure.FlintSource" flags="ng" index="cog_b">
+        <property id="2215264714367931041" name="textId" index="1hTq4$" />
         <property id="1165398171153094508" name="language" index="1tl0gq" />
         <property id="6587498613243528183" name="text" index="1FEjNx" />
-        <reference id="6868897032739893359" name="baseSource" index="cog$q" />
         <child id="7816114204006679678" name="betterText" index="2hN6Sa" />
       </concept>
       <concept id="6868897032739434615" name="Flint.structure.FlintModel" flags="ng" index="cu0$2" />
@@ -102,20 +97,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="cog_a" id="74VLc6kV4G_">
-    <property role="TrG5h" value="Source1" />
-    <property role="3GE5qa" value="sources" />
-    <property role="cog$t" value="testjuriconnet" />
-    <property role="cog$m" value="21-04-2020" />
-    <property role="cog$g" value="12-04-2020" />
-  </node>
-  <node concept="cog_a" id="74VLc6kV4GA">
-    <property role="TrG5h" value="Source2" />
-    <property role="3GE5qa" value="sources" />
-    <property role="cog$t" value="testjuriconnet" />
-    <property role="cog$m" value="13-04-2020" />
-    <property role="cog$g" value="30-04-2020" />
-  </node>
   <node concept="cu0$f" id="74VLc6kV4GB">
     <property role="TrG5h" value="Fact1" />
     <property role="3GE5qa" value="facts" />
@@ -200,7 +181,7 @@
     <node concept="cog_b" id="74VLc6kV4GX" role="2pmM46">
       <property role="1FEjNx" value="example source text" />
       <property role="1tl0gq" value="English" />
-      <ref role="cog$q" node="74VLc6kV4G_" resolve="Source1" />
+      <property role="1hTq4$" value="lineid32523523" />
       <node concept="2hPCcK" id="45WVu5_dyE8" role="2hN6Sa">
         <node concept="2h$EKm" id="45WVu5_dyEa" role="19SJt6">
           <property role="19SUeA" value="example" />
@@ -216,16 +197,19 @@
     <node concept="cog_b" id="74VLc6kV4GY" role="2pmM46">
       <property role="1FEjNx" value="example source text" />
       <property role="1tl0gq" value="English" />
-      <ref role="cog$q" node="74VLc6kV4GA" resolve="Source2" />
+      <property role="1hTq4$" value="lineid123" />
       <node concept="2hPCcK" id="45WVu5_dyEc" role="2hN6Sa">
-        <node concept="19SUe$" id="5hB3R5$YkRC" role="19SJt6">
-          <property role="19SUeA" value="example source " />
+        <node concept="19SUe$" id="2LXD_irmv$T" role="19SJt6">
+          <property role="19SUeA" value="This is " />
         </node>
-        <node concept="2h$EKm" id="45WVu5_dyEe" role="19SJt6">
-          <property role="19SUeA" value="text" />
-          <node concept="2UK0tq" id="45WVu5_dyEf" role="2h$EKj">
+        <node concept="2h$EKm" id="2LXD_irmv_0" role="19SJt6">
+          <property role="19SUeA" value="a" />
+          <node concept="2UK0tq" id="2LXD_irmv_1" role="2h$EKj">
             <property role="2UK0tr" value="4AIlyP2wQB2/ActCreate" />
           </node>
+        </node>
+        <node concept="19SUe$" id="2LXD_irmv$Z" role="19SJt6">
+          <property role="19SUeA" value=" prefix line" />
         </node>
       </node>
     </node>
@@ -309,6 +293,23 @@
     <node concept="1GVOM6" id="344aJ4bV_ZY" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="duty1" />
+    </node>
+    <node concept="cog_b" id="67MoKbcfOMu" role="2pmM46">
+      <property role="1tl0gq" value="English" />
+      <node concept="2hPCcK" id="67MoKbcfOMv" role="2hN6Sa">
+        <node concept="19SUe$" id="67MoKbcfOMw" role="19SJt6">
+          <property role="19SUeA" value="Source with no line id" />
+        </node>
+      </node>
+    </node>
+    <node concept="cog_b" id="67MoKbcfOOm" role="2pmM46">
+      <property role="1tl0gq" value="English" />
+      <property role="1hTq4$" value="randomlineidpointstonothing" />
+      <node concept="2hPCcK" id="67MoKbcfOOn" role="2hN6Sa">
+        <node concept="19SUe$" id="67MoKbcfOOo" role="19SJt6">
+          <property role="19SUeA" value=" Source with line id without reference" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

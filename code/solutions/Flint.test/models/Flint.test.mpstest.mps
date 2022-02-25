@@ -277,12 +277,12 @@
       <concept id="6868897032739893314" name="Flint.structure.IExplainable" flags="ng" index="cog$R">
         <property id="778381075952164307" name="explanation" index="3ANC2_" />
       </concept>
-      <concept id="6868897032739893311" name="Flint.structure.FlintSource" flags="ng" index="cog_a">
+      <concept id="6868897032739893311" name="Flint.structure.FlintSourceDeprecated" flags="ng" index="cog_a">
         <property id="6868897032739893349" name="validTo" index="cog$g" />
         <property id="6868897032739893347" name="validFrom" index="cog$m" />
         <property id="6868897032739893352" name="juriconnect" index="cog$t" />
       </concept>
-      <concept id="6868897032739893310" name="Flint.structure.FlintSourceReference" flags="ng" index="cog_b">
+      <concept id="6868897032739893310" name="Flint.structure.FlintSource" flags="ng" index="cog_b">
         <property id="2215264714367931041" name="textId" index="1hTq4$" />
         <property id="1165398171153094508" name="language" index="1tl0gq" />
         <reference id="6868897032739893359" name="baseSource" index="cog$q" />
@@ -576,7 +576,6 @@
       <concept id="1201792049884" name="jetbrains.mps.baseLanguage.collections.structure.TranslateOperation" flags="nn" index="3goQfb" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
-      <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
     </language>
   </registry>
   <node concept="1lH9Xt" id="1$A6n3M4kb_">
@@ -725,26 +724,6 @@
     <node concept="1qefOq" id="74VLc6kDrIK" role="1SKRRt">
       <node concept="3_ImHQ" id="74VLc6kDrIJ" role="1qenE9">
         <property role="TrG5h" value="Test" />
-        <node concept="cog_a" id="74VLc6kDrJ2" role="3_ImGG">
-          <property role="TrG5h" value="Source1" />
-          <node concept="7CXmI" id="74VLc6kDzmF" role="lGtFl">
-            <node concept="29bkU" id="5qOZTZa$sUi" role="7EUXB">
-              <node concept="2PQEqo" id="5qOZTZa$sUj" role="3lydCh">
-                <ref role="39XzEq" to="19bf:35H3ae$Xecb" />
-              </node>
-            </node>
-            <node concept="29bkU" id="5qOZTZa$sUk" role="7EUXB">
-              <node concept="2PQEqo" id="5qOZTZa$sUl" role="3lydCh">
-                <ref role="39XzEq" to="19bf:74VLc6kt7_W" />
-              </node>
-            </node>
-            <node concept="29bkU" id="5qOZTZa$sUm" role="7EUXB">
-              <node concept="2PQEqo" id="5qOZTZa$sUn" role="3lydCh">
-                <ref role="39XzEq" to="19bf:74VLc6kt7B$" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="2cz0EU" id="74VLc6kDrJ0" role="3_ImGF">
           <property role="TrG5h" value="Duty1" />
           <node concept="1GVOM6" id="4OXxETsok1L" role="1GVO30">
@@ -2090,7 +2069,7 @@
           <property role="3ANC2_" value="Duty Explanation" />
           <node concept="cog_b" id="4pyf5wCP3AQ" role="2pmM46">
             <property role="1tl0gq" value="English" />
-            <ref role="cog$q" node="4pyf5wCP3A9" resolve="TestSource" />
+            <property role="3ANC2_" value="TestSource" />
             <node concept="2hPCcK" id="45WVu5_dyEO" role="2hN6Sa">
               <node concept="19SUe$" id="4pyf5wCP3AS" role="19SJt6">
                 <property role="19SUeA" value="Text" />
@@ -2114,7 +2093,7 @@
           <property role="3ANC2_" value="Person Explanation" />
           <node concept="cog_b" id="4pyf5wCP3Ab" role="2pmM46">
             <property role="1tl0gq" value="English" />
-            <ref role="cog$q" node="4pyf5wCP3A9" resolve="TestSource" />
+            <property role="3ANC2_" value="TestSource" />
             <node concept="2hPCcK" id="45WVu5_dyEQ" role="2hN6Sa">
               <node concept="19SUe$" id="4pyf5wCP3Ad" role="19SJt6">
                 <property role="19SUeA" value="Person Text" />
@@ -2155,7 +2134,7 @@
           <property role="3GE5qa" value="facts" />
           <node concept="cog_b" id="4pyf5wCP3Ap" role="2pmM46">
             <property role="1tl0gq" value="English" />
-            <ref role="cog$q" node="4pyf5wCP3A9" resolve="TestSource" />
+            <property role="3ANC2_" value="TestSource" />
             <node concept="2hPCcK" id="45WVu5_dyES" role="2hN6Sa">
               <node concept="19SUe$" id="4pyf5wCP3Ar" role="19SJt6">
                 <property role="19SUeA" value="Reference Text" />
@@ -2191,7 +2170,7 @@
           <property role="3GE5qa" value="acts" />
           <node concept="cog_b" id="4pyf5wCP3AA" role="2pmM46">
             <property role="1tl0gq" value="English" />
-            <ref role="cog$q" node="4pyf5wCP3A9" resolve="TestSource" />
+            <property role="3ANC2_" value="TestSource" />
             <node concept="2hPCcK" id="45WVu5_dyEG" role="2hN6Sa">
               <node concept="2h$EKm" id="45WVu5_dyEI" role="19SJt6">
                 <property role="19SUeA" value="Hello" />
@@ -2268,13 +2247,6 @@
             <property role="1GVPtd" value="English" />
             <property role="1GVPtb" value="Act2" />
           </node>
-        </node>
-        <node concept="cog_a" id="4pyf5wCP3A9" role="3_ImGG">
-          <property role="TrG5h" value="TestSource" />
-          <property role="3GE5qa" value="sources" />
-          <property role="cog$t" value="test123" />
-          <property role="cog$m" value="28-04-2020" />
-          <property role="cog$g" value="30-04-2020" />
         </node>
         <node concept="3ainiu" id="6$5jl5S4JUb" role="3a9ffC">
           <ref role="3aimXI" to="jov5:4L0TsavKybn" resolve="English" />
@@ -4848,7 +4820,7 @@
       <property role="TrG5h" value="references" />
       <node concept="3Tm6S6" id="7zM_gLgVWBJ" role="1B3o_S" />
       <node concept="2I9FWS" id="7zM_gLgVWFn" role="1tU5fm">
-        <ref role="2I9WkF" to="lnwe:5Xjenljcz0Y" resolve="FlintSourceReference" />
+        <ref role="2I9WkF" to="lnwe:5Xjenljcz0Y" resolve="FlintSource" />
       </node>
     </node>
     <node concept="2tJIrI" id="7zM_gLgVWKy" role="jymVt" />
@@ -4877,7 +4849,7 @@
       <node concept="37vLTG" id="7zM_gLhcBWJ" role="3clF46">
         <property role="TrG5h" value="references" />
         <node concept="2I9FWS" id="7zM_gLhcBWI" role="1tU5fm">
-          <ref role="2I9WkF" to="lnwe:5Xjenljcz0Y" resolve="FlintSourceReference" />
+          <ref role="2I9WkF" to="lnwe:5Xjenljcz0Y" resolve="FlintSource" />
         </node>
       </node>
     </node>
@@ -4926,7 +4898,7 @@
                           <node concept="2Rf3mk" id="7zM_gLgW2sc" role="2OqNvi">
                             <node concept="1xMEDy" id="7zM_gLgW2se" role="1xVPHs">
                               <node concept="chp4Y" id="7zM_gLgW2El" role="ri$Ld">
-                                <ref role="cht4Q" to="lnwe:5Xjenljcz0Y" resolve="FlintSourceReference" />
+                                <ref role="cht4Q" to="lnwe:5Xjenljcz0Y" resolve="FlintSource" />
                               </node>
                             </node>
                           </node>
@@ -4956,48 +4928,10 @@
         </node>
       </node>
       <node concept="2I9FWS" id="7zM_gLgVA2f" role="3clF45">
-        <ref role="2I9WkF" to="lnwe:5Xjenljcz0Y" resolve="FlintSourceReference" />
+        <ref role="2I9WkF" to="lnwe:5Xjenljcz0Y" resolve="FlintSource" />
       </node>
       <node concept="3Tm1VV" id="7zM_gLgVA2g" role="1B3o_S" />
       <node concept="3clFbS" id="7zM_gLgVA2i" role="3clF47">
-        <node concept="2xdQw9" id="7zM_gLh9p8S" role="3cqZAp">
-          <property role="2xdLsb" value="h1akgim/info" />
-          <node concept="3cpWs3" id="7zM_gLh9pzc" role="9lYJi">
-            <node concept="2OqwBi" id="7zM_gLha1ge" role="3uHU7w">
-              <node concept="37vLTw" id="7zM_gLh9p$c" role="2Oq$k0">
-                <ref role="3cqZAo" node="7zM_gLgVWHA" resolve="references" />
-              </node>
-              <node concept="3$u5V9" id="7zM_gLha304" role="2OqNvi">
-                <node concept="1bVj0M" id="7zM_gLha306" role="23t8la">
-                  <node concept="3clFbS" id="7zM_gLha307" role="1bW5cS">
-                    <node concept="3clFbF" id="7zM_gLha38q" role="3cqZAp">
-                      <node concept="2OqwBi" id="7zM_gLha4ud" role="3clFbG">
-                        <node concept="2OqwBi" id="7zM_gLha3jj" role="2Oq$k0">
-                          <node concept="37vLTw" id="7zM_gLha38p" role="2Oq$k0">
-                            <ref role="3cqZAo" node="7zM_gLha308" resolve="it" />
-                          </node>
-                          <node concept="3TrEf2" id="7zM_gLha3Bc" role="2OqNvi">
-                            <ref role="3Tt5mk" to="lnwe:6LSqBjXH0hY" resolve="betterText" />
-                          </node>
-                        </node>
-                        <node concept="2qgKlT" id="7zM_gLha55r" role="2OqNvi">
-                          <ref role="37wK5l" to="tbr6:3Q5enzfMT4l" resolve="asTextString" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="Rh6nW" id="7zM_gLha308" role="1bW2Oz">
-                    <property role="TrG5h" value="it" />
-                    <node concept="2jxLKc" id="7zM_gLha309" role="1tU5fm" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="Xl_RD" id="7zM_gLh9p8U" role="3uHU7B">
-              <property role="Xl_RC" value="derp: " />
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs6" id="7zM_gLgW5Kw" role="3cqZAp">
           <node concept="37vLTw" id="7zM_gLgW5Li" role="3cqZAk">
             <ref role="3cqZAo" node="7zM_gLgVWHA" resolve="references" />
@@ -5463,7 +5397,7 @@
           <property role="3GE5qa" value="acts" />
           <node concept="cog_b" id="4DLYcFhRmCB" role="2pmM46">
             <property role="1tl0gq" value="English" />
-            <ref role="cog$q" node="4DLYcFhRmCf" resolve="Source3" />
+            <property role="3ANC2_" value="Source3" />
             <node concept="2hPCcK" id="4DLYcFhRmCC" role="2hN6Sa">
               <node concept="2h$EKm" id="4DLYcFhRmCG" role="19SJt6">
                 <property role="19SUeA" value="More" />
@@ -5493,7 +5427,7 @@
           </node>
           <node concept="cog_b" id="4DLYcFhRmCQ" role="2pmM46">
             <property role="1tl0gq" value="English" />
-            <ref role="cog$q" node="4DLYcFhRmCg" resolve="TestSource" />
+            <property role="3ANC2_" value="TestSource" />
             <node concept="2hPCcK" id="4DLYcFhRmCR" role="2hN6Sa">
               <node concept="19SUe$" id="4DLYcFhRmCS" role="19SJt6">
                 <property role="19SUeA" value="This is a " />
@@ -5545,7 +5479,7 @@
           <property role="3GE5qa" value="acts" />
           <node concept="cog_b" id="4DLYcFhRmDf" role="2pmM46">
             <property role="1tl0gq" value="English" />
-            <ref role="cog$q" node="4DLYcFhRmCg" resolve="TestSource" />
+            <property role="3ANC2_" value="TestSource" />
             <node concept="2hPCcK" id="4DLYcFhRmDg" role="2hN6Sa">
               <node concept="19SUe$" id="4DLYcFhRmDh" role="19SJt6">
                 <property role="19SUeA" value="Herpa " />
@@ -5572,7 +5506,7 @@
           </node>
           <node concept="cog_b" id="4DLYcFhRmDr" role="2pmM46">
             <property role="1tl0gq" value="English" />
-            <ref role="cog$q" node="4DLYcFhRmCf" resolve="Source3" />
+            <property role="3ANC2_" value="Source3" />
             <node concept="2hPCcK" id="4DLYcFhRmDs" role="2hN6Sa">
               <node concept="19SUe$" id="4DLYcFhRmDt" role="19SJt6">
                 <property role="19SUeA" value="Test " />
@@ -5664,7 +5598,7 @@
           <property role="3GE5qa" value="acts" />
           <node concept="cog_b" id="4DLYcFhRmE8" role="2pmM46">
             <property role="1tl0gq" value="English" />
-            <ref role="cog$q" node="4DLYcFhRmCf" resolve="Source3" />
+            <property role="3ANC2_" value="Source3" />
             <node concept="2hPCcK" id="4DLYcFhRmE9" role="2hN6Sa">
               <node concept="19SUe$" id="4DLYcFhRmEa" role="19SJt6">
                 <property role="19SUeA" value="Test 321 Derp " />
@@ -5694,20 +5628,6 @@
             <property role="1GVPtd" value="English" />
             <property role="1GVPtb" value="subsidie aanvraag afwijzen" />
           </node>
-        </node>
-        <node concept="cog_a" id="4DLYcFhRmCf" role="3_ImGG">
-          <property role="TrG5h" value="Source3" />
-          <property role="3GE5qa" value="sources" />
-          <property role="cog$t" value="" />
-          <property role="cog$m" value="" />
-          <property role="cog$g" value="" />
-        </node>
-        <node concept="cog_a" id="4DLYcFhRmCg" role="3_ImGG">
-          <property role="TrG5h" value="TestSource" />
-          <property role="3GE5qa" value="sources" />
-          <property role="cog$t" value="" />
-          <property role="cog$m" value="" />
-          <property role="cog$g" value="" />
         </node>
         <node concept="3ainiu" id="4OXxETsKfYR" role="3a9ffC">
           <ref role="3aimXI" to="jov5:4L0TsavKybn" resolve="English" />

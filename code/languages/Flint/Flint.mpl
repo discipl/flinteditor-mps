@@ -31,6 +31,7 @@
         <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
         <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
         <dependency reexport="false">acf1b507-e791-4de3-b55f-a3880c36d5bb(Flint.runtime)</dependency>
+        <dependency reexport="false">dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d(LawSource)</dependency>
       </dependencies>
       <languageVersions>
         <language slang="l:1cf48bab-db69-4c23-b803-7d48198982a7:Json" version="0" />
@@ -59,6 +60,7 @@
         <module reference="acf1b507-e791-4de3-b55f-a3880c36d5bb(Flint.runtime)" version="0" />
         <module reference="fa4f7dfd-91d0-409e-86f8-693574acc2a3(FlintCellModels)" version="0" />
         <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
+        <module reference="dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d(LawSource)" version="0" />
         <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
         <module reference="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" version="0" />
         <module reference="498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)" version="0" />
@@ -117,9 +119,9 @@
     <dependency reexport="false">dc038ceb-b7ea-4fea-ac12-55f7400e97ba(de.slisson.mps.editor.multiline.runtime)</dependency>
     <dependency reexport="false">b0f8641f-bd77-4421-8425-30d9088a82f7(org.apache.commons)</dependency>
     <dependency reexport="false">f0fff802-6d26-4d2e-b89d-391357265626(de.slisson.mps.hacks.editor)</dependency>
-    <dependency reexport="false">dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d(LawSource)</dependency>
     <dependency reexport="false">18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)</dependency>
     <dependency reexport="false">fa4f7dfd-91d0-409e-86f8-693574acc2a3(FlintCellModels)</dependency>
+    <dependency reexport="false">dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d(LawSource)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:69940819-10c1-4a38-ac44-700b63f993ba:Flint" version="10" />
