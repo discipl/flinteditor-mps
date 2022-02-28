@@ -6897,5 +6897,127 @@
       <node concept="3clFbH" id="xwSl_jwd7n" role="3cqZAp" />
     </node>
   </node>
+  <node concept="LiM7Y" id="7uwsO$txYs8">
+    <property role="TrG5h" value="FlattenTestMultiple" />
+    <node concept="1qefOq" id="7uwsO$txYs9" role="25YQCW">
+      <node concept="cu0$f" id="7uwsO$txYsa" role="1qenE9">
+        <property role="TrG5h" value="TestFact" />
+        <node concept="1zEWgd" id="7uwsO$txYsb" role="coNO9">
+          <node concept="1zEXHp" id="7uwsO$txYun" role="1zF96y">
+            <node concept="1zEXQY" id="7uwsO$txYuo" role="1zEXIt" />
+          </node>
+          <node concept="1zEXHp" id="7uwsO$txYsc" role="1zF96y">
+            <node concept="1zEXQY" id="7uwsO$txYsd" role="1zEXIt" />
+          </node>
+          <node concept="1zEXH2" id="7uwsO$txYuZ" role="1zF96y">
+            <node concept="1zEXHp" id="7uwsO$t$g9d" role="1zF96y">
+              <node concept="1zEXQY" id="7uwsO$t$g9e" role="1zEXIt" />
+            </node>
+            <node concept="LIFWc" id="7uwsO$t$DGK" role="lGtFl">
+              <property role="LIFWa" value="1" />
+              <property role="OXtK3" value="true" />
+              <property role="p6zMq" value="1" />
+              <property role="p6zMs" value="1" />
+              <property role="LIFWd" value="expression_name" />
+            </node>
+          </node>
+        </node>
+        <node concept="1GVOM6" id="7uwsO$txYsi" role="1GVO30">
+          <property role="1GVPtd" value="English" />
+          <property role="1GVPtb" value="TestFact" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="7uwsO$txYsj" role="25YQFr">
+      <node concept="cu0$f" id="7uwsO$txYsk" role="1qenE9">
+        <property role="TrG5h" value="TestFact" />
+        <node concept="1zEWgd" id="7uwsO$txYsl" role="coNO9">
+          <node concept="1zEXHp" id="7uwsO$txYsm" role="1zF96y">
+            <node concept="1zEXQY" id="7uwsO$txYsn" role="1zEXIt" />
+          </node>
+          <node concept="1zEXHp" id="7uwsO$txYvG" role="1zF96y">
+            <node concept="1zEXQY" id="7uwsO$txYvH" role="1zEXIt" />
+          </node>
+          <node concept="1zEXHp" id="7uwsO$txYwe" role="1zF96y">
+            <node concept="1zEXQY" id="7uwsO$txYwf" role="1zEXIt" />
+          </node>
+        </node>
+        <node concept="1GVOM6" id="7uwsO$txYsq" role="1GVO30">
+          <property role="1GVPtd" value="English" />
+          <property role="1GVPtb" value="TestFact" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="7uwsO$txYsr" role="LjaKd">
+      <node concept="3vwNmj" id="7uwsO$txYss" role="3cqZAp">
+        <node concept="2bRw2S" id="7uwsO$txYst" role="3vwVQn">
+          <ref role="2bRw2V" to="ktnu:7uwsO$t0J0I" resolve="FlattenIntention" />
+        </node>
+      </node>
+      <node concept="1MFPAf" id="7uwsO$txYsu" role="3cqZAp">
+        <ref role="1MFYO6" to="ktnu:7uwsO$t0J0I" resolve="FlattenIntention" />
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="7uwsO$ts6yN">
+    <property role="TrG5h" value="FlattenTestSingle" />
+    <node concept="1qefOq" id="7uwsO$ts6S0" role="25YQCW">
+      <node concept="cu0$f" id="7uwsO$ts6S1" role="1qenE9">
+        <property role="TrG5h" value="TestFact" />
+        <node concept="1zEWgd" id="7uwsO$ts6S2" role="coNO9">
+          <node concept="1zEXHp" id="7uwsO$ts6S3" role="1zF96y">
+            <node concept="1zEXQY" id="7uwsO$ts6S4" role="1zEXIt" />
+          </node>
+          <node concept="1zEXH5" id="7uwsO$ts6S5" role="1zF96y">
+            <node concept="1zEXHp" id="7uwsO$ts6S6" role="1zF96A">
+              <node concept="1zEXQY" id="7uwsO$ts6S7" role="1zEXIt">
+                <property role="1zEXQP" value="true" />
+              </node>
+            </node>
+            <node concept="LIFWc" id="7uwsO$tsMyP" role="lGtFl">
+              <property role="LIFWa" value="1" />
+              <property role="OXtK3" value="true" />
+              <property role="p6zMq" value="1" />
+              <property role="p6zMs" value="1" />
+              <property role="LIFWd" value="expression_name" />
+            </node>
+          </node>
+        </node>
+        <node concept="1GVOM6" id="7uwsO$ts6S9" role="1GVO30">
+          <property role="1GVPtd" value="English" />
+          <property role="1GVPtb" value="TestFact" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="7uwsO$ts6SH" role="25YQFr">
+      <node concept="cu0$f" id="7uwsO$ts6SI" role="1qenE9">
+        <property role="TrG5h" value="TestFact" />
+        <node concept="1zEWgd" id="7uwsO$ts6SJ" role="coNO9">
+          <node concept="1zEXHp" id="7uwsO$ts6SK" role="1zF96y">
+            <node concept="1zEXQY" id="7uwsO$ts6SL" role="1zEXIt" />
+          </node>
+          <node concept="1zEXHp" id="7uwsO$ts6SN" role="1zF96y">
+            <node concept="1zEXQY" id="7uwsO$ts6SO" role="1zEXIt">
+              <property role="1zEXQP" value="true" />
+            </node>
+          </node>
+        </node>
+        <node concept="1GVOM6" id="7uwsO$ts6SQ" role="1GVO30">
+          <property role="1GVPtd" value="English" />
+          <property role="1GVPtb" value="TestFact" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="7uwsO$ts6Ud" role="LjaKd">
+      <node concept="3vwNmj" id="7uwsO$ts6VL" role="3cqZAp">
+        <node concept="2bRw2S" id="7uwsO$ts6VX" role="3vwVQn">
+          <ref role="2bRw2V" to="ktnu:7uwsO$t0J0I" resolve="FlattenIntention" />
+        </node>
+      </node>
+      <node concept="1MFPAf" id="7uwsO$ts6Xw" role="3cqZAp">
+        <ref role="1MFYO6" to="ktnu:7uwsO$t0J0I" resolve="FlattenIntention" />
+      </node>
+    </node>
+  </node>
 </model>
 

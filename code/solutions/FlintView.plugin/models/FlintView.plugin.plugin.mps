@@ -55,6 +55,14 @@
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
   </imports>
   <registry>
+    <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
+      <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.FileIcon" flags="ng" index="1QGGSu">
+        <property id="2756621024541341363" name="file" index="1iqoE4" />
+      </concept>
+      <concept id="8974276187400029891" name="jetbrains.mps.lang.resources.structure.IconExpression" flags="nn" index="1QGGTA">
+        <child id="8974276187400029893" name="icon" index="1QGGTw" />
+      </concept>
+    </language>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
       <concept id="1207145163717" name="jetbrains.mps.lang.plugin.structure.ElementListContents" flags="ng" index="ftmFs">
         <child id="1207145201301" name="reference" index="ftvYc" />
@@ -725,6 +733,11 @@
           <ref role="3TsBF5" to="lnwe:2vJbluoeqmL" resolve="eActs" />
         </node>
       </node>
+      <node concept="1QGGTA" id="VXy0hIFajZ" role="3actZa">
+        <node concept="1QGGSu" id="VXy0hIFaoL" role="1QGGTw">
+          <property role="1iqoE4" value="${module}/icons/ActsFolder.png" />
+        </node>
+      </node>
     </node>
     <node concept="14aYG3" id="19XK2GZZk2b" role="14aYEy">
       <property role="TrG5h" value="acts" />
@@ -771,6 +784,11 @@
           <ref role="3TsBF5" to="lnwe:2vJbluoeqn7" resolve="eFacts" />
         </node>
       </node>
+      <node concept="1QGGTA" id="VXy0hIElPt" role="3actZa">
+        <node concept="1QGGSu" id="VXy0hIElVK" role="1QGGTw">
+          <property role="1iqoE4" value="${module}/icons/FactFolder.png" />
+        </node>
+      </node>
     </node>
     <node concept="14aYG3" id="19XK2H03HbE" role="14aYEy">
       <property role="TrG5h" value="facts" />
@@ -815,6 +833,11 @@
         </node>
         <node concept="3TrcHB" id="2vJbluoVo5k" role="2OqNvi">
           <ref role="3TsBF5" to="lnwe:2vJbluoeqnu" resolve="eDuties" />
+        </node>
+      </node>
+      <node concept="1QGGTA" id="VXy0hIFbbS" role="3actZa">
+        <node concept="1QGGSu" id="VXy0hIFbgE" role="1QGGTw">
+          <property role="1iqoE4" value="${module}/icons/DutyFolder.png" />
         </node>
       </node>
     </node>
