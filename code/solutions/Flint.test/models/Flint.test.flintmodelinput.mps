@@ -21,7 +21,6 @@
       <concept id="6868897032739893310" name="Flint.structure.FlintSource" flags="ng" index="cog_b">
         <property id="2215264714367931041" name="textId" index="1hTq4$" />
         <property id="1165398171153094508" name="language" index="1tl0gq" />
-        <property id="6587498613243528183" name="text" index="1FEjNx" />
         <child id="7816114204006679678" name="betterText" index="2hN6Sa" />
       </concept>
       <concept id="6868897032739434615" name="Flint.structure.FlintModel" flags="ng" index="cu0$2" />
@@ -33,9 +32,6 @@
       </concept>
       <concept id="2444626260293394822" name="Flint.structure.DutyReference" flags="ng" index="2cz2WB">
         <reference id="2444626260293394823" name="duty" index="2cz2WA" />
-      </concept>
-      <concept id="7816114204010268258" name="Flint.structure.TaggedWord" flags="ng" index="2h$EKm">
-        <child id="7816114204010268263" name="roles" index="2h$EKj" />
       </concept>
       <concept id="7816114204006345028" name="Flint.structure.CustomText" flags="ng" index="2hPCcK" />
       <concept id="9029403747833789403" name="Flint.structure.Act" flags="ng" index="mu5$5">
@@ -53,9 +49,6 @@
       </concept>
       <concept id="589729100932390229" name="Flint.structure.IHasLanguage" flags="ng" index="ITzSF">
         <child id="5326288789495449519" name="translatedNames" index="1GVO30" />
-      </concept>
-      <concept id="2986354165693918736" name="Flint.structure.SRole" flags="ng" index="2UK0tq">
-        <property id="2986354165693918737" name="role" index="2UK0tr" />
       </concept>
       <concept id="7402439007429942662" name="Flint.structure.ActReference" flags="ng" index="3jSua8">
         <reference id="7402439007429942663" name="act" index="3jSua9" />
@@ -178,41 +171,6 @@
     <property role="3GE5qa" value="acts" />
     <property role="3ANC2_" value="Example explanation" />
     <property role="207Gpp" value="Action1" />
-    <node concept="cog_b" id="74VLc6kV4GX" role="2pmM46">
-      <property role="1FEjNx" value="example source text" />
-      <property role="1tl0gq" value="English" />
-      <property role="1hTq4$" value="lineid32523523" />
-      <node concept="2hPCcK" id="45WVu5_dyE8" role="2hN6Sa">
-        <node concept="2h$EKm" id="45WVu5_dyEa" role="19SJt6">
-          <property role="19SUeA" value="example" />
-          <node concept="2UK0tq" id="45WVu5_dyEb" role="2h$EKj">
-            <property role="2UK0tr" value="4AIlyP2wQAP/Action" />
-          </node>
-        </node>
-        <node concept="19SUe$" id="28ttwYhlVQ0" role="19SJt6">
-          <property role="19SUeA" value=" source text" />
-        </node>
-      </node>
-    </node>
-    <node concept="cog_b" id="74VLc6kV4GY" role="2pmM46">
-      <property role="1FEjNx" value="example source text" />
-      <property role="1tl0gq" value="English" />
-      <property role="1hTq4$" value="lineid123" />
-      <node concept="2hPCcK" id="45WVu5_dyEc" role="2hN6Sa">
-        <node concept="19SUe$" id="2LXD_irmv$T" role="19SJt6">
-          <property role="19SUeA" value="This is " />
-        </node>
-        <node concept="2h$EKm" id="2LXD_irmv_0" role="19SJt6">
-          <property role="19SUeA" value="a" />
-          <node concept="2UK0tq" id="2LXD_irmv_1" role="2h$EKj">
-            <property role="2UK0tr" value="4AIlyP2wQB2/ActCreate" />
-          </node>
-        </node>
-        <node concept="19SUe$" id="2LXD_irmv$Z" role="19SJt6">
-          <property role="19SUeA" value=" prefix line" />
-        </node>
-      </node>
-    </node>
     <node concept="1FQA6B" id="74VLc6kV4GZ" role="3H36mW">
       <ref role="1FQA6$" node="74VLc6kV4GB" resolve="Fact1" />
     </node>
