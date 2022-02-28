@@ -126,6 +126,7 @@ data class Source(
     val validFrom: String,
     val validTo: String?,
     val juriconnect: String,
+    val id: String?,
     val tags: List<TaggedWord>?
 ) : Explainable {
     val baseSource
