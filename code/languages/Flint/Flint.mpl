@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="Flint" uuid="69940819-10c1-4a38-ac44-700b63f993ba" languageVersion="10" moduleVersion="1">
+<language namespace="Flint" uuid="69940819-10c1-4a38-ac44-700b63f993ba" languageVersion="11" moduleVersion="1">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -124,7 +124,7 @@
     <dependency reexport="false">dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d(LawSource)</dependency>
   </dependencies>
   <languageVersions>
-    <language slang="l:69940819-10c1-4a38-ac44-700b63f993ba:Flint" version="10" />
+    <language slang="l:69940819-10c1-4a38-ac44-700b63f993ba:Flint" version="11" />
     <language slang="l:fa4f7dfd-91d0-409e-86f8-693574acc2a3:FlintCellModels" version="0" />
     <language slang="l:c9991bd9-1f60-4f96-8e56-efd35c072829:ParameterizedRangeSelection" version="0" />
     <language slang="l:fb1561dd-216d-4cd5-9cd8-5d1dc9d20bcf:com.mbeddr.mpsutil.datepicker" version="0" />

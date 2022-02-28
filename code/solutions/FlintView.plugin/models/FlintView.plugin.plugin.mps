@@ -427,7 +427,7 @@
           <ref role="35c_gD" to="lnwe:27H3E6Hoggr" resolve="Duty" />
         </node>
         <node concept="35c_gC" id="19XK2H0bu4j" role="37wK5m">
-          <ref role="35c_gD" to="lnwe:5Xjenljcz0Z" resolve="FlintSource" />
+          <ref role="35c_gD" to="lnwe:5Xjenljcz0Z" resolve="FlintSourceDeprecated" />
         </node>
         <node concept="35c_gC" id="19XK2H0cLU5" role="37wK5m">
           <ref role="35c_gD" to="lnwe:5XjenljaN1R" resolve="FlintModel" />
