@@ -431,5 +431,21 @@
       </node>
     </node>
   </node>
+  <node concept="3YXoiq" id="5mg4KOqLLje">
+    <property role="TrG5h" value="testlawsource_testversion1_article1.flint.article" />
+    <node concept="3YX88f" id="5mg4KOqLLji" role="3YXoi7" />
+  </node>
+  <node concept="3YXoiq" id="5mg4KOqLLjl">
+    <property role="TrG5h" value="testlawsource_testversion1_article2.flint.article" />
+    <node concept="3YX88f" id="5mg4KOqLLjm" role="3YXoi7" />
+  </node>
+  <node concept="3YXoiq" id="5mg4KOqLLjn">
+    <property role="TrG5h" value="testlawsource_testversion2_article1v2.flint.article" />
+    <node concept="3YX88f" id="5mg4KOqLLjo" role="3YXoi7" />
+  </node>
+  <node concept="3YXoiq" id="5mg4KOqLLjp">
+    <property role="TrG5h" value="testlawsource.flint.source" />
+    <node concept="3YX88f" id="5mg4KOqLLjt" role="3YXoi7" />
+  </node>
 </model>
 
