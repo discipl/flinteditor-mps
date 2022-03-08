@@ -300,6 +300,16 @@
         </node>
         <node concept="l2Vlx" id="1spse2ejYpZ" role="2iSdaV" />
       </node>
+      <node concept="3EZMnI" id="5mg4KOpQCRX" role="3EZMnx">
+        <node concept="VPM3Z" id="5mg4KOpQCRY" role="3F10Kt" />
+        <node concept="3F0ifn" id="5mg4KOpQCRZ" role="3EZMnx">
+          <property role="3F0ifm" value="juriConnect" />
+        </node>
+        <node concept="3F0A7n" id="5mg4KOpQCS0" role="3EZMnx">
+          <ref role="1NtTu8" to="srlv:36FPIkdCI3F" resolve="juriConnect" />
+        </node>
+        <node concept="l2Vlx" id="5mg4KOpQCS1" role="2iSdaV" />
+      </node>
       <node concept="2iRkQZ" id="1spse2ejXKX" role="2iSdaV" />
     </node>
   </node>
