@@ -853,18 +853,18 @@
     <property role="3Fgkti" value="Test reducing flint model to flint.json" />
     <node concept="3Fgkto" id="63E5y3ToiAP" role="3Fgkth">
       <property role="TrG5h" value="INPUT" />
-      <node concept="1dCxOl" id="74VLc6kTPJb" role="3Fgkt4">
+      <node concept="1dCxOl" id="5mg4KOpQMo_" role="3Fgkt4">
         <property role="1XweGQ" value="r:24d66bc9-227a-447b-947a-855ad292ec9a" />
-        <node concept="1j_P7g" id="74VLc6kTPJc" role="1j$8Uc">
+        <node concept="1j_P7g" id="5mg4KOpQMoA" role="1j$8Uc">
           <property role="1j_P7h" value="Flint.test.flintmodelinput" />
         </node>
       </node>
     </node>
     <node concept="3Fgkto" id="63E5y3ToiB2" role="3Fgkth">
       <property role="TrG5h" value="OUTPUT" />
-      <node concept="1dCxOl" id="63E5y3ToiBa" role="3Fgkt4">
+      <node concept="1dCxOl" id="5mg4KOpQMov" role="3Fgkt4">
         <property role="1XweGQ" value="r:6132a1e4-58c1-4829-81d9-869d91ed95a3" />
-        <node concept="1j_P7g" id="63E5y3ToiBb" role="1j$8Uc">
+        <node concept="1j_P7g" id="5mg4KOpQMow" role="1j$8Uc">
           <property role="1j_P7h" value="Flint.test.flintmodeloutput" />
         </node>
       </node>
@@ -7189,6 +7189,36 @@
     <node concept="1GVOM6" id="6DgkmMHN4tv" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="derp" />
+    </node>
+  </node>
+  <node concept="3FgkA8" id="5mg4KOpQKK1">
+    <property role="TrG5h" value="LawSourceGeneratorTest" />
+    <property role="3Fgkti" value="Test lawsource to json" />
+    <node concept="3Fgkto" id="5mg4KOpQKK2" role="3Fgkth">
+      <property role="TrG5h" value="INPUT" />
+      <node concept="1dCxOl" id="5mg4KOq2lP9" role="3Fgkt4">
+        <property role="1XweGQ" value="r:f43211e5-7f65-455e-a5f7-79038984c5a8" />
+        <node concept="1j_P7g" id="5mg4KOq2lPa" role="1j$8Uc">
+          <property role="1j_P7h" value="Flint.test.lawsourceinput" />
+        </node>
+      </node>
+    </node>
+    <node concept="3Fgkto" id="5mg4KOpQKK5" role="3Fgkth">
+      <property role="TrG5h" value="OUTPUT" />
+      <node concept="1dCxOl" id="5mg4KOq2lPf" role="3Fgkt4">
+        <property role="1XweGQ" value="r:bc78fe3b-4634-44ed-9b9d-12a0d2fc914a" />
+        <node concept="1j_P7g" id="5mg4KOq2lPg" role="1j$8Uc">
+          <property role="1j_P7h" value="Flint.test.lawsourceoutput" />
+        </node>
+      </node>
+    </node>
+    <node concept="3FggHx" id="5mg4KOpQKK8" role="3FggHh">
+      <node concept="3FggHH" id="5mg4KOpQKK9" role="3FggHC">
+        <ref role="3FggHE" node="5mg4KOpQKK2" resolve="INPUT" />
+      </node>
+      <node concept="3FggHH" id="5mg4KOpQKKa" role="3FggHm">
+        <ref role="3FggHE" node="5mg4KOpQKK5" resolve="OUTPUT" />
+      </node>
     </node>
   </node>
 </model>
