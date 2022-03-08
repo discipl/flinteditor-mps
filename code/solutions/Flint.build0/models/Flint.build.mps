@@ -2030,11 +2030,6 @@
             <ref role="3bR37D" node="6onvLJoJVY2" resolve="LawSource" />
           </node>
         </node>
-        <node concept="1SiIV0" id="7$0Y1R9staj" role="3bR37C">
-          <node concept="3bR9La" id="7$0Y1R9stak" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="4_s3JQD9ypI" role="3bR37C">
           <node concept="3bR9La" id="4_s3JQD9ypJ" role="1SiIV1">
             <ref role="3bR37D" node="1bPqaB7JSO$" resolve="FlintCellModels" />
@@ -2344,6 +2339,26 @@
         <node concept="1SiIV0" id="6LSqBjYO77V" role="3bR37C">
           <node concept="3bR9La" id="6onvLJoJY9i" role="1SiIV1">
             <ref role="3bR37D" node="6onvLJoJVY2" resolve="LawSource" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1$Rh126bgfK" role="3bR37C">
+          <node concept="3bR9La" id="1$Rh126bgfL" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1$Rh126bgfM" role="3bR37C">
+          <node concept="3bR9La" id="1$Rh126bgfN" role="1SiIV1">
+            <ref role="3bR37D" node="2FAQ6X3GqIP" resolve="FlintView.plugin" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1$Rh126bgfO" role="3bR37C">
+          <node concept="3bR9La" id="1$Rh126bgfP" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:14x5$qAUbkv" resolve="jetbrains.mps.lang.resources" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1$Rh126bgfQ" role="3bR37C">
+          <node concept="3bR9La" id="1$Rh126bgfR" role="1SiIV1">
+            <ref role="3bR37D" to="90a9:FniR$Cj0b1" resolve="com.mbeddr.mpsutil.projectview.runtime" />
           </node>
         </node>
       </node>
@@ -3456,11 +3471,6 @@
         <node concept="1SiIV0" id="2FAQ6X3Gst$" role="3bR37C">
           <node concept="3bR9La" id="2FAQ6X3Gst_" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2FAQ6X3GstA" role="3bR37C">
-          <node concept="3bR9La" id="2FAQ6X3GstB" role="1SiIV1">
-            <ref role="3bR37D" to="90a9:PE3B26QCrP" resolve="org.apache.commons" />
           </node>
         </node>
         <node concept="1SiIV0" id="2FAQ6X3GstC" role="3bR37C">
