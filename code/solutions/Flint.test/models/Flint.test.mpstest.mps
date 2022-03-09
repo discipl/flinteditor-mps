@@ -7129,5 +7129,97 @@
       </node>
     </node>
   </node>
+  <node concept="LiM7Y" id="6DgkmMHMhXZ">
+    <property role="TrG5h" value="ExpressionToFact" />
+    <node concept="1qefOq" id="6DgkmMHMhY0" role="25YQCW">
+      <node concept="3_ImHQ" id="6DgkmMHMhZ7" role="1qenE9">
+        <node concept="cu0$f" id="6DgkmMHMhY1" role="3_ImGK">
+          <property role="TrG5h" value="TestFact" />
+          <node concept="1zEWgd" id="6DgkmMHMhY2" role="coNO9">
+            <node concept="1zEXHp" id="6DgkmMHMhY3" role="1zF96y">
+              <node concept="1zEXQY" id="6DgkmMHMhY4" role="1zEXIt" />
+            </node>
+            <node concept="1zEXH5" id="6DgkmMHMhY5" role="1zF96y">
+              <node concept="1zEWgd" id="6DgkmMHN4r0" role="1zF96A">
+                <node concept="1zEXHp" id="6DgkmMHN4ri" role="1zF96y">
+                  <node concept="1zEXQY" id="6DgkmMHN4rr" role="1zEXIt" />
+                </node>
+                <node concept="1zEXHp" id="6DgkmMHN4rC" role="1zF96y">
+                  <node concept="1zEXQY" id="6DgkmMHN4rN" role="1zEXIt">
+                    <property role="1zEXQP" value="true" />
+                  </node>
+                </node>
+                <node concept="LIFWc" id="6DgkmMHN4rT" role="lGtFl">
+                  <property role="ZRATv" value="true" />
+                  <property role="OXtK3" value="true" />
+                  <property role="p6zMq" value="0" />
+                  <property role="p6zMs" value="0" />
+                  <property role="LIFWd" value="Constant_sfyjjx_a0a" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1GVOM6" id="6DgkmMHMhY9" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="TestFact" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="6DgkmMHMhYa" role="25YQFr">
+      <node concept="3_ImHQ" id="6DgkmMHMhZB" role="1qenE9">
+        <node concept="cu0$f" id="6DgkmMHN4s6" role="3_ImGK">
+          <property role="TrG5h" value="TestFact" />
+          <node concept="1zEWgd" id="6DgkmMHN4s7" role="coNO9">
+            <node concept="1zEXHp" id="6DgkmMHN4s8" role="1zF96y">
+              <node concept="1zEXQY" id="6DgkmMHN4s9" role="1zEXIt" />
+            </node>
+            <node concept="1zEXH5" id="6DgkmMHN4sa" role="1zF96y">
+              <node concept="1FQA6B" id="6DgkmMHS$o$" role="1zF96A">
+                <ref role="1FQA6$" node="6DgkmMHS$o_" />
+              </node>
+            </node>
+          </node>
+          <node concept="1GVOM6" id="6DgkmMHN4sh" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="TestFact" />
+          </node>
+        </node>
+        <node concept="cu0$f" id="6DgkmMHS$o_" role="3_ImGK">
+          <node concept="1zEWgd" id="6DgkmMHNCNC" role="coNO9">
+            <node concept="1zEXHp" id="6DgkmMHNCND" role="1zF96y">
+              <node concept="1zEXQY" id="6DgkmMHNCNE" role="1zEXIt" />
+            </node>
+            <node concept="1zEXHp" id="6DgkmMHNCNF" role="1zF96y">
+              <node concept="1zEXQY" id="6DgkmMHNCNG" role="1zEXIt">
+                <property role="1zEXQP" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="1GVOM6" id="6DgkmMHS$oD" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="6DgkmMHMhYi" role="LjaKd">
+      <node concept="3vwNmj" id="6DgkmMHMhYj" role="3cqZAp">
+        <node concept="2bRw2S" id="6DgkmMHMhYk" role="3vwVQn">
+          <ref role="2bRw2V" to="ktnu:6DgkmMHJQWc" resolve="CreateFactFromExpression" />
+        </node>
+      </node>
+      <node concept="1MFPAf" id="6DgkmMHMhYl" role="3cqZAp">
+        <ref role="1MFYO6" to="ktnu:6DgkmMHJQWc" resolve="CreateFactFromExpression" />
+      </node>
+    </node>
+  </node>
+  <node concept="cu0$f" id="6DgkmMHN4tu">
+    <property role="TrG5h" value="derp" />
+    <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="6DgkmMHN4tv" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="derp" />
+    </node>
+  </node>
 </model>
 
