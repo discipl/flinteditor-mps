@@ -102,7 +102,6 @@
         <child id="1168278589236" name="sourceNodesQuery" index="2P8S$" />
       </concept>
       <concept id="1095416546421" name="jetbrains.mps.lang.generator.structure.MappingConfiguration" flags="ig" index="bUwia">
-        <child id="1200911492601" name="mappingLabel" index="2rTMjI" />
         <child id="1167328349397" name="reductionMappingRule" index="3acgRq" />
         <child id="1167514678247" name="rootMappingRule" index="3lj3bC" />
       </concept>
@@ -114,9 +113,6 @@
         <reference id="1168619429071" name="applicableConcept" index="n9lRv" />
       </concept>
       <concept id="1095672379244" name="jetbrains.mps.lang.generator.structure.TemplateFragment" flags="ng" index="raruj" />
-      <concept id="1200911316486" name="jetbrains.mps.lang.generator.structure.MappingLabelDeclaration" flags="lg" index="2rT7sh">
-        <reference id="1200911342686" name="sourceConcept" index="2rTdP9" />
-      </concept>
       <concept id="1722980698497626400" name="jetbrains.mps.lang.generator.structure.ITemplateCall" flags="ng" index="v9R3L">
         <reference id="1722980698497626483" name="template" index="v9R2y" />
         <child id="1722980698497626405" name="actualArgument" index="v9R3O" />
@@ -434,10 +430,6 @@
       <node concept="j$656" id="gbbh_pu5I" role="1lVwrX">
         <ref role="v9R2y" node="gbbh_ptzW" resolve="reduce_Language" />
       </node>
-    </node>
-    <node concept="2rT7sh" id="4FnTJrE0HQm" role="2rTMjI">
-      <property role="TrG5h" value="test" />
-      <ref role="2rTdP9" to="lnwe:5Xjenljcz0Y" resolve="FlintSource" />
     </node>
   </node>
   <node concept="3YXoiq" id="1ThkPncLw1E">
