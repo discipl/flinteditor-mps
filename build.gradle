@@ -310,7 +310,7 @@ task generateScripts(type: de.itemis.mps.gradle.RunAntScript) {
 }
 
 task buildFlint(type: de.itemis.mps.gradle.RunAntScript, dependsOn: generateScripts) {
-    script = file("$codeDir/build-Flint.xml")
+    script = file("$codeDir/fixed-build-Flint.xml")
     targets = ["generate", "build"]
 }
 
@@ -330,7 +330,7 @@ task addFxLibs(type: Copy) {
 }
 
 task mpsTest(type: de.itemis.mps.gradle.RunAntScript, dependsOn: generateScripts) {
-    script = file("$codeDir/build-Flint.xml")
+    script = file("$codeDir/fixed-build-Flint.xml")
     targets = ["generate", "test"]
     scriptArgs = ["-verbose"]
     test.finalizedBy("mpsTest")
@@ -459,11 +459,12 @@ task fixClassPathIssues(dependsOn: ["generateScripts"]) {
         project.addElement("manifestclasspath").addAttribute("property","lib.list").addAttribute("jarfile", "\${basedir}/build/class-path.jar").addElement("classpath").addAttribute("refid","build.classpath")
         classPath.addElement("fileset").addAttribute("file", "\${basedir}/build/class-path.jar")
 
-        org.dom4j.Element jar = project.addElement("target").addAttribute("name","buildClassPathJar").addElement("jar").addAttribute("jarfile","\${basedir}/build/class-path.jar")
-
+        org.dom4j.Element jarTarget = project.addElement("target").addAttribute("name","buildClassPathJar")
+        jarTarget.addElement("mkdir").addAttribute("dir","\${basedir}/build")
+        org.dom4j.Element jar = jarTarget.addElement("jar").addAttribute("jarfile","\${basedir}/build/class-path.jar")
         jar.addElement("manifest").addElement("attribute").addAttribute("name", "Class-Path").addAttribute("value", ". \${lib.list}")
 
-        org.dom4j.io.XMLWriter writer = new org.dom4j.io.XMLWriter(new FileWriter(new File("$codeDir/build-Flint.xml")),  org.dom4j.io.OutputFormat.createPrettyPrint());
+        org.dom4j.io.XMLWriter writer = new org.dom4j.io.XMLWriter(new FileWriter(new File("$codeDir/fixed-build-Flint.xml")),  org.dom4j.io.OutputFormat.createPrettyPrint());
         writer.write(document);
         writer.close();
     }
