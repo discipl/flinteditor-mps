@@ -13,6 +13,8 @@ buildscript {
     }
     dependencies {
         classpath "de.itemis.mps:mps-gradle-plugin:$mps_gradle_plugin_version"
+        classpath "dom4j:dom4j:1.6.1"
+        classpath "jaxen:jaxen:1.2.0"
     }
 }
 
@@ -304,6 +306,7 @@ task initProject() {
 task generateScripts(type: de.itemis.mps.gradle.RunAntScript) {
     script = file("$codeDir/mainBuild.xml")
     targets = ["generate"]
+    finalizedBy("fixClassPathIssues")
 }
 
 task buildFlint(type: de.itemis.mps.gradle.RunAntScript, dependsOn: generateScripts) {
@@ -433,4 +436,35 @@ task downloadMacOsJbr(type: Copy, group: 'jbr') {
 
 task downloadAllJbrs(dependsOn: [downloadWindowsJbr, downloadLinuxJbr, downloadMacOsJbr]) {
     group = 'jbr'
+}
+
+task fixClassPathIssues(dependsOn: ["generateScripts"]) {
+    doFirst {
+        def file = file("$codeDir/build-Flint.xml")
+        org.dom4j.io.SAXReader reader = new org.dom4j.io.SAXReader()
+        org.dom4j.Document document = reader.read(file)
+        println document
+        org.dom4j.Element project = (org.dom4j.Element)document.selectSingleNode("/project")
+        org.dom4j.Element path = project.addElement("path").addAttribute("id", "build.classpath")
+        org.dom4j.Element target = (org.dom4j.Element)document.selectSingleNode("/project/target[@name='java.compile.java.modules.cycle.1']")
+        target.addAttribute("depends", target.attributeValue("depends") + ", buildClassPathJar")
+        org.dom4j.Element classPath = (org.dom4j.Element)document.selectSingleNode("/project/target[@name='java.compile.java.modules.cycle.1']/javac/classpath")
+        List<org.dom4j.Node> fileSets = classPath.selectNodes("fileset")
+        fileSets.each {
+            println it
+            it.detach()
+            path.add(it)
+        }
+
+        project.addElement("manifestclasspath").addAttribute("property","lib.list").addAttribute("jarfile", "\${basedir}/build/class-path.jar").addElement("classpath").addAttribute("refid","build.classpath")
+        classPath.addElement("fileset").addAttribute("file", "\${basedir}/build/class-path.jar")
+
+        org.dom4j.Element jar = project.addElement("target").addAttribute("name","buildClassPathJar").addElement("jar").addAttribute("jarfile","\${basedir}/build/class-path.jar")
+
+        jar.addElement("manifest").addElement("attribute").addAttribute("name", "Class-Path").addAttribute("value", ". \${lib.list}")
+
+        org.dom4j.io.XMLWriter writer = new org.dom4j.io.XMLWriter(new FileWriter(new File("$codeDir/build-Flint.xml")),  org.dom4j.io.OutputFormat.createPrettyPrint());
+        writer.write(document);
+        writer.close();
+    }
 }
