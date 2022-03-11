@@ -329,6 +329,7 @@ task addFxLibs(type: Copy) {
 task mpsTest(type: de.itemis.mps.gradle.RunAntScript, dependsOn: generateScripts) {
     script = file("$codeDir/build-Flint.xml")
     targets = ["generate", "test"]
+    scriptArgs = ["-verbose"]
     test.finalizedBy("mpsTest")
     finalizedBy("htmlReport")
 }
