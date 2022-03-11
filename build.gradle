@@ -440,6 +440,7 @@ task downloadAllJbrs(dependsOn: [downloadWindowsJbr, downloadLinuxJbr, downloadM
 
 task fixClassPathIssues(dependsOn: ["generateScripts"]) {
     doFirst {
+        file("$codeDir/build").mkdirs()
         def file = file("$codeDir/build-Flint.xml")
         org.dom4j.io.SAXReader reader = new org.dom4j.io.SAXReader()
         org.dom4j.Document document = reader.read(file)
