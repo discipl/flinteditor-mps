@@ -29,7 +29,11 @@
       </concept>
       <concept id="6868897032739434615" name="Flint.structure.FlintModel" flags="ng" index="cu0$2" />
       <concept id="6868897032739434618" name="Flint.structure.Fact" flags="ng" index="cu0$f">
+        <property id="6953216201168192046" name="verified" index="3PosH_" />
+        <property id="6953216201168192050" name="validated" index="3PosHT" />
+        <property id="6953216201168016270" name="version" index="3PoDF5" />
         <child id="6868897032739751036" name="function" index="coNO9" />
+        <child id="6953216201203542034" name="versions" index="3Rha5p" />
       </concept>
       <concept id="7816114204006345028" name="Flint.structure.CustomText" flags="ng" index="2hPCcK" />
       <concept id="9029403747833789403" name="Flint.structure.Act" flags="ng" index="mu5$5">
@@ -58,6 +62,7 @@
         <property id="5326288789495451684" name="translatedName" index="1GVPtb" />
         <property id="5326288789495451682" name="language" index="1GVPtd" />
       </concept>
+      <concept id="491685697582670580" name="Flint.structure.CREATE" flags="ng" index="1RnfdX" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -633,6 +638,135 @@
     <node concept="1GVOM6" id="4gg1F7ZHQeo" role="1GVO30">
       <property role="1GVPtb" value="indienen" />
       <property role="1GVPtd" value="English" />
+    </node>
+  </node>
+  <node concept="cu0$f" id="5M1Eh3wlUwf">
+    <property role="3GE5qa" value="facts" />
+    <property role="TrG5h" value="test ver 1" />
+    <property role="3PoDF5" value="1" />
+    <property role="3PosH_" value="true" />
+    <property role="3PosHT" value="true" />
+    <node concept="cu0$f" id="6dr6Qk8LKge" role="3Rha5p">
+      <property role="3GE5qa" value="facts" />
+      <property role="TrG5h" value="test current" />
+      <property role="3PoDF5" value="0" />
+      <property role="3PosH_" value="true" />
+    </node>
+    <node concept="cu0$f" id="6dr6Qk8LKgw" role="3Rha5p">
+      <property role="3GE5qa" value="facts" />
+      <property role="TrG5h" value="test ver 1" />
+      <property role="3PoDF5" value="1" />
+      <property role="3PosH_" value="true" />
+      <property role="3PosHT" value="true" />
+    </node>
+    <node concept="cu0$f" id="6dr6Qk8LKGV" role="3Rha5p">
+      <property role="3GE5qa" value="facts" />
+      <property role="TrG5h" value="test current" />
+      <property role="3PoDF5" value="-2" />
+      <property role="3PosH_" value="true" />
+      <property role="3PosHT" value="true" />
+      <node concept="cu0$f" id="6dr6Qk8LKGW" role="3Rha5p">
+        <property role="3GE5qa" value="facts" />
+        <property role="TrG5h" value="test current" />
+        <property role="3PoDF5" value="0" />
+        <property role="3PosH_" value="true" />
+      </node>
+      <node concept="cu0$f" id="6dr6Qk8LKGX" role="3Rha5p">
+        <property role="3GE5qa" value="facts" />
+        <property role="TrG5h" value="test ver 1" />
+        <property role="3PoDF5" value="1" />
+        <property role="3PosH_" value="true" />
+        <property role="3PosHT" value="true" />
+      </node>
+      <node concept="cu0$f" id="6dr6Qk8LKGY" role="3Rha5p">
+        <property role="3GE5qa" value="facts" />
+        <property role="TrG5h" value="test ver 1" />
+        <property role="3PoDF5" value="-1" />
+        <property role="3PosH_" value="true" />
+        <property role="3PosHT" value="true" />
+        <node concept="cu0$f" id="6dr6Qk8LKGZ" role="3Rha5p">
+          <property role="3GE5qa" value="facts" />
+          <property role="TrG5h" value="test current" />
+          <property role="3PoDF5" value="0" />
+          <property role="3PosH_" value="true" />
+          <node concept="1GVOM6" id="6dr6Qk8LKH0" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="test ver 0" />
+          </node>
+        </node>
+        <node concept="cu0$f" id="6dr6Qk8LKH1" role="3Rha5p">
+          <property role="3GE5qa" value="facts" />
+          <property role="TrG5h" value="test ver 1" />
+          <property role="3PoDF5" value="1" />
+          <property role="3PosH_" value="true" />
+          <property role="3PosHT" value="true" />
+        </node>
+        <node concept="cu0$f" id="6dr6Qk8LKH2" role="3Rha5p">
+          <property role="3GE5qa" value="facts" />
+          <property role="TrG5h" value="test current" />
+          <property role="3PoDF5" value="-2" />
+          <property role="3PosH_" value="true" />
+          <property role="3PosHT" value="true" />
+          <node concept="1GVOM6" id="6dr6Qk8LKH3" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="test current" />
+          </node>
+          <node concept="cu0$f" id="6dr6Qk8LKH4" role="3Rha5p">
+            <property role="3GE5qa" value="facts" />
+            <property role="TrG5h" value="test current" />
+            <property role="3PoDF5" value="0" />
+            <property role="3PosH_" value="true" />
+            <node concept="1GVOM6" id="6dr6Qk8LKH5" role="1GVO30">
+              <property role="1GVPtd" value="English" />
+              <property role="1GVPtb" value="test ver 0" />
+            </node>
+          </node>
+          <node concept="1RnfdX" id="6dr6Qk8LKH6" role="coNO9" />
+          <node concept="cu0$f" id="6dr6Qk8LKH7" role="3Rha5p">
+            <property role="3GE5qa" value="facts" />
+            <property role="TrG5h" value="test ver 1" />
+            <property role="3PoDF5" value="1" />
+            <property role="3PosH_" value="true" />
+            <property role="3PosHT" value="true" />
+            <node concept="1GVOM6" id="6dr6Qk8LKH8" role="1GVO30">
+              <property role="1GVPtd" value="English" />
+              <property role="1GVPtb" value="test ver 1" />
+            </node>
+            <node concept="1RnfdX" id="6dr6Qk8LKH9" role="coNO9" />
+          </node>
+          <node concept="cog_b" id="6dr6Qk8LKHa" role="2pmM46">
+            <property role="1tl0gq" value="English" />
+            <node concept="2hPCcK" id="6dr6Qk8LKHb" role="2hN6Sa">
+              <node concept="19SUe$" id="6dr6Qk8LKHc" role="19SJt6">
+                <property role="19SUeA" value=" hello world" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1RnfdX" id="6dr6Qk8LKHd" role="coNO9" />
+        <node concept="1GVOM6" id="6dr6Qk8LKHe" role="1GVO30">
+          <property role="1GVPtd" value="English" />
+          <property role="1GVPtb" value="test ver 1" />
+        </node>
+      </node>
+      <node concept="1RnfdX" id="6dr6Qk8LKHf" role="coNO9" />
+      <node concept="cog_b" id="6dr6Qk8LKHg" role="2pmM46">
+        <property role="1tl0gq" value="English" />
+        <node concept="2hPCcK" id="6dr6Qk8LKHh" role="2hN6Sa">
+          <node concept="19SUe$" id="6dr6Qk8LKHi" role="19SJt6">
+            <property role="19SUeA" value=" hello world" />
+          </node>
+        </node>
+      </node>
+      <node concept="1GVOM6" id="6dr6Qk8LKHj" role="1GVO30">
+        <property role="1GVPtd" value="English" />
+        <property role="1GVPtb" value="test current" />
+      </node>
+    </node>
+    <node concept="1RnfdX" id="6dr6Qk8LKFQ" role="coNO9" />
+    <node concept="1GVOM6" id="6dr6Qk8LKFR" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="test ver 1" />
     </node>
   </node>
 </model>

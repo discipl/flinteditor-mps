@@ -34,6 +34,7 @@
         <child id="4312083994569304675" name="languageReference" index="3a9ffC" />
       </concept>
       <concept id="6868897032739434618" name="Flint.structure.Fact" flags="ng" index="cu0$f">
+        <property id="6953216201168192046" name="verified" index="3PosH_" />
         <child id="6868897032739751036" name="function" index="coNO9" />
       </concept>
       <concept id="2444626260293387291" name="Flint.structure.Duty" flags="ng" index="2cz0EU">
@@ -666,6 +667,7 @@
   <node concept="cu0$f" id="13qOoT8Bfd3">
     <property role="TrG5h" value="aanvraag is door de vreemdeling in persoon ingediend" />
     <property role="3GE5qa" value="facts" />
+    <property role="3PosH_" value="true" />
     <node concept="cog_b" id="13qOoT8Bfd4" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <ref role="cog$q" node="13qOoT8BfbG" resolve="art. 2n lid 1, onder a, Vw" />
