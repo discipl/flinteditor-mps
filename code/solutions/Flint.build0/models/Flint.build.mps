@@ -1903,6 +1903,11 @@
               <ref role="3bR37D" node="2eNuKY4JD2" resolve="Flint.runtime" />
             </node>
           </node>
+          <node concept="1SiIV0" id="5Pg1zPxG5tJ" role="3bR37C">
+            <node concept="3bR9La" id="5Pg1zPxG5tK" role="1SiIV1">
+              <ref role="3bR37D" node="6onvLJoJVY2" resolve="LawSource" />
+            </node>
+          </node>
         </node>
         <node concept="1SiIV0" id="7PeSHTFvnEf" role="3bR37C">
           <node concept="3bR9La" id="7PeSHTFvnEg" role="1SiIV1">
@@ -2038,6 +2043,11 @@
         <node concept="1SiIV0" id="4_s3JQD9yq1" role="3bR37C">
           <node concept="1Busua" id="4_s3JQD9yq2" role="1SiIV1">
             <ref role="1Busuk" node="1bPqaB7JSO$" resolve="FlintCellModels" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="Pcj8aoVYRF" role="3bR37C">
+          <node concept="3bR9La" id="Pcj8aoVYRG" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
           </node>
         </node>
       </node>
@@ -2339,26 +2349,6 @@
         <node concept="1SiIV0" id="6LSqBjYO77V" role="3bR37C">
           <node concept="3bR9La" id="6onvLJoJY9i" role="1SiIV1">
             <ref role="3bR37D" node="6onvLJoJVY2" resolve="LawSource" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="1$Rh126bgfK" role="3bR37C">
-          <node concept="3bR9La" id="1$Rh126bgfL" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="1$Rh126bgfM" role="3bR37C">
-          <node concept="3bR9La" id="1$Rh126bgfN" role="1SiIV1">
-            <ref role="3bR37D" node="2FAQ6X3GqIP" resolve="FlintView.plugin" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="1$Rh126bgfO" role="3bR37C">
-          <node concept="3bR9La" id="1$Rh126bgfP" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:14x5$qAUbkv" resolve="jetbrains.mps.lang.resources" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="1$Rh126bgfQ" role="3bR37C">
-          <node concept="3bR9La" id="1$Rh126bgfR" role="1SiIV1">
-            <ref role="3bR37D" to="90a9:FniR$Cj0b1" resolve="com.mbeddr.mpsutil.projectview.runtime" />
           </node>
         </node>
       </node>
