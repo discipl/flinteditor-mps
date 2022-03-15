@@ -118,7 +118,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="sources" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5Xjenljcz0Z" resolve="FlintSource" />
+      <ref role="20lvS9" node="5Xjenljcz0Z" resolve="FlintSourceDeprecated" />
       <node concept="asaX9" id="qKaVF7hSIR" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="3JnAoJLWQDz" role="1TKVEi">
@@ -170,13 +170,13 @@
   </node>
   <node concept="1TIwiD" id="5Xjenljcz0Y">
     <property role="EcuMT" value="6868897032739893310" />
-    <property role="TrG5h" value="FlintSourceReference" />
+    <property role="TrG5h" value="FlintSource" />
     <property role="34LRSv" value="source" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5Xjenljcz1J" role="1TKVEi">
       <property role="IQ2ns" value="6868897032739893359" />
       <property role="20kJfa" value="baseSource" />
-      <ref role="20lvS9" node="5Xjenljcz0Z" resolve="FlintSource" />
+      <ref role="20lvS9" node="5Xjenljcz0Z" resolve="FlintSourceDeprecated" />
       <node concept="asaX9" id="4O8McXBFYfe" role="lGtFl" />
     </node>
     <node concept="1TJgyi" id="5HFvLoKK$fR" role="1TKVEl">
@@ -203,9 +203,6 @@
     <node concept="PrWs8" id="5XjenljcHGp" role="PzmwI">
       <ref role="PrY4T" node="5Xjenljcz12" resolve="IExplainable" />
     </node>
-    <node concept="PrWs8" id="1DVZuk_n_MO" role="PzmwI">
-      <ref role="PrY4T" node="1DVZuk_n$Nm" resolve="IReference" />
-    </node>
     <node concept="PrWs8" id="58KmcqBvj6c" role="PzmwI">
       <ref role="PrY4T" node="wJ8RSAMhPl" resolve="IHasLanguage" />
     </node>
@@ -226,7 +223,7 @@
   </node>
   <node concept="1TIwiD" id="5Xjenljcz0Z">
     <property role="EcuMT" value="6868897032739893311" />
-    <property role="TrG5h" value="FlintSource" />
+    <property role="TrG5h" value="FlintSourceDeprecated" />
     <property role="34LRSv" value="Source" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -257,6 +254,7 @@
     <node concept="PrWs8" id="58KmcqBBbKD" role="PzmwI">
       <ref role="PrY4T" node="wJ8RSAMhPl" resolve="IHasLanguage" />
     </node>
+    <node concept="asaX9" id="4FnTJrDf8YA" role="lGtFl" />
   </node>
   <node concept="PlHQZ" id="5Xjenljcz12">
     <property role="EcuMT" value="6868897032739893314" />
@@ -790,7 +788,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="sources" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5Xjenljcz0Y" resolve="FlintSourceReference" />
+      <ref role="20lvS9" node="5Xjenljcz0Y" resolve="FlintSource" />
     </node>
     <node concept="PrWs8" id="4_s3JQCCFFj" role="PrDN$">
       <ref role="PrY4T" to="a78y:4_s3JQCC8OY" resolve="IProvidesRoleTagsCell" />
