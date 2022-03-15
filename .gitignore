@@ -101,6 +101,7 @@ node_modules
 
 .scripts/
 code/build-*.xml
+code/fixed-build-Flint.xml
 **.iml
 tests/reports
 .dockerignore

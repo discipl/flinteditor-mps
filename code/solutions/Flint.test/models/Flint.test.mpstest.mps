@@ -277,12 +277,12 @@
       <concept id="6868897032739893314" name="Flint.structure.IExplainable" flags="ng" index="cog$R">
         <property id="778381075952164307" name="explanation" index="3ANC2_" />
       </concept>
-      <concept id="6868897032739893311" name="Flint.structure.FlintSourceDeprecated" flags="ng" index="cog_a">
+      <concept id="6868897032739893311" name="Flint.structure.FlintSource" flags="ng" index="cog_a">
         <property id="6868897032739893349" name="validTo" index="cog$g" />
         <property id="6868897032739893347" name="validFrom" index="cog$m" />
         <property id="6868897032739893352" name="juriconnect" index="cog$t" />
       </concept>
-      <concept id="6868897032739893310" name="Flint.structure.FlintSource" flags="ng" index="cog_b">
+      <concept id="6868897032739893310" name="Flint.structure.FlintSourceReference" flags="ng" index="cog_b">
         <property id="2215264714367931041" name="textId" index="1hTq4$" />
         <property id="1165398171153094508" name="language" index="1tl0gq" />
         <reference id="6868897032739893359" name="baseSource" index="cog$q" />
@@ -587,8 +587,8 @@
           <property role="TrG5h" value="Source1" />
           <node concept="7CXmI" id="74VLc6kDrJ9" role="lGtFl">
             <node concept="1TM$A" id="74VLc6kDrJa" role="7EUXB">
-              <node concept="2PYRI3" id="74VLc6kDrJe" role="3lydEf">
-                <ref role="39XzEq" to="19bf:1$A6n3LTaXq" />
+              <node concept="2PYRI3" id="6U2zMQtYIaW" role="3lydEf">
+                <ref role="39XzEq" to="19bf:1$Rh126owxe" />
               </node>
             </node>
           </node>
@@ -597,8 +597,8 @@
           <property role="TrG5h" value="Source1" />
           <node concept="7CXmI" id="74VLc6kDrJg" role="lGtFl">
             <node concept="1TM$A" id="74VLc6kDrJh" role="7EUXB">
-              <node concept="2PYRI3" id="74VLc6kDrJl" role="3lydEf">
-                <ref role="39XzEq" to="19bf:1$A6n3LTaXq" />
+              <node concept="2PYRI3" id="6U2zMQtYIaY" role="3lydEf">
+                <ref role="39XzEq" to="19bf:1$Rh126owxe" />
               </node>
             </node>
           </node>
@@ -607,8 +607,8 @@
           <property role="TrG5h" value="Duty1" />
           <node concept="7CXmI" id="74VLc6kDlNF" role="lGtFl">
             <node concept="1TM$A" id="74VLc6kDlNG" role="7EUXB">
-              <node concept="2PYRI3" id="74VLc6kDlNK" role="3lydEf">
-                <ref role="39XzEq" to="19bf:1$A6n3LTaXq" />
+              <node concept="2PYRI3" id="6U2zMQtYIaS" role="3lydEf">
+                <ref role="39XzEq" to="19bf:1$Rh126owxe" />
               </node>
             </node>
           </node>
@@ -621,8 +621,8 @@
           <property role="TrG5h" value="Duty1" />
           <node concept="7CXmI" id="74VLc6kDlNM" role="lGtFl">
             <node concept="1TM$A" id="74VLc6kDlNN" role="7EUXB">
-              <node concept="2PYRI3" id="74VLc6kDlNT" role="3lydEf">
-                <ref role="39XzEq" to="19bf:1$A6n3LTaXq" />
+              <node concept="2PYRI3" id="6U2zMQtYIaU" role="3lydEf">
+                <ref role="39XzEq" to="19bf:1$Rh126owxe" />
               </node>
             </node>
           </node>
@@ -635,8 +635,8 @@
           <property role="TrG5h" value="Fact1" />
           <node concept="7CXmI" id="74VLc6kDlNt" role="lGtFl">
             <node concept="1TM$A" id="74VLc6kDlNu" role="7EUXB">
-              <node concept="2PYRI3" id="74VLc6kDlNy" role="3lydEf">
-                <ref role="39XzEq" to="19bf:1$A6n3LTaXq" />
+              <node concept="2PYRI3" id="6U2zMQtYIaO" role="3lydEf">
+                <ref role="39XzEq" to="19bf:1$Rh126owxe" />
               </node>
             </node>
           </node>
@@ -649,8 +649,8 @@
           <property role="TrG5h" value="Fact1" />
           <node concept="7CXmI" id="74VLc6kDlN$" role="lGtFl">
             <node concept="1TM$A" id="74VLc6kDlN_" role="7EUXB">
-              <node concept="2PYRI3" id="74VLc6kDlND" role="3lydEf">
-                <ref role="39XzEq" to="19bf:1$A6n3LTaXq" />
+              <node concept="2PYRI3" id="6U2zMQtYIaQ" role="3lydEf">
+                <ref role="39XzEq" to="19bf:1$Rh126owxe" />
               </node>
             </node>
           </node>
@@ -673,8 +673,8 @@
           </node>
           <node concept="7CXmI" id="74VLc6kDlNf" role="lGtFl">
             <node concept="1TM$A" id="74VLc6kDlNg" role="7EUXB">
-              <node concept="2PYRI3" id="74VLc6kDlNk" role="3lydEf">
-                <ref role="39XzEq" to="19bf:1$A6n3LTaXq" />
+              <node concept="2PYRI3" id="6U2zMQtYI4C" role="3lydEf">
+                <ref role="39XzEq" to="19bf:1$Rh126owxe" />
               </node>
             </node>
           </node>
@@ -700,8 +700,8 @@
           </node>
           <node concept="7CXmI" id="74VLc6kDlNm" role="lGtFl">
             <node concept="1TM$A" id="74VLc6kDlNn" role="7EUXB">
-              <node concept="2PYRI3" id="74VLc6kDlNr" role="3lydEf">
-                <ref role="39XzEq" to="19bf:1$A6n3LTaXq" />
+              <node concept="2PYRI3" id="6U2zMQtYIaM" role="3lydEf">
+                <ref role="39XzEq" to="19bf:1$Rh126owxe" />
               </node>
             </node>
           </node>
@@ -7019,36 +7019,6 @@
       </node>
     </node>
   </node>
-  <node concept="3FgkA8" id="5mg4KOpQKK1">
-    <property role="TrG5h" value="LawSourceGeneratorTest" />
-    <property role="3Fgkti" value="Test lawsource to json" />
-    <node concept="3Fgkto" id="5mg4KOpQKK2" role="3Fgkth">
-      <property role="TrG5h" value="INPUT" />
-      <node concept="1dCxOl" id="5mg4KOq2lP9" role="3Fgkt4">
-        <property role="1XweGQ" value="r:f43211e5-7f65-455e-a5f7-79038984c5a8" />
-        <node concept="1j_P7g" id="5mg4KOq2lPa" role="1j$8Uc">
-          <property role="1j_P7h" value="Flint.test.lawsourceinput" />
-        </node>
-      </node>
-    </node>
-    <node concept="3Fgkto" id="5mg4KOpQKK5" role="3Fgkth">
-      <property role="TrG5h" value="OUTPUT" />
-      <node concept="1dCxOl" id="5mg4KOq2lPf" role="3Fgkt4">
-        <property role="1XweGQ" value="r:bc78fe3b-4634-44ed-9b9d-12a0d2fc914a" />
-        <node concept="1j_P7g" id="5mg4KOq2lPg" role="1j$8Uc">
-          <property role="1j_P7h" value="Flint.test.lawsourceoutput" />
-        </node>
-      </node>
-    </node>
-    <node concept="3FggHx" id="5mg4KOpQKK8" role="3FggHh">
-      <node concept="3FggHH" id="5mg4KOpQKK9" role="3FggHC">
-        <ref role="3FggHE" node="5mg4KOpQKK2" resolve="INPUT" />
-      </node>
-      <node concept="3FggHH" id="5mg4KOpQKKa" role="3FggHm">
-        <ref role="3FggHE" node="5mg4KOpQKK5" resolve="OUTPUT" />
-      </node>
-    </node>
-  </node>
   <node concept="LiM7Y" id="6DgkmMHMhXZ">
     <property role="TrG5h" value="ExpressionToFact" />
     <node concept="1qefOq" id="6DgkmMHMhY0" role="25YQCW">
@@ -7139,6 +7109,36 @@
     <node concept="1GVOM6" id="6DgkmMHN4tv" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="derp" />
+    </node>
+  </node>
+  <node concept="3FgkA8" id="5mg4KOpQKK1">
+    <property role="TrG5h" value="LawSourceGeneratorTest" />
+    <property role="3Fgkti" value="Test lawsource to json" />
+    <node concept="3Fgkto" id="5mg4KOpQKK2" role="3Fgkth">
+      <property role="TrG5h" value="INPUT" />
+      <node concept="1dCxOl" id="5mg4KOq2lP9" role="3Fgkt4">
+        <property role="1XweGQ" value="r:f43211e5-7f65-455e-a5f7-79038984c5a8" />
+        <node concept="1j_P7g" id="5mg4KOq2lPa" role="1j$8Uc">
+          <property role="1j_P7h" value="Flint.test.lawsourceinput" />
+        </node>
+      </node>
+    </node>
+    <node concept="3Fgkto" id="5mg4KOpQKK5" role="3Fgkth">
+      <property role="TrG5h" value="OUTPUT" />
+      <node concept="1dCxOl" id="5mg4KOq2lPf" role="3Fgkt4">
+        <property role="1XweGQ" value="r:bc78fe3b-4634-44ed-9b9d-12a0d2fc914a" />
+        <node concept="1j_P7g" id="5mg4KOq2lPg" role="1j$8Uc">
+          <property role="1j_P7h" value="Flint.test.lawsourceoutput" />
+        </node>
+      </node>
+    </node>
+    <node concept="3FggHx" id="5mg4KOpQKK8" role="3FggHh">
+      <node concept="3FggHH" id="5mg4KOpQKK9" role="3FggHC">
+        <ref role="3FggHE" node="5mg4KOpQKK2" resolve="INPUT" />
+      </node>
+      <node concept="3FggHH" id="5mg4KOpQKKa" role="3FggHm">
+        <ref role="3FggHE" node="5mg4KOpQKK5" resolve="OUTPUT" />
+      </node>
     </node>
   </node>
 </model>

@@ -13,6 +13,8 @@ buildscript {
     }
     dependencies {
         classpath "de.itemis.mps:mps-gradle-plugin:$mps_gradle_plugin_version"
+        classpath "dom4j:dom4j:1.6.1"
+        classpath "jaxen:jaxen:1.2.0"
     }
 }
 
@@ -304,10 +306,11 @@ task initProject() {
 task generateScripts(type: de.itemis.mps.gradle.RunAntScript) {
     script = file("$codeDir/mainBuild.xml")
     targets = ["generate"]
+    finalizedBy("fixClassPathIssues")
 }
 
 task buildFlint(type: de.itemis.mps.gradle.RunAntScript, dependsOn: generateScripts) {
-    script = file("$codeDir/build-Flint.xml")
+    script = file("$codeDir/fixed-build-Flint.xml")
     targets = ["generate", "build"]
 }
 
@@ -327,8 +330,9 @@ task addFxLibs(type: Copy) {
 }
 
 task mpsTest(type: de.itemis.mps.gradle.RunAntScript, dependsOn: generateScripts) {
-    script = file("$codeDir/build-Flint.xml")
+    script = file("$codeDir/fixed-build-Flint.xml")
     targets = ["generate", "test"]
+    scriptArgs = ["-verbose"]
     test.finalizedBy("mpsTest")
     finalizedBy("htmlReport")
 }
@@ -432,4 +436,61 @@ task downloadMacOsJbr(type: Copy, group: 'jbr') {
 
 task downloadAllJbrs(dependsOn: [downloadWindowsJbr, downloadLinuxJbr, downloadMacOsJbr]) {
     group = 'jbr'
+}
+
+
+def createClassPathJar(org.dom4j.Element project, org.dom4j.Element target, String simpleName) {
+    org.dom4j.Element classPath = (org.dom4j.Element)target.selectSingleNode("javac/classpath")
+    List<org.dom4j.Node> fileSets = classPath.selectNodes("fileset")
+
+    if (fileSets.size < 10) {
+        return
+    }
+
+    def jarTaskName =  "build"  + simpleName + "ClassPathJar"
+    def pathId = "build.classpath" + simpleName
+    def jarName = simpleName + "classpath.jar"
+    def jarPath = "\${basedir}/build/" + jarName
+    def propertyName = "lib.list" + simpleName
+
+    target.addAttribute("depends", target.attributeValue("depends") + ", " + jarTaskName)
+    org.dom4j.Element path = project.addElement("path").addAttribute("id", pathId)
+
+    fileSets.each {
+        it.detach()
+        path.add(it)
+    }
+
+    project.addElement("manifestclasspath").addAttribute("property", propertyName).addAttribute("jarfile", jarPath).addElement("classpath").addAttribute("refid", pathId)
+    classPath.addElement("fileset").addAttribute("file", jarPath)
+
+    org.dom4j.Element jarTarget = project.addElement("target").addAttribute("name",jarTaskName)
+    jarTarget.addElement("mkdir").addAttribute("dir","\${basedir}/build")
+    org.dom4j.Element jar = jarTarget.addElement("jar").addAttribute("jarfile", jarPath)
+    jar.addElement("manifest").addElement("attribute").addAttribute("name", "Class-Path").addAttribute("value", ". \${" + propertyName + "}")
+}
+
+task fixClassPathIssues(dependsOn: ["generateScripts"]) {
+    doFirst {
+        file("$codeDir/build").mkdirs()
+        def file = file("$codeDir/build-Flint.xml")
+        org.dom4j.io.SAXReader reader = new org.dom4j.io.SAXReader()
+        org.dom4j.Document document = reader.read(file)
+        org.dom4j.Element project = (org.dom4j.Element)document.selectSingleNode("/project")
+
+        project.selectNodes("target").each {
+            if (it instanceof org.dom4j.Element) {
+                org.dom4j.Element targetElement = ((org.dom4j.Element) it)
+                def name = targetElement.attributeValue("name")
+                if (name != null && name.startsWith("java.compile.")) {
+                    name = name.replaceFirst("java.compile.", "").replaceAll("\\W+", "_").toLowerCase()
+                    println name
+                    createClassPathJar(project, targetElement, name)
+                }
+            }
+        }
+        org.dom4j.io.XMLWriter writer = new org.dom4j.io.XMLWriter(new FileWriter(new File("$codeDir/fixed-build-Flint.xml")),  org.dom4j.io.OutputFormat.createPrettyPrint());
+        writer.write(document);
+        writer.close();
+    }
 }
