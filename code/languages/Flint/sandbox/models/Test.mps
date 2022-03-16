@@ -18,11 +18,11 @@
       <concept id="6868897032739893314" name="Flint.structure.IExplainable" flags="ng" index="cog$R">
         <property id="778381075952164307" name="explanation" index="3ANC2_" />
       </concept>
-      <concept id="6868897032739893311" name="Flint.structure.FlintSource" flags="ng" index="cog_a">
+      <concept id="6868897032739893311" name="Flint.structure.FlintSourceDeprecated" flags="ng" index="cog_a">
         <property id="6868897032739893347" name="validFrom" index="cog$m" />
         <property id="6868897032739893352" name="juriconnect" index="cog$t" />
       </concept>
-      <concept id="6868897032739893310" name="Flint.structure.FlintSourceReference" flags="ng" index="cog_b">
+      <concept id="6868897032739893310" name="Flint.structure.FlintSource" flags="ng" index="cog_b">
         <property id="1165398171153094508" name="language" index="1tl0gq" />
         <reference id="6868897032739893359" name="baseSource" index="cog$q" />
         <child id="7816114204006679678" name="betterText" index="2hN6Sa" />
@@ -45,6 +45,19 @@
       <concept id="589729100932390229" name="Flint.structure.IHasLanguage" flags="ng" index="ITzSF">
         <child id="5326288789495449519" name="translatedNames" index="1GVO30" />
       </concept>
+      <concept id="4641459674333653592" name="Flint.structure.TextCell" flags="ng" index="RBeMz">
+        <property id="4641459674333653593" name="text" index="RBeMy" />
+      </concept>
+      <concept id="4641459674333653591" name="Flint.structure.HeaderCell" flags="ng" index="RBeMG" />
+      <concept id="4641459674331007917" name="Flint.structure.TableRow" flags="ng" index="RDgPm">
+        <child id="4641459674331007920" name="cells" index="RDgPb" />
+      </concept>
+      <concept id="4641459674329872797" name="Flint.structure.TableDemo" flags="ng" index="ROFXA">
+        <property id="4641459674353221853" name="tableNumber" index="TtwoA" />
+        <child id="4641459674331008918" name="rows" index="RDg_H" />
+        <child id="4641459674331008916" name="header" index="RDg_J" />
+      </concept>
+      <concept id="4641459674358855841" name="Flint.structure.EmptyCell" flags="ng" index="T77Tq" />
       <concept id="4808965957220776534" name="Flint.structure.LITERAL" flags="ng" index="1zEXHp">
         <child id="4808965957220776594" name="operand" index="1zEXIt" />
       </concept>
@@ -633,6 +646,110 @@
     <node concept="1GVOM6" id="4gg1F7ZHQeo" role="1GVO30">
       <property role="1GVPtb" value="indienen" />
       <property role="1GVPtd" value="English" />
+    </node>
+  </node>
+  <node concept="ROFXA" id="41DLJHTy_B9">
+    <property role="TtwoA" value="5" />
+    <node concept="RBeMG" id="41DLJHTyHhm" role="RDg_J">
+      <property role="RBeMy" value="Omschrijving activiteit Module 3" />
+    </node>
+    <node concept="RBeMG" id="41DLJHTyHhn" role="RDg_J">
+      <property role="RBeMy" value="SBI-code" />
+    </node>
+    <node concept="RBeMG" id="41DLJHTyHho" role="RDg_J">
+      <property role="RBeMy" value="Nadere clausulering" />
+    </node>
+    <node concept="RDgPm" id="41DLJHTyHhp" role="RDg_H">
+      <node concept="RBeMz" id="41DLJHTyHhq" role="RDgPb">
+        <property role="RBeMy" value="Tandtechnische bedrijven" />
+      </node>
+      <node concept="RBeMz" id="41DLJHTyHhr" role="RDgPb">
+        <property role="RBeMy" value="32.50.1" />
+      </node>
+      <node concept="T77Tq" id="41DLJHTyHhs" role="RDgPb" />
+    </node>
+    <node concept="RDgPm" id="41DLJHTyHht" role="RDg_H">
+      <node concept="RBeMz" id="41DLJHTyHhu" role="RDgPb">
+        <property role="RBeMy" value="Winkels in medische en orthopedische artikelen" />
+      </node>
+      <node concept="RBeMz" id="41DLJHTyHhv" role="RDgPb">
+        <property role="RBeMy" value="47.74.2" />
+      </node>
+      <node concept="RBeMz" id="41DLJHTyHhw" role="RDgPb">
+        <property role="RBeMy" value="Alleen voor zover de onderneming een thuiszorgwinkel betreft" />
+      </node>
+    </node>
+    <node concept="RDgPm" id="41DLJHTyHhx" role="RDg_H">
+      <node concept="RBeMz" id="41DLJHTyHhy" role="RDgPb">
+        <property role="RBeMy" value="Geestelijke gezondheids- en verslavingszorg met overnachting" />
+      </node>
+      <node concept="RBeMz" id="41DLJHTyHhz" role="RDgPb">
+        <property role="RBeMy" value="86.10.4" />
+      </node>
+      <node concept="T77Tq" id="41DLJHTyHh$" role="RDgPb" />
+    </node>
+    <node concept="RDgPm" id="41DLJHTyHh_" role="RDg_H">
+      <node concept="RBeMz" id="41DLJHTyHhA" role="RDgPb">
+        <property role="RBeMy" value="Praktijken van psychiaters en dagbehandelcentra voor geestelijke gezondheids- en verslavingszorg" />
+      </node>
+      <node concept="RBeMz" id="41DLJHTyHhB" role="RDgPb">
+        <property role="RBeMy" value="86.22.2" />
+      </node>
+      <node concept="T77Tq" id="41DLJHTyHhC" role="RDgPb" />
+    </node>
+    <node concept="RDgPm" id="41DLJHTyHhD" role="RDg_H">
+      <node concept="RBeMz" id="41DLJHTyHhE" role="RDgPb">
+        <property role="RBeMy" value="Praktijken van tandartsen" />
+      </node>
+      <node concept="RBeMz" id="41DLJHTyHhF" role="RDgPb">
+        <property role="RBeMy" value="86.23.1" />
+      </node>
+      <node concept="T77Tq" id="41DLJHTyHhG" role="RDgPb" />
+    </node>
+    <node concept="RDgPm" id="41DLJHTyHhH" role="RDg_H">
+      <node concept="RBeMz" id="41DLJHTyHhI" role="RDgPb">
+        <property role="RBeMy" value="Praktijken van tandheelkundig specialisten" />
+      </node>
+      <node concept="RBeMz" id="41DLJHTyHhJ" role="RDgPb">
+        <property role="RBeMy" value="86.23.2" />
+      </node>
+      <node concept="T77Tq" id="41DLJHTyHhK" role="RDgPb" />
+    </node>
+    <node concept="RDgPm" id="41DLJHTyHhL" role="RDg_H">
+      <node concept="RBeMz" id="41DLJHTyHhM" role="RDgPb">
+        <property role="RBeMy" value="Praktijken van verloskundigen" />
+      </node>
+      <node concept="RBeMz" id="41DLJHTyHhN" role="RDgPb">
+        <property role="RBeMy" value="86.91.1" />
+      </node>
+      <node concept="T77Tq" id="41DLJHTyHhO" role="RDgPb" />
+    </node>
+    <node concept="RDgPm" id="41DLJHTyHhP" role="RDg_H">
+      <node concept="RBeMz" id="41DLJHTyHhQ" role="RDgPb">
+        <property role="RBeMy" value="Praktijken van fysiotherapeuten" />
+      </node>
+      <node concept="RBeMz" id="41DLJHTyHhR" role="RDgPb">
+        <property role="RBeMy" value="86.91.2" />
+      </node>
+      <node concept="T77Tq" id="41DLJHTyHhS" role="RDgPb" />
+    </node>
+    <node concept="RDgPm" id="41DLJHTyHhT" role="RDg_H">
+      <node concept="RBeMz" id="41DLJHTyHhU" role="RDgPb">
+        <property role="RBeMy" value="Praktijken van psychotherapeuten en psychologen" />
+      </node>
+      <node concept="RBeMz" id="41DLJHTyHhV" role="RDgPb">
+        <property role="RBeMy" value="86.91.3" />
+      </node>
+      <node concept="T77Tq" id="41DLJHTyHhW" role="RDgPb" />
+    </node>
+    <node concept="RDgPm" id="41DLJHTyHhX" role="RDg_H">
+      <node concept="RBeMz" id="41DLJHTyHhY" role="RDgPb">
+        <property role="RBeMy" value="Overige paramedische praktijken (geen fysiotherapie of psychologie) en alternatieve genezers" />
+      </node>
+      <node concept="RBeMz" id="41DLJHTyHhZ" role="RDgPb">
+        <property role="RBeMy" value="86.91.9" />
+      </node>
+      <node concept="T77Tq" id="41DLJHTyHi0" role="RDgPb" />
     </node>
   </node>
 </model>

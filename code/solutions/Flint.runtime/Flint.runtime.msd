@@ -40,7 +40,6 @@
       <sourceRoot location="kotlin-stdlib-jdk8.jar" />
       <sourceRoot location="kotlin-stdlib.jar" />
       <sourceRoot location="kotlinx-coroutines-core-jvm.jar" />
-      <sourceRoot location="ktor-client-cio-jvm.jar" />
       <sourceRoot location="ktor-client-core-jvm.jar" />
       <sourceRoot location="ktor-client-gson-jvm.jar" />
       <sourceRoot location="ktor-client-json-jvm.jar" />
@@ -49,12 +48,13 @@
       <sourceRoot location="ktor-http-jvm.jar" />
       <sourceRoot location="ktor-io-jvm.jar" />
       <sourceRoot location="ktor-network-jvm.jar" />
-      <sourceRoot location="ktor-network-tls-jvm.jar" />
       <sourceRoot location="ktor-utils-jvm.jar" />
       <sourceRoot location="libthrift.jar" />
       <sourceRoot location="httpasyncclient.jar" />
       <sourceRoot location="httpcore-nio.jar" />
       <sourceRoot location="ktor-client-apache-jvm.jar" />
+      <sourceRoot location="dom4j.jar" />
+      <sourceRoot location="jaxen.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -111,6 +111,8 @@
     <stubModelEntry path="${module}/libs/httpasyncclient.jar" />
     <stubModelEntry path="${module}/libs/httpcore-nio.jar" />
     <stubModelEntry path="${module}/libs/ktor-client-apache-jvm.jar" />
+    <stubModelEntry path="${module}/libs/dom4j.jar" />
+    <stubModelEntry path="${module}/libs/jaxen.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

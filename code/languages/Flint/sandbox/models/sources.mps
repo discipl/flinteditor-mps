@@ -39587,5 +39587,573 @@
       </node>
     </node>
   </node>
+  <node concept="2ATdSu" id="41DLJHTyH0Q">
+    <property role="2AErxT" value="BWBR0043324" />
+    <property role="TrG5h" value="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+  </node>
+  <node concept="2ANm86" id="41DLJHTyH0R">
+    <property role="3GE5qa" value="versions" />
+    <property role="TrG5h" value="31-03-2020 t/m 14-04-2020" />
+    <property role="2AEqdP" value="2020-04-14" />
+    <property role="2AEqdO" value="2020-03-31" />
+    <property role="W2joe" value="TODO" />
+    <property role="ZyLMf" value="http://wetten.overheid.nl/1.0:c:BWBR0043324&amp;g=2020-03-31" />
+    <property role="2JHwUh" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27" />
+    <ref role="2AErGN" node="41DLJHTyH0Q" resolve="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+  </node>
+  <node concept="2ANm86" id="41DLJHTyH0S">
+    <property role="3GE5qa" value="versions" />
+    <property role="TrG5h" value="17-04-2020 t/m 21-04-2020" />
+    <property role="2AEqdP" value="2020-04-21" />
+    <property role="2AEqdO" value="2020-04-17" />
+    <property role="W2joe" value="TODO" />
+    <property role="ZyLMf" value="http://wetten.overheid.nl/1.0:c:BWBR0043324&amp;g=2020-04-17" />
+    <property role="2JHwUh" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-04-17/2020-03-27" />
+    <ref role="2AErGN" node="41DLJHTyH0Q" resolve="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+  </node>
+  <node concept="2ANm86" id="41DLJHTyH0T">
+    <property role="3GE5qa" value="versions" />
+    <property role="TrG5h" value="22-04-2020 t/m 24-04-2020" />
+    <property role="2AEqdP" value="2020-04-24" />
+    <property role="2AEqdO" value="2020-04-22" />
+    <property role="W2joe" value="TODO" />
+    <property role="ZyLMf" value="http://wetten.overheid.nl/1.0:c:BWBR0043324&amp;g=2020-04-22" />
+    <property role="2JHwUh" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-04-22/2020-03-27" />
+    <ref role="2AErGN" node="41DLJHTyH0Q" resolve="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+  </node>
+  <node concept="2ANm86" id="41DLJHTyH0U">
+    <property role="3GE5qa" value="versions" />
+    <property role="TrG5h" value="16-05-2020 t/m 11-06-2020" />
+    <property role="2AEqdP" value="2020-06-11" />
+    <property role="2AEqdO" value="2020-05-16" />
+    <property role="W2joe" value="TODO" />
+    <property role="ZyLMf" value="http://wetten.overheid.nl/1.0:c:BWBR0043324&amp;g=2020-05-16" />
+    <property role="2JHwUh" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27" />
+    <ref role="2AErGN" node="41DLJHTyH0Q" resolve="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+  </node>
+  <node concept="2ANm86" id="41DLJHTyH0V">
+    <property role="3GE5qa" value="versions" />
+    <property role="TrG5h" value="25-06-2020 t/m 31-12-2020" />
+    <property role="2AEqdP" value="2020-12-31" />
+    <property role="2AEqdO" value="2020-06-25" />
+    <property role="W2joe" value="TODO" />
+    <property role="ZyLMf" value="http://wetten.overheid.nl/1.0:c:BWBR0043324&amp;g=2020-06-25" />
+    <property role="2JHwUh" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-06-25/2020-03-27" />
+    <ref role="2AErGN" node="41DLJHTyH0Q" resolve="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+  </node>
+  <node concept="2AEkrd" id="41DLJHTyH0W">
+    <property role="TrG5h" value="Artikel 1 (begripsbepalingen)" />
+    <property role="1N0jUS" value="13" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="41DLJHTyH0R" resolve="31-03-2020 t/m 14-04-2020" />
+    <node concept="3MKX5h" id="41DLJHTyH0X" role="3MKX6D">
+      <node concept="3MKX5i" id="41DLJHTyH0Y" role="3MKX6F">
+        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/15" />
+        <node concept="19SGf9" id="41DLJHTyH0Z" role="3MLR7a">
+          <node concept="19SUe$" id="41DLJHTyH10" role="19SJt6">
+            <property role="19SUeA" value="In deze beleidsregel wordt verstaan onder:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="41DLJHTyH11" role="3MKX6F">
+        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/16" />
+        <node concept="3MKX5h" id="41DLJHTyH12" role="3MKX6F">
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/17" />
+          <node concept="3MKX5i" id="41DLJHTyH13" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/18" />
+            <node concept="19SGf9" id="41DLJHTyH14" role="3MLR7a">
+              <node concept="19SUe$" id="41DLJHTyH15" role="19SJt6">
+                <property role="19SUeA" value="algemene de-minimisverordening: verordening (EU) nr. 1407/2013 van de Commissie van 18 december 2013 betreffende de toepassing van de artikelen 107 en 108 van het Verdrag betreffende de werking van de Europese Unie op de-minimissteun (PbEU 2013, L 352);" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="41DLJHTyH16" role="3MKX6F">
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/19" />
+          <node concept="3MKX5i" id="41DLJHTyH17" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/20" />
+            <node concept="19SGf9" id="41DLJHTyH18" role="3MLR7a">
+              <node concept="19SUe$" id="41DLJHTyH19" role="19SJt6">
+                <property role="19SUeA" value="gedupeerde onderneming: in Nederland gevestigde onderneming als bedoeld in artikel 5 van de Handelsregisterwet 2007 , niet zijnde een overheidsbedrijf:" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="41DLJHTyH1a" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/21" />
+            <node concept="3MKX5h" id="41DLJHTyH1b" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/22" />
+              <node concept="3MKX6G" id="41DLJHTyH1c" role="3MKX6F">
+                <property role="3MLT8O" value="a." />
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/23" />
+                <node concept="19SGf9" id="41DLJHTyH1d" role="3MLT8Q">
+                  <node concept="19SUe$" id="41DLJHTyH1e" role="19SJt6">
+                    <property role="19SUeA" value="die op 15 maart 2020 in het handelsregister stond ingeschreven onder een hoofdactiviteit die in bijlage 1 is opgenomen, met de daarbij behorende code van de Standaard Bedrijfsindeling;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="41DLJHTyH1f" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/24" />
+              <node concept="3MKX6G" id="41DLJHTyH1g" role="3MKX6F">
+                <property role="3MLT8O" value="b." />
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/25" />
+                <node concept="19SGf9" id="41DLJHTyH1h" role="3MLT8Q">
+                  <node concept="19SUe$" id="41DLJHTyH1i" role="19SJt6">
+                    <property role="19SUeA" value="waar ten hoogste 250 personen werkzaam zijn, blijkend uit de inschrijving in het handelsregister op 15 maart 2020; en" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="41DLJHTyH1j" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/26" />
+              <node concept="3MKX6G" id="41DLJHTyH1k" role="3MKX6F">
+                <property role="3MLT8O" value="c." />
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/27" />
+                <node concept="19SGf9" id="41DLJHTyH1l" role="3MLT8Q">
+                  <node concept="19SUe$" id="41DLJHTyH1m" role="19SJt6">
+                    <property role="19SUeA" value="die:" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3MKX5h" id="41DLJHTyH1n" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/28" />
+                <node concept="3MKX5h" id="41DLJHTyH1o" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/29" />
+                  <node concept="3MKX6G" id="41DLJHTyH1p" role="3MKX6F">
+                    <property role="3MLT8O" value="1°." />
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/30" />
+                    <node concept="19SGf9" id="41DLJHTyH1q" role="3MLT8Q">
+                      <node concept="19SUe$" id="41DLJHTyH1r" role="19SJt6">
+                        <property role="19SUeA" value="voor zover het een onderneming, niet zijnde een horecaonderneming, betreft ten minste één vestiging heeft met een ander adres dan het privéadres van de eigenaar of eigenaren van de onderneming; of" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3MKX5h" id="41DLJHTyH1s" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/31" />
+                  <node concept="3MKX6G" id="41DLJHTyH1t" role="3MKX6F">
+                    <property role="3MLT8O" value="2°." />
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/32" />
+                    <node concept="19SGf9" id="41DLJHTyH1u" role="3MLT8Q">
+                      <node concept="19SUe$" id="41DLJHTyH1v" role="19SJt6">
+                        <property role="19SUeA" value="voor zover het een horecaonderneming betreft ten minste één horecagelegenheid huurt, pacht of in eigendom heeft;" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="41DLJHTyH1w" role="3MKX6F">
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/33" />
+          <node concept="3MKX5i" id="41DLJHTyH1x" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/34" />
+            <node concept="19SGf9" id="41DLJHTyH1y" role="3MLR7a">
+              <node concept="19SUe$" id="41DLJHTyH1z" role="19SJt6">
+                <property role="19SUeA" value="handelsregister: handelsregister als bedoeld in artikel 2 van de Handelsregisterwet 2007 ;" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="41DLJHTyH1$" role="3MKX6F">
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/35" />
+          <node concept="3MKX5i" id="41DLJHTyH1_" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/36" />
+            <node concept="19SGf9" id="41DLJHTyH1A" role="3MLR7a">
+              <node concept="19SUe$" id="41DLJHTyH1B" role="19SJt6">
+                <property role="19SUeA" value="horecaonderneming: onderneming die op 15 maart 2020 stond ingeschreven in het handelsregister onder de code 56.10.1, 56.10.2 of 56.30 van de Standaard Bedrijfsindeling;" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="41DLJHTyH1C" role="3MKX6F">
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/37" />
+          <node concept="3MKX5i" id="41DLJHTyH1D" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/38" />
+            <node concept="19SGf9" id="41DLJHTyH1E" role="3MLR7a">
+              <node concept="19SUe$" id="41DLJHTyH1F" role="19SJt6">
+                <property role="19SUeA" value="minister: Minister van Economische Zaken en Klimaat;" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="41DLJHTyH1G" role="3MKX6F">
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/39" />
+          <node concept="3MKX5i" id="41DLJHTyH1H" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/40" />
+            <node concept="19SGf9" id="41DLJHTyH1I" role="3MLR7a">
+              <node concept="19SUe$" id="41DLJHTyH1J" role="19SJt6">
+                <property role="19SUeA" value="overheidsbedrijf: overheidsbedrijf als bedoeld in artikel 25g, eerste lid, van de Mededingingswet ;" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="41DLJHTyH1K" role="3MKX6F">
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/41" />
+          <node concept="3MKX5i" id="41DLJHTyH1L" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/42" />
+            <node concept="19SGf9" id="41DLJHTyH1M" role="3MLR7a">
+              <node concept="19SUe$" id="41DLJHTyH1N" role="19SJt6">
+                <property role="19SUeA" value="verklaring de-minimissteun: verklaring van de gedupeerde onderneming waarin deze bevestigt dat de tegemoetkoming niet zal leiden tot een overschrijding van het de-minimisplafond, bedoeld in artikel 3, tweede lid, van de algemene de-minimisverordening;" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="41DLJHTyH1O" role="3MKX6F">
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/43" />
+          <node concept="3MKX5i" id="41DLJHTyH1P" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/44" />
+            <node concept="19SGf9" id="41DLJHTyH1Q" role="3MLR7a">
+              <node concept="19SUe$" id="41DLJHTyH1R" role="19SJt6">
+                <property role="19SUeA" value="vestiging: vestiging als bedoeld in artikel 1, eerste lid, onderdeel j, van de Handelsregisterwet 2007 ." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="41DLJHTyH1S">
+    <property role="TrG5h" value="Artikel 2 (verstrekking en hoogte tegemoetkoming)" />
+    <property role="1N0jUS" value="45" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="41DLJHTyH0R" resolve="31-03-2020 t/m 14-04-2020" />
+    <node concept="3MKX5h" id="41DLJHTyH1T" role="3MKX6D">
+      <node concept="3MKX5h" id="41DLJHTyH1U" role="3MKX6F">
+        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/47" />
+        <node concept="3MKX6G" id="41DLJHTyH1V" role="3MKX6F">
+          <property role="3MLT8O" value="1" />
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/48" />
+          <node concept="19SGf9" id="41DLJHTyH1W" role="3MLT8Q">
+            <node concept="19SUe$" id="41DLJHTyH1X" role="19SJt6">
+              <property role="19SUeA" value="De minister verstrekt op aanvraag een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="41DLJHTyH1Y" role="3MKX6F">
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/49" />
+          <node concept="3MKX5h" id="41DLJHTyH1Z" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/50" />
+            <node concept="3MKX6G" id="41DLJHTyH20" role="3MKX6F">
+              <property role="3MLT8O" value="a." />
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/51" />
+              <node concept="19SGf9" id="41DLJHTyH21" role="3MLT8Q">
+                <node concept="19SUe$" id="41DLJHTyH22" role="19SJt6">
+                  <property role="19SUeA" value="ten minste € 4000,– aan omzetverlies te lijden als gevolg van de maatregelen ter bestrijding van de verdere verspreiding van COVID-19;" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="41DLJHTyH23" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/52" />
+            <node concept="3MKX6G" id="41DLJHTyH24" role="3MKX6F">
+              <property role="3MLT8O" value="b." />
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/53" />
+              <node concept="19SGf9" id="41DLJHTyH25" role="3MLT8Q">
+                <node concept="19SUe$" id="41DLJHTyH26" role="19SJt6">
+                  <property role="19SUeA" value="ten minste € 4000,– aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19." />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="41DLJHTyH27" role="3MKX6F">
+        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/54" />
+        <node concept="3MKX6G" id="41DLJHTyH28" role="3MKX6F">
+          <property role="3MLT8O" value="2" />
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/55" />
+          <node concept="19SGf9" id="41DLJHTyH29" role="3MLT8Q">
+            <node concept="19SUe$" id="41DLJHTyH2a" role="19SJt6">
+              <property role="19SUeA" value="De tegemoetkoming bedraagt € 4000 per gedupeerde onderneming." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="41DLJHTyH2b">
+    <property role="TrG5h" value="Artikel 3 (afwijzingsgronden)" />
+    <property role="1N0jUS" value="56" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="41DLJHTyH0R" resolve="31-03-2020 t/m 14-04-2020" />
+    <node concept="3MKX5h" id="41DLJHTyH2c" role="3MKX6D">
+      <node concept="3MKX5i" id="41DLJHTyH2d" role="3MKX6F">
+        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/58" />
+        <node concept="19SGf9" id="41DLJHTyH2e" role="3MLR7a">
+          <node concept="19SUe$" id="41DLJHTyH2f" role="19SJt6">
+            <property role="19SUeA" value="De minister beslist afwijzend op een aanvraag indien:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="41DLJHTyH2g" role="3MKX6F">
+        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/59" />
+        <node concept="3MKX5h" id="41DLJHTyH2h" role="3MKX6F">
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/60" />
+          <node concept="3MKX6G" id="41DLJHTyH2i" role="3MKX6F">
+            <property role="3MLT8O" value="a." />
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/61" />
+            <node concept="19SGf9" id="41DLJHTyH2j" role="3MLT8Q">
+              <node concept="19SUe$" id="41DLJHTyH2k" role="19SJt6">
+                <property role="19SUeA" value="de aanvraag niet voldoet aan de bij deze beleidsregel gestelde eisen;" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="41DLJHTyH2l" role="3MKX6F">
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/62" />
+          <node concept="3MKX6G" id="41DLJHTyH2m" role="3MKX6F">
+            <property role="3MLT8O" value="b." />
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/63" />
+            <node concept="19SGf9" id="41DLJHTyH2n" role="3MLT8Q">
+              <node concept="19SUe$" id="41DLJHTyH2o" role="19SJt6">
+                <property role="19SUeA" value="de gedupeerde onderneming in staat van faillissement verkeert dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming is ingediend;" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="41DLJHTyH2p" role="3MKX6F">
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/64" />
+          <node concept="3MKX6G" id="41DLJHTyH2q" role="3MKX6F">
+            <property role="3MLT8O" value="c." />
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/65" />
+            <node concept="19SGf9" id="41DLJHTyH2r" role="3MLT8Q">
+              <node concept="19SUe$" id="41DLJHTyH2s" role="19SJt6">
+                <property role="19SUeA" value="de tegemoetkoming niet verstrekt kan worden op grond van de algemene de-minimisverordening." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="41DLJHTyH2t">
+    <property role="TrG5h" value="Artikel 4 (informatieverplichtingen bij aanvraag en aanvraagperiode)" />
+    <property role="1N0jUS" value="66" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="41DLJHTyH0R" resolve="31-03-2020 t/m 14-04-2020" />
+    <node concept="3MKX5h" id="41DLJHTyH2u" role="3MKX6D">
+      <node concept="3MKX5h" id="41DLJHTyH2v" role="3MKX6F">
+        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/68" />
+        <node concept="3MKX6G" id="41DLJHTyH2w" role="3MKX6F">
+          <property role="3MLT8O" value="1" />
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/69" />
+          <node concept="19SGf9" id="41DLJHTyH2x" role="3MLT8Q">
+            <node concept="19SUe$" id="41DLJHTyH2y" role="19SJt6">
+              <property role="19SUeA" value="Een aanvraag wordt ingediend met gebruikmaking van een door de minister beschikbaar gesteld middel." />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="41DLJHTyH2z" role="3MKX6F">
+        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/70" />
+        <node concept="3MKX6G" id="41DLJHTyH2$" role="3MKX6F">
+          <property role="3MLT8O" value="2" />
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/71" />
+          <node concept="19SGf9" id="41DLJHTyH2_" role="3MLT8Q">
+            <node concept="19SUe$" id="41DLJHTyH2A" role="19SJt6">
+              <property role="19SUeA" value="Een aanvraag omvat in ieder geval:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="41DLJHTyH2B" role="3MKX6F">
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/72" />
+          <node concept="3MKX5h" id="41DLJHTyH2C" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/73" />
+            <node concept="3MKX6G" id="41DLJHTyH2D" role="3MKX6F">
+              <property role="3MLT8O" value="a." />
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/74" />
+              <node concept="19SGf9" id="41DLJHTyH2E" role="3MLT8Q">
+                <node concept="19SUe$" id="41DLJHTyH2F" role="19SJt6">
+                  <property role="19SUeA" value="gegevens over de gedupeerde onderneming, waaronder het nummer waarmee de gedupeerde onderneming geregistreerd is bij de Kamer van Koophandel, het post- en bezoekadres en het rekeningnummer dat op naam van de gedupeerde onderneming staat;" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="41DLJHTyH2G" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/75" />
+            <node concept="3MKX6G" id="41DLJHTyH2H" role="3MKX6F">
+              <property role="3MLT8O" value="b." />
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/76" />
+              <node concept="19SGf9" id="41DLJHTyH2I" role="3MLT8Q">
+                <node concept="19SUe$" id="41DLJHTyH2J" role="19SJt6">
+                  <property role="19SUeA" value="gegevens over de contactpersoon bij de gedupeerde onderneming, waaronder de naam, het telefoonnummer en het e-mailadres;" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="41DLJHTyH2K" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/77" />
+            <node concept="3MKX6G" id="41DLJHTyH2L" role="3MKX6F">
+              <property role="3MLT8O" value="c." />
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/78" />
+              <node concept="19SGf9" id="41DLJHTyH2M" role="3MLT8Q">
+                <node concept="19SUe$" id="41DLJHTyH2N" role="19SJt6">
+                  <property role="19SUeA" value="een verklaring dat de gedupeerde onderneming geen overheidsbedrijf is;" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="41DLJHTyH2O" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/79" />
+            <node concept="3MKX6G" id="41DLJHTyH2P" role="3MKX6F">
+              <property role="3MLT8O" value="d." />
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/80" />
+              <node concept="19SGf9" id="41DLJHTyH2Q" role="3MLT8Q">
+                <node concept="19SUe$" id="41DLJHTyH2R" role="19SJt6">
+                  <property role="19SUeA" value="een verklaring de-minimissteun;" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="41DLJHTyH2S" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/81" />
+            <node concept="3MKX6G" id="41DLJHTyH2T" role="3MKX6F">
+              <property role="3MLT8O" value="e." />
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/82" />
+              <node concept="19SGf9" id="41DLJHTyH2U" role="3MLT8Q">
+                <node concept="19SUe$" id="41DLJHTyH2V" role="19SJt6">
+                  <property role="19SUeA" value="een verklaring dat de gedupeerde onderneming op het moment van aanvraag voldoet aan de bij deze beleidsregel gestelde eisen;" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="41DLJHTyH2W" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/83" />
+            <node concept="3MKX6G" id="41DLJHTyH2X" role="3MKX6F">
+              <property role="3MLT8O" value="f." />
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/84" />
+              <node concept="19SGf9" id="41DLJHTyH2Y" role="3MLT8Q">
+                <node concept="19SUe$" id="41DLJHTyH2Z" role="19SJt6">
+                  <property role="19SUeA" value="een verklaring waarin de gedupeerde onderneming aangeeft dat de onderneming in de periode van 16 maart 2020 tot en met 15 juni 2020 een omzetverlies verwacht te lijden van ten minste € 4000,–; en" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="41DLJHTyH30" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/85" />
+            <node concept="3MKX6G" id="41DLJHTyH31" role="3MKX6F">
+              <property role="3MLT8O" value="g." />
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/86" />
+              <node concept="19SGf9" id="41DLJHTyH32" role="3MLT8Q">
+                <node concept="19SUe$" id="41DLJHTyH33" role="19SJt6">
+                  <property role="19SUeA" value="een verklaring waarin de gedupeerde onderneming aangeeft dat de onderneming in de periode van 16 maart 2020 tot en met 15 juni 2020 verwacht ten minste € 4000,– aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19." />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="41DLJHTyH34" role="3MKX6F">
+        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/87" />
+        <node concept="3MKX6G" id="41DLJHTyH35" role="3MKX6F">
+          <property role="3MLT8O" value="3" />
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/88" />
+          <node concept="19SGf9" id="41DLJHTyH36" role="3MLT8Q">
+            <node concept="19SUe$" id="41DLJHTyH37" role="19SJt6">
+              <property role="19SUeA" value="Een aanvraag kan worden ingediend in de periode van 27 maart 2020 tot en met 26 juni 2020." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="41DLJHTyH38">
+    <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
+    <property role="1N0jUS" value="89" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="41DLJHTyH0R" resolve="31-03-2020 t/m 14-04-2020" />
+    <node concept="3MKX5h" id="41DLJHTyH39" role="3MKX6D">
+      <node concept="3MKX5i" id="41DLJHTyH3a" role="3MKX6F">
+        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/91" />
+        <node concept="19SGf9" id="41DLJHTyH3b" role="3MLR7a">
+          <node concept="19SUe$" id="41DLJHTyH3c" role="19SJt6">
+            <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="41DLJHTyH3d">
+    <property role="TrG5h" value="Artikel 6 (aanpassing tegemoetkoming achteraf)" />
+    <property role="1N0jUS" value="92" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="41DLJHTyH0R" resolve="31-03-2020 t/m 14-04-2020" />
+    <node concept="3MKX5h" id="41DLJHTyH3e" role="3MKX6D">
+      <node concept="3MKX5i" id="41DLJHTyH3f" role="3MKX6F">
+        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/94" />
+        <node concept="19SGf9" id="41DLJHTyH3g" role="3MLR7a">
+          <node concept="19SUe$" id="41DLJHTyH3h" role="19SJt6">
+            <property role="19SUeA" value="De minister kan de hoogte van de tegemoetkoming binnen vijf jaar na de verstrekking herzien dan wel de beschikking tot de tegemoetkoming intrekken, indien blijkt dat de tegemoetkoming, door onjuiste gegevensverstrekking door de gedupeerde onderneming, niet in overeenstemming met deze beleidsregel is verstrekt." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="41DLJHTyH3i">
+    <property role="TrG5h" value="Artikel 7 (staatssteun)" />
+    <property role="1N0jUS" value="95" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="41DLJHTyH0R" resolve="31-03-2020 t/m 14-04-2020" />
+    <node concept="3MKX5h" id="41DLJHTyH3j" role="3MKX6D">
+      <node concept="3MKX5i" id="41DLJHTyH3k" role="3MKX6F">
+        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/97" />
+        <node concept="19SGf9" id="41DLJHTyH3l" role="3MLR7a">
+          <node concept="19SUe$" id="41DLJHTyH3m" role="19SJt6">
+            <property role="19SUeA" value="De tegemoetkoming, bedoeld in artikel 2 , bevat staatssteun en wordt gerechtvaardigd door de algemene de-minimisverordening." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="41DLJHTyH3n">
+    <property role="TrG5h" value="Artikel 8 (inwerkingtreding en vervaldatum)" />
+    <property role="1N0jUS" value="98" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="41DLJHTyH0R" resolve="31-03-2020 t/m 14-04-2020" />
+    <node concept="3MKX5h" id="41DLJHTyH3o" role="3MKX6D">
+      <node concept="3MKX5h" id="41DLJHTyH3p" role="3MKX6F">
+        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/100" />
+        <node concept="3MKX6G" id="41DLJHTyH3q" role="3MKX6F">
+          <property role="3MLT8O" value="1" />
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/101" />
+          <node concept="19SGf9" id="41DLJHTyH3r" role="3MLT8Q">
+            <node concept="19SUe$" id="41DLJHTyH3s" role="19SJt6">
+              <property role="19SUeA" value="Deze beleidsregel treedt in werking met ingang van de dag na de datum van uitgifte van de Staatscourant waarin zij wordt geplaatst, en werkt terug tot en met 27 maart 2020." />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="41DLJHTyH3t" role="3MKX6F">
+        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/102" />
+        <node concept="3MKX6G" id="41DLJHTyH3u" role="3MKX6F">
+          <property role="3MLT8O" value="2" />
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/103" />
+          <node concept="19SGf9" id="41DLJHTyH3v" role="3MLT8Q">
+            <node concept="19SUe$" id="41DLJHTyH3w" role="19SJt6">
+              <property role="19SUeA" value="Deze beleidsregel vervalt met ingang van 1 januari 2021, met dien verstande dat de beleidsregel van toepassing blijft op aanvragen om tegemoetkoming die uiterlijk 26 juni 2020 zijn ingediend, dan wel op tegemoetkomingen die voor 1 januari 2021 zijn verstrekt." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2AEkrd" id="41DLJHTyH3x">
+    <property role="TrG5h" value="Artikel 9 (citeertitel)" />
+    <property role="1N0jUS" value="104" />
+    <property role="3GE5qa" value="articles" />
+    <ref role="2AErGO" node="41DLJHTyH0R" resolve="31-03-2020 t/m 14-04-2020" />
+    <node concept="3MKX5h" id="41DLJHTyH3y" role="3MKX6D">
+      <node concept="3MKX5i" id="41DLJHTyH3z" role="3MKX6F">
+        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/106" />
+        <node concept="19SGf9" id="41DLJHTyH3$" role="3MLR7a">
+          <node concept="19SUe$" id="41DLJHTyH3_" role="19SJt6">
+            <property role="19SUeA" value="Deze beleidsregel wordt aangehaald als: Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

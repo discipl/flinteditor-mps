@@ -104,6 +104,8 @@ dependencies {
     mpslib('com.googlecode.json-simple:json-simple:1.1.1')
     mpslib('commons-io:commons-io:2.11.0')
     mpslib('commons-codec:commons-codec:1.15')
+    mpslib('dom4j:dom4j:1.6.1')
+    mpslib('jaxen:jaxen:1.2.0')
 
     artifact "com.mbeddr:platform:$mbeddr_version"
     mps("com.jetbrains:mps:$mps_version")

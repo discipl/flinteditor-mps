@@ -1,0 +1,2344 @@
+<bijlage bwb-ng-variabel-deel="/Bijlage1" stam-id="15381433" versie-id="26798562" id="C37973831" label-id="15325674" inwerking="2020-06-25" label="Bijlage 1" bron="Stcrt.2020-33950" effect="wijziging" ondertekening_bron="2020-06-21" publicatie_bron="2020-06-24" publicatie_iwt="2020-06-24" status="goed">
+    <kop>
+        <label>Bijlage</label>
+        <nr status="officieel">1</nr>
+        <titel status="officieel">behorende bij <intref doc="jci1.3:c:BWBR0043324&amp;artikel=1&amp;z=2020-06-25&amp;g=2020-06-25" label-id="15325574" verwijzing-id="2989290" bwb-id="BWBR0043324" bwb-ng-variabel-deel="/Artikel1">artikel 1</intref> van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19: activiteiten met de daarbij behorende code van de standaard bedrijfsindeling (SBI-code)</titel>
+    </kop>
+    <table colsep="1" frame="all" pgwide="1" rowsep="1" tabstyle="zebra1">
+        <title>Tabel 1a. Direct gedupeerde ondernemingen (eerste tranche)</title>
+        <tgroup align="left" char="" charoff="50" cols="2" tgroupstyle="zebra1">
+            <colspec colname="col1" colnum="1" colwidth="384*"/>
+            <colspec colname="col2" colnum="2" colwidth="84*"/>
+            <thead valign="bottom">
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Omschrijving activiteit</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>SBI-code</al>
+                    </entry>
+                </row>
+            </thead>
+            <tbody valign="top">
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Hotel-restaurants</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>55.10.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Hotels (geen hotel-restaurants), pensions en conferentieoorden</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>55.10.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Restaurants</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>56.10.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Fastfoodrestaurants, cafetaria’s, ijssalons, eetkramen e.d.</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>56.10.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Eventcatering</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>56.21</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Cafés</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>56.30</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Bioscopen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>59.14</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Reisbemiddeling</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>79.11</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Reisorganisatoren</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>79.12</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Organiseren van congressen en beurzen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>82.30</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Dansscholen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>85.52.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Kunstzinnige vorming van amateurs (geen dansscholen)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>85.52.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Auto-en motorrijscholen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>85.53</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Beoefening van podiumkunst</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>90.01.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Producenten van podiumkunst</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>90.01.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Circus en variété</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>90.01.3</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Dienstverlening voor uitvoerende kunst</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>90.02</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Theaters en schouwburgen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>90.04.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Evenementenhallen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>90.04.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Musea</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>91.02.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Kunstgalerieën en -expositieruimten</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>91.02.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Casino’s</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>92.00.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Exploitatie van speelautomaten</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>92.00.9</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Zwembaden</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.11.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Sporthallen, sportzalen en gymzalen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.11.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Sportvelden</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.11.3</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Overige sportaccommodaties</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.11.9</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Veldvoetbal</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.12.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Veldsport in teamverband (geen voetbal)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.12.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Atletiek</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.12.3</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Tennis</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.12.4</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Paardensport en maneges</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.12.5</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Wielersport</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.12.6</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Auto- en motorsport</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.12.7</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Wintersport</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.12.8</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Overige buitensport</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.12.9</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Fitnesscentra</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.13</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Indviduele zaalsport</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.14.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Zaalsport in teamverband</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.14.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Kracht- en vechtsport</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.14.3</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Bowlen, kegelen, biljarten e.d.</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.14.4</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Denksport</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.14.5</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Sportscholen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.14.6</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Overige binnensport en omnisport</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.14.9</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Zwem- en onderwatersport</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.15.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Roei- kano- zeil- en surfsport e.d.</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.15.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Organiseren van sportevenement</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.19.5</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Pret-en themaparken</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.21.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Kermisattracties</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.21.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Haarverzorging</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>96.02.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Schoonheidsverzorging, pedicures en manicures, visagie en image consulting</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>96.02.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Sauna’s, solaria, baden e.d.</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>96.04</al>
+                    </entry>
+                </row>
+            </tbody>
+        </tgroup>
+    </table>
+    <table colsep="1" frame="all" pgwide="1" rowsep="1" tabstyle="zebra1">
+        <title>Tabel 1b. Direct gedupeerde ondernemingen (tweede tranche)</title>
+        <tgroup align="left" char="" charoff="50" cols="2" tgroupstyle="zebra1">
+            <colspec colname="col1" colnum="1" colwidth="384*"/>
+            <colspec colname="col2" colnum="2" colwidth="84*"/>
+            <thead valign="bottom">
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Omschrijving activiteit</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>SBI-code</al>
+                    </entry>
+                </row>
+            </thead>
+            <tbody valign="top">
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Warenhuizen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.19.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels met algemeen assortiment non-food (geen warenhuizen)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.19.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Benzinestations</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.30</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in computers, randapparatuur en software</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.41</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in telecommunicatieapparatuur</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.42</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in audio-en videoapparatuur</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.43.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in een algemeen assortiment van wit-en bruingoed</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.43.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in kledingstoffen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.51.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in huishoudtextiel</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.51.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in breiwol, handwerken en fournituren</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.51.3</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in ijzerwaren en gereedschappen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.52.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in verf, verfwaren en behang</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.52.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in houten bouw- en tuinmaterialen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.52.3</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in tegels</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.52.4</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in keukens</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.52.5</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in parket-, laminaat- en kurkvloeren</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.52.6</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels gespecialiseerd in overige doe-het-zelfartikelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.52.7</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in vloerbedekking en gordijnen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.53</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in witgoed</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.54.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in naai- en breimachines</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.54.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in overige elektrische huishoudelijke apparatuur</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.54.3</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in onderdelen voor elektrische huishoudelijke apparatuur</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.54.4</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in meubels</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.59.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in verlichtingsartikelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.59.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in artikelen voor woninginrichting algemeen assortiment</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.59.3</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in muziekinstrumenten</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.59.4</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in glas-, porselein- en aardewerk</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.59.5</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels gespecialiseerd in overige huishoudelijke artikelen (rest)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.59.6</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in huishoudelijke artikelen algemeen assortiment</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.59.7</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in boeken</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.61</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in kranten, tijdschriften en kantoorbehoeften</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.62</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in audio- en video-opnamen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.63</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in fietsen en bromfietsen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.64.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in watersportartikelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.64.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in sportartikelen (geen watersport)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.64.3</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in kampeerartikelen (geen caravans)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.64.4</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in speelgoed</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.65</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in herenkleding</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.71.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in dameskleding</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.71.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in bovenkleding en modeartikelen (algemeen assortiment)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.71.3</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in baby- en kinderkleding</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.71.4</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in babyartikelen algemeen assortiment</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.71.5</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in onderkleding, foundations e.d.</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.71.6</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in modeartikelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.71.7</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Textielsupermarkten</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.71.8</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in schoenen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.72.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in lederwaren en reisartikelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.72.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in parfums en cosmetica</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.75</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in bloemen en planten, zaden en tuinbenodigdheden</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.76.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Tuincentra</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.76.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in dieren, dierbenodigdheden en hengelsportartikelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.76.3</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in juweliersartikelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.77</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in fotografische artikelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.78.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in optische artikelen (inclusief thuiszorgwinkels)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.78.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in schilderijen, lijsten, prenten, kunstvoorwerpen en religieuze artikelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.78.3</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels gespecialiseerd in overige artikelen (rest)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.78.9</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in antiek</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.79.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in tweedehands kleding</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.79.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in tweedehands goederen (geen kleding)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.79.3</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Markthandel in textiel, kleding en schoenen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.82</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Markthandel in bloemen, planten, zaden en tuinbenodigdheden</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.89.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Markthandel in tweedehands goederen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.89.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Markthandel in overige goederen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.89.9</al>
+                    </entry>
+                </row>
+            </tbody>
+        </tgroup>
+    </table>
+    <table colsep="1" frame="all" pgwide="1" rowsep="1" tabstyle="zebra1">
+        <title>Tabel 1c. Direct gedupeerde ondernemingen (derde tranche)</title>
+        <tgroup align="left" char="" charoff="50" cols="2" tgroupstyle="zebra1">
+            <colspec colname="col1" colnum="1" colwidth="350*"/>
+            <colspec colname="col2" colnum="2" colwidth="59*"/>
+            <thead valign="bottom">
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Omschrijving activiteit Module 1</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>SBI-code</al>
+                    </entry>
+                </row>
+            </thead>
+            <tbody valign="top">
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in aardappelen, groenten en fruit</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.21</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in vlees en vleeswaren</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.22.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in wild en gevogelte</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.22.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in vis</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.23</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in brood en banket</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.24.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in chocolade en suikerwerk</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.24.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in dranken</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.25</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in tabaksproducten</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.26</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in kaas</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.29.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in natuurvoeding en reformartikelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.29.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in buitenlandse voedingsmiddelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.29.3</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Gespecialiseerde winkels in overige voedings- en genotmiddelen (rest)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.29.9</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Markthandel in aardappelen, groenten en fruit</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.81.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Markthandel in overige voedings- en genotmiddelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.81.9</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Vervoer per taxi</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>49.32</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Binnenvaart (passagiersvaart en veerdiensten)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>50.30</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Verhuur van vakantiehuisjes en appartementen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>55.20.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Jeugdherbergen en vakantiekampen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>55.20.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Kampeerterreinen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>55.30</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Kantines en contractcatering</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>56.29</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Videotheken</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>77.22</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Zeil- en surfscholen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>85.51.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Overig sport- en recreatieonderwijs</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>85.51.9</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Openbare bibliotheken</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>91.01.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Kunstuitleencentra</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>91.01.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Overige culturele uitleencentra en openbare archieven</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>91.01.9</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Monumentenzorg</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>91.03</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Dieren- en plantentuinen, kinderboerderijen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>91.04.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Natuurbehoud</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>91.04.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Hengelsport</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.19.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Verzorgen van vistochten</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.19.3</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Overige sportactiviteiten (rest)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.19.9</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Jachthavens</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.29.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Overige recreatie (rest)(geen jachthavens)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>93.29.9</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Reparatie van computers en randapparatuur</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>95.11</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Reparatie van communicatieapparatuur</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>95.12</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Reparatie van consumentenelektronica (geen computers)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>95.21</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Reparatie van elektrische huishoudelijke apparaten</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>95.22</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Reparatie van schoenen en lederwaren</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>95.23</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Reparatie en stoffering van meubels</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>95.24</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Reparatie van uurwerken en juweliersartikelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>95.25</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Reparatie van overige consumentenartikelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>95.29</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Wasserijen en linnenverhuur</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>96.01.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Chemische wasserijen en ververijen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>96.01.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Wassalons en -verzendinrichtingen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>96.01.3</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Overige dienstverlening (rest)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>96.09</al>
+                    </entry>
+                </row>
+            </tbody>
+        </tgroup>
+    </table>
+    <table colsep="0" frame="all" pgwide="1" rowsep="0" tabstyle="zebra1">
+        <title>Tabel 1d. Direct gedupeerde ondernemingen (vierde tranche)</title>
+        <tgroup align="left" char="" charoff="50" cols="3" colsep="1" rowsep="1" tgroupstyle="zebra1">
+            <colspec colname="col1" colnum="1" colwidth="2.53*"/>
+            <colspec colname="col2" colnum="2" colwidth="1.00*"/>
+            <colspec colname="col3" colnum="3" colwidth="3.71*"/>
+            <thead valign="bottom">
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Omschrijving activiteit</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>SBI-code</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Nadere clausulering</al>
+                    </entry>
+                </row>
+            </thead>
+            <tbody valign="top">
+                <row rowsep="0">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Vervaardiging van brood en vers banketbakkerswerk</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>10.71</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Alleen voor zover de onderneming een fysieke retailwinkel exploiteert</al>
+                    </entry>
+                </row>
+                <row rowsep="0">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Vervaardiging van beschuit en koekjes en van ander houdbaar banketbakkerswerk</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>10.72</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Alleen voor zover de onderneming een fysieke retailwinkel exploiteert</al>
+                    </entry>
+                </row>
+                <row rowsep="0">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Vervaardiging van bier</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>11.05</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Alleen voor zover de onderneming een fysieke retailwinkel exploiteert</al>
+                    </entry>
+                </row>
+                <row rowsep="0">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Vervaardiging van overige bovenkleding</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>14.13</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Alleen voor zover de onderneming een fysieke retailwinkel exploiteert</al>
+                    </entry>
+                </row>
+                <row rowsep="0">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Vervaardiging van baby- en sportkleding en kledingaccessoires</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>14.19</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Alleen voor zover de onderneming een fysieke retailwinkel exploiteert</al>
+                    </entry>
+                </row>
+                <row rowsep="0">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Handel in en reparatie van caravans</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>45.19.4</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top"/>
+                </row>
+                <row rowsep="0">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Supermarkten en dergelijke winkels met een algemeen assortiment voedings- en</al>
+                        <al>genotmiddelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>47.11</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Alleen voor zover de onderneming voor zijn omzet afhankelijk is van en gevestigd op of nabij een camping, studentencampus, transportterminal, station of recreatieterrein</al>
+                    </entry>
+                </row>
+                <row rowsep="0">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Winkels in medische en orthopedische artikelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>47.74.2</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Alleen voor zover de onderneming een audicien betreft</al>
+                    </entry>
+                </row>
+                <row rowsep="0">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Zee- en kustvaart (passagiersvaart en veerdiensten)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>50.10</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top"/>
+                </row>
+                <row rowsep="0">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Reclamebureaus</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>73.11</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Alleen voor zover de onderneming een standbouwer betreft</al>
+                    </entry>
+                </row>
+                <row rowsep="0">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Industrieel en productontwerp</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>74.10.2</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Alleen voor zover de onderneming een fysieke retailwinkel exploiteert</al>
+                    </entry>
+                </row>
+                <row rowsep="0">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Welzijnswerk voor ouderen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>88.10.2</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Alleen voor zover de onderneming een dorpshuis, gemeenschapshuis of wijkcentrum exploiteert</al>
+                    </entry>
+                </row>
+                <row rowsep="0">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Lokaal welzijnswerk</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>88.99.3</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Alleen voor zover de onderneming een dorpshuis, gemeenschapshuis of wijkcentrum exploiteert</al>
+                    </entry>
+                </row>
+                <row rowsep="0">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Overig maatschappelijk advies, gemeenschapshuizen en samenwerkingsorganen op het gebied van welzijn</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>88.99.9</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Alleen voor zover de onderneming een dorpshuis, gemeenschapshuis of wijkcentrum exploiteert</al>
+                    </entry>
+                </row>
+            </tbody>
+        </tgroup>
+    </table>
+    <table colsep="1" frame="all" pgwide="1" rowsep="1" tabstyle="zebra1">
+        <title>Tabel 2. Gedupeerde ondernemingen in de toeleveringsketen</title>
+        <tgroup align="left" char="" charoff="50" cols="2" tgroupstyle="zebra1">
+            <colspec colname="col1" colnum="1" colwidth="384*"/>
+            <colspec colname="col2" colnum="2" colwidth="84*"/>
+            <thead valign="bottom">
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Omschrijving activiteit Module 2</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>SBI-code</al>
+                    </entry>
+                </row>
+            </thead>
+            <tbody valign="top">
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in bloemen en planten</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.22</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in huisdieren, siervissen, siervogels en wilde dieren</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.23.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in huiden en vellen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.24.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in leer en halffabrikaten van leer</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.24.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in groenten en fruit</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.31.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in consumptieaardappelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.31.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in vlees en vleeswaren en in wild en gevogelte (niet levend)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.32</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in zuivelproducten en spijsoliën en -vetten</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.33.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in eieren</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.33.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in dranken (geen zuivel)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.34</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in suiker, chocolade en suikerwerk</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.36</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in koffie, thee, cacao en specerijen (geen ruwe)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.37</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in snacks</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.38.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in vis-, schaal- en weekdieren</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.38.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Gespecialiseerde groothandel in overige voedings- en genotmiddelen (rest)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.38.3</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in bakkerijgrondstoffen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.38.4</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Gespecialiseerde groothandel in overige grondstoffen en halffabrikaten voor de voedings- en genotmiddelenindustrie (rest)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.38.9</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in voedings- en genotmiddelen algemeen assortiment</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.39</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in kledingstoffen en fournituren</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.41.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in huishoudtextiel en beddengoed</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.41.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in bovenkleding</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.42.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in werkkleding</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.42.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in onderkleding</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.42.3</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in schoenen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.42.4</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in modeartikelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.42.5</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in textielwaren algemeen assortiment</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.42.9</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in witgoed</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.43.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in elektrische huishoudelijke apparatuur (geen witgoed, audio en video)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.43.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in audio- en videoapparatuur</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.43.3</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in fotografische artikelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.43.4</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in beeld- en geluidsdragers</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.43.5</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in optische artikelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.43.6</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in glas, porselein en aardewerk</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.44.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in huismeubilair</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.47.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in woningtextiel en vloerbedekking</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.47.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in verlichtingsartikelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.47.3</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in juweliersartikelen en uurwerken</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.48</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in fietsen en bromfietsen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.49.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in watersportartikelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.49.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in kampeerartikelen (geen caravans)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.49.3</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in speelgoed</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.49.4</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in muziekinstrumenten</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.49.5</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in sportartikelen (geen watersport)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.49.6</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in papier- en kartonwaren (geen verpakkingsmateriaal)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.49.7</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in boeken, tijdschriften en overig drukwerk</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.49.8</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in overige consumentenartikelen (non-food) (rest)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.49.9</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in computers, randapparatuur en software</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.51</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in elektronische en telecommunicatieapparatuur en bijbehorende onderdelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.52</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in bedrijfsmeubels</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.65</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Groothandel in kantoormachines (geen computers)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.66</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Niet-gespecialiseerde groothandel in consumentenartikelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>46.90.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Ongeregeld personenvervoer over de weg</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>49.39.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Dienstverlening voor vervoer over land</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>52.21</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Dienstverlening voor vervoer over water</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>52.22</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Dienstverlening voor de luchtvaart</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>52.23</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Productie van films (geen televisiefilms)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>59.11.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Productie van televisieprogramma’s</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>59.11.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Facilitaire activiteiten voor film- en televisieproductie</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>59.12</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Distributie van films en televisieproducties</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>59.13</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Maken en uitgeven van geluidsopnamen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>59.20</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Fotografie</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>74.20.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Ontwikkelwinkels</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>74.20.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Ontwikkelcentrales</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>74.20.3</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Vertalers en tolken</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>74.30</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Verhuur van personenauto’s en lichte bedrijfsauto’s (geen operational lease)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>77.11.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Verhuur en lease van vrachtwagens, autobussen en campers</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>77.12</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Verhuur van sport- en recreatieartikelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>77.21</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Verhuur van leesportefeuilles</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>77.29.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Verhuur van kleding en huishoudelijke artikelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>77.29.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Verhuur van overige consumentenartikelen (rest)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>77.29.9</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Verhuur en lease van computers en kantoorapparatuur</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>77.33</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Verhuur en lease van schepen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>77.34</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Verhuur en lease van vliegtuigen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>77.35</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Verhuur van automaten</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>77.39.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Verhuur en lease van overige machines en werktuigen en van overige goederen neg (geen automaten)</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>77.39.9</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Uitzendbureaus</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>78.20.1</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Uitleenbureaus</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>78.20.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Informatieverstrekking op het gebied van toerisme en reserveringsbureaus</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>79.90</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Particuliere beveiliging</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>80.10</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Facility management</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>81.10</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Bedrijfsopleiding en -training</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>85.59.2</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Dienstverlening voor het onderwijs</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>85.60</al>
+                    </entry>
+                </row>
+            </tbody>
+        </tgroup>
+    </table>
+    <table colsep="1" frame="all" pgwide="1" rowsep="1" tabstyle="zebra1">
+        <title>Tabel 3. Gedupeerde zorgondernemingen</title>
+        <tgroup align="left" char="" charoff="50" cols="3" tgroupstyle="zebra1">
+            <colspec colname="col1" colnum="1" colwidth="318*"/>
+            <colspec colname="col2" colnum="2" colwidth="65*"/>
+            <colspec colname="col3" colnum="3" colwidth="81*"/>
+            <thead valign="bottom">
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Omschrijving activiteit Module 3</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>SBI-code</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Nadere clausulering</al>
+                    </entry>
+                </row>
+            </thead>
+            <tbody valign="top">
+                <row rowsep="0">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>Tandtechnische bedrijven</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top">
+                        <al>32.50.1</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" rowsep="1" valign="top"/>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Winkels in medische en orthopedische artikelen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>47.74.2</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Alleen voor zover de onderneming een thuiszorgwinkel betreft</al>
+                    </entry>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Geestelijke gezondheids- en verslavingszorg met overnachting</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>86.10.4</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" valign="top"/>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Praktijken van psychiaters en dagbehandelcentra voor geestelijke gezondheids- en verslavingszorg</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>86.22.2</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" valign="top"/>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Praktijken van tandartsen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>86.23.1</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" valign="top"/>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Praktijken van tandheelkundig specialisten</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>86.23.2</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" valign="top"/>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Praktijken van verloskundigen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>86.91.1</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" valign="top"/>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Praktijken van fysiotherapeuten</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>86.91.2</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" valign="top"/>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Praktijken van psychotherapeuten en psychologen</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>86.91.3</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" valign="top"/>
+                </row>
+                <row rowsep="1">
+                    <entry align="left" colname="col1" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>Overige paramedische praktijken (geen fysiotherapie of psychologie) en alternatieve genezers</al>
+                    </entry>
+                    <entry align="left" colname="col2" colsep="1" morerows="0" rotate="0" valign="top">
+                        <al>86.91.9</al>
+                    </entry>
+                    <entry align="left" colname="col3" colsep="1" morerows="0" rotate="0" valign="top"/>
+                </row>
+            </tbody>
+        </tgroup>
+    </table>
+    <meta-data>
+        <brondata>
+            <oorspronkelijk>
+                <publicatie effect="wijziging" soort="Stcrt" urlidentifier="stcrt-2020-33950">
+                    <publicatiejaar>2020</publicatiejaar>
+                    <publicatienr>33950</publicatienr>
+                    <uitgiftedatum isodatum="2020-06-24">24-06-2020</uitgiftedatum>
+                    <ondertekeningsdatum isodatum="2020-06-21">21-06-2020</ondertekeningsdatum>
+                    <kenmerk>WJZ/20168305</kenmerk>
+                </publicatie>
+            </oorspronkelijk>
+            <inwerkingtreding>
+                <publicatie effect="wijziging" soort="Stcrt" urlidentifier="stcrt-2020-33950">
+                    <publicatiejaar>2020</publicatiejaar>
+                    <publicatienr>33950</publicatienr>
+                    <uitgiftedatum isodatum="2020-06-24">24-06-2020</uitgiftedatum>
+                    <ondertekeningsdatum isodatum="2020-06-21">21-06-2020</ondertekeningsdatum>
+                    <kenmerk>WJZ/20168305</kenmerk>
+                </publicatie>
+                <inwerkingtreding.datum isodatum="2020-06-25">25-06-2020</inwerkingtreding.datum>
+                <terugwerkend.datum datum-scope="tot-en-met" isodatum="2020-06-12">12-06-2020</terugwerkend.datum>
+            </inwerkingtreding>
+        </brondata>
+        <jcis>
+            <jci versie="1.0" verwijzing="1.0:c:BWBR0043324&amp;bijlage=1&amp;g=2020-06-25" onderdeel="bijlage=1" korte-verwijzing="1.0:c:BWBR0043324&amp;bijlage=1"/>
+            <jci versie="1.3" verwijzing="jci1.3:c:BWBR0043324&amp;bijlage=1&amp;z=2020-06-25&amp;g=2020-06-25" onderdeel="bijlage=1" korte-verwijzing="jci1.3:c:BWBR0043324&amp;bijlage=1"/>
+        </jcis>
+    </meta-data>
+</bijlage>

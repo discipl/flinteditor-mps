@@ -11,6 +11,7 @@
     <use id="120e1c9d-4e27-4478-b2af-b2c3bd3850b0" name="com.mbeddr.mpsutil.editor.querylist" version="0" />
     <use id="52733268-be24-4f5f-ab84-a73b7c0c03b0" name="de.slisson.mps.richtext.customcell" version="0" />
     <use id="fa4f7dfd-91d0-409e-86f8-693574acc2a3" name="FlintCellModels" version="0" />
+    <use id="0272d3b4-4cc8-481e-9e2f-07793fbfcb41" name="jetbrains.mps.lang.editor.table" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -533,6 +534,13 @@
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
+      </concept>
+    </language>
+    <language id="0272d3b4-4cc8-481e-9e2f-07793fbfcb41" name="jetbrains.mps.lang.editor.table">
+      <concept id="2253133157536766818" name="jetbrains.mps.lang.editor.table.structure.CellModel_HierarchycalTable" flags="ng" index="1hTEv9">
+        <reference id="6216065619544939795" name="cellsInRowLinkDeclaration" index="1BfnIG" />
+        <reference id="6216065619544939794" name="rowsLinkDeclaration" index="1BfnIH" />
+        <reference id="6216065619544939793" name="headerRowLinkDeclaration" index="1BfnII" />
       </concept>
     </language>
     <language id="31c91def-a131-41a1-9018-102874f49a12" name="de.slisson.mps.editor.multiline">
@@ -5929,6 +5937,64 @@
         <node concept="Vb9p2" id="1LPawM$dioh" role="3F10Kt" />
       </node>
     </node>
+  </node>
+  <node concept="24kQdi" id="41DLJHRIRA_">
+    <property role="3GE5qa" value="table" />
+    <ref role="1XX52x" to="lnwe:41DLJHRIRAt" resolve="TableDemo" />
+    <node concept="3EZMnI" id="41DLJHS1XrT" role="2wV5jI">
+      <node concept="3gTLQM" id="41DLJHS1Xs2" role="3EZMnx">
+        <node concept="3Fmcul" id="41DLJHS1Xs4" role="3FoqZy">
+          <node concept="3clFbS" id="41DLJHS1Xs6" role="2VODD2">
+            <node concept="3clFbF" id="41DLJHS1Y9h" role="3cqZAp">
+              <node concept="2OqwBi" id="41DLJHS1YoA" role="3clFbG">
+                <node concept="pncrf" id="41DLJHS1Y9g" role="2Oq$k0" />
+                <node concept="2qgKlT" id="41DLJHS1YD0" role="2OqNvi">
+                  <ref role="37wK5l" to="3lmi:41DLJHROYMN" resolve="fillTable" />
+                  <node concept="1Q80Hx" id="41DLJHS1YND" role="37wK5m" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3EZMnI" id="41DLJHT7Wfj" role="3EZMnx">
+        <node concept="l2Vlx" id="41DLJHT7Wfk" role="2iSdaV" />
+        <node concept="3F0ifn" id="41DLJHT7Wgk" role="3EZMnx">
+          <property role="3F0ifm" value="tablenumber:" />
+        </node>
+        <node concept="3F0A7n" id="41DLJHT7Weo" role="3EZMnx">
+          <ref role="1NtTu8" to="lnwe:41DLJHT7W3t" resolve="tableNumber" />
+        </node>
+      </node>
+      <node concept="2iRkQZ" id="41DLJHS1XrU" role="2iSdaV" />
+      <node concept="1hTEv9" id="41DLJHRNcOy" role="3EZMnx">
+        <ref role="1BfnIH" to="lnwe:41DLJHRNcYm" resolve="rows" />
+        <ref role="1BfnIG" to="lnwe:41DLJHRNcIK" resolve="cells" />
+        <ref role="1BfnII" to="lnwe:41DLJHRNcYk" resolve="header" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="41DLJHRXiDy">
+    <property role="3GE5qa" value="table" />
+    <ref role="1XX52x" to="lnwe:41DLJHRXiDn" resolve="HeaderCell" />
+    <node concept="3F0A7n" id="41DLJHRXiD$" role="2wV5jI">
+      <ref role="1NtTu8" to="lnwe:41DLJHRXiDp" resolve="text" />
+      <node concept="Vb9p2" id="41DLJHT6TG1" role="3F10Kt">
+        <property role="Vbekb" value="g1_k_vY/BOLD" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="41DLJHRXiDI">
+    <property role="3GE5qa" value="table" />
+    <ref role="1XX52x" to="lnwe:41DLJHRXiDo" resolve="TextCell" />
+    <node concept="3F0A7n" id="41DLJHRXiDK" role="2wV5jI">
+      <ref role="1NtTu8" to="lnwe:41DLJHRXiDp" resolve="text" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="41DLJHTtryD">
+    <property role="3GE5qa" value="table" />
+    <ref role="1XX52x" to="lnwe:41DLJHTtryx" resolve="EmptyCell" />
+    <node concept="3F0ifn" id="41DLJHTtryF" role="2wV5jI" />
   </node>
 </model>
 
