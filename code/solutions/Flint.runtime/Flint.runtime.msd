@@ -55,9 +55,9 @@
       <sourceRoot location="httpasyncclient.jar" />
       <sourceRoot location="httpcore-nio.jar" />
       <sourceRoot location="ktor-client-apache-jvm.jar" />
-      <sourceRoot location="okhttp-eventsource-2.5.0.jar" />
-      <sourceRoot location="okhttp-4.5.0.jar" />
-      <sourceRoot location="okio-2.5.0.jar" />
+      <sourceRoot location="okhttp-eventsource.jar" />
+      <sourceRoot location="okhttp.jar" />
+      <sourceRoot location="okio-jvm.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -114,9 +114,9 @@
     <stubModelEntry path="${module}/libs/httpasyncclient.jar" />
     <stubModelEntry path="${module}/libs/httpcore-nio.jar" />
     <stubModelEntry path="${module}/libs/ktor-client-apache-jvm.jar" />
-    <stubModelEntry path="${module}/libs/okhttp-eventsource-2.5.0.jar" />
-    <stubModelEntry path="${module}/libs/okhttp-4.5.0.jar" />
-    <stubModelEntry path="${module}/libs/okio-2.5.0.jar" />
+    <stubModelEntry path="${module}/libs/okhttp-eventsource.jar" />
+    <stubModelEntry path="${module}/libs/okhttp.jar" />
+    <stubModelEntry path="${module}/libs/okio-jvm.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

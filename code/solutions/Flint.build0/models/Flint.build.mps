@@ -2927,32 +2927,32 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="4AecOwbiQtf" role="3bR37C">
-          <node concept="1BurEX" id="4AecOwbiQtg" role="1SiIV1">
-            <node concept="398BVA" id="4AecOwbiQsS" role="1BurEY">
+        <node concept="1SiIV0" id="5DmEOoVl7_U" role="3bR37C">
+          <node concept="1BurEX" id="5DmEOoVl7_V" role="1SiIV1">
+            <node concept="398BVA" id="5DmEOoVl7_z" role="1BurEY">
               <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
-              <node concept="2Ry0Ak" id="4AecOwbiQsT" role="iGT6I">
-                <property role="2Ry0Am" value="okhttp-eventsource-2.5.0.jar" />
+              <node concept="2Ry0Ak" id="5DmEOoVl7_$" role="iGT6I">
+                <property role="2Ry0Am" value="okhttp-eventsource.jar" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="4AecOwbGdGZ" role="3bR37C">
-          <node concept="1BurEX" id="4AecOwbGdH0" role="1SiIV1">
-            <node concept="398BVA" id="4AecOwbGdGC" role="1BurEY">
+        <node concept="1SiIV0" id="5DmEOoVl7Aj" role="3bR37C">
+          <node concept="1BurEX" id="5DmEOoVl7Ak" role="1SiIV1">
+            <node concept="398BVA" id="5DmEOoVl7_W" role="1BurEY">
               <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
-              <node concept="2Ry0Ak" id="4AecOwbGdGD" role="iGT6I">
-                <property role="2Ry0Am" value="okhttp-4.5.0.jar" />
+              <node concept="2Ry0Ak" id="5DmEOoVl7_X" role="iGT6I">
+                <property role="2Ry0Am" value="okhttp.jar" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="uEUv$Uslp2" role="3bR37C">
-          <node concept="1BurEX" id="uEUv$Uslp3" role="1SiIV1">
-            <node concept="398BVA" id="uEUv$UsloF" role="1BurEY">
+        <node concept="1SiIV0" id="5DmEOoVl7AG" role="3bR37C">
+          <node concept="1BurEX" id="5DmEOoVl7AH" role="1SiIV1">
+            <node concept="398BVA" id="5DmEOoVl7Al" role="1BurEY">
               <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
-              <node concept="2Ry0Ak" id="uEUv$UsloG" role="iGT6I">
-                <property role="2Ry0Am" value="okio-2.5.0.jar" />
+              <node concept="2Ry0Ak" id="5DmEOoVl7Am" role="iGT6I">
+                <property role="2Ry0Am" value="okio-jvm.jar" />
               </node>
             </node>
           </node>
