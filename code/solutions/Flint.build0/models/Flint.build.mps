@@ -216,6 +216,7 @@
         <child id="5253498789149547704" name="dependencies" index="3bR37C" />
       </concept>
       <concept id="5253498789149585690" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyOnModule" flags="ng" index="3bR9La">
+        <property id="5253498789149547713" name="reexport" index="3bR36h" />
         <reference id="5253498789149547705" name="module" index="3bR37D" />
       </concept>
       <concept id="8174907532631382425" name="jetbrains.mps.build.mps.structure.BuildMps_TipsMps" flags="ng" index="3jmSaf" />
@@ -2303,6 +2304,7 @@
         </node>
         <node concept="1SiIV0" id="2eNuKY4JOj" role="3bR37C">
           <node concept="3bR9La" id="2eNuKY4JOk" role="1SiIV1">
+            <property role="3bR36h" value="true" />
             <ref role="3bR37D" node="2eNuKY4JD2" resolve="Flint.runtime" />
           </node>
         </node>
@@ -2921,6 +2923,36 @@
               <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
               <node concept="2Ry0Ak" id="1kuEGxgjh5f" role="iGT6I">
                 <property role="2Ry0Am" value="ktor-client-apache-jvm.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4AecOwbiQtf" role="3bR37C">
+          <node concept="1BurEX" id="4AecOwbiQtg" role="1SiIV1">
+            <node concept="398BVA" id="4AecOwbiQsS" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="4AecOwbiQsT" role="iGT6I">
+                <property role="2Ry0Am" value="okhttp-eventsource-2.5.0.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4AecOwbGdGZ" role="3bR37C">
+          <node concept="1BurEX" id="4AecOwbGdH0" role="1SiIV1">
+            <node concept="398BVA" id="4AecOwbGdGC" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="4AecOwbGdGD" role="iGT6I">
+                <property role="2Ry0Am" value="okhttp-4.5.0.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="uEUv$Uslp2" role="3bR37C">
+          <node concept="1BurEX" id="uEUv$Uslp3" role="1SiIV1">
+            <node concept="398BVA" id="uEUv$UsloF" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="uEUv$UsloG" role="iGT6I">
+                <property role="2Ry0Am" value="okio-2.5.0.jar" />
               </node>
             </node>
           </node>
