@@ -2351,6 +2351,26 @@
             <ref role="3bR37D" node="6onvLJoJVY2" resolve="LawSource" />
           </node>
         </node>
+        <node concept="1SiIV0" id="1$Rh126bgfK" role="3bR37C">
+          <node concept="3bR9La" id="1$Rh126bgfL" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1$Rh126bgfM" role="3bR37C">
+          <node concept="3bR9La" id="1$Rh126bgfN" role="1SiIV1">
+            <ref role="3bR37D" node="2FAQ6X3GqIP" resolve="FlintView.plugin" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1$Rh126bgfO" role="3bR37C">
+          <node concept="3bR9La" id="1$Rh126bgfP" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:14x5$qAUbkv" resolve="jetbrains.mps.lang.resources" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1$Rh126bgfQ" role="3bR37C">
+          <node concept="3bR9La" id="1$Rh126bgfR" role="1SiIV1">
+            <ref role="3bR37D" to="90a9:FniR$Cj0b1" resolve="com.mbeddr.mpsutil.projectview.runtime" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="2eNuKY4JD2" role="2G$12L">
         <property role="BnDLt" value="true" />

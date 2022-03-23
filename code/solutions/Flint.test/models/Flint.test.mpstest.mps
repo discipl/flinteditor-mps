@@ -277,12 +277,12 @@
       <concept id="6868897032739893314" name="Flint.structure.IExplainable" flags="ng" index="cog$R">
         <property id="778381075952164307" name="explanation" index="3ANC2_" />
       </concept>
-      <concept id="6868897032739893311" name="Flint.structure.FlintSource" flags="ng" index="cog_a">
+      <concept id="6868897032739893311" name="Flint.structure.FlintSourceDeprecated" flags="ng" index="cog_a">
         <property id="6868897032739893349" name="validTo" index="cog$g" />
         <property id="6868897032739893347" name="validFrom" index="cog$m" />
         <property id="6868897032739893352" name="juriconnect" index="cog$t" />
       </concept>
-      <concept id="6868897032739893310" name="Flint.structure.FlintSourceReference" flags="ng" index="cog_b">
+      <concept id="6868897032739893310" name="Flint.structure.FlintSource" flags="ng" index="cog_b">
         <property id="2215264714367931041" name="textId" index="1hTq4$" />
         <property id="1165398171153094508" name="language" index="1tl0gq" />
         <reference id="6868897032739893359" name="baseSource" index="cog$q" />

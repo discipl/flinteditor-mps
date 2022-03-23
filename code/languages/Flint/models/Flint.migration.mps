@@ -201,8 +201,15 @@
       <concept id="1228341669568" name="jetbrains.mps.lang.smodel.structure.Node_DetachOperation" flags="nn" index="3YRAZt" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
+        <property id="8575328350543493365" name="message" index="huDt6" />
+        <property id="2423417345669755629" name="filter" index="1eyWvh" />
       </concept>
     </language>
     <language id="90746344-04fd-4286-97d5-b46ae6a81709" name="jetbrains.mps.lang.migration">
@@ -2473,6 +2480,10 @@
   <node concept="3SyAh_" id="3zNHqZTUq$B">
     <property role="qMTe8" value="10" />
     <property role="TrG5h" value="RemoveDeprecatedFlintSources" />
+    <node concept="15s5l7" id="2eq7EaSVNZJ" role="lGtFl">
+      <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: Language version (10) is not equal to the target version of last migration script (11)&quot;;FLAVOUR_RULE_ID=&quot;[r:47a77104-3b09-4998-a2bd-ada4655c0c77(jetbrains.mps.lang.migration.typesystem)/1987432259747751432]&quot;;" />
+      <property role="huDt6" value="Error: Language version (10) is not equal to the target version of last migration script (11)" />
+    </node>
     <node concept="3Tm1VV" id="3zNHqZTUq$C" role="1B3o_S" />
     <node concept="3tTeZs" id="3zNHqZTUq$D" role="jymVt">
       <property role="3tTeZt" value="&lt;no execute after&gt;" />

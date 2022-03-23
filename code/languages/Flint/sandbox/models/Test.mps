@@ -2,7 +2,7 @@
 <model ref="r:6a404292-b01a-494e-ab06-c424caf266f6(Test)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="10" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="11" />
   </languages>
   <imports />
   <registry>
@@ -18,13 +18,8 @@
       <concept id="6868897032739893314" name="Flint.structure.IExplainable" flags="ng" index="cog$R">
         <property id="778381075952164307" name="explanation" index="3ANC2_" />
       </concept>
-      <concept id="6868897032739893311" name="Flint.structure.FlintSource" flags="ng" index="cog_a">
-        <property id="6868897032739893347" name="validFrom" index="cog$m" />
-        <property id="6868897032739893352" name="juriconnect" index="cog$t" />
-      </concept>
-      <concept id="6868897032739893310" name="Flint.structure.FlintSourceReference" flags="ng" index="cog_b">
+      <concept id="6868897032739893310" name="Flint.structure.FlintSource" flags="ng" index="cog_b">
         <property id="1165398171153094508" name="language" index="1tl0gq" />
-        <reference id="6868897032739893359" name="baseSource" index="cog$q" />
         <child id="7816114204006679678" name="betterText" index="2hN6Sa" />
       </concept>
       <concept id="6868897032739434615" name="Flint.structure.FlintModel" flags="ng" index="cu0$2" />
@@ -71,60 +66,11 @@
   <node concept="cu0$2" id="6u5qVtI13SG">
     <property role="TrG5h" value="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19 16-05-2020 t/m 11-06-2020" />
   </node>
-  <node concept="cog_a" id="6u5qVtI13SH">
-    <property role="TrG5h" value="art. 1, " />
-    <property role="3GE5qa" value="sources" />
-    <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=1&amp;z=2020-05-16&amp;g=2020-05-16" />
-    <property role="cog$m" value="16-05-2020" />
-  </node>
-  <node concept="cog_a" id="6u5qVtI13SI">
-    <property role="TrG5h" value="art. 3, " />
-    <property role="3GE5qa" value="sources" />
-    <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=3&amp;z=2020-05-16&amp;g=2020-05-16" />
-    <property role="cog$m" value="31-03-2020" />
-  </node>
-  <node concept="cog_a" id="6u5qVtI13SJ">
-    <property role="TrG5h" value="art. 4lid 1, " />
-    <property role="3GE5qa" value="sources" />
-    <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=4&amp;lid=1&amp;z=2020-05-16&amp;g=2020-05-16" />
-    <property role="cog$m" value="16-05-2020" />
-  </node>
-  <node concept="cog_a" id="6u5qVtI13SK">
-    <property role="TrG5h" value="art. 4lid 3, " />
-    <property role="3GE5qa" value="sources" />
-    <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=4&amp;lid=3&amp;z=2020-05-16&amp;g=2020-05-16" />
-    <property role="cog$m" value="16-05-2020" />
-  </node>
-  <node concept="cog_a" id="6u5qVtI13SL">
-    <property role="TrG5h" value="art. 5, " />
-    <property role="3GE5qa" value="sources" />
-    <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=5&amp;z=2020-05-16&amp;g=2020-05-16" />
-    <property role="cog$m" value="31-03-2020" />
-  </node>
-  <node concept="cog_a" id="6u5qVtI13SM">
-    <property role="TrG5h" value="art. 6lid 2, " />
-    <property role="3GE5qa" value="sources" />
-    <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=6&amp;lid=2&amp;o=d&amp;z=2020-05-16&amp;g=2020-05-16" />
-    <property role="cog$m" value="16-05-2020" />
-  </node>
-  <node concept="cog_a" id="6u5qVtI13SN">
-    <property role="TrG5h" value="art. 8lid 1, " />
-    <property role="3GE5qa" value="sources" />
-    <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=8&amp;lid=1&amp;z=2020-05-16&amp;g=2020-05-16" />
-    <property role="cog$m" value="31-03-2020" />
-  </node>
-  <node concept="cog_a" id="6u5qVtI13SO">
-    <property role="TrG5h" value="art. 8lid 2, " />
-    <property role="3GE5qa" value="sources" />
-    <property role="cog$t" value="jci1.3:c:BWBR0043324&amp;artikel=8&amp;lid=2&amp;z=2020-05-16&amp;g=2020-05-16" />
-    <property role="cog$m" value="31-03-2020" />
-  </node>
   <node concept="cu0$f" id="6u5qVtI13SP">
     <property role="TrG5h" value="n Nederland gevestigde onderneming als bedoeld in , niet zijnde een overheidsbedrijf" />
     <property role="3GE5qa" value="facts" />
     <node concept="cog_b" id="6u5qVtI13SQ" role="2pmM46">
       <property role="1tl0gq" value="English" />
-      <ref role="cog$q" node="6u5qVtI13SH" resolve="art. 1, " />
       <node concept="2hPCcK" id="6u5qVtI13SR" role="2hN6Sa">
         <node concept="19SUe$" id="6u5qVtI13SS" role="19SJt6">
           <property role="19SUeA" value="in Nederland gevestigde onderneming als bedoeld in , niet zijnde een overheidsbedrijf:artikel 5 van de Handelsregisterwet 2007gedupeerde onderneming:" />
@@ -147,7 +93,6 @@
     <property role="207Gpp" value="[afwijzen]" />
     <node concept="cog_b" id="6u5qVtI13T0" role="2pmM46">
       <property role="1tl0gq" value="English" />
-      <ref role="cog$q" node="6u5qVtI13SI" resolve="art. 3, " />
       <node concept="2hPCcK" id="6u5qVtI13T1" role="2hN6Sa">
         <node concept="19SUe$" id="6u5qVtI13T2" role="19SJt6">
           <property role="19SUeA" value="De minister beslist afwijzend op een aanvraag indien:" />
@@ -185,7 +130,6 @@
     <property role="207Gpp" value="[indienen]" />
     <node concept="cog_b" id="6u5qVtI13Tc" role="2pmM46">
       <property role="1tl0gq" value="English" />
-      <ref role="cog$q" node="6u5qVtI13SI" resolve="art. 3, " />
       <node concept="2hPCcK" id="6u5qVtI13Td" role="2hN6Sa">
         <node concept="19SUe$" id="6u5qVtI13Te" role="19SJt6">
           <property role="19SUeA" value="de gedupeerde onderneming in staat van faillissement verkeert dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming is ingediend;" />
@@ -223,7 +167,6 @@
     <property role="207Gpp" value="[indienen]" />
     <node concept="cog_b" id="6u5qVtI13To" role="2pmM46">
       <property role="1tl0gq" value="English" />
-      <ref role="cog$q" node="6u5qVtI13SJ" resolve="art. 4lid 1, " />
       <node concept="2hPCcK" id="6u5qVtI13Tp" role="2hN6Sa">
         <node concept="19SUe$" id="6u5qVtI13Tq" role="19SJt6">
           <property role="19SUeA" value="Een aanvraag wordt ingediend met gebruikmaking van een door de minister beschikbaar gesteld middel." />
@@ -261,7 +204,6 @@
     <property role="207Gpp" value="[stellen]" />
     <node concept="cog_b" id="6u5qVtI13T$" role="2pmM46">
       <property role="1tl0gq" value="English" />
-      <ref role="cog$q" node="6u5qVtI13SJ" resolve="art. 4lid 1, " />
       <node concept="2hPCcK" id="6u5qVtI13T_" role="2hN6Sa">
         <node concept="19SUe$" id="6u5qVtI13TA" role="19SJt6">
           <property role="19SUeA" value="Een aanvraag wordt ingediend met gebruikmaking van een door de minister beschikbaar gesteld middel." />
@@ -299,7 +241,6 @@
     <property role="207Gpp" value="[indienen]" />
     <node concept="cog_b" id="6u5qVtI13TK" role="2pmM46">
       <property role="1tl0gq" value="English" />
-      <ref role="cog$q" node="6u5qVtI13SK" resolve="art. 4lid 3, " />
       <node concept="2hPCcK" id="6u5qVtI13TL" role="2hN6Sa">
         <node concept="19SUe$" id="6u5qVtI13TM" role="19SJt6">
           <property role="19SUeA" value="Een aanvraag kan worden ingediend in de periode van 27maart 2020 tot en met 26juni 2020." />
@@ -337,7 +278,6 @@
     <property role="207Gpp" value="[stellen]" />
     <node concept="cog_b" id="6u5qVtI13TW" role="2pmM46">
       <property role="1tl0gq" value="English" />
-      <ref role="cog$q" node="6u5qVtI13SL" resolve="art. 5, " />
       <node concept="2hPCcK" id="6u5qVtI13TX" role="2hN6Sa">
         <node concept="19SUe$" id="6u5qVtI13TY" role="19SJt6">
           <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
@@ -375,7 +315,6 @@
     <property role="207Gpp" value="[nemen]" />
     <node concept="cog_b" id="6u5qVtI13U8" role="2pmM46">
       <property role="1tl0gq" value="English" />
-      <ref role="cog$q" node="6u5qVtI13SL" resolve="art. 5, " />
       <node concept="2hPCcK" id="6u5qVtI13U9" role="2hN6Sa">
         <node concept="19SUe$" id="6u5qVtI13Ua" role="19SJt6">
           <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
@@ -404,7 +343,6 @@
     <property role="207Gpp" value="[ontvangen]" />
     <node concept="cog_b" id="6u5qVtI13Uj" role="2pmM46">
       <property role="1tl0gq" value="English" />
-      <ref role="cog$q" node="6u5qVtI13SM" resolve="art. 6lid 2, " />
       <node concept="2hPCcK" id="6u5qVtI13Uk" role="2hN6Sa">
         <node concept="19SUe$" id="6u5qVtI13Ul" role="19SJt6">
           <property role="19SUeA" value="voor zover het een gedupeerde zorgonderneming betreft: bewijsstukken waaruit blijkt waar de verklaring, bedoeld in , op gebaseerd is, zoals een kopie van de omzetgegevens uit de boekhouding of van de aangifte van de omzetbelasting over 2019 of 2020 en een kopie van de stukken uit de boekhouding van 2020 waaruit blijkt wat de hoogte is van de tegemoetkomingen die de gedupeerde zorgonderneming heeft ontvangen van de zorginkopers ter compensatie van het omzetverlies als gevolg van de maatregelen ter bestrijding van COVID-19.artikel 4, tweede lid, onderdeel k" />
@@ -442,7 +380,6 @@
     <property role="207Gpp" value="[plaatsen]" />
     <node concept="cog_b" id="6u5qVtI13Uv" role="2pmM46">
       <property role="1tl0gq" value="English" />
-      <ref role="cog$q" node="6u5qVtI13SN" resolve="art. 8lid 1, " />
       <node concept="2hPCcK" id="6u5qVtI13Uw" role="2hN6Sa">
         <node concept="19SUe$" id="6u5qVtI13Ux" role="19SJt6">
           <property role="19SUeA" value="Deze beleidsregel treedt in werking met ingang van de dag na de datum van uitgifte van de Staatscourant waarin zij wordt geplaatst, en werkt terug tot en met 27maart 2020." />
@@ -492,7 +429,6 @@
     <property role="207Gpp" value="[indienen]" />
     <node concept="cog_b" id="6u5qVtI13UH" role="2pmM46">
       <property role="1tl0gq" value="English" />
-      <ref role="cog$q" node="6u5qVtI13SO" resolve="art. 8lid 2, " />
       <node concept="2hPCcK" id="6u5qVtI13UI" role="2hN6Sa">
         <node concept="19SUe$" id="6u5qVtI13UJ" role="19SJt6">
           <property role="19SUeA" value="Deze beleidsregel vervalt met ingang van 1januari 2021, met dien verstande dat de beleidsregel van toepassing blijft op aanvragen om tegemoetkoming die uiterlijk 26juni 2020 zijn ingediend, dan wel op tegemoetkomingen die voor 1januari 2021 zijn verstrekt." />
@@ -527,10 +463,6 @@
       <property role="1GVPtd" value="English" />
     </node>
   </node>
-  <node concept="cog_a" id="6ytzK$sheRW">
-    <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
-    <property role="3GE5qa" value="sources" />
-  </node>
   <node concept="cu0$f" id="6ytzK$sGSYA">
     <property role="TrG5h" value="minister" />
     <property role="3GE5qa" value="facts" />
@@ -538,22 +470,6 @@
       <property role="1GVPtb" value="minister" />
       <property role="1GVPtd" value="English" />
     </node>
-  </node>
-  <node concept="cog_a" id="5pp3ssjMR9S">
-    <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
-    <property role="3GE5qa" value="sources" />
-  </node>
-  <node concept="cog_a" id="5pp3ssjUI7C">
-    <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
-    <property role="3GE5qa" value="sources" />
-  </node>
-  <node concept="cog_a" id="222x$3yHPit">
-    <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
-    <property role="3GE5qa" value="sources" />
-  </node>
-  <node concept="cog_a" id="m$6eIWiHeX">
-    <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
-    <property role="3GE5qa" value="sources" />
   </node>
   <node concept="cu0$f" id="4VrbcpCY21I">
     <property role="TrG5h" value="afwijzen" />

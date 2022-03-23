@@ -1320,6 +1320,57 @@
     </node>
     <node concept="2UmK3q" id="1sQdk50QQ_f" role="2Um5zG">
       <node concept="3clFbS" id="1sQdk50QQ_g" role="2VODD2">
+        <node concept="3clFbJ" id="6yztRBiAhwb" role="3cqZAp">
+          <node concept="3clFbS" id="6yztRBiAhwd" role="3clFbx">
+            <node concept="3clFbF" id="3sUPWfAhHep" role="3cqZAp">
+              <node concept="37vLTI" id="3sUPWfAhHuE" role="3clFbG">
+                <node concept="2ShNRf" id="3sUPWfAhHGE" role="37vLTx">
+                  <node concept="1pGfFk" id="3sUPWfAhHGC" role="2ShVmc">
+                    <ref role="37wK5l" to="38ht:~FlintWebView.&lt;init&gt;(java.nio.file.Path,org.discipl.flint.ui.JSLogger)" resolve="FlintWebView" />
+                    <node concept="2OqwBi" id="3sUPWfAhHHs" role="37wK5m">
+                      <node concept="2OqwBi" id="3sUPWfAhHHt" role="2Oq$k0">
+                        <node concept="2YIFZM" id="WMRUM2S__B" role="2Oq$k0">
+                          <ref role="1Pybhc" to="91gc:2eNuKY2QKZ" resolve="FlintProperties" />
+                          <ref role="37wK5l" to="91gc:7ALI6YWYmu7" resolve="getInstance" />
+                        </node>
+                        <node concept="2S8uIT" id="3sUPWfAhHHv" role="2OqNvi">
+                          <ref role="2S8YL0" to="91gc:2eNuKY2R2z" resolve="resourcesFolder" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="3sUPWfAhHHw" role="2OqNvi">
+                        <ref role="37wK5l" to="eoo2:~Path.resolve(java.lang.String)" resolve="resolve" />
+                        <node concept="Xl_RD" id="3sUPWfAhHHx" role="37wK5m">
+                          <property role="Xl_RC" value="generated/compliance-by-design/asset-manifest.json" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="6eTjOKebABO" role="37wK5m">
+                      <node concept="2WthIp" id="6eTjOKebAjY" role="2Oq$k0" />
+                      <node concept="2BZ7hE" id="6eTjOKebALS" role="2OqNvi">
+                        <ref role="2WH_rO" node="qfyMBXpcV6" resolve="jsLogger" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="3sUPWfAhHej" role="37vLTJ">
+                  <node concept="2WthIp" id="3sUPWfAhHem" role="2Oq$k0" />
+                  <node concept="2BZ7hE" id="3sUPWfAhHeo" role="2OqNvi">
+                    <ref role="2WH_rO" node="3sUPWfAhExb" resolve="flintWebView" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="6yztRBiAj1g" role="3clFbw">
+            <node concept="10Nm6u" id="6yztRBiAj1t" role="3uHU7w" />
+            <node concept="2OqwBi" id="6yztRBiAibp" role="3uHU7B">
+              <node concept="2WthIp" id="6yztRBiAhVV" role="2Oq$k0" />
+              <node concept="2BZ7hE" id="6yztRBiAijE" role="2OqNvi">
+                <ref role="2WH_rO" node="3sUPWfAhExb" resolve="flintWebView" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="3sUPWfAhGY0" role="3cqZAp">
           <node concept="2OqwBi" id="3sUPWfAsnJH" role="3cqZAk">
             <node concept="2WthIp" id="3sUPWfAhLdA" role="2Oq$k0" />
@@ -1346,44 +1397,6 @@
               <node concept="2WthIp" id="qfyMBXpdF_" role="2Oq$k0" />
               <node concept="2BZ7hE" id="qfyMBXpehG" role="2OqNvi">
                 <ref role="2WH_rO" node="qfyMBXpcV6" resolve="jsLogger" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="3sUPWfAhHep" role="3cqZAp">
-          <node concept="37vLTI" id="3sUPWfAhHuE" role="3clFbG">
-            <node concept="2ShNRf" id="3sUPWfAhHGE" role="37vLTx">
-              <node concept="1pGfFk" id="3sUPWfAhHGC" role="2ShVmc">
-                <ref role="37wK5l" to="38ht:~FlintWebView.&lt;init&gt;(java.nio.file.Path,org.discipl.flint.ui.JSLogger)" resolve="FlintWebView" />
-                <node concept="2OqwBi" id="3sUPWfAhHHs" role="37wK5m">
-                  <node concept="2OqwBi" id="3sUPWfAhHHt" role="2Oq$k0">
-                    <node concept="2YIFZM" id="WMRUM2S__B" role="2Oq$k0">
-                      <ref role="1Pybhc" to="91gc:2eNuKY2QKZ" resolve="FlintProperties" />
-                      <ref role="37wK5l" to="91gc:7ALI6YWYmu7" resolve="getInstance" />
-                    </node>
-                    <node concept="2S8uIT" id="3sUPWfAhHHv" role="2OqNvi">
-                      <ref role="2S8YL0" to="91gc:2eNuKY2R2z" resolve="resourcesFolder" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="3sUPWfAhHHw" role="2OqNvi">
-                    <ref role="37wK5l" to="eoo2:~Path.resolve(java.lang.String)" resolve="resolve" />
-                    <node concept="Xl_RD" id="3sUPWfAhHHx" role="37wK5m">
-                      <property role="Xl_RC" value="generated/compliance-by-design/asset-manifest.json" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="6eTjOKebABO" role="37wK5m">
-                  <node concept="2WthIp" id="6eTjOKebAjY" role="2Oq$k0" />
-                  <node concept="2BZ7hE" id="6eTjOKebALS" role="2OqNvi">
-                    <ref role="2WH_rO" node="qfyMBXpcV6" resolve="jsLogger" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="2OqwBi" id="3sUPWfAhHej" role="37vLTJ">
-              <node concept="2WthIp" id="3sUPWfAhHem" role="2Oq$k0" />
-              <node concept="2BZ7hE" id="3sUPWfAhHeo" role="2OqNvi">
-                <ref role="2WH_rO" node="3sUPWfAhExb" resolve="flintWebView" />
               </node>
             </node>
           </node>
@@ -1537,6 +1550,37 @@
           </node>
         </node>
         <node concept="3clFbH" id="5xrYknnNJSJ" role="3cqZAp" />
+        <node concept="3cpWs8" id="5xrYknnXAat" role="3cqZAp">
+          <node concept="3cpWsn" id="5xrYknnXAau" role="3cpWs9">
+            <property role="TrG5h" value="flintRunner" />
+            <property role="3TUv4t" value="true" />
+            <node concept="1xUVSX" id="5xrYknnXAav" role="1tU5fm">
+              <ref role="1xYkEM" node="1sQdk50QQ_e" resolve="FlintRunner" />
+            </node>
+            <node concept="2OqwBi" id="5xrYknnXAaw" role="33vP2m">
+              <node concept="2OqwBi" id="5xrYknnXAax" role="2Oq$k0">
+                <node concept="2WthIp" id="5xrYknnXAay" role="2Oq$k0" />
+                <node concept="1DTwFV" id="5xrYknnXAaz" role="2OqNvi">
+                  <ref role="2WH_rO" node="1sQdk50S7OM" resolve="project" />
+                </node>
+              </node>
+              <node concept="LR4U6" id="5xrYknnXAa$" role="2OqNvi">
+                <ref role="LR4U5" node="1sQdk50QQ_e" resolve="FlintRunner" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6yztRBizefp" role="3cqZAp">
+          <node concept="2OqwBi" id="6yztRBizezw" role="3clFbG">
+            <node concept="37vLTw" id="6yztRBizefn" role="2Oq$k0">
+              <ref role="3cqZAo" node="5xrYknnXAau" resolve="flintRunner" />
+            </node>
+            <node concept="liA8E" id="6yztRBizeWe" role="2OqNvi">
+              <ref role="37wK5l" to="71xd:~BaseTool.openTool(boolean)" resolve="openTool" />
+              <node concept="3clFbT" id="6yztRBizeW$" role="37wK5m" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="5xrYknnNKnt" role="3cqZAp">
           <node concept="2YIFZM" id="5xrYknnNKEh" role="3clFbG">
             <ref role="37wK5l" to="dxuu:~SwingUtilities.invokeLater(java.lang.Runnable)" resolve="invokeLater" />
@@ -1593,25 +1637,6 @@
                                 <ref role="1Pybhc" to="dxuu:~SwingUtilities" resolve="SwingUtilities" />
                                 <node concept="1bVj0M" id="5xrYknnYFOG" role="37wK5m">
                                   <node concept="3clFbS" id="5xrYknnYFOH" role="1bW5cS">
-                                    <node concept="3cpWs8" id="5xrYknnXAat" role="3cqZAp">
-                                      <node concept="3cpWsn" id="5xrYknnXAau" role="3cpWs9">
-                                        <property role="TrG5h" value="flintRunner" />
-                                        <node concept="1xUVSX" id="5xrYknnXAav" role="1tU5fm">
-                                          <ref role="1xYkEM" node="1sQdk50QQ_e" resolve="FlintRunner" />
-                                        </node>
-                                        <node concept="2OqwBi" id="5xrYknnXAaw" role="33vP2m">
-                                          <node concept="2OqwBi" id="5xrYknnXAax" role="2Oq$k0">
-                                            <node concept="2WthIp" id="5xrYknnXAay" role="2Oq$k0" />
-                                            <node concept="1DTwFV" id="5xrYknnXAaz" role="2OqNvi">
-                                              <ref role="2WH_rO" node="1sQdk50S7OM" resolve="project" />
-                                            </node>
-                                          </node>
-                                          <node concept="LR4U6" id="5xrYknnXAa$" role="2OqNvi">
-                                            <ref role="LR4U5" node="1sQdk50QQ_e" resolve="FlintRunner" />
-                                          </node>
-                                        </node>
-                                      </node>
-                                    </node>
                                     <node concept="3clFbF" id="5xrYknnXAa_" role="3cqZAp">
                                       <node concept="2OqwBi" id="5xrYknnXAaA" role="3clFbG">
                                         <node concept="37vLTw" id="5xrYknnXAaB" role="2Oq$k0">
