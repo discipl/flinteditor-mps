@@ -35,25 +35,53 @@
         <child id="6868897032739751036" name="function" index="coNO9" />
         <child id="6953216201203542034" name="versions" index="3Rha5p" />
       </concept>
+      <concept id="2444626260293387291" name="Flint.structure.Duty" flags="ng" index="2cz0EU">
+        <child id="1242048013199588" name="enforce" index="3mAC56" />
+        <child id="6205025464253210169" name="claimant" index="3H37fL" />
+        <child id="6205025464253210160" name="dutyHolder" index="3H37fS" />
+      </concept>
+      <concept id="2444626260293394822" name="Flint.structure.DutyReference" flags="ng" index="2cz2WB">
+        <reference id="2444626260293394823" name="duty" index="2cz2WA" />
+      </concept>
       <concept id="7816114204006345028" name="Flint.structure.CustomText" flags="ng" index="2hPCcK" />
       <concept id="9029403747833789403" name="Flint.structure.Act" flags="ng" index="mu5$5">
         <property id="6366956576594804508" name="old_action" index="207Gpp" />
+        <child id="9029403747833803225" name="terminate" index="mu1c7" />
+        <child id="9029403747833803217" name="create" index="mu1cf" />
         <child id="9029403747833797790" name="preconditions" index="mu3T0" />
         <child id="591807039346570203" name="action" index="3FTnq6" />
         <child id="6205025464253204623" name="object" index="3H36l7" />
+        <child id="6205025464253204638" name="recipient" index="3H36lm" />
         <child id="6205025464253204596" name="actor" index="3H36mW" />
       </concept>
       <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
         <child id="6983418503075280678" name="sources" index="2pmM46" />
       </concept>
+      <concept id="900714954669859736" name="Flint.structure.IHasVersionAndValidation" flags="ng" index="2Cxlzy">
+        <property id="900714954669872882" name="validated" index="2CxiQ8" />
+        <property id="900714954669872883" name="version" index="2CxiQ9" />
+        <property id="900714954669872880" name="publicated" index="2CxiQa" />
+        <property id="900714954669872881" name="verified" index="2CxiQb" />
+        <child id="900714954670033028" name="versions" index="2CwFfY" />
+      </concept>
+      <concept id="1050361695596112543" name="Flint.structure.Archiveable" flags="ng" index="2DfkzU">
+        <property id="1050361695596114238" name="archived" index="2Dfldr" />
+      </concept>
       <concept id="589729100932390229" name="Flint.structure.IHasLanguage" flags="ng" index="ITzSF">
         <child id="5326288789495449519" name="translatedNames" index="1GVO30" />
       </concept>
+      <concept id="7402439007429942662" name="Flint.structure.ActReference" flags="ng" index="3jSua8">
+        <reference id="7402439007429942663" name="act" index="3jSua9" />
+      </concept>
+      <concept id="4808965957220771074" name="Flint.structure.AND" flags="ng" index="1zEWgd" />
       <concept id="4808965957220776534" name="Flint.structure.LITERAL" flags="ng" index="1zEXHp">
         <child id="4808965957220776594" name="operand" index="1zEXIt" />
       </concept>
       <concept id="4808965957220777137" name="Flint.structure.BooleanOperand" flags="ng" index="1zEXQY">
         <property id="4808965957220777146" name="value" index="1zEXQP" />
+      </concept>
+      <concept id="4808965957220331692" name="Flint.structure.MultiExpression" flags="ng" index="1zF96z">
+        <child id="4808965957220331693" name="operands" index="1zF96y" />
       </concept>
       <concept id="6587498613242404529" name="Flint.structure.FactReference" flags="ng" index="1FQA6B">
         <reference id="6587498613242404530" name="fact" index="1FQA6$" />
@@ -168,11 +196,14 @@
       </node>
     </node>
     <node concept="1FQA6B" id="4VrbcpCY21H" role="3FTnq6">
-      <ref role="1FQA6$" node="4VrbcpCY21I" resolve="afwijzen" />
+      <ref role="1FQA6$" node="4VrbcpCY21I" resolve="afwijzen - c" />
     </node>
     <node concept="1GVOM6" id="4gg1F7ZHQ94" role="1GVO30">
       <property role="1GVPtb" value="afwijzen de minister beslist op een aanvraag" />
       <property role="1GVPtd" value="English" />
+    </node>
+    <node concept="1FQA6B" id="7AJx2681tET" role="3H36lm">
+      <ref role="1FQA6$" node="7AJx2680NHM" resolve="Try and find me" />
     </node>
   </node>
   <node concept="cu0$f" id="6u5qVtI13T5">
@@ -223,9 +254,10 @@
     </node>
   </node>
   <node concept="mu5$5" id="6u5qVtI13Tk">
-    <property role="TrG5h" value="indienen een aanvraag" />
+    <property role="TrG5h" value="You shouldnt see mee" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[indienen]" />
+    <property role="2CxiQ9" value="1" />
     <node concept="cog_b" id="6u5qVtI13To" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <ref role="cog$q" node="6u5qVtI13SJ" resolve="art. 4lid 1, " />
@@ -243,12 +275,48 @@
         <property role="1zEXQP" value="true" />
       </node>
     </node>
-    <node concept="1FQA6B" id="4VrbcpCY227" role="3FTnq6">
-      <ref role="1FQA6$" node="4VrbcpCY228" resolve="indienen" />
+    <node concept="1FQA6B" id="7AJx2681N9R" role="3FTnq6">
+      <ref role="1FQA6$" node="7AJx2680w9L" resolve="I Am current" />
     </node>
     <node concept="1GVOM6" id="4gg1F7ZHQ9q" role="1GVO30">
-      <property role="1GVPtb" value="indienen een aanvraag" />
+      <property role="1GVPtb" value="Hello world" />
       <property role="1GVPtd" value="English" />
+    </node>
+    <node concept="1FQA6B" id="7AJx267BLsI" role="3H36mW">
+      <ref role="1FQA6$" node="6ytzK$sGSYA" resolve="minister" />
+    </node>
+    <node concept="mu5$5" id="7AJx2681Nca" role="2CwFfY">
+      <property role="TrG5h" value="indienen een aanvraag" />
+      <property role="3GE5qa" value="acts" />
+      <property role="207Gpp" value="[indienen]" />
+      <property role="2CxiQ9" value="0" />
+      <node concept="cog_b" id="7AJx2681Ncb" role="2pmM46">
+        <property role="1tl0gq" value="English" />
+        <ref role="cog$q" node="6u5qVtI13SJ" resolve="art. 4lid 1, " />
+        <node concept="2hPCcK" id="7AJx2681Ncc" role="2hN6Sa">
+          <node concept="19SUe$" id="7AJx2681Ncd" role="19SJt6">
+            <property role="19SUeA" value="Een aanvraag wordt ingediend met gebruikmaking van een door de minister beschikbaar gesteld middel." />
+          </node>
+        </node>
+      </node>
+      <node concept="1FQA6B" id="7AJx2681Nce" role="3H36l7">
+        <ref role="1FQA6$" node="6u5qVtI13Tt" resolve="een aanvraag" />
+      </node>
+      <node concept="1zEXHp" id="7AJx2681Ncf" role="mu3T0">
+        <node concept="1zEXQY" id="7AJx2681Ncg" role="1zEXIt">
+          <property role="1zEXQP" value="true" />
+        </node>
+      </node>
+      <node concept="1FQA6B" id="7AJx2681Nch" role="3FTnq6">
+        <ref role="1FQA6$" node="7AJx2680w9L" resolve="I Am current" />
+      </node>
+      <node concept="1GVOM6" id="7AJx2681Nci" role="1GVO30">
+        <property role="1GVPtb" value="You shouldnt see mee" />
+        <property role="1GVPtd" value="English" />
+      </node>
+      <node concept="1FQA6B" id="7AJx2681Ncj" role="3H36mW">
+        <ref role="1FQA6$" node="6ytzK$sGSYA" resolve="minister" />
+      </node>
     </node>
   </node>
   <node concept="cu0$f" id="6u5qVtI13Tt">
@@ -350,7 +418,7 @@
       </node>
     </node>
     <node concept="1FQA6B" id="6u5qVtI13U0" role="3H36l7">
-      <ref role="1FQA6$" node="6u5qVtI13U1" resolve="de minister beslist binnen drie weken na ontvangst van een aanvraag indien niet binnen deze termijn beslist de minister de aanvrager daarvan in kennis daarbij een redelijke termijn waarbinnen de beslissing wel  worden genomen" />
+      <ref role="1FQA6$" node="6u5qVtI13U1" resolve="shouldnt see me" />
     </node>
     <node concept="1zEXHp" id="6u5qVtI13U2" role="mu3T0">
       <node concept="1zEXQY" id="6u5qVtI13U3" role="1zEXIt">
@@ -366,11 +434,11 @@
     </node>
   </node>
   <node concept="cu0$f" id="6u5qVtI13U1">
-    <property role="TrG5h" value="de minister beslist binnen drie weken na ontvangst van een aanvraag indien niet binnen deze termijn beslist de minister de aanvrager daarvan in kennis daarbij een redelijke termijn waarbinnen de beslissing wel  worden genomen" />
+    <property role="TrG5h" value="shouldnt see me" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
     <node concept="1GVOM6" id="4gg1F7ZHQbO" role="1GVO30">
-      <property role="1GVPtb" value="de minister beslist binnen drie weken na ontvangst van een aanvraag indien niet binnen deze termijn beslist de minister de aanvrager daarvan in kennis daarbij een redelijke termijn waarbinnen de beslissing wel  worden genomen" />
+      <property role="1GVPtb" value="shouldnt see me" />
       <property role="1GVPtd" value="English" />
     </node>
   </node>
@@ -388,7 +456,7 @@
       </node>
     </node>
     <node concept="1FQA6B" id="6u5qVtI13Uc" role="3H36l7">
-      <ref role="1FQA6$" node="6u5qVtI13U1" resolve="de minister beslist binnen drie weken na ontvangst van een aanvraag indien niet binnen deze termijn beslist de minister de aanvrager daarvan in kennis daarbij een redelijke termijn waarbinnen de beslissing wel  worden genomen" />
+      <ref role="1FQA6$" node="6u5qVtI13U1" resolve="shouldnt see me" />
     </node>
     <node concept="1zEXHp" id="6u5qVtI13Ud" role="mu3T0">
       <node concept="1zEXQY" id="6u5qVtI13Ue" role="1zEXIt">
@@ -425,7 +493,7 @@
       </node>
     </node>
     <node concept="1FQA6B" id="4VrbcpCY238" role="3FTnq6">
-      <ref role="1FQA6$" node="4VrbcpCY239" resolve="ontvangen" />
+      <ref role="1FQA6$" node="4VrbcpCY239" resolve="ontvangen cur" />
     </node>
     <node concept="1GVOM6" id="4gg1F7ZHQah" role="1GVO30">
       <property role="1GVPtb" value="ontvangen voor zover het zorgonderneming bewijsstukken waaruit blijkt waar de verklaring bedoeld in op een kopie van de omzetgegevens uit de boekhouding van de aangifte van de omzetbelasting over 2019 of 2020 en een kopie van de stukken uit de boekhouding van waaruit blijkt wat de hoogte van de tegemoetkomingen die zorgonderneming" />
@@ -561,11 +629,62 @@
     <property role="3GE5qa" value="sources" />
   </node>
   <node concept="cu0$f" id="4VrbcpCY21I">
-    <property role="TrG5h" value="afwijzen" />
+    <property role="TrG5h" value="afwijzen - c" />
     <property role="3GE5qa" value="facts" />
-    <node concept="1GVOM6" id="344aJ4bLRTo" role="1GVO30">
+    <property role="3PoDF5" value="3" />
+    <node concept="1GVOM6" id="52MsLRFe73H" role="1GVO30">
       <property role="1GVPtd" value="English" />
-      <property role="1GVPtb" value="afwijzen" />
+      <property role="1GVPtb" value="afwijzen - c" />
+    </node>
+    <node concept="cu0$f" id="52MsLRFkg7D" role="3Rha5p">
+      <property role="TrG5h" value="afwijzen - 0" />
+      <property role="3GE5qa" value="facts" />
+      <property role="3PoDF5" value="0" />
+      <node concept="1GVOM6" id="52MsLRFkg7E" role="1GVO30">
+        <property role="1GVPtd" value="English" />
+        <property role="1GVPtb" value="afwijzen - 0" />
+      </node>
+    </node>
+    <node concept="cu0$f" id="52MsLRFkgxu" role="3Rha5p">
+      <property role="TrG5h" value="afwijzen - 1" />
+      <property role="3GE5qa" value="facts" />
+      <property role="3PoDF5" value="1" />
+      <node concept="1GVOM6" id="52MsLRFkgxv" role="1GVO30">
+        <property role="1GVPtd" value="English" />
+        <property role="1GVPtb" value="afwijzen - 1" />
+      </node>
+      <node concept="1RnfdX" id="52MsLRFkgxy" role="coNO9" />
+    </node>
+    <node concept="cu0$f" id="52MsLRFkhmR" role="3Rha5p">
+      <property role="TrG5h" value="afwijzen - 2" />
+      <property role="3GE5qa" value="facts" />
+      <property role="3PoDF5" value="2" />
+      <node concept="1GVOM6" id="52MsLRFkhmS" role="1GVO30">
+        <property role="1GVPtd" value="English" />
+        <property role="1GVPtb" value="afwijzen - 2" />
+      </node>
+      <node concept="1zEWgd" id="52MsLRFkhmY" role="coNO9">
+        <node concept="1FQA6B" id="52MsLRFkhmZ" role="1zF96y">
+          <ref role="1FQA6$" node="4VrbcpCY228" resolve="indienen" />
+        </node>
+        <node concept="1FQA6B" id="52MsLRFkhn0" role="1zF96y">
+          <ref role="1FQA6$" node="6u5qVtI13TD" resolve="een aanvraag wordt ingediend met gebruikmaking van door de minister beschikbaar middel" />
+        </node>
+        <node concept="1FQA6B" id="52MsLRFkhn1" role="1zF96y">
+          <ref role="1FQA6$" node="6u5qVtI13Th" resolve="onderneming in van faillissement dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming" />
+        </node>
+      </node>
+    </node>
+    <node concept="1zEWgd" id="UjCAmC1DrK" role="coNO9">
+      <node concept="1FQA6B" id="UjCAmC1DrL" role="1zF96y">
+        <ref role="1FQA6$" node="4VrbcpCY228" resolve="indienen" />
+      </node>
+      <node concept="1FQA6B" id="UjCAmC1DrM" role="1zF96y">
+        <ref role="1FQA6$" node="6u5qVtI13TD" resolve="een aanvraag wordt ingediend met gebruikmaking van door de minister beschikbaar middel" />
+      </node>
+      <node concept="1FQA6B" id="UjCAmC1DrN" role="1zF96y">
+        <ref role="1FQA6$" node="6u5qVtI13Th" resolve="onderneming in van faillissement dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming" />
+      </node>
     </node>
   </node>
   <node concept="cu0$f" id="4VrbcpCY21V">
@@ -579,6 +698,9 @@
   <node concept="cu0$f" id="4VrbcpCY228">
     <property role="TrG5h" value="indienen" />
     <property role="3GE5qa" value="facts" />
+    <property role="3PoDF5" value="0" />
+    <property role="2Dfldr" value="true" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQdb" role="1GVO30">
       <property role="1GVPtb" value="indienen" />
       <property role="1GVPtd" value="English" />
@@ -617,11 +739,67 @@
     </node>
   </node>
   <node concept="cu0$f" id="4VrbcpCY239">
-    <property role="TrG5h" value="ontvangen" />
+    <property role="TrG5h" value="ontvangen cur" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="3" />
+    <property role="2CxiQb" value="true" />
+    <property role="2CxiQa" value="true" />
+    <property role="2CxiQ8" value="true" />
     <node concept="1GVOM6" id="4gg1F7ZHQe2" role="1GVO30">
-      <property role="1GVPtb" value="ontvangen" />
+      <property role="1GVPtb" value="ontvangen cur" />
       <property role="1GVPtd" value="English" />
+    </node>
+    <node concept="cu0$f" id="7AJx267uCk5" role="2CwFfY">
+      <property role="TrG5h" value="ontvangen" />
+      <property role="3GE5qa" value="facts" />
+      <property role="2CxiQ9" value="0" />
+      <property role="2CxiQb" value="true" />
+      <node concept="1GVOM6" id="7AJx267uCk6" role="1GVO30">
+        <property role="1GVPtb" value="ontvangen 0" />
+        <property role="1GVPtd" value="English" />
+      </node>
+    </node>
+    <node concept="cu0$f" id="7AJx267uCkn" role="2CwFfY">
+      <property role="TrG5h" value="ontvangen 1" />
+      <property role="3GE5qa" value="facts" />
+      <property role="2CxiQ9" value="1" />
+      <property role="2CxiQb" value="true" />
+      <property role="2CxiQ8" value="true" />
+      <node concept="1GVOM6" id="7AJx267uCko" role="1GVO30">
+        <property role="1GVPtb" value="ontvangen 1" />
+        <property role="1GVPtd" value="English" />
+      </node>
+      <node concept="1RnfdX" id="7AJx267uCkr" role="coNO9" />
+    </node>
+    <node concept="cu0$f" id="7AJx267uCkG" role="2CwFfY">
+      <property role="TrG5h" value="ontvangen 2" />
+      <property role="3GE5qa" value="facts" />
+      <property role="2CxiQ9" value="2" />
+      <property role="2CxiQb" value="true" />
+      <property role="2CxiQ8" value="true" />
+      <property role="2CxiQa" value="true" />
+      <node concept="1GVOM6" id="7AJx267uCkH" role="1GVO30">
+        <property role="1GVPtb" value="ontvangen 2" />
+        <property role="1GVPtd" value="English" />
+      </node>
+      <node concept="1RnfdX" id="7AJx267uCkK" role="coNO9">
+        <node concept="1FQA6B" id="7AJx267uCkL" role="1zF96y">
+          <ref role="1FQA6$" node="6u5qVtI13UA" resolve="in werking met ingang van de dag na de datum van van de staatscourant waarin zij" />
+        </node>
+      </node>
+    </node>
+    <node concept="1RnfdX" id="7AJx267BL2D" role="coNO9">
+      <node concept="1FQA6B" id="7AJx267BL2E" role="1zF96y">
+        <ref role="1FQA6$" node="6u5qVtI13UA" resolve="in werking met ingang van de dag na de datum van van de staatscourant waarin zij" />
+      </node>
+    </node>
+    <node concept="cog_b" id="7AJx267BL1G" role="2pmM46">
+      <property role="1tl0gq" value="English" />
+      <node concept="2hPCcK" id="7AJx267BL1H" role="2hN6Sa">
+        <node concept="19SUe$" id="7AJx267BL1I" role="19SJt6">
+          <property role="19SUeA" value="Hello World" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="cu0$f" id="4VrbcpCY23m">
@@ -767,6 +945,368 @@
     <node concept="1GVOM6" id="6dr6Qk8LKFR" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="test ver 1" />
+    </node>
+  </node>
+  <node concept="cu0$f" id="UjCAmBO7k9">
+    <property role="TrG5h" value="afwijzen - c n" />
+    <property role="3GE5qa" value="facts" />
+    <property role="3PoDF5" value="3" />
+    <node concept="1GVOM6" id="UjCAmBO7ka" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="afwijzen - c n" />
+    </node>
+    <node concept="cu0$f" id="UjCAmBO7kb" role="3Rha5p">
+      <property role="TrG5h" value="afwijzen - 0" />
+      <property role="3GE5qa" value="facts" />
+      <property role="3PoDF5" value="0" />
+      <node concept="1GVOM6" id="UjCAmBO7kc" role="1GVO30">
+        <property role="1GVPtd" value="English" />
+        <property role="1GVPtb" value="afwijzen - 0" />
+      </node>
+    </node>
+    <node concept="cu0$f" id="UjCAmBO7kd" role="3Rha5p">
+      <property role="TrG5h" value="afwijzen - 1" />
+      <property role="3GE5qa" value="facts" />
+      <property role="3PoDF5" value="1" />
+      <node concept="1GVOM6" id="UjCAmBO7ke" role="1GVO30">
+        <property role="1GVPtd" value="English" />
+        <property role="1GVPtb" value="afwijzen - 1" />
+      </node>
+      <node concept="1RnfdX" id="UjCAmBO7kf" role="coNO9" />
+    </node>
+    <node concept="cu0$f" id="UjCAmBO7kg" role="3Rha5p">
+      <property role="TrG5h" value="afwijzen - 2" />
+      <property role="3GE5qa" value="facts" />
+      <property role="3PoDF5" value="2" />
+      <node concept="1GVOM6" id="UjCAmBO7kh" role="1GVO30">
+        <property role="1GVPtd" value="English" />
+        <property role="1GVPtb" value="afwijzen - 2" />
+      </node>
+      <node concept="1zEWgd" id="UjCAmBO7ki" role="coNO9">
+        <node concept="1FQA6B" id="UjCAmBO7kj" role="1zF96y">
+          <ref role="1FQA6$" node="4VrbcpCY228" resolve="indienen" />
+        </node>
+        <node concept="1FQA6B" id="UjCAmBO7kk" role="1zF96y">
+          <ref role="1FQA6$" node="6u5qVtI13TD" resolve="een aanvraag wordt ingediend met gebruikmaking van door de minister beschikbaar middel" />
+        </node>
+        <node concept="1FQA6B" id="UjCAmBO7kl" role="1zF96y">
+          <ref role="1FQA6$" node="6u5qVtI13Th" resolve="onderneming in van faillissement dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming" />
+        </node>
+      </node>
+    </node>
+    <node concept="1zEWgd" id="UjCAmBO8yR" role="coNO9">
+      <node concept="1FQA6B" id="UjCAmBO8yS" role="1zF96y">
+        <ref role="1FQA6$" node="4VrbcpCY228" resolve="indienen" />
+      </node>
+      <node concept="1FQA6B" id="UjCAmBO8yT" role="1zF96y">
+        <ref role="1FQA6$" node="6u5qVtI13TD" resolve="een aanvraag wordt ingediend met gebruikmaking van door de minister beschikbaar middel" />
+      </node>
+      <node concept="1FQA6B" id="UjCAmBO8yU" role="1zF96y">
+        <ref role="1FQA6$" node="6u5qVtI13Th" resolve="onderneming in van faillissement dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming" />
+      </node>
+    </node>
+  </node>
+  <node concept="cu0$f" id="LZYRE_Nvyr">
+    <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="2" />
+    <property role="TrG5h" value="v_1" />
+    <property role="2Dfldr" value="true" />
+    <node concept="1GVOM6" id="LZYRE_Nvys" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="v_1" />
+    </node>
+  </node>
+  <node concept="cu0$f" id="7AJx266Mgax">
+    <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="3" />
+    <property role="TrG5h" value="current" />
+    <node concept="1GVOM6" id="7AJx266Mgay" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="current" />
+    </node>
+    <node concept="cu0$f" id="7AJx2670fg7" role="2CwFfY">
+      <property role="3GE5qa" value="facts" />
+      <property role="2CxiQ9" value="0" />
+      <property role="TrG5h" value="v 0" />
+      <node concept="1GVOM6" id="7AJx2670fg8" role="1GVO30">
+        <property role="1GVPtd" value="English" />
+        <property role="1GVPtb" value="v 0" />
+      </node>
+    </node>
+    <node concept="cu0$f" id="7AJx2670fDZ" role="2CwFfY">
+      <property role="3GE5qa" value="facts" />
+      <property role="2CxiQ9" value="1" />
+      <property role="TrG5h" value="v 1" />
+      <node concept="1GVOM6" id="7AJx2670fE0" role="1GVO30">
+        <property role="1GVPtd" value="English" />
+        <property role="1GVPtb" value="v 1" />
+      </node>
+      <node concept="1RnfdX" id="7AJx2670fE3" role="coNO9" />
+    </node>
+    <node concept="cu0$f" id="7AJx2670fEk" role="2CwFfY">
+      <property role="3GE5qa" value="facts" />
+      <property role="2CxiQ9" value="2" />
+      <property role="TrG5h" value="v 2" />
+      <node concept="1GVOM6" id="7AJx2670fEl" role="1GVO30">
+        <property role="1GVPtd" value="English" />
+        <property role="1GVPtb" value="v 2" />
+      </node>
+      <node concept="1RnfdX" id="7AJx2670fEo" role="coNO9">
+        <node concept="1FQA6B" id="7AJx2670fEp" role="1zF96y">
+          <ref role="1FQA6$" node="6u5qVtI13UA" resolve="in werking met ingang van de dag na de datum van van de staatscourant waarin zij" />
+        </node>
+      </node>
+    </node>
+    <node concept="1RnfdX" id="7AJx2674WrM" role="coNO9">
+      <node concept="1FQA6B" id="7AJx2674WrN" role="1zF96y">
+        <ref role="1FQA6$" node="6u5qVtI13UA" resolve="in werking met ingang van de dag na de datum van van de staatscourant waarin zij" />
+      </node>
+    </node>
+    <node concept="cog_b" id="7AJx2674WqY" role="2pmM46">
+      <property role="1tl0gq" value="English" />
+      <node concept="2hPCcK" id="7AJx2674WqZ" role="2hN6Sa">
+        <node concept="19SUe$" id="7AJx2674Wr0" role="19SJt6">
+          <property role="19SUeA" value=" hello world" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="mu5$5" id="7AJx267BLsX">
+    <property role="3GE5qa" value="acts" />
+    <property role="2CxiQ9" value="5" />
+    <property role="TrG5h" value="ver cur" />
+    <property role="2Dfldr" value="true" />
+    <node concept="1GVOM6" id="7AJx267BLt2" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="ver cur" />
+    </node>
+    <node concept="mu5$5" id="7AJx267BLQQ" role="2CwFfY">
+      <property role="3GE5qa" value="acts" />
+      <property role="2CxiQ9" value="0" />
+      <property role="TrG5h" value="ver 0" />
+      <node concept="1FQA6B" id="7AJx267BLQR" role="3H36mW" />
+      <node concept="1FQA6B" id="7AJx267BLQS" role="3H36l7" />
+      <node concept="1FQA6B" id="7AJx267BLQT" role="3H36lm" />
+      <node concept="1FQA6B" id="7AJx267BLQU" role="3FTnq6" />
+      <node concept="1GVOM6" id="7AJx267BLQV" role="1GVO30">
+        <property role="1GVPtd" value="English" />
+        <property role="1GVPtb" value="ver 0" />
+      </node>
+    </node>
+    <node concept="mu5$5" id="7AJx267BMED" role="2CwFfY">
+      <property role="3GE5qa" value="acts" />
+      <property role="2CxiQ9" value="1" />
+      <property role="TrG5h" value="ver 1" />
+      <node concept="1FQA6B" id="7AJx267BMEE" role="3H36mW">
+        <ref role="1FQA6$" node="6ytzK$sGSYA" resolve="minister" />
+      </node>
+      <node concept="1FQA6B" id="7AJx267BMEF" role="3H36l7">
+        <ref role="1FQA6$" node="6u5qVtI13U$" resolve="Deze beleidsregel" />
+      </node>
+      <node concept="1FQA6B" id="7AJx267BMEG" role="3H36lm" />
+      <node concept="1FQA6B" id="7AJx267BMEH" role="3FTnq6">
+        <ref role="1FQA6$" node="6u5qVtI13SP" resolve="n Nederland gevestigde onderneming als bedoeld in , niet zijnde een overheidsbedrijf" />
+      </node>
+      <node concept="1GVOM6" id="7AJx267BMEI" role="1GVO30">
+        <property role="1GVPtd" value="English" />
+        <property role="1GVPtb" value="ver 1" />
+      </node>
+    </node>
+    <node concept="mu5$5" id="7AJx267BMFd" role="2CwFfY">
+      <property role="3GE5qa" value="acts" />
+      <property role="2CxiQ9" value="2" />
+      <property role="TrG5h" value="ver 2" />
+      <node concept="1FQA6B" id="7AJx267BMFe" role="3H36mW">
+        <ref role="1FQA6$" node="6ytzK$sGSYA" resolve="minister" />
+      </node>
+      <node concept="1FQA6B" id="7AJx267BMFf" role="3H36l7">
+        <ref role="1FQA6$" node="6u5qVtI13U$" resolve="Deze beleidsregel" />
+      </node>
+      <node concept="1FQA6B" id="7AJx267BMFg" role="3H36lm">
+        <ref role="1FQA6$" node="7AJx266Mgax" resolve="current" />
+      </node>
+      <node concept="1FQA6B" id="7AJx267BMFh" role="3FTnq6">
+        <ref role="1FQA6$" node="6u5qVtI13SP" resolve="n Nederland gevestigde onderneming als bedoeld in , niet zijnde een overheidsbedrijf" />
+      </node>
+      <node concept="1GVOM6" id="7AJx267BMFi" role="1GVO30">
+        <property role="1GVPtd" value="English" />
+        <property role="1GVPtb" value="ver 2" />
+      </node>
+    </node>
+    <node concept="mu5$5" id="7AJx267BMG1" role="2CwFfY">
+      <property role="3GE5qa" value="acts" />
+      <property role="2CxiQ9" value="3" />
+      <property role="TrG5h" value="ver 3" />
+      <node concept="1FQA6B" id="7AJx267BMG2" role="3H36mW">
+        <ref role="1FQA6$" node="6ytzK$sGSYA" resolve="minister" />
+      </node>
+      <node concept="1FQA6B" id="7AJx267BMG3" role="3H36l7">
+        <ref role="1FQA6$" node="6u5qVtI13U$" resolve="Deze beleidsregel" />
+      </node>
+      <node concept="1FQA6B" id="7AJx267BMG4" role="3H36lm">
+        <ref role="1FQA6$" node="7AJx266Mgax" resolve="current" />
+      </node>
+      <node concept="1FQA6B" id="7AJx267BMG5" role="3FTnq6">
+        <ref role="1FQA6$" node="6u5qVtI13SP" resolve="n Nederland gevestigde onderneming als bedoeld in , niet zijnde een overheidsbedrijf" />
+      </node>
+      <node concept="1GVOM6" id="7AJx267BMG6" role="1GVO30">
+        <property role="1GVPtd" value="English" />
+        <property role="1GVPtb" value="ver 3" />
+      </node>
+      <node concept="1RnfdX" id="7AJx267BMGp" role="mu3T0" />
+    </node>
+    <node concept="mu5$5" id="7AJx267BMHy" role="2CwFfY">
+      <property role="3GE5qa" value="acts" />
+      <property role="2CxiQ9" value="4" />
+      <property role="TrG5h" value="ver 4" />
+      <node concept="1FQA6B" id="7AJx267BMHz" role="3H36mW">
+        <ref role="1FQA6$" node="6ytzK$sGSYA" resolve="minister" />
+      </node>
+      <node concept="1FQA6B" id="7AJx267BMH$" role="3H36l7">
+        <ref role="1FQA6$" node="6u5qVtI13U$" resolve="Deze beleidsregel" />
+      </node>
+      <node concept="1FQA6B" id="7AJx267BMH_" role="3H36lm">
+        <ref role="1FQA6$" node="7AJx266Mgax" resolve="current" />
+      </node>
+      <node concept="1FQA6B" id="7AJx267BMHA" role="3FTnq6">
+        <ref role="1FQA6$" node="6u5qVtI13SP" resolve="n Nederland gevestigde onderneming als bedoeld in , niet zijnde een overheidsbedrijf" />
+      </node>
+      <node concept="1GVOM6" id="7AJx267BMHB" role="1GVO30">
+        <property role="1GVPtd" value="English" />
+        <property role="1GVPtb" value="ver 4" />
+      </node>
+      <node concept="1RnfdX" id="7AJx267BMHU" role="mu3T0" />
+    </node>
+    <node concept="1RnfdX" id="7AJx267BMMv" role="mu3T0" />
+    <node concept="2cz2WB" id="7AJx267J3km" role="mu1cf">
+      <ref role="2cz2WA" node="7AJx267J0f5" resolve="ver cur" />
+    </node>
+    <node concept="2cz2WB" id="7AJx267J48J" role="mu1c7">
+      <ref role="2cz2WA" node="7AJx267J0f5" resolve="ver cur" />
+    </node>
+    <node concept="1FQA6B" id="7AJx267BMMw" role="3H36mW">
+      <ref role="1FQA6$" node="6ytzK$sGSYA" resolve="minister" />
+    </node>
+    <node concept="1FQA6B" id="7AJx267BMMx" role="3H36l7">
+      <ref role="1FQA6$" node="6u5qVtI13U$" resolve="Deze beleidsregel" />
+    </node>
+    <node concept="1FQA6B" id="7AJx267BMMy" role="3H36lm">
+      <ref role="1FQA6$" node="7AJx266Mgax" resolve="current" />
+    </node>
+    <node concept="1FQA6B" id="7AJx267BMMz" role="3FTnq6">
+      <ref role="1FQA6$" node="6u5qVtI13SP" resolve="n Nederland gevestigde onderneming als bedoeld in , niet zijnde een overheidsbedrijf" />
+    </node>
+    <node concept="cog_b" id="7AJx267BMJF" role="2pmM46">
+      <property role="1tl0gq" value="English" />
+      <node concept="2hPCcK" id="7AJx267BMJG" role="2hN6Sa">
+        <node concept="19SUe$" id="7AJx267BMJH" role="19SJt6">
+          <property role="19SUeA" value="Hello world" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2cz0EU" id="7AJx267J0f5">
+    <property role="2CxiQ9" value="5" />
+    <property role="TrG5h" value="ver cur" />
+    <node concept="1GVOM6" id="7AJx267J0f6" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="ver cur" />
+    </node>
+    <node concept="2cz0EU" id="7AJx267J0CR" role="2CwFfY">
+      <property role="2CxiQ9" value="0" />
+      <property role="TrG5h" value="ver 0" />
+      <node concept="1GVOM6" id="7AJx267J0CS" role="1GVO30">
+        <property role="1GVPtd" value="English" />
+        <property role="1GVPtb" value="ver 0" />
+      </node>
+    </node>
+    <node concept="2cz0EU" id="7AJx267J0D9" role="2CwFfY">
+      <property role="2CxiQ9" value="1" />
+      <property role="TrG5h" value="ver 1" />
+      <node concept="1GVOM6" id="7AJx267J0Da" role="1GVO30">
+        <property role="1GVPtd" value="English" />
+        <property role="1GVPtb" value="ver 1" />
+      </node>
+      <node concept="1FQA6B" id="7AJx267J0Dd" role="3H37fS">
+        <ref role="1FQA6$" node="6u5qVtI13U$" resolve="Deze beleidsregel" />
+      </node>
+    </node>
+    <node concept="2cz0EU" id="7AJx267J0Du" role="2CwFfY">
+      <property role="2CxiQ9" value="2" />
+      <property role="TrG5h" value="ver 2" />
+      <node concept="1GVOM6" id="7AJx267J0Dv" role="1GVO30">
+        <property role="1GVPtd" value="English" />
+        <property role="1GVPtb" value="ver 2" />
+      </node>
+      <node concept="1FQA6B" id="7AJx267J0Dy" role="3H37fS">
+        <ref role="1FQA6$" node="6u5qVtI13U$" resolve="Deze beleidsregel" />
+      </node>
+      <node concept="1FQA6B" id="7AJx267J0DA" role="3H37fL">
+        <ref role="1FQA6$" node="6ytzK$sGSYA" resolve="minister" />
+      </node>
+    </node>
+    <node concept="2cz0EU" id="7AJx267J3Ik" role="2CwFfY">
+      <property role="2CxiQ9" value="3" />
+      <property role="TrG5h" value="ver 3" />
+      <node concept="1GVOM6" id="7AJx267J3Il" role="1GVO30">
+        <property role="1GVPtd" value="English" />
+        <property role="1GVPtb" value="ver 3" />
+      </node>
+      <node concept="1FQA6B" id="7AJx267J3Io" role="3H37fS">
+        <ref role="1FQA6$" node="6u5qVtI13U$" resolve="Deze beleidsregel" />
+      </node>
+      <node concept="1FQA6B" id="7AJx267J3Is" role="3H37fL">
+        <ref role="1FQA6$" node="6ytzK$sGSYA" resolve="minister" />
+      </node>
+    </node>
+    <node concept="2cz0EU" id="7AJx267J4Af" role="2CwFfY">
+      <property role="2CxiQ9" value="4" />
+      <property role="TrG5h" value="ver 4" />
+      <node concept="1GVOM6" id="7AJx267J4Ag" role="1GVO30">
+        <property role="1GVPtd" value="English" />
+        <property role="1GVPtb" value="ver 4" />
+      </node>
+      <node concept="1FQA6B" id="7AJx267J4Au" role="3H37fS">
+        <ref role="1FQA6$" node="6u5qVtI13U$" resolve="Deze beleidsregel" />
+      </node>
+      <node concept="1FQA6B" id="7AJx267J4Av" role="3H37fL">
+        <ref role="1FQA6$" node="6ytzK$sGSYA" resolve="minister" />
+      </node>
+    </node>
+    <node concept="1FQA6B" id="7AJx267J4Fb" role="3H37fS">
+      <ref role="1FQA6$" node="6u5qVtI13U$" resolve="Deze beleidsregel" />
+    </node>
+    <node concept="1FQA6B" id="7AJx267J4Fc" role="3H37fL">
+      <ref role="1FQA6$" node="6ytzK$sGSYA" resolve="minister" />
+    </node>
+    <node concept="3jSua8" id="7AJx267J4Cu" role="3mAC56">
+      <ref role="3jSua9" node="6u5qVtI13Tk" resolve="You shouldnt see mee" />
+    </node>
+    <node concept="cog_b" id="7AJx267J4C$" role="2pmM46">
+      <property role="1tl0gq" value="English" />
+      <node concept="2hPCcK" id="7AJx267J4C_" role="2hN6Sa">
+        <node concept="19SUe$" id="7AJx267J4CA" role="19SJt6">
+          <property role="19SUeA" value="Hello World" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="cu0$f" id="7AJx2680w9L">
+    <property role="3GE5qa" value="facts" />
+    <property role="TrG5h" value="I Am current" />
+    <property role="2CxiQ9" value="1" />
+    <node concept="1GVOM6" id="7AJx2680w9M" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="I Am current" />
+    </node>
+    <node concept="cu0$f" id="7AJx2680NHM" role="2CwFfY">
+      <property role="3GE5qa" value="facts" />
+      <property role="TrG5h" value="Try and find me" />
+      <property role="2CxiQ9" value="0" />
+      <node concept="1GVOM6" id="7AJx2680NHN" role="1GVO30">
+        <property role="1GVPtd" value="English" />
+        <property role="1GVPtb" value="Try and find me" />
+      </node>
     </node>
   </node>
 </model>
