@@ -26514,7 +26514,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="19sjjnltRRP" role="3cqZAp" />
         <node concept="3clFbF" id="19sjjnltZr6" role="3cqZAp">
           <node concept="1rXfSq" id="19sjjnltZr5" role="3clFbG">
             <ref role="37wK5l" node="19sjjnltZqY" resolve="walkTree" />
@@ -26616,6 +26615,10 @@
                   <ref role="355D3t" to="lnwe:4BELQW_1oJD" resolve="TranslatedName" />
                   <ref role="355D3u" to="lnwe:4BELQW_1p0y" resolve="language" />
                 </node>
+                <node concept="355D3s" id="49rQUdxn2kr" role="HW$Y0">
+                  <ref role="355D3t" to="lnwe:LZYRE$YEeo" resolve="IHasVersionAndValidation" />
+                  <ref role="355D3u" to="lnwe:LZYRE$YHrN" resolve="version" />
+                </node>
               </node>
             </node>
           </node>
@@ -26672,6 +26675,10 @@
                 <node concept="359W_D" id="2gxcy0GYSHk" role="HW$Y0">
                   <ref role="359W_E" to="lnwe:27H3E6Hoggr" resolve="Duty" />
                   <ref role="359W_F" to="lnwe:27H3E6Hs_5U" resolve="dutyComponents" />
+                </node>
+                <node concept="359W_D" id="3UySfMPls6E" role="HW$Y0">
+                  <ref role="359W_F" to="lnwe:LZYRE$Zky4" resolve="versions" />
+                  <ref role="359W_E" to="lnwe:LZYRE$YEeo" resolve="IHasVersionAndValidation" />
                 </node>
               </node>
             </node>
@@ -27161,6 +27168,26 @@
             </node>
           </node>
           <node concept="3clFbS" id="19sjjnlu3B6" role="2LFqv$">
+            <node concept="3clFbJ" id="3UySfMPwx2v" role="3cqZAp">
+              <node concept="3clFbS" id="3UySfMPwx2x" role="3clFbx">
+                <node concept="3N13vt" id="3UySfMPwJKW" role="3cqZAp" />
+              </node>
+              <node concept="2OqwBi" id="3UySfMPwAky" role="3clFbw">
+                <node concept="37vLTw" id="3UySfMPw_yk" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2gxcy0GYMh1" resolve="excludedLinks" />
+                </node>
+                <node concept="3JPx81" id="3UySfMPwChL" role="2OqNvi">
+                  <node concept="2OqwBi" id="3UySfMPwCE9" role="25WWJ7">
+                    <node concept="2GrUjf" id="3UySfMPwClM" role="2Oq$k0">
+                      <ref role="2Gs0qQ" node="19sjjnlu3B2" resolve="child" />
+                    </node>
+                    <node concept="liA8E" id="3UySfMPwGQf" role="2OqNvi">
+                      <ref role="37wK5l" to="mhbf:~SNode.getContainmentLink()" resolve="getContainmentLink" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="19sjjnlu6ke" role="3cqZAp">
               <node concept="1rXfSq" id="19sjjnlu6kd" role="3clFbG">
                 <ref role="37wK5l" node="19sjjnltZqY" resolve="walkTree" />

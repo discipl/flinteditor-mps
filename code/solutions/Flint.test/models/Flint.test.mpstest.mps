@@ -4,7 +4,7 @@
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="11" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="12" />
     <use id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi" version="0" />
     <use id="68015e26-cc4d-49db-8715-b643faea1769" name="jetbrains.mps.lang.test.generator" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
@@ -318,6 +318,9 @@
       </concept>
       <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
         <child id="6983418503075280678" name="sources" index="2pmM46" />
+      </concept>
+      <concept id="900714954669859736" name="Flint.structure.IHasVersionAndValidation" flags="ng" index="2Cxlzy">
+        <property id="900714954669872883" name="version" index="2CxiQ9" />
       </concept>
       <concept id="589729100932390229" name="Flint.structure.IHasLanguage" flags="ng" index="ITzSF">
         <child id="5326288789495449519" name="translatedNames" index="1GVO30" />
@@ -1003,6 +1006,7 @@
         <node concept="mu5$5" id="28ttwYheEci" role="3_ImHT">
           <property role="TrG5h" value="TestAct" />
           <property role="207Gpp" value="test" />
+          <property role="2CxiQ9" value="0" />
           <node concept="1FQA6B" id="28ttwYheEcv" role="3H36l7">
             <ref role="1FQA6$" node="28ttwYheEcq" resolve="placeholder" />
           </node>
@@ -1035,6 +1039,7 @@
         </node>
         <node concept="cu0$f" id="28ttwYheEcq" role="3_ImGK">
           <property role="TrG5h" value="placeholder" />
+          <property role="2CxiQ9" value="0" />
           <node concept="1GVOM6" id="4OXxETsohh1" role="1GVO30">
             <property role="1GVPtd" value="English" />
             <property role="1GVPtb" value="placeholder" />
@@ -1149,6 +1154,7 @@
         <property role="TrG5h" value="Test" />
         <node concept="cu0$f" id="28ttwYheEfT" role="3_ImGK">
           <property role="TrG5h" value="placeholder" />
+          <property role="2CxiQ9" value="0" />
           <node concept="1GVOM6" id="4OXxETsohh3" role="1GVO30">
             <property role="1GVPtd" value="English" />
             <property role="1GVPtb" value="placeholder" />
@@ -1156,6 +1162,7 @@
         </node>
         <node concept="cu0$f" id="6rq68Pz$OMp" role="3_ImGK">
           <property role="TrG5h" value="text" />
+          <property role="2CxiQ9" value="0" />
           <node concept="cog_b" id="b2m5p4v4PK" role="2pmM46">
             <property role="1tl0gq" value="English" />
             <ref role="cog$q" node="28ttwYheEcg" resolve="Source1" />
@@ -1185,6 +1192,7 @@
         <node concept="mu5$5" id="28ttwYheEfV" role="3_ImHT">
           <property role="TrG5h" value="TestAct" />
           <property role="207Gpp" value="test" />
+          <property role="2CxiQ9" value="0" />
           <node concept="1FQA6B" id="45WVu5_pzMi" role="3H36mW">
             <ref role="1FQA6$" node="6rq68Pz$OMp" resolve="text" />
           </node>
@@ -2067,6 +2075,7 @@
           <property role="TrG5h" value="Duty1" />
           <property role="3GE5qa" value="duties" />
           <property role="3ANC2_" value="Duty Explanation" />
+          <property role="2CxiQ9" value="0" />
           <node concept="cog_b" id="4pyf5wCP3AQ" role="2pmM46">
             <property role="1tl0gq" value="English" />
             <property role="3ANC2_" value="TestSource" />
@@ -2091,6 +2100,7 @@
           <property role="TrG5h" value="Person" />
           <property role="3GE5qa" value="facts" />
           <property role="3ANC2_" value="Person Explanation" />
+          <property role="2CxiQ9" value="0" />
           <node concept="cog_b" id="4pyf5wCP3Ab" role="2pmM46">
             <property role="1tl0gq" value="English" />
             <property role="3ANC2_" value="TestSource" />
@@ -2109,6 +2119,7 @@
         <node concept="cu0$f" id="4pyf5wCP3Ag" role="3_ImGK">
           <property role="TrG5h" value="Literals" />
           <property role="3GE5qa" value="facts" />
+          <property role="2CxiQ9" value="0" />
           <node concept="1zEWgd" id="4pyf5wCP3Ah" role="coNO9">
             <node concept="1zEXHp" id="4pyf5wCP3Ai" role="1zF96y">
               <node concept="1zEXQY" id="4pyf5wCP3Aj" role="1zEXIt" />
@@ -2132,6 +2143,7 @@
         <node concept="cu0$f" id="4pyf5wCP3Ao" role="3_ImGK">
           <property role="TrG5h" value="Reference" />
           <property role="3GE5qa" value="facts" />
+          <property role="2CxiQ9" value="0" />
           <node concept="cog_b" id="4pyf5wCP3Ap" role="2pmM46">
             <property role="1tl0gq" value="English" />
             <property role="3ANC2_" value="TestSource" />
@@ -2154,6 +2166,7 @@
         <node concept="cu0$f" id="4pyf5wCP3Av" role="3_ImGK">
           <property role="TrG5h" value="List" />
           <property role="3GE5qa" value="facts" />
+          <property role="2CxiQ9" value="0" />
           <node concept="1zEXHe" id="4pyf5wCP3Aw" role="coNO9">
             <property role="1zF6e5" value="ListName" />
             <node concept="1FQA6B" id="4pyf5wCP3Ax" role="1zF6e3">
@@ -2168,6 +2181,7 @@
         <node concept="mu5$5" id="4pyf5wCP3Ay" role="3_ImHT">
           <property role="TrG5h" value="Act1" />
           <property role="3GE5qa" value="acts" />
+          <property role="2CxiQ9" value="0" />
           <node concept="cog_b" id="4pyf5wCP3AA" role="2pmM46">
             <property role="1tl0gq" value="English" />
             <property role="3ANC2_" value="TestSource" />
@@ -2222,6 +2236,7 @@
           <property role="TrG5h" value="Act2" />
           <property role="3GE5qa" value="acts" />
           <property role="3ANC2_" value="Test Explananation" />
+          <property role="2CxiQ9" value="0" />
           <node concept="1FQA6B" id="4pyf5wCP3AJ" role="3H36mW">
             <ref role="1FQA6$" node="4pyf5wCP3Ag" resolve="Literals" />
           </node>
@@ -5269,6 +5284,7 @@
           <property role="TrG5h" value="bedrag" />
           <property role="3GE5qa" value="facts" />
           <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+          <property role="2CxiQ9" value="0" />
           <node concept="1GVOM6" id="4OXxETsoiYO" role="1GVO30">
             <property role="1GVPtd" value="English" />
             <property role="1GVPtb" value="bedrag" />
@@ -5277,6 +5293,7 @@
         <node concept="cu0$f" id="4DLYcFhRmCi" role="3_ImGK">
           <property role="TrG5h" value="aanvraag" />
           <property role="3GE5qa" value="facts" />
+          <property role="2CxiQ9" value="0" />
           <node concept="1RnfdX" id="4DLYcFhRmCj" role="coNO9">
             <node concept="1FQA6B" id="4DLYcFhRmCk" role="1zF96y">
               <ref role="1FQA6$" node="4DLYcFhRmCl" resolve="burger" />
@@ -5294,6 +5311,7 @@
           <property role="TrG5h" value="burger" />
           <property role="3GE5qa" value="facts" />
           <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+          <property role="2CxiQ9" value="0" />
           <node concept="1GVOM6" id="4OXxETsoiYQ" role="1GVO30">
             <property role="1GVPtd" value="English" />
             <property role="1GVPtb" value="burger" />
@@ -5302,6 +5320,7 @@
         <node concept="cu0$f" id="4DLYcFhRmCn" role="3_ImGK">
           <property role="TrG5h" value="bedrag projection" />
           <property role="3GE5qa" value="facts" />
+          <property role="2CxiQ9" value="0" />
           <node concept="1Rn4jf" id="4DLYcFhRmCo" role="coNO9">
             <node concept="1FQA6B" id="4DLYcFhRnVT" role="1Rn3Lm">
               <ref role="1FQA6$" node="4DLYcFhRmCi" resolve="aanvraag" />
@@ -5319,6 +5338,7 @@
           <property role="TrG5h" value="verzoek" />
           <property role="3GE5qa" value="facts" />
           <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+          <property role="2CxiQ9" value="0" />
           <node concept="1GVOM6" id="4OXxETsoiYS" role="1GVO30">
             <property role="1GVPtd" value="English" />
             <property role="1GVPtb" value="verzoek" />
@@ -5327,6 +5347,7 @@
         <node concept="cu0$f" id="4DLYcFhRmCs" role="3_ImGK">
           <property role="TrG5h" value="ambtenaar" />
           <property role="3GE5qa" value="facts" />
+          <property role="2CxiQ9" value="0" />
           <node concept="1GVOM6" id="4OXxETsoiYT" role="1GVO30">
             <property role="1GVPtd" value="English" />
             <property role="1GVPtb" value="ambtenaar" />
@@ -5335,6 +5356,7 @@
         <node concept="cu0$f" id="4DLYcFhRmCt" role="3_ImGK">
           <property role="TrG5h" value="burger met aanvraag" />
           <property role="3GE5qa" value="facts" />
+          <property role="2CxiQ9" value="0" />
           <node concept="1Rn4jf" id="4DLYcFhRmCu" role="coNO9">
             <node concept="1FQA6B" id="4DLYcFhRnWf" role="1Rn3Lm">
               <ref role="1FQA6$" node="4DLYcFhRmCi" resolve="aanvraag" />
@@ -5351,6 +5373,7 @@
         <node concept="cu0$f" id="4DLYcFhRmCx" role="3_ImGK">
           <property role="TrG5h" value="person" />
           <property role="3GE5qa" value="facts" />
+          <property role="2CxiQ9" value="0" />
           <node concept="1GVOM6" id="4OXxETsoiYV" role="1GVO30">
             <property role="1GVPtd" value="English" />
             <property role="1GVPtb" value="person" />
@@ -5360,6 +5383,7 @@
           <property role="TrG5h" value="anvrage" />
           <property role="3GE5qa" value="facts" />
           <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+          <property role="2CxiQ9" value="0" />
           <node concept="1GVOM6" id="4OXxETsoiYW" role="1GVO30">
             <property role="1GVPtd" value="English" />
             <property role="1GVPtb" value="anvrage" />
@@ -5369,6 +5393,7 @@
           <property role="TrG5h" value="oekenne" />
           <property role="3GE5qa" value="facts" />
           <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+          <property role="2CxiQ9" value="0" />
           <node concept="1GVOM6" id="4OXxETsoiYX" role="1GVO30">
             <property role="1GVPtd" value="English" />
             <property role="1GVPtb" value="oekenne" />
@@ -5378,6 +5403,7 @@
           <property role="TrG5h" value="ntrekke" />
           <property role="3GE5qa" value="facts" />
           <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+          <property role="2CxiQ9" value="0" />
           <node concept="1GVOM6" id="4OXxETsoiYY" role="1GVO30">
             <property role="1GVPtd" value="English" />
             <property role="1GVPtb" value="ntrekke" />
@@ -5387,6 +5413,7 @@
           <property role="TrG5h" value="fwijze" />
           <property role="3GE5qa" value="facts" />
           <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+          <property role="2CxiQ9" value="0" />
           <node concept="1GVOM6" id="4OXxETsoiYZ" role="1GVO30">
             <property role="1GVPtd" value="English" />
             <property role="1GVPtb" value="fwijze" />
@@ -5395,6 +5422,7 @@
         <node concept="mu5$5" id="4DLYcFhRmCy" role="3_ImHT">
           <property role="TrG5h" value="subsidie aanvragen" />
           <property role="3GE5qa" value="acts" />
+          <property role="2CxiQ9" value="0" />
           <node concept="cog_b" id="4DLYcFhRmCB" role="2pmM46">
             <property role="1tl0gq" value="English" />
             <property role="3ANC2_" value="Source3" />
@@ -5477,6 +5505,7 @@
         <node concept="mu5$5" id="4DLYcFhRmDa" role="3_ImHT">
           <property role="TrG5h" value="subsidie aanvraag toekennen" />
           <property role="3GE5qa" value="acts" />
+          <property role="2CxiQ9" value="0" />
           <node concept="cog_b" id="4DLYcFhRmDf" role="2pmM46">
             <property role="1tl0gq" value="English" />
             <property role="3ANC2_" value="TestSource" />
@@ -5576,6 +5605,7 @@
         <node concept="mu5$5" id="4DLYcFhRmDT" role="3_ImHT">
           <property role="TrG5h" value="subsidie intrekken" />
           <property role="3GE5qa" value="acts" />
+          <property role="2CxiQ9" value="0" />
           <node concept="1FQA6B" id="4DLYcFhRnUw" role="3FTnq6">
             <ref role="1FQA6$" node="4DLYcFhRmDZ" resolve="ntrekke" />
           </node>
@@ -5596,6 +5626,7 @@
         <node concept="mu5$5" id="4DLYcFhRmE3" role="3_ImHT">
           <property role="TrG5h" value="subsidie aanvraag afwijzen" />
           <property role="3GE5qa" value="acts" />
+          <property role="2CxiQ9" value="0" />
           <node concept="cog_b" id="4DLYcFhRmE8" role="2pmM46">
             <property role="1tl0gq" value="English" />
             <property role="3ANC2_" value="Source3" />
@@ -7025,6 +7056,7 @@
       <node concept="3_ImHQ" id="6DgkmMHMhZ7" role="1qenE9">
         <node concept="cu0$f" id="6DgkmMHMhY1" role="3_ImGK">
           <property role="TrG5h" value="TestFact" />
+          <property role="2CxiQ9" value="0" />
           <node concept="1zEWgd" id="6DgkmMHMhY2" role="coNO9">
             <node concept="1zEXHp" id="6DgkmMHMhY3" role="1zF96y">
               <node concept="1zEXQY" id="6DgkmMHMhY4" role="1zEXIt" />
@@ -7060,6 +7092,7 @@
       <node concept="3_ImHQ" id="6DgkmMHMhZB" role="1qenE9">
         <node concept="cu0$f" id="6DgkmMHN4s6" role="3_ImGK">
           <property role="TrG5h" value="TestFact" />
+          <property role="2CxiQ9" value="0" />
           <node concept="1zEWgd" id="6DgkmMHN4s7" role="coNO9">
             <node concept="1zEXHp" id="6DgkmMHN4s8" role="1zF96y">
               <node concept="1zEXQY" id="6DgkmMHN4s9" role="1zEXIt" />
@@ -7076,6 +7109,7 @@
           </node>
         </node>
         <node concept="cu0$f" id="6DgkmMHS$o_" role="3_ImGK">
+          <property role="2CxiQ9" value="0" />
           <node concept="1zEWgd" id="6DgkmMHNCNC" role="coNO9">
             <node concept="1zEXHp" id="6DgkmMHNCND" role="1zF96y">
               <node concept="1zEXQY" id="6DgkmMHNCNE" role="1zEXIt" />
