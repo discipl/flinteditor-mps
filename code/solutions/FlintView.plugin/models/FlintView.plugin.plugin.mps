@@ -11,47 +11,36 @@
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="5" />
     <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
-    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
-    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
-    <use id="dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d" name="LawSource" version="0" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
   </languages>
   <imports>
     <import index="xnls" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.icons(MPS.Platform/)" />
-    <import index="btm1" ref="b0f8641f-bd77-4421-8425-30d9088a82f7/java:org.apache.commons.lang3(org.apache.commons/)" />
     <import index="7e8u" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.ui.tree(MPS.Platform/)" />
-    <import index="z1c3" ref="86441d7a-e194-42da-81a5-2161ec62a379/java:jetbrains.mps.project(MPS.Workbench/)" />
     <import index="qq03" ref="86441d7a-e194-42da-81a5-2161ec62a379/java:jetbrains.mps.ide.actions(MPS.Workbench/)" />
     <import index="z2i8" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.icons(MPS.IDEA/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <import index="z1c4" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
+    <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
     <import index="31cb" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.extapi.module(MPS.Core/)" />
     <import index="lnwe" ref="r:d268844f-2c2c-4250-a969-3a23a8a2bb02(Flint.structure)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
-    <import index="z1c5" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
+    <import index="z1c4" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="l7us" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.icons(MPS.Platform/)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="buwx" ref="r:b2f3d5f9-b81e-4589-95e8-d5be28f6e48f(com.mbeddr.mpsutil.projectview.views.plugin)" />
-    <import index="imq3" ref="r:744546b3-28d0-4d16-91c8-8f406ef84c6e(com.mbeddr.mpsutil.projectview.runtime)" />
     <import index="srlv" ref="r:baf0260d-4be1-4f28-be3e-85fc1a4fa21a(LawSource.structure)" />
     <import index="3lmi" ref="r:a950900f-47ea-4287-adc8-88f839ab614a(Flint.behavior)" />
-    <import index="wyuk" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.components(MPS.Core/)" />
-    <import index="3s15" ref="86441d7a-e194-42da-81a5-2161ec62a379/java:jetbrains.mps.workbench(MPS.Workbench/)" />
     <import index="qq04" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.actions(MPS.Platform/)" />
-    <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
     <import index="uhdf" ref="r:30978237-741d-4b0b-ac0b-6600a1c5c14f(com.mbeddr.mpsutil.projectview.runtime.tree)" />
     <import index="rgfa" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.tree(JDK/)" />
-    <import index="82uw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.function(JDK/)" />
     <import index="3a50" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide(MPS.Platform/)" />
     <import index="ov6m" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.ui.messages(MPS.IDEA/)" />
     <import index="g1qu" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.util.ui(MPS.IDEA/)" />
     <import index="52hy" ref="86441d7a-e194-42da-81a5-2161ec62a379/java:jetbrains.mps.workbench.dialogs(MPS.Workbench/)" />
     <import index="jkm4" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.ui(MPS.IDEA/)" />
-    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
   </imports>
   <registry>
@@ -427,7 +416,7 @@
           <ref role="35c_gD" to="lnwe:27H3E6Hoggr" resolve="Duty" />
         </node>
         <node concept="35c_gC" id="19XK2H0bu4j" role="37wK5m">
-          <ref role="35c_gD" to="lnwe:5Xjenljcz0Z" resolve="FlintSource" />
+          <ref role="35c_gD" to="lnwe:5Xjenljcz0Z" resolve="FlintSourceDeprecated" />
         </node>
         <node concept="35c_gC" id="19XK2H0cLU5" role="37wK5m">
           <ref role="35c_gD" to="lnwe:5XjenljaN1R" resolve="FlintModel" />
@@ -600,24 +589,6 @@
           </node>
         </node>
         <node concept="3GX2aA" id="7xGQzaJ0MRG" role="2OqNvi" />
-      </node>
-    </node>
-    <node concept="14aYG3" id="7xGQzaJ0o26" role="14aYEy">
-      <property role="TrG5h" value="floatingSourcesFolder" />
-      <ref role="3GDMyY" node="7xGQzaITOkG" resolve="sourcesFolder" />
-      <ref role="14a85i" node="7xGQzaIZ3LH" resolve="floatingNodeFolderFlintmodel" />
-      <node concept="2OqwBi" id="7xGQzaJ0MV2" role="3aIZ52">
-        <node concept="2YIFZM" id="7xGQzaJ0MV3" role="2Oq$k0">
-          <ref role="37wK5l" node="19XK2H096tg" resolve="getRootNodesByConcept" />
-          <ref role="1Pybhc" node="480JVLcGWRz" resolve="HelperFunctions" />
-          <node concept="14b0Wr" id="7xGQzaJ0MV4" role="37wK5m">
-            <ref role="14b0Uw" node="7diJr$Rw$m0" resolve="model" />
-          </node>
-          <node concept="35c_gC" id="7xGQzaJ0MV5" role="37wK5m">
-            <ref role="35c_gD" to="lnwe:5Xjenljcz0Z" resolve="FlintSource" />
-          </node>
-        </node>
-        <node concept="3GX2aA" id="7xGQzaJ0MV6" role="2OqNvi" />
       </node>
     </node>
     <node concept="14aYG3" id="2JgwXwL9VhI" role="14aYEy">
@@ -905,52 +876,6 @@
         </node>
       </node>
     </node>
-    <node concept="14aYG3" id="7xGQzaITOkG" role="14aYEy">
-      <property role="TrG5h" value="sourcesFolder" />
-      <ref role="14a85i" node="19XK2H0clhn" resolve="flintModelRootNode" />
-      <ref role="3GDMyY" node="7xGQzaIVa3z" resolve="nodeFolder" />
-      <node concept="2OqwBi" id="7xGQzaITOBF" role="3aIZ52">
-        <node concept="2YIFZM" id="7xGQzaITOBG" role="2Oq$k0">
-          <ref role="1Pybhc" node="480JVLcGWRz" resolve="HelperFunctions" />
-          <ref role="37wK5l" node="19XK2H096tg" resolve="getRootNodesByConcept" />
-          <node concept="14b0Wr" id="7xGQzaITOYz" role="37wK5m">
-            <ref role="14b0Uw" node="7diJr$Rw$m0" resolve="model" />
-          </node>
-          <node concept="35c_gC" id="7xGQzaITOBI" role="37wK5m">
-            <ref role="35c_gD" to="lnwe:5Xjenljcz0Z" resolve="FlintSource" />
-          </node>
-        </node>
-        <node concept="3GX2aA" id="7xGQzaITOBJ" role="2OqNvi" />
-      </node>
-      <node concept="2OqwBi" id="2vJbluoVo9e" role="14a853">
-        <node concept="2YIFZM" id="2vJbluoVo9f" role="2Oq$k0">
-          <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
-          <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
-          <node concept="14b0Wr" id="2vJbluoVo9g" role="37wK5m">
-            <ref role="14b0Uw" node="7diJr$Rw$m0" resolve="model" />
-          </node>
-        </node>
-        <node concept="3TrcHB" id="2vJbluoVoK5" role="2OqNvi">
-          <ref role="3TsBF5" to="lnwe:18WT3T5NnIH" resolve="eSources" />
-        </node>
-      </node>
-    </node>
-    <node concept="14aYG3" id="19XK2H05Y2l" role="14aYEy">
-      <property role="TrG5h" value="sources" />
-      <ref role="3GDMyY" node="3ZnFyBjojbx" resolve="node" />
-      <ref role="14a85i" node="7xGQzaITOkG" resolve="sourcesFolder" />
-      <node concept="3Tqbb2" id="19XK2H05Y2D" role="3GGxor" />
-      <node concept="2YIFZM" id="19XK2H099Rx" role="14bQOc">
-        <ref role="37wK5l" node="19XK2H096tg" resolve="getRootNodesByConcept" />
-        <ref role="1Pybhc" node="480JVLcGWRz" resolve="HelperFunctions" />
-        <node concept="14b0Wr" id="19XK2H099TR" role="37wK5m">
-          <ref role="14b0Uw" node="7diJr$Rw$m0" resolve="model" />
-        </node>
-        <node concept="35c_gC" id="19XK2H099VT" role="37wK5m">
-          <ref role="35c_gD" to="lnwe:5Xjenljcz0Z" resolve="FlintSource" />
-        </node>
-      </node>
-    </node>
     <node concept="Xl_RD" id="19XK2H02G4o" role="3GFWDq">
       <property role="Xl_RC" value="FlintView" />
     </node>
@@ -966,7 +891,7 @@
       <property role="TrG5h" value="project" />
       <node concept="14a6R6" id="7diJr$RvF9F" role="14bQOc" />
       <node concept="3uibUv" id="3ZnFyBjqnM2" role="3GGxor">
-        <ref role="3uigEE" to="z1c4:~MPSProject" resolve="MPSProject" />
+        <ref role="3uigEE" to="z1c3:~MPSProject" resolve="MPSProject" />
       </node>
       <node concept="10M0yZ" id="75_oBQVoDRc" role="3actZa">
         <ref role="3cqZAo" to="xnls:~IdeIcons.PROJECT_ICON" resolve="PROJECT_ICON" />
@@ -977,7 +902,7 @@
           <ref role="14b0Uw" node="7diJr$RvF92" resolve="project" />
         </node>
         <node concept="liA8E" id="7diJr$RwzJ7" role="2OqNvi">
-          <ref role="37wK5l" to="z1c4:~MPSProject.getName()" resolve="getName" />
+          <ref role="37wK5l" to="z1c3:~MPSProject.getName()" resolve="getName" />
         </node>
       </node>
     </node>
@@ -1126,7 +1051,7 @@
               <node concept="10QFUN" id="75_oBQVXwun" role="1eOMHV">
                 <node concept="2OqwBi" id="75_oBQVXwuo" role="10QFUP">
                   <node concept="liA8E" id="75_oBQVXwuq" role="2OqNvi">
-                    <ref role="37wK5l" to="z1c5:~Project.getModules()" resolve="getModules" />
+                    <ref role="37wK5l" to="z1c4:~Project.getModules()" resolve="getModules" />
                   </node>
                   <node concept="14b0Wr" id="7xGQzaJ4HwO" role="2Oq$k0">
                     <ref role="14b0Uw" node="7diJr$RvF92" resolve="project" />
@@ -1227,7 +1152,7 @@
           <ref role="14b0Uw" node="75_oBQVPKCm" resolve="language" />
         </node>
         <node concept="liA8E" id="$6jtTw$ONP" role="2OqNvi">
-          <ref role="37wK5l" to="z1c5:~AbstractModule.getModuleName()" resolve="getModuleName" />
+          <ref role="37wK5l" to="z1c4:~AbstractModule.getModuleName()" resolve="getModuleName" />
         </node>
       </node>
     </node>
@@ -1962,9 +1887,6 @@
                   <node concept="35c_gC" id="7xGQzaJ1zry" role="37wK5m">
                     <ref role="35c_gD" to="lnwe:5XjenljaN1U" resolve="Fact" />
                   </node>
-                  <node concept="35c_gC" id="7xGQzaJ1zN5" role="37wK5m">
-                    <ref role="35c_gD" to="lnwe:5Xjenljcz0Z" resolve="FlintSource" />
-                  </node>
                   <node concept="35c_gC" id="7xGQzaJ1$2w" role="37wK5m">
                     <ref role="35c_gD" to="lnwe:27H3E6Hoggr" resolve="Duty" />
                   </node>
@@ -2576,14 +2498,14 @@
           <node concept="3cpWsn" id="1bPqaB7HBa_" role="3cpWs9">
             <property role="TrG5h" value="pathMacros" />
             <node concept="3uibUv" id="1bPqaB7HBad" role="1tU5fm">
-              <ref role="3uigEE" to="z1c5:~PathMacros" resolve="PathMacros" />
+              <ref role="3uigEE" to="z1c4:~PathMacros" resolve="PathMacros" />
             </node>
             <node concept="2OqwBi" id="1bPqaB7HBaA" role="33vP2m">
               <node concept="1KvdUw" id="1bPqaB7IuKs" role="2Oq$k0" />
               <node concept="liA8E" id="1bPqaB7HBaC" role="2OqNvi">
-                <ref role="37wK5l" to="z1c4:~MPSProject.getComponent(java.lang.Class)" resolve="getComponent" />
+                <ref role="37wK5l" to="z1c3:~MPSProject.getComponent(java.lang.Class)" resolve="getComponent" />
                 <node concept="3VsKOn" id="1bPqaB7HBaD" role="37wK5m">
-                  <ref role="3VsUkX" to="z1c5:~PathMacros" resolve="PathMacros" />
+                  <ref role="3VsUkX" to="z1c4:~PathMacros" resolve="PathMacros" />
                 </node>
               </node>
             </node>
@@ -2600,7 +2522,7 @@
                 <ref role="3cqZAo" node="1bPqaB7HBa_" resolve="pathMacros" />
               </node>
               <node concept="liA8E" id="1bPqaB7HBFp" role="2OqNvi">
-                <ref role="37wK5l" to="z1c5:~PathMacros.getValue(java.lang.String)" resolve="getValue" />
+                <ref role="37wK5l" to="z1c4:~PathMacros.getValue(java.lang.String)" resolve="getValue" />
                 <node concept="Xl_RD" id="1bPqaB7HBFq" role="37wK5m">
                   <property role="Xl_RC" value="dev" />
                 </node>
@@ -2977,7 +2899,7 @@
               </node>
             </node>
             <node concept="liA8E" id="1eZSuKdYd5L" role="2OqNvi">
-              <ref role="37wK5l" to="z1c5:~Project.getRepository()" resolve="getRepository" />
+              <ref role="37wK5l" to="z1c4:~Project.getRepository()" resolve="getRepository" />
             </node>
           </node>
         </node>
@@ -3059,7 +2981,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="72ozW497NM0" role="2OqNvi">
-                    <ref role="37wK5l" to="z1c4:~MPSProject.getProject()" resolve="getProject" />
+                    <ref role="37wK5l" to="z1c3:~MPSProject.getProject()" resolve="getProject" />
                   </node>
                 </node>
                 <node concept="2YIFZM" id="4TYmXmb_eH5" role="37wK5m">

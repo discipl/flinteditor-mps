@@ -3,7 +3,6 @@
   <persistence version="9" />
   <languages>
     <use id="b5c0bb04-c583-4b2a-a66e-1eab92d33c68" name="com.mbeddr.mpsutil.json" version="0" />
-    <use id="dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d" name="LawSource" version="0" />
   </languages>
   <imports />
   <registry>

@@ -155,15 +155,6 @@
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
     </language>
   </registry>
-  <node concept="1M2fIO" id="27H3E6IvXMs">
-    <ref role="1M2myG" to="lnwe:5Xjenljcz0Z" resolve="FlintSource" />
-    <node concept="EnEH3" id="27H3E6I$EJZ" role="1MhHOB">
-      <ref role="EomxK" to="lnwe:5Xjenljcz1z" resolve="validFrom" />
-    </node>
-    <node concept="EnEH3" id="27H3E6I$GW_" role="1MhHOB">
-      <ref role="EomxK" to="lnwe:5Xjenljcz1_" resolve="validTo" />
-    </node>
-  </node>
   <node concept="1M2fIO" id="10jIHujH9pT">
     <property role="3GE5qa" value="flintmodelrunner" />
     <ref role="1M2myG" to="lnwe:10jIHuj5o1o" resolve="FlintModelActorReference" />
@@ -474,7 +465,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="10jIHukaQrH">
-    <ref role="1M2myG" to="lnwe:5Xjenljcz0Y" resolve="FlintSourceReference" />
+    <ref role="1M2myG" to="lnwe:5Xjenljcz0Y" resolve="FlintSource" />
     <node concept="1N5Pfh" id="28ttwYhgLuS" role="1Mr941">
       <ref role="1N5Vy1" to="lnwe:5Xjenljcz1J" resolve="baseSource" />
       <node concept="3dgokm" id="28ttwYhgLuU" role="1N6uqs">
