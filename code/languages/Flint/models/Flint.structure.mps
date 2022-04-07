@@ -1290,6 +1290,31 @@
       <property role="TrG5h" value="eTags" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="50$8lVgqvZO" role="1TKVEl">
+      <property role="IQ2nx" value="5774777313303068660" />
+      <property role="TrG5h" value="eVersion" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="50$8lVgqw0e" role="1TKVEl">
+      <property role="IQ2nx" value="5774777313303068686" />
+      <property role="TrG5h" value="eVerified" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="50$8lVgqw0D" role="1TKVEl">
+      <property role="IQ2nx" value="5774777313303068713" />
+      <property role="TrG5h" value="eValidated" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="50$8lVgqw15" role="1TKVEl">
+      <property role="IQ2nx" value="5774777313303068741" />
+      <property role="TrG5h" value="ePublicized" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="50$8lVgqw1y" role="1TKVEl">
+      <property role="IQ2nx" value="5774777313303068770" />
+      <property role="TrG5h" value="eSelectVersion" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3JnAoJLBIOl">
     <property role="EcuMT" value="4312083994563767573" />
@@ -1373,6 +1398,9 @@
       <property role="20kJfa" value="versions" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="LZYRE$YEeo" resolve="IHasVersionAndValidation" />
+    </node>
+    <node concept="PrWs8" id="50$8lVg_KLV" role="PrDN$">
+      <ref role="PrY4T" to="a78y:1bPqaB7Hr7H" resolve="IProvidesTranslatedCell" />
     </node>
   </node>
 </model>

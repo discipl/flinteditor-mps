@@ -24,7 +24,12 @@
     "findLineInSource": "Vind lijn in Bron",
     "validFrom": "geldig vanaf",
     "validTo": "geldig tot",
-    "tags": "labels"
+    "tags": "labels",
+    "version": "versie",
+    "verified": "geverifieerd",
+    "validated": "gevalideerd",
+    "publicized": "gepubliceerd",
+    "selectVersion": "selecteer versie"
   },
   "acts": [
     {

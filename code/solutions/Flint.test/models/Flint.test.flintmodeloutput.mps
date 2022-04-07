@@ -192,6 +192,36 @@
               <property role="3YX86R" value="tags" />
             </node>
           </node>
+          <node concept="3YX88e" id="7Azw0ZiOIRO" role="3YX86K">
+            <property role="TrG5h" value="version" />
+            <node concept="3YX86M" id="7Azw0ZiOIRP" role="3YX8ah">
+              <property role="3YX86R" value="version" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="7Azw0ZiOISE" role="3YX86K">
+            <property role="TrG5h" value="verified" />
+            <node concept="3YX86M" id="7Azw0ZiOISF" role="3YX8ah">
+              <property role="3YX86R" value="verified" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="7Azw0ZiOITy" role="3YX86K">
+            <property role="TrG5h" value="validated" />
+            <node concept="3YX86M" id="7Azw0ZiOITz" role="3YX8ah">
+              <property role="3YX86R" value="validated" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="7Azw0ZiOIUs" role="3YX86K">
+            <property role="TrG5h" value="publicized" />
+            <node concept="3YX86M" id="7Azw0ZiOIUt" role="3YX8ah">
+              <property role="3YX86R" value="publicized" />
+            </node>
+          </node>
+          <node concept="3YX88e" id="7Azw0ZiOIVo" role="3YX86K">
+            <property role="TrG5h" value="selectVersion" />
+            <node concept="3YX86M" id="7Azw0ZiOIVp" role="3YX8ah">
+              <property role="3YX86R" value="select version" />
+            </node>
+          </node>
         </node>
       </node>
       <node concept="3YX88e" id="74VLc6kV5oS" role="3YX86K">

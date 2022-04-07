@@ -35,6 +35,11 @@ data class Language(
     val validFrom: String,
     val validTo: String,
     val tags: String,
+    val version: String,
+    val verified: String,
+    val validated: String,
+    val publicized: String,
+    val selectVersion: String
 )
 
 data class Act(

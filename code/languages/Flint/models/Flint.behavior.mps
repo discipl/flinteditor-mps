@@ -30871,6 +30871,39 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="50$8lVg_zCy" role="13h7CS">
+      <property role="TrG5h" value="getTranslatedCellProvider" />
+      <ref role="13i0hy" to="1ycr:1bPqaB7Hr9W" resolve="getTranslatedCellProvider" />
+      <node concept="3Tm1VV" id="50$8lVg_zCz" role="1B3o_S" />
+      <node concept="3clFbS" id="50$8lVg_zC$" role="3clF47">
+        <node concept="3clFbF" id="50$8lVg_zC_" role="3cqZAp">
+          <node concept="2ShNRf" id="50$8lVg_zCA" role="3clFbG">
+            <node concept="1pGfFk" id="50$8lVg_zCB" role="2ShVmc">
+              <ref role="37wK5l" node="7C_i1w7$p9i" resolve="LanguageCellProvider" />
+              <node concept="37vLTw" id="50$8lVg_zCC" role="37wK5m">
+                <ref role="3cqZAo" node="50$8lVg_zCF" resolve="node" />
+              </node>
+              <node concept="37vLTw" id="50$8lVg_zCD" role="37wK5m">
+                <ref role="3cqZAo" node="50$8lVg_zCH" resolve="languageProperty" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="50$8lVg_zCE" role="3clF45">
+        <ref role="3uigEE" to="exr9:~AbstractCellProvider" resolve="AbstractCellProvider" />
+      </node>
+      <node concept="37vLTG" id="50$8lVg_zCF" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="50$8lVg_zCG" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="50$8lVg_zCH" role="3clF46">
+        <property role="TrG5h" value="languageProperty" />
+        <node concept="3uibUv" id="50$8lVg_zCI" role="1tU5fm">
+          <ref role="3uigEE" to="c17a:~SProperty" resolve="SProperty" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
