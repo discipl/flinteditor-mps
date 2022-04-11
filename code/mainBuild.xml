@@ -163,7 +163,7 @@
       </chunk>
       <jvmargs>
         <arg value="-ea" />
-        <arg value="-Xmx512m" />
+        <arg value="-Xmx1024m" />
       </jvmargs>
       <macro name="mps_home" path="${mps_home}" />
       <macro name="KOTLIN_BUNDLED" path="${KOTLIN_BUNDLED}" />

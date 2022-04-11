@@ -526,6 +526,19 @@ task fixClassPathIssues(dependsOn: ["generateScripts"]) {
                 }
             }
         }
+
+        project.selectNodes("target/generate/jvmargs/arg").each {
+            if (it instanceof org.dom4j.Element) {
+                org.dom4j.Element jvmElement = ((org.dom4j.Element) it)
+                def value = jvmElement.attributeValue("value")
+                if (value != null && value.startsWith("-Xmx")) {
+                    value = "-Xmx1024m"
+                    jvmElement.attribute("value").setValue(value)
+                    println "Setting memory value to: " + value
+                }
+            }
+        }
+
         org.dom4j.io.XMLWriter writer = new org.dom4j.io.XMLWriter(new FileWriter(new File("$codeDir/fixed-build-Flint.xml")), org.dom4j.io.OutputFormat.createPrettyPrint());
         writer.write(document);
         writer.close();
