@@ -7,7 +7,6 @@ import org.apache.http.client.HttpClient
 import org.discipl.flint.sources.di.Qualifiers.IS_FAKE_HTTP_QUALIFIER
 import org.discipl.flint.sources.services.PropertyProvider
 import org.junit.jupiter.api.extension.RegisterExtension
-import org.koin.core.logger.Level
 import org.koin.dsl.module
 import org.koin.test.junit5.KoinTestExtension
 import org.koin.test.junit5.mock.MockProviderExtension
@@ -26,7 +25,7 @@ open class TestWithTestExtension : TestWithMockProvider() {
     val koinTestExtension = KoinTestExtension.create {
         val fakeHttp = System.getenv("SHOULD_FAKE_HTTP") != "false"
         allowOverride(true)
-        modules(org.discipl.flint.sources.modules)
+        modules(org.discipl.flint.sources.serviceModule)
         val testModules = mutableListOf(
             module {
                 single(IS_FAKE_HTTP_QUALIFIER) { fakeHttp }
@@ -46,6 +45,6 @@ open class TestWithTestExtension : TestWithMockProvider() {
             )
         }
         modules(testModules)
-        printLogger(Level.DEBUG)
+        slf4JLogger()
     }
 }

@@ -1,14 +1,18 @@
 package org.discipl.flint.sources.clients
 
+import mu.KLogging
 import org.discipl.flint.sources.di.*
-import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Assertions.assertNotEquals
 import org.junit.jupiter.api.Test
 import org.koin.test.KoinTest
 import org.koin.test.inject
 import java.util.*
 
 internal class AsyncTextLineClientImplTest : KoinTest, TestWithTestExtension() {
-    private val textLineClient: AsyncTextLineClient  by inject()
+    companion object : KLogging()
+
+    private val textLineClient: AsyncTextLineClient by inject()
 
     @Test
     fun requestParsing() {
@@ -189,7 +193,7 @@ internal class AsyncTextLineClientImplTest : KoinTest, TestWithTestExtension() {
 
         val article5Lid1 = results.first { it.text == "Persoonsgegevens moeten:" }
         assertEquals(article5Lid1.id, "https://calculemus.org/36161099-6dfb-4f27-88d3-d8bd235da75c")
-        println(article5Lid1)
+        logger.info { article5Lid1 }
 
         val textLine = results[1415]
         assertEquals(

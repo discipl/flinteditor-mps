@@ -1,8 +1,11 @@
 package org.discipl.flint.sources.services.triply
 
-import org.discipl.flint.sources.clients.TextLine
+import mu.KLogging
 import org.discipl.flint.sources.di.*
-import org.discipl.flint.sources.models.*
+import org.discipl.flint.sources.models.Article
+import org.discipl.flint.sources.models.SimpleLine
+import org.discipl.flint.sources.models.SubList
+import org.discipl.flint.sources.models.SymbolLine
 import org.discipl.flint.sources.services.AsyncArticleService
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
@@ -11,6 +14,8 @@ import org.koin.test.inject
 import java.util.*
 
 internal class AsyncArticleServiceImplTest : KoinTest, TestWithTestExtension() {
+    companion object : KLogging()
+
     private val service: AsyncArticleService by inject()
 
     @Test
@@ -134,7 +139,7 @@ internal class AsyncArticleServiceImplTest : KoinTest, TestWithTestExtension() {
         // TODO (Fix this when nsx api is fixed)
         assertNotNull(articles)
         articles.forEach {
-            println(it)
+            logger.info { it }
         }
         assertEquals(9, articles.size)
         val article1 = articles[0]
@@ -206,7 +211,7 @@ internal class AsyncArticleServiceImplTest : KoinTest, TestWithTestExtension() {
         assertEquals("Artikel 1", article1.name)
         assertEquals(1, article1.articleTextParts.size)
         val line2 = article1.articleTextParts[0]
-        println(line2)
+        logger.info { line2 }
         assertTrue(line2 is SubList)
         val sublist = line2 as SubList
         val sublistLine = sublist.parts[0]
@@ -268,11 +273,11 @@ internal class AsyncArticleServiceImplTest : KoinTest, TestWithTestExtension() {
         assertEquals(99, articles.size)
 
         val article1 = articles[0]
-        article1.parts.forEach { println("part(${it.javaClass.simpleName}): $it") }
+        article1.parts.forEach { logger.info { "part(${it.javaClass.simpleName}): $it" } }
         assertEquals("Article 1", article1.name)
         assertEquals(1, article1.articleTextParts.size)
         val line2 = article1.articleTextParts[0]
-        println(line2)
+        logger.info { line2 }
         assertTrue(line2 is SubList)
         val sublist = line2 as SubList
         val sublistLine = sublist.parts[0]

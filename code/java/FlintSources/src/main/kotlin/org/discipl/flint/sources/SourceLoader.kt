@@ -28,6 +28,7 @@ import org.koin.dsl.module
 import javax.net.ssl.SSLContext
 
 internal val hybridClientModule = module {
+    includes(apacheHttpClientModule, ktorClientModule)
     single { QueryExecutor(get()) }
     single<SourceClient> { TriplySourceClientImpl(get()) }
     single<VersionClient> { TripleVersionClientImpl(get(), get()) }
@@ -48,6 +49,7 @@ internal val transformerModule = module {
 }
 
 internal val hybrideServiceModule = module {
+    includes(hybridClientModule, transformerModule)
     single<SourceService> { SourceServiceImpl(get(), get()) }
     single<VersionService> { VersionServiceImpl(get(), get()) }
     single<ArticleService> { ArticleServiceImpl(get(), get()) }
@@ -57,13 +59,7 @@ internal val hybrideServiceModule = module {
     single<TextLineService> { TextLineServiceImpl(get(), get()) }
 }
 
-val modules = listOf(
-    hybrideServiceModule,
-    ktorClientModule,
-    apacheHttpClientModule,
-    hybridClientModule,
-    transformerModule
-)
+val serviceModule = hybrideServiceModule
 
 @Suppress("unused")
 object SourceLoader : KoinComponent {
@@ -75,8 +71,8 @@ object SourceLoader : KoinComponent {
             koinApp.close()
         }
         koinApp = koinApplication {
-            modules(modules)
             modules(
+                serviceModule,
                 module {
                     single { sslContext }
                     single { propertyProvider }

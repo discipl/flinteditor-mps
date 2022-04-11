@@ -1,22 +1,17 @@
 package org.discipl.flint.sources.clients
 
+import mu.KLogging
 import org.apache.http.client.HttpClient
-import org.apache.http.client.methods.HttpPost
 import org.discipl.flint.sources.di.*
-import org.hamcrest.BaseMatcher
-import org.hamcrest.Description
-import org.hamcrest.Matcher
 import org.hamcrest.Matchers
-import org.junit.jupiter.api.Test
-
 import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.Test
 import org.koin.test.KoinTest
 import org.koin.test.inject
-import java.io.InputStream
-import java.net.URLEncoder
-import java.nio.charset.StandardCharsets
 
 internal class TextLineClientTest : KoinTest, TestWithTestExtension() {
+    companion object : KLogging()
+
     private val textLineClient: TextLineClient by inject()
     private val httpClient: HttpClient by inject()
 
@@ -37,7 +32,7 @@ internal class TextLineClientTest : KoinTest, TestWithTestExtension() {
 
         val textLines =
             textLineClient.getTextLineForVersionId("https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27")
-        textLines.forEach { println(it) }
+        textLines.forEach { logger.info { it } }
         assertEquals(95, textLines.size)
         val artikel1 =
             textLines.first { it.structure == "#document/toestand/wetgeving/regeling/regeling-tekst/artikel/kop" }
@@ -73,7 +68,7 @@ internal class TextLineClientTest : KoinTest, TestWithTestExtension() {
 
         val articleTextLine =
             textLineClient.getTextLineById(id)
-        println(articleTextLine)
+        logger.info { articleTextLine }
         assertNotNull(articleTextLine)
         assertEquals(
             id,
@@ -107,7 +102,7 @@ internal class TextLineClientTest : KoinTest, TestWithTestExtension() {
 
         val articleTextLine =
             textLineClient.getTextLineById(id)
-        println(articleTextLine)
+        logger.info { articleTextLine }
         assertNotNull(articleTextLine)
         assertEquals(
             id,

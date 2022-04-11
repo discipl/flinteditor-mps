@@ -1,5 +1,6 @@
 package org.discipl.flint.sources.services.triply
 
+import mu.KLogging
 import org.apache.http.client.HttpClient
 import org.discipl.flint.sources.clients.QueryExecutor
 import org.discipl.flint.sources.di.*
@@ -11,6 +12,8 @@ import org.koin.test.KoinTest
 import org.koin.test.inject
 
 internal class ArticleServiceImplTest : KoinTest, TestWithTestExtension() {
+    companion object : KLogging()
+
     private val service: ArticleService by inject()
     private val client: HttpClient by inject()
 
@@ -31,7 +34,7 @@ internal class ArticleServiceImplTest : KoinTest, TestWithTestExtension() {
         val articles =
             service.getArticlesForVersionId("https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27")
         assertNotNull(articles)
-        println(articles[0])
+        logger.info { articles[0] }
         assertEquals(9, articles.size)
         val article1 = articles[0]
         assertEquals("Artikel 1 (begripsbepalingen)", article1.name)

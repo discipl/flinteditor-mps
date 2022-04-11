@@ -1,22 +1,25 @@
 package org.discipl.flint.sources.transformers
 
+import mu.KLogging
 import org.discipl.flint.sources.clients.ArticleTextLine
 import org.discipl.flint.sources.clients.TextLine
 import org.discipl.flint.sources.models.*
 
 class TextLineTransformer {
+    companion object : KLogging()
+
     fun toArticleList(textLines: List<TextLine>): List<Article> {
         val containers = mutableListOf<IHasParts>()
         for (line in textLines) {
             if (isPart(line)) {
                 val convertedLine = line.toPart()
-                println("Converted $convertedLine")
+                logger.info { "Converted $convertedLine" }
                 line.parent?.let {
                     val parent = getParentForLine(containers, convertedLine, it, line.grandParent)
                     parent.addPart(convertedLine)
                 }
             } else {
-                println("Line is not a part $line")
+                logger.info { "Line is not a part $line" }
             }
         }
         return containers.filterIsInstance<Article>()
@@ -53,11 +56,11 @@ class TextLineTransformer {
         }
 
         if (container.any { it.id == parentId }) {
-            println("Found existing container with id $parentId")
+            logger.info { "Found existing container with id $parentId" }
             return container.first { it.id == parentId }
         }
 
-        println("Making sublist with id $parentId")
+        logger.info { "Making sublist with id $parentId" }
 
         val subList = SubList(parentId)
         val grandParent = container.firstOrNull { it.id == grandParentId } ?: container.last { it is Article }

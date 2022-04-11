@@ -10,11 +10,30 @@ import org.apache.http.entity.ContentType
 import org.apache.http.entity.StringEntity
 import org.apache.http.message.BasicHttpResponse
 import org.discipl.flint.sources.di.Qualifiers.IS_FAKE_HTTP_QUALIFIER
+import org.koin.core.KoinApplication
 import org.koin.core.component.get
+import org.koin.core.logger.Level
+import org.koin.core.logger.Logger
+import org.koin.core.logger.MESSAGE
 import org.koin.test.KoinTest
+import org.slf4j.LoggerFactory
 import java.net.URL
 import java.net.URLEncoder
 import java.nio.charset.StandardCharsets
+
+fun KoinApplication.slf4JLogger(level: Level = Level.DEBUG): KoinApplication {
+    return this.logger(object : Logger(level) {
+        private val logger: org.slf4j.Logger = LoggerFactory.getLogger(KoinApplication::class.java)
+        override fun log(level: Level, msg: MESSAGE) {
+            when (level) {
+                Level.DEBUG -> logger.debug(msg)
+                Level.INFO -> logger.info(msg)
+                Level.ERROR -> logger.error(msg)
+                Level.NONE -> {}
+            }
+        }
+    })
+}
 
 fun HttpClientMockBuilder.doReturnJSONResource(resource: String): HttpClientResponseBuilder {
     @Suppress("EXPERIMENTAL_API_USAGE")

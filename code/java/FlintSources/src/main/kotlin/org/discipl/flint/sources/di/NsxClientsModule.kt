@@ -2,11 +2,10 @@ package org.discipl.flint.sources.di
 
 import org.discipl.flint.sources.clients.*
 import org.discipl.flint.sources.clients.nsx.*
-import org.koin.core.context.loadKoinModules
 import org.koin.dsl.module
 
 internal val nsxClientsModule = module {
-    loadKoinModules(ktorClientModule)
+    includes(ktorClientModule)
     single<SourceClient> { NsxSourceClientImpl(get()) }
     single<VersionClient> { NsxVersionClientImpl(get()) }
     single<TextLineClient> { NsxTextLineClientImpl(get(), null, get()) }

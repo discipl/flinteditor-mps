@@ -1,5 +1,6 @@
 package org.discipl.flint.sources.clients
 
+import mu.KLogging
 import org.apache.http.client.HttpClient
 import org.apache.http.entity.ContentType
 import org.discipl.flint.sources.di.TestWithTestExtension
@@ -13,6 +14,8 @@ import org.koin.test.KoinTest
 import org.koin.test.inject
 
 internal class VersionClientTest : KoinTest, TestWithTestExtension() {
+    companion object : KLogging()
+
     private val client: VersionClient by inject()
     private val httpClient: HttpClient by inject()
 
@@ -34,7 +37,7 @@ internal class VersionClientTest : KoinTest, TestWithTestExtension() {
         val versionsForBwb = client.getVersionsForBwb("BWBR0043324")
         assertNotNull(versionsForBwb)
         assertEquals(5, versionsForBwb.size)
-        versionsForBwb.forEach { println(it) }
+        versionsForBwb.forEach { logger.info { it } }
 
         val firstVersion = versionsForBwb.first()
         assertEquals(

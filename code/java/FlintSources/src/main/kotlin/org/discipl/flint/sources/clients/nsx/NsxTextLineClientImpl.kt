@@ -5,11 +5,8 @@ import io.ktor.client.request.*
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withTimeout
-import org.discipl.flint.sources.clients.ParserClient
-import org.discipl.flint.sources.clients.ArticleTextLine
-import org.discipl.flint.sources.clients.TextLine
-import org.discipl.flint.sources.clients.TextLineClient
-import org.discipl.flint.sources.clients.postJson
+import mu.KLogging
+import org.discipl.flint.sources.clients.*
 import org.discipl.flint.sources.clients.triply.TriplyTextLineClientImpl
 import java.util.*
 
@@ -18,6 +15,8 @@ class NsxTextLineClientImpl(
     private val triplyTextLineClientImpl: TriplyTextLineClientImpl?,
     private val parserClient: ParserClient
 ) : TextLineClient {
+    companion object : KLogging()
+
     override fun getTextLineForVersionId(versionId: String): List<TextLine> = runBlocking {
         val textLinesForVersion = getTextLinesForVersion(versionId)
         val basicLines =
@@ -47,7 +46,7 @@ class NsxTextLineClientImpl(
             do {
                 delay(5_000L)
                 val status = getTextLinesForVersionRequestStatus(requestId)
-                println("Request status $status")
+                logger.info { "Request status $status" }
             } while (status.status != "Ready")
         }
         return getTextLinesForVersionResult(requestId)
