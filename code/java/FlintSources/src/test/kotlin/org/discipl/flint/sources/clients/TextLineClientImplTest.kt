@@ -10,13 +10,15 @@ import org.hamcrest.Matchers
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*
+import org.koin.test.KoinTest
+import org.koin.test.inject
 import java.io.InputStream
 import java.net.URLEncoder
 import java.nio.charset.StandardCharsets
 
-internal class TextLineClientTest {
-    private val textLineClient: TextLineClient = TestSourceLoader.textLineClient
-    private val httpClient: HttpClient = TestSourceLoader.httpClient
+internal class TextLineClientTest : KoinTest, TestWithTestExtension() {
+    private val textLineClient: TextLineClient by inject()
+    private val httpClient: HttpClient by inject()
 
     @Test
     fun getTextLineForVersionId() {
@@ -28,7 +30,10 @@ internal class TextLineClientTest {
                 .doReturnJSONResource("/textlineforversion.json")
         }
 
-        mockRequestResult = MockRequestResult(cov19Result, "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27")
+        mockRequestResult = MockRequestResult(
+            cov19Result,
+            "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27"
+        )
 
         val textLines =
             textLineClient.getTextLineForVersionId("https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27")
@@ -59,7 +64,10 @@ internal class TextLineClientTest {
 
         httpClient.asMock {
             it.onPost(QueryExecutor.service)
-                .withFormParameter("query", Matchers.containsString("<${id}>\n              calculemus:zin        ?text ."))
+                .withFormParameter(
+                    "query",
+                    Matchers.containsString("<${id}>\n              calculemus:zin        ?text .")
+                )
                 .doReturnJSONResource("/getTextLineForTextLineId.json")
         }
 
@@ -79,7 +87,10 @@ internal class TextLineClientTest {
         assertEquals("jci1.3:c:BWBR0043324&artikel=2&lid=1&z=2020-05-16&g=2020-05-16", articleTextLine.jci)
         assertEquals("Artikel 2 (verstrekking en hoogte tegemoetkoming)", articleTextLine.artikelName)
         assertEquals("BWBR0043324", articleTextLine.bwb)
-        assertEquals("https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27", articleTextLine.bronVersie)
+        assertEquals(
+            "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27",
+            articleTextLine.bronVersie
+        )
     }
 
     @Test
@@ -87,7 +98,10 @@ internal class TextLineClientTest {
         val id = "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27/textChunk/62"
         httpClient.asMock {
             it.onPost(QueryExecutor.service)
-                .withFormParameter("query", Matchers.containsString("<${id}>\n              calculemus:zin        ?text ."))
+                .withFormParameter(
+                    "query",
+                    Matchers.containsString("<${id}>\n              calculemus:zin        ?text .")
+                )
                 .doReturnJSONResource("/getTextLineForTextLineId2.json")
         }
 
@@ -107,6 +121,9 @@ internal class TextLineClientTest {
         assertEquals("jci1.3:c:BWBR0043324&artikel=5&z=2020-05-16&g=2020-05-16", articleTextLine.jci)
         assertEquals("Artikel 5 (beslistermijn)", articleTextLine.artikelName)
         assertEquals("BWBR0043324", articleTextLine.bwb)
-        assertEquals("https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27", articleTextLine.bronVersie)
+        assertEquals(
+            "https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27",
+            articleTextLine.bronVersie
+        )
     }
 }

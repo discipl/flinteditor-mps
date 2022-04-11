@@ -52,7 +52,7 @@ ext {
     mps_version = "2020.3.1"
     node_version = "13.6.0"
     npm_version = "6.13.4"
-    koin_version = "2.2.2"
+    koin_version = "3.2.0-beta-1"
     jbr_version = "11_0_6-b520.66"
 }
 

@@ -12,32 +12,39 @@ repositories {
 
 ext {
     ktor_version = "1.6.2"
+    log_back_version = "1.2.11"
+    junit_version = "5.8.2"
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
     implementation 'com.google.code.gson:gson:2.8.6'
     implementation 'io.gsonfire:gson-fire:1.8.4'
 
     implementation 'org.apache.commons:commons-lang3:3.11'
     implementation 'org.apache.commons:commons-exec:1.3'
 
-    implementation('org.apache.jena:jena-arq:4.0.0')
+    implementation 'org.apache.jena:jena-arq:4.0.0'
     implementation 'org.jsoup:jsoup:1.14.3'
-    implementation "org.koin:koin-core:$koin_version"
+    implementation "io.insert-koin:koin-core:$koin_version"
 
     implementation "io.ktor:ktor-client-logging:$ktor_version"
     implementation "io.ktor:ktor-client-core:$ktor_version"
     implementation "io.ktor:ktor-client-apache:$ktor_version"
     implementation "io.ktor:ktor-client-gson:$ktor_version"
 
-    testImplementation 'ch.qos.logback:logback-core:1.2.3'
-    testImplementation 'ch.qos.logback:logback-classic:1.2.3'
-    testImplementation "io.mockk:mockk:1.9.3"
+    testImplementation "ch.qos.logback:logback-core:$log_back_version"
+    testImplementation "ch.qos.logback:logback-classic:$log_back_version"
+
     testImplementation 'com.github.paweladamski:HttpClientMock:1.10.0'
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.1'
+    testImplementation "io.mockk:mockk:1.9.3"
     testImplementation "io.ktor:ktor-client-mock:$ktor_version"
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.6.1'
+
+    testImplementation "io.insert-koin:koin-test:$koin_version"
+    testImplementation "io.insert-koin:koin-test-junit5:$koin_version"
+
+    testImplementation "org.junit.jupiter:junit-jupiter-api:$junit_version"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junit_version"
     testImplementation 'org.hamcrest:hamcrest-library:2.2'
 }
 

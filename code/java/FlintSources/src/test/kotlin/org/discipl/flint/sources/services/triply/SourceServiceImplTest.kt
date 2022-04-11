@@ -2,19 +2,19 @@ package org.discipl.flint.sources.services.triply
 
 import org.apache.http.client.HttpClient
 import org.discipl.flint.sources.clients.QueryExecutor
-import org.discipl.flint.sources.di.TestSourceLoader
+import org.discipl.flint.sources.di.TestWithTestExtension
 import org.discipl.flint.sources.di.asMock
 import org.discipl.flint.sources.di.doReturnJSONResource
 import org.discipl.flint.sources.services.SourceService
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertNotNull
 import org.junit.jupiter.api.Test
-import org.koin.core.component.KoinApiExtension
+import org.koin.test.KoinTest
+import org.koin.test.inject
 
-@KoinApiExtension
-internal class SourceServiceImplTest {
-    private val service: SourceService = TestSourceLoader.sourceService
-    private val client: HttpClient = TestSourceLoader.httpClient
+internal class SourceServiceImplTest : KoinTest, TestWithTestExtension() {
+    private val service: SourceService by inject()
+    private val client: HttpClient by inject()
 
     @Test
     fun getSourceForBwb() {

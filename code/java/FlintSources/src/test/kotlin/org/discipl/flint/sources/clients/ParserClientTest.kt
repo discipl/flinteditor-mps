@@ -1,12 +1,14 @@
 package org.discipl.flint.sources.clients
 
-import org.discipl.flint.sources.di.*
+import org.discipl.flint.sources.di.TestWithTestExtension
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
+import org.koin.test.KoinTest
+import org.koin.test.inject
 import java.util.*
 
-internal class ParserClientTest {
-    private val textLineClient: ParserClient = TestSourceLoader.parserClient
+internal class ParserClientTest : KoinTest, TestWithTestExtension() {
+    private val textLineClient: ParserClient by inject()
 
     @Test
     fun requestParsing() {

@@ -2,7 +2,7 @@ package org.discipl.flint.sources.services.triply
 
 import org.apache.http.client.HttpClient
 import org.discipl.flint.sources.clients.QueryExecutor
-import org.discipl.flint.sources.di.TestSourceLoader
+import org.discipl.flint.sources.di.TestWithTestExtension
 import org.discipl.flint.sources.di.asMock
 import org.discipl.flint.sources.di.doReturnJSONResource
 import org.discipl.flint.sources.services.TextLineService
@@ -10,12 +10,12 @@ import org.hamcrest.Matchers
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*
-import org.koin.core.component.KoinApiExtension
+import org.koin.test.KoinTest
+import org.koin.test.inject
 
-@KoinApiExtension
-internal class TextLineServiceImplTest {
-    private val textLineService: TextLineService = TestSourceLoader.textLineService
-    private val httpClient: HttpClient = TestSourceLoader.httpClient
+internal class TextLineServiceImplTest : KoinTest, TestWithTestExtension() {
+    private val textLineService: TextLineService by inject()
+    private val httpClient: HttpClient by inject()
 
     @Test
     fun getTextLineById() {

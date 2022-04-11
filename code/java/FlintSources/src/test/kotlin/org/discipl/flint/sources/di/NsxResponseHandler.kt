@@ -69,13 +69,13 @@ val csvResultEN by lazy {
 }
 
 private fun getResourceAsString(fileName: String): String {
-    return TestSourceLoader::class.java.getResource("/$fileName")?.readText()
+    return Qualifiers::class.java.getResource("/$fileName")?.readText()
         ?: throw Exception("Resource $fileName not found")
 }
 
 fun getTestFilePath(fileName: String): Path {
     return Path.of(
-        TestSourceLoader::class.java.getResource("/$fileName")?.toURI()
+        Qualifiers::class.java.getResource("/$fileName")?.toURI()
             ?: throw Exception("Resource $fileName not found")
     )
 }

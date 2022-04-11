@@ -6,12 +6,12 @@ import org.discipl.flint.sources.models.*
 import org.discipl.flint.sources.services.AsyncArticleService
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
-import org.koin.core.component.KoinApiExtension
+import org.koin.test.KoinTest
+import org.koin.test.inject
 import java.util.*
 
-@KoinApiExtension
-internal class AsyncArticleServiceImplTest {
-    private val service: AsyncArticleService = TestSourceLoader.asyncArticleService
+internal class AsyncArticleServiceImplTest : KoinTest, TestWithTestExtension() {
+    private val service: AsyncArticleService by inject()
 
     @Test
     fun getArticlesForVersionId() {

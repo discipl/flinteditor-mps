@@ -1,15 +1,18 @@
 package org.discipl.flint.sources.clients
 
 import org.apache.http.client.HttpClient
-import org.discipl.flint.sources.di.TestSourceLoader
+import org.discipl.flint.sources.di.TestWithTestExtension
 import org.discipl.flint.sources.di.asMock
 import org.discipl.flint.sources.di.doReturnJSONResource
+import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Assertions.assertNotNull
 import org.junit.jupiter.api.Test
-import org.junit.jupiter.api.Assertions.*
+import org.koin.test.KoinTest
+import org.koin.test.inject
 
-internal class SourceClientTest {
-    private val client: SourceClient = TestSourceLoader.sourceClient
-    private val httpClient: HttpClient = TestSourceLoader.httpClient
+internal class SourceClientTest : KoinTest, TestWithTestExtension() {
+    private val client: SourceClient by inject()
+    private val httpClient: HttpClient by inject()
 
     @Test
     fun getSourceForBwb() {

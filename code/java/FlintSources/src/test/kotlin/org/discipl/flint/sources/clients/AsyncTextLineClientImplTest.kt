@@ -3,10 +3,12 @@ package org.discipl.flint.sources.clients
 import org.discipl.flint.sources.di.*
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
+import org.koin.test.KoinTest
+import org.koin.test.inject
 import java.util.*
 
-internal class AsyncTextLineClientImplTest {
-    private val textLineClient: AsyncTextLineClient = TestSourceLoader.asyncTextLineClient
+internal class AsyncTextLineClientImplTest : KoinTest, TestWithTestExtension() {
+    private val textLineClient: AsyncTextLineClient  by inject()
 
     @Test
     fun requestParsing() {

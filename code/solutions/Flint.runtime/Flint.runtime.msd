@@ -37,7 +37,7 @@
       <sourceRoot location="json-simple.jar"/>
       <sourceRoot location="jsonld-java.jar"/>
       <sourceRoot location="jsoup.jar"/>
-      <sourceRoot location="koin-core.jar"/>
+      <sourceRoot location="koin-core-jvm-3.2.0-beta.jar"/>
       <sourceRoot location="kotlin-stdlib-common.jar"/>
       <sourceRoot location="kotlin-stdlib-jdk7.jar"/>
       <sourceRoot location="kotlin-stdlib-jdk8.jar"/>
@@ -93,7 +93,7 @@
     <stubModelEntry path="${module}/libs/json-simple.jar"/>
     <stubModelEntry path="${module}/libs/jsonld-java.jar"/>
     <stubModelEntry path="${module}/libs/jsoup.jar"/>
-    <stubModelEntry path="${module}/libs/koin-core.jar"/>
+    <stubModelEntry path="${module}/libs/koin-core-jvm-3.2.0-beta.jar"/>
     <stubModelEntry path="${module}/libs/kotlin-stdlib-common.jar"/>
     <stubModelEntry path="${module}/libs/kotlin-stdlib-jdk7.jar"/>
     <stubModelEntry path="${module}/libs/kotlin-stdlib-jdk8.jar"/>

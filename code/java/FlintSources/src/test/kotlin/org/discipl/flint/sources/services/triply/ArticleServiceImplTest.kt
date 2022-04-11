@@ -7,12 +7,12 @@ import org.discipl.flint.sources.services.ArticleService
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertNotNull
 import org.junit.jupiter.api.Test
-import org.koin.core.component.KoinApiExtension
+import org.koin.test.KoinTest
+import org.koin.test.inject
 
-@KoinApiExtension
-internal class ArticleServiceImplTest {
-    private val service: ArticleService = TestSourceLoader.articleService
-    private val client: HttpClient = TestSourceLoader.httpClient
+internal class ArticleServiceImplTest : KoinTest, TestWithTestExtension() {
+    private val service: ArticleService by inject()
+    private val client: HttpClient by inject()
 
     @Test
     fun getArticlesForVersionId() {

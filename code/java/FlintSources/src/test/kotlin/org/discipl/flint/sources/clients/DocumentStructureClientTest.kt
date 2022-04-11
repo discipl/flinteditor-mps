@@ -1,12 +1,14 @@
 package org.discipl.flint.sources.clients
 
-import org.discipl.flint.sources.di.*
+import org.discipl.flint.sources.di.TestWithTestExtension
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
+import org.koin.test.KoinTest
+import org.koin.test.inject
 import java.util.*
 
-internal class DocumentStructureClientTest {
-    private val documentStructureClient: DocumentStructureClient = TestSourceLoader.documentStructureClient
+internal class DocumentStructureClientTest : KoinTest, TestWithTestExtension() {
+    private val documentStructureClient: DocumentStructureClient by inject()
 
     @Test
     fun getDocumentStructures() {

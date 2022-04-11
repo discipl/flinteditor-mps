@@ -2,16 +2,19 @@ package org.discipl.flint.sources.clients
 
 import org.apache.http.client.HttpClient
 import org.apache.http.entity.ContentType
-import org.discipl.flint.sources.di.*
-import org.hamcrest.Matchers
+import org.discipl.flint.sources.di.TestWithTestExtension
+import org.discipl.flint.sources.di.asMock
+import org.discipl.flint.sources.di.doReturnJSONResource
+import org.discipl.flint.sources.di.doReturnResourceForPath
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertNotNull
 import org.junit.jupiter.api.Test
-import java.net.URL
+import org.koin.test.KoinTest
+import org.koin.test.inject
 
-internal class VersionClientTest {
-    private val client: VersionClient = TestSourceLoader.versionClient
-    private val httpClient: HttpClient = TestSourceLoader.httpClient
+internal class VersionClientTest : KoinTest, TestWithTestExtension() {
+    private val client: VersionClient by inject()
+    private val httpClient: HttpClient by inject()
 
     @Test
     fun getVersionForBwb() {
