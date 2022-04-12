@@ -19,6 +19,7 @@
         <property id="778381075952164307" name="explanation" index="3ANC2_" />
       </concept>
       <concept id="6868897032739893310" name="Flint.structure.FlintSource" flags="ng" index="cog_b">
+        <property id="2215264714367931041" name="textId" index="1hTq4$" />
         <property id="1165398171153094508" name="language" index="1tl0gq" />
         <child id="7816114204006679678" name="betterText" index="2hN6Sa" />
       </concept>
@@ -32,6 +33,7 @@
         <child id="9029403747833797790" name="preconditions" index="mu3T0" />
         <child id="591807039346570203" name="action" index="3FTnq6" />
         <child id="6205025464253204623" name="object" index="3H36l7" />
+        <child id="6205025464253204638" name="recipient" index="3H36lm" />
         <child id="6205025464253204596" name="actor" index="3H36mW" />
       </concept>
       <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
@@ -549,6 +551,25 @@
     <node concept="1GVOM6" id="4gg1F7ZHQeo" role="1GVO30">
       <property role="1GVPtb" value="indienen" />
       <property role="1GVPtd" value="English" />
+    </node>
+  </node>
+  <node concept="mu5$5" id="42UWsK7YX19">
+    <property role="3GE5qa" value="acts" />
+    <node concept="1FQA6B" id="42UWsK7YX1a" role="3H36mW" />
+    <node concept="1FQA6B" id="42UWsK7YX1b" role="3H36l7" />
+    <node concept="1FQA6B" id="42UWsK7YX1c" role="3H36lm" />
+    <node concept="1FQA6B" id="42UWsK7YX1d" role="3FTnq6" />
+    <node concept="1GVOM6" id="42UWsK7YX1e" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+    </node>
+    <node concept="cog_b" id="42UWsK7YX1f" role="2pmM46">
+      <property role="1tl0gq" value="English" />
+      <property role="1hTq4$" value="https://calculemus.org/837c11e4-ed59-47cf-b0e1-fc006c539248" />
+      <node concept="2hPCcK" id="42UWsK7YX1g" role="2hN6Sa">
+        <node concept="19SUe$" id="42UWsK7YX1h" role="19SJt6">
+          <property role="19SUeA" value="he free movemen" />
+        </node>
+      </node>
     </node>
   </node>
 </model>
