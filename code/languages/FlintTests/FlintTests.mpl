@@ -164,6 +164,7 @@
   </dependencyVersions>
   <extendedLanguages>
     <extendedLanguage>69940819-10c1-4a38-ac44-700b63f993ba(Flint)</extendedLanguage>
+    <extendedLanguage>dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d(LawSource)</extendedLanguage>
   </extendedLanguages>
 </language>
 

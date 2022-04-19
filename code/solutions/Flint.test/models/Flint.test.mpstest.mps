@@ -38,12 +38,15 @@
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="b8lf" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.selection(MPS.Editor/)" />
     <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
+    <import index="5ueo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.style(MPS.Editor/)" />
+    <import index="93vl" ref="r:ea46d830-b6c1-459f-bca3-d44c20d00c02(de.slisson.mps.editor.multiline.cells)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="jov5" ref="r:9249307a-27f2-447e-8e8c-b4f939b97d5c(Flint.languages)" implicit="true" />
     <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" implicit="true" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" implicit="true" />
     <import index="jkm4" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.ui(MPS.IDEA/)" implicit="true" />
+    <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" implicit="true" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -162,6 +165,9 @@
       <concept id="1081256982272" name="jetbrains.mps.baseLanguage.structure.InstanceOfExpression" flags="nn" index="2ZW3vV">
         <child id="1081256993305" name="classType" index="2ZW6by" />
         <child id="1081256993304" name="leftExpression" index="2ZW6bz" />
+      </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
@@ -402,6 +408,11 @@
         <child id="8159331485611110381" name="testSources" index="3_ImGG" />
         <child id="8159331485611110385" name="testFacts" index="3_ImGK" />
         <child id="8159331485611110328" name="testActs" index="3_ImHT" />
+      </concept>
+      <concept id="4439988734394282443" name="FlintTests.structure.TestPrefixLine" flags="ng" index="3_ObfL" />
+      <concept id="4439988734393789794" name="FlintTests.structure.FactWithArticle" flags="ng" index="3_QiXo">
+        <child id="4439988734393791302" name="article" index="3_Qj5W" />
+        <child id="4439988734393791300" name="fact" index="3_Qj5Y" />
       </concept>
     </language>
     <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
@@ -7139,6 +7150,179 @@
       <node concept="3FggHH" id="5mg4KOpQKKa" role="3FggHm">
         <ref role="3FggHE" node="5mg4KOpQKK5" resolve="OUTPUT" />
       </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="3Qu0zFoi_to">
+    <property role="TrG5h" value="UsedArticleIsUnderlined" />
+    <node concept="1qefOq" id="3Qu0zFoj4Tj" role="25YQCW">
+      <node concept="3_QiXo" id="3Qu0zFoj4TU" role="1qenE9">
+        <node concept="cu0$f" id="3Qu0zFoj4TV" role="3_Qj5Y">
+          <property role="TrG5h" value="testFact" />
+          <node concept="cog_b" id="3Qu0zFokdAU" role="2pmM46">
+            <property role="TrG5h" value="Article 404" />
+            <property role="1hTq4$" value="find_me_as_id" />
+            <property role="1tl0gq" value="English" />
+            <node concept="2hPCcK" id="3Qu0zFokdAV" role="2hN6Sa">
+              <node concept="19SUe$" id="3Qu0zFokdAW" role="19SJt6">
+                <property role="19SUeA" value="This Regulation lays down" />
+              </node>
+            </node>
+          </node>
+          <node concept="1GVOM6" id="3Qu0zFoj4TY" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="testFact" />
+            <node concept="LIFWc" id="3Qu0zFokhPs" role="lGtFl">
+              <property role="LIFWa" value="7" />
+              <property role="OXtK3" value="true" />
+              <property role="p6zMq" value="7" />
+              <property role="p6zMs" value="7" />
+              <property role="LIFWd" value="property_translatedName" />
+            </node>
+          </node>
+        </node>
+        <node concept="2AEkrd" id="3Qu0zFoj4TW" role="3_Qj5W">
+          <property role="TrG5h" value="Article 404" />
+          <node concept="3MKX5h" id="3Qu0zFoj4TX" role="3MKX6D">
+            <node concept="3MKX5h" id="3Qu0zFojSlS" role="3MKX6F">
+              <node concept="3_ObfL" id="3Qu0zFokc8K" role="3MKX6F">
+                <property role="3MLT8O" value="1." />
+                <property role="1hTQn4" value="find_me_as_id" />
+                <node concept="19SGf9" id="3Qu0zFokc8L" role="3MLT8Q">
+                  <node concept="19SUe$" id="3Qu0zFokc8M" role="19SJt6">
+                    <property role="19SUeA" value="This Regulation lays down rules relating to the protection of natural persons with regard to the processing of personal data and rules relating to the free movement of personal data." />
+                    <node concept="3xLA65" id="3Qu0zFokhPF" role="lGtFl">
+                      <property role="TrG5h" value="TestPrefixLine" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="3Qu0zFokh8x" role="25YQFr">
+      <node concept="3_QiXo" id="3Qu0zFokh8y" role="1qenE9">
+        <node concept="cu0$f" id="3Qu0zFokh8z" role="3_Qj5Y">
+          <property role="TrG5h" value="testFact" />
+          <node concept="cog_b" id="3Qu0zFokh8$" role="2pmM46">
+            <property role="TrG5h" value="Article 404" />
+            <property role="1hTq4$" value="find_me_as_id" />
+            <property role="1tl0gq" value="English" />
+            <node concept="2hPCcK" id="3Qu0zFokh8_" role="2hN6Sa">
+              <node concept="19SUe$" id="3Qu0zFokh8A" role="19SJt6">
+                <property role="19SUeA" value="This Regulation lays down" />
+              </node>
+            </node>
+          </node>
+          <node concept="1GVOM6" id="3Qu0zFokh8B" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="testFact" />
+          </node>
+        </node>
+        <node concept="2AEkrd" id="3Qu0zFokh8C" role="3_Qj5W">
+          <property role="TrG5h" value="Article 404" />
+          <node concept="3MKX5h" id="3Qu0zFokh8D" role="3MKX6D">
+            <node concept="3MKX5h" id="3Qu0zFokh8E" role="3MKX6F">
+              <node concept="3_ObfL" id="3Qu0zFokh8F" role="3MKX6F">
+                <property role="3MLT8O" value="1." />
+                <property role="1hTQn4" value="find_me_as_id" />
+                <node concept="19SGf9" id="3Qu0zFokh8G" role="3MLT8Q">
+                  <node concept="19SUe$" id="3Qu0zFokh8H" role="19SJt6">
+                    <property role="19SUeA" value="This Regulation lays down rules relating to the protection of natural persons with regard to the processing of personal data and rules relating to the free movement of personal data." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="3Qu0zFokhQW" role="LjaKd">
+      <node concept="3clFbF" id="3Qu0zFokKoN" role="3cqZAp">
+        <node concept="2OqwBi" id="3Qu0zFokOBm" role="3clFbG">
+          <node concept="2OqwBi" id="3Qu0zFokOnj" role="2Oq$k0">
+            <node concept="2OqwBi" id="3Qu0zFokNNh" role="2Oq$k0">
+              <node concept="2OqwBi" id="3Qu0zFokKV$" role="2Oq$k0">
+                <node concept="369mXd" id="3Qu0zFokKoL" role="2Oq$k0" />
+                <node concept="liA8E" id="3Qu0zFokNEu" role="2OqNvi">
+                  <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3Qu0zFokOil" role="2OqNvi">
+                <ref role="37wK5l" to="exr9:~EditorContext.getRepository()" resolve="getRepository" />
+              </node>
+            </node>
+            <node concept="liA8E" id="3Qu0zFokOyz" role="2OqNvi">
+              <ref role="37wK5l" to="lui2:~SRepository.getModelAccess()" resolve="getModelAccess" />
+            </node>
+          </node>
+          <node concept="liA8E" id="3Qu0zFokOOu" role="2OqNvi">
+            <ref role="37wK5l" to="lui2:~ModelAccess.executeCommandInEDT(java.lang.Runnable)" resolve="executeCommandInEDT" />
+            <node concept="1bVj0M" id="3Qu0zFokOPV" role="37wK5m">
+              <node concept="3clFbS" id="3Qu0zFokOPW" role="1bW5cS">
+                <node concept="3cpWs8" id="3Qu0zFokieF" role="3cqZAp">
+                  <node concept="3cpWsn" id="3Qu0zFokieG" role="3cpWs9">
+                    <property role="TrG5h" value="editorCellMultiline" />
+                    <node concept="3Tqbb2" id="3Qu0zFokicA" role="1tU5fm">
+                      <ref role="ehGHo" to="87nw:2dWzqxEBMSc" resolve="Word" />
+                    </node>
+                    <node concept="3xONca" id="3Qu0zFokieH" role="33vP2m">
+                      <ref role="3xOPvv" node="3Qu0zFokhPF" resolve="TestPrefixLine" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3vwNmj" id="3Qu0zFom7_e" role="3cqZAp">
+                  <node concept="2OqwBi" id="3Qu0zFooWLj" role="3vwVQn">
+                    <node concept="2OqwBi" id="3Qu0zFooWLk" role="2Oq$k0">
+                      <node concept="2OqwBi" id="3Qu0zFooWLl" role="2Oq$k0">
+                        <node concept="2OqwBi" id="3Qu0zFooWLm" role="2Oq$k0">
+                          <node concept="1eOMI4" id="3Qu0zFooWLn" role="2Oq$k0">
+                            <node concept="10QFUN" id="3Qu0zFooWLo" role="1eOMHV">
+                              <node concept="3uibUv" id="3Qu0zFooWLp" role="10QFUM">
+                                <ref role="3uigEE" to="93vl:7cgOZHrhAS_" resolve="EditorCell_Multiline" />
+                              </node>
+                              <node concept="2OqwBi" id="3Qu0zFooWLq" role="10QFUP">
+                                <node concept="369mXd" id="3Qu0zFooWLr" role="2Oq$k0" />
+                                <node concept="liA8E" id="3Qu0zFooWLs" role="2OqNvi">
+                                  <ref role="37wK5l" to="exr9:~EditorComponent.findNodeCell(org.jetbrains.mps.openapi.model.SNode)" resolve="findNodeCell" />
+                                  <node concept="37vLTw" id="3Qu0zFooWLt" role="37wK5m">
+                                    <ref role="3cqZAo" node="3Qu0zFokieG" resolve="editorCellMultiline" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="3Qu0zFooWLu" role="2OqNvi">
+                            <ref role="37wK5l" to="93vl:453OnIlrYX_" resolve="getWordCells" />
+                          </node>
+                        </node>
+                        <node concept="1uHKPH" id="3Qu0zFooWLv" role="2OqNvi" />
+                      </node>
+                      <node concept="liA8E" id="3Qu0zFooWLw" role="2OqNvi">
+                        <ref role="37wK5l" to="g51k:~EditorCell_Basic.getStyle()" resolve="getStyle" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="3Qu0zFooWLx" role="2OqNvi">
+                      <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute)" resolve="get" />
+                      <node concept="10M0yZ" id="3Qu0zFooWLy" role="37wK5m">
+                        <ref role="1PxDUh" to="5ueo:~StyleAttributes" resolve="StyleAttributes" />
+                        <ref role="3cqZAo" to="5ueo:~StyleAttributes.UNDERLINED" resolve="UNDERLINED" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="3Qu0zFokIal" role="3cqZAp" />
+      <node concept="3clFbH" id="3Qu0zFokIaB" role="3cqZAp" />
+      <node concept="3clFbH" id="3Qu0zFokIaU" role="3cqZAp" />
+      <node concept="3clFbH" id="3Qu0zFokIbe" role="3cqZAp" />
+      <node concept="3clFbH" id="3Qu0zFokIbz" role="3cqZAp" />
+      <node concept="3clFbH" id="3Qu0zFokIbT" role="3cqZAp" />
     </node>
   </node>
 </model>

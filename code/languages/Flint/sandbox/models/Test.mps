@@ -640,6 +640,15 @@
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="hi im testy" />
     </node>
+    <node concept="cog_b" id="3Qu0zFokg1e" role="2pmM46">
+      <property role="1tl0gq" value="English" />
+      <property role="1hTq4$" value="https://calculemus.org/837c11e4-ed59-47cf-b0e1-fc006c539248" />
+      <node concept="2hPCcK" id="3Qu0zFokg1f" role="2hN6Sa">
+        <node concept="19SUe$" id="3Qu0zFokg1g" role="19SJt6">
+          <property role="19SUeA" value="n lays down rul" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

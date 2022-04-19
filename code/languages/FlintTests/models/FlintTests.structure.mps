@@ -181,5 +181,35 @@
     <property role="TrG5h" value="LanguageFact" />
     <ref role="1TJDcQ" to="lnwe:5XjenljaN1U" resolve="Fact" />
   </node>
+  <node concept="1TIwiD" id="3Qu0zFohMPy">
+    <property role="EcuMT" value="4439988734393789794" />
+    <property role="TrG5h" value="FactWithArticle" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3Qu0zFohNd4" role="1TKVEi">
+      <property role="IQ2ns" value="4439988734393791300" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="fact" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="lnwe:5XjenljaN1U" resolve="Fact" />
+    </node>
+    <node concept="1TJgyj" id="3Qu0zFohNd6" role="1TKVEi">
+      <property role="IQ2ns" value="4439988734393791302" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="article" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="srlv:1nyeVyNiRPP" resolve="Article" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3Qu0zFoj_XV">
+    <property role="EcuMT" value="4439988734394261371" />
+    <property role="TrG5h" value="TestLine" />
+    <ref role="1TJDcQ" to="srlv:7xM0MUaGt9W" resolve="Line" />
+  </node>
+  <node concept="1TIwiD" id="3Qu0zFojF7b">
+    <property role="EcuMT" value="4439988734394282443" />
+    <property role="TrG5h" value="TestPrefixLine" />
+    <ref role="1TJDcQ" to="srlv:7xM0MUaGta2" resolve="PrefixLine" />
+  </node>
 </model>
 
