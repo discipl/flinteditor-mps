@@ -32093,7 +32093,15 @@
         <property role="1hTQn4" value="https://calculemus.org/825c4da5-f445-410d-84e1-005b62d7dbeb" />
         <node concept="19SGf9" id="14WD1prolQV" role="3MLR7a">
           <node concept="19SUe$" id="14WD1prolQW" role="19SJt6">
-            <property role="19SUeA" value="Processing of personal data relating to criminal convictions and offences or related security measures based on Article 6(1) shall be carried out only under the control of official authority or when the processing is authorised by Union or Member State law providing for appropriate safeguards for the rights and freedoms of data subjects. Any comprehensive register of criminal convictions shall be kept only under the control of official authority." />
+            <property role="19SUeA" value="Processing of personal data relating to criminal convictions and offences or related security measures based on Article 6(1) shall be carried out only under the control of official authority or when the processing is authorised by Union or Member State law providing for appropriate safeguards for the rights and freedoms of data subjects." />
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5i" id="31DpIuYGAYh" role="3MKX6F">
+        <property role="1hTQn4" value="8db87199-8a17-4c74-aa6b-2ec93fde4db6" />
+        <node concept="19SGf9" id="31DpIuYGAYf" role="3MLR7a">
+          <node concept="19SUe$" id="31DpIuYGAYg" role="19SJt6">
+            <property role="19SUeA" value=" Any comprehensive register of criminal convictions shall be kept only under the control of official authority." />
           </node>
         </node>
       </node>

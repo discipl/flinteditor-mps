@@ -3,7 +3,6 @@
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
-    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
     <use id="120e1c9d-4e27-4478-b2af-b2c3bd3850b0" name="com.mbeddr.mpsutil.editor.querylist" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -593,8 +592,8 @@
               <node concept="3clFbS" id="3xy2hd2A$LG" role="3clFbx">
                 <node concept="3clFbF" id="3xy2hd2A_Yj" role="3cqZAp">
                   <node concept="2YIFZM" id="3xy2hd2A_Yk" role="3clFbG">
-                    <ref role="1Pybhc" to="rm61:3xy2hd2zqwm" resolve="LineUnderlineHelper" />
-                    <ref role="37wK5l" to="rm61:3xy2hd2zv2u" resolve="underlineWords" />
+                    <ref role="37wK5l" to="rm61:3xy2hd2zv2u" resolve="underlineWordsInText" />
+                    <ref role="1Pybhc" to="rm61:3xy2hd2zqwm" resolve="TextUnderlineHelper" />
                     <node concept="1Q80Hx" id="3xy2hd2A_Yl" role="37wK5m" />
                     <node concept="2OqwBi" id="3xy2hd2AAyP" role="37wK5m">
                       <node concept="1PxgMI" id="3xy2hd2A_Ym" role="2Oq$k0">
@@ -679,8 +678,8 @@
                 <node concept="3clFbS" id="3xy2hd2ABiu" role="3eOfB_">
                   <node concept="3clFbF" id="3xy2hd2zuAv" role="3cqZAp">
                     <node concept="2YIFZM" id="3xy2hd2zvyy" role="3clFbG">
-                      <ref role="1Pybhc" to="rm61:3xy2hd2zqwm" resolve="LineUnderlineHelper" />
-                      <ref role="37wK5l" to="rm61:3xy2hd2zv2u" resolve="underlineWords" />
+                      <ref role="37wK5l" to="rm61:3xy2hd2zv2u" resolve="underlineWordsInText" />
+                      <ref role="1Pybhc" to="rm61:3xy2hd2zqwm" resolve="TextUnderlineHelper" />
                       <node concept="1Q80Hx" id="3xy2hd2zvGt" role="37wK5m" />
                       <node concept="2OqwBi" id="3xy2hd2G7A1" role="37wK5m">
                         <node concept="1PxgMI" id="3xy2hd2zvZx" role="2Oq$k0">

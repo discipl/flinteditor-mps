@@ -562,14 +562,83 @@
     <node concept="1GVOM6" id="42UWsK7YX1e" role="1GVO30">
       <property role="1GVPtd" value="English" />
     </node>
-    <node concept="cog_b" id="42UWsK7YX1f" role="2pmM46">
+  </node>
+  <node concept="mu5$5" id="31DpIuYGtCf">
+    <property role="3GE5qa" value="acts" />
+    <node concept="1FQA6B" id="31DpIuYGtCg" role="3H36mW" />
+    <node concept="1FQA6B" id="31DpIuYGtCh" role="3H36l7" />
+    <node concept="1FQA6B" id="31DpIuYGtCi" role="3H36lm" />
+    <node concept="1FQA6B" id="31DpIuYGtCj" role="3FTnq6" />
+    <node concept="1GVOM6" id="31DpIuYGtCk" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+    </node>
+  </node>
+  <node concept="cu0$f" id="31DpIuYGzEq">
+    <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="31DpIuYGzEr" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+    </node>
+  </node>
+  <node concept="cu0$f" id="31DpIuYGAYs">
+    <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="31DpIuYGAYt" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+    </node>
+    <node concept="cog_b" id="31DpIuYGAYu" role="2pmM46">
       <property role="1tl0gq" value="English" />
-      <property role="1hTq4$" value="https://calculemus.org/837c11e4-ed59-47cf-b0e1-fc006c539248" />
-      <node concept="2hPCcK" id="42UWsK7YX1g" role="2hN6Sa">
-        <node concept="19SUe$" id="42UWsK7YX1h" role="19SJt6">
-          <property role="19SUeA" value="he free movemen" />
+      <property role="1hTq4$" value="8db87199-8a17-4c74-aa6b-2ec93fde4db6" />
+      <node concept="2hPCcK" id="31DpIuYGAYv" role="2hN6Sa">
+        <node concept="19SUe$" id="31DpIuYGAYw" role="19SJt6">
+          <property role="19SUeA" value="ter of criminal convictions shall b" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="cu0$f" id="4i72hLgNx43">
+    <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="4i72hLgNx44" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+    </node>
+    <node concept="cog_b" id="4i72hLgNx45" role="2pmM46">
+      <property role="1tl0gq" value="English" />
+      <property role="1hTq4$" value="https://calculemus.org/9586fded-ac84-4667-81ec-3891898d16e1" />
+      <node concept="2hPCcK" id="4i72hLgNx46" role="2hN6Sa">
+        <node concept="19SUe$" id="4i72hLgNx47" role="19SJt6">
+          <property role="19SUeA" value="otec" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="cu0$f" id="4i72hLgNyUg">
+    <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="4i72hLgNyUh" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+    </node>
+  </node>
+  <node concept="cu0$f" id="4i72hLgOOuj">
+    <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="4i72hLgOOuk" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+    </node>
+  </node>
+  <node concept="cu0$f" id="3azCKjBDOCQ">
+    <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="3azCKjBDOCR" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+    </node>
+  </node>
+  <node concept="cu0$f" id="3azCKjBNTpn">
+    <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="3azCKjBNTpo" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+    </node>
+  </node>
+  <node concept="cu0$f" id="3azCKjBR9$e">
+    <property role="3GE5qa" value="facts" />
+    <property role="TrG5h" value="hi im testy" />
+    <node concept="1GVOM6" id="3azCKjBR9$f" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="hi im testy" />
     </node>
   </node>
 </model>
