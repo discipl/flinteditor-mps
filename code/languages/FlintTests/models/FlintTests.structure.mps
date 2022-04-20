@@ -3,7 +3,6 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
-    <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
     <import index="lnwe" ref="r:d268844f-2c2c-4250-a969-3a23a8a2bb02(Flint.structure)" />
@@ -200,16 +199,6 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="srlv:1nyeVyNiRPP" resolve="Article" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="3Qu0zFoj_XV">
-    <property role="EcuMT" value="4439988734394261371" />
-    <property role="TrG5h" value="TestLine" />
-    <ref role="1TJDcQ" to="srlv:7xM0MUaGt9W" resolve="Line" />
-  </node>
-  <node concept="1TIwiD" id="3Qu0zFojF7b">
-    <property role="EcuMT" value="4439988734394282443" />
-    <property role="TrG5h" value="TestPrefixLine" />
-    <ref role="1TJDcQ" to="srlv:7xM0MUaGta2" resolve="PrefixLine" />
   </node>
 </model>
 
