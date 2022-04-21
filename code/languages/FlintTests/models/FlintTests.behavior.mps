@@ -12,6 +12,7 @@
     <import index="1z9r" ref="r:5d54dae5-81d4-42dd-a3f1-89bc0a78884b(FlintTests.structure)" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="rm61" ref="r:2de11635-399c-4593-b822-69e8b73763b7(LawSource.behavior)" />
+    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
@@ -1018,6 +1019,29 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="3Qu0zFohWIS" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="7VfJsRd7nMn" role="jymVt">
+      <property role="TrG5h" value="getSelectedModel" />
+      <node concept="3Tm1VV" id="7VfJsRd7nMp" role="1B3o_S" />
+      <node concept="H_c77" id="7VfJsRd9uCi" role="3clF45" />
+      <node concept="3clFbS" id="7VfJsRd7nMr" role="3clF47">
+        <node concept="3SKdUt" id="7VfJsRd7p0v" role="3cqZAp">
+          <node concept="1PaTwC" id="7VfJsRd7p0w" role="1aUNEU">
+            <node concept="3oM_SD" id="7VfJsRd7p0x" role="1PaTwD">
+              <property role="3oM_SC" value="do" />
+            </node>
+            <node concept="3oM_SD" id="7VfJsRd7p0N" role="1PaTwD">
+              <property role="3oM_SC" value="nothing" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7VfJsRd7nMu" role="3cqZAp">
+          <node concept="10Nm6u" id="7VfJsRd7nMt" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7VfJsRd7nMs" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>

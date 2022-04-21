@@ -551,13 +551,5 @@
       <property role="1GVPtd" value="English" />
     </node>
   </node>
-  <node concept="cu0$f" id="3azCKjBR9$e">
-    <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="find me as testfact" />
-    <node concept="1GVOM6" id="3azCKjBR9$f" role="1GVO30">
-      <property role="1GVPtd" value="English" />
-      <property role="1GVPtb" value="find me as testfact" />
-    </node>
-  </node>
 </model>
 

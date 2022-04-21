@@ -21,7 +21,6 @@
         <property id="778381075952164307" name="explanation" index="3ANC2_" />
       </concept>
       <concept id="6868897032739893310" name="Flint.structure.FlintSource" flags="ng" index="cog_b">
-        <property id="2215264714367931041" name="textId" index="1hTq4$" />
         <property id="1165398171153094508" name="language" index="1tl0gq" />
         <child id="7816114204006679678" name="betterText" index="2hN6Sa" />
       </concept>
@@ -2714,22 +2713,6 @@
     <node concept="1GVOM6" id="st1r8Bl0gw" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="niet in behandeling nemen" />
-    </node>
-  </node>
-  <node concept="cu0$f" id="31DpIuYGDsZ">
-    <property role="3GE5qa" value="facts" />
-    <node concept="1GVOM6" id="31DpIuYGDt0" role="1GVO30">
-      <property role="1GVPtd" value="English" />
-      <property role="1GVPtb" value="my new fact" />
-    </node>
-    <node concept="cog_b" id="31DpIuYGDt1" role="2pmM46">
-      <property role="1tl0gq" value="English" />
-      <property role="1hTq4$" value="https://calculemus.org/837c11e4-ed59-47cf-b0e1-fc006c539248" />
-      <node concept="2hPCcK" id="31DpIuYGDt2" role="2hN6Sa">
-        <node concept="19SUe$" id="31DpIuYGDt3" role="19SJt6">
-          <property role="19SUeA" value="tion lays down  het is aangepast ru" />
-        </node>
-      </node>
     </node>
   </node>
 </model>

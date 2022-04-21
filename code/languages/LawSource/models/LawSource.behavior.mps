@@ -8596,14 +8596,13 @@
       <node concept="3Tm1VV" id="3azCKjBAoe5" role="1B3o_S" />
       <node concept="3cqZAl" id="3azCKjBAmZW" role="3clF45" />
     </node>
-    <node concept="3Tm1VV" id="3xy2hd29T1V" role="1B3o_S" />
-  </node>
-  <node concept="13h7C7" id="3xy2hd29Ubv">
-    <property role="3GE5qa" value="sources" />
-    <ref role="13h7C2" to="srlv:1nyeVyNiRPP" resolve="Article" />
-    <node concept="13hLZK" id="3xy2hd29Ubw" role="13h7CW">
-      <node concept="3clFbS" id="3xy2hd29Ubx" role="2VODD2" />
+    <node concept="3clFb_" id="7VfJsRd7ldk" role="jymVt">
+      <property role="TrG5h" value="getSelectedModel" />
+      <node concept="3clFbS" id="7VfJsRd7ldn" role="3clF47" />
+      <node concept="3Tm1VV" id="7VfJsRd7ldo" role="1B3o_S" />
+      <node concept="H_c77" id="7VfJsRd9vk_" role="3clF45" />
     </node>
+    <node concept="3Tm1VV" id="3xy2hd29T1V" role="1B3o_S" />
   </node>
   <node concept="3HP615" id="3xy2hd2zqwm">
     <property role="3GE5qa" value="sources" />
