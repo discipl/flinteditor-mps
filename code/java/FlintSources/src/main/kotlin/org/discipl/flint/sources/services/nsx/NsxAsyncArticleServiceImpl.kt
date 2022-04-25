@@ -4,7 +4,6 @@ import org.discipl.flint.sources.clients.AsyncTextLineClient
 import org.discipl.flint.sources.models.Article
 import org.discipl.flint.sources.services.AsyncArticleService
 import org.discipl.flint.sources.transformers.AsyncTextLineTransformer
-import org.discipl.flint.sources.transformers.TextLineTransformer
 import java.nio.file.Path
 import java.util.*
 

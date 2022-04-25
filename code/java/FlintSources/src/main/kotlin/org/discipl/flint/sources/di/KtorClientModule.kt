@@ -1,43 +1,44 @@
 package org.discipl.flint.sources.di
 
+import com.google.gson.GsonBuilder
 import io.ktor.client.*
 import io.ktor.client.engine.*
 import io.ktor.client.engine.apache.*
-import io.ktor.client.features.*
-import io.ktor.client.features.json.*
-import io.ktor.client.features.logging.*
+import io.ktor.client.plugins.*
+import io.ktor.client.plugins.contentnegotiation.*
+import io.ktor.client.plugins.logging.*
 import io.ktor.http.*
+import io.ktor.serialization.gson.*
 import org.discipl.flint.sources.clients.nsx.NsxEmbeddedResult
 import org.discipl.flint.sources.clients.nsx.NsxEmbeddedResultDeserializer
 import org.discipl.flint.sources.services.PropertyProvider
 import org.koin.dsl.module
-import java.net.URL
 
 val ktorClientModule = module {
-    single<JsonSerializer> {
-        GsonSerializer {
-            registerTypeAdapter(NsxEmbeddedResult::class.java, NsxEmbeddedResultDeserializer())
-        }
-    }
     single<HttpClientEngine> { Apache.create { sslContext = get() } }
     single {
         val propertyProvider = get<PropertyProvider>()
         HttpClient(get()) {
             defaultRequest {
-                val base = URL(propertyProvider.baseUrl)
-                if (url.host == "localhost") {
-                    url.host = base.host
-                    url.port = if (base.port < 0) 0 else base.port
-                    url.protocol = URLProtocol.createOrDefault(base.protocol)
-                    url.encodedPath = base.path + url.encodedPath
-                }
+                url(propertyProvider.baseUrl.appendSlashToEndIfNotPresent())
             }
             install(Logging) {
                 level = LogLevel.INFO
             }
-            install(JsonFeature) {
-                serializer = get()
+            install(ContentNegotiation) {
+                val block: GsonBuilder.() -> Unit = {
+                    registerTypeAdapter(NsxEmbeddedResult::class.java, NsxEmbeddedResultDeserializer())
+                }
+                val builder = GsonBuilder()
+                builder.apply(block)
+                val converter = GsonConverter(builder.create())
+                register(ContentType.Application.Json, converter)
             }
         }
     }
+}
+
+private fun String.appendSlashToEndIfNotPresent(): String {
+    if (this.endsWith("/")) return this
+    return "$this/"
 }

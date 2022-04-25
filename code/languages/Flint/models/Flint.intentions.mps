@@ -788,7 +788,7 @@
         <node concept="3cpWs6" id="2vpCevmOtFf" role="3cqZAp">
           <node concept="3cpWs3" id="2vpCevmOvFn" role="3cqZAk">
             <node concept="Xl_RD" id="2vpCevmOvFM" role="3uHU7w">
-              <property role="Xl_RC" value=" expression with new expression" />
+              <property role="Xl_RC" value=" expression with test expression" />
             </node>
             <node concept="3cpWs3" id="2vpCevmOu6d" role="3uHU7B">
               <node concept="Xl_RD" id="2vpCevmOtGJ" role="3uHU7B">

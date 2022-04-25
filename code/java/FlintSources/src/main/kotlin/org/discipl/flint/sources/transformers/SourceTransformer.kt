@@ -1,6 +1,6 @@
 package org.discipl.flint.sources.transformers
 
-import org.discipl.flint.sources.clients.BWBSource
+import org.discipl.flint.sources.clients.SourceClient.BWBSource
 import org.discipl.flint.sources.models.Source
 
 class SourceTransformer {

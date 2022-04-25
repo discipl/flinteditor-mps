@@ -2,11 +2,11 @@ package org.discipl.flint.sources.clients.nsx
 
 import com.google.gson.annotations.SerializedName
 import io.ktor.client.*
+import io.ktor.client.call.*
 import io.ktor.client.request.*
 import kotlinx.coroutines.runBlocking
-import org.discipl.flint.sources.clients.Parser
 import org.discipl.flint.sources.clients.ParserClient
-import org.discipl.flint.sources.clients.Source
+import org.discipl.flint.sources.clients.ParserClient.Parser
 import java.util.*
 
 class NsxParserClientImpl(private val httpClient: HttpClient) : ParserClient {
@@ -15,13 +15,13 @@ class NsxParserClientImpl(private val httpClient: HttpClient) : ParserClient {
     }
 
     private suspend fun getPublicationSources(): List<NsxPublicationSource> {
-        return httpClient.get<NsxResult<NsxPublicationSource>>("publicatiebrons").result.result
+        return httpClient.get("publicatiebrons").body<NsxResult<NsxPublicationSource>>().result.result
     }
 
     private suspend fun getPublicationParsers(): List<NsxPublicationParser> {
-        val result = httpClient.get<NsxResult<NsxPublicationParser>>("publicatieparsers") {
+        val result = httpClient.get("publicatieparsers") {
             header("Accept", "*/*")
-        }
+        }.body<NsxResult<NsxPublicationParser>>()
         return result.result.result
     }
 
@@ -32,5 +32,5 @@ class NsxParserClientImpl(private val httpClient: HttpClient) : ParserClient {
         override val source: NsxPublicationSource
     ) : Parser
 
-    private data class NsxPublicationSource(override val name: String, override val uuid: UUID) : Source
+    private data class NsxPublicationSource(override val name: String, override val uuid: UUID) : ParserClient.Source
 }

@@ -9,7 +9,7 @@ This is the MPS Flint IDE user guide. The Guide covers the following topics.
 
 ## Creating a Flint project
 1. Open MPS.
-1. Click on Create new project.
+1. Click on Create test project.
 1. Select Flint from the menu and fill in the project, solution and model names and hit OK.    
 ![Flint Project Window](images/newproject.png)
 
@@ -41,7 +41,7 @@ This is the MPS Flint IDE user guide. The Guide covers the following topics.
 ![Create Act](images/createact.png)
 1. Replace the first <no name> with the name of the act.
 
-#### Quick create new fact
+#### Quick create test fact
 1. Click on the area with <no fact> and enter the name of the fact.
 1. Hit `Ctrl+Space` and select Create Fact: (factname).  
 ![Create Fact](images/quickCreateFact.png)
@@ -107,7 +107,7 @@ You can open the juriconnect on wetten.nl by `Ctrl+Clicking` on the juriconnect.
 ![Open juriconnect](images/openjuriconnect.png)
 
 ### Expressions
-There are different types of expressions. Creating these expressions with be explained below. To replace an expression hit `Alt+Enter` and select replace (expression x) with (expression y). To nest an expression hit `Alt+Enter` and select wrap (expression x) with new expression. 
+There are different types of expressions. Creating these expressions with be explained below. To replace an expression hit `Alt+Enter` and select replace (expression x) with (expression y). To nest an expression hit `Alt+Enter` and select wrap (expression x) with test expression. 
 
 ![Replace or Wrap](images/replaceorwrap.png)
 
@@ -219,7 +219,7 @@ You can import a law text to simplify making flint models.
 To import a law text:
 1. Select a parser from the Publication Parser Selector panel.   
 ![Parser Selector Panel](images/parserselectorpanel.png)
-2. `Right Click` the model and create a new `LawSource`.     
+2. `Right Click` the model and create a test `LawSource`.     
 ![Create Law Source](images/createlawsource.png)
 3. Input the BWB code for the law text you wish to import.   
 ![Enter BWB Code](images/enterbwb.png)
@@ -250,11 +250,11 @@ You can also select `Add Text to Existing Node` to add the source to an existing
 It is possible to make translations in the FlintEditor. It starts with making a language node in which you must translate all the editor components to your desired language. When activated all the editor components will use the given translation. Building upon this language node a user can also start making translations of Acts/Facts/Duties as they please. To allow for collaboration and sharing information different export options are provided. A user can export/import a language node to share with collaborators or he can export/import a whole FlintModel with a certain translation. A step by step guide will be given below describing each part of the translation process.
 
 ### Creating language node
-1. Create a new language node  
-![Createing new language node](images/create_new_language.png)
+1. Create a test language node  
+![Createing test language node](images/create_new_language.png)
 2. You can find your langauge node in the language map as shown below  
 ![Language node placement](images/placement_language_node.png)
-3. The new language node will look empty like the image below. Fill in your translations.   
+3. The test language node will look empty like the image below. Fill in your translations.   
 ![Language Node Example](images/language_node_example.png)
 4. In this short guide we will copy the English translation and call it Test_English  
 ![Language Node Example Filled](images/language_node_example_filled.png)
@@ -275,9 +275,9 @@ This guide will demonstrate creating Translations with an Act.
 
 1 . Provided we didn't select a language yet, the default language is English. The Act should look as below.  
 ![Normal Act](images/language_act_start.png)  
-2 (Manually). We could manually create new translations by pressing `enter` after "English". You can manually fill the language name and translated name. 
+2 (Manually). We could manually create test translations by pressing `enter` after "English". You can manually fill the language name and translated name. 
 ![Manual Act](images/language_act_manual.png)    
-2 (Automatically). We could also switch the FlintModel language to "Test_English". This will create a new translation with the new language name automatically filled. After we change the translated name of the act we get the next image.     
+2 (Automatically). We could also switch the FlintModel language to "Test_English". This will create a test translation with the test language name automatically filled. After we change the translated name of the act we get the next image.     
 ![Automatic Act](images/language_switching.png)   
 3 . We can also collide or expand the "Translations" to make the Act more readable as shown below.  
 ![Translation collide](images/language_translation_collide.png)

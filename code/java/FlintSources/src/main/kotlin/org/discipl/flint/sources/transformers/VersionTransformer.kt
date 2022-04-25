@@ -1,6 +1,6 @@
 package org.discipl.flint.sources.transformers
 
-import org.discipl.flint.sources.clients.BWBVersion
+import org.discipl.flint.sources.clients.VersionClient.BWBVersion
 import org.discipl.flint.sources.models.Version
 
 class VersionTransformer {

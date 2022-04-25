@@ -1,17 +1,18 @@
 package org.discipl.flint.sources.clients.nsx
 
 import io.ktor.client.*
+import io.ktor.client.call.*
 import io.ktor.client.request.*
 import kotlinx.coroutines.runBlocking
-import org.discipl.flint.sources.clients.DocumentStructure
 import org.discipl.flint.sources.clients.DocumentStructureClient
+import org.discipl.flint.sources.clients.DocumentStructureClient.DocumentStructure
 import java.util.*
 
 class NsxDocumentStructureClientImpl(private val httpClient: HttpClient) : DocumentStructureClient {
     private suspend fun getDocumentStructuresAsync(): List<NsxDocumentStructure> {
-        val result = httpClient.get<NsxResult<NsxDocumentStructure>>("documentstructures") {
+        val result = httpClient.get("documentstructures") {
             header("Accept", "*/*")
-        }
+        }.body<NsxResult<NsxDocumentStructure>>()
         return result.result.result
     }
 

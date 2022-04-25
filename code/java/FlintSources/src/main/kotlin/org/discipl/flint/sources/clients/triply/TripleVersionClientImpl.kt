@@ -12,6 +12,7 @@ import org.apache.jena.riot.web.HttpCaptureResponse
 import org.apache.jena.riot.web.HttpOp
 import org.apache.jena.riot.web.HttpOp.CaptureInput
 import org.discipl.flint.sources.clients.*
+import org.discipl.flint.sources.clients.VersionClient.BWBVersion
 import org.jsoup.Jsoup
 import java.time.LocalDate
 

@@ -5,10 +5,8 @@ package org.discipl.flint.sources.di
 import io.ktor.client.engine.mock.*
 import io.ktor.client.request.*
 import io.ktor.http.*
-import java.io.File
-import java.net.URL
+import mu.KLogging
 import java.nio.file.Path
-import java.nio.file.Paths
 import java.util.*
 
 
@@ -33,7 +31,9 @@ private fun isPublicatieParsingsCase(request: HttpRequestData): Boolean =
 private fun isDocumentStructuresCase(request: HttpRequestData): Boolean =
     request.url.encodedPath == "/calculemus/calculemusComp/v1/documentstructures"
 
+object NsxResponseHandler : KLogging()
 val nsxResponseHandler: MockRequestHandler = { request ->
+    NsxResponseHandler.logger.info { "Received request $request" }
     val result: HttpResponseData? = when {
         isQueryCase(request) -> queryRequestCase(request)
         isStatusCase(request) -> statusRequestCase(request)
@@ -55,6 +55,10 @@ val juriDecomposeResult by lazy {
     getResourceAsString("juriDecomposeResponse.json")
 }
 
+val juriDecomposeHoofdstukkenResult by lazy {
+    getResourceAsString("juridecomposewithhoofdstukken.json")
+}
+
 
 val cov19Result by lazy {
     getResourceAsString("cov19parseResult2.json")
@@ -66,6 +70,10 @@ val csvResult by lazy {
 
 val csvResultEN by lazy {
     getResourceAsString("eur-lex-eng-csvrespose.json")
+}
+
+val quintorApiResult by lazy {
+    getResourceAsString("quintor-api-result.json")
 }
 
 private fun getResourceAsString(fileName: String): String {
@@ -110,7 +118,7 @@ fun MockRequestHandleScope.queryRequestCase(request: HttpRequestData): HttpRespo
     return respond(
         """{"id":"${mockRequestResult.id}"}""",
         HttpStatusCode.Created,
-        headersOf(HttpHeaders.ContentType to listOf("application/ld+json"))
+        headersOf(HttpHeaders.ContentType to listOf("application/json"))
     )
 }
 

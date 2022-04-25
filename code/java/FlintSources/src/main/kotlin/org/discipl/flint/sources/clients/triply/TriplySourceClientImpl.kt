@@ -3,6 +3,7 @@ package org.discipl.flint.sources.clients.triply
 import org.apache.jena.graph.NodeFactory
 import org.apache.jena.query.*
 import org.discipl.flint.sources.clients.*
+import org.discipl.flint.sources.clients.SourceClient.BWBSource
 
 class TriplySourceClientImpl(private val queryExecutor: QueryExecutor) : SourceClient {
     // TODO make sure to get the latest one somehow

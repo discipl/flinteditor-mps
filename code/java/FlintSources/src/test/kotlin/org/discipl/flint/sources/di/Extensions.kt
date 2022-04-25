@@ -15,7 +15,10 @@ import org.koin.core.component.get
 import org.koin.core.logger.Level
 import org.koin.core.logger.Logger
 import org.koin.core.logger.MESSAGE
+import org.koin.core.qualifier.Qualifier
+import org.koin.mp.KoinPlatformTools
 import org.koin.test.KoinTest
+import org.koin.test.get
 import org.slf4j.LoggerFactory
 import java.net.URL
 import java.net.URLEncoder
@@ -33,6 +36,10 @@ fun KoinApplication.slf4JLogger(level: Level = Level.DEBUG): KoinApplication {
             }
         }
     })
+}
+
+fun <T : Any> KoinTest.getProperty(key: String): Lazy<T> = lazy {
+    getKoin().getProperty<T>(key) ?: throw Exception("No property named $key")
 }
 
 fun HttpClientMockBuilder.doReturnJSONResource(resource: String): HttpClientResponseBuilder {

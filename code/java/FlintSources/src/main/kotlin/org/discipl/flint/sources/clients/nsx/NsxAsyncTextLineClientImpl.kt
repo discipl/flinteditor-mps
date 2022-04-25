@@ -1,11 +1,10 @@
 package org.discipl.flint.sources.clients.nsx
 
 import io.ktor.client.*
+import io.ktor.client.call.*
 import io.ktor.client.request.*
 import io.ktor.client.request.forms.*
 import io.ktor.http.*
-import io.ktor.util.*
-import io.ktor.utils.io.core.*
 import kotlinx.coroutines.runBlocking
 import org.discipl.flint.sources.clients.AsyncTextLine
 import org.discipl.flint.sources.clients.AsyncTextLineClient
@@ -16,13 +15,12 @@ import java.util.*
 class NsxAsyncTextLineClientImpl(private val httpClient: HttpClient) : AsyncTextLineClient {
     override fun requestParsing(publicationId: UUID, parserId: UUID, versionId: String): UUID = runBlocking {
         val request = NsxTextLinesForVersionRequest(parserId, publicationId, versionId)
-        val result = httpClient.postJson<NsxTextLinesForVersionRequestId>("publicatieparsings") { body = request }
+        val result = httpClient.postJson<NsxTextLinesForVersionRequestId>("publicatieparsings") { setBody(request) }
         result.id
     }
 
-    @Suppress("EXPERIMENTAL_API_USAGE_FUTURE_ERROR")
     override fun requestParsing(csv: Path, documentStructure: String): UUID = runBlocking {
-        val result = httpClient.submitFormWithBinaryData<NsxTextLinesForVersionRequestId>(
+        val result = httpClient.submitFormWithBinaryData(
             "publicatieparsings",
             formData {
                 append("file", csv.toFile().readBytes(), Headers.build {
@@ -31,7 +29,7 @@ class NsxAsyncTextLineClientImpl(private val httpClient: HttpClient) : AsyncText
                 })
                 append("documentStructure", documentStructure)
             }
-        )
+        ).body<NsxTextLinesForVersionRequestId>()
         result.id
     }
 
@@ -41,9 +39,9 @@ class NsxAsyncTextLineClientImpl(private val httpClient: HttpClient) : AsyncText
         parserId: UUID,
         versionId: String
     ): List<AsyncTextLine> = runBlocking {
-        val result = httpClient.get<NsxTextLinesForVersionResult>("publicatieparsings/${parseRequestId}") {
+        val result = httpClient.get("publicatieparsings/${parseRequestId}") {
             header("Accept", "application/ld+json")
-        }
+        }.body<NsxTextLinesForVersionResult>()
         result.results.map { AnAsyncTextLine(it) }
     }
 
@@ -53,9 +51,9 @@ class NsxAsyncTextLineClientImpl(private val httpClient: HttpClient) : AsyncText
         parserId: UUID,
         versionId: String
     ): String = runBlocking {
-        httpClient.get<NsxTextLinesForVersionRequestStatus>("publicatieparsings/${parseRequestId}") {
+        httpClient.get("publicatieparsings/${parseRequestId}") {
             header("Accept", "application/json")
-        }.status
+        }.body<NsxTextLinesForVersionRequestStatus>().status
     }
 
     private class AnAsyncTextLine(nsxTextLine: NsxTextLine) : AsyncTextLine {

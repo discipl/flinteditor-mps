@@ -38,21 +38,27 @@
       <sourceRoot location="jsonld-java.jar"/>
       <sourceRoot location="jsoup.jar"/>
       <sourceRoot location="koin-core-jvm-3.2.0-beta.jar"/>
+      <sourceRoot location="kotlin-logging-jvm.jar"/>
+      <sourceRoot location="kotlin-reflect.jar"/>
       <sourceRoot location="kotlin-stdlib-common.jar"/>
       <sourceRoot location="kotlin-stdlib-jdk7.jar"/>
       <sourceRoot location="kotlin-stdlib-jdk8.jar"/>
       <sourceRoot location="kotlin-stdlib.jar"/>
       <sourceRoot location="kotlinx-coroutines-core-jvm.jar"/>
+      <sourceRoot location="kotlinx-coroutines-jdk8.jar"/>
+      <sourceRoot location="kotlinx-coroutines-slf4j.jar"/>
       <sourceRoot location="ktor-client-apache-jvm.jar"/>
+      <sourceRoot location="ktor-client-content-negotiation-jvm.jar"/>
       <sourceRoot location="ktor-client-core-jvm.jar"/>
-      <sourceRoot location="ktor-client-gson-jvm.jar"/>
-      <sourceRoot location="ktor-client-json-jvm.jar"/>
       <sourceRoot location="ktor-client-logging-jvm.jar"/>
-      <sourceRoot location="ktor-http-cio-jvm.jar"/>
+      <sourceRoot location="ktor-events-jvm.jar"/>
       <sourceRoot location="ktor-http-jvm.jar"/>
       <sourceRoot location="ktor-io-jvm.jar"/>
-      <sourceRoot location="ktor-network-jvm.jar"/>
+      <sourceRoot location="ktor-serialization-gson-jvm.jar"/>
+      <sourceRoot location="ktor-serialization-jvm.jar"/>
       <sourceRoot location="ktor-utils-jvm.jar"/>
+      <sourceRoot location="ktor-websocket-serialization-jvm.jar"/>
+      <sourceRoot location="ktor-websockets-jvm.jar"/>
       <sourceRoot location="libthrift.jar"/>
     </modelRoot> 
   </models>  
@@ -94,21 +100,27 @@
     <stubModelEntry path="${module}/libs/jsonld-java.jar"/>
     <stubModelEntry path="${module}/libs/jsoup.jar"/>
     <stubModelEntry path="${module}/libs/koin-core-jvm-3.2.0-beta.jar"/>
+    <stubModelEntry path="${module}/libs/kotlin-logging-jvm.jar"/>
+    <stubModelEntry path="${module}/libs/kotlin-reflect.jar"/>
     <stubModelEntry path="${module}/libs/kotlin-stdlib-common.jar"/>
     <stubModelEntry path="${module}/libs/kotlin-stdlib-jdk7.jar"/>
     <stubModelEntry path="${module}/libs/kotlin-stdlib-jdk8.jar"/>
     <stubModelEntry path="${module}/libs/kotlin-stdlib.jar"/>
     <stubModelEntry path="${module}/libs/kotlinx-coroutines-core-jvm.jar"/>
+    <stubModelEntry path="${module}/libs/kotlinx-coroutines-jdk8.jar"/>
+    <stubModelEntry path="${module}/libs/kotlinx-coroutines-slf4j.jar"/>
     <stubModelEntry path="${module}/libs/ktor-client-apache-jvm.jar"/>
+    <stubModelEntry path="${module}/libs/ktor-client-content-negotiation-jvm.jar"/>
     <stubModelEntry path="${module}/libs/ktor-client-core-jvm.jar"/>
-    <stubModelEntry path="${module}/libs/ktor-client-gson-jvm.jar"/>
-    <stubModelEntry path="${module}/libs/ktor-client-json-jvm.jar"/>
     <stubModelEntry path="${module}/libs/ktor-client-logging-jvm.jar"/>
-    <stubModelEntry path="${module}/libs/ktor-http-cio-jvm.jar"/>
+    <stubModelEntry path="${module}/libs/ktor-events-jvm.jar"/>
     <stubModelEntry path="${module}/libs/ktor-http-jvm.jar"/>
     <stubModelEntry path="${module}/libs/ktor-io-jvm.jar"/>
-    <stubModelEntry path="${module}/libs/ktor-network-jvm.jar"/>
+    <stubModelEntry path="${module}/libs/ktor-serialization-gson-jvm.jar"/>
+    <stubModelEntry path="${module}/libs/ktor-serialization-jvm.jar"/>
     <stubModelEntry path="${module}/libs/ktor-utils-jvm.jar"/>
+    <stubModelEntry path="${module}/libs/ktor-websocket-serialization-jvm.jar"/>
+    <stubModelEntry path="${module}/libs/ktor-websockets-jvm.jar"/>
     <stubModelEntry path="${module}/libs/libthrift.jar"/>
   </stubModelEntries>  
   <sourcePath/>  
