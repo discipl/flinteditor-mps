@@ -16707,25 +16707,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="ZbsDciwXWi" role="3cqZAp">
-          <node concept="2OqwBi" id="ZbsDciwXWf" role="3clFbG">
-            <node concept="10M0yZ" id="ZbsDciwXWg" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-            </node>
-            <node concept="liA8E" id="ZbsDciwXWh" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.Object)" resolve="println" />
-              <node concept="2OqwBi" id="ZbsDciwYJb" role="37wK5m">
-                <node concept="37vLTw" id="ZbsDciwYbm" role="2Oq$k0">
-                  <ref role="3cqZAo" node="42UWsK88$pV" resolve="selection" />
-                </node>
-                <node concept="liA8E" id="ZbsDciwZcy" role="2OqNvi">
-                  <ref role="37wK5l" to="gyv0:2_D0AvWRqEB" resolve="getSelectedCells" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
       </node>
       <node concept="3Tm1VV" id="42UWsK88$41" role="1B3o_S" />
       <node concept="3cqZAl" id="42UWsK8g2nz" role="3clF45" />
