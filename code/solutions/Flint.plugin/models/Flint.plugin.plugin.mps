@@ -17499,96 +17499,181 @@
                             </node>
                           </node>
                         </node>
-                        <node concept="3J1_TO" id="29E0vksn_sV" role="3cqZAp">
-                          <node concept="3uVAMA" id="29E0vksnAjk" role="1zxBo5">
-                            <node concept="XOnhg" id="29E0vksnAjl" role="1zc67B">
-                              <property role="TrG5h" value="t" />
-                              <node concept="nSUau" id="29E0vksnAjm" role="1tU5fm">
-                                <node concept="3uibUv" id="29E0vksnBe7" role="nSUat">
-                                  <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
-                                </node>
-                              </node>
+                        <node concept="3cpWs8" id="RP9mMRv6Z9" role="3cqZAp">
+                          <node concept="3cpWsn" id="RP9mMRv6Za" role="3cpWs9">
+                            <property role="TrG5h" value="asyncTask" />
+                            <node concept="3uibUv" id="RP9mMRv6Zb" role="1tU5fm">
+                              <ref role="3uigEE" to="xygl:~Task$Backgroundable" resolve="Task.Backgroundable" />
                             </node>
-                            <node concept="3clFbS" id="29E0vksnAjn" role="1zc67A">
-                              <node concept="3clFbF" id="6FvCNS$pf_V" role="3cqZAp">
-                                <node concept="2YIFZM" id="6FvCNS$pf_W" role="3clFbG">
-                                  <ref role="37wK5l" to="rm61:1pk1Qg2gdFw" resolve="notifyError" />
-                                  <ref role="1Pybhc" to="rm61:$Y9SaAri3W" resolve="LsSourceLoaderUtils" />
-                                  <node concept="Xl_RD" id="6FvCNS$pf_X" role="37wK5m">
-                                    <property role="Xl_RC" value="PublicationParser" />
-                                  </node>
-                                  <node concept="Xl_RD" id="6FvCNS$pf_Y" role="37wK5m">
-                                    <property role="Xl_RC" value="Publication Parser" />
-                                  </node>
-                                  <node concept="Xl_RD" id="6FvCNS$pfA0" role="37wK5m">
-                                    <property role="Xl_RC" value="Something went wrong while loading parsers" />
-                                  </node>
-                                  <node concept="Xl_RD" id="6FvCNS$pfA5" role="37wK5m">
-                                    <property role="Xl_RC" value="Something went wrong while loading parsers" />
-                                  </node>
-                                  <node concept="37vLTw" id="29E0vksol2R" role="37wK5m">
-                                    <ref role="3cqZAo" node="29E0vkso5Im" resolve="project" />
-                                  </node>
-                                  <node concept="2ShNRf" id="6FvCNS$pfAa" role="37wK5m">
-                                    <node concept="1pGfFk" id="6FvCNS$pfAb" role="2ShVmc">
-                                      <ref role="37wK5l" to="wyt6:~Exception.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="Exception" />
-                                      <node concept="Xl_RD" id="29E0vksnGYL" role="37wK5m">
-                                        <property role="Xl_RC" value="Something went wrong while loading parsers" />
+                            <node concept="2ShNRf" id="RP9mMRv8w2" role="33vP2m">
+                              <node concept="YeOm9" id="RP9mMRvAVu" role="2ShVmc">
+                                <node concept="1Y3b0j" id="RP9mMRvAVx" role="YeSDq">
+                                  <property role="2bfB8j" value="true" />
+                                  <ref role="1Y3XeK" to="xygl:~Task$Backgroundable" resolve="Task.Backgroundable" />
+                                  <ref role="37wK5l" to="xygl:~Task$Backgroundable.&lt;init&gt;(com.intellij.openapi.project.Project,java.lang.String,boolean,com.intellij.openapi.progress.PerformInBackgroundOption)" resolve="Task.Backgroundable" />
+                                  <node concept="3Tm1VV" id="RP9mMRvAVy" role="1B3o_S" />
+                                  <node concept="3clFb_" id="RP9mMRvAVF" role="jymVt">
+                                    <property role="TrG5h" value="run" />
+                                    <node concept="3Tm1VV" id="RP9mMRvAVG" role="1B3o_S" />
+                                    <node concept="3cqZAl" id="RP9mMRvAVI" role="3clF45" />
+                                    <node concept="37vLTG" id="RP9mMRvAVJ" role="3clF46">
+                                      <property role="TrG5h" value="p1" />
+                                      <node concept="3uibUv" id="RP9mMRvAVK" role="1tU5fm">
+                                        <ref role="3uigEE" to="xygl:~ProgressIndicator" resolve="ProgressIndicator" />
                                       </node>
-                                      <node concept="37vLTw" id="6LQ$bpXOe7Y" role="37wK5m">
-                                        <ref role="3cqZAo" node="29E0vksnAjl" resolve="t" />
+                                      <node concept="2AHcQZ" id="RP9mMRvAVL" role="2AJF6D">
+                                        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
                                       </node>
                                     </node>
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="3clFbS" id="29E0vksn_sX" role="1zxBo7">
-                            <node concept="3cpWs8" id="6FvCNS_UnEG" role="3cqZAp">
-                              <node concept="3cpWsn" id="6FvCNS_UnEH" role="3cpWs9">
-                                <property role="TrG5h" value="publicationParsers" />
-                                <node concept="3uibUv" id="6FvCNS_UnDt" role="1tU5fm">
-                                  <ref role="3uigEE" to="33ny:~List" resolve="List" />
-                                  <node concept="3uibUv" id="6FvCNS_UnDw" role="11_B2D">
-                                    <ref role="3uigEE" to="faj1:~PublicationParser" resolve="PublicationParser" />
-                                  </node>
-                                </node>
-                                <node concept="2OqwBi" id="6FvCNS_UnEI" role="33vP2m">
-                                  <node concept="2OqwBi" id="6FvCNS_UnEJ" role="2Oq$k0">
-                                    <node concept="10M0yZ" id="6FvCNS_UnEK" role="2Oq$k0">
-                                      <ref role="1PxDUh" to="79nv:~SourceLoader" resolve="SourceLoader" />
-                                      <ref role="3cqZAo" to="79nv:~SourceLoader.INSTANCE" resolve="INSTANCE" />
+                                    <node concept="3clFbS" id="RP9mMRvAVM" role="3clF47">
+                                      <node concept="3J1_TO" id="29E0vksn_sV" role="3cqZAp">
+                                        <node concept="3uVAMA" id="29E0vksnAjk" role="1zxBo5">
+                                          <node concept="XOnhg" id="29E0vksnAjl" role="1zc67B">
+                                            <property role="TrG5h" value="t" />
+                                            <node concept="nSUau" id="29E0vksnAjm" role="1tU5fm">
+                                              <node concept="3uibUv" id="29E0vksnBe7" role="nSUat">
+                                                <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                          <node concept="3clFbS" id="29E0vksnAjn" role="1zc67A">
+                                            <node concept="3clFbF" id="6FvCNS$pf_V" role="3cqZAp">
+                                              <node concept="2YIFZM" id="6FvCNS$pf_W" role="3clFbG">
+                                                <ref role="37wK5l" to="rm61:1pk1Qg2gdFw" resolve="notifyError" />
+                                                <ref role="1Pybhc" to="rm61:$Y9SaAri3W" resolve="LsSourceLoaderUtils" />
+                                                <node concept="Xl_RD" id="6FvCNS$pf_X" role="37wK5m">
+                                                  <property role="Xl_RC" value="PublicationParser" />
+                                                </node>
+                                                <node concept="Xl_RD" id="6FvCNS$pf_Y" role="37wK5m">
+                                                  <property role="Xl_RC" value="Publication Parser" />
+                                                </node>
+                                                <node concept="Xl_RD" id="6FvCNS$pfA0" role="37wK5m">
+                                                  <property role="Xl_RC" value="Something went wrong while loading parsers" />
+                                                </node>
+                                                <node concept="Xl_RD" id="6FvCNS$pfA5" role="37wK5m">
+                                                  <property role="Xl_RC" value="Something went wrong while loading parsers" />
+                                                </node>
+                                                <node concept="37vLTw" id="29E0vksol2R" role="37wK5m">
+                                                  <ref role="3cqZAo" node="29E0vkso5Im" resolve="project" />
+                                                </node>
+                                                <node concept="2ShNRf" id="6FvCNS$pfAa" role="37wK5m">
+                                                  <node concept="1pGfFk" id="6FvCNS$pfAb" role="2ShVmc">
+                                                    <ref role="37wK5l" to="wyt6:~Exception.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="Exception" />
+                                                    <node concept="Xl_RD" id="29E0vksnGYL" role="37wK5m">
+                                                      <property role="Xl_RC" value="Something went wrong while loading parsers" />
+                                                    </node>
+                                                    <node concept="37vLTw" id="6LQ$bpXOe7Y" role="37wK5m">
+                                                      <ref role="3cqZAo" node="29E0vksnAjl" resolve="t" />
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="3clFbS" id="29E0vksn_sX" role="1zxBo7">
+                                          <node concept="3cpWs8" id="6FvCNS_UnEG" role="3cqZAp">
+                                            <node concept="3cpWsn" id="6FvCNS_UnEH" role="3cpWs9">
+                                              <property role="TrG5h" value="publicationParsers" />
+                                              <node concept="3uibUv" id="6FvCNS_UnDt" role="1tU5fm">
+                                                <ref role="3uigEE" to="33ny:~List" resolve="List" />
+                                                <node concept="3uibUv" id="6FvCNS_UnDw" role="11_B2D">
+                                                  <ref role="3uigEE" to="faj1:~PublicationParser" resolve="PublicationParser" />
+                                                </node>
+                                              </node>
+                                              <node concept="2OqwBi" id="6FvCNS_UnEI" role="33vP2m">
+                                                <node concept="2OqwBi" id="6FvCNS_UnEJ" role="2Oq$k0">
+                                                  <node concept="10M0yZ" id="6FvCNS_UnEK" role="2Oq$k0">
+                                                    <ref role="3cqZAo" to="79nv:~SourceLoader.INSTANCE" resolve="INSTANCE" />
+                                                    <ref role="1PxDUh" to="79nv:~SourceLoader" resolve="SourceLoader" />
+                                                  </node>
+                                                  <node concept="liA8E" id="6FvCNS_UnEL" role="2OqNvi">
+                                                    <ref role="37wK5l" to="79nv:~SourceLoader.getParserService()" resolve="getParserService" />
+                                                  </node>
+                                                </node>
+                                                <node concept="liA8E" id="6FvCNS_UnEM" role="2OqNvi">
+                                                  <ref role="37wK5l" to="ggg1:~ParserService.getPublicationParsers()" resolve="getPublicationParsers" />
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                          <node concept="3clFbF" id="6FvCNS_UsqF" role="3cqZAp">
+                                            <node concept="1rXfSq" id="6FvCNS_UsqD" role="3clFbG">
+                                              <ref role="37wK5l" node="6FvCNS_R5I6" resolve="setParsers" />
+                                              <node concept="37vLTw" id="6FvCNS_UuxP" role="37wK5m">
+                                                <ref role="3cqZAo" node="6FvCNS_UnEH" resolve="publicationParsers" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="1wplmZ" id="RP9mMRAFHs" role="1zxBo6">
+                                          <node concept="3clFbS" id="RP9mMRAFHt" role="1wplMD">
+                                            <node concept="3clFbF" id="6FvCNS_UeMM" role="3cqZAp">
+                                              <node concept="2OqwBi" id="6FvCNS_UeMN" role="3clFbG">
+                                                <node concept="37vLTw" id="6FvCNS_UeMO" role="2Oq$k0">
+                                                  <ref role="3cqZAo" node="6FvCNS_Rhv$" resolve="jbutton" />
+                                                </node>
+                                                <node concept="liA8E" id="6FvCNS_UeMP" role="2OqNvi">
+                                                  <ref role="37wK5l" to="dxuu:~AbstractButton.setEnabled(boolean)" resolve="setEnabled" />
+                                                  <node concept="3clFbT" id="6FvCNS_UeMQ" role="37wK5m">
+                                                    <property role="3clFbU" value="true" />
+                                                  </node>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
                                     </node>
-                                    <node concept="liA8E" id="6FvCNS_UnEL" role="2OqNvi">
-                                      <ref role="37wK5l" to="79nv:~SourceLoader.getParserService()" resolve="getParserService" />
+                                    <node concept="2AHcQZ" id="RP9mMRvAVO" role="2AJF6D">
+                                      <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                                     </node>
                                   </node>
-                                  <node concept="liA8E" id="6FvCNS_UnEM" role="2OqNvi">
-                                    <ref role="37wK5l" to="ggg1:~ParserService.getPublicationParsers()" resolve="getPublicationParsers" />
+                                  <node concept="2YIFZM" id="RP9mMR_1vo" role="37wK5m">
+                                    <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
+                                    <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                                    <node concept="37vLTw" id="RP9mMR_3Fh" role="37wK5m">
+                                      <ref role="3cqZAo" node="29E0vkso5Im" resolve="project" />
+                                    </node>
                                   </node>
-                                </node>
-                              </node>
-                            </node>
-                            <node concept="3clFbF" id="6FvCNS_UsqF" role="3cqZAp">
-                              <node concept="1rXfSq" id="6FvCNS_UsqD" role="3clFbG">
-                                <ref role="37wK5l" node="6FvCNS_R5I6" resolve="setParsers" />
-                                <node concept="37vLTw" id="6FvCNS_UuxP" role="37wK5m">
-                                  <ref role="3cqZAo" node="6FvCNS_UnEH" resolve="publicationParsers" />
+                                  <node concept="Xl_RD" id="RP9mMRvN__" role="37wK5m">
+                                    <property role="Xl_RC" value="Retrieving parsers" />
+                                  </node>
+                                  <node concept="3clFbT" id="RP9mMRvQ3R" role="37wK5m" />
+                                  <node concept="10M0yZ" id="RP9mMRvTv6" role="37wK5m">
+                                    <ref role="3cqZAo" to="xygl:~PerformInBackgroundOption.DEAF" resolve="DEAF" />
+                                    <ref role="1PxDUh" to="xygl:~PerformInBackgroundOption" resolve="PerformInBackgroundOption" />
+                                  </node>
                                 </node>
                               </node>
                             </node>
                           </node>
                         </node>
-                        <node concept="3clFbF" id="6FvCNS_UeMM" role="3cqZAp">
-                          <node concept="2OqwBi" id="6FvCNS_UeMN" role="3clFbG">
-                            <node concept="37vLTw" id="6FvCNS_UeMO" role="2Oq$k0">
-                              <ref role="3cqZAo" node="6FvCNS_Rhv$" resolve="jbutton" />
+                        <node concept="3clFbF" id="RP9mMRtzaw" role="3cqZAp">
+                          <node concept="2OqwBi" id="RP9mMRt$4F" role="3clFbG">
+                            <node concept="2YIFZM" id="RP9mMRtz$q" role="2Oq$k0">
+                              <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
+                              <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
                             </node>
-                            <node concept="liA8E" id="6FvCNS_UeMP" role="2OqNvi">
-                              <ref role="37wK5l" to="dxuu:~AbstractButton.setEnabled(boolean)" resolve="setEnabled" />
-                              <node concept="3clFbT" id="6FvCNS_UeMQ" role="37wK5m">
-                                <property role="3clFbU" value="true" />
+                            <node concept="liA8E" id="RP9mMRt$Lk" role="2OqNvi">
+                              <ref role="37wK5l" to="bd8o:~Application.invokeLater(java.lang.Runnable)" resolve="invokeLater" />
+                              <node concept="1bVj0M" id="RP9mMRt_YF" role="37wK5m">
+                                <node concept="3clFbS" id="RP9mMRt_YG" role="1bW5cS">
+                                  <node concept="3clFbF" id="RP9mMRw1q4" role="3cqZAp">
+                                    <node concept="2OqwBi" id="RP9mMRw1Ek" role="3clFbG">
+                                      <node concept="2YIFZM" id="RP9mMRw1uF" role="2Oq$k0">
+                                        <ref role="37wK5l" to="xygl:~ProgressManager.getInstance()" resolve="getInstance" />
+                                        <ref role="1Pybhc" to="xygl:~ProgressManager" resolve="ProgressManager" />
+                                      </node>
+                                      <node concept="liA8E" id="RP9mMRw23t" role="2OqNvi">
+                                        <ref role="37wK5l" to="xygl:~ProgressManager.run(com.intellij.openapi.progress.Task)" resolve="run" />
+                                        <node concept="37vLTw" id="RP9mMRw3l$" role="37wK5m">
+                                          <ref role="3cqZAo" node="RP9mMRv6Za" resolve="asyncTask" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
                               </node>
                             </node>
                           </node>
