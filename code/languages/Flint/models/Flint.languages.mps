@@ -11,7 +11,7 @@
     <language id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint">
       <concept id="3001846011087139046" name="Flint.structure.Language" flags="ng" index="30VgfG">
         <property id="5774777313303068660" name="eVersion" index="20jtUE" />
-        <property id="5774777313303068741" name="ePublicated" index="20jy4r" />
+        <property id="5774777313303068741" name="ePublicized" index="20jy4r" />
         <property id="5774777313303068770" name="eSelectVersion" index="20jy4W" />
         <property id="5774777313303068686" name="eVerified" index="20jy5g" />
         <property id="5774777313303068713" name="eValidated" index="20jy5R" />
