@@ -2045,11 +2045,6 @@
             <ref role="1Busuk" node="1bPqaB7JSO$" resolve="FlintCellModels" />
           </node>
         </node>
-        <node concept="1SiIV0" id="Pcj8aoVYRF" role="3bR37C">
-          <node concept="3bR9La" id="Pcj8aoVYRG" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
-          </node>
-        </node>
       </node>
       <node concept="1E1JtD" id="1bPqaB7JSO$" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -2349,26 +2344,6 @@
         <node concept="1SiIV0" id="6LSqBjYO77V" role="3bR37C">
           <node concept="3bR9La" id="6onvLJoJY9i" role="1SiIV1">
             <ref role="3bR37D" node="6onvLJoJVY2" resolve="LawSource" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="1$Rh126bgfK" role="3bR37C">
-          <node concept="3bR9La" id="1$Rh126bgfL" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="1$Rh126bgfM" role="3bR37C">
-          <node concept="3bR9La" id="1$Rh126bgfN" role="1SiIV1">
-            <ref role="3bR37D" node="2FAQ6X3GqIP" resolve="FlintView.plugin" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="1$Rh126bgfO" role="3bR37C">
-          <node concept="3bR9La" id="1$Rh126bgfP" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:14x5$qAUbkv" resolve="jetbrains.mps.lang.resources" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="1$Rh126bgfQ" role="3bR37C">
-          <node concept="3bR9La" id="1$Rh126bgfR" role="1SiIV1">
-            <ref role="3bR37D" to="90a9:FniR$Cj0b1" resolve="com.mbeddr.mpsutil.projectview.runtime" />
           </node>
         </node>
       </node>
@@ -3744,6 +3719,11 @@
         <node concept="1SiIV0" id="7zM_gLh0JLF" role="3bR37C">
           <node concept="3bR9La" id="7zM_gLh0JLG" role="1SiIV1">
             <ref role="3bR37D" node="6onvLJoJVY2" resolve="LawSource" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7VfJsRdiuca" role="3bR37C">
+          <node concept="3bR9La" id="7VfJsRdiucb" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
           </node>
         </node>
       </node>
