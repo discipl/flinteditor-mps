@@ -16,7 +16,8 @@ import org.discipl.flint.sources.clients.VersionClient.BWBVersion
 import org.jsoup.Jsoup
 import java.time.LocalDate
 
-class TripleVersionClientImpl(private val queryExecutor: QueryExecutor, private val httpClient: HttpClient) : VersionClient {
+class TripleVersionClientImpl(private val queryExecutor: QueryExecutor, private val httpClient: HttpClient) :
+    VersionClient {
     companion object {
         private val query: String = """
             PREFIX changeset: <https://fin.triply.cc/ole/BWB/changeset/>
@@ -28,14 +29,15 @@ class TripleVersionClientImpl(private val queryExecutor: QueryExecutor, private 
             PREFIX changeset: <https://fin.triply.cc/ole/BWB/changeset/>
             PREFIX term: <http://purl.org/dc/terms/>
             
-            SELECT * WHERE {
+            SELECT ?uri ?label ?startDate ?wettenNl (GROUP_CONCAT(DISTINCT ?juriconnectS; SEPARATOR=",") AS ?juriconnect) WHERE {
               ?uri calculemus:juridischeBron ?id .
               ?uri rdfs:label ?label .
               ?uri calculemus:lidoIri ?iri .
               SERVICE <https://api.fin.triply.cc/datasets/ole/OLE-LOD/services/OLE-LOD/sparql> { 
-                ?iri lido:heeftInwerkingtredingsdatum ?startDate; term:hasVersion ?wettenNl .
-              } 
+                ?iri lido:heeftInwerkingtredingsdatum ?startDate; term:hasVersion ?wettenNl; lido:heeftJuriconnect ?juriconnectS .
+              }
             }
+            GROUP BY ?uri ?label ?startDate ?wettenNl
         """.trimIndent()
     }
 
@@ -44,9 +46,9 @@ class TripleVersionClientImpl(private val queryExecutor: QueryExecutor, private 
         val label: String by querySolutionString()
         val startDate: String by querySolutionString()
         val wettenNl: String by querySolutionResourceURI()
-
+        val juriconnect: String by querySolutionString()
         override fun toString(): String {
-            return "MappedBWBVersion(uri='$uri', label='$label', startDate='$startDate')"
+            return "MappedBWBVersion(uri='$uri', label='$label', startDate='$startDate', wettenNl='$wettenNl', juriconnect='$juriconnect')"
         }
     }
 
@@ -59,6 +61,8 @@ class TripleVersionClientImpl(private val queryExecutor: QueryExecutor, private 
         override val label: String = mappedBWBVersion.label
         override val startDate: String = mappedBWBVersion.startDate
         override val wettenNl: String = mappedBWBVersion.wettenNl
+        override val juriconnect: String = mappedBWBVersion.juriconnect.split(",").lastOrNull() ?: ""
+
         override fun toString(): String {
             return "FullyMappedBWBVersion(name='$name', endDate='$endDate', uri='$uri', label='$label', startDate='$startDate')"
         }
@@ -75,7 +79,7 @@ class TripleVersionClientImpl(private val queryExecutor: QueryExecutor, private 
         pss.setParam("id", NodeFactory.createURI("https://fin.triply.cc/ole/BWB/id/$bwb"))
         val queryString = pss.toString()
         val query: Query = QueryFactory.create(queryString)
-        return queryExecutor.executeQuery(query.toString()) {
+        return queryExecutor.executeQuery(query) {
             it.toList().map { solution -> MappedBWBVersion(solution) }
         }
     }

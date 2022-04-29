@@ -18,11 +18,15 @@ class TriplySourceClientImpl(private val queryExecutor: QueryExecutor) : SourceC
             PREFIX changeset: <https://fin.triply.cc/ole/BWB/changeset/>
             PREFIX term: <http://purl.org/dc/terms/>
             
-            SELECT ?title ?bwb WHERE {
+            SELECT ?title ?bwb (GROUP_CONCAT(DISTINCT ?juriconnectS; SEPARATOR=",") AS ?juriconnect) WHERE {
               ?version calculemus:juridischeBron ?id .
               ?version term:title ?title .
               ?version lido:heeftBWBIri ?bwb .
-            } LIMIT 1
+              ?version calculemus:lidoIri ?iri .
+              SERVICE <https://api.fin.triply.cc/datasets/ole/OLE-LOD/services/OLE-LOD/sparql> { 
+                  ?iri lido:heeftInwerkingtredingsdatum ?startDate; term:hasVersion ?wettenNl; lido:heeftJuriconnect ?juriconnectS .
+              }
+            } GROUP BY ?title ?bwb
         """.trimIndent()
     }
 
@@ -32,7 +36,7 @@ class TriplySourceClientImpl(private val queryExecutor: QueryExecutor) : SourceC
         pss.setParam("id", NodeFactory.createURI("https://fin.triply.cc/ole/BWB/id/$bwb"))
         val queryString = pss.toString()
         val query: Query = QueryFactory.create(queryString)
-        return queryExecutor.executeQuery(query.toString()) {
+        return queryExecutor.executeQuery(query) {
             if (!it.hasNext()) return@executeQuery null
             return@executeQuery MappedBWBSource(it.nextSolution())
         }
@@ -41,6 +45,8 @@ class TriplySourceClientImpl(private val queryExecutor: QueryExecutor) : SourceC
     class MappedBWBSource(override val querySolution: QuerySolution) : BWBSource, IHasSolution {
         override val bwb: String by querySolutionString()
         override val title: String by querySolutionString()
+        val juriconnectS: String by querySolutionString("juriconnect")
+        override val juriconnect: String = juriconnectS.split(",").lastOrNull()?.substringBefore("&") ?: ""
 
         override fun toString(): String {
             return "MappedBWBSource(bwb='$bwb', title='$title')"

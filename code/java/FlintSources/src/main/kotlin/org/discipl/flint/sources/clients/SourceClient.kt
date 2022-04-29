@@ -6,6 +6,7 @@ interface SourceClient {
     interface BWBSource {
         val bwb: String
         val title: String
+        val juriconnect: String
     }
 }
 

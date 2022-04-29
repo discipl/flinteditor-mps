@@ -11,7 +11,7 @@ class VersionTransformer {
             startDate = bwbVersion.startDate,
             endDate = bwbVersion.endDate,
             wettenNl = bwbVersion.wettenNl,
-            juriconnect = "TODO" // TODO fix juriconnect
+            juriconnect = bwbVersion.juriconnect
         )
     }
 }

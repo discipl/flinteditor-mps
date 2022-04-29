@@ -1,6 +1,6 @@
 package org.discipl.flint.sources.services
 
-import org.discipl.flint.sources.test.models.SourcePart
+import org.discipl.flint.sources.models.parts.SourcePart
 import java.nio.file.Path
 import java.util.*
 

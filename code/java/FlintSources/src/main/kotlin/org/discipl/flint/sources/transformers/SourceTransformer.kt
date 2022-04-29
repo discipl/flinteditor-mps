@@ -8,7 +8,7 @@ class SourceTransformer {
         return Source(
             bwbId = bwbSource.bwb,
             name = bwbSource.title,
-            juriconnect = "TODO" // TODO fix juriconnect
+            juriconnect = bwbSource.juriconnect
         )
     }
 }

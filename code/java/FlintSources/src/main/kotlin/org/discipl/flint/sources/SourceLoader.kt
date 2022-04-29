@@ -2,31 +2,26 @@ package org.discipl.flint.sources
 
 import com.google.gson.Gson
 import org.discipl.flint.sources.clients.*
-import org.discipl.flint.sources.clients.nsx.NsxAsyncTextLineClientImpl
-import org.discipl.flint.sources.clients.nsx.NsxDocumentStructureClientImpl
-import org.discipl.flint.sources.clients.nsx.NsxParserClientImpl
+import org.discipl.flint.sources.clients.nsx.*
+import org.discipl.flint.sources.clients.nsx.models.NsxDocumentStructureClientImpl
+import org.discipl.flint.sources.clients.nsx.models.NsxParserClientImpl
 import org.discipl.flint.sources.clients.triply.TripleVersionClientImpl
 import org.discipl.flint.sources.clients.triply.TriplySourceClientImpl
+import org.discipl.flint.sources.di.*
 import org.discipl.flint.sources.di.KoinQualifiers.Properties.ClientIds
 import org.discipl.flint.sources.di.KoinQualifiers.defaultNsxClient
 import org.discipl.flint.sources.di.KoinQualifiers.nsxClients
-import org.discipl.flint.sources.di.KoinSLF4JLogger
-import org.discipl.flint.sources.di.apacheHttpClientModule
-import org.discipl.flint.sources.di.ktorClientModule
-import org.discipl.flint.sources.di.loadAllProperties
 import org.discipl.flint.sources.services.*
-import org.discipl.flint.sources.services.nsx.NsxAsyncArticleServiceImpl
 import org.discipl.flint.sources.services.nsx.NsxDocumentStructureServiceImpl
 import org.discipl.flint.sources.services.nsx.NsxParserServiceImpl
-import org.discipl.flint.sources.services.triply.SourceServiceImpl
-import org.discipl.flint.sources.services.triply.VersionServiceImpl
-import org.discipl.flint.sources.test.NsxSourceTextService
-import org.discipl.flint.sources.test.NsxTransformingClient
-import org.discipl.flint.sources.test.clients.*
-import org.discipl.flint.sources.test.transformers.CsvTextLineTransformer
-import org.discipl.flint.sources.test.transformers.JuriDecomposeTextLineTransformer
-import org.discipl.flint.sources.test.transformers.QuintorTextLineTransformer
-import org.discipl.flint.sources.test.transformers.TriplyTextLineTransformer
+import org.discipl.flint.sources.services.triply.TriplySourceServiceImpl
+import org.discipl.flint.sources.services.triply.TriplyVersionServiceImpl
+import org.discipl.flint.sources.services.nsx.NsxSourceTextService
+import org.discipl.flint.sources.services.nsx.NsxTransformingClient
+import org.discipl.flint.sources.transformers.textline.CsvTextLineTransformer
+import org.discipl.flint.sources.transformers.textline.JuriDecomposeTextLineTransformer
+import org.discipl.flint.sources.transformers.textline.QuintorTextLineTransformer
+import org.discipl.flint.sources.transformers.textline.TriplyTextLineTransformer
 import org.discipl.flint.sources.transformers.*
 import org.koin.core.Koin
 import org.koin.core.KoinApplication
@@ -39,10 +34,10 @@ import javax.net.ssl.SSLContext
 
 internal val hybridClientModule = module {
     includes(apacheHttpClientModule, ktorClientModule)
+    single(KoinQualifiers.timeOutInS) { get<PropertyProvider>().timeOutInS }
     single { QueryExecutor(get()) }
     single<SourceClient> { TriplySourceClientImpl(get()) }
     single<VersionClient> { TripleVersionClientImpl(get(), get()) }
-    single<AsyncTextLineClient> { NsxAsyncTextLineClientImpl(get()) }
     single<ParserClient> { NsxParserClientImpl(get()) }
     single<DocumentStructureClient> { NsxDocumentStructureClientImpl(get()) }
 }
@@ -51,15 +46,14 @@ internal val hybridClientModule = module {
 internal val transformerModule = module {
     single { SourceTransformer() }
     single { VersionTransformer() }
-    single { AsyncTextLineTransformer() }
     single { ParserTransformer() }
     single { DocumentStructureTransformer() }
 }
 
 internal val hybrideServiceModule = module {
     includes(hybridClientModule, transformerModule)
-    single<SourceService> { SourceServiceImpl(get(), get()) }
-    single<VersionService> { VersionServiceImpl(get(), get()) }
+    single<SourceService> { TriplySourceServiceImpl(get(), get()) }
+    single<VersionService> { TriplyVersionServiceImpl(get(), get()) }
 
     single { QuintorTextLineTransformer() }
     single { TriplyTextLineTransformer() }
@@ -104,7 +98,6 @@ internal val hybrideServiceModule = module {
             UUID.fromString(getProperty(ClientIds.juridecompose)) to get(defaultNsxClient),
         )
     }
-    single<AsyncArticleService> { NsxAsyncArticleServiceImpl(get(), get()) }
     single<ParserService> { NsxParserServiceImpl(get(), get()) }
     single<DocumentStructureService> { NsxDocumentStructureServiceImpl(get(), get()) }
 }
@@ -140,7 +133,6 @@ object SourceLoader : KoinComponent {
         return koinApp.koin
     }
 
-    val asyncArticleService: AsyncArticleService by inject()
     val parserService: ParserService by inject()
     val documentStructureService: DocumentStructureService by inject()
     val sourceService: SourceService by inject()

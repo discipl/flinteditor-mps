@@ -9,5 +9,6 @@ interface VersionClient {
         val endDate: String
         val startDate: String
         val wettenNl: String
+        val juriconnect: String
     }
 }

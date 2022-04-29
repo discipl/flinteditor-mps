@@ -7,9 +7,8 @@ import org.koin.dsl.module
 import java.util.concurrent.TimeUnit
 
 val apacheHttpClientModule = module {
-    single(KoinQualifiers.timeOutInMs) { 360 }
     single<HttpClient> {
-        val timeOutInS = get<Int>(KoinQualifiers.timeOutInMs)
+        val timeOutInS = get<Int>(KoinQualifiers.timeOutInS)
         val config = RequestConfig.custom()
             .setConnectTimeout(timeOutInS * 1000)
             .setConnectionRequestTimeout(timeOutInS * 1000)

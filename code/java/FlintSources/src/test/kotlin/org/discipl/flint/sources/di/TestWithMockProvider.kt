@@ -4,10 +4,12 @@ import com.github.paweladamski.httpclientmock.HttpClientMock
 import io.ktor.client.engine.mock.*
 import io.mockk.mockkClass
 import mu.KLogging
+import mu.NamedKLogging
 import org.apache.http.client.HttpClient
 import org.discipl.flint.sources.di.Qualifiers.IS_FAKE_HTTP_QUALIFIER
 import org.discipl.flint.sources.services.PropertyProvider
 import org.junit.jupiter.api.extension.RegisterExtension
+import org.koin.core.KoinApplication
 import org.koin.dsl.module
 import org.koin.test.junit5.KoinTestExtension
 import org.koin.test.junit5.mock.MockProviderExtension
@@ -22,14 +24,14 @@ open class TestWithMockProvider {
 }
 
 open class TestWithTestExtension : TestWithMockProvider() {
-    companion object : KLogging()
+    companion object : NamedKLogging(KoinApplication::class.java.name)
 
     @JvmField
     @RegisterExtension
     val koinTestExtension = KoinTestExtension.create {
         loadAllProperties()
         val fakeHttp = System.getenv("SHOULD_FAKE_HTTP") != "false"
-        logger.info { "Koin is using fake http? $fakeHttp" }
+        logger.info { if (fakeHttp) "Koin is using fake http" else "Koin is using real http" }
         allowOverride(true)
         modules(org.discipl.flint.sources.serviceModule)
         val testModules = mutableListOf(
@@ -38,15 +40,17 @@ open class TestWithTestExtension : TestWithMockProvider() {
                 single<PropertyProvider> {
                     object : PropertyProvider {
                         override val baseUrl: String = "http://localhost:9999/calculemus/calculemusComp/v1"
+                        override val timeOutInS: Int = 360
                     }
                 }
+                single { ResourceProvider() }
             }
         )
         if (fakeHttp) {
             testModules.add(
                 module {
                     single<HttpClient> { HttpClientMock() }
-                    single { MockEngine.create { addHandler(nsxResponseHandler) } }
+                    single { MockEngine.create { addHandler(get<RequestHandler>()) } }
                 }
             )
         } else {

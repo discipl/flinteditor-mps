@@ -20429,9 +20429,7 @@
                       <node concept="3cpWs8" id="7uOBJvdQH_z" role="3cqZAp">
                         <node concept="3cpWsn" id="7uOBJvdQH_$" role="3cpWs9">
                           <property role="TrG5h" value="nsxUrl" />
-                          <node concept="3uibUv" id="7uOBJvdQH__" role="1tU5fm">
-                            <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-                          </node>
+                          <node concept="17QB3L" id="18vlLCAgL$F" role="1tU5fm" />
                           <node concept="2OqwBi" id="7uOBJvdQH_A" role="33vP2m">
                             <node concept="37vLTw" id="7uOBJvdQLpk" role="2Oq$k0">
                               <ref role="3cqZAo" node="7uOBJvdQICL" resolve="pathMacros" />
@@ -20472,6 +20470,62 @@
                       </node>
                     </node>
                     <node concept="2AHcQZ" id="7uOBJvdQAIV" role="2AJF6D">
+                      <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                    </node>
+                  </node>
+                  <node concept="3clFb_" id="18vlLCAgG6n" role="jymVt">
+                    <property role="TrG5h" value="getTimeOutInS" />
+                    <node concept="3Tm1VV" id="18vlLCAgG6o" role="1B3o_S" />
+                    <node concept="10Oyi0" id="18vlLCAgG6q" role="3clF45" />
+                    <node concept="3clFbS" id="18vlLCAgG6s" role="3clF47">
+                      <node concept="3cpWs8" id="18vlLCAgLKq" role="3cqZAp">
+                        <node concept="3cpWsn" id="18vlLCAgLKr" role="3cpWs9">
+                          <property role="TrG5h" value="timeOutInS" />
+                          <node concept="17QB3L" id="18vlLCAgLKs" role="1tU5fm" />
+                          <node concept="2OqwBi" id="18vlLCAgLKt" role="33vP2m">
+                            <node concept="37vLTw" id="18vlLCAgLKu" role="2Oq$k0">
+                              <ref role="3cqZAo" node="7uOBJvdQICL" resolve="pathMacros" />
+                            </node>
+                            <node concept="liA8E" id="18vlLCAgLKv" role="2OqNvi">
+                              <ref role="37wK5l" to="z1c3:~PathMacros.getValue(java.lang.String)" resolve="getValue" />
+                              <node concept="Xl_RD" id="18vlLCAgLKw" role="37wK5m">
+                                <property role="Xl_RC" value="time_out_in_s" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbJ" id="18vlLCAgLKx" role="3cqZAp">
+                        <node concept="3clFbS" id="18vlLCAgLKy" role="3clFbx">
+                          <node concept="3cpWs6" id="18vlLCAgLKz" role="3cqZAp">
+                            <node concept="2OqwBi" id="18vlLCAgLK$" role="3cqZAk">
+                              <node concept="37vLTw" id="18vlLCAgLK_" role="2Oq$k0">
+                                <ref role="3cqZAo" node="7uOBJvdQDvZ" resolve="defaultProvider" />
+                              </node>
+                              <node concept="liA8E" id="18vlLCAgO3r" role="2OqNvi">
+                                <ref role="37wK5l" to="ggg1:~PropertyProvider.getTimeOutInS()" resolve="getTimeOutInS" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3clFbC" id="18vlLCAgLKB" role="3clFbw">
+                          <node concept="10Nm6u" id="18vlLCAgLKC" role="3uHU7w" />
+                          <node concept="37vLTw" id="18vlLCAgLKD" role="3uHU7B">
+                            <ref role="3cqZAo" node="18vlLCAgLKr" resolve="timeOutInS" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3cpWs6" id="18vlLCAgLKE" role="3cqZAp">
+                        <node concept="2YIFZM" id="18vlLCAgPp3" role="3cqZAk">
+                          <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+                          <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String)" resolve="parseInt" />
+                          <node concept="37vLTw" id="18vlLCAgP_B" role="37wK5m">
+                            <ref role="3cqZAo" node="18vlLCAgLKr" resolve="timeOutInS" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2AHcQZ" id="18vlLCAgG6t" role="2AJF6D">
                       <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                     </node>
                   </node>
