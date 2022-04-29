@@ -17572,6 +17572,15 @@
                                           </node>
                                         </node>
                                         <node concept="3clFbS" id="29E0vksn_sX" role="1zxBo7">
+                                          <node concept="3clFbF" id="2aiGXpGxsG7" role="3cqZAp">
+                                            <node concept="2YIFZM" id="2aiGXpGxsKK" role="3clFbG">
+                                              <ref role="37wK5l" to="wyt6:~Thread.sleep(long)" resolve="sleep" />
+                                              <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
+                                              <node concept="3cmrfG" id="2aiGXpGxtI2" role="37wK5m">
+                                                <property role="3cmrfH" value="5000" />
+                                              </node>
+                                            </node>
+                                          </node>
                                           <node concept="3cpWs8" id="6FvCNS_UnEG" role="3cqZAp">
                                             <node concept="3cpWsn" id="6FvCNS_UnEH" role="3cpWs9">
                                               <property role="TrG5h" value="publicationParsers" />
@@ -17640,8 +17649,8 @@
                                     <property role="Xl_RC" value="Retrieving parsers" />
                                   </node>
                                   <node concept="3clFbT" id="RP9mMRvQ3R" role="37wK5m" />
-                                  <node concept="10M0yZ" id="RP9mMRvTv6" role="37wK5m">
-                                    <ref role="3cqZAo" to="xygl:~PerformInBackgroundOption.DEAF" resolve="DEAF" />
+                                  <node concept="10M0yZ" id="2aiGXpGzXwQ" role="37wK5m">
+                                    <ref role="3cqZAo" to="xygl:~PerformInBackgroundOption.ALWAYS_BACKGROUND" resolve="ALWAYS_BACKGROUND" />
                                     <ref role="1PxDUh" to="xygl:~PerformInBackgroundOption" resolve="PerformInBackgroundOption" />
                                   </node>
                                 </node>
