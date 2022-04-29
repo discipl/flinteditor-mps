@@ -17572,15 +17572,6 @@
                                           </node>
                                         </node>
                                         <node concept="3clFbS" id="29E0vksn_sX" role="1zxBo7">
-                                          <node concept="3clFbF" id="2aiGXpGxsG7" role="3cqZAp">
-                                            <node concept="2YIFZM" id="2aiGXpGxsKK" role="3clFbG">
-                                              <ref role="37wK5l" to="wyt6:~Thread.sleep(long)" resolve="sleep" />
-                                              <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
-                                              <node concept="3cmrfG" id="2aiGXpGxtI2" role="37wK5m">
-                                                <property role="3cmrfH" value="5000" />
-                                              </node>
-                                            </node>
-                                          </node>
                                           <node concept="3cpWs8" id="6FvCNS_UnEG" role="3cqZAp">
                                             <node concept="3cpWsn" id="6FvCNS_UnEH" role="3cpWs9">
                                               <property role="TrG5h" value="publicationParsers" />
