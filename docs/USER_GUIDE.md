@@ -5,6 +5,11 @@ This is the MPS Flint IDE user guide. The Guide covers the following topics.
 - [Creating a Flint project](#creating-a-flint-project)
 - [Editing a FlintModel](#editing-a-flintModel)
 - [Creating a FlintRunner](#creating-a-flintrunner)
+- [Using LawText](#law-texts)
+- [Using languages and translations](#translations-guide)
+- [Archiving acts / facts / duties](#archiving-or-reinstating-act--fact--duty)
+- [Marking acts / facts / duties with an interpretation status](#marking-act--fact--duty-as-verified-validated-or-publicized)
+- [Creating versions of acts / facts / duties](#creating-versions-of-an-act--fact--duty)
 - [Useful Shortcuts, Tips And Tricks](#useful-shortcuts-tips-and-tricks)
 
 ## Creating a Flint project
