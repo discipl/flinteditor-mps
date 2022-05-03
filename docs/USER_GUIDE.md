@@ -283,6 +283,49 @@ This guide will demonstrate creating Translations with an Act.
 ![Translation collide](images/language_translation_collide.png)
 ![Translation expand](images/language_translation_expand.png)   
 
+## Archiving or Reinstating act / fact / duty
+
+Users might encouter a case in which they need to store a node for future reference but don't want that node to have an active role in the model. In this case the user might want to archive such a node. Archived nodes cannot have references or be referenced in the active model, they can however be viewed and edited. Using a node in an active model when it is archived will result in a visible error for the user. If a user wants the archived node to play an active role in the model they can reinstate the node again, making it part of the active model. To archive a node follow these steps:
+
+1. Click on the node you want to archive and open the inspector panel in the bottom-right corner
+2. Locate the "Archive" button and click it  
+![Inspector archiveable node](images/inspector-panel-archived.png)   
+3. The node will be transfered to an "archived nodes" folder  
+![Inspector archiveable node](images/archived-node-location.png)     
+  
+To reinstate the node the user must repeat the abovementioned steps and click on the "Reinstate" button  
+
+## Marking act / fact / duty as verified, validated or publicized
+
+While making interpretations a user might want to mark a specific act / fact / duty as verified, validated or publicized. This feature makes it possible to add these marks but only in a specific order. The panel to add these marks can be opened by clicking on the node and opening the inspector. As shown in the image below, a node must first be marked as verified before it can be marked as validated and so on. This is indicated by the grayed out text, visualy telling the user that this mark cannot yet be given.  
+
+- Location of the verified, validated and publicized marks  
+![Inspector archiveable node](images/archived-node-location.png)   
+- The progression of the marks   
+![Inspector archiveable node](images/validation-progression.png)  
+
+## Creating versions of an act / fact / duty
+
+While interpreting a user might want to track how a certain act / fact / duty came to its current state. For this purpose it is possible to track the versions an act / fact / duty went through. Via a button which is located in the inspector of an act / fact / duty the user can update the version of the respective node, effectively making the edits persistent so they can be revisted at a later date. These versions are stored, making it possible for the user to click on the dropdown list and browse the previous versions.
+
+It is important to note that while a node can be edited when it shows a specific version, these edits are transient and will not be stored or used to adjust the latest version of the node. The workings of this functionality will be described below.  
+
+1. To update the version click on the node and open the inspector window. Here we can see the current version of the node and the update button to make a new one.  
+![Inspector archiveable node](images/versions-inspector.png)   
+2. We will update the version in this state by clicking the update version button, storing a snapshot of the state of thecurrent node.   
+![Update step 2](images/update-step-2.png)   
+3. Now we will fill in the actor, action and object with test instances and update again.  
+![Update step 3](images/update-step-3.png)   
+4. Lastly we will fill in a test recipient, a test source and change the name  
+![Update step 4](images/update-step-4.png)    
+
+We have now succesfully made different version and stored them, a user can view the older versions by clicking the "select version" button and clicking the desired version. To go back to the latest edtiable version the user can select "current" from this dropdown menu. The pictures below showcase all the different versions and how they look.   
+
+![Version 0](images/update-step-version-0.png)
+![Version 1](images/update-step-version-1.png)
+![Current version](images/update-step-version-cur.png)
+
+
 ## Useful Shortcuts, Tips And Tricks
 - `Ctrl+B` or `Ctrl+Click` will take you to the source of a reference.
 - `Ctrl+F9` will rebuild the current solution.
