@@ -25,7 +25,12 @@
     "findLineInSource": "Find line in Source",
     "validFrom": "valid from",
     "validTo": "valid to",
-    "tags": "tags"
+    "tags": "tags",
+    "version": "version",
+    "verified": "verified",
+    "validated": "validated",
+    "publicized": "publicized",
+    "selectVersion": "select version"
   },
   "acts": [
     {

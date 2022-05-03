@@ -37,6 +37,9 @@
       <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
         <child id="6983418503075280678" name="sources" index="2pmM46" />
       </concept>
+      <concept id="900714954669859736" name="Flint.structure.IHasVersionAndValidation" flags="ng" index="2Cxlzy">
+        <property id="900714954669872883" name="version" index="2CxiQ9" />
+      </concept>
       <concept id="589729100932390229" name="Flint.structure.IHasLanguage" flags="ng" index="ITzSF">
         <child id="5326288789495449519" name="translatedNames" index="1GVO30" />
       </concept>
@@ -69,6 +72,7 @@
   <node concept="cu0$f" id="6u5qVtI13SP">
     <property role="TrG5h" value="n Nederland gevestigde onderneming als bedoeld in , niet zijnde een overheidsbedrijf" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="6u5qVtI13SQ" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="6u5qVtI13SR" role="2hN6Sa">
@@ -91,34 +95,36 @@
     <property role="TrG5h" value="afwijzen de minister beslist op een aanvraag" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[afwijzen]" />
-    <node concept="cog_b" id="6u5qVtI13T0" role="2pmM46">
-      <property role="1tl0gq" value="English" />
-      <node concept="2hPCcK" id="6u5qVtI13T1" role="2hN6Sa">
-        <node concept="19SUe$" id="6u5qVtI13T2" role="19SJt6">
-          <property role="19SUeA" value="De minister beslist afwijzend op een aanvraag indien:" />
-        </node>
-      </node>
-    </node>
-    <node concept="1FQA6B" id="6u5qVtI13T4" role="3H36l7">
-      <ref role="1FQA6$" node="6u5qVtI13T5" resolve="de minister beslist op een aanvraag" />
-    </node>
-    <node concept="1zEXHp" id="6u5qVtI13T6" role="mu3T0">
-      <node concept="1zEXQY" id="6u5qVtI13T7" role="1zEXIt">
-        <property role="1zEXQP" value="true" />
-      </node>
-    </node>
-    <node concept="1FQA6B" id="4VrbcpCY21H" role="3FTnq6">
-      <ref role="1FQA6$" node="4VrbcpCY21I" resolve="afwijzen" />
-    </node>
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQ94" role="1GVO30">
       <property role="1GVPtb" value="afwijzen de minister beslist op een aanvraag" />
       <property role="1GVPtd" value="English" />
+    </node>
+    <node concept="1zEXHp" id="7tfvwC$6re6" role="mu3T0">
+      <node concept="1zEXQY" id="7tfvwC$6re7" role="1zEXIt">
+        <property role="1zEXQP" value="true" />
+      </node>
+    </node>
+    <node concept="1FQA6B" id="7tfvwC$6re8" role="3H36l7">
+      <ref role="1FQA6$" node="6u5qVtI13T5" resolve="de minister beslist op een aanvraag" />
+    </node>
+    <node concept="1FQA6B" id="7tfvwC$6re9" role="3FTnq6">
+      <ref role="1FQA6$" node="4VrbcpCY21I" resolve="afwijzen" />
+    </node>
+    <node concept="cog_b" id="7tfvwC$6rd6" role="2pmM46">
+      <property role="1tl0gq" value="English" />
+      <node concept="2hPCcK" id="7tfvwC$6rd7" role="2hN6Sa">
+        <node concept="19SUe$" id="7tfvwC$6rd8" role="19SJt6">
+          <property role="19SUeA" value="De minister beslist afwijzend op een aanvraag indien:" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="cu0$f" id="6u5qVtI13T5">
     <property role="TrG5h" value="de minister beslist op een aanvraag" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQaX" role="1GVO30">
       <property role="1GVPtb" value="de minister beslist op een aanvraag" />
       <property role="1GVPtd" value="English" />
@@ -128,6 +134,7 @@
     <property role="TrG5h" value="indienen onderneming in van faillissement dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[indienen]" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="6u5qVtI13Tc" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="6u5qVtI13Td" role="2hN6Sa">
@@ -156,6 +163,7 @@
     <property role="TrG5h" value="onderneming in van faillissement dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQb8" role="1GVO30">
       <property role="1GVPtb" value="onderneming in van faillissement dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming" />
       <property role="1GVPtd" value="English" />
@@ -165,6 +173,7 @@
     <property role="TrG5h" value="indienen een aanvraag" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[indienen]" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="6u5qVtI13To" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="6u5qVtI13Tp" role="2hN6Sa">
@@ -193,6 +202,7 @@
     <property role="TrG5h" value="een aanvraag" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQbj" role="1GVO30">
       <property role="1GVPtb" value="een aanvraag" />
       <property role="1GVPtd" value="English" />
@@ -202,6 +212,7 @@
     <property role="TrG5h" value="stellen een aanvraag wordt ingediend met gebruikmaking van door de minister beschikbaar middel" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[stellen]" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="6u5qVtI13T$" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="6u5qVtI13T_" role="2hN6Sa">
@@ -230,6 +241,7 @@
     <property role="TrG5h" value="een aanvraag wordt ingediend met gebruikmaking van door de minister beschikbaar middel" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQbu" role="1GVO30">
       <property role="1GVPtb" value="een aanvraag wordt ingediend met gebruikmaking van door de minister beschikbaar middel" />
       <property role="1GVPtd" value="English" />
@@ -239,6 +251,7 @@
     <property role="TrG5h" value="indienen een aanvraag  worden ingediend in de periode van tot met" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[indienen]" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="6u5qVtI13TK" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="6u5qVtI13TL" role="2hN6Sa">
@@ -267,6 +280,7 @@
     <property role="TrG5h" value="een aanvraag  worden ingediend in de periode van tot met" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQbD" role="1GVO30">
       <property role="1GVPtb" value="een aanvraag  worden ingediend in de periode van tot met" />
       <property role="1GVPtd" value="English" />
@@ -276,6 +290,7 @@
     <property role="TrG5h" value="stellen de minister beslist binnen drie weken na ontvangst van een aanvraag indien niet binnen deze termijn beslist de minister de aanvrager daarvan in kennis daarbij een redelijke termijn waarbinnen de beslissing wel  worden genomen" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[stellen]" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="6u5qVtI13TW" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="6u5qVtI13TX" role="2hN6Sa">
@@ -304,6 +319,7 @@
     <property role="TrG5h" value="de minister beslist binnen drie weken na ontvangst van een aanvraag indien niet binnen deze termijn beslist de minister de aanvrager daarvan in kennis daarbij een redelijke termijn waarbinnen de beslissing wel  worden genomen" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQbO" role="1GVO30">
       <property role="1GVPtb" value="de minister beslist binnen drie weken na ontvangst van een aanvraag indien niet binnen deze termijn beslist de minister de aanvrager daarvan in kennis daarbij een redelijke termijn waarbinnen de beslissing wel  worden genomen" />
       <property role="1GVPtd" value="English" />
@@ -313,6 +329,7 @@
     <property role="TrG5h" value="nemen de minister beslist binnen drie weken na ontvangst van een aanvraag indien niet binnen deze termijn beslist de minister de aanvrager daarvan in kennis daarbij een redelijke termijn waarbinnen de beslissing wel  worden genomen" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[nemen]" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="6u5qVtI13U8" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="6u5qVtI13U9" role="2hN6Sa">
@@ -341,6 +358,7 @@
     <property role="TrG5h" value="ontvangen voor zover het zorgonderneming bewijsstukken waaruit blijkt waar de verklaring bedoeld in op een kopie van de omzetgegevens uit de boekhouding van de aangifte van de omzetbelasting over 2019 of 2020 en een kopie van de stukken uit de boekhouding van waaruit blijkt wat de hoogte van de tegemoetkomingen die zorgonderneming" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[ontvangen]" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="6u5qVtI13Uj" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="6u5qVtI13Uk" role="2hN6Sa">
@@ -369,6 +387,7 @@
     <property role="TrG5h" value="voor zover het zorgonderneming bewijsstukken waaruit blijkt waar de verklaring bedoeld in op een kopie van de omzetgegevens uit de boekhouding van de aangifte van de omzetbelasting over 2019 of 2020 en een kopie van de stukken uit de boekhouding van waaruit blijkt wat de hoogte van de tegemoetkomingen die zorgonderneming" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQbZ" role="1GVO30">
       <property role="1GVPtb" value="voor zover het zorgonderneming bewijsstukken waaruit blijkt waar de verklaring bedoeld in op een kopie van de omzetgegevens uit de boekhouding van de aangifte van de omzetbelasting over 2019 of 2020 en een kopie van de stukken uit de boekhouding van waaruit blijkt wat de hoogte van de tegemoetkomingen die zorgonderneming" />
       <property role="1GVPtd" value="English" />
@@ -378,6 +397,7 @@
     <property role="TrG5h" value="plaatsen in werking met ingang van de dag na de datum van van de staatscourant waarin zij" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[plaatsen]" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="6u5qVtI13Uv" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="6u5qVtI13Uw" role="2hN6Sa">
@@ -409,6 +429,7 @@
     <property role="TrG5h" value="Deze beleidsregel" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQca" role="1GVO30">
       <property role="1GVPtb" value="Deze beleidsregel" />
       <property role="1GVPtd" value="English" />
@@ -418,6 +439,7 @@
     <property role="TrG5h" value="in werking met ingang van de dag na de datum van van de staatscourant waarin zij" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQcl" role="1GVO30">
       <property role="1GVPtb" value="in werking met ingang van de dag na de datum van van de staatscourant waarin zij" />
       <property role="1GVPtd" value="English" />
@@ -427,6 +449,7 @@
     <property role="TrG5h" value="indienen met ingang van met dien de beleidsregel van toepassing op aanvragen om tegemoetkoming die uiterlijk 26juni 2020 zijn dan wel op tegemoetkomingen die voor 1januari 2021 zijn verstrekt" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[indienen]" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="6u5qVtI13UH" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="6u5qVtI13UI" role="2hN6Sa">
@@ -458,6 +481,7 @@
     <property role="TrG5h" value="met ingang van met dien de beleidsregel van toepassing op aanvragen om tegemoetkoming die uiterlijk 26juni 2020 zijn dan wel op tegemoetkomingen die voor 1januari 2021 zijn verstrekt" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQcw" role="1GVO30">
       <property role="1GVPtb" value="met ingang van met dien de beleidsregel van toepassing op aanvragen om tegemoetkoming die uiterlijk 26juni 2020 zijn dan wel op tegemoetkomingen die voor 1januari 2021 zijn verstrekt" />
       <property role="1GVPtd" value="English" />
@@ -466,6 +490,7 @@
   <node concept="cu0$f" id="6ytzK$sGSYA">
     <property role="TrG5h" value="minister" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQcF" role="1GVO30">
       <property role="1GVPtb" value="minister" />
       <property role="1GVPtd" value="English" />
@@ -474,6 +499,7 @@
   <node concept="cu0$f" id="4VrbcpCY21I">
     <property role="TrG5h" value="afwijzen" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="344aJ4bLRTo" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="afwijzen" />
@@ -482,6 +508,7 @@
   <node concept="cu0$f" id="4VrbcpCY21V">
     <property role="TrG5h" value="indienen" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQd0" role="1GVO30">
       <property role="1GVPtb" value="indienen" />
       <property role="1GVPtd" value="English" />
@@ -490,6 +517,7 @@
   <node concept="cu0$f" id="4VrbcpCY228">
     <property role="TrG5h" value="indienen" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQdb" role="1GVO30">
       <property role="1GVPtb" value="indienen" />
       <property role="1GVPtd" value="English" />
@@ -498,6 +526,7 @@
   <node concept="cu0$f" id="4VrbcpCY22l">
     <property role="TrG5h" value="stellen" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQdm" role="1GVO30">
       <property role="1GVPtb" value="stellen" />
       <property role="1GVPtd" value="English" />
@@ -506,6 +535,7 @@
   <node concept="cu0$f" id="4VrbcpCY22y">
     <property role="TrG5h" value="indienen" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQdx" role="1GVO30">
       <property role="1GVPtb" value="indienen" />
       <property role="1GVPtd" value="English" />
@@ -514,6 +544,7 @@
   <node concept="cu0$f" id="4VrbcpCY22J">
     <property role="TrG5h" value="stellen" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQdG" role="1GVO30">
       <property role="1GVPtb" value="stellen" />
       <property role="1GVPtd" value="English" />
@@ -522,6 +553,7 @@
   <node concept="cu0$f" id="4VrbcpCY22W">
     <property role="TrG5h" value="nemen" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQdR" role="1GVO30">
       <property role="1GVPtb" value="nemen" />
       <property role="1GVPtd" value="English" />
@@ -530,6 +562,7 @@
   <node concept="cu0$f" id="4VrbcpCY239">
     <property role="TrG5h" value="ontvangen" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQe2" role="1GVO30">
       <property role="1GVPtb" value="ontvangen" />
       <property role="1GVPtd" value="English" />
@@ -538,6 +571,7 @@
   <node concept="cu0$f" id="4VrbcpCY23m">
     <property role="TrG5h" value="plaatsen" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQed" role="1GVO30">
       <property role="1GVPtb" value="plaatsen" />
       <property role="1GVPtd" value="English" />
@@ -546,6 +580,7 @@
   <node concept="cu0$f" id="4VrbcpCY23z">
     <property role="TrG5h" value="indienen" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQeo" role="1GVO30">
       <property role="1GVPtb" value="indienen" />
       <property role="1GVPtd" value="English" />

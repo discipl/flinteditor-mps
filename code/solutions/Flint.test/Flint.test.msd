@@ -24,7 +24,7 @@
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
   </dependencies>
   <languageVersions>
-    <language slang="l:69940819-10c1-4a38-ac44-700b63f993ba:Flint" version="11" />
+    <language slang="l:69940819-10c1-4a38-ac44-700b63f993ba:Flint" version="12" />
     <language slang="l:fa4f7dfd-91d0-409e-86f8-693574acc2a3:FlintCellModels" version="0" />
     <language slang="l:0bfae715-f669-4a10-999a-ba0ca94a1c3c:FlintTests" version="0" />
     <language slang="l:dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d:LawSource" version="0" />

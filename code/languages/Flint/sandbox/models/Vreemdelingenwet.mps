@@ -2,7 +2,7 @@
 <model ref="r:dc268d73-e96e-4a6a-a577-7ee51a77ca77(Vreemdelingenwet)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="11" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="12" />
   </languages>
   <imports>
     <import index="jov5" ref="r:9249307a-27f2-447e-8e8c-b4f939b97d5c(Flint.languages)" implicit="true" />
@@ -28,6 +28,7 @@
         <child id="4312083994569304675" name="languageReference" index="3a9ffC" />
       </concept>
       <concept id="6868897032739434618" name="Flint.structure.Fact" flags="ng" index="cu0$f">
+        <property id="6953216201168192046" name="verified" index="3PosH_" />
         <child id="6868897032739751036" name="function" index="coNO9" />
       </concept>
       <concept id="2444626260293387291" name="Flint.structure.Duty" flags="ng" index="2cz0EU">
@@ -54,6 +55,9 @@
       </concept>
       <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
         <child id="6983418503075280678" name="sources" index="2pmM46" />
+      </concept>
+      <concept id="900714954669859736" name="Flint.structure.IHasVersionAndValidation" flags="ng" index="2Cxlzy">
+        <property id="900714954669872883" name="version" index="2CxiQ9" />
       </concept>
       <concept id="589729100932390229" name="Flint.structure.IHasLanguage" flags="ng" index="ITzSF">
         <child id="5326288789495449519" name="translatedNames" index="1GVO30" />
@@ -105,6 +109,7 @@
   <node concept="cu0$f" id="13qOoT8BfcJ">
     <property role="TrG5h" value="Onze Minister van Justitie en Veiligheid" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfcK" role="2pmM46">
       <property role="3ANC2_" value="NOTABLE: Lijst met definities (geen detailverwijzing mogelijk). ERROR: Inmiddels is het eigenlijk de minister van Justitie en Veiligheid (sinds Rutte III beëdigd op 26 oktober 2017), maar dit is nog niet in de Vw vastgelegd." />
       <property role="1tl0gq" value="English" />
@@ -122,6 +127,7 @@
   <node concept="cu0$f" id="13qOoT8BfcO">
     <property role="TrG5h" value="vreemdeling" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfcP" role="2pmM46">
       <property role="3ANC2_" value="NOTABLE: De structuur van dit artikel is meerdere keren veranderd sinds april 2001. Ook de plaats van dit fragment in het artikel verandert nogal eens. Maar de tekst zelf is vanaf de eerste versie niet veranderd. De juriconnect referentie verwijst naar de versie van 2002-01-01 omdat dat de eerste versie is waarvoor een link bestaat." />
       <property role="1tl0gq" value="English" />
@@ -140,6 +146,7 @@
     <property role="TrG5h" value="aanvraag tot verlenen machtiging tot voorlopig verblijf" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="NOTABLE: Act frame indienen aanvraag moet nog worden toegevoegd. Hoe gaan we met het vastleggen van de aanduiding van het gevraagde besluit?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfcU" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdFx" role="2hN6Sa">
@@ -157,6 +164,7 @@
     <property role="TrG5h" value="besluit tot inwilligen aanvraag tot verlenen machtiging tot voorlopig verblijf" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="[] moet zijn &lt;&lt;&gt;&gt;" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfcZ" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdFz" role="2hN6Sa">
@@ -173,6 +181,8 @@
   <node concept="cu0$f" id="13qOoT8Bfd3">
     <property role="TrG5h" value="aanvraag is door de vreemdeling in persoon ingediend" />
     <property role="3GE5qa" value="facts" />
+    <property role="3PosH_" value="true" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfd4" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdF_" role="2hN6Sa">
@@ -189,6 +199,7 @@
   <node concept="cu0$f" id="13qOoT8Bfd8">
     <property role="TrG5h" value="voor de aanvraag is gebruik gemaakt van een voorgeschreven formulier dat volledig is ingevuld en ondertekend" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfd9" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdFB" role="2hN6Sa">
@@ -205,6 +216,7 @@
   <node concept="cu0$f" id="13qOoT8Bfdd">
     <property role="TrG5h" value="aanvraag is gesteld in de Nederlandse, Franse of Engelse taal" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfde" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdFD" role="2hN6Sa">
@@ -221,6 +233,7 @@
   <node concept="cu0$f" id="13qOoT8Bfdi">
     <property role="TrG5h" value="ter afdoening van de aanvraag verschuldigde leges zijn betaald" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfdj" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdFF" role="2hN6Sa">
@@ -237,6 +250,7 @@
   <node concept="cu0$f" id="13qOoT8Bfdn">
     <property role="TrG5h" value="vreemdeling voldoet aan de vereisten voor toegang en verlening van een verblijfsvergunning" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfdo" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdFH" role="2hN6Sa">
@@ -253,6 +267,7 @@
   <node concept="cu0$f" id="13qOoT8Bfds">
     <property role="TrG5h" value="wezenlijk Nederlands belang gediend met verlenen machtiging tot voorlopig verblijf" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfdt" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdFJ" role="2hN6Sa">
@@ -269,6 +284,7 @@
   <node concept="cu0$f" id="13qOoT8Bfdx">
     <property role="TrG5h" value="klemmende redenen van humanitaire aard nopen tot verlenen machtiging tot voorlopig verblijf" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfdy" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdFL" role="2hN6Sa">
@@ -285,6 +301,7 @@
   <node concept="cu0$f" id="13qOoT8BfdA">
     <property role="TrG5h" value="belang van de internationale betrekkingen vordert verlenen machtiging tot voorlopig verblijf" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfdB" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdFN" role="2hN6Sa">
@@ -302,6 +319,7 @@
     <property role="TrG5h" value="aanvraag tot het verlenen van een vvr-bep" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Gebruiken we hier de afkorting 'vvr-bep', een andere afkorting, of een volledige aanduiding (: 'verblijfsvergunning regulier voor bepaalde tijd'). Is het [] of &lt;&lt;&gt;&gt;?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfdG" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdFP" role="2hN6Sa">
@@ -319,6 +337,7 @@
     <property role="TrG5h" value="besluit tot afwijzen aanvraag tot het verlenen van een vvr-bep" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="[] moet zijn &lt;&lt;&gt;&gt;" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfdL" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdFR" role="2hN6Sa">
@@ -336,6 +355,7 @@
     <property role="TrG5h" value="besluit tot inwilligen aanvraag tot het verlenen van een vvr-bep" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="[] moet zijn &lt;&lt;&gt;&gt;" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfdQ" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdFT" role="2hN6Sa">
@@ -353,6 +373,7 @@
     <property role="TrG5h" value="besluit tot niet in behandeling nemen aanvraag tot het verlenen van een vvr-bep" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="[] moet zijn &lt;&lt;&gt;&gt;" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfdV" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdFV" role="2hN6Sa">
@@ -370,6 +391,7 @@
     <property role="TrG5h" value="inwilligen" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Vervoegingen van 'inwilligen' worden op veel plaatsen binnen en buiten de Vw gebruikt. Hoe gaan we daar mee om?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfe0" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdFX" role="2hN6Sa">
@@ -387,6 +409,7 @@
     <property role="TrG5h" value="vvr-bep wordt verleend onder beperkingen, verband houdende met het doel waarvoor het verblijf is toegestaan" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="NOTABLE: Het onderscheid tussen 'beperking' en 'doel' is niet duidelijk. In art. 3.4 Vb wordt in lid 1 een lijst gecreeerd van doelen die verband houden met beperkingen. In lid drie worden die doelen aangeduid met de term 'beperkingen'. In lid 2 is niet helemaal duidelijk waar de term 'De beperkingen, bedoeld in het eerste lid' naar verwijst. Wij interpreteren 'doel' als de reden van verblijf, en 'beperking' als de omschrijving op de verblijfsvergunning. ISSUE: hoe omgaan met hernummering in citation?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfe5" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdFZ" role="2hN6Sa">
@@ -412,6 +435,7 @@
     <property role="TrG5h" value="vvr-bep wordt verleend onder beperkingen" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="NOTABLE: Bij het nemen van het besluit is de beperking nog niet vastgesteld, er wordt de verplichting (duty) gecreeerd om de beperking vast te stellen. Hiervoor bestaat een 'act' die is beschreven in het Vreemdelingenbesluit (Vb), niet in de Vreemdelingenwet (Vw)." />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfee" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdG1" role="2hN6Sa">
@@ -429,6 +453,7 @@
     <property role="TrG5h" value="doel waarvoor het verblijf is toegestaan" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="ISSUE: Eigenlijk hoort hier een 'XOR' expression." />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfei" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdG3" role="2hN6Sa">
@@ -505,6 +530,7 @@
     <property role="TrG5h" value="verblijf als familie- of gezinslid" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfjZ" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdG5" role="2hN6Sa">
@@ -522,6 +548,7 @@
     <property role="TrG5h" value="verblijf als economisch niet-actieve langdurig ingezetene of vermogende vreemdeling" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-12-2006 (in ieder geval voor de geldigheid)? ISSUE: dit artikel is hernummerd." />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfk3" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdG7" role="2hN6Sa">
@@ -539,6 +566,7 @@
     <property role="TrG5h" value="arbeid als zelfstandige" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfk7" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdG9" role="2hN6Sa">
@@ -556,6 +584,7 @@
     <property role="TrG5h" value="arbeid als kennismigrant" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfkb" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGb" role="2hN6Sa">
@@ -573,6 +602,7 @@
     <property role="TrG5h" value="verblijf als houder van de Europese blauwe kaart" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 19-06-2011 (in ieder geval voor de geldigheid)?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfkf" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGd" role="2hN6Sa">
@@ -590,6 +620,7 @@
     <property role="TrG5h" value="seizoenarbeid" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfkj" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGf" role="2hN6Sa">
@@ -607,6 +638,7 @@
     <property role="TrG5h" value="overplaatsing binnen een onderneming" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 29-11-2016 (in ieder geval voor de geldigheid)?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfkn" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGh" role="2hN6Sa">
@@ -624,6 +656,7 @@
     <property role="TrG5h" value="arbeid in loondienst" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfkr" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGj" role="2hN6Sa">
@@ -641,6 +674,7 @@
     <property role="TrG5h" value="grensoverschrijdende dienstverlening" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfkv" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGl" role="2hN6Sa">
@@ -658,6 +692,7 @@
     <property role="TrG5h" value="onderzoek in de zin van richtlijn (EU) 2016/801" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert niet naar datum 23-05-2018 (in ieder geval voor de geldigheid)?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfkz" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGn" role="2hN6Sa">
@@ -675,6 +710,7 @@
     <property role="TrG5h" value="lerend werken" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfkB" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGp" role="2hN6Sa">
@@ -692,6 +728,7 @@
     <property role="TrG5h" value="arbeid als niet-geprivilegieerd militair of niet-geprivilegieerd burgerpersoneel" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfkF" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGr" role="2hN6Sa">
@@ -709,6 +746,7 @@
     <property role="TrG5h" value="studie" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfkJ" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGt" role="2hN6Sa">
@@ -726,6 +764,7 @@
     <property role="TrG5h" value="het zoeken naar en verrichten van arbeid al dan niet in loondienst" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 2001-04-01, of in ieder geval naar de eerste versie van de digitale versie van de Vb van 2002-01-01 (in ieder geval voor de geldigheid)?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfkN" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGv" role="2hN6Sa">
@@ -743,6 +782,7 @@
     <property role="TrG5h" value="uitwisseling" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfkR" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGx" role="2hN6Sa">
@@ -760,6 +800,7 @@
     <property role="TrG5h" value="medische behandeling" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfkV" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGz" role="2hN6Sa">
@@ -777,6 +818,7 @@
     <property role="TrG5h" value="tijdelijke humanitaire gronden" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfkZ" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdG_" role="2hN6Sa">
@@ -794,6 +836,7 @@
     <property role="TrG5h" value="het afwachten van een verzoek op grond van art. 17 RWN" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 2001-04-01, of in ieder geval naar de eerste versie van de digitale versie van de Vb van 2002-01-01 (in ieder geval voor de geldigheid)?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfl3" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGB" role="2hN6Sa">
@@ -811,6 +854,7 @@
     <property role="TrG5h" value="niet-tijdelijke humanitaire gronden" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Waarom is de juriconnect-link die de KOOP Linktool genereert  niet naar datum 01-06-2013 (in ieder geval voor de geldigheid)?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfl7" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGD" role="2hN6Sa">
@@ -827,6 +871,7 @@
   <node concept="cu0$f" id="13qOoT8BfeX">
     <property role="TrG5h" value="vreemdeling beschikt over een geldige machtiging tot voorlopig verblijf" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfeY" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGF" role="2hN6Sa">
@@ -844,6 +889,7 @@
     <property role="TrG5h" value="vreemdeling beschikt over een geldig document voor grensoverschrijding" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="NOTABLE: Deze tekst staat zowel in art. 16 als art. 18 lid 1 Vw" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bff3" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGH" role="2hN6Sa">
@@ -861,6 +907,7 @@
     <property role="TrG5h" value="vreemdeling dan wel, de persoon bij wie de vreemdeling wil verblijven, beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Er zijn mensen binnen de IND die vinden dat er een 'XOR' expressie in de functie hoort. Eén van beiden moet duurzaam en zelfstandig beschikken over voldoende middelen van bestaan. De middelen van de vreemdeling en zijn verblijfgever mogen niet bij elkaar worden opgeteld. In de komende week ga ik deze voorwaarde verder uitwerken." />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bff8" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGJ" role="2hN6Sa">
@@ -885,6 +932,7 @@
   <node concept="cu0$f" id="13qOoT8Bffe">
     <property role="TrG5h" value="vreemdeling beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bffh" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGL" role="2hN6Sa">
@@ -915,6 +963,7 @@
   <node concept="cu0$f" id="13qOoT8Bffg">
     <property role="TrG5h" value="persoon bij wie de vreemdeling wil verblijven beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bffu" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGN" role="2hN6Sa">
@@ -945,6 +994,7 @@
   <node concept="cu0$f" id="13qOoT8Bffn">
     <property role="TrG5h" value="vreemdeling beschikt over middelen van bestaan" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BffC" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGP" role="2hN6Sa">
@@ -962,6 +1012,7 @@
     <property role="TrG5h" value="middelen van bestaan zijn zelfstandig" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: In art. 3.73 lid 1 onder e, Vb gaat het over 'voor onderzoek in de zin van richtlijn (EU) 2016/801, studie, lerend werken of uitwisseling', maar in art. 3.4 lid 1 Vb ontbreekt 'verblijf voor' in combinatie met deze verblijfsdoelen. Hoe gaan we hier mee om?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BffK" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGR" role="2hN6Sa">
@@ -1048,6 +1099,7 @@
     <property role="TrG5h" value="middelen van bestaan zijn duurzaam" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="CHECK: wat zegt de wet over de volgorde eigen vermogen en arbeid en loondienst" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfgq" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGT" role="2hN6Sa">
@@ -1112,6 +1164,7 @@
     <property role="TrG5h" value="middelen van bestaan zijn voldoende" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="NOTABLE: Zie art. 3.75 lid 3 Vb voor werkloosheidsuitkering die meetelt voor berekening voldoede inkomen." />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfgT" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGV" role="2hN6Sa">
@@ -1141,6 +1194,7 @@
   <node concept="cu0$f" id="13qOoT8Bff$">
     <property role="TrG5h" value="persoon bij wie de vreemdeling wil verblijven beschikt over middelen van bestaan" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BffG" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGX" role="2hN6Sa">
@@ -1157,6 +1211,7 @@
   <node concept="cu0$f" id="13qOoT8BffR">
     <property role="TrG5h" value="middelen van bestaan zijn verworven uit wettelijk toegestane arbeid in loondienst" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bflb" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdGZ" role="2hN6Sa">
@@ -1173,6 +1228,7 @@
   <node concept="cu0$f" id="13qOoT8BffT">
     <property role="TrG5h" value="vereiste premies en belastingen zijn afgedragen" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bflr" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdH1" role="2hN6Sa">
@@ -1197,6 +1253,7 @@
   <node concept="cu0$f" id="13qOoT8BffW">
     <property role="TrG5h" value="middelen van bestaan zijn verworven uit wettelijk toegestane arbeid als zelfstandige" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bflf" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdH3" role="2hN6Sa">
@@ -1213,6 +1270,7 @@
   <node concept="cu0$f" id="13qOoT8Bfg0">
     <property role="TrG5h" value="middelen van bestaan zijn verworven uit inkomensvervangende uitkeringen krachtens een sociale verzekeringswet" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bflj" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdH5" role="2hN6Sa">
@@ -1230,6 +1288,7 @@
     <property role="TrG5h" value="vereiste premies zijn afgedragen" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="ISSUE: Meerdere onderdelen van het Vb vereisen het afdragen van belastingen. Het feit is hetzelfde, de context verschilt. Beste oplossing: mogelijk maken verwijzen naar verschillende bronnen, context vastleggen in functie. Aan iedere bron hoort (liefst 1) referentie te worden gekopppeld. (zie ook 01-04-2001; 13-07-2010)" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfly" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdH7" role="2hN6Sa">
@@ -1246,6 +1305,7 @@
   <node concept="cu0$f" id="13qOoT8Bfg5">
     <property role="TrG5h" value="middelen van bestaan zijn verworven uit eigen vermogen" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfln" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdH9" role="2hN6Sa">
@@ -1263,6 +1323,7 @@
     <property role="TrG5h" value="bron van de inkomsten verworven uit eigen vermogen wordt aangetast" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="st1r8Bl0fs" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="bron van de inkomsten verworven uit eigen vermogen wordt aangetast" />
@@ -1272,6 +1333,7 @@
     <property role="TrG5h" value="vereiste belastingen zijn afgedragen" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="ISSUE: Meerdere onderdelen van het Vb vereisen het afdragen van belastingen. Het feit is hetzelfde, de context verschilt. Beste oplossing: mogelijk maken verwijzen naar verschillende bronnen, context vastleggen in functie. Aan iedere bron hoort (liefst 1) referentie te worden gekopppeld. (1-[20010401]-[jjjjmmdd]; 2-[20100713]-[jjjjmmdd])" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BflA" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHb" role="2hN6Sa">
@@ -1288,6 +1350,7 @@
   <node concept="cu0$f" id="13qOoT8Bfgj">
     <property role="TrG5h" value="middelen van bestaan zijn verworven uit financiële ondersteuning van de referent" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BflE" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHd" role="2hN6Sa">
@@ -1304,6 +1367,7 @@
   <node concept="cu0$f" id="13qOoT8Bfgl">
     <property role="TrG5h" value="middelen van bestaan zijn verworven uit een subsidie" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BflI" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHf" role="2hN6Sa">
@@ -1321,6 +1385,7 @@
     <property role="TrG5h" value="middelen van bestaan zijn verworven uit een beurs" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="NOTABLE: Wijziging art. 3.73 Vb nadat FLINT analyse had aangetoond dat de zelfstandigheid van de studiebeurs geen goede wettelijke grondslag had. De Vc verwees naar art. 3.22 Vv dat gaat over duurzaamheid van inkomen, niet over zelfstandigheid." />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BflM" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHh" role="2hN6Sa">
@@ -1337,6 +1402,7 @@
   <node concept="cu0$f" id="13qOoT8Bfgp">
     <property role="TrG5h" value="middelen van bestaan zijn verworven uit een toelage" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BflQ" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHj" role="2hN6Sa">
@@ -1353,6 +1419,7 @@
   <node concept="cu0$f" id="13qOoT8Bfgw">
     <property role="TrG5h" value="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfmB" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHl" role="2hN6Sa">
@@ -1369,6 +1436,7 @@
   <node concept="cu0$f" id="13qOoT8Bfgy">
     <property role="TrG5h" value="middelen van bestaan zijn nog één jaar beschikbaar zijn op het tijdstip waarop de beschikking wordt gegeven" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfmF" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHn" role="2hN6Sa">
@@ -1386,6 +1454,7 @@
     <property role="TrG5h" value="middelen van bestaan verkregen uit arbeid in loondienst" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="ISSUE: Substitutie mogelijk maken voor 'fact' [middelen van bestaan zijn verworven uit wettelijk toegestane arbeid in loondienst]" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfmJ" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHp" role="2hN6Sa">
@@ -1405,6 +1474,7 @@
   <node concept="cu0$f" id="13qOoT8BfgD">
     <property role="TrG5h" value="op het tijdstip waarop de aanvraag is ontvangen zijn gedurende een ononderbroken periode van drie jaren voldoende middelen van bestaan uit arbeid in loondienst verworven" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfmO" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHr" role="2hN6Sa">
@@ -1421,6 +1491,7 @@
   <node concept="cu0$f" id="13qOoT8BfgF">
     <property role="TrG5h" value="op het tijdstip waarop de aanvraag is ontvangen zijn de middelen van bestaan gedurende nog zes maanden beschikbaar" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfmS" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHt" role="2hN6Sa">
@@ -1437,6 +1508,7 @@
   <node concept="cu0$f" id="13qOoT8BfgI">
     <property role="TrG5h" value="op het tijdstip waarop de beschikking wordt gegeven zijn gedurende een ononderbroken periode van drie jaren voldoende middelen van bestaan uit arbeid in loondienst verworven" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfmW" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHv" role="2hN6Sa">
@@ -1453,6 +1525,7 @@
   <node concept="cu0$f" id="13qOoT8BfgK">
     <property role="TrG5h" value="op het tijdstip waarop de beschikking wordt gegeven zijn de middelen van bestaan gedurende nog zes maanden beschikbaar" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfn0" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHx" role="2hN6Sa">
@@ -1470,6 +1543,7 @@
     <property role="TrG5h" value="middelen van bestaan verkregen uit eigen vermogen" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="ISSUE: Substitutie mogelijk maken voor 'fact' [middelen van bestaan zijn verworven uit eigen vermogen]" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfmv" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHz" role="2hN6Sa">
@@ -1486,6 +1560,7 @@
   <node concept="cu0$f" id="13qOoT8BfgP">
     <property role="TrG5h" value="middelen van bestaan zijn gedurende een aaneengesloten periode van een jaar beschikbaar geweest" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfmz" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdH_" role="2hN6Sa">
@@ -1503,6 +1578,7 @@
     <property role="TrG5h" value="middelen van bestaan zijn ten minste gelijk is aan het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="TEMP, no function GREATER THEN OR EQUAL available (rekenkundige functie)" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfh5" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHB" role="2hN6Sa">
@@ -1528,6 +1604,7 @@
     <property role="TrG5h" value="in bij ministeriële regeling aangewezen gevallen zijn middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="TEMP, no function GREATER THEN OR EQUAL available (rekenkundige functie)" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfhl" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHD" role="2hN6Sa">
@@ -1565,6 +1642,7 @@
     <property role="TrG5h" value="middelen van bestaan zijn voldoende, indien het netto-inkomen ten minste gelijk is aan het normbedrag voor uitwonende studenten, bedoeld in de WSF, indien de vreemdeling in Nederland verblijft of wil verblijven voor studie" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="ISSUE: expressions: GREATER THEN OR EQUAL. Met [studie] wordt verblijfsdoel studie bedoeld. (rekenkundige functie)" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfmi" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHF" role="2hN6Sa">
@@ -1589,6 +1667,7 @@
   <node concept="cu0$f" id="13qOoT8Bfhb">
     <property role="TrG5h" value="minimumloon bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1zEXHs" id="13qOoT8Bfhe" role="coNO9">
       <node concept="1FQA6B" id="13qOoT8Bfhf" role="1zF96y">
         <ref role="1FQA6$" node="13qOoT8Bfhg" resolve="minimumloon bedoeld in de art. 8 lid 1 Wml" />
@@ -1606,6 +1685,7 @@
     <property role="TrG5h" value="middelen van bestaan" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="UITWERKEN sources" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="st1r8Bl0fJ" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="middelen van bestaan" />
@@ -1614,6 +1694,7 @@
   <node concept="cu0$f" id="13qOoT8Bfhg">
     <property role="TrG5h" value="minimumloon bedoeld in de art. 8 lid 1 Wml" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1FQA6B" id="13qOoT8Bfhj" role="coNO9">
       <ref role="1FQA6$" node="13qOoT8Bfhk" resolve="Het minimumloon bedraagt € 1653,60 per maand" />
     </node>
@@ -1625,6 +1706,7 @@
   <node concept="cu0$f" id="13qOoT8Bfhi">
     <property role="TrG5h" value="vakantiebijslag minimum, bedoeld in art. 15 Wml" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="st1r8Bl0fL" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="vakantiebijslag minimum, bedoeld in art. 15 Wml" />
@@ -1634,6 +1716,7 @@
     <property role="TrG5h" value="Het minimumloon bedraagt € 1653,60 per maand" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="st1r8Bl0fM" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="Het minimumloon bedraagt € 1653,60 per maand" />
@@ -1642,6 +1725,7 @@
   <node concept="cu0$f" id="13qOoT8Bfhu">
     <property role="TrG5h" value="Vul in 1.5 voor factor 150%" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="st1r8Bl0fN" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="Vul in 1.5 voor factor 150%" />
@@ -1651,6 +1735,7 @@
     <property role="TrG5h" value="in bij ministeriële regeling aangewezen gevallen waarbij middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="UITWERKEN: Vullen met au pair en eventuele andere verblijfsdoelen." />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="st1r8Bl0fO" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="in bij ministeriële regeling aangewezen gevallen waarbij middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon, bedoeld in de art. 8 lid 1 Wml, met inbegrip van de vakantiebijslag, bedoeld in art. 15 Wml" />
@@ -1660,6 +1745,7 @@
     <property role="TrG5h" value="vreemdeling vormt een gevaar voor de openbare orde of nationale veiligheid" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="NOTABLE: Deze tekst staat zowel in art. 16 als art. 18 lid 1 Vw" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfh$" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHH" role="2hN6Sa">
@@ -1676,6 +1762,7 @@
   <node concept="cu0$f" id="13qOoT8BfhC">
     <property role="TrG5h" value="vreemdeling is bereid om medewerking te verlenen aan een medisch onderzoek naar een ziekte aangewezen bij of krachtens de Wpg of een medische behandeling tegen een dergelijke ziekte te ondergaan" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfhD" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHJ" role="2hN6Sa">
@@ -1693,6 +1780,7 @@
     <property role="TrG5h" value="vreemdeling voor een werkgever arbeid heeft verricht, zonder dat aan de Wet arbeid vreemdelingen is voldaan" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="ISSUE: deze tekst komt voor in 2 artikelen." />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfhI" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHL" role="2hN6Sa">
@@ -1709,6 +1797,7 @@
   <node concept="cu0$f" id="13qOoT8BfhM">
     <property role="TrG5h" value="vreemdeling voldoet aan de beperking, verband houdende met het doel waarvoor hij wil verblijven" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfhN" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHN" role="2hN6Sa">
@@ -1725,6 +1814,7 @@
   <node concept="cu0$f" id="13qOoT8BfhR">
     <property role="TrG5h" value="vreemdeling beschikt over kennis op basisniveau van de Nederlandse taal en de Nederlandse maatschappij" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfhS" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHP" role="2hN6Sa">
@@ -1742,6 +1832,7 @@
     <property role="TrG5h" value="vreemdeling heeft onjuiste gegevens verstrekt dan wel gegevens achtergehouden" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="NOTABLE: Van 01-06-2013 tot 21-09-2013 zijn er twee onderdelen 'i' in art. 16 lid 1 Vw." />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfhX" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHR" role="2hN6Sa">
@@ -1759,6 +1850,7 @@
     <property role="TrG5h" value="vreemdeling heeft in Nederland verblijf gehouden, anders dan op grond van art. 8 Vw" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="ERROR: in de 'source text' eindigt dit zinsdeel ten onrechte met een '.'." />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfi2" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHT" role="2hN6Sa">
@@ -1776,6 +1868,7 @@
     <property role="TrG5h" value="ten behoeve van het verblijf van de vreemdeling is een verklaring van een referent overgelegd als bedoeld in art. 2a lid 1 Vw" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="NOTABLE: Dit onderdeel van art. 16 lid 1 Vw is hernummerd. Van 01-06-2013 tot 21-09-2013 zijn er twee onderdelen 'i' in art. 16 lid 1 Vw." />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfi7" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHV" role="2hN6Sa">
@@ -1792,6 +1885,7 @@
   <node concept="cu0$f" id="13qOoT8Bfib">
     <property role="TrG5h" value="houder van een vvr-bep zijn hoofdverblijf buiten Nederland heeft gevestigd" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfic" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHX" role="2hN6Sa">
@@ -1809,6 +1903,7 @@
     <property role="TrG5h" value="vreemdeling heeft onjuiste gegevens verstrekt dan wel gegevens heeft achtergehouden" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: 'fact frame' is hetzelfde als bij art. 16 lid 1, onder i, Vw, maar de 'source text' is niet gelijk. Hoe gaan we w=daar mee om?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfih" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdHZ" role="2hN6Sa">
@@ -1826,6 +1921,7 @@
     <property role="TrG5h" value="voldaan wordt aan de beperking waaronder de vergunning is verleend of een voorschrift dat aan de vergunning is verbonden" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="NOTABLE: Dit fragment lijkt erg op art. 16 lid 1, onder g, Vw maar is niet hetzelfde." />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfim" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdI1" role="2hN6Sa">
@@ -1842,6 +1938,7 @@
   <node concept="cu0$f" id="13qOoT8Bfiq">
     <property role="TrG5h" value="vreemdeling heeft voldaan aan de inburgeringsplicht, bedoeld in art. 7 lid 1 Wib" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfir" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdI3" role="2hN6Sa">
@@ -1858,6 +1955,7 @@
   <node concept="cu0$f" id="13qOoT8Bfiv">
     <property role="TrG5h" value="vreemdeling is leges verschuldigd terzake van de afdoening van een aanvraag" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfiw" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdI5" role="2hN6Sa">
@@ -1874,6 +1972,7 @@
   <node concept="cu0$f" id="13qOoT8Bfi$">
     <property role="TrG5h" value="betaling verschuldigde leges is achterwege gebleven" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfi_" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdI7" role="2hN6Sa">
@@ -1890,6 +1989,7 @@
   <node concept="cu0$f" id="13qOoT8BfiD">
     <property role="TrG5h" value="verblijfsvergunning verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfiE" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdI9" role="2hN6Sa">
@@ -1919,6 +2019,7 @@
   <node concept="cu0$f" id="13qOoT8BfiK">
     <property role="TrG5h" value="vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfiQ" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdIb" role="2hN6Sa">
@@ -1955,6 +2056,7 @@
     <property role="TrG5h" value="dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Dit 'fact' vereist een 'datum' om waar te kunnen zijn." />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfjD" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdId" role="2hN6Sa">
@@ -1972,6 +2074,7 @@
     <property role="TrG5h" value="dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet ligt voor de dag waarop de aanvraag is ontvangen" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Is het niet beter om dit 'fact' te vervangen door een berekening. Zoals: [dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden van een vvr voldoet()] ≥ [dag waarop de aanvraag is ontvangen()]. Of is dit meer iets voor eFLINT?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfjH" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdIf" role="2hN6Sa">
@@ -1989,6 +2092,7 @@
     <property role="TrG5h" value="vreemdeling laat een gezichtsopname en tien vingerafdrukken afnemen" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="NOTABLE: art.' 106a lid Vw is geschreven als een 'kan-bepaling'. Het meewerken hieraan is geïnterpreteerd als een voorwaarde voor de vvr." />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfjV" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdIh" role="2hN6Sa">
@@ -2006,6 +2110,7 @@
     <property role="TrG5h" value="vreemdeling voldoet aan voorwaarden voor het verlenen van een vvr-bep" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="QUESTION: Hoe omgaan met het gebruik van 'de' en 'een' in FLINT. Bijvoorbeeld is [vreemdeling is leges verschuldigd terzake van de afdoening van een aanvraag]: 'de' of 'een' aanvraag?" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfj6" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdIj" role="2hN6Sa">
@@ -2073,6 +2178,7 @@
   <node concept="cu0$f" id="13qOoT8Bfj1">
     <property role="TrG5h" value="vreemdeling voldoet aan voorwaarden voor het verlengen van een vvr-bep" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfjt" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdIl" role="2hN6Sa">
@@ -2089,6 +2195,7 @@
   <node concept="cu0$f" id="13qOoT8Bfj3">
     <property role="TrG5h" value="vreemdeling voldoet aan voorwaarden voor het wijzigen van een vvr-bep" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfjx" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdIn" role="2hN6Sa">
@@ -2105,6 +2212,7 @@
   <node concept="cu0$f" id="13qOoT8Bfj5">
     <property role="TrG5h" value="vreemdeling voldoet aan voorwaarden voor het verlenen van een vvr-onbep" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfj_" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdIp" role="2hN6Sa">
@@ -2122,6 +2230,7 @@
     <property role="TrG5h" value="vreemdeling heeft inreisverbod of is gesignaleerd ter fine van weigering van de toegang" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="NOTABLE: Dit 'fact' verwijst alleen naar de termen 'inreisverbod' en 'gesignaleerd'. De uitzonderingen die volgen na de dubbele punt zijn daarvoor niet relevant." />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfjM" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdIr" role="2hN6Sa">
@@ -2139,6 +2248,7 @@
     <property role="TrG5h" value="ongewenst verklaarde vreemdeling" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="ISSUE: &lt;&lt;&gt;&gt; geeft foutmelding" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfjR" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdIt" role="2hN6Sa">
@@ -2156,6 +2266,7 @@
     <property role="TrG5h" value="middelen van bestaan zijn ten minste gelijk is aan het minimumloon" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="ISSUE: expressions: SUM, GREATER THEN OR EQUAL." />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BflV" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdIv" role="2hN6Sa">
@@ -2183,6 +2294,7 @@
     <property role="TrG5h" value="functie waar middelen van bestaan zijn groter of gelijk aan minimumloon wordt berekend" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="TEMP, no function GREATER THEN OR EQUAL available (rekenkundige functie)" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="st1r8Bl0gf" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="functie waar middelen van bestaan zijn groter of gelijk aan minimumloon wordt berekend" />
@@ -2192,6 +2304,7 @@
     <property role="TrG5h" value="in bij ministeriële regeling aangewezen gevallen zijn middelen van bestaan ten minste gelijk aan 150 procent van het minimumloon" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="Nader invullen. Dit is het geval bij Au Pairs, en wellicht nog bij enkele andere verblijfsdoelen." />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfme" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdIx" role="2hN6Sa">
@@ -2209,6 +2322,7 @@
     <property role="TrG5h" value="middelen van bestaan zijn ten minste gelijk aan 150 procent van het minimumloon" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="ISSUE: expressions: SUM, PRODUCT, GREATER THEN OR EQUAL. (rekenkundige functie)" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfm6" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdIz" role="2hN6Sa">
@@ -2234,6 +2348,7 @@
     <property role="TrG5h" value="functie aaar middelen van bestaan zijn groter of gelijk aan 150% minimumloon wordt berekenc" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="TEMP, no function GREATER THEN OR EQUAL, and no function PRODUCT available" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="st1r8Bl0gi" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="functie aaar middelen van bestaan zijn groter of gelijk aan 150% minimumloon wordt berekenc" />
@@ -2243,6 +2358,7 @@
     <property role="TrG5h" value="functie waar normbedrag voor uitwonende studenten, bedoeld in de WSF wordt berekend" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="functie waar normbedrag voor uitwonende studenten, bedoeld in de WSF wordt berekend" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="st1r8Bl0gj" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="functie waar normbedrag voor uitwonende studenten, bedoeld in de WSF wordt berekend" />
@@ -2251,6 +2367,7 @@
   <node concept="cu0$f" id="13qOoT8Bfmq">
     <property role="TrG5h" value="middelen van bestaan zijn nog één jaar beschikbaar op het tijdstip waarop de aanvraag is ontvangen" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfmr" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdI_" role="2hN6Sa">
@@ -2268,6 +2385,7 @@
     <property role="TrG5h" value="inwilligen aanvraag tot verlenen machtiging tot voorlopig verblijf" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[inwilligen]" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfn8" role="2pmM46">
       <property role="3ANC2_" value="NOTABLE: Deze clause is op 11-08-2008 gepubliceerd als art. 2c Vw en trad op 01-06-2013 in werking als art. 2k." />
       <property role="1tl0gq" value="English" />
@@ -2332,6 +2450,7 @@
     <property role="TrG5h" value="afwijzen aanvraag tot het verlenen van een vvr-bep" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[afwijzen]" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfnv" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdFd" role="2hN6Sa">
@@ -2443,6 +2562,7 @@
     <property role="TrG5h" value="belanghebbende beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="st1r8Bl0gl" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="belanghebbende beschikt zelfstandig en duurzaam over voldoende middelen van bestaan" />
@@ -2452,6 +2572,7 @@
     <property role="TrG5h" value="vreemdeling is bereid medewerking te verlenen aan een medisch onderzoek naar een bij Wpg aangewezen ziekte of medische behandeling tegen een dergelijke ziekte te ondergaan" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="st1r8Bl0gm" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="vreemdeling is bereid medewerking te verlenen aan een medisch onderzoek naar een bij Wpg aangewezen ziekte of medische behandeling tegen een dergelijke ziekte te ondergaan" />
@@ -2461,6 +2582,7 @@
     <property role="TrG5h" value="vreemdeling heeft geen arbeid verricht in strijd met Wav" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="st1r8Bl0gn" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="vreemdeling heeft geen arbeid verricht in strijd met Wav" />
@@ -2470,6 +2592,7 @@
     <property role="TrG5h" value="vreemdeling voldoet aan de beperking, verband houdende met verblijfsdoel" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="st1r8Bl0go" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="vreemdeling voldoet aan de beperking, verband houdende met verblijfsdoel" />
@@ -2479,6 +2602,7 @@
     <property role="TrG5h" value="vreemdeling beschikt over voldoende kennis van de Nederlandse taal en maatschappij" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="st1r8Bl0gp" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="vreemdeling beschikt over voldoende kennis van de Nederlandse taal en maatschappij" />
@@ -2488,6 +2612,7 @@
     <property role="TrG5h" value="vreemdeling heeft onjuiste gegevens verstrekt of gegevens achtergehouden" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="st1r8Bl0gq" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="vreemdeling heeft onjuiste gegevens verstrekt of gegevens achtergehouden" />
@@ -2497,6 +2622,7 @@
     <property role="TrG5h" value="vreemdeling heeft alleen in Nederland verblijf gehouden op grond van artikel 8 Vw" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="st1r8Bl0gr" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="vreemdeling heeft alleen in Nederland verblijf gehouden op grond van artikel 8 Vw" />
@@ -2506,6 +2632,7 @@
     <property role="TrG5h" value="referent heeft verklaring overlegd  ten behoeve van het voorgenomen verblijf van de vreemdeling" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="st1r8Bl0gs" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="referent heeft verklaring overlegd  ten behoeve van het voorgenomen verblijf van de vreemdeling" />
@@ -2515,6 +2642,7 @@
     <property role="TrG5h" value="inwilligen aanvraag tot het verlenen van een vvr-bep" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[inwilligen]" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfoc" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdFj" role="2hN6Sa">
@@ -2574,6 +2702,7 @@
     <property role="TrG5h" value="verlenen vvr-bep onder beperkingen" />
     <property role="3GE5qa" value="duties" />
     <property role="3ANC2_" value="VERDER UITWERKEN" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfoP" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdFn" role="2hN6Sa">
@@ -2600,6 +2729,7 @@
     <property role="TrG5h" value="bepalen geldigheidsduur van de vvr-bep" />
     <property role="3GE5qa" value="duties" />
     <property role="3ANC2_" value="VERDER UITWERKEN" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfoJ" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdFp" role="2hN6Sa">
@@ -2623,6 +2753,7 @@
     <property role="TrG5h" value="verschaffen vreemdeling document waaruit het rechtmatig verblijf blijkt" />
     <property role="3GE5qa" value="duties" />
     <property role="3ANC2_" value="UITWERKEN" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfoW" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdFr" role="2hN6Sa">
@@ -2649,6 +2780,7 @@
     <property role="TrG5h" value="niet in behandeling nemen aanvraag tot het verlenen van een vvr-bep" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="[niet in behandeling nemen]" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfo_" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdFl" role="2hN6Sa">
@@ -2686,6 +2818,7 @@
   <node concept="cu0$f" id="4VrbcpCY23K">
     <property role="TrG5h" value="inwilligen" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="st1r8Bl0gt" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="inwilligen" />
@@ -2694,6 +2827,7 @@
   <node concept="cu0$f" id="4VrbcpCY23X">
     <property role="TrG5h" value="afwijzen" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="st1r8Bl0gu" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="afwijzen" />
@@ -2702,6 +2836,7 @@
   <node concept="cu0$f" id="4VrbcpCY24a">
     <property role="TrG5h" value="inwilligen" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="st1r8Bl0gv" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="inwilligen" />
@@ -2710,6 +2845,7 @@
   <node concept="cu0$f" id="4VrbcpCY24n">
     <property role="TrG5h" value="niet in behandeling nemen" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="st1r8Bl0gw" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="niet in behandeling nemen" />

@@ -2,7 +2,7 @@
 <model ref="r:24d66bc9-227a-447b-947a-855ad292ec9a(Flint.test.flintmodelinput)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="11" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="12" />
   </languages>
   <imports />
   <registry>

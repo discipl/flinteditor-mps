@@ -2,7 +2,7 @@
 <model ref="r:9552c217-62e0-4fe8-b79a-8ba546d6e79e(subsidie)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="11" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="12" />
   </languages>
   <imports />
   <registry>
@@ -53,6 +53,9 @@
       <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
         <child id="6983418503075280678" name="sources" index="2pmM46" />
       </concept>
+      <concept id="900714954669859736" name="Flint.structure.IHasVersionAndValidation" flags="ng" index="2Cxlzy">
+        <property id="900714954669872883" name="version" index="2CxiQ9" />
+      </concept>
       <concept id="589729100932390229" name="Flint.structure.IHasLanguage" flags="ng" index="ITzSF">
         <child id="5326288789495449519" name="translatedNames" index="1GVO30" />
       </concept>
@@ -90,6 +93,7 @@
     <property role="TrG5h" value="bedrag" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQEf" role="1GVO30">
       <property role="1GVPtb" value="bedrag" />
       <property role="1GVPtd" value="English" />
@@ -98,6 +102,7 @@
   <node concept="cu0$f" id="l30HV33nLX">
     <property role="TrG5h" value="aanvraag" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1RnfdX" id="l30HV33nLY" role="coNO9">
       <node concept="1FQA6B" id="l30HV36SAn" role="1zF96y">
         <ref role="1FQA6$" node="l30HV33nM1" resolve="burger" />
@@ -115,6 +120,7 @@
     <property role="TrG5h" value="burger" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQE_" role="1GVO30">
       <property role="1GVPtb" value="burger" />
       <property role="1GVPtd" value="English" />
@@ -123,6 +129,7 @@
   <node concept="cu0$f" id="l30HV33nM2">
     <property role="TrG5h" value="bedrag projection" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1Rn4jf" id="l30HV33nM3" role="coNO9">
       <node concept="1FQA6B" id="l30HV33nM6" role="1Rn3LC">
         <ref role="1FQA6$" node="l30HV33nLW" resolve="bedrag" />
@@ -140,6 +147,7 @@
     <property role="TrG5h" value="verzoek" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQEV" role="1GVO30">
       <property role="1GVPtb" value="verzoek" />
       <property role="1GVPtd" value="English" />
@@ -148,6 +156,7 @@
   <node concept="cu0$f" id="l30HV33nM9">
     <property role="TrG5h" value="ambtenaar" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQF6" role="1GVO30">
       <property role="1GVPtb" value="ambtenaar" />
       <property role="1GVPtd" value="English" />
@@ -156,6 +165,7 @@
   <node concept="cu0$f" id="l30HV33nMa">
     <property role="TrG5h" value="burger met aanvraag" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1Rn4jf" id="l30HV33nMb" role="coNO9">
       <node concept="1FQA6B" id="l30HV33nMe" role="1Rn3LC">
         <ref role="1FQA6$" node="l30HV33nLW" resolve="bedrag" />
@@ -172,6 +182,7 @@
   <node concept="cu0$f" id="l30HV33nMg">
     <property role="TrG5h" value="person" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQFs" role="1GVO30">
       <property role="1GVPtb" value="person" />
       <property role="1GVPtd" value="English" />
@@ -181,6 +192,7 @@
     <property role="TrG5h" value="subsidie aanvragen" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="aanvragen" />
+    <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="7B7tObThyGS" role="2pmM46">
       <property role="1tl0gq" value="English" />
       <node concept="2hPCcK" id="45WVu5_cdJj" role="2hN6Sa">
@@ -262,6 +274,7 @@
     <property role="TrG5h" value="subsidie aanvraag toekennen" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="toekennen" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1zEXGL" id="l30HV33nMu" role="mu3T0" />
     <node concept="1FQA6B" id="l30HV33nMz" role="3H36mW">
       <ref role="1FQA6$" node="l30HV33nM9" resolve="ambtenaar" />
@@ -363,6 +376,7 @@
     <property role="TrG5h" value="subsidie intrekken" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="intrekken" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1FQA6B" id="l30HV33nME" role="3H36mW">
       <ref role="1FQA6$" node="l30HV33nMa" resolve="burger met aanvraag" />
     </node>
@@ -384,6 +398,7 @@
     <property role="TrG5h" value="subsidie aanvraag afwijzen" />
     <property role="3GE5qa" value="acts" />
     <property role="207Gpp" value="afwijzen" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1zEXGL" id="l30HV33nML" role="mu3T0" />
     <node concept="1FQA6B" id="l30HV33nMQ" role="3H36mW">
       <ref role="1FQA6$" node="l30HV33nM9" resolve="ambtenaar" />
@@ -483,6 +498,7 @@
   <node concept="cu0$f" id="4VrbcpCY26A">
     <property role="TrG5h" value="aanvragen" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQFB" role="1GVO30">
       <property role="1GVPtb" value="aanvragen" />
       <property role="1GVPtd" value="English" />
@@ -491,6 +507,7 @@
   <node concept="cu0$f" id="4VrbcpCY26N">
     <property role="TrG5h" value="toekennen" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQFM" role="1GVO30">
       <property role="1GVPtb" value="toekennen" />
       <property role="1GVPtd" value="English" />
@@ -499,6 +516,7 @@
   <node concept="cu0$f" id="4VrbcpCY270">
     <property role="TrG5h" value="intrekken" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQFX" role="1GVO30">
       <property role="1GVPtb" value="intrekken" />
       <property role="1GVPtd" value="English" />
@@ -507,6 +525,7 @@
   <node concept="cu0$f" id="4VrbcpCY27d">
     <property role="TrG5h" value="afwijzen" />
     <property role="3GE5qa" value="facts" />
+    <property role="2CxiQ9" value="0" />
     <node concept="1GVOM6" id="4gg1F7ZHQG8" role="1GVO30">
       <property role="1GVPtb" value="afwijzen" />
       <property role="1GVPtd" value="English" />

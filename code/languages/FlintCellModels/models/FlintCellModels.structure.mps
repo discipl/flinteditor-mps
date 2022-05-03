@@ -41,7 +41,7 @@
     <property role="TrG5h" value="CellModel_TranslatedProperty" />
     <property role="34LRSv" value="translated property" />
     <property role="3GE5qa" value="" />
-    <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    <ref role="1TJDcQ" to="tpc2:fHev3Dc" resolve="CellModel_AbstractLabel" />
     <node concept="1TJgyj" id="gNgnhzJ" role="1TKVEi">
       <property role="20kJfa" value="concept" />
       <property role="20lbJX" value="fLJekj4" />

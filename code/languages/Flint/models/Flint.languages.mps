@@ -3,13 +3,18 @@
   <persistence version="9" />
   <attribute name="doNotGenerate" value="true" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="11" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="12" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports />
   <registry>
     <language id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint">
       <concept id="3001846011087139046" name="Flint.structure.Language" flags="ng" index="30VgfG">
+        <property id="5774777313303068660" name="eVersion" index="20jtUE" />
+        <property id="5774777313303068741" name="ePublicized" index="20jy4r" />
+        <property id="5774777313303068770" name="eSelectVersion" index="20jy4W" />
+        <property id="5774777313303068686" name="eVerified" index="20jy5g" />
+        <property id="5774777313303068713" name="eValidated" index="20jy5R" />
         <property id="1522826714118601015" name="eLanguage" index="gCpfz" />
         <property id="2877568541152355806" name="eDuties" index="2ZPCy9" />
         <property id="2877568541152355783" name="eFacts" index="2ZPCyg" />
@@ -68,6 +73,11 @@
     <property role="2ZPCy9" value="plichten" />
     <property role="2ZPCzA" value="daden" />
     <property role="15_LLr" value="labels" />
+    <property role="20jtUE" value="versie" />
+    <property role="20jy5g" value="geverifieerd" />
+    <property role="20jy5R" value="gevalideerd" />
+    <property role="20jy4r" value="gepubliceerd" />
+    <property role="20jy4W" value="Selecteer versie" />
   </node>
   <node concept="30VgfG" id="4L0TsavKybn">
     <property role="TrG5h" value="English" />
@@ -95,6 +105,11 @@
     <property role="2ZPCyg" value="facts" />
     <property role="2ZPCy9" value="duties" />
     <property role="15_LLr" value="tags" />
+    <property role="20jtUE" value="version" />
+    <property role="20jy5g" value="verified" />
+    <property role="20jy5R" value="validated" />
+    <property role="20jy4r" value="publicized" />
+    <property role="20jy4W" value="select version" />
   </node>
 </model>
 
