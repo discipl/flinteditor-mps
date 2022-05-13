@@ -3258,6 +3258,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="2VSffmNDzks" role="3bR37C">
+          <node concept="1Busua" id="2VSffmNDzkt" role="1SiIV1">
+            <ref role="1Busuk" to="90a9:1sO539bGQvB" resolve="de.slisson.mps.richtext" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="1ILeZy3Ibt2" role="2G$12L">
         <property role="BnDLt" value="true" />

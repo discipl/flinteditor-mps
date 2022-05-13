@@ -225,12 +225,12 @@
           <node concept="3cpWsn" id="1zHuFrBZYNk" role="3cpWs9">
             <property role="TrG5h" value="newText" />
             <node concept="3Tqbb2" id="1zHuFrBZYNf" role="1tU5fm">
-              <ref role="ehGHo" to="87nw:2dWzqxEB$Tx" resolve="Text" />
+              <ref role="ehGHo" to="srlv:38u$ch72hiu" resolve="LawsourceText" />
             </node>
             <node concept="2ShNRf" id="1zHuFrBZZ80" role="33vP2m">
               <node concept="3zrR0B" id="1zHuFrBZZlh" role="2ShVmc">
                 <node concept="3Tqbb2" id="1zHuFrBZZlj" role="3zrR0E">
-                  <ref role="ehGHo" to="87nw:2dWzqxEB$Tx" resolve="Text" />
+                  <ref role="ehGHo" to="srlv:38u$ch72hiu" resolve="LawsourceText" />
                 </node>
               </node>
             </node>

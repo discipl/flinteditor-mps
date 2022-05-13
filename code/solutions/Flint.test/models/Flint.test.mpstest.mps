@@ -7208,6 +7208,10 @@
   <node concept="1lH9Xt" id="MkCUBw5sH3">
     <property role="TrG5h" value="ArchivedNodeUsageIsReported" />
     <node concept="1qefOq" id="MkCUBw6fQb" role="1SKRRt">
+      <node concept="15s5l7" id="2VSffmNQB8Y" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No reference in the obligatory role 'fact'&quot;;FLAVOUR_NODE_FEATURE=&quot;fact&quot;;" />
+        <property role="huDt6" value="No reference in the obligatory role 'fact'" />
+      </node>
       <node concept="3_ImHQ" id="MkCUBw6fQa" role="1qenE9">
         <property role="TrG5h" value="Test" />
         <node concept="2cz0EU" id="MkCUBw8CdM" role="3_ImGF">
@@ -8054,6 +8058,10 @@
       </node>
     </node>
     <node concept="1qefOq" id="MkCUBw8Cem" role="1SKRRt">
+      <node concept="15s5l7" id="2VSffmNQBw$" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No reference in the obligatory role 'fact'&quot;;FLAVOUR_NODE_FEATURE=&quot;fact&quot;;" />
+        <property role="huDt6" value="No reference in the obligatory role 'fact'" />
+      </node>
       <node concept="3_ImHQ" id="MkCUBw8Cel" role="1qenE9">
         <property role="TrG5h" value="TestModel" />
         <node concept="cu0$f" id="MkCUBw8CeF" role="3_ImGK">

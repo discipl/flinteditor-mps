@@ -109,7 +109,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="text" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="87nw:2dWzqxEB$Tx" resolve="Text" />
+      <ref role="20lvS9" node="38u$ch72hiu" resolve="LawsourceText" />
     </node>
     <node concept="1TJgyi" id="7xM0MUaHp4q" role="1TKVEl">
       <property role="IQ2nx" value="8679002930326901018" />
@@ -146,7 +146,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="text" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="87nw:2dWzqxEB$Tx" resolve="Text" />
+      <ref role="20lvS9" node="38u$ch72hiu" resolve="LawsourceText" />
     </node>
   </node>
   <node concept="1TIwiD" id="1nyeVyN1ImA">
@@ -212,6 +212,18 @@
     <node concept="1QGGSu" id="7C0$SV2z50M" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/Article.png" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="38u$ch72hiu">
+    <property role="EcuMT" value="3611483123877483678" />
+    <property role="TrG5h" value="LawsourceText" />
+    <property role="3GE5qa" value="sources" />
+    <ref role="1TJDcQ" to="87nw:2dWzqxEB$Tx" resolve="Text" />
+  </node>
+  <node concept="1TIwiD" id="38u$ch72iLP">
+    <property role="EcuMT" value="3611483123877489781" />
+    <property role="3GE5qa" value="sources" />
+    <property role="TrG5h" value="LawsourceWord" />
+    <ref role="1TJDcQ" to="87nw:2dWzqxEBMSc" resolve="Word" />
   </node>
 </model>
 
