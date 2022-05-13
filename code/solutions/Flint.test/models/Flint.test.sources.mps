@@ -2,7 +2,7 @@
 <model ref="r:74f2886d-e517-4465-95bb-fc27f756b995(Flint.test.sources)">
   <persistence version="9" />
   <languages>
-    <use id="dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d" name="LawSource" version="0" />
+    <use id="dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d" name="LawSource" version="1" />
   </languages>
   <imports />
   <registry>
@@ -30,15 +30,19 @@
         <child id="8679002930326655621" name="lines" index="3MKX6F" />
       </concept>
       <concept id="8679002930326655612" name="LawSource.structure.Line" flags="ng" index="3MKX5i">
-        <child id="8679002930326893284" name="text" index="3MLR7a" />
+        <child id="3384522145955438525" name="text" index="2qTud8" />
+        <child id="8679002930326893284" name="old_text" index="3MLR7a" />
       </concept>
       <concept id="8679002930326655611" name="LawSource.structure.ArticlePart" flags="ng" index="3MKX5l">
         <property id="2215264714367784513" name="lineId" index="1hTQn4" />
       </concept>
       <concept id="8679002930326655618" name="LawSource.structure.PrefixLine" flags="ng" index="3MKX6G">
         <property id="8679002930326901018" name="prefix" index="3MLT8O" />
-        <child id="8679002930326901016" name="text" index="3MLT8Q" />
+        <child id="3384522145955437017" name="text" index="2qTukG" />
+        <child id="8679002930326901016" name="old_text" index="3MLT8Q" />
       </concept>
+      <concept id="3611483123877483678" name="LawSource.structure.LawsourceText" flags="ng" index="1P5Shq" />
+      <concept id="3611483123877489781" name="LawSource.structure.LawsourceWord" flags="ng" index="1P5VML" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -72,6 +76,11 @@
             <property role="19SUeA" value="example source text" />
           </node>
         </node>
+        <node concept="1P5Shq" id="4wUiobd6auv" role="2qTud8">
+          <node concept="1P5VML" id="4wUiobd6aux" role="19SJt6">
+            <property role="19SUeA" value="example source text" />
+          </node>
+        </node>
       </node>
     </node>
   </node>
@@ -95,6 +104,11 @@
         <property role="1hTQn4" value="lineid123" />
         <node concept="19SGf9" id="67MoKbccd1r" role="3MLT8Q">
           <node concept="19SUe$" id="67MoKbccd1z" role="19SJt6">
+            <property role="19SUeA" value="This is a prefix line" />
+          </node>
+        </node>
+        <node concept="1P5Shq" id="4wUiobd6auZ" role="2qTukG">
+          <node concept="1P5VML" id="4wUiobd6av1" role="19SJt6">
             <property role="19SUeA" value="This is a prefix line" />
           </node>
         </node>
