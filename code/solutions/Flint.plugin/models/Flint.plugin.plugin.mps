@@ -6072,8 +6072,8 @@
               <node concept="37vLTw" id="5BwUVa5m1RA" role="2Oq$k0">
                 <ref role="3cqZAo" node="5BwUVa5m1TJ" resolve="importedLanguage" />
               </node>
-              <node concept="liA8E" id="5BwUVa5m1RB" role="2OqNvi">
-                <ref role="37wK5l" to="5qsh:~Language.getDutyComponents()" resolve="getDutyComponents" />
+              <node concept="liA8E" id="7NvjjCVVq5G" role="2OqNvi">
+                <ref role="37wK5l" to="5qsh:~Language.getEnforce()" resolve="getEnforce" />
               </node>
             </node>
             <node concept="2OqwBi" id="5BwUVa5m1RC" role="37vLTJ">
@@ -23458,8 +23458,8 @@
               <node concept="37vLTw" id="5fVLlSDdaEV" role="2Oq$k0">
                 <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
               </node>
-              <node concept="liA8E" id="3b5Mgwq$23f" role="2OqNvi">
-                <ref role="37wK5l" to="5qsh:~Language.getDutyComponents()" resolve="getDutyComponents" />
+              <node concept="liA8E" id="7NvjjCVVeoh" role="2OqNvi">
+                <ref role="37wK5l" to="5qsh:~Language.getEnforce()" resolve="getEnforce" />
               </node>
             </node>
             <node concept="2OqwBi" id="5fVLlSDc3cb" role="37vLTJ">

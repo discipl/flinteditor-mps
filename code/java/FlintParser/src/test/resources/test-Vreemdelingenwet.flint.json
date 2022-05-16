@@ -12,6 +12,7 @@
     "claimant": "claimaint",
     "create": "create",
     "terminate": "terminate",
+    "enforce": "enforce",
     "dutyComponents": "duty-components",
     "explanation": "explanation",
     "actor": "actor",

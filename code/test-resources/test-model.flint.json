@@ -11,6 +11,7 @@
     "claimant": "claimaint",
     "create": "create",
     "terminate": "terminate",
+    "enforce": "enforce",
     "dutyComponents": "duty-components",
     "explanation": "explanation",
     "actor": "actor",
@@ -23,7 +24,13 @@
     "text": "text",
     "findLineInSource": "Find line in Source",
     "validFrom": "valid from",
-    "validTo": "valid to"
+    "validTo": "valid to",
+    "tags": "tags",
+    "version": "version",
+    "verified": "verified",
+    "validated": "validated",
+    "publicized": "publicized",
+    "selectVersion": "select version"
   },
   "acts": [
     {
