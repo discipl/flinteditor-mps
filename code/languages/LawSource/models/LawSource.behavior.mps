@@ -9430,13 +9430,10 @@
               <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...)" resolve="format" />
               <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
               <node concept="Xl_RD" id="43CM9zY8PK7" role="37wK5m">
-                <property role="Xl_RC" value="%.2f%s" />
+                <property role="Xl_RC" value="%.2f%%" />
               </node>
               <node concept="37vLTw" id="43CM9zY8Rwz" role="37wK5m">
                 <ref role="3cqZAo" node="43CM9zY8Igs" resolve="percentageUsed" />
-              </node>
-              <node concept="Xl_RD" id="43CM9zY9v9G" role="37wK5m">
-                <property role="Xl_RC" value="%" />
               </node>
             </node>
             <node concept="3clFbT" id="43CM9zY88Ia" role="37wK5m" />
