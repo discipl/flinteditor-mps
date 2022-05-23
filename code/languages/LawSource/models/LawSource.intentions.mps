@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:511ec350-0d77-4861-a728-37a7073ca93b(LawSource.intentions)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="1" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />

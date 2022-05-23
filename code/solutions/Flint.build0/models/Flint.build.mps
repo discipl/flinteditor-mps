@@ -1328,7 +1328,7 @@
       <node concept="aVJcg" id="7ua6Tt2QOlx" role="aVJcv">
         <node concept="NbPM2" id="7ua6Tt2QOlw" role="aVJcq">
           <node concept="3Mxwew" id="7ua6Tt2QOlv" role="3MwsjC">
-            <property role="3MwjfP" value="0" />
+            <property role="3MwjfP" value="1" />
           </node>
         </node>
       </node>
@@ -3268,6 +3268,16 @@
             <node concept="3qWCbU" id="6LQ$bpXJ5_Q" role="3LXTna">
               <property role="3qWCbO" value="icons/**, resources/**" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2VSffmNDzks" role="3bR37C">
+          <node concept="1Busua" id="2VSffmNDzkt" role="1SiIV1">
+            <ref role="1Busuk" to="90a9:1sO539bGQvB" resolve="de.slisson.mps.richtext" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5Erquho8TJP" role="3bR37C">
+          <node concept="3bR9La" id="5Erquho8TJQ" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:ymnOULAU0H" resolve="jetbrains.mps.lang.test" />
           </node>
         </node>
       </node>

@@ -27,7 +27,7 @@
     <language slang="l:69940819-10c1-4a38-ac44-700b63f993ba:Flint" version="12" />
     <language slang="l:fa4f7dfd-91d0-409e-86f8-693574acc2a3:FlintCellModels" version="0" />
     <language slang="l:0bfae715-f669-4a10-999a-ba0ca94a1c3c:FlintTests" version="0" />
-    <language slang="l:dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d:LawSource" version="0" />
+    <language slang="l:dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d:LawSource" version="1" />
     <language slang="l:b5c0bb04-c583-4b2a-a66e-1eab92d33c68:com.mbeddr.mpsutil.json" version="0" />
     <language slang="l:92d2ea16-5a42-4fdf-a676-c7604efe3504:de.slisson.mps.richtext" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
