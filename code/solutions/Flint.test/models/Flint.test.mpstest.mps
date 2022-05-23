@@ -8115,5 +8115,51 @@
       </node>
     </node>
   </node>
+  <node concept="LiM7Y" id="2NiZaFWHozC">
+    <property role="TrG5h" value="FlattenRootExpression" />
+    <node concept="1qefOq" id="2NiZaFWHq1X" role="25YQCW">
+      <node concept="cu0$f" id="2NiZaFWHq1Y" role="1qenE9">
+        <property role="TrG5h" value="TestFact" />
+        <node concept="1zEWgd" id="2NiZaFWHq1Z" role="coNO9">
+          <node concept="1zEXHp" id="2NiZaFWHq20" role="1zF96y">
+            <node concept="1zEXQY" id="2NiZaFWHq21" role="1zEXIt" />
+          </node>
+          <node concept="LIFWc" id="2NiZaFWHtQD" role="lGtFl">
+            <property role="ZRATv" value="true" />
+            <property role="OXtK3" value="true" />
+            <property role="p6zMq" value="3" />
+            <property role="p6zMs" value="3" />
+            <property role="LIFWd" value="expression_name" />
+          </node>
+        </node>
+        <node concept="1GVOM6" id="2NiZaFWHq26" role="1GVO30">
+          <property role="1GVPtd" value="English" />
+          <property role="1GVPtb" value="TestFact" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2NiZaFWHqq5" role="25YQFr">
+      <node concept="cu0$f" id="2NiZaFWHqq6" role="1qenE9">
+        <property role="TrG5h" value="TestFact" />
+        <node concept="1GVOM6" id="2NiZaFWHqqc" role="1GVO30">
+          <property role="1GVPtd" value="English" />
+          <property role="1GVPtb" value="TestFact" />
+        </node>
+        <node concept="1zEXHp" id="2NiZaFWHttp" role="coNO9">
+          <node concept="1zEXQY" id="2NiZaFWHttC" role="1zEXIt" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="2NiZaFWHryw" role="LjaKd">
+      <node concept="3vwNmj" id="2NiZaFWHryu" role="3cqZAp">
+        <node concept="2bRw2S" id="2NiZaFWHryU" role="3vwVQn">
+          <ref role="2bRw2V" to="ktnu:7uwsO$t0J0I" resolve="FlattenIntention" />
+        </node>
+      </node>
+      <node concept="1MFPAf" id="2NiZaFWHr_7" role="3cqZAp">
+        <ref role="1MFYO6" to="ktnu:7uwsO$t0J0I" resolve="FlattenIntention" />
+      </node>
+    </node>
+  </node>
 </model>
 
