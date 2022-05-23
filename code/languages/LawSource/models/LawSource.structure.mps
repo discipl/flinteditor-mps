@@ -16,6 +16,7 @@
       </concept>
     </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
@@ -46,6 +47,7 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -107,9 +109,16 @@
     <node concept="1TJgyj" id="7xM0MUaHp4o" role="1TKVEi">
       <property role="IQ2ns" value="8679002930326901016" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="old_text" />
+      <ref role="20lvS9" to="87nw:2dWzqxEB$Tx" resolve="Text" />
+      <node concept="asaX9" id="2VSffmO7vtu" role="lGtFl" />
+    </node>
+    <node concept="1TJgyj" id="2VSffmO7tBp" role="1TKVEi">
+      <property role="IQ2ns" value="3384522145955437017" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="text" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="87nw:2dWzqxEB$Tx" resolve="Text" />
+      <ref role="20lvS9" node="38u$ch72hiu" resolve="LawsourceText" />
     </node>
     <node concept="1TJgyi" id="7xM0MUaHp4q" role="1TKVEl">
       <property role="IQ2nx" value="8679002930326901018" />
@@ -144,9 +153,16 @@
     <node concept="1TJgyj" id="7xM0MUaHnb$" role="1TKVEi">
       <property role="IQ2ns" value="8679002930326893284" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="old_text" />
+      <ref role="20lvS9" to="87nw:2dWzqxEB$Tx" resolve="Text" />
+      <node concept="asaX9" id="2VSffmO7vP1" role="lGtFl" />
+    </node>
+    <node concept="1TJgyj" id="2VSffmO7tYX" role="1TKVEi">
+      <property role="IQ2ns" value="3384522145955438525" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="text" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="87nw:2dWzqxEB$Tx" resolve="Text" />
+      <ref role="20lvS9" node="38u$ch72hiu" resolve="LawsourceText" />
     </node>
   </node>
   <node concept="1TIwiD" id="1nyeVyN1ImA">
@@ -212,6 +228,18 @@
     <node concept="1QGGSu" id="7C0$SV2z50M" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/Article.png" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="38u$ch72hiu">
+    <property role="EcuMT" value="3611483123877483678" />
+    <property role="TrG5h" value="LawsourceText" />
+    <property role="3GE5qa" value="sources" />
+    <ref role="1TJDcQ" to="87nw:2dWzqxEB$Tx" resolve="Text" />
+  </node>
+  <node concept="1TIwiD" id="38u$ch72iLP">
+    <property role="EcuMT" value="3611483123877489781" />
+    <property role="3GE5qa" value="sources" />
+    <property role="TrG5h" value="LawsourceWord" />
+    <ref role="1TJDcQ" to="87nw:2dWzqxEBMSc" resolve="Word" />
   </node>
 </model>
 

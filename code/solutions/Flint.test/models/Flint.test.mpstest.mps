@@ -13,7 +13,7 @@
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="0" />
     <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
-    <use id="dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d" name="LawSource" version="0" />
+    <use id="dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d" name="LawSource" version="1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
   </languages>
   <imports>
@@ -484,15 +484,17 @@
         <child id="8679002930326655621" name="lines" index="3MKX6F" />
       </concept>
       <concept id="8679002930326655612" name="LawSource.structure.Line" flags="ng" index="3MKX5i">
-        <child id="8679002930326893284" name="text" index="3MLR7a" />
+        <child id="3384522145955438525" name="text" index="2qTud8" />
       </concept>
       <concept id="8679002930326655611" name="LawSource.structure.ArticlePart" flags="ng" index="3MKX5l">
         <property id="2215264714367784513" name="lineId" index="1hTQn4" />
       </concept>
       <concept id="8679002930326655618" name="LawSource.structure.PrefixLine" flags="ng" index="3MKX6G">
         <property id="8679002930326901018" name="prefix" index="3MLT8O" />
-        <child id="8679002930326901016" name="text" index="3MLT8Q" />
+        <child id="3384522145955437017" name="text" index="2qTukG" />
       </concept>
+      <concept id="3611483123877483678" name="LawSource.structure.LawsourceText" flags="ng" index="1P5Shq" />
+      <concept id="3611483123877489781" name="LawSource.structure.LawsourceWord" flags="ng" index="1P5VML" />
     </language>
     <language id="68015e26-cc4d-49db-8715-b643faea1769" name="jetbrains.mps.lang.test.generator">
       <concept id="554465258093203543" name="jetbrains.mps.lang.test.generator.structure.TransformationMatchAssertion" flags="ng" index="3FggHx">
@@ -4131,10 +4133,10 @@
             <node concept="3MKX5h" id="1Drg1HVuOM$" role="3MKX6D">
               <node concept="3MKX5i" id="1Drg1HVuOM_" role="3MKX6F">
                 <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27/structuurkenmerk/135" />
-                <node concept="19SGf9" id="1Drg1HVuOMA" role="3MLR7a">
-                  <node concept="19SUe$" id="1Drg1HVuOMB" role="19SJt6">
+                <node concept="1P5Shq" id="4wUiobd6atZ" role="2qTud8">
+                  <node concept="1P5VML" id="4wUiobd6au1" role="19SJt6">
                     <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
-                    <node concept="LIFWc" id="1Drg1HVuR_Q" role="lGtFl">
+                    <node concept="LIFWc" id="6iqM7gIp08h" role="lGtFl">
                       <property role="LIFWa" value="3" />
                       <property role="OXtK3" value="true" />
                       <property role="p6zMq" value="3" />
@@ -4216,16 +4218,16 @@
             <node concept="3MKX5h" id="1Drg1HVuOMU" role="3MKX6D">
               <node concept="3MKX5i" id="1Drg1HVuOMV" role="3MKX6F">
                 <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27/structuurkenmerk/135" />
-                <node concept="19SGf9" id="1Drg1HVuOMW" role="3MLR7a">
-                  <node concept="19SUe$" id="1Drg1HVuOMX" role="19SJt6">
+                <node concept="1P5Shq" id="4wUiobd6au3" role="2qTud8">
+                  <node concept="1P5VML" id="4wUiobd6au5" role="19SJt6">
                     <property role="19SUeA" value="De minister bes" />
                   </node>
                 </node>
               </node>
               <node concept="3MKX5i" id="1Drg1HVuOMY" role="3MKX6F">
                 <property role="1hTQn4" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
-                <node concept="19SGf9" id="1Drg1HVuOMZ" role="3MLR7a">
-                  <node concept="19SUe$" id="1Drg1HVuON0" role="19SJt6">
+                <node concept="1P5Shq" id="4wUiobd6au7" role="2qTud8">
+                  <node concept="1P5VML" id="4wUiobd6au9" role="19SJt6">
                     <property role="19SUeA" value="list binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
                   </node>
                 </node>
@@ -4681,10 +4683,10 @@
             <node concept="3MKX5h" id="m$6eIWcNpm" role="3MKX6D">
               <node concept="3MKX5i" id="m$6eIWcNpn" role="3MKX6F">
                 <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27/structuurkenmerk/135" />
-                <node concept="19SGf9" id="m$6eIWcNpo" role="3MLR7a">
-                  <node concept="19SUe$" id="m$6eIWcNpp" role="19SJt6">
+                <node concept="1P5Shq" id="4wUiobd6aub" role="2qTud8">
+                  <node concept="1P5VML" id="4wUiobd6aud" role="19SJt6">
                     <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
-                    <node concept="LIFWc" id="m$6eIWnOld" role="lGtFl">
+                    <node concept="LIFWc" id="6iqM7gIqkAG" role="lGtFl">
                       <property role="LIFWa" value="0" />
                       <property role="OXtK3" value="true" />
                       <property role="p6zMq" value="0" />
@@ -4753,16 +4755,16 @@
             <node concept="3MKX5h" id="m$6eIWiHSf" role="3MKX6D">
               <node concept="3MKX5i" id="m$6eIWiHSg" role="3MKX6F">
                 <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27/structuurkenmerk/135" />
-                <node concept="19SGf9" id="m$6eIWiHSh" role="3MLR7a">
-                  <node concept="19SUe$" id="m$6eIWiHSi" role="19SJt6">
+                <node concept="1P5Shq" id="4wUiobd6auf" role="2qTud8">
+                  <node concept="1P5VML" id="4wUiobd6auh" role="19SJt6">
                     <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag. " />
                   </node>
                 </node>
               </node>
               <node concept="3MKX5i" id="m$6eIWiHQN" role="3MKX6F">
                 <property role="1hTQn4" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
-                <node concept="19SGf9" id="m$6eIWiHQL" role="3MLR7a">
-                  <node concept="19SUe$" id="m$6eIWiHQM" role="19SJt6">
+                <node concept="1P5Shq" id="4wUiobd6auj" role="2qTud8">
+                  <node concept="1P5VML" id="4wUiobd6aul" role="19SJt6">
                     <property role="19SUeA" value="Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
                   </node>
                 </node>
@@ -6297,10 +6299,10 @@
               <node concept="3MKX6G" id="7kFkYP3mUXj" role="3MKX6F">
                 <property role="3MLT8O" value="1." />
                 <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27/structuurkenmerk/135" />
-                <node concept="19SGf9" id="7kFkYP3mUXl" role="3MLT8Q">
-                  <node concept="19SUe$" id="7kFkYP3mUYb" role="19SJt6">
+                <node concept="1P5Shq" id="4wUiobd6auF" role="2qTukG">
+                  <node concept="1P5VML" id="4wUiobd6auH" role="19SJt6">
                     <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
-                    <node concept="LIFWc" id="4IrXXbLQohe" role="lGtFl">
+                    <node concept="LIFWc" id="6iqM7gIq$Cz" role="lGtFl">
                       <property role="ZRATv" value="true" />
                       <property role="OXtK3" value="true" />
                       <property role="p6zMq" value="9" />
@@ -6312,8 +6314,10 @@
               </node>
               <node concept="3MKX5i" id="7kFkYP3mQz0" role="3MKX6F">
                 <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27/structuurkenmerk/135" />
-                <node concept="19SGf9" id="7kFkYP3mQz1" role="3MLR7a">
-                  <node concept="19SUe$" id="7kFkYP3mVan" role="19SJt6" />
+                <node concept="1P5Shq" id="4wUiobd6aun" role="2qTud8">
+                  <node concept="1P5VML" id="4wUiobd6aup" role="19SJt6">
+                    <property role="19SUeA" value="" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -6482,8 +6486,8 @@
               <node concept="3MKX6G" id="7c5n4F1aBaE" role="3MKX6F">
                 <property role="3MLT8O" value="1." />
                 <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27/structuurkenmerk/135" />
-                <node concept="19SGf9" id="7c5n4F1aBaF" role="3MLT8Q">
-                  <node concept="19SUe$" id="7c5n4F1aBaG" role="19SJt6">
+                <node concept="1P5Shq" id="4wUiobd6auJ" role="2qTukG">
+                  <node concept="1P5VML" id="4wUiobd6auL" role="19SJt6">
                     <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag." />
                   </node>
                 </node>
@@ -6491,16 +6495,18 @@
               <node concept="3MKX6G" id="7c5n4F1aX1s" role="3MKX6F">
                 <property role="3MLT8O" value="1." />
                 <property role="1hTQn4" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
-                <node concept="19SGf9" id="7c5n4F1aX1q" role="3MLT8Q">
-                  <node concept="19SUe$" id="7c5n4F1aX1r" role="19SJt6">
+                <node concept="1P5Shq" id="4wUiobd6auN" role="2qTukG">
+                  <node concept="1P5VML" id="4wUiobd6auP" role="19SJt6">
                     <property role="19SUeA" value=" Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
                   </node>
                 </node>
               </node>
               <node concept="3MKX5i" id="7c5n4F1aBaI" role="3MKX6F">
                 <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27/structuurkenmerk/135" />
-                <node concept="19SGf9" id="7c5n4F1aBaJ" role="3MLR7a">
-                  <node concept="19SUe$" id="7c5n4F1aBaK" role="19SJt6" />
+                <node concept="1P5Shq" id="4wUiobd6aur" role="2qTud8">
+                  <node concept="1P5VML" id="4wUiobd6aut" role="19SJt6">
+                    <property role="19SUeA" value="" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -7690,10 +7696,10 @@
               <node concept="3MKX6G" id="14WD1prolLw" role="3MKX6F">
                 <property role="3MLT8O" value="1." />
                 <property role="1hTQn4" value="find_me_as_id" />
-                <node concept="19SGf9" id="14WD1prolLx" role="3MLT8Q">
-                  <node concept="19SUe$" id="14WD1prolLy" role="19SJt6">
+                <node concept="1P5Shq" id="4wUiobd6auR" role="2qTukG">
+                  <node concept="1P5VML" id="4wUiobd6auT" role="19SJt6">
                     <property role="19SUeA" value="This Regulation lays down rules relating to the protection of natural persons with regard to the processing of personal data and rules relating to the free movement of personal data." />
-                    <node concept="3xLA65" id="ZbsDciyKXe" role="lGtFl">
+                    <node concept="3xLA65" id="6iqM7gIr51Q" role="lGtFl">
                       <property role="TrG5h" value="PrefixLine" />
                     </node>
                   </node>
@@ -7733,8 +7739,8 @@
               <node concept="3MKX6G" id="ZbsDciyKVe" role="3MKX6F">
                 <property role="3MLT8O" value="1." />
                 <property role="1hTQn4" value="find_me_as_id" />
-                <node concept="19SGf9" id="ZbsDciyKVf" role="3MLT8Q">
-                  <node concept="19SUe$" id="ZbsDciyKVg" role="19SJt6">
+                <node concept="1P5Shq" id="4wUiobd6auV" role="2qTukG">
+                  <node concept="1P5VML" id="4wUiobd6auX" role="19SJt6">
                     <property role="19SUeA" value="This Regulation lays down rules relating to the protection of natural persons with regard to the processing of personal data and rules relating to the free movement of personal data." />
                   </node>
                 </node>
@@ -7824,8 +7830,8 @@
                       <ref role="3cqZAo" node="6GZAcuQQZle" resolve="fwaNode" />
                     </node>
                     <node concept="2OqwBi" id="6GZAcuQQZJL" role="37vLTx">
-                      <node concept="3xONca" id="6GZAcuQQZJM" role="2Oq$k0">
-                        <ref role="3xOPvv" node="ZbsDciyKXe" resolve="PrefixLine" />
+                      <node concept="3xONca" id="6iqM7gIr53N" role="2Oq$k0">
+                        <ref role="3xOPvv" node="6iqM7gIr51Q" resolve="PrefixLine" />
                       </node>
                       <node concept="2Xjw5R" id="6GZAcuQQZJN" role="2OqNvi">
                         <node concept="1xMEDy" id="6GZAcuQQZJO" role="1xVPHs">
@@ -7938,8 +7944,8 @@
                                   <node concept="369mXd" id="3Qu0zFooWLr" role="2Oq$k0" />
                                   <node concept="liA8E" id="3Qu0zFooWLs" role="2OqNvi">
                                     <ref role="37wK5l" to="exr9:~EditorComponent.findNodeCell(org.jetbrains.mps.openapi.model.SNode)" resolve="findNodeCell" />
-                                    <node concept="3xONca" id="ZbsDciyL5A" role="37wK5m">
-                                      <ref role="3xOPvv" node="ZbsDciyKXe" resolve="PrefixLine" />
+                                    <node concept="3xONca" id="6iqM7gIr575" role="37wK5m">
+                                      <ref role="3xOPvv" node="6iqM7gIr51Q" resolve="PrefixLine" />
                                     </node>
                                   </node>
                                 </node>
@@ -8054,6 +8060,10 @@
       </node>
     </node>
     <node concept="1qefOq" id="MkCUBw8Cem" role="1SKRRt">
+      <node concept="15s5l7" id="2VSffmNQBw$" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.project.validation.ConceptFeatureCardinalityError&quot;;FLAVOUR_MESSAGE=&quot;No reference in the obligatory role 'fact'&quot;;FLAVOUR_NODE_FEATURE=&quot;fact&quot;;" />
+        <property role="huDt6" value="No reference in the obligatory role 'fact'" />
+      </node>
       <node concept="3_ImHQ" id="MkCUBw8Cel" role="1qenE9">
         <property role="TrG5h" value="TestModel" />
         <node concept="cu0$f" id="MkCUBw8CeF" role="3_ImGK">
