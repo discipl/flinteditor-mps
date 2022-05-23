@@ -1477,6 +1477,15 @@
         </node>
       </node>
     </node>
+    <node concept="2sgV4H" id="6iw8psmZZ0l" role="1l3spa">
+      <ref role="1l3spb" to="ffeo:1JaUSFUm4ER" resolve="mpsContextActionsTool" />
+      <node concept="398BVA" id="6iw8psmZZi2" role="2JcizS">
+        <ref role="398BVh" node="2WP7dhE1eqw" resolve="mps_home" />
+        <node concept="2Ry0Ak" id="6iw8psmZZzl" role="iGT6I">
+          <property role="2Ry0Am" value="plugins" />
+        </node>
+      </node>
+    </node>
     <node concept="3jsGME" id="2WP7dhE1erv" role="3989C9">
       <property role="TrG5h" value="mps-tips" />
       <node concept="3jmSaf" id="2WP7dhE1erw" role="3jmSa1" />
@@ -1561,6 +1570,9 @@
         </node>
       </node>
       <node concept="398223" id="2WP7dhE1es2" role="39821P">
+        <node concept="3_I8Xc" id="6iw8psn00WQ" role="39821P">
+          <ref role="3_I8Xa" to="ffeo:1JaUSFUm4H1" resolve="mps-context-actions" />
+        </node>
         <node concept="3_I8Xc" id="2WP7dhE1es3" role="39821P">
           <ref role="3_I8Xa" to="ffeo:3nGzrDEfcNJ" resolve="svn4idea" />
         </node>
@@ -3535,6 +3547,9 @@
     </node>
     <node concept="m$_wf" id="2WP7dhE1erk" role="3989C9">
       <property role="m$_wk" value="Flint" />
+      <node concept="m$_yC" id="6iw8psmZZOP" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:1JaUSFUm4G_" resolve="jetbrains.mps.editor.contextActions" />
+      </node>
       <node concept="m$_yC" id="4OBWPp1Mhhj" role="m$_yJ">
         <ref role="m$_y1" to="90a9:4be$WTb1MZD" resolve="de.itemis.mps.editor.diagram" />
       </node>
