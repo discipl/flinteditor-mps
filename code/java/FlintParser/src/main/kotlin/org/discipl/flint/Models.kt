@@ -21,6 +21,7 @@ data class Language(
     val claimant: String,
     val create: String,
     val terminate: String,
+    val enforce: String,
     val dutyComponents: String,
     val explanation: String,
     val actor: String,
