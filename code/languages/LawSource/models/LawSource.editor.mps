@@ -66,6 +66,8 @@
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
+        <property id="1160590353935" name="usesFolding" index="S$Qs1" />
+        <property id="6240706158490734113" name="collapseByDefault" index="3EXrWe" />
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
       </concept>
@@ -241,6 +243,13 @@
         </node>
         <node concept="l2Vlx" id="5NNYHM3mLKk" role="2iSdaV" />
       </node>
+      <node concept="3F0ifn" id="1a6XgtXuJym" role="3EZMnx">
+        <property role="3F0ifm" value="Text:" />
+      </node>
+      <node concept="3F2HdR" id="5NNYHM3qQLB" role="3EZMnx">
+        <ref role="1NtTu8" to="srlv:7xM0MUaGta5" resolve="lines" />
+        <node concept="2iRkQZ" id="5NNYHM3qZJc" role="2czzBx" />
+      </node>
       <node concept="3EZMnI" id="$Y9SaASZDa" role="3EZMnx">
         <node concept="VPM3Z" id="$Y9SaASZDb" role="3F10Kt" />
         <node concept="3F0ifn" id="$Y9SaASZDc" role="3EZMnx">
@@ -249,6 +258,8 @@
         <node concept="l2Vlx" id="$Y9SaASZDd" role="2iSdaV" />
       </node>
       <node concept="3EZMnI" id="$Y9SaASZDe" role="3EZMnx">
+        <property role="S$Qs1" value="true" />
+        <property role="3EXrWe" value="true" />
         <node concept="l2Vlx" id="$Y9SaASZDf" role="2iSdaV" />
         <node concept="s8t4o" id="$Y9SaASZDg" role="3EZMnx">
           <property role="28Zw97" value="true" />
@@ -301,13 +312,6 @@
             <property role="VOm3f" value="true" />
           </node>
         </node>
-      </node>
-      <node concept="3F0ifn" id="$Y9SaASZC5" role="3EZMnx">
-        <property role="3F0ifm" value="SourceParts:" />
-      </node>
-      <node concept="3F2HdR" id="5NNYHM3qQLB" role="3EZMnx">
-        <ref role="1NtTu8" to="srlv:5NNYHM3ojd8" resolve="sourceParts" />
-        <node concept="2iRkQZ" id="5NNYHM3qZJc" role="2czzBx" />
       </node>
       <node concept="2iRkQZ" id="$Y9Sa_JN3P" role="2iSdaV" />
     </node>
@@ -595,7 +599,7 @@
     <property role="3GE5qa" value="sources" />
     <ref role="1XX52x" to="srlv:5NNYHM3ojde" resolve="SeperatedNamedContainerReference" />
     <node concept="1iCGBv" id="5NNYHM3ojdG" role="2wV5jI">
-      <ref role="1NtTu8" to="srlv:5NNYHM3ojdf" resolve="article" />
+      <ref role="1NtTu8" to="srlv:5NNYHM3ojdf" resolve="namedContainer" />
       <node concept="1sVBvm" id="5NNYHM3ojdI" role="1sWHZn">
         <node concept="3F0A7n" id="5NNYHM3ojdP" role="2wV5jI">
           <property role="1Intyy" value="true" />

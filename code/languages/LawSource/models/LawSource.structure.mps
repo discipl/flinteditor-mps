@@ -59,10 +59,7 @@
     <property role="TrG5h" value="Version" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="sources" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="1nyeVyNbPAZ" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
+    <ref role="1TJDcQ" node="5NNYHM3ojdd" resolve="NamedSourcePartCollection" />
     <node concept="1TJgyj" id="1nyeVyNiS2b" role="1TKVEi">
       <property role="IQ2ns" value="1576888484001185931" />
       <property role="20kJfa" value="source" />
@@ -96,13 +93,6 @@
     </node>
     <node concept="1QGGSu" id="7C0$SV2FfCK" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/Version.png" />
-    </node>
-    <node concept="1TJgyj" id="5NNYHM3ojd8" role="1TKVEi">
-      <property role="IQ2ns" value="6697972895833994056" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="sourceParts" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="7xM0MUaGt9V" resolve="SourcePart" />
     </node>
   </node>
   <node concept="1TIwiD" id="7xM0MUaGta2">
@@ -227,6 +217,7 @@
     <node concept="1QGGSu" id="7C0$SV2z50M" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/Article.png" />
     </node>
+    <node concept="asaX9" id="3xmueRtiVRG" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="5NNYHM3ojdd">
     <property role="EcuMT" value="6697972895833994061" />
@@ -247,7 +238,7 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5NNYHM3ojdf" role="1TKVEi">
       <property role="IQ2ns" value="6697972895833994063" />
-      <property role="20kJfa" value="article" />
+      <property role="20kJfa" value="namedContainer" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5NNYHM3p37Z" resolve="SeperatedNamedContainer" />
     </node>

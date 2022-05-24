@@ -19,6 +19,7 @@
         <property id="778381075952164307" name="explanation" index="3ANC2_" />
       </concept>
       <concept id="6868897032739893310" name="Flint.structure.FlintSource" flags="ng" index="cog_b">
+        <property id="2215264714367931041" name="textId" index="1hTq4$" />
         <property id="1165398171153094508" name="language" index="1tl0gq" />
         <child id="7816114204006679678" name="betterText" index="2hN6Sa" />
       </concept>
@@ -549,6 +550,68 @@
     <node concept="1GVOM6" id="4gg1F7ZHQeo" role="1GVO30">
       <property role="1GVPtb" value="indienen" />
       <property role="1GVPtd" value="English" />
+    </node>
+  </node>
+  <node concept="cu0$f" id="3xmueRttKLD">
+    <property role="3GE5qa" value="facts" />
+    <property role="TrG5h" value="Test321" />
+    <node concept="1GVOM6" id="3xmueRttKLE" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="Test321" />
+    </node>
+    <node concept="cog_b" id="3xmueRttKLF" role="2pmM46">
+      <property role="1tl0gq" value="English" />
+      <property role="1hTq4$" value="7ad91b4d-369d-47a7-8d37-0852f1890185" />
+      <node concept="2hPCcK" id="3xmueRttKLG" role="2hN6Sa">
+        <node concept="19SUe$" id="3xmueRttKLH" role="19SJt6">
+          <property role="19SUeA" value="Onder bestuursorgaan wordt verstaan:" />
+        </node>
+      </node>
+    </node>
+    <node concept="cog_b" id="3xmueRtE1Tu" role="2pmM46">
+      <property role="1tl0gq" value="English" />
+      <property role="1hTq4$" value="6cdc9358-13be-47e1-be6d-fadc0a6a131d" />
+      <node concept="2hPCcK" id="3xmueRtE1Tv" role="2hN6Sa">
+        <node concept="19SUe$" id="3xmueRtE1Tw" role="19SJt6">
+          <property role="19SUeA" value="Zo is het, dat Wij, de Raad van State gehoord, en met gemeen overleg der Staten-Generaal, hebben goedgevonden en verstaan, gelijk Wij goedvinden en verstaan bij deze:" />
+        </node>
+      </node>
+    </node>
+    <node concept="cog_b" id="3xmueRtE1U_" role="2pmM46">
+      <property role="1tl0gq" value="English" />
+      <property role="1hTq4$" value="aedefc4a-ce68-4186-a165-6bab54797cfa" />
+      <node concept="2hPCcK" id="3xmueRtE1UA" role="2hN6Sa">
+        <node concept="19SUe$" id="3xmueRtE1UB" role="19SJt6">
+          <property role="19SUeA" value="titel 14, afdeling 4" />
+        </node>
+      </node>
+    </node>
+    <node concept="cog_b" id="3xmueRtRxkD" role="2pmM46">
+      <property role="1tl0gq" value="English" />
+      <property role="1hTq4$" value="7ad56d78-f027-4e00-8872-1258ad752a37" />
+      <node concept="2hPCcK" id="3xmueRtRxkE" role="2hN6Sa">
+        <node concept="19SUe$" id="3xmueRtRxkF" role="19SJt6">
+          <property role="19SUeA" value="Alzo Wij in overweging genomen hebben, dat ingevolge artikel 107, tweede lid, van de Grondwet de wet algemene regels van bestuursrecht dient vast te stellen;" />
+        </node>
+      </node>
+    </node>
+    <node concept="cog_b" id="3xmueRtWdYw" role="2pmM46">
+      <property role="1tl0gq" value="English" />
+      <property role="1hTq4$" value="e56a247a-d25c-4ab1-9e2a-a427119ea081" />
+      <node concept="2hPCcK" id="3xmueRtWdYx" role="2hN6Sa">
+        <node concept="19SUe$" id="3xmueRtWdYy" role="19SJt6">
+          <property role="19SUeA" value="Alzo Wij in overweging genomen hebben, dat ingevolge artikel 107, tweede lid, van de Grondwet de wet algemene regels van bestuursrecht dient vast te stellen;" />
+        </node>
+      </node>
+    </node>
+    <node concept="cog_b" id="3xmueRtWeW_" role="2pmM46">
+      <property role="1tl0gq" value="English" />
+      <property role="1hTq4$" value="c615c8fc-d572-4efa-a9bf-0436ebe71d6d" />
+      <node concept="2hPCcK" id="3xmueRtWeWA" role="2hN6Sa">
+        <node concept="19SUe$" id="3xmueRtWeWB" role="19SJt6">
+          <property role="19SUeA" value="een orgaan van een rechtspersoon die krachtens publiekrecht is ingesteld, of" />
+        </node>
+      </node>
     </node>
   </node>
 </model>
