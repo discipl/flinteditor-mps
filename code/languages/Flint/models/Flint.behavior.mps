@@ -26636,6 +26636,17 @@
         </node>
       </node>
     </node>
+    <node concept="Wx3nA" id="2txHBFP00IF" role="jymVt">
+      <property role="TrG5h" value="addRangeSelectionToIHasSource" />
+      <node concept="3Tm1VV" id="2txHBFOZZWm" role="1B3o_S" />
+      <node concept="3uibUv" id="2txHBFP004M" role="1tU5fm">
+        <ref role="3uigEE" node="5SIYu6XxgH1" resolve="IntentionInstance" />
+        <node concept="3uibUv" id="2txHBFP00yr" role="11_B2D">
+          <ref role="3uigEE" to="b8lf:~NodeRangeSelection" resolve="NodeRangeSelection" />
+        </node>
+        <node concept="17QB3L" id="2txHBFP00Iz" role="11_B2D" />
+      </node>
+    </node>
     <node concept="3Tm1VV" id="5SIYu6Xx_PU" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="7C_i1w7$jaq">
