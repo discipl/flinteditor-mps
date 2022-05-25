@@ -80,6 +80,19 @@ repositories {
     }
 }
 
+if (System.getenv('CI') != null) {
+    def props = new Properties()
+    file("build.properties").withInputStream { props.load(it) }
+    ext {
+        ossindexUser = props.get("ossindexUser")
+        ossindexToken = props.get("ossindexToken")
+    }
+    audit {
+        user = "$ossindexUser"
+        token = "$ossindexToken"
+    }
+}
+
 downloadJbr {
     jbrVersion = jbr_version
     downloadDir = mpsDir

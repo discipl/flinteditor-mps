@@ -106,3 +106,4 @@ code/fixed-build-Flint.xml
 tests/reports
 .dockerignore
 .idea/jarRepositories.xml
+local.properties
