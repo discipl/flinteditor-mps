@@ -48,6 +48,7 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <import index="lwvz" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.selection(MPS.Editor/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="jov5" ref="r:9249307a-27f2-447e-8e8c-b4f939b97d5c(Flint.languages)" implicit="true" />
     <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" implicit="true" />
@@ -496,6 +497,7 @@
       <concept id="8679002930326655618" name="LawSource.structure.PrefixLine" flags="ng" index="3MKX6G">
         <property id="8679002930326901018" name="prefix" index="3MLT8O" />
         <child id="3384522145955437017" name="text" index="2qTukG" />
+        <child id="8679002930326901016" name="old_text" index="3MLT8Q" />
       </concept>
       <concept id="3611483123877483678" name="LawSource.structure.LawsourceText" flags="ng" index="1P5Shq" />
       <concept id="3611483123877489781" name="LawSource.structure.LawsourceWord" flags="ng" index="1P5VML" />
@@ -8655,6 +8657,300 @@
       </node>
       <node concept="1MFPAf" id="2NiZaFWHr_7" role="3cqZAp">
         <ref role="1MFYO6" to="ktnu:7uwsO$t0J0I" resolve="FlattenIntention" />
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="34d31FEFUlf">
+    <property role="TrG5h" value="AddSourceToNodeFromRangeSelection" />
+    <node concept="1qefOq" id="34d31FEFXoa" role="25YQCW">
+      <node concept="3_QiXo" id="34d31FELow7" role="1qenE9">
+        <node concept="cu0$f" id="34d31FELow8" role="3_Qj5Y">
+          <property role="2CxiQ9" value="0" />
+          <property role="TrG5h" value="testFact" />
+          <node concept="1GVOM6" id="34d31FELowb" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="testFact" />
+            <node concept="LIFWc" id="34d31FELESO" role="lGtFl">
+              <property role="LIFWa" value="2" />
+              <property role="OXtK3" value="true" />
+              <property role="p6zMq" value="2" />
+              <property role="p6zMs" value="2" />
+              <property role="LIFWd" value="property_translatedName" />
+            </node>
+          </node>
+          <node concept="3xLA65" id="34d31FEQ9Wk" role="lGtFl">
+            <property role="TrG5h" value="factNode" />
+          </node>
+        </node>
+        <node concept="2AEkrd" id="34d31FELow9" role="3_Qj5W">
+          <property role="TrG5h" value="Article 504" />
+          <node concept="3MKX5h" id="34d31FELowa" role="3MKX6D">
+            <node concept="3MKX5h" id="14WD1prom8Y" role="3MKX6F">
+              <property role="1hTQn4" value="https://calculemus.org/4ec93c57-4515-45bd-8c15-5d3897952f43" />
+              <node concept="3MKX6G" id="14WD1prom8Z" role="3MKX6F">
+                <property role="3MLT8O" value="2." />
+                <property role="1hTQn4" value="prefix-line-0" />
+                <node concept="19SGf9" id="14WD1prom90" role="3MLT8Q">
+                  <node concept="19SUe$" id="14WD1prom91" role="19SJt6">
+                    <property role="19SUeA" value="The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authorisation from a supervisory authority, by:" />
+                  </node>
+                </node>
+                <node concept="1P5Shq" id="4R7xWJwUB$Z" role="2qTukG">
+                  <node concept="1P5VML" id="4R7xWJwUB_1" role="19SJt6">
+                    <property role="19SUeA" value="The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authorisation from a supervisory authority, by:" />
+                  </node>
+                </node>
+                <node concept="3xLA65" id="34d31FELpLW" role="lGtFl">
+                  <property role="TrG5h" value="startNode" />
+                </node>
+              </node>
+              <node concept="3MKX5h" id="14WD1prom92" role="3MKX6F">
+                <property role="1hTQn4" value="https://calculemus.org/596017c9-4661-4077-904f-b4f8f9b8037a" />
+                <node concept="3MKX6G" id="14WD1prom93" role="3MKX6F">
+                  <property role="3MLT8O" value="(a)" />
+                  <property role="1hTQn4" value="prefix-line-1" />
+                  <node concept="19SGf9" id="14WD1prom94" role="3MLT8Q">
+                    <node concept="19SUe$" id="14WD1prom95" role="19SJt6">
+                      <property role="19SUeA" value="a legally binding and enforceable instrument between public authorities or bodies;" />
+                    </node>
+                  </node>
+                  <node concept="1P5Shq" id="4R7xWJwUB_3" role="2qTukG">
+                    <node concept="1P5VML" id="4R7xWJwUB_5" role="19SJt6">
+                      <property role="19SUeA" value="a legally binding and enforceable instrument between public authorities or bodies;" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3MKX6G" id="14WD1prom96" role="3MKX6F">
+                  <property role="3MLT8O" value="(b)" />
+                  <property role="1hTQn4" value="prefix-line-2" />
+                  <node concept="19SGf9" id="14WD1prom97" role="3MLT8Q">
+                    <node concept="19SUe$" id="14WD1prom98" role="19SJt6">
+                      <property role="19SUeA" value="binding corporate rules in accordance with Article 47;" />
+                    </node>
+                  </node>
+                  <node concept="1P5Shq" id="4R7xWJwUB_7" role="2qTukG">
+                    <node concept="1P5VML" id="4R7xWJwUB_9" role="19SJt6">
+                      <property role="19SUeA" value="binding corporate rules in accordance with Article 47;" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3xLA65" id="34d31FEOO9u" role="lGtFl">
+                  <property role="TrG5h" value="endNode" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="34d31FEG66s" role="LjaKd">
+      <node concept="3cpWs8" id="34d31FELXH$" role="3cqZAp">
+        <node concept="3cpWsn" id="34d31FELXH_" role="3cpWs9">
+          <property role="TrG5h" value="ma" />
+          <node concept="3uibUv" id="34d31FELXH0" role="1tU5fm">
+            <ref role="3uigEE" to="lui2:~ModelAccess" resolve="ModelAccess" />
+          </node>
+          <node concept="2OqwBi" id="34d31FELXHA" role="33vP2m">
+            <node concept="2OqwBi" id="34d31FELXHB" role="2Oq$k0">
+              <node concept="2OqwBi" id="34d31FELXHC" role="2Oq$k0">
+                <node concept="369mXd" id="34d31FELXHD" role="2Oq$k0" />
+                <node concept="liA8E" id="34d31FELXHE" role="2OqNvi">
+                  <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+                </node>
+              </node>
+              <node concept="liA8E" id="34d31FELXHF" role="2OqNvi">
+                <ref role="37wK5l" to="exr9:~EditorContext.getRepository()" resolve="getRepository" />
+              </node>
+            </node>
+            <node concept="liA8E" id="34d31FELXHG" role="2OqNvi">
+              <ref role="37wK5l" to="lui2:~SRepository.getModelAccess()" resolve="getModelAccess" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="34d31FEMURr" role="3cqZAp">
+        <node concept="3cpWsn" id="34d31FEMURu" role="3cpWs9">
+          <property role="TrG5h" value="selection" />
+          <node concept="3uibUv" id="34d31FEMURv" role="1tU5fm">
+            <ref role="3uigEE" to="lwvz:~Selection" resolve="Selection" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbF" id="34d31FEOzJw" role="3cqZAp">
+        <node concept="2OqwBi" id="34d31FEOzUG" role="3clFbG">
+          <node concept="37vLTw" id="34d31FEOzJu" role="2Oq$k0">
+            <ref role="3cqZAo" node="34d31FELXH_" resolve="ma" />
+          </node>
+          <node concept="liA8E" id="34d31FEO$9C" role="2OqNvi">
+            <ref role="37wK5l" to="lui2:~ModelAccess.runReadAction(java.lang.Runnable)" resolve="runReadAction" />
+            <node concept="1bVj0M" id="34d31FEO$bM" role="37wK5m">
+              <node concept="3clFbS" id="34d31FEO$bN" role="1bW5cS">
+                <node concept="3clFbF" id="34d31FEOjm1" role="3cqZAp">
+                  <node concept="37vLTI" id="34d31FEOjm3" role="3clFbG">
+                    <node concept="37vLTw" id="34d31FEOjm4" role="37vLTJ">
+                      <ref role="3cqZAo" node="34d31FEMURu" resolve="selection" />
+                    </node>
+                    <node concept="2OqwBi" id="34d31FEOjm5" role="37vLTx">
+                      <node concept="2OqwBi" id="34d31FEOjm6" role="2Oq$k0">
+                        <node concept="369mXd" id="34d31FEOjm7" role="2Oq$k0" />
+                        <node concept="liA8E" id="34d31FEOjm8" role="2OqNvi">
+                          <ref role="37wK5l" to="exr9:~EditorComponent.getSelectionManager()" resolve="getSelectionManager" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="34d31FEOjm9" role="2OqNvi">
+                        <ref role="37wK5l" to="lwvz:~SelectionManager.createRangeSelection(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.model.SNode)" resolve="createRangeSelection" />
+                        <node concept="3xONca" id="34d31FEOjma" role="37wK5m">
+                          <ref role="3xOPvv" node="34d31FELpLW" resolve="startNode" />
+                        </node>
+                        <node concept="3xONca" id="34d31FEOOab" role="37wK5m">
+                          <ref role="3xOPvv" node="34d31FEOO9u" resolve="endNode" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3vwNmj" id="34d31FEG7Ub" role="3cqZAp">
+        <node concept="2ZW3vV" id="34d31FEG8lJ" role="3vwVQn">
+          <node concept="3uibUv" id="34d31FEG8p7" role="2ZW6by">
+            <ref role="3uigEE" to="b8lf:~NodeRangeSelection" resolve="NodeRangeSelection" />
+          </node>
+          <node concept="37vLTw" id="34d31FEMVRW" role="2ZW6bz">
+            <ref role="3cqZAo" node="34d31FEMURu" resolve="selection" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbF" id="34d31FEQ1E7" role="3cqZAp">
+        <node concept="2OqwBi" id="34d31FEQ1PE" role="3clFbG">
+          <node concept="37vLTw" id="34d31FEQ1E5" role="2Oq$k0">
+            <ref role="3cqZAo" node="34d31FELXH_" resolve="ma" />
+          </node>
+          <node concept="liA8E" id="34d31FEQ20x" role="2OqNvi">
+            <ref role="37wK5l" to="lui2:~ModelAccess.executeCommandInEDT(java.lang.Runnable)" resolve="executeCommandInEDT" />
+            <node concept="1bVj0M" id="34d31FEQ214" role="37wK5m">
+              <node concept="3clFbS" id="34d31FEQ215" role="1bW5cS">
+                <node concept="3clFbF" id="34d31FEQ918" role="3cqZAp">
+                  <node concept="2YIFZM" id="34d31FEQ96d" role="3clFbG">
+                    <ref role="37wK5l" to="472r:2txHBFP0Vco" resolve="addNodeRangeSelectionToNode" />
+                    <ref role="1Pybhc" to="472r:1BkZCJkeUDu" resolve="NodeFromArticleUtils" />
+                    <node concept="1eOMI4" id="34d31FEQ99q" role="37wK5m">
+                      <node concept="10QFUN" id="34d31FEQ99n" role="1eOMHV">
+                        <node concept="3uibUv" id="34d31FEQ9eM" role="10QFUM">
+                          <ref role="3uigEE" to="b8lf:~NodeRangeSelection" resolve="NodeRangeSelection" />
+                        </node>
+                        <node concept="37vLTw" id="34d31FEQ9he" role="10QFUP">
+                          <ref role="3cqZAo" node="34d31FEMURu" resolve="selection" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3xONca" id="34d31FEQa6w" role="37wK5m">
+                      <ref role="3xOPvv" node="34d31FEQ9Wk" resolve="factNode" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="34d31FEMVZB" role="3cqZAp" />
+      <node concept="3clFbH" id="34d31FEG7O3" role="3cqZAp" />
+      <node concept="3clFbH" id="34d31FEG7OJ" role="3cqZAp" />
+    </node>
+    <node concept="1qefOq" id="34d31FEMdKq" role="25YQFr">
+      <node concept="3_QiXo" id="34d31FEMdKr" role="1qenE9">
+        <node concept="cu0$f" id="34d31FEMdKs" role="3_Qj5Y">
+          <property role="2CxiQ9" value="0" />
+          <property role="TrG5h" value="testFact" />
+          <node concept="1GVOM6" id="34d31FEMdKt" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="testFact" />
+          </node>
+          <node concept="cog_b" id="34d31FEPLQM" role="2pmM46">
+            <property role="1tl0gq" value="English" />
+            <property role="1hTq4$" value="prefix-line-0" />
+            <node concept="2hPCcK" id="34d31FEPLQN" role="2hN6Sa">
+              <node concept="19SUe$" id="34d31FEPLQO" role="19SJt6">
+                <property role="19SUeA" value="The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authorisation from a supervisory authority, by:" />
+              </node>
+            </node>
+          </node>
+          <node concept="cog_b" id="34d31FEPMU$" role="2pmM46">
+            <property role="1tl0gq" value="English" />
+            <property role="1hTq4$" value="prefix-line-1" />
+            <node concept="2hPCcK" id="34d31FEPMU_" role="2hN6Sa">
+              <node concept="19SUe$" id="34d31FEPMUA" role="19SJt6">
+                <property role="19SUeA" value="a legally binding and enforceable instrument between public authorities or bodies;" />
+              </node>
+            </node>
+          </node>
+          <node concept="cog_b" id="34d31FEPMUM" role="2pmM46">
+            <property role="1tl0gq" value="English" />
+            <property role="1hTq4$" value="prefix-line-2" />
+            <node concept="2hPCcK" id="34d31FEPMUN" role="2hN6Sa">
+              <node concept="19SUe$" id="34d31FEPMUO" role="19SJt6">
+                <property role="19SUeA" value="binding corporate rules in accordance with Article 47;" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2AEkrd" id="34d31FEMdKv" role="3_Qj5W">
+          <property role="TrG5h" value="Article 504" />
+          <node concept="3MKX5h" id="34d31FEMdKw" role="3MKX6D">
+            <node concept="3MKX5h" id="34d31FEMdKx" role="3MKX6F">
+              <property role="1hTQn4" value="https://calculemus.org/4ec93c57-4515-45bd-8c15-5d3897952f43" />
+              <node concept="3MKX6G" id="34d31FEMdKy" role="3MKX6F">
+                <property role="3MLT8O" value="2." />
+                <property role="1hTQn4" value="prefix-line-0" />
+                <node concept="19SGf9" id="34d31FEMdKz" role="3MLT8Q">
+                  <node concept="19SUe$" id="34d31FEMdK$" role="19SJt6">
+                    <property role="19SUeA" value="The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authorisation from a supervisory authority, by:" />
+                  </node>
+                </node>
+                <node concept="1P5Shq" id="34d31FEMdK_" role="2qTukG">
+                  <node concept="1P5VML" id="34d31FEMdKA" role="19SJt6">
+                    <property role="19SUeA" value="The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authorisation from a supervisory authority, by:" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3MKX5h" id="34d31FEMdKC" role="3MKX6F">
+                <property role="1hTQn4" value="https://calculemus.org/596017c9-4661-4077-904f-b4f8f9b8037a" />
+                <node concept="3MKX6G" id="34d31FEMdKD" role="3MKX6F">
+                  <property role="3MLT8O" value="(a)" />
+                  <property role="1hTQn4" value="prefix-line-1" />
+                  <node concept="19SGf9" id="34d31FEMdKE" role="3MLT8Q">
+                    <node concept="19SUe$" id="34d31FEMdKF" role="19SJt6">
+                      <property role="19SUeA" value="a legally binding and enforceable instrument between public authorities or bodies;" />
+                    </node>
+                  </node>
+                  <node concept="1P5Shq" id="34d31FEMdKG" role="2qTukG">
+                    <node concept="1P5VML" id="34d31FEMdKH" role="19SJt6">
+                      <property role="19SUeA" value="a legally binding and enforceable instrument between public authorities or bodies;" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3MKX6G" id="34d31FEMdKI" role="3MKX6F">
+                  <property role="3MLT8O" value="(b)" />
+                  <property role="1hTQn4" value="prefix-line-2" />
+                  <node concept="19SGf9" id="34d31FEMdKJ" role="3MLT8Q">
+                    <node concept="19SUe$" id="34d31FEMdKK" role="19SJt6">
+                      <property role="19SUeA" value="binding corporate rules in accordance with Article 47;" />
+                    </node>
+                  </node>
+                  <node concept="1P5Shq" id="34d31FEMdKL" role="2qTukG">
+                    <node concept="1P5VML" id="34d31FEMdKM" role="19SJt6">
+                      <property role="19SUeA" value="binding corporate rules in accordance with Article 47;" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
