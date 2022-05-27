@@ -2931,26 +2931,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="61x8KBlexnH" role="3bR37C">
-          <node concept="1BurEX" id="61x8KBlexnI" role="1SiIV1">
-            <node concept="398BVA" id="61x8KBlexnm" role="1BurEY">
-              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
-              <node concept="2Ry0Ak" id="61x8KBlexnn" role="iGT6I">
-                <property role="2Ry0Am" value="jakarta.json.jar" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="61x8KBlexxs" role="3bR37C">
-          <node concept="1BurEX" id="61x8KBlexxt" role="1SiIV1">
-            <node concept="398BVA" id="61x8KBlexx5" role="1BurEY">
-              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
-              <node concept="2Ry0Ak" id="61x8KBlexx6" role="iGT6I">
-                <property role="2Ry0Am" value="titanium-json-ld.jar" />
-              </node>
-            </node>
-          </node>
-        </node>
       </node>
       <node concept="1E1JtD" id="e8hxMw1VLZ" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -3629,7 +3609,6 @@
     <node concept="2G$12M" id="6rq68PztmuU" role="3989C9">
       <property role="TrG5h" value="FlintTestGroup" />
       <node concept="1E1JtD" id="6rq68PztmVN" role="2G$12L">
-        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="FlintTests" />
         <property role="3LESm3" value="0bfae715-f669-4a10-999a-ba0ca94a1c3c" />
         <node concept="55IIr" id="6rq68PztmVO" role="3LF7KH">
@@ -3757,9 +3736,9 @@
             <ref role="3bR37D" node="6onvLJoJVY2" resolve="LawSource" />
           </node>
         </node>
-        <node concept="1SiIV0" id="7VfJsRdiuca" role="3bR37C">
-          <node concept="3bR9La" id="7VfJsRdiucb" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+        <node concept="1SiIV0" id="34d31FERQ1R" role="3bR37C">
+          <node concept="3bR9La" id="34d31FERQ1S" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
       </node>
