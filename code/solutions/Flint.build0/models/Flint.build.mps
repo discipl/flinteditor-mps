@@ -2354,9 +2354,9 @@
         </node>
       </node>
       <node concept="1E1JtA" id="2eNuKY4JD2" role="2G$12L">
-        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="Flint.runtime" />
         <property role="3LESm3" value="acf1b507-e791-4de3-b55f-a3880c36d5bb" />
+        <property role="BnDLt" value="true" />
         <node concept="55IIr" id="2eNuKY4JD5" role="3LF7KH">
           <node concept="2Ry0Ak" id="2eNuKY4JH6" role="iGT6I">
             <property role="2Ry0Am" value="solutions" />
@@ -2927,6 +2927,26 @@
               <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
               <node concept="2Ry0Ak" id="1kuEGxgjh5f" role="iGT6I">
                 <property role="2Ry0Am" value="ktor-client-apache-jvm.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7kjnfUOZ0kK" role="3bR37C">
+          <node concept="1BurEX" id="7kjnfUOZ0kL" role="1SiIV1">
+            <node concept="398BVA" id="7kjnfUOZ0kp" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="7kjnfUOZ0kq" role="iGT6I">
+                <property role="2Ry0Am" value="jakarta.json.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7kjnfUOZ0uv" role="3bR37C">
+          <node concept="1BurEX" id="7kjnfUOZ0uw" role="1SiIV1">
+            <node concept="398BVA" id="7kjnfUOZ0u8" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="7kjnfUOZ0u9" role="iGT6I">
+                <property role="2Ry0Am" value="titanium-json-ld.jar" />
               </node>
             </node>
           </node>
