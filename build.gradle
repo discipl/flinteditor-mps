@@ -80,9 +80,9 @@ repositories {
     }
 }
 
-if (System.getenv('CI') != null) {
+if (System.getenv('CI') == null) {
     def props = new Properties()
-    file("build.properties").withInputStream { props.load(it) }
+    file("local.properties").withInputStream { props.load(it) }
     ext {
         ossindexUser = props.get("ossindexUser")
         ossindexToken = props.get("ossindexToken")
