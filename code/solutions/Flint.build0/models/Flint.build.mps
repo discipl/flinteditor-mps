@@ -2943,6 +2943,26 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="7kjnfUOZ5N0" role="3bR37C">
+          <node concept="1BurEX" id="7kjnfUOZ5N1" role="1SiIV1">
+            <node concept="398BVA" id="7kjnfUOZ5MD" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="7kjnfUOZ5ME" role="iGT6I">
+                <property role="2Ry0Am" value="jakarta.json.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7kjnfUOZ5WJ" role="3bR37C">
+          <node concept="1BurEX" id="7kjnfUOZ5WK" role="1SiIV1">
+            <node concept="398BVA" id="7kjnfUOZ5Wo" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="7kjnfUOZ5Wp" role="iGT6I">
+                <property role="2Ry0Am" value="titanium-json-ld.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="e8hxMw1VLZ" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -3182,11 +3202,6 @@
         <node concept="1SiIV0" id="6onvLJoJXSO" role="3bR37C">
           <node concept="3bR9La" id="6onvLJoJXSP" role="1SiIV1">
             <ref role="3bR37D" to="al5i:5A_Zlt6CRir" resolve="com.mbeddr.mpsutil.hyperlink" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6onvLJoJXSQ" role="3bR37C">
-          <node concept="3bR9La" id="6onvLJoJXSR" role="1SiIV1">
-            <ref role="3bR37D" to="90a9:1sO539bGQvB" resolve="de.slisson.mps.richtext" />
           </node>
         </node>
         <node concept="1BupzO" id="6onvLJoJXT9" role="3bR31x">
