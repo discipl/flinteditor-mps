@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="Flint.sandbox" uuid="8481540f-9879-490c-a79c-20ab114768e6" moduleVersion="0" compileInMPS="true">
+<solution name="Flint.sandbox" uuid="8481540f-9879-490c-a79c-20ab114768e6" moduleVersion="0" compileInMPS="true" generatorOutputPath="/home/dbrison/Projects/copy/flinteditor-mps/code/languages/Flint/sandbox/source_gen">
   <models>
-    <modelRoot contentPath="${module}" type="default">
+    <modelRoot contentPath="/home/dbrison/Projects/copy/flinteditor-mps/code/languages/Flint/sandbox" type="default">
       <sourceRoot location="models" />
     </modelRoot>
   </models>
   <facets>
     <facet type="java">
-      <classes generated="true" path="${module}/classes_gen" />
+      <classes generated="true" path="/home/dbrison/Projects/copy/flinteditor-mps/code/languages/Flint/sandbox/classes_gen" />
     </facet>
   </facets>
   <sourcePath />
   <languageVersions>
-    <language slang="l:69940819-10c1-4a38-ac44-700b63f993ba:Flint" version="11" />
+    <language slang="l:69940819-10c1-4a38-ac44-700b63f993ba:Flint" version="12" />
     <language slang="l:fa4f7dfd-91d0-409e-86f8-693574acc2a3:FlintCellModels" version="0" />
     <language slang="l:dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d:LawSource" version="0" />
     <language slang="l:92d2ea16-5a42-4fdf-a676-c7604efe3504:de.slisson.mps.richtext" version="0" />

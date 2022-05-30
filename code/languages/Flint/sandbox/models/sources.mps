@@ -15,7 +15,7 @@
       </concept>
     </language>
     <language id="dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d" name="LawSource">
-      <concept id="1576888484001185141" name="LawSource.structure.Article" flags="ng" index="2AEkrd">
+      <concept id="1576888484001185141" name="LawSource.structure.OldArticle" flags="ng" index="2AEkrd">
         <property id="6084185246938325127" name="nameLineNr" index="1N0jUS" />
         <reference id="1576888484001185932" name="version" index="2AErGO" />
         <child id="8679002930326655623" name="lines" index="3MKX6D" />
@@ -31,14 +31,25 @@
       <concept id="1576888483996689830" name="LawSource.structure.LawSource" flags="ng" index="2ATdSu">
         <property id="1576888484001186753" name="bwbId" index="2AErxT" />
       </concept>
-      <concept id="8679002930326655615" name="LawSource.structure.LineCollection" flags="ng" index="3MKX5h">
+      <concept id="6697972895833994061" name="LawSource.structure.NamedSourcePartCollection" flags="ng" index="3v$GAh" />
+      <concept id="6697972895833994062" name="LawSource.structure.SeperatedNamedContainerReference" flags="ng" index="3v$GAi">
+        <reference id="6697972895833994063" name="namedContainer" index="3v$GAj" />
+      </concept>
+      <concept id="6697972895834190335" name="LawSource.structure.SeperatedNamedContainer" flags="ng" index="3v_WGz">
+        <reference id="3231458622981024335" name="version" index="dW5wK" />
+      </concept>
+      <concept id="5920413357503155457" name="LawSource.structure.PrefixContainer" flags="ng" index="3Fnoml">
+        <property id="5920413357503155458" name="prefix" index="3Fnomm" />
+      </concept>
+      <concept id="8679002930326655615" name="LawSource.structure.SourcePartCollection" flags="ng" index="3MKX5h">
         <child id="8679002930326655621" name="lines" index="3MKX6F" />
       </concept>
       <concept id="8679002930326655612" name="LawSource.structure.Line" flags="ng" index="3MKX5i">
         <child id="8679002930326893284" name="text" index="3MLR7a" />
       </concept>
-      <concept id="8679002930326655611" name="LawSource.structure.ArticlePart" flags="ng" index="3MKX5l">
+      <concept id="8679002930326655611" name="LawSource.structure.SourcePart" flags="ng" index="3MKX5l">
         <property id="2215264714367784513" name="lineId" index="1hTQn4" />
+        <property id="5920413357502469007" name="index" index="3Fg1Gr" />
       </concept>
       <concept id="8679002930326655618" name="LawSource.structure.PrefixLine" flags="ng" index="3MKX6G">
         <property id="8679002930326901018" name="prefix" index="3MLT8O" />
@@ -67,6 +78,195 @@
     <property role="ZyLMf" value="http://wetten.overheid.nl/1.0:c:BWBR0043324&amp;g=2020-03-31" />
     <property role="2JHwUh" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27" />
     <ref role="2AErGN" node="1dxOPHPjbBJ" resolve="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+    <node concept="3MKX5i" id="3xmueRu_9wZ" role="3MKX6F">
+      <property role="1hTQn4" value="2d4f8bd2-f650-49af-87ea-47539a3a76dd" />
+      <property role="3Fg1Gr" value="1" />
+      <node concept="19SGf9" id="3xmueRu_9x0" role="3MLR7a">
+        <node concept="19SUe$" id="3xmueRu_9x1" role="19SJt6">
+          <property role="19SUeA" value="Beleidsregel van de Minister van Economische Zaken en Klimaat van 27 maart 2020, nr. WJZ/ 20077977, tot tegemoetkoming in de schade geleden door ondernemingen in bepaalde sectoren door de maatregelen ter bestrijding van de verdere verspreiding van COVID-19 (Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19)" />
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5i" id="3xmueRu_9x3" role="3MKX6F">
+      <property role="1hTQn4" value="8859e49b-7437-448d-8e45-69d1fbff0049" />
+      <property role="3Fg1Gr" value="2" />
+      <node concept="19SGf9" id="3xmueRu_9x4" role="3MLR7a">
+        <node concept="19SUe$" id="3xmueRu_9x5" role="19SJt6">
+          <property role="19SUeA" value="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="3xmueRu_9x7" role="3MKX6F">
+      <property role="1hTQn4" value="e65e9dcf-2440-4d7f-8769-71fcda3ab78d" />
+      <property role="3Fg1Gr" value="3" />
+      <node concept="3MKX5h" id="3xmueRu_9x8" role="3MKX6F">
+        <property role="1hTQn4" value="6608df2f-4a0b-40f0-88a7-4750a30a8587" />
+        <property role="3Fg1Gr" value="4" />
+        <node concept="3MKX5i" id="3xmueRu_9x9" role="3MKX6F">
+          <property role="1hTQn4" value="02a74aca-a569-46de-898a-dd7e0bb487d5" />
+          <property role="3Fg1Gr" value="5" />
+          <node concept="19SGf9" id="3xmueRu_9xa" role="3MLR7a">
+            <node concept="19SUe$" id="3xmueRu_9xb" role="19SJt6">
+              <property role="19SUeA" value="De Minister van Economische Zaken en Klimaat en de Staatssecretaris van Economische Zaken en Klimaat," />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="3xmueRu_9xd" role="3MKX6F">
+          <property role="1hTQn4" value="67371c75-d5a6-422a-b791-abe38b7dc3f7" />
+          <property role="3Fg1Gr" value="6" />
+          <node concept="3MKX5i" id="3xmueRu_9xe" role="3MKX6F">
+            <property role="1hTQn4" value="e5e703ba-060a-400e-a149-c2ebfbce7357" />
+            <property role="3Fg1Gr" value="7" />
+            <node concept="19SGf9" id="3xmueRu_9xf" role="3MLR7a">
+              <node concept="19SUe$" id="3xmueRu_9xg" role="19SJt6">
+                <property role="19SUeA" value="Gelet op artikel 4:81 van de Algemene wet bestuursrecht;" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="3xmueRu_9xi" role="3MKX6F">
+          <property role="1hTQn4" value="58ac9ffc-4525-4a5b-9152-78bc0cfecbba" />
+          <property role="3Fg1Gr" value="8" />
+          <node concept="3MKX5i" id="3xmueRu_9xj" role="3MKX6F">
+            <property role="1hTQn4" value="c2b9589c-c055-499e-b108-77ff34671836" />
+            <property role="3Fg1Gr" value="9" />
+            <node concept="19SGf9" id="3xmueRu_9xk" role="3MLR7a">
+              <node concept="19SUe$" id="3xmueRu_9xl" role="19SJt6">
+                <property role="19SUeA" value="Besluiten:" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="3xmueRu_9xn" role="3MKX6F">
+        <property role="1hTQn4" value="57772318-e330-4899-abb4-ac1be28abbdd" />
+        <property role="3Fg1Gr" value="10" />
+        <node concept="3v$GAi" id="3xmueRu_9yA" role="3MKX6F">
+          <property role="3Fg1Gr" value="11" />
+          <property role="1hTQn4" value="5eb4f42a-7dfb-47f4-a89e-bb366a6b40ad" />
+          <ref role="3v$GAj" node="3xmueRu_9xo" resolve="Artikel 1 (begripsbepalingen)" />
+        </node>
+        <node concept="3v$GAi" id="3xmueRu_9z1" role="3MKX6F">
+          <property role="3Fg1Gr" value="48" />
+          <property role="1hTQn4" value="b54dd02b-07ed-4150-9017-84c2b1322694" />
+          <ref role="3v$GAj" node="3xmueRu_9yB" resolve="Artikel 2 (verstrekking en hoogte tegemoetkoming)" />
+        </node>
+        <node concept="3v$GAi" id="3xmueRu_9zq" role="3MKX6F">
+          <property role="3Fg1Gr" value="63" />
+          <property role="1hTQn4" value="fce81f72-a538-4bc5-b052-0131ebefdc78" />
+          <ref role="3v$GAj" node="3xmueRu_9z2" resolve="Artikel 3 (afwijzingsgronden)" />
+        </node>
+        <node concept="3v$GAi" id="3xmueRu_9$p" role="3MKX6F">
+          <property role="3Fg1Gr" value="76" />
+          <property role="1hTQn4" value="69775e46-56a3-4edc-b0bd-b5ab78d37f6e" />
+          <ref role="3v$GAj" node="3xmueRu_9zr" resolve="Artikel 4 (informatieverplichtingen bij aanvraag en aanvraagperiode)" />
+        </node>
+        <node concept="3v$GAi" id="3xmueRu_9$v" role="3MKX6F">
+          <property role="3Fg1Gr" value="109" />
+          <property role="1hTQn4" value="78bb0747-9604-4cd8-abc8-63b796d5485f" />
+          <ref role="3v$GAj" node="3xmueRu_9$q" resolve="Artikel 5 (beslistermijn)" />
+        </node>
+        <node concept="3v$GAi" id="3xmueRu_9$_" role="3MKX6F">
+          <property role="3Fg1Gr" value="112" />
+          <property role="1hTQn4" value="0e348eb3-c250-4de8-a8dd-d3c0646c771a" />
+          <ref role="3v$GAj" node="3xmueRu_9$w" resolve="Artikel 6 (aanpassing tegemoetkoming achteraf)" />
+        </node>
+        <node concept="3v$GAi" id="3xmueRu_9$F" role="3MKX6F">
+          <property role="3Fg1Gr" value="115" />
+          <property role="1hTQn4" value="9e2902a2-42d4-4341-876e-a0f175a0e7ff" />
+          <ref role="3v$GAj" node="3xmueRu_9$A" resolve="Artikel 7 (staatssteun)" />
+        </node>
+        <node concept="3v$GAi" id="3xmueRu_9$T" role="3MKX6F">
+          <property role="3Fg1Gr" value="118" />
+          <property role="1hTQn4" value="1dc2c27c-dab8-4a89-a022-c7cb941c9ab7" />
+          <ref role="3v$GAj" node="3xmueRu_9$G" resolve="Artikel 8 (inwerkingtreding en vervaldatum)" />
+        </node>
+        <node concept="3v$GAi" id="3xmueRu_9$Z" role="3MKX6F">
+          <property role="3Fg1Gr" value="126" />
+          <property role="1hTQn4" value="a209c10f-3544-4ede-93cb-6ab917eb1d4b" />
+          <ref role="3v$GAj" node="3xmueRu_9$U" resolve="Artikel 9 (citeertitel)" />
+        </node>
+      </node>
+      <node concept="3MKX5h" id="3xmueRu_9_0" role="3MKX6F">
+        <property role="1hTQn4" value="b70b59b2-fe3e-4e8b-bc58-9392e2538d37" />
+        <property role="3Fg1Gr" value="129" />
+        <node concept="3MKX5h" id="3xmueRu_9_1" role="3MKX6F">
+          <property role="1hTQn4" value="2e9f12e6-fb44-4570-9721-63f198555f9c" />
+          <property role="3Fg1Gr" value="130" />
+          <node concept="3MKX5i" id="3xmueRu_9_2" role="3MKX6F">
+            <property role="1hTQn4" value="5a24260b-b27d-460e-90c5-d57ccd7db7cf" />
+            <property role="3Fg1Gr" value="131" />
+            <node concept="19SGf9" id="3xmueRu_9_3" role="3MLR7a">
+              <node concept="19SUe$" id="3xmueRu_9_4" role="19SJt6">
+                <property role="19SUeA" value="Deze beleidsregel zal met de toelichting in de Staatscourant worden geplaatst." />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="3xmueRu_9_6" role="3MKX6F">
+          <property role="1hTQn4" value="863ebc4c-f283-4c3c-bf10-ca3aec6bfc42" />
+          <property role="3Fg1Gr" value="132" />
+          <node concept="3MKX5i" id="3xmueRu_9_7" role="3MKX6F">
+            <property role="1hTQn4" value="9fb35883-2b67-4d66-a1d6-6e496078e811" />
+            <property role="3Fg1Gr" value="133" />
+            <node concept="19SGf9" id="3xmueRu_9_8" role="3MLR7a">
+              <node concept="19SUe$" id="3xmueRu_9_9" role="19SJt6">
+                <property role="19SUeA" value="'s-Gravenhage, 27 maart 2020" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="3xmueRu_9_b" role="3MKX6F">
+          <property role="1hTQn4" value="6a6cd880-e6f7-4d71-997f-e1b5c824a2ca" />
+          <property role="3Fg1Gr" value="134" />
+          <node concept="3MKX5i" id="3xmueRu_9_c" role="3MKX6F">
+            <property role="1hTQn4" value="1558b6cd-5ed2-4c5a-bf2b-c407accb9935" />
+            <property role="3Fg1Gr" value="135" />
+            <node concept="19SGf9" id="3xmueRu_9_d" role="3MLR7a">
+              <node concept="19SUe$" id="3xmueRu_9_e" role="19SJt6">
+                <property role="19SUeA" value="De Minister van Economische Zaken en Klimaat," />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5i" id="3xmueRu_9_g" role="3MKX6F">
+            <property role="1hTQn4" value="2dcba63c-d241-4291-a344-7e9500990f7d" />
+            <property role="3Fg1Gr" value="136" />
+            <node concept="19SGf9" id="3xmueRu_9_h" role="3MLR7a">
+              <node concept="19SUe$" id="3xmueRu_9_i" role="19SJt6">
+                <property role="19SUeA" value="E.D. Wiebes" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="3xmueRu_9_k" role="3MKX6F">
+          <property role="1hTQn4" value="0e792884-8360-4e9c-a248-4e41e2bc9a96" />
+          <property role="3Fg1Gr" value="137" />
+          <node concept="3MKX5i" id="3xmueRu_9_l" role="3MKX6F">
+            <property role="1hTQn4" value="1e36571d-49e3-473c-9139-d23fce779833" />
+            <property role="3Fg1Gr" value="138" />
+            <node concept="19SGf9" id="3xmueRu_9_m" role="3MLR7a">
+              <node concept="19SUe$" id="3xmueRu_9_n" role="19SJt6">
+                <property role="19SUeA" value="De Staatssecretaris van Economische Zaken en Klimaat," />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5i" id="3xmueRu_9_p" role="3MKX6F">
+            <property role="1hTQn4" value="d2edb805-5a09-49d7-a6e1-256cc1494c2c" />
+            <property role="3Fg1Gr" value="139" />
+            <node concept="19SGf9" id="3xmueRu_9_q" role="3MLR7a">
+              <node concept="19SUe$" id="3xmueRu_9_r" role="19SJt6">
+                <property role="19SUeA" value="M.C.G. Keijzer" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3v$GAi" id="3xmueRu_9I8" role="3MKX6F">
+        <property role="3Fg1Gr" value="140" />
+        <property role="1hTQn4" value="63a70d1c-1ed4-4450-a4c8-329dda9e9e02" />
+        <ref role="3v$GAj" node="3xmueRu_9_t" resolve="Bijlage 1 behorende bij artikel 1 van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19: activiteiten met de daarbij behorende code van de standaard bedrijfsindeling (SBI-code)" />
+      </node>
+    </node>
   </node>
   <node concept="2ANm86" id="1_VS0uKL2Ge">
     <property role="3GE5qa" value="versions" />
@@ -116,520 +316,6 @@
     <property role="3GE5qa" value="versions" />
     <property role="TrG5h" value="GDPR" />
     <ref role="2AErGN" node="1COdwD5_dQd" resolve="GDPR" />
-  </node>
-  <node concept="2AEkrd" id="5hJnzWBthZR">
-    <property role="TrG5h" value="Artikel 1 (begripsbepalingen)" />
-    <property role="1N0jUS" value="13" />
-    <property role="3GE5qa" value="articles" />
-    <ref role="2AErGO" node="1_VS0uKL2Gd" resolve="31-03-2020 t/m 14-04-2020" />
-    <node concept="3MKX5h" id="5hJnzWBthZS" role="3MKX6D">
-      <node concept="3MKX5i" id="5hJnzWBthZT" role="3MKX6F">
-        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/15" />
-        <node concept="19SGf9" id="5hJnzWBthZU" role="3MLR7a">
-          <node concept="19SUe$" id="5hJnzWBthZV" role="19SJt6">
-            <property role="19SUeA" value="In deze beleidsregel wordt verstaan onder:" />
-          </node>
-        </node>
-      </node>
-      <node concept="3MKX5h" id="5hJnzWBthZW" role="3MKX6F">
-        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/16" />
-        <node concept="3MKX5h" id="5hJnzWBthZX" role="3MKX6F">
-          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/17" />
-          <node concept="3MKX5i" id="5hJnzWBthZY" role="3MKX6F">
-            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/18" />
-            <node concept="19SGf9" id="5hJnzWBthZZ" role="3MLR7a">
-              <node concept="19SUe$" id="5hJnzWBti00" role="19SJt6">
-                <property role="19SUeA" value="algemene de-minimisverordening: verordening (EU) nr. 1407/2013 van de Commissie van 18 december 2013 betreffende de toepassing van de artikelen 107 en 108 van het Verdrag betreffende de werking van de Europese Unie op de-minimissteun (PbEU 2013, L 352);" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3MKX5h" id="5hJnzWBti01" role="3MKX6F">
-          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/19" />
-          <node concept="3MKX5i" id="5hJnzWBti02" role="3MKX6F">
-            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/20" />
-            <node concept="19SGf9" id="5hJnzWBti03" role="3MLR7a">
-              <node concept="19SUe$" id="5hJnzWBti04" role="19SJt6">
-                <property role="19SUeA" value="gedupeerde onderneming: in Nederland gevestigde onderneming als bedoeld in artikel 5 van de Handelsregisterwet 2007 , niet zijnde een overheidsbedrijf:" />
-              </node>
-            </node>
-          </node>
-          <node concept="3MKX5h" id="5hJnzWBti05" role="3MKX6F">
-            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/21" />
-            <node concept="3MKX5h" id="5hJnzWBti06" role="3MKX6F">
-              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/22" />
-              <node concept="3MKX6G" id="5hJnzWBti07" role="3MKX6F">
-                <property role="3MLT8O" value="a." />
-                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/23" />
-                <node concept="19SGf9" id="5hJnzWBti08" role="3MLT8Q">
-                  <node concept="19SUe$" id="5hJnzWBti09" role="19SJt6">
-                    <property role="19SUeA" value="die op 15 maart 2020 in het handelsregister stond ingeschreven onder een hoofdactiviteit die in bijlage 1 is opgenomen, met de daarbij behorende code van de Standaard Bedrijfsindeling;" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3MKX5h" id="5hJnzWBti0a" role="3MKX6F">
-              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/24" />
-              <node concept="3MKX6G" id="5hJnzWBti0b" role="3MKX6F">
-                <property role="3MLT8O" value="b." />
-                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/25" />
-                <node concept="19SGf9" id="5hJnzWBti0c" role="3MLT8Q">
-                  <node concept="19SUe$" id="5hJnzWBti0d" role="19SJt6">
-                    <property role="19SUeA" value="waar ten hoogste 250 personen werkzaam zijn, blijkend uit de inschrijving in het handelsregister op 15 maart 2020; en" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3MKX5h" id="5hJnzWBti0e" role="3MKX6F">
-              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/26" />
-              <node concept="3MKX6G" id="5hJnzWBti0f" role="3MKX6F">
-                <property role="3MLT8O" value="c." />
-                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/27" />
-                <node concept="19SGf9" id="5hJnzWBti0g" role="3MLT8Q">
-                  <node concept="19SUe$" id="5hJnzWBti0h" role="19SJt6">
-                    <property role="19SUeA" value="die:" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3MKX5h" id="5hJnzWBti0i" role="3MKX6F">
-                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/28" />
-                <node concept="3MKX5h" id="5hJnzWBti0j" role="3MKX6F">
-                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/29" />
-                  <node concept="3MKX6G" id="5hJnzWBti0k" role="3MKX6F">
-                    <property role="3MLT8O" value="1°." />
-                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/30" />
-                    <node concept="19SGf9" id="5hJnzWBti0l" role="3MLT8Q">
-                      <node concept="19SUe$" id="5hJnzWBti0m" role="19SJt6">
-                        <property role="19SUeA" value="voor zover het een onderneming, niet zijnde een horecaonderneming, betreft ten minste één vestiging heeft met een ander adres dan het privéadres van de eigenaar of eigenaren van de onderneming; of" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="3MKX5h" id="5hJnzWBti0n" role="3MKX6F">
-                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/31" />
-                  <node concept="3MKX6G" id="5hJnzWBti0o" role="3MKX6F">
-                    <property role="3MLT8O" value="2°." />
-                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/32" />
-                    <node concept="19SGf9" id="5hJnzWBti0p" role="3MLT8Q">
-                      <node concept="19SUe$" id="5hJnzWBti0q" role="19SJt6">
-                        <property role="19SUeA" value="voor zover het een horecaonderneming betreft ten minste één horecagelegenheid huurt, pacht of in eigendom heeft;" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3MKX5h" id="5hJnzWBti0r" role="3MKX6F">
-          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/33" />
-          <node concept="3MKX5i" id="5hJnzWBti0s" role="3MKX6F">
-            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/34" />
-            <node concept="19SGf9" id="5hJnzWBti0t" role="3MLR7a">
-              <node concept="19SUe$" id="5hJnzWBti0u" role="19SJt6">
-                <property role="19SUeA" value="handelsregister: handelsregister als bedoeld in artikel 2 van de Handelsregisterwet 2007 ;" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3MKX5h" id="5hJnzWBti0v" role="3MKX6F">
-          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/35" />
-          <node concept="3MKX5i" id="5hJnzWBti0w" role="3MKX6F">
-            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/36" />
-            <node concept="19SGf9" id="5hJnzWBti0x" role="3MLR7a">
-              <node concept="19SUe$" id="5hJnzWBti0y" role="19SJt6">
-                <property role="19SUeA" value="horecaonderneming: onderneming die op 15 maart 2020 stond ingeschreven in het handelsregister onder de code 56.10.1, 56.10.2 of 56.30 van de Standaard Bedrijfsindeling;" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3MKX5h" id="5hJnzWBti0z" role="3MKX6F">
-          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/37" />
-          <node concept="3MKX5i" id="5hJnzWBti0$" role="3MKX6F">
-            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/38" />
-            <node concept="19SGf9" id="5hJnzWBti0_" role="3MLR7a">
-              <node concept="19SUe$" id="5hJnzWBti0A" role="19SJt6">
-                <property role="19SUeA" value="minister: Minister van Economische Zaken en Klimaat;" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3MKX5h" id="5hJnzWBti0B" role="3MKX6F">
-          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/39" />
-          <node concept="3MKX5i" id="5hJnzWBti0C" role="3MKX6F">
-            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/40" />
-            <node concept="19SGf9" id="5hJnzWBti0D" role="3MLR7a">
-              <node concept="19SUe$" id="5hJnzWBti0E" role="19SJt6">
-                <property role="19SUeA" value="overheidsbedrijf: overheidsbedrijf als bedoeld in artikel 25g, eerste lid, van de Mededingingswet ;" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3MKX5h" id="5hJnzWBti0F" role="3MKX6F">
-          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/41" />
-          <node concept="3MKX5i" id="5hJnzWBti0G" role="3MKX6F">
-            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/42" />
-            <node concept="19SGf9" id="5hJnzWBti0H" role="3MLR7a">
-              <node concept="19SUe$" id="5hJnzWBti0I" role="19SJt6">
-                <property role="19SUeA" value="verklaring de-minimissteun: verklaring van de gedupeerde onderneming waarin deze bevestigt dat de tegemoetkoming niet zal leiden tot een overschrijding van het de-minimisplafond, bedoeld in artikel 3, tweede lid, van de algemene de-minimisverordening;" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3MKX5h" id="5hJnzWBti0J" role="3MKX6F">
-          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/43" />
-          <node concept="3MKX5i" id="5hJnzWBti0K" role="3MKX6F">
-            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/44" />
-            <node concept="19SGf9" id="5hJnzWBti0L" role="3MLR7a">
-              <node concept="19SUe$" id="5hJnzWBti0M" role="19SJt6">
-                <property role="19SUeA" value="vestiging: vestiging als bedoeld in artikel 1, eerste lid, onderdeel j, van de Handelsregisterwet 2007 ." />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2AEkrd" id="5hJnzWBti0N">
-    <property role="TrG5h" value="Artikel 2 (verstrekking en hoogte tegemoetkoming)" />
-    <property role="1N0jUS" value="45" />
-    <property role="3GE5qa" value="articles" />
-    <ref role="2AErGO" node="1_VS0uKL2Gd" resolve="31-03-2020 t/m 14-04-2020" />
-    <node concept="3MKX5h" id="5hJnzWBti0O" role="3MKX6D">
-      <node concept="3MKX5h" id="5hJnzWBti0P" role="3MKX6F">
-        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/47" />
-        <node concept="3MKX6G" id="5hJnzWBti0Q" role="3MKX6F">
-          <property role="3MLT8O" value="1" />
-          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/48" />
-          <node concept="19SGf9" id="5hJnzWBti0R" role="3MLT8Q">
-            <node concept="19SUe$" id="5hJnzWBti0S" role="19SJt6">
-              <property role="19SUeA" value="De minister verstrekt op aanvraag een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020:" />
-            </node>
-          </node>
-        </node>
-        <node concept="3MKX5h" id="5hJnzWBti0T" role="3MKX6F">
-          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/49" />
-          <node concept="3MKX5h" id="5hJnzWBti0U" role="3MKX6F">
-            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/50" />
-            <node concept="3MKX6G" id="5hJnzWBti0V" role="3MKX6F">
-              <property role="3MLT8O" value="a." />
-              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/51" />
-              <node concept="19SGf9" id="5hJnzWBti0W" role="3MLT8Q">
-                <node concept="19SUe$" id="5hJnzWBti0X" role="19SJt6">
-                  <property role="19SUeA" value="ten minste € 4000,– aan omzetverlies te lijden als gevolg van de maatregelen ter bestrijding van de verdere verspreiding van COVID-19;" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3MKX5h" id="5hJnzWBti0Y" role="3MKX6F">
-            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/52" />
-            <node concept="3MKX6G" id="5hJnzWBti0Z" role="3MKX6F">
-              <property role="3MLT8O" value="b." />
-              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/53" />
-              <node concept="19SGf9" id="5hJnzWBti10" role="3MLT8Q">
-                <node concept="19SUe$" id="5hJnzWBti11" role="19SJt6">
-                  <property role="19SUeA" value="ten minste € 4000,– aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19." />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3MKX5h" id="5hJnzWBti12" role="3MKX6F">
-        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/54" />
-        <node concept="3MKX6G" id="5hJnzWBti13" role="3MKX6F">
-          <property role="3MLT8O" value="2" />
-          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/55" />
-          <node concept="19SGf9" id="5hJnzWBti14" role="3MLT8Q">
-            <node concept="19SUe$" id="5hJnzWBti15" role="19SJt6">
-              <property role="19SUeA" value="De tegemoetkoming bedraagt € 4000 per gedupeerde onderneming." />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2AEkrd" id="5hJnzWBti16">
-    <property role="TrG5h" value="Artikel 3 (afwijzingsgronden)" />
-    <property role="1N0jUS" value="56" />
-    <property role="3GE5qa" value="articles" />
-    <ref role="2AErGO" node="1_VS0uKL2Gd" resolve="31-03-2020 t/m 14-04-2020" />
-    <node concept="3MKX5h" id="5hJnzWBti17" role="3MKX6D">
-      <node concept="3MKX5i" id="5hJnzWBti18" role="3MKX6F">
-        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/58" />
-        <node concept="19SGf9" id="5hJnzWBti19" role="3MLR7a">
-          <node concept="19SUe$" id="5hJnzWBti1a" role="19SJt6">
-            <property role="19SUeA" value="De minister beslist afwijzend op een aanvraag indien:" />
-          </node>
-        </node>
-      </node>
-      <node concept="3MKX5h" id="5hJnzWBti1b" role="3MKX6F">
-        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/59" />
-        <node concept="3MKX5h" id="5hJnzWBti1c" role="3MKX6F">
-          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/60" />
-          <node concept="3MKX6G" id="5hJnzWBti1d" role="3MKX6F">
-            <property role="3MLT8O" value="a." />
-            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/61" />
-            <node concept="19SGf9" id="5hJnzWBti1e" role="3MLT8Q">
-              <node concept="19SUe$" id="5hJnzWBti1f" role="19SJt6">
-                <property role="19SUeA" value="de aanvraag niet voldoet aan de bij deze beleidsregel gestelde eisen;" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3MKX5h" id="5hJnzWBti1g" role="3MKX6F">
-          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/62" />
-          <node concept="3MKX6G" id="5hJnzWBti1h" role="3MKX6F">
-            <property role="3MLT8O" value="b." />
-            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/63" />
-            <node concept="19SGf9" id="5hJnzWBti1i" role="3MLT8Q">
-              <node concept="19SUe$" id="5hJnzWBti1j" role="19SJt6">
-                <property role="19SUeA" value="de gedupeerde onderneming in staat van faillissement verkeert dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming is ingediend;" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3MKX5h" id="5hJnzWBti1k" role="3MKX6F">
-          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/64" />
-          <node concept="3MKX6G" id="5hJnzWBti1l" role="3MKX6F">
-            <property role="3MLT8O" value="c." />
-            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/65" />
-            <node concept="19SGf9" id="5hJnzWBti1m" role="3MLT8Q">
-              <node concept="19SUe$" id="5hJnzWBti1n" role="19SJt6">
-                <property role="19SUeA" value="de tegemoetkoming niet verstrekt kan worden op grond van de algemene de-minimisverordening." />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2AEkrd" id="5hJnzWBti1o">
-    <property role="TrG5h" value="Artikel 4 (informatieverplichtingen bij aanvraag en aanvraagperiode)" />
-    <property role="1N0jUS" value="66" />
-    <property role="3GE5qa" value="articles" />
-    <ref role="2AErGO" node="1_VS0uKL2Gd" resolve="31-03-2020 t/m 14-04-2020" />
-    <node concept="3MKX5h" id="5hJnzWBti1p" role="3MKX6D">
-      <node concept="3MKX5h" id="5hJnzWBti1q" role="3MKX6F">
-        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/68" />
-        <node concept="3MKX6G" id="5hJnzWBti1r" role="3MKX6F">
-          <property role="3MLT8O" value="1" />
-          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/69" />
-          <node concept="19SGf9" id="5hJnzWBti1s" role="3MLT8Q">
-            <node concept="19SUe$" id="5hJnzWBti1t" role="19SJt6">
-              <property role="19SUeA" value="Een aanvraag wordt ingediend met gebruikmaking van een door de minister beschikbaar gesteld middel." />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3MKX5h" id="5hJnzWBti1u" role="3MKX6F">
-        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/70" />
-        <node concept="3MKX6G" id="5hJnzWBti1v" role="3MKX6F">
-          <property role="3MLT8O" value="2" />
-          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/71" />
-          <node concept="19SGf9" id="5hJnzWBti1w" role="3MLT8Q">
-            <node concept="19SUe$" id="5hJnzWBti1x" role="19SJt6">
-              <property role="19SUeA" value="Een aanvraag omvat in ieder geval:" />
-            </node>
-          </node>
-        </node>
-        <node concept="3MKX5h" id="5hJnzWBti1y" role="3MKX6F">
-          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/72" />
-          <node concept="3MKX5h" id="5hJnzWBti1z" role="3MKX6F">
-            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/73" />
-            <node concept="3MKX6G" id="5hJnzWBti1$" role="3MKX6F">
-              <property role="3MLT8O" value="a." />
-              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/74" />
-              <node concept="19SGf9" id="5hJnzWBti1_" role="3MLT8Q">
-                <node concept="19SUe$" id="5hJnzWBti1A" role="19SJt6">
-                  <property role="19SUeA" value="gegevens over de gedupeerde onderneming, waaronder het nummer waarmee de gedupeerde onderneming geregistreerd is bij de Kamer van Koophandel, het post- en bezoekadres en het rekeningnummer dat op naam van de gedupeerde onderneming staat;" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3MKX5h" id="5hJnzWBti1B" role="3MKX6F">
-            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/75" />
-            <node concept="3MKX6G" id="5hJnzWBti1C" role="3MKX6F">
-              <property role="3MLT8O" value="b." />
-              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/76" />
-              <node concept="19SGf9" id="5hJnzWBti1D" role="3MLT8Q">
-                <node concept="19SUe$" id="5hJnzWBti1E" role="19SJt6">
-                  <property role="19SUeA" value="gegevens over de contactpersoon bij de gedupeerde onderneming, waaronder de naam, het telefoonnummer en het e-mailadres;" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3MKX5h" id="5hJnzWBti1F" role="3MKX6F">
-            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/77" />
-            <node concept="3MKX6G" id="5hJnzWBti1G" role="3MKX6F">
-              <property role="3MLT8O" value="c." />
-              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/78" />
-              <node concept="19SGf9" id="5hJnzWBti1H" role="3MLT8Q">
-                <node concept="19SUe$" id="5hJnzWBti1I" role="19SJt6">
-                  <property role="19SUeA" value="een verklaring dat de gedupeerde onderneming geen overheidsbedrijf is;" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3MKX5h" id="5hJnzWBti1J" role="3MKX6F">
-            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/79" />
-            <node concept="3MKX6G" id="5hJnzWBti1K" role="3MKX6F">
-              <property role="3MLT8O" value="d." />
-              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/80" />
-              <node concept="19SGf9" id="5hJnzWBti1L" role="3MLT8Q">
-                <node concept="19SUe$" id="5hJnzWBti1M" role="19SJt6">
-                  <property role="19SUeA" value="een verklaring de-minimissteun;" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3MKX5h" id="5hJnzWBti1N" role="3MKX6F">
-            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/81" />
-            <node concept="3MKX6G" id="5hJnzWBti1O" role="3MKX6F">
-              <property role="3MLT8O" value="e." />
-              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/82" />
-              <node concept="19SGf9" id="5hJnzWBti1P" role="3MLT8Q">
-                <node concept="19SUe$" id="5hJnzWBti1Q" role="19SJt6">
-                  <property role="19SUeA" value="een verklaring dat de gedupeerde onderneming op het moment van aanvraag voldoet aan de bij deze beleidsregel gestelde eisen;" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3MKX5h" id="5hJnzWBti1R" role="3MKX6F">
-            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/83" />
-            <node concept="3MKX6G" id="5hJnzWBti1S" role="3MKX6F">
-              <property role="3MLT8O" value="f." />
-              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/84" />
-              <node concept="19SGf9" id="5hJnzWBti1T" role="3MLT8Q">
-                <node concept="19SUe$" id="5hJnzWBti1U" role="19SJt6">
-                  <property role="19SUeA" value="een verklaring waarin de gedupeerde onderneming aangeeft dat de onderneming in de periode van 16 maart 2020 tot en met 15 juni 2020 een omzetverlies verwacht te lijden van ten minste € 4000,–; en" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3MKX5h" id="5hJnzWBti1V" role="3MKX6F">
-            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/85" />
-            <node concept="3MKX6G" id="5hJnzWBti1W" role="3MKX6F">
-              <property role="3MLT8O" value="g." />
-              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/86" />
-              <node concept="19SGf9" id="5hJnzWBti1X" role="3MLT8Q">
-                <node concept="19SUe$" id="5hJnzWBti1Y" role="19SJt6">
-                  <property role="19SUeA" value="een verklaring waarin de gedupeerde onderneming aangeeft dat de onderneming in de periode van 16 maart 2020 tot en met 15 juni 2020 verwacht ten minste € 4000,– aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19." />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3MKX5h" id="5hJnzWBti1Z" role="3MKX6F">
-        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/87" />
-        <node concept="3MKX6G" id="5hJnzWBti20" role="3MKX6F">
-          <property role="3MLT8O" value="3" />
-          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/88" />
-          <node concept="19SGf9" id="5hJnzWBti21" role="3MLT8Q">
-            <node concept="19SUe$" id="5hJnzWBti22" role="19SJt6">
-              <property role="19SUeA" value="Een aanvraag kan worden ingediend in de periode van 27 maart 2020 tot en met 26 juni 2020." />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2AEkrd" id="5hJnzWBti23">
-    <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
-    <property role="1N0jUS" value="89" />
-    <property role="3GE5qa" value="articles" />
-    <ref role="2AErGO" node="1_VS0uKL2Gd" resolve="31-03-2020 t/m 14-04-2020" />
-    <node concept="3MKX5h" id="5hJnzWBti24" role="3MKX6D">
-      <node concept="3MKX5i" id="5hJnzWBti25" role="3MKX6F">
-        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/91" />
-        <node concept="19SGf9" id="5hJnzWBti26" role="3MLR7a">
-          <node concept="19SUe$" id="5hJnzWBti27" role="19SJt6">
-            <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2AEkrd" id="5hJnzWBti28">
-    <property role="TrG5h" value="Artikel 6 (aanpassing tegemoetkoming achteraf)" />
-    <property role="1N0jUS" value="92" />
-    <property role="3GE5qa" value="articles" />
-    <ref role="2AErGO" node="1_VS0uKL2Gd" resolve="31-03-2020 t/m 14-04-2020" />
-    <node concept="3MKX5h" id="5hJnzWBti29" role="3MKX6D">
-      <node concept="3MKX5i" id="5hJnzWBti2a" role="3MKX6F">
-        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/94" />
-        <node concept="19SGf9" id="5hJnzWBti2b" role="3MLR7a">
-          <node concept="19SUe$" id="5hJnzWBti2c" role="19SJt6">
-            <property role="19SUeA" value="De minister kan de hoogte van de tegemoetkoming binnen vijf jaar na de verstrekking herzien dan wel de beschikking tot de tegemoetkoming intrekken, indien blijkt dat de tegemoetkoming, door onjuiste gegevensverstrekking door de gedupeerde onderneming, niet in overeenstemming met deze beleidsregel is verstrekt." />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2AEkrd" id="5hJnzWBti2d">
-    <property role="TrG5h" value="Artikel 7 (staatssteun)" />
-    <property role="1N0jUS" value="95" />
-    <property role="3GE5qa" value="articles" />
-    <ref role="2AErGO" node="1_VS0uKL2Gd" resolve="31-03-2020 t/m 14-04-2020" />
-    <node concept="3MKX5h" id="5hJnzWBti2e" role="3MKX6D">
-      <node concept="3MKX5i" id="5hJnzWBti2f" role="3MKX6F">
-        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/97" />
-        <node concept="19SGf9" id="5hJnzWBti2g" role="3MLR7a">
-          <node concept="19SUe$" id="5hJnzWBti2h" role="19SJt6">
-            <property role="19SUeA" value="De tegemoetkoming, bedoeld in artikel 2 , bevat staatssteun en wordt gerechtvaardigd door de algemene de-minimisverordening." />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2AEkrd" id="5hJnzWBti2i">
-    <property role="TrG5h" value="Artikel 8 (inwerkingtreding en vervaldatum)" />
-    <property role="1N0jUS" value="98" />
-    <property role="3GE5qa" value="articles" />
-    <ref role="2AErGO" node="1_VS0uKL2Gd" resolve="31-03-2020 t/m 14-04-2020" />
-    <node concept="3MKX5h" id="5hJnzWBti2j" role="3MKX6D">
-      <node concept="3MKX5h" id="5hJnzWBti2k" role="3MKX6F">
-        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/100" />
-        <node concept="3MKX6G" id="5hJnzWBti2l" role="3MKX6F">
-          <property role="3MLT8O" value="1" />
-          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/101" />
-          <node concept="19SGf9" id="5hJnzWBti2m" role="3MLT8Q">
-            <node concept="19SUe$" id="5hJnzWBti2n" role="19SJt6">
-              <property role="19SUeA" value="Deze beleidsregel treedt in werking met ingang van de dag na de datum van uitgifte van de Staatscourant waarin zij wordt geplaatst, en werkt terug tot en met 27 maart 2020." />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3MKX5h" id="5hJnzWBti2o" role="3MKX6F">
-        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/102" />
-        <node concept="3MKX6G" id="5hJnzWBti2p" role="3MKX6F">
-          <property role="3MLT8O" value="2" />
-          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/103" />
-          <node concept="19SGf9" id="5hJnzWBti2q" role="3MLT8Q">
-            <node concept="19SUe$" id="5hJnzWBti2r" role="19SJt6">
-              <property role="19SUeA" value="Deze beleidsregel vervalt met ingang van 1 januari 2021, met dien verstande dat de beleidsregel van toepassing blijft op aanvragen om tegemoetkoming die uiterlijk 26 juni 2020 zijn ingediend, dan wel op tegemoetkomingen die voor 1 januari 2021 zijn verstrekt." />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2AEkrd" id="5hJnzWBti2s">
-    <property role="TrG5h" value="Artikel 9 (citeertitel)" />
-    <property role="1N0jUS" value="104" />
-    <property role="3GE5qa" value="articles" />
-    <ref role="2AErGO" node="1_VS0uKL2Gd" resolve="31-03-2020 t/m 14-04-2020" />
-    <node concept="3MKX5h" id="5hJnzWBti2t" role="3MKX6D">
-      <node concept="3MKX5i" id="5hJnzWBti2u" role="3MKX6F">
-        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/106" />
-        <node concept="19SGf9" id="5hJnzWBti2v" role="3MLR7a">
-          <node concept="19SUe$" id="5hJnzWBti2w" role="19SJt6">
-            <property role="19SUeA" value="Deze beleidsregel wordt aangehaald als: Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19." />
-          </node>
-        </node>
-      </node>
-    </node>
   </node>
   <node concept="2AEkrd" id="cEUIln$UhU">
     <property role="TrG5h" value="Artikel 1 (begripsbepalingen)" />
@@ -39583,6 +39269,15366 @@
           <node concept="19SUe$" id="14WD1promtd" role="19SJt6">
             <property role="19SUeA" value="This Regulation shall be binding in its entirety and directly applicable in all Member States." />
           </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="3xmueRu_9xo">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="5eb4f42a-7dfb-47f4-a89e-bb366a6b40ad" />
+    <property role="3Fg1Gr" value="11" />
+    <property role="TrG5h" value="Artikel 1 (begripsbepalingen)" />
+    <ref role="dW5wK" node="1_VS0uKL2Gd" resolve="31-03-2020 t/m 14-04-2020" />
+    <node concept="3MKX5i" id="3xmueRu_9xp" role="3MKX6F">
+      <property role="1hTQn4" value="b6effcea-542d-4d14-a699-bfef36ea5812" />
+      <property role="3Fg1Gr" value="13" />
+      <node concept="19SGf9" id="3xmueRu_9xq" role="3MLR7a">
+        <node concept="19SUe$" id="3xmueRu_9xr" role="19SJt6">
+          <property role="19SUeA" value="In deze beleidsregel wordt verstaan onder:" />
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="3xmueRu_9xt" role="3MKX6F">
+      <property role="1hTQn4" value="ce5dee53-8ee2-44d2-b19d-d9cd3c89b7bb" />
+      <property role="3Fg1Gr" value="14" />
+      <node concept="3MKX5h" id="3xmueRu_9xu" role="3MKX6F">
+        <property role="1hTQn4" value="ff3746d1-6c6d-4daf-8a1a-1269db1582d9" />
+        <property role="3Fg1Gr" value="15" />
+        <node concept="3MKX5i" id="3xmueRu_9xv" role="3MKX6F">
+          <property role="1hTQn4" value="96f0f6db-ba71-4835-a720-91ad8f8d2654" />
+          <property role="3Fg1Gr" value="16" />
+          <node concept="19SGf9" id="3xmueRu_9xw" role="3MLR7a">
+            <node concept="19SUe$" id="3xmueRu_9xx" role="19SJt6">
+              <property role="19SUeA" value="algemene de-minimisverordening: verordening (EU) nr. 1407/2013 van de Commissie van 18 december 2013 betreffende de toepassing van de artikelen 107 en 108 van het Verdrag betreffende de werking van de Europese Unie op de-minimissteun (PbEU 2013, L 352);" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="3xmueRu_9xz" role="3MKX6F">
+        <property role="1hTQn4" value="6b5f24c4-f7ba-44c8-af8f-70227d1f6769" />
+        <property role="3Fg1Gr" value="17" />
+        <node concept="3MKX5i" id="3xmueRu_9x$" role="3MKX6F">
+          <property role="1hTQn4" value="d55bbe44-d04b-4e40-8a7a-b5e3cece739e" />
+          <property role="3Fg1Gr" value="18" />
+          <node concept="19SGf9" id="3xmueRu_9x_" role="3MLR7a">
+            <node concept="19SUe$" id="3xmueRu_9xA" role="19SJt6">
+              <property role="19SUeA" value="gedupeerde onderneming: in Nederland gevestigde onderneming als bedoeld in artikel 5 van de Handelsregisterwet 2007, niet zijnde een overheidsbedrijf:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="3xmueRu_9xC" role="3MKX6F">
+          <property role="1hTQn4" value="cf1f1ea4-335e-41ae-a73a-ef1fbac0b38a" />
+          <property role="3Fg1Gr" value="19" />
+          <node concept="3MKX5h" id="3xmueRu_9xD" role="3MKX6F">
+            <property role="1hTQn4" value="29080c0e-8467-4da3-acb7-323fa4f3bf93" />
+            <property role="3Fg1Gr" value="20" />
+            <node concept="3Fnoml" id="3xmueRu_9xE" role="3MKX6F">
+              <property role="1hTQn4" value="20a70a91-5cba-4144-a602-81b78e4271ae" />
+              <property role="3Fg1Gr" value="21" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="3xmueRu_9xF" role="3MKX6F">
+                <property role="1hTQn4" value="71bdc293-b82b-4bd1-8681-c946278b721f" />
+                <property role="3Fg1Gr" value="22" />
+                <node concept="19SGf9" id="3xmueRu_9xG" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9xH" role="19SJt6">
+                    <property role="19SUeA" value="die op 15 maart 2020 in het handelsregister stond ingeschreven onder een hoofdactiviteit die in bijlage 1 is opgenomen, met de daarbij behorende code van de Standaard Bedrijfsindeling;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9xJ" role="3MKX6F">
+            <property role="1hTQn4" value="395ea8ed-8c89-4cc6-b3f1-f6a01f46df65" />
+            <property role="3Fg1Gr" value="23" />
+            <node concept="3Fnoml" id="3xmueRu_9xK" role="3MKX6F">
+              <property role="1hTQn4" value="bfb548dd-c612-488b-8b13-4812473619df" />
+              <property role="3Fg1Gr" value="24" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="3xmueRu_9xL" role="3MKX6F">
+                <property role="1hTQn4" value="388c61ef-f736-49ba-8bd5-c658088ed25a" />
+                <property role="3Fg1Gr" value="25" />
+                <node concept="19SGf9" id="3xmueRu_9xM" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9xN" role="19SJt6">
+                    <property role="19SUeA" value="waar ten hoogste 250 personen werkzaam zijn, blijkend uit de inschrijving in het handelsregister op 15 maart 2020; en" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9xP" role="3MKX6F">
+            <property role="1hTQn4" value="78e49f77-b235-4f98-9a14-251220e50e54" />
+            <property role="3Fg1Gr" value="26" />
+            <node concept="3Fnoml" id="3xmueRu_9xQ" role="3MKX6F">
+              <property role="1hTQn4" value="77e4db12-d341-4ce3-9dc1-55a81c464f73" />
+              <property role="3Fg1Gr" value="27" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="3xmueRu_9xR" role="3MKX6F">
+                <property role="1hTQn4" value="979efde1-81f1-4b96-9df9-98aaf24298ee" />
+                <property role="3Fg1Gr" value="28" />
+                <node concept="19SGf9" id="3xmueRu_9xS" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9xT" role="19SJt6">
+                    <property role="19SUeA" value="die:" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3MKX5h" id="3xmueRu_9xV" role="3MKX6F">
+                <property role="1hTQn4" value="1f990bed-9731-4d49-b9e6-b4d05c9d13c5" />
+                <property role="3Fg1Gr" value="29" />
+                <node concept="3MKX5h" id="3xmueRu_9xW" role="3MKX6F">
+                  <property role="1hTQn4" value="98b28ea4-c6db-42a9-9b3b-a3b7f0b8926f" />
+                  <property role="3Fg1Gr" value="30" />
+                  <node concept="3Fnoml" id="3xmueRu_9xX" role="3MKX6F">
+                    <property role="1hTQn4" value="cf11e1f3-3957-485f-88be-1e522e210468" />
+                    <property role="3Fg1Gr" value="31" />
+                    <property role="3Fnomm" value="1°." />
+                    <node concept="3MKX5i" id="3xmueRu_9xY" role="3MKX6F">
+                      <property role="1hTQn4" value="e4b399b9-5b28-42c7-a2ad-3035258faddf" />
+                      <property role="3Fg1Gr" value="32" />
+                      <node concept="19SGf9" id="3xmueRu_9xZ" role="3MLR7a">
+                        <node concept="19SUe$" id="3xmueRu_9y0" role="19SJt6">
+                          <property role="19SUeA" value="voor zover het een onderneming, niet zijnde een horecaonderneming, betreft ten minste één vestiging heeft met een ander adres dan het privéadres van de eigenaar of eigenaren van de onderneming; of" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3MKX5h" id="3xmueRu_9y2" role="3MKX6F">
+                  <property role="1hTQn4" value="29c83bef-e9d6-4855-b76a-61edbb937cd7" />
+                  <property role="3Fg1Gr" value="33" />
+                  <node concept="3Fnoml" id="3xmueRu_9y3" role="3MKX6F">
+                    <property role="1hTQn4" value="6124d2f2-377f-4c10-a261-b3d610f5bac0" />
+                    <property role="3Fg1Gr" value="34" />
+                    <property role="3Fnomm" value="2°." />
+                    <node concept="3MKX5i" id="3xmueRu_9y4" role="3MKX6F">
+                      <property role="1hTQn4" value="e43ab206-deb4-41be-b482-75fb31d530f5" />
+                      <property role="3Fg1Gr" value="35" />
+                      <node concept="19SGf9" id="3xmueRu_9y5" role="3MLR7a">
+                        <node concept="19SUe$" id="3xmueRu_9y6" role="19SJt6">
+                          <property role="19SUeA" value="voor zover het een horecaonderneming betreft ten minste één horecagelegenheid huurt, pacht of in eigendom heeft;" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="3xmueRu_9y8" role="3MKX6F">
+        <property role="1hTQn4" value="dd43b59a-37ef-44ed-9be8-0207171904cd" />
+        <property role="3Fg1Gr" value="36" />
+        <node concept="3MKX5i" id="3xmueRu_9y9" role="3MKX6F">
+          <property role="1hTQn4" value="c4b96b0b-09a6-44b5-9831-ac335536b1ae" />
+          <property role="3Fg1Gr" value="37" />
+          <node concept="19SGf9" id="3xmueRu_9ya" role="3MLR7a">
+            <node concept="19SUe$" id="3xmueRu_9yb" role="19SJt6">
+              <property role="19SUeA" value="handelsregister: handelsregister als bedoeld in artikel 2 van de Handelsregisterwet 2007;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="3xmueRu_9yd" role="3MKX6F">
+        <property role="1hTQn4" value="c6eb609b-f478-433e-bb24-5a806ffafa33" />
+        <property role="3Fg1Gr" value="38" />
+        <node concept="3MKX5i" id="3xmueRu_9ye" role="3MKX6F">
+          <property role="1hTQn4" value="ba7dc0b7-4d05-45a1-88e3-3b420fba759e" />
+          <property role="3Fg1Gr" value="39" />
+          <node concept="19SGf9" id="3xmueRu_9yf" role="3MLR7a">
+            <node concept="19SUe$" id="3xmueRu_9yg" role="19SJt6">
+              <property role="19SUeA" value="horecaonderneming: onderneming die op 15 maart 2020 stond ingeschreven in het handelsregister onder de code 56.10.1, 56.10.2 of 56.30 van de Standaard Bedrijfsindeling;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="3xmueRu_9yi" role="3MKX6F">
+        <property role="1hTQn4" value="8fcd2f84-869a-4bc2-a87a-c4bd31de3497" />
+        <property role="3Fg1Gr" value="40" />
+        <node concept="3MKX5i" id="3xmueRu_9yj" role="3MKX6F">
+          <property role="1hTQn4" value="2494b280-d57d-4fd6-b093-20ac58a43f5b" />
+          <property role="3Fg1Gr" value="41" />
+          <node concept="19SGf9" id="3xmueRu_9yk" role="3MLR7a">
+            <node concept="19SUe$" id="3xmueRu_9yl" role="19SJt6">
+              <property role="19SUeA" value="minister: Minister van Economische Zaken en Klimaat;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="3xmueRu_9yn" role="3MKX6F">
+        <property role="1hTQn4" value="5a3c8239-e6c1-4166-8029-c474376cb603" />
+        <property role="3Fg1Gr" value="42" />
+        <node concept="3MKX5i" id="3xmueRu_9yo" role="3MKX6F">
+          <property role="1hTQn4" value="abeabf93-66a5-4a96-877b-bbde66c11a6f" />
+          <property role="3Fg1Gr" value="43" />
+          <node concept="19SGf9" id="3xmueRu_9yp" role="3MLR7a">
+            <node concept="19SUe$" id="3xmueRu_9yq" role="19SJt6">
+              <property role="19SUeA" value="overheidsbedrijf: overheidsbedrijf als bedoeld in artikel 25g, eerste lid, van de Mededingingswet;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="3xmueRu_9ys" role="3MKX6F">
+        <property role="1hTQn4" value="d44a444f-9a97-4fea-b75d-a513e72835fd" />
+        <property role="3Fg1Gr" value="44" />
+        <node concept="3MKX5i" id="3xmueRu_9yt" role="3MKX6F">
+          <property role="1hTQn4" value="9f5c8123-66a5-4ab4-99e3-a9b9bf34fbaf" />
+          <property role="3Fg1Gr" value="45" />
+          <node concept="19SGf9" id="3xmueRu_9yu" role="3MLR7a">
+            <node concept="19SUe$" id="3xmueRu_9yv" role="19SJt6">
+              <property role="19SUeA" value="verklaring de-minimissteun: verklaring van de gedupeerde onderneming waarin deze bevestigt dat de tegemoetkoming niet zal leiden tot een overschrijding van het de-minimisplafond, bedoeld in artikel 3, tweede lid, van de algemene de-minimisverordening;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="3xmueRu_9yx" role="3MKX6F">
+        <property role="1hTQn4" value="1d8abe39-363e-41fa-b535-65d34d10201e" />
+        <property role="3Fg1Gr" value="46" />
+        <node concept="3MKX5i" id="3xmueRu_9yy" role="3MKX6F">
+          <property role="1hTQn4" value="d152fab4-639f-4057-acb4-adee405ea6ef" />
+          <property role="3Fg1Gr" value="47" />
+          <node concept="19SGf9" id="3xmueRu_9yz" role="3MLR7a">
+            <node concept="19SUe$" id="3xmueRu_9y$" role="19SJt6">
+              <property role="19SUeA" value="vestiging: vestiging als bedoeld in artikel 1, eerste lid, onderdeel j, van de Handelsregisterwet 2007." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="3xmueRu_9yB">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="b54dd02b-07ed-4150-9017-84c2b1322694" />
+    <property role="3Fg1Gr" value="48" />
+    <property role="TrG5h" value="Artikel 2 (verstrekking en hoogte tegemoetkoming)" />
+    <ref role="dW5wK" node="1_VS0uKL2Gd" resolve="31-03-2020 t/m 14-04-2020" />
+    <node concept="3MKX5h" id="3xmueRu_9yC" role="3MKX6F">
+      <property role="1hTQn4" value="d0327872-649b-493f-86c8-0c22dc602dc2" />
+      <property role="3Fg1Gr" value="50" />
+      <node concept="3Fnoml" id="3xmueRu_9yD" role="3MKX6F">
+        <property role="1hTQn4" value="177b9030-2132-4b51-8bb8-a81661190b82" />
+        <property role="3Fg1Gr" value="51" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="3xmueRu_9yE" role="3MKX6F">
+          <property role="1hTQn4" value="70622777-e7e6-4296-bb9a-ed59101a71fb" />
+          <property role="3Fg1Gr" value="52" />
+          <node concept="19SGf9" id="3xmueRu_9yF" role="3MLR7a">
+            <node concept="19SUe$" id="3xmueRu_9yG" role="19SJt6">
+              <property role="19SUeA" value="De minister verstrekt op aanvraag een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="3xmueRu_9yI" role="3MKX6F">
+          <property role="1hTQn4" value="eb6db977-77c2-4827-bb9c-22d490e06a7e" />
+          <property role="3Fg1Gr" value="53" />
+          <node concept="3MKX5h" id="3xmueRu_9yJ" role="3MKX6F">
+            <property role="1hTQn4" value="911fdfba-eb22-4b1c-b50e-872b7f768a73" />
+            <property role="3Fg1Gr" value="54" />
+            <node concept="3Fnoml" id="3xmueRu_9yK" role="3MKX6F">
+              <property role="1hTQn4" value="0cf76e55-e805-4632-9553-4d7ebe32b441" />
+              <property role="3Fg1Gr" value="55" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="3xmueRu_9yL" role="3MKX6F">
+                <property role="1hTQn4" value="4fcfb50b-d7f6-43e2-a3f3-09fa2ede4db7" />
+                <property role="3Fg1Gr" value="56" />
+                <node concept="19SGf9" id="3xmueRu_9yM" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9yN" role="19SJt6">
+                    <property role="19SUeA" value="ten minste € 4000,– aan omzetverlies te lijden als gevolg van de maatregelen ter bestrijding van de verdere verspreiding van COVID-19;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9yP" role="3MKX6F">
+            <property role="1hTQn4" value="59424e06-97cb-4d90-b4fe-a40858d820e5" />
+            <property role="3Fg1Gr" value="57" />
+            <node concept="3Fnoml" id="3xmueRu_9yQ" role="3MKX6F">
+              <property role="1hTQn4" value="44f43072-ceb2-4d06-8f5a-69d60e8fea24" />
+              <property role="3Fg1Gr" value="58" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="3xmueRu_9yR" role="3MKX6F">
+                <property role="1hTQn4" value="65fb6337-a342-4ebd-a2ed-5e8d972ac0fc" />
+                <property role="3Fg1Gr" value="59" />
+                <node concept="19SGf9" id="3xmueRu_9yS" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9yT" role="19SJt6">
+                    <property role="19SUeA" value="ten minste € 4000,– aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="3xmueRu_9yV" role="3MKX6F">
+      <property role="1hTQn4" value="27e85c1f-24ca-43d5-87ea-87adb5d54098" />
+      <property role="3Fg1Gr" value="60" />
+      <node concept="3Fnoml" id="3xmueRu_9yW" role="3MKX6F">
+        <property role="1hTQn4" value="ab6ca9a4-bcce-43e8-9c78-4e6282424c0c" />
+        <property role="3Fg1Gr" value="61" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="3xmueRu_9yX" role="3MKX6F">
+          <property role="1hTQn4" value="f561dc01-5c59-492a-9417-1fa115ed40a8" />
+          <property role="3Fg1Gr" value="62" />
+          <node concept="19SGf9" id="3xmueRu_9yY" role="3MLR7a">
+            <node concept="19SUe$" id="3xmueRu_9yZ" role="19SJt6">
+              <property role="19SUeA" value="De tegemoetkoming bedraagt € 4000 per gedupeerde onderneming." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="3xmueRu_9z2">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="fce81f72-a538-4bc5-b052-0131ebefdc78" />
+    <property role="3Fg1Gr" value="63" />
+    <property role="TrG5h" value="Artikel 3 (afwijzingsgronden)" />
+    <ref role="dW5wK" node="1_VS0uKL2Gd" resolve="31-03-2020 t/m 14-04-2020" />
+    <node concept="3MKX5i" id="3xmueRu_9z3" role="3MKX6F">
+      <property role="1hTQn4" value="8ce05b25-7d97-4940-891c-36d70e044e31" />
+      <property role="3Fg1Gr" value="65" />
+      <node concept="19SGf9" id="3xmueRu_9z4" role="3MLR7a">
+        <node concept="19SUe$" id="3xmueRu_9z5" role="19SJt6">
+          <property role="19SUeA" value="De minister beslist afwijzend op een aanvraag indien:" />
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="3xmueRu_9z7" role="3MKX6F">
+      <property role="1hTQn4" value="ce6d8967-f85d-4688-8f60-12fef03126e9" />
+      <property role="3Fg1Gr" value="66" />
+      <node concept="3MKX5h" id="3xmueRu_9z8" role="3MKX6F">
+        <property role="1hTQn4" value="9bd5cd62-f632-44d3-b17a-f1ad24fe9ab1" />
+        <property role="3Fg1Gr" value="67" />
+        <node concept="3Fnoml" id="3xmueRu_9z9" role="3MKX6F">
+          <property role="1hTQn4" value="a393de60-40d7-4eff-87db-e3a4c786b08f" />
+          <property role="3Fg1Gr" value="68" />
+          <property role="3Fnomm" value="a." />
+          <node concept="3MKX5i" id="3xmueRu_9za" role="3MKX6F">
+            <property role="1hTQn4" value="3f800e22-18f3-4786-ba92-fc4cc3508345" />
+            <property role="3Fg1Gr" value="69" />
+            <node concept="19SGf9" id="3xmueRu_9zb" role="3MLR7a">
+              <node concept="19SUe$" id="3xmueRu_9zc" role="19SJt6">
+                <property role="19SUeA" value="de aanvraag niet voldoet aan de bij deze beleidsregel gestelde eisen;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="3xmueRu_9ze" role="3MKX6F">
+        <property role="1hTQn4" value="0ac9232d-745d-48d4-8f7c-0ef560bc7f04" />
+        <property role="3Fg1Gr" value="70" />
+        <node concept="3Fnoml" id="3xmueRu_9zf" role="3MKX6F">
+          <property role="1hTQn4" value="50856386-1e4f-41f3-a20f-492f9c1f3ac8" />
+          <property role="3Fg1Gr" value="71" />
+          <property role="3Fnomm" value="b." />
+          <node concept="3MKX5i" id="3xmueRu_9zg" role="3MKX6F">
+            <property role="1hTQn4" value="761db6ad-495e-49e2-a998-2f7da5390126" />
+            <property role="3Fg1Gr" value="72" />
+            <node concept="19SGf9" id="3xmueRu_9zh" role="3MLR7a">
+              <node concept="19SUe$" id="3xmueRu_9zi" role="19SJt6">
+                <property role="19SUeA" value="de gedupeerde onderneming in staat van faillissement verkeert dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming is ingediend;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="3xmueRu_9zk" role="3MKX6F">
+        <property role="1hTQn4" value="1596ac69-c56b-43ee-baea-a4da64f07a44" />
+        <property role="3Fg1Gr" value="73" />
+        <node concept="3Fnoml" id="3xmueRu_9zl" role="3MKX6F">
+          <property role="1hTQn4" value="17e16eec-0a76-4b1b-9705-fee48f8b88a9" />
+          <property role="3Fg1Gr" value="74" />
+          <property role="3Fnomm" value="c." />
+          <node concept="3MKX5i" id="3xmueRu_9zm" role="3MKX6F">
+            <property role="1hTQn4" value="2118a7a4-e33e-495d-af5e-18de599db522" />
+            <property role="3Fg1Gr" value="75" />
+            <node concept="19SGf9" id="3xmueRu_9zn" role="3MLR7a">
+              <node concept="19SUe$" id="3xmueRu_9zo" role="19SJt6">
+                <property role="19SUeA" value="de tegemoetkoming niet verstrekt kan worden op grond van de algemene de-minimisverordening." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="3xmueRu_9zr">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="69775e46-56a3-4edc-b0bd-b5ab78d37f6e" />
+    <property role="3Fg1Gr" value="76" />
+    <property role="TrG5h" value="Artikel 4 (informatieverplichtingen bij aanvraag en aanvraagperiode)" />
+    <ref role="dW5wK" node="1_VS0uKL2Gd" resolve="31-03-2020 t/m 14-04-2020" />
+    <node concept="3MKX5h" id="3xmueRu_9zs" role="3MKX6F">
+      <property role="1hTQn4" value="c83d3ac9-af41-4b2a-bc57-e0f15d90ca1f" />
+      <property role="3Fg1Gr" value="78" />
+      <node concept="3Fnoml" id="3xmueRu_9zt" role="3MKX6F">
+        <property role="1hTQn4" value="2c9d5999-99a3-4245-af6a-9d83fb1c7439" />
+        <property role="3Fg1Gr" value="79" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="3xmueRu_9zu" role="3MKX6F">
+          <property role="1hTQn4" value="bda234e2-5f37-48f1-a193-f84ab45373f8" />
+          <property role="3Fg1Gr" value="80" />
+          <node concept="19SGf9" id="3xmueRu_9zv" role="3MLR7a">
+            <node concept="19SUe$" id="3xmueRu_9zw" role="19SJt6">
+              <property role="19SUeA" value="Een aanvraag wordt ingediend met gebruikmaking van een door de minister beschikbaar gesteld middel." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="3xmueRu_9zy" role="3MKX6F">
+      <property role="1hTQn4" value="41acef5c-ad21-4681-a754-93ed258f463d" />
+      <property role="3Fg1Gr" value="81" />
+      <node concept="3Fnoml" id="3xmueRu_9zz" role="3MKX6F">
+        <property role="1hTQn4" value="5e189661-6e28-4912-9908-7712b195436b" />
+        <property role="3Fg1Gr" value="82" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="3xmueRu_9z$" role="3MKX6F">
+          <property role="1hTQn4" value="c89d2e70-20ce-47a8-8c26-0035d5e09d4f" />
+          <property role="3Fg1Gr" value="83" />
+          <node concept="19SGf9" id="3xmueRu_9z_" role="3MLR7a">
+            <node concept="19SUe$" id="3xmueRu_9zA" role="19SJt6">
+              <property role="19SUeA" value="Een aanvraag omvat in ieder geval:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="3xmueRu_9zC" role="3MKX6F">
+          <property role="1hTQn4" value="61ba5e7b-0a3d-4e7f-b660-eccc629f007b" />
+          <property role="3Fg1Gr" value="84" />
+          <node concept="3MKX5h" id="3xmueRu_9zD" role="3MKX6F">
+            <property role="1hTQn4" value="fdc918e3-3c79-4805-8fe5-92e46a938719" />
+            <property role="3Fg1Gr" value="85" />
+            <node concept="3Fnoml" id="3xmueRu_9zE" role="3MKX6F">
+              <property role="1hTQn4" value="410834f0-1c48-4852-992e-c39bf60848ce" />
+              <property role="3Fg1Gr" value="86" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="3xmueRu_9zF" role="3MKX6F">
+                <property role="1hTQn4" value="b33ce6ef-1550-4d4b-a512-2ff5c885d057" />
+                <property role="3Fg1Gr" value="87" />
+                <node concept="19SGf9" id="3xmueRu_9zG" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9zH" role="19SJt6">
+                    <property role="19SUeA" value="gegevens over de gedupeerde onderneming, waaronder het nummer waarmee de gedupeerde onderneming geregistreerd is bij de Kamer van Koophandel, het post- en bezoekadres en het rekeningnummer dat op naam van de gedupeerde onderneming staat;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9zJ" role="3MKX6F">
+            <property role="1hTQn4" value="8ccd0f51-86a0-40b9-adcb-0292df5f91a0" />
+            <property role="3Fg1Gr" value="88" />
+            <node concept="3Fnoml" id="3xmueRu_9zK" role="3MKX6F">
+              <property role="1hTQn4" value="e6d31d18-2401-49e3-9da4-5c31ed120446" />
+              <property role="3Fg1Gr" value="89" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="3xmueRu_9zL" role="3MKX6F">
+                <property role="1hTQn4" value="9964f98a-b8f4-4c11-b21a-9ef2434a5827" />
+                <property role="3Fg1Gr" value="90" />
+                <node concept="19SGf9" id="3xmueRu_9zM" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9zN" role="19SJt6">
+                    <property role="19SUeA" value="gegevens over de contactpersoon bij de gedupeerde onderneming, waaronder de naam, het telefoonnummer en het e-mailadres;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9zP" role="3MKX6F">
+            <property role="1hTQn4" value="67182703-6426-4409-b800-18f2203511bc" />
+            <property role="3Fg1Gr" value="91" />
+            <node concept="3Fnoml" id="3xmueRu_9zQ" role="3MKX6F">
+              <property role="1hTQn4" value="ef4b8e8b-feae-4b52-9e84-5e55eb471e38" />
+              <property role="3Fg1Gr" value="92" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="3xmueRu_9zR" role="3MKX6F">
+                <property role="1hTQn4" value="c1656081-224b-4b1b-b028-2d954ec6f521" />
+                <property role="3Fg1Gr" value="93" />
+                <node concept="19SGf9" id="3xmueRu_9zS" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9zT" role="19SJt6">
+                    <property role="19SUeA" value="een verklaring dat de gedupeerde onderneming geen overheidsbedrijf is;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9zV" role="3MKX6F">
+            <property role="1hTQn4" value="67345514-5e09-4082-ba1b-ec752990b906" />
+            <property role="3Fg1Gr" value="94" />
+            <node concept="3Fnoml" id="3xmueRu_9zW" role="3MKX6F">
+              <property role="1hTQn4" value="97a3a410-ea8e-45fd-b40c-cf1db28765b6" />
+              <property role="3Fg1Gr" value="95" />
+              <property role="3Fnomm" value="d." />
+              <node concept="3MKX5i" id="3xmueRu_9zX" role="3MKX6F">
+                <property role="1hTQn4" value="344d27d0-1e9e-4538-8011-eb3399f81401" />
+                <property role="3Fg1Gr" value="96" />
+                <node concept="19SGf9" id="3xmueRu_9zY" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9zZ" role="19SJt6">
+                    <property role="19SUeA" value="een verklaring de-minimissteun;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9$1" role="3MKX6F">
+            <property role="1hTQn4" value="a260c2f6-b89f-418f-8ba2-e1f9b7e62553" />
+            <property role="3Fg1Gr" value="97" />
+            <node concept="3Fnoml" id="3xmueRu_9$2" role="3MKX6F">
+              <property role="1hTQn4" value="3cbf4288-ee93-4b7c-a725-088e9ee049c1" />
+              <property role="3Fg1Gr" value="98" />
+              <property role="3Fnomm" value="e." />
+              <node concept="3MKX5i" id="3xmueRu_9$3" role="3MKX6F">
+                <property role="1hTQn4" value="85605de0-5e4e-4390-ac8e-be081a1ac379" />
+                <property role="3Fg1Gr" value="99" />
+                <node concept="19SGf9" id="3xmueRu_9$4" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9$5" role="19SJt6">
+                    <property role="19SUeA" value="een verklaring dat de gedupeerde onderneming op het moment van aanvraag voldoet aan de bij deze beleidsregel gestelde eisen;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9$7" role="3MKX6F">
+            <property role="1hTQn4" value="3a2d17d3-f75a-4586-b706-6a16255d2df3" />
+            <property role="3Fg1Gr" value="100" />
+            <node concept="3Fnoml" id="3xmueRu_9$8" role="3MKX6F">
+              <property role="1hTQn4" value="994b2f35-08d7-429d-8c74-e600575750d5" />
+              <property role="3Fg1Gr" value="101" />
+              <property role="3Fnomm" value="f." />
+              <node concept="3MKX5i" id="3xmueRu_9$9" role="3MKX6F">
+                <property role="1hTQn4" value="a97f5db1-e0a2-489a-98fd-fa7b06469908" />
+                <property role="3Fg1Gr" value="102" />
+                <node concept="19SGf9" id="3xmueRu_9$a" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9$b" role="19SJt6">
+                    <property role="19SUeA" value="een verklaring waarin de gedupeerde onderneming aangeeft dat de onderneming in de periode van 16 maart 2020 tot en met 15 juni 2020 een omzetverlies verwacht te lijden van ten minste € 4000,–; en" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9$d" role="3MKX6F">
+            <property role="1hTQn4" value="2e2616e8-3f02-4017-a738-026c980c7499" />
+            <property role="3Fg1Gr" value="103" />
+            <node concept="3Fnoml" id="3xmueRu_9$e" role="3MKX6F">
+              <property role="1hTQn4" value="33487051-2ae0-400e-a6f3-d367592ee307" />
+              <property role="3Fg1Gr" value="104" />
+              <property role="3Fnomm" value="g." />
+              <node concept="3MKX5i" id="3xmueRu_9$f" role="3MKX6F">
+                <property role="1hTQn4" value="f81d4433-2c1b-4c50-aa76-0926153c7037" />
+                <property role="3Fg1Gr" value="105" />
+                <node concept="19SGf9" id="3xmueRu_9$g" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9$h" role="19SJt6">
+                    <property role="19SUeA" value="een verklaring waarin de gedupeerde onderneming aangeeft dat de onderneming in de periode van 16 maart 2020 tot en met 15 juni 2020 verwacht ten minste € 4000,– aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="3xmueRu_9$j" role="3MKX6F">
+      <property role="1hTQn4" value="75863c13-6011-4648-8951-0c6b7d0b95a6" />
+      <property role="3Fg1Gr" value="106" />
+      <node concept="3Fnoml" id="3xmueRu_9$k" role="3MKX6F">
+        <property role="1hTQn4" value="6f1f9032-d938-4548-a0c5-e9c01ee84ba4" />
+        <property role="3Fg1Gr" value="107" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="3xmueRu_9$l" role="3MKX6F">
+          <property role="1hTQn4" value="b4cc516a-e4b3-461e-bdd9-7e8fae4176fe" />
+          <property role="3Fg1Gr" value="108" />
+          <node concept="19SGf9" id="3xmueRu_9$m" role="3MLR7a">
+            <node concept="19SUe$" id="3xmueRu_9$n" role="19SJt6">
+              <property role="19SUeA" value="Een aanvraag kan worden ingediend in de periode van 27 maart 2020 tot en met 26 juni 2020." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="3xmueRu_9$q">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="78bb0747-9604-4cd8-abc8-63b796d5485f" />
+    <property role="3Fg1Gr" value="109" />
+    <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
+    <ref role="dW5wK" node="1_VS0uKL2Gd" resolve="31-03-2020 t/m 14-04-2020" />
+    <node concept="3MKX5i" id="3xmueRu_9$r" role="3MKX6F">
+      <property role="1hTQn4" value="1cd7994f-0fd2-489b-9c59-1b0dd452c4cf" />
+      <property role="3Fg1Gr" value="111" />
+      <node concept="19SGf9" id="3xmueRu_9$s" role="3MLR7a">
+        <node concept="19SUe$" id="3xmueRu_9$t" role="19SJt6">
+          <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="3xmueRu_9$w">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="0e348eb3-c250-4de8-a8dd-d3c0646c771a" />
+    <property role="3Fg1Gr" value="112" />
+    <property role="TrG5h" value="Artikel 6 (aanpassing tegemoetkoming achteraf)" />
+    <ref role="dW5wK" node="1_VS0uKL2Gd" resolve="31-03-2020 t/m 14-04-2020" />
+    <node concept="3MKX5i" id="3xmueRu_9$x" role="3MKX6F">
+      <property role="1hTQn4" value="fcdda46c-fbe2-4e1e-97d7-afc45ff1cfe4" />
+      <property role="3Fg1Gr" value="114" />
+      <node concept="19SGf9" id="3xmueRu_9$y" role="3MLR7a">
+        <node concept="19SUe$" id="3xmueRu_9$z" role="19SJt6">
+          <property role="19SUeA" value="De minister kan de hoogte van de tegemoetkoming binnen vijf jaar na de verstrekking herzien dan wel de beschikking tot de tegemoetkoming intrekken, indien blijkt dat de tegemoetkoming, door onjuiste gegevensverstrekking door de gedupeerde onderneming, niet in overeenstemming met deze beleidsregel is verstrekt." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="3xmueRu_9$A">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="9e2902a2-42d4-4341-876e-a0f175a0e7ff" />
+    <property role="3Fg1Gr" value="115" />
+    <property role="TrG5h" value="Artikel 7 (staatssteun)" />
+    <ref role="dW5wK" node="1_VS0uKL2Gd" resolve="31-03-2020 t/m 14-04-2020" />
+    <node concept="3MKX5i" id="3xmueRu_9$B" role="3MKX6F">
+      <property role="1hTQn4" value="04f2d7c7-355e-4bbf-bb8c-f4ad089e23a2" />
+      <property role="3Fg1Gr" value="117" />
+      <node concept="19SGf9" id="3xmueRu_9$C" role="3MLR7a">
+        <node concept="19SUe$" id="3xmueRu_9$D" role="19SJt6">
+          <property role="19SUeA" value="De tegemoetkoming, bedoeld in artikel 2, bevat staatssteun en wordt gerechtvaardigd door de algemene de-minimisverordening." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="3xmueRu_9$G">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="1dc2c27c-dab8-4a89-a022-c7cb941c9ab7" />
+    <property role="3Fg1Gr" value="118" />
+    <property role="TrG5h" value="Artikel 8 (inwerkingtreding en vervaldatum)" />
+    <ref role="dW5wK" node="1_VS0uKL2Gd" resolve="31-03-2020 t/m 14-04-2020" />
+    <node concept="3MKX5h" id="3xmueRu_9$H" role="3MKX6F">
+      <property role="1hTQn4" value="cbed5f90-b960-4ff6-86f2-b90f7ba66516" />
+      <property role="3Fg1Gr" value="120" />
+      <node concept="3Fnoml" id="3xmueRu_9$I" role="3MKX6F">
+        <property role="1hTQn4" value="633b76fd-d1a8-4be9-9ba3-ab17fd704d44" />
+        <property role="3Fg1Gr" value="121" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="3xmueRu_9$J" role="3MKX6F">
+          <property role="1hTQn4" value="4060e328-57a2-4a15-9975-4c171aa54fba" />
+          <property role="3Fg1Gr" value="122" />
+          <node concept="19SGf9" id="3xmueRu_9$K" role="3MLR7a">
+            <node concept="19SUe$" id="3xmueRu_9$L" role="19SJt6">
+              <property role="19SUeA" value="Deze beleidsregel treedt in werking met ingang van de dag na de datum van uitgifte van de Staatscourant waarin zij wordt geplaatst, en werkt terug tot en met 27 maart 2020." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="3xmueRu_9$N" role="3MKX6F">
+      <property role="1hTQn4" value="4e33dc41-4027-40bc-8abd-066018726829" />
+      <property role="3Fg1Gr" value="123" />
+      <node concept="3Fnoml" id="3xmueRu_9$O" role="3MKX6F">
+        <property role="1hTQn4" value="04c7b55b-8c5b-46c5-ba40-e24e104746c4" />
+        <property role="3Fg1Gr" value="124" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="3xmueRu_9$P" role="3MKX6F">
+          <property role="1hTQn4" value="b0e2d42d-37f1-4e62-a7b6-41752b626632" />
+          <property role="3Fg1Gr" value="125" />
+          <node concept="19SGf9" id="3xmueRu_9$Q" role="3MLR7a">
+            <node concept="19SUe$" id="3xmueRu_9$R" role="19SJt6">
+              <property role="19SUeA" value="Deze beleidsregel vervalt met ingang van 1 januari 2021, met dien verstande dat de beleidsregel van toepassing blijft op aanvragen om tegemoetkoming die uiterlijk 26 juni 2020 zijn ingediend, dan wel op tegemoetkomingen die voor 1 januari 2021 zijn verstrekt." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="3xmueRu_9$U">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="a209c10f-3544-4ede-93cb-6ab917eb1d4b" />
+    <property role="3Fg1Gr" value="126" />
+    <property role="TrG5h" value="Artikel 9 (citeertitel)" />
+    <ref role="dW5wK" node="1_VS0uKL2Gd" resolve="31-03-2020 t/m 14-04-2020" />
+    <node concept="3MKX5i" id="3xmueRu_9$V" role="3MKX6F">
+      <property role="1hTQn4" value="718c5210-9e66-4d18-bfe1-a231c1318c51" />
+      <property role="3Fg1Gr" value="128" />
+      <node concept="19SGf9" id="3xmueRu_9$W" role="3MLR7a">
+        <node concept="19SUe$" id="3xmueRu_9$X" role="19SJt6">
+          <property role="19SUeA" value="Deze beleidsregel wordt aangehaald als: Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="3xmueRu_9_t">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="63a70d1c-1ed4-4450-a4c8-329dda9e9e02" />
+    <property role="3Fg1Gr" value="140" />
+    <property role="TrG5h" value="Bijlage 1 behorende bij artikel 1 van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19: activiteiten met de daarbij behorende code van de standaard bedrijfsindeling (SBI-code)" />
+    <ref role="dW5wK" node="1_VS0uKL2Gd" resolve="31-03-2020 t/m 14-04-2020" />
+    <node concept="3MKX5h" id="3xmueRu_9_u" role="3MKX6F">
+      <property role="1hTQn4" value="a6b2a149-c8ec-463f-8d03-e2db5a8e4ae8" />
+      <property role="3Fg1Gr" value="142" />
+      <node concept="3MKX5h" id="3xmueRu_9_v" role="3MKX6F">
+        <property role="1hTQn4" value="559597fd-63c4-4a8b-93bf-3c6f395eb857" />
+        <property role="3Fg1Gr" value="143" />
+        <node concept="3MKX5h" id="3xmueRu_9_w" role="3MKX6F">
+          <property role="1hTQn4" value="12c2668b-ef9a-462d-b37a-f80622e4362c" />
+          <property role="3Fg1Gr" value="144" />
+          <node concept="3MKX5h" id="3xmueRu_9_x" role="3MKX6F">
+            <property role="1hTQn4" value="f2f8773f-3c35-48b4-9475-63aed35a3bcf" />
+            <property role="3Fg1Gr" value="145" />
+            <node concept="3MKX5h" id="3xmueRu_9_y" role="3MKX6F">
+              <property role="1hTQn4" value="4ab634ac-b681-42bf-863a-650b8bea681a" />
+              <property role="3Fg1Gr" value="146" />
+              <node concept="3MKX5i" id="3xmueRu_9_z" role="3MKX6F">
+                <property role="1hTQn4" value="788dec11-871d-44d9-b92f-b2da882beb8d" />
+                <property role="3Fg1Gr" value="147" />
+                <node concept="19SGf9" id="3xmueRu_9_$" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9__" role="19SJt6">
+                    <property role="19SUeA" value="Omschrijving activiteit" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9_B" role="3MKX6F">
+              <property role="1hTQn4" value="78b476e8-7406-4639-a88e-50d463275e91" />
+              <property role="3Fg1Gr" value="148" />
+              <node concept="3MKX5i" id="3xmueRu_9_C" role="3MKX6F">
+                <property role="1hTQn4" value="286d0a97-5ba4-4833-b649-2e3337cc09f3" />
+                <property role="3Fg1Gr" value="149" />
+                <node concept="19SGf9" id="3xmueRu_9_D" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9_E" role="19SJt6">
+                    <property role="19SUeA" value="SBI-code" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="3xmueRu_9_G" role="3MKX6F">
+          <property role="1hTQn4" value="fd64064e-76e4-47b2-9cb4-80113c9c55a5" />
+          <property role="3Fg1Gr" value="150" />
+          <node concept="3MKX5h" id="3xmueRu_9_H" role="3MKX6F">
+            <property role="1hTQn4" value="f683d5a9-8e72-4615-9709-b90a360a2845" />
+            <property role="3Fg1Gr" value="151" />
+            <node concept="3MKX5h" id="3xmueRu_9_I" role="3MKX6F">
+              <property role="1hTQn4" value="f549e254-1ddf-45f4-ac99-03f40f6b4454" />
+              <property role="3Fg1Gr" value="152" />
+              <node concept="3MKX5i" id="3xmueRu_9_J" role="3MKX6F">
+                <property role="1hTQn4" value="f9a74cff-a387-4c50-b0e8-27072c2a48ab" />
+                <property role="3Fg1Gr" value="153" />
+                <node concept="19SGf9" id="3xmueRu_9_K" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9_L" role="19SJt6">
+                    <property role="19SUeA" value="Hotel-restaurants" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9_N" role="3MKX6F">
+              <property role="1hTQn4" value="e57738cc-824c-47b6-8a70-1d1cb72eb087" />
+              <property role="3Fg1Gr" value="154" />
+              <node concept="3MKX5i" id="3xmueRu_9_O" role="3MKX6F">
+                <property role="1hTQn4" value="aa9e1e23-ec4f-454e-b6cb-560454e5254b" />
+                <property role="3Fg1Gr" value="155" />
+                <node concept="19SGf9" id="3xmueRu_9_P" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9_Q" role="19SJt6">
+                    <property role="19SUeA" value="55.10.1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9_S" role="3MKX6F">
+            <property role="1hTQn4" value="e84a618c-8f7d-4a80-9bf7-5fd517f3f552" />
+            <property role="3Fg1Gr" value="156" />
+            <node concept="3MKX5h" id="3xmueRu_9_T" role="3MKX6F">
+              <property role="1hTQn4" value="367c003f-c876-4e9b-8155-e51eb2419df5" />
+              <property role="3Fg1Gr" value="157" />
+              <node concept="3MKX5i" id="3xmueRu_9_U" role="3MKX6F">
+                <property role="1hTQn4" value="c68a48ce-2992-42ea-b6c2-983e6177bd8d" />
+                <property role="3Fg1Gr" value="158" />
+                <node concept="19SGf9" id="3xmueRu_9_V" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9_W" role="19SJt6">
+                    <property role="19SUeA" value="Hotels (geen hotel-restaurants), pensions en conferentieoorden" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9_Y" role="3MKX6F">
+              <property role="1hTQn4" value="d3e7847f-d67a-4e9f-868a-582e7c716a55" />
+              <property role="3Fg1Gr" value="159" />
+              <node concept="3MKX5i" id="3xmueRu_9_Z" role="3MKX6F">
+                <property role="1hTQn4" value="20491145-b7dd-4655-8921-34b549a21e13" />
+                <property role="3Fg1Gr" value="160" />
+                <node concept="19SGf9" id="3xmueRu_9A0" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9A1" role="19SJt6">
+                    <property role="19SUeA" value="55.10.2" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9A3" role="3MKX6F">
+            <property role="1hTQn4" value="d326f555-751a-4894-b8b2-ac414aeba5ed" />
+            <property role="3Fg1Gr" value="161" />
+            <node concept="3MKX5h" id="3xmueRu_9A4" role="3MKX6F">
+              <property role="1hTQn4" value="b25a93ee-bfb0-449f-8ded-e2f335754bb0" />
+              <property role="3Fg1Gr" value="162" />
+              <node concept="3MKX5i" id="3xmueRu_9A5" role="3MKX6F">
+                <property role="1hTQn4" value="1fa6d5e0-f3b0-402e-ad6d-5687330cfc9f" />
+                <property role="3Fg1Gr" value="163" />
+                <node concept="19SGf9" id="3xmueRu_9A6" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9A7" role="19SJt6">
+                    <property role="19SUeA" value="Restaurants" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9A9" role="3MKX6F">
+              <property role="1hTQn4" value="491a2f77-6d40-44aa-ba18-3e6937970703" />
+              <property role="3Fg1Gr" value="164" />
+              <node concept="3MKX5i" id="3xmueRu_9Aa" role="3MKX6F">
+                <property role="1hTQn4" value="4fc2f903-d715-47e2-9146-9cd9f6a59c46" />
+                <property role="3Fg1Gr" value="165" />
+                <node concept="19SGf9" id="3xmueRu_9Ab" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Ac" role="19SJt6">
+                    <property role="19SUeA" value="56.10.1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9Ae" role="3MKX6F">
+            <property role="1hTQn4" value="584a74b1-fce4-4b91-bb4f-401a6791de91" />
+            <property role="3Fg1Gr" value="166" />
+            <node concept="3MKX5h" id="3xmueRu_9Af" role="3MKX6F">
+              <property role="1hTQn4" value="476ddd0d-fcf9-4e0c-a480-9376f343363f" />
+              <property role="3Fg1Gr" value="167" />
+              <node concept="3MKX5i" id="3xmueRu_9Ag" role="3MKX6F">
+                <property role="1hTQn4" value="865356f9-3a1b-419d-a162-60f770e309bc" />
+                <property role="3Fg1Gr" value="168" />
+                <node concept="19SGf9" id="3xmueRu_9Ah" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Ai" role="19SJt6">
+                    <property role="19SUeA" value="Fastfoodrestaurants, cafetaria’s, ijssalons, eetkramen e.d." />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9Ak" role="3MKX6F">
+              <property role="1hTQn4" value="b7160366-cce1-4c54-aa88-8f187496e09e" />
+              <property role="3Fg1Gr" value="169" />
+              <node concept="3MKX5i" id="3xmueRu_9Al" role="3MKX6F">
+                <property role="1hTQn4" value="7df14356-6314-4022-8b74-e382e69a6ef1" />
+                <property role="3Fg1Gr" value="170" />
+                <node concept="19SGf9" id="3xmueRu_9Am" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9An" role="19SJt6">
+                    <property role="19SUeA" value="56.10.2" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9Ap" role="3MKX6F">
+            <property role="1hTQn4" value="6ab3a03c-6c20-4325-8763-ab1eebfda2f0" />
+            <property role="3Fg1Gr" value="171" />
+            <node concept="3MKX5h" id="3xmueRu_9Aq" role="3MKX6F">
+              <property role="1hTQn4" value="02ed0575-fd55-41b7-b0c7-1f1dfc62a502" />
+              <property role="3Fg1Gr" value="172" />
+              <node concept="3MKX5i" id="3xmueRu_9Ar" role="3MKX6F">
+                <property role="1hTQn4" value="008b7a73-4f2e-47da-bd14-1837bbbdab99" />
+                <property role="3Fg1Gr" value="173" />
+                <node concept="19SGf9" id="3xmueRu_9As" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9At" role="19SJt6">
+                    <property role="19SUeA" value="Eventcatering" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9Av" role="3MKX6F">
+              <property role="1hTQn4" value="772c4a35-47fc-4aec-84ea-bc6200d2ed51" />
+              <property role="3Fg1Gr" value="174" />
+              <node concept="3MKX5i" id="3xmueRu_9Aw" role="3MKX6F">
+                <property role="1hTQn4" value="f1d318bd-2a3c-4270-b84d-0fd42f94bcd0" />
+                <property role="3Fg1Gr" value="175" />
+                <node concept="19SGf9" id="3xmueRu_9Ax" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Ay" role="19SJt6">
+                    <property role="19SUeA" value="56.21" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9A$" role="3MKX6F">
+            <property role="1hTQn4" value="e7b254f8-5f49-4167-91e2-e879ccb7336d" />
+            <property role="3Fg1Gr" value="176" />
+            <node concept="3MKX5h" id="3xmueRu_9A_" role="3MKX6F">
+              <property role="1hTQn4" value="4961a64d-18a5-405f-824a-0f89bef345d3" />
+              <property role="3Fg1Gr" value="177" />
+              <node concept="3MKX5i" id="3xmueRu_9AA" role="3MKX6F">
+                <property role="1hTQn4" value="87252e9e-2f23-4b52-9f3a-eae819b8d1d7" />
+                <property role="3Fg1Gr" value="178" />
+                <node concept="19SGf9" id="3xmueRu_9AB" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9AC" role="19SJt6">
+                    <property role="19SUeA" value="Cafés" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9AE" role="3MKX6F">
+              <property role="1hTQn4" value="3b542840-defd-4ad5-bde7-b6f5e3e3d19b" />
+              <property role="3Fg1Gr" value="179" />
+              <node concept="3MKX5i" id="3xmueRu_9AF" role="3MKX6F">
+                <property role="1hTQn4" value="2dc42b5a-b23e-46df-9e03-beb369adaf52" />
+                <property role="3Fg1Gr" value="180" />
+                <node concept="19SGf9" id="3xmueRu_9AG" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9AH" role="19SJt6">
+                    <property role="19SUeA" value="56.30" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9AJ" role="3MKX6F">
+            <property role="1hTQn4" value="1b392203-8619-4d60-a86e-efe8e64cbb9c" />
+            <property role="3Fg1Gr" value="181" />
+            <node concept="3MKX5h" id="3xmueRu_9AK" role="3MKX6F">
+              <property role="1hTQn4" value="92e5de96-0c26-4147-a690-9d0eb897442e" />
+              <property role="3Fg1Gr" value="182" />
+              <node concept="3MKX5i" id="3xmueRu_9AL" role="3MKX6F">
+                <property role="1hTQn4" value="0949af77-b3b7-40da-a463-128c5f96f9e2" />
+                <property role="3Fg1Gr" value="183" />
+                <node concept="19SGf9" id="3xmueRu_9AM" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9AN" role="19SJt6">
+                    <property role="19SUeA" value="Bioscopen" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9AP" role="3MKX6F">
+              <property role="1hTQn4" value="8d528baa-6ca5-4411-a4a8-bd140dcc8c59" />
+              <property role="3Fg1Gr" value="184" />
+              <node concept="3MKX5i" id="3xmueRu_9AQ" role="3MKX6F">
+                <property role="1hTQn4" value="cc2745f9-bdb0-4e35-a471-ac44abf6a388" />
+                <property role="3Fg1Gr" value="185" />
+                <node concept="19SGf9" id="3xmueRu_9AR" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9AS" role="19SJt6">
+                    <property role="19SUeA" value="59.14" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9AU" role="3MKX6F">
+            <property role="1hTQn4" value="baab062d-09ea-4080-9f3a-e78f02b706ab" />
+            <property role="3Fg1Gr" value="186" />
+            <node concept="3MKX5h" id="3xmueRu_9AV" role="3MKX6F">
+              <property role="1hTQn4" value="b5352ca1-e855-4e2b-92d9-29954222add1" />
+              <property role="3Fg1Gr" value="187" />
+              <node concept="3MKX5i" id="3xmueRu_9AW" role="3MKX6F">
+                <property role="1hTQn4" value="732e79d2-8572-4b4c-b37f-910a0622bc91" />
+                <property role="3Fg1Gr" value="188" />
+                <node concept="19SGf9" id="3xmueRu_9AX" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9AY" role="19SJt6">
+                    <property role="19SUeA" value="Reisbemiddeling" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9B0" role="3MKX6F">
+              <property role="1hTQn4" value="969bb11e-2e16-4056-866e-ece0df8117ff" />
+              <property role="3Fg1Gr" value="189" />
+              <node concept="3MKX5i" id="3xmueRu_9B1" role="3MKX6F">
+                <property role="1hTQn4" value="812f13c6-27f4-439c-901c-463a02e768d4" />
+                <property role="3Fg1Gr" value="190" />
+                <node concept="19SGf9" id="3xmueRu_9B2" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9B3" role="19SJt6">
+                    <property role="19SUeA" value="79.11.1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9B5" role="3MKX6F">
+            <property role="1hTQn4" value="d126514b-44bc-4a59-b8cb-cf94531e5329" />
+            <property role="3Fg1Gr" value="191" />
+            <node concept="3MKX5h" id="3xmueRu_9B6" role="3MKX6F">
+              <property role="1hTQn4" value="08f531b9-03ba-4b87-8010-b3d8afab38db" />
+              <property role="3Fg1Gr" value="192" />
+              <node concept="3MKX5i" id="3xmueRu_9B7" role="3MKX6F">
+                <property role="1hTQn4" value="44913b0a-fad9-436e-bb8d-019b99913646" />
+                <property role="3Fg1Gr" value="193" />
+                <node concept="19SGf9" id="3xmueRu_9B8" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9B9" role="19SJt6">
+                    <property role="19SUeA" value="Reisorganisatoren" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9Bb" role="3MKX6F">
+              <property role="1hTQn4" value="c2f2a2bd-619a-4f7b-92d5-297ea1ad952f" />
+              <property role="3Fg1Gr" value="194" />
+              <node concept="3MKX5i" id="3xmueRu_9Bc" role="3MKX6F">
+                <property role="1hTQn4" value="a115f5ae-9dda-405a-b73a-1a8f48417d98" />
+                <property role="3Fg1Gr" value="195" />
+                <node concept="19SGf9" id="3xmueRu_9Bd" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Be" role="19SJt6">
+                    <property role="19SUeA" value="79.11.2" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9Bg" role="3MKX6F">
+            <property role="1hTQn4" value="2badf48a-61e2-4307-bac1-a516860a30f8" />
+            <property role="3Fg1Gr" value="196" />
+            <node concept="3MKX5h" id="3xmueRu_9Bh" role="3MKX6F">
+              <property role="1hTQn4" value="90c18783-bc7e-4ce9-8491-5b11e6b16e44" />
+              <property role="3Fg1Gr" value="197" />
+              <node concept="3MKX5i" id="3xmueRu_9Bi" role="3MKX6F">
+                <property role="1hTQn4" value="215d004a-8c37-4f38-8989-7c8f51ab6272" />
+                <property role="3Fg1Gr" value="198" />
+                <node concept="19SGf9" id="3xmueRu_9Bj" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Bk" role="19SJt6">
+                    <property role="19SUeA" value="Organiseren van congressen en beurzen" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9Bm" role="3MKX6F">
+              <property role="1hTQn4" value="fd8aeadf-04b0-4642-a3f4-5beedd6d8e52" />
+              <property role="3Fg1Gr" value="199" />
+              <node concept="3MKX5i" id="3xmueRu_9Bn" role="3MKX6F">
+                <property role="1hTQn4" value="56da36a2-9320-43d1-b935-95e2a05f9ccd" />
+                <property role="3Fg1Gr" value="200" />
+                <node concept="19SGf9" id="3xmueRu_9Bo" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Bp" role="19SJt6">
+                    <property role="19SUeA" value="82.30" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9Br" role="3MKX6F">
+            <property role="1hTQn4" value="6550a409-5ae9-4c24-9464-ece110f55c78" />
+            <property role="3Fg1Gr" value="201" />
+            <node concept="3MKX5h" id="3xmueRu_9Bs" role="3MKX6F">
+              <property role="1hTQn4" value="8b776588-12f6-4358-9d60-413282db798a" />
+              <property role="3Fg1Gr" value="202" />
+              <node concept="3MKX5i" id="3xmueRu_9Bt" role="3MKX6F">
+                <property role="1hTQn4" value="539271bd-822a-4f77-8bdd-3d35fd39c0bb" />
+                <property role="3Fg1Gr" value="203" />
+                <node concept="19SGf9" id="3xmueRu_9Bu" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Bv" role="19SJt6">
+                    <property role="19SUeA" value="Dansscholen" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9Bx" role="3MKX6F">
+              <property role="1hTQn4" value="7f9439a1-4c15-4abf-ace1-77229e720587" />
+              <property role="3Fg1Gr" value="204" />
+              <node concept="3MKX5i" id="3xmueRu_9By" role="3MKX6F">
+                <property role="1hTQn4" value="3de82c35-fd8b-4fc6-aa46-37d8f0436d5c" />
+                <property role="3Fg1Gr" value="205" />
+                <node concept="19SGf9" id="3xmueRu_9Bz" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9B$" role="19SJt6">
+                    <property role="19SUeA" value="85.52.1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9BA" role="3MKX6F">
+            <property role="1hTQn4" value="3f9c19fe-1c1a-4962-aec5-84e241ab4d24" />
+            <property role="3Fg1Gr" value="206" />
+            <node concept="3MKX5h" id="3xmueRu_9BB" role="3MKX6F">
+              <property role="1hTQn4" value="66189dfd-3ddf-44a6-9528-97de6e0362ac" />
+              <property role="3Fg1Gr" value="207" />
+              <node concept="3MKX5i" id="3xmueRu_9BC" role="3MKX6F">
+                <property role="1hTQn4" value="cc519f63-66f7-4e9c-ac83-9f8d7fe2aa3c" />
+                <property role="3Fg1Gr" value="208" />
+                <node concept="19SGf9" id="3xmueRu_9BD" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9BE" role="19SJt6">
+                    <property role="19SUeA" value="Kunstzinnige vorming van amateurs (geen dansscholen)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9BG" role="3MKX6F">
+              <property role="1hTQn4" value="30a6628a-e9ee-41e9-aad9-651fbff4208b" />
+              <property role="3Fg1Gr" value="209" />
+              <node concept="3MKX5i" id="3xmueRu_9BH" role="3MKX6F">
+                <property role="1hTQn4" value="f00c3211-641c-4a80-aa40-1f7e3d931993" />
+                <property role="3Fg1Gr" value="210" />
+                <node concept="19SGf9" id="3xmueRu_9BI" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9BJ" role="19SJt6">
+                    <property role="19SUeA" value="85.52.2" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9BL" role="3MKX6F">
+            <property role="1hTQn4" value="82df800c-45e3-462c-8c7d-ea89823d39cc" />
+            <property role="3Fg1Gr" value="211" />
+            <node concept="3MKX5h" id="3xmueRu_9BM" role="3MKX6F">
+              <property role="1hTQn4" value="cdb2c577-eb7b-40ab-8101-13545e4c37e7" />
+              <property role="3Fg1Gr" value="212" />
+              <node concept="3MKX5i" id="3xmueRu_9BN" role="3MKX6F">
+                <property role="1hTQn4" value="d3f7b016-0b05-4fb2-8948-657dacdf4a80" />
+                <property role="3Fg1Gr" value="213" />
+                <node concept="19SGf9" id="3xmueRu_9BO" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9BP" role="19SJt6">
+                    <property role="19SUeA" value="Auto-en motorrijscholen" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9BR" role="3MKX6F">
+              <property role="1hTQn4" value="f800cf86-bd86-4ec4-85e5-a08007b3ff46" />
+              <property role="3Fg1Gr" value="214" />
+              <node concept="3MKX5i" id="3xmueRu_9BS" role="3MKX6F">
+                <property role="1hTQn4" value="3ad45eb1-b057-473c-9f26-c957f5e304ad" />
+                <property role="3Fg1Gr" value="215" />
+                <node concept="19SGf9" id="3xmueRu_9BT" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9BU" role="19SJt6">
+                    <property role="19SUeA" value="85.53" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9BW" role="3MKX6F">
+            <property role="1hTQn4" value="c967637b-5413-4546-91c2-a9dd5cbeee58" />
+            <property role="3Fg1Gr" value="216" />
+            <node concept="3MKX5h" id="3xmueRu_9BX" role="3MKX6F">
+              <property role="1hTQn4" value="8ae85447-fe12-462f-b880-e528306a8376" />
+              <property role="3Fg1Gr" value="217" />
+              <node concept="3MKX5i" id="3xmueRu_9BY" role="3MKX6F">
+                <property role="1hTQn4" value="03fb88be-535e-4f2a-9b4f-ad95d7e38134" />
+                <property role="3Fg1Gr" value="218" />
+                <node concept="19SGf9" id="3xmueRu_9BZ" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9C0" role="19SJt6">
+                    <property role="19SUeA" value="Beoefening van podiumkunst" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9C2" role="3MKX6F">
+              <property role="1hTQn4" value="3445202a-0a57-4869-bf2d-abc8376e6e18" />
+              <property role="3Fg1Gr" value="219" />
+              <node concept="3MKX5i" id="3xmueRu_9C3" role="3MKX6F">
+                <property role="1hTQn4" value="a9492e66-bf3b-415e-8bf3-f064cebe954a" />
+                <property role="3Fg1Gr" value="220" />
+                <node concept="19SGf9" id="3xmueRu_9C4" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9C5" role="19SJt6">
+                    <property role="19SUeA" value="90.01.1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9C7" role="3MKX6F">
+            <property role="1hTQn4" value="ea23f7b4-2904-4d26-a407-885c6cf66519" />
+            <property role="3Fg1Gr" value="221" />
+            <node concept="3MKX5h" id="3xmueRu_9C8" role="3MKX6F">
+              <property role="1hTQn4" value="a9696161-eccb-4f81-8d08-f62e342eaa4f" />
+              <property role="3Fg1Gr" value="222" />
+              <node concept="3MKX5i" id="3xmueRu_9C9" role="3MKX6F">
+                <property role="1hTQn4" value="b83e1bba-f3a3-4740-804c-2b11eda1f267" />
+                <property role="3Fg1Gr" value="223" />
+                <node concept="19SGf9" id="3xmueRu_9Ca" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Cb" role="19SJt6">
+                    <property role="19SUeA" value="Producenten van podiumkunst" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9Cd" role="3MKX6F">
+              <property role="1hTQn4" value="ce69b00c-8fd4-4ef1-b251-8175748abac2" />
+              <property role="3Fg1Gr" value="224" />
+              <node concept="3MKX5i" id="3xmueRu_9Ce" role="3MKX6F">
+                <property role="1hTQn4" value="86adbc90-c512-417b-a257-69556da88021" />
+                <property role="3Fg1Gr" value="225" />
+                <node concept="19SGf9" id="3xmueRu_9Cf" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Cg" role="19SJt6">
+                    <property role="19SUeA" value="90.01.2" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9Ci" role="3MKX6F">
+            <property role="1hTQn4" value="a68e2225-755d-40e9-802e-351d0b943cbd" />
+            <property role="3Fg1Gr" value="226" />
+            <node concept="3MKX5h" id="3xmueRu_9Cj" role="3MKX6F">
+              <property role="1hTQn4" value="3c764d69-ced0-4010-9930-e75f344677e5" />
+              <property role="3Fg1Gr" value="227" />
+              <node concept="3MKX5i" id="3xmueRu_9Ck" role="3MKX6F">
+                <property role="1hTQn4" value="ba64bbc4-0df7-439f-a169-22895b30889b" />
+                <property role="3Fg1Gr" value="228" />
+                <node concept="19SGf9" id="3xmueRu_9Cl" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Cm" role="19SJt6">
+                    <property role="19SUeA" value="Circus en variété" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9Co" role="3MKX6F">
+              <property role="1hTQn4" value="98e17dcf-76ac-492e-af9f-ab43f8aef778" />
+              <property role="3Fg1Gr" value="229" />
+              <node concept="3MKX5i" id="3xmueRu_9Cp" role="3MKX6F">
+                <property role="1hTQn4" value="2fbd2e84-86c4-4d27-a598-bbfa60cc3c0c" />
+                <property role="3Fg1Gr" value="230" />
+                <node concept="19SGf9" id="3xmueRu_9Cq" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Cr" role="19SJt6">
+                    <property role="19SUeA" value="90.01.3" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9Ct" role="3MKX6F">
+            <property role="1hTQn4" value="3529dde9-2e50-42d2-974d-971b4d59d61b" />
+            <property role="3Fg1Gr" value="231" />
+            <node concept="3MKX5h" id="3xmueRu_9Cu" role="3MKX6F">
+              <property role="1hTQn4" value="8a41fc38-19cf-4a92-be48-cb4a48c443ff" />
+              <property role="3Fg1Gr" value="232" />
+              <node concept="3MKX5i" id="3xmueRu_9Cv" role="3MKX6F">
+                <property role="1hTQn4" value="b34a9a13-8725-4f1b-9e98-261b6c2eae9b" />
+                <property role="3Fg1Gr" value="233" />
+                <node concept="19SGf9" id="3xmueRu_9Cw" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Cx" role="19SJt6">
+                    <property role="19SUeA" value="Dienstverlening voor uitvoerende kunst" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9Cz" role="3MKX6F">
+              <property role="1hTQn4" value="8851f4ee-0db6-436e-8190-756e733a1ad9" />
+              <property role="3Fg1Gr" value="234" />
+              <node concept="3MKX5i" id="3xmueRu_9C$" role="3MKX6F">
+                <property role="1hTQn4" value="489d33fd-443a-48e9-8b47-919c6bbd7d96" />
+                <property role="3Fg1Gr" value="235" />
+                <node concept="19SGf9" id="3xmueRu_9C_" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9CA" role="19SJt6">
+                    <property role="19SUeA" value="90.02" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9CC" role="3MKX6F">
+            <property role="1hTQn4" value="e6fee88d-9251-4d65-aa84-e2d271d4fff0" />
+            <property role="3Fg1Gr" value="236" />
+            <node concept="3MKX5h" id="3xmueRu_9CD" role="3MKX6F">
+              <property role="1hTQn4" value="5e24d2ff-f6fc-4df4-b3d2-0494a1dfa16c" />
+              <property role="3Fg1Gr" value="237" />
+              <node concept="3MKX5i" id="3xmueRu_9CE" role="3MKX6F">
+                <property role="1hTQn4" value="c956ef9c-ca31-4e0a-9f5f-37a11bd1f8ba" />
+                <property role="3Fg1Gr" value="238" />
+                <node concept="19SGf9" id="3xmueRu_9CF" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9CG" role="19SJt6">
+                    <property role="19SUeA" value="Theaters en schouwburgen" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9CI" role="3MKX6F">
+              <property role="1hTQn4" value="e5834c86-ed02-4b04-b999-9b1da342074f" />
+              <property role="3Fg1Gr" value="239" />
+              <node concept="3MKX5i" id="3xmueRu_9CJ" role="3MKX6F">
+                <property role="1hTQn4" value="8cfd9b73-70be-4afd-a5ae-e03cf29ba81e" />
+                <property role="3Fg1Gr" value="240" />
+                <node concept="19SGf9" id="3xmueRu_9CK" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9CL" role="19SJt6">
+                    <property role="19SUeA" value="90.04.1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9CN" role="3MKX6F">
+            <property role="1hTQn4" value="8fd34237-6e9f-4cf4-8992-427ebb9a6a43" />
+            <property role="3Fg1Gr" value="241" />
+            <node concept="3MKX5h" id="3xmueRu_9CO" role="3MKX6F">
+              <property role="1hTQn4" value="c743d85a-5744-4565-8866-3743e5f0655a" />
+              <property role="3Fg1Gr" value="242" />
+              <node concept="3MKX5i" id="3xmueRu_9CP" role="3MKX6F">
+                <property role="1hTQn4" value="cf565b34-d8c5-4a93-a0a4-01a793fc5d4e" />
+                <property role="3Fg1Gr" value="243" />
+                <node concept="19SGf9" id="3xmueRu_9CQ" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9CR" role="19SJt6">
+                    <property role="19SUeA" value="Evenementenhallen" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9CT" role="3MKX6F">
+              <property role="1hTQn4" value="2e60022a-da8c-4de9-8882-a2a3ad5f455c" />
+              <property role="3Fg1Gr" value="244" />
+              <node concept="3MKX5i" id="3xmueRu_9CU" role="3MKX6F">
+                <property role="1hTQn4" value="95bed0a0-3412-4790-b548-d62a8417c771" />
+                <property role="3Fg1Gr" value="245" />
+                <node concept="19SGf9" id="3xmueRu_9CV" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9CW" role="19SJt6">
+                    <property role="19SUeA" value="90.04.2" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9CY" role="3MKX6F">
+            <property role="1hTQn4" value="1ce881bd-897c-4a82-973f-7a9bdc1c0c89" />
+            <property role="3Fg1Gr" value="246" />
+            <node concept="3MKX5h" id="3xmueRu_9CZ" role="3MKX6F">
+              <property role="1hTQn4" value="f98014c3-5d08-46a9-b144-f4700c96b229" />
+              <property role="3Fg1Gr" value="247" />
+              <node concept="3MKX5i" id="3xmueRu_9D0" role="3MKX6F">
+                <property role="1hTQn4" value="6a6e270a-8404-40cd-a7d3-525563aeb945" />
+                <property role="3Fg1Gr" value="248" />
+                <node concept="19SGf9" id="3xmueRu_9D1" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9D2" role="19SJt6">
+                    <property role="19SUeA" value="Musea" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9D4" role="3MKX6F">
+              <property role="1hTQn4" value="d4defdd4-af0b-4d4e-9687-03513218b88e" />
+              <property role="3Fg1Gr" value="249" />
+              <node concept="3MKX5i" id="3xmueRu_9D5" role="3MKX6F">
+                <property role="1hTQn4" value="91d2f4f1-dcc5-4970-86a1-51bba97eb62a" />
+                <property role="3Fg1Gr" value="250" />
+                <node concept="19SGf9" id="3xmueRu_9D6" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9D7" role="19SJt6">
+                    <property role="19SUeA" value="91.02.1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9D9" role="3MKX6F">
+            <property role="1hTQn4" value="c7863376-412f-4e38-9bd1-298589312fd1" />
+            <property role="3Fg1Gr" value="251" />
+            <node concept="3MKX5h" id="3xmueRu_9Da" role="3MKX6F">
+              <property role="1hTQn4" value="47c5f28c-16a5-4a58-803c-712f6aac5200" />
+              <property role="3Fg1Gr" value="252" />
+              <node concept="3MKX5i" id="3xmueRu_9Db" role="3MKX6F">
+                <property role="1hTQn4" value="7e30af27-7e0c-4567-a452-cf0a6c6dfe22" />
+                <property role="3Fg1Gr" value="253" />
+                <node concept="19SGf9" id="3xmueRu_9Dc" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Dd" role="19SJt6">
+                    <property role="19SUeA" value="Kunstgalerieën en -expositieruimten" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9Df" role="3MKX6F">
+              <property role="1hTQn4" value="6c5a106b-5f48-41bb-8f78-0a87d56b9703" />
+              <property role="3Fg1Gr" value="254" />
+              <node concept="3MKX5i" id="3xmueRu_9Dg" role="3MKX6F">
+                <property role="1hTQn4" value="fb8c2d54-9429-4b58-8f93-02519e49a02b" />
+                <property role="3Fg1Gr" value="255" />
+                <node concept="19SGf9" id="3xmueRu_9Dh" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Di" role="19SJt6">
+                    <property role="19SUeA" value="91.02.2" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9Dk" role="3MKX6F">
+            <property role="1hTQn4" value="1252a9dd-9d2b-4806-9951-703650c28589" />
+            <property role="3Fg1Gr" value="256" />
+            <node concept="3MKX5h" id="3xmueRu_9Dl" role="3MKX6F">
+              <property role="1hTQn4" value="97316227-93d5-47de-bbab-ec7ed9ff1ec2" />
+              <property role="3Fg1Gr" value="257" />
+              <node concept="3MKX5i" id="3xmueRu_9Dm" role="3MKX6F">
+                <property role="1hTQn4" value="68b0ef79-00ab-4107-92c3-1a5fcbd21904" />
+                <property role="3Fg1Gr" value="258" />
+                <node concept="19SGf9" id="3xmueRu_9Dn" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Do" role="19SJt6">
+                    <property role="19SUeA" value="Casino’s" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9Dq" role="3MKX6F">
+              <property role="1hTQn4" value="4257ce71-8dfb-43e8-96cd-d1ee854f6df0" />
+              <property role="3Fg1Gr" value="259" />
+              <node concept="3MKX5i" id="3xmueRu_9Dr" role="3MKX6F">
+                <property role="1hTQn4" value="dc27e43d-d2b8-472c-872f-d32947c456e6" />
+                <property role="3Fg1Gr" value="260" />
+                <node concept="19SGf9" id="3xmueRu_9Ds" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Dt" role="19SJt6">
+                    <property role="19SUeA" value="92.00.1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9Dv" role="3MKX6F">
+            <property role="1hTQn4" value="e4f04ff1-222f-409e-8c9e-23a8be03a0dc" />
+            <property role="3Fg1Gr" value="261" />
+            <node concept="3MKX5h" id="3xmueRu_9Dw" role="3MKX6F">
+              <property role="1hTQn4" value="30fdfe8d-4cd2-4c7d-9175-c42e220f3879" />
+              <property role="3Fg1Gr" value="262" />
+              <node concept="3MKX5i" id="3xmueRu_9Dx" role="3MKX6F">
+                <property role="1hTQn4" value="1ea8ea58-5ce0-4c20-8dc1-fc859fd593c0" />
+                <property role="3Fg1Gr" value="263" />
+                <node concept="19SGf9" id="3xmueRu_9Dy" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Dz" role="19SJt6">
+                    <property role="19SUeA" value="Exploitatie van speelautomaten" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9D_" role="3MKX6F">
+              <property role="1hTQn4" value="ef53c510-f5b7-4a6e-8131-0cfb66553372" />
+              <property role="3Fg1Gr" value="264" />
+              <node concept="3MKX5i" id="3xmueRu_9DA" role="3MKX6F">
+                <property role="1hTQn4" value="b0261acb-ddd0-4d13-a99e-485b88eaebc5" />
+                <property role="3Fg1Gr" value="265" />
+                <node concept="19SGf9" id="3xmueRu_9DB" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9DC" role="19SJt6">
+                    <property role="19SUeA" value="92.00.9" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9DE" role="3MKX6F">
+            <property role="1hTQn4" value="5e6a1a10-5731-4e2f-a051-0bc6597803d5" />
+            <property role="3Fg1Gr" value="266" />
+            <node concept="3MKX5h" id="3xmueRu_9DF" role="3MKX6F">
+              <property role="1hTQn4" value="22add3c2-f686-41a5-aa87-45e17ef90e8f" />
+              <property role="3Fg1Gr" value="267" />
+              <node concept="3MKX5i" id="3xmueRu_9DG" role="3MKX6F">
+                <property role="1hTQn4" value="46ae3744-10c3-4329-a697-8dcf16ee1f81" />
+                <property role="3Fg1Gr" value="268" />
+                <node concept="19SGf9" id="3xmueRu_9DH" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9DI" role="19SJt6">
+                    <property role="19SUeA" value="Sportaccommodaties" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9DK" role="3MKX6F">
+              <property role="1hTQn4" value="06944683-7eff-4807-bfcf-41699d09cfcc" />
+              <property role="3Fg1Gr" value="269" />
+              <node concept="3MKX5i" id="3xmueRu_9DL" role="3MKX6F">
+                <property role="1hTQn4" value="292c7c1e-4123-4dd3-ace1-1153f561e498" />
+                <property role="3Fg1Gr" value="270" />
+                <node concept="19SGf9" id="3xmueRu_9DM" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9DN" role="19SJt6">
+                    <property role="19SUeA" value="93.11" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9DP" role="3MKX6F">
+            <property role="1hTQn4" value="960a18ee-053d-4767-b824-90879469d334" />
+            <property role="3Fg1Gr" value="271" />
+            <node concept="3MKX5h" id="3xmueRu_9DQ" role="3MKX6F">
+              <property role="1hTQn4" value="c3e8b970-08de-4185-b947-c78a7c095d21" />
+              <property role="3Fg1Gr" value="272" />
+              <node concept="3MKX5i" id="3xmueRu_9DR" role="3MKX6F">
+                <property role="1hTQn4" value="e10421d8-898c-4eaa-8d8e-ed058f484b08" />
+                <property role="3Fg1Gr" value="273" />
+                <node concept="19SGf9" id="3xmueRu_9DS" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9DT" role="19SJt6">
+                    <property role="19SUeA" value="Veldvoetbal" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9DV" role="3MKX6F">
+              <property role="1hTQn4" value="27bacbf2-4ae7-4e6f-9c88-65ba49533051" />
+              <property role="3Fg1Gr" value="274" />
+              <node concept="3MKX5i" id="3xmueRu_9DW" role="3MKX6F">
+                <property role="1hTQn4" value="72389b21-70ce-4a19-8c8b-ad577ef7073b" />
+                <property role="3Fg1Gr" value="275" />
+                <node concept="19SGf9" id="3xmueRu_9DX" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9DY" role="19SJt6">
+                    <property role="19SUeA" value="93.12.1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9E0" role="3MKX6F">
+            <property role="1hTQn4" value="d75b4050-dd2d-4f02-ad28-3cf14e805be9" />
+            <property role="3Fg1Gr" value="276" />
+            <node concept="3MKX5h" id="3xmueRu_9E1" role="3MKX6F">
+              <property role="1hTQn4" value="2b511049-9f7c-4798-9722-8f6bc0bfe429" />
+              <property role="3Fg1Gr" value="277" />
+              <node concept="3MKX5i" id="3xmueRu_9E2" role="3MKX6F">
+                <property role="1hTQn4" value="cbde8f50-bad2-4f05-8da0-df2236245fa9" />
+                <property role="3Fg1Gr" value="278" />
+                <node concept="19SGf9" id="3xmueRu_9E3" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9E4" role="19SJt6">
+                    <property role="19SUeA" value="Veldsport in teamverband (geen voetbal)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9E6" role="3MKX6F">
+              <property role="1hTQn4" value="622f259e-9e42-4768-b9b7-4f44ba7c8581" />
+              <property role="3Fg1Gr" value="279" />
+              <node concept="3MKX5i" id="3xmueRu_9E7" role="3MKX6F">
+                <property role="1hTQn4" value="898a4fb8-19d3-4578-b8f0-3d2f423cdd08" />
+                <property role="3Fg1Gr" value="280" />
+                <node concept="19SGf9" id="3xmueRu_9E8" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9E9" role="19SJt6">
+                    <property role="19SUeA" value="93.12.2" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9Eb" role="3MKX6F">
+            <property role="1hTQn4" value="17811eb8-5124-43ec-8f72-4d7da9e3d7d0" />
+            <property role="3Fg1Gr" value="281" />
+            <node concept="3MKX5h" id="3xmueRu_9Ec" role="3MKX6F">
+              <property role="1hTQn4" value="1fc37ab8-0e94-4506-90a1-9b1d62630de8" />
+              <property role="3Fg1Gr" value="282" />
+              <node concept="3MKX5i" id="3xmueRu_9Ed" role="3MKX6F">
+                <property role="1hTQn4" value="880b62a6-6726-4f8d-8fbb-1071044be9a6" />
+                <property role="3Fg1Gr" value="283" />
+                <node concept="19SGf9" id="3xmueRu_9Ee" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Ef" role="19SJt6">
+                    <property role="19SUeA" value="Atletiek" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9Eh" role="3MKX6F">
+              <property role="1hTQn4" value="75d57301-2cd6-4059-adc9-f18187d8b257" />
+              <property role="3Fg1Gr" value="284" />
+              <node concept="3MKX5i" id="3xmueRu_9Ei" role="3MKX6F">
+                <property role="1hTQn4" value="0b555c98-ad9f-498d-9ac0-ca2db8bffcb7" />
+                <property role="3Fg1Gr" value="285" />
+                <node concept="19SGf9" id="3xmueRu_9Ej" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Ek" role="19SJt6">
+                    <property role="19SUeA" value="93.12.3" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9Em" role="3MKX6F">
+            <property role="1hTQn4" value="a6e1efa2-1f42-4160-a2ef-0e1bf0d67b10" />
+            <property role="3Fg1Gr" value="286" />
+            <node concept="3MKX5h" id="3xmueRu_9En" role="3MKX6F">
+              <property role="1hTQn4" value="7973bd8f-b53b-4519-a60b-5061095b18b7" />
+              <property role="3Fg1Gr" value="287" />
+              <node concept="3MKX5i" id="3xmueRu_9Eo" role="3MKX6F">
+                <property role="1hTQn4" value="f5983fbb-9ca0-44e5-a0db-b7cf9348a30f" />
+                <property role="3Fg1Gr" value="288" />
+                <node concept="19SGf9" id="3xmueRu_9Ep" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Eq" role="19SJt6">
+                    <property role="19SUeA" value="Tennis" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9Es" role="3MKX6F">
+              <property role="1hTQn4" value="cc6f1044-8d07-4f1d-a9eb-1d921cd6f530" />
+              <property role="3Fg1Gr" value="289" />
+              <node concept="3MKX5i" id="3xmueRu_9Et" role="3MKX6F">
+                <property role="1hTQn4" value="cbd84ce0-73f3-4a31-ad12-3442ab601701" />
+                <property role="3Fg1Gr" value="290" />
+                <node concept="19SGf9" id="3xmueRu_9Eu" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Ev" role="19SJt6">
+                    <property role="19SUeA" value="93.12.4" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9Ex" role="3MKX6F">
+            <property role="1hTQn4" value="5866566b-8a1f-4ab0-aa89-b2ad5330cb67" />
+            <property role="3Fg1Gr" value="291" />
+            <node concept="3MKX5h" id="3xmueRu_9Ey" role="3MKX6F">
+              <property role="1hTQn4" value="36b028f2-add5-4be7-a108-43f0dcf87dc1" />
+              <property role="3Fg1Gr" value="292" />
+              <node concept="3MKX5i" id="3xmueRu_9Ez" role="3MKX6F">
+                <property role="1hTQn4" value="28cd45c0-6171-45ef-bef7-fa90541a365f" />
+                <property role="3Fg1Gr" value="293" />
+                <node concept="19SGf9" id="3xmueRu_9E$" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9E_" role="19SJt6">
+                    <property role="19SUeA" value="Paardensport en maneges" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9EB" role="3MKX6F">
+              <property role="1hTQn4" value="e9bcd436-e4ad-40ad-8bf1-c9b609741ec7" />
+              <property role="3Fg1Gr" value="294" />
+              <node concept="3MKX5i" id="3xmueRu_9EC" role="3MKX6F">
+                <property role="1hTQn4" value="d9e9915f-e408-4080-90af-9edc1eea3634" />
+                <property role="3Fg1Gr" value="295" />
+                <node concept="19SGf9" id="3xmueRu_9ED" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9EE" role="19SJt6">
+                    <property role="19SUeA" value="93.12.5" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9EG" role="3MKX6F">
+            <property role="1hTQn4" value="1e480cb2-7986-4287-9d42-39fbac3faf84" />
+            <property role="3Fg1Gr" value="296" />
+            <node concept="3MKX5h" id="3xmueRu_9EH" role="3MKX6F">
+              <property role="1hTQn4" value="ca466030-ec83-48ae-9a21-2429203b65b1" />
+              <property role="3Fg1Gr" value="297" />
+              <node concept="3MKX5i" id="3xmueRu_9EI" role="3MKX6F">
+                <property role="1hTQn4" value="e537729d-3ec9-4e8b-8dbb-c165eb35841f" />
+                <property role="3Fg1Gr" value="298" />
+                <node concept="19SGf9" id="3xmueRu_9EJ" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9EK" role="19SJt6">
+                    <property role="19SUeA" value="Wielersport" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9EM" role="3MKX6F">
+              <property role="1hTQn4" value="ac29bb28-2458-41cc-98d7-add30492be83" />
+              <property role="3Fg1Gr" value="299" />
+              <node concept="3MKX5i" id="3xmueRu_9EN" role="3MKX6F">
+                <property role="1hTQn4" value="0fd6c49f-ba00-4625-9b5b-07af26c60a3d" />
+                <property role="3Fg1Gr" value="300" />
+                <node concept="19SGf9" id="3xmueRu_9EO" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9EP" role="19SJt6">
+                    <property role="19SUeA" value="93.12.6" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9ER" role="3MKX6F">
+            <property role="1hTQn4" value="a127108c-5cdf-4bed-8885-5dbe62f585e5" />
+            <property role="3Fg1Gr" value="301" />
+            <node concept="3MKX5h" id="3xmueRu_9ES" role="3MKX6F">
+              <property role="1hTQn4" value="97b7dca0-f1bf-47c6-845c-581e9521c86d" />
+              <property role="3Fg1Gr" value="302" />
+              <node concept="3MKX5i" id="3xmueRu_9ET" role="3MKX6F">
+                <property role="1hTQn4" value="6792b770-9f42-422d-b345-fa99c748a2c2" />
+                <property role="3Fg1Gr" value="303" />
+                <node concept="19SGf9" id="3xmueRu_9EU" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9EV" role="19SJt6">
+                    <property role="19SUeA" value="Auto- en motorsport" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9EX" role="3MKX6F">
+              <property role="1hTQn4" value="3a73ae4f-419b-4508-9989-56d26073ca47" />
+              <property role="3Fg1Gr" value="304" />
+              <node concept="3MKX5i" id="3xmueRu_9EY" role="3MKX6F">
+                <property role="1hTQn4" value="4f9945ac-6684-478d-9364-400a679e457d" />
+                <property role="3Fg1Gr" value="305" />
+                <node concept="19SGf9" id="3xmueRu_9EZ" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9F0" role="19SJt6">
+                    <property role="19SUeA" value="93.12.7" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9F2" role="3MKX6F">
+            <property role="1hTQn4" value="37dd4131-1ebb-487d-a895-fe4ec231d908" />
+            <property role="3Fg1Gr" value="306" />
+            <node concept="3MKX5h" id="3xmueRu_9F3" role="3MKX6F">
+              <property role="1hTQn4" value="2019f2c4-5408-4d2f-84b3-27d85399502f" />
+              <property role="3Fg1Gr" value="307" />
+              <node concept="3MKX5i" id="3xmueRu_9F4" role="3MKX6F">
+                <property role="1hTQn4" value="51a48ddb-2b68-4098-90d8-b886e20890df" />
+                <property role="3Fg1Gr" value="308" />
+                <node concept="19SGf9" id="3xmueRu_9F5" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9F6" role="19SJt6">
+                    <property role="19SUeA" value="Wintersport" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9F8" role="3MKX6F">
+              <property role="1hTQn4" value="0b5589e8-a82c-41cd-b41f-a7d681131a4f" />
+              <property role="3Fg1Gr" value="309" />
+              <node concept="3MKX5i" id="3xmueRu_9F9" role="3MKX6F">
+                <property role="1hTQn4" value="ad5550f0-e0a6-4fa6-b1f7-72f06ce40db7" />
+                <property role="3Fg1Gr" value="310" />
+                <node concept="19SGf9" id="3xmueRu_9Fa" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Fb" role="19SJt6">
+                    <property role="19SUeA" value="93.12.8" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9Fd" role="3MKX6F">
+            <property role="1hTQn4" value="9d8b1854-f31e-4c3f-a9dc-0a39b742f8aa" />
+            <property role="3Fg1Gr" value="311" />
+            <node concept="3MKX5h" id="3xmueRu_9Fe" role="3MKX6F">
+              <property role="1hTQn4" value="9eac99c9-a166-4a48-be56-e46a6cdf328a" />
+              <property role="3Fg1Gr" value="312" />
+              <node concept="3MKX5i" id="3xmueRu_9Ff" role="3MKX6F">
+                <property role="1hTQn4" value="7cb1d0ec-7e92-4b38-9ea3-b33e8b6a7ff0" />
+                <property role="3Fg1Gr" value="313" />
+                <node concept="19SGf9" id="3xmueRu_9Fg" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Fh" role="19SJt6">
+                    <property role="19SUeA" value="Overige buitensport" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9Fj" role="3MKX6F">
+              <property role="1hTQn4" value="260eacfc-0264-418e-8f33-21c87fe955f0" />
+              <property role="3Fg1Gr" value="314" />
+              <node concept="3MKX5i" id="3xmueRu_9Fk" role="3MKX6F">
+                <property role="1hTQn4" value="402b9518-e910-4502-aaae-cd571bd97b25" />
+                <property role="3Fg1Gr" value="315" />
+                <node concept="19SGf9" id="3xmueRu_9Fl" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Fm" role="19SJt6">
+                    <property role="19SUeA" value="93.12.9" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9Fo" role="3MKX6F">
+            <property role="1hTQn4" value="3d05e951-88c1-4887-8c47-fa8287c91bb3" />
+            <property role="3Fg1Gr" value="316" />
+            <node concept="3MKX5h" id="3xmueRu_9Fp" role="3MKX6F">
+              <property role="1hTQn4" value="2160919f-2353-447e-8338-98dd35300841" />
+              <property role="3Fg1Gr" value="317" />
+              <node concept="3MKX5i" id="3xmueRu_9Fq" role="3MKX6F">
+                <property role="1hTQn4" value="f167dc35-fde3-43d0-ab05-edd95bc63a74" />
+                <property role="3Fg1Gr" value="318" />
+                <node concept="19SGf9" id="3xmueRu_9Fr" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Fs" role="19SJt6">
+                    <property role="19SUeA" value="Fitnesscentra" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9Fu" role="3MKX6F">
+              <property role="1hTQn4" value="ec0e366e-d54d-4c9c-889a-c6bfd3abe757" />
+              <property role="3Fg1Gr" value="319" />
+              <node concept="3MKX5i" id="3xmueRu_9Fv" role="3MKX6F">
+                <property role="1hTQn4" value="b61436cb-f08a-4d5f-9b52-da8c897ca99d" />
+                <property role="3Fg1Gr" value="320" />
+                <node concept="19SGf9" id="3xmueRu_9Fw" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Fx" role="19SJt6">
+                    <property role="19SUeA" value="93.13" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9Fz" role="3MKX6F">
+            <property role="1hTQn4" value="6968d5cd-ed86-4148-999a-256e9d5964a5" />
+            <property role="3Fg1Gr" value="321" />
+            <node concept="3MKX5h" id="3xmueRu_9F$" role="3MKX6F">
+              <property role="1hTQn4" value="90b2f372-cf4a-4561-9321-5e0d293d00eb" />
+              <property role="3Fg1Gr" value="322" />
+              <node concept="3MKX5i" id="3xmueRu_9F_" role="3MKX6F">
+                <property role="1hTQn4" value="12242e93-d5c7-40d0-880d-629364f29669" />
+                <property role="3Fg1Gr" value="323" />
+                <node concept="19SGf9" id="3xmueRu_9FA" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9FB" role="19SJt6">
+                    <property role="19SUeA" value="Indviduele zaalsport" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9FD" role="3MKX6F">
+              <property role="1hTQn4" value="7b37bfb2-d41a-4d44-8f1d-d4e7f238a906" />
+              <property role="3Fg1Gr" value="324" />
+              <node concept="3MKX5i" id="3xmueRu_9FE" role="3MKX6F">
+                <property role="1hTQn4" value="88f19561-ab5f-487c-a548-7a08bf23120f" />
+                <property role="3Fg1Gr" value="325" />
+                <node concept="19SGf9" id="3xmueRu_9FF" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9FG" role="19SJt6">
+                    <property role="19SUeA" value="93.14.1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9FI" role="3MKX6F">
+            <property role="1hTQn4" value="f5d9d80f-6850-44ab-9929-a8d2f4d2b88a" />
+            <property role="3Fg1Gr" value="326" />
+            <node concept="3MKX5h" id="3xmueRu_9FJ" role="3MKX6F">
+              <property role="1hTQn4" value="e54e8cf4-f584-4155-a8f8-062c74bb4e41" />
+              <property role="3Fg1Gr" value="327" />
+              <node concept="3MKX5i" id="3xmueRu_9FK" role="3MKX6F">
+                <property role="1hTQn4" value="ae39cd3c-12ac-4db8-b4de-2aad0a04de6a" />
+                <property role="3Fg1Gr" value="328" />
+                <node concept="19SGf9" id="3xmueRu_9FL" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9FM" role="19SJt6">
+                    <property role="19SUeA" value="Zaalsport in teamverband" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9FO" role="3MKX6F">
+              <property role="1hTQn4" value="fc47ee29-962f-4c91-881f-385baa7e1184" />
+              <property role="3Fg1Gr" value="329" />
+              <node concept="3MKX5i" id="3xmueRu_9FP" role="3MKX6F">
+                <property role="1hTQn4" value="56ab939d-a489-4352-9f01-464b24a943c5" />
+                <property role="3Fg1Gr" value="330" />
+                <node concept="19SGf9" id="3xmueRu_9FQ" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9FR" role="19SJt6">
+                    <property role="19SUeA" value="93.14.2" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9FT" role="3MKX6F">
+            <property role="1hTQn4" value="cc8670c3-50f0-4d63-99e8-493febdb7d56" />
+            <property role="3Fg1Gr" value="331" />
+            <node concept="3MKX5h" id="3xmueRu_9FU" role="3MKX6F">
+              <property role="1hTQn4" value="ee81518b-4b60-4b64-a94d-0d55f71b19a7" />
+              <property role="3Fg1Gr" value="332" />
+              <node concept="3MKX5i" id="3xmueRu_9FV" role="3MKX6F">
+                <property role="1hTQn4" value="1e2a309b-87d7-4b35-9688-082852814c55" />
+                <property role="3Fg1Gr" value="333" />
+                <node concept="19SGf9" id="3xmueRu_9FW" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9FX" role="19SJt6">
+                    <property role="19SUeA" value="Kracht- en vechtsport" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9FZ" role="3MKX6F">
+              <property role="1hTQn4" value="30b9cace-26a4-4f75-80ec-42d44ed7bdff" />
+              <property role="3Fg1Gr" value="334" />
+              <node concept="3MKX5i" id="3xmueRu_9G0" role="3MKX6F">
+                <property role="1hTQn4" value="c4aacf3f-b2d7-4068-b037-737538ebb8b7" />
+                <property role="3Fg1Gr" value="335" />
+                <node concept="19SGf9" id="3xmueRu_9G1" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9G2" role="19SJt6">
+                    <property role="19SUeA" value="93.14.3" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9G4" role="3MKX6F">
+            <property role="1hTQn4" value="49ff4749-96c2-48e1-9073-e45e05b8f210" />
+            <property role="3Fg1Gr" value="336" />
+            <node concept="3MKX5h" id="3xmueRu_9G5" role="3MKX6F">
+              <property role="1hTQn4" value="d8da3180-bddb-42d9-86ce-ac9e4d171ba4" />
+              <property role="3Fg1Gr" value="337" />
+              <node concept="3MKX5i" id="3xmueRu_9G6" role="3MKX6F">
+                <property role="1hTQn4" value="517d20d5-fc92-4d18-967e-9c1b8a319e58" />
+                <property role="3Fg1Gr" value="338" />
+                <node concept="19SGf9" id="3xmueRu_9G7" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9G8" role="19SJt6">
+                    <property role="19SUeA" value="Bowlen, kegelen, biljarten e.d." />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9Ga" role="3MKX6F">
+              <property role="1hTQn4" value="0bb984a1-ca60-4cf1-9287-393c571334c2" />
+              <property role="3Fg1Gr" value="339" />
+              <node concept="3MKX5i" id="3xmueRu_9Gb" role="3MKX6F">
+                <property role="1hTQn4" value="65dca7ac-b673-49a0-8b22-e508324b7785" />
+                <property role="3Fg1Gr" value="340" />
+                <node concept="19SGf9" id="3xmueRu_9Gc" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Gd" role="19SJt6">
+                    <property role="19SUeA" value="93.14.4" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9Gf" role="3MKX6F">
+            <property role="1hTQn4" value="86e70d51-ff97-4d85-a055-560ed50c0078" />
+            <property role="3Fg1Gr" value="341" />
+            <node concept="3MKX5h" id="3xmueRu_9Gg" role="3MKX6F">
+              <property role="1hTQn4" value="e865404e-4e29-4d66-9776-def1dc343228" />
+              <property role="3Fg1Gr" value="342" />
+              <node concept="3MKX5i" id="3xmueRu_9Gh" role="3MKX6F">
+                <property role="1hTQn4" value="775ea7c2-1eeb-4684-8f9b-b6349d362650" />
+                <property role="3Fg1Gr" value="343" />
+                <node concept="19SGf9" id="3xmueRu_9Gi" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Gj" role="19SJt6">
+                    <property role="19SUeA" value="Denksport" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9Gl" role="3MKX6F">
+              <property role="1hTQn4" value="cabbdccf-6ac5-4065-9fd1-3ba0fedd5402" />
+              <property role="3Fg1Gr" value="344" />
+              <node concept="3MKX5i" id="3xmueRu_9Gm" role="3MKX6F">
+                <property role="1hTQn4" value="0c2b3f24-cb73-4d3b-bef2-35bfa4717e94" />
+                <property role="3Fg1Gr" value="345" />
+                <node concept="19SGf9" id="3xmueRu_9Gn" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Go" role="19SJt6">
+                    <property role="19SUeA" value="93.14.5" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9Gq" role="3MKX6F">
+            <property role="1hTQn4" value="f06df369-c6be-4042-a047-96ae32d6db78" />
+            <property role="3Fg1Gr" value="346" />
+            <node concept="3MKX5h" id="3xmueRu_9Gr" role="3MKX6F">
+              <property role="1hTQn4" value="2742cc15-5dcf-4840-8250-e5432921dad3" />
+              <property role="3Fg1Gr" value="347" />
+              <node concept="3MKX5i" id="3xmueRu_9Gs" role="3MKX6F">
+                <property role="1hTQn4" value="25289d2f-a1f5-4190-adda-bc4e50486ad4" />
+                <property role="3Fg1Gr" value="348" />
+                <node concept="19SGf9" id="3xmueRu_9Gt" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Gu" role="19SJt6">
+                    <property role="19SUeA" value="Sportscholen" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9Gw" role="3MKX6F">
+              <property role="1hTQn4" value="269dcfa3-30e8-475a-b1ef-eb90642376b4" />
+              <property role="3Fg1Gr" value="349" />
+              <node concept="3MKX5i" id="3xmueRu_9Gx" role="3MKX6F">
+                <property role="1hTQn4" value="852a1034-3334-4afc-9fb4-367fcbd3d0fe" />
+                <property role="3Fg1Gr" value="350" />
+                <node concept="19SGf9" id="3xmueRu_9Gy" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Gz" role="19SJt6">
+                    <property role="19SUeA" value="93.14.6" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9G_" role="3MKX6F">
+            <property role="1hTQn4" value="9c275589-a288-4bec-a6ef-9a00cc1355fb" />
+            <property role="3Fg1Gr" value="351" />
+            <node concept="3MKX5h" id="3xmueRu_9GA" role="3MKX6F">
+              <property role="1hTQn4" value="103d0f43-0a28-45c3-800d-34dfffbbbe80" />
+              <property role="3Fg1Gr" value="352" />
+              <node concept="3MKX5i" id="3xmueRu_9GB" role="3MKX6F">
+                <property role="1hTQn4" value="1b29f296-6010-4f0a-a706-e886fa544b41" />
+                <property role="3Fg1Gr" value="353" />
+                <node concept="19SGf9" id="3xmueRu_9GC" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9GD" role="19SJt6">
+                    <property role="19SUeA" value="Overige binnensport en omnisport" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9GF" role="3MKX6F">
+              <property role="1hTQn4" value="d3661a8b-fa9e-429e-a2c6-9bc236b5c94d" />
+              <property role="3Fg1Gr" value="354" />
+              <node concept="3MKX5i" id="3xmueRu_9GG" role="3MKX6F">
+                <property role="1hTQn4" value="8ba772b0-3301-40a4-8a76-87cc43a65087" />
+                <property role="3Fg1Gr" value="355" />
+                <node concept="19SGf9" id="3xmueRu_9GH" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9GI" role="19SJt6">
+                    <property role="19SUeA" value="93.14.9" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9GK" role="3MKX6F">
+            <property role="1hTQn4" value="f844bf17-d8d7-4eb9-bb87-14604cffdaff" />
+            <property role="3Fg1Gr" value="356" />
+            <node concept="3MKX5h" id="3xmueRu_9GL" role="3MKX6F">
+              <property role="1hTQn4" value="dc41e38e-84b2-4aba-99aa-55f84c833fd7" />
+              <property role="3Fg1Gr" value="357" />
+              <node concept="3MKX5i" id="3xmueRu_9GM" role="3MKX6F">
+                <property role="1hTQn4" value="af08cb4b-c1d5-4453-94db-81abd540f1d3" />
+                <property role="3Fg1Gr" value="358" />
+                <node concept="19SGf9" id="3xmueRu_9GN" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9GO" role="19SJt6">
+                    <property role="19SUeA" value="Zwem- en onderwatersport" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9GQ" role="3MKX6F">
+              <property role="1hTQn4" value="90ce2a9b-50ee-45fc-b760-ac96a8ca320b" />
+              <property role="3Fg1Gr" value="359" />
+              <node concept="3MKX5i" id="3xmueRu_9GR" role="3MKX6F">
+                <property role="1hTQn4" value="538b929e-48ea-4505-a537-9d0dfe64cfc8" />
+                <property role="3Fg1Gr" value="360" />
+                <node concept="19SGf9" id="3xmueRu_9GS" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9GT" role="19SJt6">
+                    <property role="19SUeA" value="93.15.1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9GV" role="3MKX6F">
+            <property role="1hTQn4" value="608ad1bf-0fa0-4bef-b108-d9c6fd9e42ff" />
+            <property role="3Fg1Gr" value="361" />
+            <node concept="3MKX5h" id="3xmueRu_9GW" role="3MKX6F">
+              <property role="1hTQn4" value="72ac5681-2e84-40e5-9124-38fb34454502" />
+              <property role="3Fg1Gr" value="362" />
+              <node concept="3MKX5i" id="3xmueRu_9GX" role="3MKX6F">
+                <property role="1hTQn4" value="96d2a187-576e-4a73-89a8-c88a415aa5f8" />
+                <property role="3Fg1Gr" value="363" />
+                <node concept="19SGf9" id="3xmueRu_9GY" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9GZ" role="19SJt6">
+                    <property role="19SUeA" value="Roei- kano- zeil- en surfsport e.d." />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9H1" role="3MKX6F">
+              <property role="1hTQn4" value="7bdb6e31-5929-41e9-b521-1d708ed6f35e" />
+              <property role="3Fg1Gr" value="364" />
+              <node concept="3MKX5i" id="3xmueRu_9H2" role="3MKX6F">
+                <property role="1hTQn4" value="d75b2501-038f-4eaf-9e00-ab544a8fe0ff" />
+                <property role="3Fg1Gr" value="365" />
+                <node concept="19SGf9" id="3xmueRu_9H3" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9H4" role="19SJt6">
+                    <property role="19SUeA" value="93.15.2" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9H6" role="3MKX6F">
+            <property role="1hTQn4" value="1cbe3fa0-545e-4992-981c-f936ebb2eb81" />
+            <property role="3Fg1Gr" value="366" />
+            <node concept="3MKX5h" id="3xmueRu_9H7" role="3MKX6F">
+              <property role="1hTQn4" value="4f54388f-9eea-4567-9766-eb7010e614ad" />
+              <property role="3Fg1Gr" value="367" />
+              <node concept="3MKX5i" id="3xmueRu_9H8" role="3MKX6F">
+                <property role="1hTQn4" value="deafcb81-614f-48b9-bc0f-d72c520e36bb" />
+                <property role="3Fg1Gr" value="368" />
+                <node concept="19SGf9" id="3xmueRu_9H9" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Ha" role="19SJt6">
+                    <property role="19SUeA" value="Organiseren van sportevenement" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9Hc" role="3MKX6F">
+              <property role="1hTQn4" value="10713f72-a1b6-498a-8200-0877a99a9b81" />
+              <property role="3Fg1Gr" value="369" />
+              <node concept="3MKX5i" id="3xmueRu_9Hd" role="3MKX6F">
+                <property role="1hTQn4" value="b947cd85-60f6-4075-9f0e-f8e6f654c02e" />
+                <property role="3Fg1Gr" value="370" />
+                <node concept="19SGf9" id="3xmueRu_9He" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Hf" role="19SJt6">
+                    <property role="19SUeA" value="93.19.5" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9Hh" role="3MKX6F">
+            <property role="1hTQn4" value="9515e183-09b2-41db-917f-dc9189d86255" />
+            <property role="3Fg1Gr" value="371" />
+            <node concept="3MKX5h" id="3xmueRu_9Hi" role="3MKX6F">
+              <property role="1hTQn4" value="19820980-5ebc-41ed-a847-72aef7c0ae8a" />
+              <property role="3Fg1Gr" value="372" />
+              <node concept="3MKX5i" id="3xmueRu_9Hj" role="3MKX6F">
+                <property role="1hTQn4" value="aed4e32d-e826-409f-bd1d-7a2fcafaa06c" />
+                <property role="3Fg1Gr" value="373" />
+                <node concept="19SGf9" id="3xmueRu_9Hk" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Hl" role="19SJt6">
+                    <property role="19SUeA" value="Pret-en themaparken" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9Hn" role="3MKX6F">
+              <property role="1hTQn4" value="9bf2c90b-b4c4-4789-9ae9-94e6154d1b7c" />
+              <property role="3Fg1Gr" value="374" />
+              <node concept="3MKX5i" id="3xmueRu_9Ho" role="3MKX6F">
+                <property role="1hTQn4" value="04c0987a-78a2-4555-9250-4363b2bc99ea" />
+                <property role="3Fg1Gr" value="375" />
+                <node concept="19SGf9" id="3xmueRu_9Hp" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Hq" role="19SJt6">
+                    <property role="19SUeA" value="93.21.1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9Hs" role="3MKX6F">
+            <property role="1hTQn4" value="a660bfad-5415-4e9e-ac77-bc6452d0f4d9" />
+            <property role="3Fg1Gr" value="376" />
+            <node concept="3MKX5h" id="3xmueRu_9Ht" role="3MKX6F">
+              <property role="1hTQn4" value="244d9370-7cd6-43e2-9916-8dfd9a14c0a9" />
+              <property role="3Fg1Gr" value="377" />
+              <node concept="3MKX5i" id="3xmueRu_9Hu" role="3MKX6F">
+                <property role="1hTQn4" value="bb9ad4c9-9a71-460e-85bb-6b66254b9954" />
+                <property role="3Fg1Gr" value="378" />
+                <node concept="19SGf9" id="3xmueRu_9Hv" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9Hw" role="19SJt6">
+                    <property role="19SUeA" value="Kermisattracties" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9Hy" role="3MKX6F">
+              <property role="1hTQn4" value="77b787b1-0a9a-4d53-ae46-8717a8577356" />
+              <property role="3Fg1Gr" value="379" />
+              <node concept="3MKX5i" id="3xmueRu_9Hz" role="3MKX6F">
+                <property role="1hTQn4" value="f7af2e72-8fac-44a6-b4c2-96d91eae1691" />
+                <property role="3Fg1Gr" value="380" />
+                <node concept="19SGf9" id="3xmueRu_9H$" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9H_" role="19SJt6">
+                    <property role="19SUeA" value="93.21.2" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9HB" role="3MKX6F">
+            <property role="1hTQn4" value="eabc84d8-9f45-410f-871d-829495db202e" />
+            <property role="3Fg1Gr" value="381" />
+            <node concept="3MKX5h" id="3xmueRu_9HC" role="3MKX6F">
+              <property role="1hTQn4" value="feb92ca2-0691-4b3f-84bb-4f6ba1dce662" />
+              <property role="3Fg1Gr" value="382" />
+              <node concept="3MKX5i" id="3xmueRu_9HD" role="3MKX6F">
+                <property role="1hTQn4" value="1ad07617-af60-48e3-86b1-857fc8ed02eb" />
+                <property role="3Fg1Gr" value="383" />
+                <node concept="19SGf9" id="3xmueRu_9HE" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9HF" role="19SJt6">
+                    <property role="19SUeA" value="Haarverzorging" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9HH" role="3MKX6F">
+              <property role="1hTQn4" value="6d727e1b-9bf5-45b0-9445-9b0bf62c64b5" />
+              <property role="3Fg1Gr" value="384" />
+              <node concept="3MKX5i" id="3xmueRu_9HI" role="3MKX6F">
+                <property role="1hTQn4" value="f7d0c818-5763-4208-95ee-c8bed1c2a640" />
+                <property role="3Fg1Gr" value="385" />
+                <node concept="19SGf9" id="3xmueRu_9HJ" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9HK" role="19SJt6">
+                    <property role="19SUeA" value="96.02.1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9HM" role="3MKX6F">
+            <property role="1hTQn4" value="629e2b2a-9b6d-4f10-8e13-c64815efe0c6" />
+            <property role="3Fg1Gr" value="386" />
+            <node concept="3MKX5h" id="3xmueRu_9HN" role="3MKX6F">
+              <property role="1hTQn4" value="3524ec25-8010-4fc7-93ed-cec1d447227a" />
+              <property role="3Fg1Gr" value="387" />
+              <node concept="3MKX5i" id="3xmueRu_9HO" role="3MKX6F">
+                <property role="1hTQn4" value="2147a957-ba2f-4aa6-9a16-2b10362219e2" />
+                <property role="3Fg1Gr" value="388" />
+                <node concept="19SGf9" id="3xmueRu_9HP" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9HQ" role="19SJt6">
+                    <property role="19SUeA" value="Schoonheidsverzorging, pedicures en manicures, visagie en image consulting" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9HS" role="3MKX6F">
+              <property role="1hTQn4" value="84a9a8fc-adc2-4cb6-a9a6-3bcf2956c351" />
+              <property role="3Fg1Gr" value="389" />
+              <node concept="3MKX5i" id="3xmueRu_9HT" role="3MKX6F">
+                <property role="1hTQn4" value="eb163707-f898-4aa4-81e1-f7b92f32de50" />
+                <property role="3Fg1Gr" value="390" />
+                <node concept="19SGf9" id="3xmueRu_9HU" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9HV" role="19SJt6">
+                    <property role="19SUeA" value="96.02.2" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="3xmueRu_9HX" role="3MKX6F">
+            <property role="1hTQn4" value="68b90c36-3c41-422e-a466-5c70bed4cd3e" />
+            <property role="3Fg1Gr" value="391" />
+            <node concept="3MKX5h" id="3xmueRu_9HY" role="3MKX6F">
+              <property role="1hTQn4" value="2d2b214c-668b-4fb1-b65b-7a50537fa4ba" />
+              <property role="3Fg1Gr" value="392" />
+              <node concept="3MKX5i" id="3xmueRu_9HZ" role="3MKX6F">
+                <property role="1hTQn4" value="09fedcd0-ada3-4126-bedd-9b92b017f6f1" />
+                <property role="3Fg1Gr" value="393" />
+                <node concept="19SGf9" id="3xmueRu_9I0" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9I1" role="19SJt6">
+                    <property role="19SUeA" value="Sauna’s, solaria, baden e.d." />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="3xmueRu_9I3" role="3MKX6F">
+              <property role="1hTQn4" value="6c9cd865-bbe2-4c8d-8806-80da588a4534" />
+              <property role="3Fg1Gr" value="394" />
+              <node concept="3MKX5i" id="3xmueRu_9I4" role="3MKX6F">
+                <property role="1hTQn4" value="b686ee74-a258-4065-a611-eb306e5c2789" />
+                <property role="3Fg1Gr" value="395" />
+                <node concept="19SGf9" id="3xmueRu_9I5" role="3MLR7a">
+                  <node concept="19SUe$" id="3xmueRu_9I6" role="19SJt6">
+                    <property role="19SUeA" value="96.04" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2ATdSu" id="3xmueRu_iec">
+    <property role="2AErxT" value="BWBR0039429" />
+    <property role="TrG5h" value="Comptabiliteitswet 2016" />
+  </node>
+  <node concept="2ANm86" id="3xmueRu_ied">
+    <property role="3GE5qa" value="versions" />
+    <property role="TrG5h" value="01-01-2018 t/m 31-12-2018" />
+    <property role="2AEqdP" value="2018-12-31" />
+    <property role="2AEqdO" value="2018-01-01" />
+    <property role="W2joe" value="jci1.3:c:BWBR0039429&amp;z=2018-01-01&amp;g=2018-01-01" />
+    <property role="ZyLMf" value="http://wetten.overheid.nl/1.0:c:BWBR0039429&amp;g=2018-01-01" />
+    <property role="2JHwUh" value="https://fin.triply.cc/ole/BWB/id/BWBR0039429/13936364/2018-01-01/2018-01-01" />
+    <ref role="2AErGN" node="3xmueRu_iec" resolve="Comptabiliteitswet 2016" />
+  </node>
+  <node concept="2ANm86" id="3xmueRu_iee">
+    <property role="3GE5qa" value="versions" />
+    <property role="TrG5h" value="01-01-2019 t/m 31-12-2019" />
+    <property role="2AEqdP" value="2019-12-31" />
+    <property role="2AEqdO" value="2019-01-01" />
+    <property role="W2joe" value="jci1.3:c:BWBR0039429&amp;z=2019-01-01&amp;g=2019-01-01" />
+    <property role="ZyLMf" value="http://wetten.overheid.nl/1.0:c:BWBR0039429&amp;g=2019-01-01" />
+    <property role="2JHwUh" value="https://fin.triply.cc/ole/BWB/id/BWBR0039429/13936364/2019-01-01/2019-01-01" />
+    <ref role="2AErGN" node="3xmueRu_iec" resolve="Comptabiliteitswet 2016" />
+  </node>
+  <node concept="2ANm86" id="3xmueRu_ief">
+    <property role="3GE5qa" value="versions" />
+    <property role="TrG5h" value="01-01-2020 t/m 14-09-2020" />
+    <property role="2AEqdP" value="2020-09-14" />
+    <property role="2AEqdO" value="2020-01-01" />
+    <property role="W2joe" value="jci1.3:c:BWBR0039429&amp;z=2020-01-01&amp;g=2020-01-01" />
+    <property role="ZyLMf" value="http://wetten.overheid.nl/1.0:c:BWBR0039429&amp;g=2020-01-01" />
+    <property role="2JHwUh" value="https://fin.triply.cc/ole/BWB/id/BWBR0039429/13936364/2020-01-01/2020-01-01" />
+    <ref role="2AErGN" node="3xmueRu_iec" resolve="Comptabiliteitswet 2016" />
+    <node concept="3MKX5i" id="4qxaCfUgOJO" role="3MKX6F">
+      <property role="1hTQn4" value="edff1205-0817-4fc8-926e-7a9723786051" />
+      <property role="3Fg1Gr" value="1" />
+      <node concept="19SGf9" id="4qxaCfUgOJP" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgOJQ" role="19SJt6">
+          <property role="19SUeA" value="Wet van 22 maart 2017, houdende regels inzake het beheer, de informatievoorziening, de controle en de verantwoording van de financiën van het Rijk, inzake het beheer van publieke liquide middelen buiten het Rijk en inzake het toezicht op het beheer van publieke liquide middelen en publieke financiële middelen buiten het Rijk (Comptabiliteitswet 2016)" />
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5i" id="4qxaCfUgOJS" role="3MKX6F">
+      <property role="1hTQn4" value="cacdf80a-6e37-4dad-89e5-21228ac32817" />
+      <property role="3Fg1Gr" value="2" />
+      <node concept="19SGf9" id="4qxaCfUgOJT" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgOJU" role="19SJt6">
+          <property role="19SUeA" value="Comptabiliteitswet 2016" />
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOJW" role="3MKX6F">
+      <property role="1hTQn4" value="869da83d-25d3-4ee7-88a8-04e24e7695aa" />
+      <property role="3Fg1Gr" value="3" />
+      <node concept="3MKX5h" id="4qxaCfUgOJX" role="3MKX6F">
+        <property role="1hTQn4" value="ee72dafc-8c45-429e-989e-7b5ca4fd119e" />
+        <property role="3Fg1Gr" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgOJY" role="3MKX6F">
+          <property role="1hTQn4" value="b7a97299-80db-465b-bb30-956633725542" />
+          <property role="3Fg1Gr" value="5" />
+          <node concept="19SGf9" id="4qxaCfUgOJZ" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOK0" role="19SJt6">
+              <property role="19SUeA" value="Wij Willem-Alexander, bij de gratie Gods, Koning der Nederlanden, Prins van Oranje-Nassau, enz. enz. enz." />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgOK2" role="3MKX6F">
+          <property role="1hTQn4" value="cb067bd6-67f8-4b35-8668-52e2beaba6d3" />
+          <property role="3Fg1Gr" value="6" />
+          <node concept="3MKX5i" id="4qxaCfUgOK3" role="3MKX6F">
+            <property role="1hTQn4" value="a46270af-bb83-4b0c-9fad-e058e58a67b5" />
+            <property role="3Fg1Gr" value="7" />
+            <node concept="19SGf9" id="4qxaCfUgOK4" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgOK5" role="19SJt6">
+                <property role="19SUeA" value="Allen die deze zullen zien of horen lezen, saluut! doen te weten:" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5i" id="4qxaCfUgOK7" role="3MKX6F">
+            <property role="1hTQn4" value="c5ac3bd9-ec85-471d-980d-10c0ced41a9e" />
+            <property role="3Fg1Gr" value="8" />
+            <node concept="19SGf9" id="4qxaCfUgOK8" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgOK9" role="19SJt6">
+                <property role="19SUeA" value="Alzo Wij in overweging genomen hebben dat het wenselijk is de Comptabiliteitswet 2001 te vervangen door nieuwe wettelijke bepalingen over het beheer, de informatievoorziening, de controle en de verantwoording inzake de financiën van het Rijk, mede ter uitvoering van de artikelen 78 en 105 van de Grondwet, en dat het wenselijk is daarin bepalingen op te nemen over het beheer van publieke liquide middelen buiten het Rijk en over het toezicht op het beheer van publieke liquide middelen en publieke financiële middelen buiten het Rijk;" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgOKb" role="3MKX6F">
+          <property role="1hTQn4" value="c953718c-7edc-4574-8b44-10eb6ce6f47d" />
+          <property role="3Fg1Gr" value="9" />
+          <node concept="3MKX5i" id="4qxaCfUgOKc" role="3MKX6F">
+            <property role="1hTQn4" value="827b41c4-7af6-4797-b9b5-a906bd3202f7" />
+            <property role="3Fg1Gr" value="10" />
+            <node concept="19SGf9" id="4qxaCfUgOKd" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgOKe" role="19SJt6">
+                <property role="19SUeA" value="Zo is het, dat Wij, de Afdeling advisering van de Raad van State gehoord, en met gemeen overleg der Staten-Generaal, hebben goedgevonden en verstaan, gelijk Wij goedvinden en verstaan bij deze:" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOKg" role="3MKX6F">
+        <property role="1hTQn4" value="def8a096-c752-4872-9d16-ff6f817f2922" />
+        <property role="3Fg1Gr" value="11" />
+        <node concept="3v$GAh" id="4qxaCfUgOKh" role="3MKX6F">
+          <property role="1hTQn4" value="da696a49-0021-43e4-9a03-0b8595b730e0" />
+          <property role="3Fg1Gr" value="12" />
+          <property role="TrG5h" value="Hoofdstuk 1 Algemene bepalingen" />
+          <node concept="3v$GAi" id="4qxaCfUgONx" role="3MKX6F">
+            <property role="3Fg1Gr" value="14" />
+            <property role="1hTQn4" value="2f5c06ae-5b5e-4830-8586-961882d287c4" />
+            <ref role="3v$GAj" node="4qxaCfUgOKi" resolve="Artikel 1.1 Begrippen" />
+          </node>
+        </node>
+        <node concept="3v$GAh" id="4qxaCfUgONy" role="3MKX6F">
+          <property role="1hTQn4" value="e715a4fc-82fb-4b00-adc0-d45e1924f077" />
+          <property role="3Fg1Gr" value="105" />
+          <property role="TrG5h" value="Hoofdstuk 2 De begroting en verantwoording van het Rijk" />
+          <node concept="3v$GAh" id="4qxaCfUgONz" role="3MKX6F">
+            <property role="1hTQn4" value="c5a7a2c2-b686-4f1d-a2c7-e9be61a02400" />
+            <property role="3Fg1Gr" value="107" />
+            <property role="TrG5h" value="§ 1 Rijksbegroting" />
+            <node concept="3v$GAi" id="4qxaCfUgOOI" role="3MKX6F">
+              <property role="3Fg1Gr" value="109" />
+              <property role="1hTQn4" value="97650fdd-4da7-49f7-96f5-003a95b2d790" />
+              <ref role="3v$GAj" node="4qxaCfUgON$" resolve="Artikel 2.1 Samenstelling en inhoud van de rijksbegroting" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgOOJ" role="3MKX6F">
+            <property role="1hTQn4" value="ca3dbff7-51c9-4822-a88b-37f90457fd0b" />
+            <property role="3Fg1Gr" value="148" />
+            <property role="TrG5h" value="§ 2 Inrichting van de begroting" />
+            <node concept="3v$GAi" id="4qxaCfUgOOP" role="3MKX6F">
+              <property role="3Fg1Gr" value="150" />
+              <property role="1hTQn4" value="bfeda29f-d1dc-4e11-b6c6-83a95a35b6b6" />
+              <ref role="3v$GAj" node="4qxaCfUgOOK" resolve="Artikel 2.2 Presentatie van een begroting" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgOPl" role="3MKX6F">
+              <property role="3Fg1Gr" value="153" />
+              <property role="1hTQn4" value="bb309b81-d836-4acc-84b0-a395e4d7648d" />
+              <ref role="3v$GAj" node="4qxaCfUgOOQ" resolve="Artikel 2.3 Autorisatie van een begroting" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgOPr" role="3MKX6F">
+              <property role="3Fg1Gr" value="170" />
+              <property role="1hTQn4" value="be5223fb-eeb7-40aa-9060-a059fd30148a" />
+              <ref role="3v$GAj" node="4qxaCfUgOPm" resolve="Artikel 2.4 Periodiciteit" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgOQ0" role="3MKX6F">
+              <property role="3Fg1Gr" value="173" />
+              <property role="1hTQn4" value="2b8a4894-2635-4fb1-8ac2-e3d4811aa265" />
+              <ref role="3v$GAj" node="4qxaCfUgOPs" resolve="Artikel 2.5 Begrotingsstaat" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgOQe" role="3MKX6F">
+              <property role="3Fg1Gr" value="192" />
+              <property role="1hTQn4" value="8f4d7d38-da63-4bd0-a03e-73dd91ae017a" />
+              <ref role="3v$GAj" node="4qxaCfUgOQ1" resolve="Artikel 2.6 Financiële staat van agentschappen" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgOQy" role="3MKX6F">
+              <property role="3Fg1Gr" value="200" />
+              <property role="1hTQn4" value="d0dc2f30-9e88-4565-8832-0f7bb2d03758" />
+              <ref role="3v$GAj" node="4qxaCfUgOQf" resolve="Artikel 2.7 Bijzonder begrotingsartikel Nog onverdeeld" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgOQC" role="3MKX6F">
+              <property role="3Fg1Gr" value="211" />
+              <property role="1hTQn4" value="39b9ef97-a4a7-460d-8ab5-269340de9564" />
+              <ref role="3v$GAj" node="4qxaCfUgOQz" resolve="Artikel 2.8 Bijzonder begrotingsartikel Geheim" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgOQV" role="3MKX6F">
+              <property role="3Fg1Gr" value="214" />
+              <property role="1hTQn4" value="913692a9-c996-42ac-9837-12e06fd8f696" />
+              <ref role="3v$GAj" node="4qxaCfUgOQD" resolve="Artikel 2.9 Begroting van de Koning" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgORO" role="3MKX6F">
+              <property role="3Fg1Gr" value="224" />
+              <property role="1hTQn4" value="38db5e59-71ee-4cdf-ad5e-77da737f11d4" />
+              <ref role="3v$GAj" node="4qxaCfUgOQW" resolve="Artikel 2.10 Begroting van Nationale Schuld" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgOSr" role="3MKX6F">
+              <property role="3Fg1Gr" value="254" />
+              <property role="1hTQn4" value="c0df2091-157d-463c-9880-bcab006bc6dc" />
+              <ref role="3v$GAj" node="4qxaCfUgORP" resolve="Artikel 2.11 Begrotingsfondsen" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgOSJ" role="3MKX6F">
+              <property role="3Fg1Gr" value="275" />
+              <property role="1hTQn4" value="20108e24-7e5f-47c3-be19-f2ac887bc782" />
+              <ref role="3v$GAj" node="4qxaCfUgOSs" resolve="Artikel 2.12 Programmabegrotingen" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgOSK" role="3MKX6F">
+            <property role="1hTQn4" value="942d1da4-e385-4e85-943a-6c629f1d3f84" />
+            <property role="3Fg1Gr" value="286" />
+            <property role="TrG5h" value="§ 3 Begrotingsstelsel en beginselen" />
+            <node concept="3v$GAi" id="4qxaCfUgOTt" role="3MKX6F">
+              <property role="3Fg1Gr" value="288" />
+              <property role="1hTQn4" value="aedd9f1f-0aa8-4ed9-822a-2db234f36b5a" />
+              <ref role="3v$GAj" node="4qxaCfUgOSL" resolve="Artikel 2.13 Verplichtingen-kasstelsel" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgOU4" role="3MKX6F">
+              <property role="3Fg1Gr" value="312" />
+              <property role="1hTQn4" value="82724829-c34c-4d9e-9995-d272e28850e2" />
+              <ref role="3v$GAj" node="4qxaCfUgOTu" resolve="Artikel 2.14 Verplichtingen" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgOUS" role="3MKX6F">
+              <property role="3Fg1Gr" value="333" />
+              <property role="1hTQn4" value="63bfce4a-d03e-41bb-bb1b-ccaf1c1a03d4" />
+              <ref role="3v$GAj" node="4qxaCfUgOU5" resolve="Artikel 2.15 Kasuitgaven en -ontvangsten" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgOV6" role="3MKX6F">
+              <property role="3Fg1Gr" value="361" />
+              <property role="1hTQn4" value="57bf71da-4929-4d5b-bc4d-3b73e7c09356" />
+              <ref role="3v$GAj" node="4qxaCfUgOUT" resolve="Artikel 2.16 Universaliteit" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgOVT" role="3MKX6F">
+              <property role="3Fg1Gr" value="369" />
+              <property role="1hTQn4" value="a65df0cb-be76-45dc-b445-7415fb378cef" />
+              <ref role="3v$GAj" node="4qxaCfUgOV7" resolve="Artikel 2.17 Afwijking universaliteit: boeken buiten begrotingsverband" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgOW$" role="3MKX6F">
+              <property role="3Fg1Gr" value="396" />
+              <property role="1hTQn4" value="8da9db8e-3769-4cee-bdc4-793441a32861" />
+              <ref role="3v$GAj" node="4qxaCfUgOVU" resolve="Artikel 2.18 Afwijking universaliteit: salderen" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgOWE" role="3MKX6F">
+              <property role="3Fg1Gr" value="418" />
+              <property role="1hTQn4" value="91a5f773-b93b-4d83-bd23-485e86b0792e" />
+              <ref role="3v$GAj" node="4qxaCfUgOW_" resolve="Artikel 2.19 Kasstelsel en transactiestelsel" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgOXD" role="3MKX6F">
+              <property role="3Fg1Gr" value="421" />
+              <property role="1hTQn4" value="c27be990-025a-4307-8188-40081bef7caf" />
+              <ref role="3v$GAj" node="4qxaCfUgOWF" resolve="Artikel 2.20 Agentschappen" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgOYa" role="3MKX6F">
+              <property role="3Fg1Gr" value="454" />
+              <property role="1hTQn4" value="808dd795-8896-4a14-9d23-638620267778" />
+              <ref role="3v$GAj" node="4qxaCfUgOXE" resolve="Artikel 2.21 Begrotingsreserve" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgOYb" role="3MKX6F">
+            <property role="1hTQn4" value="43026a7e-5126-41e2-b981-b4c610ccd436" />
+            <property role="3Fg1Gr" value="472" />
+            <property role="TrG5h" value="§ 4 Het indienen en wijzigen van de begroting" />
+            <node concept="3v$GAi" id="4qxaCfUgOYh" role="3MKX6F">
+              <property role="3Fg1Gr" value="474" />
+              <property role="1hTQn4" value="7b1ab2ae-69b3-4a13-942b-29e190f8af89" />
+              <ref role="3v$GAj" node="4qxaCfUgOYc" resolve="Artikel 2.22 Aanbieden van stabiliteitsprogramma en nationaal hervormingsprogramma" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgOYY" role="3MKX6F">
+              <property role="3Fg1Gr" value="477" />
+              <property role="1hTQn4" value="e4d2d224-7a62-445e-a73a-d4c56399fa24" />
+              <ref role="3v$GAj" node="4qxaCfUgOYi" resolve="Artikel 2.23 Indienen van de rijksbegroting" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgOZ4" role="3MKX6F">
+              <property role="3Fg1Gr" value="501" />
+              <property role="1hTQn4" value="94dd1e8c-5bf8-4615-b3b7-546391d518b8" />
+              <ref role="3v$GAj" node="4qxaCfUgOYZ" resolve="Artikel 2.24 Inwerkingtreding van voorstellen van wet inzake de begrotingsstaten" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgOZi" role="3MKX6F">
+              <property role="3Fg1Gr" value="504" />
+              <property role="1hTQn4" value="38731818-0481-40f8-b13f-cb734d755fe0" />
+              <ref role="3v$GAj" node="4qxaCfUgOZ5" resolve="Artikel 2.25 Uitvoering van voorstellen van wet inzake de begrotingsstaten" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP0c" role="3MKX6F">
+              <property role="3Fg1Gr" value="512" />
+              <property role="1hTQn4" value="ab70a428-44e3-4e02-b8f5-e427daec0bec" />
+              <ref role="3v$GAj" node="4qxaCfUgOZj" resolve="Artikel 2.26 Indienen van voorstellen van wet inzake de suppletoire begrotingsstaten" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP0q" role="3MKX6F">
+              <property role="3Fg1Gr" value="543" />
+              <property role="1hTQn4" value="d21c9b80-777a-4f7a-8d22-b9c34b548dd7" />
+              <ref role="3v$GAj" node="4qxaCfUgP0d" resolve="Artikel 2.27 Uitvoering van voorstellen van wet inzake de suppletoire begrotingsstaten" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP0w" role="3MKX6F">
+              <property role="3Fg1Gr" value="551" />
+              <property role="1hTQn4" value="6fca3969-d31b-4416-ac2d-ad7d342e39e1" />
+              <ref role="3v$GAj" node="4qxaCfUgP0r" resolve="Artikel 2.28" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgP0x" role="3MKX6F">
+            <property role="1hTQn4" value="404b682c-8b8e-4f33-bfa3-359ec84064ef" />
+            <property role="3Fg1Gr" value="554" />
+            <property role="TrG5h" value="§ 5 De verantwoording van het Rijk" />
+            <node concept="3v$GAi" id="4qxaCfUgP12" role="3MKX6F">
+              <property role="3Fg1Gr" value="556" />
+              <property role="1hTQn4" value="a5291424-86ae-4d10-9aa4-0db21340e1c3" />
+              <ref role="3v$GAj" node="4qxaCfUgP0y" resolve="Artikel 2.29 Samenstelling en de inhoud van de verantwoording van het Rijk" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP18" role="3MKX6F">
+              <property role="3Fg1Gr" value="574" />
+              <property role="1hTQn4" value="3b4b851c-78d8-4656-ac18-2c45bd7df4b0" />
+              <ref role="3v$GAj" node="4qxaCfUgP13" resolve="Artikel 2.30 Slotverschillen" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgP19" role="3MKX6F">
+            <property role="1hTQn4" value="5cd961f0-50d8-4f8e-9c8b-af706357befe" />
+            <property role="3Fg1Gr" value="577" />
+            <property role="TrG5h" value="§ 6 Inrichting van het jaarverslag en de slotverschillen" />
+            <node concept="3v$GAi" id="4qxaCfUgP1I" role="3MKX6F">
+              <property role="3Fg1Gr" value="579" />
+              <property role="1hTQn4" value="3950af0c-01fa-4e08-97f4-69031476beee" />
+              <ref role="3v$GAj" node="4qxaCfUgP1a" resolve="Artikel 2.31 Presentatie van een jaarverslag" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP2x" role="3MKX6F">
+              <property role="3Fg1Gr" value="598" />
+              <property role="1hTQn4" value="8ba62397-3321-459a-98fd-03b13221cc0e" />
+              <ref role="3v$GAj" node="4qxaCfUgP1J" resolve="Artikel 2.32 Verantwoordingsstaat" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP2P" role="3MKX6F">
+              <property role="3Fg1Gr" value="625" />
+              <property role="1hTQn4" value="377006f7-8245-4466-8b33-05b765ab79e3" />
+              <ref role="3v$GAj" node="4qxaCfUgP2y" resolve="Artikel 2.33 Financiële staat van agentschappen" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP3C" role="3MKX6F">
+              <property role="3Fg1Gr" value="636" />
+              <property role="1hTQn4" value="e2e92008-32f2-4a86-9015-42dae0909258" />
+              <ref role="3v$GAj" node="4qxaCfUgP2Q" resolve="Artikel 2.34 Saldibalans" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP4I" role="3MKX6F">
+              <property role="3Fg1Gr" value="663" />
+              <property role="1hTQn4" value="0beeb3fd-0fe5-45ba-a5e8-1b96ae78f698" />
+              <ref role="3v$GAj" node="4qxaCfUgP3D" resolve="Artikel 2.35 Financieel jaarverslag van het Rijk" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP4O" role="3MKX6F">
+              <property role="3Fg1Gr" value="700" />
+              <property role="1hTQn4" value="53eded8c-ed7c-4387-9708-82cc47b504e2" />
+              <ref role="3v$GAj" node="4qxaCfUgP4J" resolve="Artikel 2.36 Autorisatie van de slotverschillen" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgP4P" role="3MKX6F">
+            <property role="1hTQn4" value="18f572d3-0376-4798-b1c1-f73b587e9eb0" />
+            <property role="3Fg1Gr" value="703" />
+            <property role="TrG5h" value="§ 7 Het aanbieden van de jaarverslagen en de slotverschillen" />
+            <node concept="3v$GAi" id="4qxaCfUgP59" role="3MKX6F">
+              <property role="3Fg1Gr" value="705" />
+              <property role="1hTQn4" value="c0b8951b-61d2-4659-85f9-c774bc533f17" />
+              <ref role="3v$GAj" node="4qxaCfUgP4Q" resolve="Artikel 2.37 Aanbieden van de jaarverslagen" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP5n" role="3MKX6F">
+              <property role="3Fg1Gr" value="716" />
+              <property role="1hTQn4" value="a6fd800a-ef01-4fb9-b538-8a1b92f3876c" />
+              <ref role="3v$GAj" node="4qxaCfUgP5a" resolve="Artikel 2.38 Aanbieden van het Financieel jaarverslag van het Rijk" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP5_" role="3MKX6F">
+              <property role="3Fg1Gr" value="724" />
+              <property role="1hTQn4" value="a897dfa7-fa63-469e-8a51-ed2c219738da" />
+              <ref role="3v$GAj" node="4qxaCfUgP5o" resolve="Artikel 2.39 Indienen van voorstellen van wet inzake de slotverschillen" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgP5A" role="3MKX6F">
+            <property role="1hTQn4" value="e201d8d7-dc38-4f8e-9b16-990b689446a6" />
+            <property role="3Fg1Gr" value="732" />
+            <property role="TrG5h" value="§ 8 Dechargeverlening" />
+            <node concept="3v$GAi" id="4qxaCfUgP60" role="3MKX6F">
+              <property role="3Fg1Gr" value="734" />
+              <property role="1hTQn4" value="399db043-8536-4cf1-9426-412d5ab43132" />
+              <ref role="3v$GAj" node="4qxaCfUgP5B" resolve="Artikel 2.40 Dechargeverlening" />
+            </node>
+          </node>
+        </node>
+        <node concept="3v$GAh" id="4qxaCfUgP61" role="3MKX6F">
+          <property role="1hTQn4" value="5be12d2e-28d2-4823-9f79-011f129dfd7b" />
+          <property role="3Fg1Gr" value="748" />
+          <property role="TrG5h" value="Hoofdstuk 3 Begrotingsbeheer en financieel beheer: normering" />
+          <node concept="3v$GAh" id="4qxaCfUgP62" role="3MKX6F">
+            <property role="1hTQn4" value="c285e509-7fc4-490b-a78d-bfebc663583e" />
+            <property role="3Fg1Gr" value="750" />
+            <property role="TrG5h" value="§ 1 Normering algemeen" />
+            <node concept="3v$GAi" id="4qxaCfUgP6r" role="3MKX6F">
+              <property role="3Fg1Gr" value="752" />
+              <property role="1hTQn4" value="65681e11-4b3d-4b6d-8083-5b14a3e897d3" />
+              <ref role="3v$GAj" node="4qxaCfUgP63" resolve="Artikel 3.1 Voorstellen, voornemens en toezeggingen" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP6x" role="3MKX6F">
+              <property role="3Fg1Gr" value="765" />
+              <property role="1hTQn4" value="842877fc-6395-475d-b4a7-96b23026af8a" />
+              <ref role="3v$GAj" node="4qxaCfUgP6s" resolve="Artikel 3.2 Begrotingsbeheer" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP6B" role="3MKX6F">
+              <property role="3Fg1Gr" value="768" />
+              <property role="1hTQn4" value="ff4e3d71-3208-4f97-aaac-5c8210764bdb" />
+              <ref role="3v$GAj" node="4qxaCfUgP6y" resolve="Artikel 3.3 Financieel beheer" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP6H" role="3MKX6F">
+              <property role="3Fg1Gr" value="771" />
+              <property role="1hTQn4" value="e7e062ac-8a0a-4877-9b55-b2d92c9a1632" />
+              <ref role="3v$GAj" node="4qxaCfUgP6C" resolve="Artikel 3.4 Materiële bedrijfsvoering" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgP6I" role="3MKX6F">
+            <property role="1hTQn4" value="ca66eb0e-45a8-4321-9c20-b57d4df669c1" />
+            <property role="3Fg1Gr" value="774" />
+            <property role="TrG5h" value="§ 2 Normering van de financiële administratie en de informatievoorziening" />
+            <node concept="3v$GAi" id="4qxaCfUgP6W" role="3MKX6F">
+              <property role="3Fg1Gr" value="776" />
+              <property role="1hTQn4" value="0be3ed75-ace2-46c1-b32e-126d1abc00d5" />
+              <ref role="3v$GAj" node="4qxaCfUgP6J" resolve="Artikel 3.5 Financiële administratie" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP7f" role="3MKX6F">
+              <property role="3Fg1Gr" value="784" />
+              <property role="1hTQn4" value="8b481e4f-cf9c-4272-8160-d971b2c18928" />
+              <ref role="3v$GAj" node="4qxaCfUgP6X" resolve="Artikel 3.6 Financiële begrotingsinformatie" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP7y" role="3MKX6F">
+              <property role="3Fg1Gr" value="794" />
+              <property role="1hTQn4" value="3d2650c3-3df4-49b9-b00d-6d0002527e7c" />
+              <ref role="3v$GAj" node="4qxaCfUgP7g" resolve="Artikel 3.7 Niet-financiële begrotingsinformatie" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP83" role="3MKX6F">
+              <property role="3Fg1Gr" value="804" />
+              <property role="1hTQn4" value="f2e0a534-01ef-4461-a372-2e4760483590" />
+              <ref role="3v$GAj" node="4qxaCfUgP7z" resolve="Artikel 3.8 Financiële verantwoordingsinformatie" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP8m" role="3MKX6F">
+              <property role="3Fg1Gr" value="822" />
+              <property role="1hTQn4" value="801ac996-9c74-4279-8e56-d7e89b475182" />
+              <ref role="3v$GAj" node="4qxaCfUgP84" resolve="Artikel 3.9 Niet-financiële verantwoordingsinformatie" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP8s" role="3MKX6F">
+              <property role="3Fg1Gr" value="832" />
+              <property role="1hTQn4" value="89cf44be-468b-4e07-a4d6-eb7e591fa5a8" />
+              <ref role="3v$GAj" node="4qxaCfUgP8n" resolve="Artikel 3.10 Normen voor het rapporteren over de rechtmatigheid" />
+            </node>
+          </node>
+        </node>
+        <node concept="3v$GAh" id="4qxaCfUgP8t" role="3MKX6F">
+          <property role="1hTQn4" value="43851dc8-bffa-456c-b922-d94e8c1632fe" />
+          <property role="3Fg1Gr" value="835" />
+          <property role="TrG5h" value="Hoofdstuk 4 Begrotingsbeheer en financieel beheer: verantwoordelijkheden" />
+          <node concept="3v$GAh" id="4qxaCfUgP8u" role="3MKX6F">
+            <property role="1hTQn4" value="5040fca7-d21c-42e0-96c1-a21ca5e5b5dc" />
+            <property role="3Fg1Gr" value="837" />
+            <property role="TrG5h" value="§ 1 Beleid en bedrijfsvoering door Onze Ministers" />
+            <node concept="3v$GAi" id="4qxaCfUgP9E" role="3MKX6F">
+              <property role="3Fg1Gr" value="839" />
+              <property role="1hTQn4" value="26133fc0-0ec7-4510-9401-a603e4ebe4b7" />
+              <ref role="3v$GAj" node="4qxaCfUgP8v" resolve="Artikel 4.1 Begrotingsbeheer en bedrijfsvoering: algemeen" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP9Y" role="3MKX6F">
+              <property role="3Fg1Gr" value="879" />
+              <property role="1hTQn4" value="55cf7049-4f59-4f6e-ad83-169f4f15056b" />
+              <ref role="3v$GAj" node="4qxaCfUgP9F" resolve="Artikel 4.2 Verantwoording bij gedeelde verantwoordelijkheden" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPai" role="3MKX6F">
+              <property role="3Fg1Gr" value="890" />
+              <property role="1hTQn4" value="c4e83375-2843-4ad4-8901-2073e8f6babd" />
+              <ref role="3v$GAj" node="4qxaCfUgP9Z" resolve="Artikel 4.3 Beheer niet-departementale begrotingen" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgPaj" role="3MKX6F">
+            <property role="1hTQn4" value="5e712634-6534-4ad2-9432-42391bd829f3" />
+            <property role="3Fg1Gr" value="901" />
+            <property role="TrG5h" value="§ 2 Beheer door colleges" />
+            <node concept="3v$GAi" id="4qxaCfUgPaH" role="3MKX6F">
+              <property role="3Fg1Gr" value="903" />
+              <property role="1hTQn4" value="df8f372b-f670-4708-b72f-93be8fac9f02" />
+              <ref role="3v$GAj" node="4qxaCfUgPak" resolve="Artikel 4.4 Beheer begrotingen colleges" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPb1" role="3MKX6F">
+              <property role="3Fg1Gr" value="917" />
+              <property role="1hTQn4" value="a78292e1-1110-46cb-a492-b2aa43d51f5d" />
+              <ref role="3v$GAj" node="4qxaCfUgPaI" resolve="Artikel 4.5 Begroting van de Staten-Generaal" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgPb2" role="3MKX6F">
+            <property role="1hTQn4" value="4798350c-1fda-4b64-84ca-7650f175ecb9" />
+            <property role="3Fg1Gr" value="928" />
+            <property role="TrG5h" value="§ 3 Privaatrechtelijke rechtshandelingen" />
+            <node concept="3v$GAi" id="4qxaCfUgPbm" role="3MKX6F">
+              <property role="3Fg1Gr" value="930" />
+              <property role="1hTQn4" value="49a910a0-e846-4562-a8f0-56116b2a66dc" />
+              <ref role="3v$GAj" node="4qxaCfUgPb3" resolve="Artikel 4.6 Verrichten van een privaatrechtelijke rechtshandeling" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPcC" role="3MKX6F">
+              <property role="3Fg1Gr" value="941" />
+              <property role="1hTQn4" value="4affc0cc-0dce-45ee-a3fd-b04d6b617489" />
+              <ref role="3v$GAj" node="4qxaCfUgPbn" resolve="Artikel 4.7 Voorhangprocedure voor een privaatrechtelijke rechtshandeling" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPd9" role="3MKX6F">
+              <property role="3Fg1Gr" value="984" />
+              <property role="1hTQn4" value="fdaf22f2-0f50-475e-a777-6012ebd537fb" />
+              <ref role="3v$GAj" node="4qxaCfUgPcD" resolve="Artikel 4.8 Informatieverstrekking over belangen in privaatrechtelijke rechtspersonen" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPdf" role="3MKX6F">
+              <property role="3Fg1Gr" value="1002" />
+              <property role="1hTQn4" value="9f16242b-89e1-45ca-8522-11d0411ab379" />
+              <ref role="3v$GAj" node="4qxaCfUgPda" resolve="Artikel 4.9 Geldigheid van een privaatrechtelijke rechtshandeling" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgPdg" role="3MKX6F">
+            <property role="1hTQn4" value="decb915e-9212-410f-8ffc-5c583e493ceb" />
+            <property role="3Fg1Gr" value="1005" />
+            <property role="TrG5h" value="§ 4 Publiekrechtelijke rechtshandelingen" />
+            <node concept="3v$GAi" id="4qxaCfUgPe9" role="3MKX6F">
+              <property role="3Fg1Gr" value="1007" />
+              <property role="1hTQn4" value="380eb8aa-670f-44c5-aeff-4c89ccf6a6a7" />
+              <ref role="3v$GAj" node="4qxaCfUgPdh" resolve="Artikel 4.10 Horizonbepaling bij subsidieregelingen" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgPea" role="3MKX6F">
+            <property role="1hTQn4" value="34e3fc2d-dc5d-47cd-93e7-bc998e221b46" />
+            <property role="3Fg1Gr" value="1037" />
+            <property role="TrG5h" value="§ 5 Coördinatie van het begrotingsbeheer en het financieel beheer" />
+            <node concept="3v$GAi" id="4qxaCfUgPe_" role="3MKX6F">
+              <property role="3Fg1Gr" value="1039" />
+              <property role="1hTQn4" value="fe2fee0d-6d5c-4b03-b1f8-cac469bd3b30" />
+              <ref role="3v$GAj" node="4qxaCfUgPeb" resolve="Artikel 4.11 Begroting, financieel beheer en verantwoording" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPfi" role="3MKX6F">
+              <property role="3Fg1Gr" value="1054" />
+              <property role="1hTQn4" value="123c3687-4b34-427a-a34a-7902b88b1eed" />
+              <ref role="3v$GAj" node="4qxaCfUgPeA" resolve="Artikel 4.12 Budgettair toezicht" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPfw" role="3MKX6F">
+              <property role="3Fg1Gr" value="1078" />
+              <property role="1hTQn4" value="802f15ee-eaa2-40b0-bdf9-a981db179030" />
+              <ref role="3v$GAj" node="4qxaCfUgPfj" resolve="Artikel 4.13 Voorstellen met financiële gevolgen" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPg1" role="3MKX6F">
+              <property role="3Fg1Gr" value="1086" />
+              <property role="1hTQn4" value="67407d00-f4c1-4839-8fd1-febe503d0c4b" />
+              <ref role="3v$GAj" node="4qxaCfUgPfx" resolve="Artikel 4.14 Informeren over wijzigingen" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPgf" role="3MKX6F">
+              <property role="3Fg1Gr" value="1104" />
+              <property role="1hTQn4" value="afe5587b-5851-457f-9640-59bafe2a3425" />
+              <ref role="3v$GAj" node="4qxaCfUgPg2" resolve="Artikel 4.15 Informeren en toegang Onze Minister van Financiën" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPgl" role="3MKX6F">
+              <property role="3Fg1Gr" value="1112" />
+              <property role="1hTQn4" value="d01b8769-767c-4687-8793-13abc7a4e981" />
+              <ref role="3v$GAj" node="4qxaCfUgPgg" resolve="Artikel 4.16 Bedenkingen en bezwaren" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgPgm" role="3MKX6F">
+            <property role="1hTQn4" value="7cca65fc-8b1b-42be-9176-62f7056a3ae7" />
+            <property role="3Fg1Gr" value="1115" />
+            <property role="TrG5h" value="§ 6 Balansbeheer en overige taken Onze Minister van Financiën" />
+            <node concept="3v$GAi" id="4qxaCfUgPgQ" role="3MKX6F">
+              <property role="3Fg1Gr" value="1117" />
+              <property role="1hTQn4" value="f84ff2a4-6c95-4b6e-91c2-f3fd41decd69" />
+              <ref role="3v$GAj" node="4qxaCfUgPgn" resolve="Artikel 4.17 Centraal beheer van de schatkist van het Rijk" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPh9" role="3MKX6F">
+              <property role="3Fg1Gr" value="1134" />
+              <property role="1hTQn4" value="ef678f7f-3e17-41e6-8159-85505190349b" />
+              <ref role="3v$GAj" node="4qxaCfUgPgR" resolve="Artikel 4.18 Centraal beheer van de staatsschuld" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPht" role="3MKX6F">
+              <property role="3Fg1Gr" value="1144" />
+              <property role="1hTQn4" value="3a375836-825f-4a26-854c-2cdabe5a38b9" />
+              <ref role="3v$GAj" node="4qxaCfUgPha" resolve="Artikel 4.19 Specifieke taken" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPjB" role="3MKX6F">
+              <property role="3Fg1Gr" value="1155" />
+              <property role="1hTQn4" value="f397092d-23fd-4f82-abfb-cdaf85da664d" />
+              <ref role="3v$GAj" node="4qxaCfUgPhu" resolve="Artikel 4.20 Regelgeving" />
+            </node>
+          </node>
+        </node>
+        <node concept="3v$GAh" id="4qxaCfUgPjC" role="3MKX6F">
+          <property role="1hTQn4" value="7c5af138-8739-4fa0-8de5-266cc10f6ab8" />
+          <property role="3Fg1Gr" value="1227" />
+          <property role="TrG5h" value="Hoofdstuk 5 Beheer van publieke liquide middelen buiten het Rijk" />
+          <node concept="3v$GAh" id="4qxaCfUgPjD" role="3MKX6F">
+            <property role="1hTQn4" value="9b2af63c-5c61-4878-b37b-47c4f3ec8ea4" />
+            <property role="3Fg1Gr" value="1229" />
+            <property role="TrG5h" value="§ 1 Algemeen" />
+            <node concept="3v$GAi" id="4qxaCfUgPk4" role="3MKX6F">
+              <property role="3Fg1Gr" value="1231" />
+              <property role="1hTQn4" value="44f2a2bd-7de7-4c95-afd1-6a1d44d48a9f" />
+              <ref role="3v$GAj" node="4qxaCfUgPjE" resolve="Artikel 5.1 Aanwijzing door Onze Minister van Financiën" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgPk5" role="3MKX6F">
+            <property role="1hTQn4" value="e936a39c-3d6d-4235-b592-2c6c6ca3211d" />
+            <property role="3Fg1Gr" value="1246" />
+            <property role="TrG5h" value="§ 2 Schatkistbankieren" />
+            <node concept="3v$GAi" id="4qxaCfUgPlh" role="3MKX6F">
+              <property role="3Fg1Gr" value="1248" />
+              <property role="1hTQn4" value="0214882a-ecad-4fc2-b856-df8a357cf28c" />
+              <ref role="3v$GAj" node="4qxaCfUgPk6" resolve="Artikel 5.2 Verplicht schatkistbankieren" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPln" role="3MKX6F">
+              <property role="3Fg1Gr" value="1288" />
+              <property role="1hTQn4" value="e638d377-4eb4-444f-9a72-284252ba0e8c" />
+              <ref role="3v$GAj" node="4qxaCfUgPli" resolve="Artikel 5.3 Verplicht schatkistbankieren met voorschotbetalingen van subsidies" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPl_" role="3MKX6F">
+              <property role="3Fg1Gr" value="1291" />
+              <property role="1hTQn4" value="8cab908a-d3f2-4a2f-a9e8-13e69c064b2b" />
+              <ref role="3v$GAj" node="4qxaCfUgPlo" resolve="Artikel 5.4 Vrijwillig schatkistbankieren" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgPlA" role="3MKX6F">
+            <property role="1hTQn4" value="9097502c-9fb2-4094-a4f6-4662e67cd652" />
+            <property role="3Fg1Gr" value="1299" />
+            <property role="TrG5h" value="§ 3 Lenen en verstrekken van krediet via de schatkist van het Rijk" />
+            <node concept="3v$GAi" id="4qxaCfUgPm6" role="3MKX6F">
+              <property role="3Fg1Gr" value="1301" />
+              <property role="1hTQn4" value="c4d774dc-0880-4de2-ac54-4b90cc1bbf18" />
+              <ref role="3v$GAj" node="4qxaCfUgPlB" resolve="Artikel 5.5 Lenen en verstrekken van krediet bij verplicht schatkistbankieren" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPmk" role="3MKX6F">
+              <property role="3Fg1Gr" value="1318" />
+              <property role="1hTQn4" value="f5e3e407-73aa-4d73-8969-07f4ea0b9ad3" />
+              <ref role="3v$GAj" node="4qxaCfUgPm7" resolve="Artikel 5.6 Lenen en verstrekken van krediet bij vrijwillig schatkistbankieren" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgPml" role="3MKX6F">
+            <property role="1hTQn4" value="d88c222d-dc28-4b86-8295-c625866495df" />
+            <property role="3Fg1Gr" value="1326" />
+            <property role="TrG5h" value="§ 4 Beheer van liquide middelen" />
+            <node concept="3v$GAi" id="4qxaCfUgPmD" role="3MKX6F">
+              <property role="3Fg1Gr" value="1328" />
+              <property role="1hTQn4" value="e423d9f3-541e-435b-b9df-22325b217982" />
+              <ref role="3v$GAj" node="4qxaCfUgPmm" resolve="Artikel 5.7 Prudent uitzetten van liquide middelen" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPmR" role="3MKX6F">
+              <property role="3Fg1Gr" value="1339" />
+              <property role="1hTQn4" value="589a6eca-9198-4695-ace1-86f9aa7ced9d" />
+              <ref role="3v$GAj" node="4qxaCfUgPmE" resolve="Artikel 5.8 Oneigenlijk beheer van liquide middelen" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgPmS" role="3MKX6F">
+            <property role="1hTQn4" value="bd62d553-db5b-4eb9-9c7d-4660675f7b4f" />
+            <property role="3Fg1Gr" value="1347" />
+            <property role="TrG5h" value="§ 5 Nadere regelgeving" />
+            <node concept="3v$GAi" id="4qxaCfUgPmY" role="3MKX6F">
+              <property role="3Fg1Gr" value="1349" />
+              <property role="1hTQn4" value="0e956eff-8ffa-46e6-b3ca-6ebf8019c0e3" />
+              <ref role="3v$GAj" node="4qxaCfUgPmT" resolve="Artikel 5.9 Nadere regelgeving" />
+            </node>
+          </node>
+        </node>
+        <node concept="3v$GAh" id="4qxaCfUgPmZ" role="3MKX6F">
+          <property role="1hTQn4" value="9a80cef8-9c28-48ea-a8ba-2a7d2b96cfc4" />
+          <property role="3Fg1Gr" value="1352" />
+          <property role="TrG5h" value="Hoofdstuk 6 Toezicht op het beheer van publieke financiële middelen buiten het Rijk" />
+          <node concept="3v$GAh" id="4qxaCfUgPn0" role="3MKX6F">
+            <property role="1hTQn4" value="2002c757-8ea1-4eae-81fa-22019b0cce61" />
+            <property role="3Fg1Gr" value="1354" />
+            <property role="TrG5h" value="§ 1 Toezicht op beheer publieke financiële middelen buiten het Rijk" />
+            <node concept="3v$GAi" id="4qxaCfUgPnA" role="3MKX6F">
+              <property role="3Fg1Gr" value="1356" />
+              <property role="1hTQn4" value="dac61a53-cf36-4bd5-b3aa-3d1ac3ccf694" />
+              <ref role="3v$GAj" node="4qxaCfUgPn1" resolve="Artikel 6.1 Toezicht door Onze Ministers" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPnZ" role="3MKX6F">
+              <property role="3Fg1Gr" value="1376" />
+              <property role="1hTQn4" value="63c0125b-4f66-42c3-b1ef-f1929db82136" />
+              <ref role="3v$GAj" node="4qxaCfUgPnB" resolve="Artikel 6.2 Reikwijdte toezicht door Onze Ministers" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPpg" role="3MKX6F">
+              <property role="3Fg1Gr" value="1389" />
+              <property role="1hTQn4" value="ea5b3c8c-081e-477c-b8f1-1be168fa9f90" />
+              <ref role="3v$GAj" node="4qxaCfUgPo0" resolve="Artikel 6.3 Bevoegdheden toezicht door Onze Ministers" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPpm" role="3MKX6F">
+              <property role="3Fg1Gr" value="1431" />
+              <property role="1hTQn4" value="015bcf33-549e-4093-9057-c514770ed18f" />
+              <ref role="3v$GAj" node="4qxaCfUgPph" resolve="Artikel 6.4 Bevoegdheden toezicht door Onze Ministers bij uitbesteding" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPps" role="3MKX6F">
+              <property role="3Fg1Gr" value="1434" />
+              <property role="1hTQn4" value="4c37f25f-ca47-477c-967f-96b3a8ebe45b" />
+              <ref role="3v$GAj" node="4qxaCfUgPpn" resolve="Artikel 6.5 Aansprakelijkheid accountant" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPpJ" role="3MKX6F">
+              <property role="3Fg1Gr" value="1437" />
+              <property role="1hTQn4" value="e19ea656-c840-4f3b-af34-e83473422728" />
+              <ref role="3v$GAj" node="4qxaCfUgPpt" resolve="Artikel 6.6 Regelgeving" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgPpK" role="3MKX6F">
+            <property role="1hTQn4" value="e15a82e9-ac1f-4cd5-bc06-cc06ed34200d" />
+            <property role="3Fg1Gr" value="1447" />
+            <property role="TrG5h" value="§ 2 Toezicht op schatkistbankieren" />
+            <node concept="3v$GAi" id="4qxaCfUgPqt" role="3MKX6F">
+              <property role="3Fg1Gr" value="1449" />
+              <property role="1hTQn4" value="a2438c45-7530-48f6-b494-fb0d0fc213b3" />
+              <ref role="3v$GAj" node="4qxaCfUgPpL" resolve="Artikel 6.7 Toezicht door Onze Ministers op schatkistbankieren" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPqz" role="3MKX6F">
+              <property role="3Fg1Gr" value="1473" />
+              <property role="1hTQn4" value="e788171c-3e1e-4588-b373-6bf73321018c" />
+              <ref role="3v$GAj" node="4qxaCfUgPqu" resolve="Artikel 6.8 Nadere regelgeving" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgPq$" role="3MKX6F">
+            <property role="1hTQn4" value="97c67740-ad1d-45e7-b20b-1cd15cb76050" />
+            <property role="3Fg1Gr" value="1476" />
+            <property role="TrG5h" value="§ 3 Verklaring over EU-uitgaven" />
+            <node concept="3v$GAi" id="4qxaCfUgPqY" role="3MKX6F">
+              <property role="3Fg1Gr" value="1478" />
+              <property role="1hTQn4" value="82fa6174-9b80-4227-b006-9dc169398d4a" />
+              <ref role="3v$GAj" node="4qxaCfUgPq_" resolve="Artikel 6.9 Verklaring over EU-uitgaven" />
+            </node>
+          </node>
+        </node>
+        <node concept="3v$GAh" id="4qxaCfUgPqZ" role="3MKX6F">
+          <property role="1hTQn4" value="397919cf-1d75-4662-8437-e2aef7f73440" />
+          <property role="3Fg1Gr" value="1492" />
+          <property role="TrG5h" value="Hoofdstuk 7 Algemene Rekenkamer" />
+          <node concept="3v$GAh" id="4qxaCfUgPr0" role="3MKX6F">
+            <property role="1hTQn4" value="634a5d70-782b-4f37-b931-7b3a69c34323" />
+            <property role="3Fg1Gr" value="1494" />
+            <property role="TrG5h" value="§ 1 Samenstelling en organisatie" />
+            <node concept="3v$GAi" id="4qxaCfUgPrq" role="3MKX6F">
+              <property role="3Fg1Gr" value="1496" />
+              <property role="1hTQn4" value="a1fdc0fb-832d-4112-b860-1c0d25146131" />
+              <ref role="3v$GAj" node="4qxaCfUgPr1" resolve="Artikel 7.1 Samenstelling" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPrC" role="3MKX6F">
+              <property role="3Fg1Gr" value="1510" />
+              <property role="1hTQn4" value="057756c1-308b-461e-b986-6742b5e1c55a" />
+              <ref role="3v$GAj" node="4qxaCfUgPrr" resolve="Artikel 7.2 Leden in buitengewone dienst" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPrQ" role="3MKX6F">
+              <property role="3Fg1Gr" value="1518" />
+              <property role="1hTQn4" value="14604693-3471-4f05-ae86-4b02f7fa862e" />
+              <ref role="3v$GAj" node="4qxaCfUgPrD" resolve="Artikel 7.3 De secretaris" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPsg" role="3MKX6F">
+              <property role="3Fg1Gr" value="1526" />
+              <property role="1hTQn4" value="d2b90a27-c1c7-4df1-9150-3d487930e48b" />
+              <ref role="3v$GAj" node="4qxaCfUgPrR" resolve="Artikel 7.4 Benoemingsvereisten" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPtf" role="3MKX6F">
+              <property role="3Fg1Gr" value="1540" />
+              <property role="1hTQn4" value="eeb61488-5e39-4606-bfff-745c1b1ad0cb" />
+              <ref role="3v$GAj" node="4qxaCfUgPsh" resolve="Artikel 7.5 Ontslag en schorsing" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPtJ" role="3MKX6F">
+              <property role="3Fg1Gr" value="1573" />
+              <property role="1hTQn4" value="90a1167a-9dc3-4672-8daf-2b6549c14250" />
+              <ref role="3v$GAj" node="4qxaCfUgPtg" resolve="Artikel 7.6 Aanvaarding van het ambt" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPtP" role="3MKX6F">
+              <property role="3Fg1Gr" value="1587" />
+              <property role="1hTQn4" value="77383c0d-aad8-4530-a7fb-9b906ab06288" />
+              <ref role="3v$GAj" node="4qxaCfUgPtK" resolve="Artikel 7.7 Reglement van orde" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPu9" role="3MKX6F">
+              <property role="3Fg1Gr" value="1590" />
+              <property role="1hTQn4" value="fb95bc5d-c51f-455a-8155-431c5c873367" />
+              <ref role="3v$GAj" node="4qxaCfUgPtQ" resolve="Artikel 7.8 Taken en bevoegdheden van de president" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPut" role="3MKX6F">
+              <property role="3Fg1Gr" value="1601" />
+              <property role="1hTQn4" value="a7751384-cb8e-4bc4-b914-41cac2146b29" />
+              <ref role="3v$GAj" node="4qxaCfUgPua" resolve="Artikel 7.9 Besluitvorming" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPuF" role="3MKX6F">
+              <property role="3Fg1Gr" value="1612" />
+              <property role="1hTQn4" value="e9f43546-c4be-49c2-8de5-6368f8c5867a" />
+              <ref role="3v$GAj" node="4qxaCfUgPuu" resolve="Artikel 7.10 Verschoningsplicht" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPv5" role="3MKX6F">
+              <property role="3Fg1Gr" value="1620" />
+              <property role="1hTQn4" value="5134c445-0cfa-4592-9bc3-6cc96f16f520" />
+              <ref role="3v$GAj" node="4qxaCfUgPuG" resolve="Artikel 7.11 Ambtenaren van de Algemene Rekenkamer" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgPv6" role="3MKX6F">
+            <property role="1hTQn4" value="85aeabfa-483f-4450-8f77-fd6cddefee5c" />
+            <property role="3Fg1Gr" value="1634" />
+            <property role="TrG5h" value="§ 2 Het verantwoordings- en doelmatigheidsonderzoek" />
+            <node concept="3v$GAi" id="4qxaCfUgPvO" role="3MKX6F">
+              <property role="3Fg1Gr" value="1636" />
+              <property role="1hTQn4" value="688e2da3-fe3c-47d6-b5a2-a0157b314ce7" />
+              <ref role="3v$GAj" node="4qxaCfUgPv7" resolve="Artikel 7.12 Verantwoordingsonderzoek" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPw2" role="3MKX6F">
+              <property role="3Fg1Gr" value="1661" />
+              <property role="1hTQn4" value="f73346f0-dcd2-4573-8969-fdd23619523d" />
+              <ref role="3v$GAj" node="4qxaCfUgPvP" resolve="Artikel 7.13 Reikwijdte van het verantwoordingsonderzoek" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPwy" role="3MKX6F">
+              <property role="3Fg1Gr" value="1669" />
+              <property role="1hTQn4" value="71fc4529-9c9a-4880-926d-f9954dfe10c0" />
+              <ref role="3v$GAj" node="4qxaCfUgPw3" resolve="Artikel 7.14 Rapporteren over het verantwoordingsonderzoek" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPwK" role="3MKX6F">
+              <property role="3Fg1Gr" value="1686" />
+              <property role="1hTQn4" value="ba6b501e-0260-471c-a78f-d764e9048ea3" />
+              <ref role="3v$GAj" node="4qxaCfUgPwz" resolve="Artikel 7.15 Aanbieden rapport verantwoordingsonderzoek" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPwQ" role="3MKX6F">
+              <property role="3Fg1Gr" value="1694" />
+              <property role="1hTQn4" value="04e2f493-9827-4142-bf4f-b409fccc8b0a" />
+              <ref role="3v$GAj" node="4qxaCfUgPwL" resolve="Artikel 7.16 Doelmatigheidsonderzoek" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPxg" role="3MKX6F">
+              <property role="3Fg1Gr" value="1697" />
+              <property role="1hTQn4" value="e65dead8-5a95-49da-8067-9219b947c250" />
+              <ref role="3v$GAj" node="4qxaCfUgPwR" resolve="Artikel 7.17 Aanbieden rapport doelmatigheidsonderzoek" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPxQ" role="3MKX6F">
+              <property role="3Fg1Gr" value="1711" />
+              <property role="1hTQn4" value="81c05086-0afc-4307-a395-7501e0f59f2c" />
+              <ref role="3v$GAj" node="4qxaCfUgPxh" resolve="Artikel 7.18 Bevoegdheden verantwoordings- en doelmatigheidsonderzoek" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPxW" role="3MKX6F">
+              <property role="3Fg1Gr" value="1731" />
+              <property role="1hTQn4" value="52f96017-5ea9-47fb-a5c5-26bec25e57cc" />
+              <ref role="3v$GAj" node="4qxaCfUgPxR" resolve="Artikel 7.19 Bevoegdheden verantwoordings- en doelmatigheidsonderzoek bij uitbesteding" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPya" role="3MKX6F">
+              <property role="3Fg1Gr" value="1734" />
+              <property role="1hTQn4" value="f8318ec3-e57c-49bc-bc9f-80a33f7c4dc3" />
+              <ref role="3v$GAj" node="4qxaCfUgPxX" resolve="Artikel 7.20 Bevoegdheden verantwoordings- en doelmatigheidsonderzoek met betrekking tot geheime uitgaven en ontvangsten" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPy$" role="3MKX6F">
+              <property role="3Fg1Gr" value="1742" />
+              <property role="1hTQn4" value="a3e5a118-e063-4fd2-a48b-617c5bb226bf" />
+              <ref role="3v$GAj" node="4qxaCfUgPyb" resolve="Artikel 7.21 Bezwaarprocedure algemeen" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPza" role="3MKX6F">
+              <property role="3Fg1Gr" value="1756" />
+              <property role="1hTQn4" value="e90c5bc2-bef1-498a-aafe-c9439415aa92" />
+              <ref role="3v$GAj" node="4qxaCfUgPy_" resolve="Artikel 7.22 Bezwaarprocedure bij handhaving van het bezwaar" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgPzb" role="3MKX6F">
+            <property role="1hTQn4" value="169c000b-f57d-4b84-b201-9e5654d1dff4" />
+            <property role="3Fg1Gr" value="1776" />
+            <property role="TrG5h" value="§ 3 Overige taken en bevoegdheden" />
+            <node concept="3v$GAi" id="4qxaCfUgPzh" role="3MKX6F">
+              <property role="3Fg1Gr" value="1778" />
+              <property role="1hTQn4" value="c64c8a85-a660-4b35-a739-ac618d78cbc0" />
+              <ref role="3v$GAj" node="4qxaCfUgPzc" resolve="Artikel 7.23 Onderzoek op verzoek" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP$3" role="3MKX6F">
+              <property role="3Fg1Gr" value="1781" />
+              <property role="1hTQn4" value="e411d15f-4829-4381-aaa2-80516b2fb54c" />
+              <ref role="3v$GAj" node="4qxaCfUgPzi" resolve="Artikel 7.24 Onderzoek naar publieke middelen buiten het Rijk" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP$L" role="3MKX6F">
+              <property role="3Fg1Gr" value="1807" />
+              <property role="1hTQn4" value="9da17c5e-1098-4d59-8ea1-d72ad373fcc9" />
+              <ref role="3v$GAj" node="4qxaCfUgP$4" resolve="Artikel 7.25 Reikwijdte onderzoek naar publieke middelen buiten het Rijk" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP_4" role="3MKX6F">
+              <property role="3Fg1Gr" value="1832" />
+              <property role="1hTQn4" value="1bbb6376-8a5e-4858-abb5-a105775b9b98" />
+              <ref role="3v$GAj" node="4qxaCfUgP$M" resolve="Artikel 7.26 Reikwijdte onderzoek naar openbare lichamen en gemeenschappelijke organen" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP_n" role="3MKX6F">
+              <property role="3Fg1Gr" value="1842" />
+              <property role="1hTQn4" value="804737b9-93a8-498f-bb8f-21dc0af5773b" />
+              <ref role="3v$GAj" node="4qxaCfUgP_5" resolve="Artikel 7.27 Reikwijdte onderzoek naar staatsdeelnemingen" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP_t" role="3MKX6F">
+              <property role="3Fg1Gr" value="1852" />
+              <property role="1hTQn4" value="316e75e4-f261-45bb-aa09-8e64488f0bdb" />
+              <ref role="3v$GAj" node="4qxaCfUgP_o" resolve="Artikel 7.28 Onderzoek naar bijdragen ten laste van de EU-begroting" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP_z" role="3MKX6F">
+              <property role="3Fg1Gr" value="1855" />
+              <property role="1hTQn4" value="12749302-2d92-4870-817b-fb57710a9e18" />
+              <ref role="3v$GAj" node="4qxaCfUgP_u" resolve="Artikel 7.29 Reikwijdte onderzoek naar bijdragen ten laste van de EU-begroting" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgP_X" role="3MKX6F">
+              <property role="3Fg1Gr" value="1858" />
+              <property role="1hTQn4" value="a2ea9086-0fcb-4ecd-a3ac-64d446aff608" />
+              <ref role="3v$GAj" node="4qxaCfUgP_$" resolve="Artikel 7.30 Aanbieden rapport overige onderzoeken" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPA3" role="3MKX6F">
+              <property role="3Fg1Gr" value="1872" />
+              <property role="1hTQn4" value="896567b3-9da3-4a64-a529-38acb308332c" />
+              <ref role="3v$GAj" node="4qxaCfUgP_Y" resolve="Artikel 7.31 Onderzoek naar de verklaring over EU-uitgaven" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPAh" role="3MKX6F">
+              <property role="3Fg1Gr" value="1875" />
+              <property role="1hTQn4" value="54c6eb0d-78bf-4bd2-a378-f8e6d6c39934" />
+              <ref role="3v$GAj" node="4qxaCfUgPA4" resolve="Artikel 7.32 Aanbieden rapport onderzoek naar de verklaring over EU-uitgaven" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPAn" role="3MKX6F">
+              <property role="3Fg1Gr" value="1883" />
+              <property role="1hTQn4" value="95fdab7f-b183-4b88-89ad-b08c68ff0b52" />
+              <ref role="3v$GAj" node="4qxaCfUgPAi" resolve="Artikel 7.33 Verslag van werkzaamheden" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPBl" role="3MKX6F">
+              <property role="3Fg1Gr" value="1886" />
+              <property role="1hTQn4" value="9af2e6f8-b41b-46b3-9115-1888cc7ec6f3" />
+              <ref role="3v$GAj" node="4qxaCfUgPAo" resolve="Artikel 7.34 Bevoegdheden onderzoek naar publieke middelen buiten het Rijk en openbare lichamen en gemeenschappelijke organen" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPBz" role="3MKX6F">
+              <property role="3Fg1Gr" value="1918" />
+              <property role="1hTQn4" value="81a1b541-c219-4fc4-b541-c1d4b1ffdbf3" />
+              <ref role="3v$GAj" node="4qxaCfUgPBm" resolve="Artikel 7.35 Bevoegdheden onderzoek naar staatsdeelnemingen" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPBD" role="3MKX6F">
+              <property role="3Fg1Gr" value="1926" />
+              <property role="1hTQn4" value="42250895-f0c8-49c6-aceb-0ef4c0351522" />
+              <ref role="3v$GAj" node="4qxaCfUgPB$" resolve="Artikel 7.36 Bevoegdheden onderzoek naar bijdragen ten laste van de EU-begroting" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPBR" role="3MKX6F">
+              <property role="3Fg1Gr" value="1929" />
+              <property role="1hTQn4" value="7c6b4505-3547-4ce6-97a4-38c721011f17" />
+              <ref role="3v$GAj" node="4qxaCfUgPBE" resolve="Artikel 7.37 Samenwerking binnen het Koninkrijk" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPCb" role="3MKX6F">
+              <property role="3Fg1Gr" value="1937" />
+              <property role="1hTQn4" value="eff31023-71e2-4254-a38c-07170e61fc4d" />
+              <ref role="3v$GAj" node="4qxaCfUgPBS" resolve="Artikel 7.38 Internationale werkzaamheden" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPCh" role="3MKX6F">
+              <property role="3Fg1Gr" value="1948" />
+              <property role="1hTQn4" value="a16894b8-2063-4d0b-a21e-a25cbd6f5795" />
+              <ref role="3v$GAj" node="4qxaCfUgPCc" resolve="Artikel 7.39 Verstrekken van mededelingen" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgPCi" role="3MKX6F">
+            <property role="1hTQn4" value="ca01756d-c316-4623-8769-985eec107c5e" />
+            <property role="3Fg1Gr" value="1951" />
+            <property role="TrG5h" value="§ 4 Overleg" />
+            <node concept="3v$GAi" id="4qxaCfUgPDi" role="3MKX6F">
+              <property role="3Fg1Gr" value="1953" />
+              <property role="1hTQn4" value="ffbad795-f352-4997-9c11-2a5c1a62561e" />
+              <ref role="3v$GAj" node="4qxaCfUgPCj" resolve="Artikel 7.40 Overleg met de Algemene Rekenkamer" />
+            </node>
+          </node>
+        </node>
+        <node concept="3v$GAh" id="4qxaCfUgPDj" role="3MKX6F">
+          <property role="1hTQn4" value="de3414b8-0aec-48da-84f8-544899386ac0" />
+          <property role="3Fg1Gr" value="1987" />
+          <property role="TrG5h" value="Hoofdstuk 8 Comptabele noodwetgeving" />
+          <node concept="3v$GAi" id="4qxaCfUgPDT" role="3MKX6F">
+            <property role="3Fg1Gr" value="1989" />
+            <property role="1hTQn4" value="b9518676-ee4b-4c39-8160-5d365db11b14" />
+            <ref role="3v$GAj" node="4qxaCfUgPDk" resolve="Artikel 8.1 Comptabele noodwetgeving" />
+          </node>
+        </node>
+        <node concept="3v$GAh" id="4qxaCfUgPDU" role="3MKX6F">
+          <property role="1hTQn4" value="0ba08a9c-07d5-4731-8470-30b301dc0f9c" />
+          <property role="3Fg1Gr" value="2009" />
+          <property role="TrG5h" value="Hoofdstuk 9 Wijziging andere wetten" />
+          <node concept="3v$GAi" id="4qxaCfUgPE1" role="3MKX6F">
+            <property role="3Fg1Gr" value="2011" />
+            <property role="1hTQn4" value="7120e729-8c38-4c20-b51b-dc57207bd953" />
+            <ref role="3v$GAj" node="4qxaCfUgPDV" resolve="Artikel 9.1 Wijziging Coördinatiewet uitzonderingstoestanden" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPE8" role="3MKX6F">
+            <property role="3Fg1Gr" value="2015" />
+            <property role="1hTQn4" value="e3638162-e030-4d46-85e0-518f2c6b2d35" />
+            <ref role="3v$GAj" node="4qxaCfUgPE2" resolve="Artikel 9.2 Wijziging Financiële-verhoudingswet" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPEf" role="3MKX6F">
+            <property role="3Fg1Gr" value="2019" />
+            <property role="1hTQn4" value="8c7f14c7-4859-4611-98be-284d72e420d3" />
+            <ref role="3v$GAj" node="4qxaCfUgPE9" resolve="Artikel 9.3 Wijziging Gezondheids- en welzijnswet voor dieren" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPEm" role="3MKX6F">
+            <property role="3Fg1Gr" value="2023" />
+            <property role="1hTQn4" value="79b1f349-c80c-4bb0-aa89-3330bee1ddf5" />
+            <ref role="3v$GAj" node="4qxaCfUgPEg" resolve="Artikel 9.4 Wijziging Handelsregisterwet 2007" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPEt" role="3MKX6F">
+            <property role="3Fg1Gr" value="2027" />
+            <property role="1hTQn4" value="2990ea6a-2871-4c5c-b534-b359ba457097" />
+            <ref role="3v$GAj" node="4qxaCfUgPEn" resolve="Artikel 9.5 Wijziging Kaderwet adviescolleges" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPE$" role="3MKX6F">
+            <property role="3Fg1Gr" value="2031" />
+            <property role="1hTQn4" value="6045b912-8de0-4c2b-b28b-c223e48ad2ab" />
+            <ref role="3v$GAj" node="4qxaCfUgPEu" resolve="Artikel 9.6 Wijziging Prijzennoodwet" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPEF" role="3MKX6F">
+            <property role="3Fg1Gr" value="2035" />
+            <property role="1hTQn4" value="1a1e49fa-43e6-4a5d-b18d-c31e3d42bf19" />
+            <ref role="3v$GAj" node="4qxaCfUgPE_" resolve="Artikel 9.7 Wijziging Spoorwegwet" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPEM" role="3MKX6F">
+            <property role="3Fg1Gr" value="2039" />
+            <property role="1hTQn4" value="f8dba08f-43d5-4f5d-9cd5-aa4a3f74897a" />
+            <ref role="3v$GAj" node="4qxaCfUgPEG" resolve="Artikel 9.8 Wijziging Tijdelijke wet ambulancezorg" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPET" role="3MKX6F">
+            <property role="3Fg1Gr" value="2043" />
+            <property role="1hTQn4" value="a19b8e1c-f1d7-48ef-8396-5f877f92427a" />
+            <ref role="3v$GAj" node="4qxaCfUgPEN" resolve="Artikel 9.9 Wijziging Uitvoeringswet EGTS-verordening" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPF0" role="3MKX6F">
+            <property role="3Fg1Gr" value="2047" />
+            <property role="1hTQn4" value="ab64efaf-e09e-44c4-8918-cfaf1140d2f6" />
+            <ref role="3v$GAj" node="4qxaCfUgPEU" resolve="Artikel 9.10 Wijziging Waterwet" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPF7" role="3MKX6F">
+            <property role="3Fg1Gr" value="2051" />
+            <property role="1hTQn4" value="eaa3bde1-ab1f-43b9-a512-b9b7496bb9db" />
+            <ref role="3v$GAj" node="4qxaCfUgPF1" resolve="Artikel 9.11 Wijziging Woningwet" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPFe" role="3MKX6F">
+            <property role="3Fg1Gr" value="2055" />
+            <property role="1hTQn4" value="cf7b6c23-01a2-4429-9b66-4756b2443474" />
+            <ref role="3v$GAj" node="4qxaCfUgPF8" resolve="Artikel 9.12 Wijziging Wet BDU verkeer en vervoer" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPFl" role="3MKX6F">
+            <property role="3Fg1Gr" value="2059" />
+            <property role="1hTQn4" value="511fdd63-c037-4915-a20b-672f4600101f" />
+            <ref role="3v$GAj" node="4qxaCfUgPFf" resolve="Artikel 9.13 Wijziging Wet dieren" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPFs" role="3MKX6F">
+            <property role="3Fg1Gr" value="2063" />
+            <property role="1hTQn4" value="dd17d31b-0efe-483f-9a47-ac72a25b4764" />
+            <ref role="3v$GAj" node="4qxaCfUgPFm" resolve="Artikel 9.14 Wijziging Wet financiën openbare lichamen Bonaire, Sint Eustatius en Saba" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPFz" role="3MKX6F">
+            <property role="3Fg1Gr" value="2067" />
+            <property role="1hTQn4" value="6d949bd6-452c-4558-a61f-75452d8727a2" />
+            <ref role="3v$GAj" node="4qxaCfUgPFt" resolve="Artikel 9.15 Wijziging Wet Fonds economische structuurversterking" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPFE" role="3MKX6F">
+            <property role="3Fg1Gr" value="2071" />
+            <property role="1hTQn4" value="f166eef2-d494-4ff0-a87b-959fba5ae94c" />
+            <ref role="3v$GAj" node="4qxaCfUgPF$" resolve="Artikel 9.16 Wijziging Wet houdbare overheidsfinanciën" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPFL" role="3MKX6F">
+            <property role="3Fg1Gr" value="2075" />
+            <property role="1hTQn4" value="827d2a04-9d1b-4e6a-883f-f2f32eb3fb1f" />
+            <ref role="3v$GAj" node="4qxaCfUgPFF" resolve="Artikel 9.17 Wijziging Wet Infrastructuurfonds" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPFS" role="3MKX6F">
+            <property role="3Fg1Gr" value="2079" />
+            <property role="1hTQn4" value="99970c4f-113a-4526-9444-f027d42489ca" />
+            <ref role="3v$GAj" node="4qxaCfUgPFM" resolve="Artikel 9.18 Wijziging Wet langdurige zorg" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPFZ" role="3MKX6F">
+            <property role="3Fg1Gr" value="2083" />
+            <property role="1hTQn4" value="f2547b6c-7790-42c0-b859-1ee30de0d801" />
+            <ref role="3v$GAj" node="4qxaCfUgPFT" resolve="Artikel 9.19 Wijziging Wet marktordening gezondheidszorg" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPG6" role="3MKX6F">
+            <property role="3Fg1Gr" value="2087" />
+            <property role="1hTQn4" value="21924abe-7843-48b8-9789-5321ad29eeb1" />
+            <ref role="3v$GAj" node="4qxaCfUgPG0" resolve="Artikel 9.20 Wijziging Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPGd" role="3MKX6F">
+            <property role="3Fg1Gr" value="2091" />
+            <property role="1hTQn4" value="830dd056-0d91-43ee-bb5f-7d0a30935cca" />
+            <ref role="3v$GAj" node="4qxaCfUgPG7" resolve="Artikel 9.21 Wijziging Wet op het financieel toezicht" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPGk" role="3MKX6F">
+            <property role="3Fg1Gr" value="2095" />
+            <property role="1hTQn4" value="ea179a7e-90d2-47aa-82fe-dd6eb6b3c914" />
+            <ref role="3v$GAj" node="4qxaCfUgPGe" resolve="Artikel 9.22 Wijziging Wet op de inlichtingen- en veiligheidsdiensten 2002" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPGr" role="3MKX6F">
+            <property role="3Fg1Gr" value="2099" />
+            <property role="1hTQn4" value="235d7f82-87d8-4bdc-be88-e4cba316d5aa" />
+            <ref role="3v$GAj" node="4qxaCfUgPGl" resolve="Artikel 9.23 Wijziging Wet op de kansspelen" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPGy" role="3MKX6F">
+            <property role="3Fg1Gr" value="2103" />
+            <property role="1hTQn4" value="90e77ce5-8fdf-4340-863c-3d452f42428c" />
+            <ref role="3v$GAj" node="4qxaCfUgPGs" resolve="Artikel 9.24 Wijziging Wet op het LSOP en het politieonderwijs" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPGD" role="3MKX6F">
+            <property role="3Fg1Gr" value="2107" />
+            <property role="1hTQn4" value="6fda548a-49ef-4d3a-8020-d05e7103c6d4" />
+            <ref role="3v$GAj" node="4qxaCfUgPGz" resolve="Artikel 9.25 Wijziging Wet op de parlementaire enquête 2008" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPGK" role="3MKX6F">
+            <property role="3Fg1Gr" value="2111" />
+            <property role="1hTQn4" value="fa437809-92d9-48a1-bc98-95544c75a82a" />
+            <ref role="3v$GAj" node="4qxaCfUgPGE" resolve="Artikel 9.26 Wijziging Wet op de rechterlijke organisatie" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPGR" role="3MKX6F">
+            <property role="3Fg1Gr" value="2115" />
+            <property role="1hTQn4" value="aa3e190b-dc02-401b-bb6a-bdd1c1f519e3" />
+            <ref role="3v$GAj" node="4qxaCfUgPGL" resolve="Artikel 9.27 Wijziging Wet overheidspersoneel onder de werknemersverzekeringen" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPGY" role="3MKX6F">
+            <property role="3Fg1Gr" value="2119" />
+            <property role="1hTQn4" value="db9aa84e-b941-4e7d-b484-80c21cc2c1ac" />
+            <ref role="3v$GAj" node="4qxaCfUgPGS" resolve="Artikel 9.28 Wijziging Wet stichting administratiekantoor beheer financiële instellingen" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPH5" role="3MKX6F">
+            <property role="3Fg1Gr" value="2123" />
+            <property role="1hTQn4" value="afbce779-8ce8-4f5f-a709-cc5fb833c5b6" />
+            <ref role="3v$GAj" node="4qxaCfUgPGZ" resolve="Artikel 9.29 Wijziging Wet toezicht accountantsorganisaties" />
+          </node>
+          <node concept="3v$GAi" id="4qxaCfUgPHc" role="3MKX6F">
+            <property role="3Fg1Gr" value="2127" />
+            <property role="1hTQn4" value="2c758338-d575-444d-8f7e-0da9599fa30a" />
+            <ref role="3v$GAj" node="4qxaCfUgPH6" resolve="Artikel 9.30 Wijziging Zorgverzekeringswet" />
+          </node>
+        </node>
+        <node concept="3v$GAh" id="4qxaCfUgPHd" role="3MKX6F">
+          <property role="1hTQn4" value="01d83262-176c-4526-ab81-b23f10d60a40" />
+          <property role="3Fg1Gr" value="2131" />
+          <property role="TrG5h" value="Hoofdstuk 10 Evaluatie-, overgangs- en slotbepalingen" />
+          <node concept="3v$GAh" id="4qxaCfUgPHe" role="3MKX6F">
+            <property role="1hTQn4" value="c7021580-b01a-4403-8707-52a6d5cf330a" />
+            <property role="3Fg1Gr" value="2133" />
+            <property role="TrG5h" value="§ 1 Evaluatie" />
+            <node concept="3v$GAi" id="4qxaCfUgPHk" role="3MKX6F">
+              <property role="3Fg1Gr" value="2135" />
+              <property role="1hTQn4" value="1a805665-f8fa-4e9a-a288-39e027966b04" />
+              <ref role="3v$GAj" node="4qxaCfUgPHf" resolve="Artikel 10.1 Evaluatie" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgPHl" role="3MKX6F">
+            <property role="1hTQn4" value="2c10ca66-29af-4361-857b-499840182877" />
+            <property role="3Fg1Gr" value="2138" />
+            <property role="TrG5h" value="§ 2 Overgangsrecht en samenloop" />
+            <node concept="3v$GAi" id="4qxaCfUgPIl" role="3MKX6F">
+              <property role="3Fg1Gr" value="2140" />
+              <property role="1hTQn4" value="20cc7609-987f-41c0-8d94-0c738402a796" />
+              <ref role="3v$GAj" node="4qxaCfUgPHm" resolve="Artikel 10.2 Overgangsrecht" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPIC" role="3MKX6F">
+              <property role="3Fg1Gr" value="2174" />
+              <property role="1hTQn4" value="ea95ee40-57d3-40fc-9fad-bc4a877983e4" />
+              <ref role="3v$GAj" node="4qxaCfUgPIm" resolve="Artikel 10.3 Grondslag besluiten" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPIJ" role="3MKX6F">
+              <property role="3Fg1Gr" value="2184" />
+              <property role="1hTQn4" value="29b72fc6-a769-443d-8b34-5490c253b167" />
+              <ref role="3v$GAj" node="4qxaCfUgPID" resolve="Artikel 10.4 Samenloop" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgPIK" role="3MKX6F">
+            <property role="1hTQn4" value="23e0b14c-2e93-49ef-b78a-301e957c47c8" />
+            <property role="3Fg1Gr" value="2188" />
+            <property role="TrG5h" value="§ 3: Geografische toepasselijkheid" />
+            <node concept="3v$GAi" id="4qxaCfUgPIQ" role="3MKX6F">
+              <property role="3Fg1Gr" value="2190" />
+              <property role="1hTQn4" value="7dd55bd7-478d-4fe3-b051-15fafd50fabf" />
+              <ref role="3v$GAj" node="4qxaCfUgPIL" resolve="Artikel 10.5 Toepasselijkheid Bonaire, Sint Eustatius en Saba" />
+            </node>
+          </node>
+          <node concept="3v$GAh" id="4qxaCfUgPIR" role="3MKX6F">
+            <property role="1hTQn4" value="d426c843-e430-426a-903c-d575af884b4a" />
+            <property role="3Fg1Gr" value="2193" />
+            <property role="TrG5h" value="§ 4 Slotbepalingen" />
+            <node concept="3v$GAi" id="4qxaCfUgPIX" role="3MKX6F">
+              <property role="3Fg1Gr" value="2195" />
+              <property role="1hTQn4" value="1f066bcf-eff6-4b8f-beaf-2b879edf05a8" />
+              <ref role="3v$GAj" node="4qxaCfUgPIS" resolve="Artikel 10.6 Intrekking Comptabiliteitswet 2001" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPJ3" role="3MKX6F">
+              <property role="3Fg1Gr" value="2198" />
+              <property role="1hTQn4" value="a92744c9-b68b-4186-b686-d036437e00eb" />
+              <ref role="3v$GAj" node="4qxaCfUgPIY" resolve="Artikel 10.7 Inwerkingtreding" />
+            </node>
+            <node concept="3v$GAi" id="4qxaCfUgPJ9" role="3MKX6F">
+              <property role="3Fg1Gr" value="2201" />
+              <property role="1hTQn4" value="b1bd0c39-ad98-4745-94c7-7496628e3eaf" />
+              <ref role="3v$GAj" node="4qxaCfUgPJ4" resolve="Artikel 10.8 Citeertitel" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgPJa" role="3MKX6F">
+        <property role="1hTQn4" value="9c10c03a-3807-43b7-9071-d53cbc1bea31" />
+        <property role="3Fg1Gr" value="2204" />
+        <node concept="3MKX5h" id="4qxaCfUgPJb" role="3MKX6F">
+          <property role="1hTQn4" value="8f36804c-a503-41cf-930f-f3aee48e7296" />
+          <property role="3Fg1Gr" value="2205" />
+          <node concept="3MKX5i" id="4qxaCfUgPJc" role="3MKX6F">
+            <property role="1hTQn4" value="3359eb0a-8be1-44c2-b671-dcaa0c21e810" />
+            <property role="3Fg1Gr" value="2206" />
+            <node concept="19SGf9" id="4qxaCfUgPJd" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgPJe" role="19SJt6">
+                <property role="19SUeA" value="Lasten en bevelen dat deze in het Staatsblad zal worden geplaatst en dat alle ministeries, autoriteiten, colleges en ambtenaren die zulks aangaat, aan de nauwkeurige uitvoering de hand zullen houden." />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPJg" role="3MKX6F">
+          <property role="1hTQn4" value="7e1c0537-6c2b-4307-964f-3ff954202bbf" />
+          <property role="3Fg1Gr" value="2207" />
+          <node concept="3MKX5i" id="4qxaCfUgPJh" role="3MKX6F">
+            <property role="1hTQn4" value="235b8e14-139a-4a37-a5ef-4fd93aa1fd6f" />
+            <property role="3Fg1Gr" value="2208" />
+            <node concept="19SGf9" id="4qxaCfUgPJi" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgPJj" role="19SJt6">
+                <property role="19SUeA" value="Gegeven te" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5i" id="4qxaCfUgPJl" role="3MKX6F">
+            <property role="1hTQn4" value="3c8038fb-d143-452e-b3bb-0ed58d6a29d1" />
+            <property role="3Fg1Gr" value="2209" />
+            <node concept="19SGf9" id="4qxaCfUgPJm" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgPJn" role="19SJt6">
+                <property role="19SUeA" value="Wassenaar, 22 maart 2017" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5i" id="4qxaCfUgPJp" role="3MKX6F">
+            <property role="1hTQn4" value="38bc5648-0b4c-4811-a993-2befe8b03338" />
+            <property role="3Fg1Gr" value="2210" />
+            <node concept="19SGf9" id="4qxaCfUgPJq" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgPJr" role="19SJt6">
+                <property role="19SUeA" value="Willem-Alexander" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPJt" role="3MKX6F">
+          <property role="1hTQn4" value="dac5b8cb-1aae-42a6-aae5-4f45645a1cca" />
+          <property role="3Fg1Gr" value="2211" />
+          <node concept="3MKX5i" id="4qxaCfUgPJu" role="3MKX6F">
+            <property role="1hTQn4" value="9808f463-dbde-47b5-8a3d-ed95cf80abec" />
+            <property role="3Fg1Gr" value="2212" />
+            <node concept="19SGf9" id="4qxaCfUgPJv" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgPJw" role="19SJt6">
+                <property role="19SUeA" value="De Minister van Financiën," />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5i" id="4qxaCfUgPJy" role="3MKX6F">
+            <property role="1hTQn4" value="d5c2f618-2242-4fd6-a061-4d90bad6b5c8" />
+            <property role="3Fg1Gr" value="2213" />
+            <node concept="19SGf9" id="4qxaCfUgPJz" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgPJ$" role="19SJt6">
+                <property role="19SUeA" value="J.R.V.A. Dijsselbloem" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPJA" role="3MKX6F">
+          <property role="1hTQn4" value="cd22ea1c-dede-484b-b857-e21f0c2841dc" />
+          <property role="3Fg1Gr" value="2214" />
+          <node concept="3MKX5i" id="4qxaCfUgPJB" role="3MKX6F">
+            <property role="1hTQn4" value="6374cc09-8cd7-4779-a644-36abd0c2d5dd" />
+            <property role="3Fg1Gr" value="2215" />
+            <node concept="19SGf9" id="4qxaCfUgPJC" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgPJD" role="19SJt6">
+                <property role="19SUeA" value="Uitgegeven de zevende april 2017" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPJF" role="3MKX6F">
+            <property role="1hTQn4" value="492f3916-ac1c-4853-851d-c037f18073a6" />
+            <property role="3Fg1Gr" value="2216" />
+            <node concept="3MKX5i" id="4qxaCfUgPJG" role="3MKX6F">
+              <property role="1hTQn4" value="f2bd3979-a1e4-45fd-939f-aefd23203478" />
+              <property role="3Fg1Gr" value="2217" />
+              <node concept="19SGf9" id="4qxaCfUgPJH" role="3MLR7a">
+                <node concept="19SUe$" id="4qxaCfUgPJI" role="19SJt6">
+                  <property role="19SUeA" value="De Minister van Veiligheid en Justitie," />
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5i" id="4qxaCfUgPJK" role="3MKX6F">
+              <property role="1hTQn4" value="2062a601-0c2f-4715-8e55-b32ef5fd5eaf" />
+              <property role="3Fg1Gr" value="2218" />
+              <node concept="19SGf9" id="4qxaCfUgPJL" role="3MLR7a">
+                <node concept="19SUe$" id="4qxaCfUgPJM" role="19SJt6">
+                  <property role="19SUeA" value="S.A. Blok" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOKi">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="2f5c06ae-5b5e-4830-8586-961882d287c4" />
+    <property role="3Fg1Gr" value="14" />
+    <property role="TrG5h" value="Artikel 1.1 Begrippen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgOKj" role="3MKX6F">
+      <property role="1hTQn4" value="acffbd2d-6123-4670-a2f5-e266eaf2a25a" />
+      <property role="3Fg1Gr" value="16" />
+      <node concept="3MKX5h" id="4qxaCfUgOKk" role="3MKX6F">
+        <property role="1hTQn4" value="9c6ff736-5a70-43c9-b521-ab91b58f31a5" />
+        <property role="3Fg1Gr" value="17" />
+        <node concept="3MKX5i" id="4qxaCfUgOKl" role="3MKX6F">
+          <property role="1hTQn4" value="4b75eb9a-ed2d-4929-84d5-8d8e599aa964" />
+          <property role="3Fg1Gr" value="18" />
+          <node concept="19SGf9" id="4qxaCfUgOKm" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOKn" role="19SJt6">
+              <property role="19SUeA" value="agentschap: een baten-lastenagentschap of een verplichtingen-kasagentschap;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOKp" role="3MKX6F">
+        <property role="1hTQn4" value="b8807a8a-5641-4b90-829d-5904b658ff74" />
+        <property role="3Fg1Gr" value="19" />
+        <node concept="3MKX5i" id="4qxaCfUgOKq" role="3MKX6F">
+          <property role="1hTQn4" value="38ebfdc4-2bbb-495f-9701-b1e5bd397a90" />
+          <property role="3Fg1Gr" value="20" />
+          <node concept="19SGf9" id="4qxaCfUgOKr" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOKs" role="19SJt6">
+              <property role="19SUeA" value="Auditdienst Rijk: het dienstonderdeel van het Ministerie van Financiën dat belast is met de uitoefening van de auditfunctie bij het Rijk;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOKu" role="3MKX6F">
+        <property role="1hTQn4" value="c3e6555f-90a9-4dfe-a0ad-c3ac135f3439" />
+        <property role="3Fg1Gr" value="21" />
+        <node concept="3MKX5i" id="4qxaCfUgOKv" role="3MKX6F">
+          <property role="1hTQn4" value="dcf9b2dc-ea7b-459c-b4a6-7402d4c4882b" />
+          <property role="3Fg1Gr" value="22" />
+          <node concept="19SGf9" id="4qxaCfUgOKw" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOKx" role="19SJt6">
+              <property role="19SUeA" value="baten-lastenagentschap: een dienstonderdeel van een ministerie, dat op grond van artikel 2.20, eerste lid, als baten-lastenagentschap is aangewezen;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOKz" role="3MKX6F">
+        <property role="1hTQn4" value="c1f00214-a3a7-48a2-9857-615c1376730e" />
+        <property role="3Fg1Gr" value="23" />
+        <node concept="3MKX5i" id="4qxaCfUgOK$" role="3MKX6F">
+          <property role="1hTQn4" value="e5f67068-f3c4-4f24-8d89-3785824cf859" />
+          <property role="3Fg1Gr" value="24" />
+          <node concept="19SGf9" id="4qxaCfUgOK_" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOKA" role="19SJt6">
+              <property role="19SUeA" value="baten-lastenstelsel: het financieel-administratieve stelsel van rekeningen waarin als uitgaven en ontvangsten in een jaar worden opgenomen de geldswaarden van het verbruik van goederen en diensten (lasten) in dat jaar, respectievelijk de geldswaarden van de rechten op ontvangsten (baten), die in dat jaar ontstaan;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOKC" role="3MKX6F">
+        <property role="1hTQn4" value="fe53d1db-ddf4-451e-9dce-6d6e75129fcf" />
+        <property role="3Fg1Gr" value="25" />
+        <node concept="3MKX5i" id="4qxaCfUgOKD" role="3MKX6F">
+          <property role="1hTQn4" value="551133f6-5b39-4182-b912-a25f25857443" />
+          <property role="3Fg1Gr" value="26" />
+          <node concept="19SGf9" id="4qxaCfUgOKE" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOKF" role="19SJt6">
+              <property role="19SUeA" value="bedrijfsvoering: het inzetten van personeel en materieel ter ondersteuning van het beleid of de taak;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOKH" role="3MKX6F">
+        <property role="1hTQn4" value="d5386bc9-dde3-47f2-b5f9-cd4cc422f437" />
+        <property role="3Fg1Gr" value="27" />
+        <node concept="3MKX5i" id="4qxaCfUgOKI" role="3MKX6F">
+          <property role="1hTQn4" value="75fa304b-2103-4211-b7a2-3ea0696d90c7" />
+          <property role="3Fg1Gr" value="28" />
+          <node concept="19SGf9" id="4qxaCfUgOKJ" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOKK" role="19SJt6">
+              <property role="19SUeA" value="begrotingsbeheer: het sturen en beheersen van het begrotingsproces, waaronder de begrotingsuitvoering en de zorg voor het ramen van de ontvangsten en de uitgaven;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOKM" role="3MKX6F">
+        <property role="1hTQn4" value="f8bdad9f-2199-4664-8362-78af4ee329ef" />
+        <property role="3Fg1Gr" value="29" />
+        <node concept="3MKX5i" id="4qxaCfUgOKN" role="3MKX6F">
+          <property role="1hTQn4" value="b8efe065-f47d-438f-ae9a-ec2de4487ded" />
+          <property role="3Fg1Gr" value="30" />
+          <node concept="19SGf9" id="4qxaCfUgOKO" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOKP" role="19SJt6">
+              <property role="19SUeA" value="begrotingsreserve: een geoormerkte, meerjarige budgettaire voorziening die wordt aangehouden op een afzonderlijke rekening-courant bij het Ministerie van Financiën;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOKR" role="3MKX6F">
+        <property role="1hTQn4" value="dff546d7-c6a5-48bd-a11a-8f13276fd640" />
+        <property role="3Fg1Gr" value="31" />
+        <node concept="3MKX5i" id="4qxaCfUgOKS" role="3MKX6F">
+          <property role="1hTQn4" value="f6ba0b33-2cbe-4a74-9c11-988e74e8b9b9" />
+          <property role="3Fg1Gr" value="32" />
+          <node concept="19SGf9" id="4qxaCfUgOKT" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOKU" role="19SJt6">
+              <property role="19SUeA" value="begrotingsstelsel: het baten-lastenstelsel, het kasstelsel of het verplichtingen-kasstelsel;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOKW" role="3MKX6F">
+        <property role="1hTQn4" value="454bb2b1-1eea-47be-aff9-009c48cc7acf" />
+        <property role="3Fg1Gr" value="33" />
+        <node concept="3MKX5i" id="4qxaCfUgOKX" role="3MKX6F">
+          <property role="1hTQn4" value="f9da1614-d7ed-4dd3-adf7-fa48faaf8abb" />
+          <property role="3Fg1Gr" value="34" />
+          <node concept="19SGf9" id="4qxaCfUgOKY" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOKZ" role="19SJt6">
+              <property role="19SUeA" value="boeken binnen begrotingsverband: het boeken van de geldswaarden van handelingen die betrekking hebben op het financieel beheer op een rekening in de financiële administratie, waarvan het saldo wordt opgenomen in een begrotingsartikel in een begrotingsstaat;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOL1" role="3MKX6F">
+        <property role="1hTQn4" value="95a89dbb-56a1-4cef-b24c-5a929a6a130c" />
+        <property role="3Fg1Gr" value="35" />
+        <node concept="3MKX5i" id="4qxaCfUgOL2" role="3MKX6F">
+          <property role="1hTQn4" value="459294f3-c4be-490e-aa27-57218f09d115" />
+          <property role="3Fg1Gr" value="36" />
+          <node concept="19SGf9" id="4qxaCfUgOL3" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOL4" role="19SJt6">
+              <property role="19SUeA" value="boeken buiten begrotingsverband: het boeken van de geldswaarden van handelingen die betrekking hebben op het financieel beheer op een rekening in de financiële administratie, waarvan het saldo niet wordt opgenomen in een begrotingsartikel in een begrotingsstaat;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOL6" role="3MKX6F">
+        <property role="1hTQn4" value="fd3fc558-f2a6-458e-8ecb-55024c913b75" />
+        <property role="3Fg1Gr" value="37" />
+        <node concept="3MKX5i" id="4qxaCfUgOL7" role="3MKX6F">
+          <property role="1hTQn4" value="c2e0648d-fb1e-4a13-b3d8-7bd56efc3ba3" />
+          <property role="3Fg1Gr" value="38" />
+          <node concept="19SGf9" id="4qxaCfUgOL8" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOL9" role="19SJt6">
+              <property role="19SUeA" value="budgetdisciplinesector: een onderdeel van de collectieve sector dat budgettair afzonderlijk wordt onderscheiden;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOLb" role="3MKX6F">
+        <property role="1hTQn4" value="581b072a-296c-45a1-bd99-fac47e3950a6" />
+        <property role="3Fg1Gr" value="39" />
+        <node concept="3MKX5i" id="4qxaCfUgOLc" role="3MKX6F">
+          <property role="1hTQn4" value="28c392bc-2b51-4b0f-b2a3-62928964de69" />
+          <property role="3Fg1Gr" value="40" />
+          <node concept="19SGf9" id="4qxaCfUgOLd" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOLe" role="19SJt6">
+              <property role="19SUeA" value="college: de Staten-Generaal, de Raad van State, de Algemene Rekenkamer, de Nationale ombudsman, de Kanselarij der Nederlandse Orden, het Kabinet van de Koning, het Kabinet van de Gouverneur van Aruba, het Kabinet van de Gouverneur van Curaçao, het Kabinet van de Gouverneur van Sint Maarten, de Kiesraad en de Commissie van toezicht betreffende de inlichtingen- en veiligheidsdiensten;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOLg" role="3MKX6F">
+        <property role="1hTQn4" value="f7c2266d-1fbe-40c1-b0f3-5792be1180d8" />
+        <property role="3Fg1Gr" value="41" />
+        <node concept="3MKX5i" id="4qxaCfUgOLh" role="3MKX6F">
+          <property role="1hTQn4" value="72b62946-9b05-4a49-b2a8-3a1d43e77a07" />
+          <property role="3Fg1Gr" value="42" />
+          <node concept="19SGf9" id="4qxaCfUgOLi" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOLj" role="19SJt6">
+              <property role="19SUeA" value="dienstonderdeel: een organisatieonderdeel van een ministerie of een college;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOLl" role="3MKX6F">
+        <property role="1hTQn4" value="dde61e2e-8922-495d-b3c1-b441edc4abd9" />
+        <property role="3Fg1Gr" value="43" />
+        <node concept="3MKX5i" id="4qxaCfUgOLm" role="3MKX6F">
+          <property role="1hTQn4" value="aa31515e-4b08-4e8d-8706-f7d0be1d404d" />
+          <property role="3Fg1Gr" value="44" />
+          <node concept="19SGf9" id="4qxaCfUgOLn" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOLo" role="19SJt6">
+              <property role="19SUeA" value="financieel beheer: het sturen en beheersen van de financiële aspecten van het beleid en de bedrijfsvoering, waaronder de zorg voor:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgOLq" role="3MKX6F">
+          <property role="1hTQn4" value="398ea9b8-8bf3-47c4-8421-c34fa526268e" />
+          <property role="3Fg1Gr" value="45" />
+          <node concept="3MKX5h" id="4qxaCfUgOLr" role="3MKX6F">
+            <property role="1hTQn4" value="3114f4cb-cb5c-4c06-b0a4-f2411e68ac21" />
+            <property role="3Fg1Gr" value="46" />
+            <node concept="3Fnoml" id="4qxaCfUgOLs" role="3MKX6F">
+              <property role="1hTQn4" value="c19d1822-189b-43a9-bae0-e79c932ddacb" />
+              <property role="3Fg1Gr" value="47" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgOLt" role="3MKX6F">
+                <property role="1hTQn4" value="db9a73ae-0fcf-47b9-96a5-c864e407f26c" />
+                <property role="3Fg1Gr" value="48" />
+                <node concept="19SGf9" id="4qxaCfUgOLu" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOLv" role="19SJt6">
+                    <property role="19SUeA" value="het aangaan van financiële verplichtingen;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOLx" role="3MKX6F">
+            <property role="1hTQn4" value="55f8a4a0-a384-4686-aa86-7668fe7d203a" />
+            <property role="3Fg1Gr" value="49" />
+            <node concept="3Fnoml" id="4qxaCfUgOLy" role="3MKX6F">
+              <property role="1hTQn4" value="3bee9dd2-ae91-4f6a-ba52-12fabe196df7" />
+              <property role="3Fg1Gr" value="50" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgOLz" role="3MKX6F">
+                <property role="1hTQn4" value="6b75f70f-72ba-4c0e-b0e3-3929cd6fc69e" />
+                <property role="3Fg1Gr" value="51" />
+                <node concept="19SGf9" id="4qxaCfUgOL$" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOL_" role="19SJt6">
+                    <property role="19SUeA" value="het heffen van belastingen en het opleggen van andere heffingen;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOLB" role="3MKX6F">
+            <property role="1hTQn4" value="25b300b4-d82a-4c3c-823b-b6372aebbeab" />
+            <property role="3Fg1Gr" value="52" />
+            <node concept="3Fnoml" id="4qxaCfUgOLC" role="3MKX6F">
+              <property role="1hTQn4" value="06a069c5-8937-4f07-9897-37632033969d" />
+              <property role="3Fg1Gr" value="53" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgOLD" role="3MKX6F">
+                <property role="1hTQn4" value="5ca7c5b8-a9f9-45c3-9d61-9a93aec44538" />
+                <property role="3Fg1Gr" value="54" />
+                <node concept="19SGf9" id="4qxaCfUgOLE" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOLF" role="19SJt6">
+                    <property role="19SUeA" value="het in rekening brengen van kosten;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOLH" role="3MKX6F">
+            <property role="1hTQn4" value="7ae207fa-f3d2-4518-a7cc-1c95548b225c" />
+            <property role="3Fg1Gr" value="55" />
+            <node concept="3Fnoml" id="4qxaCfUgOLI" role="3MKX6F">
+              <property role="1hTQn4" value="0fee4c28-bdcf-4bae-8a7a-557f2aaafa07" />
+              <property role="3Fg1Gr" value="56" />
+              <property role="3Fnomm" value="d." />
+              <node concept="3MKX5i" id="4qxaCfUgOLJ" role="3MKX6F">
+                <property role="1hTQn4" value="a14e610c-eb09-4bc7-a8ba-70b7dafaf8fa" />
+                <property role="3Fg1Gr" value="57" />
+                <node concept="19SGf9" id="4qxaCfUgOLK" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOLL" role="19SJt6">
+                    <property role="19SUeA" value="het beheer van de financiële bezittingen en schulden;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOLN" role="3MKX6F">
+            <property role="1hTQn4" value="87f75cd6-d13a-4564-9324-573cfa6adb16" />
+            <property role="3Fg1Gr" value="58" />
+            <node concept="3Fnoml" id="4qxaCfUgOLO" role="3MKX6F">
+              <property role="1hTQn4" value="91228602-c75a-4e0f-9f20-5aef9d549825" />
+              <property role="3Fg1Gr" value="59" />
+              <property role="3Fnomm" value="e." />
+              <node concept="3MKX5i" id="4qxaCfUgOLP" role="3MKX6F">
+                <property role="1hTQn4" value="42121b81-4f63-4634-b9db-f40218a0d57e" />
+                <property role="3Fg1Gr" value="60" />
+                <node concept="19SGf9" id="4qxaCfUgOLQ" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOLR" role="19SJt6">
+                    <property role="19SUeA" value="het kasbeheer;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOLT" role="3MKX6F">
+        <property role="1hTQn4" value="2b859ce5-b862-428b-9d25-8344abd753d5" />
+        <property role="3Fg1Gr" value="61" />
+        <node concept="3MKX5i" id="4qxaCfUgOLU" role="3MKX6F">
+          <property role="1hTQn4" value="65bfcd10-811c-4d71-83be-351c2220ae4c" />
+          <property role="3Fg1Gr" value="62" />
+          <node concept="19SGf9" id="4qxaCfUgOLV" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOLW" role="19SJt6">
+              <property role="19SUeA" value="financiële begrotingsinformatie: de in een begroting opgenomen informatie over de financiële aspecten van het voorgenomen beleid en de voorgenomen bedrijfsvoering;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOLY" role="3MKX6F">
+        <property role="1hTQn4" value="511b42d6-4a23-40fd-9e59-0d089a90548f" />
+        <property role="3Fg1Gr" value="63" />
+        <node concept="3MKX5i" id="4qxaCfUgOLZ" role="3MKX6F">
+          <property role="1hTQn4" value="54d53d5d-c31e-46e9-ae19-4f579b171944" />
+          <property role="3Fg1Gr" value="64" />
+          <node concept="19SGf9" id="4qxaCfUgOM0" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOM1" role="19SJt6">
+              <property role="19SUeA" value="financiële verantwoordingsinformatie: de in een jaarverslag opgenomen informatie over de financiële aspecten van het gevoerde beleid en de gevoerde bedrijfsvoering;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOM3" role="3MKX6F">
+        <property role="1hTQn4" value="6dd079cd-f796-4558-bcce-862f4b832902" />
+        <property role="3Fg1Gr" value="65" />
+        <node concept="3MKX5i" id="4qxaCfUgOM4" role="3MKX6F">
+          <property role="1hTQn4" value="d4351bdf-a9c3-407b-9d8f-6175708881ba" />
+          <property role="3Fg1Gr" value="66" />
+          <node concept="19SGf9" id="4qxaCfUgOM5" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOM6" role="19SJt6">
+              <property role="19SUeA" value="financiële verplichting: de voorwaardelijke of onvoorwaardelijke verplichting tot het in de toekomst doen van een kasbetaling aan een derde of aan een ander dienstonderdeel;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOM8" role="3MKX6F">
+        <property role="1hTQn4" value="b3a44c34-c0ef-4973-93a5-b40680832ed0" />
+        <property role="3Fg1Gr" value="67" />
+        <node concept="3MKX5i" id="4qxaCfUgOM9" role="3MKX6F">
+          <property role="1hTQn4" value="7b003a1a-8cd8-4b24-b50c-809acb7b1022" />
+          <property role="3Fg1Gr" value="68" />
+          <node concept="19SGf9" id="4qxaCfUgOMa" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOMb" role="19SJt6">
+              <property role="19SUeA" value="kasreserve: een niet-geoormerkte, meerjarige budgettaire reserve die wordt aangehouden op een rekening-courant bij het Ministerie van Financiën;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOMd" role="3MKX6F">
+        <property role="1hTQn4" value="91530423-3c6e-49f2-8f15-59f4b9af8bf6" />
+        <property role="3Fg1Gr" value="69" />
+        <node concept="3MKX5i" id="4qxaCfUgOMe" role="3MKX6F">
+          <property role="1hTQn4" value="d4fe525a-00f4-456f-a05f-d624f4079e47" />
+          <property role="3Fg1Gr" value="70" />
+          <node concept="19SGf9" id="4qxaCfUgOMf" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOMg" role="19SJt6">
+              <property role="19SUeA" value="kasstelsel: het financieel-administratieve stelsel van rekeningen waarin als uitgaven en ontvangsten in een jaar worden opgenomen de kasuitgaven en de kasontvangsten in dat jaar;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOMi" role="3MKX6F">
+        <property role="1hTQn4" value="2484aa3e-bf8f-4817-9a00-f87ecbe774ce" />
+        <property role="3Fg1Gr" value="71" />
+        <node concept="3MKX5i" id="4qxaCfUgOMj" role="3MKX6F">
+          <property role="1hTQn4" value="8838ce6b-2574-4b6c-b5aa-b3c5a6e56d05" />
+          <property role="3Fg1Gr" value="72" />
+          <node concept="19SGf9" id="4qxaCfUgOMk" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOMl" role="19SJt6">
+              <property role="19SUeA" value="materieelbeheer: de zorg voor het onderhoud en de instandhouding van roerende en onroerende zaken vanaf het moment van inbeheer- of ingebruikneming tot aan het moment van afstoting;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOMn" role="3MKX6F">
+        <property role="1hTQn4" value="136a382b-0fc8-4253-97df-b86f66f1328a" />
+        <property role="3Fg1Gr" value="73" />
+        <node concept="3MKX5i" id="4qxaCfUgOMo" role="3MKX6F">
+          <property role="1hTQn4" value="f36c472a-004d-4388-a00e-f7a5ec2f7066" />
+          <property role="3Fg1Gr" value="74" />
+          <node concept="19SGf9" id="4qxaCfUgOMp" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOMq" role="19SJt6">
+              <property role="19SUeA" value="materiële bedrijfsvoering: de materiële aspecten van het beleid en de bedrijfsvoering, toegespitst op:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgOMs" role="3MKX6F">
+          <property role="1hTQn4" value="de590b1c-9c64-4c29-bff9-6b3e696104c6" />
+          <property role="3Fg1Gr" value="75" />
+          <node concept="3MKX5h" id="4qxaCfUgOMt" role="3MKX6F">
+            <property role="1hTQn4" value="f4114fdd-862e-4f56-8831-9a82ef02545a" />
+            <property role="3Fg1Gr" value="76" />
+            <node concept="3Fnoml" id="4qxaCfUgOMu" role="3MKX6F">
+              <property role="1hTQn4" value="3ea4d698-403c-4292-a123-2be74d468578" />
+              <property role="3Fg1Gr" value="77" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgOMv" role="3MKX6F">
+                <property role="1hTQn4" value="bfaa4f1f-95fe-458a-ae43-d0334596bb3f" />
+                <property role="3Fg1Gr" value="78" />
+                <node concept="19SGf9" id="4qxaCfUgOMw" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOMx" role="19SJt6">
+                    <property role="19SUeA" value="het verwerven van materieel;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOMz" role="3MKX6F">
+            <property role="1hTQn4" value="e4e4d7bc-69ff-41a8-bb0c-37183aacf6b5" />
+            <property role="3Fg1Gr" value="79" />
+            <node concept="3Fnoml" id="4qxaCfUgOM$" role="3MKX6F">
+              <property role="1hTQn4" value="108d853c-bb41-4e10-a804-514fdded7aff" />
+              <property role="3Fg1Gr" value="80" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgOM_" role="3MKX6F">
+                <property role="1hTQn4" value="a29a7f24-95d0-4965-a1f7-cdf698d3a69a" />
+                <property role="3Fg1Gr" value="81" />
+                <node concept="19SGf9" id="4qxaCfUgOMA" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOMB" role="19SJt6">
+                    <property role="19SUeA" value="het materieelbeheer;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOMD" role="3MKX6F">
+            <property role="1hTQn4" value="00622df9-562f-4e75-b7cf-061046238105" />
+            <property role="3Fg1Gr" value="82" />
+            <node concept="3Fnoml" id="4qxaCfUgOME" role="3MKX6F">
+              <property role="1hTQn4" value="b5da0210-01bb-4d0a-80f4-62f19b501518" />
+              <property role="3Fg1Gr" value="83" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgOMF" role="3MKX6F">
+                <property role="1hTQn4" value="e79f1771-172e-41b4-84ff-e9a4b013c8c9" />
+                <property role="3Fg1Gr" value="84" />
+                <node concept="19SGf9" id="4qxaCfUgOMG" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOMH" role="19SJt6">
+                    <property role="19SUeA" value="het afstoten van materieel;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOMJ" role="3MKX6F">
+        <property role="1hTQn4" value="7bbca73f-ca13-48c5-b2c2-e25e5d81964a" />
+        <property role="3Fg1Gr" value="85" />
+        <node concept="3MKX5i" id="4qxaCfUgOMK" role="3MKX6F">
+          <property role="1hTQn4" value="fd8d8a59-46d6-4bab-8697-f3d62b87f3f9" />
+          <property role="3Fg1Gr" value="86" />
+          <node concept="19SGf9" id="4qxaCfUgOML" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOMM" role="19SJt6">
+              <property role="19SUeA" value="niet-financiële verantwoordingsinformatie: de in een jaarverslag opgenomen informatie over de niet-financiële aspecten van het gevoerde beleid en de gevoerde bedrijfsvoering;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOMO" role="3MKX6F">
+        <property role="1hTQn4" value="36751cd1-1f43-4ad0-bab5-c7c21044835a" />
+        <property role="3Fg1Gr" value="87" />
+        <node concept="3MKX5i" id="4qxaCfUgOMP" role="3MKX6F">
+          <property role="1hTQn4" value="af62fc75-951d-491e-b0f0-ab332f5df9db" />
+          <property role="3Fg1Gr" value="88" />
+          <node concept="19SGf9" id="4qxaCfUgOMQ" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOMR" role="19SJt6">
+              <property role="19SUeA" value="rechtspersoon met een wettelijke taak: een rechtspersoon die een bij of krachtens een wet geregelde taak uitvoert en die daartoe geheel of gedeeltelijk wordt bekostigd uit de opbrengst van een bij of krachtens een wet ingestelde heffing, met uitzondering van de gemeenten, provincies, waterschappen, de openbare lichamen Bonaire, Sint Eustatius en Saba, openbare lichamen voor beroep en bedrijf en openbare lichamen en gemeenschappelijke organen ingesteld krachtens de Wet gemeenschappelijke regelingen uitgezonderd de openbare lichamen en gemeenschappelijke organen waaraan vanwege het Rijk wordt deelgenomen;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOMT" role="3MKX6F">
+        <property role="1hTQn4" value="ba2ee275-1c86-43ca-adab-d7b0a09b7dd4" />
+        <property role="3Fg1Gr" value="89" />
+        <node concept="3MKX5i" id="4qxaCfUgOMU" role="3MKX6F">
+          <property role="1hTQn4" value="3501672c-1c80-4f03-b12c-8422cbae5007" />
+          <property role="3Fg1Gr" value="90" />
+          <node concept="19SGf9" id="4qxaCfUgOMV" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOMW" role="19SJt6">
+              <property role="19SUeA" value="saldibalans: het overzicht van de saldi van de financiële activa en passiva zoals deze op een bepaalde datum uit de financiële administratie blijken;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOMY" role="3MKX6F">
+        <property role="1hTQn4" value="1a3a68f1-ef8c-4134-a2ed-5dca34b56bd2" />
+        <property role="3Fg1Gr" value="91" />
+        <node concept="3MKX5i" id="4qxaCfUgOMZ" role="3MKX6F">
+          <property role="1hTQn4" value="4bf610d0-430a-4987-b92e-986f057f8254" />
+          <property role="3Fg1Gr" value="92" />
+          <node concept="19SGf9" id="4qxaCfUgON0" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgON1" role="19SJt6">
+              <property role="19SUeA" value="schatkist van het Rijk: de departementale kassen en de centrale kassen van het Rijk tezamen;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgON3" role="3MKX6F">
+        <property role="1hTQn4" value="4db40cbe-0e33-4514-977a-02b567513e3b" />
+        <property role="3Fg1Gr" value="93" />
+        <node concept="3MKX5i" id="4qxaCfUgON4" role="3MKX6F">
+          <property role="1hTQn4" value="5718d7a6-2458-4bd7-9e4f-71f201589d91" />
+          <property role="3Fg1Gr" value="94" />
+          <node concept="19SGf9" id="4qxaCfUgON5" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgON6" role="19SJt6">
+              <property role="19SUeA" value="schatkistbankieren: het aanhouden van liquide middelen op een bankrekening van de schatkist van het Rijk;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgON8" role="3MKX6F">
+        <property role="1hTQn4" value="fb959b79-fcb8-444c-9c58-561010e87db6" />
+        <property role="3Fg1Gr" value="95" />
+        <node concept="3MKX5i" id="4qxaCfUgON9" role="3MKX6F">
+          <property role="1hTQn4" value="1cb7b9e8-293d-450d-bb9c-36e025424b1e" />
+          <property role="3Fg1Gr" value="96" />
+          <node concept="19SGf9" id="4qxaCfUgONa" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgONb" role="19SJt6">
+              <property role="19SUeA" value="slotverschil: het verschil op het niveau van een begrotingsartikel dat na afloop van een begrotingsjaar wordt vastgesteld tussen de realisatie van de uitgaven, onderscheidenlijk de ontvangsten, en de raming van de uitgaven, onderscheidenlijk de ontvangsten, in de wet tot vaststelling van de begrotingsstaten, bedoeld in artikel 2.23, en de wijzigingen die daarin zijn aangebracht door middel van de wetten tot wijziging van de begrotingsstaten, bedoeld in artikel 2.26;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgONd" role="3MKX6F">
+        <property role="1hTQn4" value="3f3b7044-55b7-4c9d-9501-8004e5ea513f" />
+        <property role="3Fg1Gr" value="97" />
+        <node concept="3MKX5i" id="4qxaCfUgONe" role="3MKX6F">
+          <property role="1hTQn4" value="79ec1d7f-2e21-4270-a3a2-e37182256c18" />
+          <property role="3Fg1Gr" value="98" />
+          <node concept="19SGf9" id="4qxaCfUgONf" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgONg" role="19SJt6">
+              <property role="19SUeA" value="transactiestelsel: het financieel-administratieve stelsel van rekeningen waarin als uitgaven en ontvangsten in een jaar worden opgenomen de geldswaarden van de economische transacties die in dat jaar ontstaan;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgONi" role="3MKX6F">
+        <property role="1hTQn4" value="536d656c-416f-45fc-b80f-5f4d4fe70402" />
+        <property role="3Fg1Gr" value="99" />
+        <node concept="3MKX5i" id="4qxaCfUgONj" role="3MKX6F">
+          <property role="1hTQn4" value="58837aa0-e4b2-43be-90b3-b6efe3423fe4" />
+          <property role="3Fg1Gr" value="100" />
+          <node concept="19SGf9" id="4qxaCfUgONk" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgONl" role="19SJt6">
+              <property role="19SUeA" value="verplichtingen-kasagentschap: een dienstonderdeel van een ministerie, dat op grond van artikel 2.20, eerste lid, als verplichtingen-kasagentschap is aangewezen;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgONn" role="3MKX6F">
+        <property role="1hTQn4" value="7c21e4c9-5869-45b9-80f1-a1bd08f15338" />
+        <property role="3Fg1Gr" value="101" />
+        <node concept="3MKX5i" id="4qxaCfUgONo" role="3MKX6F">
+          <property role="1hTQn4" value="9879b212-e7e3-4b79-88e9-fc2705885f1b" />
+          <property role="3Fg1Gr" value="102" />
+          <node concept="19SGf9" id="4qxaCfUgONp" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgONq" role="19SJt6">
+              <property role="19SUeA" value="verplichtingen-kasstelsel: de combinatie van het verplichtingenstelsel en het kasstelsel waarin de kasuitgaven en de financiële verplichtingen geïntegreerd worden geadministreerd;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgONs" role="3MKX6F">
+        <property role="1hTQn4" value="49c5ef45-973a-4ae7-b746-ebfc24d91995" />
+        <property role="3Fg1Gr" value="103" />
+        <node concept="3MKX5i" id="4qxaCfUgONt" role="3MKX6F">
+          <property role="1hTQn4" value="06d14ded-2a07-4a17-9808-9bdf20d969e9" />
+          <property role="3Fg1Gr" value="104" />
+          <node concept="19SGf9" id="4qxaCfUgONu" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgONv" role="19SJt6">
+              <property role="19SUeA" value="verplichtingenstelsel: het financieel-administratieve stelsel van rekeningen waarin als uitgaven en ontvangsten in een jaar worden opgenomen de geldswaarden van de in dat jaar aangegane of ontstane financiële verplichtingen die tot kasuitgaven leiden of kunnen leiden." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgON$">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="97650fdd-4da7-49f7-96f5-003a95b2d790" />
+    <property role="3Fg1Gr" value="109" />
+    <property role="TrG5h" value="Artikel 2.1 Samenstelling en inhoud van de rijksbegroting" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgON_" role="3MKX6F">
+      <property role="1hTQn4" value="896d119b-e5bc-4a37-b203-4b9634f823ce" />
+      <property role="3Fg1Gr" value="111" />
+      <node concept="3Fnoml" id="4qxaCfUgONA" role="3MKX6F">
+        <property role="1hTQn4" value="1d19baaa-455b-4a4e-ba9e-7312e53039bc" />
+        <property role="3Fg1Gr" value="112" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgONB" role="3MKX6F">
+          <property role="1hTQn4" value="9be87bdb-e7ae-491d-b491-19607090e543" />
+          <property role="3Fg1Gr" value="113" />
+          <node concept="19SGf9" id="4qxaCfUgONC" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOND" role="19SJt6">
+              <property role="19SUeA" value="Tot de rijksbegroting behoren de departementale en de niet-departementale begrotingen van de ministeries en de colleges." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgONF" role="3MKX6F">
+      <property role="1hTQn4" value="39f68957-7eb4-4eee-9bbb-ad20ce781824" />
+      <property role="3Fg1Gr" value="114" />
+      <node concept="3Fnoml" id="4qxaCfUgONG" role="3MKX6F">
+        <property role="1hTQn4" value="9b730473-5c3f-407a-9681-10bc4ac0e7d2" />
+        <property role="3Fg1Gr" value="115" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgONH" role="3MKX6F">
+          <property role="1hTQn4" value="2768338a-f04a-4961-98e6-5c5501c7e5f3" />
+          <property role="3Fg1Gr" value="116" />
+          <node concept="19SGf9" id="4qxaCfUgONI" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgONJ" role="19SJt6">
+              <property role="19SUeA" value="Onze Ministers, ieder met betrekking tot het beleid waarvoor hij verantwoordelijk is, stellen voor de aanvang van een begrotingsjaar een begroting op." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgONL" role="3MKX6F">
+      <property role="1hTQn4" value="774ac8ac-2cd3-434e-88e3-9465498fcb3e" />
+      <property role="3Fg1Gr" value="117" />
+      <node concept="3Fnoml" id="4qxaCfUgONM" role="3MKX6F">
+        <property role="1hTQn4" value="66d65b62-c843-4e52-9bb4-aa3f26a81e4c" />
+        <property role="3Fg1Gr" value="118" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgONN" role="3MKX6F">
+          <property role="1hTQn4" value="6145cc28-3e5f-41c5-aaa6-ad244e7cd3a6" />
+          <property role="3Fg1Gr" value="119" />
+          <node concept="19SGf9" id="4qxaCfUgONO" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgONP" role="19SJt6">
+              <property role="19SUeA" value="Voor elk ministerie is er één departementale begroting en kunnen er één of meer niet-departementale begrotingen zijn." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgONR" role="3MKX6F">
+      <property role="1hTQn4" value="946bbc4c-935c-499b-9cce-da341fd8c28e" />
+      <property role="3Fg1Gr" value="120" />
+      <node concept="3Fnoml" id="4qxaCfUgONS" role="3MKX6F">
+        <property role="1hTQn4" value="dc754eab-d8ba-4907-816b-c1d13011fedc" />
+        <property role="3Fg1Gr" value="121" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgONT" role="3MKX6F">
+          <property role="1hTQn4" value="993315ac-bed6-4ebb-9a39-b9ce08cdcf34" />
+          <property role="3Fg1Gr" value="122" />
+          <node concept="19SGf9" id="4qxaCfUgONU" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgONV" role="19SJt6">
+              <property role="19SUeA" value="Voor elk college is er een niet-departementale begroting." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgONX" role="3MKX6F">
+      <property role="1hTQn4" value="d31ae51c-a0d6-4d39-a783-987db7c548a2" />
+      <property role="3Fg1Gr" value="123" />
+      <node concept="3Fnoml" id="4qxaCfUgONY" role="3MKX6F">
+        <property role="1hTQn4" value="a1e89456-ec3a-4ad3-a667-0a0f5990a9a3" />
+        <property role="3Fg1Gr" value="124" />
+        <property role="3Fnomm" value="5" />
+        <node concept="3MKX5i" id="4qxaCfUgONZ" role="3MKX6F">
+          <property role="1hTQn4" value="210f622a-6adf-4608-b2f0-47647733563c" />
+          <property role="3Fg1Gr" value="125" />
+          <node concept="19SGf9" id="4qxaCfUgOO0" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOO1" role="19SJt6">
+              <property role="19SUeA" value="Als niet-departementale begroting worden voorts uitsluitend aangemerkt:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgOO3" role="3MKX6F">
+          <property role="1hTQn4" value="697efaf1-8197-4ea3-b05c-9ba43855e6cd" />
+          <property role="3Fg1Gr" value="126" />
+          <node concept="3MKX5h" id="4qxaCfUgOO4" role="3MKX6F">
+            <property role="1hTQn4" value="79bd59f6-2bbb-48be-a8d6-f1ea85dc31a2" />
+            <property role="3Fg1Gr" value="127" />
+            <node concept="3Fnoml" id="4qxaCfUgOO5" role="3MKX6F">
+              <property role="1hTQn4" value="a62012bf-ea54-4e76-8de7-22f90e02c6c3" />
+              <property role="3Fg1Gr" value="128" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgOO6" role="3MKX6F">
+                <property role="1hTQn4" value="943e8638-b0af-43a6-8102-9dc0dcee6bf2" />
+                <property role="3Fg1Gr" value="129" />
+                <node concept="19SGf9" id="4qxaCfUgOO7" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOO8" role="19SJt6">
+                    <property role="19SUeA" value="de begroting van de Koning, bedoeld in artikel 2.9, en de begroting van Nationale Schuld, bedoeld in artikel 2.10;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOOa" role="3MKX6F">
+            <property role="1hTQn4" value="b2be2fe6-f0fc-4fc6-95ab-46f3fdb0a1a9" />
+            <property role="3Fg1Gr" value="130" />
+            <node concept="3Fnoml" id="4qxaCfUgOOb" role="3MKX6F">
+              <property role="1hTQn4" value="96672915-ad83-4964-a05e-a52e48f91705" />
+              <property role="3Fg1Gr" value="131" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgOOc" role="3MKX6F">
+                <property role="1hTQn4" value="ddee8bed-578a-4846-b426-89c9eb8e4480" />
+                <property role="3Fg1Gr" value="132" />
+                <node concept="19SGf9" id="4qxaCfUgOOd" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOOe" role="19SJt6">
+                    <property role="19SUeA" value="de begroting van koninkrijksrelaties, tenzij de uitgaven en ontvangsten die samenhangen met koninkrijksrelaties worden opgenomen in de betrokken departementale begroting;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOOg" role="3MKX6F">
+            <property role="1hTQn4" value="f2135c1b-8bcf-4943-9a79-848cfcc1c155" />
+            <property role="3Fg1Gr" value="133" />
+            <node concept="3Fnoml" id="4qxaCfUgOOh" role="3MKX6F">
+              <property role="1hTQn4" value="1cc41cc2-bdd1-42a8-bb20-4f5837d64c00" />
+              <property role="3Fg1Gr" value="134" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgOOi" role="3MKX6F">
+                <property role="1hTQn4" value="d508058f-5362-4ef7-82bd-c32a6e7a3497" />
+                <property role="3Fg1Gr" value="135" />
+                <node concept="19SGf9" id="4qxaCfUgOOj" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOOk" role="19SJt6">
+                    <property role="19SUeA" value="de begrotingen van de begrotingsfondsen, bedoeld in artikel 2.11, eerste lid;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOOm" role="3MKX6F">
+            <property role="1hTQn4" value="d87b5c11-2564-477f-a454-8d7c9761842e" />
+            <property role="3Fg1Gr" value="136" />
+            <node concept="3Fnoml" id="4qxaCfUgOOn" role="3MKX6F">
+              <property role="1hTQn4" value="f7e39c56-d167-4036-8737-d8af48dae215" />
+              <property role="3Fg1Gr" value="137" />
+              <property role="3Fnomm" value="d." />
+              <node concept="3MKX5i" id="4qxaCfUgOOo" role="3MKX6F">
+                <property role="1hTQn4" value="d29e13ee-39a6-4114-8204-0f404adeac8b" />
+                <property role="3Fg1Gr" value="138" />
+                <node concept="19SGf9" id="4qxaCfUgOOp" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOOq" role="19SJt6">
+                    <property role="19SUeA" value="de programmabegrotingen, bedoeld in artikel 2.12, eerste lid." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOOs" role="3MKX6F">
+      <property role="1hTQn4" value="cb92ddcf-24f7-4b93-90aa-835b45bd6fbd" />
+      <property role="3Fg1Gr" value="139" />
+      <node concept="3Fnoml" id="4qxaCfUgOOt" role="3MKX6F">
+        <property role="1hTQn4" value="c21d7fde-22cc-4edc-9b3c-6d9bc001bf81" />
+        <property role="3Fg1Gr" value="140" />
+        <property role="3Fnomm" value="6" />
+        <node concept="3MKX5i" id="4qxaCfUgOOu" role="3MKX6F">
+          <property role="1hTQn4" value="4b58f77f-e23c-453a-a010-ba8a8f097c8d" />
+          <property role="3Fg1Gr" value="141" />
+          <node concept="19SGf9" id="4qxaCfUgOOv" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOOw" role="19SJt6">
+              <property role="19SUeA" value="Een departementale begroting bevat de weergave van het beleid en de bedrijfsvoering van het ministerie, met uitzondering van de beleidsaangelegenheden die worden opgenomen in een begroting als bedoeld in het vijfde lid." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOOy" role="3MKX6F">
+      <property role="1hTQn4" value="a18b0637-3dff-41ca-8a4b-9414c448e0ef" />
+      <property role="3Fg1Gr" value="142" />
+      <node concept="3Fnoml" id="4qxaCfUgOOz" role="3MKX6F">
+        <property role="1hTQn4" value="6616c405-3f3e-47f1-8c37-d8a8dbac4d86" />
+        <property role="3Fg1Gr" value="143" />
+        <property role="3Fnomm" value="7" />
+        <node concept="3MKX5i" id="4qxaCfUgOO$" role="3MKX6F">
+          <property role="1hTQn4" value="1cb8d2b8-ce92-4569-a03a-bf575b023905" />
+          <property role="3Fg1Gr" value="144" />
+          <node concept="19SGf9" id="4qxaCfUgOO_" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOOA" role="19SJt6">
+              <property role="19SUeA" value="De niet-departementale begroting van een college bevat de weergave van de taken en van de bedrijfsvoering van het college." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOOC" role="3MKX6F">
+      <property role="1hTQn4" value="4ef28f3b-180c-4773-9815-76c90f752b31" />
+      <property role="3Fg1Gr" value="145" />
+      <node concept="3Fnoml" id="4qxaCfUgOOD" role="3MKX6F">
+        <property role="1hTQn4" value="c8369d76-edea-4d4b-9deb-6042466071f8" />
+        <property role="3Fg1Gr" value="146" />
+        <property role="3Fnomm" value="8" />
+        <node concept="3MKX5i" id="4qxaCfUgOOE" role="3MKX6F">
+          <property role="1hTQn4" value="cd1dc8d3-35ac-4ce1-95f7-f7b765f7d4ed" />
+          <property role="3Fg1Gr" value="147" />
+          <node concept="19SGf9" id="4qxaCfUgOOF" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOOG" role="19SJt6">
+              <property role="19SUeA" value="Een programmabegroting, onderscheidenlijk een begroting van een begrotingsfonds, bevat de weergave van het afgezonderde beheer, bedoeld in artikel 2.12, eerste lid, respectievelijk artikel 2.11, eerste lid. Een programmabegroting, onderscheidenlijk een begroting van een begrotingsfonds, bevat geen weergave van de bedrijfsvoering die met dat afgezonderde beheer samenhangt." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOOK">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="bfeda29f-d1dc-4e11-b6c6-83a95a35b6b6" />
+    <property role="3Fg1Gr" value="150" />
+    <property role="TrG5h" value="Artikel 2.2 Presentatie van een begroting" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgOOL" role="3MKX6F">
+      <property role="1hTQn4" value="15d90de2-7255-42c5-a8b0-5d7f7ced3589" />
+      <property role="3Fg1Gr" value="152" />
+      <node concept="19SGf9" id="4qxaCfUgOOM" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgOON" role="19SJt6">
+          <property role="19SUeA" value="Een begroting bestaat uit een begrotingsstaat en een daarbij behorende toelichting." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOOQ">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="bb309b81-d836-4acc-84b0-a395e4d7648d" />
+    <property role="3Fg1Gr" value="153" />
+    <property role="TrG5h" value="Artikel 2.3 Autorisatie van een begroting" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgOOR" role="3MKX6F">
+      <property role="1hTQn4" value="5721b731-43dd-4085-b139-d1c026b73a2b" />
+      <property role="3Fg1Gr" value="155" />
+      <node concept="3Fnoml" id="4qxaCfUgOOS" role="3MKX6F">
+        <property role="1hTQn4" value="6c17841a-f581-4e8c-95c2-627ea65ca61a" />
+        <property role="3Fg1Gr" value="156" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgOOT" role="3MKX6F">
+          <property role="1hTQn4" value="ffe61a74-b32d-40fe-8151-1c77ebfce5e0" />
+          <property role="3Fg1Gr" value="157" />
+          <node concept="19SGf9" id="4qxaCfUgOOU" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOOV" role="19SJt6">
+              <property role="19SUeA" value="Een begrotingsstaat wordt afzonderlijk bij wet vastgesteld." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOOX" role="3MKX6F">
+      <property role="1hTQn4" value="59739033-cc95-48eb-833b-acf56efd3533" />
+      <property role="3Fg1Gr" value="158" />
+      <node concept="3Fnoml" id="4qxaCfUgOOY" role="3MKX6F">
+        <property role="1hTQn4" value="6bff0f68-4882-4583-bc16-ba457707788f" />
+        <property role="3Fg1Gr" value="159" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgOOZ" role="3MKX6F">
+          <property role="1hTQn4" value="188b68cd-01c2-42f1-8cc3-3b28c971591b" />
+          <property role="3Fg1Gr" value="160" />
+          <node concept="19SGf9" id="4qxaCfUgOP0" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOP1" role="19SJt6">
+              <property role="19SUeA" value="In afwijking van het eerste lid kunnen twee of meer begrotingsstaten waarvoor Onze Minister die het aangaat verantwoordelijk is, in één wet worden vastgesteld." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOP3" role="3MKX6F">
+      <property role="1hTQn4" value="e1a12e20-b5db-4e43-9ef0-5a6b07dec81d" />
+      <property role="3Fg1Gr" value="161" />
+      <node concept="3Fnoml" id="4qxaCfUgOP4" role="3MKX6F">
+        <property role="1hTQn4" value="e940a80a-7e5c-4261-89a6-15df4d17f3d6" />
+        <property role="3Fg1Gr" value="162" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgOP5" role="3MKX6F">
+          <property role="1hTQn4" value="0630d6a0-440a-4a43-9a32-b5e43beb7b12" />
+          <property role="3Fg1Gr" value="163" />
+          <node concept="19SGf9" id="4qxaCfUgOP6" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOP7" role="19SJt6">
+              <property role="19SUeA" value="Autorisatie van een begrotingsstaat vindt plaats op het niveau van een begrotingsartikel." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOP9" role="3MKX6F">
+      <property role="1hTQn4" value="85b070a4-1c5f-464a-a981-9232cbcfaac3" />
+      <property role="3Fg1Gr" value="164" />
+      <node concept="3Fnoml" id="4qxaCfUgOPa" role="3MKX6F">
+        <property role="1hTQn4" value="965e6fc3-d9c4-4e94-a5f9-68915b36c49c" />
+        <property role="3Fg1Gr" value="165" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgOPb" role="3MKX6F">
+          <property role="1hTQn4" value="60fa4c3d-1c01-4a4d-9f09-cfb50b3ef30b" />
+          <property role="3Fg1Gr" value="166" />
+          <node concept="19SGf9" id="4qxaCfUgOPc" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOPd" role="19SJt6">
+              <property role="19SUeA" value="Het geautoriseerde bedrag voor de uitgaven geldt als maximum." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOPf" role="3MKX6F">
+      <property role="1hTQn4" value="37c82889-ac02-4842-81ed-7c6462fde0d2" />
+      <property role="3Fg1Gr" value="167" />
+      <node concept="3Fnoml" id="4qxaCfUgOPg" role="3MKX6F">
+        <property role="1hTQn4" value="8ba3a710-5233-408b-b725-c12e9b04a45d" />
+        <property role="3Fg1Gr" value="168" />
+        <property role="3Fnomm" value="5" />
+        <node concept="3MKX5i" id="4qxaCfUgOPh" role="3MKX6F">
+          <property role="1hTQn4" value="37e3e8f0-84e5-4ed2-8ec6-8e271a14255a" />
+          <property role="3Fg1Gr" value="169" />
+          <node concept="19SGf9" id="4qxaCfUgOPi" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOPj" role="19SJt6">
+              <property role="19SUeA" value="Structurele wijzigingen van de begrotingsstaat die op voorstel van een of meer leden van de Tweede Kamer der Staten-Generaal zijn aangebracht, worden, indien dit met dit voorstel beoogd is, tevens in de begrotingsstaten van de daaropvolgende jaren opgenomen, tenzij een zwaarwegende reden zich hiertegen verzet. In dat geval informeert Onze betrokken Minister de Tweede Kamer der Staten-Generaal hierover." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOPm">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="be5223fb-eeb7-40aa-9060-a059fd30148a" />
+    <property role="3Fg1Gr" value="170" />
+    <property role="TrG5h" value="Artikel 2.4 Periodiciteit" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgOPn" role="3MKX6F">
+      <property role="1hTQn4" value="8a2d1d5b-8de8-4937-95b3-2a6de4ae06ae" />
+      <property role="3Fg1Gr" value="172" />
+      <node concept="19SGf9" id="4qxaCfUgOPo" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgOPp" role="19SJt6">
+          <property role="19SUeA" value="Het begrotingsjaar is het kalenderjaar." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOPs">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="2b8a4894-2635-4fb1-8ac2-e3d4811aa265" />
+    <property role="3Fg1Gr" value="173" />
+    <property role="TrG5h" value="Artikel 2.5 Begrotingsstaat" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgOPt" role="3MKX6F">
+      <property role="1hTQn4" value="761a3a86-6078-4ae9-bb57-d0584ea52c3c" />
+      <property role="3Fg1Gr" value="175" />
+      <node concept="19SGf9" id="4qxaCfUgOPu" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgOPv" role="19SJt6">
+          <property role="19SUeA" value="De begrotingsstaat bestaat uit begrotingsartikelen en bevat per begrotingsartikel de volgende gegevens:" />
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOPx" role="3MKX6F">
+      <property role="1hTQn4" value="8b225de2-b48b-41bd-934d-c6b7a1abc932" />
+      <property role="3Fg1Gr" value="176" />
+      <node concept="3MKX5h" id="4qxaCfUgOPy" role="3MKX6F">
+        <property role="1hTQn4" value="1e756671-db10-4743-866a-6e63d006b73e" />
+        <property role="3Fg1Gr" value="177" />
+        <node concept="3Fnoml" id="4qxaCfUgOPz" role="3MKX6F">
+          <property role="1hTQn4" value="2c29e138-d009-4008-82ba-157d8561ea05" />
+          <property role="3Fg1Gr" value="178" />
+          <property role="3Fnomm" value="a." />
+          <node concept="3MKX5i" id="4qxaCfUgOP$" role="3MKX6F">
+            <property role="1hTQn4" value="52fac503-10f0-450a-b0c7-f4913656c724" />
+            <property role="3Fg1Gr" value="179" />
+            <node concept="19SGf9" id="4qxaCfUgOP_" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgOPA" role="19SJt6">
+                <property role="19SUeA" value="het artikelnummer;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOPC" role="3MKX6F">
+        <property role="1hTQn4" value="fea482bf-290c-421c-9ddd-70227c03b38a" />
+        <property role="3Fg1Gr" value="180" />
+        <node concept="3Fnoml" id="4qxaCfUgOPD" role="3MKX6F">
+          <property role="1hTQn4" value="d3aeebcc-8742-4663-b26d-f244e8d05f69" />
+          <property role="3Fg1Gr" value="181" />
+          <property role="3Fnomm" value="b." />
+          <node concept="3MKX5i" id="4qxaCfUgOPE" role="3MKX6F">
+            <property role="1hTQn4" value="2062addf-ae81-485f-8169-cd21d3952487" />
+            <property role="3Fg1Gr" value="182" />
+            <node concept="19SGf9" id="4qxaCfUgOPF" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgOPG" role="19SJt6">
+                <property role="19SUeA" value="de artikelomschrijving;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOPI" role="3MKX6F">
+        <property role="1hTQn4" value="9a2f7922-e3e6-406e-8158-64266b68c827" />
+        <property role="3Fg1Gr" value="183" />
+        <node concept="3Fnoml" id="4qxaCfUgOPJ" role="3MKX6F">
+          <property role="1hTQn4" value="8008a17a-f34d-4737-8ccf-f95c06f5b962" />
+          <property role="3Fg1Gr" value="184" />
+          <property role="3Fnomm" value="c." />
+          <node concept="3MKX5i" id="4qxaCfUgOPK" role="3MKX6F">
+            <property role="1hTQn4" value="2a165ac5-ba9c-439f-b3b9-f148c7f7db7d" />
+            <property role="3Fg1Gr" value="185" />
+            <node concept="19SGf9" id="4qxaCfUgOPL" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgOPM" role="19SJt6">
+                <property role="19SUeA" value="het geraamde bedrag voor financiële verplichtingen;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOPO" role="3MKX6F">
+        <property role="1hTQn4" value="c7810035-2fb2-4e08-a50d-ee7eabdc0659" />
+        <property role="3Fg1Gr" value="186" />
+        <node concept="3Fnoml" id="4qxaCfUgOPP" role="3MKX6F">
+          <property role="1hTQn4" value="54fe1ed2-215b-447c-995c-3e49508bedc0" />
+          <property role="3Fg1Gr" value="187" />
+          <property role="3Fnomm" value="d." />
+          <node concept="3MKX5i" id="4qxaCfUgOPQ" role="3MKX6F">
+            <property role="1hTQn4" value="3f8e4564-8643-4b18-887a-3fff320571fb" />
+            <property role="3Fg1Gr" value="188" />
+            <node concept="19SGf9" id="4qxaCfUgOPR" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgOPS" role="19SJt6">
+                <property role="19SUeA" value="het geraamde bedrag voor kasuitgaven;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOPU" role="3MKX6F">
+        <property role="1hTQn4" value="ff9a7b2c-ba40-47f0-9abd-c8a2f4289b91" />
+        <property role="3Fg1Gr" value="189" />
+        <node concept="3Fnoml" id="4qxaCfUgOPV" role="3MKX6F">
+          <property role="1hTQn4" value="210fff85-ff60-42ae-a95b-a654804e5cf5" />
+          <property role="3Fg1Gr" value="190" />
+          <property role="3Fnomm" value="e." />
+          <node concept="3MKX5i" id="4qxaCfUgOPW" role="3MKX6F">
+            <property role="1hTQn4" value="72e5bb6a-6590-428d-b166-f8dc22b28185" />
+            <property role="3Fg1Gr" value="191" />
+            <node concept="19SGf9" id="4qxaCfUgOPX" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgOPY" role="19SJt6">
+                <property role="19SUeA" value="het geraamde bedrag voor kasontvangsten." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOQ1">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="8f4d7d38-da63-4bd0-a03e-73dd91ae017a" />
+    <property role="3Fg1Gr" value="192" />
+    <property role="TrG5h" value="Artikel 2.6 Financiële staat van agentschappen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgOQ2" role="3MKX6F">
+      <property role="1hTQn4" value="da0f22d2-e849-4bb0-bef0-daa7518dea16" />
+      <property role="3Fg1Gr" value="194" />
+      <node concept="3Fnoml" id="4qxaCfUgOQ3" role="3MKX6F">
+        <property role="1hTQn4" value="715193a4-e10e-4cdd-9e8d-00c8051816ce" />
+        <property role="3Fg1Gr" value="195" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgOQ4" role="3MKX6F">
+          <property role="1hTQn4" value="db97af06-9bae-429f-92d7-f73527c11c5f" />
+          <property role="3Fg1Gr" value="196" />
+          <node concept="19SGf9" id="4qxaCfUgOQ5" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOQ6" role="19SJt6">
+              <property role="19SUeA" value="Een agentschap heeft een afzonderlijke financiële staat die wordt opgenomen bij de begrotingsstaat van de departementale begroting van het ministerie waaronder het agentschap ressorteert." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOQ8" role="3MKX6F">
+      <property role="1hTQn4" value="fd7d3a94-35c8-402d-a1ac-fada25df7bb2" />
+      <property role="3Fg1Gr" value="197" />
+      <node concept="3Fnoml" id="4qxaCfUgOQ9" role="3MKX6F">
+        <property role="1hTQn4" value="e9951778-ec60-491c-b997-eb8dece69b65" />
+        <property role="3Fg1Gr" value="198" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgOQa" role="3MKX6F">
+          <property role="1hTQn4" value="5ea8a162-0eca-4351-b16d-31fdfd0244a4" />
+          <property role="3Fg1Gr" value="199" />
+          <node concept="19SGf9" id="4qxaCfUgOQb" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOQc" role="19SJt6">
+              <property role="19SUeA" value="De financiële staat van een agentschap bevat, al naar gelang van toepassing, de geraamde totaalbedragen van de financiële verplichtingen, de kasuitgaven en de kasontvangsten of de lasten en de baten." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOQf">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="d0dc2f30-9e88-4565-8832-0f7bb2d03758" />
+    <property role="3Fg1Gr" value="200" />
+    <property role="TrG5h" value="Artikel 2.7 Bijzonder begrotingsartikel Nog onverdeeld" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgOQg" role="3MKX6F">
+      <property role="1hTQn4" value="9217375e-5fd0-46a8-aa7f-5757d5546af5" />
+      <property role="3Fg1Gr" value="202" />
+      <node concept="3Fnoml" id="4qxaCfUgOQh" role="3MKX6F">
+        <property role="1hTQn4" value="1e2e5fe0-6e82-4aa5-a0fa-001d3c70d2a4" />
+        <property role="3Fg1Gr" value="203" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgOQi" role="3MKX6F">
+          <property role="1hTQn4" value="33ef8f6b-b26d-4bb7-bb76-366d116a3596" />
+          <property role="3Fg1Gr" value="204" />
+          <node concept="19SGf9" id="4qxaCfUgOQj" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOQk" role="19SJt6">
+              <property role="19SUeA" value="Een begrotingsartikel met de omschrijving Nog onverdeeld kan in een begrotingsstaat worden opgenomen ten behoeve van de voorlopige verwerking van de loon- en prijsindexering, een taakstelling of een ander nog te verdelen begrotingsbedrag." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOQm" role="3MKX6F">
+      <property role="1hTQn4" value="3ae21d3c-78ca-471a-9ad2-af8f6c6d1944" />
+      <property role="3Fg1Gr" value="205" />
+      <node concept="3Fnoml" id="4qxaCfUgOQn" role="3MKX6F">
+        <property role="1hTQn4" value="332b4b0d-8e49-4e13-bf34-c1275464f998" />
+        <property role="3Fg1Gr" value="206" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgOQo" role="3MKX6F">
+          <property role="1hTQn4" value="9c5e0c04-899d-48e6-9f63-2d3dd5c5a282" />
+          <property role="3Fg1Gr" value="207" />
+          <node concept="19SGf9" id="4qxaCfUgOQp" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOQq" role="19SJt6">
+              <property role="19SUeA" value="Het begrotingsartikel Nog onverdeeld is een administratief artikel ten laste waarvan geen uitgaven worden gedaan of ten gunste waarvan geen ontvangsten worden gerealiseerd." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOQs" role="3MKX6F">
+      <property role="1hTQn4" value="22972b55-287a-4ece-aac8-0104fa9e3841" />
+      <property role="3Fg1Gr" value="208" />
+      <node concept="3Fnoml" id="4qxaCfUgOQt" role="3MKX6F">
+        <property role="1hTQn4" value="32c39548-3571-419f-80d4-3e4c84406a1b" />
+        <property role="3Fg1Gr" value="209" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgOQu" role="3MKX6F">
+          <property role="1hTQn4" value="148c5488-4bcb-48c9-a70f-7aeca57be50f" />
+          <property role="3Fg1Gr" value="210" />
+          <node concept="19SGf9" id="4qxaCfUgOQv" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOQw" role="19SJt6">
+              <property role="19SUeA" value="Het bedrag voor de uitgaven dat wordt opgenomen in de begrotingsstaat bij het begrotingsartikel Nog onverdeeld kan zowel positief als negatief zijn." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOQz">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="39b9ef97-a4a7-460d-8ab5-269340de9564" />
+    <property role="3Fg1Gr" value="211" />
+    <property role="TrG5h" value="Artikel 2.8 Bijzonder begrotingsartikel Geheim" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgOQ$" role="3MKX6F">
+      <property role="1hTQn4" value="eb4e55f4-26eb-49ff-b943-287c48087685" />
+      <property role="3Fg1Gr" value="213" />
+      <node concept="19SGf9" id="4qxaCfUgOQ_" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgOQA" role="19SJt6">
+          <property role="19SUeA" value="Een begrotingsartikel met de omschrijving Geheim kan in een begrotingsstaat worden opgenomen ten behoeve van uitgaven en ontvangsten waarvoor geldt dat openbaarmaking via de toedeling aan een ander begrotingsartikel niet in het belang van de Staat is." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOQD">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="913692a9-c996-42ac-9837-12e06fd8f696" />
+    <property role="3Fg1Gr" value="214" />
+    <property role="TrG5h" value="Artikel 2.9 Begroting van de Koning" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgOQE" role="3MKX6F">
+      <property role="1hTQn4" value="6175afc8-26b0-47b3-8be1-42ef689926b0" />
+      <property role="3Fg1Gr" value="216" />
+      <node concept="19SGf9" id="4qxaCfUgOQF" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgOQG" role="19SJt6">
+          <property role="19SUeA" value="De begroting van de Koning bevat:" />
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOQI" role="3MKX6F">
+      <property role="1hTQn4" value="b8c4ff09-f676-4b31-b430-54dd977acfe8" />
+      <property role="3Fg1Gr" value="217" />
+      <node concept="3MKX5h" id="4qxaCfUgOQJ" role="3MKX6F">
+        <property role="1hTQn4" value="29ad033c-dd47-4990-8882-17fadd6a1164" />
+        <property role="3Fg1Gr" value="218" />
+        <node concept="3Fnoml" id="4qxaCfUgOQK" role="3MKX6F">
+          <property role="1hTQn4" value="9799dcb2-53c2-44ed-9a76-b6e722dc1645" />
+          <property role="3Fg1Gr" value="219" />
+          <property role="3Fnomm" value="a." />
+          <node concept="3MKX5i" id="4qxaCfUgOQL" role="3MKX6F">
+            <property role="1hTQn4" value="645fdfd9-b924-43c9-9279-d48b2ee738cb" />
+            <property role="3Fg1Gr" value="220" />
+            <node concept="19SGf9" id="4qxaCfUgOQM" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgOQN" role="19SJt6">
+                <property role="19SUeA" value="de uitkeringen aan leden van het koninklijk huis;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOQP" role="3MKX6F">
+        <property role="1hTQn4" value="dbbb21e3-0e84-41ee-87fa-20b8d0581dbf" />
+        <property role="3Fg1Gr" value="221" />
+        <node concept="3Fnoml" id="4qxaCfUgOQQ" role="3MKX6F">
+          <property role="1hTQn4" value="4d85bc08-90ac-4cba-b8df-0761c9728742" />
+          <property role="3Fg1Gr" value="222" />
+          <property role="3Fnomm" value="b." />
+          <node concept="3MKX5i" id="4qxaCfUgOQR" role="3MKX6F">
+            <property role="1hTQn4" value="7ae94c9d-0673-4eca-844a-5b604ee4eb29" />
+            <property role="3Fg1Gr" value="223" />
+            <node concept="19SGf9" id="4qxaCfUgOQS" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgOQT" role="19SJt6">
+                <property role="19SUeA" value="de uitgaven die functioneel met het koningschap samenhangen." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOQW">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="38db5e59-71ee-4cdf-ad5e-77da737f11d4" />
+    <property role="3Fg1Gr" value="224" />
+    <property role="TrG5h" value="Artikel 2.10 Begroting van Nationale Schuld" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgOQX" role="3MKX6F">
+      <property role="1hTQn4" value="3f8a418f-fb28-4520-b5ad-4ecb6bc47f30" />
+      <property role="3Fg1Gr" value="226" />
+      <node concept="3Fnoml" id="4qxaCfUgOQY" role="3MKX6F">
+        <property role="1hTQn4" value="82d89a47-b1f9-4e10-81ac-1081fca381e3" />
+        <property role="3Fg1Gr" value="227" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgOQZ" role="3MKX6F">
+          <property role="1hTQn4" value="7e3284a4-3bcd-4350-808c-31e28daa4806" />
+          <property role="3Fg1Gr" value="228" />
+          <node concept="19SGf9" id="4qxaCfUgOR0" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOR1" role="19SJt6">
+              <property role="19SUeA" value="De begroting van Nationale Schuld bevat:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgOR3" role="3MKX6F">
+          <property role="1hTQn4" value="7322d853-fcdb-40b3-ba8b-1e6ee8542c1d" />
+          <property role="3Fg1Gr" value="229" />
+          <node concept="3MKX5h" id="4qxaCfUgOR4" role="3MKX6F">
+            <property role="1hTQn4" value="4afeaa19-5ee6-45d3-b1da-ed259903ea56" />
+            <property role="3Fg1Gr" value="230" />
+            <node concept="3Fnoml" id="4qxaCfUgOR5" role="3MKX6F">
+              <property role="1hTQn4" value="02af0279-f8ad-4681-a5ab-aba93b964c9b" />
+              <property role="3Fg1Gr" value="231" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgOR6" role="3MKX6F">
+                <property role="1hTQn4" value="285b1a24-780c-4a22-8b6a-261b9eaa85c3" />
+                <property role="3Fg1Gr" value="232" />
+                <node concept="19SGf9" id="4qxaCfUgOR7" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOR8" role="19SJt6">
+                    <property role="19SUeA" value="de uitgaven en ontvangsten die voortvloeien uit transacties op de financiële markten, voor zover die transacties een oorspronkelijke looptijd hebben van langer dan één jaar;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgORa" role="3MKX6F">
+            <property role="1hTQn4" value="91e38e49-1bdb-480b-8dbd-7bc497f65fce" />
+            <property role="3Fg1Gr" value="233" />
+            <node concept="3Fnoml" id="4qxaCfUgORb" role="3MKX6F">
+              <property role="1hTQn4" value="776a170d-48e3-4ce6-9d52-52d073d424ce" />
+              <property role="3Fg1Gr" value="234" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgORc" role="3MKX6F">
+                <property role="1hTQn4" value="18d0d606-da3d-4bde-9500-6d140c03b555" />
+                <property role="3Fg1Gr" value="235" />
+                <node concept="19SGf9" id="4qxaCfUgORd" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgORe" role="19SJt6">
+                    <property role="19SUeA" value="de mutatie per 31 december van het begrotingsjaar ten opzichte van 31 december van het voorgaande jaar in het saldo van uitgaven en ontvangsten die voortvloeien uit transacties op de financiële markten, voor zover die transacties een oorspronkelijke looptijd hebben van maximaal één jaar;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgORg" role="3MKX6F">
+            <property role="1hTQn4" value="5f8ce93f-6f9f-4f35-a24c-2e470ccf2882" />
+            <property role="3Fg1Gr" value="236" />
+            <node concept="3Fnoml" id="4qxaCfUgORh" role="3MKX6F">
+              <property role="1hTQn4" value="f4cccc4a-a9e0-43eb-96de-16981760737b" />
+              <property role="3Fg1Gr" value="237" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgORi" role="3MKX6F">
+                <property role="1hTQn4" value="96dab573-8ff6-41eb-a7dc-a25fefc62d38" />
+                <property role="3Fg1Gr" value="238" />
+                <node concept="19SGf9" id="4qxaCfUgORj" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgORk" role="19SJt6">
+                    <property role="19SUeA" value="de uitgaven en ontvangsten die voortvloeien uit door Onze Minister van Financiën met derden en agentschappen aan te gane leningen, bedoeld in de artikelen 5.5, eerste lid, en 5.6, eerste lid;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgORm" role="3MKX6F">
+            <property role="1hTQn4" value="04ac5963-4701-4ae8-89f1-a5e93056357c" />
+            <property role="3Fg1Gr" value="239" />
+            <node concept="3Fnoml" id="4qxaCfUgORn" role="3MKX6F">
+              <property role="1hTQn4" value="490a7a3c-4557-4792-aa74-ec7673d6c10e" />
+              <property role="3Fg1Gr" value="240" />
+              <property role="3Fnomm" value="d." />
+              <node concept="3MKX5i" id="4qxaCfUgORo" role="3MKX6F">
+                <property role="1hTQn4" value="b2dbe62b-5d56-4c3d-9c8d-5602df397d5d" />
+                <property role="3Fg1Gr" value="241" />
+                <node concept="19SGf9" id="4qxaCfUgORp" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgORq" role="19SJt6">
+                    <property role="19SUeA" value="de mutatie per 31 december van het begrotingsjaar ten opzichte van 31 december van het voorafgaande jaar in het totaalsaldo van de rekeningen-courant, inclusief de daaraan gekoppelde termijndeposito’s, die derden en dienstonderdelen in het kader van schatkistbankieren aanhouden bij de schatkist van het Rijk;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgORs" role="3MKX6F">
+            <property role="1hTQn4" value="75b033ac-6523-4594-872f-b074add7dd6c" />
+            <property role="3Fg1Gr" value="242" />
+            <node concept="3Fnoml" id="4qxaCfUgORt" role="3MKX6F">
+              <property role="1hTQn4" value="0dc5c026-2ffc-40b2-93bd-e40789e5dfbb" />
+              <property role="3Fg1Gr" value="243" />
+              <property role="3Fnomm" value="e." />
+              <node concept="3MKX5i" id="4qxaCfUgORu" role="3MKX6F">
+                <property role="1hTQn4" value="43749456-375a-4ff5-953c-d40dfb9245dc" />
+                <property role="3Fg1Gr" value="244" />
+                <node concept="19SGf9" id="4qxaCfUgORv" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgORw" role="19SJt6">
+                    <property role="19SUeA" value="de uitgaven en ontvangsten aan rente, boete, kosten en provisie die voortvloeien uit de transacties, bedoeld onder b, alsmede uit de rekeningen-courant, bedoeld onder d;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgORy" role="3MKX6F">
+            <property role="1hTQn4" value="f813ad31-d94b-411e-8d2d-64b3946f0952" />
+            <property role="3Fg1Gr" value="245" />
+            <node concept="3Fnoml" id="4qxaCfUgORz" role="3MKX6F">
+              <property role="1hTQn4" value="fadc9d47-88bc-4fcc-9cc7-a966c36fb770" />
+              <property role="3Fg1Gr" value="246" />
+              <property role="3Fnomm" value="f." />
+              <node concept="3MKX5i" id="4qxaCfUgOR$" role="3MKX6F">
+                <property role="1hTQn4" value="6ffd2719-5cea-4339-984e-6ca5a53231ce" />
+                <property role="3Fg1Gr" value="247" />
+                <node concept="19SGf9" id="4qxaCfUgOR_" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgORA" role="19SJt6">
+                    <property role="19SUeA" value="de uitgaven en ontvangsten die voortvloeien uit het betalingsverkeer met een centrale kas van het Rijk;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgORC" role="3MKX6F">
+            <property role="1hTQn4" value="e541b081-05d9-49cb-8196-a2a82801b3fa" />
+            <property role="3Fg1Gr" value="248" />
+            <node concept="3Fnoml" id="4qxaCfUgORD" role="3MKX6F">
+              <property role="1hTQn4" value="df819130-2db5-43b5-bc94-48b71dd786a4" />
+              <property role="3Fg1Gr" value="249" />
+              <property role="3Fnomm" value="g." />
+              <node concept="3MKX5i" id="4qxaCfUgORE" role="3MKX6F">
+                <property role="1hTQn4" value="bd5c61bb-1fec-41cd-ba0b-d06bdaa35914" />
+                <property role="3Fg1Gr" value="250" />
+                <node concept="19SGf9" id="4qxaCfUgORF" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgORG" role="19SJt6">
+                    <property role="19SUeA" value="andere door Onze Minister van Financiën aan te wijzen uitgaven en ontvangsten die voortvloeien uit vermogens- of financieringstransacties." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgORI" role="3MKX6F">
+      <property role="1hTQn4" value="4692f73b-5304-497c-8a49-d9a13b0db3a3" />
+      <property role="3Fg1Gr" value="251" />
+      <node concept="3Fnoml" id="4qxaCfUgORJ" role="3MKX6F">
+        <property role="1hTQn4" value="2fb33107-320f-4a89-9f23-68c3be915a39" />
+        <property role="3Fg1Gr" value="252" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgORK" role="3MKX6F">
+          <property role="1hTQn4" value="48c8da38-3f09-4646-b3a7-ae4b43740df8" />
+          <property role="3Fg1Gr" value="253" />
+          <node concept="19SGf9" id="4qxaCfUgORL" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgORM" role="19SJt6">
+              <property role="19SUeA" value="In afwijking van de aanhef van het eerste lid kan de begroting van Nationale Schuld geen mutaties als bedoeld in het eerste lid, onder b en d, bevatten. Na afloop van het begrotingsjaar worden deze mutaties als slotverschil weergegeven in het voorstel van wet tot vaststelling van de slotverschillen van de begroting van Nationale Schuld." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgORP">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="c0df2091-157d-463c-9880-bcab006bc6dc" />
+    <property role="3Fg1Gr" value="254" />
+    <property role="TrG5h" value="Artikel 2.11 Begrotingsfondsen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgORQ" role="3MKX6F">
+      <property role="1hTQn4" value="c720d7ad-813b-4ede-9c1c-1bd7d3ab7987" />
+      <property role="3Fg1Gr" value="256" />
+      <node concept="3Fnoml" id="4qxaCfUgORR" role="3MKX6F">
+        <property role="1hTQn4" value="469beccc-4d2f-4ddb-8e0d-616d416efe73" />
+        <property role="3Fg1Gr" value="257" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgORS" role="3MKX6F">
+          <property role="1hTQn4" value="208e59f6-d6fc-4209-a717-6cc75fda2329" />
+          <property role="3Fg1Gr" value="258" />
+          <node concept="19SGf9" id="4qxaCfUgORT" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgORU" role="19SJt6">
+              <property role="19SUeA" value="Een begrotingsfonds kan worden ingesteld ten behoeve van het afzonderlijk beheren van ontvangsten en uitgaven van het Rijk die voor een specifiek doel bestemd zijn." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgORW" role="3MKX6F">
+      <property role="1hTQn4" value="88b127ed-51ae-4d46-ae1c-7be5f840e9f0" />
+      <property role="3Fg1Gr" value="259" />
+      <node concept="3Fnoml" id="4qxaCfUgORX" role="3MKX6F">
+        <property role="1hTQn4" value="a3030eef-efdd-4653-9732-41465a91a8d6" />
+        <property role="3Fg1Gr" value="260" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgORY" role="3MKX6F">
+          <property role="1hTQn4" value="77ac5fc1-6e75-4ff3-becf-5285a5873ddf" />
+          <property role="3Fg1Gr" value="261" />
+          <node concept="19SGf9" id="4qxaCfUgORZ" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOS0" role="19SJt6">
+              <property role="19SUeA" value="Het instellen van een begrotingsfonds geschiedt bij wet. De wet tot instelling van een begrotingsfonds wordt mede door Onze Minister van Financiën ondertekend." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOS2" role="3MKX6F">
+      <property role="1hTQn4" value="03185e6d-3e22-458d-91e7-26de1aaeaae4" />
+      <property role="3Fg1Gr" value="262" />
+      <node concept="3Fnoml" id="4qxaCfUgOS3" role="3MKX6F">
+        <property role="1hTQn4" value="928cba02-bbde-407e-8458-40ddcae96428" />
+        <property role="3Fg1Gr" value="263" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgOS4" role="3MKX6F">
+          <property role="1hTQn4" value="2e955b2d-2874-4a9f-b72a-ce95c2210eca" />
+          <property role="3Fg1Gr" value="264" />
+          <node concept="19SGf9" id="4qxaCfUgOS5" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOS6" role="19SJt6">
+              <property role="19SUeA" value="De wet tot instelling van een begrotingsfonds bepaalt voor dat fonds in elk geval:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgOS8" role="3MKX6F">
+          <property role="1hTQn4" value="6450acb1-5ea3-422e-b37d-d28c570429c2" />
+          <property role="3Fg1Gr" value="265" />
+          <node concept="3MKX5h" id="4qxaCfUgOS9" role="3MKX6F">
+            <property role="1hTQn4" value="6eab26ef-6bea-48bf-a556-a15bd312ef8f" />
+            <property role="3Fg1Gr" value="266" />
+            <node concept="3Fnoml" id="4qxaCfUgOSa" role="3MKX6F">
+              <property role="1hTQn4" value="8c0c9304-6480-4c91-bc06-980ba1c8e2a7" />
+              <property role="3Fg1Gr" value="267" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgOSb" role="3MKX6F">
+                <property role="1hTQn4" value="0f38d104-8fc5-4ce4-9d4d-a26cd889d27d" />
+                <property role="3Fg1Gr" value="268" />
+                <node concept="19SGf9" id="4qxaCfUgOSc" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOSd" role="19SJt6">
+                    <property role="19SUeA" value="de aard van de uitgaven en de ontvangsten;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOSf" role="3MKX6F">
+            <property role="1hTQn4" value="e199059e-5a9e-4a7c-9ea5-568d1a235ae8" />
+            <property role="3Fg1Gr" value="269" />
+            <node concept="3Fnoml" id="4qxaCfUgOSg" role="3MKX6F">
+              <property role="1hTQn4" value="880721bc-e144-48e1-be79-bf434806af38" />
+              <property role="3Fg1Gr" value="270" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgOSh" role="3MKX6F">
+                <property role="1hTQn4" value="71a9a706-4e3f-4b9c-998c-ca2448f4a545" />
+                <property role="3Fg1Gr" value="271" />
+                <node concept="19SGf9" id="4qxaCfUgOSi" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOSj" role="19SJt6">
+                    <property role="19SUeA" value="wie van Onze Ministers met het beheer is belast." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOSl" role="3MKX6F">
+      <property role="1hTQn4" value="a11002ba-9cb4-42c5-8e3b-c7c447a05ec2" />
+      <property role="3Fg1Gr" value="272" />
+      <node concept="3Fnoml" id="4qxaCfUgOSm" role="3MKX6F">
+        <property role="1hTQn4" value="2fc47305-cb69-4668-9a2f-143b5712d531" />
+        <property role="3Fg1Gr" value="273" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgOSn" role="3MKX6F">
+          <property role="1hTQn4" value="7cf8a6de-9870-4ed2-a917-1fb15cc38489" />
+          <property role="3Fg1Gr" value="274" />
+          <node concept="19SGf9" id="4qxaCfUgOSo" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOSp" role="19SJt6">
+              <property role="19SUeA" value="Een voordelig jaarsaldo van een begrotingsfonds wordt ten gunste van de begroting van het fonds van het daarop volgende jaar gebracht; een nadelig jaarsaldo wordt ten laste van die begroting gebracht." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOSs">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="20108e24-7e5f-47c3-be19-f2ac887bc782" />
+    <property role="3Fg1Gr" value="275" />
+    <property role="TrG5h" value="Artikel 2.12 Programmabegrotingen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgOSt" role="3MKX6F">
+      <property role="1hTQn4" value="ee391c27-babb-47bb-b7aa-d61ef0337443" />
+      <property role="3Fg1Gr" value="277" />
+      <node concept="3Fnoml" id="4qxaCfUgOSu" role="3MKX6F">
+        <property role="1hTQn4" value="3474b84e-b727-45ad-8ae4-15a64dde770e" />
+        <property role="3Fg1Gr" value="278" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgOSv" role="3MKX6F">
+          <property role="1hTQn4" value="3b8e2722-d18b-4ff8-a222-781415a42fa3" />
+          <property role="3Fg1Gr" value="279" />
+          <node concept="19SGf9" id="4qxaCfUgOSw" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOSx" role="19SJt6">
+              <property role="19SUeA" value="Een programmabegroting kan ten behoeve van een minister die niet belast is met de leiding van een ministerie worden ingesteld, indien het wenselijk is bepaalde ontvangsten en uitgaven van een ministerie afgezonderd van een departementale begroting te beheren." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOSz" role="3MKX6F">
+      <property role="1hTQn4" value="6284a44b-736a-40e9-a53f-6169323f3f07" />
+      <property role="3Fg1Gr" value="280" />
+      <node concept="3Fnoml" id="4qxaCfUgOS$" role="3MKX6F">
+        <property role="1hTQn4" value="2bf9dc84-ac00-46ea-a111-66687f151a6a" />
+        <property role="3Fg1Gr" value="281" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgOS_" role="3MKX6F">
+          <property role="1hTQn4" value="f9445635-57e5-456c-96bf-4a1ce8739716" />
+          <property role="3Fg1Gr" value="282" />
+          <node concept="19SGf9" id="4qxaCfUgOSA" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOSB" role="19SJt6">
+              <property role="19SUeA" value="Het instellen van een programmabegroting geschiedt bij een wet tot vaststelling van de begrotingsstaten." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOSD" role="3MKX6F">
+      <property role="1hTQn4" value="0f20be73-c906-47c4-ae62-19e5afe209a2" />
+      <property role="3Fg1Gr" value="283" />
+      <node concept="3Fnoml" id="4qxaCfUgOSE" role="3MKX6F">
+        <property role="1hTQn4" value="0dd5e01f-28b0-4614-9557-ea8176371f66" />
+        <property role="3Fg1Gr" value="284" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgOSF" role="3MKX6F">
+          <property role="1hTQn4" value="cb7af92b-dcb6-40a7-854b-7bce12aaeafe" />
+          <property role="3Fg1Gr" value="285" />
+          <node concept="19SGf9" id="4qxaCfUgOSG" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOSH" role="19SJt6">
+              <property role="19SUeA" value="De wet tot instelling van een programmabegroting bepaalt wie van Onze Ministers belast is met het beheer van die begroting." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOSL">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="aedd9f1f-0aa8-4ed9-822a-2db234f36b5a" />
+    <property role="3Fg1Gr" value="288" />
+    <property role="TrG5h" value="Artikel 2.13 Verplichtingen-kasstelsel" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgOSM" role="3MKX6F">
+      <property role="1hTQn4" value="9d867a03-abf1-43fc-9577-b561f4557752" />
+      <property role="3Fg1Gr" value="290" />
+      <node concept="3Fnoml" id="4qxaCfUgOSN" role="3MKX6F">
+        <property role="1hTQn4" value="c5d2b7e2-ce88-4317-958b-3167a5b31d27" />
+        <property role="3Fg1Gr" value="291" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgOSO" role="3MKX6F">
+          <property role="1hTQn4" value="2776915e-d665-4975-b1fc-5aa91aedfd94" />
+          <property role="3Fg1Gr" value="292" />
+          <node concept="19SGf9" id="4qxaCfUgOSP" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOSQ" role="19SJt6">
+              <property role="19SUeA" value="Het begrotingsbeheer en het financieel beheer worden gevoerd met toepassing van het verplichtingen-kasstelsel." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOSS" role="3MKX6F">
+      <property role="1hTQn4" value="05c30850-3c1b-466a-b4fa-63c010a5d301" />
+      <property role="3Fg1Gr" value="293" />
+      <node concept="3Fnoml" id="4qxaCfUgOST" role="3MKX6F">
+        <property role="1hTQn4" value="07d4ceb3-af69-45b0-91a7-08ed651ad5f5" />
+        <property role="3Fg1Gr" value="294" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgOSU" role="3MKX6F">
+          <property role="1hTQn4" value="50bed453-8b89-46a1-8fd7-28820e6ec295" />
+          <property role="3Fg1Gr" value="295" />
+          <node concept="19SGf9" id="4qxaCfUgOSV" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOSW" role="19SJt6">
+              <property role="19SUeA" value="Het verplichtingen-kasstelsel wordt zodanig toegepast, dat aan de financiële administratie per begrotingsartikel in elk geval per ultimo van een begrotingsjaar ten minste kunnen worden ontleend:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgOSY" role="3MKX6F">
+          <property role="1hTQn4" value="4a209faf-a215-45c4-bf87-ed99888861ef" />
+          <property role="3Fg1Gr" value="296" />
+          <node concept="3MKX5h" id="4qxaCfUgOSZ" role="3MKX6F">
+            <property role="1hTQn4" value="4f5ffd92-7ca8-4368-a942-d2c97d6f064d" />
+            <property role="3Fg1Gr" value="297" />
+            <node concept="3Fnoml" id="4qxaCfUgOT0" role="3MKX6F">
+              <property role="1hTQn4" value="ced9c8f6-a9a0-4d2d-9148-6cc08a97d978" />
+              <property role="3Fg1Gr" value="298" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgOT1" role="3MKX6F">
+                <property role="1hTQn4" value="3f776b67-8153-49d1-b169-fbe5d27130b0" />
+                <property role="3Fg1Gr" value="299" />
+                <node concept="19SGf9" id="4qxaCfUgOT2" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOT3" role="19SJt6">
+                    <property role="19SUeA" value="het deel van de geraamde financiële verplichtingen dat is aangegaan of ontstaan;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOT5" role="3MKX6F">
+            <property role="1hTQn4" value="5591f406-3101-4ac0-afbd-426a532cc7c9" />
+            <property role="3Fg1Gr" value="300" />
+            <node concept="3Fnoml" id="4qxaCfUgOT6" role="3MKX6F">
+              <property role="1hTQn4" value="1473d8ed-a76e-42b7-bcda-edfbabc54af1" />
+              <property role="3Fg1Gr" value="301" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgOT7" role="3MKX6F">
+                <property role="1hTQn4" value="d6e42697-cd4f-4197-9860-14e4f949859a" />
+                <property role="3Fg1Gr" value="302" />
+                <node concept="19SGf9" id="4qxaCfUgOT8" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOT9" role="19SJt6">
+                    <property role="19SUeA" value="het deel van de geraamde kasuitgaven dat tot betaling heeft geleid;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOTb" role="3MKX6F">
+            <property role="1hTQn4" value="bd7003b6-b122-44e1-abdf-69e3492ec79c" />
+            <property role="3Fg1Gr" value="303" />
+            <node concept="3Fnoml" id="4qxaCfUgOTc" role="3MKX6F">
+              <property role="1hTQn4" value="3a801eb5-d296-4335-91b2-e378fd1fb137" />
+              <property role="3Fg1Gr" value="304" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgOTd" role="3MKX6F">
+                <property role="1hTQn4" value="37649bae-809e-4f18-8f5c-afa7605579e1" />
+                <property role="3Fg1Gr" value="305" />
+                <node concept="19SGf9" id="4qxaCfUgOTe" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOTf" role="19SJt6">
+                    <property role="19SUeA" value="per aangegane of ontstane financiële verplichting het deel dat nog niet tot betaling heeft geleid;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOTh" role="3MKX6F">
+            <property role="1hTQn4" value="6864d4bd-72d3-4e7a-9f72-8ddfc5938f1c" />
+            <property role="3Fg1Gr" value="306" />
+            <node concept="3Fnoml" id="4qxaCfUgOTi" role="3MKX6F">
+              <property role="1hTQn4" value="90de6a01-7c97-4e1d-8998-7e015e34ec7c" />
+              <property role="3Fg1Gr" value="307" />
+              <property role="3Fnomm" value="d." />
+              <node concept="3MKX5i" id="4qxaCfUgOTj" role="3MKX6F">
+                <property role="1hTQn4" value="46314f37-36f5-4dad-a3f9-c7802050dfed" />
+                <property role="3Fg1Gr" value="308" />
+                <node concept="19SGf9" id="4qxaCfUgOTk" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOTl" role="19SJt6">
+                    <property role="19SUeA" value="het deel van de geraamde kasuitgaven waarvoor nog geen financiële verplichtingen zijn aangegaan of ontstaan;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOTn" role="3MKX6F">
+            <property role="1hTQn4" value="2ab69ebe-dd3d-4c72-99bc-6e3c87a3905c" />
+            <property role="3Fg1Gr" value="309" />
+            <node concept="3Fnoml" id="4qxaCfUgOTo" role="3MKX6F">
+              <property role="1hTQn4" value="ef75715e-c772-49af-9f57-c6b32d77516f" />
+              <property role="3Fg1Gr" value="310" />
+              <property role="3Fnomm" value="e." />
+              <node concept="3MKX5i" id="4qxaCfUgOTp" role="3MKX6F">
+                <property role="1hTQn4" value="2265330d-ad57-4295-b88b-822ec928ad6c" />
+                <property role="3Fg1Gr" value="311" />
+                <node concept="19SGf9" id="4qxaCfUgOTq" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOTr" role="19SJt6">
+                    <property role="19SUeA" value="het deel van de geraamde kasontvangsten dat is ontvangen." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOTu">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="82724829-c34c-4d9e-9995-d272e28850e2" />
+    <property role="3Fg1Gr" value="312" />
+    <property role="TrG5h" value="Artikel 2.14 Verplichtingen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgOTv" role="3MKX6F">
+      <property role="1hTQn4" value="9a0991e4-7667-44f5-b4b8-eea77f07f696" />
+      <property role="3Fg1Gr" value="314" />
+      <node concept="3Fnoml" id="4qxaCfUgOTw" role="3MKX6F">
+        <property role="1hTQn4" value="cb56a3fd-9b3c-4135-acd3-afc8f0fd75d6" />
+        <property role="3Fg1Gr" value="315" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgOTx" role="3MKX6F">
+          <property role="1hTQn4" value="8c9aa71e-5c13-40b5-9679-64366ab6d875" />
+          <property role="3Fg1Gr" value="316" />
+          <node concept="19SGf9" id="4qxaCfUgOTy" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOTz" role="19SJt6">
+              <property role="19SUeA" value="Tot een financiële verplichting wordt gerekend:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgOT_" role="3MKX6F">
+          <property role="1hTQn4" value="f5385720-7b4f-442f-bbf3-fc4bff9c789c" />
+          <property role="3Fg1Gr" value="317" />
+          <node concept="3MKX5h" id="4qxaCfUgOTA" role="3MKX6F">
+            <property role="1hTQn4" value="9de63015-5e30-4f3a-89fe-9e005afc4a4f" />
+            <property role="3Fg1Gr" value="318" />
+            <node concept="3Fnoml" id="4qxaCfUgOTB" role="3MKX6F">
+              <property role="1hTQn4" value="1bb26663-a0ab-40e3-b302-56c079d7b695" />
+              <property role="3Fg1Gr" value="319" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgOTC" role="3MKX6F">
+                <property role="1hTQn4" value="5ad62267-4bdb-4300-ba57-75829997a8e7" />
+                <property role="3Fg1Gr" value="320" />
+                <node concept="19SGf9" id="4qxaCfUgOTD" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOTE" role="19SJt6">
+                    <property role="19SUeA" value="een financiële verplichting aan een derde op grond van een verdrag, een wet, een koninklijk besluit, een ministeriële regeling, een beschikking of een controleerbaar vastgelegde afspraak;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOTG" role="3MKX6F">
+            <property role="1hTQn4" value="a4df05f1-454b-4787-8288-00536a79cc39" />
+            <property role="3Fg1Gr" value="321" />
+            <node concept="3Fnoml" id="4qxaCfUgOTH" role="3MKX6F">
+              <property role="1hTQn4" value="b358f402-55e6-4302-b953-006dc78f6c3d" />
+              <property role="3Fg1Gr" value="322" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgOTI" role="3MKX6F">
+                <property role="1hTQn4" value="077127dd-2d03-4e49-9bdb-8ebd26f69613" />
+                <property role="3Fg1Gr" value="323" />
+                <node concept="19SGf9" id="4qxaCfUgOTJ" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOTK" role="19SJt6">
+                    <property role="19SUeA" value="een financiële verplichting aan een ander dienstonderdeel op grond van een controleerbaar vastgelegde afspraak." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOTM" role="3MKX6F">
+      <property role="1hTQn4" value="13af4fda-f7f7-4e37-a377-f0bff67f4a07" />
+      <property role="3Fg1Gr" value="324" />
+      <node concept="3Fnoml" id="4qxaCfUgOTN" role="3MKX6F">
+        <property role="1hTQn4" value="44a9bf87-1d68-4509-87da-937f7470c8db" />
+        <property role="3Fg1Gr" value="325" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgOTO" role="3MKX6F">
+          <property role="1hTQn4" value="93c118b0-d565-47f2-9eb0-9918a7a708df" />
+          <property role="3Fg1Gr" value="326" />
+          <node concept="19SGf9" id="4qxaCfUgOTP" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOTQ" role="19SJt6">
+              <property role="19SUeA" value="Bepalend voor het begrotingsjaar ten laste waarvan een aangegane of ontstane financiële verplichting wordt gebracht, is de datum waarop de verplichting ten opzichte van een derde of een ander dienstonderdeel controleerbaar vastligt." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOTS" role="3MKX6F">
+      <property role="1hTQn4" value="615a1e16-0453-49fc-9282-d38ca9fe3e84" />
+      <property role="3Fg1Gr" value="327" />
+      <node concept="3Fnoml" id="4qxaCfUgOTT" role="3MKX6F">
+        <property role="1hTQn4" value="cbdb53ce-b541-41a2-a937-51337d8a3aff" />
+        <property role="3Fg1Gr" value="328" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgOTU" role="3MKX6F">
+          <property role="1hTQn4" value="9051d5fe-ea5c-4110-a087-51a52325ea6f" />
+          <property role="3Fg1Gr" value="329" />
+          <node concept="19SGf9" id="4qxaCfUgOTV" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOTW" role="19SJt6">
+              <property role="19SUeA" value="In afwijking van het tweede lid kan Onze Minister van Financiën categorieën financiële verplichtingen aanwijzen waarbij het jaar waarin de kasbetaling is gedaan, kan worden aangemerkt als het begrotingsjaar waarin de met de kasbetaling samenhangende verplichting is aangegaan of is ontstaan." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOTY" role="3MKX6F">
+      <property role="1hTQn4" value="98fef4d4-9c2f-4455-98a4-6179ea2e55bd" />
+      <property role="3Fg1Gr" value="330" />
+      <node concept="3Fnoml" id="4qxaCfUgOTZ" role="3MKX6F">
+        <property role="1hTQn4" value="532b050b-0f5e-4dcd-897a-69ee217a2333" />
+        <property role="3Fg1Gr" value="331" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgOU0" role="3MKX6F">
+          <property role="1hTQn4" value="656263aa-b474-4ad5-8383-9772c1051848" />
+          <property role="3Fg1Gr" value="332" />
+          <node concept="19SGf9" id="4qxaCfUgOU1" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOU2" role="19SJt6">
+              <property role="19SUeA" value="Een in een jaar aangegane of ontstane financiële verplichting die na de jaarafsluiting van de financiële administratie blijkt, wordt geboekt op het overeenkomstige begrotingsartikel in het dan lopende begrotingsjaar." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOU5">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="63bfce4a-d03e-41bb-bb1b-ccaf1c1a03d4" />
+    <property role="3Fg1Gr" value="333" />
+    <property role="TrG5h" value="Artikel 2.15 Kasuitgaven en -ontvangsten" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgOU6" role="3MKX6F">
+      <property role="1hTQn4" value="3589aa98-941a-4a08-9e44-40c3553226ad" />
+      <property role="3Fg1Gr" value="335" />
+      <node concept="3Fnoml" id="4qxaCfUgOU7" role="3MKX6F">
+        <property role="1hTQn4" value="29d62768-7330-470d-ac40-947221f1dbf7" />
+        <property role="3Fg1Gr" value="336" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgOU8" role="3MKX6F">
+          <property role="1hTQn4" value="b757abdd-7e9f-4cf1-8090-52cfb2746180" />
+          <property role="3Fg1Gr" value="337" />
+          <node concept="19SGf9" id="4qxaCfUgOU9" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOUa" role="19SJt6">
+              <property role="19SUeA" value="Tot een kasuitgave, respectievelijk een kasontvangst, wordt gerekend:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgOUc" role="3MKX6F">
+          <property role="1hTQn4" value="ea8adc90-5d73-4653-9b1e-e5c910e59a7f" />
+          <property role="3Fg1Gr" value="338" />
+          <node concept="3MKX5h" id="4qxaCfUgOUd" role="3MKX6F">
+            <property role="1hTQn4" value="0122ebc9-d914-491e-bbaa-a76bb82ccc2b" />
+            <property role="3Fg1Gr" value="339" />
+            <node concept="3Fnoml" id="4qxaCfUgOUe" role="3MKX6F">
+              <property role="1hTQn4" value="9854d991-8e72-4082-9a0a-38db60ceecae" />
+              <property role="3Fg1Gr" value="340" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgOUf" role="3MKX6F">
+                <property role="1hTQn4" value="b6842152-b773-46a9-baac-ba68faf8906b" />
+                <property role="3Fg1Gr" value="341" />
+                <node concept="19SGf9" id="4qxaCfUgOUg" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOUh" role="19SJt6">
+                    <property role="19SUeA" value="een betaling met liquide middelen, respectievelijk een ontvangst van liquide middelen;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOUj" role="3MKX6F">
+            <property role="1hTQn4" value="73b4ee8a-6112-4c5e-b873-08b68477831e" />
+            <property role="3Fg1Gr" value="342" />
+            <node concept="3Fnoml" id="4qxaCfUgOUk" role="3MKX6F">
+              <property role="1hTQn4" value="4630bc97-d229-4a2a-82c4-ae7bdb2c696a" />
+              <property role="3Fg1Gr" value="343" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgOUl" role="3MKX6F">
+                <property role="1hTQn4" value="3bc919de-ee0f-4f63-b23f-2baa6db8eec0" />
+                <property role="3Fg1Gr" value="344" />
+                <node concept="19SGf9" id="4qxaCfUgOUm" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOUn" role="19SJt6">
+                    <property role="19SUeA" value="de financiële waarde die wordt afgestaan, respectievelijk wordt ontvangen, bij een transactie waarbij de onderlinge schulden en vorderingen met elkaar worden verrekend;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOUp" role="3MKX6F">
+            <property role="1hTQn4" value="408312c4-bef7-4d90-9a41-73f81fd75c5f" />
+            <property role="3Fg1Gr" value="345" />
+            <node concept="3Fnoml" id="4qxaCfUgOUq" role="3MKX6F">
+              <property role="1hTQn4" value="3195b8c0-a87b-418c-a7dc-4b7b9e50207e" />
+              <property role="3Fg1Gr" value="346" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgOUr" role="3MKX6F">
+                <property role="1hTQn4" value="27971c64-1380-46ac-992f-063c5f2323dc" />
+                <property role="3Fg1Gr" value="347" />
+                <node concept="19SGf9" id="4qxaCfUgOUs" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOUt" role="19SJt6">
+                    <property role="19SUeA" value="een toevoeging, respectievelijk een onttrekking, aan een kasreserve als bedoeld in artikel 2.20, achtste lid, of aan een begrotingsreserve als bedoeld in artikel 2.21, tweede lid." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOUv" role="3MKX6F">
+      <property role="1hTQn4" value="9c1111e1-2110-4168-a253-80bfec69cb7f" />
+      <property role="3Fg1Gr" value="348" />
+      <node concept="3Fnoml" id="4qxaCfUgOUw" role="3MKX6F">
+        <property role="1hTQn4" value="b774c22f-c524-4f4d-afcf-4b675a0e265b" />
+        <property role="3Fg1Gr" value="349" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgOUx" role="3MKX6F">
+          <property role="1hTQn4" value="85d2eaea-565b-4a88-a9ae-695716dd4d06" />
+          <property role="3Fg1Gr" value="350" />
+          <node concept="19SGf9" id="4qxaCfUgOUy" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOUz" role="19SJt6">
+              <property role="19SUeA" value="Bepalend voor het begrotingsjaar ten laste waarvan een kasuitgave, respectievelijk ten gunste waarvan een kasontvangst wordt gebracht, is:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgOU_" role="3MKX6F">
+          <property role="1hTQn4" value="64c3dcec-ef14-47b3-9829-7cd7268f15a7" />
+          <property role="3Fg1Gr" value="351" />
+          <node concept="3MKX5h" id="4qxaCfUgOUA" role="3MKX6F">
+            <property role="1hTQn4" value="6d3f97b4-fdfb-48e8-bd36-f20e5ae7a022" />
+            <property role="3Fg1Gr" value="352" />
+            <node concept="3Fnoml" id="4qxaCfUgOUB" role="3MKX6F">
+              <property role="1hTQn4" value="97d1f0ec-144f-4904-9f96-a2bbbfe41fa4" />
+              <property role="3Fg1Gr" value="353" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgOUC" role="3MKX6F">
+                <property role="1hTQn4" value="5b5a4a00-9ef5-4324-90bb-5023d88a5002" />
+                <property role="3Fg1Gr" value="354" />
+                <node concept="19SGf9" id="4qxaCfUgOUD" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOUE" role="19SJt6">
+                    <property role="19SUeA" value="de datum waarop de betaling is verricht, respectievelijk de ontvangst is verkregen, voor een betaling met liquide middelen of een ontvangst van liquide middelen;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOUG" role="3MKX6F">
+            <property role="1hTQn4" value="2cb5c393-2ab5-4bba-9c9a-0f9b05abe873" />
+            <property role="3Fg1Gr" value="355" />
+            <node concept="3Fnoml" id="4qxaCfUgOUH" role="3MKX6F">
+              <property role="1hTQn4" value="66e06a27-e0f7-4e0a-9ca7-c6782a9cc76a" />
+              <property role="3Fg1Gr" value="356" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgOUI" role="3MKX6F">
+                <property role="1hTQn4" value="ef2a8195-f5a9-43c7-b74a-ac45213e58d2" />
+                <property role="3Fg1Gr" value="357" />
+                <node concept="19SGf9" id="4qxaCfUgOUJ" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOUK" role="19SJt6">
+                    <property role="19SUeA" value="de datum waarop de transactie controleerbaar is vastgelegd voor een transactie waarbij de onderlinge schulden en vorderingen met elkaar worden verrekend;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOUM" role="3MKX6F">
+            <property role="1hTQn4" value="4142e204-66b7-43e1-a22a-b2593b88c07b" />
+            <property role="3Fg1Gr" value="358" />
+            <node concept="3Fnoml" id="4qxaCfUgOUN" role="3MKX6F">
+              <property role="1hTQn4" value="dbeb8595-d188-4cc0-8210-2e1ea475ca38" />
+              <property role="3Fg1Gr" value="359" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgOUO" role="3MKX6F">
+                <property role="1hTQn4" value="42520ef4-7c6c-4fed-840f-76a4264d9388" />
+                <property role="3Fg1Gr" value="360" />
+                <node concept="19SGf9" id="4qxaCfUgOUP" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOUQ" role="19SJt6">
+                    <property role="19SUeA" value="de datum waarop de toevoeging of de onttrekking in de boekhouding is vastgelegd voor een kasreserve en een begrotingsreserve." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOUT">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="57bf71da-4929-4d5b-bc4d-3b73e7c09356" />
+    <property role="3Fg1Gr" value="361" />
+    <property role="TrG5h" value="Artikel 2.16 Universaliteit" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgOUU" role="3MKX6F">
+      <property role="1hTQn4" value="04340785-ba55-4ab3-b27b-cd6bbf215f93" />
+      <property role="3Fg1Gr" value="363" />
+      <node concept="3Fnoml" id="4qxaCfUgOUV" role="3MKX6F">
+        <property role="1hTQn4" value="2aeae0cd-cfbd-49e7-86b6-36f4cd8c025b" />
+        <property role="3Fg1Gr" value="364" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgOUW" role="3MKX6F">
+          <property role="1hTQn4" value="72ac9cfa-318d-44e7-95e6-aec55e1021ec" />
+          <property role="3Fg1Gr" value="365" />
+          <node concept="19SGf9" id="4qxaCfUgOUX" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOUY" role="19SJt6">
+              <property role="19SUeA" value="Elke uitgave van Onze Ministers of de colleges wordt binnen begrotingsverband geboekt onder de uitgaven." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOV0" role="3MKX6F">
+      <property role="1hTQn4" value="7072f55d-492b-4f4a-a44d-86af844b4fe2" />
+      <property role="3Fg1Gr" value="366" />
+      <node concept="3Fnoml" id="4qxaCfUgOV1" role="3MKX6F">
+        <property role="1hTQn4" value="2b71e582-f2db-4f6c-90ea-b1049099986b" />
+        <property role="3Fg1Gr" value="367" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgOV2" role="3MKX6F">
+          <property role="1hTQn4" value="1ac474e7-18bb-43ca-b1c2-42fcec7e9e6b" />
+          <property role="3Fg1Gr" value="368" />
+          <node concept="19SGf9" id="4qxaCfUgOV3" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOV4" role="19SJt6">
+              <property role="19SUeA" value="Elke ontvangst van Onze Ministers of de colleges wordt binnen begrotingsverband geboekt onder de ontvangsten." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOV7">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="a65df0cb-be76-45dc-b445-7415fb378cef" />
+    <property role="3Fg1Gr" value="369" />
+    <property role="TrG5h" value="Artikel 2.17 Afwijking universaliteit: boeken buiten begrotingsverband" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgOV8" role="3MKX6F">
+      <property role="1hTQn4" value="30e0c412-f032-431c-bb99-9d9935d7bc94" />
+      <property role="3Fg1Gr" value="371" />
+      <node concept="3Fnoml" id="4qxaCfUgOV9" role="3MKX6F">
+        <property role="1hTQn4" value="85b6d004-13e5-4a1f-8b8f-7dd4578fd218" />
+        <property role="3Fg1Gr" value="372" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgOVa" role="3MKX6F">
+          <property role="1hTQn4" value="3f5535be-9e9b-4602-a9d0-ef9ac9f8a286" />
+          <property role="3Fg1Gr" value="373" />
+          <node concept="19SGf9" id="4qxaCfUgOVb" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOVc" role="19SJt6">
+              <property role="19SUeA" value="In afwijking van artikel 2.16 kunnen Onze Ministers of de colleges uitgaven en ontvangsten buiten begrotingsverband boeken, indien:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgOVe" role="3MKX6F">
+          <property role="1hTQn4" value="abe6abc5-d9c5-4eeb-9014-f0adbfccc3cf" />
+          <property role="3Fg1Gr" value="374" />
+          <node concept="3MKX5h" id="4qxaCfUgOVf" role="3MKX6F">
+            <property role="1hTQn4" value="ecc0aec1-bc4e-4350-9421-02a5168f01c0" />
+            <property role="3Fg1Gr" value="375" />
+            <node concept="3Fnoml" id="4qxaCfUgOVg" role="3MKX6F">
+              <property role="1hTQn4" value="bc3d73c7-fce3-4f95-99b3-81d7ccb06d0e" />
+              <property role="3Fg1Gr" value="376" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgOVh" role="3MKX6F">
+                <property role="1hTQn4" value="caf43c7b-06f7-4c3f-a375-5c6a998f3c12" />
+                <property role="3Fg1Gr" value="377" />
+                <node concept="19SGf9" id="4qxaCfUgOVi" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOVj" role="19SJt6">
+                    <property role="19SUeA" value="deze worden doorberekend ten laste van, respectievelijk ten gunste van, een andere begroting van het Rijk;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOVl" role="3MKX6F">
+            <property role="1hTQn4" value="93fdd110-62df-4016-a7de-111095722625" />
+            <property role="3Fg1Gr" value="378" />
+            <node concept="3Fnoml" id="4qxaCfUgOVm" role="3MKX6F">
+              <property role="1hTQn4" value="e2841668-fbb9-4884-bd14-1659ef29f099" />
+              <property role="3Fg1Gr" value="379" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgOVn" role="3MKX6F">
+                <property role="1hTQn4" value="1a8fe6bc-9574-49af-8e19-3f14b9b8e767" />
+                <property role="3Fg1Gr" value="380" />
+                <node concept="19SGf9" id="4qxaCfUgOVo" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOVp" role="19SJt6">
+                    <property role="19SUeA" value="deze worden doorberekend ten laste van, respectievelijk ten gunste van, een andere publiekrechtelijke rechtspersoon of een rechtspersoon met een wettelijke taak;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOVr" role="3MKX6F">
+            <property role="1hTQn4" value="0be27780-3f25-4bd1-87c6-9a23f8adab3c" />
+            <property role="3Fg1Gr" value="381" />
+            <node concept="3Fnoml" id="4qxaCfUgOVs" role="3MKX6F">
+              <property role="1hTQn4" value="5e125602-0abf-4ce3-b8d7-b287864ff5ed" />
+              <property role="3Fg1Gr" value="382" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgOVt" role="3MKX6F">
+                <property role="1hTQn4" value="2414a8eb-a346-4b07-b07a-a9c55ad959d5" />
+                <property role="3Fg1Gr" value="383" />
+                <node concept="19SGf9" id="4qxaCfUgOVu" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOVv" role="19SJt6">
+                    <property role="19SUeA" value="deze worden doorberekend ten laste van, respectievelijk ten gunste van, een derde, niet zijnde een andere staat of een volkenrechtelijke organisatie, en Onze Minister die het aangaat of het college uitsluitend is belast met de administratieve verwerking van de uitgaven of ontvangsten;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOVx" role="3MKX6F">
+            <property role="1hTQn4" value="2352197f-fb3d-47da-9ec9-ea619226bfd1" />
+            <property role="3Fg1Gr" value="384" />
+            <node concept="3Fnoml" id="4qxaCfUgOVy" role="3MKX6F">
+              <property role="1hTQn4" value="d18d5cfe-d799-4aab-ab7e-25e1ae23291b" />
+              <property role="3Fg1Gr" value="385" />
+              <property role="3Fnomm" value="d." />
+              <node concept="3MKX5i" id="4qxaCfUgOVz" role="3MKX6F">
+                <property role="1hTQn4" value="0cb2b26a-1d1b-4899-a515-4d592e8863a1" />
+                <property role="3Fg1Gr" value="386" />
+                <node concept="19SGf9" id="4qxaCfUgOV$" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOV_" role="19SJt6">
+                    <property role="19SUeA" value="deze worden doorberekend ten laste van, respectievelijk ten gunste van, een andere staat of een volkenrechtelijke organisatie en Onze Minister die het aangaat of het college uitsluitend afspraken uitvoert die voortvloeien uit een verdrag, een besluit van een volkenrechtelijke organisatie of een internationale afspraak die controleerbaar is vastgelegd." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOVB" role="3MKX6F">
+      <property role="1hTQn4" value="2461e9a9-f030-4d42-8858-7f02bea8de0e" />
+      <property role="3Fg1Gr" value="387" />
+      <node concept="3Fnoml" id="4qxaCfUgOVC" role="3MKX6F">
+        <property role="1hTQn4" value="be5ea182-c123-4bf4-b24b-1339c9b50c78" />
+        <property role="3Fg1Gr" value="388" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgOVD" role="3MKX6F">
+          <property role="1hTQn4" value="3b334272-b56a-4919-bbd0-4f03e6b1e206" />
+          <property role="3Fg1Gr" value="389" />
+          <node concept="19SGf9" id="4qxaCfUgOVE" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOVF" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister die het aangaat of het college dat met toepassing van het eerste lid uitgaven of ontvangsten buiten begrotingsverband boekt, boekt tevens de doorberekeningen die met die uitgaven of ontvangsten samenhangen, buiten begrotingsverband." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOVH" role="3MKX6F">
+      <property role="1hTQn4" value="b9e3e07f-e575-431e-924f-204b118ac803" />
+      <property role="3Fg1Gr" value="390" />
+      <node concept="3Fnoml" id="4qxaCfUgOVI" role="3MKX6F">
+        <property role="1hTQn4" value="2d96f162-3f07-4e24-aa14-dc9109f65d52" />
+        <property role="3Fg1Gr" value="391" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgOVJ" role="3MKX6F">
+          <property role="1hTQn4" value="bdf963f1-cf5d-4032-81e5-81a6647b737f" />
+          <property role="3Fg1Gr" value="392" />
+          <node concept="19SGf9" id="4qxaCfUgOVK" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOVL" role="19SJt6">
+              <property role="19SUeA" value="Uitgaven en ontvangsten die buiten begrotingsverband zijn geboekt, worden alsnog binnen begrotingsverband geboekt in het jaar waarin wordt geconcludeerd dat een doorberekening niet plaatsvindt." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOVN" role="3MKX6F">
+      <property role="1hTQn4" value="c779565c-a1a7-414b-be2b-a06d11d46c8e" />
+      <property role="3Fg1Gr" value="393" />
+      <node concept="3Fnoml" id="4qxaCfUgOVO" role="3MKX6F">
+        <property role="1hTQn4" value="c7df15de-297f-4f06-a90d-2ed750406742" />
+        <property role="3Fg1Gr" value="394" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgOVP" role="3MKX6F">
+          <property role="1hTQn4" value="d7c4ebb9-b86b-4647-86bb-20a0a84fc705" />
+          <property role="3Fg1Gr" value="395" />
+          <node concept="19SGf9" id="4qxaCfUgOVQ" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOVR" role="19SJt6">
+              <property role="19SUeA" value="Financiële waarden die aan de staat zijn toevertrouwd of die door de staat in beheer zijn genomen zonder dat deze aan de staat toebehoren, worden zolang deze niet aan de staat zijn vervallen, buiten begrotingsverband geboekt." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOVU">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="8da9db8e-3769-4cee-bdc4-793441a32861" />
+    <property role="3Fg1Gr" value="396" />
+    <property role="TrG5h" value="Artikel 2.18 Afwijking universaliteit: salderen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgOVV" role="3MKX6F">
+      <property role="1hTQn4" value="06f7fc3d-d176-4fd3-b309-f675a7e7a5bb" />
+      <property role="3Fg1Gr" value="398" />
+      <node concept="19SGf9" id="4qxaCfUgOVW" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgOVX" role="19SJt6">
+          <property role="19SUeA" value="In afwijking van artikel 2.16 kunnen Onze Ministers of de colleges uitgaven en ontvangsten salderen ingeval van:" />
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOVZ" role="3MKX6F">
+      <property role="1hTQn4" value="3459b18e-84b8-461f-a81c-c0e859a13781" />
+      <property role="3Fg1Gr" value="399" />
+      <node concept="3MKX5h" id="4qxaCfUgOW0" role="3MKX6F">
+        <property role="1hTQn4" value="f0c98fcb-b0f0-4bfb-a7bd-dbfc9af1ee72" />
+        <property role="3Fg1Gr" value="400" />
+        <node concept="3Fnoml" id="4qxaCfUgOW1" role="3MKX6F">
+          <property role="1hTQn4" value="7ad29302-1621-4e94-b864-ac2e095a9e85" />
+          <property role="3Fg1Gr" value="401" />
+          <property role="3Fnomm" value="a." />
+          <node concept="3MKX5i" id="4qxaCfUgOW2" role="3MKX6F">
+            <property role="1hTQn4" value="78a432e0-ad24-4cde-9273-fad154d65fc5" />
+            <property role="3Fg1Gr" value="402" />
+            <node concept="19SGf9" id="4qxaCfUgOW3" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgOW4" role="19SJt6">
+                <property role="19SUeA" value="ontvangen terugbetalingen in verband met eerder in hetzelfde jaar gedane uitgaven;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOW6" role="3MKX6F">
+        <property role="1hTQn4" value="b0362d84-e96b-4759-bf65-de9f60e474ee" />
+        <property role="3Fg1Gr" value="403" />
+        <node concept="3Fnoml" id="4qxaCfUgOW7" role="3MKX6F">
+          <property role="1hTQn4" value="f93e370b-5a7d-4fe0-8ff4-3b4d74fe1922" />
+          <property role="3Fg1Gr" value="404" />
+          <property role="3Fnomm" value="b." />
+          <node concept="3MKX5i" id="4qxaCfUgOW8" role="3MKX6F">
+            <property role="1hTQn4" value="5a49351b-6fc2-4e21-95cf-3e172ed73b5e" />
+            <property role="3Fg1Gr" value="405" />
+            <node concept="19SGf9" id="4qxaCfUgOW9" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgOWa" role="19SJt6">
+                <property role="19SUeA" value="terugbetalingen op eerder verkregen ontvangsten;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOWc" role="3MKX6F">
+        <property role="1hTQn4" value="9d64a424-e695-4587-9199-f65225ef3b1b" />
+        <property role="3Fg1Gr" value="406" />
+        <node concept="3Fnoml" id="4qxaCfUgOWd" role="3MKX6F">
+          <property role="1hTQn4" value="ab89cb4a-aac0-465e-bb11-f58054565a92" />
+          <property role="3Fg1Gr" value="407" />
+          <property role="3Fnomm" value="c." />
+          <node concept="3MKX5i" id="4qxaCfUgOWe" role="3MKX6F">
+            <property role="1hTQn4" value="08ba84bf-9514-466e-893f-8078210a1d8b" />
+            <property role="3Fg1Gr" value="408" />
+            <node concept="19SGf9" id="4qxaCfUgOWf" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgOWg" role="19SJt6">
+                <property role="19SUeA" value="onderlinge betalingen voor personeel en materieel tussen verschillende begrotingsstaten;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOWi" role="3MKX6F">
+        <property role="1hTQn4" value="7c5f4292-fab9-4c1a-a7b4-315989865e6a" />
+        <property role="3Fg1Gr" value="409" />
+        <node concept="3Fnoml" id="4qxaCfUgOWj" role="3MKX6F">
+          <property role="1hTQn4" value="97f035ab-d4ae-477f-b4b4-76d004c00b2b" />
+          <property role="3Fg1Gr" value="410" />
+          <property role="3Fnomm" value="d." />
+          <node concept="3MKX5i" id="4qxaCfUgOWk" role="3MKX6F">
+            <property role="1hTQn4" value="49e8ce9d-7299-4b75-9262-eaa3c3395e6d" />
+            <property role="3Fg1Gr" value="411" />
+            <node concept="19SGf9" id="4qxaCfUgOWl" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgOWm" role="19SJt6">
+                <property role="19SUeA" value="onderlinge betalingen binnen dezelfde begrotingsstaat;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOWo" role="3MKX6F">
+        <property role="1hTQn4" value="b5adff9a-d8ef-4e8c-b98e-8954d95adcf3" />
+        <property role="3Fg1Gr" value="412" />
+        <node concept="3Fnoml" id="4qxaCfUgOWp" role="3MKX6F">
+          <property role="1hTQn4" value="2ae5cda5-7a35-49c9-800b-3dd4886c9fda" />
+          <property role="3Fg1Gr" value="413" />
+          <property role="3Fnomm" value="e." />
+          <node concept="3MKX5i" id="4qxaCfUgOWq" role="3MKX6F">
+            <property role="1hTQn4" value="1b3a8144-f9ab-42b0-b62b-0e64284894eb" />
+            <property role="3Fg1Gr" value="414" />
+            <node concept="19SGf9" id="4qxaCfUgOWr" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgOWs" role="19SJt6">
+                <property role="19SUeA" value="uitgaven in de vorm van ontvangstenderving die op een wettelijke regeling zijn gebaseerd;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgOWu" role="3MKX6F">
+        <property role="1hTQn4" value="3f71e221-7f3f-4d9a-9af4-03964c905a60" />
+        <property role="3Fg1Gr" value="415" />
+        <node concept="3Fnoml" id="4qxaCfUgOWv" role="3MKX6F">
+          <property role="1hTQn4" value="70589696-e1e9-476e-8e44-212df7c98710" />
+          <property role="3Fg1Gr" value="416" />
+          <property role="3Fnomm" value="f." />
+          <node concept="3MKX5i" id="4qxaCfUgOWw" role="3MKX6F">
+            <property role="1hTQn4" value="3168d981-9f6f-408f-a8d4-b029f22ae9e4" />
+            <property role="3Fg1Gr" value="417" />
+            <node concept="19SGf9" id="4qxaCfUgOWx" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgOWy" role="19SJt6">
+                <property role="19SUeA" value="ontvangsten uit een geldlening die is aangegaan ter conversie van een uitstaande schuld." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOW_">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="91a5f773-b93b-4d83-bd23-485e86b0792e" />
+    <property role="3Fg1Gr" value="418" />
+    <property role="TrG5h" value="Artikel 2.19 Kasstelsel en transactiestelsel" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgOWA" role="3MKX6F">
+      <property role="1hTQn4" value="04731413-cacf-4ae4-8b4c-f50dd08fbad2" />
+      <property role="3Fg1Gr" value="420" />
+      <node concept="19SGf9" id="4qxaCfUgOWB" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgOWC" role="19SJt6">
+          <property role="19SUeA" value="In afwijking van artikel 2.13, eerste lid, worden het begrotingsbeheer en het financieel beheer van de begroting van Nationale Schuld gevoerd met toepassing van het kasstelsel, met uitzondering van de rente-uitgaven en de rente-ontvangsten die gebaseerd worden op het transactiestelsel." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOWF">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="c27be990-025a-4307-8188-40081bef7caf" />
+    <property role="3Fg1Gr" value="421" />
+    <property role="TrG5h" value="Artikel 2.20 Agentschappen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgOWG" role="3MKX6F">
+      <property role="1hTQn4" value="dfb83059-5ae1-4b19-ae56-4fdd18b67e80" />
+      <property role="3Fg1Gr" value="423" />
+      <node concept="3Fnoml" id="4qxaCfUgOWH" role="3MKX6F">
+        <property role="1hTQn4" value="be0b3338-84a8-442a-aee4-d2e2a7459582" />
+        <property role="3Fg1Gr" value="424" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgOWI" role="3MKX6F">
+          <property role="1hTQn4" value="a7008c31-5f92-48d6-8e47-a25a51dbe950" />
+          <property role="3Fg1Gr" value="425" />
+          <node concept="19SGf9" id="4qxaCfUgOWJ" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOWK" role="19SJt6">
+              <property role="19SUeA" value="Indien voor een dienstonderdeel van een ministerie een afwijkend beheer wenselijk is, kan Onze Minister die het aangaat met inachtneming van de regels, bedoeld in artikel 4.20, tweede lid, aanhef en onder g, besluiten een dienstonderdeel als baten-lastenagentschap of als verplichtingen-kasagentschap aan te wijzen." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOWM" role="3MKX6F">
+      <property role="1hTQn4" value="6caa0a4e-df4f-48dd-9d79-451d26371516" />
+      <property role="3Fg1Gr" value="426" />
+      <node concept="3Fnoml" id="4qxaCfUgOWN" role="3MKX6F">
+        <property role="1hTQn4" value="0117d16d-5771-46f6-bdd7-8527ace9b37f" />
+        <property role="3Fg1Gr" value="427" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgOWO" role="3MKX6F">
+          <property role="1hTQn4" value="44cea8b5-46e6-4516-8a60-2a7fa07168e3" />
+          <property role="3Fg1Gr" value="428" />
+          <node concept="19SGf9" id="4qxaCfUgOWP" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOWQ" role="19SJt6">
+              <property role="19SUeA" value="Een dergelijk besluit wordt genomen, indien:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgOWS" role="3MKX6F">
+          <property role="1hTQn4" value="1cf1286e-6d83-492d-92eb-64afad16751e" />
+          <property role="3Fg1Gr" value="429" />
+          <node concept="3MKX5h" id="4qxaCfUgOWT" role="3MKX6F">
+            <property role="1hTQn4" value="7c39bd22-8995-4eb9-8439-3c3e357deb45" />
+            <property role="3Fg1Gr" value="430" />
+            <node concept="3Fnoml" id="4qxaCfUgOWU" role="3MKX6F">
+              <property role="1hTQn4" value="029dbaab-afb3-447b-8628-1a913c0fa0f0" />
+              <property role="3Fg1Gr" value="431" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgOWV" role="3MKX6F">
+                <property role="1hTQn4" value="ae15443b-3c4b-4fd6-90cf-6e0431da96ad" />
+                <property role="3Fg1Gr" value="432" />
+                <node concept="19SGf9" id="4qxaCfUgOWW" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOWX" role="19SJt6">
+                    <property role="19SUeA" value="Onze Minister die het aangaat van oordeel is dat het aanwijzen een doelmatige taakuitvoering bevordert;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOWZ" role="3MKX6F">
+            <property role="1hTQn4" value="a8b7f581-40ed-47c7-b120-364e46f84842" />
+            <property role="3Fg1Gr" value="433" />
+            <node concept="3Fnoml" id="4qxaCfUgOX0" role="3MKX6F">
+              <property role="1hTQn4" value="2227ef01-fefc-46f3-a748-767d6eb56552" />
+              <property role="3Fg1Gr" value="434" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgOX1" role="3MKX6F">
+                <property role="1hTQn4" value="1f676859-6940-472b-8185-cc20944d9ce9" />
+                <property role="3Fg1Gr" value="435" />
+                <node concept="19SGf9" id="4qxaCfUgOX2" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOX3" role="19SJt6">
+                    <property role="19SUeA" value="Onze Minister van Financiën met het besluit instemt." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOX5" role="3MKX6F">
+      <property role="1hTQn4" value="fa9cbd68-ec4f-459a-85d8-d43eabae59be" />
+      <property role="3Fg1Gr" value="436" />
+      <node concept="3Fnoml" id="4qxaCfUgOX6" role="3MKX6F">
+        <property role="1hTQn4" value="e74e2d37-d7e3-4169-b741-59d3daf2b722" />
+        <property role="3Fg1Gr" value="437" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgOX7" role="3MKX6F">
+          <property role="1hTQn4" value="f753182f-6127-4b93-9466-faf7fa266f2e" />
+          <property role="3Fg1Gr" value="438" />
+          <node concept="19SGf9" id="4qxaCfUgOX8" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOX9" role="19SJt6">
+              <property role="19SUeA" value="Een dergelijk besluit wordt niet eerder genomen dan 30 dagen nadat het voornemen daartoe schriftelijk ter kennis is gebracht van de Tweede Kamer der Staten-Generaal." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOXb" role="3MKX6F">
+      <property role="1hTQn4" value="d534483e-c14d-4c90-972a-8b9266f98f43" />
+      <property role="3Fg1Gr" value="439" />
+      <node concept="3Fnoml" id="4qxaCfUgOXc" role="3MKX6F">
+        <property role="1hTQn4" value="02f88614-11ba-4ef8-9ec1-b3fe2ce7f440" />
+        <property role="3Fg1Gr" value="440" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgOXd" role="3MKX6F">
+          <property role="1hTQn4" value="5a185a42-7691-48f3-87c2-ea7672cc5b7f" />
+          <property role="3Fg1Gr" value="441" />
+          <node concept="19SGf9" id="4qxaCfUgOXe" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOXf" role="19SJt6">
+              <property role="19SUeA" value="Indien binnen de in het derde lid genoemde termijn van 30 dagen ten minste een vijfde van het grondwettelijk aantal leden van de Tweede Kamer der Staten-Generaal nadere inlichtingen vraagt, wordt het besluit niet genomen dan 14 dagen nadat de inlichtingen zijn verstrekt." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOXh" role="3MKX6F">
+      <property role="1hTQn4" value="10f14b69-ecbc-4d96-bc2d-218e3faa6640" />
+      <property role="3Fg1Gr" value="442" />
+      <node concept="3Fnoml" id="4qxaCfUgOXi" role="3MKX6F">
+        <property role="1hTQn4" value="f9f6c2c9-f8a9-48b6-88cc-c94aa45a19ca" />
+        <property role="3Fg1Gr" value="443" />
+        <property role="3Fnomm" value="5" />
+        <node concept="3MKX5i" id="4qxaCfUgOXj" role="3MKX6F">
+          <property role="1hTQn4" value="a7ef7d2c-65c1-4681-9c79-c0b860a6ab64" />
+          <property role="3Fg1Gr" value="444" />
+          <node concept="19SGf9" id="4qxaCfUgOXk" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOXl" role="19SJt6">
+              <property role="19SUeA" value="Het derde en vierde lid zijn niet van toepassing op het intrekken van een eerder genomen besluit tot het aanwijzen van een dienstonderdeel als baten-lastenagentschap of verplichtingen-kasagentschap." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOXn" role="3MKX6F">
+      <property role="1hTQn4" value="44e15c7a-5843-4f77-a413-7e87f6c8f418" />
+      <property role="3Fg1Gr" value="445" />
+      <node concept="3Fnoml" id="4qxaCfUgOXo" role="3MKX6F">
+        <property role="1hTQn4" value="f9d0eff1-50fb-4386-b6db-3085fef322b3" />
+        <property role="3Fg1Gr" value="446" />
+        <property role="3Fnomm" value="6" />
+        <node concept="3MKX5i" id="4qxaCfUgOXp" role="3MKX6F">
+          <property role="1hTQn4" value="c486685c-17e2-4ac9-a167-8edce4325b4d" />
+          <property role="3Fg1Gr" value="447" />
+          <node concept="19SGf9" id="4qxaCfUgOXq" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOXr" role="19SJt6">
+              <property role="19SUeA" value="Een dienstonderdeel van een ministerie dat krachtens het eerste lid, als baten-lastenagentschap is aangewezen, past als begrotingsstelsel het baten-lastenstelsel toe." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOXt" role="3MKX6F">
+      <property role="1hTQn4" value="d13b51bd-b5f2-4a4d-80eb-a27324ca2adc" />
+      <property role="3Fg1Gr" value="448" />
+      <node concept="3Fnoml" id="4qxaCfUgOXu" role="3MKX6F">
+        <property role="1hTQn4" value="13d862db-4663-4fc4-a137-26597e2c7f5f" />
+        <property role="3Fg1Gr" value="449" />
+        <property role="3Fnomm" value="7" />
+        <node concept="3MKX5i" id="4qxaCfUgOXv" role="3MKX6F">
+          <property role="1hTQn4" value="3db09e12-4e9b-4760-b784-8cd0f5815a5f" />
+          <property role="3Fg1Gr" value="450" />
+          <node concept="19SGf9" id="4qxaCfUgOXw" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOXx" role="19SJt6">
+              <property role="19SUeA" value="Een dienstonderdeel van een ministerie dat krachtens het eerste lid als verplichtingen-kasagentschap is aangewezen, past als begrotingsstelsel het verplichtingen-kasstelsel toe." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOXz" role="3MKX6F">
+      <property role="1hTQn4" value="00b8d528-2336-45e6-93f8-2ca595438295" />
+      <property role="3Fg1Gr" value="451" />
+      <node concept="3Fnoml" id="4qxaCfUgOX$" role="3MKX6F">
+        <property role="1hTQn4" value="b374d02a-d8e0-43ac-a504-e46a6f466101" />
+        <property role="3Fg1Gr" value="452" />
+        <property role="3Fnomm" value="8" />
+        <node concept="3MKX5i" id="4qxaCfUgOX_" role="3MKX6F">
+          <property role="1hTQn4" value="e583334c-ae47-4b22-9152-20312a3f5144" />
+          <property role="3Fg1Gr" value="453" />
+          <node concept="19SGf9" id="4qxaCfUgOXA" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOXB" role="19SJt6">
+              <property role="19SUeA" value="Een dienstonderdeel van een ministerie dat krachtens het eerste lid als verplichtingen-kasagentschap is aangewezen, kan een kasreserve aanhouden." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOXE">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="808dd795-8896-4a14-9d23-638620267778" />
+    <property role="3Fg1Gr" value="454" />
+    <property role="TrG5h" value="Artikel 2.21 Begrotingsreserve" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgOXF" role="3MKX6F">
+      <property role="1hTQn4" value="7f78437c-9806-4067-bc63-bdf6df3b3b03" />
+      <property role="3Fg1Gr" value="456" />
+      <node concept="3Fnoml" id="4qxaCfUgOXG" role="3MKX6F">
+        <property role="1hTQn4" value="cc57104c-2eaa-4951-9b74-bf83c28193ee" />
+        <property role="3Fg1Gr" value="457" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgOXH" role="3MKX6F">
+          <property role="1hTQn4" value="6b99858e-b227-4b8a-ac9e-cff0b75dcb79" />
+          <property role="3Fg1Gr" value="458" />
+          <node concept="19SGf9" id="4qxaCfUgOXI" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOXJ" role="19SJt6">
+              <property role="19SUeA" value="Een dienstonderdeel van een ministerie dat niet krachtens artikel 2.20 als agentschap is aangewezen, kan in overeenstemming met Onze Minister van Financiën ten laste van een begrotingsartikel een begrotingsreserve aanhouden." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOXL" role="3MKX6F">
+      <property role="1hTQn4" value="4171e517-a940-4a19-9cfd-cffb7522f93b" />
+      <property role="3Fg1Gr" value="459" />
+      <node concept="3Fnoml" id="4qxaCfUgOXM" role="3MKX6F">
+        <property role="1hTQn4" value="d6c748e4-426b-489c-8c09-9a941bfbf0d2" />
+        <property role="3Fg1Gr" value="460" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgOXN" role="3MKX6F">
+          <property role="1hTQn4" value="53a80d21-eadb-448b-954d-68da93de7865" />
+          <property role="3Fg1Gr" value="461" />
+          <node concept="19SGf9" id="4qxaCfUgOXO" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOXP" role="19SJt6">
+              <property role="19SUeA" value="De toelichting van het begrotingsartikel ten laste waarvan een begrotingsreserve wordt aangehouden bevat:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgOXR" role="3MKX6F">
+          <property role="1hTQn4" value="4e716587-767d-4ac2-8df9-468683b7557d" />
+          <property role="3Fg1Gr" value="462" />
+          <node concept="3MKX5h" id="4qxaCfUgOXS" role="3MKX6F">
+            <property role="1hTQn4" value="7b5a5bf9-da8c-4e9e-bf2e-9f6d406f26f9" />
+            <property role="3Fg1Gr" value="463" />
+            <node concept="3Fnoml" id="4qxaCfUgOXT" role="3MKX6F">
+              <property role="1hTQn4" value="0d6af3b2-e18f-4a3c-ac8f-f273b93ba29c" />
+              <property role="3Fg1Gr" value="464" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgOXU" role="3MKX6F">
+                <property role="1hTQn4" value="2460f194-79ca-47b7-8c0c-ee80ef813a46" />
+                <property role="3Fg1Gr" value="465" />
+                <node concept="19SGf9" id="4qxaCfUgOXV" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOXW" role="19SJt6">
+                    <property role="19SUeA" value="de motieven voor het aanhouden van de begrotingsreserve;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOXY" role="3MKX6F">
+            <property role="1hTQn4" value="6a8128ff-fa8b-46ad-ba0c-9c2857a4132c" />
+            <property role="3Fg1Gr" value="466" />
+            <node concept="3Fnoml" id="4qxaCfUgOXZ" role="3MKX6F">
+              <property role="1hTQn4" value="7a643f15-3dc8-4982-8955-085c081f1b07" />
+              <property role="3Fg1Gr" value="467" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgOY0" role="3MKX6F">
+                <property role="1hTQn4" value="de01b661-5a2a-411f-8f2d-cefd280f7c4f" />
+                <property role="3Fg1Gr" value="468" />
+                <node concept="19SGf9" id="4qxaCfUgOY1" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOY2" role="19SJt6">
+                    <property role="19SUeA" value="de verwachte omvang van de begrotingsreserve aan het begin van het begrotingsjaar;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOY4" role="3MKX6F">
+            <property role="1hTQn4" value="d6ca0f1e-6b5f-437b-be02-a0e554eadc5d" />
+            <property role="3Fg1Gr" value="469" />
+            <node concept="3Fnoml" id="4qxaCfUgOY5" role="3MKX6F">
+              <property role="1hTQn4" value="095d7c88-197e-4343-920d-3fdbf41dcfa0" />
+              <property role="3Fg1Gr" value="470" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgOY6" role="3MKX6F">
+                <property role="1hTQn4" value="f0d89d87-3b05-4e66-ac3e-270724cd8ee6" />
+                <property role="3Fg1Gr" value="471" />
+                <node concept="19SGf9" id="4qxaCfUgOY7" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOY8" role="19SJt6">
+                    <property role="19SUeA" value="indien mogelijk, de in het begrotingsjaar verwachte toevoeging en onttrekking aan de reserve." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOYc">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="7b1ab2ae-69b3-4a13-942b-29e190f8af89" />
+    <property role="3Fg1Gr" value="474" />
+    <property role="TrG5h" value="Artikel 2.22 Aanbieden van stabiliteitsprogramma en nationaal hervormingsprogramma" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgOYd" role="3MKX6F">
+      <property role="1hTQn4" value="04878d6b-5dd2-4af6-a2a1-9857058287ed" />
+      <property role="3Fg1Gr" value="476" />
+      <node concept="19SGf9" id="4qxaCfUgOYe" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgOYf" role="19SJt6">
+          <property role="19SUeA" value="Onze Minister van Financiën en Onze Minister die het mede aangaat bieden het stabiliteitsprogramma, onderscheidenlijk het nationaal hervormingsprogramma, jaarlijks aan de Kamers der Staten-Generaal aan." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOYi">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="e4d2d224-7a62-445e-a73a-d4c56399fa24" />
+    <property role="3Fg1Gr" value="477" />
+    <property role="TrG5h" value="Artikel 2.23 Indienen van de rijksbegroting" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgOYj" role="3MKX6F">
+      <property role="1hTQn4" value="380c1fde-d729-4368-81d5-d9be98c83900" />
+      <property role="3Fg1Gr" value="479" />
+      <node concept="3Fnoml" id="4qxaCfUgOYk" role="3MKX6F">
+        <property role="1hTQn4" value="3da9c183-3167-4e41-b61c-db743acd1a05" />
+        <property role="3Fg1Gr" value="480" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgOYl" role="3MKX6F">
+          <property role="1hTQn4" value="6e7173d1-1734-4349-8b9a-d49133933904" />
+          <property role="3Fg1Gr" value="481" />
+          <node concept="19SGf9" id="4qxaCfUgOYm" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOYn" role="19SJt6">
+              <property role="19SUeA" value="Wij dienen de voorstellen van wet tot vaststelling van de begrotingsstaten op de derde dinsdag van september van het jaar voorafgaande aan het begrotingsjaar bij de Tweede Kamer der Staten-Generaal in." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOYp" role="3MKX6F">
+      <property role="1hTQn4" value="84b4b451-602b-4b5f-8e3a-cdfb556c6a67" />
+      <property role="3Fg1Gr" value="482" />
+      <node concept="3Fnoml" id="4qxaCfUgOYq" role="3MKX6F">
+        <property role="1hTQn4" value="3b2f7b9b-e0b6-45d4-afde-70830f2b56ba" />
+        <property role="3Fg1Gr" value="483" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgOYr" role="3MKX6F">
+          <property role="1hTQn4" value="e52b6e82-711f-40c7-a736-d83ab40548f5" />
+          <property role="3Fg1Gr" value="484" />
+          <node concept="19SGf9" id="4qxaCfUgOYs" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOYt" role="19SJt6">
+              <property role="19SUeA" value="In afwijking van het eerste lid kunnen Wij Onze Minister van Financiën machtigen de voorstellen van wet tot vaststelling van de begrotingsstaten bij de Tweede Kamer der Staten-Generaal in te dienen." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOYv" role="3MKX6F">
+      <property role="1hTQn4" value="04d84256-6c60-4cc2-9358-f66e08022ad0" />
+      <property role="3Fg1Gr" value="485" />
+      <node concept="3Fnoml" id="4qxaCfUgOYw" role="3MKX6F">
+        <property role="1hTQn4" value="e5f02faf-b5c1-4d56-adcc-640020743dd1" />
+        <property role="3Fg1Gr" value="486" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgOYx" role="3MKX6F">
+          <property role="1hTQn4" value="4c82c418-ee44-41ca-85ae-ae5687aab853" />
+          <property role="3Fg1Gr" value="487" />
+          <node concept="19SGf9" id="4qxaCfUgOYy" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOYz" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën biedt op de dag van de indiening van de voorstellen van wet tot vaststelling van de begrotingsstaten de Miljoenennota aan de Staten-Generaal aan." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOY_" role="3MKX6F">
+      <property role="1hTQn4" value="51a748ad-a731-4f03-baa5-42a76b35aa64" />
+      <property role="3Fg1Gr" value="488" />
+      <node concept="3Fnoml" id="4qxaCfUgOYA" role="3MKX6F">
+        <property role="1hTQn4" value="3b45235a-993f-4e97-80e8-3318b535ce64" />
+        <property role="3Fg1Gr" value="489" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgOYB" role="3MKX6F">
+          <property role="1hTQn4" value="29a0de9d-ab70-4dda-8f94-5a2a934c5d64" />
+          <property role="3Fg1Gr" value="490" />
+          <node concept="19SGf9" id="4qxaCfUgOYC" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOYD" role="19SJt6">
+              <property role="19SUeA" value="De Miljoenennota bevat in elk geval:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgOYF" role="3MKX6F">
+          <property role="1hTQn4" value="d536b3c0-55b1-483c-9bfb-a068c9d02197" />
+          <property role="3Fg1Gr" value="491" />
+          <node concept="3MKX5h" id="4qxaCfUgOYG" role="3MKX6F">
+            <property role="1hTQn4" value="fdf43a9b-2364-4e7a-acb7-a8a71d08b9a1" />
+            <property role="3Fg1Gr" value="492" />
+            <node concept="3Fnoml" id="4qxaCfUgOYH" role="3MKX6F">
+              <property role="1hTQn4" value="1323a304-f58c-4e7c-b3fc-3be1810e9550" />
+              <property role="3Fg1Gr" value="493" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgOYI" role="3MKX6F">
+                <property role="1hTQn4" value="7dd84637-a202-457b-9ce4-741da040d783" />
+                <property role="3Fg1Gr" value="494" />
+                <node concept="19SGf9" id="4qxaCfUgOYJ" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOYK" role="19SJt6">
+                    <property role="19SUeA" value="het budgettaire totaalbeeld voor het betrokken begrotingsjaar en de vier daaropvolgende jaren van de rijksbegroting en de niet tot de rijksbegroting behorende budgetdisciplinesectoren;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOYM" role="3MKX6F">
+            <property role="1hTQn4" value="5632d6f8-69b6-467c-bc6b-5ef5c55573a2" />
+            <property role="3Fg1Gr" value="495" />
+            <node concept="3Fnoml" id="4qxaCfUgOYN" role="3MKX6F">
+              <property role="1hTQn4" value="6924acf3-54af-4318-bd06-a417b9a5389d" />
+              <property role="3Fg1Gr" value="496" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgOYO" role="3MKX6F">
+                <property role="1hTQn4" value="522707d3-c649-48d5-a69b-9bb0cc65640c" />
+                <property role="3Fg1Gr" value="497" />
+                <node concept="19SGf9" id="4qxaCfUgOYP" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOYQ" role="19SJt6">
+                    <property role="19SUeA" value="de budgettaire beschouwingen over het voorgenomen beleid voor de collectieve sector;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOYS" role="3MKX6F">
+            <property role="1hTQn4" value="6c6ade59-6c3f-4a88-a2a6-aa592eac2408" />
+            <property role="3Fg1Gr" value="498" />
+            <node concept="3Fnoml" id="4qxaCfUgOYT" role="3MKX6F">
+              <property role="1hTQn4" value="0d01970d-03ee-4f26-9ec0-5e5b2bc8d8ff" />
+              <property role="3Fg1Gr" value="499" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgOYU" role="3MKX6F">
+                <property role="1hTQn4" value="5604e7f0-3d22-42e9-aa0a-f82770314be5" />
+                <property role="3Fg1Gr" value="500" />
+                <node concept="19SGf9" id="4qxaCfUgOYV" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOYW" role="19SJt6">
+                    <property role="19SUeA" value="een overzicht van de uitgaven en de ontvangsten in de begrotingen voor het begrotingsjaar en de vier daarop aansluitende jaren." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOYZ">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="94dd1e8c-5bf8-4615-b3b7-546391d518b8" />
+    <property role="3Fg1Gr" value="501" />
+    <property role="TrG5h" value="Artikel 2.24 Inwerkingtreding van voorstellen van wet inzake de begrotingsstaten" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgOZ0" role="3MKX6F">
+      <property role="1hTQn4" value="e0f97998-ebc4-416c-b4ec-defb410d804b" />
+      <property role="3Fg1Gr" value="503" />
+      <node concept="19SGf9" id="4qxaCfUgOZ1" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgOZ2" role="19SJt6">
+          <property role="19SUeA" value="De voorstellen van wet tot vaststelling van de begrotingsstaten voorzien in een bepaling die de inwerkingtreding regelt. Deze bepaling bepaalt de inwerkingtreding op 1 januari van het jaar waarop de begrotingsstaten betrekking hebben." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOZ5">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="38731818-0481-40f8-b13f-cb734d755fe0" />
+    <property role="3Fg1Gr" value="504" />
+    <property role="TrG5h" value="Artikel 2.25 Uitvoering van voorstellen van wet inzake de begrotingsstaten" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgOZ6" role="3MKX6F">
+      <property role="1hTQn4" value="6938d249-74a7-40aa-80c2-627690805d47" />
+      <property role="3Fg1Gr" value="506" />
+      <node concept="3Fnoml" id="4qxaCfUgOZ7" role="3MKX6F">
+        <property role="1hTQn4" value="1c00ad60-cf6f-4a94-b34e-47c989f63715" />
+        <property role="3Fg1Gr" value="507" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgOZ8" role="3MKX6F">
+          <property role="1hTQn4" value="c99f1da6-01ee-4f08-bd7a-84b64bc28c08" />
+          <property role="3Fg1Gr" value="508" />
+          <node concept="19SGf9" id="4qxaCfUgOZ9" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOZa" role="19SJt6">
+              <property role="19SUeA" value="Zolang een voorstel van wet tot vaststelling van een begrotingsstaat niet tot wet is verheven en in werking is getreden, wordt lopend beleid dat ten grondslag ligt aan die begrotingsstaat met terughoudendheid in uitvoering genomen." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOZc" role="3MKX6F">
+      <property role="1hTQn4" value="532d2783-312f-427a-b96c-df0003c4d915" />
+      <property role="3Fg1Gr" value="509" />
+      <node concept="3Fnoml" id="4qxaCfUgOZd" role="3MKX6F">
+        <property role="1hTQn4" value="e0238af6-4361-4782-aa2b-6ecdb1856849" />
+        <property role="3Fg1Gr" value="510" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgOZe" role="3MKX6F">
+          <property role="1hTQn4" value="93c001bc-597f-4a7a-99a6-8462ecc83bd1" />
+          <property role="3Fg1Gr" value="511" />
+          <node concept="19SGf9" id="4qxaCfUgOZf" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOZg" role="19SJt6">
+              <property role="19SUeA" value="Zolang een voorstel van wet tot vaststelling van een begrotingsstaat niet tot wet is verheven en in werking is getreden, wordt nieuw beleid dat ten grondslag ligt aan die begrotingsstaat, niet in uitvoering genomen, tenzij uitstel van de uitvoering naar het oordeel van Onze Minister die het aangaat niet in het belang van het Rijk is en hij de Staten-Generaal daarover heeft geïnformeerd." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgOZj">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="ab70a428-44e3-4e02-b8f5-e427daec0bec" />
+    <property role="3Fg1Gr" value="512" />
+    <property role="TrG5h" value="Artikel 2.26 Indienen van voorstellen van wet inzake de suppletoire begrotingsstaten" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgOZk" role="3MKX6F">
+      <property role="1hTQn4" value="513c5f37-021c-4f82-bfbd-21c0358c232b" />
+      <property role="3Fg1Gr" value="514" />
+      <node concept="3Fnoml" id="4qxaCfUgOZl" role="3MKX6F">
+        <property role="1hTQn4" value="a86ba125-e3e0-4491-b42b-19dfeb7122ee" />
+        <property role="3Fg1Gr" value="515" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgOZm" role="3MKX6F">
+          <property role="1hTQn4" value="6b9210d9-732d-445c-9ca4-721d48dcf835" />
+          <property role="3Fg1Gr" value="516" />
+          <node concept="19SGf9" id="4qxaCfUgOZn" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOZo" role="19SJt6">
+              <property role="19SUeA" value="Wij dienen in elk geval uiterlijk op 1 juni en op 1 december van het begrotingsjaar de voorstellen van wet tot wijziging van de begrotingsstaten bij de Tweede Kamer der Staten-Generaal in." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOZq" role="3MKX6F">
+      <property role="1hTQn4" value="40b5d294-303a-4188-97dc-e9cb04b70615" />
+      <property role="3Fg1Gr" value="517" />
+      <node concept="3Fnoml" id="4qxaCfUgOZr" role="3MKX6F">
+        <property role="1hTQn4" value="5c999ed0-97ea-441b-b53a-ebd4b80d360a" />
+        <property role="3Fg1Gr" value="518" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgOZs" role="3MKX6F">
+          <property role="1hTQn4" value="887128ee-032d-46fe-8d4e-a2bd4bd8ade7" />
+          <property role="3Fg1Gr" value="519" />
+          <node concept="19SGf9" id="4qxaCfUgOZt" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOZu" role="19SJt6">
+              <property role="19SUeA" value="In afwijking van het eerste lid kunnen Wij Onze Minister van Financiën machtigen de voorstellen van wet tot wijziging van de begrotingsstaten bij de Tweede Kamer der Staten-Generaal in te dienen." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOZw" role="3MKX6F">
+      <property role="1hTQn4" value="4c08e7e0-b120-4ebf-a97f-b3660c7d1474" />
+      <property role="3Fg1Gr" value="520" />
+      <node concept="3Fnoml" id="4qxaCfUgOZx" role="3MKX6F">
+        <property role="1hTQn4" value="834c7e4b-babd-4147-89a7-32c8b241e6bd" />
+        <property role="3Fg1Gr" value="521" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgOZy" role="3MKX6F">
+          <property role="1hTQn4" value="07f9c6d3-5275-4e5a-987d-0de119e0810a" />
+          <property role="3Fg1Gr" value="522" />
+          <node concept="19SGf9" id="4qxaCfUgOZz" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOZ$" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën biedt uiterlijk op 1 juni en op 1 december van het begrotingsjaar de Voorjaarsnota, respectievelijk de Najaarsnota, aan de Staten-Generaal aan." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOZA" role="3MKX6F">
+      <property role="1hTQn4" value="441b4104-a26f-4dc8-a2dc-85bde6f29833" />
+      <property role="3Fg1Gr" value="523" />
+      <node concept="3Fnoml" id="4qxaCfUgOZB" role="3MKX6F">
+        <property role="1hTQn4" value="8e881357-b3f1-4854-9ea2-a961d30d1c42" />
+        <property role="3Fg1Gr" value="524" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgOZC" role="3MKX6F">
+          <property role="1hTQn4" value="09d880d0-f122-4a7c-b993-2e2aa9176dca" />
+          <property role="3Fg1Gr" value="525" />
+          <node concept="19SGf9" id="4qxaCfUgOZD" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOZE" role="19SJt6">
+              <property role="19SUeA" value="De Voorjaarsnota bevat in elk geval:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgOZG" role="3MKX6F">
+          <property role="1hTQn4" value="c26228d1-bd88-4498-81db-6a3dcedc0f91" />
+          <property role="3Fg1Gr" value="526" />
+          <node concept="3MKX5h" id="4qxaCfUgOZH" role="3MKX6F">
+            <property role="1hTQn4" value="cdf3bbc2-4641-4249-8554-3f0bef98cf5f" />
+            <property role="3Fg1Gr" value="527" />
+            <node concept="3Fnoml" id="4qxaCfUgOZI" role="3MKX6F">
+              <property role="1hTQn4" value="82852f33-2990-488f-aae8-501d660fcdc5" />
+              <property role="3Fg1Gr" value="528" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgOZJ" role="3MKX6F">
+                <property role="1hTQn4" value="9654424c-fa0a-4a25-9c9f-cd3b64f48db4" />
+                <property role="3Fg1Gr" value="529" />
+                <node concept="19SGf9" id="4qxaCfUgOZK" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOZL" role="19SJt6">
+                    <property role="19SUeA" value="de wijziging van het budgettaire totaalbeeld, bedoeld in artikel 2.23, vierde lid, onder a;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgOZN" role="3MKX6F">
+            <property role="1hTQn4" value="f8ef32c6-2f47-4a58-ac1a-77824b70d1ac" />
+            <property role="3Fg1Gr" value="530" />
+            <node concept="3Fnoml" id="4qxaCfUgOZO" role="3MKX6F">
+              <property role="1hTQn4" value="b7e39e3d-9283-473e-a5e9-2a6164b075f1" />
+              <property role="3Fg1Gr" value="531" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgOZP" role="3MKX6F">
+                <property role="1hTQn4" value="e058f9c7-13a7-4f72-a7b8-15a2c1c8a710" />
+                <property role="3Fg1Gr" value="532" />
+                <node concept="19SGf9" id="4qxaCfUgOZQ" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgOZR" role="19SJt6">
+                    <property role="19SUeA" value="een overzicht van de wijzigingen in de uitgaven en de ontvangsten in de begrotingen voor het begrotingsjaar en de vier daarop aansluitende jaren." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgOZT" role="3MKX6F">
+      <property role="1hTQn4" value="6c7c507e-4bf3-457f-96e3-f5553ad7af7c" />
+      <property role="3Fg1Gr" value="533" />
+      <node concept="3Fnoml" id="4qxaCfUgOZU" role="3MKX6F">
+        <property role="1hTQn4" value="755216f1-7c9a-4e25-95ca-b66e6617025b" />
+        <property role="3Fg1Gr" value="534" />
+        <property role="3Fnomm" value="5" />
+        <node concept="3MKX5i" id="4qxaCfUgOZV" role="3MKX6F">
+          <property role="1hTQn4" value="a0bcc1a1-8069-4272-9591-5a464b13940c" />
+          <property role="3Fg1Gr" value="535" />
+          <node concept="19SGf9" id="4qxaCfUgOZW" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgOZX" role="19SJt6">
+              <property role="19SUeA" value="De Najaarsnota bevat in aansluiting op de Voorjaarsnota in elk geval:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgOZZ" role="3MKX6F">
+          <property role="1hTQn4" value="208538b3-0be8-44b2-88e0-2823be327b92" />
+          <property role="3Fg1Gr" value="536" />
+          <node concept="3MKX5h" id="4qxaCfUgP00" role="3MKX6F">
+            <property role="1hTQn4" value="ed1e7fb3-3a34-4a3a-863c-5078fb20ac6c" />
+            <property role="3Fg1Gr" value="537" />
+            <node concept="3Fnoml" id="4qxaCfUgP01" role="3MKX6F">
+              <property role="1hTQn4" value="a59ccb0c-454a-401f-8395-7dfafb4be01c" />
+              <property role="3Fg1Gr" value="538" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgP02" role="3MKX6F">
+                <property role="1hTQn4" value="40bd1b3c-d138-41df-83cd-f010e632d04b" />
+                <property role="3Fg1Gr" value="539" />
+                <node concept="19SGf9" id="4qxaCfUgP03" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP04" role="19SJt6">
+                    <property role="19SUeA" value="de wijziging van het budgettaire totaalbeeld, bedoeld in artikel 2.23, vierde lid, onder a;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP06" role="3MKX6F">
+            <property role="1hTQn4" value="55515213-2010-419d-9e83-9bff6cbdea84" />
+            <property role="3Fg1Gr" value="540" />
+            <node concept="3Fnoml" id="4qxaCfUgP07" role="3MKX6F">
+              <property role="1hTQn4" value="99ab67ce-036a-4ee0-921f-cfbf55476976" />
+              <property role="3Fg1Gr" value="541" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgP08" role="3MKX6F">
+                <property role="1hTQn4" value="c788d961-88df-48c8-8fee-f687ad8e20b6" />
+                <property role="3Fg1Gr" value="542" />
+                <node concept="19SGf9" id="4qxaCfUgP09" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP0a" role="19SJt6">
+                    <property role="19SUeA" value="een overzicht van de nadere wijzigingen in de uitgaven en de ontvangsten in de begrotingen voor het begrotingsjaar." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP0d">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="d21c9b80-777a-4f7a-8d22-b9c34b548dd7" />
+    <property role="3Fg1Gr" value="543" />
+    <property role="TrG5h" value="Artikel 2.27 Uitvoering van voorstellen van wet inzake de suppletoire begrotingsstaten" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgP0e" role="3MKX6F">
+      <property role="1hTQn4" value="8da55ccb-c85b-40a2-ba85-01fd3ef05e46" />
+      <property role="3Fg1Gr" value="545" />
+      <node concept="3Fnoml" id="4qxaCfUgP0f" role="3MKX6F">
+        <property role="1hTQn4" value="5d91f48b-9e2a-43b3-9188-371c29157904" />
+        <property role="3Fg1Gr" value="546" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgP0g" role="3MKX6F">
+          <property role="1hTQn4" value="4883b5a9-6997-4d21-924e-8e844c72556d" />
+          <property role="3Fg1Gr" value="547" />
+          <node concept="19SGf9" id="4qxaCfUgP0h" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP0i" role="19SJt6">
+              <property role="19SUeA" value="Zolang een voorstel van wet tot wijziging van een begrotingsstaat niet tot wet is verheven en in werking is getreden, wordt lopend beleid dat ten grondslag ligt aan die wijziging met terughoudendheid in uitvoering genomen." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP0k" role="3MKX6F">
+      <property role="1hTQn4" value="56a4567c-8801-4fbb-a9b8-6799b03a535b" />
+      <property role="3Fg1Gr" value="548" />
+      <node concept="3Fnoml" id="4qxaCfUgP0l" role="3MKX6F">
+        <property role="1hTQn4" value="e5adca27-1293-4124-85d3-c08b27eefe75" />
+        <property role="3Fg1Gr" value="549" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgP0m" role="3MKX6F">
+          <property role="1hTQn4" value="d9bad6fc-9a21-451a-9f80-a352e5db3064" />
+          <property role="3Fg1Gr" value="550" />
+          <node concept="19SGf9" id="4qxaCfUgP0n" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP0o" role="19SJt6">
+              <property role="19SUeA" value="Zolang een voorstel van wet tot wijziging van een begrotingsstaat niet tot wet is verheven en in werking is getreden, wordt nieuw beleid dat ten grondslag ligt aan die wijziging, niet in uitvoering genomen, tenzij uitstel van de uitvoering naar het oordeel van Onze Minister die het aangaat niet in het belang is van het Rijk en hij de Staten-Generaal daarover heeft geïnformeerd." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP0r">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="6fca3969-d31b-4416-ac2d-ad7d342e39e1" />
+    <property role="3Fg1Gr" value="551" />
+    <property role="TrG5h" value="Artikel 2.28" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgP0s" role="3MKX6F">
+      <property role="1hTQn4" value="4e71e049-88dd-4c8a-a276-0b7cb64a9cde" />
+      <property role="3Fg1Gr" value="553" />
+      <node concept="19SGf9" id="4qxaCfUgP0t" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgP0u" role="19SJt6">
+          <property role="19SUeA" value="Onze Ministers, ieder met betrekking tot het beleid waarvoor hij verantwoordelijk is, zenden jaarlijks in december, uiterlijk drie dagen voor aanvang van het reces van de Tweede Kamer der Staten-Generaal, aan beide Kamers der Staten-Generaal, een overzicht van majeure wijzigingen in de uitgaven, verplichtingen en de ontvangsten van het begrotingsjaar, die niet zijn opgenomen in de op grond van artikel 2.26 uiterlijk op 1 december in te dienen voorstellen van wet." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP0y">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="a5291424-86ae-4d10-9aa4-0db21340e1c3" />
+    <property role="3Fg1Gr" value="556" />
+    <property role="TrG5h" value="Artikel 2.29 Samenstelling en de inhoud van de verantwoording van het Rijk" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgP0z" role="3MKX6F">
+      <property role="1hTQn4" value="9b18dae3-0744-423c-9ada-3ba463c95683" />
+      <property role="3Fg1Gr" value="558" />
+      <node concept="3Fnoml" id="4qxaCfUgP0$" role="3MKX6F">
+        <property role="1hTQn4" value="0f7120ed-1b64-4929-9d53-650723104c20" />
+        <property role="3Fg1Gr" value="559" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgP0_" role="3MKX6F">
+          <property role="1hTQn4" value="c5ec29a4-dba7-4ad3-b665-693085372429" />
+          <property role="3Fg1Gr" value="560" />
+          <node concept="19SGf9" id="4qxaCfUgP0A" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP0B" role="19SJt6">
+              <property role="19SUeA" value="Tot de verantwoording van het Rijk behoren:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgP0D" role="3MKX6F">
+          <property role="1hTQn4" value="20a243dd-4e27-4145-bce1-0f6168cafe7f" />
+          <property role="3Fg1Gr" value="561" />
+          <node concept="3MKX5h" id="4qxaCfUgP0E" role="3MKX6F">
+            <property role="1hTQn4" value="ac10195e-f2b1-4286-bead-c56d278384c2" />
+            <property role="3Fg1Gr" value="562" />
+            <node concept="3Fnoml" id="4qxaCfUgP0F" role="3MKX6F">
+              <property role="1hTQn4" value="65a31f74-1e59-4ed6-b51e-f660026d79a9" />
+              <property role="3Fg1Gr" value="563" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgP0G" role="3MKX6F">
+                <property role="1hTQn4" value="558af9fa-5f90-4232-a3ff-522aff388491" />
+                <property role="3Fg1Gr" value="564" />
+                <node concept="19SGf9" id="4qxaCfUgP0H" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP0I" role="19SJt6">
+                    <property role="19SUeA" value="de jaarverslagen, bedoeld in artikel 2.31;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP0K" role="3MKX6F">
+            <property role="1hTQn4" value="cc93976a-1165-4c84-bd5f-4d969a608d6e" />
+            <property role="3Fg1Gr" value="565" />
+            <node concept="3Fnoml" id="4qxaCfUgP0L" role="3MKX6F">
+              <property role="1hTQn4" value="883d901f-03ca-445f-aa4f-56f0dfb71db7" />
+              <property role="3Fg1Gr" value="566" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgP0M" role="3MKX6F">
+                <property role="1hTQn4" value="85bb3fdb-ca1e-43b0-b473-02b3137e3529" />
+                <property role="3Fg1Gr" value="567" />
+                <node concept="19SGf9" id="4qxaCfUgP0N" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP0O" role="19SJt6">
+                    <property role="19SUeA" value="het Financieel jaarverslag van het Rijk, bedoeld in artikel 2.35." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP0Q" role="3MKX6F">
+      <property role="1hTQn4" value="75da8cf2-3b1e-4c03-b69b-1de013bf6806" />
+      <property role="3Fg1Gr" value="568" />
+      <node concept="3Fnoml" id="4qxaCfUgP0R" role="3MKX6F">
+        <property role="1hTQn4" value="8bbb47db-c9bc-46d8-84d7-7cb13ebbe669" />
+        <property role="3Fg1Gr" value="569" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgP0S" role="3MKX6F">
+          <property role="1hTQn4" value="bec724d6-eb62-4b64-ba82-e4086a36a15c" />
+          <property role="3Fg1Gr" value="570" />
+          <node concept="19SGf9" id="4qxaCfUgP0T" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP0U" role="19SJt6">
+              <property role="19SUeA" value="Onze Ministers, ieder met betrekking tot de begroting waarvoor hij verantwoordelijk is, stellen na afloop van een begrotingsjaar een jaarverslag op." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP0W" role="3MKX6F">
+      <property role="1hTQn4" value="02d46aa1-c042-4a71-948a-06bcd45a887d" />
+      <property role="3Fg1Gr" value="571" />
+      <node concept="3Fnoml" id="4qxaCfUgP0X" role="3MKX6F">
+        <property role="1hTQn4" value="92013664-ba08-4de7-ac49-7f2de9b76202" />
+        <property role="3Fg1Gr" value="572" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgP0Y" role="3MKX6F">
+          <property role="1hTQn4" value="9c6d5cfa-32b9-4eb9-af78-1dcdc8afd398" />
+          <property role="3Fg1Gr" value="573" />
+          <node concept="19SGf9" id="4qxaCfUgP0Z" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP10" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën stelt na afloop van een begrotingsjaar het Financieel jaarverslag van het Rijk op." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP13">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="3b4b851c-78d8-4656-ac18-2c45bd7df4b0" />
+    <property role="3Fg1Gr" value="574" />
+    <property role="TrG5h" value="Artikel 2.30 Slotverschillen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgP14" role="3MKX6F">
+      <property role="1hTQn4" value="f5923300-7e41-4eae-837c-c99cd710e0b4" />
+      <property role="3Fg1Gr" value="576" />
+      <node concept="19SGf9" id="4qxaCfUgP15" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgP16" role="19SJt6">
+          <property role="19SUeA" value="Onze Ministers, ieder met betrekking tot de begroting waarvoor hij verantwoordelijk is, stellen na afloop van een begrotingsjaar de slotverschillen op." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP1a">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="3950af0c-01fa-4e08-97f4-69031476beee" />
+    <property role="3Fg1Gr" value="579" />
+    <property role="TrG5h" value="Artikel 2.31 Presentatie van een jaarverslag" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgP1b" role="3MKX6F">
+      <property role="1hTQn4" value="60a53c91-a38d-42d3-a5c7-698627cb08df" />
+      <property role="3Fg1Gr" value="581" />
+      <node concept="19SGf9" id="4qxaCfUgP1c" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgP1d" role="19SJt6">
+          <property role="19SUeA" value="Een jaarverslag bestaat in elk geval uit:" />
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP1f" role="3MKX6F">
+      <property role="1hTQn4" value="d5a7ff8a-cc4c-4857-973b-6ba1b150a95f" />
+      <property role="3Fg1Gr" value="582" />
+      <node concept="3MKX5h" id="4qxaCfUgP1g" role="3MKX6F">
+        <property role="1hTQn4" value="c1d6f56b-ffdf-490d-a43a-ad7e62dfcaae" />
+        <property role="3Fg1Gr" value="583" />
+        <node concept="3Fnoml" id="4qxaCfUgP1h" role="3MKX6F">
+          <property role="1hTQn4" value="b7fb7985-f714-447a-84e7-1dcb795e094b" />
+          <property role="3Fg1Gr" value="584" />
+          <property role="3Fnomm" value="a." />
+          <node concept="3MKX5i" id="4qxaCfUgP1i" role="3MKX6F">
+            <property role="1hTQn4" value="a1518bd0-40a9-4ee2-a344-e497f0f002b7" />
+            <property role="3Fg1Gr" value="585" />
+            <node concept="19SGf9" id="4qxaCfUgP1j" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgP1k" role="19SJt6">
+                <property role="19SUeA" value="een uiteenzetting over het gevoerde beleid;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgP1m" role="3MKX6F">
+        <property role="1hTQn4" value="6e6b5512-f6a7-46fe-a615-dcc1861a7ed6" />
+        <property role="3Fg1Gr" value="586" />
+        <node concept="3Fnoml" id="4qxaCfUgP1n" role="3MKX6F">
+          <property role="1hTQn4" value="00580d0b-fece-4066-a9be-a8181a7ec0c3" />
+          <property role="3Fg1Gr" value="587" />
+          <property role="3Fnomm" value="b." />
+          <node concept="3MKX5i" id="4qxaCfUgP1o" role="3MKX6F">
+            <property role="1hTQn4" value="003a5465-3442-4e04-9792-505db63a00aa" />
+            <property role="3Fg1Gr" value="588" />
+            <node concept="19SGf9" id="4qxaCfUgP1p" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgP1q" role="19SJt6">
+                <property role="19SUeA" value="een uiteenzetting over de gevoerde bedrijfsvoering;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgP1s" role="3MKX6F">
+        <property role="1hTQn4" value="dba49cbe-3104-4686-9702-c3c80169ec8e" />
+        <property role="3Fg1Gr" value="589" />
+        <node concept="3Fnoml" id="4qxaCfUgP1t" role="3MKX6F">
+          <property role="1hTQn4" value="b8510804-8074-4e77-99fc-55adbe1be9bb" />
+          <property role="3Fg1Gr" value="590" />
+          <property role="3Fnomm" value="c." />
+          <node concept="3MKX5i" id="4qxaCfUgP1u" role="3MKX6F">
+            <property role="1hTQn4" value="02c784ce-5bb2-4a27-a4c0-a158c77cdcf1" />
+            <property role="3Fg1Gr" value="591" />
+            <node concept="19SGf9" id="4qxaCfUgP1v" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgP1w" role="19SJt6">
+                <property role="19SUeA" value="een verantwoordingsstaat, voorzien van een toelichting per artikel;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgP1y" role="3MKX6F">
+        <property role="1hTQn4" value="8f37b74b-dad8-44e7-8273-17df9ac9872b" />
+        <property role="3Fg1Gr" value="592" />
+        <node concept="3Fnoml" id="4qxaCfUgP1z" role="3MKX6F">
+          <property role="1hTQn4" value="9870330e-d725-449e-b9d2-01e3a184bfd9" />
+          <property role="3Fg1Gr" value="593" />
+          <property role="3Fnomm" value="d." />
+          <node concept="3MKX5i" id="4qxaCfUgP1$" role="3MKX6F">
+            <property role="1hTQn4" value="b5df7129-7223-4bf1-912a-7a6f476befa4" />
+            <property role="3Fg1Gr" value="594" />
+            <node concept="19SGf9" id="4qxaCfUgP1_" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgP1A" role="19SJt6">
+                <property role="19SUeA" value="indien van toepassing, een financiële staat van een agentschap als bedoeld in artikel 2.33;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgP1C" role="3MKX6F">
+        <property role="1hTQn4" value="462010e2-1191-4c9b-81ed-b1d33432a90c" />
+        <property role="3Fg1Gr" value="595" />
+        <node concept="3Fnoml" id="4qxaCfUgP1D" role="3MKX6F">
+          <property role="1hTQn4" value="e9bca383-bb58-44fd-b698-39cc5af776f1" />
+          <property role="3Fg1Gr" value="596" />
+          <property role="3Fnomm" value="e." />
+          <node concept="3MKX5i" id="4qxaCfUgP1E" role="3MKX6F">
+            <property role="1hTQn4" value="5a875a0a-c70b-4043-98fe-a4d083a82a3b" />
+            <property role="3Fg1Gr" value="597" />
+            <node concept="19SGf9" id="4qxaCfUgP1F" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgP1G" role="19SJt6">
+                <property role="19SUeA" value="een saldibalans, voorzien van een toelichting." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP1J">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="8ba62397-3321-459a-98fd-03b13221cc0e" />
+    <property role="3Fg1Gr" value="598" />
+    <property role="TrG5h" value="Artikel 2.32 Verantwoordingsstaat" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgP1K" role="3MKX6F">
+      <property role="1hTQn4" value="1ae10a88-1317-4087-874d-be76417cd43e" />
+      <property role="3Fg1Gr" value="600" />
+      <node concept="3Fnoml" id="4qxaCfUgP1L" role="3MKX6F">
+        <property role="1hTQn4" value="7393939e-8013-4220-998f-e69a256745be" />
+        <property role="3Fg1Gr" value="601" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgP1M" role="3MKX6F">
+          <property role="1hTQn4" value="777bbff8-d323-4f0b-9070-bd6c75b8f7a9" />
+          <property role="3Fg1Gr" value="602" />
+          <node concept="19SGf9" id="4qxaCfUgP1N" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP1O" role="19SJt6">
+              <property role="19SUeA" value="De verantwoordingsstaat wordt op basis van het van toepassing zijnde begrotingsstelsel opgesteld." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP1Q" role="3MKX6F">
+      <property role="1hTQn4" value="b698f349-e169-417f-88ac-b1620af1360f" />
+      <property role="3Fg1Gr" value="603" />
+      <node concept="3Fnoml" id="4qxaCfUgP1R" role="3MKX6F">
+        <property role="1hTQn4" value="66c7bfe5-b40b-4df9-b6c9-b9435327f46a" />
+        <property role="3Fg1Gr" value="604" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgP1S" role="3MKX6F">
+          <property role="1hTQn4" value="748a69d3-a8e4-420f-a8ad-72cfe5cf5e0a" />
+          <property role="3Fg1Gr" value="605" />
+          <node concept="19SGf9" id="4qxaCfUgP1T" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP1U" role="19SJt6">
+              <property role="19SUeA" value="De verantwoordingsstaat bevat, in de volgorde van de begrotingsartikelen in de begrotingsstaat, per begrotingsartikel in elk geval de volgende gegevens:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgP1W" role="3MKX6F">
+          <property role="1hTQn4" value="1734f379-a7e6-45a6-8fca-bed752f0195a" />
+          <property role="3Fg1Gr" value="606" />
+          <node concept="3MKX5h" id="4qxaCfUgP1X" role="3MKX6F">
+            <property role="1hTQn4" value="1dedce88-eb85-4709-9824-9579eb36bfae" />
+            <property role="3Fg1Gr" value="607" />
+            <node concept="3Fnoml" id="4qxaCfUgP1Y" role="3MKX6F">
+              <property role="1hTQn4" value="a5265d06-e305-4eac-bfe0-9c1be633069d" />
+              <property role="3Fg1Gr" value="608" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgP1Z" role="3MKX6F">
+                <property role="1hTQn4" value="f00271b6-3dc4-4ee7-b893-b2970269fe21" />
+                <property role="3Fg1Gr" value="609" />
+                <node concept="19SGf9" id="4qxaCfUgP20" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP21" role="19SJt6">
+                    <property role="19SUeA" value="het artikelnummer;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP23" role="3MKX6F">
+            <property role="1hTQn4" value="f8824361-2c6b-42f6-ab96-c215d2c6ee87" />
+            <property role="3Fg1Gr" value="610" />
+            <node concept="3Fnoml" id="4qxaCfUgP24" role="3MKX6F">
+              <property role="1hTQn4" value="bb351b15-b209-40e1-bcf7-01f9d98ecacd" />
+              <property role="3Fg1Gr" value="611" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgP25" role="3MKX6F">
+                <property role="1hTQn4" value="915b6a6a-c16d-44e0-8a55-4b976e46ffd0" />
+                <property role="3Fg1Gr" value="612" />
+                <node concept="19SGf9" id="4qxaCfUgP26" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP27" role="19SJt6">
+                    <property role="19SUeA" value="de artikelomschrijving;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP29" role="3MKX6F">
+            <property role="1hTQn4" value="0a14b1fd-fa51-46ff-961d-61c274e547c8" />
+            <property role="3Fg1Gr" value="613" />
+            <node concept="3Fnoml" id="4qxaCfUgP2a" role="3MKX6F">
+              <property role="1hTQn4" value="b1acc5d1-bce1-4224-94fe-0e6f6570d205" />
+              <property role="3Fg1Gr" value="614" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgP2b" role="3MKX6F">
+                <property role="1hTQn4" value="a887486b-25ce-49a4-a7f9-f6a56a21de2b" />
+                <property role="3Fg1Gr" value="615" />
+                <node concept="19SGf9" id="4qxaCfUgP2c" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP2d" role="19SJt6">
+                    <property role="19SUeA" value="het bedrag dat voor financiële verplichtingen in de begrotingsstaat behorende bij de wet tot vaststelling van de begrotingsstaten is vastgesteld, met daarnaast opgenomen het gerealiseerde bedrag;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP2f" role="3MKX6F">
+            <property role="1hTQn4" value="31413f8c-05a8-473b-a410-573ca28c0b13" />
+            <property role="3Fg1Gr" value="616" />
+            <node concept="3Fnoml" id="4qxaCfUgP2g" role="3MKX6F">
+              <property role="1hTQn4" value="fd551b41-43e0-4eaf-b871-ae84b31c8897" />
+              <property role="3Fg1Gr" value="617" />
+              <property role="3Fnomm" value="d." />
+              <node concept="3MKX5i" id="4qxaCfUgP2h" role="3MKX6F">
+                <property role="1hTQn4" value="d3a9f00c-9bf8-4c64-ac22-019159c99231" />
+                <property role="3Fg1Gr" value="618" />
+                <node concept="19SGf9" id="4qxaCfUgP2i" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP2j" role="19SJt6">
+                    <property role="19SUeA" value="het bedrag dat voor kasuitgaven in de begrotingsstaat behorende bij de wet tot vaststelling van de begrotingsstaten is vastgesteld, met daarnaast opgenomen het gerealiseerde bedrag;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP2l" role="3MKX6F">
+            <property role="1hTQn4" value="c119dba1-8e9b-4474-a168-db0d1b2fa195" />
+            <property role="3Fg1Gr" value="619" />
+            <node concept="3Fnoml" id="4qxaCfUgP2m" role="3MKX6F">
+              <property role="1hTQn4" value="272db2a4-0305-4e9e-9882-c741b493d24e" />
+              <property role="3Fg1Gr" value="620" />
+              <property role="3Fnomm" value="e." />
+              <node concept="3MKX5i" id="4qxaCfUgP2n" role="3MKX6F">
+                <property role="1hTQn4" value="15e7ed75-f5c2-45ac-a4e2-b54f7f5fc1b4" />
+                <property role="3Fg1Gr" value="621" />
+                <node concept="19SGf9" id="4qxaCfUgP2o" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP2p" role="19SJt6">
+                    <property role="19SUeA" value="het bedrag dat aan kasontvangsten in de begrotingsstaat behorende bij de wet tot vaststelling van de begrotingsstaten is vastgesteld, met daarnaast opgenomen het gerealiseerde bedrag." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP2r" role="3MKX6F">
+      <property role="1hTQn4" value="3fc5adb9-1f4f-4b3c-ab7d-9519b1c20b91" />
+      <property role="3Fg1Gr" value="622" />
+      <node concept="3Fnoml" id="4qxaCfUgP2s" role="3MKX6F">
+        <property role="1hTQn4" value="d6b42f86-9b65-46fe-a91d-ea63e0a599a5" />
+        <property role="3Fg1Gr" value="623" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgP2t" role="3MKX6F">
+          <property role="1hTQn4" value="8a1ee8d3-e594-470b-9aa4-713122b0a296" />
+          <property role="3Fg1Gr" value="624" />
+          <node concept="19SGf9" id="4qxaCfUgP2u" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP2v" role="19SJt6">
+              <property role="19SUeA" value="Het gerealiseerde bedrag voor de uitgaven dat wordt opgenomen in de verantwoordingsstaat bij het begrotingsartikel Nog onverdeeld is nihil." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP2y">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="377006f7-8245-4466-8b33-05b765ab79e3" />
+    <property role="3Fg1Gr" value="625" />
+    <property role="TrG5h" value="Artikel 2.33 Financiële staat van agentschappen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgP2z" role="3MKX6F">
+      <property role="1hTQn4" value="72096068-ae86-4834-b1b3-29a3ee1bcfca" />
+      <property role="3Fg1Gr" value="627" />
+      <node concept="3Fnoml" id="4qxaCfUgP2$" role="3MKX6F">
+        <property role="1hTQn4" value="13067923-fcea-47ed-8c91-36a907edf679" />
+        <property role="3Fg1Gr" value="628" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgP2_" role="3MKX6F">
+          <property role="1hTQn4" value="c7ff02be-79d2-457e-b1dd-151c63cf8b30" />
+          <property role="3Fg1Gr" value="629" />
+          <node concept="19SGf9" id="4qxaCfUgP2A" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP2B" role="19SJt6">
+              <property role="19SUeA" value="Een agentschap heeft een afzonderlijke financiële staat die wordt opgenomen bij de verantwoordingsstaat van het ministerie waaronder het agentschap ressorteert." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP2D" role="3MKX6F">
+      <property role="1hTQn4" value="4975fef4-f526-4746-afdd-f3a8112fb51c" />
+      <property role="3Fg1Gr" value="630" />
+      <node concept="3Fnoml" id="4qxaCfUgP2E" role="3MKX6F">
+        <property role="1hTQn4" value="b27219f2-5985-4fe3-a202-fb788265a6b2" />
+        <property role="3Fg1Gr" value="631" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgP2F" role="3MKX6F">
+          <property role="1hTQn4" value="1d9a2687-4d29-4fc6-bb90-215b8515001a" />
+          <property role="3Fg1Gr" value="632" />
+          <node concept="19SGf9" id="4qxaCfUgP2G" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP2H" role="19SJt6">
+              <property role="19SUeA" value="De financiële staat van een agentschap wordt opgesteld op basis van het van toepassing zijnde begrotingsstelsel." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP2J" role="3MKX6F">
+      <property role="1hTQn4" value="4e40c64d-f423-40a7-abc7-ea977cf0a0d2" />
+      <property role="3Fg1Gr" value="633" />
+      <node concept="3Fnoml" id="4qxaCfUgP2K" role="3MKX6F">
+        <property role="1hTQn4" value="1744164d-3713-45df-a313-ef2c554fc99d" />
+        <property role="3Fg1Gr" value="634" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgP2L" role="3MKX6F">
+          <property role="1hTQn4" value="00b79321-0b25-4be0-b1cd-83bad8a7ad88" />
+          <property role="3Fg1Gr" value="635" />
+          <node concept="19SGf9" id="4qxaCfUgP2M" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP2N" role="19SJt6">
+              <property role="19SUeA" value="De financiële staat van een agentschap bevat de bedragen die in de financiële staat, bedoeld in artikel 2.6, bij de wet tot vaststelling van de begrotingsstaten zijn vastgesteld met daarnaast opgenomen de gerealiseerde bedragen." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP2Q">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="e2e92008-32f2-4a86-9015-42dae0909258" />
+    <property role="3Fg1Gr" value="636" />
+    <property role="TrG5h" value="Artikel 2.34 Saldibalans" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgP2R" role="3MKX6F">
+      <property role="1hTQn4" value="dbc47a72-2777-4182-b4d2-57f7da9d869e" />
+      <property role="3Fg1Gr" value="638" />
+      <node concept="3Fnoml" id="4qxaCfUgP2S" role="3MKX6F">
+        <property role="1hTQn4" value="53a487e6-9946-4c90-93e8-fb6d236375d4" />
+        <property role="3Fg1Gr" value="639" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgP2T" role="3MKX6F">
+          <property role="1hTQn4" value="3600986a-2f7a-4bc0-8bf8-5965cdf59ec9" />
+          <property role="3Fg1Gr" value="640" />
+          <node concept="19SGf9" id="4qxaCfUgP2U" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP2V" role="19SJt6">
+              <property role="19SUeA" value="De saldibalans bevat in elk geval de saldi, zoals deze aan het eind van het begrotingsjaar uit de financiële administratie blijken, van:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgP2X" role="3MKX6F">
+          <property role="1hTQn4" value="b33bb689-3c51-4ed1-a202-ed9e7ff040ab" />
+          <property role="3Fg1Gr" value="641" />
+          <node concept="3MKX5h" id="4qxaCfUgP2Y" role="3MKX6F">
+            <property role="1hTQn4" value="5017a085-2b94-41c5-b069-96491bca6771" />
+            <property role="3Fg1Gr" value="642" />
+            <node concept="3Fnoml" id="4qxaCfUgP2Z" role="3MKX6F">
+              <property role="1hTQn4" value="fb9ed54f-e57e-4849-916a-6772455ef8b6" />
+              <property role="3Fg1Gr" value="643" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgP30" role="3MKX6F">
+                <property role="1hTQn4" value="f7e46da0-9387-4516-951e-0e32f4f15c4a" />
+                <property role="3Fg1Gr" value="644" />
+                <node concept="19SGf9" id="4qxaCfUgP31" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP32" role="19SJt6">
+                    <property role="19SUeA" value="de kasuitgaven en de kasontvangsten die binnen en buiten begrotingsverband zijn geboekt;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP34" role="3MKX6F">
+            <property role="1hTQn4" value="da17023c-59f2-47e1-8b67-286e8a100951" />
+            <property role="3Fg1Gr" value="645" />
+            <node concept="3Fnoml" id="4qxaCfUgP35" role="3MKX6F">
+              <property role="1hTQn4" value="aab28ca2-bfa7-49c0-8125-15b66eaeb8c0" />
+              <property role="3Fg1Gr" value="646" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgP36" role="3MKX6F">
+                <property role="1hTQn4" value="81828cb5-83ad-4030-90c3-73c9778c9a7f" />
+                <property role="3Fg1Gr" value="647" />
+                <node concept="19SGf9" id="4qxaCfUgP37" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP38" role="19SJt6">
+                    <property role="19SUeA" value="de kasreserves, bedoeld in artikel 2.20, achtste lid, en de begrotingsreserves, bedoeld in artikel 2.21, tweede lid;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP3a" role="3MKX6F">
+            <property role="1hTQn4" value="2fb972d0-2f9f-4005-8ade-311946d6c76e" />
+            <property role="3Fg1Gr" value="648" />
+            <node concept="3Fnoml" id="4qxaCfUgP3b" role="3MKX6F">
+              <property role="1hTQn4" value="07d44d93-d773-42e2-beb5-433130daf377" />
+              <property role="3Fg1Gr" value="649" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgP3c" role="3MKX6F">
+                <property role="1hTQn4" value="24103b61-ee8c-4ac4-941d-cc181f8df808" />
+                <property role="3Fg1Gr" value="650" />
+                <node concept="19SGf9" id="4qxaCfUgP3d" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP3e" role="19SJt6">
+                    <property role="19SUeA" value="de openstaande financiële verplichtingen ten aanzien van derden met uitzondering van de garantieverplichtingen;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP3g" role="3MKX6F">
+            <property role="1hTQn4" value="fe102d28-09fb-4616-ad0d-eeea3754d671" />
+            <property role="3Fg1Gr" value="651" />
+            <node concept="3Fnoml" id="4qxaCfUgP3h" role="3MKX6F">
+              <property role="1hTQn4" value="f06f0d82-73bc-410d-bcbc-9f61d40c29be" />
+              <property role="3Fg1Gr" value="652" />
+              <property role="3Fnomm" value="d." />
+              <node concept="3MKX5i" id="4qxaCfUgP3i" role="3MKX6F">
+                <property role="1hTQn4" value="dd758405-b569-4129-a6d0-c85c73fac204" />
+                <property role="3Fg1Gr" value="653" />
+                <node concept="19SGf9" id="4qxaCfUgP3j" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP3k" role="19SJt6">
+                    <property role="19SUeA" value="de garantieverplichtingen ten aanzien van derden;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP3m" role="3MKX6F">
+            <property role="1hTQn4" value="a12157ab-c73b-4d61-9236-932cd6383120" />
+            <property role="3Fg1Gr" value="654" />
+            <node concept="3Fnoml" id="4qxaCfUgP3n" role="3MKX6F">
+              <property role="1hTQn4" value="fa434d7e-7dd8-49b0-923a-502531c35697" />
+              <property role="3Fg1Gr" value="655" />
+              <property role="3Fnomm" value="e." />
+              <node concept="3MKX5i" id="4qxaCfUgP3o" role="3MKX6F">
+                <property role="1hTQn4" value="57dccb23-e499-4477-97a0-7f4335b9c6b6" />
+                <property role="3Fg1Gr" value="656" />
+                <node concept="19SGf9" id="4qxaCfUgP3p" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP3q" role="19SJt6">
+                    <property role="19SUeA" value="de vorderingen en de schulden ten aanzien van derden met inbegrip van de voorschotten;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP3s" role="3MKX6F">
+            <property role="1hTQn4" value="a67fbbbf-987e-4abb-a134-b684fe9bdee8" />
+            <property role="3Fg1Gr" value="657" />
+            <node concept="3Fnoml" id="4qxaCfUgP3t" role="3MKX6F">
+              <property role="1hTQn4" value="57d17824-f86a-4010-bca9-fbfc68667e67" />
+              <property role="3Fg1Gr" value="658" />
+              <property role="3Fnomm" value="f." />
+              <node concept="3MKX5i" id="4qxaCfUgP3u" role="3MKX6F">
+                <property role="1hTQn4" value="288783d8-07e7-420f-9469-04248c1fe758" />
+                <property role="3Fg1Gr" value="659" />
+                <node concept="19SGf9" id="4qxaCfUgP3v" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP3w" role="19SJt6">
+                    <property role="19SUeA" value="de departementale kassen." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP3y" role="3MKX6F">
+      <property role="1hTQn4" value="3febdf42-279b-4aba-b8a2-b4ff4fb5a21a" />
+      <property role="3Fg1Gr" value="660" />
+      <node concept="3Fnoml" id="4qxaCfUgP3z" role="3MKX6F">
+        <property role="1hTQn4" value="48cbecd8-e880-46dd-95af-455e9c5ac8c7" />
+        <property role="3Fg1Gr" value="661" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgP3$" role="3MKX6F">
+          <property role="1hTQn4" value="4b563210-8704-4765-8967-3a7d93ac7781" />
+          <property role="3Fg1Gr" value="662" />
+          <node concept="19SGf9" id="4qxaCfUgP3_" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP3A" role="19SJt6">
+              <property role="19SUeA" value="De toelichting bij de saldibalans biedt inzicht in de mutaties in de saldi ten opzichte van de stand van die saldi in de voorafgaande saldibalans." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP3D">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="0beeb3fd-0fe5-45ba-a5e8-1b96ae78f698" />
+    <property role="3Fg1Gr" value="663" />
+    <property role="TrG5h" value="Artikel 2.35 Financieel jaarverslag van het Rijk" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgP3E" role="3MKX6F">
+      <property role="1hTQn4" value="739d20ca-72a1-47c6-824b-70f6ad99518b" />
+      <property role="3Fg1Gr" value="665" />
+      <node concept="3Fnoml" id="4qxaCfUgP3F" role="3MKX6F">
+        <property role="1hTQn4" value="f7e4c9bd-ac46-4bb7-8306-0f701306867f" />
+        <property role="3Fg1Gr" value="666" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgP3G" role="3MKX6F">
+          <property role="1hTQn4" value="72fabeba-bd97-443d-82d0-1d46360887a9" />
+          <property role="3Fg1Gr" value="667" />
+          <node concept="19SGf9" id="4qxaCfUgP3H" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP3I" role="19SJt6">
+              <property role="19SUeA" value="Het Financieel jaarverslag van het Rijk bevat met betrekking tot het begrotingsjaar in elk geval:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgP3K" role="3MKX6F">
+          <property role="1hTQn4" value="991c0f0c-6d62-4d40-b60f-8bbf908c67f3" />
+          <property role="3Fg1Gr" value="668" />
+          <node concept="3MKX5h" id="4qxaCfUgP3L" role="3MKX6F">
+            <property role="1hTQn4" value="d5d7ec37-0434-42e5-adca-3983f64af0dd" />
+            <property role="3Fg1Gr" value="669" />
+            <node concept="3Fnoml" id="4qxaCfUgP3M" role="3MKX6F">
+              <property role="1hTQn4" value="01659d57-6326-4b27-87a3-91bce11eea2c" />
+              <property role="3Fg1Gr" value="670" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgP3N" role="3MKX6F">
+                <property role="1hTQn4" value="b6702d7a-348f-4a28-a2ea-a77cf936806b" />
+                <property role="3Fg1Gr" value="671" />
+                <node concept="19SGf9" id="4qxaCfUgP3O" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP3P" role="19SJt6">
+                    <property role="19SUeA" value="het gerealiseerde budgettaire totaalbeeld van de rijksbegroting en de niet tot de rijksbegroting behorende budgetdisciplinesectoren;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP3R" role="3MKX6F">
+            <property role="1hTQn4" value="3ea3bf28-59fa-4374-9f0c-485c81954aeb" />
+            <property role="3Fg1Gr" value="672" />
+            <node concept="3Fnoml" id="4qxaCfUgP3S" role="3MKX6F">
+              <property role="1hTQn4" value="b6977335-7657-4e81-9cc6-94248bbb7c1b" />
+              <property role="3Fg1Gr" value="673" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgP3T" role="3MKX6F">
+                <property role="1hTQn4" value="61810b03-1c5a-4d00-ae2b-dad28f32a9da" />
+                <property role="3Fg1Gr" value="674" />
+                <node concept="19SGf9" id="4qxaCfUgP3U" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP3V" role="19SJt6">
+                    <property role="19SUeA" value="een uiteenzetting over het financieel beheer van de ministeries en de colleges;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP3X" role="3MKX6F">
+            <property role="1hTQn4" value="f95e1d44-9abd-40f0-a4e1-db52a738acb5" />
+            <property role="3Fg1Gr" value="675" />
+            <node concept="3Fnoml" id="4qxaCfUgP3Y" role="3MKX6F">
+              <property role="1hTQn4" value="270460ee-3fcc-478a-a1ab-265433c39ba0" />
+              <property role="3Fg1Gr" value="676" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgP3Z" role="3MKX6F">
+                <property role="1hTQn4" value="ca3121c5-91e2-43b7-a4e8-a63ed318993d" />
+                <property role="3Fg1Gr" value="677" />
+                <node concept="19SGf9" id="4qxaCfUgP40" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP41" role="19SJt6">
+                    <property role="19SUeA" value="de rijksrekening;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP43" role="3MKX6F">
+            <property role="1hTQn4" value="18027445-9e93-4a43-b7fc-7a0a2fd7d4fe" />
+            <property role="3Fg1Gr" value="678" />
+            <node concept="3Fnoml" id="4qxaCfUgP44" role="3MKX6F">
+              <property role="1hTQn4" value="74715f36-bdec-45be-9d50-c9d19f1ea3ac" />
+              <property role="3Fg1Gr" value="679" />
+              <property role="3Fnomm" value="d." />
+              <node concept="3MKX5i" id="4qxaCfUgP45" role="3MKX6F">
+                <property role="1hTQn4" value="bd5efedf-92ac-4d49-98c2-8d9389953491" />
+                <property role="3Fg1Gr" value="680" />
+                <node concept="19SGf9" id="4qxaCfUgP46" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP47" role="19SJt6">
+                    <property role="19SUeA" value="de rijkssaldibalans." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP49" role="3MKX6F">
+      <property role="1hTQn4" value="53b68368-5468-42c6-9363-213ce9d7cef1" />
+      <property role="3Fg1Gr" value="681" />
+      <node concept="3Fnoml" id="4qxaCfUgP4a" role="3MKX6F">
+        <property role="1hTQn4" value="de7f6b90-a2f1-4498-a99c-40bb22602f5a" />
+        <property role="3Fg1Gr" value="682" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgP4b" role="3MKX6F">
+          <property role="1hTQn4" value="443c2549-d79d-4ca3-9c24-b3d0014dee15" />
+          <property role="3Fg1Gr" value="683" />
+          <node concept="19SGf9" id="4qxaCfUgP4c" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP4d" role="19SJt6">
+              <property role="19SUeA" value="De rijksrekening is het verantwoordingsoverzicht van het Rijk, waarin per begroting zijn opgenomen:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgP4f" role="3MKX6F">
+          <property role="1hTQn4" value="f135e145-3b5c-45de-bb08-87b63febf890" />
+          <property role="3Fg1Gr" value="684" />
+          <node concept="3MKX5h" id="4qxaCfUgP4g" role="3MKX6F">
+            <property role="1hTQn4" value="a77bd36f-dada-49d5-ac76-1454368f2c5b" />
+            <property role="3Fg1Gr" value="685" />
+            <node concept="3Fnoml" id="4qxaCfUgP4h" role="3MKX6F">
+              <property role="1hTQn4" value="91c9ea3c-4d3f-4335-a779-9b2d7fa1afd0" />
+              <property role="3Fg1Gr" value="686" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgP4i" role="3MKX6F">
+                <property role="1hTQn4" value="7e6fd2f4-63f3-497f-bb10-6c8675d1322b" />
+                <property role="3Fg1Gr" value="687" />
+                <node concept="19SGf9" id="4qxaCfUgP4j" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP4k" role="19SJt6">
+                    <property role="19SUeA" value="de totaalbedragen van alle geraamde uitgaven en ontvangsten, zoals deze in de wet tot vaststelling van de begrotingsstaten zijn vastgesteld;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP4m" role="3MKX6F">
+            <property role="1hTQn4" value="79a85004-e41e-4ba0-856d-8289021d5856" />
+            <property role="3Fg1Gr" value="688" />
+            <node concept="3Fnoml" id="4qxaCfUgP4n" role="3MKX6F">
+              <property role="1hTQn4" value="f92f56e3-ac87-4338-8c31-7861d80ffec5" />
+              <property role="3Fg1Gr" value="689" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgP4o" role="3MKX6F">
+                <property role="1hTQn4" value="627eb018-4139-4e59-83c6-acbe30b8f7a1" />
+                <property role="3Fg1Gr" value="690" />
+                <node concept="19SGf9" id="4qxaCfUgP4p" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP4q" role="19SJt6">
+                    <property role="19SUeA" value="de totaalbedragen van alle gerealiseerde uitgaven en ontvangsten, zoals deze uit de verantwoordingsstaten blijken;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP4s" role="3MKX6F">
+            <property role="1hTQn4" value="93ec382c-1e1b-4dd9-9f4d-6679cf37fe94" />
+            <property role="3Fg1Gr" value="691" />
+            <node concept="3Fnoml" id="4qxaCfUgP4t" role="3MKX6F">
+              <property role="1hTQn4" value="a22b7137-459c-46d2-8a24-86af0e15051e" />
+              <property role="3Fg1Gr" value="692" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgP4u" role="3MKX6F">
+                <property role="1hTQn4" value="4a9261a6-7700-4124-88aa-f35cab85bc90" />
+                <property role="3Fg1Gr" value="693" />
+                <node concept="19SGf9" id="4qxaCfUgP4v" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP4w" role="19SJt6">
+                    <property role="19SUeA" value="het verschil tussen de bedragen, bedoeld onder a en b." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP4y" role="3MKX6F">
+      <property role="1hTQn4" value="f61d5dee-a1ab-4d80-8cda-1305c97315a1" />
+      <property role="3Fg1Gr" value="694" />
+      <node concept="3Fnoml" id="4qxaCfUgP4z" role="3MKX6F">
+        <property role="1hTQn4" value="31a05414-3f96-4c0f-9320-96e6bf5722c3" />
+        <property role="3Fg1Gr" value="695" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgP4$" role="3MKX6F">
+          <property role="1hTQn4" value="2af9d65a-e1a0-4da6-8131-dd78b5258f94" />
+          <property role="3Fg1Gr" value="696" />
+          <node concept="19SGf9" id="4qxaCfUgP4_" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP4A" role="19SJt6">
+              <property role="19SUeA" value="De uitgaven en ontvangsten, bedoeld in het tweede lid, worden opgenomen op basis van het begrotingsstelsel dat voor die uitgaven en ontvangsten geldt." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP4C" role="3MKX6F">
+      <property role="1hTQn4" value="5bfff090-11ab-49ac-8192-97470a159944" />
+      <property role="3Fg1Gr" value="697" />
+      <node concept="3Fnoml" id="4qxaCfUgP4D" role="3MKX6F">
+        <property role="1hTQn4" value="46619da7-ff0b-4855-b76f-a101fa79a6d9" />
+        <property role="3Fg1Gr" value="698" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgP4E" role="3MKX6F">
+          <property role="1hTQn4" value="3e693787-28e5-4f14-bb91-d65316b1be83" />
+          <property role="3Fg1Gr" value="699" />
+          <node concept="19SGf9" id="4qxaCfUgP4F" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP4G" role="19SJt6">
+              <property role="19SUeA" value="De rijkssaldibalans is het verantwoordingsoverzicht van het Rijk, waarin in elk geval de totaalbedragen van alle saldibalansen, bedoeld in artikel 2.31, eerste lid, onder e, en de saldi, bedoeld in artikel 2.34, zijn opgenomen." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP4J">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="53eded8c-ed7c-4387-9708-82cc47b504e2" />
+    <property role="3Fg1Gr" value="700" />
+    <property role="TrG5h" value="Artikel 2.36 Autorisatie van de slotverschillen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgP4K" role="3MKX6F">
+      <property role="1hTQn4" value="62235fe6-8999-424b-a93f-16ec720c58fe" />
+      <property role="3Fg1Gr" value="702" />
+      <node concept="19SGf9" id="4qxaCfUgP4L" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgP4M" role="19SJt6">
+          <property role="19SUeA" value="De slotverschillen worden per begrotingsstaat bij wet vastgesteld." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP4Q">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="c0b8951b-61d2-4659-85f9-c774bc533f17" />
+    <property role="3Fg1Gr" value="705" />
+    <property role="TrG5h" value="Artikel 2.37 Aanbieden van de jaarverslagen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgP4R" role="3MKX6F">
+      <property role="1hTQn4" value="824a5f72-e3b2-40f4-afbe-e0645f5dd64a" />
+      <property role="3Fg1Gr" value="707" />
+      <node concept="3Fnoml" id="4qxaCfUgP4S" role="3MKX6F">
+        <property role="1hTQn4" value="753cda0f-972a-4f98-af2e-f8816dabf8f9" />
+        <property role="3Fg1Gr" value="708" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgP4T" role="3MKX6F">
+          <property role="1hTQn4" value="c87eda43-cb5d-4e7d-b533-93f68c045474" />
+          <property role="3Fg1Gr" value="709" />
+          <node concept="19SGf9" id="4qxaCfUgP4U" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP4V" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën zendt de jaarverslagen, bedoeld in artikel 2.31, jaarlijks uiterlijk op 31 maart van het jaar volgend op het begrotingsjaar voor onderzoek naar de Algemene Rekenkamer. De rapporten over de jaarverslagen die zijn opgesteld door de Auditdienst Rijk worden gelijktijdig meegestuurd." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP4X" role="3MKX6F">
+      <property role="1hTQn4" value="8793f563-3388-4b4b-98a0-79f017d8df75" />
+      <property role="3Fg1Gr" value="710" />
+      <node concept="3Fnoml" id="4qxaCfUgP4Y" role="3MKX6F">
+        <property role="1hTQn4" value="1090e05d-3aef-4ee4-9f91-4241e501fb30" />
+        <property role="3Fg1Gr" value="711" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgP4Z" role="3MKX6F">
+          <property role="1hTQn4" value="272aa04f-458e-487c-8b50-147e5c5cc018" />
+          <property role="3Fg1Gr" value="712" />
+          <node concept="19SGf9" id="4qxaCfUgP50" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP51" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën biedt de door de Algemene Rekenkamer onderzochte jaarverslagen op de derde woensdag van mei volgend op het jaar waarop de jaarverslagen betrekking hebben aan de Tweede Kamer der Staten-Generaal aan, tenzij deze datum valt in een periode wanneer de Tweede Kamer der Staten-Generaal met reces is of wanneer een nationale feestdag is. In dat geval biedt Onze Minister van Financiën de jaarverslagen, na overleg met de voorzitter van de Tweede Kamer der Staten-Generaal en de president van de Algemene Rekenkamer, uiterlijk op 1 juni van hetzelfde jaar aan." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP53" role="3MKX6F">
+      <property role="1hTQn4" value="b650d143-62aa-467d-aea6-a53af07bce39" />
+      <property role="3Fg1Gr" value="713" />
+      <node concept="3Fnoml" id="4qxaCfUgP54" role="3MKX6F">
+        <property role="1hTQn4" value="a76d016c-87d1-4ebe-b6ef-cc228ab7543a" />
+        <property role="3Fg1Gr" value="714" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgP55" role="3MKX6F">
+          <property role="1hTQn4" value="4990ef68-d5cf-40ec-bce4-54fe25e183b7" />
+          <property role="3Fg1Gr" value="715" />
+          <node concept="19SGf9" id="4qxaCfUgP56" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP57" role="19SJt6">
+              <property role="19SUeA" value="In voorkomende gevallen zendt Onze Minister die het aangaat zijn standpunt over het bezwaar van de Algemene Rekenkamer, bedoeld in artikel 7.22, eerste lid, zo spoedig mogelijk, doch in elk geval vóór de behandeling van het jaarverslag door de Tweede Kamer der Staten-Generaal, naar die Kamer." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP5a">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="a6fd800a-ef01-4fb9-b538-8a1b92f3876c" />
+    <property role="3Fg1Gr" value="716" />
+    <property role="TrG5h" value="Artikel 2.38 Aanbieden van het Financieel jaarverslag van het Rijk" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgP5b" role="3MKX6F">
+      <property role="1hTQn4" value="273462de-4845-44f0-8925-78c893ecfc5a" />
+      <property role="3Fg1Gr" value="718" />
+      <node concept="3Fnoml" id="4qxaCfUgP5c" role="3MKX6F">
+        <property role="1hTQn4" value="6871d3c3-bad3-4552-90b8-4579ce03d1de" />
+        <property role="3Fg1Gr" value="719" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgP5d" role="3MKX6F">
+          <property role="1hTQn4" value="925e7760-bb30-40c2-bc57-fc3478d3e78e" />
+          <property role="3Fg1Gr" value="720" />
+          <node concept="19SGf9" id="4qxaCfUgP5e" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP5f" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën zendt het Financieel jaarverslag van het Rijk, bedoeld in artikel 2.35, uiterlijk op 21 april van het jaar volgend op het begrotingsjaar voor onderzoek naar de Algemene Rekenkamer. Het rapport over het jaarverslag dat is opgesteld door de Auditdienst Rijk wordt gelijktijdig meegestuurd." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP5h" role="3MKX6F">
+      <property role="1hTQn4" value="f7f537d5-eae2-4302-8069-50469dd5bae8" />
+      <property role="3Fg1Gr" value="721" />
+      <node concept="3Fnoml" id="4qxaCfUgP5i" role="3MKX6F">
+        <property role="1hTQn4" value="b8b021c4-bbd5-43a6-bfef-5193efa4447b" />
+        <property role="3Fg1Gr" value="722" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgP5j" role="3MKX6F">
+          <property role="1hTQn4" value="5c1c4f61-3f7a-4a3b-a7b4-344c54c4e738" />
+          <property role="3Fg1Gr" value="723" />
+          <node concept="19SGf9" id="4qxaCfUgP5k" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP5l" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën biedt het door de Algemene Rekenkamer onderzochte Financieel jaarverslag van het Rijk op de derde woensdag van mei volgend op het jaar waarop het begrotingsjaar betrekking heeft aan de Staten-Generaal aan, tenzij deze datum valt in een periode wanneer de Tweede Kamer der Staten-Generaal met reces is of wanneer een nationale feestdag is. In dat geval biedt Onze Minister van Financiën het Financieel jaarverslag van het Rijk, na overleg met de voorzitter van de Tweede Kamer der Staten-Generaal en de president van de Algemene Rekenkamer, uiterlijk op 1 juni van hetzelfde jaar aan." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP5o">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="a897dfa7-fa63-469e-8a51-ed2c219738da" />
+    <property role="3Fg1Gr" value="724" />
+    <property role="TrG5h" value="Artikel 2.39 Indienen van voorstellen van wet inzake de slotverschillen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgP5p" role="3MKX6F">
+      <property role="1hTQn4" value="297f6fde-37f5-486b-98e0-452be1af83c1" />
+      <property role="3Fg1Gr" value="726" />
+      <node concept="3Fnoml" id="4qxaCfUgP5q" role="3MKX6F">
+        <property role="1hTQn4" value="1be5ca22-12f1-4db1-93b6-81244952bf75" />
+        <property role="3Fg1Gr" value="727" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgP5r" role="3MKX6F">
+          <property role="1hTQn4" value="b212890e-0e12-40fd-86d9-297b88adff23" />
+          <property role="3Fg1Gr" value="728" />
+          <node concept="19SGf9" id="4qxaCfUgP5s" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP5t" role="19SJt6">
+              <property role="19SUeA" value="Wij dienen op de derde woensdag van mei volgend op het jaar waarop de begrotingsstaten betrekking hebben de voorstellen van wet tot vaststelling van de slotverschillen bij de Tweede Kamer der Staten-Generaal in, tenzij deze datum valt in een periode wanneer de Tweede Kamer der Staten-Generaal met reces is of wanneer een nationale feestdag is. In dat geval dienen Wij de voorstellen van wet, na overleg met de voorzitter van de Tweede Kamer der Staten-Generaal en de president van de Algemene Rekenkamer, uiterlijk op 1 juni van hetzelfde jaar in." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP5v" role="3MKX6F">
+      <property role="1hTQn4" value="651efa1a-7f7b-40c6-b2fb-c4fcc39fd662" />
+      <property role="3Fg1Gr" value="729" />
+      <node concept="3Fnoml" id="4qxaCfUgP5w" role="3MKX6F">
+        <property role="1hTQn4" value="dffd9db0-5f34-4737-aae7-534c486b8e4f" />
+        <property role="3Fg1Gr" value="730" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgP5x" role="3MKX6F">
+          <property role="1hTQn4" value="a532120d-ddb8-440c-aa35-129d489a2f89" />
+          <property role="3Fg1Gr" value="731" />
+          <node concept="19SGf9" id="4qxaCfUgP5y" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP5z" role="19SJt6">
+              <property role="19SUeA" value="In afwijking van het eerste lid kunnen Wij Onze Minister van Financiën machtigen de voorstellen van wet tot vaststelling van de slotverschillen bij de Tweede Kamer der Staten-Generaal in te dienen." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP5B">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="399db043-8536-4cf1-9426-412d5ab43132" />
+    <property role="3Fg1Gr" value="734" />
+    <property role="TrG5h" value="Artikel 2.40 Dechargeverlening" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgP5C" role="3MKX6F">
+      <property role="1hTQn4" value="0c591249-4bfc-46af-a8b1-9839bc2bb653" />
+      <property role="3Fg1Gr" value="736" />
+      <node concept="3Fnoml" id="4qxaCfUgP5D" role="3MKX6F">
+        <property role="1hTQn4" value="f7780497-0150-455f-8eb3-bf6d81e4d4cb" />
+        <property role="3Fg1Gr" value="737" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgP5E" role="3MKX6F">
+          <property role="1hTQn4" value="1d44ebc2-2975-49fb-bf25-60f6beacf539" />
+          <property role="3Fg1Gr" value="738" />
+          <node concept="19SGf9" id="4qxaCfUgP5F" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP5G" role="19SJt6">
+              <property role="19SUeA" value="Decharge aan Onze Ministers, ieder met betrekking tot het door hem gevoerde financieel beheer, wordt verleend aan de hand van het betrokken jaarverslag door een daartoe strekkende uitspraak van elk van de Kamers der Staten-Generaal." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP5I" role="3MKX6F">
+      <property role="1hTQn4" value="648f7e72-969f-4668-a332-92fc896bc81f" />
+      <property role="3Fg1Gr" value="739" />
+      <node concept="3Fnoml" id="4qxaCfUgP5J" role="3MKX6F">
+        <property role="1hTQn4" value="67f8f292-d181-4737-af24-7c49272441c5" />
+        <property role="3Fg1Gr" value="740" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgP5K" role="3MKX6F">
+          <property role="1hTQn4" value="1db3a0aa-7964-4e1e-8890-43469e76bd89" />
+          <property role="3Fg1Gr" value="741" />
+          <node concept="19SGf9" id="4qxaCfUgP5L" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP5M" role="19SJt6">
+              <property role="19SUeA" value="Decharge wordt niet eerder verleend dan nadat de verklaring van goedkeuring van de Algemene Rekenkamer, bedoeld in artikel 7.14, tweede lid, is ontvangen en het voorstel van wet tot vaststelling van de slotverschillen, bedoeld in artikel 2.39, en in voorkomende gevallen een voorstel van een indemniteitswet als bedoeld in artikel 7.22, derde lid, zijn aangenomen." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP5O" role="3MKX6F">
+      <property role="1hTQn4" value="2c475455-d25a-4a0a-af53-a3120e7dfa81" />
+      <property role="3Fg1Gr" value="742" />
+      <node concept="3Fnoml" id="4qxaCfUgP5P" role="3MKX6F">
+        <property role="1hTQn4" value="fa0176e7-2c60-42a1-86fd-88e14b9e3258" />
+        <property role="3Fg1Gr" value="743" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgP5Q" role="3MKX6F">
+          <property role="1hTQn4" value="752e86b1-1ab0-4ebd-babc-2b893e542002" />
+          <property role="3Fg1Gr" value="744" />
+          <node concept="19SGf9" id="4qxaCfUgP5R" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP5S" role="19SJt6">
+              <property role="19SUeA" value="Nadat de Tweede Kamer der Staten-Generaal decharge heeft verleend, plaatst de voorzitter van die Kamer op het betrokken jaarverslag een aantekening, waaruit de verlening van de decharge en de datum waarop die heeft plaatsgevonden, blijken. De voorzitter van de Tweede Kamer der Staten-Generaal zendt het jaarverslag vervolgens aan de voorzitter van de Eerste Kamer der Staten-Generaal." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP5U" role="3MKX6F">
+      <property role="1hTQn4" value="afdb3ea9-2c40-46e7-b04e-120857c01a64" />
+      <property role="3Fg1Gr" value="745" />
+      <node concept="3Fnoml" id="4qxaCfUgP5V" role="3MKX6F">
+        <property role="1hTQn4" value="d953b726-58e0-4b84-8b49-b32bc9802f46" />
+        <property role="3Fg1Gr" value="746" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgP5W" role="3MKX6F">
+          <property role="1hTQn4" value="fb0fd209-31ff-44df-bd09-2e87d56e9cc4" />
+          <property role="3Fg1Gr" value="747" />
+          <node concept="19SGf9" id="4qxaCfUgP5X" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP5Y" role="19SJt6">
+              <property role="19SUeA" value="Nadat de Eerste Kamer der Staten-Generaal decharge heeft verleend, plaatst de voorzitter van die Kamer op het betrokken jaarverslag een aantekening, waaruit de verlening van de decharge en de datum waarop die heeft plaatsgevonden, blijken. De voorzitter van de Eerste Kamer der Staten-Generaal zendt het jaarverslag vervolgens aan Onze Minister van Financiën." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP63">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="65681e11-4b3d-4b6d-8083-5b14a3e897d3" />
+    <property role="3Fg1Gr" value="752" />
+    <property role="TrG5h" value="Artikel 3.1 Voorstellen, voornemens en toezeggingen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgP64" role="3MKX6F">
+      <property role="1hTQn4" value="cd7c6ed9-43e3-4bf7-acdd-7c56545241ba" />
+      <property role="3Fg1Gr" value="754" />
+      <node concept="19SGf9" id="4qxaCfUgP65" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgP66" role="19SJt6">
+          <property role="19SUeA" value="Voorstellen, voornemens en toezeggingen bevatten een toelichting waarin wordt ingegaan op:" />
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP68" role="3MKX6F">
+      <property role="1hTQn4" value="0ffb008b-bdc3-460e-a622-a1c52218d0ae" />
+      <property role="3Fg1Gr" value="755" />
+      <node concept="3MKX5h" id="4qxaCfUgP69" role="3MKX6F">
+        <property role="1hTQn4" value="adadd7c6-7b03-4cd2-baff-2bbac9f97977" />
+        <property role="3Fg1Gr" value="756" />
+        <node concept="3Fnoml" id="4qxaCfUgP6a" role="3MKX6F">
+          <property role="1hTQn4" value="3de75320-6f0d-494a-b271-aa0577a6a936" />
+          <property role="3Fg1Gr" value="757" />
+          <property role="3Fnomm" value="a." />
+          <node concept="3MKX5i" id="4qxaCfUgP6b" role="3MKX6F">
+            <property role="1hTQn4" value="11e7ef12-51ad-463c-8264-6e69956c8ee5" />
+            <property role="3Fg1Gr" value="758" />
+            <node concept="19SGf9" id="4qxaCfUgP6c" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgP6d" role="19SJt6">
+                <property role="19SUeA" value="de doelstellingen, de doeltreffendheid en de doelmatigheid die worden nagestreefd;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgP6f" role="3MKX6F">
+        <property role="1hTQn4" value="e9699df0-3146-407d-b9bd-98036f3aa6d4" />
+        <property role="3Fg1Gr" value="759" />
+        <node concept="3Fnoml" id="4qxaCfUgP6g" role="3MKX6F">
+          <property role="1hTQn4" value="7aa52f1d-7203-42ed-91c1-eb2e2b4e9b5b" />
+          <property role="3Fg1Gr" value="760" />
+          <property role="3Fnomm" value="b." />
+          <node concept="3MKX5i" id="4qxaCfUgP6h" role="3MKX6F">
+            <property role="1hTQn4" value="abbfec73-7434-40d5-883d-4423c983c652" />
+            <property role="3Fg1Gr" value="761" />
+            <node concept="19SGf9" id="4qxaCfUgP6i" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgP6j" role="19SJt6">
+                <property role="19SUeA" value="de beleidsinstrumenten die worden ingezet;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgP6l" role="3MKX6F">
+        <property role="1hTQn4" value="b1688404-ccb6-4b65-95d8-7e213f1bc4ed" />
+        <property role="3Fg1Gr" value="762" />
+        <node concept="3Fnoml" id="4qxaCfUgP6m" role="3MKX6F">
+          <property role="1hTQn4" value="834b8256-fdf2-4b1c-ae85-2393df8800e0" />
+          <property role="3Fg1Gr" value="763" />
+          <property role="3Fnomm" value="c." />
+          <node concept="3MKX5i" id="4qxaCfUgP6n" role="3MKX6F">
+            <property role="1hTQn4" value="5a6293a1-9025-4c62-bb0a-0ef66c7f3ee0" />
+            <property role="3Fg1Gr" value="764" />
+            <node concept="19SGf9" id="4qxaCfUgP6o" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgP6p" role="19SJt6">
+                <property role="19SUeA" value="de financiële gevolgen voor het Rijk en, waar mogelijk, de financiële gevolgen voor maatschappelijke sectoren." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP6s">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="842877fc-6395-475d-b4a7-96b23026af8a" />
+    <property role="3Fg1Gr" value="765" />
+    <property role="TrG5h" value="Artikel 3.2 Begrotingsbeheer" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgP6t" role="3MKX6F">
+      <property role="1hTQn4" value="fd0ecaaf-dc82-49ce-8ede-d24b387c1c41" />
+      <property role="3Fg1Gr" value="767" />
+      <node concept="19SGf9" id="4qxaCfUgP6u" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgP6v" role="19SJt6">
+          <property role="19SUeA" value="Onze Ministers en de colleges zijn verantwoordelijk voor de ordelijkheid en controleerbaarheid van het begrotingsbeheer." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP6y">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="ff4e3d71-3208-4f97-aaac-5c8210764bdb" />
+    <property role="3Fg1Gr" value="768" />
+    <property role="TrG5h" value="Artikel 3.3 Financieel beheer" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgP6z" role="3MKX6F">
+      <property role="1hTQn4" value="5c3409f3-f65c-47dd-9a00-476e74c923e1" />
+      <property role="3Fg1Gr" value="770" />
+      <node concept="19SGf9" id="4qxaCfUgP6$" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgP6_" role="19SJt6">
+          <property role="19SUeA" value="Onze Ministers en de colleges zijn verantwoordelijk voor de doelmatigheid, rechtmatigheid, ordelijkheid en controleerbaarheid van het financieel beheer." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP6C">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="e7e062ac-8a0a-4877-9b55-b2d92c9a1632" />
+    <property role="3Fg1Gr" value="771" />
+    <property role="TrG5h" value="Artikel 3.4 Materiële bedrijfsvoering" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgP6D" role="3MKX6F">
+      <property role="1hTQn4" value="c6b88253-12f6-4b21-b1bd-940eb7ec9ccb" />
+      <property role="3Fg1Gr" value="773" />
+      <node concept="19SGf9" id="4qxaCfUgP6E" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgP6F" role="19SJt6">
+          <property role="19SUeA" value="Onze Ministers en de colleges zijn verantwoordelijk voor de doelmatigheid, rechtmatigheid, ordelijkheid en controleerbaarheid van het verwerven, het beheren en het afstoten van materieel." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP6J">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="0be3ed75-ace2-46c1-b32e-126d1abc00d5" />
+    <property role="3Fg1Gr" value="776" />
+    <property role="TrG5h" value="Artikel 3.5 Financiële administratie" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgP6K" role="3MKX6F">
+      <property role="1hTQn4" value="6a5a86bd-d2d8-4ed9-9fa4-4dba96f2ae89" />
+      <property role="3Fg1Gr" value="778" />
+      <node concept="3Fnoml" id="4qxaCfUgP6L" role="3MKX6F">
+        <property role="1hTQn4" value="6c9fa3eb-85bb-41a5-b1af-6acfe29a4318" />
+        <property role="3Fg1Gr" value="779" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgP6M" role="3MKX6F">
+          <property role="1hTQn4" value="32d2e095-abd6-4092-8014-a21e0cee3eee" />
+          <property role="3Fg1Gr" value="780" />
+          <node concept="19SGf9" id="4qxaCfUgP6N" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP6O" role="19SJt6">
+              <property role="19SUeA" value="Financiële administraties worden betrouwbaar en controleerbaar ingericht en gevoerd." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP6Q" role="3MKX6F">
+      <property role="1hTQn4" value="5ea712de-b26e-4d4c-9964-9a217dcbc04e" />
+      <property role="3Fg1Gr" value="781" />
+      <node concept="3Fnoml" id="4qxaCfUgP6R" role="3MKX6F">
+        <property role="1hTQn4" value="1ac8530c-dcbc-4570-a637-ef01416ce7bc" />
+        <property role="3Fg1Gr" value="782" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgP6S" role="3MKX6F">
+          <property role="1hTQn4" value="ab1606e5-11cd-4c31-a471-22fdfaf425fa" />
+          <property role="3Fg1Gr" value="783" />
+          <node concept="19SGf9" id="4qxaCfUgP6T" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP6U" role="19SJt6">
+              <property role="19SUeA" value="De financiële administratie wordt zodanig ingericht dat daaraan de financiële informatie kan worden ontleend die krachtens het in hoofdstuk 2 bepaalde en de nadere regels, bedoeld in artikel 4.20, eerste lid, aanhef en onder a tot en met c, in de begroting en het jaarverslag wordt opgenomen." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP6X">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="8b481e4f-cf9c-4272-8160-d971b2c18928" />
+    <property role="3Fg1Gr" value="784" />
+    <property role="TrG5h" value="Artikel 3.6 Financiële begrotingsinformatie" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgP6Y" role="3MKX6F">
+      <property role="1hTQn4" value="4c5ee5a4-60e2-4369-b5dc-c600aa03bb86" />
+      <property role="3Fg1Gr" value="786" />
+      <node concept="19SGf9" id="4qxaCfUgP6Z" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgP70" role="19SJt6">
+          <property role="19SUeA" value="Financiële begrotingsinformatie voldoet aan:" />
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP72" role="3MKX6F">
+      <property role="1hTQn4" value="722debe5-53c8-4ada-9953-bc39303b359a" />
+      <property role="3Fg1Gr" value="787" />
+      <node concept="3MKX5h" id="4qxaCfUgP73" role="3MKX6F">
+        <property role="1hTQn4" value="d85e2ffa-8415-4448-960c-bd7930ee000b" />
+        <property role="3Fg1Gr" value="788" />
+        <node concept="3Fnoml" id="4qxaCfUgP74" role="3MKX6F">
+          <property role="1hTQn4" value="dd4819c3-86a7-4cd8-a755-73c0cc223376" />
+          <property role="3Fg1Gr" value="789" />
+          <property role="3Fnomm" value="a." />
+          <node concept="3MKX5i" id="4qxaCfUgP75" role="3MKX6F">
+            <property role="1hTQn4" value="1e161b21-9b86-409f-8cb1-72d1789d2eb8" />
+            <property role="3Fg1Gr" value="790" />
+            <node concept="19SGf9" id="4qxaCfUgP76" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgP77" role="19SJt6">
+                <property role="19SUeA" value="de norm van betrouwbaarheid en ordelijkheid;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgP79" role="3MKX6F">
+        <property role="1hTQn4" value="70e94c18-e375-4647-accf-0f7ab397d896" />
+        <property role="3Fg1Gr" value="791" />
+        <node concept="3Fnoml" id="4qxaCfUgP7a" role="3MKX6F">
+          <property role="1hTQn4" value="a8c11f68-c7cb-4c44-9ef8-a1dec2a9df16" />
+          <property role="3Fg1Gr" value="792" />
+          <property role="3Fnomm" value="b." />
+          <node concept="3MKX5i" id="4qxaCfUgP7b" role="3MKX6F">
+            <property role="1hTQn4" value="aa889abb-8295-4b0d-ae58-7d093896dcae" />
+            <property role="3Fg1Gr" value="793" />
+            <node concept="19SGf9" id="4qxaCfUgP7c" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgP7d" role="19SJt6">
+                <property role="19SUeA" value="de regels voor het inrichten van de rijksbegroting, bedoeld in artikel 4.20, eerste lid, aanhef en onderdeel a." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP7g">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="3d2650c3-3df4-49b9-b00d-6d0002527e7c" />
+    <property role="3Fg1Gr" value="794" />
+    <property role="TrG5h" value="Artikel 3.7 Niet-financiële begrotingsinformatie" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgP7h" role="3MKX6F">
+      <property role="1hTQn4" value="cced27eb-3fcc-410e-ba82-b7db90ed727e" />
+      <property role="3Fg1Gr" value="796" />
+      <node concept="19SGf9" id="4qxaCfUgP7i" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgP7j" role="19SJt6">
+          <property role="19SUeA" value="Voor niet-financiële begrotingsinformatie geldt dat deze:" />
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP7l" role="3MKX6F">
+      <property role="1hTQn4" value="2b97d095-297a-4e44-ac41-e2b022feff6f" />
+      <property role="3Fg1Gr" value="797" />
+      <node concept="3MKX5h" id="4qxaCfUgP7m" role="3MKX6F">
+        <property role="1hTQn4" value="8e5e7722-6647-4de7-8314-6402b18ca269" />
+        <property role="3Fg1Gr" value="798" />
+        <node concept="3Fnoml" id="4qxaCfUgP7n" role="3MKX6F">
+          <property role="1hTQn4" value="3eb501ac-629e-4b72-8bd0-79d645216c60" />
+          <property role="3Fg1Gr" value="799" />
+          <property role="3Fnomm" value="a." />
+          <node concept="3MKX5i" id="4qxaCfUgP7o" role="3MKX6F">
+            <property role="1hTQn4" value="382fefc7-ed8a-4c33-b45b-06b52fd3ab0d" />
+            <property role="3Fg1Gr" value="800" />
+            <node concept="19SGf9" id="4qxaCfUgP7p" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgP7q" role="19SJt6">
+                <property role="19SUeA" value="voldoet aan de norm van betrouwbare totstandkoming;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgP7s" role="3MKX6F">
+        <property role="1hTQn4" value="bdd38a42-a5fd-41e4-9b0b-763145a863aa" />
+        <property role="3Fg1Gr" value="801" />
+        <node concept="3Fnoml" id="4qxaCfUgP7t" role="3MKX6F">
+          <property role="1hTQn4" value="b93093c4-053b-4c43-99b1-3d036f7ab74b" />
+          <property role="3Fg1Gr" value="802" />
+          <property role="3Fnomm" value="b." />
+          <node concept="3MKX5i" id="4qxaCfUgP7u" role="3MKX6F">
+            <property role="1hTQn4" value="cfc8efb9-dee7-43ff-a7d4-7f4418ee4011" />
+            <property role="3Fg1Gr" value="803" />
+            <node concept="19SGf9" id="4qxaCfUgP7v" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgP7w" role="19SJt6">
+                <property role="19SUeA" value="niet strijdig is met de financiële begrotingsinformatie." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP7z">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="f2e0a534-01ef-4461-a372-2e4760483590" />
+    <property role="3Fg1Gr" value="804" />
+    <property role="TrG5h" value="Artikel 3.8 Financiële verantwoordingsinformatie" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgP7$" role="3MKX6F">
+      <property role="1hTQn4" value="8a58d715-6e73-411c-82ae-26e3d598bde0" />
+      <property role="3Fg1Gr" value="806" />
+      <node concept="3Fnoml" id="4qxaCfUgP7_" role="3MKX6F">
+        <property role="1hTQn4" value="30a6c83b-2e72-4673-89d9-456e98bc866d" />
+        <property role="3Fg1Gr" value="807" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgP7A" role="3MKX6F">
+          <property role="1hTQn4" value="536e45ee-7f24-4660-b378-941a8ab10b0b" />
+          <property role="3Fg1Gr" value="808" />
+          <node concept="19SGf9" id="4qxaCfUgP7B" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP7C" role="19SJt6">
+              <property role="19SUeA" value="Financiële verantwoordingsinformatie voldoet aan:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgP7E" role="3MKX6F">
+          <property role="1hTQn4" value="3efe3e59-7c91-4bd5-a975-2717677faea6" />
+          <property role="3Fg1Gr" value="809" />
+          <node concept="3MKX5h" id="4qxaCfUgP7F" role="3MKX6F">
+            <property role="1hTQn4" value="666ea3ba-4869-4018-9625-71e4e794907c" />
+            <property role="3Fg1Gr" value="810" />
+            <node concept="3Fnoml" id="4qxaCfUgP7G" role="3MKX6F">
+              <property role="1hTQn4" value="d17d2edd-b1b7-4ede-8948-bb91e01b307c" />
+              <property role="3Fg1Gr" value="811" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgP7H" role="3MKX6F">
+                <property role="1hTQn4" value="070480c1-7fa6-4a5d-bb85-956a4c3ae9b9" />
+                <property role="3Fg1Gr" value="812" />
+                <node concept="19SGf9" id="4qxaCfUgP7I" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP7J" role="19SJt6">
+                    <property role="19SUeA" value="de norm van betrouwbaarheid en ordelijkheid;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP7L" role="3MKX6F">
+            <property role="1hTQn4" value="0116e3a8-e557-4d7d-84ee-2a14504deccf" />
+            <property role="3Fg1Gr" value="813" />
+            <node concept="3Fnoml" id="4qxaCfUgP7M" role="3MKX6F">
+              <property role="1hTQn4" value="8a589acc-8494-4524-a991-a9b8a403df4f" />
+              <property role="3Fg1Gr" value="814" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgP7N" role="3MKX6F">
+                <property role="1hTQn4" value="dd4dfdaf-79f4-42d1-8e4d-65df48a235b6" />
+                <property role="3Fg1Gr" value="815" />
+                <node concept="19SGf9" id="4qxaCfUgP7O" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP7P" role="19SJt6">
+                    <property role="19SUeA" value="de norm van rechtmatigheid;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP7R" role="3MKX6F">
+            <property role="1hTQn4" value="c56ac2da-d852-46d6-b7ea-9e351cdaff0c" />
+            <property role="3Fg1Gr" value="816" />
+            <node concept="3Fnoml" id="4qxaCfUgP7S" role="3MKX6F">
+              <property role="1hTQn4" value="54b662d3-aba9-405e-8e9a-9a25ddba8380" />
+              <property role="3Fg1Gr" value="817" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgP7T" role="3MKX6F">
+                <property role="1hTQn4" value="6438868d-e20d-4ab9-b750-cd72f4f66fb7" />
+                <property role="3Fg1Gr" value="818" />
+                <node concept="19SGf9" id="4qxaCfUgP7U" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP7V" role="19SJt6">
+                    <property role="19SUeA" value="de regels voor het inrichten van de jaarverslagen, bedoeld in artikel 4.20, eerste lid, aanhef en onder a." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP7X" role="3MKX6F">
+      <property role="1hTQn4" value="68718303-87a4-409d-91b0-ebe8a819998f" />
+      <property role="3Fg1Gr" value="819" />
+      <node concept="3Fnoml" id="4qxaCfUgP7Y" role="3MKX6F">
+        <property role="1hTQn4" value="2a60c14d-c627-4d16-800d-18408558646d" />
+        <property role="3Fg1Gr" value="820" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgP7Z" role="3MKX6F">
+          <property role="1hTQn4" value="767da185-9fbf-4660-8d87-4c0d5f2bc72d" />
+          <property role="3Fg1Gr" value="821" />
+          <node concept="19SGf9" id="4qxaCfUgP80" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP81" role="19SJt6">
+              <property role="19SUeA" value="De financiële verantwoordingsinformatie in de rijksrekening en de rijkssaldibalans van het Financieel jaarverslag van het Rijk, bedoeld in artikel 2.35, tweede en vierde lid, sluit aan op de financiële verantwoordingsinformatie in de verantwoordingsstaten en de saldibalansen van de jaarverslagen, bedoeld in artikel 2.31." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP84">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="801ac996-9c74-4279-8e56-d7e89b475182" />
+    <property role="3Fg1Gr" value="822" />
+    <property role="TrG5h" value="Artikel 3.9 Niet-financiële verantwoordingsinformatie" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgP85" role="3MKX6F">
+      <property role="1hTQn4" value="3d65f5da-2856-439f-a7ee-37e26917d102" />
+      <property role="3Fg1Gr" value="824" />
+      <node concept="19SGf9" id="4qxaCfUgP86" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgP87" role="19SJt6">
+          <property role="19SUeA" value="Voor niet-financiële verantwoordingsinformatie geldt dat deze:" />
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP89" role="3MKX6F">
+      <property role="1hTQn4" value="e68deaec-b940-4fcf-b195-ab0089139c84" />
+      <property role="3Fg1Gr" value="825" />
+      <node concept="3MKX5h" id="4qxaCfUgP8a" role="3MKX6F">
+        <property role="1hTQn4" value="f637ebaf-8b9b-4a03-959a-cccc2f6bd02b" />
+        <property role="3Fg1Gr" value="826" />
+        <node concept="3Fnoml" id="4qxaCfUgP8b" role="3MKX6F">
+          <property role="1hTQn4" value="b917c7ce-3ade-4889-bf04-be6bf8d6dae1" />
+          <property role="3Fg1Gr" value="827" />
+          <property role="3Fnomm" value="a." />
+          <node concept="3MKX5i" id="4qxaCfUgP8c" role="3MKX6F">
+            <property role="1hTQn4" value="f128a1eb-5884-4760-b0d8-453fded69281" />
+            <property role="3Fg1Gr" value="828" />
+            <node concept="19SGf9" id="4qxaCfUgP8d" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgP8e" role="19SJt6">
+                <property role="19SUeA" value="voldoet aan de norm van betrouwbare totstandkoming;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgP8g" role="3MKX6F">
+        <property role="1hTQn4" value="289c57dd-2a72-4f85-af78-d827ab1b729c" />
+        <property role="3Fg1Gr" value="829" />
+        <node concept="3Fnoml" id="4qxaCfUgP8h" role="3MKX6F">
+          <property role="1hTQn4" value="d466fe7a-5a2f-4afa-bf30-145db6300069" />
+          <property role="3Fg1Gr" value="830" />
+          <property role="3Fnomm" value="b." />
+          <node concept="3MKX5i" id="4qxaCfUgP8i" role="3MKX6F">
+            <property role="1hTQn4" value="80e76b41-999a-41e1-8d57-55f10673e9c4" />
+            <property role="3Fg1Gr" value="831" />
+            <node concept="19SGf9" id="4qxaCfUgP8j" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgP8k" role="19SJt6">
+                <property role="19SUeA" value="niet strijdig is met de financiële verantwoordingsinformatie." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP8n">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="89cf44be-468b-4e07-a4d6-eb7e591fa5a8" />
+    <property role="3Fg1Gr" value="832" />
+    <property role="TrG5h" value="Artikel 3.10 Normen voor het rapporteren over de rechtmatigheid" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgP8o" role="3MKX6F">
+      <property role="1hTQn4" value="62ece7a8-c069-4126-b7f2-d517a9b4f756" />
+      <property role="3Fg1Gr" value="834" />
+      <node concept="19SGf9" id="4qxaCfUgP8p" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgP8q" role="19SJt6">
+          <property role="19SUeA" value="Onze Minister van Financiën stelt regels met betrekking tot de normen die gelden voor het rapporteren van fouten en onzekerheden in de financiële verantwoordingsinformatie in de jaarverslagen, bedoeld in artikel 2.31." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP8v">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="26133fc0-0ec7-4510-9401-a603e4ebe4b7" />
+    <property role="3Fg1Gr" value="839" />
+    <property role="TrG5h" value="Artikel 4.1 Begrotingsbeheer en bedrijfsvoering: algemeen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgP8w" role="3MKX6F">
+      <property role="1hTQn4" value="d6d28a06-055a-4f88-a0b0-a18f2ce6479d" />
+      <property role="3Fg1Gr" value="841" />
+      <node concept="3Fnoml" id="4qxaCfUgP8x" role="3MKX6F">
+        <property role="1hTQn4" value="5f46ae84-6d3f-47d0-838e-15c609a9615f" />
+        <property role="3Fg1Gr" value="842" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgP8y" role="3MKX6F">
+          <property role="1hTQn4" value="5fd649d2-c178-45d3-9c48-057311f849e2" />
+          <property role="3Fg1Gr" value="843" />
+          <node concept="19SGf9" id="4qxaCfUgP8z" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP8$" role="19SJt6">
+              <property role="19SUeA" value="Onze Ministers, ieder met betrekking tot het beleid dat aan zijn begroting ten grondslag ligt, zijn verantwoordelijk voor:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgP8A" role="3MKX6F">
+          <property role="1hTQn4" value="73766a0b-8e03-4a5f-a747-f39625e33711" />
+          <property role="3Fg1Gr" value="844" />
+          <node concept="3MKX5h" id="4qxaCfUgP8B" role="3MKX6F">
+            <property role="1hTQn4" value="efc19080-da4b-4940-ba52-3e0dfc9bc1bd" />
+            <property role="3Fg1Gr" value="845" />
+            <node concept="3Fnoml" id="4qxaCfUgP8C" role="3MKX6F">
+              <property role="1hTQn4" value="648182b6-9fad-405b-8062-d21ad4409370" />
+              <property role="3Fg1Gr" value="846" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgP8D" role="3MKX6F">
+                <property role="1hTQn4" value="61b54f32-efd7-4dcd-a23a-192fe69f22f3" />
+                <property role="3Fg1Gr" value="847" />
+                <node concept="19SGf9" id="4qxaCfUgP8E" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP8F" role="19SJt6">
+                    <property role="19SUeA" value="het ontwikkelen, vaststellen en uitvoeren van het beleid;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP8H" role="3MKX6F">
+            <property role="1hTQn4" value="35dfaf6e-afb5-474d-bfd4-04ea821152a1" />
+            <property role="3Fg1Gr" value="848" />
+            <node concept="3Fnoml" id="4qxaCfUgP8I" role="3MKX6F">
+              <property role="1hTQn4" value="7d2f7497-8503-42ae-9234-c40738489833" />
+              <property role="3Fg1Gr" value="849" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgP8J" role="3MKX6F">
+                <property role="1hTQn4" value="dcc4bc4f-05f4-4d55-853c-73ad9ec287d0" />
+                <property role="3Fg1Gr" value="850" />
+                <node concept="19SGf9" id="4qxaCfUgP8K" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP8L" role="19SJt6">
+                    <property role="19SUeA" value="het toezicht houden op het uitvoeren van het beleid;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP8N" role="3MKX6F">
+            <property role="1hTQn4" value="bba3683f-d815-47ff-9e2e-2459d182b232" />
+            <property role="3Fg1Gr" value="851" />
+            <node concept="3Fnoml" id="4qxaCfUgP8O" role="3MKX6F">
+              <property role="1hTQn4" value="d49e3047-c7f6-47ac-8ba8-88b3d83b9878" />
+              <property role="3Fg1Gr" value="852" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgP8P" role="3MKX6F">
+                <property role="1hTQn4" value="0a2d5741-95e2-4009-a784-7098985be106" />
+                <property role="3Fg1Gr" value="853" />
+                <node concept="19SGf9" id="4qxaCfUgP8Q" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP8R" role="19SJt6">
+                    <property role="19SUeA" value="het periodiek onderzoeken van de doeltreffendheid en doelmatigheid van het beleid;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP8T" role="3MKX6F">
+            <property role="1hTQn4" value="5bdfa1ad-6a30-41a4-8614-e3f701e71530" />
+            <property role="3Fg1Gr" value="854" />
+            <node concept="3Fnoml" id="4qxaCfUgP8U" role="3MKX6F">
+              <property role="1hTQn4" value="ccd8aa18-7fcf-40f8-92a9-ca0397607ff4" />
+              <property role="3Fg1Gr" value="855" />
+              <property role="3Fnomm" value="d." />
+              <node concept="3MKX5i" id="4qxaCfUgP8V" role="3MKX6F">
+                <property role="1hTQn4" value="4e8add91-b82a-4b47-a0fe-76d45c5db113" />
+                <property role="3Fg1Gr" value="856" />
+                <node concept="19SGf9" id="4qxaCfUgP8W" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP8X" role="19SJt6">
+                    <property role="19SUeA" value="de in de begroting opgenomen informatie;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP8Z" role="3MKX6F">
+            <property role="1hTQn4" value="06a1a699-8572-41fa-860d-572e1804687b" />
+            <property role="3Fg1Gr" value="857" />
+            <node concept="3Fnoml" id="4qxaCfUgP90" role="3MKX6F">
+              <property role="1hTQn4" value="cee652dc-8cb9-4c39-b390-62994090c983" />
+              <property role="3Fg1Gr" value="858" />
+              <property role="3Fnomm" value="e." />
+              <node concept="3MKX5i" id="4qxaCfUgP91" role="3MKX6F">
+                <property role="1hTQn4" value="57665a65-03bc-42f6-a5fd-59a2e78fcf68" />
+                <property role="3Fg1Gr" value="859" />
+                <node concept="19SGf9" id="4qxaCfUgP92" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP93" role="19SJt6">
+                    <property role="19SUeA" value="de in het jaarverslag opgenomen informatie." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP95" role="3MKX6F">
+      <property role="1hTQn4" value="95c7f25d-0360-4cd8-8213-5dd0ceffb495" />
+      <property role="3Fg1Gr" value="860" />
+      <node concept="3Fnoml" id="4qxaCfUgP96" role="3MKX6F">
+        <property role="1hTQn4" value="fbd28d11-bb37-4120-bbd3-9c36f827685d" />
+        <property role="3Fg1Gr" value="861" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgP97" role="3MKX6F">
+          <property role="1hTQn4" value="0c2f5700-bcd8-4c8b-a754-d71bac9dfb37" />
+          <property role="3Fg1Gr" value="862" />
+          <node concept="19SGf9" id="4qxaCfUgP98" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP99" role="19SJt6">
+              <property role="19SUeA" value="Onze Ministers die belast zijn met de leiding van een ministerie, ieder met betrekking tot de begroting waarvoor hij verantwoordelijk is, zijn verantwoordelijk voor:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgP9b" role="3MKX6F">
+          <property role="1hTQn4" value="314cbac3-28be-4715-825d-65905c4f33b3" />
+          <property role="3Fg1Gr" value="863" />
+          <node concept="3MKX5h" id="4qxaCfUgP9c" role="3MKX6F">
+            <property role="1hTQn4" value="99a02e11-4dcc-49ca-847f-aff053fc6775" />
+            <property role="3Fg1Gr" value="864" />
+            <node concept="3Fnoml" id="4qxaCfUgP9d" role="3MKX6F">
+              <property role="1hTQn4" value="78927aec-0ba0-4e20-b269-d3086ca2ae94" />
+              <property role="3Fg1Gr" value="865" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgP9e" role="3MKX6F">
+                <property role="1hTQn4" value="ace68d4a-827d-4439-ac3e-cba52429a156" />
+                <property role="3Fg1Gr" value="866" />
+                <node concept="19SGf9" id="4qxaCfUgP9f" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP9g" role="19SJt6">
+                    <property role="19SUeA" value="de bedrijfsvoering van het ministerie;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP9i" role="3MKX6F">
+            <property role="1hTQn4" value="21ed1a8a-ff17-4ed8-8ab4-71019bc17520" />
+            <property role="3Fg1Gr" value="867" />
+            <node concept="3Fnoml" id="4qxaCfUgP9j" role="3MKX6F">
+              <property role="1hTQn4" value="3bec8b9c-64e2-49b1-8d7f-6be6ac9dc6c3" />
+              <property role="3Fg1Gr" value="868" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgP9k" role="3MKX6F">
+                <property role="1hTQn4" value="36447c5e-1ac2-49d5-a792-d9a12d0c73db" />
+                <property role="3Fg1Gr" value="869" />
+                <node concept="19SGf9" id="4qxaCfUgP9l" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP9m" role="19SJt6">
+                    <property role="19SUeA" value="het periodiek onderzoeken van de doeltreffendheid en doelmatigheid van die bedrijfsvoering;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP9o" role="3MKX6F">
+            <property role="1hTQn4" value="d4cdf5e1-e163-41e6-a52c-a853d1cd3167" />
+            <property role="3Fg1Gr" value="870" />
+            <node concept="3Fnoml" id="4qxaCfUgP9p" role="3MKX6F">
+              <property role="1hTQn4" value="fcf13c19-50ab-464b-a44c-44882d52fe51" />
+              <property role="3Fg1Gr" value="871" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgP9q" role="3MKX6F">
+                <property role="1hTQn4" value="7a5845de-fa42-47f0-a457-dca72e5c78ad" />
+                <property role="3Fg1Gr" value="872" />
+                <node concept="19SGf9" id="4qxaCfUgP9r" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP9s" role="19SJt6">
+                    <property role="19SUeA" value="het begrotingsbeheer en de daartoe gevoerde administraties;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP9u" role="3MKX6F">
+            <property role="1hTQn4" value="a5716d3b-2987-4307-b2ef-dbe2d481d602" />
+            <property role="3Fg1Gr" value="873" />
+            <node concept="3Fnoml" id="4qxaCfUgP9v" role="3MKX6F">
+              <property role="1hTQn4" value="daf04e13-4db0-4742-a5d1-bbaab08fa067" />
+              <property role="3Fg1Gr" value="874" />
+              <property role="3Fnomm" value="d." />
+              <node concept="3MKX5i" id="4qxaCfUgP9w" role="3MKX6F">
+                <property role="1hTQn4" value="e9ba0472-a6e2-403b-9cec-601e6d52427d" />
+                <property role="3Fg1Gr" value="875" />
+                <node concept="19SGf9" id="4qxaCfUgP9x" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP9y" role="19SJt6">
+                    <property role="19SUeA" value="het financieel beheer en de daartoe gevoerde administraties;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP9$" role="3MKX6F">
+            <property role="1hTQn4" value="88d9e227-d103-4ea3-8021-03e9c0555a75" />
+            <property role="3Fg1Gr" value="876" />
+            <node concept="3Fnoml" id="4qxaCfUgP9_" role="3MKX6F">
+              <property role="1hTQn4" value="cabf362b-8df0-48da-84ea-fbb35fae4f74" />
+              <property role="3Fg1Gr" value="877" />
+              <property role="3Fnomm" value="e." />
+              <node concept="3MKX5i" id="4qxaCfUgP9A" role="3MKX6F">
+                <property role="1hTQn4" value="e3112bf7-ca63-44c6-b04c-4683d8da3a58" />
+                <property role="3Fg1Gr" value="878" />
+                <node concept="19SGf9" id="4qxaCfUgP9B" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP9C" role="19SJt6">
+                    <property role="19SUeA" value="het materieelbeheer voor zover dat betrekking heeft op roerende zaken en de daartoe gevoerde administraties." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP9F">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="55cf7049-4f59-4f6e-ad83-169f4f15056b" />
+    <property role="3Fg1Gr" value="879" />
+    <property role="TrG5h" value="Artikel 4.2 Verantwoording bij gedeelde verantwoordelijkheden" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgP9G" role="3MKX6F">
+      <property role="1hTQn4" value="bd144d8e-ba0c-451d-9afa-0df12e6b0fdc" />
+      <property role="3Fg1Gr" value="881" />
+      <node concept="3Fnoml" id="4qxaCfUgP9H" role="3MKX6F">
+        <property role="1hTQn4" value="48a2ab99-2ff0-48a2-980c-d374a16cbb20" />
+        <property role="3Fg1Gr" value="882" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgP9I" role="3MKX6F">
+          <property role="1hTQn4" value="c8ff3e02-8bbb-4b57-97d3-cb21f232d36a" />
+          <property role="3Fg1Gr" value="883" />
+          <node concept="19SGf9" id="4qxaCfUgP9J" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP9K" role="19SJt6">
+              <property role="19SUeA" value="Indien Onze Minister het beleid dat aan zijn begroting ten grondslag ligt niet zelf uitvoert, daarop toezicht houdt of de bedrijfsvoering verzorgt, draagt hij zorg voor het verkrijgen van de informatie die nodig is voor het afleggen van verantwoording in het jaarverslag, bedoeld in artikel 2.31." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP9M" role="3MKX6F">
+      <property role="1hTQn4" value="a1808be9-cbc7-4840-853f-8588a741b4a5" />
+      <property role="3Fg1Gr" value="884" />
+      <node concept="3Fnoml" id="4qxaCfUgP9N" role="3MKX6F">
+        <property role="1hTQn4" value="bb79e6cc-d0b3-4eb1-ba51-3263f1676d10" />
+        <property role="3Fg1Gr" value="885" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgP9O" role="3MKX6F">
+          <property role="1hTQn4" value="49d3512d-7554-4acb-8c51-3e6e9c259e98" />
+          <property role="3Fg1Gr" value="886" />
+          <node concept="19SGf9" id="4qxaCfUgP9P" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP9Q" role="19SJt6">
+              <property role="19SUeA" value="Indien een organisatie die niet tot het Rijk behoort direct, indirect of voorwaardelijk een financiële bijdrage ontvangt uit verschillende begrotingen als bedoeld in artikel 2.1 dan wordt de informatie, bedoeld in het eerste lid, in afwijking van artikel 2.31 opgenomen in het jaarverslag van Onze Minister die als eerste verantwoordelijk is voor de bijdrage." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP9S" role="3MKX6F">
+      <property role="1hTQn4" value="fa5c27bf-39fc-440b-8cbc-dba0414f84e1" />
+      <property role="3Fg1Gr" value="887" />
+      <node concept="3Fnoml" id="4qxaCfUgP9T" role="3MKX6F">
+        <property role="1hTQn4" value="2d6191c6-912f-48a6-a083-c749426fbc17" />
+        <property role="3Fg1Gr" value="888" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgP9U" role="3MKX6F">
+          <property role="1hTQn4" value="d86f662b-76cf-4f02-bebf-fcf73dda3239" />
+          <property role="3Fg1Gr" value="889" />
+          <node concept="19SGf9" id="4qxaCfUgP9V" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP9W" role="19SJt6">
+              <property role="19SUeA" value="Indien bij of krachtens de wet aan de ontvanger van de financiële bijdrage, bedoeld in het tweede lid, geen jaarlijkse verantwoording verplicht is gesteld, volstaat Onze Minister die het aangaat met het opnemen in het jaarverslag van de verantwoordingsinformatie die volgens het wettelijk voorschrift door de ontvanger aan Onze Minister die het aangaat wordt verstrekt." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP9Z">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="c4e83375-2843-4ad4-8901-2073e8f6babd" />
+    <property role="3Fg1Gr" value="890" />
+    <property role="TrG5h" value="Artikel 4.3 Beheer niet-departementale begrotingen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPa0" role="3MKX6F">
+      <property role="1hTQn4" value="0347a3b9-1ad8-4766-ac1a-349002d95105" />
+      <property role="3Fg1Gr" value="892" />
+      <node concept="3Fnoml" id="4qxaCfUgPa1" role="3MKX6F">
+        <property role="1hTQn4" value="470d2b1b-d550-467e-94da-71fdfd3a37a0" />
+        <property role="3Fg1Gr" value="893" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPa2" role="3MKX6F">
+          <property role="1hTQn4" value="c4b29a55-4c22-483a-87f9-c070efe18844" />
+          <property role="3Fg1Gr" value="894" />
+          <node concept="19SGf9" id="4qxaCfUgPa3" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPa4" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Algemene Zaken is verantwoordelijk voor het beheer van de begroting van de Koning." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPa6" role="3MKX6F">
+      <property role="1hTQn4" value="98dc27be-e800-4305-8e5d-00bc7e68cd8c" />
+      <property role="3Fg1Gr" value="895" />
+      <node concept="3Fnoml" id="4qxaCfUgPa7" role="3MKX6F">
+        <property role="1hTQn4" value="9ee66be6-2a84-43fe-83b9-6fe6a3a6939a" />
+        <property role="3Fg1Gr" value="896" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPa8" role="3MKX6F">
+          <property role="1hTQn4" value="d12ba272-751b-44ec-9584-d687f8e261f7" />
+          <property role="3Fg1Gr" value="897" />
+          <node concept="19SGf9" id="4qxaCfUgPa9" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPaa" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Binnenlandse Zaken en Koninkrijksrelaties is verantwoordelijk voor het beheer van de begroting van koninkrijksrelaties." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPac" role="3MKX6F">
+      <property role="1hTQn4" value="153fbf9e-9153-4196-aac1-90905a697afd" />
+      <property role="3Fg1Gr" value="898" />
+      <node concept="3Fnoml" id="4qxaCfUgPad" role="3MKX6F">
+        <property role="1hTQn4" value="9dc700ad-3d14-4b77-9521-56794c526b33" />
+        <property role="3Fg1Gr" value="899" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPae" role="3MKX6F">
+          <property role="1hTQn4" value="023d0eec-cdf2-4b9f-b204-212027a1d7cd" />
+          <property role="3Fg1Gr" value="900" />
+          <node concept="19SGf9" id="4qxaCfUgPaf" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPag" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën is verantwoordelijk voor het beheer van de begroting van Nationale Schuld." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPak">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="df8f372b-f670-4708-b72f-93be8fac9f02" />
+    <property role="3Fg1Gr" value="903" />
+    <property role="TrG5h" value="Artikel 4.4 Beheer begrotingen colleges" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPal" role="3MKX6F">
+      <property role="1hTQn4" value="6570672a-3c9a-49fb-8616-290b643b4400" />
+      <property role="3Fg1Gr" value="905" />
+      <node concept="3Fnoml" id="4qxaCfUgPam" role="3MKX6F">
+        <property role="1hTQn4" value="b38fcc03-6aec-4710-939b-80dc0e3d3e0e" />
+        <property role="3Fg1Gr" value="906" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPan" role="3MKX6F">
+          <property role="1hTQn4" value="5d96d7d3-db07-4f70-ac3c-0464b6b2c2bb" />
+          <property role="3Fg1Gr" value="907" />
+          <node concept="19SGf9" id="4qxaCfUgPao" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPap" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Algemene Zaken is verantwoordelijk voor het beheer van de begrotingen van het Kabinet van de Koning en de Commissie van toezicht betreffende de inlichtingen- en veiligheidsdiensten." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPar" role="3MKX6F">
+      <property role="1hTQn4" value="2f9b344c-9cef-4695-9802-d55218692c9b" />
+      <property role="3Fg1Gr" value="908" />
+      <node concept="3Fnoml" id="4qxaCfUgPas" role="3MKX6F">
+        <property role="1hTQn4" value="c0a3e662-758c-4377-8f07-e73bd1a12b4c" />
+        <property role="3Fg1Gr" value="909" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPat" role="3MKX6F">
+          <property role="1hTQn4" value="1853759a-fd83-495e-ac57-1cee95a0d480" />
+          <property role="3Fg1Gr" value="910" />
+          <node concept="19SGf9" id="4qxaCfUgPau" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPav" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Binnenlandse Zaken en Koninkrijksrelaties is verantwoordelijk voor het beheer van de begrotingen van de Staten-Generaal, de Raad van State, de Algemene Rekenkamer, de Nationale ombudsman, de Kanselarij der Nederlandse Orden, het Kabinet van de Gouverneur van Aruba, het Kabinet van de Gouverneur van Curaçao, het Kabinet van de Gouverneur van Sint Maarten en de Kiesraad." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPax" role="3MKX6F">
+      <property role="1hTQn4" value="648a4441-a4a9-4f2b-bfcf-d3142a5d80b8" />
+      <property role="3Fg1Gr" value="911" />
+      <node concept="3Fnoml" id="4qxaCfUgPay" role="3MKX6F">
+        <property role="1hTQn4" value="77b9ca24-b5e8-4f27-8113-2d5d28ab4f45" />
+        <property role="3Fg1Gr" value="912" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPaz" role="3MKX6F">
+          <property role="1hTQn4" value="4f7e6f30-01ea-466c-b57e-c9b7f6be6469" />
+          <property role="3Fg1Gr" value="913" />
+          <node concept="19SGf9" id="4qxaCfUgPa$" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPa_" role="19SJt6">
+              <property role="19SUeA" value="De colleges zijn belast met het begrotingsbeheer, het financieel beheer, de materiële bedrijfsvoering en de daartoe gevoerde administraties." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPaB" role="3MKX6F">
+      <property role="1hTQn4" value="75a174c1-1a90-43c6-8a23-1131cb7a8b13" />
+      <property role="3Fg1Gr" value="914" />
+      <node concept="3Fnoml" id="4qxaCfUgPaC" role="3MKX6F">
+        <property role="1hTQn4" value="02fa348a-2e92-4b98-814f-86c3ed476adc" />
+        <property role="3Fg1Gr" value="915" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgPaD" role="3MKX6F">
+          <property role="1hTQn4" value="acf9c1f5-d8d0-4c53-97e5-170858da088d" />
+          <property role="3Fg1Gr" value="916" />
+          <node concept="19SGf9" id="4qxaCfUgPaE" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPaF" role="19SJt6">
+              <property role="19SUeA" value="Onze Ministers die het aangaan maken met de colleges over het beheer van hun begrotingen afspraken, waarin recht wordt gedaan aan de staatsrechtelijke positie van de colleges." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPaI">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="a78292e1-1110-46cb-a492-b2aa43d51f5d" />
+    <property role="3Fg1Gr" value="917" />
+    <property role="TrG5h" value="Artikel 4.5 Begroting van de Staten-Generaal" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPaJ" role="3MKX6F">
+      <property role="1hTQn4" value="ae9146c4-d7d6-4c3d-bd65-759350fdff6a" />
+      <property role="3Fg1Gr" value="919" />
+      <node concept="3Fnoml" id="4qxaCfUgPaK" role="3MKX6F">
+        <property role="1hTQn4" value="1c2d4e7e-6dc2-4246-b695-35cfeee9c6cf" />
+        <property role="3Fg1Gr" value="920" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPaL" role="3MKX6F">
+          <property role="1hTQn4" value="4783b5d7-8329-4886-8141-6a9b044b9e1e" />
+          <property role="3Fg1Gr" value="921" />
+          <node concept="19SGf9" id="4qxaCfUgPaM" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPaN" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Binnenlandse Zaken en Koninkrijksrelaties overlegt jaarlijks met elk van de Kamers der Staten-Generaal over de door de Kamers opgestelde ramingen van de uitgaven en de ontvangsten ten behoeve van hun taakuitvoering." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPaP" role="3MKX6F">
+      <property role="1hTQn4" value="7c9e94ce-ed79-4db4-b469-0e4ceb50ea0a" />
+      <property role="3Fg1Gr" value="922" />
+      <node concept="3Fnoml" id="4qxaCfUgPaQ" role="3MKX6F">
+        <property role="1hTQn4" value="09ce563c-bf5c-4e5d-b0c8-91e1937d8a8f" />
+        <property role="3Fg1Gr" value="923" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPaR" role="3MKX6F">
+          <property role="1hTQn4" value="15b728a3-3ac3-4a6f-a21f-c257d256cbbc" />
+          <property role="3Fg1Gr" value="924" />
+          <node concept="19SGf9" id="4qxaCfUgPaS" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPaT" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Binnenlandse Zaken en Koninkrijksrelaties neemt de ramingen, zoals opgesteld door de Kamers der Staten-Generaal, op in het voorstel van wet tot vaststelling van de begrotingsstaten van de Staten-Generaal, tenzij een evident zwaarwegende reden zich hiertegen verzet." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPaV" role="3MKX6F">
+      <property role="1hTQn4" value="1be8e962-5cd1-467a-8712-2aaa45a5c328" />
+      <property role="3Fg1Gr" value="925" />
+      <node concept="3Fnoml" id="4qxaCfUgPaW" role="3MKX6F">
+        <property role="1hTQn4" value="81b225ad-d2f2-4579-9729-510f423d7dd8" />
+        <property role="3Fg1Gr" value="926" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPaX" role="3MKX6F">
+          <property role="1hTQn4" value="e7da65f4-55db-4ea0-ab33-952a46060e3d" />
+          <property role="3Fg1Gr" value="927" />
+          <node concept="19SGf9" id="4qxaCfUgPaY" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPaZ" role="19SJt6">
+              <property role="19SUeA" value="Indien Onze Minister van Binnenlandse Zaken en Koninkrijksrelaties ramingen wegens evident zwaarwegende redenen niet of niet geheel opneemt, dan licht hij dit gemotiveerd toe." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPb3">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="49a910a0-e846-4562-a8f0-56116b2a66dc" />
+    <property role="3Fg1Gr" value="930" />
+    <property role="TrG5h" value="Artikel 4.6 Verrichten van een privaatrechtelijke rechtshandeling" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPb4" role="3MKX6F">
+      <property role="1hTQn4" value="3990a412-3392-4af5-8ba5-b4ce63ee7693" />
+      <property role="3Fg1Gr" value="932" />
+      <node concept="3Fnoml" id="4qxaCfUgPb5" role="3MKX6F">
+        <property role="1hTQn4" value="7cd340e2-ee22-44f1-bb59-3f58904e43d9" />
+        <property role="3Fg1Gr" value="933" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPb6" role="3MKX6F">
+          <property role="1hTQn4" value="dcc26b7e-0a89-4c59-87e7-0a4d21922f2c" />
+          <property role="3Fg1Gr" value="934" />
+          <node concept="19SGf9" id="4qxaCfUgPb7" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPb8" role="19SJt6">
+              <property role="19SUeA" value="Onze Ministers, ieder met betrekking tot de begroting waarvoor hij verantwoordelijk is, verrichten namens de Staat de privaatrechtelijke rechtshandelingen die voortvloeien uit het beleid en de bedrijfsvoering die aan hun begrotingen ten grondslag liggen, tenzij bij of krachtens de wet is bepaald dat een van Onze andere Ministers de rechtshandeling verricht." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPba" role="3MKX6F">
+      <property role="1hTQn4" value="b5f8b57e-44bb-48f4-addb-b2f83709484b" />
+      <property role="3Fg1Gr" value="935" />
+      <node concept="3Fnoml" id="4qxaCfUgPbb" role="3MKX6F">
+        <property role="1hTQn4" value="df41c0ee-babd-4a24-bf04-17ff4d396843" />
+        <property role="3Fg1Gr" value="936" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPbc" role="3MKX6F">
+          <property role="1hTQn4" value="c67dcf35-36f1-48d7-acda-4466901e4cc9" />
+          <property role="3Fg1Gr" value="937" />
+          <node concept="19SGf9" id="4qxaCfUgPbd" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPbe" role="19SJt6">
+              <property role="19SUeA" value="Het eerste lid is van overeenkomstige toepassing op de colleges elk met betrekking tot de uitvoering van de taak waarvoor het verantwoordelijk is." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPbg" role="3MKX6F">
+      <property role="1hTQn4" value="b6a58daa-a379-4dbb-8685-4244e183c6ad" />
+      <property role="3Fg1Gr" value="938" />
+      <node concept="3Fnoml" id="4qxaCfUgPbh" role="3MKX6F">
+        <property role="1hTQn4" value="f84b219f-d7e8-490f-97b4-e46bff6229a8" />
+        <property role="3Fg1Gr" value="939" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPbi" role="3MKX6F">
+          <property role="1hTQn4" value="4ff4e2dc-d2eb-4bd9-9935-e9fa517793a1" />
+          <property role="3Fg1Gr" value="940" />
+          <node concept="19SGf9" id="4qxaCfUgPbj" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPbk" role="19SJt6">
+              <property role="19SUeA" value="Onverminderd artikel 4.18, aanhef en onder b, kunnen Onze Ministers een overeenkomst tot het aangaan van een geldlening namens de Staat sluiten voor zover Onze Minister van Financiën daaraan zijn medewerking verleent in de vorm van het mede verrichten van de privaatrechtelijke rechtshandeling." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPbn">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="4affc0cc-0dce-45ee-a3fd-b04d6b617489" />
+    <property role="3Fg1Gr" value="941" />
+    <property role="TrG5h" value="Artikel 4.7 Voorhangprocedure voor een privaatrechtelijke rechtshandeling" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPbo" role="3MKX6F">
+      <property role="1hTQn4" value="03608941-14b8-4c78-82a5-60817dd5c11b" />
+      <property role="3Fg1Gr" value="943" />
+      <node concept="3Fnoml" id="4qxaCfUgPbp" role="3MKX6F">
+        <property role="1hTQn4" value="105bcdc1-a028-471f-9dd6-f123ed3e5260" />
+        <property role="3Fg1Gr" value="944" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPbq" role="3MKX6F">
+          <property role="1hTQn4" value="fef2b7fb-b7dd-4385-91e8-93aecd71f5a4" />
+          <property role="3Fg1Gr" value="945" />
+          <node concept="19SGf9" id="4qxaCfUgPbr" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPbs" role="19SJt6">
+              <property role="19SUeA" value="De volgende privaatrechtelijke rechtshandelingen worden niet eerder door de Staat verricht dan 30 dagen, nadat het voornemen daartoe schriftelijk ter kennis is gebracht van de Kamers der Staten-Generaal:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPbu" role="3MKX6F">
+          <property role="1hTQn4" value="c8b546c2-9da3-4631-80bb-cb0796721777" />
+          <property role="3Fg1Gr" value="946" />
+          <node concept="3MKX5h" id="4qxaCfUgPbv" role="3MKX6F">
+            <property role="1hTQn4" value="7ddccfb2-f0cd-4225-99b4-6af69ae77213" />
+            <property role="3Fg1Gr" value="947" />
+            <node concept="3Fnoml" id="4qxaCfUgPbw" role="3MKX6F">
+              <property role="1hTQn4" value="1fa3df9d-f54d-40fc-9f89-c2b6a9e3f7b3" />
+              <property role="3Fg1Gr" value="948" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgPbx" role="3MKX6F">
+                <property role="1hTQn4" value="fd9a06bf-50f3-4ca0-a22e-4a0fedb69db9" />
+                <property role="3Fg1Gr" value="949" />
+                <node concept="19SGf9" id="4qxaCfUgPby" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPbz" role="19SJt6">
+                    <property role="19SUeA" value="het oprichten, mede oprichten of doen oprichten van een privaatrechtelijke rechtspersoon;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPb_" role="3MKX6F">
+            <property role="1hTQn4" value="164fc948-5902-4681-a3b7-10f0583bcbc0" />
+            <property role="3Fg1Gr" value="950" />
+            <node concept="3Fnoml" id="4qxaCfUgPbA" role="3MKX6F">
+              <property role="1hTQn4" value="7cc035ff-2aca-4e1b-84a7-38d93b494ce4" />
+              <property role="3Fg1Gr" value="951" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgPbB" role="3MKX6F">
+                <property role="1hTQn4" value="9cfc4582-a328-460f-9633-f39a6e6bf5eb" />
+                <property role="3Fg1Gr" value="952" />
+                <node concept="19SGf9" id="4qxaCfUgPbC" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPbD" role="19SJt6">
+                    <property role="19SUeA" value="het verstrekken aan een privaatrechtelijke rechtspersoon van eigen vermogen, leningen met wezenlijke kenmerken van eigen vermogen of garanties ten aanzien van de omvang van het eigen vermogen;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPbF" role="3MKX6F">
+            <property role="1hTQn4" value="769b2602-6503-4559-b1a6-edccd6e6dbd7" />
+            <property role="3Fg1Gr" value="953" />
+            <node concept="3Fnoml" id="4qxaCfUgPbG" role="3MKX6F">
+              <property role="1hTQn4" value="8d956ddb-6bcf-4890-a07f-b6b15572ba5a" />
+              <property role="3Fg1Gr" value="954" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgPbH" role="3MKX6F">
+                <property role="1hTQn4" value="a98187cb-f0a1-4383-bd01-2d1ec279b308" />
+                <property role="3Fg1Gr" value="955" />
+                <node concept="19SGf9" id="4qxaCfUgPbI" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPbJ" role="19SJt6">
+                    <property role="19SUeA" value="het overnemen van schuldtitels of aandelen van een privaatrechtelijke rechtspersoon die door een derde worden gehouden;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPbL" role="3MKX6F">
+            <property role="1hTQn4" value="e21c646b-3326-417f-b9bf-de41434e9b8c" />
+            <property role="3Fg1Gr" value="956" />
+            <node concept="3Fnoml" id="4qxaCfUgPbM" role="3MKX6F">
+              <property role="1hTQn4" value="fdee9c25-ad29-4bb2-9472-852b28f766ea" />
+              <property role="3Fg1Gr" value="957" />
+              <property role="3Fnomm" value="d." />
+              <node concept="3MKX5i" id="4qxaCfUgPbN" role="3MKX6F">
+                <property role="1hTQn4" value="977452ab-1538-4468-9821-1048a53b6e2d" />
+                <property role="3Fg1Gr" value="958" />
+                <node concept="19SGf9" id="4qxaCfUgPbO" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPbP" role="19SJt6">
+                    <property role="19SUeA" value="het overnemen van risico’s van financiële activa van een privaatrechtelijke rechtspersoon, indien dat overnemen bedoeld is ter versterking van de solvabiliteit van de privaatrechtelijke rechtspersoon." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPbR" role="3MKX6F">
+      <property role="1hTQn4" value="98aab2a9-8f3e-4207-8725-488bd3a87a37" />
+      <property role="3Fg1Gr" value="959" />
+      <node concept="3Fnoml" id="4qxaCfUgPbS" role="3MKX6F">
+        <property role="1hTQn4" value="7ce9007e-b7de-4fd3-9eb4-fc6005e686e7" />
+        <property role="3Fg1Gr" value="960" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPbT" role="3MKX6F">
+          <property role="1hTQn4" value="a37f8c30-d2b8-4136-8286-00b5ab3cf0fb" />
+          <property role="3Fg1Gr" value="961" />
+          <node concept="19SGf9" id="4qxaCfUgPbU" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPbV" role="19SJt6">
+              <property role="19SUeA" value="Indien binnen de in het eerste lid genoemde termijn van 30 dagen ten minste een vijfde van het grondwettelijk aantal leden van een van de Kamers der Staten-Generaal nadere inlichtingen vraagt, wordt de privaatrechtelijke rechtshandeling niet verricht dan 14 dagen nadat de inlichtingen zijn verstrekt." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPbX" role="3MKX6F">
+      <property role="1hTQn4" value="2f1be006-69af-4623-a11e-8b09873a2e0c" />
+      <property role="3Fg1Gr" value="962" />
+      <node concept="3Fnoml" id="4qxaCfUgPbY" role="3MKX6F">
+        <property role="1hTQn4" value="65ea5956-d186-4785-aed3-e92050e20835" />
+        <property role="3Fg1Gr" value="963" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPbZ" role="3MKX6F">
+          <property role="1hTQn4" value="bb0f292c-4f0e-4499-8e26-f234ccf28927" />
+          <property role="3Fg1Gr" value="964" />
+          <node concept="19SGf9" id="4qxaCfUgPc0" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPc1" role="19SJt6">
+              <property role="19SUeA" value="De procedure, bedoeld in het eerste lid, is niet van toepassing op een voornemen tot het verrichten van een privaatrechtelijke rechtshandeling als bedoeld in het eerste lid, aanhef en onder a tot en met d, indien:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPc3" role="3MKX6F">
+          <property role="1hTQn4" value="2eaebbb0-1ed4-4b9d-9938-b36d4ac7569c" />
+          <property role="3Fg1Gr" value="965" />
+          <node concept="3MKX5h" id="4qxaCfUgPc4" role="3MKX6F">
+            <property role="1hTQn4" value="af5d0205-b7e1-4e28-801b-2749c2762067" />
+            <property role="3Fg1Gr" value="966" />
+            <node concept="3Fnoml" id="4qxaCfUgPc5" role="3MKX6F">
+              <property role="1hTQn4" value="bbe418a6-4d4c-4aa9-812b-390e096a55c0" />
+              <property role="3Fg1Gr" value="967" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgPc6" role="3MKX6F">
+                <property role="1hTQn4" value="98b82ae5-a936-485f-a49d-3e3ab96c3f1c" />
+                <property role="3Fg1Gr" value="968" />
+                <node concept="19SGf9" id="4qxaCfUgPc7" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPc8" role="19SJt6">
+                    <property role="19SUeA" value="een wettelijke regeling voorziet in een rechtsgrond voor het verrichten van die rechtshandeling;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPca" role="3MKX6F">
+            <property role="1hTQn4" value="cc4eb644-a5fe-46d2-9030-b113dcb45f30" />
+            <property role="3Fg1Gr" value="969" />
+            <node concept="3Fnoml" id="4qxaCfUgPcb" role="3MKX6F">
+              <property role="1hTQn4" value="121d3cfd-cc44-424b-ad03-dd72e8431f7a" />
+              <property role="3Fg1Gr" value="970" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgPcc" role="3MKX6F">
+                <property role="1hTQn4" value="e0aa00d6-37d7-4486-a5f5-3712f713438e" />
+                <property role="3Fg1Gr" value="971" />
+                <node concept="19SGf9" id="4qxaCfUgPcd" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPce" role="19SJt6">
+                    <property role="19SUeA" value="de rechtshandeling ziet op het verstrekken van eigen vermogen dat voortvloeit uit een eerder verstrekte garantie als bedoeld in het eerste lid, onderdeel b;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPcg" role="3MKX6F">
+            <property role="1hTQn4" value="52c08a9a-1178-4ffa-8e94-00589c39e84b" />
+            <property role="3Fg1Gr" value="972" />
+            <node concept="3Fnoml" id="4qxaCfUgPch" role="3MKX6F">
+              <property role="1hTQn4" value="74eb187e-fcd3-457d-9b4e-9ebda8465798" />
+              <property role="3Fg1Gr" value="973" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgPci" role="3MKX6F">
+                <property role="1hTQn4" value="3ba900ce-7c2e-4e1b-9253-aa294a7ec976" />
+                <property role="3Fg1Gr" value="974" />
+                <node concept="19SGf9" id="4qxaCfUgPcj" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPck" role="19SJt6">
+                    <property role="19SUeA" value="de rechtshandeling ziet op het deelnemen in het aandelenkapitaal van een vennootschap waarbij de handeling niet ten doel heeft het relatieve belang van de Staat in het eigen vermogen van de betrokken rechtspersoon te verhogen;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPcm" role="3MKX6F">
+            <property role="1hTQn4" value="d90387af-e851-4778-9aa2-f09a909fd6fb" />
+            <property role="3Fg1Gr" value="975" />
+            <node concept="3Fnoml" id="4qxaCfUgPcn" role="3MKX6F">
+              <property role="1hTQn4" value="01da81f4-3fee-4334-95ad-3bd4414c1a28" />
+              <property role="3Fg1Gr" value="976" />
+              <property role="3Fnomm" value="d." />
+              <node concept="3MKX5i" id="4qxaCfUgPco" role="3MKX6F">
+                <property role="1hTQn4" value="1765f190-46ce-4798-98d2-4956528fc02a" />
+                <property role="3Fg1Gr" value="977" />
+                <node concept="19SGf9" id="4qxaCfUgPcp" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPcq" role="19SJt6">
+                    <property role="19SUeA" value="het volgen van de voorhangprocedure in strijd is met een wettelijke regeling;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPcs" role="3MKX6F">
+            <property role="1hTQn4" value="50941667-b8c1-463c-861e-9687a672be1b" />
+            <property role="3Fg1Gr" value="978" />
+            <node concept="3Fnoml" id="4qxaCfUgPct" role="3MKX6F">
+              <property role="1hTQn4" value="71889828-63a1-4f83-8b22-50461dd4bcda" />
+              <property role="3Fg1Gr" value="979" />
+              <property role="3Fnomm" value="e." />
+              <node concept="3MKX5i" id="4qxaCfUgPcu" role="3MKX6F">
+                <property role="1hTQn4" value="3fa8fe9e-15d7-409a-8139-6a9011ac0a35" />
+                <property role="3Fg1Gr" value="980" />
+                <node concept="19SGf9" id="4qxaCfUgPcv" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPcw" role="19SJt6">
+                    <property role="19SUeA" value="met de rechtshandeling een geringer financieel belang is gemoeid dan de door Onze Minister van Financiën vast te stellen bedragen die betrekking hebben op de rechtshandelingen, bedoeld in het eerste lid, onder a tot en met d." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPcy" role="3MKX6F">
+      <property role="1hTQn4" value="af010a26-bb88-4765-a843-9aca8024d889" />
+      <property role="3Fg1Gr" value="981" />
+      <node concept="3Fnoml" id="4qxaCfUgPcz" role="3MKX6F">
+        <property role="1hTQn4" value="41aeaf3e-dec5-4537-93e4-5b0ad6c3db4a" />
+        <property role="3Fg1Gr" value="982" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgPc$" role="3MKX6F">
+          <property role="1hTQn4" value="57eb9b7d-820d-4526-98ea-15a11e1ecc43" />
+          <property role="3Fg1Gr" value="983" />
+          <node concept="19SGf9" id="4qxaCfUgPc_" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPcA" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister die het aangaat voert overleg met de Algemene Rekenkamer over een voornemen tot het verrichten van een privaatrechtelijke rechtshandeling als bedoeld in het eerste lid, onderdeel a. Onze Minister die het aangaat verbindt een redelijke termijn aan het overleg met de Algemene Rekenkamer. Na het overleg met de Algemene Rekenkamer legt Onze Minister die het aangaat het voorgenomen besluit aan de ministerraad voor." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPcD">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="fdaf22f2-0f50-475e-a777-6012ebd537fb" />
+    <property role="3Fg1Gr" value="984" />
+    <property role="TrG5h" value="Artikel 4.8 Informatieverstrekking over belangen in privaatrechtelijke rechtspersonen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPcE" role="3MKX6F">
+      <property role="1hTQn4" value="f370a59a-9dc8-492d-b6f4-69c87827fc1c" />
+      <property role="3Fg1Gr" value="986" />
+      <node concept="3Fnoml" id="4qxaCfUgPcF" role="3MKX6F">
+        <property role="1hTQn4" value="d72a5e69-2500-4753-9733-105ffb4e5143" />
+        <property role="3Fg1Gr" value="987" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPcG" role="3MKX6F">
+          <property role="1hTQn4" value="c446a0a3-e1dd-44f9-a4c5-498dc561ff52" />
+          <property role="3Fg1Gr" value="988" />
+          <node concept="19SGf9" id="4qxaCfUgPcH" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPcI" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën informeert de Kamers der Staten-Generaal jaarlijks over het beleid en het gevoerde beleid met betrekking tot:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPcK" role="3MKX6F">
+          <property role="1hTQn4" value="79f6683d-f5bd-4cb9-a063-e6fc66c61579" />
+          <property role="3Fg1Gr" value="989" />
+          <node concept="3MKX5h" id="4qxaCfUgPcL" role="3MKX6F">
+            <property role="1hTQn4" value="d0f62da7-90b4-42c7-a3e4-d71443a21946" />
+            <property role="3Fg1Gr" value="990" />
+            <node concept="3Fnoml" id="4qxaCfUgPcM" role="3MKX6F">
+              <property role="1hTQn4" value="1c9a77ab-8f5d-4763-999d-196b95899c4f" />
+              <property role="3Fg1Gr" value="991" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgPcN" role="3MKX6F">
+                <property role="1hTQn4" value="6333bdbc-8007-4f34-bfab-634ff52af2f2" />
+                <property role="3Fg1Gr" value="992" />
+                <node concept="19SGf9" id="4qxaCfUgPcO" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPcP" role="19SJt6">
+                    <property role="19SUeA" value="het verwerven, het bezit en het vervreemden van vermogen in privaatrechtelijke rechtspersonen, indien aan dat vermogen wezenlijke kenmerken van eigen vermogen zijn verbonden;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPcR" role="3MKX6F">
+            <property role="1hTQn4" value="e1a00026-e717-4e50-a77d-a5c0d45c6923" />
+            <property role="3Fg1Gr" value="993" />
+            <node concept="3Fnoml" id="4qxaCfUgPcS" role="3MKX6F">
+              <property role="1hTQn4" value="ab4715a7-0432-4691-8886-fe6ffbd28003" />
+              <property role="3Fg1Gr" value="994" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgPcT" role="3MKX6F">
+                <property role="1hTQn4" value="87edd7ba-59d3-4c06-a005-87134df98e81" />
+                <property role="3Fg1Gr" value="995" />
+                <node concept="19SGf9" id="4qxaCfUgPcU" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPcV" role="19SJt6">
+                    <property role="19SUeA" value="het overnemen, het beheer en het afstoten van risico’s van financiële activa, bedoeld in 4.7, eerste lid, onderdeel d." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPcX" role="3MKX6F">
+      <property role="1hTQn4" value="549ad9e3-9cd5-45e3-81fb-20afb6df5ded" />
+      <property role="3Fg1Gr" value="996" />
+      <node concept="3Fnoml" id="4qxaCfUgPcY" role="3MKX6F">
+        <property role="1hTQn4" value="e7d06ca7-4a14-47c0-82ef-1ba1802dc9e1" />
+        <property role="3Fg1Gr" value="997" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPcZ" role="3MKX6F">
+          <property role="1hTQn4" value="be30e119-f887-4e67-87b5-f0369514f290" />
+          <property role="3Fg1Gr" value="998" />
+          <node concept="19SGf9" id="4qxaCfUgPd0" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPd1" role="19SJt6">
+              <property role="19SUeA" value="De verstrekte informatie bevat met betrekking tot het vervreemden van vermogen als bedoeld in het eerste lid, onder a, en het overdragen van risico’s als bedoeld in het eerste lid, onderdeel b, in elk geval de daarbij te hanteren of gehanteerde uitgangspunten." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPd3" role="3MKX6F">
+      <property role="1hTQn4" value="4b88ab0b-4458-482f-8e9a-97866777bf21" />
+      <property role="3Fg1Gr" value="999" />
+      <node concept="3Fnoml" id="4qxaCfUgPd4" role="3MKX6F">
+        <property role="1hTQn4" value="3a90ddfc-350e-4010-9ea4-769205f2a638" />
+        <property role="3Fg1Gr" value="1000" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPd5" role="3MKX6F">
+          <property role="1hTQn4" value="86aa1994-5700-4dae-b367-da249b837ccf" />
+          <property role="3Fg1Gr" value="1001" />
+          <node concept="19SGf9" id="4qxaCfUgPd6" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPd7" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën vermeldt de gerealiseerde afstoting van de belangen, bedoeld in het tweede lid, in zijn departementale jaarverslag." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPda">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="9f16242b-89e1-45ca-8522-11d0411ab379" />
+    <property role="3Fg1Gr" value="1002" />
+    <property role="TrG5h" value="Artikel 4.9 Geldigheid van een privaatrechtelijke rechtshandeling" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPdb" role="3MKX6F">
+      <property role="1hTQn4" value="4bfac5f2-6a02-4688-bce6-44e8807a1d2b" />
+      <property role="3Fg1Gr" value="1004" />
+      <node concept="19SGf9" id="4qxaCfUgPdc" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPdd" role="19SJt6">
+          <property role="19SUeA" value="De geldigheid van privaatrechtelijke rechtshandelingen door de Staat wordt niet aangetast, indien de bij of krachtens deze wet gestelde regels niet worden nageleefd, tenzij het betreft het niet naleven van de regels over de bevoegdheid van de handelende personen, gesteld bij of krachtens de artikelen 4.6 en 4.18, aanhef en onderdeel b." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPdh">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="380eb8aa-670f-44c5-aeff-4c89ccf6a6a7" />
+    <property role="3Fg1Gr" value="1007" />
+    <property role="TrG5h" value="Artikel 4.10 Horizonbepaling bij subsidieregelingen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPdi" role="3MKX6F">
+      <property role="1hTQn4" value="f454e3c4-84fe-470f-922c-321ffbf60614" />
+      <property role="3Fg1Gr" value="1009" />
+      <node concept="3Fnoml" id="4qxaCfUgPdj" role="3MKX6F">
+        <property role="1hTQn4" value="f5eff93d-3b3e-4c6c-8917-5d93cfc1a174" />
+        <property role="3Fg1Gr" value="1010" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPdk" role="3MKX6F">
+          <property role="1hTQn4" value="874b5bd3-7646-4519-b671-aa1b0b52b68c" />
+          <property role="3Fg1Gr" value="1011" />
+          <node concept="19SGf9" id="4qxaCfUgPdl" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPdm" role="19SJt6">
+              <property role="19SUeA" value="Voor de toepassing van dit artikel wordt onder subsidieregeling verstaan een wet, algemene maatregel van bestuur of ministeriële regeling op grond waarvan voor de in die regeling bedoelde activiteiten op aanvraag en met inachtneming van de in die regeling opgenomen voorschriften een subsidie wordt verstrekt, waarop titel 4.2 van de Algemene wet bestuursrecht van toepassing is en waarvan de verstrekking als een subsidie is aangemerkt in de begroting, bedoeld in artikel 2.1." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPdo" role="3MKX6F">
+      <property role="1hTQn4" value="6d5137ad-cb5a-4ef6-91b0-747992477e14" />
+      <property role="3Fg1Gr" value="1012" />
+      <node concept="3Fnoml" id="4qxaCfUgPdp" role="3MKX6F">
+        <property role="1hTQn4" value="9ce9cd39-1557-4b5f-a78e-b22f110afe74" />
+        <property role="3Fg1Gr" value="1013" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPdq" role="3MKX6F">
+          <property role="1hTQn4" value="0e28e841-e69d-4a3b-bc19-b872287344ee" />
+          <property role="3Fg1Gr" value="1014" />
+          <node concept="19SGf9" id="4qxaCfUgPdr" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPds" role="19SJt6">
+              <property role="19SUeA" value="Een subsidieregeling bevat een tijdstip waarop de regeling vervalt. Dit tijdstip valt niet later dan vijf jaren na de inwerkingtreding van de regeling. Een subsidieregeling die bij de inwerkingtreding van deze wet geen tijdstip kent waarop de regeling vervalt, wordt voor zover het een wet betreft binnen twee jaar na de inwerkingtreding van deze wet van een dergelijk tijdstip voorzien." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPdu" role="3MKX6F">
+      <property role="1hTQn4" value="d42b5cd7-3820-4f10-a37e-273dfc052135" />
+      <property role="3Fg1Gr" value="1015" />
+      <node concept="3Fnoml" id="4qxaCfUgPdv" role="3MKX6F">
+        <property role="1hTQn4" value="6db913e2-bc21-4b72-bfe2-c3d68ff08358" />
+        <property role="3Fg1Gr" value="1016" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPdw" role="3MKX6F">
+          <property role="1hTQn4" value="6a6526ad-b01b-4d83-bba6-33ea6ad44f82" />
+          <property role="3Fg1Gr" value="1017" />
+          <node concept="19SGf9" id="4qxaCfUgPdx" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPdy" role="19SJt6">
+              <property role="19SUeA" value="In afwijking van het tweede lid, tweede volzin, kan een subsidieregeling een tijdstip bevatten waarop de subsidieregeling vervalt, dat is gelegen later dan vijf jaren, doch niet later dan tien jaren, na de inwerkingtreding van de subsidieregeling, indien:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPd$" role="3MKX6F">
+          <property role="1hTQn4" value="edc12426-cc96-4b96-b94c-7492796cfe14" />
+          <property role="3Fg1Gr" value="1018" />
+          <node concept="3MKX5h" id="4qxaCfUgPd_" role="3MKX6F">
+            <property role="1hTQn4" value="6cc6533c-71bb-483a-a433-a597b2cb421c" />
+            <property role="3Fg1Gr" value="1019" />
+            <node concept="3Fnoml" id="4qxaCfUgPdA" role="3MKX6F">
+              <property role="1hTQn4" value="e766c9eb-2e1c-40a1-8dc7-ff9a706ff6b6" />
+              <property role="3Fg1Gr" value="1020" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgPdB" role="3MKX6F">
+                <property role="1hTQn4" value="118fd084-26e1-4103-b5b3-9e6087bab680" />
+                <property role="3Fg1Gr" value="1021" />
+                <node concept="19SGf9" id="4qxaCfUgPdC" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPdD" role="19SJt6">
+                    <property role="19SUeA" value="uit de toelichting van de subsidieregeling blijkt dat het vervallen van de regeling binnen vijf jaren na inwerkingtreding ervan, gelet op de activiteiten waarvoor de subsidie wordt verstrekt, afbreuk doet aan de effectiviteit van die activiteiten, en" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPdF" role="3MKX6F">
+            <property role="1hTQn4" value="344cb641-0177-4be6-8423-61528664d977" />
+            <property role="3Fg1Gr" value="1022" />
+            <node concept="3Fnoml" id="4qxaCfUgPdG" role="3MKX6F">
+              <property role="1hTQn4" value="ac34c287-abc2-4148-bba2-7437dba14874" />
+              <property role="3Fg1Gr" value="1023" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgPdH" role="3MKX6F">
+                <property role="1hTQn4" value="be0c6094-3a09-436d-87b5-95cc1fd02c6f" />
+                <property role="3Fg1Gr" value="1024" />
+                <node concept="19SGf9" id="4qxaCfUgPdI" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPdJ" role="19SJt6">
+                    <property role="19SUeA" value="door Onze Minister die het aangaat gedurende de looptijd van de subsidieregeling een verslag over de doeltreffendheid en de doelmatigheid van de subsidie aan de Tweede Kamer der Staten-Generaal wordt gezonden." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPdL" role="3MKX6F">
+      <property role="1hTQn4" value="a36dc3ca-acdd-47a9-bbee-165f4c9825c1" />
+      <property role="3Fg1Gr" value="1025" />
+      <node concept="3Fnoml" id="4qxaCfUgPdM" role="3MKX6F">
+        <property role="1hTQn4" value="988c94c9-9ed8-4bd9-a348-95d816b2fe24" />
+        <property role="3Fg1Gr" value="1026" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgPdN" role="3MKX6F">
+          <property role="1hTQn4" value="eb6d3921-8510-43c8-aa46-a46a287d09a5" />
+          <property role="3Fg1Gr" value="1027" />
+          <node concept="19SGf9" id="4qxaCfUgPdO" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPdP" role="19SJt6">
+              <property role="19SUeA" value="Een subsidieregeling die een tijdstip als bedoeld in het derde lid bevat, wordt voor zover die subsidieregeling een algemene maatregel van bestuur of een ministeriële regeling betreft niet eerder vastgesteld dan 30 dagen nadat het ontwerp van die subsidieregeling schriftelijk ter kennis is gebracht van de Tweede Kamer der Staten-Generaal." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPdR" role="3MKX6F">
+      <property role="1hTQn4" value="fdc02c51-6fe2-4881-a2be-f301628b1808" />
+      <property role="3Fg1Gr" value="1028" />
+      <node concept="3Fnoml" id="4qxaCfUgPdS" role="3MKX6F">
+        <property role="1hTQn4" value="accd9d6e-5854-4ac3-b419-9bdb87d6a427" />
+        <property role="3Fg1Gr" value="1029" />
+        <property role="3Fnomm" value="5" />
+        <node concept="3MKX5i" id="4qxaCfUgPdT" role="3MKX6F">
+          <property role="1hTQn4" value="a10c4584-62b7-4ac9-88fe-be8b6393cedd" />
+          <property role="3Fg1Gr" value="1030" />
+          <node concept="19SGf9" id="4qxaCfUgPdU" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPdV" role="19SJt6">
+              <property role="19SUeA" value="Indien binnen de in het vierde lid genoemde termijn van 30 dagen ten minste een vijfde van het grondwettelijk aantal leden van de Tweede Kamer der Staten-Generaal nadere inlichtingen vraagt, wordt de subsidieregeling, bedoeld in het vierde lid, niet vastgesteld dan 14 dagen nadat de inlichtingen zijn verstrekt." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPdX" role="3MKX6F">
+      <property role="1hTQn4" value="7511fc43-92d6-4e67-ab24-566e73b00e5a" />
+      <property role="3Fg1Gr" value="1031" />
+      <node concept="3Fnoml" id="4qxaCfUgPdY" role="3MKX6F">
+        <property role="1hTQn4" value="9c49f03e-ab00-4aec-b615-bc3440fc42dc" />
+        <property role="3Fg1Gr" value="1032" />
+        <property role="3Fnomm" value="6" />
+        <node concept="3MKX5i" id="4qxaCfUgPdZ" role="3MKX6F">
+          <property role="1hTQn4" value="43137fe0-94d1-4c74-bedc-37bfe43455f8" />
+          <property role="3Fg1Gr" value="1033" />
+          <node concept="19SGf9" id="4qxaCfUgPe0" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPe1" role="19SJt6">
+              <property role="19SUeA" value="Een subsidieregeling die strekt tot het verstrekken van subsidie onder hoofdzakelijk dezelfde voorwaarden voor overwegend dezelfde activiteiten als van een vervallen subsidieregeling als bedoeld in het tweede lid, wordt voor zover die subsidieregeling een algemene maatregel van bestuur of een ministeriële regeling betreft, niet eerder vastgesteld dan 30 dagen nadat het ontwerp van die subsidieregeling schriftelijk ter kennis is gebracht van de Tweede Kamer der Staten-Generaal. Het vijfde lid is van overeenkomstige toepassing." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPe3" role="3MKX6F">
+      <property role="1hTQn4" value="2c35c93c-77b0-4173-82f6-d3e77f280c51" />
+      <property role="3Fg1Gr" value="1034" />
+      <node concept="3Fnoml" id="4qxaCfUgPe4" role="3MKX6F">
+        <property role="1hTQn4" value="bdaef723-b397-4b85-a3e3-9b39ccd19acf" />
+        <property role="3Fg1Gr" value="1035" />
+        <property role="3Fnomm" value="7" />
+        <node concept="3MKX5i" id="4qxaCfUgPe5" role="3MKX6F">
+          <property role="1hTQn4" value="5e77a019-13d7-47a3-ba3d-8b51c8b973b0" />
+          <property role="3Fg1Gr" value="1036" />
+          <node concept="19SGf9" id="4qxaCfUgPe6" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPe7" role="19SJt6">
+              <property role="19SUeA" value="Een subsidieregeling die strekt tot wijziging van het tijdstip waarop een subsidieregeling vervalt, wordt voor zover die subsidieregeling een algemene maatregel van bestuur of een ministeriële regeling betreft, niet eerder vastgesteld dan 30 dagen nadat het ontwerp van die subsidieregeling schriftelijk ter kennis is gebracht van de Tweede Kamer der Staten-Generaal. Het vijfde lid is van overeenkomstige toepassing." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPeb">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="fe2fee0d-6d5c-4b03-b1f8-cac469bd3b30" />
+    <property role="3Fg1Gr" value="1039" />
+    <property role="TrG5h" value="Artikel 4.11 Begroting, financieel beheer en verantwoording" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPec" role="3MKX6F">
+      <property role="1hTQn4" value="3dba069b-d582-4715-9f41-03ebad6bef59" />
+      <property role="3Fg1Gr" value="1041" />
+      <node concept="3Fnoml" id="4qxaCfUgPed" role="3MKX6F">
+        <property role="1hTQn4" value="8347d322-3fe9-4115-a18b-8544e18b22ac" />
+        <property role="3Fg1Gr" value="1042" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPee" role="3MKX6F">
+          <property role="1hTQn4" value="1b874303-bf51-4415-9267-80f1c4001361" />
+          <property role="3Fg1Gr" value="1043" />
+          <node concept="19SGf9" id="4qxaCfUgPef" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPeg" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën is met betrekking tot het Rijk belast met de coördinatie van:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPei" role="3MKX6F">
+          <property role="1hTQn4" value="ebce4ce6-4664-4da6-8716-9d151a23f8f7" />
+          <property role="3Fg1Gr" value="1044" />
+          <node concept="3MKX5h" id="4qxaCfUgPej" role="3MKX6F">
+            <property role="1hTQn4" value="22a0a2d3-1135-40f5-902d-977a0f1843a0" />
+            <property role="3Fg1Gr" value="1045" />
+            <node concept="3Fnoml" id="4qxaCfUgPek" role="3MKX6F">
+              <property role="1hTQn4" value="94f09b79-b709-4563-b756-ef6f6fb22c41" />
+              <property role="3Fg1Gr" value="1046" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgPel" role="3MKX6F">
+                <property role="1hTQn4" value="1f05d054-a7cf-4ffe-ba95-366e74c2c614" />
+                <property role="3Fg1Gr" value="1047" />
+                <node concept="19SGf9" id="4qxaCfUgPem" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPen" role="19SJt6">
+                    <property role="19SUeA" value="het begrotings- en het verantwoordingsproces;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPep" role="3MKX6F">
+            <property role="1hTQn4" value="855b2529-c618-4e6c-8b93-1e40d200905e" />
+            <property role="3Fg1Gr" value="1048" />
+            <node concept="3Fnoml" id="4qxaCfUgPeq" role="3MKX6F">
+              <property role="1hTQn4" value="1955951d-f5b4-485d-b4e1-5128495884a0" />
+              <property role="3Fg1Gr" value="1049" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgPer" role="3MKX6F">
+                <property role="1hTQn4" value="c99bb6ae-0a95-4cee-ac64-6cc6e71b7dd8" />
+                <property role="3Fg1Gr" value="1050" />
+                <node concept="19SGf9" id="4qxaCfUgPes" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPet" role="19SJt6">
+                    <property role="19SUeA" value="het begrotingsbeheer." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPev" role="3MKX6F">
+      <property role="1hTQn4" value="a98bf12c-bda3-4083-9592-792b02d958c3" />
+      <property role="3Fg1Gr" value="1051" />
+      <node concept="3Fnoml" id="4qxaCfUgPew" role="3MKX6F">
+        <property role="1hTQn4" value="34deca5b-1c50-4a8d-bf88-3fd0a0d9fd4b" />
+        <property role="3Fg1Gr" value="1052" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPex" role="3MKX6F">
+          <property role="1hTQn4" value="cfb0ce84-9e38-423a-8291-8041e6b3d0fe" />
+          <property role="3Fg1Gr" value="1053" />
+          <node concept="19SGf9" id="4qxaCfUgPey" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPez" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën bevordert de doelmatigheid van het financieel beheer van het Rijk." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPeA">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="123c3687-4b34-427a-a34a-7902b88b1eed" />
+    <property role="3Fg1Gr" value="1054" />
+    <property role="TrG5h" value="Artikel 4.12 Budgettair toezicht" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPeB" role="3MKX6F">
+      <property role="1hTQn4" value="a74004ab-cd64-4153-bd1c-f84319ca819f" />
+      <property role="3Fg1Gr" value="1056" />
+      <node concept="3Fnoml" id="4qxaCfUgPeC" role="3MKX6F">
+        <property role="1hTQn4" value="c93f424c-47e9-461c-90ac-239c963f3536" />
+        <property role="3Fg1Gr" value="1057" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPeD" role="3MKX6F">
+          <property role="1hTQn4" value="698b5078-046c-46b9-9614-7b24861f130c" />
+          <property role="3Fg1Gr" value="1058" />
+          <node concept="19SGf9" id="4qxaCfUgPeE" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPeF" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën is belast met het toezicht op het begrotingsbeheer van het Rijk." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPeH" role="3MKX6F">
+      <property role="1hTQn4" value="c441a714-486e-4cb8-b604-3624caa4d610" />
+      <property role="3Fg1Gr" value="1059" />
+      <node concept="3Fnoml" id="4qxaCfUgPeI" role="3MKX6F">
+        <property role="1hTQn4" value="6a8fef7c-64e6-482a-99a7-21a67a33fc98" />
+        <property role="3Fg1Gr" value="1060" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPeJ" role="3MKX6F">
+          <property role="1hTQn4" value="2b0d420d-e266-4b69-8ad0-1f2c6545dd25" />
+          <property role="3Fg1Gr" value="1061" />
+          <node concept="19SGf9" id="4qxaCfUgPeK" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPeL" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën kan voorafgaand financieel toezicht instellen. Dit toezicht houdt in dat hij begrotingsartikelen aanwijst ten laste waarvan bepaalde financiële verplichtingen niet mogen worden aangegaan, voordat hij daarmee heeft ingestemd." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPeN" role="3MKX6F">
+      <property role="1hTQn4" value="3b17550b-6434-4d57-80f5-3e71ebedd058" />
+      <property role="3Fg1Gr" value="1062" />
+      <node concept="3Fnoml" id="4qxaCfUgPeO" role="3MKX6F">
+        <property role="1hTQn4" value="10161914-d73d-47e3-9124-874b54023e30" />
+        <property role="3Fg1Gr" value="1063" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPeP" role="3MKX6F">
+          <property role="1hTQn4" value="5631c9c8-57c4-43de-a2b4-07ebd88ec768" />
+          <property role="3Fg1Gr" value="1064" />
+          <node concept="19SGf9" id="4qxaCfUgPeQ" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPeR" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën bepaalt welke informatie hem ten behoeve van het toezicht, bedoeld in het eerste en tweede lid, wordt verstrekt." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPeT" role="3MKX6F">
+      <property role="1hTQn4" value="6307e6c1-b0c5-440f-b65a-4012510e13fe" />
+      <property role="3Fg1Gr" value="1065" />
+      <node concept="3Fnoml" id="4qxaCfUgPeU" role="3MKX6F">
+        <property role="1hTQn4" value="15ab3b1f-1b16-453c-be98-085ba894660b" />
+        <property role="3Fg1Gr" value="1066" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgPeV" role="3MKX6F">
+          <property role="1hTQn4" value="6ae4f182-b5e4-4ec5-8347-0752a7b51d8d" />
+          <property role="3Fg1Gr" value="1067" />
+          <node concept="19SGf9" id="4qxaCfUgPeW" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPeX" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën maakt tegen een ontwerpbegroting of een ontwerpwijziging van een begroting bezwaar, voor zover:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPeZ" role="3MKX6F">
+          <property role="1hTQn4" value="67345112-debf-4cec-8b8f-a051198b2511" />
+          <property role="3Fg1Gr" value="1068" />
+          <node concept="3MKX5h" id="4qxaCfUgPf0" role="3MKX6F">
+            <property role="1hTQn4" value="66301b59-5182-4e5d-a13c-99c0837ad75c" />
+            <property role="3Fg1Gr" value="1069" />
+            <node concept="3Fnoml" id="4qxaCfUgPf1" role="3MKX6F">
+              <property role="1hTQn4" value="1e541627-d7a7-4cdd-a847-b7ca954506ff" />
+              <property role="3Fg1Gr" value="1070" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgPf2" role="3MKX6F">
+                <property role="1hTQn4" value="521127fa-2196-45f2-947c-ba94bf1d4811" />
+                <property role="3Fg1Gr" value="1071" />
+                <node concept="19SGf9" id="4qxaCfUgPf3" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPf4" role="19SJt6">
+                    <property role="19SUeA" value="deze niet overeenstemming is met het algemene financiële beleid of het doelmatige beheer van de financiële middelen van het Rijk;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPf6" role="3MKX6F">
+            <property role="1hTQn4" value="5a22485d-512e-43a1-8c1c-555e5255f158" />
+            <property role="3Fg1Gr" value="1072" />
+            <node concept="3Fnoml" id="4qxaCfUgPf7" role="3MKX6F">
+              <property role="1hTQn4" value="42837848-0df6-4c0e-ad5c-cfdee7fbed0a" />
+              <property role="3Fg1Gr" value="1073" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgPf8" role="3MKX6F">
+                <property role="1hTQn4" value="ee2796a5-120e-4145-a785-e1ba5148026c" />
+                <property role="3Fg1Gr" value="1074" />
+                <node concept="19SGf9" id="4qxaCfUgPf9" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPfa" role="19SJt6">
+                    <property role="19SUeA" value="de in een ontwerpbegroting of ontwerpwijziging van een begroting opgenomen bedragen niet in een redelijke verhouding staan tot de doelstellingen van het beleid dat aan die begroting ten grondslag ligt;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPfc" role="3MKX6F">
+            <property role="1hTQn4" value="10d4af50-d529-425e-9941-a31c6e43324a" />
+            <property role="3Fg1Gr" value="1075" />
+            <node concept="3Fnoml" id="4qxaCfUgPfd" role="3MKX6F">
+              <property role="1hTQn4" value="75856867-8618-4d56-ad2f-45db03dab086" />
+              <property role="3Fg1Gr" value="1076" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgPfe" role="3MKX6F">
+                <property role="1hTQn4" value="9d109a62-c610-460d-87fc-640e036657fe" />
+                <property role="3Fg1Gr" value="1077" />
+                <node concept="19SGf9" id="4qxaCfUgPff" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPfg" role="19SJt6">
+                    <property role="19SUeA" value="indien het toezicht, bedoeld in het eerste lid, hem daartoe aanleiding geeft." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPfj">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="802f15ee-eaa2-40b0-bdf9-a981db179030" />
+    <property role="3Fg1Gr" value="1078" />
+    <property role="TrG5h" value="Artikel 4.13 Voorstellen met financiële gevolgen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPfk" role="3MKX6F">
+      <property role="1hTQn4" value="8ff9b4e6-ce3d-4adf-913e-d308333e384d" />
+      <property role="3Fg1Gr" value="1080" />
+      <node concept="3Fnoml" id="4qxaCfUgPfl" role="3MKX6F">
+        <property role="1hTQn4" value="70b93cea-240e-4ecb-beae-2860795a6b71" />
+        <property role="3Fg1Gr" value="1081" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPfm" role="3MKX6F">
+          <property role="1hTQn4" value="08eb204f-3dfa-4361-a3b3-ece2a940cf20" />
+          <property role="3Fg1Gr" value="1082" />
+          <node concept="19SGf9" id="4qxaCfUgPfn" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPfo" role="19SJt6">
+              <property role="19SUeA" value="Voorstellen, niet zijnde voorstellen van wet tot vaststelling of wijziging van een begrotingsstaat, alsmede voornemens en toezeggingen met financiële gevolgen voor het Rijk worden door Onze Ministers niet aan de ministerraad of aan de Staten-Generaal aangeboden, kenbaar gemaakt dan wel gedaan, dan nadat Onze Minister van Financiën daarover zijn oordeel heeft gegeven." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPfq" role="3MKX6F">
+      <property role="1hTQn4" value="f808f000-c4df-4806-93f3-5fa3394dfd42" />
+      <property role="3Fg1Gr" value="1083" />
+      <node concept="3Fnoml" id="4qxaCfUgPfr" role="3MKX6F">
+        <property role="1hTQn4" value="06c1c55a-d9ba-4e64-83e3-3597e27ecfdf" />
+        <property role="3Fg1Gr" value="1084" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPfs" role="3MKX6F">
+          <property role="1hTQn4" value="7205d78f-e150-4509-9cec-8f728bb253d6" />
+          <property role="3Fg1Gr" value="1085" />
+          <node concept="19SGf9" id="4qxaCfUgPft" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPfu" role="19SJt6">
+              <property role="19SUeA" value="Artikel 4.12, vierde lid, is op deze voorstellen, voornemens en toezeggingen van overeenkomstige toepassing." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPfx">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="67407d00-f4c1-4839-8fd1-febe503d0c4b" />
+    <property role="3Fg1Gr" value="1086" />
+    <property role="TrG5h" value="Artikel 4.14 Informeren over wijzigingen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPfy" role="3MKX6F">
+      <property role="1hTQn4" value="dff64d03-f30d-4c14-8ff1-8503d33a538f" />
+      <property role="3Fg1Gr" value="1088" />
+      <node concept="3Fnoml" id="4qxaCfUgPfz" role="3MKX6F">
+        <property role="1hTQn4" value="8104a2c3-f736-478a-81fb-2f186f46fe99" />
+        <property role="3Fg1Gr" value="1089" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPf$" role="3MKX6F">
+          <property role="1hTQn4" value="42097baf-db7b-4bf6-aa72-e56d78a98ba0" />
+          <property role="3Fg1Gr" value="1090" />
+          <node concept="19SGf9" id="4qxaCfUgPf_" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPfA" role="19SJt6">
+              <property role="19SUeA" value="Onze Ministers en de colleges informeren Onze Minister van Financiën over voorstellen tot wijziging van:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPfC" role="3MKX6F">
+          <property role="1hTQn4" value="99da7c6c-b71c-4276-9988-9c3a59456286" />
+          <property role="3Fg1Gr" value="1091" />
+          <node concept="3MKX5h" id="4qxaCfUgPfD" role="3MKX6F">
+            <property role="1hTQn4" value="9ab452b0-3977-4c50-a82c-24389b66f29f" />
+            <property role="3Fg1Gr" value="1092" />
+            <node concept="3Fnoml" id="4qxaCfUgPfE" role="3MKX6F">
+              <property role="1hTQn4" value="433a6262-4879-4588-89d4-10d1ce128bb4" />
+              <property role="3Fg1Gr" value="1093" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgPfF" role="3MKX6F">
+                <property role="1hTQn4" value="be849c3c-88c7-4236-a1dc-5abba8cee939" />
+                <property role="3Fg1Gr" value="1094" />
+                <node concept="19SGf9" id="4qxaCfUgPfG" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPfH" role="19SJt6">
+                    <property role="19SUeA" value="de inrichting van de begroting en het jaarverslag;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPfJ" role="3MKX6F">
+            <property role="1hTQn4" value="fb925cff-7ff8-400f-94f1-a6c47cba5ee5" />
+            <property role="3Fg1Gr" value="1095" />
+            <node concept="3Fnoml" id="4qxaCfUgPfK" role="3MKX6F">
+              <property role="1hTQn4" value="d49f7b88-ddf2-4d45-b491-fc989eea97de" />
+              <property role="3Fg1Gr" value="1096" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgPfL" role="3MKX6F">
+                <property role="1hTQn4" value="b10f18e6-285c-4805-8a94-7b6132f50f2c" />
+                <property role="3Fg1Gr" value="1097" />
+                <node concept="19SGf9" id="4qxaCfUgPfM" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPfN" role="19SJt6">
+                    <property role="19SUeA" value="de inrichting van de financiële administratie;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPfP" role="3MKX6F">
+            <property role="1hTQn4" value="a80d3c71-b99c-465c-b2a2-948322cdf801" />
+            <property role="3Fg1Gr" value="1098" />
+            <node concept="3Fnoml" id="4qxaCfUgPfQ" role="3MKX6F">
+              <property role="1hTQn4" value="1d2f8c8a-ee8c-4bbd-946e-0238b76a445c" />
+              <property role="3Fg1Gr" value="1099" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgPfR" role="3MKX6F">
+                <property role="1hTQn4" value="db3cbd85-1db7-4975-93bd-e9ebd9ac9412" />
+                <property role="3Fg1Gr" value="1100" />
+                <node concept="19SGf9" id="4qxaCfUgPfS" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPfT" role="19SJt6">
+                    <property role="19SUeA" value="de organisatorische inrichting van en de uitvoering van de taken door het dienstonderdeel van een ministerie dat belast is met financieel-economische aangelegenheden." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPfV" role="3MKX6F">
+      <property role="1hTQn4" value="4c6d9234-0657-43f0-b44d-e20c02e1168a" />
+      <property role="3Fg1Gr" value="1101" />
+      <node concept="3Fnoml" id="4qxaCfUgPfW" role="3MKX6F">
+        <property role="1hTQn4" value="16beb306-313d-4f6a-880f-65a89334f96f" />
+        <property role="3Fg1Gr" value="1102" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPfX" role="3MKX6F">
+          <property role="1hTQn4" value="2fb66da5-9e33-4007-8cf3-841f3d0bd3fc" />
+          <property role="3Fg1Gr" value="1103" />
+          <node concept="19SGf9" id="4qxaCfUgPfY" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPfZ" role="19SJt6">
+              <property role="19SUeA" value="Onze Ministers en de colleges brengen geen structurele wijzigingen aan in de inrichting, bedoeld in het eerste lid, onderdeel a, b en c, dan nadat daarover overeenstemming is bereikt met Onze Minister van Financiën." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPg2">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="afe5587b-5851-457f-9640-59bafe2a3425" />
+    <property role="3Fg1Gr" value="1104" />
+    <property role="TrG5h" value="Artikel 4.15 Informeren en toegang Onze Minister van Financiën" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPg3" role="3MKX6F">
+      <property role="1hTQn4" value="b8b198a0-2296-474c-a984-0e13be6efe24" />
+      <property role="3Fg1Gr" value="1106" />
+      <node concept="3Fnoml" id="4qxaCfUgPg4" role="3MKX6F">
+        <property role="1hTQn4" value="08a39fb6-efee-4aff-b5ac-c2633bdc8c88" />
+        <property role="3Fg1Gr" value="1107" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPg5" role="3MKX6F">
+          <property role="1hTQn4" value="f17c8d7f-db6d-4185-a0ca-8078093458e6" />
+          <property role="3Fg1Gr" value="1108" />
+          <node concept="19SGf9" id="4qxaCfUgPg6" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPg7" role="19SJt6">
+              <property role="19SUeA" value="Onze Ministers verstrekken Onze Minister van Financiën op zijn verzoek de informatie die naar zijn oordeel noodzakelijk is voor de uitvoering van zijn taken, bedoeld in de artikelen 4.11 tot en met 4.13." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPg9" role="3MKX6F">
+      <property role="1hTQn4" value="abea9be8-8eb9-4606-a6f6-179df8bfbd35" />
+      <property role="3Fg1Gr" value="1109" />
+      <node concept="3Fnoml" id="4qxaCfUgPga" role="3MKX6F">
+        <property role="1hTQn4" value="28ea6a31-0905-4d28-a590-76684b747770" />
+        <property role="3Fg1Gr" value="1110" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPgb" role="3MKX6F">
+          <property role="1hTQn4" value="41e36297-d3fb-4326-8960-83bd23e8e710" />
+          <property role="3Fg1Gr" value="1111" />
+          <node concept="19SGf9" id="4qxaCfUgPgc" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPgd" role="19SJt6">
+              <property role="19SUeA" value="Onze Ministers verlenen Onze Minister van Financiën te allen tijde toegang tot dan wel inzage in alle goederen, administraties, documenten en andere informatiedragers." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPgg">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="d01b8769-767c-4687-8793-13abc7a4e981" />
+    <property role="3Fg1Gr" value="1112" />
+    <property role="TrG5h" value="Artikel 4.16 Bedenkingen en bezwaren" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPgh" role="3MKX6F">
+      <property role="1hTQn4" value="7e062834-a744-48ad-97df-50dab05ae738" />
+      <property role="3Fg1Gr" value="1114" />
+      <node concept="19SGf9" id="4qxaCfUgPgi" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPgj" role="19SJt6">
+          <property role="19SUeA" value="Onze Minister van Financiën deelt Onze Ministers de bedenkingen en bezwaren mee, waartoe de informatie, bedoeld in de artikelen 4.14 en 4.15, hem aanleiding geeft." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPgn">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="f84ff2a4-6c95-4b6e-91c2-f3fd41decd69" />
+    <property role="3Fg1Gr" value="1117" />
+    <property role="TrG5h" value="Artikel 4.17 Centraal beheer van de schatkist van het Rijk" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPgo" role="3MKX6F">
+      <property role="1hTQn4" value="9d5bc796-4fec-4825-b7b9-f7e1d36dd590" />
+      <property role="3Fg1Gr" value="1119" />
+      <node concept="3Fnoml" id="4qxaCfUgPgp" role="3MKX6F">
+        <property role="1hTQn4" value="7c2d217d-1bdb-4166-a84e-f46bb63e5a75" />
+        <property role="3Fg1Gr" value="1120" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPgq" role="3MKX6F">
+          <property role="1hTQn4" value="e6ddf5b6-b630-4c8f-9a9e-f550ec80cebd" />
+          <property role="3Fg1Gr" value="1121" />
+          <node concept="19SGf9" id="4qxaCfUgPgr" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPgs" role="19SJt6">
+              <property role="19SUeA" value="De aan het Rijk toebehorende en toevertrouwde gelden en geldswaardige papieren worden in de schatkist van het Rijk aangehouden." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPgu" role="3MKX6F">
+      <property role="1hTQn4" value="c1f71e11-de1a-430c-82d6-d238112e661d" />
+      <property role="3Fg1Gr" value="1122" />
+      <node concept="3Fnoml" id="4qxaCfUgPgv" role="3MKX6F">
+        <property role="1hTQn4" value="f197ccac-1866-441a-87c9-f99705be6dda" />
+        <property role="3Fg1Gr" value="1123" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPgw" role="3MKX6F">
+          <property role="1hTQn4" value="bbe3d6ee-8863-44bd-bcd6-c3b59eb76436" />
+          <property role="3Fg1Gr" value="1124" />
+          <node concept="19SGf9" id="4qxaCfUgPgx" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPgy" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën is belast met het centraal beheer van de schatkist van het Rijk. Dit beheer omvat het beheer van de centrale kassen van het Rijk en de coördinatie van het beheer van de departementale kassen." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPg$" role="3MKX6F">
+      <property role="1hTQn4" value="38b70252-f0af-4367-8e7c-58bfcbe481bc" />
+      <property role="3Fg1Gr" value="1125" />
+      <node concept="3Fnoml" id="4qxaCfUgPg_" role="3MKX6F">
+        <property role="1hTQn4" value="2d670145-d486-4a08-9c65-3e7ae541a718" />
+        <property role="3Fg1Gr" value="1126" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPgA" role="3MKX6F">
+          <property role="1hTQn4" value="21f31a5d-d33d-4d51-8cf6-100fcd22fe69" />
+          <property role="3Fg1Gr" value="1127" />
+          <node concept="19SGf9" id="4qxaCfUgPgB" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPgC" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën kan aan de ambtenaren die belast zijn met het beheer van departementale kassen algemene aanwijzingen geven voor het beheer van die kassen." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPgE" role="3MKX6F">
+      <property role="1hTQn4" value="d4bcd2bb-e961-4945-a844-36b0a2b4647d" />
+      <property role="3Fg1Gr" value="1128" />
+      <node concept="3Fnoml" id="4qxaCfUgPgF" role="3MKX6F">
+        <property role="1hTQn4" value="a5988bc6-756d-4b95-aa99-663eb9594bc6" />
+        <property role="3Fg1Gr" value="1129" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgPgG" role="3MKX6F">
+          <property role="1hTQn4" value="4130df5e-7054-45cc-abbc-281ae3dbde20" />
+          <property role="3Fg1Gr" value="1130" />
+          <node concept="19SGf9" id="4qxaCfUgPgH" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPgI" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën is belast met de centrale administratie van de schatkist van het Rijk." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPgK" role="3MKX6F">
+      <property role="1hTQn4" value="ece78035-f8c2-41d1-a1d1-7d0e70714714" />
+      <property role="3Fg1Gr" value="1131" />
+      <node concept="3Fnoml" id="4qxaCfUgPgL" role="3MKX6F">
+        <property role="1hTQn4" value="3f3edd45-1539-4efb-9a01-b4d5071aabb2" />
+        <property role="3Fg1Gr" value="1132" />
+        <property role="3Fnomm" value="5" />
+        <node concept="3MKX5i" id="4qxaCfUgPgM" role="3MKX6F">
+          <property role="1hTQn4" value="33a40539-7471-4e27-afc6-b8cd09ef886f" />
+          <property role="3Fg1Gr" value="1133" />
+          <node concept="19SGf9" id="4qxaCfUgPgN" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPgO" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën neemt jaarlijks, nadat de dechargeverlening, bedoeld in artikel 2.40 heeft plaatsgevonden, de saldi van de begrotingsontvangsten en de begrotingsuitgaven op de departementale en niet-departementale saldibalansen over in de centrale administratie van de schatkist van het Rijk." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPgR">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="ef678f7f-3e17-41e6-8159-85505190349b" />
+    <property role="3Fg1Gr" value="1134" />
+    <property role="TrG5h" value="Artikel 4.18 Centraal beheer van de staatsschuld" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPgS" role="3MKX6F">
+      <property role="1hTQn4" value="d07ec11c-e325-4334-89b0-414253735695" />
+      <property role="3Fg1Gr" value="1136" />
+      <node concept="19SGf9" id="4qxaCfUgPgT" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPgU" role="19SJt6">
+          <property role="19SUeA" value="Onze Minister van Financiën is belast met:" />
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPgW" role="3MKX6F">
+      <property role="1hTQn4" value="6cef35e9-1657-489f-ab16-e64f1f33fb78" />
+      <property role="3Fg1Gr" value="1137" />
+      <node concept="3MKX5h" id="4qxaCfUgPgX" role="3MKX6F">
+        <property role="1hTQn4" value="aa279791-00ec-4773-8d39-03d34db8aebb" />
+        <property role="3Fg1Gr" value="1138" />
+        <node concept="3Fnoml" id="4qxaCfUgPgY" role="3MKX6F">
+          <property role="1hTQn4" value="4fe2c774-4b51-4683-819b-db2fc7191d8e" />
+          <property role="3Fg1Gr" value="1139" />
+          <property role="3Fnomm" value="a." />
+          <node concept="3MKX5i" id="4qxaCfUgPgZ" role="3MKX6F">
+            <property role="1hTQn4" value="87cd28ee-0c7a-46f6-83a1-94cd10da96d7" />
+            <property role="3Fg1Gr" value="1140" />
+            <node concept="19SGf9" id="4qxaCfUgPh0" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgPh1" role="19SJt6">
+                <property role="19SUeA" value="het beheer van de staatsschuld;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgPh3" role="3MKX6F">
+        <property role="1hTQn4" value="e668a4fd-5f38-47d2-b947-d51a720a5024" />
+        <property role="3Fg1Gr" value="1141" />
+        <node concept="3Fnoml" id="4qxaCfUgPh4" role="3MKX6F">
+          <property role="1hTQn4" value="2e25ebad-47d7-48cc-bb10-9d61aa8974da" />
+          <property role="3Fg1Gr" value="1142" />
+          <property role="3Fnomm" value="b." />
+          <node concept="3MKX5i" id="4qxaCfUgPh5" role="3MKX6F">
+            <property role="1hTQn4" value="e4b96ed4-9b55-4671-9309-610b07b99734" />
+            <property role="3Fg1Gr" value="1143" />
+            <node concept="19SGf9" id="4qxaCfUgPh6" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgPh7" role="19SJt6">
+                <property role="19SUeA" value="het sluiten van overeenkomsten tot het aangaan van geldleningen door de staat voor de tekortfinanciering en de herfinanciering van aflopende geldleningen." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPha">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="3a375836-825f-4a26-854c-2cdabe5a38b9" />
+    <property role="3Fg1Gr" value="1144" />
+    <property role="TrG5h" value="Artikel 4.19 Specifieke taken" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPhb" role="3MKX6F">
+      <property role="1hTQn4" value="a9194048-59f6-4213-9986-2de481a5a4fe" />
+      <property role="3Fg1Gr" value="1146" />
+      <node concept="3Fnoml" id="4qxaCfUgPhc" role="3MKX6F">
+        <property role="1hTQn4" value="bdf42b59-165b-48e5-b75e-02a70c0b1c9e" />
+        <property role="3Fg1Gr" value="1147" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPhd" role="3MKX6F">
+          <property role="1hTQn4" value="2bf226c7-4852-47da-acff-b3ea18b7132d" />
+          <property role="3Fg1Gr" value="1148" />
+          <node concept="19SGf9" id="4qxaCfUgPhe" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPhf" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën is in afwijking van artikel 4.1, tweede lid, aanhef en onderdeel e, belast met het materieelbeheer voor zover dat betrekking heeft op de overtollige roerende zaken van het Rijk." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPhh" role="3MKX6F">
+      <property role="1hTQn4" value="06f71d49-f8a2-4d43-bb40-1bcba859f460" />
+      <property role="3Fg1Gr" value="1149" />
+      <node concept="3Fnoml" id="4qxaCfUgPhi" role="3MKX6F">
+        <property role="1hTQn4" value="2cb40762-441a-4ee0-aecc-3a8999374f4c" />
+        <property role="3Fg1Gr" value="1150" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPhj" role="3MKX6F">
+          <property role="1hTQn4" value="53a9ecf9-69ce-4cf5-9261-0f10f3bb4744" />
+          <property role="3Fg1Gr" value="1151" />
+          <node concept="19SGf9" id="4qxaCfUgPhk" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPhl" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën is belast met het afstoten van overtollige roerende zaken van het Rijk." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPhn" role="3MKX6F">
+      <property role="1hTQn4" value="94848105-6430-4638-b7b7-e21df77a29e1" />
+      <property role="3Fg1Gr" value="1152" />
+      <node concept="3Fnoml" id="4qxaCfUgPho" role="3MKX6F">
+        <property role="1hTQn4" value="fa4e5e3e-7ab3-4e29-a803-3675dc6ead58" />
+        <property role="3Fg1Gr" value="1153" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPhp" role="3MKX6F">
+          <property role="1hTQn4" value="4375f3f3-b6ce-447a-9f6c-13ecc61cbd3b" />
+          <property role="3Fg1Gr" value="1154" />
+          <node concept="19SGf9" id="4qxaCfUgPhq" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPhr" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën is mede belast met het beheer van de leningen en garanties die door Onze Ministers aan een derde zijn verstrekt met uitzondering van de leningen en garanties die bij of krachtens de wet zijn bepaald." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPhu">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="f397092d-23fd-4f82-abfb-cdaf85da664d" />
+    <property role="3Fg1Gr" value="1155" />
+    <property role="TrG5h" value="Artikel 4.20 Regelgeving" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPhv" role="3MKX6F">
+      <property role="1hTQn4" value="55da792a-cb08-42ee-9224-eaf4329f1718" />
+      <property role="3Fg1Gr" value="1157" />
+      <node concept="3Fnoml" id="4qxaCfUgPhw" role="3MKX6F">
+        <property role="1hTQn4" value="bce48bf6-c312-43c7-8741-64c9973c07e7" />
+        <property role="3Fg1Gr" value="1158" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPhx" role="3MKX6F">
+          <property role="1hTQn4" value="06c593c9-b4a6-45ed-8fff-bc80daab5f28" />
+          <property role="3Fg1Gr" value="1159" />
+          <node concept="19SGf9" id="4qxaCfUgPhy" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPhz" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën stelt voor het Rijk nadere regels over:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPh_" role="3MKX6F">
+          <property role="1hTQn4" value="7ad44d13-a762-4b92-bc4f-02a9737bd43a" />
+          <property role="3Fg1Gr" value="1160" />
+          <node concept="3MKX5h" id="4qxaCfUgPhA" role="3MKX6F">
+            <property role="1hTQn4" value="9167f7df-abde-4956-9075-294b85fb9fc0" />
+            <property role="3Fg1Gr" value="1161" />
+            <node concept="3Fnoml" id="4qxaCfUgPhB" role="3MKX6F">
+              <property role="1hTQn4" value="8f963ca0-b3f5-4669-b5f9-38fc003e1e10" />
+              <property role="3Fg1Gr" value="1162" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgPhC" role="3MKX6F">
+                <property role="1hTQn4" value="b441f2ce-34cf-4424-97e5-3e9beb27e0a9" />
+                <property role="3Fg1Gr" value="1163" />
+                <node concept="19SGf9" id="4qxaCfUgPhD" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPhE" role="19SJt6">
+                    <property role="19SUeA" value="het inrichten van de rijksbegroting, bedoeld in artikel 2.1, en van de verantwoording van het Rijk, bedoeld in artikel 2.29;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPhG" role="3MKX6F">
+            <property role="1hTQn4" value="55700f06-910c-4581-9653-81534f276963" />
+            <property role="3Fg1Gr" value="1164" />
+            <node concept="3Fnoml" id="4qxaCfUgPhH" role="3MKX6F">
+              <property role="1hTQn4" value="8ffc8912-1e28-4ff5-8668-79312b95572a" />
+              <property role="3Fg1Gr" value="1165" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgPhI" role="3MKX6F">
+                <property role="1hTQn4" value="0ce90a13-ac14-479f-a03d-dbbe0553011a" />
+                <property role="3Fg1Gr" value="1166" />
+                <node concept="19SGf9" id="4qxaCfUgPhJ" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPhK" role="19SJt6">
+                    <property role="19SUeA" value="het begrotings- en het verantwoordingsproces;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPhM" role="3MKX6F">
+            <property role="1hTQn4" value="d4ef8650-2a9a-444b-910e-e49723acacdf" />
+            <property role="3Fg1Gr" value="1167" />
+            <node concept="3Fnoml" id="4qxaCfUgPhN" role="3MKX6F">
+              <property role="1hTQn4" value="f2dad8cc-bcdd-4631-9844-71391ba16813" />
+              <property role="3Fg1Gr" value="1168" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgPhO" role="3MKX6F">
+                <property role="1hTQn4" value="1f904956-b7a4-4e98-aaa2-995b930a0445" />
+                <property role="3Fg1Gr" value="1169" />
+                <node concept="19SGf9" id="4qxaCfUgPhP" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPhQ" role="19SJt6">
+                    <property role="19SUeA" value="de begrotings- en de verantwoordingsinformatie;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPhS" role="3MKX6F">
+            <property role="1hTQn4" value="92cc12db-ba5a-4e9f-9f6f-680bc51f76c1" />
+            <property role="3Fg1Gr" value="1170" />
+            <node concept="3Fnoml" id="4qxaCfUgPhT" role="3MKX6F">
+              <property role="1hTQn4" value="2cafe334-f86a-4515-96f2-d3c0b29bb250" />
+              <property role="3Fg1Gr" value="1171" />
+              <property role="3Fnomm" value="d." />
+              <node concept="3MKX5i" id="4qxaCfUgPhU" role="3MKX6F">
+                <property role="1hTQn4" value="bbd6ecc3-1283-4837-bb59-7ef76f7ab0d2" />
+                <property role="3Fg1Gr" value="1172" />
+                <node concept="19SGf9" id="4qxaCfUgPhV" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPhW" role="19SJt6">
+                    <property role="19SUeA" value="het begrotingsbeheer en het financieel beheer;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPhY" role="3MKX6F">
+            <property role="1hTQn4" value="baea650e-81c2-4067-9d09-123e2789f95a" />
+            <property role="3Fg1Gr" value="1173" />
+            <node concept="3Fnoml" id="4qxaCfUgPhZ" role="3MKX6F">
+              <property role="1hTQn4" value="9f16c316-09e9-43d5-8251-55b445b9d4b0" />
+              <property role="3Fg1Gr" value="1174" />
+              <property role="3Fnomm" value="e." />
+              <node concept="3MKX5i" id="4qxaCfUgPi0" role="3MKX6F">
+                <property role="1hTQn4" value="3b42f583-0bf8-4c46-b9e0-e03a1eeb70c0" />
+                <property role="3Fg1Gr" value="1175" />
+                <node concept="19SGf9" id="4qxaCfUgPi1" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPi2" role="19SJt6">
+                    <property role="19SUeA" value="de financiële administratie;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPi4" role="3MKX6F">
+            <property role="1hTQn4" value="c4302083-9aac-482a-bbfd-2af9903f4905" />
+            <property role="3Fg1Gr" value="1176" />
+            <node concept="3Fnoml" id="4qxaCfUgPi5" role="3MKX6F">
+              <property role="1hTQn4" value="96cf7bab-ba7e-438b-a9fd-48e0b3d8cdc8" />
+              <property role="3Fg1Gr" value="1177" />
+              <property role="3Fnomm" value="f." />
+              <node concept="3MKX5i" id="4qxaCfUgPi6" role="3MKX6F">
+                <property role="1hTQn4" value="0a035406-563c-4385-bef5-fe7018fd47f5" />
+                <property role="3Fg1Gr" value="1178" />
+                <node concept="19SGf9" id="4qxaCfUgPi7" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPi8" role="19SJt6">
+                    <property role="19SUeA" value="het verrichten van privaatrechtelijke rechtshandelingen namens de Staat." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPia" role="3MKX6F">
+      <property role="1hTQn4" value="41a5cfbd-68d9-4a94-8942-fe35f7c78848" />
+      <property role="3Fg1Gr" value="1179" />
+      <node concept="3Fnoml" id="4qxaCfUgPib" role="3MKX6F">
+        <property role="1hTQn4" value="02ad0fd1-a48f-4b82-bc8a-2ff49c42ea8c" />
+        <property role="3Fg1Gr" value="1180" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPic" role="3MKX6F">
+          <property role="1hTQn4" value="07848f9e-a29e-4e1f-8694-2898e066a6aa" />
+          <property role="3Fg1Gr" value="1181" />
+          <node concept="19SGf9" id="4qxaCfUgPid" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPie" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën kan voor het Rijk regels stellen over:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPig" role="3MKX6F">
+          <property role="1hTQn4" value="6de8cecc-3627-49d8-ac9b-9e0aa24ab446" />
+          <property role="3Fg1Gr" value="1182" />
+          <node concept="3MKX5h" id="4qxaCfUgPih" role="3MKX6F">
+            <property role="1hTQn4" value="72ee732a-3580-4519-9890-6a530bdd0f94" />
+            <property role="3Fg1Gr" value="1183" />
+            <node concept="3Fnoml" id="4qxaCfUgPii" role="3MKX6F">
+              <property role="1hTQn4" value="9185ed00-095d-49a5-bc27-0a9875edd070" />
+              <property role="3Fg1Gr" value="1184" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgPij" role="3MKX6F">
+                <property role="1hTQn4" value="d0ca46ef-c3d2-421e-b2ab-0ef4c81c142e" />
+                <property role="3Fg1Gr" value="1185" />
+                <node concept="19SGf9" id="4qxaCfUgPik" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPil" role="19SJt6">
+                    <property role="19SUeA" value="de samenstelling, de organisatie en de doelen van een periodiek interdepartementaal overleg over financieel-economische aangelegenheden;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPin" role="3MKX6F">
+            <property role="1hTQn4" value="1e8c2896-87a8-43de-9ad9-6073ee08d650" />
+            <property role="3Fg1Gr" value="1186" />
+            <node concept="3Fnoml" id="4qxaCfUgPio" role="3MKX6F">
+              <property role="1hTQn4" value="791241ab-baf9-4938-b0b1-44893a246d38" />
+              <property role="3Fg1Gr" value="1187" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgPip" role="3MKX6F">
+                <property role="1hTQn4" value="d9303297-07df-4d5a-a45d-610da5bf1afe" />
+                <property role="3Fg1Gr" value="1188" />
+                <node concept="19SGf9" id="4qxaCfUgPiq" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPir" role="19SJt6">
+                    <property role="19SUeA" value="de samenstelling, de organisatie, de taken en de informatievoorziening van het adviesorgaan van een ministerie met betrekking tot audit- en bedrijfsvoeringsaangelegenheden;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPit" role="3MKX6F">
+            <property role="1hTQn4" value="2c2b4704-023c-48e8-9e85-07bb3caaaa39" />
+            <property role="3Fg1Gr" value="1189" />
+            <node concept="3Fnoml" id="4qxaCfUgPiu" role="3MKX6F">
+              <property role="1hTQn4" value="a86ff19a-bdc7-4150-bbc0-b581d0fd38a3" />
+              <property role="3Fg1Gr" value="1190" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgPiv" role="3MKX6F">
+                <property role="1hTQn4" value="7ddd8206-6ad5-4cff-b25b-d74d4ab6b1ca" />
+                <property role="3Fg1Gr" value="1191" />
+                <node concept="19SGf9" id="4qxaCfUgPiw" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPix" role="19SJt6">
+                    <property role="19SUeA" value="het materieelbeheer voor zover dat betrekking heeft op de roerende zaken van het Rijk en de administraties die ten behoeve van dat materieelbeheer worden bijgehouden;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPiz" role="3MKX6F">
+            <property role="1hTQn4" value="a0aa338c-1e33-4082-9fc4-72497e650dc3" />
+            <property role="3Fg1Gr" value="1192" />
+            <node concept="3Fnoml" id="4qxaCfUgPi$" role="3MKX6F">
+              <property role="1hTQn4" value="ead3bd31-be8a-440e-8cec-7559a6b62e3d" />
+              <property role="3Fg1Gr" value="1193" />
+              <property role="3Fnomm" value="d." />
+              <node concept="3MKX5i" id="4qxaCfUgPi_" role="3MKX6F">
+                <property role="1hTQn4" value="477aa4ea-04f6-41da-9f30-aaf0ea110a70" />
+                <property role="3Fg1Gr" value="1194" />
+                <node concept="19SGf9" id="4qxaCfUgPiA" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPiB" role="19SJt6">
+                    <property role="19SUeA" value="het afstoten van overtollige roerende zaken van het Rijk;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPiD" role="3MKX6F">
+            <property role="1hTQn4" value="9456c8b9-81bf-4b2a-ba45-8ecdb8caecfb" />
+            <property role="3Fg1Gr" value="1195" />
+            <node concept="3Fnoml" id="4qxaCfUgPiE" role="3MKX6F">
+              <property role="1hTQn4" value="b2e1d441-4d10-4e12-a0e5-6c65499d3ac2" />
+              <property role="3Fg1Gr" value="1196" />
+              <property role="3Fnomm" value="e." />
+              <node concept="3MKX5i" id="4qxaCfUgPiF" role="3MKX6F">
+                <property role="1hTQn4" value="5b21e6a9-f358-467f-811c-603ec6b0fe85" />
+                <property role="3Fg1Gr" value="1197" />
+                <node concept="19SGf9" id="4qxaCfUgPiG" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPiH" role="19SJt6">
+                    <property role="19SUeA" value="het toepassen van financiële beleidsinstrumenten;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPiJ" role="3MKX6F">
+            <property role="1hTQn4" value="f67980b9-5794-4faf-bf11-01a63c7e7f20" />
+            <property role="3Fg1Gr" value="1198" />
+            <node concept="3Fnoml" id="4qxaCfUgPiK" role="3MKX6F">
+              <property role="1hTQn4" value="878175bc-783b-4853-9e84-51517ac2a918" />
+              <property role="3Fg1Gr" value="1199" />
+              <property role="3Fnomm" value="f." />
+              <node concept="3MKX5i" id="4qxaCfUgPiL" role="3MKX6F">
+                <property role="1hTQn4" value="85afc3c5-6656-4e17-9621-805f8d151308" />
+                <property role="3Fg1Gr" value="1200" />
+                <node concept="19SGf9" id="4qxaCfUgPiM" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPiN" role="19SJt6">
+                    <property role="19SUeA" value="de voorstellen, voornemens en toezeggingen, bedoeld in artikel 3.1, aanhef, en het periodiek onderzoeken van de doeltreffendheid en doelmatigheid van het beleid en de bedrijfsvoering;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPiP" role="3MKX6F">
+            <property role="1hTQn4" value="e2cd264f-d455-4ee0-a156-31e2d8e8e7fc" />
+            <property role="3Fg1Gr" value="1201" />
+            <node concept="3Fnoml" id="4qxaCfUgPiQ" role="3MKX6F">
+              <property role="1hTQn4" value="2390eedc-8411-4b28-b8e0-c1afa0c0ca44" />
+              <property role="3Fg1Gr" value="1202" />
+              <property role="3Fnomm" value="g." />
+              <node concept="3MKX5i" id="4qxaCfUgPiR" role="3MKX6F">
+                <property role="1hTQn4" value="c4b8bad4-6a41-4576-a17f-fdf6d20f7fd5" />
+                <property role="3Fg1Gr" value="1203" />
+                <node concept="19SGf9" id="4qxaCfUgPiS" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPiT" role="19SJt6">
+                    <property role="19SUeA" value="de inrichting en het beheer van de agentschappen." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPiV" role="3MKX6F">
+      <property role="1hTQn4" value="72da2de4-e1ec-4ad3-92bc-e0bcb4a9f408" />
+      <property role="3Fg1Gr" value="1204" />
+      <node concept="3Fnoml" id="4qxaCfUgPiW" role="3MKX6F">
+        <property role="1hTQn4" value="6cdda618-22d1-4e3d-bd72-739149513f02" />
+        <property role="3Fg1Gr" value="1205" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPiX" role="3MKX6F">
+          <property role="1hTQn4" value="dc69eb12-9386-4e4d-84e4-37f94543bdd2" />
+          <property role="3Fg1Gr" value="1206" />
+          <node concept="19SGf9" id="4qxaCfUgPiY" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPiZ" role="19SJt6">
+              <property role="19SUeA" value="De regels, bedoeld in het eerste lid, onderdelen a en c, en het tweede lid, onderdeel f, worden niet vastgesteld, dan nadat daarover op hoofdlijnen overleg met de Tweede Kamer der Staten-Generaal is gevoerd." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPj1" role="3MKX6F">
+      <property role="1hTQn4" value="08faa737-f5d4-4ac5-a8da-eadee0977341" />
+      <property role="3Fg1Gr" value="1207" />
+      <node concept="3Fnoml" id="4qxaCfUgPj2" role="3MKX6F">
+        <property role="1hTQn4" value="8e3df643-ae33-4467-a758-6d687ab72e72" />
+        <property role="3Fg1Gr" value="1208" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgPj3" role="3MKX6F">
+          <property role="1hTQn4" value="4cb5e7e5-2c18-427b-bfd6-b886401577d0" />
+          <property role="3Fg1Gr" value="1209" />
+          <node concept="19SGf9" id="4qxaCfUgPj4" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPj5" role="19SJt6">
+              <property role="19SUeA" value="Bij algemene maatregel van bestuur worden regels gesteld over:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPj7" role="3MKX6F">
+          <property role="1hTQn4" value="0a40772e-6594-491e-8c9d-27fe043f7caf" />
+          <property role="3Fg1Gr" value="1210" />
+          <node concept="3MKX5h" id="4qxaCfUgPj8" role="3MKX6F">
+            <property role="1hTQn4" value="38b7427b-1b58-4819-8dcd-55c98f385ff5" />
+            <property role="3Fg1Gr" value="1211" />
+            <node concept="3Fnoml" id="4qxaCfUgPj9" role="3MKX6F">
+              <property role="1hTQn4" value="4f34eb82-3e8f-4332-8d9c-458c6996e616" />
+              <property role="3Fg1Gr" value="1212" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgPja" role="3MKX6F">
+                <property role="1hTQn4" value="b9d2e144-ade3-4c62-8288-c61d634b3887" />
+                <property role="3Fg1Gr" value="1213" />
+                <node concept="19SGf9" id="4qxaCfUgPjb" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPjc" role="19SJt6">
+                    <property role="19SUeA" value="de taken en de organisatie van het dienstonderdeel van een ministerie dat belast is met financieel-economische aangelegenheden;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPje" role="3MKX6F">
+            <property role="1hTQn4" value="c21bf1b4-6595-4156-a1e1-64823d95d0f2" />
+            <property role="3Fg1Gr" value="1214" />
+            <node concept="3Fnoml" id="4qxaCfUgPjf" role="3MKX6F">
+              <property role="1hTQn4" value="87cbaa6c-be7c-4bce-807b-d6e9e389ac82" />
+              <property role="3Fg1Gr" value="1215" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgPjg" role="3MKX6F">
+                <property role="1hTQn4" value="16cd219d-ede3-41ea-81ea-4074073c642e" />
+                <property role="3Fg1Gr" value="1216" />
+                <node concept="19SGf9" id="4qxaCfUgPjh" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPji" role="19SJt6">
+                    <property role="19SUeA" value="de taken, de organisatie en de kwaliteitsbeheersing van de Auditdienst Rijk." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPjk" role="3MKX6F">
+      <property role="1hTQn4" value="f1f7b068-5435-41c8-ac2e-954dc9e34f0f" />
+      <property role="3Fg1Gr" value="1217" />
+      <node concept="3Fnoml" id="4qxaCfUgPjl" role="3MKX6F">
+        <property role="1hTQn4" value="93e568ad-121f-49af-b8a7-273323bb1e78" />
+        <property role="3Fg1Gr" value="1218" />
+        <property role="3Fnomm" value="5" />
+        <node concept="3MKX5i" id="4qxaCfUgPjm" role="3MKX6F">
+          <property role="1hTQn4" value="0e8e1991-002e-4b47-9f55-7342a22e185a" />
+          <property role="3Fg1Gr" value="1219" />
+          <node concept="19SGf9" id="4qxaCfUgPjn" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPjo" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Binnenlandse Zaken en Koninkrijksrelaties kan voor het Rijk regels stellen over:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPjq" role="3MKX6F">
+          <property role="1hTQn4" value="c102cdf1-bc57-4504-98a4-aeebab0f0b9f" />
+          <property role="3Fg1Gr" value="1220" />
+          <node concept="3MKX5h" id="4qxaCfUgPjr" role="3MKX6F">
+            <property role="1hTQn4" value="6325ee72-36a0-4088-b207-f22c78af9bc4" />
+            <property role="3Fg1Gr" value="1221" />
+            <node concept="3Fnoml" id="4qxaCfUgPjs" role="3MKX6F">
+              <property role="1hTQn4" value="2ec9736f-d4df-4581-b4e5-f248b2488443" />
+              <property role="3Fg1Gr" value="1222" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgPjt" role="3MKX6F">
+                <property role="1hTQn4" value="b7887e59-63ea-4f70-ab47-3e27c1ec5e31" />
+                <property role="3Fg1Gr" value="1223" />
+                <node concept="19SGf9" id="4qxaCfUgPju" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPjv" role="19SJt6">
+                    <property role="19SUeA" value="het materieelbeheer voor zover dat betrekking heeft op de onroerende zaken van het Rijk en de administraties die ten behoeve van dat materieelbeheer worden bijgehouden;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPjx" role="3MKX6F">
+            <property role="1hTQn4" value="262567d1-2941-4f2b-9d44-a9fd027a565c" />
+            <property role="3Fg1Gr" value="1224" />
+            <node concept="3Fnoml" id="4qxaCfUgPjy" role="3MKX6F">
+              <property role="1hTQn4" value="a7657c68-20d3-4549-ad7c-ae117cc4b877" />
+              <property role="3Fg1Gr" value="1225" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgPjz" role="3MKX6F">
+                <property role="1hTQn4" value="ef9c2dc3-c536-4669-93ec-760216c66659" />
+                <property role="3Fg1Gr" value="1226" />
+                <node concept="19SGf9" id="4qxaCfUgPj$" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPj_" role="19SJt6">
+                    <property role="19SUeA" value="het privaatrechtelijk beheer van de onroerende zaken van het Rijk." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPjE">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="44f2a2bd-7de7-4c95-afd1-6a1d44d48a9f" />
+    <property role="3Fg1Gr" value="1231" />
+    <property role="TrG5h" value="Artikel 5.1 Aanwijzing door Onze Minister van Financiën" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPjF" role="3MKX6F">
+      <property role="1hTQn4" value="21aaad39-500d-4358-bccd-1c8155925555" />
+      <property role="3Fg1Gr" value="1233" />
+      <node concept="3Fnoml" id="4qxaCfUgPjG" role="3MKX6F">
+        <property role="1hTQn4" value="4ee3bff2-818e-4e60-a413-fb2fe7f53231" />
+        <property role="3Fg1Gr" value="1234" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPjH" role="3MKX6F">
+          <property role="1hTQn4" value="aa043cd3-22e8-431b-b993-62b45323c374" />
+          <property role="3Fg1Gr" value="1235" />
+          <node concept="19SGf9" id="4qxaCfUgPjI" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPjJ" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën wijst op grond van het bepaalde in dit hoofdstuk in overeenstemming met Onze Minister die het aangaat aan:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPjL" role="3MKX6F">
+          <property role="1hTQn4" value="f21cd0f0-4ad1-4383-baa8-12ef4bc37e3e" />
+          <property role="3Fg1Gr" value="1236" />
+          <node concept="3MKX5h" id="4qxaCfUgPjM" role="3MKX6F">
+            <property role="1hTQn4" value="4972bfe7-d53a-4e16-9750-d94cc11af417" />
+            <property role="3Fg1Gr" value="1237" />
+            <node concept="3Fnoml" id="4qxaCfUgPjN" role="3MKX6F">
+              <property role="1hTQn4" value="f7911c70-ece8-4a25-958b-4df90dd09529" />
+              <property role="3Fg1Gr" value="1238" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgPjO" role="3MKX6F">
+                <property role="1hTQn4" value="ce9d526c-f1e9-4784-8a4b-62bacceb562e" />
+                <property role="3Fg1Gr" value="1239" />
+                <node concept="19SGf9" id="4qxaCfUgPjP" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPjQ" role="19SJt6">
+                    <property role="19SUeA" value="de rechtspersonen die schatkistbankieren, bedoeld in de artikelen 5.2, eerste en derde lid, en 5.4;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPjS" role="3MKX6F">
+            <property role="1hTQn4" value="c44f324c-ec3a-4837-82bd-fca39910ab27" />
+            <property role="3Fg1Gr" value="1240" />
+            <node concept="3Fnoml" id="4qxaCfUgPjT" role="3MKX6F">
+              <property role="1hTQn4" value="a6441929-73f3-4e51-b169-359eeb6c7751" />
+              <property role="3Fg1Gr" value="1241" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgPjU" role="3MKX6F">
+                <property role="1hTQn4" value="14b859c2-4e2e-45b9-ad65-564a18155d4c" />
+                <property role="3Fg1Gr" value="1242" />
+                <node concept="19SGf9" id="4qxaCfUgPjV" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPjW" role="19SJt6">
+                    <property role="19SUeA" value="de rechtspersonen die hun liquide middelen uitzetten, bedoeld in artikel 5.7." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPjY" role="3MKX6F">
+      <property role="1hTQn4" value="805d6856-9dc9-4892-b993-06660d51811e" />
+      <property role="3Fg1Gr" value="1243" />
+      <node concept="3Fnoml" id="4qxaCfUgPjZ" role="3MKX6F">
+        <property role="1hTQn4" value="4e2defee-34ef-45da-aa9a-397fc4aa8626" />
+        <property role="3Fg1Gr" value="1244" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPk0" role="3MKX6F">
+          <property role="1hTQn4" value="6d082a79-0e07-4e4d-87c9-21ad52d9c120" />
+          <property role="3Fg1Gr" value="1245" />
+          <node concept="19SGf9" id="4qxaCfUgPk1" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPk2" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën maakt de aanwijzing, bedoeld in het eerste lid, openbaar. De aanwijzing is een besluit als bedoeld in artikel 1:3, eerste lid, van de Algemene wet bestuursrecht." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPk6">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="0214882a-ecad-4fc2-b856-df8a357cf28c" />
+    <property role="3Fg1Gr" value="1248" />
+    <property role="TrG5h" value="Artikel 5.2 Verplicht schatkistbankieren" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPk7" role="3MKX6F">
+      <property role="1hTQn4" value="d746a72b-f29e-4d98-a4b7-2e239a55966c" />
+      <property role="3Fg1Gr" value="1250" />
+      <node concept="3Fnoml" id="4qxaCfUgPk8" role="3MKX6F">
+        <property role="1hTQn4" value="f1d43138-cae0-4413-869c-dbb3dc7df136" />
+        <property role="3Fg1Gr" value="1251" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPk9" role="3MKX6F">
+          <property role="1hTQn4" value="8c69f620-9fa3-4c52-b08c-afa06ce9958c" />
+          <property role="3Fg1Gr" value="1252" />
+          <node concept="19SGf9" id="4qxaCfUgPka" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPkb" role="19SJt6">
+              <property role="19SUeA" value="Een rechtspersoon met een wettelijke taak is gehouden om te schatkistbankieren, met uitzondering van de rechtspersonen met een wettelijke taak, bedoeld in het tweede lid." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPkd" role="3MKX6F">
+      <property role="1hTQn4" value="a084a021-1138-400e-a57a-b551950fcbd1" />
+      <property role="3Fg1Gr" value="1253" />
+      <node concept="3Fnoml" id="4qxaCfUgPke" role="3MKX6F">
+        <property role="1hTQn4" value="11291da5-8b50-45a9-94e9-399d51b95c5d" />
+        <property role="3Fg1Gr" value="1254" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPkf" role="3MKX6F">
+          <property role="1hTQn4" value="dd27a15f-89b2-4b0e-bd4a-10d820b8ed7f" />
+          <property role="3Fg1Gr" value="1255" />
+          <node concept="19SGf9" id="4qxaCfUgPkg" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPkh" role="19SJt6">
+              <property role="19SUeA" value="Een rechtspersoon met een wettelijke taak is niet gehouden om te schatkistbankieren, indien:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPkj" role="3MKX6F">
+          <property role="1hTQn4" value="ce3027b5-a53a-4fb3-add2-b5aa271d6a84" />
+          <property role="3Fg1Gr" value="1256" />
+          <node concept="3MKX5h" id="4qxaCfUgPkk" role="3MKX6F">
+            <property role="1hTQn4" value="0a47d9dd-9e08-4917-89f3-5ab59c95c8df" />
+            <property role="3Fg1Gr" value="1257" />
+            <node concept="3Fnoml" id="4qxaCfUgPkl" role="3MKX6F">
+              <property role="1hTQn4" value="484c8438-027f-426a-ab1f-5a49f8728ea7" />
+              <property role="3Fg1Gr" value="1258" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgPkm" role="3MKX6F">
+                <property role="1hTQn4" value="4623149f-99e1-46e1-b1c5-441e3efc127c" />
+                <property role="3Fg1Gr" value="1259" />
+                <node concept="19SGf9" id="4qxaCfUgPkn" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPko" role="19SJt6">
+                    <property role="19SUeA" value="de bij of krachtens de wet geregelde taak overwegend een private taak is;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPkq" role="3MKX6F">
+            <property role="1hTQn4" value="68ebd7fb-a871-49f3-8bf8-8218a00fcc20" />
+            <property role="3Fg1Gr" value="1260" />
+            <node concept="3Fnoml" id="4qxaCfUgPkr" role="3MKX6F">
+              <property role="1hTQn4" value="569f2538-d40c-419a-890f-e4638c44d8e0" />
+              <property role="3Fg1Gr" value="1261" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgPks" role="3MKX6F">
+                <property role="1hTQn4" value="c8bbb948-507d-4ee2-b5db-45ed8aceb2fe" />
+                <property role="3Fg1Gr" value="1262" />
+                <node concept="19SGf9" id="4qxaCfUgPkt" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPku" role="19SJt6">
+                    <property role="19SUeA" value="de bij of krachtens de wet geregelde taak het aantrekken van financiële middelen met als doel het uitzetten daarvan bij derden omvat;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPkw" role="3MKX6F">
+            <property role="1hTQn4" value="702eb4f1-535e-42a7-b85f-8f75211950e5" />
+            <property role="3Fg1Gr" value="1263" />
+            <node concept="3Fnoml" id="4qxaCfUgPkx" role="3MKX6F">
+              <property role="1hTQn4" value="67e38d0a-26d4-43b3-a431-309a5b3c5120" />
+              <property role="3Fg1Gr" value="1264" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgPky" role="3MKX6F">
+                <property role="1hTQn4" value="0844c404-c12b-4463-986a-9c04e8e49355" />
+                <property role="3Fg1Gr" value="1265" />
+                <node concept="19SGf9" id="4qxaCfUgPkz" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPk$" role="19SJt6">
+                    <property role="19SUeA" value="de bij of krachtens de wet geregelde taak in verhouding tot de andere taken die aan de rechtspersoon zijn opgedragen gering is;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPkA" role="3MKX6F">
+            <property role="1hTQn4" value="403e88e2-4f11-4f0a-b5a7-039f5dd57dcf" />
+            <property role="3Fg1Gr" value="1266" />
+            <node concept="3Fnoml" id="4qxaCfUgPkB" role="3MKX6F">
+              <property role="1hTQn4" value="3355c686-3bfe-4a1f-b48d-9d5fd186df6f" />
+              <property role="3Fg1Gr" value="1267" />
+              <property role="3Fnomm" value="d." />
+              <node concept="3MKX5i" id="4qxaCfUgPkC" role="3MKX6F">
+                <property role="1hTQn4" value="8c03ec27-161a-4da5-bad1-d6c295f53c45" />
+                <property role="3Fg1Gr" value="1268" />
+                <node concept="19SGf9" id="4qxaCfUgPkD" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPkE" role="19SJt6">
+                    <property role="19SUeA" value="de liquide activa of de jaarlijkse ontvangsten van de rechtspersoon onder de door Onze Minister van Financiën te bepalen bedragen blijven; of" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPkG" role="3MKX6F">
+            <property role="1hTQn4" value="0a32066e-30dd-4472-9c77-47eec9d3c885" />
+            <property role="3Fg1Gr" value="1269" />
+            <node concept="3Fnoml" id="4qxaCfUgPkH" role="3MKX6F">
+              <property role="1hTQn4" value="22a8a68b-0647-4682-a41a-3a1c3b9f9a99" />
+              <property role="3Fg1Gr" value="1270" />
+              <property role="3Fnomm" value="e." />
+              <node concept="3MKX5i" id="4qxaCfUgPkI" role="3MKX6F">
+                <property role="1hTQn4" value="ed159160-cfb3-44ff-bd3f-0b9de080e180" />
+                <property role="3Fg1Gr" value="1271" />
+                <node concept="19SGf9" id="4qxaCfUgPkJ" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPkK" role="19SJt6">
+                    <property role="19SUeA" value="de rechtspersoon met een wettelijke taak door Onze Minister van Financiën is uitgezonderd." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPkM" role="3MKX6F">
+      <property role="1hTQn4" value="955056ab-cd80-416b-81e3-af08eb5839be" />
+      <property role="3Fg1Gr" value="1272" />
+      <node concept="3Fnoml" id="4qxaCfUgPkN" role="3MKX6F">
+        <property role="1hTQn4" value="9c621508-f38e-4b4a-b9e6-a67a06de7a02" />
+        <property role="3Fg1Gr" value="1273" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPkO" role="3MKX6F">
+          <property role="1hTQn4" value="405e438d-3b2f-4fd5-80ec-5229939819ab" />
+          <property role="3Fg1Gr" value="1274" />
+          <node concept="19SGf9" id="4qxaCfUgPkP" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPkQ" role="19SJt6">
+              <property role="19SUeA" value="Een rechtspersoon met een publieke taak is gehouden om te schatkistbankieren, indien de publieke taak van die rechtspersoon naar het oordeel van Onze Minister van Financiën een risicoarm beheer van de publieke liquide middelen verlangt." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPkS" role="3MKX6F">
+      <property role="1hTQn4" value="4977f0ea-1617-4ec5-9336-bbd2c8c77650" />
+      <property role="3Fg1Gr" value="1275" />
+      <node concept="3Fnoml" id="4qxaCfUgPkT" role="3MKX6F">
+        <property role="1hTQn4" value="6d95b093-ab11-45aa-8143-7bf7c332eb87" />
+        <property role="3Fg1Gr" value="1276" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgPkU" role="3MKX6F">
+          <property role="1hTQn4" value="4a05d635-3374-4e3d-b7a8-1d501a747c0d" />
+          <property role="3Fg1Gr" value="1277" />
+          <node concept="19SGf9" id="4qxaCfUgPkV" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPkW" role="19SJt6">
+              <property role="19SUeA" value="Het eerste en derde lid zijn niet van toepassing op de private, liquide middelen van de rechtspersoon met een wettelijke of publieke taak, indien die liquide middelen op een adequate wijze separaat in de jaarrekening van de rechtspersoon worden verantwoord." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPkY" role="3MKX6F">
+      <property role="1hTQn4" value="f46dd506-4043-4a44-8ba8-05bb24f2b6a3" />
+      <property role="3Fg1Gr" value="1278" />
+      <node concept="3Fnoml" id="4qxaCfUgPkZ" role="3MKX6F">
+        <property role="1hTQn4" value="f2244c51-9e62-4a96-b51a-688390f19b24" />
+        <property role="3Fg1Gr" value="1279" />
+        <property role="3Fnomm" value="5" />
+        <node concept="3MKX5i" id="4qxaCfUgPl0" role="3MKX6F">
+          <property role="1hTQn4" value="7583af5c-ce1e-48f7-be6b-57b80ae57119" />
+          <property role="3Fg1Gr" value="1280" />
+          <node concept="19SGf9" id="4qxaCfUgPl1" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPl2" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën kan op verzoek van een rechtspersoon, bedoeld in het eerste en derde lid, bepaalde publieke liquide middelen van die rechtspersoon uitzonderen van de verplichting om te schatkistbankieren, indien:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPl4" role="3MKX6F">
+          <property role="1hTQn4" value="bd303d42-e8bc-42fd-b8ec-d9c81815a122" />
+          <property role="3Fg1Gr" value="1281" />
+          <node concept="3MKX5h" id="4qxaCfUgPl5" role="3MKX6F">
+            <property role="1hTQn4" value="377eb3f2-b887-455e-9b1f-3c6e9e058521" />
+            <property role="3Fg1Gr" value="1282" />
+            <node concept="3Fnoml" id="4qxaCfUgPl6" role="3MKX6F">
+              <property role="1hTQn4" value="d83d5981-c15e-433f-9abc-9a3ef5b55c47" />
+              <property role="3Fg1Gr" value="1283" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgPl7" role="3MKX6F">
+                <property role="1hTQn4" value="477ceb55-3b5f-43aa-8daa-b749d832ec90" />
+                <property role="3Fg1Gr" value="1284" />
+                <node concept="19SGf9" id="4qxaCfUgPl8" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPl9" role="19SJt6">
+                    <property role="19SUeA" value="de rechtspersoon de noodzaak van de uitzondering voor de bedrijfsvoering voldoende aannemelijk maakt, en" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPlb" role="3MKX6F">
+            <property role="1hTQn4" value="b120d9d7-7c93-4bdb-8d71-69d8ea32b030" />
+            <property role="3Fg1Gr" value="1285" />
+            <node concept="3Fnoml" id="4qxaCfUgPlc" role="3MKX6F">
+              <property role="1hTQn4" value="f25635bd-456b-4eaf-83fe-2175b77e1c92" />
+              <property role="3Fg1Gr" value="1286" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgPld" role="3MKX6F">
+                <property role="1hTQn4" value="ac4ad906-cfa0-4d75-9df5-d3108e7d61fb" />
+                <property role="3Fg1Gr" value="1287" />
+                <node concept="19SGf9" id="4qxaCfUgPle" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPlf" role="19SJt6">
+                    <property role="19SUeA" value="naar het oordeel van Onze Minister van Financiën geen afbreuk wordt gedaan aan een doelmatig en risicoarm beheer van liquide middelen." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPli">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="e638d377-4eb4-444f-9a72-284252ba0e8c" />
+    <property role="3Fg1Gr" value="1288" />
+    <property role="TrG5h" value="Artikel 5.3 Verplicht schatkistbankieren met voorschotbetalingen van subsidies" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPlj" role="3MKX6F">
+      <property role="1hTQn4" value="2b07b083-8576-437e-b937-0e6ecd5bec81" />
+      <property role="3Fg1Gr" value="1290" />
+      <node concept="19SGf9" id="4qxaCfUgPlk" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPll" role="19SJt6">
+          <property role="19SUeA" value="Indien een subsidie ten laste van de rijksbegroting door middel van voorschotbetalingen wordt verleend, kan Onze Minister die het aangaat in overeenstemming met Onze Minister van Financiën bepalen dat de subsidieontvanger, niet zijnde een natuurlijke persoon, met betrekking tot de voorschotbetalingen gehouden is om te schatkistbankieren." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPlo">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="8cab908a-d3f2-4a2f-a9e8-13e69c064b2b" />
+    <property role="3Fg1Gr" value="1291" />
+    <property role="TrG5h" value="Artikel 5.4 Vrijwillig schatkistbankieren" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPlp" role="3MKX6F">
+      <property role="1hTQn4" value="96f72f72-08e4-40f3-99c8-55d33fa35f72" />
+      <property role="3Fg1Gr" value="1293" />
+      <node concept="3Fnoml" id="4qxaCfUgPlq" role="3MKX6F">
+        <property role="1hTQn4" value="02df4b04-f927-46fc-8d0f-7ab7ba9f20aa" />
+        <property role="3Fg1Gr" value="1294" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPlr" role="3MKX6F">
+          <property role="1hTQn4" value="c9e048d1-7ce5-4664-8fd6-e451d5d841c1" />
+          <property role="3Fg1Gr" value="1295" />
+          <node concept="19SGf9" id="4qxaCfUgPls" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPlt" role="19SJt6">
+              <property role="19SUeA" value="Een rechtspersoon die publieke liquide middelen beheert en een rechtspersoon met een wettelijke taak, bedoeld in artikel 5.2, tweede lid, aanhef en onderdelen c tot en met e, kan op zijn verzoek schatkistbankieren, indien een risicoarm beheer van die middelen naar het oordeel van Onze Minister van Financiën wenselijk is. De rechtspersoon dient hiervoor een verzoek bij Onze Minister van Financiën in." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPlv" role="3MKX6F">
+      <property role="1hTQn4" value="bdc471fd-a320-4351-a015-56a3cfc3fbdd" />
+      <property role="3Fg1Gr" value="1296" />
+      <node concept="3Fnoml" id="4qxaCfUgPlw" role="3MKX6F">
+        <property role="1hTQn4" value="2d3048b2-c881-414d-9b65-30aee66352df" />
+        <property role="3Fg1Gr" value="1297" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPlx" role="3MKX6F">
+          <property role="1hTQn4" value="0ba8c081-13e0-4fa4-a87a-f4a27b0f92ae" />
+          <property role="3Fg1Gr" value="1298" />
+          <node concept="19SGf9" id="4qxaCfUgPly" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPlz" role="19SJt6">
+              <property role="19SUeA" value="Het eerste lid is niet van toepassing op de private, liquide middelen van de rechtspersoon, bedoeld in het eerste lid, indien die liquide middelen op een adequate wijze separaat in de jaarrekening van de rechtspersoon worden verantwoord." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPlB">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="c4d774dc-0880-4de2-ac54-4b90cc1bbf18" />
+    <property role="3Fg1Gr" value="1301" />
+    <property role="TrG5h" value="Artikel 5.5 Lenen en verstrekken van krediet bij verplicht schatkistbankieren" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPlC" role="3MKX6F">
+      <property role="1hTQn4" value="8d851d9a-ab5f-4c9a-ab72-ee8b2708c7bc" />
+      <property role="3Fg1Gr" value="1303" />
+      <node concept="3Fnoml" id="4qxaCfUgPlD" role="3MKX6F">
+        <property role="1hTQn4" value="df7158e3-f6f6-4720-baa9-095f00f2fed2" />
+        <property role="3Fg1Gr" value="1304" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPlE" role="3MKX6F">
+          <property role="1hTQn4" value="2f1e10e2-0c82-43cb-add1-d101974a56f9" />
+          <property role="3Fg1Gr" value="1305" />
+          <node concept="19SGf9" id="4qxaCfUgPlF" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPlG" role="19SJt6">
+              <property role="19SUeA" value="Onverminderd het elders bij of krachtens de wet bepaalde kan Onze Minister van Financiën in overeenstemming met Onze Minister die het aangaat aan een rechtspersoon als bedoeld in artikel 5.2, eerste en derde lid, een lening of een rekening-courantkrediet ten laste van de begroting van Nationale Schuld verstrekken." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPlI" role="3MKX6F">
+      <property role="1hTQn4" value="249be2bf-a187-4f21-b349-61005359c85e" />
+      <property role="3Fg1Gr" value="1306" />
+      <node concept="3Fnoml" id="4qxaCfUgPlJ" role="3MKX6F">
+        <property role="1hTQn4" value="67a2c6e9-f081-480d-b13f-77b11cdce128" />
+        <property role="3Fg1Gr" value="1307" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPlK" role="3MKX6F">
+          <property role="1hTQn4" value="b47177ca-b250-4d47-b6e3-fb39f5be1812" />
+          <property role="3Fg1Gr" value="1308" />
+          <node concept="19SGf9" id="4qxaCfUgPlL" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPlM" role="19SJt6">
+              <property role="19SUeA" value="Een lening wordt verstrekt voor het financieren van investeringen in vaste activa, die benodigd zijn voor het uitvoeren van de wettelijke of publieke taak van de rechtspersoon." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPlO" role="3MKX6F">
+      <property role="1hTQn4" value="55ab928b-8639-44c9-bfea-db138b220d5c" />
+      <property role="3Fg1Gr" value="1309" />
+      <node concept="3Fnoml" id="4qxaCfUgPlP" role="3MKX6F">
+        <property role="1hTQn4" value="ef427021-9c82-407d-b749-9e8db246cec5" />
+        <property role="3Fg1Gr" value="1310" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPlQ" role="3MKX6F">
+          <property role="1hTQn4" value="dd9094d9-f910-4575-bb5f-252154f5375c" />
+          <property role="3Fg1Gr" value="1311" />
+          <node concept="19SGf9" id="4qxaCfUgPlR" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPlS" role="19SJt6">
+              <property role="19SUeA" value="Een rekening-courantkrediet wordt verstrekt voor het overbruggen van een tijdelijk liquiditeitstekort van de rechtspersoon." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPlU" role="3MKX6F">
+      <property role="1hTQn4" value="7ecb9cc5-01a0-4b88-9571-87df38845d63" />
+      <property role="3Fg1Gr" value="1312" />
+      <node concept="3Fnoml" id="4qxaCfUgPlV" role="3MKX6F">
+        <property role="1hTQn4" value="199b9230-9c0c-47d0-b1b6-52a5fde32806" />
+        <property role="3Fg1Gr" value="1313" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgPlW" role="3MKX6F">
+          <property role="1hTQn4" value="71d2e072-6e17-4c96-8209-5de011172b2b" />
+          <property role="3Fg1Gr" value="1314" />
+          <node concept="19SGf9" id="4qxaCfUgPlX" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPlY" role="19SJt6">
+              <property role="19SUeA" value="Indien in enig jaar een rechtspersoon waaraan een lening of een rekening-courant krachtens het eerste lid is verstrekt in gebreke blijft de daaruit voortvloeiende verplichtingen tot het betalen van rente of aflossing na te komen, kan Onze Minister van Financiën het bedrag van die verplichtingen ten laste van de departementale begroting van Onze Minister die het aangaat overboeken naar de begroting van Nationale Schuld." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPm0" role="3MKX6F">
+      <property role="1hTQn4" value="6875944c-6afa-4dc2-b1d3-55884df81b67" />
+      <property role="3Fg1Gr" value="1315" />
+      <node concept="3Fnoml" id="4qxaCfUgPm1" role="3MKX6F">
+        <property role="1hTQn4" value="c28376ae-b4b6-4929-aecb-16e4f36fba67" />
+        <property role="3Fg1Gr" value="1316" />
+        <property role="3Fnomm" value="5" />
+        <node concept="3MKX5i" id="4qxaCfUgPm2" role="3MKX6F">
+          <property role="1hTQn4" value="dd3929b7-ce18-4240-bd41-9d7cf15f12e0" />
+          <property role="3Fg1Gr" value="1317" />
+          <node concept="19SGf9" id="4qxaCfUgPm3" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPm4" role="19SJt6">
+              <property role="19SUeA" value="In afwijking van het vierde lid kan Onze Minister van Financiën het bedrag van de verplichtingen tot het betalen van rente of aflossing naar een andere begroting overboeken, indien Onze Minister die verantwoordelijk is voor het beheer van de andere begroting daarmee instemt." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPm7">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="f5e3e407-73aa-4d73-8969-07f4ea0b9ad3" />
+    <property role="3Fg1Gr" value="1318" />
+    <property role="TrG5h" value="Artikel 5.6 Lenen en verstrekken van krediet bij vrijwillig schatkistbankieren" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPm8" role="3MKX6F">
+      <property role="1hTQn4" value="e8ad18cc-c039-48b3-9f2a-fe2a07274957" />
+      <property role="3Fg1Gr" value="1320" />
+      <node concept="3Fnoml" id="4qxaCfUgPm9" role="3MKX6F">
+        <property role="1hTQn4" value="ad85904e-1181-4b09-99a6-28ae7eca46ea" />
+        <property role="3Fg1Gr" value="1321" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPma" role="3MKX6F">
+          <property role="1hTQn4" value="1612374b-fdb5-4e21-8764-90095519ed8d" />
+          <property role="3Fg1Gr" value="1322" />
+          <node concept="19SGf9" id="4qxaCfUgPmb" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPmc" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën kan in overeenstemming met Onze Minister die het aangaat aan een rechtspersoon als bedoeld in artikel 5.4, een lening of een rekening-courantkrediet ten laste van de begroting van Nationale Schuld verstrekken." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPme" role="3MKX6F">
+      <property role="1hTQn4" value="3723dc26-bb4a-4fc3-aae0-fe8ef4915e19" />
+      <property role="3Fg1Gr" value="1323" />
+      <node concept="3Fnoml" id="4qxaCfUgPmf" role="3MKX6F">
+        <property role="1hTQn4" value="1e68edea-e90b-4c6a-a0c8-fbf039b69924" />
+        <property role="3Fg1Gr" value="1324" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPmg" role="3MKX6F">
+          <property role="1hTQn4" value="3c3cf5a1-4561-4a25-9980-3ca0fb29eed0" />
+          <property role="3Fg1Gr" value="1325" />
+          <node concept="19SGf9" id="4qxaCfUgPmh" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPmi" role="19SJt6">
+              <property role="19SUeA" value="Artikel 5.5, tweede tot en met vijfde lid, is van overeenkomstige toepassing." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPmm">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="e423d9f3-541e-435b-b9df-22325b217982" />
+    <property role="3Fg1Gr" value="1328" />
+    <property role="TrG5h" value="Artikel 5.7 Prudent uitzetten van liquide middelen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPmn" role="3MKX6F">
+      <property role="1hTQn4" value="7568ac0e-e9fa-4fb8-a9ea-eb859bfd3133" />
+      <property role="3Fg1Gr" value="1330" />
+      <node concept="3Fnoml" id="4qxaCfUgPmo" role="3MKX6F">
+        <property role="1hTQn4" value="f703af6e-8bb7-4742-ab2c-9cd60d04b79d" />
+        <property role="3Fg1Gr" value="1331" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPmp" role="3MKX6F">
+          <property role="1hTQn4" value="8d2b1429-bad9-4af6-bf15-68c027b134b8" />
+          <property role="3Fg1Gr" value="1332" />
+          <node concept="19SGf9" id="4qxaCfUgPmq" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPmr" role="19SJt6">
+              <property role="19SUeA" value="Een rechtspersoon met een wettelijke taak als bedoeld in artikel 5.2, tweede lid, aanhef en onder d en e, is gehouden om zijn liquide middelen uit te zetten in de vorm van producten die voldoen aan door Onze Minister van Financiën te stellen eisen." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPmt" role="3MKX6F">
+      <property role="1hTQn4" value="8f718c28-9999-4d74-a160-028428a57b08" />
+      <property role="3Fg1Gr" value="1333" />
+      <node concept="3Fnoml" id="4qxaCfUgPmu" role="3MKX6F">
+        <property role="1hTQn4" value="8c1b34b3-4820-4d6e-a76f-21d271eaf638" />
+        <property role="3Fg1Gr" value="1334" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPmv" role="3MKX6F">
+          <property role="1hTQn4" value="b6ebdfef-806c-49ce-b5d9-7df89a1ea42c" />
+          <property role="3Fg1Gr" value="1335" />
+          <node concept="19SGf9" id="4qxaCfUgPmw" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPmx" role="19SJt6">
+              <property role="19SUeA" value="Het eerste lid is niet van toepassing op de private, liquide middelen van een rechtspersoon met een wettelijke taak, indien die liquide middelen op een adequate wijze separaat in de jaarrekening van de rechtspersoon worden verantwoord." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPmz" role="3MKX6F">
+      <property role="1hTQn4" value="05625964-672f-4748-96d7-418654d240ce" />
+      <property role="3Fg1Gr" value="1336" />
+      <node concept="3Fnoml" id="4qxaCfUgPm$" role="3MKX6F">
+        <property role="1hTQn4" value="20c597d1-61b5-4ed8-b979-095c5cf54a72" />
+        <property role="3Fg1Gr" value="1337" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPm_" role="3MKX6F">
+          <property role="1hTQn4" value="67cffffd-3d8b-4eb4-9aee-b6dae3fe8c02" />
+          <property role="3Fg1Gr" value="1338" />
+          <node concept="19SGf9" id="4qxaCfUgPmA" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPmB" role="19SJt6">
+              <property role="19SUeA" value="Dit artikel is niet van toepassing op de rechtspersonen met een wettelijke taak waarvoor door Onze Minister die het aangaat regels over het uitzetten van liquide middelen zijn gesteld." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPmE">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="589a6eca-9198-4695-ace1-86f9aa7ced9d" />
+    <property role="3Fg1Gr" value="1339" />
+    <property role="TrG5h" value="Artikel 5.8 Oneigenlijk beheer van liquide middelen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPmF" role="3MKX6F">
+      <property role="1hTQn4" value="d5158703-e1d4-4b11-9759-ec13a7cfbae6" />
+      <property role="3Fg1Gr" value="1341" />
+      <node concept="3Fnoml" id="4qxaCfUgPmG" role="3MKX6F">
+        <property role="1hTQn4" value="7e353b70-cc8a-4655-84ad-89c4002454f3" />
+        <property role="3Fg1Gr" value="1342" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPmH" role="3MKX6F">
+          <property role="1hTQn4" value="0f308f85-2190-46cf-acc6-4c2c279fb477" />
+          <property role="3Fg1Gr" value="1343" />
+          <node concept="19SGf9" id="4qxaCfUgPmI" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPmJ" role="19SJt6">
+              <property role="19SUeA" value="Het aantrekken van financiële middelen door de rechtspersonen, bedoeld in de artikelen 5.2, eerste en derde lid, 5.4 en 5.7, met als doel door het uitzetten ervan additionele financiële middelen te verwerven, is verboden." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPmL" role="3MKX6F">
+      <property role="1hTQn4" value="23ce4e68-0aa3-47b4-be34-433f4eb1f0db" />
+      <property role="3Fg1Gr" value="1344" />
+      <node concept="3Fnoml" id="4qxaCfUgPmM" role="3MKX6F">
+        <property role="1hTQn4" value="9b0de953-fdaa-4579-b718-a85b7e84990f" />
+        <property role="3Fg1Gr" value="1345" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPmN" role="3MKX6F">
+          <property role="1hTQn4" value="4f9cfbd3-ff1c-4d9f-8463-fc235d1ecd71" />
+          <property role="3Fg1Gr" value="1346" />
+          <node concept="19SGf9" id="4qxaCfUgPmO" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPmP" role="19SJt6">
+              <property role="19SUeA" value="Het eerste lid is niet van toepassing op de private, liquide middelen van een rechtspersoon, indien die liquide middelen op een adequate wijze separaat in de jaarrekening van de rechtspersoon worden verantwoord." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPmT">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="0e956eff-8ffa-46e6-b3ca-6ebf8019c0e3" />
+    <property role="3Fg1Gr" value="1349" />
+    <property role="TrG5h" value="Artikel 5.9 Nadere regelgeving" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPmU" role="3MKX6F">
+      <property role="1hTQn4" value="440aefae-86c1-4624-9ee3-692db3cd8ee7" />
+      <property role="3Fg1Gr" value="1351" />
+      <node concept="19SGf9" id="4qxaCfUgPmV" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPmW" role="19SJt6">
+          <property role="19SUeA" value="Onze Minister van Financiën kan nadere regels stellen over het bepaalde in de artikelen 5.1 tot en met 5.8." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPn1">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="dac61a53-cf36-4bd5-b3aa-3d1ac3ccf694" />
+    <property role="3Fg1Gr" value="1356" />
+    <property role="TrG5h" value="Artikel 6.1 Toezicht door Onze Ministers" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPn2" role="3MKX6F">
+      <property role="1hTQn4" value="d90310d7-d4ca-483d-b1cb-35e774f5714b" />
+      <property role="3Fg1Gr" value="1358" />
+      <node concept="19SGf9" id="4qxaCfUgPn3" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPn4" role="19SJt6">
+          <property role="19SUeA" value="Onverminderd het elders bij wet of EU-verordening bepaalde, houdt Onze Minister die het aangaat, toezicht op:" />
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPn6" role="3MKX6F">
+      <property role="1hTQn4" value="8bf5d131-6528-4a48-91b4-3910040d8a58" />
+      <property role="3Fg1Gr" value="1359" />
+      <node concept="3MKX5h" id="4qxaCfUgPn7" role="3MKX6F">
+        <property role="1hTQn4" value="134b6723-5003-4be1-8ba6-ee74520923ac" />
+        <property role="3Fg1Gr" value="1360" />
+        <node concept="3Fnoml" id="4qxaCfUgPn8" role="3MKX6F">
+          <property role="1hTQn4" value="253a7c46-5d27-4cc8-b67f-1087ada693af" />
+          <property role="3Fg1Gr" value="1361" />
+          <property role="3Fnomm" value="a." />
+          <node concept="3MKX5i" id="4qxaCfUgPn9" role="3MKX6F">
+            <property role="1hTQn4" value="c04c856a-f873-438b-892b-5619569e77fb" />
+            <property role="3Fg1Gr" value="1362" />
+            <node concept="19SGf9" id="4qxaCfUgPna" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgPnb" role="19SJt6">
+                <property role="19SUeA" value="rechtspersonen, commanditaire vennootschappen, vennootschappen onder firma en natuurlijke personen die een beroep of bedrijf uitoefenen die direct, indirect of voorwaardelijk:" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPnd" role="3MKX6F">
+            <property role="1hTQn4" value="81939b67-5945-452f-9b1c-db4901f20efd" />
+            <property role="3Fg1Gr" value="1363" />
+            <node concept="3MKX5h" id="4qxaCfUgPne" role="3MKX6F">
+              <property role="1hTQn4" value="44013e11-9778-467e-8fe1-b1fa67ad4242" />
+              <property role="3Fg1Gr" value="1364" />
+              <node concept="3Fnoml" id="4qxaCfUgPnf" role="3MKX6F">
+                <property role="1hTQn4" value="d10d6a58-706f-4465-8b73-02ab4fba6c00" />
+                <property role="3Fg1Gr" value="1365" />
+                <property role="3Fnomm" value="1°." />
+                <node concept="3MKX5i" id="4qxaCfUgPng" role="3MKX6F">
+                  <property role="1hTQn4" value="5ae26860-d9fb-4fef-b1dd-68f7de2bd7a5" />
+                  <property role="3Fg1Gr" value="1366" />
+                  <node concept="19SGf9" id="4qxaCfUgPnh" role="3MLR7a">
+                    <node concept="19SUe$" id="4qxaCfUgPni" role="19SJt6">
+                      <property role="19SUeA" value="een subsidie, lening, garantie of een bijdrage in natura met kenmerken van een subsidie, lening of garantie ten laste van de rijksbegroting hebben ontvangen;" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="4qxaCfUgPnk" role="3MKX6F">
+              <property role="1hTQn4" value="eb0f9917-a449-4b7f-aef5-162de1087bbe" />
+              <property role="3Fg1Gr" value="1367" />
+              <node concept="3Fnoml" id="4qxaCfUgPnl" role="3MKX6F">
+                <property role="1hTQn4" value="278b1f60-b3db-47a9-a4c4-132d4025d74b" />
+                <property role="3Fg1Gr" value="1368" />
+                <property role="3Fnomm" value="2°." />
+                <node concept="3MKX5i" id="4qxaCfUgPnm" role="3MKX6F">
+                  <property role="1hTQn4" value="34786a00-d449-43a6-8ba3-af3ac634afca" />
+                  <property role="3Fg1Gr" value="1369" />
+                  <node concept="19SGf9" id="4qxaCfUgPnn" role="3MLR7a">
+                    <node concept="19SUe$" id="4qxaCfUgPno" role="19SJt6">
+                      <property role="19SUeA" value="een fiscale tegemoetkoming inzake speur- en ontwikkelingswerk, een energie-investering, een milieu-investering of een investering in huurwoningen hebben ontvangen ten behoeve waarvan door Onze Minister die het aangaat een verklaring is afgegeven of een aanwijzing bij ministeriële regeling heeft plaatsgevonden;" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgPnq" role="3MKX6F">
+        <property role="1hTQn4" value="bee23f9d-4ac5-4c98-8b99-c40a6c903785" />
+        <property role="3Fg1Gr" value="1370" />
+        <node concept="3Fnoml" id="4qxaCfUgPnr" role="3MKX6F">
+          <property role="1hTQn4" value="f9b6bd5f-b7c9-4607-85a9-e95d54bdf027" />
+          <property role="3Fg1Gr" value="1371" />
+          <property role="3Fnomm" value="b." />
+          <node concept="3MKX5i" id="4qxaCfUgPns" role="3MKX6F">
+            <property role="1hTQn4" value="41431639-99c5-4330-a8b6-4b7ad9ab5fc6" />
+            <property role="3Fg1Gr" value="1372" />
+            <node concept="19SGf9" id="4qxaCfUgPnt" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgPnu" role="19SJt6">
+                <property role="19SUeA" value="rechtspersonen, commanditaire vennootschappen, vennootschappen onder firma en natuurlijke personen die een beroep of bedrijf uitoefenen en die direct, indirect of voorwaardelijk een subsidie, lening of garantie ten laste van de EU-begroting hebben ontvangen, voor zover aan de lidstaat van de Europese Unie het toezicht op en de controle van die subsidie, lening of garantie en het beheer daarvan is opgelegd;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgPnw" role="3MKX6F">
+        <property role="1hTQn4" value="84674b23-b14e-422f-92a8-0f2162c44407" />
+        <property role="3Fg1Gr" value="1373" />
+        <node concept="3Fnoml" id="4qxaCfUgPnx" role="3MKX6F">
+          <property role="1hTQn4" value="f2d62909-e853-49e7-90ef-dbf2ade95c28" />
+          <property role="3Fg1Gr" value="1374" />
+          <property role="3Fnomm" value="c." />
+          <node concept="3MKX5i" id="4qxaCfUgPny" role="3MKX6F">
+            <property role="1hTQn4" value="c0f973b1-2061-4cfc-9c6c-ece5dd6f5654" />
+            <property role="3Fg1Gr" value="1375" />
+            <node concept="19SGf9" id="4qxaCfUgPnz" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgPn$" role="19SJt6">
+                <property role="19SUeA" value="rechtspersonen met een wettelijke taak." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPnB">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="63c0125b-4f66-42c3-b1ef-f1929db82136" />
+    <property role="3Fg1Gr" value="1376" />
+    <property role="TrG5h" value="Artikel 6.2 Reikwijdte toezicht door Onze Ministers" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPnC" role="3MKX6F">
+      <property role="1hTQn4" value="4883d1ed-f8b8-4f25-8f7c-aaa2191f9ee9" />
+      <property role="3Fg1Gr" value="1378" />
+      <node concept="19SGf9" id="4qxaCfUgPnD" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPnE" role="19SJt6">
+          <property role="19SUeA" value="Het toezicht, bedoeld in artikel 6.1, is gericht op:" />
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPnG" role="3MKX6F">
+      <property role="1hTQn4" value="05b66be6-bc16-468f-997a-f48a1e4bfab3" />
+      <property role="3Fg1Gr" value="1379" />
+      <node concept="3MKX5h" id="4qxaCfUgPnH" role="3MKX6F">
+        <property role="1hTQn4" value="bbeee212-c959-4b52-a4f2-e313116fc37d" />
+        <property role="3Fg1Gr" value="1380" />
+        <node concept="3Fnoml" id="4qxaCfUgPnI" role="3MKX6F">
+          <property role="1hTQn4" value="f65fc658-7248-4158-8213-8f6450da9eb1" />
+          <property role="3Fg1Gr" value="1381" />
+          <property role="3Fnomm" value="a." />
+          <node concept="3MKX5i" id="4qxaCfUgPnJ" role="3MKX6F">
+            <property role="1hTQn4" value="be848880-3486-42b9-afab-bbd6c0735a5b" />
+            <property role="3Fg1Gr" value="1382" />
+            <node concept="19SGf9" id="4qxaCfUgPnK" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgPnL" role="19SJt6">
+                <property role="19SUeA" value="de naleving van de voorwaarden die aan het beheer en de verantwoording van de subsidie, lening, garantie, bijdrage in natura of de fiscale tegemoetkoming worden gesteld door de rechtspersonen, commanditaire vennootschappen, vennootschappen onder firma en natuurlijke personen, bedoeld in artikel 6.1, onder a;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgPnN" role="3MKX6F">
+        <property role="1hTQn4" value="79d9ec63-5f95-4f3a-924f-0feecc35c1d3" />
+        <property role="3Fg1Gr" value="1383" />
+        <node concept="3Fnoml" id="4qxaCfUgPnO" role="3MKX6F">
+          <property role="1hTQn4" value="6aecb42c-6352-4667-9b00-e10b46267c7e" />
+          <property role="3Fg1Gr" value="1384" />
+          <property role="3Fnomm" value="b." />
+          <node concept="3MKX5i" id="4qxaCfUgPnP" role="3MKX6F">
+            <property role="1hTQn4" value="8e550f42-3f62-423e-b0e2-fc409abe4b17" />
+            <property role="3Fg1Gr" value="1385" />
+            <node concept="19SGf9" id="4qxaCfUgPnQ" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgPnR" role="19SJt6">
+                <property role="19SUeA" value="de nakoming van de verplichting die aan de lidstaat van de Europese Unie is opgelegd door de rechtspersonen, commanditaire vennootschappen, vennootschappen onder firma en natuurlijke personen, bedoeld in artikel 6.1, onder b;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgPnT" role="3MKX6F">
+        <property role="1hTQn4" value="9cba1d40-e2e2-47f7-ade6-e8fcf54b748c" />
+        <property role="3Fg1Gr" value="1386" />
+        <node concept="3Fnoml" id="4qxaCfUgPnU" role="3MKX6F">
+          <property role="1hTQn4" value="7664bd89-f288-488c-9fc2-16323ed16222" />
+          <property role="3Fg1Gr" value="1387" />
+          <property role="3Fnomm" value="c." />
+          <node concept="3MKX5i" id="4qxaCfUgPnV" role="3MKX6F">
+            <property role="1hTQn4" value="b15343d1-52d2-45db-ac88-b19bf97b3291" />
+            <property role="3Fg1Gr" value="1388" />
+            <node concept="19SGf9" id="4qxaCfUgPnW" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgPnX" role="19SJt6">
+                <property role="19SUeA" value="de doelmatige en doeltreffende uitvoering van de wettelijke taak en de naleving van de voorwaarden die bij of krachtens de wet aan het beheer van de publieke financiële middelen worden gesteld door rechtspersonen met een wettelijke taak." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPo0">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="ea5b3c8c-081e-477c-b8f1-1be168fa9f90" />
+    <property role="3Fg1Gr" value="1389" />
+    <property role="TrG5h" value="Artikel 6.3 Bevoegdheden toezicht door Onze Ministers" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPo1" role="3MKX6F">
+      <property role="1hTQn4" value="66819f86-781f-4f17-b7d7-6fc28380ab48" />
+      <property role="3Fg1Gr" value="1391" />
+      <node concept="3Fnoml" id="4qxaCfUgPo2" role="3MKX6F">
+        <property role="1hTQn4" value="3c9c0b88-72af-4ed1-a554-de3454ef6312" />
+        <property role="3Fg1Gr" value="1392" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPo3" role="3MKX6F">
+          <property role="1hTQn4" value="831fbe02-c5c9-47be-9889-3e91a5b58dcf" />
+          <property role="3Fg1Gr" value="1393" />
+          <node concept="19SGf9" id="4qxaCfUgPo4" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPo5" role="19SJt6">
+              <property role="19SUeA" value="De rechtspersonen, commanditaire vennootschappen, vennootschappen onder firma en natuurlijke personen, bedoeld in artikel 6.1, onderdeel a tot en met c, zijn gehouden op verzoek van Onze Minister die het aangaat, de volgende informatie te verstrekken:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPo7" role="3MKX6F">
+          <property role="1hTQn4" value="84714bd5-7813-408b-9dc7-bb3e2a6845e9" />
+          <property role="3Fg1Gr" value="1394" />
+          <node concept="3MKX5h" id="4qxaCfUgPo8" role="3MKX6F">
+            <property role="1hTQn4" value="852e5b71-3f2d-4328-8ce9-3d0e90557980" />
+            <property role="3Fg1Gr" value="1395" />
+            <node concept="3Fnoml" id="4qxaCfUgPo9" role="3MKX6F">
+              <property role="1hTQn4" value="f372d787-7e30-4f45-ab55-5492d98b20ad" />
+              <property role="3Fg1Gr" value="1396" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgPoa" role="3MKX6F">
+                <property role="1hTQn4" value="962da1c8-716a-4ea8-bb7c-0cfbe395c0de" />
+                <property role="3Fg1Gr" value="1397" />
+                <node concept="19SGf9" id="4qxaCfUgPob" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPoc" role="19SJt6">
+                    <property role="19SUeA" value="de jaarrekeningen, jaarverslagen en de aan de jaarrekeningen en jaarverslagen toegevoegde overige gegevens;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPoe" role="3MKX6F">
+            <property role="1hTQn4" value="a62d14c5-ec6e-4b8e-9a66-e6669c00c939" />
+            <property role="3Fg1Gr" value="1398" />
+            <node concept="3Fnoml" id="4qxaCfUgPof" role="3MKX6F">
+              <property role="1hTQn4" value="05a4559b-9542-4bca-90db-602e7d3b890c" />
+              <property role="3Fg1Gr" value="1399" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgPog" role="3MKX6F">
+                <property role="1hTQn4" value="afc0f552-89d9-4ec4-8bfe-06478d1b9903" />
+                <property role="3Fg1Gr" value="1400" />
+                <node concept="19SGf9" id="4qxaCfUgPoh" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPoi" role="19SJt6">
+                    <property role="19SUeA" value="de verantwoordingen, gegevens en documenten die nodig zijn voor de definitieve vaststelling van de subsidie, lening, garantie of bijdrage in natura met kenmerken van een subsidie, lening of garantie;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPok" role="3MKX6F">
+            <property role="1hTQn4" value="924a4364-8872-4cc6-8d6c-5e07f9e015be" />
+            <property role="3Fg1Gr" value="1401" />
+            <node concept="3Fnoml" id="4qxaCfUgPol" role="3MKX6F">
+              <property role="1hTQn4" value="aa562e84-7101-448c-a523-669a7c135799" />
+              <property role="3Fg1Gr" value="1402" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgPom" role="3MKX6F">
+                <property role="1hTQn4" value="a049ceb8-fd9a-4334-bc2e-16c2ea31ae28" />
+                <property role="3Fg1Gr" value="1403" />
+                <node concept="19SGf9" id="4qxaCfUgPon" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPoo" role="19SJt6">
+                    <property role="19SUeA" value="de verslagen van de onderzoeken van de accountants die de bescheiden, bedoeld onder a en b, hebben gecontroleerd;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPoq" role="3MKX6F">
+            <property role="1hTQn4" value="8db08686-3c39-49c6-9059-ad2e795bacdd" />
+            <property role="3Fg1Gr" value="1404" />
+            <node concept="3Fnoml" id="4qxaCfUgPor" role="3MKX6F">
+              <property role="1hTQn4" value="0594b3e3-5a2f-4d44-9383-401a7d300cae" />
+              <property role="3Fg1Gr" value="1405" />
+              <property role="3Fnomm" value="d." />
+              <node concept="3MKX5i" id="4qxaCfUgPos" role="3MKX6F">
+                <property role="1hTQn4" value="94e7d0f5-128d-4223-90f9-39c49fff391e" />
+                <property role="3Fg1Gr" value="1406" />
+                <node concept="19SGf9" id="4qxaCfUgPot" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPou" role="19SJt6">
+                    <property role="19SUeA" value="nadere informatie die Onze Minister die het aangaat nodig acht." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPow" role="3MKX6F">
+      <property role="1hTQn4" value="7054d344-7f56-40dd-9e4e-da5a2e4ca40f" />
+      <property role="3Fg1Gr" value="1407" />
+      <node concept="3Fnoml" id="4qxaCfUgPox" role="3MKX6F">
+        <property role="1hTQn4" value="18e9505d-ea2e-4724-b8b7-b69621d2775a" />
+        <property role="3Fg1Gr" value="1408" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPoy" role="3MKX6F">
+          <property role="1hTQn4" value="bbabf04e-c675-4151-aacc-184d098e01c7" />
+          <property role="3Fg1Gr" value="1409" />
+          <node concept="19SGf9" id="4qxaCfUgPoz" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPo$" role="19SJt6">
+              <property role="19SUeA" value="Indien de informatie, bedoeld in het eerste lid, naar het oordeel van Onze Minister die het aangaat daartoe aanleiding geeft, is Onze Minister bevoegd bij de rechtspersonen, commanditaire vennootschappen, vennootschappen onder firma en natuurlijke personen, bedoeld in artikel 6.1, onder a tot en met c, nadere inlichtingen in te winnen of overlegging van stukken te vorderen." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPoA" role="3MKX6F">
+      <property role="1hTQn4" value="53216a82-323c-403e-83c0-8d57f5521407" />
+      <property role="3Fg1Gr" value="1410" />
+      <node concept="3Fnoml" id="4qxaCfUgPoB" role="3MKX6F">
+        <property role="1hTQn4" value="e923b150-ef3b-47a4-876f-eaa69867967a" />
+        <property role="3Fg1Gr" value="1411" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPoC" role="3MKX6F">
+          <property role="1hTQn4" value="ee6e2e96-9388-4361-9d58-8d878f286e60" />
+          <property role="3Fg1Gr" value="1412" />
+          <node concept="19SGf9" id="4qxaCfUgPoD" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPoE" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister die het aangaat kan aan de hand van de administratie een onderzoek instellen bij de rechtspersonen, commanditaire vennootschappen, vennootschappen onder firma en natuurlijke personen, bedoeld in artikel 6.1, onder a tot en met c." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPoG" role="3MKX6F">
+      <property role="1hTQn4" value="9b79a1b4-99e5-48c4-b58f-801578a0ea9f" />
+      <property role="3Fg1Gr" value="1413" />
+      <node concept="3Fnoml" id="4qxaCfUgPoH" role="3MKX6F">
+        <property role="1hTQn4" value="a624bea4-8b67-4173-99e6-ebbb72d37c8d" />
+        <property role="3Fg1Gr" value="1414" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgPoI" role="3MKX6F">
+          <property role="1hTQn4" value="adb79ce9-7fde-424f-a545-7031813e693b" />
+          <property role="3Fg1Gr" value="1415" />
+          <node concept="19SGf9" id="4qxaCfUgPoJ" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPoK" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister die het aangaat is bevoegd, voor zover hij dat nodig acht voor het uitoefenen van het toezicht, bedoeld in artikel 6.1, bij alle onderdelen van de rechtspersonen, commanditaire vennootschappen, vennootschappen onder firma en natuurlijke personen, bedoeld in artikel 6.1, onder a tot en met c, alle goederen, administraties, documenten en andere informatiedragers op door hem aan te geven wijze te onderzoeken." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPoM" role="3MKX6F">
+      <property role="1hTQn4" value="183b8b6d-00dd-4306-ab16-1b59593e03e9" />
+      <property role="3Fg1Gr" value="1416" />
+      <node concept="3Fnoml" id="4qxaCfUgPoN" role="3MKX6F">
+        <property role="1hTQn4" value="b9ba47c5-508d-447b-9e88-69c1eaadd4e3" />
+        <property role="3Fg1Gr" value="1417" />
+        <property role="3Fnomm" value="5" />
+        <node concept="3MKX5i" id="4qxaCfUgPoO" role="3MKX6F">
+          <property role="1hTQn4" value="8c784635-978f-4e47-a323-20e4540b27f9" />
+          <property role="3Fg1Gr" value="1418" />
+          <node concept="19SGf9" id="4qxaCfUgPoP" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPoQ" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister die het aangaat is bevoegd inzage te vorderen in de controleprogramma’s en dossiers van de accountant die de bescheiden, bedoeld in het eerste lid, onder a en b, heeft gecontroleerd om te beoordelen of in het kader van het toezicht, bedoeld in artikel 6.1, kan worden gesteund op de controle die deze accountant heeft uitgevoerd. De accountant kan inzage in de controledossiers niet weigeren met een beroep op een bij of krachtens de wet opgelegde verplichting tot geheimhouding van vertrouwelijke gegevens die in de controledossiers zijn opgenomen." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPoS" role="3MKX6F">
+      <property role="1hTQn4" value="737956b1-49a7-4b71-b5ed-c781b070bb76" />
+      <property role="3Fg1Gr" value="1419" />
+      <node concept="3Fnoml" id="4qxaCfUgPoT" role="3MKX6F">
+        <property role="1hTQn4" value="6984dfc2-8e0f-4ff7-8f63-4642c58bca2b" />
+        <property role="3Fg1Gr" value="1420" />
+        <property role="3Fnomm" value="6" />
+        <node concept="3MKX5i" id="4qxaCfUgPoU" role="3MKX6F">
+          <property role="1hTQn4" value="61b21ea5-506c-4712-9fac-aeba7e7a9706" />
+          <property role="3Fg1Gr" value="1421" />
+          <node concept="19SGf9" id="4qxaCfUgPoV" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPoW" role="19SJt6">
+              <property role="19SUeA" value="De bevoegdheden, bedoeld in artikel 6.3, vierde lid, worden uitgeoefend onder verantwoordelijkheid van een registeraccountant of een accountant-administratieconsulent ten aanzien van wie in het accountantsregister een aantekening is geplaatst als bedoeld in artikel 36, tweede lid, onderdeel i, van de Wet op het accountantsberoep." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPoY" role="3MKX6F">
+      <property role="1hTQn4" value="7493bd9b-21ce-4dd3-9037-a00050f4495f" />
+      <property role="3Fg1Gr" value="1422" />
+      <node concept="3Fnoml" id="4qxaCfUgPoZ" role="3MKX6F">
+        <property role="1hTQn4" value="675f3cf2-66c6-4ef4-99db-7dae68fb4eb1" />
+        <property role="3Fg1Gr" value="1423" />
+        <property role="3Fnomm" value="7" />
+        <node concept="3MKX5i" id="4qxaCfUgPp0" role="3MKX6F">
+          <property role="1hTQn4" value="5c1e663b-e19c-4792-8334-c8f79f99d4df" />
+          <property role="3Fg1Gr" value="1424" />
+          <node concept="19SGf9" id="4qxaCfUgPp1" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPp2" role="19SJt6">
+              <property role="19SUeA" value="Indien Onze Minister die het aangaat gebruik maakt van de bevoegdheden, bedoeld in het eerste tot en met vijfde lid, zijn de artikelen 5:12, 5:13, 5:15 en 5:17, tweede en derde lid, van de Algemene wet bestuursrecht van overeenkomstige toepassing." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPp4" role="3MKX6F">
+      <property role="1hTQn4" value="eb7e8b2d-ad1b-428f-8b5c-c5f9c2237d40" />
+      <property role="3Fg1Gr" value="1425" />
+      <node concept="3Fnoml" id="4qxaCfUgPp5" role="3MKX6F">
+        <property role="1hTQn4" value="55dbb157-13cf-4780-8dd4-57f43ccec214" />
+        <property role="3Fg1Gr" value="1426" />
+        <property role="3Fnomm" value="8" />
+        <node concept="3MKX5i" id="4qxaCfUgPp6" role="3MKX6F">
+          <property role="1hTQn4" value="3587a1db-9c65-47d3-9197-19ae7871eeb0" />
+          <property role="3Fg1Gr" value="1427" />
+          <node concept="19SGf9" id="4qxaCfUgPp7" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPp8" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister die het aangaat kan de bevoegdheden, bedoeld in het eerste tot en met het vijfde lid, uitoefenen zolang als en over de jaren dat het Rijk daarbij belang heeft." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPpa" role="3MKX6F">
+      <property role="1hTQn4" value="899d155d-5e32-4b3f-9899-f6bdb07482f2" />
+      <property role="3Fg1Gr" value="1428" />
+      <node concept="3Fnoml" id="4qxaCfUgPpb" role="3MKX6F">
+        <property role="1hTQn4" value="07f8b7c8-0124-4e1b-81f1-25accdbe15bf" />
+        <property role="3Fg1Gr" value="1429" />
+        <property role="3Fnomm" value="9" />
+        <node concept="3MKX5i" id="4qxaCfUgPpc" role="3MKX6F">
+          <property role="1hTQn4" value="f49e9d16-1008-4bf0-bfbd-3871f7b5f089" />
+          <property role="3Fg1Gr" value="1430" />
+          <node concept="19SGf9" id="4qxaCfUgPpd" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPpe" role="19SJt6">
+              <property role="19SUeA" value="Onverminderd het elders bij of krachtens de wet bepaalde, stelt Onze Minister die het aangaat, in afwijking van het tweede lid, geen onderzoek in ten aanzien van provincies, gemeenten, waterschappen, de openbare lichamen Bonaire, Sint Eustatius en Saba, openbare lichamen voor beroep en bedrijf en openbare lichamen en gemeenschappelijke organen ingesteld krachtens de Wet gemeenschappelijke regelingen met uitzondering van de openbare lichamen en gemeenschappelijke organen waaraan vanwege het Rijk wordt deelgenomen, voor zover zij een bijdrage als bedoeld in artikel 6.1, aanhef en onderdeel a, hebben ontvangen." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPph">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="015bcf33-549e-4093-9057-c514770ed18f" />
+    <property role="3Fg1Gr" value="1431" />
+    <property role="TrG5h" value="Artikel 6.4 Bevoegdheden toezicht door Onze Ministers bij uitbesteding" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPpi" role="3MKX6F">
+      <property role="1hTQn4" value="174f6298-9ac2-4ff1-9c21-f33d961659f7" />
+      <property role="3Fg1Gr" value="1433" />
+      <node concept="19SGf9" id="4qxaCfUgPpj" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPpk" role="19SJt6">
+          <property role="19SUeA" value="Indien een administratie of de daarmee samenhangende taken aan een derde worden uitbesteed, dan is Onze Minister die het aangaat bevoegd aan de hand van de administratie bij die derde of degene die de administratie of de taken in opdracht van die derde uitvoert een onderzoek als bedoeld in artikel 6.3, derde lid, te verrichten." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPpn">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="4c37f25f-ca47-477c-967f-96b3a8ebe45b" />
+    <property role="3Fg1Gr" value="1434" />
+    <property role="TrG5h" value="Artikel 6.5 Aansprakelijkheid accountant" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPpo" role="3MKX6F">
+      <property role="1hTQn4" value="7cec1299-390e-4ef2-9f33-171818086299" />
+      <property role="3Fg1Gr" value="1436" />
+      <node concept="19SGf9" id="4qxaCfUgPpp" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPpq" role="19SJt6">
+          <property role="19SUeA" value="De accountant die op grond van de artikelen 6.3, vijfde lid, inzage in de controledossiers verleent en kopieën hieruit verstrekt, is niet aansprakelijk voor de schade die een derde dientengevolge lijdt, tenzij aannemelijk wordt gemaakt dat de accountant gelet op alle feiten en omstandigheden hiertoe in redelijkheid niet had mogen overgaan." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPpt">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="e19ea656-c840-4f3b-af34-e83473422728" />
+    <property role="3Fg1Gr" value="1437" />
+    <property role="TrG5h" value="Artikel 6.6 Regelgeving" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPpu" role="3MKX6F">
+      <property role="1hTQn4" value="6bb6313d-278b-4212-99eb-eb9b8e104f15" />
+      <property role="3Fg1Gr" value="1439" />
+      <node concept="19SGf9" id="4qxaCfUgPpv" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPpw" role="19SJt6">
+          <property role="19SUeA" value="Onverminderd het elders bij wet bepaalde, kunnen bij of krachtens algemene maatregel van bestuur regels worden gesteld over:" />
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPpy" role="3MKX6F">
+      <property role="1hTQn4" value="0a9c27db-0f48-4d9f-9fdc-f23e23443901" />
+      <property role="3Fg1Gr" value="1440" />
+      <node concept="3MKX5h" id="4qxaCfUgPpz" role="3MKX6F">
+        <property role="1hTQn4" value="11ffc296-9bf0-4729-ac18-a7d4c78c289f" />
+        <property role="3Fg1Gr" value="1441" />
+        <node concept="3Fnoml" id="4qxaCfUgPp$" role="3MKX6F">
+          <property role="1hTQn4" value="55a4b699-4dde-4ea4-a5be-835e7b7ec011" />
+          <property role="3Fg1Gr" value="1442" />
+          <property role="3Fnomm" value="a." />
+          <node concept="3MKX5i" id="4qxaCfUgPp_" role="3MKX6F">
+            <property role="1hTQn4" value="25b4c4bb-a520-40d4-89b0-b294d6cbc07b" />
+            <property role="3Fg1Gr" value="1443" />
+            <node concept="19SGf9" id="4qxaCfUgPpA" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgPpB" role="19SJt6">
+                <property role="19SUeA" value="de informatie die de rechtspersonen met een wettelijke taak in hun begroting en jaarverslag opnemen;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgPpD" role="3MKX6F">
+        <property role="1hTQn4" value="ae5afc12-addb-441c-bf9d-732cabbec3c7" />
+        <property role="3Fg1Gr" value="1444" />
+        <node concept="3Fnoml" id="4qxaCfUgPpE" role="3MKX6F">
+          <property role="1hTQn4" value="3c66d18d-66b4-472f-988f-261cbc3b6c35" />
+          <property role="3Fg1Gr" value="1445" />
+          <property role="3Fnomm" value="b." />
+          <node concept="3MKX5i" id="4qxaCfUgPpF" role="3MKX6F">
+            <property role="1hTQn4" value="dd999a5b-b7fc-4471-ae35-b890b16c9244" />
+            <property role="3Fg1Gr" value="1446" />
+            <node concept="19SGf9" id="4qxaCfUgPpG" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgPpH" role="19SJt6">
+                <property role="19SUeA" value="de eisen aan de informatie die in het jaarverslag van de rechtspersonen met een wettelijke taak wordt opgenomen." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPpL">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="a2438c45-7530-48f6-b494-fb0d0fc213b3" />
+    <property role="3Fg1Gr" value="1449" />
+    <property role="TrG5h" value="Artikel 6.7 Toezicht door Onze Ministers op schatkistbankieren" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPpM" role="3MKX6F">
+      <property role="1hTQn4" value="eb459df7-1546-4678-9125-56ccaccdcf28" />
+      <property role="3Fg1Gr" value="1451" />
+      <node concept="3Fnoml" id="4qxaCfUgPpN" role="3MKX6F">
+        <property role="1hTQn4" value="39aa54ab-e7dc-4d39-a134-20dcf1a2afa1" />
+        <property role="3Fg1Gr" value="1452" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPpO" role="3MKX6F">
+          <property role="1hTQn4" value="cd9d0f29-82fc-4ce3-9c87-64bab840ea68" />
+          <property role="3Fg1Gr" value="1453" />
+          <node concept="19SGf9" id="4qxaCfUgPpP" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPpQ" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister die het aangaat is belast met het toezicht op:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPpS" role="3MKX6F">
+          <property role="1hTQn4" value="0a962716-6974-42c1-a922-96c53b1b3960" />
+          <property role="3Fg1Gr" value="1454" />
+          <node concept="3MKX5h" id="4qxaCfUgPpT" role="3MKX6F">
+            <property role="1hTQn4" value="11366354-2772-44a0-9634-61a0baf1ad4a" />
+            <property role="3Fg1Gr" value="1455" />
+            <node concept="3Fnoml" id="4qxaCfUgPpU" role="3MKX6F">
+              <property role="1hTQn4" value="55c6bcd3-9700-4b00-8547-79ee71de6e9d" />
+              <property role="3Fg1Gr" value="1456" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgPpV" role="3MKX6F">
+                <property role="1hTQn4" value="83ba38b0-e901-4f62-82bd-6aabc8fedd68" />
+                <property role="3Fg1Gr" value="1457" />
+                <node concept="19SGf9" id="4qxaCfUgPpW" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPpX" role="19SJt6">
+                    <property role="19SUeA" value="het schatkistbankieren door de rechtspersonen die krachtens artikel 5.1, eerste lid, aanhef en onder a, zijn aangewezen;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPpZ" role="3MKX6F">
+            <property role="1hTQn4" value="ec30123e-c352-458b-84a1-f4b407d9f68c" />
+            <property role="3Fg1Gr" value="1458" />
+            <node concept="3Fnoml" id="4qxaCfUgPq0" role="3MKX6F">
+              <property role="1hTQn4" value="215f749b-4cd6-405b-9b88-a19abb3c923b" />
+              <property role="3Fg1Gr" value="1459" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgPq1" role="3MKX6F">
+                <property role="1hTQn4" value="f92eae03-396f-4cc0-a684-0d6a5505fd83" />
+                <property role="3Fg1Gr" value="1460" />
+                <node concept="19SGf9" id="4qxaCfUgPq2" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPq3" role="19SJt6">
+                    <property role="19SUeA" value="het uitzetten van de liquide middelen door de rechtspersonen die krachtens artikel 5.1, eerste lid, aanhef en onder b, zijn aangewezen;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPq5" role="3MKX6F">
+            <property role="1hTQn4" value="8e7387d0-2d8e-4e0d-859f-b8ea018ceefa" />
+            <property role="3Fg1Gr" value="1461" />
+            <node concept="3Fnoml" id="4qxaCfUgPq6" role="3MKX6F">
+              <property role="1hTQn4" value="937d9b24-1775-416e-9e24-f95d5f9c5262" />
+              <property role="3Fg1Gr" value="1462" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgPq7" role="3MKX6F">
+                <property role="1hTQn4" value="25e81455-4890-4f66-8988-6027dc866764" />
+                <property role="3Fg1Gr" value="1463" />
+                <node concept="19SGf9" id="4qxaCfUgPq8" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPq9" role="19SJt6">
+                    <property role="19SUeA" value="het in artikel 5.8 bepaalde." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPqb" role="3MKX6F">
+      <property role="1hTQn4" value="cc5f057d-ad03-4b5b-a778-d0776a5a4c8d" />
+      <property role="3Fg1Gr" value="1464" />
+      <node concept="3Fnoml" id="4qxaCfUgPqc" role="3MKX6F">
+        <property role="1hTQn4" value="0752662d-c7ac-499f-875c-3cc5588f187f" />
+        <property role="3Fg1Gr" value="1465" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPqd" role="3MKX6F">
+          <property role="1hTQn4" value="bc4217c5-250e-4469-b375-4b6d1c25f468" />
+          <property role="3Fg1Gr" value="1466" />
+          <node concept="19SGf9" id="4qxaCfUgPqe" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPqf" role="19SJt6">
+              <property role="19SUeA" value="Een rechtspersoon die krachtens artikel 5.1, eerste lid, aanhef en onder a en b, is aangewezen verstrekt op verzoek van Onze Minister die het aangaat de informatie die hij voor zijn toezicht, bedoeld in het eerste lid, nodig acht." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPqh" role="3MKX6F">
+      <property role="1hTQn4" value="a50d5e07-004f-43b9-a5ba-132d07cfd54f" />
+      <property role="3Fg1Gr" value="1467" />
+      <node concept="3Fnoml" id="4qxaCfUgPqi" role="3MKX6F">
+        <property role="1hTQn4" value="69821164-a373-4a72-9635-9acae25acb0a" />
+        <property role="3Fg1Gr" value="1468" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPqj" role="3MKX6F">
+          <property role="1hTQn4" value="a5aee99c-7696-46c9-8ce3-6dbf6b987f1c" />
+          <property role="3Fg1Gr" value="1469" />
+          <node concept="19SGf9" id="4qxaCfUgPqk" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPql" role="19SJt6">
+              <property role="19SUeA" value="De rechtspersonen die krachtens artikel 5.1, eerste lid, aanhef en onder a en b, zijn aangewezen, verrichten op verzoek van Onze Minister die het aangaat een onderzoek naar de naleving van de verplichtingen, bedoeld de artikelen 5.2 tot en met 5.4 en 5.7 en 5.8. Het onderzoek wordt verricht door de accountant die belast is met de controle van de jaarrekening van die rechtspersoon. De rechtspersonen sturen het verslag van het onderzoek naar Onze Minister die het aangaat." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPqn" role="3MKX6F">
+      <property role="1hTQn4" value="6a37a63a-16df-45be-9fe3-8198410e0dc6" />
+      <property role="3Fg1Gr" value="1470" />
+      <node concept="3Fnoml" id="4qxaCfUgPqo" role="3MKX6F">
+        <property role="1hTQn4" value="6c8a9a5d-e2ac-410e-a1b6-f81b4f65e262" />
+        <property role="3Fg1Gr" value="1471" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgPqp" role="3MKX6F">
+          <property role="1hTQn4" value="a1ac2c1e-8ef8-4417-9fea-11e228afa3fa" />
+          <property role="3Fg1Gr" value="1472" />
+          <node concept="19SGf9" id="4qxaCfUgPqq" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPqr" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister die het aangaat kan een rechtspersoon die krachtens artikel 5.1, eerste lid, aanhef en onder a en b, is aangewezen en die zich niet houdt aan het bij of krachtens de artikelen 5.1, tot en met 5.4 en 5.7 en 5.8 bepaalde, de aanwijzing geven hieraan alsnog te voldoen." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPqu">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="e788171c-3e1e-4588-b373-6bf73321018c" />
+    <property role="3Fg1Gr" value="1473" />
+    <property role="TrG5h" value="Artikel 6.8 Nadere regelgeving" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPqv" role="3MKX6F">
+      <property role="1hTQn4" value="c603c024-5893-46d1-aa81-78360656a9af" />
+      <property role="3Fg1Gr" value="1475" />
+      <node concept="19SGf9" id="4qxaCfUgPqw" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPqx" role="19SJt6">
+          <property role="19SUeA" value="Onze Minister van Financiën kan nadere regels stellen over het toezicht, bedoeld in artikel 6.7." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPq_">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="82fa6174-9b80-4227-b006-9dc169398d4a" />
+    <property role="3Fg1Gr" value="1478" />
+    <property role="TrG5h" value="Artikel 6.9 Verklaring over EU-uitgaven" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPqA" role="3MKX6F">
+      <property role="1hTQn4" value="0852310a-9819-4aa2-930c-4b37bb011f20" />
+      <property role="3Fg1Gr" value="1480" />
+      <node concept="3Fnoml" id="4qxaCfUgPqB" role="3MKX6F">
+        <property role="1hTQn4" value="62455770-5311-4a51-8d89-fb61997ed020" />
+        <property role="3Fg1Gr" value="1481" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPqC" role="3MKX6F">
+          <property role="1hTQn4" value="106eca8a-5081-464f-a9f3-c562213c93f0" />
+          <property role="3Fg1Gr" value="1482" />
+          <node concept="19SGf9" id="4qxaCfUgPqD" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPqE" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën kan in overeenstemming met Onze Ministers die het mede aangaan jaarlijks ten behoeve van de Europese Commissie een verklaring opstellen over de besteding van de Europese middelen in gedeeld beheer door de lidstaat Nederland." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPqG" role="3MKX6F">
+      <property role="1hTQn4" value="2c26b6cc-8324-4677-8c8f-85a6d9fc0a76" />
+      <property role="3Fg1Gr" value="1483" />
+      <node concept="3Fnoml" id="4qxaCfUgPqH" role="3MKX6F">
+        <property role="1hTQn4" value="57165c36-5eb2-4b54-9ee0-7cd368734e29" />
+        <property role="3Fg1Gr" value="1484" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPqI" role="3MKX6F">
+          <property role="1hTQn4" value="30fdb4fa-d6cd-494e-b922-af1cd2c0023a" />
+          <property role="3Fg1Gr" value="1485" />
+          <node concept="19SGf9" id="4qxaCfUgPqJ" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPqK" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën zendt de verklaring naar de Europese Commissie." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPqM" role="3MKX6F">
+      <property role="1hTQn4" value="43eec13d-692c-411b-aecb-700e2bdb33fd" />
+      <property role="3Fg1Gr" value="1486" />
+      <node concept="3Fnoml" id="4qxaCfUgPqN" role="3MKX6F">
+        <property role="1hTQn4" value="3a41bfbe-4d56-4091-bf65-caf4c74b4fdb" />
+        <property role="3Fg1Gr" value="1487" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPqO" role="3MKX6F">
+          <property role="1hTQn4" value="cf155aa6-77b5-4730-aad8-20194f5778a4" />
+          <property role="3Fg1Gr" value="1488" />
+          <node concept="19SGf9" id="4qxaCfUgPqP" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPqQ" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën zendt de verklaring voor onderzoek naar de Algemene Rekenkamer." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPqS" role="3MKX6F">
+      <property role="1hTQn4" value="dd5e7607-09b6-4d8a-a761-d282cd10542b" />
+      <property role="3Fg1Gr" value="1489" />
+      <node concept="3Fnoml" id="4qxaCfUgPqT" role="3MKX6F">
+        <property role="1hTQn4" value="73d4409a-90e2-4335-a3e3-6e36e6a883b9" />
+        <property role="3Fg1Gr" value="1490" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgPqU" role="3MKX6F">
+          <property role="1hTQn4" value="58e12ba2-4783-42a8-9b6b-20da17805fcc" />
+          <property role="3Fg1Gr" value="1491" />
+          <node concept="19SGf9" id="4qxaCfUgPqV" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPqW" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën zendt de verklaring na het onderzoek van de Algemene Rekenkamer naar de Tweede Kamer der Staten-Generaal." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPr1">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="a1fdc0fb-832d-4112-b860-1c0d25146131" />
+    <property role="3Fg1Gr" value="1496" />
+    <property role="TrG5h" value="Artikel 7.1 Samenstelling" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPr2" role="3MKX6F">
+      <property role="1hTQn4" value="58ca5876-bada-4f76-b09d-ba33f6e75f4b" />
+      <property role="3Fg1Gr" value="1498" />
+      <node concept="3Fnoml" id="4qxaCfUgPr3" role="3MKX6F">
+        <property role="1hTQn4" value="ea62b997-a062-41b8-a6d5-2438cb245517" />
+        <property role="3Fg1Gr" value="1499" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPr4" role="3MKX6F">
+          <property role="1hTQn4" value="33e313f3-b739-4457-8727-f1a6f6b4d65e" />
+          <property role="3Fg1Gr" value="1500" />
+          <node concept="19SGf9" id="4qxaCfUgPr5" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPr6" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer bestaat uit drie leden in gewone dienst die tezamen het college van de Algemene Rekenkamer vormen, alsmede uit ten hoogste drie leden in buitengewone dienst." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPr8" role="3MKX6F">
+      <property role="1hTQn4" value="71ef409b-dfa3-478e-b599-2efd8d3c804f" />
+      <property role="3Fg1Gr" value="1501" />
+      <node concept="3Fnoml" id="4qxaCfUgPr9" role="3MKX6F">
+        <property role="1hTQn4" value="b5f0012c-ac87-4ebb-ae81-a3bca0faa0e1" />
+        <property role="3Fg1Gr" value="1502" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPra" role="3MKX6F">
+          <property role="1hTQn4" value="33ee929d-1a2b-45aa-8f3a-49106692959b" />
+          <property role="3Fg1Gr" value="1503" />
+          <node concept="19SGf9" id="4qxaCfUgPrb" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPrc" role="19SJt6">
+              <property role="19SUeA" value="De president wordt uit de leden in gewone dienst bij koninklijk besluit op voordracht van Onze Minister van Binnenlandse Zaken en Koninkrijksrelaties benoemd." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPre" role="3MKX6F">
+      <property role="1hTQn4" value="631c5573-1bc3-4eaa-869c-8ad133673783" />
+      <property role="3Fg1Gr" value="1504" />
+      <node concept="3Fnoml" id="4qxaCfUgPrf" role="3MKX6F">
+        <property role="1hTQn4" value="fa427b57-406e-4724-82d9-5487e660c717" />
+        <property role="3Fg1Gr" value="1505" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPrg" role="3MKX6F">
+          <property role="1hTQn4" value="0529b315-a0b0-48f7-886f-dc78a4b2648e" />
+          <property role="3Fg1Gr" value="1506" />
+          <node concept="19SGf9" id="4qxaCfUgPrh" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPri" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer stelt Ons en de Tweede Kamer der Staten-Generaal zo spoedig mogelijk in kennis van een vacature onder de leden." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPrk" role="3MKX6F">
+      <property role="1hTQn4" value="dcff11df-429d-4282-9bf1-5b71db00846b" />
+      <property role="3Fg1Gr" value="1507" />
+      <node concept="3Fnoml" id="4qxaCfUgPrl" role="3MKX6F">
+        <property role="1hTQn4" value="67d8ab1c-1627-444e-b26d-1abb23070324" />
+        <property role="3Fg1Gr" value="1508" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgPrm" role="3MKX6F">
+          <property role="1hTQn4" value="23e6caaa-d6a2-4b00-bf3a-d12e86580828" />
+          <property role="3Fg1Gr" value="1509" />
+          <node concept="19SGf9" id="4qxaCfUgPrn" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPro" role="19SJt6">
+              <property role="19SUeA" value="Het college van de Algemene Rekenkamer stelt een aanbevelingslijst op met ten minste vier kandidaten en zendt deze zo spoedig mogelijk na de kennisgeving van de vacature, bedoeld in het derde lid, naar de Tweede Kamer der Staten-Generaal. De Tweede Kamer der Staten-Generaal zal bij haar voordracht op de aanbevelingslijst zodanig acht slaan als haar dienstig voorkomt." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPrr">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="057756c1-308b-461e-b986-6742b5e1c55a" />
+    <property role="3Fg1Gr" value="1510" />
+    <property role="TrG5h" value="Artikel 7.2 Leden in buitengewone dienst" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPrs" role="3MKX6F">
+      <property role="1hTQn4" value="0d7358d8-9b28-434e-94ea-b7e22b322764" />
+      <property role="3Fg1Gr" value="1512" />
+      <node concept="3Fnoml" id="4qxaCfUgPrt" role="3MKX6F">
+        <property role="1hTQn4" value="d6216107-0b44-4129-8d04-6e5025c71bfb" />
+        <property role="3Fg1Gr" value="1513" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPru" role="3MKX6F">
+          <property role="1hTQn4" value="c36c8908-0ae8-4358-9f5d-b5833355bda8" />
+          <property role="3Fg1Gr" value="1514" />
+          <node concept="19SGf9" id="4qxaCfUgPrv" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPrw" role="19SJt6">
+              <property role="19SUeA" value="De leden in buitengewone dienst kunnen door de president worden opgeroepen om deel te nemen aan bepaalde werkzaamheden en hebben met betrekking tot die werkzaamheden dezelfde bevoegdheden als de leden in gewone dienst. De leden in buitengewone dienst maken dan tevens deel uit van het college van de Algemene Rekenkamer." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPry" role="3MKX6F">
+      <property role="1hTQn4" value="28f3af33-5479-4ae7-bcbb-578ad0e28b86" />
+      <property role="3Fg1Gr" value="1515" />
+      <node concept="3Fnoml" id="4qxaCfUgPrz" role="3MKX6F">
+        <property role="1hTQn4" value="af204afb-a676-4aa4-a393-0601866a6268" />
+        <property role="3Fg1Gr" value="1516" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPr$" role="3MKX6F">
+          <property role="1hTQn4" value="6cd17776-d2ff-4090-9e0d-a520fd79d2fb" />
+          <property role="3Fg1Gr" value="1517" />
+          <node concept="19SGf9" id="4qxaCfUgPr_" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPrA" role="19SJt6">
+              <property role="19SUeA" value="Een lid in buitengewone dienst vervangt een lid in gewone dienst gedurende diens voorziene afwezigheid of ontstentenis." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPrD">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="14604693-3471-4f05-ae86-4b02f7fa862e" />
+    <property role="3Fg1Gr" value="1518" />
+    <property role="TrG5h" value="Artikel 7.3 De secretaris" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPrE" role="3MKX6F">
+      <property role="1hTQn4" value="0fb41d19-e68b-4a98-a4e8-c1d61c99a167" />
+      <property role="3Fg1Gr" value="1520" />
+      <node concept="3Fnoml" id="4qxaCfUgPrF" role="3MKX6F">
+        <property role="1hTQn4" value="2d923707-3435-4ed9-b80c-0a7fd05bcf7f" />
+        <property role="3Fg1Gr" value="1521" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPrG" role="3MKX6F">
+          <property role="1hTQn4" value="9fae34ab-9751-4b85-967e-157da4394527" />
+          <property role="3Fg1Gr" value="1522" />
+          <node concept="19SGf9" id="4qxaCfUgPrH" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPrI" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer heeft een secretaris." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPrK" role="3MKX6F">
+      <property role="1hTQn4" value="06ee5061-9138-4491-8ae0-ab73c968edf1" />
+      <property role="3Fg1Gr" value="1523" />
+      <node concept="3Fnoml" id="4qxaCfUgPrL" role="3MKX6F">
+        <property role="1hTQn4" value="0ef7188a-146f-4d78-84ee-88d00ac5a5a3" />
+        <property role="3Fg1Gr" value="1524" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPrM" role="3MKX6F">
+          <property role="1hTQn4" value="514743cd-9f7a-4a01-98c9-096eae9fa8ca" />
+          <property role="3Fg1Gr" value="1525" />
+          <node concept="19SGf9" id="4qxaCfUgPrN" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPrO" role="19SJt6">
+              <property role="19SUeA" value="Op voordracht van de Algemene Rekenkamer wordt bij koninklijk besluit besloten tot het aangaan van een arbeidsovereenkomst met de secretaris. Tot beëindiging van de arbeidsovereenkomst wordt bij koninklijk besluit op voordracht van de Algemene Rekenkamer besloten, tenzij de Algemene Rekenkamer de arbeidsovereenkomst opzegt op grond van artikel 677 van Boek 7 van het Burgerlijk Wetboek." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPrR">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="d2b90a27-c1c7-4df1-9150-3d487930e48b" />
+    <property role="3Fg1Gr" value="1526" />
+    <property role="TrG5h" value="Artikel 7.4 Benoemingsvereisten" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPrS" role="3MKX6F">
+      <property role="1hTQn4" value="5b3b8347-1b7e-4988-8b03-48937a0a9dab" />
+      <property role="3Fg1Gr" value="1528" />
+      <node concept="3Fnoml" id="4qxaCfUgPrT" role="3MKX6F">
+        <property role="1hTQn4" value="b42150b5-6db4-4804-822c-dc77d890b7cd" />
+        <property role="3Fg1Gr" value="1529" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPrU" role="3MKX6F">
+          <property role="1hTQn4" value="9dafc08e-9c51-4204-b938-7cf9504b1ca7" />
+          <property role="3Fg1Gr" value="1530" />
+          <node concept="19SGf9" id="4qxaCfUgPrV" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPrW" role="19SJt6">
+              <property role="19SUeA" value="Om tot lid van de Algemene Rekenkamer te kunnen worden benoemd, moet men Nederlander zijn." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPrY" role="3MKX6F">
+      <property role="1hTQn4" value="96717c84-6f81-49ea-9a44-8cbfe29645e6" />
+      <property role="3Fg1Gr" value="1531" />
+      <node concept="3Fnoml" id="4qxaCfUgPrZ" role="3MKX6F">
+        <property role="1hTQn4" value="c6bd30e5-a824-485f-aea8-2e7e73e1640a" />
+        <property role="3Fg1Gr" value="1532" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPs0" role="3MKX6F">
+          <property role="1hTQn4" value="97fc2200-397c-4e48-a209-48bae381bbae" />
+          <property role="3Fg1Gr" value="1533" />
+          <node concept="19SGf9" id="4qxaCfUgPs1" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPs2" role="19SJt6">
+              <property role="19SUeA" value="De leden en de secretaris vervullen geen andere openbare betrekkingen waaraan een vaste beloning of toelage is verbonden, noch zijn zij lid van een publiekrechtelijk college waarvoor de keuze geschiedt bij of krachtens wettelijk voorschrift uitgeschreven verkiezingen. Hiervan kan bij koninklijk besluit, de Algemene Rekenkamer gehoord, ontheffing worden verleend, tenzij de onverenigbaarheid ook uit een ander wettelijk voorschrift voortvloeit." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPs4" role="3MKX6F">
+      <property role="1hTQn4" value="70bbbcca-9442-4d4f-ba14-93c0e8684289" />
+      <property role="3Fg1Gr" value="1534" />
+      <node concept="3Fnoml" id="4qxaCfUgPs5" role="3MKX6F">
+        <property role="1hTQn4" value="c7ff3a35-39d7-440a-985b-69da80a0dde0" />
+        <property role="3Fg1Gr" value="1535" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPs6" role="3MKX6F">
+          <property role="1hTQn4" value="f6b5297e-eac4-4ed1-8bc9-bfc9af420f48" />
+          <property role="3Fg1Gr" value="1536" />
+          <node concept="19SGf9" id="4qxaCfUgPs7" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPs8" role="19SJt6">
+              <property role="19SUeA" value="Onverminderd het tweede lid, vervullen de leden en de secretaris geen betrekkingen die ongewenst zijn met het oog op een goede vervulling van hun ambt of handhaving van hun onpartijdigheid en onafhankelijkheid of van het vertrouwen daarin." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPsa" role="3MKX6F">
+      <property role="1hTQn4" value="d8a9e370-0674-47a8-9867-3810c39081ec" />
+      <property role="3Fg1Gr" value="1537" />
+      <node concept="3Fnoml" id="4qxaCfUgPsb" role="3MKX6F">
+        <property role="1hTQn4" value="ae1e8bf8-348f-4144-873c-649446c35891" />
+        <property role="3Fg1Gr" value="1538" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgPsc" role="3MKX6F">
+          <property role="1hTQn4" value="4e4d3be0-08b5-4418-8f6c-f4822c71ca03" />
+          <property role="3Fg1Gr" value="1539" />
+          <node concept="19SGf9" id="4qxaCfUgPsd" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPse" role="19SJt6">
+              <property role="19SUeA" value="De betrekkingen die de leden en de secretaris buiten hun ambt vervullen, worden jaarlijks door de president openbaar gemaakt." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPsh">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="eeb61488-5e39-4606-bfff-745c1b1ad0cb" />
+    <property role="3Fg1Gr" value="1540" />
+    <property role="TrG5h" value="Artikel 7.5 Ontslag en schorsing" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPsi" role="3MKX6F">
+      <property role="1hTQn4" value="8f2db4a1-7504-4567-b31c-3ef90671480d" />
+      <property role="3Fg1Gr" value="1542" />
+      <node concept="3Fnoml" id="4qxaCfUgPsj" role="3MKX6F">
+        <property role="1hTQn4" value="e241cb88-75f7-4980-b776-1a9adf374b27" />
+        <property role="3Fg1Gr" value="1543" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPsk" role="3MKX6F">
+          <property role="1hTQn4" value="2e5661f9-a5c6-417a-bee6-7d056903c26a" />
+          <property role="3Fg1Gr" value="1544" />
+          <node concept="19SGf9" id="4qxaCfUgPsl" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPsm" role="19SJt6">
+              <property role="19SUeA" value="Een lid wordt ontslag verleend op eigen verzoek en bij het bereiken van de leeftijd van zeventig jaar. Het ontslag gaat in op de eerste dag van de volgende maand." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPso" role="3MKX6F">
+      <property role="1hTQn4" value="592db718-7584-410d-a972-7f5d23f1a71b" />
+      <property role="3Fg1Gr" value="1545" />
+      <node concept="3Fnoml" id="4qxaCfUgPsp" role="3MKX6F">
+        <property role="1hTQn4" value="99898b28-1a97-425d-962f-7c662e3fde4b" />
+        <property role="3Fg1Gr" value="1546" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPsq" role="3MKX6F">
+          <property role="1hTQn4" value="43a4aa82-cc91-4f7d-a011-bce02087c85f" />
+          <property role="3Fg1Gr" value="1547" />
+          <node concept="19SGf9" id="4qxaCfUgPsr" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPss" role="19SJt6">
+              <property role="19SUeA" value="De Hoge Raad der Nederlanden kan de leden ontslaan of schorsen. Hoofdstuk 6A van de Wet rechtspositie rechterlijke ambtenaren, met uitzondering van de artikelen 46b, 46c, onder b en c, 46ca, eerste lid, onder b en c, tweede en derde lid, 46d, 46i, eerste lid, onder c, 46k en 46q, is daarbij van overeenkomstige toepassing, met dien verstande dat:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPsu" role="3MKX6F">
+          <property role="1hTQn4" value="6d97fe7c-6f26-4f23-acbe-dc42a71cc5a5" />
+          <property role="3Fg1Gr" value="1548" />
+          <node concept="3MKX5h" id="4qxaCfUgPsv" role="3MKX6F">
+            <property role="1hTQn4" value="2783b662-2579-46fb-ab66-7c3eaf24ef7d" />
+            <property role="3Fg1Gr" value="1549" />
+            <node concept="3Fnoml" id="4qxaCfUgPsw" role="3MKX6F">
+              <property role="1hTQn4" value="6cf39635-9bbc-424d-b8af-2152b551a66b" />
+              <property role="3Fg1Gr" value="1550" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgPsx" role="3MKX6F">
+                <property role="1hTQn4" value="9a452122-a5e2-4db6-84c1-b7f09c30b4e6" />
+                <property role="3Fg1Gr" value="1551" />
+                <node concept="19SGf9" id="4qxaCfUgPsy" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPsz" role="19SJt6">
+                    <property role="19SUeA" value="de disciplinaire maatregel van schriftelijke berisping wordt opgelegd door de president van de Algemene Rekenkamer;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPs_" role="3MKX6F">
+            <property role="1hTQn4" value="09e9460f-9af6-435f-8fb7-7fe68bef89db" />
+            <property role="3Fg1Gr" value="1552" />
+            <node concept="3Fnoml" id="4qxaCfUgPsA" role="3MKX6F">
+              <property role="1hTQn4" value="8045b814-1c50-49c7-99f2-153d466b1783" />
+              <property role="3Fg1Gr" value="1553" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgPsB" role="3MKX6F">
+                <property role="1hTQn4" value="c18a1986-af3d-4838-ab05-9ee10eec3ccd" />
+                <property role="3Fg1Gr" value="1554" />
+                <node concept="19SGf9" id="4qxaCfUgPsC" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPsD" role="19SJt6">
+                    <property role="19SUeA" value="in artikel 46e voor «de rechterlijk ambtenaar, tevens zijnde president van het gerechtshof of de rechtbank, de president van de Hoge Raad onderscheidenlijk procureur-generaal bij de Hoge Raad» wordt gelezen «de president van de Algemene Rekenkamer»;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPsF" role="3MKX6F">
+            <property role="1hTQn4" value="76e81cf9-3822-4a76-be00-fa471711f698" />
+            <property role="3Fg1Gr" value="1555" />
+            <node concept="3Fnoml" id="4qxaCfUgPsG" role="3MKX6F">
+              <property role="1hTQn4" value="fbebea1a-5e62-403f-ad18-dbc0d35b680a" />
+              <property role="3Fg1Gr" value="1556" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgPsH" role="3MKX6F">
+                <property role="1hTQn4" value="bf09b925-51e5-4e5d-a42a-ac8c09bd4d74" />
+                <property role="3Fg1Gr" value="1557" />
+                <node concept="19SGf9" id="4qxaCfUgPsI" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPsJ" role="19SJt6">
+                    <property role="19SUeA" value="de president van de Algemene Rekenkamer als functionele autoriteit wordt aangemerkt;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPsL" role="3MKX6F">
+            <property role="1hTQn4" value="f4177249-7d34-4e01-8d88-8727b0cfd495" />
+            <property role="3Fg1Gr" value="1558" />
+            <node concept="3Fnoml" id="4qxaCfUgPsM" role="3MKX6F">
+              <property role="1hTQn4" value="f6781589-af15-49e1-b1bf-f2451f33bd16" />
+              <property role="3Fg1Gr" value="1559" />
+              <property role="3Fnomm" value="d." />
+              <node concept="3MKX5i" id="4qxaCfUgPsN" role="3MKX6F">
+                <property role="1hTQn4" value="60323082-3926-4067-a6db-05f8fa421ba1" />
+                <property role="3Fg1Gr" value="1560" />
+                <node concept="19SGf9" id="4qxaCfUgPsO" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPsP" role="19SJt6">
+                    <property role="19SUeA" value="voor «Onze Minister» wordt gelezen «Onze Minister van Binnenlandse Zaken en Koninkrijksrelaties»;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPsR" role="3MKX6F">
+            <property role="1hTQn4" value="0bd135e7-e189-4b71-93d7-a8d29a6005f2" />
+            <property role="3Fg1Gr" value="1561" />
+            <node concept="3Fnoml" id="4qxaCfUgPsS" role="3MKX6F">
+              <property role="1hTQn4" value="b94c7de3-0e2b-4c5c-a558-2c24ae1f9825" />
+              <property role="3Fg1Gr" value="1562" />
+              <property role="3Fnomm" value="e." />
+              <node concept="3MKX5i" id="4qxaCfUgPsT" role="3MKX6F">
+                <property role="1hTQn4" value="8e24de26-746b-4e30-ac34-edbda4eac23d" />
+                <property role="3Fg1Gr" value="1563" />
+                <node concept="19SGf9" id="4qxaCfUgPsU" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPsV" role="19SJt6">
+                    <property role="19SUeA" value="de voordracht, bedoeld in de artikelen 46i, vierde lid, en 46l, tweede lid, wordt gedaan door de Algemene Rekenkamer;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPsX" role="3MKX6F">
+            <property role="1hTQn4" value="bdd0c1ea-e7f6-42d6-b2d9-f463617703c0" />
+            <property role="3Fg1Gr" value="1564" />
+            <node concept="3Fnoml" id="4qxaCfUgPsY" role="3MKX6F">
+              <property role="1hTQn4" value="ec79e142-cbac-4f06-b095-6c3b2758da1f" />
+              <property role="3Fg1Gr" value="1565" />
+              <property role="3Fnomm" value="f." />
+              <node concept="3MKX5i" id="4qxaCfUgPsZ" role="3MKX6F">
+                <property role="1hTQn4" value="0ace3811-08c4-496d-bc2b-c8abf04f5555" />
+                <property role="3Fg1Gr" value="1566" />
+                <node concept="19SGf9" id="4qxaCfUgPt0" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPt1" role="19SJt6">
+                    <property role="19SUeA" value="in artikel 46p, vijfde lid, in plaats van «het betrokken gerecht onderscheidenlijk het parket bij de Hoge Raad» wordt gelezen «de Algemene Rekenkamer»." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPt3" role="3MKX6F">
+      <property role="1hTQn4" value="720fb6ac-0cc8-4691-bd78-75ff8af40d23" />
+      <property role="3Fg1Gr" value="1567" />
+      <node concept="3Fnoml" id="4qxaCfUgPt4" role="3MKX6F">
+        <property role="1hTQn4" value="47df506e-f82d-4203-a275-e29aa5c474e7" />
+        <property role="3Fg1Gr" value="1568" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPt5" role="3MKX6F">
+          <property role="1hTQn4" value="4cecfba4-6f71-44bb-8213-d5f4678269c7" />
+          <property role="3Fg1Gr" value="1569" />
+          <node concept="19SGf9" id="4qxaCfUgPt6" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPt7" role="19SJt6">
+              <property role="19SUeA" value="Onverminderd de gronden voor ontslag, bedoeld in het tweede lid, is een grond voor ontslag dat het lid in strijd met artikel 7.4, derde lid, handelt." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPt9" role="3MKX6F">
+      <property role="1hTQn4" value="da77d106-f44e-4140-b6be-f38af0f0de0b" />
+      <property role="3Fg1Gr" value="1570" />
+      <node concept="3Fnoml" id="4qxaCfUgPta" role="3MKX6F">
+        <property role="1hTQn4" value="dbb4d494-417f-4808-af15-cb6ac98d20a3" />
+        <property role="3Fg1Gr" value="1571" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgPtb" role="3MKX6F">
+          <property role="1hTQn4" value="2d613af2-a0be-4d6a-8d4e-8e93c1166e84" />
+          <property role="3Fg1Gr" value="1572" />
+          <node concept="19SGf9" id="4qxaCfUgPtc" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPtd" role="19SJt6">
+              <property role="19SUeA" value="Bij of krachtens algemene maatregel van bestuur kunnen regels worden gesteld met betrekking tot wachtgeld en voorzieningen in verband met ziekte en arbeidsongeschiktheid." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPtg">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="90a1167a-9dc3-4672-8daf-2b6549c14250" />
+    <property role="3Fg1Gr" value="1573" />
+    <property role="TrG5h" value="Artikel 7.6 Aanvaarding van het ambt" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPth" role="3MKX6F">
+      <property role="1hTQn4" value="7829c09c-2977-437b-8104-4fe442dec4c2" />
+      <property role="3Fg1Gr" value="1575" />
+      <node concept="3Fnoml" id="4qxaCfUgPti" role="3MKX6F">
+        <property role="1hTQn4" value="a49aec85-5f25-4875-ad90-1cfa099c7d8b" />
+        <property role="3Fg1Gr" value="1576" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPtj" role="3MKX6F">
+          <property role="1hTQn4" value="da102e73-4a19-42fe-bf8f-4e40deee7e2d" />
+          <property role="3Fg1Gr" value="1577" />
+          <node concept="19SGf9" id="4qxaCfUgPtk" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPtl" role="19SJt6">
+              <property role="19SUeA" value="De president, de overige leden in gewone dienst, de leden in buitengewone dienst en de secretaris leggen, alvorens hun ambt te aanvaarden, in Onze handen de volgende eed (verklaring en belofte) af:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPtn" role="3MKX6F">
+          <property role="1hTQn4" value="c147bb7c-15b1-45e6-8cf2-795438ab445e" />
+          <property role="3Fg1Gr" value="1578" />
+          <node concept="3MKX5h" id="4qxaCfUgPto" role="3MKX6F">
+            <property role="1hTQn4" value="e23fb343-ac1c-4e54-895f-29a5436c6410" />
+            <property role="3Fg1Gr" value="1579" />
+            <node concept="3MKX5i" id="4qxaCfUgPtp" role="3MKX6F">
+              <property role="1hTQn4" value="e9722e28-5f3c-47f1-a8f0-e39429cbf7cb" />
+              <property role="3Fg1Gr" value="1580" />
+              <node concept="19SGf9" id="4qxaCfUgPtq" role="3MLR7a">
+                <node concept="19SUe$" id="4qxaCfUgPtr" role="19SJt6">
+                  <property role="19SUeA" value="«Ik zweer (verklaar) dat ik, tot het verkrijgen van mijn aanstelling, middellijk noch onmiddellijk, onder welke naam of welk voorwendsel ook, aan iemand iets heb gegeven of beloofd." />
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5i" id="4qxaCfUgPtt" role="3MKX6F">
+              <property role="1hTQn4" value="e9400d6a-d4c4-4577-92e0-acecd56b7aa9" />
+              <property role="3Fg1Gr" value="1581" />
+              <node concept="19SGf9" id="4qxaCfUgPtu" role="3MLR7a">
+                <node concept="19SUe$" id="4qxaCfUgPtv" role="19SJt6">
+                  <property role="19SUeA" value="Ik zweer (verklaar en beloof) dat ik om iets in dit ambt te doen of te laten, van niemand enig geschenk of enige belofte heb aangenomen of zal aannemen, middellijk of onmiddellijk." />
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5i" id="4qxaCfUgPtx" role="3MKX6F">
+              <property role="1hTQn4" value="a8f6cc3f-22ed-4b2e-87be-084d73c9a2c7" />
+              <property role="3Fg1Gr" value="1582" />
+              <node concept="19SGf9" id="4qxaCfUgPty" role="3MLR7a">
+                <node concept="19SUe$" id="4qxaCfUgPtz" role="19SJt6">
+                  <property role="19SUeA" value="Ik zweer (beloof) trouw aan de Koning, dat ik de Grondwet steeds zal helpen onderhouden en mijn ambt met eerlijkheid, nauwgezetheid en onpartijdigheid zal vervullen." />
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5i" id="4qxaCfUgPt_" role="3MKX6F">
+              <property role="1hTQn4" value="d4c61a24-e815-49e4-8907-6949b87845dd" />
+              <property role="3Fg1Gr" value="1583" />
+              <node concept="19SGf9" id="4qxaCfUgPtA" role="3MLR7a">
+                <node concept="19SUe$" id="4qxaCfUgPtB" role="19SJt6">
+                  <property role="19SUeA" value="Zo waarlijk helpe mij God almachtig! (Dat verklaar en beloof ik!)»." />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPtD" role="3MKX6F">
+      <property role="1hTQn4" value="80aa9e02-9b2b-47a3-9af5-f2dfff7d1635" />
+      <property role="3Fg1Gr" value="1584" />
+      <node concept="3Fnoml" id="4qxaCfUgPtE" role="3MKX6F">
+        <property role="1hTQn4" value="b9f856e0-7175-496a-b63e-fb009400e6d0" />
+        <property role="3Fg1Gr" value="1585" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPtF" role="3MKX6F">
+          <property role="1hTQn4" value="cdf5a55d-c860-48c5-9e60-01afbfed50cd" />
+          <property role="3Fg1Gr" value="1586" />
+          <node concept="19SGf9" id="4qxaCfUgPtG" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPtH" role="19SJt6">
+              <property role="19SUeA" value="Daartoe door Ons gemachtigd kan ook de president in een vergadering van het college van de Algemene Rekenkamer deze eed of de verklaring en belofte afnemen van de overige leden in gewone dienst, de leden in buitengewone dienst en de secretaris." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPtK">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="77383c0d-aad8-4530-a7fb-9b906ab06288" />
+    <property role="3Fg1Gr" value="1587" />
+    <property role="TrG5h" value="Artikel 7.7 Reglement van orde" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPtL" role="3MKX6F">
+      <property role="1hTQn4" value="ce0ca029-0032-40d6-a3d0-88c6036f3a24" />
+      <property role="3Fg1Gr" value="1589" />
+      <node concept="19SGf9" id="4qxaCfUgPtM" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPtN" role="19SJt6">
+          <property role="19SUeA" value="De Algemene Rekenkamer stelt voor haar werkzaamheden een reglement van orde vast. Het reglement wordt in de Staatscourant geplaatst." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPtQ">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="fb95bc5d-c51f-455a-8155-431c5c873367" />
+    <property role="3Fg1Gr" value="1590" />
+    <property role="TrG5h" value="Artikel 7.8 Taken en bevoegdheden van de president" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPtR" role="3MKX6F">
+      <property role="1hTQn4" value="c884a8a8-ea12-43a9-b063-1f997b3f1c71" />
+      <property role="3Fg1Gr" value="1592" />
+      <node concept="3Fnoml" id="4qxaCfUgPtS" role="3MKX6F">
+        <property role="1hTQn4" value="f43727b7-89e9-4a99-bde8-5926181598c9" />
+        <property role="3Fg1Gr" value="1593" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPtT" role="3MKX6F">
+          <property role="1hTQn4" value="e0890173-fcd7-4663-8dc7-6ba32e0f2e64" />
+          <property role="3Fg1Gr" value="1594" />
+          <node concept="19SGf9" id="4qxaCfUgPtU" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPtV" role="19SJt6">
+              <property role="19SUeA" value="De president houdt toezicht op de werkzaamheden van de Algemene Rekenkamer en op de juiste toepassing van het bij of krachtens dit hoofdstuk bepaalde." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPtX" role="3MKX6F">
+      <property role="1hTQn4" value="8bfbb1f4-c6e8-4e43-ab72-e15cb7a73139" />
+      <property role="3Fg1Gr" value="1595" />
+      <node concept="3Fnoml" id="4qxaCfUgPtY" role="3MKX6F">
+        <property role="1hTQn4" value="ffd401b9-2f15-46f4-aa2b-61b6bca859ad" />
+        <property role="3Fg1Gr" value="1596" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPtZ" role="3MKX6F">
+          <property role="1hTQn4" value="97ed6903-0952-46ce-b122-b9e0ac4ad88a" />
+          <property role="3Fg1Gr" value="1597" />
+          <node concept="19SGf9" id="4qxaCfUgPu0" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPu1" role="19SJt6">
+              <property role="19SUeA" value="De president brengt alle stukken die aan de Algemene Rekenkamer of aan hem in zijn hoedanigheid worden toegezonden ter behandeling in de vergadering van het college van de Algemene Rekenkamer met uitzondering van de stukken die in het reglement van orde zijn uitgezonderd." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPu3" role="3MKX6F">
+      <property role="1hTQn4" value="d636a178-6b42-4d4f-a9a5-fc57b9cee7c1" />
+      <property role="3Fg1Gr" value="1598" />
+      <node concept="3Fnoml" id="4qxaCfUgPu4" role="3MKX6F">
+        <property role="1hTQn4" value="acedeb71-ffec-4995-a845-886963f8928b" />
+        <property role="3Fg1Gr" value="1599" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPu5" role="3MKX6F">
+          <property role="1hTQn4" value="dcfa7a2d-5016-414e-96b4-2e7f2d65094b" />
+          <property role="3Fg1Gr" value="1600" />
+          <node concept="19SGf9" id="4qxaCfUgPu6" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPu7" role="19SJt6">
+              <property role="19SUeA" value="De taken en bevoegdheden van de president worden bij diens afwezigheid of ontstentenis waargenomen door het aanwezige lid in gewone dienst dat naar rang van benoeming het oudst is." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPua">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="a7751384-cb8e-4bc4-b914-41cac2146b29" />
+    <property role="3Fg1Gr" value="1601" />
+    <property role="TrG5h" value="Artikel 7.9 Besluitvorming" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPub" role="3MKX6F">
+      <property role="1hTQn4" value="1dd16926-20a8-46cf-b02d-849455b75492" />
+      <property role="3Fg1Gr" value="1603" />
+      <node concept="3Fnoml" id="4qxaCfUgPuc" role="3MKX6F">
+        <property role="1hTQn4" value="6f0b6060-7e01-45f3-a7fb-362b6c453a3c" />
+        <property role="3Fg1Gr" value="1604" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPud" role="3MKX6F">
+          <property role="1hTQn4" value="f4f111df-1d95-4cdc-a5b1-791b9a3ae067" />
+          <property role="3Fg1Gr" value="1605" />
+          <node concept="19SGf9" id="4qxaCfUgPue" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPuf" role="19SJt6">
+              <property role="19SUeA" value="Het college van de Algemene Rekenkamer besluit bij meerderheid van stemmen." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPuh" role="3MKX6F">
+      <property role="1hTQn4" value="0e373c83-a7a8-489b-9eaf-8fa80983a412" />
+      <property role="3Fg1Gr" value="1606" />
+      <node concept="3Fnoml" id="4qxaCfUgPui" role="3MKX6F">
+        <property role="1hTQn4" value="6b284a79-7821-4e24-8073-b3d98d7a661c" />
+        <property role="3Fg1Gr" value="1607" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPuj" role="3MKX6F">
+          <property role="1hTQn4" value="20c03646-8406-4080-b59a-8014a25a9533" />
+          <property role="3Fg1Gr" value="1608" />
+          <node concept="19SGf9" id="4qxaCfUgPuk" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPul" role="19SJt6">
+              <property role="19SUeA" value="Indien de stemmen staken, beslist de stem van de president." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPun" role="3MKX6F">
+      <property role="1hTQn4" value="3ddb54b5-2c71-4d69-bd81-81654ec5a38d" />
+      <property role="3Fg1Gr" value="1609" />
+      <node concept="3Fnoml" id="4qxaCfUgPuo" role="3MKX6F">
+        <property role="1hTQn4" value="76cd2625-d5c8-458e-854a-24182d6c2dc7" />
+        <property role="3Fg1Gr" value="1610" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPup" role="3MKX6F">
+          <property role="1hTQn4" value="19c63db1-001a-416b-8657-7084d80ac82c" />
+          <property role="3Fg1Gr" value="1611" />
+          <node concept="19SGf9" id="4qxaCfUgPuq" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPur" role="19SJt6">
+              <property role="19SUeA" value="Het college van de Algemene Rekenkamer neemt geen besluiten, indien niet ten minste de meerderheid van het aantal leden van het college van de Algemene Rekenkamer in de vergadering aanwezig is." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPuu">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="e9f43546-c4be-49c2-8de5-6368f8c5867a" />
+    <property role="3Fg1Gr" value="1612" />
+    <property role="TrG5h" value="Artikel 7.10 Verschoningsplicht" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPuv" role="3MKX6F">
+      <property role="1hTQn4" value="afd19933-d407-4faa-ab17-aaa89ce98b16" />
+      <property role="3Fg1Gr" value="1614" />
+      <node concept="3Fnoml" id="4qxaCfUgPuw" role="3MKX6F">
+        <property role="1hTQn4" value="25a53665-dc6e-48ff-a162-b7562818e070" />
+        <property role="3Fg1Gr" value="1615" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPux" role="3MKX6F">
+          <property role="1hTQn4" value="095500e6-7b47-4ad1-a83b-cce011042e5e" />
+          <property role="3Fg1Gr" value="1616" />
+          <node concept="19SGf9" id="4qxaCfUgPuy" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPuz" role="19SJt6">
+              <property role="19SUeA" value="De leden en de secretaris mogen niet aanwezig zijn bij de beraadslagingen en het nemen van beslissingen over enige zaak, die hen, hun echtgenoten, hun geregistreerde partners, degenen met wie zij duurzaam samenleven of hun naastbestaanden tot in de derde graad van bloedverwantschap of aanverwantschap betreffen." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPu_" role="3MKX6F">
+      <property role="1hTQn4" value="380b54d4-d262-46e5-82ce-0e0158493969" />
+      <property role="3Fg1Gr" value="1617" />
+      <node concept="3Fnoml" id="4qxaCfUgPuA" role="3MKX6F">
+        <property role="1hTQn4" value="89e91a38-f96f-4918-b349-08b0e2a2a54e" />
+        <property role="3Fg1Gr" value="1618" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPuB" role="3MKX6F">
+          <property role="1hTQn4" value="4c30bc4c-dca2-4c71-9781-f9ae8d0cc6f3" />
+          <property role="3Fg1Gr" value="1619" />
+          <node concept="19SGf9" id="4qxaCfUgPuC" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPuD" role="19SJt6">
+              <property role="19SUeA" value="De leden en de secretaris nemen niet deel aan het onderzoek van en de beslissing over rekeningen en verantwoordingen die door hen worden afgelegd." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPuG">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="5134c445-0cfa-4592-9bc3-6cc96f16f520" />
+    <property role="3Fg1Gr" value="1620" />
+    <property role="TrG5h" value="Artikel 7.11 Ambtenaren van de Algemene Rekenkamer" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPuH" role="3MKX6F">
+      <property role="1hTQn4" value="c26726bb-c7ab-4497-b3db-e95584dcfbf7" />
+      <property role="3Fg1Gr" value="1622" />
+      <node concept="3Fnoml" id="4qxaCfUgPuI" role="3MKX6F">
+        <property role="1hTQn4" value="9d7f83eb-f416-4aa1-b86d-194cc50e4c32" />
+        <property role="3Fg1Gr" value="1623" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPuJ" role="3MKX6F">
+          <property role="1hTQn4" value="723b8da2-130b-4d78-a0ea-05dc5b4de40f" />
+          <property role="3Fg1Gr" value="1624" />
+          <node concept="19SGf9" id="4qxaCfUgPuK" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPuL" role="19SJt6">
+              <property role="19SUeA" value="Het college van de Algemene Rekenkamer kan het aangaan, wijzigen en beëindigen van de arbeidsovereenkomsten met de ambtenaren van de Algemene Rekenkamer opdragen aan de secretaris." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPuN" role="3MKX6F">
+      <property role="1hTQn4" value="5922900d-9d1e-4321-a5a6-a68f078cb84e" />
+      <property role="3Fg1Gr" value="1625" />
+      <node concept="3Fnoml" id="4qxaCfUgPuO" role="3MKX6F">
+        <property role="1hTQn4" value="53a8640f-5c2d-4bd1-84ad-d95c40e78cef" />
+        <property role="3Fg1Gr" value="1626" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPuP" role="3MKX6F">
+          <property role="1hTQn4" value="959e4dec-7aab-4c58-bfa6-d874aceac2ff" />
+          <property role="3Fg1Gr" value="1627" />
+          <node concept="19SGf9" id="4qxaCfUgPuQ" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPuR" role="19SJt6">
+              <property role="19SUeA" value="Ten aanzien van de ambtenaren van de Algemene Rekenkamer gelden de voor alle ambtenaren geldende arbeidsvoorwaarden die zijn opgenomen in de laatstelijk afgesloten collectieve arbeidsovereenkomst voor ambtenaren die krachtens een arbeidsovereenkomst met de Staat werkzaam zijn." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPuT" role="3MKX6F">
+      <property role="1hTQn4" value="747ec328-d50f-4a78-8234-fefccc6fab05" />
+      <property role="3Fg1Gr" value="1628" />
+      <node concept="3Fnoml" id="4qxaCfUgPuU" role="3MKX6F">
+        <property role="1hTQn4" value="209009fe-f2da-4627-95d8-19218c611967" />
+        <property role="3Fg1Gr" value="1629" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPuV" role="3MKX6F">
+          <property role="1hTQn4" value="e1154902-9e0f-45e2-9178-37f393f04314" />
+          <property role="3Fg1Gr" value="1630" />
+          <node concept="19SGf9" id="4qxaCfUgPuW" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPuX" role="19SJt6">
+              <property role="19SUeA" value="Op verzoek van de Algemene Rekenkamer kunnen in de collectieve arbeidsovereenkomst, bedoeld in het tweede lid, andere arbeidsvoorwaarden voor de ambtenaren van de Algemene Rekenkamer worden opgenomen." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPuZ" role="3MKX6F">
+      <property role="1hTQn4" value="5ed4c855-6498-4bda-805c-bde8301b03f0" />
+      <property role="3Fg1Gr" value="1631" />
+      <node concept="3Fnoml" id="4qxaCfUgPv0" role="3MKX6F">
+        <property role="1hTQn4" value="eceae86f-a827-4047-a975-97d855316d00" />
+        <property role="3Fg1Gr" value="1632" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgPv1" role="3MKX6F">
+          <property role="1hTQn4" value="adcebd5f-7afc-4663-be80-415edee5a3c1" />
+          <property role="3Fg1Gr" value="1633" />
+          <node concept="19SGf9" id="4qxaCfUgPv2" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPv3" role="19SJt6">
+              <property role="19SUeA" value="Van de ambtenaren van de Algemene Rekenkamer wordt door de president hetzij de eed, hetzij de verklaring en belofte afgenomen." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPv7">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="688e2da3-fe3c-47d6-b5a2-a0157b314ce7" />
+    <property role="3Fg1Gr" value="1636" />
+    <property role="TrG5h" value="Artikel 7.12 Verantwoordingsonderzoek" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPv8" role="3MKX6F">
+      <property role="1hTQn4" value="35a9e85d-d010-4dce-bb12-9d41701fa9dc" />
+      <property role="3Fg1Gr" value="1638" />
+      <node concept="3Fnoml" id="4qxaCfUgPv9" role="3MKX6F">
+        <property role="1hTQn4" value="160b57ad-8636-4de2-a7fc-d29e95390195" />
+        <property role="3Fg1Gr" value="1639" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPva" role="3MKX6F">
+          <property role="1hTQn4" value="8e5d0f42-6d50-48d9-9708-0e3fd8d957ae" />
+          <property role="3Fg1Gr" value="1640" />
+          <node concept="19SGf9" id="4qxaCfUgPvb" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPvc" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer onderzoekt met betrekking tot het Rijk jaarlijks:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPve" role="3MKX6F">
+          <property role="1hTQn4" value="d5a7ff25-f2c1-4f9e-a61e-f567caceb433" />
+          <property role="3Fg1Gr" value="1641" />
+          <node concept="3MKX5h" id="4qxaCfUgPvf" role="3MKX6F">
+            <property role="1hTQn4" value="aff561a5-639b-4c1b-a095-ad16c1df7a6f" />
+            <property role="3Fg1Gr" value="1642" />
+            <node concept="3Fnoml" id="4qxaCfUgPvg" role="3MKX6F">
+              <property role="1hTQn4" value="dff6b00d-6416-4d69-8bc0-41e0b4802487" />
+              <property role="3Fg1Gr" value="1643" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgPvh" role="3MKX6F">
+                <property role="1hTQn4" value="55a72ddd-7083-4173-8667-c1a8094e30b3" />
+                <property role="3Fg1Gr" value="1644" />
+                <node concept="19SGf9" id="4qxaCfUgPvi" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPvj" role="19SJt6">
+                    <property role="19SUeA" value="de financiële verantwoordingsinformatie in de jaarverslagen;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPvl" role="3MKX6F">
+            <property role="1hTQn4" value="59814080-1585-43b6-9f11-85015f171eb6" />
+            <property role="3Fg1Gr" value="1645" />
+            <node concept="3Fnoml" id="4qxaCfUgPvm" role="3MKX6F">
+              <property role="1hTQn4" value="533d852d-d90d-48c6-a49b-935bad884ab1" />
+              <property role="3Fg1Gr" value="1646" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgPvn" role="3MKX6F">
+                <property role="1hTQn4" value="06367a7b-9a24-4aa1-8fd1-d40556597c9c" />
+                <property role="3Fg1Gr" value="1647" />
+                <node concept="19SGf9" id="4qxaCfUgPvo" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPvp" role="19SJt6">
+                    <property role="19SUeA" value="de totstandkoming van de niet-financiële verantwoordingsinformatie in de jaarverslagen;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPvr" role="3MKX6F">
+            <property role="1hTQn4" value="7e7b0a28-2fcc-4efd-8c01-d84265a719fc" />
+            <property role="3Fg1Gr" value="1648" />
+            <node concept="3Fnoml" id="4qxaCfUgPvs" role="3MKX6F">
+              <property role="1hTQn4" value="d23eb036-da2b-4aab-becb-1ad905d1df36" />
+              <property role="3Fg1Gr" value="1649" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgPvt" role="3MKX6F">
+                <property role="1hTQn4" value="b4e1cb2e-6fca-4fe6-92d0-7a72c413a8d0" />
+                <property role="3Fg1Gr" value="1650" />
+                <node concept="19SGf9" id="4qxaCfUgPvu" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPvv" role="19SJt6">
+                    <property role="19SUeA" value="de financiële verantwoordingsinformatie in het Financieel jaarverslag van het Rijk." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPvx" role="3MKX6F">
+      <property role="1hTQn4" value="f9a60f20-b1fb-4178-976c-9616e482d111" />
+      <property role="3Fg1Gr" value="1651" />
+      <node concept="3Fnoml" id="4qxaCfUgPvy" role="3MKX6F">
+        <property role="1hTQn4" value="e7795675-8b23-44b5-9007-a3678e75f46a" />
+        <property role="3Fg1Gr" value="1652" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPvz" role="3MKX6F">
+          <property role="1hTQn4" value="c895222f-ddb4-42fe-af9f-3db48f300420" />
+          <property role="3Fg1Gr" value="1653" />
+          <node concept="19SGf9" id="4qxaCfUgPv$" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPv_" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer onderzoekt met betrekking tot het Rijk:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPvB" role="3MKX6F">
+          <property role="1hTQn4" value="9e8167da-351a-4c8d-9471-5e27d508faac" />
+          <property role="3Fg1Gr" value="1654" />
+          <node concept="3MKX5h" id="4qxaCfUgPvC" role="3MKX6F">
+            <property role="1hTQn4" value="54559322-d2fe-4eec-ae1d-31e752f2e461" />
+            <property role="3Fg1Gr" value="1655" />
+            <node concept="3Fnoml" id="4qxaCfUgPvD" role="3MKX6F">
+              <property role="1hTQn4" value="a37e5a9f-41e8-4df0-a034-87b69858b62e" />
+              <property role="3Fg1Gr" value="1656" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgPvE" role="3MKX6F">
+                <property role="1hTQn4" value="b64452d6-d3bc-4c01-ad7d-ad79131272e6" />
+                <property role="3Fg1Gr" value="1657" />
+                <node concept="19SGf9" id="4qxaCfUgPvF" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPvG" role="19SJt6">
+                    <property role="19SUeA" value="het begrotingsbeheer, het financieel beheer, de materiële bedrijfsvoering en de daartoe bijgehouden administraties van het Rijk;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPvI" role="3MKX6F">
+            <property role="1hTQn4" value="defc68bd-7d7f-421b-afa7-e94ff31fa423" />
+            <property role="3Fg1Gr" value="1658" />
+            <node concept="3Fnoml" id="4qxaCfUgPvJ" role="3MKX6F">
+              <property role="1hTQn4" value="4f6219b3-8cae-4b69-ad46-2854057549c0" />
+              <property role="3Fg1Gr" value="1659" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgPvK" role="3MKX6F">
+                <property role="1hTQn4" value="5639816d-2836-47b5-8c35-e2ef92c9b5ce" />
+                <property role="3Fg1Gr" value="1660" />
+                <node concept="19SGf9" id="4qxaCfUgPvL" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPvM" role="19SJt6">
+                    <property role="19SUeA" value="de centrale administratie van de schatkist van het Rijk van het Ministerie van Financiën." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPvP">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="f73346f0-dcd2-4573-8969-fdd23619523d" />
+    <property role="3Fg1Gr" value="1661" />
+    <property role="TrG5h" value="Artikel 7.13 Reikwijdte van het verantwoordingsonderzoek" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPvQ" role="3MKX6F">
+      <property role="1hTQn4" value="ca35bf41-bc55-48ab-b0df-9fc966b49a54" />
+      <property role="3Fg1Gr" value="1663" />
+      <node concept="3Fnoml" id="4qxaCfUgPvR" role="3MKX6F">
+        <property role="1hTQn4" value="0045a236-1ed4-44fc-822f-16b0ed721b78" />
+        <property role="3Fg1Gr" value="1664" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPvS" role="3MKX6F">
+          <property role="1hTQn4" value="fd9f431a-43d6-4de5-909d-0c5f078071a8" />
+          <property role="3Fg1Gr" value="1665" />
+          <node concept="19SGf9" id="4qxaCfUgPvT" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPvU" role="19SJt6">
+              <property role="19SUeA" value="Het onderzoek, bedoeld in artikel 7.12, eerste lid, is erop gericht na te gaan of voldaan is aan de normen, bedoeld in de artikelen 3.8 tot en met 3.10." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPvW" role="3MKX6F">
+      <property role="1hTQn4" value="3c3cd1f5-3590-4299-b5fe-9483f24fc3d8" />
+      <property role="3Fg1Gr" value="1666" />
+      <node concept="3Fnoml" id="4qxaCfUgPvX" role="3MKX6F">
+        <property role="1hTQn4" value="312ce263-8094-49aa-9b7e-4d63218e2203" />
+        <property role="3Fg1Gr" value="1667" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPvY" role="3MKX6F">
+          <property role="1hTQn4" value="a0ab6197-8436-4dfc-a45c-221d842bf790" />
+          <property role="3Fg1Gr" value="1668" />
+          <node concept="19SGf9" id="4qxaCfUgPvZ" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPw0" role="19SJt6">
+              <property role="19SUeA" value="Het onderzoek, bedoeld in artikel 7.12, tweede lid, is erop gericht na te gaan of voldaan is aan de normen, bedoeld in de artikelen 3.2 tot en met 3.5." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPw3">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="71fc4529-9c9a-4880-926d-f9954dfe10c0" />
+    <property role="3Fg1Gr" value="1669" />
+    <property role="TrG5h" value="Artikel 7.14 Rapporteren over het verantwoordingsonderzoek" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPw4" role="3MKX6F">
+      <property role="1hTQn4" value="b619234d-6ce9-44bd-af55-0773f7959b3d" />
+      <property role="3Fg1Gr" value="1671" />
+      <node concept="3Fnoml" id="4qxaCfUgPw5" role="3MKX6F">
+        <property role="1hTQn4" value="e9da3fb4-b789-45fd-85ef-b2b745259e8e" />
+        <property role="3Fg1Gr" value="1672" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPw6" role="3MKX6F">
+          <property role="1hTQn4" value="aaf5cb6e-96a4-4bd5-a2bd-3b061ebc8a55" />
+          <property role="3Fg1Gr" value="1673" />
+          <node concept="19SGf9" id="4qxaCfUgPw7" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPw8" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer legt haar bevindingen en conclusies met betrekking tot de onderzoeken, bedoeld in artikel 7.12, eerste en tweede lid, jaarlijks vast in rapporten." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPwa" role="3MKX6F">
+      <property role="1hTQn4" value="cf781bc7-25e3-4277-bc67-128dd25dc43c" />
+      <property role="3Fg1Gr" value="1674" />
+      <node concept="3Fnoml" id="4qxaCfUgPwb" role="3MKX6F">
+        <property role="1hTQn4" value="3abfe3de-69c3-4cbd-96a5-c506414a94e6" />
+        <property role="3Fg1Gr" value="1675" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPwc" role="3MKX6F">
+          <property role="1hTQn4" value="8c201e2a-5d7e-4fe2-b1ab-c035835c0eef" />
+          <property role="3Fg1Gr" value="1676" />
+          <node concept="19SGf9" id="4qxaCfUgPwd" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPwe" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer stelt een verklaring van goedkeuring op bij de in het Financieel jaarverslag van het Rijk opgenomen rijksrekening en de rijkssaldibalans, bedoeld in artikel 2.35, tweede en vierde lid." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPwg" role="3MKX6F">
+      <property role="1hTQn4" value="338049b8-bf0d-48ce-bd34-dfdaaa982149" />
+      <property role="3Fg1Gr" value="1677" />
+      <node concept="3Fnoml" id="4qxaCfUgPwh" role="3MKX6F">
+        <property role="1hTQn4" value="5dcc9b1f-667e-4e90-8573-fb8523b33d44" />
+        <property role="3Fg1Gr" value="1678" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPwi" role="3MKX6F">
+          <property role="1hTQn4" value="2c94e638-cf4d-4784-866e-c3dc21937ddd" />
+          <property role="3Fg1Gr" value="1679" />
+          <node concept="19SGf9" id="4qxaCfUgPwj" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPwk" role="19SJt6">
+              <property role="19SUeA" value="De verklaring van goedkeuring wordt zo nodig gegeven onder voorbehoud van de vaststelling van de slotverschillen, bedoeld in artikel 2.36, en in voorkomende gevallen een indemniteitswet als bedoeld in artikel 7.22, derde lid." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPwm" role="3MKX6F">
+      <property role="1hTQn4" value="50ea9bdd-4cb5-48d4-bfc1-640679356fb2" />
+      <property role="3Fg1Gr" value="1680" />
+      <node concept="3Fnoml" id="4qxaCfUgPwn" role="3MKX6F">
+        <property role="1hTQn4" value="1deede6c-84b0-40ec-b308-8bf816b645a7" />
+        <property role="3Fg1Gr" value="1681" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgPwo" role="3MKX6F">
+          <property role="1hTQn4" value="87da630c-9bb4-41d3-bdcc-7fa75efedb7c" />
+          <property role="3Fg1Gr" value="1682" />
+          <node concept="19SGf9" id="4qxaCfUgPwp" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPwq" role="19SJt6">
+              <property role="19SUeA" value="Voordat de Algemene Rekenkamer een rapport, bedoeld in het eerste lid, vaststelt, stelt zij Onze Minister die het aangaat in de gelegenheid binnen een redelijke termijn te reageren op haar bevindingen en voorlopige conclusies." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPws" role="3MKX6F">
+      <property role="1hTQn4" value="e20eb7e9-7240-42f7-9970-e4a934e05431" />
+      <property role="3Fg1Gr" value="1683" />
+      <node concept="3Fnoml" id="4qxaCfUgPwt" role="3MKX6F">
+        <property role="1hTQn4" value="b1fc9dd8-d86c-42ce-8284-25b5a58ab3bd" />
+        <property role="3Fg1Gr" value="1684" />
+        <property role="3Fnomm" value="5" />
+        <node concept="3MKX5i" id="4qxaCfUgPwu" role="3MKX6F">
+          <property role="1hTQn4" value="facaf535-2dda-4f09-a90e-d5114f81c3ca" />
+          <property role="3Fg1Gr" value="1685" />
+          <node concept="19SGf9" id="4qxaCfUgPwv" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPww" role="19SJt6">
+              <property role="19SUeA" value="Van gegevens en bevindingen die naar hun aard vertrouwelijk zijn, maakt de Algemene Rekenkamer geen melding in een rapport als bedoeld in het eerste lid. Mededelingen die zodanige gegevens of bevindingen bevatten, kan zij vertrouwelijk ter kennisneming aan de Staten-Generaal verstrekken." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPwz">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="ba6b501e-0260-471c-a78f-d764e9048ea3" />
+    <property role="3Fg1Gr" value="1686" />
+    <property role="TrG5h" value="Artikel 7.15 Aanbieden rapport verantwoordingsonderzoek" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPw$" role="3MKX6F">
+      <property role="1hTQn4" value="267be527-f162-4132-a42f-f4701ebac5d1" />
+      <property role="3Fg1Gr" value="1688" />
+      <node concept="3Fnoml" id="4qxaCfUgPw_" role="3MKX6F">
+        <property role="1hTQn4" value="2d8cfb2c-363e-4c90-b33b-68c9cfab5f6b" />
+        <property role="3Fg1Gr" value="1689" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPwA" role="3MKX6F">
+          <property role="1hTQn4" value="48a99dc9-3f16-49e0-930e-b5c639f2e6f6" />
+          <property role="3Fg1Gr" value="1690" />
+          <node concept="19SGf9" id="4qxaCfUgPwB" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPwC" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer biedt de rapporten en de verklaring van goedkeuring, bedoeld in artikel 7.14, eerste en tweede lid, uiterlijk op 1 juni van het jaar volgend op het begrotingsjaar aan de Staten-Generaal en Ons aan." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPwE" role="3MKX6F">
+      <property role="1hTQn4" value="ae3b24f0-be5f-48f1-b863-afa588925f67" />
+      <property role="3Fg1Gr" value="1691" />
+      <node concept="3Fnoml" id="4qxaCfUgPwF" role="3MKX6F">
+        <property role="1hTQn4" value="f3e4033e-f16c-4997-b93e-70e9e536abc9" />
+        <property role="3Fg1Gr" value="1692" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPwG" role="3MKX6F">
+          <property role="1hTQn4" value="0cb02899-251c-4620-ba10-ed3f58cb2596" />
+          <property role="3Fg1Gr" value="1693" />
+          <node concept="19SGf9" id="4qxaCfUgPwH" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPwI" role="19SJt6">
+              <property role="19SUeA" value="Indien de Algemene Rekenkamer het onderzoek, bedoeld in artikel 7.12, eerste en tweede lid, op 1 juni van het jaar volgend op het begrotingsjaar nog niet heeft afgesloten, biedt zij op die datum een voorlopig rapport over de stand van het betrokken onderzoek. In dat geval zendt de Algemene Rekenkamer het definitieve rapport en de verklaring van goedkeuring, bedoeld in artikel 7.14, eerste en tweede lid, zo spoedig mogelijk na." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPwL">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="04e2f493-9827-4142-bf4f-b409fccc8b0a" />
+    <property role="3Fg1Gr" value="1694" />
+    <property role="TrG5h" value="Artikel 7.16 Doelmatigheidsonderzoek" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPwM" role="3MKX6F">
+      <property role="1hTQn4" value="45a0f45b-cb0c-4729-a53c-4a768907410f" />
+      <property role="3Fg1Gr" value="1696" />
+      <node concept="19SGf9" id="4qxaCfUgPwN" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPwO" role="19SJt6">
+          <property role="19SUeA" value="De Algemene Rekenkamer onderzoekt de doeltreffendheid en de doelmatigheid van het gevoerde beleid van het Rijk." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPwR">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="e65dead8-5a95-49da-8067-9219b947c250" />
+    <property role="3Fg1Gr" value="1697" />
+    <property role="TrG5h" value="Artikel 7.17 Aanbieden rapport doelmatigheidsonderzoek" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPwS" role="3MKX6F">
+      <property role="1hTQn4" value="912070af-2c20-4e6b-b2f7-86be4ddc69b8" />
+      <property role="3Fg1Gr" value="1699" />
+      <node concept="3Fnoml" id="4qxaCfUgPwT" role="3MKX6F">
+        <property role="1hTQn4" value="e2697159-885d-4f41-92fc-fc2fec2114af" />
+        <property role="3Fg1Gr" value="1700" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPwU" role="3MKX6F">
+          <property role="1hTQn4" value="da64aed4-2e6e-4892-af29-68ca96616302" />
+          <property role="3Fg1Gr" value="1701" />
+          <node concept="19SGf9" id="4qxaCfUgPwV" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPwW" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer stelt de Staten-Generaal en Ons in kennis van het rapport dat zij naar aanleiding van een onderzoek, bedoeld in artikel 7.16, vaststelt." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPwY" role="3MKX6F">
+      <property role="1hTQn4" value="44addad9-03a6-41e9-95bf-3531fddfb50b" />
+      <property role="3Fg1Gr" value="1702" />
+      <node concept="3Fnoml" id="4qxaCfUgPwZ" role="3MKX6F">
+        <property role="1hTQn4" value="362fe137-9418-4cf2-b8bd-31ca96c7b238" />
+        <property role="3Fg1Gr" value="1703" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPx0" role="3MKX6F">
+          <property role="1hTQn4" value="106d3a2e-45d1-414b-aea8-74954eb208ff" />
+          <property role="3Fg1Gr" value="1704" />
+          <node concept="19SGf9" id="4qxaCfUgPx1" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPx2" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer stelt in voorkomende gevallen tevens de instelling, bedoeld in artikel 7.34, achtste lid, in kennis van het rapport, bedoeld in het eerste lid." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPx4" role="3MKX6F">
+      <property role="1hTQn4" value="95cb2317-93b3-4b38-b5f4-4f5141d9bbe4" />
+      <property role="3Fg1Gr" value="1705" />
+      <node concept="3Fnoml" id="4qxaCfUgPx5" role="3MKX6F">
+        <property role="1hTQn4" value="041b2d12-8df5-405b-9fa5-26b8da0bf305" />
+        <property role="3Fg1Gr" value="1706" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPx6" role="3MKX6F">
+          <property role="1hTQn4" value="d5ee5c29-74ba-44c3-8a2d-107a89201f76" />
+          <property role="3Fg1Gr" value="1707" />
+          <node concept="19SGf9" id="4qxaCfUgPx7" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPx8" role="19SJt6">
+              <property role="19SUeA" value="Voordat de Algemene Rekenkamer een rapport als bedoeld in het eerste lid, vaststelt, stelt zij Onze Minister die het aangaat in de gelegenheid binnen een redelijke termijn te reageren op haar bevindingen en voorlopige conclusies." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPxa" role="3MKX6F">
+      <property role="1hTQn4" value="81ebffd0-1615-4dfa-b0bf-2c6c7326760c" />
+      <property role="3Fg1Gr" value="1708" />
+      <node concept="3Fnoml" id="4qxaCfUgPxb" role="3MKX6F">
+        <property role="1hTQn4" value="b57e8a07-ee0e-4445-b5d7-e7da2b3f7efa" />
+        <property role="3Fg1Gr" value="1709" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgPxc" role="3MKX6F">
+          <property role="1hTQn4" value="e5dac5fd-80c5-48c2-9293-ef431d028c63" />
+          <property role="3Fg1Gr" value="1710" />
+          <node concept="19SGf9" id="4qxaCfUgPxd" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPxe" role="19SJt6">
+              <property role="19SUeA" value="Van gegevens en bevindingen die naar hun aard vertrouwelijk zijn, maakt de Algemene Rekenkamer geen melding in een rapport als bedoeld in het eerste lid. Mededelingen die zodanige gegevens of bevindingen bevatten, kan zij vertrouwelijk ter kennisneming aan de Staten-Generaal verstrekken." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPxh">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="81c05086-0afc-4307-a395-7501e0f59f2c" />
+    <property role="3Fg1Gr" value="1711" />
+    <property role="TrG5h" value="Artikel 7.18 Bevoegdheden verantwoordings- en doelmatigheidsonderzoek" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPxi" role="3MKX6F">
+      <property role="1hTQn4" value="135c6ce4-50e8-49e1-a742-8a18af52ef79" />
+      <property role="3Fg1Gr" value="1713" />
+      <node concept="3Fnoml" id="4qxaCfUgPxj" role="3MKX6F">
+        <property role="1hTQn4" value="66e3b077-5e0c-426d-be55-8cf40fd1dccf" />
+        <property role="3Fg1Gr" value="1714" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPxk" role="3MKX6F">
+          <property role="1hTQn4" value="0d696a03-5598-4bec-b14d-a36031cdf743" />
+          <property role="3Fg1Gr" value="1715" />
+          <node concept="19SGf9" id="4qxaCfUgPxl" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPxm" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer is bevoegd, voor zover zij dat nodig acht voor het uitvoeren van haar taken, bij alle onderdelen van het Rijk alle goederen, administraties, documenten en andere informatiedragers op door haar aan te geven wijze te onderzoeken." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPxo" role="3MKX6F">
+      <property role="1hTQn4" value="5da3e192-9fa4-4c01-ae99-26a164433422" />
+      <property role="3Fg1Gr" value="1716" />
+      <node concept="3Fnoml" id="4qxaCfUgPxp" role="3MKX6F">
+        <property role="1hTQn4" value="d7c19c5d-9418-48d4-93e3-d30c460f4384" />
+        <property role="3Fg1Gr" value="1717" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPxq" role="3MKX6F">
+          <property role="1hTQn4" value="4c7d0b86-60c1-4b9b-b350-4858dfe80f59" />
+          <property role="3Fg1Gr" value="1718" />
+          <node concept="19SGf9" id="4qxaCfUgPxr" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPxs" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer is bevoegd voor het uitvoeren van haar taken inzage te vorderen in de controleprogramma’s en dossiers van de accountant die in opdracht van een van Onze Ministers of een college met een controle of review is belast. De Algemene Rekenkamer is bevoegd kopieën te maken van de stukken uit de controledossiers. De accountant kan inzage in de controledossiers niet weigeren met een beroep op een bij of krachtens de wet opgelegde verplichting tot geheimhouding van vertrouwelijke gegevens die in de controledossiers zijn opgenomen. Artikel 6.5 is van overeenkomstige toepassing." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPxu" role="3MKX6F">
+      <property role="1hTQn4" value="f1784ff4-ca26-4d17-a6ff-d75c8eaf7e4a" />
+      <property role="3Fg1Gr" value="1719" />
+      <node concept="3Fnoml" id="4qxaCfUgPxv" role="3MKX6F">
+        <property role="1hTQn4" value="39bdab84-1f25-4b5f-abaf-79cb0e9e541f" />
+        <property role="3Fg1Gr" value="1720" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPxw" role="3MKX6F">
+          <property role="1hTQn4" value="850357eb-b481-493d-9d5d-33d67d9f1de6" />
+          <property role="3Fg1Gr" value="1721" />
+          <node concept="19SGf9" id="4qxaCfUgPxx" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPxy" role="19SJt6">
+              <property role="19SUeA" value="Bij het uitvoeren van haar taken kan de Algemene Rekenkamer gebruik maken van de resultaten van door anderen verrichte controles, onverminderd haar bevoegdheid tot het verrichten van onderzoek." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPx$" role="3MKX6F">
+      <property role="1hTQn4" value="e0794e92-342e-442e-a0ef-f3fa21a26738" />
+      <property role="3Fg1Gr" value="1722" />
+      <node concept="3Fnoml" id="4qxaCfUgPx_" role="3MKX6F">
+        <property role="1hTQn4" value="972e16b5-db77-407e-9b12-6ee6d55fde49" />
+        <property role="3Fg1Gr" value="1723" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgPxA" role="3MKX6F">
+          <property role="1hTQn4" value="3b5edd12-ed22-40bd-a0cb-1dc83da12067" />
+          <property role="3Fg1Gr" value="1724" />
+          <node concept="19SGf9" id="4qxaCfUgPxB" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPxC" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer kan de bevoegdheden, bedoeld in dit artikel, uitoefenen zolang als en over de jaren dat het Rijk daarbij belang heeft." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPxE" role="3MKX6F">
+      <property role="1hTQn4" value="bfd1b23e-ace2-4f58-9402-05b94065c3cc" />
+      <property role="3Fg1Gr" value="1725" />
+      <node concept="3Fnoml" id="4qxaCfUgPxF" role="3MKX6F">
+        <property role="1hTQn4" value="47cdbd56-ba3a-430c-8ea8-1d5e25896ae3" />
+        <property role="3Fg1Gr" value="1726" />
+        <property role="3Fnomm" value="5" />
+        <node concept="3MKX5i" id="4qxaCfUgPxG" role="3MKX6F">
+          <property role="1hTQn4" value="27e0f637-d3b4-4e52-8c37-8fa122bade26" />
+          <property role="3Fg1Gr" value="1727" />
+          <node concept="19SGf9" id="4qxaCfUgPxH" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPxI" role="19SJt6">
+              <property role="19SUeA" value="Onze Ministers en de colleges zijn gehouden desgevraagd de inlichtingen te verstrekken die de Algemene Rekenkamer voor het uitvoeren van haar taken nodig acht." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPxK" role="3MKX6F">
+      <property role="1hTQn4" value="32530fec-0913-4557-ad22-099ef2a165c7" />
+      <property role="3Fg1Gr" value="1728" />
+      <node concept="3Fnoml" id="4qxaCfUgPxL" role="3MKX6F">
+        <property role="1hTQn4" value="4de14cc6-68e0-44a5-89b5-69d831a14d67" />
+        <property role="3Fg1Gr" value="1729" />
+        <property role="3Fnomm" value="6" />
+        <node concept="3MKX5i" id="4qxaCfUgPxM" role="3MKX6F">
+          <property role="1hTQn4" value="a462d41e-5e69-499d-affa-d9a73b4f9fe0" />
+          <property role="3Fg1Gr" value="1730" />
+          <node concept="19SGf9" id="4qxaCfUgPxN" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPxO" role="19SJt6">
+              <property role="19SUeA" value="De accountant die in opdracht van een van Onze Ministers of een college met een controle is belast, verstrekt desgevraagd aan de Algemene Rekenkamer de controleprogramma’s en dossiers met betrekking tot zijn controles." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPxR">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="52f96017-5ea9-47fb-a5c5-26bec25e57cc" />
+    <property role="3Fg1Gr" value="1731" />
+    <property role="TrG5h" value="Artikel 7.19 Bevoegdheden verantwoordings- en doelmatigheidsonderzoek bij uitbesteding" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPxS" role="3MKX6F">
+      <property role="1hTQn4" value="0b33568c-35ca-4cf5-9885-e3837946291a" />
+      <property role="3Fg1Gr" value="1733" />
+      <node concept="19SGf9" id="4qxaCfUgPxT" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPxU" role="19SJt6">
+          <property role="19SUeA" value="Indien een administratie of de daarmee samenhangende taken aan een derde worden uitbesteed, dan is de Algemene Rekenkamer bevoegd aan de hand van de administratie bij die derde of degene die de administratie of de taken in opdracht van die derde uitvoert een onderzoek als bedoeld in de artikelen 7.12 en 7.16, te verrichten." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPxX">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="f8318ec3-e57c-49bc-bc9f-80a33f7c4dc3" />
+    <property role="3Fg1Gr" value="1734" />
+    <property role="TrG5h" value="Artikel 7.20 Bevoegdheden verantwoordings- en doelmatigheidsonderzoek met betrekking tot geheime uitgaven en ontvangsten" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPxY" role="3MKX6F">
+      <property role="1hTQn4" value="d788c135-e500-4764-911c-56f3dc723538" />
+      <property role="3Fg1Gr" value="1736" />
+      <node concept="3Fnoml" id="4qxaCfUgPxZ" role="3MKX6F">
+        <property role="1hTQn4" value="14bd43b7-87ec-45ef-ac83-6bfb2c27a0a4" />
+        <property role="3Fg1Gr" value="1737" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPy0" role="3MKX6F">
+          <property role="1hTQn4" value="f73cae04-f8f2-4380-8e1e-28173c13f97b" />
+          <property role="3Fg1Gr" value="1738" />
+          <node concept="19SGf9" id="4qxaCfUgPy1" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPy2" role="19SJt6">
+              <property role="19SUeA" value="Het college van de Algemene Rekenkamer verricht het onderzoek naar geheime uitgaven en ontvangsten." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPy4" role="3MKX6F">
+      <property role="1hTQn4" value="99e1ace8-a6be-4136-822f-715069be285c" />
+      <property role="3Fg1Gr" value="1739" />
+      <node concept="3Fnoml" id="4qxaCfUgPy5" role="3MKX6F">
+        <property role="1hTQn4" value="1734ac03-8c00-49c2-a42c-10c2fb0f4fbe" />
+        <property role="3Fg1Gr" value="1740" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPy6" role="3MKX6F">
+          <property role="1hTQn4" value="931fe283-db22-4ea8-9d61-ed02e2b40776" />
+          <property role="3Fg1Gr" value="1741" />
+          <node concept="19SGf9" id="4qxaCfUgPy7" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPy8" role="19SJt6">
+              <property role="19SUeA" value="Bij het onderzoek kan het college zich laten ondersteunen door zijn medewerkers." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPyb">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="a3e5a118-e063-4fd2-a48b-617c5bb226bf" />
+    <property role="3Fg1Gr" value="1742" />
+    <property role="TrG5h" value="Artikel 7.21 Bezwaarprocedure algemeen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPyc" role="3MKX6F">
+      <property role="1hTQn4" value="18140158-026d-4bcb-a47e-d55176b336e6" />
+      <property role="3Fg1Gr" value="1744" />
+      <node concept="3Fnoml" id="4qxaCfUgPyd" role="3MKX6F">
+        <property role="1hTQn4" value="02d66b90-850b-43c8-af32-b98ddee65723" />
+        <property role="3Fg1Gr" value="1745" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPye" role="3MKX6F">
+          <property role="1hTQn4" value="79f33a57-f1a4-4660-8ebd-16207cdf05cb" />
+          <property role="3Fg1Gr" value="1746" />
+          <node concept="19SGf9" id="4qxaCfUgPyf" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPyg" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer kan op grond van haar onderzoek, bedoeld in artikel 7.12, bezwaar maken tegen het financieel beheer, de materiële bedrijfsvoering of de verantwoording daarover." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPyi" role="3MKX6F">
+      <property role="1hTQn4" value="fee2a77c-b643-4b56-8210-1f1855239421" />
+      <property role="3Fg1Gr" value="1747" />
+      <node concept="3Fnoml" id="4qxaCfUgPyj" role="3MKX6F">
+        <property role="1hTQn4" value="58df8d69-a54b-48ea-ab43-1f964d3847de" />
+        <property role="3Fg1Gr" value="1748" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPyk" role="3MKX6F">
+          <property role="1hTQn4" value="d6c11717-eac3-4c68-bbd3-ba9fb34588f9" />
+          <property role="3Fg1Gr" value="1749" />
+          <node concept="19SGf9" id="4qxaCfUgPyl" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPym" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer deelt het bezwaar aan Onze Minister die het aangaat mede." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPyo" role="3MKX6F">
+      <property role="1hTQn4" value="66afb9e0-6c1c-4552-b146-fb574c54ea7d" />
+      <property role="3Fg1Gr" value="1750" />
+      <node concept="3Fnoml" id="4qxaCfUgPyp" role="3MKX6F">
+        <property role="1hTQn4" value="db5bbcd9-7e2c-4085-b184-71d3dd91efdc" />
+        <property role="3Fg1Gr" value="1751" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPyq" role="3MKX6F">
+          <property role="1hTQn4" value="bf958129-3e74-4470-a687-0805262a925b" />
+          <property role="3Fg1Gr" value="1752" />
+          <node concept="19SGf9" id="4qxaCfUgPyr" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPys" role="19SJt6">
+              <property role="19SUeA" value="Binnen een maand na ontvangst van de mededeling, bedoeld in het tweede lid, stelt Onze Minister die het aangaat de Algemene Rekenkamer in kennis van de maatregelen die tot opheffing van haar bezwaar kunnen leiden." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPyu" role="3MKX6F">
+      <property role="1hTQn4" value="d7df714f-2018-418f-80c7-2279f27a7558" />
+      <property role="3Fg1Gr" value="1753" />
+      <node concept="3Fnoml" id="4qxaCfUgPyv" role="3MKX6F">
+        <property role="1hTQn4" value="95e09b13-5bee-4c18-95a0-1bcf4f288a38" />
+        <property role="3Fg1Gr" value="1754" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgPyw" role="3MKX6F">
+          <property role="1hTQn4" value="edf3e8fd-7873-4978-9f74-2ece12fa5c86" />
+          <property role="3Fg1Gr" value="1755" />
+          <node concept="19SGf9" id="4qxaCfUgPyx" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPyy" role="19SJt6">
+              <property role="19SUeA" value="Na afloop van deze termijn neemt de Algemene Rekenkamer haar eindbeslissing, waarvan zij mededeling doet aan Onze Minister die het aangaat." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPy_">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="e90c5bc2-bef1-498a-aafe-c9439415aa92" />
+    <property role="3Fg1Gr" value="1756" />
+    <property role="TrG5h" value="Artikel 7.22 Bezwaarprocedure bij handhaving van het bezwaar" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPyA" role="3MKX6F">
+      <property role="1hTQn4" value="7d639699-84b0-4e89-95c7-8e321f4c4b36" />
+      <property role="3Fg1Gr" value="1758" />
+      <node concept="3Fnoml" id="4qxaCfUgPyB" role="3MKX6F">
+        <property role="1hTQn4" value="bd9622d2-f542-4a18-b1c3-469061bca951" />
+        <property role="3Fg1Gr" value="1759" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPyC" role="3MKX6F">
+          <property role="1hTQn4" value="a7c1bce3-90a9-4806-be29-c050db4dde7d" />
+          <property role="3Fg1Gr" value="1760" />
+          <node concept="19SGf9" id="4qxaCfUgPyD" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPyE" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer kan haar bezwaar, bedoeld in artikel 7.21, eerste lid, handhaven." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPyG" role="3MKX6F">
+      <property role="1hTQn4" value="4d9df424-4f86-455b-9a4a-2c62833f5c80" />
+      <property role="3Fg1Gr" value="1761" />
+      <node concept="3Fnoml" id="4qxaCfUgPyH" role="3MKX6F">
+        <property role="1hTQn4" value="a70bd11d-a38d-4935-aabd-584c2f48612d" />
+        <property role="3Fg1Gr" value="1762" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPyI" role="3MKX6F">
+          <property role="1hTQn4" value="d9080fb7-00cd-4314-afce-63c2a801e541" />
+          <property role="3Fg1Gr" value="1763" />
+          <node concept="19SGf9" id="4qxaCfUgPyJ" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPyK" role="19SJt6">
+              <property role="19SUeA" value="Indien de Algemene Rekenkamer haar bezwaar handhaaft, doet zij hiervan mededeling aan Onze Minister die het aangaat en Onze Minister van Financiën." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPyM" role="3MKX6F">
+      <property role="1hTQn4" value="f8766c37-d61a-4558-91c4-53818247e86a" />
+      <property role="3Fg1Gr" value="1764" />
+      <node concept="3Fnoml" id="4qxaCfUgPyN" role="3MKX6F">
+        <property role="1hTQn4" value="d7d0c7e8-fe81-4ab8-af59-ef798946a887" />
+        <property role="3Fg1Gr" value="1765" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPyO" role="3MKX6F">
+          <property role="1hTQn4" value="b51fad33-5248-4d0a-94d4-7fc47bbfe3ce" />
+          <property role="3Fg1Gr" value="1766" />
+          <node concept="19SGf9" id="4qxaCfUgPyP" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPyQ" role="19SJt6">
+              <property role="19SUeA" value="Indien het bezwaar betrekking heeft op de rechtmatigheid, dan wordt binnen twee maanden na de mededeling, bedoeld in het tweede lid, een voorstel tot vaststelling van een indemniteitswet aan de Tweede Kamer der Staten-Generaal gezonden." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPyS" role="3MKX6F">
+      <property role="1hTQn4" value="0a6084a6-18b7-4c05-aaad-caf4bf0b4118" />
+      <property role="3Fg1Gr" value="1767" />
+      <node concept="3Fnoml" id="4qxaCfUgPyT" role="3MKX6F">
+        <property role="1hTQn4" value="c03270e2-4a57-475b-aec0-78fee1b384ad" />
+        <property role="3Fg1Gr" value="1768" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgPyU" role="3MKX6F">
+          <property role="1hTQn4" value="57e533d2-c628-46ed-944c-1c3d41e74396" />
+          <property role="3Fg1Gr" value="1769" />
+          <node concept="19SGf9" id="4qxaCfUgPyV" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPyW" role="19SJt6">
+              <property role="19SUeA" value="Indien na afloop van die termijn niet van de indiening van een dergelijk voorstel is gebleken, doet de Algemene Rekenkamer daarvan mededeling aan de Tweede Kamer der Staten-Generaal." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPyY" role="3MKX6F">
+      <property role="1hTQn4" value="ab7d4ee2-6b66-4756-bcd4-13d7fe44f8b1" />
+      <property role="3Fg1Gr" value="1770" />
+      <node concept="3Fnoml" id="4qxaCfUgPyZ" role="3MKX6F">
+        <property role="1hTQn4" value="95e24054-08a7-4fa0-81b9-f6d652e91dc9" />
+        <property role="3Fg1Gr" value="1771" />
+        <property role="3Fnomm" value="5" />
+        <node concept="3MKX5i" id="4qxaCfUgPz0" role="3MKX6F">
+          <property role="1hTQn4" value="44c8730e-69a1-4206-9ca4-41879984f956" />
+          <property role="3Fg1Gr" value="1772" />
+          <node concept="19SGf9" id="4qxaCfUgPz1" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPz2" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer maakt van haar bezwaar indien dit anders luidt dan het bezwaar, bedoeld in het derde lid, melding in het betrokken rapport, bedoeld in artikel 7.14." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPz4" role="3MKX6F">
+      <property role="1hTQn4" value="2a8e51a5-b7cb-4877-adfb-dc42e05f47f9" />
+      <property role="3Fg1Gr" value="1773" />
+      <node concept="3Fnoml" id="4qxaCfUgPz5" role="3MKX6F">
+        <property role="1hTQn4" value="f69cb9a2-9b0d-4f1d-abea-1171ed2e80d0" />
+        <property role="3Fg1Gr" value="1774" />
+        <property role="3Fnomm" value="6" />
+        <node concept="3MKX5i" id="4qxaCfUgPz6" role="3MKX6F">
+          <property role="1hTQn4" value="b5716a02-376e-4769-aeff-10d5b885f547" />
+          <property role="3Fg1Gr" value="1775" />
+          <node concept="19SGf9" id="4qxaCfUgPz7" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPz8" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer kan daarover tevens een aantekening plaatsen in haar rapport bij het Financieel jaarverslag van het Rijk." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPzc">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="c64c8a85-a660-4b35-a739-ac618d78cbc0" />
+    <property role="3Fg1Gr" value="1778" />
+    <property role="TrG5h" value="Artikel 7.23 Onderzoek op verzoek" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPzd" role="3MKX6F">
+      <property role="1hTQn4" value="8712875f-608d-4b5f-b052-f9495d93f58c" />
+      <property role="3Fg1Gr" value="1780" />
+      <node concept="19SGf9" id="4qxaCfUgPze" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPzf" role="19SJt6">
+          <property role="19SUeA" value="De Algemene Rekenkamer kan op verzoek van elk van de Kamers der Staten-Generaal of ieder van Onze Ministers een onderzoek instellen." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPzi">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="e411d15f-4829-4381-aaa2-80516b2fb54c" />
+    <property role="3Fg1Gr" value="1781" />
+    <property role="TrG5h" value="Artikel 7.24 Onderzoek naar publieke middelen buiten het Rijk" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPzj" role="3MKX6F">
+      <property role="1hTQn4" value="4bdf048d-50a8-4764-b1cf-8d76a4fe23cd" />
+      <property role="3Fg1Gr" value="1783" />
+      <node concept="19SGf9" id="4qxaCfUgPzk" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPzl" role="19SJt6">
+          <property role="19SUeA" value="Onverminderd het elders bij wet bepaalde, kan de Algemene Rekenkamer een onderzoek verrichten ten aanzien van:" />
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPzn" role="3MKX6F">
+      <property role="1hTQn4" value="cfe4fd4d-1e3f-44fb-b416-2602f9675308" />
+      <property role="3Fg1Gr" value="1784" />
+      <node concept="3MKX5h" id="4qxaCfUgPzo" role="3MKX6F">
+        <property role="1hTQn4" value="37a9ccf7-da3d-42a8-a5d7-3f10618045ed" />
+        <property role="3Fg1Gr" value="1785" />
+        <node concept="3Fnoml" id="4qxaCfUgPzp" role="3MKX6F">
+          <property role="1hTQn4" value="4ce9424d-dd7b-4728-bef3-3e4226f9b1d5" />
+          <property role="3Fg1Gr" value="1786" />
+          <property role="3Fnomm" value="a." />
+          <node concept="3MKX5i" id="4qxaCfUgPzq" role="3MKX6F">
+            <property role="1hTQn4" value="e960bbca-fbed-4519-8390-b5addfadfefd" />
+            <property role="3Fg1Gr" value="1787" />
+            <node concept="19SGf9" id="4qxaCfUgPzr" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgPzs" role="19SJt6">
+                <property role="19SUeA" value="rechtspersonen, commanditaire vennootschappen, vennootschappen onder firma en natuurlijke personen die een beroep of bedrijf uitoefenen die direct, indirect of voorwaardelijk:" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPzu" role="3MKX6F">
+            <property role="1hTQn4" value="bccec748-ed01-4850-84fd-b9ef46376c77" />
+            <property role="3Fg1Gr" value="1788" />
+            <node concept="3MKX5h" id="4qxaCfUgPzv" role="3MKX6F">
+              <property role="1hTQn4" value="7bd96f94-cf5d-4f59-9312-ced9a42f16da" />
+              <property role="3Fg1Gr" value="1789" />
+              <node concept="3Fnoml" id="4qxaCfUgPzw" role="3MKX6F">
+                <property role="1hTQn4" value="0ced919e-1169-4b04-87f0-eedfa857c0dd" />
+                <property role="3Fg1Gr" value="1790" />
+                <property role="3Fnomm" value="1°." />
+                <node concept="3MKX5i" id="4qxaCfUgPzx" role="3MKX6F">
+                  <property role="1hTQn4" value="3893a6fa-96f5-4f84-ae29-21be97c0745d" />
+                  <property role="3Fg1Gr" value="1791" />
+                  <node concept="19SGf9" id="4qxaCfUgPzy" role="3MLR7a">
+                    <node concept="19SUe$" id="4qxaCfUgPzz" role="19SJt6">
+                      <property role="19SUeA" value="een subsidie, lening, garantie of een bijdrage in natura met kenmerken van een subsidie, lening of garantie ten laste van de rijksbegroting hebben ontvangen;" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="4qxaCfUgPz_" role="3MKX6F">
+              <property role="1hTQn4" value="f293ed67-76e4-4d86-9558-6a023fa889b7" />
+              <property role="3Fg1Gr" value="1792" />
+              <node concept="3Fnoml" id="4qxaCfUgPzA" role="3MKX6F">
+                <property role="1hTQn4" value="1fa56ba7-206a-4a73-a29b-2a8511f8917c" />
+                <property role="3Fg1Gr" value="1793" />
+                <property role="3Fnomm" value="2°." />
+                <node concept="3MKX5i" id="4qxaCfUgPzB" role="3MKX6F">
+                  <property role="1hTQn4" value="bc5a613c-1c3c-42ee-a25c-3fae2167ee47" />
+                  <property role="3Fg1Gr" value="1794" />
+                  <node concept="19SGf9" id="4qxaCfUgPzC" role="3MLR7a">
+                    <node concept="19SUe$" id="4qxaCfUgPzD" role="19SJt6">
+                      <property role="19SUeA" value="een fiscale tegemoetkoming inzake speur- en ontwikkelingswerk, een energie-investering, een milieu-investering of een investering in huurwoningen hebben ontvangen ten behoeve waarvan door Onze Minister die het aangaat een verklaring is afgegeven of een aanwijzing bij ministeriële regeling heeft plaatsgevonden;" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgPzF" role="3MKX6F">
+        <property role="1hTQn4" value="ca0f8419-4526-43c9-be0e-51acd53300c6" />
+        <property role="3Fg1Gr" value="1795" />
+        <node concept="3Fnoml" id="4qxaCfUgPzG" role="3MKX6F">
+          <property role="1hTQn4" value="a16287b1-06b8-4798-bb04-4b77177ca4bc" />
+          <property role="3Fg1Gr" value="1796" />
+          <property role="3Fnomm" value="b." />
+          <node concept="3MKX5i" id="4qxaCfUgPzH" role="3MKX6F">
+            <property role="1hTQn4" value="9de19a8b-5eaf-49fd-aa35-4fe7dd04398e" />
+            <property role="3Fg1Gr" value="1797" />
+            <node concept="19SGf9" id="4qxaCfUgPzI" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgPzJ" role="19SJt6">
+                <property role="19SUeA" value="rechtspersonen met een wettelijke taak;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgPzL" role="3MKX6F">
+        <property role="1hTQn4" value="61ea42d4-ae08-49a4-8339-2fa2f44000b1" />
+        <property role="3Fg1Gr" value="1798" />
+        <node concept="3Fnoml" id="4qxaCfUgPzM" role="3MKX6F">
+          <property role="1hTQn4" value="8ddc2337-b68c-4ef7-a679-eb2a8176575e" />
+          <property role="3Fg1Gr" value="1799" />
+          <property role="3Fnomm" value="c." />
+          <node concept="3MKX5i" id="4qxaCfUgPzN" role="3MKX6F">
+            <property role="1hTQn4" value="53a528f5-8883-4145-95cc-5a7003857ab4" />
+            <property role="3Fg1Gr" value="1800" />
+            <node concept="19SGf9" id="4qxaCfUgPzO" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgPzP" role="19SJt6">
+                <property role="19SUeA" value="rechtspersonen, commanditaire vennootschappen, vennootschappen onder firma en natuurlijke personen die een beroep of bedrijf uitoefenen die goederen of diensten leveren die betrekking hebben op de uitvoering van een publieke taak waarvan de betaling ten laste van de rijksbegroting komt en waarbij de Staat zich het recht heeft voorbehouden bij de betreffende rechtspersoon, commanditaire vennootschap, vennootschap onder firma of natuurlijke persoon controles uit te voeren ten aanzien van de geleverde goederen of diensten;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgPzR" role="3MKX6F">
+        <property role="1hTQn4" value="ab2668c2-b75c-4125-9573-072a14cf031f" />
+        <property role="3Fg1Gr" value="1801" />
+        <node concept="3Fnoml" id="4qxaCfUgPzS" role="3MKX6F">
+          <property role="1hTQn4" value="1f0b164e-d910-4a8f-9251-8898ac7e341d" />
+          <property role="3Fg1Gr" value="1802" />
+          <property role="3Fnomm" value="d." />
+          <node concept="3MKX5i" id="4qxaCfUgPzT" role="3MKX6F">
+            <property role="1hTQn4" value="1772bfbb-0c64-4b71-9b19-d96ca3639610" />
+            <property role="3Fg1Gr" value="1803" />
+            <node concept="19SGf9" id="4qxaCfUgPzU" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgPzV" role="19SJt6">
+                <property role="19SUeA" value="openbare lichamen en gemeenschappelijke organen ingesteld krachtens de Wet gemeenschappelijke regelingen, waaraan vanwege het Rijk wordt deelgenomen;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgPzX" role="3MKX6F">
+        <property role="1hTQn4" value="0fee89f1-e659-40b6-bf2f-4ad8128b6fa1" />
+        <property role="3Fg1Gr" value="1804" />
+        <node concept="3Fnoml" id="4qxaCfUgPzY" role="3MKX6F">
+          <property role="1hTQn4" value="9f81999d-d3f3-4e35-9688-527599025b1b" />
+          <property role="3Fg1Gr" value="1805" />
+          <property role="3Fnomm" value="e." />
+          <node concept="3MKX5i" id="4qxaCfUgPzZ" role="3MKX6F">
+            <property role="1hTQn4" value="37c4a17f-8bf7-42b4-90ef-dab3b6d1fcfa" />
+            <property role="3Fg1Gr" value="1806" />
+            <node concept="19SGf9" id="4qxaCfUgP$0" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgP$1" role="19SJt6">
+                <property role="19SUeA" value="naamloze vennootschappen en besloten vennootschappen met beperkte aansprakelijkheid waarvan de Staat 5% of meer van het geplaatste aandelenkapitaal houdt." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP$4">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="9da17c5e-1098-4d59-8ea1-d72ad373fcc9" />
+    <property role="3Fg1Gr" value="1807" />
+    <property role="TrG5h" value="Artikel 7.25 Reikwijdte onderzoek naar publieke middelen buiten het Rijk" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgP$5" role="3MKX6F">
+      <property role="1hTQn4" value="854bc69d-380c-4309-b9b0-f60aebc44574" />
+      <property role="3Fg1Gr" value="1809" />
+      <node concept="3Fnoml" id="4qxaCfUgP$6" role="3MKX6F">
+        <property role="1hTQn4" value="5d581224-2450-4820-acff-b89afb0aa545" />
+        <property role="3Fg1Gr" value="1810" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgP$7" role="3MKX6F">
+          <property role="1hTQn4" value="8e332f6e-f8ab-4edb-893f-ab8ee3f0fc33" />
+          <property role="3Fg1Gr" value="1811" />
+          <node concept="19SGf9" id="4qxaCfUgP$8" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP$9" role="19SJt6">
+              <property role="19SUeA" value="Een onderzoek ten aanzien van rechtspersonen, commanditaire vennootschappen, vennootschappen onder firma en natuurlijke personen, bedoeld in artikel 7.24, aanhef en onderdeel a tot en met c, is gericht op oordeelsvorming over:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgP$b" role="3MKX6F">
+          <property role="1hTQn4" value="31f730e0-7afb-4e46-aa36-e1f54a059c27" />
+          <property role="3Fg1Gr" value="1812" />
+          <node concept="3MKX5h" id="4qxaCfUgP$c" role="3MKX6F">
+            <property role="1hTQn4" value="1d5a264d-056b-4bce-8107-e7546d8b52e3" />
+            <property role="3Fg1Gr" value="1813" />
+            <node concept="3Fnoml" id="4qxaCfUgP$d" role="3MKX6F">
+              <property role="1hTQn4" value="793d7ee7-b9b8-4c24-8b23-f2028fd2350b" />
+              <property role="3Fg1Gr" value="1814" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgP$e" role="3MKX6F">
+                <property role="1hTQn4" value="6d8b8241-efe7-4867-95fc-a921143942c1" />
+                <property role="3Fg1Gr" value="1815" />
+                <node concept="19SGf9" id="4qxaCfUgP$f" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP$g" role="19SJt6">
+                    <property role="19SUeA" value="het gevoerde beleid van Onze Minister die het aangaat met betrekking tot de rechtspersonen, commanditaire vennootschappen, vennootschappen onder firma en natuurlijke personen, bedoeld in artikel 7.24, onderdeel a tot en met c;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP$i" role="3MKX6F">
+            <property role="1hTQn4" value="b4810e48-97e4-4eb6-93b0-d74a4d891a81" />
+            <property role="3Fg1Gr" value="1816" />
+            <node concept="3Fnoml" id="4qxaCfUgP$j" role="3MKX6F">
+              <property role="1hTQn4" value="8471a5e3-8f95-430a-a8cb-4072b5944b13" />
+              <property role="3Fg1Gr" value="1817" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgP$k" role="3MKX6F">
+                <property role="1hTQn4" value="2512ddb9-8c6b-4425-b185-e129b732253f" />
+                <property role="3Fg1Gr" value="1818" />
+                <node concept="19SGf9" id="4qxaCfUgP$l" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP$m" role="19SJt6">
+                    <property role="19SUeA" value="het toezicht dat Onze Minister die het aangaat op de rechtspersonen, commanditaire vennootschappen, vennootschappen onder firma en natuurlijke personen, bedoeld in artikel 7.24, onderdeel a tot en met c, uitoefent." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP$o" role="3MKX6F">
+      <property role="1hTQn4" value="e0885e90-907f-423f-8302-7ce7817adf82" />
+      <property role="3Fg1Gr" value="1819" />
+      <node concept="3Fnoml" id="4qxaCfUgP$p" role="3MKX6F">
+        <property role="1hTQn4" value="6fe2350c-e747-45d9-a1a8-f09fa4c55d4a" />
+        <property role="3Fg1Gr" value="1820" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgP$q" role="3MKX6F">
+          <property role="1hTQn4" value="d2f6468e-8992-40f7-94be-6e728274f788" />
+          <property role="3Fg1Gr" value="1821" />
+          <node concept="19SGf9" id="4qxaCfUgP$r" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP$s" role="19SJt6">
+              <property role="19SUeA" value="Onverminderd het eerste lid is een onderzoek ten aanzien van rechtspersonen met een wettelijke taak als bedoeld in artikel 7.24, aanhef en onderdeel b, mede gericht op oordeelsvorming over:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgP$u" role="3MKX6F">
+          <property role="1hTQn4" value="822302d2-82a4-463d-8762-2052e696376e" />
+          <property role="3Fg1Gr" value="1822" />
+          <node concept="3MKX5h" id="4qxaCfUgP$v" role="3MKX6F">
+            <property role="1hTQn4" value="c39dd334-e7de-4575-bb91-c1275a32cbb4" />
+            <property role="3Fg1Gr" value="1823" />
+            <node concept="3Fnoml" id="4qxaCfUgP$w" role="3MKX6F">
+              <property role="1hTQn4" value="81df2c2d-7f3c-4f09-8683-c48c36b6c235" />
+              <property role="3Fg1Gr" value="1824" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgP$x" role="3MKX6F">
+                <property role="1hTQn4" value="52109bc0-978f-4dce-a1bf-17dce4fb869f" />
+                <property role="3Fg1Gr" value="1825" />
+                <node concept="19SGf9" id="4qxaCfUgP$y" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP$z" role="19SJt6">
+                    <property role="19SUeA" value="het beheer van de publieke middelen door de rechtspersonen met een wettelijke taak;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgP$_" role="3MKX6F">
+            <property role="1hTQn4" value="d23c2d84-abe3-4c03-924c-5c22d201fa1f" />
+            <property role="3Fg1Gr" value="1826" />
+            <node concept="3Fnoml" id="4qxaCfUgP$A" role="3MKX6F">
+              <property role="1hTQn4" value="13109005-46fb-4962-a5ca-fe590ebde5c6" />
+              <property role="3Fg1Gr" value="1827" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgP$B" role="3MKX6F">
+                <property role="1hTQn4" value="0bee70fe-a7df-4756-839c-2d5057870269" />
+                <property role="3Fg1Gr" value="1828" />
+                <node concept="19SGf9" id="4qxaCfUgP$C" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgP$D" role="19SJt6">
+                    <property role="19SUeA" value="de uitvoering van de wettelijke taak." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP$F" role="3MKX6F">
+      <property role="1hTQn4" value="f48adc27-8f58-4c01-aa1a-23558fa3c7fa" />
+      <property role="3Fg1Gr" value="1829" />
+      <node concept="3Fnoml" id="4qxaCfUgP$G" role="3MKX6F">
+        <property role="1hTQn4" value="2955abec-8d1d-41c0-913f-6599a5876f17" />
+        <property role="3Fg1Gr" value="1830" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgP$H" role="3MKX6F">
+          <property role="1hTQn4" value="f87bc309-cf68-465c-a1b0-b51855ed2919" />
+          <property role="3Fg1Gr" value="1831" />
+          <node concept="19SGf9" id="4qxaCfUgP$I" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP$J" role="19SJt6">
+              <property role="19SUeA" value="Een onderzoek bij De Nederlandsche Bank N.V. heeft geen betrekking op de uitvoering van taken ter uitvoering van het Verdrag betreffende de werking van de Europese Unie." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP$M">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="1bbb6376-8a5e-4858-abb5-a105775b9b98" />
+    <property role="3Fg1Gr" value="1832" />
+    <property role="TrG5h" value="Artikel 7.26 Reikwijdte onderzoek naar openbare lichamen en gemeenschappelijke organen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgP$N" role="3MKX6F">
+      <property role="1hTQn4" value="dafbb2a8-aeaa-4928-80b5-bc18927fa20c" />
+      <property role="3Fg1Gr" value="1834" />
+      <node concept="19SGf9" id="4qxaCfUgP$O" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgP$P" role="19SJt6">
+          <property role="19SUeA" value="Een onderzoek ten aanzien van openbare lichamen en gemeenschappelijke organen, bedoeld in artikel 7.24, aanhef en onderdeel d, is gericht op:" />
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP$R" role="3MKX6F">
+      <property role="1hTQn4" value="e8c2193b-ffe7-4fad-a906-6c56a85c29b1" />
+      <property role="3Fg1Gr" value="1835" />
+      <node concept="3MKX5h" id="4qxaCfUgP$S" role="3MKX6F">
+        <property role="1hTQn4" value="b04d8bc6-78f8-437b-b594-14aec1ea961d" />
+        <property role="3Fg1Gr" value="1836" />
+        <node concept="3Fnoml" id="4qxaCfUgP$T" role="3MKX6F">
+          <property role="1hTQn4" value="5407b79c-5888-4bfb-ba88-01edd2ebda44" />
+          <property role="3Fg1Gr" value="1837" />
+          <property role="3Fnomm" value="a." />
+          <node concept="3MKX5i" id="4qxaCfUgP$U" role="3MKX6F">
+            <property role="1hTQn4" value="ea2e0f50-8f21-4a1e-91f0-43e09f6af92c" />
+            <property role="3Fg1Gr" value="1838" />
+            <node concept="19SGf9" id="4qxaCfUgP$V" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgP$W" role="19SJt6">
+                <property role="19SUeA" value="de oordeelsvorming over de vervulling van de deelname vanwege het Rijk met betrekking tot de openbare lichamen en gemeenschappelijke organen, bedoeld in artikel 7.24, onderdeel d;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgP$Y" role="3MKX6F">
+        <property role="1hTQn4" value="1fe692d3-3bae-44b4-81ad-dbdc72fad775" />
+        <property role="3Fg1Gr" value="1839" />
+        <node concept="3Fnoml" id="4qxaCfUgP$Z" role="3MKX6F">
+          <property role="1hTQn4" value="35569379-c81e-4116-aa19-4184c776a8f9" />
+          <property role="3Fg1Gr" value="1840" />
+          <property role="3Fnomm" value="b." />
+          <node concept="3MKX5i" id="4qxaCfUgP_0" role="3MKX6F">
+            <property role="1hTQn4" value="c6026850-b49e-48e9-aeb2-7f16ae61463e" />
+            <property role="3Fg1Gr" value="1841" />
+            <node concept="19SGf9" id="4qxaCfUgP_1" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgP_2" role="19SJt6">
+                <property role="19SUeA" value="het beleid dat Onze Minister die het aangaat met betrekking tot de openbare lichamen en gemeenschappelijke organen, bedoeld in artikel 7.24, onderdeel d, voert." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP_5">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="804737b9-93a8-498f-bb8f-21dc0af5773b" />
+    <property role="3Fg1Gr" value="1842" />
+    <property role="TrG5h" value="Artikel 7.27 Reikwijdte onderzoek naar staatsdeelnemingen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgP_6" role="3MKX6F">
+      <property role="1hTQn4" value="c4b3ee9e-c80b-4c5a-b730-07e8c882a5c7" />
+      <property role="3Fg1Gr" value="1844" />
+      <node concept="19SGf9" id="4qxaCfUgP_7" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgP_8" role="19SJt6">
+          <property role="19SUeA" value="Een onderzoek ten aanzien van naamloze vennootschappen en besloten vennootschappen, bedoeld in artikel 7.24, aanhef en onderdeel e, is gericht op:" />
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP_a" role="3MKX6F">
+      <property role="1hTQn4" value="b8586df0-50a8-4bfb-ae91-5ec47ea57fae" />
+      <property role="3Fg1Gr" value="1845" />
+      <node concept="3MKX5h" id="4qxaCfUgP_b" role="3MKX6F">
+        <property role="1hTQn4" value="a82b1a58-b0dd-46c8-89a4-9dc22c8721f5" />
+        <property role="3Fg1Gr" value="1846" />
+        <node concept="3Fnoml" id="4qxaCfUgP_c" role="3MKX6F">
+          <property role="1hTQn4" value="00198602-0593-4f81-ac04-f1eec9ef5715" />
+          <property role="3Fg1Gr" value="1847" />
+          <property role="3Fnomm" value="a." />
+          <node concept="3MKX5i" id="4qxaCfUgP_d" role="3MKX6F">
+            <property role="1hTQn4" value="57d24ffc-c9c1-46de-a17e-52e360346b41" />
+            <property role="3Fg1Gr" value="1848" />
+            <node concept="19SGf9" id="4qxaCfUgP_e" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgP_f" role="19SJt6">
+                <property role="19SUeA" value="de oordeelsvorming over de vervulling van het aandeelhouderschap van de Staat met betrekking tot deze naamloze vennootschappen en besloten vennootschappen;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgP_h" role="3MKX6F">
+        <property role="1hTQn4" value="8f7c192e-f764-4b0f-be03-c6bc31aa5680" />
+        <property role="3Fg1Gr" value="1849" />
+        <node concept="3Fnoml" id="4qxaCfUgP_i" role="3MKX6F">
+          <property role="1hTQn4" value="3d0ecbce-18ac-495c-8cac-9544b3b7b79c" />
+          <property role="3Fg1Gr" value="1850" />
+          <property role="3Fnomm" value="b." />
+          <node concept="3MKX5i" id="4qxaCfUgP_j" role="3MKX6F">
+            <property role="1hTQn4" value="0ce724ee-6ab4-4bbb-8323-1a2037feb266" />
+            <property role="3Fg1Gr" value="1851" />
+            <node concept="19SGf9" id="4qxaCfUgP_k" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgP_l" role="19SJt6">
+                <property role="19SUeA" value="het beleid dat Onze Minister die het aangaat voert met betrekking tot deze naamloze vennootschappen en besloten vennootschappen." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP_o">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="316e75e4-f261-45bb-aa09-8e64488f0bdb" />
+    <property role="3Fg1Gr" value="1852" />
+    <property role="TrG5h" value="Artikel 7.28 Onderzoek naar bijdragen ten laste van de EU-begroting" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgP_p" role="3MKX6F">
+      <property role="1hTQn4" value="0c072004-89bd-4caf-85a2-8d86e4e385bd" />
+      <property role="3Fg1Gr" value="1854" />
+      <node concept="19SGf9" id="4qxaCfUgP_q" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgP_r" role="19SJt6">
+          <property role="19SUeA" value="Onverminderd het elders bij wet of EU-verordening bepaalde, kan de Algemene Rekenkamer, voor zover aan de lidstaat van de Europese Unie de verplichting tot het toezicht op en de controle van een subsidie, lening of garantie en het beheer daarvan is opgelegd, onderzoek verrichten bij rechtspersonen, commanditaire vennootschappen, vennootschappen onder firma en natuurlijke personen die een beroep of bedrijf uitoefenen die direct, indirect of voorwaardelijk een subsidie, lening of garantie ten laste van de EU-begroting hebben ontvangen." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP_u">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="12749302-2d92-4870-817b-fb57710a9e18" />
+    <property role="3Fg1Gr" value="1855" />
+    <property role="TrG5h" value="Artikel 7.29 Reikwijdte onderzoek naar bijdragen ten laste van de EU-begroting" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgP_v" role="3MKX6F">
+      <property role="1hTQn4" value="399491b0-d38f-4313-895b-5408d904c9d7" />
+      <property role="3Fg1Gr" value="1857" />
+      <node concept="19SGf9" id="4qxaCfUgP_w" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgP_x" role="19SJt6">
+          <property role="19SUeA" value="Een onderzoek ten aanzien van rechtspersonen, commanditaire vennootschappen, vennootschappen onder firma en natuurlijke personen, bedoeld in artikel 7.28, is gericht op oordeelsvorming over het toezicht dat door Onze Ministers die het aangaan is gevoerd ter nakoming van de bij of krachtens het Verdrag betreffende de werking van de Europese Unie aan de lidstaat opgelegde verplichtingen inzake het financieel beheer van de ontvangen subsidie, lening of garantie, de controle daarvan of het toezicht daarop." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP_$">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="a2ea9086-0fcb-4ecd-a3ac-64d446aff608" />
+    <property role="3Fg1Gr" value="1858" />
+    <property role="TrG5h" value="Artikel 7.30 Aanbieden rapport overige onderzoeken" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgP__" role="3MKX6F">
+      <property role="1hTQn4" value="eea702af-4f80-4ec3-81c0-d6ca3cf51c2c" />
+      <property role="3Fg1Gr" value="1860" />
+      <node concept="3Fnoml" id="4qxaCfUgP_A" role="3MKX6F">
+        <property role="1hTQn4" value="d7e07489-6a31-4ee7-b0f9-203a865d1535" />
+        <property role="3Fg1Gr" value="1861" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgP_B" role="3MKX6F">
+          <property role="1hTQn4" value="fae00488-512f-4eac-8ff3-8e4c92e27910" />
+          <property role="3Fg1Gr" value="1862" />
+          <node concept="19SGf9" id="4qxaCfUgP_C" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP_D" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer stelt de Staten-Generaal en Ons in kennis van het rapport dat zij naar aanleiding van een onderzoek als bedoeld in de artikelen 7.23, 7.24 en 7.28, vaststelt." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP_F" role="3MKX6F">
+      <property role="1hTQn4" value="c2e31cf7-7977-4e1c-8da3-e2ad138be69b" />
+      <property role="3Fg1Gr" value="1863" />
+      <node concept="3Fnoml" id="4qxaCfUgP_G" role="3MKX6F">
+        <property role="1hTQn4" value="17d1dfea-2153-4414-9273-aa57996963e8" />
+        <property role="3Fg1Gr" value="1864" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgP_H" role="3MKX6F">
+          <property role="1hTQn4" value="4cb7362f-772b-495f-b5e1-37c823303312" />
+          <property role="3Fg1Gr" value="1865" />
+          <node concept="19SGf9" id="4qxaCfUgP_I" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP_J" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer stelt in voorkomende gevallen tevens de instelling, bedoeld in artikel 7.34, achtste lid, in kennis van het rapport, bedoeld in het eerste lid." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP_L" role="3MKX6F">
+      <property role="1hTQn4" value="74118bc9-6472-4752-bdbd-cfa70c444c92" />
+      <property role="3Fg1Gr" value="1866" />
+      <node concept="3Fnoml" id="4qxaCfUgP_M" role="3MKX6F">
+        <property role="1hTQn4" value="ae4562de-5358-4f9f-88b5-90a1650008b4" />
+        <property role="3Fg1Gr" value="1867" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgP_N" role="3MKX6F">
+          <property role="1hTQn4" value="55e12864-e97f-4445-bb0a-1189459d166d" />
+          <property role="3Fg1Gr" value="1868" />
+          <node concept="19SGf9" id="4qxaCfUgP_O" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP_P" role="19SJt6">
+              <property role="19SUeA" value="Voordat de Algemene Rekenkamer een rapport, bedoeld in het eerste lid, vaststelt, stelt zij Onze Minister die het aangaat in de gelegenheid binnen een redelijke termijn te reageren op haar bevindingen en voorlopige conclusies." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgP_R" role="3MKX6F">
+      <property role="1hTQn4" value="992a657e-dbc7-44f3-96a8-31d43d660c2a" />
+      <property role="3Fg1Gr" value="1869" />
+      <node concept="3Fnoml" id="4qxaCfUgP_S" role="3MKX6F">
+        <property role="1hTQn4" value="a523244c-cb37-4995-8fa7-e92250518135" />
+        <property role="3Fg1Gr" value="1870" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgP_T" role="3MKX6F">
+          <property role="1hTQn4" value="027ebb3e-274d-46fb-b144-5464064410b1" />
+          <property role="3Fg1Gr" value="1871" />
+          <node concept="19SGf9" id="4qxaCfUgP_U" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgP_V" role="19SJt6">
+              <property role="19SUeA" value="Van gegevens en bevindingen die naar hun aard vertrouwelijk zijn, maakt de Algemene Rekenkamer geen melding in een rapport als bedoeld in het eerste lid. Mededelingen die zodanige gegevens of bevindingen bevatten, kan zij vertrouwelijk ter kennisneming aan de Staten-Generaal verstrekken." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgP_Y">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="896567b3-9da3-4a64-a529-38acb308332c" />
+    <property role="3Fg1Gr" value="1872" />
+    <property role="TrG5h" value="Artikel 7.31 Onderzoek naar de verklaring over EU-uitgaven" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgP_Z" role="3MKX6F">
+      <property role="1hTQn4" value="6e336684-846f-400f-87f1-d9e47ccfce38" />
+      <property role="3Fg1Gr" value="1874" />
+      <node concept="19SGf9" id="4qxaCfUgPA0" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPA1" role="19SJt6">
+          <property role="19SUeA" value="De Algemene Rekenkamer onderzoekt de verklaring, bedoeld in artikel 6.9, inzake de besteding van de Europese middelen in gedeeld beheer door Nederland." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPA4">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="54c6eb0d-78bf-4bd2-a378-f8e6d6c39934" />
+    <property role="3Fg1Gr" value="1875" />
+    <property role="TrG5h" value="Artikel 7.32 Aanbieden rapport onderzoek naar de verklaring over EU-uitgaven" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPA5" role="3MKX6F">
+      <property role="1hTQn4" value="62c11107-29ef-44ba-8e84-6edcebcf47c5" />
+      <property role="3Fg1Gr" value="1877" />
+      <node concept="3Fnoml" id="4qxaCfUgPA6" role="3MKX6F">
+        <property role="1hTQn4" value="ab5b8409-62b3-4e8f-bea3-8bab14269dd0" />
+        <property role="3Fg1Gr" value="1878" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPA7" role="3MKX6F">
+          <property role="1hTQn4" value="6467e45a-1416-451e-a5e7-293a4e1d40ac" />
+          <property role="3Fg1Gr" value="1879" />
+          <node concept="19SGf9" id="4qxaCfUgPA8" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPA9" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer stelt de Staten-Generaal en Onze Minister van Financiën in kennis van het rapport dat zij naar aanleiding van een onderzoek als bedoeld in artikel 7.31, vaststelt." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPAb" role="3MKX6F">
+      <property role="1hTQn4" value="10edf3c2-57d0-4415-8e86-a10477a2760c" />
+      <property role="3Fg1Gr" value="1880" />
+      <node concept="3Fnoml" id="4qxaCfUgPAc" role="3MKX6F">
+        <property role="1hTQn4" value="431a7dfb-5908-4a24-a0e0-4f910610a822" />
+        <property role="3Fg1Gr" value="1881" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPAd" role="3MKX6F">
+          <property role="1hTQn4" value="d4a952d8-2a31-4b91-b627-6ead92191a36" />
+          <property role="3Fg1Gr" value="1882" />
+          <node concept="19SGf9" id="4qxaCfUgPAe" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPAf" role="19SJt6">
+              <property role="19SUeA" value="Artikel 7.30, tweede tot en met vierde lid, is van overeenkomstige toepassing." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPAi">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="95fdab7f-b183-4b88-89ad-b08c68ff0b52" />
+    <property role="3Fg1Gr" value="1883" />
+    <property role="TrG5h" value="Artikel 7.33 Verslag van werkzaamheden" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPAj" role="3MKX6F">
+      <property role="1hTQn4" value="acc9aa20-8869-45db-9eb9-dcc1b6f7a88a" />
+      <property role="3Fg1Gr" value="1885" />
+      <node concept="19SGf9" id="4qxaCfUgPAk" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPAl" role="19SJt6">
+          <property role="19SUeA" value="De Algemene Rekenkamer biedt de Staten-Generaal en Ons jaarlijks uiterlijk op 1 april een verslag aan van haar werkzaamheden in het daaraan voorafgaande jaar." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPAo">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="9af2e6f8-b41b-46b3-9115-1888cc7ec6f3" />
+    <property role="3Fg1Gr" value="1886" />
+    <property role="TrG5h" value="Artikel 7.34 Bevoegdheden onderzoek naar publieke middelen buiten het Rijk en openbare lichamen en gemeenschappelijke organen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPAp" role="3MKX6F">
+      <property role="1hTQn4" value="c2775c9b-bfba-4142-bdcd-db154de96285" />
+      <property role="3Fg1Gr" value="1888" />
+      <node concept="3Fnoml" id="4qxaCfUgPAq" role="3MKX6F">
+        <property role="1hTQn4" value="12c6b9c5-dc4e-4d12-a1c5-d0c42842e104" />
+        <property role="3Fg1Gr" value="1889" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPAr" role="3MKX6F">
+          <property role="1hTQn4" value="5e3262ce-d079-480a-9f83-6b1c0a4ceff5" />
+          <property role="3Fg1Gr" value="1890" />
+          <node concept="19SGf9" id="4qxaCfUgPAs" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPAt" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer maakt bij het onderzoek, bedoeld in artikel 7.24, onder a tot en met d, zoveel mogelijk gebruik van door anderen verrichte controles." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPAv" role="3MKX6F">
+      <property role="1hTQn4" value="bf7a9bae-abd2-45ea-b448-d8d9ae76fb3f" />
+      <property role="3Fg1Gr" value="1891" />
+      <node concept="3Fnoml" id="4qxaCfUgPAw" role="3MKX6F">
+        <property role="1hTQn4" value="ba1c701c-604a-4ef9-88cd-60bd34cce696" />
+        <property role="3Fg1Gr" value="1892" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPAx" role="3MKX6F">
+          <property role="1hTQn4" value="1a9c0c21-7f43-4fba-b63d-657a6a1be97e" />
+          <property role="3Fg1Gr" value="1893" />
+          <node concept="19SGf9" id="4qxaCfUgPAy" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPAz" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer kan aan de hand van de bescheiden die aanwezig zijn bij Onze Minister die het aangaat of de instelling, bedoeld in het achtste lid, kennis nemen van de informatie over de rechtspersonen, commanditaire vennootschappen, vennootschappen onder firma, natuurlijke personen, openbare lichamen en gemeenschappelijke organen, bedoeld in artikel 7.24, eerste lid, onderdeel a tot en met d." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPA_" role="3MKX6F">
+      <property role="1hTQn4" value="8e912080-8981-4470-b6b7-dff885c457c0" />
+      <property role="3Fg1Gr" value="1894" />
+      <node concept="3Fnoml" id="4qxaCfUgPAA" role="3MKX6F">
+        <property role="1hTQn4" value="bd06b2dc-ba78-490b-9736-bdc9020d81a2" />
+        <property role="3Fg1Gr" value="1895" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPAB" role="3MKX6F">
+          <property role="1hTQn4" value="7278661d-f1d1-42e1-940f-326696b1a59c" />
+          <property role="3Fg1Gr" value="1896" />
+          <node concept="19SGf9" id="4qxaCfUgPAC" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPAD" role="19SJt6">
+              <property role="19SUeA" value="Indien de informatie, aanwezig bij Onze Minister die het aangaat of de instelling, bedoeld in het achtste lid, naar het oordeel van de Algemene Rekenkamer daartoe aanleiding geeft, is de Algemene Rekenkamer bevoegd bij de rechtspersonen, commanditaire vennootschappen, vennootschappen onder firma, natuurlijke personen, openbare lichamen en gemeenschappelijke organen, bedoeld in artikel 7.24, eerste lid, onderdeel a tot en met d, nadere inlichtingen in te winnen of overlegging van stukken te vorderen." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPAF" role="3MKX6F">
+      <property role="1hTQn4" value="1c4a5f69-e668-455f-b3d8-e121b79dbec9" />
+      <property role="3Fg1Gr" value="1897" />
+      <node concept="3Fnoml" id="4qxaCfUgPAG" role="3MKX6F">
+        <property role="1hTQn4" value="1f3600ad-333f-4bff-95c2-1e5a5cdcd239" />
+        <property role="3Fg1Gr" value="1898" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgPAH" role="3MKX6F">
+          <property role="1hTQn4" value="1b25ba71-093b-4e8d-8702-5c3443e147db" />
+          <property role="3Fg1Gr" value="1899" />
+          <node concept="19SGf9" id="4qxaCfUgPAI" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPAJ" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer kan aan de hand van de administratie een onderzoek instellen bij de rechtspersonen, commanditaire vennootschappen, vennootschappen onder firma, natuurlijke personen, openbare lichamen en gemeenschappelijke organen, bedoeld in artikel 7.24, eerste lid, onderdeel a tot en met d. De artikelen 7.18, eerste lid, en 7.19 zijn van overeenkomstige toepassing." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPAL" role="3MKX6F">
+      <property role="1hTQn4" value="d8fece01-1d68-4f90-a993-93951902ee89" />
+      <property role="3Fg1Gr" value="1900" />
+      <node concept="3Fnoml" id="4qxaCfUgPAM" role="3MKX6F">
+        <property role="1hTQn4" value="b8c6a15d-1ce4-41bf-be5c-bb4e86876818" />
+        <property role="3Fg1Gr" value="1901" />
+        <property role="3Fnomm" value="5" />
+        <node concept="3MKX5i" id="4qxaCfUgPAN" role="3MKX6F">
+          <property role="1hTQn4" value="0138fd32-76b2-4780-bcfc-cba9bd1b831f" />
+          <property role="3Fg1Gr" value="1902" />
+          <node concept="19SGf9" id="4qxaCfUgPAO" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPAP" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer is bevoegd inzage te vorderen in de controleprogramma’s en dossiers van de accountant die de documenten, bedoeld in artikel 6.3, eerste lid, onderdeel a en b, heeft gecontroleerd. De accountant kan inzage in de controledossiers niet weigeren met een beroep op een bij of krachtens de wet opgelegde verplichting tot geheimhouding van vertrouwelijke gegevens die in de controledossiers zijn opgenomen. Artikel 6.5 is van overeenkomstige toepassing." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPAR" role="3MKX6F">
+      <property role="1hTQn4" value="2c45397e-2f56-4b9e-b3c2-12c23ecaf68a" />
+      <property role="3Fg1Gr" value="1903" />
+      <node concept="3Fnoml" id="4qxaCfUgPAS" role="3MKX6F">
+        <property role="1hTQn4" value="a35e0474-7551-4b63-984d-192031a1b257" />
+        <property role="3Fg1Gr" value="1904" />
+        <property role="3Fnomm" value="6" />
+        <node concept="3MKX5i" id="4qxaCfUgPAT" role="3MKX6F">
+          <property role="1hTQn4" value="4f70e6d3-f21e-4d65-aa1a-862e30fdcea6" />
+          <property role="3Fg1Gr" value="1905" />
+          <node concept="19SGf9" id="4qxaCfUgPAU" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPAV" role="19SJt6">
+              <property role="19SUeA" value="Indien de Algemene Rekenkamer gebruik maakt van de bevoegdheden, bedoeld in het derde tot en met het vijfde lid, zijn de artikelen 5:12, 5:13, 5:15 en 5:17, tweede en derde lid, van de Algemene wet bestuursrecht van overeenkomstige toepassing." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPAX" role="3MKX6F">
+      <property role="1hTQn4" value="7df0c79d-23e3-4631-859b-ee3989a799f7" />
+      <property role="3Fg1Gr" value="1906" />
+      <node concept="3Fnoml" id="4qxaCfUgPAY" role="3MKX6F">
+        <property role="1hTQn4" value="815af01d-7178-4f86-9797-ef08e7265463" />
+        <property role="3Fg1Gr" value="1907" />
+        <property role="3Fnomm" value="7" />
+        <node concept="3MKX5i" id="4qxaCfUgPAZ" role="3MKX6F">
+          <property role="1hTQn4" value="da276967-1080-4690-8b30-99a8312da449" />
+          <property role="3Fg1Gr" value="1908" />
+          <node concept="19SGf9" id="4qxaCfUgPB0" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPB1" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer kan haar bevoegdheden, bedoeld in dit artikel, uitoefenen zolang als en over de jaren dat het algemeen belang dit vordert." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPB3" role="3MKX6F">
+      <property role="1hTQn4" value="85ced3c2-0270-452b-a78c-283849a09070" />
+      <property role="3Fg1Gr" value="1909" />
+      <node concept="3Fnoml" id="4qxaCfUgPB4" role="3MKX6F">
+        <property role="1hTQn4" value="2de948c7-19cf-4ee2-ae5c-302e94c46133" />
+        <property role="3Fg1Gr" value="1910" />
+        <property role="3Fnomm" value="8" />
+        <node concept="3MKX5i" id="4qxaCfUgPB5" role="3MKX6F">
+          <property role="1hTQn4" value="6ce84ae7-65cd-449a-a020-43cde605a92a" />
+          <property role="3Fg1Gr" value="1911" />
+          <node concept="19SGf9" id="4qxaCfUgPB6" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPB7" role="19SJt6">
+              <property role="19SUeA" value="Een instelling die bij of krachtens de wet is belast met het houden van toezicht op rechtspersonen met een wettelijke taak licht de Algemene Rekenkamer op door haar aan te geven wijze in over de resultaten van het toezicht. Indien de Algemene Rekenkamer daarom verzoekt, stelt de instelling haar controleprogramma’s ter beschikking." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPB9" role="3MKX6F">
+      <property role="1hTQn4" value="5c8ac907-0e8e-4f26-b017-763468b6e553" />
+      <property role="3Fg1Gr" value="1912" />
+      <node concept="3Fnoml" id="4qxaCfUgPBa" role="3MKX6F">
+        <property role="1hTQn4" value="51630743-3fdb-4f97-a378-fa1dcd5775bb" />
+        <property role="3Fg1Gr" value="1913" />
+        <property role="3Fnomm" value="9" />
+        <node concept="3MKX5i" id="4qxaCfUgPBb" role="3MKX6F">
+          <property role="1hTQn4" value="d70d3342-dc68-45b4-a5c7-79a44ac987ab" />
+          <property role="3Fg1Gr" value="1914" />
+          <node concept="19SGf9" id="4qxaCfUgPBc" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPBd" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer licht Onze Minister die het aangaat in over het onderzoek dat zij op basis van dit artikel verricht." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPBf" role="3MKX6F">
+      <property role="1hTQn4" value="18e87d3d-bbfe-4937-906c-4ead793fefcf" />
+      <property role="3Fg1Gr" value="1915" />
+      <node concept="3Fnoml" id="4qxaCfUgPBg" role="3MKX6F">
+        <property role="1hTQn4" value="a7f38310-76cb-443a-b33b-039d05c0f998" />
+        <property role="3Fg1Gr" value="1916" />
+        <property role="3Fnomm" value="10" />
+        <node concept="3MKX5i" id="4qxaCfUgPBh" role="3MKX6F">
+          <property role="1hTQn4" value="6423e006-5ceb-471a-afab-4be652159ad9" />
+          <property role="3Fg1Gr" value="1917" />
+          <node concept="19SGf9" id="4qxaCfUgPBi" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPBj" role="19SJt6">
+              <property role="19SUeA" value="Dit artikel is niet van toepassing op provincies, gemeenten, waterschappen, de openbare lichamen Bonaire, Sint Eustatius en Saba, openbare lichamen voor beroep en bedrijf, financiële ondernemingen en elektronischgeldinstellingen, bedoeld in de Wet op het financieel toezicht en de Wet financiële markten BES, en openbare lichamen en gemeenschappelijke organen ingesteld krachtens de Wet gemeenschappelijke regelingen met uitzondering van de openbare lichamen en gemeenschappelijke organen waaraan vanwege het Rijk wordt deelgenomen." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPBm">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="81a1b541-c219-4fc4-b541-c1d4b1ffdbf3" />
+    <property role="3Fg1Gr" value="1918" />
+    <property role="TrG5h" value="Artikel 7.35 Bevoegdheden onderzoek naar staatsdeelnemingen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPBn" role="3MKX6F">
+      <property role="1hTQn4" value="6a4f86d4-9913-4d10-92c8-f5730da461ef" />
+      <property role="3Fg1Gr" value="1920" />
+      <node concept="3Fnoml" id="4qxaCfUgPBo" role="3MKX6F">
+        <property role="1hTQn4" value="a9ef3f9b-ec3e-4fa1-add3-ab07ca83fcad" />
+        <property role="3Fg1Gr" value="1921" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPBp" role="3MKX6F">
+          <property role="1hTQn4" value="1a723e5c-7551-43ef-b739-eb7ce4d23c46" />
+          <property role="3Fg1Gr" value="1922" />
+          <node concept="19SGf9" id="4qxaCfUgPBq" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPBr" role="19SJt6">
+              <property role="19SUeA" value="Ten aanzien van naamloze vennootschappen en besloten vennootschappen, waarvan de Staat ten minste 5% van het geplaatste aandelenkapitaal houdt, bedoeld in artikel 7.24, onder e, is artikel 7.34, eerste tot en met derde lid, van overeenkomstige toepassing, met dien verstande dat het inwinnen van nadere inlichtingen en het vorderen van stukken door tussenkomst van Onze Minister die het aangaat geschiedt en uitsluitend betrekking heeft op de jaarrekeningen en de daarop betrekking hebbende rapporten van de accountants die de jaarrekeningen hebben gecontroleerd." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPBt" role="3MKX6F">
+      <property role="1hTQn4" value="e7f5f752-93d8-447a-b400-77a8a9445863" />
+      <property role="3Fg1Gr" value="1923" />
+      <node concept="3Fnoml" id="4qxaCfUgPBu" role="3MKX6F">
+        <property role="1hTQn4" value="659f4cba-fd75-4dcc-ab1b-dc218d20b236" />
+        <property role="3Fg1Gr" value="1924" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPBv" role="3MKX6F">
+          <property role="1hTQn4" value="22333cda-200f-467c-916d-4d7897af52e9" />
+          <property role="3Fg1Gr" value="1925" />
+          <node concept="19SGf9" id="4qxaCfUgPBw" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPBx" role="19SJt6">
+              <property role="19SUeA" value="Ten aanzien van naamloze vennootschappen en besloten vennootschappen met beperkte aansprakelijkheid waarvan de Staat meer dan 50% van het geplaatste aandelenkapitaal houdt en van naamloze vennootschappen en besloten vennootschappen met beperkte aansprakelijkheid waarin de eerstgenoemde naamloze en besloten vennootschappen middellijk of onmiddellijk meer dan 50% van het geplaatste aandelenkapitaal houden, is artikel 7.34, eerste tot en met zevende lid en negende lid, van overeenkomstige toepassing." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPB$">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="42250895-f0c8-49c6-aceb-0ef4c0351522" />
+    <property role="3Fg1Gr" value="1926" />
+    <property role="TrG5h" value="Artikel 7.36 Bevoegdheden onderzoek naar bijdragen ten laste van de EU-begroting" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPB_" role="3MKX6F">
+      <property role="1hTQn4" value="f1b64a52-499d-4f9d-badd-b393aec29b4e" />
+      <property role="3Fg1Gr" value="1928" />
+      <node concept="19SGf9" id="4qxaCfUgPBA" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPBB" role="19SJt6">
+          <property role="19SUeA" value="Ten aanzien van een onderzoek naar bijdragen ten laste van de EU-begroting als bedoeld in artikel 7.28, is artikel 7.34, eerste tot en met negende lid, van overeenkomstige toepassing." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPBE">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="7c6b4505-3547-4ce6-97a4-38c721011f17" />
+    <property role="3Fg1Gr" value="1929" />
+    <property role="TrG5h" value="Artikel 7.37 Samenwerking binnen het Koninkrijk" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPBF" role="3MKX6F">
+      <property role="1hTQn4" value="defb018a-0af5-498e-89c0-3f5243889fae" />
+      <property role="3Fg1Gr" value="1931" />
+      <node concept="3Fnoml" id="4qxaCfUgPBG" role="3MKX6F">
+        <property role="1hTQn4" value="7e29a5c8-2b08-4fa4-892e-bd25c1ca5e50" />
+        <property role="3Fg1Gr" value="1932" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPBH" role="3MKX6F">
+          <property role="1hTQn4" value="94f2c667-5418-4c3a-affe-a71167466d15" />
+          <property role="3Fg1Gr" value="1933" />
+          <node concept="19SGf9" id="4qxaCfUgPBI" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPBJ" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer kan samenwerken met de Algemene Rekenkamers van Aruba, Curaçao, Sint Maarten en de gezamenlijk rekenkamer van de openbare lichamen Bonaire, Sint Eustatius en Saba." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPBL" role="3MKX6F">
+      <property role="1hTQn4" value="6de04491-de21-426f-9384-7cac84c5e56c" />
+      <property role="3Fg1Gr" value="1934" />
+      <node concept="3Fnoml" id="4qxaCfUgPBM" role="3MKX6F">
+        <property role="1hTQn4" value="c9040918-f392-4cf5-9485-096c092daa1a" />
+        <property role="3Fg1Gr" value="1935" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPBN" role="3MKX6F">
+          <property role="1hTQn4" value="2d81d7f7-57b6-45ae-b8db-54f26a020455" />
+          <property role="3Fg1Gr" value="1936" />
+          <node concept="19SGf9" id="4qxaCfUgPBO" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPBP" role="19SJt6">
+              <property role="19SUeA" value="Het is niet toegestaan gegevens, bevindingen of conclusies die naar hun aard vertrouwelijk zijn te verstrekken aan de rekenkamers, bedoeld in het eerste lid." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPBS">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="eff31023-71e2-4254-a38c-07170e61fc4d" />
+    <property role="3Fg1Gr" value="1937" />
+    <property role="TrG5h" value="Artikel 7.38 Internationale werkzaamheden" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPBT" role="3MKX6F">
+      <property role="1hTQn4" value="1fd0153f-eebe-4299-946c-99512c86a79c" />
+      <property role="3Fg1Gr" value="1939" />
+      <node concept="3Fnoml" id="4qxaCfUgPBU" role="3MKX6F">
+        <property role="1hTQn4" value="003647ff-4485-4c26-b620-94a7f3efae93" />
+        <property role="3Fg1Gr" value="1940" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPBV" role="3MKX6F">
+          <property role="1hTQn4" value="4d750092-1c20-426d-9c8e-d81b52708a01" />
+          <property role="3Fg1Gr" value="1941" />
+          <node concept="19SGf9" id="4qxaCfUgPBW" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPBX" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer kan internationale werkzaamheden verrichten die aansluiten bij haar wettelijke taken." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPBZ" role="3MKX6F">
+      <property role="1hTQn4" value="c1418366-79d7-44ae-ac69-642ca96f88fc" />
+      <property role="3Fg1Gr" value="1942" />
+      <node concept="3Fnoml" id="4qxaCfUgPC0" role="3MKX6F">
+        <property role="1hTQn4" value="103b4a98-c01e-43b4-94f0-162fabe84ef5" />
+        <property role="3Fg1Gr" value="1943" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPC1" role="3MKX6F">
+          <property role="1hTQn4" value="6f9349f1-42cc-482f-b0e7-8d76625e122b" />
+          <property role="3Fg1Gr" value="1944" />
+          <node concept="19SGf9" id="4qxaCfUgPC2" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPC3" role="19SJt6">
+              <property role="19SUeA" value="De Algemene Rekenkamer kan ten aanzien van de werkzaamheden, bedoeld in het eerste lid, samenwerken met onderzoeksinstituten uit andere landen die vergelijkbaar zijn met de Algemene Rekenkamer." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPC5" role="3MKX6F">
+      <property role="1hTQn4" value="8124e32f-505e-43cc-a823-595827e38947" />
+      <property role="3Fg1Gr" value="1945" />
+      <node concept="3Fnoml" id="4qxaCfUgPC6" role="3MKX6F">
+        <property role="1hTQn4" value="cc8fb194-f68e-458b-bc55-48877ae7488f" />
+        <property role="3Fg1Gr" value="1946" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPC7" role="3MKX6F">
+          <property role="1hTQn4" value="9c604e8c-2a6a-4540-ba6b-99b120328328" />
+          <property role="3Fg1Gr" value="1947" />
+          <node concept="19SGf9" id="4qxaCfUgPC8" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPC9" role="19SJt6">
+              <property role="19SUeA" value="Artikel 7.37, tweede lid, is van overeenkomstige toepassing ten aanzien van de werkzaamheden bedoeld in het eerste en tweede lid." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPCc">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="a16894b8-2063-4d0b-a21e-a25cbd6f5795" />
+    <property role="3Fg1Gr" value="1948" />
+    <property role="TrG5h" value="Artikel 7.39 Verstrekken van mededelingen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPCd" role="3MKX6F">
+      <property role="1hTQn4" value="ba15d9d6-1632-4ff4-903c-125f508f487b" />
+      <property role="3Fg1Gr" value="1950" />
+      <node concept="19SGf9" id="4qxaCfUgPCe" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPCf" role="19SJt6">
+          <property role="19SUeA" value="De Algemene Rekenkamer verstrekt aan Onze Minister van Financiën, Onze Minister die het aangaat en de Staten-Generaal de mededelingen die zij in het algemeen belang nodig oordeelt." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPCj">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="ffbad795-f352-4997-9c11-2a5c1a62561e" />
+    <property role="3Fg1Gr" value="1953" />
+    <property role="TrG5h" value="Artikel 7.40 Overleg met de Algemene Rekenkamer" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPCk" role="3MKX6F">
+      <property role="1hTQn4" value="c39e74eb-26a4-4c28-af4d-95e353542830" />
+      <property role="3Fg1Gr" value="1955" />
+      <node concept="3Fnoml" id="4qxaCfUgPCl" role="3MKX6F">
+        <property role="1hTQn4" value="516b5aee-1aeb-425e-a0ef-f74e80ce4f9f" />
+        <property role="3Fg1Gr" value="1956" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPCm" role="3MKX6F">
+          <property role="1hTQn4" value="631262cd-8a21-47d8-aed7-be23844c8d08" />
+          <property role="3Fg1Gr" value="1957" />
+          <node concept="19SGf9" id="4qxaCfUgPCn" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPCo" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister die het aangaat voert overleg met Onze Minister van Financiën en de Algemene Rekenkamer over:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPCq" role="3MKX6F">
+          <property role="1hTQn4" value="002c3633-d650-43e5-8b6b-9e5918a36d01" />
+          <property role="3Fg1Gr" value="1958" />
+          <node concept="3MKX5h" id="4qxaCfUgPCr" role="3MKX6F">
+            <property role="1hTQn4" value="c817cb16-5a55-4260-bd42-0a4288bee8ed" />
+            <property role="3Fg1Gr" value="1959" />
+            <node concept="3Fnoml" id="4qxaCfUgPCs" role="3MKX6F">
+              <property role="1hTQn4" value="0e2a11fc-1100-4736-806b-2b19e21652ed" />
+              <property role="3Fg1Gr" value="1960" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgPCt" role="3MKX6F">
+                <property role="1hTQn4" value="adc25ebb-6ca8-44e5-a923-d9ac011f1b67" />
+                <property role="3Fg1Gr" value="1961" />
+                <node concept="19SGf9" id="4qxaCfUgPCu" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPCv" role="19SJt6">
+                    <property role="19SUeA" value="de bij of krachtens de wet te stellen regels die betrekking hebben op de taken of bevoegdheden van de Algemene Rekenkamer;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPCx" role="3MKX6F">
+            <property role="1hTQn4" value="30a6563c-175f-4c25-a0ac-21bdd064f296" />
+            <property role="3Fg1Gr" value="1962" />
+            <node concept="3Fnoml" id="4qxaCfUgPCy" role="3MKX6F">
+              <property role="1hTQn4" value="4b350944-4582-4fa8-a6a9-499c35f8dc18" />
+              <property role="3Fg1Gr" value="1963" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgPCz" role="3MKX6F">
+                <property role="1hTQn4" value="edbd095e-342e-40dd-bb69-53166ce945c4" />
+                <property role="3Fg1Gr" value="1964" />
+                <node concept="19SGf9" id="4qxaCfUgPC$" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPC_" role="19SJt6">
+                    <property role="19SUeA" value="een wettelijke regeling als bedoeld in artikel 4.7, derde lid, onder a, voor zover die wettelijke regeling betrekking heeft op het oprichten, mede-oprichten of doen oprichten van privaatrechtelijke rechtspersonen door de Staat." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPCB" role="3MKX6F">
+      <property role="1hTQn4" value="e59b6a1b-9e23-4183-be9d-2a014544b04f" />
+      <property role="3Fg1Gr" value="1965" />
+      <node concept="3Fnoml" id="4qxaCfUgPCC" role="3MKX6F">
+        <property role="1hTQn4" value="97a67f1e-b295-4e06-8ab5-d31cd655493a" />
+        <property role="3Fg1Gr" value="1966" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPCD" role="3MKX6F">
+          <property role="1hTQn4" value="9c042121-db7a-43d9-b3a9-918f1abbc4d9" />
+          <property role="3Fg1Gr" value="1967" />
+          <node concept="19SGf9" id="4qxaCfUgPCE" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPCF" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister die het aangaat voert in overeenstemming met Onze Minister van Buitenlandse Zaken en Onze Minister van Financiën, overleg met de Algemene Rekenkamer over ontwerp EU-regelgeving voor zover die betrekking heeft op de positie, taken of bevoegdheden van nationale rekenkamers." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPCH" role="3MKX6F">
+      <property role="1hTQn4" value="fc190925-ddd5-48a0-ad02-5f7e59092e8e" />
+      <property role="3Fg1Gr" value="1968" />
+      <node concept="3Fnoml" id="4qxaCfUgPCI" role="3MKX6F">
+        <property role="1hTQn4" value="d01f750c-52c0-4240-b42c-fcecce36e524" />
+        <property role="3Fg1Gr" value="1969" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPCJ" role="3MKX6F">
+          <property role="1hTQn4" value="7c14de09-05e2-4be4-86a9-3e8fdcb6b1cf" />
+          <property role="3Fg1Gr" value="1970" />
+          <node concept="19SGf9" id="4qxaCfUgPCK" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPCL" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister van Financiën voert overleg met de Algemene Rekenkamer over de bij of krachtens deze wet te stellen regels, met uitzondering van de regels over:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPCN" role="3MKX6F">
+          <property role="1hTQn4" value="222a3ad4-f9a7-47f4-a29d-6bc9eedab1bf" />
+          <property role="3Fg1Gr" value="1971" />
+          <node concept="3MKX5h" id="4qxaCfUgPCO" role="3MKX6F">
+            <property role="1hTQn4" value="b7ea8296-19a8-414e-8934-c177836c407e" />
+            <property role="3Fg1Gr" value="1972" />
+            <node concept="3Fnoml" id="4qxaCfUgPCP" role="3MKX6F">
+              <property role="1hTQn4" value="3d96afc8-f06b-435a-978a-b037af87b057" />
+              <property role="3Fg1Gr" value="1973" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgPCQ" role="3MKX6F">
+                <property role="1hTQn4" value="3b676042-cb64-471b-bc79-6fd9fb00f146" />
+                <property role="3Fg1Gr" value="1974" />
+                <node concept="19SGf9" id="4qxaCfUgPCR" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPCS" role="19SJt6">
+                    <property role="19SUeA" value="het inrichten van de rijksbegroting, bedoeld in artikel 4.20, eerste lid, aanhef en onderdeel a;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPCU" role="3MKX6F">
+            <property role="1hTQn4" value="c5b2eaf9-f32c-4a74-ad4d-3b85938652af" />
+            <property role="3Fg1Gr" value="1975" />
+            <node concept="3Fnoml" id="4qxaCfUgPCV" role="3MKX6F">
+              <property role="1hTQn4" value="4e8b38e4-bb23-4b5b-a9bd-62658261c130" />
+              <property role="3Fg1Gr" value="1976" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgPCW" role="3MKX6F">
+                <property role="1hTQn4" value="8c393633-fe9e-4172-8ea2-d03e0584e5dc" />
+                <property role="3Fg1Gr" value="1977" />
+                <node concept="19SGf9" id="4qxaCfUgPCX" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPCY" role="19SJt6">
+                    <property role="19SUeA" value="het begrotingsproces, bedoeld in artikel 4.20, eerste lid, aanhef en onderdeel b;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPD0" role="3MKX6F">
+            <property role="1hTQn4" value="5135ad23-dd81-47b6-ba8c-06cda30956a6" />
+            <property role="3Fg1Gr" value="1978" />
+            <node concept="3Fnoml" id="4qxaCfUgPD1" role="3MKX6F">
+              <property role="1hTQn4" value="697ed862-0778-43bc-bc22-2962f6c91924" />
+              <property role="3Fg1Gr" value="1979" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgPD2" role="3MKX6F">
+                <property role="1hTQn4" value="1a4acf84-6cba-4feb-bb36-07ee6e352f32" />
+                <property role="3Fg1Gr" value="1980" />
+                <node concept="19SGf9" id="4qxaCfUgPD3" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPD4" role="19SJt6">
+                    <property role="19SUeA" value="het begrotingsbeheer, bedoeld in artikel 4.20, eerste lid, aanhef en onderdeel d;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPD6" role="3MKX6F">
+            <property role="1hTQn4" value="09b9186b-1124-4c4f-b26f-312b8f0ece5e" />
+            <property role="3Fg1Gr" value="1981" />
+            <node concept="3Fnoml" id="4qxaCfUgPD7" role="3MKX6F">
+              <property role="1hTQn4" value="67802e40-b958-4d6e-8127-be27cd4718be" />
+              <property role="3Fg1Gr" value="1982" />
+              <property role="3Fnomm" value="d." />
+              <node concept="3MKX5i" id="4qxaCfUgPD8" role="3MKX6F">
+                <property role="1hTQn4" value="67305388-f678-4d58-a57c-cdc7cc20645a" />
+                <property role="3Fg1Gr" value="1983" />
+                <node concept="19SGf9" id="4qxaCfUgPD9" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPDa" role="19SJt6">
+                    <property role="19SUeA" value="de financiële administratie voor zover het de begrotingsadministratie betreft, bedoeld in artikel 4.20, eerste lid, aanhef en onderdeel e." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPDc" role="3MKX6F">
+      <property role="1hTQn4" value="fc394282-7506-487d-babd-8db299720ae0" />
+      <property role="3Fg1Gr" value="1984" />
+      <node concept="3Fnoml" id="4qxaCfUgPDd" role="3MKX6F">
+        <property role="1hTQn4" value="40a7f2be-39b1-4c70-a10c-5f04bc799417" />
+        <property role="3Fg1Gr" value="1985" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgPDe" role="3MKX6F">
+          <property role="1hTQn4" value="5994438a-3fb6-425c-820f-38be30cb55c0" />
+          <property role="3Fg1Gr" value="1986" />
+          <node concept="19SGf9" id="4qxaCfUgPDf" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPDg" role="19SJt6">
+              <property role="19SUeA" value="Onze Minister die het aangaat verbindt een redelijke termijn aan het overleg met de Algemene Rekenkamer, bedoeld in het eerste tot en met derde lid." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPDk">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="b9518676-ee4b-4c39-8160-5d365db11b14" />
+    <property role="3Fg1Gr" value="1989" />
+    <property role="TrG5h" value="Artikel 8.1 Comptabele noodwetgeving" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPDl" role="3MKX6F">
+      <property role="1hTQn4" value="d0518f87-9c44-4eac-9122-d615179c2347" />
+      <property role="3Fg1Gr" value="1991" />
+      <node concept="3Fnoml" id="4qxaCfUgPDm" role="3MKX6F">
+        <property role="1hTQn4" value="20d919ec-690d-44db-9c7c-0597867a8c01" />
+        <property role="3Fg1Gr" value="1992" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPDn" role="3MKX6F">
+          <property role="1hTQn4" value="52dc76f2-be45-44b5-9297-695a84a72e9f" />
+          <property role="3Fg1Gr" value="1993" />
+          <node concept="19SGf9" id="4qxaCfUgPDo" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPDp" role="19SJt6">
+              <property role="19SUeA" value="Onverminderd de artikelen 7, eerste lid, en 8, eerste lid, van de Coördinatiewet uitzonderingstoestanden kan, indien buitengewone omstandigheden dit noodzakelijk maken, bij koninklijk besluit, op voordracht van Onze Minister-President, aan Onze Minister van Financiën de bevoegdheid worden verleend om regels te stellen in afwijking van deze wet en de wetten, bedoeld in artikel 2.11, tweede lid." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPDr" role="3MKX6F">
+      <property role="1hTQn4" value="4a67768a-9dde-44a6-bdaf-9eb8b31b5b44" />
+      <property role="3Fg1Gr" value="1994" />
+      <node concept="3Fnoml" id="4qxaCfUgPDs" role="3MKX6F">
+        <property role="1hTQn4" value="a59152da-1b9b-4199-83ef-e2883d97d124" />
+        <property role="3Fg1Gr" value="1995" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPDt" role="3MKX6F">
+          <property role="1hTQn4" value="6a370b74-3da9-4ab8-9554-06c525d29dfb" />
+          <property role="3Fg1Gr" value="1996" />
+          <node concept="19SGf9" id="4qxaCfUgPDu" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPDv" role="19SJt6">
+              <property role="19SUeA" value="Wanneer het besluit, bedoeld in het eerste lid, is genomen, wordt onverwijld een voorstel van wet aan de Tweede Kamer der Staten-Generaal gezonden over het voortduren van de werking van de bij dat besluit in werking gestelde bepaling." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPDx" role="3MKX6F">
+      <property role="1hTQn4" value="770fee44-892b-4359-9160-9f66e4aee02f" />
+      <property role="3Fg1Gr" value="1997" />
+      <node concept="3Fnoml" id="4qxaCfUgPDy" role="3MKX6F">
+        <property role="1hTQn4" value="9d7aaf0e-d597-4001-8365-f7865fb6a00e" />
+        <property role="3Fg1Gr" value="1998" />
+        <property role="3Fnomm" value="3" />
+        <node concept="3MKX5i" id="4qxaCfUgPDz" role="3MKX6F">
+          <property role="1hTQn4" value="9af3b69f-8037-4c19-b888-742c849178b1" />
+          <property role="3Fg1Gr" value="1999" />
+          <node concept="19SGf9" id="4qxaCfUgPD$" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPD_" role="19SJt6">
+              <property role="19SUeA" value="Wordt het voorstel van wet door de Staten-Generaal verworpen, dan wordt bij koninklijk besluit, op voordracht van Onze Minister-President, de bepaling die ingevolge het eerste lid in werking is gesteld, onverwijld buiten werking gesteld." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPDB" role="3MKX6F">
+      <property role="1hTQn4" value="843604da-99c5-4180-8528-d64ede4d1346" />
+      <property role="3Fg1Gr" value="2000" />
+      <node concept="3Fnoml" id="4qxaCfUgPDC" role="3MKX6F">
+        <property role="1hTQn4" value="93b20e33-8178-4a07-a8f7-b939fbd2f0ac" />
+        <property role="3Fg1Gr" value="2001" />
+        <property role="3Fnomm" value="4" />
+        <node concept="3MKX5i" id="4qxaCfUgPDD" role="3MKX6F">
+          <property role="1hTQn4" value="00682d53-1bba-4725-bc07-926783faa344" />
+          <property role="3Fg1Gr" value="2002" />
+          <node concept="19SGf9" id="4qxaCfUgPDE" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPDF" role="19SJt6">
+              <property role="19SUeA" value="Bij koninklijk besluit, op voordracht van Onze Minister-President, wordt de bepaling die ingevolge het eerste lid in werking is gesteld, buiten werking gesteld, zodra de omstandigheden dit naar het oordeel van de regering toelaten." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPDH" role="3MKX6F">
+      <property role="1hTQn4" value="36f1d725-7ddc-4e0a-9918-087d9b284920" />
+      <property role="3Fg1Gr" value="2003" />
+      <node concept="3Fnoml" id="4qxaCfUgPDI" role="3MKX6F">
+        <property role="1hTQn4" value="c16bf867-f152-4095-8876-3a665ca9df3c" />
+        <property role="3Fg1Gr" value="2004" />
+        <property role="3Fnomm" value="5" />
+        <node concept="3MKX5i" id="4qxaCfUgPDJ" role="3MKX6F">
+          <property role="1hTQn4" value="828860a2-3f26-405a-aa4e-e5ca7354a82e" />
+          <property role="3Fg1Gr" value="2005" />
+          <node concept="19SGf9" id="4qxaCfUgPDK" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPDL" role="19SJt6">
+              <property role="19SUeA" value="Het besluit, bedoeld in het eerste, derde en vierde lid, wordt op de daarin te bepalen wijze bekendgemaakt. Het besluit treedt in werking terstond na de bekendmaking." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPDN" role="3MKX6F">
+      <property role="1hTQn4" value="9d3cc78f-57a2-4305-ae99-b99e11c087f9" />
+      <property role="3Fg1Gr" value="2006" />
+      <node concept="3Fnoml" id="4qxaCfUgPDO" role="3MKX6F">
+        <property role="1hTQn4" value="1c7017f8-4fa3-4185-8254-4cbe62148da9" />
+        <property role="3Fg1Gr" value="2007" />
+        <property role="3Fnomm" value="6" />
+        <node concept="3MKX5i" id="4qxaCfUgPDP" role="3MKX6F">
+          <property role="1hTQn4" value="0aba0344-ba44-4df3-a298-0466847e6f11" />
+          <property role="3Fg1Gr" value="2008" />
+          <node concept="19SGf9" id="4qxaCfUgPDQ" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPDR" role="19SJt6">
+              <property role="19SUeA" value="Het besluit, bedoeld in het eerste, derde en vierde lid, wordt in ieder geval geplaatst in het Staatsblad." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPDV">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="7120e729-8c38-4c20-b51b-dc57207bd953" />
+    <property role="3Fg1Gr" value="2011" />
+    <property role="TrG5h" value="Artikel 9.1 Wijziging Coördinatiewet uitzonderingstoestanden" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPDW" role="3MKX6F">
+      <property role="1hTQn4" value="d754ab04-659c-42ab-875c-df3dcc8a31fd" />
+      <property role="3Fg1Gr" value="2013" />
+      <node concept="3MKX5i" id="4qxaCfUgPDX" role="3MKX6F">
+        <property role="1hTQn4" value="6c8239f5-b892-4d49-92ce-d75f36c41f7e" />
+        <property role="3Fg1Gr" value="2014" />
+        <node concept="19SGf9" id="4qxaCfUgPDY" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPDZ" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Coördinatiewet uitzonderingstoestanden." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPE2">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="e3638162-e030-4d46-85e0-518f2c6b2d35" />
+    <property role="3Fg1Gr" value="2015" />
+    <property role="TrG5h" value="Artikel 9.2 Wijziging Financiële-verhoudingswet" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPE3" role="3MKX6F">
+      <property role="1hTQn4" value="1ba7943b-7903-4b56-b1d3-87235c472d53" />
+      <property role="3Fg1Gr" value="2017" />
+      <node concept="3MKX5i" id="4qxaCfUgPE4" role="3MKX6F">
+        <property role="1hTQn4" value="1e84e1f9-eed7-45a9-b009-b63d78ae49dd" />
+        <property role="3Fg1Gr" value="2018" />
+        <node concept="19SGf9" id="4qxaCfUgPE5" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPE6" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Financiële-verhoudingswet." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPE9">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="8c7f14c7-4859-4611-98be-284d72e420d3" />
+    <property role="3Fg1Gr" value="2019" />
+    <property role="TrG5h" value="Artikel 9.3 Wijziging Gezondheids- en welzijnswet voor dieren" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPEa" role="3MKX6F">
+      <property role="1hTQn4" value="97f61fac-1bab-49f9-b40d-72e4273ec5e2" />
+      <property role="3Fg1Gr" value="2021" />
+      <node concept="3MKX5i" id="4qxaCfUgPEb" role="3MKX6F">
+        <property role="1hTQn4" value="db253f0d-440b-4728-82f6-567b9219e80e" />
+        <property role="3Fg1Gr" value="2022" />
+        <node concept="19SGf9" id="4qxaCfUgPEc" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPEd" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Gezondheids- en welzijnswet voor dieren." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPEg">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="79b1f349-c80c-4bb0-aa89-3330bee1ddf5" />
+    <property role="3Fg1Gr" value="2023" />
+    <property role="TrG5h" value="Artikel 9.4 Wijziging Handelsregisterwet 2007" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPEh" role="3MKX6F">
+      <property role="1hTQn4" value="00999deb-18ec-4aad-bc92-e27392d385fc" />
+      <property role="3Fg1Gr" value="2025" />
+      <node concept="3MKX5i" id="4qxaCfUgPEi" role="3MKX6F">
+        <property role="1hTQn4" value="50d14796-4482-4d03-9221-973ea8fddd75" />
+        <property role="3Fg1Gr" value="2026" />
+        <node concept="19SGf9" id="4qxaCfUgPEj" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPEk" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Handelsregisterwet 2007." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPEn">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="2990ea6a-2871-4c5c-b534-b359ba457097" />
+    <property role="3Fg1Gr" value="2027" />
+    <property role="TrG5h" value="Artikel 9.5 Wijziging Kaderwet adviescolleges" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPEo" role="3MKX6F">
+      <property role="1hTQn4" value="79c797ea-500b-4f79-b288-cf747bc063a0" />
+      <property role="3Fg1Gr" value="2029" />
+      <node concept="3MKX5i" id="4qxaCfUgPEp" role="3MKX6F">
+        <property role="1hTQn4" value="1c703355-e930-4c7d-8500-06df636a8296" />
+        <property role="3Fg1Gr" value="2030" />
+        <node concept="19SGf9" id="4qxaCfUgPEq" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPEr" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Kaderwet adviescolleges." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPEu">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="6045b912-8de0-4c2b-b28b-c223e48ad2ab" />
+    <property role="3Fg1Gr" value="2031" />
+    <property role="TrG5h" value="Artikel 9.6 Wijziging Prijzennoodwet" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPEv" role="3MKX6F">
+      <property role="1hTQn4" value="56de5cca-fcf6-404f-a6b7-be68f23bf58f" />
+      <property role="3Fg1Gr" value="2033" />
+      <node concept="3MKX5i" id="4qxaCfUgPEw" role="3MKX6F">
+        <property role="1hTQn4" value="0c8bbd22-497b-409a-8b5f-6aba7107b34b" />
+        <property role="3Fg1Gr" value="2034" />
+        <node concept="19SGf9" id="4qxaCfUgPEx" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPEy" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Prijzennoodwet." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPE_">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="1a1e49fa-43e6-4a5d-b18d-c31e3d42bf19" />
+    <property role="3Fg1Gr" value="2035" />
+    <property role="TrG5h" value="Artikel 9.7 Wijziging Spoorwegwet" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPEA" role="3MKX6F">
+      <property role="1hTQn4" value="ea0f728c-a4a7-47f5-bde2-2310ca258648" />
+      <property role="3Fg1Gr" value="2037" />
+      <node concept="3MKX5i" id="4qxaCfUgPEB" role="3MKX6F">
+        <property role="1hTQn4" value="2d0f05f2-c1b4-470d-b7f6-15272dbc37b2" />
+        <property role="3Fg1Gr" value="2038" />
+        <node concept="19SGf9" id="4qxaCfUgPEC" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPED" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Spoorwegwet." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPEG">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="f8dba08f-43d5-4f5d-9cd5-aa4a3f74897a" />
+    <property role="3Fg1Gr" value="2039" />
+    <property role="TrG5h" value="Artikel 9.8 Wijziging Tijdelijke wet ambulancezorg" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPEH" role="3MKX6F">
+      <property role="1hTQn4" value="2cb5a71c-ea30-436a-8167-52b40e5e23d2" />
+      <property role="3Fg1Gr" value="2041" />
+      <node concept="3MKX5i" id="4qxaCfUgPEI" role="3MKX6F">
+        <property role="1hTQn4" value="6d62bbf4-f8a4-43f9-8306-9d44f1de74fa" />
+        <property role="3Fg1Gr" value="2042" />
+        <node concept="19SGf9" id="4qxaCfUgPEJ" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPEK" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Tijdelijke wet ambulancezorg." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPEN">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="a19b8e1c-f1d7-48ef-8396-5f877f92427a" />
+    <property role="3Fg1Gr" value="2043" />
+    <property role="TrG5h" value="Artikel 9.9 Wijziging Uitvoeringswet EGTS-verordening" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPEO" role="3MKX6F">
+      <property role="1hTQn4" value="461be39e-bef3-43d7-8d5c-6243361b23e8" />
+      <property role="3Fg1Gr" value="2045" />
+      <node concept="3MKX5i" id="4qxaCfUgPEP" role="3MKX6F">
+        <property role="1hTQn4" value="a8ff12cd-8d2c-4c17-9f04-5c5ea54663f8" />
+        <property role="3Fg1Gr" value="2046" />
+        <node concept="19SGf9" id="4qxaCfUgPEQ" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPER" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Uitvoeringswet EGTS-verordening." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPEU">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="ab64efaf-e09e-44c4-8918-cfaf1140d2f6" />
+    <property role="3Fg1Gr" value="2047" />
+    <property role="TrG5h" value="Artikel 9.10 Wijziging Waterwet" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPEV" role="3MKX6F">
+      <property role="1hTQn4" value="a4b9b0ca-4a9d-40d4-98ec-e9593bf078ad" />
+      <property role="3Fg1Gr" value="2049" />
+      <node concept="3MKX5i" id="4qxaCfUgPEW" role="3MKX6F">
+        <property role="1hTQn4" value="847e8305-a82c-485b-abc9-e3818f0bfd05" />
+        <property role="3Fg1Gr" value="2050" />
+        <node concept="19SGf9" id="4qxaCfUgPEX" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPEY" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Waterwet." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPF1">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="eaa3bde1-ab1f-43b9-a512-b9b7496bb9db" />
+    <property role="3Fg1Gr" value="2051" />
+    <property role="TrG5h" value="Artikel 9.11 Wijziging Woningwet" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPF2" role="3MKX6F">
+      <property role="1hTQn4" value="26320587-2162-406b-9cd6-31042e7aa8b7" />
+      <property role="3Fg1Gr" value="2053" />
+      <node concept="3MKX5i" id="4qxaCfUgPF3" role="3MKX6F">
+        <property role="1hTQn4" value="944e7928-bb7e-461f-afb2-e1273b42d2e9" />
+        <property role="3Fg1Gr" value="2054" />
+        <node concept="19SGf9" id="4qxaCfUgPF4" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPF5" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Woningwet." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPF8">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="cf7b6c23-01a2-4429-9b66-4756b2443474" />
+    <property role="3Fg1Gr" value="2055" />
+    <property role="TrG5h" value="Artikel 9.12 Wijziging Wet BDU verkeer en vervoer" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPF9" role="3MKX6F">
+      <property role="1hTQn4" value="0990911f-1915-423c-ade9-1151372454d0" />
+      <property role="3Fg1Gr" value="2057" />
+      <node concept="3MKX5i" id="4qxaCfUgPFa" role="3MKX6F">
+        <property role="1hTQn4" value="29c14213-b0f6-4d70-901b-d233602f0ba5" />
+        <property role="3Fg1Gr" value="2058" />
+        <node concept="19SGf9" id="4qxaCfUgPFb" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPFc" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Wet BDU verkeer en vervoer." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPFf">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="511fdd63-c037-4915-a20b-672f4600101f" />
+    <property role="3Fg1Gr" value="2059" />
+    <property role="TrG5h" value="Artikel 9.13 Wijziging Wet dieren" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPFg" role="3MKX6F">
+      <property role="1hTQn4" value="0f3a5234-15b8-4896-b928-747579c36578" />
+      <property role="3Fg1Gr" value="2061" />
+      <node concept="3MKX5i" id="4qxaCfUgPFh" role="3MKX6F">
+        <property role="1hTQn4" value="aa23a1e9-fb93-4002-a87c-a7e05a3c10b7" />
+        <property role="3Fg1Gr" value="2062" />
+        <node concept="19SGf9" id="4qxaCfUgPFi" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPFj" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Wet dieren." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPFm">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="dd17d31b-0efe-483f-9a47-ac72a25b4764" />
+    <property role="3Fg1Gr" value="2063" />
+    <property role="TrG5h" value="Artikel 9.14 Wijziging Wet financiën openbare lichamen Bonaire, Sint Eustatius en Saba" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPFn" role="3MKX6F">
+      <property role="1hTQn4" value="634fc02f-daab-4fa6-a139-0fda6b332997" />
+      <property role="3Fg1Gr" value="2065" />
+      <node concept="3MKX5i" id="4qxaCfUgPFo" role="3MKX6F">
+        <property role="1hTQn4" value="733409dc-2428-4aa9-bc6d-a682e1a97508" />
+        <property role="3Fg1Gr" value="2066" />
+        <node concept="19SGf9" id="4qxaCfUgPFp" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPFq" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Wet financiën openbare lichamen Bonaire, Sint Eustatius en Saba." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPFt">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="6d949bd6-452c-4558-a61f-75452d8727a2" />
+    <property role="3Fg1Gr" value="2067" />
+    <property role="TrG5h" value="Artikel 9.15 Wijziging Wet Fonds economische structuurversterking" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPFu" role="3MKX6F">
+      <property role="1hTQn4" value="52b62c5e-b2d4-46df-8c5a-262f3e170f6f" />
+      <property role="3Fg1Gr" value="2069" />
+      <node concept="3MKX5i" id="4qxaCfUgPFv" role="3MKX6F">
+        <property role="1hTQn4" value="776eee51-2f5a-4c15-b23c-a6f689af4de1" />
+        <property role="3Fg1Gr" value="2070" />
+        <node concept="19SGf9" id="4qxaCfUgPFw" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPFx" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Wet Fonds economische structuurversterking." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPF$">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="f166eef2-d494-4ff0-a87b-959fba5ae94c" />
+    <property role="3Fg1Gr" value="2071" />
+    <property role="TrG5h" value="Artikel 9.16 Wijziging Wet houdbare overheidsfinanciën" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPF_" role="3MKX6F">
+      <property role="1hTQn4" value="72e52847-a141-4d0b-811c-a2a09024bede" />
+      <property role="3Fg1Gr" value="2073" />
+      <node concept="3MKX5i" id="4qxaCfUgPFA" role="3MKX6F">
+        <property role="1hTQn4" value="8a5aba28-c383-4322-ad44-8b61ea291011" />
+        <property role="3Fg1Gr" value="2074" />
+        <node concept="19SGf9" id="4qxaCfUgPFB" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPFC" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Wet houdbare overheidsfinanciën." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPFF">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="827d2a04-9d1b-4e6a-883f-f2f32eb3fb1f" />
+    <property role="3Fg1Gr" value="2075" />
+    <property role="TrG5h" value="Artikel 9.17 Wijziging Wet Infrastructuurfonds" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPFG" role="3MKX6F">
+      <property role="1hTQn4" value="d81bc8ad-6a11-4ea1-9c27-8116e3c68a02" />
+      <property role="3Fg1Gr" value="2077" />
+      <node concept="3MKX5i" id="4qxaCfUgPFH" role="3MKX6F">
+        <property role="1hTQn4" value="905feeee-7df4-4365-b809-1037b4411041" />
+        <property role="3Fg1Gr" value="2078" />
+        <node concept="19SGf9" id="4qxaCfUgPFI" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPFJ" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Wet Infrastructuurfonds." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPFM">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="99970c4f-113a-4526-9444-f027d42489ca" />
+    <property role="3Fg1Gr" value="2079" />
+    <property role="TrG5h" value="Artikel 9.18 Wijziging Wet langdurige zorg" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPFN" role="3MKX6F">
+      <property role="1hTQn4" value="252e72d8-9ac6-4e65-890f-aa666e3b4f09" />
+      <property role="3Fg1Gr" value="2081" />
+      <node concept="3MKX5i" id="4qxaCfUgPFO" role="3MKX6F">
+        <property role="1hTQn4" value="d6a33b1b-f7fa-431a-9a70-ffbc86fa0433" />
+        <property role="3Fg1Gr" value="2082" />
+        <node concept="19SGf9" id="4qxaCfUgPFP" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPFQ" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Wet langdurige zorg." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPFT">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="f2547b6c-7790-42c0-b859-1ee30de0d801" />
+    <property role="3Fg1Gr" value="2083" />
+    <property role="TrG5h" value="Artikel 9.19 Wijziging Wet marktordening gezondheidszorg" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPFU" role="3MKX6F">
+      <property role="1hTQn4" value="cc29d595-160b-4530-9871-a1a77e530399" />
+      <property role="3Fg1Gr" value="2085" />
+      <node concept="3MKX5i" id="4qxaCfUgPFV" role="3MKX6F">
+        <property role="1hTQn4" value="58f6c024-a471-4e80-a457-006190864787" />
+        <property role="3Fg1Gr" value="2086" />
+        <node concept="19SGf9" id="4qxaCfUgPFW" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPFX" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Wet marktordening gezondheidszorg." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPG0">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="21924abe-7843-48b8-9789-5321ad29eeb1" />
+    <property role="3Fg1Gr" value="2087" />
+    <property role="TrG5h" value="Artikel 9.20 Wijziging Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPG1" role="3MKX6F">
+      <property role="1hTQn4" value="4d368efe-8e1b-49f7-ace9-2cf633d37f08" />
+      <property role="3Fg1Gr" value="2089" />
+      <node concept="3MKX5i" id="4qxaCfUgPG2" role="3MKX6F">
+        <property role="1hTQn4" value="2f5f89a3-750b-4107-a73c-c5dd3c1ec89a" />
+        <property role="3Fg1Gr" value="2090" />
+        <node concept="19SGf9" id="4qxaCfUgPG3" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPG4" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPG7">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="830dd056-0d91-43ee-bb5f-7d0a30935cca" />
+    <property role="3Fg1Gr" value="2091" />
+    <property role="TrG5h" value="Artikel 9.21 Wijziging Wet op het financieel toezicht" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPG8" role="3MKX6F">
+      <property role="1hTQn4" value="b4509e40-020f-49c8-bb1e-a170a52839d4" />
+      <property role="3Fg1Gr" value="2093" />
+      <node concept="3MKX5i" id="4qxaCfUgPG9" role="3MKX6F">
+        <property role="1hTQn4" value="5119e6b1-d8c2-4fc7-bbff-cb3f89ade1b0" />
+        <property role="3Fg1Gr" value="2094" />
+        <node concept="19SGf9" id="4qxaCfUgPGa" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPGb" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Wet op het financieel toezicht." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPGe">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="ea179a7e-90d2-47aa-82fe-dd6eb6b3c914" />
+    <property role="3Fg1Gr" value="2095" />
+    <property role="TrG5h" value="Artikel 9.22 Wijziging Wet op de inlichtingen- en veiligheidsdiensten 2002" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPGf" role="3MKX6F">
+      <property role="1hTQn4" value="1096d7d8-2ea4-449c-b03e-22d600abb050" />
+      <property role="3Fg1Gr" value="2097" />
+      <node concept="3MKX5i" id="4qxaCfUgPGg" role="3MKX6F">
+        <property role="1hTQn4" value="52f36398-f9a2-4350-8f12-0e244574a1b1" />
+        <property role="3Fg1Gr" value="2098" />
+        <node concept="19SGf9" id="4qxaCfUgPGh" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPGi" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Wet op de inlichtingen- en veiligheidsdiensten 2002." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPGl">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="235d7f82-87d8-4bdc-be88-e4cba316d5aa" />
+    <property role="3Fg1Gr" value="2099" />
+    <property role="TrG5h" value="Artikel 9.23 Wijziging Wet op de kansspelen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPGm" role="3MKX6F">
+      <property role="1hTQn4" value="f6d03351-f3fa-4be4-b1a0-cf9a8dd38b6d" />
+      <property role="3Fg1Gr" value="2101" />
+      <node concept="3MKX5i" id="4qxaCfUgPGn" role="3MKX6F">
+        <property role="1hTQn4" value="921b9b2c-0006-4f7b-a98e-e20c3a00f46d" />
+        <property role="3Fg1Gr" value="2102" />
+        <node concept="19SGf9" id="4qxaCfUgPGo" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPGp" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Wet op de kansspelen." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPGs">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="90e77ce5-8fdf-4340-863c-3d452f42428c" />
+    <property role="3Fg1Gr" value="2103" />
+    <property role="TrG5h" value="Artikel 9.24 Wijziging Wet op het LSOP en het politieonderwijs" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPGt" role="3MKX6F">
+      <property role="1hTQn4" value="dcb2b3bb-79e1-461c-9648-8557046dbd06" />
+      <property role="3Fg1Gr" value="2105" />
+      <node concept="3MKX5i" id="4qxaCfUgPGu" role="3MKX6F">
+        <property role="1hTQn4" value="de25bf2e-a412-4797-89e8-067e46de713d" />
+        <property role="3Fg1Gr" value="2106" />
+        <node concept="19SGf9" id="4qxaCfUgPGv" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPGw" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Wet op het LSOP en het politieonderwijs." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPGz">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="6fda548a-49ef-4d3a-8020-d05e7103c6d4" />
+    <property role="3Fg1Gr" value="2107" />
+    <property role="TrG5h" value="Artikel 9.25 Wijziging Wet op de parlementaire enquête 2008" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPG$" role="3MKX6F">
+      <property role="1hTQn4" value="44e58e67-6844-4dea-bbff-8dc24e8026bf" />
+      <property role="3Fg1Gr" value="2109" />
+      <node concept="3MKX5i" id="4qxaCfUgPG_" role="3MKX6F">
+        <property role="1hTQn4" value="12dc4fcd-a895-4d65-abdf-3503b278195e" />
+        <property role="3Fg1Gr" value="2110" />
+        <node concept="19SGf9" id="4qxaCfUgPGA" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPGB" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Wet op de parlementaire enquête 2008." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPGE">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="fa437809-92d9-48a1-bc98-95544c75a82a" />
+    <property role="3Fg1Gr" value="2111" />
+    <property role="TrG5h" value="Artikel 9.26 Wijziging Wet op de rechterlijke organisatie" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPGF" role="3MKX6F">
+      <property role="1hTQn4" value="faa36d4f-adea-46ed-ac2f-13d5f89a374c" />
+      <property role="3Fg1Gr" value="2113" />
+      <node concept="3MKX5i" id="4qxaCfUgPGG" role="3MKX6F">
+        <property role="1hTQn4" value="6774651e-279f-4468-ab94-b84f3bcceb30" />
+        <property role="3Fg1Gr" value="2114" />
+        <node concept="19SGf9" id="4qxaCfUgPGH" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPGI" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Wet op de rechterlijke organisatie." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPGL">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="aa3e190b-dc02-401b-bb6a-bdd1c1f519e3" />
+    <property role="3Fg1Gr" value="2115" />
+    <property role="TrG5h" value="Artikel 9.27 Wijziging Wet overheidspersoneel onder de werknemersverzekeringen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPGM" role="3MKX6F">
+      <property role="1hTQn4" value="63d23a58-d6b2-4599-896a-d34e5d09050e" />
+      <property role="3Fg1Gr" value="2117" />
+      <node concept="3MKX5i" id="4qxaCfUgPGN" role="3MKX6F">
+        <property role="1hTQn4" value="9d21e0f1-e19c-4806-abc3-49665030d3a6" />
+        <property role="3Fg1Gr" value="2118" />
+        <node concept="19SGf9" id="4qxaCfUgPGO" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPGP" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Wet overheidspersoneel onder de werknemersverzekeringen." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPGS">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="db9aa84e-b941-4e7d-b484-80c21cc2c1ac" />
+    <property role="3Fg1Gr" value="2119" />
+    <property role="TrG5h" value="Artikel 9.28 Wijziging Wet stichting administratiekantoor beheer financiële instellingen" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPGT" role="3MKX6F">
+      <property role="1hTQn4" value="d4bc4504-4bc4-4e81-8204-171985999cbe" />
+      <property role="3Fg1Gr" value="2121" />
+      <node concept="3MKX5i" id="4qxaCfUgPGU" role="3MKX6F">
+        <property role="1hTQn4" value="895d7673-f5a2-4ef0-800f-d1dd70bce83b" />
+        <property role="3Fg1Gr" value="2122" />
+        <node concept="19SGf9" id="4qxaCfUgPGV" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPGW" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Wet stichting administratiekantoor beheer financiële instellingen." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPGZ">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="afbce779-8ce8-4f5f-a709-cc5fb833c5b6" />
+    <property role="3Fg1Gr" value="2123" />
+    <property role="TrG5h" value="Artikel 9.29 Wijziging Wet toezicht accountantsorganisaties" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPH0" role="3MKX6F">
+      <property role="1hTQn4" value="c8cb0808-24f8-4c40-b0fd-0133c69cef94" />
+      <property role="3Fg1Gr" value="2125" />
+      <node concept="3MKX5i" id="4qxaCfUgPH1" role="3MKX6F">
+        <property role="1hTQn4" value="13d90ec2-5c95-4907-80a5-fbcac1fb8f2d" />
+        <property role="3Fg1Gr" value="2126" />
+        <node concept="19SGf9" id="4qxaCfUgPH2" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPH3" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Wet toezicht accountantsorganisaties." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPH6">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="2c758338-d575-444d-8f7e-0da9599fa30a" />
+    <property role="3Fg1Gr" value="2127" />
+    <property role="TrG5h" value="Artikel 9.30 Wijziging Zorgverzekeringswet" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPH7" role="3MKX6F">
+      <property role="1hTQn4" value="37ab8294-ea54-40c6-aab9-8d7d225af010" />
+      <property role="3Fg1Gr" value="2129" />
+      <node concept="3MKX5i" id="4qxaCfUgPH8" role="3MKX6F">
+        <property role="1hTQn4" value="c8dc7d99-5f97-490e-bac4-0b4085e33f72" />
+        <property role="3Fg1Gr" value="2130" />
+        <node concept="19SGf9" id="4qxaCfUgPH9" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPHa" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt de Zorgverzekeringswet." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPHf">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="1a805665-f8fa-4e9a-a288-39e027966b04" />
+    <property role="3Fg1Gr" value="2135" />
+    <property role="TrG5h" value="Artikel 10.1 Evaluatie" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPHg" role="3MKX6F">
+      <property role="1hTQn4" value="d750f7ff-d4ef-4c4b-b328-cf8988184389" />
+      <property role="3Fg1Gr" value="2137" />
+      <node concept="19SGf9" id="4qxaCfUgPHh" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPHi" role="19SJt6">
+          <property role="19SUeA" value="Onze Minister van Financiën zendt binnen vijf jaar na de inwerkingtreding van deze wet aan de Staten-Generaal een verslag over de effecten van deze wet in de praktijk." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPHm">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="20cc7609-987f-41c0-8d94-0c738402a796" />
+    <property role="3Fg1Gr" value="2140" />
+    <property role="TrG5h" value="Artikel 10.2 Overgangsrecht" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPHn" role="3MKX6F">
+      <property role="1hTQn4" value="c6ff013a-80a6-472a-9d04-d1c12814bbd9" />
+      <property role="3Fg1Gr" value="2142" />
+      <node concept="3Fnoml" id="4qxaCfUgPHo" role="3MKX6F">
+        <property role="1hTQn4" value="9c403a63-9fbc-4e87-a073-2364dc48e9f1" />
+        <property role="3Fg1Gr" value="2143" />
+        <property role="3Fnomm" value="1" />
+        <node concept="3MKX5i" id="4qxaCfUgPHp" role="3MKX6F">
+          <property role="1hTQn4" value="a8bf12e3-9186-46fb-a722-b469c44ff469" />
+          <property role="3Fg1Gr" value="2144" />
+          <node concept="19SGf9" id="4qxaCfUgPHq" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPHr" role="19SJt6">
+              <property role="19SUeA" value="De bepalingen van de Comptabiliteitswet 2001 en de daarop berustende bepalingen zoals deze golden voor de inwerkingtreding van deze wet blijven van toepassing op:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPHt" role="3MKX6F">
+          <property role="1hTQn4" value="c8ff90be-7639-4e41-92ed-971ac17ec805" />
+          <property role="3Fg1Gr" value="2145" />
+          <node concept="3MKX5h" id="4qxaCfUgPHu" role="3MKX6F">
+            <property role="1hTQn4" value="25253214-8bff-4d8f-8396-a50557f6dd5f" />
+            <property role="3Fg1Gr" value="2146" />
+            <node concept="3Fnoml" id="4qxaCfUgPHv" role="3MKX6F">
+              <property role="1hTQn4" value="221605c8-80b4-4f70-b7ee-65d1175503c0" />
+              <property role="3Fg1Gr" value="2147" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgPHw" role="3MKX6F">
+                <property role="1hTQn4" value="48dedf4e-7f4e-44b5-865c-4a3eaee30400" />
+                <property role="3Fg1Gr" value="2148" />
+                <node concept="19SGf9" id="4qxaCfUgPHx" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPHy" role="19SJt6">
+                    <property role="19SUeA" value="de begrotingen en de suppletoire begrotingen, jaarverslagen en rapporten die met deze begrotingen samenhangen, voor zover de begrotingen voor de inwerkingtreding van deze wet bij de Tweede Kamer der Staten-Generaal zijn ingediend;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPH$" role="3MKX6F">
+            <property role="1hTQn4" value="d763fbd0-d67d-4657-96b6-a346e850e6a8" />
+            <property role="3Fg1Gr" value="2149" />
+            <node concept="3Fnoml" id="4qxaCfUgPH_" role="3MKX6F">
+              <property role="1hTQn4" value="960c55f9-5f70-4784-bbe0-bde672d25d1d" />
+              <property role="3Fg1Gr" value="2150" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgPHA" role="3MKX6F">
+                <property role="1hTQn4" value="a45b30ca-7bab-46ee-bb8c-a7861ccab6b7" />
+                <property role="3Fg1Gr" value="2151" />
+                <node concept="19SGf9" id="4qxaCfUgPHB" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPHC" role="19SJt6">
+                    <property role="19SUeA" value="de besluiten betreffende de aanwijzing als baten-lastenagentschap of verplichtingen-kasagentschap, bedoeld in de artikelen 10 en 11a van de Comptabiliteitswet 2001, voor zover de besluiten voor de inwerkingtreding van deze wet zijn genomen;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPHE" role="3MKX6F">
+            <property role="1hTQn4" value="c9105b23-98b9-48a3-82d8-06abaaa79430" />
+            <property role="3Fg1Gr" value="2152" />
+            <node concept="3Fnoml" id="4qxaCfUgPHF" role="3MKX6F">
+              <property role="1hTQn4" value="978f7540-c4ea-40af-86e8-a1f55daad9cc" />
+              <property role="3Fg1Gr" value="2153" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgPHG" role="3MKX6F">
+                <property role="1hTQn4" value="681d802b-0d99-49fa-a928-7c21ed0bd0f1" />
+                <property role="3Fg1Gr" value="2154" />
+                <node concept="19SGf9" id="4qxaCfUgPHH" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPHI" role="19SJt6">
+                    <property role="19SUeA" value="de besluiten betreffende de aanwijzing tot het aanhouden van liquide middelen in de schatkist van het Rijk of het uitzetten van liquide middelen, bedoeld in de artikelen 24, zesde lid, en 45 van de Comptabiliteitswet 2001, voor zover de besluiten voor de inwerkingtreding van deze wet zijn genomen;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPHK" role="3MKX6F">
+            <property role="1hTQn4" value="280333ed-fdd2-46ff-953a-bae9ce3bea35" />
+            <property role="3Fg1Gr" value="2155" />
+            <node concept="3Fnoml" id="4qxaCfUgPHL" role="3MKX6F">
+              <property role="1hTQn4" value="ec1115e8-610e-407e-bdb7-3cbf4fea0749" />
+              <property role="3Fg1Gr" value="2156" />
+              <property role="3Fnomm" value="d." />
+              <node concept="3MKX5i" id="4qxaCfUgPHM" role="3MKX6F">
+                <property role="1hTQn4" value="157f4e1e-326b-47d8-88fa-10aa74b12b57" />
+                <property role="3Fg1Gr" value="2157" />
+                <node concept="19SGf9" id="4qxaCfUgPHN" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPHO" role="19SJt6">
+                    <property role="19SUeA" value="de privaatrechtelijke rechtshandelingen, bedoeld in de artikelen 32, 34 en 34a van de Comptabiliteitswet 2001, voor zover de rechtshandelingen voor de inwerkingtreding van deze wet zijn verricht;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPHQ" role="3MKX6F">
+            <property role="1hTQn4" value="c0be98f6-a705-4dc7-8734-ee1cbf70707a" />
+            <property role="3Fg1Gr" value="2158" />
+            <node concept="3Fnoml" id="4qxaCfUgPHR" role="3MKX6F">
+              <property role="1hTQn4" value="146440fc-687f-4582-ab5b-42f0852aa200" />
+              <property role="3Fg1Gr" value="2159" />
+              <property role="3Fnomm" value="e." />
+              <node concept="3MKX5i" id="4qxaCfUgPHS" role="3MKX6F">
+                <property role="1hTQn4" value="b7395fb5-de58-43b9-849a-9d716c555c26" />
+                <property role="3Fg1Gr" value="2160" />
+                <node concept="19SGf9" id="4qxaCfUgPHT" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPHU" role="19SJt6">
+                    <property role="19SUeA" value="de bevoegdheden van de Algemene Rekenkamer, bedoeld in hoofdstuk VII van de Comptabiliteitswet 2001, voor zover de bevoegdheden voor de inwerkingtreding van deze wet zijn toegepast." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPHW" role="3MKX6F">
+      <property role="1hTQn4" value="0937544d-50ef-4fe2-80eb-659b850ed4ba" />
+      <property role="3Fg1Gr" value="2161" />
+      <node concept="3Fnoml" id="4qxaCfUgPHX" role="3MKX6F">
+        <property role="1hTQn4" value="574a285a-f6c9-447e-be58-8b737c9249d1" />
+        <property role="3Fg1Gr" value="2162" />
+        <property role="3Fnomm" value="2" />
+        <node concept="3MKX5i" id="4qxaCfUgPHY" role="3MKX6F">
+          <property role="1hTQn4" value="b4dbd6e7-2b52-4461-ba06-c9abc92bb7f6" />
+          <property role="3Fg1Gr" value="2163" />
+          <node concept="19SGf9" id="4qxaCfUgPHZ" role="3MLR7a">
+            <node concept="19SUe$" id="4qxaCfUgPI0" role="19SJt6">
+              <property role="19SUeA" value="De bepalingen van deze wet zijn niet van toepassing op:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MKX5h" id="4qxaCfUgPI2" role="3MKX6F">
+          <property role="1hTQn4" value="ac26aae6-b121-45f0-96c0-fad1fab20730" />
+          <property role="3Fg1Gr" value="2164" />
+          <node concept="3MKX5h" id="4qxaCfUgPI3" role="3MKX6F">
+            <property role="1hTQn4" value="fabb0089-8fe4-439d-b2c4-eab0442a2727" />
+            <property role="3Fg1Gr" value="2165" />
+            <node concept="3Fnoml" id="4qxaCfUgPI4" role="3MKX6F">
+              <property role="1hTQn4" value="94d970fd-f769-443c-9956-6be0dbc12152" />
+              <property role="3Fg1Gr" value="2166" />
+              <property role="3Fnomm" value="a." />
+              <node concept="3MKX5i" id="4qxaCfUgPI5" role="3MKX6F">
+                <property role="1hTQn4" value="5415328e-fee8-43c1-b04c-b1a3c503d897" />
+                <property role="3Fg1Gr" value="2167" />
+                <node concept="19SGf9" id="4qxaCfUgPI6" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPI7" role="19SJt6">
+                    <property role="19SUeA" value="de begrotingen en de suppletoire begrotingen, jaarverslagen en rapporten die met deze begrotingen samenhangen, voor zover de begrotingen voor de inwerkingtreding van deze wet bij de Tweede Kamer der Staten-Generaal zijn ingediend;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPI9" role="3MKX6F">
+            <property role="1hTQn4" value="5211f503-6f46-4dbc-b975-ce55330638a8" />
+            <property role="3Fg1Gr" value="2168" />
+            <node concept="3Fnoml" id="4qxaCfUgPIa" role="3MKX6F">
+              <property role="1hTQn4" value="a5da00b0-4fd5-44a1-a30d-7d59c6016a86" />
+              <property role="3Fg1Gr" value="2169" />
+              <property role="3Fnomm" value="b." />
+              <node concept="3MKX5i" id="4qxaCfUgPIb" role="3MKX6F">
+                <property role="1hTQn4" value="aa3da54b-7f2a-4442-9dce-0913750f5988" />
+                <property role="3Fg1Gr" value="2170" />
+                <node concept="19SGf9" id="4qxaCfUgPIc" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPId" role="19SJt6">
+                    <property role="19SUeA" value="de privaatrechtelijke rechtshandelingen, bedoeld in de artikelen 32, 34 en 34a van de Comptabiliteitswet 2001, voor zover de rechtshandelingen voor de inwerkingtreding van deze wet zijn verricht;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="4qxaCfUgPIf" role="3MKX6F">
+            <property role="1hTQn4" value="33416367-84a8-4b6f-9922-f65c0f0ff194" />
+            <property role="3Fg1Gr" value="2171" />
+            <node concept="3Fnoml" id="4qxaCfUgPIg" role="3MKX6F">
+              <property role="1hTQn4" value="13a669de-27ea-4615-bb49-70a13d29d557" />
+              <property role="3Fg1Gr" value="2172" />
+              <property role="3Fnomm" value="c." />
+              <node concept="3MKX5i" id="4qxaCfUgPIh" role="3MKX6F">
+                <property role="1hTQn4" value="87ca2f6c-7220-47dd-9ffa-ba75c097a20d" />
+                <property role="3Fg1Gr" value="2173" />
+                <node concept="19SGf9" id="4qxaCfUgPIi" role="3MLR7a">
+                  <node concept="19SUe$" id="4qxaCfUgPIj" role="19SJt6">
+                    <property role="19SUeA" value="de bevoegdheden van de Algemene Rekenkamer, bedoeld in hoofdstuk VII van de Comptabiliteitswet 2001, voor zover de bevoegdheden voor de inwerkingtreding van deze wet zijn toegepast." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPIm">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="ea95ee40-57d3-40fc-9fad-bc4a877983e4" />
+    <property role="3Fg1Gr" value="2174" />
+    <property role="TrG5h" value="Artikel 10.3 Grondslag besluiten" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPIn" role="3MKX6F">
+      <property role="1hTQn4" value="5f4e1207-0548-41f0-8fca-ff766d8cc764" />
+      <property role="3Fg1Gr" value="2176" />
+      <node concept="19SGf9" id="4qxaCfUgPIo" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPIp" role="19SJt6">
+          <property role="19SUeA" value="Met de inwerkingtreding van deze wet berusten:" />
+        </node>
+      </node>
+    </node>
+    <node concept="3MKX5h" id="4qxaCfUgPIr" role="3MKX6F">
+      <property role="1hTQn4" value="2c36f9c9-ca8e-4465-b012-c6c9fdd9a170" />
+      <property role="3Fg1Gr" value="2177" />
+      <node concept="3MKX5h" id="4qxaCfUgPIs" role="3MKX6F">
+        <property role="1hTQn4" value="1ed711bb-b2f9-41c1-bf12-21cb270b74c7" />
+        <property role="3Fg1Gr" value="2178" />
+        <node concept="3Fnoml" id="4qxaCfUgPIt" role="3MKX6F">
+          <property role="1hTQn4" value="686efa92-9b15-48be-b0e1-1596e3afbdb9" />
+          <property role="3Fg1Gr" value="2179" />
+          <property role="3Fnomm" value="a." />
+          <node concept="3MKX5i" id="4qxaCfUgPIu" role="3MKX6F">
+            <property role="1hTQn4" value="20391167-7e8e-437d-b050-3b2bd461308b" />
+            <property role="3Fg1Gr" value="2180" />
+            <node concept="19SGf9" id="4qxaCfUgPIv" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgPIw" role="19SJt6">
+                <property role="19SUeA" value="de besluiten betreffende de aanwijzing als baten-lastenagentschap of verplichtingen-kasagentschap, bedoeld in de artikelen 10 en 11a van de Comptabiliteitswet 2001, mede op artikel 2.20 van deze wet;" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3MKX5h" id="4qxaCfUgPIy" role="3MKX6F">
+        <property role="1hTQn4" value="b528c4f9-901f-4bc0-a98d-42aed16452b0" />
+        <property role="3Fg1Gr" value="2181" />
+        <node concept="3Fnoml" id="4qxaCfUgPIz" role="3MKX6F">
+          <property role="1hTQn4" value="768f50a0-cc79-4293-856d-fba1f8afd9fd" />
+          <property role="3Fg1Gr" value="2182" />
+          <property role="3Fnomm" value="b." />
+          <node concept="3MKX5i" id="4qxaCfUgPI$" role="3MKX6F">
+            <property role="1hTQn4" value="635014b5-fb46-42b1-a953-6cf95d5b6728" />
+            <property role="3Fg1Gr" value="2183" />
+            <node concept="19SGf9" id="4qxaCfUgPI_" role="3MLR7a">
+              <node concept="19SUe$" id="4qxaCfUgPIA" role="19SJt6">
+                <property role="19SUeA" value="de besluiten betreffende de aanwijzing tot het aanhouden van liquide middelen in de schatkist van het Rijk of het uitzetten van liquide middelen, bedoeld in de artikelen 24, zesde lid, en 45 van de Comptabiliteitswet 2001, mede op de artikelen 5.2 tot en met 5.4 en 5.7 van deze wet." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPID">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="29b72fc6-a769-443d-8b34-5490c253b167" />
+    <property role="3Fg1Gr" value="2184" />
+    <property role="TrG5h" value="Artikel 10.4 Samenloop" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5h" id="4qxaCfUgPIE" role="3MKX6F">
+      <property role="1hTQn4" value="55cd4357-e4af-4e44-babf-9470538de4ef" />
+      <property role="3Fg1Gr" value="2186" />
+      <node concept="3MKX5i" id="4qxaCfUgPIF" role="3MKX6F">
+        <property role="1hTQn4" value="f8e9592a-83c6-4c0e-a392-c7c0b0c2a48f" />
+        <property role="3Fg1Gr" value="2187" />
+        <node concept="19SGf9" id="4qxaCfUgPIG" role="3MLR7a">
+          <node concept="19SUe$" id="4qxaCfUgPIH" role="19SJt6">
+            <property role="19SUeA" value="Wijzigt deze wet." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPIL">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="7dd55bd7-478d-4fe3-b051-15fafd50fabf" />
+    <property role="3Fg1Gr" value="2190" />
+    <property role="TrG5h" value="Artikel 10.5 Toepasselijkheid Bonaire, Sint Eustatius en Saba" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPIM" role="3MKX6F">
+      <property role="1hTQn4" value="7eb0e897-0e88-4bb0-8cec-edd24b13c756" />
+      <property role="3Fg1Gr" value="2192" />
+      <node concept="19SGf9" id="4qxaCfUgPIN" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPIO" role="19SJt6">
+          <property role="19SUeA" value="De bevoegdheden waarin deze wet voorziet, kunnen mede worden uitgeoefend in de openbare lichamen Bonaire, Sint Eustatius en Saba." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPIS">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="1f066bcf-eff6-4b8f-beaf-2b879edf05a8" />
+    <property role="3Fg1Gr" value="2195" />
+    <property role="TrG5h" value="Artikel 10.6 Intrekking Comptabiliteitswet 2001" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPIT" role="3MKX6F">
+      <property role="1hTQn4" value="1969f5d6-1359-4dcc-96a8-d368c3e56f3a" />
+      <property role="3Fg1Gr" value="2197" />
+      <node concept="19SGf9" id="4qxaCfUgPIU" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPIV" role="19SJt6">
+          <property role="19SUeA" value="De Comptabiliteitswet 2001 wordt ingetrokken." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPIY">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="a92744c9-b68b-4186-b686-d036437e00eb" />
+    <property role="3Fg1Gr" value="2198" />
+    <property role="TrG5h" value="Artikel 10.7 Inwerkingtreding" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPIZ" role="3MKX6F">
+      <property role="1hTQn4" value="44bf9780-90a6-421f-b401-1b13a7d38f14" />
+      <property role="3Fg1Gr" value="2200" />
+      <node concept="19SGf9" id="4qxaCfUgPJ0" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPJ1" role="19SJt6">
+          <property role="19SUeA" value="Deze wet treedt in werking op een bij koninklijk besluit te bepalen tijdstip." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="4qxaCfUgPJ4">
+    <property role="3GE5qa" value="containers" />
+    <property role="1hTQn4" value="b1bd0c39-ad98-4745-94c7-7496628e3eaf" />
+    <property role="3Fg1Gr" value="2201" />
+    <property role="TrG5h" value="Artikel 10.8 Citeertitel" />
+    <ref role="dW5wK" node="3xmueRu_ief" resolve="01-01-2020 t/m 14-09-2020" />
+    <node concept="3MKX5i" id="4qxaCfUgPJ5" role="3MKX6F">
+      <property role="1hTQn4" value="58a460e9-ec15-412f-9ecc-9c6f837af7c5" />
+      <property role="3Fg1Gr" value="2203" />
+      <node concept="19SGf9" id="4qxaCfUgPJ6" role="3MLR7a">
+        <node concept="19SUe$" id="4qxaCfUgPJ7" role="19SJt6">
+          <property role="19SUeA" value="Deze wet wordt aangehaald als: Comptabiliteitswet 2016." />
         </node>
       </node>
     </node>
