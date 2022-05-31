@@ -10,6 +10,7 @@
   "claimant": "eiser",
   "create": "maak",
   "terminate": "beindig",
+  "enforce": "handhaven",
   "dutyComponents": "taak-onderdelen",
   "explanation": "uitleg",
   "actor": "actie-ondernemer",
@@ -23,5 +24,10 @@
   "findLineInSource": "Vind lijn in Bron",
   "validFrom": "geldig vanaf",
   "validTo": "geldig tot",
-  "tags": "labels"
+  "tags": "labels",
+  "version": "versie",
+  "verified": "geverifieerd",
+  "validated": "gevalideerd",
+  "publicized": "gepubliceerd",
+  "selectVersion": "selecteer versie"
 }

@@ -21,6 +21,7 @@ data class Language(
     val claimant: String,
     val create: String,
     val terminate: String,
+    val enforce: String,
     val dutyComponents: String,
     val explanation: String,
     val actor: String,
@@ -35,6 +36,11 @@ data class Language(
     val validFrom: String,
     val validTo: String,
     val tags: String,
+    val version: String,
+    val verified: String,
+    val validated: String,
+    val publicized: String,
+    val selectVersion: String
 )
 
 data class Act(

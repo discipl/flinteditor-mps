@@ -77,6 +77,12 @@
         <property id="3970102152660876449" name="replace" index="2$htTY" />
         <property id="3970102152660876448" name="pattern" index="2$htTZ" />
       </concept>
+      <concept id="927724900262033858" name="jetbrains.mps.build.structure.BuildSource_JavaOptions" flags="ng" index="2_Ic$z">
+        <property id="927724900262033861" name="generateDebugInfo" index="2_Ic$$" />
+        <property id="927724900262033862" name="copyResources" index="2_Ic$B" />
+        <property id="6998860900671147996" name="javaLevel" index="TZNOO" />
+        <child id="927724900262033863" name="resourceSelectors" index="2_Ic$A" />
+      </concept>
       <concept id="2750015747481074431" name="jetbrains.mps.build.structure.BuildLayout_Files" flags="ng" index="2HvfSZ">
         <child id="2750015747481074432" name="path" index="2HvfZ0" />
         <child id="2750015747481074433" name="parameters" index="2HvfZ1" />
@@ -1312,7 +1318,7 @@
       <node concept="aVJcg" id="elgu9R90ia" role="aVJcv">
         <node concept="NbPM2" id="elgu9R90i9" role="aVJcq">
           <node concept="3Mxwew" id="elgu9R90i8" role="3MwsjC">
-            <property role="3MwjfP" value="5" />
+            <property role="3MwjfP" value="6" />
           </node>
         </node>
       </node>
@@ -1322,7 +1328,7 @@
       <node concept="aVJcg" id="7ua6Tt2QOlx" role="aVJcv">
         <node concept="NbPM2" id="7ua6Tt2QOlw" role="aVJcq">
           <node concept="3Mxwew" id="7ua6Tt2QOlv" role="3MwsjC">
-            <property role="3MwjfP" value="13" />
+            <property role="3MwjfP" value="1" />
           </node>
         </node>
       </node>
@@ -2985,6 +2991,26 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="5RoGIH2Qmc1" role="3bR37C">
+          <node concept="1BurEX" id="5RoGIH2Qmc2" role="1SiIV1">
+            <node concept="398BVA" id="5RoGIH2QmbE" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="5RoGIH2QmbF" role="iGT6I">
+                <property role="2Ry0Am" value="jcl-over-slf4j.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5RoGIH2Qmnz" role="3bR37C">
+          <node concept="1BurEX" id="5RoGIH2Qmn$" role="1SiIV1">
+            <node concept="398BVA" id="5RoGIH2Qmnc" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="5RoGIH2Qmnd" role="iGT6I">
+                <property role="2Ry0Am" value="slf4j-api.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="e8hxMw1VLZ" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -3226,11 +3252,6 @@
             <ref role="3bR37D" to="al5i:5A_Zlt6CRir" resolve="com.mbeddr.mpsutil.hyperlink" />
           </node>
         </node>
-        <node concept="1SiIV0" id="6onvLJoJXSQ" role="3bR37C">
-          <node concept="3bR9La" id="6onvLJoJXSR" role="1SiIV1">
-            <ref role="3bR37D" to="90a9:1sO539bGQvB" resolve="de.slisson.mps.richtext" />
-          </node>
-        </node>
         <node concept="1BupzO" id="6onvLJoJXT9" role="3bR31x">
           <property role="3ZfqAx" value="models" />
           <property role="1Hdu6h" value="true" />
@@ -3310,6 +3331,16 @@
             <node concept="3qWCbU" id="6LQ$bpXJ5_Q" role="3LXTna">
               <property role="3qWCbO" value="icons/**, resources/**" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5Erquho8TJP" role="3bR37C">
+          <node concept="3bR9La" id="5Erquho8TJQ" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:ymnOULAU0H" resolve="jetbrains.mps.lang.test" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5RoGIH36cv9" role="3bR37C">
+          <node concept="1Busua" id="5RoGIH36cva" role="1SiIV1">
+            <ref role="1Busuk" to="90a9:1sO539bGQvB" resolve="de.slisson.mps.richtext" />
           </node>
         </node>
       </node>
@@ -3781,6 +3812,11 @@
             <ref role="3bR37D" node="6onvLJoJVY2" resolve="LawSource" />
           </node>
         </node>
+        <node concept="1SiIV0" id="7VfJsRdiuca" role="3bR37C">
+          <node concept="3bR9La" id="7VfJsRdiucb" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="6rq68Pzto1y" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -3914,6 +3950,14 @@
       </node>
       <node concept="m$_yC" id="6rq68Pzttqp" role="m$_yJ">
         <ref role="m$_y1" node="2WP7dhE1erk" resolve="Flint" />
+      </node>
+    </node>
+    <node concept="2_Ic$z" id="5x42vIMWGU7" role="3989C9">
+      <property role="2_Ic$$" value="true" />
+      <property role="2_Ic$B" value="true" />
+      <property role="TZNOO" value="11" />
+      <node concept="3LWZYx" id="5x42vIMWHDz" role="2_Ic$A">
+        <property role="3LWZYw" value="**/*.png" />
       </node>
     </node>
   </node>

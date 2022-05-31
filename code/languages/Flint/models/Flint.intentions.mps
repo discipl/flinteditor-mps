@@ -105,6 +105,7 @@
         <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
+        <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
@@ -123,6 +124,10 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1206060495898" name="jetbrains.mps.baseLanguage.structure.ElsifClause" flags="ng" index="3eNFk2">
+        <child id="1206060619838" name="condition" index="3eO9$A" />
+        <child id="1206060644605" name="statementList" index="3eOfB_" />
+      </concept>
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
@@ -3262,6 +3267,93 @@
                     </node>
                     <node concept="3TrEf2" id="7uwsO$tew4S" role="2OqNvi">
                       <ref role="3Tt5mk" to="lnwe:4aWSgWx472D" resolve="operand" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="2NiZaFWujoX" role="3eNLev">
+            <node concept="2OqwBi" id="2NiZaFWEULr" role="3eO9$A">
+              <node concept="2OqwBi" id="2NiZaFWum8X" role="2Oq$k0">
+                <node concept="2Sf5sV" id="2NiZaFWulYp" role="2Oq$k0" />
+                <node concept="1mfA1w" id="2NiZaFWumkr" role="2OqNvi" />
+              </node>
+              <node concept="1mIQ4w" id="2NiZaFWEUUB" role="2OqNvi">
+                <node concept="chp4Y" id="2NiZaFWEUXW" role="cj9EA">
+                  <ref role="cht4Q" to="lnwe:woTyy$Etl9" resolve="IHasResolvableRoot" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2NiZaFWujoZ" role="3eOfB_">
+              <node concept="3SKdUt" id="2NiZaFWFpMQ" role="3cqZAp">
+                <node concept="1PaTwC" id="2NiZaFWFpMR" role="1aUNEU">
+                  <node concept="3oM_SD" id="2NiZaFWFKWB" role="1PaTwD">
+                    <property role="3oM_SC" value="Node" />
+                  </node>
+                  <node concept="3oM_SD" id="2NiZaFWFKWY" role="1PaTwD">
+                    <property role="3oM_SC" value="is" />
+                  </node>
+                  <node concept="3oM_SD" id="2NiZaFWFKX2" role="1PaTwD">
+                    <property role="3oM_SC" value="root" />
+                  </node>
+                  <node concept="3oM_SD" id="2NiZaFWFKXh" role="1PaTwD">
+                    <property role="3oM_SC" value="resolveable" />
+                  </node>
+                  <node concept="3oM_SD" id="2NiZaFWFKY9" role="1PaTwD">
+                    <property role="3oM_SC" value="and" />
+                  </node>
+                  <node concept="3oM_SD" id="2NiZaFWFKYg" role="1PaTwD">
+                    <property role="3oM_SC" value="has" />
+                  </node>
+                  <node concept="3oM_SD" id="2NiZaFWFKYo" role="1PaTwD">
+                    <property role="3oM_SC" value="only" />
+                  </node>
+                  <node concept="3oM_SD" id="2NiZaFWFKYF" role="1PaTwD">
+                    <property role="3oM_SC" value="one" />
+                  </node>
+                  <node concept="3oM_SD" id="2NiZaFWFKYP" role="1PaTwD">
+                    <property role="3oM_SC" value="expression" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs8" id="2NiZaFWFL2q" role="3cqZAp">
+                <node concept="3cpWsn" id="2NiZaFWFL2r" role="3cpWs9">
+                  <property role="TrG5h" value="childOfRoot" />
+                  <node concept="3Tqbb2" id="2NiZaFWFKOF" role="1tU5fm">
+                    <ref role="ehGHo" to="lnwe:4OBWPp15Tuc" resolve="Resolvable" />
+                  </node>
+                  <node concept="2OqwBi" id="2NiZaFWFL2s" role="33vP2m">
+                    <node concept="2OqwBi" id="2NiZaFWFL2t" role="2Oq$k0">
+                      <node concept="1PxgMI" id="2NiZaFWFL2u" role="2Oq$k0">
+                        <node concept="chp4Y" id="2NiZaFWFL2v" role="3oSUPX">
+                          <ref role="cht4Q" to="lnwe:4NVq1WbrY6z" resolve="IHasResolvable" />
+                        </node>
+                        <node concept="2Sf5sV" id="2NiZaFWFL2w" role="1m5AlR" />
+                      </node>
+                      <node concept="2qgKlT" id="2NiZaFWFL2x" role="2OqNvi">
+                        <ref role="37wK5l" to="3lmi:woTyy$EzaS" resolve="getResolvables" />
+                      </node>
+                    </node>
+                    <node concept="1uHKPH" id="2NiZaFWFL2y" role="2OqNvi" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="2NiZaFWFu2W" role="3cqZAp">
+                <node concept="2OqwBi" id="2NiZaFWFvXx" role="3clFbG">
+                  <node concept="1PxgMI" id="2NiZaFWFvMp" role="2Oq$k0">
+                    <node concept="chp4Y" id="2NiZaFWFvNo" role="3oSUPX">
+                      <ref role="cht4Q" to="lnwe:woTyy$Etl9" resolve="IHasResolvableRoot" />
+                    </node>
+                    <node concept="2OqwBi" id="2NiZaFWFub$" role="1m5AlR">
+                      <node concept="2Sf5sV" id="2NiZaFWFu2V" role="2Oq$k0" />
+                      <node concept="1mfA1w" id="2NiZaFWFvD6" role="2OqNvi" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="2NiZaFWFLvz" role="2OqNvi">
+                    <ref role="37wK5l" to="3lmi:woTyy$Eujv" resolve="addOrSetResolvable" />
+                    <node concept="37vLTw" id="2NiZaFWFL_o" role="37wK5m">
+                      <ref role="3cqZAo" node="2NiZaFWFL2r" resolve="childOfRoot" />
                     </node>
                   </node>
                 </node>

@@ -29,6 +29,7 @@
       <sourceRoot location="jackson-core.jar"/>
       <sourceRoot location="jackson-databind.jar"/>
       <sourceRoot location="javax.annotation-api.jar"/>
+      <sourceRoot location="jcl-over-slf4j.jar"/>
       <sourceRoot location="jena-arq.jar"/>
       <sourceRoot location="jena-base.jar"/>
       <sourceRoot location="jena-core.jar"/>
@@ -60,6 +61,7 @@
       <sourceRoot location="ktor-websocket-serialization-jvm.jar"/>
       <sourceRoot location="ktor-websockets-jvm.jar"/>
       <sourceRoot location="libthrift.jar"/>
+      <sourceRoot location="slf4j-api.jar"/>
     </modelRoot> 
   </models>  
   <facets> 
@@ -91,6 +93,7 @@
     <stubModelEntry path="${module}/libs/jackson-core.jar"/>
     <stubModelEntry path="${module}/libs/jackson-databind.jar"/>
     <stubModelEntry path="${module}/libs/javax.annotation-api.jar"/>
+    <stubModelEntry path="${module}/libs/jcl-over-slf4j.jar"/>
     <stubModelEntry path="${module}/libs/jena-arq.jar"/>
     <stubModelEntry path="${module}/libs/jena-base.jar"/>
     <stubModelEntry path="${module}/libs/jena-core.jar"/>
@@ -122,6 +125,7 @@
     <stubModelEntry path="${module}/libs/ktor-websocket-serialization-jvm.jar"/>
     <stubModelEntry path="${module}/libs/ktor-websockets-jvm.jar"/>
     <stubModelEntry path="${module}/libs/libthrift.jar"/>
+    <stubModelEntry path="${module}/libs/slf4j-api.jar"/>
   </stubModelEntries>  
   <sourcePath/>  
   <dependencies> 
