@@ -28,6 +28,8 @@
     <import index="tj7y" ref="04e1f940-330e-483b-9a6a-1648b396a81c/r:db2c041e-54bd-4fbb-9087-056c7a8ef247(com.mbeddr.mpsutil.hyperlink/com.mbeddr.mpsutil.hyperlink.editor)" />
     <import index="23h6" ref="r:7141fd54-a831-41ba-8753-74008b0b9af4(de.slisson.mps.richtext.editor)" />
     <import index="87nw" ref="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" />
+    <import index="g51k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cells(MPS.Editor/)" />
+    <import index="6lvu" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cellMenu(MPS.Editor/)" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -189,7 +191,12 @@
       <concept id="9122903797312246523" name="jetbrains.mps.lang.editor.structure.StyleReference" flags="ng" index="1wgc9g">
         <reference id="9122903797312247166" name="style" index="1wgcnl" />
       </concept>
+      <concept id="1075375595203" name="jetbrains.mps.lang.editor.structure.CellModel_Error" flags="sg" stub="8104358048506729356" index="1xolST">
+        <property id="1075375595204" name="text" index="1xolSY" />
+      </concept>
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1214560368769" name="emptyNoTargetText" index="39s7Ar" />
+        <property id="1139852716018" name="noTargetText" index="1$x2rV" />
         <property id="1140017977771" name="readOnly" index="1Intyy" />
         <property id="1140114345053" name="allowEmptyText" index="1O74Pk" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
@@ -216,7 +223,10 @@
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
-      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
+      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY">
+        <property id="16410578721444372" name="customizeEmptyCell" index="2ru_X1" />
+        <child id="16410578721629643" name="emptyCellModel" index="2ruayu" />
+      </concept>
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR">
         <reference id="1173177718857" name="elementActionMap" index="APP_o" />
       </concept>
@@ -1474,7 +1484,11 @@
           <ref role="1k5W1q" node="5LeOc1$LXOc" resolve="Colon" />
         </node>
         <node concept="3F1sOY" id="5osFsyVsxim" role="3EZMnx">
+          <property role="2ru_X1" value="true" />
           <ref role="1NtTu8" to="lnwe:5osFsyV4cxO" resolve="actor" />
+          <node concept="1xolST" id="51aV7IpbDGp" role="2ruayu">
+            <property role="1xolSY" value="&lt;no actor&gt;" />
+          </node>
         </node>
         <node concept="l2Vlx" id="7PeSHTFdOeI" role="2iSdaV" />
         <node concept="3xZ3x$" id="4_s3JQCK8YU" role="3EZMnx">
@@ -1512,7 +1526,13 @@
           <ref role="1k5W1q" node="5LeOc1$LXOc" resolve="Colon" />
         </node>
         <node concept="3F1sOY" id="5osFsyVsxiM" role="3EZMnx">
+          <property role="2ru_X1" value="true" />
+          <property role="1$x2rV" value="NO OBJECT" />
+          <property role="39s7Ar" value="true" />
           <ref role="1NtTu8" to="lnwe:5osFsyV4cyf" resolve="object" />
+          <node concept="1xolST" id="51aV7IpbDGn" role="2ruayu">
+            <property role="1xolSY" value="&lt;no object&gt;" />
+          </node>
         </node>
         <node concept="l2Vlx" id="7PeSHTFdOhb" role="2iSdaV" />
         <node concept="3xZ3x$" id="4_s3JQCK913" role="3EZMnx">
@@ -1531,7 +1551,11 @@
           <ref role="1k5W1q" node="5LeOc1$LXOc" resolve="Colon" />
         </node>
         <node concept="3F1sOY" id="5osFsyVsxj8" role="3EZMnx">
+          <property role="2ru_X1" value="true" />
           <ref role="1NtTu8" to="lnwe:5osFsyV4cyu" resolve="recipient" />
+          <node concept="1xolST" id="51aV7Ip9kVb" role="2ruayu">
+            <property role="1xolSY" value="&lt;no recipient&gt;" />
+          </node>
         </node>
         <node concept="l2Vlx" id="7PeSHTFdOin" role="2iSdaV" />
         <node concept="3xZ3x$" id="4_s3JQCK91P" role="3EZMnx">
