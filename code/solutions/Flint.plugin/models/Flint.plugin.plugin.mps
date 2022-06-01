@@ -35952,7 +35952,7 @@
                         <node concept="liA8E" id="1wng5YLOlhZ" role="2OqNvi">
                           <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
                           <node concept="35c_gC" id="1wng5YLOlVn" role="37wK5m">
-                            <ref role="35c_gD" to="srlv:1nyeVyNiRPP" resolve="OldArticle" />
+                            <ref role="35c_gD" to="srlv:5NNYHM3p37Z" resolve="SeperatedNamedContainer" />
                           </node>
                         </node>
                       </node>

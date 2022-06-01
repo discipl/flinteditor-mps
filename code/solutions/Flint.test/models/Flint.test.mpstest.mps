@@ -7669,14 +7669,6 @@
       </node>
     </node>
   </node>
-  <node concept="cu0$f" id="6DgkmMHN4tu">
-    <property role="TrG5h" value="derp" />
-    <property role="3GE5qa" value="facts" />
-    <node concept="1GVOM6" id="6DgkmMHN4tv" role="1GVO30">
-      <property role="1GVPtd" value="English" />
-      <property role="1GVPtb" value="derp" />
-    </node>
-  </node>
   <node concept="3FgkA8" id="5mg4KOpQKK1">
     <property role="TrG5h" value="LawSourceGeneratorTest" />
     <property role="3Fgkti" value="Test lawsource to json" />
@@ -8248,9 +8240,6 @@
               </node>
             </node>
           </node>
-          <node concept="1FQA6B" id="MkCUBw6fQg" role="3H36l7" />
-          <node concept="1FQA6B" id="MkCUBw6fQh" role="3H36lm" />
-          <node concept="1FQA6B" id="MkCUBw6fQi" role="3FTnq6" />
           <node concept="1GVOM6" id="MkCUBw6fQj" role="1GVO30">
             <property role="1GVPtd" value="English" />
             <property role="1GVPtb" value="Test Act" />
@@ -8270,10 +8259,6 @@
           <property role="2CxiQ9" value="0" />
           <property role="TrG5h" value="Archived Act" />
           <property role="2Dfldr" value="true" />
-          <node concept="1FQA6B" id="MkCUBw6hry" role="3H36mW" />
-          <node concept="1FQA6B" id="MkCUBw6hrz" role="3H36l7" />
-          <node concept="1FQA6B" id="MkCUBw6hr$" role="3H36lm" />
-          <node concept="1FQA6B" id="MkCUBw6hr_" role="3FTnq6" />
           <node concept="1GVOM6" id="MkCUBw6hrA" role="1GVO30">
             <property role="1GVPtd" value="English" />
             <property role="1GVPtb" value="Archived Act" />
