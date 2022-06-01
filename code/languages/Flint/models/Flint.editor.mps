@@ -2436,6 +2436,7 @@
           <node concept="2iRkQZ" id="4aWSgWx7IH8" role="2iSdaV" />
           <node concept="3F1sOY" id="4aWSgWx7IH9" role="3EZMnx">
             <ref role="1NtTu8" to="lnwe:4aWSgWx5NEi" resolve="operand" />
+            <ref role="1ERwB7" node="2aFPUQhNLKN" resolve="ResolvableableActionMap" />
           </node>
         </node>
         <node concept="l2Vlx" id="4aWSgWx7IHa" role="2iSdaV" />
@@ -2866,6 +2867,7 @@
           <node concept="2iRkQZ" id="4aWSgWx7HMV" role="2iSdaV" />
           <node concept="3F1sOY" id="4aWSgWx7HMW" role="3EZMnx">
             <ref role="1NtTu8" to="lnwe:4aWSgWx48ac" resolve="items" />
+            <ref role="1ERwB7" node="2aFPUQhNLKN" resolve="ResolvableableActionMap" />
           </node>
         </node>
         <node concept="l2Vlx" id="4aWSgWx7HMX" role="2iSdaV" />
