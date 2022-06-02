@@ -8872,6 +8872,16 @@
         </node>
       </node>
     </node>
+    <node concept="312cEg" id="77fX0KOihdj" role="jymVt">
+      <property role="TrG5h" value="baseUrl" />
+      <node concept="3Tm6S6" id="77fX0KOieYa" role="1B3o_S" />
+      <node concept="3uibUv" id="77fX0KOih14" role="1tU5fm">
+        <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+      </node>
+      <node concept="Xl_RD" id="77fX0KOihYu" role="33vP2m">
+        <property role="Xl_RC" value="https://wetten.overheid.nl/" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="6e6T56s6VMR" role="jymVt" />
     <node concept="3clFbW" id="6e6T56s6W1p" role="jymVt">
       <node concept="3cqZAl" id="6e6T56s6W1r" role="3clF45" />
@@ -9291,8 +9301,13 @@
               <node concept="Xl_RD" id="1pk1Qg27J3w" role="3uHU7w">
                 <property role="Xl_RC" value="/xml" />
               </node>
-              <node concept="37vLTw" id="1pk1Qg27J3x" role="3uHU7B">
-                <ref role="3cqZAo" node="2LtCE$jNKdW" resolve="redirectURL" />
+              <node concept="3cpWs3" id="77fX0KOfF3I" role="3uHU7B">
+                <node concept="37vLTw" id="1pk1Qg27J3x" role="3uHU7w">
+                  <ref role="3cqZAo" node="2LtCE$jNKdW" resolve="redirectURL" />
+                </node>
+                <node concept="37vLTw" id="77fX0KOiikH" role="3uHU7B">
+                  <ref role="3cqZAo" node="77fX0KOihdj" resolve="baseUrl" />
+                </node>
               </node>
             </node>
             <node concept="37vLTw" id="1pk1Qg27J3y" role="37vLTJ">
