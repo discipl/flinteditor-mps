@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="LawSource" uuid="dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d" languageVersion="1" moduleVersion="0">
+<language namespace="LawSource" uuid="dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d" languageVersion="2" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />

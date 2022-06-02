@@ -9635,14 +9635,14 @@
             <node concept="2ShNRf" id="5NNYHM3ploj" role="37vLTx">
               <node concept="3zrR0B" id="5NNYHM3plmv" role="2ShVmc">
                 <node concept="3Tqbb2" id="5NNYHM3plmw" role="3zrR0E">
-                  <ref role="ehGHo" to="87nw:2dWzqxEB$Tx" resolve="Text" />
+                  <ref role="ehGHo" to="srlv:38u$ch72hiu" resolve="LawsourceText" />
                 </node>
               </node>
             </node>
             <node concept="2OqwBi" id="5NNYHM3pl0B" role="37vLTJ">
               <node concept="13iPFW" id="5NNYHM3pkRY" role="2Oq$k0" />
-              <node concept="3TrEf2" id="5NNYHM3plb_" role="2OqNvi">
-                <ref role="3Tt5mk" to="srlv:7xM0MUaHnb$" resolve="old_text" />
+              <node concept="3TrEf2" id="4E9KqdaGUH_" role="2OqNvi">
+                <ref role="3Tt5mk" to="srlv:2VSffmO7tYX" resolve="text" />
               </node>
             </node>
           </node>
@@ -9657,8 +9657,8 @@
               <node concept="2OqwBi" id="5NNYHM3prKC" role="2Oq$k0">
                 <node concept="2OqwBi" id="5NNYHM3prKD" role="2Oq$k0">
                   <node concept="13iPFW" id="5NNYHM3prKE" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="5NNYHM3prKF" role="2OqNvi">
-                    <ref role="3Tt5mk" to="srlv:7xM0MUaHnb$" resolve="old_text" />
+                  <node concept="3TrEf2" id="4E9KqdaGVHo" role="2OqNvi">
+                    <ref role="3Tt5mk" to="srlv:2VSffmO7tYX" resolve="text" />
                   </node>
                 </node>
                 <node concept="3Tsc0h" id="5NNYHM3prKG" role="2OqNvi">
@@ -9688,8 +9688,8 @@
           <node concept="2OqwBi" id="58Dy9iTpxzW" role="3clFbG">
             <node concept="2OqwBi" id="58Dy9iTpxzX" role="2Oq$k0">
               <node concept="13iPFW" id="58Dy9iTpxzY" role="2Oq$k0" />
-              <node concept="3TrEf2" id="58Dy9iTpxzZ" role="2OqNvi">
-                <ref role="3Tt5mk" to="srlv:7xM0MUaHnb$" resolve="old_text" />
+              <node concept="3TrEf2" id="4E9KqdaGW5q" role="2OqNvi">
+                <ref role="3Tt5mk" to="srlv:2VSffmO7tYX" resolve="text" />
               </node>
             </node>
             <node concept="2qgKlT" id="58Dy9iTpx$0" role="2OqNvi">
