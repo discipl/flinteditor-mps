@@ -12,6 +12,7 @@ import java.nio.file.Path
 import java.util.*
 import kotlin.io.path.exists
 import kotlin.io.path.readText
+import kotlin.io.path.toPath
 
 
 /**
@@ -33,8 +34,8 @@ private fun KoinApplication.loadPropertiesFromResourceFile(fileName: String) {
 
 private fun KoinApplication.loadPropertiesFromFileNextToJar(fileName: String) {
     loadPropertiesFromFile(fileName) { name ->
-        val jarPath = SourceLoader::class.java.protectionDomain.codeSource.location.path
-        val filePath = Path.of(jarPath).parent.resolve(name)
+        val jarPath = SourceLoader::class.java.protectionDomain.codeSource.location.toURI().toPath()
+        val filePath = jarPath.parent.resolve(name)
         if (filePath.exists()) filePath.readText() else null
     }
 }
