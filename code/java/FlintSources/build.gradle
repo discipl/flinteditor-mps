@@ -16,13 +16,18 @@ ext {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
-    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.google.code.gson:gson:2.8.9'
     implementation 'io.gsonfire:gson-fire:1.8.4'
 
     implementation 'org.apache.commons:commons-lang3:3.11'
     implementation 'org.apache.commons:commons-exec:1.3'
 
-    implementation('org.apache.jena:jena-arq:4.0.0')
+    implementation('org.apache.jena:jena-arq:4.2.0'){
+        exclude group: "com.fasterxml.jackson.core", module: "jackson-databind"
+    }
+    // even the jena-arq latest version uses jackson databind with vulnerability, manually updated here
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.3'
+
     implementation 'org.jsoup:jsoup:1.14.3'
     implementation "org.koin:koin-core:$koin_version"
 

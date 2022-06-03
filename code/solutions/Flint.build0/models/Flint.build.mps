@@ -2931,6 +2931,26 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="4O46Upib7Ym" role="3bR37C">
+          <node concept="1BurEX" id="4O46Upib7Yn" role="1SiIV1">
+            <node concept="398BVA" id="4O46Upib7XZ" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="4O46Upib7Y0" role="iGT6I">
+                <property role="2Ry0Am" value="jakarta.json.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4O46Upib885" role="3bR37C">
+          <node concept="1BurEX" id="4O46Upib886" role="1SiIV1">
+            <node concept="398BVA" id="4O46Upib87I" role="1BurEY">
+              <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
+              <node concept="2Ry0Ak" id="4O46Upib87J" role="iGT6I">
+                <property role="2Ry0Am" value="titanium-json-ld.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="e8hxMw1VLZ" role="2G$12L">
         <property role="BnDLt" value="true" />
