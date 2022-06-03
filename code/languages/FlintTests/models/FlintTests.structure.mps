@@ -182,7 +182,7 @@
   </node>
   <node concept="1TIwiD" id="3Qu0zFohMPy">
     <property role="EcuMT" value="4439988734393789794" />
-    <property role="TrG5h" value="FactWithArticle" />
+    <property role="TrG5h" value="FactWithSeperatedNamedContainer" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3Qu0zFohNd4" role="1TKVEi">
@@ -196,8 +196,13 @@
       <property role="IQ2ns" value="4439988734393791302" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="article" />
-      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="srlv:1nyeVyNiRPP" resolve="OldArticle" />
+    </node>
+    <node concept="1TJgyj" id="4CfA7o_2dab" role="1TKVEi">
+      <property role="IQ2ns" value="5336651716652225163" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="seperatedNamedContainer" />
+      <ref role="20lvS9" to="srlv:5NNYHM3p37Z" resolve="SeperatedNamedContainer" />
     </node>
   </node>
 </model>

@@ -28,6 +28,9 @@
       <concept id="6697972895834190335" name="LawSource.structure.SeperatedNamedContainer" flags="ng" index="3v_WGz">
         <reference id="3231458622981024335" name="version" index="dW5wK" />
       </concept>
+      <concept id="5920413357503155457" name="LawSource.structure.PrefixContainer" flags="ng" index="3Fnoml">
+        <property id="5920413357503155458" name="prefix" index="3Fnomm" />
+      </concept>
       <concept id="8679002930326655615" name="LawSource.structure.SourcePartCollection" flags="ng" index="3MKX5h">
         <child id="8679002930326655621" name="lines" index="3MKX6F" />
       </concept>
@@ -38,11 +41,6 @@
       <concept id="8679002930326655611" name="LawSource.structure.SourcePart" flags="ng" index="3MKX5l">
         <property id="2215264714367784513" name="lineId" index="1hTQn4" />
         <property id="5920413357502469007" name="index" index="3Fg1Gr" />
-      </concept>
-      <concept id="8679002930326655618" name="LawSource.structure.PrefixLine" flags="ng" index="3MKX6G">
-        <property id="8679002930326901018" name="prefix" index="3MLT8O" />
-        <child id="3384522145955437017" name="text" index="2qTukG" />
-        <child id="8679002930326901016" name="old_text" index="3MLT8Q" />
       </concept>
       <concept id="3611483123877483678" name="LawSource.structure.LawsourceText" flags="ng" index="1P5Shq" />
       <concept id="3611483123877489781" name="LawSource.structure.LawsourceWord" flags="ng" index="1P5VML" />
@@ -116,17 +114,17 @@
     <property role="TrG5h" value="Test Article 2" />
     <property role="3Fg1Gr" value="0" />
     <ref role="dW5wK" node="67MoKbccd1n" resolve="Test 2 Version" />
-    <node concept="3MKX6G" id="67MoKbccd1q" role="3MKX6F">
-      <property role="3MLT8O" value="1." />
+    <node concept="3Fnoml" id="4CfA7o_20hO" role="3MKX6F">
+      <property role="3Fg1Gr" value="0" />
       <property role="1hTQn4" value="lineid123" />
-      <node concept="19SGf9" id="67MoKbccd1r" role="3MLT8Q">
-        <node concept="19SUe$" id="67MoKbccd1z" role="19SJt6">
-          <property role="19SUeA" value="This is a prefix line" />
-        </node>
-      </node>
-      <node concept="1P5Shq" id="4CfA7o_1R$J" role="2qTukG">
-        <node concept="1P5VML" id="4CfA7o_1R$L" role="19SJt6">
-          <property role="19SUeA" value="This is a prefix line" />
+      <property role="3Fnomm" value="1." />
+      <node concept="3MKX5i" id="4CfA7o_20hP" role="3MKX6F">
+        <property role="3Fg1Gr" value="0" />
+        <property role="1hTQn4" value="lineid123" />
+        <node concept="1P5Shq" id="4CfA7o_20hQ" role="2qTud8">
+          <node concept="1P5VML" id="4CfA7o_20hS" role="19SJt6">
+            <property role="19SUeA" value="This is a prefix line" />
+          </node>
         </node>
       </node>
     </node>
