@@ -2173,6 +2173,21 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
           </node>
         </node>
+        <node concept="3rtmxn" id="$g5g6y_r6i" role="3bR31x">
+          <node concept="3LXTmp" id="$g5g6y_r6j" role="3rtmxm">
+            <node concept="55IIr" id="$g5g6y_r6k" role="3LXTmr">
+              <node concept="2Ry0Ak" id="$g5g6y_r6l" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="$g5g6y_r6m" role="2Ry0An">
+                  <property role="2Ry0Am" value="FlintCellModels" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="$g5g6y_r6o" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="QLMwktTkqF" role="2G$12L">
         <property role="BnDLt" value="true" />
