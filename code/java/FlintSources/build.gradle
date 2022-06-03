@@ -11,14 +11,13 @@ repositories {
 }
 
 ext {
-    ktor_version = "2.0.0"
     log_back_version = "1.2.11"
     junit_version = "5.8.2"
 }
 
 dependencies {
     implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
-    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation "com.google.code.gson:gson:$gson_version"
     implementation 'io.gsonfire:gson-fire:1.8.4'
 
     implementation 'org.apache.commons:commons-lang3:3.11'
@@ -26,7 +25,10 @@ dependencies {
 
     implementation "io.github.microutils:kotlin-logging-jvm:2.1.21"
 
-    implementation 'org.apache.jena:jena-arq:4.0.0'
+    implementation('org.apache.jena:jena-arq:4.2.0') {
+        exclude group: "om.fasterxml.jackson.core", module: "jackson-databind"
+    }
+    implementation "com.fasterxml.jackson.core:jackson-databind:2.13.3"
     implementation 'org.jsoup:jsoup:1.14.3'
     implementation "io.insert-koin:koin-core:$koin_version"
 
