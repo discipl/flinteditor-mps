@@ -3006,22 +3006,22 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="5RoGIH2Qmc1" role="3bR37C">
-          <node concept="1BurEX" id="5RoGIH2Qmc2" role="1SiIV1">
-            <node concept="398BVA" id="5RoGIH2QmbE" role="1BurEY">
+        <node concept="1SiIV0" id="2S_h_p8_esc" role="3bR37C">
+          <node concept="1BurEX" id="2S_h_p8_esd" role="1SiIV1">
+            <node concept="398BVA" id="2S_h_p8_erP" role="1BurEY">
               <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
-              <node concept="2Ry0Ak" id="5RoGIH2QmbF" role="iGT6I">
-                <property role="2Ry0Am" value="jcl-over-slf4j.jar" />
+              <node concept="2Ry0Ak" id="2S_h_p8_erQ" role="iGT6I">
+                <property role="2Ry0Am" value="jakarta.json.jar" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="5RoGIH2Qmnz" role="3bR37C">
-          <node concept="1BurEX" id="5RoGIH2Qmn$" role="1SiIV1">
-            <node concept="398BVA" id="5RoGIH2Qmnc" role="1BurEY">
+        <node concept="1SiIV0" id="2S_h_p8_eC5" role="3bR37C">
+          <node concept="1BurEX" id="2S_h_p8_eC6" role="1SiIV1">
+            <node concept="398BVA" id="2S_h_p8_eBI" role="1BurEY">
               <ref role="398BVh" node="2WP7dhE1exg" resolve="libs" />
-              <node concept="2Ry0Ak" id="5RoGIH2Qmnd" role="iGT6I">
-                <property role="2Ry0Am" value="slf4j-api.jar" />
+              <node concept="2Ry0Ak" id="2S_h_p8_eBJ" role="iGT6I">
+                <property role="2Ry0Am" value="titanium-json-ld.jar" />
               </node>
             </node>
           </node>
