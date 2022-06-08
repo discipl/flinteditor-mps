@@ -7718,7 +7718,7 @@
       <node concept="3clFbS" id="16zS9_ygNf5" role="3clF47">
         <node concept="3cpWs8" id="16zS9_yhlYz" role="3cqZAp">
           <node concept="3cpWsn" id="16zS9_yhlYA" role="3cpWs9">
-            <property role="TrG5h" value="node" />
+            <property role="TrG5h" value="sourcePartCollection" />
             <node concept="3Tqbb2" id="16zS9_yhlYx" role="1tU5fm">
               <ref role="ehGHo" to="srlv:5NNYHM3ojdd" resolve="NamedSourcePartCollection" />
             </node>
@@ -7728,6 +7728,17 @@
                   <ref role="ehGHo" to="srlv:5NNYHM3ojdd" resolve="NamedSourcePartCollection" />
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="5oH_KT5Eonm" role="3cqZAp">
+          <node concept="3cpWsn" id="5oH_KT5Eonp" role="3cpWs9">
+            <property role="TrG5h" value="nodeToReturn" />
+            <node concept="3Tqbb2" id="5oH_KT5Eonk" role="1tU5fm">
+              <ref role="ehGHo" to="srlv:7xM0MUaGt9V" resolve="SourcePart" />
+            </node>
+            <node concept="37vLTw" id="5oH_KT5EqRv" role="33vP2m">
+              <ref role="3cqZAo" node="16zS9_yhlYA" resolve="sourcePartCollection" />
             </node>
           </node>
         </node>
@@ -7743,7 +7754,7 @@
                   </node>
                 </node>
                 <node concept="37vLTw" id="16zS9_yhphh" role="37vLTJ">
-                  <ref role="3cqZAo" node="16zS9_yhlYA" resolve="node" />
+                  <ref role="3cqZAo" node="16zS9_yhlYA" resolve="sourcePartCollection" />
                 </node>
               </node>
             </node>
@@ -7754,10 +7765,30 @@
                 </node>
                 <node concept="2OqwBi" id="16zS9_yh1PH" role="37vLTJ">
                   <node concept="37vLTw" id="16zS9_yi1cq" role="2Oq$k0">
-                    <ref role="3cqZAo" node="16zS9_yhlYA" resolve="node" />
+                    <ref role="3cqZAo" node="16zS9_yhlYA" resolve="sourcePartCollection" />
                   </node>
                   <node concept="3TrcHB" id="16zS9_yh1PJ" role="2OqNvi">
                     <ref role="3TsBF5" to="tpck:hnGE5uv" resolve="virtualPackage" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="5oH_KT5Ft55" role="3cqZAp">
+              <node concept="37vLTI" id="5oH_KT5Fu5q" role="3clFbG">
+                <node concept="37vLTw" id="5oH_KT5Fuye" role="37vLTx">
+                  <ref role="3cqZAo" node="COz2BHrKCx" resolve="version" />
+                </node>
+                <node concept="2OqwBi" id="5oH_KT5FtI_" role="37vLTJ">
+                  <node concept="1PxgMI" id="5oH_KT5Ft$1" role="2Oq$k0">
+                    <node concept="chp4Y" id="5oH_KT5Ft_r" role="3oSUPX">
+                      <ref role="cht4Q" to="srlv:5NNYHM3p37Z" resolve="SeperatedNamedContainer" />
+                    </node>
+                    <node concept="37vLTw" id="5oH_KT5Ft53" role="1m5AlR">
+                      <ref role="3cqZAo" node="16zS9_yhlYA" resolve="sourcePartCollection" />
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="5oH_KT5FtU6" role="2OqNvi">
+                    <ref role="3Tt5mk" to="srlv:2NosBWxa2Df" resolve="version" />
                   </node>
                 </node>
               </node>
@@ -7772,7 +7803,7 @@
                 </node>
                 <node concept="3BYIHo" id="16zS9_yh1QH" role="2OqNvi">
                   <node concept="37vLTw" id="16zS9_yi7f0" role="3BYIHq">
-                    <ref role="3cqZAo" node="16zS9_yhlYA" resolve="node" />
+                    <ref role="3cqZAo" node="16zS9_yhlYA" resolve="sourcePartCollection" />
                   </node>
                 </node>
               </node>
@@ -7839,7 +7870,7 @@
                     <ref role="cht4Q" to="srlv:5NNYHM3p37Z" resolve="SeperatedNamedContainer" />
                   </node>
                   <node concept="37vLTw" id="16zS9_yi7_d" role="1m5AlR">
-                    <ref role="3cqZAo" node="16zS9_yhlYA" resolve="node" />
+                    <ref role="3cqZAo" node="16zS9_yhlYA" resolve="sourcePartCollection" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="16zS9_yh1R8" role="37vLTJ">
@@ -7852,9 +7883,14 @@
                 </node>
               </node>
             </node>
-            <node concept="3cpWs6" id="16zS9_yh1Rb" role="3cqZAp">
-              <node concept="37vLTw" id="16zS9_yh1Rc" role="3cqZAk">
-                <ref role="3cqZAo" node="16zS9_yh1QK" resolve="namedContainerReference" />
+            <node concept="3clFbF" id="5oH_KT5Etpi" role="3cqZAp">
+              <node concept="37vLTI" id="5oH_KT5EtJr" role="3clFbG">
+                <node concept="37vLTw" id="5oH_KT5EVFk" role="37vLTx">
+                  <ref role="3cqZAo" node="16zS9_yh1QK" resolve="namedContainerReference" />
+                </node>
+                <node concept="37vLTw" id="5oH_KT5Etpg" role="37vLTJ">
+                  <ref role="3cqZAo" node="5oH_KT5Eonp" resolve="nodeToReturn" />
+                </node>
               </node>
             </node>
           </node>
@@ -7881,7 +7917,7 @@
             </node>
             <node concept="2OqwBi" id="16zS9_yh1Rq" role="37vLTJ">
               <node concept="37vLTw" id="16zS9_yiej$" role="2Oq$k0">
-                <ref role="3cqZAo" node="16zS9_yhlYA" resolve="node" />
+                <ref role="3cqZAo" node="16zS9_yhlYA" resolve="sourcePartCollection" />
               </node>
               <node concept="3TrcHB" id="16zS9_yh1Rs" role="2OqNvi">
                 <ref role="3TsBF5" to="srlv:1UYcSlfmlp1" resolve="lineId" />
@@ -7901,7 +7937,7 @@
             </node>
             <node concept="2OqwBi" id="16zS9_yh1Ry" role="37vLTJ">
               <node concept="37vLTw" id="16zS9_yifMQ" role="2Oq$k0">
-                <ref role="3cqZAo" node="16zS9_yhlYA" resolve="node" />
+                <ref role="3cqZAo" node="16zS9_yhlYA" resolve="sourcePartCollection" />
               </node>
               <node concept="3TrcHB" id="16zS9_yh1R$" role="2OqNvi">
                 <ref role="3TsBF5" to="srlv:58Dy9iTqpef" resolve="index" />
@@ -7931,7 +7967,7 @@
           <node concept="2OqwBi" id="16zS9_yh1RH" role="3clFbG">
             <node concept="2OqwBi" id="16zS9_yh1RI" role="2Oq$k0">
               <node concept="37vLTw" id="16zS9_yig3X" role="2Oq$k0">
-                <ref role="3cqZAo" node="16zS9_yhlYA" resolve="node" />
+                <ref role="3cqZAo" node="16zS9_yhlYA" resolve="sourcePartCollection" />
               </node>
               <node concept="3Tsc0h" id="16zS9_yh1RK" role="2OqNvi">
                 <ref role="3TtcxE" to="srlv:7xM0MUaGta5" resolve="lines" />
@@ -7983,7 +8019,7 @@
             </node>
             <node concept="2OqwBi" id="16zS9_yh1S4" role="37vLTJ">
               <node concept="37vLTw" id="16zS9_yigw_" role="2Oq$k0">
-                <ref role="3cqZAo" node="16zS9_yhlYA" resolve="node" />
+                <ref role="3cqZAo" node="16zS9_yhlYA" resolve="sourcePartCollection" />
               </node>
               <node concept="3TrcHB" id="16zS9_yh1S6" role="2OqNvi">
                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
@@ -7992,8 +8028,8 @@
           </node>
         </node>
         <node concept="3cpWs6" id="16zS9_yh1S7" role="3cqZAp">
-          <node concept="37vLTw" id="16zS9_yie_m" role="3cqZAk">
-            <ref role="3cqZAo" node="16zS9_yhlYA" resolve="node" />
+          <node concept="37vLTw" id="5oH_KT5EuAO" role="3cqZAk">
+            <ref role="3cqZAo" node="5oH_KT5Eonp" resolve="nodeToReturn" />
           </node>
         </node>
       </node>
