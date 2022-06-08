@@ -5,7 +5,7 @@ import org.discipl.flint.sources.clients.*
 import org.discipl.flint.sources.clients.nsx.*
 import org.discipl.flint.sources.clients.nsx.models.NsxDocumentStructureClientImpl
 import org.discipl.flint.sources.clients.nsx.models.NsxParserClientImpl
-import org.discipl.flint.sources.clients.triply.TripleVersionClientImpl
+import org.discipl.flint.sources.clients.triply.TriplyVersionClientImpl
 import org.discipl.flint.sources.clients.triply.TriplySourceClientImpl
 import org.discipl.flint.sources.di.*
 import org.discipl.flint.sources.di.KoinQualifiers.Properties.ClientIds
@@ -34,10 +34,10 @@ import javax.net.ssl.SSLContext
 
 internal val hybridClientModule = module {
     includes(apacheHttpClientModule, ktorClientModule)
-    single(KoinQualifiers.timeOutInS) { get<PropertyProvider>().timeOutInS }
+    single(KoinQualifiers.timeOutInMs) { get<PropertyProvider>().timeOutInMs }
     single { QueryExecutor(get()) }
     single<SourceClient> { TriplySourceClientImpl(get()) }
-    single<VersionClient> { TripleVersionClientImpl(get(), get()) }
+    single<VersionClient> { TriplyVersionClientImpl(get(), get()) }
     single<ParserClient> { NsxParserClientImpl(get()) }
     single<DocumentStructureClient> { NsxDocumentStructureClientImpl(get()) }
 }

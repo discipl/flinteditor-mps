@@ -3,7 +3,7 @@ package org.discipl.flint.sources.di
 import org.koin.core.qualifier.named
 
 object KoinQualifiers {
-    val timeOutInS = named("time-out-in-ms")
+    val timeOutInMs = named("time-out-in-ms")
     val defaultNsxClient = named("default-nsx-client")
     val nsxClients = named("nsx-clients")
 

@@ -8,15 +8,15 @@ import java.util.concurrent.TimeUnit
 
 val apacheHttpClientModule = module {
     single<HttpClient> {
-        val timeOutInS = get<Int>(KoinQualifiers.timeOutInS)
+        val timeOutInMs = get<Int>(KoinQualifiers.timeOutInMs)
         val config = RequestConfig.custom()
-            .setConnectTimeout(timeOutInS * 1000)
-            .setConnectionRequestTimeout(timeOutInS * 1000)
-            .setSocketTimeout(timeOutInS * 1000).build()
+            .setConnectTimeout(timeOutInMs)
+            .setConnectionRequestTimeout(timeOutInMs)
+            .setSocketTimeout(timeOutInMs).build()
         HttpClients.custom()
             .setConnectionReuseStrategy { _, _ -> false }
             .setSSLContext(get())
-            .setConnectionTimeToLive(timeOutInS.toLong(), TimeUnit.SECONDS)
+            .setConnectionTimeToLive(timeOutInMs.toLong(), TimeUnit.MILLISECONDS)
             .setDefaultRequestConfig(config)
             .build()
     }

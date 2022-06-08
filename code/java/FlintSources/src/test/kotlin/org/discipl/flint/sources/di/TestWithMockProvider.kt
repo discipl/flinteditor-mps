@@ -40,7 +40,7 @@ open class TestWithTestExtension : TestWithMockProvider() {
                 single<PropertyProvider> {
                     object : PropertyProvider {
                         override val baseUrl: String = "http://localhost:9999/calculemus/calculemusComp/v1"
-                        override val timeOutInS: Int = 360
+                        override val timeOutInMs: Int = 360 * 1000
                     }
                 }
                 single { ResourceProvider() }

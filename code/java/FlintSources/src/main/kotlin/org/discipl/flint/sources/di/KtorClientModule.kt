@@ -18,11 +18,11 @@ import org.koin.dsl.module
 val ktorClientModule = module {
     single<HttpClientEngine> {
         Apache.create {
-            val timeoutInS = get<Int>(KoinQualifiers.timeOutInS)
+            val timeoutInMs = get<Int>(KoinQualifiers.timeOutInMs)
             sslContext = get()
-            connectTimeout = timeoutInS * 1000
-            socketTimeout = timeoutInS * 1000
-            connectionRequestTimeout = timeoutInS * 1000
+            connectTimeout = timeoutInMs
+            socketTimeout = timeoutInMs
+            connectionRequestTimeout = timeoutInMs
         }
     }
     single<Gson> {
