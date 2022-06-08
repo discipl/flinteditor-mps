@@ -20971,11 +20971,11 @@
                       <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                     </node>
                   </node>
-                  <node concept="3clFb_" id="18vlLCAgG6n" role="jymVt">
-                    <property role="TrG5h" value="getTimeOutInS" />
-                    <node concept="3Tm1VV" id="18vlLCAgG6o" role="1B3o_S" />
-                    <node concept="10Oyi0" id="18vlLCAgG6q" role="3clF45" />
-                    <node concept="3clFbS" id="18vlLCAgG6s" role="3clF47">
+                  <node concept="3clFb_" id="tOXERkDxg5" role="jymVt">
+                    <property role="TrG5h" value="getTimeOutInMs" />
+                    <node concept="3Tm1VV" id="tOXERkDxg6" role="1B3o_S" />
+                    <node concept="10Oyi0" id="tOXERkDxg8" role="3clF45" />
+                    <node concept="3clFbS" id="tOXERkDxga" role="3clF47">
                       <node concept="3cpWs8" id="18vlLCAgLKq" role="3cqZAp">
                         <node concept="3cpWsn" id="18vlLCAgLKr" role="3cpWs9">
                           <property role="TrG5h" value="timeOutInS" />
@@ -21000,8 +21000,8 @@
                               <node concept="37vLTw" id="18vlLCAgLK_" role="2Oq$k0">
                                 <ref role="3cqZAo" node="7uOBJvdQDvZ" resolve="defaultProvider" />
                               </node>
-                              <node concept="liA8E" id="18vlLCAgO3r" role="2OqNvi">
-                                <ref role="37wK5l" to="ggg1:~PropertyProvider.getTimeOutInS()" resolve="getTimeOutInS" />
+                              <node concept="liA8E" id="tOXERkDyT2" role="2OqNvi">
+                                <ref role="37wK5l" to="ggg1:~PropertyProvider.getTimeOutInMs()" resolve="getTimeOutInMs" />
                               </node>
                             </node>
                           </node>
@@ -21014,16 +21014,21 @@
                         </node>
                       </node>
                       <node concept="3cpWs6" id="18vlLCAgLKE" role="3cqZAp">
-                        <node concept="2YIFZM" id="18vlLCAgPp3" role="3cqZAk">
-                          <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
-                          <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String)" resolve="parseInt" />
-                          <node concept="37vLTw" id="18vlLCAgP_B" role="37wK5m">
-                            <ref role="3cqZAo" node="18vlLCAgLKr" resolve="timeOutInS" />
+                        <node concept="17qRlL" id="tOXERkDzBK" role="3cqZAk">
+                          <node concept="3cmrfG" id="tOXERkD$2y" role="3uHU7w">
+                            <property role="3cmrfH" value="1000" />
+                          </node>
+                          <node concept="2YIFZM" id="18vlLCAgPp3" role="3uHU7B">
+                            <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+                            <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String)" resolve="parseInt" />
+                            <node concept="37vLTw" id="18vlLCAgP_B" role="37wK5m">
+                              <ref role="3cqZAo" node="18vlLCAgLKr" resolve="timeOutInS" />
+                            </node>
                           </node>
                         </node>
                       </node>
                     </node>
-                    <node concept="2AHcQZ" id="18vlLCAgG6t" role="2AJF6D">
+                    <node concept="2AHcQZ" id="tOXERkDxgb" role="2AJF6D">
                       <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                     </node>
                   </node>
