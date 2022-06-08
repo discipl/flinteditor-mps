@@ -438,7 +438,6 @@
       </concept>
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1160666733551" name="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" flags="nn" index="X8dFx" />
-      <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1240325842691" name="jetbrains.mps.baseLanguage.collections.structure.AsSequenceOperation" flags="nn" index="39bAoz" />
       <concept id="1201792049884" name="jetbrains.mps.baseLanguage.collections.structure.TranslateOperation" flags="nn" index="3goQfb" />
       <concept id="1178286324487" name="jetbrains.mps.baseLanguage.collections.structure.SortDirection" flags="nn" index="1nlBCl" />
@@ -2579,35 +2578,6 @@
                 <node concept="1nlBCl" id="4MnBD26_A9Y" role="2S7zOq">
                   <property role="3clFbU" value="true" />
                 </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2xdQw9" id="4MnBD26_Az9" role="3cqZAp">
-          <property role="2xdLsb" value="h1akgim/info" />
-          <node concept="3cpWs3" id="4MnBD26_CtU" role="9lYJi">
-            <node concept="Xl_RD" id="4MnBD26_Cvc" role="3uHU7w">
-              <property role="Xl_RC" value=" nodes " />
-            </node>
-            <node concept="3cpWs3" id="4MnBD26_Bgp" role="3uHU7B">
-              <node concept="3cpWs3" id="4MnBD26_B8d" role="3uHU7B">
-                <node concept="3cpWs3" id="4MnBD26_ALu" role="3uHU7B">
-                  <node concept="Xl_RD" id="4MnBD26_Azb" role="3uHU7B">
-                    <property role="Xl_RC" value="when looking for " />
-                  </node>
-                  <node concept="37vLTw" id="4MnBD26_APA" role="3uHU7w">
-                    <ref role="3cqZAo" node="3xmueRu1A6c" resolve="parent" />
-                  </node>
-                </node>
-                <node concept="Xl_RD" id="4MnBD26_B9h" role="3uHU7w">
-                  <property role="Xl_RC" value=" found " />
-                </node>
-              </node>
-              <node concept="2OqwBi" id="4MnBD26_Bzk" role="3uHU7w">
-                <node concept="37vLTw" id="4MnBD26_Bm4" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4MnBD26_A9i" resolve="seq" />
-                </node>
-                <node concept="34oBXx" id="4MnBD26_BQb" role="2OqNvi" />
               </node>
             </node>
           </node>
