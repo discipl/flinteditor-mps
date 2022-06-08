@@ -1,5 +1,7 @@
 package org.discipl.flint.sources.models.parts
 
+import org.discipl.flint.sources.models.SourcePartVisitor
+
 data class NamedContainer(
     override val id: String,
     override val tag: String,
@@ -12,5 +14,9 @@ data class NamedContainer(
 
     private fun Container.hasChildNamedContainers(): Boolean {
         return this.children.any { it is NamedContainer || (it as? Container)?.hasChildNamedContainers() == true }
+    }
+
+    override fun <T> accept(visitor: SourcePartVisitor<T>): T {
+        return visitor.visit(this)
     }
 }
