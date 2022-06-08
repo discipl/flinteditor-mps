@@ -145,9 +145,6 @@ class JuriDecomposeTextLineTransformer : NewTextLineTransformer<JuriDecomposeTex
     }
 
     private fun JuriDecomposeTextLine.isContainer(remainingLines: MutableList<JuriDecomposeTextLine>): Boolean {
-        if (this.id == "https://calculemus.org/b384cb20-080b-46a8-b7f8-41385f073977") {
-            logger.error { "Huh? " + getChildren(remainingLines) }
-        }
         return getChildren(remainingLines).isNotEmpty()
     }
 
