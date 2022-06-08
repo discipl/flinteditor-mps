@@ -87,7 +87,7 @@ class TriplyTextLineTransformer : NewTextLineTransformer<TriplyTextLine> {
     }
 
     private fun TriplyTextLine.isTextLine(): Boolean {
-        return !this.text.isNullOrEmpty()
+        return this.text != null
     }
 
     private fun TriplyTextLine.isContainer(remainingLines: MutableList<TriplyTextLine>): Boolean {
