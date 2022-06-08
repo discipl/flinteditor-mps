@@ -31,7 +31,7 @@ class JuriDecomposeTextLineTransformer : NewTextLineTransformer<JuriDecomposeTex
             line.isPrefixContainer() -> line.toPrefixContainer(remainingLines)
             line.isContainer(remainingLines) -> line.toContainer(remainingLines)
             line.isTextLine() -> line.toTextLine()
-            else -> TODO("Can't deserialize text line: $line")
+            else -> throw NotImplementedError("Deserialization for text lines of this type not implemented yet: $line")
         }
         return transformedLine
     }
