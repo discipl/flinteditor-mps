@@ -488,17 +488,17 @@
     <node concept="3YX88f" id="5mg4KOqLLjt" role="3YXoi7" />
   </node>
   <node concept="3YXoiq" id="5mg4KOqLLje">
-    <property role="TrG5h" value="testlawsource_testversion1_article1.flint.article" />
+    <property role="TrG5h" value="91ce4e4840c5d221a1b5f08fc01091064b3d874cb18151791afe9c5b80989db9.flint.article" />
     <property role="3GE5qa" value="articles" />
     <node concept="3YX88f" id="5mg4KOqLLji" role="3YXoi7" />
   </node>
   <node concept="3YXoiq" id="5mg4KOqLLjl">
-    <property role="TrG5h" value="testlawsource_testversion1_article2.flint.article" />
+    <property role="TrG5h" value="5f5ba000ee40f99e7f69d137b1eed9a56a72db264bd3364fe885599c8de96b7b.flint.article" />
     <property role="3GE5qa" value="articles" />
     <node concept="3YX88f" id="5mg4KOqLLjm" role="3YXoi7" />
   </node>
   <node concept="3YXoiq" id="5mg4KOqLLjn">
-    <property role="TrG5h" value="testlawsource_testversion2_article1v2.flint.article" />
+    <property role="TrG5h" value="a685e13f257b28f03643f3655001ae37126ad9cb12860ccba6bea5168099cd2e.flint.article" />
     <property role="3GE5qa" value="articles" />
     <node concept="3YX88f" id="5mg4KOqLLjo" role="3YXoi7" />
   </node>

@@ -80,6 +80,7 @@
     <import index="q4oi" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cellActions(MPS.Editor/)" />
     <import index="3ahc" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.cells(MPS.Editor/)" />
     <import index="jkm4" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.ui(MPS.IDEA/)" />
+    <import index="91gc" ref="r:57850d6b-985b-4a3f-af65-25f1fdeb3739(Flint.runtime.utils)" />
     <import index="1ycr" ref="r:081ff6a3-47fa-4863-b473-0a90f3c6237b(FlintCellModels.behavior)" implicit="true" />
     <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" implicit="true" />
   </imports>
@@ -9042,42 +9043,12 @@
     <node concept="2YIFZL" id="6t6$KA9N6dv" role="jymVt">
       <property role="TrG5h" value="safeName" />
       <node concept="3clFbS" id="6t6$KA9N6dy" role="3clF47">
-        <node concept="3clFbJ" id="4O8McXByjXc" role="3cqZAp">
-          <node concept="3clFbS" id="4O8McXByjXe" role="3clFbx">
-            <node concept="3cpWs6" id="4O8McXBylPh" role="3cqZAp">
-              <node concept="Xl_RD" id="4O8McXBylVI" role="3cqZAk">
-                <property role="Xl_RC" value="" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbC" id="4O8McXByleP" role="3clFbw">
-            <node concept="10Nm6u" id="4O8McXBylId" role="3uHU7w" />
-            <node concept="2OqwBi" id="4O8McXBykAX" role="3uHU7B">
-              <node concept="37vLTw" id="4O8McXByki6" role="2Oq$k0">
-                <ref role="3cqZAo" node="6t6$KA9N6T9" resolve="node" />
-              </node>
-              <node concept="3TrcHB" id="4O8McXBykRs" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="6t6$KA9VEXt" role="3cqZAp">
-          <node concept="2YIFZM" id="6t6$KA9VE_R" role="3clFbG">
-            <ref role="1Pybhc" to="wxa0:~DigestUtils" resolve="DigestUtils" />
-            <ref role="37wK5l" to="wxa0:~DigestUtils.sha256Hex(java.lang.String)" resolve="sha256Hex" />
-            <node concept="2OqwBi" id="6t6$KA9VGbO" role="37wK5m">
-              <node concept="2OqwBi" id="6t6$KA9VFkK" role="2Oq$k0">
-                <node concept="37vLTw" id="6t6$KA9VF9z" role="2Oq$k0">
-                  <ref role="3cqZAo" node="6t6$KA9N6T9" resolve="node" />
-                </node>
-                <node concept="3TrcHB" id="6t6$KA9VFDk" role="2OqNvi">
-                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                </node>
-              </node>
-              <node concept="liA8E" id="6t6$KA9VGN8" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
-              </node>
+        <node concept="3cpWs6" id="RBJGfwJ$de" role="3cqZAp">
+          <node concept="2YIFZM" id="RBJGfwJAmB" role="3cqZAk">
+            <ref role="37wK5l" to="91gc:6t6$KA9N6dv" resolve="safeHashedName" />
+            <ref role="1Pybhc" to="91gc:2gsSwmLhR5x" resolve="JSONUtils" />
+            <node concept="37vLTw" id="RBJGfwJAMy" role="37wK5m">
+              <ref role="3cqZAo" node="6t6$KA9N6T9" resolve="node" />
             </node>
           </node>
         </node>

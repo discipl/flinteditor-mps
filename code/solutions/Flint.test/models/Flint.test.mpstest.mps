@@ -4754,73 +4754,87 @@
       </node>
     </node>
     <node concept="3clFbS" id="1Drg1HVuON3" role="LjaKd">
-      <node concept="3clFbF" id="1Drg1HVuON4" role="3cqZAp">
-        <node concept="2OqwBi" id="1Drg1HVuON5" role="3clFbG">
-          <node concept="2OqwBi" id="1Drg1HVuON6" role="2Oq$k0">
-            <node concept="2OqwBi" id="1Drg1HVuON7" role="2Oq$k0">
-              <node concept="2OqwBi" id="1Drg1HVuON8" role="2Oq$k0">
-                <node concept="369mXd" id="1Drg1HVuON9" role="2Oq$k0" />
-                <node concept="liA8E" id="1Drg1HVuONa" role="2OqNvi">
-                  <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
-                </node>
-              </node>
-              <node concept="liA8E" id="1Drg1HVuONb" role="2OqNvi">
-                <ref role="37wK5l" to="exr9:~EditorContext.getRepository()" resolve="getRepository" />
-              </node>
-            </node>
-            <node concept="liA8E" id="1Drg1HVuONc" role="2OqNvi">
-              <ref role="37wK5l" to="lui2:~SRepository.getModelAccess()" resolve="getModelAccess" />
-            </node>
-          </node>
-          <node concept="liA8E" id="1Drg1HVuONd" role="2OqNvi">
-            <ref role="37wK5l" to="lui2:~ModelAccess.executeCommandInEDT(java.lang.Runnable)" resolve="executeCommandInEDT" />
-            <node concept="1bVj0M" id="1Drg1HVuONe" role="37wK5m">
-              <node concept="3clFbS" id="1Drg1HVuONf" role="1bW5cS">
-                <node concept="3cpWs8" id="1Drg1HVuONg" role="3cqZAp">
-                  <node concept="3cpWsn" id="1Drg1HVuONh" role="3cpWs9">
-                    <property role="TrG5h" value="selectedNode" />
-                    <node concept="3Tqbb2" id="1Drg1HVuONi" role="1tU5fm" />
-                    <node concept="2OqwBi" id="1Drg1HVuONj" role="33vP2m">
-                      <node concept="369mXd" id="1Drg1HVuONk" role="2Oq$k0" />
-                      <node concept="liA8E" id="1Drg1HVuONl" role="2OqNvi">
-                        <ref role="37wK5l" to="exr9:~EditorComponent.getSelectedNode()" resolve="getSelectedNode" />
-                      </node>
+      <node concept="3J1_TO" id="RBJGfwJjJ0" role="3cqZAp">
+        <node concept="3clFbS" id="RBJGfwJjJ2" role="1zxBo7">
+          <node concept="3clFbF" id="1Drg1HVuON4" role="3cqZAp">
+            <node concept="2OqwBi" id="1Drg1HVuON5" role="3clFbG">
+              <node concept="2OqwBi" id="1Drg1HVuON6" role="2Oq$k0">
+                <node concept="2OqwBi" id="1Drg1HVuON7" role="2Oq$k0">
+                  <node concept="2OqwBi" id="1Drg1HVuON8" role="2Oq$k0">
+                    <node concept="369mXd" id="1Drg1HVuON9" role="2Oq$k0" />
+                    <node concept="liA8E" id="1Drg1HVuONa" role="2OqNvi">
+                      <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
                     </node>
                   </node>
+                  <node concept="liA8E" id="1Drg1HVuONb" role="2OqNvi">
+                    <ref role="37wK5l" to="exr9:~EditorContext.getRepository()" resolve="getRepository" />
+                  </node>
                 </node>
-                <node concept="3clFbF" id="1Drg1HVuONm" role="3cqZAp">
-                  <node concept="2YIFZM" id="1Drg1HVuONn" role="3clFbG">
-                    <ref role="1Pybhc" node="7zM_gLgV_ke" resolve="FlintSourceReferenceGetterTestImpl" />
-                    <ref role="37wK5l" node="7zM_gLgW9pw" resolve="setup" />
-                    <node concept="2OqwBi" id="1Drg1HVuONo" role="37wK5m">
-                      <node concept="37vLTw" id="1Drg1HVuONp" role="2Oq$k0">
-                        <ref role="3cqZAo" node="1Drg1HVuONh" resolve="selectedNode" />
-                      </node>
-                      <node concept="2Xjw5R" id="1Drg1HVuONq" role="2OqNvi">
-                        <node concept="1xMEDy" id="1Drg1HVuONr" role="1xVPHs">
-                          <node concept="chp4Y" id="1Drg1HVuONs" role="ri$Ld">
-                            <ref role="cht4Q" to="1z9r:222x$3yHUFH" resolve="TestModelAndSource" />
+                <node concept="liA8E" id="1Drg1HVuONc" role="2OqNvi">
+                  <ref role="37wK5l" to="lui2:~SRepository.getModelAccess()" resolve="getModelAccess" />
+                </node>
+              </node>
+              <node concept="liA8E" id="1Drg1HVuONd" role="2OqNvi">
+                <ref role="37wK5l" to="lui2:~ModelAccess.executeCommandInEDT(java.lang.Runnable)" resolve="executeCommandInEDT" />
+                <node concept="1bVj0M" id="1Drg1HVuONe" role="37wK5m">
+                  <node concept="3clFbS" id="1Drg1HVuONf" role="1bW5cS">
+                    <node concept="3cpWs8" id="1Drg1HVuONg" role="3cqZAp">
+                      <node concept="3cpWsn" id="1Drg1HVuONh" role="3cpWs9">
+                        <property role="TrG5h" value="selectedNode" />
+                        <node concept="3Tqbb2" id="1Drg1HVuONi" role="1tU5fm" />
+                        <node concept="2OqwBi" id="1Drg1HVuONj" role="33vP2m">
+                          <node concept="369mXd" id="1Drg1HVuONk" role="2Oq$k0" />
+                          <node concept="liA8E" id="1Drg1HVuONl" role="2OqNvi">
+                            <ref role="37wK5l" to="exr9:~EditorComponent.getSelectedNode()" resolve="getSelectedNode" />
                           </node>
                         </node>
                       </node>
                     </node>
-                    <node concept="Xl_RD" id="1Drg1HVuONt" role="37wK5m">
-                      <property role="Xl_RC" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
+                    <node concept="3clFbF" id="1Drg1HVuONm" role="3cqZAp">
+                      <node concept="2YIFZM" id="1Drg1HVuONn" role="3clFbG">
+                        <ref role="1Pybhc" node="7zM_gLgV_ke" resolve="FlintSourceReferenceGetterTestImpl" />
+                        <ref role="37wK5l" node="7zM_gLgW9pw" resolve="setup" />
+                        <node concept="2OqwBi" id="1Drg1HVuONo" role="37wK5m">
+                          <node concept="37vLTw" id="1Drg1HVuONp" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1Drg1HVuONh" resolve="selectedNode" />
+                          </node>
+                          <node concept="2Xjw5R" id="1Drg1HVuONq" role="2OqNvi">
+                            <node concept="1xMEDy" id="1Drg1HVuONr" role="1xVPHs">
+                              <node concept="chp4Y" id="1Drg1HVuONs" role="ri$Ld">
+                                <ref role="cht4Q" to="1z9r:222x$3yHUFH" resolve="TestModelAndSource" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="1Drg1HVuONt" role="37wK5m">
+                          <property role="Xl_RC" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
               </node>
             </node>
           </node>
+          <node concept="3vwNmj" id="1Drg1HVuONu" role="3cqZAp">
+            <node concept="2bRw2S" id="1Drg1HVuONv" role="3vwVQn">
+              <ref role="2bRw2V" to="xbql:7F0IgXEzTLv" resolve="SplitLine" />
+            </node>
+          </node>
+          <node concept="1MFPAf" id="1Drg1HVuONw" role="3cqZAp">
+            <ref role="1MFYO6" to="xbql:7F0IgXEzTLv" resolve="SplitLine" />
+          </node>
         </node>
-      </node>
-      <node concept="3vwNmj" id="1Drg1HVuONu" role="3cqZAp">
-        <node concept="2bRw2S" id="1Drg1HVuONv" role="3vwVQn">
-          <ref role="2bRw2V" to="xbql:7F0IgXEzTLv" resolve="SplitLine" />
+        <node concept="1wplmZ" id="RBJGfwJjLG" role="1zxBo6">
+          <node concept="3clFbS" id="RBJGfwJjLH" role="1wplMD">
+            <node concept="3clFbF" id="RBJGfwJjZG" role="3cqZAp">
+              <node concept="2YIFZM" id="RBJGfwJk0j" role="3clFbG">
+                <ref role="37wK5l" node="4IrXXbMtprT" resolve="reset" />
+                <ref role="1Pybhc" node="7zM_gLgV_ke" resolve="FlintSourceReferenceGetterTestImpl" />
+              </node>
+            </node>
+          </node>
         </node>
-      </node>
-      <node concept="1MFPAf" id="1Drg1HVuONw" role="3cqZAp">
-        <ref role="1MFYO6" to="xbql:7F0IgXEzTLv" resolve="SplitLine" />
       </node>
       <node concept="3clFbH" id="1Drg1HVuONx" role="3cqZAp" />
       <node concept="3clFbH" id="1Drg1HVuONy" role="3cqZAp" />
@@ -5291,73 +5305,87 @@
       </node>
     </node>
     <node concept="3clFbS" id="m$6eIWnOmb" role="LjaKd">
-      <node concept="3clFbF" id="7zM_gLh98Kr" role="3cqZAp">
-        <node concept="2OqwBi" id="7zM_gLh98Ks" role="3clFbG">
-          <node concept="2OqwBi" id="7zM_gLh98Kt" role="2Oq$k0">
-            <node concept="2OqwBi" id="7zM_gLh98Ku" role="2Oq$k0">
-              <node concept="2OqwBi" id="7zM_gLh98Kv" role="2Oq$k0">
-                <node concept="369mXd" id="7zM_gLh98Kw" role="2Oq$k0" />
-                <node concept="liA8E" id="7zM_gLh98Kx" role="2OqNvi">
-                  <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
-                </node>
-              </node>
-              <node concept="liA8E" id="7zM_gLh98Ky" role="2OqNvi">
-                <ref role="37wK5l" to="exr9:~EditorContext.getRepository()" resolve="getRepository" />
-              </node>
-            </node>
-            <node concept="liA8E" id="7zM_gLh98Kz" role="2OqNvi">
-              <ref role="37wK5l" to="lui2:~SRepository.getModelAccess()" resolve="getModelAccess" />
-            </node>
-          </node>
-          <node concept="liA8E" id="7zM_gLh98K$" role="2OqNvi">
-            <ref role="37wK5l" to="lui2:~ModelAccess.executeCommandInEDT(java.lang.Runnable)" resolve="executeCommandInEDT" />
-            <node concept="1bVj0M" id="7zM_gLh98K_" role="37wK5m">
-              <node concept="3clFbS" id="7zM_gLh98KA" role="1bW5cS">
-                <node concept="3cpWs8" id="7zM_gLgWd_t" role="3cqZAp">
-                  <node concept="3cpWsn" id="7zM_gLgWd_u" role="3cpWs9">
-                    <property role="TrG5h" value="selectedNode" />
-                    <node concept="3Tqbb2" id="7zM_gLgWdGJ" role="1tU5fm" />
-                    <node concept="2OqwBi" id="7zM_gLgWd_v" role="33vP2m">
-                      <node concept="369mXd" id="7zM_gLgWd_w" role="2Oq$k0" />
-                      <node concept="liA8E" id="7zM_gLgWd_x" role="2OqNvi">
-                        <ref role="37wK5l" to="exr9:~EditorComponent.getSelectedNode()" resolve="getSelectedNode" />
-                      </node>
+      <node concept="3J1_TO" id="RBJGfwJkfd" role="3cqZAp">
+        <node concept="3clFbS" id="RBJGfwJkff" role="1zxBo7">
+          <node concept="3clFbF" id="7zM_gLh98Kr" role="3cqZAp">
+            <node concept="2OqwBi" id="7zM_gLh98Ks" role="3clFbG">
+              <node concept="2OqwBi" id="7zM_gLh98Kt" role="2Oq$k0">
+                <node concept="2OqwBi" id="7zM_gLh98Ku" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7zM_gLh98Kv" role="2Oq$k0">
+                    <node concept="369mXd" id="7zM_gLh98Kw" role="2Oq$k0" />
+                    <node concept="liA8E" id="7zM_gLh98Kx" role="2OqNvi">
+                      <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
                     </node>
                   </node>
+                  <node concept="liA8E" id="7zM_gLh98Ky" role="2OqNvi">
+                    <ref role="37wK5l" to="exr9:~EditorContext.getRepository()" resolve="getRepository" />
+                  </node>
                 </node>
-                <node concept="3clFbF" id="7zM_gLgWbq2" role="3cqZAp">
-                  <node concept="2YIFZM" id="7zM_gLgWbv$" role="3clFbG">
-                    <ref role="37wK5l" node="7zM_gLgW9pw" resolve="setup" />
-                    <ref role="1Pybhc" node="7zM_gLgV_ke" resolve="FlintSourceReferenceGetterTestImpl" />
-                    <node concept="2OqwBi" id="7zM_gLgWdOg" role="37wK5m">
-                      <node concept="37vLTw" id="7zM_gLgWd_y" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7zM_gLgWd_u" resolve="selectedNode" />
-                      </node>
-                      <node concept="2Xjw5R" id="7zM_gLgWdY5" role="2OqNvi">
-                        <node concept="1xMEDy" id="7zM_gLgWdY7" role="1xVPHs">
-                          <node concept="chp4Y" id="7zM_gLgWe0c" role="ri$Ld">
-                            <ref role="cht4Q" to="1z9r:222x$3yHUFH" resolve="TestModelAndSource" />
+                <node concept="liA8E" id="7zM_gLh98Kz" role="2OqNvi">
+                  <ref role="37wK5l" to="lui2:~SRepository.getModelAccess()" resolve="getModelAccess" />
+                </node>
+              </node>
+              <node concept="liA8E" id="7zM_gLh98K$" role="2OqNvi">
+                <ref role="37wK5l" to="lui2:~ModelAccess.executeCommandInEDT(java.lang.Runnable)" resolve="executeCommandInEDT" />
+                <node concept="1bVj0M" id="7zM_gLh98K_" role="37wK5m">
+                  <node concept="3clFbS" id="7zM_gLh98KA" role="1bW5cS">
+                    <node concept="3cpWs8" id="7zM_gLgWd_t" role="3cqZAp">
+                      <node concept="3cpWsn" id="7zM_gLgWd_u" role="3cpWs9">
+                        <property role="TrG5h" value="selectedNode" />
+                        <node concept="3Tqbb2" id="7zM_gLgWdGJ" role="1tU5fm" />
+                        <node concept="2OqwBi" id="7zM_gLgWd_v" role="33vP2m">
+                          <node concept="369mXd" id="7zM_gLgWd_w" role="2Oq$k0" />
+                          <node concept="liA8E" id="7zM_gLgWd_x" role="2OqNvi">
+                            <ref role="37wK5l" to="exr9:~EditorComponent.getSelectedNode()" resolve="getSelectedNode" />
                           </node>
                         </node>
                       </node>
                     </node>
-                    <node concept="Xl_RD" id="7zM_gLhcM1T" role="37wK5m">
-                      <property role="Xl_RC" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
+                    <node concept="3clFbF" id="7zM_gLgWbq2" role="3cqZAp">
+                      <node concept="2YIFZM" id="7zM_gLgWbv$" role="3clFbG">
+                        <ref role="37wK5l" node="7zM_gLgW9pw" resolve="setup" />
+                        <ref role="1Pybhc" node="7zM_gLgV_ke" resolve="FlintSourceReferenceGetterTestImpl" />
+                        <node concept="2OqwBi" id="7zM_gLgWdOg" role="37wK5m">
+                          <node concept="37vLTw" id="7zM_gLgWd_y" role="2Oq$k0">
+                            <ref role="3cqZAo" node="7zM_gLgWd_u" resolve="selectedNode" />
+                          </node>
+                          <node concept="2Xjw5R" id="7zM_gLgWdY5" role="2OqNvi">
+                            <node concept="1xMEDy" id="7zM_gLgWdY7" role="1xVPHs">
+                              <node concept="chp4Y" id="7zM_gLgWe0c" role="ri$Ld">
+                                <ref role="cht4Q" to="1z9r:222x$3yHUFH" resolve="TestModelAndSource" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="7zM_gLhcM1T" role="37wK5m">
+                          <property role="Xl_RC" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
               </node>
             </node>
           </node>
+          <node concept="3vwNmj" id="m$6eIWnP_W" role="3cqZAp">
+            <node concept="2bRw2S" id="m$6eIWnP_X" role="3vwVQn">
+              <ref role="2bRw2V" to="xbql:7F0IgXEzTLv" resolve="SplitLine" />
+            </node>
+          </node>
+          <node concept="1MFPAf" id="m$6eIWnZ0N" role="3cqZAp">
+            <ref role="1MFYO6" to="xbql:7F0IgXEzTLv" resolve="SplitLine" />
+          </node>
         </node>
-      </node>
-      <node concept="3vwNmj" id="m$6eIWnP_W" role="3cqZAp">
-        <node concept="2bRw2S" id="m$6eIWnP_X" role="3vwVQn">
-          <ref role="2bRw2V" to="xbql:7F0IgXEzTLv" resolve="SplitLine" />
+        <node concept="1wplmZ" id="RBJGfwJkhL" role="1zxBo6">
+          <node concept="3clFbS" id="RBJGfwJkhM" role="1wplMD">
+            <node concept="3clFbF" id="RBJGfwJkjO" role="3cqZAp">
+              <node concept="2YIFZM" id="RBJGfwJkjP" role="3clFbG">
+                <ref role="37wK5l" node="4IrXXbMtprT" resolve="reset" />
+                <ref role="1Pybhc" node="7zM_gLgV_ke" resolve="FlintSourceReferenceGetterTestImpl" />
+              </node>
+            </node>
+          </node>
         </node>
-      </node>
-      <node concept="1MFPAf" id="m$6eIWnZ0N" role="3cqZAp">
-        <ref role="1MFYO6" to="xbql:7F0IgXEzTLv" resolve="SplitLine" />
       </node>
       <node concept="3clFbH" id="7zM_gLhe89m" role="3cqZAp" />
       <node concept="3clFbH" id="7zM_gLhe8gT" role="3cqZAp" />
