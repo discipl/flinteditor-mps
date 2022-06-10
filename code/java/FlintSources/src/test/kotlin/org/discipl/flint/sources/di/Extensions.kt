@@ -3,35 +3,67 @@ package org.discipl.flint.sources.di
 import com.github.paweladamski.httpclientmock.HttpClientMock
 import com.github.paweladamski.httpclientmock.HttpClientMockBuilder
 import com.github.paweladamski.httpclientmock.HttpClientResponseBuilder
+import com.google.gson.Gson
+import io.ktor.client.engine.mock.*
+import io.ktor.client.request.*
+import io.ktor.http.*
+import io.ktor.http.content.*
 import org.apache.http.HttpResponse
 import org.apache.http.ProtocolVersion
 import org.apache.http.client.HttpClient
 import org.apache.http.entity.ContentType
 import org.apache.http.entity.StringEntity
 import org.apache.http.message.BasicHttpResponse
-import org.discipl.flint.sources.di.TestSourceLoader.IS_FAKE_HTTP_QUALIFIER
-import org.koin.core.component.get
+import org.discipl.flint.sources.di.Qualifiers.IS_FAKE_HTTP_QUALIFIER
+import org.koin.core.KoinApplication
+import org.koin.core.logger.Level
+import org.koin.core.logger.Logger
+import org.koin.core.logger.MESSAGE
+import org.koin.test.KoinTest
+import org.koin.test.get
+import org.slf4j.LoggerFactory
 import java.net.URL
 import java.net.URLEncoder
 import java.nio.charset.StandardCharsets
 
+fun KoinApplication.slf4JLogger(level: Level = Level.DEBUG): KoinApplication {
+    return this.logger(object : Logger(level) {
+        private val logger: org.slf4j.Logger = LoggerFactory.getLogger(KoinApplication::class.java)
+        override fun log(level: Level, msg: MESSAGE) {
+            when (level) {
+                Level.DEBUG -> logger.debug(msg)
+                Level.INFO -> logger.info(msg)
+                Level.ERROR -> logger.error(msg)
+                Level.NONE -> {}
+            }
+        }
+    })
+}
+
+fun <T : Any> KoinTest.getProperty(key: String): Lazy<T> = lazy {
+    getKoin().getProperty<T>(key) ?: throw Exception("No property named $key")
+}
+
+fun <T : Any> KoinTest.getPropertyNow(key: String): T =
+    getKoin().getProperty(key) ?: throw Exception("No property named $key")
+
 fun HttpClientMockBuilder.doReturnJSONResource(resource: String): HttpClientResponseBuilder {
     @Suppress("EXPERIMENTAL_API_USAGE")
-    return this.doReturnJSON(TestSourceLoader::class.java.getResource(resource)?.readText())
+    return this.doReturnJSON(Qualifiers::class.java.getResource(resource)?.readText())
 }
 
 @Suppress("EXPERIMENTAL_API_USAGE")
-fun isFakeHttp(): Boolean {
-    return TestSourceLoader.get(IS_FAKE_HTTP_QUALIFIER)
+fun KoinTest.isFakeHttp(): Boolean {
+    return this.get(IS_FAKE_HTTP_QUALIFIER)
 }
 
-fun isFakeHttpRun(block: () -> Unit) {
+fun KoinTest.isFakeHttpRun(block: () -> Unit) {
     if (isFakeHttp()) {
         block.invoke()
     }
 }
 
-fun <T> isFakeHttpReturn(block: () -> T): T? {
+fun <T> KoinTest.isFakeHttpReturn(block: () -> T): T? {
     if (isFakeHttp()) {
         return block.invoke()
     }
@@ -40,7 +72,7 @@ fun <T> isFakeHttpReturn(block: () -> T): T? {
 
 private fun resourceResponse(resource: String, contentType: ContentType): HttpResponse {
     val encodedResource = "/" + URLEncoder.encode(resource.substringAfter("/"), StandardCharsets.UTF_8.toString())
-    val responseString = TestSourceLoader::class.java.getResource(encodedResource)?.readText()
+    val responseString = Qualifiers::class.java.getResource(encodedResource)?.readText()
         ?: throw IllegalArgumentException("Resource $resource not found. Encoded as $encodedResource")
     val response = BasicHttpResponse(ProtocolVersion("http", 1, 1), 200, "ok")
     val entity = StringEntity(responseString, "UTF-8")
@@ -59,4 +91,16 @@ fun HttpClientMockBuilder.doReturnResourceForPath(contentType: ContentType): Htt
 
 fun HttpClient.asMock(block: (HttpClientMock) -> Unit) {
     (this as? HttpClientMock)?.let(block)
+}
+
+fun MockRequestHandleScope.respondJson(
+    statusCode: HttpStatusCode,
+    content: String = ""
+): HttpResponseData = respond(content, statusCode, headersOf(HttpHeaders.ContentType to listOf("application/json")))
+
+fun MockRequestHandleScope.respondJsonOk(content: String = "") = respondJson(HttpStatusCode.OK, content)
+
+inline fun <reified T> OutgoingContent.asJson(gson: Gson): T {
+    @Suppress("KotlinConstantConditions") val text = (this as TextContent).text
+    return gson.fromJson(text, T::class.java)
 }

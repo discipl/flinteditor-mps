@@ -4,9 +4,8 @@ import java.util.*
 
 interface DocumentStructureClient {
     fun getDocumentStructures(): List<DocumentStructure>
-}
-
-interface DocumentStructure {
-    val name: String
-    val uuid: UUID
+    interface DocumentStructure {
+        val name: String
+        val uuid: UUID
+    }
 }

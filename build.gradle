@@ -52,7 +52,9 @@ ext {
     mps_version = "2020.3.1"
     node_version = "13.6.0"
     npm_version = "6.13.4"
-    koin_version = "2.2.2"
+    koin_version = "3.2.0-beta-1"
+    ktor_version = "2.0.0"
+    gson_version = "2.8.6"
     jbr_version = "11_0_6-b520.66"
 }
 
@@ -205,7 +207,7 @@ task addMpsLibsToFlintRuntime() {
             stubModelEntries.addElement("stubModelEntry").addAttribute("path", "\${module}/libs/" + it)
         }
 
-        org.dom4j.io.XMLWriter writer = new org.dom4j.io.XMLWriter(new FileWriter(file),  org.dom4j.io.OutputFormat.createPrettyPrint());
+        org.dom4j.io.XMLWriter writer = new org.dom4j.io.XMLWriter(new FileWriter(file), org.dom4j.io.OutputFormat.createPrettyPrint());
         writer.write(document);
         writer.close();
     }
