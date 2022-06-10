@@ -7,6 +7,7 @@ import java.nio.file.Paths
 
 
 class FlintFiller(private val pathToFillerDirString: String, private val outputDirString: String) {
+
     fun run(fileString: String, onCommandOutput: (String) -> Unit = {}): String {
         val flintFillerExecutable = Paths.get("${pathToFillerDirString}/${osSpecificFlintFiller()}")
         val outputDir = Paths.get(outputDirString)

@@ -98,198 +98,256 @@
         </node>
       </node>
       <node concept="3YX88e" id="5mg4KOq2EtZ" role="3YX86K">
-        <property role="TrG5h" value="articles" />
+        <property role="TrG5h" value="text" />
         <node concept="3YX8am" id="5mg4KOq2Eup" role="3YX8ah">
           <node concept="3YX88f" id="5mg4KOq2Euw" role="3YX8ab">
+            <node concept="3YX88e" id="JvSEhVom5T" role="3YX86K">
+              <property role="TrG5h" value="id" />
+              <node concept="3YX86M" id="JvSEhVom6H" role="3YX8ah">
+                <property role="3YX86R" value="testjuriconnect" />
+              </node>
+            </node>
             <node concept="3YX88e" id="5mg4KOq2Euz" role="3YX86K">
               <property role="TrG5h" value="name" />
               <node concept="3YX86M" id="5mg4KOq2EuD" role="3YX8ah">
                 <property role="3YX86R" value="Article1" />
               </node>
             </node>
+            <node concept="3YX88e" id="5mg4KOq2E$z" role="3YX86K">
+              <property role="TrG5h" value="@type" />
+              <node concept="3YX86M" id="5mg4KOq2E$$" role="3YX8ah">
+                <property role="3YX86R" value="SeperatedNamedSourcePartCollection" />
+              </node>
+            </node>
             <node concept="3YX88e" id="5mg4KOq2EuG" role="3YX86K">
-              <property role="TrG5h" value="nameLineNr" />
+              <property role="TrG5h" value="index" />
               <node concept="3YX86D" id="5mg4KOq2EuS" role="3YX8ah">
                 <property role="2xKZ1a" value="1" />
               </node>
             </node>
-            <node concept="3YX88e" id="5mg4KOq2EuU" role="3YX86K">
-              <property role="TrG5h" value="juriConnect" />
-              <node concept="3YX86M" id="5mg4KOq2EuV" role="3YX8ah">
-                <property role="3YX86R" value="testjuriconnect" />
-              </node>
-            </node>
             <node concept="3YX88e" id="5mg4KOq2Ev8" role="3YX86K">
               <property role="TrG5h" value="lines" />
-              <node concept="3YX88f" id="5mg4KOqA4Su" role="3YX8ah">
-                <node concept="3YX88e" id="5mg4KOqA4Sw" role="3YX86K">
-                  <property role="TrG5h" value="id" />
-                  <node concept="3YX86M" id="5mg4KOqA4SQ" role="3YX8ah">
-                    <property role="3YX86R" value="187e081e-9a38-11ec-b909-0242ac120002" />
-                  </node>
-                </node>
-                <node concept="3YX88e" id="5mg4KOqA4ST" role="3YX86K">
-                  <property role="TrG5h" value="lines" />
-                  <node concept="3YX8am" id="5mg4KOq2EvN" role="3YX8ah">
-                    <node concept="3YX88f" id="5mg4KOq2EvU" role="3YX8ab">
-                      <node concept="3YX88e" id="5mg4KOq2EvX" role="3YX86K">
-                        <property role="TrG5h" value="id" />
-                        <node concept="3YX86M" id="5mg4KOq2Ew3" role="3YX8ah">
-                          <property role="3YX86R" value="187e0b0c-9a38-11ec-b909-0242ac120002" />
-                        </node>
-                      </node>
-                      <node concept="3YX88e" id="5mg4KOq2Ew6" role="3YX86K">
-                        <property role="TrG5h" value="text" />
-                        <node concept="3YX86M" id="5mg4KOq2Ew7" role="3YX8ah">
-                          <property role="3YX86R" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis blandit finibus erat, aliquet mattis felis dictum vel. Ut gravida eros vel gravida varius. Maecenas elementum urna leo, nec ultrices lectus placerat eu. Maecenas neque quam, vestibulum in hendrerit vitae, gravida id elit. Quisque ac magna vitae diam semper dignissim et tempus turpis. Donec non convallis orci, quis ultricies diam. Donec bibendum in massa id euismod. In vitae posuere arcu." />
-                        </node>
-                      </node>
-                      <node concept="3YX88e" id="5mg4KOq2Ewc" role="3YX86K">
-                        <property role="TrG5h" value="@type" />
-                        <node concept="3YX86M" id="5mg4KOq2Ewd" role="3YX8ah">
-                          <property role="3YX86R" value="Line" />
-                        </node>
-                      </node>
+              <node concept="3YX8am" id="JvSEhVomQh" role="3YX8ah">
+                <node concept="3YX88f" id="5mg4KOq2EvU" role="3YX8ab">
+                  <node concept="3YX88e" id="5mg4KOq2EvX" role="3YX86K">
+                    <property role="TrG5h" value="id" />
+                    <node concept="3YX86M" id="5mg4KOq2Ew3" role="3YX8ah">
+                      <property role="3YX86R" value="187e0b0c-9a38-11ec-b909-0242ac120002" />
                     </node>
-                    <node concept="3YX88f" id="5mg4KOq2Ewv" role="3YX8ab">
-                      <node concept="3YX88e" id="5mg4KOq2EwD" role="3YX86K">
-                        <property role="TrG5h" value="id" />
-                        <node concept="3YX86M" id="5mg4KOq2EwJ" role="3YX8ah">
-                          <property role="3YX86R" value="187e0c9c-9a38-11ec-b909-0242ac120002" />
-                        </node>
-                      </node>
-                      <node concept="3YX88e" id="5mg4KOq2EwM" role="3YX86K">
-                        <property role="TrG5h" value="lines" />
-                        <node concept="3YX8am" id="5mg4KOq2EwU" role="3YX8ah">
-                          <node concept="3YX88f" id="5mg4KOq2Ex1" role="3YX8ab">
-                            <node concept="3YX88e" id="5mg4KOq2Ex4" role="3YX86K">
-                              <property role="TrG5h" value="id" />
-                              <node concept="3YX86M" id="5mg4KOq2Exa" role="3YX8ah">
-                                <property role="3YX86R" value="187e0ddc-9a38-11ec-b909-0242ac120002" />
-                              </node>
-                            </node>
-                            <node concept="3YX88e" id="5mg4KOq2Exd" role="3YX86K">
-                              <property role="TrG5h" value="prefix" />
-                              <node concept="3YX86M" id="5mg4KOq2Exe" role="3YX8ah">
-                                <property role="3YX86R" value="1" />
-                              </node>
-                            </node>
-                            <node concept="3YX88e" id="5mg4KOq2Exj" role="3YX86K">
-                              <property role="TrG5h" value="text" />
-                              <node concept="3YX86M" id="5mg4KOq2Exk" role="3YX8ah">
-                                <property role="3YX86R" value="Proin eget gravida erat. Curabitur malesuada cursus iaculis. Mauris ultrices dignissim dignissim. Aenean nec odio dolor. Proin et tempor velit, at porttitor mi. Donec sollicitudin ante sagittis, consectetur turpis vel, consequat nisi. Pellentesque scelerisque ipsum id nunc cursus, nec blandit est rhoncus. Vestibulum facilisis sapien quis dignissim commodo. Morbi hendrerit aliquam libero, non tincidunt nulla pretium id. Aliquam erat volutpat. Quisque accumsan ultricies augue, nec efficitur lacus condimentum eget. Aenean auctor, ex a efficitur convallis, velit libero malesuada mauris, convallis cursus velit ex quis tortor." />
-                              </node>
-                            </node>
-                            <node concept="3YX88e" id="5mg4KOq2Exr" role="3YX86K">
-                              <property role="TrG5h" value="@type" />
-                              <node concept="3YX86M" id="5mg4KOq2Exs" role="3YX8ah">
-                                <property role="3YX86R" value="PrefixLine" />
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="3YX88f" id="5mg4KOq2Ex_" role="3YX8ab">
-                            <node concept="3YX88e" id="5mg4KOq2ExA" role="3YX86K">
-                              <property role="TrG5h" value="id" />
-                              <node concept="3YX86M" id="5mg4KOq2ExB" role="3YX8ah">
-                                <property role="3YX86R" value="187e0f08-9a38-11ec-b909-0242ac120002" />
-                              </node>
-                            </node>
-                            <node concept="3YX88e" id="5mg4KOq2ExC" role="3YX86K">
-                              <property role="TrG5h" value="prefix" />
-                              <node concept="3YX86M" id="5mg4KOq2ExD" role="3YX8ah">
-                                <property role="3YX86R" value="2" />
-                              </node>
-                            </node>
-                            <node concept="3YX88e" id="5mg4KOq2ExE" role="3YX86K">
-                              <property role="TrG5h" value="text" />
-                              <node concept="3YX86M" id="5mg4KOq2ExF" role="3YX8ah">
-                                <property role="3YX86R" value="Etiam venenatis orci ut purus egestas, ac rhoncus mauris volutpat. Maecenas id auctor ante. Morbi laoreet et dui non egestas. Pellentesque non nisl ornare, malesuada erat vitae, aliquet tortor. In auctor suscipit nisi sed posuere. Ut tempus, sem vitae aliquet ultrices, tortor felis ornare dolor, vitae feugiat magna odio molestie metus. Ut ac ultricies mi, in efficitur purus. Quisque eu bibendum libero, a pellentesque est. Curabitur egestas enim sit amet imperdiet lacinia. Morbi varius sollicitudin lacus et sollicitudin. Morbi sit amet magna nulla. Aenean ornare, arcu eu commodo posuere, erat lacus vestibulum neque, lobortis ultricies purus lorem eu orci. Maecenas ac leo nisi.\n\n" />
-                              </node>
-                            </node>
-                            <node concept="3YX88e" id="5mg4KOq2ExG" role="3YX86K">
-                              <property role="TrG5h" value="@type" />
-                              <node concept="3YX86M" id="5mg4KOq2ExH" role="3YX8ah">
-                                <property role="3YX86R" value="PrefixLine" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="3YX88e" id="5mg4KOq2Ey0" role="3YX86K">
-                        <property role="TrG5h" value="@type" />
-                        <node concept="3YX86M" id="5mg4KOq2Eys" role="3YX8ah">
-                          <property role="3YX86R" value="LineCollection" />
-                        </node>
-                      </node>
+                  </node>
+                  <node concept="3YX88e" id="5mg4KOq2Ew6" role="3YX86K">
+                    <property role="TrG5h" value="text" />
+                    <node concept="3YX86M" id="5mg4KOq2Ew7" role="3YX8ah">
+                      <property role="3YX86R" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis blandit finibus erat, aliquet mattis felis dictum vel. Ut gravida eros vel gravida varius. Maecenas elementum urna leo, nec ultrices lectus placerat eu. Maecenas neque quam, vestibulum in hendrerit vitae, gravida id elit. Quisque ac magna vitae diam semper dignissim et tempus turpis. Donec non convallis orci, quis ultricies diam. Donec bibendum in massa id euismod. In vitae posuere arcu." />
+                    </node>
+                  </node>
+                  <node concept="3YX88e" id="JvSEhVom8e" role="3YX86K">
+                    <property role="TrG5h" value="index" />
+                    <node concept="3YX86D" id="JvSEhVom8$" role="3YX8ah">
+                      <property role="2xKZ1a" value="0" />
+                    </node>
+                  </node>
+                  <node concept="3YX88e" id="5mg4KOq2Ewc" role="3YX86K">
+                    <property role="TrG5h" value="@type" />
+                    <node concept="3YX86M" id="5mg4KOq2Ewd" role="3YX8ah">
+                      <property role="3YX86R" value="Line" />
                     </node>
                   </node>
                 </node>
-                <node concept="3YX88e" id="5mg4KOq2E$z" role="3YX86K">
-                  <property role="TrG5h" value="@type" />
-                  <node concept="3YX86M" id="5mg4KOq2E$$" role="3YX8ah">
-                    <property role="3YX86R" value="LineCollection" />
+                <node concept="3YX88f" id="5mg4KOqA4Su" role="3YX8ab">
+                  <node concept="3YX88e" id="5mg4KOqA4Sw" role="3YX86K">
+                    <property role="TrG5h" value="id" />
+                    <node concept="3YX86M" id="5mg4KOqA4SQ" role="3YX8ah">
+                      <property role="3YX86R" value="187e0c9c-9a38-11ec-b909-0242ac120002" />
+                    </node>
+                  </node>
+                  <node concept="3YX88e" id="5mg4KOqA4ST" role="3YX86K">
+                    <property role="TrG5h" value="lines" />
+                    <node concept="3YX8am" id="5mg4KOq2EvN" role="3YX8ah">
+                      <node concept="3YX88f" id="5mg4KOq2Ex1" role="3YX8ab">
+                        <node concept="3YX88e" id="5mg4KOq2Ex4" role="3YX86K">
+                          <property role="TrG5h" value="id" />
+                          <node concept="3YX86M" id="5mg4KOq2Exa" role="3YX8ah">
+                            <property role="3YX86R" value="187e0ddc-9a38-11ec-b909-0242ac120002" />
+                          </node>
+                        </node>
+                        <node concept="3YX88e" id="5mg4KOq2Exd" role="3YX86K">
+                          <property role="TrG5h" value="prefix" />
+                          <node concept="3YX86M" id="5mg4KOq2Exe" role="3YX8ah">
+                            <property role="3YX86R" value="1" />
+                          </node>
+                        </node>
+                        <node concept="3YX88e" id="5mg4KOq2Exr" role="3YX86K">
+                          <property role="TrG5h" value="@type" />
+                          <node concept="3YX86M" id="5mg4KOq2Exs" role="3YX8ah">
+                            <property role="3YX86R" value="PrefixSourcePartCollection" />
+                          </node>
+                        </node>
+                        <node concept="3YX88e" id="JvSEhVom8A" role="3YX86K">
+                          <property role="TrG5h" value="index" />
+                          <node concept="3YX86D" id="JvSEhVom8Q" role="3YX8ah">
+                            <property role="2xKZ1a" value="0" />
+                          </node>
+                        </node>
+                        <node concept="3YX88e" id="JvSEhVom9S" role="3YX86K">
+                          <property role="TrG5h" value="lines" />
+                          <node concept="3YX8am" id="JvSEhVoma8" role="3YX8ah">
+                            <node concept="3YX88f" id="JvSEhVomaf" role="3YX8ab">
+                              <node concept="3YX88e" id="JvSEhVomaD" role="3YX86K">
+                                <property role="TrG5h" value="id" />
+                                <node concept="3YX86M" id="JvSEhVomaQ" role="3YX8ah">
+                                  <property role="3YX86R" value="187e0ddc-9a38-11ec-b909-0242ac120002" />
+                                </node>
+                              </node>
+                              <node concept="3YX88e" id="5mg4KOq2Exj" role="3YX86K">
+                                <property role="TrG5h" value="text" />
+                                <node concept="3YX86M" id="5mg4KOq2Exk" role="3YX8ah">
+                                  <property role="3YX86R" value="Proin eget gravida erat. Curabitur malesuada cursus iaculis. Mauris ultrices dignissim dignissim. Aenean nec odio dolor. Proin et tempor velit, at porttitor mi. Donec sollicitudin ante sagittis, consectetur turpis vel, consequat nisi. Pellentesque scelerisque ipsum id nunc cursus, nec blandit est rhoncus. Vestibulum facilisis sapien quis dignissim commodo. Morbi hendrerit aliquam libero, non tincidunt nulla pretium id. Aliquam erat volutpat. Quisque accumsan ultricies augue, nec efficitur lacus condimentum eget. Aenean auctor, ex a efficitur convallis, velit libero malesuada mauris, convallis cursus velit ex quis tortor." />
+                                </node>
+                              </node>
+                              <node concept="3YX88e" id="JvSEhVomaS" role="3YX86K">
+                                <property role="TrG5h" value="index" />
+                                <node concept="3YX86D" id="JvSEhVomba" role="3YX8ah">
+                                  <property role="2xKZ1a" value="0" />
+                                </node>
+                              </node>
+                              <node concept="3YX88e" id="JvSEhVombc" role="3YX86K">
+                                <property role="TrG5h" value="@type" />
+                                <node concept="3YX86M" id="JvSEhVombd" role="3YX8ah">
+                                  <property role="3YX86R" value="Line" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3YX88f" id="5mg4KOq2Ex_" role="3YX8ab">
+                        <node concept="3YX88e" id="5mg4KOq2ExA" role="3YX86K">
+                          <property role="TrG5h" value="id" />
+                          <node concept="3YX86M" id="5mg4KOq2ExB" role="3YX8ah">
+                            <property role="3YX86R" value="187e0f08-9a38-11ec-b909-0242ac120002" />
+                          </node>
+                        </node>
+                        <node concept="3YX88e" id="5mg4KOq2ExC" role="3YX86K">
+                          <property role="TrG5h" value="prefix" />
+                          <node concept="3YX86M" id="5mg4KOq2ExD" role="3YX8ah">
+                            <property role="3YX86R" value="2" />
+                          </node>
+                        </node>
+                        <node concept="3YX88e" id="5mg4KOq2ExG" role="3YX86K">
+                          <property role="TrG5h" value="@type" />
+                          <node concept="3YX86M" id="5mg4KOq2ExH" role="3YX8ah">
+                            <property role="3YX86R" value="PrefixSourcePartCollection" />
+                          </node>
+                        </node>
+                        <node concept="3YX88e" id="JvSEhVon9K" role="3YX86K">
+                          <property role="TrG5h" value="index" />
+                          <node concept="3YX86D" id="JvSEhVona9" role="3YX8ah">
+                            <property role="2xKZ1a" value="0" />
+                          </node>
+                        </node>
+                        <node concept="3YX88e" id="JvSEhVombu" role="3YX86K">
+                          <property role="TrG5h" value="lines" />
+                          <node concept="3YX8am" id="JvSEhVombG" role="3YX8ah">
+                            <node concept="3YX88f" id="JvSEhVombN" role="3YX8ab">
+                              <node concept="3YX88e" id="JvSEhVombY" role="3YX86K">
+                                <property role="TrG5h" value="id" />
+                                <node concept="3YX86M" id="JvSEhVombZ" role="3YX8ah">
+                                  <property role="3YX86R" value="187e0f08-9a38-11ec-b909-0242ac120002" />
+                                </node>
+                              </node>
+                              <node concept="3YX88e" id="5mg4KOq2ExE" role="3YX86K">
+                                <property role="TrG5h" value="text" />
+                                <node concept="3YX86M" id="5mg4KOq2ExF" role="3YX8ah">
+                                  <property role="3YX86R" value="Etiam venenatis orci ut purus egestas, ac rhoncus mauris volutpat. Maecenas id auctor ante. Morbi laoreet et dui non egestas. Pellentesque non nisl ornare, malesuada erat vitae, aliquet tortor. In auctor suscipit nisi sed posuere. Ut tempus, sem vitae aliquet ultrices, tortor felis ornare dolor, vitae feugiat magna odio molestie metus. Ut ac ultricies mi, in efficitur purus. Quisque eu bibendum libero, a pellentesque est. Curabitur egestas enim sit amet imperdiet lacinia. Morbi varius sollicitudin lacus et sollicitudin. Morbi sit amet magna nulla. Aenean ornare, arcu eu commodo posuere, erat lacus vestibulum neque, lobortis ultricies purus lorem eu orci. Maecenas ac leo nisi.\n\n" />
+                                </node>
+                              </node>
+                              <node concept="3YX88e" id="JvSEhVomcF" role="3YX86K">
+                                <property role="TrG5h" value="index" />
+                                <node concept="3YX86D" id="JvSEhVomcX" role="3YX8ah">
+                                  <property role="2xKZ1a" value="0" />
+                                </node>
+                              </node>
+                              <node concept="3YX88e" id="JvSEhVomcZ" role="3YX86K">
+                                <property role="TrG5h" value="@type" />
+                                <node concept="3YX86M" id="JvSEhVomdb" role="3YX8ah">
+                                  <property role="3YX86R" value="Line" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3YX88e" id="JvSEhVomC_" role="3YX86K">
+                    <property role="TrG5h" value="index" />
+                    <node concept="3YX86D" id="JvSEhVomDx" role="3YX8ah">
+                      <property role="2xKZ1a" value="0" />
+                    </node>
+                  </node>
+                  <node concept="3YX88e" id="5mg4KOq2Ey0" role="3YX86K">
+                    <property role="TrG5h" value="@type" />
+                    <node concept="3YX86M" id="5mg4KOq2Eys" role="3YX8ah">
+                      <property role="3YX86R" value="LineCollection" />
+                    </node>
                   </node>
                 </node>
               </node>
             </node>
           </node>
           <node concept="3YX88f" id="5mg4KOq2EAE" role="3YX8ab">
+            <node concept="3YX88e" id="5mg4KOq2EBH" role="3YX86K">
+              <property role="TrG5h" value="id" />
+              <node concept="3YX86M" id="5mg4KOq2EBR" role="3YX8ah">
+                <property role="3YX86R" value="testjuriconnect2" />
+              </node>
+            </node>
             <node concept="3YX88e" id="5mg4KOq2EBo" role="3YX86K">
               <property role="TrG5h" value="name" />
               <node concept="3YX86M" id="5mg4KOq2EBu" role="3YX8ah">
                 <property role="3YX86R" value="Article2" />
               </node>
             </node>
+            <node concept="3YX88e" id="JvSEhVomEd" role="3YX86K">
+              <property role="TrG5h" value="@type" />
+              <node concept="3YX86M" id="JvSEhVomEC" role="3YX8ah">
+                <property role="3YX86R" value="SeperatedNamedSourcePartCollection" />
+              </node>
+            </node>
             <node concept="3YX88e" id="5mg4KOq2EBx" role="3YX86K">
-              <property role="TrG5h" value="nameLineNr" />
+              <property role="TrG5h" value="index" />
               <node concept="3YX86D" id="5mg4KOq2EBF" role="3YX8ah">
                 <property role="2xKZ1a" value="10" />
               </node>
             </node>
-            <node concept="3YX88e" id="5mg4KOq2EBH" role="3YX86K">
-              <property role="TrG5h" value="juriConnect" />
-              <node concept="3YX86M" id="5mg4KOq2EBR" role="3YX8ah">
-                <property role="3YX86R" value="testjuriconnect2" />
-              </node>
-            </node>
             <node concept="3YX88e" id="5mg4KOq2EBU" role="3YX86K">
               <property role="TrG5h" value="lines" />
-              <node concept="3YX88f" id="5mg4KOq2EC6" role="3YX8ah">
-                <node concept="3YX88e" id="5mg4KOq2EC9" role="3YX86K">
-                  <property role="TrG5h" value="id" />
-                  <node concept="3YX86M" id="5mg4KOq2ECf" role="3YX8ah">
-                    <property role="3YX86R" value="187e1930-9a38-11ec-b909-0242ac120002" />
-                  </node>
-                </node>
-                <node concept="3YX88e" id="5mg4KOq2ECi" role="3YX86K">
-                  <property role="TrG5h" value="lines" />
-                  <node concept="3YX8am" id="5mg4KOq2ECx" role="3YX8ah">
-                    <node concept="3YX88f" id="5mg4KOq2ECC" role="3YX8ab">
-                      <node concept="3YX88e" id="5mg4KOq2ECF" role="3YX86K">
-                        <property role="TrG5h" value="id" />
-                        <node concept="3YX86M" id="5mg4KOq2ED1" role="3YX8ah">
-                          <property role="3YX86R" value="187e1804-9a38-11ec-b909-0242ac120002" />
-                        </node>
-                      </node>
-                      <node concept="3YX88e" id="5mg4KOq2ED4" role="3YX86K">
-                        <property role="TrG5h" value="text" />
-                        <node concept="3YX86M" id="5mg4KOq2EDc" role="3YX8ah">
-                          <property role="3YX86R" value="Donec sed justo urna. Nunc suscipit libero ac tellus eleifend pellentesque. Pellentesque quis augue ligula. Nam dolor sapien, placerat nec justo eu, posuere iaculis urna. Nullam sit amet mauris sed lorem bibendum dapibus. Pellentesque odio tellus, ullamcorper at sapien sed, imperdiet ornare diam. Suspendisse iaculis dui mauris, nec congue eros pulvinar fringilla. Pellentesque mollis metus lectus, et porttitor mauris ultrices congue. Nunc mattis congue ultricies. Duis tempor, lacus quis venenatis vulputate, sem elit volutpat tellus, at elementum nulla risus et lacus. Phasellus ornare arcu at mauris rhoncus pulvinar. Vivamus viverra ornare metus ac placerat. Phasellus elementum sagittis mauris, ut gravida mi porta ac. Sed vel felis arcu. Donec lorem augue, dapibus in urna at, ornare facilisis leo. Praesent mollis consectetur magna vitae cursus." />
-                        </node>
-                      </node>
-                      <node concept="3YX88e" id="5mg4KOq2EDf" role="3YX86K">
-                        <property role="TrG5h" value="@type" />
-                        <node concept="3YX86M" id="5mg4KOq2EDp" role="3YX8ah">
-                          <property role="3YX86R" value="Line" />
-                        </node>
-                      </node>
+              <node concept="3YX8am" id="JvSEhVomRk" role="3YX8ah">
+                <node concept="3YX88f" id="5mg4KOq2ECC" role="3YX8ab">
+                  <node concept="3YX88e" id="5mg4KOq2ECF" role="3YX86K">
+                    <property role="TrG5h" value="id" />
+                    <node concept="3YX86M" id="5mg4KOq2ED1" role="3YX8ah">
+                      <property role="3YX86R" value="187e1804-9a38-11ec-b909-0242ac120002" />
                     </node>
                   </node>
-                </node>
-                <node concept="3YX88e" id="5mg4KOq2ECJ" role="3YX86K">
-                  <property role="TrG5h" value="@type" />
-                  <node concept="3YX86M" id="5mg4KOq2ECW" role="3YX8ah">
-                    <property role="3YX86R" value="LineCollection" />
+                  <node concept="3YX88e" id="5mg4KOq2ED4" role="3YX86K">
+                    <property role="TrG5h" value="text" />
+                    <node concept="3YX86M" id="5mg4KOq2EDc" role="3YX8ah">
+                      <property role="3YX86R" value="Donec sed justo urna. Nunc suscipit libero ac tellus eleifend pellentesque. Pellentesque quis augue ligula. Nam dolor sapien, placerat nec justo eu, posuere iaculis urna. Nullam sit amet mauris sed lorem bibendum dapibus. Pellentesque odio tellus, ullamcorper at sapien sed, imperdiet ornare diam. Suspendisse iaculis dui mauris, nec congue eros pulvinar fringilla. Pellentesque mollis metus lectus, et porttitor mauris ultrices congue. Nunc mattis congue ultricies. Duis tempor, lacus quis venenatis vulputate, sem elit volutpat tellus, at elementum nulla risus et lacus. Phasellus ornare arcu at mauris rhoncus pulvinar. Vivamus viverra ornare metus ac placerat. Phasellus elementum sagittis mauris, ut gravida mi porta ac. Sed vel felis arcu. Donec lorem augue, dapibus in urna at, ornare facilisis leo. Praesent mollis consectetur magna vitae cursus." />
+                    </node>
+                  </node>
+                  <node concept="3YX88e" id="JvSEhVomKY" role="3YX86K">
+                    <property role="TrG5h" value="index" />
+                    <node concept="3YX86D" id="JvSEhVomLc" role="3YX8ah">
+                      <property role="2xKZ1a" value="0" />
+                    </node>
+                  </node>
+                  <node concept="3YX88e" id="5mg4KOq2EDf" role="3YX86K">
+                    <property role="TrG5h" value="@type" />
+                    <node concept="3YX86M" id="5mg4KOq2EDp" role="3YX8ah">
+                      <property role="3YX86R" value="Line" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -362,65 +420,60 @@
         </node>
       </node>
       <node concept="3YX88e" id="5mg4KOqepwK" role="3YX86K">
-        <property role="TrG5h" value="articles" />
+        <property role="TrG5h" value="text" />
         <node concept="3YX8am" id="5mg4KOqepxa" role="3YX8ah">
           <node concept="3YX88f" id="5mg4KOqepxh" role="3YX8ab">
+            <node concept="3YX88e" id="5mg4KOqepxD" role="3YX86K">
+              <property role="TrG5h" value="id" />
+              <node concept="3YX86M" id="5mg4KOqepxN" role="3YX8ah">
+                <property role="3YX86R" value="testjuriconnectv2" />
+              </node>
+            </node>
             <node concept="3YX88e" id="5mg4KOqepxk" role="3YX86K">
               <property role="TrG5h" value="name" />
               <node concept="3YX86M" id="5mg4KOqepxq" role="3YX8ah">
                 <property role="3YX86R" value="Article1V2" />
               </node>
             </node>
+            <node concept="3YX88e" id="JvSEhVonzz" role="3YX86K">
+              <property role="TrG5h" value="@type" />
+              <node concept="3YX86M" id="JvSEhVonz$" role="3YX8ah">
+                <property role="3YX86R" value="SeperatedNamedSourcePartCollection" />
+              </node>
+            </node>
             <node concept="3YX88e" id="5mg4KOqepxt" role="3YX86K">
-              <property role="TrG5h" value="nameLineNr" />
+              <property role="TrG5h" value="index" />
               <node concept="3YX86D" id="5mg4KOqepxB" role="3YX8ah">
                 <property role="2xKZ1a" value="1" />
               </node>
             </node>
-            <node concept="3YX88e" id="5mg4KOqepxD" role="3YX86K">
-              <property role="TrG5h" value="juriConnect" />
-              <node concept="3YX86M" id="5mg4KOqepxN" role="3YX8ah">
-                <property role="3YX86R" value="testjuriconnectv2" />
-              </node>
-            </node>
             <node concept="3YX88e" id="5mg4KOqepxQ" role="3YX86K">
               <property role="TrG5h" value="lines" />
-              <node concept="3YX88f" id="5mg4KOqepy2" role="3YX8ah">
-                <node concept="3YX88e" id="5mg4KOqepy5" role="3YX86K">
-                  <property role="TrG5h" value="id" />
-                  <node concept="3YX86M" id="5mg4KOqepyb" role="3YX8ah">
-                    <property role="3YX86R" value="5807143a-9a38-11ec-b909-0242ac120002" />
-                  </node>
-                </node>
-                <node concept="3YX88e" id="5mg4KOqepye" role="3YX86K">
-                  <property role="TrG5h" value="lines" />
-                  <node concept="3YX8am" id="5mg4KOqepyo" role="3YX8ah">
-                    <node concept="3YX88f" id="5mg4KOqepyv" role="3YX8ab">
-                      <node concept="3YX88e" id="5mg4KOqepyy" role="3YX86K">
-                        <property role="TrG5h" value="id" />
-                        <node concept="3YX86M" id="5mg4KOqepyQ" role="3YX8ah">
-                          <property role="3YX86R" value="58071bba-9a38-11ec-b909-0242ac120002" />
-                        </node>
-                      </node>
-                      <node concept="3YX88e" id="5mg4KOqepyA" role="3YX86K">
-                        <property role="TrG5h" value="text" />
-                        <node concept="3YX86M" id="5mg4KOqepz0" role="3YX8ah">
-                          <property role="3YX86R" value="Nullam interdum ex vel finibus finibus. Fusce sed auctor dolor. Nulla tristique quis magna et iaculis. Quisque dapibus et diam nec eleifend. Sed fringilla diam sit amet augue pellentesque, vehicula lobortis sem bibendum. Nam eget lorem sed turpis malesuada molestie interdum eu sem. Curabitur varius urna in egestas lobortis. In malesuada urna neque, posuere blandit quam venenatis nec. In magna mi, pretium non odio quis, fringilla finibus turpis. Maecenas bibendum finibus iaculis." />
-                        </node>
-                      </node>
-                      <node concept="3YX88e" id="5mg4KOqepyG" role="3YX86K">
-                        <property role="TrG5h" value="@type" />
-                        <node concept="3YX86M" id="5mg4KOqepyV" role="3YX8ah">
-                          <property role="3YX86R" value="Line" />
-                        </node>
-                      </node>
+              <node concept="3YX8am" id="JvSEhVonzY" role="3YX8ah">
+                <node concept="3YX88f" id="5mg4KOqepy2" role="3YX8ab">
+                  <node concept="3YX88e" id="5mg4KOqepyy" role="3YX86K">
+                    <property role="TrG5h" value="id" />
+                    <node concept="3YX86M" id="5mg4KOqepyQ" role="3YX8ah">
+                      <property role="3YX86R" value="58071bba-9a38-11ec-b909-0242ac120002" />
                     </node>
                   </node>
-                </node>
-                <node concept="3YX88e" id="5mg4KOqepz3" role="3YX86K">
-                  <property role="TrG5h" value="@type" />
-                  <node concept="3YX86M" id="5mg4KOqepzk" role="3YX8ah">
-                    <property role="3YX86R" value="LineCollection" />
+                  <node concept="3YX88e" id="5mg4KOqepyA" role="3YX86K">
+                    <property role="TrG5h" value="text" />
+                    <node concept="3YX86M" id="5mg4KOqepz0" role="3YX8ah">
+                      <property role="3YX86R" value="Nullam interdum ex vel finibus finibus. Fusce sed auctor dolor. Nulla tristique quis magna et iaculis. Quisque dapibus et diam nec eleifend. Sed fringilla diam sit amet augue pellentesque, vehicula lobortis sem bibendum. Nam eget lorem sed turpis malesuada molestie interdum eu sem. Curabitur varius urna in egestas lobortis. In malesuada urna neque, posuere blandit quam venenatis nec. In magna mi, pretium non odio quis, fringilla finibus turpis. Maecenas bibendum finibus iaculis." />
+                    </node>
+                  </node>
+                  <node concept="3YX88e" id="JvSEhVonMn" role="3YX86K">
+                    <property role="TrG5h" value="index" />
+                    <node concept="3YX86D" id="JvSEhVonM_" role="3YX8ah">
+                      <property role="2xKZ1a" value="0" />
+                    </node>
+                  </node>
+                  <node concept="3YX88e" id="5mg4KOqepyG" role="3YX86K">
+                    <property role="TrG5h" value="@type" />
+                    <node concept="3YX86M" id="5mg4KOqepyV" role="3YX8ah">
+                      <property role="3YX86R" value="Line" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -430,21 +483,24 @@
       </node>
     </node>
   </node>
-  <node concept="3YXoiq" id="5mg4KOqLLje">
-    <property role="TrG5h" value="testlawsource_testversion1_article1.flint.article" />
-    <node concept="3YX88f" id="5mg4KOqLLji" role="3YXoi7" />
-  </node>
-  <node concept="3YXoiq" id="5mg4KOqLLjl">
-    <property role="TrG5h" value="testlawsource_testversion1_article2.flint.article" />
-    <node concept="3YX88f" id="5mg4KOqLLjm" role="3YXoi7" />
-  </node>
-  <node concept="3YXoiq" id="5mg4KOqLLjn">
-    <property role="TrG5h" value="testlawsource_testversion2_article1v2.flint.article" />
-    <node concept="3YX88f" id="5mg4KOqLLjo" role="3YXoi7" />
-  </node>
   <node concept="3YXoiq" id="5mg4KOqLLjp">
     <property role="TrG5h" value="testlawsource.flint.source" />
     <node concept="3YX88f" id="5mg4KOqLLjt" role="3YXoi7" />
+  </node>
+  <node concept="3YXoiq" id="5mg4KOqLLje">
+    <property role="TrG5h" value="91ce4e4840c5d221a1b5f08fc01091064b3d874cb18151791afe9c5b80989db9.flint.article" />
+    <property role="3GE5qa" value="articles" />
+    <node concept="3YX88f" id="5mg4KOqLLji" role="3YXoi7" />
+  </node>
+  <node concept="3YXoiq" id="5mg4KOqLLjl">
+    <property role="TrG5h" value="5f5ba000ee40f99e7f69d137b1eed9a56a72db264bd3364fe885599c8de96b7b.flint.article" />
+    <property role="3GE5qa" value="articles" />
+    <node concept="3YX88f" id="5mg4KOqLLjm" role="3YXoi7" />
+  </node>
+  <node concept="3YXoiq" id="5mg4KOqLLjn">
+    <property role="TrG5h" value="a685e13f257b28f03643f3655001ae37126ad9cb12860ccba6bea5168099cd2e.flint.article" />
+    <property role="3GE5qa" value="articles" />
+    <node concept="3YX88f" id="5mg4KOqLLjo" role="3YXoi7" />
   </node>
 </model>
 
