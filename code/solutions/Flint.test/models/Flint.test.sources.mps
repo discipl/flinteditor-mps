@@ -2,7 +2,7 @@
 <model ref="r:74f2886d-e517-4465-95bb-fc27f756b995(Flint.test.sources)">
   <persistence version="9" />
   <languages>
-    <use id="dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d" name="LawSource" version="1" />
+    <use id="dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d" name="LawSource" version="2" />
   </languages>
   <imports />
   <registry>
@@ -15,10 +15,6 @@
       </concept>
     </language>
     <language id="dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d" name="LawSource">
-      <concept id="1576888484001185141" name="LawSource.structure.Article" flags="ng" index="2AEkrd">
-        <reference id="1576888484001185932" name="version" index="2AErGO" />
-        <child id="8679002930326655623" name="lines" index="3MKX6D" />
-      </concept>
       <concept id="1576888483999340990" name="LawSource.structure.Version" flags="ng" index="2ANm86">
         <property id="1576888484001192140" name="startDate" index="2AEqdO" />
         <property id="1576888484001192141" name="endDate" index="2AEqdP" />
@@ -26,20 +22,25 @@
         <reference id="1576888484001185931" name="source" index="2AErGN" />
       </concept>
       <concept id="1576888483996689830" name="LawSource.structure.LawSource" flags="ng" index="2ATdSu" />
-      <concept id="8679002930326655615" name="LawSource.structure.LineCollection" flags="ng" index="3MKX5h">
+      <concept id="6697972895833994062" name="LawSource.structure.SeperatedNamedContainerReference" flags="ng" index="3v$GAi">
+        <reference id="6697972895833994063" name="namedContainer" index="3v$GAj" />
+      </concept>
+      <concept id="6697972895834190335" name="LawSource.structure.SeperatedNamedContainer" flags="ng" index="3v_WGz">
+        <reference id="3231458622981024335" name="version" index="dW5wK" />
+      </concept>
+      <concept id="5920413357503155457" name="LawSource.structure.PrefixContainer" flags="ng" index="3Fnoml">
+        <property id="5920413357503155458" name="prefix" index="3Fnomm" />
+      </concept>
+      <concept id="8679002930326655615" name="LawSource.structure.SourcePartCollection" flags="ng" index="3MKX5h">
         <child id="8679002930326655621" name="lines" index="3MKX6F" />
       </concept>
       <concept id="8679002930326655612" name="LawSource.structure.Line" flags="ng" index="3MKX5i">
         <child id="3384522145955438525" name="text" index="2qTud8" />
         <child id="8679002930326893284" name="old_text" index="3MLR7a" />
       </concept>
-      <concept id="8679002930326655611" name="LawSource.structure.ArticlePart" flags="ng" index="3MKX5l">
+      <concept id="8679002930326655611" name="LawSource.structure.SourcePart" flags="ng" index="3MKX5l">
         <property id="2215264714367784513" name="lineId" index="1hTQn4" />
-      </concept>
-      <concept id="8679002930326655618" name="LawSource.structure.PrefixLine" flags="ng" index="3MKX6G">
-        <property id="8679002930326901018" name="prefix" index="3MLT8O" />
-        <child id="3384522145955437017" name="text" index="2qTukG" />
-        <child id="8679002930326901016" name="old_text" index="3MLT8Q" />
+        <property id="5920413357502469007" name="index" index="3Fg1Gr" />
       </concept>
       <concept id="3611483123877483678" name="LawSource.structure.LawsourceText" flags="ng" index="1P5Shq" />
       <concept id="3611483123877489781" name="LawSource.structure.LawsourceWord" flags="ng" index="1P5VML" />
@@ -63,25 +64,13 @@
     <property role="2AEqdO" value="21-02-2021" />
     <property role="2AEqdP" value="22-02-2024" />
     <ref role="2AErGN" node="67MoKbccd1c" resolve="Test" />
-  </node>
-  <node concept="2AEkrd" id="67MoKbccd1e">
-    <property role="TrG5h" value="Test Article" />
-    <ref role="2AErGO" node="67MoKbccd1d" resolve="TestVersion" />
-    <node concept="3MKX5h" id="67MoKbccd1f" role="3MKX6D">
-      <property role="1hTQn4" value="lineid321324" />
-      <node concept="3MKX5i" id="67MoKbccd1g" role="3MKX6F">
-        <property role="1hTQn4" value="lineid32523523" />
-        <node concept="19SGf9" id="67MoKbccd1h" role="3MLR7a">
-          <node concept="19SUe$" id="67MoKbccd1i" role="19SJt6">
-            <property role="19SUeA" value="example source text" />
-          </node>
-        </node>
-        <node concept="1P5Shq" id="4wUiobd6auv" role="2qTud8">
-          <node concept="1P5VML" id="4wUiobd6aux" role="19SJt6">
-            <property role="19SUeA" value="example source text" />
-          </node>
-        </node>
-      </node>
+    <node concept="3v$GAi" id="5WN4PLG0900" role="3MKX6F">
+      <property role="3Fg1Gr" value="0" />
+      <ref role="3v$GAj" node="5WN4PLG08ZZ" resolve="Test Article" />
+    </node>
+    <node concept="3v$GAi" id="5WN4PLG0GdF" role="3MKX6F">
+      <property role="3Fg1Gr" value="0" />
+      <ref role="3v$GAj" node="5WN4PLG0GdE" resolve="Test Article" />
     </node>
   </node>
   <node concept="2ATdSu" id="67MoKbccd1m">
@@ -94,26 +83,61 @@
     <property role="2AEqdO" value="25-02-2022" />
     <property role="2AEqdP" value="27-03-2025" />
     <ref role="2AErGN" node="67MoKbccd1m" resolve="Test 2" />
+    <node concept="3v$GAi" id="5WN4PLG0902" role="3MKX6F">
+      <property role="3Fg1Gr" value="0" />
+      <ref role="3v$GAj" node="5WN4PLG0901" resolve="Test Article 2" />
+    </node>
+    <node concept="3v$GAi" id="5WN4PLG0GdH" role="3MKX6F">
+      <property role="3Fg1Gr" value="0" />
+      <ref role="3v$GAj" node="5WN4PLG0GdG" resolve="Test Article 2" />
+    </node>
   </node>
-  <node concept="2AEkrd" id="67MoKbccd1o">
-    <property role="TrG5h" value="Test Article 2" />
-    <ref role="2AErGO" node="67MoKbccd1n" resolve="Test 2 Version" />
-    <node concept="3MKX5h" id="67MoKbccd1p" role="3MKX6D">
-      <node concept="3MKX6G" id="67MoKbccd1q" role="3MKX6F">
-        <property role="3MLT8O" value="1." />
-        <property role="1hTQn4" value="lineid123" />
-        <node concept="19SGf9" id="67MoKbccd1r" role="3MLT8Q">
-          <node concept="19SUe$" id="67MoKbccd1z" role="19SJt6">
-            <property role="19SUeA" value="This is a prefix line" />
-          </node>
+  <node concept="3v_WGz" id="5WN4PLG08ZZ">
+    <property role="TrG5h" value="Test Article" />
+    <property role="3Fg1Gr" value="0" />
+    <ref role="dW5wK" node="67MoKbccd1d" resolve="TestVersion" />
+    <node concept="3MKX5i" id="67MoKbccd1g" role="3MKX6F">
+      <property role="1hTQn4" value="lineid32523523" />
+      <node concept="19SGf9" id="67MoKbccd1h" role="3MLR7a">
+        <node concept="19SUe$" id="67MoKbccd1i" role="19SJt6">
+          <property role="19SUeA" value="example source text" />
         </node>
-        <node concept="1P5Shq" id="4wUiobd6auZ" role="2qTukG">
-          <node concept="1P5VML" id="4wUiobd6av1" role="19SJt6">
+      </node>
+      <node concept="1P5Shq" id="4CfA7o_1R$z" role="2qTud8">
+        <node concept="1P5VML" id="4CfA7o_1R$_" role="19SJt6">
+          <property role="19SUeA" value="example source text" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3v_WGz" id="5WN4PLG0901">
+    <property role="TrG5h" value="Test Article 2" />
+    <property role="3Fg1Gr" value="0" />
+    <ref role="dW5wK" node="67MoKbccd1n" resolve="Test 2 Version" />
+    <node concept="3Fnoml" id="4CfA7o_20hO" role="3MKX6F">
+      <property role="3Fg1Gr" value="0" />
+      <property role="1hTQn4" value="lineid123" />
+      <property role="3Fnomm" value="1." />
+      <node concept="3MKX5i" id="4CfA7o_20hP" role="3MKX6F">
+        <property role="3Fg1Gr" value="0" />
+        <property role="1hTQn4" value="lineid123" />
+        <node concept="1P5Shq" id="4CfA7o_20hQ" role="2qTud8">
+          <node concept="1P5VML" id="4CfA7o_20hS" role="19SJt6">
             <property role="19SUeA" value="This is a prefix line" />
           </node>
         </node>
       </node>
     </node>
+  </node>
+  <node concept="3v_WGz" id="5WN4PLG0GdE">
+    <property role="TrG5h" value="Test Article" />
+    <property role="3Fg1Gr" value="0" />
+    <ref role="dW5wK" node="67MoKbccd1d" resolve="TestVersion" />
+  </node>
+  <node concept="3v_WGz" id="5WN4PLG0GdG">
+    <property role="TrG5h" value="Test Article 2" />
+    <property role="3Fg1Gr" value="0" />
+    <ref role="dW5wK" node="67MoKbccd1n" resolve="Test 2 Version" />
   </node>
 </model>
 
