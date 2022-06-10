@@ -11,20 +11,18 @@ interface AsyncTextLineClient {
         publicationId: UUID,
         parserId: UUID,
         versionId: String
-    ): List<AsyncTextLine>
+    ): List<NewTextLine>
 
     fun getParseRequestStatus(parseRequestId: UUID, publicationId: UUID, parserId: UUID, versionId: String): String
-}
 
-interface AsyncTextLine {
-    val structure: String
-    val type: String?
-    val teken: String?
-    val bibliographicIdentifierString: String?
-    val text: String
-    val id: String
-    val parent: String?
-    val next: String?
-    val textNodeType: String?
-    val number: String?
+    interface NewTextLine {
+        val id: String
+        val type: String
+        val textNodeType: String?
+        val parent: String?
+        val next: String?
+        val text: String?
+        val prefix: String?
+        val juriConnect: String?
+    }
 }
