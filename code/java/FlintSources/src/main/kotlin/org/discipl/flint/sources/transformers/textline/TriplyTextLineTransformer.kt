@@ -1,8 +1,6 @@
 package org.discipl.flint.sources.transformers.textline
 
 import mu.KLogging
-import org.discipl.flint.sources.models.parts.ContainerImpl
-import org.discipl.flint.sources.models.parts.TextLineImpl
 import org.discipl.flint.sources.clients.nsx.TriplyNsxTextLineClient.TriplyTextLine
 import org.discipl.flint.sources.models.parts.*
 

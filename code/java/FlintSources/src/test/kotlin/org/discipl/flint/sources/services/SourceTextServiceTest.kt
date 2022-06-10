@@ -4,9 +4,12 @@ import com.github.seregamorph.hamcrest.OrderMatchers.strictOrdered
 import mu.KLogging
 import org.discipl.flint.sources.clients.nsx.QuintorApiNsxTextLineClient
 import org.discipl.flint.sources.clients.nsx.models.NsxTextLinesForVersionRequest
-import org.discipl.flint.sources.di.*
 import org.discipl.flint.sources.di.KoinQualifiers.Properties.ClientIds
+import org.discipl.flint.sources.di.Qualifiers
+import org.discipl.flint.sources.di.RequestHandler
 import org.discipl.flint.sources.di.RequestHandler.Companion.assertAllCasesExecuted
+import org.discipl.flint.sources.di.TestWithTestExtension
+import org.discipl.flint.sources.di.getPropertyNow
 import org.discipl.flint.sources.di.responsecase.ParsingResultCase.Companion.parsingResultCase
 import org.discipl.flint.sources.di.responsecase.ParsingStatusCase.Companion.parsingStatusCase
 import org.discipl.flint.sources.di.responsecase.RequestParsingCase.Companion.requestParsingCase
@@ -64,7 +67,7 @@ internal class SourceTextServiceTest : KoinTest, TestWithTestExtension() {
     @Test
     fun requestParsingCsv() {
         val versionId = "BWBR0011825/2020-08-01"
-        val parts =getTextLinesForVersion(ClientIds.csv, versionId, "csvResponse.json")
+        val parts = getTextLinesForVersion(ClientIds.csv, versionId, "csvResponse.json")
         val named = parts.flatMap { it.namedContainers() }
         named.forEach { logger.info { it.name + " " + it.index } }
         val testContainer =
@@ -78,7 +81,7 @@ internal class SourceTextServiceTest : KoinTest, TestWithTestExtension() {
     @Test
     fun requestParsingEngCsv() {
         val versionId = "BWBR0011825/2020-08-01"
-        val parts =getTextLinesForVersion(ClientIds.csv, versionId, "csvResponseEng.json")
+        val parts = getTextLinesForVersion(ClientIds.csv, versionId, "csvResponseEng.json")
         val named = parts.flatMap { it.namedContainers() }
         named.forEach { logger.info { it.name + " " + it.index } }
         val testContainer =
@@ -92,7 +95,7 @@ internal class SourceTextServiceTest : KoinTest, TestWithTestExtension() {
     @Test
     fun requestParsingJuriDecompose() {
         val versionId = "BWBR0011825/2020-08-01"
-        val parts =getTextLinesForVersion(ClientIds.juridecompose, versionId, "juridecomposewithhoofdstukken.json")
+        val parts = getTextLinesForVersion(ClientIds.juridecompose, versionId, "juridecomposewithhoofdstukken.json")
         val named = parts.flatMap { it.namedContainers() }
         named.forEach { logger.info { it.name + " " + it.index } }
         val first = named.first { it.name == "Artikel2e" }

@@ -3,7 +3,6 @@ package org.discipl.flint.sources.di
 import com.github.paweladamski.httpclientmock.HttpClientMock
 import io.ktor.client.engine.mock.*
 import io.mockk.mockkClass
-import mu.KLogging
 import mu.NamedKLogging
 import org.apache.http.client.HttpClient
 import org.discipl.flint.sources.di.Qualifiers.IS_FAKE_HTTP_QUALIFIER

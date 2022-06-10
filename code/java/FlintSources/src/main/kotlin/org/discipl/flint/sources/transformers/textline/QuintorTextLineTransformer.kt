@@ -1,8 +1,6 @@
 package org.discipl.flint.sources.transformers.textline
 
 import mu.KLogging
-import org.discipl.flint.sources.models.parts.ContainerImpl
-import org.discipl.flint.sources.models.parts.TextLineImpl
 import org.discipl.flint.sources.clients.nsx.QuintorApiNsxTextLineClient.QuintorApiNsxTextLine
 import org.discipl.flint.sources.models.parts.*
 
@@ -78,12 +76,14 @@ class QuintorTextLineTransformer : NewTextLineTransformer<QuintorApiNsxTextLine>
     }
 
 
-    class TextLineReversedSiblingIterable(private val siblings: List<QuintorApiNsxTextLine>) : Iterable<QuintorApiNsxTextLine> {
+    class TextLineReversedSiblingIterable(private val siblings: List<QuintorApiNsxTextLine>) :
+        Iterable<QuintorApiNsxTextLine> {
         override fun iterator(): Iterator<QuintorApiNsxTextLine> {
             return TextLineReversedSiblingIterator(siblings)
         }
 
-        class TextLineReversedSiblingIterator(private val siblings: List<QuintorApiNsxTextLine>) : Iterator<QuintorApiNsxTextLine> {
+        class TextLineReversedSiblingIterator(private val siblings: List<QuintorApiNsxTextLine>) :
+            Iterator<QuintorApiNsxTextLine> {
             private var next = siblings.firstOrNull { it.next == null }
 
             override fun hasNext(): Boolean {
