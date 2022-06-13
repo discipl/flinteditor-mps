@@ -27,6 +27,7 @@
       <sourceRoot location="jackson-annotations.jar" />
       <sourceRoot location="jackson-core.jar" />
       <sourceRoot location="jackson-databind.jar" />
+      <sourceRoot location="jakarta.json.jar" />
       <sourceRoot location="javax.annotation-api.jar" />
       <sourceRoot location="jena-arq.jar" />
       <sourceRoot location="jena-base.jar" />
@@ -36,23 +37,30 @@
       <sourceRoot location="json-simple.jar" />
       <sourceRoot location="jsonld-java.jar" />
       <sourceRoot location="jsoup.jar" />
-      <sourceRoot location="koin-core.jar" />
+      <sourceRoot location="koin-core-jvm-3.2.0-beta.jar" />
+      <sourceRoot location="kotlin-logging-jvm.jar" />
+      <sourceRoot location="kotlin-reflect.jar" />
       <sourceRoot location="kotlin-stdlib-common.jar" />
       <sourceRoot location="kotlin-stdlib-jdk7.jar" />
       <sourceRoot location="kotlin-stdlib-jdk8.jar" />
       <sourceRoot location="kotlin-stdlib.jar" />
       <sourceRoot location="kotlinx-coroutines-core-jvm.jar" />
+      <sourceRoot location="kotlinx-coroutines-jdk8.jar" />
+      <sourceRoot location="kotlinx-coroutines-slf4j.jar" />
       <sourceRoot location="ktor-client-apache-jvm.jar" />
+      <sourceRoot location="ktor-client-content-negotiation-jvm.jar" />
       <sourceRoot location="ktor-client-core-jvm.jar" />
-      <sourceRoot location="ktor-client-gson-jvm.jar" />
-      <sourceRoot location="ktor-client-json-jvm.jar" />
       <sourceRoot location="ktor-client-logging-jvm.jar" />
-      <sourceRoot location="ktor-http-cio-jvm.jar" />
+      <sourceRoot location="ktor-events-jvm.jar" />
       <sourceRoot location="ktor-http-jvm.jar" />
       <sourceRoot location="ktor-io-jvm.jar" />
-      <sourceRoot location="ktor-network-jvm.jar" />
+      <sourceRoot location="ktor-serialization-gson-jvm.jar" />
+      <sourceRoot location="ktor-serialization-jvm.jar" />
       <sourceRoot location="ktor-utils-jvm.jar" />
+      <sourceRoot location="ktor-websocket-serialization-jvm.jar" />
+      <sourceRoot location="ktor-websockets-jvm.jar" />
       <sourceRoot location="libthrift.jar" />
+      <sourceRoot location="titanium-json-ld.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -83,6 +91,7 @@
     <stubModelEntry path="${module}/libs/jackson-annotations.jar" />
     <stubModelEntry path="${module}/libs/jackson-core.jar" />
     <stubModelEntry path="${module}/libs/jackson-databind.jar" />
+    <stubModelEntry path="${module}/libs/jakarta.json.jar" />
     <stubModelEntry path="${module}/libs/javax.annotation-api.jar" />
     <stubModelEntry path="${module}/libs/jena-arq.jar" />
     <stubModelEntry path="${module}/libs/jena-base.jar" />
@@ -92,28 +101,36 @@
     <stubModelEntry path="${module}/libs/json-simple.jar" />
     <stubModelEntry path="${module}/libs/jsonld-java.jar" />
     <stubModelEntry path="${module}/libs/jsoup.jar" />
-    <stubModelEntry path="${module}/libs/koin-core.jar" />
+    <stubModelEntry path="${module}/libs/koin-core-jvm-3.2.0-beta.jar" />
+    <stubModelEntry path="${module}/libs/kotlin-logging-jvm.jar" />
+    <stubModelEntry path="${module}/libs/kotlin-reflect.jar" />
     <stubModelEntry path="${module}/libs/kotlin-stdlib-common.jar" />
     <stubModelEntry path="${module}/libs/kotlin-stdlib-jdk7.jar" />
     <stubModelEntry path="${module}/libs/kotlin-stdlib-jdk8.jar" />
     <stubModelEntry path="${module}/libs/kotlin-stdlib.jar" />
     <stubModelEntry path="${module}/libs/kotlinx-coroutines-core-jvm.jar" />
+    <stubModelEntry path="${module}/libs/kotlinx-coroutines-jdk8.jar" />
+    <stubModelEntry path="${module}/libs/kotlinx-coroutines-slf4j.jar" />
     <stubModelEntry path="${module}/libs/ktor-client-apache-jvm.jar" />
+    <stubModelEntry path="${module}/libs/ktor-client-content-negotiation-jvm.jar" />
     <stubModelEntry path="${module}/libs/ktor-client-core-jvm.jar" />
-    <stubModelEntry path="${module}/libs/ktor-client-gson-jvm.jar" />
-    <stubModelEntry path="${module}/libs/ktor-client-json-jvm.jar" />
     <stubModelEntry path="${module}/libs/ktor-client-logging-jvm.jar" />
-    <stubModelEntry path="${module}/libs/ktor-http-cio-jvm.jar" />
+    <stubModelEntry path="${module}/libs/ktor-events-jvm.jar" />
     <stubModelEntry path="${module}/libs/ktor-http-jvm.jar" />
     <stubModelEntry path="${module}/libs/ktor-io-jvm.jar" />
-    <stubModelEntry path="${module}/libs/ktor-network-jvm.jar" />
+    <stubModelEntry path="${module}/libs/ktor-serialization-gson-jvm.jar" />
+    <stubModelEntry path="${module}/libs/ktor-serialization-jvm.jar" />
     <stubModelEntry path="${module}/libs/ktor-utils-jvm.jar" />
+    <stubModelEntry path="${module}/libs/ktor-websocket-serialization-jvm.jar" />
+    <stubModelEntry path="${module}/libs/ktor-websockets-jvm.jar" />
     <stubModelEntry path="${module}/libs/libthrift.jar" />
+    <stubModelEntry path="${module}/libs/titanium-json-ld.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
+    <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:5ebf7652-f137-4ddb-887b-cec2016d95f0:Resources" version="0" />
@@ -134,6 +151,7 @@
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
+    <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="9e98f4e2-decf-4e97-bf80-9109e8b759aa(jetbrains.mps.lang.feedback.context)" version="0" />
   </dependencyVersions>
 </solution>
