@@ -35842,5 +35842,131 @@
       </node>
     </node>
   </node>
+  <node concept="312cEu" id="42wf6xtKiN5">
+    <property role="TrG5h" value="DevUtils" />
+    <node concept="2YIFZL" id="42wf6xtKknT" role="jymVt">
+      <property role="TrG5h" value="isDev" />
+      <node concept="10P_77" id="42wf6xtKmoT" role="3clF45" />
+      <node concept="3Tm1VV" id="42wf6xtKknW" role="1B3o_S" />
+      <node concept="3clFbS" id="42wf6xtKknX" role="3clF47">
+        <node concept="3cpWs8" id="1bPqaB7HBa$" role="3cqZAp">
+          <node concept="3cpWsn" id="1bPqaB7HBa_" role="3cpWs9">
+            <property role="TrG5h" value="pathMacros" />
+            <node concept="3uibUv" id="1bPqaB7HBad" role="1tU5fm">
+              <ref role="3uigEE" to="z1c3:~PathMacros" resolve="PathMacros" />
+            </node>
+            <node concept="2OqwBi" id="1bPqaB7HBaA" role="33vP2m">
+              <node concept="37vLTw" id="42wf6xtKlc8" role="2Oq$k0">
+                <ref role="3cqZAo" node="42wf6xtKl4I" resolve="project" />
+              </node>
+              <node concept="liA8E" id="1bPqaB7HBaC" role="2OqNvi">
+                <ref role="37wK5l" to="z1c4:~MPSProject.getComponent(java.lang.Class)" resolve="getComponent" />
+                <node concept="3VsKOn" id="1bPqaB7HBaD" role="37wK5m">
+                  <ref role="3VsUkX" to="z1c3:~PathMacros" resolve="PathMacros" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1bPqaB7HBFl" role="3cqZAp">
+          <node concept="3cpWsn" id="1bPqaB7HBFm" role="3cpWs9">
+            <property role="TrG5h" value="dev" />
+            <node concept="3uibUv" id="1bPqaB7HBF4" role="1tU5fm">
+              <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+            </node>
+            <node concept="2OqwBi" id="1bPqaB7HBFn" role="33vP2m">
+              <node concept="37vLTw" id="1bPqaB7HBFo" role="2Oq$k0">
+                <ref role="3cqZAo" node="1bPqaB7HBa_" resolve="pathMacros" />
+              </node>
+              <node concept="liA8E" id="1bPqaB7HBFp" role="2OqNvi">
+                <ref role="37wK5l" to="z1c3:~PathMacros.getValue(java.lang.String)" resolve="getValue" />
+                <node concept="Xl_RD" id="1bPqaB7HBFq" role="37wK5m">
+                  <property role="Xl_RC" value="dev" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="42wf6xtKlx4" role="3cqZAp">
+          <node concept="17R0WA" id="42wf6xtKlXi" role="3cqZAk">
+            <node concept="Xl_RD" id="42wf6xtKm4I" role="3uHU7w">
+              <property role="Xl_RC" value="true" />
+            </node>
+            <node concept="37vLTw" id="42wf6xtKlC_" role="3uHU7B">
+              <ref role="3cqZAo" node="1bPqaB7HBFm" resolve="dev" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="42wf6xtKl4I" role="3clF46">
+        <property role="TrG5h" value="project" />
+        <node concept="3uibUv" id="42wf6xtKl4H" role="1tU5fm">
+          <ref role="3uigEE" to="z1c4:~MPSProject" resolve="MPSProject" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="42wf6xtKsfV" role="jymVt" />
+    <node concept="2YIFZL" id="42wf6xtKsUp" role="jymVt">
+      <property role="TrG5h" value="isDev" />
+      <node concept="3clFbS" id="42wf6xtKsUs" role="3clF47">
+        <node concept="3cpWs8" id="42wf6xtKwam" role="3cqZAp">
+          <node concept="3cpWsn" id="42wf6xtKwan" role="3cpWs9">
+            <property role="TrG5h" value="project" />
+            <node concept="3uibUv" id="42wf6xtKw9U" role="1tU5fm">
+              <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
+            </node>
+            <node concept="2YIFZM" id="42wf6xtKwao" role="33vP2m">
+              <ref role="37wK5l" to="alof:~ProjectHelper.getProject(org.jetbrains.mps.openapi.module.SRepository)" resolve="getProject" />
+              <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+              <node concept="2OqwBi" id="42wf6xtKwap" role="37wK5m">
+                <node concept="37vLTw" id="42wf6xtKwaq" role="2Oq$k0">
+                  <ref role="3cqZAo" node="42wf6xtKtbq" resolve="context" />
+                </node>
+                <node concept="liA8E" id="42wf6xtKwar" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="42wf6xtKxUg" role="3cqZAp">
+          <node concept="3cpWsn" id="42wf6xtKxUh" role="3cpWs9">
+            <property role="TrG5h" value="ideaProject" />
+            <node concept="3uibUv" id="42wf6xtKxTH" role="1tU5fm">
+              <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
+            </node>
+            <node concept="2YIFZM" id="42wf6xtKxUi" role="33vP2m">
+              <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
+              <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+              <node concept="37vLTw" id="42wf6xtKxUj" role="37wK5m">
+                <ref role="3cqZAo" node="42wf6xtKwan" resolve="project" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="42wf6xtKwrg" role="3cqZAp">
+          <node concept="1rXfSq" id="42wf6xtKwAR" role="3cqZAk">
+            <ref role="37wK5l" node="42wf6xtKknT" resolve="isDev" />
+            <node concept="2YIFZM" id="42wf6xtKxcg" role="37wK5m">
+              <ref role="37wK5l" to="alof:~ProjectHelper.fromIdeaProject(com.intellij.openapi.project.Project)" resolve="fromIdeaProject" />
+              <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+              <node concept="37vLTw" id="42wf6xtKy4i" role="37wK5m">
+                <ref role="3cqZAo" node="42wf6xtKxUh" resolve="ideaProject" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="42wf6xtKsx7" role="1B3o_S" />
+      <node concept="10P_77" id="42wf6xtKsUa" role="3clF45" />
+      <node concept="37vLTG" id="42wf6xtKtbq" role="3clF46">
+        <property role="TrG5h" value="context" />
+        <node concept="3uibUv" id="42wf6xtKtbp" role="1tU5fm">
+          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+        </node>
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="42wf6xtKiN6" role="1B3o_S" />
+  </node>
 </model>
 

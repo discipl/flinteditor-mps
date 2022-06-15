@@ -64,4 +64,5 @@ compileTestKotlin {
 
 test {
     useJUnitPlatform()
+    environment "BUILD_DIR", project.buildDir
 }

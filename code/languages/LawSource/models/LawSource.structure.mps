@@ -299,5 +299,35 @@
     <property role="3GE5qa" value="sources" />
     <ref role="1TJDcQ" to="87nw:2dWzqxEB$Tx" resolve="Text" />
   </node>
+  <node concept="1TIwiD" id="42wf6xthUeM">
+    <property role="EcuMT" value="4656788433640334258" />
+    <property role="TrG5h" value="Table" />
+    <property role="3GE5qa" value="sources" />
+    <ref role="1TJDcQ" node="7xM0MUaGt9Z" resolve="SourcePartCollection" />
+  </node>
+  <node concept="1TIwiD" id="42wf6xthUgO">
+    <property role="EcuMT" value="4656788433640334388" />
+    <property role="3GE5qa" value="sources" />
+    <property role="TrG5h" value="TableGroup" />
+    <ref role="1TJDcQ" node="7xM0MUaGt9Z" resolve="SourcePartCollection" />
+  </node>
+  <node concept="1TIwiD" id="42wf6xthUhw">
+    <property role="EcuMT" value="4656788433640334432" />
+    <property role="3GE5qa" value="sources" />
+    <property role="TrG5h" value="TableHead" />
+    <ref role="1TJDcQ" node="7xM0MUaGt9Z" resolve="SourcePartCollection" />
+  </node>
+  <node concept="1TIwiD" id="42wf6xthUic">
+    <property role="EcuMT" value="4656788433640334476" />
+    <property role="3GE5qa" value="sources" />
+    <property role="TrG5h" value="TableRow" />
+    <ref role="1TJDcQ" node="7xM0MUaGt9Z" resolve="SourcePartCollection" />
+  </node>
+  <node concept="1TIwiD" id="42wf6xtt03o">
+    <property role="EcuMT" value="4656788433643241688" />
+    <property role="3GE5qa" value="sources" />
+    <property role="TrG5h" value="TableBody" />
+    <ref role="1TJDcQ" node="7xM0MUaGt9Z" resolve="SourcePartCollection" />
+  </node>
 </model>
 

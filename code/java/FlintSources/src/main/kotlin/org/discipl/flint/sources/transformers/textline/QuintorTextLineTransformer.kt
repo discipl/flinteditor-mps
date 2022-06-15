@@ -56,7 +56,8 @@ class QuintorTextLineTransformer : NewTextLineTransformer<QuintorApiNsxTextLine>
                     textLine.prefix!!
                 )
             } else {
-                ContainerImpl(
+                val tablePart = toTablePart(textLine, children, remainingLines, allLines)
+                tablePart ?: ContainerImpl(
                     textLine.id,
                     textLine.tag,
                     allLines.indexOf(textLine),
@@ -75,6 +76,46 @@ class QuintorTextLineTransformer : NewTextLineTransformer<QuintorApiNsxTextLine>
         return container
     }
 
+    fun toTablePart(
+        textLine: QuintorApiNsxTextLine,
+        children: List<QuintorApiNsxTextLine>,
+        remainingLines: MutableList<QuintorApiNsxTextLine>,
+        allLines: List<QuintorApiNsxTextLine>
+    ): SourcePart? {
+        return when (textLine.tag) {
+            "atable" -> Table(
+                textLine.id,
+                textLine.tag,
+                allLines.indexOf(textLine),
+                children.map { transform(it, remainingLines, allLines) },
+            )
+            "tgroup" -> TableGroup(
+                textLine.id,
+                textLine.tag,
+                allLines.indexOf(textLine),
+                children.map { transform(it, remainingLines, allLines) },
+            )
+            "athead" -> TableHead(
+                textLine.id,
+                textLine.tag,
+                allLines.indexOf(textLine),
+                children.map { transform(it, remainingLines, allLines) },
+            )
+            "atbody" -> TableBody(
+                textLine.id,
+                textLine.tag,
+                allLines.indexOf(textLine),
+                children.map { transform(it, remainingLines, allLines) },
+            )
+            "row" -> TableRow(
+                textLine.id,
+                textLine.tag,
+                allLines.indexOf(textLine),
+                children.map { transform(it, remainingLines, allLines) },
+            )
+            else -> null
+        }
+    }
 
     class TextLineReversedSiblingIterable(private val siblings: List<QuintorApiNsxTextLine>) :
         Iterable<QuintorApiNsxTextLine> {

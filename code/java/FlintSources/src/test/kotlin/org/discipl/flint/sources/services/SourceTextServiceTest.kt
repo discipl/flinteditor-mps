@@ -1,6 +1,7 @@
 package org.discipl.flint.sources.services
 
 import com.github.seregamorph.hamcrest.OrderMatchers.strictOrdered
+import kotlinx.coroutines.runBlocking
 import mu.KLogging
 import org.discipl.flint.sources.clients.nsx.QuintorApiNsxTextLineClient
 import org.discipl.flint.sources.clients.nsx.models.NsxTextLinesForVersionRequest
@@ -14,9 +15,9 @@ import org.discipl.flint.sources.di.responsecase.ParsingResultCase.Companion.par
 import org.discipl.flint.sources.di.responsecase.ParsingStatusCase.Companion.parsingStatusCase
 import org.discipl.flint.sources.di.responsecase.RequestParsingCase.Companion.requestParsingCase
 import org.discipl.flint.sources.models.parts.*
+import org.discipl.flint.sources.plantuml.DiagramBuilder
 import org.hamcrest.MatcherAssert.assertThat
-import org.hamcrest.Matchers.hasSize
-import org.hamcrest.Matchers.`is`
+import org.hamcrest.Matchers.*
 import org.junit.jupiter.api.Test
 import org.koin.test.KoinTest
 import org.koin.test.get
@@ -29,6 +30,7 @@ internal class SourceTextServiceTest : KoinTest, TestWithTestExtension() {
 
     private val isFakeHttp: Boolean by inject(Qualifiers.IS_FAKE_HTTP_QUALIFIER)
     private val sourceTextService: SourceTextService by inject()
+    private val diagramBuilder: DiagramBuilder by inject()
 
     @Test
     fun requestParsingQuintor() {
@@ -62,6 +64,82 @@ internal class SourceTextServiceTest : KoinTest, TestWithTestExtension() {
         println(testContainer.text())
         assertThat(named, hasSize(26))
         assertThat(named.map { it.index }, `is`(strictOrdered()))
+    }
+
+    @OptIn(ExperimentalStdlibApi::class)
+    @Test
+    fun requestParsingTriplyTable() {
+        // TODO write actual test
+        val versionId = "BWBR0011825/2020-08-01"
+        val parts = getTextLinesForVersion(ClientIds.triply, versionId, "cov19parseResult2.json")
+        val recursiveContainerMatcher = containersMatching { part -> part is Table }
+        val tables = parts.flatMap { recursiveContainerMatcher(it) }
+        assertThat(tables, hasSize(1))
+        assertThat(tables[0], `is`(instanceOf(Table::class.java)))
+        val table = tables[0] as Table
+        diagramBuilder.saveDiagramToBuildFolder("table", table, 3, null)
+
+        assertThat(table.children, hasSize(1))
+        assertThat(table.children[0], `is`(instanceOf(TableGroup::class.java)))
+        val tableGroup = table.children[0] as TableGroup
+
+        assertThat(tableGroup.children, hasSize(2))
+        assertThat(tableGroup.tableHead, `is`(notNullValue()))
+        assertThat(tableGroup.tableBody, `is`(notNullValue()))
+
+        val tableHead = tableGroup.tableHead!!
+        val tableBody = tableGroup.tableBody!!
+
+        assertThat(tableHead.children, hasSize(1))
+        assertThat(tableHead.children[0], `is`(instanceOf(TableRow::class.java)))
+        val tableHeadRow = tableHead.children[0] as TableRow
+
+        val textLineMatcher = containersMatching { part -> part is TextLine }
+        val tableHeadLines = textLineMatcher(tableHeadRow).mapNotNull { (it as? TextLine)?.text }
+        assertThat(tableHeadLines, `is`(listOf("Omschrijving activiteit", "SBI-code")))
+
+        assertThat(tableBody.children, hasSize(49))
+    }
+
+    @OptIn(ExperimentalStdlibApi::class)
+    @Test
+    fun requestParsingQuintorTable() {
+        val versionId = "BWBR0011825/2020-08-01"
+        val parts = getTextLinesForVersion(ClientIds.quintor, versionId, "quintor-api-result.json") {
+            listOf(
+                declare {
+                    // TODO remove this when no longer using dev api
+                    QuintorApiNsxTextLineClient(get())
+                }
+            )
+        }
+        val recursiveContainerMatcher = containersMatching { part -> part is Table }
+        val tables = parts.flatMap { recursiveContainerMatcher(it) }
+        assertThat(tables, hasSize(4))
+        assertThat(tables[0], `is`(instanceOf(Table::class.java)))
+        val table = tables[0] as Table
+        diagramBuilder.saveDiagramToBuildFolder("quintor-table", table, 3, null)
+
+        assertThat(table.children, hasSize(1))
+        assertThat(table.children[0], `is`(instanceOf(TableGroup::class.java)))
+        val tableGroup = table.children[0] as TableGroup
+
+        assertThat(tableGroup.children, hasSize(2))
+        assertThat(tableGroup.tableHead, `is`(notNullValue()))
+        assertThat(tableGroup.tableBody, `is`(notNullValue()))
+
+        val tableHead = tableGroup.tableHead!!
+        val tableBody = tableGroup.tableBody!!
+
+        assertThat(tableHead.children, hasSize(1))
+        assertThat(tableHead.children[0], `is`(instanceOf(TableRow::class.java)))
+        val tableHeadRow = tableHead.children[0] as TableRow
+
+        val textLineMatcher = containersMatching { part -> part is TextLine }
+        val tableHeadLines = textLineMatcher(tableHeadRow).mapNotNull { (it as? TextLine)?.text }
+        assertThat(tableHeadLines, `is`(listOf("I. Verblijfsdoel", "II. Geldigheidsduur", "III. Verlengbaar")))
+
+        assertThat(tableBody.children, hasSize(21))
     }
 
     @Test
@@ -112,6 +190,16 @@ internal class SourceTextServiceTest : KoinTest, TestWithTestExtension() {
                 ?: emptyList()
         return listOf(result, namedContainers).flatten()
     }
+
+    @OptIn(ExperimentalStdlibApi::class)
+    private fun containersMatching(matcher: (SourcePart) -> Boolean): DeepRecursiveFunction<SourcePart, List<SourcePart>> {
+        return DeepRecursiveFunction<SourcePart, List<SourcePart>> {
+            val thisOne = arrayOf(it).filter(matcher)
+            val descendants = (it as? Container)?.children?.flatMap { part -> callRecursive(part) } ?: emptyList()
+            return@DeepRecursiveFunction listOf(thisOne, descendants).flatten()
+        }
+    }
+
 
     private fun SourcePart.text(offset: Int = 0): String {
         val offsetString = "\t".repeat(offset)

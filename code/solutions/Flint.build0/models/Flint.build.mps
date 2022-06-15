@@ -3363,6 +3363,16 @@
             <ref role="1Busuk" to="90a9:1sO539bGQvB" resolve="de.slisson.mps.richtext" />
           </node>
         </node>
+        <node concept="1SiIV0" id="4CmDfqun6qN" role="3bR37C">
+          <node concept="3bR9La" id="4CmDfqun6qO" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4CmDfqun6qP" role="3bR37C">
+          <node concept="3bR9La" id="4CmDfqun6qQ" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L5j" resolve="jetbrains.mps.lang.editor.table.runtime" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="1ILeZy3Ibt2" role="2G$12L">
         <property role="BnDLt" value="true" />
