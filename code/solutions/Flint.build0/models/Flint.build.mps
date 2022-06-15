@@ -1561,6 +1561,9 @@
         </node>
       </node>
       <node concept="398223" id="2WP7dhE1es2" role="39821P">
+        <node concept="3_I8Xc" id="6iw8psn00WQ" role="39821P">
+          <ref role="3_I8Xa" to="ffeo:1JaUSFUm4H1" resolve="mps-context-actions" />
+        </node>
         <node concept="3_I8Xc" id="2WP7dhE1es3" role="39821P">
           <ref role="3_I8Xa" to="ffeo:3nGzrDEfcNJ" resolve="svn4idea" />
         </node>
@@ -3333,6 +3336,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="6onvLJoJXSQ" role="3bR37C">
+          <node concept="3bR9La" id="6onvLJoJXSR" role="1SiIV1">
+            <ref role="3bR37D" to="90a9:1sO539bGQvB" resolve="de.slisson.mps.richtext" />
+          </node>
+        </node>
         <node concept="1SiIV0" id="3nHnYZiywni" role="3bR37C">
           <node concept="3bR9La" id="3nHnYZiywnj" role="1SiIV1">
             <ref role="3bR37D" node="QLMwktTkqF" resolve="Flint.plugin" />
@@ -3650,6 +3658,9 @@
     </node>
     <node concept="m$_wf" id="2WP7dhE1erk" role="3989C9">
       <property role="m$_wk" value="Flint" />
+      <node concept="m$_yC" id="6iw8psmZZOP" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:1JaUSFUm4G_" resolve="jetbrains.mps.editor.contextActions" />
+      </node>
       <node concept="m$_yC" id="4OBWPp1Mhhj" role="m$_yJ">
         <ref role="m$_y1" to="90a9:4be$WTb1MZD" resolve="de.itemis.mps.editor.diagram" />
       </node>
@@ -3842,9 +3853,9 @@
             <ref role="3bR37D" node="6onvLJoJVY2" resolve="LawSource" />
           </node>
         </node>
-        <node concept="1SiIV0" id="7VfJsRdiuca" role="3bR37C">
-          <node concept="3bR9La" id="7VfJsRdiucb" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+        <node concept="1SiIV0" id="34d31FERQ1R" role="3bR37C">
+          <node concept="3bR9La" id="34d31FERQ1S" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
       </node>
@@ -3988,6 +3999,15 @@
       <property role="TZNOO" value="11" />
       <node concept="3LWZYx" id="5x42vIMWHDz" role="2_Ic$A">
         <property role="3LWZYw" value="**/*.png" />
+      </node>
+    </node>
+    <node concept="2sgV4H" id="6iw8psmZZ0l" role="1l3spa">
+      <ref role="1l3spb" to="ffeo:1JaUSFUm4ER" resolve="mpsContextActionsTool" />
+      <node concept="398BVA" id="6iw8psmZZi2" role="2JcizS">
+        <ref role="398BVh" node="2WP7dhE1eqw" resolve="mps_home" />
+        <node concept="2Ry0Ak" id="6iw8psmZZzl" role="iGT6I">
+          <property role="2Ry0Am" value="plugins" />
+        </node>
       </node>
     </node>
   </node>

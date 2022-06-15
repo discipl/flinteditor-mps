@@ -549,6 +549,9 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5XjenljaN1R" resolve="FlintModel" />
     </node>
+    <node concept="1QGGSu" id="77fX0KOjFHl" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/Runner.png" />
+    </node>
   </node>
   <node concept="1TIwiD" id="10jIHuj5o1a">
     <property role="EcuMT" value="1158474964212744266" />
@@ -1310,6 +1313,9 @@
       <property role="IQ2nx" value="5774777313303068770" />
       <property role="TrG5h" value="eSelectVersion" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1QGGSu" id="77fX0KOkeY9" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/Language.png" />
     </node>
   </node>
   <node concept="1TIwiD" id="3JnAoJLBIOl">
