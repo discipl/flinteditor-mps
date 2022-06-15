@@ -207,9 +207,16 @@ task addMpsLibsToFlintRuntime() {
             stubModelEntries.addElement("stubModelEntry").addAttribute("path", "\${module}/libs/" + it)
         }
 
-        org.dom4j.io.XMLWriter writer = new org.dom4j.io.XMLWriter(new FileWriter(file), org.dom4j.io.OutputFormat.createPrettyPrint());
-        writer.write(document);
-        writer.close();
+
+        def format = OutputFormat.createPrettyPrint()
+        format.setNewLineAfterDeclaration(false)
+        format.setPadText(false)
+        org.dom4j.io.XMLWriter writer = new org.dom4j.io.XMLWriter(new FileWriter(file), format)
+        writer.write(document)
+        writer.close()
+
+        def fixedText = file.getText().replace("/>", " />") + "\n"
+        file.write(fixedText)
     }
 }
 
@@ -310,6 +317,7 @@ task copyMbeddrPlugins(type: Copy) {
 }
 
 
+import org.dom4j.io.OutputFormat
 import org.gradle.internal.os.OperatingSystem
 
 task resolveMps(type: Copy) {
