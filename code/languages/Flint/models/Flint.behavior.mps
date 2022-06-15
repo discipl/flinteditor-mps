@@ -24651,6 +24651,30 @@
         <node concept="17QB3L" id="4b6llbk44nW" role="11_B2D" />
       </node>
     </node>
+    <node concept="Wx3nA" id="2H9hTcHGcQK" role="jymVt">
+      <property role="TrG5h" value="nodeFromRangeSelection" />
+      <node concept="3Tm1VV" id="2H9hTcHGcQL" role="1B3o_S" />
+      <node concept="3uibUv" id="2H9hTcHGcQM" role="1tU5fm">
+        <ref role="3uigEE" node="5SIYu6XxgH1" resolve="IntentionInstance" />
+        <node concept="3uibUv" id="2H9hTcHGcX8" role="11_B2D">
+          <ref role="3uigEE" to="b8lf:~NodeRangeSelection" resolve="NodeRangeSelection" />
+        </node>
+        <node concept="3bZ5Sz" id="2H9hTcHHYDE" role="11_B2D">
+          <ref role="3bZ5Sy" to="lnwe:63E5y3TGjs_" resolve="IHasSources" />
+        </node>
+      </node>
+    </node>
+    <node concept="Wx3nA" id="2txHBFP00IF" role="jymVt">
+      <property role="TrG5h" value="addRangeSelectionToIHasSource" />
+      <node concept="3Tm1VV" id="2txHBFOZZWm" role="1B3o_S" />
+      <node concept="3uibUv" id="2txHBFP004M" role="1tU5fm">
+        <ref role="3uigEE" node="5SIYu6XxgH1" resolve="IntentionInstance" />
+        <node concept="3uibUv" id="2txHBFP00yr" role="11_B2D">
+          <ref role="3uigEE" to="b8lf:~NodeRangeSelection" resolve="NodeRangeSelection" />
+        </node>
+        <node concept="17QB3L" id="2txHBFP00Iz" role="11_B2D" />
+      </node>
+    </node>
     <node concept="3Tm1VV" id="5SIYu6Xx_PU" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="7C_i1w7$jaq">

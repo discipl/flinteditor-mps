@@ -7,6 +7,13 @@ This is an experimental project exploring the viability of a visual FLINT editor
 3. Run `gradlew initProject`
 4. Start the ide for your specific platform. The executables are locatied in `build/mps/bin`
 
+### Audit
+To use the audit feature add the following keys / values to the local.properties file with the values from [OSS](https://ossindex.sonatype.org/user/settings)
+```aidl
+ossindexUser=user@email.nl
+ossindexToken=avalidtoken
+```
+
 ## Flint IDE
 Complete IDE with all required plugins and custom branding.
  
