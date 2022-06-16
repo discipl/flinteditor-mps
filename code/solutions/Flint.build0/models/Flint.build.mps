@@ -1058,10 +1058,7 @@
           </node>
           <node concept="3_J27D" id="2WP7dhE1ewy" role="Nbhlr">
             <node concept="3Mxwew" id="2WP7dhE1ewz" role="3MwsjC">
-              <property role="3MwjfP" value="Flint " />
-            </node>
-            <node concept="3Mxwey" id="2WP7dhE1ew$" role="3MwsjC">
-              <ref role="3Mxwex" node="elgu9R8ZWn" resolve="version" />
+              <property role="3MwjfP" value="Flint" />
             </node>
             <node concept="3Mxwew" id="2WP7dhE1ew_" role="3MwsjC">
               <property role="3MwjfP" value=".app" />
@@ -1570,11 +1567,8 @@
         <node concept="3_I8Xc" id="2WP7dhE1es4" role="39821P">
           <ref role="3_I8Xa" to="ffeo:I6XuqH2zYV" resolve="git4idea" />
         </node>
-        <node concept="3_I8Xc" id="2vSShtzy63A" role="39821P">
-          <ref role="3_I8Xa" to="ffeo:RJsmGEig2V" resolve="mps-vcs" />
-        </node>
-        <node concept="3ygNvl" id="62tb3AVhpiO" role="39821P">
-          <ref role="3ygNvj" to="ffeo:1diLdO26H7E" resolve="plugins" />
+        <node concept="3_I8Xc" id="2xxYZHPwwr6" role="39821P">
+          <ref role="3_I8Xa" to="ffeo:4EdAnGErOtx" resolve="mps-core" />
         </node>
         <node concept="3_I8Xc" id="2WP7dhE1es6" role="39821P">
           <ref role="3_I8Xa" to="ffeo:1x6h9EwqP32" resolve="mps-make" />
