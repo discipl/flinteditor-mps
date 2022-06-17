@@ -56,6 +56,7 @@ ext {
     ktor_version = "2.0.0"
     gson_version = "2.8.6"
     jbr_version = "11_0_6-b520.66"
+    osx_jdk_version = "11.0.11-9"
 }
 
 configurations {
@@ -71,6 +72,7 @@ repositories {
     mavenLocal()
     mavenCentral()
     maven { url = uri("https://jcenter.bintray.com/") }
+    maven { url = uri("https://artifacts.metaborg.org/content/repositories/releases/") }
     if (System.getenv('CI') != null) {
         maven {
             url = uri("https://itemis.blackstardlb.nl")
@@ -369,6 +371,7 @@ task buildFlint(type: de.itemis.mps.gradle.RunAntScript, dependsOn: generateScri
 task buildFlintIde(type: de.itemis.mps.gradle.RunAntScript, dependsOn: [buildFlint, 'downloadAllJbrs']) {
     script = file("$codeDir/build-IdeDistribution.xml")
     targets = ["build"]
+    finalizedBy("bundleMacosJbr")
 }
 
 task buildFlintPlugin(type: de.itemis.mps.gradle.RunAntScript, dependsOn: buildFlint) {
@@ -462,28 +465,66 @@ task downloadLinuxJbr(type: Copy) {
     into(downloadDir)
 }
 
-task fixMacOsSymbolicLink(group: 'jbr') {
+task bundleMacosJbr() {
+    if(OperatingSystem.current().isWindows()){
+        logger.warn('Cannot build MAC distribution on windows')
+        return
+    }
+
+    group = 'jbr'
+    def dirName = "osx"
+    def downloadDir = new File(jbrsDir, dirName)
     doFirst {
-        if (!OperatingSystem.current().isWindows()) {
-            def symbolicLink = new File("$mpsDir/jbrs/osx/jbr/Contents/MacOS/libjli.dylib")
-            symbolicLink.delete()
-            java.nio.file.Files.createSymbolicLink(symbolicLink.toPath(), new File("../Home/lib/jli/libjli.dylib").toPath())
-        } else {
-            logger.warn('Cannot build MAC distribution on windows')
+        delete {
+            delete new File(ideDir, 'Flint.app')
+        }
+        exec {
+            workingDir ideDir
+            commandLine 'unzip', 'Flint.macos.zip'
+        }
+        def oldJbr = new File(ideDir, "Flint.app/Contents/jbr")
+        delete {
+            delete oldJbr
+        }
+        def jbr = new File(downloadDir, "jbr/Contents")
+        oldJbr.mkdirs()
+        exec {
+            commandLine 'cp', '-r', jbr.absolutePath, new File(oldJbr, "Contents").absolutePath
+        }
+        delete {
+            delete new File(ideDir, 'Flint_jbr.macos.zip')
+            delete new File(ideDir, 'Flint.macos.zip')
+        }
+        exec {
+            workingDir ideDir
+            commandLine 'zip','-r', 'Flint.macos.zip', 'Flint.app'
+        }
+        delete {
+            delete new File(ideDir, 'Flint.app')
         }
     }
 }
 
 task downloadMacOsJbr(type: Copy, group: 'jbr') {
-    finalizedBy(fixMacOsSymbolicLink)
     group = 'jbr'
     def dirName = "osx"
     def downloadDir = new File(jbrsDir, dirName)
     doFirst {
         downloadDir.delete()
     }
-    from(getConfiguration(dirName).resolve().collect { tarTree(it) })
+    def dependency = "net.adoptopenjdk:jdk:$osx_jdk_version:macosx-x64@tar.gz"
+    def config = configurations.detachedConfiguration(project.dependencies.create(dependency))
+    def file = config.resolve().collect { it }[0]
+    from(file)
     into(downloadDir)
+    doLast {
+        exec {
+            workingDir downloadDir
+            commandLine 'tar', '-xf', file.name
+        }
+        def renameFile = new File(downloadDir, "jdk-" + osx_jdk_version.replace("-", "+"))
+        renameFile.renameTo(downloadDir.path + "/jbr")
+    }
 }
 
 task downloadAllJbrs(dependsOn: [downloadWindowsJbr, downloadLinuxJbr, downloadMacOsJbr]) {
