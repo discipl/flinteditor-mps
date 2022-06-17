@@ -466,6 +466,9 @@ task downloadLinuxJbr(type: Copy) {
 }
 
 task bundleMacosJbr() {
+    onlyIf {
+        !OperatingSystem.current().isWindows()
+    }
     group = 'jbr'
     def dirName = "osx"
     def downloadDir = new File(jbrsDir, dirName)
