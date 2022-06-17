@@ -83,15 +83,20 @@ repositories {
 }
 
 if (System.getenv('CI') == null) {
-    def props = new Properties()
-    file("local.properties").withInputStream { props.load(it) }
-    ext {
-        ossindexUser = props.get("ossindexUser")
-        ossindexToken = props.get("ossindexToken")
-    }
-    audit {
-        user = "$ossindexUser"
-        token = "$ossindexToken"
+    def propertiesFile = file("local.properties")
+    if (!propertiesFile.exists()) {
+        logger.warn("No local.properties file found")
+    } else {
+        def props = new Properties()
+        propertiesFile.withInputStream { props.load(it) }
+        ext {
+            ossindexUser = props.get("ossindexUser")
+            ossindexToken = props.get("ossindexToken")
+        }
+        audit {
+            user = "$ossindexUser"
+            token = "$ossindexToken"
+        }
     }
 }
 
