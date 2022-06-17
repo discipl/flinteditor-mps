@@ -466,9 +466,11 @@ task downloadLinuxJbr(type: Copy) {
 }
 
 task bundleMacosJbr() {
-    onlyIf {
-        !OperatingSystem.current().isWindows()
+    if(OperatingSystem.current().isWindows()){
+        logger.warn('Cannot build MAC distribution on windows')
+        return
     }
+
     group = 'jbr'
     def dirName = "osx"
     def downloadDir = new File(jbrsDir, dirName)
