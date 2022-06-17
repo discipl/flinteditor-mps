@@ -5180,6 +5180,7 @@
             <node concept="1FQA6B" id="m$6eIWiHeW" role="3H36lm" />
             <node concept="cog_b" id="m$6eIWiHeY" role="2pmM46">
               <property role="1hTq4$" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27/structuurkenmerk/135" />
+              <property role="1tl0gq" value="English" />
               <node concept="2hPCcK" id="m$6eIWiHeZ" role="2hN6Sa">
                 <node concept="19SUe$" id="m$6eIWiHf0" role="19SJt6">
                   <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag. " />
@@ -5193,6 +5194,9 @@
               <property role="1GVPtd" value="English" />
               <property role="1GVPtb" value="Test Act" />
             </node>
+          </node>
+          <node concept="3ainiu" id="2AbE34hDj0O" role="3a9ffC">
+            <ref role="3aimXI" to="jov5:4L0TsavKybn" resolve="English" />
           </node>
         </node>
         <node concept="32diMG" id="m$6eIWcxaC" role="32diMK">
@@ -5247,6 +5251,7 @@
             <node concept="1FQA6B" id="m$6eIWiHg1" role="3H36lm" />
             <node concept="cog_b" id="m$6eIWiHg2" role="2pmM46">
               <property role="1hTq4$" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27/structuurkenmerk/135" />
+              <property role="1tl0gq" value="English" />
               <node concept="2hPCcK" id="m$6eIWiHg3" role="2hN6Sa">
                 <node concept="19SUe$" id="m$6eIWiHg4" role="19SJt6">
                   <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag. " />
@@ -5255,6 +5260,7 @@
             </node>
             <node concept="cog_b" id="m$6eIWiHT7" role="2pmM46">
               <property role="1hTq4$" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
+              <property role="1tl0gq" value="English" />
               <node concept="2hPCcK" id="m$6eIWiHT8" role="2hN6Sa">
                 <node concept="19SUe$" id="m$6eIWiHT9" role="19SJt6">
                   <property role="19SUeA" value="Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
@@ -5265,6 +5271,9 @@
               <property role="1GVPtd" value="English" />
               <property role="1GVPtb" value="Test Act" />
             </node>
+          </node>
+          <node concept="3ainiu" id="2AbE34hDj0Y" role="3a9ffC">
+            <ref role="3aimXI" to="jov5:4L0TsavKybn" resolve="English" />
           </node>
         </node>
         <node concept="32diMG" id="m$6eIWiHg5" role="32diMK">
@@ -8736,6 +8745,284 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="2AbE34h$B$M">
+    <property role="TrG5h" value="CanSplitToPrefixContainerOnWord" />
+    <node concept="1qefOq" id="2AbE34h$B$N" role="25YQCW">
+      <node concept="32diMH" id="2AbE34h$B$O" role="1qenE9">
+        <node concept="3_ImHQ" id="2AbE34h$B$P" role="32diMI">
+          <property role="TrG5h" value="FlintModel" />
+          <node concept="mu5$5" id="2AbE34h$B$Q" role="3_ImHT">
+            <property role="3GE5qa" value="acts" />
+            <property role="TrG5h" value="Test Act" />
+            <node concept="1FQA6B" id="2AbE34h$B$R" role="3H36mW" />
+            <node concept="1FQA6B" id="2AbE34h$B$S" role="3H36l7" />
+            <node concept="1FQA6B" id="2AbE34h$B$T" role="3H36lm" />
+            <node concept="cog_b" id="2AbE34h$B$U" role="2pmM46">
+              <property role="1hTq4$" value="https://calculemus.org/29d53f8b-6b3b-4cf5-8a39-192f9afdf373" />
+              <property role="1tl0gq" value="English" />
+              <node concept="2hPCcK" id="2AbE34h$B$V" role="2hN6Sa">
+                <node concept="19SUe$" id="2AbE34h$B$X" role="19SJt6">
+                  <property role="19SUeA" value="Bij deze verordening worden regels vastgesteld betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van persoonsgegevens" />
+                </node>
+              </node>
+            </node>
+            <node concept="1GVOM6" id="2AbE34h$B$Y" role="1GVO30">
+              <property role="1GVPtd" value="English" />
+              <property role="1GVPtb" value="Test Act" />
+            </node>
+          </node>
+          <node concept="3ainiu" id="2AbE34hDj2Y" role="3a9ffC">
+            <ref role="3aimXI" to="jov5:4L0TsavKybn" resolve="English" />
+          </node>
+        </node>
+        <node concept="32diMG" id="2AbE34h$B$Z" role="32diMK">
+          <node concept="2AEkrd" id="2AbE34h$B_0" role="32diMP">
+            <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
+            <property role="3GE5qa" value="articles" />
+            <ref role="2AErGO" node="2AbE34h$B_6" resolve="16-05-2020 t/m 11-06-2020" />
+            <node concept="3MKX5h" id="2AbE34h$B_1" role="3MKX6D">
+              <node concept="3Fnoml" id="2AbE34hla$K" role="3MKX6F">
+                <property role="3Fg1Gr" value="0" />
+                <property role="1hTQn4" value="https://calculemus.org/29d53f8b-6b3b-4cf5-8a39-192f9afdf373" />
+                <property role="3Fnomm" value="1." />
+                <node concept="3MKX5i" id="2AbE34hla$L" role="3MKX6F">
+                  <property role="3Fg1Gr" value="0" />
+                  <property role="1hTQn4" value="https://calculemus.org/29d53f8b-6b3b-4cf5-8a39-192f9afdf373" />
+                  <node concept="1P5Shq" id="2AbE34hla$M" role="2qTud8">
+                    <node concept="1P5VML" id="2AbE34hla$O" role="19SJt6">
+                      <property role="19SUeA" value="Bij deze verordening worden regels vastgesteld betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van persoonsgegevens." />
+                      <node concept="LIFWc" id="2AbE34h$Cog" role="lGtFl">
+                        <property role="OXtK3" value="true" />
+                        <property role="p6zMq" value="0" />
+                        <property role="p6zMs" value="0" />
+                        <property role="LIFWd" value="property_escapedValue_word6" />
+                        <property role="LIFWa" value="1" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3Fnoml" id="2AbE34hla$Q" role="3MKX6F">
+                <property role="3Fg1Gr" value="0" />
+                <property role="1hTQn4" value="https://calculemus.org/b91f5178-35dc-4cc8-bc59-9dd02bad44ed" />
+                <property role="3Fnomm" value="2." />
+                <node concept="3MKX5i" id="2AbE34hla$R" role="3MKX6F">
+                  <property role="3Fg1Gr" value="0" />
+                  <property role="1hTQn4" value="https://calculemus.org/b91f5178-35dc-4cc8-bc59-9dd02bad44ed" />
+                  <node concept="1P5Shq" id="2AbE34hla$S" role="2qTud8">
+                    <node concept="1P5VML" id="2AbE34hla$U" role="19SJt6">
+                      <property role="19SUeA" value="Deze verordening beschermt de grondrechten en de fundamentele vrijheden van natuurlijke personen en met name hun recht op bescherming van persoonsgegevens." />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2ANm86" id="2AbE34h$B_6" role="2T_gbu">
+            <property role="3GE5qa" value="versions" />
+            <property role="TrG5h" value="16-05-2020 t/m 11-06-2020" />
+            <property role="2AEqdP" value="2020-06-11" />
+            <property role="2AEqdO" value="2020-05-16" />
+            <property role="W2joe" value="TODO" />
+            <property role="ZyLMf" value="http://wetten.overheid.nl/1.0:c:BWBR0043324&amp;g=2020-05-16" />
+            <property role="2JHwUh" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27" />
+            <ref role="2AErGN" node="2AbE34h$B_7" resolve="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+          </node>
+          <node concept="2ATdSu" id="2AbE34h$B_7" role="32diMN">
+            <property role="2AErxT" value="BWBR0043324" />
+            <property role="TrG5h" value="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2AbE34h$B_8" role="25YQFr">
+      <node concept="32diMH" id="2AbE34h$B_9" role="1qenE9">
+        <node concept="3_ImHQ" id="2AbE34h$B_a" role="32diMI">
+          <property role="TrG5h" value="FlintModel" />
+          <node concept="mu5$5" id="2AbE34h$B_b" role="3_ImHT">
+            <property role="3GE5qa" value="acts" />
+            <property role="TrG5h" value="Test Act" />
+            <node concept="1FQA6B" id="2AbE34h$B_c" role="3H36mW" />
+            <node concept="1FQA6B" id="2AbE34h$B_d" role="3H36l7" />
+            <node concept="1FQA6B" id="2AbE34h$B_e" role="3H36lm" />
+            <node concept="cog_b" id="2AbE34h$B_f" role="2pmM46">
+              <property role="1hTq4$" value="https://calculemus.org/29d53f8b-6b3b-4cf5-8a39-192f9afdf373" />
+              <property role="1tl0gq" value="English" />
+              <node concept="2hPCcK" id="2AbE34h$B_g" role="2hN6Sa">
+                <node concept="19SUe$" id="2AbE34h$B_h" role="19SJt6">
+                  <property role="19SUeA" value="Bij deze verordening worden regels vastgesteld b" />
+                </node>
+              </node>
+            </node>
+            <node concept="cog_b" id="2AbE34h$B_i" role="2pmM46">
+              <property role="1hTq4$" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
+              <property role="1tl0gq" value="English" />
+              <node concept="2hPCcK" id="2AbE34h$B_j" role="2hN6Sa">
+                <node concept="19SUe$" id="2AbE34h$B_k" role="19SJt6">
+                  <property role="19SUeA" value="etreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van persoonsgegevens" />
+                </node>
+              </node>
+            </node>
+            <node concept="1GVOM6" id="2AbE34h$B_l" role="1GVO30">
+              <property role="1GVPtd" value="English" />
+              <property role="1GVPtb" value="Test Act" />
+            </node>
+          </node>
+          <node concept="3ainiu" id="2AbE34hDj38" role="3a9ffC">
+            <ref role="3aimXI" to="jov5:4L0TsavKybn" resolve="English" />
+          </node>
+        </node>
+        <node concept="32diMG" id="2AbE34h$B_m" role="32diMK">
+          <node concept="2AEkrd" id="2AbE34h$ChF" role="32diMP">
+            <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
+            <property role="3GE5qa" value="articles" />
+            <ref role="2AErGO" node="2AbE34h$B_v" resolve="16-05-2020 t/m 11-06-2020" />
+            <node concept="3MKX5h" id="2AbE34h$ChG" role="3MKX6D">
+              <node concept="3Fnoml" id="2AbE34h$ChH" role="3MKX6F">
+                <property role="3Fg1Gr" value="0" />
+                <property role="1hTQn4" value="https://calculemus.org/29d53f8b-6b3b-4cf5-8a39-192f9afdf373" />
+                <property role="3Fnomm" value="1." />
+                <node concept="3MKX5i" id="2AbE34h$ChI" role="3MKX6F">
+                  <property role="3Fg1Gr" value="0" />
+                  <property role="1hTQn4" value="https://calculemus.org/29d53f8b-6b3b-4cf5-8a39-192f9afdf373" />
+                  <node concept="1P5Shq" id="2AbE34h$ChJ" role="2qTud8">
+                    <node concept="1P5VML" id="2AbE34h$ChK" role="19SJt6">
+                      <property role="19SUeA" value="Bij deze verordening worden regels vastgesteld b" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3Fnoml" id="2AbE34h$Con" role="3MKX6F">
+                <property role="1hTQn4" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
+                <node concept="3MKX5i" id="2AbE34h$Com" role="3MKX6F">
+                  <property role="1hTQn4" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
+                  <node concept="1P5Shq" id="2AbE34h$Coj" role="2qTud8">
+                    <node concept="1P5VML" id="2AbE34h$Col" role="19SJt6">
+                      <property role="19SUeA" value="etreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van persoonsgegevens." />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3Fnoml" id="2AbE34h$ChL" role="3MKX6F">
+                <property role="3Fg1Gr" value="0" />
+                <property role="1hTQn4" value="https://calculemus.org/b91f5178-35dc-4cc8-bc59-9dd02bad44ed" />
+                <property role="3Fnomm" value="2." />
+                <node concept="3MKX5i" id="2AbE34h$ChM" role="3MKX6F">
+                  <property role="3Fg1Gr" value="0" />
+                  <property role="1hTQn4" value="https://calculemus.org/b91f5178-35dc-4cc8-bc59-9dd02bad44ed" />
+                  <node concept="1P5Shq" id="2AbE34h$ChN" role="2qTud8">
+                    <node concept="1P5VML" id="2AbE34h$ChO" role="19SJt6">
+                      <property role="19SUeA" value="Deze verordening beschermt de grondrechten en de fundamentele vrijheden van natuurlijke personen en met name hun recht op bescherming van persoonsgegevens." />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2ANm86" id="2AbE34h$B_v" role="2T_gbu">
+            <property role="3GE5qa" value="versions" />
+            <property role="TrG5h" value="16-05-2020 t/m 11-06-2020" />
+            <property role="2AEqdP" value="2020-06-11" />
+            <property role="2AEqdO" value="2020-05-16" />
+            <property role="W2joe" value="TODO" />
+            <property role="ZyLMf" value="http://wetten.overheid.nl/1.0:c:BWBR0043324&amp;g=2020-05-16" />
+            <property role="2JHwUh" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27" />
+            <ref role="2AErGN" node="2AbE34h$B_w" resolve="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+          </node>
+          <node concept="2ATdSu" id="2AbE34h$B_w" role="32diMN">
+            <property role="2AErxT" value="BWBR0043324" />
+            <property role="TrG5h" value="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="2AbE34h$B_x" role="LjaKd">
+      <node concept="3J1_TO" id="2AbE34h$B_y" role="3cqZAp">
+        <node concept="3clFbS" id="2AbE34h$B_z" role="1zxBo7">
+          <node concept="3clFbF" id="2AbE34h$B_$" role="3cqZAp">
+            <node concept="2OqwBi" id="2AbE34h$B__" role="3clFbG">
+              <node concept="2OqwBi" id="2AbE34h$B_A" role="2Oq$k0">
+                <node concept="2OqwBi" id="2AbE34h$B_B" role="2Oq$k0">
+                  <node concept="2OqwBi" id="2AbE34h$B_C" role="2Oq$k0">
+                    <node concept="369mXd" id="2AbE34h$B_D" role="2Oq$k0" />
+                    <node concept="liA8E" id="2AbE34h$B_E" role="2OqNvi">
+                      <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="2AbE34h$B_F" role="2OqNvi">
+                    <ref role="37wK5l" to="exr9:~EditorContext.getRepository()" resolve="getRepository" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="2AbE34h$B_G" role="2OqNvi">
+                  <ref role="37wK5l" to="lui2:~SRepository.getModelAccess()" resolve="getModelAccess" />
+                </node>
+              </node>
+              <node concept="liA8E" id="2AbE34h$B_H" role="2OqNvi">
+                <ref role="37wK5l" to="lui2:~ModelAccess.executeCommandInEDT(java.lang.Runnable)" resolve="executeCommandInEDT" />
+                <node concept="1bVj0M" id="2AbE34h$B_I" role="37wK5m">
+                  <node concept="3clFbS" id="2AbE34h$B_J" role="1bW5cS">
+                    <node concept="3cpWs8" id="2AbE34h$B_K" role="3cqZAp">
+                      <node concept="3cpWsn" id="2AbE34h$B_L" role="3cpWs9">
+                        <property role="TrG5h" value="selectedNode" />
+                        <node concept="3Tqbb2" id="2AbE34h$B_M" role="1tU5fm" />
+                        <node concept="2OqwBi" id="2AbE34h$B_N" role="33vP2m">
+                          <node concept="369mXd" id="2AbE34h$B_O" role="2Oq$k0" />
+                          <node concept="liA8E" id="2AbE34h$B_P" role="2OqNvi">
+                            <ref role="37wK5l" to="exr9:~EditorComponent.getSelectedNode()" resolve="getSelectedNode" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="2AbE34h$B_Q" role="3cqZAp">
+                      <node concept="2YIFZM" id="2AbE34h$B_R" role="3clFbG">
+                        <ref role="1Pybhc" node="7zM_gLgV_ke" resolve="FlintSourceReferenceGetterTestImpl" />
+                        <ref role="37wK5l" node="7zM_gLgW9pw" resolve="setup" />
+                        <node concept="2OqwBi" id="2AbE34h$B_S" role="37wK5m">
+                          <node concept="37vLTw" id="2AbE34h$B_T" role="2Oq$k0">
+                            <ref role="3cqZAo" node="2AbE34h$B_L" resolve="selectedNode" />
+                          </node>
+                          <node concept="2Xjw5R" id="2AbE34h$B_U" role="2OqNvi">
+                            <node concept="1xMEDy" id="2AbE34h$B_V" role="1xVPHs">
+                              <node concept="chp4Y" id="2AbE34h$B_W" role="ri$Ld">
+                                <ref role="cht4Q" to="1z9r:222x$3yHUFH" resolve="TestModelAndSource" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="2AbE34h$B_X" role="37wK5m">
+                          <property role="Xl_RC" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3vwNmj" id="2AbE34h$B_Y" role="3cqZAp">
+            <node concept="2bRw2S" id="2AbE34h$B_Z" role="3vwVQn">
+              <ref role="2bRw2V" to="xbql:2AbE34hy4I6" resolve="SplitPrefixLine" />
+            </node>
+          </node>
+          <node concept="1MFPAf" id="2AbE34h$BA0" role="3cqZAp">
+            <ref role="1MFYO6" to="xbql:2AbE34hy4I6" resolve="SplitPrefixLine" />
+          </node>
+        </node>
+        <node concept="1wplmZ" id="2AbE34h$BA1" role="1zxBo6">
+          <node concept="3clFbS" id="2AbE34h$BA2" role="1wplMD">
+            <node concept="3clFbF" id="2AbE34h$BA3" role="3cqZAp">
+              <node concept="2YIFZM" id="2AbE34h$BA4" role="3clFbG">
+                <ref role="1Pybhc" node="7zM_gLgV_ke" resolve="FlintSourceReferenceGetterTestImpl" />
+                <ref role="37wK5l" node="4IrXXbMtprT" resolve="reset" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="2AbE34h$BA5" role="3cqZAp" />
+      <node concept="3clFbH" id="2AbE34h$BA6" role="3cqZAp" />
     </node>
   </node>
 </model>
