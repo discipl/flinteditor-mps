@@ -493,10 +493,14 @@ task bundleMacosJbr() {
         }
         delete {
             delete new File(ideDir, 'Flint_jbr.macos.zip')
+            delete new File(ideDir, 'Flint.macos.zip')
         }
         exec {
             workingDir ideDir
-            commandLine 'zip','-r', 'Flint_jbr.macos.zip', 'Flint.app'
+            commandLine 'zip','-r', 'Flint.macos.zip', 'Flint.app'
+        }
+        delete {
+            delete new File(ideDir, 'Flint.app')
         }
     }
 }
