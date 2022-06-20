@@ -31,6 +31,9 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
@@ -184,6 +187,64 @@
             <node concept="liA8E" id="2553W0bLiLg" role="2OqNvi">
               <ref role="37wK5l" to="472r:5SIYu6Xx_xi" resolve="isApplicable" />
               <node concept="2Sf5sV" id="2553W0bLiNy" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="35cpwYlAG4">
+    <property role="TrG5h" value="AddSourceToHolder" />
+    <ref role="2ZfgGC" to="87nw:2dWzqxEBMSc" resolve="Word" />
+    <node concept="2S6ZIM" id="35cpwYlAG5" role="2ZfVej">
+      <node concept="3clFbS" id="35cpwYlAG6" role="2VODD2">
+        <node concept="3clFbF" id="35cpwYmC_O" role="3cqZAp">
+          <node concept="2OqwBi" id="35cpwYmCRt" role="3clFbG">
+            <node concept="10M0yZ" id="35cpwYmCFf" role="2Oq$k0">
+              <ref role="3cqZAo" to="rm61:35cpwYm8NV" resolve="addSourceToHolder" />
+              <ref role="1PxDUh" to="rm61:2553W0bKNAe" resolve="IntentionServiceLawsource" />
+            </node>
+            <node concept="liA8E" id="35cpwYmD5S" role="2OqNvi">
+              <ref role="37wK5l" to="472r:5SIYu6Xx_iD" resolve="getTitle" />
+              <node concept="2Sf5sV" id="35cpwYmDeR" role="37wK5m" />
+              <node concept="Xl_RD" id="35cpwYmGPm" role="37wK5m">
+                <property role="Xl_RC" value="" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="35cpwYlAG7" role="2ZfgGD">
+      <node concept="3clFbS" id="35cpwYlAG8" role="2VODD2">
+        <node concept="3clFbF" id="35cpwYmE67" role="3cqZAp">
+          <node concept="2OqwBi" id="35cpwYmEgd" role="3clFbG">
+            <node concept="10M0yZ" id="35cpwYmE6S" role="2Oq$k0">
+              <ref role="3cqZAo" to="rm61:35cpwYm8NV" resolve="addSourceToHolder" />
+              <ref role="1PxDUh" to="rm61:2553W0bKNAe" resolve="IntentionServiceLawsource" />
+            </node>
+            <node concept="liA8E" id="35cpwYmEmR" role="2OqNvi">
+              <ref role="37wK5l" to="472r:5SIYu6Xx_D3" resolve="execute" />
+              <node concept="2Sf5sV" id="35cpwYmEo2" role="37wK5m" />
+              <node concept="Xl_RD" id="35cpwYmHj0" role="37wK5m">
+                <property role="Xl_RC" value="" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="35cpwYmDks" role="2ZfVeh">
+      <node concept="3clFbS" id="35cpwYmDkt" role="2VODD2">
+        <node concept="3clFbF" id="35cpwYmDpH" role="3cqZAp">
+          <node concept="2OqwBi" id="35cpwYmDAR" role="3clFbG">
+            <node concept="10M0yZ" id="35cpwYmDqz" role="2Oq$k0">
+              <ref role="3cqZAo" to="rm61:35cpwYm8NV" resolve="addSourceToHolder" />
+              <ref role="1PxDUh" to="rm61:2553W0bKNAe" resolve="IntentionServiceLawsource" />
+            </node>
+            <node concept="liA8E" id="35cpwYmDW7" role="2OqNvi">
+              <ref role="37wK5l" to="472r:5SIYu6Xx_xi" resolve="isApplicable" />
+              <node concept="2Sf5sV" id="35cpwYmE14" role="37wK5m" />
             </node>
           </node>
         </node>
