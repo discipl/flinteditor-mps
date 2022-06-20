@@ -47,7 +47,10 @@ internal class VersionClientTest : KoinTest, TestWithTestExtension() {
             firstVersion,
             hasProperty("uri", equalTo("https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27"))
         )
-        assertThat(firstVersion, hasProperty("label", equalTo("Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19")))
+        assertThat(
+            firstVersion,
+            hasProperty("label", equalTo("Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19"))
+        )
         assertThat(firstVersion, hasProperty("startDate", equalTo("2020-03-31")))
         assertThat(firstVersion, hasProperty("endDate", equalTo("2020-04-14")))
         assertThat(firstVersion, hasProperty("name", equalTo("31-03-2020 t/m 14-04-2020")))

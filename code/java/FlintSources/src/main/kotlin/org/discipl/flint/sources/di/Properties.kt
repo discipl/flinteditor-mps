@@ -8,7 +8,6 @@ import org.koin.core.annotation.KoinInternalApi
 import org.koin.core.logger.Level
 import org.koin.core.registry.loadEnvironmentProperties
 import org.koin.core.registry.saveProperties
-import java.nio.file.Path
 import java.util.*
 import kotlin.io.path.exists
 import kotlin.io.path.readText

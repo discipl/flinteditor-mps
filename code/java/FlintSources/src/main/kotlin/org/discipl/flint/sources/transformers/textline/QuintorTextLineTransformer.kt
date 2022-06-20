@@ -1,8 +1,6 @@
 package org.discipl.flint.sources.transformers.textline
 
 import mu.KLogging
-import org.discipl.flint.sources.models.parts.ContainerImpl
-import org.discipl.flint.sources.models.parts.TextLineImpl
 import org.discipl.flint.sources.clients.nsx.QuintorApiNsxTextLineClient.QuintorApiNsxTextLine
 import org.discipl.flint.sources.models.parts.*
 
@@ -58,7 +56,8 @@ class QuintorTextLineTransformer : NewTextLineTransformer<QuintorApiNsxTextLine>
                     textLine.prefix!!
                 )
             } else {
-                ContainerImpl(
+                val tablePart = toTablePart(textLine, children, remainingLines, allLines)
+                tablePart ?: ContainerImpl(
                     textLine.id,
                     textLine.tag,
                     allLines.indexOf(textLine),
@@ -77,13 +76,55 @@ class QuintorTextLineTransformer : NewTextLineTransformer<QuintorApiNsxTextLine>
         return container
     }
 
+    fun toTablePart(
+        textLine: QuintorApiNsxTextLine,
+        children: List<QuintorApiNsxTextLine>,
+        remainingLines: MutableList<QuintorApiNsxTextLine>,
+        allLines: List<QuintorApiNsxTextLine>
+    ): SourcePart? {
+        return when (textLine.tag) {
+            "atable" -> Table(
+                textLine.id,
+                textLine.tag,
+                allLines.indexOf(textLine),
+                children.map { transform(it, remainingLines, allLines) },
+            )
+            "tgroup" -> TableGroup(
+                textLine.id,
+                textLine.tag,
+                allLines.indexOf(textLine),
+                children.map { transform(it, remainingLines, allLines) },
+            )
+            "athead" -> TableHead(
+                textLine.id,
+                textLine.tag,
+                allLines.indexOf(textLine),
+                children.map { transform(it, remainingLines, allLines) },
+            )
+            "atbody" -> TableBody(
+                textLine.id,
+                textLine.tag,
+                allLines.indexOf(textLine),
+                children.map { transform(it, remainingLines, allLines) },
+            )
+            "row" -> TableRow(
+                textLine.id,
+                textLine.tag,
+                allLines.indexOf(textLine),
+                children.map { transform(it, remainingLines, allLines) },
+            )
+            else -> null
+        }
+    }
 
-    class TextLineReversedSiblingIterable(private val siblings: List<QuintorApiNsxTextLine>) : Iterable<QuintorApiNsxTextLine> {
+    class TextLineReversedSiblingIterable(private val siblings: List<QuintorApiNsxTextLine>) :
+        Iterable<QuintorApiNsxTextLine> {
         override fun iterator(): Iterator<QuintorApiNsxTextLine> {
             return TextLineReversedSiblingIterator(siblings)
         }
 
-        class TextLineReversedSiblingIterator(private val siblings: List<QuintorApiNsxTextLine>) : Iterator<QuintorApiNsxTextLine> {
+        class TextLineReversedSiblingIterator(private val siblings: List<QuintorApiNsxTextLine>) :
+            Iterator<QuintorApiNsxTextLine> {
             private var next = siblings.firstOrNull { it.next == null }
 
             override fun hasNext(): Boolean {

@@ -1723,9 +1723,9 @@
     <node concept="2G$12M" id="2WP7dhE1erj" role="3989C9">
       <property role="TrG5h" value="Flint" />
       <node concept="1E1JtD" id="2WP7dhE1eri" role="2G$12L">
+        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="Flint" />
         <property role="3LESm3" value="69940819-10c1-4a38-ac44-700b63f993ba" />
-        <property role="BnDLt" value="true" />
         <node concept="55IIr" id="2WP7dhE1erd" role="3LF7KH">
           <node concept="2Ry0Ak" id="2WP7dhE1ere" role="iGT6I">
             <property role="2Ry0Am" value="languages" />
@@ -3248,11 +3248,6 @@
             <ref role="3bR37D" to="al5i:5A_Zlt6CRir" resolve="com.mbeddr.mpsutil.hyperlink" />
           </node>
         </node>
-        <node concept="1SiIV0" id="6onvLJoJXSQ" role="3bR37C">
-          <node concept="3bR9La" id="6onvLJoJXSR" role="1SiIV1">
-            <ref role="3bR37D" to="90a9:1sO539bGQvB" resolve="de.slisson.mps.richtext" />
-          </node>
-        </node>
         <node concept="1BupzO" id="6onvLJoJXT9" role="3bR31x">
           <property role="3ZfqAx" value="models" />
           <property role="1Hdu6h" value="true" />
@@ -3314,6 +3309,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="6onvLJoJXSQ" role="3bR37C">
+          <node concept="3bR9La" id="6onvLJoJXSR" role="1SiIV1">
+            <ref role="3bR37D" to="90a9:1sO539bGQvB" resolve="de.slisson.mps.richtext" />
+          </node>
+        </node>
         <node concept="1SiIV0" id="3nHnYZiywni" role="3bR37C">
           <node concept="3bR9La" id="3nHnYZiywnj" role="1SiIV1">
             <ref role="3bR37D" node="QLMwktTkqF" resolve="Flint.plugin" />
@@ -3342,6 +3342,16 @@
         <node concept="1SiIV0" id="5RoGIH36cv9" role="3bR37C">
           <node concept="1Busua" id="5RoGIH36cva" role="1SiIV1">
             <ref role="1Busuk" to="90a9:1sO539bGQvB" resolve="de.slisson.mps.richtext" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4CmDfqun6qN" role="3bR37C">
+          <node concept="3bR9La" id="4CmDfqun6qO" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4CmDfqun6qP" role="3bR37C">
+          <node concept="3bR9La" id="4CmDfqun6qQ" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L5j" resolve="jetbrains.mps.lang.editor.table.runtime" />
           </node>
         </node>
       </node>

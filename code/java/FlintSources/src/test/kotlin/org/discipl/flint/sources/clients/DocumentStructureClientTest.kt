@@ -1,9 +1,9 @@
 package org.discipl.flint.sources.clients
 
-import org.discipl.flint.sources.di.responsecase.DocumentStructureCase.Companion.documentStructureCase
 import org.discipl.flint.sources.di.RequestHandler
 import org.discipl.flint.sources.di.RequestHandler.Companion.assertAllCasesExecuted
 import org.discipl.flint.sources.di.TestWithTestExtension
+import org.discipl.flint.sources.di.responsecase.DocumentStructureCase.Companion.documentStructureCase
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 import org.koin.test.KoinTest
