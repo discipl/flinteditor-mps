@@ -862,11 +862,8 @@
                   <ref role="3cqZAo" to="rm61:35cpwYm8NV" resolve="addSourceToHolder" />
                 </node>
                 <node concept="liA8E" id="35cpwYmD5S" role="2OqNvi">
-                  <ref role="37wK5l" to="472r:5SIYu6Xx_iD" resolve="getTitle" />
-                  <node concept="7Obwk" id="35cpwYmGkT" role="37wK5m" />
-                  <node concept="Xl_RD" id="35cpwYmH19" role="37wK5m">
-                    <property role="Xl_RC" value="" />
-                  </node>
+                  <ref role="37wK5l" to="472r:35cpwYtF0O" resolve="getTitle" />
+                  <node concept="7Obwk" id="35cpwYtSh3" role="37wK5m" />
                 </node>
               </node>
             </node>
@@ -881,11 +878,8 @@
                   <ref role="1PxDUh" to="rm61:2553W0bKNAe" resolve="IntentionServiceLawsource" />
                 </node>
                 <node concept="liA8E" id="35cpwYmEmR" role="2OqNvi">
-                  <ref role="37wK5l" to="472r:5SIYu6Xx_D3" resolve="execute" />
+                  <ref role="37wK5l" to="472r:35cpwYtIhm" resolve="execute" />
                   <node concept="7Obwk" id="35cpwYmGDq" role="37wK5m" />
-                  <node concept="Xl_RD" id="35cpwYmHfw" role="37wK5m">
-                    <property role="Xl_RC" value="" />
-                  </node>
                 </node>
               </node>
             </node>
@@ -900,7 +894,7 @@
                   <ref role="3cqZAo" to="rm61:35cpwYm8NV" resolve="addSourceToHolder" />
                 </node>
                 <node concept="liA8E" id="35cpwYmDW7" role="2OqNvi">
-                  <ref role="37wK5l" to="472r:5SIYu6Xx_xi" resolve="isApplicable" />
+                  <ref role="37wK5l" to="472r:35cpwYtHOk" resolve="isApplicable" />
                   <node concept="7Obwk" id="35cpwYmG$Q" role="37wK5m" />
                 </node>
               </node>

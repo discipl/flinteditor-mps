@@ -31,9 +31,6 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
-      </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
@@ -205,11 +202,8 @@
               <ref role="1PxDUh" to="rm61:2553W0bKNAe" resolve="IntentionServiceLawsource" />
             </node>
             <node concept="liA8E" id="35cpwYmD5S" role="2OqNvi">
-              <ref role="37wK5l" to="472r:5SIYu6Xx_iD" resolve="getTitle" />
+              <ref role="37wK5l" to="472r:35cpwYtF0O" resolve="getTitle" />
               <node concept="2Sf5sV" id="35cpwYmDeR" role="37wK5m" />
-              <node concept="Xl_RD" id="35cpwYmGPm" role="37wK5m">
-                <property role="Xl_RC" value="" />
-              </node>
             </node>
           </node>
         </node>
@@ -224,11 +218,8 @@
               <ref role="1PxDUh" to="rm61:2553W0bKNAe" resolve="IntentionServiceLawsource" />
             </node>
             <node concept="liA8E" id="35cpwYmEmR" role="2OqNvi">
-              <ref role="37wK5l" to="472r:5SIYu6Xx_D3" resolve="execute" />
+              <ref role="37wK5l" to="472r:35cpwYtIhm" resolve="execute" />
               <node concept="2Sf5sV" id="35cpwYmEo2" role="37wK5m" />
-              <node concept="Xl_RD" id="35cpwYmHj0" role="37wK5m">
-                <property role="Xl_RC" value="" />
-              </node>
             </node>
           </node>
         </node>
@@ -243,7 +234,7 @@
               <ref role="1PxDUh" to="rm61:2553W0bKNAe" resolve="IntentionServiceLawsource" />
             </node>
             <node concept="liA8E" id="35cpwYmDW7" role="2OqNvi">
-              <ref role="37wK5l" to="472r:5SIYu6Xx_xi" resolve="isApplicable" />
+              <ref role="37wK5l" to="472r:35cpwYtHOk" resolve="isApplicable" />
               <node concept="2Sf5sV" id="35cpwYmE14" role="37wK5m" />
             </node>
           </node>
