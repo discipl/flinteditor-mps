@@ -9782,5 +9782,23 @@
       </node>
     </node>
   </node>
+  <node concept="312cEu" id="2553W0bKNAe">
+    <property role="TrG5h" value="IntentionServiceLawsource" />
+    <node concept="Wx3nA" id="2553W0b$yxd" role="jymVt">
+      <property role="TrG5h" value="nodeFromLine" />
+      <node concept="3Tm1VV" id="2553W0b$yxe" role="1B3o_S" />
+      <node concept="3uibUv" id="2553W0b$yxf" role="1tU5fm">
+        <ref role="3uigEE" to="472r:5SIYu6XxgH1" resolve="IntentionInstance" />
+        <node concept="3Tqbb2" id="2553W0b$yMi" role="11_B2D">
+          <ref role="ehGHo" to="87nw:2dWzqxEBMSc" resolve="Word" />
+        </node>
+        <node concept="3uibUv" id="2553W0bKzPN" role="11_B2D">
+          <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2553W0bKQ1g" role="jymVt" />
+    <node concept="3Tm1VV" id="2553W0bKNAf" role="1B3o_S" />
+  </node>
 </model>
 
