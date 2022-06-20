@@ -2,10 +2,8 @@ package org.discipl.flint.sources.di.responsecase
 
 import io.ktor.client.engine.mock.*
 import io.ktor.client.request.*
-import io.ktor.http.*
 import mu.KLogging
 import org.discipl.flint.sources.di.RequestHandlerCase
-import org.discipl.flint.sources.di.respondJson
 import org.discipl.flint.sources.di.respondJsonOk
 import org.hamcrest.MatcherAssert.assertThat
 import org.hamcrest.Matchers.hasSize

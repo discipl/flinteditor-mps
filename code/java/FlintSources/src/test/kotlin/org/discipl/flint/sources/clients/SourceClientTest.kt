@@ -4,11 +4,8 @@ import org.apache.http.client.HttpClient
 import org.discipl.flint.sources.di.TestWithTestExtension
 import org.discipl.flint.sources.di.asMock
 import org.discipl.flint.sources.di.doReturnJSONResource
-import org.hamcrest.MatcherAssert
 import org.hamcrest.MatcherAssert.assertThat
 import org.hamcrest.Matchers.*
-import org.junit.jupiter.api.Assertions.assertEquals
-import org.junit.jupiter.api.Assertions.assertNotNull
 import org.junit.jupiter.api.Test
 import org.koin.test.KoinTest
 import org.koin.test.inject
@@ -30,7 +27,10 @@ internal class SourceClientTest : KoinTest, TestWithTestExtension() {
         val sourceForBwb = client.getSourceForBwb("BWBR0043324")
         assertThat(sourceForBwb, `is`(notNullValue()))
         assertThat(sourceForBwb, hasProperty("bwb", equalTo("BWBR0043324")))
-        assertThat(sourceForBwb, hasProperty("title", equalTo("Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19")))
+        assertThat(
+            sourceForBwb,
+            hasProperty("title", equalTo("Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19"))
+        )
         assertThat(sourceForBwb, hasProperty("juriconnect", equalTo("jci1.3:c:BWBR0043324")))
     }
 }

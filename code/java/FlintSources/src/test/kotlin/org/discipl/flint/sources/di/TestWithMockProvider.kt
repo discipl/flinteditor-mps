@@ -3,16 +3,17 @@ package org.discipl.flint.sources.di
 import com.github.paweladamski.httpclientmock.HttpClientMock
 import io.ktor.client.engine.mock.*
 import io.mockk.mockkClass
-import mu.KLogging
 import mu.NamedKLogging
 import org.apache.http.client.HttpClient
 import org.discipl.flint.sources.di.Qualifiers.IS_FAKE_HTTP_QUALIFIER
+import org.discipl.flint.sources.plantuml.DiagramBuilder
 import org.discipl.flint.sources.services.PropertyProvider
 import org.junit.jupiter.api.extension.RegisterExtension
 import org.koin.core.KoinApplication
 import org.koin.dsl.module
 import org.koin.test.junit5.KoinTestExtension
 import org.koin.test.junit5.mock.MockProviderExtension
+import java.nio.file.Paths
 import javax.net.ssl.SSLContext
 
 open class TestWithMockProvider {
@@ -43,6 +44,7 @@ open class TestWithTestExtension : TestWithMockProvider() {
                         override val timeOutInMs: Int = 360 * 1000
                     }
                 }
+                single { DiagramBuilder(Paths.get(getProperty<String>("BUILD_DIR"))) }
                 single { ResourceProvider() }
             }
         )

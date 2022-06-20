@@ -516,54 +516,6 @@
       <property role="TrG5h" value="flintModelRootNode" />
       <ref role="14a85i" node="7diJr$Rw$m0" resolve="model" />
       <ref role="3GDMyY" node="3ZnFyBjojbx" resolve="node" />
-      <node concept="14aYG3" id="5WiQZ$DPgd8" role="1DVp44">
-        <property role="TrG5h" value="dutyFolder" />
-        <ref role="14a85i" node="5WiQZ$DOFbE" resolve="flintModelRootNode" />
-        <ref role="3GDMyY" node="5WiQZ$DVFsn" resolve="nodeFolder" />
-        <node concept="14aYG3" id="5WiQZ$DPgd9" role="1DVp44">
-          <property role="TrG5h" value="duties" />
-          <ref role="14a85i" node="5WiQZ$DPgd8" resolve="dutyFolder" />
-          <ref role="3GDMyY" node="3ZnFyBjojbx" resolve="node" />
-          <node concept="3Tqbb2" id="5WiQZ$DPgda" role="3GGxor" />
-          <node concept="3clFbT" id="5WiQZ$DPgdb" role="3dS793">
-            <property role="3clFbU" value="true" />
-          </node>
-          <node concept="3clFbT" id="5WiQZ$DPgdc" role="19oFX3" />
-          <node concept="2YIFZM" id="5WiQZ$DPgdd" role="14bQOc">
-            <ref role="37wK5l" node="19XK2H096tg" resolve="getRootNodesByConcept" />
-            <ref role="1Pybhc" node="480JVLcGWRz" resolve="HelperFunctions" />
-            <node concept="14b0Wr" id="5WiQZ$DPgde" role="37wK5m">
-              <ref role="14b0Uw" node="7diJr$Rw$m0" resolve="model" />
-            </node>
-            <node concept="35c_gC" id="5WiQZ$DPgdf" role="37wK5m">
-              <ref role="35c_gD" to="lnwe:27H3E6Hoggr" resolve="Duty" />
-            </node>
-          </node>
-        </node>
-        <node concept="1QGGTA" id="5WiQZ$DPgdg" role="3actZa">
-          <node concept="1QGGSu" id="5WiQZ$DPgdh" role="1QGGTw">
-            <property role="1iqoE4" value="${module}/icons/DutyFolder.png" />
-          </node>
-        </node>
-        <node concept="3clFbT" id="5WiQZ$DPgdi" role="3dS793">
-          <property role="3clFbU" value="true" />
-        </node>
-        <node concept="2OqwBi" id="5WiQZ$DT92k" role="14a853">
-          <node concept="10M0yZ" id="5WiQZ$DT7Zd" role="2Oq$k0">
-            <ref role="3cqZAo" node="5WiQZ$DRVYC" resolve="languageMap" />
-            <ref role="1PxDUh" node="480JVLcGWRz" resolve="HelperFunctions" />
-          </node>
-          <node concept="liA8E" id="5WiQZ$DTap3" role="2OqNvi">
-            <ref role="37wK5l" to="33ny:~HashMap.getOrDefault(java.lang.Object,java.lang.Object)" resolve="getOrDefault" />
-            <node concept="Xl_RD" id="5WiQZ$DTaVy" role="37wK5m">
-              <property role="Xl_RC" value="eDuties" />
-            </node>
-            <node concept="Xl_RD" id="5WiQZ$DTp5p" role="37wK5m">
-              <property role="Xl_RC" value="Duties - Default" />
-            </node>
-          </node>
-        </node>
-      </node>
       <node concept="14aYG3" id="5WiQZ$DPbyZ" role="1DVp44">
         <property role="TrG5h" value="actsFolder" />
         <ref role="14a85i" node="5WiQZ$DOFbE" resolve="flintModelRootNode" />
@@ -656,6 +608,54 @@
             </node>
             <node concept="Xl_RD" id="5WiQZ$DTlXh" role="37wK5m">
               <property role="Xl_RC" value="Facts - Default" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="14aYG3" id="5WiQZ$DPgd8" role="1DVp44">
+        <property role="TrG5h" value="dutyFolder" />
+        <ref role="14a85i" node="5WiQZ$DOFbE" resolve="flintModelRootNode" />
+        <ref role="3GDMyY" node="5WiQZ$DVFsn" resolve="nodeFolder" />
+        <node concept="14aYG3" id="5WiQZ$DPgd9" role="1DVp44">
+          <property role="TrG5h" value="duties" />
+          <ref role="14a85i" node="5WiQZ$DPgd8" resolve="dutyFolder" />
+          <ref role="3GDMyY" node="3ZnFyBjojbx" resolve="node" />
+          <node concept="3Tqbb2" id="5WiQZ$DPgda" role="3GGxor" />
+          <node concept="3clFbT" id="5WiQZ$DPgdb" role="3dS793">
+            <property role="3clFbU" value="true" />
+          </node>
+          <node concept="3clFbT" id="5WiQZ$DPgdc" role="19oFX3" />
+          <node concept="2YIFZM" id="5WiQZ$DPgdd" role="14bQOc">
+            <ref role="37wK5l" node="19XK2H096tg" resolve="getRootNodesByConcept" />
+            <ref role="1Pybhc" node="480JVLcGWRz" resolve="HelperFunctions" />
+            <node concept="14b0Wr" id="5WiQZ$DPgde" role="37wK5m">
+              <ref role="14b0Uw" node="7diJr$Rw$m0" resolve="model" />
+            </node>
+            <node concept="35c_gC" id="5WiQZ$DPgdf" role="37wK5m">
+              <ref role="35c_gD" to="lnwe:27H3E6Hoggr" resolve="Duty" />
+            </node>
+          </node>
+        </node>
+        <node concept="1QGGTA" id="5WiQZ$DPgdg" role="3actZa">
+          <node concept="1QGGSu" id="5WiQZ$DPgdh" role="1QGGTw">
+            <property role="1iqoE4" value="${module}/icons/DutyFolder.png" />
+          </node>
+        </node>
+        <node concept="3clFbT" id="5WiQZ$DPgdi" role="3dS793">
+          <property role="3clFbU" value="true" />
+        </node>
+        <node concept="2OqwBi" id="5WiQZ$DT92k" role="14a853">
+          <node concept="10M0yZ" id="5WiQZ$DT7Zd" role="2Oq$k0">
+            <ref role="3cqZAo" node="5WiQZ$DRVYC" resolve="languageMap" />
+            <ref role="1PxDUh" node="480JVLcGWRz" resolve="HelperFunctions" />
+          </node>
+          <node concept="liA8E" id="5WiQZ$DTap3" role="2OqNvi">
+            <ref role="37wK5l" to="33ny:~HashMap.getOrDefault(java.lang.Object,java.lang.Object)" resolve="getOrDefault" />
+            <node concept="Xl_RD" id="5WiQZ$DTaVy" role="37wK5m">
+              <property role="Xl_RC" value="eDuties" />
+            </node>
+            <node concept="Xl_RD" id="5WiQZ$DTp5p" role="37wK5m">
+              <property role="Xl_RC" value="Duties - Default" />
             </node>
           </node>
         </node>
