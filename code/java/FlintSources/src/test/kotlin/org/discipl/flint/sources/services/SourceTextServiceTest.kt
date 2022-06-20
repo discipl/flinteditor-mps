@@ -69,7 +69,6 @@ internal class SourceTextServiceTest : KoinTest, TestWithTestExtension() {
     @OptIn(ExperimentalStdlibApi::class)
     @Test
     fun requestParsingTriplyTable() {
-        // TODO write actual test
         val versionId = "BWBR0011825/2020-08-01"
         val parts = getTextLinesForVersion(ClientIds.triply, versionId, "cov19parseResult2.json")
         val recursiveContainerMatcher = containersMatching { part -> part is Table }
