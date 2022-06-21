@@ -242,5 +242,42 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="2AbE34hy4I6">
+    <property role="TrG5h" value="SplitPrefixLine" />
+    <ref role="2ZfgGC" to="87nw:2dWzqxEBMSc" resolve="Word" />
+    <node concept="2S6ZIM" id="2AbE34hy4I7" role="2ZfVej">
+      <node concept="3clFbS" id="2AbE34hy4I8" role="2VODD2">
+        <node concept="3clFbF" id="2AbE34hy4PR" role="3cqZAp">
+          <node concept="2YIFZM" id="2AbE34hy4PS" role="3clFbG">
+            <ref role="1Pybhc" to="rm61:2AbE34hy1dS" resolve="SplitLineInPrefixContainerIntention" />
+            <ref role="37wK5l" to="rm61:2AbE34hy1dU" resolve="getDescription" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="2AbE34hy4I9" role="2ZfgGD">
+      <node concept="3clFbS" id="2AbE34hy4Ia" role="2VODD2">
+        <node concept="3clFbF" id="2AbE34hy5fd" role="3cqZAp">
+          <node concept="2YIFZM" id="2AbE34hy5lB" role="3clFbG">
+            <ref role="37wK5l" to="rm61:2AbE34hy1ew" resolve="execute" />
+            <ref role="1Pybhc" to="rm61:2AbE34hy1dS" resolve="SplitLineInPrefixContainerIntention" />
+            <node concept="2Sf5sV" id="2AbE34hy5md" role="37wK5m" />
+            <node concept="1XNTG" id="2AbE34hy5oS" role="37wK5m" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="2AbE34hy50f" role="2ZfVeh">
+      <node concept="3clFbS" id="2AbE34hy50g" role="2VODD2">
+        <node concept="3clFbF" id="2AbE34hy54e" role="3cqZAp">
+          <node concept="2YIFZM" id="2AbE34hy59S" role="3clFbG">
+            <ref role="37wK5l" to="rm61:2AbE34hy1e1" resolve="isApplicable" />
+            <ref role="1Pybhc" to="rm61:2AbE34hy1dS" resolve="SplitLineInPrefixContainerIntention" />
+            <node concept="2Sf5sV" id="2AbE34hy5aN" role="37wK5m" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

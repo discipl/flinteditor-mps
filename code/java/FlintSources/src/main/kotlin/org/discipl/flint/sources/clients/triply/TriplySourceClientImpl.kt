@@ -1,9 +1,15 @@
 package org.discipl.flint.sources.clients.triply
 
 import org.apache.jena.graph.NodeFactory
-import org.apache.jena.query.*
-import org.discipl.flint.sources.clients.*
+import org.apache.jena.query.ParameterizedSparqlString
+import org.apache.jena.query.Query
+import org.apache.jena.query.QueryFactory
+import org.apache.jena.query.QuerySolution
+import org.discipl.flint.sources.clients.IHasSolution
+import org.discipl.flint.sources.clients.QueryExecutor
+import org.discipl.flint.sources.clients.SourceClient
 import org.discipl.flint.sources.clients.SourceClient.BWBSource
+import org.discipl.flint.sources.clients.querySolutionString
 
 class TriplySourceClientImpl(private val queryExecutor: QueryExecutor) : SourceClient {
     // TODO make sure to get the latest one somehow

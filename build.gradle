@@ -53,7 +53,7 @@ ext {
     node_version = "13.6.0"
     npm_version = "6.13.4"
     koin_version = "3.2.0-beta-1"
-    ktor_version = "2.0.0"
+    ktor_version = "2.0.2"
     gson_version = "2.8.6"
     jbr_version = "11_0_6-b520.66"
     osx_jdk_version = "11.0.11-9"
@@ -85,15 +85,20 @@ repositories {
 }
 
 if (System.getenv('CI') == null) {
-    def props = new Properties()
-    file("local.properties").withInputStream { props.load(it) }
-    ext {
-        ossindexUser = props.get("ossindexUser")
-        ossindexToken = props.get("ossindexToken")
-    }
-    audit {
-        user = "$ossindexUser"
-        token = "$ossindexToken"
+    def propertiesFile = file("local.properties")
+    if (!propertiesFile.exists()) {
+        logger.warn("No local.properties file found")
+    } else {
+        def props = new Properties()
+        propertiesFile.withInputStream { props.load(it) }
+        ext {
+            ossindexUser = props.get("ossindexUser")
+            ossindexToken = props.get("ossindexToken")
+        }
+        audit {
+            user = "$ossindexUser"
+            token = "$ossindexToken"
+        }
     }
 }
 
@@ -209,9 +214,21 @@ task addMpsLibsToFlintRuntime() {
             stubModelEntries.addElement("stubModelEntry").addAttribute("path", "\${module}/libs/" + it)
         }
 
-        org.dom4j.io.XMLWriter writer = new org.dom4j.io.XMLWriter(new FileWriter(file), org.dom4j.io.OutputFormat.createPrettyPrint());
-        writer.write(document);
-        writer.close();
+
+        def lineSeperator = "\n"
+        if (OperatingSystem.current().isWindows()) {
+            lineSeperator = "\r\n"
+        }
+        def format = OutputFormat.createPrettyPrint()
+        format.setNewLineAfterDeclaration(false)
+        format.setLineSeparator(lineSeperator)
+        format.setPadText(false)
+        org.dom4j.io.XMLWriter writer = new org.dom4j.io.XMLWriter(new FileWriter(file), format)
+        writer.write(document)
+        writer.close()
+
+        def fixedText = file.getText().replace("/>", " />") + lineSeperator
+        file.write(fixedText)
     }
 }
 
@@ -312,6 +329,7 @@ task copyMbeddrPlugins(type: Copy) {
 }
 
 
+import org.dom4j.io.OutputFormat
 import org.gradle.internal.os.OperatingSystem
 
 task resolveMps(type: Copy) {
@@ -418,6 +436,11 @@ task htmlReport(type: de.itemis.mps.gradle.RunAntScript, dependsOn: collectXmlRe
     script = file("$codeDir/html-report.xml")
 }
 
+def doesFillerFileExist(name) {
+    def file = new File(flint_filler_executables_dir, name)
+    return file.exists()
+}
+
 def downloadFillerFile(name) {
     def f = new File(flint_filler_executables_dir, name)
     f.getParentFile().mkdirs();
@@ -428,13 +451,28 @@ def downloadFillerFile(name) {
     return f
 }
 
-
-task fetchFlintFillerExecutables() {
-    doLast {
+task fetchFlintFillerLinux() {
+    onlyIf { !doesFillerFileExist("flintfiller-linux") }
+    doFirst {
         downloadFillerFile("flintfiller-linux")
-        downloadFillerFile("flintfiller-macos")
+    }
+}
+
+task fetchFlintFillerWindows() {
+    onlyIf { !doesFillerFileExist("flintfiller-windows.exe") }
+    doFirst {
         downloadFillerFile("flintfiller-windows.exe")
     }
+}
+
+task fetchFlintFillerMacos() {
+    onlyIf { !doesFillerFileExist("flintfiller-macos") }
+    doFirst {
+        downloadFillerFile("flintfiller-macos")
+    }
+}
+
+task fetchFlintFillerExecutables(dependsOn: [fetchFlintFillerLinux, fetchFlintFillerWindows, fetchFlintFillerMacos]) {
 }
 
 
@@ -447,8 +485,11 @@ task downloadWindowsJbr(type: Copy) {
     group = 'jbr'
     def dirName = "windows"
     def downloadDir = new File(jbrsDir, dirName)
+    onlyIf { !downloadDir.exists() || downloadDir.list().size() == 0 }
     doFirst {
-        downloadDir.delete()
+        delete {
+            delete downloadDir
+        }
     }
     from(getConfiguration(dirName).resolve().collect { tarTree(it) })
     into(downloadDir)
@@ -458,8 +499,11 @@ task downloadLinuxJbr(type: Copy) {
     group = 'jbr'
     def dirName = "linux"
     def downloadDir = new File(jbrsDir, dirName)
+    onlyIf { !downloadDir.exists() || downloadDir.list().size() == 0 }
     doFirst {
-        downloadDir.delete()
+        delete {
+            delete downloadDir
+        }
     }
     from(getConfiguration(dirName).resolve().collect { tarTree(it) })
     into(downloadDir)
@@ -509,8 +553,11 @@ task downloadMacOsJbr(type: Copy, group: 'jbr') {
     group = 'jbr'
     def dirName = "osx"
     def downloadDir = new File(jbrsDir, dirName)
+    onlyIf { !downloadDir.exists() || downloadDir.list().size() == 0 }
     doFirst {
-        downloadDir.delete()
+        delete {
+            delete downloadDir
+        }
     }
     def dependency = "net.adoptopenjdk:jdk:$osx_jdk_version:macosx-x64@tar.gz"
     def config = configurations.detachedConfiguration(project.dependencies.create(dependency))

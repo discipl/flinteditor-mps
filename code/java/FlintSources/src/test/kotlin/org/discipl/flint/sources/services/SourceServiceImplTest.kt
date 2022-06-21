@@ -5,13 +5,8 @@ import org.discipl.flint.sources.clients.QueryExecutor
 import org.discipl.flint.sources.di.TestWithTestExtension
 import org.discipl.flint.sources.di.asMock
 import org.discipl.flint.sources.di.doReturnJSONResource
-import org.discipl.flint.sources.services.SourceService
-import org.hamcrest.MatcherAssert
-import org.hamcrest.MatcherAssert.*
-import org.hamcrest.Matchers
+import org.hamcrest.MatcherAssert.assertThat
 import org.hamcrest.Matchers.*
-import org.junit.jupiter.api.Assertions.assertEquals
-import org.junit.jupiter.api.Assertions.assertNotNull
 import org.junit.jupiter.api.Test
 import org.koin.test.KoinTest
 import org.koin.test.inject
