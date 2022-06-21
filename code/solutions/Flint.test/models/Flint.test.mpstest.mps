@@ -8856,7 +8856,7 @@
               <node concept="3clFbS" id="1XRBbkd2FaO" role="1bW5cS">
                 <node concept="3clFbF" id="1XRBbkd2Fey" role="3cqZAp">
                   <node concept="2YIFZM" id="62xOyh25ssF" role="3clFbG">
-                    <ref role="37wK5l" to="472r:62xOyh25h7O" resolve="addSourceToNode" />
+                    <ref role="37wK5l" to="472r:62xOyh25h7O" resolve="addSourceToSourceholder" />
                     <ref role="1Pybhc" to="472r:1BkZCJkeUDu" resolve="NodeFromArticleUtils" />
                     <node concept="2OqwBi" id="62xOyh25JXe" role="37wK5m">
                       <node concept="369mXd" id="62xOyh25JXf" role="2Oq$k0" />
@@ -8866,17 +8866,6 @@
                     </node>
                     <node concept="3xONca" id="62xOyh25K2j" role="37wK5m">
                       <ref role="3xOPvv" node="1XRBbkd2DpK" resolve="factNode" />
-                    </node>
-                    <node concept="2OqwBi" id="62xOyh25Lqh" role="37wK5m">
-                      <node concept="2OqwBi" id="62xOyh25Lao" role="2Oq$k0">
-                        <node concept="369mXd" id="62xOyh25Lap" role="2Oq$k0" />
-                        <node concept="liA8E" id="62xOyh25Laq" role="2OqNvi">
-                          <ref role="37wK5l" to="exr9:~EditorComponent.getSelectedNode()" resolve="getSelectedNode" />
-                        </node>
-                      </node>
-                      <node concept="liA8E" id="62xOyh25LEa" role="2OqNvi">
-                        <ref role="37wK5l" to="mhbf:~SNode.getModel()" resolve="getModel" />
-                      </node>
                     </node>
                   </node>
                 </node>
@@ -9180,21 +9169,13 @@
               <node concept="3clFbS" id="62xOyh277fv" role="1bW5cS">
                 <node concept="3clFbF" id="62xOyh277fw" role="3cqZAp">
                   <node concept="2YIFZM" id="62xOyh277fx" role="3clFbG">
-                    <ref role="37wK5l" to="472r:62xOyh25h7O" resolve="addSourceToNode" />
+                    <ref role="37wK5l" to="472r:62xOyh25h7O" resolve="addSourceToSourceholder" />
                     <ref role="1Pybhc" to="472r:1BkZCJkeUDu" resolve="NodeFromArticleUtils" />
                     <node concept="37vLTw" id="62xOyh27D_f" role="37wK5m">
                       <ref role="3cqZAo" node="62xOyh27D3m" resolve="selectedNode" />
                     </node>
                     <node concept="3xONca" id="62xOyh277f_" role="37wK5m">
                       <ref role="3xOPvv" node="62xOyh277eV" resolve="factNode" />
-                    </node>
-                    <node concept="2OqwBi" id="62xOyh277fA" role="37wK5m">
-                      <node concept="liA8E" id="62xOyh277fE" role="2OqNvi">
-                        <ref role="37wK5l" to="mhbf:~SNode.getModel()" resolve="getModel" />
-                      </node>
-                      <node concept="37vLTw" id="62xOyh27DHq" role="2Oq$k0">
-                        <ref role="3cqZAo" node="62xOyh27D3m" resolve="selectedNode" />
-                      </node>
                     </node>
                   </node>
                 </node>
