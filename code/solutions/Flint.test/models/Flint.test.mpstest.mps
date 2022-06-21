@@ -15,6 +15,7 @@
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
     <use id="dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d" name="LawSource" version="2" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+    <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
   </languages>
   <imports>
     <import index="19bf" ref="r:9ccc0aaa-6a7d-428b-801a-7c9a042369d0(Flint.typesystem)" />
@@ -276,6 +277,14 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
     </language>
+    <language id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access">
+      <concept id="8974276187400348173" name="jetbrains.mps.lang.access.structure.CommandClosureLiteral" flags="nn" index="1QHqEC" />
+      <concept id="8974276187400348174" name="jetbrains.mps.lang.access.structure.ExecuteCommandInEDTStatement" flags="nn" index="1QHqEF" />
+      <concept id="8974276187400348170" name="jetbrains.mps.lang.access.structure.BaseExecuteCommandStatement" flags="nn" index="1QHqEJ">
+        <child id="1423104411234567454" name="repo" index="ukAjM" />
+        <child id="8974276187400348171" name="commandClosureLiteral" index="1QHqEI" />
+      </concept>
+    </language>
     <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
       <concept id="2557074442922380897" name="de.slisson.mps.richtext.structure.Text" flags="ng" index="19SGf9">
         <child id="2557074442922392302" name="words" index="19SJt6" />
@@ -357,6 +366,37 @@
       </concept>
       <concept id="2986354165693918736" name="Flint.structure.SRole" flags="ng" index="2UK0tq">
         <property id="2986354165693918737" name="role" index="2UK0tr" />
+      </concept>
+      <concept id="3001846011087139046" name="Flint.structure.Language" flags="ng" index="30VgfG">
+        <property id="5774777313303068660" name="eVersion" index="20jtUE" />
+        <property id="5774777313303068741" name="ePublicized" index="20jy4r" />
+        <property id="5774777313303068770" name="eSelectVersion" index="20jy4W" />
+        <property id="5774777313303068686" name="eVerified" index="20jy5g" />
+        <property id="5774777313303068713" name="eValidated" index="20jy5R" />
+        <property id="1522826714118601015" name="eLanguage" index="gCpfz" />
+        <property id="2877568541152355806" name="eDuties" index="2ZPCy9" />
+        <property id="2877568541152355783" name="eFacts" index="2ZPCyg" />
+        <property id="2877568541152355761" name="eActs" index="2ZPCzA" />
+        <property id="3001846011087139886" name="eFunction" index="30Vgs$" />
+        <property id="3001846011087139884" name="eName" index="30VgsA" />
+        <property id="3001846011087139889" name="eReferences" index="30VgsV" />
+        <property id="3001846011087141580" name="eClaimant" index="30VgB6" />
+        <property id="3001846011087141575" name="eDutyHolder" index="30VgBd" />
+        <property id="3001846011087141593" name="eTerminate" index="30VgBj" />
+        <property id="3001846011087141586" name="eCreate" index="30VgBo" />
+        <property id="3001846011087141610" name="eExplanation" index="30VgBw" />
+        <property id="3001846011087141601" name="eEnforce" index="30VgBF" />
+        <property id="3001846011087141620" name="eActor" index="30VgBY" />
+        <property id="3001846011087143305" name="eAction" index="30Vna3" />
+        <property id="3001846011087143317" name="eObject" index="30Vnav" />
+        <property id="3001846011087143330" name="eRecipient" index="30VnaC" />
+        <property id="3001846011087143344" name="ePreconditions" index="30VnaU" />
+        <property id="7962607456106299664" name="eTags" index="15_LLr" />
+        <property id="1314176147395541933" name="eSources" index="1nWpYj" />
+        <property id="5922331120226874853" name="eFindLineInSource" index="3PrmOz" />
+        <property id="5922331120225230293" name="eText" index="3Pt4kj" />
+        <property id="5922331120230670153" name="eValidTo" index="3PDOuf" />
+        <property id="5922331120230670133" name="eValidFrom" index="3PDOvN" />
       </concept>
       <concept id="4312083994563767573" name="Flint.structure.LanguageReference" flags="ng" index="3ainiu">
         <reference id="4312083994563770085" name="target" index="3aimXI" />
@@ -9023,6 +9063,148 @@
       </node>
       <node concept="3clFbH" id="2AbE34h$BA5" role="3cqZAp" />
       <node concept="3clFbH" id="2AbE34h$BA6" role="3cqZAp" />
+    </node>
+  </node>
+  <node concept="LiM7Y" id="Z$nuwvVOWx">
+    <property role="TrG5h" value="TestLanguageImporter" />
+    <node concept="1qefOq" id="Z$nuwvVOWy" role="25YQCW">
+      <node concept="30VgfG" id="Z$nuwvVWy$" role="1qenE9">
+        <node concept="LIFWc" id="Z$nuwvWiPM" role="lGtFl">
+          <property role="LIFWa" value="0" />
+          <property role="OXtK3" value="true" />
+          <property role="p6zMq" value="0" />
+          <property role="p6zMs" value="0" />
+          <property role="LIFWd" value="Constant_75gu8q_a0a" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="Z$nuwvVOW_" role="25YQFr">
+      <node concept="30VgfG" id="Z$nuwvVQbs" role="1qenE9">
+        <property role="30VgsA" value="name" />
+        <property role="2ZPCzA" value="acts" />
+        <property role="TrG5h" value="English" />
+        <property role="2ZPCyg" value="facts" />
+        <property role="2ZPCy9" value="duties" />
+        <property role="30Vgs$" value="function" />
+        <property role="30VgsV" value="references" />
+        <property role="30VgBd" value="duty-holder" />
+        <property role="30VgB6" value="claimaint" />
+        <property role="30VgBo" value="create" />
+        <property role="30VgBj" value="terminate" />
+        <property role="30VgBF" value="enforce" />
+        <property role="30VgBw" value="explanation" />
+        <property role="30VgBY" value="actor" />
+        <property role="30Vna3" value="action" />
+        <property role="30Vnav" value="object" />
+        <property role="30VnaC" value="recipient" />
+        <property role="30VnaU" value="preconditions" />
+        <property role="gCpfz" value="language" />
+        <property role="1nWpYj" value="sources" />
+        <property role="3Pt4kj" value="text" />
+        <property role="3PrmOz" value="Find line in Source" />
+        <property role="3PDOvN" value="valid from" />
+        <property role="3PDOuf" value="valid to" />
+        <property role="15_LLr" value="tags" />
+        <property role="20jtUE" value="version" />
+        <property role="20jy5g" value="verified" />
+        <property role="20jy5R" value="validated" />
+        <property role="20jy4r" value="publicized" />
+        <property role="20jy4W" value="select version" />
+      </node>
+    </node>
+    <node concept="3clFbS" id="Z$nuwvVOXz" role="LjaKd">
+      <node concept="3cpWs8" id="Z$nuwvVOXG" role="3cqZAp">
+        <node concept="3cpWsn" id="Z$nuwvVOXH" role="3cpWs9">
+          <property role="TrG5h" value="filePath" />
+          <node concept="3uibUv" id="Z$nuwvVOXI" role="1tU5fm">
+            <ref role="3uigEE" to="eoo2:~Path" resolve="Path" />
+          </node>
+          <node concept="2OqwBi" id="Z$nuwvVOXJ" role="33vP2m">
+            <node concept="2OqwBi" id="Z$nuwvVOXK" role="2Oq$k0">
+              <node concept="2YIFZM" id="Z$nuwvVOXL" role="2Oq$k0">
+                <ref role="37wK5l" to="91gc:7ALI6YWYmu7" resolve="getInstance" />
+                <ref role="1Pybhc" to="91gc:2eNuKY2QKZ" resolve="FlintProperties" />
+              </node>
+              <node concept="2S8uIT" id="Z$nuwvVOXM" role="2OqNvi">
+                <ref role="2S8YL0" to="91gc:7FNYdkaI3HX" resolve="testResourcesFolder" />
+              </node>
+            </node>
+            <node concept="liA8E" id="Z$nuwvVOXN" role="2OqNvi">
+              <ref role="37wK5l" to="eoo2:~Path.resolve(java.lang.String)" resolve="resolve" />
+              <node concept="Xl_RD" id="Z$nuwvVOXO" role="37wK5m">
+                <property role="Xl_RC" value="test-language.flint.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="Z$nuwvVY38" role="3cqZAp">
+        <node concept="3cpWsn" id="Z$nuwvVY39" role="3cpWs9">
+          <property role="TrG5h" value="languageNode" />
+          <node concept="3Tqbb2" id="Z$nuwvVXX4" role="1tU5fm">
+            <ref role="ehGHo" to="lnwe:2ACGKFDB3mq" resolve="Language" />
+          </node>
+          <node concept="1PxgMI" id="Z$nuwvXZGk" role="33vP2m">
+            <node concept="chp4Y" id="Z$nuwvXZK8" role="3oSUPX">
+              <ref role="cht4Q" to="lnwe:2ACGKFDB3mq" resolve="Language" />
+            </node>
+            <node concept="2OqwBi" id="Z$nuwvXYri" role="1m5AlR">
+              <node concept="369mXd" id="Z$nuwvXXJl" role="2Oq$k0" />
+              <node concept="liA8E" id="Z$nuwvXZrP" role="2OqNvi">
+                <ref role="37wK5l" to="exr9:~EditorComponent.getSelectedNode()" resolve="getSelectedNode" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="Z$nuwvVOXP" role="3cqZAp">
+        <node concept="3cpWsn" id="Z$nuwvVOXQ" role="3cpWs9">
+          <property role="TrG5h" value="languageJson" />
+          <node concept="17QB3L" id="Z$nuwvVOXR" role="1tU5fm" />
+          <node concept="2YIFZM" id="Z$nuwvVOXS" role="33vP2m">
+            <ref role="37wK5l" to="eoo2:~Files.readString(java.nio.file.Path)" resolve="readString" />
+            <ref role="1Pybhc" to="eoo2:~Files" resolve="Files" />
+            <node concept="37vLTw" id="Z$nuwvVOXT" role="37wK5m">
+              <ref role="3cqZAo" node="Z$nuwvVOXH" resolve="filePath" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1QHqEF" id="Z$nuww0BHm" role="3cqZAp">
+        <node concept="1QHqEC" id="Z$nuww0BHo" role="1QHqEI">
+          <node concept="3clFbS" id="Z$nuww0BHq" role="1bW5cS">
+            <node concept="3clFbF" id="Z$nuwvW0lU" role="3cqZAp">
+              <node concept="2OqwBi" id="Z$nuwvWhAA" role="3clFbG">
+                <node concept="2ShNRf" id="Z$nuwvW0lQ" role="2Oq$k0">
+                  <node concept="1pGfFk" id="Z$nuwvWaL3" role="2ShVmc">
+                    <ref role="37wK5l" to="472r:5fVLlSDbfR2" resolve="JsonLanguageImporter" />
+                    <node concept="37vLTw" id="Z$nuwvWgU8" role="37wK5m">
+                      <ref role="3cqZAo" node="Z$nuwvVOXQ" resolve="languageJson" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="Z$nuwvWibI" role="2OqNvi">
+                  <ref role="37wK5l" to="472r:Z$nuwvVV5G" resolve="loadLanguageNode" />
+                  <node concept="37vLTw" id="Z$nuwvWivN" role="37wK5m">
+                    <ref role="3cqZAo" node="Z$nuwvVY39" resolve="languageNode" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="Z$nuww0DMY" role="ukAjM">
+          <node concept="2OqwBi" id="Z$nuww0DMZ" role="2Oq$k0">
+            <node concept="369mXd" id="Z$nuww0DN0" role="2Oq$k0" />
+            <node concept="liA8E" id="Z$nuww0DN1" role="2OqNvi">
+              <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+            </node>
+          </node>
+          <node concept="liA8E" id="Z$nuww0DN2" role="2OqNvi">
+            <ref role="37wK5l" to="exr9:~EditorContext.getRepository()" resolve="getRepository" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
