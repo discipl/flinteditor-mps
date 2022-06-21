@@ -554,7 +554,6 @@ task downloadMacOsJbr(type: Copy, group: 'jbr') {
     def dirName = "osx"
     def downloadDir = new File(jbrsDir, dirName)
     onlyIf { !downloadDir.exists() || downloadDir.list().size() == 0 }
-    finalizedBy(fixMacOsSymbolicLink)
     doFirst {
         delete {
             delete downloadDir
