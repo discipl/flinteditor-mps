@@ -282,5 +282,31 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="3FsRXa7xoh6">
+    <ref role="1XX52x" to="1z9r:3FsRXa7mqjq" resolve="TestLawsource" />
+    <node concept="3EZMnI" id="3FsRXa7xoh8" role="2wV5jI">
+      <node concept="3F0ifn" id="3FsRXa7xohf" role="3EZMnx">
+        <property role="3F0ifm" value="source:" />
+      </node>
+      <node concept="3F1sOY" id="3FsRXa7xohl" role="3EZMnx">
+        <ref role="1NtTu8" to="1z9r:3FsRXa7mqjr" resolve="source" />
+      </node>
+      <node concept="3F0ifn" id="3FsRXa7xohp" role="3EZMnx">
+        <property role="3F0ifm" value="version:" />
+      </node>
+      <node concept="3F2HdR" id="3FsRXa7xohy" role="3EZMnx">
+        <ref role="1NtTu8" to="1z9r:3FsRXa7mqjt" resolve="versions" />
+        <node concept="2iRkQZ" id="3FsRXa7xoh$" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="3FsRXa7xohE" role="3EZMnx">
+        <property role="3F0ifm" value="seperatedContainers:" />
+      </node>
+      <node concept="3F2HdR" id="3FsRXa7xoig" role="3EZMnx">
+        <ref role="1NtTu8" to="1z9r:3FsRXa7mqjw" resolve="seperatedContainers" />
+        <node concept="2iRkQZ" id="3FsRXa7xoii" role="2czzBx" />
+      </node>
+      <node concept="2iRkQZ" id="3FsRXa7xohb" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
