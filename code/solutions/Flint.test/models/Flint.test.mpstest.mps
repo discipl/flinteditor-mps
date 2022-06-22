@@ -49,9 +49,9 @@
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="lwvz" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.selection(MPS.Editor/)" />
+    <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="jov5" ref="r:9249307a-27f2-447e-8e8c-b4f939b97d5c(Flint.languages)" implicit="true" />
-    <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" implicit="true" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" implicit="true" />
     <import index="jkm4" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.ui(MPS.IDEA/)" implicit="true" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" implicit="true" />
@@ -8735,6 +8735,530 @@
                     <property role="1hTQn4" value="prefix-line-2" />
                     <node concept="1P5Shq" id="5KEn_3GUQdA" role="2qTud8">
                       <node concept="1P5VML" id="5KEn_3GUQdC" role="19SJt6">
+                        <property role="19SUeA" value="binding corporate rules in accordance with Article 47;" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="62xOyh277eQ">
+    <property role="TrG5h" value="AddEditorSelectionToSourceholder" />
+    <node concept="1qefOq" id="62xOyh277eR" role="25YQCW">
+      <node concept="3_QiXo" id="62xOyh277eS" role="1qenE9">
+        <node concept="cu0$f" id="62xOyh277eT" role="3_Qj5Y">
+          <property role="2CxiQ9" value="0" />
+          <property role="TrG5h" value="testFact" />
+          <node concept="1GVOM6" id="62xOyh277eU" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="testFact" />
+          </node>
+          <node concept="3xLA65" id="62xOyh277eV" role="lGtFl">
+            <property role="TrG5h" value="factNode" />
+          </node>
+        </node>
+        <node concept="2AEkrd" id="62xOyh277eW" role="3_Qj5W">
+          <property role="TrG5h" value="Article 504" />
+          <node concept="3MKX5h" id="62xOyh277eX" role="3MKX6D">
+            <node concept="3MKX5h" id="62xOyh277eY" role="3MKX6F">
+              <property role="1hTQn4" value="https://calculemus.org/4ec93c57-4515-45bd-8c15-5d3897952f43" />
+              <node concept="3Fnoml" id="62xOyh277eZ" role="3MKX6F">
+                <property role="3Fg1Gr" value="0" />
+                <property role="1hTQn4" value="prefix-line-0" />
+                <property role="3Fnomm" value="2." />
+                <node concept="3MKX5i" id="62xOyh277f0" role="3MKX6F">
+                  <property role="3Fg1Gr" value="0" />
+                  <property role="1hTQn4" value="prefix-line-0" />
+                  <node concept="1P5Shq" id="62xOyh277f1" role="2qTud8">
+                    <node concept="1P5VML" id="62xOyh277f2" role="19SJt6">
+                      <property role="19SUeA" value="The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authorisation from a supervisory authority, by:" />
+                      <node concept="LIFWc" id="62xOyh27aTb" role="lGtFl">
+                        <property role="LIFWa" value="4" />
+                        <property role="OXtK3" value="true" />
+                        <property role="p6zMq" value="1" />
+                        <property role="p6zMs" value="6" />
+                        <property role="LIFWd" value="property_escapedValue_word2" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3MKX5h" id="62xOyh277f4" role="3MKX6F">
+                <property role="1hTQn4" value="https://calculemus.org/596017c9-4661-4077-904f-b4f8f9b8037a" />
+                <node concept="3Fnoml" id="62xOyh277f5" role="3MKX6F">
+                  <property role="3Fg1Gr" value="0" />
+                  <property role="1hTQn4" value="prefix-line-1" />
+                  <property role="3Fnomm" value="(a)" />
+                  <node concept="3MKX5i" id="62xOyh277f6" role="3MKX6F">
+                    <property role="3Fg1Gr" value="0" />
+                    <property role="1hTQn4" value="prefix-line-1" />
+                    <node concept="1P5Shq" id="62xOyh277f7" role="2qTud8">
+                      <node concept="1P5VML" id="62xOyh277f8" role="19SJt6">
+                        <property role="19SUeA" value="a legally binding and enforceable instrument between public authorities or bodies;" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3Fnoml" id="62xOyh277f9" role="3MKX6F">
+                  <property role="3Fg1Gr" value="0" />
+                  <property role="1hTQn4" value="prefix-line-2" />
+                  <property role="3Fnomm" value="(b)" />
+                  <node concept="3MKX5i" id="62xOyh277fa" role="3MKX6F">
+                    <property role="3Fg1Gr" value="0" />
+                    <property role="1hTQn4" value="prefix-line-2" />
+                    <node concept="1P5Shq" id="62xOyh277fb" role="2qTud8">
+                      <node concept="1P5VML" id="62xOyh277fc" role="19SJt6">
+                        <property role="19SUeA" value="binding corporate rules in accordance with Article 47;" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="62xOyh277fd" role="LjaKd">
+      <node concept="3SKdUt" id="62xOyh27Cwy" role="3cqZAp">
+        <node concept="1PaTwC" id="62xOyh27Cwz" role="1aUNEU">
+          <node concept="3oM_SD" id="62xOyh27Cw$" role="1PaTwD">
+            <property role="3oM_SC" value="Configuration" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="62xOyh277fg" role="3cqZAp">
+        <node concept="3cpWsn" id="62xOyh277fh" role="3cpWs9">
+          <property role="TrG5h" value="ma" />
+          <node concept="3uibUv" id="62xOyh277fi" role="1tU5fm">
+            <ref role="3uigEE" to="lui2:~ModelAccess" resolve="ModelAccess" />
+          </node>
+          <node concept="2OqwBi" id="62xOyh277fj" role="33vP2m">
+            <node concept="2OqwBi" id="62xOyh277fk" role="2Oq$k0">
+              <node concept="2OqwBi" id="62xOyh277fl" role="2Oq$k0">
+                <node concept="369mXd" id="62xOyh277fm" role="2Oq$k0" />
+                <node concept="liA8E" id="62xOyh277fn" role="2OqNvi">
+                  <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+                </node>
+              </node>
+              <node concept="liA8E" id="62xOyh277fo" role="2OqNvi">
+                <ref role="37wK5l" to="exr9:~EditorContext.getRepository()" resolve="getRepository" />
+              </node>
+            </node>
+            <node concept="liA8E" id="62xOyh277fp" role="2OqNvi">
+              <ref role="37wK5l" to="lui2:~SRepository.getModelAccess()" resolve="getModelAccess" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="62xOyh27b3V" role="3cqZAp">
+        <node concept="3cpWsn" id="62xOyh27b3W" role="3cpWs9">
+          <property role="TrG5h" value="selection" />
+          <node concept="3uibUv" id="62xOyh27b3X" role="1tU5fm">
+            <ref role="3uigEE" to="lwvz:~Selection" resolve="Selection" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbF" id="62xOyh27b3Y" role="3cqZAp">
+        <node concept="2OqwBi" id="62xOyh27b3Z" role="3clFbG">
+          <node concept="37vLTw" id="62xOyh27b_z" role="2Oq$k0">
+            <ref role="3cqZAo" node="62xOyh277fh" resolve="ma" />
+          </node>
+          <node concept="liA8E" id="62xOyh27b41" role="2OqNvi">
+            <ref role="37wK5l" to="lui2:~ModelAccess.runReadAction(java.lang.Runnable)" resolve="runReadAction" />
+            <node concept="1bVj0M" id="62xOyh27b42" role="37wK5m">
+              <node concept="3clFbS" id="62xOyh27b43" role="1bW5cS">
+                <node concept="3clFbF" id="62xOyh27b44" role="3cqZAp">
+                  <node concept="37vLTI" id="62xOyh27b45" role="3clFbG">
+                    <node concept="37vLTw" id="62xOyh27b46" role="37vLTJ">
+                      <ref role="3cqZAo" node="62xOyh27b3W" resolve="selection" />
+                    </node>
+                    <node concept="2OqwBi" id="62xOyh27b47" role="37vLTx">
+                      <node concept="2OqwBi" id="62xOyh27b48" role="2Oq$k0">
+                        <node concept="369mXd" id="62xOyh27b49" role="2Oq$k0" />
+                        <node concept="liA8E" id="62xOyh27b4a" role="2OqNvi">
+                          <ref role="37wK5l" to="exr9:~EditorComponent.getSelectionManager()" resolve="getSelectionManager" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="62xOyh27bYw" role="2OqNvi">
+                        <ref role="37wK5l" to="lwvz:~SelectionManager.createSelection(jetbrains.mps.openapi.editor.cells.EditorCell)" resolve="createSelection" />
+                        <node concept="2OqwBi" id="62xOyh27cAU" role="37wK5m">
+                          <node concept="369mXd" id="62xOyh27c2F" role="2Oq$k0" />
+                          <node concept="liA8E" id="62xOyh27dbA" role="2OqNvi">
+                            <ref role="37wK5l" to="exr9:~EditorComponent.getSelectedCell()" resolve="getSelectedCell" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="62xOyh27C9s" role="3cqZAp" />
+      <node concept="3SKdUt" id="62xOyh27CCu" role="3cqZAp">
+        <node concept="1PaTwC" id="62xOyh27CCv" role="1aUNEU">
+          <node concept="3oM_SD" id="62xOyh27CCw" role="1PaTwD">
+            <property role="3oM_SC" value="Checks" />
+          </node>
+        </node>
+      </node>
+      <node concept="3vwNmj" id="62xOyh27b4e" role="3cqZAp">
+        <node concept="2ZW3vV" id="62xOyh27b4f" role="3vwVQn">
+          <node concept="3uibUv" id="62xOyh27dhq" role="2ZW6by">
+            <ref role="3uigEE" to="b8lf:~EditorCellLabelSelection" resolve="EditorCellLabelSelection" />
+          </node>
+          <node concept="37vLTw" id="62xOyh27b4h" role="2ZW6bz">
+            <ref role="3cqZAo" node="62xOyh27b3W" resolve="selection" />
+          </node>
+        </node>
+      </node>
+      <node concept="3vwNmj" id="62xOyh277fe" role="3cqZAp">
+        <node concept="2bRw2S" id="62xOyh277ff" role="3vwVQn">
+          <ref role="2bRw2V" to="xbql:35cpwYlAG4" resolve="AddSourceToHolder" />
+        </node>
+      </node>
+      <node concept="3cpWs8" id="62xOyh27D3l" role="3cqZAp">
+        <node concept="3cpWsn" id="62xOyh27D3m" role="3cpWs9">
+          <property role="TrG5h" value="selectedNode" />
+          <node concept="3uibUv" id="62xOyh27D0t" role="1tU5fm">
+            <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+          </node>
+          <node concept="2OqwBi" id="62xOyh27D3n" role="33vP2m">
+            <node concept="2OqwBi" id="62xOyh27D3o" role="2Oq$k0">
+              <node concept="1eOMI4" id="62xOyh27D3p" role="2Oq$k0">
+                <node concept="10QFUN" id="62xOyh27D3q" role="1eOMHV">
+                  <node concept="37vLTw" id="62xOyh27D3r" role="10QFUP">
+                    <ref role="3cqZAo" node="62xOyh27b3W" resolve="selection" />
+                  </node>
+                  <node concept="3uibUv" id="62xOyh27D3s" role="10QFUM">
+                    <ref role="3uigEE" to="b8lf:~EditorCellLabelSelection" resolve="EditorCellLabelSelection" />
+                  </node>
+                </node>
+              </node>
+              <node concept="liA8E" id="62xOyh27D3t" role="2OqNvi">
+                <ref role="37wK5l" to="b8lf:~EditorCellLabelSelection.getEditorCellLabel()" resolve="getEditorCellLabel" />
+              </node>
+            </node>
+            <node concept="liA8E" id="62xOyh27D3u" role="2OqNvi">
+              <ref role="37wK5l" to="f4zo:~EditorCell.getSNode()" resolve="getSNode" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbF" id="62xOyh277fq" role="3cqZAp">
+        <node concept="2OqwBi" id="62xOyh277fr" role="3clFbG">
+          <node concept="37vLTw" id="62xOyh277fs" role="2Oq$k0">
+            <ref role="3cqZAo" node="62xOyh277fh" resolve="ma" />
+          </node>
+          <node concept="liA8E" id="62xOyh277ft" role="2OqNvi">
+            <ref role="37wK5l" to="lui2:~ModelAccess.executeCommandInEDT(java.lang.Runnable)" resolve="executeCommandInEDT" />
+            <node concept="1bVj0M" id="62xOyh277fu" role="37wK5m">
+              <node concept="3clFbS" id="62xOyh277fv" role="1bW5cS">
+                <node concept="3clFbF" id="62xOyh277fw" role="3cqZAp">
+                  <node concept="2YIFZM" id="62xOyh277fx" role="3clFbG">
+                    <ref role="37wK5l" to="472r:62xOyh25h7O" resolve="addSourceToSourceholder" />
+                    <ref role="1Pybhc" to="472r:1BkZCJkeUDu" resolve="NodeFromArticleUtils" />
+                    <node concept="37vLTw" id="62xOyh27D_f" role="37wK5m">
+                      <ref role="3cqZAo" node="62xOyh27D3m" resolve="selectedNode" />
+                    </node>
+                    <node concept="3xONca" id="62xOyh277f_" role="37wK5m">
+                      <ref role="3xOPvv" node="62xOyh277eV" resolve="factNode" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="62xOyh277fF" role="3cqZAp" />
+      <node concept="3clFbH" id="62xOyh277fG" role="3cqZAp" />
+    </node>
+    <node concept="1qefOq" id="62xOyh277fH" role="25YQFr">
+      <node concept="3_QiXo" id="62xOyh277fI" role="1qenE9">
+        <node concept="cu0$f" id="62xOyh277fJ" role="3_Qj5Y">
+          <property role="2CxiQ9" value="0" />
+          <property role="TrG5h" value="testFact" />
+          <node concept="1GVOM6" id="62xOyh277fK" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="testFact" />
+          </node>
+          <node concept="cog_b" id="62xOyh277fL" role="2pmM46">
+            <property role="1tl0gq" value="English" />
+            <property role="1hTq4$" value="prefix-line-0" />
+            <node concept="2hPCcK" id="62xOyh277fM" role="2hN6Sa">
+              <node concept="19SUe$" id="62xOyh277fN" role="19SJt6">
+                <property role="19SUeA" value="The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authorisation from a supervisory authority, by:" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2AEkrd" id="62xOyh277fO" role="3_Qj5W">
+          <property role="TrG5h" value="Article 504" />
+          <node concept="3MKX5h" id="62xOyh277fP" role="3MKX6D">
+            <node concept="3MKX5h" id="62xOyh277fQ" role="3MKX6F">
+              <property role="1hTQn4" value="https://calculemus.org/4ec93c57-4515-45bd-8c15-5d3897952f43" />
+              <node concept="3Fnoml" id="62xOyh277fR" role="3MKX6F">
+                <property role="3Fg1Gr" value="0" />
+                <property role="1hTQn4" value="prefix-line-0" />
+                <property role="3Fnomm" value="2." />
+                <node concept="3MKX5i" id="62xOyh277fS" role="3MKX6F">
+                  <property role="3Fg1Gr" value="0" />
+                  <property role="1hTQn4" value="prefix-line-0" />
+                  <node concept="1P5Shq" id="62xOyh277fT" role="2qTud8">
+                    <node concept="1P5VML" id="62xOyh277fU" role="19SJt6">
+                      <property role="19SUeA" value="The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authorisation from a supervisory authority, by:" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3MKX5h" id="62xOyh277fV" role="3MKX6F">
+                <property role="1hTQn4" value="https://calculemus.org/596017c9-4661-4077-904f-b4f8f9b8037a" />
+                <node concept="3Fnoml" id="62xOyh277fW" role="3MKX6F">
+                  <property role="3Fg1Gr" value="0" />
+                  <property role="1hTQn4" value="prefix-line-1" />
+                  <property role="3Fnomm" value="(a)" />
+                  <node concept="3MKX5i" id="62xOyh277fX" role="3MKX6F">
+                    <property role="3Fg1Gr" value="0" />
+                    <property role="1hTQn4" value="prefix-line-1" />
+                    <node concept="1P5Shq" id="62xOyh277fY" role="2qTud8">
+                      <node concept="1P5VML" id="62xOyh277fZ" role="19SJt6">
+                        <property role="19SUeA" value="a legally binding and enforceable instrument between public authorities or bodies;" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3Fnoml" id="62xOyh277g0" role="3MKX6F">
+                  <property role="3Fg1Gr" value="0" />
+                  <property role="1hTQn4" value="prefix-line-2" />
+                  <property role="3Fnomm" value="(b)" />
+                  <node concept="3MKX5i" id="62xOyh277g1" role="3MKX6F">
+                    <property role="3Fg1Gr" value="0" />
+                    <property role="1hTQn4" value="prefix-line-2" />
+                    <node concept="1P5Shq" id="62xOyh277g2" role="2qTud8">
+                      <node concept="1P5VML" id="62xOyh277g3" role="19SJt6">
+                        <property role="19SUeA" value="binding corporate rules in accordance with Article 47;" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="1XRBbkd2lwP">
+    <property role="TrG5h" value="AddSourceToSourceholder" />
+    <node concept="1qefOq" id="1XRBbkd2lwQ" role="25YQCW">
+      <node concept="3_QiXo" id="1XRBbkd2lwR" role="1qenE9">
+        <node concept="cu0$f" id="1XRBbkd2lwS" role="3_Qj5Y">
+          <property role="2CxiQ9" value="0" />
+          <property role="TrG5h" value="testFact" />
+          <node concept="1GVOM6" id="1XRBbkd2nFL" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="testFact" />
+          </node>
+          <node concept="3xLA65" id="1XRBbkd2DpK" role="lGtFl">
+            <property role="TrG5h" value="factNode" />
+          </node>
+        </node>
+        <node concept="2AEkrd" id="1XRBbkd2lwW" role="3_Qj5W">
+          <property role="TrG5h" value="Article 504" />
+          <node concept="3MKX5h" id="1XRBbkd2lwX" role="3MKX6D">
+            <node concept="3MKX5h" id="1XRBbkd2lwY" role="3MKX6F">
+              <property role="1hTQn4" value="https://calculemus.org/4ec93c57-4515-45bd-8c15-5d3897952f43" />
+              <node concept="3Fnoml" id="1XRBbkd2lwZ" role="3MKX6F">
+                <property role="3Fg1Gr" value="0" />
+                <property role="1hTQn4" value="prefix-line-0" />
+                <property role="3Fnomm" value="2." />
+                <node concept="3MKX5i" id="1XRBbkd2lx0" role="3MKX6F">
+                  <property role="3Fg1Gr" value="0" />
+                  <property role="1hTQn4" value="prefix-line-0" />
+                  <node concept="1P5Shq" id="1XRBbkd2lx1" role="2qTud8">
+                    <node concept="1P5VML" id="1XRBbkd2lx2" role="19SJt6">
+                      <property role="19SUeA" value="The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authorisation from a supervisory authority, by:" />
+                      <node concept="LIFWc" id="1XRBbkd2nL2" role="lGtFl">
+                        <property role="LIFWa" value="8" />
+                        <property role="OXtK3" value="true" />
+                        <property role="p6zMq" value="8" />
+                        <property role="p6zMs" value="8" />
+                        <property role="LIFWd" value="property_escapedValue_word2" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3MKX5h" id="1XRBbkd2lx4" role="3MKX6F">
+                <property role="1hTQn4" value="https://calculemus.org/596017c9-4661-4077-904f-b4f8f9b8037a" />
+                <node concept="3Fnoml" id="1XRBbkd2lx5" role="3MKX6F">
+                  <property role="3Fg1Gr" value="0" />
+                  <property role="1hTQn4" value="prefix-line-1" />
+                  <property role="3Fnomm" value="(a)" />
+                  <node concept="3MKX5i" id="1XRBbkd2lx6" role="3MKX6F">
+                    <property role="3Fg1Gr" value="0" />
+                    <property role="1hTQn4" value="prefix-line-1" />
+                    <node concept="1P5Shq" id="1XRBbkd2lx7" role="2qTud8">
+                      <node concept="1P5VML" id="1XRBbkd2lx8" role="19SJt6">
+                        <property role="19SUeA" value="a legally binding and enforceable instrument between public authorities or bodies;" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3Fnoml" id="1XRBbkd2lx9" role="3MKX6F">
+                  <property role="3Fg1Gr" value="0" />
+                  <property role="1hTQn4" value="prefix-line-2" />
+                  <property role="3Fnomm" value="(b)" />
+                  <node concept="3MKX5i" id="1XRBbkd2lxa" role="3MKX6F">
+                    <property role="3Fg1Gr" value="0" />
+                    <property role="1hTQn4" value="prefix-line-2" />
+                    <node concept="1P5Shq" id="1XRBbkd2lxb" role="2qTud8">
+                      <node concept="1P5VML" id="1XRBbkd2lxc" role="19SJt6">
+                        <property role="19SUeA" value="binding corporate rules in accordance with Article 47;" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="1XRBbkd2lxe" role="LjaKd">
+      <node concept="3vwNmj" id="1XRBbkd2Dhw" role="3cqZAp">
+        <node concept="2bRw2S" id="1XRBbkd2Dn2" role="3vwVQn">
+          <ref role="2bRw2V" to="xbql:35cpwYlAG4" resolve="AddSourceToHolder" />
+        </node>
+      </node>
+      <node concept="3cpWs8" id="1XRBbkd2x42" role="3cqZAp">
+        <node concept="3cpWsn" id="1XRBbkd2x45" role="3cpWs9">
+          <property role="TrG5h" value="ma" />
+          <node concept="3uibUv" id="1XRBbkd2x46" role="1tU5fm">
+            <ref role="3uigEE" to="lui2:~ModelAccess" resolve="ModelAccess" />
+          </node>
+          <node concept="2OqwBi" id="1XRBbkd2x47" role="33vP2m">
+            <node concept="2OqwBi" id="1XRBbkd2x48" role="2Oq$k0">
+              <node concept="2OqwBi" id="1XRBbkd2x49" role="2Oq$k0">
+                <node concept="369mXd" id="1XRBbkd2x4a" role="2Oq$k0" />
+                <node concept="liA8E" id="1XRBbkd2x4b" role="2OqNvi">
+                  <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+                </node>
+              </node>
+              <node concept="liA8E" id="1XRBbkd2x4c" role="2OqNvi">
+                <ref role="37wK5l" to="exr9:~EditorContext.getRepository()" resolve="getRepository" />
+              </node>
+            </node>
+            <node concept="liA8E" id="1XRBbkd2x4d" role="2OqNvi">
+              <ref role="37wK5l" to="lui2:~SRepository.getModelAccess()" resolve="getModelAccess" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbF" id="1XRBbkd2Ed9" role="3cqZAp">
+        <node concept="2OqwBi" id="1XRBbkd2Ei1" role="3clFbG">
+          <node concept="37vLTw" id="1XRBbkd2Ed7" role="2Oq$k0">
+            <ref role="3cqZAo" node="1XRBbkd2x45" resolve="ma" />
+          </node>
+          <node concept="liA8E" id="1XRBbkd2Fah" role="2OqNvi">
+            <ref role="37wK5l" to="lui2:~ModelAccess.executeCommandInEDT(java.lang.Runnable)" resolve="executeCommandInEDT" />
+            <node concept="1bVj0M" id="1XRBbkd2FaN" role="37wK5m">
+              <node concept="3clFbS" id="1XRBbkd2FaO" role="1bW5cS">
+                <node concept="3clFbF" id="1XRBbkd2Fey" role="3cqZAp">
+                  <node concept="2YIFZM" id="62xOyh25ssF" role="3clFbG">
+                    <ref role="37wK5l" to="472r:62xOyh25h7O" resolve="addSourceToSourceholder" />
+                    <ref role="1Pybhc" to="472r:1BkZCJkeUDu" resolve="NodeFromArticleUtils" />
+                    <node concept="2OqwBi" id="62xOyh25JXe" role="37wK5m">
+                      <node concept="369mXd" id="62xOyh25JXf" role="2Oq$k0" />
+                      <node concept="liA8E" id="62xOyh25JXg" role="2OqNvi">
+                        <ref role="37wK5l" to="exr9:~EditorComponent.getSelectedNode()" resolve="getSelectedNode" />
+                      </node>
+                    </node>
+                    <node concept="3xONca" id="62xOyh25K2j" role="37wK5m">
+                      <ref role="3xOPvv" node="1XRBbkd2DpK" resolve="factNode" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="62xOyh26JBe" role="3cqZAp" />
+      <node concept="3clFbH" id="62xOyh26JBH" role="3cqZAp" />
+    </node>
+    <node concept="1qefOq" id="1XRBbkd2ly0" role="25YQFr">
+      <node concept="3_QiXo" id="1XRBbkd2ly1" role="1qenE9">
+        <node concept="cu0$f" id="1XRBbkd2ly2" role="3_Qj5Y">
+          <property role="2CxiQ9" value="0" />
+          <property role="TrG5h" value="testFact" />
+          <node concept="1GVOM6" id="1XRBbkd2ly3" role="1GVO30">
+            <property role="1GVPtd" value="English" />
+            <property role="1GVPtb" value="testFact" />
+          </node>
+          <node concept="cog_b" id="1XRBbkd2ly4" role="2pmM46">
+            <property role="1tl0gq" value="English" />
+            <property role="1hTq4$" value="prefix-line-0" />
+            <node concept="2hPCcK" id="1XRBbkd2ly5" role="2hN6Sa">
+              <node concept="19SUe$" id="1XRBbkd2ly6" role="19SJt6">
+                <property role="19SUeA" value="The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authorisation from a supervisory authority, by:" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2AEkrd" id="1XRBbkd2lyd" role="3_Qj5W">
+          <property role="TrG5h" value="Article 504" />
+          <node concept="3MKX5h" id="1XRBbkd2lye" role="3MKX6D">
+            <node concept="3MKX5h" id="1XRBbkd2lyf" role="3MKX6F">
+              <property role="1hTQn4" value="https://calculemus.org/4ec93c57-4515-45bd-8c15-5d3897952f43" />
+              <node concept="3Fnoml" id="1XRBbkd2lyg" role="3MKX6F">
+                <property role="3Fg1Gr" value="0" />
+                <property role="1hTQn4" value="prefix-line-0" />
+                <property role="3Fnomm" value="2." />
+                <node concept="3MKX5i" id="1XRBbkd2lyh" role="3MKX6F">
+                  <property role="3Fg1Gr" value="0" />
+                  <property role="1hTQn4" value="prefix-line-0" />
+                  <node concept="1P5Shq" id="1XRBbkd2lyi" role="2qTud8">
+                    <node concept="1P5VML" id="1XRBbkd2lyj" role="19SJt6">
+                      <property role="19SUeA" value="The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authorisation from a supervisory authority, by:" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3MKX5h" id="1XRBbkd2lyk" role="3MKX6F">
+                <property role="1hTQn4" value="https://calculemus.org/596017c9-4661-4077-904f-b4f8f9b8037a" />
+                <node concept="3Fnoml" id="1XRBbkd2lyl" role="3MKX6F">
+                  <property role="3Fg1Gr" value="0" />
+                  <property role="1hTQn4" value="prefix-line-1" />
+                  <property role="3Fnomm" value="(a)" />
+                  <node concept="3MKX5i" id="1XRBbkd2lym" role="3MKX6F">
+                    <property role="3Fg1Gr" value="0" />
+                    <property role="1hTQn4" value="prefix-line-1" />
+                    <node concept="1P5Shq" id="1XRBbkd2lyn" role="2qTud8">
+                      <node concept="1P5VML" id="1XRBbkd2lyo" role="19SJt6">
+                        <property role="19SUeA" value="a legally binding and enforceable instrument between public authorities or bodies;" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3Fnoml" id="1XRBbkd2lyp" role="3MKX6F">
+                  <property role="3Fg1Gr" value="0" />
+                  <property role="1hTQn4" value="prefix-line-2" />
+                  <property role="3Fnomm" value="(b)" />
+                  <node concept="3MKX5i" id="1XRBbkd2lyq" role="3MKX6F">
+                    <property role="3Fg1Gr" value="0" />
+                    <property role="1hTQn4" value="prefix-line-2" />
+                    <node concept="1P5Shq" id="1XRBbkd2lyr" role="2qTud8">
+                      <node concept="1P5VML" id="1XRBbkd2lys" role="19SJt6">
                         <property role="19SUeA" value="binding corporate rules in accordance with Article 47;" />
                       </node>
                     </node>
