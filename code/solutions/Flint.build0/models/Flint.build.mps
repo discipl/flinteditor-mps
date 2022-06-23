@@ -3826,26 +3826,6 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
-        <node concept="1SiIV0" id="2EmU8wcq3rR" role="3bR37C">
-          <node concept="3bR9La" id="2EmU8wcq3rS" role="1SiIV1">
-            <ref role="3bR37D" node="6rq68Pzto1y" resolve="Flint.test" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2EmU8wcq3rT" role="3bR37C">
-          <node concept="3bR9La" id="2EmU8wcq3rU" role="1SiIV1">
-            <ref role="3bR37D" node="QLMwktTkqF" resolve="Flint.plugin" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2EmU8wcq3rV" role="3bR37C">
-          <node concept="3bR9La" id="2EmU8wcq3rW" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2EmU8wcq3rX" role="3bR37C">
-          <node concept="3bR9La" id="2EmU8wcq3rY" role="1SiIV1">
-            <ref role="3bR37D" node="2eNuKY4JD2" resolve="Flint.runtime" />
-          </node>
-        </node>
       </node>
       <node concept="1E1JtA" id="6rq68Pzto1y" role="2G$12L">
         <property role="BnDLt" value="true" />
