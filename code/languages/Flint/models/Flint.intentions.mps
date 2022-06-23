@@ -28,6 +28,7 @@
     <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
     <import index="z1c4" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
+    <import index="472r" ref="r:c1237359-7bb5-4dac-8876-15c9bcf561ef(Flint.plugin.plugin)" implicit="true" />
   </imports>
   <registry>
     <language id="c9991bd9-1f60-4f96-8e56-efd35c072829" name="ParameterizedRangeSelection">
@@ -1127,11 +1128,11 @@
         <node concept="3clFbF" id="5SIYu6XxLY7" role="3cqZAp">
           <node concept="2OqwBi" id="5SIYu6XxMgV" role="3clFbG">
             <node concept="10M0yZ" id="5SIYu6XxLZD" role="2Oq$k0">
-              <ref role="3cqZAo" to="3lmi:5SIYu6XxEvS" resolve="nodeFromRichTextArticle" />
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionService" />
+              <ref role="3cqZAo" to="3lmi:5SIYu6XxEvS" resolve="nodeFromRichTextSelection" />
+              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
             </node>
             <node concept="liA8E" id="5SIYu6XxMxS" role="2OqNvi">
-              <ref role="37wK5l" to="3lmi:5SIYu6Xx_iD" resolve="getTitle" />
+              <ref role="37wK5l" to="472r:5SIYu6Xx_iD" resolve="getTitle" />
               <node concept="71T_Y" id="5SIYu6XxM$_" role="37wK5m" />
               <node concept="2U11Kx" id="5SIYu6XxMP$" role="37wK5m" />
             </node>
@@ -1144,11 +1145,11 @@
         <node concept="3clFbF" id="5SIYu6XxND4" role="3cqZAp">
           <node concept="2OqwBi" id="5SIYu6XxND5" role="3clFbG">
             <node concept="10M0yZ" id="5SIYu6XxND6" role="2Oq$k0">
-              <ref role="3cqZAo" to="3lmi:5SIYu6XxEvS" resolve="nodeFromRichTextArticle" />
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionService" />
+              <ref role="3cqZAo" to="3lmi:5SIYu6XxEvS" resolve="nodeFromRichTextSelection" />
+              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
             </node>
             <node concept="liA8E" id="5SIYu6XxND7" role="2OqNvi">
-              <ref role="37wK5l" to="3lmi:5SIYu6Xx_D3" resolve="execute" />
+              <ref role="37wK5l" to="472r:5SIYu6Xx_D3" resolve="execute" />
               <node concept="71T_Y" id="5SIYu6XxND8" role="37wK5m" />
               <node concept="2U11Kx" id="5SIYu6XxOrl" role="37wK5m" />
             </node>
@@ -1161,11 +1162,11 @@
         <node concept="3clFbF" id="5SIYu6XxG7k" role="3cqZAp">
           <node concept="2OqwBi" id="5SIYu6XxGoJ" role="3clFbG">
             <node concept="10M0yZ" id="5SIYu6XxGch" role="2Oq$k0">
-              <ref role="3cqZAo" to="3lmi:5SIYu6XxEvS" resolve="nodeFromRichTextArticle" />
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionService" />
+              <ref role="3cqZAo" to="3lmi:5SIYu6XxEvS" resolve="nodeFromRichTextSelection" />
+              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
             </node>
             <node concept="liA8E" id="5SIYu6XxGAK" role="2OqNvi">
-              <ref role="37wK5l" to="3lmi:5SIYu6Xx_8_" resolve="getParameters" />
+              <ref role="37wK5l" to="472r:5SIYu6Xx_8_" resolve="getParameters" />
               <node concept="71T_Y" id="5SIYu6XxGQa" role="37wK5m" />
             </node>
           </node>
@@ -1180,11 +1181,11 @@
         <node concept="3clFbF" id="5SIYu6XxNfk" role="3cqZAp">
           <node concept="2OqwBi" id="5SIYu6XxNfl" role="3clFbG">
             <node concept="10M0yZ" id="5SIYu6XxNfm" role="2Oq$k0">
-              <ref role="3cqZAo" to="3lmi:5SIYu6XxEvS" resolve="nodeFromRichTextArticle" />
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionService" />
+              <ref role="3cqZAo" to="3lmi:5SIYu6XxEvS" resolve="nodeFromRichTextSelection" />
+              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
             </node>
             <node concept="liA8E" id="5SIYu6XxNfn" role="2OqNvi">
-              <ref role="37wK5l" to="3lmi:5SIYu6Xx_xi" resolve="isApplicable" />
+              <ref role="37wK5l" to="472r:5SIYu6Xx_xi" resolve="isApplicable" />
               <node concept="71T_Y" id="5SIYu6XxNfo" role="37wK5m" />
             </node>
           </node>
@@ -1199,11 +1200,11 @@
         <node concept="3clFbF" id="5SIYu6XGXrM" role="3cqZAp">
           <node concept="2OqwBi" id="5SIYu6XGXrN" role="3clFbG">
             <node concept="10M0yZ" id="5SIYu6XGZnZ" role="2Oq$k0">
-              <ref role="3cqZAo" to="3lmi:5SIYu6XGVCU" resolve="addRichTextToIHasSource" />
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionService" />
+              <ref role="3cqZAo" to="3lmi:5SIYu6XGVCU" resolve="addRichTextSelectionToSourceholder" />
+              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
             </node>
             <node concept="liA8E" id="5SIYu6XGXrP" role="2OqNvi">
-              <ref role="37wK5l" to="3lmi:5SIYu6Xx_iD" resolve="getTitle" />
+              <ref role="37wK5l" to="472r:5SIYu6Xx_iD" resolve="getTitle" />
               <node concept="71T_Y" id="5SIYu6XGXrQ" role="37wK5m" />
               <node concept="2U11Kx" id="5SIYu6XGXrR" role="37wK5m" />
             </node>
@@ -1216,11 +1217,11 @@
         <node concept="3clFbF" id="5SIYu6XGYQ7" role="3cqZAp">
           <node concept="2OqwBi" id="5SIYu6XGYQ8" role="3clFbG">
             <node concept="10M0yZ" id="5SIYu6XGZQf" role="2Oq$k0">
-              <ref role="3cqZAo" to="3lmi:5SIYu6XGVCU" resolve="addRichTextToIHasSource" />
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionService" />
+              <ref role="3cqZAo" to="3lmi:5SIYu6XGVCU" resolve="addRichTextSelectionToSourceholder" />
+              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
             </node>
             <node concept="liA8E" id="5SIYu6XGYQa" role="2OqNvi">
-              <ref role="37wK5l" to="3lmi:5SIYu6Xx_D3" resolve="execute" />
+              <ref role="37wK5l" to="472r:5SIYu6Xx_D3" resolve="execute" />
               <node concept="71T_Y" id="5SIYu6XGYQb" role="37wK5m" />
               <node concept="2U11Kx" id="5SIYu6XGYQc" role="37wK5m" />
             </node>
@@ -1233,11 +1234,11 @@
         <node concept="3clFbF" id="5SIYu6XGWzD" role="3cqZAp">
           <node concept="2OqwBi" id="5SIYu6XGWzE" role="3clFbG">
             <node concept="10M0yZ" id="5SIYu6XGZhk" role="2Oq$k0">
-              <ref role="3cqZAo" to="3lmi:5SIYu6XGVCU" resolve="addRichTextToIHasSource" />
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionService" />
+              <ref role="3cqZAo" to="3lmi:5SIYu6XGVCU" resolve="addRichTextSelectionToSourceholder" />
+              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
             </node>
             <node concept="liA8E" id="5SIYu6XGWzG" role="2OqNvi">
-              <ref role="37wK5l" to="3lmi:5SIYu6Xx_8_" resolve="getParameters" />
+              <ref role="37wK5l" to="472r:5SIYu6Xx_8_" resolve="getParameters" />
               <node concept="71T_Y" id="5SIYu6XGWzH" role="37wK5m" />
             </node>
           </node>
@@ -1250,11 +1251,11 @@
         <node concept="3clFbF" id="5SIYu6XGYkr" role="3cqZAp">
           <node concept="2OqwBi" id="5SIYu6XGYks" role="3clFbG">
             <node concept="10M0yZ" id="5SIYu6XGZut" role="2Oq$k0">
-              <ref role="3cqZAo" to="3lmi:5SIYu6XGVCU" resolve="addRichTextToIHasSource" />
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionService" />
+              <ref role="3cqZAo" to="3lmi:5SIYu6XGVCU" resolve="addRichTextSelectionToSourceholder" />
+              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
             </node>
             <node concept="liA8E" id="5SIYu6XGYku" role="2OqNvi">
-              <ref role="37wK5l" to="3lmi:5SIYu6Xx_xi" resolve="isApplicable" />
+              <ref role="37wK5l" to="472r:5SIYu6Xx_xi" resolve="isApplicable" />
               <node concept="71T_Y" id="5SIYu6XGYkv" role="37wK5m" />
             </node>
           </node>
@@ -1737,11 +1738,11 @@
         <node concept="3clFbF" id="3lG1oaOfYT7" role="3cqZAp">
           <node concept="2OqwBi" id="3lG1oaOfZai" role="3clFbG">
             <node concept="10M0yZ" id="3lG1oaOfYYa" role="2Oq$k0">
-              <ref role="3cqZAo" to="3lmi:3lG1oaOfDff" resolve="nodeFromECLSArticle" />
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionService" />
+              <ref role="3cqZAo" to="3lmi:3lG1oaOfDff" resolve="nodeFromEditorSelection" />
+              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
             </node>
             <node concept="liA8E" id="3lG1oaOfZpg" role="2OqNvi">
-              <ref role="37wK5l" to="3lmi:5SIYu6Xx_iD" resolve="getTitle" />
+              <ref role="37wK5l" to="472r:5SIYu6Xx_iD" resolve="getTitle" />
               <node concept="71T_Y" id="3lG1oaOfZrB" role="37wK5m" />
               <node concept="2U11Kx" id="3lG1oaOfZBy" role="37wK5m" />
             </node>
@@ -1754,11 +1755,11 @@
         <node concept="3clFbF" id="3lG1oaOg11$" role="3cqZAp">
           <node concept="2OqwBi" id="3lG1oaOg1bQ" role="3clFbG">
             <node concept="10M0yZ" id="3lG1oaOg12d" role="2Oq$k0">
-              <ref role="3cqZAo" to="3lmi:3lG1oaOfDff" resolve="nodeFromECLSArticle" />
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionService" />
+              <ref role="3cqZAo" to="3lmi:3lG1oaOfDff" resolve="nodeFromEditorSelection" />
+              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
             </node>
             <node concept="liA8E" id="3lG1oaOg1r0" role="2OqNvi">
-              <ref role="37wK5l" to="3lmi:5SIYu6Xx_D3" resolve="execute" />
+              <ref role="37wK5l" to="472r:5SIYu6Xx_D3" resolve="execute" />
               <node concept="71T_Y" id="3lG1oaOg1td" role="37wK5m" />
               <node concept="2U11Kx" id="3lG1oaOg1yu" role="37wK5m" />
             </node>
@@ -1771,11 +1772,11 @@
         <node concept="3clFbF" id="3lG1oaOfC$Q" role="3cqZAp">
           <node concept="2OqwBi" id="3lG1oaOfYfh" role="3clFbG">
             <node concept="10M0yZ" id="3lG1oaOfXST" role="2Oq$k0">
-              <ref role="3cqZAo" to="3lmi:3lG1oaOfDff" resolve="nodeFromECLSArticle" />
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionService" />
+              <ref role="3cqZAo" to="3lmi:3lG1oaOfDff" resolve="nodeFromEditorSelection" />
+              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
             </node>
             <node concept="liA8E" id="3lG1oaOfYu6" role="2OqNvi">
-              <ref role="37wK5l" to="3lmi:5SIYu6Xx_8_" resolve="getParameters" />
+              <ref role="37wK5l" to="472r:5SIYu6Xx_8_" resolve="getParameters" />
               <node concept="71T_Y" id="3lG1oaOfYx5" role="37wK5m" />
             </node>
           </node>
@@ -1790,11 +1791,11 @@
         <node concept="3clFbF" id="3lG1oaOfZL0" role="3cqZAp">
           <node concept="2OqwBi" id="3lG1oaOg01L" role="3clFbG">
             <node concept="10M0yZ" id="3lG1oaOfZPr" role="2Oq$k0">
-              <ref role="3cqZAo" to="3lmi:3lG1oaOfDff" resolve="nodeFromECLSArticle" />
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionService" />
+              <ref role="3cqZAo" to="3lmi:3lG1oaOfDff" resolve="nodeFromEditorSelection" />
+              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
             </node>
             <node concept="liA8E" id="3lG1oaOg0gX" role="2OqNvi">
-              <ref role="37wK5l" to="3lmi:5SIYu6Xx_xi" resolve="isApplicable" />
+              <ref role="37wK5l" to="472r:5SIYu6Xx_xi" resolve="isApplicable" />
               <node concept="71T_Y" id="3lG1oaOg0ju" role="37wK5m" />
             </node>
           </node>
@@ -1812,11 +1813,11 @@
         <node concept="3clFbF" id="6$HM99mgMmd" role="3cqZAp">
           <node concept="2OqwBi" id="6$HM99mgMDh" role="3clFbG">
             <node concept="10M0yZ" id="6$HM99mgMrd" role="2Oq$k0">
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionService" />
-              <ref role="3cqZAo" to="3lmi:6$HM99mgvwb" resolve="addECLTextToIHasSource" />
+              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
+              <ref role="3cqZAo" to="3lmi:6$HM99mgvwb" resolve="addEditorSelectionToSourceholder" />
             </node>
             <node concept="liA8E" id="2mGCp3Bb4sz" role="2OqNvi">
-              <ref role="37wK5l" to="3lmi:5SIYu6Xx_iD" resolve="getTitle" />
+              <ref role="37wK5l" to="472r:5SIYu6Xx_iD" resolve="getTitle" />
               <node concept="71T_Y" id="5YP$MGFaWTt" role="37wK5m" />
               <node concept="2U11Kx" id="5YP$MGFaX3Y" role="37wK5m" />
             </node>
@@ -1829,11 +1830,11 @@
         <node concept="3clFbF" id="5YP$MGFb1OK" role="3cqZAp">
           <node concept="2OqwBi" id="6$HM99mgONW" role="3clFbG">
             <node concept="10M0yZ" id="6$HM99mgOCo" role="2Oq$k0">
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionService" />
-              <ref role="3cqZAo" to="3lmi:6$HM99mgvwb" resolve="addECLTextToIHasSource" />
+              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
+              <ref role="3cqZAo" to="3lmi:6$HM99mgvwb" resolve="addEditorSelectionToSourceholder" />
             </node>
             <node concept="liA8E" id="6$HM99mgP4E" role="2OqNvi">
-              <ref role="37wK5l" to="3lmi:5SIYu6Xx_D3" resolve="execute" />
+              <ref role="37wK5l" to="472r:5SIYu6Xx_D3" resolve="execute" />
               <node concept="71T_Y" id="5YP$MGFb1U$" role="37wK5m" />
               <node concept="2U11Kx" id="5YP$MGFb1Z6" role="37wK5m" />
             </node>
@@ -1846,11 +1847,11 @@
         <node concept="3clFbF" id="5YP$MGFaVAs" role="3cqZAp">
           <node concept="2OqwBi" id="5YP$MGFaW0E" role="3clFbG">
             <node concept="10M0yZ" id="5YP$MGFaVK0" role="2Oq$k0">
-              <ref role="3cqZAo" to="3lmi:6$HM99mgvwb" resolve="addECLTextToIHasSource" />
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionService" />
+              <ref role="3cqZAo" to="3lmi:6$HM99mgvwb" resolve="addEditorSelectionToSourceholder" />
+              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
             </node>
             <node concept="liA8E" id="5YP$MGFaWmU" role="2OqNvi">
-              <ref role="37wK5l" to="3lmi:5SIYu6Xx_8_" resolve="getParameters" />
+              <ref role="37wK5l" to="472r:5SIYu6Xx_8_" resolve="getParameters" />
               <node concept="71T_Y" id="5YP$MGFaWpH" role="37wK5m" />
             </node>
           </node>
@@ -1863,11 +1864,11 @@
         <node concept="3clFbF" id="6$HM99mgN_L" role="3cqZAp">
           <node concept="2OqwBi" id="6$HM99mgNVQ" role="3clFbG">
             <node concept="10M0yZ" id="6$HM99mgNE9" role="2Oq$k0">
-              <ref role="3cqZAo" to="3lmi:6$HM99mgvwb" resolve="addECLTextToIHasSource" />
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionService" />
+              <ref role="3cqZAo" to="3lmi:6$HM99mgvwb" resolve="addEditorSelectionToSourceholder" />
+              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
             </node>
             <node concept="liA8E" id="4b6llbk47Tn" role="2OqNvi">
-              <ref role="37wK5l" to="3lmi:5SIYu6Xx_xi" resolve="isApplicable" />
+              <ref role="37wK5l" to="472r:5SIYu6Xx_xi" resolve="isApplicable" />
               <node concept="71T_Y" id="5YP$MGFb1dZ" role="37wK5m" />
             </node>
           </node>
@@ -1949,10 +1950,10 @@
           <node concept="2OqwBi" id="2H9hTcHI0jM" role="3clFbG">
             <node concept="10M0yZ" id="2H9hTcHI05b" role="2Oq$k0">
               <ref role="3cqZAo" to="3lmi:2H9hTcHGcQK" resolve="nodeFromRangeSelection" />
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionService" />
+              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
             </node>
             <node concept="liA8E" id="2H9hTcHI0Bn" role="2OqNvi">
-              <ref role="37wK5l" to="3lmi:5SIYu6Xx_iD" resolve="getTitle" />
+              <ref role="37wK5l" to="472r:5SIYu6Xx_iD" resolve="getTitle" />
               <node concept="71T_Y" id="2H9hTcHI0Fr" role="37wK5m" />
               <node concept="2U11Kx" id="2H9hTcHI0V2" role="37wK5m" />
             </node>
@@ -1966,10 +1967,10 @@
           <node concept="2OqwBi" id="2H9hTcHI2oq" role="3clFbG">
             <node concept="10M0yZ" id="2H9hTcHI2et" role="2Oq$k0">
               <ref role="3cqZAo" to="3lmi:2H9hTcHGcQK" resolve="nodeFromRangeSelection" />
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionService" />
+              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
             </node>
             <node concept="liA8E" id="2H9hTcHI2Cl" role="2OqNvi">
-              <ref role="37wK5l" to="3lmi:5SIYu6Xx_D3" resolve="execute" />
+              <ref role="37wK5l" to="472r:5SIYu6Xx_D3" resolve="execute" />
               <node concept="71T_Y" id="2H9hTcHI2G5" role="37wK5m" />
               <node concept="2U11Kx" id="2H9hTcHI2NC" role="37wK5m" />
             </node>
@@ -1983,10 +1984,10 @@
           <node concept="2OqwBi" id="2H9hTcHI1AL" role="3clFbG">
             <node concept="10M0yZ" id="2H9hTcHI1nW" role="2Oq$k0">
               <ref role="3cqZAo" to="3lmi:2H9hTcHGcQK" resolve="nodeFromRangeSelection" />
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionService" />
+              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
             </node>
             <node concept="liA8E" id="2H9hTcHI1Qk" role="2OqNvi">
-              <ref role="37wK5l" to="3lmi:5SIYu6Xx_xi" resolve="isApplicable" />
+              <ref role="37wK5l" to="472r:5SIYu6Xx_xi" resolve="isApplicable" />
               <node concept="71T_Y" id="2H9hTcHI1Uy" role="37wK5m" />
             </node>
           </node>
@@ -1999,10 +2000,10 @@
           <node concept="2OqwBi" id="4jpXUzIKwYb" role="3clFbG">
             <node concept="10M0yZ" id="4jpXUzIKwYc" role="2Oq$k0">
               <ref role="3cqZAo" to="3lmi:2H9hTcHGcQK" resolve="nodeFromRangeSelection" />
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionService" />
+              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
             </node>
             <node concept="liA8E" id="4jpXUzIKwYd" role="2OqNvi">
-              <ref role="37wK5l" to="3lmi:5SIYu6Xx_8_" resolve="getParameters" />
+              <ref role="37wK5l" to="472r:5SIYu6Xx_8_" resolve="getParameters" />
               <node concept="71T_Y" id="4jpXUzIKwYe" role="37wK5m" />
             </node>
           </node>
@@ -2023,11 +2024,11 @@
         <node concept="3clFbF" id="2txHBFP1Esz" role="3cqZAp">
           <node concept="2OqwBi" id="2txHBFP1EJ1" role="3clFbG">
             <node concept="10M0yZ" id="2txHBFP1Es_" role="2Oq$k0">
-              <ref role="3cqZAo" to="3lmi:2txHBFP00IF" resolve="addRangeSelectionToIHasSource" />
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionService" />
+              <ref role="3cqZAo" to="3lmi:2txHBFP00IF" resolve="addRangeSelectionToSourceholder" />
+              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
             </node>
             <node concept="liA8E" id="2txHBFP1EXo" role="2OqNvi">
-              <ref role="37wK5l" to="3lmi:5SIYu6Xx_iD" resolve="getTitle" />
+              <ref role="37wK5l" to="472r:5SIYu6Xx_iD" resolve="getTitle" />
               <node concept="71T_Y" id="2txHBFP1EZt" role="37wK5m" />
               <node concept="2U11Kx" id="2txHBFP1F6R" role="37wK5m" />
             </node>
@@ -2040,11 +2041,11 @@
         <node concept="3clFbF" id="2txHBFP1GgK" role="3cqZAp">
           <node concept="2OqwBi" id="2txHBFP1Gsx" role="3clFbG">
             <node concept="10M0yZ" id="2txHBFP1GgM" role="2Oq$k0">
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionService" />
-              <ref role="3cqZAo" to="3lmi:2txHBFP00IF" resolve="addRangeSelectionToIHasSource" />
+              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
+              <ref role="3cqZAo" to="3lmi:2txHBFP00IF" resolve="addRangeSelectionToSourceholder" />
             </node>
             <node concept="liA8E" id="2txHBFP1GF$" role="2OqNvi">
-              <ref role="37wK5l" to="3lmi:5SIYu6Xx_D3" resolve="execute" />
+              <ref role="37wK5l" to="472r:5SIYu6Xx_D3" resolve="execute" />
               <node concept="71T_Y" id="2txHBFP1GHj" role="37wK5m" />
               <node concept="2U11Kx" id="2txHBFP1GJG" role="37wK5m" />
             </node>
@@ -2057,11 +2058,11 @@
         <node concept="3clFbF" id="2txHBFP1Dxx" role="3cqZAp">
           <node concept="2OqwBi" id="2txHBFP1DLp" role="3clFbG">
             <node concept="10M0yZ" id="2txHBFP1Dz6" role="2Oq$k0">
-              <ref role="3cqZAo" to="3lmi:2txHBFP00IF" resolve="addRangeSelectionToIHasSource" />
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionService" />
+              <ref role="3cqZAo" to="3lmi:2txHBFP00IF" resolve="addRangeSelectionToSourceholder" />
+              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
             </node>
             <node concept="liA8E" id="2txHBFP1E7D" role="2OqNvi">
-              <ref role="37wK5l" to="3lmi:5SIYu6Xx_8_" resolve="getParameters" />
+              <ref role="37wK5l" to="472r:5SIYu6Xx_8_" resolve="getParameters" />
               <node concept="71T_Y" id="2txHBFP1Eas" role="37wK5m" />
             </node>
           </node>
@@ -2074,11 +2075,11 @@
         <node concept="3clFbF" id="2txHBFP1F$K" role="3cqZAp">
           <node concept="2OqwBi" id="2txHBFP1FNf" role="3clFbG">
             <node concept="10M0yZ" id="2txHBFP1F$M" role="2Oq$k0">
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionService" />
-              <ref role="3cqZAo" to="3lmi:2txHBFP00IF" resolve="addRangeSelectionToIHasSource" />
+              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
+              <ref role="3cqZAo" to="3lmi:2txHBFP00IF" resolve="addRangeSelectionToSourceholder" />
             </node>
             <node concept="liA8E" id="2txHBFP1G1O" role="2OqNvi">
-              <ref role="37wK5l" to="3lmi:5SIYu6Xx_xi" resolve="isApplicable" />
+              <ref role="37wK5l" to="472r:5SIYu6Xx_xi" resolve="isApplicable" />
               <node concept="71T_Y" id="2txHBFP1G7w" role="37wK5m" />
             </node>
           </node>

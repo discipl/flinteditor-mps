@@ -24527,89 +24527,15 @@
       </node>
     </node>
   </node>
-  <node concept="3HP615" id="5SIYu6XxgH1">
-    <property role="TrG5h" value="IntentionInstance" />
-    <node concept="3clFb_" id="5SIYu6Xx_8_" role="jymVt">
-      <property role="TrG5h" value="getParameters" />
-      <node concept="3clFbS" id="5SIYu6Xx_8C" role="3clF47" />
-      <node concept="3Tm1VV" id="5SIYu6Xx_8D" role="1B3o_S" />
-      <node concept="_YKpA" id="5SIYu6XxEeU" role="3clF45">
-        <node concept="16syzq" id="5SIYu6XxQLw" role="_ZDj9">
-          <ref role="16sUi3" node="5SIYu6Xx_91" resolve="P" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="5SIYu6Xx_bk" role="3clF46">
-        <property role="TrG5h" value="forType" />
-        <node concept="16syzq" id="5SIYu6XxHpO" role="1tU5fm">
-          <ref role="16sUi3" node="5SIYu6Xx_2g" resolve="T" />
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="5SIYu6Xx_iD" role="jymVt">
-      <property role="TrG5h" value="getTitle" />
-      <node concept="3clFbS" id="5SIYu6Xx_iG" role="3clF47" />
-      <node concept="3Tm1VV" id="5SIYu6Xx_iH" role="1B3o_S" />
-      <node concept="17QB3L" id="5SIYu6Xx_hk" role="3clF45" />
-      <node concept="37vLTG" id="5SIYu6Xx_lg" role="3clF46">
-        <property role="TrG5h" value="type" />
-        <node concept="16syzq" id="5SIYu6Xx_lf" role="1tU5fm">
-          <ref role="16sUi3" node="5SIYu6Xx_2g" resolve="T" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="5SIYu6Xx_mV" role="3clF46">
-        <property role="TrG5h" value="parameter" />
-        <node concept="16syzq" id="5SIYu6Xx_pu" role="1tU5fm">
-          <ref role="16sUi3" node="5SIYu6Xx_91" resolve="P" />
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="5SIYu6Xx_xi" role="jymVt">
-      <property role="TrG5h" value="isApplicable" />
-      <node concept="3clFbS" id="5SIYu6Xx_xl" role="3clF47" />
-      <node concept="3Tm1VV" id="5SIYu6Xx_xm" role="1B3o_S" />
-      <node concept="10P_77" id="5SIYu6Xx_wA" role="3clF45" />
-      <node concept="37vLTG" id="5SIYu6Xx_$a" role="3clF46">
-        <property role="TrG5h" value="type" />
-        <node concept="16syzq" id="5SIYu6Xx_$9" role="1tU5fm">
-          <ref role="16sUi3" node="5SIYu6Xx_2g" resolve="T" />
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="5SIYu6Xx_D3" role="jymVt">
-      <property role="TrG5h" value="execute" />
-      <node concept="3clFbS" id="5SIYu6Xx_D6" role="3clF47" />
-      <node concept="3Tm1VV" id="5SIYu6Xx_D7" role="1B3o_S" />
-      <node concept="3cqZAl" id="5SIYu6Xx_Cc" role="3clF45" />
-      <node concept="37vLTG" id="5SIYu6Xx_G6" role="3clF46">
-        <property role="TrG5h" value="type" />
-        <node concept="16syzq" id="5SIYu6Xx_G5" role="1tU5fm">
-          <ref role="16sUi3" node="5SIYu6Xx_2g" resolve="T" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="5SIYu6Xx_J1" role="3clF46">
-        <property role="TrG5h" value="parameter" />
-        <node concept="16syzq" id="5SIYu6Xx_LO" role="1tU5fm">
-          <ref role="16sUi3" node="5SIYu6Xx_91" resolve="P" />
-        </node>
-      </node>
-    </node>
-    <node concept="3Tm1VV" id="5SIYu6XxgH2" role="1B3o_S" />
-    <node concept="16euLQ" id="5SIYu6Xx_2g" role="16eVyc">
-      <property role="TrG5h" value="T" />
-    </node>
-    <node concept="16euLQ" id="5SIYu6Xx_91" role="16eVyc">
-      <property role="TrG5h" value="P" />
-    </node>
-  </node>
   <node concept="312cEu" id="5SIYu6Xx_PT">
-    <property role="TrG5h" value="IntentionService" />
+    <property role="TrG5h" value="IntentionServiceFlint" />
     <node concept="Wx3nA" id="5SIYu6XxEvS" role="jymVt">
-      <property role="TrG5h" value="nodeFromRichTextArticle" />
+      <property role="TrG5h" value="nodeFromRichTextSelection" />
       <node concept="3Tm1VV" id="5SIYu6XxEuf" role="1B3o_S" />
       <node concept="3uibUv" id="5SIYu6XxEu4" role="1tU5fm">
-        <ref role="3uigEE" node="5SIYu6XxgH1" resolve="IntentionInstance" />
-        <node concept="3uibUv" id="5SIYu6XxEFp" role="11_B2D">
-          <ref role="3uigEE" to="gyv0:2_D0AvWRqEh" resolve="RichtextSelection" />
+        <ref role="3uigEE" to="472r:5SIYu6XxgH1" resolve="ParameterizedIntentionInstance" />
+        <node concept="3uibUv" id="BDEfJTHNKg" role="11_B2D">
+          <ref role="3uigEE" to="lwvz:~Selection" resolve="Selection" />
         </node>
         <node concept="3bZ5Sz" id="5SIYu6XxEO4" role="11_B2D">
           <ref role="3bZ5Sy" to="lnwe:63E5y3TGjs_" resolve="IHasSources" />
@@ -24617,59 +24543,60 @@
       </node>
     </node>
     <node concept="Wx3nA" id="3lG1oaOfDff" role="jymVt">
-      <property role="TrG5h" value="nodeFromECLSArticle" />
+      <property role="TrG5h" value="nodeFromEditorSelection" />
       <node concept="3Tm1VV" id="3lG1oaOfCMc" role="1B3o_S" />
       <node concept="3uibUv" id="3lG1oaOfCTP" role="1tU5fm">
-        <ref role="3uigEE" node="5SIYu6XxgH1" resolve="IntentionInstance" />
-        <node concept="3uibUv" id="3lG1oaOfD0Q" role="11_B2D">
-          <ref role="3uigEE" to="b8lf:~EditorCellLabelSelection" resolve="EditorCellLabelSelection" />
+        <ref role="3uigEE" to="472r:5SIYu6XxgH1" resolve="ParameterizedIntentionInstance" />
+        <node concept="3uibUv" id="BDEfJTHNN0" role="11_B2D">
+          <ref role="3uigEE" to="lwvz:~Selection" resolve="Selection" />
         </node>
         <node concept="3bZ5Sz" id="3lG1oaOfD6t" role="11_B2D">
           <ref role="3bZ5Sy" to="lnwe:63E5y3TGjs_" resolve="IHasSources" />
         </node>
       </node>
     </node>
-    <node concept="Wx3nA" id="5SIYu6XGVCU" role="jymVt">
-      <property role="TrG5h" value="addRichTextToIHasSource" />
-      <node concept="3Tm1VV" id="5SIYu6XGVCV" role="1B3o_S" />
-      <node concept="3uibUv" id="5SIYu6XGVCW" role="1tU5fm">
-        <ref role="3uigEE" node="5SIYu6XxgH1" resolve="IntentionInstance" />
-        <node concept="3uibUv" id="5SIYu6XGVCX" role="11_B2D">
-          <ref role="3uigEE" to="gyv0:2_D0AvWRqEh" resolve="RichtextSelection" />
-        </node>
-        <node concept="17QB3L" id="5SIYu6XGVG9" role="11_B2D" />
-      </node>
-    </node>
-    <node concept="Wx3nA" id="6$HM99mgvwb" role="jymVt">
-      <property role="TrG5h" value="addECLTextToIHasSource" />
-      <node concept="3Tm1VV" id="6$HM99mgvaK" role="1B3o_S" />
-      <node concept="3uibUv" id="6$HM99mgvib" role="1tU5fm">
-        <ref role="3uigEE" node="5SIYu6XxgH1" resolve="IntentionInstance" />
-        <node concept="3uibUv" id="3lG1oaNBUei" role="11_B2D">
-          <ref role="3uigEE" to="b8lf:~EditorCellLabelSelection" resolve="EditorCellLabelSelection" />
-        </node>
-        <node concept="17QB3L" id="4b6llbk44nW" role="11_B2D" />
-      </node>
-    </node>
     <node concept="Wx3nA" id="2H9hTcHGcQK" role="jymVt">
       <property role="TrG5h" value="nodeFromRangeSelection" />
       <node concept="3Tm1VV" id="2H9hTcHGcQL" role="1B3o_S" />
       <node concept="3uibUv" id="2H9hTcHGcQM" role="1tU5fm">
-        <ref role="3uigEE" node="5SIYu6XxgH1" resolve="IntentionInstance" />
-        <node concept="3uibUv" id="2H9hTcHGcX8" role="11_B2D">
-          <ref role="3uigEE" to="b8lf:~NodeRangeSelection" resolve="NodeRangeSelection" />
+        <ref role="3uigEE" to="472r:5SIYu6XxgH1" resolve="ParameterizedIntentionInstance" />
+        <node concept="3uibUv" id="BDEfJTHNPK" role="11_B2D">
+          <ref role="3uigEE" to="lwvz:~Selection" resolve="Selection" />
         </node>
         <node concept="3bZ5Sz" id="2H9hTcHHYDE" role="11_B2D">
           <ref role="3bZ5Sy" to="lnwe:63E5y3TGjs_" resolve="IHasSources" />
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="35cpwYuKsw" role="jymVt" />
+    <node concept="Wx3nA" id="5SIYu6XGVCU" role="jymVt">
+      <property role="TrG5h" value="addRichTextSelectionToSourceholder" />
+      <node concept="3Tm1VV" id="5SIYu6XGVCV" role="1B3o_S" />
+      <node concept="3uibUv" id="5SIYu6XGVCW" role="1tU5fm">
+        <ref role="3uigEE" to="472r:5SIYu6XxgH1" resolve="ParameterizedIntentionInstance" />
+        <node concept="3uibUv" id="3kAtTR5q8GM" role="11_B2D">
+          <ref role="3uigEE" to="gyv0:2_D0AvWRqEh" resolve="RichtextSelection" />
+        </node>
+        <node concept="17QB3L" id="5SIYu6XGVG9" role="11_B2D" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="6$HM99mgvwb" role="jymVt">
+      <property role="TrG5h" value="addEditorSelectionToSourceholder" />
+      <node concept="3Tm1VV" id="6$HM99mgvaK" role="1B3o_S" />
+      <node concept="3uibUv" id="6$HM99mgvib" role="1tU5fm">
+        <ref role="3uigEE" to="472r:5SIYu6XxgH1" resolve="ParameterizedIntentionInstance" />
+        <node concept="3uibUv" id="3kAtTR5q2I5" role="11_B2D">
+          <ref role="3uigEE" to="b8lf:~EditorCellLabelSelection" resolve="EditorCellLabelSelection" />
+        </node>
+        <node concept="17QB3L" id="4b6llbk44nW" role="11_B2D" />
+      </node>
+    </node>
     <node concept="Wx3nA" id="2txHBFP00IF" role="jymVt">
-      <property role="TrG5h" value="addRangeSelectionToIHasSource" />
+      <property role="TrG5h" value="addRangeSelectionToSourceholder" />
       <node concept="3Tm1VV" id="2txHBFOZZWm" role="1B3o_S" />
       <node concept="3uibUv" id="2txHBFP004M" role="1tU5fm">
-        <ref role="3uigEE" node="5SIYu6XxgH1" resolve="IntentionInstance" />
-        <node concept="3uibUv" id="2txHBFP00yr" role="11_B2D">
+        <ref role="3uigEE" to="472r:5SIYu6XxgH1" resolve="ParameterizedIntentionInstance" />
+        <node concept="3uibUv" id="3kAtTR5q66p" role="11_B2D">
           <ref role="3uigEE" to="b8lf:~NodeRangeSelection" resolve="NodeRangeSelection" />
         </node>
         <node concept="17QB3L" id="2txHBFP00Iz" role="11_B2D" />
