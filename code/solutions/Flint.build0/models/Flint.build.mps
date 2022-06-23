@@ -3309,11 +3309,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="6onvLJoJXSQ" role="3bR37C">
-          <node concept="3bR9La" id="6onvLJoJXSR" role="1SiIV1">
-            <ref role="3bR37D" to="90a9:1sO539bGQvB" resolve="de.slisson.mps.richtext" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="3nHnYZiywni" role="3bR37C">
           <node concept="3bR9La" id="3nHnYZiywnj" role="1SiIV1">
             <ref role="3bR37D" node="QLMwktTkqF" resolve="Flint.plugin" />
@@ -3829,6 +3824,26 @@
         <node concept="1SiIV0" id="34d31FERQ1R" role="3bR37C">
           <node concept="3bR9La" id="34d31FERQ1S" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2EmU8wcq3rR" role="3bR37C">
+          <node concept="3bR9La" id="2EmU8wcq3rS" role="1SiIV1">
+            <ref role="3bR37D" node="6rq68Pzto1y" resolve="Flint.test" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2EmU8wcq3rT" role="3bR37C">
+          <node concept="3bR9La" id="2EmU8wcq3rU" role="1SiIV1">
+            <ref role="3bR37D" node="QLMwktTkqF" resolve="Flint.plugin" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2EmU8wcq3rV" role="3bR37C">
+          <node concept="3bR9La" id="2EmU8wcq3rW" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2EmU8wcq3rX" role="3bR37C">
+          <node concept="3bR9La" id="2EmU8wcq3rY" role="1SiIV1">
+            <ref role="3bR37D" node="2eNuKY4JD2" resolve="Flint.runtime" />
           </node>
         </node>
       </node>
