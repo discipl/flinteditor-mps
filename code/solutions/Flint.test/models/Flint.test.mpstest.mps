@@ -15,6 +15,7 @@
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
     <use id="dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d" name="LawSource" version="2" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+    <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
   </languages>
   <imports>
     <import index="19bf" ref="r:9ccc0aaa-6a7d-428b-801a-7c9a042369d0(Flint.typesystem)" />
@@ -186,10 +187,20 @@
       </concept>
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
+        <child id="1095933932569" name="implementedInterface" index="EKbjA" />
         <child id="1165602531693" name="superclass" index="1zkMxy" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
+      </concept>
+      <concept id="1109279763828" name="jetbrains.mps.baseLanguage.structure.TypeVariableDeclaration" flags="ng" index="16euLQ">
+        <child id="1214996921760" name="bound" index="3ztrMU" />
+      </concept>
+      <concept id="1109279851642" name="jetbrains.mps.baseLanguage.structure.GenericDeclaration" flags="ng" index="16eOlS">
+        <child id="1109279881614" name="typeVariableDeclaration" index="16eVyc" />
+      </concept>
+      <concept id="1109283449304" name="jetbrains.mps.baseLanguage.structure.TypeVariableReference" flags="in" index="16syzq">
+        <reference id="1109283546497" name="typeVariableDeclaration" index="16sUi3" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
@@ -197,6 +208,7 @@
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="1225271221393" name="jetbrains.mps.baseLanguage.structure.NPENotEqualsExpression" flags="nn" index="17QLQc" />
       <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
@@ -275,6 +287,14 @@
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
+    </language>
+    <language id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access">
+      <concept id="8974276187400348173" name="jetbrains.mps.lang.access.structure.CommandClosureLiteral" flags="nn" index="1QHqEC" />
+      <concept id="8974276187400348174" name="jetbrains.mps.lang.access.structure.ExecuteCommandInEDTStatement" flags="nn" index="1QHqEF" />
+      <concept id="8974276187400348170" name="jetbrains.mps.lang.access.structure.BaseExecuteCommandStatement" flags="nn" index="1QHqEJ">
+        <child id="1423104411234567454" name="repo" index="ukAjM" />
+        <child id="8974276187400348171" name="commandClosureLiteral" index="1QHqEI" />
+      </concept>
     </language>
     <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
       <concept id="2557074442922380897" name="de.slisson.mps.richtext.structure.Text" flags="ng" index="19SGf9">
@@ -358,6 +378,37 @@
       <concept id="2986354165693918736" name="Flint.structure.SRole" flags="ng" index="2UK0tq">
         <property id="2986354165693918737" name="role" index="2UK0tr" />
       </concept>
+      <concept id="3001846011087139046" name="Flint.structure.Language" flags="ng" index="30VgfG">
+        <property id="5774777313303068660" name="eVersion" index="20jtUE" />
+        <property id="5774777313303068741" name="ePublicized" index="20jy4r" />
+        <property id="5774777313303068770" name="eSelectVersion" index="20jy4W" />
+        <property id="5774777313303068686" name="eVerified" index="20jy5g" />
+        <property id="5774777313303068713" name="eValidated" index="20jy5R" />
+        <property id="1522826714118601015" name="eLanguage" index="gCpfz" />
+        <property id="2877568541152355806" name="eDuties" index="2ZPCy9" />
+        <property id="2877568541152355783" name="eFacts" index="2ZPCyg" />
+        <property id="2877568541152355761" name="eActs" index="2ZPCzA" />
+        <property id="3001846011087139886" name="eFunction" index="30Vgs$" />
+        <property id="3001846011087139884" name="eName" index="30VgsA" />
+        <property id="3001846011087139889" name="eReferences" index="30VgsV" />
+        <property id="3001846011087141580" name="eClaimant" index="30VgB6" />
+        <property id="3001846011087141575" name="eDutyHolder" index="30VgBd" />
+        <property id="3001846011087141593" name="eTerminate" index="30VgBj" />
+        <property id="3001846011087141586" name="eCreate" index="30VgBo" />
+        <property id="3001846011087141610" name="eExplanation" index="30VgBw" />
+        <property id="3001846011087141601" name="eEnforce" index="30VgBF" />
+        <property id="3001846011087141620" name="eActor" index="30VgBY" />
+        <property id="3001846011087143305" name="eAction" index="30Vna3" />
+        <property id="3001846011087143317" name="eObject" index="30Vnav" />
+        <property id="3001846011087143330" name="eRecipient" index="30VnaC" />
+        <property id="3001846011087143344" name="ePreconditions" index="30VnaU" />
+        <property id="7962607456106299664" name="eTags" index="15_LLr" />
+        <property id="1314176147395541933" name="eSources" index="1nWpYj" />
+        <property id="5922331120226874853" name="eFindLineInSource" index="3PrmOz" />
+        <property id="5922331120225230293" name="eText" index="3Pt4kj" />
+        <property id="5922331120230670153" name="eValidTo" index="3PDOuf" />
+        <property id="5922331120230670133" name="eValidFrom" index="3PDOvN" />
+      </concept>
       <concept id="4312083994563767573" name="Flint.structure.LanguageReference" flags="ng" index="3ainiu">
         <reference id="4312083994563770085" name="target" index="3aimXI" />
       </concept>
@@ -417,6 +468,11 @@
     <language id="0bfae715-f669-4a10-999a-ba0ca94a1c3c" name="FlintTests">
       <concept id="589729100943549118" name="FlintTests.structure.LanguageFact" flags="ng" index="Jn470" />
       <concept id="589729100943550793" name="FlintTests.structure.LanguageDuty" flags="ng" index="Jn4CR" />
+      <concept id="4241511044383089882" name="FlintTests.structure.TestLawsource" flags="ng" index="2XxnG8">
+        <child id="4241511044383089883" name="source" index="2XxnG9" />
+        <child id="4241511044383089885" name="versions" index="2XxnGf" />
+        <child id="4241511044383089888" name="seperatedContainers" index="2XxnGM" />
+      </concept>
       <concept id="828727448689864122" name="FlintTests.structure.LanguageAct" flags="ng" index="11h_q3" />
       <concept id="828727448689859095" name="FlintTests.structure.LanguageTestModel" flags="ng" index="11hA4I">
         <child id="589729100943546708" name="testDuties" index="Jn7CE" />
@@ -477,6 +533,11 @@
       </concept>
     </language>
     <language id="dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d" name="LawSource">
+      <concept id="4656788433643241688" name="LawSource.structure.TableBody" flags="ng" index="tP3MK" />
+      <concept id="4656788433640334432" name="LawSource.structure.TableHead" flags="ng" index="tTTw8" />
+      <concept id="4656788433640334388" name="LawSource.structure.TableGroup" flags="ng" index="tTTxs" />
+      <concept id="4656788433640334476" name="LawSource.structure.TableRow" flags="ng" index="tTTz$" />
+      <concept id="4656788433640334258" name="LawSource.structure.Table" flags="ng" index="tTTZq" />
       <concept id="1576888484001185141" name="LawSource.structure.OldArticle" flags="ng" index="2AEkrd">
         <reference id="1576888484001185932" name="version" index="2AErGO" />
         <child id="8679002930326655623" name="lines" index="3MKX6D" />
@@ -492,7 +553,12 @@
       <concept id="1576888483996689830" name="LawSource.structure.LawSource" flags="ng" index="2ATdSu">
         <property id="1576888484001186753" name="bwbId" index="2AErxT" />
       </concept>
-      <concept id="6697972895834190335" name="LawSource.structure.SeperatedNamedContainer" flags="ng" index="3v_WGz" />
+      <concept id="6697972895833994062" name="LawSource.structure.SeperatedNamedContainerReference" flags="ng" index="3v$GAi">
+        <reference id="6697972895833994063" name="namedContainer" index="3v$GAj" />
+      </concept>
+      <concept id="6697972895834190335" name="LawSource.structure.SeperatedNamedContainer" flags="ng" index="3v_WGz">
+        <reference id="3231458622981024335" name="version" index="dW5wK" />
+      </concept>
       <concept id="5920413357503155457" name="LawSource.structure.PrefixContainer" flags="ng" index="3Fnoml">
         <property id="5920413357503155458" name="prefix" index="3Fnomm" />
       </concept>
@@ -553,6 +619,7 @@
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
+      <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
@@ -560,6 +627,7 @@
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
+      <concept id="1181949435690" name="jetbrains.mps.lang.smodel.structure.Concept_NewInstance" flags="nn" index="LFhST" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1966870290088668512" name="jetbrains.mps.lang.smodel.structure.Enum_MemberLiteral" flags="ng" index="2ViDtV">
         <reference id="1966870290088668516" name="memberDeclaration" index="2ViDtZ" />
@@ -569,8 +637,12 @@
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
       </concept>
+      <concept id="6677504323281689838" name="jetbrains.mps.lang.smodel.structure.SConceptType" flags="in" index="3bZ5Sz" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
+      </concept>
+      <concept id="1172326502327" name="jetbrains.mps.lang.smodel.structure.Concept_IsExactlyOperation" flags="nn" index="3O6GUB">
+        <child id="1206733650006" name="conceptArgument" index="3QVz_e" />
       </concept>
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
@@ -614,12 +686,16 @@
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
+      <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
+        <child id="540871147943773366" name="argument" index="25WWJ7" />
+      </concept>
       <concept id="1204980550705" name="jetbrains.mps.baseLanguage.collections.structure.VisitAllOperation" flags="nn" index="2es0OD" />
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
       <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
+      <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1201792049884" name="jetbrains.mps.baseLanguage.collections.structure.TranslateOperation" flags="nn" index="3goQfb" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
@@ -4203,6 +4279,12 @@
             </node>
             <node concept="3KTrbX" id="wJ8RSBwfO5" role="3KTr4d">
               <ref role="3AHY9a" to="jov5:4L0TsavKybn" resolve="English" />
+            </node>
+            <node concept="3KTrbX" id="2EmU8wcBGhf" role="3KTr4d">
+              <ref role="3AHY9a" node="Z$nuwvVQbs" resolve="English" />
+            </node>
+            <node concept="3KTrbX" id="2EmU8wcBGhp" role="3KTr4d">
+              <ref role="3AHY9a" node="Z$nuwvVWy$" />
             </node>
           </node>
           <node concept="3xLA65" id="wJ8RSBuiWq" role="lGtFl">
@@ -8747,6 +8829,3409 @@
       </node>
     </node>
   </node>
+  <node concept="LiM7Y" id="2AbE34h$B$M">
+    <property role="TrG5h" value="CanSplitToPrefixContainerOnWord" />
+    <node concept="1qefOq" id="2AbE34h$B$N" role="25YQCW">
+      <node concept="32diMH" id="2AbE34h$B$O" role="1qenE9">
+        <node concept="3_ImHQ" id="2AbE34h$B$P" role="32diMI">
+          <property role="TrG5h" value="FlintModel" />
+          <node concept="mu5$5" id="2AbE34h$B$Q" role="3_ImHT">
+            <property role="3GE5qa" value="acts" />
+            <property role="TrG5h" value="Test Act" />
+            <node concept="1FQA6B" id="2AbE34h$B$R" role="3H36mW" />
+            <node concept="1FQA6B" id="2AbE34h$B$S" role="3H36l7" />
+            <node concept="1FQA6B" id="2AbE34h$B$T" role="3H36lm" />
+            <node concept="cog_b" id="2AbE34h$B$U" role="2pmM46">
+              <property role="1hTq4$" value="https://calculemus.org/29d53f8b-6b3b-4cf5-8a39-192f9afdf373" />
+              <property role="1tl0gq" value="English" />
+              <node concept="2hPCcK" id="2AbE34h$B$V" role="2hN6Sa">
+                <node concept="19SUe$" id="2AbE34h$B$X" role="19SJt6">
+                  <property role="19SUeA" value="Bij deze verordening worden regels vastgesteld betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van persoonsgegevens" />
+                </node>
+              </node>
+            </node>
+            <node concept="1GVOM6" id="2AbE34h$B$Y" role="1GVO30">
+              <property role="1GVPtd" value="English" />
+              <property role="1GVPtb" value="Test Act" />
+            </node>
+          </node>
+          <node concept="3ainiu" id="2AbE34hDj2Y" role="3a9ffC">
+            <ref role="3aimXI" to="jov5:4L0TsavKybn" resolve="English" />
+          </node>
+        </node>
+        <node concept="32diMG" id="2AbE34h$B$Z" role="32diMK">
+          <node concept="2AEkrd" id="2AbE34h$B_0" role="32diMP">
+            <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
+            <property role="3GE5qa" value="articles" />
+            <ref role="2AErGO" node="2AbE34h$B_6" resolve="16-05-2020 t/m 11-06-2020" />
+            <node concept="3MKX5h" id="2AbE34h$B_1" role="3MKX6D">
+              <node concept="3Fnoml" id="2AbE34hla$K" role="3MKX6F">
+                <property role="3Fg1Gr" value="0" />
+                <property role="1hTQn4" value="https://calculemus.org/29d53f8b-6b3b-4cf5-8a39-192f9afdf373" />
+                <property role="3Fnomm" value="1." />
+                <node concept="3MKX5i" id="2AbE34hla$L" role="3MKX6F">
+                  <property role="3Fg1Gr" value="0" />
+                  <property role="1hTQn4" value="https://calculemus.org/29d53f8b-6b3b-4cf5-8a39-192f9afdf373" />
+                  <node concept="1P5Shq" id="2AbE34hla$M" role="2qTud8">
+                    <node concept="1P5VML" id="2AbE34hla$O" role="19SJt6">
+                      <property role="19SUeA" value="Bij deze verordening worden regels vastgesteld betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van persoonsgegevens." />
+                      <node concept="LIFWc" id="2AbE34h$Cog" role="lGtFl">
+                        <property role="OXtK3" value="true" />
+                        <property role="p6zMq" value="0" />
+                        <property role="p6zMs" value="0" />
+                        <property role="LIFWd" value="property_escapedValue_word6" />
+                        <property role="LIFWa" value="1" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3Fnoml" id="2AbE34hla$Q" role="3MKX6F">
+                <property role="3Fg1Gr" value="0" />
+                <property role="1hTQn4" value="https://calculemus.org/b91f5178-35dc-4cc8-bc59-9dd02bad44ed" />
+                <property role="3Fnomm" value="2." />
+                <node concept="3MKX5i" id="2AbE34hla$R" role="3MKX6F">
+                  <property role="3Fg1Gr" value="0" />
+                  <property role="1hTQn4" value="https://calculemus.org/b91f5178-35dc-4cc8-bc59-9dd02bad44ed" />
+                  <node concept="1P5Shq" id="2AbE34hla$S" role="2qTud8">
+                    <node concept="1P5VML" id="2AbE34hla$U" role="19SJt6">
+                      <property role="19SUeA" value="Deze verordening beschermt de grondrechten en de fundamentele vrijheden van natuurlijke personen en met name hun recht op bescherming van persoonsgegevens." />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2ANm86" id="2AbE34h$B_6" role="2T_gbu">
+            <property role="3GE5qa" value="versions" />
+            <property role="TrG5h" value="16-05-2020 t/m 11-06-2020" />
+            <property role="2AEqdP" value="2020-06-11" />
+            <property role="2AEqdO" value="2020-05-16" />
+            <property role="W2joe" value="TODO" />
+            <property role="ZyLMf" value="http://wetten.overheid.nl/1.0:c:BWBR0043324&amp;g=2020-05-16" />
+            <property role="2JHwUh" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27" />
+            <ref role="2AErGN" node="2AbE34h$B_7" resolve="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+          </node>
+          <node concept="2ATdSu" id="2AbE34h$B_7" role="32diMN">
+            <property role="2AErxT" value="BWBR0043324" />
+            <property role="TrG5h" value="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2AbE34h$B_8" role="25YQFr">
+      <node concept="32diMH" id="2AbE34h$B_9" role="1qenE9">
+        <node concept="3_ImHQ" id="2AbE34h$B_a" role="32diMI">
+          <property role="TrG5h" value="FlintModel" />
+          <node concept="mu5$5" id="2AbE34h$B_b" role="3_ImHT">
+            <property role="3GE5qa" value="acts" />
+            <property role="TrG5h" value="Test Act" />
+            <node concept="1FQA6B" id="2AbE34h$B_c" role="3H36mW" />
+            <node concept="1FQA6B" id="2AbE34h$B_d" role="3H36l7" />
+            <node concept="1FQA6B" id="2AbE34h$B_e" role="3H36lm" />
+            <node concept="cog_b" id="2AbE34h$B_f" role="2pmM46">
+              <property role="1hTq4$" value="https://calculemus.org/29d53f8b-6b3b-4cf5-8a39-192f9afdf373" />
+              <property role="1tl0gq" value="English" />
+              <node concept="2hPCcK" id="2AbE34h$B_g" role="2hN6Sa">
+                <node concept="19SUe$" id="2AbE34h$B_h" role="19SJt6">
+                  <property role="19SUeA" value="Bij deze verordening worden regels vastgesteld b" />
+                </node>
+              </node>
+            </node>
+            <node concept="cog_b" id="2AbE34h$B_i" role="2pmM46">
+              <property role="1hTq4$" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
+              <property role="1tl0gq" value="English" />
+              <node concept="2hPCcK" id="2AbE34h$B_j" role="2hN6Sa">
+                <node concept="19SUe$" id="2AbE34h$B_k" role="19SJt6">
+                  <property role="19SUeA" value="etreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van persoonsgegevens" />
+                </node>
+              </node>
+            </node>
+            <node concept="1GVOM6" id="2AbE34h$B_l" role="1GVO30">
+              <property role="1GVPtd" value="English" />
+              <property role="1GVPtb" value="Test Act" />
+            </node>
+          </node>
+          <node concept="3ainiu" id="2AbE34hDj38" role="3a9ffC">
+            <ref role="3aimXI" to="jov5:4L0TsavKybn" resolve="English" />
+          </node>
+        </node>
+        <node concept="32diMG" id="2AbE34h$B_m" role="32diMK">
+          <node concept="2AEkrd" id="2AbE34h$ChF" role="32diMP">
+            <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
+            <property role="3GE5qa" value="articles" />
+            <ref role="2AErGO" node="2AbE34h$B_v" resolve="16-05-2020 t/m 11-06-2020" />
+            <node concept="3MKX5h" id="2AbE34h$ChG" role="3MKX6D">
+              <node concept="3Fnoml" id="2AbE34h$ChH" role="3MKX6F">
+                <property role="3Fg1Gr" value="0" />
+                <property role="1hTQn4" value="https://calculemus.org/29d53f8b-6b3b-4cf5-8a39-192f9afdf373" />
+                <property role="3Fnomm" value="1." />
+                <node concept="3MKX5i" id="2AbE34h$ChI" role="3MKX6F">
+                  <property role="3Fg1Gr" value="0" />
+                  <property role="1hTQn4" value="https://calculemus.org/29d53f8b-6b3b-4cf5-8a39-192f9afdf373" />
+                  <node concept="1P5Shq" id="2AbE34h$ChJ" role="2qTud8">
+                    <node concept="1P5VML" id="2AbE34h$ChK" role="19SJt6">
+                      <property role="19SUeA" value="Bij deze verordening worden regels vastgesteld b" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3Fnoml" id="2AbE34h$Con" role="3MKX6F">
+                <property role="1hTQn4" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
+                <node concept="3MKX5i" id="2AbE34h$Com" role="3MKX6F">
+                  <property role="1hTQn4" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
+                  <node concept="1P5Shq" id="2AbE34h$Coj" role="2qTud8">
+                    <node concept="1P5VML" id="2AbE34h$Col" role="19SJt6">
+                      <property role="19SUeA" value="etreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van persoonsgegevens." />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3Fnoml" id="2AbE34h$ChL" role="3MKX6F">
+                <property role="3Fg1Gr" value="0" />
+                <property role="1hTQn4" value="https://calculemus.org/b91f5178-35dc-4cc8-bc59-9dd02bad44ed" />
+                <property role="3Fnomm" value="2." />
+                <node concept="3MKX5i" id="2AbE34h$ChM" role="3MKX6F">
+                  <property role="3Fg1Gr" value="0" />
+                  <property role="1hTQn4" value="https://calculemus.org/b91f5178-35dc-4cc8-bc59-9dd02bad44ed" />
+                  <node concept="1P5Shq" id="2AbE34h$ChN" role="2qTud8">
+                    <node concept="1P5VML" id="2AbE34h$ChO" role="19SJt6">
+                      <property role="19SUeA" value="Deze verordening beschermt de grondrechten en de fundamentele vrijheden van natuurlijke personen en met name hun recht op bescherming van persoonsgegevens." />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2ANm86" id="2AbE34h$B_v" role="2T_gbu">
+            <property role="3GE5qa" value="versions" />
+            <property role="TrG5h" value="16-05-2020 t/m 11-06-2020" />
+            <property role="2AEqdP" value="2020-06-11" />
+            <property role="2AEqdO" value="2020-05-16" />
+            <property role="W2joe" value="TODO" />
+            <property role="ZyLMf" value="http://wetten.overheid.nl/1.0:c:BWBR0043324&amp;g=2020-05-16" />
+            <property role="2JHwUh" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27" />
+            <ref role="2AErGN" node="2AbE34h$B_w" resolve="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+          </node>
+          <node concept="2ATdSu" id="2AbE34h$B_w" role="32diMN">
+            <property role="2AErxT" value="BWBR0043324" />
+            <property role="TrG5h" value="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="2AbE34h$B_x" role="LjaKd">
+      <node concept="3J1_TO" id="2AbE34h$B_y" role="3cqZAp">
+        <node concept="3clFbS" id="2AbE34h$B_z" role="1zxBo7">
+          <node concept="3clFbF" id="2AbE34h$B_$" role="3cqZAp">
+            <node concept="2OqwBi" id="2AbE34h$B__" role="3clFbG">
+              <node concept="2OqwBi" id="2AbE34h$B_A" role="2Oq$k0">
+                <node concept="2OqwBi" id="2AbE34h$B_B" role="2Oq$k0">
+                  <node concept="2OqwBi" id="2AbE34h$B_C" role="2Oq$k0">
+                    <node concept="369mXd" id="2AbE34h$B_D" role="2Oq$k0" />
+                    <node concept="liA8E" id="2AbE34h$B_E" role="2OqNvi">
+                      <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="2AbE34h$B_F" role="2OqNvi">
+                    <ref role="37wK5l" to="exr9:~EditorContext.getRepository()" resolve="getRepository" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="2AbE34h$B_G" role="2OqNvi">
+                  <ref role="37wK5l" to="lui2:~SRepository.getModelAccess()" resolve="getModelAccess" />
+                </node>
+              </node>
+              <node concept="liA8E" id="2AbE34h$B_H" role="2OqNvi">
+                <ref role="37wK5l" to="lui2:~ModelAccess.executeCommandInEDT(java.lang.Runnable)" resolve="executeCommandInEDT" />
+                <node concept="1bVj0M" id="2AbE34h$B_I" role="37wK5m">
+                  <node concept="3clFbS" id="2AbE34h$B_J" role="1bW5cS">
+                    <node concept="3cpWs8" id="2AbE34h$B_K" role="3cqZAp">
+                      <node concept="3cpWsn" id="2AbE34h$B_L" role="3cpWs9">
+                        <property role="TrG5h" value="selectedNode" />
+                        <node concept="3Tqbb2" id="2AbE34h$B_M" role="1tU5fm" />
+                        <node concept="2OqwBi" id="2AbE34h$B_N" role="33vP2m">
+                          <node concept="369mXd" id="2AbE34h$B_O" role="2Oq$k0" />
+                          <node concept="liA8E" id="2AbE34h$B_P" role="2OqNvi">
+                            <ref role="37wK5l" to="exr9:~EditorComponent.getSelectedNode()" resolve="getSelectedNode" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="2AbE34h$B_Q" role="3cqZAp">
+                      <node concept="2YIFZM" id="2AbE34h$B_R" role="3clFbG">
+                        <ref role="1Pybhc" node="7zM_gLgV_ke" resolve="FlintSourceReferenceGetterTestImpl" />
+                        <ref role="37wK5l" node="7zM_gLgW9pw" resolve="setup" />
+                        <node concept="2OqwBi" id="2AbE34h$B_S" role="37wK5m">
+                          <node concept="37vLTw" id="2AbE34h$B_T" role="2Oq$k0">
+                            <ref role="3cqZAo" node="2AbE34h$B_L" resolve="selectedNode" />
+                          </node>
+                          <node concept="2Xjw5R" id="2AbE34h$B_U" role="2OqNvi">
+                            <node concept="1xMEDy" id="2AbE34h$B_V" role="1xVPHs">
+                              <node concept="chp4Y" id="2AbE34h$B_W" role="ri$Ld">
+                                <ref role="cht4Q" to="1z9r:222x$3yHUFH" resolve="TestModelAndSource" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="2AbE34h$B_X" role="37wK5m">
+                          <property role="Xl_RC" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3vwNmj" id="2AbE34h$B_Y" role="3cqZAp">
+            <node concept="2bRw2S" id="2AbE34h$B_Z" role="3vwVQn">
+              <ref role="2bRw2V" to="xbql:2AbE34hy4I6" resolve="SplitPrefixLine" />
+            </node>
+          </node>
+          <node concept="1MFPAf" id="2AbE34h$BA0" role="3cqZAp">
+            <ref role="1MFYO6" to="xbql:2AbE34hy4I6" resolve="SplitPrefixLine" />
+          </node>
+        </node>
+        <node concept="1wplmZ" id="2AbE34h$BA1" role="1zxBo6">
+          <node concept="3clFbS" id="2AbE34h$BA2" role="1wplMD">
+            <node concept="3clFbF" id="2AbE34h$BA3" role="3cqZAp">
+              <node concept="2YIFZM" id="2AbE34h$BA4" role="3clFbG">
+                <ref role="1Pybhc" node="7zM_gLgV_ke" resolve="FlintSourceReferenceGetterTestImpl" />
+                <ref role="37wK5l" node="4IrXXbMtprT" resolve="reset" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="2AbE34h$BA5" role="3cqZAp" />
+      <node concept="3clFbH" id="2AbE34h$BA6" role="3cqZAp" />
+    </node>
+  </node>
+  <node concept="LiM7Y" id="Z$nuwvVOWx">
+    <property role="TrG5h" value="TestLanguageImporter" />
+    <node concept="1qefOq" id="Z$nuwvVOWy" role="25YQCW">
+      <node concept="30VgfG" id="Z$nuwvVWy$" role="1qenE9">
+        <node concept="LIFWc" id="Z$nuwvWiPM" role="lGtFl">
+          <property role="LIFWa" value="0" />
+          <property role="OXtK3" value="true" />
+          <property role="p6zMq" value="0" />
+          <property role="p6zMs" value="0" />
+          <property role="LIFWd" value="Constant_75gu8q_a0a" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="Z$nuwvVOW_" role="25YQFr">
+      <node concept="30VgfG" id="Z$nuwvVQbs" role="1qenE9">
+        <property role="30VgsA" value="name" />
+        <property role="2ZPCzA" value="acts" />
+        <property role="TrG5h" value="English" />
+        <property role="2ZPCyg" value="facts" />
+        <property role="2ZPCy9" value="duties" />
+        <property role="30Vgs$" value="function" />
+        <property role="30VgsV" value="references" />
+        <property role="30VgBd" value="duty-holder" />
+        <property role="30VgB6" value="claimaint" />
+        <property role="30VgBo" value="create" />
+        <property role="30VgBj" value="terminate" />
+        <property role="30VgBF" value="enforce" />
+        <property role="30VgBw" value="explanation" />
+        <property role="30VgBY" value="actor" />
+        <property role="30Vna3" value="action" />
+        <property role="30Vnav" value="object" />
+        <property role="30VnaC" value="recipient" />
+        <property role="30VnaU" value="preconditions" />
+        <property role="gCpfz" value="language" />
+        <property role="1nWpYj" value="sources" />
+        <property role="3Pt4kj" value="text" />
+        <property role="3PrmOz" value="Find line in Source" />
+        <property role="3PDOvN" value="valid from" />
+        <property role="3PDOuf" value="valid to" />
+        <property role="15_LLr" value="tags" />
+        <property role="20jtUE" value="version" />
+        <property role="20jy5g" value="verified" />
+        <property role="20jy5R" value="validated" />
+        <property role="20jy4r" value="publicized" />
+        <property role="20jy4W" value="select version" />
+      </node>
+    </node>
+    <node concept="3clFbS" id="Z$nuwvVOXz" role="LjaKd">
+      <node concept="3cpWs8" id="Z$nuwvVOXG" role="3cqZAp">
+        <node concept="3cpWsn" id="Z$nuwvVOXH" role="3cpWs9">
+          <property role="TrG5h" value="filePath" />
+          <node concept="3uibUv" id="Z$nuwvVOXI" role="1tU5fm">
+            <ref role="3uigEE" to="eoo2:~Path" resolve="Path" />
+          </node>
+          <node concept="2OqwBi" id="Z$nuwvVOXJ" role="33vP2m">
+            <node concept="2OqwBi" id="Z$nuwvVOXK" role="2Oq$k0">
+              <node concept="2YIFZM" id="Z$nuwvVOXL" role="2Oq$k0">
+                <ref role="37wK5l" to="91gc:7ALI6YWYmu7" resolve="getInstance" />
+                <ref role="1Pybhc" to="91gc:2eNuKY2QKZ" resolve="FlintProperties" />
+              </node>
+              <node concept="2S8uIT" id="Z$nuwvVOXM" role="2OqNvi">
+                <ref role="2S8YL0" to="91gc:7FNYdkaI3HX" resolve="testResourcesFolder" />
+              </node>
+            </node>
+            <node concept="liA8E" id="Z$nuwvVOXN" role="2OqNvi">
+              <ref role="37wK5l" to="eoo2:~Path.resolve(java.lang.String)" resolve="resolve" />
+              <node concept="Xl_RD" id="Z$nuwvVOXO" role="37wK5m">
+                <property role="Xl_RC" value="test-language.flint.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="Z$nuwvVY38" role="3cqZAp">
+        <node concept="3cpWsn" id="Z$nuwvVY39" role="3cpWs9">
+          <property role="TrG5h" value="languageNode" />
+          <node concept="3Tqbb2" id="Z$nuwvVXX4" role="1tU5fm">
+            <ref role="ehGHo" to="lnwe:2ACGKFDB3mq" resolve="Language" />
+          </node>
+          <node concept="1PxgMI" id="Z$nuwvXZGk" role="33vP2m">
+            <node concept="chp4Y" id="Z$nuwvXZK8" role="3oSUPX">
+              <ref role="cht4Q" to="lnwe:2ACGKFDB3mq" resolve="Language" />
+            </node>
+            <node concept="2OqwBi" id="Z$nuwvXYri" role="1m5AlR">
+              <node concept="369mXd" id="Z$nuwvXXJl" role="2Oq$k0" />
+              <node concept="liA8E" id="Z$nuwvXZrP" role="2OqNvi">
+                <ref role="37wK5l" to="exr9:~EditorComponent.getSelectedNode()" resolve="getSelectedNode" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="Z$nuwvVOXP" role="3cqZAp">
+        <node concept="3cpWsn" id="Z$nuwvVOXQ" role="3cpWs9">
+          <property role="TrG5h" value="languageJson" />
+          <node concept="17QB3L" id="Z$nuwvVOXR" role="1tU5fm" />
+          <node concept="2YIFZM" id="Z$nuwvVOXS" role="33vP2m">
+            <ref role="37wK5l" to="eoo2:~Files.readString(java.nio.file.Path)" resolve="readString" />
+            <ref role="1Pybhc" to="eoo2:~Files" resolve="Files" />
+            <node concept="37vLTw" id="Z$nuwvVOXT" role="37wK5m">
+              <ref role="3cqZAo" node="Z$nuwvVOXH" resolve="filePath" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1QHqEF" id="Z$nuww0BHm" role="3cqZAp">
+        <node concept="1QHqEC" id="Z$nuww0BHo" role="1QHqEI">
+          <node concept="3clFbS" id="Z$nuww0BHq" role="1bW5cS">
+            <node concept="3clFbF" id="Z$nuwvW0lU" role="3cqZAp">
+              <node concept="2OqwBi" id="Z$nuwvWhAA" role="3clFbG">
+                <node concept="2ShNRf" id="Z$nuwvW0lQ" role="2Oq$k0">
+                  <node concept="1pGfFk" id="Z$nuwvWaL3" role="2ShVmc">
+                    <ref role="37wK5l" to="472r:5fVLlSDbfR2" resolve="JsonLanguageImporter" />
+                    <node concept="37vLTw" id="Z$nuwvWgU8" role="37wK5m">
+                      <ref role="3cqZAo" node="Z$nuwvVOXQ" resolve="languageJson" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="Z$nuwvWibI" role="2OqNvi">
+                  <ref role="37wK5l" to="472r:Z$nuwvVV5G" resolve="loadLanguageNode" />
+                  <node concept="37vLTw" id="Z$nuwvWivN" role="37wK5m">
+                    <ref role="3cqZAo" node="Z$nuwvVY39" resolve="languageNode" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="Z$nuww0DMY" role="ukAjM">
+          <node concept="2OqwBi" id="Z$nuww0DMZ" role="2Oq$k0">
+            <node concept="369mXd" id="Z$nuww0DN0" role="2Oq$k0" />
+            <node concept="liA8E" id="Z$nuww0DN1" role="2OqNvi">
+              <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+            </node>
+          </node>
+          <node concept="liA8E" id="Z$nuww0DN2" role="2OqNvi">
+            <ref role="37wK5l" to="exr9:~EditorContext.getRepository()" resolve="getRepository" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="3FsRXa7xnOq">
+    <property role="TrG5h" value="TestLawSourceImporter" />
+    <node concept="1qefOq" id="3FsRXa7xnOr" role="25YQCW">
+      <node concept="2XxnG8" id="3FsRXa7xogP" role="1qenE9">
+        <node concept="LIFWc" id="3FsRXa7y0mB" role="lGtFl">
+          <property role="LIFWa" value="0" />
+          <property role="OXtK3" value="true" />
+          <property role="p6zMq" value="0" />
+          <property role="p6zMs" value="0" />
+          <property role="LIFWd" value="Constant_qq7xao_a0" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="3FsRXa7xnOu" role="25YQFr">
+      <node concept="2XxnG8" id="3FsRXa7y6xy" role="1qenE9">
+        <node concept="2ATdSu" id="_ks2DAIx8Q" role="2XxnG9">
+          <property role="TrG5h" value="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+          <property role="2AErxT" value="BWBR0043324" />
+        </node>
+        <node concept="2ANm86" id="_ks2DAIx8R" role="2XxnGf">
+          <property role="TrG5h" value="31-03-2020 t/m 14-04-2020" />
+          <property role="2AEqdO" value="2020-03-31" />
+          <property role="2AEqdP" value="2020-04-14" />
+          <property role="2JHwUh" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27" />
+          <property role="W2joe" value="TODO" />
+          <property role="ZyLMf" value="http://wetten.overheid.nl/1.0:c:BWBR0043324&amp;g=2020-03-31" />
+          <ref role="2AErGN" node="_ks2DAIx8Q" resolve="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
+          <node concept="3MKX5h" id="_ks2DAIx8S" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/0" />
+            <property role="3Fg1Gr" value="0" />
+            <node concept="3MKX5h" id="_ks2DAIx8T" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/1" />
+              <property role="3Fg1Gr" value="1" />
+              <node concept="3MKX5h" id="_ks2DAIx8U" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/2" />
+                <property role="3Fg1Gr" value="2" />
+                <node concept="3MKX5i" id="_ks2DAIx8V" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/3" />
+                  <property role="3Fg1Gr" value="3" />
+                  <node concept="1P5Shq" id="_ks2DAIx8X" role="2qTud8">
+                    <node concept="1P5VML" id="_ks2DAIx8Z" role="19SJt6" />
+                    <node concept="1P5VML" id="_ks2DAIx8W" role="19SJt6">
+                      <property role="19SUeA" value="Beleidsregel van de Minister van Economische Zaken en Klimaat van 27 maart 2020, nr. WJZ/ 20077977, tot tegemoetkoming in de schade geleden door ondernemingen in bepaalde sectoren door de maatregelen ter bestrijding van de verdere verspreiding van COVID-19 (Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19) 2020 19159 30-03-2020 27-03-2020 WJZ/20077977 2020 19159 30-03-2020 27-03-2020 WJZ/20077977 31-03-2020 27-03-2020" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3MKX5i" id="_ks2DAIx90" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/4" />
+                  <property role="3Fg1Gr" value="4" />
+                  <node concept="1P5Shq" id="_ks2DAIx92" role="2qTud8">
+                    <node concept="1P5VML" id="_ks2DAIx94" role="19SJt6" />
+                    <node concept="1P5VML" id="_ks2DAIx91" role="19SJt6">
+                      <property role="19SUeA" value="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19 2020 19159 30-03-2020 27-03-2020 WJZ/20077977 2020 19159 30-03-2020 27-03-2020 WJZ/20077977 31-03-2020 27-03-2020" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3MKX5h" id="_ks2DAIx95" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/5" />
+                  <property role="3Fg1Gr" value="5" />
+                  <node concept="3MKX5h" id="_ks2DAIx96" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/6" />
+                    <property role="3Fg1Gr" value="6" />
+                    <node concept="3MKX5i" id="_ks2DAIx97" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/7" />
+                      <property role="3Fg1Gr" value="7" />
+                      <node concept="1P5Shq" id="_ks2DAIx99" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIx9b" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIx98" role="19SJt6">
+                          <property role="19SUeA" value="De Minister van Economische Zaken en Klimaat en de Staatssecretaris van Economische Zaken en Klimaat," />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3MKX5h" id="_ks2DAIx9c" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/8" />
+                      <property role="3Fg1Gr" value="8" />
+                      <node concept="3MKX5i" id="_ks2DAIx9d" role="3MKX6F">
+                        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/9" />
+                        <property role="3Fg1Gr" value="9" />
+                        <node concept="1P5Shq" id="_ks2DAIx9f" role="2qTud8">
+                          <node concept="1P5VML" id="_ks2DAIx9h" role="19SJt6" />
+                          <node concept="1P5VML" id="_ks2DAIx9e" role="19SJt6">
+                            <property role="19SUeA" value="Gelet op artikel 4:81 van de Algemene wet bestuursrecht ;" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3MKX5h" id="_ks2DAIx9i" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/10" />
+                      <property role="3Fg1Gr" value="10" />
+                      <node concept="3MKX5i" id="_ks2DAIx9j" role="3MKX6F">
+                        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/11" />
+                        <property role="3Fg1Gr" value="11" />
+                        <node concept="1P5Shq" id="_ks2DAIx9l" role="2qTud8">
+                          <node concept="1P5VML" id="_ks2DAIx9n" role="19SJt6" />
+                          <node concept="1P5VML" id="_ks2DAIx9k" role="19SJt6">
+                            <property role="19SUeA" value="Besluiten:" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIx9o" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/12" />
+                    <property role="3Fg1Gr" value="12" />
+                    <node concept="3v$GAi" id="_ks2DAIx9p" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/13" />
+                      <property role="3Fg1Gr" value="13" />
+                      <ref role="3v$GAj" node="_ks2DAIx9q" resolve="Artikel 1 (begripsbepalingen)" />
+                    </node>
+                    <node concept="3v$GAi" id="_ks2DAIxaQ" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/45" />
+                      <property role="3Fg1Gr" value="45" />
+                      <ref role="3v$GAj" node="_ks2DAIxaR" resolve="Artikel 2 (verstrekking en hoogte tegemoetkoming)" />
+                    </node>
+                    <node concept="3v$GAi" id="_ks2DAIxbl" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/56" />
+                      <property role="3Fg1Gr" value="56" />
+                      <ref role="3v$GAj" node="_ks2DAIxbm" resolve="Artikel 3 (afwijzingsgronden)" />
+                    </node>
+                    <node concept="3v$GAi" id="_ks2DAIxbM" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/66" />
+                      <property role="3Fg1Gr" value="66" />
+                      <ref role="3v$GAj" node="_ks2DAIxbN" resolve="Artikel 4 (informatieverplichtingen bij aanvraag en aanvraagperiode)" />
+                    </node>
+                    <node concept="3v$GAi" id="_ks2DAIxcV" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/89" />
+                      <property role="3Fg1Gr" value="89" />
+                      <ref role="3v$GAj" node="_ks2DAIxcW" resolve="Artikel 5 (beslistermijn)" />
+                    </node>
+                    <node concept="3v$GAi" id="_ks2DAIxd2" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/92" />
+                      <property role="3Fg1Gr" value="92" />
+                      <ref role="3v$GAj" node="_ks2DAIxd3" resolve="Artikel 6 (aanpassing tegemoetkoming achteraf)" />
+                    </node>
+                    <node concept="3v$GAi" id="_ks2DAIxd9" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/95" />
+                      <property role="3Fg1Gr" value="95" />
+                      <ref role="3v$GAj" node="_ks2DAIxda" resolve="Artikel 7 (staatssteun)" />
+                    </node>
+                    <node concept="3v$GAi" id="_ks2DAIxdg" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/98" />
+                      <property role="3Fg1Gr" value="98" />
+                      <ref role="3v$GAj" node="_ks2DAIxdh" resolve="Artikel 8 (inwerkingtreding en vervaldatum)" />
+                    </node>
+                    <node concept="3v$GAi" id="_ks2DAIxdw" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/104" />
+                      <property role="3Fg1Gr" value="104" />
+                      <ref role="3v$GAj" node="_ks2DAIxdx" resolve="Artikel 9 (citeertitel)" />
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxdB" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/107" />
+                    <property role="3Fg1Gr" value="107" />
+                    <node concept="3MKX5h" id="_ks2DAIxdC" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/108" />
+                      <property role="3Fg1Gr" value="108" />
+                      <node concept="3MKX5i" id="_ks2DAIxdD" role="3MKX6F">
+                        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/109" />
+                        <property role="3Fg1Gr" value="109" />
+                        <node concept="1P5Shq" id="_ks2DAIxdF" role="2qTud8">
+                          <node concept="1P5VML" id="_ks2DAIxdH" role="19SJt6" />
+                          <node concept="1P5VML" id="_ks2DAIxdE" role="19SJt6">
+                            <property role="19SUeA" value="Deze beleidsregel zal met de toelichting in de Staatscourant worden geplaatst." />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3MKX5i" id="_ks2DAIxdI" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/110" />
+                      <property role="3Fg1Gr" value="110" />
+                      <node concept="1P5Shq" id="_ks2DAIxdK" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxdM" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxdJ" role="19SJt6">
+                          <property role="19SUeA" value="&amp;#39;s-Gravenhage 27 maart 2020" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3MKX5i" id="_ks2DAIxdN" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/111" />
+                      <property role="3Fg1Gr" value="111" />
+                      <node concept="1P5Shq" id="_ks2DAIxdP" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxdR" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxdO" role="19SJt6">
+                          <property role="19SUeA" value="De Minister van Economische Zaken en Klimaat, E.D. Wiebes" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3MKX5i" id="_ks2DAIxdS" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/112" />
+                      <property role="3Fg1Gr" value="112" />
+                      <node concept="1P5Shq" id="_ks2DAIxdU" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxdW" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxdT" role="19SJt6">
+                          <property role="19SUeA" value="De Staatssecretaris van Economische Zaken en Klimaat, M.C.G. Keijzer" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3v$GAi" id="_ks2DAIxdX" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/113" />
+                    <property role="3Fg1Gr" value="113" />
+                    <ref role="3v$GAj" node="_ks2DAIxdY" resolve="Bijlage 1 behorende bij artikel 1 van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19: activiteiten met de daarbij behorende code van de standaard bedrijfsindeling (SBI-code)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3v_WGz" id="_ks2DAIx9q" role="2XxnGM">
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/13" />
+          <property role="3Fg1Gr" value="13" />
+          <property role="TrG5h" value="Artikel 1 (begripsbepalingen)" />
+          <ref role="dW5wK" node="_ks2DAIx8R" resolve="31-03-2020 t/m 14-04-2020" />
+          <node concept="3MKX5i" id="_ks2DAIx9r" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/15" />
+            <property role="3Fg1Gr" value="15" />
+            <node concept="1P5Shq" id="_ks2DAIx9t" role="2qTud8">
+              <node concept="1P5VML" id="_ks2DAIx9v" role="19SJt6" />
+              <node concept="1P5VML" id="_ks2DAIx9s" role="19SJt6">
+                <property role="19SUeA" value="In deze beleidsregel wordt verstaan onder:" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="_ks2DAIx9w" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/16" />
+            <property role="3Fg1Gr" value="16" />
+            <node concept="3MKX5h" id="_ks2DAIx9x" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/17" />
+              <property role="3Fg1Gr" value="17" />
+              <node concept="3MKX5i" id="_ks2DAIx9y" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/18" />
+                <property role="3Fg1Gr" value="18" />
+                <node concept="1P5Shq" id="_ks2DAIx9$" role="2qTud8">
+                  <node concept="1P5VML" id="_ks2DAIx9A" role="19SJt6" />
+                  <node concept="1P5VML" id="_ks2DAIx9z" role="19SJt6">
+                    <property role="19SUeA" value="algemene de-minimisverordening: verordening (EU) nr. 1407/2013 van de Commissie van 18 december 2013 betreffende de toepassing van de artikelen 107 en 108 van het Verdrag betreffende de werking van de Europese Unie op de-minimissteun (PbEU 2013, L 352);" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="_ks2DAIx9B" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/19" />
+              <property role="3Fg1Gr" value="19" />
+              <node concept="3MKX5i" id="_ks2DAIx9C" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/20" />
+                <property role="3Fg1Gr" value="20" />
+                <node concept="1P5Shq" id="_ks2DAIx9E" role="2qTud8">
+                  <node concept="1P5VML" id="_ks2DAIx9G" role="19SJt6" />
+                  <node concept="1P5VML" id="_ks2DAIx9D" role="19SJt6">
+                    <property role="19SUeA" value="gedupeerde onderneming: in Nederland gevestigde onderneming als bedoeld in artikel 5 van de Handelsregisterwet 2007 , niet zijnde een overheidsbedrijf:" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3MKX5h" id="_ks2DAIx9H" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/21" />
+                <property role="3Fg1Gr" value="21" />
+                <node concept="3MKX5h" id="_ks2DAIx9I" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/22" />
+                  <property role="3Fg1Gr" value="22" />
+                  <node concept="3Fnoml" id="_ks2DAIx9J" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/23" />
+                    <property role="3Fg1Gr" value="23" />
+                    <property role="3Fnomm" value="a." />
+                    <node concept="3MKX5i" id="_ks2DAIx9K" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/23" />
+                      <property role="3Fg1Gr" value="23" />
+                      <node concept="1P5Shq" id="_ks2DAIx9M" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIx9O" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIx9L" role="19SJt6">
+                          <property role="19SUeA" value="die op 15 maart 2020 in het handelsregister stond ingeschreven onder een hoofdactiviteit die in bijlage 1 is opgenomen, met de daarbij behorende code van de Standaard Bedrijfsindeling;" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3MKX5h" id="_ks2DAIx9P" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/24" />
+                  <property role="3Fg1Gr" value="24" />
+                  <node concept="3Fnoml" id="_ks2DAIx9Q" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/25" />
+                    <property role="3Fg1Gr" value="25" />
+                    <property role="3Fnomm" value="b." />
+                    <node concept="3MKX5i" id="_ks2DAIx9R" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/25" />
+                      <property role="3Fg1Gr" value="25" />
+                      <node concept="1P5Shq" id="_ks2DAIx9T" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIx9V" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIx9S" role="19SJt6">
+                          <property role="19SUeA" value="waar ten hoogste 250 personen werkzaam zijn, blijkend uit de inschrijving in het handelsregister op 15 maart 2020; en" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3MKX5h" id="_ks2DAIx9W" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/26" />
+                  <property role="3Fg1Gr" value="26" />
+                  <node concept="3Fnoml" id="_ks2DAIx9X" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/27" />
+                    <property role="3Fg1Gr" value="27" />
+                    <property role="3Fnomm" value="c." />
+                    <node concept="3MKX5i" id="_ks2DAIx9Y" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/27" />
+                      <property role="3Fg1Gr" value="27" />
+                      <node concept="1P5Shq" id="_ks2DAIxa0" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxa2" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIx9Z" role="19SJt6">
+                          <property role="19SUeA" value="die:" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxa3" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/28" />
+                    <property role="3Fg1Gr" value="28" />
+                    <node concept="3MKX5h" id="_ks2DAIxa4" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/29" />
+                      <property role="3Fg1Gr" value="29" />
+                      <node concept="3Fnoml" id="_ks2DAIxa5" role="3MKX6F">
+                        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/30" />
+                        <property role="3Fg1Gr" value="30" />
+                        <property role="3Fnomm" value="1°." />
+                        <node concept="3MKX5i" id="_ks2DAIxa6" role="3MKX6F">
+                          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/30" />
+                          <property role="3Fg1Gr" value="30" />
+                          <node concept="1P5Shq" id="_ks2DAIxa8" role="2qTud8">
+                            <node concept="1P5VML" id="_ks2DAIxaa" role="19SJt6" />
+                            <node concept="1P5VML" id="_ks2DAIxa7" role="19SJt6">
+                              <property role="19SUeA" value="voor zover het een onderneming, niet zijnde een horecaonderneming, betreft ten minste één vestiging heeft met een ander adres dan het privéadres van de eigenaar of eigenaren van de onderneming; of" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3MKX5h" id="_ks2DAIxab" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/31" />
+                      <property role="3Fg1Gr" value="31" />
+                      <node concept="3Fnoml" id="_ks2DAIxac" role="3MKX6F">
+                        <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/32" />
+                        <property role="3Fg1Gr" value="32" />
+                        <property role="3Fnomm" value="2°." />
+                        <node concept="3MKX5i" id="_ks2DAIxad" role="3MKX6F">
+                          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/32" />
+                          <property role="3Fg1Gr" value="32" />
+                          <node concept="1P5Shq" id="_ks2DAIxaf" role="2qTud8">
+                            <node concept="1P5VML" id="_ks2DAIxah" role="19SJt6" />
+                            <node concept="1P5VML" id="_ks2DAIxae" role="19SJt6">
+                              <property role="19SUeA" value="voor zover het een horecaonderneming betreft ten minste één horecagelegenheid huurt, pacht of in eigendom heeft;" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="_ks2DAIxai" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/33" />
+              <property role="3Fg1Gr" value="33" />
+              <node concept="3MKX5i" id="_ks2DAIxaj" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/34" />
+                <property role="3Fg1Gr" value="34" />
+                <node concept="1P5Shq" id="_ks2DAIxal" role="2qTud8">
+                  <node concept="1P5VML" id="_ks2DAIxan" role="19SJt6" />
+                  <node concept="1P5VML" id="_ks2DAIxak" role="19SJt6">
+                    <property role="19SUeA" value="handelsregister: handelsregister als bedoeld in artikel 2 van de Handelsregisterwet 2007 ;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="_ks2DAIxao" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/35" />
+              <property role="3Fg1Gr" value="35" />
+              <node concept="3MKX5i" id="_ks2DAIxap" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/36" />
+                <property role="3Fg1Gr" value="36" />
+                <node concept="1P5Shq" id="_ks2DAIxar" role="2qTud8">
+                  <node concept="1P5VML" id="_ks2DAIxat" role="19SJt6" />
+                  <node concept="1P5VML" id="_ks2DAIxaq" role="19SJt6">
+                    <property role="19SUeA" value="horecaonderneming: onderneming die op 15 maart 2020 stond ingeschreven in het handelsregister onder de code 56.10.1, 56.10.2 of 56.30 van de Standaard Bedrijfsindeling;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="_ks2DAIxau" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/37" />
+              <property role="3Fg1Gr" value="37" />
+              <node concept="3MKX5i" id="_ks2DAIxav" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/38" />
+                <property role="3Fg1Gr" value="38" />
+                <node concept="1P5Shq" id="_ks2DAIxax" role="2qTud8">
+                  <node concept="1P5VML" id="_ks2DAIxaz" role="19SJt6" />
+                  <node concept="1P5VML" id="_ks2DAIxaw" role="19SJt6">
+                    <property role="19SUeA" value="minister: Minister van Economische Zaken en Klimaat;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="_ks2DAIxa$" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/39" />
+              <property role="3Fg1Gr" value="39" />
+              <node concept="3MKX5i" id="_ks2DAIxa_" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/40" />
+                <property role="3Fg1Gr" value="40" />
+                <node concept="1P5Shq" id="_ks2DAIxaB" role="2qTud8">
+                  <node concept="1P5VML" id="_ks2DAIxaD" role="19SJt6" />
+                  <node concept="1P5VML" id="_ks2DAIxaA" role="19SJt6">
+                    <property role="19SUeA" value="overheidsbedrijf: overheidsbedrijf als bedoeld in artikel 25g, eerste lid, van de Mededingingswet ;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="_ks2DAIxaE" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/41" />
+              <property role="3Fg1Gr" value="41" />
+              <node concept="3MKX5i" id="_ks2DAIxaF" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/42" />
+                <property role="3Fg1Gr" value="42" />
+                <node concept="1P5Shq" id="_ks2DAIxaH" role="2qTud8">
+                  <node concept="1P5VML" id="_ks2DAIxaJ" role="19SJt6" />
+                  <node concept="1P5VML" id="_ks2DAIxaG" role="19SJt6">
+                    <property role="19SUeA" value="verklaring de-minimissteun: verklaring van de gedupeerde onderneming waarin deze bevestigt dat de tegemoetkoming niet zal leiden tot een overschrijding van het de-minimisplafond, bedoeld in artikel 3, tweede lid, van de algemene de-minimisverordening;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="_ks2DAIxaK" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/43" />
+              <property role="3Fg1Gr" value="43" />
+              <node concept="3MKX5i" id="_ks2DAIxaL" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/44" />
+                <property role="3Fg1Gr" value="44" />
+                <node concept="1P5Shq" id="_ks2DAIxaN" role="2qTud8">
+                  <node concept="1P5VML" id="_ks2DAIxaP" role="19SJt6" />
+                  <node concept="1P5VML" id="_ks2DAIxaM" role="19SJt6">
+                    <property role="19SUeA" value="vestiging: vestiging als bedoeld in artikel 1, eerste lid, onderdeel j, van de Handelsregisterwet 2007 ." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3v_WGz" id="_ks2DAIxaR" role="2XxnGM">
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/45" />
+          <property role="3Fg1Gr" value="45" />
+          <property role="TrG5h" value="Artikel 2 (verstrekking en hoogte tegemoetkoming)" />
+          <ref role="dW5wK" node="_ks2DAIx8R" resolve="31-03-2020 t/m 14-04-2020" />
+          <node concept="3MKX5h" id="_ks2DAIxaS" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/47" />
+            <property role="3Fg1Gr" value="47" />
+            <node concept="3Fnoml" id="_ks2DAIxaT" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/48" />
+              <property role="3Fg1Gr" value="48" />
+              <property role="3Fnomm" value="1" />
+              <node concept="3MKX5i" id="_ks2DAIxaU" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/48" />
+                <property role="3Fg1Gr" value="48" />
+                <node concept="1P5Shq" id="_ks2DAIxaW" role="2qTud8">
+                  <node concept="1P5VML" id="_ks2DAIxaY" role="19SJt6" />
+                  <node concept="1P5VML" id="_ks2DAIxaV" role="19SJt6">
+                    <property role="19SUeA" value="De minister verstrekt op aanvraag een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020:" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="_ks2DAIxaZ" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/49" />
+              <property role="3Fg1Gr" value="49" />
+              <node concept="3MKX5h" id="_ks2DAIxb0" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/50" />
+                <property role="3Fg1Gr" value="50" />
+                <node concept="3Fnoml" id="_ks2DAIxb1" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/51" />
+                  <property role="3Fg1Gr" value="51" />
+                  <property role="3Fnomm" value="a." />
+                  <node concept="3MKX5i" id="_ks2DAIxb2" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/51" />
+                    <property role="3Fg1Gr" value="51" />
+                    <node concept="1P5Shq" id="_ks2DAIxb4" role="2qTud8">
+                      <node concept="1P5VML" id="_ks2DAIxb6" role="19SJt6" />
+                      <node concept="1P5VML" id="_ks2DAIxb3" role="19SJt6">
+                        <property role="19SUeA" value="ten minste € 4000,– aan omzetverlies te lijden als gevolg van de maatregelen ter bestrijding van de verdere verspreiding van COVID-19;" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3MKX5h" id="_ks2DAIxb7" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/52" />
+                <property role="3Fg1Gr" value="52" />
+                <node concept="3Fnoml" id="_ks2DAIxb8" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/53" />
+                  <property role="3Fg1Gr" value="53" />
+                  <property role="3Fnomm" value="b." />
+                  <node concept="3MKX5i" id="_ks2DAIxb9" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/53" />
+                    <property role="3Fg1Gr" value="53" />
+                    <node concept="1P5Shq" id="_ks2DAIxbb" role="2qTud8">
+                      <node concept="1P5VML" id="_ks2DAIxbd" role="19SJt6" />
+                      <node concept="1P5VML" id="_ks2DAIxba" role="19SJt6">
+                        <property role="19SUeA" value="ten minste € 4000,– aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19." />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="_ks2DAIxbe" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/54" />
+            <property role="3Fg1Gr" value="54" />
+            <node concept="3Fnoml" id="_ks2DAIxbf" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/55" />
+              <property role="3Fg1Gr" value="55" />
+              <property role="3Fnomm" value="2" />
+              <node concept="3MKX5i" id="_ks2DAIxbg" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/55" />
+                <property role="3Fg1Gr" value="55" />
+                <node concept="1P5Shq" id="_ks2DAIxbi" role="2qTud8">
+                  <node concept="1P5VML" id="_ks2DAIxbk" role="19SJt6" />
+                  <node concept="1P5VML" id="_ks2DAIxbh" role="19SJt6">
+                    <property role="19SUeA" value="De tegemoetkoming bedraagt € 4000 per gedupeerde onderneming." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3v_WGz" id="_ks2DAIxbm" role="2XxnGM">
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/56" />
+          <property role="3Fg1Gr" value="56" />
+          <property role="TrG5h" value="Artikel 3 (afwijzingsgronden)" />
+          <ref role="dW5wK" node="_ks2DAIx8R" resolve="31-03-2020 t/m 14-04-2020" />
+          <node concept="3MKX5i" id="_ks2DAIxbn" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/58" />
+            <property role="3Fg1Gr" value="58" />
+            <node concept="1P5Shq" id="_ks2DAIxbp" role="2qTud8">
+              <node concept="1P5VML" id="_ks2DAIxbr" role="19SJt6" />
+              <node concept="1P5VML" id="_ks2DAIxbo" role="19SJt6">
+                <property role="19SUeA" value="De minister beslist afwijzend op een aanvraag indien:" />
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="_ks2DAIxbs" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/59" />
+            <property role="3Fg1Gr" value="59" />
+            <node concept="3MKX5h" id="_ks2DAIxbt" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/60" />
+              <property role="3Fg1Gr" value="60" />
+              <node concept="3Fnoml" id="_ks2DAIxbu" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/61" />
+                <property role="3Fg1Gr" value="61" />
+                <property role="3Fnomm" value="a." />
+                <node concept="3MKX5i" id="_ks2DAIxbv" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/61" />
+                  <property role="3Fg1Gr" value="61" />
+                  <node concept="1P5Shq" id="_ks2DAIxbx" role="2qTud8">
+                    <node concept="1P5VML" id="_ks2DAIxbz" role="19SJt6" />
+                    <node concept="1P5VML" id="_ks2DAIxbw" role="19SJt6">
+                      <property role="19SUeA" value="de aanvraag niet voldoet aan de bij deze beleidsregel gestelde eisen;" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="_ks2DAIxb$" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/62" />
+              <property role="3Fg1Gr" value="62" />
+              <node concept="3Fnoml" id="_ks2DAIxb_" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/63" />
+                <property role="3Fg1Gr" value="63" />
+                <property role="3Fnomm" value="b." />
+                <node concept="3MKX5i" id="_ks2DAIxbA" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/63" />
+                  <property role="3Fg1Gr" value="63" />
+                  <node concept="1P5Shq" id="_ks2DAIxbC" role="2qTud8">
+                    <node concept="1P5VML" id="_ks2DAIxbE" role="19SJt6" />
+                    <node concept="1P5VML" id="_ks2DAIxbB" role="19SJt6">
+                      <property role="19SUeA" value="de gedupeerde onderneming in staat van faillissement verkeert dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming is ingediend;" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="_ks2DAIxbF" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/64" />
+              <property role="3Fg1Gr" value="64" />
+              <node concept="3Fnoml" id="_ks2DAIxbG" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/65" />
+                <property role="3Fg1Gr" value="65" />
+                <property role="3Fnomm" value="c." />
+                <node concept="3MKX5i" id="_ks2DAIxbH" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/65" />
+                  <property role="3Fg1Gr" value="65" />
+                  <node concept="1P5Shq" id="_ks2DAIxbJ" role="2qTud8">
+                    <node concept="1P5VML" id="_ks2DAIxbL" role="19SJt6" />
+                    <node concept="1P5VML" id="_ks2DAIxbI" role="19SJt6">
+                      <property role="19SUeA" value="de tegemoetkoming niet verstrekt kan worden op grond van de algemene de-minimisverordening." />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3v_WGz" id="_ks2DAIxbN" role="2XxnGM">
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/66" />
+          <property role="3Fg1Gr" value="66" />
+          <property role="TrG5h" value="Artikel 4 (informatieverplichtingen bij aanvraag en aanvraagperiode)" />
+          <ref role="dW5wK" node="_ks2DAIx8R" resolve="31-03-2020 t/m 14-04-2020" />
+          <node concept="3MKX5h" id="_ks2DAIxbO" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/68" />
+            <property role="3Fg1Gr" value="68" />
+            <node concept="3Fnoml" id="_ks2DAIxbP" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/69" />
+              <property role="3Fg1Gr" value="69" />
+              <property role="3Fnomm" value="1" />
+              <node concept="3MKX5i" id="_ks2DAIxbQ" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/69" />
+                <property role="3Fg1Gr" value="69" />
+                <node concept="1P5Shq" id="_ks2DAIxbS" role="2qTud8">
+                  <node concept="1P5VML" id="_ks2DAIxbU" role="19SJt6" />
+                  <node concept="1P5VML" id="_ks2DAIxbR" role="19SJt6">
+                    <property role="19SUeA" value="Een aanvraag wordt ingediend met gebruikmaking van een door de minister beschikbaar gesteld middel." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="_ks2DAIxbV" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/70" />
+            <property role="3Fg1Gr" value="70" />
+            <node concept="3Fnoml" id="_ks2DAIxbW" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/71" />
+              <property role="3Fg1Gr" value="71" />
+              <property role="3Fnomm" value="2" />
+              <node concept="3MKX5i" id="_ks2DAIxbX" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/71" />
+                <property role="3Fg1Gr" value="71" />
+                <node concept="1P5Shq" id="_ks2DAIxbZ" role="2qTud8">
+                  <node concept="1P5VML" id="_ks2DAIxc1" role="19SJt6" />
+                  <node concept="1P5VML" id="_ks2DAIxbY" role="19SJt6">
+                    <property role="19SUeA" value="Een aanvraag omvat in ieder geval:" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MKX5h" id="_ks2DAIxc2" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/72" />
+              <property role="3Fg1Gr" value="72" />
+              <node concept="3MKX5h" id="_ks2DAIxc3" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/73" />
+                <property role="3Fg1Gr" value="73" />
+                <node concept="3Fnoml" id="_ks2DAIxc4" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/74" />
+                  <property role="3Fg1Gr" value="74" />
+                  <property role="3Fnomm" value="a." />
+                  <node concept="3MKX5i" id="_ks2DAIxc5" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/74" />
+                    <property role="3Fg1Gr" value="74" />
+                    <node concept="1P5Shq" id="_ks2DAIxc7" role="2qTud8">
+                      <node concept="1P5VML" id="_ks2DAIxc9" role="19SJt6" />
+                      <node concept="1P5VML" id="_ks2DAIxc6" role="19SJt6">
+                        <property role="19SUeA" value="gegevens over de gedupeerde onderneming, waaronder het nummer waarmee de gedupeerde onderneming geregistreerd is bij de Kamer van Koophandel, het post- en bezoekadres en het rekeningnummer dat op naam van de gedupeerde onderneming staat;" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3MKX5h" id="_ks2DAIxca" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/75" />
+                <property role="3Fg1Gr" value="75" />
+                <node concept="3Fnoml" id="_ks2DAIxcb" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/76" />
+                  <property role="3Fg1Gr" value="76" />
+                  <property role="3Fnomm" value="b." />
+                  <node concept="3MKX5i" id="_ks2DAIxcc" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/76" />
+                    <property role="3Fg1Gr" value="76" />
+                    <node concept="1P5Shq" id="_ks2DAIxce" role="2qTud8">
+                      <node concept="1P5VML" id="_ks2DAIxcg" role="19SJt6" />
+                      <node concept="1P5VML" id="_ks2DAIxcd" role="19SJt6">
+                        <property role="19SUeA" value="gegevens over de contactpersoon bij de gedupeerde onderneming, waaronder de naam, het telefoonnummer en het e-mailadres;" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3MKX5h" id="_ks2DAIxch" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/77" />
+                <property role="3Fg1Gr" value="77" />
+                <node concept="3Fnoml" id="_ks2DAIxci" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/78" />
+                  <property role="3Fg1Gr" value="78" />
+                  <property role="3Fnomm" value="c." />
+                  <node concept="3MKX5i" id="_ks2DAIxcj" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/78" />
+                    <property role="3Fg1Gr" value="78" />
+                    <node concept="1P5Shq" id="_ks2DAIxcl" role="2qTud8">
+                      <node concept="1P5VML" id="_ks2DAIxcn" role="19SJt6" />
+                      <node concept="1P5VML" id="_ks2DAIxck" role="19SJt6">
+                        <property role="19SUeA" value="een verklaring dat de gedupeerde onderneming geen overheidsbedrijf is;" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3MKX5h" id="_ks2DAIxco" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/79" />
+                <property role="3Fg1Gr" value="79" />
+                <node concept="3Fnoml" id="_ks2DAIxcp" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/80" />
+                  <property role="3Fg1Gr" value="80" />
+                  <property role="3Fnomm" value="d." />
+                  <node concept="3MKX5i" id="_ks2DAIxcq" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/80" />
+                    <property role="3Fg1Gr" value="80" />
+                    <node concept="1P5Shq" id="_ks2DAIxcs" role="2qTud8">
+                      <node concept="1P5VML" id="_ks2DAIxcu" role="19SJt6" />
+                      <node concept="1P5VML" id="_ks2DAIxcr" role="19SJt6">
+                        <property role="19SUeA" value="een verklaring de-minimissteun;" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3MKX5h" id="_ks2DAIxcv" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/81" />
+                <property role="3Fg1Gr" value="81" />
+                <node concept="3Fnoml" id="_ks2DAIxcw" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/82" />
+                  <property role="3Fg1Gr" value="82" />
+                  <property role="3Fnomm" value="e." />
+                  <node concept="3MKX5i" id="_ks2DAIxcx" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/82" />
+                    <property role="3Fg1Gr" value="82" />
+                    <node concept="1P5Shq" id="_ks2DAIxcz" role="2qTud8">
+                      <node concept="1P5VML" id="_ks2DAIxc_" role="19SJt6" />
+                      <node concept="1P5VML" id="_ks2DAIxcy" role="19SJt6">
+                        <property role="19SUeA" value="een verklaring dat de gedupeerde onderneming op het moment van aanvraag voldoet aan de bij deze beleidsregel gestelde eisen;" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3MKX5h" id="_ks2DAIxcA" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/83" />
+                <property role="3Fg1Gr" value="83" />
+                <node concept="3Fnoml" id="_ks2DAIxcB" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/84" />
+                  <property role="3Fg1Gr" value="84" />
+                  <property role="3Fnomm" value="f." />
+                  <node concept="3MKX5i" id="_ks2DAIxcC" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/84" />
+                    <property role="3Fg1Gr" value="84" />
+                    <node concept="1P5Shq" id="_ks2DAIxcE" role="2qTud8">
+                      <node concept="1P5VML" id="_ks2DAIxcG" role="19SJt6" />
+                      <node concept="1P5VML" id="_ks2DAIxcD" role="19SJt6">
+                        <property role="19SUeA" value="een verklaring waarin de gedupeerde onderneming aangeeft dat de onderneming in de periode van 16 maart 2020 tot en met 15 juni 2020 een omzetverlies verwacht te lijden van ten minste € 4000,–; en" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3MKX5h" id="_ks2DAIxcH" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/85" />
+                <property role="3Fg1Gr" value="85" />
+                <node concept="3Fnoml" id="_ks2DAIxcI" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/86" />
+                  <property role="3Fg1Gr" value="86" />
+                  <property role="3Fnomm" value="g." />
+                  <node concept="3MKX5i" id="_ks2DAIxcJ" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/86" />
+                    <property role="3Fg1Gr" value="86" />
+                    <node concept="1P5Shq" id="_ks2DAIxcL" role="2qTud8">
+                      <node concept="1P5VML" id="_ks2DAIxcN" role="19SJt6" />
+                      <node concept="1P5VML" id="_ks2DAIxcK" role="19SJt6">
+                        <property role="19SUeA" value="een verklaring waarin de gedupeerde onderneming aangeeft dat de onderneming in de periode van 16 maart 2020 tot en met 15 juni 2020 verwacht ten minste € 4000,– aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19." />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="_ks2DAIxcO" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/87" />
+            <property role="3Fg1Gr" value="87" />
+            <node concept="3Fnoml" id="_ks2DAIxcP" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/88" />
+              <property role="3Fg1Gr" value="88" />
+              <property role="3Fnomm" value="3" />
+              <node concept="3MKX5i" id="_ks2DAIxcQ" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/88" />
+                <property role="3Fg1Gr" value="88" />
+                <node concept="1P5Shq" id="_ks2DAIxcS" role="2qTud8">
+                  <node concept="1P5VML" id="_ks2DAIxcU" role="19SJt6" />
+                  <node concept="1P5VML" id="_ks2DAIxcR" role="19SJt6">
+                    <property role="19SUeA" value="Een aanvraag kan worden ingediend in de periode van 27 maart 2020 tot en met 26 juni 2020." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3v_WGz" id="_ks2DAIxcW" role="2XxnGM">
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/89" />
+          <property role="3Fg1Gr" value="89" />
+          <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
+          <ref role="dW5wK" node="_ks2DAIx8R" resolve="31-03-2020 t/m 14-04-2020" />
+          <node concept="3MKX5i" id="_ks2DAIxcX" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/91" />
+            <property role="3Fg1Gr" value="91" />
+            <node concept="1P5Shq" id="_ks2DAIxcZ" role="2qTud8">
+              <node concept="1P5VML" id="_ks2DAIxd1" role="19SJt6" />
+              <node concept="1P5VML" id="_ks2DAIxcY" role="19SJt6">
+                <property role="19SUeA" value="De minister beslist binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen." />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3v_WGz" id="_ks2DAIxd3" role="2XxnGM">
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/92" />
+          <property role="3Fg1Gr" value="92" />
+          <property role="TrG5h" value="Artikel 6 (aanpassing tegemoetkoming achteraf)" />
+          <ref role="dW5wK" node="_ks2DAIx8R" resolve="31-03-2020 t/m 14-04-2020" />
+          <node concept="3MKX5i" id="_ks2DAIxd4" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/94" />
+            <property role="3Fg1Gr" value="94" />
+            <node concept="1P5Shq" id="_ks2DAIxd6" role="2qTud8">
+              <node concept="1P5VML" id="_ks2DAIxd8" role="19SJt6" />
+              <node concept="1P5VML" id="_ks2DAIxd5" role="19SJt6">
+                <property role="19SUeA" value="De minister kan de hoogte van de tegemoetkoming binnen vijf jaar na de verstrekking herzien dan wel de beschikking tot de tegemoetkoming intrekken, indien blijkt dat de tegemoetkoming, door onjuiste gegevensverstrekking door de gedupeerde onderneming, niet in overeenstemming met deze beleidsregel is verstrekt." />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3v_WGz" id="_ks2DAIxda" role="2XxnGM">
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/95" />
+          <property role="3Fg1Gr" value="95" />
+          <property role="TrG5h" value="Artikel 7 (staatssteun)" />
+          <ref role="dW5wK" node="_ks2DAIx8R" resolve="31-03-2020 t/m 14-04-2020" />
+          <node concept="3MKX5i" id="_ks2DAIxdb" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/97" />
+            <property role="3Fg1Gr" value="97" />
+            <node concept="1P5Shq" id="_ks2DAIxdd" role="2qTud8">
+              <node concept="1P5VML" id="_ks2DAIxdf" role="19SJt6" />
+              <node concept="1P5VML" id="_ks2DAIxdc" role="19SJt6">
+                <property role="19SUeA" value="De tegemoetkoming, bedoeld in artikel 2 , bevat staatssteun en wordt gerechtvaardigd door de algemene de-minimisverordening." />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3v_WGz" id="_ks2DAIxdh" role="2XxnGM">
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/98" />
+          <property role="3Fg1Gr" value="98" />
+          <property role="TrG5h" value="Artikel 8 (inwerkingtreding en vervaldatum)" />
+          <ref role="dW5wK" node="_ks2DAIx8R" resolve="31-03-2020 t/m 14-04-2020" />
+          <node concept="3MKX5h" id="_ks2DAIxdi" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/100" />
+            <property role="3Fg1Gr" value="100" />
+            <node concept="3Fnoml" id="_ks2DAIxdj" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/101" />
+              <property role="3Fg1Gr" value="101" />
+              <property role="3Fnomm" value="1" />
+              <node concept="3MKX5i" id="_ks2DAIxdk" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/101" />
+                <property role="3Fg1Gr" value="101" />
+                <node concept="1P5Shq" id="_ks2DAIxdm" role="2qTud8">
+                  <node concept="1P5VML" id="_ks2DAIxdo" role="19SJt6" />
+                  <node concept="1P5VML" id="_ks2DAIxdl" role="19SJt6">
+                    <property role="19SUeA" value="Deze beleidsregel treedt in werking met ingang van de dag na de datum van uitgifte van de Staatscourant waarin zij wordt geplaatst, en werkt terug tot en met 27 maart 2020." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3MKX5h" id="_ks2DAIxdp" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/102" />
+            <property role="3Fg1Gr" value="102" />
+            <node concept="3Fnoml" id="_ks2DAIxdq" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/103" />
+              <property role="3Fg1Gr" value="103" />
+              <property role="3Fnomm" value="2" />
+              <node concept="3MKX5i" id="_ks2DAIxdr" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/103" />
+                <property role="3Fg1Gr" value="103" />
+                <node concept="1P5Shq" id="_ks2DAIxdt" role="2qTud8">
+                  <node concept="1P5VML" id="_ks2DAIxdv" role="19SJt6" />
+                  <node concept="1P5VML" id="_ks2DAIxds" role="19SJt6">
+                    <property role="19SUeA" value="Deze beleidsregel vervalt met ingang van 1 januari 2021, met dien verstande dat de beleidsregel van toepassing blijft op aanvragen om tegemoetkoming die uiterlijk 26 juni 2020 zijn ingediend, dan wel op tegemoetkomingen die voor 1 januari 2021 zijn verstrekt." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3v_WGz" id="_ks2DAIxdx" role="2XxnGM">
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/104" />
+          <property role="3Fg1Gr" value="104" />
+          <property role="TrG5h" value="Artikel 9 (citeertitel)" />
+          <ref role="dW5wK" node="_ks2DAIx8R" resolve="31-03-2020 t/m 14-04-2020" />
+          <node concept="3MKX5i" id="_ks2DAIxdy" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/106" />
+            <property role="3Fg1Gr" value="106" />
+            <node concept="1P5Shq" id="_ks2DAIxd$" role="2qTud8">
+              <node concept="1P5VML" id="_ks2DAIxdA" role="19SJt6" />
+              <node concept="1P5VML" id="_ks2DAIxdz" role="19SJt6">
+                <property role="19SUeA" value="Deze beleidsregel wordt aangehaald als: Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19." />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3v_WGz" id="_ks2DAIxdY" role="2XxnGM">
+          <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/113" />
+          <property role="3Fg1Gr" value="113" />
+          <property role="TrG5h" value="Bijlage 1 behorende bij artikel 1 van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19: activiteiten met de daarbij behorende code van de standaard bedrijfsindeling (SBI-code)" />
+          <ref role="dW5wK" node="_ks2DAIx8R" resolve="31-03-2020 t/m 14-04-2020" />
+          <node concept="tTTZq" id="_ks2DAIxdZ" role="3MKX6F">
+            <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/115" />
+            <property role="3Fg1Gr" value="115" />
+            <node concept="tTTxs" id="_ks2DAIxe0" role="3MKX6F">
+              <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/116" />
+              <property role="3Fg1Gr" value="116" />
+              <node concept="tTTw8" id="_ks2DAIxe1" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/117" />
+                <property role="3Fg1Gr" value="117" />
+                <node concept="tTTz$" id="_ks2DAIxe2" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/118" />
+                  <property role="3Fg1Gr" value="118" />
+                  <node concept="3MKX5h" id="_ks2DAIxe3" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/119" />
+                    <property role="3Fg1Gr" value="119" />
+                    <node concept="3MKX5i" id="_ks2DAIxe4" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/120" />
+                      <property role="3Fg1Gr" value="120" />
+                      <node concept="1P5Shq" id="_ks2DAIxe6" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxe8" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxe5" role="19SJt6">
+                          <property role="19SUeA" value="Omschrijving activiteit" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxe9" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/121" />
+                    <property role="3Fg1Gr" value="121" />
+                    <node concept="3MKX5i" id="_ks2DAIxea" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/122" />
+                      <property role="3Fg1Gr" value="122" />
+                      <node concept="1P5Shq" id="_ks2DAIxec" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxee" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxeb" role="19SJt6">
+                          <property role="19SUeA" value="SBI-code" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="tP3MK" id="_ks2DAIxef" role="3MKX6F">
+                <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/123" />
+                <property role="3Fg1Gr" value="123" />
+                <node concept="tTTz$" id="_ks2DAIxeg" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/124" />
+                  <property role="3Fg1Gr" value="124" />
+                  <node concept="3MKX5h" id="_ks2DAIxeh" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/125" />
+                    <property role="3Fg1Gr" value="125" />
+                    <node concept="3MKX5i" id="_ks2DAIxei" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/126" />
+                      <property role="3Fg1Gr" value="126" />
+                      <node concept="1P5Shq" id="_ks2DAIxek" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxem" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxej" role="19SJt6">
+                          <property role="19SUeA" value="Hotel-restaurants" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxen" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/127" />
+                    <property role="3Fg1Gr" value="127" />
+                    <node concept="3MKX5i" id="_ks2DAIxeo" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/128" />
+                      <property role="3Fg1Gr" value="128" />
+                      <node concept="1P5Shq" id="_ks2DAIxeq" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxes" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxep" role="19SJt6">
+                          <property role="19SUeA" value="55.10.1" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxet" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/129" />
+                  <property role="3Fg1Gr" value="129" />
+                  <node concept="3MKX5h" id="_ks2DAIxeu" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/130" />
+                    <property role="3Fg1Gr" value="130" />
+                    <node concept="3MKX5i" id="_ks2DAIxev" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/131" />
+                      <property role="3Fg1Gr" value="131" />
+                      <node concept="1P5Shq" id="_ks2DAIxex" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxez" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxew" role="19SJt6">
+                          <property role="19SUeA" value="Hotels (geen hotel-restaurants), pensions en conferentieoorden" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxe$" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/132" />
+                    <property role="3Fg1Gr" value="132" />
+                    <node concept="3MKX5i" id="_ks2DAIxe_" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/133" />
+                      <property role="3Fg1Gr" value="133" />
+                      <node concept="1P5Shq" id="_ks2DAIxeB" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxeD" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxeA" role="19SJt6">
+                          <property role="19SUeA" value="55.10.2" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxeE" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/134" />
+                  <property role="3Fg1Gr" value="134" />
+                  <node concept="3MKX5h" id="_ks2DAIxeF" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/135" />
+                    <property role="3Fg1Gr" value="135" />
+                    <node concept="3MKX5i" id="_ks2DAIxeG" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/136" />
+                      <property role="3Fg1Gr" value="136" />
+                      <node concept="1P5Shq" id="_ks2DAIxeI" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxeK" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxeH" role="19SJt6">
+                          <property role="19SUeA" value="Restaurants" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxeL" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/137" />
+                    <property role="3Fg1Gr" value="137" />
+                    <node concept="3MKX5i" id="_ks2DAIxeM" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/138" />
+                      <property role="3Fg1Gr" value="138" />
+                      <node concept="1P5Shq" id="_ks2DAIxeO" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxeQ" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxeN" role="19SJt6">
+                          <property role="19SUeA" value="56.10.1" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxeR" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/139" />
+                  <property role="3Fg1Gr" value="139" />
+                  <node concept="3MKX5h" id="_ks2DAIxeS" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/140" />
+                    <property role="3Fg1Gr" value="140" />
+                    <node concept="3MKX5i" id="_ks2DAIxeT" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/141" />
+                      <property role="3Fg1Gr" value="141" />
+                      <node concept="1P5Shq" id="_ks2DAIxeV" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxeX" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxeU" role="19SJt6">
+                          <property role="19SUeA" value="Fastfoodrestaurants, cafetaria’s, ijssalons, eetkramen e.d." />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxeY" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/142" />
+                    <property role="3Fg1Gr" value="142" />
+                    <node concept="3MKX5i" id="_ks2DAIxeZ" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/143" />
+                      <property role="3Fg1Gr" value="143" />
+                      <node concept="1P5Shq" id="_ks2DAIxf1" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxf3" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxf0" role="19SJt6">
+                          <property role="19SUeA" value="56.10.2" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxf4" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/144" />
+                  <property role="3Fg1Gr" value="144" />
+                  <node concept="3MKX5h" id="_ks2DAIxf5" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/145" />
+                    <property role="3Fg1Gr" value="145" />
+                    <node concept="3MKX5i" id="_ks2DAIxf6" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/146" />
+                      <property role="3Fg1Gr" value="146" />
+                      <node concept="1P5Shq" id="_ks2DAIxf8" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxfa" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxf7" role="19SJt6">
+                          <property role="19SUeA" value="Eventcatering" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxfb" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/147" />
+                    <property role="3Fg1Gr" value="147" />
+                    <node concept="3MKX5i" id="_ks2DAIxfc" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/148" />
+                      <property role="3Fg1Gr" value="148" />
+                      <node concept="1P5Shq" id="_ks2DAIxfe" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxfg" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxfd" role="19SJt6">
+                          <property role="19SUeA" value="56.21" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxfh" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/149" />
+                  <property role="3Fg1Gr" value="149" />
+                  <node concept="3MKX5h" id="_ks2DAIxfi" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/150" />
+                    <property role="3Fg1Gr" value="150" />
+                    <node concept="3MKX5i" id="_ks2DAIxfj" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/151" />
+                      <property role="3Fg1Gr" value="151" />
+                      <node concept="1P5Shq" id="_ks2DAIxfl" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxfn" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxfk" role="19SJt6">
+                          <property role="19SUeA" value="Cafés" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxfo" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/152" />
+                    <property role="3Fg1Gr" value="152" />
+                    <node concept="3MKX5i" id="_ks2DAIxfp" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/153" />
+                      <property role="3Fg1Gr" value="153" />
+                      <node concept="1P5Shq" id="_ks2DAIxfr" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxft" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxfq" role="19SJt6">
+                          <property role="19SUeA" value="56.30" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxfu" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/154" />
+                  <property role="3Fg1Gr" value="154" />
+                  <node concept="3MKX5h" id="_ks2DAIxfv" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/155" />
+                    <property role="3Fg1Gr" value="155" />
+                    <node concept="3MKX5i" id="_ks2DAIxfw" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/156" />
+                      <property role="3Fg1Gr" value="156" />
+                      <node concept="1P5Shq" id="_ks2DAIxfy" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxf$" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxfx" role="19SJt6">
+                          <property role="19SUeA" value="Bioscopen" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxf_" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/157" />
+                    <property role="3Fg1Gr" value="157" />
+                    <node concept="3MKX5i" id="_ks2DAIxfA" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/158" />
+                      <property role="3Fg1Gr" value="158" />
+                      <node concept="1P5Shq" id="_ks2DAIxfC" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxfE" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxfB" role="19SJt6">
+                          <property role="19SUeA" value="59.14" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxfF" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/159" />
+                  <property role="3Fg1Gr" value="159" />
+                  <node concept="3MKX5h" id="_ks2DAIxfG" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/160" />
+                    <property role="3Fg1Gr" value="160" />
+                    <node concept="3MKX5i" id="_ks2DAIxfH" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/161" />
+                      <property role="3Fg1Gr" value="161" />
+                      <node concept="1P5Shq" id="_ks2DAIxfJ" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxfL" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxfI" role="19SJt6">
+                          <property role="19SUeA" value="Reisbemiddeling" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxfM" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/162" />
+                    <property role="3Fg1Gr" value="162" />
+                    <node concept="3MKX5i" id="_ks2DAIxfN" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/163" />
+                      <property role="3Fg1Gr" value="163" />
+                      <node concept="1P5Shq" id="_ks2DAIxfP" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxfR" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxfO" role="19SJt6">
+                          <property role="19SUeA" value="79.11.1" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxfS" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/164" />
+                  <property role="3Fg1Gr" value="164" />
+                  <node concept="3MKX5h" id="_ks2DAIxfT" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/165" />
+                    <property role="3Fg1Gr" value="165" />
+                    <node concept="3MKX5i" id="_ks2DAIxfU" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/166" />
+                      <property role="3Fg1Gr" value="166" />
+                      <node concept="1P5Shq" id="_ks2DAIxfW" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxfY" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxfV" role="19SJt6">
+                          <property role="19SUeA" value="Reisorganisatoren" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxfZ" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/167" />
+                    <property role="3Fg1Gr" value="167" />
+                    <node concept="3MKX5i" id="_ks2DAIxg0" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/168" />
+                      <property role="3Fg1Gr" value="168" />
+                      <node concept="1P5Shq" id="_ks2DAIxg2" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxg4" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxg1" role="19SJt6">
+                          <property role="19SUeA" value="79.11.2" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxg5" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/169" />
+                  <property role="3Fg1Gr" value="169" />
+                  <node concept="3MKX5h" id="_ks2DAIxg6" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/170" />
+                    <property role="3Fg1Gr" value="170" />
+                    <node concept="3MKX5i" id="_ks2DAIxg7" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/171" />
+                      <property role="3Fg1Gr" value="171" />
+                      <node concept="1P5Shq" id="_ks2DAIxg9" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxgb" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxg8" role="19SJt6">
+                          <property role="19SUeA" value="Organiseren van congressen en beurzen" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxgc" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/172" />
+                    <property role="3Fg1Gr" value="172" />
+                    <node concept="3MKX5i" id="_ks2DAIxgd" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/173" />
+                      <property role="3Fg1Gr" value="173" />
+                      <node concept="1P5Shq" id="_ks2DAIxgf" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxgh" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxge" role="19SJt6">
+                          <property role="19SUeA" value="82.30" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxgi" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/174" />
+                  <property role="3Fg1Gr" value="174" />
+                  <node concept="3MKX5h" id="_ks2DAIxgj" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/175" />
+                    <property role="3Fg1Gr" value="175" />
+                    <node concept="3MKX5i" id="_ks2DAIxgk" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/176" />
+                      <property role="3Fg1Gr" value="176" />
+                      <node concept="1P5Shq" id="_ks2DAIxgm" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxgo" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxgl" role="19SJt6">
+                          <property role="19SUeA" value="Dansscholen" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxgp" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/177" />
+                    <property role="3Fg1Gr" value="177" />
+                    <node concept="3MKX5i" id="_ks2DAIxgq" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/178" />
+                      <property role="3Fg1Gr" value="178" />
+                      <node concept="1P5Shq" id="_ks2DAIxgs" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxgu" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxgr" role="19SJt6">
+                          <property role="19SUeA" value="85.52.1" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxgv" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/179" />
+                  <property role="3Fg1Gr" value="179" />
+                  <node concept="3MKX5h" id="_ks2DAIxgw" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/180" />
+                    <property role="3Fg1Gr" value="180" />
+                    <node concept="3MKX5i" id="_ks2DAIxgx" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/181" />
+                      <property role="3Fg1Gr" value="181" />
+                      <node concept="1P5Shq" id="_ks2DAIxgz" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxg_" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxgy" role="19SJt6">
+                          <property role="19SUeA" value="Kunstzinnige vorming van amateurs (geen dansscholen)" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxgA" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/182" />
+                    <property role="3Fg1Gr" value="182" />
+                    <node concept="3MKX5i" id="_ks2DAIxgB" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/183" />
+                      <property role="3Fg1Gr" value="183" />
+                      <node concept="1P5Shq" id="_ks2DAIxgD" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxgF" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxgC" role="19SJt6">
+                          <property role="19SUeA" value="85.52.2" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxgG" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/184" />
+                  <property role="3Fg1Gr" value="184" />
+                  <node concept="3MKX5h" id="_ks2DAIxgH" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/185" />
+                    <property role="3Fg1Gr" value="185" />
+                    <node concept="3MKX5i" id="_ks2DAIxgI" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/186" />
+                      <property role="3Fg1Gr" value="186" />
+                      <node concept="1P5Shq" id="_ks2DAIxgK" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxgM" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxgJ" role="19SJt6">
+                          <property role="19SUeA" value="Auto-en motorrijscholen" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxgN" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/187" />
+                    <property role="3Fg1Gr" value="187" />
+                    <node concept="3MKX5i" id="_ks2DAIxgO" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/188" />
+                      <property role="3Fg1Gr" value="188" />
+                      <node concept="1P5Shq" id="_ks2DAIxgQ" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxgS" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxgP" role="19SJt6">
+                          <property role="19SUeA" value="85.53" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxgT" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/189" />
+                  <property role="3Fg1Gr" value="189" />
+                  <node concept="3MKX5h" id="_ks2DAIxgU" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/190" />
+                    <property role="3Fg1Gr" value="190" />
+                    <node concept="3MKX5i" id="_ks2DAIxgV" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/191" />
+                      <property role="3Fg1Gr" value="191" />
+                      <node concept="1P5Shq" id="_ks2DAIxgX" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxgZ" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxgW" role="19SJt6">
+                          <property role="19SUeA" value="Beoefening van podiumkunst" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxh0" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/192" />
+                    <property role="3Fg1Gr" value="192" />
+                    <node concept="3MKX5i" id="_ks2DAIxh1" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/193" />
+                      <property role="3Fg1Gr" value="193" />
+                      <node concept="1P5Shq" id="_ks2DAIxh3" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxh5" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxh2" role="19SJt6">
+                          <property role="19SUeA" value="90.01.1" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxh6" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/194" />
+                  <property role="3Fg1Gr" value="194" />
+                  <node concept="3MKX5h" id="_ks2DAIxh7" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/195" />
+                    <property role="3Fg1Gr" value="195" />
+                    <node concept="3MKX5i" id="_ks2DAIxh8" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/196" />
+                      <property role="3Fg1Gr" value="196" />
+                      <node concept="1P5Shq" id="_ks2DAIxha" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxhc" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxh9" role="19SJt6">
+                          <property role="19SUeA" value="Producenten van podiumkunst" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxhd" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/197" />
+                    <property role="3Fg1Gr" value="197" />
+                    <node concept="3MKX5i" id="_ks2DAIxhe" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/198" />
+                      <property role="3Fg1Gr" value="198" />
+                      <node concept="1P5Shq" id="_ks2DAIxhg" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxhi" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxhf" role="19SJt6">
+                          <property role="19SUeA" value="90.01.2" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxhj" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/199" />
+                  <property role="3Fg1Gr" value="199" />
+                  <node concept="3MKX5h" id="_ks2DAIxhk" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/200" />
+                    <property role="3Fg1Gr" value="200" />
+                    <node concept="3MKX5i" id="_ks2DAIxhl" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/201" />
+                      <property role="3Fg1Gr" value="201" />
+                      <node concept="1P5Shq" id="_ks2DAIxhn" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxhp" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxhm" role="19SJt6">
+                          <property role="19SUeA" value="Circus en variété" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxhq" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/202" />
+                    <property role="3Fg1Gr" value="202" />
+                    <node concept="3MKX5i" id="_ks2DAIxhr" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/203" />
+                      <property role="3Fg1Gr" value="203" />
+                      <node concept="1P5Shq" id="_ks2DAIxht" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxhv" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxhs" role="19SJt6">
+                          <property role="19SUeA" value="90.01.3" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxhw" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/204" />
+                  <property role="3Fg1Gr" value="204" />
+                  <node concept="3MKX5h" id="_ks2DAIxhx" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/205" />
+                    <property role="3Fg1Gr" value="205" />
+                    <node concept="3MKX5i" id="_ks2DAIxhy" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/206" />
+                      <property role="3Fg1Gr" value="206" />
+                      <node concept="1P5Shq" id="_ks2DAIxh$" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxhA" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxhz" role="19SJt6">
+                          <property role="19SUeA" value="Dienstverlening voor uitvoerende kunst" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxhB" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/207" />
+                    <property role="3Fg1Gr" value="207" />
+                    <node concept="3MKX5i" id="_ks2DAIxhC" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/208" />
+                      <property role="3Fg1Gr" value="208" />
+                      <node concept="1P5Shq" id="_ks2DAIxhE" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxhG" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxhD" role="19SJt6">
+                          <property role="19SUeA" value="90.02" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxhH" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/209" />
+                  <property role="3Fg1Gr" value="209" />
+                  <node concept="3MKX5h" id="_ks2DAIxhI" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/210" />
+                    <property role="3Fg1Gr" value="210" />
+                    <node concept="3MKX5i" id="_ks2DAIxhJ" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/211" />
+                      <property role="3Fg1Gr" value="211" />
+                      <node concept="1P5Shq" id="_ks2DAIxhL" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxhN" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxhK" role="19SJt6">
+                          <property role="19SUeA" value="Theaters en schouwburgen" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxhO" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/212" />
+                    <property role="3Fg1Gr" value="212" />
+                    <node concept="3MKX5i" id="_ks2DAIxhP" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/213" />
+                      <property role="3Fg1Gr" value="213" />
+                      <node concept="1P5Shq" id="_ks2DAIxhR" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxhT" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxhQ" role="19SJt6">
+                          <property role="19SUeA" value="90.04.1" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxhU" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/214" />
+                  <property role="3Fg1Gr" value="214" />
+                  <node concept="3MKX5h" id="_ks2DAIxhV" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/215" />
+                    <property role="3Fg1Gr" value="215" />
+                    <node concept="3MKX5i" id="_ks2DAIxhW" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/216" />
+                      <property role="3Fg1Gr" value="216" />
+                      <node concept="1P5Shq" id="_ks2DAIxhY" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxi0" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxhX" role="19SJt6">
+                          <property role="19SUeA" value="Evenementenhallen" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxi1" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/217" />
+                    <property role="3Fg1Gr" value="217" />
+                    <node concept="3MKX5i" id="_ks2DAIxi2" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/218" />
+                      <property role="3Fg1Gr" value="218" />
+                      <node concept="1P5Shq" id="_ks2DAIxi4" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxi6" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxi3" role="19SJt6">
+                          <property role="19SUeA" value="90.04.2" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxi7" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/219" />
+                  <property role="3Fg1Gr" value="219" />
+                  <node concept="3MKX5h" id="_ks2DAIxi8" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/220" />
+                    <property role="3Fg1Gr" value="220" />
+                    <node concept="3MKX5i" id="_ks2DAIxi9" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/221" />
+                      <property role="3Fg1Gr" value="221" />
+                      <node concept="1P5Shq" id="_ks2DAIxib" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxid" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxia" role="19SJt6">
+                          <property role="19SUeA" value="Musea" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxie" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/222" />
+                    <property role="3Fg1Gr" value="222" />
+                    <node concept="3MKX5i" id="_ks2DAIxif" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/223" />
+                      <property role="3Fg1Gr" value="223" />
+                      <node concept="1P5Shq" id="_ks2DAIxih" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxij" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxig" role="19SJt6">
+                          <property role="19SUeA" value="91.02.1" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxik" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/224" />
+                  <property role="3Fg1Gr" value="224" />
+                  <node concept="3MKX5h" id="_ks2DAIxil" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/225" />
+                    <property role="3Fg1Gr" value="225" />
+                    <node concept="3MKX5i" id="_ks2DAIxim" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/226" />
+                      <property role="3Fg1Gr" value="226" />
+                      <node concept="1P5Shq" id="_ks2DAIxio" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxiq" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxin" role="19SJt6">
+                          <property role="19SUeA" value="Kunstgalerieën en -expositieruimten" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxir" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/227" />
+                    <property role="3Fg1Gr" value="227" />
+                    <node concept="3MKX5i" id="_ks2DAIxis" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/228" />
+                      <property role="3Fg1Gr" value="228" />
+                      <node concept="1P5Shq" id="_ks2DAIxiu" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxiw" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxit" role="19SJt6">
+                          <property role="19SUeA" value="91.02.2" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxix" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/229" />
+                  <property role="3Fg1Gr" value="229" />
+                  <node concept="3MKX5h" id="_ks2DAIxiy" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/230" />
+                    <property role="3Fg1Gr" value="230" />
+                    <node concept="3MKX5i" id="_ks2DAIxiz" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/231" />
+                      <property role="3Fg1Gr" value="231" />
+                      <node concept="1P5Shq" id="_ks2DAIxi_" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxiB" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxi$" role="19SJt6">
+                          <property role="19SUeA" value="Casino’s" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxiC" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/232" />
+                    <property role="3Fg1Gr" value="232" />
+                    <node concept="3MKX5i" id="_ks2DAIxiD" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/233" />
+                      <property role="3Fg1Gr" value="233" />
+                      <node concept="1P5Shq" id="_ks2DAIxiF" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxiH" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxiE" role="19SJt6">
+                          <property role="19SUeA" value="92.00.1" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxiI" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/234" />
+                  <property role="3Fg1Gr" value="234" />
+                  <node concept="3MKX5h" id="_ks2DAIxiJ" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/235" />
+                    <property role="3Fg1Gr" value="235" />
+                    <node concept="3MKX5i" id="_ks2DAIxiK" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/236" />
+                      <property role="3Fg1Gr" value="236" />
+                      <node concept="1P5Shq" id="_ks2DAIxiM" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxiO" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxiL" role="19SJt6">
+                          <property role="19SUeA" value="Exploitatie van speelautomaten" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxiP" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/237" />
+                    <property role="3Fg1Gr" value="237" />
+                    <node concept="3MKX5i" id="_ks2DAIxiQ" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/238" />
+                      <property role="3Fg1Gr" value="238" />
+                      <node concept="1P5Shq" id="_ks2DAIxiS" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxiU" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxiR" role="19SJt6">
+                          <property role="19SUeA" value="92.00.9" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxiV" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/239" />
+                  <property role="3Fg1Gr" value="239" />
+                  <node concept="3MKX5h" id="_ks2DAIxiW" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/240" />
+                    <property role="3Fg1Gr" value="240" />
+                    <node concept="3MKX5i" id="_ks2DAIxiX" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/241" />
+                      <property role="3Fg1Gr" value="241" />
+                      <node concept="1P5Shq" id="_ks2DAIxiZ" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxj1" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxiY" role="19SJt6">
+                          <property role="19SUeA" value="Sportaccommodaties" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxj2" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/242" />
+                    <property role="3Fg1Gr" value="242" />
+                    <node concept="3MKX5i" id="_ks2DAIxj3" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/243" />
+                      <property role="3Fg1Gr" value="243" />
+                      <node concept="1P5Shq" id="_ks2DAIxj5" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxj7" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxj4" role="19SJt6">
+                          <property role="19SUeA" value="93.11" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxj8" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/244" />
+                  <property role="3Fg1Gr" value="244" />
+                  <node concept="3MKX5h" id="_ks2DAIxj9" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/245" />
+                    <property role="3Fg1Gr" value="245" />
+                    <node concept="3MKX5i" id="_ks2DAIxja" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/246" />
+                      <property role="3Fg1Gr" value="246" />
+                      <node concept="1P5Shq" id="_ks2DAIxjc" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxje" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxjb" role="19SJt6">
+                          <property role="19SUeA" value="Veldvoetbal" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxjf" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/247" />
+                    <property role="3Fg1Gr" value="247" />
+                    <node concept="3MKX5i" id="_ks2DAIxjg" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/248" />
+                      <property role="3Fg1Gr" value="248" />
+                      <node concept="1P5Shq" id="_ks2DAIxji" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxjk" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxjh" role="19SJt6">
+                          <property role="19SUeA" value="93.12.1" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxjl" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/249" />
+                  <property role="3Fg1Gr" value="249" />
+                  <node concept="3MKX5h" id="_ks2DAIxjm" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/250" />
+                    <property role="3Fg1Gr" value="250" />
+                    <node concept="3MKX5i" id="_ks2DAIxjn" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/251" />
+                      <property role="3Fg1Gr" value="251" />
+                      <node concept="1P5Shq" id="_ks2DAIxjp" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxjr" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxjo" role="19SJt6">
+                          <property role="19SUeA" value="Veldsport in teamverband (geen voetbal)" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxjs" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/252" />
+                    <property role="3Fg1Gr" value="252" />
+                    <node concept="3MKX5i" id="_ks2DAIxjt" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/253" />
+                      <property role="3Fg1Gr" value="253" />
+                      <node concept="1P5Shq" id="_ks2DAIxjv" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxjx" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxju" role="19SJt6">
+                          <property role="19SUeA" value="93.12.2" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxjy" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/254" />
+                  <property role="3Fg1Gr" value="254" />
+                  <node concept="3MKX5h" id="_ks2DAIxjz" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/255" />
+                    <property role="3Fg1Gr" value="255" />
+                    <node concept="3MKX5i" id="_ks2DAIxj$" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/256" />
+                      <property role="3Fg1Gr" value="256" />
+                      <node concept="1P5Shq" id="_ks2DAIxjA" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxjC" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxj_" role="19SJt6">
+                          <property role="19SUeA" value="Atletiek" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxjD" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/257" />
+                    <property role="3Fg1Gr" value="257" />
+                    <node concept="3MKX5i" id="_ks2DAIxjE" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/258" />
+                      <property role="3Fg1Gr" value="258" />
+                      <node concept="1P5Shq" id="_ks2DAIxjG" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxjI" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxjF" role="19SJt6">
+                          <property role="19SUeA" value="93.12.3" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxjJ" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/259" />
+                  <property role="3Fg1Gr" value="259" />
+                  <node concept="3MKX5h" id="_ks2DAIxjK" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/260" />
+                    <property role="3Fg1Gr" value="260" />
+                    <node concept="3MKX5i" id="_ks2DAIxjL" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/261" />
+                      <property role="3Fg1Gr" value="261" />
+                      <node concept="1P5Shq" id="_ks2DAIxjN" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxjP" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxjM" role="19SJt6">
+                          <property role="19SUeA" value="Tennis" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxjQ" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/262" />
+                    <property role="3Fg1Gr" value="262" />
+                    <node concept="3MKX5i" id="_ks2DAIxjR" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/263" />
+                      <property role="3Fg1Gr" value="263" />
+                      <node concept="1P5Shq" id="_ks2DAIxjT" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxjV" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxjS" role="19SJt6">
+                          <property role="19SUeA" value="93.12.4" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxjW" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/264" />
+                  <property role="3Fg1Gr" value="264" />
+                  <node concept="3MKX5h" id="_ks2DAIxjX" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/265" />
+                    <property role="3Fg1Gr" value="265" />
+                    <node concept="3MKX5i" id="_ks2DAIxjY" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/266" />
+                      <property role="3Fg1Gr" value="266" />
+                      <node concept="1P5Shq" id="_ks2DAIxk0" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxk2" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxjZ" role="19SJt6">
+                          <property role="19SUeA" value="Paardensport en maneges" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxk3" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/267" />
+                    <property role="3Fg1Gr" value="267" />
+                    <node concept="3MKX5i" id="_ks2DAIxk4" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/268" />
+                      <property role="3Fg1Gr" value="268" />
+                      <node concept="1P5Shq" id="_ks2DAIxk6" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxk8" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxk5" role="19SJt6">
+                          <property role="19SUeA" value="93.12.5" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxk9" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/269" />
+                  <property role="3Fg1Gr" value="269" />
+                  <node concept="3MKX5h" id="_ks2DAIxka" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/270" />
+                    <property role="3Fg1Gr" value="270" />
+                    <node concept="3MKX5i" id="_ks2DAIxkb" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/271" />
+                      <property role="3Fg1Gr" value="271" />
+                      <node concept="1P5Shq" id="_ks2DAIxkd" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxkf" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxkc" role="19SJt6">
+                          <property role="19SUeA" value="Wielersport" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxkg" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/272" />
+                    <property role="3Fg1Gr" value="272" />
+                    <node concept="3MKX5i" id="_ks2DAIxkh" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/273" />
+                      <property role="3Fg1Gr" value="273" />
+                      <node concept="1P5Shq" id="_ks2DAIxkj" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxkl" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxki" role="19SJt6">
+                          <property role="19SUeA" value="93.12.6" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxkm" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/274" />
+                  <property role="3Fg1Gr" value="274" />
+                  <node concept="3MKX5h" id="_ks2DAIxkn" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/275" />
+                    <property role="3Fg1Gr" value="275" />
+                    <node concept="3MKX5i" id="_ks2DAIxko" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/276" />
+                      <property role="3Fg1Gr" value="276" />
+                      <node concept="1P5Shq" id="_ks2DAIxkq" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxks" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxkp" role="19SJt6">
+                          <property role="19SUeA" value="Auto- en motorsport" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxkt" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/277" />
+                    <property role="3Fg1Gr" value="277" />
+                    <node concept="3MKX5i" id="_ks2DAIxku" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/278" />
+                      <property role="3Fg1Gr" value="278" />
+                      <node concept="1P5Shq" id="_ks2DAIxkw" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxky" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxkv" role="19SJt6">
+                          <property role="19SUeA" value="93.12.7" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxkz" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/279" />
+                  <property role="3Fg1Gr" value="279" />
+                  <node concept="3MKX5h" id="_ks2DAIxk$" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/280" />
+                    <property role="3Fg1Gr" value="280" />
+                    <node concept="3MKX5i" id="_ks2DAIxk_" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/281" />
+                      <property role="3Fg1Gr" value="281" />
+                      <node concept="1P5Shq" id="_ks2DAIxkB" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxkD" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxkA" role="19SJt6">
+                          <property role="19SUeA" value="Wintersport" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxkE" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/282" />
+                    <property role="3Fg1Gr" value="282" />
+                    <node concept="3MKX5i" id="_ks2DAIxkF" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/283" />
+                      <property role="3Fg1Gr" value="283" />
+                      <node concept="1P5Shq" id="_ks2DAIxkH" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxkJ" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxkG" role="19SJt6">
+                          <property role="19SUeA" value="93.12.8" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxkK" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/284" />
+                  <property role="3Fg1Gr" value="284" />
+                  <node concept="3MKX5h" id="_ks2DAIxkL" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/285" />
+                    <property role="3Fg1Gr" value="285" />
+                    <node concept="3MKX5i" id="_ks2DAIxkM" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/286" />
+                      <property role="3Fg1Gr" value="286" />
+                      <node concept="1P5Shq" id="_ks2DAIxkO" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxkQ" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxkN" role="19SJt6">
+                          <property role="19SUeA" value="Overige buitensport" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxkR" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/287" />
+                    <property role="3Fg1Gr" value="287" />
+                    <node concept="3MKX5i" id="_ks2DAIxkS" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/288" />
+                      <property role="3Fg1Gr" value="288" />
+                      <node concept="1P5Shq" id="_ks2DAIxkU" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxkW" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxkT" role="19SJt6">
+                          <property role="19SUeA" value="93.12.9" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxkX" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/289" />
+                  <property role="3Fg1Gr" value="289" />
+                  <node concept="3MKX5h" id="_ks2DAIxkY" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/290" />
+                    <property role="3Fg1Gr" value="290" />
+                    <node concept="3MKX5i" id="_ks2DAIxkZ" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/291" />
+                      <property role="3Fg1Gr" value="291" />
+                      <node concept="1P5Shq" id="_ks2DAIxl1" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxl3" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxl0" role="19SJt6">
+                          <property role="19SUeA" value="Fitnesscentra" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxl4" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/292" />
+                    <property role="3Fg1Gr" value="292" />
+                    <node concept="3MKX5i" id="_ks2DAIxl5" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/293" />
+                      <property role="3Fg1Gr" value="293" />
+                      <node concept="1P5Shq" id="_ks2DAIxl7" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxl9" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxl6" role="19SJt6">
+                          <property role="19SUeA" value="93.13" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxla" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/294" />
+                  <property role="3Fg1Gr" value="294" />
+                  <node concept="3MKX5h" id="_ks2DAIxlb" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/295" />
+                    <property role="3Fg1Gr" value="295" />
+                    <node concept="3MKX5i" id="_ks2DAIxlc" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/296" />
+                      <property role="3Fg1Gr" value="296" />
+                      <node concept="1P5Shq" id="_ks2DAIxle" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxlg" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxld" role="19SJt6">
+                          <property role="19SUeA" value="Indviduele zaalsport" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxlh" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/297" />
+                    <property role="3Fg1Gr" value="297" />
+                    <node concept="3MKX5i" id="_ks2DAIxli" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/298" />
+                      <property role="3Fg1Gr" value="298" />
+                      <node concept="1P5Shq" id="_ks2DAIxlk" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxlm" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxlj" role="19SJt6">
+                          <property role="19SUeA" value="93.14.1" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxln" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/299" />
+                  <property role="3Fg1Gr" value="299" />
+                  <node concept="3MKX5h" id="_ks2DAIxlo" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/300" />
+                    <property role="3Fg1Gr" value="300" />
+                    <node concept="3MKX5i" id="_ks2DAIxlp" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/301" />
+                      <property role="3Fg1Gr" value="301" />
+                      <node concept="1P5Shq" id="_ks2DAIxlr" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxlt" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxlq" role="19SJt6">
+                          <property role="19SUeA" value="Zaalsport in teamverband" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxlu" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/302" />
+                    <property role="3Fg1Gr" value="302" />
+                    <node concept="3MKX5i" id="_ks2DAIxlv" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/303" />
+                      <property role="3Fg1Gr" value="303" />
+                      <node concept="1P5Shq" id="_ks2DAIxlx" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxlz" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxlw" role="19SJt6">
+                          <property role="19SUeA" value="93.14.2" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxl$" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/304" />
+                  <property role="3Fg1Gr" value="304" />
+                  <node concept="3MKX5h" id="_ks2DAIxl_" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/305" />
+                    <property role="3Fg1Gr" value="305" />
+                    <node concept="3MKX5i" id="_ks2DAIxlA" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/306" />
+                      <property role="3Fg1Gr" value="306" />
+                      <node concept="1P5Shq" id="_ks2DAIxlC" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxlE" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxlB" role="19SJt6">
+                          <property role="19SUeA" value="Kracht- en vechtsport" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxlF" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/307" />
+                    <property role="3Fg1Gr" value="307" />
+                    <node concept="3MKX5i" id="_ks2DAIxlG" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/308" />
+                      <property role="3Fg1Gr" value="308" />
+                      <node concept="1P5Shq" id="_ks2DAIxlI" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxlK" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxlH" role="19SJt6">
+                          <property role="19SUeA" value="93.14.3" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxlL" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/309" />
+                  <property role="3Fg1Gr" value="309" />
+                  <node concept="3MKX5h" id="_ks2DAIxlM" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/310" />
+                    <property role="3Fg1Gr" value="310" />
+                    <node concept="3MKX5i" id="_ks2DAIxlN" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/311" />
+                      <property role="3Fg1Gr" value="311" />
+                      <node concept="1P5Shq" id="_ks2DAIxlP" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxlR" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxlO" role="19SJt6">
+                          <property role="19SUeA" value="Bowlen, kegelen, biljarten e.d." />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxlS" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/312" />
+                    <property role="3Fg1Gr" value="312" />
+                    <node concept="3MKX5i" id="_ks2DAIxlT" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/313" />
+                      <property role="3Fg1Gr" value="313" />
+                      <node concept="1P5Shq" id="_ks2DAIxlV" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxlX" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxlU" role="19SJt6">
+                          <property role="19SUeA" value="93.14.4" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxlY" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/314" />
+                  <property role="3Fg1Gr" value="314" />
+                  <node concept="3MKX5h" id="_ks2DAIxlZ" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/315" />
+                    <property role="3Fg1Gr" value="315" />
+                    <node concept="3MKX5i" id="_ks2DAIxm0" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/316" />
+                      <property role="3Fg1Gr" value="316" />
+                      <node concept="1P5Shq" id="_ks2DAIxm2" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxm4" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxm1" role="19SJt6">
+                          <property role="19SUeA" value="Denksport" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxm5" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/317" />
+                    <property role="3Fg1Gr" value="317" />
+                    <node concept="3MKX5i" id="_ks2DAIxm6" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/318" />
+                      <property role="3Fg1Gr" value="318" />
+                      <node concept="1P5Shq" id="_ks2DAIxm8" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxma" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxm7" role="19SJt6">
+                          <property role="19SUeA" value="93.14.5" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxmb" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/319" />
+                  <property role="3Fg1Gr" value="319" />
+                  <node concept="3MKX5h" id="_ks2DAIxmc" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/320" />
+                    <property role="3Fg1Gr" value="320" />
+                    <node concept="3MKX5i" id="_ks2DAIxmd" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/321" />
+                      <property role="3Fg1Gr" value="321" />
+                      <node concept="1P5Shq" id="_ks2DAIxmf" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxmh" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxme" role="19SJt6">
+                          <property role="19SUeA" value="Sportscholen" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxmi" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/322" />
+                    <property role="3Fg1Gr" value="322" />
+                    <node concept="3MKX5i" id="_ks2DAIxmj" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/323" />
+                      <property role="3Fg1Gr" value="323" />
+                      <node concept="1P5Shq" id="_ks2DAIxml" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxmn" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxmk" role="19SJt6">
+                          <property role="19SUeA" value="93.14.6" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxmo" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/324" />
+                  <property role="3Fg1Gr" value="324" />
+                  <node concept="3MKX5h" id="_ks2DAIxmp" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/325" />
+                    <property role="3Fg1Gr" value="325" />
+                    <node concept="3MKX5i" id="_ks2DAIxmq" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/326" />
+                      <property role="3Fg1Gr" value="326" />
+                      <node concept="1P5Shq" id="_ks2DAIxms" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxmu" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxmr" role="19SJt6">
+                          <property role="19SUeA" value="Overige binnensport en omnisport" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxmv" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/327" />
+                    <property role="3Fg1Gr" value="327" />
+                    <node concept="3MKX5i" id="_ks2DAIxmw" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/328" />
+                      <property role="3Fg1Gr" value="328" />
+                      <node concept="1P5Shq" id="_ks2DAIxmy" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxm$" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxmx" role="19SJt6">
+                          <property role="19SUeA" value="93.14.9" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxm_" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/329" />
+                  <property role="3Fg1Gr" value="329" />
+                  <node concept="3MKX5h" id="_ks2DAIxmA" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/330" />
+                    <property role="3Fg1Gr" value="330" />
+                    <node concept="3MKX5i" id="_ks2DAIxmB" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/331" />
+                      <property role="3Fg1Gr" value="331" />
+                      <node concept="1P5Shq" id="_ks2DAIxmD" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxmF" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxmC" role="19SJt6">
+                          <property role="19SUeA" value="Zwem- en onderwatersport" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxmG" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/332" />
+                    <property role="3Fg1Gr" value="332" />
+                    <node concept="3MKX5i" id="_ks2DAIxmH" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/333" />
+                      <property role="3Fg1Gr" value="333" />
+                      <node concept="1P5Shq" id="_ks2DAIxmJ" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxmL" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxmI" role="19SJt6">
+                          <property role="19SUeA" value="93.15.1" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxmM" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/334" />
+                  <property role="3Fg1Gr" value="334" />
+                  <node concept="3MKX5h" id="_ks2DAIxmN" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/335" />
+                    <property role="3Fg1Gr" value="335" />
+                    <node concept="3MKX5i" id="_ks2DAIxmO" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/336" />
+                      <property role="3Fg1Gr" value="336" />
+                      <node concept="1P5Shq" id="_ks2DAIxmQ" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxmS" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxmP" role="19SJt6">
+                          <property role="19SUeA" value="Roei- kano- zeil- en surfsport e.d." />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxmT" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/337" />
+                    <property role="3Fg1Gr" value="337" />
+                    <node concept="3MKX5i" id="_ks2DAIxmU" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/338" />
+                      <property role="3Fg1Gr" value="338" />
+                      <node concept="1P5Shq" id="_ks2DAIxmW" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxmY" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxmV" role="19SJt6">
+                          <property role="19SUeA" value="93.15.2" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxmZ" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/339" />
+                  <property role="3Fg1Gr" value="339" />
+                  <node concept="3MKX5h" id="_ks2DAIxn0" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/340" />
+                    <property role="3Fg1Gr" value="340" />
+                    <node concept="3MKX5i" id="_ks2DAIxn1" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/341" />
+                      <property role="3Fg1Gr" value="341" />
+                      <node concept="1P5Shq" id="_ks2DAIxn3" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxn5" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxn2" role="19SJt6">
+                          <property role="19SUeA" value="Organiseren van sportevenement" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxn6" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/342" />
+                    <property role="3Fg1Gr" value="342" />
+                    <node concept="3MKX5i" id="_ks2DAIxn7" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/343" />
+                      <property role="3Fg1Gr" value="343" />
+                      <node concept="1P5Shq" id="_ks2DAIxn9" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxnb" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxn8" role="19SJt6">
+                          <property role="19SUeA" value="93.19.5" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxnc" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/344" />
+                  <property role="3Fg1Gr" value="344" />
+                  <node concept="3MKX5h" id="_ks2DAIxnd" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/345" />
+                    <property role="3Fg1Gr" value="345" />
+                    <node concept="3MKX5i" id="_ks2DAIxne" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/346" />
+                      <property role="3Fg1Gr" value="346" />
+                      <node concept="1P5Shq" id="_ks2DAIxng" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxni" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxnf" role="19SJt6">
+                          <property role="19SUeA" value="Pret-en themaparken" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxnj" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/347" />
+                    <property role="3Fg1Gr" value="347" />
+                    <node concept="3MKX5i" id="_ks2DAIxnk" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/348" />
+                      <property role="3Fg1Gr" value="348" />
+                      <node concept="1P5Shq" id="_ks2DAIxnm" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxno" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxnl" role="19SJt6">
+                          <property role="19SUeA" value="93.21.1" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxnp" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/349" />
+                  <property role="3Fg1Gr" value="349" />
+                  <node concept="3MKX5h" id="_ks2DAIxnq" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/350" />
+                    <property role="3Fg1Gr" value="350" />
+                    <node concept="3MKX5i" id="_ks2DAIxnr" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/351" />
+                      <property role="3Fg1Gr" value="351" />
+                      <node concept="1P5Shq" id="_ks2DAIxnt" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxnv" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxns" role="19SJt6">
+                          <property role="19SUeA" value="Kermisattracties" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxnw" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/352" />
+                    <property role="3Fg1Gr" value="352" />
+                    <node concept="3MKX5i" id="_ks2DAIxnx" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/353" />
+                      <property role="3Fg1Gr" value="353" />
+                      <node concept="1P5Shq" id="_ks2DAIxnz" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxn_" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxny" role="19SJt6">
+                          <property role="19SUeA" value="93.21.2" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxnA" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/354" />
+                  <property role="3Fg1Gr" value="354" />
+                  <node concept="3MKX5h" id="_ks2DAIxnB" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/355" />
+                    <property role="3Fg1Gr" value="355" />
+                    <node concept="3MKX5i" id="_ks2DAIxnC" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/356" />
+                      <property role="3Fg1Gr" value="356" />
+                      <node concept="1P5Shq" id="_ks2DAIxnE" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxnG" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxnD" role="19SJt6">
+                          <property role="19SUeA" value="Haarverzorging" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxnH" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/357" />
+                    <property role="3Fg1Gr" value="357" />
+                    <node concept="3MKX5i" id="_ks2DAIxnI" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/358" />
+                      <property role="3Fg1Gr" value="358" />
+                      <node concept="1P5Shq" id="_ks2DAIxnK" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxnM" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxnJ" role="19SJt6">
+                          <property role="19SUeA" value="96.02.1" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxnN" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/359" />
+                  <property role="3Fg1Gr" value="359" />
+                  <node concept="3MKX5h" id="_ks2DAIxnO" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/360" />
+                    <property role="3Fg1Gr" value="360" />
+                    <node concept="3MKX5i" id="_ks2DAIxnP" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/361" />
+                      <property role="3Fg1Gr" value="361" />
+                      <node concept="1P5Shq" id="_ks2DAIxnR" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxnT" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxnQ" role="19SJt6">
+                          <property role="19SUeA" value="Schoonheidsverzorging, pedicures en manicures, visagie en image consulting" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxnU" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/362" />
+                    <property role="3Fg1Gr" value="362" />
+                    <node concept="3MKX5i" id="_ks2DAIxnV" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/363" />
+                      <property role="3Fg1Gr" value="363" />
+                      <node concept="1P5Shq" id="_ks2DAIxnX" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxnZ" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxnW" role="19SJt6">
+                          <property role="19SUeA" value="96.02.2" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="tTTz$" id="_ks2DAIxo0" role="3MKX6F">
+                  <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/364" />
+                  <property role="3Fg1Gr" value="364" />
+                  <node concept="3MKX5h" id="_ks2DAIxo1" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/365" />
+                    <property role="3Fg1Gr" value="365" />
+                    <node concept="3MKX5i" id="_ks2DAIxo2" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/366" />
+                      <property role="3Fg1Gr" value="366" />
+                      <node concept="1P5Shq" id="_ks2DAIxo4" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxo6" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxo3" role="19SJt6">
+                          <property role="19SUeA" value="Sauna’s, solaria, baden e.d." />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3MKX5h" id="_ks2DAIxo7" role="3MKX6F">
+                    <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/367" />
+                    <property role="3Fg1Gr" value="367" />
+                    <node concept="3MKX5i" id="_ks2DAIxo8" role="3MKX6F">
+                      <property role="1hTQn4" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-03-31/2020-03-27/structuurkenmerk/368" />
+                      <property role="3Fg1Gr" value="368" />
+                      <node concept="1P5Shq" id="_ks2DAIxoa" role="2qTud8">
+                        <node concept="1P5VML" id="_ks2DAIxoc" role="19SJt6" />
+                        <node concept="1P5VML" id="_ks2DAIxo9" role="19SJt6">
+                          <property role="19SUeA" value="96.04" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="3FsRXa7xnOw" role="LjaKd">
+      <node concept="3cpWs8" id="3FsRXa7xnOx" role="3cqZAp">
+        <node concept="3cpWsn" id="3FsRXa7xnOy" role="3cpWs9">
+          <property role="TrG5h" value="filePath" />
+          <node concept="3uibUv" id="3FsRXa7xnOz" role="1tU5fm">
+            <ref role="3uigEE" to="eoo2:~Path" resolve="Path" />
+          </node>
+          <node concept="2OqwBi" id="3FsRXa7xnO$" role="33vP2m">
+            <node concept="2OqwBi" id="3FsRXa7xnO_" role="2Oq$k0">
+              <node concept="2YIFZM" id="3FsRXa7xnOA" role="2Oq$k0">
+                <ref role="37wK5l" to="91gc:7ALI6YWYmu7" resolve="getInstance" />
+                <ref role="1Pybhc" to="91gc:2eNuKY2QKZ" resolve="FlintProperties" />
+              </node>
+              <node concept="2S8uIT" id="3FsRXa7xnOB" role="2OqNvi">
+                <ref role="2S8YL0" to="91gc:7FNYdkaI3HX" resolve="testResourcesFolder" />
+              </node>
+            </node>
+            <node concept="liA8E" id="3FsRXa7xnOC" role="2OqNvi">
+              <ref role="37wK5l" to="eoo2:~Path.resolve(java.lang.String)" resolve="resolve" />
+              <node concept="Xl_RD" id="3FsRXa7xnOD" role="37wK5m">
+                <property role="Xl_RC" value="test.flint.version.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="3FsRXa7y0sE" role="3cqZAp">
+        <node concept="3cpWsn" id="3FsRXa7y0sF" role="3cpWs9">
+          <property role="TrG5h" value="testLawsource" />
+          <node concept="3Tqbb2" id="3FsRXa7y0pT" role="1tU5fm">
+            <ref role="ehGHo" to="1z9r:3FsRXa7mqjq" resolve="TestLawsource" />
+          </node>
+          <node concept="1PxgMI" id="3FsRXa7y0sG" role="33vP2m">
+            <node concept="chp4Y" id="3FsRXa7y0sH" role="3oSUPX">
+              <ref role="cht4Q" to="1z9r:3FsRXa7mqjq" resolve="TestLawsource" />
+            </node>
+            <node concept="2OqwBi" id="3FsRXa7y0sI" role="1m5AlR">
+              <node concept="369mXd" id="3FsRXa7y0sJ" role="2Oq$k0" />
+              <node concept="liA8E" id="3FsRXa7y0sK" role="2OqNvi">
+                <ref role="37wK5l" to="exr9:~EditorComponent.getSelectedNode()" resolve="getSelectedNode" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="3FsRXa7xnOM" role="3cqZAp">
+        <node concept="3cpWsn" id="3FsRXa7xnON" role="3cpWs9">
+          <property role="TrG5h" value="lawSourceText" />
+          <node concept="17QB3L" id="3FsRXa7xnOO" role="1tU5fm" />
+          <node concept="2YIFZM" id="3FsRXa7xnOP" role="33vP2m">
+            <ref role="37wK5l" to="eoo2:~Files.readString(java.nio.file.Path)" resolve="readString" />
+            <ref role="1Pybhc" to="eoo2:~Files" resolve="Files" />
+            <node concept="37vLTw" id="3FsRXa7xnOQ" role="37wK5m">
+              <ref role="3cqZAo" node="3FsRXa7xnOy" resolve="filePath" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="3FsRXa7y4R6" role="3cqZAp">
+        <node concept="3cpWsn" id="3FsRXa7y4R7" role="3cpWs9">
+          <property role="TrG5h" value="factory" />
+          <node concept="3uibUv" id="3FsRXa7y4Ht" role="1tU5fm">
+            <ref role="3uigEE" node="3FsRXa7xtLI" resolve="TestLawSourceRootNodeFactory" />
+          </node>
+          <node concept="10Nm6u" id="3FsRXa7QNY0" role="33vP2m" />
+        </node>
+      </node>
+      <node concept="3J1_TO" id="3FsRXa7y5mo" role="3cqZAp">
+        <node concept="3clFbS" id="3FsRXa7y5mq" role="1zxBo7">
+          <node concept="1QHqEF" id="3FsRXa7xnOR" role="3cqZAp">
+            <node concept="1QHqEC" id="3FsRXa7xnOS" role="1QHqEI">
+              <node concept="3clFbS" id="3FsRXa7xnOT" role="1bW5cS">
+                <node concept="3clFbF" id="3FsRXa7QN$$" role="3cqZAp">
+                  <node concept="37vLTI" id="3FsRXa7QNFR" role="3clFbG">
+                    <node concept="37vLTw" id="3FsRXa7QN$y" role="37vLTJ">
+                      <ref role="3cqZAo" node="3FsRXa7y4R7" resolve="factory" />
+                    </node>
+                    <node concept="2YIFZM" id="3FsRXa7y4R8" role="37vLTx">
+                      <ref role="37wK5l" node="3FsRXa7xQ3d" resolve="setup" />
+                      <ref role="1Pybhc" node="3FsRXa7xtLI" resolve="TestLawSourceRootNodeFactory" />
+                      <node concept="37vLTw" id="3FsRXa7y4R9" role="37wK5m">
+                        <ref role="3cqZAo" node="3FsRXa7y0sF" resolve="testLawsource" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="3FsRXa7xnOU" role="3cqZAp">
+                  <node concept="2OqwBi" id="3FsRXa7y1PC" role="3clFbG">
+                    <node concept="2ShNRf" id="3FsRXa7xnOW" role="2Oq$k0">
+                      <node concept="1pGfFk" id="3FsRXa7xnOX" role="2ShVmc">
+                        <ref role="37wK5l" to="472r:3FsRXa7ucgF" resolve="LawSourceImporter" />
+                        <node concept="10Nm6u" id="3FsRXa7KVxi" role="37wK5m" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="3FsRXa7y1ZN" role="2OqNvi">
+                      <ref role="37wK5l" to="472r:3FsRXa7tZBR" resolve="importFromJson" />
+                      <node concept="37vLTw" id="3FsRXa7y3dO" role="37wK5m">
+                        <ref role="3cqZAo" node="3FsRXa7xnON" resolve="lawSourceText" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3FsRXa7xnP1" role="ukAjM">
+              <node concept="2OqwBi" id="3FsRXa7xnP2" role="2Oq$k0">
+                <node concept="369mXd" id="3FsRXa7xnP3" role="2Oq$k0" />
+                <node concept="liA8E" id="3FsRXa7xnP4" role="2OqNvi">
+                  <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3FsRXa7xnP5" role="2OqNvi">
+                <ref role="37wK5l" to="exr9:~EditorContext.getRepository()" resolve="getRepository" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1wplmZ" id="3FsRXa7y69N" role="1zxBo6">
+          <node concept="3clFbS" id="3FsRXa7y69O" role="1wplMD">
+            <node concept="3clFbJ" id="3FsRXa7QNJU" role="3cqZAp">
+              <node concept="3clFbS" id="3FsRXa7QNJW" role="3clFbx">
+                <node concept="3clFbF" id="3FsRXa7y6eu" role="3cqZAp">
+                  <node concept="2OqwBi" id="3FsRXa7y6kX" role="3clFbG">
+                    <node concept="37vLTw" id="3FsRXa7y6et" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3FsRXa7y4R7" resolve="factory" />
+                    </node>
+                    <node concept="liA8E" id="3FsRXa7y6wh" role="2OqNvi">
+                      <ref role="37wK5l" node="3FsRXa7xWBp" resolve="reset" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="17QLQc" id="3FsRXa7QNTx" role="3clFbw">
+                <node concept="10Nm6u" id="3FsRXa7QNU3" role="3uHU7w" />
+                <node concept="37vLTw" id="3FsRXa7QNKI" role="3uHU7B">
+                  <ref role="3cqZAo" node="3FsRXa7y4R7" resolve="factory" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="312cEu" id="3FsRXa7xtLI">
+    <property role="TrG5h" value="TestLawSourceRootNodeFactory" />
+    <node concept="312cEg" id="3FsRXa7xV3q" role="jymVt">
+      <property role="TrG5h" value="oldInstance" />
+      <node concept="3Tm6S6" id="3FsRXa7xUuC" role="1B3o_S" />
+      <node concept="3uibUv" id="3FsRXa7xV0X" role="1tU5fm">
+        <ref role="3uigEE" to="472r:3FsRXa7mvHu" resolve="RootNodeFactory" />
+      </node>
+    </node>
+    <node concept="312cEg" id="3FsRXa7xuuO" role="jymVt">
+      <property role="TrG5h" value="testLawsource" />
+      <node concept="3Tm6S6" id="3FsRXa7xuiv" role="1B3o_S" />
+      <node concept="3Tqbb2" id="3FsRXa7xuqI" role="1tU5fm">
+        <ref role="ehGHo" to="1z9r:3FsRXa7mqjq" resolve="TestLawsource" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="3FsRXa7xuBf" role="jymVt" />
+    <node concept="3Tm1VV" id="3FsRXa7xtLJ" role="1B3o_S" />
+    <node concept="3uibUv" id="3FsRXa7xtNd" role="EKbjA">
+      <ref role="3uigEE" to="472r:3FsRXa7mvHu" resolve="RootNodeFactory" />
+    </node>
+    <node concept="3clFbW" id="3FsRXa7xVAj" role="jymVt">
+      <node concept="3cqZAl" id="3FsRXa7xVAk" role="3clF45" />
+      <node concept="3Tm1VV" id="3FsRXa7xVAl" role="1B3o_S" />
+      <node concept="3clFbS" id="3FsRXa7xVAn" role="3clF47">
+        <node concept="3clFbF" id="3FsRXa7xVAr" role="3cqZAp">
+          <node concept="37vLTI" id="3FsRXa7xVAt" role="3clFbG">
+            <node concept="2OqwBi" id="3FsRXa7xVAx" role="37vLTJ">
+              <node concept="Xjq3P" id="3FsRXa7xVAy" role="2Oq$k0" />
+              <node concept="2OwXpG" id="3FsRXa7xVAz" role="2OqNvi">
+                <ref role="2Oxat5" node="3FsRXa7xV3q" resolve="oldInstance" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="3FsRXa7xVA$" role="37vLTx">
+              <ref role="3cqZAo" node="3FsRXa7xVAq" resolve="oldInstance" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3FsRXa7xVAB" role="3cqZAp">
+          <node concept="37vLTI" id="3FsRXa7xVAD" role="3clFbG">
+            <node concept="2OqwBi" id="3FsRXa7xVAH" role="37vLTJ">
+              <node concept="Xjq3P" id="3FsRXa7xVAI" role="2Oq$k0" />
+              <node concept="2OwXpG" id="3FsRXa7xVAJ" role="2OqNvi">
+                <ref role="2Oxat5" node="3FsRXa7xuuO" resolve="testLawsource" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="3FsRXa7xVAK" role="37vLTx">
+              <ref role="3cqZAo" node="3FsRXa7xVAA" resolve="testLawsource" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="3FsRXa7xVAq" role="3clF46">
+        <property role="TrG5h" value="oldInstance" />
+        <node concept="3uibUv" id="3FsRXa7xVAp" role="1tU5fm">
+          <ref role="3uigEE" to="472r:3FsRXa7mvHu" resolve="RootNodeFactory" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3FsRXa7xVAA" role="3clF46">
+        <property role="TrG5h" value="testLawsource" />
+        <node concept="3Tqbb2" id="3FsRXa7xVA_" role="1tU5fm">
+          <ref role="ehGHo" to="1z9r:3FsRXa7mqjq" resolve="TestLawsource" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="3FsRXa7xuFd" role="jymVt" />
+    <node concept="3clFb_" id="3FsRXa7xu4H" role="jymVt">
+      <property role="TrG5h" value="createRootNode" />
+      <node concept="3Tm1VV" id="3FsRXa7xu4J" role="1B3o_S" />
+      <node concept="16syzq" id="3FsRXa7xu4K" role="3clF45">
+        <ref role="16sUi3" node="3FsRXa7xu4L" resolve="T" />
+      </node>
+      <node concept="16euLQ" id="3FsRXa7xu4L" role="16eVyc">
+        <property role="TrG5h" value="T" />
+        <node concept="3Tqbb2" id="3FsRXa7xu4M" role="3ztrMU" />
+      </node>
+      <node concept="37vLTG" id="3FsRXa7xu4N" role="3clF46">
+        <property role="TrG5h" value="concept" />
+        <node concept="3bZ5Sz" id="3FsRXa7xu4O" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="3FsRXa7xu4P" role="3clF46">
+        <property role="TrG5h" value="model" />
+        <node concept="H_c77" id="3FsRXa7xu4Q" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="3FsRXa7xu4R" role="3clF47">
+        <node concept="3cpWs8" id="3FsRXa7xy8K" role="3cqZAp">
+          <node concept="3cpWsn" id="3FsRXa7xy8L" role="3cpWs9">
+            <property role="TrG5h" value="newInstance" />
+            <node concept="3Tqbb2" id="3FsRXa7xy5O" role="1tU5fm" />
+            <node concept="2OqwBi" id="3FsRXa7xy8M" role="33vP2m">
+              <node concept="37vLTw" id="3FsRXa7xy8N" role="2Oq$k0">
+                <ref role="3cqZAo" node="3FsRXa7xu4N" resolve="concept" />
+              </node>
+              <node concept="LFhST" id="3FsRXa7xy8O" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="3FsRXa7xuO1" role="3cqZAp">
+          <node concept="3clFbS" id="3FsRXa7xuO3" role="3clFbx">
+            <node concept="3clFbF" id="3FsRXa7xG2z" role="3cqZAp">
+              <node concept="37vLTI" id="3FsRXa7xH7J" role="3clFbG">
+                <node concept="1eOMI4" id="3FsRXa7xHsb" role="37vLTx">
+                  <node concept="10QFUN" id="3FsRXa7xHs8" role="1eOMHV">
+                    <node concept="3Tqbb2" id="3FsRXa7xHsd" role="10QFUM">
+                      <ref role="ehGHo" to="srlv:1nyeVyN1ImA" resolve="LawSource" />
+                    </node>
+                    <node concept="37vLTw" id="3FsRXa7xHG4" role="10QFUP">
+                      <ref role="3cqZAo" node="3FsRXa7xy8L" resolve="newInstance" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="3FsRXa7xGqz" role="37vLTJ">
+                  <node concept="37vLTw" id="3FsRXa7xG2y" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3FsRXa7xuuO" resolve="testLawsource" />
+                  </node>
+                  <node concept="3TrEf2" id="3FsRXa7xGFx" role="2OqNvi">
+                    <ref role="3Tt5mk" to="1z9r:3FsRXa7mqjr" resolve="source" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="3FsRXa7xwe8" role="3clFbw">
+            <node concept="37vLTw" id="3FsRXa7xw2I" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FsRXa7xu4N" resolve="concept" />
+            </node>
+            <node concept="3O6GUB" id="3FsRXa7xwpn" role="2OqNvi">
+              <node concept="chp4Y" id="3FsRXa7xws$" role="3QVz_e">
+                <ref role="cht4Q" to="srlv:1nyeVyN1ImA" resolve="LawSource" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="3FsRXa7xyqW" role="3cqZAp">
+          <node concept="3clFbS" id="3FsRXa7xyqY" role="3clFbx">
+            <node concept="3clFbF" id="3FsRXa7xzfY" role="3cqZAp">
+              <node concept="2OqwBi" id="3FsRXa7x_N1" role="3clFbG">
+                <node concept="2OqwBi" id="3FsRXa7xzu6" role="2Oq$k0">
+                  <node concept="37vLTw" id="3FsRXa7xzfW" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3FsRXa7xuuO" resolve="testLawsource" />
+                  </node>
+                  <node concept="3Tsc0h" id="3FsRXa7xzTm" role="2OqNvi">
+                    <ref role="3TtcxE" to="1z9r:3FsRXa7mqjt" resolve="versions" />
+                  </node>
+                </node>
+                <node concept="TSZUe" id="3FsRXa7xCIG" role="2OqNvi">
+                  <node concept="10QFUN" id="3FsRXa7xDxi" role="25WWJ7">
+                    <node concept="3Tqbb2" id="3FsRXa7xDL0" role="10QFUM">
+                      <ref role="ehGHo" to="srlv:1nyeVyNbPAY" resolve="Version" />
+                    </node>
+                    <node concept="37vLTw" id="3FsRXa7xDa6" role="10QFUP">
+                      <ref role="3cqZAo" node="3FsRXa7xy8L" resolve="newInstance" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="3FsRXa7xyQi" role="3clFbw">
+            <node concept="37vLTw" id="3FsRXa7xyDe" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FsRXa7xu4N" resolve="concept" />
+            </node>
+            <node concept="3O6GUB" id="3FsRXa7xz0B" role="2OqNvi">
+              <node concept="chp4Y" id="3FsRXa7xz3S" role="3QVz_e">
+                <ref role="cht4Q" to="srlv:1nyeVyNbPAY" resolve="Version" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="3FsRXa7xE_a" role="3cqZAp">
+          <node concept="3clFbS" id="3FsRXa7xE_c" role="3clFbx">
+            <node concept="3clFbF" id="3FsRXa7xHZg" role="3cqZAp">
+              <node concept="2OqwBi" id="3FsRXa7xKlF" role="3clFbG">
+                <node concept="2OqwBi" id="3FsRXa7xIdm" role="2Oq$k0">
+                  <node concept="37vLTw" id="3FsRXa7xHZe" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3FsRXa7xuuO" resolve="testLawsource" />
+                  </node>
+                  <node concept="3Tsc0h" id="3FsRXa7xIs2" role="2OqNvi">
+                    <ref role="3TtcxE" to="1z9r:3FsRXa7mqjw" resolve="seperatedContainers" />
+                  </node>
+                </node>
+                <node concept="TSZUe" id="3FsRXa7xNB7" role="2OqNvi">
+                  <node concept="1eOMI4" id="3FsRXa7xO2v" role="25WWJ7">
+                    <node concept="10QFUN" id="3FsRXa7xO2s" role="1eOMHV">
+                      <node concept="3Tqbb2" id="3FsRXa7xOgk" role="10QFUM">
+                        <ref role="ehGHo" to="srlv:5NNYHM3p37Z" resolve="SeperatedNamedContainer" />
+                      </node>
+                      <node concept="37vLTw" id="3FsRXa7xOIr" role="10QFUP">
+                        <ref role="3cqZAo" node="3FsRXa7xy8L" resolve="newInstance" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="3FsRXa7xF8r" role="3clFbw">
+            <node concept="37vLTw" id="3FsRXa7xEVn" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FsRXa7xu4N" resolve="concept" />
+            </node>
+            <node concept="3O6GUB" id="3FsRXa7xFj_" role="2OqNvi">
+              <node concept="chp4Y" id="3FsRXa7xHIu" role="3QVz_e">
+                <ref role="cht4Q" to="srlv:5NNYHM3p37Z" resolve="SeperatedNamedContainer" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3FsRXa7xxG3" role="3cqZAp">
+          <node concept="10QFUN" id="3FsRXa7xP3r" role="3clFbG">
+            <node concept="37vLTw" id="3FsRXa7xy8P" role="10QFUP">
+              <ref role="3cqZAo" node="3FsRXa7xy8L" resolve="newInstance" />
+            </node>
+            <node concept="16syzq" id="3FsRXa7xP3s" role="10QFUM">
+              <ref role="16sUi3" node="3FsRXa7xu4L" resolve="T" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="3FsRXa7xu4S" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="3FsRXa7xP8_" role="jymVt" />
+    <node concept="2YIFZL" id="3FsRXa7xQ3d" role="jymVt">
+      <property role="TrG5h" value="setup" />
+      <node concept="3uibUv" id="3FsRXa7y0hw" role="3clF45">
+        <ref role="3uigEE" node="3FsRXa7xtLI" resolve="TestLawSourceRootNodeFactory" />
+      </node>
+      <node concept="3Tm1VV" id="3FsRXa7xQ3g" role="1B3o_S" />
+      <node concept="3clFbS" id="3FsRXa7xQ3h" role="3clF47">
+        <node concept="3cpWs8" id="3FsRXa7xSAB" role="3cqZAp">
+          <node concept="3cpWsn" id="3FsRXa7xSAC" role="3cpWs9">
+            <property role="TrG5h" value="instance" />
+            <node concept="3uibUv" id="3FsRXa7xSAq" role="1tU5fm">
+              <ref role="3uigEE" to="472r:3FsRXa7mvHu" resolve="RootNodeFactory" />
+            </node>
+            <node concept="2YIFZM" id="3FsRXa7xSAD" role="33vP2m">
+              <ref role="37wK5l" to="472r:3FsRXa7o85m" resolve="getInstance" />
+              <ref role="1Pybhc" to="472r:3FsRXa7o5$2" resolve="RootNodeFactorySingleton" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="3FsRXa7xZQq" role="3cqZAp">
+          <node concept="3cpWsn" id="3FsRXa7xZQr" role="3cpWs9">
+            <property role="TrG5h" value="factory" />
+            <node concept="3uibUv" id="3FsRXa7xZND" role="1tU5fm">
+              <ref role="3uigEE" node="3FsRXa7xtLI" resolve="TestLawSourceRootNodeFactory" />
+            </node>
+            <node concept="2ShNRf" id="3FsRXa7xZQs" role="33vP2m">
+              <node concept="1pGfFk" id="3FsRXa7xZQt" role="2ShVmc">
+                <ref role="37wK5l" node="3FsRXa7xVAj" resolve="TestLawSourceRootNodeFactory" />
+                <node concept="37vLTw" id="3FsRXa7xZQu" role="37wK5m">
+                  <ref role="3cqZAo" node="3FsRXa7xSAC" resolve="instance" />
+                </node>
+                <node concept="37vLTw" id="3FsRXa7xZQv" role="37wK5m">
+                  <ref role="3cqZAo" node="3FsRXa7xXSX" resolve="testLawsource" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3FsRXa7xZFT" role="3cqZAp">
+          <node concept="2YIFZM" id="3FsRXa7xZM8" role="3clFbG">
+            <ref role="37wK5l" to="472r:3FsRXa7o85r" resolve="setInstance" />
+            <ref role="1Pybhc" to="472r:3FsRXa7o5$2" resolve="RootNodeFactorySingleton" />
+            <node concept="37vLTw" id="3FsRXa7xZQw" role="37wK5m">
+              <ref role="3cqZAo" node="3FsRXa7xZQr" resolve="factory" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="3FsRXa7y02n" role="3cqZAp">
+          <node concept="37vLTw" id="3FsRXa7y090" role="3cqZAk">
+            <ref role="3cqZAo" node="3FsRXa7xZQr" resolve="factory" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="3FsRXa7xXSX" role="3clF46">
+        <property role="TrG5h" value="testLawsource" />
+        <node concept="3Tqbb2" id="3FsRXa7xXSW" role="1tU5fm">
+          <ref role="ehGHo" to="1z9r:3FsRXa7mqjq" resolve="TestLawsource" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="3FsRXa7xQ$D" role="jymVt" />
+    <node concept="3clFb_" id="3FsRXa7xWBp" role="jymVt">
+      <property role="TrG5h" value="reset" />
+      <node concept="3clFbS" id="3FsRXa7xWBr" role="3clF47">
+        <node concept="3clFbF" id="3FsRXa7xXjW" role="3cqZAp">
+          <node concept="2YIFZM" id="3FsRXa7xXpQ" role="3clFbG">
+            <ref role="37wK5l" to="472r:3FsRXa7o85r" resolve="setInstance" />
+            <ref role="1Pybhc" to="472r:3FsRXa7o5$2" resolve="RootNodeFactorySingleton" />
+            <node concept="37vLTw" id="3FsRXa7xX$L" role="37wK5m">
+              <ref role="3cqZAo" node="3FsRXa7xV3q" resolve="oldInstance" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="3FsRXa7xWBt" role="3clF45" />
+      <node concept="3Tm1VV" id="3FsRXa7xWBs" role="1B3o_S" />
+    </node>
+  </node>
   <node concept="LiM7Y" id="62xOyh277eQ">
     <property role="TrG5h" value="AddEditorSelectionToSourceholder" />
     <node concept="1qefOq" id="62xOyh277eR" role="25YQCW">
@@ -9269,284 +12754,6 @@
           </node>
         </node>
       </node>
-    </node>
-  </node>
-  <node concept="LiM7Y" id="2AbE34h$B$M">
-    <property role="TrG5h" value="CanSplitToPrefixContainerOnWord" />
-    <node concept="1qefOq" id="2AbE34h$B$N" role="25YQCW">
-      <node concept="32diMH" id="2AbE34h$B$O" role="1qenE9">
-        <node concept="3_ImHQ" id="2AbE34h$B$P" role="32diMI">
-          <property role="TrG5h" value="FlintModel" />
-          <node concept="mu5$5" id="2AbE34h$B$Q" role="3_ImHT">
-            <property role="3GE5qa" value="acts" />
-            <property role="TrG5h" value="Test Act" />
-            <node concept="1FQA6B" id="2AbE34h$B$R" role="3H36mW" />
-            <node concept="1FQA6B" id="2AbE34h$B$S" role="3H36l7" />
-            <node concept="1FQA6B" id="2AbE34h$B$T" role="3H36lm" />
-            <node concept="cog_b" id="2AbE34h$B$U" role="2pmM46">
-              <property role="1hTq4$" value="https://calculemus.org/29d53f8b-6b3b-4cf5-8a39-192f9afdf373" />
-              <property role="1tl0gq" value="English" />
-              <node concept="2hPCcK" id="2AbE34h$B$V" role="2hN6Sa">
-                <node concept="19SUe$" id="2AbE34h$B$X" role="19SJt6">
-                  <property role="19SUeA" value="Bij deze verordening worden regels vastgesteld betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van persoonsgegevens" />
-                </node>
-              </node>
-            </node>
-            <node concept="1GVOM6" id="2AbE34h$B$Y" role="1GVO30">
-              <property role="1GVPtd" value="English" />
-              <property role="1GVPtb" value="Test Act" />
-            </node>
-          </node>
-          <node concept="3ainiu" id="2AbE34hDj2Y" role="3a9ffC">
-            <ref role="3aimXI" to="jov5:4L0TsavKybn" resolve="English" />
-          </node>
-        </node>
-        <node concept="32diMG" id="2AbE34h$B$Z" role="32diMK">
-          <node concept="2AEkrd" id="2AbE34h$B_0" role="32diMP">
-            <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
-            <property role="3GE5qa" value="articles" />
-            <ref role="2AErGO" node="2AbE34h$B_6" resolve="16-05-2020 t/m 11-06-2020" />
-            <node concept="3MKX5h" id="2AbE34h$B_1" role="3MKX6D">
-              <node concept="3Fnoml" id="2AbE34hla$K" role="3MKX6F">
-                <property role="3Fg1Gr" value="0" />
-                <property role="1hTQn4" value="https://calculemus.org/29d53f8b-6b3b-4cf5-8a39-192f9afdf373" />
-                <property role="3Fnomm" value="1." />
-                <node concept="3MKX5i" id="2AbE34hla$L" role="3MKX6F">
-                  <property role="3Fg1Gr" value="0" />
-                  <property role="1hTQn4" value="https://calculemus.org/29d53f8b-6b3b-4cf5-8a39-192f9afdf373" />
-                  <node concept="1P5Shq" id="2AbE34hla$M" role="2qTud8">
-                    <node concept="1P5VML" id="2AbE34hla$O" role="19SJt6">
-                      <property role="19SUeA" value="Bij deze verordening worden regels vastgesteld betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van persoonsgegevens." />
-                      <node concept="LIFWc" id="2AbE34h$Cog" role="lGtFl">
-                        <property role="OXtK3" value="true" />
-                        <property role="p6zMq" value="0" />
-                        <property role="p6zMs" value="0" />
-                        <property role="LIFWd" value="property_escapedValue_word6" />
-                        <property role="LIFWa" value="1" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3Fnoml" id="2AbE34hla$Q" role="3MKX6F">
-                <property role="3Fg1Gr" value="0" />
-                <property role="1hTQn4" value="https://calculemus.org/b91f5178-35dc-4cc8-bc59-9dd02bad44ed" />
-                <property role="3Fnomm" value="2." />
-                <node concept="3MKX5i" id="2AbE34hla$R" role="3MKX6F">
-                  <property role="3Fg1Gr" value="0" />
-                  <property role="1hTQn4" value="https://calculemus.org/b91f5178-35dc-4cc8-bc59-9dd02bad44ed" />
-                  <node concept="1P5Shq" id="2AbE34hla$S" role="2qTud8">
-                    <node concept="1P5VML" id="2AbE34hla$U" role="19SJt6">
-                      <property role="19SUeA" value="Deze verordening beschermt de grondrechten en de fundamentele vrijheden van natuurlijke personen en met name hun recht op bescherming van persoonsgegevens." />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2ANm86" id="2AbE34h$B_6" role="2T_gbu">
-            <property role="3GE5qa" value="versions" />
-            <property role="TrG5h" value="16-05-2020 t/m 11-06-2020" />
-            <property role="2AEqdP" value="2020-06-11" />
-            <property role="2AEqdO" value="2020-05-16" />
-            <property role="W2joe" value="TODO" />
-            <property role="ZyLMf" value="http://wetten.overheid.nl/1.0:c:BWBR0043324&amp;g=2020-05-16" />
-            <property role="2JHwUh" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27" />
-            <ref role="2AErGN" node="2AbE34h$B_7" resolve="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-          </node>
-          <node concept="2ATdSu" id="2AbE34h$B_7" role="32diMN">
-            <property role="2AErxT" value="BWBR0043324" />
-            <property role="TrG5h" value="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1qefOq" id="2AbE34h$B_8" role="25YQFr">
-      <node concept="32diMH" id="2AbE34h$B_9" role="1qenE9">
-        <node concept="3_ImHQ" id="2AbE34h$B_a" role="32diMI">
-          <property role="TrG5h" value="FlintModel" />
-          <node concept="mu5$5" id="2AbE34h$B_b" role="3_ImHT">
-            <property role="3GE5qa" value="acts" />
-            <property role="TrG5h" value="Test Act" />
-            <node concept="1FQA6B" id="2AbE34h$B_c" role="3H36mW" />
-            <node concept="1FQA6B" id="2AbE34h$B_d" role="3H36l7" />
-            <node concept="1FQA6B" id="2AbE34h$B_e" role="3H36lm" />
-            <node concept="cog_b" id="2AbE34h$B_f" role="2pmM46">
-              <property role="1hTq4$" value="https://calculemus.org/29d53f8b-6b3b-4cf5-8a39-192f9afdf373" />
-              <property role="1tl0gq" value="English" />
-              <node concept="2hPCcK" id="2AbE34h$B_g" role="2hN6Sa">
-                <node concept="19SUe$" id="2AbE34h$B_h" role="19SJt6">
-                  <property role="19SUeA" value="Bij deze verordening worden regels vastgesteld b" />
-                </node>
-              </node>
-            </node>
-            <node concept="cog_b" id="2AbE34h$B_i" role="2pmM46">
-              <property role="1hTq4$" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
-              <property role="1tl0gq" value="English" />
-              <node concept="2hPCcK" id="2AbE34h$B_j" role="2hN6Sa">
-                <node concept="19SUe$" id="2AbE34h$B_k" role="19SJt6">
-                  <property role="19SUeA" value="etreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van persoonsgegevens" />
-                </node>
-              </node>
-            </node>
-            <node concept="1GVOM6" id="2AbE34h$B_l" role="1GVO30">
-              <property role="1GVPtd" value="English" />
-              <property role="1GVPtb" value="Test Act" />
-            </node>
-          </node>
-          <node concept="3ainiu" id="2AbE34hDj38" role="3a9ffC">
-            <ref role="3aimXI" to="jov5:4L0TsavKybn" resolve="English" />
-          </node>
-        </node>
-        <node concept="32diMG" id="2AbE34h$B_m" role="32diMK">
-          <node concept="2AEkrd" id="2AbE34h$ChF" role="32diMP">
-            <property role="TrG5h" value="Artikel 5 (beslistermijn)" />
-            <property role="3GE5qa" value="articles" />
-            <ref role="2AErGO" node="2AbE34h$B_v" resolve="16-05-2020 t/m 11-06-2020" />
-            <node concept="3MKX5h" id="2AbE34h$ChG" role="3MKX6D">
-              <node concept="3Fnoml" id="2AbE34h$ChH" role="3MKX6F">
-                <property role="3Fg1Gr" value="0" />
-                <property role="1hTQn4" value="https://calculemus.org/29d53f8b-6b3b-4cf5-8a39-192f9afdf373" />
-                <property role="3Fnomm" value="1." />
-                <node concept="3MKX5i" id="2AbE34h$ChI" role="3MKX6F">
-                  <property role="3Fg1Gr" value="0" />
-                  <property role="1hTQn4" value="https://calculemus.org/29d53f8b-6b3b-4cf5-8a39-192f9afdf373" />
-                  <node concept="1P5Shq" id="2AbE34h$ChJ" role="2qTud8">
-                    <node concept="1P5VML" id="2AbE34h$ChK" role="19SJt6">
-                      <property role="19SUeA" value="Bij deze verordening worden regels vastgesteld b" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3Fnoml" id="2AbE34h$Con" role="3MKX6F">
-                <property role="1hTQn4" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
-                <node concept="3MKX5i" id="2AbE34h$Com" role="3MKX6F">
-                  <property role="1hTQn4" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
-                  <node concept="1P5Shq" id="2AbE34h$Coj" role="2qTud8">
-                    <node concept="1P5VML" id="2AbE34h$Col" role="19SJt6">
-                      <property role="19SUeA" value="etreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van persoonsgegevens." />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3Fnoml" id="2AbE34h$ChL" role="3MKX6F">
-                <property role="3Fg1Gr" value="0" />
-                <property role="1hTQn4" value="https://calculemus.org/b91f5178-35dc-4cc8-bc59-9dd02bad44ed" />
-                <property role="3Fnomm" value="2." />
-                <node concept="3MKX5i" id="2AbE34h$ChM" role="3MKX6F">
-                  <property role="3Fg1Gr" value="0" />
-                  <property role="1hTQn4" value="https://calculemus.org/b91f5178-35dc-4cc8-bc59-9dd02bad44ed" />
-                  <node concept="1P5Shq" id="2AbE34h$ChN" role="2qTud8">
-                    <node concept="1P5VML" id="2AbE34h$ChO" role="19SJt6">
-                      <property role="19SUeA" value="Deze verordening beschermt de grondrechten en de fundamentele vrijheden van natuurlijke personen en met name hun recht op bescherming van persoonsgegevens." />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2ANm86" id="2AbE34h$B_v" role="2T_gbu">
-            <property role="3GE5qa" value="versions" />
-            <property role="TrG5h" value="16-05-2020 t/m 11-06-2020" />
-            <property role="2AEqdP" value="2020-06-11" />
-            <property role="2AEqdO" value="2020-05-16" />
-            <property role="W2joe" value="TODO" />
-            <property role="ZyLMf" value="http://wetten.overheid.nl/1.0:c:BWBR0043324&amp;g=2020-05-16" />
-            <property role="2JHwUh" value="https://fin.triply.cc/ole/BWB/id/BWBR0043324/15325684/2020-05-16/2020-03-27" />
-            <ref role="2AErGN" node="2AbE34h$B_w" resolve="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-          </node>
-          <node concept="2ATdSu" id="2AbE34h$B_w" role="32diMN">
-            <property role="2AErxT" value="BWBR0043324" />
-            <property role="TrG5h" value="Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFbS" id="2AbE34h$B_x" role="LjaKd">
-      <node concept="3J1_TO" id="2AbE34h$B_y" role="3cqZAp">
-        <node concept="3clFbS" id="2AbE34h$B_z" role="1zxBo7">
-          <node concept="3clFbF" id="2AbE34h$B_$" role="3cqZAp">
-            <node concept="2OqwBi" id="2AbE34h$B__" role="3clFbG">
-              <node concept="2OqwBi" id="2AbE34h$B_A" role="2Oq$k0">
-                <node concept="2OqwBi" id="2AbE34h$B_B" role="2Oq$k0">
-                  <node concept="2OqwBi" id="2AbE34h$B_C" role="2Oq$k0">
-                    <node concept="369mXd" id="2AbE34h$B_D" role="2Oq$k0" />
-                    <node concept="liA8E" id="2AbE34h$B_E" role="2OqNvi">
-                      <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="2AbE34h$B_F" role="2OqNvi">
-                    <ref role="37wK5l" to="exr9:~EditorContext.getRepository()" resolve="getRepository" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="2AbE34h$B_G" role="2OqNvi">
-                  <ref role="37wK5l" to="lui2:~SRepository.getModelAccess()" resolve="getModelAccess" />
-                </node>
-              </node>
-              <node concept="liA8E" id="2AbE34h$B_H" role="2OqNvi">
-                <ref role="37wK5l" to="lui2:~ModelAccess.executeCommandInEDT(java.lang.Runnable)" resolve="executeCommandInEDT" />
-                <node concept="1bVj0M" id="2AbE34h$B_I" role="37wK5m">
-                  <node concept="3clFbS" id="2AbE34h$B_J" role="1bW5cS">
-                    <node concept="3cpWs8" id="2AbE34h$B_K" role="3cqZAp">
-                      <node concept="3cpWsn" id="2AbE34h$B_L" role="3cpWs9">
-                        <property role="TrG5h" value="selectedNode" />
-                        <node concept="3Tqbb2" id="2AbE34h$B_M" role="1tU5fm" />
-                        <node concept="2OqwBi" id="2AbE34h$B_N" role="33vP2m">
-                          <node concept="369mXd" id="2AbE34h$B_O" role="2Oq$k0" />
-                          <node concept="liA8E" id="2AbE34h$B_P" role="2OqNvi">
-                            <ref role="37wK5l" to="exr9:~EditorComponent.getSelectedNode()" resolve="getSelectedNode" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="3clFbF" id="2AbE34h$B_Q" role="3cqZAp">
-                      <node concept="2YIFZM" id="2AbE34h$B_R" role="3clFbG">
-                        <ref role="1Pybhc" node="7zM_gLgV_ke" resolve="FlintSourceReferenceGetterTestImpl" />
-                        <ref role="37wK5l" node="7zM_gLgW9pw" resolve="setup" />
-                        <node concept="2OqwBi" id="2AbE34h$B_S" role="37wK5m">
-                          <node concept="37vLTw" id="2AbE34h$B_T" role="2Oq$k0">
-                            <ref role="3cqZAo" node="2AbE34h$B_L" resolve="selectedNode" />
-                          </node>
-                          <node concept="2Xjw5R" id="2AbE34h$B_U" role="2OqNvi">
-                            <node concept="1xMEDy" id="2AbE34h$B_V" role="1xVPHs">
-                              <node concept="chp4Y" id="2AbE34h$B_W" role="ri$Ld">
-                                <ref role="cht4Q" to="1z9r:222x$3yHUFH" resolve="TestModelAndSource" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                        <node concept="Xl_RD" id="2AbE34h$B_X" role="37wK5m">
-                          <property role="Xl_RC" value="6dc21e42-105a-4f00-a1b2-5664935bab06" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3vwNmj" id="2AbE34h$B_Y" role="3cqZAp">
-            <node concept="2bRw2S" id="2AbE34h$B_Z" role="3vwVQn">
-              <ref role="2bRw2V" to="xbql:2AbE34hy4I6" resolve="SplitPrefixLine" />
-            </node>
-          </node>
-          <node concept="1MFPAf" id="2AbE34h$BA0" role="3cqZAp">
-            <ref role="1MFYO6" to="xbql:2AbE34hy4I6" resolve="SplitPrefixLine" />
-          </node>
-        </node>
-        <node concept="1wplmZ" id="2AbE34h$BA1" role="1zxBo6">
-          <node concept="3clFbS" id="2AbE34h$BA2" role="1wplMD">
-            <node concept="3clFbF" id="2AbE34h$BA3" role="3cqZAp">
-              <node concept="2YIFZM" id="2AbE34h$BA4" role="3clFbG">
-                <ref role="1Pybhc" node="7zM_gLgV_ke" resolve="FlintSourceReferenceGetterTestImpl" />
-                <ref role="37wK5l" node="4IrXXbMtprT" resolve="reset" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbH" id="2AbE34h$BA5" role="3cqZAp" />
-      <node concept="3clFbH" id="2AbE34h$BA6" role="3cqZAp" />
     </node>
   </node>
 </model>

@@ -1,0 +1,2584 @@
+{
+  "source": {
+    "name": "Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19",
+    "bwbId": "BWBR0043324"
+  },
+  "version": {
+    "name": "31-03-2020 t\/m 14-04-2020",
+    "startDate": "2020-03-31",
+    "endDate": "2020-04-14",
+    "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27",
+    "juriConnect": "TODO",
+    "wettenNl": "http:\/\/wetten.overheid.nl\/1.0:c:BWBR0043324&g=2020-03-31"
+  },
+  "text": [
+    {
+      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/0",
+      "lines": [
+        {
+          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/1",
+          "lines": [
+            {
+              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/2",
+              "lines": [
+                {
+                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/3",
+                  "text": "Beleidsregel van de Minister van Economische Zaken en Klimaat van 27 maart 2020, nr. WJZ/ 20077977, tot tegemoetkoming in de schade geleden door ondernemingen in bepaalde sectoren door de maatregelen ter bestrijding van de verdere verspreiding van COVID-19 (Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19) 2020 19159 30-03-2020 27-03-2020 WJZ/20077977 2020 19159 30-03-2020 27-03-2020 WJZ/20077977 31-03-2020 27-03-2020",
+                  "index": 3,
+                  "@type": "Line"
+                },
+                {
+                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/4",
+                  "text": "Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19 2020 19159 30-03-2020 27-03-2020 WJZ/20077977 2020 19159 30-03-2020 27-03-2020 WJZ/20077977 31-03-2020 27-03-2020",
+                  "index": 4,
+                  "@type": "Line"
+                },
+                {
+                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/5",
+                  "lines": [
+                    {
+                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/6",
+                      "lines": [
+                        {
+                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/7",
+                          "text": "De Minister van Economische Zaken en Klimaat en de Staatssecretaris van Economische Zaken en Klimaat,",
+                          "index": 7,
+                          "@type": "Line"
+                        },
+                        {
+                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/8",
+                          "lines": [
+                            {
+                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/9",
+                              "text": "Gelet op artikel 4:81 van de Algemene wet bestuursrecht ;",
+                              "index": 9,
+                              "@type": "Line"
+                            }
+                          ],
+                          "index": 8,
+                          "@type": "LineCollection"
+                        },
+                        {
+                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/10",
+                          "lines": [
+                            {
+                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/11",
+                              "text": "Besluiten:",
+                              "index": 11,
+                              "@type": "Line"
+                            }
+                          ],
+                          "index": 10,
+                          "@type": "LineCollection"
+                        }
+                      ],
+                      "index": 6,
+                      "@type": "LineCollection"
+                    },
+                    {
+                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/12",
+                      "lines": [
+                        {
+                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/13",
+                          "name": "Artikel 1 (begripsbepalingen)",
+                          "@type": "SeperatedNamedSourcePartCollection",
+                          "index": 13,
+                          "lines": [
+                            {
+                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/15",
+                              "text": "In deze beleidsregel wordt verstaan onder:",
+                              "index": 15,
+                              "@type": "Line"
+                            },
+                            {
+                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/16",
+                              "lines": [
+                                {
+                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/17",
+                                  "lines": [
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/18",
+                                      "text": "algemene de-minimisverordening: verordening (EU) nr. 1407/2013 van de Commissie van 18 december 2013 betreffende de toepassing van de artikelen 107 en 108 van het Verdrag betreffende de werking van de Europese Unie op de-minimissteun (PbEU 2013, L 352);",
+                                      "index": 18,
+                                      "@type": "Line"
+                                    }
+                                  ],
+                                  "index": 17,
+                                  "@type": "LineCollection"
+                                },
+                                {
+                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/19",
+                                  "lines": [
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/20",
+                                      "text": "gedupeerde onderneming: in Nederland gevestigde onderneming als bedoeld in artikel 5 van de Handelsregisterwet 2007 , niet zijnde een overheidsbedrijf:",
+                                      "index": 20,
+                                      "@type": "Line"
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/21",
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/22",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/23",
+                                              "prefix": "a.",
+                                              "@type": "PrefixSourcePartCollection",
+                                              "index": 23,
+                                              "lines": [
+                                                {
+                                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/23",
+                                                  "text": "die op 15 maart 2020 in het handelsregister stond ingeschreven onder een hoofdactiviteit die in bijlage 1 is opgenomen, met de daarbij behorende code van de Standaard Bedrijfsindeling;",
+                                                  "index": 23,
+                                                  "@type": "Line"
+                                                }
+                                              ]
+                                            }
+                                          ],
+                                          "index": 22,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/24",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/25",
+                                              "prefix": "b.",
+                                              "@type": "PrefixSourcePartCollection",
+                                              "index": 25,
+                                              "lines": [
+                                                {
+                                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/25",
+                                                  "text": "waar ten hoogste 250 personen werkzaam zijn, blijkend uit de inschrijving in het handelsregister op 15 maart 2020; en",
+                                                  "index": 25,
+                                                  "@type": "Line"
+                                                }
+                                              ]
+                                            }
+                                          ],
+                                          "index": 24,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/26",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/27",
+                                              "prefix": "c.",
+                                              "@type": "PrefixSourcePartCollection",
+                                              "index": 27,
+                                              "lines": [
+                                                {
+                                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/27",
+                                                  "text": "die:",
+                                                  "index": 27,
+                                                  "@type": "Line"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/28",
+                                              "lines": [
+                                                {
+                                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/29",
+                                                  "lines": [
+                                                    {
+                                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/30",
+                                                      "prefix": "1°.",
+                                                      "@type": "PrefixSourcePartCollection",
+                                                      "index": 30,
+                                                      "lines": [
+                                                        {
+                                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/30",
+                                                          "text": "voor zover het een onderneming, niet zijnde een horecaonderneming, betreft ten minste één vestiging heeft met een ander adres dan het privéadres van de eigenaar of eigenaren van de onderneming; of",
+                                                          "index": 30,
+                                                          "@type": "Line"
+                                                        }
+                                                      ]
+                                                    }
+                                                  ],
+                                                  "index": 29,
+                                                  "@type": "LineCollection"
+                                                },
+                                                {
+                                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/31",
+                                                  "lines": [
+                                                    {
+                                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/32",
+                                                      "prefix": "2°.",
+                                                      "@type": "PrefixSourcePartCollection",
+                                                      "index": 32,
+                                                      "lines": [
+                                                        {
+                                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/32",
+                                                          "text": "voor zover het een horecaonderneming betreft ten minste één horecagelegenheid huurt, pacht of in eigendom heeft;",
+                                                          "index": 32,
+                                                          "@type": "Line"
+                                                        }
+                                                      ]
+                                                    }
+                                                  ],
+                                                  "index": 31,
+                                                  "@type": "LineCollection"
+                                                }
+                                              ],
+                                              "index": 28,
+                                              "@type": "LineCollection"
+                                            }
+                                          ],
+                                          "index": 26,
+                                          "@type": "LineCollection"
+                                        }
+                                      ],
+                                      "index": 21,
+                                      "@type": "LineCollection"
+                                    }
+                                  ],
+                                  "index": 19,
+                                  "@type": "LineCollection"
+                                },
+                                {
+                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/33",
+                                  "lines": [
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/34",
+                                      "text": "handelsregister: handelsregister als bedoeld in artikel 2 van de Handelsregisterwet 2007 ;",
+                                      "index": 34,
+                                      "@type": "Line"
+                                    }
+                                  ],
+                                  "index": 33,
+                                  "@type": "LineCollection"
+                                },
+                                {
+                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/35",
+                                  "lines": [
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/36",
+                                      "text": "horecaonderneming: onderneming die op 15 maart 2020 stond ingeschreven in het handelsregister onder de code 56.10.1, 56.10.2 of 56.30 van de Standaard Bedrijfsindeling;",
+                                      "index": 36,
+                                      "@type": "Line"
+                                    }
+                                  ],
+                                  "index": 35,
+                                  "@type": "LineCollection"
+                                },
+                                {
+                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/37",
+                                  "lines": [
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/38",
+                                      "text": "minister: Minister van Economische Zaken en Klimaat;",
+                                      "index": 38,
+                                      "@type": "Line"
+                                    }
+                                  ],
+                                  "index": 37,
+                                  "@type": "LineCollection"
+                                },
+                                {
+                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/39",
+                                  "lines": [
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/40",
+                                      "text": "overheidsbedrijf: overheidsbedrijf als bedoeld in artikel 25g, eerste lid, van de Mededingingswet ;",
+                                      "index": 40,
+                                      "@type": "Line"
+                                    }
+                                  ],
+                                  "index": 39,
+                                  "@type": "LineCollection"
+                                },
+                                {
+                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/41",
+                                  "lines": [
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/42",
+                                      "text": "verklaring de-minimissteun: verklaring van de gedupeerde onderneming waarin deze bevestigt dat de tegemoetkoming niet zal leiden tot een overschrijding van het de-minimisplafond, bedoeld in artikel 3, tweede lid, van de algemene de-minimisverordening;",
+                                      "index": 42,
+                                      "@type": "Line"
+                                    }
+                                  ],
+                                  "index": 41,
+                                  "@type": "LineCollection"
+                                },
+                                {
+                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/43",
+                                  "lines": [
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/44",
+                                      "text": "vestiging: vestiging als bedoeld in artikel 1, eerste lid, onderdeel j, van de Handelsregisterwet 2007 .",
+                                      "index": 44,
+                                      "@type": "Line"
+                                    }
+                                  ],
+                                  "index": 43,
+                                  "@type": "LineCollection"
+                                }
+                              ],
+                              "index": 16,
+                              "@type": "LineCollection"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/45",
+                          "name": "Artikel 2 (verstrekking en hoogte tegemoetkoming)",
+                          "@type": "SeperatedNamedSourcePartCollection",
+                          "index": 45,
+                          "lines": [
+                            {
+                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/47",
+                              "lines": [
+                                {
+                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/48",
+                                  "prefix": "1",
+                                  "@type": "PrefixSourcePartCollection",
+                                  "index": 48,
+                                  "lines": [
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/48",
+                                      "text": "De minister verstrekt op aanvraag een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020:",
+                                      "index": 48,
+                                      "@type": "Line"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/49",
+                                  "lines": [
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/50",
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/51",
+                                          "prefix": "a.",
+                                          "@type": "PrefixSourcePartCollection",
+                                          "index": 51,
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/51",
+                                              "text": "ten minste € 4000,– aan omzetverlies te lijden als gevolg van de maatregelen ter bestrijding van de verdere verspreiding van COVID-19;",
+                                              "index": 51,
+                                              "@type": "Line"
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "index": 50,
+                                      "@type": "LineCollection"
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/52",
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/53",
+                                          "prefix": "b.",
+                                          "@type": "PrefixSourcePartCollection",
+                                          "index": 53,
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/53",
+                                              "text": "ten minste € 4000,– aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19.",
+                                              "index": 53,
+                                              "@type": "Line"
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "index": 52,
+                                      "@type": "LineCollection"
+                                    }
+                                  ],
+                                  "index": 49,
+                                  "@type": "LineCollection"
+                                }
+                              ],
+                              "index": 47,
+                              "@type": "LineCollection"
+                            },
+                            {
+                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/54",
+                              "lines": [
+                                {
+                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/55",
+                                  "prefix": "2",
+                                  "@type": "PrefixSourcePartCollection",
+                                  "index": 55,
+                                  "lines": [
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/55",
+                                      "text": "De tegemoetkoming bedraagt € 4000 per gedupeerde onderneming.",
+                                      "index": 55,
+                                      "@type": "Line"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "index": 54,
+                              "@type": "LineCollection"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/56",
+                          "name": "Artikel 3 (afwijzingsgronden)",
+                          "@type": "SeperatedNamedSourcePartCollection",
+                          "index": 56,
+                          "lines": [
+                            {
+                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/58",
+                              "text": "De minister beslist afwijzend op een aanvraag indien:",
+                              "index": 58,
+                              "@type": "Line"
+                            },
+                            {
+                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/59",
+                              "lines": [
+                                {
+                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/60",
+                                  "lines": [
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/61",
+                                      "prefix": "a.",
+                                      "@type": "PrefixSourcePartCollection",
+                                      "index": 61,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/61",
+                                          "text": "de aanvraag niet voldoet aan de bij deze beleidsregel gestelde eisen;",
+                                          "index": 61,
+                                          "@type": "Line"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "index": 60,
+                                  "@type": "LineCollection"
+                                },
+                                {
+                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/62",
+                                  "lines": [
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/63",
+                                      "prefix": "b.",
+                                      "@type": "PrefixSourcePartCollection",
+                                      "index": 63,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/63",
+                                          "text": "de gedupeerde onderneming in staat van faillissement verkeert dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming is ingediend;",
+                                          "index": 63,
+                                          "@type": "Line"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "index": 62,
+                                  "@type": "LineCollection"
+                                },
+                                {
+                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/64",
+                                  "lines": [
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/65",
+                                      "prefix": "c.",
+                                      "@type": "PrefixSourcePartCollection",
+                                      "index": 65,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/65",
+                                          "text": "de tegemoetkoming niet verstrekt kan worden op grond van de algemene de-minimisverordening.",
+                                          "index": 65,
+                                          "@type": "Line"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "index": 64,
+                                  "@type": "LineCollection"
+                                }
+                              ],
+                              "index": 59,
+                              "@type": "LineCollection"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/66",
+                          "name": "Artikel 4 (informatieverplichtingen bij aanvraag en aanvraagperiode)",
+                          "@type": "SeperatedNamedSourcePartCollection",
+                          "index": 66,
+                          "lines": [
+                            {
+                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/68",
+                              "lines": [
+                                {
+                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/69",
+                                  "prefix": "1",
+                                  "@type": "PrefixSourcePartCollection",
+                                  "index": 69,
+                                  "lines": [
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/69",
+                                      "text": "Een aanvraag wordt ingediend met gebruikmaking van een door de minister beschikbaar gesteld middel.",
+                                      "index": 69,
+                                      "@type": "Line"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "index": 68,
+                              "@type": "LineCollection"
+                            },
+                            {
+                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/70",
+                              "lines": [
+                                {
+                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/71",
+                                  "prefix": "2",
+                                  "@type": "PrefixSourcePartCollection",
+                                  "index": 71,
+                                  "lines": [
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/71",
+                                      "text": "Een aanvraag omvat in ieder geval:",
+                                      "index": 71,
+                                      "@type": "Line"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/72",
+                                  "lines": [
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/73",
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/74",
+                                          "prefix": "a.",
+                                          "@type": "PrefixSourcePartCollection",
+                                          "index": 74,
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/74",
+                                              "text": "gegevens over de gedupeerde onderneming, waaronder het nummer waarmee de gedupeerde onderneming geregistreerd is bij de Kamer van Koophandel, het post- en bezoekadres en het rekeningnummer dat op naam van de gedupeerde onderneming staat;",
+                                              "index": 74,
+                                              "@type": "Line"
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "index": 73,
+                                      "@type": "LineCollection"
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/75",
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/76",
+                                          "prefix": "b.",
+                                          "@type": "PrefixSourcePartCollection",
+                                          "index": 76,
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/76",
+                                              "text": "gegevens over de contactpersoon bij de gedupeerde onderneming, waaronder de naam, het telefoonnummer en het e-mailadres;",
+                                              "index": 76,
+                                              "@type": "Line"
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "index": 75,
+                                      "@type": "LineCollection"
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/77",
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/78",
+                                          "prefix": "c.",
+                                          "@type": "PrefixSourcePartCollection",
+                                          "index": 78,
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/78",
+                                              "text": "een verklaring dat de gedupeerde onderneming geen overheidsbedrijf is;",
+                                              "index": 78,
+                                              "@type": "Line"
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "index": 77,
+                                      "@type": "LineCollection"
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/79",
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/80",
+                                          "prefix": "d.",
+                                          "@type": "PrefixSourcePartCollection",
+                                          "index": 80,
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/80",
+                                              "text": "een verklaring de-minimissteun;",
+                                              "index": 80,
+                                              "@type": "Line"
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "index": 79,
+                                      "@type": "LineCollection"
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/81",
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/82",
+                                          "prefix": "e.",
+                                          "@type": "PrefixSourcePartCollection",
+                                          "index": 82,
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/82",
+                                              "text": "een verklaring dat de gedupeerde onderneming op het moment van aanvraag voldoet aan de bij deze beleidsregel gestelde eisen;",
+                                              "index": 82,
+                                              "@type": "Line"
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "index": 81,
+                                      "@type": "LineCollection"
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/83",
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/84",
+                                          "prefix": "f.",
+                                          "@type": "PrefixSourcePartCollection",
+                                          "index": 84,
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/84",
+                                              "text": "een verklaring waarin de gedupeerde onderneming aangeeft dat de onderneming in de periode van 16 maart 2020 tot en met 15 juni 2020 een omzetverlies verwacht te lijden van ten minste € 4000,–; en",
+                                              "index": 84,
+                                              "@type": "Line"
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "index": 83,
+                                      "@type": "LineCollection"
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/85",
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/86",
+                                          "prefix": "g.",
+                                          "@type": "PrefixSourcePartCollection",
+                                          "index": 86,
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/86",
+                                              "text": "een verklaring waarin de gedupeerde onderneming aangeeft dat de onderneming in de periode van 16 maart 2020 tot en met 15 juni 2020 verwacht ten minste € 4000,– aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19.",
+                                              "index": 86,
+                                              "@type": "Line"
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "index": 85,
+                                      "@type": "LineCollection"
+                                    }
+                                  ],
+                                  "index": 72,
+                                  "@type": "LineCollection"
+                                }
+                              ],
+                              "index": 70,
+                              "@type": "LineCollection"
+                            },
+                            {
+                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/87",
+                              "lines": [
+                                {
+                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/88",
+                                  "prefix": "3",
+                                  "@type": "PrefixSourcePartCollection",
+                                  "index": 88,
+                                  "lines": [
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/88",
+                                      "text": "Een aanvraag kan worden ingediend in de periode van 27 maart 2020 tot en met 26 juni 2020.",
+                                      "index": 88,
+                                      "@type": "Line"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "index": 87,
+                              "@type": "LineCollection"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/89",
+                          "name": "Artikel 5 (beslistermijn)",
+                          "@type": "SeperatedNamedSourcePartCollection",
+                          "index": 89,
+                          "lines": [
+                            {
+                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/91",
+                              "text": "De minister beslist binnen drie weken na ontvangst van een aanvraag. Indien niet binnen deze termijn kan worden beslist, stelt de minister de aanvrager daarvan in kennis en noemt daarbij een redelijke termijn waarbinnen de beslissing wel kan worden genomen.",
+                              "index": 91,
+                              "@type": "Line"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/92",
+                          "name": "Artikel 6 (aanpassing tegemoetkoming achteraf)",
+                          "@type": "SeperatedNamedSourcePartCollection",
+                          "index": 92,
+                          "lines": [
+                            {
+                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/94",
+                              "text": "De minister kan de hoogte van de tegemoetkoming binnen vijf jaar na de verstrekking herzien dan wel de beschikking tot de tegemoetkoming intrekken, indien blijkt dat de tegemoetkoming, door onjuiste gegevensverstrekking door de gedupeerde onderneming, niet in overeenstemming met deze beleidsregel is verstrekt.",
+                              "index": 94,
+                              "@type": "Line"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/95",
+                          "name": "Artikel 7 (staatssteun)",
+                          "@type": "SeperatedNamedSourcePartCollection",
+                          "index": 95,
+                          "lines": [
+                            {
+                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/97",
+                              "text": "De tegemoetkoming, bedoeld in artikel 2 , bevat staatssteun en wordt gerechtvaardigd door de algemene de-minimisverordening.",
+                              "index": 97,
+                              "@type": "Line"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/98",
+                          "name": "Artikel 8 (inwerkingtreding en vervaldatum)",
+                          "@type": "SeperatedNamedSourcePartCollection",
+                          "index": 98,
+                          "lines": [
+                            {
+                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/100",
+                              "lines": [
+                                {
+                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/101",
+                                  "prefix": "1",
+                                  "@type": "PrefixSourcePartCollection",
+                                  "index": 101,
+                                  "lines": [
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/101",
+                                      "text": "Deze beleidsregel treedt in werking met ingang van de dag na de datum van uitgifte van de Staatscourant waarin zij wordt geplaatst, en werkt terug tot en met 27 maart 2020.",
+                                      "index": 101,
+                                      "@type": "Line"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "index": 100,
+                              "@type": "LineCollection"
+                            },
+                            {
+                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/102",
+                              "lines": [
+                                {
+                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/103",
+                                  "prefix": "2",
+                                  "@type": "PrefixSourcePartCollection",
+                                  "index": 103,
+                                  "lines": [
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/103",
+                                      "text": "Deze beleidsregel vervalt met ingang van 1 januari 2021, met dien verstande dat de beleidsregel van toepassing blijft op aanvragen om tegemoetkoming die uiterlijk 26 juni 2020 zijn ingediend, dan wel op tegemoetkomingen die voor 1 januari 2021 zijn verstrekt.",
+                                      "index": 103,
+                                      "@type": "Line"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "index": 102,
+                              "@type": "LineCollection"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/104",
+                          "name": "Artikel 9 (citeertitel)",
+                          "@type": "SeperatedNamedSourcePartCollection",
+                          "index": 104,
+                          "lines": [
+                            {
+                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/106",
+                              "text": "Deze beleidsregel wordt aangehaald als: Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19.",
+                              "index": 106,
+                              "@type": "Line"
+                            }
+                          ]
+                        }
+                      ],
+                      "index": 12,
+                      "@type": "LineCollection"
+                    },
+                    {
+                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/107",
+                      "lines": [
+                        {
+                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/108",
+                          "lines": [
+                            {
+                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/109",
+                              "text": "Deze beleidsregel zal met de toelichting in de Staatscourant worden geplaatst.",
+                              "index": 109,
+                              "@type": "Line"
+                            }
+                          ],
+                          "index": 108,
+                          "@type": "LineCollection"
+                        },
+                        {
+                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/110",
+                          "text": "&#39;s-Gravenhage 27 maart 2020",
+                          "index": 110,
+                          "@type": "Line"
+                        },
+                        {
+                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/111",
+                          "text": "De Minister van Economische Zaken en Klimaat, E.D. Wiebes",
+                          "index": 111,
+                          "@type": "Line"
+                        },
+                        {
+                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/112",
+                          "text": "De Staatssecretaris van Economische Zaken en Klimaat, M.C.G. Keijzer",
+                          "index": 112,
+                          "@type": "Line"
+                        }
+                      ],
+                      "index": 107,
+                      "@type": "LineCollection"
+                    },
+                    {
+                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/113",
+                      "name": "Bijlage 1 behorende bij artikel 1 van de Beleidsregel tegemoetkoming ondernemers getroffen sectoren COVID-19: activiteiten met de daarbij behorende code van de standaard bedrijfsindeling (SBI-code)",
+                      "@type": "SeperatedNamedSourcePartCollection",
+                      "index": 113,
+                      "lines": [
+                        {
+                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/115",
+                          "@type": "Table",
+                          "index": 115,
+                          "lines": [
+                            {
+                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/116",
+                              "@type": "TableGroup",
+                              "index": 116,
+                              "lines": [
+                                {
+                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/117",
+                                  "@type": "TableHead",
+                                  "index": 117,
+                                  "lines": [
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/118",
+                                      "@type": "TableRow",
+                                      "index": 118,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/119",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/120",
+                                              "text": "Omschrijving activiteit",
+                                              "index": 120,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 119,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/121",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/122",
+                                              "text": "SBI-code",
+                                              "index": 122,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 121,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/123",
+                                  "@type": "TableBody",
+                                  "index": 123,
+                                  "lines": [
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/124",
+                                      "@type": "TableRow",
+                                      "index": 124,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/125",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/126",
+                                              "text": "Hotel-restaurants",
+                                              "index": 126,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 125,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/127",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/128",
+                                              "text": "55.10.1",
+                                              "index": 128,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 127,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/129",
+                                      "@type": "TableRow",
+                                      "index": 129,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/130",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/131",
+                                              "text": "Hotels (geen hotel-restaurants), pensions en conferentieoorden",
+                                              "index": 131,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 130,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/132",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/133",
+                                              "text": "55.10.2",
+                                              "index": 133,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 132,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/134",
+                                      "@type": "TableRow",
+                                      "index": 134,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/135",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/136",
+                                              "text": "Restaurants",
+                                              "index": 136,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 135,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/137",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/138",
+                                              "text": "56.10.1",
+                                              "index": 138,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 137,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/139",
+                                      "@type": "TableRow",
+                                      "index": 139,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/140",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/141",
+                                              "text": "Fastfoodrestaurants, cafetaria’s, ijssalons, eetkramen e.d.",
+                                              "index": 141,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 140,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/142",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/143",
+                                              "text": "56.10.2",
+                                              "index": 143,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 142,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/144",
+                                      "@type": "TableRow",
+                                      "index": 144,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/145",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/146",
+                                              "text": "Eventcatering",
+                                              "index": 146,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 145,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/147",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/148",
+                                              "text": "56.21",
+                                              "index": 148,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 147,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/149",
+                                      "@type": "TableRow",
+                                      "index": 149,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/150",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/151",
+                                              "text": "Cafés",
+                                              "index": 151,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 150,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/152",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/153",
+                                              "text": "56.30",
+                                              "index": 153,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 152,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/154",
+                                      "@type": "TableRow",
+                                      "index": 154,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/155",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/156",
+                                              "text": "Bioscopen",
+                                              "index": 156,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 155,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/157",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/158",
+                                              "text": "59.14",
+                                              "index": 158,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 157,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/159",
+                                      "@type": "TableRow",
+                                      "index": 159,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/160",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/161",
+                                              "text": "Reisbemiddeling",
+                                              "index": 161,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 160,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/162",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/163",
+                                              "text": "79.11.1",
+                                              "index": 163,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 162,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/164",
+                                      "@type": "TableRow",
+                                      "index": 164,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/165",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/166",
+                                              "text": "Reisorganisatoren",
+                                              "index": 166,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 165,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/167",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/168",
+                                              "text": "79.11.2",
+                                              "index": 168,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 167,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/169",
+                                      "@type": "TableRow",
+                                      "index": 169,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/170",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/171",
+                                              "text": "Organiseren van congressen en beurzen",
+                                              "index": 171,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 170,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/172",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/173",
+                                              "text": "82.30",
+                                              "index": 173,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 172,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/174",
+                                      "@type": "TableRow",
+                                      "index": 174,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/175",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/176",
+                                              "text": "Dansscholen",
+                                              "index": 176,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 175,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/177",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/178",
+                                              "text": "85.52.1",
+                                              "index": 178,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 177,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/179",
+                                      "@type": "TableRow",
+                                      "index": 179,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/180",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/181",
+                                              "text": "Kunstzinnige vorming van amateurs (geen dansscholen)",
+                                              "index": 181,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 180,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/182",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/183",
+                                              "text": "85.52.2",
+                                              "index": 183,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 182,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/184",
+                                      "@type": "TableRow",
+                                      "index": 184,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/185",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/186",
+                                              "text": "Auto-en motorrijscholen",
+                                              "index": 186,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 185,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/187",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/188",
+                                              "text": "85.53",
+                                              "index": 188,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 187,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/189",
+                                      "@type": "TableRow",
+                                      "index": 189,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/190",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/191",
+                                              "text": "Beoefening van podiumkunst",
+                                              "index": 191,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 190,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/192",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/193",
+                                              "text": "90.01.1",
+                                              "index": 193,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 192,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/194",
+                                      "@type": "TableRow",
+                                      "index": 194,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/195",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/196",
+                                              "text": "Producenten van podiumkunst",
+                                              "index": 196,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 195,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/197",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/198",
+                                              "text": "90.01.2",
+                                              "index": 198,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 197,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/199",
+                                      "@type": "TableRow",
+                                      "index": 199,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/200",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/201",
+                                              "text": "Circus en variété",
+                                              "index": 201,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 200,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/202",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/203",
+                                              "text": "90.01.3",
+                                              "index": 203,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 202,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/204",
+                                      "@type": "TableRow",
+                                      "index": 204,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/205",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/206",
+                                              "text": "Dienstverlening voor uitvoerende kunst",
+                                              "index": 206,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 205,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/207",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/208",
+                                              "text": "90.02",
+                                              "index": 208,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 207,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/209",
+                                      "@type": "TableRow",
+                                      "index": 209,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/210",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/211",
+                                              "text": "Theaters en schouwburgen",
+                                              "index": 211,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 210,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/212",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/213",
+                                              "text": "90.04.1",
+                                              "index": 213,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 212,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/214",
+                                      "@type": "TableRow",
+                                      "index": 214,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/215",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/216",
+                                              "text": "Evenementenhallen",
+                                              "index": 216,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 215,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/217",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/218",
+                                              "text": "90.04.2",
+                                              "index": 218,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 217,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/219",
+                                      "@type": "TableRow",
+                                      "index": 219,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/220",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/221",
+                                              "text": "Musea",
+                                              "index": 221,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 220,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/222",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/223",
+                                              "text": "91.02.1",
+                                              "index": 223,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 222,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/224",
+                                      "@type": "TableRow",
+                                      "index": 224,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/225",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/226",
+                                              "text": "Kunstgalerieën en -expositieruimten",
+                                              "index": 226,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 225,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/227",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/228",
+                                              "text": "91.02.2",
+                                              "index": 228,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 227,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/229",
+                                      "@type": "TableRow",
+                                      "index": 229,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/230",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/231",
+                                              "text": "Casino’s",
+                                              "index": 231,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 230,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/232",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/233",
+                                              "text": "92.00.1",
+                                              "index": 233,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 232,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/234",
+                                      "@type": "TableRow",
+                                      "index": 234,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/235",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/236",
+                                              "text": "Exploitatie van speelautomaten",
+                                              "index": 236,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 235,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/237",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/238",
+                                              "text": "92.00.9",
+                                              "index": 238,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 237,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/239",
+                                      "@type": "TableRow",
+                                      "index": 239,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/240",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/241",
+                                              "text": "Sportaccommodaties",
+                                              "index": 241,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 240,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/242",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/243",
+                                              "text": "93.11",
+                                              "index": 243,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 242,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/244",
+                                      "@type": "TableRow",
+                                      "index": 244,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/245",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/246",
+                                              "text": "Veldvoetbal",
+                                              "index": 246,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 245,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/247",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/248",
+                                              "text": "93.12.1",
+                                              "index": 248,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 247,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/249",
+                                      "@type": "TableRow",
+                                      "index": 249,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/250",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/251",
+                                              "text": "Veldsport in teamverband (geen voetbal)",
+                                              "index": 251,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 250,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/252",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/253",
+                                              "text": "93.12.2",
+                                              "index": 253,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 252,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/254",
+                                      "@type": "TableRow",
+                                      "index": 254,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/255",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/256",
+                                              "text": "Atletiek",
+                                              "index": 256,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 255,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/257",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/258",
+                                              "text": "93.12.3",
+                                              "index": 258,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 257,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/259",
+                                      "@type": "TableRow",
+                                      "index": 259,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/260",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/261",
+                                              "text": "Tennis",
+                                              "index": 261,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 260,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/262",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/263",
+                                              "text": "93.12.4",
+                                              "index": 263,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 262,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/264",
+                                      "@type": "TableRow",
+                                      "index": 264,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/265",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/266",
+                                              "text": "Paardensport en maneges",
+                                              "index": 266,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 265,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/267",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/268",
+                                              "text": "93.12.5",
+                                              "index": 268,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 267,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/269",
+                                      "@type": "TableRow",
+                                      "index": 269,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/270",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/271",
+                                              "text": "Wielersport",
+                                              "index": 271,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 270,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/272",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/273",
+                                              "text": "93.12.6",
+                                              "index": 273,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 272,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/274",
+                                      "@type": "TableRow",
+                                      "index": 274,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/275",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/276",
+                                              "text": "Auto- en motorsport",
+                                              "index": 276,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 275,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/277",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/278",
+                                              "text": "93.12.7",
+                                              "index": 278,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 277,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/279",
+                                      "@type": "TableRow",
+                                      "index": 279,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/280",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/281",
+                                              "text": "Wintersport",
+                                              "index": 281,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 280,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/282",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/283",
+                                              "text": "93.12.8",
+                                              "index": 283,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 282,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/284",
+                                      "@type": "TableRow",
+                                      "index": 284,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/285",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/286",
+                                              "text": "Overige buitensport",
+                                              "index": 286,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 285,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/287",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/288",
+                                              "text": "93.12.9",
+                                              "index": 288,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 287,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/289",
+                                      "@type": "TableRow",
+                                      "index": 289,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/290",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/291",
+                                              "text": "Fitnesscentra",
+                                              "index": 291,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 290,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/292",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/293",
+                                              "text": "93.13",
+                                              "index": 293,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 292,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/294",
+                                      "@type": "TableRow",
+                                      "index": 294,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/295",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/296",
+                                              "text": "Indviduele zaalsport",
+                                              "index": 296,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 295,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/297",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/298",
+                                              "text": "93.14.1",
+                                              "index": 298,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 297,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/299",
+                                      "@type": "TableRow",
+                                      "index": 299,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/300",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/301",
+                                              "text": "Zaalsport in teamverband",
+                                              "index": 301,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 300,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/302",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/303",
+                                              "text": "93.14.2",
+                                              "index": 303,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 302,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/304",
+                                      "@type": "TableRow",
+                                      "index": 304,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/305",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/306",
+                                              "text": "Kracht- en vechtsport",
+                                              "index": 306,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 305,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/307",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/308",
+                                              "text": "93.14.3",
+                                              "index": 308,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 307,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/309",
+                                      "@type": "TableRow",
+                                      "index": 309,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/310",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/311",
+                                              "text": "Bowlen, kegelen, biljarten e.d.",
+                                              "index": 311,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 310,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/312",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/313",
+                                              "text": "93.14.4",
+                                              "index": 313,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 312,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/314",
+                                      "@type": "TableRow",
+                                      "index": 314,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/315",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/316",
+                                              "text": "Denksport",
+                                              "index": 316,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 315,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/317",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/318",
+                                              "text": "93.14.5",
+                                              "index": 318,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 317,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/319",
+                                      "@type": "TableRow",
+                                      "index": 319,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/320",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/321",
+                                              "text": "Sportscholen",
+                                              "index": 321,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 320,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/322",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/323",
+                                              "text": "93.14.6",
+                                              "index": 323,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 322,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/324",
+                                      "@type": "TableRow",
+                                      "index": 324,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/325",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/326",
+                                              "text": "Overige binnensport en omnisport",
+                                              "index": 326,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 325,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/327",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/328",
+                                              "text": "93.14.9",
+                                              "index": 328,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 327,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/329",
+                                      "@type": "TableRow",
+                                      "index": 329,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/330",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/331",
+                                              "text": "Zwem- en onderwatersport",
+                                              "index": 331,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 330,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/332",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/333",
+                                              "text": "93.15.1",
+                                              "index": 333,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 332,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/334",
+                                      "@type": "TableRow",
+                                      "index": 334,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/335",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/336",
+                                              "text": "Roei- kano- zeil- en surfsport e.d.",
+                                              "index": 336,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 335,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/337",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/338",
+                                              "text": "93.15.2",
+                                              "index": 338,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 337,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/339",
+                                      "@type": "TableRow",
+                                      "index": 339,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/340",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/341",
+                                              "text": "Organiseren van sportevenement",
+                                              "index": 341,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 340,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/342",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/343",
+                                              "text": "93.19.5",
+                                              "index": 343,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 342,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/344",
+                                      "@type": "TableRow",
+                                      "index": 344,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/345",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/346",
+                                              "text": "Pret-en themaparken",
+                                              "index": 346,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 345,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/347",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/348",
+                                              "text": "93.21.1",
+                                              "index": 348,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 347,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/349",
+                                      "@type": "TableRow",
+                                      "index": 349,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/350",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/351",
+                                              "text": "Kermisattracties",
+                                              "index": 351,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 350,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/352",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/353",
+                                              "text": "93.21.2",
+                                              "index": 353,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 352,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/354",
+                                      "@type": "TableRow",
+                                      "index": 354,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/355",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/356",
+                                              "text": "Haarverzorging",
+                                              "index": 356,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 355,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/357",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/358",
+                                              "text": "96.02.1",
+                                              "index": 358,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 357,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/359",
+                                      "@type": "TableRow",
+                                      "index": 359,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/360",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/361",
+                                              "text": "Schoonheidsverzorging, pedicures en manicures, visagie en image consulting",
+                                              "index": 361,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 360,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/362",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/363",
+                                              "text": "96.02.2",
+                                              "index": 363,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 362,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/364",
+                                      "@type": "TableRow",
+                                      "index": 364,
+                                      "lines": [
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/365",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/366",
+                                              "text": "Sauna’s, solaria, baden e.d.",
+                                              "index": 366,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 365,
+                                          "@type": "LineCollection"
+                                        },
+                                        {
+                                          "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/367",
+                                          "lines": [
+                                            {
+                                              "id": "https:\/\/fin.triply.cc\/ole\/BWB\/id\/BWBR0043324\/15325684\/2020-03-31\/2020-03-27\/structuurkenmerk\/368",
+                                              "text": "96.04",
+                                              "index": 368,
+                                              "@type": "Line"
+                                            }
+                                          ],
+                                          "index": 367,
+                                          "@type": "LineCollection"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "index": 5,
+                  "@type": "LineCollection"
+                }
+              ],
+              "index": 2,
+              "@type": "LineCollection"
+            }
+          ],
+          "index": 1,
+          "@type": "LineCollection"
+        }
+      ],
+      "index": 0,
+      "@type": "LineCollection"
+    }
+  ]
+}
