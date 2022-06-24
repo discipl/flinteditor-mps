@@ -509,15 +509,19 @@ task downloadLinuxJbr(type: Copy) {
     into(downloadDir)
 }
 
-task bundleMacosJbr() {
+def shouldDownloadMacosJBR() {
     if(OperatingSystem.current().isWindows()){
         logger.warn('Cannot build MAC distribution on windows')
-        return
+        return false
     }
+    return true
+}
 
+task bundleMacosJbr() {
     group = 'jbr'
     def dirName = "osx"
     def downloadDir = new File(jbrsDir, dirName)
+    onlyIf { shouldDownloadMacosJBR() }
     doFirst {
         delete {
             delete new File(ideDir, 'Flint.app')
@@ -550,14 +554,10 @@ task bundleMacosJbr() {
 }
 
 task downloadMacOsJbr(type: Copy, group: 'jbr') {
-    if(OperatingSystem.current().isWindows()){
-        logger.warn('Cannot build MAC distribution on windows')
-        return
-    }
     group = 'jbr'
     def dirName = "osx"
     def downloadDir = new File(jbrsDir, dirName)
-    onlyIf { !downloadDir.exists() || downloadDir.list().size() == 0 }
+    onlyIf { shouldDownloadMacosJBR() && (!downloadDir.exists() || downloadDir.list().size() == 0) }
     doFirst {
         delete {
             delete downloadDir
