@@ -164,7 +164,7 @@
       <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
-        <reference id="1171315804605" name="concept" index="2RRcyH" />
+        <child id="6750920497477046361" name="conceptArgument" index="3MHsoP" />
       </concept>
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
         <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
@@ -969,7 +969,9 @@
                           <ref role="3cqZAo" node="4MnBD26PBdc" resolve="it" />
                         </node>
                         <node concept="2RRcyG" id="4MnBD26PBIi" role="2OqNvi">
-                          <ref role="2RRcyH" to="srlv:1nyeVyNbPAY" resolve="Version" />
+                          <node concept="chp4Y" id="4BdHq278h1h" role="3MHsoP">
+                            <ref role="cht4Q" to="srlv:1nyeVyNbPAY" resolve="Version" />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -996,7 +998,9 @@
                               <node concept="I4A8Y" id="5WN4PLFWrzi" role="2OqNvi" />
                             </node>
                             <node concept="2RRcyG" id="5WN4PLFWrzj" role="2OqNvi">
-                              <ref role="2RRcyH" to="srlv:1nyeVyNiRPP" resolve="OldArticle" />
+                              <node concept="chp4Y" id="4BdHq278h1i" role="3MHsoP">
+                                <ref role="cht4Q" to="srlv:1nyeVyNiRPP" resolve="OldArticle" />
+                              </node>
                             </node>
                           </node>
                           <node concept="3zZkjj" id="5WN4PLFWrzk" role="2OqNvi">

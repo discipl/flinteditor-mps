@@ -7,7 +7,7 @@
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
@@ -588,6 +588,7 @@
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
+      <concept id="8329979535468945057" name="jetbrains.mps.lang.smodel.structure.Node_PresentationOperation" flags="ng" index="2Iv5rx" />
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
@@ -599,7 +600,7 @@
       <concept id="7504436213544206332" name="jetbrains.mps.lang.smodel.structure.Node_ContainingLinkOperation" flags="nn" index="2NL2c5" />
       <concept id="1171310072040" name="jetbrains.mps.lang.smodel.structure.Node_GetContainingRootOperation" flags="nn" index="2Rxl7S" />
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
-        <reference id="1171315804605" name="concept" index="2RRcyH" />
+        <child id="6750920497477046361" name="conceptArgument" index="3MHsoP" />
       </concept>
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
         <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
@@ -2435,8 +2436,11 @@
                   <node concept="Xl_RD" id="6hDJamxPyfq" role="3uHU7B">
                     <property role="Xl_RC" value="Removing listener: " />
                   </node>
-                  <node concept="37vLTw" id="6hDJamxPyfr" role="3uHU7w">
-                    <ref role="3cqZAo" node="6hDJamxPyff" resolve="root" />
+                  <node concept="2OqwBi" id="4BdHq278imT" role="3uHU7w">
+                    <node concept="37vLTw" id="6hDJamxPyfr" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6hDJamxPyff" resolve="root" />
+                    </node>
+                    <node concept="2Iv5rx" id="4BdHq278imU" role="2OqNvi" />
                   </node>
                 </node>
               </node>
@@ -2565,8 +2569,11 @@
                   <node concept="Xl_RD" id="6hDJamy7ZJ0" role="3uHU7B">
                     <property role="Xl_RC" value="Wiring listener: " />
                   </node>
-                  <node concept="37vLTw" id="6hDJamy7ZJ1" role="3uHU7w">
-                    <ref role="3cqZAo" node="6hDJamy7ZIP" resolve="root" />
+                  <node concept="2OqwBi" id="4BdHq278in4" role="3uHU7w">
+                    <node concept="37vLTw" id="6hDJamy7ZJ1" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6hDJamy7ZIP" resolve="root" />
+                    </node>
+                    <node concept="2Iv5rx" id="4BdHq278in5" role="2OqNvi" />
                   </node>
                 </node>
               </node>
@@ -31548,7 +31555,9 @@
                         </node>
                       </node>
                       <node concept="2RRcyG" id="6U2zMQu61nO" role="2OqNvi">
-                        <ref role="2RRcyH" to="lnwe:5XjenljaN1R" resolve="FlintModel" />
+                        <node concept="chp4Y" id="4BdHq278h1r" role="3MHsoP">
+                          <ref role="cht4Q" to="lnwe:5XjenljaN1R" resolve="FlintModel" />
+                        </node>
                       </node>
                     </node>
                     <node concept="1uHKPH" id="6U2zMQu61nP" role="2OqNvi" />
@@ -33889,7 +33898,9 @@
                 <ref role="37wK5l" node="3xy2hd2ae5S" resolve="getSelectedModel" />
               </node>
               <node concept="2RRcyG" id="ZbsDcinqqU" role="2OqNvi">
-                <ref role="2RRcyH" to="lnwe:63E5y3TGjs_" resolve="IHasSources" />
+                <node concept="chp4Y" id="4BdHq278h1s" role="3MHsoP">
+                  <ref role="cht4Q" to="lnwe:63E5y3TGjs_" resolve="IHasSources" />
+                </node>
               </node>
             </node>
             <node concept="2HwmR7" id="ZbsDcinu3C" role="2OqNvi">
@@ -33975,7 +33986,9 @@
                   <ref role="37wK5l" node="3xy2hd2ae5S" resolve="getSelectedModel" />
                 </node>
                 <node concept="2RRcyG" id="43CM9zWoMBi" role="2OqNvi">
-                  <ref role="2RRcyH" to="lnwe:63E5y3TGjs_" resolve="IHasSources" />
+                  <node concept="chp4Y" id="4BdHq278h1t" role="3MHsoP">
+                    <ref role="cht4Q" to="lnwe:63E5y3TGjs_" resolve="IHasSources" />
+                  </node>
                 </node>
               </node>
               <node concept="3zZkjj" id="43CM9zWoMBj" role="2OqNvi">
@@ -35610,7 +35623,9 @@
                       <ref role="3cqZAo" node="3FsRXa7u3ls" resolve="model" />
                     </node>
                     <node concept="2RRcyG" id="3FsRXa7vZnM" role="2OqNvi">
-                      <ref role="2RRcyH" to="srlv:1nyeVyN1ImA" resolve="LawSource" />
+                      <node concept="chp4Y" id="4BdHq278h1u" role="3MHsoP">
+                        <ref role="cht4Q" to="srlv:1nyeVyN1ImA" resolve="LawSource" />
+                      </node>
                     </node>
                   </node>
                   <node concept="1z4cxt" id="3FsRXa7vZnN" role="2OqNvi">

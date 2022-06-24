@@ -48,8 +48,8 @@ ext {
     flint_filler_executables_dir = new File(generatedResourcesDir, "flintfiller")
 
     javafx_version = "14"
-    mbeddr_version = "2020.3.+"
-    mps_version = "2020.3.1"
+    mbeddr_version = "2021.2.+"
+    mps_version = "2021.2.5"
     node_version = "13.6.0"
     npm_version = "6.13.4"
     koin_version = "3.2.0-beta-1"
@@ -509,15 +509,19 @@ task downloadLinuxJbr(type: Copy) {
     into(downloadDir)
 }
 
-task bundleMacosJbr() {
+def shouldDownloadMacosJBR() {
     if(OperatingSystem.current().isWindows()){
         logger.warn('Cannot build MAC distribution on windows')
-        return
+        return false
     }
+    return true
+}
 
+task bundleMacosJbr() {
     group = 'jbr'
     def dirName = "osx"
     def downloadDir = new File(jbrsDir, dirName)
+    onlyIf { shouldDownloadMacosJBR() }
     doFirst {
         delete {
             delete new File(ideDir, 'Flint.app')
@@ -553,7 +557,7 @@ task downloadMacOsJbr(type: Copy, group: 'jbr') {
     group = 'jbr'
     def dirName = "osx"
     def downloadDir = new File(jbrsDir, dirName)
-    onlyIf { !downloadDir.exists() || downloadDir.list().size() == 0 }
+    onlyIf { shouldDownloadMacosJBR() && (!downloadDir.exists() || downloadDir.list().size() == 0) }
     doFirst {
         delete {
             delete downloadDir
