@@ -1304,7 +1304,7 @@
       <node concept="aVJcg" id="7ua6Tt2QOlx" role="aVJcv">
         <node concept="NbPM2" id="7ua6Tt2QOlw" role="aVJcq">
           <node concept="3Mxwew" id="7ua6Tt2QOlv" role="3MwsjC">
-            <property role="3MwjfP" value="0" />
+            <property role="3MwjfP" value="1" />
           </node>
         </node>
       </node>
@@ -1545,6 +1545,12 @@
         </node>
         <node concept="3_I8Xc" id="2WP7dhE1es4" role="39821P">
           <ref role="3_I8Xa" to="ffeo:I6XuqH2zYV" resolve="git4idea" />
+        </node>
+        <node concept="3_I8Xc" id="24iOvOcFouj" role="39821P">
+          <ref role="3_I8Xa" to="ffeo:RJsmGEig2V" resolve="mps-vcs" />
+        </node>
+        <node concept="3_I8Xc" id="7QcyTbiCqAs" role="39821P">
+          <ref role="3_I8Xa" to="ffeo:4wxeloVufXE" resolve="mps-git4idea" />
         </node>
         <node concept="3_I8Xc" id="2xxYZHPwwr6" role="39821P">
           <ref role="3_I8Xa" to="ffeo:4EdAnGErOtx" resolve="mps-core" />
