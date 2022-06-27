@@ -112,6 +112,7 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -1789,14 +1790,22 @@
     <node concept="71TBH" id="3lG1oaOfZDK" role="71TA9">
       <node concept="3clFbS" id="3lG1oaOfZDL" role="2VODD2">
         <node concept="3clFbF" id="3lG1oaOfZL0" role="3cqZAp">
-          <node concept="2OqwBi" id="3lG1oaOg01L" role="3clFbG">
-            <node concept="10M0yZ" id="3lG1oaOfZPr" role="2Oq$k0">
-              <ref role="3cqZAo" to="3lmi:3lG1oaOfDff" resolve="nodeFromEditorSelection" />
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
+          <node concept="1Wc70l" id="548XlQpu2UV" role="3clFbG">
+            <node concept="2OqwBi" id="3lG1oaOg01L" role="3uHU7B">
+              <node concept="10M0yZ" id="3lG1oaOfZPr" role="2Oq$k0">
+                <ref role="3cqZAo" to="3lmi:3lG1oaOfDff" resolve="nodeFromEditorSelection" />
+                <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
+              </node>
+              <node concept="liA8E" id="3lG1oaOg0gX" role="2OqNvi">
+                <ref role="37wK5l" to="472r:5SIYu6Xx_xi" resolve="isApplicable" />
+                <node concept="71T_Y" id="3lG1oaOg0ju" role="37wK5m" />
+              </node>
             </node>
-            <node concept="liA8E" id="3lG1oaOg0gX" role="2OqNvi">
-              <ref role="37wK5l" to="472r:5SIYu6Xx_xi" resolve="isApplicable" />
-              <node concept="71T_Y" id="3lG1oaOg0ju" role="37wK5m" />
+            <node concept="2OqwBi" id="548XlQpu0tj" role="3uHU7w">
+              <node concept="71T_Y" id="548XlQptZVq" role="2Oq$k0" />
+              <node concept="liA8E" id="548XlQpu0Tq" role="2OqNvi">
+                <ref role="37wK5l" to="b8lf:~EditorCellLabelSelection.hasNonTrivialSelection()" resolve="hasNonTrivialSelection" />
+              </node>
             </node>
           </node>
         </node>
@@ -1862,14 +1871,22 @@
     <node concept="71TBH" id="5YP$MGFaXa6" role="71TA9">
       <node concept="3clFbS" id="5YP$MGFaXa7" role="2VODD2">
         <node concept="3clFbF" id="6$HM99mgN_L" role="3cqZAp">
-          <node concept="2OqwBi" id="6$HM99mgNVQ" role="3clFbG">
-            <node concept="10M0yZ" id="6$HM99mgNE9" role="2Oq$k0">
-              <ref role="3cqZAo" to="3lmi:6$HM99mgvwb" resolve="addEditorSelectionToSourceholder" />
-              <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
+          <node concept="1Wc70l" id="548XlQpuv13" role="3clFbG">
+            <node concept="2OqwBi" id="548XlQpuvUG" role="3uHU7w">
+              <node concept="71T_Y" id="548XlQpuv7p" role="2Oq$k0" />
+              <node concept="liA8E" id="548XlQpuwpe" role="2OqNvi">
+                <ref role="37wK5l" to="b8lf:~EditorCellLabelSelection.hasNonTrivialSelection()" resolve="hasNonTrivialSelection" />
+              </node>
             </node>
-            <node concept="liA8E" id="4b6llbk47Tn" role="2OqNvi">
-              <ref role="37wK5l" to="472r:5SIYu6Xx_xi" resolve="isApplicable" />
-              <node concept="71T_Y" id="5YP$MGFb1dZ" role="37wK5m" />
+            <node concept="2OqwBi" id="6$HM99mgNVQ" role="3uHU7B">
+              <node concept="10M0yZ" id="6$HM99mgNE9" role="2Oq$k0">
+                <ref role="3cqZAo" to="3lmi:6$HM99mgvwb" resolve="addEditorSelectionToSourceholder" />
+                <ref role="1PxDUh" to="3lmi:5SIYu6Xx_PT" resolve="IntentionServiceFlint" />
+              </node>
+              <node concept="liA8E" id="4b6llbk47Tn" role="2OqNvi">
+                <ref role="37wK5l" to="472r:5SIYu6Xx_xi" resolve="isApplicable" />
+                <node concept="71T_Y" id="5YP$MGFb1dZ" role="37wK5m" />
+              </node>
             </node>
           </node>
         </node>
