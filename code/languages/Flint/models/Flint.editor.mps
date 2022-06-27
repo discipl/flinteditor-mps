@@ -557,6 +557,7 @@
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
+      <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
@@ -1153,18 +1154,42 @@
           <property role="3F0ifm" value=":" />
           <ref role="1k5W1q" node="5LeOc1$LXOc" resolve="Colon" />
         </node>
-        <node concept="gc7cB" id="5wlrAoMRwxk" role="3EZMnx">
-          <node concept="3VJUX4" id="5wlrAoMRwxm" role="3YsKMw">
-            <node concept="3clFbS" id="5wlrAoMRwxo" role="2VODD2">
-              <node concept="3clFbF" id="5wlrAoMTvlv" role="3cqZAp">
-                <node concept="2OqwBi" id="5wlrAoMTvyB" role="3clFbG">
-                  <node concept="pncrf" id="5wlrAoMTvlu" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="5wlrAoMTvOB" role="2OqNvi">
-                    <ref role="37wK5l" to="3lmi:5wlrAoMRxQu" resolve="getArticleCellProvider" />
-                    <node concept="1Q80Hx" id="5wlrAoN6h2p" role="37wK5m" />
+        <node concept="1QoScp" id="548XlQpvMGY" role="3EZMnx">
+          <property role="1QpmdY" value="true" />
+          <node concept="gc7cB" id="548XlQpwLGN" role="1QoS34">
+            <node concept="3VJUX4" id="548XlQpwLGP" role="3YsKMw">
+              <node concept="3clFbS" id="548XlQpwLGR" role="2VODD2">
+                <node concept="3clFbF" id="548XlQpwLIE" role="3cqZAp">
+                  <node concept="2OqwBi" id="548XlQpwLIG" role="3clFbG">
+                    <node concept="pncrf" id="548XlQpwLIH" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="548XlQpwLII" role="2OqNvi">
+                      <ref role="37wK5l" to="3lmi:5wlrAoMRxQu" resolve="getArticleCellProvider" />
+                      <node concept="1Q80Hx" id="548XlQpwLIJ" role="37wK5m" />
+                    </node>
                   </node>
                 </node>
               </node>
+            </node>
+          </node>
+          <node concept="pkWqt" id="548XlQpvMH1" role="3e4ffs">
+            <node concept="3clFbS" id="548XlQpvMH3" role="2VODD2">
+              <node concept="3clFbF" id="548XlQpwQcI" role="3cqZAp">
+                <node concept="2OqwBi" id="548XlQpwRpE" role="3clFbG">
+                  <node concept="2OqwBi" id="548XlQpwQug" role="2Oq$k0">
+                    <node concept="pncrf" id="548XlQpwQcH" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="548XlQpwQOY" role="2OqNvi">
+                      <ref role="37wK5l" to="3lmi:4FnTJrETWyn" resolve="getNamedSourcePart" />
+                    </node>
+                  </node>
+                  <node concept="3x8VRR" id="548XlQpwRM0" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3F0A7n" id="548XlQpwLFh" role="1QoVPY">
+            <ref role="1NtTu8" to="lnwe:1j1uXED4swh" resolve="textSourceName" />
+            <node concept="Vb9p2" id="548XlQpC0xi" role="3F10Kt">
+              <property role="Vbekb" value="g1_k_vY/BOLD" />
             </node>
           </node>
         </node>
