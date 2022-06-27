@@ -15,6 +15,7 @@
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -9991,7 +9992,21 @@
   <node concept="13h7C7" id="1DVZuk_nFYM">
     <ref role="13h7C2" to="lnwe:5Xjenljcz0Y" resolve="FlintSource" />
     <node concept="13hLZK" id="1DVZuk_nFYN" role="13h7CW">
-      <node concept="3clFbS" id="1DVZuk_nFYO" role="2VODD2" />
+      <node concept="3clFbS" id="1DVZuk_nFYO" role="2VODD2">
+        <node concept="3clFbF" id="BrQB8dPuoN" role="3cqZAp">
+          <node concept="37vLTI" id="BrQB8dPv3F" role="3clFbG">
+            <node concept="Xl_RD" id="BrQB8dPv8J" role="37vLTx">
+              <property role="Xl_RC" value="Source missing" />
+            </node>
+            <node concept="2OqwBi" id="BrQB8dPuoP" role="37vLTJ">
+              <node concept="13iPFW" id="BrQB8dPuoQ" role="2Oq$k0" />
+              <node concept="3TrcHB" id="BrQB8dPuoR" role="2OqNvi">
+                <ref role="3TsBF5" to="lnwe:1j1uXED4swh" resolve="textSourceName" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="13i0hz" id="2fkBBCTFUDJ" role="13h7CS">
       <property role="TrG5h" value="tagWord" />
@@ -10611,30 +10626,6 @@
                         </node>
                         <node concept="BsUDl" id="3xmueRtBv1h" role="33vP2m">
                           <ref role="37wK5l" node="4FnTJrETWyn" resolve="getNamedSourcePart" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="3clFbJ" id="5tVRfs3$Iw7" role="3cqZAp">
-                      <node concept="3clFbS" id="5tVRfs3$Iw9" role="3clFbx">
-                        <node concept="3cpWs6" id="7TpX5CIsEE4" role="3cqZAp">
-                          <node concept="2ShNRf" id="7TpX5CIsF7v" role="3cqZAk">
-                            <node concept="1pGfFk" id="7TpX5CIsRIq" role="2ShVmc">
-                              <ref role="37wK5l" to="g51k:~EditorCell_Constant.&lt;init&gt;(jetbrains.mps.openapi.editor.EditorContext,org.jetbrains.mps.openapi.model.SNode,java.lang.String)" resolve="EditorCell_Constant" />
-                              <node concept="37vLTw" id="7TpX5CIsSi8" role="37wK5m">
-                                <ref role="3cqZAo" node="5wlrAoMRPXW" resolve="context" />
-                              </node>
-                              <node concept="13iPFW" id="7TpX5CIsSXd" role="37wK5m" />
-                              <node concept="Xl_RD" id="7TpX5CIsTy_" role="37wK5m">
-                                <property role="Xl_RC" value="Source Missing" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="3clFbC" id="5tVRfs3$JrB" role="3clFbw">
-                        <node concept="10Nm6u" id="5tVRfs3$JIk" role="3uHU7w" />
-                        <node concept="37vLTw" id="3xmueRtBvSJ" role="3uHU7B">
-                          <ref role="3cqZAo" node="3xmueRtBv1g" resolve="namedSourcePart" />
                         </node>
                       </node>
                     </node>
