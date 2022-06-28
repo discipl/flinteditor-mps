@@ -2166,7 +2166,7 @@
                     <node concept="37vLTI" id="2xDhw9l_9aM" role="3clFbG">
                       <node concept="2OqwBi" id="2xDhw9l_FoQ" role="37vLTx">
                         <node concept="2YIFZM" id="2xDhw9l_9Vw" role="2Oq$k0">
-                          <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
+                          <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveEditorLanguage" />
                           <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
                           <node concept="2OqwBi" id="2xDhw9l_aJl" role="37wK5m">
                             <node concept="37vLTw" id="2xDhw9l_ajh" role="2Oq$k0">
@@ -2452,7 +2452,7 @@
                       </node>
                       <node concept="2OqwBi" id="42vNmeNiIPp" role="37vLTx">
                         <node concept="2YIFZM" id="42vNmeNiG2S" role="2Oq$k0">
-                          <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
+                          <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveEditorLanguage" />
                           <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
                           <node concept="2OqwBi" id="42vNmeNiH3N" role="37wK5m">
                             <node concept="37vLTw" id="42vNmeNiGtz" role="2Oq$k0">
