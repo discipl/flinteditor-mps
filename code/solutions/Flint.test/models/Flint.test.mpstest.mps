@@ -2675,6 +2675,26 @@
                 </node>
               </node>
             </node>
+            <node concept="3cpWs8" id="2pVk74SnBA2" role="3cqZAp">
+              <node concept="3cpWsn" id="2pVk74SnBA3" role="3cpWs9">
+                <property role="TrG5h" value="defaultEnglishNode" />
+                <node concept="3Tqbb2" id="2pVk74Sn$WN" role="1tU5fm">
+                  <ref role="ehGHo" to="lnwe:2ACGKFDB3mq" resolve="Language" />
+                </node>
+                <node concept="2OqwBi" id="2pVk74SnBA4" role="33vP2m">
+                  <node concept="2tJFMh" id="2pVk74SnBA5" role="2Oq$k0">
+                    <node concept="ZC_QK" id="2pVk74SnBA6" role="2tJFKM">
+                      <ref role="2aWVGs" to="jov5:4L0TsavKybn" resolve="English" />
+                    </node>
+                  </node>
+                  <node concept="Vyspw" id="2pVk74SnBA7" role="2OqNvi">
+                    <node concept="37vLTw" id="2pVk74SnBA8" role="Vysub">
+                      <ref role="3cqZAo" node="2pVk74SkL4E" resolve="repository" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3SKdUt" id="6$5jl5S9x31" role="3cqZAp">
               <node concept="1PaTwC" id="6$5jl5S9x32" role="1aUNEU">
                 <node concept="3oM_SD" id="6$5jl5S9x33" role="1PaTwD">
@@ -2726,17 +2746,8 @@
                     <ref role="3Tt5mk" to="lnwe:3JnAoJLBJr_" resolve="target" />
                   </node>
                 </node>
-                <node concept="2OqwBi" id="6$5jl5S9Hug" role="37vLTx">
-                  <node concept="2tJFMh" id="6$5jl5S9Huh" role="2Oq$k0">
-                    <node concept="ZC_QK" id="6$5jl5S9Hui" role="2tJFKM">
-                      <ref role="2aWVGs" to="jov5:4L0TsavKybn" resolve="English" />
-                    </node>
-                  </node>
-                  <node concept="Vyspw" id="6$5jl5S9Huj" role="2OqNvi">
-                    <node concept="37vLTw" id="2pVk74SkL4L" role="Vysub">
-                      <ref role="3cqZAo" node="2pVk74SkL4E" resolve="repository" />
-                    </node>
-                  </node>
+                <node concept="37vLTw" id="2pVk74SnBA9" role="37vLTx">
+                  <ref role="3cqZAo" node="2pVk74SnBA3" resolve="node" />
                 </node>
               </node>
             </node>
@@ -2747,21 +2758,25 @@
                   <node concept="37vLTw" id="2pVk74SlkBP" role="3uHU7B">
                     <ref role="3cqZAo" node="2pVk74Sl2yJ" resolve="lang" />
                   </node>
-                  <node concept="2OqwBi" id="2pVk74SlkWf" role="3uHU7w">
-                    <node concept="2tJFMh" id="2pVk74SlkWg" role="2Oq$k0">
-                      <node concept="ZC_QK" id="2pVk74SlkWh" role="2tJFKM">
-                        <ref role="2aWVGs" to="jov5:4L0TsavKybn" resolve="English" />
-                      </node>
-                    </node>
-                    <node concept="Vyspw" id="2pVk74SlkWi" role="2OqNvi">
-                      <node concept="37vLTw" id="2pVk74SlkWj" role="Vysub">
-                        <ref role="3cqZAo" node="2pVk74SkL4E" resolve="repository" />
-                      </node>
-                    </node>
+                  <node concept="37vLTw" id="2pVk74SnBAa" role="3uHU7w">
+                    <ref role="3cqZAo" node="2pVk74SnBA3" resolve="node" />
                   </node>
                 </node>
                 <node concept="37vLTw" id="2pVk74SljP2" role="37vLTJ">
                   <ref role="3cqZAo" node="2pVk74Sljre" resolve="isDefaultNode" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="2pVk74SnCcl" role="3cqZAp">
+              <node concept="2OqwBi" id="2pVk74SnDHS" role="3clFbG">
+                <node concept="2OqwBi" id="2pVk74SnCHl" role="2Oq$k0">
+                  <node concept="369mXd" id="2pVk74SnCcj" role="2Oq$k0" />
+                  <node concept="liA8E" id="2pVk74SnDCG" role="2OqNvi">
+                    <ref role="37wK5l" to="exr9:~EditorComponent.getUpdater()" resolve="getUpdater" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="2pVk74SnDRg" role="2OqNvi">
+                  <ref role="37wK5l" to="22ra:~Updater.update()" resolve="update" />
                 </node>
               </node>
             </node>
