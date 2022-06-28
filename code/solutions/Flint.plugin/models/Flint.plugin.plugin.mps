@@ -24759,16 +24759,22 @@
                                                       </node>
                                                     </node>
                                                   </node>
-                                                  <node concept="3clFbF" id="1vBqX6iWAx8" role="3cqZAp">
-                                                    <node concept="2OqwBi" id="1vBqX6iWAxa" role="3clFbG">
-                                                      <node concept="liA8E" id="1vBqX6iWAxb" role="2OqNvi">
-                                                        <ref role="37wK5l" node="3FsRXa7tZBR" resolve="importFromJson" />
-                                                        <node concept="37vLTw" id="1vBqX6iWAxc" role="37wK5m">
-                                                          <ref role="3cqZAo" node="6DgkmMJ19Uo" resolve="jsonString" />
-                                                        </node>
+                                                  <node concept="3cpWs8" id="3rYJ9DgEke8" role="3cqZAp">
+                                                    <node concept="3cpWsn" id="3rYJ9DgEke9" role="3cpWs9">
+                                                      <property role="TrG5h" value="lawVersion" />
+                                                      <node concept="3Tqbb2" id="3rYJ9DgEiC5" role="1tU5fm">
+                                                        <ref role="ehGHo" to="srlv:1nyeVyNbPAY" resolve="Version" />
                                                       </node>
-                                                      <node concept="37vLTw" id="1vBqX6iWAxd" role="2Oq$k0">
-                                                        <ref role="3cqZAo" node="1vBqX6iWojX" resolve="lawSourceImporter" />
+                                                      <node concept="2OqwBi" id="3rYJ9DgEkea" role="33vP2m">
+                                                        <node concept="liA8E" id="3rYJ9DgEkeb" role="2OqNvi">
+                                                          <ref role="37wK5l" node="3FsRXa7tZBR" resolve="importFromJson" />
+                                                          <node concept="37vLTw" id="3rYJ9DgEkec" role="37wK5m">
+                                                            <ref role="3cqZAo" node="6DgkmMJ19Uo" resolve="jsonString" />
+                                                          </node>
+                                                        </node>
+                                                        <node concept="37vLTw" id="3rYJ9DgEked" role="2Oq$k0">
+                                                          <ref role="3cqZAo" node="1vBqX6iWojX" resolve="lawSourceImporter" />
+                                                        </node>
                                                       </node>
                                                     </node>
                                                   </node>
@@ -24788,13 +24794,8 @@
                                                       </node>
                                                       <node concept="liA8E" id="1vBqX6iSCtF" role="2OqNvi">
                                                         <ref role="37wK5l" to="k3nr:~MPSEditorOpener.openNode(org.jetbrains.mps.openapi.model.SNode,boolean,boolean)" resolve="openNode" />
-                                                        <node concept="2OqwBi" id="1vBqX6iWGhq" role="37wK5m">
-                                                          <node concept="37vLTw" id="1vBqX6iWFah" role="2Oq$k0">
-                                                            <ref role="3cqZAo" node="1vBqX6iWojX" resolve="lawSourceImporter" />
-                                                          </node>
-                                                          <node concept="liA8E" id="1vBqX6iWH7x" role="2OqNvi">
-                                                            <ref role="37wK5l" node="1vBqX6iW4Wt" resolve="getImportedVersion" />
-                                                          </node>
+                                                        <node concept="37vLTw" id="3rYJ9DgEn6R" role="37wK5m">
+                                                          <ref role="3cqZAo" node="3rYJ9DgEke9" resolve="lawSourceVersion" />
                                                         </node>
                                                         <node concept="3clFbT" id="1vBqX6iSDxu" role="37wK5m">
                                                           <property role="3clFbU" value="true" />
@@ -35465,13 +35466,6 @@
       <node concept="3Tm6S6" id="3FsRXa7udtM" role="1B3o_S" />
       <node concept="H_c77" id="3FsRXa7ueVP" role="1tU5fm" />
     </node>
-    <node concept="312cEg" id="1vBqX6iVFAX" role="jymVt">
-      <property role="TrG5h" value="importedVersion" />
-      <node concept="3Tm6S6" id="1vBqX6iVBv4" role="1B3o_S" />
-      <node concept="3Tqbb2" id="1vBqX6iVF_9" role="1tU5fm">
-        <ref role="ehGHo" to="srlv:1nyeVyNbPAY" resolve="Version" />
-      </node>
-    </node>
     <node concept="2tJIrI" id="1vBqX6iV$OU" role="jymVt" />
     <node concept="3clFbW" id="3FsRXa7ucgF" role="jymVt">
       <node concept="3cqZAl" id="3FsRXa7ucgG" role="3clF45" />
@@ -35573,21 +35567,22 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="1vBqX6iVIdd" role="3cqZAp">
-          <node concept="37vLTI" id="1vBqX6iVJGt" role="3clFbG">
-            <node concept="37vLTw" id="1vBqX6iVIdb" role="37vLTJ">
-              <ref role="3cqZAo" node="1vBqX6iVFAX" resolve="importedVersion" />
+        <node concept="3cpWs8" id="3rYJ9DgDU5W" role="3cqZAp">
+          <node concept="3cpWsn" id="3rYJ9DgDU5Z" role="3cpWs9">
+            <property role="TrG5h" value="lawVersion" />
+            <node concept="3Tqbb2" id="3rYJ9DgDU5U" role="1tU5fm">
+              <ref role="ehGHo" to="srlv:1nyeVyNbPAY" resolve="Version" />
             </node>
-            <node concept="2OqwBi" id="1vBqX6iVLog" role="37vLTx">
-              <node concept="37vLTw" id="1vBqX6iVLoh" role="2Oq$k0">
+            <node concept="2OqwBi" id="3rYJ9DgE5n9" role="33vP2m">
+              <node concept="37vLTw" id="3rYJ9DgE5na" role="2Oq$k0">
                 <ref role="3cqZAo" node="3FsRXa7tZV4" resolve="mapper" />
               </node>
-              <node concept="liA8E" id="1vBqX6iVLoi" role="2OqNvi">
+              <node concept="liA8E" id="3rYJ9DgE5nb" role="2OqNvi">
                 <ref role="37wK5l" node="6DgkmMJ1l42" resolve="toLawVersion" />
-                <node concept="37vLTw" id="1vBqX6iVLoj" role="37wK5m">
+                <node concept="37vLTw" id="3rYJ9DgE5nc" role="37wK5m">
                   <ref role="3cqZAo" node="3FsRXa7tZUX" resolve="lawSourceExportPOJO" />
                 </node>
-                <node concept="37vLTw" id="1vBqX6iVLok" role="37wK5m">
+                <node concept="37vLTw" id="3rYJ9DgE5nd" role="37wK5m">
                   <ref role="3cqZAo" node="3FsRXa7tZV9" resolve="lawSource" />
                 </node>
               </node>
@@ -35598,7 +35593,7 @@
           <node concept="2OqwBi" id="3FsRXa7tZVs" role="3clFbG">
             <node concept="2OqwBi" id="3FsRXa7tZVt" role="2Oq$k0">
               <node concept="37vLTw" id="3FsRXa7tZVu" role="2Oq$k0">
-                <ref role="3cqZAo" node="1vBqX6iVFAX" resolve="importedVersion" />
+                <ref role="3cqZAo" node="3rYJ9DgDU5Z" resolve="lawSourceVersion" />
               </node>
               <node concept="3Tsc0h" id="3FsRXa7tZVv" role="2OqNvi">
                 <ref role="3TtcxE" to="srlv:7xM0MUaGta5" resolve="lines" />
@@ -35626,7 +35621,7 @@
                             <node concept="liA8E" id="3FsRXa7tZVG" role="2OqNvi">
                               <ref role="37wK5l" node="6y0JmBZ0Uog" resolve="toSourcePart" />
                               <node concept="37vLTw" id="3FsRXa7tZVH" role="37wK5m">
-                                <ref role="3cqZAo" node="1vBqX6iVFAX" resolve="importedVersion" />
+                                <ref role="3cqZAo" node="3rYJ9DgDU5Z" resolve="lawSourceVersion" />
                               </node>
                             </node>
                           </node>
@@ -35646,12 +35641,12 @@
         </node>
         <node concept="3clFbF" id="3FsRXa7uaBl" role="3cqZAp">
           <node concept="37vLTw" id="3FsRXa7uaBj" role="3clFbG">
-            <ref role="3cqZAo" node="3FsRXa7tZV9" resolve="lawSource" />
+            <ref role="3cqZAo" node="3rYJ9DgDU5Z" resolve="lawSourceVersion" />
           </node>
         </node>
       </node>
       <node concept="3Tqbb2" id="3FsRXa7tZBv" role="3clF45">
-        <ref role="ehGHo" to="srlv:1nyeVyN1ImA" resolve="LawSource" />
+        <ref role="ehGHo" to="srlv:1nyeVyNbPAY" resolve="Version" />
       </node>
       <node concept="37vLTG" id="3FsRXa7tZKi" role="3clF46">
         <property role="TrG5h" value="json" />
@@ -35660,20 +35655,6 @@
       <node concept="3Tm1VV" id="3FsRXa7u7ox" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="1vBqX6iVWMG" role="jymVt" />
-    <node concept="3clFb_" id="1vBqX6iW4Wt" role="jymVt">
-      <property role="TrG5h" value="getImportedVersion" />
-      <node concept="3clFbS" id="1vBqX6iW4Ww" role="3clF47">
-        <node concept="3cpWs6" id="1vBqX6iW7Zz" role="3cqZAp">
-          <node concept="37vLTw" id="1vBqX6iW9$z" role="3cqZAk">
-            <ref role="3cqZAo" node="1vBqX6iVFAX" resolve="importedVersion" />
-          </node>
-        </node>
-      </node>
-      <node concept="3Tm1VV" id="1vBqX6iW2$R" role="1B3o_S" />
-      <node concept="3Tqbb2" id="1vBqX6iW4UN" role="3clF45">
-        <ref role="ehGHo" to="srlv:1nyeVyNbPAY" resolve="Version" />
-      </node>
-    </node>
     <node concept="2tJIrI" id="3FsRXa7u3LJ" role="jymVt" />
     <node concept="3clFb_" id="3FsRXa7u3lr" role="jymVt">
       <property role="TrG5h" value="getLawSource" />
