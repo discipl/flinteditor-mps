@@ -1379,14 +1379,14 @@
           <property role="TrG5h" value="currentLanguage" />
           <node concept="17QB3L" id="2CJW3KkgjUg" role="1tU5fm" />
           <node concept="2OqwBi" id="2CJW3Kkgk$e" role="33vP2m">
-            <node concept="2YIFZM" id="2CJW3Kkgk$f" role="2Oq$k0">
-              <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
+            <node concept="2YIFZM" id="5HhbosxeJJB" role="2Oq$k0">
+              <ref role="37wK5l" to="3lmi:3V6BoQ5oWvy" resolve="getActiveInterpretationLanguage" />
               <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
-              <node concept="2OqwBi" id="2CJW3Kkgk$g" role="37wK5m">
-                <node concept="1YBJjd" id="2CJW3Kkgk$h" role="2Oq$k0">
+              <node concept="2OqwBi" id="5HhbosxeJJC" role="37wK5m">
+                <node concept="1YBJjd" id="5HhbosxeJJD" role="2Oq$k0">
                   <ref role="1YBMHb" node="2CJW3Kiubxv" resolve="iHasSources" />
                 </node>
-                <node concept="I4A8Y" id="2CJW3Kkgk$i" role="2OqNvi" />
+                <node concept="I4A8Y" id="5HhbosxeJJE" role="2OqNvi" />
               </node>
             </node>
             <node concept="3TrcHB" id="2CJW3Kkgk$j" role="2OqNvi">
