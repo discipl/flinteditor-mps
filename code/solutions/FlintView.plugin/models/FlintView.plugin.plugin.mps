@@ -1516,10 +1516,10 @@
           <node concept="3cpWsn" id="5WiQZ$DSbDG" role="3cpWs9">
             <property role="TrG5h" value="activeLanguage" />
             <node concept="3Tqbb2" id="5WiQZ$DSb$_" role="1tU5fm">
-              <ref role="ehGHo" to="lnwe:2ACGKFDB3mq" resolve="Language" />
+              <ref role="ehGHo" to="lnwe:31VUSTdxUr$" resolve="EditorLanguage" />
             </node>
             <node concept="2YIFZM" id="5WiQZ$DSbDH" role="33vP2m">
-              <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveLanguage" />
+              <ref role="37wK5l" to="3lmi:2hEqZ8bb3vX" resolve="getActiveEditorLanguage" />
               <ref role="1Pybhc" to="3lmi:3oX$uxIyT1K" resolve="ModelUtils" />
               <node concept="37vLTw" id="5WiQZ$DSbDI" role="37wK5m">
                 <ref role="3cqZAo" node="5WiQZ$DS9AC" resolve="model" />
@@ -1591,8 +1591,17 @@
           <node concept="22lmx$" id="5WiQZ$DSB_Z" role="3clFbw">
             <node concept="17QLQc" id="5WiQZ$DSGaa" role="3uHU7w">
               <node concept="2OqwBi" id="5WiQZ$DSH8M" role="3uHU7w">
-                <node concept="37vLTw" id="5WiQZ$DSGGl" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5WiQZ$DSbDG" resolve="activeLanguage" />
+                <node concept="2OqwBi" id="31VUSTdLDxG" role="2Oq$k0">
+                  <node concept="37vLTw" id="5WiQZ$DSGGl" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5WiQZ$DSbDG" resolve="activeLanguage" />
+                  </node>
+                  <node concept="2Xjw5R" id="31VUSTdLFQq" role="2OqNvi">
+                    <node concept="1xMEDy" id="31VUSTdLFQs" role="1xVPHs">
+                      <node concept="chp4Y" id="31VUSTdLGIV" role="ri$Ld">
+                        <ref role="cht4Q" to="lnwe:2ACGKFDB3mq" resolve="Language" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
                 <node concept="3TrcHB" id="5WiQZ$DSHAR" role="2OqNvi">
                   <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />

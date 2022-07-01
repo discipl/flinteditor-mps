@@ -229,9 +229,6 @@
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
-      <concept id="7485977462274819189" name="jetbrains.mps.baseLanguage.structure.FormatOperation" flags="ng" index="2cAKMz">
-        <child id="7485977462274819664" name="arguments" index="2cAKU6" />
-      </concept>
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
@@ -3000,7 +2997,7 @@
                     </node>
                   </node>
                   <node concept="3TrEf2" id="gbbh_xquV" role="2OqNvi">
-                    <ref role="3Tt5mk" to="lnwe:3JnAoJLWQDz" resolve="languageReference" />
+                    <ref role="3Tt5mk" to="lnwe:3JnAoJLWQDz" resolve="editorLanguageReference" />
                   </node>
                 </node>
               </node>
@@ -4247,7 +4244,7 @@
                       </node>
                     </node>
                     <node concept="3TrEf2" id="2ZVRRpbGGS2" role="2OqNvi">
-                      <ref role="3Tt5mk" to="lnwe:3JnAoJLWQDz" resolve="languageReference" />
+                      <ref role="3Tt5mk" to="lnwe:3JnAoJLWQDz" resolve="editorLanguageReference" />
                     </node>
                   </node>
                   <node concept="3TrEf2" id="2ZVRRpbGI4k" role="2OqNvi">
@@ -4272,7 +4269,7 @@
                     </node>
                   </node>
                   <node concept="3TrEf2" id="2ZVRRpbG_MB" role="2OqNvi">
-                    <ref role="3Tt5mk" to="lnwe:3JnAoJLWQDz" resolve="languageReference" />
+                    <ref role="3Tt5mk" to="lnwe:3JnAoJLWQDz" resolve="editorLanguageReference" />
                   </node>
                 </node>
                 <node concept="3w_OXm" id="2ZVRRpbGAPX" role="2OqNvi" />
@@ -16282,27 +16279,6 @@
               </node>
               <node concept="3TrcHB" id="62xOyh25jpA" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:10GkRpdu5tG" resolve="language" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="5HhbosxM8RY" role="3cqZAp">
-          <node concept="2YIFZM" id="5HhbosxRVwx" role="3clFbG">
-            <ref role="37wK5l" to="3lmi:5HhbosxMgBC" resolve="printWarning" />
-            <ref role="1Pybhc" to="3lmi:7dMNgcNR8B_" resolve="DebugUtils" />
-            <node concept="2OqwBi" id="5HhbosxSdau" role="37wK5m">
-              <node concept="Xl_RD" id="5HhbosxRXAP" role="2Oq$k0">
-                <property role="Xl_RC" value="SourceReference language: %s" />
-              </node>
-              <node concept="2cAKMz" id="5HhbosxSfET" role="2OqNvi">
-                <node concept="2OqwBi" id="5HhbosxSi43" role="2cAKU6">
-                  <node concept="37vLTw" id="5HhbosxSh5B" role="2Oq$k0">
-                    <ref role="3cqZAo" node="62xOyh25jpp" resolve="sourceReference" />
-                  </node>
-                  <node concept="3TrcHB" id="5HhbosxSkVs" role="2OqNvi">
-                    <ref role="3TsBF5" to="lnwe:10GkRpdu5tG" resolve="language" />
-                  </node>
-                </node>
               </node>
             </node>
           </node>
