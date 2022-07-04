@@ -220,12 +220,12 @@ internal class FlintParserTest {
                 val text = it.readText()
                 val flintParser = FlintParser(text)
                 val language = flintParser.getLanguage()
-                val correctLanguage: Language = Language("Dutch","naam","daden","feiten",
+                val correctLanguage: Language = Language("Dutch", EditorLanguage("Dutch","naam","daden","feiten",
                     "plichten","functie","referentie","taak-eigenaar","eiser",
                     "maak","beindig","handhaven","taak-onderdelen","uitleg","actie-ondernemer",
                     "actie","object","ontvanger","pre-conditie","taal","bronnen",
                     "tekst","Vind lijn in Bron","geldig vanaf","geldig tot","labels",
-                    "versie","geverifieerd","gevalideerd","gepubliceerd","selecteer versie")
+                    "versie","geverifieerd","gevalideerd","gepubliceerd","selecteer versie"))
                 println("[LANGUAGE_CHECK] $language")
                 assertEquals(correctLanguage,language)
             }
@@ -235,12 +235,12 @@ internal class FlintParserTest {
                 val text = it.readText()
                 val flintParser = FlintParser(text)
                 val language = flintParser.getLanguage()
-                val correctLanguage: Language = Language("English","name","acts","facts",
+                val correctLanguage: Language = Language("Dutch",EditorLanguage("English","name","acts","facts",
                     "duties","function","references","duty-holder","claimaint",
                     "create","terminate","enforce","duty-components","explanation","actor",
                     "action","object","recipient","preconditions","language","sources",
                     "text","Find line in Source","valid from","valid to","tags",
-                    "version","verified","validated","publicized","select version")
+                    "version","verified","validated","publicized","select version"))
                 println("[LANGUAGE_CHECK] $language")
                 assertEquals(correctLanguage,language)
             }
