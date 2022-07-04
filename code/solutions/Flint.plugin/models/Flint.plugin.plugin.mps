@@ -3157,8 +3157,13 @@
                       <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                     </node>
                   </node>
-                  <node concept="Xl_RD" id="2vKMv360TTp" role="37vLTx">
-                    <property role="Xl_RC" value="Tst Name Hi" />
+                  <node concept="2OqwBi" id="2vKMv36wHhV" role="37vLTx">
+                    <node concept="37vLTw" id="2vKMv36w$zH" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5BwUVa5lZRu" resolve="importedLanguage" />
+                    </node>
+                    <node concept="liA8E" id="2vKMv36wRHq" role="2OqNvi">
+                      <ref role="37wK5l" to="5qsh:~Language.getInterpretationLanguage()" resolve="getInterpretationLanguage" />
+                    </node>
                   </node>
                 </node>
               </node>
