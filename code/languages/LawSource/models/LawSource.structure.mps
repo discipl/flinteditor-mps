@@ -17,6 +17,12 @@
     </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
+      <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
+        <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
+      </concept>
+      <concept id="1082978499127" name="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" flags="ng" index="Az7Fb">
+        <property id="1083066089218" name="constraint" index="FLfZY" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
@@ -195,6 +201,21 @@
       <property role="TrG5h" value="index" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="1TJgyi" id="5AQJ5RQ9enM" role="1TKVEl">
+      <property role="IQ2nx" value="6464561426884519410" />
+      <property role="TrG5h" value="validFromDate" />
+      <ref role="AX2Wp" node="5AQJ5RQ9gpp" resolve="Date" />
+    </node>
+    <node concept="1TJgyi" id="5AQJ5RQ9enQ" role="1TKVEl">
+      <property role="IQ2nx" value="6464561426884519414" />
+      <property role="TrG5h" value="validToDate" />
+      <ref role="AX2Wp" node="5AQJ5RQ9gpp" resolve="Date" />
+    </node>
+    <node concept="1TJgyi" id="5AQJ5RQ9enV" role="1TKVEl">
+      <property role="IQ2nx" value="6464561426884519419" />
+      <property role="TrG5h" value="retroactiveDate" />
+      <ref role="AX2Wp" node="5AQJ5RQ9gpp" resolve="Date" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1nyeVyNiRPP">
     <property role="EcuMT" value="1576888484001185141" />
@@ -328,6 +349,11 @@
     <property role="3GE5qa" value="sources" />
     <property role="TrG5h" value="TableBody" />
     <ref role="1TJDcQ" node="7xM0MUaGt9Z" resolve="SourcePartCollection" />
+  </node>
+  <node concept="Az7Fb" id="5AQJ5RQ9gpp">
+    <property role="3F6X1D" value="6464561426884527705" />
+    <property role="TrG5h" value="Date" />
+    <property role="FLfZY" value="^$|(0[1-9]|[12][0-9]|3[01])[-](0[1-9]|1[012])[-]\\d{4}$" />
   </node>
 </model>
 
