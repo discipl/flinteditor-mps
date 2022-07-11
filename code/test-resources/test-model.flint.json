@@ -69,10 +69,10 @@
               "word": 5
             }
           ],
-          "explanation": ""
+          "comments": []
         }
       ],
-      "explanation": ""
+      "comments": []
     },
     {
       "act": "<<Act2>>",
@@ -89,13 +89,21 @@
         "<Duty1>"
       ],
       "sources": [],
-      "explanation": "Test Explananation"
+      "comments": [
+        {
+          "description":"Test Explananation"
+        }
+      ]
     }
   ],
   "facts": [
     {
       "fact": "[Person]",
-      "explanation": "Person Explanation",
+      "comments": [
+        {
+          "description":"Person Explanation"
+        }
+      ],
       "function": {
         "expression": "CREATE",
         "operands": []
@@ -108,13 +116,13 @@
           "citation": "TestSource",
           "text": "Person Text",
           "tags": [],
-          "explanation": ""
+          "comments": []
         }
       ]
     },
     {
       "fact": "[Literals]",
-      "explanation": "",
+      "comments": [],
       "function": {
         "expression": "AND",
         "operands": [
@@ -136,7 +144,7 @@
     },
     {
       "fact": "[Reference]",
-      "explanation": "",
+      "comments": [],
       "function": {
         "expression": "NOT",
         "operand": "[Literals]"
@@ -149,13 +157,13 @@
           "citation": "TestSource",
           "text": "Reference Text",
           "tags": [],
-          "explanation": ""
+          "comments": []
         }
       ]
     },
     {
       "fact": "[List]",
-      "explanation": "",
+      "comments": [],
       "function": {
         "expression": "LIST",
         "name": "[ListName]",
@@ -180,10 +188,14 @@
           "citation": "TestSource",
           "text": "Text",
           "tags": [],
-          "explanation": ""
+          "comments": []
         }
       ],
-      "explanation": "Duty Explanation"
+      "comments": [
+        {
+          "description":"Duty Explanation"
+        }
+      ]
     }
   ]
 }

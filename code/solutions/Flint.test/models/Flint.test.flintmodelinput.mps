@@ -2,7 +2,7 @@
 <model ref="r:24d66bc9-227a-447b-947a-855ad292ec9a(Flint.test.flintmodelinput)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="13" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="14" />
   </languages>
   <imports />
   <registry>
@@ -17,6 +17,7 @@
     <language id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint">
       <concept id="6868897032739893314" name="Flint.structure.IExplainable" flags="ng" index="cog$R">
         <property id="778381075952164307" name="explanation" index="3ANC2_" />
+        <child id="2745464144661299321" name="comments" index="380x_I" />
       </concept>
       <concept id="6868897032739893310" name="Flint.structure.FlintSource" flags="ng" index="cog_b">
         <property id="2215264714367931041" name="textId" index="1hTq4$" />
@@ -49,6 +50,9 @@
       </concept>
       <concept id="589729100932390229" name="Flint.structure.IHasLanguage" flags="ng" index="ITzSF">
         <child id="5326288789495449519" name="translatedNames" index="1GVO30" />
+      </concept>
+      <concept id="2745464144661300863" name="Flint.structure.Comment" flags="ng" index="380xXC">
+        <property id="2745464144661302404" name="description" index="380xmj" />
       </concept>
       <concept id="7402439007429942662" name="Flint.structure.ActReference" flags="ng" index="3jSua8">
         <reference id="7402439007429942663" name="act" index="3jSua9" />
@@ -205,6 +209,9 @@
     <node concept="1GVOM6" id="7M8gzUucjo_" role="1GVO30">
       <property role="1GVPtd" value="English" />
       <property role="1GVPtb" value="act1" />
+    </node>
+    <node concept="380xXC" id="5ExsLoOvroN" role="380x_I">
+      <property role="380xmj" value="Example comment" />
     </node>
   </node>
   <node concept="2cz0EU" id="74VLc6kV4H8">

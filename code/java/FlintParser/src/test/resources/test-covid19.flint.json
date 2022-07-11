@@ -13,7 +13,7 @@
     "terminate": "terminate",
     "enforce": "enforce",
     "dutyComponents": "duty-components",
-    "explanation": "explanation",
+    "explanation": "comments",
     "actor": "actor",
     "action": "action",
     "eObject": "object",
@@ -110,7 +110,11 @@
           "text": "De minister verstrekt op aanvraag een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020:"
         }
       ],
-      "explanation": "Deze act ondersteunt het indienen van een aanvraag die automatisch ingewilligd kan worden, de vraag is wat er moet gebeuren met aanvragen die onvolledig zijn of niet aan alle voorwaarden voldoen."
+      "comments": [
+        {
+          "description":"Deze act ondersteunt het indienen van een aanvraag die automatisch ingewilligd kan worden, de vraag is wat er moet gebeuren met aanvragen die onvolledig zijn of niet aan alle voorwaarden voldoen."
+        }
+      ]
     },
     {
       "act": "<<indienen verzoek om aanvullende uitkering voor levensonderhoud op grond van de Tozo>>",
@@ -148,7 +152,7 @@
           "text": "Ondersteuning op grond van de Tozo kan worden aangevraagd in de vorm van een bijstandsuitkering voor levensonderhoud én in de vorm van een lening voor bedrijfskapitaal."
         }
       ],
-      "explanation": ""
+      "comments": []
     },
     {
       "act": "<<indienen verzoek om lening voor bedrijfskapitaal op grond van de Tozo>>",
@@ -173,7 +177,11 @@
           "text": "Ondersteuning op grond van de Tozo kan worden aangevraagd in de vorm van een bijstandsuitkering voor levensonderhoud én in de vorm van een lening voor bedrijfskapitaal."
         }
       ],
-      "explanation": "Deze act ondersteunt het indienen van een aanvraag die automatisch ingewilligd kan worden, de vraag is wat er moet gebeuren met aanvragen die onvolledig zijn of niet aan alle voorwaarden voldoen"
+      "comments": [
+        {
+          "description":"Deze act ondersteunt het indienen van een aanvraag die automatisch ingewilligd kan worden, de vraag is wat er moet gebeuren met aanvragen die onvolledig zijn of niet aan alle voorwaarden voldoen"
+        }
+      ]
     }
   ],
   "facts": [
@@ -181,13 +189,13 @@
       "fact": "[verzoek tegemoetkoming in de schade geleden door de maatregelen ter bestrijding van de verdere verspreiding van COVID-19]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[verzoek om aanvullende uitkering voor levensonderhoud op grond van de Tozo]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[zelfstandige]",
@@ -207,43 +215,43 @@
         ]
       },
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[eenmansbedrijf]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[directeur-grootaandeelhouder (DGA) van een besloten vennootschap]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[er moet sprake zijn van volledige zeggenschap over de besloten vennootschap]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[er moet sprake zijn van het van dragen van de financiële risico’s]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[de DGA heeft naar waarheid verklaard en aannemelijk gemaakt dat zijn/haar B.V. nu geen salaris kan uitbetalen]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[Minister van Economische Zaken en Klimaat]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[gedupeerde onderneming]",
@@ -257,7 +265,7 @@
           "text": "gedupeerde onderneming: in Nederland gevestigde onderneming als bedoeld in artikel 5 van de Handelsregisterwet 2007, niet zijnde een overheidsbedrijf:"
         }
       ],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[onderneming die op 15 maart 2020 in het handelsregister stond ingeschreven die op 15 maart 2020 in het handelsregister stond ingeschreven onder een hoofdactiviteit die in bijlage 1 is opgenomen, met de daarbij behorende code van de Standaard Bedrijfsindeling]",
@@ -269,7 +277,7 @@
         ]
       },
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[gedupeerde onderneming verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020 ten minste € 4000,- aan omzetverlies te lijden als gevolg van de maatregelen ter bestrijding van de verdere verspreiding van COVID-19]",
@@ -283,7 +291,7 @@
           "text": "De minister verstrekt op aanvraag een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020: a.ten minste € 4000,– aan omzetverlies te lijden als gevolg van de maatregelen ter bestrijding van de verdere verspreiding van COVID-19;"
         }
       ],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[gedupeerde onderneming verwacht ten minste € 4.000,- aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19]",
@@ -297,7 +305,7 @@
           "text": "De minister verstrekt op aanvraag een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020: b.ten minste € 4000,– aan vaste lasten te hebben, ook na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in het kader van de bestrijding van de verdere verspreiding van COVID-19."
         }
       ],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[gedupeerde onderneming verkeert in staat van faillissement dan wel bij de rechtbank is een verzoek tot verlening van surseance van betaling aan de onderneming ingediend]",
@@ -317,7 +325,7 @@
           "text": "De minister beslist afwijzend op een aanvraag indien: b.de gedupeerde onderneming in staat van faillissement verkeert dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming is ingediend;"
         }
       ],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[gedupeerde onderneming verkeert in staat van faillissement]",
@@ -331,7 +339,7 @@
           "text": "De minister beslist afwijzend op een aanvraag indien: b.de gedupeerde onderneming in staat van faillissement verkeert dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming is ingediend;"
         }
       ],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[bij de rechtbank is een verzoek tot verlening van surseance van betaling aan de gedupeerde onderneming ingediend]",
@@ -345,7 +353,7 @@
           "text": "De minister beslist afwijzend op een aanvraag indien: b.de gedupeerde onderneming in staat van faillissement verkeert dan wel bij de rechtbank een verzoek tot verlening van surseance van betaling aan de onderneming is ingediend;"
         }
       ],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[tegemoetkoming kan worden verstrekt op grond van de algemene de-minimisverordening]",
@@ -362,7 +370,11 @@
           "text": "verklaring de-minimissteun: verklaring van de gedupeerde onderneming waarin deze bevestigt dat de tegemoetkoming niet zal leiden tot een overschrijding van het de-minimisplafond, bedoeld in artikel 3, tweede lid, van de algemene de-minimisverordening;"
         }
       ],
-      "explanation": "ISSUE: (1) De definitie van de 'verklaring de-minimissteun' impliceert dat de tegemoetkoming wel wordt verstrekt als het de-minimisplafond al overschreden was. In de FLINT interpretatie gebruiken we art. 3 lid 2 van de algemene de-minimisverordening als bron. Daar speelt dit probleem niet. (2) Hier wordt een voorwaarde gesteld in de lijst met definities."
+      "comments": [
+        {
+          "description":"ISSUE: (1) De definitie van de 'verklaring de-minimissteun' impliceert dat de tegemoetkoming wel wordt verstrekt als het de-minimisplafond al overschreden was. In de FLINT interpretatie gebruiken we art. 3 lid 2 van de algemene de-minimisverordening als bron. Daar speelt dit probleem niet. (2) Hier wordt een voorwaarde gesteld in de lijst met definities."
+        }
+      ]
     },
     {
       "fact": "[het totale bedrag aan de-minimissteun dat per lidstaat aan één onderneming wordt verleend, ligt hoger dan 200 000 EUR over een periode van drie belastingjaren]",
@@ -376,7 +388,11 @@
           "text": "Het totale bedrag aan de-minimissteun dat per lidstaat aan één onderneming wordt verleend, ligt niet hoger dan 200 000 EUR over een periode van drie belastingjaren."
         }
       ],
-      "explanation": "ISSUE: Waarom wordt deze informatie aan de gedupeerde onderneming gevraagd? EZK moet de verleende staatssteun toch zelf registreren?"
+      "comments": [
+        {
+          "description":"ISSUE: Waarom wordt deze informatie aan de gedupeerde onderneming gevraagd? EZK moet de verleende staatssteun toch zelf registreren?"
+        }
+      ]
     },
     {
       "fact": "[aanvraag omvat het nummer waarmee de gedupeerde onderneming geregistreerd is bij de Kamer van Koophandel]",
@@ -393,7 +409,7 @@
           "text": "Een aanvraag omvat in ieder geval: gegevens over de gedupeerde onderneming, waaronder het nummer waarmee de gedupeerde onderneming geregistreerd is bij de Kamer van Koophandel, het post- en bezoekadres en het rekeningnummer dat op naam van de gedupeerde onderneming staat;"
         }
       ],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[aanvraag omvat het post- en bezoekadres en het rekeningnummer dat op naam van de gedupeerde onderneming staat]",
@@ -414,7 +430,7 @@
           "text": "Een aanvraag omvat in ieder geval: gegevens over de gedupeerde onderneming, waaronder het nummer waarmee de gedupeerde onderneming geregistreerd is bij de Kamer van Koophandel, het post- en bezoekadres en het rekeningnummer dat op naam van de gedupeerde onderneming staat;"
         }
       ],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[aanvraag omvat het postadres van de gedupeerde onderneming]",
@@ -428,7 +444,7 @@
           "text": "Een aanvraag omvat in ieder geval: gegevens over de gedupeerde onderneming, waaronder het nummer waarmee de gedupeerde onderneming geregistreerd is bij de Kamer van Koophandel, het post- en bezoekadres en het rekeningnummer dat op naam van de gedupeerde onderneming staat;"
         }
       ],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[aanvraag omvat het bezoekadres van de gedupeerde onderneming]",
@@ -442,7 +458,7 @@
           "text": "Een aanvraag omvat in ieder geval: gegevens over de gedupeerde onderneming, waaronder het nummer waarmee de gedupeerde onderneming geregistreerd is bij de Kamer van Koophandel, het post- en bezoekadres en het rekeningnummer dat op naam van de gedupeerde onderneming staat;"
         }
       ],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[aanvraag omvat het rekeningnummer dat op naam van de gedupeerde onderneming staat]",
@@ -456,7 +472,7 @@
           "text": "Een aanvraag omvat in ieder geval: gegevens over de gedupeerde onderneming, waaronder het nummer waarmee de gedupeerde onderneming geregistreerd is bij de Kamer van Koophandel, het post- en bezoekadres en het rekeningnummer dat op naam van de gedupeerde onderneming staat;"
         }
       ],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[aanvraag omvat gegevens over de contactpersoon bij de gedupeerde onderneming]",
@@ -477,7 +493,11 @@
           "text": "Een aanvraag omvat in ieder geval: gegevens over de contactpersoon bij de gedupeerde onderneming, waaronder de naam, het telefoonnummer en het e-mailadres;"
         }
       ],
-      "explanation": "VRAAG: De uitwerking van deze voorwaarde is nu dat alleen de minimaal benodigde gegevens van de contactpersoon worden gevraagd. Is dit de bedoeling?"
+      "comments": [
+        {
+          "description":"VRAAG: De uitwerking van deze voorwaarde is nu dat alleen de minimaal benodigde gegevens van de contactpersoon worden gevraagd. Is dit de bedoeling?"
+        }
+      ]
     },
     {
       "fact": "[naam contactpersoon bij de gedupeerde onderneming]",
@@ -491,7 +511,7 @@
           "text": "Een aanvraag omvat in ieder geval: gegevens over de contactpersoon bij de gedupeerde onderneming, waaronder de naam, het telefoonnummer en het e-mailadres;"
         }
       ],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[telefoonnummer contactpersoon bij de gedupeerde onderneming]",
@@ -505,7 +525,7 @@
           "text": "Een aanvraag omvat in ieder geval: gegevens over de contactpersoon bij de gedupeerde onderneming, waaronder de naam, het telefoonnummer en het e-mailadres;"
         }
       ],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[e-mailadres contactpersoon bij de gedupeerde onderneming]",
@@ -519,7 +539,7 @@
           "text": "Een aanvraag omvat in ieder geval: gegevens over de contactpersoon bij de gedupeerde onderneming, waaronder de naam, het telefoonnummer en het e-mailadres;"
         }
       ],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[onderneming is een overheidsbedrijf]",
@@ -533,7 +553,7 @@
           "text": "gedupeerde onderneming: in Nederland gevestigde onderneming als bedoeld in artikel 5 van de Handelsregisterwet 2007, niet zijnde een overheidsbedrijf:"
         }
       ],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[aanvraag aanvraag is ingediend in de periode van 27 maart 2020 tot en met 26 juni 2020]",
@@ -547,7 +567,7 @@
           "text": "Een aanvraag kan worden ingediend in de periode van 27 maart 2020 tot en met 26 juni 2020."
         }
       ],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[aanvraag tegemoetkoming in de schade geleden door de maatregelen ter bestrijding van de verdere verspreiding van COVID-19]",
@@ -561,151 +581,151 @@
           "text": "De minister verstrekt op aanvraag een tegemoetkoming aan een gedupeerde onderneming die verwacht in de periode van 16 maart 2020 tot en met 15 juni 2020:"
         }
       ],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[onderneming was op peildatum 15 maart 2020 ingeschreven in het handelsregister]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[zelfstandige moet in Nederland woonachtig zijn]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[bedrijf van zelfstandige is in Nederland gevestigd]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[de hoofdzakelijke werkzaamheden van zelfstandige vinden plaats in Nederland]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[zelfstandige voldoet aan het urencriterium]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[zelfstandige is bedrijfsmatig actief geweest, waaronder ingeschreven zijn bij de Kamer van Koophandel, voordat deze regeling is aangekondigd, dus voor 17 maart 2020]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[zelfstandige heeft naar waarheid verklaard dat het inkomen naar verwachting in de periode van ondersteuning minder zal bedragen dan het toepasselijke sociaal minimum als gevolg van de coronacrisis]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[aanvraag aanvullende uitkering voor levensonderhoud op grond van de Tozo]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[verzoek om lening voor bedrijfskapitaal op grond van de Tozo]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[zelfstandige heeft naar waarheid te verklaard en aannemelijk gemaakt dat er sprake is van liquiditeitsprobleem als gevolg van de coronacrisis]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[aanvraag lening voor bedrijfskapitaal op grond van de Tozo]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[in Nederland gevestigde onderneming als bedoeld in artikel 5 van de Handelsregisterwet 2007]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[gedupeerde onderneming is een horecaonderneming]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[gedupeerde onderneming heeft ten minste één vestiging met een ander adres dan het privéadres van de eigenaar van de onderneming]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[gedupeerde onderneming heeft ten minste één vestiging met een ander adres dan het privéadres van de eigenaren van de onderneming]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[gedupeerde onderneming huurt ten minste één horecagelegenheid huurt, pacht of in eigendom heeft]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[gedupeerde onderneming pacht ten minste één horecagelegenheid huurt, pacht of in eigendom heeft]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[gedupeerde onderneming heeft ten minste één horecagelegenheid in eigendom]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[horecaonderneming die ten minste één horecagelegenheid huurt, pacht of in eigendom heeft]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[onderneming]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[ondernemer]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[gemeente]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[verzoek]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[RVO]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[onderneming is voor 15 maart 2020 opgericht en ingeschreven in het KVK Handelsregister]",
@@ -717,7 +737,7 @@
         ]
       },
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[onderneming is voor 15 maart 2020 opgericht]",
@@ -732,13 +752,13 @@
         ]
       },
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[datum van oprichting van onderneming]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[onderneming is voor 15 maart 2020 ingeschreven in het KVK Handelsregister]",
@@ -753,13 +773,13 @@
         ]
       },
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[datum van inschrijving van onderneming in het KVK Handelsregister]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[onderneming waar ten hoogste 250 personen werkzaam zijn, blijkend uit de inschrijving in het handelsregister op 15 maart 2020]",
@@ -774,61 +794,61 @@
         ]
       },
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[aantal personen dat werkt bij onderneming blijkend uit de inschrijving in het handelsregister op 15 maart 2020]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[SBI-code hoofdactiviteit onderneming]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[onderneming heeft een fysieke vestiging in Nederland]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[bankrekeningnummer op dat op naam van de onderneming staat]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[onderneming is niet failliet]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[onderneming heeft geen verzoek tot verlening van surseance van betaling ingediend bij de rechtbank]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[verwacht omzetverlies in de periode van 16 maart 2020 t/m 15 juni 2020 van ten minste € 4.000]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[verwachte vaste lasten na gebruik van andere door de overheid beschikbaar gestelde steunmaatregelen in de periode van 16 maart 2020 t/m 15 juni 2020 ten minste € 4.000]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[ontvangen overheidssteun over het huidige en de afgelopen 2 belastingjaren is niet meer dan € 200.000 aan overheidssteun]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[onderneming die op 15 maart 2020 stond ingeschreven in het handelsregister onder de code 56.10.1, 56.10.2 of 56.30 van de Standaard Bedrijfsindeling]",
@@ -878,19 +898,19 @@
         ]
       },
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[onderneming huurt, pacht of heeft in eigendom in elk geval één horecagelegenheid]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[onderneming heeft ten minste één vestiging met een ander adres te hebben dan het privéadres van de eigenaar/eigenaren]",
       "function": "[]",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "fact": "[ingeschreven onder een hoofdactiviteit die in bijlage 1 is opgenomen, met de daarbij behorende code van de Standaard Bedrijfsindeling]",
@@ -4017,7 +4037,7 @@
           "text": ""
         }
       ],
-      "explanation": ""
+      "comments":[]
     }
   ],
   "duties": [
@@ -4029,7 +4049,11 @@
       "create": "<<indienen verzoek om aanvullende uitkering voor levensonderhoud op grond van de Tozo>>",
       "terminate": "<<>>",
       "sources": [],
-      "explanation": "Deze duty wordt ook gecreëerd door <<indienen verzoek om lening voor bedrijfskapitaal op grond van de Tozo>>, het is nu niet mogelijk meer dan één creating acts te registreren."
+      "comments": [
+        {
+          "description":"Deze duty wordt ook gecreëerd door <<indienen verzoek om lening voor bedrijfskapitaal op grond van de Tozo>>, het is nu niet mogelijk meer dan één creating acts te registreren."
+        }
+      ]
     },
     {
       "duty": "<zelfstandige kan bij gemeente een lening afsluiten van maximaal € 10.157 tegen een rente van 2%>",
@@ -4039,7 +4063,7 @@
       "create": "<<indienen verzoek om lening voor bedrijfskapitaal op grond van de Tozo>>",
       "terminate": "<<>>",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     },
     {
       "duty": "<zelfstandige hoeft tot 1 januari niet af te lossen>",
@@ -4049,7 +4073,7 @@
       "create": "<<indienen verzoek om lening voor bedrijfskapitaal op grond van de Tozo>>",
       "terminate": "<<>>",
       "sources": [],
-      "explanation": ""
+      "comments":[]
     }
   ]
 }

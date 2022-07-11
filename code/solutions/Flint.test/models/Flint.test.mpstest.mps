@@ -5,7 +5,7 @@
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="13" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="14" />
     <use id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi" version="0" />
     <use id="68015e26-cc4d-49db-8715-b643faea1769" name="jetbrains.mps.lang.test.generator" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
@@ -320,7 +320,7 @@
         <property id="5309275763119607854" name="escapedValue" index="aYSo3" />
       </concept>
       <concept id="6868897032739893314" name="Flint.structure.IExplainable" flags="ng" index="cog$R">
-        <property id="778381075952164307" name="explanation" index="3ANC2_" />
+        <child id="2745464144661299321" name="comments" index="380x_I" />
       </concept>
       <concept id="6868897032739893311" name="Flint.structure.FlintSourceDeprecated" flags="ng" index="cog_a">
         <property id="6868897032739893349" name="validTo" index="cog$g" />
@@ -409,6 +409,9 @@
         <property id="5922331120225230293" name="eText" index="3Pt4kj" />
         <property id="5922331120230670153" name="eValidTo" index="3PDOuf" />
         <property id="5922331120230670133" name="eValidFrom" index="3PDOvN" />
+      </concept>
+      <concept id="2745464144661300863" name="Flint.structure.Comment" flags="ng" index="380xXC">
+        <property id="2745464144661302404" name="description" index="380xmj" />
       </concept>
       <concept id="4312083994563767573" name="Flint.structure.LanguageReference" flags="ng" index="3ainiu">
         <reference id="4312083994563770085" name="target" index="3aimXI" />
@@ -2196,11 +2199,9 @@
         <node concept="2cz0EU" id="4pyf5wCP3AO" role="3_ImGF">
           <property role="TrG5h" value="Duty1" />
           <property role="3GE5qa" value="duties" />
-          <property role="3ANC2_" value="Duty Explanation" />
           <property role="2CxiQ9" value="0" />
           <node concept="cog_b" id="4pyf5wCP3AQ" role="2pmM46">
             <property role="1tl0gq" value="English" />
-            <property role="3ANC2_" value="TestSource" />
             <property role="2XObfb" value="Source missing" />
             <node concept="2hPCcK" id="45WVu5_dyEO" role="2hN6Sa">
               <node concept="19SUe$" id="4pyf5wCP3AS" role="19SJt6">
@@ -2218,15 +2219,16 @@
             <property role="1GVPtd" value="English" />
             <property role="1GVPtb" value="Duty1" />
           </node>
+          <node concept="380xXC" id="6Kon4JRNWCx" role="380x_I">
+            <property role="380xmj" value="Duty Explanation" />
+          </node>
         </node>
         <node concept="cu0$f" id="4pyf5wCP3Aa" role="3_ImGK">
           <property role="TrG5h" value="Person" />
           <property role="3GE5qa" value="facts" />
-          <property role="3ANC2_" value="Person Explanation" />
           <property role="2CxiQ9" value="0" />
           <node concept="cog_b" id="4pyf5wCP3Ab" role="2pmM46">
             <property role="1tl0gq" value="English" />
-            <property role="3ANC2_" value="TestSource" />
             <property role="2XObfb" value="Source missing" />
             <node concept="2hPCcK" id="45WVu5_dyEQ" role="2hN6Sa">
               <node concept="19SUe$" id="4pyf5wCP3Ad" role="19SJt6">
@@ -2238,6 +2240,9 @@
           <node concept="1GVOM6" id="4OXxETsoixn" role="1GVO30">
             <property role="1GVPtd" value="English" />
             <property role="1GVPtb" value="Person" />
+          </node>
+          <node concept="380xXC" id="6Kon4JRNWBv" role="380x_I">
+            <property role="380xmj" value="Person Explanation" />
           </node>
         </node>
         <node concept="cu0$f" id="4pyf5wCP3Ag" role="3_ImGK">
@@ -2270,7 +2275,6 @@
           <property role="2CxiQ9" value="0" />
           <node concept="cog_b" id="4pyf5wCP3Ap" role="2pmM46">
             <property role="1tl0gq" value="English" />
-            <property role="3ANC2_" value="TestSource" />
             <property role="2XObfb" value="Source missing" />
             <node concept="2hPCcK" id="45WVu5_dyES" role="2hN6Sa">
               <node concept="19SUe$" id="4pyf5wCP3Ar" role="19SJt6">
@@ -2309,7 +2313,6 @@
           <property role="2CxiQ9" value="0" />
           <node concept="cog_b" id="4pyf5wCP3AA" role="2pmM46">
             <property role="1tl0gq" value="English" />
-            <property role="3ANC2_" value="TestSource" />
             <property role="2XObfb" value="Source missing" />
             <node concept="2hPCcK" id="45WVu5_dyEG" role="2hN6Sa">
               <node concept="2h$EKm" id="45WVu5_dyEI" role="19SJt6">
@@ -2361,7 +2364,6 @@
         <node concept="mu5$5" id="4pyf5wCP3AF" role="3_ImHT">
           <property role="TrG5h" value="Act2" />
           <property role="3GE5qa" value="acts" />
-          <property role="3ANC2_" value="Test Explananation" />
           <property role="2CxiQ9" value="0" />
           <node concept="1FQA6B" id="4pyf5wCP3AJ" role="3H36mW">
             <ref role="1FQA6$" node="4pyf5wCP3Ag" resolve="Literals" />
@@ -2387,6 +2389,9 @@
           <node concept="1GVOM6" id="4OXxETsoixm" role="1GVO30">
             <property role="1GVPtd" value="English" />
             <property role="1GVPtb" value="Act2" />
+          </node>
+          <node concept="380xXC" id="6Kon4JRNWC6" role="380x_I">
+            <property role="380xmj" value="Test Explananation" />
           </node>
         </node>
         <node concept="3ainiu" id="6$5jl5S4JUb" role="3a9ffC">
@@ -5951,7 +5956,6 @@
         <node concept="cu0$f" id="4DLYcFhRmCh" role="3_ImGK">
           <property role="TrG5h" value="bedrag" />
           <property role="3GE5qa" value="facts" />
-          <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
           <property role="2CxiQ9" value="0" />
           <node concept="1GVOM6" id="4OXxETsoiYO" role="1GVO30">
             <property role="1GVPtd" value="English" />
@@ -5978,7 +5982,6 @@
         <node concept="cu0$f" id="4DLYcFhRmCl" role="3_ImGK">
           <property role="TrG5h" value="burger" />
           <property role="3GE5qa" value="facts" />
-          <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
           <property role="2CxiQ9" value="0" />
           <node concept="1GVOM6" id="4OXxETsoiYQ" role="1GVO30">
             <property role="1GVPtd" value="English" />
@@ -6005,7 +6008,6 @@
         <node concept="cu0$f" id="4DLYcFhRmCr" role="3_ImGK">
           <property role="TrG5h" value="verzoek" />
           <property role="3GE5qa" value="facts" />
-          <property role="3ANC2_" value="GENERATED: This fact was generated during the 'Import From Json Action'" />
           <property role="2CxiQ9" value="0" />
           <node concept="1GVOM6" id="4OXxETsoiYS" role="1GVO30">
             <property role="1GVPtd" value="English" />
@@ -6050,7 +6052,6 @@
         <node concept="cu0$f" id="4DLYcFhRmD3" role="3_ImGK">
           <property role="TrG5h" value="anvrage" />
           <property role="3GE5qa" value="facts" />
-          <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
           <property role="2CxiQ9" value="0" />
           <node concept="1GVOM6" id="4OXxETsoiYW" role="1GVO30">
             <property role="1GVPtd" value="English" />
@@ -6060,7 +6061,6 @@
         <node concept="cu0$f" id="4DLYcFhRmDO" role="3_ImGK">
           <property role="TrG5h" value="oekenne" />
           <property role="3GE5qa" value="facts" />
-          <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
           <property role="2CxiQ9" value="0" />
           <node concept="1GVOM6" id="4OXxETsoiYX" role="1GVO30">
             <property role="1GVPtd" value="English" />
@@ -6070,7 +6070,6 @@
         <node concept="cu0$f" id="4DLYcFhRmDZ" role="3_ImGK">
           <property role="TrG5h" value="ntrekke" />
           <property role="3GE5qa" value="facts" />
-          <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
           <property role="2CxiQ9" value="0" />
           <node concept="1GVOM6" id="4OXxETsoiYY" role="1GVO30">
             <property role="1GVPtd" value="English" />
@@ -6080,7 +6079,6 @@
         <node concept="cu0$f" id="4DLYcFhRmEh" role="3_ImGK">
           <property role="TrG5h" value="fwijze" />
           <property role="3GE5qa" value="facts" />
-          <property role="3ANC2_" value="GENERATED: This act was generated during the 'Import From Json Action'" />
           <property role="2CxiQ9" value="0" />
           <node concept="1GVOM6" id="4OXxETsoiYZ" role="1GVO30">
             <property role="1GVPtd" value="English" />
@@ -6093,7 +6091,6 @@
           <property role="2CxiQ9" value="0" />
           <node concept="cog_b" id="4DLYcFhRmCB" role="2pmM46">
             <property role="1tl0gq" value="English" />
-            <property role="3ANC2_" value="Source3" />
             <property role="2XObfb" value="Source missing" />
             <node concept="2hPCcK" id="4DLYcFhRmCC" role="2hN6Sa">
               <node concept="2h$EKm" id="4DLYcFhRmCG" role="19SJt6">
@@ -6124,7 +6121,6 @@
           </node>
           <node concept="cog_b" id="4DLYcFhRmCQ" role="2pmM46">
             <property role="1tl0gq" value="English" />
-            <property role="3ANC2_" value="TestSource" />
             <property role="2XObfb" value="Source missing" />
             <node concept="2hPCcK" id="4DLYcFhRmCR" role="2hN6Sa">
               <node concept="19SUe$" id="4DLYcFhRmCS" role="19SJt6">
@@ -6178,7 +6174,6 @@
           <property role="2CxiQ9" value="0" />
           <node concept="cog_b" id="4DLYcFhRmDf" role="2pmM46">
             <property role="1tl0gq" value="English" />
-            <property role="3ANC2_" value="TestSource" />
             <property role="2XObfb" value="Source missing" />
             <node concept="2hPCcK" id="4DLYcFhRmDg" role="2hN6Sa">
               <node concept="19SUe$" id="4DLYcFhRmDh" role="19SJt6">
@@ -6206,7 +6201,6 @@
           </node>
           <node concept="cog_b" id="4DLYcFhRmDr" role="2pmM46">
             <property role="1tl0gq" value="English" />
-            <property role="3ANC2_" value="Source3" />
             <property role="2XObfb" value="Source missing" />
             <node concept="2hPCcK" id="4DLYcFhRmDs" role="2hN6Sa">
               <node concept="19SUe$" id="4DLYcFhRmDt" role="19SJt6">
@@ -6301,7 +6295,6 @@
           <property role="2CxiQ9" value="0" />
           <node concept="cog_b" id="4DLYcFhRmE8" role="2pmM46">
             <property role="1tl0gq" value="English" />
-            <property role="3ANC2_" value="Source3" />
             <property role="2XObfb" value="Source missing" />
             <node concept="2hPCcK" id="4DLYcFhRmE9" role="2hN6Sa">
               <node concept="19SUe$" id="4DLYcFhRmEa" role="19SJt6">

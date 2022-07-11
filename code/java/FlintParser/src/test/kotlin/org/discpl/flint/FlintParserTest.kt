@@ -50,6 +50,22 @@ internal class FlintParserTest {
     }
 
     @Test
+    fun getCommentsANLb() {
+        this::class.java.classLoader.getResourceAsStream("test-ANLb.flint.json").use {
+            InputStreamReader(it).use { it ->
+                val text = it.readText()
+                val flintParser = FlintParser(text)
+                val factCommentList = flintParser.getFacts().filter { fact: Fact -> fact.comments?.isNotEmpty()?: false }.toList()
+
+                println(factCommentList.flatMap { fact: Fact -> fact.comments!! }.toList())
+                assertTrue(factCommentList.isNotEmpty())
+            }
+        }
+    }
+
+
+
+    @Test
     fun getFunctions() {
         this::class.java.classLoader.getResourceAsStream("test-Vreemdelingenwet.flint.json").use {
             InputStreamReader(it).use {
