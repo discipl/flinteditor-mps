@@ -1,0 +1,37 @@
+@startuml
+skinparam nodesep 50
+skinparam ranksep 200
+
+class "Flint.structure.Fact"  << (R, lightgrey) >>
+interface "Flint.structure.IExplainable" 
+"Flint.structure.IExplainable" : explanation : string
+interface "FlintCellModels.structure.IProvidesTranslatedCell"
+interface "Flint.structure.IHasResolvableRoot" <INamedConcept>
+interface "Flint.structure.IHasSources" 
+interface "Flint.structure.IShouldBeInVirtualPackage"
+class "Flint.structure.Resolvable"
+interface "Flint.structure.IUniquelyName" <INamedConcept> 
+interface "Flint.structure.IUsable" 
+interface "Flint.structure.IHasResolvable" 
+interface "Flint.structure.IHasLanguage" <INamedConcept>
+interface "Flint.structure.IReference"
+interface "Flint.structure.IActCreateableAndTerminateable" <INamedConcept> 
+
+"FlintCellModels.structure.IProvidesRoleTagsCell" <|.. "Flint.structure.IHasSources"
+"Flint.structure.IUniquelyName" <|.. "Flint.structure.Fact"
+"Flint.structure.IExplainable" <|.. "Flint.structure.Fact"
+"Flint.structure.IUsable" <|.. "Flint.structure.Fact"
+"Flint.structure.IHasSources" <|.. "Flint.structure.Fact"
+"Flint.structure.IHasResolvableRoot" <|.. "Flint.structure.Fact"
+"Flint.structure.IShouldBeInVirtualPackage" <|.. "Flint.structure.Fact"
+"Flint.structure.IHasLanguage" <|.. "Flint.structure.Fact"
+"Flint.structure.Fact" "1" *-- "0..1" "Flint.structure.Resolvable" : function
+"Flint.structure.FactReference" "1" --> "1" "Flint.structure.Fact" : fact
+"Flint.structure.IHasResolvable" <|.. "Flint.structure.IHasResolvableRoot"
+"FlintCellModels.structure.IProvidesTranslatedCell" <|.. "Flint.structure.IHasLanguage"
+"FlintCellModels.structure.IProvidesTranslatedCell" <|.. "Flint.structure.IExplainable"
+"Flint.structure.IActCreateableAndTerminateable" <|.. "Flint.structure.FactReference"
+"Flint.structure.IReference" <|.. "Flint.structure.FactReference"
+"Flint.structure.Resolvable" <|-- "Flint.structure.FactReference"
+
+@enduml

@@ -1,0 +1,43 @@
+@startuml
+
+skinparam nodesep 50
+skinparam ranksep 200
+
+interface "Flint.structure.IExplainable" 
+"Flint.structure.IExplainable" : explanation : string
+interface "FlintCellModels.structure.IProvidesTranslatedCell"
+interface "Flint.structure.IHasResolvableRoot" <INamedConcept>
+interface "Flint.structure.IHasSources" 
+interface "Flint.structure.IShouldBeInVirtualPackage"
+class "Flint.structure.Resolvable" 
+interface "Flint.structure.IActCreateableAndTerminateable" <INamedConcept>
+interface "Flint.structure.IReference" 
+class "Flint.structure.FactReference"
+interface "Flint.structure.IUniquelyName" <INamedConcept>
+interface "Flint.structure.IHasResolvable"
+interface "Flint.structure.IHasLanguage" <INamedConcept> 
+
+
+"FlintCellModels.structure.IProvidesTranslatedCell" <|.. "Flint.structure.IHasLanguage"
+"FlintCellModels.structure.IProvidesRoleTagsCell" <|.. "Flint.structure.IHasSources"
+"Flint.structure.IHasResolvable" <|.. "Flint.structure.IHasResolvableRoot"
+"FlintCellModels.structure.IProvidesTranslatedCell" <|.. "Flint.structure.IExplainable"
+"Flint.structure.IUniquelyName" <|.. "Flint.structure.Act"
+"Flint.structure.IExplainable" <|.. "Flint.structure.Act"
+"Flint.structure.IHasResolvableRoot" <|.. "Flint.structure.Act"
+"Flint.structure.IHasSources" <|.. "Flint.structure.Act"
+"Flint.structure.IShouldBeInVirtualPackage" <|.. "Flint.structure.Act"
+"Flint.structure.IHasLanguage" <|.. "Flint.structure.Act"
+"Flint.structure.Act" "1" *-- "0..1" "Flint.structure.Resolvable" : preconditions
+"Flint.structure.Act" "1" *-- "0..n" "Flint.structure.IActCreateableAndTerminateable" : create
+"Flint.structure.Act" "1" *-- "0..n" "Flint.structure.IActCreateableAndTerminateable" : terminate
+"Flint.structure.Act" "1" *-- "1" "Flint.structure.FactReference" : actor
+"Flint.structure.Act" "1" *-- "1" "Flint.structure.FactReference" : object
+"Flint.structure.Act" "1" *-- "1" "Flint.structure.FactReference" : recipient
+"Flint.structure.Act" "1" *-- "1" "Flint.structure.FactReference" : action
+"Flint.structure.IActCreateableAndTerminateable" <|.. "Flint.structure.FactReference"
+"Flint.structure.IReference" <|.. "Flint.structure.FactReference"
+"Flint.structure.Resolvable" <|-- "Flint.structure.FactReference"
+"Flint.structure.IActCreateableAndTerminateable" <|.. "Flint.structure.FactReference"
+
+@enduml

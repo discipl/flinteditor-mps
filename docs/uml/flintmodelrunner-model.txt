@@ -1,0 +1,23 @@
+@startuml
+skinparam nodesep 50
+skinparam ranksep 100
+
+class "Flint.structure.FlintModelActorReference"  
+class "Flint.structure.FactReference" 
+class "Flint.structure.FlintModelRunnerConfiguration" <INamedConcept\nScopeProvider> << (R, lightgrey) >>
+class "Flint.structure.FlintRunnerFact"  
+class "Flint.structure.FlintModelActor" <INamedConcept\nScopeProvider> 
+class "Flint.structure.Fact"  << (R, lightgrey) >>
+
+
+"Flint.structure.FlintModelRunnerConfiguration" "1" *-- "0..n" "Flint.structure.FlintModelActor" : actors
+"Flint.structure.FlintModelActorReference" "1" --> "1" "Flint.structure.FlintModelActor" : actor
+"Flint.structure.FlintModelActor" "1" *-- "0..n" "Flint.structure.FactReference" : facts
+"Flint.structure.FlintRunnerFact" "1" *-- "0..n" "Flint.structure.FlintModelActorReference" : actors
+"Flint.structure.FlintRunnerFact" "1" --> "1" "Flint.structure.Fact" : fact
+"Flint.structure.FactReference" "1" --> "1" "Flint.structure.Fact" : fact
+
+"Flint.structure.FlintModelRunnerConfiguration" "1" *-- "1..n" "Flint.structure.FlintModelActorReference" : activeActors
+"Flint.structure.FlintModelRunnerConfiguration" "1" *-- "0..n" "Flint.structure.FactReference" : generalFacts
+"Flint.structure.FlintModelRunnerConfiguration" "1" --> "1" "Flint.structure.FlintModel" : flintModel
+@enduml

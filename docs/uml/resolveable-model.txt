@@ -1,0 +1,75 @@
+@startuml
+skinparam nodesep 100
+skinparam ranksep 200
+
+class "Flint.structure.Resolvable"
+class "Flint.structure.Expression" 
+class "Flint.structure.FactReference"
+class "Flint.structure.ListExpression"  
+"Flint.structure.ListExpression" : name : string
+class "Flint.structure.SingleExpression" 
+class "Flint.structure.MultiExpression"  
+class "Flint.structure.LITERAL"  
+class "Flint.structure.LiteralOperand"  
+interface "Flint.structure.IActCreateableAndTerminateable" <INamedConcept>
+interface "Flint.structure.IReference"
+interface "Flint.structure.IHasResolvable"
+class "Flint.structure.LIST"  
+class "Flint.structure.PRODUCT"  
+class "Flint.structure.NOT"  
+class "Flint.structure.AND"  
+class "Flint.structure.CREATE"  
+class "Flint.structure.BooleanOperand"  
+"Flint.structure.BooleanOperand" : value : boolean
+class "Flint.structure.MAX"  
+class "Flint.structure.LESS_THAN"  
+class "Flint.structure.MIN"  
+class "Flint.structure.PROJECTION" <ScopeProvider> 
+class "Flint.structure.SUM" 
+class "Flint.structure.OR" 
+class "Flint.structure.EQUAL"
+class "Flint.structure.NumberOperand"  
+"Flint.structure.NumberOperand" : value : number
+class "Flint.structure.StringOperand"  
+"Flint.structure.StringOperand" : value : string
+interface "Flint.structure.IHasResolvableRoot" <INamedConcept>
+
+
+
+
+"Flint.structure.Resolvable" <|-- "Flint.structure.Expression"
+"Flint.structure.Resolvable" <|-- "Flint.structure.FactReference"
+"Flint.structure.ListExpression" "1" *-- "1" "Flint.structure.Resolvable" : items
+"Flint.structure.SingleExpression" "1" *-- "1" "Flint.structure.Resolvable" : operand
+"Flint.structure.MultiExpression" "1" *-- "0..n" "Flint.structure.Resolvable" : operands
+"Flint.structure.Expression" <|-- "Flint.structure.ListExpression"
+"Flint.structure.Expression" <|-- "Flint.structure.SingleExpression"
+"Flint.structure.Expression" <|-- "Flint.structure.MultiExpression"
+"Flint.structure.Expression" <|-- "Flint.structure.PROJECTION"
+"Flint.structure.Expression" <|-- "Flint.structure.LITERAL"
+"Flint.structure.PROJECTION" "1" *-- "1..n" "Flint.structure.FactReference" : context
+"Flint.structure.PROJECTION" "1" *-- "1" "Flint.structure.FactReference" : fact
+"Flint.structure.IActCreateableAndTerminateable" <|.. "Flint.structure.FactReference"
+"Flint.structure.IReference" <|.. "Flint.structure.FactReference"
+"Flint.structure.IHasResolvable" <|.. "Flint.structure.ListExpression"
+"Flint.structure.IHasResolvable" <|.. "Flint.structure.CREATE"
+"Flint.structure.ListExpression" <|-- "Flint.structure.LIST"
+"Flint.structure.IHasResolvable" <|.. "Flint.structure.SingleExpression"
+"Flint.structure.SingleExpression" <|-- "Flint.structure.NOT"
+"Flint.structure.IHasResolvable" <|.. "Flint.structure.MultiExpression"
+"Flint.structure.MultiExpression" <|-- "Flint.structure.PRODUCT"
+"Flint.structure.MultiExpression" <|-- "Flint.structure.AND"
+"Flint.structure.MultiExpression" <|-- "Flint.structure.CREATE"
+"Flint.structure.MultiExpression" <|-- "Flint.structure.MAX"
+"Flint.structure.MultiExpression" <|-- "Flint.structure.LESS_THAN"
+"Flint.structure.MultiExpression" <|-- "Flint.structure.MIN"
+"Flint.structure.MultiExpression" <|-- "Flint.structure.SUM"
+"Flint.structure.MultiExpression" <|-- "Flint.structure.OR"
+"Flint.structure.MultiExpression" <|-- "Flint.structure.EQUAL"
+"Flint.structure.IHasResolvable" <|.. "Flint.structure.PROJECTION"
+"Flint.structure.LiteralOperand" <|-- "Flint.structure.NumberOperand"
+"Flint.structure.LiteralOperand" <|-- "Flint.structure.BooleanOperand"
+"Flint.structure.LiteralOperand" <|-- "Flint.structure.StringOperand"
+"Flint.structure.LITERAL" "1" *-- "1" "Flint.structure.LiteralOperand" : operand
+"Flint.structure.IHasResolvable" <|.. "Flint.structure.IHasResolvableRoot"
+@enduml
