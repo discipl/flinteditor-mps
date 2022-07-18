@@ -2841,6 +2841,34 @@
                 </node>
               </node>
             </node>
+            <node concept="3cpWs8" id="2oFt21XqEt7" role="3cqZAp">
+              <node concept="3cpWsn" id="2oFt21XqEta" role="3cpWs9">
+                <property role="TrG5h" value="defaultEnglishNode" />
+                <node concept="3Tqbb2" id="2oFt21XqEt5" role="1tU5fm">
+                  <ref role="ehGHo" to="lnwe:2ACGKFDB3mq" resolve="Language" />
+                </node>
+                <node concept="2OqwBi" id="2oFt21XqEXP" role="33vP2m">
+                  <node concept="2tJFMh" id="2oFt21XqEXQ" role="2Oq$k0">
+                    <node concept="ZC_QK" id="2oFt21XqEXR" role="2tJFKM">
+                      <ref role="2aWVGs" to="jov5:4L0TsavKybn" resolve="English" />
+                    </node>
+                  </node>
+                  <node concept="Vyspw" id="2oFt21XqEXS" role="2OqNvi">
+                    <node concept="2OqwBi" id="2oFt21XqEXT" role="Vysub">
+                      <node concept="2OqwBi" id="2oFt21XqEXU" role="2Oq$k0">
+                        <node concept="369mXd" id="2oFt21XqEXV" role="2Oq$k0" />
+                        <node concept="liA8E" id="2oFt21XqEXW" role="2OqNvi">
+                          <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="2oFt21XqEXX" role="2OqNvi">
+                        <ref role="37wK5l" to="exr9:~EditorContext.getRepository()" resolve="getRepository" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="2oFt21XqhGV" role="3cqZAp">
               <node concept="37vLTI" id="2oFt21XqhGW" role="3clFbG">
                 <node concept="2OqwBi" id="2oFt21XqhGX" role="37vLTJ">
@@ -2861,25 +2889,8 @@
                     <ref role="3Tt5mk" to="lnwe:3JnAoJLBJr_" resolve="target" />
                   </node>
                 </node>
-                <node concept="2OqwBi" id="2oFt21XqhH4" role="37vLTx">
-                  <node concept="2tJFMh" id="2oFt21XqhH5" role="2Oq$k0">
-                    <node concept="ZC_QK" id="2oFt21XqhH6" role="2tJFKM">
-                      <ref role="2aWVGs" to="jov5:4L0TsavKybn" resolve="English" />
-                    </node>
-                  </node>
-                  <node concept="Vyspw" id="2oFt21XqhH7" role="2OqNvi">
-                    <node concept="2OqwBi" id="2oFt21XqhH8" role="Vysub">
-                      <node concept="2OqwBi" id="2oFt21XqhH9" role="2Oq$k0">
-                        <node concept="369mXd" id="2oFt21XqhHa" role="2Oq$k0" />
-                        <node concept="liA8E" id="2oFt21XqhHb" role="2OqNvi">
-                          <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
-                        </node>
-                      </node>
-                      <node concept="liA8E" id="2oFt21XqhHc" role="2OqNvi">
-                        <ref role="37wK5l" to="exr9:~EditorContext.getRepository()" resolve="getRepository" />
-                      </node>
-                    </node>
-                  </node>
+                <node concept="37vLTw" id="2oFt21XqF9G" role="37vLTx">
+                  <ref role="3cqZAo" node="2oFt21XqEta" resolve="defaultEnglishNode" />
                 </node>
               </node>
             </node>
@@ -2903,25 +2914,8 @@
                     <ref role="3Tt5mk" to="lnwe:3JnAoJLBJr_" resolve="target" />
                   </node>
                 </node>
-                <node concept="2OqwBi" id="2oFt21XqhHm" role="37vLTx">
-                  <node concept="2tJFMh" id="2oFt21XqhHn" role="2Oq$k0">
-                    <node concept="ZC_QK" id="2oFt21XqhHo" role="2tJFKM">
-                      <ref role="2aWVGs" to="jov5:4L0TsavKybn" resolve="English" />
-                    </node>
-                  </node>
-                  <node concept="Vyspw" id="2oFt21XqhHp" role="2OqNvi">
-                    <node concept="2OqwBi" id="2oFt21XqhHq" role="Vysub">
-                      <node concept="2OqwBi" id="2oFt21XqhHr" role="2Oq$k0">
-                        <node concept="369mXd" id="2oFt21XqhHs" role="2Oq$k0" />
-                        <node concept="liA8E" id="2oFt21XqhHt" role="2OqNvi">
-                          <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
-                        </node>
-                      </node>
-                      <node concept="liA8E" id="2oFt21XqhHu" role="2OqNvi">
-                        <ref role="37wK5l" to="exr9:~EditorContext.getRepository()" resolve="getRepository" />
-                      </node>
-                    </node>
-                  </node>
+                <node concept="37vLTw" id="2oFt21XqFjn" role="37vLTx">
+                  <ref role="3cqZAo" node="2oFt21XqEta" resolve="defaultEnglishNode" />
                 </node>
               </node>
             </node>
@@ -2931,8 +2925,13 @@
                   <node concept="37vLTw" id="2pVk74SlkBP" role="3uHU7B">
                     <ref role="3cqZAo" node="2oFt21Xqhzg" resolve="lang" />
                   </node>
-                  <node concept="37vLTw" id="2pVk74SnBAa" role="3uHU7w">
-                    <ref role="3cqZAo" node="2pVk74SnBA3" resolve="defaultEnglishNode" />
+                  <node concept="2OqwBi" id="2oFt21Xrk6t" role="3uHU7w">
+                    <node concept="37vLTw" id="2pVk74SnBAa" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2oFt21XqEta" resolve="defaultEnglishNode" />
+                    </node>
+                    <node concept="3TrEf2" id="2oFt21XrkRD" role="2OqNvi">
+                      <ref role="3Tt5mk" to="lnwe:31VUSTdxVVP" resolve="EditorLanguage" />
+                    </node>
                   </node>
                 </node>
                 <node concept="37vLTw" id="2pVk74SljP2" role="37vLTJ">
