@@ -15,7 +15,7 @@ class FlintLanguageParserTest {
             InputStreamReader(it).use {
                 val text = it.readText()
                 val languageParser = FlintLanguageParser(text)
-                val language = languageParser.getEditorLanguage()
+                val language = languageParser.editorLanguage
                 val correctLanguage: EditorLanguage = EditorLanguage("Dutch","naam","daden","feiten",
                     "plichten","functie","referentie","taak-eigenaar","eiser",
                     "maak","beindig","handhaven","taak-onderdelen","uitleg","actie-ondernemer",

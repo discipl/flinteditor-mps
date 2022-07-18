@@ -5,7 +5,5 @@ import com.google.gson.Gson
 class FlintLanguageParser(json: String) {
     private val jsonString = json
 
-    fun getEditorLanguage(): EditorLanguage{
-        return Gson().fromJson(jsonString, EditorLanguage::class.java)
-    }
+    val editorLanguage: EditorLanguage = Gson().fromJson(json, EditorLanguage::class.java)
 }
