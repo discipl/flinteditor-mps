@@ -25,6 +25,9 @@
         <child id="3348158742936976577" name="members" index="25R1y" />
       </concept>
       <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
+      <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
+        <property id="7862711839422615217" name="text" index="t5JxN" />
+      </concept>
       <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
         <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
       </concept>
@@ -1409,6 +1412,9 @@
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="XOR" />
     <ref role="1TJDcQ" node="4OBWPp16Ymv" resolve="MultiExpression" />
+    <node concept="t5JxF" id="7aKm3NWO2GA" role="lGtFl">
+      <property role="t5JxN" value="Defines XOR functions. NOTE: NOT IMPLEMENTED IN FLINTRUNNER" />
+    </node>
   </node>
 </model>
 
