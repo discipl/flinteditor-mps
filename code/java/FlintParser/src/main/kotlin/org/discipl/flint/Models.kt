@@ -53,7 +53,7 @@ data class Act(
     val create: List<ActCreateableAndTerminateable>,
     val terminate: List<ActCreateableAndTerminateable>,
     val preconditions: Resolvable?,
-    override val explanation: String?
+    override val comments: List<Comment>?
 ) : Explainable, HasSources {
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
@@ -75,7 +75,7 @@ data class Fact(
     val fact: FactReference,
     override val sources: List<Source>?,
     val function: Resolvable?,
-    override val explanation: String?
+    override val comments: List<Comment>?
 ) : Explainable, HasSources {
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
@@ -106,7 +106,7 @@ data class Duty(
     @Deprecated("can be automatically generated")
     val terminate: DutyCreateableAndTerminateable?,
     override val sources: List<Source>?,
-    override val explanation: String?
+    override val comments: List<Comment>?
 ) : Explainable, HasSources {
     val allDutyComponents: List<DutyReference> get() = dutyComponents?.components ?: emptyList()
     override fun equals(other: Any?): Boolean {
@@ -128,7 +128,7 @@ data class Duty(
 data class Source(
     val citation: String,
     val text: String,
-    override val explanation: String?,
+    override val comments: List<Comment>?,
     val validFrom: String,
     val validTo: String?,
     val juriconnect: String,
@@ -230,8 +230,10 @@ data class ActReference(override val name: String) :
 
 data class DutyComponents(val components: List<DutyReference>)
 
+data class Comment(val description: String)
+
 interface Explainable {
-    val explanation: String?
+    val comments: List<Comment>?
 }
 
 data class Manifest(val files: Files)
