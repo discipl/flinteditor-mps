@@ -245,13 +245,6 @@
         <property id="8575328350543493365" name="message" index="huDt6" />
         <property id="2423417345669755629" name="filter" index="1eyWvh" />
       </concept>
-      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
-        <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
-      </concept>
-      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
-        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
-      </concept>
     </language>
     <language id="90746344-04fd-4286-97d5-b46ae6a81709" name="jetbrains.mps.lang.migration">
       <concept id="8352104482584315555" name="jetbrains.mps.lang.migration.structure.MigrationScript" flags="ig" index="3SyAh_">
@@ -3826,24 +3819,20 @@
                                 </node>
                               </node>
                             </node>
-                            <node concept="1X3_iC" id="AWz8hhvabB" role="lGtFl">
-                              <property role="3V$3am" value="statement" />
-                              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                              <node concept="3clFbF" id="31VUSTe3FiZ" role="8Wnug">
-                                <node concept="2OqwBi" id="31VUSTe3Fj0" role="3clFbG">
-                                  <node concept="2JrnkZ" id="31VUSTe3Fj1" role="2Oq$k0">
-                                    <node concept="37vLTw" id="31VUSTe3Fj2" role="2JrQYb">
-                                      <ref role="3cqZAo" node="31VUSTe0Ndl" resolve="langauge" />
-                                    </node>
+                            <node concept="3clFbF" id="31VUSTe3FiZ" role="3cqZAp">
+                              <node concept="2OqwBi" id="31VUSTe3Fj0" role="3clFbG">
+                                <node concept="2JrnkZ" id="31VUSTe3Fj1" role="2Oq$k0">
+                                  <node concept="37vLTw" id="31VUSTe3Fj2" role="2JrQYb">
+                                    <ref role="3cqZAo" node="31VUSTe0Ndl" resolve="langauge" />
                                   </node>
-                                  <node concept="liA8E" id="31VUSTe3Fj3" role="2OqNvi">
-                                    <ref role="37wK5l" to="mhbf:~SNode.setProperty(org.jetbrains.mps.openapi.language.SProperty,java.lang.String)" resolve="setProperty" />
-                                    <node concept="37vLTw" id="31VUSTe3Fj4" role="37wK5m">
-                                      <ref role="3cqZAo" node="31VUSTe3DbI" resolve="langProp" />
-                                    </node>
-                                    <node concept="Xl_RD" id="31VUSTe3Fj5" role="37wK5m">
-                                      <property role="Xl_RC" value="" />
-                                    </node>
+                                </node>
+                                <node concept="liA8E" id="31VUSTe3Fj3" role="2OqNvi">
+                                  <ref role="37wK5l" to="mhbf:~SNode.setProperty(org.jetbrains.mps.openapi.language.SProperty,java.lang.String)" resolve="setProperty" />
+                                  <node concept="37vLTw" id="31VUSTe3Fj4" role="37wK5m">
+                                    <ref role="3cqZAo" node="31VUSTe3DbI" resolve="langProp" />
+                                  </node>
+                                  <node concept="Xl_RD" id="31VUSTe3Fj5" role="37wK5m">
+                                    <property role="Xl_RC" value="" />
                                   </node>
                                 </node>
                               </node>
