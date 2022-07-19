@@ -398,6 +398,9 @@
     <node concept="1QGGSu" id="VXy0hHpipC" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/Act.png" />
     </node>
+    <node concept="t5JxF" id="5cRXuywvtK5" role="lGtFl">
+      <property role="t5JxN" value="Cardinality of actor,object and recipient should be [1]. This however clashed with versioning functionality. See ObligatoryRole in Typesystem." />
+    </node>
   </node>
   <node concept="PlHQZ" id="7PeSHTFdOj4">
     <property role="EcuMT" value="9029403747833824452" />
