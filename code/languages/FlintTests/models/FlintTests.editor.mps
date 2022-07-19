@@ -72,7 +72,7 @@
         <node concept="l2Vlx" id="5XjenljbuZl" role="2iSdaV" />
       </node>
       <node concept="PMmxH" id="1kyaHg5uioL" role="3EZMnx">
-        <ref role="PMmxG" to="91jx:3JnAoJLYJ6r" resolve="FlintModelLanguage" />
+        <ref role="PMmxG" to="91jx:3JnAoJLYJ6r" resolve="FlintModelLanguages" />
       </node>
       <node concept="3EZMnI" id="5Xjenljbd9G" role="3EZMnx">
         <node concept="3F0ifn" id="7PeSHTFhIli" role="3EZMnx">
@@ -157,7 +157,7 @@
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="PMmxH" id="I0eN_aLCvT" role="3EZMnx">
-        <ref role="PMmxG" to="91jx:3JnAoJLYJ6r" resolve="FlintModelLanguage" />
+        <ref role="PMmxG" to="91jx:3JnAoJLYJ6r" resolve="FlintModelLanguages" />
       </node>
       <node concept="3EZMnI" id="wJ8RSBt7WV" role="3EZMnx">
         <node concept="VPM3Z" id="wJ8RSBt7WX" role="3F10Kt" />
