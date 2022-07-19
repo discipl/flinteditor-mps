@@ -373,6 +373,12 @@
         <ref role="v9R2y" node="35H3ae$XMND" resolve="reduce_IMultiExpression" />
       </node>
     </node>
+    <node concept="3aamgX" id="78uEmvUbmkh" role="3acgRq">
+      <ref role="30HIoZ" to="lnwe:78uEmvTYKrp" resolve="XOR" />
+      <node concept="j$656" id="78uEmvUbmlf" role="1lVwrX">
+        <ref role="v9R2y" node="35H3ae$XMND" resolve="reduce_IMultiExpression" />
+      </node>
+    </node>
     <node concept="3aamgX" id="35H3ae$Z$SX" role="3acgRq">
       <ref role="30HIoZ" to="lnwe:4aWSgWx5ND1" resolve="LIST" />
       <node concept="j$656" id="35H3ae$Z_4x" role="1lVwrX">

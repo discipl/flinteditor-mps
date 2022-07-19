@@ -42,7 +42,13 @@
       "action": "[Person]",
       "object": "[Person]",
       "recipient": "[Person]",
-      "preconditions": "[Reference]",
+      "preconditions": {
+        "expression": "XOR",
+        "operands":[
+          "[Reference]",
+          "[Person]"
+        ]
+      },
       "create": [],
       "terminate": [],
       "sources": [

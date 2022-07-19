@@ -351,6 +351,7 @@
         <property id="5309275763120703337" name="role" index="aMd54" />
         <property id="5309275763119607854" name="escapedValue" index="aYSo3" />
       </concept>
+      <concept id="8223196233665808089" name="Flint.structure.XOR" flags="ng" index="2bTqYY" />
       <concept id="6868897032739893314" name="Flint.structure.IExplainable" flags="ng" index="cog$R">
         <property id="778381075952164307" name="explanation" index="3ANC2_" />
       </concept>
@@ -2384,8 +2385,13 @@
           <node concept="1FQA6B" id="4pyf5wCQX06" role="3H36lm">
             <ref role="1FQA6$" node="4pyf5wCP3Aa" resolve="Person" />
           </node>
-          <node concept="1FQA6B" id="4pyf5wCQX09" role="mu3T0">
-            <ref role="1FQA6$" node="4pyf5wCP3Ao" resolve="Reference" />
+          <node concept="2bTqYY" id="l2ruXm1GWg" role="mu3T0">
+            <node concept="1FQA6B" id="l2ruXm1GW$" role="1zF96y">
+              <ref role="1FQA6$" node="4pyf5wCP3Ao" resolve="Reference" />
+            </node>
+            <node concept="1FQA6B" id="l2ruXm1GWW" role="1zF96y">
+              <ref role="1FQA6$" node="4pyf5wCP3Aa" resolve="Person" />
+            </node>
           </node>
           <node concept="1FQA6B" id="1cG4R6OHPgR" role="3FTnq6">
             <ref role="1FQA6$" node="4pyf5wCP3Aa" resolve="Person" />

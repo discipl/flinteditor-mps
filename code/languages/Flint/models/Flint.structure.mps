@@ -25,6 +25,9 @@
         <child id="3348158742936976577" name="members" index="25R1y" />
       </concept>
       <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
+      <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
+        <property id="7862711839422615217" name="text" index="t5JxN" />
+      </concept>
       <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
         <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
       </concept>
@@ -127,14 +130,14 @@
       <property role="20kJfa" value="editorLanguageReference" />
       <ref role="20lvS9" node="3JnAoJLBIOl" resolve="LanguageReference" />
     </node>
+    <node concept="1QGGSu" id="VXy0hIqJzr" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/FlintModel.png" />
+    </node>
     <node concept="1TJgyj" id="VeUowG8TLw" role="1TKVEi">
       <property role="IQ2ns" value="1067046932798741600" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="interpretationLanguageReference" />
       <ref role="20lvS9" node="3JnAoJLBIOl" resolve="LanguageReference" />
-    </node>
-    <node concept="1QGGSu" id="VXy0hIqJzr" role="rwd14">
-      <property role="1iqoE4" value="${module}/icons/FlintModel.png" />
     </node>
   </node>
   <node concept="1TIwiD" id="5XjenljaN1U">
@@ -1172,18 +1175,6 @@
     <property role="EcuMT" value="3001846011087139046" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="3JnAoJLjy1S" role="PzmwI">
-      <ref role="PrY4T" node="2vpCevmrg7e" resolve="IUniquelyName" />
-    </node>
-    <node concept="1QGGSu" id="77fX0KOkeY9" role="rwd14">
-      <property role="1iqoE4" value="${module}/icons/Language.png" />
-    </node>
-    <node concept="1TJgyj" id="31VUSTdxVVP" role="1TKVEi">
-      <property role="IQ2ns" value="3493644932374576885" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="EditorLanguage" />
-      <ref role="20lvS9" node="31VUSTdxUr$" resolve="EditorLanguage" />
-    </node>
     <node concept="1TJgyi" id="2ACGKFDhrgG" role="1TKVEl">
       <property role="IQ2nx" value="3001846011087139884" />
       <property role="TrG5h" value="eName" />
@@ -1322,6 +1313,9 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
       <node concept="asaX9" id="31VUSTdyWby" role="lGtFl" />
     </node>
+    <node concept="PrWs8" id="3JnAoJLjy1S" role="PzmwI">
+      <ref role="PrY4T" node="2vpCevmrg7e" resolve="IUniquelyName" />
+    </node>
     <node concept="1TJgyi" id="6U0RkGF5W4g" role="1TKVEl">
       <property role="IQ2nx" value="7962607456106299664" />
       <property role="TrG5h" value="eTags" />
@@ -1357,6 +1351,15 @@
       <property role="TrG5h" value="eSelectVersion" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
       <node concept="asaX9" id="31VUSTdyWbI" role="lGtFl" />
+    </node>
+    <node concept="1QGGSu" id="77fX0KOkeY9" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/Language.png" />
+    </node>
+    <node concept="1TJgyj" id="31VUSTdxVVP" role="1TKVEi">
+      <property role="IQ2ns" value="3493644932374576885" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="EditorLanguage" />
+      <ref role="20lvS9" node="31VUSTdxUr$" resolve="EditorLanguage" />
     </node>
   </node>
   <node concept="1TIwiD" id="3JnAoJLBIOl">
@@ -1443,6 +1446,15 @@
     </node>
     <node concept="PrWs8" id="50$8lVg_KLV" role="PrDN$">
       <ref role="PrY4T" to="a78y:1bPqaB7Hr7H" resolve="IProvidesTranslatedCell" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="78uEmvTYKrp">
+    <property role="EcuMT" value="8223196233665808089" />
+    <property role="3GE5qa" value="expressions" />
+    <property role="TrG5h" value="XOR" />
+    <ref role="1TJDcQ" node="4OBWPp16Ymv" resolve="MultiExpression" />
+    <node concept="t5JxF" id="7aKm3NWO2GA" role="lGtFl">
+      <property role="t5JxN" value="Defines XOR functions. NOTE: NOT IMPLEMENTED IN FLINTRUNNER" />
     </node>
   </node>
   <node concept="1TIwiD" id="31VUSTdxUr$">
