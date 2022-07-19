@@ -8,6 +8,7 @@
   <imports>
     <import index="28m1" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.time(JDK/)" />
     <import index="6t7w" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.time.format(JDK/)" />
+    <import index="rm61" ref="r:2de11635-399c-4593-b822-69e8b73763b7(LawSource.behavior)" />
     <import index="srlv" ref="r:baf0260d-4be1-4f28-be3e-85fc1a4fa21a(LawSource.structure)" implicit="true" />
   </imports>
   <registry>
@@ -22,6 +23,9 @@
       </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
+      </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -178,21 +182,6 @@
               </node>
             </node>
           </node>
-          <node concept="3cpWs8" id="6SX8oTvjKHJ" role="3cqZAp">
-            <node concept="3cpWsn" id="6SX8oTvjKHK" role="3cpWs9">
-              <property role="TrG5h" value="timeFormatter" />
-              <node concept="3uibUv" id="6SX8oTvjKHL" role="1tU5fm">
-                <ref role="3uigEE" to="6t7w:~DateTimeFormatter" resolve="DateTimeFormatter" />
-              </node>
-              <node concept="2YIFZM" id="6SX8oTvjKKb" role="33vP2m">
-                <ref role="37wK5l" to="6t7w:~DateTimeFormatter.ofPattern(java.lang.String)" resolve="ofPattern" />
-                <ref role="1Pybhc" to="6t7w:~DateTimeFormatter" resolve="DateTimeFormatter" />
-                <node concept="Xl_RD" id="6SX8oTvjKKt" role="37wK5m">
-                  <property role="Xl_RC" value="dd-MM-yyyy" />
-                </node>
-              </node>
-            </node>
-          </node>
           <node concept="3cpWs8" id="6SX8oTvjHSS" role="3cqZAp">
             <node concept="3cpWsn" id="6SX8oTvjHST" role="3cpWs9">
               <property role="TrG5h" value="retroactiveDate" />
@@ -210,8 +199,9 @@
                     <ref role="3TsBF5" to="srlv:5AQJ5RQ9enV" resolve="retroactiveDate" />
                   </node>
                 </node>
-                <node concept="37vLTw" id="6SX8oTvjKSm" role="37wK5m">
-                  <ref role="3cqZAo" node="6SX8oTvjKHK" resolve="timeFormatter" />
+                <node concept="10M0yZ" id="64m5FSniHcn" role="37wK5m">
+                  <ref role="3cqZAo" to="rm61:64m5FSniF_H" resolve="dateTime" />
+                  <ref role="1PxDUh" to="rm61:43CM9zYl_Dz" resolve="LawSourceUtils" />
                 </node>
               </node>
             </node>
@@ -233,8 +223,9 @@
                     <ref role="3TsBF5" to="srlv:5AQJ5RQ9enM" resolve="validFromDate" />
                   </node>
                 </node>
-                <node concept="37vLTw" id="6SX8oTvjL_s" role="37wK5m">
-                  <ref role="3cqZAo" node="6SX8oTvjKHK" resolve="timeFormatter" />
+                <node concept="10M0yZ" id="64m5FSniHdK" role="37wK5m">
+                  <ref role="1PxDUh" to="rm61:43CM9zYl_Dz" resolve="LawSourceUtils" />
+                  <ref role="3cqZAo" to="rm61:64m5FSniF_H" resolve="dateTime" />
                 </node>
               </node>
             </node>
@@ -345,20 +336,17 @@
               <node concept="3oM_SD" id="7lX_E0w0xPy" role="1PaTwD">
                 <property role="3oM_SC" value="date" />
               </node>
-            </node>
-          </node>
-          <node concept="3cpWs8" id="7lX_E0w0u6D" role="3cqZAp">
-            <node concept="3cpWsn" id="7lX_E0w0u6E" role="3cpWs9">
-              <property role="TrG5h" value="timeFormatter" />
-              <node concept="3uibUv" id="7lX_E0w0u6F" role="1tU5fm">
-                <ref role="3uigEE" to="6t7w:~DateTimeFormatter" resolve="DateTimeFormatter" />
+              <node concept="3oM_SD" id="64m5FSnk9wh" role="1PaTwD">
+                <property role="3oM_SC" value="" />
               </node>
-              <node concept="2YIFZM" id="7lX_E0w0u6G" role="33vP2m">
-                <ref role="1Pybhc" to="6t7w:~DateTimeFormatter" resolve="DateTimeFormatter" />
-                <ref role="37wK5l" to="6t7w:~DateTimeFormatter.ofPattern(java.lang.String)" resolve="ofPattern" />
-                <node concept="Xl_RD" id="7lX_E0w0u6H" role="37wK5m">
-                  <property role="Xl_RC" value="dd-MM-yyyy" />
-                </node>
+              <node concept="3oM_SD" id="64m5FSnk9wi" role="1PaTwD">
+                <property role="3oM_SC" value="" />
+              </node>
+              <node concept="3oM_SD" id="64m5FSnk9wj" role="1PaTwD">
+                <property role="3oM_SC" value="" />
+              </node>
+              <node concept="3oM_SD" id="64m5FSnk9wk" role="1PaTwD">
+                <property role="3oM_SC" value="" />
               </node>
             </node>
           </node>
@@ -379,8 +367,9 @@
                     <ref role="3TsBF5" to="srlv:5AQJ5RQ9enM" resolve="validFromDate" />
                   </node>
                 </node>
-                <node concept="37vLTw" id="7lX_E0w0vxU" role="37wK5m">
-                  <ref role="3cqZAo" node="7lX_E0w0u6E" resolve="timeFormatter" />
+                <node concept="10M0yZ" id="64m5FSniHs0" role="37wK5m">
+                  <ref role="3cqZAo" to="rm61:64m5FSniF_H" resolve="dateTime" />
+                  <ref role="1PxDUh" to="rm61:43CM9zYl_Dz" resolve="LawSourceUtils" />
                 </node>
               </node>
             </node>
@@ -402,8 +391,9 @@
                     <ref role="3TsBF5" to="srlv:5AQJ5RQ9enQ" resolve="validToDate" />
                   </node>
                 </node>
-                <node concept="37vLTw" id="7lX_E0w0voV" role="37wK5m">
-                  <ref role="3cqZAo" node="7lX_E0w0u6E" resolve="timeFormatter" />
+                <node concept="10M0yZ" id="64m5FSniHtr" role="37wK5m">
+                  <ref role="1PxDUh" to="rm61:43CM9zYl_Dz" resolve="LawSourceUtils" />
+                  <ref role="3cqZAo" to="rm61:64m5FSniF_H" resolve="dateTime" />
                 </node>
               </node>
             </node>
