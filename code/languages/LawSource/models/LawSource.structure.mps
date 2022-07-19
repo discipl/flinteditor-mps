@@ -17,8 +17,12 @@
     </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
+      <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
+        <property id="7862711839422615217" name="text" index="t5JxN" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -59,6 +63,7 @@
     <property role="TrG5h" value="Version" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="sources" />
+    <property role="R4oN_" value="Describes a specific version of a Lawsource, holds reference to this version" />
     <ref role="1TJDcQ" node="5NNYHM3ojdd" resolve="NamedSourcePartCollection" />
     <node concept="1TJgyj" id="1nyeVyNiS2b" role="1TKVEi">
       <property role="IQ2ns" value="1576888484001185931" />
@@ -128,6 +133,7 @@
     <property role="EcuMT" value="8679002930326655615" />
     <property role="3GE5qa" value="sources" />
     <property role="TrG5h" value="SourcePartCollection" />
+    <property role="R4oN_" value="Holds a collection of mulitple sourceparts" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7xM0MUaGta0" role="PzmwI">
       <ref role="PrY4T" node="7xM0MUaGt9V" resolve="SourcePart" />
@@ -144,6 +150,7 @@
     <property role="EcuMT" value="8679002930326655612" />
     <property role="3GE5qa" value="sources" />
     <property role="TrG5h" value="Line" />
+    <property role="R4oN_" value="Describes a singular Line" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7xM0MUaGt9X" role="PzmwI">
       <ref role="PrY4T" node="7xM0MUaGt9V" resolve="SourcePart" />
@@ -168,6 +175,7 @@
     <property role="TrG5h" value="LawSource" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="sources" />
+    <property role="R4oN_" value="Root concept describing a Lawsource" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1nyeVyN1ImB" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -194,6 +202,9 @@
       <property role="IQ2nx" value="5920413357502469007" />
       <property role="TrG5h" value="index" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="t5JxF" id="ypbeyCjfz" role="lGtFl">
+      <property role="t5JxN" value="Abstraction used to describe a sourcepart" />
     </node>
   </node>
   <node concept="1TIwiD" id="1nyeVyNiRPP">
@@ -237,6 +248,7 @@
     <property role="EcuMT" value="6697972895833994062" />
     <property role="3GE5qa" value="sources" />
     <property role="TrG5h" value="SeperatedNamedContainerReference" />
+    <property role="R4oN_" value="Referenceholder of seperatedNamedContainer" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5NNYHM3ojdf" role="1TKVEi">
       <property role="IQ2ns" value="6697972895833994063" />
@@ -252,6 +264,7 @@
     <property role="EcuMT" value="6697972895833994061" />
     <property role="3GE5qa" value="sources" />
     <property role="TrG5h" value="NamedSourcePartCollection" />
+    <property role="R4oN_" value="Sourcepart collection capable of having a name. E.g. Hoofdstuk Afdeling" />
     <ref role="1TJDcQ" node="7xM0MUaGt9Z" resolve="SourcePartCollection" />
     <node concept="PrWs8" id="5NNYHM3ojAV" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -265,6 +278,7 @@
     <property role="3GE5qa" value="sources" />
     <property role="TrG5h" value="SeperatedNamedContainer" />
     <property role="19KtqR" value="true" />
+    <property role="R4oN_" value="Collections of lines with a name capable of being root. e.g. Article, Bijlage" />
     <ref role="1TJDcQ" node="5NNYHM3ojdd" resolve="NamedSourcePartCollection" />
     <node concept="1TJgyj" id="2NosBWxa2Df" role="1TKVEi">
       <property role="IQ2ns" value="3231458622981024335" />
@@ -280,6 +294,7 @@
     <property role="EcuMT" value="5920413357503155457" />
     <property role="3GE5qa" value="sources" />
     <property role="TrG5h" value="PrefixContainer" />
+    <property role="R4oN_" value="Container capable of storing a prefix for a Line in the lawsource" />
     <ref role="1TJDcQ" node="7xM0MUaGt9Z" resolve="SourcePartCollection" />
     <node concept="1TJgyi" id="58Dy9iTt0O2" role="1TKVEl">
       <property role="IQ2nx" value="5920413357503155458" />
@@ -291,42 +306,55 @@
     <property role="EcuMT" value="3611483123877489781" />
     <property role="3GE5qa" value="sources" />
     <property role="TrG5h" value="LawsourceWord" />
+    <property role="R4oN_" value="Lawsource specific Word, used to create a custom inspector editor for Words" />
     <ref role="1TJDcQ" to="87nw:2dWzqxEBMSc" resolve="Word" />
+    <node concept="t5JxF" id="ypbeyCciZ" role="lGtFl">
+      <property role="t5JxN" value="The custom inspector editor is used to create an UI for referenced cells and sourcepart validity dates" />
+    </node>
   </node>
   <node concept="1TIwiD" id="38u$ch72hiu">
     <property role="EcuMT" value="3611483123877483678" />
     <property role="TrG5h" value="LawsourceText" />
     <property role="3GE5qa" value="sources" />
+    <property role="R4oN_" value="Lawsource specific text, used to initialize LawsourceWord" />
     <ref role="1TJDcQ" to="87nw:2dWzqxEB$Tx" resolve="Text" />
   </node>
   <node concept="1TIwiD" id="42wf6xthUeM">
     <property role="EcuMT" value="4656788433640334258" />
     <property role="TrG5h" value="Table" />
     <property role="3GE5qa" value="sources" />
+    <property role="R4oN_" value="Concept to hold the entire table, specifically holds TableGroup" />
     <ref role="1TJDcQ" node="7xM0MUaGt9Z" resolve="SourcePartCollection" />
   </node>
   <node concept="1TIwiD" id="42wf6xthUgO">
     <property role="EcuMT" value="4656788433640334388" />
     <property role="3GE5qa" value="sources" />
     <property role="TrG5h" value="TableGroup" />
+    <property role="R4oN_" value="Holds TableHead and TableBody and groups them" />
     <ref role="1TJDcQ" node="7xM0MUaGt9Z" resolve="SourcePartCollection" />
+    <node concept="t5JxF" id="ypbeyC_6w" role="lGtFl">
+      <property role="t5JxN" value="In XML import a table can have mulitple table groups, not encoutered yet in pratice" />
+    </node>
   </node>
   <node concept="1TIwiD" id="42wf6xthUhw">
     <property role="EcuMT" value="4656788433640334432" />
     <property role="3GE5qa" value="sources" />
     <property role="TrG5h" value="TableHead" />
+    <property role="R4oN_" value="Concept to hold the head of the table, internally holds TableRow" />
     <ref role="1TJDcQ" node="7xM0MUaGt9Z" resolve="SourcePartCollection" />
   </node>
   <node concept="1TIwiD" id="42wf6xthUic">
     <property role="EcuMT" value="4656788433640334476" />
     <property role="3GE5qa" value="sources" />
     <property role="TrG5h" value="TableRow" />
+    <property role="R4oN_" value="Concept to hold the row of the table" />
     <ref role="1TJDcQ" node="7xM0MUaGt9Z" resolve="SourcePartCollection" />
   </node>
   <node concept="1TIwiD" id="42wf6xtt03o">
     <property role="EcuMT" value="4656788433643241688" />
     <property role="3GE5qa" value="sources" />
     <property role="TrG5h" value="TableBody" />
+    <property role="R4oN_" value="Concept to hold the body of the table, internally holds TableRow" />
     <ref role="1TJDcQ" node="7xM0MUaGt9Z" resolve="SourcePartCollection" />
   </node>
 </model>
