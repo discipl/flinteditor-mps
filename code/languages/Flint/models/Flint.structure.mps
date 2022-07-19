@@ -539,6 +539,7 @@
     <property role="34LRSv" value="FlintModelRunner" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="flintmodelrunner" />
+    <property role="R4oN_" value="Configuration holder for Flintrunner" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="10jIHuj5o16" role="1TKVEi">
       <property role="IQ2ns" value="1158474964212744262" />
@@ -582,6 +583,7 @@
     <property role="3GE5qa" value="flintmodelrunner" />
     <property role="TrG5h" value="FlintModelActor" />
     <property role="34LRSv" value="actor" />
+    <property role="R4oN_" value="Actreference holder for Flintrunner" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="10jIHuj5o1f" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -601,6 +603,7 @@
     <property role="EcuMT" value="1158474964212744280" />
     <property role="3GE5qa" value="flintmodelrunner" />
     <property role="TrG5h" value="FlintModelActorReference" />
+    <property role="R4oN_" value="Actor holder for Flintrunner" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="10jIHuj5o1p" role="1TKVEi">
       <property role="IQ2ns" value="1158474964212744281" />
@@ -613,66 +616,77 @@
     <property role="EcuMT" value="4808965957220771074" />
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="AND" />
+    <property role="R4oN_" value="Describes the AND expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16Ymv" resolve="MultiExpression" />
   </node>
   <node concept="1TIwiD" id="4aWSgWx5NCS">
     <property role="EcuMT" value="4808965957220776504" />
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="EQUAL" />
+    <property role="R4oN_" value="Describes the EQUAL expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16Ymv" resolve="MultiExpression" />
   </node>
   <node concept="1TIwiD" id="4aWSgWx5NCY">
     <property role="EcuMT" value="4808965957220776510" />
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="LESS_THAN" />
+    <property role="R4oN_" value="Describes the LESS THAN expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16Ymv" resolve="MultiExpression" />
   </node>
   <node concept="1TIwiD" id="4aWSgWx5ND1">
     <property role="EcuMT" value="4808965957220776513" />
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="LIST" />
+    <property role="R4oN_" value="Describes the LIST expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16YlU" resolve="ListExpression" />
   </node>
   <node concept="1TIwiD" id="4aWSgWx5ND4">
     <property role="EcuMT" value="4808965957220776516" />
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="MAX" />
+    <property role="R4oN_" value="Describes the MAX expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16Ymv" resolve="MultiExpression" />
   </node>
   <node concept="1TIwiD" id="4aWSgWx5ND7">
     <property role="EcuMT" value="4808965957220776519" />
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="MIN" />
+    <property role="R4oN_" value="Describes the MIN expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16Ymv" resolve="MultiExpression" />
   </node>
   <node concept="1TIwiD" id="4aWSgWx5NDa">
     <property role="EcuMT" value="4808965957220776522" />
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="NOT" />
+    <property role="R4oN_" value="Describes the NOT expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16Ymm" resolve="SingleExpression" />
   </node>
   <node concept="1TIwiD" id="4aWSgWx5NDd">
     <property role="EcuMT" value="4808965957220776525" />
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="OR" />
+    <property role="R4oN_" value="Describes the OR expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16Ymv" resolve="MultiExpression" />
   </node>
   <node concept="1TIwiD" id="4aWSgWx5NDg">
     <property role="EcuMT" value="4808965957220776528" />
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="PRODUCT" />
+    <property role="R4oN_" value="Describes the PRODUCT expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16Ymv" resolve="MultiExpression" />
   </node>
   <node concept="1TIwiD" id="4aWSgWx5NDj">
     <property role="EcuMT" value="4808965957220776531" />
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="SUM" />
+    <property role="R4oN_" value="Describes the SUM expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16Ymv" resolve="MultiExpression" />
   </node>
   <node concept="1TIwiD" id="4aWSgWx5NEg">
     <property role="TrG5h" value="LITERAL" />
     <property role="3GE5qa" value="expressions" />
     <property role="EcuMT" value="4808965957220776534" />
+    <property role="R4oN_" value="Describes the LITERAL expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16YlS" resolve="Expression" />
     <node concept="1TJgyj" id="4aWSgWx5NEi" role="1TKVEi">
       <property role="IQ2ns" value="4808965957220776594" />
@@ -687,6 +701,7 @@
     <property role="3GE5qa" value="expressions.literals" />
     <property role="TrG5h" value="StringOperand" />
     <property role="34LRSv" value="string" />
+    <property role="R4oN_" value="Holds a boolean operand" />
     <ref role="1TJDcQ" node="4NVq1Wbc09Y" resolve="LiteralOperand" />
     <node concept="1TJgyi" id="4aWSgWx5NMW" role="1TKVEl">
       <property role="IQ2nx" value="4808965957220777148" />
@@ -699,6 +714,7 @@
     <property role="3GE5qa" value="expressions.literals" />
     <property role="TrG5h" value="BooleanOperand" />
     <property role="34LRSv" value="boolean" />
+    <property role="R4oN_" value="Holds a boolean operand" />
     <ref role="1TJDcQ" node="4NVq1Wbc09Y" resolve="LiteralOperand" />
     <node concept="1TJgyi" id="4aWSgWx5NMU" role="1TKVEl">
       <property role="IQ2nx" value="4808965957220777146" />
@@ -711,6 +727,7 @@
     <property role="3GE5qa" value="expressions.literals" />
     <property role="TrG5h" value="NumberOperand" />
     <property role="34LRSv" value="number" />
+    <property role="R4oN_" value="Holds a number operand" />
     <ref role="1TJDcQ" node="4NVq1Wbc09Y" resolve="LiteralOperand" />
     <node concept="1TJgyi" id="4aWSgWx5NMN" role="1TKVEl">
       <property role="IQ2nx" value="4808965957220777139" />
@@ -749,6 +766,7 @@
     <property role="3GE5qa" value="expressions" />
     <property role="EcuMT" value="4808965957220331686" />
     <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="Abstraction to describe an Expression" />
     <ref role="1TJDcQ" node="4OBWPp15Tuc" resolve="Resolvable" />
   </node>
   <node concept="1TIwiD" id="4OBWPp16YlU">
@@ -756,6 +774,7 @@
     <property role="3GE5qa" value="expressions" />
     <property role="EcuMT" value="4808965957220331691" />
     <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="Describes the LIST expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16YlS" resolve="Expression" />
     <node concept="1TJgyj" id="4aWSgWx48ac" role="1TKVEi">
       <property role="IQ2ns" value="4808965957220336268" />
@@ -778,6 +797,7 @@
     <property role="3GE5qa" value="expressions" />
     <property role="EcuMT" value="4808965957220331688" />
     <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="Abstraction to describe a SingleExpression, containing a single operand" />
     <ref role="1TJDcQ" node="4OBWPp16YlS" resolve="Expression" />
     <node concept="1TJgyj" id="4aWSgWx472D" role="1TKVEi">
       <property role="IQ2ns" value="4808965957220331689" />
@@ -795,6 +815,7 @@
     <property role="3GE5qa" value="expressions" />
     <property role="EcuMT" value="4808965957220331692" />
     <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="Abstraction to describe a MultiExpression, containing multiple operans" />
     <ref role="1TJDcQ" node="4OBWPp16YlS" resolve="Expression" />
     <node concept="1TJgyj" id="4aWSgWx472H" role="1TKVEi">
       <property role="IQ2ns" value="4808965957220331693" />
@@ -812,6 +833,7 @@
     <property role="3GE5qa" value="expressions.literals" />
     <property role="EcuMT" value="4808965957220776537" />
     <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="Holds a Literal operand" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="PlHQZ" id="4NVq1WbrY6z">
@@ -855,6 +877,7 @@
     <property role="EcuMT" value="491685697582670580" />
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="CREATE" />
+    <property role="R4oN_" value="Describes the CREATE expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16Ymv" resolve="MultiExpression" />
     <node concept="PrWs8" id="riOo_LzybP" role="PzmwI">
       <ref role="PrY4T" node="4NVq1WbrY6z" resolve="IHasResolvable" />
@@ -864,6 +887,7 @@
     <property role="EcuMT" value="491685697582699846" />
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="PROJECTION" />
+    <property role="R4oN_" value="Describes the PROJECTION expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16YlS" resolve="Expression" />
     <node concept="1TJgyj" id="riOo_LzIRv" role="1TKVEi">
       <property role="IQ2ns" value="491685697582722527" />
@@ -900,6 +924,7 @@
     <property role="EcuMT" value="2277132115356385754" />
     <property role="3GE5qa" value="flintmodelrunner" />
     <property role="TrG5h" value="FlintRunnerFact" />
+    <property role="R4oN_" value="Fact holder for Flintrunner" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1YpZTwqsS7r" role="1TKVEi">
       <property role="IQ2ns" value="2277132115356385755" />
