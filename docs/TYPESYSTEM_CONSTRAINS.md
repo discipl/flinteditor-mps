@@ -29,7 +29,7 @@ Facts inside the `create` function of an Act must be createable, meaning these F
 When an explanation is added it should have a description. Empty explanations will generate this warning.
 
 ### GeneratedConcept (Warning)
-When an Act/Fact/Duty is generated an explanation is added desribing that it is generated. As long as these explanations are not removed the warning will remain to alert users of generated Acts/Facts/Duties.
+When an Act/Fact/Duty is referenced but not defined in the imported json Flint automatically generates the undefined node. When generated an explanation is added to the node describing that it was generated. As long as these explanations are not removed the warning will remain to alert users of generated Acts/Facts/Duties.
 
 ### TagInDifferentLanguage (Warning)
 Tags are associated with a certain language meaning if tags are created in a specific language and the language is switched the tags are not visible anymore. This warning will be generated as long as there are properties within a specific Act/Fact/Duty which have tags in one language, but not in the newly switched language. The reason being if a user is translating an interpretation the tags should be translated too.
@@ -47,7 +47,7 @@ The maximum active actors inside the Flintrunner is declared as 2. Adding more w
 When Acts/Facts/Duties are archived they cannot be used inside an active role in the Flintmodel, meaning no references should be made to them. If they are used in the active model an error wil be generated.
 
 ### ObligatoryRoleEmptyAct (Error)
-Acts have certain properties which must be filled. The properties are `actor`,`object` and `recipient`. When one of these is not filled in an error will be generated.   
+Acts have certain properties which should be filled as described in the paper at [law-reg](https://github.com/discipl/discipl-law-reg/blob/master/doc/vision.md). These properties are `actor`,`object` and `recipient`. When one of these is not filled in an error will be generated.   
     
     
      
@@ -59,10 +59,10 @@ This constraint defines that an ActReference can only hold reference to Acts ins
 **Note:** *The constraint of them not being a direct child of another Act is to ensure that Acts with older versions are not used, since versioned Acts are directly stored beneath the latest version of that specific Act. This specific constraint will also return for Facts and Duties*
 
 ### DutyReferenceConstraint
-This constraint defines that an DutyReference can only hold reference to Duties inside the current model which themselves are not direct childs of another Duty.
+This constraint defines that a DutyReference can only hold reference to Duties inside the current model which themselves are not direct childs of another Duty.
 
 ### FactReferenceConstraint
 This constraint defines that an FactReference can only hold reference to Facts inside the current model which themselves are not direct childs of another Fact. It also constrains that a Fact can only be used in the `create` or `terminate` property of an Act if it has an `CREATE` expression in its own function.
 
 ### SRoleConstraint
-This constraint ensures that the role is valid with the given property it is used to fill. It finds its usage inside tags.
+When tagging a word to a property it is assigned an SRole to keep track on which property the tag is placed. This constraint ensures that the SRole is valid by checking if the assigned role is an existing property inside the Act/Fact/Duty in which the tag is placed.
