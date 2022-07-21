@@ -411,8 +411,7 @@ To assign dates:
 ## Context Actions
 A lot of functions are accesible via intentions. These can be seen whilst pressing `Alt+Enter` on a selected node, but also via the context actions tab in the right-hand corner. The advantage of the Context Actions tab is that this tab can remain open while you are making interpretations. As soon as you select a node which has intentions the Context Actions tab will show them, removing the need of pressing `Alt+Enter` before you can see them.  
 
-To open the Context Actions tab `Click` on the `Context Actions` tab in the right hand corner.
-As can been seen in the image below the intentions and the Context Actions are exactly the same.  
+To open the Context Actions tab `Click` on the `Context Actions` tab in the right hand corner. 
 ![Context Actions](images/context_actions.png)
 
 
