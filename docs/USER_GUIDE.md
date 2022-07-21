@@ -10,6 +10,9 @@ This is the MPS Flint IDE user guide. The Guide covers the following topics.
 - [Archiving acts / facts / duties](#archiving-or-reinstating-act--fact--duty)
 - [Marking acts / facts / duties with an interpretation status](#marking-act--fact--duty-as-verified-validated-or-publicized)
 - [Creating versions of acts / facts / duties](#creating-versions-of-an-act--fact--duty)
+- [Custom text search in models](#custom-search-in-models)
+- [Valid dates of sourceparts](#valid-dates-of-sourceparts)
+- [Context Actions](#context-actions)
 - [Useful Shortcuts, Tips And Tricks](#useful-shortcuts-tips-and-tricks)
 
 ## Creating a Flint project
@@ -17,6 +20,11 @@ This is the MPS Flint IDE user guide. The Guide covers the following topics.
 1. Click on Create new project.
 1. Select Flint from the menu and fill in the project, solution and model names and hit OK.    
 ![Flint Project Window](images/newproject.png)
+
+## The FlintView
+1. Left click on the "Logical View"
+1. Select "FlintView" from the dropdown menu  
+![Select FlintView](images/FlintView.png)
 
 ## [Optional] Import existing flint model
 1. Right click on the solution folder solution and select "Import FlintModel from Json".  
@@ -32,10 +40,6 @@ This is the MPS Flint IDE user guide. The Guide covers the following topics.
 )  in the dialog and hit OK.  
 ![Import From Wetten.nl Dialog](images/importfromwettennldialog.png)
 
-## [Optional] Use the FlintView
-1. Left click on the "Logical View"
-1. Select "FlintView" from the dropdown menu  
-![Select FlintView](images/FlintView.png)
 
 ## Editing a FlintModel
 1. Open the created FlintModel using the navigation menu.  
@@ -187,6 +191,23 @@ To flatten an expression:
 1. The operand in the nested expression will be moved to the parent expression  
 ![Flatten Expression](images/flattenExpressionResult.png)
 
+#### Importing and exporting
+It is possible to import and export flintmodels. When exporting a JSON file is created which can be shared to other users which can import this JSON file.
+
+To export a Flintmodel:
+1. `Right-Click` on the FlintModel node to see the dropdown menu.
+1. `Click` on the `Export Json` option and regenerate the model if needed.  
+![Export Flintmodel](images/export_flintmodel.png)  
+1. [Optional] give the exported file a custom name.
+1. Select a place to store the file on your computer and press `OK`.
+![Store JSON](images/store_json.png)  
+
+To import a Flintmodel:
+1. `Right-Click` on the Solution in which you want to place the model
+1. Select `Import FlintModel from Json`.  
+![Import FlintModel JSON](images/import_flintmodel_json.png)
+1. Choose the JSON file on your system which you want to import
+
 
 ## Creating a FlintRunner
 To create a FlintRunner:
@@ -216,7 +237,7 @@ To run the FlintModelRunner.
 ## Law Texts
 You can import a law text to simplify making flint models.
 
-### Importing
+### Importing via parsers
 To import a law text:
 1. Select a parser from the Publication Parser Selector panel.   
 ![Parser Selector Panel](images/parserselectorpanel.png)
@@ -229,8 +250,29 @@ To import a law text:
 5. You can navigate to one of the version with `Ctrl+Click`.  
 ![Navigate to version](images/aversion.png)
 6. Hit the `Refresh` button to load in the articles or hit the `FlintFiller` button to run the flint filler for this version.
-    - You can navigate to an article with `Ctrl+Click`.
-    
+    - You can navigate to an article with `Ctrl+Click`.  
+
+### Importing/Exporting Json
+Lawsources existing inside a MPS project can also be export to JSON which another user can import into their project.
+
+To export a Lawsource:
+1. `Right-Click` the LawVersion you want to export
+1. Select `Export JSON`  
+![Export lawtext](images/export_lawsource_json.png)
+1. [Optional] give the exported file a custom name.
+1. Select a place to store the file on your computer and press `OK`.
+![Store JSON](images/store_json.png)  
+
+
+To import a Lawsource:
+1. `Right-Click` on the model in which you want to place the Lawsource
+1. Select `Import LawSource`.  
+![Import Lawsource JSON](images/import_lawsource_json.png)
+1. Choose the JSON file on your system which you want to import
+
+
+
+
 ### Create Act/Duty/Fact From Law Text
 To create an act/fact/duty from law text:
 1. Select the model you would like to create the Act/Duty/Fact in from the Current Model Selector panel.    
@@ -277,7 +319,7 @@ It is possible to make translations in the FlintEditor. It starts with making a 
 
 - Exporting Language can be done via the "Export json" action which will show after right-clicking the language node.
 ![Exporting language](images/language_export.png)
-- Importing a Language can be done via the "Import language" action which will show after right-clicking the model map. It requires the abovementioned exported json.
+- Importing a Language can be done via the "Import language" action which will show after right-clicking the model map. It requires the abovementioned exported json.  
 ![Importing language](images/language_import.png)
 
 ### Selecting a language
@@ -289,7 +331,7 @@ This guide will demonstrate creating Translations with an Act.
 
 1 . Provided we didn't select a language yet, the default language is English. The Act should look as below.  
 ![Normal Act](images/language_act_start.png)  
-2 (Manually). We could manually create new translations by pressing `enter` after "English". You can manually fill the language name and translated name. 
+2 (Manually). We could manually create new translations by pressing `enter` after "English". You can manually fill the language name and translated name.   
 ![Manual Act](images/language_act_manual.png)    
 2 (Automatically). We could also switch the FlintModel language to "Test_English". This will create a new translation with the new language name automatically filled. After we change the translated name of the act we get the next image.     
 ![Automatic Act](images/language_switching.png)   
@@ -338,6 +380,40 @@ We have now succesfully made different version and stored them, a user can view 
 ![Version 0](images/update-step-version-0.png)
 ![Version 1](images/update-step-version-1.png)
 ![Current version](images/update-step-version-cur.png)
+
+## Custom search in models
+This functionality makes it possible to find nodes based on text input of the user. It is available for Flintmodels and LawSource versions. Matched nodes are returned to the user, including their role inside the model.  
+
+Usage inside **Flintmodels**:
+- `Right-Click` on the Flintmodel and select `Search` from the dropdown menu.  
+![Flintmodel Search](images/flintmodel_search.png)  
+- Input the query inside the `text` bar.  
+![Flintmodel Search](images/flintmodel_query.png)  
+- `Click` on the results and `Go To` to open that specific node. 
+
+Usage inside **LawSources**:
+- `Right-Click` on a version below a LawSource and select `Search` from the dropdown menu.  
+![LawSource Search](images/lawsource_search.png)  
+- Input the query inside the `text` bar.  
+![LawSource Search](images/lawsource_query.png)  
+- `Click` on the results and `Go To` to open that specific node. 
+
+## Valid dates of sourceparts
+This functionality makes it possible to assign dates to each line of an Article.
+To assign dates:  
+- `Click` on the line and open the inspector  
+![Sourcepart Date](images/sourcepart_dates.png)  
+- `Click` on the calander icon of the date you want to assign and select the date.  
+![Sourcepart Select Date](images/sourcepart_select_date.png)  
+- The assigned dates will be saved and displayed in the inspector editor  
+![Sourcepart Date Result](images/sourcepart_date_result.png)  
+
+## Context Actions
+A lot of functions are accesible via intentions. These can be seen whilst pressing `Alt+Enter` on a selected node, but also via the context actions tab in the right-hand corner. The advantage of the Context Actions tab is that this tab can remain open while you are making interpretations. As soon as you select a node which has intentions the Context Actions tab will show them, removing the need of pressing `Alt+Enter` before you can see them.  
+
+To open the Context Actions tab `Click` on the `Context Actions` tab in the right hand corner.
+As can been seen in the image below the intentions and the Context Actions are exactly the same.  
+![Context Actions](images/context_actions.png)
 
 
 ## Useful Shortcuts, Tips And Tricks
