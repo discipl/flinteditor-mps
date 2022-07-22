@@ -1,0 +1,20 @@
+@startuml
+title Importing Versions
+
+actor User as user
+participant Editor as editor
+participant "VersionService" as versionService
+box "Triply"
+participant VersionClient as versionClient
+end box
+participant VersionTransformer as versionTransformer
+
+user -> editor : bwb
+editor -> versionService : getVersionsForSourceBWBId(bwb)
+versionService -> versionClient : getVersionsForBwb(bwb)
+versionClient -> versionService : versionsJson
+versionService -> versionTransformer : toVersion(versionsJson)
+versionTransformer -> versionService : versions
+versionService -> editor : versions
+editor -> user : versions
+@enduml

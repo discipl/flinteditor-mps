@@ -1,0 +1,68 @@
+@startuml
+title Importing Source Version Contents
+
+actor User as user
+participant Editor as editor
+participant "ParserService" as parserService
+participant "DocumentStructureService" as documentStructureService
+participant "SourceTextService" as sourceTextService
+participant ParserClient as parserClient
+participant DocumentStructureClient as documentStructureClient
+participant NsxTransformingClient as ttextLineClient
+box "NSX"
+participant BaseNsxTextLineClient as textLineClient
+end box
+participant ParserTransformer as parserTransformer
+participant DocumentStructureTransformer as documentStructureTransformer
+participant NewTextLineTransformer as textLineTransformer
+
+user -> editor
+editor -> parserService : getPublicationParsers()
+parserService -> parserClient : getParsers()
+parserClient -> parserService : parsersJson
+parserService -> parserTransformer : toPublicationParser(parsersJson)
+parserTransformer -> parserService : publicationParsers
+parserService -> user : publicationParsers
+user -> editor : version, publicationParser
+alt publicationParser == csvParser
+    editor -> documentStructureService : getDocumentStructures()
+    documentStructureService -> documentStructureClient : getDocumentStructures()
+    documentStructureClient -> documentStructureService : documentStructuresJson
+    documentStructureService -> documentStructureTransformer : toDocumentStructure(documentStructuresJson)
+    documentStructureTransformer -> documentStructureService : documentStructures
+    documentStructureService -> editor : documentStructures
+    editor -> user : documentStructures
+    user -> editor : documentStructure, csvPath
+    editor -> sourceTextService : requestSourceTextForCsv(csvPath, documentStructure)
+    sourceTextService -> ttextLineClient : requestSourceTextForCsv(csvPath, documentStructure)
+    ttextLineClient -> textLineClient : requestParsing(csvPath, documentStructure)
+else
+editor -> sourceTextService : requestSourceTextForVersionId(publicationParser.publicationSource.id, publicationParser.id, version.id)
+sourceTextService -> sourceTextService : find nsxTransformingClient for publicationParser.id
+sourceTextService -> ttextLineClient : requestSourceTextForVersionId(publicationParser.publicationSource.id, publicationParser.id, version.id)
+ttextLineClient -> textLineClient : requestParsing(publicationParser.publicationSource.id, publicationParser.id, version.id)
+end
+textLineClient -> ttextLineClient : sourceTextRequestId
+ttextLineClient -> sourceTextService : sourceTextRequestId
+sourceTextService -> editor : sourceTextRequestId
+    loop requestStatus != Ready
+        editor -> editor : wait 0.5s
+        editor -> sourceTextService : getRequestStatusForSourceTextForVersionId(sourceTextRequestId, publicationParser.publicationSource.id, publicationParser.id, version.id)
+        sourceTextService -> sourceTextService : find nsxTransformingClient for publicationParser.id
+        sourceTextService -> ttextLineClient : getRequestStatusForSourceTextForVersionId(sourceTextRequestId, publicationParser.publicationSource.id, publicationParser.id, version.id)
+        ttextLineClient -> textLineClient : getParseRequestStatus(sourceTextRequestId, publicationParser.publicationSource.id, publicationParser.id, version.id)
+        textLineClient -> ttextLineClient : requestStatus
+        ttextLineClient -> sourceTextService : requestStatus
+        sourceTextService -> editor : requestStatus
+    end
+editor -> sourceTextService : getRequestResultForSourceTextForVersionId(sourceTextRequestId, publicationParser.publicationSource.id, publicationParser.id, version.id)
+sourceTextService -> sourceTextService : find nsxTransformingClient for publicationParser.id
+sourceTextService -> ttextLineClient : getRequestResultForSourceTextForVersionId(sourceTextRequestId, publicationParser.publicationSource.id, publicationParser.id, version.id)
+ttextLineClient -> textLineClient : getParseRequestResults(sourceTextRequestId, publicationParser.publicationSource.id, publicationParser.id, version.id)
+textLineClient -> ttextLineClient : sourcePartsJson
+ttextLineClient -> textLineTransformer : transform(sourcePartsJson)
+textLineTransformer -> ttextLineClient : sourceParts
+ttextLineClient -> sourceTextService : sourceParts
+sourceTextService -> editor : sourceParts
+editor -> user : sourceParts
+@enduml
