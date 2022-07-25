@@ -10,7 +10,7 @@ This is the MPS Flint IDE user guide. The Guide covers the following topics.
 - [Archiving acts / facts / duties](#archiving-or-reinstating-act--fact--duty)
 - [Marking acts / facts / duties with an interpretation status](#marking-act--fact--duty-as-verified-validated-or-publicized)
 - [Creating versions of acts / facts / duties](#creating-versions-of-an-act--fact--duty)
-- [Custom text search in models](#custom-search-in-models)
+- [Custom text search in models](#custom-text-search-in-models)
 - [Valid dates of sourceparts](#valid-dates-of-sourceparts)
 - [Context Actions](#context-actions)
 - [Useful Shortcuts, Tips And Tricks](#useful-shortcuts-tips-and-tricks)
@@ -22,6 +22,8 @@ This is the MPS Flint IDE user guide. The Guide covers the following topics.
 ![Flint Project Window](images/newproject.png)
 
 ## The FlintView
+MPS provides different views, such as the Logical View, so users can navigate the project more easily. However, this Logical View does not support dynamicly changing names and placements of nodes. This is why we introduced the FlintView into our project. It supports both of these features. To add to this we also removed parts which are not used while editing Flint frames and restructured the View so the node placement made more sense inside the Flint context.
+
 1. Left click on the "Logical View"
 1. Select "FlintView" from the dropdown menu  
 ![Select FlintView](images/FlintView.png)
@@ -192,7 +194,7 @@ To flatten an expression:
 ![Flatten Expression](images/flattenExpressionResult.png)
 
 #### Importing and exporting
-It is possible to import and export flintmodels. When exporting a JSON file is created which can be shared to other users which can import this JSON file.
+It is possible to import and export flintmodels. When exporting a JSON file is created which can be shared to other users who can import this JSON file.
 
 To export a Flintmodel:
 1. `Right-Click` on the FlintModel node to see the dropdown menu.
@@ -381,7 +383,7 @@ We have now succesfully made different version and stored them, a user can view 
 ![Version 1](images/update-step-version-1.png)
 ![Current version](images/update-step-version-cur.png)
 
-## Custom search in models
+## Custom text search in models
 This functionality makes it possible to find nodes based on text input of the user. It is available for Flintmodels and LawSource versions. Matched nodes are returned to the user, including their role inside the model.  
 
 Usage inside **Flintmodels**:
@@ -403,13 +405,13 @@ This functionality makes it possible to assign dates to each line of an Article.
 To assign dates:  
 - `Click` on the line and open the inspector  
 ![Sourcepart Date](images/sourcepart_dates.png)  
-- `Click` on the calander icon of the date you want to assign and select the date.  
+- `Click` on the calander of the date you want to assign and select the date.  
 ![Sourcepart Select Date](images/sourcepart_select_date.png)  
 - The assigned dates will be saved and displayed in the inspector editor  
 ![Sourcepart Date Result](images/sourcepart_date_result.png)  
 
 ## Context Actions
-A lot of functions are accesible via intentions. These can be seen whilst pressing `Alt+Enter` on a selected node, but also via the context actions tab in the right-hand corner. The advantage of the Context Actions tab is that this tab can remain open while you are making interpretations. As soon as you select a node which has intentions the Context Actions tab will show them, removing the need of pressing `Alt+Enter` before you can see them.  
+A lot of functions are accesible via intentions. These can be seen whilst pressing `Alt+Enter` on a selected node, but also via the context actions tab in the right-hand corner. The advantage of the Context Actions tab is that this tab can remain open while you are making interpretations. As soon as you select a node which has intentions the Context Actions tab will show them, removing the need of pressing `Alt+Enter` before you can see them. You can then click on the intentions inside the Context Actions tab to execute them.  
 
 To open the Context Actions tab `Click` on the `Context Actions` tab in the right hand corner. 
 ![Context Actions](images/context_actions.png)
