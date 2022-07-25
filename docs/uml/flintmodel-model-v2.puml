@@ -1,0 +1,55 @@
+@startuml FlintModel-Model
+skinparam nodesep 50
+skinparam ranksep 150
+
+interface "Flint.structure.IFlintModel" <INamedConcept>
+interface "Flint.structure.IHasLanguage" <INamedConcept>
+interface "FlintCellModels.structure.IProvidesTranslatedCell" 
+interface "Flint.structure.IUniquelyName" <INamedConcept>
+class "Flint.structure.Language"  << (R, lightgrey) >>
+class "Flint.structure.LanguageReference" 
+class "Flint.structure.FlintModel" <INamedConcept> << (R, lightgrey) >>
+class "Flint.structure.EditorLanguage"
+"Flint.structure.EditorLanguage" : eName : string
+"Flint.structure.EditorLanguage" : eActs : string
+"Flint.structure.EditorLanguage" : eFacts : string
+"Flint.structure.EditorLanguage" : eDuties : string
+"Flint.structure.EditorLanguage" : eFunction : string
+"Flint.structure.EditorLanguage" : eReferences : string
+"Flint.structure.EditorLanguage" : eDutyHolder : string
+"Flint.structure.EditorLanguage" : eClaimant : string
+"Flint.structure.EditorLanguage" : eCreate : string
+"Flint.structure.EditorLanguage" : eTerminate : string
+"Flint.structure.EditorLanguage" : eEnforce : string
+"Flint.structure.EditorLanguage" : eExplanation : string
+"Flint.structure.EditorLanguage" : eActor : string
+"Flint.structure.EditorLanguage" : eAction : string
+"Flint.structure.EditorLanguage" : eObject : string
+"Flint.structure.EditorLanguage" : eRecipient : string
+"Flint.structure.EditorLanguage" : ePreconditions : string
+"Flint.structure.EditorLanguage" : eLanguage : string
+"Flint.structure.EditorLanguage" : eSources : string
+"Flint.structure.EditorLanguage" : eText : string
+"Flint.structure.EditorLanguage" : eFindLineInSource : string
+"Flint.structure.EditorLanguage" : eValidFrom : string
+"Flint.structure.EditorLanguage" : eValidTo : string
+"Flint.structure.EditorLanguage" : eTags : string
+"Flint.structure.EditorLanguage" : eVersion : string
+"Flint.structure.EditorLanguage" : eVerified : string
+"Flint.structure.EditorLanguage" : eValidated : string
+"Flint.structure.EditorLanguage" : ePublicized : string
+"Flint.structure.EditorLanguage" : eSelectVersion : string  
+class "Flint.structure.TranslatedName" 
+"Flint.structure.TranslatedName" : language : string
+"Flint.structure.TranslatedName" : translatedName : string
+
+"FlintCellModels.structure.IProvidesTranslatedCell" <|.. "Flint.structure.IHasLanguage"
+"Flint.structure.IUniquelyName" <|.. "Flint.structure.Language"
+"Flint.structure.IFlintModel" <|.. "Flint.structure.FlintModel"
+"Flint.structure.IHasLanguage" <|.. "Flint.structure.FlintModel"
+"Flint.structure.Language" "1" *-- "0..1" "Flint.structure.EditorLanguage" : EditorLanguage
+"Flint.structure.LanguageReference" "1" --> "1" "Flint.structure.Language" : target
+"Flint.structure.IHasLanguage" "1" *-- "0..n" "Flint.structure.TranslatedName" : translatedNames
+"Flint.structure.FlintModel" "1" *-- "0..1" "Flint.structure.LanguageReference" : editorLanguageReference
+"Flint.structure.FlintModel" "1" *-- "0..1" "Flint.structure.LanguageReference" : interpretationLanguageReference
+@enduml
