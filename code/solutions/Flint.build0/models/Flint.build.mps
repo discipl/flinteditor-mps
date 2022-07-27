@@ -3157,6 +3157,11 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6L5j" resolve="jetbrains.mps.lang.editor.table.runtime" />
           </node>
         </node>
+        <node concept="1SiIV0" id="6mscA01uZn$" role="3bR37C">
+          <node concept="3bR9La" id="6mscA01uZn_" role="1SiIV1">
+            <ref role="3bR37D" to="al5i:35WzcHe4_iF" resolve="com.mbeddr.mpsutil.datepicker.runtime" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="1ILeZy3Ibt2" role="2G$12L">
         <property role="BnDLt" value="true" />

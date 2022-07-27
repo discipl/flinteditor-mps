@@ -9,7 +9,7 @@ data class FlintModel(
     val language: Language?
 )
 
-data class Language(
+data class EditorLanguage(
     val languageName: String,
     val name: String,
     val acts: String,
@@ -41,6 +41,11 @@ data class Language(
     val validated: String,
     val publicized: String,
     val selectVersion: String
+)
+
+data class Language(
+    val interpretationLanguage: String,
+    val editorLanguage: EditorLanguage
 )
 
 data class Act(
