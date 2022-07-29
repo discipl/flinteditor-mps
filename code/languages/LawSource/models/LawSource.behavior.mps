@@ -8,6 +8,7 @@
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -322,6 +323,18 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="8465538089690331502" name="body" index="TZ5H$" />
+      </concept>
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      </concept>
+      <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+    </language>
     <language id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions">
       <concept id="5979988948250981289" name="jetbrains.mps.lang.actions.structure.SNodeCreatorAndInitializer" flags="nn" index="2fJWfE" />
       <concept id="767145758118872833" name="jetbrains.mps.lang.actions.structure.NF_LinkList_AddNewChildOperation" flags="nn" index="2DeJg1" />
@@ -404,6 +417,7 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -828,6 +842,9 @@
                                     </node>
                                     <node concept="3Tm1VV" id="69gSqIzGm$0" role="1B3o_S" />
                                     <node concept="3cqZAl" id="69gSqIzGm$1" role="3clF45" />
+                                    <node concept="2AHcQZ" id="7BrSuwksDfC" role="2AJF6D">
+                                      <ref role="2AI5Lk" to="wyt6:~Override" />
+                                    </node>
                                   </node>
                                   <node concept="3clFb_" id="69gSqIzGm$2" role="jymVt">
                                     <property role="TrG5h" value="onCancel" />
@@ -2612,6 +2629,13 @@
       <node concept="17QB3L" id="7G4fXL7IlBU" role="3clF45" />
     </node>
     <node concept="3Tm1VV" id="$Y9SaAri3X" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXkb9V" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXkb9W" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXkb9X" role="1dT_Ay">
+          <property role="1dT_AB" value="Utility class containing helper methods for loading in the NormSources" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="$Y9SaAxZjm">
     <property role="3GE5qa" value="sources" />
@@ -6370,6 +6394,18 @@
         <ref role="3uigEE" to="mhbf:~SModelReference" resolve="SModelReference" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="6bqmyeXkh_G" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXkh_H" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXkh_I" role="1dT_Ay">
+          <property role="1dT_AB" value="This class provider the Dialog UI panel for selection a model. Duplicate in " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXCDpj" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXCDpk" role="1dT_Ay">
+          <property role="1dT_AB" value="Flint.plugin.plugin.flintfillerforversion" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="7G4fXL7GKse">
     <property role="TrG5h" value="MyNodesPresentation" />
@@ -6863,6 +6899,13 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="6bqmyeXkJkf" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXkJkg" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXkJkh" role="1dT_Ay">
+          <property role="1dT_AB" value="Custom implementation for the presentation (names) of a node. Used when loading in NormSources via parsers." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="7h2L41nwK00">
     <property role="3GE5qa" value="sources" />
@@ -6998,6 +7041,13 @@
       <node concept="3Tm1VV" id="71v2TsO_jeo" role="1B3o_S" />
       <node concept="3uibUv" id="71v2TsO_jic" role="3clF45">
         <ref role="3uigEE" to="faj1:~DocumentStructure" resolve="DocumentStructure" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXjRWs" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXjRWt" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXjRWu" role="1dT_Ay">
+          <property role="1dT_AB" value="This class providers the dialog UI pop-up for selecting a Document structure" />
+        </node>
       </node>
     </node>
   </node>
@@ -7553,6 +7603,13 @@
     <node concept="3uibUv" id="6FvCNS_R5LM" role="1zkMxy">
       <ref role="3uigEE" to="dxuu:~JPanel" resolve="JPanel" />
     </node>
+    <node concept="3UR2Jj" id="6bqmyeXk24z" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXk24$" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXk24_" role="1dT_Ay">
+          <property role="1dT_AB" value="This class provides the selection panel inside the dialog UI pop-up so the user can click on an option." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="3xy2hd29Pku">
     <property role="TrG5h" value="SourceUsedWordService" />
@@ -7564,6 +7621,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="3xy2hd29Pkv" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXkDFX" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXkDFY" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXkDFZ" role="1dT_Ay">
+          <property role="1dT_AB" value="Service containing SourceUsedWord functionality via a single instance initialized in Flint.Plugin" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="3xy2hd29T1U">
     <property role="TrG5h" value="SourceUsedWordInstance" />
@@ -7600,6 +7664,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="3xy2hd29T1V" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXkDzu" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXkDzv" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXkDzw" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface for SourceUsedWord functionality" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="3xy2hd2zqwm">
     <property role="3GE5qa" value="sources" />
@@ -7734,6 +7805,13 @@
       <node concept="3cqZAl" id="31DpIuY$Hqb" role="3clF45" />
     </node>
     <node concept="3Tm1VV" id="3xy2hd2zqwn" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXkxZm" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXkxZn" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXkxZo" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface containing helper function to underline text lines in sources" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="38u$ch7mt3C">
     <property role="3GE5qa" value="sources" />
@@ -7926,6 +8004,13 @@
     </node>
     <node concept="2tJIrI" id="64m5FSniGuH" role="jymVt" />
     <node concept="3Tm1VV" id="43CM9zYl_D$" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXk_vg" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXk_vh" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXk_vi" role="1dT_Ay">
+          <property role="1dT_AB" value="Generic utility class for the LawSource Language containing helper methods" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="4mjNsZ_N0qP">
     <property role="TrG5h" value="WordReferencesCellHelper" />
@@ -8106,6 +8191,13 @@
     </node>
     <node concept="2tJIrI" id="4mjNsZ_N7UK" role="jymVt" />
     <node concept="3Tm1VV" id="4mjNsZ_N0qQ" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXkEx1" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXkEx2" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXkEx3" role="1dT_Ay">
+          <property role="1dT_AB" value="Class with helper functions for WordReferences cells used in LawSource editor" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="1g$yUNZF0RQ">
     <property role="TrG5h" value="ArticlePercentageCellHelper" />
@@ -8286,6 +8378,18 @@
     </node>
     <node concept="2tJIrI" id="1g$yUNZF5UG" role="jymVt" />
     <node concept="3Tm1VV" id="1g$yUNZF0RR" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXkzt4" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXkzt5" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXkzt6" role="1dT_Ay">
+          <property role="1dT_AB" value="Helper class containing logic to show the percentage amount of interpreted text lines from an article in a" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXkzFa" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXkzFb" role="1dT_Ay">
+          <property role="1dT_AB" value="selected model" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="6iw8psnjHUJ">
     <property role="TrG5h" value="SplitLineIntention" />
@@ -8593,6 +8697,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="6iw8psnjHUK" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXkE9m" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXkE9n" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXkE9o" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface to define SlitLine intention functionality so it usable via normal intentions and Context Actions" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="5NNYHM3peNC">
     <property role="3GE5qa" value="sources" />
@@ -10098,6 +10209,13 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="6bqmyeXkt$v" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXkt$w" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXkt$x" role="1dT_Ay">
+          <property role="1dT_AB" value="Mapper class containing logic to map SourcePart java classes to SourcePart MPS nodes " />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="2NosBWxfQ3n">
     <property role="3GE5qa" value="sources" />
@@ -10737,6 +10855,13 @@
     </node>
     <node concept="2tJIrI" id="2AbE34hy1hi" role="jymVt" />
     <node concept="3Tm1VV" id="2AbE34hy1hj" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXkG6a" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXkG6b" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXkG6c" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface to define SlitLineInPrefixContainer intention functionality so it usable via normal intentions and Context Actions" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="42wf6xtG8kw">
     <property role="3GE5qa" value="sources" />
@@ -11503,6 +11628,18 @@
     </node>
     <node concept="2tJIrI" id="2553W0bKQ1g" role="jymVt" />
     <node concept="3Tm1VV" id="2553W0bKNAf" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXk$lR" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqdQt" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqdQu" role="1dT_Ay">
+          <property role="1dT_AB" value="This class contains multiple intentions instances which are initialized by Flint.plugin (Which has access to LawSource and Flint)" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqdQJ" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqdQK" role="1dT_Ay">
+          <property role="1dT_AB" value="and can then be used inside the LawSource Language" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="5AQJ5RQ9ww2">
     <property role="3GE5qa" value="sources" />
