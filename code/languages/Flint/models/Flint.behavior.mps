@@ -373,7 +373,11 @@
       </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="5858074156537516430" name="jetbrains.mps.baseLanguage.javadoc.structure.ReturnBlockDocTag" flags="ng" index="x79VA">
+        <property id="5858074156537516431" name="text" index="x79VB" />
+      </concept>
       <concept id="6832197706140518104" name="jetbrains.mps.baseLanguage.javadoc.structure.DocMethodParameterReference" flags="ng" index="zr_55" />
+      <concept id="6832197706140518107" name="jetbrains.mps.baseLanguage.javadoc.structure.DocTypeParameterReference" flags="ng" index="zr_56" />
       <concept id="6832197706140518103" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseParameterReference" flags="ng" index="zr_5a">
         <reference id="6832197706140518108" name="param" index="zr_51" />
       </concept>
@@ -5974,6 +5978,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="3vZfbfP$tUZ" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqGho" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqGhp" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqGhq" role="1dT_Ay">
+          <property role="1dT_AB" value="This class provides a default to display nodes in the editor, also removes the block editor when applicable." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="4aWSgWx8m50">
     <property role="3GE5qa" value="expressions.literals" />
@@ -6419,6 +6430,18 @@
       <node concept="3cqZAl" id="4NVq1WbmMI0" role="3clF45" />
     </node>
     <node concept="3Tm1VV" id="4NVq1Wbmtyf" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXjoQ_" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXjoQA" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXjoQB" role="1dT_Ay">
+          <property role="1dT_AB" value="Provides connection behaviour for the diagram block editor. For more information see" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXjoVC" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXjoVD" role="1dT_Ay">
+          <property role="1dT_AB" value="https://dslfoundry.com/using-the-diagram-editor-and-querylist-lets-build-a-graphical-structure-editor-for-mps/" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="woTyy$D_$a">
     <property role="TrG5h" value="FlintPaletteProvider" />
@@ -6719,6 +6742,18 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="woTyy$D_$b" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXjm_J" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXjm_K" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXjm_L" role="1dT_Ay">
+          <property role="1dT_AB" value="This class provider Palette entries for the diagram block editor. For more information see" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXjn9a" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXjn9b" role="1dT_Ay">
+          <property role="1dT_AB" value="https://dslfoundry.com/using-the-diagram-editor-and-querylist-lets-build-a-graphical-structure-editor-for-mps/" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="woTyy$Etlm">
     <ref role="13h7C2" to="lnwe:4NVq1WbrY6z" resolve="IHasResolvable" />
@@ -8033,6 +8068,13 @@
     </node>
     <node concept="2tJIrI" id="74VLc6kGbJ4" role="jymVt" />
     <node concept="3Tm1VV" id="3oX$uxIxeDU" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgrsTG" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgrsTH" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgrsTI" role="1dT_Ay">
+          <property role="1dT_AB" value="This interface provides a scope which contains a single model" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="3oX$uxIyT1K">
     <property role="TrG5h" value="ModelUtils" />
@@ -9381,6 +9423,13 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3V6BoQ5q8z$" role="jymVt" />
+    <node concept="3UR2Jj" id="7rVdekgrIG8" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgrIG9" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgrIGa" role="1dT_Ay">
+          <property role="1dT_AB" value="Main utility class containing helper methods regarding models" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="74VLc6k_$IR">
     <ref role="13h7C2" to="lnwe:74VLc6k_$IQ" resolve="IFlintModel" />
@@ -14676,6 +14725,18 @@
         </node>
       </node>
     </node>
+    <node concept="3UR2Jj" id="7rVdekgr7QM" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgr7QN" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgr7QO" role="1dT_Ay">
+          <property role="1dT_AB" value="Enum class containing the following links: ERole -&gt; Color -&gt; Property link" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgr8MV" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgr8MW" role="1dT_Ay">
+          <property role="1dT_AB" value="Used to assign words from Flintsources to properties (tagging)" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="13qOoT8i2jV">
     <property role="TrG5h" value="SquareCell" />
@@ -14780,6 +14841,13 @@
     </node>
     <node concept="2tJIrI" id="13qOoT8wxrN" role="jymVt" />
     <node concept="2tJIrI" id="13qOoT8wxz5" role="jymVt" />
+    <node concept="3UR2Jj" id="7rVdekgqH_V" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqH_W" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqH_X" role="1dT_Ay">
+          <property role="1dT_AB" value="Custom cell provider to create a non-selectable square cell" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="13qOoT8XZz7">
     <ref role="13h7C2" to="lnwe:5Xjenljcz12" resolve="IExplainable" />
@@ -16293,6 +16361,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="$Y9SaAri3X" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqYvp" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqYvq" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqYvr" role="1dT_Ay">
+          <property role="1dT_AB" value="Utility class containing methods used for loading in sources" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="$Y9SaAxZjm">
     <property role="3GE5qa" value="sources" />
@@ -16493,6 +16568,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="riOo_LHZJJ" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgrfUb" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgrfUc" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgrfUd" role="1dT_Ay">
+          <property role="1dT_AB" value="Utility class containing methods for Selections" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="4AIlyP3xIyK">
     <property role="TrG5h" value="TagHelpers" />
@@ -19640,6 +19722,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="4AIlyP3xIyL" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgrAKn" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgrAKo" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgrAKp" role="1dT_Ay">
+          <property role="1dT_AB" value="Utility class with helper methods pertaining to tags" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="5DWs9m5fnLD">
     <property role="TrG5h" value="SeperatedLayoutMigrationUtils" />
@@ -21382,6 +21471,13 @@
     </node>
     <node concept="2tJIrI" id="5DWs9m5fouX" role="jymVt" />
     <node concept="3Tm1VV" id="5DWs9m5fnLE" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgrpR6" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgrpR7" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgrpR8" role="1dT_Ay">
+          <property role="1dT_AB" value="Utility class with methods for the ChangeToSeperatedLayout migration." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="5osFsyV4Bqb">
     <property role="TrG5h" value="MigrationUtils" />
@@ -22407,6 +22503,13 @@
     </node>
     <node concept="2tJIrI" id="qfyMBWNL7W" role="jymVt" />
     <node concept="3Tm1VV" id="5osFsyV4Bqc" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgreTS" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgreTT" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgreTU" role="1dT_Ay">
+          <property role="1dT_AB" value="Utility class with methods for migrations. Currently no longer in use" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="6LSqBjXMvRY">
     <ref role="13h7C2" to="lnwe:6LSqBjXFI_4" resolve="CustomText" />
@@ -23978,35 +24081,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="6LSqBjYYeXx" role="1B3o_S" />
-  </node>
-  <node concept="312cEu" id="5BmlQlqlqKh">
-    <property role="3GE5qa" value="utils" />
-    <property role="TrG5h" value="MessagePrinter" />
-    <node concept="2YIFZL" id="5BmlQlqlqOP" role="jymVt">
-      <property role="TrG5h" value="info" />
-      <node concept="3cqZAl" id="5BmlQlqlqOR" role="3clF45" />
-      <node concept="3Tm1VV" id="5BmlQlqlqOS" role="1B3o_S" />
-      <node concept="3clFbS" id="5BmlQlqlqOT" role="3clF47">
-        <node concept="2xdQw9" id="5BmlQlqlqSx" role="3cqZAp">
-          <property role="2xdLsb" value="h1akgim/info" />
-          <node concept="2OqwBi" id="5BmlQlqlrmf" role="9lYJi">
-            <node concept="37vLTw" id="5BmlQlqlrcY" role="2Oq$k0">
-              <ref role="3cqZAo" node="5BmlQlqlqRJ" resolve="message" />
-            </node>
-            <node concept="liA8E" id="5BmlQlqlrqP" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="5BmlQlqlqRJ" role="3clF46">
-        <property role="TrG5h" value="message" />
-        <node concept="3uibUv" id="5BmlQlqlr0S" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+    <node concept="3UR2Jj" id="7rVdekgruu$" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgruu_" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgruuA" role="1dT_Ay">
+          <property role="1dT_AB" value="This Interface contains a method which removes unnecessary spaces in the CustomText" />
         </node>
       </node>
     </node>
-    <node concept="3Tm1VV" id="5BmlQlqlqKi" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="1j1uXED15fH">
     <property role="3GE5qa" value="utils" />
@@ -24106,6 +24187,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="1j1uXED15fI" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgrb9i" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgrb9j" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgrb9k" role="1dT_Ay">
+          <property role="1dT_AB" value="Utility class containing methods used by IHasSources." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="wJ8RSAMj6Z">
     <ref role="13h7C2" to="lnwe:wJ8RSAMhPl" resolve="IHasLanguage" />
@@ -24661,6 +24749,18 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="5SIYu6Xx_PU" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqdQs" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqdQt" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqdQu" role="1dT_Ay">
+          <property role="1dT_AB" value="This class contains multiple intentions instances which are initialized by Flint.plugin (Which has access to LawSource and Flint)" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqdQJ" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqdQK" role="1dT_Ay">
+          <property role="1dT_AB" value="and can then be used inside the Flint Language" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="7C_i1w7$jaq">
     <property role="3GE5qa" value="cellproviders" />
@@ -24774,6 +24874,13 @@
       </node>
       <node concept="2AHcQZ" id="7C_i1w7$nYd" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="7rVdekgqHaz" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqHa$" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqHa_" role="1dT_Ay">
+          <property role="1dT_AB" value="This is a custom cell provider for Language cells. Displays the property based on the active language." />
+        </node>
       </node>
     </node>
   </node>
@@ -24929,6 +25036,23 @@
       </node>
       <node concept="2AHcQZ" id="7YFAXDpE6W7" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="7rVdekgqnNO" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqnNP" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqnNQ" role="1dT_Ay">
+          <property role="1dT_AB" value="Normal MPS cell provider functionality can only display the current node and their children." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqo8C" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqo8D" role="1dT_Ay">
+          <property role="1dT_AB" value="This class is a custom cell provider which makes it possible to display a property (or string) from an unrelated node " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqnYr" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqnYs" role="1dT_Ay">
+          <property role="1dT_AB" value="into the current node. Can be viewed as a query list for a single node." />
+        </node>
       </node>
     </node>
   </node>
@@ -25225,6 +25349,18 @@
       </node>
       <node concept="2AHcQZ" id="14WD1psJWxr" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="7rVdekgqsjH" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqsjI" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqsjJ" role="1dT_Ay">
+          <property role="1dT_AB" value="Custom cell provider for CreateableAndTerminateable nodes. Directly assigns hyperlinks and styles to be consistent" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgquaf" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgquag" role="1dT_Ay">
+          <property role="1dT_AB" value="with Flint convention. " />
+        </node>
       </node>
     </node>
   </node>
@@ -25625,6 +25761,18 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="7rVdekgr1co" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgr1cp" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgr1cq" role="1dT_Ay">
+          <property role="1dT_AB" value="Dialog class extending DialogWrapper. Used to create a UI panel in which a user can select a language to import" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgr2TW" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgr2TX" role="1dT_Ay">
+          <property role="1dT_AB" value="sources from." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="6uu3xX4w9Lq">
     <property role="3GE5qa" value="cellproviders" />
@@ -25769,6 +25917,13 @@
       </node>
       <node concept="2AHcQZ" id="6uu3xX4wcd7" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="7rVdekgqnkP" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqnkQ" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqnkR" role="1dT_Ay">
+          <property role="1dT_AB" value="This class provides a custom cell action which upon execution adds a child node to the given root node" />
+        </node>
       </node>
     </node>
   </node>
@@ -26778,6 +26933,38 @@
       <node concept="16euLQ" id="7dMNgcNRcjG" role="16eVyc">
         <property role="TrG5h" value="T" />
       </node>
+      <node concept="P$JXv" id="7rVdekgqcAH" role="lGtFl">
+        <node concept="TZ5HA" id="7rVdekgqcAI" role="TZ5H$">
+          <node concept="1dT_AC" id="7rVdekgqcAJ" role="1dT_Ay">
+            <property role="1dT_AB" value="Takes task and a message to print. Runs the task and logs the amount of time it took to " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="7rVdekgqcPR" role="TZ5H$">
+          <node concept="1dT_AC" id="7rVdekgqcPS" role="1dT_Ay">
+            <property role="1dT_AB" value="finish the task in ms." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="7rVdekgqcAK" role="3nqlJM">
+          <node concept="zr_55" id="7rVdekgqcAM" role="zr_5Q">
+            <ref role="zr_51" node="7dMNgcNRca1" resolve="reallyLongThing" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="7rVdekgqcAN" role="3nqlJM">
+          <property role="TUZQ4" value="Message to print" />
+          <node concept="zr_55" id="7rVdekgqcAP" role="zr_5Q">
+            <ref role="zr_51" node="7dMNgcNXW8_" resolve="message" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="7rVdekgqcAQ" role="3nqlJM">
+          <property role="TUZQ4" value="Type specifier" />
+          <node concept="zr_56" id="7rVdekgqcAS" role="zr_5Q">
+            <ref role="zr_51" node="7dMNgcNRcjG" resolve="T" />
+          </node>
+        </node>
+        <node concept="x79VA" id="7rVdekgqcAT" role="3nqlJM">
+          <property role="x79VB" value="Result of runnable" />
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="7dMNgcNY2$x" role="jymVt" />
     <node concept="2YIFZL" id="7dMNgcNY1xq" role="jymVt">
@@ -26922,6 +27109,7 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5HhbosxMfyr" role="jymVt" />
+    <node concept="2tJIrI" id="7rVdekgqd2v" role="jymVt" />
     <node concept="2YIFZL" id="5HhbosxMgBC" role="jymVt">
       <property role="TrG5h" value="printWarning" />
       <node concept="3clFbS" id="5HhbosxMgBF" role="3clF47">
@@ -26938,8 +27126,33 @@
         <property role="TrG5h" value="warningString" />
         <node concept="17QB3L" id="5HhbosxMh1H" role="1tU5fm" />
       </node>
+      <node concept="P$JXv" id="7rVdekgqdh$" role="lGtFl">
+        <node concept="TZ5HA" id="7rVdekgqdh_" role="TZ5H$">
+          <node concept="1dT_AC" id="7rVdekgqdhA" role="1dT_Ay">
+            <property role="1dT_AB" value="Method which prints a warning message. Can be used inside Interfaces to replace the &quot;message warn&quot; statement which" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="7rVdekgqdiM" role="TZ5H$">
+          <node concept="1dT_AC" id="7rVdekgqdiN" role="1dT_Ay">
+            <property role="1dT_AB" value="does not work in Interfaces" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="7rVdekgqdhB" role="3nqlJM">
+          <property role="TUZQ4" value="String to print as a warning" />
+          <node concept="zr_55" id="7rVdekgqdhD" role="zr_5Q">
+            <ref role="zr_51" node="5HhbosxMh1I" resolve="warningString" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3Tm1VV" id="7dMNgcNR8BA" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqctp" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqctq" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqctr" role="1dT_Ay">
+          <property role="1dT_AB" value="Utility class with methods used for debugging." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="LZYRE$ZY1U">
     <ref role="13h7C2" to="lnwe:UjCAmBFIEv" resolve="Archiveable" />
@@ -27220,6 +27433,13 @@
       </node>
       <node concept="2AHcQZ" id="3azCKjBbpd0" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="7rVdekgqdpp" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqdpq" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqdpr" role="1dT_Ay">
+          <property role="1dT_AB" value="This class extends from the MPS class CellAction_DeleteNode and adds an editor refresh after the changes are executed." />
+        </node>
       </node>
     </node>
   </node>
@@ -29710,6 +29930,18 @@
     </node>
     <node concept="2tJIrI" id="4mjNsZ_z8Tq" role="jymVt" />
     <node concept="3Tm1VV" id="4mjNsZ_z8xj" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqSzD" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqS_C" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqS_D" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface for Untag intention. Used to have the intention in a single place to be used by " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqS_E" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqS_F" role="1dT_Ay">
+          <property role="1dT_AB" value="normal intentions and Context Actions" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="6iw8psndsOf">
     <property role="3GE5qa" value="intentions" />
@@ -29817,6 +30049,18 @@
     <node concept="2tJIrI" id="6iw8psnduYo" role="jymVt" />
     <node concept="2tJIrI" id="6iw8psnduY$" role="jymVt" />
     <node concept="3Tm1VV" id="6iw8psndsOg" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqMln" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqMlE" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqMlF" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface for Explanation intention. Used to have the intention in a single place to be used by " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqMlG" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqMlH" role="1dT_Ay">
+          <property role="1dT_AB" value="normal intentions and Context Actions" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="6iw8psn9FU4">
     <property role="3GE5qa" value="intentions" />
@@ -30024,6 +30268,18 @@
     </node>
     <node concept="2tJIrI" id="6iw8psn9I7b" role="jymVt" />
     <node concept="3Tm1VV" id="6iw8psn9FU5" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqRnV" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqRra" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqRrb" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface for ShowBlockDiagramEditor intention. Used to have the intention in a single place to be used by " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqRrc" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqRrd" role="1dT_Ay">
+          <property role="1dT_AB" value="normal intentions and Context Actions" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="70Gl2CclJJc">
     <property role="3GE5qa" value="intentions" />
@@ -30252,6 +30508,18 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="70Gl2CclJJd" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqMek" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqMel" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqMem" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface for CreateFactFromExpression intention. Used to have the intention in a single place to be used by " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqMgh" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqMgi" role="1dT_Ay">
+          <property role="1dT_AB" value="normal intentions and Context Actions" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="4mjNsZ_smMc">
     <property role="3GE5qa" value="intentions" />
@@ -30572,6 +30840,18 @@
     </node>
     <node concept="2tJIrI" id="4mjNsZ_snC1" role="jymVt" />
     <node concept="3Tm1VV" id="4mjNsZ_smMd" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqS1N" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqS2e" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqS2f" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface for Tag intention. Used to have the intention in a single place to be used by " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqS2g" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqS2h" role="1dT_Ay">
+          <property role="1dT_AB" value="normal intentions and Context Actions" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="70Gl2Cct1zf">
     <property role="3GE5qa" value="intentions" />
@@ -31012,6 +31292,18 @@
     </node>
     <node concept="2tJIrI" id="70Gl2Cct3NZ" role="jymVt" />
     <node concept="3Tm1VV" id="70Gl2Cct1zg" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqNT2" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqNX8" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqNX9" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface for ExpressionReplacement intention. Used to have the intention in a single place to be used by " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqNXa" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqNXb" role="1dT_Ay">
+          <property role="1dT_AB" value="normal intentions and Context Actions" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="70Gl2CcG$xT">
     <property role="3GE5qa" value="intentions" />
@@ -31211,6 +31503,18 @@
     </node>
     <node concept="2tJIrI" id="70Gl2CcG_l9" role="jymVt" />
     <node concept="3Tm1VV" id="70Gl2CcG$xU" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqQZr" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqR3C" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqR3D" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface for LitterOperandReplacements intention. Used to have the intention in a single place to be used by " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqR3E" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqR3F" role="1dT_Ay">
+          <property role="1dT_AB" value="normal intentions and Context Actions" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="70Gl2CcycP0">
     <property role="3GE5qa" value="intentions" />
@@ -31359,6 +31663,18 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="70Gl2CcycP1" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqQmV" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqQo6" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqQo7" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface for InsertIntoExpression intention. Used to have the intention in a single place to be used by " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqQo8" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqQo9" role="1dT_Ay">
+          <property role="1dT_AB" value="normal intentions and Context Actions" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="6iw8psn9Pnf">
     <property role="3GE5qa" value="intentions" />
@@ -31563,6 +31879,18 @@
     <node concept="2tJIrI" id="6iw8psn9Rk8" role="jymVt" />
     <node concept="2tJIrI" id="6iw8psn9Rkb" role="jymVt" />
     <node concept="3Tm1VV" id="6iw8psn9Png" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqPJc" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqPMr" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqPMs" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface for HideBlockDiagram intention. Used to have the intention in a single place to be used by " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqPMt" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqPMu" role="1dT_Ay">
+          <property role="1dT_AB" value="normal intentions and Context Actions" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="70Gl2CcC2tq">
     <property role="3GE5qa" value="intentions" />
@@ -31977,6 +32305,18 @@
     </node>
     <node concept="2tJIrI" id="70Gl2CcC2Pq" role="jymVt" />
     <node concept="3Tm1VV" id="70Gl2CcC2tr" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqPmL" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqPrR" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqPrS" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface for Flatten intention. Used to have the intention in a single place to be used by " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqPrT" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqPrU" role="1dT_Ay">
+          <property role="1dT_AB" value="normal intentions and Context Actions" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="78uEmvU4O4G">
     <property role="3GE5qa" value="expressions" />
