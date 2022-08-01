@@ -546,6 +546,7 @@
       </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="6832197706140518104" name="jetbrains.mps.baseLanguage.javadoc.structure.DocMethodParameterReference" flags="ng" index="zr_55" />
       <concept id="6832197706140518107" name="jetbrains.mps.baseLanguage.javadoc.structure.DocTypeParameterReference" flags="ng" index="zr_56" />
       <concept id="6832197706140518103" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseParameterReference" flags="ng" index="zr_5a">
         <reference id="6832197706140518108" name="param" index="zr_51" />
@@ -554,6 +555,7 @@
         <child id="8465538089690331502" name="body" index="TZ5H$" />
         <child id="5383422241790532083" name="tags" index="3nqlJM" />
       </concept>
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
       <concept id="8465538089690881930" name="jetbrains.mps.baseLanguage.javadoc.structure.ParameterBlockDocTag" flags="ng" index="TUZQ0">
         <property id="8465538089690881934" name="text" index="TUZQ4" />
         <child id="6832197706140518123" name="parameter" index="zr_5Q" />
@@ -17837,6 +17839,18 @@
       </node>
       <node concept="3Tm6S6" id="6FvCNS_TTYf" role="1B3o_S" />
       <node concept="3cqZAl" id="6FvCNS_TVPp" role="3clF45" />
+      <node concept="P$JXv" id="6JhtKCOWgjg" role="lGtFl">
+        <node concept="TZ5HA" id="6JhtKCOWgjh" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOWgji" role="1dT_Ay">
+            <property role="1dT_AB" value="Adds function which executes on click. Function launches a background task which gathers the available parsers." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6JhtKCOWjMz" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOWjM$" role="1dT_Ay">
+            <property role="1dT_AB" value="Sets the parsers to be selectable by the user" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="6FvCNS_R5Hn" role="jymVt" />
     <node concept="3clFb_" id="6FvCNS_R5Ho" role="jymVt">
@@ -26033,6 +26047,24 @@
       <node concept="2AHcQZ" id="24TlsWx5TlF" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
+      <node concept="P$JXv" id="6JhtKCOXDdu" role="lGtFl">
+        <node concept="TZ5HA" id="6JhtKCOXDdv" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOXDdw" role="1dT_Ay">
+            <property role="1dT_AB" value="Starting point of the recursive search function. Takes in the starting node from which to search " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6JhtKCOXHxG" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOXHxH" role="1dT_Ay">
+            <property role="1dT_AB" value="(Flintmodel or LawsourceVerison), parses the search query for correct checking and starts recursive function" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOXDdx" role="3nqlJM">
+          <property role="TUZQ4" value="Root node from which the search is started" />
+          <node concept="zr_55" id="6JhtKCOXDdz" role="zr_5Q">
+            <ref role="zr_51" node="19sjjnltop6" resolve="node" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="19sjjnlu0D0" role="jymVt" />
     <node concept="3clFb_" id="19sjjnltZqY" role="jymVt">
@@ -26893,6 +26925,48 @@
                 <ref role="35c_gD" to="lnwe:5XjenljaN1R" resolve="FlintModel" />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+      <node concept="P$JXv" id="6JhtKCOWBRd" role="lGtFl">
+        <node concept="TZ5HA" id="6JhtKCOWBRe" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOWBRf" role="1dT_Ay">
+            <property role="1dT_AB" value="Recursive function for checking every node and its references/children/links for matching text." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6JhtKCOWDCn" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOWDCo" role="1dT_Ay">
+            <property role="1dT_AB" value="Excluded properties &amp; links are staticly defined inside this function." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOWBRg" role="3nqlJM">
+          <property role="TUZQ4" value="Node which is currently being checked" />
+          <node concept="zr_55" id="6JhtKCOWBRi" role="zr_5Q">
+            <ref role="zr_51" node="19sjjnltZqD" resolve="node" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOWBRj" role="3nqlJM">
+          <property role="TUZQ4" value="Function to split search query on word" />
+          <node concept="zr_55" id="6JhtKCOWBRl" role="zr_5Q">
+            <ref role="zr_51" node="19sjjnltZqF" resolve="myWordSplit" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOWBRm" role="3nqlJM">
+          <property role="TUZQ4" value="Search qeury in lowercase" />
+          <node concept="zr_55" id="6JhtKCOWBRo" role="zr_5Q">
+            <ref role="zr_51" node="19sjjnltZqK" resolve="lowerCaseStringToSearch" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOWBRp" role="3nqlJM">
+          <property role="TUZQ4" value="Set of lowercase splitted text" />
+          <node concept="zr_55" id="6JhtKCOWBRr" role="zr_5Q">
+            <ref role="zr_51" node="19sjjnltZqM" resolve="splitSearchWords" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOWBRs" role="3nqlJM">
+          <property role="TUZQ4" value="List of nodes which are already processed" />
+          <node concept="zr_55" id="6JhtKCOWBRu" role="zr_5Q">
+            <ref role="zr_51" node="19sjjnlubpq" resolve="processedNodes" />
           </node>
         </node>
       </node>
@@ -30811,6 +30885,13 @@
           <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
         </node>
       </node>
+      <node concept="3UR2Jj" id="6JhtKCOXUMx" role="lGtFl">
+        <node concept="TZ5HA" id="6JhtKCOXUMy" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOXUMz" role="1dT_Ay">
+            <property role="1dT_AB" value="Handles output from the recursive function e.g. when a matches are found they are shown in the dialog window" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="2gxcy0Fd0k2" role="jymVt" />
     <node concept="3UR2Jj" id="6bqmyeXFHvv" role="lGtFl">
@@ -32878,6 +32959,24 @@
       <node concept="2AHcQZ" id="24TlsWx5XPM" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
+      <node concept="P$JXv" id="6JhtKCOXL_6" role="lGtFl">
+        <node concept="TZ5HA" id="6JhtKCOXMAT" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOXMAU" role="1dT_Ay">
+            <property role="1dT_AB" value="Starting point of the recursive search function. Takes in the starting node from which to search " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6JhtKCOXMAV" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOXMAW" role="1dT_Ay">
+            <property role="1dT_AB" value="(Flintmodel or LawsourceVerison), parses the search query for correct checking and starts recursive function" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOXL_9" role="3nqlJM">
+          <property role="TUZQ4" value="Root node from which the search is started" />
+          <node concept="zr_55" id="6JhtKCOXL_b" role="zr_5Q">
+            <ref role="zr_51" node="24TlsWx5L07" resolve="node" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="24TlsWx5L09" role="jymVt" />
     <node concept="3clFb_" id="24TlsWx5L0a" role="jymVt">
@@ -33363,6 +33462,48 @@
                 <ref role="35c_gD" to="srlv:1nyeVyNbPAY" resolve="Version" />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+      <node concept="P$JXv" id="6JhtKCOXOop" role="lGtFl">
+        <node concept="TZ5HA" id="6JhtKCOXPzt" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOXPzu" role="1dT_Ay">
+            <property role="1dT_AB" value="Recursive function for checking every node and its references/children/links for matching text." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6JhtKCOXPzv" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOXPzw" role="1dT_Ay">
+            <property role="1dT_AB" value="Excluded properties &amp; links are staticly defined inside this function." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOXRkG" role="3nqlJM">
+          <property role="TUZQ4" value="Node which is currently being checked" />
+          <node concept="zr_55" id="6JhtKCOXRkH" role="zr_5Q">
+            <ref role="zr_51" node="24TlsWx5L0d" resolve="node" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOXRkI" role="3nqlJM">
+          <property role="TUZQ4" value="Function to split search query on word" />
+          <node concept="zr_55" id="6JhtKCOXRkJ" role="zr_5Q">
+            <ref role="zr_51" node="24TlsWx5L0f" resolve="myWordSplit" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOXRkK" role="3nqlJM">
+          <property role="TUZQ4" value="Search qeury in lowercase" />
+          <node concept="zr_55" id="6JhtKCOXRkL" role="zr_5Q">
+            <ref role="zr_51" node="24TlsWx5L0k" resolve="lowerCaseStringToSearch" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOXRkM" role="3nqlJM">
+          <property role="TUZQ4" value="Set of lowercase splitted text" />
+          <node concept="zr_55" id="6JhtKCOXRkN" role="zr_5Q">
+            <ref role="zr_51" node="24TlsWx5L0m" resolve="splitSearchWords" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOXRkO" role="3nqlJM">
+          <property role="TUZQ4" value="List of nodes which are already processed" />
+          <node concept="zr_55" id="6JhtKCOXRkP" role="zr_5Q">
+            <ref role="zr_51" node="24TlsWx5L0p" resolve="processedNodes" />
           </node>
         </node>
       </node>
@@ -37243,6 +37384,30 @@
       <node concept="2AHcQZ" id="2553W0bKmsO" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
+      <node concept="P$JXv" id="6JhtKCOVTI2" role="lGtFl">
+        <node concept="TZ5HA" id="6JhtKCOVUKC" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOVUKD" role="1dT_Ay">
+            <property role="1dT_AB" value="Checks if a FlintModel is present and selected. After this helper function is called to actually add the" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6JhtKCOVWcY" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOVWcZ" role="1dT_Ay">
+            <property role="1dT_AB" value="source to the sourceholder." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOVTI5" role="3nqlJM">
+          <property role="TUZQ4" value="Source which needs to be added to a sourceholder" />
+          <node concept="zr_55" id="6JhtKCOVTI7" role="zr_5Q">
+            <ref role="zr_51" node="2553W0bKmsH" resolve="node" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOVTI8" role="3nqlJM">
+          <property role="TUZQ4" value="Refers to the type of concept which needs to be created" />
+          <node concept="zr_55" id="6JhtKCOVTIa" role="zr_5Q">
+            <ref role="zr_51" node="2553W0bKmsJ" resolve="parameter" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="2553W0b$vzC" role="jymVt" />
     <node concept="2tJIrI" id="2553W0b$s2k" role="jymVt" />
@@ -37729,6 +37894,30 @@
       </node>
       <node concept="2AHcQZ" id="BDEfJTHFR8" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="P$JXv" id="6JhtKCOW4Kq" role="lGtFl">
+        <node concept="TZ5HA" id="6JhtKCOW5s9" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOW5sa" role="1dT_Ay">
+            <property role="1dT_AB" value="Checks if a FlintModel is present and selected. After this helper function is called to actually add the" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6JhtKCOW5sb" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOW5sc" role="1dT_Ay">
+            <property role="1dT_AB" value="source to the sourceholder." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOW4Kt" role="3nqlJM">
+          <property role="TUZQ4" value="Source which needs to be added to a sourceholder" />
+          <node concept="zr_55" id="6JhtKCOW4Kv" role="zr_5Q">
+            <ref role="zr_51" node="BDEfJTHFQ4" resolve="selection" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOW4Kw" role="3nqlJM">
+          <property role="TUZQ4" value="Refers to the type of concept which needs to be created" />
+          <node concept="zr_55" id="6JhtKCOW4Ky" role="zr_5Q">
+            <ref role="zr_51" node="BDEfJTHFQ6" resolve="parameter" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="BDEfJTHFN2" role="jymVt" />
@@ -38244,6 +38433,24 @@
       </node>
       <node concept="2AHcQZ" id="35cpwYlHws" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="P$JXv" id="6JhtKCOVoYk" role="lGtFl">
+        <node concept="TZ5HA" id="6JhtKCOVoYl" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOVoYm" role="1dT_Ay">
+            <property role="1dT_AB" value="Checks if a FlintModel is present and selected. If true, the use can choose a sourceholder from a dialog window." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6JhtKCOVqDf" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOVqDg" role="1dT_Ay">
+            <property role="1dT_AB" value="After this helper function is called to actually add the source to the sourceholder." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOVoYn" role="3nqlJM">
+          <property role="TUZQ4" value="Source which needs to be added to a sourceholder" />
+          <node concept="zr_55" id="6JhtKCOVoYp" role="zr_5Q">
+            <ref role="zr_51" node="35cpwYlHwl" resolve="node" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="3UR2Jj" id="6bqmyeXDHux" role="lGtFl">
@@ -38765,6 +38972,30 @@
       </node>
       <node concept="2AHcQZ" id="BDEfJTmzrT" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="P$JXv" id="6JhtKCOVuEz" role="lGtFl">
+        <node concept="TZ5HA" id="6JhtKCOVwgL" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOVwgM" role="1dT_Ay">
+            <property role="1dT_AB" value="Checks if a FlintModel is present and selected. If true, the use can choose a sourceholder from a dialog window." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6JhtKCOVwgN" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOVwgO" role="1dT_Ay">
+            <property role="1dT_AB" value="After this helper function is called to actually add the source to the sourceholder." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOVuEA" role="3nqlJM">
+          <property role="TUZQ4" value="Type of selection which contains the source" />
+          <node concept="zr_55" id="6JhtKCOVuEC" role="zr_5Q">
+            <ref role="zr_51" node="BDEfJTmzrM" resolve="selection" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOVuED" role="3nqlJM">
+          <property role="TUZQ4" value="No current use but placed to conform to the MPS Interface of parameterized intention" />
+          <node concept="zr_55" id="6JhtKCOVuEF" role="zr_5Q">
+            <ref role="zr_51" node="BDEfJTmzrO" resolve="parameter" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="BDEfJTmY_A" role="jymVt" />
