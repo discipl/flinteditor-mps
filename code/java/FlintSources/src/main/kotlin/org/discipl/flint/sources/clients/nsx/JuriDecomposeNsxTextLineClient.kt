@@ -26,7 +26,7 @@ class JuriDecomposeNsxTextLineClient(httpClient: HttpClient) :
         @SerializedName("structuralIndex")
         val structuurkenmerk: StructuurKenmerk?,
         val name: String,
-    ) : AsyncTextLineClient.NewTextLine
+    ) : AsyncTextLineClient.TextLine
 
     data class StructuurKenmerk(
         val iri: String,

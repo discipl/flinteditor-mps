@@ -1,14 +1,22 @@
 package org.discipl.flint.sources.transformers.textline
 
 import mu.KLogging
+import org.discipl.flint.sources.clients.nsx.CsvNsxTextLineClient.CsvTextLine
 import org.discipl.flint.sources.clients.nsx.JuriDecomposeNsxTextLineClient.JuriDecomposeTextLine
 import org.discipl.flint.sources.models.parts.*
 
-class JuriDecomposeTextLineTransformer : NewTextLineTransformer<JuriDecomposeTextLine> {
+/**
+ * The JuriDecompose implementation of [TextLineTransformer]
+ * Transforms a [List] of [JuriDecomposeTextLine]s into a [List] of [SourcePart]s
+ */
+class JuriDecomposeTextLineTransformer : TextLineTransformer<JuriDecomposeTextLine> {
     companion object : KLogging()
 
     private var index = 0
 
+    /**
+     * Transforms the given [list] of type [JuriDecomposeTextLine]  into a [List] of [SourcePart]s
+     */
     override fun transform(list: List<JuriDecomposeTextLine>): List<SourcePart> {
         val roots = list.filter { it.structuurkenmerk != null && it.structuurkenmerk.parent == null }
             .sortedBy { it.structuurkenmerk?.name }

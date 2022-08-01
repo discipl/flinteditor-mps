@@ -25,7 +25,7 @@ class CsvNsxTextLineClient(httpClient: HttpClient) :
         val structureCategory: String,
         @SerializedName("structuralIndex")
         val structuurkenmerk: StructuurKenmerk?,
-    ) : AsyncTextLineClient.NewTextLine
+    ) : AsyncTextLineClient.TextLine
 
     data class StructuurKenmerk(
         val iri: String,

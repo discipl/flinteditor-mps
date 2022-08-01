@@ -2,10 +2,16 @@ package org.discipl.flint.sources.transformers.textline
 
 import mu.KLogging
 import org.discipl.flint.sources.clients.AsyncTextLineClient
+import org.discipl.flint.sources.clients.nsx.CsvNsxTextLineClient.CsvTextLine
+import org.discipl.flint.sources.clients.nsx.JuriDecomposeNsxTextLineClient.JuriDecomposeTextLine
 import org.discipl.flint.sources.clients.nsx.TriplyNsxTextLineClient.TriplyTextLine
 import org.discipl.flint.sources.models.parts.*
 
-class TriplyTextLineTransformer : NewTextLineTransformer<TriplyTextLine> {
+/**
+ * The Triply implementation of [TextLineTransformer]
+ * Transforms a [List] of [TriplyTextLine]s into a [List] of [SourcePart]s
+ */
+class TriplyTextLineTransformer : TextLineTransformer<TriplyTextLine> {
     companion object : KLogging()
 
     /**
@@ -22,7 +28,9 @@ class TriplyTextLineTransformer : NewTextLineTransformer<TriplyTextLine> {
         TextLineTransformer()
     )
 
-
+    /**
+     * Transforms the given [list] of type [TriplyTextLine]  into a [List] of [SourcePart]s
+     */
     override fun transform(list: List<TriplyTextLine>): List<SourcePart> {
         val root = list.first { it.parent == null && it.next == null }
         logger.info { "Root: $root" }
@@ -65,7 +73,7 @@ class TriplyTextLineTransformer : NewTextLineTransformer<TriplyTextLine> {
         }
     }
 
-    interface SourcePartTypeTransformer<SP : SourcePart, TL : AsyncTextLineClient.NewTextLine> {
+    interface SourcePartTypeTransformer<SP : SourcePart, TL : AsyncTextLineClient.TextLine> {
         fun shouldApply(textLine: TL, remainingLines: MutableList<TL>): Boolean
         fun apply(textLine: TL, remainingLines: MutableList<TL>): SP
     }

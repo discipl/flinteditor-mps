@@ -24,7 +24,7 @@ class TriplyNsxTextLineClient(httpClient: HttpClient) :
         override val juriConnect: String?,
         val structure: String,
         val name: String
-    ) : AsyncTextLineClient.NewTextLine
+    ) : AsyncTextLineClient.TextLine
 
     override suspend fun getBody(httpResponse: HttpResponse): List<TriplyTextLine> {
         return httpResponse.body<NsxTextLinesForVersionResult<TriplyTextLine>>().results

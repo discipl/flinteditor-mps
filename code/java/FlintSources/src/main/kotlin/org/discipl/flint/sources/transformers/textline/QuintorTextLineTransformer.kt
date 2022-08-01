@@ -1,12 +1,21 @@
 package org.discipl.flint.sources.transformers.textline
 
 import mu.KLogging
+import org.discipl.flint.sources.clients.nsx.CsvNsxTextLineClient.CsvTextLine
+import org.discipl.flint.sources.clients.nsx.JuriDecomposeNsxTextLineClient.JuriDecomposeTextLine
 import org.discipl.flint.sources.clients.nsx.QuintorApiNsxTextLineClient.QuintorApiNsxTextLine
 import org.discipl.flint.sources.models.parts.*
 
-class QuintorTextLineTransformer : NewTextLineTransformer<QuintorApiNsxTextLine> {
+/**
+ * The QuintorAPI implementation of [TextLineTransformer]
+ * Transforms a [List] of [QuintorApiNsxTextLine]s into a [List] of [SourcePart]s
+ */
+class QuintorTextLineTransformer : TextLineTransformer<QuintorApiNsxTextLine> {
     companion object : KLogging()
 
+    /**
+     * Transforms the given [list] of type [QuintorApiNsxTextLine]  into a [List] of [SourcePart]s
+     */
     override fun transform(list: List<QuintorApiNsxTextLine>): List<SourcePart> {
         val root = list.first { it.parent == null && it.next == null }
         logger.info { "Root: $root" }

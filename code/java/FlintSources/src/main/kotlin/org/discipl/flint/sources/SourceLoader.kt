@@ -45,7 +45,6 @@ internal val hybridClientModule = module {
     single<DocumentStructureClient> { NsxDocumentStructureClientImpl(get()) }
 }
 
-
 internal val transformerModule = module {
     single { SourceTransformer() }
     single { VersionTransformer() }
@@ -105,12 +104,21 @@ internal val hybrideServiceModule = module {
     single<DocumentStructureService> { NsxDocumentStructureServiceImpl(get(), get()) }
 }
 
+/**
+ * The service module to use in [SourceLoader]
+ */
 val serviceModule = hybrideServiceModule
 
+/**
+ * The root class where all services live and can be used by external programs
+ */
 @Suppress("unused")
 object SourceLoader : KoinComponent {
     private lateinit var koinApp: KoinApplication
 
+    /**
+     * Initialize the [SourceLoader] with a specific [sslContext] and [propertyProvider]
+     */
     @Suppress("MemberVisibilityCanBePrivate")
     fun initWith(sslContext: SSLContext, propertyProvider: PropertyProvider) {
         if (this::koinApp.isInitialized) {

@@ -17,7 +17,7 @@ import org.discipl.flint.sources.clients.postJson
 import java.nio.file.Path
 import java.util.*
 
-abstract class BaseNsxTextLineClient<T : AsyncTextLineClient.NewTextLine>(private val httpClient: HttpClient) :
+abstract class BaseNsxTextLineClient<T : AsyncTextLineClient.TextLine>(private val httpClient: HttpClient) :
     AsyncTextLineClient {
     companion object : KLogging()
 
@@ -66,7 +66,7 @@ abstract class BaseNsxTextLineClient<T : AsyncTextLineClient.NewTextLine>(privat
         }.body<NsxTextLinesForVersionRequestStatus>().status
     }
 
-    data class NsxTextLinesForVersionResult<T : AsyncTextLineClient.NewTextLine>(
+    data class NsxTextLinesForVersionResult<T : AsyncTextLineClient.TextLine>(
         @SerializedName("@graph")
         val results: List<T>
     )

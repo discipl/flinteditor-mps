@@ -23,7 +23,7 @@ open class QuintorApiNsxTextLineClient(httpClient: HttpClient) :
         @SerializedName("juriconnect")
         override val juriConnect: String?,
         val tag: String,
-    ) : AsyncTextLineClient.NewTextLine
+    ) : AsyncTextLineClient.TextLine
 
     override suspend fun getBody(httpResponse: HttpResponse): List<QuintorApiNsxTextLine> {
         return httpResponse.body<NsxTextLinesForVersionResult<QuintorApiNsxTextLine>>().results
