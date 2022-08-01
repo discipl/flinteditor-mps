@@ -10,6 +10,7 @@ participant SourcePartMapper as spmapper
 end box
 participant SourceTextService as stservice
 participant DocumentStructureService as dsservice
+participant Test as test
 
 user -> editor : click refresh
 editor -> behavior :refreshButton(context).actionPerformed(ActionEvent)
