@@ -11519,7 +11519,7 @@
               <ref role="3uigEE" to="28m1:~LocalDate" resolve="LocalDate" />
             </node>
             <node concept="BsUDl" id="2vpCevmVXIx" role="33vP2m">
-              <ref role="37wK5l" node="2vpCevmVN6s" />
+              <ref role="37wK5l" node="2vpCevmVN6s" resolve="toDate" />
               <node concept="37vLTw" id="2vpCevmVXIy" role="37wK5m">
                 <ref role="3cqZAo" node="2vpCevmVN5F" resolve="dateStr" />
               </node>

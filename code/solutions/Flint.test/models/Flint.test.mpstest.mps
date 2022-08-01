@@ -8823,7 +8823,7 @@
                       <ref role="3cqZAo" node="2pVk74SjAEd" resolve="awaiter" />
                     </node>
                     <node concept="liA8E" id="2pVk74SjOhP" role="2OqNvi">
-                      <ref role="37wK5l" node="2pVk74SjcRy" resolve="completed" />
+                      <ref role="37wK5l" node="2pVk74SjcRy" resolve="complete" />
                     </node>
                   </node>
                 </node>
@@ -9791,7 +9791,7 @@
               <node concept="2OqwBi" id="Z$nuwvWhAA" role="3clFbG">
                 <node concept="2ShNRf" id="Z$nuwvW0lQ" role="2Oq$k0">
                   <node concept="1pGfFk" id="Z$nuwvWaL3" role="2ShVmc">
-                    <ref role="37wK5l" to="472r:5fVLlSDbfR2" resolve="JsonLanguageImporter" />
+                    <ref role="37wK5l" to="472r:5fVLlSDbfR2" resolve="JsonEditorLanguageImporter" />
                     <node concept="37vLTw" id="Z$nuwvWgU8" role="37wK5m">
                       <ref role="3cqZAo" node="Z$nuwvVOXQ" resolve="languageJson" />
                     </node>
@@ -9811,7 +9811,7 @@
                   <ref role="3cqZAo" node="2pVk74SkFmT" resolve="awaiter" />
                 </node>
                 <node concept="liA8E" id="2pVk74SkHG_" role="2OqNvi">
-                  <ref role="37wK5l" node="2pVk74SjcRy" resolve="completed" />
+                  <ref role="37wK5l" node="2pVk74SjcRy" resolve="complete" />
                 </node>
               </node>
             </node>
@@ -12537,7 +12537,7 @@
                       <ref role="3cqZAo" node="2pVk74SkIKN" resolve="awaiter" />
                     </node>
                     <node concept="liA8E" id="2pVk74SkJaZ" role="2OqNvi">
-                      <ref role="37wK5l" node="2pVk74SjcRy" resolve="completed" />
+                      <ref role="37wK5l" node="2pVk74SjcRy" resolve="complete" />
                     </node>
                   </node>
                 </node>

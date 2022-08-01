@@ -23,6 +23,7 @@ plugins {
     id "java"
     id "download-jbr"
     id "net.ossindex.audit" version "0.4.11"
+    id 'com.cosminpolifronie.gradle.plantuml' version '1.6.0'
 }
 
 group 'org.discipl'
@@ -42,6 +43,9 @@ ext {
     generatedResourcesDir = new File(resourcesDir, "generated")
     platforms = ["linux", "mac", "win"]
     current_platform = currentPlatform()
+
+    diagramsDir = new File(rootDir, "docs/diagrams")
+    diagramRendersDir = new File(diagramsDir, "renders")
 
     testFileName = "TEST-jetbrains.mps.testbench.junit.suites.AntModuleTestSuite0-execution.xml"
     flint_filler_release_version = "v0.0.5"
@@ -650,4 +654,8 @@ task fixClassPathIssues(dependsOn: ["generateScripts"]) {
         writer.write(document);
         writer.close();
     }
+}
+
+plantUml {
+    render input: "docs/diagrams/*.puml", output: "${diagramRendersDir.path}", format: 'png'
 }

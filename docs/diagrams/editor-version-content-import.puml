@@ -6,6 +6,7 @@ participant Version_Behavior as behavior
 participant PublicationParserSelector as selparser
 participant FileChooser as fchoser
 participant DocumentStructureDialog as dsdialog
+participant SourcePartMapper as spmapper
 end box
 participant SourceTextService as stservice
 participant DocumentStructureService as dsservice
@@ -19,15 +20,15 @@ behavior -> selparser : show()
 selparser -> user : PublicationParserSelector
 else
 alt parser == csv
-editor -> fchoser : show()
+behavior -> fchoser : show()
 fchoser -> user : FileChooser
-user ->editor : csvPath
-editor -> dsservice : getDocumentStructures()
-dsservice -> editor : documentStructures
-editor -> dsdialog : show()
+user ->behavior : csvPath
+behavior -> dsservice : getDocumentStructures()
+dsservice -> behavior : documentStructures
+behavior -> dsdialog : show()
 dsdialog -> user : DocumentStructureDialog
-user -> editor : documentStructure
-editor -> sourceTextService : requestSourceTextForCsv(csvPath, documentStructure)
+user -> behavior : documentStructure
+behavior -> sourceTextService : requestSourceTextForCsv(csvPath, documentStructure)
 else
 behavior -> stservice: requestSourceTextForVersionId(parser.source.id, parser.id, version.id)
 end
@@ -39,7 +40,9 @@ stservice -> behavior: requestId
     end
 behavior -> sourceTextService : getRequestResultForSourceTextForVersionId(sourceTextRequestId, publicationParser.publicationSource.id, publicationParser.id, version.id)
 sourceTextService -> behavior : sourceParts
-behavior -> editor : sourceParts
-editor -> user : sourceParts
+behavior -> spmapper : map(sourceParts)
+spmapper -> behavior : sourcePartNodes
+behavior -> editor : sourcePartNodes
+editor -> user : sourcePartNodes
 end
 @enduml

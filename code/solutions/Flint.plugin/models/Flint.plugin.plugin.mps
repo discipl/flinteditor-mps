@@ -2977,7 +2977,7 @@
           <node concept="1rXfSq" id="2vKMv35Mtp3" role="3clFbG">
             <ref role="37wK5l" node="5BwUVa5m1QD" resolve="mapLanguageToNode" />
             <node concept="37vLTw" id="2vKMv35Mtp4" role="37wK5m">
-              <ref role="3cqZAo" node="5BwUVa5mCbA" resolve="langNode" />
+              <ref role="3cqZAo" node="5BwUVa5mCbA" resolve="editorLanguageRoot" />
             </node>
             <node concept="37vLTw" id="2vKMv35Mtp5" role="37wK5m">
               <ref role="3cqZAo" node="5BwUVa5lZRu" resolve="importedLanguage" />
@@ -2996,7 +2996,7 @@
             </node>
             <node concept="2oxUTD" id="2vKMv35NeSz" role="2OqNvi">
               <node concept="37vLTw" id="2vKMv35NpKt" role="2oxUTC">
-                <ref role="3cqZAo" node="5BwUVa5mCbA" resolve="langNode" />
+                <ref role="3cqZAo" node="5BwUVa5mCbA" resolve="editorLanguageRoot" />
               </node>
             </node>
           </node>
@@ -3164,7 +3164,7 @@
                 <node concept="2OqwBi" id="2vKMv35RdGx" role="3clFbG">
                   <node concept="2OqwBi" id="2vKMv35RdGy" role="2Oq$k0">
                     <node concept="37vLTw" id="2vKMv35RdGz" role="2Oq$k0">
-                      <ref role="3cqZAo" node="2vKMv35RdGn" resolve="editorLangRef" />
+                      <ref role="3cqZAo" node="2vKMv35RdGn" resolve="interpretationLangRef" />
                     </node>
                     <node concept="3TrEf2" id="2vKMv35RdG$" role="2OqNvi">
                       <ref role="3Tt5mk" to="lnwe:3JnAoJLBJr_" resolve="target" />
@@ -3194,7 +3194,7 @@
                   </node>
                   <node concept="2oxUTD" id="2vKMv35RdGI" role="2OqNvi">
                     <node concept="37vLTw" id="2vKMv35RdGJ" role="2oxUTC">
-                      <ref role="3cqZAo" node="2vKMv35RdGn" resolve="editorLangRef" />
+                      <ref role="3cqZAo" node="2vKMv35RdGn" resolve="interpretationLangRef" />
                     </node>
                   </node>
                 </node>
@@ -6158,7 +6158,7 @@
             </node>
             <node concept="2OqwBi" id="2vKMv35$ux1" role="33vP2m">
               <node concept="37vLTw" id="2vKMv35$lCp" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35yxKK" resolve="importedLang" />
+                <ref role="3cqZAo" node="2vKMv35yxKK" resolve="importedLanguage" />
               </node>
               <node concept="liA8E" id="2vKMv35$Nby" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~Language.getEditorLanguage()" resolve="getEditorLanguage" />
@@ -6185,7 +6185,7 @@
           <node concept="2OqwBi" id="2vKMv35CAWk" role="3clFbG">
             <node concept="2OqwBi" id="2vKMv35CkgF" role="2Oq$k0">
               <node concept="37vLTw" id="2vKMv35C6E3" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35xUy2" resolve="langNode" />
+                <ref role="3cqZAo" node="2vKMv35xUy2" resolve="languageNode" />
               </node>
               <node concept="3TrEf2" id="2vKMv35Ctuj" role="2OqNvi">
                 <ref role="3Tt5mk" to="lnwe:31VUSTdxVVP" resolve="EditorLanguage" />
@@ -6193,7 +6193,7 @@
             </node>
             <node concept="2oxUTD" id="2vKMv35CMZQ" role="2OqNvi">
               <node concept="37vLTw" id="2vKMv35DfB7" role="2oxUTC">
-                <ref role="3cqZAo" node="2vKMv35kNDk" resolve="editorLangNode" />
+                <ref role="3cqZAo" node="2vKMv35kNDk" resolve="editorLanguageNode" />
               </node>
             </node>
           </node>
@@ -6202,7 +6202,7 @@
           <node concept="37vLTI" id="2vKMv35B8CD" role="3clFbG">
             <node concept="2OqwBi" id="2vKMv35Bu5x" role="37vLTx">
               <node concept="37vLTw" id="2vKMv35BiTf" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedEditorLang" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="2vKMv35BDfs" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getLanguageName()" resolve="getLanguageName" />
@@ -6210,7 +6210,7 @@
             </node>
             <node concept="2OqwBi" id="2vKMv35AKdN" role="37vLTJ">
               <node concept="37vLTw" id="2vKMv35AESG" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35xUy2" resolve="langNode" />
+                <ref role="3cqZAo" node="2vKMv35xUy2" resolve="languageNode" />
               </node>
               <node concept="3TrcHB" id="2vKMv35AXK3" role="2OqNvi">
                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
@@ -6223,7 +6223,7 @@
           <node concept="37vLTI" id="5BwUVa5m1QO" role="3clFbG">
             <node concept="2OqwBi" id="5BwUVa5m1QP" role="37vLTx">
               <node concept="37vLTw" id="5BwUVa5m1QQ" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="5BwUVa5m1QR" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getAction()" resolve="getAction" />
@@ -6251,7 +6251,7 @@
             </node>
             <node concept="2OqwBi" id="5BwUVa5m1R0" role="37vLTx">
               <node concept="37vLTw" id="5BwUVa5m1R1" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="5BwUVa5m1R2" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getActor()" resolve="getActor" />
@@ -6263,7 +6263,7 @@
           <node concept="37vLTI" id="5BwUVa5m1R4" role="3clFbG">
             <node concept="2OqwBi" id="5BwUVa5m1R5" role="37vLTx">
               <node concept="37vLTw" id="5BwUVa5m1R6" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="5BwUVa5m1R7" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getActs()" resolve="getActs" />
@@ -6283,7 +6283,7 @@
           <node concept="37vLTI" id="5BwUVa5m1Rc" role="3clFbG">
             <node concept="2OqwBi" id="5BwUVa5m1Rd" role="37vLTx">
               <node concept="37vLTw" id="5BwUVa5m1Re" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="5BwUVa5m1Rf" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getClaimant()" resolve="getClaimant" />
@@ -6303,7 +6303,7 @@
           <node concept="37vLTI" id="5BwUVa5m1Rk" role="3clFbG">
             <node concept="2OqwBi" id="5BwUVa5m1Rl" role="37vLTx">
               <node concept="37vLTw" id="5BwUVa5m1Rm" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="5BwUVa5m1Rn" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getCreate()" resolve="getCreate" />
@@ -6323,7 +6323,7 @@
           <node concept="37vLTI" id="5BwUVa5m1Rs" role="3clFbG">
             <node concept="2OqwBi" id="5BwUVa5m1Rt" role="37vLTx">
               <node concept="37vLTw" id="5BwUVa5m1Ru" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="5BwUVa5m1Rv" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getDuties()" resolve="getDuties" />
@@ -6343,7 +6343,7 @@
           <node concept="37vLTI" id="5BwUVa5m1R$" role="3clFbG">
             <node concept="2OqwBi" id="5BwUVa5m1R_" role="37vLTx">
               <node concept="37vLTw" id="5BwUVa5m1RA" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="7NvjjCVVq5G" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getEnforce()" resolve="getEnforce" />
@@ -6363,7 +6363,7 @@
           <node concept="37vLTI" id="5BwUVa5m1RG" role="3clFbG">
             <node concept="2OqwBi" id="5BwUVa5m1RH" role="37vLTx">
               <node concept="37vLTw" id="5BwUVa5m1RI" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="5BwUVa5m1RJ" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getDutyHolder()" resolve="getDutyHolder" />
@@ -6383,7 +6383,7 @@
           <node concept="37vLTI" id="5BwUVa5m1RO" role="3clFbG">
             <node concept="2OqwBi" id="5BwUVa5m1RP" role="37vLTx">
               <node concept="37vLTw" id="5BwUVa5m1RQ" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="5BwUVa5m1RR" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getExplanation()" resolve="getExplanation" />
@@ -6403,7 +6403,7 @@
           <node concept="37vLTI" id="5BwUVa5m1RW" role="3clFbG">
             <node concept="2OqwBi" id="5BwUVa5m1RX" role="37vLTx">
               <node concept="37vLTw" id="5BwUVa5m1RY" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="5BwUVa5m1RZ" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getFacts()" resolve="getFacts" />
@@ -6423,7 +6423,7 @@
           <node concept="37vLTI" id="5BwUVa5m1S4" role="3clFbG">
             <node concept="2OqwBi" id="5BwUVa5m1S5" role="37vLTx">
               <node concept="37vLTw" id="5BwUVa5m1S6" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="5BwUVa5m1S7" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getFindLineInSource()" resolve="getFindLineInSource" />
@@ -6443,7 +6443,7 @@
           <node concept="37vLTI" id="5BwUVa5m1Sc" role="3clFbG">
             <node concept="2OqwBi" id="5BwUVa5m1Sd" role="37vLTx">
               <node concept="37vLTw" id="5BwUVa5m1Se" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="5BwUVa5m1Sf" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getFunction()" resolve="getFunction" />
@@ -6463,7 +6463,7 @@
           <node concept="37vLTI" id="5BwUVa5m1Sk" role="3clFbG">
             <node concept="2OqwBi" id="5BwUVa5m1Sl" role="37vLTx">
               <node concept="37vLTw" id="5BwUVa5m1Sm" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="5BwUVa5m1Sn" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getLanguage()" resolve="getLanguage" />
@@ -6483,7 +6483,7 @@
           <node concept="37vLTI" id="5BwUVa5m1Ss" role="3clFbG">
             <node concept="2OqwBi" id="5BwUVa5m1St" role="37vLTx">
               <node concept="37vLTw" id="5BwUVa5m1Su" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="5BwUVa5m1Sv" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getName()" resolve="getName" />
@@ -6503,7 +6503,7 @@
           <node concept="37vLTI" id="5BwUVa5m1S$" role="3clFbG">
             <node concept="2OqwBi" id="5BwUVa5m1S_" role="37vLTx">
               <node concept="37vLTw" id="5BwUVa5m1SA" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="5BwUVa5m1SB" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getEObject()" resolve="getEObject" />
@@ -6523,7 +6523,7 @@
           <node concept="37vLTI" id="5BwUVa5m1SG" role="3clFbG">
             <node concept="2OqwBi" id="5BwUVa5m1SH" role="37vLTx">
               <node concept="37vLTw" id="5BwUVa5m1SI" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="5BwUVa5m1SJ" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getPrecondition()" resolve="getPrecondition" />
@@ -6543,7 +6543,7 @@
           <node concept="37vLTI" id="5BwUVa5m1SO" role="3clFbG">
             <node concept="2OqwBi" id="5BwUVa5m1SP" role="37vLTx">
               <node concept="37vLTw" id="5BwUVa5m1SQ" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="5BwUVa5m1SR" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getRecipient()" resolve="getRecipient" />
@@ -6563,7 +6563,7 @@
           <node concept="37vLTI" id="5BwUVa5m1SW" role="3clFbG">
             <node concept="2OqwBi" id="5BwUVa5m1SX" role="37vLTx">
               <node concept="37vLTw" id="5BwUVa5m1SY" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="5BwUVa5m1SZ" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getReferences()" resolve="getReferences" />
@@ -6583,7 +6583,7 @@
           <node concept="37vLTI" id="5BwUVa5m1T4" role="3clFbG">
             <node concept="2OqwBi" id="5BwUVa5m1T5" role="37vLTx">
               <node concept="37vLTw" id="5BwUVa5m1T6" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="5BwUVa5m1T7" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getSources()" resolve="getSources" />
@@ -6603,7 +6603,7 @@
           <node concept="37vLTI" id="5BwUVa5m1Tc" role="3clFbG">
             <node concept="2OqwBi" id="5BwUVa5m1Td" role="37vLTx">
               <node concept="37vLTw" id="5BwUVa5m1Te" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="5BwUVa5m1Tf" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getTerminate()" resolve="getTerminate" />
@@ -6623,7 +6623,7 @@
           <node concept="37vLTI" id="5BwUVa5m1Tk" role="3clFbG">
             <node concept="2OqwBi" id="5BwUVa5m1Tl" role="37vLTx">
               <node concept="37vLTw" id="5BwUVa5m1Tm" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="5BwUVa5m1Tn" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getText()" resolve="getText" />
@@ -6643,7 +6643,7 @@
           <node concept="37vLTI" id="5BwUVa5m1Ts" role="3clFbG">
             <node concept="2OqwBi" id="5BwUVa5m1Tt" role="37vLTx">
               <node concept="37vLTw" id="5BwUVa5m1Tu" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="5BwUVa5m1Tv" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getValidFrom()" resolve="getValidFrom" />
@@ -6663,7 +6663,7 @@
           <node concept="37vLTI" id="5BwUVa5m1T$" role="3clFbG">
             <node concept="2OqwBi" id="5BwUVa5m1T_" role="37vLTx">
               <node concept="37vLTw" id="5BwUVa5m1TA" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="5BwUVa5m1TB" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getValidTo()" resolve="getValidTo" />
@@ -6683,7 +6683,7 @@
           <node concept="37vLTI" id="6U0RkGFdzY4" role="3clFbG">
             <node concept="2OqwBi" id="6U0RkGFd_mb" role="37vLTx">
               <node concept="37vLTw" id="6U0RkGFd$K6" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="2TMFHhw$OQQ" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getTags()" resolve="getTags" />
@@ -6703,7 +6703,7 @@
           <node concept="37vLTI" id="7Azw0ZiHZ4R" role="3clFbG">
             <node concept="2OqwBi" id="7Azw0ZiHZ4S" role="37vLTx">
               <node concept="37vLTw" id="7Azw0ZiHZ4T" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="7Azw0ZiHZ4U" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getVersion()" resolve="getVersion" />
@@ -6723,7 +6723,7 @@
           <node concept="37vLTI" id="7Azw0ZiHZ4Z" role="3clFbG">
             <node concept="2OqwBi" id="7Azw0ZiHZ50" role="37vLTx">
               <node concept="37vLTw" id="7Azw0ZiHZ51" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="7Azw0ZiHZ52" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getVerified()" resolve="getVerified" />
@@ -6743,7 +6743,7 @@
           <node concept="37vLTI" id="7Azw0ZiHZ57" role="3clFbG">
             <node concept="2OqwBi" id="7Azw0ZiHZ58" role="37vLTx">
               <node concept="37vLTw" id="7Azw0ZiHZ59" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="7Azw0ZiHZ5a" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getValidated()" resolve="getValidated" />
@@ -6763,7 +6763,7 @@
           <node concept="37vLTI" id="7Azw0ZiHZ5f" role="3clFbG">
             <node concept="2OqwBi" id="7Azw0ZiHZ5g" role="37vLTx">
               <node concept="37vLTw" id="7Azw0ZiHZ5h" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="7Azw0ZiHZ5i" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getPublicized()" resolve="getPublicized" />
@@ -6783,7 +6783,7 @@
           <node concept="37vLTI" id="7Azw0ZiHZ5n" role="3clFbG">
             <node concept="2OqwBi" id="7Azw0ZiHZ5o" role="37vLTx">
               <node concept="37vLTw" id="7Azw0ZiHZ5p" role="2Oq$k0">
-                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="2vKMv35jfzq" resolve="editorLanguage" />
               </node>
               <node concept="liA8E" id="7Azw0ZiHZ5q" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getSelectVersion()" resolve="getSelectVersion" />
@@ -11581,7 +11581,7 @@
             </node>
             <node concept="3BYIHo" id="gbbh_xemd" role="2OqNvi">
               <node concept="37vLTw" id="gbbh_xewm" role="3BYIHq">
-                <ref role="3cqZAo" node="gbbh_xc2J" resolve="langNode" />
+                <ref role="3cqZAo" node="gbbh_xc2J" resolve="editorLanguageRoot" />
               </node>
             </node>
           </node>
@@ -11634,7 +11634,7 @@
               </node>
             </node>
             <node concept="37vLTw" id="gbbh_xcVL" role="37vLTJ">
-              <ref role="3cqZAo" node="gbbh_xc2J" resolve="langNode" />
+              <ref role="3cqZAo" node="gbbh_xc2J" resolve="editorLanguageRoot" />
             </node>
           </node>
         </node>
@@ -11734,14 +11734,14 @@
               <ref role="3cqZAo" node="4pyf5wBN3qD" resolve="parser" />
             </node>
             <node concept="liA8E" id="5BwUVa5bO1y" role="2OqNvi">
-              <ref role="37wK5l" node="3fOUwxyOprC" resolve="loadLanguageIntoNodeModel" />
+              <ref role="37wK5l" node="3fOUwxyOprC" resolve="loadLanguagesIntoNodeModel" />
               <node concept="37vLTw" id="344aJ4b$Det" role="37wK5m">
                 <ref role="3cqZAo" node="4pyf5wBN2tY" resolve="flintModel" />
               </node>
               <node concept="2OqwBi" id="5BwUVa5mAeU" role="37wK5m">
                 <node concept="Xjq3P" id="5BwUVa5mA0j" role="2Oq$k0" />
                 <node concept="2OwXpG" id="5BwUVa5nnoE" role="2OqNvi">
-                  <ref role="2Oxat5" node="gbbh_xc2J" resolve="langNode" />
+                  <ref role="2Oxat5" node="gbbh_xc2J" resolve="editorLanguageRoot" />
                 </node>
               </node>
               <node concept="37vLTw" id="2vKMv367oCI" role="37wK5m">
@@ -22749,7 +22749,7 @@
     </node>
     <node concept="ftmFs" id="2MJ1i4ymkF8" role="ftER_">
       <node concept="tCFHf" id="2MJ1i4ymkFb" role="ftvYc">
-        <ref role="tCJdB" node="2MJ1i4ylQeM" resolve="ImportLanguage" />
+        <ref role="tCJdB" node="2MJ1i4ylQeM" resolve="ImportEditorLanguage" />
       </node>
     </node>
   </node>
@@ -22972,7 +22972,7 @@
                       </node>
                       <node concept="2OqwBi" id="6opw4_IHzW6" role="37wK5m">
                         <node concept="2WthIp" id="6opw4_IHzW7" role="2Oq$k0">
-                          <ref role="32nkFo" node="2MJ1i4ylQeM" resolve="ImportLanguage" />
+                          <ref role="32nkFo" node="2MJ1i4ylQeM" resolve="ImportEditorLanguage" />
                         </node>
                         <node concept="1DTwFV" id="6opw4_IHzW8" role="2OqNvi">
                           <ref role="2WH_rO" node="6opw4_IFCxc" resolve="project" />
@@ -23039,11 +23039,11 @@
                                                     <node concept="3cpWsn" id="1vBqX6i$wMg" role="3cpWs9">
                                                       <property role="TrG5h" value="jsonLanguageImporter" />
                                                       <node concept="3uibUv" id="1vBqX6i$wMh" role="1tU5fm">
-                                                        <ref role="3uigEE" node="6opw4_II99W" resolve="JsonLanguageImporter" />
+                                                        <ref role="3uigEE" node="6opw4_II99W" resolve="JsonEditorLanguageImporter" />
                                                       </node>
                                                       <node concept="2ShNRf" id="1vBqX6i$wMi" role="33vP2m">
                                                         <node concept="1pGfFk" id="1vBqX6i$wMj" role="2ShVmc">
-                                                          <ref role="37wK5l" node="5fVLlSDbfR2" resolve="JsonLanguageImporter" />
+                                                          <ref role="37wK5l" node="5fVLlSDbfR2" resolve="JsonEditorLanguageImporter" />
                                                           <node concept="37vLTw" id="1vBqX6i$wMk" role="37wK5m">
                                                             <ref role="3cqZAo" node="6opw4_IHzWv" resolve="jsonString" />
                                                           </node>
@@ -23407,7 +23407,7 @@
           <node concept="37vLTI" id="5fVLlSDcEAx" role="3clFbG">
             <node concept="2OqwBi" id="5fVLlSDcEZs" role="37vLTx">
               <node concept="37vLTw" id="5fVLlSDda6o" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="5fVLlSDcFaX" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getAction()" resolve="getAction" />
@@ -23415,7 +23415,7 @@
             </node>
             <node concept="2OqwBi" id="5fVLlSDbYk_" role="37vLTJ">
               <node concept="37vLTw" id="5fVLlSDd6qy" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="5fVLlSDbY_j" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvR" resolve="eAction" />
@@ -23427,7 +23427,7 @@
           <node concept="37vLTI" id="5fVLlSDcG7m" role="3clFbG">
             <node concept="2OqwBi" id="5fVLlSDbZ8$" role="37vLTJ">
               <node concept="37vLTw" id="5fVLlSDd6x$" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="5fVLlSDbZpi" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvt" resolve="eActor" />
@@ -23435,7 +23435,7 @@
             </node>
             <node concept="2OqwBi" id="5fVLlSDcGbV" role="37vLTx">
               <node concept="37vLTw" id="5fVLlSDdabB" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="5fVLlSDcGmz" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getActor()" resolve="getActor" />
@@ -23447,7 +23447,7 @@
           <node concept="37vLTI" id="5fVLlSDcGGc" role="3clFbG">
             <node concept="2OqwBi" id="5fVLlSDcH0O" role="37vLTx">
               <node concept="37vLTw" id="5fVLlSDdajv" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="5fVLlSDcH6M" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getActs()" resolve="getActs" />
@@ -23455,7 +23455,7 @@
             </node>
             <node concept="2OqwBi" id="5fVLlSDbZW1" role="37vLTJ">
               <node concept="37vLTw" id="5fVLlSDd6Aq" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="5fVLlSDc0cJ" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvT" resolve="eActs" />
@@ -23467,7 +23467,7 @@
           <node concept="37vLTI" id="5fVLlSDcHuC" role="3clFbG">
             <node concept="2OqwBi" id="5fVLlSDcHGQ" role="37vLTx">
               <node concept="37vLTw" id="5fVLlSDdaoN" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="3b5Mgwq$1Tn" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getClaimant()" resolve="getClaimant" />
@@ -23475,7 +23475,7 @@
             </node>
             <node concept="2OqwBi" id="5fVLlSDc0Kg" role="37vLTJ">
               <node concept="37vLTw" id="5fVLlSDd6EK" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="5fVLlSDc10Y" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvP" resolve="eClaimant" />
@@ -23487,7 +23487,7 @@
           <node concept="37vLTI" id="5fVLlSDcI8G" role="3clFbG">
             <node concept="2OqwBi" id="5fVLlSDcIr9" role="37vLTx">
               <node concept="37vLTw" id="5fVLlSDdawj" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="5fVLlSDcIzj" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getCreate()" resolve="getCreate" />
@@ -23495,7 +23495,7 @@
             </node>
             <node concept="2OqwBi" id="5fVLlSDc1zX" role="37vLTJ">
               <node concept="37vLTw" id="5fVLlSDd6LO" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="5fVLlSDc1OF" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvZ" resolve="eCreate" />
@@ -23507,7 +23507,7 @@
           <node concept="37vLTI" id="5fVLlSDcIOP" role="3clFbG">
             <node concept="2OqwBi" id="5fVLlSDcJ7i" role="37vLTx">
               <node concept="37vLTw" id="5fVLlSDda_B" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="5fVLlSDcJfw" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getDuties()" resolve="getDuties" />
@@ -23515,7 +23515,7 @@
             </node>
             <node concept="2OqwBi" id="5fVLlSDc2os" role="37vLTJ">
               <node concept="37vLTw" id="5fVLlSDd6QE" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="5fVLlSDc2Da" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvD" resolve="eDuties" />
@@ -23527,7 +23527,7 @@
           <node concept="37vLTI" id="5fVLlSDcJlX" role="3clFbG">
             <node concept="2OqwBi" id="5fVLlSDcJB6" role="37vLTx">
               <node concept="37vLTw" id="5fVLlSDdaEV" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="7NvjjCVVeoh" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getEnforce()" resolve="getEnforce" />
@@ -23535,7 +23535,7 @@
             </node>
             <node concept="2OqwBi" id="5fVLlSDc3cb" role="37vLTJ">
               <node concept="37vLTw" id="5fVLlSDd6Vw" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="5fVLlSDc3sV" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvh" resolve="eEnforce" />
@@ -23547,7 +23547,7 @@
           <node concept="37vLTI" id="5fVLlSDcJTY" role="3clFbG">
             <node concept="2OqwBi" id="5fVLlSDcKaA" role="37vLTx">
               <node concept="37vLTw" id="5fVLlSDdaMr" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="3b5Mgwq$28O" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getDutyHolder()" resolve="getDutyHolder" />
@@ -23555,7 +23555,7 @@
             </node>
             <node concept="2OqwBi" id="5fVLlSDc40W" role="37vLTJ">
               <node concept="37vLTw" id="5fVLlSDd72y" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="5fVLlSDc4hE" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvF" resolve="eDutyHolder" />
@@ -23567,7 +23567,7 @@
           <node concept="37vLTI" id="5fVLlSDcKn5" role="3clFbG">
             <node concept="2OqwBi" id="5fVLlSDcKVi" role="37vLTx">
               <node concept="37vLTw" id="5fVLlSDdaRJ" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="5fVLlSDcL3s" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getExplanation()" resolve="getExplanation" />
@@ -23575,7 +23575,7 @@
             </node>
             <node concept="2OqwBi" id="5fVLlSDc4PN" role="37vLTJ">
               <node concept="37vLTw" id="5fVLlSDd77o" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="5fVLlSDc56x" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvp" resolve="eExplanation" />
@@ -23587,7 +23587,7 @@
           <node concept="37vLTI" id="5fVLlSDcLc2" role="3clFbG">
             <node concept="2OqwBi" id="5fVLlSDcLsE" role="37vLTx">
               <node concept="37vLTw" id="5fVLlSDdaX3" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="5fVLlSDcL$O" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getFacts()" resolve="getFacts" />
@@ -23595,7 +23595,7 @@
             </node>
             <node concept="2OqwBi" id="5fVLlSDc5E$" role="37vLTJ">
               <node concept="37vLTw" id="5fVLlSDd7ce" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="5fVLlSDc5Vk" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvf" resolve="eFacts" />
@@ -23607,7 +23607,7 @@
           <node concept="37vLTI" id="5fVLlSDcLDd" role="3clFbG">
             <node concept="2OqwBi" id="5fVLlSDcLWy" role="37vLTx">
               <node concept="37vLTw" id="5fVLlSDdb4z" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="3b5Mgwq$2bi" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getFindLineInSource()" resolve="getFindLineInSource" />
@@ -23615,7 +23615,7 @@
             </node>
             <node concept="2OqwBi" id="5fVLlSDc6CH" role="37vLTJ">
               <node concept="37vLTw" id="5fVLlSDd7jg" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="5fVLlSDc6Tt" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvr" resolve="eFindLineInSource" />
@@ -23627,7 +23627,7 @@
           <node concept="37vLTI" id="5fVLlSDcMdm" role="3clFbG">
             <node concept="2OqwBi" id="5fVLlSDcMwF" role="37vLTx">
               <node concept="37vLTw" id="5fVLlSDdb9M" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="5fVLlSDcMCP" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getFunction()" resolve="getFunction" />
@@ -23635,7 +23635,7 @@
             </node>
             <node concept="2OqwBi" id="5fVLlSDc7tK" role="37vLTJ">
               <node concept="37vLTw" id="5fVLlSDd7o6" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="5fVLlSDc7Iw" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvj" resolve="eFunction" />
@@ -23647,7 +23647,7 @@
           <node concept="37vLTI" id="5fVLlSDcMHi" role="3clFbG">
             <node concept="2OqwBi" id="5fVLlSDcMWo" role="37vLTx">
               <node concept="37vLTw" id="5fVLlSDdbfu" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="5fVLlSDcN4y" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getLanguage()" resolve="getLanguage" />
@@ -23655,7 +23655,7 @@
             </node>
             <node concept="2OqwBi" id="5fVLlSDc89H" role="37vLTJ">
               <node concept="37vLTw" id="5fVLlSDd7ss" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="5fVLlSDc8qt" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvb" resolve="eLanguage" />
@@ -23667,7 +23667,7 @@
           <node concept="37vLTI" id="5fVLlSDcNbd" role="3clFbG">
             <node concept="2OqwBi" id="5fVLlSDcNo7" role="37vLTx">
               <node concept="37vLTw" id="5fVLlSDdbmY" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="5fVLlSDcNwh" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getName()" resolve="getName" />
@@ -23675,7 +23675,7 @@
             </node>
             <node concept="2OqwBi" id="5fVLlSDc8Q0" role="37vLTJ">
               <node concept="37vLTw" id="5fVLlSDd7zw" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="5fVLlSDc98e" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvl" resolve="eName" />
@@ -23687,7 +23687,7 @@
           <node concept="37vLTI" id="5fVLlSDcND1" role="3clFbG">
             <node concept="2OqwBi" id="5fVLlSDcNWm" role="37vLTx">
               <node concept="37vLTw" id="5fVLlSDdbsi" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="5fVLlSDcO4w" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getEObject()" resolve="getEObject" />
@@ -23695,7 +23695,7 @@
             </node>
             <node concept="2OqwBi" id="5fVLlSDc9zp" role="37vLTJ">
               <node concept="37vLTw" id="5fVLlSDd7Cm" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="5fVLlSDc9AV" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvV" resolve="eObject" />
@@ -23707,7 +23707,7 @@
           <node concept="37vLTI" id="5fVLlSDcO94" role="3clFbG">
             <node concept="2OqwBi" id="5fVLlSDcOsp" role="37vLTx">
               <node concept="37vLTw" id="5fVLlSDdbxA" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="5fVLlSDcO$z" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getPrecondition()" resolve="getPrecondition" />
@@ -23715,7 +23715,7 @@
             </node>
             <node concept="2OqwBi" id="5fVLlSDc9Xo" role="37vLTJ">
               <node concept="37vLTw" id="5fVLlSDd7Hc" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="5fVLlSDca1q" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUv_" resolve="ePreconditions" />
@@ -23727,7 +23727,7 @@
           <node concept="37vLTI" id="5fVLlSDcOD8" role="3clFbG">
             <node concept="2OqwBi" id="5fVLlSDcOWt" role="37vLTx">
               <node concept="37vLTw" id="5fVLlSDdbAP" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="5fVLlSDcP4B" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getRecipient()" resolve="getRecipient" />
@@ -23735,7 +23735,7 @@
             </node>
             <node concept="2OqwBi" id="5fVLlSDcaa$" role="37vLTJ">
               <node concept="37vLTw" id="5fVLlSDd7Oe" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="5fVLlSDcawU" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvd" resolve="eRecipient" />
@@ -23747,7 +23747,7 @@
           <node concept="37vLTI" id="5fVLlSDcP9e" role="3clFbG">
             <node concept="2OqwBi" id="5fVLlSDcPsz" role="37vLTx">
               <node concept="37vLTw" id="5fVLlSDdbIH" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="5fVLlSDcP$H" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getReferences()" resolve="getReferences" />
@@ -23755,7 +23755,7 @@
             </node>
             <node concept="2OqwBi" id="5fVLlSDcacA" role="37vLTJ">
               <node concept="37vLTw" id="5fVLlSDd7T4" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="5fVLlSDca$6" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvz" resolve="eReferences" />
@@ -23767,7 +23767,7 @@
           <node concept="37vLTI" id="5fVLlSDcPDm" role="3clFbG">
             <node concept="2OqwBi" id="5fVLlSDcQ0p" role="37vLTx">
               <node concept="37vLTw" id="5fVLlSDdbO1" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="5fVLlSDcQ6n" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getSources()" resolve="getSources" />
@@ -23775,7 +23775,7 @@
             </node>
             <node concept="2OqwBi" id="5fVLlSDcaeG" role="37vLTJ">
               <node concept="37vLTw" id="5fVLlSDd7XU" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="5fVLlSDca_6" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvH" resolve="eSources" />
@@ -23787,7 +23787,7 @@
           <node concept="37vLTI" id="5fVLlSDcQb2" role="3clFbG">
             <node concept="2OqwBi" id="5fVLlSDcQun" role="37vLTx">
               <node concept="37vLTw" id="5fVLlSDdbVx" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="5fVLlSDcQAx" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getTerminate()" resolve="getTerminate" />
@@ -23795,7 +23795,7 @@
             </node>
             <node concept="2OqwBi" id="5fVLlSDcajG" role="37vLTJ">
               <node concept="37vLTw" id="5fVLlSDd84W" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="5fVLlSDcaFk" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUw3" resolve="eTerminate" />
@@ -23807,7 +23807,7 @@
           <node concept="37vLTI" id="5fVLlSDcQFf" role="3clFbG">
             <node concept="2OqwBi" id="5fVLlSDcR06" role="37vLTx">
               <node concept="37vLTw" id="5fVLlSDdc0P" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="5fVLlSDcR8g" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getText()" resolve="getText" />
@@ -23815,7 +23815,7 @@
             </node>
             <node concept="2OqwBi" id="5fVLlSDcald" role="37vLTJ">
               <node concept="37vLTw" id="5fVLlSDd89M" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="5fVLlSDcaGk" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvJ" resolve="eText" />
@@ -23827,7 +23827,7 @@
           <node concept="37vLTI" id="5fVLlSDcRhf" role="3clFbG">
             <node concept="2OqwBi" id="5fVLlSDcRA6" role="37vLTx">
               <node concept="37vLTw" id="5fVLlSDdc69" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="3b5Mgwq$2dO" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getValidFrom()" resolve="getValidFrom" />
@@ -23835,7 +23835,7 @@
             </node>
             <node concept="2OqwBi" id="5fVLlSDcamM" role="37vLTJ">
               <node concept="37vLTw" id="5fVLlSDd8eC" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="5fVLlSDcaLL" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvv" resolve="eValidFrom" />
@@ -23847,7 +23847,7 @@
           <node concept="37vLTI" id="5fVLlSDcS2M" role="3clFbG">
             <node concept="2OqwBi" id="5fVLlSDcSjq" role="37vLTx">
               <node concept="37vLTw" id="5fVLlSDdcdD" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="3b5Mgwq$2jp" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getValidTo()" resolve="getValidTo" />
@@ -23855,7 +23855,7 @@
             </node>
             <node concept="2OqwBi" id="5fVLlSDcE5w" role="37vLTJ">
               <node concept="37vLTw" id="5fVLlSDd8pT" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="5fVLlSDcRVq" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvN" resolve="eValidTo" />
@@ -23867,7 +23867,7 @@
           <node concept="37vLTI" id="6U0RkGFe57L" role="3clFbG">
             <node concept="2OqwBi" id="6U0RkGFe5vu" role="37vLTx">
               <node concept="37vLTw" id="6U0RkGF$Y1u" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="6U0RkGF$Y9s" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getTags()" resolve="getTags" />
@@ -23875,7 +23875,7 @@
             </node>
             <node concept="2OqwBi" id="6U0RkGFe4tq" role="37vLTJ">
               <node concept="37vLTw" id="6U0RkGFe41K" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="6U0RkGF$XHW" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvn" resolve="eTags" />
@@ -23887,7 +23887,7 @@
           <node concept="37vLTI" id="7Azw0ZiHBv5" role="3clFbG">
             <node concept="2OqwBi" id="7Azw0ZiHBSQ" role="37vLTx">
               <node concept="37vLTw" id="7Azw0ZiHBEP" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="7Azw0ZiHC7G" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getVersion()" resolve="getVersion" />
@@ -23895,7 +23895,7 @@
             </node>
             <node concept="2OqwBi" id="7Azw0ZiHARn" role="37vLTJ">
               <node concept="37vLTw" id="7Azw0ZiHAoS" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="7Azw0ZiHBal" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvL" resolve="eVersion" />
@@ -23907,7 +23907,7 @@
           <node concept="37vLTI" id="7Azw0ZiHFwe" role="3clFbG">
             <node concept="2OqwBi" id="7Azw0ZiHFWl" role="37vLTx">
               <node concept="37vLTw" id="7Azw0ZiHFIk" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="7Azw0ZiHG8D" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getVerified()" resolve="getVerified" />
@@ -23915,7 +23915,7 @@
             </node>
             <node concept="2OqwBi" id="7Azw0ZiHDMj" role="37vLTJ">
               <node concept="37vLTw" id="7Azw0ZiHDje" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="7Azw0ZiHFbu" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvB" resolve="eVerified" />
@@ -23927,7 +23927,7 @@
           <node concept="37vLTI" id="7Azw0ZiHHJK" role="3clFbG">
             <node concept="2OqwBi" id="7Azw0ZiHI7K" role="37vLTx">
               <node concept="37vLTw" id="7Azw0ZiHHV3" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="7Azw0ZiHIk4" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getValidated()" resolve="getValidated" />
@@ -23935,7 +23935,7 @@
             </node>
             <node concept="2OqwBi" id="7Azw0ZiHHhw" role="37vLTJ">
               <node concept="37vLTw" id="7Azw0ZiHGMl" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="7Azw0ZiHHp7" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUw1" resolve="eValidated" />
@@ -23947,7 +23947,7 @@
           <node concept="37vLTI" id="7Azw0ZiHJPd" role="3clFbG">
             <node concept="2OqwBi" id="7Azw0ZiHKda" role="37vLTx">
               <node concept="37vLTw" id="7Azw0ZiHK3j" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="7Azw0ZiHKs0" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getPublicized()" resolve="getPublicized" />
@@ -23955,7 +23955,7 @@
             </node>
             <node concept="2OqwBi" id="7Azw0ZiHJqi" role="37vLTJ">
               <node concept="37vLTw" id="7Azw0ZiHIZ9" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="7Azw0ZiHJu$" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvx" resolve="ePublicized" />
@@ -23967,7 +23967,7 @@
           <node concept="37vLTI" id="7Azw0ZiHMmq" role="3clFbG">
             <node concept="2OqwBi" id="7Azw0ZiHMIR" role="37vLTx">
               <node concept="37vLTw" id="7Azw0ZiHM$w" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedLanguage" />
+                <ref role="3cqZAo" node="5fVLlSDd3ft" resolve="importedEditorLanguage" />
               </node>
               <node concept="liA8E" id="7Azw0ZiHMXx" role="2OqNvi">
                 <ref role="37wK5l" to="5qsh:~EditorLanguage.getSelectVersion()" resolve="getSelectVersion" />
@@ -23975,7 +23975,7 @@
             </node>
             <node concept="2OqwBi" id="7Azw0ZiHLXm" role="37vLTJ">
               <node concept="37vLTw" id="7Azw0ZiHLxB" role="2Oq$k0">
-                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="languageNode" />
+                <ref role="3cqZAo" node="5fVLlSDd1FQ" resolve="editorLanguageNode" />
               </node>
               <node concept="3TrcHB" id="7Azw0ZiHM1E" role="2OqNvi">
                 <ref role="3TsBF5" to="lnwe:31VUSTdyUvX" resolve="eSelectVersion" />
@@ -25162,7 +25162,7 @@
                                                       <node concept="liA8E" id="1vBqX6iSCtF" role="2OqNvi">
                                                         <ref role="37wK5l" to="k3nr:~MPSEditorOpener.openNode(org.jetbrains.mps.openapi.model.SNode,boolean,boolean)" resolve="openNode" />
                                                         <node concept="37vLTw" id="3rYJ9DgEn6R" role="37wK5m">
-                                                          <ref role="3cqZAo" node="3rYJ9DgEke9" resolve="lawSourceVersion" />
+                                                          <ref role="3cqZAo" node="3rYJ9DgEke9" resolve="lawVersion" />
                                                         </node>
                                                         <node concept="3clFbT" id="1vBqX6iSDxu" role="37wK5m">
                                                           <property role="3clFbU" value="true" />
@@ -35960,7 +35960,7 @@
           <node concept="2OqwBi" id="3FsRXa7tZVs" role="3clFbG">
             <node concept="2OqwBi" id="3FsRXa7tZVt" role="2Oq$k0">
               <node concept="37vLTw" id="3FsRXa7tZVu" role="2Oq$k0">
-                <ref role="3cqZAo" node="3rYJ9DgDU5Z" resolve="lawSourceVersion" />
+                <ref role="3cqZAo" node="3rYJ9DgDU5Z" resolve="lawVersion" />
               </node>
               <node concept="3Tsc0h" id="3FsRXa7tZVv" role="2OqNvi">
                 <ref role="3TtcxE" to="srlv:7xM0MUaGta5" resolve="lines" />
@@ -35988,7 +35988,7 @@
                             <node concept="liA8E" id="3FsRXa7tZVG" role="2OqNvi">
                               <ref role="37wK5l" node="6y0JmBZ0Uog" resolve="toSourcePart" />
                               <node concept="37vLTw" id="3FsRXa7tZVH" role="37wK5m">
-                                <ref role="3cqZAo" node="3rYJ9DgDU5Z" resolve="lawSourceVersion" />
+                                <ref role="3cqZAo" node="3rYJ9DgDU5Z" resolve="lawVersion" />
                               </node>
                             </node>
                           </node>
@@ -36008,7 +36008,7 @@
         </node>
         <node concept="3clFbF" id="3FsRXa7uaBl" role="3cqZAp">
           <node concept="37vLTw" id="3FsRXa7uaBj" role="3clFbG">
-            <ref role="3cqZAo" node="3rYJ9DgDU5Z" resolve="lawSourceVersion" />
+            <ref role="3cqZAo" node="3rYJ9DgDU5Z" resolve="lawVersion" />
           </node>
         </node>
       </node>
