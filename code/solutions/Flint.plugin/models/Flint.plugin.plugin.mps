@@ -10534,6 +10534,37 @@
           <ref role="3uigEE" to="wyt6:~Runnable" resolve="Runnable" />
         </node>
       </node>
+      <node concept="P$JXv" id="6JhtKCOYOoY" role="lGtFl">
+        <node concept="TZ5HA" id="6JhtKCOYOoZ" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOYOp0" role="1dT_Ay">
+            <property role="1dT_AB" value="This function makes it possible to run functions in the background per MPS/Jetbrains standard" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOYOp1" role="3nqlJM">
+          <property role="TUZQ4" value="Project in which the task should run" />
+          <node concept="zr_55" id="6JhtKCOYOp3" role="zr_5Q">
+            <ref role="zr_51" node="69gSqIzGlek" resolve="project" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOYOp4" role="3nqlJM">
+          <property role="TUZQ4" value="Name of the task" />
+          <node concept="zr_55" id="6JhtKCOYOp6" role="zr_5Q">
+            <ref role="zr_51" node="69gSqIzGlem" resolve="name" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOYOp7" role="3nqlJM">
+          <property role="TUZQ4" value="Inital task to run" />
+          <node concept="zr_55" id="6JhtKCOYOp9" role="zr_5Q">
+            <ref role="zr_51" node="69gSqIzGleo" resolve="task" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOYOpa" role="3nqlJM">
+          <property role="TUZQ4" value="Task to run on succes" />
+          <node concept="zr_55" id="6JhtKCOYOpc" role="zr_5Q">
+            <ref role="zr_51" node="69gSqIzI0GX" resolve="onSuccess" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="4Y4T$M$YejQ" role="jymVt" />
     <node concept="2YIFZL" id="5xrYknnsDjM" role="jymVt">
@@ -20418,6 +20449,30 @@
         <property role="TrG5h" value="articlePart" />
         <node concept="3Tqbb2" id="6ytzK$sv$RT" role="1tU5fm">
           <ref role="ehGHo" to="srlv:7xM0MUaGt9V" resolve="SourcePart" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="6JhtKCOYaox" role="lGtFl">
+        <node concept="TZ5HA" id="6JhtKCOYaoy" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOYaoz" role="1dT_Ay">
+            <property role="1dT_AB" value="When split is used on a SourcePart this function tries to split the referenced FlintSources and creates new ones." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6JhtKCOYjED" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOYjEE" role="1dT_Ay">
+            <property role="1dT_AB" value="This is done to make de imported FlintSources consistent with the SourceParts in LawSource. " />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOYao$" role="3nqlJM">
+          <property role="TUZQ4" value="FlintSource containing the line to be split" />
+          <node concept="zr_55" id="6JhtKCOYaoA" role="zr_5Q">
+            <ref role="zr_51" node="6ytzK$sv$Bo" resolve="sourceRef" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOYaoB" role="3nqlJM">
+          <property role="TUZQ4" value="SourcePart containing the line to be split" />
+          <node concept="zr_55" id="6JhtKCOYaoD" role="zr_5Q">
+            <ref role="zr_51" node="6ytzK$sv$D7" resolve="articlePart" />
+          </node>
         </node>
       </node>
     </node>
