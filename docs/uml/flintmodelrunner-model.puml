@@ -1,4 +1,5 @@
 @startuml FlintRunner-Model
+title FlintRunner Model
 skinparam nodesep 50
 skinparam ranksep 75
 

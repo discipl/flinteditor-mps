@@ -1,8 +1,12 @@
 @startuml FlintModel-Model
+title FlintModel Model
 skinparam nodesep 50
 skinparam ranksep 150
 
 interface "Flint.structure.IFlintModel" <INamedConcept>
+"Flint.structure.IFlintModel" : nlist<Fact> getFacts()
+"Flint.structure.IFlintModel" : nlist<Act> getActs()
+"Flint.structure.IFlintModel" : nlist<Duty> getDuties()
 interface "Flint.structure.IHasLanguage" <INamedConcept>
 interface "FlintCellModels.structure.IProvidesTranslatedCell" 
 interface "Flint.structure.IUniquelyName" <INamedConcept>

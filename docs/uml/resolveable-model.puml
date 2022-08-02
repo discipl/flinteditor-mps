@@ -1,4 +1,5 @@
 @startuml Resolveable-Model
+title Resolveable Model
 skinparam nodesep 50
 skinparam ranksep 100
 skinparam groupInheritance 3
