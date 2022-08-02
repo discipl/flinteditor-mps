@@ -7,6 +7,11 @@ This is an experimental project exploring the viability of a visual FLINT editor
 3. Run `gradlew initProject`
 4. Start the ide for your specific platform. The executables are locatied in `build/mps/bin`
 
+The project consists of 3 code bases
+1. MPS located in `code` contains the custom Flint and Lawsource language. Some helper languages can also be found in here.
+2. FlintParser located in `code/java/FlintParser` contains the logic for importing models and the FlintFiller.
+3. FlintSources located in `code/java/FlintSources` contains the logic for importing and parsing sources.
+
 ### Audit
 To use the audit feature add the following keys / values to the local.properties file with the values from [OSS](https://ossindex.sonatype.org/user/settings)
 ```aidl

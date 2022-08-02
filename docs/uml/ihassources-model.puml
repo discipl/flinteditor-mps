@@ -1,0 +1,48 @@
+@startuml IHasSources-Model
+title IHasSources Model
+skinparam nodesep 50
+skinparam ranksep 75
+
+interface "FlintCellModels.structure.IProvidesTranslatedCell" 
+interface "Flint.structure.IExplainable" 
+"Flint.structure.IExplainable" : explanation : string
+interface "FlintCellModels.structure.IProvidesRoleTagsCell" 
+interface "Flint.structure.IHasLanguage" <INamedConcept>
+interface "Flint.structure.IHasSources" 
+interface "de.slisson.mps.richtext.structure.IWord"
+class "Flint.structure.Fact"  << (R, lightgrey) >>
+class "Flint.structure.Act"  << (R, lightgrey) >>
+class "Flint.structure.Duty"  << (R, lightgrey) >> 
+class "Flint.structure.FlintSource"  
+"Flint.structure.FlintSource" : language : string
+"Flint.structure.FlintSource" : textId : string
+"Flint.structure.FlintSource" : textSourceName : string
+class "de.slisson.mps.richtext.structure.Text"  
+class "Flint.structure.CustomText"  
+class "Flint.structure.TranslatedName"  
+"Flint.structure.TranslatedName" : language : string
+"Flint.structure.TranslatedName" : translatedName : string
+class "Flint.structure.TaggedWord"
+class "Flint.structure.SRole"  
+"Flint.structure.SRole" : role : ERole
+class "de.slisson.mps.richtext.structure.Word"  
+"de.slisson.mps.richtext.structure.Word" : escapedValue : string
+
+"Flint.structure.IHasSources" <|.. "Flint.structure.Fact"
+"Flint.structure.IHasSources" <|.. "Flint.structure.Act"
+"Flint.structure.IHasSources" <|.. "Flint.structure.Duty"
+"de.slisson.mps.richtext.structure.IWord" <|.. "de.slisson.mps.richtext.structure.Word"
+"de.slisson.mps.richtext.structure.Word" <|-- "Flint.structure.TaggedWord"
+"Flint.structure.TaggedWord" "1" *-- "1..n" "Flint.structure.SRole" : roles
+"FlintCellModels.structure.IProvidesTranslatedCell" <|.. "Flint.structure.IExplainable"
+"FlintCellModels.structure.IProvidesTranslatedCell" <|.. "Flint.structure.IHasLanguage"
+"FlintCellModels.structure.IProvidesRoleTagsCell" <|.. "Flint.structure.IHasSources"
+"Flint.structure.IExplainable" <|.. "Flint.structure.FlintSource"
+"Flint.structure.IHasLanguage" <|.. "Flint.structure.FlintSource"
+"de.slisson.mps.richtext.structure.Text" <|-- "Flint.structure.CustomText"
+"Flint.structure.FlintSource" "1" *-- "1" "Flint.structure.CustomText" : betterText
+"Flint.structure.IHasLanguage" "1" *-- "0..n" "Flint.structure.TranslatedName" : translatedNames
+"de.slisson.mps.richtext.structure.Text" "1" *-- "1..n" "de.slisson.mps.richtext.structure.IWord" : words
+"Flint.structure.IHasSources" "1" *-- "0..n" "Flint.structure.FlintSource" : sources
+
+@enduml
