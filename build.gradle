@@ -23,6 +23,7 @@ plugins {
     id "java"
     id "download-jbr"
     id "net.ossindex.audit" version "0.4.11"
+    id 'com.cosminpolifronie.gradle.plantuml' version '1.6.0'
 }
 
 group 'org.discipl'
@@ -368,6 +369,7 @@ def currentPlatform() {
 task initProject() {
     group "project"
     dependsOn(resolveMps)
+    dependsOn("installLocalGitHook")
     dependsOn(resolveLibs)
     dependsOn(resolveArtifacts)
     dependsOn(resolvePlatformLibs)
@@ -650,4 +652,14 @@ task fixClassPathIssues(dependsOn: ["generateScripts"]) {
         writer.write(document);
         writer.close();
     }
+}
+
+plantUml {
+    render input: "docs/uml/*.puml", output: "${rootProject.rootDir.path}/docs/uml/renders", format: 'png'
+}
+
+task installLocalGitHook(type: Copy){
+    from new File(rootProject.rootDir, 'scripts/pre-commit')
+    into { new File(rootProject.rootDir, '.git/hooks')}
+    fileMode 0775
 }
