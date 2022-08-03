@@ -6,6 +6,9 @@ import io.ktor.client.call.*
 import io.ktor.client.statement.*
 import org.discipl.flint.sources.clients.AsyncTextLineClient
 
+/**
+ * The [BaseNsxTextLineClient] for TriplyDB
+ */
 class TriplyNsxTextLineClient(httpClient: HttpClient) :
     BaseNsxTextLineClient<TriplyNsxTextLineClient.TriplyTextLine>(httpClient) {
     data class TriplyTextLine(

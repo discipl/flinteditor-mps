@@ -2,6 +2,10 @@ package org.discipl.flint.sources.models.parts
 
 import org.discipl.flint.sources.models.SourcePartVisitor
 
+/**
+ * A Table
+ * Its children are usually [TableGroup]s
+ */
 data class Table(
     override val id: String, override val tag: String, override val index: Int, override val children: List<SourcePart>
 ) : Container {
@@ -10,6 +14,10 @@ data class Table(
     }
 }
 
+/**
+ * A Table Head
+ * Its children are usually [TableRow]s
+ */
 data class TableHead(
     override val id: String, override val tag: String, override val index: Int, override val children: List<SourcePart>
 ) : Container {
@@ -18,6 +26,10 @@ data class TableHead(
     }
 }
 
+/**
+ * A Table Group
+ * Its children are usually one [TableHead] and one [TableBody]
+ */
 data class TableGroup(
     override val id: String, override val tag: String, override val index: Int, override val children: List<SourcePart>
 ) : Container {
@@ -28,7 +40,10 @@ data class TableGroup(
     }
 }
 
-
+/**
+ * A Table Row
+ * It's children are usually [Container]s
+ */
 data class TableRow(
     override val id: String, override val tag: String, override val index: Int, override val children: List<SourcePart>
 ) : Container {
@@ -37,6 +52,10 @@ data class TableRow(
     }
 }
 
+/**
+ * A Table Body
+ * Its children are usually [TableRow]s
+ */
 data class TableBody(
     override val id: String, override val tag: String, override val index: Int, override val children: List<SourcePart>
 ) : Container {

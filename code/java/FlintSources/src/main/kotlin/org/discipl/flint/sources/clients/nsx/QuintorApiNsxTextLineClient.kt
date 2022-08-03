@@ -6,6 +6,9 @@ import io.ktor.client.call.*
 import io.ktor.client.statement.*
 import org.discipl.flint.sources.clients.AsyncTextLineClient
 
+/**
+ * The [BaseNsxTextLineClient] for the Quintor API
+ */
 open class QuintorApiNsxTextLineClient(httpClient: HttpClient) :
     BaseNsxTextLineClient<QuintorApiNsxTextLineClient.QuintorApiNsxTextLine>(httpClient) {
     data class QuintorApiNsxTextLine(

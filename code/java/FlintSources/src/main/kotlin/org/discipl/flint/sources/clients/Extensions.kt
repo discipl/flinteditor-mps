@@ -15,6 +15,11 @@ fun ResultSet.toList(): List<QuerySolution> {
     return result
 }
 
+fun ResultSet.toSolutionOrNull(): QuerySolution? {
+    if (!this.hasNext()) return null
+    return this.next()
+}
+
 public suspend inline fun <reified T> HttpClient.postJson(
     urlString: String,
     block: HttpRequestBuilder.() -> Unit = {}

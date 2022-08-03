@@ -6,6 +6,9 @@ import org.discipl.flint.sources.services.SourceTextService
 import java.nio.file.Path
 import java.util.*
 
+/**
+ * See [SourceTextService]
+ */
 class NsxSourceTextService(
     private val clients: Map<UUID, NsxTransformingClient<*>>,
     private val defaultClient: NsxTransformingClient<*>,

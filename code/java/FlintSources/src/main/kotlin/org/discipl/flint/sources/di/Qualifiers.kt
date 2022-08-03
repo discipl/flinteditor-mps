@@ -2,6 +2,9 @@ package org.discipl.flint.sources.di
 
 import org.koin.core.qualifier.named
 
+/**
+ * [org.koin.core.qualifier.Qualifier]s are used to fetch specific instances from the dependency injection container.
+ */
 object KoinQualifiers {
     val timeOutInMs = named("time-out-in-ms")
     val defaultNsxClient = named("default-nsx-client")

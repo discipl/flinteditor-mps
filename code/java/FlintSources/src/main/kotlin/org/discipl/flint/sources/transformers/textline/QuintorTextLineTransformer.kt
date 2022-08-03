@@ -126,6 +126,10 @@ class QuintorTextLineTransformer : TextLineTransformer<QuintorApiNsxTextLine> {
         }
     }
 
+    /**
+     * Iterable with that orders the given [siblings] by their nexts in reverse.
+     * This is done in reverse because it's easier to find the last sibling than the first
+     */
     class TextLineReversedSiblingIterable(private val siblings: List<QuintorApiNsxTextLine>) :
         Iterable<QuintorApiNsxTextLine> {
         override fun iterator(): Iterator<QuintorApiNsxTextLine> {

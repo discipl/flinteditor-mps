@@ -15,7 +15,7 @@ class TriplyTextLineTransformer : TextLineTransformer<TriplyTextLine> {
     companion object : KLogging()
 
     /**
-     * Order is import here
+     * Order is import here because some lines may have multiple [SourcePartTypeTransformer] that apply.
      */
     private val transformers = listOf(
         PrefixContainerTransformer(),
@@ -42,6 +42,9 @@ class TriplyTextLineTransformer : TextLineTransformer<TriplyTextLine> {
         return result
     }
 
+    /**
+     * Uses the first applicable [SourcePartTypeTransformer] from [transformers] to transform the given [line]
+     */
     private fun transform(line: TriplyTextLine, remainingLines: MutableList<TriplyTextLine>): SourcePart {
         remainingLines.remove(line)
         val transformer = transformers.firstOrNull { it.shouldApply(line, remainingLines) } ?: throw IllegalArgumentException("Can't deserialize text line: $line")
@@ -52,6 +55,11 @@ class TriplyTextLineTransformer : TextLineTransformer<TriplyTextLine> {
         return TextLineReversedSiblingIterable(this).reversed()
     }
 
+    /**
+     * Iterable with that tries to order the given [siblings] by their nexts in reverse.
+     * Failing that it reverse orders them by their prefix.
+     * This is done in reverse because it's easier to find the last sibling than the first
+     */
     class TextLineReversedSiblingIterable(private val siblings: List<TriplyTextLine>) : Iterable<TriplyTextLine> {
         override fun iterator(): Iterator<TriplyTextLine> {
             return TextLineReversedSiblingIterator(siblings)
@@ -73,11 +81,24 @@ class TriplyTextLineTransformer : TextLineTransformer<TriplyTextLine> {
         }
     }
 
+    /**
+     * Handle transforming a specific [SourcePart] type
+     */
     interface SourcePartTypeTransformer<SP : SourcePart, TL : AsyncTextLineClient.TextLine> {
+        /**
+         * Returns whether this [SourcePartTypeTransformer] should apply to the given [textLine]
+         */
         fun shouldApply(textLine: TL, remainingLines: MutableList<TL>): Boolean
+
+        /**
+         * Transforms the given [textLine] to a [SourcePart] of type [SP]
+         */
         fun apply(textLine: TL, remainingLines: MutableList<TL>): SP
     }
 
+    /**
+     * See [SourcePartTypeTransformer]
+     */
     inner class TextLineTransformer : SourcePartTypeTransformer<TextLine, TriplyTextLine> {
         override fun shouldApply(textLine: TriplyTextLine, remainingLines: MutableList<TriplyTextLine>): Boolean {
             return textLine.text != null
@@ -93,6 +114,9 @@ class TriplyTextLineTransformer : TextLineTransformer<TriplyTextLine> {
         }
     }
 
+    /**
+     * See [SourcePartTypeTransformer]
+     */
     inner class ContainerTransformer : SourcePartTypeTransformer<Container, TriplyTextLine> {
         private val textLineTransformer = TextLineTransformer()
         override fun shouldApply(textLine: TriplyTextLine, remainingLines: MutableList<TriplyTextLine>): Boolean {
@@ -125,6 +149,9 @@ class TriplyTextLineTransformer : TextLineTransformer<TriplyTextLine> {
         }
     }
 
+    /**
+     * See [SourcePartTypeTransformer]
+     */
     inner class PrefixContainerTransformer : SourcePartTypeTransformer<PrefixContainer, TriplyTextLine> {
         private val textLineTransformer = TextLineTransformer()
         override fun shouldApply(textLine: TriplyTextLine, remainingLines: MutableList<TriplyTextLine>): Boolean {
@@ -152,6 +179,9 @@ class TriplyTextLineTransformer : TextLineTransformer<TriplyTextLine> {
         }
     }
 
+    /**
+     * See [SourcePartTypeTransformer]
+     */
     inner class TableTransformer : SourcePartTypeTransformer<Table, TriplyTextLine> {
         override fun shouldApply(textLine: TriplyTextLine, remainingLines: MutableList<TriplyTextLine>): Boolean {
             return textLine.structure.endsWith("/table")
@@ -169,6 +199,9 @@ class TriplyTextLineTransformer : TextLineTransformer<TriplyTextLine> {
 
     }
 
+    /**
+     * See [SourcePartTypeTransformer]
+     */
     inner class TableGroupTransformer : SourcePartTypeTransformer<TableGroup, TriplyTextLine> {
         override fun shouldApply(textLine: TriplyTextLine, remainingLines: MutableList<TriplyTextLine>): Boolean {
             return textLine.structure.endsWith("/tgroup")
@@ -185,6 +218,9 @@ class TriplyTextLineTransformer : TextLineTransformer<TriplyTextLine> {
         }
     }
 
+    /**
+     * See [SourcePartTypeTransformer]
+     */
     inner class TableRowTransformer : SourcePartTypeTransformer<TableRow, TriplyTextLine> {
         override fun shouldApply(textLine: TriplyTextLine, remainingLines: MutableList<TriplyTextLine>): Boolean {
             return textLine.structure.endsWith("/row")
@@ -201,6 +237,9 @@ class TriplyTextLineTransformer : TextLineTransformer<TriplyTextLine> {
         }
     }
 
+    /**
+     * See [SourcePartTypeTransformer]
+     */
     inner class TableHeadTransformer : SourcePartTypeTransformer<TableHead, TriplyTextLine> {
         override fun shouldApply(textLine: TriplyTextLine, remainingLines: MutableList<TriplyTextLine>): Boolean {
             return textLine.structure.endsWith("/thead")
@@ -217,6 +256,9 @@ class TriplyTextLineTransformer : TextLineTransformer<TriplyTextLine> {
         }
     }
 
+    /**
+     * See [SourcePartTypeTransformer]
+     */
     inner class TableBodyTransformer : SourcePartTypeTransformer<TableBody, TriplyTextLine> {
         override fun shouldApply(textLine: TriplyTextLine, remainingLines: MutableList<TriplyTextLine>): Boolean {
             return textLine.structure.endsWith("/tbody")

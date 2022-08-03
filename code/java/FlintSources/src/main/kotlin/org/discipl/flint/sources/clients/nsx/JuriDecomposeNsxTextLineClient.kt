@@ -6,6 +6,9 @@ import io.ktor.client.call.*
 import io.ktor.client.statement.*
 import org.discipl.flint.sources.clients.AsyncTextLineClient
 
+/**
+ * The [BaseNsxTextLineClient] for the JuriDecompose
+ */
 class JuriDecomposeNsxTextLineClient(httpClient: HttpClient) :
     BaseNsxTextLineClient<JuriDecomposeNsxTextLineClient.JuriDecomposeTextLine>(httpClient) {
     data class JuriDecomposeTextLine(

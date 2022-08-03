@@ -1,7 +1,6 @@
 package org.discipl.flint.sources.transformers.textline
 
 import mu.KLogging
-import org.discipl.flint.sources.clients.nsx.CsvNsxTextLineClient.CsvTextLine
 import org.discipl.flint.sources.clients.nsx.JuriDecomposeNsxTextLineClient.JuriDecomposeTextLine
 import org.discipl.flint.sources.models.parts.*
 
@@ -158,6 +157,11 @@ class JuriDecomposeTextLineTransformer : TextLineTransformer<JuriDecomposeTextLi
         return TextLineReversedSiblingIterable(this).reversed()
     }
 
+    /**
+     * Iterable with that tries to order the given [siblings] by their nexts in reverse.
+     * Failing that it reverse orders them by their prefix.
+     * This is done in reverse because it's easier to find the last sibling than the first
+     */
     class TextLineReversedSiblingIterable(private val siblings: List<JuriDecomposeTextLine>) :
         Iterable<JuriDecomposeTextLine> {
         override fun iterator(): Iterator<JuriDecomposeTextLine> {
@@ -167,7 +171,7 @@ class JuriDecomposeTextLineTransformer : TextLineTransformer<JuriDecomposeTextLi
         class TextLineReversedSiblingIterator(siblings: List<JuriDecomposeTextLine>) :
             Iterator<JuriDecomposeTextLine> {
             private val siblings: MutableList<JuriDecomposeTextLine> =
-                ArrayList(siblings).also { it.sortBy { it.prefix } }
+                ArrayList(siblings).also { it.sortBy { it.prefix } }.reversed().toMutableList()
             private var next = siblings.firstOrNull { it.next == null }
 
             override fun hasNext(): Boolean {

@@ -7,6 +7,9 @@ import org.discipl.flint.sources.transformers.textline.TextLineTransformer
 import java.nio.file.Path
 import java.util.*
 
+/**
+ * A Client for fetching and transforming [AsyncTextLineClient.TextLine]'s of type [T]
+ */
 class NsxTransformingClient<T : AsyncTextLineClient.TextLine>(
     private val nsxTransformer: TextLineTransformer<T>,
     private val nsxTextLineClient: BaseNsxTextLineClient<T>

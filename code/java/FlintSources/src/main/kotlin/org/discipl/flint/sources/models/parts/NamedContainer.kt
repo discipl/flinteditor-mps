@@ -2,6 +2,9 @@ package org.discipl.flint.sources.models.parts
 
 import org.discipl.flint.sources.models.SourcePartVisitor
 
+/**
+ * A [Container] with a name for example an Article
+ */
 data class NamedContainer(
     override val id: String,
     override val tag: String,

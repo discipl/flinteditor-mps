@@ -10,6 +10,7 @@ import io.ktor.http.*
 import kotlinx.coroutines.runBlocking
 import mu.KLogging
 import org.discipl.flint.sources.clients.AsyncTextLineClient
+import org.discipl.flint.sources.clients.AsyncTextLineClient.TextLine
 import org.discipl.flint.sources.clients.nsx.models.NsxTextLinesForVersionRequest
 import org.discipl.flint.sources.clients.nsx.models.NsxTextLinesForVersionRequestId
 import org.discipl.flint.sources.clients.nsx.models.NsxTextLinesForVersionRequestStatus
@@ -17,6 +18,10 @@ import org.discipl.flint.sources.clients.postJson
 import java.nio.file.Path
 import java.util.*
 
+/**
+ * Use the given [httpClient] to execute requests relating to requesting [AsyncTextLineClient.TextLine]s
+ * See [AsyncTextLineClient]
+ */
 abstract class BaseNsxTextLineClient<T : AsyncTextLineClient.TextLine>(private val httpClient: HttpClient) :
     AsyncTextLineClient {
     companion object : KLogging()
@@ -53,6 +58,9 @@ abstract class BaseNsxTextLineClient<T : AsyncTextLineClient.TextLine>(private v
         getBody(response)
     }
 
+    /**
+     * get the response body for the given [httpResponse]
+     */
     abstract suspend fun getBody(httpResponse: HttpResponse): List<T>
 
     override fun getParseRequestStatus(
@@ -66,6 +74,9 @@ abstract class BaseNsxTextLineClient<T : AsyncTextLineClient.TextLine>(private v
         }.body<NsxTextLinesForVersionRequestStatus>().status
     }
 
+    /**
+     * Class for deserializing the Nsx response
+     */
     data class NsxTextLinesForVersionResult<T : AsyncTextLineClient.TextLine>(
         @SerializedName("@graph")
         val results: List<T>
