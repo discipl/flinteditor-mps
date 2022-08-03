@@ -3,8 +3,8 @@ package org.discipl.flint.sources
 import com.google.gson.Gson
 import org.discipl.flint.sources.clients.*
 import org.discipl.flint.sources.clients.nsx.*
-import org.discipl.flint.sources.clients.nsx.models.NsxDocumentStructureClientImpl
-import org.discipl.flint.sources.clients.nsx.models.NsxParserClientImpl
+import org.discipl.flint.sources.clients.nsx.NsxDocumentStructureClientImpl
+import org.discipl.flint.sources.clients.nsx.NsxParserClientImpl
 import org.discipl.flint.sources.clients.triply.TriplySourceClientImpl
 import org.discipl.flint.sources.clients.triply.TriplyVersionClientImpl
 import org.discipl.flint.sources.di.*

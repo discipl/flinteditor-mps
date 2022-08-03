@@ -44,9 +44,6 @@ ext {
     platforms = ["linux", "mac", "win"]
     current_platform = currentPlatform()
 
-    diagramsDir = new File(rootDir, "docs/diagrams")
-    diagramRendersDir = new File(diagramsDir, "renders")
-
     testFileName = "TEST-jetbrains.mps.testbench.junit.suites.AntModuleTestSuite0-execution.xml"
     flint_filler_release_version = "v0.0.5"
     flint_filler_executables_dir = new File(generatedResourcesDir, "flintfiller")
@@ -658,7 +655,8 @@ task fixClassPathIssues(dependsOn: ["generateScripts"]) {
 }
 
 plantUml {
-    render input: "docs/diagrams/*.puml", output: "${diagramRendersDir.path}", format: 'png'
+    render input: "docs/uml/*.puml", output: "${rootProject.rootDir.path}/docs/uml/renders", format: 'png'
+    render input: "docs/diagrams/*.puml", output: "${rootProject.rootDir.path}/docs/diagrams/renders", format: 'png'
 }
 
 task installLocalGitHook(type: Copy){

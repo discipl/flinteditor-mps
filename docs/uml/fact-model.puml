@@ -1,0 +1,54 @@
+@startuml Fact-Model
+title Fact Model
+skinparam nodesep 50
+skinparam ranksep 150
+
+interface "Flint.structure.IUniquelyName" <INamedConcept>
+interface "Flint.structure.IUsable" 
+interface "Flint.structure.IHasResolvable" 
+interface "Flint.structure.IHasVersionAndValidation" 
+"Flint.structure.IHasVersionAndValidation" : publicated : boolean
+"Flint.structure.IHasVersionAndValidation" : verified : boolean
+"Flint.structure.IHasVersionAndValidation" : validated : boolean
+"Flint.structure.IHasVersionAndValidation" : version : integer
+interface "Flint.structure.IExplainable" 
+"Flint.structure.IExplainable" : explanation : string
+interface "Flint.structure.IShouldBeInVirtualPackage" 
+interface "Flint.structure.Archiveable" 
+"Flint.structure.Archiveable" : archived : boolean
+interface "Flint.structure.IHasLanguage" <INamedConcept>
+interface "FlintCellModels.structure.IProvidesRoleTagsCell" 
+interface "Flint.structure.IHasSources" 
+interface "FlintCellModels.structure.IProvidesTranslatedCell" 
+interface "Flint.structure.IHasResolvableRoot" <INamedConcept>
+class "Flint.structure.Resolvable"  
+class "Flint.structure.Fact"  << (R, lightgrey) >>
+class "Flint.structure.TranslatedName"  
+"Flint.structure.TranslatedName" : language : string
+"Flint.structure.TranslatedName" : translatedName : string
+class "Flint.structure.FlintSource"
+"Flint.structure.FlintSource" : language : string
+"Flint.structure.FlintSource" : textId : string
+"Flint.structure.FlintSource" : textSourceName : string  
+"Flint.structure.IHasLanguage" <|.. "Flint.structure.FlintSource" 
+
+"FlintCellModels.structure.IProvidesTranslatedCell" <|.. "Flint.structure.IHasVersionAndValidation"
+"FlintCellModels.structure.IProvidesTranslatedCell" <|.. "Flint.structure.IExplainable"
+"FlintCellModels.structure.IProvidesTranslatedCell" <|.. "Flint.structure.IHasLanguage"
+"FlintCellModels.structure.IProvidesRoleTagsCell" <|.. "Flint.structure.IHasSources"
+"Flint.structure.IHasResolvable" <|.. "Flint.structure.IHasResolvableRoot"
+"Flint.structure.IUniquelyName" <|.. "Flint.structure.Fact"
+"Flint.structure.IExplainable" <|.. "Flint.structure.Fact"
+"Flint.structure.IUsable" <|.. "Flint.structure.Fact"
+"Flint.structure.IHasSources" <|.. "Flint.structure.Fact"
+"Flint.structure.IHasResolvableRoot" <|.. "Flint.structure.Fact"
+"Flint.structure.IShouldBeInVirtualPackage" <|.. "Flint.structure.Fact"
+"Flint.structure.IHasLanguage" <|.. "Flint.structure.Fact"
+"Flint.structure.IHasVersionAndValidation" <|.. "Flint.structure.Fact"
+"Flint.structure.Archiveable" <|.. "Flint.structure.Fact"
+"Flint.structure.IHasVersionAndValidation" "1" *-- "0..n" "Flint.structure.IHasVersionAndValidation" : versions
+"Flint.structure.Fact" "1" *-- "0..1" "Flint.structure.Resolvable" : function
+"Flint.structure.IHasLanguage" "1" *-- "0..n" "Flint.structure.TranslatedName" : translatedNames
+"Flint.structure.IHasSources" "1" *-- "0..n" "Flint.structure.FlintSource" : sources
+
+@enduml

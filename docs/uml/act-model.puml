@@ -1,0 +1,83 @@
+@startuml Act-Model
+title Act Model
+skinparam nodesep 50
+skinparam ranksep 150
+
+'Top level interfaces'
+interface "Flint.structure.IUniquelyName" <INamedConcept>
+interface "Flint.structure.IShouldBeInVirtualPackage"
+interface "Flint.structure.Archiveable" 
+"Flint.structure.Archiveable" : archived : boolean
+interface "Flint.structure.IHasResolvable"
+
+
+'Explainable'
+interface "Flint.structure.IExplainable"
+interface "FlintCellModels.structure.IProvidesTranslatedCell"
+"Flint.structure.IExplainable" : explanation : string
+"FlintCellModels.structure.IProvidesTranslatedCell" <|.. "Flint.structure.IExplainable"
+
+'IHasResolveableRoot'
+interface "Flint.structure.IHasResolvableRoot" <INamedConcept>
+interface "Flint.structure.IHasResolvable"
+"Flint.structure.IHasResolvable" <|.. "Flint.structure.IHasResolvableRoot"
+
+'IHasLanguage'
+interface "Flint.structure.IHasLanguage" <INamedConcept>
+interface "FlintCellModels.structure.IProvidesTranslatedCell"
+class "Flint.structure.TranslatedName"  
+"Flint.structure.TranslatedName" : language : string
+"Flint.structure.TranslatedName" : translatedName : string
+"FlintCellModels.structure.IProvidesTranslatedCell" <|.. "Flint.structure.IHasLanguage"
+"Flint.structure.IHasLanguage" "1" *-- "0..n" "Flint.structure.TranslatedName" : translatedNames
+ 
+'IHasVersionAndValidation'
+interface "Flint.structure.IHasVersionAndValidation"
+interface "FlintCellModels.structure.IProvidesTranslatedCell" 
+"Flint.structure.IHasVersionAndValidation" : publicated : boolean
+"Flint.structure.IHasVersionAndValidation" : verified : boolean
+"Flint.structure.IHasVersionAndValidation" : validated : boolean
+"Flint.structure.IHasVersionAndValidation" : version : integer
+"FlintCellModels.structure.IProvidesTranslatedCell" <|.. "Flint.structure.IHasVersionAndValidation"
+"Flint.structure.IHasVersionAndValidation" "1" *-- "0..n" "Flint.structure.IHasVersionAndValidation" : versions
+
+'IHasSources'
+interface "Flint.structure.IHasSources"
+interface "FlintCellModels.structure.IProvidesRoleTagsCell"
+    'FlintSource'
+    class "Flint.structure.FlintSource"
+    "Flint.structure.FlintSource" : language : string
+    "Flint.structure.FlintSource" : textId : string
+    "Flint.structure.FlintSource" : textSourceName : string 
+    "Flint.structure.IHasLanguage" <|.. "Flint.structure.FlintSource" 
+
+"FlintCellModels.structure.IProvidesRoleTagsCell" <|.. "Flint.structure.IHasSources"
+"Flint.structure.IHasSources" "1" *-- "0..n" "Flint.structure.FlintSource" : sources
+
+'Act'
+interface "Flint.structure.IActCreateableAndTerminateable" <INamedConcept>
+class "Flint.structure.Act"  << (R, lightgrey) >>
+class "Flint.structure.Resolvable"  
+class "Flint.structure.FactReference"  
+class "Flint.structure.DutyReference"
+
+"Flint.structure.IUniquelyName" <|.. "Flint.structure.Act"
+"Flint.structure.IExplainable" <|.. "Flint.structure.Act"
+"Flint.structure.IHasResolvableRoot" <|.. "Flint.structure.Act"
+"Flint.structure.IHasSources" <|.. "Flint.structure.Act"
+"Flint.structure.IShouldBeInVirtualPackage" <|.. "Flint.structure.Act"
+"Flint.structure.IHasLanguage" <|.. "Flint.structure.Act"
+"Flint.structure.IHasVersionAndValidation" <|.. "Flint.structure.Act"
+"Flint.structure.Archiveable" <|.. "Flint.structure.Act"
+"Flint.structure.Act" "1" *-- "0..1" "Flint.structure.Resolvable" : preconditions
+"Flint.structure.Act" "1" *-- "0..n" "Flint.structure.IActCreateableAndTerminateable" : create
+"Flint.structure.Act" "1" *-- "0..n" "Flint.structure.IActCreateableAndTerminateable" : terminate
+"Flint.structure.Act" "1" *-- "0..1" "Flint.structure.FactReference" : actor
+"Flint.structure.Act" "1" *-- "0..1" "Flint.structure.FactReference" : object
+"Flint.structure.Act" "1" *-- "0..1" "Flint.structure.FactReference" : recipient
+"Flint.structure.Act" "1" *-- "0..1" "Flint.structure.FactReference" : action
+"Flint.structure.IActCreateableAndTerminateable" <|.. "Flint.structure.FactReference"
+"Flint.structure.IActCreateableAndTerminateable" <|.. "Flint.structure.DutyReference"
+
+
+@enduml
