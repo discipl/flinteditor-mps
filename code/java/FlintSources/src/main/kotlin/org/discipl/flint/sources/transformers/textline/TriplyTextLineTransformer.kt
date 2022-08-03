@@ -7,10 +7,10 @@ import org.discipl.flint.sources.models.parts.*
 import org.discipl.flint.sources.transformers.textline.TriplyTextLineTransformer.TextLineTransformer
 
 /**
- * The Triply implementation of [TextLineTransformer]
+ * The Triply implementation of [org.discipl.flint.sources.transformers.textline.TextLineTransformer]
  * Transforms a [List] of [TriplyTextLine]s into a [List] of [SourcePart]s
  */
-class TriplyTextLineTransformer : TextLineTransformer<TriplyTextLine> {
+class TriplyTextLineTransformer : org.discipl.flint.sources.transformers.textline.TextLineTransformer<TriplyTextLine> {
     companion object : KLogging()
 
     /**
