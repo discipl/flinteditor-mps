@@ -5,7 +5,13 @@ import org.discipl.flint.Manifest
 import java.io.FileReader
 import java.nio.file.Path
 
+/**
+ * Build the Compliance by design html.
+ */
 class FlintHtmlBuilder(private val assetFilePath: Path) {
+    /**
+     * returns the ComplianceByDesign html for the given [model] and [flintConfig]
+     */
     fun getHtml(model: String?, flintConfig: String?): String {
         val manifest = Gson().fromJson(FileReader(assetFilePath.toFile()), Manifest::class.java)
         val basePath = assetFilePath.parent.toAbsolutePath()
@@ -21,6 +27,9 @@ class FlintHtmlBuilder(private val assetFilePath: Path) {
         )
     }
 
+    /**
+     * return the filled ComplianceByDesign html template
+     */
     private fun getHtml(
         styleUri: String,
         base: String,

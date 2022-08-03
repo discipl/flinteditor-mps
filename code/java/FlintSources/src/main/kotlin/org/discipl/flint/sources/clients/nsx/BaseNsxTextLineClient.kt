@@ -10,7 +10,6 @@ import io.ktor.http.*
 import kotlinx.coroutines.runBlocking
 import mu.KLogging
 import org.discipl.flint.sources.clients.AsyncTextLineClient
-import org.discipl.flint.sources.clients.AsyncTextLineClient.TextLine
 import org.discipl.flint.sources.clients.nsx.models.NsxTextLinesForVersionRequest
 import org.discipl.flint.sources.clients.nsx.models.NsxTextLinesForVersionRequestId
 import org.discipl.flint.sources.clients.nsx.models.NsxTextLinesForVersionRequestStatus

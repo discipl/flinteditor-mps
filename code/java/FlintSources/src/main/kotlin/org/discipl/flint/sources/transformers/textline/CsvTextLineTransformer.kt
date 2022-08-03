@@ -1,7 +1,6 @@
 package org.discipl.flint.sources.transformers.textline
 
 import mu.KLogging
-import org.discipl.flint.sources.clients.AsyncTextLineClient
 import org.discipl.flint.sources.clients.nsx.CsvNsxTextLineClient.CsvTextLine
 import org.discipl.flint.sources.models.parts.*
 

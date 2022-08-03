@@ -6,6 +6,10 @@ import com.google.gson.JsonElement
 import org.discipl.flint.InvalidCreateableAndTerminateable
 import java.lang.reflect.Type
 
+/**
+ * Serializes createable and terminatable that doesn't match are invalid
+ * i.e. for acts only facts and duties are creatable so if an act is found its serialized to a [InvalidCreateableAndTerminateable]
+ */
 class InvalidCreatableAndTerminateableDeserializer : JsonDeserializer<InvalidCreateableAndTerminateable?> {
     override fun deserialize(
         json: JsonElement?,

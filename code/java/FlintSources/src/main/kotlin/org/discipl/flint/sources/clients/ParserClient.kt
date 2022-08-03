@@ -1,5 +1,7 @@
 package org.discipl.flint.sources.clients
 
+import org.discipl.flint.sources.clients.ParserClient.Parser
+import org.discipl.flint.sources.clients.ParserClient.Source
 import java.util.*
 
 /**

@@ -1,8 +1,6 @@
 package org.discipl.flint.sources.transformers.textline
 
 import mu.KLogging
-import org.discipl.flint.sources.clients.nsx.CsvNsxTextLineClient.CsvTextLine
-import org.discipl.flint.sources.clients.nsx.JuriDecomposeNsxTextLineClient.JuriDecomposeTextLine
 import org.discipl.flint.sources.clients.nsx.QuintorApiNsxTextLineClient.QuintorApiNsxTextLine
 import org.discipl.flint.sources.models.parts.*
 
@@ -42,6 +40,7 @@ class QuintorTextLineTransformer : TextLineTransformer<QuintorApiNsxTextLine> {
                 allLines.indexOf(textLine),
                 textLine.text!!
             )
+
             "PrefixContainer" -> transformContainer(textLine, remainingLines, allLines)
             "Container" -> transformContainer(textLine, remainingLines, allLines)
             else -> throw IllegalArgumentException("Can't deserialize text line: $textLine")
@@ -98,30 +97,35 @@ class QuintorTextLineTransformer : TextLineTransformer<QuintorApiNsxTextLine> {
                 allLines.indexOf(textLine),
                 children.map { transform(it, remainingLines, allLines) },
             )
+
             "tgroup" -> TableGroup(
                 textLine.id,
                 textLine.tag,
                 allLines.indexOf(textLine),
                 children.map { transform(it, remainingLines, allLines) },
             )
+
             "athead" -> TableHead(
                 textLine.id,
                 textLine.tag,
                 allLines.indexOf(textLine),
                 children.map { transform(it, remainingLines, allLines) },
             )
+
             "atbody" -> TableBody(
                 textLine.id,
                 textLine.tag,
                 allLines.indexOf(textLine),
                 children.map { transform(it, remainingLines, allLines) },
             )
+
             "row" -> TableRow(
                 textLine.id,
                 textLine.tag,
                 allLines.indexOf(textLine),
                 children.map { transform(it, remainingLines, allLines) },
             )
+
             else -> null
         }
     }

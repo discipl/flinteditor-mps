@@ -19,7 +19,7 @@ interface Delegate<T> {
 open class QuerySolutionMapper<T>(
     private val converter: QuerySolutionConverter<*, T>,
     private val name: String?
-): Delegate<T> {
+) : Delegate<T> {
     companion object {
         fun <O> literal(outputMapper: (Literal) -> O?, name: String?): QuerySolutionMapper<O> {
             return QuerySolutionMapper(
@@ -49,7 +49,7 @@ open class QuerySolutionMapper<T>(
         }
     }
 
-   override operator fun getValue(thisRef: IHasSolution, property: KProperty<*>): T {
+    override operator fun getValue(thisRef: IHasSolution, property: KProperty<*>): T {
         val name = name ?: property.name
         try {
             return converter.convert(thisRef.querySolution, name) ?: throw IllegalArgumentException("$name was null")

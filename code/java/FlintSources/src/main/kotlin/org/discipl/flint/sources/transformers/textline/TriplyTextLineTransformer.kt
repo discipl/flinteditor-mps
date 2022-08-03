@@ -2,10 +2,9 @@ package org.discipl.flint.sources.transformers.textline
 
 import mu.KLogging
 import org.discipl.flint.sources.clients.AsyncTextLineClient
-import org.discipl.flint.sources.clients.nsx.CsvNsxTextLineClient.CsvTextLine
-import org.discipl.flint.sources.clients.nsx.JuriDecomposeNsxTextLineClient.JuriDecomposeTextLine
 import org.discipl.flint.sources.clients.nsx.TriplyNsxTextLineClient.TriplyTextLine
 import org.discipl.flint.sources.models.parts.*
+import org.discipl.flint.sources.transformers.textline.TriplyTextLineTransformer.TextLineTransformer
 
 /**
  * The Triply implementation of [TextLineTransformer]
@@ -47,7 +46,8 @@ class TriplyTextLineTransformer : TextLineTransformer<TriplyTextLine> {
      */
     private fun transform(line: TriplyTextLine, remainingLines: MutableList<TriplyTextLine>): SourcePart {
         remainingLines.remove(line)
-        val transformer = transformers.firstOrNull { it.shouldApply(line, remainingLines) } ?: throw IllegalArgumentException("Can't deserialize text line: $line")
+        val transformer = transformers.firstOrNull { it.shouldApply(line, remainingLines) }
+            ?: throw IllegalArgumentException("Can't deserialize text line: $line")
         return transformer.apply(line, remainingLines)
     }
 
@@ -144,6 +144,7 @@ class TriplyTextLineTransformer : TextLineTransformer<TriplyTextLine> {
                 )
             }
         }
+
         private fun TriplyTextLine.isTitleLine(remainingLines: MutableList<TriplyTextLine>): Boolean {
             return this.textNodeType == "Title" && textLineTransformer.shouldApply(this, remainingLines)
         }

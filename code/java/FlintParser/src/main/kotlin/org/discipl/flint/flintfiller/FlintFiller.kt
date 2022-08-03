@@ -5,9 +5,14 @@ import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.Paths
 
-
+/**
+ * Class used to run the flint filler
+ */
 class FlintFiller(private val pathToFillerDirString: String, private val outputDirString: String) {
 
+    /**
+     * Run the flint filler for the given [fileString] and execute [onCommandOutput] when completed
+     */
     fun run(fileString: String, onCommandOutput: (String) -> Unit = {}): String {
         val flintFillerExecutable = Paths.get("${pathToFillerDirString}/${osSpecificFlintFiller()}")
         val outputDir = Paths.get(outputDirString)
@@ -32,6 +37,9 @@ class FlintFiller(private val pathToFillerDirString: String, private val outputD
         }
     }
 
+    /**
+     * Make the given [file] executable
+     */
     private fun makeExecutable(file: Path) {
         if (!SystemUtils.IS_OS_WINDOWS) {
             val commands = arrayOf(
@@ -46,6 +54,9 @@ class FlintFiller(private val pathToFillerDirString: String, private val outputD
         }
     }
 
+    /**
+     * Get the name of the flint filler binary for this OS
+     */
     private fun osSpecificFlintFiller(): String {
         return when {
             SystemUtils.IS_OS_WINDOWS -> "flintfiller-windows.exe"
@@ -55,6 +66,10 @@ class FlintFiller(private val pathToFillerDirString: String, private val outputD
         }
     }
 
+    /**
+     * return the flint filler process start with from the [flintFillerExecutable] for file [inputFile]
+     * and puts results in the [outputDir]
+     */
     private fun fillerProc(flintFillerExecutable: Path, inputFile: Path, outputDir: Path): Process {
         val commands = arrayOf(
             flintFillerExecutable.toString(),
@@ -72,14 +87,5 @@ class FlintFiller(private val pathToFillerDirString: String, private val outputD
         val rt = Runtime.getRuntime()
         println("Executing command: ${commands.contentToString()}")
         return rt.exec(commands)
-    }
-
-    private fun Path.escaped(): String {
-        return when {
-            SystemUtils.IS_OS_WINDOWS -> this.toString().replace(" ", "\\\\ ");
-            SystemUtils.IS_OS_LINUX -> this.toString().replace(" ", "\\ ");
-            SystemUtils.IS_OS_MAC_OSX -> "flintfiller-macos"
-            else -> throw NotImplementedError("Os ${SystemUtils.OS_NAME} is not supported")
-        }
     }
 }

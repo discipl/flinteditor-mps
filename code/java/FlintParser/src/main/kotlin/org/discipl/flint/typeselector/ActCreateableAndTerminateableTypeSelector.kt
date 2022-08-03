@@ -7,6 +7,9 @@ import org.discipl.flint.DutyReference
 import org.discipl.flint.FactReference
 import org.discipl.flint.InvalidCreateableAndTerminateable
 
+/**
+ * Specifies which implementation of [ActCreateableAndTerminateable] should be used for serialization
+ */
 class ActCreateableAndTerminateableTypeSelector : TypeSelector<ActCreateableAndTerminateable> {
     override fun getClassForElement(readElement: JsonElement): Class<out ActCreateableAndTerminateable> {
         return when {

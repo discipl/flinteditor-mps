@@ -1,5 +1,6 @@
 package org.discipl.flint.sources.clients
 
+import org.discipl.flint.sources.clients.DocumentStructureClient.DocumentStructure
 import java.util.*
 
 /**

@@ -89,7 +89,12 @@ class SourcePartDiagramVisitor(
     }
 
     override fun visit(sourcePart: TableGroup): List<DiagramPart> {
-        return defaultVisitContainer(sourcePart) { !(ignoredProperties + listOf("tableBody", "tableHead")).contains(it.name) }
+        return defaultVisitContainer(sourcePart) {
+            !(ignoredProperties + listOf(
+                "tableBody",
+                "tableHead"
+            )).contains(it.name)
+        }
     }
 
     override fun visit(sourcePart: TableRow): List<DiagramPart> {
@@ -124,7 +129,10 @@ class SourcePartDiagramVisitor(
         return childObjects + childRelationShips
     }
 
-    private fun defaultVisitContainer(sourcePart: Container, block: (KProperty1<out SourcePart, *>) -> Boolean = { true }): List<DiagramPart> {
+    private fun defaultVisitContainer(
+        sourcePart: Container,
+        block: (KProperty1<out SourcePart, *>) -> Boolean = { true }
+    ): List<DiagramPart> {
         val self = defaultVisit(sourcePart, block)
         return children(sourcePart) + self
     }

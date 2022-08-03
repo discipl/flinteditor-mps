@@ -8,6 +8,10 @@ import org.discipl.flint.DutyComponents
 import org.discipl.flint.DutyReference
 import java.lang.reflect.Type
 
+/**
+ * Splits the duty component string into a [List] of [DutyComponents]
+ * Duty components are no longer used
+ */
 class DutyComponentsDeserializer : JsonDeserializer<DutyComponents> {
     override fun deserialize(json: JsonElement, typeOfT: Type, context: JsonDeserializationContext): DutyComponents {
         val dutyComponentStrings = if (json.isJsonArray) {
