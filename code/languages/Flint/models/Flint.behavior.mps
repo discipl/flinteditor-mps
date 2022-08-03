@@ -10852,6 +10852,22 @@
           <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
         </node>
       </node>
+      <node concept="P$JXv" id="7wfePx56uyy" role="lGtFl">
+        <node concept="TZ5HA" id="7wfePx56uyz" role="TZ5H$">
+          <node concept="1dT_AC" id="7wfePx56uy$" role="1dT_Ay">
+            <property role="1dT_AB" value="Fills the cell which contains the name of the FlintSource with the referenced Article." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="7wfePx56uy_" role="3nqlJM">
+          <property role="TUZQ4" value="EditorContext wherein the CellProvider is called" />
+          <node concept="zr_55" id="7wfePx56uyB" role="zr_5Q">
+            <ref role="zr_51" node="5wlrAoN6il9" resolve="editorContext" />
+          </node>
+        </node>
+        <node concept="x79VA" id="7wfePx56uyC" role="3nqlJM">
+          <property role="x79VB" value="AbstractCellProvider containing name of referenced Article." />
+        </node>
+      </node>
     </node>
     <node concept="13i0hz" id="4FnTJrDkxUz" role="13h7CS">
       <property role="TrG5h" value="getCitation" />
@@ -24830,8 +24846,20 @@
                             <node concept="3oM_SD" id="23uPkDbeCFZ" role="1PaTwD">
                               <property role="3oM_SC" value="since" />
                             </node>
+                            <node concept="3oM_SD" id="7wfePx56Gse" role="1PaTwD">
+                              <property role="3oM_SC" value="this" />
+                            </node>
+                            <node concept="3oM_SD" id="7wfePx56GOU" role="1PaTwD">
+                              <property role="3oM_SC" value="call" />
+                            </node>
+                            <node concept="3oM_SD" id="7wfePx56H_j" role="1PaTwD">
+                              <property role="3oM_SC" value="is" />
+                            </node>
                             <node concept="3oM_SD" id="23uPkDbeCG0" role="1PaTwD">
                               <property role="3oM_SC" value="in" />
+                            </node>
+                            <node concept="3oM_SD" id="7wfePx56DvF" role="1PaTwD">
+                              <property role="3oM_SC" value="async" />
                             </node>
                             <node concept="3oM_SD" id="23uPkDbeCG1" role="1PaTwD">
                               <property role="3oM_SC" value="EDT" />
@@ -24917,6 +24945,32 @@
         <property role="TrG5h" value="context" />
         <node concept="3uibUv" id="23uPkDbeCGo" role="1tU5fm">
           <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="7wfePx56ECD" role="lGtFl">
+        <node concept="TZ5HA" id="7wfePx56ECE" role="TZ5H$">
+          <node concept="1dT_AC" id="7wfePx56ECF" role="1dT_Ay">
+            <property role="1dT_AB" value="Tries to query translated name linked to current interpretation language and sets it as current name." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="7wfePx56EVY" role="TZ5H$">
+          <node concept="1dT_AC" id="7wfePx56EVZ" role="1dT_Ay">
+            <property role="1dT_AB" value="If it does not exist it creates a new translated name with the current interpretation langauge, defaults the name to" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="7wfePx56G3s" role="TZ5H$">
+          <node concept="1dT_AC" id="7wfePx56G3t" role="1dT_Ay">
+            <property role="1dT_AB" value="the name property field and returns teh new translated name." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="7wfePx56ECG" role="3nqlJM">
+          <property role="TUZQ4" value="EditorContext in which the change takes place" />
+          <node concept="zr_55" id="7wfePx56ECI" role="zr_5Q">
+            <ref role="zr_51" node="23uPkDbeCGn" resolve="context" />
+          </node>
+        </node>
+        <node concept="x79VA" id="7wfePx56ECJ" role="3nqlJM">
+          <property role="x79VB" value="Returns translated name linked to current interpretation language language" />
         </node>
       </node>
     </node>
