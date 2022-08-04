@@ -11,7 +11,9 @@ import javafx.scene.web.WebView
 import netscape.javascript.JSObject
 import java.nio.file.Path
 
-
+/**
+ * The JavaFx [WebView] for the Compliance By Design html
+ */
 class FlintWebViewJfxPanel(assetFilePath: Path, private val logger: JSLogger) : JFXPanel() {
     private val flintHtmlBuilder = FlintHtmlBuilder(assetFilePath)
     private lateinit var webView: WebView

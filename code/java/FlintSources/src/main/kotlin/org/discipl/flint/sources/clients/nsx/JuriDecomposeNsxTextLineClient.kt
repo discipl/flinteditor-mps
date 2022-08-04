@@ -6,6 +6,9 @@ import io.ktor.client.call.*
 import io.ktor.client.statement.*
 import org.discipl.flint.sources.clients.AsyncTextLineClient
 
+/**
+ * The [BaseNsxTextLineClient] for the JuriDecompose
+ */
 class JuriDecomposeNsxTextLineClient(httpClient: HttpClient) :
     BaseNsxTextLineClient<JuriDecomposeNsxTextLineClient.JuriDecomposeTextLine>(httpClient) {
     data class JuriDecomposeTextLine(
@@ -26,7 +29,7 @@ class JuriDecomposeNsxTextLineClient(httpClient: HttpClient) :
         @SerializedName("structuralIndex")
         val structuurkenmerk: StructuurKenmerk?,
         val name: String,
-    ) : AsyncTextLineClient.NewTextLine
+    ) : AsyncTextLineClient.TextLine
 
     data class StructuurKenmerk(
         val iri: String,

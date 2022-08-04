@@ -5,6 +5,9 @@ import org.discipl.flint.sources.models.Source
 import org.discipl.flint.sources.services.SourceService
 import org.discipl.flint.sources.transformers.SourceTransformer
 
+/**
+ * See [SourceService]
+ */
 class TriplySourceServiceImpl(
     private val sourceClient: SourceClient,
     private val sourceTransformer: SourceTransformer

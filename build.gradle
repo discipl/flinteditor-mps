@@ -655,7 +655,8 @@ task fixClassPathIssues(dependsOn: ["generateScripts"]) {
 }
 
 plantUml {
-    render input: "docs/uml/*.puml", output: "${rootProject.rootDir.path}/docs/uml/renders", format: 'png'
+    render input: "docs/diagrams/uml/*.puml", output: "${rootProject.rootDir.path}/docs/diagrams/uml/renders", format: 'png'
+    render input: "docs/diagrams/sequence/*.puml", output: "${rootProject.rootDir.path}/docs/diagrams/sequence/renders", format: 'png'
 }
 
 task installLocalGitHook(type: Copy){

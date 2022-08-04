@@ -9,6 +9,9 @@ import org.discipl.flint.LiteralExpression
 import org.discipl.flint.NumberLiteralExpression
 import org.discipl.flint.StringLiteralExpression
 
+/**
+ * Specifies which implementation of [LiteralExpression] should be used for serialization
+ */
 class LiteralExpressionTypeSelector : TypeSelector<LiteralExpression<*>> {
     override fun getClassForElement(readElement: JsonElement): Class<out LiteralExpression<*>> {
         val operand: JsonPrimitive = (readElement as? JsonObject)?.get("operand") as? JsonPrimitive

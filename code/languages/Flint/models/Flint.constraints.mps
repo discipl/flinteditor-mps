@@ -634,7 +634,7 @@
                 <node concept="1pGfFk" id="2vKMv36_JP4" role="2ShVmc">
                   <ref role="37wK5l" to="o8zo:4k9eBec$Bew" resolve="ModelsScope" />
                   <node concept="37vLTw" id="2vKMv36_JP5" role="37wK5m">
-                    <ref role="3cqZAo" node="2vKMv36_u6L" resolve="models" />
+                    <ref role="3cqZAo" node="2vKMv36_u6L" resolve="modelsInScope" />
                   </node>
                   <node concept="3clFbT" id="2vKMv36_JP6" role="37wK5m" />
                   <node concept="3dhKMC" id="2vKMv36_JP7" role="37wK5m" />

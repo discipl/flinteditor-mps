@@ -15,6 +15,7 @@ import kotlin.io.path.toPath
 
 
 /**
+ * Extension function to load external properties into a [KoinApplication]
  * Priority is EnvironmentVariable > File Next To Jar > File In Resources Folder
  * Lower priority keys are overriden
  */

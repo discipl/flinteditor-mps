@@ -1,0 +1,48 @@
+@startuml
+actor User as user
+box Editor Classes
+participant Version_Editor as editor
+participant Version_Behavior as behavior
+participant PublicationParserSelector as selparser
+participant FileChooser as fchoser
+participant DocumentStructureDialog as dsdialog
+participant SourcePartMapper as spmapper
+end box
+participant SourceTextService as stservice
+participant DocumentStructureService as dsservice
+
+user -> editor : click refresh
+editor -> behavior :refreshButton(context).actionPerformed(ActionEvent)
+behavior -> selparser : getSelectedPublicationParser()
+selparser -> behavior : parser
+alt parser == null
+behavior -> selparser : show()
+selparser -> user : PublicationParserSelector
+else
+alt parser == csv
+behavior -> fchoser : show()
+fchoser -> user : FileChooser
+user ->behavior : csvPath
+behavior -> dsservice : getDocumentStructures()
+dsservice -> behavior : documentStructures
+behavior -> dsdialog : show()
+dsdialog -> user : DocumentStructureDialog
+user -> behavior : documentStructure
+behavior -> sourceTextService : requestSourceTextForCsv(csvPath, documentStructure)
+else
+behavior -> stservice: requestSourceTextForVersionId(parser.source.id, parser.id, version.id)
+end
+stservice -> behavior: requestId
+    loop requestStatus != Ready
+        behavior -> behavior : wait 0.5s
+        behavior -> sourceTextService : getRequestStatusForSourceTextForVersionId(sourceTextRequestId, publicationParser.publicationSource.id, publicationParser.id, version.id)
+        sourceTextService -> behavior : requestStatus
+    end
+behavior -> sourceTextService : getRequestResultForSourceTextForVersionId(sourceTextRequestId, publicationParser.publicationSource.id, publicationParser.id, version.id)
+sourceTextService -> behavior : sourceParts
+behavior -> spmapper : map(sourceParts)
+spmapper -> behavior : sourcePartNodes
+behavior -> editor : sourcePartNodes
+editor -> user : sourcePartNodes
+end
+@enduml

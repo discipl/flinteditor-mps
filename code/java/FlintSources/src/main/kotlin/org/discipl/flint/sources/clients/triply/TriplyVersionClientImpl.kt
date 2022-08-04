@@ -16,6 +16,9 @@ import org.discipl.flint.sources.clients.VersionClient.BWBVersion
 import org.jsoup.Jsoup
 import java.time.LocalDate
 
+/**
+ * See [VersionClient]
+ */
 class TriplyVersionClientImpl(private val queryExecutor: QueryExecutor, private val httpClient: HttpClient) :
     VersionClient {
     companion object {

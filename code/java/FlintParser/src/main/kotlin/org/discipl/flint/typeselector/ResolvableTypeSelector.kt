@@ -7,6 +7,9 @@ import io.gsonfire.TypeSelector
 import org.discipl.flint.FactReference
 import org.discipl.flint.Resolvable
 
+/**
+ * Specifies which implementation of [Resolvable] should be used for serialization
+ */
 class ResolvableTypeSelector : TypeSelector<Resolvable> {
     override fun getClassForElement(readElement: JsonElement): Class<out Resolvable> {
         return when (readElement) {

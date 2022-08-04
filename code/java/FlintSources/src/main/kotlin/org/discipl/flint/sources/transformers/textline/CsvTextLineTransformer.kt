@@ -4,11 +4,18 @@ import mu.KLogging
 import org.discipl.flint.sources.clients.nsx.CsvNsxTextLineClient.CsvTextLine
 import org.discipl.flint.sources.models.parts.*
 
-class CsvTextLineTransformer : NewTextLineTransformer<CsvTextLine> {
+/**
+ * The Csv implementation of [TextLineTransformer]
+ * Transforms a [List] of [CsvTextLine]s into a [List] of [SourcePart]s
+ */
+class CsvTextLineTransformer : TextLineTransformer<CsvTextLine> {
     companion object : KLogging()
 
     private var index = 0
 
+    /**
+     * Transforms the given [list] of type [CsvTextLine]  into a [List] of [SourcePart]s
+     */
     override fun transform(list: List<CsvTextLine>): List<SourcePart> {
         val roots = list.filter { it.parent == null }.sortedByNext()
         val remainingLines = ArrayList(list)

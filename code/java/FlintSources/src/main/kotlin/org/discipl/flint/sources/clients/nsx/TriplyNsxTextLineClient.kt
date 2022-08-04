@@ -6,6 +6,9 @@ import io.ktor.client.call.*
 import io.ktor.client.statement.*
 import org.discipl.flint.sources.clients.AsyncTextLineClient
 
+/**
+ * The [BaseNsxTextLineClient] for TriplyDB
+ */
 class TriplyNsxTextLineClient(httpClient: HttpClient) :
     BaseNsxTextLineClient<TriplyNsxTextLineClient.TriplyTextLine>(httpClient) {
     data class TriplyTextLine(
@@ -24,7 +27,7 @@ class TriplyNsxTextLineClient(httpClient: HttpClient) :
         override val juriConnect: String?,
         val structure: String,
         val name: String
-    ) : AsyncTextLineClient.NewTextLine
+    ) : AsyncTextLineClient.TextLine
 
     override suspend fun getBody(httpResponse: HttpResponse): List<TriplyTextLine> {
         return httpResponse.body<NsxTextLinesForVersionResult<TriplyTextLine>>().results

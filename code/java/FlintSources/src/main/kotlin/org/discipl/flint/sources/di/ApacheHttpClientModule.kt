@@ -6,6 +6,9 @@ import org.apache.http.impl.client.HttpClients
 import org.koin.dsl.module
 import java.util.concurrent.TimeUnit
 
+/**
+ * Apache related dependencies
+ */
 val apacheHttpClientModule = module {
     single<HttpClient> {
         val timeOutInMs = get<Int>(KoinQualifiers.timeOutInMs)

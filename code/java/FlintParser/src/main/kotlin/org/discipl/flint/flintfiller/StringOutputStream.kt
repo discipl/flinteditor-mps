@@ -2,6 +2,9 @@ package org.discipl.flint.flintfiller
 
 import java.io.OutputStream
 
+/**
+ * [OutputStream] that for simply reading the output as a [String]
+ */
 class StringOutputStream : OutputStream() {
     private val sb = StringBuilder()
 

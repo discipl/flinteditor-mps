@@ -4,9 +4,16 @@ import mu.KLogging
 import org.discipl.flint.sources.clients.nsx.QuintorApiNsxTextLineClient.QuintorApiNsxTextLine
 import org.discipl.flint.sources.models.parts.*
 
-class QuintorTextLineTransformer : NewTextLineTransformer<QuintorApiNsxTextLine> {
+/**
+ * The QuintorAPI implementation of [TextLineTransformer]
+ * Transforms a [List] of [QuintorApiNsxTextLine]s into a [List] of [SourcePart]s
+ */
+class QuintorTextLineTransformer : TextLineTransformer<QuintorApiNsxTextLine> {
     companion object : KLogging()
 
+    /**
+     * Transforms the given [list] of type [QuintorApiNsxTextLine]  into a [List] of [SourcePart]s
+     */
     override fun transform(list: List<QuintorApiNsxTextLine>): List<SourcePart> {
         val root = list.first { it.parent == null && it.next == null }
         logger.info { "Root: $root" }
@@ -33,6 +40,7 @@ class QuintorTextLineTransformer : NewTextLineTransformer<QuintorApiNsxTextLine>
                 allLines.indexOf(textLine),
                 textLine.text!!
             )
+
             "PrefixContainer" -> transformContainer(textLine, remainingLines, allLines)
             "Container" -> transformContainer(textLine, remainingLines, allLines)
             else -> throw IllegalArgumentException("Can't deserialize text line: $textLine")
@@ -89,34 +97,43 @@ class QuintorTextLineTransformer : NewTextLineTransformer<QuintorApiNsxTextLine>
                 allLines.indexOf(textLine),
                 children.map { transform(it, remainingLines, allLines) },
             )
+
             "tgroup" -> TableGroup(
                 textLine.id,
                 textLine.tag,
                 allLines.indexOf(textLine),
                 children.map { transform(it, remainingLines, allLines) },
             )
+
             "athead" -> TableHead(
                 textLine.id,
                 textLine.tag,
                 allLines.indexOf(textLine),
                 children.map { transform(it, remainingLines, allLines) },
             )
+
             "atbody" -> TableBody(
                 textLine.id,
                 textLine.tag,
                 allLines.indexOf(textLine),
                 children.map { transform(it, remainingLines, allLines) },
             )
+
             "row" -> TableRow(
                 textLine.id,
                 textLine.tag,
                 allLines.indexOf(textLine),
                 children.map { transform(it, remainingLines, allLines) },
             )
+
             else -> null
         }
     }
 
+    /**
+     * Iterable with that orders the given [siblings] by their nexts in reverse.
+     * This is done in reverse because it's easier to find the last sibling than the first
+     */
     class TextLineReversedSiblingIterable(private val siblings: List<QuintorApiNsxTextLine>) :
         Iterable<QuintorApiNsxTextLine> {
         override fun iterator(): Iterator<QuintorApiNsxTextLine> {

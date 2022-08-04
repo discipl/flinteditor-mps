@@ -15,6 +15,9 @@ import org.discipl.flint.sources.clients.nsx.models.NsxEmbeddedResultDeserialize
 import org.discipl.flint.sources.services.PropertyProvider
 import org.koin.dsl.module
 
+/**
+ * All Ktor related dependencies
+ */
 val ktorClientModule = module {
     single<HttpClientEngine> {
         Apache.create {

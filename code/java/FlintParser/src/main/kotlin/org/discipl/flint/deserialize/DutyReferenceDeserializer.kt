@@ -6,6 +6,9 @@ import com.google.gson.JsonElement
 import org.discipl.flint.DutyReference
 import java.lang.reflect.Type
 
+/**
+ * Trim < and > from duty reference
+ */
 class DutyReferenceDeserializer : JsonDeserializer<DutyReference> {
     override fun deserialize(json: JsonElement, typeOfT: Type, context: JsonDeserializationContext): DutyReference? {
         if (json.asString.length <= 2) return null

@@ -5,6 +5,9 @@ import org.discipl.flint.sources.models.Version
 import org.discipl.flint.sources.services.VersionService
 import org.discipl.flint.sources.transformers.VersionTransformer
 
+/**
+ * See [VersionService]
+ */
 class TriplyVersionServiceImpl(
     private val versionClient: VersionClient,
     private val versionTransformer: VersionTransformer

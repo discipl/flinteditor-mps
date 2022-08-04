@@ -5,6 +5,9 @@ import org.discipl.flint.sources.models.DocumentStructure
 import org.discipl.flint.sources.services.DocumentStructureService
 import org.discipl.flint.sources.transformers.DocumentStructureTransformer
 
+/**
+ * See [DocumentStructureService]
+ */
 class NsxDocumentStructureServiceImpl(
     private val documentStructureClient: DocumentStructureClient,
     private val documentStructureTransformer: DocumentStructureTransformer

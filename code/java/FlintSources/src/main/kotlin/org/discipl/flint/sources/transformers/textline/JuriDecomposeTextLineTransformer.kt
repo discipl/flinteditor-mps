@@ -4,11 +4,18 @@ import mu.KLogging
 import org.discipl.flint.sources.clients.nsx.JuriDecomposeNsxTextLineClient.JuriDecomposeTextLine
 import org.discipl.flint.sources.models.parts.*
 
-class JuriDecomposeTextLineTransformer : NewTextLineTransformer<JuriDecomposeTextLine> {
+/**
+ * The JuriDecompose implementation of [TextLineTransformer]
+ * Transforms a [List] of [JuriDecomposeTextLine]s into a [List] of [SourcePart]s
+ */
+class JuriDecomposeTextLineTransformer : TextLineTransformer<JuriDecomposeTextLine> {
     companion object : KLogging()
 
     private var index = 0
 
+    /**
+     * Transforms the given [list] of type [JuriDecomposeTextLine]  into a [List] of [SourcePart]s
+     */
     override fun transform(list: List<JuriDecomposeTextLine>): List<SourcePart> {
         val roots = list.filter { it.structuurkenmerk != null && it.structuurkenmerk.parent == null }
             .sortedBy { it.structuurkenmerk?.name }
@@ -150,6 +157,11 @@ class JuriDecomposeTextLineTransformer : NewTextLineTransformer<JuriDecomposeTex
         return TextLineReversedSiblingIterable(this).reversed()
     }
 
+    /**
+     * Iterable with that tries to order the given [siblings] by their nexts in reverse.
+     * Failing that it reverse orders them by their prefix.
+     * This is done in reverse because it's easier to find the last sibling than the first
+     */
     class TextLineReversedSiblingIterable(private val siblings: List<JuriDecomposeTextLine>) :
         Iterable<JuriDecomposeTextLine> {
         override fun iterator(): Iterator<JuriDecomposeTextLine> {
@@ -159,7 +171,7 @@ class JuriDecomposeTextLineTransformer : NewTextLineTransformer<JuriDecomposeTex
         class TextLineReversedSiblingIterator(siblings: List<JuriDecomposeTextLine>) :
             Iterator<JuriDecomposeTextLine> {
             private val siblings: MutableList<JuriDecomposeTextLine> =
-                ArrayList(siblings).also { it.sortBy { it.prefix } }
+                ArrayList(siblings).also { it.sortBy { it.prefix } }.reversed().toMutableList()
             private var next = siblings.firstOrNull { it.next == null }
 
             override fun hasNext(): Boolean {

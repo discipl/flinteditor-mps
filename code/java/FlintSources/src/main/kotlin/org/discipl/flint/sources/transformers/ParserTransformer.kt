@@ -4,7 +4,13 @@ import org.discipl.flint.sources.clients.ParserClient.Parser
 import org.discipl.flint.sources.models.PublicationParser
 import org.discipl.flint.sources.models.PublicationSource
 
+/**
+ * Transforms a [Parser] into a [PublicationParser]
+ */
 class ParserTransformer {
+    /**
+     * Transforms the given [parser] into a [PublicationParser]
+     */
     fun toPublicationParser(parser: Parser): PublicationParser {
         return PublicationParser(
             name = parser.name,

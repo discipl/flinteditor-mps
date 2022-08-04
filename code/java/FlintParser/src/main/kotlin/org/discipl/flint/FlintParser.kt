@@ -6,7 +6,9 @@ import org.discipl.flint.typeselector.ActCreateableAndTerminateableTypeSelector
 import org.discipl.flint.typeselector.DutyCreateableAndTerminateableTypeSelector
 import org.discipl.flint.typeselector.ResolvableTypeSelector
 
-
+/**
+ * Parse flint model related classes
+ */
 class FlintParser(json: String) {
     private val flintModel: FlintModel = GsonFireBuilder()
         .registerTypeSelector(
@@ -76,13 +78,13 @@ class FlintParser(json: String) {
     fun getFunctions(): Map<String, Resolvable> {
         return this.flintModel.facts
             .filter { it.function != null }
-            .map { it.fact.name to it.function!! }.toMap()
+            .associate { it.fact.name to it.function!! }
     }
 
     fun getPreconditions(): Map<String, Resolvable> {
         return this.flintModel.acts
             .filter { it.preconditions != null }
-            .map { it.act.name to it.preconditions!! }.toMap()
+            .associate { it.act.name to it.preconditions!! }
     }
 
     fun getLanguage(): Language? {

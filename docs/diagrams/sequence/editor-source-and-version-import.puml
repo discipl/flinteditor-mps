@@ -1,0 +1,30 @@
+@startuml
+actor User as user
+box Editor Classes
+participant LawSource_Editor as editor
+participant LawSource_Behavior as behavior
+end box
+participant SourceService as sservice
+participant VersionService as vservice
+
+user -> editor : enter bwbId
+user -> editor : click refresh
+editor -> behavior :refreshButton(context).actionPerformed(ActionEvent)
+behavior -> sservice: getSourceByBwbId(bwbId)
+behavior -> vservice: getVersionsForSourceBWBId(bwbId)
+alt success
+    sservice -> behavior: source
+    vservice -> behavior: versions
+    behavior -> behavior: OnSuccess
+    note right
+        adds versions as roots and
+        updates LawSource_Editor.name
+    end note
+    behavior -> editor: source
+    editor -> user: source
+else
+    sservice -> behavior: error
+    vservice -> behavior: error
+    behavior -> user: error message
+end
+@enduml

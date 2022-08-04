@@ -2,7 +2,7 @@
 <model ref="r:dc268d73-e96e-4a6a-a577-7ee51a77ca77(Vreemdelingenwet)">
   <persistence version="9" />
   <languages>
-    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="12" />
+    <use id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" version="14" />
   </languages>
   <imports>
     <import index="jov5" ref="r:9249307a-27f2-447e-8e8c-b4f939b97d5c(Flint.languages)" implicit="true" />
@@ -21,11 +21,12 @@
         <property id="778381075952164307" name="explanation" index="3ANC2_" />
       </concept>
       <concept id="6868897032739893310" name="Flint.structure.FlintSource" flags="ng" index="cog_b">
+        <property id="1495612730333317137" name="textSourceName" index="2XObfb" />
         <property id="1165398171153094508" name="language" index="1tl0gq" />
         <child id="7816114204006679678" name="betterText" index="2hN6Sa" />
       </concept>
       <concept id="6868897032739434615" name="Flint.structure.FlintModel" flags="ng" index="cu0$2">
-        <child id="4312083994569304675" name="languageReference" index="3a9ffC" />
+        <child id="4312083994569304675" name="editorLanguageReference" index="3a9ffC" />
       </concept>
       <concept id="6868897032739434618" name="Flint.structure.Fact" flags="ng" index="cu0$f">
         <property id="6953216201168192046" name="verified" index="3PosH_" />
@@ -137,6 +138,7 @@
     <node concept="cog_b" id="13qOoT8BfcK" role="2pmM46">
       <property role="3ANC2_" value="NOTABLE: Lijst met definities (geen detailverwijzing mogelijk). ERROR: Inmiddels is het eigenlijk de minister van Justitie en Veiligheid (sinds Rutte III beëdigd op 26 oktober 2017), maar dit is nog niet in de Vw vastgelegd." />
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdFt" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfcM" role="19SJt6">
           <property role="19SUeA" value="Onze Minister: Onze Minister van Veiligheid en Justitie" />
@@ -155,6 +157,7 @@
     <node concept="cog_b" id="13qOoT8BfcP" role="2pmM46">
       <property role="3ANC2_" value="NOTABLE: De structuur van dit artikel is meerdere keren veranderd sinds april 2001. Ook de plaats van dit fragment in het artikel verandert nogal eens. Maar de tekst zelf is vanaf de eerste versie niet veranderd. De juriconnect referentie verwijst naar de versie van 2002-01-01 omdat dat de eerste versie is waarvoor een link bestaat." />
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdFv" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfcS" role="19SJt6">
           <property role="19SUeA" value="vreemdeling: ieder die de Nederlandse nationaliteit niet bezit en niet op grond van een wettelijke bepaling als Nederlander moet worden behandeld" />
@@ -173,6 +176,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfcU" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdFx" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfcW" role="19SJt6">
           <property role="19SUeA" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een machtiging tot voorlopig verblijf dan wel terugkeervisum in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
@@ -191,6 +195,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfcZ" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdFz" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfd1" role="19SJt6">
           <property role="19SUeA" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een machtiging tot voorlopig verblijf dan wel terugkeervisum in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
@@ -209,6 +214,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfd4" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdF_" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfd6" role="19SJt6">
           <property role="19SUeA" value="de door de vreemdeling ingediende aanvraag niet door de vreemdeling in persoon is ingediend" />
@@ -226,6 +232,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfd9" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdFB" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfdc" role="19SJt6">
           <property role="19SUeA" value="voor de aanvraag in voorkomend geval geen gebruik is gemaakt van een daartoe voorgeschreven formulier dat volledig is ingevuld en ondertekend" />
@@ -243,6 +250,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfde" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdFD" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfdg" role="19SJt6">
           <property role="19SUeA" value="de aanvraag niet is gesteld in de Nederlandse, Franse of Engelse taal; of" />
@@ -260,6 +268,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfdj" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdFF" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfdm" role="19SJt6">
           <property role="19SUeA" value="de ter afdoening van de aanvraag verschuldigde leges niet zijn betaald" />
@@ -277,6 +286,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfdo" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdFH" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfdr" role="19SJt6">
           <property role="19SUeA" value="Onze Minister kan een machtiging tot voorlopig verblijf verlenen aan de vreemdeling ten aanzien van wie is aangetoond dat hij voldoet aan de vereisten voor toegang en verlening van een verblijfsvergunning." />
@@ -294,6 +304,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfdt" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdFJ" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfdw" role="19SJt6">
           <property role="19SUeA" value="Onze Minister kan in afwijking van het eerste lid een machtiging tot voorlopig verblijf verlenen indien daarmee een wezenlijk Nederlands belang is gediend of klemmende redenen van humanitaire aard daartoe nopen dan wel het belang van de internationale betrekkingen de verlening van een machtiging tot voorlopig verblijf vordert." />
@@ -311,6 +322,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfdy" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdFL" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfd_" role="19SJt6">
           <property role="19SUeA" value="Onze Minister kan in afwijking van het eerste lid een machtiging tot voorlopig verblijf verlenen indien daarmee een wezenlijk Nederlands belang is gediend of klemmende redenen van humanitaire aard daartoe nopen dan wel het belang van de internationale betrekkingen de verlening van een machtiging tot voorlopig verblijf vordert." />
@@ -328,6 +340,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfdB" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdFN" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfdE" role="19SJt6">
           <property role="19SUeA" value="Onze Minister kan in afwijking van het eerste lid een machtiging tot voorlopig verblijf verlenen indien daarmee een wezenlijk Nederlands belang is gediend of klemmende redenen van humanitaire aard daartoe nopen dan wel het belang van de internationale betrekkingen de verlening van een machtiging tot voorlopig verblijf vordert." />
@@ -346,6 +359,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfdG" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdFP" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfdI" role="19SJt6">
           <property role="19SUeA" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
@@ -364,6 +378,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfdL" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdFR" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfdO" role="19SJt6">
           <property role="19SUeA" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
@@ -382,6 +397,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfdQ" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdFT" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfdT" role="19SJt6">
           <property role="19SUeA" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
@@ -400,6 +416,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfdV" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdFV" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfdX" role="19SJt6">
           <property role="19SUeA" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
@@ -418,6 +435,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfe0" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdFX" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfe3" role="19SJt6">
           <property role="19SUeA" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
@@ -436,6 +454,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfe5" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdFZ" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfe8" role="19SJt6">
           <property role="19SUeA" value="Een verblijfsvergunning voor bepaalde tijd wordt verleend onder beperkingen, verband houdende met het doel waarvoor het verblijf is toegestaan." />
@@ -462,6 +481,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfee" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdG1" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfeh" role="19SJt6">
           <property role="19SUeA" value="Een verblijfsvergunning voor bepaalde tijd wordt verleend onder beperkingen, verband houdende met het doel waarvoor het verblijf is toegestaan." />
@@ -480,6 +500,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfei" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdG3" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfel" role="19SJt6">
           <property role="19SUeA" value="Een verblijfsvergunning voor bepaalde tijd wordt verleend onder beperkingen, verband houdende met het doel waarvoor het verblijf is toegestaan." />
@@ -557,6 +578,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfjZ" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdG5" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfk2" role="19SJt6">
           <property role="19SUeA" value="verblijf als familie- of gezinslid" />
@@ -575,6 +597,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfk3" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdG7" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfk6" role="19SJt6">
           <property role="19SUeA" value="verblijf als economisch niet-actieve langdurig ingezetene of vermogende vreemdeling" />
@@ -593,6 +616,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfk7" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdG9" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfk9" role="19SJt6">
           <property role="19SUeA" value="arbeid als zelfstandige" />
@@ -611,6 +635,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfkb" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGb" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfkd" role="19SJt6">
           <property role="19SUeA" value="arbeid als kennismigrant" />
@@ -629,6 +654,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfkf" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGd" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfki" role="19SJt6">
           <property role="19SUeA" value="verblijf als houder van de Europese blauwe kaart" />
@@ -647,6 +673,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfkj" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGf" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfkm" role="19SJt6">
           <property role="19SUeA" value="seizoensarbeid" />
@@ -665,6 +692,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfkn" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGh" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfkq" role="19SJt6">
           <property role="19SUeA" value="overplaatsing binnen een onderneming" />
@@ -683,6 +711,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfkr" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGj" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfkt" role="19SJt6">
           <property role="19SUeA" value="arbeid in loondienst" />
@@ -701,6 +730,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfkv" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGl" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfky" role="19SJt6">
           <property role="19SUeA" value="grensoverschrijdende dienstverlening" />
@@ -719,6 +749,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfkz" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGn" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfkA" role="19SJt6">
           <property role="19SUeA" value="onderzoek in de zin van richtlijn (EU) 2016/801" />
@@ -737,6 +768,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfkB" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGp" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfkE" role="19SJt6">
           <property role="19SUeA" value="lerend werken" />
@@ -755,6 +787,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfkF" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGr" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfkH" role="19SJt6">
           <property role="19SUeA" value="arbeid als niet-geprivilegieerd militair of niet-geprivilegieerd burgerpersoneel" />
@@ -773,6 +806,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfkJ" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGt" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfkM" role="19SJt6">
           <property role="19SUeA" value="studie" />
@@ -791,6 +825,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfkN" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGv" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfkQ" role="19SJt6">
           <property role="19SUeA" value="het zoeken naar en verrichten van arbeid al dan niet in loondienst" />
@@ -809,6 +844,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfkR" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGx" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfkU" role="19SJt6">
           <property role="19SUeA" value="uitwisseling, al dan niet in het kader van een verdrag" />
@@ -827,6 +863,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfkV" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGz" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfkY" role="19SJt6">
           <property role="19SUeA" value="medische behandeling" />
@@ -845,6 +882,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfkZ" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdG_" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfl2" role="19SJt6">
           <property role="19SUeA" value="tijdelijke humanitaire gronden" />
@@ -863,6 +901,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfl3" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGB" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfl6" role="19SJt6">
           <property role="19SUeA" value="het afwachten van een verzoek op grond vanartikel 17 van de Rijkswet op het Nederlanderschap" />
@@ -881,6 +920,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfl7" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGD" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfla" role="19SJt6">
           <property role="19SUeA" value="niet-tijdelijke humanitaire gronden" />
@@ -898,6 +938,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfeY" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGF" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bff1" role="19SJt6">
           <property role="19SUeA" value="de vreemdeling niet beschikt over een geldige machtiging tot voorlopig verblijf die overeenkomt met het verblijfsdoel waarvoor de verblijfsvergunning is aangevraagd" />
@@ -916,6 +957,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bff3" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGH" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bff6" role="19SJt6">
           <property role="19SUeA" value="de vreemdeling niet beschikt over een geldig document voor grensoverschrijding" />
@@ -934,6 +976,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bff8" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGJ" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bffb" role="19SJt6">
           <property role="19SUeA" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
@@ -959,6 +1002,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bffh" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGL" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bffk" role="19SJt6">
           <property role="19SUeA" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
@@ -990,6 +1034,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bffu" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGN" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bffx" role="19SJt6">
           <property role="19SUeA" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
@@ -1021,6 +1066,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BffC" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGP" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BffF" role="19SJt6">
           <property role="19SUeA" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
@@ -1039,6 +1085,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BffK" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGR" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BffN" role="19SJt6">
           <property role="19SUeA" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
@@ -1126,6 +1173,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfgq" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGT" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfgt" role="19SJt6">
           <property role="19SUeA" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
@@ -1191,6 +1239,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfgT" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGV" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfgW" role="19SJt6">
           <property role="19SUeA" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
@@ -1221,6 +1270,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BffG" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGX" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BffJ" role="19SJt6">
           <property role="19SUeA" value="de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan" />
@@ -1238,6 +1288,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bflb" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdGZ" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfle" role="19SJt6">
           <property role="19SUeA" value="wettelijk toegestane arbeid in loondienst, voorzover de vereiste premies en belastingen zijn afgedragen" />
@@ -1255,6 +1306,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bflr" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdH1" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bflu" role="19SJt6">
           <property role="19SUeA" value="wettelijk toegestane arbeid in loondienst, voorzover de vereiste premies en belastingen zijn afgedragen/wettelijk toegestane arbeid als zelfstandige, voorzover de vereiste premies en belastingen zijn afgedragen" />
@@ -1280,6 +1332,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bflf" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdH3" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfli" role="19SJt6">
           <property role="19SUeA" value="wettelijk toegestane arbeid als zelfstandige, voorzover de vereiste premies en belastingen zijn afgedragen" />
@@ -1297,6 +1350,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bflj" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdH5" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bflm" role="19SJt6">
           <property role="19SUeA" value="inkomensvervangende uitkeringen krachtens een sociale verzekeringswet waarvoor premies zijn afgedragen, of" />
@@ -1315,6 +1369,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfly" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdH7" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfl_" role="19SJt6">
           <property role="19SUeA" value="wettelijk toegestane arbeid in loondienst, voorzover de vereiste premies en belastingen zijn afgedragen/wettelijk toegestane arbeid als zelfstandige, voorzover de vereiste premies en belastingen zijn afgedragen/inkomensvervangende uitkeringen krachtens een sociale verzekeringswet waarvoor premies zijn afgedragen/eigen vermogen, voorzover de bron van de inkomsten niet wordt aangetast en de vereiste belastingen zijn afgedragen" />
@@ -1332,6 +1387,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfln" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdH9" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bflq" role="19SJt6">
           <property role="19SUeA" value="eigen vermogen, voorzover de bron van de inkomsten niet wordt aangetast en de vereiste premies en belastingen zijn afgedragen" />
@@ -1360,6 +1416,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BflA" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHb" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BflD" role="19SJt6">
           <property role="19SUeA" value="wettelijk toegestane arbeid in loondienst, voorzover de vereiste premies en belastingen zijn afgedragen/wettelijk toegestane arbeid als zelfstandige, voorzover de vereiste premies en belastingen zijn afgedragen/eigen vermogen, voorzover de bron van de inkomsten niet wordt aangetast en de vereiste belastingen zijn afgedragen" />
@@ -1377,6 +1434,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BflE" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHd" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BflH" role="19SJt6">
           <property role="19SUeA" value="in geval van verblijf voor onderzoek in de zin van richtlijn (EU) 2016/801, studie, lerend werken of uitwisseling in het kader van Europees vrijwilligerswerk: financiële ondersteuning van de referent, een subsidie, een beurs of een toelage" />
@@ -1394,6 +1452,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BflI" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHf" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BflL" role="19SJt6">
           <property role="19SUeA" value="in geval van verblijf voor onderzoek in de zin van richtlijn (EU) 2016/801, studie, lerend werken of uitwisseling in het kader van Europees vrijwilligerswerk: financiële ondersteuning van de referent, een subsidie, een beurs of een toelage" />
@@ -1412,6 +1471,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BflM" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHh" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BflP" role="19SJt6">
           <property role="19SUeA" value="in geval van verblijf voor onderzoek in de zin van richtlijn (EU) 2016/801, studie, lerend werken of uitwisseling in het kader van Europees vrijwilligerswerk: financiële ondersteuning van de referent, een subsidie, een beurs of een toelage" />
@@ -1429,6 +1489,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BflQ" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHj" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BflT" role="19SJt6">
           <property role="19SUeA" value="in geval van verblijf voor onderzoek in de zin van richtlijn (EU) 2016/801, studie, lerend werken of uitwisseling in het kader van Europees vrijwilligerswerk: financiële ondersteuning van de referent, een subsidie, een beurs of een toelage" />
@@ -1446,6 +1507,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfmB" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHl" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfmE" role="19SJt6">
           <property role="19SUeA" value="Middelen van bestaan verkregen uit eigen vermogen zijn duurzaam, indien zij gedurende een aaneengesloten periode van een jaar beschikbaar zijn geweest en nog beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven." />
@@ -1463,6 +1525,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfmF" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHn" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfmI" role="19SJt6">
           <property role="19SUeA" value="Middelen van bestaan verkregen uit eigen vermogen zijn duurzaam, indien zij gedurende een aaneengesloten periode van een jaar beschikbaar zijn geweest en nog beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven." />
@@ -1481,6 +1544,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfmJ" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHp" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfmM" role="19SJt6">
           <property role="19SUeA" value="In afwijking van het eerste lid, zijn middelen van bestaan verkregen uit arbeid in loondienst eveneens duurzaam, indien op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven gedurende een aaneengesloten periode van drie jaren jaarlijks voldoende middelen van bestaan uit arbeid in loondienst zijn verworven en de middelen van bestaan nog beschikbaar zijn." />
@@ -1501,6 +1565,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfmO" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHr" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfmR" role="19SJt6">
           <property role="19SUeA" value="In afwijking van het eerste lid, zijn middelen van bestaan verkregen uit arbeid in loondienst eveneens duurzaam, indien op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven gedurende een aaneengesloten periode van drie jaren jaarlijks voldoende middelen van bestaan uit arbeid in loondienst zijn verworven en de middelen van bestaan nog beschikbaar zijn." />
@@ -1518,6 +1583,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfmS" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHt" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfmV" role="19SJt6">
           <property role="19SUeA" value="In afwijking van het eerste lid, zijn middelen van bestaan verkregen uit arbeid in loondienst eveneens duurzaam, indien op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven gedurende een aaneengesloten periode van drie jaren jaarlijks voldoende middelen van bestaan uit arbeid in loondienst zijn verworven en de middelen van bestaan nog beschikbaar zijn." />
@@ -1535,6 +1601,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfmW" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHv" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfmZ" role="19SJt6">
           <property role="19SUeA" value="In afwijking van het eerste lid, zijn middelen van bestaan verkregen uit arbeid in loondienst eveneens duurzaam, indien op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven gedurende een aaneengesloten periode van drie jaren jaarlijks voldoende middelen van bestaan uit arbeid in loondienst zijn verworven en de middelen van bestaan nog beschikbaar zijn." />
@@ -1552,6 +1619,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfn0" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHx" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfn3" role="19SJt6">
           <property role="19SUeA" value="In afwijking van het eerste lid, zijn middelen van bestaan verkregen uit arbeid in loondienst eveneens duurzaam, indien op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven gedurende een aaneengesloten periode van drie jaren jaarlijks voldoende middelen van bestaan uit arbeid in loondienst zijn verworven en de middelen van bestaan nog beschikbaar zijn." />
@@ -1570,6 +1638,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfmv" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHz" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfmy" role="19SJt6">
           <property role="19SUeA" value="Middelen van bestaan verkregen uit eigen vermogen zijn duurzaam, indien zij gedurende een aaneengesloten periode van een jaar beschikbaar zijn geweest en nog beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven." />
@@ -1587,6 +1656,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfmz" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdH_" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfmA" role="19SJt6">
           <property role="19SUeA" value="Middelen van bestaan verkregen uit eigen vermogen zijn duurzaam, indien zij gedurende een aaneengesloten periode van een jaar beschikbaar zijn geweest en nog beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven." />
@@ -1605,6 +1675,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfh5" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHB" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfh8" role="19SJt6">
           <property role="19SUeA" value="het minimumloon, bedoeld in de artikelen 8, eerste lid, onder a, en 14, van de Wet minimumloon en minimumvakantiebijslag, met inbegrip van de vakantiebijslag, bedoeld in artikel 15 van die wet;" />
@@ -1631,6 +1702,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfhl" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHD" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfho" role="19SJt6">
           <property role="19SUeA" value="in bij regeling van Onze Minister aangewezen gevallen: 150 procent van het minimumloon, bedoeld in onderdeel a." />
@@ -1669,6 +1741,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfmi" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHF" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfml" role="19SJt6">
           <property role="19SUeA" value="De in artikel 16, eerste lid, onder c, van de Wet bedoelde middelen van bestaan zijn eveneens voldoende, indien het netto-inkomen ten minste gelijk is aan het normbedrag voor uitwonende studenten, bedoeld in de Wet op de Studiefinanciering 2000, indien de vreemdeling in Nederland verblijft of wil verblijven voor studie." />
@@ -1772,6 +1845,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfh$" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHH" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfhB" role="19SJt6">
           <property role="19SUeA" value="de vreemdeling een gevaar vormt voor de openbare orde of nationale veiligheid" />
@@ -1789,6 +1863,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfhD" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHJ" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfhG" role="19SJt6">
           <property role="19SUeA" value="de vreemdeling niet bereid is om medewerking te verlenen aan een medisch onderzoek naar een ziekte aangewezen bij of krachtens de Infectieziektewet, ter bescherming van de volksgezondheid of een medische behandeling tegen een dergelijke ziekte te ondergaan;" />
@@ -1807,6 +1882,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfhI" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHL" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfhL" role="19SJt6">
           <property role="19SUeA" value="de vreemdeling voor een werkgever arbeid verricht, zonder dat aan deWet arbeid vreemdelingenis voldaan" />
@@ -1824,6 +1900,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfhN" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHN" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfhQ" role="19SJt6">
           <property role="19SUeA" value="de vreemdeling niet voldoet aan de beperking, verband houdende met het doel waarvoor hij wil verblijven" />
@@ -1841,6 +1918,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfhS" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHP" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfhV" role="19SJt6">
           <property role="19SUeA" value="de vreemdeling, die niet behoort tot een der categorieën, bedoeld in artikel 17, eerste lid, na verkrijging van rechtmatig verblijf in Nederland inburgeringsplichtig zou zijn op grond van de artikel en 3 en 5 van de Wet inburgering en niet beschikt over kennis op basisniveau van de Nederlandse taal en de Nederlandse maatschappij" />
@@ -1859,6 +1937,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfhX" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHR" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfi0" role="19SJt6">
           <property role="19SUeA" value="de vreemdeling onjuiste gegevens heeft verstrekt dan wel gegevens heeft achtergehouden terwijl die gegevens tot afwijzing van een eerdere aanvraag tot het verlenen, verlengen of wijzigen van een visum of een verblijfsvergunning hebben geleid of zouden hebben geleid" />
@@ -1877,6 +1956,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfi2" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHT" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfi5" role="19SJt6">
           <property role="19SUeA" value="de vreemdeling in Nederland verblijf heeft gehouden, anders dan op grond van artikel 8" />
@@ -1895,6 +1975,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfi7" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHV" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfia" role="19SJt6">
           <property role="19SUeA" value="ten behoeve van het verblijf van de vreemdeling geen verklaring van een referent is overgelegd als bedoeld in artikel 2a, eerste lid" />
@@ -1912,6 +1993,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfic" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHX" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfif" role="19SJt6">
           <property role="19SUeA" value="de houder daarvan zijn hoofdverblijf buiten Nederland heeft gevestigd" />
@@ -1930,6 +2012,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfih" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdHZ" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfik" role="19SJt6">
           <property role="19SUeA" value="de vreemdeling onjuiste gegevens heeft verstrekt dan wel gegevens heeft achtergehouden terwijl die gegevens tot afwijzing van de oorspronkelijke aanvraag tot het verlenen of verlengen zouden hebben geleid" />
@@ -1948,6 +2031,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfim" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdI1" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfip" role="19SJt6">
           <property role="19SUeA" value="niet wordt voldaan aan de beperking waaronder de vergunning is verleend of een voorschrift dat aan de vergunning is verbonden;" />
@@ -1965,6 +2049,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfir" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdI3" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfiu" role="19SJt6">
           <property role="19SUeA" value="de vreemdeling niet heeft voldaan aan de inburgeringsplicht, bedoeld inartikel 7, eerste lid, van de Wet inburgering" />
@@ -1982,6 +2067,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfiw" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdI5" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfiz" role="19SJt6">
           <property role="19SUeA" value="De vreemdeling is, in door Onze Minister te bepalen gevallen en volgens door Onze Minister te geven regels, leges verschuldigd terzake van de afdoening van een aanvraag." />
@@ -1999,6 +2085,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfi_" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdI7" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfiC" role="19SJt6">
           <property role="19SUeA" value="Als betaling achterwege blijft, wordt de aanvraag niet in behandeling genomen dan wel het document niet afgegeven." />
@@ -2016,6 +2103,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfiE" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdI9" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfiH" role="19SJt6">
           <property role="19SUeA" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
@@ -2046,6 +2134,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfiQ" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdIb" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfiT" role="19SJt6">
           <property role="19SUeA" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
@@ -2083,6 +2172,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfjD" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdId" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfjG" role="19SJt6">
           <property role="19SUeA" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
@@ -2101,6 +2191,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfjH" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdIf" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfjK" role="19SJt6">
           <property role="19SUeA" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
@@ -2119,6 +2210,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfjV" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdIh" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfjY" role="19SJt6">
           <property role="19SUeA" value="Voor zover op grond van de Europese verordeningen die betrekking hebben op biometrische gegevens geen gezichtsopname of vingerafdrukken kunnen worden afgenomen en verwerkt, kunnen van een vreemdeling een gezichtsopname en tien vingerafdrukken worden afgenomen en verwerkt voor het vaststellen van de identiteit met het oog op de uitvoering van deze wet." />
@@ -2137,6 +2229,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfj6" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdIj" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfj9" role="19SJt6">
           <property role="19SUeA" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
@@ -2205,6 +2298,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfjt" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdIl" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfjw" role="19SJt6">
           <property role="19SUeA" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
@@ -2222,6 +2316,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfjx" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdIn" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfj$" role="19SJt6">
           <property role="19SUeA" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
@@ -2239,6 +2334,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfj_" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdIp" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfjC" role="19SJt6">
           <property role="19SUeA" value="De verblijfsvergunning, die van rechtswege rechtmatig verblijf inhoudt, wordt verleend met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen." />
@@ -2257,6 +2353,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfjM" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdIr" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfjP" role="19SJt6">
           <property role="19SUeA" value="In afwijking van artikel 8 kan de vreemdeling jegens wie een inreisverbod geldt of die is gesignaleerd ter fine van weigering van de toegang geen rechtmatig verblijf hebben, met uitzondering van het rechtmatig verblijf:" />
@@ -2275,6 +2372,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfjR" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdIt" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfjU" role="19SJt6">
           <property role="19SUeA" value="In afwijking van artikel 8 kan de ongewenst verklaarde vreemdeling geen rechtmatig verblijf hebben." />
@@ -2293,6 +2391,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BflV" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdIv" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BflY" role="19SJt6">
           <property role="19SUeA" value="het minimumloon, bedoeld in de artikelen 8, eerste lid, onder a, en 14, van de Wet minimumloon en minimumvakantiebijslag, met inbegrip van de vakantiebijslag, bedoeld in artikel 15 van die wet" />
@@ -2331,6 +2430,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfme" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdIx" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfmh" role="19SJt6">
           <property role="19SUeA" value="in bij regeling van Onze Minister aangewezen gevallen: 150 procent van het minimumloon, bedoeld in onderdeel a." />
@@ -2349,6 +2449,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfm6" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdIz" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfm9" role="19SJt6">
           <property role="19SUeA" value="in bij ministeriële regeling aangewezen gevallen: 150 procent van het minimumloon, bedoeld in onderdeel a" />
@@ -2394,6 +2495,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfmr" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdI_" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfmu" role="19SJt6">
           <property role="19SUeA" value="De in artikel 16, eerste lid, onder c, van de Wet bedoelde middelen van bestaan zijn in ieder geval duurzaam, indien zij nog één jaar beschikbaar zijn op het tijdstip waarop de aanvraag is ontvangen of de beschikking wordt gegeven." />
@@ -2413,6 +2515,7 @@
     <node concept="cog_b" id="13qOoT8Bfn8" role="2pmM46">
       <property role="3ANC2_" value="NOTABLE: Deze clause is op 11-08-2008 gepubliceerd als art. 2c Vw en trad op 01-06-2013 in werking als art. 2k." />
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdFb" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfna" role="19SJt6">
           <property role="19SUeA" value="Onze Minister is bevoegd: de aanvraag tot het verlenen van een machtiging tot voorlopig verblijf dan wel terugkeervisum in te willigen, af te wijzen dan wel niet in behandeling te nemen" />
@@ -2477,6 +2580,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfnv" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdFd" role="2hN6Sa">
         <node concept="2h$EKm" id="45WVu5_cdFf" role="19SJt6">
           <property role="19SUeA" value="Onze" />
@@ -3077,6 +3181,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfoc" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdFj" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8Bfoe" role="19SJt6">
           <property role="19SUeA" value="Onze Minister is bevoegd: a. de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen;" />
@@ -3137,6 +3242,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfoP" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdFn" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfoR" role="19SJt6">
           <property role="19SUeA" value="Een verblijfsvergunning voor bepaalde tijd wordt verleend onder beperkingen, verband houdende met het doel waarvoor het verblijf is toegestaan." />
@@ -3164,6 +3270,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfoJ" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdFp" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfoL" role="19SJt6">
           <property role="19SUeA" value="De verblijfsvergunning voor bepaalde tijd wordt verleend voor ten hoogste vijf achtereenvolgende jaren. " />
@@ -3188,6 +3295,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8BfoW" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdFr" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfoY" role="19SJt6">
           <property role="19SUeA" value="Onze Minister verschaft aan de vreemdeling, die rechtmatig verblijf heeft op grond van artikel 8, onder a tot en met d, f tot en met h en j tot en met m, en aan de vreemdeling die rechtmatig verblijf heeft op grond van artikel 8, onder e, en gemeenschapsonderdaan is als bedoeld in artikel 1, sub 2°, 4° en 6°, een document of schriftelijke verklaring, waaruit het rechtmatig verblijf blijkt." />
@@ -3215,6 +3323,7 @@
     <property role="2CxiQ9" value="0" />
     <node concept="cog_b" id="13qOoT8Bfo_" role="2pmM46">
       <property role="1tl0gq" value="English" />
+      <property role="2XObfb" value="Source missing" />
       <node concept="2hPCcK" id="45WVu5_cdFl" role="2hN6Sa">
         <node concept="19SUe$" id="13qOoT8BfoB" role="19SJt6">
           <property role="19SUeA" value="Onze Minister is bevoegd: a. de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd in te willigen, af te wijzen dan wel niet in behandeling te nemen;" />

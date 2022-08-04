@@ -6,6 +6,9 @@ import io.ktor.client.request.*
 import kotlinx.coroutines.runBlocking
 import java.util.*
 
+/**
+ * The [BaseNsxTextLineClient] for the DEV Quintor API uses local host instead of nsx url
+ */
 class DevQuintorApiNsxTextLineClient(private val httpClient: HttpClient) : QuintorApiNsxTextLineClient(httpClient) {
     override fun requestParsing(publicationId: UUID, parserId: UUID, versionId: String): UUID = runBlocking {
         UUID.randomUUID()

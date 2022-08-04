@@ -6,7 +6,15 @@ import com.google.gson.JsonElement
 import java.lang.reflect.ParameterizedType
 import java.lang.reflect.Type
 
+/**
+ * Specifies how to deserialize [NsxEmbeddedResult]s
+ */
 class NsxEmbeddedResultDeserializer : JsonDeserializer<NsxEmbeddedResult<*>> {
+    /**
+     * Grab the first property of the [NsxEmbeddedResult]'s json and deserialize it's children as a list
+     * { "_embedded": { "keyToIgnore": [child1, child2, child3] } } -> { "_embedded": [child1, child2, child3] }
+     * This is done so a new class doesn't have to be made for every result type.
+     */
     override fun deserialize(
         json: JsonElement,
         typeOfT: Type?,

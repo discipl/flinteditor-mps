@@ -6,6 +6,9 @@ import io.ktor.client.call.*
 import io.ktor.client.statement.*
 import org.discipl.flint.sources.clients.AsyncTextLineClient
 
+/**
+ * The [BaseNsxTextLineClient] for the Quintor API
+ */
 open class QuintorApiNsxTextLineClient(httpClient: HttpClient) :
     BaseNsxTextLineClient<QuintorApiNsxTextLineClient.QuintorApiNsxTextLine>(httpClient) {
     data class QuintorApiNsxTextLine(
@@ -23,7 +26,7 @@ open class QuintorApiNsxTextLineClient(httpClient: HttpClient) :
         @SerializedName("juriconnect")
         override val juriConnect: String?,
         val tag: String,
-    ) : AsyncTextLineClient.NewTextLine
+    ) : AsyncTextLineClient.TextLine
 
     override suspend fun getBody(httpResponse: HttpResponse): List<QuintorApiNsxTextLine> {
         return httpResponse.body<NsxTextLinesForVersionResult<QuintorApiNsxTextLine>>().results

@@ -6,6 +6,9 @@ import io.ktor.client.call.*
 import io.ktor.client.statement.*
 import org.discipl.flint.sources.clients.AsyncTextLineClient
 
+/**
+ * The [BaseNsxTextLineClient] for CSVs
+ */
 class CsvNsxTextLineClient(httpClient: HttpClient) :
     BaseNsxTextLineClient<CsvNsxTextLineClient.CsvTextLine>(httpClient) {
     data class CsvTextLine(
@@ -25,7 +28,7 @@ class CsvNsxTextLineClient(httpClient: HttpClient) :
         val structureCategory: String,
         @SerializedName("structuralIndex")
         val structuurkenmerk: StructuurKenmerk?,
-    ) : AsyncTextLineClient.NewTextLine
+    ) : AsyncTextLineClient.TextLine
 
     data class StructuurKenmerk(
         val iri: String,

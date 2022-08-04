@@ -6,6 +6,9 @@ import com.google.gson.JsonPrimitive
 import io.gsonfire.TypeSelector
 import org.discipl.flint.*
 
+/**
+ * Specifies which implementation of [Expression] should be used for serialization
+ */
 class ExpressionTypeSelector : TypeSelector<Expression> {
     override fun getClassForElement(readElement: JsonElement): Class<out Expression> {
         val expression = ((readElement as? JsonObject)?.get("expression") as? JsonPrimitive)?.asString

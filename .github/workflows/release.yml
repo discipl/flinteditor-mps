@@ -39,7 +39,7 @@ jobs:
       - name: Get Release Logs
         id: get_release_logs
         run: |
-          LOGS=$(./commitlogs.sh)
+          LOGS=$(./scripts/commitlogs.sh)
           echo "$LOGS"
           LOGS="${LOGS//'%'/'%25'}"
           LOGS="${LOGS//$'\n'/'%0A'}"

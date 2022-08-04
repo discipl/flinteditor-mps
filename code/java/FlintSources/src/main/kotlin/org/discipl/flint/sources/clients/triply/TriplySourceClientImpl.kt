@@ -5,14 +5,13 @@ import org.apache.jena.query.ParameterizedSparqlString
 import org.apache.jena.query.Query
 import org.apache.jena.query.QueryFactory
 import org.apache.jena.query.QuerySolution
-import org.discipl.flint.sources.clients.IHasSolution
-import org.discipl.flint.sources.clients.QueryExecutor
-import org.discipl.flint.sources.clients.SourceClient
+import org.discipl.flint.sources.clients.*
 import org.discipl.flint.sources.clients.SourceClient.BWBSource
-import org.discipl.flint.sources.clients.querySolutionString
 
+/**
+ * See [SourceClient]
+ */
 class TriplySourceClientImpl(private val queryExecutor: QueryExecutor) : SourceClient {
-    // TODO make sure to get the latest one somehow
     companion object {
         private val query: String = """
             PREFIX changeset: <https://fin.triply.cc/ole/BWB/changeset/>
@@ -43,15 +42,14 @@ class TriplySourceClientImpl(private val queryExecutor: QueryExecutor) : SourceC
         val queryString = pss.toString()
         val query: Query = QueryFactory.create(queryString)
         return queryExecutor.executeQuery(query) {
-            if (!it.hasNext()) return@executeQuery null
-            return@executeQuery MappedBWBSource(it.nextSolution())
+            it.toSolutionOrNull()?.let { solution -> MappedBWBSource(solution) }
         }
     }
 
     class MappedBWBSource(override val querySolution: QuerySolution) : BWBSource, IHasSolution {
         override val bwb: String by querySolutionString()
         override val title: String by querySolutionString()
-        val juriconnectS: String by querySolutionString("juriconnect")
+        private val juriconnectS: String by querySolutionString("juriconnect")
         override val juriconnect: String = juriconnectS.split(",").lastOrNull()?.substringBefore("&") ?: ""
 
         override fun toString(): String {

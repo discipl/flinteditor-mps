@@ -1,0 +1,21 @@
+@startuml
+
+title Importing Sources
+
+actor User as user
+participant Editor as editor
+participant "SourceService" as sourceService
+box "Triply"
+participant SourceClient as sourceClient
+end box
+participant SourceTransformer as sourceTransformer
+
+user -> editor : bwb
+editor -> sourceService : getSourceByBwbId(bwb)
+sourceService -> sourceClient : getSourceByBwbId(bwb)
+sourceClient -> sourceService : sourceJson
+sourceService -> sourceTransformer : toSource(sourceJson)
+sourceTransformer -> sourceService : source
+sourceService -> editor : source
+editor -> user : source
+@enduml

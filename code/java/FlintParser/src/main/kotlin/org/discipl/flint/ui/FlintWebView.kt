@@ -4,6 +4,9 @@ import java.awt.BorderLayout
 import java.nio.file.Path
 import javax.swing.JPanel
 
+/**
+ * The Swing panel that holds and controls the [FlintWebViewJfxPanel]
+ */
 class FlintWebView(assetFilePath: Path, logger: JSLogger) : JPanel() {
     private val jfxPanel: FlintWebViewJfxPanel =
         FlintWebViewJfxPanel(assetFilePath, logger)

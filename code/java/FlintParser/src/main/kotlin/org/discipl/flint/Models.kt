@@ -1,5 +1,9 @@
 package org.discipl.flint
 
+/**
+ * This file contains all Flint related models used to deserialization
+ */
+
 import com.google.gson.annotations.SerializedName
 
 data class FlintModel(

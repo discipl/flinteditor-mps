@@ -6,6 +6,9 @@ import com.google.gson.JsonElement
 import org.discipl.flint.FactReference
 import java.lang.reflect.Type
 
+/**
+ * Trim [ and ] from fact reference
+ */
 class FactReferenceDeserializer : JsonDeserializer<FactReference> {
     override fun deserialize(json: JsonElement, typeOfT: Type, context: JsonDeserializationContext): FactReference? {
         if (json.asString.equals("<<>>")) return null

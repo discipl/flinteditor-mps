@@ -1,7 +1,6 @@
 package org.discipl.flint.sources.services
 
 import com.github.seregamorph.hamcrest.OrderMatchers.strictOrdered
-import kotlinx.coroutines.runBlocking
 import mu.KLogging
 import org.discipl.flint.sources.clients.nsx.QuintorApiNsxTextLineClient
 import org.discipl.flint.sources.clients.nsx.models.NsxTextLinesForVersionRequest
@@ -208,6 +207,7 @@ internal class SourceTextServiceTest : KoinTest, TestWithTestExtension() {
             is PrefixContainer -> return "$offsetString${this.prefix}\n${
                 this.children.joinToString("\n") { it.text(offset + 1) }
             }"
+
             is Container -> return this.children.joinToString("\n") { it.text(offset + 1) }
         }
         return "Implement $this"
