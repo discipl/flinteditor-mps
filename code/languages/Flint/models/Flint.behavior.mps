@@ -373,7 +373,11 @@
       </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="5858074156537516430" name="jetbrains.mps.baseLanguage.javadoc.structure.ReturnBlockDocTag" flags="ng" index="x79VA">
+        <property id="5858074156537516431" name="text" index="x79VB" />
+      </concept>
       <concept id="6832197706140518104" name="jetbrains.mps.baseLanguage.javadoc.structure.DocMethodParameterReference" flags="ng" index="zr_55" />
+      <concept id="6832197706140518107" name="jetbrains.mps.baseLanguage.javadoc.structure.DocTypeParameterReference" flags="ng" index="zr_56" />
       <concept id="6832197706140518103" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseParameterReference" flags="ng" index="zr_5a">
         <reference id="6832197706140518108" name="param" index="zr_51" />
       </concept>
@@ -5974,6 +5978,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="3vZfbfP$tUZ" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqGho" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqGhp" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqGhq" role="1dT_Ay">
+          <property role="1dT_AB" value="This class provides a default to display nodes in the editor, also removes the block editor when applicable." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="4aWSgWx8m50">
     <property role="3GE5qa" value="expressions.literals" />
@@ -6419,6 +6430,18 @@
       <node concept="3cqZAl" id="4NVq1WbmMI0" role="3clF45" />
     </node>
     <node concept="3Tm1VV" id="4NVq1Wbmtyf" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXjoQ_" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXjoQA" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXjoQB" role="1dT_Ay">
+          <property role="1dT_AB" value="Provides connection behaviour for the diagram block editor. For more information see" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXjoVC" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXjoVD" role="1dT_Ay">
+          <property role="1dT_AB" value="https://dslfoundry.com/using-the-diagram-editor-and-querylist-lets-build-a-graphical-structure-editor-for-mps/" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="woTyy$D_$a">
     <property role="TrG5h" value="FlintPaletteProvider" />
@@ -6719,6 +6742,18 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="woTyy$D_$b" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXjm_J" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXjm_K" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXjm_L" role="1dT_Ay">
+          <property role="1dT_AB" value="This class provider Palette entries for the diagram block editor. For more information see" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXjn9a" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXjn9b" role="1dT_Ay">
+          <property role="1dT_AB" value="https://dslfoundry.com/using-the-diagram-editor-and-querylist-lets-build-a-graphical-structure-editor-for-mps/" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="woTyy$Etlm">
     <ref role="13h7C2" to="lnwe:4NVq1WbrY6z" resolve="IHasResolvable" />
@@ -8033,6 +8068,13 @@
     </node>
     <node concept="2tJIrI" id="74VLc6kGbJ4" role="jymVt" />
     <node concept="3Tm1VV" id="3oX$uxIxeDU" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgrsTG" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgrsTH" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgrsTI" role="1dT_Ay">
+          <property role="1dT_AB" value="This interface provides a scope which contains a single model" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="3oX$uxIyT1K">
     <property role="TrG5h" value="ModelUtils" />
@@ -9381,6 +9423,13 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3V6BoQ5q8z$" role="jymVt" />
+    <node concept="3UR2Jj" id="7rVdekgrIG8" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgrIG9" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgrIGa" role="1dT_Ay">
+          <property role="1dT_AB" value="Main utility class containing helper methods regarding models" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="74VLc6k_$IR">
     <ref role="13h7C2" to="lnwe:74VLc6k_$IQ" resolve="IFlintModel" />
@@ -10801,6 +10850,22 @@
         <property role="3TUv4t" value="true" />
         <node concept="3uibUv" id="5wlrAoN6il8" role="1tU5fm">
           <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="7wfePx56uyy" role="lGtFl">
+        <node concept="TZ5HA" id="7wfePx56uyz" role="TZ5H$">
+          <node concept="1dT_AC" id="7wfePx56uy$" role="1dT_Ay">
+            <property role="1dT_AB" value="Fills the cell which contains the name of the FlintSource with the referenced Article." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="7wfePx56uy_" role="3nqlJM">
+          <property role="TUZQ4" value="EditorContext wherein the CellProvider is called" />
+          <node concept="zr_55" id="7wfePx56uyB" role="zr_5Q">
+            <ref role="zr_51" node="5wlrAoN6il9" resolve="editorContext" />
+          </node>
+        </node>
+        <node concept="x79VA" id="7wfePx56uyC" role="3nqlJM">
+          <property role="x79VB" value="AbstractCellProvider containing name of referenced Article." />
         </node>
       </node>
     </node>
@@ -14676,6 +14741,18 @@
         </node>
       </node>
     </node>
+    <node concept="3UR2Jj" id="7rVdekgr7QM" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgr7QN" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgr7QO" role="1dT_Ay">
+          <property role="1dT_AB" value="Enum class containing the following links: ERole -&gt; Color -&gt; Property link" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgr8MV" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgr8MW" role="1dT_Ay">
+          <property role="1dT_AB" value="Used to assign words from Flintsources to properties (tagging)" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="13qOoT8i2jV">
     <property role="TrG5h" value="SquareCell" />
@@ -14780,6 +14857,13 @@
     </node>
     <node concept="2tJIrI" id="13qOoT8wxrN" role="jymVt" />
     <node concept="2tJIrI" id="13qOoT8wxz5" role="jymVt" />
+    <node concept="3UR2Jj" id="7rVdekgqH_V" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqH_W" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqH_X" role="1dT_Ay">
+          <property role="1dT_AB" value="Custom cell provider to create a non-selectable square cell" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="13qOoT8XZz7">
     <ref role="13h7C2" to="lnwe:5Xjenljcz12" resolve="IExplainable" />
@@ -16293,6 +16377,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="$Y9SaAri3X" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqYvp" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqYvq" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqYvr" role="1dT_Ay">
+          <property role="1dT_AB" value="Utility class containing methods used for loading in sources" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="$Y9SaAxZjm">
     <property role="3GE5qa" value="sources" />
@@ -16493,6 +16584,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="riOo_LHZJJ" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgrfUb" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgrfUc" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgrfUd" role="1dT_Ay">
+          <property role="1dT_AB" value="Utility class containing methods for Selections" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="4AIlyP3xIyK">
     <property role="TrG5h" value="TagHelpers" />
@@ -16866,6 +16964,28 @@
     <node concept="2YIFZL" id="7wSe9B$bM74" role="jymVt">
       <property role="TrG5h" value="getSelectedWords" />
       <node concept="3clFbS" id="7wSe9B$bM77" role="3clF47">
+        <node concept="3SKdUt" id="3e9Rtsj3aWf" role="3cqZAp">
+          <node concept="1PaTwC" id="3e9Rtsj3aWg" role="1aUNEU">
+            <node concept="3oM_SD" id="3e9Rtsj3fTv" role="1PaTwD">
+              <property role="3oM_SC" value="Initialized" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj3fTx" role="1PaTwD">
+              <property role="3oM_SC" value="start" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj3fT$" role="1PaTwD">
+              <property role="3oM_SC" value="and" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj3fTC" role="1PaTwD">
+              <property role="3oM_SC" value="end" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj3fTH" role="1PaTwD">
+              <property role="3oM_SC" value="word" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj3fTN" role="1PaTwD">
+              <property role="3oM_SC" value="" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="5ku_jRSxzt1" role="3cqZAp">
           <node concept="3cpWsn" id="5ku_jRSxzt4" role="3cpWs9">
             <property role="TrG5h" value="fixedStart" />
@@ -16992,6 +17112,47 @@
                   </node>
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3e9Rtsj3fTU" role="3cqZAp" />
+        <node concept="3SKdUt" id="3e9Rtsj3oY0" role="3cqZAp">
+          <node concept="1PaTwC" id="3e9Rtsj3oY1" role="1aUNEU">
+            <node concept="3oM_SD" id="3e9Rtsj3t7D" role="1PaTwD">
+              <property role="3oM_SC" value="Loop" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj3t7F" role="1PaTwD">
+              <property role="3oM_SC" value="through" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj3t7I" role="1PaTwD">
+              <property role="3oM_SC" value="MultilineCell" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj3t7M" role="1PaTwD">
+              <property role="3oM_SC" value="via" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj3t84" role="1PaTwD">
+              <property role="3oM_SC" value=".next()" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj3t8a" role="1PaTwD">
+              <property role="3oM_SC" value="calls" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj3t8y" role="1PaTwD">
+              <property role="3oM_SC" value="until" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj3t8E" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj3t8N" role="1PaTwD">
+              <property role="3oM_SC" value="end" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj3t8X" role="1PaTwD">
+              <property role="3oM_SC" value="index" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj3t98" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj3t9k" role="1PaTwD">
+              <property role="3oM_SC" value="reached" />
             </node>
           </node>
         </node>
@@ -17132,6 +17293,34 @@
       <node concept="37vLTG" id="7wSe9B$cpg8" role="3clF46">
         <property role="TrG5h" value="end" />
         <node concept="10Oyi0" id="7wSe9B$cphG" role="1tU5fm" />
+      </node>
+      <node concept="P$JXv" id="3e9Rtsj2TiZ" role="lGtFl">
+        <node concept="TZ5HA" id="3e9Rtsj2Tj0" role="TZ5H$">
+          <node concept="1dT_AC" id="3e9Rtsj2Tj1" role="1dT_Ay">
+            <property role="1dT_AB" value="This function retrieves WordCells located inside an MultilineCell between given start and end parameters." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="3e9Rtsj2Tj2" role="3nqlJM">
+          <property role="TUZQ4" value="Multiline containing all of the wordCells" />
+          <node concept="zr_55" id="3e9Rtsj2Tj4" role="zr_5Q">
+            <ref role="zr_51" node="7wSe9B$cjzl" resolve="multiline" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="3e9Rtsj2Tj5" role="3nqlJM">
+          <property role="TUZQ4" value="Index of starting word" />
+          <node concept="zr_55" id="3e9Rtsj2Tj7" role="zr_5Q">
+            <ref role="zr_51" node="7wSe9B$cpdI" resolve="start" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="3e9Rtsj2Tj8" role="3nqlJM">
+          <property role="TUZQ4" value="Index of ending word" />
+          <node concept="zr_55" id="3e9Rtsj2Tja" role="zr_5Q">
+            <ref role="zr_51" node="7wSe9B$cpg8" resolve="end" />
+          </node>
+        </node>
+        <node concept="x79VA" id="3e9Rtsj2Tjb" role="3nqlJM">
+          <property role="x79VB" value="List of WordCells between given start param and end param" />
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="7wSe9B$dJbF" role="jymVt" />
@@ -17378,6 +17567,40 @@
             </node>
           </node>
         </node>
+        <node concept="3SKdUt" id="3e9Rtsj4aRR" role="3cqZAp">
+          <node concept="1PaTwC" id="3e9Rtsj4aRS" role="1aUNEU">
+            <node concept="3oM_SD" id="3e9Rtsj4aVV" role="1PaTwD">
+              <property role="3oM_SC" value="Differentiate" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj4cEa" role="1PaTwD">
+              <property role="3oM_SC" value="between" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj4cEl" role="1PaTwD">
+              <property role="3oM_SC" value="SContainmentLinks" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj4cET" role="1PaTwD">
+              <property role="3oM_SC" value="and" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj4cEY" role="1PaTwD">
+              <property role="3oM_SC" value="SProperties" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj4cF$" role="1PaTwD">
+              <property role="3oM_SC" value="because" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj4cFN" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj4cFV" role="1PaTwD">
+              <property role="3oM_SC" value="different" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj4cG4" role="1PaTwD">
+              <property role="3oM_SC" value="fill" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj4cGu" role="1PaTwD">
+              <property role="3oM_SC" value="behaviour" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="183_U33FxTp" role="3cqZAp">
           <node concept="3clFbS" id="183_U33FxTr" role="3clFbx">
             <node concept="3cpWs8" id="183_U33H$Zw" role="3cqZAp">
@@ -17585,6 +17808,43 @@
                           </node>
                         </node>
                       </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3SKdUt" id="3e9Rtsj4eIp" role="3cqZAp">
+                  <node concept="1PaTwC" id="3e9Rtsj4eIq" role="1aUNEU">
+                    <node concept="3oM_SD" id="3e9Rtsj4fPw" role="1PaTwD">
+                      <property role="3oM_SC" value="Autofill" />
+                    </node>
+                    <node concept="3oM_SD" id="3e9Rtsj4fR2" role="1PaTwD">
+                      <property role="3oM_SC" value="FlintSources" />
+                    </node>
+                    <node concept="3oM_SD" id="3e9Rtsj4fR5" role="1PaTwD">
+                      <property role="3oM_SC" value="from" />
+                    </node>
+                    <node concept="3oM_SD" id="3e9Rtsj4fR9" role="1PaTwD">
+                      <property role="3oM_SC" value="parent" />
+                    </node>
+                    <node concept="3oM_SD" id="3e9Rtsj4fRe" role="1PaTwD">
+                      <property role="3oM_SC" value="node" />
+                    </node>
+                    <node concept="3oM_SD" id="3e9Rtsj4fRk" role="1PaTwD">
+                      <property role="3oM_SC" value="into" />
+                    </node>
+                    <node concept="3oM_SD" id="3e9Rtsj4fRG" role="1PaTwD">
+                      <property role="3oM_SC" value="the" />
+                    </node>
+                    <node concept="3oM_SD" id="3e9Rtsj4fS7" role="1PaTwD">
+                      <property role="3oM_SC" value="newly" />
+                    </node>
+                    <node concept="3oM_SD" id="3e9Rtsj4fSg" role="1PaTwD">
+                      <property role="3oM_SC" value="created" />
+                    </node>
+                    <node concept="3oM_SD" id="3e9Rtsj4fSq" role="1PaTwD">
+                      <property role="3oM_SC" value="referee" />
+                    </node>
+                    <node concept="3oM_SD" id="3e9Rtsj4fS_" role="1PaTwD">
+                      <property role="3oM_SC" value="node" />
                     </node>
                   </node>
                 </node>
@@ -17822,6 +18082,58 @@
                 </node>
                 <node concept="9aQIb" id="3qW1AGZOgBm" role="9aQIa">
                   <node concept="3clFbS" id="3qW1AGZOgBn" role="9aQI4">
+                    <node concept="3SKdUt" id="3e9Rtsj41G1" role="3cqZAp">
+                      <node concept="1PaTwC" id="3e9Rtsj41G2" role="1aUNEU">
+                        <node concept="3oM_SD" id="3e9Rtsj43oq" role="1PaTwD">
+                          <property role="3oM_SC" value="Currently" />
+                        </node>
+                        <node concept="3oM_SD" id="3e9Rtsj43os" role="1PaTwD">
+                          <property role="3oM_SC" value="not" />
+                        </node>
+                        <node concept="3oM_SD" id="3e9Rtsj43ov" role="1PaTwD">
+                          <property role="3oM_SC" value="in" />
+                        </node>
+                        <node concept="3oM_SD" id="3e9Rtsj43oz" role="1PaTwD">
+                          <property role="3oM_SC" value="use" />
+                        </node>
+                        <node concept="3oM_SD" id="3e9Rtsj43oC" role="1PaTwD">
+                          <property role="3oM_SC" value="because" />
+                        </node>
+                        <node concept="3oM_SD" id="3e9Rtsj43oI" role="1PaTwD">
+                          <property role="3oM_SC" value="migration" />
+                        </node>
+                        <node concept="3oM_SD" id="3e9Rtsj43oP" role="1PaTwD">
+                          <property role="3oM_SC" value="from" />
+                        </node>
+                        <node concept="3oM_SD" id="3e9Rtsj43oX" role="1PaTwD">
+                          <property role="3oM_SC" value="properties" />
+                        </node>
+                        <node concept="3oM_SD" id="3e9Rtsj43p6" role="1PaTwD">
+                          <property role="3oM_SC" value="to" />
+                        </node>
+                        <node concept="3oM_SD" id="3e9Rtsj43pg" role="1PaTwD">
+                          <property role="3oM_SC" value="children" />
+                        </node>
+                        <node concept="3oM_SD" id="3e9Rtsj43pr" role="1PaTwD">
+                          <property role="3oM_SC" value="made" />
+                        </node>
+                        <node concept="3oM_SD" id="3e9Rtsj43pB" role="1PaTwD">
+                          <property role="3oM_SC" value="the" />
+                        </node>
+                        <node concept="3oM_SD" id="3e9Rtsj43qh" role="1PaTwD">
+                          <property role="3oM_SC" value="links" />
+                        </node>
+                        <node concept="3oM_SD" id="3e9Rtsj43qv" role="1PaTwD">
+                          <property role="3oM_SC" value="instances" />
+                        </node>
+                        <node concept="3oM_SD" id="3e9Rtsj43qI" role="1PaTwD">
+                          <property role="3oM_SC" value="of" />
+                        </node>
+                        <node concept="3oM_SD" id="3e9Rtsj43qY" role="1PaTwD">
+                          <property role="3oM_SC" value="SContainmentLink" />
+                        </node>
+                      </node>
+                    </node>
                     <node concept="3cpWs8" id="183_U33H0Uv" role="3cqZAp">
                       <node concept="3cpWsn" id="183_U33H0Uw" role="3cpWs9">
                         <property role="TrG5h" value="property" />
@@ -17907,6 +18219,42 @@
         <property role="TrG5h" value="flintModel" />
         <node concept="3Tqbb2" id="4bAnuBlE7cF" role="1tU5fm">
           <ref role="ehGHo" to="lnwe:74VLc6k_$IQ" resolve="IFlintModel" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="3e9Rtsj45k4" role="lGtFl">
+        <node concept="TZ5HA" id="3e9Rtsj45k5" role="TZ5H$">
+          <node concept="1dT_AC" id="3e9Rtsj45k6" role="1dT_Ay">
+            <property role="1dT_AB" value="Autofills the tagged text into the tagged role (if the tagged role is empty). Only exception is tagging as name," />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="3e9Rtsj475$" role="TZ5H$">
+          <node concept="1dT_AC" id="3e9Rtsj475_" role="1dT_Ay">
+            <property role="1dT_AB" value="which renames the IHasSources node (Act/Fact/Duty)" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="3e9Rtsj45k7" role="3nqlJM">
+          <property role="TUZQ4" value="Tagged text" />
+          <node concept="zr_55" id="3e9Rtsj45k9" role="zr_5Q">
+            <ref role="zr_51" node="183_U33F8vW" resolve="text" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="3e9Rtsj45ka" role="3nqlJM">
+          <property role="TUZQ4" value="Node in which the tagging action took place" />
+          <node concept="zr_55" id="3e9Rtsj45kc" role="zr_5Q">
+            <ref role="zr_51" node="183_U33F8AZ" resolve="node" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="3e9Rtsj45kd" role="3nqlJM">
+          <property role="TUZQ4" value="Role in which the tagged text should be filled" />
+          <node concept="zr_55" id="3e9Rtsj45kf" role="zr_5Q">
+            <ref role="zr_51" node="183_U33F8Wx" resolve="role" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="3e9Rtsj45kg" role="3nqlJM">
+          <property role="TUZQ4" value="Flintmodel which contains the node. Absolute root of the model." />
+          <node concept="zr_55" id="3e9Rtsj45ki" role="zr_5Q">
+            <ref role="zr_51" node="4bAnuBlE6NH" resolve="flintModel" />
+          </node>
         </node>
       </node>
     </node>
@@ -18625,7 +18973,7 @@
                 </node>
                 <node concept="3cpWs8" id="5ku_jRSIOx7" role="3cqZAp">
                   <node concept="3cpWsn" id="5ku_jRSIOx8" role="3cpWs9">
-                    <property role="TrG5h" value="l2r" />
+                    <property role="TrG5h" value="isLeftToRight" />
                     <node concept="10P_77" id="5ku_jRSIOx9" role="1tU5fm" />
                     <node concept="2YIFZM" id="5ku_jRSIOxa" role="33vP2m">
                       <ref role="37wK5l" to="b8lf:~SelectionInfoImpl$Util.getBooleanProperty(java.util.Map,java.lang.String)" resolve="getBooleanProperty" />
@@ -18763,6 +19111,40 @@
                             <ref role="3cqZAo" node="5ku_jRSIOxj" resolve="collections" />
                           </node>
                           <node concept="1yVyf7" id="5ku_jRSIOya" role="2OqNvi" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3SKdUt" id="3e9Rtsj2iat" role="3cqZAp">
+                      <node concept="1PaTwC" id="3e9Rtsj2iau" role="1aUNEU">
+                        <node concept="3oM_SD" id="3e9Rtsj2lJH" role="1PaTwD">
+                          <property role="3oM_SC" value="In" />
+                        </node>
+                        <node concept="3oM_SD" id="3e9Rtsj2lJJ" role="1PaTwD">
+                          <property role="3oM_SC" value="latest" />
+                        </node>
+                        <node concept="3oM_SD" id="3e9Rtsj2lJM" role="1PaTwD">
+                          <property role="3oM_SC" value="version" />
+                        </node>
+                        <node concept="3oM_SD" id="3e9Rtsj2lNk" role="1PaTwD">
+                          <property role="3oM_SC" value="first" />
+                        </node>
+                        <node concept="3oM_SD" id="3e9Rtsj2zob" role="1PaTwD">
+                          <property role="3oM_SC" value="==" />
+                        </node>
+                        <node concept="3oM_SD" id="3e9Rtsj2zC1" role="1PaTwD">
+                          <property role="3oM_SC" value="last" />
+                        </node>
+                        <node concept="3oM_SD" id="3e9Rtsj2z6J" role="1PaTwD">
+                          <property role="3oM_SC" value="check" />
+                        </node>
+                        <node concept="3oM_SD" id="3e9Rtsj2lNA" role="1PaTwD">
+                          <property role="3oM_SC" value="always" />
+                        </node>
+                        <node concept="3oM_SD" id="3e9Rtsj2lNI" role="1PaTwD">
+                          <property role="3oM_SC" value="returns" />
+                        </node>
+                        <node concept="3oM_SD" id="3e9Rtsj2lNR" role="1PaTwD">
+                          <property role="3oM_SC" value="true" />
                         </node>
                       </node>
                     </node>
@@ -18986,6 +19368,40 @@
                               <ref role="3cqZAo" node="5ku_jRSIOxj" resolve="collections" />
                             </node>
                             <node concept="1uHKPH" id="5ku_jRSIOzH" role="2OqNvi" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3SKdUt" id="3e9Rtsj2EyI" role="3cqZAp">
+                        <node concept="1PaTwC" id="3e9Rtsj2EyJ" role="1aUNEU">
+                          <node concept="3oM_SD" id="3e9Rtsj2EyK" role="1PaTwD">
+                            <property role="3oM_SC" value="In" />
+                          </node>
+                          <node concept="3oM_SD" id="3e9Rtsj2EyL" role="1PaTwD">
+                            <property role="3oM_SC" value="latest" />
+                          </node>
+                          <node concept="3oM_SD" id="3e9Rtsj2EyM" role="1PaTwD">
+                            <property role="3oM_SC" value="version" />
+                          </node>
+                          <node concept="3oM_SD" id="3e9Rtsj2EyN" role="1PaTwD">
+                            <property role="3oM_SC" value="first" />
+                          </node>
+                          <node concept="3oM_SD" id="3e9Rtsj2EyO" role="1PaTwD">
+                            <property role="3oM_SC" value="==" />
+                          </node>
+                          <node concept="3oM_SD" id="3e9Rtsj2EyP" role="1PaTwD">
+                            <property role="3oM_SC" value="last" />
+                          </node>
+                          <node concept="3oM_SD" id="3e9Rtsj2EyQ" role="1PaTwD">
+                            <property role="3oM_SC" value="check" />
+                          </node>
+                          <node concept="3oM_SD" id="3e9Rtsj2EyR" role="1PaTwD">
+                            <property role="3oM_SC" value="always" />
+                          </node>
+                          <node concept="3oM_SD" id="3e9Rtsj2EyS" role="1PaTwD">
+                            <property role="3oM_SC" value="returns" />
+                          </node>
+                          <node concept="3oM_SD" id="3e9Rtsj2EyT" role="1PaTwD">
+                            <property role="3oM_SC" value="true" />
                           </node>
                         </node>
                       </node>
@@ -19221,11 +19637,63 @@
           <ref role="3uigEE" to="gyv0:2_D0AvWRqEh" resolve="RichtextSelection" />
         </node>
       </node>
+      <node concept="P$JXv" id="3e9Rtsj3L2y" role="lGtFl">
+        <node concept="TZ5HA" id="3e9Rtsj3L2z" role="TZ5H$">
+          <node concept="1dT_AC" id="3e9Rtsj3L2$" role="1dT_Ay">
+            <property role="1dT_AB" value="This function retrieved selected cells from given selection. Used in GroupTag to gather WordCells from the selection" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="3e9Rtsj3RlV" role="TZ5H$">
+          <node concept="1dT_AC" id="3e9Rtsj3RlW" role="1dT_Ay">
+            <property role="1dT_AB" value="to create tagged words and autofill them." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="3e9Rtsj3L2_" role="3nqlJM">
+          <property role="TUZQ4" value="Selection from which to gather selected cells" />
+          <node concept="zr_55" id="3e9Rtsj3L2B" role="zr_5Q">
+            <ref role="zr_51" node="5ku_jRSIOAc" resolve="selection" />
+          </node>
+        </node>
+        <node concept="x79VA" id="3e9Rtsj3L2C" role="3nqlJM">
+          <property role="x79VB" value="Returns the selected cells from the selection" />
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="76mcYUAREly" role="jymVt" />
     <node concept="2YIFZL" id="5ku_jRSGdVd" role="jymVt">
       <property role="TrG5h" value="getSelectedCells" />
       <node concept="3clFbS" id="5ku_jRSGdVe" role="3clF47">
+        <node concept="3SKdUt" id="3e9Rtsj2P6A" role="3cqZAp">
+          <node concept="1PaTwC" id="3e9Rtsj2P6B" role="1aUNEU">
+            <node concept="3oM_SD" id="3e9Rtsj2P7e" role="1PaTwD">
+              <property role="3oM_SC" value="In" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj2SFp" role="1PaTwD">
+              <property role="3oM_SC" value="practice" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj2SFG" role="1PaTwD">
+              <property role="3oM_SC" value="selection" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj2SG0" role="1PaTwD">
+              <property role="3oM_SC" value="should" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj2SGd" role="1PaTwD">
+              <property role="3oM_SC" value="always" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj2SGr" role="1PaTwD">
+              <property role="3oM_SC" value="be" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj2SGE" role="1PaTwD">
+              <property role="3oM_SC" value="instance" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj2SGU" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="3e9Rtsj2SHb" role="1PaTwD">
+              <property role="3oM_SC" value="EditorCell_Multiline" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="5ku_jRSGdVf" role="3cqZAp">
           <node concept="3clFbS" id="5ku_jRSGdVg" role="3clFbx">
             <node concept="3cpWs8" id="5ku_jRSI1Vt" role="3cqZAp">
@@ -19327,6 +19795,39 @@
       <node concept="37vLTG" id="5ku_jRSGdW4" role="3clF46">
         <property role="TrG5h" value="end" />
         <node concept="10Oyi0" id="5ku_jRSGdW5" role="1tU5fm" />
+      </node>
+      <node concept="P$JXv" id="3e9Rtsj3to6" role="lGtFl">
+        <node concept="TZ5HA" id="3e9Rtsj3to7" role="TZ5H$">
+          <node concept="1dT_AC" id="3e9Rtsj3to8" role="1dT_Ay">
+            <property role="1dT_AB" value="This function retrieves PropertyCells between given start and end parameters of a given EditorCell_Collection." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="3e9Rtsj3xkF" role="TZ5H$">
+          <node concept="1dT_AC" id="3e9Rtsj3xkG" role="1dT_Ay">
+            <property role="1dT_AB" value="In practice the EditorCell_Collection is an instance of EditorCell_Multiline" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="3e9Rtsj3to9" role="3nqlJM">
+          <property role="TUZQ4" value="(EditorCell_Multiline) Selection containing " />
+          <node concept="zr_55" id="3e9Rtsj3tob" role="zr_5Q">
+            <ref role="zr_51" node="5ku_jRSGdW0" resolve="selection" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="3e9Rtsj3toc" role="3nqlJM">
+          <property role="TUZQ4" value="Start index of words needed to retrieve" />
+          <node concept="zr_55" id="3e9Rtsj3toe" role="zr_5Q">
+            <ref role="zr_51" node="5ku_jRSGdW2" resolve="start" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="3e9Rtsj3tof" role="3nqlJM">
+          <property role="TUZQ4" value="End index of words needed to retrieve" />
+          <node concept="zr_55" id="3e9Rtsj3toh" role="zr_5Q">
+            <ref role="zr_51" node="5ku_jRSGdW4" resolve="end" />
+          </node>
+        </node>
+        <node concept="x79VA" id="3e9Rtsj3toi" role="3nqlJM">
+          <property role="x79VB" value="List of PropertyCells containing word properties between the start and end index" />
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="5ku_jRSK1qb" role="jymVt" />
@@ -19640,6 +20141,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="4AIlyP3xIyL" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgrAKn" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgrAKo" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgrAKp" role="1dT_Ay">
+          <property role="1dT_AB" value="Utility class with helper methods pertaining to tags" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="5DWs9m5fnLD">
     <property role="TrG5h" value="SeperatedLayoutMigrationUtils" />
@@ -21382,6 +21890,13 @@
     </node>
     <node concept="2tJIrI" id="5DWs9m5fouX" role="jymVt" />
     <node concept="3Tm1VV" id="5DWs9m5fnLE" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgrpR6" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgrpR7" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgrpR8" role="1dT_Ay">
+          <property role="1dT_AB" value="Utility class with methods for the ChangeToSeperatedLayout migration." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="5osFsyV4Bqb">
     <property role="TrG5h" value="MigrationUtils" />
@@ -22407,6 +22922,13 @@
     </node>
     <node concept="2tJIrI" id="qfyMBWNL7W" role="jymVt" />
     <node concept="3Tm1VV" id="5osFsyV4Bqc" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgreTS" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgreTT" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgreTU" role="1dT_Ay">
+          <property role="1dT_AB" value="Utility class with methods for migrations. Currently no longer in use" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="6LSqBjXMvRY">
     <ref role="13h7C2" to="lnwe:6LSqBjXFI_4" resolve="CustomText" />
@@ -23978,35 +24500,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="6LSqBjYYeXx" role="1B3o_S" />
-  </node>
-  <node concept="312cEu" id="5BmlQlqlqKh">
-    <property role="3GE5qa" value="utils" />
-    <property role="TrG5h" value="MessagePrinter" />
-    <node concept="2YIFZL" id="5BmlQlqlqOP" role="jymVt">
-      <property role="TrG5h" value="info" />
-      <node concept="3cqZAl" id="5BmlQlqlqOR" role="3clF45" />
-      <node concept="3Tm1VV" id="5BmlQlqlqOS" role="1B3o_S" />
-      <node concept="3clFbS" id="5BmlQlqlqOT" role="3clF47">
-        <node concept="2xdQw9" id="5BmlQlqlqSx" role="3cqZAp">
-          <property role="2xdLsb" value="h1akgim/info" />
-          <node concept="2OqwBi" id="5BmlQlqlrmf" role="9lYJi">
-            <node concept="37vLTw" id="5BmlQlqlrcY" role="2Oq$k0">
-              <ref role="3cqZAo" node="5BmlQlqlqRJ" resolve="message" />
-            </node>
-            <node concept="liA8E" id="5BmlQlqlrqP" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="5BmlQlqlqRJ" role="3clF46">
-        <property role="TrG5h" value="message" />
-        <node concept="3uibUv" id="5BmlQlqlr0S" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+    <node concept="3UR2Jj" id="7rVdekgruu$" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgruu_" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgruuA" role="1dT_Ay">
+          <property role="1dT_AB" value="This Interface contains a method which removes unnecessary spaces in the CustomText" />
         </node>
       </node>
     </node>
-    <node concept="3Tm1VV" id="5BmlQlqlqKi" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="1j1uXED15fH">
     <property role="3GE5qa" value="utils" />
@@ -24106,6 +24606,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="1j1uXED15fI" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgrb9i" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgrb9j" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgrb9k" role="1dT_Ay">
+          <property role="1dT_AB" value="Utility class containing methods used by IHasSources." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="wJ8RSAMj6Z">
     <ref role="13h7C2" to="lnwe:wJ8RSAMhPl" resolve="IHasLanguage" />
@@ -24339,8 +24846,20 @@
                             <node concept="3oM_SD" id="23uPkDbeCFZ" role="1PaTwD">
                               <property role="3oM_SC" value="since" />
                             </node>
+                            <node concept="3oM_SD" id="7wfePx56Gse" role="1PaTwD">
+                              <property role="3oM_SC" value="this" />
+                            </node>
+                            <node concept="3oM_SD" id="7wfePx56GOU" role="1PaTwD">
+                              <property role="3oM_SC" value="call" />
+                            </node>
+                            <node concept="3oM_SD" id="7wfePx56H_j" role="1PaTwD">
+                              <property role="3oM_SC" value="is" />
+                            </node>
                             <node concept="3oM_SD" id="23uPkDbeCG0" role="1PaTwD">
                               <property role="3oM_SC" value="in" />
+                            </node>
+                            <node concept="3oM_SD" id="7wfePx56DvF" role="1PaTwD">
+                              <property role="3oM_SC" value="async" />
                             </node>
                             <node concept="3oM_SD" id="23uPkDbeCG1" role="1PaTwD">
                               <property role="3oM_SC" value="EDT" />
@@ -24426,6 +24945,32 @@
         <property role="TrG5h" value="context" />
         <node concept="3uibUv" id="23uPkDbeCGo" role="1tU5fm">
           <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="7wfePx56ECD" role="lGtFl">
+        <node concept="TZ5HA" id="7wfePx56ECE" role="TZ5H$">
+          <node concept="1dT_AC" id="7wfePx56ECF" role="1dT_Ay">
+            <property role="1dT_AB" value="Tries to query translated name linked to current interpretation language and sets it as current name." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="7wfePx56EVY" role="TZ5H$">
+          <node concept="1dT_AC" id="7wfePx56EVZ" role="1dT_Ay">
+            <property role="1dT_AB" value="If it does not exist it creates a new translated name with the current interpretation langauge, defaults the name to" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="7wfePx56G3s" role="TZ5H$">
+          <node concept="1dT_AC" id="7wfePx56G3t" role="1dT_Ay">
+            <property role="1dT_AB" value="the name property field and returns teh new translated name." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="7wfePx56ECG" role="3nqlJM">
+          <property role="TUZQ4" value="EditorContext in which the change takes place" />
+          <node concept="zr_55" id="7wfePx56ECI" role="zr_5Q">
+            <ref role="zr_51" node="23uPkDbeCGn" resolve="context" />
+          </node>
+        </node>
+        <node concept="x79VA" id="7wfePx56ECJ" role="3nqlJM">
+          <property role="x79VB" value="Returns translated name linked to current interpretation language language" />
         </node>
       </node>
     </node>
@@ -24661,6 +25206,18 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="5SIYu6Xx_PU" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqdQs" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqdQt" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqdQu" role="1dT_Ay">
+          <property role="1dT_AB" value="This class contains multiple intentions instances which are initialized by Flint.plugin (Which has access to LawSource and Flint)" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqdQJ" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqdQK" role="1dT_Ay">
+          <property role="1dT_AB" value="and can then be used inside the Flint Language" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="7C_i1w7$jaq">
     <property role="3GE5qa" value="cellproviders" />
@@ -24774,6 +25331,13 @@
       </node>
       <node concept="2AHcQZ" id="7C_i1w7$nYd" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="7rVdekgqHaz" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqHa$" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqHa_" role="1dT_Ay">
+          <property role="1dT_AB" value="This is a custom cell provider for Language cells. Displays the property based on the active language." />
+        </node>
       </node>
     </node>
   </node>
@@ -24929,6 +25493,23 @@
       </node>
       <node concept="2AHcQZ" id="7YFAXDpE6W7" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="7rVdekgqnNO" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqnNP" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqnNQ" role="1dT_Ay">
+          <property role="1dT_AB" value="Normal MPS cell provider functionality can only display the current node and their children." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqo8C" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqo8D" role="1dT_Ay">
+          <property role="1dT_AB" value="This class is a custom cell provider which makes it possible to display a property (or string) from an unrelated node " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqnYr" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqnYs" role="1dT_Ay">
+          <property role="1dT_AB" value="into the current node. Can be viewed as a query list for a single node." />
+        </node>
       </node>
     </node>
   </node>
@@ -25225,6 +25806,18 @@
       </node>
       <node concept="2AHcQZ" id="14WD1psJWxr" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="7rVdekgqsjH" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqsjI" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqsjJ" role="1dT_Ay">
+          <property role="1dT_AB" value="Custom cell provider for CreateableAndTerminateable nodes. Directly assigns hyperlinks and styles to be consistent" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgquaf" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgquag" role="1dT_Ay">
+          <property role="1dT_AB" value="with Flint convention. " />
+        </node>
       </node>
     </node>
   </node>
@@ -25625,6 +26218,18 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="7rVdekgr1co" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgr1cp" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgr1cq" role="1dT_Ay">
+          <property role="1dT_AB" value="Dialog class extending DialogWrapper. Used to create a UI panel in which a user can select a language to import" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgr2TW" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgr2TX" role="1dT_Ay">
+          <property role="1dT_AB" value="sources from." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="6uu3xX4w9Lq">
     <property role="3GE5qa" value="cellproviders" />
@@ -25769,6 +26374,13 @@
       </node>
       <node concept="2AHcQZ" id="6uu3xX4wcd7" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="7rVdekgqnkP" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqnkQ" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqnkR" role="1dT_Ay">
+          <property role="1dT_AB" value="This class provides a custom cell action which upon execution adds a child node to the given root node" />
+        </node>
       </node>
     </node>
   </node>
@@ -26778,6 +27390,38 @@
       <node concept="16euLQ" id="7dMNgcNRcjG" role="16eVyc">
         <property role="TrG5h" value="T" />
       </node>
+      <node concept="P$JXv" id="7rVdekgqcAH" role="lGtFl">
+        <node concept="TZ5HA" id="7rVdekgqcAI" role="TZ5H$">
+          <node concept="1dT_AC" id="7rVdekgqcAJ" role="1dT_Ay">
+            <property role="1dT_AB" value="Takes task and a message to print. Runs the task and logs the amount of time it took to " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="7rVdekgqcPR" role="TZ5H$">
+          <node concept="1dT_AC" id="7rVdekgqcPS" role="1dT_Ay">
+            <property role="1dT_AB" value="finish the task in ms." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="7rVdekgqcAK" role="3nqlJM">
+          <node concept="zr_55" id="7rVdekgqcAM" role="zr_5Q">
+            <ref role="zr_51" node="7dMNgcNRca1" resolve="reallyLongThing" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="7rVdekgqcAN" role="3nqlJM">
+          <property role="TUZQ4" value="Message to print" />
+          <node concept="zr_55" id="7rVdekgqcAP" role="zr_5Q">
+            <ref role="zr_51" node="7dMNgcNXW8_" resolve="message" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="7rVdekgqcAQ" role="3nqlJM">
+          <property role="TUZQ4" value="Type specifier" />
+          <node concept="zr_56" id="7rVdekgqcAS" role="zr_5Q">
+            <ref role="zr_51" node="7dMNgcNRcjG" resolve="T" />
+          </node>
+        </node>
+        <node concept="x79VA" id="7rVdekgqcAT" role="3nqlJM">
+          <property role="x79VB" value="Result of runnable" />
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="7dMNgcNY2$x" role="jymVt" />
     <node concept="2YIFZL" id="7dMNgcNY1xq" role="jymVt">
@@ -26922,6 +27566,7 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5HhbosxMfyr" role="jymVt" />
+    <node concept="2tJIrI" id="7rVdekgqd2v" role="jymVt" />
     <node concept="2YIFZL" id="5HhbosxMgBC" role="jymVt">
       <property role="TrG5h" value="printWarning" />
       <node concept="3clFbS" id="5HhbosxMgBF" role="3clF47">
@@ -26938,8 +27583,33 @@
         <property role="TrG5h" value="warningString" />
         <node concept="17QB3L" id="5HhbosxMh1H" role="1tU5fm" />
       </node>
+      <node concept="P$JXv" id="7rVdekgqdh$" role="lGtFl">
+        <node concept="TZ5HA" id="7rVdekgqdh_" role="TZ5H$">
+          <node concept="1dT_AC" id="7rVdekgqdhA" role="1dT_Ay">
+            <property role="1dT_AB" value="Method which prints a warning message. Can be used inside Interfaces to replace the &quot;message warn&quot; statement which" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="7rVdekgqdiM" role="TZ5H$">
+          <node concept="1dT_AC" id="7rVdekgqdiN" role="1dT_Ay">
+            <property role="1dT_AB" value="does not work in Interfaces" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="7rVdekgqdhB" role="3nqlJM">
+          <property role="TUZQ4" value="String to print as a warning" />
+          <node concept="zr_55" id="7rVdekgqdhD" role="zr_5Q">
+            <ref role="zr_51" node="5HhbosxMh1I" resolve="warningString" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3Tm1VV" id="7dMNgcNR8BA" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqctp" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqctq" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqctr" role="1dT_Ay">
+          <property role="1dT_AB" value="Utility class with methods used for debugging." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="LZYRE$ZY1U">
     <ref role="13h7C2" to="lnwe:UjCAmBFIEv" resolve="Archiveable" />
@@ -27220,6 +27890,13 @@
       </node>
       <node concept="2AHcQZ" id="3azCKjBbpd0" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="7rVdekgqdpp" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqdpq" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqdpr" role="1dT_Ay">
+          <property role="1dT_AB" value="This class extends from the MPS class CellAction_DeleteNode and adds an editor refresh after the changes are executed." />
+        </node>
       </node>
     </node>
   </node>
@@ -29710,6 +30387,18 @@
     </node>
     <node concept="2tJIrI" id="4mjNsZ_z8Tq" role="jymVt" />
     <node concept="3Tm1VV" id="4mjNsZ_z8xj" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqSzD" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqS_C" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqS_D" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface for Untag intention. Used to have the intention in a single place to be used by " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqS_E" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqS_F" role="1dT_Ay">
+          <property role="1dT_AB" value="normal intentions and Context Actions" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="6iw8psndsOf">
     <property role="3GE5qa" value="intentions" />
@@ -29817,6 +30506,18 @@
     <node concept="2tJIrI" id="6iw8psnduYo" role="jymVt" />
     <node concept="2tJIrI" id="6iw8psnduY$" role="jymVt" />
     <node concept="3Tm1VV" id="6iw8psndsOg" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqMln" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqMlE" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqMlF" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface for Explanation intention. Used to have the intention in a single place to be used by " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqMlG" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqMlH" role="1dT_Ay">
+          <property role="1dT_AB" value="normal intentions and Context Actions" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="6iw8psn9FU4">
     <property role="3GE5qa" value="intentions" />
@@ -30024,6 +30725,18 @@
     </node>
     <node concept="2tJIrI" id="6iw8psn9I7b" role="jymVt" />
     <node concept="3Tm1VV" id="6iw8psn9FU5" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqRnV" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqRra" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqRrb" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface for ShowBlockDiagramEditor intention. Used to have the intention in a single place to be used by " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqRrc" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqRrd" role="1dT_Ay">
+          <property role="1dT_AB" value="normal intentions and Context Actions" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="70Gl2CclJJc">
     <property role="3GE5qa" value="intentions" />
@@ -30252,6 +30965,18 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="70Gl2CclJJd" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqMek" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqMel" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqMem" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface for CreateFactFromExpression intention. Used to have the intention in a single place to be used by " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqMgh" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqMgi" role="1dT_Ay">
+          <property role="1dT_AB" value="normal intentions and Context Actions" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="4mjNsZ_smMc">
     <property role="3GE5qa" value="intentions" />
@@ -30572,6 +31297,18 @@
     </node>
     <node concept="2tJIrI" id="4mjNsZ_snC1" role="jymVt" />
     <node concept="3Tm1VV" id="4mjNsZ_smMd" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqS1N" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqS2e" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqS2f" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface for Tag intention. Used to have the intention in a single place to be used by " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqS2g" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqS2h" role="1dT_Ay">
+          <property role="1dT_AB" value="normal intentions and Context Actions" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="70Gl2Cct1zf">
     <property role="3GE5qa" value="intentions" />
@@ -31012,6 +31749,18 @@
     </node>
     <node concept="2tJIrI" id="70Gl2Cct3NZ" role="jymVt" />
     <node concept="3Tm1VV" id="70Gl2Cct1zg" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqNT2" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqNX8" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqNX9" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface for ExpressionReplacement intention. Used to have the intention in a single place to be used by " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqNXa" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqNXb" role="1dT_Ay">
+          <property role="1dT_AB" value="normal intentions and Context Actions" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="70Gl2CcG$xT">
     <property role="3GE5qa" value="intentions" />
@@ -31211,6 +31960,18 @@
     </node>
     <node concept="2tJIrI" id="70Gl2CcG_l9" role="jymVt" />
     <node concept="3Tm1VV" id="70Gl2CcG$xU" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqQZr" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqR3C" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqR3D" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface for LitterOperandReplacements intention. Used to have the intention in a single place to be used by " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqR3E" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqR3F" role="1dT_Ay">
+          <property role="1dT_AB" value="normal intentions and Context Actions" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="70Gl2CcycP0">
     <property role="3GE5qa" value="intentions" />
@@ -31359,6 +32120,18 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="70Gl2CcycP1" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqQmV" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqQo6" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqQo7" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface for InsertIntoExpression intention. Used to have the intention in a single place to be used by " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqQo8" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqQo9" role="1dT_Ay">
+          <property role="1dT_AB" value="normal intentions and Context Actions" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="6iw8psn9Pnf">
     <property role="3GE5qa" value="intentions" />
@@ -31563,6 +32336,18 @@
     <node concept="2tJIrI" id="6iw8psn9Rk8" role="jymVt" />
     <node concept="2tJIrI" id="6iw8psn9Rkb" role="jymVt" />
     <node concept="3Tm1VV" id="6iw8psn9Png" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqPJc" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqPMr" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqPMs" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface for HideBlockDiagram intention. Used to have the intention in a single place to be used by " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqPMt" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqPMu" role="1dT_Ay">
+          <property role="1dT_AB" value="normal intentions and Context Actions" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="70Gl2CcC2tq">
     <property role="3GE5qa" value="intentions" />
@@ -31977,6 +32762,18 @@
     </node>
     <node concept="2tJIrI" id="70Gl2CcC2Pq" role="jymVt" />
     <node concept="3Tm1VV" id="70Gl2CcC2tr" role="1B3o_S" />
+    <node concept="3UR2Jj" id="7rVdekgqPmL" role="lGtFl">
+      <node concept="TZ5HA" id="7rVdekgqPrR" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqPrS" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface for Flatten intention. Used to have the intention in a single place to be used by " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7rVdekgqPrT" role="TZ5H$">
+        <node concept="1dT_AC" id="7rVdekgqPrU" role="1dT_Ay">
+          <property role="1dT_AB" value="normal intentions and Context Actions" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="78uEmvU4O4G">
     <property role="3GE5qa" value="expressions" />

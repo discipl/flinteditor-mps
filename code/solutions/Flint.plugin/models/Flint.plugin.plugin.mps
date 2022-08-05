@@ -11,6 +11,7 @@
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
     <import index="lnwe" ref="r:d268844f-2c2c-4250-a969-3a23a8a2bb02(Flint.structure)" />
@@ -122,6 +123,7 @@
     <import index="93vl" ref="r:ea46d830-b6c1-459f-bca3-d44c20d00c02(de.slisson.mps.editor.multiline.cells)" />
     <import index="mhfn" ref="acf1b507-e791-4de3-b55f-a3880c36d5bb/java:org.jetbrains.annotations(Flint.runtime/)" />
     <import index="b0pz" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project.facets(MPS.Core/)" />
+    <import index="joh8" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.javadoc(MPS.IDEA/)" />
     <import index="71xd" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.tools(MPS.Platform/)" implicit="true" />
     <import index="1m72" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.components(MPS.IDEA/)" implicit="true" />
     <import index="v23q" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi(MPS.IDEA/)" implicit="true" />
@@ -543,6 +545,29 @@
         <child id="1225797361612" name="parameter" index="1BdPVh" />
       </concept>
     </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="6832197706140518104" name="jetbrains.mps.baseLanguage.javadoc.structure.DocMethodParameterReference" flags="ng" index="zr_55" />
+      <concept id="6832197706140518107" name="jetbrains.mps.baseLanguage.javadoc.structure.DocTypeParameterReference" flags="ng" index="zr_56" />
+      <concept id="6832197706140518103" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseParameterReference" flags="ng" index="zr_5a">
+        <reference id="6832197706140518108" name="param" index="zr_51" />
+      </concept>
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="8465538089690331502" name="body" index="TZ5H$" />
+        <child id="5383422241790532083" name="tags" index="3nqlJM" />
+      </concept>
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
+      <concept id="8465538089690881930" name="jetbrains.mps.baseLanguage.javadoc.structure.ParameterBlockDocTag" flags="ng" index="TUZQ0">
+        <property id="8465538089690881934" name="text" index="TUZQ4" />
+        <child id="6832197706140518123" name="parameter" index="zr_5Q" />
+      </concept>
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      </concept>
+      <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+    </language>
     <language id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers">
       <concept id="1213999088275" name="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierFieldDeclaration" flags="ig" index="2BZ0e9" />
       <concept id="1213999117680" name="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierFieldAccessOperation" flags="nn" index="2BZ7hE" />
@@ -595,7 +620,6 @@
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
-      <concept id="8329979535468945057" name="jetbrains.mps.lang.smodel.structure.Node_PresentationOperation" flags="ng" index="2Iv5rx" />
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
@@ -2425,23 +2449,6 @@
         </node>
         <node concept="3clFbJ" id="6hDJamxPyfm" role="3cqZAp">
           <node concept="3clFbS" id="6hDJamxPyfn" role="3clFbx">
-            <node concept="1X3_iC" id="4aWSgWwc_a1" role="lGtFl">
-              <property role="3V$3am" value="statement" />
-              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-              <node concept="2xdQw9" id="6hDJamxPyfo" role="8Wnug">
-                <node concept="3cpWs3" id="6hDJamxPyfp" role="9lYJi">
-                  <node concept="Xl_RD" id="6hDJamxPyfq" role="3uHU7B">
-                    <property role="Xl_RC" value="Removing listener: " />
-                  </node>
-                  <node concept="2OqwBi" id="4BdHq278imT" role="3uHU7w">
-                    <node concept="37vLTw" id="6hDJamxPyfr" role="2Oq$k0">
-                      <ref role="3cqZAo" node="6hDJamxPyff" resolve="root" />
-                    </node>
-                    <node concept="2Iv5rx" id="4BdHq278imU" role="2OqNvi" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3cpWs8" id="6hDJamxPyfs" role="3cqZAp">
               <node concept="3cpWsn" id="6hDJamxPyft" role="3cpWs9">
                 <property role="TrG5h" value="manager" />
@@ -2558,23 +2565,6 @@
         </node>
         <node concept="3clFbJ" id="6hDJamy7ZIW" role="3cqZAp">
           <node concept="3clFbS" id="6hDJamy7ZIX" role="3clFbx">
-            <node concept="1X3_iC" id="4aWSgWwc_cC" role="lGtFl">
-              <property role="3V$3am" value="statement" />
-              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-              <node concept="2xdQw9" id="6hDJamy7ZIY" role="8Wnug">
-                <node concept="3cpWs3" id="6hDJamy7ZIZ" role="9lYJi">
-                  <node concept="Xl_RD" id="6hDJamy7ZJ0" role="3uHU7B">
-                    <property role="Xl_RC" value="Wiring listener: " />
-                  </node>
-                  <node concept="2OqwBi" id="4BdHq278in4" role="3uHU7w">
-                    <node concept="37vLTw" id="6hDJamy7ZJ1" role="2Oq$k0">
-                      <ref role="3cqZAo" node="6hDJamy7ZIP" resolve="root" />
-                    </node>
-                    <node concept="2Iv5rx" id="4BdHq278in5" role="2OqNvi" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3cpWs8" id="6hDJamy7ZJ2" role="3cqZAp">
               <node concept="3cpWsn" id="6hDJamy7ZJ3" role="3cpWs9">
                 <property role="TrG5h" value="manager" />
@@ -2783,6 +2773,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="6hDJamxEVhs" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXDx3k" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDx3l" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDx3m" role="1dT_Ay">
+          <property role="1dT_AB" value="Helper class with functions to assist the AutoUnFolder plugin" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="63E5y3Tojsl">
     <property role="TrG5h" value="JsonModelParser" />
@@ -6817,6 +6814,13 @@
     </node>
     <node concept="2tJIrI" id="5BwUVa5m1xw" role="jymVt" />
     <node concept="3Tm1VV" id="63E5y3Tojsm" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXCWI4" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXCWI5" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXCWI6" role="1dT_Ay">
+          <property role="1dT_AB" value="Import parser for EditorLanguage. Interfaces with the FlintParser kotlin project. Loads java classes as MPS Nodes" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="2uRRBC" id="5f_RBw0lUwR">
     <property role="TrG5h" value="FlintProjectTemplates" />
@@ -7534,6 +7538,13 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="6bqmyeXGsHF" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXGsHG" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXGsHH" role="1dT_Ay">
+          <property role="1dT_AB" value="This class provides a template for a FlintModel and initializes example nodes" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="5f_RBw0mzEk">
     <property role="TrG5h" value="FlintProjectTemplateGroup" />
@@ -7615,6 +7626,13 @@
       </node>
       <node concept="2AHcQZ" id="5f_RBw0mBz2" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXGuzN" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXGuzO" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXGuzP" role="1dT_Ay">
+          <property role="1dT_AB" value="This custom class holds the FlintProjectTemplate class which can later be retrieved" />
+        </node>
       </node>
     </node>
   </node>
@@ -8010,6 +8028,13 @@
     <node concept="3uibUv" id="2hcevIJcPQZ" role="1zkMxy">
       <ref role="3uigEE" to="dxuu:~JPanel" resolve="JPanel" />
     </node>
+    <node concept="3UR2Jj" id="6bqmyeXGyka" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXGykb" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXGykc" role="1dT_Ay">
+          <property role="1dT_AB" value="This class provides some UI functionality and is able to store TemplateSetting such as the solution and model name " />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="1SUmWO284YO">
     <property role="3GE5qa" value="modelrunner" />
@@ -8066,6 +8091,18 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="1SUmWO284YP" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXDvY0" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDvY1" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDvY2" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface to gather FlintModelRunnerConfiguration. Either gets the current node as FlintModelRunnerConfiguration or" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXDvYi" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDvYj" role="1dT_Ay">
+          <property role="1dT_AB" value="one of its ancestors as FlintModelRunnerConfiguration." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="qfyMBXoC46">
     <property role="3GE5qa" value="modelrunner" />
@@ -8128,6 +8165,13 @@
       </node>
       <node concept="2AHcQZ" id="qfyMBXqjTJ" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXDw05" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDw06" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDw07" role="1dT_Ay">
+          <property role="1dT_AB" value="Custom message logger for the FlintRunner (JS for JavaScript)" />
+        </node>
       </node>
     </node>
   </node>
@@ -8217,6 +8261,13 @@
               <ref role="2Oxat5" node="7HbB$yZLWdI" resolve="flintModelConfiguration" />
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXDw3j" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDw3k" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDw3l" role="1dT_Ay">
+          <property role="1dT_AB" value="This class holds info about the currently ran model. Part of the FlintRunner" />
         </node>
       </node>
     </node>
@@ -8858,6 +8909,13 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6e6T56saL8z" role="jymVt" />
+    <node concept="3UR2Jj" id="6bqmyeXGinj" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXGink" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXGinl" role="1dT_Ay">
+          <property role="1dT_AB" value="Defines the UI and functionality for the pop-up window" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="6e6T56shtFR">
     <property role="3GE5qa" value="wettennlimport" />
@@ -9107,6 +9165,13 @@
     <node concept="3Tm1VV" id="6e6T56shtFS" role="1B3o_S" />
     <node concept="3uibUv" id="6e6T56shSi1" role="1zkMxy">
       <ref role="3uigEE" to="dxuu:~JPanel" resolve="JPanel" />
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXGj0c" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXGj0d" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXGj0e" role="1dT_Ay">
+          <property role="1dT_AB" value="Defines the UI and functionality for the panel inside the pop-up window where the user can enter the JuriConnect" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="2p4aUJVrHKR">
@@ -9896,6 +9961,18 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="2p4aUJVrHKS" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXGkUW" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXGkUX" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXGkUY" role="1dT_Ay">
+          <property role="1dT_AB" value="This class contains the functionality of the FlintFiller which fills in a FlintModel based upon a JuriConnect entered" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXGnAT" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXGnAU" role="1dT_Ay">
+          <property role="1dT_AB" value="by the user" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="4Y4T$M$Yhm8">
     <property role="TrG5h" value="Utils" />
@@ -10455,6 +10532,37 @@
         <property role="TrG5h" value="onSuccess" />
         <node concept="3uibUv" id="69gSqIzI1AU" role="1tU5fm">
           <ref role="3uigEE" to="wyt6:~Runnable" resolve="Runnable" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="6JhtKCOYOoY" role="lGtFl">
+        <node concept="TZ5HA" id="6JhtKCOYOoZ" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOYOp0" role="1dT_Ay">
+            <property role="1dT_AB" value="This function makes it possible to run functions in the background per MPS/Jetbrains standard" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOYOp1" role="3nqlJM">
+          <property role="TUZQ4" value="Project in which the task should run" />
+          <node concept="zr_55" id="6JhtKCOYOp3" role="zr_5Q">
+            <ref role="zr_51" node="69gSqIzGlek" resolve="project" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOYOp4" role="3nqlJM">
+          <property role="TUZQ4" value="Name of the task" />
+          <node concept="zr_55" id="6JhtKCOYOp6" role="zr_5Q">
+            <ref role="zr_51" node="69gSqIzGlem" resolve="name" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOYOp7" role="3nqlJM">
+          <property role="TUZQ4" value="Inital task to run" />
+          <node concept="zr_55" id="6JhtKCOYOp9" role="zr_5Q">
+            <ref role="zr_51" node="69gSqIzGleo" resolve="task" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOYOpa" role="3nqlJM">
+          <property role="TUZQ4" value="Task to run on succes" />
+          <node concept="zr_55" id="6JhtKCOYOpc" role="zr_5Q">
+            <ref role="zr_51" node="69gSqIzI0GX" resolve="onSuccess" />
+          </node>
         </node>
       </node>
     </node>
@@ -11805,6 +11913,13 @@
       <node concept="37vLTG" id="4pyf5wBN3Zw" role="3clF46">
         <property role="TrG5h" value="fileName" />
         <node concept="17QB3L" id="4pyf5wBN48q" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXCIu$" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXCIu_" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXCIuA" role="1dT_Ay">
+          <property role="1dT_AB" value="Main importer class for a FlintModel. Interfaces with the FlintParser kotlin project" />
+        </node>
       </node>
     </node>
   </node>
@@ -14272,6 +14387,23 @@
     <node concept="3uibUv" id="3XLzdyIrCUB" role="1zkMxy">
       <ref role="3uigEE" to="dxuu:~JPanel" resolve="JPanel" />
     </node>
+    <node concept="3UR2Jj" id="6bqmyeXDQAn" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDQAo" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDQAp" role="1dT_Ay">
+          <property role="1dT_AB" value="This class creates the CurrentModelSelector panel visible in the bottom-left corner. Makes it possible for the user " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXDWnP" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDWnQ" role="1dT_Ay">
+          <property role="1dT_AB" value="to mark a FlintModel as currently selected. Based on this info some functions can be executed such as the percentage" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXE0Se" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXE0Sf" role="1dT_Ay">
+          <property role="1dT_AB" value="helper and text underliner in LawSource." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="sE7Ow" id="3XLzdyJ22RM">
     <property role="TrG5h" value="FlintFillerForVersion" />
@@ -15034,6 +15166,13 @@
         </node>
       </node>
     </node>
+    <node concept="3UR2Jj" id="6bqmyeXCBt4" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXCBt5" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXCBt6" role="1dT_Ay">
+          <property role="1dT_AB" value="This class provider the Dialog UI panel for selection a model. Duplicate in Lawsource.behaviour" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="sE7Ow" id="7lQAW7K4Zjs">
     <property role="3GE5qa" value="nodefromarticle" />
@@ -15296,6 +15435,18 @@
       <ref role="3uigEE" node="BDEfJTmiev" resolve="AddSelectionToSourceholderIntention" />
       <node concept="3uibUv" id="3kAtTR5q7Go" role="11_B2D">
         <ref role="3uigEE" to="gyv0:2_D0AvWRqEh" resolve="RichtextSelection" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXDEYD" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDF9c" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDF9d" role="1dT_Ay">
+          <property role="1dT_AB" value="Contains functionality for AddRichTextSelectionToSourceholder intention. Extends from abstract class, defines" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXDF9e" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDF9f" role="1dT_Ay">
+          <property role="1dT_AB" value="specific implementation for a RichtextSelection" />
+        </node>
       </node>
     </node>
   </node>
@@ -17173,6 +17324,18 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="1BkZCJkeUDv" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXEdqS" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXEdqT" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXEdqU" role="1dT_Ay">
+          <property role="1dT_AB" value="Main utility class containing functions pertaining to transfering NormSource/LawSource parts form articles to flintsource" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXEfFp" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXEfFq" role="1dT_Ay">
+          <property role="1dT_AB" value="parts used inside acts/facts/duties in FlintModels." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="sEfby" id="6FvCNS_R09R">
     <property role="3GE5qa" value="publicationparser" />
@@ -17707,6 +17870,18 @@
       </node>
       <node concept="3Tm6S6" id="6FvCNS_TTYf" role="1B3o_S" />
       <node concept="3cqZAl" id="6FvCNS_TVPp" role="3clF45" />
+      <node concept="P$JXv" id="6JhtKCOWgjg" role="lGtFl">
+        <node concept="TZ5HA" id="6JhtKCOWgjh" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOWgji" role="1dT_Ay">
+            <property role="1dT_AB" value="Adds function which executes on click. Function launches a background task which gathers the available parsers." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6JhtKCOWjMz" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOWjM$" role="1dT_Ay">
+            <property role="1dT_AB" value="Sets the parsers to be selectable by the user" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="6FvCNS_R5Hn" role="jymVt" />
     <node concept="3clFb_" id="6FvCNS_R5Ho" role="jymVt">
@@ -18171,6 +18346,13 @@
     <node concept="3uibUv" id="6FvCNS_R5LM" role="1zkMxy">
       <ref role="3uigEE" to="dxuu:~JPanel" resolve="JPanel" />
     </node>
+    <node concept="3UR2Jj" id="6bqmyeXEV7d" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXEV7e" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXEV7f" role="1dT_Ay">
+          <property role="1dT_AB" value="Defines the UI and functionality of the PublicationParser selector in the bottom left corner." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="6FvCNSAbs$G">
     <property role="3GE5qa" value="publicationparser" />
@@ -18217,6 +18399,18 @@
         </node>
       </node>
     </node>
+    <node concept="3UR2Jj" id="6bqmyeXEYpr" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXEYps" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXEYpt" role="1dT_Ay">
+          <property role="1dT_AB" value="This class contains a static reference to get the PublicationParserSelector so its available in all parts" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXEYpL" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXEYpM" role="1dT_Ay">
+          <property role="1dT_AB" value="of the codebase" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="6FvCNSAtQSY">
     <property role="3GE5qa" value="publicationparser" />
@@ -18255,6 +18449,13 @@
     <node concept="3Tm1VV" id="6FvCNSAtQSZ" role="1B3o_S" />
     <node concept="3uibUv" id="6FvCNSAtQXM" role="1zkMxy">
       <ref role="3uigEE" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXECLG" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXECLH" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXECLI" role="1dT_Ay">
+          <property role="1dT_AB" value="Custom exception thrown when no parser is selected. Automatically opens the tool used to select a parser" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="29E0vksxIoW">
@@ -19059,6 +19260,13 @@
     </node>
     <node concept="2tJIrI" id="29E0vksxKyd" role="jymVt" />
     <node concept="3Tm1VV" id="29E0vksxIoX" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXCG4k" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXCG4l" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXCG4m" role="1dT_Ay">
+          <property role="1dT_AB" value="This class provides functionality for running the FlintFiller on LawsourceVersions" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="sE7Ow" id="6_sXoPB8PeW">
     <property role="3GE5qa" value="nodefromarticle" />
@@ -20243,6 +20451,30 @@
           <ref role="ehGHo" to="srlv:7xM0MUaGt9V" resolve="SourcePart" />
         </node>
       </node>
+      <node concept="P$JXv" id="6JhtKCOYaox" role="lGtFl">
+        <node concept="TZ5HA" id="6JhtKCOYaoy" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOYaoz" role="1dT_Ay">
+            <property role="1dT_AB" value="When split is used on a SourcePart this function tries to split the referenced FlintSources and creates new ones." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6JhtKCOYjED" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOYjEE" role="1dT_Ay">
+            <property role="1dT_AB" value="This is done to make de imported FlintSources consistent with the SourceParts in LawSource. " />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOYao$" role="3nqlJM">
+          <property role="TUZQ4" value="FlintSource containing the line to be split" />
+          <node concept="zr_55" id="6JhtKCOYaoA" role="zr_5Q">
+            <ref role="zr_51" node="6ytzK$sv$Bo" resolve="sourceRef" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOYaoB" role="3nqlJM">
+          <property role="TUZQ4" value="SourcePart containing the line to be split" />
+          <node concept="zr_55" id="6JhtKCOYaoD" role="zr_5Q">
+            <ref role="zr_51" node="6ytzK$sv$D7" resolve="articlePart" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="6ytzK$svBcQ" role="jymVt" />
     <node concept="2YIFZL" id="6ytzK$sQwLM" role="jymVt">
@@ -20611,6 +20843,18 @@
       </node>
       <node concept="3Tm1VV" id="7zM_gLhawT0" role="1B3o_S" />
     </node>
+    <node concept="3UR2Jj" id="6bqmyeXGbNp" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXGbNq" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXGbNr" role="1dT_Ay">
+          <property role="1dT_AB" value="This class provides the functionality to split a single sourcepart into two sourceparts. Accounts for UUIDs and correct" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXGcdV" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXGcdW" role="1dT_Ay">
+          <property role="1dT_AB" value="placement of words" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="7zM_gLgUf1x">
     <property role="3GE5qa" value="sourcesplitter" />
@@ -20633,6 +20877,13 @@
     </node>
     <node concept="2tJIrI" id="7zM_gLgUq0D" role="jymVt" />
     <node concept="3Tm1VV" id="7zM_gLgUf1y" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXG3gO" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXG3gP" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXG3gQ" role="1dT_Ay">
+          <property role="1dT_AB" value="This class defines the abstract implementation of the FlintSourceReferenceGetter" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="7zM_gLgUqfp">
     <property role="2bfB8j" value="true" />
@@ -20768,6 +21019,13 @@
         <ref role="2I9WkF" to="lnwe:5Xjenljcz0Y" resolve="FlintSource" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="6bqmyeXG3$b" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXG3$c" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXG3$d" role="1dT_Ay">
+          <property role="1dT_AB" value="Implementation class of FlintSourceReferenceGetter" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="7zM_gLhapnE">
     <property role="3GE5qa" value="sourcesplitter" />
@@ -20787,6 +21045,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="7zM_gLhapnF" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXG3Sq" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXG3Sr" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXG3Ss" role="1dT_Ay">
+          <property role="1dT_AB" value="This class defines the abstract implementation of the LineIdFetcher" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="7zM_gLhaqi3">
     <property role="3GE5qa" value="sourcesplitter" />
@@ -20820,6 +21085,13 @@
       </node>
       <node concept="2AHcQZ" id="7zM_gLhaqor" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXG43g" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXG46c" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXG46d" role="1dT_Ay">
+          <property role="1dT_AB" value="Implementation class of LineIdFetcher" />
+        </node>
       </node>
     </node>
   </node>
@@ -21534,6 +21806,18 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXGqr4" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXGqr5" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXGqr6" role="1dT_Ay">
+          <property role="1dT_AB" value="Custom NewModelAction creates the model its given and executes a given runnable after the creation of the model." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXGrvX" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXGrvY" role="1dT_Ay">
+          <property role="1dT_AB" value="In implementation the given runnable adds the correct languages to the model and opens the model." />
         </node>
       </node>
     </node>
@@ -24000,6 +24284,18 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="6opw4_II99X" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXCHHq" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXCHHr" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXCHHs" role="1dT_Ay">
+          <property role="1dT_AB" value="Import class/parser for EditorLanguage. Interfaces with the FlintParser kotlin project. Loads java classes" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXD7$F" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXD7$G" role="1dT_Ay">
+          <property role="1dT_AB" value=" as EditorLanguage" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="6$HM99mg38c">
     <property role="3GE5qa" value="nodefromarticle" />
@@ -24090,6 +24386,18 @@
       <ref role="3uigEE" node="BDEfJTmiev" resolve="AddSelectionToSourceholderIntention" />
       <node concept="3uibUv" id="3kAtTR5pWoS" role="11_B2D">
         <ref role="3uigEE" to="b8lf:~EditorCellLabelSelection" resolve="EditorCellLabelSelection" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXDCvS" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDCvT" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDCvU" role="1dT_Ay">
+          <property role="1dT_AB" value="Contains functionality for AddEditorSelectionToSourceholder intention. Extends from abstract class, defines" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXDCDb" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDCDc" role="1dT_Ay">
+          <property role="1dT_AB" value="specific implementation for an EditorCellLabelSelection" />
+        </node>
       </node>
     </node>
   </node>
@@ -24408,6 +24716,13 @@
         </node>
       </node>
     </node>
+    <node concept="3UR2Jj" id="6bqmyeXDgf0" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDgf1" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDgf2" role="1dT_Ay">
+          <property role="1dT_AB" value="This class parses the JSON with GSON to java classes (POJO's)" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="6DgkmMIMNrV">
     <property role="3GE5qa" value="lawsourceimport" />
@@ -24436,6 +24751,13 @@
         </node>
       </node>
     </node>
+    <node concept="3UR2Jj" id="6bqmyeXD8yL" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXD8yM" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXD8yN" role="1dT_Ay">
+          <property role="1dT_AB" value="Exported LawSource POJO, resource holder" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="6DgkmMIMNsV">
     <property role="3GE5qa" value="lawsourceimport" />
@@ -24450,6 +24772,13 @@
       <property role="TrG5h" value="bwbId" />
       <node concept="3Tm1VV" id="6DgkmMIMNVL" role="1B3o_S" />
       <node concept="17QB3L" id="6DgkmMIMO3h" role="1tU5fm" />
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXDjdH" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDjdI" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDjdJ" role="1dT_Ay">
+          <property role="1dT_AB" value="LawSource POJO, resource holder" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="6DgkmMIMO3K">
@@ -24486,6 +24815,13 @@
       <node concept="17QB3L" id="6DgkmMIMOt_" role="1tU5fm" />
     </node>
     <node concept="3Tm1VV" id="6DgkmMIMO3L" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXDje$" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDje_" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDjeA" role="1dT_Ay">
+          <property role="1dT_AB" value="LawVersion POJO, resource holder" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="6DgkmMIMPDB">
     <property role="3GE5qa" value="lawsourceimport" />
@@ -24517,6 +24853,13 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="6y0JmBZ124l" role="1B3o_S" />
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXDrf$" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDrf_" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDrfA" role="1dT_Ay">
+          <property role="1dT_AB" value="SourcePart POJO, resource holder" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="6DgkmMINAux">
@@ -24677,6 +25020,13 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="6bqmyeXDkQZ" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDkR0" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDkR1" role="1dT_Ay">
+          <property role="1dT_AB" value="Line POJO, resource holder" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="6DgkmMINC77">
     <property role="3GE5qa" value="lawsourceimport" />
@@ -24811,6 +25161,13 @@
       </node>
       <node concept="2AHcQZ" id="6y0JmBZ125L" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXDjRe" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDjRf" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDjRg" role="1dT_Ay">
+          <property role="1dT_AB" value="LineCOllection POJO, resource holder" />
+        </node>
       </node>
     </node>
   </node>
@@ -25593,6 +25950,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="6DgkmMJ1frD" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXDdbX" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDdbY" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDdbZ" role="1dT_Ay">
+          <property role="1dT_AB" value="This class maps LawSource java classes to LawSource MPS nodes" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="19sjjnlt44U">
     <property role="3GE5qa" value="search.flintmodel" />
@@ -25737,6 +26101,24 @@
       </node>
       <node concept="2AHcQZ" id="24TlsWx5TlF" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="P$JXv" id="6JhtKCOXDdu" role="lGtFl">
+        <node concept="TZ5HA" id="6JhtKCOXDdv" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOXDdw" role="1dT_Ay">
+            <property role="1dT_AB" value="Starting point of the recursive search function. Takes in the starting node from which to search " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6JhtKCOXHxG" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOXHxH" role="1dT_Ay">
+            <property role="1dT_AB" value="(Flintmodel or LawsourceVerison), parses the search query for correct checking and starts recursive function" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOXDdx" role="3nqlJM">
+          <property role="TUZQ4" value="Root node from which the search is started" />
+          <node concept="zr_55" id="6JhtKCOXDdz" role="zr_5Q">
+            <ref role="zr_51" node="19sjjnltop6" resolve="node" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="19sjjnlu0D0" role="jymVt" />
@@ -26601,6 +26983,48 @@
           </node>
         </node>
       </node>
+      <node concept="P$JXv" id="6JhtKCOWBRd" role="lGtFl">
+        <node concept="TZ5HA" id="6JhtKCOWBRe" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOWBRf" role="1dT_Ay">
+            <property role="1dT_AB" value="Recursive function for checking every node and its references/children/links for matching text." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6JhtKCOWDCn" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOWDCo" role="1dT_Ay">
+            <property role="1dT_AB" value="Excluded properties &amp; links are staticly defined inside this function." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOWBRg" role="3nqlJM">
+          <property role="TUZQ4" value="Node which is currently being checked" />
+          <node concept="zr_55" id="6JhtKCOWBRi" role="zr_5Q">
+            <ref role="zr_51" node="19sjjnltZqD" resolve="node" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOWBRj" role="3nqlJM">
+          <property role="TUZQ4" value="Function to split search query on word" />
+          <node concept="zr_55" id="6JhtKCOWBRl" role="zr_5Q">
+            <ref role="zr_51" node="19sjjnltZqF" resolve="myWordSplit" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOWBRm" role="3nqlJM">
+          <property role="TUZQ4" value="Search qeury in lowercase" />
+          <node concept="zr_55" id="6JhtKCOWBRo" role="zr_5Q">
+            <ref role="zr_51" node="19sjjnltZqK" resolve="lowerCaseStringToSearch" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOWBRp" role="3nqlJM">
+          <property role="TUZQ4" value="Set of lowercase splitted text" />
+          <node concept="zr_55" id="6JhtKCOWBRr" role="zr_5Q">
+            <ref role="zr_51" node="19sjjnltZqM" resolve="splitSearchWords" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOWBRs" role="3nqlJM">
+          <property role="TUZQ4" value="List of nodes which are already processed" />
+          <node concept="zr_55" id="6JhtKCOWBRu" role="zr_5Q">
+            <ref role="zr_51" node="19sjjnlubpq" resolve="processedNodes" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="1$Rh125Gj_E" role="jymVt" />
     <node concept="3clFb_" id="2gxcy0G$ENJ" role="jymVt">
@@ -26679,6 +27103,23 @@
       <node concept="37vLTG" id="2gxcy0G$IZr" role="3clF46">
         <property role="TrG5h" value="node" />
         <node concept="3Tqbb2" id="2gxcy0G$IZq" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXF8Gl" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXF8Gm" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXF8Gn" role="1dT_Ay">
+          <property role="1dT_AB" value="This class contains the logic of searching nodes matching the text query of the user." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXFc54" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXFc55" role="1dT_Ay">
+          <property role="1dT_AB" value="This is the main functionality of the custom text search feature for FlintModels." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXFl2o" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXFl2p" role="1dT_Ay">
+          <property role="1dT_AB" value="It also defines which parts should be excluded from the search" />
+        </node>
       </node>
     </node>
   </node>
@@ -30499,8 +30940,27 @@
           <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
         </node>
       </node>
+      <node concept="3UR2Jj" id="6JhtKCOXUMx" role="lGtFl">
+        <node concept="TZ5HA" id="6JhtKCOXUMy" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOXUMz" role="1dT_Ay">
+            <property role="1dT_AB" value="Handles output from the recursive function e.g. when a matches are found they are shown in the dialog window" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="2gxcy0Fd0k2" role="jymVt" />
+    <node concept="3UR2Jj" id="6bqmyeXFHvv" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXFHvw" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXFHvx" role="1dT_Ay">
+          <property role="1dT_AB" value="Defines the abstract functionality and UI of the custom text search feature." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXFN0z" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXFN0$" role="1dT_Ay">
+          <property role="1dT_AB" value="Currently used by two extending classes for specific implementations for FlintModels and LawSourceVersions" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="2uRRBy" id="4FnTJrEqIMt">
     <property role="TrG5h" value="StoreProject" />
@@ -31844,6 +32304,18 @@
         </node>
       </node>
     </node>
+    <node concept="3UR2Jj" id="6bqmyeXFqkv" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXFqkw" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXFqkx" role="1dT_Ay">
+          <property role="1dT_AB" value="Abstract functionality of the custom text search feature. Currently used by two extending classes to search" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXFr8E" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXFr8F" role="1dT_Ay">
+          <property role="1dT_AB" value="inside LawSourceVersions and FlintModels" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="sE7Ow" id="19sjjnlipii">
     <property role="3GE5qa" value="search.flintmodel" />
@@ -32395,6 +32867,13 @@
       </node>
       <node concept="3Tmbuc" id="24TlsWwOYPZ" role="1B3o_S" />
     </node>
+    <node concept="3UR2Jj" id="6bqmyeXF4za" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXF4zb" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXF4zc" role="1dT_Ay">
+          <property role="1dT_AB" value="Defines the functionality and UI of the custom text search feature for FlintModels" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="24TlsWx5J7X">
     <property role="3GE5qa" value="search.source" />
@@ -32534,6 +33013,24 @@
       </node>
       <node concept="2AHcQZ" id="24TlsWx5XPM" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="P$JXv" id="6JhtKCOXL_6" role="lGtFl">
+        <node concept="TZ5HA" id="6JhtKCOXMAT" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOXMAU" role="1dT_Ay">
+            <property role="1dT_AB" value="Starting point of the recursive search function. Takes in the starting node from which to search " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6JhtKCOXMAV" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOXMAW" role="1dT_Ay">
+            <property role="1dT_AB" value="(Flintmodel or LawsourceVerison), parses the search query for correct checking and starts recursive function" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOXL_9" role="3nqlJM">
+          <property role="TUZQ4" value="Root node from which the search is started" />
+          <node concept="zr_55" id="6JhtKCOXL_b" role="zr_5Q">
+            <ref role="zr_51" node="24TlsWx5L07" resolve="node" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="24TlsWx5L09" role="jymVt" />
@@ -33023,6 +33520,48 @@
           </node>
         </node>
       </node>
+      <node concept="P$JXv" id="6JhtKCOXOop" role="lGtFl">
+        <node concept="TZ5HA" id="6JhtKCOXPzt" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOXPzu" role="1dT_Ay">
+            <property role="1dT_AB" value="Recursive function for checking every node and its references/children/links for matching text." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6JhtKCOXPzv" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOXPzw" role="1dT_Ay">
+            <property role="1dT_AB" value="Excluded properties &amp; links are staticly defined inside this function." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOXRkG" role="3nqlJM">
+          <property role="TUZQ4" value="Node which is currently being checked" />
+          <node concept="zr_55" id="6JhtKCOXRkH" role="zr_5Q">
+            <ref role="zr_51" node="24TlsWx5L0d" resolve="node" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOXRkI" role="3nqlJM">
+          <property role="TUZQ4" value="Function to split search query on word" />
+          <node concept="zr_55" id="6JhtKCOXRkJ" role="zr_5Q">
+            <ref role="zr_51" node="24TlsWx5L0f" resolve="myWordSplit" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOXRkK" role="3nqlJM">
+          <property role="TUZQ4" value="Search qeury in lowercase" />
+          <node concept="zr_55" id="6JhtKCOXRkL" role="zr_5Q">
+            <ref role="zr_51" node="24TlsWx5L0k" resolve="lowerCaseStringToSearch" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOXRkM" role="3nqlJM">
+          <property role="TUZQ4" value="Set of lowercase splitted text" />
+          <node concept="zr_55" id="6JhtKCOXRkN" role="zr_5Q">
+            <ref role="zr_51" node="24TlsWx5L0m" resolve="splitSearchWords" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOXRkO" role="3nqlJM">
+          <property role="TUZQ4" value="List of nodes which are already processed" />
+          <node concept="zr_55" id="6JhtKCOXRkP" role="zr_5Q">
+            <ref role="zr_51" node="24TlsWx5L0p" resolve="processedNodes" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="24TlsWx5L52" role="jymVt" />
     <node concept="3clFb_" id="24TlsWx5L53" role="jymVt">
@@ -33106,6 +33645,23 @@
     <node concept="3Tm1VV" id="24TlsWx5J7Y" role="1B3o_S" />
     <node concept="3uibUv" id="24TlsWx5Jgj" role="1zkMxy">
       <ref role="3uigEE" node="24TlsWwG6dF" resolve="FindTextInNodeTask" />
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXFgAD" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXFhWC" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXFhWD" role="1dT_Ay">
+          <property role="1dT_AB" value="This class contains the logic of searching nodes matching the text query of the user." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXFhWE" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXFhWF" role="1dT_Ay">
+          <property role="1dT_AB" value="This is the main functionality of the custom text search feature for LawSourceVersions." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXFjVB" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXFjVC" role="1dT_Ay">
+          <property role="1dT_AB" value="It also defines which parts should be excluded from the search" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="24TlsWx6$Gp">
@@ -33379,6 +33935,13 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
       <node concept="3Tmbuc" id="24TlsWx6$IK" role="1B3o_S" />
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXF56m" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXF56n" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXF56o" role="1dT_Ay">
+          <property role="1dT_AB" value="Defines the functionality and UI of the custom text search feature for LawSourceVersions" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="sE7Ow" id="i2cqFeYTVE">
@@ -33846,6 +34409,13 @@
         </node>
       </node>
     </node>
+    <node concept="3UR2Jj" id="6bqmyeXDpxT" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDpxU" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDpxV" role="1dT_Ay">
+          <property role="1dT_AB" value="SeperatedNamedLineCollection POJO, resource holder" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="7VfJsRd4iWa">
     <property role="TrG5h" value="CellProviderService" />
@@ -34210,6 +34780,13 @@
           <node concept="37vLTw" id="6y0JmBZ1nyv" role="3clFbG">
             <ref role="3cqZAo" node="6y0JmBZ1nxI" resolve="line" />
           </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXDlJo" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDlJp" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDlJq" role="1dT_Ay">
+          <property role="1dT_AB" value="NamedLineCollection POJO, resource holder" />
         </node>
       </node>
     </node>
@@ -34623,6 +35200,18 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="6bqmyeXE_BU" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXE_BV" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXE_BW" role="1dT_Ay">
+          <property role="1dT_AB" value="Main implementation of the SourceUsedWord functionality. Functionality entails keeping track of which text lines are" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXEB4S" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXEB4T" role="1dT_Ay">
+          <property role="1dT_AB" value="used/referenced" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="7NiL5UbQ3ZG">
     <property role="3GE5qa" value="lawsourceimport" />
@@ -34774,6 +35363,13 @@
         </node>
       </node>
     </node>
+    <node concept="3UR2Jj" id="6bqmyeXDmF_" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDmFA" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDmFB" role="1dT_Ay">
+          <property role="1dT_AB" value="PrefixLineCollection POJO, resource holder" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="3_GDR_w0b$c">
     <property role="3GE5qa" value="lawsourceimport" />
@@ -34910,6 +35506,13 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="6bqmyeXDtDN" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDtDO" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDtDP" role="1dT_Ay">
+          <property role="1dT_AB" value="TableHead POJO, resource holder" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="3_GDR_w08tm">
     <property role="3GE5qa" value="lawsourceimport" />
@@ -35044,6 +35647,13 @@
       </node>
       <node concept="2AHcQZ" id="3_GDR_w08uf" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXDusF" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDusG" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDusH" role="1dT_Ay">
+          <property role="1dT_AB" value="Table POJO, resource holder" />
+        </node>
       </node>
     </node>
   </node>
@@ -35308,6 +35918,13 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="6bqmyeXDrMN" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDrMO" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDrMP" role="1dT_Ay">
+          <property role="1dT_AB" value="TableBody POJO, resource holder" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="3_GDR_w0f9f">
     <property role="3GE5qa" value="lawsourceimport" />
@@ -35442,6 +36059,13 @@
       </node>
       <node concept="2AHcQZ" id="3_GDR_w0fa8" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXDvjQ" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDvjR" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDvjS" role="1dT_Ay">
+          <property role="1dT_AB" value="TableRow POJO, resource holder" />
+        </node>
       </node>
     </node>
   </node>
@@ -35580,6 +36204,13 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="6bqmyeXDs_z" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDs_$" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDs__" role="1dT_Ay">
+          <property role="1dT_AB" value="TableGroup POJO, resource holder" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="2txHBFOZGST">
     <property role="3GE5qa" value="nodefromarticle" />
@@ -35652,6 +36283,18 @@
         <ref role="3uigEE" to="b8lf:~NodeRangeSelection" resolve="NodeRangeSelection" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="6bqmyeXDEso" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDEy2" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDEy3" role="1dT_Ay">
+          <property role="1dT_AB" value="Contains functionality for AddRangeSelectionToSourceholder intention. Extends from abstract class, defines" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXDEy4" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDEy5" role="1dT_Ay">
+          <property role="1dT_AB" value="specific implementation for a NodeRangeSelection" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="3FsRXa7mvHu">
     <property role="3GE5qa" value="lawsourceimport" />
@@ -35677,6 +36320,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="3FsRXa7mvHv" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXDn2F" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDn2G" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDn2H" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface which defines a way to add a root node to a model" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="3FsRXa7mvGK">
     <property role="3GE5qa" value="lawsourceimport" />
@@ -35741,6 +36391,13 @@
       </node>
       <node concept="2AHcQZ" id="3FsRXa7mxXX" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXDnf6" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDnf7" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDnf8" role="1dT_Ay">
+          <property role="1dT_AB" value="Implementer class which defines a generic way to add a root node to a model" />
+        </node>
       </node>
     </node>
   </node>
@@ -35823,6 +36480,13 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="3FsRXa7o85z" role="1B3o_S" />
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXDnlw" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDnlx" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDnly" role="1dT_Ay">
+          <property role="1dT_AB" value="Creates a single instance of the RootNodeFactory for usage in other parts of the codebase and manages it" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="3FsRXa7tZcb">
@@ -36152,6 +36816,18 @@
     </node>
     <node concept="2tJIrI" id="3FsRXa7u35F" role="jymVt" />
     <node concept="3Tm1VV" id="3FsRXa7tZcc" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6bqmyeXDa0h" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDa0i" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDa0j" role="1dT_Ay">
+          <property role="1dT_AB" value="Main importer class for LawSource json. Uses GSON to map JSON to java objects (POJOS) then calls parser to covert them" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXDaPF" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDaPG" role="1dT_Ay">
+          <property role="1dT_AB" value="into MPS Nodes" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="5SIYu6XxgH1">
     <property role="TrG5h" value="ParameterizedIntentionInstance" />
@@ -36226,6 +36902,25 @@
     </node>
     <node concept="16euLQ" id="5SIYu6Xx_91" role="16eVyc">
       <property role="TrG5h" value="P" />
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXErZt" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXErZu" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXErZv" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface to define a generic template for an Parameterized Intention Instance" />
+        </node>
+      </node>
+      <node concept="TUZQ0" id="6bqmyeXErZw" role="3nqlJM">
+        <property role="TUZQ4" value="Type onto which the intention is executed" />
+        <node concept="zr_56" id="6bqmyeXErZy" role="zr_5Q">
+          <ref role="zr_51" node="5SIYu6Xx_2g" resolve="T" />
+        </node>
+      </node>
+      <node concept="TUZQ0" id="6bqmyeXErZz" role="3nqlJM">
+        <property role="TUZQ4" value="Parameter type which defines the parameters of the parameterized intention" />
+        <node concept="zr_56" id="6bqmyeXErZ_" role="zr_5Q">
+          <ref role="zr_51" node="5SIYu6Xx_91" resolve="P" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="2553W0b$k$d">
@@ -36744,6 +37439,30 @@
       <node concept="2AHcQZ" id="2553W0bKmsO" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
+      <node concept="P$JXv" id="6JhtKCOVTI2" role="lGtFl">
+        <node concept="TZ5HA" id="6JhtKCOVUKC" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOVUKD" role="1dT_Ay">
+            <property role="1dT_AB" value="Checks if a FlintModel is present and selected. After this helper function is called to actually add the" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6JhtKCOVWcY" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOVWcZ" role="1dT_Ay">
+            <property role="1dT_AB" value="source to the sourceholder." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOVTI5" role="3nqlJM">
+          <property role="TUZQ4" value="Source which needs to be added to a sourceholder" />
+          <node concept="zr_55" id="6JhtKCOVTI7" role="zr_5Q">
+            <ref role="zr_51" node="2553W0bKmsH" resolve="node" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOVTI8" role="3nqlJM">
+          <property role="TUZQ4" value="Refers to the type of concept which needs to be created" />
+          <node concept="zr_55" id="6JhtKCOVTIa" role="zr_5Q">
+            <ref role="zr_51" node="2553W0bKmsJ" resolve="parameter" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="2553W0b$vzC" role="jymVt" />
     <node concept="2tJIrI" id="2553W0b$s2k" role="jymVt" />
@@ -36755,6 +37474,18 @@
       </node>
       <node concept="3uibUv" id="2553W0bKjBf" role="11_B2D">
         <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXEtn9" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXEvZx" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXEvZy" role="1dT_Ay">
+          <property role="1dT_AB" value="This class defines the functionality of NodeFromLine intention. Derives from ParameterizedIntentionInstance interface " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXEvZz" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXEvZ$" role="1dT_Ay">
+          <property role="1dT_AB" value="with node&lt;Word&gt; as the type onto which to execute the intention and Integer as the type of the parameter" />
+        </node>
       </node>
     </node>
   </node>
@@ -37219,6 +37950,30 @@
       <node concept="2AHcQZ" id="BDEfJTHFR8" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
+      <node concept="P$JXv" id="6JhtKCOW4Kq" role="lGtFl">
+        <node concept="TZ5HA" id="6JhtKCOW5s9" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOW5sa" role="1dT_Ay">
+            <property role="1dT_AB" value="Checks if a FlintModel is present and selected. After this helper function is called to actually add the" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6JhtKCOW5sb" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOW5sc" role="1dT_Ay">
+            <property role="1dT_AB" value="source to the sourceholder." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOW4Kt" role="3nqlJM">
+          <property role="TUZQ4" value="Source which needs to be added to a sourceholder" />
+          <node concept="zr_55" id="6JhtKCOW4Kv" role="zr_5Q">
+            <ref role="zr_51" node="BDEfJTHFQ4" resolve="selection" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOW4Kw" role="3nqlJM">
+          <property role="TUZQ4" value="Refers to the type of concept which needs to be created" />
+          <node concept="zr_55" id="6JhtKCOW4Ky" role="zr_5Q">
+            <ref role="zr_51" node="BDEfJTHFQ6" resolve="parameter" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="BDEfJTHFN2" role="jymVt" />
     <node concept="3Tm1VV" id="BDEfJTHDOP" role="1B3o_S" />
@@ -37229,6 +37984,18 @@
       </node>
       <node concept="3bZ5Sz" id="BDEfJTHETi" role="11_B2D">
         <ref role="3bZ5Sy" to="lnwe:63E5y3TGjs_" resolve="IHasSources" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXEyD4" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXEzph" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXEzpi" role="1dT_Ay">
+          <property role="1dT_AB" value="This class defines the functionality of NodeFromSelection intention. Derives from ParameterizedIntentionInstance interface " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXEzpj" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXEzpk" role="1dT_Ay">
+          <property role="1dT_AB" value="with concept&lt;IHasSource&gt; as the type onto which to execute the intention and Selection as the type of the parameter" />
+        </node>
       </node>
     </node>
   </node>
@@ -37721,6 +38488,36 @@
       </node>
       <node concept="2AHcQZ" id="35cpwYlHws" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="P$JXv" id="6JhtKCOVoYk" role="lGtFl">
+        <node concept="TZ5HA" id="6JhtKCOVoYl" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOVoYm" role="1dT_Ay">
+            <property role="1dT_AB" value="Checks if a FlintModel is present and selected. If true, the use can choose a sourceholder from a dialog window." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6JhtKCOVqDf" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOVqDg" role="1dT_Ay">
+            <property role="1dT_AB" value="After this helper function is called to actually add the source to the sourceholder." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOVoYn" role="3nqlJM">
+          <property role="TUZQ4" value="Source which needs to be added to a sourceholder" />
+          <node concept="zr_55" id="6JhtKCOVoYp" role="zr_5Q">
+            <ref role="zr_51" node="35cpwYlHwl" resolve="node" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXDHux" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDHuy" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDHuz" role="1dT_Ay">
+          <property role="1dT_AB" value="This class defines the functionality of AddLineToSourceHolder intention. Derives from IntentionInstance interface " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXDIX3" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDIX4" role="1dT_Ay">
+          <property role="1dT_AB" value="with node&lt;Word&gt; type as parameter onto which to execute the intention" />
+        </node>
       </node>
     </node>
   </node>
@@ -38231,6 +39028,30 @@
       <node concept="2AHcQZ" id="BDEfJTmzrT" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
+      <node concept="P$JXv" id="6JhtKCOVuEz" role="lGtFl">
+        <node concept="TZ5HA" id="6JhtKCOVwgL" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOVwgM" role="1dT_Ay">
+            <property role="1dT_AB" value="Checks if a FlintModel is present and selected. If true, the use can choose a sourceholder from a dialog window." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6JhtKCOVwgN" role="TZ5H$">
+          <node concept="1dT_AC" id="6JhtKCOVwgO" role="1dT_Ay">
+            <property role="1dT_AB" value="After this helper function is called to actually add the source to the sourceholder." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOVuEA" role="3nqlJM">
+          <property role="TUZQ4" value="Type of selection which contains the source" />
+          <node concept="zr_55" id="6JhtKCOVuEC" role="zr_5Q">
+            <ref role="zr_51" node="BDEfJTmzrM" resolve="selection" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6JhtKCOVuED" role="3nqlJM">
+          <property role="TUZQ4" value="No current use but placed to conform to the MPS Interface of parameterized intention" />
+          <node concept="zr_55" id="6JhtKCOVuEF" role="zr_5Q">
+            <ref role="zr_51" node="BDEfJTmzrO" resolve="parameter" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="BDEfJTmY_A" role="jymVt" />
     <node concept="3clFb_" id="BDEfJTmP7A" role="jymVt">
@@ -38265,6 +39086,24 @@
       <property role="TrG5h" value="T" />
       <node concept="3uibUv" id="3kAtTR5pf34" role="3ztrMU">
         <ref role="3uigEE" to="lwvz:~Selection" resolve="Selection" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXDzpa" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDzpb" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDzpc" role="1dT_Ay">
+          <property role="1dT_AB" value="Abstract class with abstracted functionality of AddSelectionToSourceholderInention. Specific implementation differs" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6bqmyeXD_qc" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXD_qd" role="1dT_Ay">
+          <property role="1dT_AB" value="based upon the type of selection used." />
+        </node>
+      </node>
+      <node concept="TUZQ0" id="6bqmyeXDzpd" role="3nqlJM">
+        <property role="TUZQ4" value="Type of selection which needs to be added to a SourceHolder" />
+        <node concept="zr_56" id="6bqmyeXDzpf" role="zr_5Q">
+          <ref role="zr_51" node="3kAtTR5pbd7" resolve="T" />
+        </node>
       </node>
     </node>
   </node>
@@ -38310,6 +39149,19 @@
     <node concept="3Tm1VV" id="35cpwYtENg" role="1B3o_S" />
     <node concept="16euLQ" id="35cpwYtES6" role="16eVyc">
       <property role="TrG5h" value="T" />
+    </node>
+    <node concept="3UR2Jj" id="6bqmyeXDFRy" role="lGtFl">
+      <node concept="TZ5HA" id="6bqmyeXDFRz" role="TZ5H$">
+        <node concept="1dT_AC" id="6bqmyeXDFR$" role="1dT_Ay">
+          <property role="1dT_AB" value="Interface to define a generic template for an Intention Instance" />
+        </node>
+      </node>
+      <node concept="TUZQ0" id="6bqmyeXDFR_" role="3nqlJM">
+        <property role="TUZQ4" value="Parameter type onto which the intention is executed" />
+        <node concept="zr_56" id="6bqmyeXDFRB" role="zr_5Q">
+          <ref role="zr_51" node="35cpwYtES6" resolve="T" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

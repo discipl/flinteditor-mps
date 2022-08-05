@@ -36,6 +36,7 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
@@ -82,6 +83,7 @@
     <property role="EcuMT" value="6868897032739434615" />
     <property role="TrG5h" value="FlintModel" />
     <property role="19KtqR" value="true" />
+    <property role="R4oN_" value="Model as described in discipl-law-reg" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5XjenljaN1S" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -145,6 +147,7 @@
     <property role="TrG5h" value="Fact" />
     <property role="34LRSv" value="Fact" />
     <property role="19KtqR" value="true" />
+    <property role="R4oN_" value="Fact as described in discipl-law-reg" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5Xjenljc0hW" role="1TKVEi">
       <property role="IQ2ns" value="6868897032739751036" />
@@ -187,6 +190,7 @@
     <property role="EcuMT" value="6868897032739893310" />
     <property role="TrG5h" value="FlintSource" />
     <property role="34LRSv" value="source" />
+    <property role="R4oN_" value="Concept for sources inside FlintModel" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5Xjenljcz1J" role="1TKVEi">
       <property role="IQ2ns" value="6868897032739893359" />
@@ -235,6 +239,9 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6LSqBjXFI_4" resolve="CustomText" />
     </node>
+    <node concept="t5JxF" id="5OUOrAlYGaG" role="lGtFl">
+      <property role="t5JxN" value="Contains a link to the referenced Lawsource. Copied text from Lawsource is editable. Text can be used to tag properties of the containing node." />
+    </node>
   </node>
   <node concept="1TIwiD" id="5Xjenljcz0Z">
     <property role="EcuMT" value="6868897032739893311" />
@@ -282,6 +289,9 @@
     <node concept="PrWs8" id="1bPqaB8W7sD" role="PrDN$">
       <ref role="PrY4T" to="a78y:1bPqaB7Hr7H" resolve="IProvidesTranslatedCell" />
     </node>
+    <node concept="t5JxF" id="5OUOrAlYJRa" role="lGtFl">
+      <property role="t5JxN" value="Interface for nodes requiring explanation field. Provides aforementioned explanaition field" />
+    </node>
   </node>
   <node concept="Az7Fb" id="5Xjenljcz1y">
     <property role="3F6X1D" value="6868897032739893346" />
@@ -292,6 +302,7 @@
     <property role="EcuMT" value="6587498613242404529" />
     <property role="TrG5h" value="FactReference" />
     <property role="34LRSv" value="fact" />
+    <property role="R4oN_" value="Fact reference holder" />
     <ref role="1TJDcQ" node="4OBWPp15Tuc" resolve="Resolvable" />
     <node concept="1TJgyj" id="5HFvLoKGhUM" role="1TKVEi">
       <property role="IQ2ns" value="6587498613242404530" />
@@ -314,6 +325,7 @@
     <property role="TrG5h" value="Act" />
     <property role="34LRSv" value="Act" />
     <property role="19KtqR" value="true" />
+    <property role="R4oN_" value="Act as described in discipl-law-reg" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2vpCevmrPiB" role="PzmwI">
       <ref role="PrY4T" node="2vpCevmrg7e" resolve="IUniquelyName" />
@@ -392,6 +404,9 @@
     <node concept="1QGGSu" id="VXy0hHpipC" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/Act.png" />
     </node>
+    <node concept="t5JxF" id="5cRXuywvtK5" role="lGtFl">
+      <property role="t5JxN" value="Cardinality of actor,object and recipient should be [1]. This however clashed with versioning functionality. See ObligatoryRole in Typesystem." />
+    </node>
   </node>
   <node concept="PlHQZ" id="7PeSHTFdOj4">
     <property role="EcuMT" value="9029403747833824452" />
@@ -399,12 +414,16 @@
     <node concept="PrWs8" id="LTOSk1NPqL" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="t5JxF" id="5OUOrAlYGZe" role="lGtFl">
+      <property role="t5JxN" value="Provides interface for creatable and terminateable references of an Act" />
+    </node>
   </node>
   <node concept="1TIwiD" id="27H3E6Hoggr">
     <property role="EcuMT" value="2444626260293387291" />
     <property role="TrG5h" value="Duty" />
     <property role="34LRSv" value="Duty" />
     <property role="19KtqR" value="true" />
+    <property role="R4oN_" value="Duty as described in discipl-law-reg" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2vpCevmrPiN" role="PzmwI">
       <ref role="PrY4T" node="2vpCevmrg7e" resolve="IUniquelyName" />
@@ -479,6 +498,7 @@
     <property role="EcuMT" value="2444626260293394822" />
     <property role="TrG5h" value="DutyReference" />
     <property role="34LRSv" value="duty" />
+    <property role="R4oN_" value="Duty reference holder" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="27H3E6Hoi67" role="1TKVEi">
       <property role="IQ2ns" value="2444626260293394823" />
@@ -499,11 +519,15 @@
   <node concept="PlHQZ" id="27H3E6HBJi1">
     <property role="TrG5h" value="IUsable" />
     <property role="EcuMT" value="2444626260297446528" />
+    <node concept="t5JxF" id="5OUOrAlYXPC" role="lGtFl">
+      <property role="t5JxN" value="Interface for concepts which are useable inside the Flintmodel. Tracks if they are used or not." />
+    </node>
   </node>
   <node concept="1TIwiD" id="6qUJKUPmPQ6">
     <property role="EcuMT" value="7402439007429942662" />
     <property role="TrG5h" value="ActReference" />
     <property role="34LRSv" value="act" />
+    <property role="R4oN_" value="Act reference holder" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6qUJKUPmPQ7" role="1TKVEi">
       <property role="IQ2ns" value="7402439007429942663" />
@@ -524,6 +548,7 @@
     <property role="34LRSv" value="FlintModelRunner" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="flintmodelrunner" />
+    <property role="R4oN_" value="Configuration holder for Flintrunner" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="10jIHuj5o16" role="1TKVEi">
       <property role="IQ2ns" value="1158474964212744262" />
@@ -567,6 +592,7 @@
     <property role="3GE5qa" value="flintmodelrunner" />
     <property role="TrG5h" value="FlintModelActor" />
     <property role="34LRSv" value="actor" />
+    <property role="R4oN_" value="Actreference holder for Flintrunner" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="10jIHuj5o1f" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -586,6 +612,7 @@
     <property role="EcuMT" value="1158474964212744280" />
     <property role="3GE5qa" value="flintmodelrunner" />
     <property role="TrG5h" value="FlintModelActorReference" />
+    <property role="R4oN_" value="Actor holder for Flintrunner" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="10jIHuj5o1p" role="1TKVEi">
       <property role="IQ2ns" value="1158474964212744281" />
@@ -598,66 +625,77 @@
     <property role="EcuMT" value="4808965957220771074" />
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="AND" />
+    <property role="R4oN_" value="Describes the AND expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16Ymv" resolve="MultiExpression" />
   </node>
   <node concept="1TIwiD" id="4aWSgWx5NCS">
     <property role="EcuMT" value="4808965957220776504" />
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="EQUAL" />
+    <property role="R4oN_" value="Describes the EQUAL expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16Ymv" resolve="MultiExpression" />
   </node>
   <node concept="1TIwiD" id="4aWSgWx5NCY">
     <property role="EcuMT" value="4808965957220776510" />
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="LESS_THAN" />
+    <property role="R4oN_" value="Describes the LESS THAN expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16Ymv" resolve="MultiExpression" />
   </node>
   <node concept="1TIwiD" id="4aWSgWx5ND1">
     <property role="EcuMT" value="4808965957220776513" />
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="LIST" />
+    <property role="R4oN_" value="Describes the LIST expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16YlU" resolve="ListExpression" />
   </node>
   <node concept="1TIwiD" id="4aWSgWx5ND4">
     <property role="EcuMT" value="4808965957220776516" />
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="MAX" />
+    <property role="R4oN_" value="Describes the MAX expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16Ymv" resolve="MultiExpression" />
   </node>
   <node concept="1TIwiD" id="4aWSgWx5ND7">
     <property role="EcuMT" value="4808965957220776519" />
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="MIN" />
+    <property role="R4oN_" value="Describes the MIN expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16Ymv" resolve="MultiExpression" />
   </node>
   <node concept="1TIwiD" id="4aWSgWx5NDa">
     <property role="EcuMT" value="4808965957220776522" />
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="NOT" />
+    <property role="R4oN_" value="Describes the NOT expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16Ymm" resolve="SingleExpression" />
   </node>
   <node concept="1TIwiD" id="4aWSgWx5NDd">
     <property role="EcuMT" value="4808965957220776525" />
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="OR" />
+    <property role="R4oN_" value="Describes the OR expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16Ymv" resolve="MultiExpression" />
   </node>
   <node concept="1TIwiD" id="4aWSgWx5NDg">
     <property role="EcuMT" value="4808965957220776528" />
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="PRODUCT" />
+    <property role="R4oN_" value="Describes the PRODUCT expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16Ymv" resolve="MultiExpression" />
   </node>
   <node concept="1TIwiD" id="4aWSgWx5NDj">
     <property role="EcuMT" value="4808965957220776531" />
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="SUM" />
+    <property role="R4oN_" value="Describes the SUM expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16Ymv" resolve="MultiExpression" />
   </node>
   <node concept="1TIwiD" id="4aWSgWx5NEg">
     <property role="TrG5h" value="LITERAL" />
     <property role="3GE5qa" value="expressions" />
     <property role="EcuMT" value="4808965957220776534" />
+    <property role="R4oN_" value="Describes the LITERAL expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16YlS" resolve="Expression" />
     <node concept="1TJgyj" id="4aWSgWx5NEi" role="1TKVEi">
       <property role="IQ2ns" value="4808965957220776594" />
@@ -672,6 +710,7 @@
     <property role="3GE5qa" value="expressions.literals" />
     <property role="TrG5h" value="StringOperand" />
     <property role="34LRSv" value="string" />
+    <property role="R4oN_" value="Holds a boolean operand" />
     <ref role="1TJDcQ" node="4NVq1Wbc09Y" resolve="LiteralOperand" />
     <node concept="1TJgyi" id="4aWSgWx5NMW" role="1TKVEl">
       <property role="IQ2nx" value="4808965957220777148" />
@@ -684,6 +723,7 @@
     <property role="3GE5qa" value="expressions.literals" />
     <property role="TrG5h" value="BooleanOperand" />
     <property role="34LRSv" value="boolean" />
+    <property role="R4oN_" value="Holds a boolean operand" />
     <ref role="1TJDcQ" node="4NVq1Wbc09Y" resolve="LiteralOperand" />
     <node concept="1TJgyi" id="4aWSgWx5NMU" role="1TKVEl">
       <property role="IQ2nx" value="4808965957220777146" />
@@ -696,6 +736,7 @@
     <property role="3GE5qa" value="expressions.literals" />
     <property role="TrG5h" value="NumberOperand" />
     <property role="34LRSv" value="number" />
+    <property role="R4oN_" value="Holds a number operand" />
     <ref role="1TJDcQ" node="4NVq1Wbc09Y" resolve="LiteralOperand" />
     <node concept="1TJgyi" id="4aWSgWx5NMN" role="1TKVEl">
       <property role="IQ2nx" value="4808965957220777139" />
@@ -715,18 +756,26 @@
     <node concept="PrWs8" id="2vpCevmrg7f" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="t5JxF" id="5OUOrAlYX16" role="lGtFl">
+      <property role="t5JxN" value="Interface for concepts requiring unique names. Used to track these concepts and ensure they are uniquely named" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4OBWPp15Tuc">
     <property role="TrG5h" value="Resolvable" />
     <property role="EcuMT" value="6587498613242889852" />
     <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="Abstract concept defining a concept which is resolvable (usable within a precondition)" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="t5JxF" id="5OUOrAlZ0ja" role="lGtFl">
+      <property role="t5JxN" value="Concepts extending from this concept can be used in preconditions/functions to make an expression" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4OBWPp16YlS">
     <property role="TrG5h" value="Expression" />
     <property role="3GE5qa" value="expressions" />
     <property role="EcuMT" value="4808965957220331686" />
     <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="Abstraction to describe an Expression" />
     <ref role="1TJDcQ" node="4OBWPp15Tuc" resolve="Resolvable" />
   </node>
   <node concept="1TIwiD" id="4OBWPp16YlU">
@@ -734,6 +783,7 @@
     <property role="3GE5qa" value="expressions" />
     <property role="EcuMT" value="4808965957220331691" />
     <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="Describes the LIST expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16YlS" resolve="Expression" />
     <node concept="1TJgyj" id="4aWSgWx48ac" role="1TKVEi">
       <property role="IQ2ns" value="4808965957220336268" />
@@ -756,6 +806,7 @@
     <property role="3GE5qa" value="expressions" />
     <property role="EcuMT" value="4808965957220331688" />
     <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="Abstraction to describe a SingleExpression, containing a single operand" />
     <ref role="1TJDcQ" node="4OBWPp16YlS" resolve="Expression" />
     <node concept="1TJgyj" id="4aWSgWx472D" role="1TKVEi">
       <property role="IQ2ns" value="4808965957220331689" />
@@ -773,6 +824,7 @@
     <property role="3GE5qa" value="expressions" />
     <property role="EcuMT" value="4808965957220331692" />
     <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="Abstraction to describe a MultiExpression, containing multiple operans" />
     <ref role="1TJDcQ" node="4OBWPp16YlS" resolve="Expression" />
     <node concept="1TJgyj" id="4aWSgWx472H" role="1TKVEi">
       <property role="IQ2ns" value="4808965957220331693" />
@@ -790,11 +842,15 @@
     <property role="3GE5qa" value="expressions.literals" />
     <property role="EcuMT" value="4808965957220776537" />
     <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="Holds a Literal operand" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="PlHQZ" id="4NVq1WbrY6z">
     <property role="EcuMT" value="5547141848582054307" />
     <property role="TrG5h" value="IHasResolvable" />
+    <node concept="t5JxF" id="5OUOrAlYN9g" role="lGtFl">
+      <property role="t5JxN" value="Interface for concept which have children which are Resolveable or inherit from it" />
+    </node>
   </node>
   <node concept="PlHQZ" id="woTyy$Etl9">
     <property role="EcuMT" value="583469213980153160" />
@@ -804,6 +860,9 @@
     </node>
     <node concept="PrWs8" id="woTyy$ECYr" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="t5JxF" id="5OUOrAlYNXM" role="lGtFl">
+      <property role="t5JxN" value="Interface for concepts which have a Resolveable node acting as root for a precondition" />
     </node>
   </node>
   <node concept="PlHQZ" id="63E5y3TGjs_">
@@ -819,11 +878,15 @@
     <node concept="PrWs8" id="4_s3JQCCFFj" role="PrDN$">
       <ref role="PrY4T" to="a78y:4_s3JQCC8OY" resolve="IProvidesRoleTagsCell" />
     </node>
+    <node concept="t5JxF" id="5OUOrAlYOMk" role="lGtFl">
+      <property role="t5JxN" value="Interface for concepts requiring sources. Provides properties to hold/edit sources" />
+    </node>
   </node>
   <node concept="1TIwiD" id="riOo_LzybO">
     <property role="EcuMT" value="491685697582670580" />
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="CREATE" />
+    <property role="R4oN_" value="Describes the CREATE expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16Ymv" resolve="MultiExpression" />
     <node concept="PrWs8" id="riOo_LzybP" role="PzmwI">
       <ref role="PrY4T" node="4NVq1WbrY6z" resolve="IHasResolvable" />
@@ -833,6 +896,7 @@
     <property role="EcuMT" value="491685697582699846" />
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="PROJECTION" />
+    <property role="R4oN_" value="Describes the PROJECTION expression inside a function" />
     <ref role="1TJDcQ" node="4OBWPp16YlS" resolve="Expression" />
     <node concept="1TJgyj" id="riOo_LzIRv" role="1TKVEi">
       <property role="IQ2ns" value="491685697582722527" />
@@ -861,11 +925,15 @@
     <node concept="PrWs8" id="LTOSk0HPl0" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="t5JxF" id="5OUOrAlYJsS" role="lGtFl">
+      <property role="t5JxN" value="Provides interface for creatable and terminateable references of an Duty" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1YpZTwqsS7q">
     <property role="EcuMT" value="2277132115356385754" />
     <property role="3GE5qa" value="flintmodelrunner" />
     <property role="TrG5h" value="FlintRunnerFact" />
+    <property role="R4oN_" value="Fact holder for Flintrunner" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1YpZTwqsS7r" role="1TKVEi">
       <property role="IQ2ns" value="2277132115356385755" />
@@ -887,18 +955,30 @@
     <node concept="PrWs8" id="74VLc6kDasT" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="t5JxF" id="5OUOrAlYKhs" role="lGtFl">
+      <property role="t5JxN" value="Provides a generic interface for Flintmodels. Used for testing purposes" />
+    </node>
   </node>
   <node concept="PlHQZ" id="74VLc6kEIu3">
     <property role="EcuMT" value="8159331485613746051" />
     <property role="TrG5h" value="ITestScopeProvider" />
+    <node concept="t5JxF" id="5OUOrAlYRfW" role="lGtFl">
+      <property role="t5JxN" value="Interface for testscope provider, used for testing purposes" />
+    </node>
   </node>
   <node concept="PlHQZ" id="1DVZuk_n$Nm">
     <property role="EcuMT" value="1908398027737812182" />
     <property role="TrG5h" value="IReference" />
+    <node concept="t5JxF" id="5OUOrAlYQro" role="lGtFl">
+      <property role="t5JxN" value="Interface for concepts acting as references" />
+    </node>
   </node>
   <node concept="PlHQZ" id="5REjpykwy73">
     <property role="EcuMT" value="6767306707799515587" />
     <property role="TrG5h" value="IShouldBeInVirtualPackage" />
+    <node concept="t5JxF" id="5OUOrAlYQPE" role="lGtFl">
+      <property role="t5JxN" value="Interface for concepts which should be in a virtual package. Was used to order nodes in the logical view" />
+    </node>
   </node>
   <node concept="25R3W" id="4AIlyP2wQAK">
     <property role="3F6X1D" value="5309275763105819056" />
@@ -1145,6 +1225,7 @@
   <node concept="1TIwiD" id="2_LEkEjGqSg">
     <property role="EcuMT" value="2986354165693918736" />
     <property role="TrG5h" value="SRole" />
+    <property role="R4oN_" value="Contains roles which are used within tagging" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2_LEkEjGqSh" role="1TKVEl">
       <property role="IQ2nx" value="2986354165693918737" />
@@ -1155,12 +1236,14 @@
   <node concept="1TIwiD" id="6LSqBjXFI_4">
     <property role="EcuMT" value="7816114204006345028" />
     <property role="TrG5h" value="CustomText" />
+    <property role="R4oN_" value="Provides more editable friendly text via helper functions" />
     <ref role="1TJDcQ" to="87nw:2dWzqxEB$Tx" resolve="Text" />
   </node>
   <node concept="1TIwiD" id="6LSqBjXUGpy">
     <property role="EcuMT" value="7816114204010268258" />
     <property role="TrG5h" value="TaggedWord" />
     <property role="34LRSv" value="tagged" />
+    <property role="R4oN_" value="Word which is tagged with an specific role (property)" />
     <ref role="1TJDcQ" to="87nw:2dWzqxEBMSc" resolve="Word" />
     <node concept="1TJgyj" id="6LSqBjXUGpB" role="1TKVEi">
       <property role="IQ2ns" value="7816114204010268263" />
@@ -1169,11 +1252,15 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="2_LEkEjGqSg" resolve="SRole" />
     </node>
+    <node concept="t5JxF" id="5OUOrAlZ17G" role="lGtFl">
+      <property role="t5JxN" value="Taggedwords can be found within the text of Flintsources and track the tagging inside the containing node" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2ACGKFDB3mq">
     <property role="TrG5h" value="Language" />
     <property role="EcuMT" value="3001846011087139046" />
     <property role="19KtqR" value="true" />
+    <property role="R4oN_" value="Concept for holding an Editorlanguage" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2ACGKFDhrgG" role="1TKVEl">
       <property role="IQ2nx" value="3001846011087139884" />
@@ -1365,6 +1452,7 @@
   <node concept="1TIwiD" id="3JnAoJLBIOl">
     <property role="EcuMT" value="4312083994563767573" />
     <property role="TrG5h" value="LanguageReference" />
+    <property role="R4oN_" value="Referenceholder of a Language" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3JnAoJLBJr_" role="1TKVEi">
       <property role="IQ2ns" value="4312083994563770085" />
@@ -1389,10 +1477,14 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="4BELQW_1oJD" resolve="TranslatedName" />
     </node>
+    <node concept="t5JxF" id="5OUOrAlYL5Y" role="lGtFl">
+      <property role="t5JxN" value="Interface for nodes requiring translations. Provides the needed properties needed for translations" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4BELQW_1oJD">
     <property role="EcuMT" value="5326288789495450601" />
     <property role="TrG5h" value="TranslatedName" />
+    <property role="R4oN_" value="Provides a name which can be linked to a Language" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4BELQW_1p0y" role="1TKVEl">
       <property role="IQ2nx" value="5326288789495451682" />
@@ -1404,6 +1496,9 @@
       <property role="TrG5h" value="translatedName" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="t5JxF" id="5OUOrAlZ1xY" role="lGtFl">
+      <property role="t5JxN" value="Translatedname provides the functionality to link a name to a language and thus replace INamed concept" />
+    </node>
   </node>
   <node concept="PlHQZ" id="UjCAmBFIEv">
     <property role="EcuMT" value="1050361695596112543" />
@@ -1412,6 +1507,9 @@
       <property role="IQ2nx" value="1050361695596114238" />
       <property role="TrG5h" value="archived" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="t5JxF" id="5OUOrAlYoCr" role="lGtFl">
+      <property role="t5JxN" value="Provides interface for archiveable concepts, contains properties to track status " />
     </node>
   </node>
   <node concept="PlHQZ" id="LZYRE$YEeo">
@@ -1446,6 +1544,9 @@
     </node>
     <node concept="PrWs8" id="50$8lVg_KLV" role="PrDN$">
       <ref role="PrY4T" to="a78y:1bPqaB7Hr7H" resolve="IProvidesTranslatedCell" />
+    </node>
+    <node concept="t5JxF" id="5OUOrAlYQ16" role="lGtFl">
+      <property role="t5JxN" value="Interface for concepts requiring versioning and validation. Provides properties to track these functions." />
     </node>
   </node>
   <node concept="1TIwiD" id="78uEmvTYKrp">
