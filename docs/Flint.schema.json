@@ -7,32 +7,40 @@
             "properties": {
                 "validFrom": {
                     "type": "string",
+                    "description": "Valid from date source, can be empty or date",
                     "pattern": "^$|^[0-9]{2}-[0-9]{2}-[0-9]{4}$"
                 },
                 "validTo": {
                     "type": "string",
+                    "description": "Valid to date source, can be empty or date",
                     "pattern": "^$|^[0-9]{2}-[0-9]{2}-[0-9]{4}$"
                 },
                 "citation": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Name of referenced LawSourceVersion and Article"
                 },
                 "juriconnect": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Juriconnect string"
                 },
                 "text": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Text which this source contains"
                 },
                 "explanation": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Explanation of the source"
                 },
                 "tags": {
                     "type": "array",
+                    "description": "Tagged words within the source",
                     "items": [
                       {
                         "type": "object",
                         "properties": {
                           "roles": {
                             "type": "array",
+                            "description": "Roles in which a specific word is tagged e.g. Actor",
                             "items": [
                               {
                                 "type": "string"
@@ -40,7 +48,8 @@
                             ]
                           },
                           "word": {
-                            "type": "integer"
+                            "type": "integer",
+                            "description": "Placement of the tagged word"
                           }
                         },
                         "required": [
@@ -75,6 +84,7 @@
                 {
                     "type": "string",
                     "pattern": "^(\\[[^[\\]]*\\])|(<<>>)$",
+                    "description": "Fact as expression",
                     "defaultSnippets": [
                         {
                             "label": "Fact",
@@ -96,6 +106,7 @@
         },
         "list": {
             "type": "object",
+            "description": "List expression",
             "properties": {
                 "expression": {
                     "type": "string",
@@ -127,6 +138,7 @@
         },
         "multi": {
             "type": "object",
+            "description": "All types of multi expressions",
             "properties": {
                 "expression": {
                     "type": "string",
@@ -250,6 +262,7 @@
             "anyOf": [
                 { 
                     "type": "object",
+                    "description": "NOT expression",
                     "properties": {
                         "expression": {
                             "type": "string",
@@ -276,6 +289,7 @@
                 },
                 {
                     "type": "object",
+                    "description": "PROJECTION expression",
                     "properties": {
                     "expression": {
                         "type": "string",
@@ -283,6 +297,7 @@
                     },
                     "context": {
                         "type": "array",
+                        "description": "Context FactReference on which PROJECTION is called",
                         "items": [
                         {
                             "type": "string"
@@ -290,7 +305,8 @@
                         ]
                     },
                     "fact": {
-                        "type": "string"
+                        "type": "string",
+                        "description": "Projected FactReference"
                     }
                     },
                     "required": [
@@ -301,6 +317,7 @@
                 },
                 { 
                     "type": "object",
+                    "description": "LITERAL expression",
                     "properties": {
                         "expression": {
                             "type": "string",
@@ -344,10 +361,12 @@
             "type": "object",
             "properties": {
               "interpretationLanguage": {
-                "type": "string"
+                "type": "string",
+                "description": "Language in which the interpretation is made"
               },
               "editorLanguage": {
                 "type": "object",
+                "description": "Language and its translations in which the editor should be displayed",
                 "properties": {
                   "languageName": {
                     "type": "string"
@@ -480,6 +499,7 @@
         },
         "acts": {
             "type": "array",
+            "description": "Duty defined per FLINT-vison.md with tags and explanation as supplementary fields for the IDE",
             "items": {
                 "type": "object",
                 "properties": {
@@ -557,6 +577,7 @@
         },
         "facts": {
             "type": "array",
+            "description": "Duty defined per FLINT-vison.md with tags and explanation as supplementary fields for the IDE",
             "items": {
                 "type": "object",
                 "properties": {
@@ -598,6 +619,7 @@
         },
         "duties": {
             "type": "array",
+            "description": "Duty defined per FLINT-vison.md with explanation and tags as supplementary fields for the IDE",
             "items": {
                 "type": "object",
                 "properties": {
