@@ -1,0 +1,62 @@
+@startuml Lawsource model
+title LawSource Model
+
+skinparam nodesep 25
+skinparam ranksep 75
+skinparam groupInheritance 2
+
+interface "de.slisson.mps.richtext.structure.IWord" 
+interface "LawSource.structure.SourcePart" 
+"LawSource.structure.SourcePart" : lineId : string
+"LawSource.structure.SourcePart" : index : integer
+"LawSource.structure.SourcePart" : validFromDate : Date
+"LawSource.structure.SourcePart" : validToDate : Date
+"LawSource.structure.SourcePart" : retroactiveDate : Date
+class "LawSource.structure.SourcePartCollection"
+class "LawSource.structure.LawsourceText"  
+class "LawSource.structure.SeperatedNamedContainer"  << (R, lightgrey) >>
+class "de.slisson.mps.richtext.structure.Text"  
+class "de.slisson.mps.richtext.structure.Word"  
+"de.slisson.mps.richtext.structure.Word" : escapedValue : string
+class "LawSource.structure.TableHead"  
+class "LawSource.structure.LawSource" <INamedConcept> << (R, lightgrey) >>
+"LawSource.structure.LawSource" : bwbId : string
+class "LawSource.structure.NamedSourcePartCollection" <INamedConcept> 
+class "LawSource.structure.Line"  
+class "LawSource.structure.TableGroup"  
+class "LawSource.structure.TableRow"  
+class "LawSource.structure.LawsourceWord"  
+class "LawSource.structure.PrefixContainer"  
+"LawSource.structure.PrefixContainer" : prefix : string
+class "LawSource.structure.TableBody"  
+class "LawSource.structure.Version"  << (R, lightgrey) >>
+"LawSource.structure.Version" : startDate : string
+"LawSource.structure.Version" : endDate : string
+"LawSource.structure.Version" : id : string
+"LawSource.structure.Version" : juriConnect : string
+"LawSource.structure.Version" : wettenNl : string
+class "LawSource.structure.SeperatedNamedContainerReference"  
+class "LawSource.structure.Table"  
+"LawSource.structure.SourcePart" <|.. "LawSource.structure.SourcePartCollection"
+"de.slisson.mps.richtext.structure.Text" <|-- "LawSource.structure.LawsourceText"
+"LawSource.structure.NamedSourcePartCollection" <|-- "LawSource.structure.SeperatedNamedContainer"
+"de.slisson.mps.richtext.structure.IWord" <|.. "de.slisson.mps.richtext.structure.Word"
+"LawSource.structure.SourcePartCollection" <|-- "LawSource.structure.TableHead"
+"LawSource.structure.SourcePartCollection" <|-- "LawSource.structure.NamedSourcePartCollection"
+"LawSource.structure.SourcePart" <|.. "LawSource.structure.Line"
+"LawSource.structure.SourcePartCollection" <|-- "LawSource.structure.TableGroup"
+"LawSource.structure.SourcePartCollection" <|-- "LawSource.structure.TableRow"
+"de.slisson.mps.richtext.structure.Word" <|-- "LawSource.structure.LawsourceWord"
+"LawSource.structure.SourcePartCollection" <|-- "LawSource.structure.PrefixContainer"
+"LawSource.structure.SourcePartCollection" <|-- "LawSource.structure.TableBody"
+"LawSource.structure.NamedSourcePartCollection" <|-- "LawSource.structure.Version"
+"LawSource.structure.SourcePart" <|.. "LawSource.structure.SeperatedNamedContainerReference"
+"LawSource.structure.SourcePartCollection" <|-- "LawSource.structure.Table"
+"LawSource.structure.SourcePartCollection" "1" *-- "0..n" "LawSource.structure.SourcePart" : lines
+"LawSource.structure.SeperatedNamedContainer" "1" --> "1" "LawSource.structure.Version" : version
+"de.slisson.mps.richtext.structure.Text" "1" *-- "1..n" "de.slisson.mps.richtext.structure.IWord" : words
+"LawSource.structure.Line" "1" *-- "1" "LawSource.structure.LawsourceText" : text
+"LawSource.structure.Version" "1" --> "1" "LawSource.structure.LawSource" : source
+"LawSource.structure.SeperatedNamedContainerReference" "1" --> "1" "LawSource.structure.SeperatedNamedContainer" : namedContainer
+
+@enduml

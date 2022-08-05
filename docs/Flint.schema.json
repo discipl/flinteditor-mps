@@ -1,0 +1,703 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema#",
+    "type": "object",
+    "definitions": {
+        "source": {
+            "type": "object",
+            "properties": {
+                "validFrom": {
+                    "type": "string",
+                    "description": "Valid from date source, can be empty or date",
+                    "pattern": "^$|^[0-9]{2}-[0-9]{2}-[0-9]{4}$"
+                },
+                "validTo": {
+                    "type": "string",
+                    "description": "Valid to date source, can be empty or date",
+                    "pattern": "^$|^[0-9]{2}-[0-9]{2}-[0-9]{4}$"
+                },
+                "citation": {
+                    "type": "string",
+                    "description": "Name of referenced LawSourceVersion and Article"
+                },
+                "juriconnect": {
+                    "type": "string",
+                    "description": "Juriconnect string"
+                },
+                "text": {
+                    "type": "string",
+                    "description": "Text which this source contains"
+                },
+                "explanation": {
+                    "type": "string",
+                    "description": "Explanation of the source"
+                },
+                "tags": {
+                    "type": "array",
+                    "description": "Tagged words within the source",
+                    "items": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "roles": {
+                            "type": "array",
+                            "description": "Roles in which a specific word is tagged e.g. Actor",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          },
+                          "word": {
+                            "type": "integer",
+                            "description": "Placement of the tagged word"
+                          }
+                        },
+                        "required": [
+                          "roles",
+                          "word"
+                        ]
+                      }
+                    ]
+                }
+            },
+            "required": [
+                "validFrom",
+                "citation",
+                "text"
+            ],
+            "defaultSnippets": [
+                {
+                    "label": "New Source",
+                    "description": "Insert a new source",
+                    "body": {
+                        "validFrom": "$1",
+                        "validTo": "$2",
+                        "citation": "$3",
+                        "juriconnect": "$4",
+                        "text": "$5"
+                    }
+                }
+            ]
+        },
+        "expression": {
+            "anyOf": [
+                {
+                    "type": "string",
+                    "pattern": "^(\\[[^[\\]]*\\])|(<<>>)$",
+                    "description": "Fact as expression",
+                    "defaultSnippets": [
+                        {
+                            "label": "Fact",
+                            "description": "Insert fact",
+                            "body": "[$1]"
+                        }
+                    ]
+                },
+                {
+                    "$ref": "#/definitions/multi"
+                },
+                {
+                    "$ref": "#/definitions/single"
+                },
+                {
+                    "$ref": "#/definitions/list"
+                }
+            ]
+        },
+        "list": {
+            "type": "object",
+            "description": "List expression",
+            "properties": {
+                "expression": {
+                    "type": "string",
+                    "pattern": "^LIST$"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "items": {
+                    "$ref": "#/definitions/expression"
+                }
+            },
+            "required": [
+                "expression",
+                "name",
+                "items"
+            ],
+            "defaultSnippets": [
+                {
+                    "label": "LIST",
+                    "description": "Insert LIST",
+                    "body": {
+                        "expression": "LIST",
+                        "name": "$1",
+                        "items": "^$2"
+                    }
+                }
+            ]
+        },
+        "multi": {
+            "type": "object",
+            "description": "All types of multi expressions",
+            "properties": {
+                "expression": {
+                    "type": "string",
+                    "pattern": "^(AND)|(CREATE)|(XOR)|(OR)|(LESS_THAN)|(EQUAL)|(SUM)|(PRODUCT)|(MIN)|(MAX)$"
+                },
+                "operands": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/expression"
+                    }
+                }
+            },
+            "required": [
+                "expression",
+                "operands"
+            ],
+            "defaultSnippets": [
+                {
+                    "label": "AND",
+                    "description": "Insert AND",
+                    "body": {
+                        "expression": "AND",
+                        "operands": [
+                            "^$1"
+                        ]
+                    }
+                },
+                {
+                    "label": "OR",
+                    "description": "Insert OR",
+                    "body": {
+                        "expression": "OR",
+                        "operands": [
+                            "^$1"
+                        ]
+                    }
+                },
+                {
+                    "label": "XOR",
+                    "description": "Insert XOR",
+                    "body": {
+                        "expression": "XOR",
+                        "operands": [
+                            "^$1"
+                        ]
+                    }
+                },
+                {
+                    "label": "CREATE",
+                    "description": "Insert CREATE",
+                    "body": {
+                        "expression": "CREATE",
+                        "operands": [
+                            "^$1"
+                        ]
+                    }
+                },
+                {
+                    "label": "LESS_THAN",
+                    "description": "Insert LESS_THAN",
+                    "body": {
+                        "expression": "LESS_THAN",
+                        "operands": [
+                            "^$1"
+                        ]
+                    }
+                },
+                {
+                    "label": "EQUAL",
+                    "description": "Insert EQUAL",
+                    "body": {
+                        "expression": "EQUAL",
+                        "operands": [
+                            "^$1"
+                        ]
+                    }
+                },
+                {
+                    "label": "SUM",
+                    "description": "Insert SUM",
+                    "body": {
+                        "expression": "SUM",
+                        "operands": [
+                            "^$1"
+                        ]
+                    }
+                },
+                {
+                    "label": "PRODUCT",
+                    "description": "Insert PRODUCT",
+                    "body": {
+                        "expression": "PRODUCT",
+                        "operands": [
+                            "^$1"
+                        ]
+                    }
+                },
+                {
+                    "label": "MIN",
+                    "description": "Insert MIN",
+                    "body": {
+                        "expression": "MIN",
+                        "operands": [
+                            "^$1"
+                        ]
+                    }
+                },
+                {
+                    "label": "MAX",
+                    "description": "Insert MAX",
+                    "body": {
+                        "expression": "MAX",
+                        "operands": [
+                            "^$1"
+                        ]
+                    }
+                }
+            ]
+        },
+        "single": {
+            "anyOf": [
+                { 
+                    "type": "object",
+                    "description": "NOT expression",
+                    "properties": {
+                        "expression": {
+                            "type": "string",
+                            "pattern": "^NOT$"
+                        },
+                        "operand": {
+                            "$ref": "#/definitions/expression"
+                        }
+                    },
+                    "required": [
+                        "expression",
+                        "operand"
+                    ],
+                    "defaultSnippets": [
+                        {
+                            "label": "NOT",
+                            "description": "Insert NOT",
+                            "body": {
+                                "expression": "NOT",
+                                "operand": "^$1"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "object",
+                    "description": "PROJECTION expression",
+                    "properties": {
+                    "expression": {
+                        "type": "string",
+                        "pattern": "^PROJECTION$"
+                    },
+                    "context": {
+                        "type": "array",
+                        "description": "Context FactReference on which PROJECTION is called",
+                        "items": [
+                        {
+                            "type": "string"
+                        }
+                        ]
+                    },
+                    "fact": {
+                        "type": "string",
+                        "description": "Projected FactReference"
+                    }
+                    },
+                    "required": [
+                    "expression",
+                    "context",
+                    "fact"
+                    ]
+                },
+                { 
+                    "type": "object",
+                    "description": "LITERAL expression",
+                    "properties": {
+                        "expression": {
+                            "type": "string",
+                            "pattern": "^LITERAL$"
+                        },
+                        "operand": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "number"
+                                },
+                                {
+                                    "type": "boolean"
+                                }
+                            ]
+                            
+                        }
+                    },
+                    "required": [
+                        "expression",
+                        "operand"
+                    ],
+                    "defaultSnippets": [
+                        {
+                            "label": "LITERAL",
+                            "description": "Insert LITERAL",
+                            "body": {
+                                "expression": "LITERAL",
+                                "operand": "^$1"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "properties": {
+        "language": {
+            "type": "object",
+            "properties": {
+              "interpretationLanguage": {
+                "type": "string",
+                "description": "Language in which the interpretation is made"
+              },
+              "editorLanguage": {
+                "type": "object",
+                "description": "Language and its translations in which the editor should be displayed",
+                "properties": {
+                  "languageName": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "acts": {
+                    "type": "string"
+                  },
+                  "facts": {
+                    "type": "string"
+                  },
+                  "duties": {
+                    "type": "string"
+                  },
+                  "function": {
+                    "type": "string"
+                  },
+                  "references": {
+                    "type": "string"
+                  },
+                  "dutyHolder": {
+                    "type": "string"
+                  },
+                  "claimant": {
+                    "type": "string"
+                  },
+                  "create": {
+                    "type": "string"
+                  },
+                  "terminate": {
+                    "type": "string"
+                  },
+                  "enforce": {
+                    "type": "string"
+                  },
+                  "explanation": {
+                    "type": "string"
+                  },
+                  "actor": {
+                    "type": "string"
+                  },
+                  "action": {
+                    "type": "string"
+                  },
+                  "eObject": {
+                    "type": "string"
+                  },
+                  "recipient": {
+                    "type": "string"
+                  },
+                  "precondition": {
+                    "type": "string"
+                  },
+                  "language": {
+                    "type": "string"
+                  },
+                  "sources": {
+                    "type": "string"
+                  },
+                  "text": {
+                    "type": "string"
+                  },
+                  "findLineInSource": {
+                    "type": "string"
+                  },
+                  "validFrom": {
+                    "type": "string"
+                  },
+                  "validTo": {
+                    "type": "string"
+                  },
+                  "tags": {
+                    "type": "string"
+                  },
+                  "version": {
+                    "type": "string"
+                  },
+                  "verified": {
+                    "type": "string"
+                  },
+                  "validated": {
+                    "type": "string"
+                  },
+                  "publicized": {
+                    "type": "string"
+                  },
+                  "selectVersion": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "languageName",
+                  "name",
+                  "acts",
+                  "facts",
+                  "duties",
+                  "function",
+                  "references",
+                  "dutyHolder",
+                  "claimant",
+                  "create",
+                  "terminate",
+                  "enforce",
+                  "explanation",
+                  "actor",
+                  "action",
+                  "eObject",
+                  "recipient",
+                  "precondition",
+                  "language",
+                  "sources",
+                  "text",
+                  "findLineInSource",
+                  "validFrom",
+                  "validTo",
+                  "tags",
+                  "version",
+                  "verified",
+                  "validated",
+                  "publicized",
+                  "selectVersion"
+                ]
+              }
+            },
+            "required": [
+              "interpretationLanguage"
+            ]
+        },
+        "acts": {
+            "type": "array",
+            "description": "Duty defined per FLINT-vison.md with tags and explanation as supplementary fields for the IDE",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "act": {
+                        "type": "string"
+                    },
+                    "actor": {
+                        "type": "string"
+                    },
+                    "action": {
+                        "type": "string"
+                    },
+                    "object": {
+                        "type": "string"
+                    },
+                    "recipient": {
+                        "type": "string"
+                    },
+                    "preconditions": {
+                        "$ref": "#/definitions/expression"
+                    },
+                    "create": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "terminate": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "sources": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/definitions/source"
+                        }
+                    },
+                    "explanation": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "act",
+                    "actor",
+                    "action",
+                    "object",
+                    "recipient",
+                    "preconditions",
+                    "create",
+                    "terminate",
+                    "sources",
+                    "explanation"
+                ],
+                "defaultSnippets": [
+                    {
+                        "label": "New Act",
+                        "description": "Insert a new act",
+                        "body": {
+                            "act": "<<$1>>",
+                            "actor": "[$2]",
+                            "action": "[$3]",
+                            "object": "[$4]",
+                            "recipient": "[$5]",
+                            "preconditions": "$6",
+                            "create": [],
+                            "terminate": [],
+                            "sources": [],
+                            "explanation": "$13"
+                        }
+                    }
+                ]
+            }
+        },
+        "facts": {
+            "type": "array",
+            "description": "Duty defined per FLINT-vison.md with tags and explanation as supplementary fields for the IDE",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "fact": {
+                        "type": "string"
+                    },
+                    "function": {
+                        "$ref": "#/definitions/expression"
+                    },
+                    "sources": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/definitions/source"
+                        }
+                    },
+                    "explanation": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "fact",
+                    "function",
+                    "sources",
+                    "explanation"
+                ],
+                "defaultSnippets": [
+                    {
+                        "label": "New Fact",
+                        "description": "Insert a new fact",
+                        "body": {
+                            "fact": "[$1]",
+                            "function": "[$2]",
+                            "sources": [],
+                            "explanation": "$7"
+                        }
+                    }
+                ]
+            }
+        },
+        "duties": {
+            "type": "array",
+            "description": "Duty defined per FLINT-vison.md with explanation and tags as supplementary fields for the IDE",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "duty": {
+                        "type": "string"
+                    },
+                    "duty-holder": {
+                        "type": "string"
+                    },
+                    "claimant": {
+                        "type": "string"
+                    },
+                    "create": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                    },
+                    "enforce": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                    },
+                    "terminate": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                    },
+                    "sources": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/definitions/source"
+                        }
+                    },
+                    "explanation": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "duty",
+                    "duty-holder",
+                    "claimant",
+                    "create",
+                    "enforce",
+                    "terminate",
+                    "sources",
+                    "explanation"
+                ],
+                "defaultSnippets": [
+                    {
+                        "label": "New Duty",
+                        "description": "Insert a new duty",
+                        "body": {
+                            "duty": "<$1>",
+                            "duty-holder": "[$2]",
+                            "claimant": "[$3]",
+                            "create": "$4",
+                            "terminate": "$5",
+                            "sources": [],
+                            "explanation": "$7"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "required": [
+        "language",
+        "acts",
+        "facts",
+        "duties"
+    ]
+}
