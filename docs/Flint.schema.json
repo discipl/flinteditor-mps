@@ -618,6 +618,14 @@
                           }
                         ]
                     },
+                    "enforce": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                    },
                     "terminate": {
                         "type": "array",
                         "items": [
@@ -631,6 +639,9 @@
                         "items": {
                             "$ref": "#/definitions/source"
                         }
+                    },
+                    "explanation": {
+                        "type": "string"
                     }
                 },
                 "required": [
@@ -638,6 +649,7 @@
                     "duty-holder",
                     "claimant",
                     "create",
+                    "enforce",
                     "terminate",
                     "sources",
                     "explanation"
