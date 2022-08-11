@@ -1,0 +1,84 @@
+@startuml Opening Act Editor
+
+title Opening Act Editor
+
+actor User as user
+participant "Act Editor" as editor
+participant "IHasLanguage_Behaviour" as IHSLB
+participant "Act Structure" as ActStruct
+
+user -> editor : opens
+editor -> IHSLB : getTranslatedName()
+alt translatedName == available 
+IHSLB -> editor : translatedName
+end
+alt translatedName == unavailable
+IHSLB -> IHSLB : Create translatedName
+IHSLB -> ModelUtils: getActiveInterpretationLanguage()
+ModelUtils -> IHSLB: Active language
+IHSLB -> IHSLB : Set translatedName to current name
+IHSLB -> IHSLB : Add language to translatedName
+IHSLB -> IHSLB : Add translatedName to children
+IHSLB -> editor: New translatedName
+end
+editor -> user : Name of act
+    loop foreach EditorProperty
+    editor -> LanguageCellProvider: getTranslatedCellProvider()
+    LanguageCellProvider -> ModelUtils: getActiveEditorLanguage()
+    ModelUtils -> LanguageCellProvider: ActiveEditorLanguage
+    LanguageCellProvider -> editor: Translated EditorProperty
+    editor -> user : Translated EditorProperty
+    end
+    loop foreach child (actor, action, etc) 
+    editor -> ActStruct: Fetch child
+    ActStruct -> editor: Child or null
+    editor -> user : Child or empty
+    end
+    loop foreach child (actor, action, etc)
+    editor -> IHasSources_Behaviour: Fetch tag for child
+    IHasSources_Behaviour -> ModelUtils: getActiveInterpretationLanguage()
+    ModelUtils -> IHasSources_Behaviour: ActiveInterpretationLanguage
+    IHasSources_Behaviour -> ActStruct: Get TaggedWords with ActiveInterpretationLanguage
+    ActStruct -> IHasSources_Behaviour: TaggedWords or empty
+        alt TaggedWords == available
+        IHasSources_Behaviour -> editor: EditorCell with tags and hyperlinks
+        end
+        else
+        alt TaggedWords == empty
+        IHasSources_Behaviour -> editor: Empty EditorCell
+        end
+        editor -> user: Show EditorCell
+    end
+editor -> IHasSources_Behaviour : getCurrentFlintSourceRefs()
+IHasSources_Behaviour -> ModelUtils: getActiveInterpretationLanguage()
+ModelUtils -> IHasSources_Behaviour: ActiveInterpretationLanguage
+IHasSources_Behaviour -> ActStruct: Get sources with ActiveInterpretationLanguage
+ActStruct -> IHasSources_Behaviour: Sources or empty
+IHasSources_Behaviour -> editor: Sources or empty
+editor -> DefaultEditorListProvider: Get EditorCell for sources
+alt sources != empty
+DefaultEditorListProvider -> editor: Interactable EditorCell with sources
+end
+alt sources == empty
+DefaultEditorListProvider -> editor: empty interactable EditorCell
+end
+editor -> user: Show EditorCell
+editor -> IHasSources_Behaviour : getSourceAutoFillButton()
+IHasSources_Behaviour -> SourceTranslationDiaglog : getAutofillDialog
+SourceTranslationDiaglog -> IHasSources_Behaviour : AutofillDialog
+IHasSources_Behaviour -> IHasSources_Behaviour : Add AutofillDialog to button
+IHasSources_Behaviour -> ModelUtils: getActiveInterpretationLanguage()
+ModelUtils -> IHasSources_Behaviour: ActiveInterpretationLanguage
+IHasSources_Behaviour -> ActStruct: Get sources with ActiveInterpretationLanguage
+ActStruct -> IHasSources_Behaviour: Sources or empty
+IHasSources_Behaviour -> ActStruct: Get all sources
+ActStruct -> IHasSources_Behaviour: Sources or empty
+alt sources with ActiveInterpretationLanguage == empty && all sources != empty
+IHasSources_Behaviour -> editor : AutoFillButton (JComponent)
+end
+alt else
+IHasSources_Behaviour -> editor : Empty label (JComponent)
+end
+editor -> user : Show JComponent
+
+@enduml

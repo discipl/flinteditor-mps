@@ -28,18 +28,18 @@ dsservice -> behavior : documentStructures
 behavior -> dsdialog : show()
 dsdialog -> user : DocumentStructureDialog
 user -> behavior : documentStructure
-behavior -> sourceTextService : requestSourceTextForCsv(csvPath, documentStructure)
+behavior -> stservice : requestSourceTextForCsv(csvPath, documentStructure)
 else
 behavior -> stservice: requestSourceTextForVersionId(parser.source.id, parser.id, version.id)
 end
 stservice -> behavior: requestId
     loop requestStatus != Ready
         behavior -> behavior : wait 0.5s
-        behavior -> sourceTextService : getRequestStatusForSourceTextForVersionId(sourceTextRequestId, publicationParser.publicationSource.id, publicationParser.id, version.id)
-        sourceTextService -> behavior : requestStatus
+        behavior -> stservice : getRequestStatusForSourceTextForVersionId(sourceTextRequestId, publicationParser.publicationSource.id, publicationParser.id, version.id)
+        stservice -> behavior : requestStatus
     end
-behavior -> sourceTextService : getRequestResultForSourceTextForVersionId(sourceTextRequestId, publicationParser.publicationSource.id, publicationParser.id, version.id)
-sourceTextService -> behavior : sourceParts
+behavior -> stservice : getRequestResultForSourceTextForVersionId(sourceTextRequestId, publicationParser.publicationSource.id, publicationParser.id, version.id)
+stservice -> behavior : sourceParts
 behavior -> spmapper : map(sourceParts)
 spmapper -> behavior : sourcePartNodes
 behavior -> editor : sourcePartNodes
