@@ -5,22 +5,24 @@ skinparam componentStyle rectangle
 skinparam Ranksep 100
 skinparam Nodesep 50
 
-package Behaviours{
-    component IHasLanguage_Behaviour
-    component IHasSources_Behaviour
+package Behaviour #909393{
+
+    package "Generated Act Behaviour" #C4C6C6{
+        component IHasLanguage_Behaviour
+        component IHasSources_Behaviour
+    }
+    
+    package "Helper Classes" #62C8FB{
+        component ModelUtils
+        component LanguageCellProvider
+        component DefaultEditorListProvider
+        component SourceTranslationDialog
+    }
 }
 
 
-
-package "Helper Classes"{
-    component ModelUtils
-    component LanguageCellProvider
-    component DefaultEditorListProvider
-    component SourceTranslationDialog
-}
-
-component "Act Editor" as actEditor
-component "Act Structure" as ActStruct
+component "Act Editor" as actEditor #E7C933
+component "Act Structure" as ActStruct #35D864
 
 actEditor --> IHasLanguage_Behaviour
 actEditor --> LanguageCellProvider
