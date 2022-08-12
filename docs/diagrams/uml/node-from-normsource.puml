@@ -1,0 +1,35 @@
+@startuml Node-From-NormSource
+title Create Act/Fact/Duty From NormSource
+skinparam componentStyle rectangle
+
+component Editor #E7C933
+package "MPS API" #62C8FB{
+    component Intentions
+    component Model
+}
+
+package "Flint.Plugin" #DBA5FD{
+    component NodeFromSelectionIntention
+    component CurrentModelSelector
+    
+    component NotifactionGroup
+    component MPSEditorOpener
+    component SourceUsedWordService
+    component NodeFromArticleUtils
+}
+
+package "Flint.behaviour" #C4C6C6{
+    component ModelUtils
+}
+
+
+Editor --> Intentions
+Editor --> NodeFromSelectionIntention
+NodeFromSelectionIntention --> CurrentModelSelector
+NodeFromSelectionIntention --> NodeFromArticleUtils
+NodeFromSelectionIntention --> MPSEditorOpener
+NodeFromSelectionIntention --> SourceUsedWordService
+NodeFromArticleUtils --> ModelUtils
+NodeFromArticleUtils --> NotifactionGroup
+ModelUtils --> Model
+@enduml

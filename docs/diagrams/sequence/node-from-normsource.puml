@@ -1,0 +1,59 @@
+@startuml Node-From-NormSource
+title Create Act/Fact/Duty From NormSource
+actor User as user
+participant editor
+box MPS API
+participant Intentions as intentions
+participant Model as model
+end box
+participant NodeFromSelectionIntention as NFSI
+
+user -> editor : Select text + alt + enter
+editor -> intentions: Gather all applicable intentions
+intentions -> editor: All applicable intentions
+editor -> user: Shows intentions
+user -> editor: Select intention
+editor -> NFSI: execute()
+NFSI -> CurrentModelSelector: getSelectedModel()
+CurrentModelSelector -> NFSI: selected model
+alt selected model == null
+NFSI -> CurrentModelSelector: openTool
+CurrentModelSelector -> user: show model selector
+end
+NFSI -> NodeFromArticleUtils: doesModelHaveFlintModel( selected model )
+alt doesModelHaveFlintModel() == false
+NodeFromArticleUtils -> ModelUtils: getFlintModel()
+ModelUtils -> model: roots(FlintModel)
+model -> ModelUtils: null
+ModelUtils -> NodeFromArticleUtils: null
+NodeFromArticleUtils -> NotificationGroup: Notify user via popup
+NodeFromArticleUtils -> NFSI: doesModelHaveFlintModel == False
+NFSI -> user: action cancelled
+end
+alt doesModelHaveFlintModel() == true
+NodeFromArticleUtils -> ModelUtils: getFlintModel()
+ModelUtils -> model: roots(FlintModel)
+model -> ModelUtils: FlintModel
+ModelUtils -> NodeFromArticleUtils: FlintModel
+NodeFromArticleUtils -> NFSI: doesModelHaveFlintModel == True
+NFSI -> NodeFromArticleUtils: CreateNodeFromSelection()
+NodeFromArticleUtils -> ModelUtils: createIHasSources()
+ModelUtils -> ModelUtils: getActiveInterpretationLanguage()
+ModelUtils -> ModelUtils: add Language to node
+ModelUtils -> ModelUtils: addTranslatedName() to node
+ModelUtils -> model: add IHasSource to model
+ModelUtils -> NodeFromArticleUtils: IHasSources node
+NodeFromArticleUtils -> NodeFromArticleUtils: addSourceToSourceHolder()
+NodeFromArticleUtils -> ModelUtils: getActiveInterpretationLanguage()
+ModelUtils -> NodeFromArticleUtils: ActiveInterpretationLanguage
+NodeFromArticleUtils -> NodeFromArticleUtils: add language to source
+NodeFromArticleUtils -> NodeFromArticleUtils: add source to sourceholder
+NodeFromArticleUtils -> NFSI: return new sourceholder
+NFSI -> MPSEditorOpener: Open new sourceholder
+NFSI -> SourceUsedWordService : refreshActiveEditors()
+MPSEditorOpener -> editor: Show new sourceholder
+editor -> user: Show new sourceholder
+end
+
+
+@enduml
