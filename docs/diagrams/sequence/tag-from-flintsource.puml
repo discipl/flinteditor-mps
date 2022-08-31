@@ -1,0 +1,45 @@
+@startuml Tag-From-FlintSource
+title Tag Word From FlintSource
+actor User as user
+participant editor
+box MPS API
+participant Intentions as intentions
+participant Model as model
+end box
+
+user -> editor : Select text + alt + enter
+editor -> intentions: Gather all applicable intentions
+intentions -> editor: All applicable intentions
+editor -> user: Shows intentions
+user -> editor: Select intention
+editor -> TagIntention: execute( word, context, parameter)
+TagIntention -> TagHelpers: toTaggedWord( word, context)
+TagHelpers -> TagHelpers: Transform word to TaggedWord
+TagHelpers -> TagIntention: TaggedWord
+TagIntention -> TagIntention: Add role (parameter) and normalize
+note left
+After this action the tag in the editor
+ is visible but the reference isn't filled yet
+end note
+TagIntention -> TagHelpers: autoFill( TaggedWord, Context )
+TagHelpers -> model: getFlintModel()
+model -> TagHelpers: FlintModel
+TagHelpers -> ModelUtils: createIHasSources()
+ModelUtils -> ModelUtils: getActiveInterpretationLanguage()
+ModelUtils -> ModelUtils: add Language to node
+ModelUtils -> ModelUtils: addTranslatedName() to node
+ModelUtils -> model: add IHasSource to model
+ModelUtils -> TagHelpers: IHasSources node
+TagHelpers -> TagHelpers: Add context sources to IHasSources node
+TagHelpers -> TagHelpers: Add reference to new IHasSources node\n in the tagged role of parent node
+note left
+After this action the
+reference is also filled
+end note
+editor -> editor: Automatically refreshes tags
+note left
+To see how tags are queried/displayed
+view opening-act-editor sequence diagram
+end note
+editor -> user: Show tags
+@enduml

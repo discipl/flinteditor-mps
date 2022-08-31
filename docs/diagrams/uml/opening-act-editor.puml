@@ -1,0 +1,37 @@
+@startuml Opening Act Editor
+title Opening Act Editor
+skinparam componentStyle rectangle
+
+skinparam Ranksep 100
+skinparam Nodesep 50
+
+package Behaviour #909393{
+
+    package "Generated Act Behaviour" #C4C6C6{
+        component IHasLanguage_Behaviour
+        component IHasSources_Behaviour
+    }
+    
+    package "Helper Classes" #62C8FB{
+        component ModelUtils
+        component LanguageCellProvider
+        component DefaultEditorListProvider
+        component SourceTranslationDialog
+    }
+}
+
+
+component "Act Editor" as actEditor #E7C933
+component "Act Structure" as ActStruct #35D864
+
+actEditor --> IHasLanguage_Behaviour
+actEditor --> LanguageCellProvider
+actEditor --> ActStruct
+actEditor --> IHasSources_Behaviour
+actEditor --> DefaultEditorListProvider
+IHasLanguage_Behaviour --> ModelUtils
+LanguageCellProvider -> ModelUtils
+IHasSources_Behaviour --> ModelUtils
+IHasSources_Behaviour -> ActStruct
+IHasSources_Behaviour --> SourceTranslationDialog
+@enduml

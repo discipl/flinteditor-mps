@@ -1,0 +1,24 @@
+@startuml Tag-From-FlintSource
+title Tag Word From FlintSource
+skinparam componentStyle rectangle
+
+component Editor #E7C933
+
+package "MPS API" #62C8FB{
+    component Intentions
+    component Model
+}
+
+package "Flint.behaviour" #C4C6C6{
+    component TagIntention
+    component TagHelpers
+    component ModelUtils
+}
+
+Editor --> Intentions
+Editor --> TagIntention
+TagIntention -> TagHelpers
+TagHelpers -> ModelUtils
+ModelUtils --> Model
+
+@enduml
